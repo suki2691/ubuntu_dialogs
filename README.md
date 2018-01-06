@@ -1,7 +1,8 @@
 # ubuntu_dialogs
 Topic detection from chat logs of the Ubuntu dialog dataset
 
-To run this code, please clone this repository onto your system with - 
+To run this code, please clone this repository onto your system with
+
 ``` $ git clone https://github.com/suki2691/ubuntu_dialogs.git ```
 
 Setup-
