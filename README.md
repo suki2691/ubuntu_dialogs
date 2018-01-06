@@ -2,15 +2,17 @@
 Topic detection from chat logs of the Ubuntu dialog dataset
 
 Setup-
-Python 3 (Anaconda)
-Jupyter Notebook
-NLTK
-LDA
-NMF
-Count Vectorizer
-TFIDF Vectorizer
+* Python 3 (Anaconda)
+* Scikit Learn package
+* Jupyter Notebook
+* NLTK
+* LDA
+* NMF
+* Count Vectorizer
+* TFIDF Vectorizer
 
-- Dataset - [dataf folder](https://github.com/suki2691/ubuntu_dialogs/tree/master/data)
+Resources-
+- Dataset - [data folder](https://github.com/suki2691/ubuntu_dialogs/tree/master/data)
 - Code - [ubuntu_topic_detection](https://github.com/suki2691/ubuntu_dialogs/blob/master/Ubuntu_topic_detection.ipynb)
 - Time spent- 1 day
 
