@@ -10,7 +10,7 @@ NMF
 Count Vectorizer
 TFIDF Vectorizer
 
-- Dataset - 
+- Dataset - [dataf folder](https://github.com/suki2691/ubuntu_dialogs/tree/master/data)
 - Code - [ubuntu_topic_detection](https://github.com/suki2691/ubuntu_dialogs/blob/master/Ubuntu_topic_detection.ipynb)
 - Time spent- 1 day
 
@@ -43,4 +43,7 @@ TFIDF Vectorizer
 - Extracted the nouns from the sentences from the given dialog file
 - Fit an NMF model to identify the main topics
   
- 
+## Next Steps-
+- Clean the chat logs better to remove fragmented words like don't and I'm
+- Some verbs are not removed. So, look for other POS tagging packages that are more efficient
+- Add more common words to the stop words list- like somebody and help
