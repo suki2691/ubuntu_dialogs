@@ -30,7 +30,7 @@ Resources-
 - Then I tried to store the chat data into a list- all the chat data was loaded into a list within a few minutes (~ 1 million messages)
 
 ### Data Cleaning-
-- I noticed that many of the messages had references of user names. So I found the set of distinct user names and added that set to the stop words list from nltk to create a new stop words list. This took care of user names appearing in the chat logs
+- Removed \n and \r from the messages
 - I removed all punctuation and special characters other than the period and the hyphen in both the user names and the chat messages
 
 ### Popular topics-
@@ -53,7 +53,7 @@ Resources-
 - Counted the occurence of the bigrams
 
 ## Approach used for Question 2-
-- Removed random user name references from the chat data of the given file
+- I noticed that many of the messages had references of user names. So I found the set of distinct user names and added that set to the stop words list from nltk to create a new stop words list. This took care of user names appearing in the chat logs.
 - Extracted the nouns from the sentences from the given dialog file
 - Fit an NMF model to identify the main topics
   
