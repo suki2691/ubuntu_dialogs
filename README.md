@@ -1,11 +1,12 @@
 # ubuntu_dialogs
 Topic detection from chat logs of the Ubuntu dialog dataset
 
-To run this code, please clone this repository onto your system typing the following command in your Terminal-
+Please clone this repository onto your system typing the following command in your Terminal-
 
 ``` 
 $ git clone https://github.com/suki2691/ubuntu_dialogs.git
 ```
+*To run the code, please open the Jupyter Notebook file(.ipynb) and execute the cells sequentially.
 
 Setup-
 * Python 3 (Anaconda)
