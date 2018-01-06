@@ -1,0 +1,4 @@
+2006-04-07T11:24:00.000Z	Shukhrat		i have script how run it in boot time ? please help
+2006-04-07T11:25:00.000Z	nickrud	Shukhrat	put it in /etc/init.d , then type sudo update-rc.d <name of script> defaults 99
+2006-04-07T11:25:00.000Z	Shukhrat	nickrud	it will start auto. in boot time
+2006-04-07T11:25:00.000Z	nickrud	Shukhrat	yes

@@ -1,0 +1,4 @@
+2008-04-15T15:09:00.000Z	kelvin911		how to delete all *.db file?
+2008-04-15T15:09:00.000Z	kelvin911		how to delete all thumb.db file in sub dir?
+2008-04-15T15:09:00.000Z	kelvin911		or all dir?
+2008-04-15T15:10:00.000Z	mosno	kelvin911	find /some/dir -type f -iname thumbs.db -exec rm {} \;

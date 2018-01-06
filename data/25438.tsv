@@ -1,0 +1,4 @@
+2011-11-27T23:28:00.000Z	oCean	codeshah	you mean on your own webserver? Running apache? Do you have php5 module enabled?
+2011-11-27T23:28:00.000Z	codeshah	oCean	yes, but let me look at everything again
+2011-11-27T23:28:00.000Z	oCean	codeshah	try to run   sudo a2enmod php5
+2011-11-27T23:29:00.000Z	oCean	codeshah	that should symlink the /etc/apache2/mods-enabled/php5  then be sure to restart apache

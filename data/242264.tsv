@@ -1,0 +1,4 @@
+2005-11-08T17:32:00.000Z	Kamping_Kaiser		use something to serve deb fiels and apt them in
+2005-11-08T17:33:00.000Z	aquarius	Kamping_Kaiser	yeah, I know generically that that's what I want, I'm trying to work out whether something already exists that I need to install. Note that I can't use apt for this, afaik, because I might want to deploy v1 of an app to one machine and v2 of the same app to a different machine.
+2005-11-08T17:34:00.000Z	aquarius		I think I'm going to need each machine to say to the central server "Hi, I'm machine24, got any debs for me?" and the server says "here are some URLs for debs", and machine24 grabs the debs and dpks -i's them. But...that'd be me writing it myself, and I wondered if someone's done a similar thing.
+2005-11-08T17:35:00.000Z	Kamping_Kaiser	aquarius	maybe, i havent had to find one I'm afraid :)

@@ -1,0 +1,4 @@
+2007-05-01T08:50:00.000Z	mrbrocoli		Im getting an error upgrading from edgy to feisty with the update-manager ("Error authenticating some packages... bla bla.. libpq5")
+2007-05-01T08:50:00.000Z	mrbrocoli		any idea how to fix that or to at least make it ignore libpq5?
+2007-05-01T08:50:00.000Z	mrbrocoli		or how to get some debug output from update-manager
+2007-05-01T08:51:00.000Z	LjL	mrbrocoli	type "apt-cache policy libpq5" to see if your libpq5 came from third-party repositories

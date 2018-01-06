@@ -1,0 +1,4 @@
+2007-09-03T16:11:00.000Z	staykovmarin		is there a way to force my USB stick to eject? as far as i can tell, nothing is using it, but when i try to unmount it it tells me 'cannot eject disk'
+2007-09-03T16:12:00.000Z	psylon	staykovmarin	You sure you don't have some app or file open on it? You can try to unmount it from the command line. Type 'mount' then sudo umount the drive or partion that it is mounted on from the command line.
+2007-09-03T16:14:00.000Z	staykovmarin	psylon	command line worked, thanks
+2007-09-03T16:15:00.000Z	psylon	staykovmarin	Sweet!

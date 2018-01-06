@@ -1,0 +1,4 @@
+2005-10-20T09:46:00.000Z	LazyAngel		hi! i'm running a process in a terminal window. It takes a very long time, and it writes the output to a file. Now i need to restart the x server. How can i let the process run in the background? i tried "ctrl+z" then "bg 1" but when i close the windows, the process will stop anyway...
+2005-10-20T09:46:00.000Z	gremid	LazyAngel	man nohup
+2005-10-20T09:50:00.000Z	gremid	LazyAngel	use nohup
+2005-10-20T09:51:00.000Z	LazyAngel	gremid	"thanks. but man didn't say much. is nohup used in the same way as sudo? e.g: nohup program

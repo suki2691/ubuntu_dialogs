@@ -1,0 +1,4 @@
+2012-06-26T00:21:00.000Z	linsys		Anyone? Besides -y what other way can I get apt-get to not promopt for configuration information?
+2012-06-26T00:23:00.000Z	genii-around	linsys	Make an /etc/apt/apt.conf file and put whatever you want as the defaults for it in there. apt-config dump   will show you the list of things you could set in there if you want.
+2012-06-26T00:25:00.000Z	genii-around	linsys	man apt.conf for syntax of how to add entries
+2012-06-26T00:27:00.000Z	linsys	genii-around	I just put it in puppet.. I didn't want to wait

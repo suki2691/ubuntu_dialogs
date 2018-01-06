@@ -1,0 +1,4 @@
+2011-02-20T23:14:00.000Z	rtdos		how can i upgrade a machine from 8.04 to 10.10 without losing anyting? i lost my network drivers and the ability to enter the desktop (i'm stuck in command line only mode)
+2011-02-20T23:14:00.000Z	DasEi	rtdos	I assume you did the upgrade already ?
+2011-02-20T23:20:00.000Z	rtdos	DasEi	- no i have not. that's what i'm trying to do now. i some how lost my network connection after installing openbox ose and because of that i lost my ability to boot up the desktop
+2011-02-20T23:25:00.000Z	DasEi	rtdos	just loosing network shouldn't affect booting into X; at a dist-upgrade all foreign apps, like wrapped drivers and so on get disabled, as they are not in the repos and could otherwise break the system, .. whole story ? you upggraded hardy to lucid and now just get a command line ?

@@ -1,0 +1,4 @@
+2007-01-04T11:11:00.000Z	bieb		I am still having huge problems configuring Dialup on my father's laptop that I just installed 6.06 on. I am using wvdial, it connects to my isp, it tells me that pppd is on, and it has received local address and primary and secondary DNS addresses.. can anyone help?
+2007-01-04T11:12:00.000Z	rukuartic	bieb	Not an expert with dialup, but it seems that everything you need is up...
+2007-01-04T11:13:00.000Z	bieb	rukuartic	thats what I thought too, but no websites show up... and I have the modem monitor tool in the toolbar, it gives me 0:00 for time connected
+2007-01-04T11:16:00.000Z	rukuartic	bieb	Try typing "ifconfig -a" and seeing what comes up... Compare that with "ifconfig". Is the interface active?

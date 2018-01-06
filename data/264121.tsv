@@ -1,0 +1,4 @@
+2005-03-08T16:23:00.000Z	tjs		how can I make the ubuntu software updater use a proxy?
+2005-03-08T16:23:00.000Z	tjs		Ive got my proxy environment variables set, as well as the gnome proxy setting
+2005-03-08T16:23:00.000Z	cardador	tjs	sudo nano /etc/apt/apt.conf
+2005-03-08T16:24:00.000Z	cardador	tjs	write this: Acquire::http::Proxy "http://user:pass@address:port";

@@ -1,0 +1,4 @@
+2010-12-20T03:31:00.000Z	busata		hellow, I just installed lamp-server, using tasksel, on ubuntu 10.10 netbook remix (not efficient, but eh), now I enabled userdir with a2enmod , enabled the php, but I still get 403 errors when trying to browse to the site, I tried various chmod settings, changed group to www-data, any clues?
+2010-12-20T03:32:00.000Z	mongy	busata	no expoert but dont you need to use ~name ?
+2010-12-20T03:33:00.000Z	busata	mongy	yes, it's what I'm trying, it worked fine a week ago or so on an ubuntu vm, not sure why it fails now
+2010-12-20T03:35:00.000Z	mongy	busata	try enabling indexes

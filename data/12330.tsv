@@ -1,0 +1,4 @@
+2012-10-14T02:13:00.000Z	aljosa		can i upload a package created with checkinstall (generated deb package, no deb source file)  to my ppa?
+2012-10-14T02:14:00.000Z	zykotick9	aljosa	you probably "shouldn't" checkinstall is a "cheat" and shouldn't be used to distribute the created DEBs...
+2012-10-14T02:15:00.000Z	aljosa	zykotick9	not true. maybe not for core system packages but good enough for personal use
+2012-10-14T02:16:00.000Z	zykotick9	aljosa	WRONG.  see https://help.ubuntu.com/community/CheckInstall in particular "CheckInstall is not designed to produce packages suitable for distribution. Do not use it to produce packages intended for the Ubuntu archive or PPAs."

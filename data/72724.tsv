@@ -1,0 +1,4 @@
+2010-07-18T06:40:00.000Z	leagris		Hello, can you help with unmet dependencies: http://paste.ubuntu.com/465259/ apt-get update does not help. Broken since nearly a full week.
+2010-07-18T06:42:00.000Z	leagris		even updating from main repositories the dependencies are broken with language-pack-gnome-fr
+2010-07-18T06:44:00.000Z	jamil_1	leagris	you may try sudo apt-get install -f
+2010-07-18T06:45:00.000Z	leagris	jamil_1	just found it was the proposed source that messed it up

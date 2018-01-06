@@ -1,0 +1,4 @@
+2011-06-24T21:46:00.000Z	jacobfogg		I just upgraded my ram to 6gb... in cmos it is showing up... when I type free -m from the shell it's telling me 3274... any thoughts???
+2011-06-24T21:46:00.000Z	jacobfogg		Do I have to tweak a setting in linux or something?
+2011-06-24T21:47:00.000Z	jacobfogg		hmmm where do I find that?
+2011-06-24T21:47:00.000Z	ActionParsnip	jacobfogg	32bit can only address 3.2Gb (ish) you will need PAE kernel to use up to 12Gb RAM but each process will only be able to access 3.2Gb

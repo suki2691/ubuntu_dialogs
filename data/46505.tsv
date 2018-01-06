@@ -1,0 +1,4 @@
+2011-11-12T20:52:00.000Z	pfifo	bullgard4	check this http://tldp.org/HOWTO/XWindow-User-HOWTO/cli.html
+2011-11-12T21:10:00.000Z	bullgard4	pfifo	In ~/config//autostart/rxvt.desktop I replaced 'Exec=rxvt-unicode' with 'Exec=rxvt-unicode -geometry 700 x 900 +0 +0'. Now my rxvt-unicode window does not appear any more automatically when logging in.
+2011-11-12T21:13:00.000Z	pfifo	bullgard4	try 'Exec=rxvt-unicode -geometry "700 x 900 +0 +0"'
+2011-11-12T21:17:00.000Z	bullgard4	pfifo	Using 'Exec=rxvt-unicode -geometry "700 x 900 +0 +0"'brings back the window to my display screen but the window has the default size and position and not "700 x 900 +0 +0".

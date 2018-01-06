@@ -1,0 +1,4 @@
+2006-10-31T11:46:00.000Z	NetVamp		Can someone explain to me why the free space on my ext3 partition gets smaller, even if I dont put any data on it?
+2006-10-31T11:47:00.000Z	NetVamp		I cant see any with ls -la
+2006-10-31T11:47:00.000Z	NetVamp		there was an empty lost+found folder, I deleted that one and afterwards its grown another 300mb
+2006-10-31T11:48:00.000Z	POVaddct	NetVamp	deleting lost+found is a bad idea. it is neede for filesystem maintainance

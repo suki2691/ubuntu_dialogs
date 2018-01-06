@@ -1,0 +1,4 @@
+2011-01-14T10:31:00.000Z	donleshot		how do i reload wlan0
+2011-01-14T10:31:00.000Z	donleshot		or stop/start
+2011-01-14T10:31:00.000Z	shcherbak	donleshot	ifdown wlan0 && ifup wlan0 , both with sudo
+2011-01-14T10:32:00.000Z	shcherbak	donleshot	or ifconfig wlan0 down && ifconfig wlan0 up , also sudo both

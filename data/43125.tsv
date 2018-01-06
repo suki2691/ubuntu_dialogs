@@ -1,0 +1,4 @@
+2009-11-14T02:33:00.000Z	_marix		is there an easy way to delay mounting of some devices during bootup?
+2009-11-14T02:33:00.000Z	Billiard	_marix	delay until when?
+2009-11-14T02:34:00.000Z	_marix	Billiard	delay just about 20-30 seconds
+2009-11-14T02:34:00.000Z	Billiard	_marix	you could put the noauto option in fstab and run a script that waits 30 seconds then mounts them maybe

@@ -1,0 +1,4 @@
+2009-08-20T05:44:00.000Z	Redeuxx		how do i search for an installed package using apt?
+2009-08-20T05:45:00.000Z	Redeuxx		i've used the command before and I'm pretty sure it wasn't apt-cache
+2009-08-20T05:47:00.000Z	nefa	Redeuxx	dpkg -l "*name*"
+2009-08-20T05:50:00.000Z	nefa	Redeuxx	use single or double quote. otherwise * will be interpreted by the shell before it gets to dpkg

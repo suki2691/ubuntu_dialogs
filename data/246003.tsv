@@ -1,0 +1,4 @@
+2005-03-10T13:02:00.000Z	Ominus		I've tried an lspci -vv command to discover whats my modem IRQ and port... and appears a lot of information, what is what i want since i don't see anythin clear like "IRQ x ... Port X" ??
+2005-03-10T13:02:00.000Z	carrot	Ominus	grep the output
+2005-03-10T13:04:00.000Z	Ominus	carrot	sorry.. put i'm pretty noob ant Linux and device management.. could you be more specific?
+2005-03-10T13:05:00.000Z	carrot	Ominus	lspci -vv|grep [string you want to find] 

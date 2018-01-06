@@ -1,0 +1,4 @@
+2008-05-15T02:12:00.000Z	martyn		Alright dudes. Trying to upgrade server 6.06 LTS to 8.04 from command line. Done updates with apt-get and upgrade and dist-upgrade but just says I am up-to-date. On typing lsb_release -a it reports I am still with 6.06.02. Any suggestions?
+2008-05-15T02:13:00.000Z	Myrtti	martyn	you've not done it exactly the right way
+2008-05-15T02:13:00.000Z	Myrtti	martyn	"sudo aptitude install update-manager-core"
+2008-05-15T02:14:00.000Z	Myrtti	martyn	"sudo do-release-upgrade"

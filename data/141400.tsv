@@ -1,0 +1,4 @@
+2007-03-26T12:27:00.000Z	boby		Can you help me i " wanna make a ping of a network but i don't wanna make a scan of a dead addresses" HOW TO MAKE A SCAN OF AN ALIVE ADDRESSES
+2007-03-26T12:27:00.000Z	boby		i try "ping 192.168.0."$j" -c 2 -i 0.001 -w 0.01 | grep 64\ bytes\"
+2007-03-26T12:27:00.000Z	boby		but in dead address weat 3-4 seconds
+2007-03-26T12:28:00.000Z	liutis	boby	try nmap, it works! "nmap -sP 192.168.0.* "

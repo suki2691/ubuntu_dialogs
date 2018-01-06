@@ -1,0 +1,4 @@
+2011-12-29T02:17:00.000Z	fivedaysahead		how do you run a program with it automatically switching to it? like gedit & will switch to it automatically how do i keep the focus on the terminal? and have it still open gedit?
+2011-12-29T02:18:00.000Z	escott	fivedaysahead	that would have to be something in the window manager. you might see if there is a plugin to compiz in ccsm if you are using unity
+2011-12-29T02:22:00.000Z	escott	fivedaysahead	that wont work. the X server will automatically probe the device. what about xnest?
+2011-12-30T01:12:00.000Z	escott	fivedaysahead	you cannot remotely access tty0, but you can ssh in if you have ssh installed

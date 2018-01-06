@@ -1,0 +1,4 @@
+2005-07-13T06:34:00.000Z	ed1t		is there any apt-get respitory for xfce?
+2005-07-13T06:36:00.000Z	nalioths_dog	ed1t	For a ready-to-use sources.list with all official Ubuntu repositories, go to paste.ubuntulinux.nl/38
+2005-07-13T07:35:00.000Z	nalioths_dog	ed1t	for java: download the .bin file from java.sun.com, apt-get install java-package, chmod +x [the .bin file] , fakeroot make-jpkg [the bin file] , dpkg -i [the generated .deb file] 
+2005-07-13T08:30:00.000Z	nalioths_dog	ed1t	Download and run http://www.ubuntulinux.nl/files/winmac_fstab to make your windows and mac partitions mount automatically

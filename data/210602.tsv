@@ -1,0 +1,4 @@
+2006-08-27T16:24:00.000Z	OsirisX11		ati and nvidia video cards: I currently have an nvidia 5200 agp card installed and I want to also install an ATI all-in-wonder pci card, will they get along or should i just remove the nvidia one?
+2006-08-27T16:25:00.000Z	mjr	OsirisX11	they should work, though 3D only through one of them (nvidia is incompatible with DRI)
+2006-08-27T16:26:00.000Z	OsirisX11	mjr	so what should i do? just install the card and install the ati drivers? it won't mess up my nvidia driver? how will the ati one know it needs to control the pci card?
+2006-08-27T16:27:00.000Z	mjr	OsirisX11	you might have to spesify pciids in the config file. As for Ati's proprietary driver, which you probably mean, I don't know if the package coexists well with the nvidia one; would guess not

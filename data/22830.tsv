@@ -1,0 +1,4 @@
+2010-11-12T06:06:00.000Z	tinhead		I just did a clean install of Ubuntu 10.10. I cannot login, it keeps complaining: Unable to cd to /home/user. So, I used the live cd to set a root password. Strace shows EACCES on execve() when I try to 'su user' from root and EACCES on chdir() when I try to 'login user'. Upgrade did not help. Anyone faced similar issues? Any pointers?
+2010-11-12T06:07:00.000Z	Random832	tinhead	ls -ld /home/user
+2010-11-12T06:08:00.000Z	tinhead		drwxr-xr-x, belongs to user,user
+2010-11-12T06:11:00.000Z	tinhead	Random832	drwxr-xr-x, belongs to user,user

@@ -1,0 +1,4 @@
+2010-01-12T05:19:00.000Z	sam9		I am trying to dual boot ubuntu with win7 on 2 seperat SATA drives. Does it matter which SATA port i plug the drives in?
+2010-01-12T05:19:00.000Z	MarkStoddart	sam9	what RAID?
+2010-01-12T05:20:00.000Z	MarkStoddart	sam9	No, note that you'll need to reinstall grub though (unless they changed this in windows 7)
+2010-01-12T05:22:00.000Z	MarkStoddart	sam9	this is because of the windows boot loader ignores linux operating systems

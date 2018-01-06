@@ -1,0 +1,4 @@
+2006-03-12T13:38:00.000Z	yahya		I did sudo apt-get remove apache.. but there's still a /etc/init.d/apache .. do I have to delete it manually?
+2006-03-12T13:38:00.000Z	crimsun	yahya	sudo dpkg -P apache
+2006-03-12T13:39:00.000Z	yahya	crimsun	what does it do?
+2006-03-12T13:39:00.000Z	crimsun	yahya	it purges any conffiles

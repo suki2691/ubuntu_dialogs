@@ -1,0 +1,4 @@
+2009-06-24T08:27:00.000Z	unitheory		is there a way to find out what was the last package installed?
+2009-06-24T08:28:00.000Z	msl	unitheory	sudo tail /var/log/apt/term.log
+2009-06-24T08:28:00.000Z	msl	unitheory	Have a look at the /var/log/atp/term.log file
+2009-06-24T08:29:00.000Z	unitheory	msl	thank you!

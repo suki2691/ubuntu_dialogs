@@ -1,0 +1,4 @@
+2006-11-30T08:33:00.000Z	pwner		can someone reccomend a good guide/way to get a realtime kernel going in edgy?
+2006-11-30T08:34:00.000Z	Jordan_U	pwner	Curious, what are you using it for?
+2006-11-30T08:36:00.000Z	Jordan_U	pwner	Would it take advantage of the real time kernel, windows certainly isn't real time ( again, curious ) ?
+2006-11-30T08:37:00.000Z	pwner	Jordan_U	it will utilize jack and the alsa stuff iirc....and the reason you need rt kernel is for MIDI latency..you cant acheive a usable latency >12ms or so, without real time kernel

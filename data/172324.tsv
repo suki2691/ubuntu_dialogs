@@ -1,0 +1,4 @@
+2007-04-19T08:56:00.000Z	Gumby	jordan__	dont forget that he needs to use the right module (if he has now set it to use ndiswrapper)
+2007-04-19T08:57:00.000Z	jordan__	Gumby	I have never used NDIS wrapper, what does he need to blacklist or is there more to it?
+2007-04-19T08:58:00.000Z	Gumby	jordan__	if he uses ndiswapper he needs to blacklist the bcm43xx module.  If he has already been instructed to do so by a README or HOWTO while setting up ndiswapper then he'll need to "unblacklist" it in order to use the bcm43xx + bcm43-fwcutter method
+2007-04-19T08:59:00.000Z	jordan__	Gumby	ahh

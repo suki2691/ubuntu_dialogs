@@ -1,0 +1,4 @@
+2007-01-29T16:44:00.000Z	Cyrus25801		should you unmount a flah drv before removing it and why
+2007-01-29T16:46:00.000Z	Ferret	Cyrus25801	Some drivers in Linux, and software on the disk, optomizes writes by caching them.  By unmounting the drive you force a sync so that all the write transactions that are scheduled actually get written and the data on the device becomes properly consistent
+2007-01-29T16:46:00.000Z	Ferret	Cyrus25801	That's not technically exactly how it works, or complete, but it's along those lines
+2007-01-29T16:47:00.000Z	Cyrus25801	Ferret	thanx

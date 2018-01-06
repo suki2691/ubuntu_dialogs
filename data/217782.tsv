@@ -1,0 +1,4 @@
+2006-01-20T11:21:00.000Z	pwn__		what kind of FAT partition can be read by both windows and linux?
+2006-01-20T11:21:00.000Z	psusi	pwn__	any of them
+2006-01-20T11:28:00.000Z	psusi	pwn__	the partition tag value doesn't matter... it doens't change the filesystem
+2006-01-20T11:28:00.000Z	psusi	pwn__	linux doesn't care what it is at all, windows just wants any of the values that say fat iirc

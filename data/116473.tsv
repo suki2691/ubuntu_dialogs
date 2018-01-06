@@ -1,0 +1,4 @@
+2011-11-22T04:28:00.000Z	stalker		anyone know why i can't find files on my apache2 server if i switch it to listen to port 8080, yet somehow phpmyadmin will work 8080??
+2011-11-22T04:28:00.000Z	hydra_	stalker	/etc/apache/ or conf.d
+2011-11-22T04:28:00.000Z	hydra_	stalker	you have to create a virtualhost
+2011-11-22T04:30:00.000Z	hydra_	stalker	check httpd.conf and Include directives to other files default_httpd.conf

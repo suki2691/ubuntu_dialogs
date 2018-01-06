@@ -1,0 +1,4 @@
+2006-06-18T14:11:00.000Z	rjcube		im trying to mount a .iso on a virtual drive, from what I understand I use this: mount -o loop <iso directory> <mountpoint>, but I have no Idea what the mountpoint would need to be, can anyone help?
+2006-06-18T14:12:00.000Z	Xorph	rjcube	may something like /media/cdrom
+2006-06-18T14:14:00.000Z	rjcube	Xorph	that worked perfectly, thanks
+2006-06-18T14:15:00.000Z	Xorph	rjcube	may you cant use your cdrom-drive as long as st iso is mounted...

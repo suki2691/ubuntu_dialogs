@@ -1,0 +1,4 @@
+2012-03-27T15:38:00.000Z	randomqwerty		how can I keep ssh server installed and still never start it at boot but only manually?
+2012-03-27T15:40:00.000Z	soreau	randomqwerty	afaik, installed services are started at boot up. You can 'chmod -x /etc/init.d/service' to stop it from being executable, +x to re-enable it
+2012-03-27T15:41:00.000Z	randomqwerty	soreau	that would also stop me from using service ssh start, to start the deamon when I want, wouldn't it?
+2012-03-27T15:42:00.000Z	soreau	randomqwerty	yes, you'd have to reset the executable flag before starting it

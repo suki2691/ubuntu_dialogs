@@ -1,0 +1,4 @@
+2009-02-01T22:14:00.000Z	Mean_Admin_		if I have Dir1 and I do a    cp -la Dir1/ Dir2  and then delete a file in Dir1, this file should still exist physically on the hdd , right ?
+2009-02-01T22:15:00.000Z	jtaji	Mean_Admin_	that's right, you have to delete all existing hard links to delete the file
+2009-02-01T22:15:00.000Z	Mean_Admin_	jtaji	all right, so rsync -a -delete    combined with      cp -la     commands can make a functional incremental backup system
+2009-02-01T22:16:00.000Z	jtaji	Mean_Admin_	a snapshotting system, yeah

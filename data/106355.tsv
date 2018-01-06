@@ -1,0 +1,4 @@
+2009-10-22T21:00:00.000Z	danielito		hi there. I don't have an internet connection, but dpkg wants to download a file, which does not work (obviously). where should I copy the file that dpkg finds it?
+2009-10-22T21:00:00.000Z	danielito		I downloaded it and put it on a usb disc
+2009-10-22T21:00:00.000Z	MenZa	danielito	dpkg -i filename.deb will install the file from the current directory.
+2009-10-22T21:02:00.000Z	danielito	MenZa	unfortunately it's not that easy. the package is b43-fwcutter which itself wants to download a firmware

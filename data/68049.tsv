@@ -1,0 +1,4 @@
+2011-07-30T00:30:00.000Z	r000t_nb		Is there a reason why 1GB in 584773 files takes longer to transfer than one 1GB file?
+2011-07-30T00:30:00.000Z	r000t_nb		Between disks?
+2011-07-30T00:31:00.000Z	frostschutz	r000t_nb	lots of overhead, lots of seeks
+2011-07-30T00:31:00.000Z	frostschutz	r000t_nb	in http you'd have to make a separate request (and worst case even a new connection) for each file

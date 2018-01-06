@@ -1,0 +1,4 @@
+2004-11-26T07:59:00.000Z	iainm	ondrej	is the ubuntu-desktop package installed?
+2004-11-26T07:59:00.000Z	ondrej	iainm	no, but I miss only totem-gstream and xfree86-driver-synaptics from dependencies
+2004-11-26T08:01:00.000Z	iainm	ondrej	I believe ubuntu-desktop should always be installed
+2004-11-26T08:04:00.000Z	ondrej	iainm	ubuntu-desktop is only meta package (you can check it by dpkg -L ubuntu-desktop), so there is no problem running ubuntu without it

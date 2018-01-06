@@ -1,0 +1,4 @@
+2008-04-26T01:15:00.000Z	karamazov		in /etc/group file, does adm:x:4:ugur mean ugur is an administrator?
+2008-04-26T01:15:00.000Z	Starnestommy	karamazov	adm isn't the admin group
+2008-04-26T01:17:00.000Z	Starnestommy	karamazov	adding them to the root group won't do anything
+2008-04-26T01:18:00.000Z	Starnestommy	karamazov	you probably need to edit /etc/sudoers or add the user to the admin group

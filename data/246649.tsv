@@ -1,0 +1,4 @@
+2005-03-04T17:55:00.000Z	hendry		how do i configure ubuntu's sendmail with my isp's smto address?
+2005-03-04T17:57:00.000Z	snowblink	hendry	sudo postconf -e relayhost=yourispsmtpserver
+2005-03-04T17:58:00.000Z	snowblink	hendry	then sudo /etc/init.d/postfix restart
+2005-03-04T06:20:00.000Z	hendry	snowblink	thanks btw

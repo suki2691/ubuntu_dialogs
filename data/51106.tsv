@@ -1,0 +1,4 @@
+2009-08-04T14:05:00.000Z	woland		hi. i'd like to run xorg without an xorg.conf. it doesn't seem to pick up my nvidia driver, keeps falling back to nv. any ideas?
+2009-08-04T14:06:00.000Z	ortaeht	woland	you can read the /var/log/Xorg.0.log and see what driver it uses and/or any error messages it gives, also paste it to a site so wee can see and help you solve the problem
+2009-08-04T14:07:00.000Z	ortaeht	woland	the file also says what config file Xorg is using
+2009-08-04T14:08:00.000Z	woland	ortaeht	i don't want a config file. i want configless X to use the nvidia driver rather than nv

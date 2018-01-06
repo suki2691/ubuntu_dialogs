@@ -1,0 +1,4 @@
+2008-05-31T10:49:00.000Z	ricree		how do you go about mounting a drive so that it is owned by a user instead of root?
+2008-05-31T10:50:00.000Z	ricree		the man page seemed to suggest that -o user would work, but I got an error with "sudo mount -o user=myusername /dev/sdc1 /mnt/mountpoint/"
+2008-05-31T10:50:00.000Z	troxor	ricree	try pmount
+2008-05-31T10:51:00.000Z	ricree	troxor	thank you

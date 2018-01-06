@@ -1,0 +1,4 @@
+2012-08-30T05:07:00.000Z	WeThePeople		how do i upgrade xchat
+2012-08-30T05:07:00.000Z	WeThePeople		in terminal
+2012-08-30T05:08:00.000Z	pepperjack	WeThePeople	I dont know that this is the ideal way but I'm assuming you are talking about rfkill which sets a bit to block or unblock the device.  try sudo rfkill list   is your card listed?  you can sudo rfkill block <number shown in list >or sudo rfkill unblock <num in list>. you could set this at login or boot maybe
+2012-08-30T05:11:00.000Z	WeThePeople	pepperjack	http://paste.ubuntu.com/1174948/

@@ -1,0 +1,4 @@
+2006-10-02T12:21:00.000Z	Lunar_Lamp		when i am ssh'd into another computer, how do i copy a file from the computer i am currently at (i.e i want to copy a file onto a machine that i have ssh access to) - what command do i use?
+2006-10-02T12:23:00.000Z	zoidi79	Lunar_Lamp	try scp
+2006-10-02T12:24:00.000Z	zoidi79	Lunar_Lamp	scp localfile remotehost:
+2006-10-02T12:24:00.000Z	zoidi79	Lunar_Lamp	to be exact: scp localfile remotehost:remotepath

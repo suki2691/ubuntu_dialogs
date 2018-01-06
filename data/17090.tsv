@@ -1,0 +1,4 @@
+2011-03-09T04:27:00.000Z	magpiie_		chmod'ed?
+2011-03-09T04:28:00.000Z	magpiie_		the game starts up, the menu screen appears, i click play, the indro video will play fully, but as soon as the login char screen tries to start, i get the error messages
+2011-03-09T04:28:00.000Z	magpiie_		direct 3d is enabled
+2011-03-09T04:29:00.000Z	Travk	magpiie_	that sounds like one of the database files for the game has incorrect permissions. I would check the owner of the files. (or do a sweeping change.. chown -R <user> /home/<user>/.wine)

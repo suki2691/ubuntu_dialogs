@@ -1,0 +1,4 @@
+2010-05-30T01:36:00.000Z	enelar		Greetings to all. You do not represent as me your help is necessary. After reboot linux speaks that cannot start check fsck and root filesystem mounted read-only then he asks to enter root the password from maintenance, any does not approach. Now I was loaded with live cd, but on any inquiry of type e2fsck/dev/sda he writes device is busy. Though normally mounts/dev/sda1 (ntfs) the others does not see.
+2010-05-30T01:36:00.000Z	enelar		what i should do?
+2010-05-30T01:37:00.000Z	enelar		sorry, but his english better than mine)
+2010-05-30T01:38:00.000Z	ActionParsnip	enelar	boot to live cd and unmount all partitions on the internal drive and fsck each partition in turn. If one is NTFS the chksk it from windows

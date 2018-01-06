@@ -1,0 +1,4 @@
+2005-07-04T11:12:00.000Z	skyrider_		hi all.  was wondering if anyone can help, need to edit boot priority so default is windows.. my kids are screaming at me.. i like this and they like winblows.
+2005-07-04T11:13:00.000Z	skyrider_		using grub.
+2005-07-04T11:13:00.000Z	jeroen_	skyrider_	you need to edit /boot/grub/menu.lst as the root user/with sudo
+2005-07-04T11:14:00.000Z	jeroen_	skyrider_	alt+f2, type in "gksudo gedit" (without quotes), type in your password, open /boot/grub/menu.lst and change the 'default'

@@ -1,0 +1,4 @@
+2008-02-25T02:43:00.000Z	Steve176		Hi, have got wireless networking with WPA working under 7.10 but need to restart networking manually after each reboot. Any ideas? Thx
+2008-02-25T02:44:00.000Z	robdig	Steve176	in /etc/network/interfaces do you have your interface set to auto? like auto eth1
+2008-02-25T02:45:00.000Z	Steve176	robdig	auto wlan0
+2008-02-25T02:45:00.000Z	robdig	Steve176	that should do it if wlan0 is your wireless card...

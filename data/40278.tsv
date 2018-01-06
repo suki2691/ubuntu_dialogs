@@ -1,0 +1,4 @@
+2010-09-28T23:08:00.000Z	obiwan_		hey people, i'd like to know if its possible to make a partition out of a file. so fdisk -l will list /dev/file as a partition. i alraedy have a 30 mb file filled with zeros.
+2010-09-28T23:09:00.000Z	st__	obiwan_	loopback device
+2010-09-28T23:09:00.000Z	obiwan_	st__	that's what i tried, mount -t iso9660 -o loop ~/Desktop/file /mnt
+2010-09-28T23:10:00.000Z	obiwan_	st__	but doesnt work :( i get wrong filesystem or osmething

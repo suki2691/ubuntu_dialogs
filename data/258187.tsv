@@ -1,0 +1,4 @@
+2006-10-01T15:03:00.000Z	graveson		what command can i use to copy files from a multilevel directory to a single dir
+2006-10-01T15:05:00.000Z	graveson		jlouis: i have numerous files in more than directory in my case multiple albums sperated by hierarchcical folders i would like to copy all files in all subdir to a single dir
+2006-10-01T15:06:00.000Z	Xenguy	graveson	something like:  find /path/to/dir/to/copy -type f -exec cp {} /path/to/target/dir \;
+2006-10-01T15:06:00.000Z	Xenguy	graveson	not tested

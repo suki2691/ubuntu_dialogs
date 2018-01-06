@@ -1,0 +1,4 @@
+2009-01-08T16:33:00.000Z	shoeunited		for i in *; do p7zip -d "$i"; j="${i%%.7z}"; zip -r "$j" "$j"; rm $j; done
+2009-01-08T16:34:00.000Z	shoeunited		Now before we do a bunch of head scratching, the files do seem to have spaces & whatnot in them, which produces something like the following: zip error: Nothing to do! (try: zip -r j.* . -i j)    rm: cannot remove `Armorines': No such file or directory
+2009-01-08T16:34:00.000Z	shoeunited		I'm not sure if that's related, or the problem itself, but it is the following error.
+2009-01-08T16:35:00.000Z	adaptr	shoeunited	use $() instead

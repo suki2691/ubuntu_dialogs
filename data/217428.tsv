@@ -1,0 +1,4 @@
+2009-03-21T08:00:00.000Z	LHvB7_Vo8eS		Request for help: I installed a restricted gfx driver for the nvidia card, then the card failed and the computer refused to boot after I had to restart (after I installed/activated the restricted driver), so I removed the card and booted from the onboard VGA, but now the X server or whatever is failing to start, I figure because it's still trying to use the nvidia card that is no longer there, how can I reset it to use the o
+2009-03-21T08:01:00.000Z	Magilla	LHvB7_Vo8eS	try booting into recovery mode, and running the Fix Video command
+2009-03-21T08:02:00.000Z	Magilla	LHvB7_Vo8eS	it should put the settings back to something low, but workable
+2009-03-21T08:03:00.000Z	Magilla	LHvB7_Vo8eS	in the list of kernels you can boot into when the computer starts up, there should be at least one recovery mode

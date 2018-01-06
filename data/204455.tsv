@@ -1,0 +1,4 @@
+2007-02-12T06:46:00.000Z	idn		hi, I am trying to mount my housemates windows share using samba, it works fine if I specify a subdirectory to share, but there are quite a few. Is it possible to mount all directories in his share automatically?
+2007-02-12T06:47:00.000Z	idn		sudo mount -t smbfs -o guest,uid=1000,iocharset=utf8,codepage=unicode,unicode  //matt/24 /mnt/matt
+2007-02-12T06:47:00.000Z	idn		that works fine for example, but I want to moutn all directories not just the 24 one
+2007-02-12T06:49:00.000Z	HymnToLife	idn	if the dirs are /1, /2, /3, ..., /24, you could do that with a for loop in bash

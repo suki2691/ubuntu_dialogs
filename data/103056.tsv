@@ -1,0 +1,4 @@
+2008-09-05T04:44:00.000Z	histo	rconan	I have no idea wth that means file exist. You should be able to delete a directory with rm -rf
+2008-09-05T04:45:00.000Z	rconan	histo	well as i have now learnt those files are ones which have been deleted but are still in use by a program. apparently fuse doesn't hide these from the user. lsof to find out which program then closing and restarting it has fixed the issue
+2008-09-05T04:46:00.000Z	histo	rconan	that would make sense then.
+2008-09-05T04:46:00.000Z	rconan	histo	it seems the deluge web interface has a bug where it didn't close the file

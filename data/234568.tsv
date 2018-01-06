@@ -1,0 +1,4 @@
+2006-01-16T17:07:00.000Z	SuperSam		can somebody tell me the difference between sudo -s and sudo -i
+2006-01-16T17:08:00.000Z	SuperSam		Rupert`: Hi :)
+2006-01-16T17:09:00.000Z	dooglus	SuperSam	the difference is that -i gives you root's environment, which -s leaves you with your own.
+2006-01-16T17:09:00.000Z	dooglus	SuperSam	run "echo $HOME" in both to see the difference

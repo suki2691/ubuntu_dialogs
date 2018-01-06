@@ -1,0 +1,4 @@
+2009-04-30T23:55:00.000Z	shadeslayer		can i log my temps to a file?? specifically my GPU temp
+2009-04-30T23:56:00.000Z	shadeslayer		!sound > fokitol
+2009-04-30T23:57:00.000Z	abuchbinder	shadeslayer	Run "sensors" every so often and log it to a file.
+2009-04-30T23:59:00.000Z	abuchbinder	shadeslayer	e.g., "while true; do sleep 5; date; date >> sensors.log; sensors >> sensors.log; done"

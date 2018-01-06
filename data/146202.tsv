@@ -1,0 +1,4 @@
+2011-02-09T10:49:00.000Z	jeffwheeler		How does gdm decide what users to list? There's a system user (CouchDB Administrator) that is showing up for some reason, and I'm trying to figure out why it's showing up.
+2011-02-09T10:50:00.000Z	jeffwheeler		I found some site that mentioned user id >1000, but this doesn't seem to be the case. It's ID is <1000.
+2011-02-09T10:50:00.000Z	usr13	jeffwheeler	probably because an account has been created under that name.
+2011-02-09T10:51:00.000Z	jeffwheeler	usr13	It seems pretty safe to say a user was created with that name, presumably by a couchdb-related package. But it shouldn't be showing up in gdm. Not sure what is misconfigured that is causing it to be.

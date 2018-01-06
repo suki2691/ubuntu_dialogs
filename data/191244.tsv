@@ -1,0 +1,4 @@
+2006-04-13T16:33:00.000Z	intuos_pen		is there any ubuntu specific tutorial on how to use wlan adapter under ndiswrapper?
+2006-04-13T06:17:00.000Z	intuos_pen		can someone please explain what this guy means when he says "Then I added ndiswrapper to /etc/modules" in this article: "https://launchpad.net/distros/ubuntu/+source/ndiswrapper/+bug/32275" ?
+2006-04-13T06:18:00.000Z	Seveas	intuos_pen	echo ndiswrapper | sudo tee -a /etc/modules
+2006-04-13T06:18:00.000Z	intuos_pen	Seveas	oh thanks very much.

@@ -1,0 +1,4 @@
+2007-07-06T14:54:00.000Z	psygrass		hi.. i am trying to compile and install dekorator; i downloaded Kdevelop, Kdevelop3.dev, build-essential and checkinstall packages... but when i type (make)  in the terminal i get errors and can't install it... please i need to know what libraries still missing? i couldn't find an answer for this on the net :-)
+2007-07-06T14:56:00.000Z	stefg	psygrass	 sudo apt-get build-dep kwin-style-dekorator (btw #kubuntu is for KDE related stuff)
+2007-07-06T15:00:00.000Z	psygrass	stefg	thanx.. but what if i wanted to build anything from source.. what libraries do i need to have? i couldn't find that on the net.. if someone knows a good guide, that would be great.
+2007-07-06T15:01:00.000Z	stefg	psygrass	apt-get build-dep is exatly installinf all dependencies needed to *build* a package...

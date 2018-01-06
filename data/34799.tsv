@@ -1,0 +1,4 @@
+2010-06-11T12:33:00.000Z	khider		Actionparsnip is gone?
+2010-06-11T12:34:00.000Z	khider		I am trying to get write permissions on my new external drive,but have no luck
+2010-06-11T12:35:00.000Z	red2kic	khider	sudo chown $USER:$USER /the/path/to/new/external/drive
+2010-06-11T12:35:00.000Z	red2kic	khider	You might want to do recursively, I suppose. Append -R (ie sudo chown -R ...the rest)

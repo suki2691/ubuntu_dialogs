@@ -1,0 +1,4 @@
+2011-05-16T00:03:00.000Z	qnc		hi, i just did a clean instlal of 11.04 on top of a 10.10 ubunu install. the /home parition was separate, so only root was formated. now i can't log in to my old account from kdm (it just shows a white rectangle and then logs back ou), but i can log in with a new account. there is a dbus error in /var/log/kdm.log when i try to log in with the old account. any ideas?
+2011-05-16T00:03:00.000Z	qnc		this is the error in kdm.log: http://pastebin.com/NTmDk4FL
+2011-05-16T00:05:00.000Z	Metal_ER	qnc	.. you have overwritten your passwd and shadow file ... server doesnt know old user anymore ... recreate it?
+2011-05-16T00:06:00.000Z	qnc	Metal_ER	i used the old user when i reinstalled and added the new user when the old one couldn't log in. i can log into the old user just fine from a tty

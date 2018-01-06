@@ -1,0 +1,4 @@
+2006-10-22T09:26:00.000Z	gyoffi		Could anyone give me a hand with setting up a bash script to adjust nice value for the X server?
+2006-10-22T09:28:00.000Z	gyoffi		<fnf> gyoffi: what do you mean by nice value ? <--- the nice value is a numeric value, to set a process's priority
+2006-10-22T09:29:00.000Z	FuzzyBear	gyoffi	: sed 's/^xinit/nice -n 0 xinit/'  /usr/bin/startx > newstartx
+2006-10-22T09:29:00.000Z	gyoffi	FuzzyBear	thx

@@ -1,0 +1,4 @@
+2012-11-05T09:18:00.000Z	guang		The package lists or status file could not be parsed or opened
+2012-11-05T09:20:00.000Z	guang		E: Encountered a section with no Package: header
+2012-11-05T09:20:00.000Z	guang		when i run "sudo apt-cache search win",it occurs
+2012-11-05T09:21:00.000Z	XRS1	guang	try this: sudo rm /var/lib/apt/lists/* -vf

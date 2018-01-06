@@ -1,0 +1,4 @@
+2007-05-15T12:40:00.000Z	dts		I need to ssh into another ubuntu machine as ROOT, how do i enable the account?
+2007-05-15T12:41:00.000Z	RAOF	dts	You do know that's a *terribly* bad idea.
+2007-05-15T12:41:00.000Z	dts	RAOF	well how do i do it temporarily?
+2007-05-15T12:42:00.000Z	RAOF	dts	Why don't you ssh in using a non-root administrator account, and then "sudo -i"?  Although you still don't want to do that :)

@@ -1,0 +1,4 @@
+2010-01-31T16:55:00.000Z	hnsr		hi there, i wanted to clean up my GRUB boot menu, so I uninstalled all but the most recent version of linux-image, but now it seems my /boot/grub/menu.lst is gone
+2010-01-31T16:56:00.000Z	hnsr		did I do something wrong?
+2010-01-31T16:56:00.000Z	Dr_Willis	hnsr	 remove the old kernels rerun update-grub
+2010-01-31T17:00:00.000Z	Dr_Willis	hnsr	 alter the /etc/default/grub and /etc/grub.d/* files as needed.. BACK UP the orignals

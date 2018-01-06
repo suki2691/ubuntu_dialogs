@@ -1,0 +1,4 @@
+2008-10-29T05:21:00.000Z	ldiamond		I'm having trouble restoring Grub. It says do "find /boot/grub/stage1" but the Grub installation I want to fix is on a USB hard drive (/media/disk) and when I do "find /media/disk/boot/grub/stage1" I get file not found (but the file exists...)
+2008-10-29T05:22:00.000Z	triggerhapp	ldiamond	The find you want is not prefixed with /media/disk as there is no mounting yet
+2008-10-29T05:23:00.000Z	triggerhapp	ldiamond	 Each disk will be treated as beginging at /
+2008-10-29T05:24:00.000Z	triggerhapp	ldiamond	Did you see what i said ^^ ? :)

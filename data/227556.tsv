@@ -1,0 +1,4 @@
+2007-09-04T07:55:00.000Z	jgenussr		Hi, I just completed an automatic update from  2.6.15-28-686 to  2.6.15-29-686 and am now can't mount the / filesystem,  I can still mount usint 2.6.15.28.  How can I fix this?
+2007-09-04T07:56:00.000Z	Jowi	jgenussr	simple solution: use the older kernel. hard solution: recompile latest kernel with the modules you need (hopefully that works since it can also be a bug in one of the modules)
+2007-09-04T07:56:00.000Z	Jowi	jgenussr	newest kernel version is not always the best one.
+2007-09-04T07:57:00.000Z	Jowi	jgenussr	sounds like a good idea.

@@ -1,0 +1,4 @@
+2008-11-14T10:09:00.000Z	hellslinger		anyone know how I can keep from having to execute "ufw disable" each time I boot ibex?
+2008-11-14T10:10:00.000Z	scunizi	hellslinger	is that a kernel command?
+2008-11-14T10:11:00.000Z	hellslinger	scunizi	no, it is ubuntufirewall, however when i remove the package I still have to execute that command
+2008-11-14T10:12:00.000Z	scunizi	hellslinger	might still be in /usr/bin .. you could also put it in System>Admin>Services.. also if you uninstalled the program you might do it again using purge

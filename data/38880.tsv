@@ -1,0 +1,4 @@
+2012-01-07T01:54:00.000Z	zivester		can anyone tell me why my nfs mounts aren't mounting on startup? fstab is `192.168.1.100:/backup   /media/p/backup  nfs   defaults 0 0`
+2012-01-07T01:55:00.000Z	zivester		yah, `sudo mount -a` works after i login (or if i login via ssh and run it)
+2012-01-07T01:57:00.000Z	jstoone	zivester	So your server has ssh, right?
+2012-01-07T02:03:00.000Z	jstoone	zivester	Have you tried to use sshfs? If you haven't and your server runs ssh then look at post #8 on this thread - http://ubuntuforums.org/showthread.php?t=1709184

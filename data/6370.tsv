@@ -1,0 +1,4 @@
+2012-01-19T22:52:00.000Z	fil__fil		hello...question... in order to make an executable script to run without the prefix './ ' we can put it in /usr/local/bin or create a link, and place the link there. I have a script which calls other scripts, i created a link,put it in blahblah/bin, but even though it works, it doesnt call the other scripts. The others are in the same folder where the original script is.. Any ideas?? it i am offtopic, i am sorry..and pls point me to the right
+2012-01-19T22:52:00.000Z	fil__fil		 channel??:):)
+2012-01-19T22:53:00.000Z	Pici	fil__fil	#bash might be a better place for your question. If you're calling the program from a different path then you'll need to provide the absolute paths to your scripts. The main script thinks that it is in /usr/bin.
+2012-01-19T22:54:00.000Z	fil__fil	Pici	thanx.. i ll go check there as well... second time in two days u help me!

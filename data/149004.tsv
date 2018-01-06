@@ -1,0 +1,4 @@
+2008-09-09T21:21:00.000Z	MrNaz		if i want to pipe a file from line 0 to line x to a file, what would i use?    cat file.txt > newfile.txt ?       but i cant find a line specifier control in the manpage for cat
+2008-09-09T21:22:00.000Z	unop	MrNaz	you need to use something else. like sed.   sed -n "0,$Xp" < file > outfile
+2008-09-09T21:23:00.000Z	MrNaz	unop	sed is overkill for what i want to do... i want "lines 0-n into file a" and "lines n-EOF into file b"
+2008-09-09T21:23:00.000Z	unop	MrNaz	sed is the right tool for this job -- head and tail are overkill

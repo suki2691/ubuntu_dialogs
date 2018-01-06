@@ -1,0 +1,4 @@
+2009-10-31T15:59:00.000Z	schaze		Hi, I am just trying to enable xfowarding in KARMIC. but I cannot find anywhere any settings neiher in gconftool-2 nor in he 'mighty' gui. HELP Please..
+2009-10-31T16:00:00.000Z	ActionParsnip	schaze	if you use openssh-server   xforwarding is enabled by default
+2009-10-31T16:04:00.000Z	ActionParsnip	schaze	just connect with: ssh -X user@host     and you will be able to run x forwarded apps
+2009-10-31T16:09:00.000Z	schaze	ActionParsnip	Thanks for the help! That went quick :)

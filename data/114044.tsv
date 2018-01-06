@@ -1,0 +1,4 @@
+2007-11-28T12:41:00.000Z	tronyx		can anyone help me find out what activity is ocurring on a certain port?
+2007-11-28T12:42:00.000Z	mavi-	tronyx	use lsof -i | grep portname iirc
+2007-11-28T12:43:00.000Z	mavi-	tronyx	iirc is a chat abbrevation or If I Remember Correctly =)
+2007-11-28T12:44:00.000Z	mavi-	tronyx	so that wasnt a part of the command, just go "lsof -i | grep <portnumber>"

@@ -1,0 +1,4 @@
+2007-04-27T16:42:00.000Z	RobbieCrash		What could be causing my Xorg to all of a sudden jump up to 100%cpu and not respond to anything? It happens on a stock install of feisty. The mouse still moves, and I can ssh into the box and run commands there, but there's nothing that can be done locally. I thought this might be a beryl issue, but it happens without beryl installed as well, anyone have any idea what I can do?
+2007-04-27T16:43:00.000Z	xSUSHix	RobbieCrash	: the command top will show you what program is using your cpu time
+2007-04-27T16:43:00.000Z	xSUSHix	RobbieCrash	: run top in a terminal
+2007-04-27T16:43:00.000Z	RobbieCrash	xSUSHix	I know what program it is. It's Xorg. That's why I said xorg all of a sudden using 100% of my cpu

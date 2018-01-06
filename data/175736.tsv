@@ -1,0 +1,4 @@
+2006-07-04T15:12:00.000Z	dimitri		can any1 help me with a simple msql issue, it sais ERROR 1045 (28000): Access denied for user 'dimitri'@'localhost' (using password: NO), when i just type msql form the console, i installed from the repos, verson 5.0
+2006-07-04T15:13:00.000Z	Cyburai	dimitri	it's been my experience that mysql v5 is messed up
+2006-07-04T15:13:00.000Z	Cyburai	dimitri	but you should try logging into mysql the first time as root, not your user name
+2006-07-04T15:14:00.000Z	dimitri	Cyburai	that worked, thank, but i dont want to work as root

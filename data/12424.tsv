@@ -1,0 +1,4 @@
+2012-08-25T05:20:00.000Z	XIII		I am having an issue where i cant run a kvm on 12.04, I can connect to the service and start it but if I start any of the instances the system drive gets mounted as RO and starts having I/O errors
+2012-08-25T05:22:00.000Z	zykotick9	XIII	are you using libvirt?
+2012-08-25T05:24:00.000Z	zykotick9	XIII	if you are using libvirt with KVM, you should say you are using libvirt - not KVM.
+2012-08-25T05:25:00.000Z	XIII	zykotick9	it was the default option when installing ubuntu, it loads everything as kvm-qemu and i have libvirt, not exactly sure which it is using

@@ -1,0 +1,4 @@
+2008-03-30T23:06:00.000Z	mmm4m5m		QUESTION: what ctrl+z means when I click inside terminal? Previous process become "stopped". How can I kill it?
+2008-03-30T23:07:00.000Z	marx2k	mmm4m5m	ctrl-z sends the current command to the background. You can get back to it by typing 'fg'
+2008-03-30T23:09:00.000Z	mmm4m5m	marx2k	perfect, fg fix it. 10x (many times I do this mistake and then only restart help :)). I also think it is "send to background", but why process status is "stopped"? I can't use it, I can't terminate it.
+2008-03-30T23:11:00.000Z	mmm4m5m	marx2k	instead "gedit&", I run "gedit". So, I have 10 open/changed files. How can I send it to background and use both: terminal window and gedit?

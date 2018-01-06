@@ -1,0 +1,4 @@
+2011-01-01T04:30:00.000Z	shigeo		i have a KVM switch which doesn't support EDID data (plug n play monitor recognition). my ubuntu desktop is now at a resolution of 800x600. I googled around and it looks like i have to use a xorg.conf to force my resolution. there are a lot of xorg.conf examples, but is there a way to help me set up a xorg.conf? the best would be to have a "minimal" xorg.conf with only monitor and screen resolution specified, would then keyboard/mouse etc
+2011-01-01T04:30:00.000Z	shigeo		. still work via HAL? appreciate your opinion.
+2011-01-01T04:31:00.000Z	magicianlord	shigeo	modern cards do not need xorg.conf. what is your video card
+2011-01-01T04:33:00.000Z	shigeo	magicianlord	i will probably have to use xorg.conf because i need to override the automatic settings. it's an integrated video card, capable of VESA modes. (compare www.pcengines.ch).

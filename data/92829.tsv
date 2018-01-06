@@ -1,0 +1,4 @@
+2008-05-09T16:39:00.000Z	whileimhere		When I do a synaptic update Translation-en_US packages always fail. Any idea why?
+2008-05-09T16:39:00.000Z	whileimhere		If a program has libqt4-core and libqt4-core as a dependency does that make it a KDE program?
+2008-05-09T16:40:00.000Z	fde	whileimhere	makes it a qt4 app
+2008-05-09T16:41:00.000Z	fde	whileimhere	yes, as they'll have to load those libs, whereas gtk apps have the libs loaded already.

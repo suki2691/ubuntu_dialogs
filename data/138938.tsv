@@ -1,0 +1,4 @@
+2009-02-13T08:41:00.000Z	baz		is it possible to ssh into a specific folder?
+2009-02-13T08:41:00.000Z	Sjimmie	baz	if you ssh into a server it will take you into the home directory of the user that you used to logon with
+2009-02-13T08:46:00.000Z	baz	Sjimmie	ah i see, and there is no option to override that in any way to catapult me right into a folder i always go to immedietly?
+2009-02-13T09:00:00.000Z	Sjimmie	baz	sure there is, adjust your homedirectory by either modifying your /etc/passwd directly or using usermod

@@ -1,0 +1,4 @@
+2009-07-16T18:05:00.000Z	ReedMace		I am running Jaunty 9.04. System Monitor > File Systems reports that "/" directory has a total of 35.5 GB, 68.0MB free, 0bytes available. However, Disk Usage Analyser reports "/" only has 8.2GB total. I am unable to run many programs due to lack of disk space, but can't see where the space is being used. I have performed the disk check in the grub recovery menu. Can't empty Deleted Items folder, can't perform software upgrades, can't run add/remove programs
+2009-07-16T18:06:00.000Z	iceroot	ReedMace	sudo apt-get autoremove && sudo apt-get clean    will cleanup some disk-space, also post the output of df -h with pastebin
+2009-07-16T18:06:00.000Z	iceroot		!paste | ReedMace
+2009-07-16T18:12:00.000Z	ReedMace	iceroot	I can't use pastebin as java won't load due to not enough disk space. apt-get clean doesn't work as there are broken dependencies. apt-get -f doesn't work due to lack of disk space

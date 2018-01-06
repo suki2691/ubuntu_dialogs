@@ -1,0 +1,4 @@
+2009-11-03T07:38:00.000Z	|Porsche		hey anybody knows how to add cups to start at boot up
+2009-11-03T07:38:00.000Z	Docteh	|Porsche	it didn't auto do that? see if theres /etc/init.d/cups and then look at update-rc.d
+2009-11-03T07:44:00.000Z	Docteh	|Porsche	fiddle around with that update-rc.d script or just peek in /etc/rc2.d/
+2009-11-03T07:49:00.000Z	Docteh	|Porsche	try service cups start

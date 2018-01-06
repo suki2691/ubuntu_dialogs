@@ -1,0 +1,4 @@
+2009-04-28T03:31:00.000Z	gostone		Can anyone assist me? My eth 0 wired connection is not functioning, and has not since jaunty install
+2009-04-28T03:31:00.000Z	gostone		yes it will
+2009-04-28T03:33:00.000Z	gostone		not sure if correct module is loading, i am running on an asus laptop ethernet port
+2009-04-28T03:34:00.000Z	Muelli	gostone	you can check with dmesg for kernel messages. There might be something interesting. Loaded modules can be checked with "lsmod". You might want to cehck if the driver for your card shows up there

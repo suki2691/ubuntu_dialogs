@@ -1,0 +1,4 @@
+2008-12-14T21:34:00.000Z	banisterfiend		im trying to execute the command 'fg' (to bring a process out of background) at a certain time using at. to test i did at -f c.sh 5:31   and that time passed, and nothing happened, wtf?
+2008-12-14T21:36:00.000Z	gnutron	banisterfiend	check your logs in /var/log/ i don't think 'at' works without a MTA installed, it wants to mail results to user. my guess, had the same problem.
+2008-12-14T21:42:00.000Z	gnutron	banisterfiend	crontab
+2008-12-14T21:47:00.000Z	gnutron	banisterfiend	this works too, (sleep 60; xmessage -near One Minute has gone by) &

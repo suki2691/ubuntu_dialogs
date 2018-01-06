@@ -1,0 +1,4 @@
+2010-05-01T07:57:00.000Z	Raspe		anyone know why I wouldnt have permission to extract files to file:///usr/lib/mozilla/plugins?
+2010-05-01T07:58:00.000Z	taroven	Raspe	write access to /usr/... is restricted. Use sudo.
+2010-05-01T07:58:00.000Z	Raspe	taroven	I'm brand new to linux and I don't know what sudo is
+2010-05-01T08:00:00.000Z	taroven	Raspe	TLDR version of what arand linked = You need admin access to write to things outside your home directory, in most cases. If you're coming from Windows Vista or 7, think of it like you're trying to change a file in your Program Files - It doesn't let you without a password.

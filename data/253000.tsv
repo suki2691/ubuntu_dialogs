@@ -1,0 +1,4 @@
+2011-10-15T09:16:00.000Z	Ravnac		I installed usb-creator via "sudo apt-get install usb-creator (kde and gtk) and the command, "usb-creator" just responds with "command not found"
+2011-10-15T09:16:00.000Z	reisio	Ravnac	sudo usb-creator?
+2011-10-15T09:17:00.000Z	reisio	Ravnac	dpkg -L usb-creator
+2011-10-15T09:17:00.000Z	reisio	Ravnac	dpkg -L usb-creator | grep bin

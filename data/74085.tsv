@@ -1,0 +1,4 @@
+2008-11-17T21:49:00.000Z	paul68		does anyone know how to activate the $iptables postrouting from the commandline?
+2008-11-17T21:50:00.000Z	jruffin	paul68	Do you have settings you want restored? or just want to know how to configure it on the command line?
+2008-11-17T21:51:00.000Z	paul68	jruffin	no just the nat for both interfaces
+2008-11-17T21:58:00.000Z	jruffin	paul68	I expect you want something like 'iptables -t nat -i eth1 -A POSTROUTING -j ACCEPT'. man iptables is your friend.

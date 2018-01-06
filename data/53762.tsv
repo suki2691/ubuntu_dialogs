@@ -1,0 +1,4 @@
+2009-11-04T01:30:00.000Z	lachouffe		how can i escape the space in a var that will be use to create dir for exemple ?
+2009-11-04T01:30:00.000Z	lachouffe		eg : FOO="foo bar"; mkdir $FOO
+2009-11-04T01:31:00.000Z	lachouffe		will create foo and bar
+2009-11-04T01:33:00.000Z	joeyeye	lachouffe	mkdir "foo bar"

@@ -1,0 +1,4 @@
+2007-08-20T08:21:00.000Z	xubu		i need some help. my comp crashed, now when i come back one of my ntfs drives wont mount. i get the following errors, http://pastebin.com/m6be6ead5. everything worked fine before i froze 10min ago.
+2007-08-20T08:23:00.000Z	oompaloompa	xubu	u might get away with mounting it with the force option
+2007-08-20T08:23:00.000Z	oompaloompa	xubu	sudo mount -f /dev/blahblah
+2007-08-20T08:24:00.000Z	oompaloompa	xubu	if it won't then u just have to boot into windows, let it rucn chkdisk, when it is done, reboot into windows, it will mark the filesystem as clean, then it should be ok

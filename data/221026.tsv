@@ -1,0 +1,4 @@
+2006-01-19T08:47:00.000Z	steve_		I get a black screen when gdm starts. I have an intel 915gm graphics chip. A howto at http://www.bram.be/travelmate_4651lci.html tells me to install a new i810 driver. I did so and I still get a black screen
+2006-01-19T08:49:00.000Z	steve_		[nige] , it's an intel chip.
+2006-01-19T08:51:00.000Z	odat	steve_	do this in the terminal  sudo dpkg-reconfigure xserver-xorg
+2006-01-19T08:56:00.000Z	steve_	odat	I went through the dpkg-reconfigure screens and selected the defaults for everything. that didn't help, heh. what specifically should I do differently in there?

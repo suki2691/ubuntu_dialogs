@@ -1,0 +1,4 @@
+2009-06-02T21:20:00.000Z	ccasket	ScottG	one thing you can do is set up a new system user, a regular user, but put sudo rules in /etc/sudoers so that the new user can view the files with no password. then put the script in that user's crontab
+2009-06-02T21:23:00.000Z	ccasket	ScottG	there are advantages to doing it as a new unprivileged user instead of root - safer for if you later set up scripts to push/pull the scripts off the box with ssh keys, etc
+2009-06-02T21:25:00.000Z	ccasket	ScottG	if you go that route, the sudoers rules for NOPASSWD and certain commands (tar with the exact path to the files) are the key to solving the original problem
+2009-06-02T21:25:00.000Z	ccasket	ScottG	oops, that should have been "scripts to pull the archives off the box"

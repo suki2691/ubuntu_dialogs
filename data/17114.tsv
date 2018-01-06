@@ -1,0 +1,4 @@
+2011-03-08T07:31:00.000Z	rww	ggarcia	they all have /bin/sh on my relatively-new install. Presumably, PAM stops disabled accounts from logging in.
+2011-03-08T07:31:00.000Z	ggarcia	rww	ah, seemed a bit strange, thanks
+2011-03-08T07:33:00.000Z	ggarcia	rww	does admin or daemon have a password? seems a silly question I know :) etc/shadow does have passwords for them, and I'm dist-upgrading and can't remember if I had to add them for something
+2011-03-08T07:34:00.000Z	rww	ggarcia	'admin' is not a user account on my system. 'daemon' is disabled (the password hash is *)

@@ -1,0 +1,4 @@
+2006-11-29T07:21:00.000Z	LacunaV		How do I get the output from emerge -pf to save itself to a file? I tried emerge -pf gentoo-sources > g.txt    but it skipped the actual interesting parts.   The mirror-listing is way too much for me to read and writedown, since I can't even scroll up or use less
+2006-11-29T07:23:00.000Z	variant	LacunaV	try emerge -pvf gentoo-sources > file.text
+2006-11-29T07:23:00.000Z	variant	LacunaV	and try asking in #gentoo in future
+2006-11-29T07:23:00.000Z	variant	LacunaV	v for verbose

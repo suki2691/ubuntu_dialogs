@@ -1,0 +1,4 @@
+2011-01-01T21:20:00.000Z	mongy	FrozenKnight	proprietary drivers installed?
+2011-01-01T21:20:00.000Z	FrozenKnight	mongy	nope, it's an onboard video card... it doesn't have proprietary drivers.
+2011-01-01T21:23:00.000Z	FrozenKnight	mongy	I think I do have framebuffer because the resolution is the monitors resolution while switching to tty1-6
+2011-01-01T21:25:00.000Z	mongy	FrozenKnight	echo FRAMEBUFFER=y | sudo tee /etc/initramfs-tools/conf.d/splash   try that

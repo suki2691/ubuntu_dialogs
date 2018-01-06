@@ -1,0 +1,4 @@
+2011-01-31T04:22:00.000Z	gimpy4613		Ubuntu 10.10 x64, for some reason random hard drives will lose their GTP table.  It's only one drive at a time, but not the same drive each time. It's not any one port, controller, cable, or drive causing it.  Just a random one. Logs show no cause, these drives are in an LVM VG used as a datastore, no OS storage on them.  Ideas?
+2011-01-31T04:22:00.000Z	erUSUL	gimpy4613	i would report it as a bug against the kernel
+2011-01-31T04:25:00.000Z	gimpy4613	erUSUL	Can you explain a but more?  As in how I would go about doing this?
+2011-01-31T04:25:00.000Z	erUSUL	gimpy4613	so « ubuntu-bug linux-image »

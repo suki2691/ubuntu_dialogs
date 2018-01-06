@@ -1,0 +1,4 @@
+2006-04-27T09:33:00.000Z	Sye		Hrrm, I'm trying to install xubuntu-desktop and it appears that xfwm4-themes is borked.  - - - xfwm4-themes: Depends: xfwm4 (>= 1:4.3) but 4.3.90.1svn+r21146-0ubuntu1 is installed.
+2006-04-27T09:33:00.000Z	_jason	Sye	that's because you have xfwm4 installed from svn
+2006-04-27T09:34:00.000Z	_jason	Sye	wait, I may have misread :) what does apt-cache policy xfwm4, say?
+2006-04-27T09:35:00.000Z	_jason	Sye	is this on dapper?

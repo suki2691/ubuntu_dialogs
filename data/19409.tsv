@@ -1,0 +1,4 @@
+2012-09-13T13:13:00.000Z	gordonjcp	k1l	actually it's not even a problem if 8GB RAM *is* in use; it's not all used "usefully"
+2012-09-13T13:14:00.000Z	gordonjcp	k1l	so the memory manager will look at what's actually in 8G of RAM, go "right I need another 512MB, oh those buffers can go"
+2012-09-13T13:14:00.000Z	k1l	gordonjcp	yes, i was assuming that buffers and cache were already kicked out.
+2012-09-13T13:15:00.000Z	gordonjcp	k1l	ah, okay ;-)

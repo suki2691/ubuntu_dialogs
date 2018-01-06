@@ -1,0 +1,4 @@
+2007-05-28T15:32:00.000Z	thornomad		hi. I am stumped with CRONTAB ... can't figure out how to get it to work ... I want to test it with something simple like: sudo crontab -e ... then adding: 01 * * * * echo "test" > /home/thornomad/test.txt ... however nothing happens.  am i doing something wrong ?
+2007-05-28T15:33:00.000Z	nickrud	thornomad	with sudo (root) you need to add the username as well
+2007-05-28T15:35:00.000Z	nickrud	thornomad	unless you need the root crontab, just using the user's crontab is enough anyway
+2007-05-28T15:35:00.000Z	thornomad	nickrud	jrib, LjL ... thanks ... i do need it to run root ... will want to empy user's libtrash Trash folders

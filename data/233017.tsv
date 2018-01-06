@@ -1,0 +1,4 @@
+2011-02-11T20:54:00.000Z	madwill		Hi how can i make a whole folder recursicely writable to a group
+2011-02-11T20:54:00.000Z	madwill		i want to make www-data able to write to var/www/ and every subfolder
+2011-02-11T20:54:00.000Z	madwill		but i want to group so i can add myself to it
+2011-02-11T20:55:00.000Z	erUSUL	madwill	chgrp -R www-data dir && chmod g+w -R dir/

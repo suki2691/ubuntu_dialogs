@@ -1,0 +1,4 @@
+2009-08-16T00:25:00.000Z	Q_Continuum		I am doing 'su echo "blacklist pcspkr" >> /etc/modprobe.d/blacklist.conf' and getting a 'Permission Denied' - is it file in use, or why is it rejecting me?
+2009-08-16T00:26:00.000Z	grawity	Q_Continuum	I think 'su' probably doesn't work when the root account is locked (as is by default on ubuntu).
+2009-08-16T00:26:00.000Z	grawity	Q_Continuum	Try using 'sudo -s' for a root shell.
+2009-08-16T00:28:00.000Z	Q_Continuum	grawity	I had tried sudo first, dunno why I did 'su command', same error.  sudo -s worked.  Thanks!

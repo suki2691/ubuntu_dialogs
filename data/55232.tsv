@@ -1,0 +1,4 @@
+2010-07-21T04:06:00.000Z	intx		is there a way using a CLI to automatically remove a package and all it's dependencies and sub-dependencies?
+2010-07-21T04:06:00.000Z	edbian	intx	sudo apt-get purge <packageName>
+2010-07-21T04:07:00.000Z	edbian	intx	sudo aptitude purge <packageName>  will probably do an even better job.
+2010-07-21T04:07:00.000Z	intx	edbian	thanks

@@ -1,0 +1,4 @@
+2012-11-06T09:30:00.000Z	czfool		Hey I'm having a boot issue when I use the windows install, anyone wanna take a crack at it?
+2012-11-06T09:30:00.000Z	ActionParsnip	czfool	do you mean Wubi?
+2012-11-06T09:32:00.000Z	ActionParsnip	czfool	resize your NTFS and make free space (Win7 can do this to itself), then install to the freed space
+2012-11-06T09:35:00.000Z	ActionParsnip	czfool	if you are using wubi, you don't need a separate partition. It installt to a file in your NTFS

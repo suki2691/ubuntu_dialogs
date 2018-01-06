@@ -1,0 +1,4 @@
+2012-07-11T14:48:00.000Z	Axsuul		How do I go about changing the swappiness value? `sudo echo 0 > /proc/sys/vm/swappiness` gives me permission denied
+2012-07-11T14:49:00.000Z	catphish	Axsuul	you need to do that as root
+2012-07-11T14:49:00.000Z	catphish	Axsuul	sudo echo > somewhere only runs echo as root
+2012-07-11T14:50:00.000Z	Axsuul	catphish	thanks

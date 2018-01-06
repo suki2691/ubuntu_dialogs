@@ -1,0 +1,4 @@
+2009-01-27T03:01:00.000Z	bod		whenever i try to launch firefox it says i need to close a non responsive existing process -- but    killall firefox    says no process killed, top | grep -i firefox also returns nothing -- whats going on?
+2009-01-27T03:02:00.000Z	kbrosnan	bod	delete the lock file from your profile in ~/.mozilla/firefox/...
+2009-01-27T03:03:00.000Z	kbrosnan	bod	http://kb.mozillazine.org/Profile_in_use#Remove_the_profile_lock_file
+2009-01-27T03:03:00.000Z	bod	kbrosnan	err, slight problem, i have a read only file system

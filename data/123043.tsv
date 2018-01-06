@@ -1,0 +1,4 @@
+2007-09-01T09:17:00.000Z	PinkFloyd		Is it possible to keep packages from upgrading? I upgraded to the Gibbon kernel, 2.6.22-9 and now apt-get is wanting me to "upgrade" to 2.6.20-16.
+2007-09-01T09:19:00.000Z	dug_	PinkFloyd	did you change your /etc/apt/sources.list file from feisty to gutsy? or did you not want to upgrade the whole os just the kernel
+2007-09-01T09:20:00.000Z	PinkFloyd	dug_	when I upgraded to the Gutsy kernel, I had the repo enabled. It isnt now.
+2007-09-01T09:20:00.000Z	PinkFloyd	dug_	Im just going to "upgrade" to the Feisty kernel and edit my menu.lst so the new kernel still loads

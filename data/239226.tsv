@@ -1,0 +1,4 @@
+2005-09-06T14:46:00.000Z	RobHu		I've just changed my apt.sources from hoary to breezy - dont a dist-upgrade and now X won't start - anyone got any ideas?
+2005-09-06T14:48:00.000Z	RobHu		Do I need to mess with my xorg.conf after updating to breezy?
+2005-09-06T14:50:00.000Z	ivoks	RobHu	grep EE /var/log/Xorg.0.log
+2005-09-06T14:51:00.000Z	RobHu	ivoks	It says its upset about Synaptics Touchpad

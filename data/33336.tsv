@@ -1,0 +1,4 @@
+2011-09-07T00:50:00.000Z	GhostWolf		is there anything else im missing if im trying to get vista to reconize my ubuntu pc? i believe i did everything correctly but when i went to vista and mapping the network drive it just prompts a username and password and then tells me the username and or password is not correct
+2011-09-07T00:51:00.000Z	GhostWolf		btw as i also just realized, since i changed the smb.conf file should i restart samba? if so how do i go bout doing that maybe thats the problem i have?
+2011-09-07T00:53:00.000Z	rumpe1	GhostWolf	somehow the deamon has to know, that there's a new config to read. I don't use samba, but maybe "sudo service samba restart" will do the trick.
+2011-09-07T00:54:00.000Z	GhostWolf	rumpe1	ok, all i know is i did it before, but in 11.04 i also remembering that there was samba in the system settings and i just did a fresh install cause i had a problem with an old hdd

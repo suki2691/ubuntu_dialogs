@@ -1,0 +1,4 @@
+2011-05-23T23:22:00.000Z	drpuritan		whenever I log in, my SD card pops up, open; how do I stop this?
+2011-05-23T23:22:00.000Z	celthunder	drpuritan	disable udisks/autofs/whatever you have automounting the drive
+2011-05-23T23:22:00.000Z	celthunder	drpuritan	might be in udev rules too
+2011-05-23T23:23:00.000Z	celthunder	drpuritan	could also make a udev rule to ignore the sdcard

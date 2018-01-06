@@ -1,0 +1,4 @@
+2012-03-31T21:05:00.000Z	ga_sk8er		when i run cheese, my cam is kinda dark until i reach up & tuch the cam. how do i fix that?
+2012-03-31T21:06:00.000Z	ga_sk8er		but when i touch the cam, it brightens up for a minute, then it gets dark again
+2012-03-31T21:07:00.000Z	escott	ga_sk8er	put tape over the light sensor would be my suggestion
+2012-03-31T21:10:00.000Z	escott	ga_sk8er	assuming its in the camera's firmware, then its trying to set the brightness level based on some ambient brightness in the room, and if that light sensor (if there is a second light sensor other than the CCD) is covered it will force it to use a higher gain on the CCD signal

@@ -1,0 +1,4 @@
+2009-05-03T11:16:00.000Z	T_T_T_		Hey, I'm new to ubuntu and trying to figure something out. I'm at my girlfriends place, and she has a wireless network set up, and an external harddrive set up to it. I have successfully connected to the wireless network, but am unable of how to find the external harddrive. Anyone have any ideas?
+2009-05-03T11:18:00.000Z	RedSocrates	T_T_T_	Assuming the drive is connected to the computer and recognized, typing "fdisk -l" at the command line should show the drive's device name.  You could then manually mount it
+2009-05-03T11:19:00.000Z	RedSocrates	T_T_T_	Sorry, you should preface "fdisk -l" with "sudo"
+2009-05-03T11:25:00.000Z	RedSocrates	T_T_T_	No problem, good luck with it

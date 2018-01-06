@@ -1,0 +1,4 @@
+2006-02-21T08:53:00.000Z	taylor_		i need an answer fast how do i turn on SCSI emulation im tired of rippingcds at 0.6x how do i enable it
+2006-02-21T08:53:00.000Z	taylor_		i need an answer fast how do i turn on SCSI emulation im tired of rippingcds at 0.6x how do i enable it
+2006-02-21T08:54:00.000Z	nickrud	taylor_	first try sudo hdparm -d1 /dev/hdc (assuming hdc is your cdrom)
+2006-02-21T09:40:00.000Z	nickrud	taylor_	that would probably be a good check for further functionality, yes :)

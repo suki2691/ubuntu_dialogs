@@ -1,0 +1,4 @@
+2009-12-19T05:35:00.000Z	keitoface		how can I find out which device is providing my bluetooth?
+2009-12-19T05:36:00.000Z	Jones_Hugo	keitoface	try looking into dmesg
+2009-12-19T05:37:00.000Z	keitoface	Jones_Hugo	thanks; I've checked dmesg, but it only shows that it loaded btusb, but not which device is using it
+2009-12-19T05:38:00.000Z	keitoface	Jones_Hugo	Ah, I just looked in lsusb again and I found it. Thanks!

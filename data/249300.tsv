@@ -1,0 +1,4 @@
+2005-06-06T13:20:00.000Z	vince_		has anyone succeeded in hybernating their laptop on ubuntu? I have a Compaq Presario 2100, and I do see the option hybernate, but then ubuntu stalls waiting for "wlan0 to become free"... Can anyone offer any advice? Thanks!
+2005-06-06T13:21:00.000Z	goldfish	vince_	man modprobe
+2005-06-06T13:22:00.000Z	goldfish	vince_	modprobe -r
+2005-06-06T13:22:00.000Z	vince_	goldfish	I thought of that but will it start on reboot/resume?

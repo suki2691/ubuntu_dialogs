@@ -1,0 +1,4 @@
+2008-07-24T12:12:00.000Z	Zta		How do I from the shell get a list of all packages that are installed on my system -- preferably the ones I've installed directly, ie. not dependencies.
+2008-07-24T12:12:00.000Z	wols_	Zta	dpkg -l |grep ^ii
+2008-07-24T12:13:00.000Z	Zta	wols_	thanks
+2008-07-24T12:13:00.000Z	Zta	wols_	though some seem rather dependencyish.  But it's a start =)

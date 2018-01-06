@@ -1,0 +1,4 @@
+2007-04-12T13:31:00.000Z	shoot^		is there a way i can move my entire home directory to a different disk?
+2007-04-12T13:32:00.000Z	k6rfm	shoot^	cp -r, tar it up and untar it over there, many others
+2007-04-12T13:35:00.000Z	k6rfm	shoot^	after you get the data moved you can use system>administration>users and groups to change the home directory (in the Advanced tab on the account properties)
+2007-04-12T13:36:00.000Z	k6rfm	shoot^	or just edit /etc/passwd if you're comfortable with that

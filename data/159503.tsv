@@ -1,0 +1,4 @@
+2006-11-11T15:24:00.000Z	Tater		anyone know why KDE would crash and complain about not being able to write to my /tmp dir but root works fine
+2006-11-11T15:25:00.000Z	GenNMX	Tater	Sounds like something changed the permissions to /tmp, do chmod -R 777 /tmp from the console.
+2006-11-11T15:25:00.000Z	Tater	GenNMX	will do
+2006-11-11T15:27:00.000Z	Tater	GenNMX	I'll try restarting X as my user and see what happens

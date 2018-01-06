@@ -1,0 +1,4 @@
+2011-04-05T19:16:00.000Z	crashus		no- i´m using windows 7. i made partitions for ubuntu already. if i try instaling it in windows thru wubi, I can choose the correct partitions and start instalation, but I either get stuck at creating virtual disks, or get a root filesistem not set error later
+2011-04-05T19:16:00.000Z	crashus		if I boot from usb or cd, I can only choose the entire disk for installation and would lose win 7 and all files
+2011-04-05T19:17:00.000Z	crashus		if i try manually set partitions, they are not there
+2011-04-05T19:17:00.000Z	Sik	crashus	sudo fdisk -l in the terminal (LiveCD/USB) and see what comes out?

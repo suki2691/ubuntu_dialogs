@@ -1,0 +1,4 @@
+2006-06-09T05:14:00.000Z	sandra		Hello.
+2006-06-09T05:15:00.000Z	sandra		Trying to upgrade to dapper I get the error "openoffice.org-core: Conflicts: openoffice.org2-l10n-1.9.129 which is a virtual package.  Conflicts: openoffice.org-help-1.9.129 which is a virtual package." when doing aptitude dist-upgrade, any ideas ?
+2006-06-09T05:16:00.000Z	soundray	sandra	do an apt-get remove on all openoffice packages that have org2 inthe name.
+2006-06-09T05:16:00.000Z	soundray	sandra	but only if ompaul's hint doesn't work :)

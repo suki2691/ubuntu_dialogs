@@ -1,0 +1,4 @@
+2007-10-19T08:34:00.000Z	Flyzoola		con someone explain to me what sudo is and why I can't write to /etc from my user account? also, how do I access that folder if it says that I don't have the permission necessary?
+2007-10-19T08:35:00.000Z	Flyzoola		can someone explain to me what sudo is and why I can't write to /etc from my user account? also, how do I access that folder if it says that I don't have the permission necessary?
+2007-10-19T08:36:00.000Z	Flyzoola		con someone explain to me what sudo is and why I can't write to /etc from my user account? also, how do I access that folder if it says that I don't have the permission necessary?
+2007-10-19T08:37:00.000Z	jdong	Flyzoola	sudo is a way to escalate a single command to root access. For editing configuration files, you need to run "sudo name_of_editor /etc/file/to/edit"

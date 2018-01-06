@@ -1,0 +1,4 @@
+2007-02-23T17:21:00.000Z	bright_fame	timbobsteve	using awk or egrep perhaps
+2007-02-23T17:22:00.000Z	timbobsteve	bright_fame	thanks for the heads up... will investigate :D
+2007-02-23T17:27:00.000Z	bright_fame	timbobsteve	cat /etc/lsb-release | egrep -o '=.*$'
+2007-02-23T17:37:00.000Z	bright_fame	timbobsteve	cat /etc/lsb-release | egrep -o '[^=] *$'

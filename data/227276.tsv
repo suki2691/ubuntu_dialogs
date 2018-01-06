@@ -1,0 +1,4 @@
+2005-07-18T10:27:00.000Z	fruitybumstuffer		hey guys im tryin 2 mount my 2nd windoze hdd on boot but its not likin what i have put in  fstab... it mounts my 1st hdd but not the 2nd i have used /dev/hda1       /media/windows  ntfs    nls=utf8,umask=0222 0       0 for my fist and the 2nd changin hda1 to sda5 and the windows has a 2 at the end... Any help with this??
+2005-07-18T10:27:00.000Z	fruitybumstuffer		any1??
+2005-07-18T10:28:00.000Z	sJaM	fruitybumstuffer	you can see the info in: sudo fdisk -l
+2005-07-18T10:32:00.000Z	fruitybumstuffer	sJaM	Thats where i found out that its sda5 that i want 2 mount but i have go my primary win hdd mountin on boot fine just that this sata 1 doesnt want 2

@@ -1,0 +1,4 @@
+2006-06-02T15:21:00.000Z	InfiniteNull		I originally partitioned windows on my last reformat to have 20 gb spare for ubuntu. Today, I installed ubuntu on the free space, and now on boot I get 'error loading operating system'. What can I do?
+2006-06-02T15:23:00.000Z	InfiniteNull		dual booting winxp/ubuntu - pre-configured the hdd to have 20gb spare for ubuntu, and installed it there - now stuck at 'error loading operating system'
+2006-06-02T15:24:00.000Z	Warbo	InfiniteNull	Does GRUB come up at all?
+2006-06-02T15:25:00.000Z	Warbo	InfiniteNull	Try booting a LiveCD and running "grub-install /dev/yourharddrive"

@@ -1,0 +1,4 @@
+2005-09-28T05:15:00.000Z	mindframe		does anyone know if ubuntu installs the source to the kernel in case is needs to be used?  if so where?
+2005-09-28T05:17:00.000Z	crimsun	mindframe	not by default. Why do you need the source? Do the headers not suffice?
+2005-09-28T05:17:00.000Z	mindframe	crimsun	im trying to compile a newer version of ndiswrapper that i cant find a package for and it needs the kernel source for some reason
+2005-09-28T05:20:00.000Z	crimsun	mindframe	I'm pretty sure you only need linux-headers-$(uname -r)

@@ -1,0 +1,4 @@
+2008-03-15T12:05:00.000Z	cerneula		hello everyone. my computer freezes when I try to play a .mov file with Totem. The mouse goes on working but nothing else responds. I cannot restart X and I can only recover my system through SysRq key REISUB.  I have Ubuntu 7.10 and four Gstreamer plugins installed (1)extra plugins (2) plugins for mms, wavpack, quictime, musepack (3) ffmepg video plugin and (4) plugins for aac, xvid, mepg2, faad. ANy ideas? THank you!
+2008-03-15T12:06:00.000Z	cerneula		how?
+2008-03-15T12:07:00.000Z	Ziroday	cerneula	try install non-free-codecs
+2008-03-15T12:08:00.000Z	Ziroday	cerneula	sudo apt-get install non-free-codecs

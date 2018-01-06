@@ -1,0 +1,4 @@
+2011-12-09T03:59:00.000Z	michael_		hi, im on 11.10 and I've installed apache2. I don't want apache to send its signautre so i put "ServerSignature Off" in /etc/apache2/httpd.conf and restarted apache. but it still sends its signature. I also checked if it gets overwritten in some vhost settings, but it does not. what else could be the problem?
+2011-12-09T04:00:00.000Z	imbezol	michael_	did you edit the /etc/apache2/conf.d/security file?
+2011-12-09T04:00:00.000Z	imbezol	michael_	or put it in somewhere else?
+2011-12-09T04:01:00.000Z	imbezol	michael_	like jrib says.. could be elsewhere.. do a 'grep -r -i serversig /etc/apache2/'

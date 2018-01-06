@@ -1,0 +1,4 @@
+2010-01-22T16:32:00.000Z	papul		i am trying to compile a program and i want it to install to /home/papul/dir and not any where else
+2010-01-22T16:32:00.000Z	papul		!ask | Jimi_Neutral
+2010-01-22T16:33:00.000Z	dsearle	papul	If it is using standard makefiles you can use make DESTDIR=dir install
+2010-01-22T16:34:00.000Z	dsearle	papul	if you use the prefix method in config then no

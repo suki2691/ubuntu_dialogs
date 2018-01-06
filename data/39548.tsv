@@ -1,0 +1,4 @@
+2010-01-06T03:20:00.000Z	nicklasbo		Hi. At school i need to ssh to a server that i can't ssh to directly. But i can go through another server. How do i mount (sshfs) through a server?
+2010-01-06T03:20:00.000Z	Dr_Willis	nicklasbo	 mounting a filesystem is fifferent from just sshing to.. You can use 'sshfs' to mount a ssh  system to a local directory. You may want to check out ssh tunnles also
+2010-01-06T03:21:00.000Z	nicklasbo	Dr_Willis	sure. But with sshfs i can mount the drive. Will look that up. Thanks
+2010-01-06T03:21:00.000Z	Dr_Willis	nicklasbo	 its not technically mounting a drive.. its letting you access teh ssh server from a local directroy. :)

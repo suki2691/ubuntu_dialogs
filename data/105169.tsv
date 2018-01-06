@@ -1,0 +1,4 @@
+2011-02-21T07:48:00.000Z	Guest60662		okay, I have a server up and running and When lets say one user moves a file to the everyone folder, another file can access it but not be able to delete or change it. I just learned of thei create mask = 0765 will that help any?
+2011-02-21T07:48:00.000Z	Guest60662		 and if not how may I fix this?
+2011-02-21T07:49:00.000Z	ActionParsnip	Guest60662	make the owning user have full access but the group have read only access
+2011-02-21T07:50:00.000Z	ActionParsnip	Guest60662	write access also allows delete

@@ -1,0 +1,4 @@
+2006-04-14T12:34:00.000Z	bliss1_		hi
+2006-04-14T12:35:00.000Z	bliss1_		If I run a postfix server and its down for say some hours will I loose mail or will it be stroed somewhere
+2006-04-14T12:35:00.000Z	zcat[1] 	bliss1_	the sending servers will queue it and retry later
+2006-04-14T12:38:00.000Z	zcat[1] 	bliss1_	nah, they wait and retry every 4hrs or so, so it'll just trickle in when you come back up..

@@ -1,0 +1,4 @@
+2009-02-02T07:06:00.000Z	kurisuto		OK: my file /etc/apt/sources.list currently contains this single line: "deb http://us.archive.ubuntu.com/ubuntu gutsy main".  It looks like I need to add a line to that file to be able to install the "perlmagick" and "python-pythonmagick" packages.  Question is, how do I figure out what line(s) I need to add?
+2009-02-02T07:07:00.000Z	Jordan_U	kurisuto	Just add "universe" to the end of the line you have ( if those packages are available in universe, which IIRC they are )
+2009-02-02T07:08:00.000Z	kurisuto	Jordan_U	Thank you!
+2009-02-02T07:08:00.000Z	Jordan_U	kurisuto	np

@@ -1,0 +1,4 @@
+2012-03-15T23:39:00.000Z	Snicers-Work		why do groups of users usually only have 5 permissions in FTP servers instead of 7 like the owner (755 vs 775)?
+2012-03-15T23:39:00.000Z	llutz	Snicers-Work	default umask = 0022. thats why
+2012-03-15T23:47:00.000Z	llutz	Snicers-Work	chmod g+s dir
+2012-03-15T23:50:00.000Z	llutz	Snicers-Work	there's sftp too, lots of GUIs for this

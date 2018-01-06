@@ -1,0 +1,4 @@
+2006-08-22T11:14:00.000Z	rummik		does ubuntu delete the packages it downloaded?
+2006-08-22T11:14:00.000Z	harisund	rummik	not unless you ask it to
+2006-08-22T11:14:00.000Z	harisund	rummik	the packages are in /var/cache/apt .....
+2006-08-22T11:14:00.000Z	harisund	rummik	you can delete is using apt-get clean and apt-get autoclean

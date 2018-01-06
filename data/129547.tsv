@@ -1,0 +1,4 @@
+2009-09-20T18:25:00.000Z	john1121		nt i do this
+2009-09-20T18:26:00.000Z	john1121		(ian@ian-laptop:~$ sudo mkdir -p /usr/src/alsa)  ( ian@ian-laptop:~$ cd /usr/src/alsa)   ( ian@ian-laptop:/usr/src/alsa$ sudo cp ~/alsa*  cp: target `/home/ian/alsa-utils-1.0.20.tar.bz2' is not a directory
+2009-09-20T18:26:00.000Z	john1121		     (why cant i do this)
+2009-09-20T18:28:00.000Z	eboyjr	john1121	Try using sudo cp ~/alsa*/ instead (notice the trailing slash)

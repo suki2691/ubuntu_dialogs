@@ -1,0 +1,4 @@
+2007-04-17T05:26:00.000Z	bef_		 VirtualBox kernel driver not accessible, permission problem. Make sure that the current user has write permissions to /dev/vboxdrv by adding him to the vboxusers groups. Don't forget to logout to take the change effect.   Why do I get this? I'm trying to install Windows through Virtualbox.. I have added my Ubuntu user Bef to the group vboxusers and logged out -- logged in.
+2007-04-17T05:27:00.000Z	amias	bef_	checked the perms for /dev/vboxdrv and that you have whatever modules it needs running
+2007-04-17T05:29:00.000Z	bef_	amias	what permissions must it have?
+2007-04-17T05:30:00.000Z	amias	bef_	readable and writeable by  vboxusers

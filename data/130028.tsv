@@ -1,0 +1,4 @@
+2007-08-03T09:32:00.000Z	TuxRox		I used gparted to remove a NTFS partition and converted it to ext3. I went to edit the fstab and noticed that each device listed has a UUID. How would I generate that for the new partition or is there another way I should be modifying the fstab?
+2007-08-03T09:34:00.000Z	BlainN	TuxRox	-- I've not had any problem mounting drives without UUID.  Have you tried it?
+2007-08-03T09:41:00.000Z	TuxRox	BlainN	someone in the ubuntu+1 channel gave me the info needed to generate a UUID. "vol_id /dev/<device>" is the command and blkid shows all the device UUIDs.
+2007-08-03T09:42:00.000Z	BlainN	TuxRox	Okay.  Good to know.  Thanks.

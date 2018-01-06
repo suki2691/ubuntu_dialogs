@@ -1,0 +1,4 @@
+2011-11-15T17:14:00.000Z	pvh_sa		hey there i've got a couple of ubuntu 10.04 machines with the same problem: network manager replaces their /etc/resolv.conf with an empty file (thus they lose all dns servers). anyone seen this, know what to do
+2011-11-15T17:14:00.000Z	pvh_sa		?
+2011-11-15T17:14:00.000Z	szal	pvh_sa	if you don't need the NM for network roaming or whatever, set those machines to ifup
+2011-11-15T17:18:00.000Z	pvh_sa	szal	sure, how do i get rid of NM? or disable it rather? remove links in /etc/rc.X ?

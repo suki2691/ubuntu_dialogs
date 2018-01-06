@@ -1,0 +1,4 @@
+2012-02-28T03:59:00.000Z	Ignisss		ive got a weird thing, ive got this pc running ubuntu 11.10 and it has a raid volume in it wich i created from 4 drives (raid 5) with mdadm and named /dev/md0
+2012-02-28T04:00:00.000Z	Ignisss		however sometimes when i boot up it gets made /dev/md127 and mounted to /media/Mediaserver_ instead of /media/Mediaserver
+2012-02-28T04:00:00.000Z	Ignisss		wich obviously messes up a lot of programs using it, anyone know why its doing that?
+2012-02-28T04:01:00.000Z	ActionParsnip	Ignisss	add it in /etc/fstab and use its UUID

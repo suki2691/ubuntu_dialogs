@@ -1,0 +1,4 @@
+2007-01-21T06:54:00.000Z	mmdollar		can someone tell me how to mount a partition on the root filesystem?
+2007-01-21T06:55:00.000Z	bulmer	mmdollar	you create a directory under /   then mount your hard disk to i
+2007-01-21T06:57:00.000Z	mmdollar	bulmer	mount /dev/sda3 / ,right?
+2007-01-21T06:57:00.000Z	bulmer	mmdollar	you create a directory under /   then mount your partition   mount -t ext3 /dev/sda1 /createddir

@@ -1,0 +1,4 @@
+2007-04-25T06:02:00.000Z	KyleHayes		Good evening
+2007-04-25T06:02:00.000Z	KyleHayes		I have just installed Ubuntu for the first time, and when I boot up my monitor says the resolution isn't supported
+2007-04-25T06:03:00.000Z	KyleHayes		I have a samsung that has a default of 1280x1024
+2007-04-25T06:04:00.000Z	Jordan_U	KyleHayes	In a terminal run "sudo dpkg-reconfigure xserver-xorg -phigh" and mark only the resolutions your card supports

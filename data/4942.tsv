@@ -1,0 +1,4 @@
+2012-07-14T21:42:00.000Z	zimbres		hi folks, does the command "cat file.iso > /dev/my-usb" generates a bootable usb stick?
+2012-07-14T21:44:00.000Z	solpeth	zimbres	that won't work, you'll have to use something like dd. A quick google search should show you how to do it
+2012-07-14T21:46:00.000Z	zimbres	solpeth	ok, thanks, can you point me?
+2012-07-14T21:48:00.000Z	solpeth	zimbres	I googled this, it's from Arch but it's largely distribution-agnostic. Just pay attention to the documentation. You only need the 'Overwrite the USB drive' section https://wiki.archlinux.org/index.php/USB_Installation_Media

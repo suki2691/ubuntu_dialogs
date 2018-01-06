@@ -1,0 +1,4 @@
+2006-05-17T12:26:00.000Z	Almindor		hello, how do I make a "home net" (file copy etc.) between 2 linux boxes? (one ubuntu, other knoppix)
+2006-05-17T12:26:00.000Z	mutante	Almindor	you can use scp, its like "cp",but over ssh
+2006-05-17T12:27:00.000Z	mutante	Almindor	NFS
+2006-05-17T12:27:00.000Z	mutante	Almindor	there is also ssh-fs, allowing to mount over ssh

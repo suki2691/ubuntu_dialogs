@@ -1,0 +1,4 @@
+2005-12-04T14:13:00.000Z	ket-		tswoodv how does it make incorrect assumptions?
+2005-12-04T14:14:00.000Z	TSWoodV	ket-	For example, my network is 10.1.1.0, netmask 255.255.255.0.  I set the IP address on eth1, a wireless card, as 10.1.1.100, netmask 255.255.255.0.  ifconfig eth1 now tells me that the broadcast address is 10.255.255.255, not 10.1.1.255 as it should be.
+2005-12-04T14:15:00.000Z	TSWoodV	ket-	It's making assumptions based on what it thinks is the correct class of address.  That's not correct.  It has to respect the netmask.
+2005-12-04T14:17:00.000Z	TSWoodV	ket-	there's nowhere to override it.  And, it's simply wrong.  It's easy enough to calculate the broadcast address based on the host address and netmask.  It's b0rked.

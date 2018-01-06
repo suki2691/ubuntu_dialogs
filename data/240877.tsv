@@ -1,0 +1,4 @@
+2005-09-20T12:08:00.000Z	SpudULike		Which is why I would like to force the nameserver address into resolv.conf
+2005-09-20T12:09:00.000Z	mindmedic	SpudULike	there is also a way to override your ns in dhcp3.conf
+2005-09-20T12:10:00.000Z	mindmedic	SpudULike	add this line to your network interface in /etc/dhcp3/dhclient.conf
+2005-09-20T12:13:00.000Z	mindmedic	SpudULike	yes, after the "request" line for your network interface

@@ -1,0 +1,4 @@
+2007-02-19T09:31:00.000Z	onlybui		anyone know how to eject a cdrom if wine is using that drive
+2007-02-19T09:31:00.000Z	kjon	onlybui	killall -9 wineserver, killall -9 wine, eject /dev/hdc
+2007-02-19T09:32:00.000Z	kjon	onlybui	fuser -vum /dev/hdc (tough way)
+2007-02-19T09:32:00.000Z	kjon	onlybui	pumount /dev/hdc?

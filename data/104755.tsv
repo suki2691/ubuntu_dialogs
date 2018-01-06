@@ -1,0 +1,4 @@
+2010-08-13T23:04:00.000Z	lisa__		so how do i connect wirelessly to my belkin router?
+2010-08-13T23:04:00.000Z	ActionParsnip	lisa__	use a wireless adapter and connect
+2010-08-13T23:08:00.000Z	ActionParsnip	lisa__	then run: sudo lshw -C network ,and this will show the chip. You can then websearch for guides. I also suggest you use a wired connection to get fully updated too
+2010-08-13T23:31:00.000Z	ActionParsnip	lisa__	if you run: sudo iwlist scan ,do you see access points?

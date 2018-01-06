@@ -1,0 +1,4 @@
+2006-01-05T11:59:00.000Z	Fiyawerx		hmm, apt-get wants to install a bunch of elib packages, to install entrance. I don't want that to conflict with my already made e17 stuffs. I just want its commands that it does when it configures entrance at the end, anyone know how to get that?
+2006-01-05T11:59:00.000Z	Fiyawerx		is there a way to force a package to install disregarding dependency packages?
+2006-01-05T11:59:00.000Z	Fiyawerx		it should find the libs it needs, even tho the packages aren't installed for them
+2006-01-05T12:00:00.000Z	noirequus	Fiyawerx	in a console, dpkg --help

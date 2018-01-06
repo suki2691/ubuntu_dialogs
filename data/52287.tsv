@@ -1,0 +1,4 @@
+2009-07-19T23:48:00.000Z	low_key		hey all, how can i get dmraid to load during boot up?
+2009-07-19T23:50:00.000Z	eoeas	low_key	install the packet, should happen automatically
+2009-07-19T23:51:00.000Z	low_key	eoeas	i installed dmraid via packet and everything is working, but initramfs drops to shell and i have to "dmraid -ay" then exit to continue boot up
+2009-07-19T23:53:00.000Z	eoeas	low_key	2 options= install into kernel via modules-assistant or try changing fstab from using UUID to /dev/sdaX

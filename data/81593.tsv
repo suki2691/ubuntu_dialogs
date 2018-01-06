@@ -1,0 +1,4 @@
+2009-08-13T14:17:00.000Z	chrisfs		Hi, I'm a newbie,. I just started Ubuntu last week coming from Windows. I'm trying to install Adobe Flash plugin. I went to Applications and clicked on Add and it seems the Flash plugin installer is already installed, but I can't seem to find an icon for it, so that I can run the installer. I figure it's something basic I don't know about  Can someone help tell me what that is ?
+2009-08-13T14:18:00.000Z	ActionParsnip1	chrisfs	sudo apt-get --reinstall install flashplugin-nonfree
+2009-08-13T14:28:00.000Z	ActionParsnip1	chrisfs	mkdir ~/.mozilla/plugins; cd ~/.mozilla/plugins; wget http://fpdownload.macromedia.com/get/flashplayer/current/install_flash_player_10_linux.tar.gz; tar zxvf ./install_flash_player_10_linux.tar.gz; rm ./install_flash_player_10_linux.tar.gz
+2009-08-13T14:28:00.000Z	ActionParsnip1	chrisfs	copy all that to a terminal and run it, you will then have flash

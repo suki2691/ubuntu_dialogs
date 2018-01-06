@@ -1,0 +1,4 @@
+2010-07-06T23:57:00.000Z	drew212		is there a way to actively back up my home folder into a separate location on a different HDD in case my current drive fails?
+2010-07-06T23:59:00.000Z	Gumby	drew212	I can msg you a quick comamnd that will work
+2010-07-07T00:04:00.000Z	Gumby	drew212	if you add that line to /etc/rc.local and also setup a crontab entry for say every 6 hours or so you should be pretty safe
+2010-07-07T00:05:00.000Z	Gumby	drew212	although if its an external drive, I'd add a check to make sure the drive was mounted first

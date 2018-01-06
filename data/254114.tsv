@@ -1,0 +1,4 @@
+2010-08-03T23:48:00.000Z	Grouper		so. I have this cheap Asus Wifi card - it's RT2860. It's 802.11n (2.4GHz only) and so is my router which is running DD-WRT. My laptop connects at 150mbps fine. This desktop would only connect at 54mbps so I downloaded the latest drivers and compiled them, then unloaded the kernel module, ran "sudo make install" and reloaded the kernel module. then brought up the interface but networkmanager doesn't show that i have a wifi card anymore
+2010-08-03T23:48:00.000Z	Grouper		ALSO, the connection is now listed as ra0 instead of wlan0
+2010-08-03T23:49:00.000Z	Grouper		i tried installing wicd, which seems to work but when i try to connect the entire computer just freezes at the point where it says something about generating a WPA file in wicd
+2010-08-03T23:50:00.000Z	rhodan	Grouper	Did you stop networkmanager first?

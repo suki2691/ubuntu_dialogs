@@ -1,0 +1,4 @@
+2008-01-24T22:44:00.000Z	aidehua		My office network is slow -- how can I see who is using what bandwidth?
+2008-01-24T22:45:00.000Z	CygnusX1	aidehua	iftop
+2008-01-24T22:47:00.000Z	aidehua	CygnusX1	I see that iftop depends on libpcap -- a good sign :)
+2008-01-24T22:50:00.000Z	CygnusX1	aidehua	For more complication, you could setup a box with a pair of bridged cards between the DSL and your network.  Then, use NTOP

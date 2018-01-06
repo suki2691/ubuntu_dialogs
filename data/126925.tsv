@@ -1,0 +1,4 @@
+2007-08-06T08:51:00.000Z	esteem	jrib	 ok here's the deal. I've made a trext document with some commands (which basically call DD to format a memory card).. Thing is, I have to copy and paste the text within the text (the commands) into terminal. I want to be able to click the text document, and then ti would automatically put all of the contents with in it (AKA, the commands) and then run these commands in terminal. A bit like having a script to make  n
+2007-08-06T08:54:00.000Z	jrib	esteem	ah, then you are just writing a bash script.  Just make the first line "#!/bin/bash" and make sure it is executable (chmod +x file.sh   or  right click -> properties)
+2007-08-06T08:54:00.000Z	esteem	jrib	 thanks a lot
+2007-08-06T08:54:00.000Z	jrib	esteem	also, a really good guide for more advanced stuff is the "advanced bash scripting guide"

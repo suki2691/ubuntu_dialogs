@@ -1,0 +1,4 @@
+2007-05-17T14:38:00.000Z	sf_		anyone know if there is a way to reset a sound driver module (snd-maestro3 in this case) without rebooting? The sound gets screwed up sometimes and the only way I know to fix is to reboot. So if there is something that would reset like a reboot that ought to fix it (and with less trouble).
+2007-05-17T14:38:00.000Z	Laser	sf_	try 'sudo /etc/init.d/alsa-utils restart'
+2007-05-17T14:39:00.000Z	Laser		What driver should I use for my ATI card?
+2007-05-17T14:40:00.000Z	sf_	Laser	still has the problem. I think I need something that completely restarts the kernel module. Anyone know how to do that?

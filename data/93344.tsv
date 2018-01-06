@@ -1,0 +1,4 @@
+2008-11-23T21:56:00.000Z	UnknownUSSR		Ashfire908:I tried setting up the ubuntu install but failed ( my experiences are with liveCDs ) ,is setting up /boot '/' and swap for the ubuntu paritions and setting the one that has Windows installed as /Windows correct ?
+2008-11-23T21:56:00.000Z	Jagged	UnknownUSSR	Yes.  Although a separate "/boot" isn't entirely necessary
+2008-11-23T21:57:00.000Z	Jagged	UnknownUSSR	Do you currently have your hard drive partitioned with a functioning windows installation?
+2008-11-23T21:58:00.000Z	Jagged	UnknownUSSR	No, just checking.  If you install Windows after installing linux, windows will overwrite the MBR with its own bootloader

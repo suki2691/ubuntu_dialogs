@@ -1,0 +1,4 @@
+2012-03-06T00:29:00.000Z	craigbass1976		I've got a router acting as a wireless point.  I've got an ubuntu box acting as a dhcp server.  I've forgotten the ip of the router and don't want to reset it.  Can I somehow figure it out externally?  I already did a traceroute 192.168.2.70 (where 70 if the ip of my android phone that's on the network) but it's only showing me one hop.
+2012-03-06T00:30:00.000Z	jhutchins_wk	craigbass1976	The lease for the router should be logged (assuming it's on dhcp).
+2012-03-06T00:30:00.000Z	jhutchins_wk	craigbass1976	You can also use nmap to discover unidentified devices.
+2012-03-06T00:30:00.000Z	craigbass1976	jhutchins_wk	it's not

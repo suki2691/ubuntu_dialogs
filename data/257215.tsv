@@ -1,0 +1,4 @@
+2005-01-04T16:34:00.000Z	Arricka		hmm...I'm trying to play a DVD (making sure everything is set before I give this computer to my sister)...mplayer is telling me it can't open DVD device /dev/dvd...how do I tell whether this is a hardware or a software problem?
+2005-01-04T16:35:00.000Z	Seq	Arricka	there is no /dev/dvd link by default. either make one, or change it to /dev/cdrom
+2005-01-04T16:37:00.000Z	Seq	Arricka	check if /dev/dvd exists
+2005-01-04T16:38:00.000Z	Seq	Arricka	yeah, just change it to /dev/cdrom , it should work

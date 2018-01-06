@@ -1,0 +1,4 @@
+2007-10-01T08:10:00.000Z	nonewmsgs		ok my ipod has mounted with the full reboot (YAY) but now my sound is gone
+2007-10-01T08:11:00.000Z	nonewmsgs		i think it sometimes is trying to play through my disabled in BIOS builtin soundcard.  is that possible?  it still lists it in the volume and in lspci
+2007-10-01T08:12:00.000Z	Jordan_U	nonewmsgs	Make sure that the correct default card is set with "asoundconf list" and "asoundconf set-default-card <card name>"
+2007-10-01T08:14:00.000Z	Jordan_U	nonewmsgs	Change the default card with asoundconf

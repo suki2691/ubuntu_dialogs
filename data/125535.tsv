@@ -1,0 +1,4 @@
+2011-03-22T01:03:00.000Z	Jinxed-		Anyone know how to start a script with root privliges when [crontab] [sudo crontab +e] have failed via segfault when a program but running the script in terminal works fine after computer is booted up... even if I try to export the $PATH and $TERM explicitly in the script from the working env
+2011-03-22T01:05:00.000Z	te	Jinxed-	sudo crontab -e
+2011-03-22T01:06:00.000Z	te	Jinxed-	So this is something that needs to be run perodically during sessions?
+2011-03-22T01:08:00.000Z	Jinxed-	te	i tried crontab +e

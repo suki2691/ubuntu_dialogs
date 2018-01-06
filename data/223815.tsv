@@ -1,0 +1,4 @@
+2009-08-02T05:26:00.000Z	zigibagido		 Does anybody know if you can VNC into Ubuntu before it logs in so you can login as any user?
+2009-08-02T05:26:00.000Z	th0r	zigibagido	you cannot vnc like that.
+2009-08-02T05:30:00.000Z	th0r	zigibagido	I have no idea what that question was....but if you want to get into a machine the way to do it is to ssh to the machine, log in as the user you want to use, start vncserver, log out, then you can vnc to the machine and access that user's desktop
+2009-08-02T05:30:00.000Z	th0r	zigibagido	another option is to open an ssh tunnel to the other computer and then run the desktop apps via an X-forwarding tunnel

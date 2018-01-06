@@ -1,0 +1,4 @@
+2009-11-21T23:33:00.000Z	istigkeit		if I have a file mounted, using sudo chmod 777 *filepath* -R should give permission to all users, shouldn't it?
+2009-11-21T23:35:00.000Z	istigkeit		Blueeagle, does the same apply to ntfs file systems/
+2009-11-21T23:35:00.000Z	istigkeit		?
+2009-11-21T23:36:00.000Z	grawity	istigkeit	It applies to anything that does not support Unix-style permissions. So yes, NTFS too.

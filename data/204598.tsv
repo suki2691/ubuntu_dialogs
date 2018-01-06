@@ -1,0 +1,4 @@
+2006-03-10T13:04:00.000Z	orkin		when I startup, it says there was a problem with fsck and I have to fix it manually. naturally i just press ctrl+D cuz i don't know how to but would this have anything to do with why linux runs so slow?
+2006-03-10T13:05:00.000Z	ompaul	orkin	it could be you should go with the recovery
+2006-03-10T13:09:00.000Z	orkin	ompaul	how do i go with recovery?
+2006-03-10T13:10:00.000Z	ompaul	orkin	you reboot the machine, as it is starting in grub you hit escape and then choose recovery then just type >>fsck -y<< and hit enter

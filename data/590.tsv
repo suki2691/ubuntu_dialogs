@@ -1,0 +1,4 @@
+2012-10-31T14:00:00.000Z	enav		hello, im running a LAMP server on my 12.04 desktop, i changed the apache execution user and group to my user and group to avoid any ownership problems, but now when i try to upload database files to phpmyadmin it wont let me do it, changed back the original apache and group values and now it let me upload db files again.... so how can i have apache running  under my name and group and be able to upload db files to phpmyadmin... ??? thanks
+2012-10-31T14:02:00.000Z	enav		i know it bring security problems but i raised a firewall, i need this to be like this to be able to edit my web files right away with no problems at all
+2012-10-31T14:03:00.000Z	enav		hmmm
+2012-10-31T14:04:00.000Z	aiFrantz	enav	: just a question, where did you place the web root folder? you just mentioned about "be able to edit my web files right away with no problem".

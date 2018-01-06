@@ -1,0 +1,4 @@
+2006-09-18T05:55:00.000Z	imc_		Hi, sound problems with Dapper. I had to use an ALSA mixer with this machine when it was in Breezy. Now I dist-upgraded to Dapper and sound is broken. Help?
+2006-09-18T05:57:00.000Z	imc_		apt-get install K and then at the session login you can choose from those or any you like
+2006-09-18T05:57:00.000Z	imc_		no worries, thanks largos
+2006-09-18T05:59:00.000Z	terlmann	imc_	 use the following script :  sudo apt-get --purge remove linux-sound-base alsa-base alsa-utils && sudo apt-get install linux-sound-base alsa-base alsa-utils gdm ubuntu-desktop

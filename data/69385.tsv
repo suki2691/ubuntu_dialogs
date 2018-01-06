@@ -1,0 +1,4 @@
+2009-01-07T14:09:00.000Z	p4rse		hi, how to remove a package and all of its dependencies (that are not used by other packages)? i installed the package with apt-get install
+2009-01-07T14:09:00.000Z	ActionParsnip	p4rse	sudo apt-get --purge remove <package to be removed>; sudo apt-get --purge autoremove
+2009-01-07T14:10:00.000Z	p4rse	ActionParsnip	thanks!
+2009-01-07T14:13:00.000Z	ActionParsnip	p4rse	id say so, if its orphaned, autoremove will remove it

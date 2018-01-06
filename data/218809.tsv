@@ -1,0 +1,4 @@
+2009-11-16T20:30:00.000Z	flan_suse		In GNOME, why would the eject button on a CD/DVD drive be ignore? How come I must always right-click to eject a disc?
+2009-11-16T20:31:00.000Z	sipior	flan_suse	generally because unix systems don't like filesystems to vanish without being specifically unmounted.
+2009-11-16T20:32:00.000Z	sipior	flan_suse	that so? interesting.
+2009-11-16T20:38:00.000Z	sipior	flan_suse	if a process is accessing any file in that filesystem, it won't be unmounted.

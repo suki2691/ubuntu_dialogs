@@ -1,0 +1,4 @@
+2008-05-07T01:53:00.000Z	sarah2		Problem:  Want to use Skype and Camorama with a USB logitech webcam.  FAILURE:  Says cannot find anything at /dev/video0 even though when I plug in my camera /dev/video0 becomes active.  Installed Easycam which through it I can start Camorama for some strange reason but cannot start Camorama on my own.  Please help.
+2008-05-07T01:54:00.000Z	steph291	sarah2	: install xawtv and test like this -> xawtv /dev/video0
+2008-05-07T02:12:00.000Z	steph291	sarah2	:( there's something wrong with your installation
+2008-05-07T02:14:00.000Z	steph291	sarah2	: do this to make sure the module is loaded : lsmod | grep quickcam

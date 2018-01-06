@@ -1,0 +1,4 @@
+2011-07-01T18:35:00.000Z	balaji_		i have apache2 in my system. it is configured as apache will get started on boot. I dont need this, how to make this not to start on boot?
+2011-07-01T18:37:00.000Z	binary-temptatio	balaji_	did you tried to remove the apache file in /etc/init.d ?
+2011-07-01T18:40:00.000Z	balaji_	binary-temptatio	is it the actual procedure to stop services when booting? i am a beginner
+2011-07-01T18:46:00.000Z	binary-temptatio	balaji_	rcconf is like sysv-rc-conf

@@ -1,0 +1,4 @@
+2010-10-06T05:46:00.000Z	ZykoticK9	apt_problem	the root of the error seems to be "dpkg: error processing gdebi-core (--configure)" saying there is a config problem with one of your packages.  try "sudo apt-get -f install" and see what happens, tries to fix apt installs.
+2010-10-06T05:47:00.000Z	apt_problem	ZykoticK9	trying now. thanks.
+2010-10-06T05:49:00.000Z	apt_problem	ZykoticK9	result: http://pastebin.com/TuLJ0BcT
+2010-10-06T05:51:00.000Z	ZykoticK9	apt_problem	it's certainly related to /usr/bin/pycentral but my initial Launchpad search didn't find anything relevant?  i've got nothing man, hope you find a fix.

@@ -1,0 +1,4 @@
+2006-04-14T14:34:00.000Z	signature16		how do i make it so that a proftpd user can edit files outside of the home directory on an FTP server? **User is not chrooted and can see /
+2006-04-14T14:34:00.000Z	rylu	signature16	use symlinks
+2006-04-14T14:34:00.000Z	rylu		is there an smbmount GUI ?
+2006-04-14T14:35:00.000Z	signature16	rylu	and symlinks dont work after chroot right?

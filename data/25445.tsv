@@ -1,0 +1,4 @@
+2011-06-03T23:14:00.000Z	oal		How can I search through a secondary hard drive for a file? locate only works on my main drive, it seems.
+2011-06-03T23:15:00.000Z	oCean	oal	if you only just have attached the 2nd hdd, your locatedb has not been updated yet. Try running "sudo updatedb"
+2011-06-03T23:16:00.000Z	oal	_mike__	and oCean I can browse it and it shows up under "Places" as 976 GB file system. sudo updatedb doesn't appear to do anything?
+2011-06-03T23:18:00.000Z	oCean	oal	I guess that means that is not currently mounted, but when you go through Places to that filesystem, it gets mounted under /media. The fact that updatedb does not do 'anything' means that is has nothing to update. As soon as you have mounted the 2nd filesystem, you should run the updatedb command

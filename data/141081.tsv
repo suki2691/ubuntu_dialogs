@@ -1,0 +1,4 @@
+2009-05-11T15:56:00.000Z	snmakuch		does someone know the problem that you cant open firefox with the following reason: Firefox is already running, but is not responding. To open a new window, you must first close the existing Firefox process, or restart your system."- but i didnt open firefox yet..
+2009-05-11T15:56:00.000Z	raylu	snmakuch	killall firefox
+2009-05-11T15:57:00.000Z	raylu	snmakuch	that's strange. pgrep -l firefox
+2009-05-11T15:59:00.000Z	raylu	snmakuch	well, whatever process list you were using before lies :P

@@ -1,0 +1,4 @@
+2008-01-11T01:34:00.000Z	bottiger		how does rsync work? how does it know if a file has changed?
+2008-01-11T01:34:00.000Z	ZiNC	bottiger	Checksums, I suppose.
+2008-01-11T01:35:00.000Z	bottiger	ZiNC	sure? so it has to calculate a new checksum for my 4.6GB iso every time?
+2008-01-11T01:36:00.000Z	ZiNC	bottiger	When resyncing files, that's what it uses. But it seems you are asking when it decides it needs to resync?

@@ -1,0 +1,4 @@
+2009-02-16T04:35:00.000Z	tranceparance		quick question... if  I want to enable sound output for BOTH, my HDMI and Headphone out jack... how can I do this in ubuntu 8.10?
+2009-02-16T04:36:00.000Z	IntuitiveNipple	tranceparance	I think that requires some clever fiddling with the ALSA configuration in ~/asoundrc
+2009-02-16T04:37:00.000Z	IntuitiveNipple	tranceparance	I know you can configure it to split one sound card into several virtual devices, and combine multiple devices into one virtual device. I think you need the latter
+2009-02-16T04:37:00.000Z	IntuitiveNipple	tranceparance	I'd say search for advanced ALSA configuration guides

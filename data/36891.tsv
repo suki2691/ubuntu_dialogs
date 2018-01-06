@@ -1,0 +1,4 @@
+2010-06-23T06:00:00.000Z	ennui		 hey gang. my macbookpro5.3 has a OSX partition as well as a Ubuntu one. When I start the computer it auto boots to OSX. If I hold 'alt'on start I can select to boot from Ubuntu's grub partition (in the menu here it calls it "Windows" and my Linux file system directory seems to not be detected).
+2010-06-23T06:00:00.000Z	ennui		 I'd like to have the macbook boot from grub by default (it's actually grub2) as linux is my main system now
+2010-06-23T06:00:00.000Z	ennui		 is there some way to set which partition is booted from by default? I see that OSX has a '*' in the boot collumn when running fdisk -l
+2010-06-23T06:02:00.000Z	Typos_King	ennui	  I could be mistaken, but I think that's a setting that will be in macOSX, as it handles the boot proprietarily

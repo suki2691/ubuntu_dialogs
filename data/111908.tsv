@@ -1,0 +1,4 @@
+2011-02-04T07:35:00.000Z	chowder		 I converted my partition table from MBR to GPT using the gdisk utility. I converted the partition table back to MBR using gdisk and now both gparted and fdisk are incapable of finding my partitions. cfdisk gives the following error: FATAL ERROR: Bad primary partition 0: Partition ends in the final partial cylinder.
+2011-02-04T07:36:00.000Z	chowder		During the process of converting back to MBR I was asked to manually inpu
+2011-02-04T07:36:00.000Z	chowder		<chowder> t the hexcode corresponding to each partition and I foolishly went with the default assuming that everything was automagic. TL;DR How do I recover my partitions?
+2011-02-04T07:36:00.000Z	FloodBot1	chowder	Please don't flood; use http://paste.ubuntu.com to paste; don't use Enter as punctuation.

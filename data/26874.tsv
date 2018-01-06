@@ -1,0 +1,4 @@
+2010-08-31T04:19:00.000Z	eriksson25		Oki, I have strugeling with my server for two days. got several stupid errors. But it alls comes down to that if grub points on uuid it dosent work. gives error waiting for root disk. When I set fstab and grub to boot /dev/sda1 it works. I can mount. But the problem is that this only works when I dont have my storage disks in becouse when I plug them in my system disk change /dev/xxx every reboot.
+2010-08-31T04:19:00.000Z	eriksson25		And seting it to corect uuid it says uuid=xxx dosent exist after a long error.
+2010-08-31T04:20:00.000Z	mcphail	eriksson25	try adding a "sleep 10" to the init scripts
+2010-08-31T04:21:00.000Z	eriksson25	mcphail	where

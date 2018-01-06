@@ -1,0 +1,4 @@
+2006-10-20T08:44:00.000Z	tempted		can someone tell me what my permissions should be got my phpmyadmin dir ?
+2006-10-20T08:45:00.000Z	skreet	tempted	Probably www-data:www-data
+2006-10-20T08:45:00.000Z	skreet	tempted	and 755.
+2006-10-20T08:45:00.000Z	tempted	skreet	ya, i have that... but when i try to load it in the browser.. i get Fatal error: require_once() [function.require] : Failed opening required './libraries/common.lib.php' (include_path='.:/usr/share/php:/usr/share/pear') in /usr/share/phpmyadmin/index.php on line 36

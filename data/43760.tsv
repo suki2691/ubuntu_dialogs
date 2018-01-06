@@ -1,0 +1,4 @@
+2011-12-05T15:51:00.000Z	amcsi_work		hello
+2011-12-05T15:51:00.000Z	amcsi_work		I booted my ubuntu without a monitor and it works fine for ssh and x and stuff. Now I want to attach a monitor to it, but it doesn't display anything
+2011-12-05T15:51:00.000Z	amcsi_work		How can I make it use the monitor by restarting fewer tasks as possible?
+2011-12-05T15:53:00.000Z	AlanBell	amcsi_work	sudo service lightdm restart (or gdm if using something before oneiric)

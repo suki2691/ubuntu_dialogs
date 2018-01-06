@@ -1,0 +1,4 @@
+2009-02-27T23:34:00.000Z	Reav3r		Is there a special way to install PCI Nic drivers? Or do I need to recompile the kernal?
+2009-02-27T23:35:00.000Z	erUSUL	Reav3r	most drivers come already with the kernel. just plug the pci card and boot
+2009-02-27T23:38:00.000Z	erUSUL	Reav3r	lspci | grep -i net
+2009-02-27T23:38:00.000Z	Reav3r	erUSUL	IIRC, it gave me the 509 drivers but not the 905

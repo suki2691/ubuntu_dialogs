@@ -1,0 +1,4 @@
+2010-04-01T23:04:00.000Z	llutz	j41r0	not in all cases
+2010-04-01T23:07:00.000Z	llutz	j41r0	needs updatedb and works different from "find"
+2010-04-01T23:08:00.000Z	llutz	j41r0	"reads  one or more databases prepared by updatedb(8)"   <- that's the important thing
+2010-04-01T23:09:00.000Z	llutz	j41r0	" grep -i prune /etc/updatedb.conf"  tells you why it will fail in some cases

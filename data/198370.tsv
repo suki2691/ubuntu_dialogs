@@ -1,0 +1,4 @@
+2007-01-24T09:07:00.000Z	computer13137		Hi
+2007-01-24T09:08:00.000Z	computer13137		I'm trying to install Ubuntu but x11 isn't working correctly.  It's reading my integrated video instead of my video card... I need to know what to change and exactly how to change it in xorg.conf?
+2007-01-24T09:09:00.000Z	computer13137		Hymntolife: It's as disabled as it gets... my bios doesn't let me completly deactivate it.
+2007-01-24T09:11:00.000Z	mzuverink	computer13137	You need to download a server or alt install cd, do a base install then install ubuntu-desktop, then dpkg-reconfigure xorg to set up your vid card

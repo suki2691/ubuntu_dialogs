@@ -1,0 +1,4 @@
+2011-10-25T01:52:00.000Z	sburwood1		How can I remove choices for kernels that I don't use in the boot sequence?
+2011-10-25T01:53:00.000Z	minimec_	sburwood1	You can remove them with your package manager. Search for linux-image packages.
+2011-10-25T01:54:00.000Z	sburwood1	minimec_	You mean in Synaptic?
+2011-10-25T01:55:00.000Z	minimec_	sburwood1	exactly. Keep the linux-image 'general' package. That will keep the kernels uptodate. You can savely remove some 'old' kernels, you don't use.

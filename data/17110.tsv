@@ -1,0 +1,4 @@
+2011-03-08T09:37:00.000Z	roasted__		Question - I have Ubuntu on a Windows domain. I somehow changed my default shell to something other than /bin/sh. My terminal prompt shows up as $ on my domain account now. I would like to change it back, but I am unsure of how because the chsh command will only change the setting for LOCAL users, not domain users. What can I do?
+2011-03-08T09:39:00.000Z	Jordan_U	roasted__	My guess is that your actuall problem is that you *did* set the login shell to /bin/sh, when what you wanted was /bin/bash.
+2011-03-08T09:39:00.000Z	roasted__	Jordan_U	perhaps you're right. Either way, I can't change it back, as chsh only works for local users. It errors out saying the user doesn't exist in /etc/passwd, which I was like, no kidding... its a domain user...
+2011-03-08T09:39:00.000Z	Jordan_U	roasted__	I can't help with the management via a domain controller but hopefully that can get you looking in the right place.

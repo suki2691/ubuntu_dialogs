@@ -1,0 +1,4 @@
+2010-03-29T02:21:00.000Z	cclocker		Hi everyone, I am trying to connect to my DSL modem via ethernet on ubuntu 9.10. I configured a DSL connection in the network manager, but when I try to connect, Ubuntu says: "Disconnected from auto eth0" and then tries to connect to DSL, but it doesn't work. I think it is because it first disconnects from auto eth0 (I have a DHCP server, btw) which I think is an error. What am I doing wrong?
+2010-03-29T02:21:00.000Z	roach	cclocker	| dhcpcd
+2010-03-29T02:25:00.000Z	cclocker	roach	ok
+2010-03-29T02:35:00.000Z	cclocker	roach	dever23b : dhcpcd is not installed, but syslog contains some information I think: http://paste.ubuntu.com/404468/ (line 29)

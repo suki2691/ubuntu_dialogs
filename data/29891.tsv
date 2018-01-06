@@ -1,0 +1,4 @@
+2010-12-26T13:56:00.000Z	sabri		did someone know how to make two different graphic profile for two different session into ubuntu
+2010-12-26T13:56:00.000Z	sabri		:(
+2010-12-26T13:58:00.000Z	psycho_oreos	sabri	you can, with some slight difficulty, making xorg dump a conf file, duplicate that and edit the second one for the second session and whenever needed either hack up a script to start the second session of xorg in that fashion or switch by closing xorg with script and making it start on an alternate profile
+2010-12-26T13:59:00.000Z	sabri	psycho_oreos	thanks

@@ -1,0 +1,4 @@
+2011-02-10T14:39:00.000Z	Nietecht		I'm getting a new hard drive. Is there a way 'transfer' my ubuntu installation to the new disk, or do I need to re-install from scratch?
+2011-02-10T14:39:00.000Z	llutz	Nietecht	transfer it using cp -ax or rsync
+2011-02-10T14:39:00.000Z	Nietecht	llutz	thanks, I'll look that up
+2011-02-10T14:39:00.000Z	llutz	Nietecht	after that, adjust /etc/fstab and grub, reinwrite grub

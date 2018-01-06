@@ -1,0 +1,4 @@
+2009-09-01T00:11:00.000Z	Glaxy		hey guys, so my SSH sessions keep stalling if I'm idle on them for ~7 hours or so.  I then have to close my terminal window and reconnect to whatever server I was previously connected to.  I'm positive the reason is because of some server-side setting, however, I'm not sure what to do.  It only happen if the connection is idle...so if I have tail -f access.log it will not disconnect as information will be coming in, however if th
+2009-09-01T00:11:00.000Z	Glaxy		..and how to fix it :)
+2009-09-01T00:13:00.000Z	Glaxy		lol
+2009-09-01T00:13:00.000Z	MrCraig	Glaxy	I know nothing of server side settings for SSH really but I was having the same symptoms because of client side using putty from windows - it's a putty setting - might be worth re-checking if you're using the same client.

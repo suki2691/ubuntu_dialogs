@@ -1,0 +1,4 @@
+2011-07-27T16:20:00.000Z	pr0ton_		pratik@pratik-laptop:~/flatto$ crontab -l
+2011-07-27T16:20:00.000Z	pr0ton_		# m h  dom mon dow   command
+2011-07-27T16:20:00.000Z	pr0ton_		1 * * * * /bin/echo 'hello world' >> $HOME/b.txt 2>&1
+2011-07-27T16:21:00.000Z	Pici	pr0ton_	That will only run at 1 minute past the hour.

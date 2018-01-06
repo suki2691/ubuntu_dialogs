@@ -1,0 +1,4 @@
+2008-03-27T20:05:00.000Z	Viaken		How do I deactivate init scripts? Just because I installed wesnoth-server doesn't mean I want it to start every boot. :P
+2008-03-27T20:06:00.000Z	rryan	Viaken	: You can 'chmod u-x' the script to make it not executable. I believe that will prevent it from running at boot
+2008-03-27T20:06:00.000Z	Viaken	rryan	Is that the preferred method?
+2008-03-27T20:07:00.000Z	rryan	Viaken	: Well, ideally I think the service should ask you whether you'd like it to start or not. If it listed itself under System > Administration > Services you can disable it there.

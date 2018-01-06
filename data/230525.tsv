@@ -1,0 +1,4 @@
+2006-11-25T16:48:00.000Z	welch		i am trying to install ubuntu server and the install program cannot find the dchp server, i tried switching the ethernet cards and i still have no luck. dmesg shows that ubuntu sees eth0 is ADMtek comet, but i'm using a linksys etherfast
+2006-11-25T16:48:00.000Z	welch		how can i get the ethernet card to work?
+2006-11-25T16:49:00.000Z	dabaR	welch	are you using dhcp on your network?
+2006-11-25T16:53:00.000Z	dabaR	welch	skip the network setup installation step if it does not work, and work on getting the card set up after you install.

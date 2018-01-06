@@ -1,0 +1,4 @@
+2005-02-18T15:24:00.000Z	saif		come on ppl, i am sure it is not that complicated i spent 16 hours waiting for the upgrade to finish, and i donno what to do next! a simple command, i downloaded the packages using apt-get dist-upgrade 6 packages failed to download, the terminal is full with get: http... and after that the failing massage for those 6 packages, any1? this is the 4th time i ask in 10 mins!
+2005-02-18T15:25:00.000Z	saif		what other apt-get update?!?!
+2005-02-18T15:26:00.000Z	[amasimak] 	saif	it is possible that some package where upgraded during your download, and it can find the 6 remaining
+2005-02-18T15:36:00.000Z	[amasimak] 	saif	downloaded packages are put in /var/cache/apt/archives/ and only explicitely purged by doign apt-get clean

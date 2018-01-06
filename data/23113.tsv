@@ -1,0 +1,4 @@
+2011-03-08T02:23:00.000Z	GeekyAdam		hi all. having problems with an smbfs mount in fstab. if the share name has a space in it, is this the right syntax: //ip.of.server.machine/share\ name
+2011-03-08T02:24:00.000Z	llutz	GeekyAdam	"\040" for space like, "this\040mountpoint\040has\040spaces"
+2011-03-08T02:25:00.000Z	GeekyAdam	llutz	will try thx
+2011-03-08T02:26:00.000Z	GeekyAdam	llutz	that did it thx much ^_^

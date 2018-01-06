@@ -1,0 +1,4 @@
+2009-04-20T00:15:00.000Z	GSMX		question: in which file does phpmyadmin says to apache that localhost/phpmyadmin is the place to be?
+2009-04-20T00:17:00.000Z	GSMX		question: in which file does phpmyadmin says to apache that http://localhost/phpmyadmin is the place to be?
+2009-04-20T00:18:00.000Z	Brucevdk	GSMX	use dpkg -L phpmyadmin to list the files in the package and see if there's anything relevant, probably something in /etc/ or perhaps it just places things directly in /var/www and uses the default virtualhost
+2009-04-20T00:19:00.000Z	GSMX	Brucevdk	ok, thanks, i will try to find it (it's not in /var/www btw)

@@ -1,0 +1,4 @@
+2010-10-29T03:45:00.000Z	ilyekkakai		Look at this gparted screen-shot - http://img.photobucket.com/albums/v484/ILyekkaKai/Screenshot--dev-sdb-GParted.png  - I want to extend my extended partition /dev/sdb2 into the unallocated space at start of the drive, allowing me to extend /dev/sdb5 to fill up the resized extended partition. But when I prepare the changes in gparted live CD, it warns me I may not be able to boot my computer after changes are applied.
+2010-10-29T03:45:00.000Z	ilyekkakai		Should I ignore the warning and continue, and how difficult will it be to fix if I can't boot?
+2010-10-29T03:46:00.000Z	xangua	ilyekkakai	you should always make a security copy before do something, yes
+2010-10-29T03:46:00.000Z	ilyekkakai	xangua	- how do I do that?

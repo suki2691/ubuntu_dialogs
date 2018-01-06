@@ -1,0 +1,4 @@
+2008-07-27T16:48:00.000Z	eth01		how do you check the temps within ubuntu btw?
+2008-07-27T16:48:00.000Z	eth01		(without checking bios, ssh for e.g.)
+2008-07-27T16:49:00.000Z	eth01		i'd love to know :p
+2008-07-27T16:50:00.000Z	tre_27	eth01	is acpi on your machine supports it, you can do: cat /proc/acpi/thermal_zone/*/temperature

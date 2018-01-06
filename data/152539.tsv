@@ -1,0 +1,4 @@
+2007-09-30T10:42:00.000Z	r30		hello, was wondering what people use for backing up.. first off i wanted to copy my install and move it to a smaller partition, to free up my large partition.
+2007-09-30T10:42:00.000Z	r30		was thinking of using dd
+2007-09-30T10:43:00.000Z	simplechat	r30	a second computer + scp (and svn for the more importaint stuff (work, etc))
+2007-09-30T10:45:00.000Z	simplechat	r30	I keep a copy of /var/cache/apt (minus partial and lock) in the other folder, so I can reinstall, scp back my files, scp back the archives and let it update

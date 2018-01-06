@@ -1,0 +1,4 @@
+2008-07-18T15:03:00.000Z	Flynsarmy		Does apt automatically delete older deb's that its downloaded?
+2008-07-18T15:03:00.000Z	Aaron_Mason	Flynsarmy	nope, they're stored in /var/cache/apt/packages
+2008-07-18T15:04:00.000Z	Flynsarmy	Aaron_Mason	I ask because aptoncd only creates about 225MB of updates. I thought there would hvae been alot more than that since hardy was released (even with older versions of new packages being ignored)
+2008-07-18T15:05:00.000Z	Aaron_Mason	Flynsarmy	yeah, it doesn't delete, but after awhile they will be deleted - I think they might get deleted on boot

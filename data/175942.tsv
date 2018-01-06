@@ -1,0 +1,4 @@
+2006-07-02T08:23:00.000Z	Smeggy		can anyone at all help me as to why my network never starts at boot? ... it's set to auto in /etc/network/interfaces... so i'm at a loss as to why it won't work.. anyone?
+2006-07-02T08:24:00.000Z	dgh1973	Smeggy	auto means dhcp, try this "sudo ln -s /etc/init.d/networking /etc/rc2.d"
+2006-07-02T08:26:00.000Z	Smeggy	dgh1973	did that.. rebooted.. still doing the same
+2006-07-02T08:27:00.000Z	dgh1973	Smeggy	my bad Smeggy, you'll have to do something like "sudo ln -s /etc/init.d/networking /etc/rc2.d/S50networking"

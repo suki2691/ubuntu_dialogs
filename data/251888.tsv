@@ -1,0 +1,4 @@
+2005-01-27T07:39:00.000Z	ZzeCoOl|zleeping		the hell with hoary ...every time im trying to update there are so many debs and errors in the install proccess......DAMN
+2005-01-27T07:39:00.000Z	ZzeCoOl|zleeping		im so unlucky
+2005-01-27T07:40:00.000Z	elisiano	ZzeCoOl|zleeping	you have to install some packages by hand with dpkg --force-overwrite -i packet.deb since they try to overwrite files contained in other packages, and then apt-get upgrade again
+2005-01-27T07:41:00.000Z	ZzeCoOl|zleeping	elisiano	 you mean like the problem with gimp?

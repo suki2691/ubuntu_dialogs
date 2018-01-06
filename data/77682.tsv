@@ -1,0 +1,4 @@
+2010-07-05T22:27:00.000Z	solidturtle		hi, how do I do to force checking if there are usb devices plugged?
+2010-07-05T22:28:00.000Z	solidturtle		I have this problem with several usb drive
+2010-07-05T22:29:00.000Z	h00k	solidturtle	it should do it already, you can check any recent activity by doing 'dmesg | tail' in a !terminal, then plugging it in, and comparing 'dmesg | tail' after you plug it in
+2010-07-05T22:29:00.000Z	solidturtle	h00k	ok I will test

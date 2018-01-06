@@ -1,0 +1,4 @@
+2008-04-10T13:25:00.000Z	pale-yafa		hi, I have crontab to run a script, when it was * * * * * /home/user/update.php it didnt work and when I changed it to * * * * * php /home/user/update.php it works fine the question is what is the rright way to run it?
+2008-04-10T13:27:00.000Z	unop_	pale-yafa	are you sure the file /home/user/update.php is set to executable?  what does this say?  ls -l /home/user/update.php
+2008-04-10T13:29:00.000Z	pale-yafa	unop_	yes it executes as I said when I add the word php before the path in the crontab it works fine, so just wondering what is the right syntax
+2008-04-10T13:31:00.000Z	unop_	pale-yafa	there's a difference in both ways .. both are right if they accomplish the same goal . one reason why the first one didnt work might be because the file is not set to be executable

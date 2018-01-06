@@ -1,0 +1,4 @@
+2007-01-29T15:59:00.000Z	AzMoo		Can anybody help me with setting up a BIND caching server? I'm reading https://help.ubuntu.com/community/BIND9ServerHowto but it's not particularly helpful. It says it's set up by default, but it's not working. I changed the nameserver on my client to point to the server and it's telling me that www.google.com is an invalid domain.
+2007-01-29T16:01:00.000Z	bimberi	AzMoo	have you started it? 'sudo /etc/init.d/bind9 start'
+2007-01-29T16:02:00.000Z	AzMoo	bimberi	sure have.
+2007-01-29T16:02:00.000Z	bimberi	AzMoo	kk, just checkin' ;)

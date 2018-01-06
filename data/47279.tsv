@@ -1,0 +1,4 @@
+2011-08-14T09:13:00.000Z	ntiy		hey. I have bunch of files named f1 f2 f3 ... f9 f10 f11... f100. How can I list then in "numerical" order? if I gust do ls I get: f1 f10 f100 f11 f12... f19 f2 f20 f21... and so on
+2011-08-14T09:14:00.000Z	llutz_	ntiy	ls |sort -nk                just a guess
+2011-08-14T09:16:00.000Z	ntiy	llutz_	sort: option requires an argument -- k
+2011-08-14T09:17:00.000Z	llutz_	ntiy	man sort (-k key to start)

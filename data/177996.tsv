@@ -1,0 +1,4 @@
+2008-12-02T23:09:00.000Z	Ging_		does anyone know how to force ntfs partitions to mount from a live cd ?
+2008-12-02T23:09:00.000Z	Ging_		i'm tryng to use a live cd to recover some files
+2008-12-02T23:10:00.000Z	Jack_Sparrow	Ging_	sudo mkdir /media/locked-drive then sudo mount -t ntfs-3g /dev/sda1 /media/locked-drive -o force  substitute your locked drive for sda1
+2008-12-02T23:11:00.000Z	Jack_Sparrow	Ging_	sudo mkdir /media/locked-drive then sudo mount -t ntfs-3g /dev/sda1 /media/locked-drive -o force  substitute your locked drive for sda1

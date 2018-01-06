@@ -1,0 +1,4 @@
+2007-11-25T22:47:00.000Z	IanLiu		What command should I run to find a file in a directory tree? If I `find foo', it will search only in current dir, right?
+2007-11-25T22:47:00.000Z	MolePrince	IanLiu	try locate or find ./\
+2007-11-25T22:58:00.000Z	MolePrince	IanLiu	Try sommat like rm $(find . -name "foo")
+2007-11-25T22:59:00.000Z	MolePrince	IanLiu	Absolutely

@@ -1,0 +1,4 @@
+2009-11-22T23:42:00.000Z	Vesayth		Hello all - I apologize in advance for this being in the wrong room (can't get any answers in samba channel). Does anyone know how to get a computer that's in a different domain to access samba shares via hostname? I can access via IP address just fine. Any computer that is not using the domain works fine as well. My server is Ubuntu 9.10 64-bit and the client having the issue is Windows Vista 32-bit. Removing this computer from its domain is not an optio
+2009-11-22T23:44:00.000Z	Iowan	Vesayth	 That usually means having info in DNS server
+2009-11-22T23:45:00.000Z	Vesayth	Iowan	one thing I forgot to mention is this computer can see the shares just fine, I just get access denied error when trying to access them. (but not when using IP address)
+2009-11-22T23:48:00.000Z	Iowan	Vesayth	I remember that being issue w/ Hardy. Dunno if solution involved Winbind. dmizer has How-to on Windows share issues

@@ -1,0 +1,4 @@
+2009-04-25T14:16:00.000Z	spaceninja		I'm trying to compile a gtk programg, gcc base.c -o base `pkg-config --cflags --libs gtk+-2.0`, but I get this compilation error.  Package gtk+-2.0 was not found in the pkg-config search path.
+2009-04-25T14:16:00.000Z	spaceninja		gtk+-2.0 si this correct?
+2009-04-25T14:16:00.000Z	spaceninja		is
+2009-04-25T14:17:00.000Z	Brucevdk	spaceninja	as joaopinto stated you probably don't have the dev package installed i.e. libgtk2.0-dev

@@ -1,0 +1,4 @@
+2005-02-01T16:45:00.000Z	froust		When I try to change my screen resolution i get a message saying "The X Server does not support the XRandR extension."
+2005-02-01T16:47:00.000Z	fraggsta	froust	I think a better way to get X working well is to do this:  log out, shut down GDM, do "X -configure" as root and then copy the resulting /root/XF86Config to /etc/X11/XF86Config-4 or xorg.conf (depending whether you run X.Org or XFree)
+2005-02-01T16:47:00.000Z	froust	fraggsta	i just installed the new ati drivers - does that matter, or should i still try x -configure
+2005-02-01T16:48:00.000Z	fraggsta	froust	it worked for me with nvidia drivers, so it should work with ATI..

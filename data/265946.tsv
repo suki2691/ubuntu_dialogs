@@ -1,0 +1,4 @@
+2005-05-01T10:00:00.000Z	heftigrat		hey all, getting err "/usr/local/winetools/Xdialog: error while loading shared libraries: libgtk-1.2.so.0" running wine.  specified dir does not even exist.  did install fail?  am i missing libs?  thanks in adv.
+2005-05-01T10:00:00.000Z	tritium	heftigrat	the winetools from winehq.com is not compatible with the wine in universe
+2005-05-01T10:02:00.000Z	tritium	heftigrat	you can use the wine from winehq.com instead
+2005-05-01T10:02:00.000Z	tritium	heftigrat	e.g., aptitude intsall wine=0.0.20050310-1 is what I did

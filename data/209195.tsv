@@ -1,0 +1,4 @@
+2008-09-28T18:53:00.000Z	Xenocide		Hiya, can somone help me with connecting to a wireless network (wep encryption) on hardy server (no gui's!) I can't seem to find any docs anywhere on the commands for doing it :(
+2008-09-28T18:53:00.000Z	koala_man	Xenocide	man iwconfig
+2008-09-28T18:54:00.000Z	Xenocide	koala_man	You can do it all using iwconfig like you can with ifconfig for eth connections?
+2008-09-28T18:54:00.000Z	koala_man	Xenocide	no, you still use ifconfig or dhclient, but the essid&wep is all iwconfig

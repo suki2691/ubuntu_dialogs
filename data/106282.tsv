@@ -1,0 +1,4 @@
+2008-04-20T02:24:00.000Z	iclebyte		why does ubuntu have 127.0.1.1 in /etc/hosts? it just caused me 2 days of Java RMI pain.
+2008-04-20T02:26:00.000Z	zionpsyfer	iclebyte	 the loopback addy is there by default and it is possible that removing it will break some things.  windows' hosts file contains this as well iirc.
+2008-04-20T02:28:00.000Z	iclebyte	zionpsyfer	any idea what it will break?...
+2008-04-20T02:29:00.000Z	iclebyte	zionpsyfer	surely 127.0.0.1 is enough?

@@ -1,0 +1,4 @@
+2007-05-08T12:07:00.000Z	geoff_		Hello
+2007-05-08T12:07:00.000Z	geoff_		Could someone help me with a kind of dumb problem?
+2007-05-08T12:07:00.000Z	geoff_		 I tried getting the Flash player with apt-get, and it timed out, so I killed it, but now every time I try to run apt-get, it tries to download it again. How do I get it out of the queue?
+2007-05-08T12:08:00.000Z	ulisse	geoff_	sudo apt-get remove flashplayer-plugin-nonfree

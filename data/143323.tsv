@@ -1,0 +1,4 @@
+2007-03-11T13:37:00.000Z	domination		I need to downgrade a package to a different version.  What command would I use to downgrade a single package without changing dependancys???
+2007-03-11T13:37:00.000Z	arrenlex	domination	Do you know the version?
+2007-03-11T13:38:00.000Z	domination	arrenlex	yes, I downloaded the deb that I want to install in place of the existing one
+2007-03-11T13:38:00.000Z	arrenlex	domination	Oh! Well then, sudo dpkg -i <file.deb>

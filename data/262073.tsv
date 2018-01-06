@@ -1,0 +1,4 @@
+2008-03-17T00:01:00.000Z	mik1		hey guys i have question. i am trying to edit a config file for a program.  it wont let me edit it because i dont have the correct permissions but i dont wat to have to logon in as root on the command line because graphical is alot easier.  i was just wondering if there was a way i could edit this stuff without loging in a root?
+2008-03-17T00:01:00.000Z	Seveas	mik1	gksudo your_editor_here the_filename_here
+2008-03-17T00:01:00.000Z	Seveas	mik1	so for instance: gksudo gedit /etc/dhcpd.conf
+2008-03-17T00:02:00.000Z	Seveas	mik1	either that or complian that you typed your password wrong ;)

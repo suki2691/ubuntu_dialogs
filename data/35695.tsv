@@ -1,0 +1,4 @@
+2010-03-19T11:28:00.000Z	penguinv		thanks, I got my partition size which is 473876 and I am only using 20936 of it, it says.  --- system memory size: 1192MiB   --- Is this good? I dont understand how to compare the units.
+2010-03-19T11:29:00.000Z	psycho_oreos	penguinv	df -h may produce a more helpful output
+2010-03-19T11:32:00.000Z	penguinv	psycho_oreos	I see the results but I dont know which is swap. (someone said to another, swap should be 2x ram and I said to self, check it out)
+2010-03-19T11:33:00.000Z	psycho_oreos	penguinv	ahh yes, that's because swap doesn't get mounted as a human readable size :) i.e. its only for machine use

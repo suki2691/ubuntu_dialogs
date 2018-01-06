@@ -1,0 +1,4 @@
+2008-01-15T23:55:00.000Z	jac0b-work		what file do I change for my $PATH
+2008-01-15T23:56:00.000Z	jac0b-work		I tried .bashrc
+2008-01-15T23:56:00.000Z	jac0b-work		but when I did echo $PATH it didn't show my new PATH
+2008-01-15T23:56:00.000Z	pike_	jac0b-work	echo export PATH=$PATH >> ~/.bashrc  then add whatever extra dir yoiu want

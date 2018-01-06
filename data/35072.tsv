@@ -1,0 +1,4 @@
+2010-04-15T03:57:00.000Z	brax		Can someone please help me, I'm getting worried. I'm running Karmic Koala and my speakers won't work at all, even after three reboots.
+2010-04-15T03:58:00.000Z	brax		I don't know how it would be muted, Random832.
+2010-04-15T03:58:00.000Z	brax		I'll run alsamixer and see, but I think they look fine.
+2010-04-15T03:58:00.000Z	magicianlord	brax	in terminal, type alsamixer -c0, raise and unmute the proper levels, and then press escape to exit, then type alsactl store

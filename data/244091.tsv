@@ -1,0 +1,4 @@
+2005-06-06T13:18:00.000Z	jasp	fdr	try something like 'convert --resize 800x600 * '
+2005-06-06T13:20:00.000Z	fdr	jasp	that does the resizing but messes up the filenames...
+2005-06-06T13:21:00.000Z	fdr	jasp	it outputs $name_of_last_file.{1,2,3,....}  for every input file
+2005-06-06T13:27:00.000Z	jasp	fdr	des this work? make a new dir, and run convert from there, so the output of the convert command is saved in the new directory, instead of the source directory.

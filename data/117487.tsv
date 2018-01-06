@@ -1,0 +1,4 @@
+2007-10-16T13:14:00.000Z	mr_marvin		uduntu does not see 2 ntfs partitions on my secondary (slave) data when i type "fdisk -l". it sees one drive only ("Disk /dev/sdb: 250.0 GB")
+2007-10-16T13:15:00.000Z	`Matir	mr_marvin	that seems to be your slave drive
+2007-10-16T13:18:00.000Z	mr_marvin	`Matir	it is. i mount it as ntfs, i mount it with "/dev/sdb1 /media/wine ntfs-3g ". is that ok?
+2007-10-16T13:21:00.000Z	`Matir	mr_marvin	it would be ntfs-3g /dev/sdb1 /media/wine

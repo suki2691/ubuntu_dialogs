@@ -1,0 +1,4 @@
+2010-09-06T16:15:00.000Z	jayeola		hey chaps. having trouble removing a package:- http://pastebin.ca/1934219 any tips?
+2010-09-06T16:16:00.000Z	jrib	jayeola	it's not from the official repositories?  Check its scripts in /var/lib/dpkg/info/ to see what is going wrong
+2010-09-06T16:17:00.000Z	jayeola	jrib	thanks
+2010-09-06T16:22:00.000Z	jrib	jayeola	by the way, it's usually best to figure out what's going wrong and fix it rather than just commenting or destructively editing the script

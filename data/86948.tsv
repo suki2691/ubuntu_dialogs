@@ -1,0 +1,4 @@
+2008-08-24T05:46:00.000Z	pccc		Hello. How come when I make a hard link and edit the source file using emacs, the target file doesn't change?
+2008-08-24T05:48:00.000Z	mcphail	pccc	you haven't made the hardlink properly or you aren't using emacs properly
+2008-08-24T05:49:00.000Z	pccc	mcphail	echo "test" > file0 ; ln file0 hard_ln ; ln -s file0 soft_ln
+2008-08-24T05:49:00.000Z	pccc	mcphail	then i use emacs to edit file0 & ctrl-x-s to save

@@ -1,0 +1,4 @@
+2008-09-22T20:44:00.000Z	cads		I almost wish the system was more swappy: I only have 19 megabytes of main mem free yet a gig of swap is free - y swap is roughly 3 times y memory
+2008-09-22T20:46:00.000Z	cads		I feel like the main mem is being used to store unimportant pages, and it bottlenecks when critical things are trying to run
+2008-09-22T20:48:00.000Z	cads		i'll check out the guides
+2008-09-22T20:50:00.000Z	sixhat	cads	You can try to increase the swappiness: echo 100 > /proc/sys/vm/swappiness

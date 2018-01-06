@@ -1,0 +1,4 @@
+2008-03-01T03:56:00.000Z	Beric		I wanted to edit, etc/modprobe.d/alsa-base , but it says I have no permission to save the edited file. How can I log in as root on Ubuntu?
+2008-03-01T03:56:00.000Z	Beric		Thanks all! :)
+2008-03-01T03:57:00.000Z	Slart	Beric	edit the file using "gksu gedit /etc/modprobe.d/alsa-base" . That way the editor runs as root and can save the file
+2008-03-01T03:57:00.000Z	Slart	Beric	note.. gksu for gui apps.. sudo for command line stuff

@@ -1,0 +1,4 @@
+2005-12-13T17:25:00.000Z	_Rappy_		I'm partitioning my disk. So far I 4 partitions, but now the Partition manager says tahtthe last 14.7 GB is "Unusable" What's the problem?
+2005-12-13T17:26:00.000Z	chorse	_Rappy_	delete the 4th partition and create a logical one
+2005-12-13T17:26:00.000Z	chorse	_Rappy_	that's a dos partition table limitation
+2005-12-13T17:26:00.000Z	chorse	_Rappy_	aye. 3 primary + 1 extended with logicals

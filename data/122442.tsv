@@ -1,0 +1,4 @@
+2008-01-15T19:45:00.000Z	bentob0x		how can I delete multiple lines in multiple text files (both win and lin means that EOL *could* be different) depending on some regex (using grep I suppose)?
+2008-01-15T19:46:00.000Z	bentob0x		I have this so far: grep -Ri "string_to_delete" ./*
+2008-01-15T19:46:00.000Z	orionr	bentob0x	im not sure if you are asking your question very clearly. Ohhh do something like this rm "string to delete"
+2008-01-15T19:47:00.000Z	orionr	bentob0x	the * is a wild card do i you want to delete all files that start with a s and are type .c it would be this rm a*.c

@@ -1,0 +1,4 @@
+2010-09-29T03:16:00.000Z	nuestra		To make irssi connect to freenode's port 7000 w/SSL, do I need to install and run the openssh server, or just configure the client?
+2010-09-29T03:17:00.000Z	nuestra		dur, i mean an SSL server, sry
+2010-09-29T03:18:00.000Z	pedahzur	nuestra	Just need the client.  The SSL server is on the other end.
+2010-09-29T03:18:00.000Z	pedahzur	nuestra	irssi should pull in the required SSL libraries (OpenSSL) when you install it, if they aren't already installed.

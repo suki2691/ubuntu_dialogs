@@ -1,0 +1,4 @@
+2010-11-12T22:58:00.000Z	skione		I know how to schedule crons, I just can't find the log file in 10.04
+2010-11-12T22:58:00.000Z	skione		normally there is a /varlog/cron.log
+2010-11-12T23:00:00.000Z	skione		ah there it is (syslog) how would i break it out into its own log file?
+2010-11-12T23:00:00.000Z	quiescens	skione	if you want to have a cron specific log file you can make a file in /etc/rsyslog.d/ containing the line "

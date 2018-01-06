@@ -1,0 +1,4 @@
+2007-01-11T09:58:00.000Z	kevin		I am trying to upgrade edubuntu 6.06 to 6.10. When I run gksu "update-manager -c" it says "your system is up to date" with no upgrade message available. I have the latest version of Update Manager and have dapper-updates repositories in my sources.list. Is it a bug?
+2007-01-11T09:59:00.000Z	un_operateur	kevin	do you have the edgy repositories enabled in sources.list?
+2007-01-11T10:02:00.000Z	kevin	un_operateur	I do not have the edgy repositories in my sources.list, according to the upgrade page, I think this is only necessary for the not recommended apt-get method
+2007-01-11T10:04:00.000Z	un_operateur	kevin	errml, apt-get/aptitude has always been my "recommended" way and it has always worked right -- dunno what that is all about

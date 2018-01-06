@@ -1,0 +1,4 @@
+2011-08-04T07:43:00.000Z	Phrogz		curl http://localhost:9011/  works, but  curl http://192.168.0.84/ (my LAN IP) fails; what on Ubuntu might be preventing my own machine from accessing itself via ethernet?
+2011-08-04T07:43:00.000Z	Phrogz		er, :9011 on the second example, too.
+2011-08-04T07:43:00.000Z	willwh	Phrogz	I don't know.
+2011-08-04T07:51:00.000Z	Phrogz	willwh	FYI, the issue was that my web server was listening on 127.0.0.1:9011 and not 0.0.0.0:9011; http://serverfault.com/questions/297415/why-can-i-fetch-from-web-server-via-loopback-but-not-ip

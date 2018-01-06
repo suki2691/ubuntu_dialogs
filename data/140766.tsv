@@ -1,0 +1,4 @@
+2007-05-01T08:08:00.000Z	hidan		hey all, i just created a new fat32 partition. However, Ubuntu mounts it as /media/disk instead of /media/hdc2 . Also, Ubuntu seems to have mounted something else as /media/hdc2 . Any ideas?
+2007-05-01T08:09:00.000Z	pike_	hidan	if this is on your hard drive and not flash just sudo gedit /etc/fstab and change the mountpoint
+2007-05-01T08:09:00.000Z	hidan	pike_	: ooh okay thank you. ^^
+2007-05-01T08:13:00.000Z	hidan	pike_	oh dear, in fstab: seems /media/disk can't be found anywhere. there is a /media/hdc2 in fstab though but it's listed as an ntfs entry? huh?

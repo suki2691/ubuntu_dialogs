@@ -1,0 +1,4 @@
+2010-02-28T09:40:00.000Z	switch10		Is there a way to see if a cron job is running, or if it has finished?
+2010-02-28T09:41:00.000Z	bullgard	switch10	Yes, at least the latter.
+2010-02-28T09:42:00.000Z	switch10	bullgard	how do I do that?
+2010-02-28T09:45:00.000Z	bullgard	switch10	Have a look into /var/log/syslog: '~$ mc /var/log/syslog'. Then press F3 and look for 'CRON...'.

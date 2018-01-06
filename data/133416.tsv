@@ -1,0 +1,4 @@
+2007-05-24T09:50:00.000Z	leagris	ian13	VFat aka FAT32 is case insensitive as is all windows environment as opposed to Linux filesystems which match case of filenames. To avoid conflicts, VFAT arrange it that way.
+2007-05-24T09:51:00.000Z	ian13	leagris	is there a way to preserve allcaps though, since mixedcaps are preserved
+2007-05-24T09:53:00.000Z	leagris	ian13	you should have a look at man mount for the vfat options like "shortname"
+2007-05-24T09:53:00.000Z	ian13	leagris	will do

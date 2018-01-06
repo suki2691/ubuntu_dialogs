@@ -1,0 +1,4 @@
+2010-05-10T07:55:00.000Z	LuckySMack		in ludic when trying to install packages from software center, I always get "software cannot be authenticated"warnings. But doesnt give me the option to allow them anyways. so i have to install from the cli in order to accept it. How can i fix it so i can allow the install from software center?
+2010-05-10T07:57:00.000Z	mikelifeguard	LuckySMack	I think you're missing the keys the software is signed with... is there a metapackage to pull those in maybe? I suppose it must be possible somehow to do it manually too... dunno
+2010-05-10T07:58:00.000Z	LuckySMack	mikelifeguard	yea they are packages that are in the standard repos. I havent added any
+2010-05-10T07:58:00.000Z	mikelifeguard	LuckySMack	you still need the signing keys to verify the downloads though :\

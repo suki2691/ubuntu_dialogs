@@ -1,0 +1,4 @@
+2005-10-18T08:28:00.000Z	joker667		hi everybody :)
+2005-10-18T08:29:00.000Z	joker667		has anyone an idea if it is possible to use the proprietrary ati driver and suspend? my laptop always crashes on wakeup, without the driver it works like a charm
+2005-10-18T08:31:00.000Z	chongbook	joker667	in /etc/default/acpi-support or whatever the file is you can list the ati driver in the list to unload before suspending and reload after resuming
+2005-10-18T08:31:00.000Z	joker667	chongbook	i tried this, but no luck :(

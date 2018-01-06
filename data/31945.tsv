@@ -1,0 +1,4 @@
+2011-02-11T01:55:00.000Z	botcity		how can i remove a path from the $PATH variable? or is that more work than adding it ?
+2011-02-11T01:57:00.000Z	llutz	botcity	easiest way: add "export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games"  to your ~/.profile
+2011-02-11T02:00:00.000Z	llutz	botcity	grep -ri ":/opt/real/RealPlayer" /etc/* ~/*
+2011-02-11T02:27:00.000Z	botcity	llutz	everyone  i should say that i removed alot of realplayer with a howto that i found online as there was no un-installer.  grep found http://pastebin.com/N7zejfcg  if i remove them will that stop it setting my $PATH variable ?

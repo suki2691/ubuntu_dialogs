@@ -1,0 +1,4 @@
+2007-10-29T15:38:00.000Z	pbn		Hi there, I'm having some issue with 7.10. There is a DHCP server on my network. eth0 appears in ifconfig, but it has no IP. However, theres ethO:ava which has a 196.254.*.* address (apipa and/or bonjour) ... How can I get eth0 to receive a valid IP address ?
+2007-10-29T15:38:00.000Z	flute-	pbn	dhclient eth0
+2007-10-29T15:39:00.000Z	pbn	flute-	ah thank you
+2007-10-29T15:41:00.000Z	pbn	flute-	I've added auto eth0 device eth0 inet dhcp

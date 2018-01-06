@@ -1,0 +1,4 @@
+2007-12-11T18:21:00.000Z	Le^stat		why would ubuntu take other ppls ip addy's on a dhcp network?
+2007-12-11T18:21:00.000Z	kling0n	Le^stat	it shouldn't might be misconfigured dhcp server
+2007-12-11T18:22:00.000Z	kling0n	Le^stat	you could try killing dhclient and removing the lease files
+2007-12-11T18:22:00.000Z	kling0n	Le^stat	the sudo dhclient eth0 again

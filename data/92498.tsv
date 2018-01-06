@@ -1,0 +1,4 @@
+2010-11-05T17:16:00.000Z	ozfalcon		I have created a new user on a headless server. But can't login as new user. Auth.log says PAM: user unknown.... how do I fix this?
+2010-11-05T17:16:00.000Z	histo	ozfalcon	did you give the newuser a passwd and assign them any groups?
+2010-11-05T17:17:00.000Z	ozfalcon	histo	yes to both. sudo useradd -m -s /bin/bash -U -p password sentinal
+2010-11-05T17:18:00.000Z	histo	ozfalcon	seconds adduser

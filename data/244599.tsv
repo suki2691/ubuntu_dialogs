@@ -1,0 +1,4 @@
+2005-06-06T09:26:00.000Z	kart_		how can i mount my windows partition every time when my ubuntu starts! I had to manually mount it and only root can access it!
+2005-06-06T09:26:00.000Z	bob2	kart_	put it in /etc/fstab
+2005-06-06T09:26:00.000Z	bob2	kart_	if you put umask=002 in the options field, then anyone can read it
+2005-06-06T09:26:00.000Z	kart_	bob2	thanks

@@ -1,0 +1,4 @@
+2010-06-24T23:17:00.000Z	littlepenguin		hi i need urgent help..i use firestarter and there are strange occurences..mas source is my ip and target is my localhost on port 16001..after that there is an connection attempt from my router to my ip on port 14013..rkhunter and chrootkit does not show any alarm..netstat tulpen does not show any open socket
+2010-06-24T23:18:00.000Z	littlepenguin		when i clear the events in firestarter there is directly the behaviour
+2010-06-24T23:20:00.000Z	airtonix	littlepenguin	you should use UFW instead and monitor its logs with : watch -n1 -d "tail /var/log/messages | grep UFW "
+2010-06-25T00:15:00.000Z	littlepenguin	airtonix	after a restart everything works now ..i set up some rules and it works fine..when watching the log the local occurence port 16001 is gone..the one with port 14013 to my router is listed the whole time

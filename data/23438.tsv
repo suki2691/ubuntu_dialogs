@@ -1,0 +1,4 @@
+2010-11-07T17:34:00.000Z	Exploiter		Guys, urgent.. i have a process running on PID 12345 , how do i find out which port its using?? any command??
+2010-11-07T17:35:00.000Z	Exploiter		Mikey: port if above 5,000 i guess
+2010-11-07T17:35:00.000Z	Exploiter		anyone.. i have a process running on PID 12345 , how do i find out which port its using?? any command??
+2010-11-07T17:35:00.000Z	n3rV3	Exploiter	use netstat -nalp|grep pid

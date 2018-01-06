@@ -1,0 +1,4 @@
+2009-10-01T23:10:00.000Z	kansan		if i have ubuntu hardy installed such that /root/ is on one partition and /home/ is on another... and i want to move to jaunty... i was thinking of: 1) booting from jaunty live cd; 2) blowing away the /root/ partition, and reformat it.  3) use the existing /home/ partition in the new installation.  does this sound reasonable?
+2009-10-01T23:11:00.000Z	torn	kansan	technically that should work. Unless you have specific/customer files and scripts in your / partition right now.
+2009-10-01T23:14:00.000Z	torn	kansan	to play it safe, make a backup of everything in /home to a USB or external drive. Never hurts to play it safe. Then when you install Jaunty, you can tell it to use the whatever # partition as /home (without formatting) and you should be good to go.
+2009-10-01T23:14:00.000Z	torn	kansan	if you screw up or accidentally format the partition, you will have a backup copy on another drive/external.

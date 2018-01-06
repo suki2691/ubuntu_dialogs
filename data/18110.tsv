@@ -1,0 +1,4 @@
+2011-04-11T05:07:00.000Z	sean_w		Hi, how can I allow postfix to relay from 127.0.0.1?
+2011-04-11T05:07:00.000Z	sean_w		Right now I get NOQUEUE: reject: RCPT from localhost[127.0.0.1]
+2011-04-11T05:08:00.000Z	Dmole	sean_w	it should by default
+2011-04-11T05:15:00.000Z	sean_w	Dmole	Even after I ran /etc/init.d/postfix reload with the internet site option, it rejects it. I'm sending locally via python. Any ideas?

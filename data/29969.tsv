@@ -1,0 +1,4 @@
+2010-06-22T00:19:00.000Z	alkemann		running wubi on my laptop. 2 partitions (before installing wbui) think i have 3 now. the system monitor shows a device called /dev/loop0 . what is this? is the fact that it is almost full the thing that is making copying a file to a usb stick very slow? how can I make this partition bigger?
+2010-06-22T00:20:00.000Z	bigleon	alkemann	one sec reading your q.
+2010-06-22T00:22:00.000Z	bigleon	alkemann	I got the exact same setup as you for the most part, before installing Wubi, i had to partions my Core for Win7 + my 200 gig seperated partion. One thing to note with wubi is you sacrafice some disc performace.
+2010-06-22T00:23:00.000Z	bigleon	alkemann	Now the partion used for wubi probbaly is very minimal and takes up no more space than it needs... So I can't see that being issue, so problem possibly lies in a ram issue or an overall lack of space... I'd make sure that your wubi install is on your bigger partion.

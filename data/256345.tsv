@@ -1,0 +1,4 @@
+2012-11-30T09:55:00.000Z	Sixil		I try to run this: http://paste.debian.net/hidden/e3de27d3/ but when I run it and agree to deleting the directory contents, it comes back with: rm: cannot remove `/home/sixil/Dustbin/*': No such file or directory
+2012-11-30T09:56:00.000Z	dr_willis	Sixil	 you got * quoted so deeply the shell is not parseing it..  rm is seeing the actual '*' character
+2012-11-30T09:56:00.000Z	dr_willis	Sixil	 using ' when you need "  perhaps
+2012-11-30T10:13:00.000Z	dr_willis	Sixil	 i bet spaces in file names will mess you up also

@@ -1,0 +1,4 @@
+2012-05-16T16:29:00.000Z	captine		hi all.  quick one.  connecting ext2 formatted external drive to ubuntu 12.04 machine and i cannot create any folders on it.  it is freshly formated but mounts as root
+2012-05-16T16:29:00.000Z	captine		is there a dumb user way to not have it mount as root
+2012-05-16T16:30:00.000Z	yeehaw	captine	chown -R user:user /mnt/mountpoint
+2012-05-16T16:33:00.000Z	captine	yeehaw	worked.  thanks.  i was hoping for a non-terminal way.  difficult to get my wife to use ubuntu if terminal is needed at times

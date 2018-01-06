@@ -1,0 +1,4 @@
+2007-11-24T12:00:00.000Z	CapaH		I am using a Belkin USB adapater, ndiswrapper -l shows this: blkwgu : driver installed device (050D:705C) present (alternate driver: zd1211rw) --- but it appears that it is not using the ndiswrapper version, but the default driver ---- how can I change that?
+2007-11-24T12:01:00.000Z	CapaH		(trying to see if I cannot figure this out with ndiswrapper)
+2007-11-24T12:01:00.000Z	joeb3_	CapaH	blacklist the zd1211rw driver in /etc/modprobe.d/blacklist
+2007-11-24T12:02:00.000Z	joeb3_	CapaH	yes and make sure you modprobe ndiswrapper when you reboot

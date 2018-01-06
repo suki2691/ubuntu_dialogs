@@ -1,0 +1,4 @@
+2011-06-28T09:33:00.000Z	pat201		how can i tell if the architecture i have is i386 or AMD64?
+2011-06-28T09:34:00.000Z	knoppies	pat201	if that doesnt work, then do an apt-cache search (and pick some package, I should find one that states)
+2011-06-28T09:36:00.000Z	knoppies	pat201	sorry, apt-cache wont tell you, you could try: ls /var/cache/apt/archives
+2011-06-28T09:52:00.000Z	knoppies	pat201	there are others but those should be sufficient, yes.

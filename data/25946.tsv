@@ -1,0 +1,4 @@
+2010-09-18T09:28:00.000Z	zeleftikam		how can i find out what sort of hardware my computer is running from the command line? i'd like to know the processor type and speed.
+2010-09-18T09:28:00.000Z	rames2	zeleftikam	cat /proc/cpuinfo
+2010-09-18T09:29:00.000Z	rames2	zeleftikam	i think... cd /proc and start poking around (carefully! :^)
+2010-09-18T09:30:00.000Z	rames2	zeleftikam	out of curiosity what are your bogomips?

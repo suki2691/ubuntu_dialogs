@@ -1,0 +1,4 @@
+2009-09-05T00:18:00.000Z	Dunge		Anyone know if there's an utility to format a filesystem as YAFFS2 (which seems to be a good type for sdcard)? I can't find any mkfs.yaffs2 or anything in apt-get.
+2009-09-05T00:19:00.000Z	fccf	Dunge	better off FAT32
+2009-09-05T00:20:00.000Z	Dunge	fccf	: FAT get corrupted when lost power
+2009-09-05T00:21:00.000Z	Dunge	fccf	: I have to use something which won't corrupt the filesystem if the device suddently loose power (which happens very often)

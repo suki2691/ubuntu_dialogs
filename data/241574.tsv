@@ -1,0 +1,4 @@
+2005-04-24T16:55:00.000Z	alexwillmer		looking at the /usr/src/linux-headers-2.6.10-5/.config for 5.04 it appears CONFIG_NET_RADIO was not set in the built kernel, am I interpreting this correctly?
+2005-04-24T16:55:00.000Z	imperfect-	alexwillmer	: If it's in .config, yep prolly nod
+2005-04-24T16:55:00.000Z	imperfect-	alexwillmer	: if it says CONFIG_NET_RADIO=n
+2005-04-24T16:57:00.000Z	alexwillmer	imperfect-	actually it says # CONFIG_NET_RADIO is not set, but if that's true surely no wifi would work in 5.04?

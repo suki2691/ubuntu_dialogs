@@ -1,0 +1,4 @@
+2006-03-22T14:26:00.000Z	edan		how do i chek if i have a multiprocessor system and how do i enable "Symmetric multi-processing support" (SMP) without recompiling my kernel??
+2006-03-22T14:27:00.000Z	silvaran	edan	cat /proc/cpuinfo | grep 'processor'
+2006-03-22T14:27:00.000Z	silvaran	edan	How many lines does that print?
+2006-03-22T14:28:00.000Z	silvaran	edan	Then you have 1 CPU :)

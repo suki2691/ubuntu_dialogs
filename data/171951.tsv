@@ -1,0 +1,4 @@
+2006-08-05T07:59:00.000Z	Warbo		usr/sbin sorry
+2006-08-05T08:01:00.000Z	Tommck___	Warbo	- can I copy some stuff off my CD to the disk so that apt-get won't try to download things?
+2006-08-05T08:02:00.000Z	Warbo	Tommck___	If you put the packages from the "pool" folder directly into /var/cache/apt/archives (eg. no seperate folders, just all of the .debs in to that folder) then it may realise that it already has them, and won't ask
+2006-08-05T08:02:00.000Z	Tommck___	Warbo	 - thanks

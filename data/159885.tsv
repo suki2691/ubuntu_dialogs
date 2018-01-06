@@ -1,0 +1,4 @@
+2011-01-30T20:46:00.000Z	xrdodrx		How do I format the whole disk so I can start from scratch with the partition manager?
+2011-01-30T20:48:00.000Z	MasterOfDisaster	xrdodrx	this gets rid of your bootsector + partition table: dd if=/dev/zero of=/dev/xxx bs=512 count=1
+2011-01-30T20:48:00.000Z	MasterOfDisaster	xrdodrx	handle with care though
+2011-01-30T20:49:00.000Z	MasterOfDisaster	xrdodrx	whatever floats your boat :)

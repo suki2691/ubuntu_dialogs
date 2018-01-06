@@ -1,0 +1,4 @@
+2008-04-28T17:47:00.000Z	ciro		who can say me why my hd cant be mount? this is a paste for my fdisk -l and fstab ... the hd is sdb1 ... it has got a fat32 fs and if i try to mount it manually console says me that device sdb1 doesnt exit ... ???? ... who can help me please?
+2008-04-28T17:47:00.000Z	ciro		http://pastebin.ubuntu-nl.org/64673/
+2008-04-28T17:49:00.000Z	jrib	ciro	how are you trying to mount it
+2008-04-28T17:50:00.000Z	ciro	jrib	sudo mount /dev/sdb1 /media -t vfat -o iocharset=utf8,umask=000

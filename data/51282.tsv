@@ -1,0 +1,4 @@
+2009-10-10T00:54:00.000Z	h3rb3r7		hey im totally new to linux, im on CLI and want to know if its possible to toggle some sort of status messages, i.e. if i "rm" a file, that there is a message like "blah deleted successfully" ... its kind of weird that there is no response =)
+2009-10-10T00:56:00.000Z	trism	h3rb3r7	you can add &> /dev/null to supress output from the command
+2009-10-10T00:56:00.000Z	trism	h3rb3r7	oh sorry, misunderstood
+2009-10-10T01:02:00.000Z	trism	h3rb3r7	ls -l will list permissions in the first column, user-group-world

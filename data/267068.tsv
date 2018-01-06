@@ -1,0 +1,4 @@
+2009-05-06T18:20:00.000Z	Kate_344		Hello , I need help please , i installed (by compiling) package named "IRSTLM" (its a tool for processing text for statical use.. ) after i compiled the source files i got msg : Set IRSTLM environment variable with path to irstlm " how can i do that ?
+2009-05-06T18:21:00.000Z	Dr_Willis	Kate_344	 edit the .bashrc or .bash_profile   and use teh command 'export IRSTLM='/path/to/the/thing'
+2009-05-06T18:21:00.000Z	Dr_Willis	Kate_344	  bash basics. :) that will set ot up when the user logs in.  or theres system wide configs for the same thing also.
+2009-05-06T18:23:00.000Z	Dr_Willis	Kate_344	 that file gets read at login, so it  wont take effect  unless you reread/source the file.

@@ -1,0 +1,4 @@
+2011-06-25T02:12:00.000Z	tiago		does anybody knows how to scp a file from a remote server to my local machine, given that I have to bounce from another ssh accessible server to access  it
+2011-06-25T02:12:00.000Z	tiago		command-line and nautilus way
+2011-06-25T02:13:00.000Z	spc_in_plc	tiago	I guess you can install openssh on your local machine, and scp files from your remote server to your local machine through SSH
+2011-06-25T02:16:00.000Z	tiago	spc_in_plc	I have no problem doing scp between my local machine and remote server, unless this remote server is only accessible by another ssh server, which is the case

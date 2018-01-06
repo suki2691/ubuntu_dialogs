@@ -1,0 +1,4 @@
+2008-01-20T21:48:00.000Z	johndyer		what do I do if I closed the terminal window in VNC after I started gnome.  I have no way to do anything other then ssh'ing into the box butI dont know what to kill
+2008-01-20T21:48:00.000Z	Starnestommy	johndyer	ps aux | grep name-of-program?
+2008-01-20T21:50:00.000Z	johndyer	Starnestommy	 did that killed all the gnome processes, no luck.  Stil only see wallpaper when I vnc in
+2008-01-20T21:51:00.000Z	Starnestommy	johndyer	try sudo killall vnc?

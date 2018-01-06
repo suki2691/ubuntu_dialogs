@@ -1,0 +1,4 @@
+2008-11-05T06:46:00.000Z	ditch64		Hi, i have a problem with GRUB, it gives me error 21 after trying to load stage 1.5 it is a FRESH install with no dual boot. any help would be appreciated
+2008-11-05T06:46:00.000Z	Pelo	ditch64	hold on
+2008-11-05T06:47:00.000Z	Pelo	ditch64	error 21 means selected disk does not exist,  most likely your (hd0,0) thing in the root line is wrong , possibly a uuid line if you have those
+2008-11-05T06:48:00.000Z	Pelo	ditch64	meet me in #grub , too busy in here

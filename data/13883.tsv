@@ -1,0 +1,4 @@
+2011-05-25T22:51:00.000Z	Broseph		hey, I've just mounted a new hard drive in ubuntu 11.04 and I'd like to move my home directory, I imagine there's a bit more to it that just moving the folder
+2011-05-25T22:51:00.000Z	Broseph		/dev/sdb1       /media/data     ext4    defaults        0       2
+2011-05-25T22:52:00.000Z	Broseph		entry in fstab for the second hdd
+2011-05-25T22:52:00.000Z	Mathuin_	Broseph	were it me, I'd boot single-user, move the user directory to /media/data/username, change /etc/fstab to mount that device as /home, and reboot single-user to make sure it's okay.

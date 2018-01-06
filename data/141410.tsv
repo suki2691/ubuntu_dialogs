@@ -1,0 +1,4 @@
+2008-06-15T02:43:00.000Z	Zaiden		one of my games only works if I type in sudo gamename in the terminal. Is there a way to create a launcher on the desktop that'll let me launch the game without using the terminal?
+2008-06-15T02:45:00.000Z	hagabaka	Zaiden	do you know why it requires sudo?
+2008-06-15T02:46:00.000Z	Zaiden	hagabaka	My only guess is that the game was installed to the directory /usr/local/games/gamefolder
+2008-06-15T02:46:00.000Z	hagabaka	Zaiden	if that's the only reason you don't need to run it with sudo and shouldn't. just add the path of the program to your PATH

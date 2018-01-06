@@ -1,0 +1,4 @@
+2012-02-14T12:53:00.000Z	overclucker	anoc	a line like this in yoour sudoers could work:  %groupname ALL=(ALL:ALL) NOPASSWD: /path/to/command /path/to/another/command
+2012-02-14T12:54:00.000Z	overclucker	anoc	then as part of the group sudo command shouldwork without password.
+2012-02-14T12:55:00.000Z	anoc		bobo: no, i dont boot my virtual machine almost ever. just put it sleep state / and then resume it at the next day (used for php/mysql work)
+2012-02-14T13:08:00.000Z	anoc	overclucker	tried the sudoers but still asks password

@@ -1,0 +1,4 @@
+2008-01-08T00:10:00.000Z	Gyrodog		The Composite extension is not available thats the box that pops up wut can I do to fix the problem on my effects
+2008-01-08T00:12:00.000Z	genii	Gyrodog	add into xorg.conf 3 lines 1: Section "Extensions" 2: Option "Composite" "Enable" 3: EndSection
+2008-01-08T00:13:00.000Z	genii	Gyrodog	To edit that file,: gksudo gedit /etc/X11/xorg.conf
+2008-01-08T00:16:00.000Z	genii	Gyrodog	To make that change take effect, log out of ubuntu, then at the login screen do  ctrl-backspace    then it should load up the login screen again. login as usual then and try the composite stuff

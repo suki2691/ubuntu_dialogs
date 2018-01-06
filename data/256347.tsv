@@ -1,0 +1,4 @@
+2011-07-25T08:11:00.000Z	Leftmost		I'm booting a virtualbox VM running 11.04. It recognizes the virtual ethernet card and loads the e1000 module, but doesn't create the eth0 interface. Any ideas why, or what I can do?
+2011-07-25T08:13:00.000Z	dr_willis	Leftmost	    saw a similer oddity the other day in vbox. idid nit see the eth0, but when i did s dhclient eth0 it came up. not sure why.
+2011-07-25T08:15:00.000Z	dr_willis	Leftmost	 in my case it was going to eth1
+2011-07-25T08:15:00.000Z	dr_willis	Leftmost	 not sure why.

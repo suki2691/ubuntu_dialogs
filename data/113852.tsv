@@ -1,0 +1,4 @@
+2008-01-16T23:21:00.000Z	andre_pl		network monitor applet shows I'm uploading at 36k/sec, but i'm not running anything that I know of. how can I find out what it is?
+2008-01-16T23:22:00.000Z	_mug	andre_pl	hm an easy way would be to close any network apps and run netstat -lap
+2008-01-16T23:23:00.000Z	_mug	andre_pl	netstat shows you every active network connection + process and even listening ports
+2008-01-16T23:25:00.000Z	andre_pl	_mug	thanks

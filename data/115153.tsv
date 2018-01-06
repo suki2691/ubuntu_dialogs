@@ -1,0 +1,4 @@
+2008-04-07T06:15:00.000Z	brian_		Does anyone know what port to forward if I want to use vncviewer?
+2008-04-07T06:16:00.000Z	brian_		bubuluk: Sounds about right :D Thanks.
+2008-04-07T06:17:00.000Z	sjovan	brian_	first you have to finde out what the server name is. maby you are running tightvnc? any way ---> ps aux | grep vnc or something should figure out of that. then you do ---> netstat -anp|grep name-of-ap, and then you can se the port. you could also reconfigure the pory (that's prob. the easyes way)
+2008-04-07T06:18:00.000Z	brian_	sjovan	:P I have everything set up, it's just a matter of which port I needed to forward in my router. Thanks though :)

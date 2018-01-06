@@ -1,0 +1,4 @@
+2007-04-25T05:07:00.000Z	weswh-		I am trying to upgrade my Edgey system to Feisty as painlessly as possible. My line of thinking right now is two fold: 1, I want to put my home DIR on its own partition, so that in the future my personal data isn't married to the partition that my OS is installed to. 2. I want to create a new partition for Feisty, and install the OS there. I will copy the data from my home DIR (on the edgey partition), into the new Home partition - then 
+2007-04-25T05:07:00.000Z	weswh-		does that sounds like a good plan of attack?
+2007-04-25T05:08:00.000Z	bokey	weswh-	dd if=/home/wesh /media/home/wesh/
+2007-04-25T05:08:00.000Z	bokey	weswh-	dd if=/home/wesh of=/media/home/wesh/

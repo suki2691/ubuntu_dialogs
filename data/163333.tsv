@@ -1,0 +1,4 @@
+2008-01-29T04:32:00.000Z	cowbud		using dapper LTS it seems that when I boot I lose loop back interface lo if I do /etc/init.d/networking restart it comes up fine. I have been poking around but can't find anything that leads to why this is  happening (including bug reports I have found online for dapper) any ideas?
+2008-01-29T04:33:00.000Z	bod_	cowbud	not sure why it does it but you could write a script to perform that command everytime you boot
+2008-01-29T04:38:00.000Z	cowbud	bod_	yah but i'd rather root cause it :)
+2008-01-29T04:38:00.000Z	bod_	cowbud	kk

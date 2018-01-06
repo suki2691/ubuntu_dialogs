@@ -1,0 +1,4 @@
+2010-02-14T19:27:00.000Z	negev		hi, i've got an established vpn with pppd/pptp. how can i route all traffic over the vpn?
+2010-02-14T19:27:00.000Z	ikonia	negev	add a network route with route add
+2010-02-14T19:27:00.000Z	negev	ikonia	i figured as much, not sure what the route should be though. if i route all traffic over it, won't the packets going to the vpn server also get re-routed?
+2010-02-14T19:28:00.000Z	ikonia	negev	if you want to route everything over the vpn, change the default route to the vpn gateway

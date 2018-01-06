@@ -1,0 +1,4 @@
+2004-10-29T13:15:00.000Z	tolle		How do I generate the debian folder in a sourcetree?
+2004-10-29T13:15:00.000Z	tolle		so that i can make a .deb file out of a program i have compiled on my own
+2004-10-29T13:16:00.000Z	aitrus	tolle	if you aren't going to distribute it and just wnat to install something from source on yoru local machine you could use checkinstall
+2004-10-29T13:17:00.000Z	tolle	aitrus	i found it. deb-make and then dpkg-buildpkg

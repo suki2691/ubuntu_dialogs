@@ -1,0 +1,4 @@
+2010-01-12T03:04:00.000Z	lysek		hey, i have a question i have installed ubuntu on a drive with windows xp, i have chosen to not choose partitions so it will install it next to windows, i thought it will take the free space after the windows partition, but ubuntu has 60GB and free space was only 26 GB o.O, what that means?
+2010-01-12T03:05:00.000Z	undecim	lysek	Can you still access XP?
+2010-01-12T03:07:00.000Z	undecim	lysek	I think you may have resized your windows partiton during the install. If you use the Ubuntu livecd, you should be able to use the program "gparted" to resize both partitions to the size you want.
+2010-01-12T03:08:00.000Z	lysek	undecim	mmvx: i see now that my C: drive is resized to about 50GB smaller, why ubuntu did that automaticly without asking?

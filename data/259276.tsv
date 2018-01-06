@@ -1,0 +1,4 @@
+2005-07-03T14:01:00.000Z	Mortified_Pengui		Hey, how do i download the kernel sources for 2.6.10 ?
+2005-07-03T14:03:00.000Z	Mortified_Pengui		I tried apt-get install linux-source-2.6.10, but it says there is no package
+2005-07-03T14:03:00.000Z	Burgundavia	Mortified_Pengui	you need apt-get source linux-blah
+2005-07-03T14:04:00.000Z	Burgundavia	Mortified_Pengui	for each deb archive you have, add a deb-src archive

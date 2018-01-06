@@ -1,0 +1,4 @@
+2004-10-31T14:51:00.000Z	iminj		Hi: I'm a NOOB trying to install warty. Why can't I get an address by DHCP ? I am connected to ethernet port of a D-Link router (624). I get DHCP in Win98 with this set-up.
+2004-10-31T14:52:00.000Z	doubletwist	iminj	It might not have properly detected your network card.
+2004-10-31T14:53:00.000Z	doubletwist	iminj	you can see if  "ifconfig -a" shows eth0
+2004-10-31T14:54:00.000Z	doubletwist	iminj	it depends on if it detected your nic or not.

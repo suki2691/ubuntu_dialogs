@@ -1,0 +1,4 @@
+2010-09-23T06:31:00.000Z	weekly		Quick question: How do I get my current samba version number?
+2010-09-23T06:32:00.000Z	rames	weekly	dpkg -l samba
+2010-09-23T06:32:00.000Z	rames	weekly	(ell ... list)
+2010-09-23T06:34:00.000Z	rames	weekly	also "some samba command --version" ... dpkg -L samba | grep bin will help you there

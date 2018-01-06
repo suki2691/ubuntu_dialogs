@@ -1,0 +1,4 @@
+2007-03-20T15:03:00.000Z	Alonea		Ok, when I click on the amarok icon, it does the bouncy symbol thing, but doesn't load. If I load it in the terminal as user it says "Updating database" thing and doesn't load. If I load it in the terminal as root, it loads fine.
+2007-03-20T15:05:00.000Z	Alonea		ok, this thing is telling me to make my path to /usr/local/arm-elf/bin so how do I do that?
+2007-03-20T15:06:00.000Z	dyrne	Alonea	if you 'echo $PATH' youll see the present path id gedit ~/.bashrc  and include the whole path with the new dir too
+2007-03-20T15:06:00.000Z	dyrne	Alonea	like export PATH=/onepath:/secondpath

@@ -1,0 +1,4 @@
+2009-09-12T19:10:00.000Z	zebaztian		HELP!!!: I'm having trouble downloading some files from a website, basically when I right click and save link as, it starts to download but the file size is smaller than what it should be, in other words, I am trying to get an mp3 file that's 30 min long and it won't download completely,  only partially, leaving me with a file that ends abruptly, is there a way to download through the terminal?
+2009-09-12T19:11:00.000Z	stefg	zebaztian	wget -c [URL]
+2009-09-12T19:13:00.000Z	zebaztian	stefg	where will that download to? home folder?
+2009-09-12T19:14:00.000Z	stefg	zebaztian	the folder you are currently in (the prompt says it)

@@ -1,0 +1,4 @@
+2005-05-14T16:03:00.000Z	Licker		Question: I need to edit the sources.list file. But need to login to root to change the (read only) status. How would I do this?
+2005-05-14T16:04:00.000Z	Licker		oh really?
+2005-05-14T16:04:00.000Z	troy14	Licker	copy the file to the desktop, then you can open it with a text editor like vi or openoffice writer. save your changes, and in terminal run "sudo cp Desktop/sources.list /etc/apt/sources.list
+2005-05-14T16:05:00.000Z	troy14	Licker	right, thats why you copy it to the desktop first, then open, change, save, copy back to .etc.apt

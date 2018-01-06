@@ -1,0 +1,4 @@
+2008-06-13T07:50:00.000Z	Weems		how can I removee all traces of an app I "completely removed"?
+2008-06-13T07:50:00.000Z	Weems		I want to merge banshee-1 into banshee..
+2008-06-13T07:50:00.000Z	Darlok_Williams	Weems	apt-get --purge [package]
+2008-06-13T07:50:00.000Z	Darlok_Williams	Weems	But then you'll still need to delete it's directory in your Home folder because --purge doesn't do that for some odd reason.

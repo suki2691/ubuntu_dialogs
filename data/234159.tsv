@@ -1,0 +1,4 @@
+2005-10-24T14:35:00.000Z	all4n		hey, I have a problem..  I'm running out of diskspace on / and was thinking of mounting /home on a new partition I just created.  What I was thinking was just to copy everythin over on that partition by using 'cp -a /home/* /home2/' and then remove /home, and remount /home2 as /home.. now, the problem is that when I try to copy everything over.. I get the problem that it won't copy symbolic links and things.. why is that?
+2005-10-24T14:36:00.000Z	Peps	all4n	use tar untar
+2005-10-24T14:37:00.000Z	all4n	Peps	is there a reason tar can copy and pack something that cp can not?
+2005-10-24T14:38:00.000Z	Peps	all4n	tar worked for me in the past. just try it out on a small subdir with links

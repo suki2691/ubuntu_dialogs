@@ -1,0 +1,4 @@
+2012-10-26T03:47:00.000Z	cweagans		Hi there. I'm installing Ubuntu 12.10 and I'm wondering if I can not have a swap partition and use a file somewhere instead. I know it was possible with earlier versions of Ubuntu, but the only help document that I found said that it won't work in 12.04 and forward because the way that hibernation works has changed.
+2012-10-26T03:48:00.000Z	wols	cweagans	you can, but you might not be able to use hibernation, yes
+2012-10-26T03:48:00.000Z	wols	cweagans	if you don't need it you can use a swap file. but why would you want to? a swap file is good if you need a temporary one. for a real swap space, you want a partition
+2012-10-26T03:48:00.000Z	wols	cweagans	create an extended partition. much better thing to do.

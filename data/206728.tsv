@@ -1,0 +1,4 @@
+2006-09-30T09:30:00.000Z	Rasta		i just fresh installed ubuntu but im getting some problems with apt-get, when i use it i get a "Could not open lock file /var/lib/dpkg/lock - open (13 Permission denied)" message and i cant install anything, xchat was installed trough synaptic, any ideas why this happens?
+2006-09-30T09:30:00.000Z	sethk	Rasta	sudo apt-get .....
+2006-09-30T09:30:00.000Z	Rasta	sethk	im using sudo
+2006-09-30T09:31:00.000Z	sethk	Rasta	I've never seen that problem when running apt-get with sudo, because (obviously) root does have permissions on the lock file.  Is it possible another instance of apt-get, or a synaptic, is running at the same time?

@@ -1,0 +1,4 @@
+2011-02-24T13:07:00.000Z	coraxx		hey all.  Here is a very specific question (hope you like those) ... when using 'sed' to replace text with some other text in a text-stream, how does one replace a text with nothing (not a space, just nothing) ?
+2011-02-24T13:07:00.000Z	rww	coraxx	sed 's/magic//'
+2011-02-24T13:08:00.000Z	coraxx	rww	lol, of course...thank you :-D
+2011-02-24T13:19:00.000Z	coraxx	rww	ok then... here is another tiny challenge ... everything seems to work ..except there a a couple of places in the document where the string is not replaced ... I'm assuming its in all instances where the string occur more than one time in one line ...and only one replaced is done per line ...by default....<--- if that's true...how do I make it take all replacement into account ?

@@ -1,0 +1,4 @@
+2010-05-27T03:31:00.000Z	fatum		Why was the ability to theme the login screen removed from 10.04?
+2010-05-27T03:33:00.000Z	fatum		Was there a specific reason for removing the ability to theme the login screen in Ubuntu 10.04?
+2010-05-27T03:34:00.000Z	ActionParsnip	fatum	its very possible
+2010-05-27T03:36:00.000Z	ActionParsnip	fatum	if you run: sudo cp /usr/share/applications/gnome-appearance-properties.desktop /usr/share/gdm/autostart/LoginWindow      then logoff, you will be able to select the wallpaper you want. you can then login. You MUST then run: sudo unlink /usr/share/gdm/autostart/LoginWindow/gnome-appearance-properties.desktop

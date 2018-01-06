@@ -1,0 +1,4 @@
+2011-02-16T07:03:00.000Z	sacarlson	bjv	maybe it's a sudo function that's grayed out?  I see palimpsest can mount and umount stuf with a gui, it's part of gnome-disk-utility
+2011-02-16T07:06:00.000Z	bjv	sacarlson	interesting idea, i just looked for similar uuid from the nonfunctional /media mountpoints in /dev/disk/by-uuid and found mine -- it did ask for sudo privledges, and after retrying w/ password the permissions look fine
+2011-02-16T07:06:00.000Z	bjv		let me try again over x11 forwarding
+2011-02-16T07:08:00.000Z	bjv	sacarlson	hm  not quite.  sudo nautilus does show the eject buttons for the two disks i mounted from the console, but all the icons and stuff are messed up.  app must be running as root and not connected to my ck session

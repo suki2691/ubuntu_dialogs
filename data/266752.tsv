@@ -1,0 +1,4 @@
+2009-07-31T01:42:00.000Z	denis|		excuse me, does anybody know why "echo `cat`" refuses to work like "xargs -i echo {}" ?
+2009-07-31T01:43:00.000Z	Dr_Willis	denis|	 theres a limition on the # of characters in a single 'argument' on the shell.. for one thing...
+2009-07-31T01:43:00.000Z	denis|	ikonia	why? if i just type "cat" it will
+2009-07-31T01:43:00.000Z	Dr_Willis	denis|	 also the use of backticks is slowly getting replaced with the syntax $(command)

@@ -1,0 +1,4 @@
+2012-11-05T00:13:00.000Z	VLanZ		i'm having a "low graphic mode" issue when booting 12.10 w/out monitor. Is there any way to get ubuntu to remember the last corret configuration?
+2012-11-05T00:14:00.000Z	JimmyNeutron	VLanZ	I had similar problem and adding this to my /etc/rc.local helped: sleep 1 && service lightdm restart
+2012-11-05T00:15:00.000Z	JimmyNeutron		But then I wasn't running a headless system
+2012-11-05T00:15:00.000Z	VLanZ	JimmyNeutron	ok lets see if it works

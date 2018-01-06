@@ -1,0 +1,4 @@
+2011-06-13T22:44:00.000Z	mr_chris		Hi there. Can anyone shed light on what kworker is, why it spawns so many processes, and why it causes so many kernel wakeups? I know it was introduced recently in the newer kernel build but I am unable to find any real information on what it is, what it's for, and if I should be concerned about the previously stated issues with it.
+2011-06-13T22:45:00.000Z	escott	mr_chris	iirc kworker is not for a specific task, but rather a thread that can do any properly structured bit of work. there should be one per logical core
+2011-06-13T22:46:00.000Z	escott	mr_chris	http://lwn.net/Articles/403891/
+2011-06-13T22:47:00.000Z	mr_chris	escott	Thanks

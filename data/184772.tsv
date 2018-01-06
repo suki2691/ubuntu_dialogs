@@ -1,0 +1,4 @@
+2006-06-03T09:47:00.000Z	nko		hi i have problem with Dapper and 1280 widescreen resolution
+2006-06-03T09:49:00.000Z	nko		yesterday i had updated my 5.10 to 6.06... but now i have problem with my screen... i can't set to 1280x800
+2006-06-03T09:50:00.000Z	nko		intel855... with 5.10 i had a patch 855resolution
+2006-06-03T09:51:00.000Z	jani_	nko	try editing your /etc/X11/xorg.conf then set/add the resolution you like (sepported by monitor) on Subsection "Display" under the Depth of your choosing

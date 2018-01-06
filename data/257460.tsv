@@ -1,0 +1,4 @@
+2011-03-29T05:42:00.000Z	ubuntu__		When I'm installing and selecting partitions manually, I select /dev/sda1 to install the bootloader on but when I reboot it doesn't load GRUB
+2011-03-29T05:43:00.000Z	ubuntu__		Falcon: So I'll have /dev/sda1 mounted at /, /dev/sda2 as swap
+2011-03-29T05:43:00.000Z	ubuntu__		then install bootloader on /dev/sda?
+2011-03-29T05:44:00.000Z	maxo	ubuntu__	it needs to go on the mbr (master boot record), which then passes things on to each partition, sda1, sda2 ...

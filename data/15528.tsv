@@ -1,0 +1,4 @@
+2012-07-03T01:44:00.000Z	Muninx76		If I have a server running apache and a directory has drwxrwxrwx permissions, would people on the web have full access to that folder?
+2012-07-03T01:44:00.000Z	escott	Muninx76	people using http are not like real users.
+2012-07-03T01:47:00.000Z	escott	Muninx76	in general that permission would seem to be a bit too broad, but you would not be concerned that a normal http user would be able to modify it
+2012-07-03T01:48:00.000Z	escott	Muninx76	any other user/process on the system could modify the file

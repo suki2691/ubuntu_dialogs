@@ -1,0 +1,4 @@
+2010-11-17T01:33:00.000Z	savasci		hi all. Where are the source codes for generic bash commands? such as pstree, cat,ls?
+2010-11-17T01:34:00.000Z	Pici	savasci	I'd guess in coreutils... but it looks like pstree is in psmisc.  See dpkg -l `which pstree` for example.
+2010-11-17T01:35:00.000Z	Pici	savasci	Er. I mean dpkg -S `which pstree`
+2010-11-17T01:35:00.000Z	savasci	Pici	thanks

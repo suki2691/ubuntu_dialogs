@@ -1,0 +1,4 @@
+2008-04-29T19:59:00.000Z	sbroos_		Everytime I restart my pc in ubuntu, my collection isnt visible for amarok anymore (and last plays are greyed). When I acces the disc with the mp3 files (a NTFS) disc, it takes a long time to open that disc, but after that, amarok sees the mp3's again (after doing a rescan collection)
+2008-04-29T20:01:00.000Z	sbroos_		anyone an idea?
+2008-04-29T20:01:00.000Z	JensT	sbroos_	this probably means that the ntfs disk isn't automounted on boot, but when trying to open it it get's mounted
+2008-04-29T20:05:00.000Z	JensT	sbroos_	see this thread: http://ubuntuforums.org/showthread.php?t=767879

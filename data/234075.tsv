@@ -1,0 +1,4 @@
+2009-04-20T12:48:00.000Z	ndlovu		using firefox on ubuntu, is there some way to check what the ip address of the current website host is?
+2009-04-20T12:48:00.000Z	ra21vi	ndlovu	in commandline just ping website.com and it will show the IP
+2009-04-20T12:48:00.000Z	ra21vi		like $ping google.com
+2009-04-20T12:49:00.000Z	ndlovu	ra21vi	doesn't work... I've added a specific host to my /etc/hosts... ping resolves to the host address, but firefox seems to bypass the hosts file and uses dns

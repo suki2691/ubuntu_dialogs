@@ -1,0 +1,4 @@
+2012-01-12T13:39:00.000Z	Krissed		Good morning. Question: Is there a particular reason i cant append a line to /etc/skel/.profile even when using sudo ??
+2012-01-12T13:40:00.000Z	Krissed		im attempting this: sudo echo "echo smb:\\path to some windows share >> .gtk-bookmarks" >> /etc/skel/.profile
+2012-01-12T13:42:00.000Z	Myrtti	Krissed	you may want to use "tee" instead of >> or |
+2012-01-12T13:43:00.000Z	Krissed	Myrtti	hmm well since i just rememberd i altered sudoers file i suppose i should reboot before trying this first.. i tried making an empty file in the skel folder and see if i could append the line to that file. i couldnt

@@ -1,0 +1,4 @@
+2006-10-04T14:27:00.000Z	ryan__		durring login i get the error: User's $Home/.dmrc file is being ignored. This prevents the defalt session and language from being saved. File should be owned by userand have 644 premissions. Users home directory must be owned by users and not writable by other users.
+2006-10-04T14:28:00.000Z	ryan__		how do i go about fixing this
+2006-10-04T14:28:00.000Z	ryan__		and/or where do i find the 1st file the change the premissions
+2006-10-04T14:28:00.000Z	oskude	ryan__	chown changes the user/group of a file, and chmod the rights

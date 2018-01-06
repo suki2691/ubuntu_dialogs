@@ -1,0 +1,4 @@
+2005-05-05T14:06:00.000Z	flames		hi, how can i mount a ext3 particion to /data writeable by all users? i try this (fstab): /dev/hda6 /data ext3 defaults 0 0 but i can't write as normal user
+2005-05-05T14:08:00.000Z	kanuha	flames	try /dev/hda6 /data ext3 unmask=000 0 0
+2005-05-05T14:09:00.000Z	kanuha	flames	thanks you solved my problem
+2005-05-05T14:10:00.000Z	kanuha	flames	I had unmask instead of umask

@@ -1,0 +1,4 @@
+2011-12-03T00:19:00.000Z	DD2		hey guys, my headphone is not working i did a troubleshoot and here's the result http://www.alsa-project.org/db/?f=ce23df06d74ba1b2c7d8b181eacfdf7b869eb12a, plz guide me what's wrong, it just stopped working suddenly for no apparent reason
+2011-12-03T00:21:00.000Z	escott	DD2	have you tried the hda_analyzer script?
+2011-12-03T00:21:00.000Z	DD2	escott	no, what's that ?
+2011-12-03T00:22:00.000Z	escott	DD2	intel hda sound has multiple output pins and every laptop is unique in what those pins are attached to. its likely that your headphones are attached to pin 15 but the default assumption is pin 13 (just making those numbers up) and thats why the headphones dont work. hda_analyzer available at the alsa website will allow you to manually play with what output pins are enabled

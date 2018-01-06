@@ -1,0 +1,4 @@
+2011-10-25T17:18:00.000Z	resus		hi all, aptitude is giving me trouble about not being able to lock down the cache file, where is it located? no other apt tool is running
+2011-10-25T17:20:00.000Z	johannes2011	resus	restarting the system should solve this
+2011-10-25T17:21:00.000Z	resus	johannes2011	there's gotto be a better way than restarting the system
+2011-10-25T17:22:00.000Z	johannes2011	resus	sudo rm /var/lib/apt/lists/lock

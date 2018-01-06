@@ -1,0 +1,4 @@
+2012-10-09T14:44:00.000Z	farrioth	warm	Back up, boot off a livecd, mount your old root and your new /usr, rsync -rlptoP /mnt/oldroot/usr/ /mnt/newusr/ , empty /mnt/oldroot/usr/ , change the fstab and reboot.  Hopefully.
+2012-10-09T14:47:00.000Z	warm	farrioth	what if i just copied everything from old to new, and mounted the new partition to /usr,  will there be problem rather than the rsnyc command?
+2012-10-09T14:48:00.000Z	farrioth	warm	rsync will ensure that permissions etc are preserved.
+2012-10-09T14:48:00.000Z	warm	farrioth	ah, thanks a lot

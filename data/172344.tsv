@@ -1,0 +1,4 @@
+2007-03-20T15:35:00.000Z	skule		seems tha update upgraded the kernel from 2.6.17-10 to 2.6.17-11 and forgot to upgrade linux-restricted-modules, so nvidia drivers stopped working. Is that a bug ?
+2007-03-20T15:37:00.000Z	soundray	skule	try installing linux-generic
+2007-03-20T15:42:00.000Z	skule	soundray	linux-generic, what is the deal about that, new kernel ?
+2007-03-20T15:43:00.000Z	soundray	skule	no, it's a metapackage that ensures you always have the latest -image- and -restricted-modules-

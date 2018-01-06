@@ -1,0 +1,4 @@
+2007-02-20T13:00:00.000Z	zooted_		When using LVM, are the UUIDs in /etc/fstab the e2fs UUIDs, or the LVM UUIDs?
+2007-02-20T13:01:00.000Z	Flannel	zooted_	logical volume UUIDs, LVM abstracts away physical disks
+2007-02-20T13:05:00.000Z	zooted_	Flannel	are you using LVM for your root install?  If so could you please check "/sbin/dumpe2fs /dev/volgroup/logvol | grep UUID" against the output of lvdisplay and compare it to the values in /etc/fstab, and /boot/grub/menu.lst?
+2007-02-20T13:06:00.000Z	Flannel	zooted_	I don't have edgy, no UUIDs

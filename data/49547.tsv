@@ -1,0 +1,4 @@
+2009-08-28T22:35:00.000Z	Mestora		My ubuntu box can talk to both eth0 and eth1 networks fine, it's just they won't talk to each other.
+2009-08-28T22:35:00.000Z	ActionParsnip	Mestora	you need to use bridge-utils
+2009-08-28T22:38:00.000Z	Mestora	ActionParsnip	I'm actually looking for routing from 192.168.0.0/24 (eth0) to 192.168.1.0/24 (eth1), not a full bridge.
+2009-08-28T22:39:00.000Z	ActionParsnip	Mestora	then use: sudo route add -net 192.168.0.0 netmask 255.255.255.0 dev eth0; sudo route add -net 192.168.1.0 netmask 255.255.255.0 dev eth1

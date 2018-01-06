@@ -1,0 +1,4 @@
+2009-11-28T18:52:00.000Z	acomobile		can I have a long cmd (ex. ls -R /) running on display :0.0 and move it to a non-X11Forwarding (plain ssh)?
+2009-11-28T18:52:00.000Z	linxeh	acomobile	if you run it in screen, yes
+2009-11-28T18:53:00.000Z	linxeh	acomobile	yes - then ctrl-a, d to detatch it to the background.   screen -r   to reattach on the other display
+2009-11-28T18:54:00.000Z	linxeh	acomobile	if you type screen by itself you'll get a new bash shell - this is the way I normally use it

@@ -1,0 +1,4 @@
+2012-10-23T08:26:00.000Z	KM0201		is there a way to run rsync in reverse?  forinstance, i have a rsync job that backs up "data" to "databackup"(which is on another drive)... lets say the drive with "data" fails, is there a way to make rsync "reverse"... where it would essentially restore "databackup" to "Data". (hope that made sense)
+2012-10-23T08:27:00.000Z	wastrel	KM0201	you can just reverse the arguments
+2012-10-23T08:27:00.000Z	KM0201	wastrel	thats what i want to do... how would i do that?
+2012-10-23T08:28:00.000Z	wastrel	KM0201	rsync A B ->  rsync B A

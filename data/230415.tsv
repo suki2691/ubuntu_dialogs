@@ -1,0 +1,4 @@
+2006-12-29T06:44:00.000Z	adamh		When somebody tries brute-force to log in to my computer over SSH, they don't get in... but every attempt (i.e., every second) there's an annoying murmer from my machine as the hard drive clicks (I suppose for the log entry). I just want to make the noise go away; blocking the attacker would be a nice side-effect as long as I am absolutely 100% sure I don't block *myself* out. What's a good solution to this problem?
+2006-12-29T06:45:00.000Z	dabaR	adamh	do they have a common IP address they use?
+2006-12-29T06:45:00.000Z	adamh	dabaR	uh, yes, the one that's been annoying me lately has.
+2006-12-29T06:46:00.000Z	dabaR	adamh	ban them from connecting to your computer. man iptables will tell you how.

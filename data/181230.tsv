@@ -1,0 +1,4 @@
+2006-11-14T16:24:00.000Z	Gorlith		when i try to  : sudo echo blacklist bcm43xx >> /etc/modprobe.d/blacklist      i get permission denied back any idead?
+2006-11-14T16:24:00.000Z	Gorlith		ubuntu edgy
+2006-11-14T16:24:00.000Z	bruenig	Gorlith	that happens to me and I wondered how to fix it also, could never figure it out. I think the problem arises because the sudo is only going to the echo command and not the command to append
+2006-11-14T16:24:00.000Z	bruenig	Gorlith	you can do sudo -s, then run it

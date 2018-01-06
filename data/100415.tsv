@@ -1,0 +1,4 @@
+2008-05-04T02:32:00.000Z	matthew_		how do I use something other than vim to edit my sudoers file, cuz vim is really confusing me
+2008-05-04T02:32:00.000Z	prince_jammys	matthew_	use the visudo program
+2008-05-04T02:37:00.000Z	prince_jammys	matthew_	try the following: sudo bash -c 'EDITOR=nano visudo'
+2008-05-04T02:39:00.000Z	prince_jammys	matthew_	or even this: EDITOR=nano sudo visudo

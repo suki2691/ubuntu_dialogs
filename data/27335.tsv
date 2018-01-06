@@ -1,0 +1,4 @@
+2010-08-17T03:01:00.000Z	insulina_		hello, I am trying to compile assimp project but I get this undefined reference to `gluPerspective' , I have glut mesa installed so I dont know why I get this error
+2010-08-17T03:02:00.000Z	headkase314	insulina_	do you have the needed -dev packages installed?
+2010-08-17T03:04:00.000Z	insulina_	headkase314	I think I do, it just says glut ...
+2010-08-17T03:05:00.000Z	headkase314	insulina_	if the package is called "glut" then you need to install another package called "glut-dev" to go along with it for compiling.  Beyond this tip there is not much help I can offer.

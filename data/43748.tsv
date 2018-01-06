@@ -1,0 +1,4 @@
+2009-11-05T03:21:00.000Z	flan_suse		I'm on Karmic and the hard drive keeps blinking every 3 seconds when I am on AC power.  I read this has something to do with sreadahead? It is very annoying and I want to know if there is a safe way to disable this constant disk activity, even when on idle?
+2009-11-05T03:22:00.000Z	lmentop	flan_suse	you can probably change a setting using hdparm, netbooks had this problem and i think they used hdparm to stop the head parking. if that's your problem...
+2009-11-05T03:23:00.000Z	flan_suse	lmentop	it's not the head parking.
+2009-11-05T03:23:00.000Z	flan_suse	lmentop	it is constant disk activity, every 3 seconds. (I'm already using ideal values on hdparm and laptop-mode)

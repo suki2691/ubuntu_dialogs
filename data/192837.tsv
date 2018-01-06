@@ -1,0 +1,4 @@
+2006-03-28T15:23:00.000Z	Fuzzy76		I barfed big time. I didn't have gcc installed, copied libstdc++.so, libstdc++.so.5 and libstdc++.so.5.0.3 directly to /lib to get a gameserver running (followed troubleshooting tip from the readme). Later on I needed gcc and installed it. Now it seems that the "old" libstdc++ files is conflicting with the new packages. Any tips on how to repair?
+2006-03-28T15:24:00.000Z	ompaul	Fuzzy76	start here sudo apt-get install build-essential
+2006-03-28T15:25:00.000Z	Fuzzy76	ompaul	I shouldn't remove the libstdc++ files then?
+2006-03-28T15:27:00.000Z	ompaul	Fuzzy76	go for it, if it fails your going to have to remove them the way you installed them

@@ -1,0 +1,4 @@
+2009-03-01T23:30:00.000Z	J-_		How would I make my storage partition writable with my current user? would, 'sudo chown user:user /dev/sda4' work?
+2009-03-01T23:31:00.000Z	ph8	J-_	Mount the drive, then use chown -R (recursive) to do all files under a folder
+2009-03-01T23:42:00.000Z	J-_	ph8	Could I just gksu nautilus and change permissions to user?
+2009-03-01T23:44:00.000Z	ph8	J-_	Perhaps, i'm a command line bunny sorry

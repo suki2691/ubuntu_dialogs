@@ -1,0 +1,4 @@
+2005-06-12T15:11:00.000Z	compro		hello
+2005-06-12T15:11:00.000Z	compro		quick question...how do i get a modprobe command to run at bootup?
+2005-06-12T15:12:00.000Z	tchmnky	compro	manually, you can add a startup script in /etc/rc2.d/ but there is an automatic way to do it with update-rc.d I think.
+2005-06-12T15:12:00.000Z	tchmnky	compro	that's if #2 is your default runlevel.

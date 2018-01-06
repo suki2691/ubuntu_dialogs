@@ -1,0 +1,4 @@
+2008-03-23T10:27:00.000Z	Nix3r		what wil this one-liner bash script do: for word in `cat a.txt`; do; grep $word b.txt; if [ $? -eq 0 ]; do echo $word >> c.txt; fi; done;    ?
+2008-03-23T10:28:00.000Z	FourX4Luvn	Nix3r	Every word that is in both a.txt and b.txt will be copied to c.txt
+2008-03-23T10:30:00.000Z	Nix3r	FourX4Luvn	i have a large file. and a smal file. i want to delete words in large file that match with words with words in smal file.
+2008-03-23T10:31:00.000Z	Nix3r	FourX4Luvn	how to do it

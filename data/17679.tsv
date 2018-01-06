@@ -1,0 +1,4 @@
+2011-10-04T23:34:00.000Z	hje841		what's the alternative to the cli pkg 'Screen' in Natty?
+2011-10-04T23:35:00.000Z	jrib	hje841	screen is in natty.  An alternative is tmux, but you can use screen
+2011-10-04T23:36:00.000Z	hje841	jrib	I see only screendump
+2011-10-04T23:36:00.000Z	jrib	hje841	run « sudo apt-get update » and try again.  If you still don't see it and are not sure what to do, pastebin the output of « apt-cache policy screen » and the contents of your /etc/apt/sources.list*

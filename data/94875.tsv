@@ -1,0 +1,4 @@
+2011-10-09T05:17:00.000Z	biagidp		I've got a few versions of ruby installed in /usr/bin. using the 'which ruby' command returns /usr/bin/ruby. I'd like to change it so 'which ruby' points at /usr/bin/ruby1.9.1. any help is appreciated!
+2011-10-09T05:19:00.000Z	th0r	biagidp	the command 'which ruby' will search the path for the binary ruby. The short answer to your issue is the create a link from /usr/bin/ruby1.9.1 called /usr/bin/ruby, but that assumes there is no ruby binary in /usr/bin to begin with
+2011-10-09T05:20:00.000Z	biagidp	th0r	is that universal? in that when I type "bojangles" on the command line it looks for /usr/bin/bojangles?
+2011-10-09T05:21:00.000Z	th0r	biagidp	yes, it will search the path for an executable called bojangles. To see where it looks, and in what order, type 'echo $PATH' in a terminal

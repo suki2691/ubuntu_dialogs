@@ -1,0 +1,4 @@
+2008-01-17T11:40:00.000Z	pkundu		 dd if=/home/pkundu/ubuntu-7.04-desktop-i386.iso of=/dev/sdc1 ........... will this make the usb /dev/sdc1 bootable
+2008-01-17T11:41:00.000Z	unop	pkundu	i should think not -- an ISO is meant to be burnt to CDs and CD have different boot loaders to harddrives and removable media .. but i could be wrong and there's no harm in trying
+2008-01-17T11:43:00.000Z	pkundu	unop	u may be right
+2008-01-17T11:44:00.000Z	unop	pkundu	the easiest way might be to use syslinux and a drop-in kernel image .. check out the DSL website, it's got a few good howtos

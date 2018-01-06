@@ -1,0 +1,4 @@
+2009-01-26T00:54:00.000Z	Zopiac		when i try to 'sudo mount /dev/sdb1' (which is my flash drive) it just tells me "mount: can't find /dev/sdb1 in /etc/fstab or /etc/mtab" how do i mount it with superuser privileges?
+2009-01-26T00:54:00.000Z	lackS	Zopiac	You have to give it a mount point where it shall mount the device
+2009-01-26T00:54:00.000Z	lackS	Zopiac	It should be something like mount /dev/sdb1 /the/place/where/you/want/it/to/be
+2009-01-26T00:55:00.000Z	lackS	Zopiac	Make sure the whole mount point exists

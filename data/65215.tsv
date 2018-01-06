@@ -1,0 +1,4 @@
+2009-03-21T11:54:00.000Z	Ascavasaion		Sometimes when I try to play MP3 through Rythmbox it refuses to play and if I reboot it plays them again.  any ideas on how I can sort this out?
+2009-03-21T11:56:00.000Z	sprinkmeier_	Ascavasaion	sounds like a problem I sometimes have with sound; some application (usually flash in ff) grabs sound and won't let go.
+2009-03-21T11:56:00.000Z	Ascavasaion	sprinkmeier_	Any idea how to sort it out?
+2009-03-21T11:58:00.000Z	sprinkmeier_	Ascavasaion	I usually use "fuser /dev/dsp" or somesuch to find the culprit, then decide if I want to kill it or make do without sound. it's a kludge, but it's usually good enough for me.

@@ -1,0 +1,4 @@
+2006-11-02T14:08:00.000Z	Samus_Aran	strabes	edit your /etc/inittab file, set it to a different runlevel
+2006-11-02T14:10:00.000Z	Samus_Aran	strabes	/etc/rc?.d/ contains symlinks to scripts in /etc/init.d/.  each runlevel has its own directory, e.g. /etc/rc3.d for runlevel 3.  you can choose what is loaded in each runlevel
+2006-11-02T14:11:00.000Z	Samus_Aran	strabes	the default is that runlevel 0 shuts the system down, runlevel 6 reboots and various distros use 3, 4, and 5 for console-only and GUI (display login manager)
+2006-11-02T14:12:00.000Z	Samus_Aran	strabes	but if you felt like it, you could make your own runlevel up with custom services.  when you switch to another runlevel, scripts that are not contained in that runlevel (the links in /etc/rc<whatever>.d/*) are "stopped" and new ones are "start"ed

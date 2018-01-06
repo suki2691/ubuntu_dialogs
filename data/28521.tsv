@@ -1,0 +1,4 @@
+2010-08-28T01:05:00.000Z	gaurav		how do i share file on two ubuntu machine using samba
+2010-08-28T01:05:00.000Z	ilovefairuz	gaurav	why samba? use ssh, places > connect to
+2010-08-28T01:07:00.000Z	ilovefairuz	gaurav	sudo apt-get install openssh-server
+2010-08-28T01:08:00.000Z	ilovefairuz	gaurav	do this on each machine and then from the Places menu select "Connect to.." , then select SSH, and add the machine hostname and username and click connect

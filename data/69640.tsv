@@ -1,0 +1,4 @@
+2012-06-26T18:20:00.000Z	Squintz		I'm trying to connect to my USRP2 (software defined radio) through a wired ethernet connection. I'm on Ubuntu 12.04. When I set the ip using sudo ifconfig eth0 192.168.10.1 I get a connection for about 20 seconds and then it disconnects. Any idea why this is happening?
+2012-06-26T18:22:00.000Z	sacarlson	Squintz	you would want to eather setup your static ip with network-manager or uninstall it
+2012-06-26T18:22:00.000Z	sacarlson	Squintz	other wise it will take control of ip address at periodic periods
+2012-06-26T18:23:00.000Z	sacarlson	Squintz	cool that software radio I've read about it

@@ -1,0 +1,4 @@
+2011-05-04T06:25:00.000Z	trism	josefig	is this on 11.04?
+2011-05-04T06:27:00.000Z	josefig	trism	yes it is :)
+2011-05-04T06:28:00.000Z	trism	josefig	echo manual | sudo tee /etc/init/mongodb.override; that should do it, it should only start when you run: sudo service mongodb start;
+2011-05-04T06:29:00.000Z	josefig	trism	oh I see the mondgo flag manual should be the one, thank you.

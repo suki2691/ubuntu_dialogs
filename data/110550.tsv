@@ -1,0 +1,4 @@
+2008-01-14T20:35:00.000Z	puargs		Hi! I have a question: is there a way to change the password to my gnome vnc session via console? I can remote in via console to my user, but I forgot my password for the vnc
+2008-01-14T20:36:00.000Z	Juhaz	puargs	in theory, but it's much easier to disable temporarily, and set it when you get in.
+2008-01-14T20:41:00.000Z	Juhaz	puargs	the password is stored in gconf, /desktop/gnome/remote_access/vnc_password, it's base64-encoded so you will have to do that to your new password too, can't set it in plaintext format.
+2008-01-14T20:42:00.000Z	puargs	Juhaz	woo! thank you!! :D

@@ -1,0 +1,4 @@
+2011-07-01T19:40:00.000Z	sgo11		hi, i know repos stored in sources.list file. but what if I add a ppa? which file stores the ppa information? and btw how to check all repos that I am using? thanks.
+2011-07-01T19:40:00.000Z	jpds	sgo11	That same file, or create a new one under /etc/apt/sources.list.d/
+2011-07-01T19:41:00.000Z	jpds	sgo11	Or use the 'add-apt-repository' script.
+2011-07-01T19:41:00.000Z	sgo11	jpds	thanks. I saw the one I added in sources.list.d

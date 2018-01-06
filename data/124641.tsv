@@ -1,0 +1,4 @@
+2007-08-16T09:07:00.000Z	lmosher		Why isn't ubuntu automatically mounting my USB stick? It's there on /dev/sdb, but normally it automatically puts it on the desktop... etc?
+2007-08-16T09:09:00.000Z	ftoo_on_gutsy_	lmosher	i believe you need to add an entry to your /etc/fstab ....... but i'm sure someone will correct me if i'm wrong..
+2007-08-16T09:11:00.000Z	lmosher	ftoo_on_gutsy_	no you don't normally put removable media in the fstab. i figured it out.. I wan't running gdm, which does that stuff. I had the wrong headers so my x session didn't start and I started it w/ startx instead of GDM :)
+2007-08-16T09:11:00.000Z	ftoo_on_gutsy_	lmosher	glad to know u have it sorted

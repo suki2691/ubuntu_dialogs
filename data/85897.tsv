@@ -1,0 +1,4 @@
+2008-07-10T21:15:00.000Z	sotec_prod_		Using Ubuntu 8.04, can I run a program that resides on a NTFS disk using WINE? What are the ramifications of this action? Can it fry my Windows drive, or has NTFS support come far enough to be relavitely safe?
+2008-07-10T21:16:00.000Z	RAdams	sotec_prod_	you should be fine. ntfs-3g has been stable.
+2008-07-10T21:17:00.000Z	sotec_prod_	RAdams	so I can run the applications without installing them on my Ubuntu partition via WINE? I just run it?
+2008-07-10T21:20:00.000Z	RAdams	sotec_prod_	it sometimes works, sometimes doesn't. Google around to see the problems others had with running applications installed on their windows paritions via WINE... programs which use registry keys to run, read settings, etc are not likely to work

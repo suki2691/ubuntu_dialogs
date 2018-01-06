@@ -1,0 +1,4 @@
+2009-07-20T01:33:00.000Z	fission6		anyone: can i use diff to find all things listed in one file but not another, where there isn't order in either of the files, just to find whats contained in one file but not another
+2009-07-20T01:33:00.000Z	fission6		ok let me review
+2009-07-20T01:33:00.000Z	mzz	fission6	perhaps do "cat file1 file2 | sort | uniq -u
+2009-07-20T01:33:00.000Z	mzz	fission6	(although I doubt that's the sanest way to do it, it should work)

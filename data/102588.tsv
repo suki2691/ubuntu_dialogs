@@ -1,0 +1,4 @@
+2009-02-28T05:15:00.000Z	caveman26		How do I find out what video driver im using, and how do I configure it in 8.10? xorg.conf is practically blank...
+2009-02-28T05:17:00.000Z	rww	caveman26	there's an Xorg log in /var/log/. It'll say somewhere in there. xorg.conf is practically blank because xorg autodetects most of its settings now.
+2009-02-28T05:18:00.000Z	rww	caveman26	change the driver? Add the required command to xorg.conf. Settings that are put in there override the autodetection.
+2009-02-28T05:18:00.000Z	rww	caveman26	you'd put a ``Driver "drivername"`` line in the Device section, specifically

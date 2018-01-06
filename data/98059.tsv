@@ -1,0 +1,4 @@
+2011-05-06T08:45:00.000Z	Pr0zac		hi, i have a problem with a triple monitor config, and xinerama, the screens goes black, i can move the mouse pointer, but doen't click or do anything
+2011-05-06T08:46:00.000Z	Pr0zac		i'm using the official nvidia drivers
+2011-05-06T08:47:00.000Z	izinucs	Pr0zac	you using xinerama because twinview doesn't work with 3 monitors?
+2011-05-06T08:49:00.000Z	izinucs	Pr0zac	you have to hand config the xorg.conf .. not sure if it works the same as twinview but you have a virtual desktop size which is the highth of the largest monitor by the width of all the resolutions added together.. then individual native monitor resolutions within that.

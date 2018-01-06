@@ -1,0 +1,4 @@
+2012-11-02T13:31:00.000Z	krobelus		hi, I run 12.04 live (from xp parition booted with grub4dos) i use the persistent flag and setup casper-rw ext2 partition that is quite small. Q: How do I merge the ext2 casper-rw in the squash to free up space and maybe move it to another system?
+2012-11-02T13:32:00.000Z	Rootbrian	krobelus	Mount the windows xp partition, move the data in the /home/ folder to a folder, then remove the filesystem?
+2012-11-02T13:34:00.000Z	krobelus	Rootbrian	can I do that from inside the same live ubuntu whos squashfs im trying to modify?
+2012-11-02T13:34:00.000Z	Rootbrian	krobelus	I recommend a liveCD.

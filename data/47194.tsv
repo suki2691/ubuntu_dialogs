@@ -1,0 +1,4 @@
+2011-09-20T12:58:00.000Z	paul68		is there a way to create a script that allows me to check if the remote machine is online and if this is the case I transfer a file from this machine to the remote?
+2011-09-20T12:59:00.000Z	llutz_	paul68	like:  ping -c1 <machine> && scp file machine:path
+2011-09-20T13:00:00.000Z	llutz_	paul68	easier to let the machine pull the file when coming up
+2011-09-20T13:01:00.000Z	paul68	llutz_	this way the remote machine checks if this one is online and then get the file from this machine

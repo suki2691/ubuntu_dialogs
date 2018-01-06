@@ -1,0 +1,4 @@
+2008-04-02T19:30:00.000Z	FooFoo		How do I check the boot log? The system doesn't start unless I use recovery mode.
+2008-04-02T19:31:00.000Z	erUSUL	FooFoo	they are on /var/log/messages /var/log/syslog if you want to see boot msgs press "e" when in grub and edit the kernel line remove quiet and splash from it and press b to boot
+2008-04-02T19:34:00.000Z	FooFoo	erUSUL	Thanks
+2008-04-02T19:34:00.000Z	erUSUL	FooFoo	no problem

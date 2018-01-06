@@ -1,0 +1,4 @@
+2005-11-02T07:13:00.000Z	Paradoxx		whats the command to make a fat32 partition?
+2005-11-02T07:13:00.000Z	robertbb	Paradoxx	mkfs.vfat
+2005-11-02T07:14:00.000Z	robertbb	Paradoxx	Though if you want it to work in Windows for dual-boot, best to format the partition using Windows.
+2005-11-02T07:15:00.000Z	robertbb	Paradoxx	e.g. line in /etc/fstab is:       /dev/sda4       /home/robertbb/data     vfat            defaults,uid=robertbb,gid=robertbb,umask=022    0       1

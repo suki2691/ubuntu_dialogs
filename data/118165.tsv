@@ -1,0 +1,4 @@
+2008-01-09T19:32:00.000Z	SundaY82		anyone good at raid/mdadm? ... at boot one of my disks in my raid1 array i use as system disk started to make noice and after loading kernel i get ata2: comreset failed ...
+2008-01-09T19:32:00.000Z	SundaY82		ran cat /proc/mdstat that showed md0 as inactive, I can stop and start it to make it active ... how do i fix the system so it can boot from my degraded array?
+2008-01-09T19:32:00.000Z	ikonia	SundaY82	mdadm --manage /dev/md0 --fail-disk=/dev/sda
+2008-01-09T19:34:00.000Z	SundaY82	ikonia	and that will be saved on boot? got thrown out to a initramfs console at boot after disconnecting the failed disk

@@ -1,0 +1,4 @@
+2011-08-07T00:21:00.000Z	Zorgs		Hi guys, how do I find out what filesystem I have? (64-bit or 32-bit)
+2011-08-07T00:22:00.000Z	astraljava	Zorgs	You're not looking for a filesystem, but architecture. `uname -a` will tell you.
+2011-08-07T00:24:00.000Z	astraljava	Zorgs	That's 32-bit, then.
+2011-08-07T00:25:00.000Z	astraljava	Zorgs	You can check what the cpu is capable of, with: `lshw -c CPU | grep width`

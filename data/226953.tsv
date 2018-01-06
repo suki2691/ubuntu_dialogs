@@ -1,0 +1,4 @@
+2007-03-24T13:14:00.000Z	Ryan`		How can I get to a terminal without X starting? I need to install something without X being loaded.
+2007-03-24T13:14:00.000Z	variant	Ryan`	type sudo /etc/init.d/gdm stop that will stop the X server
+2007-03-24T13:15:00.000Z	variant	Ryan`	and dump you to the first VT
+2007-03-24T13:15:00.000Z	variant	Ryan`	if you just press ctrl alt f1/2/3 whatever it will not stop the X server, that will still be running on vt 7 (ctrl alt f7)

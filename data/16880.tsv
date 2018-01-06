@@ -1,0 +1,4 @@
+2011-03-15T16:43:00.000Z	krokop		hi. i've gave a 'chmod -R www-data:www-data /var/www', but everytime i create there dir or file it's created with user priviledges (for example user:group, and i want it do be user:www-data). how can I do that? i want every file and dir to be created with user:www-data priviledges.
+2011-03-15T16:44:00.000Z	jrib	krokop	use Access Control Lists (man setfacl; man getfacl; note you need to add the "acl" option to the partition in fstab)
+2011-03-15T16:45:00.000Z	krokop	jrib	can umask do this?
+2011-03-15T16:46:00.000Z	jrib	krokop	no. The alternative to using Access Control Lists is to setgid /var/www, make the group www-data, and make sure umask for users is 002.  But this won't work on subdirectories of /var/www/ automatically.

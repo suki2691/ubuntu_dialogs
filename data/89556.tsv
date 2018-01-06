@@ -1,0 +1,4 @@
+2008-11-29T01:53:00.000Z	karname		help me , in 8.10 when i enable visual effect (compiz) and then play a video my video screen start flicking , how can i fix it? (without visual effect i see normal video screen , my graphic card is ati x1400 and i installed fglrx before test it )
+2008-11-29T01:54:00.000Z	[TiZ]	karname	I had a similar problem. I was able to get my video to stop flickering, but it's slower now, and that's what I'm trying to fix now.
+2008-11-29T02:04:00.000Z	karname	[TiZ]	: my problem solved in #compiz-fusion room : you can run this command :  gstreamer-properties and select X Windows System (No Xv) in video tab
+2008-11-29T02:04:00.000Z	[TiZ]	karname	Thanks for that.

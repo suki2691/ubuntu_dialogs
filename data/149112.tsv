@@ -1,0 +1,4 @@
+2008-04-28T19:54:00.000Z	immesys		how do I permanantly remove the pcspkr module before I rip the speaker out my pc?
+2008-04-28T19:56:00.000Z	unop	immesys	add 'blacklist pcspkr' to /etc/modprobe.d/blacklist and reboot
+2008-04-28T19:56:00.000Z	unop	immesys	or disable the beep in X with xset b off
+2008-04-28T19:57:00.000Z	immesys	unop	Aah, thanks

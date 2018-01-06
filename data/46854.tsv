@@ -1,0 +1,4 @@
+2010-01-04T11:02:00.000Z	Darkedge		I installed a package via dpkg now I want to uninstall it, How do I get the package name..?
+2010-01-04T11:03:00.000Z	mkquist	Darkedge	dpkg –l lists all packages
+2010-01-04T11:05:00.000Z	mkquist	Darkedge	apt-cache search <search string> allows you to search
+2010-01-04T11:12:00.000Z	Darkedge	mkquist	:/ ok solution: dpkg -l | grep *part of package name*

@@ -1,0 +1,4 @@
+2007-08-21T11:06:00.000Z	mosno		i'm a little confused by the behaviour of NetworkManager and /etc/network/interfaces (Feisty). It seems that the only way to get NetworkManager to manage an interface is add the 'iface wlan0 inet dhcp' line to interfaces(5) and reboot. If the line's not there, the wlan0 isn't managed. Am I on crack or is this just a bad coincidence?
+2007-08-21T11:06:00.000Z	kyncani	mosno	dpkg -L network-manager, there's a readme that says sp
+2007-08-21T11:07:00.000Z	kyncani	mosno	dpkg -L network-manager, there's a readme that says so
+2007-08-21T11:07:00.000Z	mosno	kyncani	thanks

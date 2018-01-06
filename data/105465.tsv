@@ -1,0 +1,4 @@
+2011-02-11T15:06:00.000Z	asraniel		hi, there has been a adobe flash upgrade to 10.2, now firefox and chrome cannot use youtube anymore. any workaround known?
+2011-02-11T15:07:00.000Z	ActionParsnip	asraniel	symlink the plugin into /usr/lib/chromium-browser/plugins
+2011-02-11T15:29:00.000Z	asraniel	ActionParsnip	sorry for the delay. but i actually can't find the actual flash plugin where it is installed too. any idea?
+2011-02-11T15:32:00.000Z	asraniel	ActionParsnip	problem solved with "sudo apt-get install --reinstall flashplugin-installer"

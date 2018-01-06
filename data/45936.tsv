@@ -1,0 +1,4 @@
+2010-06-22T08:19:00.000Z	Optimus55		Hey i know some wifi drivers which are causing me problems and I can unload them manually with modprobe -r. how do i blacklist these drivers from being loaded on startup?
+2010-06-22T08:20:00.000Z	codebrainz	Optimus55	/etc/modprobe.d/blacklist*
+2010-06-22T08:22:00.000Z	Optimus55	codebrainz	Thanks man, checking that now
+2010-06-22T08:25:00.000Z	Optimus55	codebrainz	Thanks gona restart and try

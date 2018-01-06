@@ -1,0 +1,4 @@
+2011-10-29T17:30:00.000Z	dnivra		hello. I tried a variety of ntp servers to update time but can't contact any of the servers. I'm on a university network which blocks traffic other than HTTP traffic. is that a possible reason?
+2011-10-29T17:31:00.000Z	Juv1228	dnivra	correct. ntp is not http
+2011-10-29T17:32:00.000Z	dnivra	Juv1228	do NTP servers respond using NTP protocol? even on specifying an HTTP URL?
+2011-10-29T17:33:00.000Z	Juv1228	dnivra	my guess is they block by ports, so you could try to find a ntp server running on port 80

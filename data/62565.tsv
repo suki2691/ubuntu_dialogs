@@ -1,0 +1,4 @@
+2011-10-14T15:10:00.000Z	joshua__		MSi
+2011-10-14T15:11:00.000Z	joshua__		I was really hoping that there would be a simple terminal command that would write over every bit of data on my hard drive, and I could restart and be done with it... I guess life is never that simple.  =/
+2011-10-14T15:11:00.000Z	iceroot	joshua__	dd
+2011-10-14T15:12:00.000Z	iceroot	joshua__	boot a live-cd and use "sudo dd if=/dev/zero of=dev/sdX" (replace X with your drive) and remeber!! that will delete everything on that drive, so dont use the wrong one

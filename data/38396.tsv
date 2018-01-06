@@ -1,0 +1,4 @@
+2011-05-18T09:20:00.000Z	rudi_		can someone suggest me a partition scheme that would allow me to have the boot partition, windows, ubuntu, and a "media" partition that they can both read and write from. I dont understand this stuff as well as I thought I did.
+2011-05-18T09:20:00.000Z	magn3ts	rudi_	your media probably should be ntfs/fat. I'd recommend NTFS.
+2011-05-18T09:20:00.000Z	magn3ts	rudi_	and then you just make the partitions how ever you like them! Don't forget about a swap partition if you want one.
+2011-05-18T09:22:00.000Z	rudi_	magn3ts	that was my plan but now I'm stuck because I accidentally left the 160gb allocated, thinking I could later format it but it turns out that not I have 4 primaries

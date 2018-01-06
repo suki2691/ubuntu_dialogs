@@ -1,0 +1,4 @@
+2006-08-15T15:43:00.000Z	slimz		hi im on a winxp machine, and i would like to vnc to my ubuntu box, but i cant figure out how to find out the ip address of the machine on my network, does anyone know the command in command prompt to find it?
+2006-08-15T15:44:00.000Z	WillyWortel	slimz	on yor ubuntu-machine use command  /sbin/ifconfig
+2006-08-15T15:45:00.000Z	slimz	WillyWortel	: is there any way i can keep the ip address on my ubuntu machine always the same? it always changes
+2006-08-15T15:46:00.000Z	WillyWortel	slimz	your using a dhcp-adress wich you possibkle get from your router or a DHCP-server ( if you got one). You have to use a static IP-adres

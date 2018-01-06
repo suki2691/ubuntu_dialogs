@@ -1,0 +1,4 @@
+2010-07-22T14:05:00.000Z	kevin009		i have an hdparm command I'd like to run on an external hard drive after half an hour of inactivity to stop it. how do i do this? we can't just put it in cron, because if i'm copying data, i can't just have it shut off
+2010-07-22T14:07:00.000Z	kevin009		there must be a way to check if ANY activity has occured on the drive before sending the stop command
+2010-07-22T14:07:00.000Z	kevin009		i.e. not just file copy operations, but anything else
+2010-07-22T14:08:00.000Z	oCean_	kevin009	have a look at fuser and/or lsof

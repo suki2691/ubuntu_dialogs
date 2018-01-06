@@ -1,0 +1,4 @@
+2007-10-03T14:24:00.000Z	sachac		I'm trying to upgrade dapper to feisty in preparation for moving to gutsy, but update-manager -c can't guess the meta-package and wants me to install ubuntu-desktop, edubuntu-desktop, or kubuntu-desktop. As I don't want to install a gazillion things, would it be kosher to make an equivalent package using equivs and trick my system?
+2007-10-03T14:25:00.000Z	sachac		(... I mean, dapper->edgy->feisty->... gutsy, of course.)
+2007-10-03T14:26:00.000Z	nickrud	sachac	the real problem you have is the jumping over of edgy; ubuntu really only supports single release upgrades. On the equivs, you'll miss a lot of new functionality, depending
+2007-10-03T14:27:00.000Z	sachac	nickrud	Pelo: Thanks anyway!

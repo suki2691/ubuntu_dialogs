@@ -1,0 +1,4 @@
+2007-10-25T03:47:00.000Z	izz_		hey all i have a laptop that i am trying to sell and i have a buyer but i need to take ubuntu off and turn it back into a windows machine. it still has an install of windows xp on a partition - is there a way to do this if i dont have a windows disk?
+2007-10-25T03:47:00.000Z	scguy318	izz_	you could use something like Super GRUB
+2007-10-25T03:48:00.000Z	scguy318	izz_	replace the MBR with XP's NTLDR, then delete the Ubuntu partitions
+2007-10-25T03:49:00.000Z	scguy318	izz_	thats the Windows bootloader

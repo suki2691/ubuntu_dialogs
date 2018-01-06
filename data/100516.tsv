@@ -1,0 +1,4 @@
+2008-02-22T03:06:00.000Z	Tim000		is my deleting dyntax correct? I'm trying to delete a bunch of jpg files with the command
+2008-02-22T03:07:00.000Z	Tim000		is my deleting dyntax correct? I'm trying to delete a bunch of jpg files with the command "rm -rf *.jpg" but when I do "ls -R | grep jpg" afterwards it still finds files
+2008-02-22T03:08:00.000Z	prince_jammys	Tim000	your rm command is only deleting jpgs in the present dir, but you ls -R is showing jpgs recursively in sub dirs
+2008-02-22T03:09:00.000Z	prince_jammys	Tim000	check the faq at #bash, this question is answered

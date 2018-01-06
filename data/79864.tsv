@@ -1,0 +1,4 @@
+2008-10-09T06:00:00.000Z	vock		Just need help with ssh: I changed my ssh port to 10022 in sshd_config, I opened up port 10022 on my firewall, and opened it up on Firestarter, but am still unable to ssh from outside my local network? Any ideas?
+2008-10-09T06:01:00.000Z	basti	vock	and you need to reload sshd
+2008-10-09T06:05:00.000Z	vock	basti	sudo /etc/init.d/sshd restart?
+2008-10-09T06:06:00.000Z	basti	vock	yes. reload would work too

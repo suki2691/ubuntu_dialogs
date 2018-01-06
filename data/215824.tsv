@@ -1,0 +1,4 @@
+2008-05-31T03:29:00.000Z	daemon3		Is there a way to erase all my gnome settings?  I'
+2008-05-31T03:30:00.000Z	daemon3		I've tried to delete every gnome, gconf, nautilus, or metacity file/folder, but nothings working.
+2008-05-31T03:31:00.000Z	soundray	daemon3	you should log into failsafe mode and 'mkdir gnome-backup ; mv .gnome .gnome2 .gconf gnome-backup'. When you next log in normally, a default config will be recreated.
+2008-05-31T03:32:00.000Z	soundray	daemon3	move .nautilus as well, then

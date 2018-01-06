@@ -1,0 +1,4 @@
+2005-03-05T08:59:00.000Z	lavigj		hey guys, can someone give me a hand ripping an ISO of a CD? I have tried dd if=/media/cdrom1 of=my_cd.iso but it is saying that /media/cdrom1 is a directory
+2005-03-05T09:00:00.000Z	ljlane	lavigj	/media/cdrom1 is a mount point. You want the acutal /dev/what, like /dev/hdc for example.
+2005-03-05T09:01:00.000Z	lavigj	ljlane	ah, ok... feelin' kinda dume now but I follow :)
+2005-03-05T09:03:00.000Z	lavigj	ljlane	that seems to be doing the trick. I should have added -v but that's ok. thanks

@@ -1,0 +1,4 @@
+2007-07-30T07:14:00.000Z	xdcdx		in 'less', how can I look for two consecutive newlines (that is, an empty line)?
+2007-07-30T07:15:00.000Z	soneil	xdcdx	search for ^$ .. ^ represents the start of a line, and $ the end .. with nothing between them, it'll match empty lines
+2007-07-30T07:15:00.000Z	xdcdx	soneil	thanks, that will work. in addition to that, how can I look for characters like \n \t etc?
+2007-07-30T07:17:00.000Z	soneil	xdcdx	that I'm not sure of.  I just happen to end up matching non-lines (^$), commented lines (^#) etc fairly regularly

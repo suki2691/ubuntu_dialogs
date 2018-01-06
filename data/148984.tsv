@@ -1,0 +1,4 @@
+2008-08-24T05:08:00.000Z	unop		!boot > fam
+2008-08-24T05:10:00.000Z	fam	unop	 the link, does not explain runlevels and even the wiki page on runlevel in ubuntu does not explain, when network is setted up while booting...
+2008-08-24T05:11:00.000Z	unop	fam	init starts networking as one of it's first tasks .. so if you call your script from /etc/rc.local .. it should be fine.
+2008-08-24T05:11:00.000Z	fam	unop	thx

@@ -1,0 +1,4 @@
+2005-06-30T05:34:00.000Z	kris_		Im trying to create a link and its not working Im using the command ln -s jre/bin/java /usr/bin/java
+2005-06-30T05:34:00.000Z	kris_		Is that right?
+2005-06-30T05:34:00.000Z	Seveas	kris_	you should not install java manually
+2005-06-30T05:34:00.000Z	Seveas	kris_	for java: download the .bin file from java.sun.com, apt-get install java-package, chmod +x [the .bin file] , make-jpkg [the bin file] , dpkg -i [the generated .deb file] 

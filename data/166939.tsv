@@ -1,0 +1,4 @@
+2007-10-16T09:42:00.000Z	Dialntone		i was just curious, how do i find a port -- im streaming media via VLC ... and im trying to get the port
+2007-10-16T09:43:00.000Z	Dialntone		is there some sort of netstat 192.168.1.106 to find the port?
+2007-10-16T09:43:00.000Z	rouben	Dialntone	sudo netstat -anop | less
+2007-10-16T09:44:00.000Z	rouben	Dialntone	sudo netstat -anop | grep vlc

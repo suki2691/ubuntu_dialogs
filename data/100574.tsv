@@ -1,0 +1,4 @@
+2009-09-09T05:52:00.000Z	biker_rat		If ubuntu will only boot into X and then freezes that won't work. I need to enter an option or delete something from a working OS mounting the Ubuntu partition.
+2009-09-09T05:53:00.000Z	prince_jammys	biker_rat	can you reach the virtual terminals, with ctrl-alt-F1, for example?
+2009-09-09T05:58:00.000Z	prince_jammys	biker_rat	maybe you may then temporarily move /etc/init.d/?dm to a backup dir.
+2009-09-09T06:00:00.000Z	prince_jammys	biker_rat	or even just put 'exit' right below #!/bin/sh in that file

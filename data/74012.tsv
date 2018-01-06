@@ -1,0 +1,4 @@
+2009-02-22T15:12:00.000Z	rdz		hi all. do i need the virtualbox-ose-modules, if ubuntu is the host system? or is that package required to provide certain host capabilites for ubuntu?
+2009-02-22T15:13:00.000Z	hmw	rdz	- is required. must match kernel version. maybe you will want to keep older kernels, because the modules arent always available for the newest kernel (you can still compile them yourself)
+2009-02-22T15:16:00.000Z	rdz	hmw	yeah.. i actually asked because of the fact, that sometimes the newest kernel version is missing.. thanks a lot for the info
+2009-02-22T15:18:00.000Z	hmw	rdz	think *g* its user-dirs.dirs

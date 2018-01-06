@@ -1,0 +1,4 @@
+2012-01-29T02:19:00.000Z	wttg		i want to ssh to my netbook and open firefox from a session with a url but have that open on tty0 so the firefox window with the url will show, how can i do that
+2012-01-29T02:20:00.000Z	yeats	wttg	if I'm understanding your question, you can do 'ssh -X hostname' then type 'firefox' to open it
+2012-01-29T02:23:00.000Z	wttg	yeats	so ssh -X user@host, then: firefox http://myurl; i need to attach that to tty0 so i can see firefox pop up on my netbook
+2012-01-29T02:24:00.000Z	yeats	wttg	I may not be clear on what you're trying to do, but 'ssh -X' is the way to access X programs on a remote machine (sorry truncated before)

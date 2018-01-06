@@ -1,0 +1,4 @@
+2011-04-15T22:01:00.000Z	elementz	rumpe1	hm. maybe i was too unspecific. what i want to find out is, which apt-repository provides a certain package/program
+2011-04-15T22:04:00.000Z	rumpe1	elementz	well... the dpkg command gives you the packages with the specified string (of a command e.g.). The next step would be the policy-command on the package-name to get the repository... maybe i will remember the exact name of the policy-command.
+2011-04-15T22:05:00.000Z	rumpe1	elementz	ah... apt-cache policy foopackage
+2011-04-15T22:06:00.000Z	elementz	rumpe1	thx!

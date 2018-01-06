@@ -1,0 +1,4 @@
+2007-09-08T14:59:00.000Z	JerKB		can someone help me with a VNC question?  The vnc server is running and I can connect to it from computers on the local network using the internal network IP (192.168.15.4) but cannot connect from outside the network (using external IP), it returns "connection refused."  Ports 5500, 5800, and 5900 are forwarded tcp and udp and still doesn't seem to make a difference.
+2007-09-08T15:00:00.000Z	JerKB		 From a computer outside the network I've tried connecting to the external IP (69.252.194.214:0) it returns "connection refused."  ports are forwarded.
+2007-09-08T15:01:00.000Z	JerKB		My Internal IP is static, and this computer is DMZ host
+2007-09-08T15:01:00.000Z	nickrud	JerKB	could you isp be doing the blocking? (it blocks 25 here)

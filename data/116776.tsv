@@ -1,0 +1,4 @@
+2007-10-22T00:15:00.000Z	paritosh		whenever i do grub setup, italways installs to hd0,7. although my root is now not located on that partition. why is that?
+2007-10-22T00:16:00.000Z	paritosh		whenever i do grub setup, italways installs to hd0,7. although my root is now not located on that partition. why is that? anybody?
+2007-10-22T00:16:00.000Z	jotil	paritosh	change your grub root from the grub command prompt
+2007-10-22T00:17:00.000Z	paritosh	jotil	i did. i used root (hd0,2) setup (hd0),it still installs as (hd0,7)

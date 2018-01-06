@@ -1,0 +1,4 @@
+2008-03-27T08:42:00.000Z	Crysm		I've mistakenly overwritten a partition table with the wrong information.  Is there an easy way to fix this or do I have to know the start/end cylinders, etc?  The disk had two NTFS partitions, if that's important.
+2008-03-27T08:43:00.000Z	JohnRobert	Crysm	grub-install should re-write the partition table, but that in turn may screw up your windows bootloader etc...
+2008-03-27T08:44:00.000Z	Crysm	JohnRobert	I don't mind the bootloader being messed up, as that's what I was trying to fix in the first place, but will that preserve file structure?  I don't have any backups of one of the partitions.
+2008-03-27T08:45:00.000Z	JohnRobert	Crysm	the data will still be there, grub-install only puts grub into the boot sector. I'm fairly sure grub-install also writes the partition table..

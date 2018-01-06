@@ -1,0 +1,4 @@
+2007-04-24T13:12:00.000Z	zerothis		how do i add a local directory as a package source?
+2007-04-24T13:12:00.000Z	Haru	zerothis	just use dpkg -i fielname.deb
+2007-04-24T13:22:00.000Z	zerothis	Haru	so I have to 1-at-a-time local packages, i can't add a whole directory?
+2007-04-24T13:23:00.000Z	Haru	zerothis	do dpkg -i *.deb

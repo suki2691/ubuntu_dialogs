@@ -1,0 +1,4 @@
+2008-07-27T05:01:00.000Z	hhp2k		Hey everyone, why is it that whenever I'm trying to go to a URL on firefox, it's redirecting me to wsearch.net?? That looks like the tactics of spyware. :S
+2008-07-27T05:02:00.000Z	dblick	hhp2k	i imagine it could be your ISP as well
+2008-07-27T05:02:00.000Z	hhp2k	dblick	That's pretty odd.
+2008-07-27T05:08:00.000Z	dblick	hhp2k	did you solve your problem? if no, what do you get when you do: wget -q -O - 'http://www.ubuntu.com/' | grep '<title>'

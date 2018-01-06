@@ -1,0 +1,4 @@
+2009-12-27T22:57:00.000Z	storm-zen		I just lost my menu in jaunty gnome.  How do I call it back?
+2009-12-27T22:58:00.000Z	TimbukFive	storm-zen	: not sure for jaunty buti n karmic its gnome-panel restart
+2009-12-27T22:58:00.000Z	TimbukFive	storm-zen	: yep youre welcome
+2009-12-27T23:00:00.000Z	TimbukFive	storm-zen	: to reset to default try : gconftool-2 --recursive-unset /apps/panel  ..or u kill with pkill gnome-panel

@@ -1,0 +1,4 @@
+2007-07-15T06:27:00.000Z	rasputnik	anandanbu	you need to add an entry to /boot/grub/menu.lst for Fedora
+2007-07-15T06:29:00.000Z	anandanbu	rasputnik	How do i do that fro fedora
+2007-07-15T06:30:00.000Z	rasputnik	anandanbu	an entry like 'root (hd0,0) <return> chainloader +1 <return> makeactive <return> boot ' should call grub in the fedora partition
+2007-07-15T06:30:00.000Z	rasputnik	anandanbu	assuming fedora has its grub in sda1

@@ -1,0 +1,4 @@
+2008-12-10T04:38:00.000Z	Scunizi	Ratchet--	what are you trying to do? why do you need a seperate copy of gparted?
+2008-12-10T04:38:00.000Z	Ratchet--	Scunizi	i am trying to delete a partition and add the space that i am going to delete to ubuntu partition
+2008-12-10T04:39:00.000Z	Scunizi	Ratchet--	so is ubuntu installed currently? if so then boot the live cd and go to System>Admin>Partition Manager (that's gparted built in)
+2008-12-10T04:46:00.000Z	Scunizi	Ratchet--	if it's not under System>Admin>Partition manager then open a terminal and type .. sudo apt-get install gparted.. after install it will appear on the menu or you can start it with .. gparted

@@ -1,0 +1,4 @@
+2009-07-17T18:32:00.000Z	bnmrrs		Can I sym link a script into init.d or does it have to be a copy?
+2009-07-17T18:33:00.000Z	jrib	bnmrrs	symlink should work but why wouldn't you put it in /etc/init.d?
+2009-07-17T18:35:00.000Z	bnmrrs	jrib	The file is a script that daemonizes some php workers on startup.  I'd like to symlink it so that I can still manage it with svn
+2009-07-17T18:35:00.000Z	jrib	bnmrrs	I see

@@ -1,0 +1,4 @@
+2010-05-02T22:08:00.000Z	Gizmo_the_Great		Hi. Just installed Ubuntu 10.04 from CD. I have 3 disks. I asked it to install it to /dev/sdb. After restarting, OS does not boot. BIOS process runs through and then it stops at that. Seems the grub is broke or not set correctly. I have looked at /etc/default/grub but no mention of disk to use for boot in that. What file stores the info as to what disk it needs to go to to boot?
+2010-05-02T22:08:00.000Z	penguin42	Gizmo_the_Great	It normally uses the uuid rather than the name
+2010-05-02T22:08:00.000Z	Gizmo_the_Great	penguin42	yeah - you know what file it stores it in?
+2010-05-02T22:09:00.000Z	penguin42	Gizmo_the_Great	No, I suspect it's built when running update-grub - it will have written it into /boot/grub/grub.cfg

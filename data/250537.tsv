@@ -1,0 +1,4 @@
+2007-04-04T07:13:00.000Z	bjohnson		do /etc/cron.hourly scripts run as root?
+2007-04-04T07:14:00.000Z	bjohnson		and is running a script as sudo any different than root running it?
+2007-04-04T07:15:00.000Z	bjohnson		I can't figure out why a script that runs fine as sudo isn't running from cron
+2007-04-04T07:16:00.000Z	predaeus	bjohnson	probably the paths are wrong. Maybe add a cd command into the script if a specific working directory is needed for the script

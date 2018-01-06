@@ -1,0 +1,4 @@
+2006-10-05T06:12:00.000Z	xenoNfluX		how might I go about having a server application run in the background or run at boot?
+2006-10-05T06:14:00.000Z	xenoNfluX		hm
+2006-10-05T06:15:00.000Z	xenoNfluX		I'll see if I can dig up info on setting cronjobs on boot
+2006-10-05T06:15:00.000Z	ofer0	xenoNfluX	yes. TIMTOWTDI. anyway, you can symlink it to /etc/rc2.d/S99something

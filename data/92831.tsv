@@ -1,0 +1,4 @@
+2008-05-13T07:50:00.000Z	h1d		hello. how can i specify a smtp server to use with 'sendmail' or 'mail' command?
+2008-05-13T07:52:00.000Z	fde	h1d	Umm, Sendmail IS a SMTP server...
+2008-05-13T07:56:00.000Z	fde	h1d	btw... take a look at 'ssmtp' (double s on purpose) ... it is an MTA that forwards to your e-mail account automatically from system tools.
+2008-05-13T07:58:00.000Z	fde	h1d	Ok, postfix is not supposed to forward to anything else, it is your own smtp server... do you have your own website etc?

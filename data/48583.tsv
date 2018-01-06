@@ -1,0 +1,4 @@
+2009-09-14T02:37:00.000Z	Paragon		Hi, I Just installed ubuntu and everything is ok with the exception that my screen resolution has a max value of 640x480
+2009-09-14T02:37:00.000Z	Paragon		Does anyone know how to fix this?
+2009-09-14T02:39:00.000Z	sena--	Paragon	you can edit this in your /etc/X11/xorg.conf file, or better firs install the apropriate driver for your graphics card
+2009-09-14T02:40:00.000Z	sena--	Paragon	cos the genreic driver vesa will not support high resolutions

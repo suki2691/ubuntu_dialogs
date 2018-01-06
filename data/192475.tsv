@@ -1,0 +1,4 @@
+2006-06-02T08:27:00.000Z	Nrbelex		Reconfiguring Xserver didn't work after Automatix messed it up. I'm left with a text-only login screen. Does anybody know how I can recover?
+2006-06-02T08:28:00.000Z	pschulz01	Nrbelex	(from console) 'sudo apt-get remove --purge xserver-xorg' then 'apt-get install xserver-xorg'
+2006-06-02T08:29:00.000Z	pschulz01	Nrbelex	You have to remove a filre from /etc as well... then restart gdm with 'sudo /etc/init.d/gdm stop', 'sudo /etc/init.d/gdm start'
+2006-06-02T08:31:00.000Z	Nrbelex	pschulz01	I'm told after your second step that I don't have permission

@@ -1,0 +1,4 @@
+2009-09-09T23:03:00.000Z	johnnydeep		hello everybody! I accidentally deleted the apache2 folder from /etc and now my system is not starting as it should anymore... It doesn't open the desktop, instead i just geht the fullscreen command terminal which asks me to login
+2009-09-09T23:03:00.000Z	johnnydeep		is this caused by apache? or something else? can I return to the desktop?
+2009-09-09T23:04:00.000Z	sub[t]rnl	johnnydeep	sounds like a borked xorg.conf.  Log into the shell and issue sudo dpkg-reconfigure xserver-xorg
+2009-09-09T23:06:00.000Z	johnnydeep	sub[t]rnl	should I use kernel framebuffer defice interface?

@@ -1,0 +1,4 @@
+2006-06-02T05:10:00.000Z	dooglus		when I try to "apt-get update", I see errors like this: "Failed to fetch http://archive.ubuntu.com/ubuntu/dists/dapper/restricted/source/Sources.gz  Connection failed [IP: 85.133.25.8 80] ".  but I can telnet to that port, and I can wget from that URL - so what could possibly be wrong?
+2006-06-02T05:10:00.000Z	JoseStefan	dooglus	it's possible the server is getting hammered
+2006-06-02T05:11:00.000Z	dooglus	JoseStefan	I don't think it's that.
+2006-06-02T05:11:00.000Z	dooglus	JoseStefan	'cos telnet reliably connects, and apt-get reliably fails...

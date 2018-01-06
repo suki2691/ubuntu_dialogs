@@ -1,0 +1,4 @@
+2007-10-20T18:50:00.000Z	sc0tch		I'm trying to find out if gutsy is using my swap partition, i can't tell, 'dmesg | grep swap' showed nothing. the swap parition got created/found during install, but can't tell if the system is using it, can anyone give me some pointers?
+2007-10-20T18:51:00.000Z	saloxin	sc0tch	cat /proc/swaps
+2007-10-20T18:51:00.000Z	saloxin	sc0tch	top and free should tell you too
+2007-10-20T18:52:00.000Z	sc0tch	saloxin	thanks, cat /proc swaps returned a file: /dev/sdb3 ...type, etc... so that looks ok, just was confused about the lack of dmesg output

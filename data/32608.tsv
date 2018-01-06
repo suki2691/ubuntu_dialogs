@@ -1,0 +1,4 @@
+2010-05-12T03:49:00.000Z	zanzibar1982		hi! how do I uninstall nomoroka???
+2010-05-12T03:50:00.000Z	CogitoErgoSam	zanzibar1982	 The standard process for uninstalling is through the software center, or if you want to use the command line, "sudo apt-get uninstall <packagename>"
+2010-05-12T03:53:00.000Z	CogitoErgoSam	zanzibar1982	 Another thing is that different processes that manipulate packages (installing, uninstalling, etc) like Software Center, Synaptic, apt-get and aptitude all lock other programs out while they're open
+2010-05-12T03:54:00.000Z	CogitoErgoSam	zanzibar1982	 So if you have any packages downloading, updating, or have software/center or synaptic open and you try to run a remove from somewhere else, it won't let you until the other process is done

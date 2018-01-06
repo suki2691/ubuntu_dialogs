@@ -1,0 +1,4 @@
+2009-12-16T22:27:00.000Z	mwoehlke		hello, anyone know how to list a: installed packages and b: the contents of a package on an apt-based system?
+2009-12-16T22:28:00.000Z	mwoehlke		preferably without X
+2009-12-16T22:28:00.000Z	DopeGhoti	mwoehlke	list installed packages: "dpkg-query -l | grep 'ii'"
+2009-12-16T22:28:00.000Z	mwoehlke	DopeGhoti	trism_: yup, sounds like what I need, thanks!

@@ -1,0 +1,4 @@
+2008-11-17T21:02:00.000Z	jruffin		Can anyone point me to instructions on compiling an ubuntu package from source to apply a bug patch and make a new package to test with?
+2008-11-17T21:03:00.000Z	LjjjL	jruffin	you can obtain the source by doing "apt-get source packagename" (do it in an ad-hoc directory). then you do "sudo apt-get build-dep packagename" to download the build dependencies
+2008-11-17T21:03:00.000Z	LjjjL	jruffin	then you edit, but then to build a binary packages there are several ways, and i don't know the merits of each
+2008-11-17T21:05:00.000Z	jruffin	LjjjL	I'm new to ubuntu so anyway would be great. just have to get it into a deb package to get it into someone else's system.

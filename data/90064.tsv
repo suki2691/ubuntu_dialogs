@@ -1,0 +1,4 @@
+2008-09-04T01:20:00.000Z	woli		hi, why cant my windows pc print from my ubuntu pc?
+2008-09-04T01:20:00.000Z	woli		when it tries to acces the server, the permission is denied to windows..
+2008-09-04T01:21:00.000Z	magnetron	woli	you need to add the password to samba on the ubuntu server. use the "smbpasswd" command
+2008-09-04T01:24:00.000Z	woli	magnetron	nvm, somehow, it started working after the second try...

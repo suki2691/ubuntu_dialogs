@@ -1,0 +1,4 @@
+2012-03-05T19:03:00.000Z	heero_		just a quick question: anyone tried "ls -d" lately? shouldn't that list directories??? all I'm getting is "." on the next line and that's it. even doing sudo ls -d on / only gives "."
+2012-03-05T19:04:00.000Z	mauke	heero_	. is a directory
+2012-03-05T19:04:00.000Z	mauke	heero_	ls -d / should give you /
+2012-03-05T19:06:00.000Z	mauke	heero_	because it wasn't designed to do that

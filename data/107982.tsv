@@ -1,0 +1,4 @@
+2008-01-01T04:09:00.000Z	starscreamd		I need some assitance restoreing original group settings.. anyone be of assistance?
+2008-01-01T04:10:00.000Z	astro76	starscreamd	need to know the groups the first user is in?
+2008-01-01T04:11:00.000Z	starscreamd	astro76	no exactly. I manually edited a part of it and now my sound card isn't recognized and I think it's because I'm somehow no longer in the sound group.
+2008-01-01T04:15:00.000Z	astro76	starscreamd	this will do it: sudo usermod --groups <yourusername>,adm,dialout,cdrom,floppy,audio,dip,video,plugdev,scanner,netdev,lpadmin,powerdev,admin <yourusername>

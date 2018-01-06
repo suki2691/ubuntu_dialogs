@@ -1,0 +1,4 @@
+2009-03-18T10:39:00.000Z	halpmai		Hey, I'm trying to install grub from the ubuntu live cd and when I type "grub> find /boot/grub/stage1" I get this error "Error 15: File not found"
+2009-03-18T10:39:00.000Z	nefrin	halpmai	trying doing just find /grub/stage1
+2009-03-18T10:40:00.000Z	halpmai	nefrin	Same error.
+2009-03-18T10:42:00.000Z	nefrin	halpmai	I had that error awhile ago, meant that my grub files had be reconfigured and moved too far down the HDD to be read by the bios and I needed to reinstall and setup proper partitions. Beyond doing that, I'm at a loss

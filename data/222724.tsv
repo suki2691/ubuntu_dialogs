@@ -1,0 +1,4 @@
+2010-02-13T00:42:00.000Z	ahusak		so I installed xubuntu-desktop, and i'm now trying to remove everything it installed. apt-get remove xubuntu-desktop just seems to remove that package, not all the underlying stuff. What's the magic command to get rid of it all?
+2010-02-13T00:42:00.000Z	ahusak		oh joy
+2010-02-13T00:43:00.000Z	ahusak		any ideas on what to do? or am i just going to have to reinstall kubuntu?
+2010-02-13T00:44:00.000Z	mneptok	ahusak	sudo apt-get remove a2ps abiword abiword-common abiword-help abiword-plugin-grammar abiword-plugin-mathview abiword-plugins app-install-data-commercial catfish exaile exo-utils feh fortune-mod fortunes-min giblib1 gigolo gnome-app-install gnumeric gnumeric-common gnumeric-doc gtk2-engines-xfce imagemagick libaiksaurus-1.2-0c2a libaiksaurus-1.2-data libaiksaurusgtk-1.2-0c2a libexo-0.3-0 libgdome2-0 libgdome2-cpp-smart0c2a ...

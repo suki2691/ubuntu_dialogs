@@ -1,0 +1,4 @@
+2007-06-23T10:02:00.000Z	tomer		hi how do i mount a windows share?
+2007-06-23T10:03:00.000Z	tomer		yes. i see it in the network view of gnome,  but i want to create a permanent link to it
+2007-06-23T10:04:00.000Z	adaptr	tomer	mount -t cifs //hostname-or-ip/sharename /mount/point -o user=,password=
+2007-06-23T10:04:00.000Z	adaptr	tomer	put it in fstab to make it "permanent"

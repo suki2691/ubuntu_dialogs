@@ -1,0 +1,4 @@
+2005-06-25T12:42:00.000Z	thechitowncubs		To mount a partition once you are successfully in the shell, you have to make a directory, for example: mkdir /mnt/ubuntu, then mount your root partition, assuming its /dev/hda1, do mount -t ext3 /dev/hda1 /mnt./ubuntu, then after that chroot into that directory with this command: chroot /mnt/ubuntu, from there you can do grub-install hd0,0 (assuming /dev/hda1 is the partition ubuntu is on)
+2005-06-25T12:42:00.000Z	thechitowncubs		write it down :)
+2005-06-25T12:43:00.000Z	thechitowncubs		yes
+2005-06-25T12:43:00.000Z	pythonpadawan	thechitowncubs	adding that to my cheatsheet, thx bro

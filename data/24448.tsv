@@ -1,0 +1,4 @@
+2012-09-24T18:42:00.000Z	pseudonymous		Ok, I have a *really* central package overwritten by a ppa which I've already removed as it holds up some upgrades. If I try to force the official precise pkg from synaptic it gives me a mile long list of packages it'll nuke. I don't want that, why the heck can't it see that there's no way these packages can't stay on the system ?
+2012-09-24T18:42:00.000Z	pseudonymous		(and yes, the majority of the packages it wants to remove are not related to that ppa in the SLIGHTEST, but are other, official precise, packages..)
+2012-09-24T18:44:00.000Z	bazhang	pseudonymous	tried ppa-purge yet?
+2012-09-24T18:45:00.000Z	pseudonymous	bazhang	I removed the ppa itself using a gui(I'm lazy like that) called YPPA. Seems like it's gone though the packages it's overwritten are still there

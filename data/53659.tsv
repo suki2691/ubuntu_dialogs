@@ -1,0 +1,4 @@
+2009-06-25T17:44:00.000Z	zagabar1		Hmm I tried "du . | awk '{sum+=$1} END {printf("%12.0f\n", sum*512)}'"  to get how big my /home was, and I got a huge number. Is it bytes or bits?
+2009-06-25T17:46:00.000Z	zagabar1		du -s gives me "67515848". What unit is that? kb?
+2009-06-25T17:48:00.000Z	zagabar1		gigabytes is more likely
+2009-06-25T17:48:00.000Z	mikewu_	zagabar1	use du -sh to produce a human readable output

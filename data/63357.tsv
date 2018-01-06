@@ -1,0 +1,4 @@
+2010-05-01T08:39:00.000Z	pretender2010		can anyone point me to instructions regarding dual booting windows 7 and ubuntu 10.04.  Both on separate hard disks.  installed both but only boots into Windows 7.  Windows was installed first
+2010-05-01T08:41:00.000Z	acicula	pretender2010	you probably put grub on its own disk with ubuntu and windows on the primary with its own bootloader?
+2010-05-01T08:43:00.000Z	acicula	pretender2010	well im assuming if you slect the other disc to boot from , press a key for that during boot , you get grub which lets you choose ubuntu or windows
+2010-05-01T08:44:00.000Z	acicula	pretender2010	to get that you have to setup grub to be installed on the ubuntu disk but set the mbr to the win7 disc, since that is the one that is loaded by the bios. Or just set your bios to boot the ubuntu disc instead of the win7 disc. but not all bios have that option

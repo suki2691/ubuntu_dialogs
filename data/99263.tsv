@@ -1,0 +1,4 @@
+2008-02-24T19:23:00.000Z	Hoarde		does anyone know how to get a dell 22" screen (1680x1050) resolution to work ?
+2008-02-24T19:24:00.000Z	hischild	Hoarde	are your drivers running properly? then you should be able to select it under system->preferences->resolution
+2008-02-24T19:24:00.000Z	hischild	Hoarde	old as in old it might not support the resolution?
+2008-02-24T19:26:00.000Z	hischild	Hoarde	you can run dpkg-reconfigure xorg and select the correct resolutions. It should all be on the correct settings (it was for me, feel free to correct me on this one)

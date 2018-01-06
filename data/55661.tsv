@@ -1,0 +1,4 @@
+2009-06-02T21:45:00.000Z	usicow		is it possible to shutdown an ubuntu desktop 9.04 remotely via ssh?
+2009-06-02T21:46:00.000Z	ccasket	usicow	  use ssh with keys, and append the command you want to give
+2009-06-02T21:48:00.000Z	usicow	ccasket	if I run 'sudo shutdown now' it looks like its shutting down, but then a text based menu appears on the screen with options like resume restart..
+2009-06-02T21:49:00.000Z	ccasket	usicow	the key is -h for 'halt' (analogue to /sbin/init 6 as tyler_d mentioned)

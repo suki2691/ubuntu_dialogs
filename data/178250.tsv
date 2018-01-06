@@ -1,0 +1,4 @@
+2006-09-13T13:50:00.000Z	dustobub		Does anyone know how to just bring up eth0 in /etc/network/interfaces without giving it any address, much like just issuing ifconfig eth0 up?
+2006-09-13T13:51:00.000Z	dustobub		I have a server that is running VMware server, and bridging two nics, both of which don't need real addresses, i have been just assigning 1.1.1.1 and 2.2.2.2 randomly
+2006-09-13T13:51:00.000Z	Jack_Sparrow	dustobub	sudo ifdown eth0" then "sudo ifup eth0" will renew the IP address for eth0  ?
+2006-09-13T13:51:00.000Z	dustobub	Jack_Sparrow	yes

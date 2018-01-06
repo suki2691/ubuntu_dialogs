@@ -1,0 +1,4 @@
+2011-02-22T19:06:00.000Z	Jinxed--		I need to copy a backup image of my systsem from an external harddrive to a internal harddrive but im out of usb ports. I only have the ennough for usb thumbdrive which im using to boot a live version of ubuntu. Is it possibly to somehow set up a network where I could copy from an external drive connected to a different laptop to an internal drive from my live usb?
+2011-02-22T19:07:00.000Z	compdoc	Jinxed--	sure
+2011-02-22T19:07:00.000Z	Jinxed--	compdoc	how would I got about setting that up?
+2011-02-22T19:08:00.000Z	compdoc	Jinxed--	attach the drive, share it with samba, or whatever you like, then copy. I would suggest using rsync

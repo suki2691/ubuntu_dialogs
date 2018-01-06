@@ -1,0 +1,4 @@
+2010-05-19T19:37:00.000Z	k0d3g3ar		is there a log file for smb?  All of a sudden my Ubuntu 9.10 machine can't connect to smb and I'm trying to debug why
+2010-05-19T19:39:00.000Z	onetinsoldier	k0d3g3ar	try --> /var/log/samba/log.smbd  and  /var/log/samba/log.nmbd
+2010-05-19T19:40:00.000Z	k0d3g3ar	onetinsoldier	thanks.  I just found it.  The problem appears to be an error 'open_socket_in:  Address already in use'.  Ever seen that?
+2010-05-19T19:40:00.000Z	onetinsoldier	k0d3g3ar	no. don't really know anything about samba. i just have it installed and thought i'd look up where the log files were for you

@@ -1,0 +1,4 @@
+2006-07-29T06:41:00.000Z	Shamalamastreetm		heya, I just tried to install ubuntu and I have 2 major problems: 1) it cannot get a DHCP through my wireless, and 2) GRUB fails to load my RAID 0 array
+2006-07-29T06:41:00.000Z	Shamalamastreetm		any ideas?
+2006-07-29T06:41:00.000Z	mjr	Shamalamastreetm	2) is to be expected, grub doesn't grok raid. You have to have the kernel on a non-raid (or a mirrored) partition
+2006-07-29T06:43:00.000Z	mjr	Shamalamastreetm	well you can make a boot CD or something if you like...

@@ -1,0 +1,4 @@
+2009-04-26T04:26:00.000Z	brodoser		my motd file isn't showing up when i log into my server, any reasons why?
+2009-04-26T04:26:00.000Z	Gnea	brodoser	does it exist?
+2009-04-26T04:26:00.000Z	brodoser	Gnea	yeah and its being generated from motd.tail
+2009-04-26T04:29:00.000Z	Gnea	brodoser	also check /etc/pam.d/login and make sure that it's calling motd correctly

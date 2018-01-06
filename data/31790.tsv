@@ -1,0 +1,4 @@
+2012-09-25T17:17:00.000Z	TimothyA		I have come across an urgent issue. I find myself to be unable to start another SSH session to my server, and I'm getting this in /var/log/auth.log: error: Could not load host key: /etc/ssh/ssh_host_ecdsa_key
+2012-09-25T17:17:00.000Z	TimothyA		anyone could help me with that?
+2012-09-25T17:18:00.000Z	TJ-	TimothyA	see bug #1005440
+2012-09-25T17:20:00.000Z	TimothyA	TJ-	that bug describes they can still connect successfully

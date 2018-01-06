@@ -1,0 +1,4 @@
+2007-11-04T10:27:00.000Z	joshhunt		i just booted into ubuntu for the first time after installing it from the alt cd, and the screen is all a dark blue, with a dashed white line going diagonally across the screen, anyone know how this can be fixed
+2007-11-04T10:29:00.000Z	scguy318	joshhunt	my immediate reaction to that would be to check the monitor cord connection, but if thats fine, try doing sudo dpkg-reconfigure xserver-xorg and falling back to vesa
+2007-11-04T10:30:00.000Z	joshhunt	scguy318	the cords etc are all fine. how would i do that, i cant get to a command prompt
+2007-11-04T10:37:00.000Z	scguy318	joshhunt	Ctrl-Alt-F1 or Recovery Mode

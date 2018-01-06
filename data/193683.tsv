@@ -1,0 +1,4 @@
+2007-10-31T23:42:00.000Z	harveyd		does anyone know how to selectively rm symlinks in a directory
+2007-10-31T23:42:00.000Z	harveyd		http://pastebin.com/m1160d4f1
+2007-10-31T23:42:00.000Z	fyrestrtr	harveyd	find 'your selection' /some/directory -xargs rm {} \;
+2007-10-31T23:46:00.000Z	fyrestrtr	harveyd	find -t l /some/dir/ -xargs rm {} \; <-- this will only find links.

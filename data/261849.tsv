@@ -1,0 +1,4 @@
+2011-12-31T01:16:00.000Z	xcyclist		ls
+2011-12-31T01:18:00.000Z	xcyclist		Say, I'm getting an email every 5 minutes to root that says:  " No ds tag found for target type ."  Can I make that go away?
+2011-12-31T01:18:00.000Z	Seveas	xcyclist	remove the broken cronjob you added :)
+2011-12-31T01:19:00.000Z	Seveas	xcyclist	look in /etc/cron.d/cricket (at least that's where I'd guess a cronjob for cricket would be)

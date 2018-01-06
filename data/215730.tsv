@@ -1,0 +1,4 @@
+2007-02-28T17:23:00.000Z	colmore		hey guys, let's say I wanted to do a dist-upgrade, and in doing so wanted to remove all packages but the base system.  words of wisdom?
+2007-02-28T17:25:00.000Z	soundray	colmore	what do you consider to be the "base system"? The gnome desktop and apps that ubuntu installs by default? Or the Section: base packages?
+2007-02-28T17:26:00.000Z	colmore	soundray	default installation, sorry, my bad for not being more clear
+2007-02-28T17:30:00.000Z	soundray	colmore	I don't have a full answer for you, but you can get a list of installed packages with 'dpkg --get-selections | grep install' and a list of dependencies of a package (e.g. ubuntu-desktop) with 'apt-cache depends ubuntu-desktop'

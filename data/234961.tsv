@@ -1,0 +1,4 @@
+2008-07-19T20:38:00.000Z	snadge		how do i update a kernel on a wubi install?
+2008-07-19T20:39:00.000Z	snadge		it looks like its stored on the windows ntfs file system.. and uses a seperate boot loader which is not linked to the packaging system?
+2008-07-19T20:40:00.000Z	snadge		im assuming grub cant boot a kernel inside a file on a filesystem.. so it boots the kernel off the ntfs filesystem, then mounts root etc?
+2008-07-19T20:41:00.000Z	CarlFK	snadge	grub can read files from the fs - it has some drivers built in

@@ -1,0 +1,4 @@
+2007-02-05T12:41:00.000Z	justin420		hi all. anybody tell me if it is possible to setup different hostnames for each separate NIC I have installed on my pc? I have one wired connection and one wireless; and would like to have different hostnames for each NIC. Anybody help or point me in the direction of a howto?
+2007-02-05T12:42:00.000Z	unop	justin420	 thats not how hostnames work -- a hostname is global to a machine and differrent interfaces dont have different hostnames
+2007-02-05T12:43:00.000Z	justin420	unop	ok thanks allot.  So in my /etc/hosts file I should make my 2 ip addresses for each NIC the same then?
+2007-02-05T12:44:00.000Z	unop	justin420	 yes, you could do that if you want to influence how that machine percieves its own IP addresses -- however, other machines will not be aware of that

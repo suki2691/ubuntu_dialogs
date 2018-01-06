@@ -1,0 +1,4 @@
+2008-01-18T23:03:00.000Z	SpookyET		Hi. How do you make the Upload Manager download install ALL UPDATES automatically in the background without asking for permission? I just looked at my family box and there were a ton of updates to download.
+2008-01-18T23:04:00.000Z	DRebellion	SpookyET	you could create a cron job to run sudo apt-get update every 24 hours
+2008-01-18T23:05:00.000Z	DRebellion	SpookyET	and edit the sudoers file to allow no password for apt-get
+2008-01-18T23:14:00.000Z	DRebellion	SpookyET	aptitude is a front-end for apt-get

@@ -1,0 +1,4 @@
+2006-03-23T13:09:00.000Z	jahshua		could someone _please_ help me add this link to my repos .. i have tried everything and its not working  http://people.debian.org/~dopey/fluxbox/ubuntu-breezy/fluxbox_0.9.14-1_i386.deb   :/
+2006-03-23T13:10:00.000Z	mwe	jahshua	you can't add a direct URL to a deb
+2006-03-23T13:12:00.000Z	mwe	jahshua	is it really an ubuntu repository or is it just a link to a .deb?
+2006-03-23T13:13:00.000Z	mwe	jahshua	then you can't put it in sources.list. download the .deb and sudo dpkg -i it

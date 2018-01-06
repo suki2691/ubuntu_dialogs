@@ -1,0 +1,4 @@
+2012-03-31T23:22:00.000Z	Moofius		Hey, a few months ago I had set up ssh with my public rsa on a remote computer and I could just log on by running "ssh user@bla.bla", but now I can't log in anymore
+2012-03-31T23:22:00.000Z	Moofius		it worked before, and a friend that also has access to the server can still log in
+2012-03-31T23:22:00.000Z	nibbler_	Moofius	start with adding -vvv to the ssh command, and see what it spits out
+2012-03-31T23:25:00.000Z	Moofius	nibbler_	it says debug1: Trying private key: /c/Users/Moofius/.ssh/id_dsa debug3: no such identity: /c/Users/Moofius/.ssh/id_dsa (yes I'm using windows, but this is the best irc channel I could find related to my question)

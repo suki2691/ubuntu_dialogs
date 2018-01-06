@@ -1,0 +1,4 @@
+2011-11-21T16:43:00.000Z	JasonGriffee		how do I change grub timeout?
+2011-11-21T16:44:00.000Z	vibhav	JasonGriffee	GRUB2 or GRUB?
+2011-11-21T16:44:00.000Z	JasonGriffee	ubuntu	11.10 default
+2011-11-21T16:47:00.000Z	vibhav	JasonGriffee	You need to edit /etc/default/grub (gksudo gedit /etc/default/grub) and change the GRUB_TIMEOUT parameter. The value of this parameter is in seconds

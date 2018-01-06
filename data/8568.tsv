@@ -1,0 +1,4 @@
+2011-12-06T21:09:00.000Z	overdub		how can i dump to terminal all flags the present kernel was compiled with?
+2011-12-06T21:11:00.000Z	deej1976	overdub	There was/is and option for the .configure of the kernel compile to be compress in /proc/.something but I don't think it's enabled
+2011-12-06T21:14:00.000Z	deej1976	overdub	cat /boot/config-`uname -r`
+2011-12-06T21:15:00.000Z	overdub	deej1976	just found that with google and about to try it, thanks

@@ -1,0 +1,4 @@
+2009-05-12T00:09:00.000Z	blixt		if i sudo gedit file, will the file permissions change?
+2009-05-12T00:10:00.000Z	nigtv	blixt	you shouldnt have to use sudo gedit unless you need root privs to edit it, so in theory no
+2009-05-12T00:19:00.000Z	blixt	nigtv	how do you mean in theory no? what would be the proper way edit a config file?
+2009-05-12T00:21:00.000Z	nigtv	blixt	what I mean is that if you dont need root privs to edit a file, then you shouldnt sudo gedit it, and if you do need them, then you would have to. As long as you dont sudo gedit a file that doesnt need root privs nothing should 'change' on you. But if you sudo gedit a file that doesnt exist yet (i.e. create one) then, yea, it will need root privs to be accessed again unless you chmod it

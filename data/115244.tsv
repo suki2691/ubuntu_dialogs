@@ -1,0 +1,4 @@
+2008-07-18T10:25:00.000Z	spanther		weird Oo when i remove totem and libs of it then it wants to remove deskbar-applet too o.o
+2008-07-18T10:26:00.000Z	jasonago	spanther	that's what happende to my old kubuntu install...I removed firefox2 so i can install firefox3...the result? it removed the other programs with the same dependencies as of firefox...so I reinstalled hardy ubuntu...not kubuntu...heheh
+2008-07-18T10:27:00.000Z	spanther	jasonago	well this happens to hardy too :( apt does not care if these libs are needed for other applications (synaptics doesn't show a warning for it) so thats mean :(
+2008-07-18T10:30:00.000Z	jasonago	spanther	maybe we should report this to ubuntu...this is not a funny thing...if we remove a program, the library and its helper dependencies should not be removed if other programs still depends on it...

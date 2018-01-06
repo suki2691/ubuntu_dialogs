@@ -1,0 +1,4 @@
+2008-08-13T22:50:00.000Z	CRASH69		﻿why if i thick the ¨only allow local connections¨ in ¨Remote Desktop Preferences¨ I get this message ¨connection to host ´xxx.local:5900´ was closed¨ if both pcs are in the same LAN???
+2008-08-13T22:52:00.000Z	geirha	CRASH69	Local in that context means only connections from the same computer.
+2008-08-13T22:53:00.000Z	geirha	CRASH69	You can still connect from a remote computer though, if you set up an ssh-tunnel.
+2008-08-13T22:55:00.000Z	geirha	CRASH69	It's not an odd choice, it's just the wording that should be more specific. ;)

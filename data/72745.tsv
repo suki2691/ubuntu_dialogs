@@ -1,0 +1,4 @@
+2011-05-03T15:28:00.000Z	frankS2		How can I check which package /bin/ls comes from?
+2011-05-03T15:28:00.000Z	jrib	frankS2	dpkg -S /bin/ls
+2011-05-03T15:30:00.000Z	frankS2	jrib	any way I can do that in reverse? Like check all files that comes from the package
+2011-05-03T15:30:00.000Z	jrib	frankS2	dpkg -L

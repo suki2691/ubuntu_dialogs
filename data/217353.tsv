@@ -1,0 +1,4 @@
+2006-12-11T08:51:00.000Z	drunken-wallaby		anyone here who owns a hp pavilion dv9000 series and has a working! bootline to bypass the buggy bios?
+2006-12-11T08:52:00.000Z	jneves	drunken-wallaby	have you tried acpi=off?
+2006-12-11T08:54:00.000Z	drunken-wallaby	jneves	i've tried most combinations (acpi=off noapic nolapic pnpbios=off biosirq irqpoll,...). nothing works. problem is bad irq7. when the problem occurs, i have to unload the ehci_hcd module and reload it to get usb working (at 1.1 speed only, though)
+2006-12-11T08:55:00.000Z	drunken-wallaby	jneves	i can't boot with acpi=off alone. the system hangs at "assume root bridge"

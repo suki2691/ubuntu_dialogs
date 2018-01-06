@@ -1,0 +1,4 @@
+2006-10-07T08:00:00.000Z	raghu206		when i boot into ubuntu i shud use parameter acpi=off why shud i do that do someone have any idea
+2006-10-07T08:01:00.000Z	talisein	raghu206	does your computer work without specifying acpi=off?
+2006-10-07T08:01:00.000Z	raghu206	talisein	no it reboots
+2006-10-07T08:02:00.000Z	talisein	raghu206	if your computer works, go ahead and use ACPI. It lets the kernel keep track of the power requirements for all your components. For older equipment, however, it doesn't support ACPI

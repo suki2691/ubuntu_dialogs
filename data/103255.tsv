@@ -1,0 +1,4 @@
+2008-02-17T23:05:00.000Z	NBrepresent		hi, how do i list all of the detected pci cards?
+2008-02-17T23:05:00.000Z	NBrepresent		cool
+2008-02-17T23:06:00.000Z	danand	NBrepresent	- sudo lspci -vvvv will give more verbose output
+2008-02-18T00:40:00.000Z	danand	NBrepresent	- find out which drivers your modem uses then do as roxja-it says - lsmod | grep _driver_

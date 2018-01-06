@@ -1,0 +1,4 @@
+2011-09-28T21:04:00.000Z	sarkis		hey all, so ubuntu by default doesn't load up .bash_profile everytime i start up a new gnome-terminal
+2011-09-28T21:05:00.000Z	sarkis		anyway to fix this?
+2011-09-28T21:06:00.000Z	llutz	sarkis	.bash_profile is only read when bash is invoked as login-shell
+2011-09-28T21:07:00.000Z	sarkis	llutz	interesting.. byobu for some reason appended . $(which byobu-launch) at the end of .bash_profile

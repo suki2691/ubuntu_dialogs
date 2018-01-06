@@ -1,0 +1,4 @@
+2007-09-28T15:32:00.000Z	shubham	heguru	:in dhcp the program does not check for network connection cable before it asks for ip address.is it possible to patch it so that it checks for the cable connection first
+2007-09-28T15:32:00.000Z	heguru	shubham	it does check for connection before asking for ip address. What network card do you have
+2007-09-28T15:33:00.000Z	heguru	shubham	your network card (and its driver) should support mii
+2007-09-28T15:33:00.000Z	heguru	shubham	just run mii-tool to see if it does

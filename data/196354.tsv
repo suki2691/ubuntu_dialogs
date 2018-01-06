@@ -1,0 +1,4 @@
+2007-03-20T15:58:00.000Z	fx		can someone please tell me how I can like "analyze" or "view" whats in these packets on my network?  im looking at tcpdump and am seeing really suspicious things and addresses, and i'd like to get some kind of idea of whats going on and what kind of data is being sent..  some things show hostname.www being contacted, so at the very least i should be able to snoop URL's or something no?
+2007-03-20T15:59:00.000Z	Flannel	fx	wireshark is a GUI thing (formerly ethereal)
+2007-03-20T15:59:00.000Z	fx	Flannel	it can view the details of whats going on inside of these packets?
+2007-03-20T15:59:00.000Z	Flannel	fx	yeah, it uses tcpdump, but it's a bit more friendly

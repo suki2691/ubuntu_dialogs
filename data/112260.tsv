@@ -1,0 +1,4 @@
+2010-04-23T19:29:00.000Z	llutz	CarpeDiem	cp -ar *.sh dest/
+2010-04-23T19:30:00.000Z	CarpeDiem		ty llutz
+2010-04-23T19:32:00.000Z	CarpeDiem	llutz	i get "cp: cannot stat `*.bac': No such file or directory"
+2010-04-23T19:34:00.000Z	llutz	CarpeDiem	find path/ -name *.sh -exec cp {} dest/ \;

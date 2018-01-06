@@ -1,0 +1,4 @@
+2011-06-17T13:39:00.000Z	mallet`		Hi. How can I have wicd start at boot? I removed networkmanager and installed wicd and wicd-daemon (using apt-get). But at the moment, I need to start wicd manually: sudo service wicd start.
+2011-06-17T13:41:00.000Z	pksadiq	mallet`	might be sudo update-rc.d wicd enable
+2011-06-17T13:43:00.000Z	mallet`	pksadiq	sounds good. wicd appers in sysv-rc-conf after the command you gave. Thanks!
+2011-06-17T13:44:00.000Z	pksadiq	mallet`	np ;)

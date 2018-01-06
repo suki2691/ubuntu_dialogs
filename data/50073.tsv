@@ -1,0 +1,4 @@
+2011-07-28T12:38:00.000Z	zruty		"unable to read superblock" -- What can I do? I already re-partitioned and re-formatted
+2011-07-28T12:40:00.000Z	wildbat	zruty	reformatted and you get that ? you disk may be dying... fsck -c  it
+2011-07-28T12:41:00.000Z	zruty	wildbat	Ok I try
+2011-07-28T12:43:00.000Z	zruty	wildbat	fsck -C yields "fsck.ext4: Attempt to read block from filesystem resulted in short read while trying to open /dev/mapper/sil_bhadcbagejdd1. Could this be a zero-length partition?"

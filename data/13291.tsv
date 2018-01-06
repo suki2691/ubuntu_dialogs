@@ -1,0 +1,4 @@
+2011-06-15T00:31:00.000Z	captainKane		hey there, can somebody tell me how i open a new root(!) terminal window from a terminal window :)?
+2011-06-15T00:31:00.000Z	smw	captainKane	why?
+2011-06-15T00:32:00.000Z	captainKane	smw	it is an exercise from university (buffer overflow attack), but i have no clue how to open a new root terminal from an application which has already root rights :
+2011-06-15T00:33:00.000Z	smw	captainKane	ah, you need to -> export DISPLAY=':0'

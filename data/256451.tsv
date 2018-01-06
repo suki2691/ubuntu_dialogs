@@ -1,0 +1,4 @@
+2007-05-10T07:21:00.000Z	greg_		hi all
+2007-05-10T07:22:00.000Z	greg_		i want to remove the firefox package but only the firefox package. when i do an apt-get remove firefox, apt wants to remove also the gnome-core etc.... how can i ONLY remove the firefox package ?
+2007-05-10T07:23:00.000Z	dr_willis	greg_	 the others are meta-packages - removing firefox will 'break' and thus remove them.
+2007-05-10T07:24:00.000Z	greg_	dr_willis	so if i understand, if i remove firefox, i remove gnome too ?

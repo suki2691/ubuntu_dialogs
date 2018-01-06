@@ -1,0 +1,4 @@
+2006-11-13T10:38:00.000Z	lazzareth		I am trying to install Akamaru ( http://people.freedesktop.org/~krh/akamaru.git/ ) but the build fails because it cant find gconf-2.0 so i went to the debian website and downloaded the gconf package but it said that i already have this package install and it is of a later version? Could somebody please help me get this to build
+2006-11-13T10:38:00.000Z	lazzareth		?
+2006-11-13T10:38:00.000Z	crimsun	lazzareth	don't grab stuff from the Debian Web site
+2006-11-13T10:39:00.000Z	crimsun	lazzareth	you need libgconf2-dev

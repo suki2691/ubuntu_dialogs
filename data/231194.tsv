@@ -1,0 +1,4 @@
+2005-06-26T15:53:00.000Z	Codeman7		Ok so I have a device on a USB port... how do I find out what the /dev entry for that port is?
+2005-06-26T15:54:00.000Z	concept10	Codeman7	what kind of device?
+2005-06-26T15:54:00.000Z	Codeman7	concept10	a Palm Pilot
+2005-06-26T15:55:00.000Z	concept10	Codeman7	unplug the Palm and in a terminal type in tail -f /var/log/messages  watch that it should tell you

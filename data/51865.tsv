@@ -1,0 +1,4 @@
+2009-07-27T16:33:00.000Z	Dr_Willis	pdelgallego_	 /dev/sda5    seems to be where you installed ubuntu to, so that is hd0,4 in grub naming scheme
+2009-07-27T16:36:00.000Z	pdelgallego_	Dr_Willis	so the line in grub to do ubuntu the default option should be something like  install (hd0,4)/boot/grub/stage1 (hd0)
+2009-07-27T16:37:00.000Z	Dr_Willis	pdelgallego_	  I forget. i rarely have to mess with grub.  i would suggest rereading the 'restoring grub after you install windows' docs closely.   most lilkely you can boot  the live cd and chroot over (or somthing) and do a 'grub-install hd0'
+2009-07-27T16:38:00.000Z	Dr_Willis	pdelgallego_	 or 'install (hd0) from the grub 'command line' ' perhaps

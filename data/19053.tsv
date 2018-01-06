@@ -1,0 +1,4 @@
+2012-02-14T23:10:00.000Z	raevol		ok, now when i run dkpg --configre -a i am getting a ton of out of space errors still, but i see they are all having to do with mkinitramfs
+2012-02-14T23:10:00.000Z	MonkeyDust	raevol	 try this command to find out what large files you have on your drive: find / -size 500M -exec file {} \;
+2012-02-14T23:13:00.000Z	raevol	MonkeyDust	i apparently have nothing over 500 megs :(
+2012-02-14T23:13:00.000Z	MonkeyDust	raevol	 then reduce 500 to some smaller number

@@ -1,0 +1,4 @@
+2006-03-11T16:21:00.000Z	Fracture		Hi
+2006-03-11T16:21:00.000Z	Fracture		is there any way to permit non root users to bind to ports < 1024 (without using sudo) ?
+2006-03-11T16:23:00.000Z	nickrud	Fracture	no, a root process is needed to open one of those ports, but you can hand it off to a non-privileged user. The technique, however is over my head 
+2006-03-11T16:24:00.000Z	Fracture	nickrud	thanks.  not the answer that I was hoping for.  In my mind, there should be a way to configure linux to permit non root users to bind to lower ports.

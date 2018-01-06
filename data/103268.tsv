@@ -1,0 +1,4 @@
+2008-02-29T23:20:00.000Z	johnquinn85		I'm running 7.10 on a Toshiba Satellite A105, and I can't get the fan to work, so in return my laptop overheats.
+2008-02-29T23:21:00.000Z	johnquinn85		does anyone have a solution?
+2008-02-29T23:23:00.000Z	danand	johnquinn85	- type lsmod | grep tosh and see if you get any output. I'm fairly sure that there are kernel modules available for controlling acpi stuff ie fans etc
+2008-02-29T23:25:00.000Z	danand	johnquinn85	- if that command does not return any output, you will need to insert the required kernel modules using modprobe

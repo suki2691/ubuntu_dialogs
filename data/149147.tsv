@@ -1,0 +1,4 @@
+2008-10-01T21:53:00.000Z	Awsoonn		I have a dir with a lot fo files named XXX-###.ext and I want to replace XXX with YYY. How can I do that without doing it manually for all of the files?
+2008-10-01T21:55:00.000Z	unop	Awsoonn	for i in *.ext; do mv -v "$i" "${i//XXX/YYY}"; done
+2008-10-01T21:56:00.000Z	Awsoonn	unop	THANK YOU
+2008-12-30T15:30:00.000Z	unop	Awsoonn	ifrename

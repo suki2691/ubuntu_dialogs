@@ -1,0 +1,4 @@
+2009-05-25T07:53:00.000Z	Computer_Man		well it is part of conky and isn't working
+2009-05-25T07:54:00.000Z	Computer_Man		i'm getting "localhost (127.0.0.1) 7634 (?) : Connection Refused
+2009-05-25T07:54:00.000Z	Computer_Man		over and over
+2009-05-25T07:54:00.000Z	mpontillo	Computer_Man	that line will establish a TCP connection to port 7364 (that's what 'nc', aka 'netcat' does). then, 'cut' will get the 4th field (separated by '|') characters of each line of text returned by 'nc'. then whatever data is returned will be printed by 'echo'. you will get "connection refused" if that port is not open. (why would it be? where did you find that command?)

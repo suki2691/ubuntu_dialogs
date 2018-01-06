@@ -1,0 +1,4 @@
+2010-02-13T02:07:00.000Z	MartinBoecken		I type "sudo apt-get install apache2" and then i get a message saying "E: cloudn't find package apache 2" What can i do?
+2010-02-13T02:09:00.000Z	MartinBoecken		I type "sudo apt-get install apache2" and then i get a message saying "E: cloudn't find package apache 2" What can i do?
+2010-02-13T02:09:00.000Z	MartinBoecken		i did
+2010-02-13T02:10:00.000Z	darolu	MartinBoecken	try this command to find the package's name: sudo apt-cache search apache

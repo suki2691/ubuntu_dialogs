@@ -1,0 +1,4 @@
+2007-08-18T10:21:00.000Z	Brion1		greetings!  I've got a fresh Feisty install that won't acknowledge the CD-ROM on /dev/hda.   I get a "hda: no response (status = 0x80), resetting drive" in dmesg and /var/log/messages.  Any ideas?
+2007-08-18T10:22:00.000Z	bruenig	Brion1	/dev/hda is not generally a cdrom name are you certain that is it?
+2007-08-18T10:22:00.000Z	Brion1	bruenig	/dev/hda is where it's physically located.  /cdrom is the name of the mount point
+2007-08-18T10:23:00.000Z	Brion1	bruenig	the CD-ROM is the master drive on the primary IDE channel (/dev/hda)

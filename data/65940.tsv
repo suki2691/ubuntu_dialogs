@@ -1,0 +1,4 @@
+2010-02-23T21:29:00.000Z	king_pin		whats a good tool to do low level format
+2010-02-23T21:29:00.000Z	ibuclaw	king_pin	partition format? fdisk.
+2010-02-23T21:31:00.000Z	ibuclaw	king_pin	if security is not of the essence. fdisk should do to setup the partition table. Then you can use mkfs to format the partition into the filesystem you want.
+2010-02-23T21:32:00.000Z	ibuclaw	king_pin	if you prefer easy - use gparted instead.

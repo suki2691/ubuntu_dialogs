@@ -1,0 +1,4 @@
+2010-10-25T13:58:00.000Z	armyriad		Is there a way to evaluate a mathematical expression on the command-line? I want it to print out 4 if I enter in 2+2.
+2010-10-25T13:59:00.000Z	ilovefairuz	armyriad	echo $(( 1 + 2 ))
+2010-10-25T13:59:00.000Z	ilovefairuz	armyriad	or $[ 1 + 2]
+2010-10-25T14:00:00.000Z	ilovefairuz	armyriad	also 'man bc' for more sophisticated stuff

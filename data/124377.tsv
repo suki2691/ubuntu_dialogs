@@ -1,0 +1,4 @@
+2007-08-19T07:54:00.000Z	oompaloompa		how can i create a logical volume to keep the data on my /home partition, but also merge it with a partition on a separate physical drive?
+2007-08-19T07:55:00.000Z	stefg	oompaloompa	what do you mean by 'merge' ?
+2007-08-19T07:57:00.000Z	oompaloompa	stefg	like, join the two partitions so they are now one partition
+2007-08-19T08:00:00.000Z	stefg	oompaloompa	you could look at the -bind option in man mount, but generally i don't think that's a good idea. if you need permanent backup i'd consider a raid 1 (possibly with lvm) between a local and removable partition

@@ -1,0 +1,4 @@
+2010-11-08T00:43:00.000Z	binary01		hey all, i just installed ubuntu and i installed the restricted drivers and restarted and now ubuntu is booting to command prompt and when i type startx i get an error. i tried sudo dpkg-reconfigure xserver-xorg with no luck. anyone know how to fix this?
+2010-11-08T00:43:00.000Z	SoftwareJonas	binary01	which error do you get?
+2010-11-08T00:44:00.000Z	SoftwareJonas	binary01	seems like your screen is not recognized. maybe you have to edit your xorg.conf accordingly
+2010-11-08T00:46:00.000Z	SoftwareJonas	binary01	use "vi", "vim" or "nano"

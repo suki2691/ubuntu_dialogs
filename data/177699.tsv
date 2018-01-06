@@ -1,0 +1,4 @@
+2006-09-17T12:36:00.000Z	TheBigToe		guys, how do I get /dev/hda5 ( a fat32 partition) to mount a) now and b) on startup?
+2006-09-17T12:37:00.000Z	TheBigToe		thanks :P
+2006-09-17T12:37:00.000Z	Jack_Sparrow	TheBigToe	Diskmounter Script   http://www.ubuntulinux.nl/files/diskmounter  for mounting NTFS, Fat32 and NFS Drives Most people need to restart X before the Drive Icons show on the desktop  .. after saving the page to your desktop use terminal and type cd /home/your_username_here/Desktop
+2006-09-17T12:39:00.000Z	Jack_Sparrow	TheBigToe	sudo cp /etc/fstab ~/fstab.backup            First to make a backup

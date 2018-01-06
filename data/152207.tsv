@@ -1,0 +1,4 @@
+2007-08-11T12:59:00.000Z	Anarch		How do I find what package contains some executable?
+2007-08-11T13:01:00.000Z	xtknight	Anarch	if the pkg/exec is already installed, "dpkg -S /file"  if not, "apt-file search /file"
+2007-08-11T13:02:00.000Z	xtknight	Anarch	for apt-file you have to install it and do "sudo apt-file update" before doing any searches.  on alternative to apt-file search is http://packages.ubuntu.com/
+2007-08-11T13:02:00.000Z	Anarch	xtknight	Thanks, trying both

@@ -1,0 +1,4 @@
+2008-05-29T01:30:00.000Z	Lynet	yacc	On a router you would do some preroute rule to rewrite the packet address. For packets originating from the same box I think you need to do the rewrite in the output chain.
+2008-05-29T01:32:00.000Z	Lynet	yacc	But if I'm not mistaken the output chain is after the route decition, so in that case you would have to reinject the packet to the input chain so that it will be rerouted to the correct destination interface.
+2008-05-29T01:32:00.000Z	Lynet	yacc	..but exactly *how* to do that is something I've forgotten a long time ago.
+2008-05-29T01:34:00.000Z	yacc	Lynet	Well, now we are two, my TCP/IP magician license expired at least 2-3 years ago ;(

@@ -1,0 +1,4 @@
+2010-09-10T10:42:00.000Z	liam		i installed a program as root via cli but cant access it using my normal user account. What is the directory the program would have installed to?
+2010-09-10T10:42:00.000Z	iceroot	liam	dpkg -L packagename
+2010-09-10T10:43:00.000Z	iceroot	liam	or "which programname"
+2010-09-10T10:44:00.000Z	liam	iceroot	i didnt install it using package manager. I installed it using a .sh file

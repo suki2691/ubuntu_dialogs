@@ -1,0 +1,4 @@
+2007-01-20T11:57:00.000Z	hexidigital		to completely remove X, could i just sudo aptitude remove xserver-xorg ?
+2007-01-20T11:58:00.000Z	mwe	hexidigital	no that wont work I think
+2007-01-20T12:00:00.000Z	mwe	hexidigital	sudo apt-get --purge remove xserver-xorg-core might work
+2007-01-20T12:02:00.000Z	mwe	hexidigital	yeah. xserver-xorg-core seems to want to remove everything here. haven't tried your own suggestion

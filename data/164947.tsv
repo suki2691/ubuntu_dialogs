@@ -1,0 +1,4 @@
+2009-01-14T09:22:00.000Z	neil_d		hi I have a chroot directory setup (with rsync in it)...  if I "chroot <dir>" then execute "/usr/bin/rsync --daemon" everything goes as planed :)    but if I execute the command....   chroot <dir> "/usr/bin/rsync --daemon"   I get the error chroot: cannot run command ... no such file or directory :(  what am I doing wrong here ?
+2009-01-14T09:22:00.000Z	rdw200169	neil_d	well, is rsync in the chroot?
+2009-01-14T09:23:00.000Z	neil_d	rdw200169	yes, and tested.
+2009-01-14T09:28:00.000Z	neil_d	rdw200169	found the problem...   not meant to use the quotes

@@ -1,0 +1,4 @@
+2010-02-23T02:42:00.000Z	c3l		how do I stop a user form being able to access a folder and reading or in any way touching its contents? I really need this.
+2010-02-23T02:43:00.000Z	neurochrome	c3l	chmod 000
+2010-02-23T02:43:00.000Z	c3l	neurochrome	does that make only the folderowner able to access the folder/file? can root touch it?
+2010-02-23T02:43:00.000Z	neurochrome	c3l	000 not only stops them from writing to the file, it stops anyone but root from reading it

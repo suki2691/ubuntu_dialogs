@@ -1,0 +1,4 @@
+2008-05-13T02:01:00.000Z	Wanderer		hmm, I just rebooted my machine after upgrading to Hardy.  I get kdm login and then a black screen
+2008-05-13T02:01:00.000Z	Wanderer		I tried to run "dpkg-reconfigure xserver-xorg" but it doesn't actually reconfig xorg anymore, just keyboard
+2008-05-13T02:02:00.000Z	RoAkSoAx	Wanderer	try dpkg-reconfigur -phigh xserver-xorg
+2008-05-13T02:03:00.000Z	Wanderer	RoAkSoAx	hmm, that looks to have just overwritten my config

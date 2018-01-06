@@ -1,0 +1,4 @@
+2009-08-14T08:43:00.000Z	dayo		just update adobe-flashplugin from the command line. is there anyway to restart firefox from the command line?
+2009-08-14T08:44:00.000Z	jedc	dayo	you can find the pid of a process by pgrep <processname>, then kill <pid> to kill it
+2009-08-14T08:46:00.000Z	dayo	jedc	that usually leaves the lock file in place, and then ff won't start unless i delete the lock.
+2009-08-14T08:48:00.000Z	jedc	dayo	hmm, that works for me, if you want to nuke the process you can use kill -9

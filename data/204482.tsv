@@ -1,0 +1,4 @@
+2007-05-10T10:39:00.000Z	imc_		morning,I have a fresh feisty install and OOO is borked - Impress can't go into slide show mode. Uninstalling openoffice.org doesn't seem to fix - can anyone offer suggestion of how to remove/reinstall/repair ooo?
+2007-05-10T07:21:00.000Z	imc_		Hiya how can I create the shortcut that allows me to type "oowriter" to the Run Application menu (ALT+F2) and have that launch openoffice.org2.2 -writer ?
+2007-05-10T07:21:00.000Z	HymnToLife	imc_	sudo ln -s $(which openoffice.org2.2-writer) /usr/local/bin/oowriter
+2007-05-10T07:22:00.000Z	imc_	HymnToLife	thanks so much

@@ -1,0 +1,4 @@
+2007-11-28T17:52:00.000Z	Ximal		would a mail delivery agent be OUTLOOK EXPRESS or Thunderbird by mozilla ?
+2007-11-28T17:53:00.000Z	Beefcake4000	Ximal	- my understanding of mda is an application that takes mail from one location (pop/mail directory/smtp) and passes to a program like procmail which is capable of saving the mail as an actual message
+2007-11-28T17:59:00.000Z	Beefcake4000	Ximal	- I have the following... fetchmail polls a pop server for new mail, on retrival it pipes this information to procmail (which is an mda) . procmail then processes the piped data and turns it into a physical e-mail on the disk
+2007-11-28T18:00:00.000Z	Beefcake4000	Ximal	- yeah, I did this, .fetchmail rc configured to pass mail to procmail that is configured to store mail in a folder

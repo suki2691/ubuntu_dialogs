@@ -1,0 +1,4 @@
+2006-10-29T15:39:00.000Z	NoobUbuntu		Can someone please help. I tried to install nvidia driver according to ubuntu guide and after that x did not start. I typed in dpkg-reconfigure xserver-xorg it asked me many question and I enterd wrong values, i had no idea what to put. Now x started but wrong resoluiton and x is configured wrongly I think. Do i reinstall ubuntu ? I am a new user. Please help.
+2006-10-29T15:40:00.000Z	LjL	NoobUbuntu	the dpkg-reconfigure has saved a backup of your previous xorg.conf, search for it in /etc/X11/  --- it will be called xorg.conf.somedateandtime
+2006-10-29T15:40:00.000Z	NoobUbuntu	gnomefreak	NvidiGo 6600
+2006-10-29T15:40:00.000Z	LjL	NoobUbuntu	you can restore it, and run the dpkg-reconfigure again. the only thing you probably really need to change is the driver ("nv" to "nvidia"), and press Enter to the other questions

@@ -1,0 +1,4 @@
+2010-10-06T23:36:00.000Z	Benwa		how to reboot my pc, today at 2 AM, with cron ?
+2010-10-06T23:37:00.000Z	dajhorn	Benwa	Put the /sbin/reboot command into the crontab of the root user.
+2010-10-06T23:37:00.000Z	Benwa	dajhorn	but what's the correct syntax ?
+2010-10-06T23:39:00.000Z	dajhorn	Benwa	An easy shortcut would be "@daily /sbin/reboot".   Past that, the first result for "crontab syntax" has an example.

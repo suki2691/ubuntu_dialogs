@@ -1,0 +1,4 @@
+2008-03-21T04:08:00.000Z	Mik1		Hey people -Can ask - trying to get Ubuntu (Gutsy - i think) installed on a Dell Lattitude D800 - having problems setting up an external USB keyboard & mouse - keyboard works - mouse appears (in /dev/input) but it doesn't work - anyone got any ideas - I'm thinking it might be X11 Configuration?
+2008-03-21T04:09:00.000Z	Dr_willis_	Mik1	 by default the x config looks at /dev/input/mice  - Try rebooting with the mouse plugged in? try  try just restrting the x Server with it plugged in?
+2008-03-21T04:12:00.000Z	Dr_willis_	Mik1	 check dmesg command, befor/after plugging in the dongle.
+2008-03-21T04:12:00.000Z	Dr_willis_	Mik1	 also you may need to hit the reset button on the mouse if it has one. some of mine do

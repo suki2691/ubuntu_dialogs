@@ -1,0 +1,4 @@
+2011-02-27T03:04:00.000Z	vitorleite		how can I install a .tar.gz file?
+2011-02-27T03:05:00.000Z	roygbiv	vitorleite	it depends. what is the file?
+2011-02-27T03:06:00.000Z	roygbiv	vitorleite	well .tar.gz files usually have no installer application with them. you usually just unpack it in a chosen directory
+2011-02-27T03:07:00.000Z	roygbiv	vitorleite	gzip -dc file.tar.gz | tar xf -

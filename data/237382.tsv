@@ -1,0 +1,4 @@
+2005-05-14T09:16:00.000Z	cmg_		i had a Warty system running fine.. I just rebuilt it with Hoary and now I can only select 640x480 resolution.. any idea what I can do?
+2005-05-14T09:17:00.000Z	Kamping_in_doze	cmg_	reconfigure x
+2005-05-14T09:17:00.000Z	Kamping_in_doze	cmg_	in a terminal. : sudo dpkg-reconfigure xserver-xorg
+2005-05-14T09:18:00.000Z	Kamping_in_doze	cmg_	then you type: sudo /etc/init.d/gdm restart

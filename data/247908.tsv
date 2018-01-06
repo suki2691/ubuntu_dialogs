@@ -1,0 +1,4 @@
+2007-04-22T06:47:00.000Z	chump		good morning everyone
+2007-04-22T06:49:00.000Z	chump		if i want to move my home directory to another partition if i do "" find . -depth -print0 | cpio --null --sparse -pvd /mnt/newhome/ "" i go a permission denied  if i do it as a root will the file permission still the same as the original ?
+2007-04-22T06:49:00.000Z	chump		cya
+2007-04-22T06:51:00.000Z	ompaul	chump	why not make the target owned by the user tarball it and send it on

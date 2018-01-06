@@ -1,0 +1,4 @@
+2011-02-11T15:15:00.000Z	TopCat		if i update smb.conf via dist-upgrade, will it overwrite my current smb.conf?
+2011-02-11T15:16:00.000Z	ActionParsnip	TopCat	i'd do a compare of the 2 files
+2011-02-11T15:19:00.000Z	ActionParsnip	TopCat	you could run: sudo cp /etc/samba/smb.conf /etc/samba/smb.conf_11022011
+2011-02-11T15:19:00.000Z	ActionParsnip	TopCat	;)

@@ -1,0 +1,4 @@
+2007-04-19T08:23:00.000Z	sigger_		so can anyone tell me why lately when I reboot my laptop I have to ifconfig eth1 up then run dhclient.
+2007-04-19T08:24:00.000Z	sigger_		i don't recall that I used to have to do that.
+2007-04-19T08:24:00.000Z	wastrel	sigger_	 do you have  auto eth1  in /etc/network/interfaces ?
+2007-04-19T08:25:00.000Z	sigger_	wastrel	nope, eth0 and eth2 (which doesn't exist).  will fix.  thanks :)

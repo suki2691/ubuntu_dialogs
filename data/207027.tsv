@@ -1,0 +1,4 @@
+2006-08-07T07:55:00.000Z	hayden		how can i create a samba share so that everyone has rwx access to it and you dont need a user/pass to connect to it?
+2006-08-07T07:55:00.000Z	void^	hayden	use security = share
+2006-08-07T07:58:00.000Z	hayden	void^	but that only gives anonymous access not rwx access to a share
+2006-08-07T08:00:00.000Z	void^	hayden	use guest account = some_user_with_access_rights_you_want, and writable = yes and public = yes for the share. consider reading some samba howto.

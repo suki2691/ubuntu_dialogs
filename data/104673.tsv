@@ -1,0 +1,4 @@
+2011-10-14T20:53:00.000Z	TRider		ubuntu only runs on live cd. I install on a hard disk  and get error 22 in the grab process.Can anyone help ? 2 days ago I got a kernel panic message and had to reinstall. can anyone plw help ?
+2011-10-14T20:54:00.000Z	ActionParsnip	TRider	try booting to the liveCD and reinstall grub from there
+2011-10-14T20:55:00.000Z	ActionParsnip	TRider	http://www.google.co.uk/url?sa=t&source=web&cd=1&ved=0CB4QFjAA&url=http%3A%2F%2Fwww.omgubuntu.co.uk%2F2011%2F09%2Flive-usb-sticking-grub-2-video%2F&ei=XGmYTqlsyMPxA5qDzLgF&usg=AFQjCNHyQcVGbvSKW1itkyQ4_Amoz20c_Q
+2011-10-14T21:40:00.000Z	ActionParsnip	TRider	boot to the liveCD and chroot to the installed OS, then run:  sudo update-grub

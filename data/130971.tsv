@@ -1,0 +1,4 @@
+2008-10-01T00:15:00.000Z	genius		how to add file contents with sudo? when i do sudo echo new_data > /etc/sysfile - redirect works not for root but for my user. so file cannot be opened
+2008-10-01T00:15:00.000Z	genius		:)))
+2008-10-01T00:16:00.000Z	stroyan	genius	sudo bash -c 'echo new_data > /etc/sysfile'
+2008-10-01T00:17:00.000Z	genius	stroyan	thank you, i think that tee variant is more portable

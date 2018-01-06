@@ -1,0 +1,4 @@
+2007-12-02T19:04:00.000Z	Cherubael		When I try and boot to Windows from Grub, it hangs with the message "Starting up..." and I have to cold restart. Any ideas on resolving this?
+2007-12-02T19:05:00.000Z	xevil	Cherubael	check to see if the mount point for Win is right in /boot/grub/menu.lst
+2007-12-02T19:06:00.000Z	Cherubael	xevil	Mount point it correct AFAIK. /dev/hda5 = hd0,4 yeah?
+2007-12-02T19:06:00.000Z	xevil	Cherubael	that appears correct

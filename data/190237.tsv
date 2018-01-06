@@ -1,0 +1,4 @@
+2006-07-29T08:17:00.000Z	dhouse		does anyone know how to hook the keyboard to run a shell script.  Before the user is logged in?  I'm trying to setup a monitorless laptop to play mp3s...
+2006-07-29T08:19:00.000Z	Warbo	dhouse	/etc/rc.local is run at boot as root, no login needed
+2006-07-29T08:21:00.000Z	Warbo	dhouse	That would need a login, even if it is a console login not a graphical one
+2006-07-29T08:23:00.000Z	Warbo	dhouse	Wouldn't that technically be a login (TTY?)

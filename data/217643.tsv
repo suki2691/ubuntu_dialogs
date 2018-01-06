@@ -1,0 +1,4 @@
+2012-06-26T18:13:00.000Z	MoPac		Hello all -- I have a network configuration question.  I regularly need to connect to one static IP wired network and one DHCP one. On my Win7 box, I run netsh batch tasks on event (network connect, condition network of a certain name available) to change the adapter settings.  On Ubuntu: what do?
+2012-06-26T18:14:00.000Z	usr13	MoPac	ifconfig
+2012-06-26T18:14:00.000Z	MoPac	nibbier	So it will always have to be a manual switch rather than having the machine recognize a network name?
+2012-06-26T18:15:00.000Z	usr13	MoPac	As sacarlson suggests, if you do not like the way network-manager handles your Network Interfaces, you can install wicd and use it instead.

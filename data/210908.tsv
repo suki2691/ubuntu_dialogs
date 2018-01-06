@@ -1,0 +1,4 @@
+2005-10-30T09:14:00.000Z	johnm	billytwowilly	^
+2005-10-30T09:15:00.000Z	billytwowilly	johnm	so if I'm trying to configure aac support into gtkpod and the libmp4v2 headers are in /usr/include then I would just use CFLAGS="-I/usr/include" then right?
+2005-10-30T09:16:00.000Z	johnm	billytwowilly	not quite. the include path should look there for headers anyways. you will likely see a ./configure option something like --enable-aac or --with-aac[=/usr/include] 
+2005-10-30T09:16:00.000Z	johnm	billytwowilly	./configure --help should work

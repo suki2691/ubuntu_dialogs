@@ -1,0 +1,4 @@
+2006-05-22T12:54:00.000Z	jadaz87		hello does anyone know why this is not working?
+2006-05-22T12:55:00.000Z	jadaz87		joejaxx@eclipse:~$ ln -s /etc/rc2.d/S91samba /etc/init.d/samba
+2006-05-22T12:55:00.000Z	jadaz87		ln: creating symbolic link `/etc/init.d/samba' to `/etc/rc2.d/S91samba': File exists
+2006-05-22T12:56:00.000Z	g0ph3r	jadaz87	yep, backwards. exchange the 2 params

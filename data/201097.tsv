@@ -1,0 +1,4 @@
+2009-08-16T23:35:00.000Z	Crash2108		Is there a way so that Bittorrent doesn't slow down the networking for the whole machine?  Like can it yield to all other traffic?
+2009-08-16T23:36:00.000Z	Crash2108		Why upload?
+2009-08-16T23:36:00.000Z	Crash2108		Yes..
+2009-08-16T23:37:00.000Z	vlt	Crash2108	You could use traffic shaping with queuing priorities set by iproute'S tc command.

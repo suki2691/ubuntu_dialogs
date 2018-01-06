@@ -1,0 +1,4 @@
+2008-03-14T03:14:00.000Z	pardusman		I am trying to configure Proftpd on Ubuntu Linux in SSH. I have been researching all evening on getting the filing permissions right but its getting a bit complex.  Basically I need to set the correct permissions in /etc/proftpd/proftpd.conf.. and what I want is to block all access to all folders except a folder called /var/www with all the contents withing www being unblocked ?
+2008-03-14T03:14:00.000Z	pardusman		http://paste.ubuntu-nl.org/59542
+2008-03-14T03:14:00.000Z	JohnMM	pardusman	you're looking for a chroot config
+2008-03-14T03:16:00.000Z	JohnMM	pardusman	see http://209.85.173.104/search?q=cache:Au7i-eKMu_IJ:archiv.debianhowto.de/en/proftpd/c_proftpd.html+proftp+chroot&hl=en&ct=clnk&cd=2&gl=us

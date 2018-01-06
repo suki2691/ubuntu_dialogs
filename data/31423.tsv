@@ -1,0 +1,4 @@
+2010-10-20T03:26:00.000Z	Benkinooby		i want to boot as verbose as possible (textmode). what is the best way to do that? work on boot up scripts? boot options?
+2010-10-20T03:27:00.000Z	bastidrazor	Benkinooby	in /etc/default/grub   remove "quiet splash" from GRUB_CMDLINE_LINUX_DEFAULT="quiet splash"    then run sudo update-grub
+2010-10-20T03:28:00.000Z	Benkinooby	bastidrazor	thank you
+2010-10-20T03:29:00.000Z	bastidrazor	Benkinooby	you're welcome.

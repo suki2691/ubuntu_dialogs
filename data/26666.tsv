@@ -1,0 +1,4 @@
+2011-10-06T22:17:00.000Z	glebihan	Hamled	if it says it's running, it probably really is. The name of the process is mysqld. If really it isn't running, then try "sudo stop mysql" and then "sudo start mysql" again
+2011-10-06T22:21:00.000Z	Hamled	glebihan	I ran status on it and it turns out that it was stuck in something before it actually started the mysqld process (/bin/sh -e /proc/self/fd/10) so I was able to kill that and start it
+2011-10-06T22:21:00.000Z	Hamled	glebihan	thanks though :)
+2011-10-06T22:22:00.000Z	glebihan	Hamled	you're welcome

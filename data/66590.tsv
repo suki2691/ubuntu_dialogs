@@ -1,0 +1,4 @@
+2009-02-11T05:40:00.000Z	sarixe		guys, i'm thinking of switching to windows, because linux doesn't cut it for some of the stuff i need to be doing.  my main concern, however, is that i have a large collection of music (some irreplaceable) on an external hard drive, formatted in ext3.  will i be able to access ext3 from windows without risk of corruption?
+2009-02-11T05:41:00.000Z	bernz	sarixe	yes indeed
+2009-02-11T05:41:00.000Z	bernz	sarixe	but avoid making changes (write mode)
+2009-02-11T05:42:00.000Z	bernz	sarixe	there's a guy called stephan schreiber who makes a driver for NT-based OS which masquerades ext[23]fs volumes as virtual NTFS volumes

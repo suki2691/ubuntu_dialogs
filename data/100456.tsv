@@ -1,0 +1,4 @@
+2008-04-05T19:16:00.000Z	erle-		how can i check in a bash script if i have root permissions?
+2008-04-05T19:17:00.000Z	prince_jammys	erle-	check UID or EUID.
+2008-04-05T19:17:00.000Z	erle-	prince_jammys	that does not work with sudo
+2008-04-05T19:18:00.000Z	prince_jammys	erle-	there is a variable like "SUDO_USER" or "SUDOER"

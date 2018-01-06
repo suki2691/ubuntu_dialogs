@@ -1,0 +1,4 @@
+2011-07-25T18:22:00.000Z	lenshark		hi guys
+2011-07-25T18:23:00.000Z	lenshark		if you accidentally deleted some files in the / ... is there a way to find out who did it ? on the logs perhaps ?
+2011-07-25T18:24:00.000Z	edbian	lenshark	You can see who sudo'd recently.  in /var/log/auth.log
+2011-07-25T18:24:00.000Z	edbian	lenshark	There is not a log of every file read / write / delete

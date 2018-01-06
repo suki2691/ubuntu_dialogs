@@ -1,0 +1,4 @@
+2009-11-30T19:27:00.000Z	TopKatz_		Im having a hard time with a java path.  I I run echo $JDK_HOME from terminal I get /usr/lib/jvm/java-6-sun1.6.0.16,  However if I try and run my app (IDEA) it says that its trying to use jdk 1.7.  If I run it from the terminal like so ~/idea-9952/bin/idea.sh it works, but running ti froma  script I can see the JDK home changes to 1.7.  I have checked my profiels and bash but Im not seeing were I had set that.  Is there a trick to fin
+2009-11-30T19:27:00.000Z	TopKatz_		d were Im setting the path to the bad jdk?
+2009-11-30T19:29:00.000Z	TopKatz_		is there a trick to see were my jdk home is set?
+2009-11-30T19:30:00.000Z	phisher1	TopKatz_	echo $JAVA_HOME

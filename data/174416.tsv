@@ -1,0 +1,4 @@
+2006-12-19T12:15:00.000Z	lmosher		I think something (in general) is wrong w/ my wireless connection. In Dapper when I was entering my ESSID in the default app it would give me a list of ESSID's. In Edgy I have to type the ESSID manually - is this supposed to be the case, or is this a problem? This may be the reason network-manager won't work. I didn't do a fresh install of Edgy but instead did an upgrade from Dapper.
+2006-12-19T12:17:00.000Z	lmosher		I did an update from Dapper.  3 packages were held back: gkrellm, libggi2 and mplayer. How do I repair this?
+2006-12-19T12:18:00.000Z	jkimball4	lmosher	sudo apt-get dist-upgrade
+2006-12-19T12:18:00.000Z	lmosher	jkimball4	When I type that it just says "The following packages will be kept back:"

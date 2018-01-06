@@ -1,0 +1,4 @@
+2009-05-23T13:56:00.000Z	n2diy		when I issue ping -b xxx..., only my router replies, why don't I see all the boxes on my lan responding?
+2009-05-23T13:57:00.000Z	mechdave	n2diy	that is because you are pinging the broadcast address and only your router is configured to respond due to DHCP running on it
+2009-05-23T13:59:00.000Z	n2diy	mechdave	ok, how]what do I need to do, to see/enable the other boxes, so they respond?
+2009-05-23T14:02:00.000Z	mechdave	n2diy	I suppose you would have to make each machine listen on the broadcast address, there are better ways of discovering machines than that tho

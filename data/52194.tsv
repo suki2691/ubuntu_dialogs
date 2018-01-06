@@ -1,0 +1,4 @@
+2010-07-19T03:53:00.000Z	cherva		can someone tell me what is the route command to add a gateway for a special subnet ( like 10.8.0.X ) ?
+2010-07-19T03:55:00.000Z	chrissharp123	cherva	try something like 'sudo route add -net 10.0.0.0/8 gw 10.0.X.X'
+2010-07-19T03:55:00.000Z	chrissharp123		(substituting your network's values, of course)
+2010-07-19T03:56:00.000Z	cherva	chrissharp123	thanks it worked

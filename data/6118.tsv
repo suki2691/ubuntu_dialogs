@@ -1,0 +1,4 @@
+2012-06-11T16:42:00.000Z	SwashBuckla		GRUB2 question: I have set the TIMEOUT=0 and the DEFAULT=0 (Windows). Can I still boot Ubuntu? I have just tried holding Shift all through the boot process, and a change DOES occur: I get the message "GRUB loading...". However, this disappears after 5 or so seconds and continues with it's configured boot process (i.e. it does not show the GRUB menu)
+2012-06-11T16:43:00.000Z	Chuck_Norris	SwashBuckla	boot with a live cd and change the TIMEOUT value to "10"
+2012-06-11T16:44:00.000Z	Chuck_Norris	SwashBuckla	you have to mount the parition as read and write then modify /etc/default/grub  that's what i think
+2012-06-11T16:46:00.000Z	Chuck_Norris	SwashBuckla	then you have to chroot and: update-grub   that what i think

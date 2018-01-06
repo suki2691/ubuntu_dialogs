@@ -1,0 +1,4 @@
+2007-05-02T09:13:00.000Z	z9999		Could someone tell me how to remove the alsa pkg that I just installed manually? and get everything back to original?
+2007-05-02T09:14:00.000Z	agentnewb	z9999	open synaptic and remove alsa then go to the source you configured of alsa as root and do make uninstall then select alsa for reinstall under synaptic
+2007-05-02T09:14:00.000Z	agentnewb	z9999	or you could toy around with apt-get which ever I prefer the gui
+2007-05-02T09:19:00.000Z	z9999	agentnewb	I downloaded three files from the alsa website, untar'd them and then had to do a ./configure, make, and a make install on each one.Not being a Linux user I'm not familiar with the commands to undo anything, and it seems the Pkg Mgr doesn't keep track of manually installed pkgs. I'd just like to get back to where the microphone didn't work at all as it is still unusable with the...

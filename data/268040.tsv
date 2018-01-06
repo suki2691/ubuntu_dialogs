@@ -1,0 +1,4 @@
+2005-05-09T09:51:00.000Z	barto-kun		how do you use scp to copy a file with spaces in it?
+2005-05-09T09:51:00.000Z	barto-kun		I've tried \, I've tried quotes, it treats every word as a separate file :\
+2005-05-09T09:52:00.000Z	barto-kun		"scp 192.168.0.69:Desktop/gorillaz\ -\ feel\ good.mov ." results in "scp: Desktop/gorillaz: No such file or directory"
+2005-05-09T09:53:00.000Z	crimsun	barto-kun	only quote the filename, not the entire command

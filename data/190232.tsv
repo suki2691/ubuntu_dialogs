@@ -1,0 +1,4 @@
+2006-08-23T16:45:00.000Z	rmd		i want to disable gdm at boottime, but not erase it from my system.  how can i do that?
+2006-08-23T16:46:00.000Z	Warbo	rmd	Look at "man update-rc.d" and use it to stop GDM launching in runlevel 2
+2006-08-23T16:46:00.000Z	rmd	Warbo	thanks
+2006-08-23T05:02:00.000Z	rmd	Warbo	how do i know what item it is in the init script so i can stop it?

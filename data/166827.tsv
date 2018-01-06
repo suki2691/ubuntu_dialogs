@@ -1,0 +1,4 @@
+2006-09-23T14:03:00.000Z	mayk		guys, i'm now looking into downgrading a package (libssl 0.9.8 to 0.9.7) .. now i'm not that knowledgeable of the ubuntu apt-get upgrade process. when i downgrade it (if i get this working) , how can i prevent apt-get upgrade from upgrade libssl again ?
+2006-09-23T14:04:00.000Z	mayk		my question relates to ubuntu server 6.06
+2006-09-23T14:05:00.000Z	Jowi	mayk	in aptitude you press the "=" key to hold a package to its current version. no idea how to do it otherwise
+2006-09-23T14:06:00.000Z	mayk	Jowi	thanx for the pointer, i will look into the = option..

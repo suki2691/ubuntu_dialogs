@@ -1,0 +1,4 @@
+2005-06-15T08:21:00.000Z	kanzen		are there known issues with the via's VT8237 SATA controller (no raid). I have a couple of Western Digital raptor hard drives on there and I'm getting some odd problems. If I enable more than a couple of primary paritions, two of the extented partitions will register as md devices (even though I have not configured RAID) when I boot after the install.
+2005-06-15T08:21:00.000Z	kanzen		err... there should have beena question mark there somewhere
+2005-06-15T08:23:00.000Z	kestas	kanzen	hmmmmmm.. only extended partitions have this problem?
+2005-06-15T08:24:00.000Z	kanzen	kestas	it appears to be the case. I am getting another odd thing happening:

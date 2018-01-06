@@ -1,0 +1,4 @@
+2012-01-08T05:40:00.000Z	john_doe_jr		I'd like to make the current Google Chrome in Windows be able to play mp4s...I realize that chrome is using avcodec-52.dll found @ C:\Documents and Settings\Owner\Local Settings\Application Data\Google\Chrome\Application\16.0.912.75 ...I've tried to drop in previous dlls avcodec.dll files into that folder but I'm not having any luck...any ideas why this isn't working?
+2012-01-08T05:41:00.000Z	zykotick9	john_doe_jr	##windows is probably the channel you're looking for
+2012-02-14T00:00:00.000Z	zykotick9	john_doe_jr	you could try "sudo dpkg -i *.deb" but dpkg dosen't consider order, so that might fail.
+2012-02-14T00:00:00.000Z	john_doe_jr	zykotick9	thanks!

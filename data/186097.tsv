@@ -1,0 +1,4 @@
+2006-05-16T12:52:00.000Z	mabus		Can somebody help me setup mu sshd so it's run on port 21 (I know, generally ftp) and people can connect to it? I have it on port 21 but I get this error when I connect.
+2006-05-16T12:52:00.000Z	mabus		http://pastebin.ca/55170
+2006-05-16T12:53:00.000Z	crazy_penguin	mabus	: write in /etc/sshd_conf the following line
+2006-05-16T12:53:00.000Z	crazy_penguin	mabus	: Port 22

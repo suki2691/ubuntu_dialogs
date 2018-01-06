@@ -1,0 +1,4 @@
+2007-03-16T09:06:00.000Z	RiianF		hey could  anyone maybe help me? my display went black after 20 minutes like in screensaver mode. but i deactivated my screensaver in XFCE and it is pretty annoying to move the mouse every time i watch movie. :-(
+2007-03-16T09:06:00.000Z	dyrne	RiianF	ps -A | grep xscreensaver   is it still running?
+2007-03-16T09:07:00.000Z	dyrne	RiianF	if so run xscreensaver-demo and goto advanced and edit the power savings settings or just pkill screensaver
+2007-03-16T09:07:00.000Z	dyrne	RiianF	er pkill xscreensaver

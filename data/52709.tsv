@@ -1,0 +1,4 @@
+2009-07-12T08:19:00.000Z	cxamer		I have a hdd that was in a ubuntu system, I recently did a fresh install with the drive I wanted to save out of the system, I just hooked the drive back up .. How do i find it / mount it ? I am running Jaunty Minimal.
+2009-07-12T08:19:00.000Z	jwjza	cxamer	it should be a /dev/sdX device
+2009-07-12T08:21:00.000Z	cxamer	jwjza	I have alot of /dev/sdx showing up I cant figure out which one is the new drive that I want to mount, THere is sda sda1 sdb sdb1 sdb2 sdb5 sdc sdd sde sdf
+2009-07-12T08:22:00.000Z	jwjza	cxamer	it's going to be trial and error then. look in your /etc/fstab to find out which drive ubuntu is already installed on and work from there

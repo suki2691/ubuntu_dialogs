@@ -1,0 +1,4 @@
+2008-04-29T12:03:00.000Z	amrik		help! someone is repeatedly trying to log in as root! once every 2 seconds I see an error in auth.log
+2008-04-29T12:04:00.000Z	amrik		I know his IP address and it is not changing (its 210.59.226.33 and his source port is 54863)
+2008-04-29T12:05:00.000Z	amrik		also is there a way to blacklist all traffic from a given ip address?
+2008-04-29T12:05:00.000Z	tonyyarusso	amrik	fail2ban is worth a look as well.

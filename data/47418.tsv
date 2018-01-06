@@ -1,0 +1,4 @@
+2011-08-15T22:38:00.000Z	andresmh		what is the recommended ubuntu 10.10 repo to get the latest _stable_ version of FF? The default ubuntu repo still has FF 3.x, and others I've found have the bleeding edge versions.
+2011-08-15T22:38:00.000Z	theadmin	andresmh	ppa:mozilla-team/firefox-stable
+2011-08-15T22:38:00.000Z	theadmin	andresmh	Err, mozillateam, rather
+2011-08-15T22:39:00.000Z	theadmin	andresmh	sudo add-apt-repository ppa:mozillateam/firefox-stable && sudo apt-get update

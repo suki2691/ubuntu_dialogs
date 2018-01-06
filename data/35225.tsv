@@ -1,0 +1,4 @@
+2010-03-27T01:32:00.000Z	LinuxGuy2009		Linux_Titan:logout, CTL+ALT+F1 for TTY. /etc/init.d/gdm stop. then run it.
+2010-03-27T01:33:00.000Z	Linux_Titan	LinuxGuy2009	I have done that, I know that part well. The problem lies in the fact that despite my chmod -x command the file remains unexecutable
+2010-03-27T01:34:00.000Z	LinuxGuy2009	Linux_Titan	Go into gnome and check with right click properties to see if its set to executable. Double check thats all.
+2010-03-27T01:34:00.000Z	Linux_Titan	LinuxGuy2009	btw all of that can be done simply by opening a terminal window and typing "sudo stop gdm"

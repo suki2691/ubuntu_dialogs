@@ -1,0 +1,4 @@
+2006-04-12T07:59:00.000Z	juztin		is there a command i can give in console to unzip a whole directory of zip files at once?
+2006-04-12T08:01:00.000Z	freakabcd	juztin	i dunno. to be safe, i would use a loop: for i in *.zip; do unzip $i; done
+2006-04-12T08:02:00.000Z	freakabcd	juztin	did you see the loop i pasted?
+2006-04-12T08:03:00.000Z	juztin	freakabcd	yes, tried it....got errors like this : unzip:  cannot find or open Monsters, Monsters.zip or Monsters.ZIP.

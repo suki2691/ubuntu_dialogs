@@ -1,0 +1,4 @@
+2011-08-09T17:09:00.000Z	berkes	herkupus	won't killing mkfs.ext4 corrupt the disk beyond repair?
+2011-08-09T17:09:00.000Z	herkupus	berkes	why? mkfs is no low level format
+2011-08-09T17:09:00.000Z	herkupus	berkes	mkfs is just putting a filesystem on a block device
+2011-08-09T17:10:00.000Z	berkes	herkupus	yea. True. As long as you are not mkdfs-ing the disk where you are operating on, you can probably re-do it later again, Tophen.

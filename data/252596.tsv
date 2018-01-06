@@ -1,0 +1,4 @@
+2005-08-25T14:52:00.000Z	llpamies		I edited my grup's menu.lst, and now, when I do a dpkg-reconfigure linux-image...  It dont regenerate correctlt my menu.lst.  How can I tell dpkg to regenerate my menu.lst ?
+2005-08-25T14:52:00.000Z	llpamies		thanks
+2005-08-25T14:54:00.000Z	HappyFool	llpamies	what is it not doing? I think the command might be 'update-grub' -- I don't know if the dpkg-reconfigure will call that
+2005-08-25T14:59:00.000Z	llpamies	HappyFool	yes update-grub works fine

@@ -1,0 +1,4 @@
+2010-01-27T19:37:00.000Z	laughzilla		hi :) anyone familiar with fixing I/O errors on a data-storage hdd in ubuntu 9.04 ? i ran   e2fsck -f /dev/sdb2   on it a couple times ... but it keeps happening, i'm unable to save text files reliably in gedit. is it safe to do a Complete Removal and then Reinstall gedit using synaptic package manager?  something there says it will remove ubuntu-desktop to do that!?!
+2010-01-27T19:38:00.000Z	Moise	laughzilla	The more safest thing you can do is backing up your data and change your HDD ;)
+2010-01-27T19:41:00.000Z	Moise	laughzilla	try the following command: smartctl -a /dev/sda and pastebin it ;)
+2010-01-27T19:42:00.000Z	Moise	laughzilla	and if smartctl is not found, apt-get install smartmontools

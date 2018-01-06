@@ -1,0 +1,4 @@
+2007-03-31T09:04:00.000Z	eck	mycroftiv	why /etc/rc2.d ? all of the rc directories are important
+2007-03-31T09:05:00.000Z	mycroftiv	eck	thats true, but for the beginning to intermediate user, most of the services they are probably going to be installing or removing will be in rc2, I think
+2007-03-31T09:05:00.000Z	eck	mycroftiv	no, most of them are set to start throughout multiple runlevels -- e.g. the service is set to run in runlevels 3,4,5 so if you just turn it off in one it will come up in a later runlevel
+2007-03-31T09:06:00.000Z	mycroftiv	eck	yes, I know that, but most people dont change from default runlevel very much

@@ -1,0 +1,4 @@
+2010-03-06T20:01:00.000Z	steffan		hi. have a simple question regarding running irssi + screen via SSH. some characters (non-English alphabet) characters are being replaced with a quetion mark instead of their actual character. is this a screen issue?
+2010-03-06T20:03:00.000Z	miha	steffan	that's encoding issue. try setting *everything* to UTF-8
+2010-03-06T20:04:00.000Z	steffan	miha	greezmunkey: thank you
+2010-03-06T20:07:00.000Z	miha	steffan	well it's same thing with mysql. if you use latin1 you will lose eastern european letters, if you use latin2 you will use lovely scandinavic accents.. utf8 has it all, plus most of chinese :D

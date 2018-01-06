@@ -1,0 +1,4 @@
+2007-10-07T09:42:00.000Z	logan		When I click shutdown, ubuntu unloads but after its done it, it goes back to my bios, grub loads, and ubuntu comes back on.
+2007-10-07T09:44:00.000Z	logan		Can somebody help me please? I have two problems which I've asked about multiple times with no responses
+2007-10-07T09:46:00.000Z	danich	logan	it's your BIOS. I've had this with Windows systems as well. check the acpi section. IIRC, I fixed it by setting the Power Off option to "Off" instead of "Last State"
+2007-10-07T09:55:00.000Z	danich	logan	mentioned it before, maybe you missed it... check the BIOS ACPI setting for behavior after power failure. Set it to "Off"

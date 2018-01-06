@@ -1,0 +1,4 @@
+2006-01-01T10:34:00.000Z	EricCartman		come on ? no idea how to find out what's wrong with a preinst script of a deb pacage ?
+2006-01-01T10:36:00.000Z	nalioth	EricCartman	it's probably a bad script in the pkg. what pkg is it?
+2006-01-01T10:37:00.000Z	nalioth	EricCartman	ah, now i see.
+2006-01-01T10:37:00.000Z	nalioth	EricCartman	you'll need to downgrade all the depends, too, i think

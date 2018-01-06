@@ -1,0 +1,4 @@
+2008-05-16T19:15:00.000Z	ziod		why am I getting a 'mount error: could not find target server' when I attempt a cifs mount of a directory on my win32 machine?  I can access the directory fine through network places and it shows up fine when I do a smbclient -L listing of shared directories.  I've followed the directions at https://wiki.ubuntu.com/ComprehensiveSambaGuide?highlight=(samba).  Help!
+2008-05-16T19:16:00.000Z	MrHeavy	ziod	What's the command you're entering?
+2008-05-16T19:17:00.000Z	MrHeavy	ziod	Does it work if you try to mount a share without a space in it, like c$?
+2008-05-16T19:19:00.000Z	MrHeavy	ziod	Does your password contain any special characters like $ that might be freaking out the shell?

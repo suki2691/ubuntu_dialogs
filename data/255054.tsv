@@ -1,0 +1,4 @@
+2006-07-05T10:04:00.000Z	Ares		Hello. I have, yet, another Terminal question which I don't understand from LinuxCommand. How do I go about giving everything in a directory r/w/e access to owner? Including all of its sub-directories and files? Would it be the recursive command? If so, I don't get how to use it. =( [Pleaase?] 
+2006-07-05T10:05:00.000Z	FunnyHat	Ares	chmod 777 -R /path/to/dir
+2006-07-05T10:05:00.000Z	FunnyHat	Ares	yea, is that wahat you wanted?
+2006-07-05T10:06:00.000Z	FunnyHat	Ares	Yea do what he said.  use 744 or 700

@@ -1,0 +1,4 @@
+2010-08-12T07:08:00.000Z	reggi		hello people: I am trying to setup ICS from my vodafone 3G broadband from my laptop (gateway) to share using an 8 port switch. I am following the instructions on www.howtoforge.com. After saving my settings and running '/etc/init.d/dhcp3-server restart' I see a couple of red colored 'fail'. When I run 'tail -n 100 /var/log/syslog' I get the following output http://paste.ubuntu.com/476702/ 
+2010-08-12T07:08:00.000Z	reggi		It looks like there is a conflict with dhcp settings from when I tried to setup firestarter. Is there a way to clear everything related and start again? Thanks for your help.
+2010-08-12T07:09:00.000Z	peepingtom	reggi	Have you tried the tutorial in ubuntu wiki? it uses network-manager and is normally pretty easy
+2010-08-12T07:10:00.000Z	peepingtom	reggi	https://help.ubuntu.com/community/Internet/ConnectionSharing Try the network-manager method if you're using Ubuntu Desktop

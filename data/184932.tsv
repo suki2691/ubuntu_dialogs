@@ -1,0 +1,4 @@
+2011-06-15T04:59:00.000Z	Guest9617		Can anyone help me with mdadm
+2011-06-15T05:00:00.000Z	Guest9617		i trying to fix my RAID6, all drives are alive and working  but mdadm keep saying he cant mount the RAID with 3 drives(while there is 6)
+2011-06-15T05:00:00.000Z	Guest9617		assemble*
+2011-06-15T05:00:00.000Z	Corey	Guest9617	cat /proc/mdstats if memory serves it may be useful.

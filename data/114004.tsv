@@ -1,0 +1,4 @@
+2010-01-17T19:49:00.000Z	diddy		so: egrep -v (^ | applicable$) /home/myfile.txt > newfile.txt will remove all lines that begin with a space or start with the word applicable?
+2010-01-17T19:50:00.000Z	kwtm	diddy	in case you didn't notice my message to llutz: I think you want "(^ |^pattern)" instead of "(^ |pattern$)".
+2010-01-17T19:50:00.000Z	diddy	kwtm	so: egrep -v (^ |^applicable) /home/myfile.txt > newfile.txt will remove all lines that begin with a space or start with the word applicable?
+2010-01-17T19:51:00.000Z	kwtm	diddy	so it should be "grep -e -v '^( |pattern)' inputfile >outputfile".  Yes, you are right.  "egrep" is the old way of saying "grep -e".

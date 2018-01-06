@@ -1,0 +1,4 @@
+2010-02-26T12:33:00.000Z	pog		I installed evolutin on a new installation and copied .evolution to the home directory. Why evolution doesn't seem to take the date and the init dialog comes up?
+2010-02-26T12:34:00.000Z	pog		in other word how I can migrate an evolution installation?
+2010-02-26T12:35:00.000Z	koltroll	pog	make sure your .evolution-folder has the right privileges - other than that I really don't know. Sounds like it should work fine. it did for me.
+2010-02-26T12:36:00.000Z	koltroll	pog	chown -R <username> <folder>

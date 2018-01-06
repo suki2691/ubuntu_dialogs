@@ -1,0 +1,4 @@
+2012-08-06T13:23:00.000Z	Anomie21		Is there a way to include your root password in the line you type 'sudo' so it doesnt prompt you for a pw?
+2012-08-06T13:24:00.000Z	Lorra	Anomie21	if you wish you can do multiple commands as root by executing «sudo su»
+2012-08-06T13:24:00.000Z	Anomie21	gvo	Not sure what that means? I'm trying to get a command to run at a scheduled time. But the command I'm using sudo apt-get update --yes && apt-get upgrade --yes requires a password prompt to continue (which I wont be around for)
+2012-08-06T13:25:00.000Z	Lorra	Anomie21	you can become root with sudo su and then set cron appropriately

@@ -1,0 +1,4 @@
+2005-09-30T09:42:00.000Z	clyrrad		 anyone have any idea why i cant extract linux-source2.6.11.tar.bz2 I get Archive contains obsolescent base-64 headers and then bzip2: Data integrity error when decompressing.  I have tried to re-download the sources from kernel.org with the same results, anad help is appreciated
+2005-09-30T09:44:00.000Z	Trewas	clyrrad	did you use the correct option with tar for bzip2 decompression? (tar jxvf blah.tar.bz2)
+2005-09-30T09:44:00.000Z	clyrrad	Trewas	yes I tried that way and by using tar --bzip2 -xvf.... they both give the same error
+2005-09-30T09:45:00.000Z	Trewas	clyrrad	ok, then its something else... I have just seen that same error when fumbling with tar options :)

@@ -1,0 +1,4 @@
+2007-02-01T11:14:00.000Z	LjL	sdac221x	files from packages can get installed in many different places. "dpkg -L packagename" will list the files that belong to a given package, and "dpkg -S filename" will tell which package contains a given file
+2007-02-01T11:15:00.000Z	sdac221x	LjL	 ok thanks
+2007-02-01T11:40:00.000Z	sdac221x	LjL	 one more question please... i installed java 1.5 jdk through automatix.  it isnt in /usr/lib/ or /usr/bin.   how can i find out if i don't have the package name in this case ?   (i need the install path so i can set the JAVA_HOME path)
+2007-02-01T11:41:00.000Z	LjL	sdac221x	the package name is probably sun-java5-jdk

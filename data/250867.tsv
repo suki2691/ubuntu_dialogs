@@ -1,0 +1,4 @@
+2006-07-03T13:18:00.000Z	Acill		bah, this damn partition still tells me its read only, and I didnt do anything to it! I type mount /dev/hda1 /mnt -o rw and it mounts, but not as rw!
+2006-07-03T13:18:00.000Z	Acill		anyone know something I can do to solve this issue?
+2006-07-03T13:18:00.000Z	Upayavira	Acill	Have you tried fsck on that partition?
+2006-07-03T13:19:00.000Z	Upayavira	Acill	try man fsck

@@ -1,0 +1,4 @@
+2012-04-21T22:19:00.000Z	robde_		hello, somehow the <<END … END syntax does not work in shell scripts :/
+2012-04-21T22:20:00.000Z	robde_		only if I put it like that: my_result=`mycommand<<END … END`
+2012-04-21T22:20:00.000Z	mirko2	robde_	pastebin your script
+2012-04-21T22:23:00.000Z	mirko2	robde_	 from man bash: Here Documents - This type of redirection instructs the shell to read input from the current source until a line containing only delimiter (with no trailing blanks) is seen.

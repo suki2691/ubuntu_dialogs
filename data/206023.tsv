@@ -1,0 +1,4 @@
+2011-08-01T11:46:00.000Z	blizzkid		Hi all, I have an udev rule: ACTION=="add", SYSFS{model}=="RD1000", NAME="RD1000%n" Now, when I insert the first RD1000 (internal), it becomes /dev/RD10001, I then insert the second RD1000 (usb), and it becomes... /dev/RD10001, while I was presuming the %n would make it RD10002. What am I grossly overlooking?
+2011-08-01T11:47:00.000Z	dr_willis	blizzkid	 %n is null for the first time. thus blank. perhaps
+2011-08-01T11:48:00.000Z	dr_willis	blizzkid	 then is 1 in 2nd case
+2011-08-01T11:48:00.000Z	blizzkid	dr_willis	nopes, only one RD1000 in /dev with 2 drives inserted, being RD10001

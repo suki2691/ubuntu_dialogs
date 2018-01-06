@@ -1,0 +1,4 @@
+2007-08-15T15:53:00.000Z	astro76	alfaro	install the gsynaptic package
+2007-08-15T15:54:00.000Z	astro76	alfaro	no it will just install a preferences app for the touchpad
+2007-08-15T15:54:00.000Z	astro76	alfaro	one line will need to be added to xorg.conf to enable it, also
+2007-08-15T15:55:00.000Z	astro76	alfaro	in the InputDevice section for the touchpad, add the line:  Option  "SHMConfig"  "true"

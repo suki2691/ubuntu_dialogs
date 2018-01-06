@@ -1,0 +1,4 @@
+2009-11-30T08:52:00.000Z	kb9vqf		Anyone else noticed long-term NFS instability in Karmic?
+2009-11-30T08:52:00.000Z	kb9vqf		Usually ending with a frozen filesystem and the process accessing the disk, but sometimes even a kernel freeze (not panic, oddly enough)?
+2009-11-30T08:53:00.000Z	epinky	kb9vqf	RPC sometimes freezes :) , not a Karmic issue
+2009-11-30T08:54:00.000Z	kb9vqf	epinky	I've had the whole box go down, just the networkging go down, even X freeze.  It's always when moving lots of data over NFS, and it always requires both machines to be restarted

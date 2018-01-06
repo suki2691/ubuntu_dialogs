@@ -1,0 +1,4 @@
+2011-06-16T02:35:00.000Z	Metroshica		thank you
+2011-06-16T02:37:00.000Z	keithb	Metroshica	add the command to /etc/rc.local, you won't need the sudo as it runs as root on startup
+2011-06-16T02:37:00.000Z	Metroshica	keithb	and that's the answer I was looking for, thanks a ton
+2011-06-16T03:10:00.000Z	keithb	Metroshica	probably because sudo can't authenticate when run automatically

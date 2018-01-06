@@ -1,0 +1,4 @@
+2006-04-28T15:30:00.000Z	Boglizk		How do i change permissions on the .sh file from Terminal?
+2006-04-28T15:31:00.000Z	engla	Boglizk	normally it's "chmod +x file.sh" to add the executable "bit" to the file's permissions
+2006-04-28T15:31:00.000Z	Boglizk	engla	Thanks!
+2006-04-28T15:32:00.000Z	engla	Boglizk	+r and +w for read and write. You can also set absolute permissions, or perms for just the owner (like 'u=rwx go=r')

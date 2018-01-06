@@ -1,0 +1,4 @@
+2006-10-13T09:44:00.000Z	fourat		what's the equivalent of debian's debootstrap command on ubuntu ? or how to use it with ubuntu ?
+2006-10-13T09:45:00.000Z	mcdonaldswes	fourat	it should be the same, I believe, but you need to specify a different suite if you want to make a ubuntu chroot
+2006-10-13T09:48:00.000Z	fourat	mcdonaldswes	how to define a different suite ?
+2006-10-13T09:49:00.000Z	mcdonaldswes	fourat	I think they're predefined.. so you can do something like "debootstrap dapper dir_to_put_dapper_chroot"

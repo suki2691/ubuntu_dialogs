@@ -1,0 +1,4 @@
+2008-03-23T15:54:00.000Z	KalEl		when i do 'lshal | grep can_suspend' i see that it is set to false; it is not due to gpm, as 'gconftool-2 -R /apps/gnome-power-manager' shows can_suspend is set to true
+2008-03-23T15:54:00.000Z	KalEl		is there any other reason HAL won't support suspend?
+2008-03-23T15:56:00.000Z	Frogzoo	KalEl	you've the right settings in /etc/default/acpi-support ?
+2008-03-23T16:00:00.000Z	KalEl	Frogzoo	seems ok

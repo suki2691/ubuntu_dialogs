@@ -1,0 +1,4 @@
+2009-05-05T12:10:00.000Z	nmvictor		Hey out their,is their a way I can resize the size of my swap,maybe increasing it
+2009-05-05T12:10:00.000Z	mzz	nmvictor	I'd add a swapfile if this is a temporary thing
+2009-05-05T12:13:00.000Z	mzz	nmvictor	from memory: dd if=/dev/zero of=/some/partition/with/enough/space/swapfile bs=1M count=512 (for 512 MiB of swap), then "swapon /path/to/that/file". When done with the swap: swapoff /path/to/that/file, then rm the file
+2009-05-10T23:21:00.000Z	mzz	nmvictor	perhaps he's a really good actor and already spying on his wireless and therefore does know!@

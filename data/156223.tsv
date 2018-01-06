@@ -1,0 +1,4 @@
+2008-11-25T19:52:00.000Z	jeancalvin		i need to do a su command (and not sudo). But since I never run su, i don't remember my su password. how can i find out my su password?
+2008-11-25T19:54:00.000Z	jeancalvin		Ljl, i just did sudo bash and it worked
+2008-11-25T19:54:00.000Z	jeancalvin		sudo -i is the same as sudo bash, ljl?
+2008-11-25T19:54:00.000Z	genii	jeancalvin	echo 0 | sudo tee -a /proc/sys/net/ipv4/tcp_window_scaling

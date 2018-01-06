@@ -1,0 +1,4 @@
+2009-06-10T19:34:00.000Z	TDT		is there a way to downgrade an installation of something on ubuntu? I tried going to the packages.ubuntu.com to grab them manually, but it's down, is there a better way through apt-get?
+2009-06-10T19:34:00.000Z	frostburn	TDT	yes, you'll have to add the repository and force version
+2009-06-10T19:36:00.000Z	TDT	frostburn	I'm not familiar with doing that, say I wanted the most recent openssh-client/server before the newest one, what would I have to do?
+2009-06-10T19:40:00.000Z	frostburn	TDT	Synaptic > Settings > Repositories > third party software.  Then once you search for sshd, you'll find older versions, you can then right click force version...  I haven't personally done this before.  Usually if I need a specific version of something I'll just get the deb/source and compile it

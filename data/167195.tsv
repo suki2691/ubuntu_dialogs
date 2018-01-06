@@ -1,0 +1,4 @@
+2006-09-20T15:21:00.000Z	Squatch		I was just looking at that issue Drumline, and Reiserfs seems to be pretty mature, it's just that it's optimized for extremely small files (with an efficiency gain of about 10-15 times according to wikipedia)...  So unless you really need it, don't worry about it.
+2006-09-20T15:22:00.000Z	Empty	Squatch	it's a LOT faster if you are dealing with tons of small files
+2006-09-20T15:22:00.000Z	Empty	Squatch	I run qmail queues on Reiser and they totally haul ass
+2006-09-20T15:23:00.000Z	Squatch	Empty	I'll bet, it seems to be optimized for files under 4K.

@@ -1,0 +1,4 @@
+2007-11-25T15:41:00.000Z	Jaymac		because i don't have control over the network
+2007-11-25T15:41:00.000Z	Jaymac		i just want to share files between my laptop and my pc... both of which use dhcp
+2007-11-25T15:42:00.000Z	ephemient	Jaymac	by hsotname works, as long as name resolution is working at the time the mount is processed
+2007-11-25T15:43:00.000Z	ephemient	Jaymac	put _netdev in the options field of the fstab line for the mount, and it won't be mounted until after the network is brought up

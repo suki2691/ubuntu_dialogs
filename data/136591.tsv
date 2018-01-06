@@ -1,0 +1,4 @@
+2008-07-26T23:43:00.000Z	esteth		When trying to install a program from source that is unavailible in the ubuntu repository, I get an error saying "no package 'libxml-2.0' found". I have the libxml2 package, so I'm not sure what could be generating the error, other than the name discrepancy.
+2008-07-26T23:43:00.000Z	kenkku	esteth	wien compiling from source, you generally need the -dev packages also. so try libxml2-dev
+2008-07-26T23:44:00.000Z	esteth	kenkku	Aha, fixed. Thanks :)
+2008-07-26T23:44:00.000Z	kenkku	esteth	no problem

@@ -1,0 +1,4 @@
+2010-07-28T21:15:00.000Z	n00b_		i tried fsck but it didnt work. i also tried e2fsck -b 8193 <device> but it regularly says the same message
+2010-07-28T21:17:00.000Z	n00b_		i tried fsck but it didnt work. i also tried e2fsck -b 8193 <device> but it regularly says the same message
+2010-07-28T21:18:00.000Z	n00b_		to try e2fsck -b 8193 <device>
+2010-07-28T21:19:00.000Z	ZykoticK9	n00b_	an I/O error may indicate a failing drive.  In a terminal type "dmesg" and see if your kernel is see lots of I/O errors.  Best of luck, and i agree with Dr_Willis backup statement above.

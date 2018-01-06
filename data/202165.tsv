@@ -1,0 +1,4 @@
+2010-03-06T21:58:00.000Z	guest1		Can someone tell me what the command "sudo dpkg --configure -a" does?
+2010-03-06T21:58:00.000Z	IdleOne	guest1	it configures -all the packages that need to be
+2010-03-06T21:59:00.000Z	guest1	IdleOne	Is this a way to get packages to their original settings?
+2010-03-06T22:00:00.000Z	IdleOne	guest1	sometimes for one reason or another a package might not get "installed" properly that command will continue/complete the install --reconfigure I believe will set it back to defaults but don't quote me on that

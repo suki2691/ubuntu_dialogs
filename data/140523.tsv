@@ -1,0 +1,4 @@
+2008-11-24T19:34:00.000Z	UnknownUser56		After installing ubuntu ( 8.10 ) from the live CD grub is not loading ,but it is installed under /boot .I used the live cd with the help of wubi setting up the booting process ,now whenever I remove the the installation,the boot menu to chose from which OS to boot does not appear ( because Windows is only detected ) .Anywho my question is how do I make it so that I am dropped to a grub console first ?
+2008-11-24T19:35:00.000Z	Jafet	UnknownUser56	tried reinstalling grub manually using grub-install?
+2008-11-24T19:35:00.000Z	Jafet	UnknownUser56	it would seem that the MBR still has the Windows bootloader in it.
+2008-11-24T19:38:00.000Z	Jafet	UnknownUser56	I imagine you would use grub-install to actually put grub in the MBR.

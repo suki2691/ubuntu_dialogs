@@ -1,0 +1,4 @@
+2009-06-29T07:26:00.000Z	snowy		hi. is there any program that I can use to see what connections are made by the programs I am running?
+2009-06-29T07:26:00.000Z	rww	snowy	wireshark, tcpdump, netstat, probably others
+2009-06-29T07:30:00.000Z	snowy	rww	netstat doesnt say which program made the connection, do wireshark and tcpdump?
+2009-06-29T07:31:00.000Z	rww	snowy	Not sure. The only time I've needed to filter by program name was when figuring out what was using all my bandwidth, and I used the "nethogs" program for that.

@@ -1,0 +1,4 @@
+2009-02-28T08:27:00.000Z	azlon_		can anybody help with this? ryan@mini-me:~$ sudo dd if=/dev/sda1 of=/dev/sdb1/sda1.bin
+2009-02-28T08:27:00.000Z	azlon_		dd: opening `/dev/sdb1/sda1.bin': Not a directory
+2009-02-28T08:28:00.000Z	azlon_		should i create the bin file first?
+2009-02-28T08:28:00.000Z	unop	azlon_	you cannot write to /dev/sdb1/ like that directly

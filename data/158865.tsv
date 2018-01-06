@@ -1,0 +1,4 @@
+2007-09-26T12:59:00.000Z	Esteth		I killed the .deb installer half way through doing something and now things are all messed up with package managers. How can i fix the problem?
+2007-09-26T12:59:00.000Z	majnoon	Esteth	try apt-get -f install
+2007-09-26T13:01:00.000Z	Esteth	majnoon	I get an error saying "the package secondlife-install needs to be reinstalled, but I can't find an archive for it." I have a .deb from getdeb, but all i want to do is remove the package from my computer :S
+2007-09-26T13:07:00.000Z	majnoon	Esteth	try apt-get remove <package>

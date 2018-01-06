@@ -1,0 +1,4 @@
+2004-11-20T13:58:00.000Z	Challange		root@Johny:/home/challange # apt-get install bluez-utils
+2004-11-20T13:58:00.000Z	Challange		E: Could not get lock /var/lib/dpkg/lock - open (11 Erforrs ideiglenesen elrhetetlen)
+2004-11-20T13:58:00.000Z	Challange		E: Unable to lock the administration directory (/var/lib/dpkg/), is another process using it?
+2004-11-20T13:58:00.000Z	daku	Challange	you need to be either root or you have another apt-get; dpkg -i process running

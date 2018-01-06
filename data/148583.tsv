@@ -1,0 +1,4 @@
+2007-02-07T17:46:00.000Z	whonicca		question, im using ntfs-3g, when i delete files on my ntfs drive they go into a folder called .trash-user, i was wondering, how can i link this to my desktops trash can and have it so when i select empty trash can it deletes stuff on both drives
+2007-02-07T17:46:00.000Z	variant	whonicca	ln -s
+2007-02-07T17:47:00.000Z	variant	whonicca	ln -s source desitnation
+2007-02-07T17:48:00.000Z	whonicca	variant	but when i select to empty trash can, it only empties stuff on my nix drive, not my ntfs since its only links

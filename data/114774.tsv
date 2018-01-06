@@ -1,0 +1,4 @@
+2007-10-31T03:53:00.000Z	b1n42y		does anyone know where wine gets installed to ?
+2007-10-31T03:53:00.000Z	LjL	b1n42y	dpkg -L wine
+2007-10-31T03:54:00.000Z	b1n42y	LjL	thanks
+2009-03-03T04:40:00.000Z	LjL	b1n42y	there's nothing in Ubuntu that takes care of that (except at boot time), though you'll find that the kernel ends up doing a lot of pseudo-preloading itself by advance caching

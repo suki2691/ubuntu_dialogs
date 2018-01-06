@@ -1,0 +1,4 @@
+2007-05-24T09:29:00.000Z	techjim		Quick q:  when I remove a package, sometimes a list comes up listing packages that were installed and no longer needed.  How does ubuntu tell? Dependencies?  Is it wise to autoremove?
+2007-05-24T09:30:00.000Z	techjim		defrysk; dr_willis: it seems like a good idea but their are like 20 progs that came with screenlets.  I guess it's safe.
+2007-05-24T09:30:00.000Z	LjL	techjim	defrysk it's packages that were no installed *explicitly* by the user, but were installed automatically because they were dependencies of something else; and now there is nothing installed anymore that depends on them
+2007-05-24T09:32:00.000Z	techjim	LjL	Thanks for clarification.  I had that assumption, I just wasn't sure how wise it was to uninstall.  Thanks

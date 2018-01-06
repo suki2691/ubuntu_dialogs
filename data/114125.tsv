@@ -1,0 +1,4 @@
+2010-04-19T07:43:00.000Z	David-A	rafaelsoaresbr	then there must be a boot loader at the beginning of the disk (mbr) that chainloads into sda7.
+2010-04-19T07:44:00.000Z	rafaelsoaresbr	David-A	yes, I have installed GAG, a boot manager, windows xp and 7 are already installed and booting
+2010-04-19T07:47:00.000Z	David-A	rafaelsoaresbr	do you mean that the boot starts with mbr on sdb (hd1)? and that it shall chainload into sda7 (hd0,6or7)?
+2010-04-19T07:50:00.000Z	rafaelsoaresbr	David-A	All I know is that it loads the GRUB that is installed at /dev/sda7

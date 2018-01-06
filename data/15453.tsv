@@ -1,0 +1,4 @@
+2011-11-20T02:27:00.000Z	^jt		:( I give up, how do I redirect port 80 to 8080, e.g. http://localhost will be the same as http://localhost:8080
+2011-11-20T02:27:00.000Z	escott	^jt	its a bit unclear what you want to do here. what is the configuration
+2011-11-20T02:29:00.000Z	escott	^jt	so what makes you think non-root can redirect ports?
+2011-11-20T02:30:00.000Z	escott	^jt	make yourself a setuid apache restart script then

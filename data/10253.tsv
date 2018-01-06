@@ -1,0 +1,4 @@
+2011-08-20T23:32:00.000Z	polah_		In the 11.04 installer, how can I specify a mount point for a partition? I have an existing ext4 partition and when I attempt to define a mount point it doesn't let me type anything.
+2011-08-20T23:33:00.000Z	Dr_Willis	polah_	 if its not going to be a system type partition, i just edit the fstab after i boot the first time and add it to where it needs to go.
+2011-08-20T23:34:00.000Z	Dr_Willis		I recall setting my windows parittions to be in specific places also during the installer.
+2011-08-20T23:34:00.000Z	polah_	Dr_Willis	Yes, I remember doing it last time I installed, but now it only lets me choose predefined locations like /, /home and suchlike. I guess I'll just have to do it later in my fstab

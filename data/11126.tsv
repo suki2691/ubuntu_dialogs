@@ -1,0 +1,4 @@
+2011-08-05T08:12:00.000Z	cjs_		I have a laptop that's currently dual-boot (10.04 and XP). I'd like to run my XP partition in a KVM instance; is there a way to do that? Setting the instance's block storage device to /dev/sda gets me a grub menu, but when I boot Windows from that it fails with "A disk read error occured. Press Ctrl-Alt-Del to restart."
+2011-08-05T08:12:00.000Z	cjs_		Or would this be better asked on the #kvm channel?
+2011-08-05T08:14:00.000Z	semi-afk	cjs_	i think KVM isn't for WINXP
+2011-08-05T08:15:00.000Z	cjs_	semi-afk	What do you mean? It's a hardware-emulating VM: it should run anything.

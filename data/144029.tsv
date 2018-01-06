@@ -1,0 +1,4 @@
+2007-06-12T09:45:00.000Z	eggs		does anyone know the du -h | grep command to only find big files ?
+2007-06-12T09:45:00.000Z	reanjr	eggs	over what size?
+2007-06-12T09:48:00.000Z	reanjr	eggs	you could use du -h | grep "^[0-9] [0-9] [0-9] M" followed by du -h | grep "^...G"  probably a better way but that would work
+2007-06-12T09:50:00.000Z	reanjr	eggs	actually that second part is wrong: ... | grep "^[^ ] G"

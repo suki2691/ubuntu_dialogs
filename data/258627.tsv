@@ -1,0 +1,4 @@
+2005-02-09T16:31:00.000Z	Ecio		hi all, i've installed hoary but cant get to install gstreamer0.8-mad (yes, i added universe to apt sources). any idea? i got a msg about libid3tag0 and libmad0 not installable
+2005-02-09T16:32:00.000Z	Ecio		gstreamer0.8-mad depends on libid3tag0 (>=0.15.0b) but not installable (that's the rough translation, the msg is in italian)
+2005-02-09T16:33:00.000Z	brc_	Ecio	apt-get install libid3tag0
+2005-02-09T16:36:00.000Z	brc_	Ecio	if you can't find any info on a repository that has it, but you find a .deb file, you can just install it manually

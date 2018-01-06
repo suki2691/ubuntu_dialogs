@@ -1,0 +1,4 @@
+2008-05-07T10:17:00.000Z	sriramoman		how do i prevent network applet enable/disable from overriding ifconfig (eth0 down)?
+2008-05-07T10:18:00.000Z	nickrud	sriramoman	I used to disable it by turning off the applet in system->prefs->session
+2008-05-07T10:19:00.000Z	sriramoman	nickrud	basically i want other users(whose passwords i dont know) also to avoid internet usage.
+2008-05-07T10:22:00.000Z	nickrud	sriramoman	hm. iirc if you set up a network stanza in interfaces, networkmanager will ignore that connection; don't set it as auto and if/up it down?

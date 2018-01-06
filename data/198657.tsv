@@ -1,0 +1,4 @@
+2006-08-29T15:40:00.000Z	larsemil		what could be wrong when the swedish keyboardlayout is working, but not the swedish characters?
+2006-08-29T15:41:00.000Z	Samuli^	larsemil	character set probably. Do they look fine to you, but crap to everyone else?
+2006-08-29T15:42:00.000Z	larsemil	Samuli^	nothing happens as i press the buttons.
+2006-08-29T15:45:00.000Z	Samuli^	larsemil	then it's your xorg.conf me thinks. It has not been configured to use the extra buttons. Try: cat /etc/X11/xorg.conf | grep XkbModel

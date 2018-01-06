@@ -1,0 +1,4 @@
+2004-10-18T07:24:00.000Z	avar		well assuming i want to change the entire system to mainline debian of course.
+2004-10-18T07:24:00.000Z	avar		I mean can one change an ubuntu install to a debian one,
+2004-10-18T07:24:00.000Z	avar		hmm..
+2004-10-18T07:25:00.000Z	jgeorgeson	avar	the problem is packages of the same name and version in different repositories, apt doesn't handle it well. if you enable the universe repo you will get most of the debian testing archive (i think testing is the right one)

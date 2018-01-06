@@ -1,0 +1,4 @@
+2009-10-31T14:30:00.000Z	mathew		how do I execute this command automatically every time my system boots? modprobe usbserial vendor=0x05c6 product=0x6539
+2009-10-31T14:32:00.000Z	erUSUL	mathew	no need to do that edit /etc/modprobe.d/usb_serial_opt.conf file and add a line that says « options usbserial vendor=0x05c6 product=0x6539 »
+2009-10-31T14:32:00.000Z	erUSUL	mathew	the file can have the name you want
+2009-10-31T14:32:00.000Z	erUSUL	mathew	but it has to end in .conf :)

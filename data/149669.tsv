@@ -1,0 +1,4 @@
+2009-10-30T19:40:00.000Z	sin7ax		Q: In Karmic I have mounted windows shares through double clicking them in nautilus
+2009-10-30T19:40:00.000Z	sin7ax		but my /mnt folder is empty??
+2009-10-30T19:41:00.000Z	sin7ax		how do i mount the smb/win share so i can access it through the cli?
+2009-10-30T19:41:00.000Z	Pici	sin7ax	It mounts them using gvfs, so you'd need to look in ~/.gvfs

@@ -1,0 +1,4 @@
+2008-07-28T03:22:00.000Z	mad		is there a way to have apt-get check dependinces and remove packages that are no longer needed but got pulled in by another package? ( note if apt-get is debian, sorry and ill hop over there)
+2008-07-28T03:22:00.000Z	ikonia	mad	autoremove is the option I think
+2008-07-28T03:23:00.000Z	mad	ikonia	autoremove is not anoption with apt-get there is autoclean but it just remove distfiles and not the installed packages i believe
+2008-07-28T03:24:00.000Z	ikonia	mad	autoremove should get rid of obsoulte package

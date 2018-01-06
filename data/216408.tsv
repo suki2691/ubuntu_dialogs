@@ -1,0 +1,4 @@
+2006-05-27T14:29:00.000Z	harvey		I have a wireless problem if anyone can help.  I'm on my wirelss connection now (after running ndiswrapper) but everytime I restart the wireless card isnt detected.  Any idea how to save the settings =/
+2006-05-27T14:30:00.000Z	twibbler	harvey	look at modprobe
+2006-05-27T14:30:00.000Z	harvey	twibbler	what am I looking for in modprobe exactly?
+2006-05-27T14:31:00.000Z	twibbler	harvey	when setup ndiswrapper driver you need to modprobe it to keep the driver setup[ for next log in.

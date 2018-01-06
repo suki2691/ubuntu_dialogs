@@ -1,0 +1,4 @@
+2005-04-03T10:20:00.000Z	appleseed		anyone know what -HUP means? in regards to killall -HUP
+2005-04-03T10:20:00.000Z	zooko	appleseed	different apps might interpret it differently
+2005-04-03T10:21:00.000Z	zooko	appleseed	some servers reread their config files and then restart, when they get HUP.
+2005-04-03T10:21:00.000Z	zooko	appleseed	lots of apps die when they receive it though.  ;-)

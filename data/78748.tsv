@@ -1,0 +1,4 @@
+2008-09-20T09:23:00.000Z	IntuitiveNipple	_PeteParker_	Can I be clear? The hang is during POST after a reboot, so the problem seems to be a result of an unclean device/controller shutdown by the driver
+2008-09-20T09:25:00.000Z	_PeteParker_	IntuitiveNipple	 i thinking that this is the problem, but i'm not sure, because it is just when i reboot
+2008-09-20T09:28:00.000Z	IntuitiveNipple	_PeteParker_	I'd suggest posting to the Hardware & Laptops forum with the output of lspci -nn and a copy of /var/log/dmesg - let people look at the configuration and think about it
+2008-09-20T09:28:00.000Z	_PeteParker_	IntuitiveNipple	it's a good ideia, thanks

@@ -1,0 +1,4 @@
+2009-04-24T19:26:00.000Z	abe3k		python
+2009-04-24T19:28:00.000Z	abe3k		hi guys, after upgrading my ubuntu to 9.04 my $PYTHONPATH got broken and I have to do "export PYTHONPATH=/usr/lib/python2.5/site-packages/" every time I restart my computer, how do I fix that ?
+2009-04-24T19:30:00.000Z	ripps	abe3k	Jaunty uses 2.6 now, but if you want to make that change perminent, just add the entire command to your ~/.bashrc
+2009-04-24T19:31:00.000Z	ripps	abe3k	You'll have to reboot for it to take effect

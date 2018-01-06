@@ -1,0 +1,4 @@
+2004-12-16T10:28:00.000Z	EugeneK		I'm trying to get suspend to ram working (Dell Inspiron 8200 laptop/Hoary). I downloaded the ACPI scripts at <http://www.ubuntulinux.org/wiki/SuspendHowto>, and I can successfully suspend with a lid close, although it yells at me about "orinoco_lock". When I wake up, though, I just get a blank screen. Do I need to unload some modules before suspending?
+2004-12-16T10:28:00.000Z	stuNNed	EugeneK	disable agp
+2004-12-16T10:31:00.000Z	stuNNed	EugeneK	install nvidia drivers then in device section of your x config put Option "NvAGP" "0" also you can blacklist the modules
+2004-12-16T10:39:00.000Z	stuNNed	EugeneK	what i did was blacklist them both, is there a third? , installed nvidia's propriatary drivers, then added that line to x config file, agp didn't get loaded and can suspend and wake on 8200

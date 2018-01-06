@@ -1,0 +1,4 @@
+2006-11-29T16:48:00.000Z	skimon		hello
+2006-11-29T16:49:00.000Z	skimon		i want to install nvidias drivers BUT when i hit CTRL + ALT + BACKSPACE X server restarts. how can i close him to install the grafic drivers?
+2006-11-29T16:49:00.000Z	bimberi	skimon	sudo invoke-rc.d gdm stop
+2006-11-29T16:50:00.000Z	bimberi	skimon	(assuming gdm is you display manager)

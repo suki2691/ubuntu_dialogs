@@ -1,0 +1,4 @@
+2009-11-17T10:10:00.000Z	cba123		If I need to move my install to another drive, could I simply "dd -if /dev/sda -of /dev/sdb" assuming sda was the original, and sdb was the new one?  sda is partitioned, and I want sdb to be an exact duplicate.
+2009-11-17T10:11:00.000Z	inveratulo	cba123	that will work, but i would specify a block size (like bs=4K) and after that i would also copy the MBR ('dd if=/dev/sda of=/dev/sdb bs=512 count=1)
+2009-11-17T10:13:00.000Z	inveratulo	cba123	so it would be 'dd if=/dev/sda of=/dev/sdb bs=4K' (this will run a LONG time as it writes ALL bits) and then the aforementioned dd command
+2009-11-17T10:14:00.000Z	cba123	inveratulo	I don't really need all the bits, just moving a myth to another drive.  Might be quicker to reinstall, all the data is on another drive anyways.

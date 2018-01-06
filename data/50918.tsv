@@ -1,0 +1,4 @@
+2010-04-13T07:38:00.000Z	dcider		how does one get 9.10 to recognize a mic?
+2010-04-13T07:40:00.000Z	darolu	dcider	make sure your mic is connected to the right port (mini jack input) and make sure is not muted; right click your sound icon and go to sound preferences to check it; you can also run "alsamixer" (no quotes) in a terminal
+2010-04-13T07:43:00.000Z	dcider	darolu	tried them all, doesnt see the mic, almost like i need drivers
+2010-04-13T07:44:00.000Z	darolu	dcider	if your mike is a regular one (not a usb one... if such thing exist) it should work; your sound card may not be configured or something (hardware-wise) is not right; have you tried that microphone somewhere else? make sure you are using the right channels (analog/digital)

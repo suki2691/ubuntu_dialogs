@@ -1,0 +1,4 @@
+2005-09-21T16:00:00.000Z	angryfix		haha, there is always a way in unix, but i'm just experienced enough. He's connecting via SSH...i there a way to limit him through just SSH?
+2005-09-21T16:01:00.000Z	crimsun	angryfix	why not just chmod 700 the top-level dir that you don't want him to have access to?
+2005-09-21T16:01:00.000Z	angryfix	crimsun	simple solution to the home folder, but I wanted to lock him out of everything,but his folder.
+2005-09-21T16:02:00.000Z	crimsun	angryfix	no, meant if he still needs access to ~angryfix, allow him that, but chmod 700 ~angryfix/private_stuff

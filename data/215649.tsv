@@ -1,0 +1,4 @@
+2006-05-06T16:53:00.000Z	Tallia1Kubuntu		hi there! how can i execute an application at boot, but not as root user but as user? furthermore it can't be used gnome or kde autostart
+2006-05-06T16:54:00.000Z	Tallia1Kubuntu		hi there! how can i execute an application at boot, but not as root user but as user? furthermore it can't be used gnome or kde autostart
+2006-05-06T16:54:00.000Z	soundray	Tallia1Kubuntu	don't repeat.
+2006-05-06T16:55:00.000Z	soundray	Tallia1Kubuntu	from /etc/init.d/bootmisc.sh call 'su - user program options'

@@ -1,0 +1,4 @@
+2006-10-14T15:25:00.000Z	JohnWang		ive got a small problem, I started gparted to resize my windows partition like I normally do, I unmouted it but it does not give me the option to resize
+2006-10-14T15:25:00.000Z	stefg	JohnWang	run a chkdsk in windows on it
+2006-10-14T15:28:00.000Z	JohnWang	stefg	I have only ever resised fat32 windows partitions, this one is ntfs, would that make a difference?
+2006-10-14T15:29:00.000Z	stefg	JohnWang	if gparted detects a possibly unclean filesystem it won't touch it

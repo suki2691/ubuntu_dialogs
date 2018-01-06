@@ -1,0 +1,4 @@
+2008-06-27T23:22:00.000Z	vlt		Hello. I try to `resize2fs /dev/hda1` which is an ext3 fs mounted on "/". But I get "resize2fs: Filesystem does not support online resizing" which doesn't match the man page's "the Linux 2.6 kernel supports on-line resize for filesystems mounted using ext3" very well. Any idea what to do?
+2008-06-27T23:24:00.000Z	ASULutzy	vlt	Even if it says it supports hot resizing, I'd feel much much much safer doing it from a live-cd
+2008-06-27T23:26:00.000Z	vlt	ASULutzy	I have no CD drive.
+2008-06-27T23:27:00.000Z	vlt	ASULutzy	I think I'll have to debootstrap and boot another installation ...

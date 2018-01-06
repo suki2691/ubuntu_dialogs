@@ -1,0 +1,4 @@
+2005-10-29T11:45:00.000Z	cyberlok		doea anyone know how I would tell some part of ubuntu to reinstall all packages that are installed on my machine... some guy thought he be smart and just delete a file or 2 and now packages are all wierd, but if I can get it to just go through the install proccess it would go through during an normal install I think it would resolve my issue
+2005-10-29T11:45:00.000Z	GigaClon	cyberlok	sudo apt-get -f install?
+2005-10-29T11:47:00.000Z	GigaClon	cyberlok	use synaptic it should show your broken packages
+2005-10-29T11:48:00.000Z	GigaClon	cyberlok	synaptic can show you all the installed packages

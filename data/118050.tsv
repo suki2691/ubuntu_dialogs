@@ -1,0 +1,4 @@
+2012-05-21T02:03:00.000Z	raidhtc		my wired router has disabled dhcp. i use static adressing. i tried putting 0.0.0.0 as gateway adress but it didnt work. if i assign blank , i cannot save it through GUI in ubuntu
+2012-05-21T02:05:00.000Z	yeats	raidhtc	you still need a gateway address...
+2012-05-21T02:05:00.000Z	raidhtc	terafl0ps	 thanks i will give it a try
+2012-05-21T02:06:00.000Z	yeats	raidhtc	no need for /etc/network/interfaces, just enter the IP of the router as the gateway

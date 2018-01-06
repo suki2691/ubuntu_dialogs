@@ -1,0 +1,4 @@
+2007-10-18T20:23:00.000Z	W9ZEB		how would I go about issuing the following at boot time?   cpufreq-set -d 800Mhz     cpufreq-set -u 1.8Ghz    cpufreq-set -g conservative
+2007-10-18T20:24:00.000Z	erUSUL	W9ZEB	use /etc/rc.local
+2007-10-18T20:24:00.000Z	W9ZEB	erUSUL	just add those three lines above exit 0
+2007-10-18T20:25:00.000Z	erUSUL	W9ZEB	yes and make the file executable (read the comments on the file)

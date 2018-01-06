@@ -1,0 +1,4 @@
+2006-12-24T09:16:00.000Z	AtticStorm		All, I have an issue upon upgrade to Edgy.  When it boots I get a "Signal Out of Range" error on boot.  Think the new light X server is using the wrong resolution.  Looked around but can not find the file to change.  Can anyone help?
+2006-12-24T09:18:00.000Z	cafuego_	AtticStorm	boot the recovery mode, then fix your X cfg.
+2006-12-24T09:19:00.000Z	AtticStorm	cafuego_	Do I run "X cfg" at the recovery root command line to start this up?
+2006-12-24T09:19:00.000Z	cafuego_	AtticStorm	'dpkg-reconfigure xserver-xorg'

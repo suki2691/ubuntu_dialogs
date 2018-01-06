@@ -1,0 +1,4 @@
+2007-06-26T06:22:00.000Z	thespy		so is there any way of keeping / backing up my settings and then restoring them once i've done a clean install of feisty?
+2007-06-26T06:23:00.000Z	persica	thespy	any of your user-specific settings should be in your home directory.  back that up, including all the hidden dot-files.
+2007-06-26T06:24:00.000Z	persica	thespy	Also you might want to get your package list so you can just toss that into an apt-get install to get all your packages back.
+2007-06-26T06:24:00.000Z	persica	thespy	use something like dpkg -l | awk '/^ii/ { print $2 }'

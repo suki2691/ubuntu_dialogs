@@ -1,0 +1,4 @@
+2007-08-31T07:02:00.000Z	UncleD		Any ubuntu mail server admins here, I have a few technical questions regarding 'bounces' for you.
+2007-08-31T07:02:00.000Z	MS_slayer	UncleD	wazzup
+2007-08-31T07:03:00.000Z	UncleD	MS_slayer	I have a ruby mailing daemon that uses postfix to send email. When I send one to "billybob@yoyo.com" and the MTA at yoyo.com decides to accept the mailing for the time being. 20 mins later it kicks back a 5.x.x error. There is no way for the mailer daemon to know the success of that mailing. And to throw another curveball, oftentimes when an MTA bounces the message you don't get an original copy of it
+2007-08-31T07:05:00.000Z	UncleD	MS_slayer	How can i effectively track bounces? Postfix appears to be really made to be more of a general purpose MTA

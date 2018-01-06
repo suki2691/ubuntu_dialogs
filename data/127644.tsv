@@ -1,0 +1,4 @@
+2007-07-19T11:24:00.000Z	sixfour		under screen resolution preferences, it only lists 1024x768, 800x600, and 640x480.  Any idea why it won't pick up 1280x768, I tried adding it in /etc/X11/xorg.conf and restarting but it still is not listed.
+2007-07-19T11:25:00.000Z	HEP85	sixfour	did you try "sudo dpkg-reconfigure xserver-xorg"? it configures xorg.conf automatically. there is also a page to select resolutions
+2007-07-19T11:26:00.000Z	HEP85		*well, rather interactively than automatically
+2007-07-19T11:27:00.000Z	sixfour	HEP85	the screen resolutions preferences page doesn't give me any other options that the ones i listed. I'll try the reconfigure util

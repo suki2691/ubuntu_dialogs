@@ -1,0 +1,4 @@
+2007-04-27T07:39:00.000Z	martin		How can I change xxxx part of the martin@xxxx:~$ in the terminal
+2007-04-27T07:40:00.000Z	martin		thank you
+2007-04-27T07:41:00.000Z	martin		change the whole host name yes
+2007-04-27T07:41:00.000Z	stefg	martin	/etc/hostname holds your , errr, hostname... make sure to edit /etc/hosts as well to the same hostname for 127.0.0.1 . reboot after you changed that

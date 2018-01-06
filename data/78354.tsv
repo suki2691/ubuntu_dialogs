@@ -1,0 +1,4 @@
+2010-05-21T23:20:00.000Z	jdpond		I need to do an upstart job to map IP addresses AFTER  network bridge.  Any hints on where  I  could look for documentation?
+2010-05-21T23:20:00.000Z	phlak_user	jdpond	like an ip-up script?
+2010-05-21T23:21:00.000Z	jdpond	phlak_user	rather like that - mapping IP addresses to bridged devices. It's trying to do it before the bridging completes.
+2010-05-21T23:22:00.000Z	phlak_user	jdpond	are you using brctl to setup the bridge?

@@ -1,0 +1,4 @@
+2007-11-26T17:14:00.000Z	janisx_		Can anyone know how to stop nm-applet and manual connect to my wpa network
+2007-11-26T17:14:00.000Z	janisx_		it's killall nm-applet enough or I must do something else?
+2007-11-26T17:15:00.000Z	rtl8139cp	janisx_	sudo killall NetworkManager
+2007-11-26T17:15:00.000Z	rtl8139cp	janisx_	and sudo killall NetworkManagerDispatcher

@@ -1,0 +1,4 @@
+2011-07-10T15:48:00.000Z	scummos		hey -- i got some weird scanner driver here which requires a terribly old version of some library, but works fine with the new one (just dpkg doesn't know that). if forced dpkg to install the package ignoring the dependency, and everything works fine; only apt-get complains about borken dependencies
+2011-07-10T15:48:00.000Z	scummos		can i make apt ignore those dependency conflicts?
+2011-07-10T15:50:00.000Z	usr13	scummos	You could probably just symlink the old name to the new one.
+2011-07-10T15:51:00.000Z	scummos	usr13	where? i already symlinked the library to make it work ;P

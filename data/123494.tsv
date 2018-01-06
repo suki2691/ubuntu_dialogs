@@ -1,0 +1,4 @@
+2008-07-27T12:28:00.000Z	arrenlex	c0mp13371331337	Why would 64-bit run much better than 32-bit on a 64-bit processor?
+2008-07-27T12:28:00.000Z	arrenlex	c0mp13371331337	Additionally, the -server kernel supports 4GB of ram, in 32-bit mode.
+2008-07-27T12:30:00.000Z	c0mp13371331337	arrenlex	The 64bit version is made to take advantage of a 64bit processor, so it would stand to reason that it would run better than the 32bit version on the same processor.
+2008-07-27T12:32:00.000Z	arrenlex	c0mp13371331337	64-bit isn't like another core, it doesn't offer direct performance advantages. Some programs can benefit from being able to do math in 64 bit of precision, but these are specially designed high performance apps that have to be tuned for it. Other than that, all you'll notice is crushing incompaibilities with 32-bit only software, and bigger binaries due to swollen pointers.

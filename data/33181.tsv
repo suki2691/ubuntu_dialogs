@@ -1,0 +1,4 @@
+2010-05-27T22:45:00.000Z	skrite99		if i want to just read lines in a file with George  i will do cat file.txt | grep George > georgefile.txt. but what if i want all lines with George or Fred?
+2010-05-27T22:46:00.000Z	Loshki	skrite99	then do:  cat file.txt | grep 'George|Fred' > georgefile.txt
+2010-05-27T22:47:00.000Z	skrite99	Loshki	thanks !
+2010-05-27T22:58:00.000Z	Loshki	skrite99	phlak_user: also, you can drop the cat part as egrep will read a file directly e.g. egrep 'George|Fred' file.txt > georgefile.txt

@@ -1,0 +1,4 @@
+2011-05-27T20:23:00.000Z	sereal		how can I download a package with out getting all the 'dependencies' i'm trying to just download the documentation for a program on my workstation but I don't want to install the actual program and all it's dependencies.
+2011-05-27T20:24:00.000Z	sereal		it's not the man-pages I want, it's the actual documentation. (this is for asterisk)
+2011-05-27T20:25:00.000Z	sereal		is there no apt-get command that specifies not to download the dependencies?
+2011-05-27T20:26:00.000Z	ls3	sereal	apt-get -d package.   man apt-get

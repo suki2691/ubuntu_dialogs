@@ -1,0 +1,4 @@
+2011-06-08T19:42:00.000Z	Lareth		Hello. Is there a problem if I update libusb-1.0.0 in lucid to a greater version (compile from source)?
+2011-06-08T19:44:00.000Z	pfifo	Lareth	you can install to /urs/local and the LD_LIBRARY_PATH or LD_PRELOAD
+2011-06-08T19:44:00.000Z	Lareth	pfifo	can you give me some more info please/
+2011-06-08T19:47:00.000Z	pfifo	Lareth	LD_LIBRARY_PATH is an environmental variable that allows you to tell ld-linux and vdso where to search for libraries.

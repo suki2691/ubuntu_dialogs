@@ -1,0 +1,4 @@
+2007-10-30T20:02:00.000Z	sandgrain		gutsy refuses to cooperate with my graphics card. it used to work with feisty.. is there anything i can do?
+2007-10-30T20:02:00.000Z	elliotjhug	sandgrain	Either downgrade to feisty, or explain your actual problem with your graphics card? What model is it for example?
+2007-10-30T20:05:00.000Z	sandgrain	elliotjhug	its a nvidia 8600gt. when i install the nvidia drivers, the pc starts in safe grafics mode and says it cant detect the card. i get "software source for package nvidia-glx-new is not enabled" error when i try to activate the restricted driver
+2007-10-30T20:06:00.000Z	elliotjhug	sandgrain	Ah, OK. Well your graphics card is in theory supported by ubuntu, especially since it ran on feisty, your actual problem is that you need to enable a software source... If you open System -> Administration -> Software Sources and let me know whats enabled in there

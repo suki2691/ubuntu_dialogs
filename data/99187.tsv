@@ -1,0 +1,4 @@
+2009-11-01T06:16:00.000Z	chowder		*and
+2009-11-01T06:17:00.000Z	chowder		does anyone know where Ubuntu keeps the script(s) responsible for mounting swap space?
+2009-11-01T06:17:00.000Z	usser	chowder	theres no scripts responsible, its just one file /etc/fstab
+2009-11-01T06:19:00.000Z	chowder	usser	fstab is the file system table. On startup most UNIX-like OSes have some type of script that mounts the root partitions and whatnot. fstab is just a "place marker" if you will

@@ -1,0 +1,4 @@
+2012-02-02T21:54:00.000Z	Bonaparte		I'm unable to start MySQL service on Ubuntu 11.1. `service mysql start` gives error: start: Job failed to start
+2012-02-02T21:56:00.000Z	Bonaparte		How can I fix my MySQL issue? It's a local box with no important data. I also tried removing and installing. There are some errors in dpkg
+2012-02-02T21:57:00.000Z	Bonaparte		http://paste2.org/p/1892043  - these are the errors
+2012-02-02T21:59:00.000Z	tomreyn	Bonaparte	this is a bug in the mysql-server postrm script apparently. you should file a bug.

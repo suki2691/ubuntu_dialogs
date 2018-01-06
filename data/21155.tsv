@@ -1,0 +1,4 @@
+2010-12-30T04:27:00.000Z	`s		Hey, everyone. I need to repair old ubuntu server. I think it's breezy badger, it has very old kernel, and apt-get ins't working, what should I do?
+2010-12-30T04:28:00.000Z	red2kic	`s	Back up everything. You're pretty way behind for a server.
+2010-12-30T04:29:00.000Z	`s	red2kic	Oh, I see. So no way to upgrade while it's working, right?
+2010-12-30T04:31:00.000Z	red2kic	`s	You can't upgrade because they moved old releases to different places. You have to change /etc/apt/sources.list if you want to upgrade. It might be easier to backup everything important and go for lts/latest server installation.

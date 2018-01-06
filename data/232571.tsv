@@ -1,0 +1,4 @@
+2009-11-08T18:17:00.000Z	aruna		where will the wl.ko  found ?
+2009-11-08T18:18:00.000Z	aruna		when i try to rmmod..... it displays   ERROR: Removing 'b43': Operation not permitted
+2009-11-08T18:19:00.000Z	aruna		and ERROR: Module ssb is in use by b43
+2009-11-08T18:19:00.000Z	erUSUL	aruna	try « sudo modprobe -r b43 »

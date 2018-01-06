@@ -1,0 +1,4 @@
+2008-08-22T00:56:00.000Z	aldroid		kerden: Congrats, you've just logged on twice as the same user.
+2008-08-22T00:58:00.000Z	kenden	aldroid	why does that happen? That didnt use to happen and i was not aware nor think that is the default setting. I should be able to simply reopen/unlock the session which i previously left open when i switched user
+2008-08-22T01:39:00.000Z	aldroid	kenden	what actually happens: 1) you have one X session, it's yours at tty7. 2) you press 'Switch User' and open a login window at tty9 (tty8 is system log). Your session at tty7 is locked and prompts for password. 3) someone else logs on tty9 and does their own work. 4) someone else uses 'Switch User'. A new login window is created at tty10 now. The tty9 and tty7 sessions are locked.
+2008-08-22T01:40:00.000Z	aldroid	kenden	You can press Ctrl+Alt+F<number> to switch to tty<number>.

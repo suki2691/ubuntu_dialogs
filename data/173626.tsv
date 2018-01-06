@@ -1,0 +1,4 @@
+2009-05-02T08:39:00.000Z	ToastBot		Does anyone happen to know, while installing Ubuntu, will the GRUB recognize windows if windows is on a different hard drive?
+2009-05-02T08:40:00.000Z	sebsebseb	ToastBot	yes should do
+2009-05-02T08:40:00.000Z	sebsebseb	ToastBot	if Windows was on there first, and if not it's pretty easy to make it so it does
+2009-05-02T08:42:00.000Z	sebsebseb	ToastBot	gksudo gedit /boot/grub/menu.lst  from terminal to edit

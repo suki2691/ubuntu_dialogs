@@ -1,0 +1,4 @@
+2009-03-18T15:30:00.000Z	riwa		Just noticed that my "/" is filled up. 6 GB! Anyway, I noticed it during a package installation. My question is, can I remove some space and then upgrade the system? The system downloaded and installed fine but I got: /usr/bin/mandb: can't write to /var/cache/man/15844: No space left on device
+2009-03-18T15:30:00.000Z	ActionParsnip1	riwa	sudo apt-get clean
+2009-03-18T15:31:00.000Z	riwa	ActionParsnip1	JESUS!! 2 GB right there. Why on earth doesn't it clean that automaticly?
+2009-03-18T15:31:00.000Z	ActionParsnip1	riwa	sudo apt-get autoclean

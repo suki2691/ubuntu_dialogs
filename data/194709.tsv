@@ -1,0 +1,4 @@
+2006-05-24T14:41:00.000Z	blue-frog		I installed timeoutd on my breezy, I have a scripttiemoutd in /etc/init.d. what command must I use to run timeoutd at boot time, pls? (udate-rc?)
+2006-05-24T14:42:00.000Z	DBO	blue-frog	"sudo apt-get install sysv-rc-conf" then "sudo sysv-rc-conf"
+2006-05-24T14:45:00.000Z	DBO	blue-frog	ok, yeah, then its just update-rc.d
+2006-05-24T14:46:00.000Z	DBO	blue-frog	yesh

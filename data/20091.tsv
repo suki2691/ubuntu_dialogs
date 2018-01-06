@@ -1,0 +1,4 @@
+2012-01-22T08:25:00.000Z	Naeblis		Hey. It appears that I can't install php on my Ubuntu 11.04. I get this error : The following packages have unmet dependencies: libapache2-mod-php5 : Depends: php5-common (= 5.3.5-1ubuntu7) but 5.3.5-1ubuntu7.4 is to be installed. E:Broken Packages.
+2012-01-22T08:25:00.000Z	Naeblis		any ideas?
+2012-01-22T08:27:00.000Z	ActionPa1snip	Naeblis	try:  sudo apt-get -f install
+2012-01-22T08:28:00.000Z	Naeblis	ActionPa1snip	still not working. :(

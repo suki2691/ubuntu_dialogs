@@ -1,0 +1,4 @@
+2006-05-20T16:24:00.000Z	Morimando		hm but when these people add new content to their website (which they do using frontpage ><), the umlauts are gonna be wrong again i guess. telling apache the format sounds better
+2006-05-20T16:25:00.000Z	Morimando		pal says he can't get apache to read the .htaccess or something like that, and has to use vhosts (????????)
+2006-05-20T16:26:00.000Z	Morimando		what can possibly go wrong that apache doesn't read the htaccess?
+2006-05-20T16:27:00.000Z	cafuego	Morimando	incorrect permission, AccessFileName not configured, AllowOverride not set

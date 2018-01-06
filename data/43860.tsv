@@ -1,0 +1,4 @@
+2010-06-11T00:03:00.000Z	Jordan_U	jugglerbry	Hold shift during boot.
+2010-06-11T00:05:00.000Z	Jordan_U	jugglerbry	With a VM it can sometimes by hard to coordinate, but you have to be sure that your keyboard is captured before grub starts so that the fact that you're holding shift gets registered.
+2010-06-11T00:09:00.000Z	jugglerbry	Jordan_U	Thanks for that. Have just tried again, and it does seem to be booting using an earlier Kernel.  How can I remove the one that doesnt work properly ?
+2010-06-11T00:12:00.000Z	Jordan_U	jugglerbry	You could remove the package with apt/synaptic. But try just reconfiguring the package for that particular kernel version, it may have been interrupted in the process of installing when you powered off the VM.

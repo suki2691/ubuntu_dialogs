@@ -1,0 +1,4 @@
+2011-08-01T19:58:00.000Z	sipior	jj995	"du -sh /home" would likely give you what you want, sorted as you like.
+2011-08-01T19:58:00.000Z	sipior	jj995	you'll likely want to preface that with "sudo", of course.
+2011-08-01T19:59:00.000Z	jj995	sipior	thanks, but unfortunately I'm not looking in home directories.  I'm looking to find which users are using the most space outside of home directories
+2011-08-01T20:01:00.000Z	sipior	jj995	ah, i see the problem. if you have a quota system in place, you could consult that. otherwise, whip up a script which feeds off the output of a grepped file listing and does the sums.

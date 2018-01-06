@@ -1,0 +1,4 @@
+2007-07-16T11:08:00.000Z	boguh		how can i mount a ext partiton from another disk so that a regular user can read from it?
+2007-07-16T11:09:00.000Z	jetscreamer	boguh	add user to the options in fstab
+2007-07-16T11:10:00.000Z	boguh	jetscreamer	the device is in my ultrabay an i only want to mount it once. so i dont want to have an fstab entry
+2007-07-16T11:11:00.000Z	jetscreamer	boguh	mount -t auto -o defaults,uid=1000 /dev/this /mount/here  (probably) man mount

@@ -1,0 +1,4 @@
+2010-09-27T13:56:00.000Z	Rickardo1		Must php files have 644 or is it enough that www-data has read access? 600
+2010-09-27T13:57:00.000Z	maedox	Rickardo1	In a production environment they should most probably not be readable by everyone.
+2010-09-27T13:57:00.000Z	Rickardo1	maedox	ok, But everywhere ppl say 644 but I think 600 is better?
+2010-09-27T13:59:00.000Z	maedox	Rickardo1	yes, 600 should be fine as long as the owner is the webserver-user.

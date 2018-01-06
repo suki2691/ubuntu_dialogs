@@ -1,0 +1,4 @@
+2011-08-01T19:55:00.000Z	jj995		I'm trying to find the users using the most disk space on a server -- is there a quick command to do this?  e.g. like "du /*/* -s --block-size=1G | sort -g" except for sorting by user instead of file
+2011-08-01T19:56:00.000Z	ne2k	jj995	that would be a useful tool. don't know if it exists, though
+2011-08-01T20:05:00.000Z	ne2k	jj995	you could use find with prinf %s and %u, and then parse with a quick perl script?
+2011-08-01T20:08:00.000Z	jj995	ne2k	thanks, I think I found something similar at http://linuxgazette.net/18/disk_hog.html that I will try

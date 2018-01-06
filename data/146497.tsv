@@ -1,0 +1,4 @@
+2011-11-18T00:46:00.000Z	Nostoc		I am fresh installing a new ubuntu/windows dual boot.  What order should I install them in?  Windows first?  Also, I am planning to have a paging file partition, an ext3 (ubuntu) partition, an NTFS partition (XP), and a storage partition.  Should I use gparted, fdisk, or windows set up disk to partition these?  Just looking for recommendations, thanks.
+2011-11-18T00:46:00.000Z	BluesKaj	Nostoc	gparted live cd
+2011-11-18T00:48:00.000Z	BluesKaj	Nostoc	install windows first then ubuntu, pagefiles in linux are called swap files
+2011-11-18T00:49:00.000Z	BluesKaj	Nostoc	use gparted to set up all your partitions first , it makes for a faster cleaner install all around

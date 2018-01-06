@@ -1,0 +1,4 @@
+2011-08-16T19:47:00.000Z	Nitax		question: http://paste.ubuntu.com/667426/  why is the 'x' bit not included even though it's included in umask?
+2011-08-16T19:48:00.000Z	Pici	Nitax	There is no root password, the root account is locked.  Use sudo to do things as root. See https://help.ubuntu.com/community/RootSudo
+2011-08-16T19:49:00.000Z	Nitax	Pici	thanks.  I guess files don't really need the +x bit in a file share anyways?  Only the directories need +x so that users can 'ls' them?
+2011-08-16T19:50:00.000Z	Pici	Nitax	yeah, sorry that link wasn't for you.. but only directories need +x unless you really need for the files to be executable (which they don't normally need)

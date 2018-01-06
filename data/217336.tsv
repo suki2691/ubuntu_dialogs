@@ -1,0 +1,4 @@
+2005-09-30T12:10:00.000Z	ouroboros		Is there a way I can change the /etc/fstabs to make this FAT USB drive fully accessible to all, for Samba purposes? : /dev/sda        /media/usb0     auto    rw,user,noauto  0       0
+2005-09-30T12:11:00.000Z	str8edge	ouroboros	you can add a umask, or set the gid "man smb.conf"
+2005-09-30T12:15:00.000Z	ouroboros	str8edge	I have it setup already, at least I think I do
+2005-09-30T12:15:00.000Z	ouroboros	str8edge	the entry I put in smb.conf is [BUSLINK] 

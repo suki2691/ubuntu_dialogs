@@ -1,0 +1,4 @@
+2008-11-05T22:21:00.000Z	MnemonicPunk	indistylo	If you want to install Skype, you'll have to add a repository.
+2008-11-05T22:22:00.000Z	MnemonicPunk	indistylo	Add this line at the end of your /etc/apt/sources.list: deb http://download.skype.com/linux/repos/debian/ stable non-free
+2008-11-05T22:22:00.000Z	MnemonicPunk	indistylo	Then do 'sudo apt-get update; sudo apt-get install skype'
+2008-11-05T22:25:00.000Z	MnemonicPunk	indistylo	You can open the file with superuser privileges by typing 'gksudo gedit /etc/apt/sources.list'

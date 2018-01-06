@@ -1,0 +1,4 @@
+2005-03-12T16:41:00.000Z	Frodo		my problem is, grub in installed with my other partition on the mbr (mepis)  Ubuntu is on /dev/hda1 and Mepis on /dev/hda5.  Mepis cannot automatically see Ubuntu.  I have tried to point Mepis to the Ubuntu partition but to no avail.
+2005-03-12T16:43:00.000Z	Frodo		I have googled lots of info about how to configure grub...but grub is not getting hold of Ubuntu...I have taken hours to do this
+2005-03-12T16:43:00.000Z	Frodo		Im about ready to blow away my Ubuntu partion and start over, though I hate to do this
+2005-03-12T16:44:00.000Z	lunitik	Frodo	Ubuntu = 'hd(0,0)' Mepis = 'hd(0,4) ?

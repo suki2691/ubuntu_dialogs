@@ -1,0 +1,4 @@
+2010-02-21T22:23:00.000Z	ricardo1		Hi folks. I am on my mom's computer and she got an 800x600 screen when upgraded to 9.10. She usesan old Integraph 21 inch monitor that probably doesn't want to talk through the VGA what resolutions and refresh rates it supports. Is there a way to tell X to use whatever I want it to use and not even try to guess what screen it's connected to? It's an IBM box with Intel graphics.
+2010-02-21T22:23:00.000Z	aprigio	ricardo1	xrandr -s 1024x768
+2010-02-21T22:25:00.000Z	aprigio		Ubuntu Support can be provided by any company or only the canonical have these rights?
+2010-02-21T22:25:00.000Z	ricardo1	aprigio	Thanks for the effort: "Size 1024x768 not found in available modes"

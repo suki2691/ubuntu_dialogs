@@ -1,0 +1,4 @@
+2010-09-09T13:17:00.000Z	Sloth_Demon		The network applet(or whatever it's called) on the panel in the top is displaying "No network devices found" in the menu. My board is Intel DH55TC with core-i5. I have used ubuntu a few months ago with a ancient mercury motherboard and had no problem like this(everything was in order by default). What do I need to fix this?
+2010-09-09T13:17:00.000Z	Sloth_Demon		BTW, I'm using Jaunty Jacklope.
+2010-09-09T13:18:00.000Z	dmex	Sloth_Demon	lshw -class network
+2010-09-09T13:21:00.000Z	dmex	Sloth_Demon	Its for listing any network interfaces

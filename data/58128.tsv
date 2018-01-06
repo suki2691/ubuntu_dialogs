@@ -1,0 +1,4 @@
+2010-01-05T18:46:00.000Z	diverse_izzue		are there people who have experience in running lucid and karmic next to each other (dual boot), sharing a home directory. does that work fine? also, does grub automatically configure itself so that both distros can be booted?
+2010-01-05T18:47:00.000Z	Scunizi	diverse_izzue	you can't share a /home directory with 2 different releases.. you can however share a common /home with kde and gnome of the same release
+2010-01-05T18:48:00.000Z	diverse_izzue	Scunizi	I'm sure i *can*. the question is whether it's a good idea or not :-)
+2010-01-05T18:49:00.000Z	Scunizi	diverse_izzue	no it's not.. because each release has different package versions and /home holds the conf files for lots of what you use.. there will be conflicts

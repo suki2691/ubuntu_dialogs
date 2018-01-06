@@ -1,0 +1,4 @@
+2007-10-26T04:59:00.000Z	gulled0ndervan		anyone know how to start several Xvnc servers with upstart?
+2007-10-26T05:00:00.000Z	stefg	gulled0ndervan	you'd have to create event scrpts in /etc/event.d
+2007-10-26T05:00:00.000Z	gulled0ndervan	stefg	thank you. trying to follow howto's that point towards inetd.conf and xinetd.conf
+2007-10-26T05:01:00.000Z	stefg	gulled0ndervan	i did not dive too deep into upstart now, but basically the former inittab is now scripts in /etc/event.d

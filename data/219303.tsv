@@ -1,0 +1,4 @@
+2006-11-22T12:48:00.000Z	KrisWood		does anyone know how to remove vmware?
+2006-11-22T12:49:00.000Z	KrisWood		either that or does anyone know how I can remove the vmnet8 network interface...
+2006-11-22T12:49:00.000Z	Flannel	KrisWood	that depends on how you installed it.  via package management, just remove it.  if you installed from a bin or script, or whatnot, deleting all the files
+2006-11-22T12:50:00.000Z	Flannel	KrisWood	dpkg -l | grep vmware (or whatever you think it might be)

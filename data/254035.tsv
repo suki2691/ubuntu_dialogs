@@ -1,0 +1,4 @@
+2007-10-24T05:40:00.000Z	pazsion_		ha
+2007-10-24T05:41:00.000Z	pazsion_		easy
+2007-10-24T05:41:00.000Z	guru	pazsion_	your nvidia kernel module wasn't getting loaded
+2007-10-24T05:41:00.000Z	guru	pazsion_	the problem is that the nvidia driver isn't being loaded, look in your Xorg log file for lines starting with (EE)

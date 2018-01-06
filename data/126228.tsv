@@ -1,0 +1,4 @@
+2007-08-03T07:48:00.000Z	macer		hey guys
+2007-08-03T07:48:00.000Z	macer		i want to totally remove the service pure-ftpd but is doesnt work.. i used
+2007-08-03T07:48:00.000Z	macer		"sudo update-rc.d pure-ftpd remove" ! can anyone help me removing this service?
+2007-08-03T07:50:00.000Z	Shoelace	macer	check /etc/inittab to see if it's spawning from there, or if there's any files pertaining to it in /etc/xinetd.d

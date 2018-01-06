@@ -1,0 +1,4 @@
+2009-08-17T07:31:00.000Z	Vigh		I'm running a webserver on jaunty, and whenever Apache is running (~20% CPU load, not using full bandwidth), SSH performs very slowly (i.e. I am SSHing in and commands take a relatively long time to respond) -- any suggestions?
+2009-08-17T07:31:00.000Z	mazda01_	Vigh	whats your isp connection upload limit?
+2009-08-17T07:32:00.000Z	Vigh	mazda01_	it's running on Amazon's EC2 -- the bandwidth is not an issue
+2009-08-17T07:33:00.000Z	Vigh	mazda01_	(if it matters, the connection is something like 80Mbps up, and the webserver is nowhere near that =P)

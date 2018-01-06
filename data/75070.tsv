@@ -1,0 +1,4 @@
+2008-11-08T05:17:00.000Z	MExTux		Does anybody know what is this??? ---> useradd newuser -s /bin/false
+2008-11-08T05:18:00.000Z	zsquareplusc	MExTux	it adds a new user whose shell is set to false, so he cant log in interactively
+2008-11-08T05:20:00.000Z	zsquareplusc	MExTux	he can not open a console, when logging in. he will be thrown out. but a service may be run under that name for example. such dummy users are used for security reasons e.g. when a web server is run
+2008-11-08T05:23:00.000Z	zsquareplusc	MExTux	yes. for such a purpose this is a good idea. otherwise the same account could be used for remote login on your machine, if you are running sshd for example

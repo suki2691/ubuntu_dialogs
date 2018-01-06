@@ -1,0 +1,4 @@
+2008-05-28T00:49:00.000Z	kibibyte		how to execute script with sudo ?
+2008-05-28T00:50:00.000Z	kibibyte		bartosz@bartosz-laptop:~$ sudo ./alsa-info.sh
+2008-05-28T00:50:00.000Z	kibibyte		sudo: ./alsa-info.sh: command not found
+2008-05-28T00:51:00.000Z	rabelais	kibibyte	it probably doesn't have execute permission set, try chmod 755 alsa-info.sh and then try again

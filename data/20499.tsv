@@ -1,0 +1,4 @@
+2011-04-24T08:00:00.000Z	dataviruset		if i have 2.6.32-31 installed but not booted, can i build a driver (or more correctly "kernel module") a later version before booting it?
+2011-04-24T08:00:00.000Z	Aginor	dataviruset	yes, but you're better off using dkms, that should automatically rebuild the kernel module for future versions of the kernel as well
+2011-04-24T08:01:00.000Z	Aginor	dataviruset	see https://wiki.ubuntu.com/Kernel/Dev/DKMSPackaging
+2011-04-24T08:01:00.000Z	dataviruset	Aginor	ah, cool :O

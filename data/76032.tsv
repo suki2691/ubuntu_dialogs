@@ -1,0 +1,4 @@
+2008-11-28T04:33:00.000Z	dmb		how can you see what applications are locking up the sound system?
+2008-11-28T04:33:00.000Z	dmb		i get permission denied for /dev/dsp
+2008-11-28T04:34:00.000Z	shad0w0fsin	dmb	do "sudo fuser /dev/dsp"
+2008-11-28T04:35:00.000Z	dmb	shad0w0fsin	only shows pulsadio and the mixerapplet

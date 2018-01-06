@@ -1,0 +1,4 @@
+2006-04-25T16:52:00.000Z	scifi		!firefox
+2006-04-25T12:46:00.000Z	scifi		hey guys, when i mount my ntfs partition so i can access the files after a reboot it is no longer mounted, is it possible to save it mounted?
+2006-04-25T12:47:00.000Z	VSFH	scifi	save it in /etc/fstab
+2006-04-25T12:47:00.000Z	VSFH	scifi	sudo cp /etc/fstab /etc/fstab_backup

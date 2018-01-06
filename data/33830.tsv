@@ -1,0 +1,4 @@
+2010-06-16T22:39:00.000Z	infid		if you try to connect to ssh and all it does is time out, does that mean the host blocks port 22 period, or could it just be their configuration is set up to only not block you if you're in the authorized_keys or something?
+2010-06-16T22:39:00.000Z	Rigorm0rtis	infid	it means you are not reaching the host. If you are denied because of a bad key/password the error will mention that.
+2010-06-16T22:42:00.000Z	infid	Rigorm0rtis	when i do ssh -vvv it says 'reading config data /etc/ssh/ssh_config. applying options for *. ssh_connect: needpriv 0. Connectiing to [ip] port 22. .... Connection timed out.
+2010-06-16T22:43:00.000Z	Rigorm0rtis	infid	Yep, sounds like a connection issue to me. Check that port 22 is open.

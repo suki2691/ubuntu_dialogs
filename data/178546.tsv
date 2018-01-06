@@ -1,0 +1,4 @@
+2009-09-21T06:26:00.000Z	Boffo		i tried "chkdsk C: /f" twice, and still no luck, i still can't partition my drive
+2009-09-21T06:28:00.000Z	Jeruvy	Boffo	chkdsk isn't for partitioning, try gparted.
+2009-09-21T06:32:00.000Z	Jeruvy	Boffo	if you have ntfs-3g installed, you can try this:  ntfsfix /dev/sda4
+2009-09-21T06:33:00.000Z	Jeruvy	Boffo	replace sda4 with sda1, or your appropriate disk, sorry.

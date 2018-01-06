@@ -1,0 +1,4 @@
+2012-02-29T19:53:00.000Z	DerFlash		I've some OpenGL problem here. maybe someone can help? I'm running ubuntu 11.10 in virtual box on a mac with 3D accel activated. glxinfo seems ok, glxgears works fine. but when I try to capture the openGL window with glc-capture I get: "OpenGL Error: Failed to get size for 0x……..(glXSwapBuffers)" I've tracked down the error to the virtual box additions fakedri_drv.c but still don't know how to fix it:
+2012-02-29T19:53:00.000Z	DerFlash		http://www.virtualbox.org/svn/vbox/trunk/src/VBox/Additions/common/crOpenGL/fakedri_drv.c
+2012-02-29T19:55:00.000Z	DerFlash		maybe someone can really understand the fakedri_drv.c call that's failing and provide some idea?! please? :-)
+2012-02-29T19:55:00.000Z	Ho^Oh	DerFlash	Visit #Vbox

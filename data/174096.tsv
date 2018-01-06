@@ -1,0 +1,4 @@
+2006-09-28T16:07:00.000Z	ruzgar		how can i backup my synaptic package list ?
+2006-09-28T16:09:00.000Z	ruzgar		i hear that a command can save the package list
+2006-09-28T16:09:00.000Z	ruzgar		after re-install ubuntu can i loag this package list
+2006-09-28T16:10:00.000Z	zoredache	ruzgar	after a reload then do a cat filename.txt | dpkg --set-selections and then do a apt-get dselect-upgrade

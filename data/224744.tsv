@@ -1,0 +1,4 @@
+2005-08-09T10:50:00.000Z	maketo		running hoary, 2.6.10 kernel, compiled my own 2.6.11.9 and trying to do mkinitrd -o initrd-2.6.11.9, comes back with no error, however the initrd image is not created. Any ideas?
+2005-08-09T10:50:00.000Z	Seveas	maketo	you should use make-kpkg for compiling kernels on ubuntu/debian systems
+2005-08-09T10:51:00.000Z	maketo	Seveas	I used to be able to do it myself
+2005-08-09T10:51:00.000Z	Seveas	maketo	that's not the point :) make-kpkg generates .deb files and that eases administration

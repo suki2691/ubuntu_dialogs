@@ -1,0 +1,4 @@
+2010-07-16T00:05:00.000Z	rkhshm		I have a bunch of some 50 new pkgs that i want to build with a my own modifications...
+2010-07-16T00:05:00.000Z	rkhshm		 i want to automate this process as individually building them will be a pain
+2010-07-16T00:05:00.000Z	rkhshm		 if i put the logic into a script "dpkg-buildpackage -b -us -uc' .. if any of the debhelper scripts cause erros also.. it will the entire buildpkg cmd will give me $? == 0 ..is there anyway i can check if anyof the dh_* scripts fail during the buildpkg and exit that pkg build completely>?
+2010-07-16T00:05:00.000Z	FloodBot4	rkhshm	Please don't flood, use http://paste.ubuntu.com to paste, don't use Enter as punctuation.

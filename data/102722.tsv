@@ -1,0 +1,4 @@
+2009-01-05T11:46:00.000Z	presdec		[31391.045186] Buffer I/O error on device sr0, logical block 1 what does this mean?? plz?
+2009-01-05T11:48:00.000Z	presdec		i saw is as the result of dmesg | tail, while trying to resolve why my 4in1 card reader wasn't working
+2009-01-05T11:48:00.000Z	presdec		the system is a new install it can't be hd? right?
+2009-01-05T11:49:00.000Z	rww	presdec	/dev/sr0 is CD-ROM, not hard-drive. Hard drives are /dev/sdXN

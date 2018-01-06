@@ -1,0 +1,4 @@
+2010-04-03T00:56:00.000Z	aar		Hi, a bit of a silly question: I want to insert a string of text to the beginning of each line in a file. I'm using "sed 's/^/ ls /home/foo" and I think the "/" character is causing some confusion. What is the correct syntax?
+2010-04-03T00:57:00.000Z	tsuru	aar	try piping ls into sed
+2010-04-03T00:57:00.000Z	aar	tsuru	what would the syntax for that be?
+2010-04-03T01:00:00.000Z	aar	tsuru	found the answer. You ust have to precede the / with a \

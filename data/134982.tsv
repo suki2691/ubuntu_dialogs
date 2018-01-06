@@ -1,0 +1,4 @@
+2007-10-22T01:33:00.000Z	tony		BIOS question: Can a SATA drive be set to h0 Master when there's an IDE drive present?
+2007-10-22T01:33:00.000Z	thedonvaughn	tony	there is "master" in SATA.  You just setup grub to boot your sata disc and install]
+2007-10-22T01:33:00.000Z	thedonvaughn	tony	er i meant there is no master in sata
+2007-10-22T01:42:00.000Z	tony	thedonvaughn	Okay, so does it matter that my old IDE drive is h0 in the BIOS and SDA in my Ubuntu setup? It's empty. The problem is that whenever I have a kernel upgrade, I have to go into /boot/grub/menu.lst and change it up to get Ubuntu to load.

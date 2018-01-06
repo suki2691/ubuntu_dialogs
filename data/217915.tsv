@@ -1,0 +1,4 @@
+2006-12-04T09:42:00.000Z	burepe		I am doing this command but I am getting an error that I don't have permissions even with sudo any suggestions? echo 'pwcheck_method: saslauthd' >> /etc/postfix/sasl/smtpd.conf
+2006-12-04T09:44:00.000Z	kmaynard	burepe	you're running the echo under sudo, but the piped results are being written as the regular user...that's a time when being root somes in handy
+2006-12-04T09:45:00.000Z	burepe		if I become root now will it cause conflicts with the echo commands that I did as sudo?
+2006-12-04T09:46:00.000Z	burepe	kmaynard	 if I become root now will it cause conflicts with the echo commands that I did as sudo? How do I sign in as root? I have never done that?

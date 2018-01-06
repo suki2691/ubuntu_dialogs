@@ -1,0 +1,4 @@
+2006-05-27T12:28:00.000Z	mish4		is there a way to mount windows in ubuntu, so that ubuntu can write to the windows (ntfs) partition?
+2006-05-27T12:28:00.000Z	mish4		not just read
+2006-05-27T12:29:00.000Z	mish4		from ubuntu guide it says to do this: /dev/hda1 /media/windows ntfs umask=0222 0 0 , but that is only for reading
+2006-05-27T12:30:00.000Z	roryy	mish4	fwiw, there is a windows app that can read ext3 (the default linux fs)

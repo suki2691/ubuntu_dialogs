@@ -1,0 +1,4 @@
+2005-12-28T12:08:00.000Z	Evil_Whisper		!cdrecord
+2005-12-28T12:09:00.000Z	rickest	Evil_Whisper	http://www.cpqlinux.com/cdrw.html
+2005-12-28T12:12:00.000Z	rickest	Evil_Whisper	you can always use k3b and while it's burning, do a 'ps -eo pid,cmd | grep cdrecord' to see what it's *really* doing
+2005-12-28T12:13:00.000Z	rickest	Evil_Whisper	I think the correct flag is -data when specifying the ISO

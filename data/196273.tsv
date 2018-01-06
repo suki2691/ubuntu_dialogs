@@ -1,0 +1,4 @@
+2006-04-23T06:20:00.000Z	xzion		how to connect to my ubuntu box with ssh?
+2006-04-23T06:20:00.000Z	xzion		can someone help me?
+2006-04-23T06:20:00.000Z	Zarephath	xzion	First off you need to run openssh-keygen -t dsa(or rsa) or both
+2006-04-23T06:22:00.000Z	Zarephath	xzion	Actually before that you need to make sure your hosts and hosts_allow is setup on both machines

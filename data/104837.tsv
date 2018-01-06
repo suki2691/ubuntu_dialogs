@@ -1,0 +1,4 @@
+2011-04-01T11:00:00.000Z	qwebirc44173		hi
+2011-04-01T11:01:00.000Z	qwebirc44173		How can I use "pci=noacpi" option in Grub?
+2011-04-01T11:02:00.000Z	qwebirc44173		GRUB_CMDLINE_LINUX_DEFAULT or GRUB_CMDLINE_LINUX ?
+2011-04-01T11:02:00.000Z	ActionParsnip	qwebirc44173	add it next to: quiet splash  in /etc/default/grub   then run:   sudo update-grub

@@ -1,0 +1,4 @@
+2004-12-28T07:33:00.000Z	zenwhen		how woudl I make my linux machine offer up its internet connection to another machine by DHCP from eth0?
+2004-12-28T07:35:00.000Z	kerframil	zenwhen	firstly, you need to make sure iptables is providing a NAT service
+2004-12-28T07:36:00.000Z	kerframil	zenwhen	secondly, you need to install "dhcp" (a DHCP server) and configure it so that the default router is the IP address of the machine that is offering the NAT service, as well as allocating clients an IP within the same subnet
+2004-12-28T07:38:00.000Z	kerframil	zenwhen	actually, I assumed the machine in question would be providing NAT. It's perfectly OK to have DHCP tell the client to use another router to find the Internet too.

@@ -1,0 +1,4 @@
+2010-11-14T00:11:00.000Z	databridge		hello people i want to make a server with an dms system where i can manage my documents, i just like to know if i put my data into the home directory and point the apache server to it or if i have to leave it all in /var/www where it normally would be?
+2010-11-14T00:12:00.000Z	jfv34	databridge	It really depends on the apache configuration. If you have virtual hosts setup it should be in the home directory, if not you can symlink to var/www from your home directory.
+2010-11-14T00:13:00.000Z	databridge	jfv34	i dont have virtual hosts, so i would create a home partition and put my data there and link the directory to www
+2010-11-14T00:14:00.000Z	jfv34	databridge	That's what I would do, or you could just put the stuff in www.

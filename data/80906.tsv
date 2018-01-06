@@ -1,0 +1,4 @@
+2008-09-10T22:42:00.000Z	smm289		I have a ubuntu file server running.  The server shares files with linux and windows clients.  Why is my linux client connecting to the server share by using an smb:\\ address. isn't smb just for sharing to windows.  I have the share on the server setup in samba and I setup the sharing properties using Nautilis.  I've only been using ubuntu for about 2weeks now so i'm still a little nubish
+2008-09-10T22:44:00.000Z	smm289		should two linux systems share files through an smb:// address
+2008-09-10T22:45:00.000Z	outbackwifi	smm289	no, they should use NFS
+2008-09-10T22:45:00.000Z	outbackwifi	smm289	no, they should use or SSH-FS

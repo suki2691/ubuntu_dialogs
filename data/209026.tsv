@@ -1,0 +1,4 @@
+2006-07-01T06:46:00.000Z	Trae		how can I create a file that's 500M ?
+2006-07-01T06:46:00.000Z	Trae		just need it for testing
+2006-07-01T06:46:00.000Z	Trae		don't really care what is in the file.
+2006-07-01T06:46:00.000Z	andi5	Trae	dd if=/dev/zero of=$file bs=1m count=500  .... man dd can help you

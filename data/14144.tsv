@@ -1,0 +1,4 @@
+2011-05-20T02:14:00.000Z	gizmo_	hemin	run sudo fdisk -l, find what looks like windows (probably ntsf). It should say something like /dev/sda1. type "mount /dev/sda1 /mnt" replacing sda1 with what windows was.
+2011-05-20T02:17:00.000Z	hemin	gizmo_	i can do that.. but the problems is that each time i boot, it doesnt do it automatically.. on 10.04 it used to show on the left hand side of the nautilus file browser.. but on 11.04, the disks arent showing up.. i have to mount manually each time from the terminal
+2011-05-20T02:19:00.000Z	gizmo_	hemin	type sudo nano /etc/fstab on a new line tpye /dev/sda1 /mnt ntsf defauts 0 0
+2011-05-20T02:23:00.000Z	hemin	gizmo_	did that.. should i reboot now?

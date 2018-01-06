@@ -1,0 +1,4 @@
+2007-07-19T08:00:00.000Z	vinay		where does ubuntu's resolution picker get its list from?  its not coming from xorg configuration ...
+2007-07-19T08:02:00.000Z	vinay		(note: im using nvidia drivers)
+2007-07-19T08:02:00.000Z	Andyho	vinay	how'd you make it work? LOL! Having nvidia driver probs here..
+2007-07-19T08:03:00.000Z	vinay	Andyho	hmmmm, i've used these drivers for years... just run the shell script they provide as root... rmmod nvidia, modprobe nvidia ... change xorg.conf to nvidia .. it should "startup"

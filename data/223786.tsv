@@ -1,0 +1,4 @@
+2008-07-20T04:30:00.000Z	dubby		hey anyone im trying to get files from a samba mounted directory through ftp, and the thing is I can cd nicely through the mounted directory tree nicely, and can even place files from them, when reading the permissions on any of the files, i am owner, yet when attempting to mget the file it tells me that permission is denied ?
+2008-07-20T04:31:00.000Z	dubby		i have a+rwx on all files within the mount
+2008-07-20T04:31:00.000Z	dubby		and can mget correctly from anywhere but the mount
+2008-07-20T04:31:00.000Z	th0r	dubby	you have to have permission in ftp to mget the files as well....owning them is not enough

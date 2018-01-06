@@ -1,0 +1,4 @@
+2005-02-26T13:45:00.000Z	jamin_l		uhm hey guys... what's the terminal command to find out what processes are using a device? (sda1)
+2005-02-26T13:45:00.000Z	jamin_l		i'm trying to unmount my camera but it doesn't want to unmount because it's busy somewhere
+2005-02-26T13:45:00.000Z	Xenguy	jamin_l	lsof or fuser might help
+2005-02-26T13:46:00.000Z	Xenguy	jamin_l	it does an 'ls' of OpenFiles

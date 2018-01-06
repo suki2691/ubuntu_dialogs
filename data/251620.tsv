@@ -1,0 +1,4 @@
+2006-09-19T05:00:00.000Z	matttail		hey there, I've got a question... in the ubuntu wiki for updating Firefox it says "There are two ways you can update firefox to the newest version.
+2006-09-19T05:00:00.000Z	matttail		The first way is to close Firefox and give your user (yourself) file ownership: sudo chown -R ${USER}:${USER} /opt/firefox Start Firefox normally and update (Help -> Check for updates...) Once the update is completed, close Firefox and then restore ownership to root: sudo chown -R root:root /opt/firefox Do NOT browse other sites while firefox has these elevated permissions, that is without changing back the ownership of /op
+2006-09-19T05:00:00.000Z	matttail		t/firefox over to root. Such a practice is not safe. "    Why is it not safe?
+2006-09-19T05:00:00.000Z	cafuego	matttail	You don't want sites porribly writing to the firefox install directory.

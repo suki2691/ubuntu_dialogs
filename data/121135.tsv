@@ -1,0 +1,4 @@
+2008-10-23T14:52:00.000Z	ogzy		i want to change the defined email address of my user, while i am running dch command and editing changelog files it is adding an invalid mail where does the user's email address info is kept?
+2008-10-23T14:54:00.000Z	bimberi	ogzy	from the DEBEMAIL environment variable, otherwise I think it builds one using username@hostname
+2008-10-23T14:55:00.000Z	bimberi	ogzy	so put a 'export DEBEMAIL=the.address@that.you.want' in ~/.bashrc
+2008-10-23T14:55:00.000Z	ogzy	bimberi	ok thanx

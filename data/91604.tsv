@@ -1,0 +1,4 @@
+2008-11-11T01:19:00.000Z	joaopinto	noah_	you can keep /home untouched, but not /var
+2008-11-11T01:21:00.000Z	noah_	joaopinto	OK, so I'll just have to review what I need in /var -- for my application, I think just the MySQL database.
+2008-11-11T01:23:00.000Z	joaopinto	noah_	to backup the mysql database you should use mysqldump
+2008-11-11T01:24:00.000Z	joaopinto	noah_	and make sure you are not using /var/www for your own contents

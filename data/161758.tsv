@@ -1,0 +1,4 @@
+2007-07-05T11:51:00.000Z	DBlue		Any one know how to get info if some package is installed in dpkg?
+2007-07-05T11:52:00.000Z	troxor	DBlue	dpkg -qa | grep pkgname
+2007-07-05T11:52:00.000Z	troxor	DBlue	query all, iirc
+2007-07-05T12:01:00.000Z	troxor	DBlue	dpkg -l | grep pkgname  (sorry, just remembered -qa is for rpm :(

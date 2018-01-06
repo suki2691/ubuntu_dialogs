@@ -1,0 +1,4 @@
+2011-05-28T23:01:00.000Z	krasko		hi, i installed ubuntu 11.04 on my dell notebook. after running apt-get upgrade and reboot, it freezes few seconds after boot (didn't ask me for hdd passphrase). where should be problem? thanks.
+2011-05-28T23:02:00.000Z	ActionParsnip	krasko	if you hold shift at boot, does the old kernel boot ok?
+2011-05-28T23:03:00.000Z	ActionParsnip		Antihero: add an entry in /etc/fstab
+2011-05-28T23:04:00.000Z	krasko	ActionParsnip	it seems that yes. i can see kernel dmesg (when i select recovery mode), without problems. but after that, the screen whill shutdown and .. thaths all

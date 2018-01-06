@@ -1,0 +1,4 @@
+2010-05-15T09:49:00.000Z	zcat[1]		I'd like to upgrade a partition from ext3 to ext4 .. don't really have room for a backup though (movies and shit, not hugely important but I'd rather not just throw them away) .. can this be done or is backup, reformat, restore the only option?
+2010-05-15T09:50:00.000Z	stiltzkin	zcat[1]	it can be done but you won't get the performance benefits of ext4 from an existing ext3 system
+2010-05-15T09:51:00.000Z	zcat[1]	stiltzkin	 so if I upgrade to 'ext4' it won't really be ext4?
+2010-05-15T09:52:00.000Z	stiltzkin	zcat[1]	well technically it will be ext4, but upgrading is not the same as making a fresh filesystem. you won't really see the improvements

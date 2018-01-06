@@ -1,0 +1,4 @@
+2012-05-06T13:40:00.000Z	Guest29812		Is there a way to remove all of a certain file type in a specific directory and all subdirectories?
+2012-05-06T13:40:00.000Z	Guest29812		Or let me rephrase that
+2012-05-06T13:40:00.000Z	Guest29812		a certain command?
+2012-05-06T13:41:00.000Z	TheM4ch1n3	Guest29812	find /some/dir -iname "*word*" -exec rm -i {} \;   # <- interactive, remove "-i" and replace with "-f" for silent

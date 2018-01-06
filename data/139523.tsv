@@ -1,0 +1,4 @@
+2007-05-12T07:19:00.000Z	yxairyggen		I have a friend who had one partition with ubuntu and one with windows XP, and he just removed the ubuntu-partition and got error in grub becuse grub read from the ubuntu-partition he just removed, what is the easiest solution if he only wants to run windows?
+2007-05-12T07:19:00.000Z	yxairyggen		Is there any way to reinstall the windows boot loader to mbr, or should he reinstall grub?
+2007-05-12T07:20:00.000Z	jrib	yxairyggen	run 'fixmbr' from the recovery console on the xp install disk
+2007-05-12T07:21:00.000Z	yxairyggen	jrib	Thanks

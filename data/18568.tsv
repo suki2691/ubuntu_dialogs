@@ -1,0 +1,4 @@
+2011-02-02T06:47:00.000Z	SCooper		how do I mount a usb drive in the cli?, when I tried "sudo mount /dev/sdb /mnt/usb" it told me to specify a filesystem type (fat32), so I tried "sudo mount -t vfat /dev/sdb /mnt/usb" that didn't work. What should I try?
+2011-02-02T06:48:00.000Z	SCooper		that might be the problem, says it cannont open /dev/sdb
+2011-02-02T06:50:00.000Z	bombadil_rocks_	SCooper	unplug and replug the usb device then run dmesg | tail to see what device it is mapping to
+2011-02-02T06:56:00.000Z	SCooper	bombadil_rocks_	got it thanks

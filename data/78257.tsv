@@ -1,0 +1,4 @@
+2008-10-16T15:38:00.000Z	Lykkefeen		I just installed LAMP using package manager with no problems... However, apache cannot interpretate .php pages, is there any way to fix it? I've tried sudo /etc/init.d/apache2 restart with no luck
+2008-10-16T15:39:00.000Z	ActionParsnip	Lykkefeen	sudo  apt-get install php-cli may help
+2008-10-16T15:44:00.000Z	Lykkefeen	ActionParsnip	OK, I installed php5 cli and then restarted the apache2 webserver, but I still can't get my browser to display the php page... :S
+2008-10-16T15:45:00.000Z	ActionParsnip	Lykkefeen	thats all i got then. i have to install that to get ktorrent web interface going as it uses php

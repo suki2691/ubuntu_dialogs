@@ -1,0 +1,4 @@
+2009-12-20T18:37:00.000Z	Svish		I just can't figure this out... how can I tar a directory but exclude one of its sub-directories?
+2009-12-20T18:38:00.000Z	oCean_	Svish	tar handles --exclude=<pattern>
+2009-12-20T18:39:00.000Z	oCean_	Svish	so, if you want to tar your homedir, but not the subdir Music, you can "tar cvf archive.tar /home/svish/ --exclude=Music"
+2009-12-20T18:40:00.000Z	Svish	oCean_	ah, there we go... seems to be working. no errors at least. just have to wait until it hits the excluded directory  :)

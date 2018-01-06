@@ -1,0 +1,4 @@
+2008-07-02T05:17:00.000Z	orphean	zcat[1]	it improves seek times due to the way the head reads data from the platter.  on a seperate partition the head can move directly to the swap area without having to find it on the main filesystem
+2008-07-02T05:18:00.000Z	zcat[1]	orphean	that's only for swap though...
+2008-07-02T05:18:00.000Z	orphean	zcat[1]	unless you need really high preformance for some reason its not a huge deal.
+2008-07-02T05:18:00.000Z	orphean	zcat[1]	well its any file.  since it breaks the disk up into chunks, and ext3 knows what chunk a file is on the head can move to the right area without seeking as much

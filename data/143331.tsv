@@ -1,0 +1,4 @@
+2007-03-11T12:54:00.000Z	sminons		I want to create a firewall which will block all ports incoming and outgoing but allow web browsing.
+2007-03-11T12:54:00.000Z	sminons		what us the command for doing that?
+2007-03-11T12:54:00.000Z	sminons		i tried "iptables -A OUTPUT -p tcp --sport 80 -j ACCEPT "
+2007-03-11T12:54:00.000Z	preVail	sminons	you may want to have a look at the gentoo wiki. it has lots of in depth articles on what you want to do

@@ -1,0 +1,4 @@
+2009-08-29T22:50:00.000Z	b-f		Up until yesterday, My xorg was working perfectly.
+2009-08-29T22:50:00.000Z	b-f		Since then, it lost all of its custom content. I can edit that back in, but when I restart x the changes are gone and I'm still at 800x600 instead of 1440x900
+2009-08-29T22:50:00.000Z	b-f		Why aren't the changes sticking?
+2009-08-29T22:51:00.000Z	grawity	b-f	Make sure you actually _save_ the changes to xorg.conf. (It requires root privileges to change.) Also, look at /var/log/Xorg.0.log

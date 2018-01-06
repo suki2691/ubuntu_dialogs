@@ -1,0 +1,4 @@
+2008-05-22T19:42:00.000Z	rym		Hmm
+2008-05-22T19:43:00.000Z	rym		I mounted a partition to /downloads, only in menu's and etc it shows up as '/downloads'  (slash included) when i look in fstab i dont really see an option to label a partition, where would I do this
+2008-05-22T19:43:00.000Z	nucco	rym	you don't label a partition in /etc/fstab, you label one when you format it
+2008-05-22T19:44:00.000Z	nucco	rym	sudo mkfs.ext3 -nLABEL /dev/node

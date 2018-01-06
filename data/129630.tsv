@@ -1,0 +1,4 @@
+2007-07-14T07:37:00.000Z	EADG_		After running "du -h / |sort -n" and getting a couple permission denied errors I now have this problem; mkdir: cannot create directory `test': Read-only file system. How can that be fixed without a reboot?
+2007-07-14T07:38:00.000Z	jetole	EADG_	mount -o remount,rw /directory
+2007-07-14T07:38:00.000Z	EADG_	jetole	will do, thanks.
+2007-07-14T07:39:00.000Z	jetole	EADG_	no prob

@@ -1,0 +1,4 @@
+2010-10-20T16:38:00.000Z	ranjan		Hi all, how to restrict hosts manually override ip configuration with dhcp?
+2010-10-20T16:40:00.000Z	ranjan		hi all how to restrict dhcp from hosts overiding ip manually?
+2010-10-20T16:42:00.000Z	uranus_gas_giant	ranjan	you can stop dhcliient with "sudo /etc/init.d/dhclient stop" and you can stop any interface with "sudo ifconfig <interface> down"
+2010-10-20T16:45:00.000Z	ranjan	uranus_gas_giant	but i still need the hosts with fixed address to be able to contact dhcp server

@@ -1,0 +1,4 @@
+2006-11-30T14:24:00.000Z	jaye		does anyone know if its safe to create a hotspare on a different scsi channel than the array its going to be used with on a hardware raid card?
+2006-11-30T14:26:00.000Z	Jules98	jaye	do you have a HW raid manager? what brand?
+2006-11-30T14:26:00.000Z	jaye	Jules98	I'm using the rom manager on a adaptec 2230slp card.
+2006-11-30T14:30:00.000Z	Jules98	jaye	you must have the hotspare disc on the same adapter. It may be on the other channel, but I would reccomand to keep it on the same.

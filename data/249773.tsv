@@ -1,0 +1,4 @@
+2012-02-17T14:09:00.000Z	u890		hello, I want to convert images files from TIFF to JPG format. This command "convert *.tiff *.jpg" works, but leaves out filenames with spaces. How should I change that command to add files with spaces?
+2012-02-17T14:10:00.000Z	Dr_willis	u890	 you may need to use the 'find' command and do some quoteing around teh file names argument. I tend to make it a point to NEVER use spaces in filenames :)
+2012-02-17T14:12:00.000Z	Dr_willis	u890	 not really. id have to look up find examples.
+2012-02-17T14:13:00.000Z	Dr_willis	u890	 checkout  the various find examples and find  with spaces in filenames

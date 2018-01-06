@@ -1,0 +1,4 @@
+2010-01-12T23:46:00.000Z	trism	Zteam	how did you install the nvidia drivers? because DKMS rebuilds them just fine for me every kernel update, and I'm on karmic (I used System/Administration/Hardware Drivers)
+2010-01-12T23:48:00.000Z	Zteam	trism	 well it should rebuild but it won't work
+2010-01-12T23:48:00.000Z	Zteam	trism	 See here: https://bugs.launchpad.net/ubuntu/+source/nvidia-graphics-drivers-180/+bug/438398
+2010-01-12T23:57:00.000Z	trism	Zteam	according to apt-cache, the header is a dependency of nvidia kernel source, so it should be installed

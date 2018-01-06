@@ -1,0 +1,4 @@
+2006-05-21T05:15:00.000Z	AngryElf		hey guys, i'm having a consistant problem with dvdrip/libdvdcss2 -- When I "read DVD contents" it only probes the first title on the disc and errors on the second one, then stops "Can't open the title 2 info file"
+2006-05-21T05:15:00.000Z	AngryElf		this has been on 3 DVDs now.....and seems to work fine on DVDShrink DVDs
+2006-05-21T05:16:00.000Z	kuitang	AngryElf	try dmesg; u might find the error there
+2006-05-21T05:20:00.000Z	AngryElf	kuitang	dmesg has some ambiguous lines in there about it no errors per se

@@ -1,0 +1,4 @@
+2010-06-16T21:02:00.000Z	thesheff17_		does anyone run vmbuilder here? I'm trying to run it ram with this command: vmbuilder kvm ubuntu --suite=lucid --flavour=virtual --arch=amd64 --mirror=http://192.168.1.4/ubuntu -o --libvirt=qemu:///system --tmpfs - --ip=192.168.1.98 --part=vmbuilder.partition --templates=mytemplates --user=ubuntuadmin --name=ubuntuadmin --pass=password --addpkg=vim --addpkg=ssh --addpkg=ntp --addpkg=ntpdate --addpkg=xvfb --mem=
+2010-06-16T21:02:00.000Z	thesheff17_		512 --hostname=vm1 --bridge=br0
+2010-06-16T21:02:00.000Z	thesheff17_		vmbuilder: error: no such option: --tmpfs
+2010-06-16T21:03:00.000Z	ikonia	thesheff17_	remove that option and work backwards

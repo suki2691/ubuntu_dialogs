@@ -1,0 +1,4 @@
+2009-10-18T21:41:00.000Z	trism	dhalsimm	poppler is a general purpose pdf library, so it is used by quite a few packages
+2009-10-18T21:41:00.000Z	dhalsimm	BoxMagnet	is there a way to remove only libpoppler, because I'm gonna install from source
+2009-10-18T21:42:00.000Z	trism	dhalsimm	if you remove libpoppler without removing the packages that depend on it, your system will be broken
+2009-10-18T21:47:00.000Z	trism	dhalsimm	you should still be able to install evince from source though, you'll just have multiple poppler versions available

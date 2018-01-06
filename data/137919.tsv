@@ -1,0 +1,4 @@
+2012-11-23T00:31:00.000Z	DaimyoKirby		Bobweaver- the issue is that there are so many subdirectories, and so many different files, I thought it would be simpler to remove all files, and keep only a few.
+2012-11-23T00:32:00.000Z	llutz	DaimyoKirby	like:  find path/  -regextype posix-egrep -not -regex '.*(doc|xls)$' -type f -delete
+2012-11-23T00:32:00.000Z	llutz	DaimyoKirby	you want to check and test that before you actually run it
+2012-11-23T00:39:00.000Z	llutz	DaimyoKirby	you can extend the list of extensions, just use | to seperate

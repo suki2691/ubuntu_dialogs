@@ -1,0 +1,4 @@
+2012-03-12T19:00:00.000Z	jbwiv		guys, I have an executable I've compiled on ubuntu 11.10 but need to run it on 10.04. I've used ldd to determine necessary shared obj files and copied each of them into its directory, and then I've tested it in chroot to make sure those are all it needs (adjusting LD_LIBRARY_PATH accordingly). However, when I run it on 10.04 I get a segmentation fault. Is there something I've missed here? Is it because 11.10 uses a later version of gcc? Something else?
+2012-03-12T19:01:00.000Z	ikonia	jbwiv	run gbd against it to get a better idea
+2012-03-12T19:02:00.000Z	jbwiv	ikonia	you mean gdb?
+2012-03-12T19:07:00.000Z	jbwiv	ikonia	if I set the LD_LIBRARY_PATH that way, even gdb segfaults

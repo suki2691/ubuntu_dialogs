@@ -1,0 +1,4 @@
+2012-07-25T20:21:00.000Z	osse		I'm trying to find the version number of a package on the command line. I tried 'apt-cache showpkg foo' but it lists nearly no information. It works on other packages, though. The package in question is xkeyboard-config
+2012-07-25T20:22:00.000Z	MonkeyDust	osse	 try apt-cache policy
+2012-07-25T20:24:00.000Z	osse	MonkeyDust	it says 'xkeyboard-config: Installed: (none) Candidate: (none) Version table:'  Weird. ISn't it a package in the normal sense? A fix was recentely fixed, supposedly in this package
+2012-10-29T14:18:00.000Z	MonkeyDust	osse	 better ask in #bash

@@ -1,0 +1,4 @@
+2006-07-12T13:39:00.000Z	stopher		use clear /mbr
+2006-07-12T09:44:00.000Z	stopher		Hey guys, I'm running a patch for ubuntu and it's stored in /etc/httpd/src/modules/files and tells me to run command: patch -pO in /usr/local/httpd  but nothing happens with either. Can I get some help please?
+2006-07-12T09:45:00.000Z	stopher		says -bash: <command>: command not found
+2006-07-12T09:45:00.000Z	frogzoo	stopher	usually:    patch -p0 < patchfile

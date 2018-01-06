@@ -1,0 +1,4 @@
+2007-06-21T07:59:00.000Z	Dekkard		how do i get gdm to start right after boot?
+2007-06-21T08:00:00.000Z	RAOF	Dekkard	It should do it already.
+2007-06-21T08:00:00.000Z	Dekkard	RAOF	 yeah.. but i switched to kdm somehow.. and now i cant get it to start without loging in to the console
+2007-06-21T08:01:00.000Z	RAOF	Dekkard	Hm.  You should be able to run "sudo dpkg-reconfigure gdm" and select "gdm" as your login manager, I think.  As long as it's still installed :)

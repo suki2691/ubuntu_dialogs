@@ -1,0 +1,4 @@
+2010-05-05T06:08:00.000Z	gizmobay		If I logout, I get a black screen. Anyone know how to fix?
+2010-05-05T06:09:00.000Z	CogitoErgoSam	gizmobay	 Do you get the GDM login screen when booting up?
+2010-05-05T06:11:00.000Z	CogitoErgoSam	gizmobay	 I'm not sure if its the "right" way to fix it, but you could probably add something to /etc/gdm/PostSession/Default   -  its the script that runs when a user ends a session
+2010-05-05T06:11:00.000Z	CogitoErgoSam	gizmobay	 you'd probably have to restart gdm for it to take effect, which would restart your session

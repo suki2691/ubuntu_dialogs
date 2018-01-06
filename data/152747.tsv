@@ -1,0 +1,4 @@
+2009-08-27T03:58:00.000Z	id1000		I just did a system update the update packages were 400mb+ this maxed-out my little ssd laptop hd, is there someway I can clear the temp files/update installers
+2009-08-27T03:59:00.000Z	arand	id1000	apt-get clean/autoclean
+2009-08-27T04:02:00.000Z	arand	id1000	either: sudo apt-get autoclean OR sudo apt-get clean
+2009-08-27T04:03:00.000Z	arand	id1000	use apt-get --help to see what they do.

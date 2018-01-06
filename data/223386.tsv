@@ -1,0 +1,4 @@
+2005-10-01T16:11:00.000Z	barongas		I'm having some issues mounting an iso, when I mount it it says wrong fs type, bad option, etc etc so I check dmesg | tail and it says VFS: Can't find ext3 filesystem on dev loop0. and Unable to identify CD-ROM format. I'm not sure where to start...
+2005-10-01T16:12:00.000Z	chavo	barongas	sudo mount -o loop /path/to/iso /mnt/point
+2005-10-01T16:13:00.000Z	chavo	barongas	try it w/o filesystem type
+2005-10-01T16:14:00.000Z	barongas	chavo	I found the problem. Obviously these iso are special somehow. It's a playstation game and I think it might be a bin-file disguised as an iso

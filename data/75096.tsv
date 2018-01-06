@@ -1,0 +1,4 @@
+2009-12-14T06:05:00.000Z	ActionParsnip1	zsquareplusc	boot to recovery root console and run: apt-get --purge remove nvidia*;  apt-get --purge autoremove; shutdown -r now
+2009-12-14T06:06:00.000Z	ActionParsnip1	zsquareplusc	you will then get an x server, you can then reinstall the driver. You can also use: sudo nvidia-xconfig
+2009-12-14T06:10:00.000Z	zsquareplusc	ActionParsnip1	hm. i'd rather not remove the driver as "nv" has issues with my 2 screen setup.  i'll try nvidia-xconfig later (as restarting X would throw me out here)
+2009-12-14T06:11:00.000Z	ActionParsnip1	zsquareplusc	then remove the nv driver and you will use vesa

@@ -1,0 +1,4 @@
+2010-04-08T17:07:00.000Z	elyob		Hi, I have a shell script I am writing to check the permissions of log & cache files - not done too many of these.
+2010-04-08T17:07:00.000Z	elyob		Am succesfully getting the permission value ...  perm=`stat -t --format=%a  $base/${proj[$j]}/trunk/kohana/application/cache`
+2010-04-08T17:07:00.000Z	elyob		Just struggling with the if clause ... if  [$perm == 755]
+2010-04-08T17:08:00.000Z	Pici	elyob	#bash might be more helpful for something more programming oriented like this.

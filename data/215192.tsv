@@ -1,0 +1,4 @@
+2007-05-01T09:01:00.000Z	Petey		Does anyone know a known-working virtual PC, VMware, etc. piece of software that I can run Ubuntu in a virtual environment?  Microsoft Virtual Server doesn't seem to work :/
+2007-05-01T09:02:00.000Z	finley	Petey	we run over 30 virtual machines off a quad cpu opteron box.  Dapper as host OS, and Ubuntu as most of the guest OS'.
+2007-05-01T09:03:00.000Z	finley	Petey	all using vmware.
+2007-05-01T09:03:00.000Z	finley	Petey	only real issue is that guest OS clocks run a bit slowly, but a cronjob to sync them frequently (*/5) fixes that.

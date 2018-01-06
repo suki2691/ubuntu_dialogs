@@ -1,0 +1,4 @@
+2005-08-05T14:26:00.000Z	D1		does anyone know how to get Synaptic to remove uneeded dependencies?
+2005-08-05T14:26:00.000Z	D1		like when I install program X and it brings in A, B, and C. and then I remove X how do I remove the other programs?
+2005-08-05T14:27:00.000Z	mjr	D1	you don't really; you can try to identify them with deborphan, which will catch a part of them
+2005-08-05T14:27:00.000Z	mjr	D1	otherwise you can use debfoster, to which you can manually say what packages you've purposefully installed, and it'll act accordingly

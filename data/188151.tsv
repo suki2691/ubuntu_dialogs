@@ -1,0 +1,4 @@
+2007-05-29T12:14:00.000Z	Rasitiln		this is really starting to bother me, I cant write to the root of the drive, despite owning both the file and the options being setup in /etc/fstab and having ran the chown/chmod commands on it.
+2007-05-29T12:15:00.000Z	Rasitiln		it still says owner root on the root of the drive :-/
+2007-05-29T12:15:00.000Z	frying_fish	Rasitiln	then you aren't changing the permissions, i.e. the account you are doing it with doesn't have permission to do it
+2007-05-29T12:16:00.000Z	frying_fish	Rasitiln	are you piping it through something, such as      sudo foo | chown -R bar

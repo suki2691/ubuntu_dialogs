@@ -1,0 +1,4 @@
+2005-10-21T09:12:00.000Z	richard_		How does one change the permission on a file that is protected by root? I'm trying to install some software. I converted some rpm files using alien to deb files. Tried to get kpackage to install them but keep on asking for 'root' password. So I opened up kuser and tried to give myself root permission but cannot write to the etc/group files . They must be write permission protected and I'm now sure how to change them.
+2005-10-21T09:14:00.000Z	richard_		Is there an easier way to install deb files without using konsole?
+2005-10-21T09:15:00.000Z	das	richard_	in the terminal just type 'dpkg -i filename.db'
+2005-10-21T09:17:00.000Z	das	richard_	i use 'sudo -s -H'

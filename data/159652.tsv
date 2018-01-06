@@ -1,0 +1,4 @@
+2007-11-05T20:44:00.000Z	backtick		hi all, i installed gutsy on my machine with an old LG Studioworks 550G monitor (refersh rate is 60).. but during the boot process, the monitor reports that it's being set to an unsupported (higher) frequency and reverts back.. by then most of the boot process has already completed and X goes on to start.. any ideas on how to fix that?
+2007-11-05T20:46:00.000Z	soundray	backtick	go through your /boot/grub/menu.lst and wherever you find a 'quiet splash', remove them. You won't get to see the pretty boot splash, but you will see boot messages instead.
+2007-11-05T20:47:00.000Z	backtick	soundray	i commented it but the issue still remains
+2007-11-05T20:48:00.000Z	soundray	backtick	commenting it out won't do the trick. Remove *all* "quiet splash" and reboot

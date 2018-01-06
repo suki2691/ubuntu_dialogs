@@ -1,0 +1,4 @@
+2012-11-27T19:05:00.000Z	gp5st		i have an application that will be reading from /dev/random often.  Is there a way to keep the entropy high?
+2012-11-27T19:06:00.000Z	gordonjcp	gp5st	entropy key
+2012-11-27T19:07:00.000Z	gp5st	gordonjcp	sorry, i should have specified: it's on a server I don't have physical access to. but that is an idea i hadn't thought of
+2012-11-27T19:21:00.000Z	gordonjcp	gp5st	/dev/urandom is less random but still pretty good

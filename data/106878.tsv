@@ -1,0 +1,4 @@
+2010-11-10T15:09:00.000Z	user81_		Hello, hope anybody can help. I'm having a weird dpkg problem:  E: Fout tijdens verwerken van bups-driver-gutenprint (NewVersion1)
+2010-11-10T15:09:00.000Z	user81_		, E: Problem with MergeList /var/lib/apt/lists/nl.archive.ubuntu.com_ubuntu_dists_lucid_main_binary-i386_Packages
+2010-11-10T15:09:00.000Z	user81_		. The problem seems to be that dpkg is referring to bups-driver-gutenprint instead of cups-driver-gutenprint. I've checked /var/lib/dpkg/status but no mention of bups-driver-gutenprint, just the proper cups line. Should I change it to bups, eventhough I know it is the wrong package name?
+2010-11-10T15:09:00.000Z	FloodBot2	user81_	Please don't flood, use http://paste.ubuntu.com to paste, don't use Enter as punctuation.

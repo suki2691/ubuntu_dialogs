@@ -1,0 +1,4 @@
+2008-05-07T06:36:00.000Z	kuahara		Is there a way to force mount an unknown volume/type/size   I previously had XP x64 installed as a primary os and attempted to use partition magic to resize a partition.  Didn't work, but there were no noticeable changes.  When I later deleted the 125GB partition, it showed back up as an 8MB partition
+2008-05-07T06:36:00.000Z	kuahara		but, I can't mount it
+2008-05-07T06:38:00.000Z	kuahara		it might be easier if I ask if there is anything obviously wrong with this command:  mount -t ntfs -3g /dev/sda5/media/disk -o force
+2008-05-07T06:39:00.000Z	^u^	kuahara	and /dev/sda5 media/disk

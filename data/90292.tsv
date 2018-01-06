@@ -1,0 +1,4 @@
+2008-05-17T16:15:00.000Z	BobB		thanks all, sorted it out.  Had to sudo modprobe -r ehci_hcd
+2008-05-17T16:15:00.000Z	BobB		not a clue what sudo modprobe -r ehci_hcd does though.  Any explanations?
+2008-05-17T16:16:00.000Z	hwilde	BobB	it removes the module that provides the ehci  (ehanced something something)
+2008-05-17T16:17:00.000Z	BobB	hwilde	void^ ah thanks, it must be because the card reader is a bit dogdy,

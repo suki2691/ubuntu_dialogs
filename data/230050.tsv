@@ -1,0 +1,4 @@
+2005-07-02T09:55:00.000Z	killfill		hi
+2005-07-02T09:56:00.000Z	killfill		how do i install java?.. is there a ubuntu .deb somewhere?  if not, can i make one myself easyly?
+2005-07-02T09:57:00.000Z	killfill		hm..
+2005-07-02T09:57:00.000Z	nalioths_dog	killfill	for java: download the .bin file from java.sun.com, apt-get install java-package, chmod +x [the .bin file] , make-jpkg [the bin file] , dpkg -i [the generated .deb file] 

@@ -1,0 +1,4 @@
+2005-12-20T12:52:00.000Z	mcphail	Ricker	www-data is the default owner, but your index.html was probably created as root
+2005-12-20T12:53:00.000Z	Ricker	mcphail	so by issuing command chown -R www-data /var/www
+2005-12-20T12:54:00.000Z	mcphail	Ricker	the -R tells it to recurse through the directories
+2005-12-20T12:55:00.000Z	Ricker	mcphail	wow so much to learn.  Thanks!

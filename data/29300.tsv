@@ -1,0 +1,4 @@
+2010-07-08T22:22:00.000Z	bambam_		How do I check which services are running on my system ?
+2010-07-08T22:22:00.000Z	racethesun	bambam_	service --status-all
+2010-07-08T22:23:00.000Z	bambam_	racethesun	: and how do I know which ports are used by these services ?
+2010-07-08T22:24:00.000Z	racethesun	bambam_	sudo netstat -lptu

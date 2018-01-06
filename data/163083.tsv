@@ -1,0 +1,4 @@
+2006-10-24T09:34:00.000Z	baastrup		hello, im in some troubles here, installed winxp and crashed my grub mbr, is there any change i can fix it from this live cd, im running edgy on sda1
+2006-10-24T09:35:00.000Z	dewd_	baastrup	mount the root partition, chroot and reinstall grub
+2006-10-24T09:35:00.000Z	dewd_		or just use grub commandline
+2006-10-24T09:36:00.000Z	baastrup	dewd_	I tyed that chrooted, sudo apt-get reinstall grub, and even tryed grub-install hd0 with out any luck

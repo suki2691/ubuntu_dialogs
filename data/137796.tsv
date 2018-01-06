@@ -1,0 +1,4 @@
+2010-09-16T00:44:00.000Z	The_Paco		hi, I'm trying to search a large text file to isolate and redirect all the URLs to another file. I'm thinking 'grep' would do that, but I'm having trouble figuring out how to get it to choose all the text after the expression I'm searching for ("http" in this case).
+2010-09-16T00:44:00.000Z	The_Paco		Am I on the right track?
+2010-09-16T00:45:00.000Z	llutz	The_Paco	grep http file
+2010-09-16T00:46:00.000Z	llutz	The_Paco	use awk

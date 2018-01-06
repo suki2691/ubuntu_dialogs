@@ -1,0 +1,4 @@
+2008-11-10T21:24:00.000Z	sudobash		hey on AMD Power Monitor it says each core is running at 1Ghz each but it has power saving on... How can I turn Power saver off and run each core at optimal speed? I did it on my pc but this is my girlfriends and its been upgraded to 8.10 from 8.04...
+2008-11-10T21:25:00.000Z	sudobash		I already check Power Management Preferences
+2008-11-10T21:26:00.000Z	chuckmoney	sudobash	go to a terminal and run "sudo dprk-reconfigure gnome-applets", answer yes, and then add the CPU Frequency Monitor applet to your GNOME panel.  you can then click the applet and it will allow you to choose "performance mode"
+2008-11-10T21:28:00.000Z	chuckmoney	sudobash	sorry, that should be dpkg-reconfigure

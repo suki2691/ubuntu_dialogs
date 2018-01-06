@@ -1,0 +1,4 @@
+2005-03-20T14:36:00.000Z	BaxterW		I've got a terribly old computer I'm running Ubuntu on, how can I get it to stop starting up X on boot. I'm used to init levels, but ubuntu does something different.
+2005-03-20T14:36:00.000Z	deadcat	BaxterW	/etc/X11/default-*manager*
+2005-03-20T14:37:00.000Z	BaxterW	deadcat	thanks
+2005-03-20T14:37:00.000Z	deadcat	BaxterW	or jsut apt-get remove --purge gdm hehe

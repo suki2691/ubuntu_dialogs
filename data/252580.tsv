@@ -1,0 +1,4 @@
+2005-09-08T15:09:00.000Z	hacim		hi, I'm trying to do a dist-upgrade, but postfix is held back, reason:   postfix: Depends: libc6 (>= 2.3.2.ds1-21) but 2.3.2.ds1-20ubuntu13 is to be installed
+2005-09-08T15:11:00.000Z	hacim		anyone know why postfix depends on an upgrade to libc6?
+2005-09-08T15:11:00.000Z	HappyFool	hacim	is this a breezy dist-upgrade?
+2005-09-08T15:13:00.000Z	hacim	HappyFool	ah,  I figured it out, had a bad apt line

@@ -1,0 +1,4 @@
+2010-05-18T10:07:00.000Z	Smeh		hi, so.. I just installed 9.10 on a fakeraid setup, which installed ok, but on reboot grub2 fails saying it can't find the /dev/mapper/ partition it's looking for and just dumps me at an initramfs prompt
+2010-05-18T10:07:00.000Z	Smeh		any pointers?
+2010-05-18T10:09:00.000Z	Smeh		1.6ghz n330. You'd reccomend going with softraid anyway?
+2010-05-18T10:09:00.000Z	histo	Smeh	can you pass the nodmraid option at grub to the kernel

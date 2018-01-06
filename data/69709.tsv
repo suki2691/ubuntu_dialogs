@@ -1,0 +1,4 @@
+2010-12-15T10:27:00.000Z	Flynsarmy		I've installed SSH server with tasksel but telnet localhost 23 still shows there's no server running ont he port. sudo service ssh restart shows 'ssh start/running, process 14935' so no issues there...any ideas?
+2010-12-15T10:28:00.000Z	sacarlson	Flynsarmy	I think ssh is on a different port than telnet
+2010-12-15T10:31:00.000Z	sacarlson	Flynsarmy	apparmor ?
+2010-12-15T14:57:00.000Z	sacarlson	Flynsarmy	I guess you can try live cd boot and delete or rename the file /etc/X11/xorg.conf  and try boot again

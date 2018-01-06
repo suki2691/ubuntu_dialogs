@@ -1,0 +1,4 @@
+2007-03-14T14:38:00.000Z	z0rz		Is there any easy way to see what program is writing to the system log?
+2007-03-14T14:38:00.000Z	z0rz		/var/log/syslog
+2007-03-14T14:39:00.000Z	Rooy	z0rz	sudo lsof /var/log/syslog should give open handles at once instance, not sure how to follow it though
+2007-03-14T14:40:00.000Z	z0rz	Rooy	It only shows syslogd in the list

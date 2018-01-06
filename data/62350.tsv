@@ -1,0 +1,4 @@
+2011-06-17T19:21:00.000Z	inashdeen_		Hi guys, I need an advice on how to do this. I just wrote a really simple program using the BUC programming language. I am a newbie who does not have any background in programming. I don’t know how to write in python, jav a nor C+.
+2011-06-17T19:22:00.000Z	inashdeen_		the question is, how do I convert my created software into a .deb package. Its dependencies are BUC programming language and the logkyeys. But I want to make it an offline installation since I already got the logkeys source as well as the BUC .deb.
+2011-06-17T19:22:00.000Z	iceroot	inashdeen_	man debhelper
+2011-06-17T19:23:00.000Z	iceroot	inashdeen_	with dh_make its relativ easy to build your own deb

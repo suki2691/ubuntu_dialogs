@@ -1,0 +1,4 @@
+2009-02-24T02:30:00.000Z	Tao		Hello. I'm having an issue disabling the system beep. I have tried rmmod pcspkr and blacklisting it but it still persists. Any suggestions?
+2009-02-24T02:32:00.000Z	Tao		Trying now.
+2009-02-24T02:33:00.000Z	jonaskoelker	Tao	the cheap solution is "xset r off"
+2009-02-24T02:33:00.000Z	jonaskoelker	Tao	that only disables it under X, and you have to rerun it for every session (so put it in a startup script)

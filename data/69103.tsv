@@ -1,0 +1,4 @@
+2009-01-09T02:32:00.000Z	nothing123		I have run into problem with ethernet cards, Ubuntu Server edition, with generic kernel: I have three cards, Realtek 8139 and 2 3COM cards, I know proper names. I tested this on two PC's, one AMD 64 3000+ and old P150. Only one PCI card inserted at a time. lspci displays these cards correctly, lsmod tells me correct drivers are loaded. Still, not one of them is working. Integrated network in AMD64 PC works fine, no problems, only PCI. Any i
+2009-01-09T02:33:00.000Z	Seveas	nothing123	that got cut off after 'only PCI. Any'
+2009-01-09T02:38:00.000Z	nothing123	Seveas	my first question ended with words: any idea? So you read it practicaly all...
+2009-01-09T02:39:00.000Z	Seveas	nothing123	well, in your question it's not entirely clear what's failing. Are all interfaces connected? Are the lights blinking? Does mii-diag see link on all?

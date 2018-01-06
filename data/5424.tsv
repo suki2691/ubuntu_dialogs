@@ -1,0 +1,4 @@
+2012-02-21T17:28:00.000Z	XLV	vidb	look again at fstab .. a partition wiht mount point /
+2012-02-21T17:29:00.000Z	XLV	vidb	you are probably using some ubuntu live cd and you are actually opening the fstab of that live cd
+2012-02-21T17:30:00.000Z	vidb	XLV	 oh yes maybe! well I found only one media in /media ...
+2012-02-21T17:30:00.000Z	XLV	vidb	mount ubuntu root partition in some dir in /media .. then do a "chroot /media/<that dir>

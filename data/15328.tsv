@@ -1,0 +1,4 @@
+2011-04-28T22:18:00.000Z	escott	stefg	sudo -i is preferred
+2011-04-28T22:21:00.000Z	stefg	escott	there's a difference : sudo su - gets you root, with all consequences, sudo -s just gives you a root shell .... try 'gzip </dev/some_device >image.gz' ... won't work with sudo -i , but works after getting root with sudo su -
+2011-04-28T22:25:00.000Z	escott	stefg	gzip </dev/sda4 > foo.gz works fine for me in sudo -i
+2011-04-28T22:26:00.000Z	escott	stefg	there are differences in things like environment variables for sure

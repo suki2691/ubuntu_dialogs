@@ -1,0 +1,4 @@
+2008-11-19T07:01:00.000Z	soho		is it safe to run openssh server on ubuntu?
+2008-11-19T07:02:00.000Z	soho		oh okay
+2008-11-19T07:02:00.000Z	soho		how do you secure it?
+2008-11-19T07:02:00.000Z	sinuc	soho	deny rootaccess, create a group called ssh and set the allow only this group parameter in the sshdconfig, also setup denyhosts

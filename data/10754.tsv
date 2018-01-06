@@ -1,0 +1,4 @@
+2011-08-22T12:57:00.000Z	jasonmsp		anyone know why I am getting "SET failed on device wlan0 ; Operation not supported." after - iwconfig wlan0 mode ad-hoc  ???
+2011-08-22T12:58:00.000Z	kwtm	jasonmsp	Is it because your wlan0 device doesn't do adhoc?  Or that your wlan0 device isn't working/isn't what you think it is?
+2011-08-22T13:06:00.000Z	jasonmsp	kwtm	 the device itself supports ad-hoc. and lsusb lists 'Bus 001 Device 003: ID 0bda:8189 Realtek Semiconductor Corp. RTL8187B '
+2011-08-22T13:06:00.000Z	kwtm	jasonmsp	Oh.  Then I don't know.

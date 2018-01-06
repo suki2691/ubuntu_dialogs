@@ -1,0 +1,4 @@
+2008-11-16T09:05:00.000Z	crakrjak		﻿Hi all, i just upgraded my machine to 6 GB of ram, 32 bit 8.04 install, i believe i needed to recompile my kernel with PAE enabled which i did and no go, now i suspect i need to enable HIGHMEM64 also, does that sound right?
+2008-11-16T09:06:00.000Z	crakrjak		three: whats the ./ for?
+2008-11-16T09:07:00.000Z	threeseas	crakrjak	to output directory line in the file (the file is an ls -l output)
+2008-11-16T09:09:00.000Z	threeseas	crakrjak	to output directory lines in the file (the file is an ls -l output to file upon which is given to grep )

@@ -1,0 +1,4 @@
+2007-06-11T14:59:00.000Z	Wips		How do I open folder from root? Something like nautirus, dont remember the name :O
+2007-06-11T15:00:00.000Z	nickrud	Wips	to run the file manager as root, gksudo nautilus <-- dangerous
+2007-06-11T15:01:00.000Z	Wips	nickrud	Hi Again. You gave me a command to insert to fstab once. about how do change the rights on the vfat harddisk.. but I cant figure it out
+2007-06-11T15:02:00.000Z	nickrud	Wips	defaults,utf8,umask=007,gid=46 are the options you'd put on the vfat partition

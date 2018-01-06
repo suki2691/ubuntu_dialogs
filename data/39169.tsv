@@ -1,0 +1,4 @@
+2010-04-20T05:01:00.000Z	Kentrel		Do I need a firewall on Ubuntu? I assumed there was one set up automatically but when I type ufw status it says its inactive
+2010-04-20T05:01:00.000Z	Pici	Kentrel	There are no ports listening by default, so no firewall rules by default.
+2010-04-20T05:01:00.000Z	Kentrel	Pici	so I don't need a firewall? I installed firestarter - do I need it?
+2010-04-20T05:02:00.000Z	Pici	Kentrel	iptables is already installed, its part of your kernel.  Unless you are installing things that open ports and you don't want certain addresses to get to them, then you don't need to configure any rules with firestarter/ufw.

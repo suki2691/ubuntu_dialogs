@@ -1,0 +1,4 @@
+2009-08-23T04:31:00.000Z	adrian__		I got a question, I am using ubunto for the moment. I do not want it to boot right into the gui. I need the terminal and to see the servies load and whatever eles loads. I know one can click the lower left hand side of the screen and select the promt to boot into fail safe terminal but that sucks. Is there a bash file to edit to get this to work.
+2009-08-23T04:32:00.000Z	edbian	adrian__	Be more specific.  Would you like it so that your system boots to a CLI and then you have to run a command to start the GUI once you've logged in?  That's very easy to set up.
+2009-08-23T04:33:00.000Z	edbian	adrian__	Simply remove the "gdm" package: "sudo apt-get remove gdm"  Then to start a GUI after you've logged in simply type "startx"
+2009-08-23T04:34:00.000Z	edbian	adrian__	NP!  BTW it's customary to begin your statements with my name if you're talking to me.  Just like I'm doing for you! :)

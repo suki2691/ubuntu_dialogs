@@ -1,0 +1,4 @@
+2009-04-01T07:27:00.000Z	matty_b		does anyone know which vim ubuntu comes with?
+2009-04-01T07:27:00.000Z	matty_b		is it vim-full, or just vim?
+2009-04-01T07:27:00.000Z	Flannel	matty_b	it's vim-tiny, you want to install "vim" to get a real vim.  vim-full includes a GUI (gvim)
+2009-04-01T07:28:00.000Z	Flannel	matty_b	dpkg -l | grep vim

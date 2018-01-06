@@ -1,0 +1,4 @@
+2009-03-05T08:03:00.000Z	coreyman1		if i get a timeout on all server ports does that mean no server present, or port blocked
+2009-03-05T08:04:00.000Z	dieselsmoke	coreyman1	none present, or you would get connection refused, most lilely.
+2009-03-05T08:06:00.000Z	dieselsmoke	coreyman1	if you're attempting to access a LAN box from the WAN side you need to port-forward via the router.
+2009-03-05T08:07:00.000Z	dieselsmoke	coreyman1	you can access any box on your subnet, but the WAN side would require port-forwarding.

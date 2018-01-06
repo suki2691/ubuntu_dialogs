@@ -1,0 +1,4 @@
+2010-05-13T05:43:00.000Z	hutty		how do I remove a package without removing any of its  dependences?
+2010-05-13T05:43:00.000Z	bastidrazor	hutty	apt-get remove .. will just pull the package only
+2010-05-13T05:44:00.000Z	bastidrazor	hutty	to clean up the dependencies later use auto-remove
+2010-05-13T05:44:00.000Z	hutty	bastidrazor	      ah ok   thanks

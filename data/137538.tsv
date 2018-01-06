@@ -1,0 +1,4 @@
+2007-04-21T05:25:00.000Z	Hubris		I need to revert back to an older version of a package than is offered under Feisty...as they broke it a couple versions ago.  I'm assuming I need to add an Edgy repository, and use Synaptic to try force the downgrade....correct?
+2007-04-21T05:26:00.000Z	eck	Hubris	if it is just one package, I think you are best off downloading the .deb, reinstalling it, and then pinning it with apt_preferences
+2007-04-21T05:27:00.000Z	Hubris	eck	- It's the VNC4Server package....I know the revision under Edgy that 'worked'....the update in Edgy broke it..so I stayed with the old one.  Feisty doesn't offer that old version.
+2007-04-21T05:28:00.000Z	eck	Hubris	you can find the version you want by digging around here http://archive.ubuntu.com/ubuntu/pool/

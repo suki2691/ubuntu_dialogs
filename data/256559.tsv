@@ -1,0 +1,4 @@
+2012-04-16T19:14:00.000Z	txdv		how do i make services stop starting automatically on startup?
+2012-04-16T19:15:00.000Z	dr_willis	txdv	 upstart services get started from their /etc/init/whateer.conf file. you can rename it to be like whatever.dontrun (is one way)
+2012-04-16T19:16:00.000Z	dr_willis	txdv	 not sure of any gui tools that do that for upstart
+2012-04-16T19:17:00.000Z	dr_willis	txdv	 err.. its how the upstart docs say to do it i belive.

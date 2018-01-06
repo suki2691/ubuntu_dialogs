@@ -1,0 +1,4 @@
+2010-10-29T21:11:00.000Z	teemo		im trying to get my wireless usb card to work, and im not sure how tell it to turn on, i think i have the drivers and everything installed correctly, im just not sure how to tell ubuntu to use it
+2010-10-29T21:12:00.000Z	ActionParsnip	teemo	if you run:   sudo lshw -C network    then you can see the wireless chip used to find guides based on the chip
+2011-04-07T20:18:00.000Z	ActionParsnip	teemo	sudo os-prober
+2011-04-07T20:32:00.000Z	ActionParsnip	teemo	you edit the config files, grub.cfg is generated using the config files

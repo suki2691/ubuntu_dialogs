@@ -1,0 +1,4 @@
+2011-05-23T08:00:00.000Z	FoolishOwl		I was having trouble restarting bind9. I kept seeing references to the error being associated with rndc.key, and I noticed the date on rndc.key was 2010-05-21, a year ago yesterday.
+2011-05-23T08:01:00.000Z	celthunder	FoolishOwl	so you made a 1 year valid key
+2011-05-23T08:02:00.000Z	FoolishOwl	celthunder	that's what it looks like. I haven't seen anything in the documentation about an expiration, though.
+2011-05-23T08:02:00.000Z	celthunder	FoolishOwl	most keys have a default of 1 year when you make them

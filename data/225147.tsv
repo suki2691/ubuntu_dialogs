@@ -1,0 +1,4 @@
+2005-08-07T12:36:00.000Z	billytwowilly		so, mysqladmin won't let me create databases. I've edited /etc/mysql/my.cnf to have a password and the user msql but when I use mysqladmin -u mysql -p creat Mambo and put in the password it doesn't let me create the database
+2005-08-07T12:37:00.000Z	floppyears	billytwowilly	try "sudo mysql"
+2005-08-07T12:38:00.000Z	billytwowilly	floppyears	yah, that doesn't work either. doesn't accept my password for some reason. I restarted mysql after changing the my.cnf file too. could it be the debian.cnf file in the mysql dir that is fuxoring it up?
+2005-08-07T12:40:00.000Z	floppyears	billytwowilly	hmm, I would then ask in #mysql

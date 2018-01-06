@@ -1,0 +1,4 @@
+2009-12-01T04:01:00.000Z	ymee		hi guys. can some tell me how to command line access a windows share? I am connected to the windows share from the "places" menu. How do I access the contents via the command line?
+2009-12-01T04:02:00.000Z	ymee		anyone?
+2009-12-01T04:03:00.000Z	ymee		where does ubuntu mount (if it does) the directories when I connect to a windows share via the Places menu?
+2009-12-01T04:04:00.000Z	SeanTater	ymee	I guess you must have already checked, but I would try in /media. If not, run "mount" in a terminal and it should give you a list, one of which should be your share

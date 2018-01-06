@@ -1,0 +1,4 @@
+2010-08-11T08:10:00.000Z	ryanjamieson		I'm attempting to set up a wireless AP on 10.04 server with an Atheros AR5212 chipset, but the card won't go into "master" when I use iwconfig to set the mode.  Ideas?
+2010-08-11T08:11:00.000Z	ilovefairuz	ryanjamieson	hostapd will do it, you don't need to
+2010-08-11T08:12:00.000Z	ryanjamieson	ilovefairuz	yeah, got hostapd installed and configured, but the mode on the card won't change to master, and my instance of airodump on my other lappy isn't seeing anything new on the airwaves
+2010-08-11T08:13:00.000Z	ilovefairuz	ryanjamieson	run hostapd by hand and check its messages

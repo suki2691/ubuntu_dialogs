@@ -1,0 +1,4 @@
+2008-01-28T06:21:00.000Z	viator		when i boot the spalsh screen doesnt show up i see NOTHING and then it goes into gdm fine and i log in
+2008-01-28T06:21:00.000Z	viator		any idea how to fix that
+2008-01-28T06:22:00.000Z	soundray	viator	go through /boot/grub/menu.lst and delete "splash" wherever you find it.
+2008-01-28T06:25:00.000Z	soundray	viator	it should only say "quiet" (although you could delete that as well to see more boot messages)

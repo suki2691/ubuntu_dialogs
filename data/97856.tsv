@@ -1,0 +1,4 @@
+2008-03-09T18:51:00.000Z	tntcoda		hi, if i have vnc server running and can access it locally but not externally. What do i need to enable? The ports are forwared and hosts.allow is correct
+2008-03-09T18:51:00.000Z	Metuchen	tntcoda	be sure you don't have a firewall enabled.
+2008-03-09T18:52:00.000Z	Metuchen	tntcoda	try iptables -vL
+2008-03-09T18:53:00.000Z	Metuchen	tntcoda	dunno offhand...

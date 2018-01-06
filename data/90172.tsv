@@ -1,0 +1,4 @@
+2008-05-19T16:41:00.000Z	KazaLite		hi all....im running ubuntu on vmware and i can browse internet. ip of my ubuntu is 192.168.1.151 and of windows host is 192.168.1.123. When i try to connect to ubuntu on vmware using putty i get error message "network error: connection refused". what sort of settings/configurations i need to fix this thing?
+2008-05-19T16:43:00.000Z	pentagon	KazaLite	sudo apt-get install openssh-server
+2008-05-19T16:46:00.000Z	pentagon	KazaLite	it starts the server automatically when you install it and on subsequent restarts
+2008-05-19T16:47:00.000Z	pentagon	KazaLite	if you need to configure it, the config file is /etc/ssh/sshd_config

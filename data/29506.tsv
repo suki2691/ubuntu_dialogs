@@ -1,0 +1,4 @@
+2012-08-28T17:48:00.000Z	Guest99498		Where will the computer be looking for grub, now that I think about it, if I copied a whole linux partition over to a new partition?  I don't think I put grub on the MBR
+2012-08-28T17:50:00.000Z	usr13	Guest99498	You have write grub to MBR in order to boot.
+2012-08-28T17:50:00.000Z	usr13	Guest99498	That first link is probably the one you need, https://help.ubuntu.com/community/RestoreGrub
+2012-08-28T17:51:00.000Z	Guest99498	usr13	I didn't lose it necessarily, but I copied sda5 over to a newly create sda1 (http://static.inky.ws/image/2681/image.jpg)  which /etc/grub is the computer using?

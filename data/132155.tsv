@@ -1,0 +1,4 @@
+2009-10-24T15:44:00.000Z	matteo1990		hi all anyone can help me really fast? I need to know how to make a single video with ffmpeg from 2, sorry for the wrong topic
+2009-10-24T15:46:00.000Z	Billiard	matteo1990	mencoder vid1.avi vid2.avi -o vid.avi i think
+2009-10-24T15:46:00.000Z	Billiard	matteo1990	i never got ffmpeg to do it well
+2009-10-24T15:46:00.000Z	Billiard	matteo1990	you might need to through in a -ovc copy -oac copy

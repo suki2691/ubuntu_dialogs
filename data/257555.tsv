@@ -1,0 +1,4 @@
+2004-11-20T15:58:00.000Z	Hikaru79		I've installed firefox in /usr/local/firefox-installer/ so now how do I link the firefox script in there so that it can be run from /usr/bin ? Or should I just add firefox-installer to my path?
+2004-11-20T15:58:00.000Z	lemsx1_	Hikaru79	ln -s /usr/local/firefox-installer/firefox /usr/local/bin/firefox
+2004-11-20T15:58:00.000Z	lemsx1_	Hikaru79	that's wrong anyway, you should've install it in /usr/local/firefox-1.0 :-)
+2004-11-20T16:00:00.000Z	lemsx1_	Hikaru79	oh oh... bad

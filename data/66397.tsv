@@ -1,0 +1,4 @@
+2009-05-07T03:53:00.000Z	ubuntu_		does anyone know how to take all the free space on a ntfs partition and turning that into an ext3 partition for linux
+2009-05-07T03:53:00.000Z	mzz	ubuntu_	iirc gparted can mostly do this (shrink the partition, then create a new one in the free space)
+2009-05-17T20:44:00.000Z	mzz	ubuntu_	as long as you can oot off that hd: just like you'd install it on a regular hd
+2009-05-17T20:44:00.000Z	mzz	ubuntu_	just pay attention when you reach the partitioning step (make sure the partitions end up on the right drive)

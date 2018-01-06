@@ -1,0 +1,4 @@
+2007-09-03T14:35:00.000Z	TheMetavirus		i have a question and was hoping someone could help.  i am on the livecd, and have mounted my filesystems.  after chrooting into the filesystem, only a limited amount of commands are available (ls, nano).  some others, though they exists, do not run at all (update-grub, clear, vi, and most others).  if anyone has an idea, please point me in the right direction.
+2007-09-03T14:35:00.000Z	qid	TheMetavirus	probably not in the default path, try using the full path to the command instead
+2007-09-03T14:36:00.000Z	qid	TheMetavirus	e.g. /usr/bin/vi instead of just vi
+2007-09-03T14:36:00.000Z	TheMetavirus	qid	it actually doesn't do anything

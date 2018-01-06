@@ -1,0 +1,4 @@
+2007-04-15T15:56:00.000Z	rahbertlee111		i just ran this command "chmod -R 777 "/dev"/hda3 "/home  and now i cannot log in as user anymore
+2007-04-15T15:57:00.000Z	wj32	rahbertlee111	your home dir is meant to be 644
+2007-04-15T16:02:00.000Z	wj32	rahbertlee111	not 755. why would ~/.dmrc be executable?
+2007-04-15T16:05:00.000Z	wj32	rahbertlee111	certain daemons and programs gave errors. i just fixed the permissions. back to 644 or 755.

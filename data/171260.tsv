@@ -1,0 +1,4 @@
+2006-08-12T10:16:00.000Z	thomaswfry		help? --> i installed ubuntu desktop. i dont want local users to get email, instead i want there email forwareded somewhere else. how do i do that ?
+2006-08-12T10:17:00.000Z	thomaswfry		ex. the main user gets roots email. i want to send that to a gmail account
+2006-08-12T10:17:00.000Z	digitallotus	thomaswfry	you can create a file in /root/ called .forward that contains the email address you want the messages delivered to
+2006-08-12T10:18:00.000Z	digitallotus	thomaswfry	hold up, it looks like ubuntu uses the aliases file.... so you'd modify /etc/aliases, then run the command newaliases

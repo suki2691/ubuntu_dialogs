@@ -1,0 +1,4 @@
+2006-08-20T15:51:00.000Z	DrFinn		does anyone know some websites where I can find some grub splash screens?
+2006-08-20T08:40:00.000Z	DrFinn		need help with this: my login screen resolution is like 1280x1024x60 hz ! The default desktop resolution is 1024x768x85 Hz ..how do I change the login screen resolution to 1024x768x85hz ?
+2006-08-20T08:42:00.000Z	DrFinn		the max resolution I found in xorg.conf is 1024x768
+2006-08-20T08:44:00.000Z	sethk	DrFinn	when X decides that there is nothing usable in xorg.conf, it falls back to a list of standard resolution/vertical freq settings.

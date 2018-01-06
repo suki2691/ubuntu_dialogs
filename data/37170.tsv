@@ -1,0 +1,4 @@
+2012-10-15T16:44:00.000Z	kyrix		talking about chroot. is there "something" like chroot that allows me fake a mount, say, /opt/fakemount, that only is visible/writable for one process?
+2012-10-15T16:46:00.000Z	iceroot	kyrix	only with chroot or apparmor i guess
+2012-10-15T16:46:00.000Z	kyrix	iceroot	so i would have to chroot, then mount the rest of the system, except that folder that I want to fake.
+2012-10-15T16:47:00.000Z	iceroot	kyrix	chroot the process, not the complete system

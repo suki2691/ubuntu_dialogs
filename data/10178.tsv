@@ -1,0 +1,4 @@
+2011-10-28T21:33:00.000Z	antnash		Anyone got a clue on my cifs mounting problem? It's strange because it worked before I rebooted
+2011-10-28T21:33:00.000Z	phlak_user	antnash	any errors? my crystal ball's malfunctioning
+2011-10-28T21:35:00.000Z	antnash	phlak_user	mount error 13. Said above, but it got lost in a surge. Using mount -t cifs //<ip>/<share>/ <target>/
+2011-10-28T21:38:00.000Z	phlak_user	antnash	did you try adding the user to the samba system by smbpasswd -a username?

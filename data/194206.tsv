@@ -1,0 +1,4 @@
+2008-01-04T20:06:00.000Z	sylverfox		could please somebody tell me how to fix an fstab to mount my partitions in read-write mode?
+2008-01-04T20:07:00.000Z	pike_	sylverfox	what file system?
+2008-01-04T20:08:00.000Z	pike_	sylverfox	defaults  should be only thing in fstab id think.. now remember that the ext3 file system supports perm so if you need access to a dir or fileyou need to chown or chmod it like you would a dir in /
+2008-01-04T20:09:00.000Z	pike_	sylverfox	you can though test by sudo mount -o remount,rw /mountpoint i guess

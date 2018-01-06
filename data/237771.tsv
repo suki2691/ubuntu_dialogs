@@ -1,0 +1,4 @@
+2005-05-11T09:34:00.000Z	wnight		How do I get just one package from Breezy/Universe without libc and everything else?
+2005-05-11T09:35:00.000Z	dcraven	wnight	Packages are compiled using the libraries that they depend on. If those libraries are of a higher version than what you have, you need those too. That's what depends are for.
+2005-05-11T09:36:00.000Z	wnight	dcraven	Can I install two versions of libc side by side?
+2005-05-11T09:36:00.000Z	dcraven	wnight	I doubt that's a good idea.

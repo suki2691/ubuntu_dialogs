@@ -1,0 +1,4 @@
+2010-06-04T13:19:00.000Z	jimmyz80		Heya, i am new to grub2, ran grub-mkconfig, and i saw it detect my newly installed OS on another partition, so figured the next step would be grub-install, is this wrong? the new os does not show on my boot menu when i startup
+2010-06-04T13:20:00.000Z	well_laid_lawn	jimmyz80	try   sudo update-grub
+2010-06-04T13:21:00.000Z	jimmyz80	well_laid_lawn	then grub-install after? or is that unnecessary?
+2010-06-04T13:22:00.000Z	well_laid_lawn	jimmyz80	just the update-grub will do iirc

@@ -1,0 +1,4 @@
+2012-07-10T15:51:00.000Z	maximb		hello, I've just finished installing a new ubuntu server and I want to update it, for some reason when I do "apt-get update" I get : The following packages have been kept back:
+2012-07-10T15:51:00.000Z	maximb		  linux-headers-server linux-image-server linux-server  , why kept back ?
+2012-07-10T15:53:00.000Z	BluesKaj	maximb	run sudo apt-get dist-upgrade
+2012-07-10T15:58:00.000Z	maximb	BluesKaj	10x it worked, but why it doesn't work with regular napt0get update ?

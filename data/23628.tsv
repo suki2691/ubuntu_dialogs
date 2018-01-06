@@ -1,0 +1,4 @@
+2010-12-23T11:19:00.000Z	mistergibson		as root, I cannot delete a tap0 device ... tunctl -d tap0 gets : TUNSETIFF: Device or resource busy
+2010-12-23T11:20:00.000Z	mistergibson		what the hell does one have to do to get rid of a tap0 device that has no ip address, and is ifconfig down'd and all?
+2010-12-23T11:21:00.000Z	mistergibson		anyone have a clue where tap devices are persisted between reboots?
+2010-12-23T11:21:00.000Z	UnholyTerror	mistergibson	/etc/network/interfaces ????

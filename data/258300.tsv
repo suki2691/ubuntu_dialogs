@@ -1,0 +1,4 @@
+2004-11-13T08:38:00.000Z	yann_		I am having a little problem with python, I build a program with make (runs fine), start it with ./meld (runs fine) copy it to /usr/bin/meld, run meld get an import error?! anyone?
+2004-11-13T08:39:00.000Z	ficusplanet	yann_	How did you copy meld to /usr/bin?  With make install?
+2004-11-13T08:40:00.000Z	yann_	ficusplanet	first with make prefix=/usr install (like the install file told me), then with just cp to see what happens, neither worked though
+2004-11-13T08:43:00.000Z	ficusplanet	yann_	Wait, why are you installing meld that way?  It's in universe.

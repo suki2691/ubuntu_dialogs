@@ -1,0 +1,4 @@
+2009-05-05T05:53:00.000Z	Atomic_UE		when i share a folder via samba by right clicking the folder, goign to properties, and Share tab. Where is that information stored? It's not in /etc/samba/smb.conf
+2009-05-05T05:53:00.000Z	Apaxis	Atomic_UE	jesus im about to google that just to shut you up hold on
+2009-05-05T05:57:00.000Z	Apaxis	Atomic_UE	looks like its using the "net usershare" command to add the share, try checking out the man page for that to get some hint
+2009-05-05T05:57:00.000Z	Atomic_UE	Apaxis	cool thanks

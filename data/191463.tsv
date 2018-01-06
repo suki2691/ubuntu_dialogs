@@ -1,0 +1,4 @@
+2008-02-10T04:10:00.000Z	Siph0n		i found my user account, is there any way to get or reset the password? or even check who changed it?
+2008-02-10T04:11:00.000Z	phaidros	Siph0n	"passwd Username" changes a user password (as long as you have the privileges to reset it"
+2008-02-10T04:12:00.000Z	Siph0n	phaidros	awesome ok.... and is there an idea to find out what it is? or atleast see who changed it?
+2008-02-10T04:13:00.000Z	phaidros	Siph0n	I actually don't know, but under /var/log you find alot of log messages of your system. the files system and messages might be interesting, or google if passwd hits /var/log/messages

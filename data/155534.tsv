@@ -1,0 +1,4 @@
+2007-03-18T14:09:00.000Z	coffeegrindah		how do I apt-get remove Open office ? what the right package to remove?
+2007-03-18T14:10:00.000Z	arrenlex	coffeegrindah	dpkg -l "*openoffice*" | grep ^ii | awk '{print $2}' | xargs sudo apt-get remove -y
+2007-03-18T14:11:00.000Z	coffeegrindah	arrenlex	Thanks!
+2007-03-24T13:51:00.000Z	arrenlex	coffeegrindah	Back up important things.

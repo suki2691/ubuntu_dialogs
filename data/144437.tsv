@@ -1,0 +1,4 @@
+2007-04-17T11:30:00.000Z	intrepidus		Can someone help me find out what hard drive Grub refers to when it says hd(0,00? I want to install Ubuntu again, but I don't want Grub to override my Windows MBR. I'm installing it on its own disk, and last time it ate the MBR and I couldn't boot to Windows without grub :/
+2007-04-17T11:31:00.000Z	crdlb	intrepidus	that's /dev/hda1 probably
+2007-04-17T11:32:00.000Z	crdlb	intrepidus	but grubs names them in a different order than linux sometimes
+2007-04-17T11:32:00.000Z	intrepidus	crdlb	which is always good fun and confusing :(

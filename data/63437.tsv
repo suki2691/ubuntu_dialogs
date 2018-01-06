@@ -1,0 +1,4 @@
+2009-03-26T22:41:00.000Z	mr_daniel		ubuntu uses a default mtu value of 1500, but I want to set it to 1492. This is no problem with 'sudo ifconfig wlan0 mtu 1492', but after a reboot the mtu value is again 1500. How can I set the mtu value PERMANENTLY to 1492 ???
+2009-03-26T22:42:00.000Z	acicula	mr_daniel	err interfaces or networkmanager?
+2009-03-26T22:43:00.000Z	acicula	mr_daniel	right click -> edit, first tab has MTU options
+2010-05-28T20:28:00.000Z	acicula	mr_daniel	if you have to start it as root though use gksu <program>

@@ -1,0 +1,4 @@
+2008-10-20T07:12:00.000Z	lu6cifer		hi, I'm trying to compile something on 8.04. It had no config file, so I just typed 'make'. It's coming out with a bunch of errors, but the first one on the list is : "stdio.h: No such file or directory." I thought Ubuntu was installed with gcc? So why wouldn't it have the standard header file? How do I get it?
+2008-10-20T07:12:00.000Z	histo	lu6cifer	install build-essentials
+2008-10-20T07:13:00.000Z	histo	lu6cifer	sudo aptitude install build-essetials
+2008-10-20T07:14:00.000Z	histo	lu6cifer	sudo aptitude install build-essential

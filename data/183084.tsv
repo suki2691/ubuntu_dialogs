@@ -1,0 +1,4 @@
+2007-12-12T07:33:00.000Z	xLE		how can I change my resolution to 1280x1024 and 60hz
+2007-12-12T07:33:00.000Z	Pelo	xLE	 I assume you don'T have that resolution available int he resolution dialog ?
+2007-12-12T07:34:00.000Z	Pelo	xLE	menu >systme> prefs< screen resolution
+2007-12-12T07:36:00.000Z	Pelo	xLE	 gksu gedit /etc/X11/xorg.conf   look for the horiz sync line and change the top value to 60 if it is lower , and add the rez you want in th elist further down

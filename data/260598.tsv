@@ -1,0 +1,4 @@
+2005-03-07T15:42:00.000Z	ubuntudave		i did, but the php4 install asks for the apache-utils not apache2 =/
+2005-03-07T15:43:00.000Z	stvn	ubuntudave	try first installing apache2-utils and then php
+2005-03-07T15:44:00.000Z	stvn	ubuntudave	I had a similar problem when i installed php and apache2 together, php kept asking for apache
+2005-03-07T15:46:00.000Z	stvn	ubuntudave	let it remove it, then install php4 again, it'll use libapache2-mod-php4

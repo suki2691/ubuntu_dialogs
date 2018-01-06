@@ -1,0 +1,4 @@
+2009-02-07T11:16:00.000Z	skeebo		Does file fragmentation in a FAT32 file system only occur if a file size changes? Or does file fragmentation in a FAT32 file system occur other ways too? e.g. adding and deleting files?
+2009-02-07T11:17:00.000Z	scunizi	skeebo	yes to both
+2009-02-07T11:17:00.000Z	skeebo	scunizi	thank you
+2009-02-07T11:18:00.000Z	scunizi	skeebo	it's also not journaled.. so if you unplug without unmounting it there is the possibility of loosing data

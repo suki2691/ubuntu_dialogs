@@ -1,0 +1,4 @@
+2009-07-14T20:39:00.000Z	rolo		Hiya. This morning, all of a sudden, Jaunty won't see my wired network connection, it just says "wired network disconnected". It's working fine on Jaunty in my laptop through the same cable, just not on my desktop. Any ideas why this may have suddenly happened? Cheers.
+2009-07-14T20:40:00.000Z	rolo		thanks!  Just tried that... just says "* Reconfiguring network interfaces [OK]" and still broken
+2009-07-14T20:41:00.000Z	moltenbobcat	rolo	yeah if you are using network manager I believe that does nothing
+2009-07-14T20:40:00.000Z	moltenbobcat	rolo	have you tried doing a sudo /etc/init.d/networking restart

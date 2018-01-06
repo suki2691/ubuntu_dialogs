@@ -1,0 +1,4 @@
+2007-04-25T07:41:00.000Z	LaserLine		Hi, I'm trying to share a folder over the network.  I've gotten as far adding users and sharing the folder and having it being recognized on the network.  When i click on the folder it asks me for a username and password, but when I try to put in the username and password that I added they never work.
+2007-04-25T07:42:00.000Z	noiesmo	LaserLine	you need to use smbpasswd to create passwords for windows shares
+2007-04-25T07:43:00.000Z	noiesmo	LaserLine	sudo smbpasswd and then enter a password
+2007-04-25T07:45:00.000Z	LaserLine	noiesmo	I did that, but when trying to access the folder it prompts me for a username and password and t still doesn't work

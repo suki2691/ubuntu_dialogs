@@ -1,0 +1,4 @@
+2010-07-08T03:20:00.000Z	Oddtod		Hey guys having an issue where web pages take forever to open up. Its not hardware because the VMware of XP browses just fine. Not network happens at all networks i go to. I believe its a DNS issue.
+2010-07-08T03:22:00.000Z	tarrant	Oddtod	you can do a 'dig <site>' and it will give you the amount of time for a dns response.
+2010-07-08T03:24:00.000Z	Oddtod	tarrant	http://pastebin.org/385656
+2010-07-08T03:27:00.000Z	tarrant	Oddtod	Do you have anything in your /etc/resolv.conf?

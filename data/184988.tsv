@@ -1,0 +1,4 @@
+2007-10-17T23:10:00.000Z	src	swatF1RESTORM	or you could edit /etc/network/interfaces yourself and do ifup -a or /etc/init.d/network restart whatever floats your boat
+2007-10-17T23:12:00.000Z	swatF1RESTORM	PriceChild	I tried the eth0 down/up and that didn't work. gonna try the network restart
+2007-10-17T23:15:00.000Z	swatF1RESTORM	PriceChild	when I look at the /etc/network/interfaces it has all my correct network settings but still can't get to my network. any more ideas?
+2007-10-17T23:16:00.000Z	src	swatF1RESTORM	ifconfig reports the settings ok, routing table, is your link up on eth?

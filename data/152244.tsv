@@ -1,0 +1,4 @@
+2008-03-21T07:58:00.000Z	high-bass		Hey guys i tried to install the newest amsn so i get it of their website compiled and everything ... and it works but inorder to log in it requires TLS OpenSSl so i download tls newest one.. but when i do ./configure i get the following error : loading cache ./config.cache
+2008-03-21T07:58:00.000Z	high-bass		configure: error: /usr/local/ssl is not a valid directory
+2008-03-21T07:58:00.000Z	xtknight	high-bass	try "mkdir -p /usr/local/ssl" i suppose ?
+2008-03-21T08:00:00.000Z	xtknight	high-bass	try "mkdir -p /usr/local/ssl" i suppose ?

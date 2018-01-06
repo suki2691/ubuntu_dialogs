@@ -1,0 +1,4 @@
+2008-06-25T21:20:00.000Z	LevNL		I have a problem with apt in Hardy, when placing a sourceslist in /etc/apt/sources.list.d/ apt does not use it, I tried wines apt-repository and banshee's PPA. the files and with ".list" and also don' t show up in the list of  apt-get update
+2008-06-25T21:21:00.000Z	Pici	LevNL	Put the lines into /etc/apt/sources.list
+2008-06-25T21:22:00.000Z	LevNL	Pici	that'll probably work but why does putting them in sources.list.d work?
+2008-06-25T21:24:00.000Z	Pici	LevNL	I'm not sure what tells apt to look into that directory for repository lists, but most of the time its easier to edit the main sources.list file, plus you them have everything in one place

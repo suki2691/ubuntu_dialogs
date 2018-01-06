@@ -1,0 +1,4 @@
+2012-01-18T01:18:00.000Z	whistler_		http://packages.ubuntu.com/hardy/grandr
+2012-01-18T01:19:00.000Z	whistler_		mv oldname newname
+2012-01-18T01:21:00.000Z	whistler_		 anyone…. i am trying to build a 15 drive raid5 array…. i have a weird issue, when I fully power down and then power up the system, only recognizes thirteen of the drives can be seen (through fdisk -l) however if i restart (init 6) all 15 are visible.. I am thinking possible udev issue, anyone have any ideas? There is already another 15 disk raid-1 array in the box
+2012-01-18T01:22:00.000Z	h00k	whistler_	does the RAID array appear to exist in the RAID controller?

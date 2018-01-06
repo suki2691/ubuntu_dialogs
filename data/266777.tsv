@@ -1,0 +1,4 @@
+2010-07-31T06:52:00.000Z	critt		Can someone help with a Partition question?
+2010-07-31T06:52:00.000Z	critt		I have 2 Partitions. Kubuntu and Ubuntu. Kubuntu is set to boot first . Can I delete Kubuntu Part without screwing up My Ubuntu Part?
+2010-07-31T06:52:00.000Z	Dr_Willis	critt	 it depends on which os is contriolling grub.
+2010-07-31T06:53:00.000Z	Dr_Willis	critt	 you may need to reinstall grub then. You COULD boot to ubuntu now, and update-grub and in theory the UBUNTU os will be the one contriolling grub. then you can delete the kubuntu partitions

@@ -1,0 +1,4 @@
+2007-09-30T13:28:00.000Z	xerxesv5		hi, i'm trying to find at what point and from where ath_hal is loaded at startup. can anyone assist?
+2007-09-30T13:28:00.000Z	gonzoism	xerxesv5	 grep ath_hal /etc/init.d/*  ?
+2007-09-30T13:31:00.000Z	xerxesv5	gonzoism	nothing. i need to add a module and activate my wifi card before madwifi comes up, otherwise it fails to detect the card.
+2007-09-30T13:33:00.000Z	gonzoism	xerxesv5	 check out /etc/modules

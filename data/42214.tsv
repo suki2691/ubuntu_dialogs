@@ -1,0 +1,4 @@
+2010-01-06T00:31:00.000Z	Lungan		Need some help with shared folders, a friend on my local network has a shared folder, but I whanna have an backup on my computer wich is syncronized with the folder, so that when he adds an picture for example it per auto goes to the folder on my computer also
+2010-01-06T00:32:00.000Z	ecrane	Lungan	You'd probably want to set up some kind of script that runs like, every minute or something, and checks for new files and copies them over.
+2010-01-06T00:32:00.000Z	ecrane	Lungan	you could use a cron job and have it run an 'rsync' command.
+2010-01-06T00:33:00.000Z	Lungan	ecrane	no easy way? Im pretty noob, and it would be pretty lot work to check for every file and copy them

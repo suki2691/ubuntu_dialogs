@@ -1,0 +1,4 @@
+2009-10-20T15:20:00.000Z	hsarci_		why is it that when i specificy a port when trying to telnet to a specific address it always defaults to address:port/telnet instead of address:port???
+2009-10-20T15:22:00.000Z	ActionParsnip	hsarci_	i think you need to use: telnet server -p portnumb
+2009-10-20T15:23:00.000Z	ActionParsnip	hsarci_	or simply: telnet server port
+2009-10-20T15:23:00.000Z	ActionParsnip	hsarci_	no need for the colon

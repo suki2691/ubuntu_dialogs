@@ -1,0 +1,4 @@
+2008-01-09T00:14:00.000Z	Scampi		hi I wonder if anyone could help - my DKPG package list has been lost and I want to rebuild it somehow. anyone got any ideas?
+2008-01-09T00:15:00.000Z	nickrud	Scampi	what do you mean, lost?  dpkg -l | grep ii shows nothing?
+2008-01-09T00:18:00.000Z	nickrud	Scampi	oh, you are in deep do do. I've heard of a script that will use /usr/share/doc/* to recreate the package install, but don't know it. People that do come thru here regularly though
+2008-01-09T00:24:00.000Z	nickrud	Scampi	webmin assumes a lot about how a system is put together, not the way debian/ubuntu is. That's why it's not in the repos anymore

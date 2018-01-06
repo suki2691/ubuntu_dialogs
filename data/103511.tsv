@@ -1,0 +1,4 @@
+2008-02-02T23:17:00.000Z	chafka		how can i mount fat32 partition on ubuntu.. ??
+2008-02-02T23:18:00.000Z	Pelo	chafka	they mount automaticaly,  or do you need it to mount at boot from you hdd ?
+2008-02-02T23:18:00.000Z	chafka	Pelo	yes when i start ubuntu i want to have them mounted..
+2008-02-02T23:19:00.000Z	Pelo	chafka	you'll need to put a line in /etc/fstab for it , not sure what the content would be however, you'll need to review the options in man mount

@@ -1,0 +1,4 @@
+2009-09-19T23:05:00.000Z	hzn		HELP: Every time ubuntu wants to connect wireless network, it asks for keyring password. I set it not knowing it was going to ask for it every time. Anyway to remove the password?
+2009-09-19T23:05:00.000Z	Jordan_U	hzn	Set it to be the same as your login password
+2009-09-19T23:06:00.000Z	Jordan_U	hzn	Then the keyring will be unlocked when you login
+2009-09-19T23:08:00.000Z	Jordan_U	hzn	System > Preferences > Networking, set the connection to "available to all users"

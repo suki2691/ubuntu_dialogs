@@ -1,0 +1,4 @@
+2011-06-02T12:07:00.000Z	wols_	tomreyn	but what's the point?
+2011-06-02T12:08:00.000Z	tomreyn	wols_	that he does not need to reconfigure his block device layers
+2011-06-02T12:09:00.000Z	wols_	tomreyn	how can the bootloader deal with raid volumes? and why is it hard to add an fstab entry with /dev/sda1 for boot, why does it have to be a raid entry?
+2011-06-02T12:14:00.000Z	tomreyn	wols_	there's a 'raid' module for grub2. that's how grub2 can deal with md raid. It's probably not too tough to add an fstab entry for /dev/sda1 (tough it depends much on the person doing it). But if he currently has a md RAID1 configuration he would have to go through some more steps to remove the mirror RAID device layer above /boot which he currently has in place to convert it to just a partition and file system on top of that.

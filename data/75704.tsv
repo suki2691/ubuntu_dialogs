@@ -1,0 +1,4 @@
+2008-11-06T18:45:00.000Z	youngblood		Im a high school student that recently downloaded ubuntu 8.10 to try out the wireless network(I could not get it to work on 8.04). When I tried to connect, it asked me for the network name, how do I get this?
+2008-11-06T18:46:00.000Z	HymnToLife	youngblood	if the network is broadcasting its ESSID,   sudo iwlist wlan0 scan
+2008-11-06T18:48:00.000Z	youngblood	HymnToLife	ok, ill go give it a try, thanks
+2008-11-06T19:09:00.000Z	youngblood	HymnToLife	after using sude iwlist wlan0 scan, it came back with wlan0 Interface doesn't support scanning : network is down, but my modem says its is giving off a wirless signal

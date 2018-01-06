@@ -1,0 +1,4 @@
+2008-09-09T01:33:00.000Z	blue112		Hello everyone, I have a problem of rights, can you help me ?
+2008-09-09T01:34:00.000Z	blue112		:p
+2008-09-09T01:36:00.000Z	blue112		I have a directory, for exemple project/ which I want to be shared by 10 users. So i've created a group, "write", and I've added each user to the group. After that, I've done a sudo chown -R :write project/. Then, everything is ok. But if a user (toto), create a file in this directory, it doesn't belong to the group, but to toto. So the other members can't edit it. How can I do ?
+2008-09-09T01:37:00.000Z	nDuff	blue112	google linux POSIX ACLs

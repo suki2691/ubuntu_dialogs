@@ -1,0 +1,4 @@
+2006-03-14T17:49:00.000Z	sorin		Hello
+2006-03-14T17:51:00.000Z	sorin		I have Ubuntu installed, and I also want to install Kubuntu.  I can't figure out how to add the Kubuntu cdrom to the apt database.  It is only looking at /media/cdrom/.  I tried to give it "apt-cdrom add -d '/media/Kubuntu 6.05 i386', but it won't work.
+2006-03-14T17:53:00.000Z	Hobbsee	sorin	you should just be able to type "sudo apt-cdrom add" and then put in the kubuntu cd, then hit enter
+2006-03-14T17:53:00.000Z	sorin	Hobbsee	I get 3 cdroms.

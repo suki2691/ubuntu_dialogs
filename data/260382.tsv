@@ -1,0 +1,4 @@
+2005-05-27T12:55:00.000Z	mpm		any idea what tools I could use to analyze why I'm unable to access a given IP/url from home?  I can access it at work, but from this home machine I can't even ping it!
+2005-05-27T12:55:00.000Z	Shufla	mpm	mtr -n ip
+2005-05-27T13:06:00.000Z	Shufla	mpm	sudo iptables -vnL and paste it to pastebin
+2005-05-27T13:07:00.000Z	Shufla	mpm	!! check your fw !!

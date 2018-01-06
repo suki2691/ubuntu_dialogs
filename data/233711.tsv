@@ -1,0 +1,4 @@
+2005-07-02T10:45:00.000Z	chris_		I have a Toshiba Satellite 1735 laptop with a new Ubuntu install. It works fairly well with two issues so far: Sound and video. Sound I can work on later and have gotten working in the past with linux, but video always seems to be limited to 800x600, although windows does 1024x768 without a problem. Any suggestions?
+2005-07-02T10:46:00.000Z	chris_		Video card is a Rage Mobility P/M AGP 2x
+2005-07-02T10:46:00.000Z	djs	chris_	This might help you (see below)
+2005-07-02T10:50:00.000Z	djs	chris_	np.  Note that if you need to run "dpkg-reconfigure xserver-xorg" it asks a lot of questions.  The default answers are usually pretty good.

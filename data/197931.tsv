@@ -1,0 +1,4 @@
+2006-02-26T11:36:00.000Z	liskl		using head i can get a range of lines using -n  starting from the start of file
+2006-02-26T11:36:00.000Z	liskl		using tail i can get a range of lines using -n starting reversed from EOF
+2006-02-26T11:36:00.000Z	liskl		i'm looking for a way to get only line 57 from file horse.txt, or line 83 from cow.txt
+2006-02-26T11:36:00.000Z	cradek	liskl	head ... | tail ...

@@ -1,0 +1,4 @@
+2010-03-21T11:38:00.000Z	hipitihop		adduser fails with "cannot lock /etc/passwd; try again later.:" 'lsof | grep /etc/passwd' returns nothing, any suggestions ?
+2010-03-21T11:39:00.000Z	chelz	hipitihop	this might solve the problem, instead of rm, you might do mv though: sudo rm /etc/*.lock
+2010-03-21T11:42:00.000Z	hipitihop	chelz	both *.lock files created same time
+2010-03-21T11:43:00.000Z	hipitihop	chelz	is there any risk removing lock files ?

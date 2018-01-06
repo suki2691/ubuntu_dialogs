@@ -1,0 +1,4 @@
+2009-02-10T21:07:00.000Z	gibson		is there anyway to do like a 'DNS flush' in ubuntu?
+2009-02-10T21:08:00.000Z	gibson		or rather, a a ipconfig release/renew?
+2009-02-10T21:08:00.000Z	mick02	gibson	have you tried sudo /etc/init.d/networking restart
+2009-02-10T21:09:00.000Z	mick02	gibson	if that doesn't work try sudo /etc/init.d/nscd restart

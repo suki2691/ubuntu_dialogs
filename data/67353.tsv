@@ -1,0 +1,4 @@
+2009-02-07T11:16:00.000Z	skeebo		Does file fragmentation in a FAT32 file system only occur if a file size changes? Or does file fragmentation in a FAT32 file system occur other ways too? e.g. adding and deleting files?
+2009-02-07T11:18:00.000Z	cn28h	skeebo	consider what happens when writing a large file and there isn't a large enough chunk of contiguous space to store it
+2009-02-07T11:18:00.000Z	cn28h		it also doesn't support holes, which is annoying
+2009-02-07T11:19:00.000Z	skeebo	cn28h	yes that makes sense, didn't think about it that way. scunizi: thankyou for the info

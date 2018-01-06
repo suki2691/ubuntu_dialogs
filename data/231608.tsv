@@ -1,0 +1,4 @@
+2007-11-17T11:33:00.000Z	snadge		is there a program/script that allows you to rebuild the base ubuntu packages, but with custom optimisations/cflags?
+2007-11-17T11:34:00.000Z	nickrud	snadge	no
+2007-11-17T11:35:00.000Z	snadge	nickrud	why not? how are existing ubuntu dists created.. would it be possible for me to script it? or could i just rebuild specific packages manually?
+2007-11-17T11:36:00.000Z	nickrud	snadge	you could rebuild them, sure, apt-get build dep <pkg> && apt-get source <pkg>

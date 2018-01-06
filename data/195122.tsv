@@ -1,0 +1,4 @@
+2008-05-01T18:17:00.000Z	rodolfo		how do i remove read-only files from a folder as a root? the rm command says it's impossile to do it
+2008-05-01T18:17:00.000Z	Scunizi	rodolfo	sudo rm -rf <files/folders
+2008-05-01T18:17:00.000Z	rodolfo	Scunizi	what's the -rf parameter for?
+2008-05-01T18:18:00.000Z	Scunizi	rodolfo	the -r is recursive meaning it will take out all directories below the one your deleting.. f is for force

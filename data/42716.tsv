@@ -1,0 +1,4 @@
+2009-11-18T15:51:00.000Z	BeardedChimp		When I plug in a firewire camera ubuntu (jaunty) creates a /dev/raw1394 device however it is root:root as opposed to root:video where can i set it such that in the future the device is created with group video?
+2009-11-18T15:51:00.000Z	llutz	BeardedChimp	create/change udev-rules
+2009-11-18T15:53:00.000Z	BeardedChimp	llutz	Ta, i looked in /etc/udev/rules.d but there was no pre-existing rule for it, do i have to create one manually?
+2009-11-18T15:53:00.000Z	llutz	BeardedChimp	i think so

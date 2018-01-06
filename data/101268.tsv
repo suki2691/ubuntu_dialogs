@@ -1,0 +1,4 @@
+2008-03-25T05:47:00.000Z	ferric84		I'm trying to update mysql-server-5.0 through update manager, which was released a few days ago, but during the install I get an error that says: E: /var/cache/apt/archives/mysql-server-5.0_5.0.45-1ubuntu3.3_i386.deb: subprocess new pre-removal script returned error exit status 1
+2008-03-25T05:48:00.000Z	ferric84		what does this mean?
+2008-03-25T05:49:00.000Z	Adys	ferric84	tried forcing uninstall reinstall on mysql-server ?
+2008-03-25T05:50:00.000Z	Adys	ferric84	 try moving /var/cache/apt/archives/mysql-server-5.0_5.0.45-1ubuntu3.3_i386.deb away

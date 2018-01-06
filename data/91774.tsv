@@ -1,0 +1,4 @@
+2009-03-15T20:41:00.000Z	uski		hi; is there a way to check the upgrade history of a given package? a relative upgraded his ubuntu distro and now the display is broken (vertical lines on the screen right after X started), and all I got is ssh access to the computer - i assume the nvidia driver got updated recently, but i'd like to check that it was actually upgraded
+2009-03-15T20:42:00.000Z	joaopinto	uski	check /var/log/dpkg.log
+2009-03-15T20:42:00.000Z	uski		ty
+2009-03-15T20:43:00.000Z	uski	joaopinto	thanks, the nvidia package has been upgraded, i guess i should file a bug against it

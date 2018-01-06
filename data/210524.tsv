@@ -1,0 +1,4 @@
+2008-02-20T08:00:00.000Z	blackvd		Having a weird problem here. I just go home and fired up my laptop only to have it hang on boot :( tried running recovery mode and it hangs on disk checking root at 27%. So I'm using the liveCD right now to get on IRC. I havent a clue what to do to fix my root. any help please.
+2008-02-20T08:00:00.000Z	epssy	blackvd	sudo fsck /dev/hda1 (if that is your root disc)
+2008-02-20T08:01:00.000Z	blackvd	epssy	can i run that from the live cd?
+2008-02-20T08:01:00.000Z	epssy	blackvd	it's the only way to do it when your system doesn't boot :p

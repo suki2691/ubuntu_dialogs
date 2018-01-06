@@ -1,0 +1,4 @@
+2011-01-08T09:37:00.000Z	MrUnagi		for j in $(find . -name '*.jpg' -type f);do sudo rename 's/\.JPG/\.jpg/' *.JPG; done<--------any idea why this isnt working for subdirectories?
+2011-01-08T09:38:00.000Z	yeats	MrUnagi	have you tried pyrenamer? It's very easy and will do what you're trying to do (unless you're just trying to learn the CLI way ;-) )
+2011-01-08T09:39:00.000Z	MrUnagi	yeats	kinda trying to learn the cli way, also making this a cron job, through ssh, on a server that is 600 miles away
+2011-01-08T09:39:00.000Z	yeats	MrUnagi	gotcha

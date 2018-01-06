@@ -1,0 +1,4 @@
+2006-10-22T13:36:00.000Z	CWW256		On a new installation of Ubunto on a blank HD, is it a good/bad idea to define the whole drive as an extended partition then make logical partitions for boot swap and / inside that extended partiton?
+2006-10-22T13:37:00.000Z	CWW256		err Ubuntu
+2006-10-22T13:38:00.000Z	CWW256		Ok so it would be "not good" of swap and boot were logcal partitions inside the extended partiton?
+2006-10-22T13:39:00.000Z	Rookie_	CWW256	- create 2 prim parts, 1 for boot and 1 for swap, rest can be logical and then create a new in that one and mount it as /

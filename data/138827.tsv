@@ -1,0 +1,4 @@
+2007-07-06T09:45:00.000Z	klobster		what is the apt-get suffix to reinstall a prog?
+2007-07-06T09:45:00.000Z	TheCreationist	klobster	You need to remove first then install.
+2007-07-06T09:46:00.000Z	TheCreationist	klobster	If you want a completely fresh install, do this :  sudo apt-get autoremove --purge [package]  && apt-get install [package] 
+2007-07-06T09:47:00.000Z	TheCreationist	klobster	Still, that would be a good command to run.  Keep in mind, though, that the "--purge" part removes any settings you used to have.

@@ -1,0 +1,4 @@
+2007-06-03T06:49:00.000Z	NewToUbuntu		anyone know what I should check to get sound working. lspci says my card is detected and mixer volumes all turned up. I have on board sound card and PCI could they be conflicting?
+2007-06-03T06:49:00.000Z	cox377	NewToUbuntu	not if your onboard is turned off under the bios?
+2007-06-03T06:51:00.000Z	cox377	NewToUbuntu	run this
+2007-06-03T06:51:00.000Z	cox377	NewToUbuntu	sudo dpkg-reconfigure linux-sound-base

@@ -1,0 +1,4 @@
+2010-07-23T22:46:00.000Z	iuLianB		does anybody know what to do if when i try to install ubuntu 10.04, it doesn't show any devices in the partition menu? i have some NTFS partitions, and an ext3 partition, but none show up. Tried leaving some unallocated space, maybe it will see that, but no result. If instead of installing i run ubuntu from RAM, it can see my hdd and i can mount any partition with no problems.
+2010-07-23T22:46:00.000Z	th1	iuLianB	what if you boot the installer in "Try Ubuntu" mode and then start the installer from there?
+2010-07-23T22:47:00.000Z	iuLianB	th1	tried that, same thing. I mounted the ext3 drive, and when i started the installer, it automatically unmounted it and didn't show anything in the list.
+2010-07-23T22:48:00.000Z	th1	iuLianB	I think the installer keeps a log in /tmp or /var/log you should probably look there and see if there are any messages about why it hides that disk

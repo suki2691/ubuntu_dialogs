@@ -1,0 +1,4 @@
+2008-10-18T14:09:00.000Z	NicEXE		this is my fstab file http://pastebin.com/d25d970a1 if I change it like that http://pastebin.com/d3159823a is there any problem that may I face?
+2008-10-18T14:10:00.000Z	BobCFC	NicEXE	you need to create the new directories first, they must exist
+2008-10-18T14:11:00.000Z	BobCFC	NicEXE	open a terminal and type   sudo mkdir /media/windows
+2008-10-18T14:17:00.000Z	BobCFC	NicEXE	i think you can do   sudo mount -a   but I don't remember if it will unmount the old ones

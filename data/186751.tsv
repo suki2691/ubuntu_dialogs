@@ -1,0 +1,4 @@
+2012-10-14T17:43:00.000Z	phorath		Hi. I have an ASUS g75-vw. Installed ubuntu from the 'try ubuntu before installing' option. Problem is just when Ubuntu is about to start, the screen goes all fuzzy and nothing can be seen except weird colors. HOWEVER if I load recovery mode, and click 'continue to boot normally' I can see everything just fine. I installed the latest Nvidia drivers like this, but the problem still persists. Any ideas what I sohuld do?
+2012-10-14T17:44:00.000Z	ikonia	phorath	I suspect the "try" ubuntu is falling back to the vesa drivers
+2012-10-14T17:44:00.000Z	ikonia	phorath	then your normal boot is trying to configure nvidia/3rd party xorg drivers which dont work on your card (at a guess)
+2012-10-14T17:45:00.000Z	ikonia	phorath	how do you know it's using nvidia at that point /

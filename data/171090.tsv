@@ -1,0 +1,4 @@
+2007-04-08T12:35:00.000Z	TheTick		Hi, I'm getting an error with synaptic package manager "Could not resolve local host" Can anyone help?
+2007-04-08T12:36:00.000Z	clearzen	TheTick	sudo aptitude remove --purge anon-proxy &&  sudo telinit 6
+2007-04-08T12:36:00.000Z	clearzen	TheTick	That should do it
+2007-04-08T12:36:00.000Z	clearzen	TheTick	it will restart your system

@@ -1,0 +1,4 @@
+2011-06-17T17:59:00.000Z	ashwin		is there a way i can restore ubuntu
+2011-06-17T17:59:00.000Z	ashwin		like restore pint in windows
+2011-06-17T18:00:00.000Z	sipior	ashwin	typically such things are accomplished through lvm snapshots, but you'll have to set that up in advance.
+2011-06-17T18:02:00.000Z	sipior	ashwin	reverting a system to a pre-update state would require filesystem snapshots. like i said, if you set up lvm snapshots in advance, you can get that functionality.

@@ -1,0 +1,4 @@
+2006-03-08T16:18:00.000Z	SeerKan		how can i set a program to autorun when the server starts ?
+2006-03-08T16:20:00.000Z	pschulz01	SeerKan	put a script in the /etc/init.d directory and link to it from /etc/rc.2
+2006-03-08T16:20:00.000Z	pschulz01		or rc.3
+2006-03-08T16:23:00.000Z	SeerKan	pschulz01	in /etc/ i only have rc2.d

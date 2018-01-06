@@ -1,0 +1,4 @@
+2010-03-05T02:28:00.000Z	Neremor		hello!
+2010-03-05T02:28:00.000Z	Neremor		I scanned my local mashin with nmap and found an "unknown" service running on port 9666. Any idea which program is using this port?
+2010-03-05T02:29:00.000Z	blakkheim	Neremor	you need to run nmap from another computer
+2010-03-05T02:29:00.000Z	blakkheim	Neremor	alternately, you can run nmap -AvPN theiphere to see what service is listening

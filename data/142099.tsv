@@ -1,0 +1,4 @@
+2007-03-21T14:08:00.000Z	rod_		hi :/
+2007-03-21T14:09:00.000Z	rod_		how do i remove all rights from some directories? So that everybody, from every usergroup, can add and remove files? I thought it was chown -R 777 /media/disk    But obviously its not.
+2007-03-21T14:10:00.000Z	rod_		somebody has maybe a permission table for me?
+2007-03-21T14:11:00.000Z	stingman	rod_	: it would be something like sudo chown -R username:users /path/to/file

@@ -1,0 +1,4 @@
+2012-06-11T18:37:00.000Z	wahben	theadmin	thanks, will try that
+2012-06-11T18:36:00.000Z	theadmin	wahben	Defaults env_keep PATH
+2012-06-11T18:36:00.000Z	theadmin	wahben	Add that line to sudoers and you should be good.
+2012-06-11T18:39:00.000Z	wahben	theadmin	success! /etc/sudoers has its own "secure path" setting, need to add /opt/bin there as well

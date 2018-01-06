@@ -1,0 +1,4 @@
+2009-04-22T08:24:00.000Z	juls4		Hey guys, after replacing my xorg.conf file with one NVIDIA settings wrote my pc keeps starting up with 1600x1050 instead of 1650x1050. It's out of range and it kind of makes my monitor go nuts. I've tried selecting both 1650x1050 & auto select (replacing xorg.conf file each time) but it still reverts back to 1600x1050. Any suggestions?
+2009-04-22T08:25:00.000Z	mikechelen	juls4	what nvidia chipset, and do you have the proprietary drivers enabled?
+2009-04-22T08:28:00.000Z	juls4	mikechelen	02:00.0 VGA compatible controller: nVidia Corporation NV18 [GeForce4 MX 440 AGP 8x] (rev a2), and yes - proprietary
+2009-04-22T08:29:00.000Z	mikechelen	juls4	with that chipset you may want to try picking an older version of the driver, or using envyng to help pick

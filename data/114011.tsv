@@ -1,0 +1,4 @@
+2007-11-15T23:23:00.000Z	rudolfmdlt		Hi, my samba is screwed and I need to add a network printer by hand in the following format: smb://[workgroup/]server[:port]/printer... anybody know what port windows printers are shared on? thanks
+2007-11-15T23:23:00.000Z	fyrestrtr	rudolfmdlt	because [:port] is in [ ], it means its optional and you do not need to specify it.
+2007-11-15T23:24:00.000Z	rudolfmdlt	fyrestrtr	odd, but thanks I'll give it a shot now. :)
+2007-11-15T23:31:00.000Z	rudolfmdlt	fyrestrtr	THANK YOU! I've been screwing with samba for a week! thanks!

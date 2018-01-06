@@ -1,0 +1,4 @@
+2008-02-10T23:53:00.000Z	lauren		ok so, let me rephrase my question.... if i had been running gnome and then installed on the same machine kde4, and kde4 is running slowly, is there something i have to do with xserver or something so it will only run one at a time? i'm not sure whats going on, but i'm pretty sure it shouldnt be running this slowly
+2008-02-10T23:54:00.000Z	nickrud	lauren	when you log back into gnome, does it run normally?
+2008-02-10T23:54:00.000Z	lauren	nickrud	yea
+2008-02-10T23:55:00.000Z	nickrud	lauren	then most likely it's something with kde4. gnome doesn't run when you log into kde4  (ps -A in a a terminal tells you what's running) and I hear kde4 is not yet ready for prime time

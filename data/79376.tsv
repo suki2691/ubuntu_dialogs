@@ -1,0 +1,4 @@
+2011-10-10T01:00:00.000Z	antnash_		how do I mount a disk as rw? It's a disk that has come in from another system
+2011-10-10T01:01:00.000Z	antnash_		nope
+2011-10-10T01:01:00.000Z	DasEi	antnash_	mount it and then grand permissions for the mountdir, too, want it permantly ?
+2011-10-10T01:02:00.000Z	DasEi	antnash_	sudo chown -R $USER /path/mountdir

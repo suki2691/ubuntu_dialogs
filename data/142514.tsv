@@ -1,0 +1,4 @@
+2008-03-13T03:18:00.000Z	Lgndryhr		hi, i am hoping someone can help me. for some reason when i try to load up a memory card via a card reader it wont mount now at all. ever since i upgraded to 7.10 it wont mount any of the memory cards in my card reader.
+2008-03-13T03:19:00.000Z	pike_	Lgndryhr	unplug replug the sd card then type dmesg| tail do you see a sda1 or sdb1 or sdc etc?
+2008-03-13T03:21:00.000Z	Lgndryhr	pike_	when i do that i get
+2008-03-13T03:22:00.000Z	Lgndryhr	pike_	the card i am using is not a sd but a ms duo

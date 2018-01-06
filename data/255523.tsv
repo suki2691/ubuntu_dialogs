@@ -1,0 +1,4 @@
+2009-05-05T23:01:00.000Z	MeXTux		I want to remove splash screen during boot. I know it is possible to remove some parameters from /boot/grub/menu.lst. Does anybody know what do I have to do??
+2009-05-05T23:02:00.000Z	nanomad	MeXTux	sudo gedit /etc/grub/menu.lst
+2009-05-05T23:03:00.000Z	nanomad	MeXTux	remove splash from the defoptions= line
+2009-05-05T23:03:00.000Z	nanomad	MeXTux	then run sudo update-grub

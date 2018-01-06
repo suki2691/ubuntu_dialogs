@@ -1,0 +1,4 @@
+2008-04-26T05:34:00.000Z	Abd		while trying to compile 2.6.25 on hardy 64bits I got this msg while runing make menu config
+2008-04-26T05:34:00.000Z	Abd		 *** Unable to find the ncurses libraries or the  *** required header files.  *** 'make menuconfig' requires the ncurses libraries.  ***   *** Install ncurses (ncurses-devel) and try again.  ***  make[1]: *** [scripts/kconfig/dochecklxdialog] Error 1 make: *** [menuconfig] Error 2
+2008-04-26T05:34:00.000Z	Abd		what am I missing?
+2008-04-26T05:35:00.000Z	astro76	Abd	ncurses-devel apparently

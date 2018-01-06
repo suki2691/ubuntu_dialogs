@@ -1,0 +1,4 @@
+2006-03-30T13:51:00.000Z	themachine		what ports do I usually need to forward for my ftp server?
+2006-03-30T13:51:00.000Z	themachine		21 isn't working..
+2006-03-30T13:52:00.000Z	roast	themachine	you need to forward 21 and a range of data ports for ftp to work
+2006-03-30T13:53:00.000Z	roast	themachine	if you're using proftpd, look up PassivePorts

@@ -1,0 +1,4 @@
+2007-10-05T09:11:00.000Z	lucashungaro		Hello there. How can I set my user as the root user? Every document I open on a editor on gnome is read-only, I have to open the terminal, type su and my password and then use vi.... that's annoying. My user already belongs to the root group. Also, when I try to log into gnome with root, the system says that I can't open a session with this user...
+2007-10-05T09:13:00.000Z	Flannel	lucashungaro	Why don't you give yourself permission to access that folder then?
+2007-10-05T09:14:00.000Z	lucashungaro	Flannel	gnomes's interface doesn't let me do it, how can I do it on the terminal?
+2007-10-05T09:14:00.000Z	Flannel	lucashungaro	chmod/chown changes the permissions and ownership, respectively.

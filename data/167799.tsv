@@ -1,0 +1,4 @@
+2007-03-07T08:32:00.000Z	indigoblu		i destroyed my configuration dir for nagios2, using apt-get install nagios2 does not restore this config dir, how is this done?
+2007-03-07T08:33:00.000Z	bruenig	indigoblu	generally when you launch a program, the config directory, if not there, remakes itself
+2007-03-07T08:34:00.000Z	indigoblu	bruenig	nagios will not generate its own config, I need apt to reinstall it...
+2007-03-07T08:35:00.000Z	bruenig	indigoblu	sudo apt-get --reinstallnagios

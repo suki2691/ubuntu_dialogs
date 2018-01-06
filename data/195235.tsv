@@ -1,0 +1,4 @@
+2006-05-29T12:28:00.000Z	zelevw		hi...how can i set a pcs network settings from dhcp to static ip from the command line? using ubuntu 5.10...thank you
+2006-05-29T12:29:00.000Z	Jimmey__	zelevw	change the /etc/network/interfaces file, so that it says "inface eth0 inet static [newline]  adress 000.000.000.000"
+2006-05-29T12:30:00.000Z	Jimmey__	zelevw	you're welcome
+2006-05-29T12:31:00.000Z	Jimmey__	zelevw	you shouldn't take my example literally - Replace "eth0" with your default network device, and replace "000.000.000.000" with the IP you want

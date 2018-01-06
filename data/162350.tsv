@@ -1,0 +1,4 @@
+2006-11-05T12:56:00.000Z	TheWheat		i have attached a usb wireless adapter but it doesnt show up in "ifconfig" only "iwconfig". is it necessary to show up in ifconfig for the adapter to work?
+2006-11-05T12:57:00.000Z	Daverocks	TheWheat	if it doesn't show up in "ifconfig", that means the interface is not up
+2006-11-05T12:57:00.000Z	Daverocks	TheWheat	and yeah, it does need to show up in ifconfig for it to work, but you can do that by bringing up the interface
+2006-11-05T12:58:00.000Z	TheWheat	Daverocks	thanks. so i just do an ifconfig rausb0 up since it shows up as rausb0 in iwconfig

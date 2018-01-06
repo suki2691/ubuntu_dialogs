@@ -1,0 +1,4 @@
+2010-06-25T14:56:00.000Z	elyob	rww	Thanks for that ... next question .. any idea how /var/www/wtmp gets populated?! I have a script that sends me a message via Growl whenever anyone logs into one of my servers, but also want to add in the users IP address.
+2010-06-25T14:57:00.000Z	rww	elyob	various programs write to it. see "man wtmp" and "man -k wtmp".
+2010-06-25T15:17:00.000Z	elyob	rww	Well, it is int32_t ut_addr_v6[4] that I want, but am not sure if this gets populated to na ccessible variable sim
+2010-06-25T15:17:00.000Z	elyob	rww	Well, it is int32_t ut_addr_v6[4] that I want, but am not sure if this gets populated to an accessible variable like $HOST etc

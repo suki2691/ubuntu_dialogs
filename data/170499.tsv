@@ -1,0 +1,4 @@
+2012-09-15T13:39:00.000Z	houman		Hi, I have just compiled git (with make) and it created lots of git related directories into my home (e.g. bin, lib, libexec, share and each includes git related files)  Do I have to run 'make' with a prefix to avoid this mess? Why didn't it keep everything in the /usr/local/src as expected?
+2012-09-15T13:39:00.000Z	houman		The idea is to commpile it in to a debian package
+2012-09-15T13:41:00.000Z	jrib	houman	why compile git?  It's in the repositorise
+2012-09-15T13:42:00.000Z	houman	jrib	I was just feeling I could do it. ;) I was wrong

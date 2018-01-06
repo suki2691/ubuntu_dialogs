@@ -1,0 +1,4 @@
+2008-05-12T01:25:00.000Z	mylogic		I get "the following packages cannot be authenticated!" when I try to add launchpad to my repos -- anyone know why this would be?
+2008-05-12T01:25:00.000Z	Flannel	mylogic	you need to add the GPG key for the repo
+2008-05-12T01:26:00.000Z	mylogic	Flannel	how might I go about that? O.o
+2008-05-12T01:27:00.000Z	Flannel	mylogic	Well, you'd have to get the GPG fingerprint, as to how you'd do that, I'm not sure (since this is PPA, right?).  Its probably the person themselves, although I'm not sure, then if you go into software sources, theres a place where you can paste it in

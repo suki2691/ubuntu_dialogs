@@ -1,0 +1,4 @@
+2007-03-22T16:37:00.000Z	ericrost		how can I reinstall the stock alsa drivers that came with ubuntu edgy? I compiled the newer alsa from source, and it didn't fix my problem, I uninstalled it, now gnome won't start
+2007-03-22T16:38:00.000Z	ericrost		anyone?
+2007-03-22T16:39:00.000Z	ericrost		how can I get the alsa drivers that came with the ubuntu install back without wiping and reinstalling?
+2007-03-22T16:40:00.000Z	crimsun	ericrost	apt-get -d install linux-image-$(uname -r) && rm -rf /lib/modules/$(uname -r)/kernel/sound && apt-get --reinstall install linux-image-$(uname -r)

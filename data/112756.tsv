@@ -1,0 +1,4 @@
+2010-12-19T20:38:00.000Z	maxflax		how do I write to unmount a drive in terminal.. writing umount on it just return saying the unit is busy
+2010-12-19T20:39:00.000Z	sunny_	maxflax	try -f option
+2010-12-19T20:39:00.000Z	maxflax	sunny_	: nope
+2010-12-19T20:40:00.000Z	sunny_	maxflax	also try lsof to see which process holds it busy

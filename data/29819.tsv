@@ -1,0 +1,4 @@
+2011-01-05T22:09:00.000Z	delinquentme		hey all i had a quick question with regards to security ... does the # of open ports really contribute to the security of a system? or the lack thereof?
+2011-01-05T22:10:00.000Z	SwedeMike	delinquentme	it's not the number of open ports, it's the number of different applications listening to them. One application with 64000 ports open is less of a problem than 1000 applications with a single port each
+2011-01-05T22:10:00.000Z	SwedeMike	delinquentme	basically you want to not have things you don't need running.
+2011-01-05T22:11:00.000Z	delinquentme	SwedeMike	ok thanks .. so ive got a mini issue on my hands

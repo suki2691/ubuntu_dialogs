@@ -1,0 +1,4 @@
+2009-04-08T02:20:00.000Z	matisse		hi
+2009-04-08T02:20:00.000Z	matisse		I've got an puzzling problem: I have okular (package okular-kde4 and more) installed, but I can't start it, because there seems to be no executable with such name. (I'm running Kde3) Anyone got an idea?
+2009-04-08T02:20:00.000Z	mgolisch	matisse	look at the packages files? using dpkg -L packagename
+2009-04-08T02:24:00.000Z	matisse	mgolisch	Picassotamus:  found the reason: the directory you mentioned is not in the PATH... thx for the hints!

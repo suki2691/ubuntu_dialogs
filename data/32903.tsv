@@ -1,0 +1,4 @@
+2011-09-28T02:06:00.000Z	qin	shishire	You making backups with sed?
+2011-09-28T02:08:00.000Z	shishire	qin	No, editing files, but the script which is doing so may be run multiple times.  I don't want the original copy of the backup to get overwritten, as it can be restored if needed.
+2011-09-28T02:11:00.000Z	qin	shishire	touch filename-`date +%F-%T`.bak
+2011-09-28T02:12:00.000Z	shishire	qin	ooh, nice, didn't even think about something like that

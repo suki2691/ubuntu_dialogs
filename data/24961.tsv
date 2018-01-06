@@ -1,0 +1,4 @@
+2010-10-03T15:51:00.000Z	bansali		hey. how do i format a flash drive to FAT32?
+2010-10-03T15:52:00.000Z	Dr_Willis	bansali	 easy way - use gparted,  or use 'sudo mkfs.vfat /dev/sdXX' and DONT make a mistake with the /dev/sdXX part
+2010-10-03T15:53:00.000Z	bansali	Dr_Willis	ppq: sudo mkfs -t vfat /dev/sdb1 should i specify size?
+2010-10-03T15:53:00.000Z	Dr_Willis	bansali	 i dont think it matters.

@@ -1,0 +1,4 @@
+2011-11-08T18:51:00.000Z	rypervenche		Hi all. I made put a VFAT partition and a LUKS partition on a USB drive today. However, I am unable to access the VFAT partition from Windows. Would this be because I made it the second partition? I'm pretty sure I did this on my last USB drive without any problem. Any ideas?
+2011-11-08T18:51:00.000Z	rypervenche		I used fdisk to create it.
+2011-11-08T18:52:00.000Z	RaTTuS|BIG	rypervenche	- windows will need the fat32 partition on a usb stick to be the 1st one
+2011-11-08T18:53:00.000Z	rypervenche	RaTTuS|BIG	Ok, thank you.

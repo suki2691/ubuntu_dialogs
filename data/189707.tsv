@@ -1,0 +1,4 @@
+2010-08-13T01:53:00.000Z	MTec007		is there a way to make a usb HD safe for removal? its not mounted but it is powered up
+2010-08-13T01:54:00.000Z	hiku	MTec007	if the device isn't mounted, then you are ok to remove it
+2010-08-13T01:55:00.000Z	hiku	MTec007	yes, if the device isn't mounted, then there is nothing the linux system can do to it to hurt it.
+2010-08-13T01:56:00.000Z	hiku	MTec007	if your really worried. mount the drive, rsync the data to the local server, then umount the drive and then remove it.

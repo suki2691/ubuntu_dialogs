@@ -1,0 +1,4 @@
+2012-04-11T23:52:00.000Z	Nk26		Anyone know a way to pull like 100 files at a time out of directory and move them to another directory?
+2012-04-11T23:54:00.000Z	Nk26		mkman I need to only do a 100 or 500 at a time its a dir filled with thousands of files
+2012-04-11T23:55:00.000Z	ssta	Nk26	for foo in $(ls |head -100); do mv "$foo" /some/path; done
+2012-04-11T23:56:00.000Z	Nk26	ssta	thanks ill check that out !

@@ -1,0 +1,4 @@
+2009-09-12T00:34:00.000Z	austin_work		anyone familiar with udev? I'm working on automated backup script, that recognizes the external hd by serial number. It works fine, but when plugging in a similar drive (same model/etc.), with a *different* serial number, the backup script is still run
+2009-09-12T00:34:00.000Z	austin_work		part of the rule is ' ID_SERIAL_SHORT=="1234wxyz" '
+2009-09-12T00:35:00.000Z	G_A_C	austin_work	/dev/disk/by-id lists devices on my system including their serial number and firmware revisions
+2009-09-12T00:36:00.000Z	austin_work	G_A_C	I've got the serial number, but apparently udev is ignoring it

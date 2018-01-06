@@ -1,0 +1,4 @@
+2012-04-21T16:25:00.000Z	elspuddy		is there a way of searching for a program to install useing apt-get ?
+2012-04-21T16:27:00.000Z	theadmin	elspuddy	Yes, apt-cache search KEYWORD
+2012-04-21T16:28:00.000Z	theadmin	elspuddy	Well, you can't search using apt-get directly, though, but that's the way it's done.
+2012-04-21T16:39:00.000Z	theadmin	elspuddy	You need either > output.txt (or >! output.txt if you're using zsh), or | tee output.txt

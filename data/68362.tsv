@@ -1,0 +1,4 @@
+2010-08-11T07:09:00.000Z	hullo		hi, what is the correct way to temporarily shut down pulseaudio
+2010-08-11T07:09:00.000Z	whompapotamus	hullo	unload the module
+2010-08-11T07:16:00.000Z	whompapotamus	hullo	edit /etc/pulse/client.conf and add "autospawn = no" - Then you can do "pulseaudio -k" to kill it
+2010-08-11T07:17:00.000Z	whompapotamus	hullo	np

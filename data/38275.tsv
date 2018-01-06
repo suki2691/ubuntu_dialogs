@@ -1,0 +1,4 @@
+2010-01-27T08:44:00.000Z	redwoodsound		hello all im having a problem with ubuntu 9.10  about half of the times i put the computer to sleep/suspend/hibernate/screensaver it freezes when i wake it or move the mouse hit keyboard etc.  Then i have to actually hold the power button in to shut it off  I am using an RT kernel and have raedon 4670 ati propritary  drivers installed
+2010-01-27T08:45:00.000Z	nn-olpc	redwoodsound	sory but sleep mode is the weekness of the linux system Espesially when it comes to ati drivers .. hybernate should work though
+2010-01-27T08:53:00.000Z	redwoodsound	nn-olpc	thanks   but hibernate doesnt work   unless it is supposed to actually shut the computer off because thats what it does
+2010-01-27T08:55:00.000Z	nn-olpc	redwoodsound	Yes hibernate is suposed to shut down the system .. it dump all the ram into swap then shuts off .. on boot up it reloades the drivers thus keeping ati working .. and then just loades the memory back out of swap

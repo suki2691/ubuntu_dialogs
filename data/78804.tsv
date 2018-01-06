@@ -1,0 +1,4 @@
+2009-05-14T19:08:00.000Z	Kingsy101		can someone tell me, I have just got a new webserver (with SSH access) and I was wondering how I go about testing it? if anyone has a second could they take me through it in a pm? I am pretty new to all of this...
+2009-05-14T19:09:00.000Z	Kingsy101		testing the SSH I mean :)
+2009-05-14T19:09:00.000Z	klync	Kingsy101	no pm, but i'll tell you this - svn can use 3 methods for access: file, the svnserve daemon, and http(s) ... when ssh-ing, you're probably using file://
+2009-05-14T19:09:00.000Z	klync	Kingsy101	my guess is that you haven't set up apache's mod_dav_svn module

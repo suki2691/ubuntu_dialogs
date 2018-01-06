@@ -1,0 +1,4 @@
+2008-06-23T17:27:00.000Z	rampageoberon		I have the ATI Radeon Xpress 200 card, and unfortunately i can't access the internet from the root shell in the recovery boot (I can't seem to use the tty terminals in the normal boot). The guide on the wiki asks me to enable the accelerated graphics from the gui which i can't. So i can't login to my system as it keeps killing X. Any ideas how i can troubleshoot this :(
+2008-06-23T17:29:00.000Z	DistroJockey	rampageoberon	you could try removing splash and quiet from your grub kernel line
+2008-06-23T17:30:00.000Z	rampageoberon	DistroJockey	I tried that, unfortunately i loose display on my monitor till the login screen is loaded, so can't tell much there
+2008-06-23T17:31:00.000Z	DistroJockey	rampageoberon	hmm

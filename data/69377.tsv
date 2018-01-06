@@ -1,0 +1,4 @@
+2012-01-05T03:22:00.000Z	wxl		anyone familiar how to use apt (not aptitude) to figure out why a package was installed? i'm assuming apt-cache rdepends but it seems to pull up packages that i don't have installed. how do i limit it to only what i have installed?
+2012-01-05T03:24:00.000Z	Seveas	wxl	try apt-get remove and say no to the confirmation. It'll show you what it wants to remove if you remove the package.
+2012-01-05T03:24:00.000Z	wxl	Seveas	that's one possibility but a risky one
+2012-01-05T03:25:00.000Z	Seveas	wxl	no, not risky at all. apt-get will ask for a confirmation. YOu caould also do apt-get -n remove package foe a dry run

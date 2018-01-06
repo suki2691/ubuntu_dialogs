@@ -1,0 +1,4 @@
+2006-10-12T12:22:00.000Z	ScislaC		does anyone know where the remote desktop preferences are saved? (as in configuration file)
+2006-10-12T12:23:00.000Z	pike_	ScislaC	like ~/.vnc/xstartup or whatever?
+2006-10-12T12:23:00.000Z	pike_	ScislaC	you might just sudo gdmsetup for some of the remote desktop settings
+2006-10-12T12:25:00.000Z	ScislaC	pike_	problem is that I can ssh into my box, but my vnc is having issues... so I'm looking to either try to re-set my password manually or restart the service... so I guess the Q is... is gdmsetup a command-line utility?

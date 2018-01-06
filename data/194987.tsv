@@ -1,0 +1,4 @@
+2008-04-09T08:19:00.000Z	Fezzler		One more.  I have two hard drives in my Ubuntu PC.  One has OS and other is all storage.  The 2nd is new fast 200gig HD.  OS is old slow 6gig.  Can I buy new OS hard drive and somehow make an exact copy?
+2008-04-09T08:20:00.000Z	Scunizi	Fezzler	you can use partimage to image the small drive.. reinstall onto the new drive and then use gparted from live cd to make it larger
+2008-04-11T08:22:00.000Z	Scunizi	Fezzler	sudo nano /etc/X11/xorg.conf
+2008-04-11T08:24:00.000Z	Scunizi	Fezzler	tuxus or just nano without the sudo will let you read it without editing priv. too.

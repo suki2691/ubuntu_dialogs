@@ -1,0 +1,4 @@
+2009-03-10T18:42:00.000Z	dexter		Hi, I think I've messed my system up a little. I wanted to upgrade to ubuntu studio which required changing repositorys I did and followed a certain guide wich didn't work. However. Now when I goto install certain software it keeps telling me to insert my ubuntu studio disc. What have I messed up? I just want my normal working ubuntu back :'(
+2009-03-10T18:43:00.000Z	Dr_willis	dexter	 remvoe the cd line from the sources.list
+2009-03-10T18:44:00.000Z	Dr_willis	dexter	 the sources.list is a text file you can edit.. You aprently have added a 'cdrom' drive entry in the file..  proverly from that guide.. look at the file and remove the cdrom line
+2009-03-10T18:45:00.000Z	Dr_willis	dexter	 /etc/apt/ i recall

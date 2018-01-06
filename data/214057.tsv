@@ -1,0 +1,4 @@
+2011-03-30T19:07:00.000Z	eveningsky|2		how do I access a locally served website from another computer on the same network?
+2011-03-30T19:08:00.000Z	eveningsky|2		I put the local ip of the computer. it just sits there.
+2011-03-30T19:08:00.000Z	eveningsky|2		says "connecting to" indefinitely
+2011-03-30T19:08:00.000Z	airtonix	eveningsky|2	make sure the computer serving the site has port 80 open : sudo ufw allow in on eth0 to any port 80

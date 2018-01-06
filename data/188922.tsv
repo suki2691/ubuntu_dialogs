@@ -1,0 +1,4 @@
+2006-11-22T12:55:00.000Z	astro73		my /home fs (hda7) went read-only. how do I restore it?
+2006-11-22T12:57:00.000Z	Lynoure	astro73	Did you do something to cause it?
+2006-11-22T12:59:00.000Z	Lynoure	astro73	you could try remounting it. mount -o remount,rw /home
+2006-11-22T13:00:00.000Z	Lynoure	astro73	or perhaps add   sudo  to the start of it

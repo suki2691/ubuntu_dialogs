@@ -1,0 +1,4 @@
+2011-02-06T00:25:00.000Z	DarsVaeda		hi, i have file permission issues, i setup a apache webserver and can access the "it works" file via browser, but if i create a directory in the same location as that file i always get access denied
+2011-02-06T00:25:00.000Z	DarsVaeda		aka 403 forbidden
+2011-02-06T00:26:00.000Z	RishavT	DarsVaeda	try right-clicking the files in the folder, properties, permissions, and set the "others" (or everyone else) part to "read". That should let apache read the files.
+2011-02-06T00:33:00.000Z	RishavT	DarsVaeda	try "sudo chmod -R 755 cms/*", It worked for me (just tested it right now. I 1st changed the permissions so that I get the forbidden error and then executed that command. It worked) If it still doesn't work, I really dont know why its not. :(

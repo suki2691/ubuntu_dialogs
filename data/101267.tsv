@@ -1,0 +1,4 @@
+2009-11-03T08:18:00.000Z	craigbass1976		sudo mount 192.168.0.3:/nfs/share/ /nfs/share/mountpoint  <--  This isn't working.  My wife shut off the server, and it was mounted up on my laptop at the time. How do I remount it without rebooting?
+2009-11-03T08:19:00.000Z	craigbass1976		When I try to unmount it, device is busy
+2009-11-03T08:19:00.000Z	craigbass1976		lsof is hanging
+2009-11-03T08:20:00.000Z	Adys	craigbass1976	killall on the process, then fusermount -u myShare

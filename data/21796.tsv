@@ -1,0 +1,4 @@
+2010-12-18T21:16:00.000Z	eman2		how can i run a script at startup regardless of the runlevel besides symlinking to each /etc/rc?.d folder?
+2010-12-18T21:17:00.000Z	Bondv6	eman2	create a upstarte-service for it in /etc/init/
+2010-12-18T21:17:00.000Z	Bondv6	eman2	if you just want to add the symlinks, you can use the update-rc.d program
+2010-12-18T21:17:00.000Z	Bondv6	eman2	ie: update-rc.d service defaults

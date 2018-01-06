@@ -1,0 +1,4 @@
+2006-09-08T07:04:00.000Z	gomek		Anyone know of any documentation on the web for modifying existing metapackages?
+2006-09-08T07:04:00.000Z	gomek		Or know how to do such a thing?
+2006-09-08T07:04:00.000Z	Telroth`	gomek	metapackages being .deb packages?
+2006-09-08T07:07:00.000Z	Telroth`	gomek	use dpkg --extract and dpkg --control to extract the files and control files

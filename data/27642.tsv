@@ -1,0 +1,4 @@
+2010-08-11T12:10:00.000Z	Bobbie		I am reading this blog post about adding empathy to the run on startup. I get "sudo cp /usr/share/applications/empathy.desktop /etc/xdg/autostart
+2010-08-11T12:10:00.000Z	Bobbie		" but I don't understand why the FAQ is telling me to follow up with "sudo chmod a+r /etc/xdg/autostart/empathy.desktop"
+2010-08-11T12:10:00.000Z	Bobbie		The first command added it to the startup listing already, the second..is telling the startup manager to read all the files again? What am I missing about it.
+2010-08-11T12:11:00.000Z	Guest15692	Bobbie	It is changing the ownership

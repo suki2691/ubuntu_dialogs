@@ -1,0 +1,4 @@
+2005-09-24T14:07:00.000Z	hungsolow		sorry didn't want to interrupt -- I just went through installing java according to guides and now synaptic won't work and I keep getting an error "E: The package ibmjava2-142-ppc32-sdk needs to be reinstalled, but I can't find an archive for it."
+2005-09-24T14:08:00.000Z	johndarkhorse	hungsolow	do you have the ibmjava pkg on your hard disc somewhere?
+2005-09-24T14:10:00.000Z	hungsolow	johndarkhorse	yeah I've still got it -- it had me use the fakeroot alien to cnvert the rpm file
+2005-09-24T14:11:00.000Z	johndarkhorse	hungsolow	then open a terminal where the ibm pkg is and use dpkg to reinstall it

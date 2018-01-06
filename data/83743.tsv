@@ -1,0 +1,4 @@
+2009-06-06T05:59:00.000Z	ganymede		is there a way to run multiple apt-get commands in one line, like sudo apt-get remove links install links2?
+2009-06-06T05:59:00.000Z	lstarnes	ganymede	not like that
+2009-06-06T06:00:00.000Z	lstarnes	ganymede	maybe sudo apt-get remove links && sudo apt-get install links2
+2009-06-06T06:01:00.000Z	ganymede	lstarnes	fccf: since this is a slow machine, my primary reason was to avoid the steps where it reads the package list

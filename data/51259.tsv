@@ -1,0 +1,4 @@
+2011-06-21T02:48:00.000Z	Castatroy		please what command can use to get installation path and directories for packages
+2011-06-21T02:50:00.000Z	Castatroy		what is the equivalent of rpm -ql on ubuntu
+2011-06-21T02:52:00.000Z	trism	Castatroy	possibly: dpkg -L package_name; if I understand you correctly
+2011-06-21T02:54:00.000Z	trism	Castatroy	if you mean for an actual .deb package: dpkg-deb -c filename.deb;

@@ -1,0 +1,4 @@
+2008-06-08T11:02:00.000Z	amenado		 how would a user/attacker would abuse a /tmp or /var/tmp directory? supposedly this PAM module namespace allows for poly-instantiation to have each user have each own virtual /tmp ..
+2008-06-08T11:04:00.000Z	amenado		Starnestommy-> doesnt a typical linux would have a limit on the file size on /tmp?
+2008-06-08T11:04:00.000Z	anirudh1	amenado	yes..see df -h for your limit
+2008-06-08T11:05:00.000Z	anirudh1	amenado	i assumed tmp was a seperate partition

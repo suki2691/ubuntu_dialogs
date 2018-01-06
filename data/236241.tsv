@@ -1,0 +1,4 @@
+2006-05-27T15:54:00.000Z	mrDaniel		i have done 'apt-get install nvidia-glx', 'nvidia-glx-config enable' and 'dpkg-reconfigure xserver-xorg nv->nvidia' and set the nvidia-driver for my GeForce Go 7600, but the xerver don't work: API dismatch: the NVIDIA kernel module has the version 1.0-7667, but this X module has the version 1.0-8762. Please make sure that the kernel module and all NVIDIA driver components have the same version
+2006-05-27T15:54:00.000Z	NoUse	mrDaniel	did you try installing via the installer from nvidia.com?
+2006-05-27T15:55:00.000Z	NoUse	mrDaniel	run the uninstaller for that package, otherwise you'll keep getting that message
+2006-05-27T15:57:00.000Z	NoUse	mrDaniel	re-run the installer from the wiki and it should work

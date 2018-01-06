@@ -1,0 +1,4 @@
+2011-12-01T03:35:00.000Z	silas428		I have a webpage that runs a bash script that tries to get a file through SCP, apache is trying to scp as user apache instead of the user I specify in the command line, I have already tried setting the suid bit on the file. any help?
+2011-12-01T03:36:00.000Z	iceroot	silas428	what? ssh-access for www-data?
+2011-12-01T03:37:00.000Z	silas428	iceroot	its just a script that SSHs into another box to get a file
+2011-12-01T03:37:00.000Z	iceroot	silas428	ah ok i thought a local access

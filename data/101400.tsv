@@ -1,0 +1,4 @@
+2011-04-02T17:17:00.000Z	mrdeb		how do you enable internet connectio nsharing without using network manager
+2011-04-02T17:18:00.000Z	mrdeb		how do you enable internet connectio nsharing without using network manager
+2011-04-02T17:19:00.000Z	prx	mrdeb	youd need echo 1 >/proc/sys/net/ipv4/ip_forward and probably set up the iptables rules if you need NAT
+2011-04-02T17:21:00.000Z	prx	mrdeb	http://ubuntulinux.co.in/blog/ubuntu/nat-configuration-with-iptables-in-ubuntu/

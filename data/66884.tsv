@@ -1,0 +1,4 @@
+2009-02-06T03:25:00.000Z	blsecres		does anyone know if it's possible to install on an existing partition structure without reformatting certain disks?
+2009-02-06T03:26:00.000Z	pike_	blsecres	yes during install choose manual edit partition table option and set your mount points and make sure in the dropdown it doesnt say format
+2009-02-06T03:26:00.000Z	pike_	blsecres	useful for like /home and stuff
+2009-02-06T03:26:00.000Z	blsecres	pike_	I'm only given that option if the partitions aren't on a LVM

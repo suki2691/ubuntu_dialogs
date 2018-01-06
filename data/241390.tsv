@@ -1,0 +1,4 @@
+2005-10-13T11:20:00.000Z	GrooMan		I already have installed ubuntu Breezy Badger in my notebook, I just finished installing it in a old computer I have. The problem is that when it was supposed to enter the login screen, it just turns off the screen and does nothing. Can anybody help??
+2005-10-13T11:22:00.000Z	djm62	GrooMan	it sounds like you haven't got X configured right
+2005-10-13T11:22:00.000Z	djm62	GrooMan	can you get into a console with ctrl-alt-f1 ?
+2005-10-13T11:23:00.000Z	djm62	GrooMan	sudo dpkg-reconfigure xserver-xorg would be a good first try then

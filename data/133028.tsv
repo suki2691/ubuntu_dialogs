@@ -1,0 +1,4 @@
+2008-01-14T19:25:00.000Z	mraudsepp		Hello. How can I get a 64bit kernel to work for an otherwise 32bit system install? I need to chroot into a 64bit system, but 7.10 doesn't seem to have a linux-image-amd64-generic and linux-image-generic gets me booted into a 32bit kernel per uname -m (and inability to chroot to 64bit system)
+2008-01-14T19:27:00.000Z	mraudsepp		but that can be only done if the kernel is 64bit, and that is possible on a 32bit system.
+2008-01-14T19:29:00.000Z	mraudsepp		the description of linux-generic says it's x86/x86_64
+2008-01-14T19:30:00.000Z	_nix_	mraudsepp	you need to install ubuntu 64 bit for that.. it ain't just the kernel

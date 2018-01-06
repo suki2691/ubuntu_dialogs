@@ -1,0 +1,4 @@
+2009-07-30T16:05:00.000Z	rvn		grub error 22 after i resized some partitions
+2009-07-30T16:05:00.000Z	rvn		how do i fix it
+2009-07-30T16:05:00.000Z	rvn		but what do i run to fix
+2009-07-30T16:05:00.000Z	janisozaur	rvn	perhaps your uuid changed, compare values in /boot/grub/menu.lst with output of "sudo blkid /dev/sdaX"

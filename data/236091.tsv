@@ -1,0 +1,4 @@
+2007-10-20T01:06:00.000Z	itch_		Hello guys. I`ve run into a bit of trouble after upgrade-in my feisty to gutsy. I can no longer start my X server, even if it`s properly configured. It crashes with this error: "Screens found, but none have a usable configuration
+2007-10-20T01:06:00.000Z	itch_		Any sugestion ?
+2007-10-20T01:06:00.000Z	pppoe_dude	itch_	try reconfiguring X
+2007-10-20T01:07:00.000Z	pppoe_dude	itch_	probably by running sudo dpkg-reconfigure xserver-xorg

@@ -1,0 +1,4 @@
+2007-07-14T08:56:00.000Z	stefg		!grub | sr`
+2007-07-14T08:58:00.000Z	sr`	stefg	so if I have sda and sdb and I want the loader to be on sdb, I type (hd1) ?
+2007-07-14T08:59:00.000Z	stefg	sr`	right... sda is (hd0) in grub speak, sdb is (hd1)... but are you sure your bios will find grub there?
+2007-07-14T09:00:00.000Z	sr`	stefg	I set bios to boot from the second drive, I think that's ok

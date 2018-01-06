@@ -1,0 +1,4 @@
+2009-01-04T10:28:00.000Z	the_dark_warrio		What is the variable which keeps locations for libraries? It seems the variable got changed, since no lib is found on /usr/local/lib anymore...
+2009-01-04T10:29:00.000Z	nickrud	the_dark_warrio	try running ldconfig , that rebuilds lib relationships. See /etc/ld.so.conf*
+2009-01-04T10:30:00.000Z	the_dark_warrio	nickrud	thanks, I will take a look
+2009-01-04T10:30:00.000Z	the_dark_warrio	nickrud	Thanks ;) that did the trick

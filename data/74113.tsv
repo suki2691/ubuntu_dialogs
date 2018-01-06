@@ -1,0 +1,4 @@
+2009-10-16T04:03:00.000Z	dumont		i accidentally set chmod 7676 by mistake and now the directory displayes drwsrwsrw- ,  how can i set the mode to 776? and get rid of the "s" thats there?
+2009-10-16T04:05:00.000Z	dumont		 chmod 0776 *
+2009-10-16T04:05:00.000Z	nossralsuva	dumont	you've activated a 'sticky bit'
+2009-10-16T04:20:00.000Z	nossralsuva	dumont	use sudo instead to do that, no need to be running as root

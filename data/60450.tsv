@@ -1,0 +1,4 @@
+2010-08-12T07:00:00.000Z	jonathan2		How would I go about setting up DHCP server and tightvncserver to start automatically on boot? I'm running Ubuntu Server
+2010-08-12T07:02:00.000Z	jonathan2		is anyone able to help me?
+2010-08-12T07:03:00.000Z	mek||malloc	jonathan2	Add it to your /etc/init.d/rc.local file
+2010-08-12T07:04:00.000Z	mek||malloc	jonathan2	That is correct, though I suggest you copy the file to a backup like .rc.local just in case

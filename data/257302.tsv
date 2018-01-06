@@ -1,0 +1,4 @@
+2005-04-10T16:49:00.000Z	evan_		would someone help me get the appropriate kernel-headers installed?
+2005-04-10T16:49:00.000Z	ironwolf	evan_	what kernel are you running?
+2005-04-10T16:51:00.000Z	ironwolf	evan_	perhaps you are running the update-manager or synaptic.
+2005-04-10T16:54:00.000Z	ironwolf	evan_	apt-cache search headers | sort | grep 2.6.10 ; should get you the package name

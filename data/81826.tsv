@@ -1,0 +1,4 @@
+2008-09-22T21:27:00.000Z	shingouz	Osse	cat file1 >> file2 adds file1 after file2
+2008-09-22T21:27:00.000Z	Osse	shingouz	- Yeah, I just found that out =) But sorting? cat | sort maybe?
+2008-09-22T21:28:00.000Z	shingouz	Osse	sed might help. depends on what you mean by "sorting"
+2008-09-22T21:28:00.000Z	Osse	shingouz	- Thanks anyways, found out . cat file1 >> file2 && cat file2 | sort > filesort.txt

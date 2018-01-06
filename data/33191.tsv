@@ -1,0 +1,4 @@
+2011-04-07T03:18:00.000Z	ivanberia		does anyone know how to lock out an ip that fails to connect to ssh 5 times in a minute for 10 minutes?
+2011-04-07T03:18:00.000Z	ivanberia		it was suggested i should use iptables
+2011-04-07T03:19:00.000Z	ivanberia		but the only way i can think of is to have a script parsing the ssh log files looking for failed attempts and modifying iptables
+2011-04-07T03:20:00.000Z	Loshki	ivanberia	that's usually how it's done: check out https://help.ubuntu.com/community/Fail2ban

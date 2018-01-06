@@ -1,0 +1,4 @@
+2010-09-22T16:54:00.000Z	konobi1234		How to see what processes connects to the internet?
+2010-09-22T16:55:00.000Z	llutz	konobi1234	lsof -i
+2010-09-22T17:04:00.000Z	konobi1234	maedox	thx, also i found netstat -p | egrep 'tcp|udp'
+2010-09-22T17:04:00.000Z	llutz	konobi1234	netstat -tulpen

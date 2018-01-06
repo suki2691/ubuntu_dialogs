@@ -1,0 +1,4 @@
+2011-05-28T04:59:00.000Z	dksoba88ucsd		I'm trying to run a custom program that was working fine on 10.10. For some reason I now get this error: ./GetNormals: error while loading shared libraries: libmpich.so.1.2: cannot open shared object file: No such file or directory. I'm trying to avoid recompiling the program if necessary, and I'd like to understand where the error actually came from so I can avoid it in the first place.
+2011-05-28T05:01:00.000Z	dksoba88ucsd		I'm trying to understand how a program searches for the shared libraries it needs
+2011-05-28T05:02:00.000Z	hiexpo	dksoba88ucsd	magic   of linux     >   it has pointers
+2011-05-28T05:08:00.000Z	dksoba88ucsd	hiexpo	I use the pointer to pass a specific library to a program?

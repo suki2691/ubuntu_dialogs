@@ -1,0 +1,4 @@
+2008-09-13T22:11:00.000Z	mel01		hey everyone.  I'm having problems with a third party deb package installed with gdebi that was supposed to give 6th gen iPod support to gtkpod.
+2008-09-13T22:12:00.000Z	jdnewmil	mel01	seems like you should talk to the developers of that deb
+2008-09-13T22:14:00.000Z	jdnewmil	mel01	: should pull it out.. I think dkpg -f might be useful, but am not sure
+2008-09-13T22:21:00.000Z	mel01	jdnewmil	dpkg -r did the trick!  Was able to install the older package afterwards.  Thanks!

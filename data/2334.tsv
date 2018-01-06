@@ -1,0 +1,4 @@
+2012-06-21T18:21:00.000Z	Gurkan		Hi. I'm using 12.04, 64-bit with  nvidia 295.59. Problem is I can't use the nvidia driver, Nvidia x server settings keep saying "you do not appear to be using nvidia x server". I've tried un-/reisntalling in various ways with no luck, now I'd like to try envyng. But of course it requires python 2.6, and I have python 2.7 installed =[.. Anyone came across this, and managed to get past it? How?
+2012-06-21T18:23:00.000Z	rowin	Gurkan	did you try running nvidia-xconfig from the command line?
+2012-06-21T18:24:00.000Z	Gurkan	rowin	Yes. "Wrote new config", "old one backed up". But no difference that has made =[.
+2012-06-21T18:32:00.000Z	rowin	Gurkan	you can use 'sudo modprobe nvidia' to test it

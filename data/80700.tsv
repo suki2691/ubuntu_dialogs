@@ -1,0 +1,4 @@
+2008-09-18T05:49:00.000Z	TornadoChas3r		ok i figured out the command i used to mess this up i type cd /home/ircd/unreal& ./unreal start
+2008-09-18T05:49:00.000Z	TornadoChas3r		and now it wont exectue
+2008-09-18T05:50:00.000Z	danbh_intrepid	TornadoChas3r	what does the command jobs say?
+2008-09-18T05:52:00.000Z	danbh_intrepid	TornadoChas3r	you need to have 2 &, not 1.      so   &&

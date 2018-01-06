@@ -1,0 +1,4 @@
+2006-06-22T15:19:00.000Z	psyoptik		I am still having problems installing the ralink module. Everytime I make I get a "no rule to make target 'modules'. Stop." I have trying everything to creating a symbolic link to the kernel source and using make-kpkg modules_image" to editing the makefile. any help?
+2006-06-22T15:21:00.000Z	psyoptik		I am still having problems installing the ralink module. Everytime I make I get a "no rule to make target 'modules'. Stop." I have trying everything to creating a symbolic link to the kernel source and using make-kpkg modules_image" to editing the makefile. any help?
+2006-06-22T15:23:00.000Z	psyoptik		does no one know anything about the make error "no rule to make target 'modules'. Stop."?
+2006-06-22T15:24:00.000Z	dsas	psyoptik	It could be a dodgy makefile, or the makefile. IIRC that means that part of the makefile says "jump to the modules bit", when there is no modules bit.

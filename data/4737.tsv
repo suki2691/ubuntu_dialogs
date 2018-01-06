@@ -1,0 +1,4 @@
+2012-03-10T14:56:00.000Z	acroyear2		Hey all, I set a line in etc/network/interfaces to: iface eth0 inet static as it was previously dynamic and the IP kept changing. I also set the fixed IP and netmask. But now I can't seem to communicate with the outside world - stuff like wget no longer works. Am I missing something?
+2012-03-10T14:57:00.000Z	acroyear2		Would I need to set default gateway as well?
+2012-03-10T14:58:00.000Z	wylde	acroyear2	if you set a static ip yeas, because dhcp is no longer setting that for you
+2012-03-10T14:58:00.000Z	acroyear2	wylde	Gotcha, that seems to have fixed it, thankyou

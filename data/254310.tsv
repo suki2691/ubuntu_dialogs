@@ -1,0 +1,4 @@
+2005-02-05T17:27:00.000Z	pw		click ok, click reload, try your search again, install unrar, go to command line, unrar Debbie Does Dallas, or whatever it is.
+2005-02-05T17:27:00.000Z	gatolas	pw	daniels: I'm about to install Windows 2000 on this machine. How can I prevent the MBR from being borked? (Ubuntu's GRUB is being currently used)
+2005-02-05T17:28:00.000Z	pw	gatolas	you can't.
+2005-02-05T17:29:00.000Z	pw	gatolas	dd if=/dev/hda of=bootblock bs=512 count=1

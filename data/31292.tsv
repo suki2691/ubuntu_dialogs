@@ -1,0 +1,4 @@
+2010-08-07T21:40:00.000Z	Guest10731		I have installed windows XP using virtualBox. now How can I access the all the HDD from virualbox
+2010-08-07T21:40:00.000Z	spinningcompass	Guest10731	Shared folder
+2010-08-07T21:41:00.000Z	spinningcompass	Guest10731	Create a shared folder by clicking on Devices -> Shared Folders
+2010-08-07T21:42:00.000Z	spinningcompass	Guest10731	Create a folder. Then mount it within the guest OS. Use 'net use //vboxsvr/FOLDER_NAME' or similar

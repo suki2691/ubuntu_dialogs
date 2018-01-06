@@ -1,0 +1,4 @@
+2011-10-02T00:34:00.000Z	Jaxan		I have problems with dependencies (in apt-get), I get the following message: http://ideone.com/tOk3s can somebody explain it to me (it seems contradictionary, because the first line says >= and the second <)
+2011-10-02T00:34:00.000Z	mongy	Jaxan	try sudo  apt-get -f install
+2011-10-02T00:35:00.000Z	Jaxan	mongy	that doesn't work (same message)
+2011-10-02T00:35:00.000Z	mongy	Jaxan	I think aptitude does a better job of handling that stuff.  try it

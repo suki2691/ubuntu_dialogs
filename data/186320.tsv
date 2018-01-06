@@ -1,0 +1,4 @@
+2008-07-11T23:27:00.000Z	Vishesh		Hello
+2008-07-11T23:28:00.000Z	Vishesh		I need some help. I wanna copy all the files from /usr/local/lib to /usr/lib. But if I use sudo cp -r /usr/local/lib /usr/lib ... I just get a folder called lib in /usr/lib. How do I copy the contents ?
+2008-07-11T23:29:00.000Z	msl	Vishesh	cp -r
+2008-07-11T23:29:00.000Z	msl	Vishesh	You need the trailing '/' on /usr/local/lib or it thinks you want to move the directory

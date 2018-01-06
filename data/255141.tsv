@@ -1,0 +1,4 @@
+2006-03-31T11:42:00.000Z	SkippyX		OK - my dad's box has an SIS ethernet card, which I don't think ubuntu recognises. Device Manager says "device type: Unknown" & "capabilities: unknown" - but recognizes the vendor & the device "vendor: silicon integrates Systems (SIS)" "Device: SIS900 PCE Fast Ethernet". Can't connect to the web vial my buddies DSL. I can on my box - which has onboard ethernet.
+2006-03-31T11:44:00.000Z	SkippyX		So - the question is - Does Ubuntu recognize this card or not? How do I find out for sure? What PCI cards does ubuntu play well with?
+2006-03-31T11:44:00.000Z	kbrooks	SkippyX	lspci
+2006-03-31T11:44:00.000Z	kbrooks	SkippyX	pastebin the output

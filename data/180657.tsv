@@ -1,0 +1,4 @@
+2006-06-10T12:14:00.000Z	andymac		Everytime I boot ubuntu from the hdd, it stops loading after Mounting Root Filesystem. If I boot using the recovery kernel, I get a kernel panic. I have the livecd here, and I can boot up with that. I'm wondering if there would be a way to restore the kernel from the livecd boot, I don't want to lose everything with a reformat :(
+2006-06-10T12:15:00.000Z	Sivik	andymac	then there is probably some issue with how you have your paritions
+2006-06-10T12:16:00.000Z	andymac	Sivik	: I don't think so, it worked fine for awhile, then one time I rebooted and it hasen't worked since. I only have 1 partition, using all the hdd space.
+2006-06-10T12:17:00.000Z	Sivik	andymac	then there might be an error with your grub settings

@@ -1,0 +1,4 @@
+2007-08-16T11:10:00.000Z	moyer		Question : I haven installed many of programs using apt-get, and also removed them, coming from windows xp, i know that uninstall's sometimes leave bullshit folders and stuff you dont need.. is there a way to view and remove these...
+2007-08-16T11:11:00.000Z	vexati0n	moyer	if you use the --purge switch it will remove config files and miscellaneous other crap that programs leave behind.
+2007-08-16T11:11:00.000Z	vexati0n	moyer	for example instead of "apt-get remove package-name" you'd do "apt-get --purge remove package-name"
+2007-08-16T11:12:00.000Z	moyer	vexati0n	: damn thanks.. wish i woulda known that.

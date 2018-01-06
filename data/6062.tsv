@@ -1,0 +1,4 @@
+2012-02-01T06:54:00.000Z	wchan_		im using xubuntu. i want to create a launcher to eclipse .. how can i do it?  i created one and it says it cant find my JRE ... how can i ensure the launcher does something like source ~/.bashrc before launching the ecilpse
+2012-02-01T06:56:00.000Z	pfifo	wchan_	you could try running it like this `PATH=$PATH:/usr/java/bin /full/path/to/eclipse`
+2012-02-01T06:56:00.000Z	wchan_	pfifo	no semicolon needed?
+2012-02-01T06:57:00.000Z	pfifo	wchan_	no thats all 1 command

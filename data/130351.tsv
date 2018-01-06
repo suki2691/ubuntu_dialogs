@@ -1,0 +1,4 @@
+2007-06-19T05:29:00.000Z	negen		is there a way to burn a dvd iso with out it reading it after it is burned as a dvd-r
+2007-06-19T05:30:00.000Z	negen		just as if it was a store bought dvd
+2007-06-19T05:31:00.000Z	negen		it seems that i have to change to /dev/media/cdrom0 if i want smplayer to play  my freinds wedding movie  but if i play  a store bought dvd it will play from /dev/dvd
+2007-06-19T05:33:00.000Z	deaden	negen	ln -sf /dev/media/cdrom0 /dev/dvd

@@ -1,0 +1,4 @@
+2009-03-23T14:48:00.000Z	dman-		so with the 2.6.24 xen kernel, whenever i nc a dd over network to a lvm partition and it hits 100% and i ctrl c out of dd it seems to panic the kernel
+2009-03-23T14:48:00.000Z	dman-		with BUG: unable to handle kernel paging request at virtual
+2009-03-23T14:48:00.000Z	dman-		address 0027c279
+2009-03-23T14:50:00.000Z	simplexio	dman-	try upgrade kernel. that ficed my kernel bugs wiht dmcrypt

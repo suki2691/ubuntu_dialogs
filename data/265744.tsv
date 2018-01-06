@@ -1,0 +1,4 @@
+2005-02-16T13:21:00.000Z	morchuboo		Hi all - my first time in here. Can anyone tell me how to configure the GDM - I want to set its resolution to 1024 x 768
+2005-02-16T13:22:00.000Z	morchuboo		I tried gdmsetup but that doesnt et you choose its resolution
+2005-02-16T13:22:00.000Z	tritium	morchuboo	you need to configure your xserver, not gdm, for the resolution
+2005-02-16T13:23:00.000Z	tritium	morchuboo	"sudo dpkg-reconfigure xserver-xfree86"

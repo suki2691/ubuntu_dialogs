@@ -1,0 +1,4 @@
+2006-05-11T12:55:00.000Z	NoobSauce		I have a bunch of files in nested directories. does anyone know how to get the files out of those directories and into one central location?
+2006-05-11T12:55:00.000Z	NoobSauce		it's too many to do by hand
+2006-05-11T12:56:00.000Z	roryy	NoobSauce	using command-line, something like this:     find . -type f -exec cp '{}' /the/place/you/want/to/put/them/ ';'
+2006-05-11T13:02:00.000Z	NoobSauce	roryy	thanks, it worked :)

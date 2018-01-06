@@ -1,0 +1,4 @@
+2010-01-27T11:19:00.000Z	drunkenangel		I am currently having issues with directory permission, I am using apache and added a directory to the /var/www folder. ubuntu is saying I can't acess these files because of permission error,
+2010-01-27T11:20:00.000Z	drunkenangel		I am confused on what to set to who
+2010-01-27T11:22:00.000Z	drunkenangel		I started reading on permission and how to use the ls command to view the permission of the files in a directory, So I know that I need the user www-data to be able to read the directory with the /www folders so I thought I could do su www-data to change to the user and then do chmod 755 folder
+2010-01-27T11:23:00.000Z	mkanyicy	drunkenangel	sudo chown -Rv www-data: /var/www

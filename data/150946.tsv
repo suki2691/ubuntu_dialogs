@@ -1,0 +1,4 @@
+2008-08-14T22:54:00.000Z	amenado		Kopfgeldjaeger-> iptables is always there, just copy the rules from newer ufw generated ones?
+2008-08-14T22:56:00.000Z	Kopfgeldjaeger	amenado	that's an idea. Does ufw output the iptables rules?
+2008-08-14T22:57:00.000Z	Kopfgeldjaeger	amenado	OK. Thanks :)
+2008-08-14T23:41:00.000Z	Kopfgeldjaeger	amenado	sudo iptables-save > file and sudo iptables-restore < file would have worked

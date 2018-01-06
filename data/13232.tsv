@@ -1,0 +1,4 @@
+2011-08-23T17:14:00.000Z	damagednoob		i'm trying to connect to an ubuntu server and it says connection closed but it's only happening from a certain client machine
+2011-08-23T17:14:00.000Z	damagednoob		how do i debug that?
+2011-08-23T17:14:00.000Z	gry	damagednoob	Connect using which protocol?
+2011-08-23T17:15:00.000Z	gry	damagednoob	If it's ssh, run the client's command with '-vvv' switch to debug.

@@ -1,0 +1,4 @@
+2009-10-30T17:21:00.000Z	sergeykish		Hello, I have a problem with upgrade - not enought space, 6 GB is good for system work, how can I make it use home partition for update?
+2009-10-30T17:23:00.000Z	natschil	sergeykish	try running apt-get clean. It will clean out your old downloaded package files.
+2009-10-30T17:24:00.000Z	sergeykish	natschil	of course I tried,
+2009-10-30T17:24:00.000Z	sergeykish	natschil	I want `mount --bind` temp dirs

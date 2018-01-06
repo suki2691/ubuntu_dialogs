@@ -1,0 +1,4 @@
+2010-03-21T19:29:00.000Z	pocketcookies		Does anyone know how to get a version of PostgreSQL (that I built myself) to run upon boot?
+2010-03-21T19:30:00.000Z	erUSUL	pocketcookies	make a init script for it. put it in /etc/init.d/ then add it to boot sequence. sudo update-rc.d scriptname defaults
+2010-03-21T19:32:00.000Z	pocketcookies	erUSUL	I've actually tried doing that.  It turns out that the script does run but always receives a STOP command at runlevel 2 (even though /etc/rc2.d has a S98postgresql_start_script)
+2010-03-21T19:33:00.000Z	erUSUL	pocketcookies	then i dunno

@@ -1,0 +1,4 @@
+2007-12-18T04:19:00.000Z	mular		I think I understand the fstab but I am not understanding like the options.. like dump pass.. and when to use say rw user auto or stuff like that
+2007-12-18T04:20:00.000Z	mular		so say I wanted to mount a ntfs-3g drive on /dev/sda1 .. what I was doing it /dev/sda1 /media/sda1  ntsf-3g   .. then I don't know what to put after that lol
+2007-12-18T04:21:00.000Z	mular		so generaly would I want to put 0   0 for those? Looking over my fstab now some have 0, 0 some have 0, 2 =/
+2007-12-18T04:21:00.000Z	kelsin	mular	yes 0 0 for any extra (windows) drive is fine, "man fstab" for more info

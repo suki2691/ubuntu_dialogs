@@ -1,0 +1,4 @@
+2008-01-04T20:33:00.000Z	qebab		Hi there. I've been installing Ubuntu on an Acer Travelmate 4100, and a problem has turned out. The Live CD worked fine, but when I try to boot to it, I get a blank, black screen. The laptop has an ATI card of some sort, and I've heard that it doesn't go too well with X. Is there anything I can do?
+2008-01-04T20:34:00.000Z	pike_	qebab	alt-ctrl-f2 then login then sudo dpkg-reconfigure xserver-xorg then choose vesa driver and hit enter for default on everything else then sudo /etc/init.d/gdm restart
+2008-01-04T20:34:00.000Z	pike_	qebab	should get you back up
+2008-01-04T20:35:00.000Z	qebab	pike_	thanks a lot :)

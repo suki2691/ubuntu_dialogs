@@ -1,0 +1,4 @@
+2010-03-08T19:33:00.000Z	smiler		After installing ruby1.9.1 I don't have any ruby executable in my system but rather a ruby1.9.1 executable. This causes scripts that depend on an existing ruby executable that actually has the name "ruby" to fail. Is there any ubuntuish way around this or should I just symlink the stuff manually?
+2010-03-08T19:34:00.000Z	wawawawa	smiler	- update-alternatives?
+2010-03-08T19:36:00.000Z	smiler	wawawawa	with --config "what"?
+2010-03-08T19:38:00.000Z	smiler	wawawawa	I don't see any ruby-related stuff in /etc/alternatives

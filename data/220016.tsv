@@ -1,0 +1,4 @@
+2012-02-20T02:55:00.000Z	y0om4		i want to be elevated to root but su - does not work even though i type in my password correctly. The password is the only one on the system
+2012-02-20T02:56:00.000Z	Flannel	y0om4	god-zotac: there's no reason to set a root password.  Just use sudo instead.
+2012-02-20T03:02:00.000Z	Flannel	y0om4	god-zotac: No, it's "admin", if this is the first user on the system, you're already in it.
+2012-02-20T03:02:00.000Z	Flannel	y0om4	You want to use `sudo -i` not `su -i`

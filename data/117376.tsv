@@ -1,0 +1,4 @@
+2012-01-17T23:43:00.000Z	Lili^		is there a way to check which are the processes that are currently using the hard disk? i have the impression that it is constantly in use and i am experimenting big performance problems
+2012-01-17T23:44:00.000Z	geirha	Lili^	You might want iotop, you have to install it though.
+2012-01-17T23:46:00.000Z	Lili^	Zizzu	do you have some options to suggest to restrict the output (i'll read the man anyway)? geirha tnx, il'll give it a try
+2012-01-17T23:47:00.000Z	geirha	Lili^	Hehe, lsof is possibly one of the most complex commands I know. I avoid it if I can. Usually fuser suffices in its place. iotop is like the top command, just it shows how much disk io processes uses, instead of cpu and mem.

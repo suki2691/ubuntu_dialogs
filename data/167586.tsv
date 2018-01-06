@@ -1,0 +1,4 @@
+2007-08-07T08:04:00.000Z	politik		I need to copy (preserving everything, including symlinks) the files on my root partition to another partition, so that it can be my new root partition. I've booted using the livecd, can I just mount both partitions and do a cp -p?
+2007-08-07T08:04:00.000Z	hwilde	politik	cp -apR
+2007-08-07T08:05:00.000Z	politik	hwilde	great, thanks.
+2007-08-07T08:05:00.000Z	hwilde	politik	-a is all files,  -p is preserve,  -R is recursive

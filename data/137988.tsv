@@ -1,0 +1,4 @@
+2010-02-03T21:17:00.000Z	glopal		If I have a bash script on a server that uses ~. And I execute it from a client computer, does it refer to the server's home, or the client's home?
+2010-02-03T21:18:00.000Z	llutz	glopal	it always refers to the users-home running the script
+2010-02-03T21:19:00.000Z	llutz	glopal	so server-user runs the script, ~ = server users-home
+2010-02-03T21:19:00.000Z	llutz	glopal	better use absolute pathes

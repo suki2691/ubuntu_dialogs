@@ -1,0 +1,4 @@
+2010-09-20T08:07:00.000Z	brishu_		hey folks, I know this is incredibly dangerous,but is there a way i can make it so that I don't need a password to enable sudo? I only need it temporarily
+2010-09-20T08:09:00.000Z	brishu_		thank you, I will
+2010-09-20T08:09:00.000Z	thune3	brishu_	i would recommend getting a root shell with "sudo -i" for periods where you *must* have root for a stretch without entering passord. be careful, etc.
+2010-09-20T08:10:00.000Z	brishu_	thune3	the problem is most of the things I do are going to be in the GUI, and I need the gksudo to shut up for abit

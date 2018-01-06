@@ -1,0 +1,4 @@
+2011-01-14T01:26:00.000Z	SA-Geoff		useradd -G group username
+2011-01-14T01:27:00.000Z	Flannel	SA-Geoff	That's not correct.  You'd need an -a in there as well.  Which is why it's easier (and less risky) to just use adduser
+2011-01-14T01:29:00.000Z	Flannel	SA-Geoff	"adduser username" will add a user, "adduser username group" just adds the username to the group, it won't create a new user
+2011-01-14T01:32:00.000Z	Flannel	SA-Geoff	Sure, but if you're using it to modify a user that's already created, you'll remove them from all the other groups unless you remember the "-a" in -G group -a

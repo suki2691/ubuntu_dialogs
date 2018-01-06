@@ -1,0 +1,4 @@
+2010-05-25T11:35:00.000Z	karrot		is there some easy way to make a new $PATH directory?
+2010-05-25T11:36:00.000Z	undecim	karrot	If you only need it while in the command line, you can add it to .bashrc
+2010-05-25T11:37:00.000Z	karrot	undecim	what exactly do I put in there?
+2010-05-25T11:37:00.000Z	undecim	karrot	I have my ~/.bin folder added to my path by putting this line at the end of .bashrc: PATH="$PATH:~/.bin"

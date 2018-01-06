@@ -1,0 +1,4 @@
+2007-12-24T14:09:00.000Z	staykovmarin		hi i have a manually installed program that i would like to run from command line. i put it in /bin but when i attempt to start it it says 'command not found' and then the package to install it.
+2007-12-24T14:09:00.000Z	staykovmarin		any ideas?
+2007-12-24T14:10:00.000Z	Fujitsu	staykovmarin	It should go in /usr/local/bin. Is it set with the execute bit (chmod +x)?
+2007-12-24T14:14:00.000Z	staykovmarin	Fujitsu	same problem. chmoded and sym linked to the /usr/local/bin

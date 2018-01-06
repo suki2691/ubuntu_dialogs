@@ -1,0 +1,4 @@
+2009-09-02T09:56:00.000Z	wfiuewfew		Hi! I have a bunch of files owned by root. I want them to be owned by me what command do I use to change permissions on the whole directory
+2009-09-02T09:57:00.000Z	shady-sheep	wfiuewfew	Well that sounds like system-related files.  What path?
+2009-09-02T09:58:00.000Z	wfiuewfew	Flannel	thanks, so I would use chown -R user:me my-files
+2009-09-02T09:58:00.000Z	shady-sheep	wfiuewfew	chown -R john:john /home/john/

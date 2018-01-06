@@ -1,0 +1,4 @@
+2009-08-16T18:39:00.000Z	copywriter		my question is - is there a way to share a folder on ubuntu that gives access only to specific users (users connecting don't have an account on the pc) the scenario is a department with let's say 9 pc's all running ubuntu it's within an organization that has many departments they're all on a network called treasury, there's 1 pc dedicated to sharing but i want the people connecting to be...
+2009-08-16T18:39:00.000Z	copywriter		...able to use a name and password
+2009-08-16T18:39:00.000Z	ikonia	copywriter	the username/password must have a relationship to an account either local, or via something like ldap that has a UID and GID
+2009-08-16T18:40:00.000Z	ikonia	copywriter	you can use samba, NFS, maybe even sshfs, you may want to consider sharing it out of a webserver

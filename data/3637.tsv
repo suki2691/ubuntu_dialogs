@@ -1,0 +1,4 @@
+2012-09-05T21:20:00.000Z	oldereagle		I am struggling with understanding gparted. Trying to make my windows partition smaller and ubuntu larger. I can select that the windows partition should be smaller (/dev/sda2), but after setting that i do not understand how to make ubuntu partition bigger (/dev/sda5)?
+2012-09-05T21:22:00.000Z	no_gravity	oldereagle	there is unused space (grey) behind your ubuntu partition?
+2012-09-05T21:23:00.000Z	oldereagle	no_gravity	there is no unused space anywhere. But when I select to make win part smaller I get a grey unallocoated space in the middle. ...
+2012-09-05T21:25:00.000Z	no_gravity	oldereagle	you have to make unallocated space after your ubuntu partition. maybe before would also work.

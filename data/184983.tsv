@@ -1,0 +1,4 @@
+2006-05-29T12:11:00.000Z	PyroMithrandir		hey guys, I'm helping someone partition his drive to put windows on it, and I've set up in fdisk for /dev/hda3 to be his fat32 partition, but when he tried to mkfs.vfat -F 32 /dev/hda3 it says that /dev/hda3 doesn't exist. anyone have any idea how to fix this?
+2006-05-29T12:12:00.000Z	PyroMithrandir		yep
+2006-05-29T12:13:00.000Z	Managu	PyroMithrandir	this may be ancient lore -- but sometimes you need to reboot after partitioning
+2006-05-29T12:13:00.000Z	PyroMithrandir	Managu	okay, I'll have him try that

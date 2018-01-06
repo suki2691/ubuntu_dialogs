@@ -1,0 +1,4 @@
+2008-05-01T01:26:00.000Z	devlogic		I'm getting error 17 when attempting to boot from a hd-media installer on a flash drive.  amd64.  any ideas?
+2008-05-01T01:27:00.000Z	ejer	devlogic	grub did not correctly guess your hard drives
+2008-05-01T01:27:00.000Z	devlogic	ejer	hrm, I had no problem installing 7.10 on this same hardware with the same flash drive.
+2008-05-01T01:28:00.000Z	ejer	devlogic	grub needs to be helped sometimes, using grub-install /dev/sdx will usually do it

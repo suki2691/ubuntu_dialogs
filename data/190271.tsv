@@ -1,0 +1,4 @@
+2006-09-12T13:18:00.000Z	Lam_		is there a way (via program or linux kernal or whatnot) to encrypt certain files to require the sudo command to read them by the user, but make them readable by what program is using it by default
+2006-09-12T13:18:00.000Z	Lam_		more of a manner of encrypting things like the gaim accounts.xml file
+2006-09-12T11:04:00.000Z	Lam_		is there a way (via program or linux kernal or whatnot) to encrypt certain files to require the sudo command to read them by the user, but make them readable by what program is using it by default (like the gaim accounts.xml file)
+2006-09-12T11:05:00.000Z	Warbo	Lam_	Programs are usually run as your user, so if you want GAIM to access a file then your user needs access to it

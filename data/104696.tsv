@@ -1,0 +1,4 @@
+2012-08-30T21:16:00.000Z	tavl		about make/makefiles... suppose that "foo.out" depends on "foo.c" and "bar.a"... is there a way to avoid rebuilding "bar.a", even if "bar.c" is newer (or even absent)?
+2012-08-30T21:17:00.000Z	ActionParsnip	tavl	i'd ask in #programming
+2012-08-30T21:17:00.000Z	ActionParsnip	tavl	i believe you can touch the file, then rebuild (maybe)
+2012-08-30T21:19:00.000Z	tavl	ActionParsnip	ty

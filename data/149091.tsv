@@ -1,0 +1,4 @@
+2008-07-04T13:24:00.000Z	macpo3		how do I update repositories from the command line to remove an warning message like "W: Failed to fetch http://security.ubuntu.com/ubuntu/dists/edgy-security/universe/binary-i386/Packages.gz  404 Not Found
+2008-07-04T13:24:00.000Z	macpo3		"
+2008-07-04T13:25:00.000Z	unop	macpo3	edit /etc/apt/sources.list and comment out that line
+2008-07-04T13:25:00.000Z	unop	macpo3	sudo $EDITOR /etc/apt/sources.list

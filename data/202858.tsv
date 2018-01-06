@@ -1,0 +1,4 @@
+2007-03-04T11:20:00.000Z	lufis		I edited my swap partition manually and now Ubuntu isn't mounting it automatically since it has moved. How do I reset the swap position?
+2007-03-04T11:20:00.000Z	lufis		just use mount?
+2007-03-04T11:21:00.000Z	rubyat	lufis	swapon /dev/xxx
+2007-03-04T11:37:00.000Z	rubyat	lufis	 sudo cfdisk /dev/hda

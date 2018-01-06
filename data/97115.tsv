@@ -1,0 +1,4 @@
+2008-05-02T09:01:00.000Z	rjune_		I'm running Hardy, when I try to start firefox, it tells me that it's already running and I have to close it or reboot
+2008-05-02T09:01:00.000Z	rjune_		I rebooted, and it's still telling me that. what lockfile do I have to delete
+2008-05-02T09:02:00.000Z	HardyOne	rjune_	type ps aux | grep firefox and find the PID usualy 5 numbers and then type kill PID ( replace with the numbers )
+2008-05-02T09:02:00.000Z	rjune_	HardyOne	I rebooted.

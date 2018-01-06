@@ -1,0 +1,4 @@
+2006-10-28T10:49:00.000Z	bruenig		in configuring a bittorrent client, the option maximum number of connected peers. Should that just be as high as possible or does making it too high hurt download speeds. It seems like if making it too high did not hurt download speeds that the option wouldn't be there at all.
+2006-10-28T10:50:00.000Z	JosefK	bruenig	it does indeed hurt speeds, keeping those connections open requires some maintenance data to be sent (both for bittorrent and TCP/IP itself)
+2006-10-28T10:50:00.000Z	bruenig	JosefK	so what is a good number?
+2006-10-28T10:50:00.000Z	JosefK	bruenig	depends on your connection, for my 512/50 line I use about 60-70 per torrent

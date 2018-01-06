@@ -1,0 +1,4 @@
+2007-07-07T05:43:00.000Z	}matrix{		mac address
+2007-07-07T05:43:00.000Z	}matrix{		my internet connection depends on mac
+2007-07-07T05:43:00.000Z	rausb0	}matrix{	mac address of your ethernet or wireless card?
+2007-07-07T05:45:00.000Z	rausb0	}matrix{	assuming it is eth0: ifdown eth0 ; ifconfig eth0 hw ether 00:42:de:ad:be:ef ; ifup eth0

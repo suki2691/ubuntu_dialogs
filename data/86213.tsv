@@ -1,0 +1,4 @@
+2010-11-15T02:04:00.000Z	JuNiOx		guys, once I installed a brand new linux, the root's path is something like: "PATH=$PATH:/bin:/so_on" , meaning "$PATH" is already set somewhere else.... my doubt is, is there a file where "PATH" is primary set?
+2010-11-15T02:05:00.000Z	erUSUL	JuNiOx	/etc/environment /etc/skel/.profile ( the later is copied to new users home folders )
+2010-11-15T02:07:00.000Z	JuNiOx	erUSUL	tks man!
+2010-11-15T02:08:00.000Z	erUSUL	JuNiOx	no problem

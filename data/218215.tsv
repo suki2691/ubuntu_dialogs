@@ -1,0 +1,4 @@
+2005-09-25T13:16:00.000Z	florg		hi there, i can't write to a file on my fat32 partition because it belongs to group "root". when i try to make "sudo chgrp <me> <file>", it comes "operation not permitted". what to do?
+2005-09-25T13:17:00.000Z	CookedGryphon	florg	how have u mounted it?
+2005-09-25T13:17:00.000Z	CookedGryphon	florg	and what he said
+2005-09-25T13:18:00.000Z	florg	CookedGryphon	with user,exec,uid=<my uid"

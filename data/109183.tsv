@@ -1,0 +1,4 @@
+2011-02-13T00:07:00.000Z	elephane		hmm, how do I enable the userdir module on apache2 ?
+2011-02-13T00:09:00.000Z	elephane		i am trying to setup userdir so when I access http://localhost/~username/ it takes me to that users public_html directory, but it's not working. Apache is still considering ~username a sub-directory
+2011-02-13T00:10:00.000Z	elephane		anyone know ?
+2011-02-13T00:12:00.000Z	phrac	elephane	a2enmod userdir

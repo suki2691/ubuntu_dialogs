@@ -1,0 +1,4 @@
+2011-10-02T04:00:00.000Z	anth0ny		When SSHing into a server, my terminal kind of freezes up after a period of connectivity (I assume I've been dropped from the server).  Is there a way to avoid this?
+2011-10-02T04:00:00.000Z	schnuffle	anth0ny	TCPKeepAlive setting can help
+2011-10-02T04:01:00.000Z	anth0ny	schnuffle	cool, thanks.  the issue isn't so much being dropped as it is that I can't disconnect and reconnect.  i'll take a look at TCPKeepAlive
+2011-10-02T04:02:00.000Z	schnuffle	anth0ny	or use following, on server: ClientAliveInterval 30 ClientAliveCountMax 4, on client: ServerAliveInterval 30 ServerAliveCountMax 4

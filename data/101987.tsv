@@ -1,0 +1,4 @@
+2008-03-22T08:08:00.000Z	talcite		is there a way to have the system email me when someone uses sudo?
+2008-03-22T08:08:00.000Z	unop_	talcite	you could always monitor the /var/log/auth.log file
+2008-03-22T08:10:00.000Z	talcite	unop_	is there a way to have the server tell me what commands were run as sudo though?
+2008-03-22T08:12:00.000Z	unop_	talcite	errm -- it might be possible that root's shell's history file is populated -- you could look in there

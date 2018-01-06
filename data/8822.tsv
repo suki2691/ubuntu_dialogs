@@ -1,0 +1,4 @@
+2011-10-14T02:27:00.000Z	kevinchess	w47331	how did you upgrade to 11.10?
+2011-10-14T02:31:00.000Z	kevinchess	w47331	i'm using update manager to install 11.10 and it brought up a prompt saying "Your graphics hardware may not be fully supported in Ubuntu 11.04. | The support in Ubuntu 11.04 for your intel graphics hardware is limited and you may encounter problems after the upgrade. Do you want to continue with the upgrade?"
+2011-10-14T02:41:00.000Z	kevinchess	w47331	but i have a different intel gfx chip, lspci output: 00:02.0 VGA compatible controller: Intel Corporation 82845G/GL[Brookdale-G]/GE Chipset Integrated Graphics Device (rev 01)
+2011-10-14T02:42:00.000Z	kevinchess	w47331	i found that i could enable 3d acceleration on 11.04 by creating an xorg.conf, like they say here https://wiki.ubuntu.com/X/Bugs/Mavericki8xxStatus

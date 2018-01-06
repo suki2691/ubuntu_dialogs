@@ -1,0 +1,4 @@
+2011-04-18T15:16:00.000Z	mithran		how do i find which process is keeping a file open?
+2011-04-18T15:17:00.000Z	llutz_	mithran	or "fuser"
+2011-04-18T15:20:00.000Z	mithran	llutz_	 i opened a file using vim, in 1 terminal windows, and $sudo fuser <filename>, but it lists nothing, any pointers?
+2011-04-18T15:35:00.000Z	mithran	llutz_	when i do fuser /etc/passed it lists 2 pids, but if i open a normal file in a terminal and try fuser <filenam>, it does not list anything...please help!!

@@ -1,0 +1,4 @@
+2008-11-26T19:35:00.000Z	patrik		Hi, I just booted up my Ubuntu 8.10 system and realized that 2.9GB of my mem (4GB total) is used as cache. This sounds to me like something is wrong. The only thing I can think of is that the system did a disk check when booting. Could it be that the disk check made the system to cache bits of of the hard disk until the memory was full?
+2008-11-26T19:36:00.000Z	usser	patrik	this is normal
+2008-11-26T19:38:00.000Z	patrik	scientes	the memory is cached so it's not assigned to any process
+2008-11-26T19:39:00.000Z	usser	patrik	that means that there's enough memory for all thhe processes. So to not let memory go to waste ubuntu caches most used data from disk essentially. whenever there's a shortage of memory the cache will swapped out again to make room for processes.

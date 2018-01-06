@@ -1,0 +1,4 @@
+2007-12-15T05:16:00.000Z	emefarr_		new install & looking for a way to install all -dev files for installed packages rather than a few at a time as I get dependency errors while installing additional packages?
+2007-12-15T05:16:00.000Z	macogw	emefarr_	why do you need the -dev?
+2007-12-15T05:17:00.000Z	macogw	emefarr_	if you need all the dev headers for a specific program that is packaged where you are getting the same or newer version, you can get its build dependencies with "sudo apt-get build-dep <program>"
+2007-12-15T05:18:00.000Z	emefarr_	macogw	Thanks!  I'll try that.

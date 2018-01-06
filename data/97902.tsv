@@ -1,0 +1,4 @@
+2010-03-31T03:55:00.000Z	guyforget		how can i keep a package from pulling in a dependency? i am trying to install flash 10.1 beta to use with boxee. when i try to reinstall boxee from the .deb file, it wants to pull in the regular flash package
+2010-03-31T03:56:00.000Z	guyforget		is it possible to keep flash-installer from being installed?
+2010-03-31T03:57:00.000Z	chelz	guyforget	sudo dpkg --force-depends -i boxee.deb
+2010-03-31T03:58:00.000Z	chelz	guyforget	i answered how to do what you asked to do, but ActionParsnip's method is better i'd say

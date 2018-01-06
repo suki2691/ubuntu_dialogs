@@ -1,0 +1,4 @@
+2008-08-18T10:08:00.000Z	arktvrvs		hello.  how can i make my resolution higher?
+2008-08-18T10:09:00.000Z	jcarter	arktvrvs	try looking into /etc/X11/xorg.conf = the section on Screen.
+2008-08-18T10:09:00.000Z	arktvrvs	jcarter	i have, theres nearly nothing there, no modelines at all
+2008-08-18T10:13:00.000Z	jcarter	arktvrvs	During one part of my initial boot process, I got a message that said Ubuntu didn´t know what my monitor was and presented me with an option to change it. I did. I found a selection that pretty much matched what I have and used it. Don´t know who to make entries in xorg.conf manually. Thought maybe you had something there under Subsection ¨Display¨ called Virtual where the two arguments are the screen size on start-up.

@@ -1,0 +1,4 @@
+2007-05-16T13:50:00.000Z	KLH		Hi, I've gotten UT GOTY to install correctly on Ubuntu 7.04, but there is severe mouse lag and the game chugs. The hardware is kind of old, but it should be able to run the game fine: P4, 384 MB ram, Nvidia Vanta JC9781. Any suggestions?
+2007-05-16T13:51:00.000Z	wxq2378	KLH	maybe you need the other nvidia driver for propper 3d acceleration?
+2007-05-16T13:53:00.000Z	wxq2378	KLH	there is nvidia-glx-new and nvidia-glx you have to find yout which one is better for your card. and then you have to check your xorg.conf that the drivers are actally used
+2007-05-16T13:54:00.000Z	wxq2378	KLH	that is the driver in xorg.conf should be named "nvidia" (not "nv")

@@ -1,0 +1,4 @@
+2007-07-22T09:09:00.000Z	smoenux		I'm trying to run a Java App, but I get "No Java virtual machine could be found from your PATH variable".... I have all the Sun Java stuff installed. What can I do to fix?
+2007-07-22T09:09:00.000Z	peer	smoenux	: set environments
+2007-07-22T09:10:00.000Z	peer		etc/environments should contain 'JAVA_HOME=/path/to/jvm'
+2007-07-22T09:10:00.000Z	smoenux	peer	aaa... thanks

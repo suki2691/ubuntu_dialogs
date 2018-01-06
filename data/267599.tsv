@@ -1,0 +1,4 @@
+2010-11-09T12:26:00.000Z	yahya		 i read from the ubuntu forums that i have to add this line to etc/network/interfaces: iface wlan0 inet dhcp .Will that allow me to browse the internet
+2010-11-09T12:26:00.000Z	maco	yahya	no
+2010-11-09T12:26:00.000Z	maco	yahya	thatd be one of a handful of lines youd need to be able to configure the wireless in the interfaces file. its an alternative way of doing configuration
+2010-11-09T12:27:00.000Z	maco	yahya	if you can do waht ActionParsnip said, then check your /etc/resolv.conf to see if you have a dns server

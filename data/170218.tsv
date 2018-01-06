@@ -1,0 +1,4 @@
+2006-10-18T11:37:00.000Z	janbanan		How do I change the order in GRUB? I wan't windows at the top of the list
+2006-10-18T11:38:00.000Z	bruenig	janbanan	sudo gedit /boot/grub/menu.list, copy and paste the windows entry above the other entries
+2006-10-18T11:38:00.000Z	janbanan	bruenig	thanks
+2006-10-18T11:38:00.000Z	bruenig	janbanan	my fault, it is sudo gedit /boot/grub/menu.lst

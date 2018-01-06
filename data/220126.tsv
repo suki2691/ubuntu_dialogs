@@ -1,0 +1,4 @@
+2010-05-03T04:44:00.000Z	rhin0		 i can't figure out why apache2 standard install on ubuntu won't run cgi scripts (localhost) - i have the cgi script in var/www - it just displays the script - doesn't run it  - anyone got any idea?  - also i can't see apache.conf
+2010-05-03T04:45:00.000Z	rhin0		ok ty scunizi
+2010-05-03T04:46:00.000Z	Flannel	rhin0	apache is configured via a number of files in /etc/apache2/  Using the debian structure instead of a monolithic config file
+2010-05-03T04:48:00.000Z	Flannel	rhin0	I believe it runs things from cgi-bin out of the box

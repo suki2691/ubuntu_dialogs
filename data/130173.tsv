@@ -1,0 +1,4 @@
+2008-11-06T00:10:00.000Z	chadeldridge		I am having an issue with network-manager setting static IP.  it reverts to dhcp on reboot
+2008-11-06T00:12:00.000Z	karsten	chadeldridge	/etc/network/interfaces.bak-0
+2008-11-06T00:12:00.000Z	karsten	chadeldridge	erm, /etc/network/interfaces
+2008-11-06T00:13:00.000Z	chadeldridge	karsten	yes i am there but the name in network-manager is not listed in that file, network manager has a card called ifupdown with no mac address.  I would rather just assign my ip in interfaces and remove network-manger all together, is that possible ?

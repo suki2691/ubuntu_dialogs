@@ -1,0 +1,4 @@
+2006-11-21T17:59:00.000Z	vwirem		How can i find the reason why a package is being "kept back" during apt-get upgrade?
+2006-11-21T06:00:00.000Z	pybe	vwirem	try sudo apt-get dist-upgrade
+2006-11-21T06:01:00.000Z	vwirem	pybe	still there are some packages that are being kept back
+2006-11-21T06:01:00.000Z	pybe	vwirem	try sudo apt-get -f install

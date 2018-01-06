@@ -1,0 +1,4 @@
+2010-08-28T17:29:00.000Z	frojnd		I'm trxing to untar the file tar xvfj compat-wireless.tar.bz2  but instead I get error: bzip2: (stdin) is not a bzip2 file.
+2010-08-28T17:29:00.000Z	frojnd		tar: Child returned status 2
+2010-08-28T17:30:00.000Z	frojnd		tar: Exiting with failure status due to previous errors
+2010-08-28T17:32:00.000Z	shirtless	frojnd	I am not sure why tar would try to read from standard input unless you tried to pipe into it or had a stray '-' in your command line

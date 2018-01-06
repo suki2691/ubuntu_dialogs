@@ -1,0 +1,4 @@
+2009-09-08T09:45:00.000Z	bing		how to close a opened port ?
+2009-09-08T09:46:00.000Z	Gnea	bing	find the process and turn it off
+2009-09-08T09:47:00.000Z	bing	Gnea	When we use the network tools => port scan => it shows unknown process, port opened....
+2009-09-08T09:49:00.000Z	Gnea	bing	sudo netstat -nap | grep 52072

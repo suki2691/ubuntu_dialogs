@@ -1,0 +1,4 @@
+2009-06-14T08:19:00.000Z	JeanLucPicard		Question, I did an iptables port forward of port 5190 to port 16667, how do i remove that iptables rule?
+2009-06-14T08:20:00.000Z	edbian	JeanLucPicard	sudo iptables <chain> -D <rulenumber>
+2009-06-14T08:20:00.000Z	JeanLucPicard	lstarnes	one sec :)
+2009-06-14T08:20:00.000Z	edbian	JeanLucPicard	-A is for apped -D if for delete

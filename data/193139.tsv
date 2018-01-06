@@ -1,0 +1,4 @@
+2006-03-25T07:22:00.000Z	xakkkk		i love gstreamer :)
+2006-03-25T07:23:00.000Z	xakkkk		btw is Gnome using a different config file other than xorg.conf ? i cant seem to change my resolution in gnome even though i change the corg.config file
+2006-03-25T07:25:00.000Z	ic56	xakkkk	no, I think the config file is same.  But the X server has some latitude to choose the resolution and, if it thinks your choice is untenable, it will do its own thing.
+2006-03-25T07:27:00.000Z	ic56	xakkkk	look at the output from X in /var/log/Xorg* to see what the X server is doing when it starts up.

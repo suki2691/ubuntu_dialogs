@@ -1,0 +1,4 @@
+2011-09-27T23:47:00.000Z	Prodego		I have Ubuntu 11.04 running on a machine that I currently only have access to via ssh. I accidentally deleted /var/log/auth.log, and am trying to make sure the logging still works properly.
+2011-09-27T23:47:00.000Z	b3ta	Prodego	/etc/init.d/sshd restart
+2011-09-27T23:49:00.000Z	Prodego	b3ta	it tells me that doesn't exist, so let me see how this is set up to start ssh
+2011-09-27T23:53:00.000Z	Prodego	b3ta	well its started with upstart, restarting the ssh service did not recreate the file

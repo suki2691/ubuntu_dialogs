@@ -1,0 +1,4 @@
+2008-09-22T14:59:00.000Z	firestorm		Hi. When reading /etc/fstab everything is in UUID format...How can I know what this maps to in terms of /dev/sdX ?
+2008-09-22T15:00:00.000Z	waan	firestorm	use vol_id to find out what the UUID of each disk is
+2008-09-22T15:02:00.000Z	firestorm	waan	excellent ... ls /dev/disk/by-uuid works for me as well
+2008-09-22T15:02:00.000Z	waan	firestorm	that too

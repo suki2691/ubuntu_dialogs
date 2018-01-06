@@ -1,0 +1,4 @@
+2010-08-11T12:46:00.000Z	pinPoint		my ubuntu desktop has hang. All I see is the mouse but my terminals continue to function
+2010-08-11T12:46:00.000Z	pinPoint		what could be wrong?
+2010-08-11T12:48:00.000Z	pinPoint		is there a way to restart gnome other than Ctrl+Alt+backspace??
+2010-08-11T12:49:00.000Z	swoody	pinPoint	switch to tty1 (Ctrl+Alt+F1) and run: sudo service gdm restart (or stop or start)

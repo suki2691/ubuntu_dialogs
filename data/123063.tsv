@@ -1,0 +1,4 @@
+2007-09-01T14:45:00.000Z	wnre		hi! this isn't really an Ubuntu question, but does anybody know of a program/solution that can find duplicate images (not necessarily same filenames, but actual duplicates) and either list them, or even delete duplicates?
+2007-09-01T14:45:00.000Z	Frogzoo	wnre	just take md5s of your images, then | uniq
+2007-09-01T14:46:00.000Z	wnre	Frogzoo	wow didn't think about that..but does the md5sum differ, if the filenames differ?
+2007-09-01T14:46:00.000Z	Frogzoo	wnre	nope - filename's not involved, only data

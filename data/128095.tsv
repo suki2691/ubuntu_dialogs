@@ -1,0 +1,4 @@
+2011-04-12T23:55:00.000Z	halpbatman		does anyone knows how to enable vnc from terminal?
+2011-04-12T23:56:00.000Z	mbeierl	halpbatman	I know if you have ssh -X access (X forwarding) the gui is vino-preferences and will display back on your local x server...
+2011-04-12T23:57:00.000Z	mbeierl	halpbatman	but I do not know if there is any gui.  presumably it modifies something in the gnome conf, so maybe somewhere in gconf editor...?
+2011-04-13T00:01:00.000Z	mbeierl	halpbatman	gconf-editor: /desktop/gnome/remote_access

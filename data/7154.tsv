@@ -1,0 +1,4 @@
+2011-12-14T22:02:00.000Z	_Marcus		How do I set permissions for a directory and it's directories inside of it from terminal?
+2011-12-14T22:03:00.000Z	_Marcus		I want to make it be writable for my FTP user
+2011-12-14T22:03:00.000Z	RaTTuS	_Marcus	sudo chmod -R 777 direcotry for example
+2011-12-14T22:12:00.000Z	RaTTuS	_Marcus	sudo chown -R user:group

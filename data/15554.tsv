@@ -1,0 +1,4 @@
+2011-05-02T02:41:00.000Z	ocx		hi, i have install ubuntu with basic setup now would like to add some packages located on the ubuntu DVD how can i do that from CLI ?
+2011-05-02T02:41:00.000Z	ocx		no gui access
+2011-05-02T02:42:00.000Z	escott	ocx	i think you need to edit /etc/apt/sources.list
+2011-05-02T04:14:00.000Z	escott	ocx	you would have to reparent the process, i don't think that is possible, you would have to have started it in something like screen

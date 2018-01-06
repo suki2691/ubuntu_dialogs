@@ -1,0 +1,4 @@
+2009-05-19T03:02:00.000Z	semanticpc		i have an issue in rsync
+2009-05-19T03:02:00.000Z	semanticpc		is it possible to do two way sync using rsync ?
+2009-05-19T03:03:00.000Z	semanticpc		okay ..... this is wat i did ....i did rsync from remote->local ...... now wen i do rsync from local->remote it starts transfering the files again
+2009-05-19T03:04:00.000Z	joaopinto	semanticpc	you are doing something wrong, like a missing / at the end of one parth

@@ -1,0 +1,4 @@
+2005-11-09T07:48:00.000Z	laszlok		does anyone know how I can connect to ubuntu machines through a crossover cable to copy files?
+2005-11-09T07:49:00.000Z	infowolfe	laszlok	you might want to install something like ssh-server on both/either and use rsync -e ssh username@machine2:/new/path/to/copied/files /path/to/copy
+2005-11-09T07:50:00.000Z	laszlok	infowolfe	is it possible to do an smb or nfs mount through a crossover?
+2005-11-09T07:53:00.000Z	infowolfe	laszlok	of course it's possible to do whatever you want to do, but nfs is too much of a pain for quick "smash'n'grab" filecopies

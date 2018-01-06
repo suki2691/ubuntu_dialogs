@@ -1,0 +1,4 @@
+2010-05-28T01:52:00.000Z	Nonpython		How do I install the .33 kernel, I need the full btrfs ioctls. Is there a ubuntu way to install a newer kernel, or do I just to the old "copy the config, make oldconfig, make gconfig, make, make install" routine?
+2010-05-28T01:53:00.000Z	xray7224	Nonpython	grab the source and then cd to it and do make menuconfig
+2010-05-28T01:54:00.000Z	xray7224	Nonpython	then you need to put the bzImage it gives you in /boot/kernel too and alter grub
+2010-05-28T01:54:00.000Z	xray7224	Nonpython	there might actually be a easier method but im not 100%

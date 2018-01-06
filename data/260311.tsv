@@ -1,0 +1,4 @@
+2004-11-02T07:51:00.000Z	angad		Hey everyone.  I have a vfat partition mounted under /windows but I can only access it as root.  How can I change that so that normal users can access it?
+2004-11-02T07:51:00.000Z	angad		No, haven't even looked at it.  What should I do?
+2004-11-02T07:52:00.000Z	doleyb	angad	as root, edit /etc/fstab and add a line for that drive
+2004-11-02T07:53:00.000Z	doleyb	angad	umount it as root, then mount it as someone else

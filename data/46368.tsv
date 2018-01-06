@@ -1,0 +1,4 @@
+2010-05-02T07:55:00.000Z	hnsr		I get an error after choosing to upgrade to 10.04 LTS (from 9.10), it says "Could not calculate the upgrade" wit one of the possible reasons for this being that I might be running "Unofficial software packages not supported by Ubuntu", which I guess I am because I use the xorg-edgers PPA to get my intel GPU to not lock up :/  is there a way to remove these unsupported packages and go ahead with the upgrade?  or is a complete reinstall my o
+2010-05-02T07:55:00.000Z	hnsr		nly option?
+2010-05-02T07:57:00.000Z	IdleOne	hnsr	normally the upgrade will auto disable any unofficial repos
+2010-05-02T07:58:00.000Z	hnsr	IdleOne	dabaR, well I have disabled the xorg-edgers PPA, but that doesn't seem to have removed the unsupported packages, if I look in that file now (/etc/apt/sources.list) I can see them in there commented out

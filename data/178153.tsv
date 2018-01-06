@@ -1,0 +1,4 @@
+2008-06-27T00:16:00.000Z	AcBush		Trying to install Nvidia Drivers - You appear to be running an X server; please exit X before installing.    -- What does that mean?
+2008-06-27T00:16:00.000Z	Jack_Sparrow	AcBush	you need to shut down x to install the drivers then restart x
+2008-06-27T00:17:00.000Z	Jack_Sparrow	AcBush	hit clt-alt-f2, login. run  sudo invoke-rc.d gdm stop. do your nivida stuff, using sudo. sudo invoke-rc.d gdm start to restart X . ctl-alt-f7 to get back to gui
+2008-06-27T00:18:00.000Z	Jack_Sparrow	AcBush	the odds are it isnt your video driver but instead it is monitor detection..

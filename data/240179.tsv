@@ -1,0 +1,4 @@
+2009-01-27T23:50:00.000Z	Magnusmagnus		(Wubi ubuntu installation) while in ubuntu, I accidentally deleted the windows' boot manager, and had to pop in the vista CD to repair it.. When it was done fixing, ubuntu was removed from the list, or was never put in it. Does anyone know how to recover ubuntu to the Windows' boot manager list? I installed ubuntu via the Wubi
+2009-01-27T23:52:00.000Z	Magnusmagnus		Alright, ill try it now
+2009-01-27T23:52:00.000Z	Magnusmagnus		Thanks alot!
+2009-01-27T23:53:00.000Z	nickrud	Magnusmagnus	Add a line to boot.ini pointing to c:\wubildr.mbr should do it

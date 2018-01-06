@@ -1,0 +1,4 @@
+2006-08-21T05:39:00.000Z	baikonur		I want my wlan usb device to start automatically at boottime. I use the ndiswrapper driver and have an an entry "alias wlan0 ndiswrapper" in /etc/modules. The device is active after booting but does not connect to the access point though the configuration is correct and after ifdown wlan0 and ifup wlan0 it also really works. Any ideas?
+2006-08-21T05:41:00.000Z	bimberi	baikonur	does /etc/network/interfaces have a line with "auto wlan0" in it?  if not try that
+2006-08-21T05:42:00.000Z	baikonur	bimberi	yes. I do all the configuartion there and for wpa I have the line "wpa-conf /etc/wpa_supplicant.conf"
+2006-08-21T05:42:00.000Z	bimberi	baikonur	k :|

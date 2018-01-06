@@ -1,0 +1,4 @@
+2007-10-07T15:32:00.000Z	coir		I just installed Ubuntu with a Windows partition but GRUB isn't detecting the Windows installation. Can anyone help?
+2007-10-07T15:33:00.000Z	coir		But GRUB won't detect the Windows installation on the NTFS
+2007-10-07T15:35:00.000Z	coir		The Windows partition is on HDA1
+2007-10-07T15:36:00.000Z	Seveas	coir	add this to /boot/grub/menu.lst:

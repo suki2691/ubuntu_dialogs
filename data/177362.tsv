@@ -1,0 +1,4 @@
+2006-11-06T14:42:00.000Z	ekimus	Vuen	 i wouldn't let partition magic touch anything else than fat or ntfs if you love your data
+2006-11-06T14:42:00.000Z	Vuen	ekimus	i'm trying again and it seems to be working. apparently it didn't like ext2ifs.
+2006-11-06T14:43:00.000Z	Vuen	ekimus	it's resizing my ext2 partition right now; it's checking for inodes, so it seems at least somewhat aware that data exists on the drive. we'll find out soon whether it makes any effort to keep it.
+2006-11-06T14:44:00.000Z	ekimus	Vuen	 shouldn't there be a ext[23] resize (something like that) available in ubuntu. I think its default mode is to expand the filesystem to the size of the partition (note: expand only - for shrinking there's more to be done)

@@ -1,0 +1,4 @@
+2009-03-27T17:42:00.000Z	bartmon		Hey guys! I need advice regarding which filesystem to choose for an archive disk drive. The main thing I want is stability, even between power outages. Speed is second to that. From this you might say just use ext3 and forget xfs but what about others? JFS?
+2009-03-27T17:42:00.000Z	domas	bartmon	I use XFS for speed ;-)
+2009-03-27T17:42:00.000Z	bartmon	sipior	With noatime of course :)
+2009-03-27T17:43:00.000Z	domas	bartmon	people who say XFS is slow probably don't know much about write barriers ;-)

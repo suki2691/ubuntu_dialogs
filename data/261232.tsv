@@ -1,0 +1,4 @@
+2005-01-28T12:00:00.000Z	Scooter		hello, I want to make sure my Ubuntu is secure, in the forum I read ". In general, a standard system upgrade is sufficient to effect the necessary changes." is this achieved by $sudo apt-get dist-upgrade? TIA
+2005-01-28T12:01:00.000Z	Scooter		thanks gustav_
+2005-01-28T12:02:00.000Z	kent	Scooter	but first you have to update the list of packages with "sudo apt-get update", then upgrade..
+2005-02-03T12:17:00.000Z	kent	Scooter	perhaps look at "dmesg" (run it in a terminal) when you insert the joystick? if its recognised, you will perhaps see which device it's at..)

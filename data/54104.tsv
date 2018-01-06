@@ -1,0 +1,4 @@
+2009-06-18T21:24:00.000Z	yurivr		hello im new to compiling. im at the "make" stage for Xlt (something  i need to tether my blackberry) but i get "returned error 1" and "returned error 2" whats going on and how do i debug?
+2009-06-18T21:25:00.000Z	Sjord	yurivr	Look for a compiler error above the "error 1"
+2009-06-18T21:27:00.000Z	yurivr	Sjord	i think i figured it out. thanks
+2009-06-18T21:27:00.000Z	Sjord	yurivr	Most often, you are missing a dependeny. You can install all build dependecies using apt build-dep

@@ -1,0 +1,4 @@
+2012-01-24T07:29:00.000Z	johnnyjimm		I was wondering if anyone could help me. I am new to Ubuntu, and would like to list, from the terminal,  all the files in a directory containing descriptions of all the devices that can be mounted in the filesystem. The directory is already set.
+2012-01-24T07:30:00.000Z	MK13	johnnyjimm	sudo fdisk -l should show all partitions that can be mounted
+2012-01-24T07:31:00.000Z	MK13	johnnyjimm	if you have just plugged in a usb device and have several, dmesg will print out that latest kernel messages and you can usually tell which device is the most recently plugged in
+2012-01-24T07:36:00.000Z	MK13	johnnyjimm	no prob

@@ -1,0 +1,4 @@
+2009-06-11T00:21:00.000Z	TheDarkstar		anyone know how to make nividia x server to find my second PCIe card?
+2009-06-11T00:21:00.000Z	fccf	TheDarkstar	have you tried sudo nvidia-settings?
+2009-06-11T00:23:00.000Z	fccf	TheDarkstar	strange .. is it SLI  - I know the SLI cards work .. not sure about seperate cards .. you may end up haveing to write a xorg.conf for the second card to work
+2009-06-11T00:25:00.000Z	fccf	TheDarkstar	does dmesg show both cards

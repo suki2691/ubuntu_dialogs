@@ -1,0 +1,4 @@
+2010-05-05T08:52:00.000Z	Guest54869		Anyone know of a nice document that explains where synaptic package manager installs the files for programs on ubuntu?
+2010-05-05T08:53:00.000Z	Guest54869		I used it to install apache httpd, and would like to know where things ended up...
+2010-05-05T08:53:00.000Z	Guest54869		Would the ubuntu directory structure be identical to debian for installs like apache2 httpd?
+2010-05-05T08:53:00.000Z	LinuxGuy2009	Guest54869	You mean where it downloads packages to? It installs files in packages depending on the packages requirements. You can use synaptic itself and look at a packages properties and see what files it put on your machine and where it put them.

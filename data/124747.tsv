@@ -1,0 +1,4 @@
+2008-01-10T00:48:00.000Z	pmratpoison		klrSpz: to establish a smb share with a folder mounted from a windows partition, you have to edit your fstab so that this is possible
+2008-01-10T00:48:00.000Z	pmratpoison		u need to change the umask labels (I think) to 0000
+2008-01-10T00:48:00.000Z	KlrSpz	pmratpoison	only for it to mount at boot; you can mount it in real time as a user
+2008-01-10T00:50:00.000Z	KlrSpz	pmratpoison	again, only for boot.. you can mount anything without fstab, and particularly you can mount an smbfs mountpoint as a standard user easily

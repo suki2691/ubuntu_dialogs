@@ -1,0 +1,4 @@
+2009-07-27T03:49:00.000Z	MidasManchu		question: how can I limit a user to be able to only run one command and no others?
+2009-07-27T03:50:00.000Z	Dr_Willis	MidasManchu	 the bash shell has a 'restricted' mode (rbash) you can use to lock down a user VERY tightly.
+2009-07-27T03:50:00.000Z	Dr_Willis	MidasManchu	 depending on exactly what you want to do. that may or may not be what you need.
+2009-07-27T03:51:00.000Z	MidasManchu	Dr_Willis	I'm creating an rsync backup account with an rsa pass file on my desktop.  Since that pass file has no password, I want to limit what my backup account can do to to just rsync

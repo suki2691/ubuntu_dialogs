@@ -1,0 +1,4 @@
+2008-12-01T09:57:00.000Z	Jophish		how can I change where a symlink points to?
+2008-12-01T09:58:00.000Z	kmyst	Jophish	remove the symlink and do a ln -sf to point to where you want it to go
+2008-12-01T10:00:00.000Z	kmyst	Jophish	it'll remove the link no the file
+2008-12-01T10:00:00.000Z	kmyst	Jophish	i.e. file foo has a symlink bar...rm'ing bar deletes the symlink not the file foo

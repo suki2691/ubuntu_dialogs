@@ -1,0 +1,4 @@
+2012-09-12T03:52:00.000Z	GunArm		can anyone please give me some advice about how to proceed when tasksel is hung?
+2012-09-12T03:52:00.000Z	GunArm		i cant go home because its running in an ssh terminal from work
+2012-09-12T03:54:00.000Z	Kamilion|2	GunArm	kill off mysqld, then wait until apt has finished up, then dpkg-reconfigure mysql
+2012-09-12T04:06:00.000Z	GunArm	Kamilion|2	i didn't see what you said in time, and taskkilled 'tasksel' which left locks on files and stuff, so I rebooted the server and ran 'sudo dpkg --configure -a' which set up php5 libhtml apache mysql and a few other packages, I went back into tasksel and it showed lampp checked (installed), should I feel reasonably secure that the setup is done?

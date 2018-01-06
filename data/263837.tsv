@@ -1,0 +1,4 @@
+2006-07-31T05:53:00.000Z	ironmonk		i need to know, how do i mount an .img file (in xubuntu)?
+2006-07-31T05:53:00.000Z	Agrajag	ironmonk	.img, as in a raw CDROM image?
+2006-07-31T05:54:00.000Z	Agrajag	ironmonk	you'll need to convert it to an iso with bchunk first
+2006-07-31T05:55:00.000Z	Agrajag	ironmonk	I don't know the whole process, I don't use raw CD images, but you'd have to install bchunk, and run something like bchunk foo.img foo.cue foo, and mount foo.iso -t iso9660 /mnt/mountpoint -o loop

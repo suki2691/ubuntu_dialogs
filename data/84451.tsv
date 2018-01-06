@@ -1,0 +1,4 @@
+2010-03-25T02:20:00.000Z	BigUrsis		Anyone good with networking have a good idea on how I could 1) access a single ip though eth0 (a nas) 2) the internet though eth1 (cellular connection) with the option of taking eth1 down and bringing up wlan0? All though network-manager
+2010-03-25T02:21:00.000Z	airtonix	BigUrsis	nm-applet doesnt support that
+2010-03-25T02:22:00.000Z	BigUrsis	airtonix	so set all the config manual with interface etc etc, is there still a way to let network manager manage wlan0 and still manualedit interface?
+2010-03-25T02:22:00.000Z	airtonix	BigUrsis	no. and unless you know how to do it manually i have no idea how to do such a thing. ( it would be very handy)

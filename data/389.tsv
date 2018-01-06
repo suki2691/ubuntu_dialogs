@@ -1,0 +1,4 @@
+2012-11-16T00:08:00.000Z	jaha		Hello all. Just upgraded 10.04 to 12.04 with lxde installed and the system hands at boot with the "apparmor [ok]" message, cant seem to get to console, ideas?
+2012-11-16T00:08:00.000Z	jaha		hangs*
+2012-11-16T00:10:00.000Z	lvmer	jaha	sudo apt-get remove apparmor && sudo apt-get install apparmor apparmor-profiles
+2012-11-16T00:11:00.000Z	lvmer	jaha	would reinstalling work?

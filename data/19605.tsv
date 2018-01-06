@@ -1,0 +1,4 @@
+2011-02-12T02:38:00.000Z	iceroot_		how to remove the ubuntu-logo from the left top corner so i can make the panel smaller?
+2011-02-12T02:38:00.000Z	Starminn	iceroot_	If you really want less space you could Remove that and Add to Panel "Main Menu"
+2011-02-12T02:39:00.000Z	iceroot_	Starminn	bringing the icon back
+2011-02-12T02:45:00.000Z	iceroot_	Starminn	for your info: gconftool-2 --set /desktop/gnome/interface/menus_have_icons --type bool 0

@@ -1,0 +1,4 @@
+2010-10-21T23:51:00.000Z	trism	napster	I'm not sure tar will let you, you could create an archive with an empty directory though; mkdir x; tar cvf x.tar x/; otherwise might help to know what you're trying to accomplish
+2010-10-21T23:55:00.000Z	napster	trism	I have a list passed as a parameter in my program. I could remove about n iterations of a loop if I could create an empty archive
+2010-10-21T23:58:00.000Z	trism	napster	found a workaround in the tar manual, try: tar cvf empty-archive.tar --files-from=/dev/null;
+2010-10-22T00:00:00.000Z	napster	trism	Just seen it a couple of minutes ago. Thank you :)

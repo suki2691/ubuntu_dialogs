@@ -1,0 +1,4 @@
+2007-06-07T07:03:00.000Z	chozandrias		Can someone tell me the command to mount a partition?
+2007-06-07T07:04:00.000Z	chozandrias		How do I mount a partition?
+2007-06-07T07:05:00.000Z	dopefish	chozandrias	sudo mkdir [where you want to mount it] ; sudo mount /dev/whatever [where you want to mount it] 
+2007-06-07T07:06:00.000Z	dopefish	chozandrias	example, mkdir /media/partition; sudo mount /dev/sda1 /media/partition

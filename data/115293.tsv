@@ -1,0 +1,4 @@
+2008-08-24T08:29:00.000Z	jeeves__		what are the commands to compleatly remove the SSH server from my server (through Webmin), then reinstall it?  my copy is bad
+2008-08-24T08:30:00.000Z	hwilde_	jeeves__	sudo apt-get remove --purge openssh-server  && sudo apt-get install openssh-server
+2008-08-24T08:31:00.000Z	hwilde_	jeeves__	pastebinit
+2008-08-24T08:43:00.000Z	hwilde_	jeeves__	that will take care of your TERM is not set error.

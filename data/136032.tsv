@@ -1,0 +1,4 @@
+2008-10-07T19:42:00.000Z	fiXXXerMet		Hi everyone.  I just installed a new Nvidia GeForce 9400 GT.  lspci shows "01:00.0 VGA compatible controller: nVidia Corporation Unknown device 0641 (rev a1)"   How can I have it detect the correct card?
+2008-10-07T19:43:00.000Z	Gnea	fiXXXerMet	sudo update-pciids
+2008-10-07T19:45:00.000Z	fiXXXerMet	Gnea	Need I reboot after using that command?
+2008-10-07T19:45:00.000Z	Gnea	fiXXXerMet	nope, just run lspci again

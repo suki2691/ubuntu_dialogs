@@ -1,0 +1,4 @@
+2008-01-10T06:52:00.000Z	nifty		hi i cannot get synaptic to find any programs?
+2008-01-10T06:52:00.000Z	nifty		anyone whats going on with synaptic?
+2008-01-10T06:53:00.000Z	nickrud	nifty	system->admin->software sources, make sure the first four are selected, and the cdrom is not. Then in a terminal type:  sudo apt-get update . Then try synaptic again
+2008-01-10T06:54:00.000Z	nickrud	nifty	do the reload after doing the sources thing instead of the update

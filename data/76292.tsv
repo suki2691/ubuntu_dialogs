@@ -1,0 +1,4 @@
+2008-10-28T23:10:00.000Z	jpeasy		hi. I need to transfer /home to another partition which I will then mount as /home
+2008-10-28T23:10:00.000Z	jpeasy		I tried a simple cp -R as root, but I get lots of perm errors
+2008-10-28T23:11:00.000Z	jpeasy		cp -R /home /mnt/backup
+2008-10-28T23:11:00.000Z	bremb1	jpeasy	all you need to create that partition, copy all files to it and in /etc/fstab change it appropriately

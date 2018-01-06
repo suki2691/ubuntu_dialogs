@@ -1,0 +1,4 @@
+2008-04-25T03:38:00.000Z	rattts		i once had a folder that was called public_html  and it was able to be treated as an apache htdocs folder(basically, u could go to it through the internet to view web pages saved in it)   now i dont think its connected to internet....how do i check to see if it is?
+2008-04-25T03:39:00.000Z	rattts		anyone know the key combination that i can press so my home directory will list all the hidden folders?????
+2008-04-25T03:39:00.000Z	InGunsWeTrust	rattts	Ctr + H
+2008-04-25T03:42:00.000Z	InGunsWeTrust	rattts	if you do gnome-open /path/you/want/to/open it will open the folder. If you want to open it with root permissions you can do gksu gnome-open /path/for/thing

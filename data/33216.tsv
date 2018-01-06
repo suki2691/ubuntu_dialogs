@@ -1,0 +1,4 @@
+2011-03-27T10:11:00.000Z	Schala		I noticed on the Ubuntu website it has 32-bit as recommended. I'm rather curious if that's also the case on 64-bit PCs too? My concern is if I were to install 32-bit, well... I have 6 GB of memory and with 32-bit software only using up to 4 GB... will I be leaving out 2 GB?
+2011-03-27T10:12:00.000Z	Schala		Hmm.... alright. So there's no performance hit either I hope?
+2011-03-27T10:13:00.000Z	Loshki	Schala	I believe even the newer 32-bit kernels have addressing extensions (pae) that let you access more than 4GB so don't worry... https://help.ubuntu.com/community/EnablingPAE
+2011-03-27T10:17:00.000Z	Loshki	Schala	Also, IMO, quality/stability in the 64-bit builds lags behind the 32-bit builds...

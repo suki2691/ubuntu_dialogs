@@ -1,0 +1,4 @@
+2007-08-19T06:06:00.000Z	wdh	sketchi	i didn't read back the whole story.. but if i understand correctly, you are trying to take all the data from one harddrive to another drive.. the easiest way to do that on linux is using 'dd'
+2007-08-19T06:06:00.000Z	wdh	sketchi	dd if=/dev/hda of=/dev/hdb, this will copy the whole partition structure as well.. probably you want to resize the partition after that..
+2007-08-19T06:07:00.000Z	wdh	sketchi	i don't think it can be done from windows, but you can always use a live-cd
+2007-08-19T06:16:00.000Z	wdh	sketchi	there is plenty of room for failure.. just try it. if it doesnt work, put the old harddrive back in.. dd if=/dev/oldhdd of=/dev/newhdd makes a copy of _all_ the data on the first harddrive.. and, assuming the new drive is bigger than the old one, after this you can resize the original partitions..

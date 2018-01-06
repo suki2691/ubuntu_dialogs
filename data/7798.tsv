@@ -1,0 +1,4 @@
+2011-11-20T05:54:00.000Z	rawfodog		I have about 40 folders, all with a single file inside each of them. It is very annoying to have to double click into these folders. I was wondering if there was a command to take all these single files from there individual folder and move them into 1 folder
+2011-11-20T05:55:00.000Z	rawfodog		masen, how would I even itterate through all the folders in a hiearchy like that ?
+2011-11-20T05:56:00.000Z	brjannc	rawfodog	the following command will find all files in folders under /some/directory and move them to /target/directory: find /some/directory -type f -exec mv \{} /target/directory \;
+2011-11-20T05:58:00.000Z	brjannc	rawfodog	sure thing

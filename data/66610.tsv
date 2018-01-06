@@ -1,0 +1,4 @@
+2009-02-10T05:23:00.000Z	smithwar		so how do  you install tar.gz files after downloading thm from firefox
+2009-02-10T05:23:00.000Z	bernz	smithwar	first you'll have to decompress them with gzip (gunzip)
+2009-02-10T05:24:00.000Z	bernz	smithwar	that will take away the '.gz' part, typically
+2009-02-10T05:24:00.000Z	bernz	smithwar	then you can untar it using tar... usually something like 'tar -xvf filenameoftarredfile' to see progress as it works

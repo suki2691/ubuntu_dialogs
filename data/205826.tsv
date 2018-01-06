@@ -1,0 +1,4 @@
+2006-03-03T06:13:00.000Z	nads		hey, i'm trying to do this command: "  sudo perl -MCPAN -e 'install XML::Simple'  " in order to install checkgmail.... but the script is unable to connect to ftp.perl.org (i think it's down)... can anyone please help me?
+2006-03-03T06:15:00.000Z	nickrud	nads	I think sudo apt-get install libxml-simple-perl is what you want
+2006-03-03T06:16:00.000Z	nads	nickrud	nope... i installed that package and still the perl command just tries to download from ftp.perl.org
+2006-03-03T06:18:00.000Z	nickrud	nads	if I understand it correctly, the package I gave you is the same as what you'd get from CPAN

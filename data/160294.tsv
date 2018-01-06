@@ -1,0 +1,4 @@
+2012-08-07T07:13:00.000Z	gr33n7007h		paste the url on here
+2012-08-07T07:15:00.000Z	gr33n7007h		sudo echo "b43" >> /etc/modules
+2012-08-07T07:17:00.000Z	gr33n7007h		now type: echo "b43" >> /etc/modules
+2012-08-07T07:17:00.000Z	Jordan_U	gr33n7007h	SilverZ: The proper way to append output to a file which can only be written to by root is "echo foo | sudo tee -a /path/to/file"

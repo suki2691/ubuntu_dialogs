@@ -1,0 +1,4 @@
+2010-10-22T07:34:00.000Z	Aenigma		Hello, I had a major oopsie. I accidentally recurisvely chmod'd / (instead of ./) and now I can't log in to my account. What's worse, the partitions (LUKS) and my home (ecryfs) are encrypted so I'm having difficulty grabbing my files to do a reinstall. I managed to mount my root partition but I can't get home to mount from livecd.
+2010-10-22T07:35:00.000Z	fluff-laptop	Aenigma	google dustin kirkland. he wrote the scripts for ecryptfs. you need to get the key from /var
+2010-10-22T07:36:00.000Z	fluff-laptop	Aenigma	his blog has full instructions on what to do
+2010-10-22T07:36:00.000Z	Aenigma	fluff-laptop	right, I'll look into it.

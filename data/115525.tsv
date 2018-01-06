@@ -1,0 +1,4 @@
+2007-12-03T18:36:00.000Z	Xaosratt		Interesting, would have been nice to know before my server had been online for a month
+2007-12-03T18:36:00.000Z	Xaosratt		Any site that reffernces these security and support issues?
+2007-12-03T18:36:00.000Z	ikonia	Xaosratt	all over the interent
+2007-12-03T18:45:00.000Z	Xaosratt	ikonia	Ok, Webmins issues aside for the moment, apache logformat is "LogFormat "%h %l %u %t \"%r\" %>s %b \"%{Referer}i\" \"%{User-Agent}i\"" combined". What exactly is not right with this to be causing Awstats to only accept "Logformat=4", rather than the 1 all the help files say it should be out of the box with apache2?

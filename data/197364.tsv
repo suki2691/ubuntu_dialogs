@@ -1,0 +1,4 @@
+2006-11-11T16:57:00.000Z	pippobruco		hi all, someone know how to manage services using runlevel symlink?
+2006-11-11T16:58:00.000Z	lullabud	pippobruco	 yeah.
+2006-11-11T16:58:00.000Z	lullabud	pippobruco	 /etc/rc#.d/S##service means start, /etc.rc#.d/K##service means don't start
+2006-11-11T16:59:00.000Z	lullabud	pippobruco	 they should by symlinked in numerical order of startup to /etc/inint.d/whatever

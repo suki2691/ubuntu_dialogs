@@ -1,0 +1,4 @@
+2012-01-27T23:43:00.000Z	righteousRat		pardon my ignorance but either my grep is broken or my head is broken but why wont my grep work anymore lol  is try ls -la /etc | grep yum and it shows listings with yum   then i try to enter a regex and it wont work.   for example i tried  ls -la /etc | grep /^yum/  didnt work also /yum/ didnt work  also /yum+/ didnt work
+2012-01-27T23:44:00.000Z	LjL	righteousRat	don't put // around the expression
+2012-01-27T23:45:00.000Z	righteousRat	LjL	  what happened to the / regex /  syntax?  i think i used it before and it works.
+2012-01-27T23:45:00.000Z	LjL	righteousRat	never used it with grep myself.

@@ -1,0 +1,4 @@
+2007-07-07T16:08:00.000Z	X3rus		Ubuntu doesn't connec to the network. And INPUT, OUTPUT adn FORWARD have -P ACCEPT, it was working fine but now it doesn't any ideas of how can I solve it
+2007-07-07T16:08:00.000Z	variant	X3rus	disable iptables momentarily and see if it works then
+2007-07-07T16:12:00.000Z	X3rus	variant	how can I stop it. there is no /etc/init.d/iptables
+2007-07-07T16:18:00.000Z	X3rus	variant	I -F iptables, but still have no connection

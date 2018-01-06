@@ -1,0 +1,4 @@
+2006-11-07T14:06:00.000Z	mydani2		Hello. I've got a question about firestarter. I added a forwarding rule from firewall-port 80 to ip 192.168.2.99:80 in my home net. But the forward doesn't work. Do I have to enable some options?
+2006-11-07T14:08:00.000Z	trappist	mydani2	I haven't used firestarter in years, but when you forward a port you have to make sure you allow the traffic both ways, and unless you make an extra rule, you won't be able to hit it from inside your network - it'll only work from the internet
+2006-11-07T14:08:00.000Z	mydani2	trappist	maybe you can try it from "outside"? ;)
+2006-11-07T14:09:00.000Z	trappist	mydani2	movie premiers?

@@ -1,0 +1,4 @@
+2007-03-12T10:55:00.000Z	AndrewLife		I'm trying to install updates with apt-get, and it's trying to connect to ca.archive.ubuntu.com:80 (206.167.141.10), which is timing out. I'm guessing the "ca" in front means it's the canadian version of the server, is there a way to get it to connect to another server that wont time out?
+2007-03-12T10:55:00.000Z	dyrne	AndrewLife	sudo sed -i 's/ca.//g' /etc/apt/sources.list
+2007-03-12T10:55:00.000Z	dyrne	AndrewLife	then sudo apt-get udpate
+2007-03-12T10:57:00.000Z	dyrne	AndrewLife	maybe best to leave off the g and just do 's/ca.//'

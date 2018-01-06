@@ -1,0 +1,4 @@
+2010-07-18T03:14:00.000Z	X_o		vsftpd 500 OOPS: could not bind listening IPv4 socket
+2010-07-18T03:15:00.000Z	X_o		how i can fix it ?
+2010-07-18T03:16:00.000Z	violinappren	X_o	sudo netstat -tulpn
+2010-07-18T03:16:00.000Z	violinappren	X_o	 that will show you what programs are listening on what ports

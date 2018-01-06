@@ -1,0 +1,4 @@
+2008-08-29T03:21:00.000Z	askvictor		how can I uninstall just about everything, then install just xubuntu-desktop (obviously ubuntu-minimal needs to be there somewhere)?
+2008-08-29T03:23:00.000Z	askvictor		I was contemplating using synaptic to mark everything for removal , then unmarking ubuntu-minimal, -standard and xubuntu-desktop, but it doesn't quite want to work that way
+2008-08-29T03:24:00.000Z	mgolisch	askvictor	yeah that wont work
+2008-08-29T03:26:00.000Z	mgolisch	askvictor	basicaly you just need to lookup the depends of ubuntu-minimal and substract them from the installed packages list, shouldnt be too hard i guess

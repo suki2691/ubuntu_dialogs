@@ -1,0 +1,4 @@
+2009-07-10T19:44:00.000Z	legend2440	usr13	is it possible that Kostas problem is that permissions are wrong for   .ICEauthority and .dmrc files   ?
+2009-07-10T19:44:00.000Z	usr13	legend2440	I don't know.
+2009-07-10T19:49:00.000Z	legend2440	usr13	 ls -l .ICEauthority .dmr     returns   ls: cannot access .ICEauthority: No such file or directory
+2009-07-10T19:52:00.000Z	usr13	legend2440	Then why did he report to us an error message that says:  "Users $HOME/.dmrc is being ignored. This prevents the default session and language from being saved." Then I click OK and get another error message "Could not update ICEauthority file /home/kostas/.ICEauthority"?

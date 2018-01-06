@@ -1,0 +1,4 @@
+2005-02-06T08:37:00.000Z	Phineas		Is there a way to mount my ntfs partition along with the other media and drives?
+2005-02-06T08:38:00.000Z	pybe	Phineas	try apt-cache search ^ntfs and ^libntfs - i think they are the part that let you mount ntfs
+2005-02-06T08:44:00.000Z	pybe	Phineas	add it to fstab i think
+2005-02-06T08:46:00.000Z	Phineas	pybe	yeah all I had to do was change the mount location from /mnt to /media, and add the req directories

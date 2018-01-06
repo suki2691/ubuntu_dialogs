@@ -1,0 +1,4 @@
+2008-11-09T06:13:00.000Z	linoj	goat|lappy	is there any way to get in if all i know is the root password, or at least how to see what account names are on the box?
+2008-11-09T06:13:00.000Z	goat|lappy	linoj	 have you tried connecting to the box via ssh?
+2008-11-09T06:14:00.000Z	goat|lappy	linoj	so you have the machine and you don't know any of the usernames on that machine?
+2008-11-09T06:43:00.000Z	goat|lappy	linoj	yes, boot from cd, mount the /  and look at the username through /etc/passwd

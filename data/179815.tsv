@@ -1,0 +1,4 @@
+2006-07-07T15:09:00.000Z	jirc		sorry but ive asked this time and again but the link you give me doesnt help, how do i root(su) in the console, never accepts my pass, you say use sudo, but i need to get it to say enter new UNIX Passwd like it once did, and im sure the command was sudo passwd but that no longer works
+2006-07-07T15:09:00.000Z	jrib	jirc	sudo uses your user password
+2006-07-07T15:13:00.000Z	jrib	jirc	passwd lets you change your own password if that is what you want, otherwise the wiki page explains root and sudo
+2006-07-07T15:17:00.000Z	jrib	jirc	what we are trying to get across to you is that you don't need to su at all, you don't need a root password.  If you want to run the command 'nano' as root, your type 'sudo nano' and use your own password

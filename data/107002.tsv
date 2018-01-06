@@ -1,0 +1,4 @@
+2008-01-27T20:32:00.000Z	Switch^		how do I mount my partition to /windows ? It won't mount
+2008-01-27T20:32:00.000Z	th0r	Switch^	first check the 'mount' command to see if it is already mounted somewhere else
+2008-01-27T20:33:00.000Z	Switch^	th0r	it's not mounted; but it can only mount to /media/windows
+2008-01-27T20:34:00.000Z	th0r	Switch^	check fstab and see if there is a line in that file for the windows parition. If so, it will force windows to mount to that

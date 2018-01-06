@@ -1,0 +1,4 @@
+2010-10-26T12:48:00.000Z	mrko		Just killed my server when I tried to upgrade from 8.04 to 10.04 :( any help would be much appreciated
+2010-10-26T12:48:00.000Z	git__	mrko	you should invest time in kvm
+2010-10-26T12:49:00.000Z	git__	mrko	u gotta be more specific
+2010-10-26T12:54:00.000Z	mrko	git__	sorry...  upgraded with "sudo do-release-upgrade -d" and now it wont start. GRUB loads fine, but after that it fails to find any disk to boot from and I'm dropped to BusyBox. Managed to take a look in GRUBs menu and the only options are to boot 8.04, no 10.04 options available.. me thinks something went bad during the upgrade

@@ -1,0 +1,4 @@
+2010-09-26T17:59:00.000Z	robisinho		how can I turn on a wireless network from the console?
+2010-09-26T18:00:00.000Z	Dr_Willis	robisinho	 with the proper ifconfig and iw* commands i recall.. seen some guides on it. but i rarely do it more then once every 4 months.
+2010-09-26T18:04:00.000Z	robisinho	Dr_Willis	following https://help.ubuntu.com/community/WifiDocs/WiFiTroubleshooting -- looks like I should just be able to do sudo ifup
+2010-09-26T18:36:00.000Z	robisinho	Dr_Willis	sudo iwconfig wlan0 essid "foo" && sudo dhclient wlan0  -- that's how :)

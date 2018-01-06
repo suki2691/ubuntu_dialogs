@@ -1,0 +1,4 @@
+2006-08-21T16:16:00.000Z	chops-		looks like my thing is screwd then since the synaptic package thing cant find that curses install
+2006-08-21T16:18:00.000Z	chops-		what can i do to fix the synaptic installer database ?
+2006-08-21T16:19:00.000Z	ofer0	chops-	run from terminal: aptitude update; aptitude update; aptitude -f install; aptitude upgrade
+2006-08-21T16:19:00.000Z	ofer0	chops-	(add sudo before every "aptitude")

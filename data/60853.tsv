@@ -1,0 +1,4 @@
+2010-11-17T17:32:00.000Z	pale		I need to insert some text in file which is fisrtly filterd by grep and saved to file add, grep -A4 "searching" `find ~ -name \user.reg -print` > add , and then insert previously filtered text from add file to user.reg before patern [ SOFTWARE ] which can be found in user.reg
+2010-11-17T17:33:00.000Z	jrib	pale	you should probably give some sort of example, I can't follow what you want
+2010-11-17T17:35:00.000Z	pale	jrib	ok, so i want to apped some text file to file user.reg | so my question is can sed be used to append text from one file to another if so please show example
+2010-11-17T17:38:00.000Z	pale	jrib	did you understand me?

@@ -1,0 +1,4 @@
+2006-09-18T09:37:00.000Z	Aberrant22		Evening folks...got an Filesystem question
+2006-09-18T09:37:00.000Z	Aberrant22		I want to format a hdd that is currently NTFS into EXT3, but when I look at the drive properties the format option is disabled
+2006-09-18T09:38:00.000Z	Aberrant22		How can I format the NTFS drive?
+2006-09-18T09:39:00.000Z	indigoblu	Aberrant22	fdisk it, then mk2fs -j /dev/<partitions>

@@ -1,0 +1,4 @@
+2007-05-29T13:47:00.000Z	TheoMurpse		I ran a ./configure.sh script so I can make and install a 3rd party wireless util, and I got instruction to upgrade to at least GTK 2.6.0. How do I do this? I can't find GTK in the GUIfied upgrade utils with *buntu, nor does sudo apt-get install gtk, or libgtk2, or libgtk-dev work. All fail to give me a way of upgrading to at least 2.6.0.
+2007-05-29T13:48:00.000Z	RAOF	TheoMurpse	You already have gtk > 2.6.  You probably want libgtk2.0-dev to build stuff, though.  Searching in synaptic for "libgtk" would have told you that faster :)
+2007-05-29T13:48:00.000Z	TheoMurpse	RAOF	thank you. However, I don't know what package to have specifically searched for.
+2007-05-29T13:49:00.000Z	RAOF	TheoMurpse	You could have searched for 'gtk' (which would have given a lot of options), but since you're after the gtk library "libgtk" seems like a good search term :)

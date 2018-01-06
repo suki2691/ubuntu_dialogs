@@ -1,0 +1,4 @@
+2010-08-27T15:40:00.000Z	erUSUL	m2rt	maybe adding rootdelay=[some seconds here] to kernel parameters ? or rootwait ( would have to check docs )
+2010-08-27T15:41:00.000Z	m2rt	erUSUL	even though I understood nothing you said, I will google it :)
+2010-08-27T15:43:00.000Z	erUSUL	m2rt	modify /etc/default/grub and add in the kernel parameters variable the parameter rootwait ot rootdelay=5 ( to wait for root to appear )
+2010-08-27T15:44:00.000Z	erUSUL	m2rt	the var is GRUB_CMDLINE_LINUX_DEFAULT

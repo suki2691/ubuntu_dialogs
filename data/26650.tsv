@@ -1,0 +1,4 @@
+2012-01-17T00:59:00.000Z	Confoozed		Hi folks -  I am wrestling with getting a downgraded php 5.2 to play nice in oneiric using karmic's packages.  I am getting the following error when I run sudo aptitude -t karmic install phpmyadmin:    php5-mysql: Depends: php5-common (= 5.2.10.dfsg.1-2ubuntu6.10) but 5.2.10.dfsg.1-2ubuntu6 is installed.
+2012-01-17T00:59:00.000Z	Confoozed		to my layman's eyes, those appear to be the same except one is marked ubuntu6 and the other is marked ubuntu6.10 - how can I get this to just be happy using the karmic packages?
+2012-01-17T01:00:00.000Z	glebihan	Confoozed	you can't
+2012-01-17T01:01:00.000Z	glebihan	Confoozed	you probably can't either

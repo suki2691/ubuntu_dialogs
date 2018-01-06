@@ -1,0 +1,4 @@
+2009-03-18T18:45:00.000Z	Vlet		For some time now I've been experiencing long delays when logging into my 8.10 server from one particular machine through ssh and mysql gui tools even after a clean install of the OS on the client machine... What might cause this? From other machines, log-in time is normal.
+2009-03-18T18:45:00.000Z	waylandbill	Vlet	probably the sshd is performing a lookup of your hostname.
+2009-03-18T18:47:00.000Z	waylandbill	Vlet	it couldn't hurt to add your hostname to the hosts file on the server machine. If that was the problem, it should cure it. If not, it doesn't hurt.
+2009-03-18T18:47:00.000Z	Vlet	waylandbill	I'll give it a try :)

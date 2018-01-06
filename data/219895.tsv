@@ -1,0 +1,4 @@
+2007-11-23T15:36:00.000Z	stoneman		hey how do i find out what temperature my cpu is at?
+2007-11-23T15:37:00.000Z	stoneman		is there a command line for finding out what the termperature is for the cpu?
+2007-11-23T15:38:00.000Z	stoneman		Guillem ah ok, i tried that conky thing but its way over my head
+2007-11-23T15:39:00.000Z	Flannel	stoneman	cat /proc/acpi/thermal_zone/THRM/temperature

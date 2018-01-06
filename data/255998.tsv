@@ -1,0 +1,4 @@
+2006-03-11T14:54:00.000Z	albert		hey does anyone know how to install ATI drivers for Ubuntu
+2006-03-11T14:55:00.000Z	albert		I am trying to get americas army to run but with no luck
+2006-03-11T14:56:00.000Z	albert		I think I need display drivers first
+2006-03-11T14:58:00.000Z	FireCat	albert	All I do is install linux-restricted-modules, then xorg-driver-fglrx  then run aticonfig. Backup your xorg.conf religiously, and descriptively

@@ -1,0 +1,4 @@
+2008-07-15T22:41:00.000Z	tylere		Just did a fresh install of 8.04.1 amd64...when gnome loaded for the first time, update manager appeared, and I attmped to install the updates... most went fine but apt chocked on linux-image-2.6.24-19-generic and l-restricted-modules-... and now apt is wedged...any suggestions?
+2008-07-15T22:43:00.000Z	rj_	tylere	 yeah, I frequently get apt problems.  the thing to do is to open a terminal and sudo dpkg --configure --pending    that should clear the problem, at least it does for me
+2008-07-15T22:44:00.000Z	tylere	rj_	hrrm...well that gives me a DIFFERENT error ;(
+2008-07-15T22:44:00.000Z	tylere	rj_	looks like this might be lvm related...but it worked fine in the isntall...I mean, it's running now

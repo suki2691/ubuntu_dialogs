@@ -1,0 +1,4 @@
+2010-11-08T00:15:00.000Z	OY1R		Ok, i installed Ubuntu 10.04 last night and left it running, now when i got back to the system it had crashed and showed this error no init found try init= bootarg > http://imagebin.ca/view/PYbv_e9.html
+2010-11-08T00:16:00.000Z	OY1R		i booted the livecd and did a few sudo fsck /dev/sda1
+2010-11-08T00:17:00.000Z	OY1R		then the system booted back up but looks like var/lib/dpkg is missing i cannot install anything from synaptic
+2010-11-08T00:18:00.000Z	erUSUL	OY1R	looks like you suffered sever disk corruption; i would check the disk and reinstall.

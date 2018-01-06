@@ -1,0 +1,4 @@
+2007-01-21T08:15:00.000Z	parsek		When I play video using vlc and X11 output module in fullscreen I see edges on everywhere like there wasnt antialiasing or something like that, how could I fix this?
+2007-01-21T08:16:00.000Z	LjL	parsek	what about not using the X11 output module?
+2007-01-21T08:17:00.000Z	LjL	parsek	depending on your video card, there are settings that you can adjust for XVideo. if you have an nvidia with the binary driver, for instance, you can adjust some.
+2007-01-21T08:18:00.000Z	LjL	parsek	it's not like i've tried, but it doesn't really much surprise me that the X11 module lacks anti-aliasing. even if it had it, it would be done entirely in software, which is bad for performance... hardware antialiasing is usually a much better idea, and XVideo provides that

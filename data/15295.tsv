@@ -1,0 +1,4 @@
+2011-09-17T00:22:00.000Z	B0g4r7		How can I query apt to ask if a given package is currently installed or not?
+2011-09-17T00:22:00.000Z	B0g4r7		(I'm writing an 'installer script', so the more programatic the method the better)
+2011-09-17T00:23:00.000Z	escott	B0g4r7	dpkg -l "*pattern*"
+2011-09-17T00:23:00.000Z	escott	B0g4r7	i dont think aptitude is on all systems so best to use dpkg

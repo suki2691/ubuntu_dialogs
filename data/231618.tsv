@@ -1,0 +1,4 @@
+2005-08-21T15:28:00.000Z	glDaher		how do I check to see if a demon (gamin) is running or not?
+2005-08-21T15:29:00.000Z	ompaul	glDaher	if the name of the daemon was - afik then 'ps auwx | grep afik'
+2005-08-21T15:31:00.000Z	glDaher	ompaul	output is daher    16180  0.0  0.1   3036   728 pts/0    S+   00:30   0:00 grep gamin
+2005-08-21T15:32:00.000Z	ompaul	glDaher	no, that is the process that is looking for the process - see grep - grep is like a text version of 'find the following text in output that is coming your way'

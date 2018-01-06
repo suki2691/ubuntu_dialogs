@@ -1,0 +1,4 @@
+2012-05-31T21:00:00.000Z	VictorCL		how can I delete all fiels in a folder that starts with  index_api ?
+2012-05-31T21:00:00.000Z	VictorCL		rm index_api*
+2012-05-31T21:00:00.000Z	VictorCL		can I do that
+2012-05-31T21:00:00.000Z	escott	VictorCL	if you want a recursive search find . -iname "index_api*" -delete

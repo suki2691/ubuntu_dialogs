@@ -1,0 +1,4 @@
+2012-02-27T19:30:00.000Z	satyanash		Hi, what is the default install location for applications I install through apt ?
+2012-02-27T19:32:00.000Z	satyanash		I am upgrading openarena to 0.8.8
+2012-02-27T19:32:00.000Z	Pici	satyanash	There is not one location where packages install their files to.  /etc/ is often used for system-wide configuration files, but thats not always the case for every package.
+2012-02-27T19:33:00.000Z	Pici	satyanash	dpkg -L packagename  will show you where it installed its files to.

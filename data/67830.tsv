@@ -1,0 +1,4 @@
+2009-01-24T07:37:00.000Z	PC_Nerd1		hi.  Ive appended /usr/local/apache2/bin to PATH in the /etc/bash.bashrc file     now a regular use can run a program in there, however because it needs to be run with root... when i sudo apachectl start, it tells me that the command is not found... ive cheked by su - that PATH in root does have the added directory.     any ideas on how to make the PATH addition globally (as in working globally? )
+2009-01-24T07:39:00.000Z	iajrz	PC_Nerd1	you have to put it in sbin
+2009-01-24T07:41:00.000Z	iajrz	PC_Nerd1	not only on bin, but also has to be on sbin
+2009-01-24T07:51:00.000Z	iajrz	PC_Nerd1	sudo uses the commands stored in /usr/sbin ; so if you place a launcher for whatever command you have stored there, (I think even a soft link) it will do it.

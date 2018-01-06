@@ -1,0 +1,4 @@
+2012-02-03T22:56:00.000Z	TheExplorer		Greetings fellow ubuntu users, I have a 2 quick questions: firstly i backed up my old harddrive in a single *.tar.gz format, attempting to open the file and extract it is EXTREMELY slow, is there any way to write an index to speed up the process?
+2012-02-03T22:56:00.000Z	theadmin	TheExplorer	You don't have to open it to extract, you can use the command-line
+2012-02-03T22:58:00.000Z	theadmin	TheExplorer	Ah, I see, uh, I think the tar command has some option for that, just a sec
+2012-02-03T22:59:00.000Z	theadmin	TheExplorer	Well to get the list of files all over your hard drive, you can do this: sudo find / | less

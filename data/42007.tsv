@@ -1,0 +1,4 @@
+2009-11-24T23:28:00.000Z	danielsevigny		Hello again everyone.... Could anyone suggest what sort of setup I should use for partioning? I'm looking for a separate /home partition. How big does the swap section need to be? If I install some apps they go onto the /root partition correct?
+2009-11-24T23:30:00.000Z	danielsevigny		hmmm so 18GB then. Thanks. and in the manual install I can tell it Use as: Swap Area and it will format correctly for a swap partition?
+2009-11-24T23:30:00.000Z	blooddiamond	danielsevigny	make swap twice as much of ram. installed apps usually go to /usr/bin or /usr/sbin
+2009-11-24T23:34:00.000Z	blooddiamond	danielsevigny	you need 2x ram if you want suspend and resume options to work properly

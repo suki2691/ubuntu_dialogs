@@ -1,0 +1,4 @@
+2008-10-14T22:30:00.000Z	Niek		Hi guys (and girls)
+2008-10-14T22:31:00.000Z	Niek		I've a question .. I've 2 disks in my computer, and some partitiions on them. I want 1 partition on disk one to be the same "virtual disk" as a partition on another one. (that is becuase I bought the secondary drive today, I ran outta space) I heard something about LVM. But; is there a tutorial; and; won't I loose all my data already present @ disk1 ?
+2008-10-14T22:33:00.000Z	soundray	Niek	to convert a partition to LVM, you have to back it up and restore the backup afterwards
+2008-10-14T22:33:00.000Z	soundray	Niek	it will be easier to set up a data partition on the new drive

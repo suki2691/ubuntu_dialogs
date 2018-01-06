@@ -1,0 +1,4 @@
+2006-10-26T08:41:00.000Z	smile2me		Hello
+2006-10-26T08:42:00.000Z	smile2me		how do i make a user execute a file at login? In centos i used .bash_profile, what about in ubuntu?
+2006-10-26T08:43:00.000Z	dooglus	smile2me	.bash_profile is used when a login shell is created, but most users never create a login shell
+2006-10-26T08:45:00.000Z	dooglus	smile2me	you can try ~/.gnomerc - that's used if the user logs in to GNOME.  I don't think there's any way to do it in general though.

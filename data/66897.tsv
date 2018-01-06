@@ -1,0 +1,4 @@
+2009-02-12T05:51:00.000Z	galvanize		Hi all
+2009-02-12T05:52:00.000Z	galvanize		I have changed my prompt, by ' set prompt='blahblah', and now I want to reset it to original. so I try set prompt again and it changes but when i close the terminal and restart it, it goes back to one i don't want? any help?
+2009-02-12T05:53:00.000Z	galvanize		bash
+2009-02-12T05:54:00.000Z	^hashbang^	galvanize	add export PS1=`\u@\h \w > ' to your ~/.bashrc

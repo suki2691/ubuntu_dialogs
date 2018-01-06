@@ -1,0 +1,4 @@
+2012-01-29T18:29:00.000Z	Scott_292		I have Windows on a partition /dev/sda1, when I installed it I used dd to create a copy of the partition. I want to reset windows to it's original state, are there any risks by using dd to copy from this file back to /dev/sda1? Obviously, I know about data loss, I mean boot up failures, etc.
+2012-01-29T18:29:00.000Z	Scott_292		Also is this the correct way to do it: gunzip -c sda1.img.gz | dd of=/dev/sda1 bs=512
+2012-01-29T18:30:00.000Z	auronandace	Scott_292	extract it then: sudo dd if=/path/to/img of=/dev/sda1 bs=512
+2012-01-29T18:31:00.000Z	auronandace	Scott_292	make sure you are certain you got the right partitiom

@@ -1,0 +1,4 @@
+2006-10-04T16:55:00.000Z	chromium6		hello I have a radeon 9200SE with the RV280 chip set and I cant get for the life of me fglrx or sti drivers to fire up DRI and I tried building fglrx but I get build errors
+2006-10-04T16:55:00.000Z	chromium6		s/sti/ati
+2006-10-04T16:56:00.000Z	erUSUL	chromium6	fglrx not longer support r2xx (te latest version from ati) radeon free driver has better performance use it (man radeon, man ati)
+2006-10-04T05:02:00.000Z	erUSUL	chromium6	try 'sudo dpkg-reconfigure xserver-xorg' and choose ati driver... i can post my old radeon xorg.conf (for a 9250) so you can take a look at relevant sections (device, modules, dri etc...)

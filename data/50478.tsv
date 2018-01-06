@@ -1,0 +1,4 @@
+2009-12-09T19:32:00.000Z	wyverex		I have a lexmark s405 network printer.  The linux driver they have is only 32bit and I am running 9.10 64 bit.  Is there any way to use this printer without resorting to a VM?
+2009-12-09T19:33:00.000Z	alankila	wyverex	install 32-bit linux.
+2009-12-09T19:34:00.000Z	alankila	wyverex	ok. Legitimate reason to go for 64-bit, then. You may be able to run 32-bit driver -- provided it's all in userspace -- by installing enough of 32-bit system.
+2009-12-09T19:40:00.000Z	alankila	wyverex	you could replace the dpkg binary in /usr/bin to always pass --force-architecture to some underlying dpkg.orig... Just replace it with a shell script for the duration of install. Giant hack, of course.

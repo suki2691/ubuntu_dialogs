@@ -1,0 +1,4 @@
+2009-02-01T20:26:00.000Z	Goethhe		Why does VSFTPD adds a user called ftp to my system?
+2009-02-01T20:27:00.000Z	unop	Goethhe	because the ftpd needs to run as a user .. and you don't want that user to be an already existing user - you could compromise files that way
+2009-02-01T20:29:00.000Z	Goethhe	unop	& momomo: If I disabled anonymous login in VSFTPD , can i remove the ftp user from my system?
+2009-02-01T20:30:00.000Z	unop	Goethhe	no, vsftpd won't be able to run then ... as i said, vsftpd needs to run as a particular user

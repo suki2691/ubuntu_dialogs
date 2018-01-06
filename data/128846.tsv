@@ -1,0 +1,4 @@
+2009-06-06T00:01:00.000Z	Simetrical		Is there some way to update only a specific package via APT?  Like "apt-get upgrade chromium-browser" to upgrade just that, and not everything else?
+2009-06-06T00:02:00.000Z	Sh3r1ff	Simetrical	why ask if you know the command? ;)
+2009-06-06T00:02:00.000Z	Simetrical	Sh3r1ff	because apt-get upgrade seems not to take an argument.
+2009-06-06T00:03:00.000Z	Sh3r1ff	Simetrical	select the package with dselct and run apt-get dselect-upgrade

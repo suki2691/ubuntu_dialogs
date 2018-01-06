@@ -1,0 +1,4 @@
+2009-02-05T20:54:00.000Z	obst		If I invoke for example gcc, how can I find out which version the system will actually use? I want to know the full path, is the PATH environment variable just searched from start to the end?
+2009-02-05T20:56:00.000Z	geirha	obst	readlink -f $(which gcc)
+2009-02-05T20:57:00.000Z	obst	geirha	thank you very much!
+2009-02-05T20:58:00.000Z	geirha	obst	And, yes. bash searches each directory in PATH, starting with the first listed, until it finds an executable called gcc, and runs that. "type -a gcc" will show all hits

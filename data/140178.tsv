@@ -1,0 +1,4 @@
+2008-01-29T01:20:00.000Z	mrmonday		Is there a command I can use to get the collective number of lines in a selection of files in a directory?
+2008-01-29T01:20:00.000Z	Pici	mrmonday	wc -l
+2008-01-29T01:21:00.000Z	Pici	mrmonday	wc -l * | tail -n1
+2008-01-29T01:21:00.000Z	mrmonday	Pici	and astro76, thanks, is it possible to do it for multiple files in one go?

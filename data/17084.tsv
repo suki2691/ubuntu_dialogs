@@ -1,0 +1,4 @@
+2011-03-09T19:45:00.000Z	jjp_	lifestream	sed 's/pattern/replacement' file > file
+2011-03-09T19:42:00.000Z	jjp_	lifestream	vim does it: vim file1 file2 ... then :bufdo %s/pattern/substitution/ge | update
+2011-03-09T19:44:00.000Z	jjp_	lifestream	to the best of my knowledge, GNU sed can do in place substitution
+2011-03-09T19:45:00.000Z	jjp_	lifestream	sed 's/pattern/replacement/g' file > file

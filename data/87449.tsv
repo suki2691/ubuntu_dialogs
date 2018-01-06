@@ -1,0 +1,4 @@
+2010-03-12T16:56:00.000Z	dayo		my onboard NIC has got a shaky lan port. i want to install a NIC but have it be eth0,not eth1. how do i do this?
+2010-03-12T16:57:00.000Z	vlt	dayo	I'd edit /etc/udev/rules.d/*network*
+2010-03-12T16:57:00.000Z	vlt	dayo	It's /etc/udev/rules.d/70-persistent-net.rules here, actually.
+2010-03-12T16:59:00.000Z	dayo	vlt	thanks. got it. :-)

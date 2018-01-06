@@ -1,0 +1,4 @@
+2005-07-27T15:36:00.000Z	NightLord		why does it say wrong filesystem when i try to mount my windows partition?
+2005-07-27T15:37:00.000Z	NightLord		using command : mount /dev/hda1 /mnt/windows  -o -umask=0222
+2005-07-27T15:37:00.000Z	bob2	NightLord	because you didn't tell it what filesystem it is
+2005-07-27T15:51:00.000Z	bob2	NightLord	yes, ubutu fixes issues in the shipped version, not by just adding a new one

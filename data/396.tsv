@@ -1,0 +1,4 @@
+2012-11-15T20:22:00.000Z	[jasper]		anyone ?
+2012-11-15T20:22:00.000Z	mbeierl	[jasper]	does that need to be run at any particular time?  You could add it to /etc/rc.local
+2012-11-15T20:24:00.000Z	[jasper]	mbeierl	I guess after the wifi device is initialised
+2012-11-15T20:32:00.000Z	mbeierl	[jasper]	you could try it in /etc/rc.local and see.  I don't know the driver or its place in the startup. Alternatively, you could make it a user script that is run when the user logs in

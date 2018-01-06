@@ -1,0 +1,4 @@
+2005-03-28T07:07:00.000Z	Krause		heya guys :)
+2005-03-28T07:09:00.000Z	Krause		i have a quick question :)  i installed Ubuntu on a labtop, with /etc in its own logical partition, and when it loads it cant find the inittab file (which is in /etc) any way around it besids not making /etc its own mount point?
+2005-03-28T07:09:00.000Z	mjr	Krause	putting /etc on its own filesystem is a bad idea
+2005-03-28T07:15:00.000Z	mjr	Krause	you might consider mounting /tmp as tmpfs (and using a single fs for all the rest ;)

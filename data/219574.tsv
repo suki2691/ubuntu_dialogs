@@ -1,0 +1,4 @@
+2007-10-14T05:47:00.000Z	JuJuBee		I have a config file in /usr/local/web/config.php and the folder /usr/local/web is owned by admin and the group is a group that www-data is a member of and it has rwx on folder web.  The webserver chokes unless the folder is owned by www-data.  Any ideas.
+2007-10-14T05:47:00.000Z	Flannel	JuJuBee	what are the perms on that folder?
+2007-10-14T05:51:00.000Z	Flannel	JuJuBee	what error do you get?  And simply changing that folder to www-data:webgroup makes it not error?
+2008-06-21T06:14:00.000Z	Flannel	JuJuBee	yes, and you should.

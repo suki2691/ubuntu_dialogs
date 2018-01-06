@@ -1,0 +1,4 @@
+2009-11-26T01:07:00.000Z	xjk1		﻿a virus seems to have deleted the partition from my pendrive. i run mkfs.vfat /dev/sdc and it says "mkfs.vfat: Will not try to make filesystem on full-disk device '/dev/sdc' (use -I if wanted)" then I use -I and it says "mkfs.vfat: Attempting to create a too large file system" what the hell, its a 2gb pendrive
+2009-11-26T01:08:00.000Z	acicula	xjk1	you need a partition
+2009-11-26T01:09:00.000Z	xjk1	acicula	yes i need a partition, i want to create a partition, that was my point, so how do i do it, dont wanna graphical softwares
+2009-11-26T01:09:00.000Z	acicula	xjk1	fdisk

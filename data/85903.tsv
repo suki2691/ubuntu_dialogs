@@ -1,0 +1,4 @@
+2012-03-12T03:44:00.000Z	binger		Have been having problems using java jdk6 to install/run properly in ubuntu 11.10.  I was wanting to uninstall it so that I can try a fresh install.  I used "apt jdk" to find both openjdk-6-jdk and openjdk-7-jdk.  How do I uninstall?
+2012-03-12T03:45:00.000Z	boolean	binger	apt-get remove <package> ... do a man apt-get for more info
+2012-03-12T03:49:00.000Z	binger	boolean	is there a way to test if jdk is installed properly?
+2012-03-12T03:50:00.000Z	boolean	binger	outside of running a java program ... a simple java -version should suffice

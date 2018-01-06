@@ -1,0 +1,4 @@
+2006-12-12T12:07:00.000Z	Vixus		Hey there, what do I do if I want to reset my password without having to login to Ubuntu?
+2006-12-12T12:07:00.000Z	Vixus		grub
+2006-12-12T12:08:00.000Z	Samus_Aran	Vixus	you could try passing the kernel the "boot=/sbin/passwd username" parameter, or boot using the LiveCD and run the command: sudo passwd username
+2006-12-12T12:11:00.000Z	Samus_Aran	Vixus	pass the kernel the parameter "3" to boot into multiuser textmode, or "1" to boot into single user mode

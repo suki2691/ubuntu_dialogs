@@ -1,0 +1,4 @@
+2005-05-06T09:04:00.000Z	kkathman		greetings all :)
+2005-05-06T07:19:00.000Z	kkathman		how would I find out the version of a particular package that is installed on an ubuntu system?
+2005-05-06T07:20:00.000Z	] BreliC[	kkathman	if it's a binary, type the binary file in command like and -v (so, gcc -v)
+2005-05-06T07:21:00.000Z	] BreliC[	kkathman	the other way to find out packages is to use dpkg -l (so, 'sudo dpkg -l | grep <packagename>')

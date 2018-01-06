@@ -1,0 +1,4 @@
+2007-12-05T04:41:00.000Z	NYCThomasB		does anyone know how to reverse this statemnt?:  sudo ifconfig ath0 down followed by: sudo ifconfig wifi down
+2007-12-05T04:42:00.000Z	NYCThomasB		motec: it tried - it didnt like it
+2007-12-05T04:42:00.000Z	hwilde	NYCThomasB	sudo ifconfig ath0 up
+2007-12-05T04:44:00.000Z	hwilde	NYCThomasB	sudo /etc/init.d/networking restart      check your /etc/network/interfaces file

@@ -1,0 +1,4 @@
+2007-08-24T07:30:00.000Z	RJ_BR		please explain what this means for a file: ?rwsrwsrwt 65535 4294967295 4294967295 4294967295 1969-12-31 23:59 pkgcache.bin   .... because can do nothing with it... copy, rename, delete
+2007-08-24T07:32:00.000Z	dark_harmonics	RJ_BR	if you want to delete it you may need to refference the last part of the file like
+2007-08-24T07:33:00.000Z	dark_harmonics		but wait if ther are other critical files next to it you might wanna be careful
+2007-08-24T07:34:00.000Z	RJ_BR	dark_harmonics	sudo cp -a pkgcache.bin pkgcacheOLD.bin  give me >>> cp: `pkgcache.bin' has unknown file type

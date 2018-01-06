@@ -1,0 +1,4 @@
+2010-01-18T17:53:00.000Z	johnny_bris		I have a bunch of txt files in hierachical folders along with other files. I would like to copy the text files to a new folder.   I tried   $ find . -name "*.txt" > afolder
+2010-01-18T17:53:00.000Z	johnny_bris		 bash: afolder: Is a directory
+2010-01-18T17:54:00.000Z	Pici	johnny_bris	find . -name "*.txt" -exec mv {} afolder/ \;
+2010-01-18T17:54:00.000Z	Pici	johnny_bris	sorry, replace mv with cp then

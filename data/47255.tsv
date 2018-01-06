@@ -1,0 +1,4 @@
+2012-04-25T11:10:00.000Z	llutz_	reader__	use the local hosts LAN-IP to connect to it
+2012-04-25T11:15:00.000Z	llutz_	reader__	check guests network-settings. check your apache-config: is it listening on all adresses?
+2012-04-25T11:15:00.000Z	llutz_	reader__	sudo lsof -i :80      on host
+2012-04-25T11:19:00.000Z	llutz_	reader__	:80  only, next time pls :)  apache listens, so check guests network-settings again

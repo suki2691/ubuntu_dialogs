@@ -1,0 +1,4 @@
+2012-05-30T18:44:00.000Z	xyzzy_		Is there a way of preventing a single, one-off command from getting stored in bash's history?
+2012-05-30T18:44:00.000Z	imbezol	xyzzy_	unset HSTFILE
+2012-05-30T18:45:00.000Z	xyzzy_	reisio	I don't want to clear the whole history, just exlude a single command which will contain a password
+2012-05-30T18:46:00.000Z	imbezol	xyzzy_	TMPHIST="$HISTFILE" ; unset HISTFILE ; dosomething_you_want_unlogged ; export HISTFILE="$TMPHIST"

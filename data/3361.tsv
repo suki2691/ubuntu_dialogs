@@ -1,0 +1,4 @@
+2012-10-31T08:40:00.000Z	djjeff		[   11.146278] vesafb: mode is 640x480x32, linelength=2560, pages=0      how do I change this to 1920x1080x32   ?
+2012-10-31T08:41:00.000Z	djjeff		can I disable vesa ?
+2012-10-31T08:42:00.000Z	djjeff		cause when ubuntu boots thats the resolution it uses
+2012-10-31T08:44:00.000Z	wilee-nilee	djjeff	That resolution is probably to high at the grub menu, you can change it in this file though and run a update-grub afterwards before rebooting. gksudo gedit /etc/default/grub

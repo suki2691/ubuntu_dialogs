@@ -1,0 +1,4 @@
+2008-08-31T11:15:00.000Z	bereta50		can  some one help me with a grub problem, i cant see the boot menu
+2008-08-31T11:17:00.000Z	Flannel	bereta50	What do you mean can't see the grub menu?
+2008-08-31T11:21:00.000Z	Flannel	bereta50	Try these: https://help.ubuntu.com/community/Installation#Installing%20on%20external%20or%20RAID%20hard%20disks
+2008-08-31T11:33:00.000Z	Flannel	bereta50	a grub> prompt while booting means that stage1 (the part in your MBR) can't find stage1.5 or stage2 (basically, can't find your menu.lst)

@@ -1,0 +1,4 @@
+2012-06-28T17:06:00.000Z	marun		Hi, I am running apache web server on a VM with NAT interface. I have added port forwarding in my router to 80. I am able to browse the site on local network. But not from internet. How to fix this?
+2012-06-28T17:07:00.000Z	marun		hmm. ok.. Why NAT doesn't work?
+2012-06-28T17:09:00.000Z	Cottus	marun	it may be that apache only allowd 127.0.0.1 and not 0.0.0.0:80 or *:80 in /etc/apache2/sites-enabled/000-default < this is in debian
+2012-06-28T17:11:00.000Z	marun	Cottus	It is set to listen on all interfaces. Lemme check if bridged adapter works :)

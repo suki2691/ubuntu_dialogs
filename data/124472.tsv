@@ -1,0 +1,4 @@
+2007-08-17T10:33:00.000Z	ecaandrew		does anyone know why apache 2.2 and php5 isn't working together, apache loads fine, but php pages wont display. =[
+2007-08-17T10:34:00.000Z	dxdt	ecaandrew	More than likely there is a small error in one of the configs.  Go through both php.ini and apache2.conf and look for stuff about PHP that you might need to enable.
+2007-08-17T10:34:00.000Z	ecaandrew	dxdt	where is the apache2.conf located?
+2007-08-17T10:35:00.000Z	dxdt	ecaandrew	/etc/apache2/  I think.  Also make sure you have the libraries for apache2 and php5 installed.  libapache2-mod-php5 or something similar

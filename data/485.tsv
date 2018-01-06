@@ -1,0 +1,4 @@
+2012-11-05T17:07:00.000Z	dr_willis	CuteAlien	 theres a system wide xdg/autostart directioy you can put scripts in also.
+2012-11-05T17:08:00.000Z	CuteAlien	dr_willis	thanks, I'll try that
+2012-11-05T17:10:00.000Z	CuteAlien	dr_willis	the /etc/xdg/autostart only seems to contain .desktop files. If I just put in a script with just that command (xset s off) - will that be enough?
+2012-11-05T17:32:00.000Z	CuteAlien	dr_willis	putting into /etc/xdg/autostart also didn't do the trick. After reboot and 10 minutes waiting the blank screen is back. So xset s off wasn't called (or not called at the right moment)

@@ -1,0 +1,4 @@
+2007-05-01T15:25:00.000Z	Dreamglider		how long should it take to create two ext3 partions on a harddisk ?
+2007-05-01T15:26:00.000Z	Dreamglider		(with gparted)
+2007-05-01T15:26:00.000Z	pike_	Dreamglider	cfdisk or fdisk then mkfs.ext3 /dev/hda2 or whatever
+2007-05-01T15:26:00.000Z	pike_	Dreamglider	if you have to resize you need to boot livecd and run gparted

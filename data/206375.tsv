@@ -1,0 +1,4 @@
+2008-05-14T18:44:00.000Z	bloops		I would like to dual boot fedora and ubuntu, how should I partition my system? I want to have a common home.
+2008-05-14T18:44:00.000Z	bloops		how should I partition my system ?
+2008-05-14T18:45:00.000Z	Cypher	bloops	you would essentially duplicate the /boot, /usr, /var and /tmp for Fedora and Ubuntu and keep the /home the same..
+2008-05-14T18:48:00.000Z	Cypher	bloops	if you really wanted to keep it simple you'd create just 4 partitions in total..a / for Fedora, a / for Ubuntu, a /home and SWAP partiion..both of the last two would be shared..

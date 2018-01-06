@@ -1,0 +1,4 @@
+2006-03-18T11:37:00.000Z	silvaran	Mosi	I haven't used xmms in ages, but it has its own code for piping sound to the hardware (and might even be set to use the deprecated OSS drivers).  Rhythmbox uses gstreamer which I believe favors the new ALSA system.  I would suggest checking the sound settings in XMMS and trying different output devices (esd/alsa/oss) until you find one that (hopefully) works.
+2006-03-18T11:38:00.000Z	Mosi	silvaran	thanks much, i'll try that
+2006-03-18T11:38:00.000Z	Mosi	silvaran	^_^ wow, that was easy. I didn't know ALSA was better than OSS, thanks :)
+2006-03-18T11:39:00.000Z	silvaran	Mosi	No problem... I think technically it's "better" now (I've had enormous pains with alsa in the past while it was maturing), but OSS is deprecated in the kernel.

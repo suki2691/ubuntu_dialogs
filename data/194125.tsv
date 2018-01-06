@@ -1,0 +1,4 @@
+2007-07-06T11:39:00.000Z	Lattyware		Is there any way to stop me having to disable two of my three network devices at boot to get one to work?
+2007-07-06T09:53:00.000Z	Lattyware		Hey all, a friend is trying to install the binary nVidia driver, but whenever he tried to install the package, it requests a feisty install disc (running ubuntu studio)
+2007-07-06T09:53:00.000Z	Lattyware		any suggestions on what to do.
+2007-07-06T09:54:00.000Z	pike_	Lattyware	gksu gedit /etc/apt/sources.list and put a # commend in front of the cdrom entry then sudo apt-get udpate

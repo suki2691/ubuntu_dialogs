@@ -1,0 +1,4 @@
+2006-03-09T11:36:00.000Z	abhinav		I am setting up a lan on linux.The problem is that i am able to ping the other from the first to second but i am not able to ping from second to first.what could be the problem.anyone?
+2006-03-09T11:37:00.000Z	abhinav		I have ubuntu on one and core 2 on another
+2006-03-09T11:37:00.000Z	nm	abhinav	check iptables on both machines to see if a firewall is interfering
+2006-03-09T11:37:00.000Z	nm	abhinav	and check ifconfig to ensure they're on the same subnet

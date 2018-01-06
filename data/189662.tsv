@@ -1,0 +1,4 @@
+2009-09-22T13:05:00.000Z	Ademan		i just read a little article, what are the implications of DeviceKit replacing HAL?  The only responsibility HAL had that I was aware of was hotplugging usb devices and making those events available over dbus... obviously they're more, the scope of "hardware abstraction layer" is far greater than that... but yeah...
+2009-09-22T13:06:00.000Z	AfC	Ademan	other than pain for packagers? Should be no difference; it's the same author upstream
+2009-09-22T13:09:00.000Z	Ademan	AfC	interesting, so it's more or less a rewrite/reimplementation of HAL?
+2009-09-22T13:12:00.000Z	AfC	Ademan	that's the impression I get; could be wrong. I know hughsie is driving part of it.

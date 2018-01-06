@@ -1,0 +1,4 @@
+2011-06-07T07:37:00.000Z	crohakon		Can someone point me in the right direction? I just installed a third hard drive onto my server. I only have commandline via ssh. How do I format/mount the hard drive via console?
+2011-06-07T07:37:00.000Z	YankDownUnder	crohakon	Use fdisk, then you can manually edit the /etc/fstab to reflect the new drive and mount point.
+2011-06-07T07:40:00.000Z	crohakon	YankDownUnder	and how can I be sure which drive is the new drive? Should I assume sdc or is there a way to check? I've done this without gui
+2011-06-07T07:40:00.000Z	YankDownUnder	crohakon	I'll assume that Flannel knows the answer.

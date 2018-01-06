@@ -1,0 +1,4 @@
+2007-10-08T14:44:00.000Z	Kyozo		Hi! I'm trying change my resolution from 800x600 to 1200x800 with nvidia settings but when I try to save settings to xorg.conf comes this "Unable to create new X config backup file '/etc/X11/xorg.conf.backup'." And when I restart X the resolution is 800x600 again. How can I keep the resolution at 1200x800 after booting X?
+2007-10-08T14:45:00.000Z	mssever	Kyozo	I don't know anything about nvidia, but is the program you're using to edit those settings running as root?
+2007-10-08T14:45:00.000Z	Kyozo	mssever	 No, I don't think so
+2007-10-08T14:46:00.000Z	mssever	Kyozo	If it isn't running as root, then it can't touch xorg files

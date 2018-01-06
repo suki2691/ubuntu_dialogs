@@ -1,0 +1,4 @@
+2011-12-21T08:29:00.000Z	khaime_		I am running ubuntu 10.10 on a hp compaq nc6220 who has a built-in "Intel Corporation PRO/Wireless 2200BG [ Calexico2 ] Network Conneciton" ...........i read that the ipw200 driver is the driver to make this work, and that it is a part of the kernel of 10.10.........but for some reason I can not get it to work....also on this laptop , the wirelss and the bluetooth are integrated...i can turn on the bluetooth , but i can not turn on t
+2011-12-21T08:29:00.000Z	khaime_		he wireless.....when I do a "lshw -C network" it shows : "*-network DISABLED"  for the wireless....can anyone help ?   thanks in advance !
+2011-12-21T08:31:00.000Z	OerHeks	khaime_	maybe this page is any help >> https://help.ubuntu.com/community/WifiDocs/WirelessTroubleShootingGuide
+2011-12-21T08:34:00.000Z	khaime_	OerHeks	the "nm-tool" shows that the wireless is "eth1", it shows the driver as " ipw2200", but the "state" says it is "unavailable"

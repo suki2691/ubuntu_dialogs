@@ -1,0 +1,4 @@
+2007-10-20T23:49:00.000Z	ConstyXIV		does xgl do anything special at all?
+2007-10-20T23:50:00.000Z	crdlb	ConstyXIV	Xgl is essentially an abstraction layer that makes compiz work on using only 3d acceleration (no special driver features needed)
+2007-10-20T23:51:00.000Z	ConstyXIV	crdlb	so if you've got compiz working anyways, do you need (or get any advantage from) it for anything?
+2007-10-20T23:52:00.000Z	crdlb	ConstyXIV	it would probably be faster because nvidia's texture_from_pixmap isn't very good, but it breaks wine games and makes multihead more difficult

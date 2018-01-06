@@ -1,0 +1,4 @@
+2011-12-05T01:47:00.000Z	klj613		how do i remove a symbolic link ?
+2011-12-05T01:48:00.000Z	mactrent	klj613	You can either do rm like a normal file, or unlink.
+2011-12-05T01:48:00.000Z	klj613	mactrent	thanks, wanted to make sure as i dont want it to cascade over to the source of the symlink
+2011-12-05T01:49:00.000Z	mactrent	klj613	Right.  In the help for rm, it specifies how you could follow the link, but that's not the default.  Good question.

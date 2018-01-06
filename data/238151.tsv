@@ -1,0 +1,4 @@
+2005-09-27T15:25:00.000Z	mindframe		im having problems with my onboard wireless card(Broadcom BCM4306 onboard) since installing breezy.  the card is detected fine but, iwconfig picks it up, but it just wont get an ip address from my router.  could there be some misconfiguration somewhere with ndiswrapper?
+2005-09-27T15:27:00.000Z	Lars_G	mindframe	Have you set the card to configure dynamically in the network interfaces config?
+2005-09-27T15:29:00.000Z	mindframe	Lars_G	on my other laptop it does everything automatically.  i have essid set to any in /etc/network/interfaces
+2005-09-27T15:29:00.000Z	Lars_G	mindframe	No idea then. Sorry.

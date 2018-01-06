@@ -1,0 +1,4 @@
+2006-06-30T09:21:00.000Z	pink1		So something is iffy with my 3D acceleration (I think?).  nvidia drivers are loaded (X.Org 7.0) and Quake 3 plays fine, but other games have major graphical glitchiness whereas they didn't, oh, a week or two ago.
+2006-06-30T09:21:00.000Z	pink1		What should I do to run some sort of diagnostic on my graphics acceleration to find what might be the problem?
+2006-06-30T09:22:00.000Z	pink1		Could my recent upgrade from X.Org 6.9 --> 7.0 have anything to do with this?
+2006-06-30T09:22:00.000Z	ruxpin	pink1	glxinfo , glxgears

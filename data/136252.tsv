@@ -1,0 +1,4 @@
+2008-12-15T00:38:00.000Z	mrjohnsen		Can anyone help me with BIND? I have a small lan with a BIND server, gateway server and a client. BIND runs without errors when I do a nslookup on one of the servers I get this:
+2008-12-15T00:38:00.000Z	mrjohnsen		** server can't find gateway.bed.local.bed.local: SERVFAIL
+2008-12-15T00:38:00.000Z	mrjohnsen		I type nslookup gateway.bed.local and it responses with bed.local.bed.local .. why?
+2008-12-15T00:39:00.000Z	Gnea	mrjohnsen	it's an invalid host/domain

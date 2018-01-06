@@ -1,0 +1,4 @@
+2008-07-12T06:38:00.000Z	solexious_		[Q] Is there a way to scan for errors on a ext3 file system on the main drive?
+2008-07-12T06:39:00.000Z	Jordan_U	solexious_	Yes, just create an empty file named ( I think ) "forcefsck"  then reboot, let me check that file name though
+2008-07-12T06:41:00.000Z	Jordan_U	solexious_	Yup, that's the correct name so "sudo touch /forcefsck && sudo reboot" ( the second part will not ask you before rebooting so either be ready to reboot or leave it out and reboot on your own )
+2008-07-12T06:43:00.000Z	Jordan_U	solexious_	np

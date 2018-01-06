@@ -1,0 +1,4 @@
+2010-10-04T03:04:00.000Z	mattgyver	callgary	did you run it as sudo?
+2010-10-04T03:06:00.000Z	callgary	mattgyver	I want to get rid of the grub boot menu and boot strait to the ubuntu desktop.  How??
+2010-10-04T03:08:00.000Z	mattgyver	callgary	you would just change the timeout to 0 in /etc/default/grub.conf and run update-grub .. thats pretty much it
+2010-10-04T03:10:00.000Z	callgary	mattgyver	update-grub produces "not found"

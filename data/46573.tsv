@@ -1,0 +1,4 @@
+2011-05-16T01:35:00.000Z	user9		I have a dell latitude d630, i think it has a Broadcom wireless device.  how do i make it work with WPA2 ?
+2011-05-16T01:36:00.000Z	pfifo	user9	Ive heard many people have good luck with wicd instead of network-manager fr wireless
+2011-05-16T01:37:00.000Z	user9	pfifo	tried that.  its some weird driver issue that comes up during every Ubuntu release.  then it gets fixed a few weeks later.
+2011-05-16T01:39:00.000Z	pfifo	user9	I would use iwconfig directly to ensure that wpa2 is actually working, and if not then I would get a backport module or make my own

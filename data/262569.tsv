@@ -1,0 +1,4 @@
+2007-12-07T05:22:00.000Z	jacob	jacob__	after you used sudo once, all the other commands you run (that don't include the command "sudo") will still be run as a normal user
+2007-12-07T05:22:00.000Z	jacob__	rob_p	that didn't do it, i can still access the network settings in the gnome desktop environment
+2007-12-07T05:23:00.000Z	jacob	jacob__	that is a convenience feature. it will remember your sudo password/session for 15 minutes and will automatically expire. All other commands and applications you use however will still run as a normal user.
+2007-12-07T05:24:00.000Z	jacob	jacob__	gnome's network settings automatically use sudo to grant superuser privileges that expire

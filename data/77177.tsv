@@ -1,0 +1,4 @@
+2008-10-16T02:03:00.000Z	jerndoe		Hi, my firefox 3.0 just crashed and I cannot start a new instance cause the old one still running, i tried to kille the process but nothing happens?
+2008-10-16T02:04:00.000Z	dli	jerndoe	pkill -9 firefox-bin
+2008-10-16T02:05:00.000Z	dli	jerndoe	then, just remove the lock file in your profile folder
+2008-10-16T02:06:00.000Z	jerndoe	dli	Hey pkill -9 firefox-bin worked !!!

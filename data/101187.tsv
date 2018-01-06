@@ -1,0 +1,4 @@
+2008-02-16T22:58:00.000Z	cens0red		help! gparted just hangs, and gives the error "Unable to open /dev/fd0 read-write (Read-only file system).  /dev/fd0 has been opened read-only.". How else can I re format a partition?
+2008-02-16T22:59:00.000Z	LukeLM	cens0red	are you sure fd0 is a hard drive? sounds like a floppy or cdrom
+2008-02-16T23:00:00.000Z	cens0red	LukeLM	yeah, it's supposed to be a floppy. Only I don't have a floppy! I also commented out the entry for /dev/fd0 in fstab, then restarted, but I still have the same problem.
+2008-02-16T23:01:00.000Z	cens0red	LukeLM	I'm trying to reformat a partition, but gparted just hangs, spits out the above error in the command line, and does nothing.

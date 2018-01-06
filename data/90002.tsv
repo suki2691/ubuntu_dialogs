@@ -1,0 +1,4 @@
+2008-05-21T18:46:00.000Z	jmh7080		﻿ I'm starting to learn how to build packages, and I was wondering if there's a streamlined method for determining dependencies if I'm downloading source that's not in the repos?
+2008-05-21T18:46:00.000Z	joaopinto	jmh7080	most of the time configure provides a good hint on the required dev package
+2008-05-21T18:48:00.000Z	jmh7080	joaopinto	is there a way to run through configure to see all unmet dependencies without it breaking every time it encounters an unmet dependency?
+2008-05-21T18:49:00.000Z	joaopinto	jmh7080	usually the source comes with a README/INSTALL text file which lists the required libraries

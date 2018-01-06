@@ -1,0 +1,4 @@
+2007-09-29T09:03:00.000Z	monkeyspasm		can anyone advise me on using fsck?
+2007-09-29T09:04:00.000Z	Dr_willis	monkeyspasm	 what sort of advice you trying to  get.
+2007-09-29T09:05:00.000Z	monkeyspasm	Dr_willis	My machine was refusing to boot. Turns out it is failing the boot-time disk check, and it tells me I have to fix /dev/sd2 using fsck. I don know anyhitng about that.
+2007-09-29T09:06:00.000Z	Dr_willis	monkeyspasm	 i would boot a live cd, and using its shell do 'fsck /dev/whateveritssayingtocheck'

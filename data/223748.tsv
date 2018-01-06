@@ -1,0 +1,4 @@
+2005-08-23T14:10:00.000Z	Misos		How do I restrict users to their home directories?
+2005-08-23T14:11:00.000Z	Misos		They're all going to be accessing via SSH.
+2005-08-23T14:13:00.000Z	Misos		I want to set a group, and users of this group can only access their /home/user file
+2005-08-23T14:13:00.000Z	ivanc_	Misos	chown -R 770

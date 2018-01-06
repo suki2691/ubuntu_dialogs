@@ -1,0 +1,4 @@
+2012-04-28T13:51:00.000Z	detly		is there a tool, CLI or GUI, that can cut video to specific frames?
+2012-04-28T13:51:00.000Z	detly		I tried avidemux, but it crashes on AC3 audio
+2012-04-28T13:52:00.000Z	ssta	detly	ffmpeg
+2012-04-28T13:52:00.000Z	detly	ssta	dr_willis: ffmpeg doesn't have any options for down-to-the-frame cutting (and also requires building from source for any useful work, and I'd like to avoid hosing my package management :P )

@@ -1,0 +1,4 @@
+2006-05-17T13:47:00.000Z	jeff303		how can I mount one of my ntfs partitions (read only of course) such that ordinary users have read access?  basically I don't want to have to "sudo totem" just to play my music from that partition
+2006-05-17T13:48:00.000Z	jeff303		I try to chmod it after mounting, but it can't "read only filesystem"
+2006-05-17T13:48:00.000Z	paradizelost	jeff303	172.16.0.9:/media/shareddata    /media/shareddata       nfs     ro,proto=tcp,defaults 0 0
+2006-05-17T13:48:00.000Z	paradizelost	jeff303	just make the appropriate modifications

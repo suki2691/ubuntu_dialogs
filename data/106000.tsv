@@ -1,0 +1,4 @@
+2009-01-31T15:48:00.000Z	Gauntlet		I changed my resolution higher than my screen allows and I couldnt see anything and couldnt even see the login screen. I re installed the nvidia drivers hoping it would go back to the default 1024x768 and it did but only on the login screen. As soon as I log in the resolution changes.
+2009-01-31T15:49:00.000Z	Bodsda	Gauntlet	press ctrl+alt+f1   and use vim to edit the /etc/X11/xorg.conf file  or just delete it,  no harm either way
+2009-01-31T15:51:00.000Z	Gauntlet	Bodsda	I am new so example would be "sudo (letter to delete?) etc/X11/xorg.conf" correct? whats the letter for deleting?
+2009-01-31T15:51:00.000Z	Bodsda	Gauntlet	sudo rm /etc/X11/xorg.conf

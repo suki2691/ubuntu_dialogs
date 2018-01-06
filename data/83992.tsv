@@ -1,0 +1,4 @@
+2009-07-10T22:27:00.000Z	majikman		anyone know what the difference is between /usr/share/tomcat6/lib and /var/lib/tomcat6/lib?
+2009-07-10T22:28:00.000Z	lstarnes	majikman	/var/lib is used for storing variable information
+2009-07-10T22:28:00.000Z	lstarnes	majikman	/usr/share is used for storing information that doesn't vary often
+2009-07-10T22:29:00.000Z	majikman	lstarnes	that might be the standard definition of /var/lib but i don't think thats what applies for the tomcat package

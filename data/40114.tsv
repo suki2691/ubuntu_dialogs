@@ -1,0 +1,4 @@
+2010-01-03T14:33:00.000Z	sacarlso1		﻿mbruins:  I'm not sure but I think the command lspci will give you an idea of the processor you have and from that we can tell you if it can run 64bit stuf
+2010-01-03T14:34:00.000Z	mbruins	sacarlso1	sadly no that will give a ouput of a devices
+2010-01-03T14:35:00.000Z	mbruins	sacarlso1	grep flags /proc/cpuinfo  seems to do the trick
+2010-01-03T14:35:00.000Z	mbruins	sacarlso1	thanks for helping

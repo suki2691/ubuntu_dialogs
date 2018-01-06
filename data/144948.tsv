@@ -1,0 +1,4 @@
+2007-03-06T14:31:00.000Z	comradec		I unclicked gdm through the serivces menu in the system.  It doesn't load gdm anymore but I thought you could just click the box again to have it load.  It doesn't appear to as simple as that as I have reclicked the box in systems but gdm doesn't start anymore
+2007-03-06T14:32:00.000Z	erUSUL	comradec	'sudo update-rc.d gdm defaults'
+2007-03-06T14:32:00.000Z	comradec	erUSUL	I run that command, it says they already exist
+2007-03-06T14:33:00.000Z	erUSUL	comradec	well then X should start at boot... 'sudo /etc/init.d/gdm restart'

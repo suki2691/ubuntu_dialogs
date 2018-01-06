@@ -1,0 +1,4 @@
+2006-07-07T11:33:00.000Z	winman		when I do sudo <command> it works, but when I try to do a su -, it fails with an authentication failure message
+2006-07-07T11:33:00.000Z	winman		what's going on?
+2006-07-07T11:34:00.000Z	judah	winman	root doesn't really have a password.
+2006-07-07T11:34:00.000Z	judah	winman	use sudo -S   or sudo su -

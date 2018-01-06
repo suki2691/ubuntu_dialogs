@@ -1,0 +1,4 @@
+2011-05-19T01:46:00.000Z	b0ot		Are there any guides for ubuntu on how to host a website on your own internal network?
+2011-05-19T01:47:00.000Z	aaaaalex	b0ot	for starters: run sudo apt-get install apache2 and then point your browser to your local ip adress - the web pages live in /var/www by default
+2011-05-19T01:48:00.000Z	b0ot	aaaaalex	I was told I should use lamp? is that the same thing?
+2011-05-19T01:50:00.000Z	aaaaalex	b0ot	lamp or xamp is a package that runs the whole shebang from one directory including mysql and php. downside: no security updates

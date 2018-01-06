@@ -1,0 +1,4 @@
+2005-06-25T16:56:00.000Z	dampjam		I have a very strange problem, like a memory leak.  I recently installed Ubuntu on a laptop that functions as a router.  It runs DHCP Server 3, has a few ip tables rules, and ssh.  Over a week, the time to connect via ssh slows down, then will not accept any, and at that point DHCP server stops giving out ips, but the iptable rules still work.
+2005-06-25T16:57:00.000Z	dampjam		It's like it will not start any more threads
+2005-06-25T16:59:00.000Z	dampjam		Are there utilities to see how ram is used by programs / what could be kiling the machine?
+2005-06-25T16:59:00.000Z	bartekp	dampjam	top

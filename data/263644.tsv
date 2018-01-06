@@ -1,0 +1,4 @@
+2007-06-26T08:50:00.000Z	newtubuntu		I have 320Gb of hd. If I re-install 32bits, I can repartition it as I want. Should I make the whole thing Linux and run Windows apps ONLY in VirtualBox, or should I keep myself a small partition for Vista or XP ?
+2007-06-26T08:51:00.000Z	tom_	newtubuntu	you should consider running windows in qemu or vmware
+2007-06-26T08:59:00.000Z	tom_	newtubuntu	ext3 is what you want to be using for your partitions in linux yes.
+2007-06-26T09:00:00.000Z	tom_	newtubuntu	there is one difference between linux and windows however, in linux, you need another partition, a swap partition which should be 1.5 to 2 times the size of your RAM.

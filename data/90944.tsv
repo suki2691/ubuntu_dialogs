@@ -1,0 +1,4 @@
+2010-01-11T01:26:00.000Z	ShereKhan		I have trouble getting X working on a new 9.10 install. After GRUB I see a black/white logo for a short time, and then my monitor throws up an error about being unable to display the display mode. When cycling resolutions with ctrl-alt-+ I do get an image, but it's all garbled up. Vidcard is an Nvidia 7600GS on PCI Express, with a Dell 24" monitor capable of 1600x1200 on the VGA port. Debian is running fine on the same computer, both usi
+2010-01-11T01:27:00.000Z	daftykins	ShereKhan	is it using the default... what laebshade said ^_^
+2010-01-11T01:29:00.000Z	daftykins	ShereKhan	once installed, run "sudo nvidia-xconfig" to make it use teh driver
+2010-01-11T01:31:00.000Z	daftykins	ShereKhan	cool :)

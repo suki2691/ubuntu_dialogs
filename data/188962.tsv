@@ -1,0 +1,4 @@
+2010-03-08T06:38:00.000Z	moots		Hi.  I upgraded my linux, and I copied the contents of my home directory.  Now when I copied my home directory back, the permissions are now root.  I need the permissions and uid of the files and directories *inside* the home directory to match the permissions of the home directory.  How do I get it to copy or apply those uid and permissions?
+2010-03-08T06:39:00.000Z	moots		ok
+2010-03-08T06:41:00.000Z	symptom	moots	http://www.manpagez.com/man/8/chown/ I bet "sudo chown -R homeusername /home/homeusername/ will work
+2010-03-08T06:42:00.000Z	symptom	moots	-R is for recursive ... I think

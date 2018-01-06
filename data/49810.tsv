@@ -1,0 +1,4 @@
+2010-04-10T14:33:00.000Z	CaneToad		My ethernet interface eth0 is not responding and yet I know that the switch it is connected to is working fine.  How can I force the network interface to work again?  The switch shows a light for the connection to the computer and yet Ubuntu isn't recognising it.
+2010-04-10T14:33:00.000Z	adalal	CaneToad	tried sudo dhclient?
+2010-04-10T14:36:00.000Z	CaneToad	adalal	dhclient eth0 did the trick, thanks
+2010-04-10T14:36:00.000Z	CaneToad	adalal	normally when I plug the network cable in, it automatically recognises that the connection is there and it comes up fine, but other times it doesn't and needs this manual dhclient..... oddly inconsistent

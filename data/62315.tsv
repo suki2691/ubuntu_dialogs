@@ -1,0 +1,4 @@
+2012-01-06T18:27:00.000Z	KS		i want to search text PATRON_NAME in all files but it is also searching small caps word i.e patron_name ,and i dont want to search small caps word ,i am using find for that  ex:- find /home  -type f -exec grep -il "patron_name" {} \; > /openils/PATRON_NAME1.txt
+2012-01-06T18:28:00.000Z	iceroot	KS	dont use -i
+2012-01-06T18:28:00.000Z	iceroot	KS	-i is ignoring case-sensitiv so it will match foo and FOO
+2012-01-06T18:30:00.000Z	iceroot	KS	and grep -r patron_name /home  is not what you are looking for?

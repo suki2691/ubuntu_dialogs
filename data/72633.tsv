@@ -1,0 +1,4 @@
+2008-12-01T07:35:00.000Z	blevuo		people from debian refered me here: I apt-got --print-uris updated and using awk convert them to a wget download script all on a local netless pc. i took the script here and downloaded them succesfully. now I wonder how to tell apt-get to accept these files? is the -o Dir::cache:archives=/../ the way? can I put the packagelists packages and pgps in the same dir as the application packages directory?
+2008-12-01T07:36:00.000Z	zsquareplusc	blevuo	copy them to /var/cache/archives or use dpkg -i
+2008-12-01T07:42:00.000Z	blevuo		im using ubuntu right now but apt-get is for debian pc
+2008-12-01T07:43:00.000Z	blevuo	zsquareplusc	i thought about that but do packagelist packages and pgp s also follow the same path as application packages?

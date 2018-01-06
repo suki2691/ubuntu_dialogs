@@ -1,0 +1,4 @@
+2009-03-09T04:59:00.000Z	Out_Cold		is there a way to have fsck not "resolve=UUID**"?  I have an encrypted drive which fsck doesn't recognize and it pretty much halts my start-up
+2009-03-09T05:01:00.000Z	bigrigger	Out_Cold	in /etc/fstab put 0  0  at the end of that drive's line instead of 0 1
+2009-03-09T05:02:00.000Z	Out_Cold	bigrigger	thanks! is there any way for fsck to check the drive without unencrypting it you think?
+2009-03-09T05:02:00.000Z	bigrigger	Out_Cold	no idea

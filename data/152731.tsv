@@ -1,0 +1,4 @@
+2009-07-27T15:38:00.000Z	arand	candrodor	no, hd0 is sda with no number to specify the partition.
+2009-07-27T15:33:00.000Z	arand	candrodor	grub comes in two parts, one is installed to a normal partition, usually in /boot/grub/ on your ubuntu main partition, the other part is put in the mbr, which is a small section in the beginning of the hard-disk which basically says which partition to look for and start the grub loader from.
+2009-07-27T15:38:00.000Z	arand	candrodor	and (hd,0) would be sda1
+2009-07-27T15:40:00.000Z	arand	candrodor	sorry that was wrong (hd0,0) reperesents sda1

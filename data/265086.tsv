@@ -1,0 +1,4 @@
+2006-07-23T11:18:00.000Z	painkiler		hey guys
+2006-07-23T11:19:00.000Z	painkiler		I just reinstalled windows on my dual boot box. I knew it would erase grub, but I don't know how to get grub back to normal
+2006-07-23T11:19:00.000Z	painkiler		I am in the live cd atm
+2006-07-23T11:21:00.000Z	pepsi	painkiler	mount your root partition somewhere, then run grub-install, showing it where to find the /boot directory

@@ -1,0 +1,4 @@
+2011-10-24T05:37:00.000Z	realm174		hi all
+2011-10-24T05:38:00.000Z	realm174		I'm trying to convert a bunch of jpg files to mpeg, using ffmpeg. problem is, filenames are non-sequential (but they're all called front*.jpg). Can't figure out how to pass the 1200 filenames to command line. Ideas?
+2011-10-24T05:39:00.000Z	tonyyarusso	realm174	Well, if the names aren't sequential I imagine you'd need to specify each one manually in one way or another....
+2011-10-24T05:41:00.000Z	tonyyarusso	realm174	The better way would be to put them in a file, one filename per line, and read the file from your command.

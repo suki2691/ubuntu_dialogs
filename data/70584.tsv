@@ -1,0 +1,4 @@
+2008-12-26T19:44:00.000Z	pfct		I have this line in lsusb Bus 003 Device 004: ID 0fce:e0da Sony Ericsson Mobile Communications AB. How do I mount this?
+2008-12-26T19:45:00.000Z	cizra	pfct	Umm, why do you think you can mount it at all?
+2008-12-26T19:49:00.000Z	pfct	cizra	I thought it should be possible when the phone is in Mass Storage mode. When I connect in Phone mode I can sometimes access using Wammu. In Media mode F-Spot Photo Manager finds all the files, but only makes sense of the photos.
+2008-12-26T19:50:00.000Z	cizra	pfct	Mass storage, yes. Check dmesg for messages about usb-storage and sdb or something when you plug it in.

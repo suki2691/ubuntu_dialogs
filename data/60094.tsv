@@ -1,0 +1,4 @@
+2011-09-17T06:04:00.000Z	connex		How can I reinstall mysql-server package so it will create all it's /etc/mysql files?
+2011-09-17T06:05:00.000Z	Flannel	connex	purge mysql-common and mysql-server-5.1 (or whatever version you're using), then reinstall.
+2011-09-17T06:05:00.000Z	Flannel	connex	If you're not sure, `dpkg -S /etc/mysql` will give you the packages you need to purge/reinstall
+2011-09-17T06:08:00.000Z	connex	Flannel	Thank you.

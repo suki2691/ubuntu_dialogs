@@ -1,0 +1,4 @@
+2006-03-07T17:19:00.000Z	willvarfar		 printf("%d,%d /2\n",end.tms_utime-start.tms_utime,end.tms_stime-start.tms_stime);
+2006-03-07T17:19:00.000Z	willvarfar		oops
+2006-03-07T17:21:00.000Z	willvarfar		howdy folks; I've installed gcc4.0, but when I compile from the command line it complains that it can't find stdio.h nor any other headers I'd expect; I can't find them in an exhaustive search of the harddisk either; what package should I install to get them?
+2006-03-07T17:21:00.000Z	osfameron	willvarfar	build-essential ?

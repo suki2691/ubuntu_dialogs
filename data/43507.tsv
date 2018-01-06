@@ -1,0 +1,4 @@
+2010-05-24T02:28:00.000Z	NimbleRabit		Can somebody help me figure out why I only transfer files at 13 megabytes/second (average) to another computer in my house (which runs ubuntu as well), but my windows machine transfers at around 26 megabytes/second to the same computer?  I'm getting about half speeds going through the same switch.
+2010-05-24T02:30:00.000Z	greezmunkey	NimbleRabit	I would trust the numbers a *nix machine gave me for transfer rates over windows anytime.
+2010-05-24T02:31:00.000Z	greezmunkey	NimbleRabit	transfer the same file from both, and time them.
+2010-05-24T02:32:00.000Z	greezmunkey	NimbleRabit	maco: try this in a terminal ;) :cat /proc/cpuinfo | grep -e "cpu" -e "model"

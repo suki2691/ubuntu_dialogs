@@ -1,0 +1,4 @@
+2007-06-16T13:20:00.000Z	Alecwh		In-s
+2007-06-16T13:20:00.000Z	Flannel	Alecwh	why don't you just add yourself to the www-data group, and go about it that way?  much simpler.
+2007-06-16T13:21:00.000Z	Alecwh	Flannel	I don't know what that is. I only switched to Linux two days ago. :)
+2007-06-16T13:22:00.000Z	Flannel	Alecwh	Go into users and groups, add your user to the www-data group, and you might have to change the perms of stuff in /var/www (to be writable by group instead of just owner), but that'll be the last time

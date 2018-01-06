@@ -1,0 +1,4 @@
+2011-03-27T22:57:00.000Z	Pumpkin-	Pontios	on the same filesyste, move just changes some inodes pointing to files (or however your filesystem handles it). Copying actually requires you to make a second copy of the data (which involves reading the original files and writing new copies of them (including a bunch of disk read/write/seek operations).
+2011-03-27T22:57:00.000Z	Pontios	giff	i did move bewteen same partitions on the same disk, it takes 1 hour
+2011-03-27T22:57:00.000Z	Pontios	giff	2 partitions
+2011-03-27T22:57:00.000Z	Pumpkin-	Pontios	different partitions = different file systems = actually having to do all the read/write operations.

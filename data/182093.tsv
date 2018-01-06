@@ -1,0 +1,4 @@
+2012-10-03T06:33:00.000Z	muelli	edgy	what's not to understand? It will be the very first thing the kernel executes. A plain shell.
+2012-10-03T06:37:00.000Z	edgy	muelli	L3top: I don't have a problem myself, but e.g I read on the link I pasted before that if you lost your password you can use this init=/bin/bash trick to get a shell to recover the password, I used to do this with passing single, so I wondered what's the difference?
+2012-10-03T06:38:00.000Z	muelli	edgy	the kernel doesn't understand "single". That's for the boot magic, Debian includes. It might very well decide to prompt for a root password before giving you access. init= circumvents that by telling the kernel to run it (i.e. bash) straight away
+2012-10-03T06:39:00.000Z	edgy	muelli	L3top; can you please hango on a bit so I reboot and try it?

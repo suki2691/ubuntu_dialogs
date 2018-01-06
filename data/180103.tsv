@@ -1,0 +1,4 @@
+2012-05-11T20:55:00.000Z	linsys		when using
+2012-05-11T20:55:00.000Z	linsys		When using add-apt-repository is there a way to not prompt you to press enter? I want to add it to a script for an aws deployment
+2012-05-11T20:56:00.000Z	jrib	linsys	« man add-apt-repository »   see --yes
+2012-05-11T20:56:00.000Z	jrib	linsys	you could drop a file in /etc/apt/sources.list.d/ as Pici suggests but you also need to add the key to apt's keyring in that case

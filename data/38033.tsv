@@ -1,0 +1,4 @@
+2010-03-16T20:26:00.000Z	billybigrigger		can someone help me out here, i've been away from the internet for awhile, now my system is far behind in updates, so i went to update today and apt is complaining about dependancy problems with libmobiledevice
+2010-03-16T20:26:00.000Z	billybigrigger		here's my pastebin, now i can't upgrade until i fix this problem
+2010-03-16T20:27:00.000Z	billybigrigger		http://pastebin.ca/1842522
+2010-03-16T20:29:00.000Z	littlegirl	billybigrigger	Try sudo apt-get -f install libimobiledevice0

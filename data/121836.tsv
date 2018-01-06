@@ -1,0 +1,4 @@
+2008-09-21T10:36:00.000Z	ruth		thank
+2008-09-21T10:37:00.000Z	ruth		hard drive to another hard drive
+2008-09-21T10:39:00.000Z	_2	ruth	if size is == then you can use dd    if not you need something that can handle size differances without breaking filesystems.
+2008-09-21T10:41:00.000Z	_2	ruth	what i normally do is is boot a live cd and mount both "disks"  /mnt1 and /mnt2    use tar and copy what is on wone to the other.

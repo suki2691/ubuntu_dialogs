@@ -1,0 +1,4 @@
+2011-12-05T14:29:00.000Z	Jorky		c'mon guys anyone knows hot to set up proper cpu speed?
+2011-12-05T14:31:00.000Z	Jorky		nate: You need to add user privilegies to that paritition
+2011-12-05T14:32:00.000Z	Jorky		sudo chown -R user:user /path/to/paritition and then sudo chmod -R 774 /path/to /paritition I think but I am not sure
+2011-12-05T14:32:00.000Z	bullgard6	Jorky	The Ubuntu kernel will automatically set the proper CPU speed. If the value is not correct in your computer, please report an error to Launchpad.

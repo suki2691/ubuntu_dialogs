@@ -1,0 +1,4 @@
+2011-05-03T09:28:00.000Z	byerley		hi can someone tell me if /dev/shm is concurrent read/write safe or where to look that up?
+2011-05-03T09:28:00.000Z	Herbs	byerley	/dev/shm is rw by default
+2011-05-03T09:30:00.000Z	byerley	Herbs	but can I write to it from different processes without the memory being corrupted?
+2011-05-03T09:30:00.000Z	Herbs	byerley	I dont see why not

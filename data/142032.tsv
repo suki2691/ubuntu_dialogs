@@ -1,0 +1,4 @@
+2007-04-30T11:57:00.000Z	jughead		I have a computer that has no monitor, keyboard, or mouse that I ssh into for running commands.  I usually ssh into it from my laptop.  Is there a way to ssh into the computer, start a process, and have it keep running after I close the ssh session?
+2007-04-30T11:58:00.000Z	jtraub	jughead	use screen command
+2007-04-30T11:58:00.000Z	jtraub	jughead	or run it with & after command name
+2007-04-30T11:59:00.000Z	jtraub	jughead	man screen will help you :-)

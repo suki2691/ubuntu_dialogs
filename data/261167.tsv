@@ -1,0 +1,4 @@
+2005-12-07T09:07:00.000Z	strider_		I'm getting a failed to construct test pipeline for 'XWindows (X11/XShm/Xv)' error while starting totem
+2005-12-07T09:07:00.000Z	strider_		which is the default sink
+2005-12-07T09:07:00.000Z	strider_		Any ideas?
+2005-12-07T09:08:00.000Z	Ng	strider_	generally that one is. Try the No Xv one though, it might be that your graphics card drivers can't do xv

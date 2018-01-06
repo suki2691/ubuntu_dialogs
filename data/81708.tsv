@@ -1,0 +1,4 @@
+2008-12-05T15:12:00.000Z	blip-		how can i tell ubuntu where my swap partition is ?
+2008-12-05T15:13:00.000Z	ActionParsnip1	blip-	you add it in /etc/fstab
+2008-12-05T15:15:00.000Z	blip-	ActionParsnip1	it's already there but using UUID format which may have changed since i changed my partion structure.  is it ok to say something like "/dev/sda6 none swap sw 0 0" in my fstab ?
+2009-03-24T15:20:00.000Z	ActionParsnip1	blip-	http://ubuntuforums.org/archive/index.php/t-690666.html

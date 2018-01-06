@@ -1,0 +1,4 @@
+2011-04-05T19:55:00.000Z	rage		I'm `tail -F`ing a file. Does anyone know a good way to fire a script off when a certain line is detected? grep unfortunately doesn't work when following a file.
+2011-04-05T19:56:00.000Z	r0hit	rage	pipe it into a loop and do read LINE in it... then you can do all your magic with $LINE
+2011-04-05T19:56:00.000Z	rage	r0hit	Derp! Of course
+2011-04-05T19:56:00.000Z	rage	r0hit	Thanks heaps :-)

@@ -1,0 +1,4 @@
+2010-06-25T08:03:00.000Z	Gwar		Hi guys. Anyone able to tell me what command is sent by the network manager to disable networking? Using Ubuntu 10.04. I tried "sudo /etc/init.d/networking start" and just "start networking" but not what I am looking for. Sorry for the noob question!
+2010-06-25T08:04:00.000Z	Gwar		iirc
+2010-06-25T08:05:00.000Z	alket	Gwar	sudo eth0 wlan0 down
+2010-06-25T08:05:00.000Z	alket	Gwar	sorry sudo ifconfig eth0 down

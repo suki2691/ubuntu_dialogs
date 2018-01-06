@@ -1,0 +1,4 @@
+2006-08-24T08:02:00.000Z	rukuartic		Hey, I have a question... When the computer boots, I want a command line to be executed as a certain user. Can anyone show me how to do this?
+2006-08-24T08:04:00.000Z	gekko`	rukuartic	during the boot process or when you have logged in as user?
+2006-08-24T08:05:00.000Z	rukuartic	gekko`	During the boot process. I'm really hoping I don't have to write an init script
+2006-08-24T08:09:00.000Z	gekko`	rukuartic	there's no other way making a shell script, putting it to /etc/init.d/ and make a link to rcS.d

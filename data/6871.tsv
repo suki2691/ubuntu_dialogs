@@ -1,0 +1,4 @@
+2012-01-03T15:28:00.000Z	Calinou		hi, I installed the "gnome" packet and switched to gdm as login manager, I rebooted and it went fine. I set auto-login to on and now I can't reboot
+2012-01-03T15:29:00.000Z	Calinou		I'm on ubuntu 11.10. Tried recovery mode, nothing could help
+2012-01-03T15:30:00.000Z	metaspike	Calinou	there's a few ways you could fix this, one would be to edit the /etc/init.d/gdm script from a live cd
+2012-01-03T15:37:00.000Z	metaspike	Calinou	from that terminal.  sudo dpkg-reconfigure gdm  - or sudo aptitude --reinstall purge gdm

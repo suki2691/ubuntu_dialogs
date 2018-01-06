@@ -1,0 +1,4 @@
+2006-01-23T11:32:00.000Z	onekill		hello everyone
+2006-01-23T11:33:00.000Z	onekill		anyone know how to fix the mouse jumping around when using a KVM?
+2006-01-23T11:34:00.000Z	thgjerde	onekill	dont use the auto detect mouse protocol
+2006-01-23T11:35:00.000Z	thgjerde	onekill	somewhere in your xorg.conf there is a mouse section, you want to change the driver from auto to something like PS/2

@@ -1,0 +1,4 @@
+2012-03-21T08:53:00.000Z	ponrajuganesh		Greetings!!!!
+2012-03-21T08:53:00.000Z	ponrajuganesh		"tar xvf sample.tar" ----> this actually extracts the tar file --- now is there any option to check whether if the folder is already is present not to extract
+2012-03-21T08:54:00.000Z	yjqg6666	ponrajuganesh	man tar
+2012-03-21T08:56:00.000Z	yjqg6666	ponrajuganesh	tar --list sample.tar |grep folder_name

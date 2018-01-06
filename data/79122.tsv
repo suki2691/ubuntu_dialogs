@@ -1,0 +1,4 @@
+2009-12-12T08:24:00.000Z	pyrophelia		could some explain in a few words how lvm2 works?  do I have to build the logical volume first before I can use it? or can I put stuff on hard drives and then add them to a logical volume?
+2009-12-12T08:25:00.000Z	DasEi2	pyrophelia	you want to set up an lvm..
+2009-12-12T08:27:00.000Z	DasEi2	pyrophelia	now, lvm is part of partioning, so all data will be lost
+2009-12-12T08:30:00.000Z	DasEi2	pyrophelia	steps are - raid - partitons - lvm - > data

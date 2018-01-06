@@ -1,0 +1,4 @@
+2007-11-26T23:01:00.000Z	lexko		how would I go about switching kernels from linux-server to linux-generic? I'm not sure which packages I need to remove and which to add. Is it just remove linux-image-server and add linux-image-generic?
+2007-11-26T23:01:00.000Z	sethk	lexko	yes.  Also, you can have both installed, so don't remove the former until you are sure the latter works properly with your system.
+2007-11-26T23:05:00.000Z	lexko	sethk	i *think* I actually have both installed, but my restricted device manager won't work unless I install restricted-modules-server, BUT that package doesn't exist.  was hoping to simplify things by just moving over to generic.
+2007-11-26T23:05:00.000Z	sethk	lexko	that's perfectly reasonable.  I was only saying don't uninstall the server kernel until the generic kernel is properly installed and working.

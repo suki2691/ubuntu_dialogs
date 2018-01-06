@@ -1,0 +1,4 @@
+2007-01-09T09:39:00.000Z	carld		Why won't this sed line work?  The regex works with egrep as expected.   sed 's/<title\b[^>] *>(.*?)<\/title>/this is what I want it to say/g' index.html
+2007-01-09T09:40:00.000Z	bokey	carld	'<\/title>'. what's that ?
+2007-01-09T09:41:00.000Z	carld	bokey	the title tag, I escaped the / in title?  I also tried it with sed 's!<title\b[^>] *>(.*?)</title>!this is what I want it to say!g' index.html
+2007-01-09T09:41:00.000Z	bokey	carld	no idea.

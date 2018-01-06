@@ -1,0 +1,4 @@
+2008-08-19T01:19:00.000Z	Paradox34690		﻿why can't I access my windows shares using the name of the pc (odin), but I'm able to access it via it's ip address (192.168.1.5)??
+2008-08-19T01:19:00.000Z	Slart	Paradox34690	do you have dns resolution setup? ie can you ping the computer by name?
+2008-08-19T01:21:00.000Z	Slart	Paradox34690	I haven't got a done solution to this.. but samba has this other name resolution thingy.. nmdb.. I don't know much about it but you might want to check the docs for samba
+2008-08-19T01:23:00.000Z	Slart	Paradox34690	hmm.. that works for me.. but I can't remember setting up nmdb.. well.. sorry I can't be of more help

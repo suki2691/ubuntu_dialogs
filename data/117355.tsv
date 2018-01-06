@@ -1,0 +1,4 @@
+2008-09-03T13:05:00.000Z	geirha	balachmar	You've enabled remote desktop on the destination computer? system -> preferences -> remote desktop
+2008-09-03T13:11:00.000Z	balachmar	geirha	I don't think so, but is there a way to do that in the command line?
+2008-09-03T13:13:00.000Z	geirha	balachmar	if you connect with ssh -X and run vino-preferences, you should be able to enable it
+2008-09-03T13:16:00.000Z	balachmar	geirha	If I define only to allow local connections, that will improve security without having an effect if I want to use ssh port forwarding right?

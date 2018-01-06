@@ -1,0 +1,4 @@
+2005-02-21T06:54:00.000Z	bebek		does anyone know what's the meaning of : "The following packages have been kept back:" list while performing "apt-get update" ?
+2005-02-21T06:54:00.000Z	bebek		since after i perform apt-get update, gnome is a bit screwed up
+2005-02-21T06:55:00.000Z	Gmike	bebek	it means APT won't upgrade these packages due to some reason (probably the new version will conflict with another package)
+2005-02-21T06:57:00.000Z	Gmike	bebek	i can try to answer that, but 'man apt-get' will do a much better job

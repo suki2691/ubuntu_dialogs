@@ -1,0 +1,4 @@
+2008-07-31T19:58:00.000Z	cdj26		hey there, does anybody know how to change the location of Documents, so that when i click it in nautilus it goes to the folder of my choosing, and so the default location of save and open is changed
+2008-07-31T19:59:00.000Z	SNuxoll	cdj26	delete documents and symlink it somewhere else
+2008-07-31T19:59:00.000Z	cdj26	SNuxoll	how is that done
+2008-07-31T20:00:00.000Z	SNuxoll	cdj26	delete the folder, than run ln -s Documents /path/to/target in a terminal

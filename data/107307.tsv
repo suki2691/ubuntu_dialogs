@@ -1,0 +1,4 @@
+2008-02-03T02:12:00.000Z	BD		I found this code for adding windows to grub, “XP Professional root (hd0,0)savedefault makeactive chainloader  +1” that is for the windows on the first partition. Before I screw anything up I just wanted to make sure that my edit is right. “XP Professional root (hd0,3)savedefault makeactive chainloader  +1” am I right or did I screw it up
+2008-02-03T02:13:00.000Z	BD		I found this code for adding windows to grub, “XP Professional root (hd0,0)savedefault makeactive chainloader  +1” that is for the windows on the first partition. Before I screw anything up I just wanted to make sure that my edit is right. “XP Professional root (hd0,3)savedefault makeactive chainloader  +1” am I right or did I screw it up
+2008-02-03T02:14:00.000Z	Starnestommy	BD	try hd(0,0) or hd(0,1) if it's on partition 1
+2008-02-03T02:15:00.000Z	Starnestommy	BD	hd(0,2)?

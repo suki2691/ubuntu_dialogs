@@ -1,0 +1,4 @@
+2009-09-08T00:41:00.000Z	dumont		i have a dedicated server, which after restart stopped allowing me to connect via ssh, can anyone suggest a course of action? i'm about to go into rescue mode console, btw the only entry i added and the only entry that existed prior to the reboot when this all started was iptables -A INPUT -s 91.199.22.61 -j DROP
+2009-09-08T00:42:00.000Z	dumont		that ip was hammering my root login, so i blocked all traffic from it, that is not my ip
+2009-09-08T00:42:00.000Z	grawity	dumont	Just make sure you have a good password. (Disabling root logins is a good idea too.)
+2009-09-08T00:42:00.000Z	dumont	grawity	that's not what i asked, i said SSH IS TIMING OUT

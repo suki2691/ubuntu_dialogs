@@ -1,0 +1,4 @@
+2007-07-25T08:28:00.000Z	deviantintegral		Airwulf: usually you can use update-rc.d which would help in case you missed a symlink
+2007-07-25T08:28:00.000Z	deviantintegral		can anyone help me interpret this dmesg output? I've had mdadm fail a drive on my raid 5 set, and I'm curious as to what is actually being reported: http://paste.ubuntu-nl.org/31244/
+2007-07-25T08:28:00.000Z	Airwulf	deviantintegral	I do not miss it. openvpn is started without any symlink and I do not know why. I will start openvpn only manually
+2007-07-25T08:29:00.000Z	deviantintegral	Airwulf	you could always do find /etc -name 'openvpn' to be sure

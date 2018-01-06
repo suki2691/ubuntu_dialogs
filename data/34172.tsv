@@ -1,0 +1,4 @@
+2010-05-10T03:35:00.000Z	GeekSquid	tar-	mysql -u mysqluser -p password is the correct syntax to gain access to the sql cli
+2010-05-10T03:35:00.000Z	tar-	GeekSquid	I'm not trying to access the mysql cli, I'm trying to let the mysql system account be able to write files in its own directory.
+2010-05-10T03:37:00.000Z	GeekSquid	tar-	own dir, as in /var/run/mysql
+2010-05-10T03:39:00.000Z	tar-	GeekSquid	I figure its own dir is in /usr/share/mysql and the /var/run/mysqld is just for pid-file and config-file, however I don't know where the mysql_secure_install tries to write its temp-files for the new and improved my.cnf file

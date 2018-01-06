@@ -1,0 +1,4 @@
+2007-03-29T09:08:00.000Z	linuxtravis		How do you get sshd working on ubuntu server version??
+2007-03-29T09:09:00.000Z	Spliffster	linuxtravis	when you install the ssh package .. .the sshd should be started automagically
+2007-03-29T09:09:00.000Z	Spliffster	linuxtravis	if it is installed but not running run $ sudo /etc/init.d/ssh start
+2007-03-29T09:10:00.000Z	Spliffster	linuxtravis	or just $ sudo apt-get install ssh # which installs server and client binaries

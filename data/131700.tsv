@@ -1,0 +1,4 @@
+2009-06-22T19:13:00.000Z	Jimi_Neutral		Can anyone tell me how to install the universe and multiverse repositories using command line....i dont have a desktop enviroment installed yet
+2009-06-22T19:14:00.000Z	bastidrazor	Jimi_Neutral	edit /etc/apt/sources.list and uncomment the two lines referring to universe then the two about multiverse
+2009-06-22T19:15:00.000Z	bastidrazor	Jimi_Neutral	erase the #
+2009-06-22T19:23:00.000Z	bastidrazor	Jimi_Neutral	sudo apt-get update && sudo apt-get upgrade   .. do that before trying to install anything else

@@ -1,0 +1,4 @@
+2009-11-14T21:36:00.000Z	oktay		howdy. is there a way to use mozilla daily ppa, but never update firefox from that? Only thunderbird?
+2009-11-14T21:37:00.000Z	ActionParsnip	oktay	you could keep the repo listed but disabled, then every now and them re-enable it then use: sudo apt-get --reinstall install thunderbird   then disable it again when its installed
+2009-11-14T21:38:00.000Z	oktay	ActionParsnip	yes. that's sort of what i've done before.
+2009-11-14T21:39:00.000Z	ActionParsnip	oktay	could script it ;)

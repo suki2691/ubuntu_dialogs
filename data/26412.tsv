@@ -1,0 +1,4 @@
+2010-09-12T14:04:00.000Z	Jared555		if grub is set up to make windows the default OS, are kernel updates going to make ubuntu the default again?
+2010-09-12T14:06:00.000Z	xiaclo	Jared555	kernel updates will ask before replacing any user-modified files ... so if you changed your grub files to make windows boot first, nothing will replace that without asking
+2010-09-12T14:09:00.000Z	Jared555	xiaclo	will the new kernel replace the old one if you do not update grub.conf?
+2010-09-12T14:12:00.000Z	xiaclo	Jared555	depends what file you edited ... the correct way to update that file in grub2 is to modify the files /etc/default/grub and then run grub-mkconfig

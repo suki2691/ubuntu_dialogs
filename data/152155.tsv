@@ -1,0 +1,4 @@
+2007-01-03T08:25:00.000Z	frustratedOfToro		hi all - this must be easy but i've wasted an hour or two searching without result. i want to find files that contain some substring, but they are within .zip archives, so i can't use "find" or "sagasu" (it seems). a gui would be nice but i'd settle for anything that works right now. can anyone point me at something? thanks
+2007-01-03T08:26:00.000Z	xtknight	frustratedOfToro	 unzip -l | grep *pattern*
+2007-01-03T08:26:00.000Z	xtknight	frustratedOfToro	unzip -l someFile.zip | grep *pattern*
+2007-01-03T08:36:00.000Z	xtknight	frustratedOfToro	did you try unzip -l somefile.zip | grep *pattern*

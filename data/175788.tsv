@@ -1,0 +1,4 @@
+2006-12-02T11:48:00.000Z	Shadow_mil		What package do I need to install to get CD juicer to extract files as MP3?
+2006-12-02T11:48:00.000Z	Shadow_mil		I have lame
+2006-12-02T11:50:00.000Z	Comrade_S	Shadow_mil	 new profile> profile name: mp3, profile description : encode in mp3, gstreamer pipleine : audio/x-raw-int,rate=44100,channels=2 ! lame name=enc bitrate=192 ! id3v2mux    ,file extension: mp3
+2006-12-02T11:51:00.000Z	Shadow_mil	Comrade_S	thanks

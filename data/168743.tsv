@@ -1,0 +1,4 @@
+2009-11-03T10:38:00.000Z	ari_stress		how do i turn of gdm?
+2009-11-03T10:39:00.000Z	scunizi	ari_stress	gdm stop
+2009-11-03T10:39:00.000Z	ari_stress	scunizi	i run it inside vmware, very heavy
+2009-11-03T10:40:00.000Z	scunizi	ari_stress	easier in vbox.. but gdm stop should shut down gdm.. if it doesn't the old way is sudo /etc/init.d/gdm stop

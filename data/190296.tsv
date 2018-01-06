@@ -1,0 +1,4 @@
+2008-03-01T00:42:00.000Z	recon		I seem to have broken X while setting up tightvnc. The error file is complaining about setuid set or something, and since I didn't set setuid or setguid on any files, i'm clueless.
+2008-03-01T00:42:00.000Z	recon		a dpkg-reconfigure xserver-xorg didn't work.
+2008-03-01T00:42:00.000Z	jpatrick	recon	dpkg-reconfigure -phigh xserver-xorg ?
+2008-03-01T00:44:00.000Z	recon	jpatrick	nope, still same error message.

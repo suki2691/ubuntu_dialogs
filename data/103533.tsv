@@ -1,0 +1,4 @@
+2010-07-16T17:31:00.000Z	ihancioglu		hi I have shared a /tmp folder and symbolic link 1 folder from my home , I could not see that folder from windows , I fould something about "follow symlinks=yes" did not help to me
+2010-07-16T17:32:00.000Z	ActionParsnip	ihancioglu	you will need to edit that in /etc/samba/smb.conf
+2010-07-16T17:33:00.000Z	ihancioglu	ActionParsnip	; Yes I have added that line to smb.conf and restart samba does not help to me
+2010-07-16T17:34:00.000Z	ActionParsnip	ihancioglu	http://wiki.linuxmce.org/index.php/How_to_setup_Samba_to_follow_symbolic_links%3F

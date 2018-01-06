@@ -1,0 +1,4 @@
+2010-02-22T23:51:00.000Z	jakiw		How can I change stuff in /var/www. I never have enough rights! chmod 777 doesnt work!
+2010-02-22T23:53:00.000Z	jakiw		apex I want to unpack the CMS Websitebaker to /var/www/
+2010-02-22T23:54:00.000Z	Younder	jakiw	try tar xf filename, or xzf if zipped or xBf for bzipped xzvf list's the files extracted as well
+2010-02-22T23:56:00.000Z	Younder	jakiw	tar was originally made to run in a pipe so you would write cat | tar -x or for zipped files zcat | tar -x

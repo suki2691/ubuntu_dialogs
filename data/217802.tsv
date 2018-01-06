@@ -1,0 +1,4 @@
+2006-11-06T13:01:00.000Z	chuckyp		Okay i'm trying to figure this out
+2006-11-06T13:02:00.000Z	chuckyp		I extracted azureus to /opt/azureus   so now I want to make it system wide executable
+2006-11-06T13:03:00.000Z	chuckyp		Anyone know how I make a symlink in /usr/bin to /opt/azureus/azureus   ???
+2006-11-06T13:04:00.000Z	psusi	chuckyp	sudo ln -s /usr/bin/azureus /opt/azureus/azureus

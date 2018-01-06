@@ -1,0 +1,4 @@
+2007-06-05T12:49:00.000Z	maan84		Hello, I'm in BitchX console right now:$ I used Envy program to install latest Nvidia drivers, and after restart x won't start says can't recognize screens, can i somehow install normal nvidia drivers with a sudo apt command and ill be able to get back in? thx^^
+2007-06-05T12:50:00.000Z	maan84		Or can I reset the whole x system to default somehow? =P
+2007-06-05T12:51:00.000Z	mdkaneda55	maan84	in your /etc/X11/xorg.conf file you can change "nvidia" to "nv" or "mesa" and you'll be able to boot graphically again. or you could run "dpkg-reconfigure xserver-xorg" from where u are and follow instructions to reset your xorg.conf file to what u want. just make sure u pick "nv" as ur video driver instead of nvidia
+2007-06-05T12:51:00.000Z	maan84	mdkaneda55	thx ill try it out =)

@@ -1,0 +1,4 @@
+2007-07-21T06:23:00.000Z	AlexC_		Hey, if I write a bash script to update an SVN working copy and then change some permissions on a file - do I put it in /usr/bin ?
+2007-07-21T06:23:00.000Z	ari_stress	AlexC_	it's better in /usr/local/bin
+2007-07-21T06:24:00.000Z	AlexC_	erUSUL	ari_stress ok thanks for that - also, in my script I will have chown group /path/to/file. A normal user wont have permission to do that, how can I in the bash script check if the user has permission etc?
+2007-07-21T06:25:00.000Z	ari_stress	AlexC_	as long as the user has the permission, the script will run OK. otherwise it will error

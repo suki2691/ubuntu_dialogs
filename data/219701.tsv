@@ -1,0 +1,4 @@
+2008-07-03T01:03:00.000Z	Rabble_Leader		I installe Ubuntu Studio out of synaptic and have had no problems.
+2008-07-03T01:05:00.000Z	Rabble_Leader		I'm new to this, but ... apache default installs to /var/www/  I needed to creat symbolic links to get it to use /public-html/
+2008-07-03T01:05:00.000Z	Rabble_Leader		hi sexy.
+2008-07-03T01:05:00.000Z	Flannel	Rabble_Leader	No, you don't.  You need to enable the userdir module (I think its enabled by default, just verify that there is a userdir.load and userdir.conf in /etc/apache2/mods-enabled)

@@ -1,0 +1,4 @@
+2006-11-06T13:54:00.000Z	zukalk		has anyone got any idea on why i have to manually enter the nameservers in /etc/resolv.conf (i do it through network-admin) every time i boot? i connect wirelessly to a router
+2006-11-06T13:55:00.000Z	quintin	zukalk	/etc/resolv.conf is reset by dhcp when you boot.   search the ubuntu forums for /etc/resolv.conf
+2006-11-06T13:55:00.000Z	zukalk	quintin	i will, thanks
+2006-11-06T14:01:00.000Z	zukalk	quintin	found a very, ahem, technical solution to my problem, which is to sudo chmod -w /etc/resolv.conf. i'll still have to find out what caused this in the first place (problem started a few days ago)

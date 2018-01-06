@@ -1,0 +1,4 @@
+2009-09-01T03:36:00.000Z	tisepti		if i have a local .deb package that i want to install with gdebi can i put its dependencies in the same folder (or otherwise specify where dependencies should be gotten in a place that is not online)
+2009-09-01T03:37:00.000Z	scunizi	tisepti	if it's a deb then the package manager should recognize what dependancies are needed and download them at the same time as the install.
+2009-09-01T03:42:00.000Z	tisepti	scunizi	i need to do this on an offline system - thus i will need to have all dependencies downloaded ahead of time; i know some can be found on the install disk - but how do i provide the ones that are not
+2009-09-01T03:43:00.000Z	scunizi	tisepti	there is a way for the package manager to tell you what dependancies you need without installing them.  Download from a different computer and place them in the same location that "Apt" typically puts downloads.. sorry I don't know much more.

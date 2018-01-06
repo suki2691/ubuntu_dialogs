@@ -1,0 +1,4 @@
+2006-05-27T05:10:00.000Z	dgl		Hi, what inetd should I use: openbsd-ined or xinetd?
+2006-05-27T05:12:00.000Z	breeden	dgl	to my understanding xinetd is not backwards compatible with inetd...  It would require some manual tunning if you were planning on running a server that didn't support xinetd directly, I believe
+2006-05-27T05:13:00.000Z	dgl	breeden	ok, so u should use openbsd-inetd?
+2006-05-27T05:13:00.000Z	breeden	dgl	if you aren't planning on running any servers or anything like that you probably wont notice the difference, I would go with inetd

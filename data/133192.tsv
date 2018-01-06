@@ -1,0 +1,4 @@
+2007-06-07T16:41:00.000Z	tim167_		how can i get only the last 5 digits of 'date +%s' ?
+2007-06-07T16:42:00.000Z	guyzmo	tim167_	- you can do date +%s | sed 's/.*\(.....\)$/\1/'
+2007-06-07T16:43:00.000Z	tim167_	guyzmo	cool thanks! i ll try it
+2007-06-07T16:43:00.000Z	tim167_	guyzmo	perfect :)

@@ -1,0 +1,4 @@
+2007-03-04T09:37:00.000Z	Almindor		hi, how do I prevent ubuntu from "ifup"-ing my "ra0" (wireless) ?
+2007-03-04T09:37:00.000Z	Almindor		I have it "off" in the "networking" gui settings but it's always on after boot and searching like hell
+2007-03-04T09:39:00.000Z	vox754	Almindor	I guess you need to edit "/etc/noetwork/interfaces" and take out the "auto" line
+2007-03-04T09:39:00.000Z	Almindor	vox754	thanx

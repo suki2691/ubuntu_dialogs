@@ -1,0 +1,4 @@
+2010-01-11T08:33:00.000Z	goose		how do you grep recursively and show the source file? (I'm trying to find a single line in a bunch of HTML/CSS files)
+2010-01-11T08:33:00.000Z	rww	goose	grep -r, and it'll put the source file at the start of the line by default
+2010-01-11T08:34:00.000Z	goose	rww	so for example: grep -r "This is a line"
+2010-01-11T08:35:00.000Z	rww	goose	`grep -r "pattern to search for" path/to/files`

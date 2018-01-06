@@ -1,0 +1,4 @@
+2009-09-06T16:42:00.000Z	qlhm		hello, I'm testing karmic alpha 5 and having the following error when running update-grub2 with and lvm2 partition: grub-probe -t device /
+2009-09-06T16:42:00.000Z	qlhm		error: cannot open `/dev/sda' while attempting to get disk size
+2009-09-06T16:42:00.000Z	qlhm		grub-probe: error: cannot find a device for /.
+2009-09-06T16:43:00.000Z	ActionParsnip	qlhm	you need to mount it first

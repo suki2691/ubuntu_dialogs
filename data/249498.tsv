@@ -1,0 +1,4 @@
+2006-04-11T14:34:00.000Z	RabidDog__		okay if I setup a mapped networked drive to my ubuntu, and I want to be able to delete it a file in there from my windows box, how do I give the windows machine permission to delete or write to the dir on the ubuntu box?
+2006-04-11T14:36:00.000Z	AstralJava	RabidDog__	I'm only guessing here, but might have to be world-writable.
+2006-04-11T14:37:00.000Z	AstralJava	RabidDog__	chmod -R o+w <directory>
+2006-04-11T14:40:00.000Z	AstralJava	RabidDog__	That worked? Nice. You're welcome. :)

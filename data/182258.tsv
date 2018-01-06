@@ -1,0 +1,4 @@
+2007-05-20T16:19:00.000Z	DinCahill		hi. I want to edit a file in /bin/ to make it executable, but it says i dont have permission to do this. How can i give myself permission to do this?
+2007-05-20T16:21:00.000Z	DinCahill		would there be a way of giving a file execute permissions via the terminal?
+2007-05-20T16:21:00.000Z	DinCahill		what would the chmod number be?
+2007-05-20T16:21:00.000Z	stefg	DinCahill	sudo chmod <filename> +x

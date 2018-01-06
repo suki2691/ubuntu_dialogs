@@ -1,0 +1,4 @@
+2007-02-13T13:35:00.000Z	Frost^		Hello
+2007-02-13T13:36:00.000Z	Frost^		I'd like to add some windows shares to my /etc/fstab. When I look at my current fstab, I see a UUID prefix before every block device. Should I set one for the devices I wish to add or can I ignore it?
+2007-02-13T13:37:00.000Z	kitche	Frost^	you don't need UUID for a share that is for devices only
+2007-02-13T13:39:00.000Z	Frost^	kitche	When I add the relevant lines and try to mount, I get an error. This is what dmesg tells me: [17234306.880000]  smbfs: mount_data version 1029990773 is not supported

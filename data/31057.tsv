@@ -1,0 +1,4 @@
+2010-05-29T17:59:00.000Z	LjL	LouisJB	it's in the Partner repositories, which have to be manually enabled
+2010-05-29T18:00:00.000Z	LjL	LouisJB	yes. sudo add-apt-repository “deb http://archive.canonical.com/ lucid partner”
+2010-05-29T18:01:00.000Z	LouisJB	LjL	Ok thank's
+2010-05-29T18:24:00.000Z	LjL	LouisJB	uh, apt-get and dpkg are different things... dpkg installs an *already downloaded* package and doesn't resolve dependencies. apt-get downloads and resolves dependencies, and then *calls dpkg* to install

@@ -1,0 +1,4 @@
+2009-05-06T21:31:00.000Z	IppatsuMan		Hi. aptitude dist-upgrade is trying to remove the linux-image package (i guess it's a bad move :\). I've the proposed repository activated. Did anyone had the same issue or knows how to resolve it? (Full aptitude output: http://ubuntu.pastebin.com/m7da906f6 )
+2009-05-06T21:31:00.000Z	vatts	IppatsuMan	i think it's dummy pack as ubuntu-desktop
+2009-05-06T21:31:00.000Z	vatts		(at ubuntu desktop edition :P)
+2009-05-06T21:32:00.000Z	IppatsuMan	vatts	yes, it is a metapackage that always depends on the latest kernel, but that is exactly why I'd prefer to keep it installed.

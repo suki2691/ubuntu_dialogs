@@ -1,0 +1,4 @@
+2007-11-18T01:55:00.000Z	Nutubuntu		My upgrade to Gutsy didn't go well. Gnome's broken, and I'm stuck in failsafe mode, and can't seem to get resolutions greater than 800x600 even though I've edited xorg.conf.failsafe to theoretically allow 1024x768
+2007-11-18T01:57:00.000Z	Krumar	Nutubuntu	you can run sudo dpkg-reconfigure xserver-xorg at command line to get a program to help you configure x
+2007-11-18T01:57:00.000Z	Krumar	Nutubuntu	you can run "sudo dpkg-reconfigure xserver-xorg" at command line to get a program to help you configure x
+2007-11-18T01:58:00.000Z	Nutubuntu	Krumar	have done that. Several times - the thing is, for some reason X is starting in failsafe mode, which uses xorg.conf.failsafe. Which I have also edited to allow better than 800x600. But it doesn't seem to want to do that.

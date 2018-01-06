@@ -1,0 +1,4 @@
+2006-11-12T12:07:00.000Z	freemind		 hello, I am trying to boot with a ramdisk and get: Mounting none on /proc failed: No such file or directory .. the procfs is enabled in the kernel, what could be wrong?
+2006-11-12T12:08:00.000Z	eck	freemind	I think you are using the wrong syntax for mount
+2006-11-12T12:09:00.000Z	freemind	eck	I also tried "mount -t proc none /proc" - same effekt -> "proc: file not found"
+2006-11-12T12:10:00.000Z	eck	freemind	shouldn't it be mount -t proc proc /proc

@@ -1,0 +1,4 @@
+2007-05-23T15:54:00.000Z	liuyang		Hello everyone, I can't umount a NFS mount when the NFS hosts shutdown, I got device or resource is busy, and i can't use nautilus or ls any more, how to solve it?
+2007-05-23T15:56:00.000Z	Frogzoo	liuyang	that's a feature
+2007-05-23T15:57:00.000Z	Frogzoo	liuyang	if it's hard mounted, it won't unmount, but mount will resume when you restart the nfs server
+2007-05-23T16:01:00.000Z	liuyang	Frogzoo	yes, i can use it when the NFS server restart, but before it is restarted, i can't use nautilus any more.... and ls..

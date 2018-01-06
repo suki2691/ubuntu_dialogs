@@ -1,0 +1,4 @@
+2009-12-24T00:50:00.000Z	norbi		hi guys, i lost my passford for my linux op
+2009-12-24T00:50:00.000Z	norbi		how can i retrieve it
+2009-12-24T00:50:00.000Z	norbi		my pc is right here
+2009-12-24T00:51:00.000Z	tonyyarusso	norbi	When booting, hold the Shift key.  The grub menu should appear.  On that, select the "recovery mode" option.  That will boot to a root command line.  Then, invoke 'passwd yourusernamehere', and reset it.

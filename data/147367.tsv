@@ -1,0 +1,4 @@
+2007-05-19T15:48:00.000Z	c1|freaky		hi all. i have a question about partitioning: currently there are 3 partitions on my hdd. 1. windows (80GB) 2. linux swap (2GB) 3. Linux (Ubuntu) ... i want to remove windows completely to have more space for my linux partiton. is there any possibilty to merge the 80GB with the linux partition?
+2007-05-19T15:49:00.000Z	Jordan_U	c1|freaky	Yes, with gparted from a LiveCD ( Ubuntu Installer will work ) delete the windows partition, move the swap partition and expand the ext3 partition
+2007-05-19T15:50:00.000Z	Jordan_U	c1|freaky	You need to run it from a liveCD
+2007-05-19T15:50:00.000Z	c1|freaky	Jordan_U	thx :D

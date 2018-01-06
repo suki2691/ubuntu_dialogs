@@ -1,0 +1,4 @@
+2005-12-12T15:23:00.000Z	melonipoika		hi all, accidentally i changed the permissons to my whole home directory, and now when i start ubuntu i get an error message saying that the file $/HOME.dmrc doesn't have the right permissions and will be omited. I manually changed then to  have permissions 644, but i still get the same error. Is there any way to change the permissions to the default value?
+2005-12-12T15:25:00.000Z	topyli	melonipoika	-rw-------  1 juha juha 24 2004-09-22 00:26 .dmrc
+2005-12-12T15:25:00.000Z	topyli	melonipoika	that's what i have
+2005-12-12T15:30:00.000Z	topyli	melonipoika	you need to have identical UIDs on the distributions

@@ -1,0 +1,4 @@
+2006-08-12T10:28:00.000Z	ryuujin__		hi, i use dapper. Yesterday I needed to install gcc-4.1 and so I added edgy's repository and install it. But now I saw that libc6 has been upgraded and the version used on edgy has a bug. So, can I downgrade libc6 to dapper version?
+2006-08-12T10:30:00.000Z	ryuujin__		ok.. no problem losing gcc-4.1
+2006-08-12T10:30:00.000Z	Pupeno_	ryuujin__	you should never mix repositories like that unless you really know what you are doing and have read tons of documentation on apt, there's a way to tell apt to priorize some repositories over others, some packages over others, etc.
+2006-08-12T10:30:00.000Z	ryuujin__	Pupeno_	it's the true O:-)

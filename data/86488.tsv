@@ -1,0 +1,4 @@
+2010-10-27T10:46:00.000Z	Maahes		what's the command to see what running processes are using a particular resource?
+2010-10-27T10:46:00.000Z	OEP	Maahes	lsof I think
+2010-10-27T10:47:00.000Z	Maahes	galoisfield	nono, what I mean is. I have a volume I can't unmount because something is using something in it. I want to find out what is using the volume and kill it.
+2010-10-27T10:48:00.000Z	OEP	Maahes	wild guess, but lsof /dev/* ?

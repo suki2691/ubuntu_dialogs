@@ -1,0 +1,4 @@
+2007-09-24T09:25:00.000Z	wladston		I was later here asking for help on an issue. Checked that it was reported to be working on gusty, so I'd like to  try t upgrade to get my system working again.  I have a server without a video card, so I can't use update-manager. Can anyone tell me how to update to gusty via command-line ?
+2007-09-24T09:26:00.000Z	Flannel	wladston	install update-manager-core, then sudo do-release-upgrade
+2007-09-24T09:27:00.000Z	Flannel	wladston	Or at least, that was the way from edgy to feisty.  You should ask in #ubuntu+1, they'll know for sure.
+2007-09-24T09:32:00.000Z	Flannel	wladston	do-release-upgrade, not update-manager.  And, yeah, for Gutsy (since its still development), youll need to pass a flag.  I don't know which one.  man page should tell you

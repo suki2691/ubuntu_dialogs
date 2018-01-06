@@ -1,0 +1,4 @@
+2012-01-07T09:02:00.000Z	theoneguy		it is safe to overwrite the MBR.
+2012-01-07T09:03:00.000Z	theoneguy		ubuntu will create its own partitions.
+2012-01-07T09:05:00.000Z	theoneguy		since the mbr is not used/being accessed while any operating system is booted, it is safe to overswrite it.
+2012-01-07T09:05:00.000Z	almoxarife	theoneguy	it is if grub replaces mbr and grub sees your win partitions , the good news is that either way, mbr can be replaced

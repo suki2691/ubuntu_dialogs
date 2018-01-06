@@ -1,0 +1,4 @@
+2008-08-10T22:52:00.000Z	Grand_Master		every time i enter linux-image-2.6.24-20-generic into the terminal to try and download it says there is no installation candidate. I need that package for virtualbox to run. what can i do about that?
+2008-08-10T22:54:00.000Z	soundray	Grand_Master	it's in proposed
+2008-08-10T22:55:00.000Z	soundray	Grand_Master	System-Administration-Software Sources. On the Updates tab, enable "Proposed"
+2008-08-10T22:55:00.000Z	soundray	Grand_Master	then install the kernel you need. You may want to deselect proposed afterwards, because the packages in that repo are not as well tested.

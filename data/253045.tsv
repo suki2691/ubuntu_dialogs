@@ -1,0 +1,4 @@
+2005-01-29T10:59:00.000Z	larsrohdin		can someone help me to change the ownership of a file from root to me?
+2005-01-29T10:59:00.000Z	Wulf_	larsrohdin	become root; chown me file
+2005-01-29T11:00:00.000Z	Wulf_	larsrohdin	cp file file.tmp; rm -f file; mv file.tmp file
+2005-01-29T11:02:00.000Z	Wulf_	larsrohdin	boot with `init=/bin/bash'

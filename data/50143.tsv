@@ -1,0 +1,4 @@
+2009-08-18T08:05:00.000Z	nikolaus1		how do I add the pci=nomsi command to see my sata drive
+2009-08-18T08:06:00.000Z	biovore	nikolaus1	If I had to guess.. I think you need to add this to the kernel boot line in grub..
+2009-08-18T08:06:00.000Z	nikolaus1	biovore	yes, thats what I need to do
+2009-08-18T08:07:00.000Z	biovore	nikolaus1	when grub boots..  press esc and press 'e'  add the pci= thing to the end of the kernel line..  the enter, then press 'b' to boot.

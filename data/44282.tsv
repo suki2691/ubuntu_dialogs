@@ -1,0 +1,4 @@
+2011-09-11T23:03:00.000Z	quiescens	fermulator	any error message or a description of what happens? "no longer works" is not particularly helpful
+2011-09-11T23:03:00.000Z	fermulator	lockheed	WARNING: last time I checked, it doesn't support write, you can only read
+2011-09-11T23:04:00.000Z	fermulator		quiescens; sorry, indeed my message wasn't very useful.  Specifically, I /believe/ I have figured it out -- from the Maverick installation, I had a virtualbox-3.2 installation from Oracle (using checkinstall), /that/ was what was failing.  I'lkl troubleshoot a bit more, -- using the later vbox, giving it a shot
+2011-09-11T23:06:00.000Z	quiescens	fermulator	well there are ubuntu/debian packages if they are suitable, likely cause is out of date virtualbox modules if you haven't done the vboxdrv stuff for your newer kernel

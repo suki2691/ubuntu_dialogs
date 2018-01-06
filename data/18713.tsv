@@ -1,0 +1,4 @@
+2011-05-17T18:14:00.000Z	boson12		How do I access my external hard drive? I don't see it other than in disk utility
+2011-05-17T18:15:00.000Z	boson12		How do I access my external hard drive? I don't see it other than in disk utility
+2011-05-17T18:15:00.000Z	MonkeyDust	boson12	try sudo mount -t ext4dev /dev/sdX <your mountpoint> -- it worked for me
+2011-05-17T18:16:00.000Z	MonkeyDust	boson12	change sdX to you own needs

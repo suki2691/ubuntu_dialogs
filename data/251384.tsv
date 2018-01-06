@@ -1,0 +1,4 @@
+2005-04-11T14:20:00.000Z	neighborlee		is resierfs with hoary RC considered stable to be reccommended as well as ext3 and if so is it version 4 which supposed is the best one ? ( supposedly reiserfs4 is unbreakable )
+2005-04-11T14:20:00.000Z	fraggsta	neighborlee	works fine here
+2005-04-11T14:22:00.000Z	neighborlee	fraggsta	yeah I just concern because you see on forums of ubuntu that it can cause data corruption on power outage for example but I  hear that reiser '4' is stable possibly and just wondered what version hoary RC had ;-)
+2005-04-11T14:23:00.000Z	fraggsta	neighborlee	yes it *can* cause filesystem corruption but like most arguments brought up in filesystem debates that's extremely rare.  I think it's reiser4 that hoary has (and you really *shouldn't* use reiserfs >4)

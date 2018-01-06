@@ -1,0 +1,4 @@
+2010-05-21T13:50:00.000Z	Loshki	kowna	I was only able to run xsane as root due to a permissions problem, solved by chmod-ing the usb device. Does it work under sudo?
+2010-05-21T13:51:00.000Z	kowna		hp f380 is not in /etc/sane.d. is that the end of the matter?
+2010-05-21T13:55:00.000Z	kowna	Loshki	under /dev/usb there is only lp0 and it is now 660.
+2010-05-21T13:59:00.000Z	Loshki	kowna	the entry I changed on mine was /dev/bus/usb/005/008 to crw-rw-r--

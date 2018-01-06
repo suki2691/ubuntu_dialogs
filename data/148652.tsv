@@ -1,0 +1,4 @@
+2007-06-16T16:36:00.000Z	Floodge		any link on how to dual boot ubuntu before i mess somthing up ;o
+2007-06-16T10:52:00.000Z	Floodge		I enabled the nvidia driver, and now the ui doesnt want to boot
+2007-06-16T10:53:00.000Z	TaJMoX	Floodge	: edit your /etc/X11/xorg.conf and change the Driver 'nvidia' to nv
+2007-06-16T10:56:00.000Z	TaJMoX	Floodge	: sudo nano /etc/X11/xorg.conf    scroll down towards the bottom in Section Device ... you'll see Driver   change it to nv

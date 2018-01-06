@@ -1,0 +1,4 @@
+2007-07-12T08:15:00.000Z	Fezzler		Does anyone know the command line instruction to check that I have the right FLashplayer installed for Firefox
+2007-07-12T08:16:00.000Z	nerdygirl_ellie	Fezzler	dpkg -l flash-nonfree
+2007-07-12T08:17:00.000Z	nerdygirl_ellie	Fezzler	no, that installs a different way.
+2007-07-12T08:21:00.000Z	nerdygirl_ellie	Fezzler	yes, you can get it from the commercial repo and then apt-get install flashplugin-nonfree ... yes, what they said.

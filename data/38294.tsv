@@ -1,0 +1,4 @@
+2010-03-19T20:15:00.000Z	Slade-		hey does ubuntu have a precanned way of enabling/disabling startup services? (want to disable apache2)
+2010-03-19T20:16:00.000Z	erUSUL	Slade-	update-rc.d
+2010-03-19T20:16:00.000Z	Slade-	erUSUL	man thats a real weird name. thanks
+2010-03-19T20:17:00.000Z	erUSUL	Slade-	this should do the trick sudo update-rc.d -f apache remove

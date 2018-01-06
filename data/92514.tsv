@@ -1,0 +1,4 @@
+2008-11-03T01:41:00.000Z	arooni		dpkg: dependency problems prevent configuration of postfixadmin: ... how do i tell dpkg to install all packages needed?
+2008-11-03T01:41:00.000Z	nadalizadeh	arooni	apt-get -f install
+2008-11-03T01:42:00.000Z	arooni	nadalizadeh	i have a local deb thats not in a repo
+2008-11-03T01:42:00.000Z	nadalizadeh	arooni	install it with dpkg -i and skip errors, and then run a apt-get -f install to install dependecies

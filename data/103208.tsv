@@ -1,0 +1,4 @@
+2009-10-14T22:43:00.000Z	Daremonai		hello, I'm doing: for i in `find . -name *.rar`; unrar e $i; done -- however, in that way the filename is like the name of the file inside the rar file, how can I rename the filename to the name of the folder in which that .rar file is contained?
+2009-10-14T22:45:00.000Z	Jordan_U	Daremonai	First, you should probably use find's -exec option rather than for, it's less error prone
+2009-10-14T22:46:00.000Z	Daremonai	Jordan_U	hmm alright.. what else?
+2009-10-14T22:51:00.000Z	Jordan_U	Daremonai	You can get the name of the directory that the rar file is in by taking the path and running dirname then basename, so if you start with a variable "path" like: 'path=/foo/bar/foobar.rar' you can get the name of the directory, 'bar', with 'name="$( basename "$( dirname "$path" )" )"' Though there is probably a cleaner way to do that

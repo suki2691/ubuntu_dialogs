@@ -1,0 +1,4 @@
+2012-05-30T21:15:00.000Z	schreber		how do you unmount a mounted drive? I've tried sudo umount /dev/blah1 but I get a 'device is busy' message when clearly it's not.
+2012-05-30T21:16:00.000Z	wawowe	schreber	lsof | grep /dev/blah1
+2012-05-30T21:16:00.000Z	wawowe	schreber	or /mnt/blah1
+2012-05-30T21:16:00.000Z	wawowe	schreber	kill the process that's using it

@@ -1,0 +1,4 @@
+2010-11-19T14:20:00.000Z	Mohammad[B]		my ubuntu is 10.10, i have a problem with hibernate, it is hibernated very good but when i start again the machine this has been reset and i see just a restarted ubuntu without my changes, please help me
+2010-11-19T14:21:00.000Z	llutz_	Mohammad[B]	check /etc/initramfs-tools/conf.d/resume for the UUID of your swap
+2010-11-19T14:22:00.000Z	Mohammad[B]	llutz_	thanks
+2010-11-19T14:22:00.000Z	llutz_	Mohammad[B]	if you change that file, run "sudo update-initramfs -u" after it

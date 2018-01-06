@@ -1,0 +1,4 @@
+2010-05-02T20:33:00.000Z	eli_		if I start a program like firefox from the terminal and then would like remove the process from the terminal which command will a need to type?
+2010-05-02T20:33:00.000Z	eli_		so that firefox wont quit just couse I close the terminal
+2010-05-02T20:33:00.000Z	acicula	eli_	start it with a & and it will run in bg mode, it may still output text to the terminal though
+2010-05-02T20:34:00.000Z	acicula	eli_	or stop it with ctrl-z and bg it to get te same result

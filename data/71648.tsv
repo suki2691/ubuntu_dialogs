@@ -1,0 +1,4 @@
+2008-12-10T14:05:00.000Z	generalsnus		We have a problem with our thin clients,  It seems like each user has 2 instances of the process "ps" running.. using 2% cpu each.. as you imagine..this is a problem when there is 30 users logged on.. cpu load is at 90-100%  what can i do?
+2008-12-10T14:06:00.000Z	mchelen1	generalsnus	how are clients connecting?
+2008-12-10T14:08:00.000Z	generalsnus	mchelen1	clients authenticates with M$ AD, trough the ltsp server
+2008-12-10T14:10:00.000Z	mchelen1	generalsnus	is it all handled by ltsp? if so maybe ask in #ltsp

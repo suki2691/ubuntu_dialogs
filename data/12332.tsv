@@ -1,0 +1,4 @@
+2012-08-15T01:43:00.000Z	Arachnophobia		I have a wifi problem. My ubuntu somehow thinks I have like 25 network controlers (with each being the same). Is there a way to reset it somehow. Restarting doesnt solve it the problem
+2012-08-15T01:44:00.000Z	zykotick9	Arachnophobia	you have wlan0 -> wlan24 really?
+2012-08-15T01:46:00.000Z	zykotick9	Arachnophobia	tab fail ;)  what does "ifconfig" show
+2012-08-15T01:48:00.000Z	zykotick9	Arachnophobia	there is someway (but i don't know it), to reset udev to re-enumerate stuff... but sorry i've once done it a couple times to rename eth1 back to eth0... but don't know the steps off hand

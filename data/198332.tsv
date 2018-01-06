@@ -1,0 +1,4 @@
+2006-03-23T10:45:00.000Z	ACU		hi guys--- it seem so dificult to connect two ubuntu computers in a home net trough a hub - I can ping each other but I cannot see the SHARE
+2006-03-23T10:46:00.000Z	dabaR	ACU	what share?
+2006-03-23T10:51:00.000Z	ACU	dabaR	- yes both are ubuntu - I gave ip address to one as 195.168.1.1 and the other 1.2  I thought is the TCP/IP is the protocol  - I shared one folder then I went in the other computer ---Places connect to server and chose windows smb entered the IP address of the target computer and soo oon
+2006-03-23T11:01:00.000Z	dabaR	ACU	stop using smb:) use ssh, and install a ssh server on the computer you want to share from.

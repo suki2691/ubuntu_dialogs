@@ -1,0 +1,4 @@
+2008-07-23T16:19:00.000Z	nubuntu		if i edit xorg.conf and then run sudo dpkg-reconfigure -phigh xserver-xorg  it reverts back
+2008-07-23T16:21:00.000Z	nubuntu		how do i edit xorg.conf
+2008-07-23T16:21:00.000Z	nubuntu		if i run sudo dpkg-reconfigure -phigh xserver-xorg  it losses my changes
+2008-07-23T16:22:00.000Z	dmacnutt	nubuntu	because dpkg-reconfigure re-writes xorg.conf

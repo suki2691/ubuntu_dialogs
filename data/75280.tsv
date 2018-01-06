@@ -1,0 +1,4 @@
+2011-04-05T21:43:00.000Z	genii-around	DasEi	Does /etc/default/grub  have a line with nouveau modeset? If it's set to 1 and not 0 it gets loaded
+2011-04-05T21:43:00.000Z	DasEi	genii-around	looking now
+2011-04-05T21:46:00.000Z	DasEi	genii-around	no neither grub or grub.cfg, I removed all nouveau related packages, I blacklisted the module, recompiled initrd by dpkg on nvidia-current thus this won't load cause of $§$%& nouveau module
+2011-10-25T00:41:00.000Z	DasEi	genii-around	ahh,tv show then , heh

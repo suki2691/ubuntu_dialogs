@@ -1,0 +1,4 @@
+2008-12-29T04:25:00.000Z	moon-shadow		can any one help me please  how to drive away all users execpt myself in shell ??
+2008-12-29T04:26:00.000Z	moon-shadow		I have many users connect to ssh
+2008-12-29T04:27:00.000Z	moon-shadow		I would like to close thier sessions ???
+2008-12-29T04:29:00.000Z	nibbler	moon-shadow	use w to get their console, and use fuser -k /dev/pts/2 (for example) to kill the specific user

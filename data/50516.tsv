@@ -1,0 +1,4 @@
+2009-08-23T01:15:00.000Z	{[Aaron]}		How do I extract a .tar.gz file to a given location using the terminal?
+2009-08-23T01:17:00.000Z	{[Aaron]}		How do I extract a .tar.gz file to a given location using the terminal?
+2009-08-23T01:18:00.000Z	SmithX	{[Aaron]}	tar -C /my/destination -xzf <mytar.tgz>
+2009-08-23T01:19:00.000Z	SmithX	{[Aaron]}	sometimes depending on the order of compression and tarrring, you might have to do use -zxf instead of -xzf

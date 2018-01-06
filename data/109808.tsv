@@ -1,0 +1,4 @@
+2009-10-09T05:27:00.000Z	jforman		i have two ubuntu installs, both 9.04. on one of them, if i type in a command not found, it suggests the package which contains it. on the other no package is suggested, and i just get command/file not found. what am i missing on the latter machine?
+2009-10-09T05:29:00.000Z	soreau	jforman	It will only suggest a package to install for popular programs. See packages.ubuntu.com to figure out which file is provided by which package
+2009-10-09T05:30:00.000Z	jforman	soreau	one of the programs just now i am trying it 'htpasswd' one machine suggests what to use, the other does not.
+2009-10-09T05:30:00.000Z	jforman	soreau	seems the package i am missing is 'command-not-found'...go figure, never heard of it

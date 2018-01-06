@@ -1,0 +1,4 @@
+2011-02-24T19:10:00.000Z	jbwiv_		so how would you export environment variables into the gnome shell upon login? Say I want to modify gnome's default path, or to set JAVA_HOME, or something else?
+2011-02-24T19:10:00.000Z	jrib	jbwiv_	use ~/.profile
+2011-02-24T19:11:00.000Z	jrib	jbwiv_	~/.xprofile used to work too and be X-specific but not sure if that's still the case
+2011-02-24T19:11:00.000Z	jbwiv_	jrib	ok, so ~/.profile is the key. perfect. thanks!

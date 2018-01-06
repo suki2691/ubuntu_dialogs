@@ -1,0 +1,4 @@
+2005-10-21T09:03:00.000Z	s43y7		it seems that ubuntu dosn't support my integrated soundcard.. and the motherboard-manufacturer dosn't have linux-drivers at their page.. what should i do? buy a new soundcard that i KNOW is supported?
+2005-10-21T09:04:00.000Z	cliebow	s43y7	you have a pci id?
+2005-10-21T09:05:00.000Z	s43y7	cliebow	no, i don't :( how do i get one?
+2005-10-21T09:08:00.000Z	cliebow	s43y7	start with lspci and see what that lists...note the bus id ob:0 or like that sound cards often are 0600 devices..then lspci -n and see what pci id is

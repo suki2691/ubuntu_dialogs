@@ -1,0 +1,4 @@
+2010-01-28T08:58:00.000Z	navin		Hi, how can I reset the Firefox and delete all the temp files in Ubuntu?
+2010-01-28T08:58:00.000Z	blakkheim	navin	mv ~/.mozilla /tmp/mozillabackup
+2010-01-28T08:58:00.000Z	navin	blakkheim	may I know what is the use of this command?
+2010-01-28T08:59:00.000Z	blakkheim	navin	it moves your mozilla directory (with all settings) to a backup, next time you restart firefox it will be totally reset

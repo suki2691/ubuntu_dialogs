@@ -1,0 +1,4 @@
+2009-05-14T17:06:00.000Z	vjacob		hey guys. How do I avoid doing swapoff -a everytime I boot?
+2009-05-14T17:06:00.000Z	ikonia	vjacob	remove swap from /etc/fstab
+2009-05-14T17:07:00.000Z	vjacob	ikonia	it's already commented out, e.g. #UUID=5fc0b91c-cdd6-4013-b6dd-37bf4e69f699 none            swap    sw 0 0
+2009-05-14T17:07:00.000Z	ikonia	vjacob	can do

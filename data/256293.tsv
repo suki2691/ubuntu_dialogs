@@ -1,0 +1,4 @@
+2008-11-27T06:52:00.000Z	meestahp		Hey i got a question about screen, I run Xming and connect to my ubuntu box over ssh, now when I open programs they will open up on my windows box, is there any way that I can rig it so they would open on the ubuntu box?
+2008-11-27T06:53:00.000Z	meestahp		awesome thanks!
+2008-11-27T06:54:00.000Z	dr_willis	meestahp	 You could just ssh in, and set up the DISPLAY variable, and the 'xhost' command to allow it.. and they would display on the remote..
+2008-11-27T06:54:00.000Z	dr_willis	meestahp	 X has some security features taht you may have to 'work around' :)

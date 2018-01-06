@@ -1,0 +1,4 @@
+2008-07-29T15:39:00.000Z	anirudh0		how do i set the ssh login shell on a remote machine?
+2008-07-29T15:39:00.000Z	anirudh0		it defaults to tcsh ..i want bash
+2008-07-29T15:40:00.000Z	geirha	anirudh0	yes, chsh (change shell) changes the login shell
+2008-07-29T15:41:00.000Z	geirha	anirudh0	however, the ability to run chsh may be turned off if the admins of the remote servers are a bit paranoid

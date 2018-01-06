@@ -1,0 +1,4 @@
+2005-01-17T13:48:00.000Z	gangalino		how do I get the C header / kernel sources files?
+2005-01-17T13:49:00.000Z	gangalino		thx, dud
+2005-01-17T13:51:00.000Z	gangalino		uname -a gives me 2.6.8.1-3-386 which kernel header do I choose?
+2005-01-17T13:51:00.000Z	siretart	gangalino	use kernel-headers-$(uname -r)

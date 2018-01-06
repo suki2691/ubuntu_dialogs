@@ -1,0 +1,4 @@
+2010-10-14T17:19:00.000Z	kai696		Rusty149 check PM please.
+2010-10-14T17:19:00.000Z	llutz	kai696	fdisk shows the partition-id, that must not  be the filesystem used
+2010-10-14T17:24:00.000Z	llutz	kai696	"sudo blkid" says what filesystem?
+2010-10-14T17:26:00.000Z	llutz	kai696	sudo mount -t ntfs-3g -o force /dev/sdc1 /mnt

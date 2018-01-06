@@ -1,0 +1,4 @@
+2005-09-21T11:51:00.000Z	_chris_		how can I force apt to get all the debs that are installed and put them in the cache dir once I've deleted them?
+2005-09-21T11:53:00.000Z	bob2	_chris_	for i in $(dpkg --get-selections |grep install$ | awk '{print $1}') ; do sudo apt-get install --reinstall -d $i ; done
+2005-09-21T12:04:00.000Z	_chris_	bob2	your script makes me hit yes a million times;)
+2005-09-21T12:05:00.000Z	_chris_	bob2	-y fixed it;)

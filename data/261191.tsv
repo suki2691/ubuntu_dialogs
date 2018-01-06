@@ -1,0 +1,4 @@
+2005-12-06T11:47:00.000Z	eobanb		where is the kernel config file? i need to check if nvidiafb is statically linked..
+2005-12-06T11:47:00.000Z	eobanb		apparently nvidiafb conflicts with nvidia-glx-legacy sometimes
+2005-12-06T11:47:00.000Z	eobanb		and lsmod isnt showing it
+2005-12-06T11:47:00.000Z	Ng	eobanb	if you're running a stock ubuntu kernel there will be a copy of the config used in /boot/

@@ -1,0 +1,4 @@
+2010-07-21T18:56:00.000Z	Kartagis		hello
+2010-07-21T18:56:00.000Z	Kartagis		what I want is to find all mp3 files by Dido in several directories and cp them all to a directory. any help for me?
+2010-07-21T18:57:00.000Z	monkey_dust	Kartagis	type find / -name *mp3 -exec cp {} /home/your_home \;
+2010-07-21T18:58:00.000Z	Kartagis	monkey_dust	thanks

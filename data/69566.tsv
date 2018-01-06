@@ -1,0 +1,4 @@
+2010-09-11T00:05:00.000Z	dwayne		I upgraded my Dell Latitude E6510 (Intel Core i5 CPU) to 10.04 this morning and can't boot into kernel 2.6.32.24.  If I use the grub menu to boot 2.6.31.22 everything seems fine.  Anyone have any suggestions on how to debug the default menu option (2.6.32.24) ?  All I get is a black screen.
+2010-09-11T00:06:00.000Z	sacarlson	dwayne	try move the file mv /etc/X11/xorg.conf /etc/X11/xorg.conf.org  reboot your original kernel.
+2010-09-11T00:09:00.000Z	dwayne	sacarlson	same behavior
+2010-09-11T00:10:00.000Z	sacarlson	dwayne	so does the live cd boot display ok then?

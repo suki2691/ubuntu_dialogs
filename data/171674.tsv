@@ -1,0 +1,4 @@
+2008-02-05T04:57:00.000Z	excitatory		argh, whenever a kernel is updated, it always sets my grub config to boot from (hd1,0) and not (hd0,0) like it should be.. (i can manually fix it, but i have to do this after every kernel update..)
+2008-02-05T04:58:00.000Z	travisat	excitatory	in your /boot/grub/menu.lst at the top you should have a list of # options you need to read down and there should be a place to change the auto config root
+2008-02-05T04:58:00.000Z	travisat	excitatory	among other things
+2008-02-05T05:01:00.000Z	excitatory	travisat	wow, ok, thank you :D

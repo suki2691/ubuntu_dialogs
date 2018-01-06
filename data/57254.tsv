@@ -1,0 +1,4 @@
+2012-01-28T04:11:00.000Z	blackjackel		Anybody know how to find the most recently modified files on my filesystem?
+2012-01-28T04:12:00.000Z	blackjackel		im trying to find files that this program is creating, i want to see where these files are being made or modified, thats my end goal
+2012-01-28T04:12:00.000Z	ejv	blackjackel	find with options -ctime or -mtime; man find.
+2012-01-28T04:13:00.000Z	ejv	blackjackel	there are plenty of web-based man pages, example: http://unixhelp.ed.ac.uk/CGI/man-cgi?find

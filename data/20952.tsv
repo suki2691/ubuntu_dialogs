@@ -1,0 +1,4 @@
+2011-01-03T12:25:00.000Z	hudson_		I've managed to mount the encrypted partitions, but how can I change root from the livecd to the "cryptroot" to install packages?
+2011-01-03T12:26:00.000Z	Jordan_U	hudson_	sudo chroot /mountpoint/
+2011-01-03T12:31:00.000Z	hudson_	Jordan_U	thanks, that wasn't so hard :)
+2011-01-03T13:32:00.000Z	hudson_	Jordan_U	got any knowledge on recovering grub in an encrypted lvm system? your name popped up in a google hit :)

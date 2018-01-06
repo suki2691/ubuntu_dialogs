@@ -1,0 +1,4 @@
+2010-12-15T05:45:00.000Z	bezao		when i log in my ssh, it shows 'ip address for lo : 127.0.0.1' but i'm localhost, i have a router (with dhcp) that give ips, but my ubuntu-server dont get my local ip (192.168.1.x)  any ideas?
+2010-12-15T05:47:00.000Z	carandraug	bezao	run 'ifconfig' and you should see it
+2010-12-15T05:48:00.000Z	bezao	carandraug	ifconfig only shows 1 ip, 127.0.0.1
+2010-12-15T05:49:00.000Z	carandraug	bezao	can you pastebin it please?

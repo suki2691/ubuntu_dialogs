@@ -1,0 +1,4 @@
+2010-06-06T13:34:00.000Z	well_laid_lawn	PureEvil	if there was a kernel in the updates you'll have to install the nvidia drivers into it like you did before - or just boot into the older kernel
+2010-06-06T13:35:00.000Z	well_laid_lawn	PureEvil	time to read the X log then - does   ctrl+alt+f2   get you to a tty?
+2010-06-06T13:36:00.000Z	well_laid_lawn	PureEvil	alt+f7   to get back
+2010-06-06T13:37:00.000Z	well_laid_lawn	PureEvil	login and do   cat /var/log/Xorg.0.log | less   to read the log - q to quit it

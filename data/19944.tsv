@@ -1,0 +1,4 @@
+2011-05-23T11:44:00.000Z	ronr_		hi everyone. I have some problems with ssh using an rsa key. can someone please look at http://pastebin.com/KF27XjxV and perhaps suggest what may be wrong? it's an output of ssh -vvv to the server.
+2011-05-23T11:46:00.000Z	ls3	ronr_	weird... can you recreate your key without it being a hassle?
+2011-05-23T11:47:00.000Z	ronr_	ls3	yeah
+2011-05-23T11:47:00.000Z	ls3	ronr_	rm -rf ~/.ssh; ssh-keygen -t rsa

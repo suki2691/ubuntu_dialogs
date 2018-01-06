@@ -1,0 +1,4 @@
+2004-10-16T15:47:00.000Z	Markus_		what is the protocol for a serial mouse? do it work when I change my Device from "dev/input/mice" to something like the serial port?
+2004-10-16T15:48:00.000Z	siretart	Markus_	try loading the module "sermouse", then it should work with /dev/input/mice
+2004-10-16T15:49:00.000Z	siretart	Markus_	double check /var/log/kern.log for debugging messages
+2004-10-17T16:05:00.000Z	siretart	Markus_	serial mice are impossible to autodetect and quite uncommon with modern hardware. my notebook doesnt even have a serial port!

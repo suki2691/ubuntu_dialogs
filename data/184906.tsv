@@ -1,0 +1,4 @@
+2007-05-21T07:26:00.000Z	dakira		can anyone explain to me, how the automounting of CDs works (behind the scenes)?
+2007-05-21T07:27:00.000Z	mjr	dakira	hald notices that the CD is inserted, sends a dbus message to anyone interested, the gnome-volume-manager is interested and per default wants to mount it, does so via pmount, which allows normal users to mount removable drives
+2007-05-21T07:29:00.000Z	dakira	mjr	thx.. I'm aksing because I just made packages of the new cdemu for ubuntu, but the problem with it is, that is loads images, but doesn't mount them (you have to do the mounting manually). so I just wanted to find out what the options are ;)
+2007-05-21T07:30:00.000Z	dakira	mjr	how das hald notice a CD was inserted? by monitoring /dev/whatever?

@@ -1,0 +1,4 @@
+2006-10-31T13:32:00.000Z	_array		I just apt-get install gcc but it didn't do any of the #include libraries, is there a package for these?
+2006-10-31T13:32:00.000Z	khermans_	_array	what libe?
+2006-10-31T13:35:00.000Z	khermans_	_array	if it fails during ./configure or make, you need the *-dev files
+2006-10-31T13:35:00.000Z	khermans_	_array	if it fails during linking, you need the lib* files

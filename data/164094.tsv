@@ -1,0 +1,4 @@
+2007-10-18T00:24:00.000Z	david003		how do i mount a .cue file?
+2007-10-18T00:25:00.000Z	david003		can someone give me the command to mount file.cue to /mnt/iso
+2007-10-18T00:25:00.000Z	david003		?
+2007-10-18T00:27:00.000Z	bulmer	david003	mount -t iso9660 -o loop file.cue /mnt/iso

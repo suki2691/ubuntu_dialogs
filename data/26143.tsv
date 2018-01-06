@@ -1,0 +1,4 @@
+2011-01-20T14:24:00.000Z	doktoreas		Hello everybody
+2011-01-20T14:25:00.000Z	doktoreas		I installed ATI proprietary driver on a fresh new Ubuntu 10.10, but I can't access the ATI control center. The error is amdxdg-su: no graphical method available for invoking 'amdcccle' as 'root'
+2011-01-20T14:27:00.000Z	AnthLee	doktoreas	find out the command that launches the ati control center by created a button on the panel and then add sudo before it and then alt + f2 and run the command with sudo appended before it
+2011-01-20T14:28:00.000Z	AnthLee	doktoreas	try sudo su and then try running the command

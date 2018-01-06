@@ -1,0 +1,4 @@
+2008-04-29T19:44:00.000Z	Tom____		hi could someone help me my wireless card doesnt light up i installed ndiswarraper along with the drivers and it all seemed to go ok.  im using a am1772 wireless card
+2008-04-29T19:44:00.000Z	John_S	Tom____	Did you type "ndiswrapper -l" to make sure the driver was installed OK?
+2008-04-29T19:46:00.000Z	John_S	Tom____	OK, type "more /etc/modules" and is ndiswrapper listed in that file somewhere?
+2008-04-29T20:02:00.000Z	John_S	Tom____	OK then make sure that "iface wlan0 inet dhcp" is in your /etc/network/interfaces file, and you should then be able to go to menu System > Admin > Network and set up your wireless.

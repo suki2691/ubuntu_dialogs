@@ -1,0 +1,4 @@
+2012-11-25T06:40:00.000Z	jrib	nashant_	what exactly is a "portable ubuntu.img image"?  How are you attempting to run mysql?  What exactly happens when you try?
+2012-11-25T06:42:00.000Z	nashant_	jrib	linuxforandroid. installed with sudo apt-get install -y mysql-server, running with sudo service mysql start. Nothing happens. It doesn't display any errors, but also doesn't actually run and create the socket
+2012-11-25T06:44:00.000Z	jrib	nashant_	so nothing in ps -ef?  What happens when you run the server directly and avoid using service?
+2012-11-25T06:50:00.000Z	nashant_	jrib	no mention of it in ps -ef

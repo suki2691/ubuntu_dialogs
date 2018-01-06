@@ -1,0 +1,4 @@
+2007-09-04T13:43:00.000Z	Steve^		Any ideas why my ubuntu won't get assigned an IP until I run vista to get one and run ubuntu again?
+2007-09-04T13:44:00.000Z	dyrne	Steve^	so sudo dhclient eth0   on the ubuntu box doesnt work until ip is assigned after xp requests an ip?
+2007-09-04T13:45:00.000Z	Steve^	dyrne	I haven't run that command myself, but the connection manager shows 0.0.0.0
+2007-09-04T13:46:00.000Z	dyrne	Steve^	best to listen to others here when it comes to the gnome tools. i dont have alot of exp with em. esp in ubuntu you can just sudo ifup eth0 or something that does about what the conn manager does. typically i do 1) sudo ifconfig eth0 up  2) sudo dhclient eth0    if im not manually assinging ip

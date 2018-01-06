@@ -1,0 +1,4 @@
+2005-06-15T13:42:00.000Z	jwm68		I am brand new to Ubuntu and Linux.  Got sick of forgetting to type "sudo", so went to /usr and did "sudo chmod -R 777 *"...now get "sudo: must be setuid root".  Anyone know what to do?
+2005-06-15T13:44:00.000Z	jwm68		should I really reinstall?  I tried to go to /usr in recovery mode and "chmod -R 755 *"  no help
+2005-06-15T13:46:00.000Z	jwm68		this is my first linux install.  how do I reinstall without losing everything that I already have -- the stuff that did not come with Ubuntu 5.04 (XMMS, MPlayer, etc)?
+2005-06-15T13:47:00.000Z	hondje	jwm68	well, you could back-up /var/cache/apt/archives

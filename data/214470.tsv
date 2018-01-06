@@ -1,0 +1,4 @@
+2007-05-03T07:23:00.000Z	mrdude		ok, ever since the feisty upgrade my system seems to be lagging big time, very slow
+2007-05-03T07:23:00.000Z	mrdude		are there any changes that might have done this?
+2007-05-03T07:24:00.000Z	eck	mrdude	i would just snoop around in /var/log and see if any of the logs indicate any degenerate behavior
+2007-05-03T07:25:00.000Z	eck	mrdude	it's hard to say, since you don't know what the problem could be. start with /var/log/messages

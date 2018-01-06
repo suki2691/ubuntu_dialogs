@@ -1,0 +1,4 @@
+2010-10-14T22:31:00.000Z	SpaceBass		hey folks, I have a remote box that I want to make a persistant ssh connection back to a server I have - IE if the power goes out, when it reboots, it re-establishes the connection.... is there a more elegant way to do that than a bash script called by cron?
+2010-10-14T22:32:00.000Z	stefg	SpaceBass	/etc/rc.local
+2010-10-14T22:32:00.000Z	SpaceBass	stefg	I get how rc.local would work at boot, but not for connection drops, or a server reboot, etc
+2010-10-14T22:34:00.000Z	stefg	SpaceBass	i see. so since you need to listen to the heartbeat you'll have some sort of cron job anyway

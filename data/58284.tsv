@@ -1,0 +1,4 @@
+2012-10-13T15:10:00.000Z	pkkm		I want Ubuntu installations on 2 laptops to stay exactly the same, apart from hostnames, NetworkManager networks, bootloader and modem drivers. I think I can accomplish that by synchronizing "/", excluding some files and directories. What should I exclude, apart from /boot, /etc/default/grub, /etc/hostname, /etc/NetworkManager ?
+2012-10-13T15:11:00.000Z	wols	pkkm	synchronizing filesystems with an OS on that are writable is a bad idea
+2012-10-13T15:11:00.000Z	wols		also, /var/log shouldn't be synchronized either
+2012-10-13T15:13:00.000Z	pkkm	wols	why is it a bad idea?

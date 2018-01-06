@@ -1,0 +1,4 @@
+2010-03-14T23:31:00.000Z	seanbrystone		whats the command to see if a kernel module is loaded? I tried sudo modprobe quota_v2
+2010-03-14T23:31:00.000Z	seanbrystone		thanks :)
+2010-03-14T23:33:00.000Z	soreau	seanbrystone	If you don't get any output from the modprobe command, it's usually a sign of success. Use 'lsmod' to view the list of currently loaded kernel modules
+2010-03-14T23:33:00.000Z	soreau	seanbrystone	Also, you can see the output of 'dmesg' for other messages

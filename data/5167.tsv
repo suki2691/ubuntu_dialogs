@@ -1,0 +1,4 @@
+2012-05-09T01:50:00.000Z	MistuhKurtz		How can you have apt-get tell you which packages  need upgrading?
+2012-05-09T01:50:00.000Z	wormmd	MistuhKurtz	sudo apt-get update && sudo apt-get dist-upgrade
+2012-05-09T01:51:00.000Z	wormmd	MistuhKurtz	...Just run that command and say no.
+2012-05-09T01:54:00.000Z	wormmd	MistuhKurtz	dist-upgrade may install additional packages to meet new dependencies for updated packages.

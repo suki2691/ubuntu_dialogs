@@ -1,0 +1,4 @@
+2007-10-24T02:22:00.000Z	gribouille		can someone tell me how I can find the package containing /usr/lib/libcrypt.so ?
+2007-10-24T02:24:00.000Z	IntuitiveNipple	gribouille	dpkg-query -S 'libcrypt.so'
+2007-10-24T02:25:00.000Z	gribouille	IntuitiveNipple	I'm searching a package that's not installed
+2007-10-24T02:30:00.000Z	IntuitiveNipple	gribouille	In that case I'd search the online package archives (they publish the file-list of all packages) so use Google "libcrypt site:http://packages.ubuntu.com/"

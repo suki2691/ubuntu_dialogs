@@ -1,0 +1,4 @@
+2005-02-08T10:46:00.000Z	SackeR		How can i figure out what the device name is for USB Headphones
+2005-02-08T10:47:00.000Z	quitte	SackeR	that should be a usual alsa device - if you have driver support for it.
+2005-02-08T10:50:00.000Z	quitte	SackeR	when you load snd-pcm-oss it should become available as a /dev/pcmX
+2005-02-08T10:50:00.000Z	quitte	SackeR	sorry dev/dsp

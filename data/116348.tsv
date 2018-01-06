@@ -1,0 +1,4 @@
+2008-02-05T20:47:00.000Z	ezquerro		i have deleted my primary windows partition, how can i restore grub without exiting ubuntu?
+2008-02-05T20:48:00.000Z	pike_	ezquerro	example - i think is right 1) sudo grub   2) root (hd0,0)  <-- for hda1 if that is right partition 3) setup (hd0)
+2008-02-05T20:49:00.000Z	ezquerro	pike_	and how can i resize my linux partition without umounting it?
+2008-02-05T20:50:00.000Z	pike_	ezquerro	you cant i dont believe youd need to use a livecd either ubuntus or gparted's

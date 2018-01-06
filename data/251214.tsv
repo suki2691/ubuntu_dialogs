@@ -1,0 +1,4 @@
+2005-02-02T11:09:00.000Z	rellik_		xmms won't run :(  I apt-get'ed it on a fresh ubuntu but it gives this error: "libmikmod.so.2: cannot open shared object file: No such file or directory" "Inconsistency detected by ld.so: ../sysdeps/generic/dl-tls.c: 72: _dl_next_tls_modid: Assertion `result <= _rtld_local._dl_tls_max_dtv_idx' failed!"
+2005-02-02T11:09:00.000Z	crimsun	rellik_	sudo aptitude install libmikmod2
+2005-02-02T11:10:00.000Z	rellik_	crimsun	thanks
+2005-02-02T11:10:00.000Z	crimsun	rellik_	it's a faq here: https://bugzilla.ubuntu.com/show_bug.cgi?id=1724

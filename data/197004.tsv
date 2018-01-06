@@ -1,0 +1,4 @@
+2006-03-21T14:30:00.000Z	rnd_null		how do i close x with out turning the computer off?
+2006-03-21T14:30:00.000Z	YukiCuss	rnd_null	stop GDM, then ctrl+alt+bakcspace.
+2006-03-21T14:31:00.000Z	YukiCuss	rnd_null	GNOME Desktop Manager.
+2006-03-21T14:31:00.000Z	YukiCuss	rnd_null	do sudo /etc/init.d/gdm stop; then press CTRL-Alt-Backspace. careful, X won't come back up. If you want it to, log in on a console and do `sudo /etc/init.d/gdm start'

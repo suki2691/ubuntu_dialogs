@@ -1,0 +1,4 @@
+2006-11-15T14:00:00.000Z	UmbraAdmin		if i move my hd with Ubuntu on it to a new comp and get -> Kernel panic - not syncing:VFS: Unable to mount root fs on unknown-block (0,0) What todo ?
+2006-11-15T14:01:00.000Z	lullabud	UmbraAdmin	 that's likely caused by having your hard disk physically attached to the computer in a different configuration.
+2006-11-15T14:01:00.000Z	lullabud	UmbraAdmin	 do you have it connected in the same config, as in primary->master ?
+2006-11-15T14:02:00.000Z	lullabud	UmbraAdmin	 i'm pretty sure that error is from your initrd being unable to mount your root partition.

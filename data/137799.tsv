@@ -1,0 +1,4 @@
+2009-10-12T22:09:00.000Z	Enissay|AFK		Using Unrar, how can i extract a list of rar files instead of doing so one by one?
+2009-10-12T22:10:00.000Z	llutz	Enissay|AFK	for i in *.rar; do unrar x "$i"; donw
+2009-10-12T22:10:00.000Z	llutz	Enissay|AFK	for i in *.rar; do unrar x "$i"; done
+2009-10-12T22:16:00.000Z	llutz	Enissay|AFK	for i in [abc]*.rar; do unrar x "$i"; done

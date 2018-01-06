@@ -1,0 +1,4 @@
+2012-03-01T02:40:00.000Z	sharpK		so XBMC froze and I can't access unity, issues a kill (through ssh), but everything is stuck, tried "unity" (still stuck). am I missing out on a command here?
+2012-03-01T02:42:00.000Z	CharlieSu	sharpK	restart?
+2012-03-01T02:43:00.000Z	sharpK	CharlieSu	restarting the whole machine is not much of a solution to me, I guess, because it happens too often that xbmc will freeze. was trying to figure out a way to properly terminate unity and restart it...?
+2012-03-01T02:44:00.000Z	CharlieSu	sharpK	get the output of 'pstree' so we can see what processes are still running.

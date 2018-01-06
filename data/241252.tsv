@@ -1,0 +1,4 @@
+2005-08-28T15:21:00.000Z	dcuny		All right, it looks like you want to edit the '/etc/X11/xorg.conf' file, and change    Driver "nvidia"   back to    Driver "nv"
+2005-08-28T15:23:00.000Z	dcuny		You might also want to put in the lines   Load "GLcore"   and
+2005-08-28T15:23:00.000Z	dcuny		Load "dri" .  Don't quote me on this, though! You'll really want to check out the backup to see what it used to have.
+2005-08-28T15:23:00.000Z	rob^	dcuny	yep you'll wanna do that

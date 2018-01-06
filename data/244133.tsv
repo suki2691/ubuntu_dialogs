@@ -1,0 +1,4 @@
+2006-09-26T05:56:00.000Z	hesperus		how can i disable the usplash stuff?
+2006-09-26T05:57:00.000Z	hesperus		it's disabled from sysv-rc-conf, but i see it again on boot
+2006-09-26T05:58:00.000Z	hesperus		let's see
+2006-09-26T05:58:00.000Z	dodger	hesperus	I didn't try it, but removing splash from your kernel entry in /boot/grub/menu.lst should do the trick.

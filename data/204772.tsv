@@ -1,0 +1,4 @@
+2006-01-01T07:03:00.000Z	kingstar518		How to config JAVA's environment variable JAVA_HOME in ubuntu?
+2006-01-01T07:05:00.000Z	bshumate	kingstar518	add a line in /etc/profile : JAVA_HOME = <path_to_java> ; export JAVA_HOME
+2006-01-01T07:13:00.000Z	bshumate	kingstar518	edit Tomcat's startup script and just set JAVA_HOME in there...
+2006-01-01T07:17:00.000Z	bshumate	kingstar518	yes, what mwe says....exit the current shell and start a new one to have it source /etc/profile, or do something like this from the prompt:  . /etc/profile

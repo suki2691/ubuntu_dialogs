@@ -1,0 +1,4 @@
+2006-05-05T13:02:00.000Z	brum76		hi, I am trying to install sun-j2re on breezy , but for some reason the pkg remains listed as virtual. I have enabled universe,multiverse, backports, and all that I could find in the /etc/apt.sources.list and ran the update . What else should I do ?
+2006-05-05T13:03:00.000Z	slavik	brum76	go to java site and click on manual install, their guide is very good
+2006-05-05T13:04:00.000Z	brum76	slavik	yes, that's one way, but it shows up as a pkg. Secondly, it is not the only pkg that has that issue.
+2006-05-05T13:04:00.000Z	slavik	brum76	"virtual" packages are packages that some other package lists as a dependency but the package doesn't actually exist

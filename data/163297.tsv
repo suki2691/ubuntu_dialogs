@@ -1,0 +1,4 @@
+2008-03-02T00:38:00.000Z	stephans		does anyone have any ideas as to why ubuntu preseed install would ignore this: d-i mirror/http/hostname string horus
+2008-03-02T00:39:00.000Z	bod_	stephans	maybe because of the spaces?
+2008-03-02T00:49:00.000Z	stephans	bod_	I only have single whitespaces... that is the right way is it not?
+2008-03-02T00:49:00.000Z	bod_	stephans	you cant have spaces in a command like that,. "enclose it in quotes"

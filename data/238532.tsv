@@ -1,0 +1,4 @@
+2005-05-22T08:55:00.000Z	nmorse		so has anyone noticed that the gaim src package from 'apt-get source gaim' doesn't compile?
+2005-05-22T08:56:00.000Z	Nalioth	nmorse	did you use "apt-get source -b gaim" ?
+2005-05-22T08:58:00.000Z	Nalioth	nmorse	why are you using dpkg to build?
+2005-05-22T08:58:00.000Z	Nalioth	nmorse	use apt-get to build, dpkg to install

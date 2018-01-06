@@ -1,0 +1,4 @@
+2010-06-07T23:23:00.000Z	Notch-1		hi, i think the update to lucid messed up with some configuration file, network related (nm-applet gives me a little configuration error) can somebody help me?
+2010-06-07T23:24:00.000Z	ActionParsnip	Notch-1	what's the error?
+2010-06-07T23:25:00.000Z	ActionParsnip		Sean_: run: uname -a ,shows the current kernel. You can then run; dpkg l | grep linux-image-2 ,to see the installed kernels. Remove what you don't need but do NOT remove the current kernel
+2010-06-07T23:25:00.000Z	Notch-1	ActionParsnip	" couldn't retrieve system settings properties: (2) The name org.freedesktop.NetworkManagerSystemSettings was not provided by any .service files."

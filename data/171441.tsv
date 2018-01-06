@@ -1,0 +1,4 @@
+2007-01-26T13:03:00.000Z	jatt		how can I obtain the list of installed packages sorted by Installed-Size? I want to see if I can delete the biggest packages to have more disk space available.
+2007-01-26T13:04:00.000Z	jatt		ok, I've just found
+2007-01-26T13:04:00.000Z	jatt		dpkg-query -W -f='${Installed-Size} ${Package}\n' "*" | sort -g | tail -n 100 > packages.txt
+2007-01-26T13:05:00.000Z	ciscosurfer	jatt	*claps*

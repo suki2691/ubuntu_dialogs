@@ -1,0 +1,4 @@
+2011-09-18T14:56:00.000Z	guest665		hi all, just wondering if anyone can help with sed awk grep? im looking for a one-liner to shirt the last char of a line to the front of the line
+2011-09-18T14:58:00.000Z	guest665		lol, homework, its not homework but it might as well be, do you have a solution ? jrib
+2011-09-18T14:59:00.000Z	guest665		make sure you interpreter is within the PATH and chmod it to +x
+2011-09-18T15:01:00.000Z	llutz_	guest665	untested:      sed -i 's/\(.*\)\(.\)$/\2\1/g' file

@@ -1,0 +1,4 @@
+2009-04-26T19:26:00.000Z	RaverWild		guys please help - 2 days ago i tried to upgrade intrepid -> jaunty. seems it didnt completed as update manager shows me the button to click to upgrade to 9.04. yesterday tried to do upgrade again. it closed with no signs of errors. still not upgraded. what's the shell command to do the upgrade? i wanna see the error messages if any,..? upgade-manager --dist-upgrade?
+2009-04-26T19:28:00.000Z	PhotoJim	RaverWild	the safest way to do it from shell is: aptitude update && aptitude safe-upgrade && aptitude dist-upgrade   ... it'll do it in two passes.
+2009-04-26T19:28:00.000Z	RaverWild	PhotoJim	thanks. will try now
+2009-04-26T19:29:00.000Z	PhotoJim	RaverWild	you may need to do "do-release-upgrade" after my commands, too

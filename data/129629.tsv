@@ -1,0 +1,4 @@
+2012-02-11T09:18:00.000Z	benhelps		Hey all. Was getting tips earlier to getting wifi working on my laptop. Closer to solved now (lspci sees wifi hw) but still not in ifconfig
+2012-02-11T09:18:00.000Z	jetole	benhelps	ifconfig -a
+2012-02-11T09:22:00.000Z	jetole	benhelps	and hydrox24: while I wish benhelps luck, I hate ndiswrapper but it's a nessecary evil in some circumstances
+2012-02-11T09:30:00.000Z	jetole	benhelps	lsmod lists all drivers and a driver isn't named "I am for wifi"

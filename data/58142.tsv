@@ -1,0 +1,4 @@
+2009-05-14T23:02:00.000Z	HikeTech	tdn	there isn't much you can do to get measurable gains. Removing the splash gains a minimal decrease in boot time. You're essentially stuck with shaving a sec here or there, maybe a fraction or so here and there, and that's probably about it.
+2009-05-14T23:03:00.000Z	tdn	HikeTech	ok. What are the biggest time consumers that prevent that?
+2009-05-14T23:07:00.000Z	HikeTech	tdn	I think ubuntu boots much slower than let's say, Debian, because there are more services that start at boot. You could remove things such as cups if you don't print, maybe remove bluetooth packages if you don't use it, etc.; checkout your startup items too to see what can be removed when you login.
+2009-05-14T23:08:00.000Z	tdn	HikeTech	where can I see which services that start up? And where can I enable/disable them? Is there a way to only start some services (such as CUPS and so on) when they are needed? Windows allows this.

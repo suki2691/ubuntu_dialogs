@@ -1,0 +1,4 @@
+2008-01-22T01:14:00.000Z	au_		hey.. anyone can help me? I have a memory card, but I'm unable to format it.. gparted nor mkfs.vfat doesnt work :(
+2008-01-22T01:14:00.000Z	pike_	au_	plug it in then dmesg|tail then sudo mkfs.vfat /dev/sdb1  <-- or whatever partition dmesg shows
+2008-01-22T01:14:00.000Z	pike_	au_	be VERY sure of the partition you dont want to format a HD partition
+2008-01-22T01:17:00.000Z	au_	pike_	http://openpaste.org/en/4787/ I get some strange errors

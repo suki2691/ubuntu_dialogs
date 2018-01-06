@@ -1,0 +1,4 @@
+2009-12-19T14:33:00.000Z	Fuzzy_Wuzzy		hi, when i put an sd card into computer, it cant find it and i cant do anything with it. Would that be a driver problem or something else?
+2009-12-19T14:34:00.000Z	Dr_Willis	Fuzzy_Wuzzy	 depends. :) with some laptops the built in card readers are not supported. Plug it in. check dmesg output. see where its being acttatched to. then try to mouint it manually.
+2009-12-19T14:35:00.000Z	Fuzzy_Wuzzy	Dr_Willis	what is a dmesg output? SOrry i am new to the game here
+2009-12-19T14:38:00.000Z	Dr_Willis	Fuzzy_Wuzzy	 the command 'dmesg' shows all sorts of kernel/messages

@@ -1,0 +1,4 @@
+2009-10-29T12:29:00.000Z	mathieu		hi can someone help me? im trying to make: /home/mathieu/Desktop/ati-driver-installer-9-9-x86.x86_64.run a deb package but terminal keeps giving me:  Permission denied
+2009-10-29T12:29:00.000Z	goose	mathieu	chmod a+x
+2009-10-29T12:30:00.000Z	goose	mathieu	welcome. that usually happens when you download the file from someone who hasn't modded permissions on it properly.
+2009-10-29T12:35:00.000Z	goose	mathieu	open terminal, then do: chmod a+x /path/to/file/blah

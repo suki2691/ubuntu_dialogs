@@ -1,0 +1,4 @@
+2005-04-28T07:30:00.000Z	njan	elis	if you literally want to clone the user, you could just rename the /home folder and then change the permissions on it so the new user can access all the files..
+2005-04-28T07:31:00.000Z	njan	elis	mv /home/OLDUSER /home/NEWUSER && chown -r NEWUSER /home/NEWUSER
+2005-04-28T07:32:00.000Z	elis		thanks so much djm62 and njan. will have a go now
+2005-04-28T07:36:00.000Z	elis	njan	will  cp /home/OLDUSER /home/NEWUSER && chown -r NEWUSER /home/NEWUSER work just as well?

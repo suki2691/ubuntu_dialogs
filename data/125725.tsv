@@ -1,0 +1,4 @@
+2008-10-14T04:07:00.000Z	Xsss4hell		When I copy/move files from directory a)(777) into directory b) (755), will the files copied/moved obtain the permissions of directory b) ????
+2008-10-14T04:08:00.000Z	Xsss4hell		I mean howto tell that files/folders should obtain it's parent's rights automatically??
+2008-10-14T04:09:00.000Z	node357	Xsss4hell	not sure. try copying a test file or directory to see
+2008-10-14T04:10:00.000Z	Xsss4hell	node357	copied a textfile with 777 into my pictures dir which is 755... but it stayed 777

@@ -1,0 +1,4 @@
+2006-11-30T13:05:00.000Z	nolimitsoya		hm... does the -generic kernel have smp support?
+2006-11-30T13:05:00.000Z	ekimus	nolimitsoya	i think since 6.06 all kernels are smp
+2006-11-30T13:05:00.000Z	nolimitsoya	ekimus	good :)
+2006-11-30T13:06:00.000Z	ekimus	nolimitsoya	easy way: boot it "cat /proc/cpuinfo" if there are n (where n > 1) then: yes :)

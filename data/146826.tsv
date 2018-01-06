@@ -1,0 +1,4 @@
+2007-03-18T11:00:00.000Z	Spartacus		Anyone know of a command I can use in edgy instead of 'su -c "make install"'? The Qt install says to use that command
+2007-03-18T11:00:00.000Z	cables	Spartacus	sudo make install
+2007-03-18T11:00:00.000Z	cables	Spartacus	better to use Checkinstall though
+2007-03-18T11:00:00.000Z	cables	Spartacus	sudo aptitude install checkinstall && sudo checkinstall

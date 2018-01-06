@@ -1,0 +1,4 @@
+2006-01-03T14:37:00.000Z	Sephran		quick emergency question, I'm helping someone out with a half broken harddrive, and I'm using ubuntu live to get it to start...so we can get a few files from windows. What commands are needed to mount?
+2006-01-03T14:37:00.000Z	Zambba	Sephran	mkdir /mnt/windisk and mount -t ntfs (or vfat) /dev/hdXX /mnt/windisk
+2006-01-03T14:39:00.000Z	Zambba	Sephran	It's all lower case. You need to replace /dev/hdXX with real hard disk partition like /dev/hda1 or /dev/hdc3.
+2006-01-03T14:52:00.000Z	Zambba	Sephran	Put sudo in front of the mount command.

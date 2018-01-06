@@ -1,0 +1,4 @@
+2005-01-08T10:18:00.000Z	Cloudchaser		but it starts auto when you boot ubuntu
+2005-01-08T10:19:00.000Z	Cloudchaser		he doesn't want to to restart automatically for now
+2005-01-08T10:21:00.000Z	JDahl	Cloudchaser	then I guess you would have to manually edit the /etc/init.d/<service> script... I dont think you can do it another way. For inspiration the init script that comes with openafs-client does exactly that: "start" does nothing, you have to manually start it with "force-start"
+2005-01-08T10:36:00.000Z	JDahl	Cloudchaser	dpkg -S <pkg> if the package is installed, or apt-cache search <pkg> to get info on packages that may not be installed

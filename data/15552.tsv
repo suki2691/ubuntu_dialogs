@@ -1,0 +1,4 @@
+2011-04-24T02:37:00.000Z	teddyb		how do i go about mounting and ftp location so it can be used by all programs?
+2011-04-24T02:39:00.000Z	escott	teddyb	if you want ftp as a filesystem you will need to use a FUSE module
+2011-04-24T02:40:00.000Z	teddyb	AviMarcus	Yeah im sure, escott ill have a look at it thanks
+2011-04-24T02:42:00.000Z	escott	teddyb	you can try http://linux.byexamples.com/archives/344/mounting-ftp-host-to-local-directory-on-top-of-fuse/ but if you have to use ftp I would get a good client like ncftp and do it from the command line

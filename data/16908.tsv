@@ -1,0 +1,4 @@
+2011-05-15T13:53:00.000Z	aureianimus		i'm trying to enable vga_switcheroo, and i have modeset=1, but i can't get it to work, these are my kernel options: GRUB_CMDLINE_LINUX_DEFAULT="quiet splash acpi_osi=Linux modeset=1"  and updated grub.  but /sys/kernel/debug/vgaswitcheroo isn't there
+2011-05-15T13:54:00.000Z	Incarus6	aureianimus	is the linux-headers package also installed for this kernel?
+2011-05-15T14:06:00.000Z	aureianimus	Incarus6	@kernel headers, i don't know, how do i check that?
+2011-05-15T14:07:00.000Z	Incarus6	aureianimus	type "linux-headers" in your software manager and make sure the correct version is installed

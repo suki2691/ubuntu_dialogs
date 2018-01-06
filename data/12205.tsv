@@ -1,0 +1,4 @@
+2012-09-20T07:44:00.000Z	Anusien		I have ushare installed, and it created a /etc/init.d/ushare. How do I configure this to run automatically at boot?
+2012-09-20T07:46:00.000Z	zykotick9	Anusien	1) i have NO idea what ushare is 2) FYI /etc/init.d is the old sysv - ubuntu uses upstart.  good luck.
+2012-09-20T07:48:00.000Z	Anusien	zykotick9	What ushare does is irrelevant, but it provides you with a name of a process. And upstart doesn't seem to play well with /etc/init.d/; you either have to convert from one to another or duplicate the effort. If you have upstart call the /etc/init.d/ file, it won't get the pid and be able to get status
+2012-09-20T07:49:00.000Z	zykotick9	Anusien	sorry.  i'm zero help on upstart (services on ubuntu).

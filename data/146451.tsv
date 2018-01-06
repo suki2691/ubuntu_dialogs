@@ -1,0 +1,4 @@
+2012-11-26T18:06:00.000Z	kruxer		didn't worker the bios change!
+2012-11-26T18:07:00.000Z	kruxer		How can I change the booting partition, my current boot partition is windows, wanna change it to grub...!
+2012-11-26T18:08:00.000Z	kruxer		How can i change to boot partition?
+2012-11-26T18:10:00.000Z	BluesKaj	kruxer	, o reinstall grub to the ubuntu drive , boot into ubuntu live media (cd or usb), find the ubuntu drive designation with sudo fdisk -l , then run: 'sudo grub-install /dev/sdX , X being number assigned to the ubuntu drive/device.

@@ -1,0 +1,4 @@
+2010-10-23T09:16:00.000Z	Antioch		How can I backup an entire partition and transfer it to another drive? (I need to switch my OS to a different drive). Thanks!
+2010-10-23T09:17:00.000Z	lucent	Antioch	there are multiple, different, ways
+2010-10-23T09:19:00.000Z	lucent	Antioch	You can copy the block device, dump/restore the filesystem, or do file level replication (rsync, cp, duplicity)
+2010-10-23T09:21:00.000Z	lucent	Antioch	did you 1MiB align your partitions on the SSD ?

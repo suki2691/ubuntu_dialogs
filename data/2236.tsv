@@ -1,0 +1,4 @@
+2012-06-27T15:16:00.000Z	paulus68		I have use this ftp script http://pastebin.com/se6zDMXr how can I add a line that creates a logfile after filetransfer?
+2012-06-27T15:17:00.000Z	yandex2389	paulus68	Just pipe the output into a text file. I suggest reading a book on shell scripts...
+2012-06-27T15:19:00.000Z	paulus68	yandex2389	in order to do this I need to google on bash script that creates logfiles or ftp that creates logfiles?
+2012-06-27T15:23:00.000Z	yandex2389	paulus68	You need to read about piping output - it's a general principle, not specific to FTP. Bash scripting works by chaining lots of utilities together

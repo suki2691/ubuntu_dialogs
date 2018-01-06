@@ -1,0 +1,4 @@
+2007-01-17T08:34:00.000Z	bottazzo		well.. i remove apache files from my ubuntu.. and now i reinstall it with apt-get .. but when i try apache start.. it says that it did not find /usr/lib/apache2/files ...
+2007-01-17T08:34:00.000Z	bottazzo		how can i reinstall /usr/lib/apache2 files?
+2007-01-17T08:35:00.000Z	bottazzo		apt-get install apache 2 does not install /usr/lib/apache2 files =[ .. only /etc/apache2 files
+2007-01-17T08:36:00.000Z	bulmer	bottazzo	look at the guts of the "apache start" script and see how it calls the apache and what env variables it uses to look those files up

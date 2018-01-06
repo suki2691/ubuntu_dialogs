@@ -1,0 +1,4 @@
+2007-12-02T21:35:00.000Z	erisco		how can I force my cdrom to umount?
+2007-12-02T21:35:00.000Z	erisco		it says the device is busy... it isn't
+2007-12-02T21:36:00.000Z	erisco		how can I force my media to unmount??
+2007-12-02T21:37:00.000Z	Lunar_Lamp	erisco	try "lsof /device/name" and that will tell you what is using it.

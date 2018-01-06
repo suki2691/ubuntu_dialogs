@@ -1,0 +1,4 @@
+2005-04-03T09:38:00.000Z	hams2		what package do i apt-get if i want the kernel source and configuration files that were used to buil dmy version of ubuntu?
+2005-04-03T09:39:00.000Z	shadowplay	hams2	config file should be in /boot
+2005-04-03T09:39:00.000Z	hams2	shadowplay	do get the kernel source and copy over that config file and i'm good to go?
+2005-04-03T09:43:00.000Z	shadowplay	hams2	: copy the config file to <sourcdir>/.config  then run make oldconfig.  If its the same kernel version you may not need to make oldconfig.

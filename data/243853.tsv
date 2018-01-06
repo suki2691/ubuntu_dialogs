@@ -1,0 +1,4 @@
+2005-04-03T08:32:00.000Z	mramm		I am having a problem with ndiswrapper and the dell 1170 card in a inspiron 8200 any body got any debugging tips?
+2005-04-03T08:33:00.000Z	jk24	mramm	what's the problem ?
+2005-04-03T08:35:00.000Z	mramm		I get the drivers installed and ndiswrapper -l shows driver loaded and hardware present.  I did modprobe ndiswrapper, and then ifconfig wlan0 up.  The interface then shows up, but no traffic hits it, and attempts to manually change the essid with iwconfig have no result.
+2005-04-03T08:41:00.000Z	mramm	jk24	sorry I had to take a support call.   Any thoughts on how to troubleshoot problems with ndiswrapper

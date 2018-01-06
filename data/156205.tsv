@@ -1,0 +1,4 @@
+2007-12-12T00:31:00.000Z	fizzle		hey all, i'm having some trouble with the firefox process, it seems i cant kill it so i can start a new instance of it, i just keep getting the same error, but the process wont die lol
+2007-12-12T00:32:00.000Z	genii	fizzle	sudo kill `ps ax|grep firefox|cut -b1-6`
+2007-12-12T00:40:00.000Z	genii	fizzle	rm ~/.mozilla/firefox/*.default/.parentlock
+2007-12-12T00:40:00.000Z	fizzle	genii	no dice

@@ -1,0 +1,4 @@
+2011-07-21T20:04:00.000Z	maslen21		And If I don't set a password for this 'appservice' account,  any logged on user should be able to call su (or sudo -u?) to run the server as that account?
+2011-07-21T20:05:00.000Z	maslen21		nah :)
+2011-07-21T20:07:00.000Z	Alphanumerik	maslen21	what you should do is create a group AppletAccess and add users to the group, then on the Applet program, set the group permissions. For the lone user with sole purpose of accessing the applet, set all permission accordingly
+2011-07-21T20:09:00.000Z	maslen21	Alphanumerik	The biggest (for me) issue is that this is a program under active development - so the files will be changed/replaced quite often.

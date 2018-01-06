@@ -1,0 +1,4 @@
+2012-06-01T03:14:00.000Z	invisiblek		any ideas why i would be getting terrible write speeds (~5mb or slower, usually slower) on a disk-to-disk file copy? i've tried dd'ing a 2gb file from /dev/zero to each and get respectable speeds (60mb/s on the single driver, 240mb/s on the raid)
+2012-06-01T03:15:00.000Z	invisiblek		drive*
+2012-06-01T03:16:00.000Z	psusi	invisiblek	where does raid fit into the picture?  what are the source and destination disks?  individual disks?  raids?  different partitions on the same disk?
+2012-06-01T03:16:00.000Z	psusi	invisiblek	are you passing any special options to dd?

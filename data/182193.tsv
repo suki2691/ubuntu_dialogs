@@ -1,0 +1,4 @@
+2008-09-26T10:13:00.000Z	ziesemer_		How do I kill X?  Ctrl+Alt+Backspace kills it, but it keeps restarting.  I'm assuming I need to do this to run "X -configure".
+2008-09-26T10:13:00.000Z	brianski	ziesemer_	/etc/init.d/gdm stop
+2008-09-26T10:14:00.000Z	brianski	ziesemer_	sudo /etc/init.d/gdm stop
+2008-09-26T10:15:00.000Z	brianski	ziesemer_	you were seeing tty7, which had nothing on it once X was killed

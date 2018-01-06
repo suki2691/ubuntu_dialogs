@@ -1,0 +1,4 @@
+2009-12-05T23:22:00.000Z	foo		Anyone have any tips on reading smartctl -a output? I'm trying to tell if my disk is dying or not. badblocks -vvv /dev/sdc reports 95 badblocks. I don't know what to look for in the smartctl output, and I can't seem to find a good google guide on how to read this
+2009-12-05T23:23:00.000Z	mav	foo	install GSmartMonitor, its a GUI which will help you know the SMART status of the drive
+2009-12-05T23:23:00.000Z	foo	mav	thanks, but I don't have internet on this box and resources are very tight. /me continues googling for a howto
+2009-12-05T23:23:00.000Z	mav	foo	kk..

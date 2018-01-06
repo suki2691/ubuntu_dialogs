@@ -1,0 +1,4 @@
+2009-11-25T19:43:00.000Z	ronny		hi
+2009-11-25T19:43:00.000Z	ronny		anyone aware of a package that adds exfat support to ubunu?
+2009-11-25T19:43:00.000Z	ronny		exfat = the 64 bit successor of fat32
+2009-11-25T19:45:00.000Z	Church	ronny	vfat32 is used to simplify compatibility/data interchange with windows and eg. embedded devices that use it. why use some fat alike fs which aren't supported by those OSes/devices if there are better alternatives available, if you don't care about compatibility?

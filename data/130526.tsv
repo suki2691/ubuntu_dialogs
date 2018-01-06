@@ -1,0 +1,4 @@
+2009-04-17T01:18:00.000Z	Kimbeau		﻿﻿My Ubuntu 8.04 box can't play music from the second life client (an app that plays sounds of its own as well as streaming media). I can play *sometimes* the same media url through vlc. And sometimes I can hear the test bleeps from the System -> Preferences -> Sound dialog. At the moment, I can hear the wind from sl, but no bleeps from the sound Dialog and no music, either from sl or from VLC. Looks like the mixing isn't happen
+2009-04-17T01:19:00.000Z	FreeFull	Kimbeau	Is alsa installed?
+2009-04-17T01:31:00.000Z	FreeFull	Kimbeau	Try uninstalling PulseAudio so only Alsa runs
+2009-04-17T01:35:00.000Z	FreeFull	Kimbeau	ubuntu-dekstop is just there to be dependent on all the ubuntu stuff. It itself has no other purpose

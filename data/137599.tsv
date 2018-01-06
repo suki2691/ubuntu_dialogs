@@ -1,0 +1,4 @@
+2007-05-04T09:31:00.000Z	qiyong		is sata using dma?
+2007-05-04T09:31:00.000Z	xtknight9	qiyong	yes SATA can use DMA
+2007-05-04T09:31:00.000Z	xtknight9	qiyong	usually when libata designates a SCSI/sata device for an IDE disk, it will set the highest DMA mode.  you can check with hdparm -i /dev/drive
+2007-05-04T09:33:00.000Z	xtknight9	qiyong	some commands of it work

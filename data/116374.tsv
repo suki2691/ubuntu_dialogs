@@ -1,0 +1,4 @@
+2008-06-03T15:14:00.000Z	mshanks		For some strange reason I have to boot ubuntu with acpi=off or it fails to load the hardware abstraction layer hald. How can I set it so it boots with acpi=off every time?
+2008-06-03T15:15:00.000Z	Light-	mshanks	modify /etc/fstab
+2008-06-03T15:15:00.000Z	Light-	mshanks	actually, dont do that
+2008-06-03T15:17:00.000Z	Light-	mshanks	edit /boot/grub/menu.lst and add "acpi=off" after the name of your kernel

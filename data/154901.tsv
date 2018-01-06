@@ -1,0 +1,4 @@
+2007-02-07T10:04:00.000Z	Vuen		hi, how can i check in a bash script whether a file exists?
+2007-02-07T10:06:00.000Z	Vuen		anyone? i need to check via the command line whether a file exists
+2007-02-07T10:07:00.000Z	rapid	Vuen	type ls, if you see it it probably exists.
+2007-02-07T10:07:00.000Z	Vuen	rapid	i need to check this in a script. nevermind i found it, it's if [-e <file>] 

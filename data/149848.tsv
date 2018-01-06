@@ -1,0 +1,4 @@
+2008-01-30T21:01:00.000Z	doctorow		I'd like to recursively delete all the files in my home directory and subdirectories that start with "._" -- rm -r \._* doesn't seem to work -- can someone help?
+2008-01-30T21:02:00.000Z	Pici	doctorow	find ~/ -name "._*" -exec rm '{}' \;
+2008-01-30T21:02:00.000Z	Pici	doctorow	run it without all the -exec stuff first though, to make sure that you are getting the right files.
+2008-01-30T21:03:00.000Z	doctorow	Pici	-- thanks, that's perfect!

@@ -1,0 +1,4 @@
+2007-07-16T10:40:00.000Z	simpleH		hi, my nvidia drivers died on me, and xserver keeps crashing, how do I reinstall the drivers from a command line if I don't think I have them on the system anymore?
+2007-07-16T10:40:00.000Z	simpleH		I'm getting errors like "Failed to load the NVIDIA kernel module!"
+2007-07-16T10:41:00.000Z	simpleH		yeah, I don't think I have them anymore, what's the search command & syntax so I can check?
+2007-07-16T10:42:00.000Z	dxdt	simpleH	otherwise you can do sudo aptitude search nvidia find the package you need and then sudo aptitude install packagehere  which I think will ahve the sname of nvidia-glx if I remember

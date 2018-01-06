@@ -1,0 +1,4 @@
+2009-08-22T22:47:00.000Z	beer_		hey guys, I urgently need some help. I got a new HD last week and set up 3 partitions: one for windows, one for ubuntu, and one for storage.  i installed windows, installed ubuntu, everythign was fine.  after tinkering with Ubu for a while, I realized I didn't really care much for it and decided to delete the partition and add that unallocated space to my windows partition.  now i cant boot into windows.. grub error 17
+2009-08-22T22:47:00.000Z	beer_		any ideas?
+2009-08-22T22:48:00.000Z	beer_		i somehow just need to get rid of grub entirely and get my system thinking windows is my only OS again
+2009-08-22T22:48:00.000Z	stefg	beer_	you need to reinstall the windows mbr instead of grub. this is done by booting the windows install cd, getting recovery console and run fixmbr.

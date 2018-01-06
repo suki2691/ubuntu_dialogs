@@ -1,0 +1,4 @@
+2009-03-21T00:22:00.000Z	maw_		I experienced a power outage and my KDE stopped loading. I found corrupted files in /tmp. I made a new /tmp and set appropiate permissions. However, when I login now I don't see any icons, task bars and I can't right click with my mouse. However, there is a single shell window that opens and I can execute commands in the shell.
+2009-03-21T00:23:00.000Z	ikonia	maw_	I doubt very much that is anything to do with /tmp
+2009-03-21T00:23:00.000Z	ikonia	maw_	/tmp should be 777 fyi
+2009-03-21T00:23:00.000Z	maw_	ikonia	the temp was corrupted... and yes I know the chmod

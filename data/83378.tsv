@@ -1,0 +1,4 @@
+2012-06-21T22:49:00.000Z	thomasbomb		Is there a way to automatically SSH with ubuntu?
+2012-06-21T22:50:00.000Z	thomasbomb		I want to use SSH to change settings on my router when a certain program runs
+2012-06-21T22:52:00.000Z	wcchandler	thomasbomb	you can call ssh to do a command and exit, just like you would if you connected to it...  e.g. "ssh root@host 'uptime'" will return the uptime of host
+2012-06-21T22:53:00.000Z	wcchandler	thomasbomb	you'd need to setup password-less, key based authentication between your machine and the server

@@ -1,0 +1,4 @@
+2008-03-08T17:27:00.000Z	hyder		is Realtek the wireless?
+2008-03-08T17:27:00.000Z	rausb0	hyder	rtl8197 is not supported yet. i just checked the rtl8187 driver in kernel 2.6.24
+2008-03-08T17:32:00.000Z	rausb0	hyder	the composite extension is blacklisted for that card. 3d accel works, but compiz additionally need the composite extension.
+2008-03-08T17:33:00.000Z	rausb0	hyder	if 0bda:8197 is just another usb-id for the rtl8187 chipset, i should be enough to patch the id in the existing driver. but maybe it's a different chip, i don't know.

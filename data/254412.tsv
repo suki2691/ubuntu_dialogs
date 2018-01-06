@@ -1,0 +1,4 @@
+2007-07-24T13:39:00.000Z	dissection		File /home/dissection/.fetchmailrc must have no more than -rwx--x--- (0710) permissions. <---- How do I set that?
+2007-07-24T13:40:00.000Z	TTilus	dissection	chmod 0710 .fetchmailrc
+2007-07-24T13:41:00.000Z	TTilus	dissection	no, you own that file and owner is given all access (the '7' on the hex and 'rwx' part on the symbolic notation)
+2007-07-24T13:42:00.000Z	TTilus	dissection	(given that you really own the file  :)

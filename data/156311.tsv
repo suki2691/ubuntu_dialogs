@@ -1,0 +1,4 @@
+2008-03-12T03:25:00.000Z	carlos		hello all, I'm trying to run "sudo apt-get install ndisgtk" but a message: please insert the disc labeled please insert the disc labeled please insert the disc labeled... so, what can i do to resolve it?
+2008-03-12T03:26:00.000Z	genii	carlos	gksudo gedit /etc/apt/sources.list          and put a # in front of line which is for the cdrom installation disc. Save and then try install again normally
+2008-03-12T03:27:00.000Z	carlos	genii	thanks for you help :)
+2008-03-12T03:28:00.000Z	genii	carlos	np

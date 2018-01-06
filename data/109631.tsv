@@ -1,0 +1,4 @@
+2008-03-10T21:39:00.000Z	the_darkside_986		i'm having trouble getting X server to work on the live CD of Ubuntu 7.04 (PPC). i tried using "r128" as the driver for my ati rage crap thing but X immediately quits. other configurations result in a blank screen.
+2008-03-10T21:40:00.000Z	AJC_Z0	the_darkside_986	Have you tried starting X with no config?
+2008-03-10T21:40:00.000Z	the_darkside_986	AJC_Z0	had no idea that was possible. what is the command for that?
+2008-03-10T21:42:00.000Z	AJC_Z0	the_darkside_986	I presume "X -config /dev/null" would do the trick

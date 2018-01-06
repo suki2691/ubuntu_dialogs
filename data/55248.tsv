@@ -1,0 +1,4 @@
+2009-12-18T06:50:00.000Z	outofthemadness		hey guys, I'm having a bit of a problem. I'm trying to upgrade one of my machines to 9.10 from 9.04 but as soon as the install begins, I get an error message that says 'Can not upgrade:Your python install is corrupted. Please fix the '/usr/bin/python' symlink.' but I've never changed it. Any thoughts?
+2009-12-18T06:51:00.000Z	edbian	outofthemadness	try to purge python all together.  Or check the symlink.  Where should it point.  Where does it point etc etc?
+2009-12-18T06:52:00.000Z	outofthemadness	edbian	it's pointing to /usr/bin/python2.6 ... I'm unsure of where it should point
+2009-12-18T06:52:00.000Z	edbian	outofthemadness	I would suggest just "sudo apt-get remove python" for the install.  Not really good to have a corrupted file anyway

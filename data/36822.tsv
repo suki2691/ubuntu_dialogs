@@ -1,0 +1,4 @@
+2010-05-20T05:15:00.000Z	Typos_King	samd	    I think I've seen a couple of those, it may just be a .deb script deal, doesn't mean the installation didn't go through well
+2010-05-20T05:16:00.000Z	samd	Typos_King	alright, should i just ignore it? or file a bug?
+2010-05-20T05:18:00.000Z	Typos_King	samd	 not a file bug, bear in mind that, apt-get is just a front-end to fetch the files .deb and then pass it over to dpkg for installation, now, the fetching went well, then dpkg went ahead and installed it, based on the 'script' inside the .deb file as instructed, now, ,the error may just be some minor issue at the end of the script, but the installation seem to have gone fine
+2010-05-20T05:19:00.000Z	samd	Typos_King	alright, ill just leave it alone, thanks

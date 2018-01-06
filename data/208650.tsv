@@ -1,0 +1,4 @@
+2005-11-05T16:21:00.000Z	mertl		hi! my question: how can I make my ubuntu use gcc-3.4? it's always trying to use the latest version.
+2005-11-05T16:22:00.000Z	nalioth	mertl	in your console (for temporary use) type "export CC=/usr/bin/gcc-3.4"  for permantent use, add that line to your ~/.bashrc
+2005-11-05T16:26:00.000Z	mertl	nalioth	CC=/usr/bin/gcc-3.4 | gcc --version says version is 4.0. what can I do?
+2005-11-05T16:28:00.000Z	nalioth	mertl	did you "export CC=/usr/bin/gcc-3.4" <enter> ?

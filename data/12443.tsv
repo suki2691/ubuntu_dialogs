@@ -1,0 +1,4 @@
+2011-08-20T23:22:00.000Z	jenk		How do I schedule the computer to shut down after an update ?
+2011-08-20T23:23:00.000Z	zykotick9	jenk	from command line you could use "sudo apt-get upgrade && sudo apt-get shutdown -h now" but it won't shutdown if the upgrade fails, or if the upgrade takes more then 15 minutes :|
+2011-08-20T23:23:00.000Z	zykotick9	jenk	sorry typo "sudo apt-get upgrade && sudo shutdown -h now"
+2011-08-20T23:25:00.000Z	jenk	zykotick9	It might take more time.

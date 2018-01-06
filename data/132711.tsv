@@ -1,0 +1,4 @@
+2008-12-20T00:32:00.000Z	moog_		kill -9 pid
+2008-12-20T00:32:00.000Z	moog_		heh
+2008-12-20T00:32:00.000Z	fryguy	moog_	don't kil -9 unless it's necessary. sending sigkill causes it to forcefully exit and will prevent onclose signal handlers from running, so that it will not clean up.  It should be used as a last resort
+2008-12-20T00:34:00.000Z	fryguy	moog_	if kill itself doesn't work, then move on to kill -9.  the manpage has a list of common signals with a brief definition of them.

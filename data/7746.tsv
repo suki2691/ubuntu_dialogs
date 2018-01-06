@@ -1,0 +1,4 @@
+2011-11-15T11:43:00.000Z	laindir	truepurple	looks like a reboot worked for some users on this thread - http://ubuntuforums.org/showthread.php?t=1604563
+2011-11-15T11:43:00.000Z	truepurple	lorddelta	dr_willis I got a usb flash drive that is like half mounted, perhaps that is interfering with the mounting of my partition? Is there a way to fix this short of reboot?
+2011-11-15T11:44:00.000Z	truepurple		I don't want to reboot every time this happens, it seems to happen too much
+2011-11-15T11:48:00.000Z	laindir	truepurple	scanning further along that thread looks like the actual cause for those users was a hung udisks process... they were able to mount after killing the hung process

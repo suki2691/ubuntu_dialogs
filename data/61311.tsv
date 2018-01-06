@@ -1,0 +1,4 @@
+2009-04-07T22:44:00.000Z	RedMushroom		what's the command that i need to use to get rid of a .gz on the end of a d/l?
+2009-04-07T22:45:00.000Z	grawity	RedMushroom	if it's a .tar.gz, simply use:   tar xf somefile.tar.gz   (this will remove .tar too)
+2009-04-07T22:46:00.000Z	RedMushroom	grawity	thanks!
+2009-04-07T22:46:00.000Z	grawity	RedMushroom	Otherwise (if it's not a .tar), try:   gunzip somefile.gz

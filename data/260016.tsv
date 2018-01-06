@@ -1,0 +1,4 @@
+2006-03-02T12:19:00.000Z	scottj		are there any settings for ssh on the server that need to be set to allow it to transfer faster? I'm using scp and sending a file to a ubuntu server and it's only getting 8kB/s, which seems really lslow
+2006-03-02T12:21:00.000Z	scottj		what's the easiest ftp server to install on ubuntu, perferably one that doesn't take any configuration?
+2006-03-02T12:22:00.000Z	Chris	scottj	they all take config, but proftpd is the most documented
+2006-03-02T12:22:00.000Z	Chris	scottj	i set up proftpd in about 5 minutes

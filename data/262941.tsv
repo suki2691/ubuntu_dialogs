@@ -1,0 +1,4 @@
+2005-03-14T17:26:00.000Z	atrophy		quick question about SAMBA... I've edited every place where it mentions workgroup to "@HOME" but the network browser still thinks my workgroup is "MSHOME" Any ideas?
+2005-03-14T17:26:00.000Z	atrophy		(I edited smb.conf, the registry-type thingie, and the network settings)
+2005-03-14T17:26:00.000Z	atrophy		ok how would I restart samba?
+2005-03-14T17:27:00.000Z	cowbud	atrophy	sudo /etc/init.d/samba restart

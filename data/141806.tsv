@@ -1,0 +1,4 @@
+2007-11-23T14:33:00.000Z	Adriel		Hello, anyone know how to fix "ntldr is missing" on a dell 6400. It happen each time when i try to run medira direct
+2007-11-23T14:34:00.000Z	Adriel		I formated my laptop last night after using ubuntu 7.10 on it
+2007-11-23T14:35:00.000Z	Nom-	Adriel	I had the same problem... sometimes grub doesn't auto-determine the drives properly, try commenting out the map lines in your /boot/grub/menu.lst
+2007-11-23T14:40:00.000Z	Nom-	Adriel	As I said, it's probably grub's config mapping your drives around... comment out the map lines in grub config, and it should work

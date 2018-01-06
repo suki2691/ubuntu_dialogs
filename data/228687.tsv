@@ -1,0 +1,4 @@
+2009-05-22T21:20:00.000Z	sisif		Hello guys. Quick question: which one is better ALSA or PulseAudio ?
+2009-05-22T21:21:00.000Z	Tyler	sisif	pulseaudio requires alsa
+2009-05-22T21:22:00.000Z	Tyler	sisif	ALSA is the audio layer. Pulseaudio is a layer on top that applications can send streams to for mixing, etc.
+2009-05-22T21:22:00.000Z	Tyler	sisif	in general, plain ALSA is better than ALSA+Pulseaudio

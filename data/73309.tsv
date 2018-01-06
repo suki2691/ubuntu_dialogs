@@ -1,0 +1,4 @@
+2008-11-24T19:31:00.000Z	somethingclever		everytime i want to use wireless, i have to type 'sudo modprobe b43' is there any way to make this happen automatically to turn on my wireless on boot?
+2008-11-24T19:33:00.000Z	somethingclever		is there a way for my system to run 'sudo modprobe b43' on boot to start my wireless automatically
+2008-11-24T19:34:00.000Z	oskar-	somethingclever	 yes, fill "b43" in a line into /etc/modules
+2008-11-24T19:36:00.000Z	somethingclever	oskar-	TY sir

@@ -1,0 +1,4 @@
+2005-04-25T16:25:00.000Z	Huey		is there an "official" place to install third-party software that doesn't have a debian package?
+2005-04-25T16:26:00.000Z	Amaranth	Huey	Whereever it drops it, basically. But use checkinstall (apt-get this) and instead of running 'make install' run 'checkinstall'
+2005-04-25T16:26:00.000Z	Amaranth	Huey	It'll create a deb so you can use apt and dpkg to uninstall it later.
+2005-04-25T16:26:00.000Z	Huey	Amaranth	 i don't mean things built from source, i mean third-party stuff like matlab

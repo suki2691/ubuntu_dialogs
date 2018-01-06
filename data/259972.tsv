@@ -1,0 +1,4 @@
+2005-02-12T11:53:00.000Z	ivar		if I have some iptables rules I want to take effect every time I boot, where's the 'ubuntu standard' place to store them ?
+2005-02-12T11:53:00.000Z	Pluk	ivar	place the script in /etc/init.d/
+2005-02-12T11:53:00.000Z	Pluk		then update-rc.d scriptname defaults
+2005-02-12T11:54:00.000Z	ivar	Pluk	thanks..

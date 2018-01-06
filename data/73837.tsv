@@ -1,0 +1,4 @@
+2010-02-13T00:42:00.000Z	ahusak		so I installed xubuntu-desktop, and i'm now trying to remove everything it installed. apt-get remove xubuntu-desktop just seems to remove that package, not all the underlying stuff. What's the magic command to get rid of it all?
+2010-02-13T00:42:00.000Z	blakkheim	ahusak	there isn't one
+2010-02-13T00:44:00.000Z	blakkheim	ahusak	you'll have to uninstall each package that was contained in the metapackage if you want them all done
+2010-02-13T00:44:00.000Z	blakkheim	ahusak	all gone*

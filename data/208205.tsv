@@ -1,0 +1,4 @@
+2005-12-14T11:51:00.000Z	hatred_		saik0; did you pass -v so you get the list? if so, xargs rm and paste it.. if not you'll have to unpack it somewhere else and use find to go through the list and remove the erroneous files
+2005-12-14T11:51:00.000Z	hatred_		saik0; you'll get breakage if it overwrote anything though
+2005-12-14T11:52:00.000Z	frogzoo	hatred_	just do tar -tf to get the list again - tar -tf x.tar | xargs rm should do it
+2005-12-14T11:53:00.000Z	hatred_	frogzoo	yeah that'll work.. i don't mess with tar enough to remember all of its capabilities off the top of my head ;)

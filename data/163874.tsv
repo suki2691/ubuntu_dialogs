@@ -1,0 +1,4 @@
+2007-04-23T10:45:00.000Z	djmccormick		i'm trying to install "VMware-server-1.0.2-39867"with "2.6.20-15-generic". when i go to configure, it says "None of the pre-built vmmon modules for VMware Server is suitable for your running kernel.". it's trying to look in "/lib/modules/2.6.20-15-generic/build/include" which doesn't even seem to exist. any tips?
+2007-04-23T10:46:00.000Z	sohmestra	djmccormick	apt-get install linux-headers-`uname -r` build-essential
+2007-04-23T10:46:00.000Z	djmccormick	sohmestra	i've done that
+2007-04-23T10:48:00.000Z	sohmestra	djmccormick	are you sure you did it for the currently running kernel? That directory should exist, if you've got the kernel headers installed for that kernel

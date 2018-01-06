@@ -1,0 +1,4 @@
+2006-01-19T15:16:00.000Z	dibblego		hello, please excuse my ignorance - I have just mounted my NTFS partition using mount -t ntfs, however, when I attempt to cd to the mount, I have permission denied - what am I missing?
+2006-01-19T15:16:00.000Z	HappyFool	dibblego	add '-o umask=000' to the mount command options
+2006-01-19T15:17:00.000Z	dibblego	HappyFool	ok, I'll give it a burl, thanks
+2006-01-19T15:18:00.000Z	dibblego	HappyFool	that worked, thanks for that

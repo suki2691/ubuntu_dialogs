@@ -1,0 +1,4 @@
+2010-06-09T09:14:00.000Z	paraintj		I'm building a custom menu item for the first time to start a application by starting a .sh file. What do I put in for the command? I believe it has to mv to correct directory then run ./example.sh
+2010-06-09T09:14:00.000Z	makk	paraintj	Start it with #!/binsh
+2010-06-09T09:15:00.000Z	makk	paraintj	No, not mv /usr/blah, but cd /usr/blah
+2010-06-09T09:15:00.000Z	makk	paraintj	mv will move files/folders, cd means change directory

@@ -1,0 +1,4 @@
+2011-06-17T01:19:00.000Z	chrisf		hi, anyone familiar with the overlay-scrollbar package here?
+2011-06-17T01:19:00.000Z	traskers	chrisf	what about it?
+2011-06-17T01:21:00.000Z	chrisf		been having a lot of instability since moving to 11.04 -- X errors that dont make any sense in otherwise-stable gtk apps -- when interacting with the scrollbars. removing the package and using standard scrollbars seems to fix the problem.
+2011-06-17T01:24:00.000Z	chrisf	traskers	unfortunately it's very hard to go digging for *real* crashes, since putting the mouse over the overlay-scrollbar widget tends to hit gdk_x_error spuriously.

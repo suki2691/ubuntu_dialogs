@@ -1,0 +1,4 @@
+2009-05-22T08:42:00.000Z	cyberjorge		how do I install GTK 2.0 in ubuntu 8.10?
+2009-05-22T08:43:00.000Z	crdlb	cyberjorge	what are you compiling?
+2009-05-22T08:44:00.000Z	cyberjorge	crdlb	i need to run a touchscreen calibration utility, it says in its readme to make sure to install GTK 2.0
+2009-05-22T08:46:00.000Z	crdlb	cyberjorge	you already have that; nearly every app on an ubuntu system is using gtk+-2.0, but you need the libgtk2.0-dev package if you're compiling something against gtk

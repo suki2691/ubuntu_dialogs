@@ -1,0 +1,4 @@
+2011-02-10T00:55:00.000Z	_Neytiri_		i am getting this error when i try to restart my network after adding in ipv6 static addresses root@Pandora-Eywa:~# /etc/init.d/networking restart    * Reconfiguring network interfaces...   SIOCADDRT: File exists   Failed to bring up eth0.
+2011-02-10T00:56:00.000Z	_Neytiri_		i am getting this error when i try to restart my network after adding in ipv6 static addresses root@Pandora-Eywa:~# /etc/init.d/networking restart    * Reconfiguring network interfaces...   SIOCADDRT: File exists   Failed to bring up eth0.  what am i doing wrong
+2011-02-10T00:57:00.000Z	ikonia	_Neytiri_	why are you root ?
+2011-08-04T04:09:00.000Z	ikonia	_Neytiri_	sudo apt-get update to get the current versions, then apt-get upgrade to update the packages

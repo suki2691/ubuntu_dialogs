@@ -1,0 +1,4 @@
+2007-09-01T16:46:00.000Z	yagami		is it possible to make an .iso file a cdrom device (not the same thing as mounting with -o loop) so that applications like cedega will be able to mount 'em?
+2007-09-01T16:47:00.000Z	yagami		anyone?
+2007-09-01T16:49:00.000Z	yagami		ok, let me rephrase the question- is it possible to emulate a block device so that I can use .iso images with it? something like DaemonTools/virtual disk in windows.
+2007-09-01T16:50:00.000Z	stefg	yagami	mount -o loop cdimage.iso /media/loopback :-) that's a builtin. if you have .bin/.cue files or stuff, then google for cdemu

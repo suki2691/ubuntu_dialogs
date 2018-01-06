@@ -1,0 +1,4 @@
+2005-12-24T13:19:00.000Z	dooglus	joedj	you can put iptables configuration lines in /etc/network/interfaces - in the "iface eth0" block, put "pre-up /sbin/iptables <arguments>" lines
+2005-12-24T13:19:00.000Z	joedj		yeah, that'll work
+2005-12-24T13:20:00.000Z	joedj	dooglus	i can put it indented under the "iface lo inet loopback", right? the iptables rules relate to lo
+2005-12-24T13:21:00.000Z	dooglus	joedj	I believe so.  I use a "pre-up" line indented there.  I don't know if the indentation serves any purpose other than looking nice though.

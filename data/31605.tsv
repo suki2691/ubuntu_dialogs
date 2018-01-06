@@ -1,0 +1,4 @@
+2010-12-24T23:52:00.000Z	greezmunkey	sasquatch1	you could try pinging the broadcast address on your subnet, let run for a sec or two, stop that and run sudo arp -a to see if an ip address is associated. You can then run nmap against the address to search for open ports, and so on.
+2010-12-24T23:54:00.000Z	sasquatch1	greezmunkey	what is the broadcast address on my subnet?
+2010-12-24T23:57:00.000Z	greezmunkey	sasquatch1	if your ip address is 192.168.1.1 255.255.255.0, your broadcast address is 192.168.1.255
+2010-12-24T23:57:00.000Z	sasquatch1	greezmunkey	thanks for the info!

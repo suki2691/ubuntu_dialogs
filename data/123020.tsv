@@ -1,0 +1,4 @@
+2007-09-09T07:52:00.000Z	cornell		I'm installing firefox from tar ball, following the instructions from their site.  The files are in /usr/local/firefox.  When I do the command "firefox", I'm told that /usr/local/firefox/firefox-bin is not found.  ls -la says it's there.  Do I have to do the command to make a file executable, and what is that command?
+2007-09-09T07:53:00.000Z	dug_	cornell	probably the bin should be at /usr/local/bin/firefox.  if it is at /usr/local/firefox/firefox-bin  then that is not in your PATH.  You can create a symlink (man ln) from the bin to the /usr/local/bin folder
+2007-09-09T07:55:00.000Z	cornell	dug_	the firefox command starts /usr/local/firefox/run-mozilla.sh, which complains of not finding /usr/local/firefox/firefox-bin, by name.   I'm not certain it's a path problem
+2007-09-09T07:59:00.000Z	cornell	dug_	jrib: Oh, and part of the instructions included cd /usr/local/bin;  ln -s ../firefox/firefox

@@ -1,0 +1,4 @@
+2005-04-25T16:07:00.000Z	CarlK		apt-get install kernel-source says "Note, selecting kernel-source-2.4.27 instead of kernel-source" even though I am on the defalt of Linux snubby 2.6.10-5-386 - does this make any sense?
+2005-04-25T16:08:00.000Z	theine	CarlK	try apt-get install linux-source...
+2005-04-25T16:09:00.000Z	CarlK	theine	- thats better - it took me to linux-source-2.6.10
+2005-04-25T16:21:00.000Z	theine	CarlK	sudo apt-get clean

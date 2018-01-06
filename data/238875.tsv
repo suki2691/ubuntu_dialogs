@@ -1,0 +1,4 @@
+2009-02-19T04:16:00.000Z	Sal__		i have a dedicated server on ubuntu, can anyone tell me the best way to vnc to it?
+2009-02-19T04:17:00.000Z	Sal__		also i know this is a ubuntu chan
+2009-02-19T04:17:00.000Z	Sal__		but can anyone tell me the advantages that ubuntu has over debian?
+2009-02-19T04:17:00.000Z	leafw	Sal__	try "vncserver :16" on server and then "vncviewer -via user@server-ip localhost:16"

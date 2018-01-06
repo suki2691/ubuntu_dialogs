@@ -1,0 +1,4 @@
+2007-10-22T13:42:00.000Z	k31th		Uhh guys my ubuntu server, keeps getting it's IP via DHCP but i have set it static in the interface file http://pastebin.ca/745305  the box used to use dhcp (i used dhcp for setting it up). Is there some thing else i have to do? If i restart the network service it uses the static ip i gave it but if i leave it for a while it gets assigned an IP via DHCP... Any ideas?
+2007-10-22T13:44:00.000Z	k31th		i presume i need to dissable this?
+2007-10-22T13:44:00.000Z	k31th		How do i go about doing this.
+2007-10-22T13:44:00.000Z	compwiz18	k31th	kill dhclient with sudo killall dhclient

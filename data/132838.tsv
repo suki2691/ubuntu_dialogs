@@ -1,0 +1,4 @@
+2007-05-28T10:37:00.000Z	Freddie5		when i boot from the live cd, am i able to write to the hard drive? if not, is there a way that i can set it up so i can?
+2007-05-28T10:38:00.000Z	Ropechoborra	Freddie5	you must mount the drive you want to write first
+2007-05-28T10:39:00.000Z	Freddie5	Ropechoborra	im having issues getting windows to boot when i have two hard drives plugged in, so im just going to use the live cd to get one document file that i need from this hard drive. do i just say mount /dev/hd0 or whatever? its been awhile since ive physically mounted something
+2007-05-28T10:40:00.000Z	Ropechoborra	Freddie5	Yeap, first you have to know wich partition to mount, then type mount /dev/PARTITION /mnt

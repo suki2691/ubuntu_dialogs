@@ -1,0 +1,4 @@
+2012-09-15T08:30:00.000Z	MeXTuX		I'm trying to build a C++ code and link it against /usr/lib/libmysqlpp.so but always get /usr/bin/ld: cannot find -llibmysqlpp error I'm using -L /usr/lib -llibmysqlpp does this have something to do with ldconfig?
+2012-09-15T08:31:00.000Z	bkc_	MeXTuX	it's -lmysqlpp
+2012-09-15T08:37:00.000Z	MeXTuX	bkc_	thank you
+2012-09-15T08:37:00.000Z	bkc_	MeXTuX	np

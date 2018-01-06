@@ -1,0 +1,4 @@
+2010-09-16T23:18:00.000Z	molenick		i upgraded from 8.10->10.04 awhile back, and it's great except everytime i ssh i'm forced to "Enter passphrase for key".  any ideas of what's wrong and how i can fix?
+2010-09-16T23:20:00.000Z	molenick		previously, i believe seahorse or something stored the key and auto-unlocked it after login.. but something is different now, i don't know enough to trace the issue
+2010-09-16T23:22:00.000Z	BluesKaj	molenick	just answer yes and a new paasphrase will be generated , then next time you'll just be asked for a pw
+2010-09-16T23:25:00.000Z	BluesKaj	molenick	look for a passphrase in kdesudo kate /home/username/.ssh/known_hosts

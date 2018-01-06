@@ -1,0 +1,4 @@
+2007-04-20T15:25:00.000Z	arooni		how can i get ubuntu to ACTUALLY REMOVE ALL FILES when i do sudo apt-get remove eclipse  (i want all bits of eclipse gone)
+2007-04-20T15:26:00.000Z	magnetron	arooni	sudo apt-get autoremove
+2007-04-20T15:45:00.000Z	magnetron	arooni	don't delete the files manually, use synaptic to install /uninstall software
+2007-07-08T16:20:00.000Z	magnetron	arooni	you need to install the packages bluez-gnome and gnome-bluetooth. they will let you connect to mobile phones with gnome. the bluez-sco package will let you use a headset, but it will require manual command-line configuration.

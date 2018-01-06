@@ -1,0 +1,4 @@
+2005-07-11T05:09:00.000Z	Choris		noone knows how to create framebuffer device?
+2005-07-11T05:10:00.000Z	Seveas	Choris	why do you need one..?
+2005-07-11T05:11:00.000Z	Seveas	Choris	try: mknod /dev/fb0 c 29 0
+2005-07-11T05:12:00.000Z	Seveas	Choris	now retrt, if it doesn't work: modprobe vesafb

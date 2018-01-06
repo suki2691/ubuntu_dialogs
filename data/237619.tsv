@@ -1,0 +1,4 @@
+2005-05-24T15:13:00.000Z	philc1		(my internet is shakey)
+2005-05-24T14:02:00.000Z	philc1		Is there a utility or script I can use to benchmark how long my battery will last? It is not supported by acpi and so I can't monitor its charge directly, but would like to run the system until it powers off and have a time recorded on my hard drive.
+2005-05-24T14:03:00.000Z	HappyFool	philc1	i see in /var/log/messages a '--- MARK ---' message every ten minutes -- maybe you could use that (just look at the log file after you reboot)
+2005-05-24T14:05:00.000Z	philc1	HappyFool	it's every 20mins on mine, but I see another message every few seconds (some acpi error) so that will work. Thanks!

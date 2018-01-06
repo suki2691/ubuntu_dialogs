@@ -1,0 +1,4 @@
+2007-10-18T16:42:00.000Z	kemean		Can awk use back-quote to run a shell command?
+2007-10-18T16:43:00.000Z	dooglus	kemean	awk '{system("/bin/rm foo")}'
+2007-10-18T16:44:00.000Z	dooglus	kemean	awk uses 'system()', not backquote
+2007-10-18T16:45:00.000Z	dooglus	kemean	awk can't write to shell variables.  nothing can apart from the shell

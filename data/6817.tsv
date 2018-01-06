@@ -1,0 +1,4 @@
+2011-12-27T02:23:00.000Z	srm_fake		Hello. I'm logged in as an admin user. When trying to install a packet via Ubuntu Software Center 2.0.7, the sudo dialog requires me to enter the password of another user (there are two admin accounts on this notebook). Why is the dialog not requesting my password?
+2011-12-27T02:25:00.000Z	mebigfatguy1	srm_fake	what does     su srm_fake -c your-command                                       do
+2011-12-27T02:28:00.000Z	mebigfatguy1	srm_fake	your admin account, not the other one that you need to enter the password for
+2011-12-27T02:29:00.000Z	srm_fake	mebigfatguy1	su for my admin account is working. I've tested with 'ls'.

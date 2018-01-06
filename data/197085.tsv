@@ -1,0 +1,4 @@
+2007-06-15T11:29:00.000Z	maeth		hi, im trying to access from a remote computer my samba share, it ask me for a user and pass, i tried the login of my machine but it wont pass..
+2007-06-15T11:30:00.000Z	noiesmo	maeth	you need to create a username and password with "sudo smbpasswd username"
+2007-06-15T11:31:00.000Z	maeth	noiesmo	ok
+2007-06-15T11:31:00.000Z	noiesmo	maeth	or you can change some settings in smb.conf to remove username /password but not as secure

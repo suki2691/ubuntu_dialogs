@@ -1,0 +1,4 @@
+2005-10-23T15:29:00.000Z	Aquatopia		I have no idea how the package development for ubuntu is done, but how can I find who is responsible for a package ?
+2005-10-23T15:30:00.000Z	crimsun	Aquatopia	you can look at the maintainer field using apt-cache show <package>
+2005-10-23T15:30:00.000Z	crimsun	Aquatopia	be careful if it's a universe or multiverse package, though
+2005-10-23T15:30:00.000Z	crimsun	Aquatopia	we haven't changed all those over

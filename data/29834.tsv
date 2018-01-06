@@ -1,0 +1,4 @@
+2010-07-08T23:52:00.000Z	timemachine3030		question: how can I change my dns servers for a specific wireless network?  i tried editing resolv.conf but NetworkManager overwrites them.  I can not find an option in NetworkManager to change them.
+2010-07-08T23:54:00.000Z	bastidrazor	timemachine3030	right click nm-applet in the gnome-panel then edit connections > wireless connections > select one > IPv4 settings, you need to set Method to DHCP only or manual to edit the DNS Servers
+2010-07-08T23:59:00.000Z	timemachine3030	bastidrazor	thanks. there is only space for one server.  Can I somehow add another?
+2010-07-08T23:59:00.000Z	bastidrazor	timemachine3030	ip1, ip2, ip3 etc.. seperate with a comma

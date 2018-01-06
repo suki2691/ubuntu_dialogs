@@ -1,0 +1,4 @@
+2005-11-01T16:09:00.000Z	kresten		How do I mount a cd-drive from the teminal?
+2005-11-01T16:10:00.000Z	Ng	kresten	This ought to do the trick: sudo mount /dev/cdrom /media/cdrom0
+2005-11-01T16:10:00.000Z	kresten	Severian	yup!
+2005-11-01T16:10:00.000Z	Ng	kresten	in fact you shouldn't even need the sudo if the drive was detected by the ubuntu installer

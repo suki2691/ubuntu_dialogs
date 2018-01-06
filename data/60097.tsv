@@ -1,0 +1,4 @@
+2009-04-18T21:44:00.000Z	LeonBrussels		This has been bothering me for some time: I am on a volume limited internet connection and I have multiple Ubuntu computers. Is there an (easy) way to let one computer mirror the updates to all of the others? Maybe just make the apt-cache a samba share...?
+2009-04-18T21:45:00.000Z	igorsh	LeonBrussels	try apt-proxy
+2009-04-18T21:46:00.000Z	igorsh	LeonBrussels	or you can easy create a full local mirror with apt-mirror
+2009-04-18T21:47:00.000Z	LeonBrussels	igorsh	I believe a full mirror is a few gigs, and as I said I am on a limited connection, so just downloading everything is not an option. apt-proxy looks good though...

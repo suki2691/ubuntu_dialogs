@@ -1,0 +1,4 @@
+2009-02-03T02:05:00.000Z	D3JAVU		a
+2009-02-03T02:05:00.000Z	D3JAVU		HI all
+2009-02-03T02:06:00.000Z	D3JAVU		i delete my xorg cont :( and wont restor original xorg conf how can i make that ???
+2009-02-03T02:07:00.000Z	nickrud_	D3JAVU	sudo dpkg-reconfigure -pcritical xserver-xorg will recreate a default xorg.conf

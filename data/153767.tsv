@@ -1,0 +1,4 @@
+2007-05-20T09:02:00.000Z	Dragnslcr		When I connect an SATA drive, what do I have to do to get the system to detect it?
+2007-05-20T09:03:00.000Z	Dragnslcr		Pelo- I tried checking /dev for sdb (my primary disk is sda), and I didn't see anything
+2007-05-20T09:04:00.000Z	vox754	Dragnslcr	"sudo fdisk -l"  shows everything detected, usb also
+2007-05-20T09:10:00.000Z	vox754	Dragnslcr	yes, probably. Also you need to plug the power cables and check the bios if it is detected there.

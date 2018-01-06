@@ -1,0 +1,4 @@
+2008-01-30T22:55:00.000Z	Rytmis		Having the weirdest issue: optical drive bay won't open. It tries a couple of times and then gives up. Tried pressing the eject button and sudo eject /dev/hdc on cmdline.
+2008-01-30T22:55:00.000Z	DRebellion	Rytmis	have you unmounted it?
+2008-01-30T22:55:00.000Z	Rytmis		I read that there's a lockdoor=0 parameter I can give to the cdrom module, but I can't find a reference to it in /etc/modprobe.d so I don't know where to put it
+2008-01-30T22:56:00.000Z	Rytmis	DRebellion	ah sorry, forgot to say: no disc inside.

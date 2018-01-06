@@ -1,0 +1,4 @@
+2007-02-21T07:45:00.000Z	rogier		i have an external hard drive, when i connect it i can open the files, but i can't put new files on there. I get an warning: "you don't have writing rights for this folder" (translated from dutch so exact massage could't be a little different). How can i get writing rights?
+2007-02-21T07:46:00.000Z	lawine	rogier	what type of FS is on the drive?
+2007-02-21T07:48:00.000Z	lawine	rogier	no, doesn't have to be.. What does 'mount' say when you have the drive connected?
+2007-02-21T07:49:00.000Z	lawine	rogier	there you go. Ubuntu doesn't do writing to ntfs by default.

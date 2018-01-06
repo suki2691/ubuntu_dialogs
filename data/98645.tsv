@@ -1,0 +1,4 @@
+2008-03-01T21:57:00.000Z	rhsanborn		Hey guys, I'm running gutsy on an HP laptop. I'm using ndiswrapper to get wireless with wpasupplicant, and it does work. The only problem I have, is that every time I login, I have to open the network manager and clear out and type my passkey back in to get it to reconnect
+2008-03-01T21:58:00.000Z	rhsanborn		Any ideas? I'm almost to the point that I'm going to write a short shell script to run the iwconfig commands manually.
+2008-03-01T21:58:00.000Z	senselab	rhsanborn	try sudo modprobe -r bcm43xx then sudo modprobe bcm43xx
+2008-03-01T22:00:00.000Z	rhsanborn	senselab	I think that it has found the wireless card correctly, it certainly knows how to use it. It's just isn't convenient.

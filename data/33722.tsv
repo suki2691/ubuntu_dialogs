@@ -1,0 +1,4 @@
+2010-04-21T07:24:00.000Z	nirvous		hello all - multi-kernel question: how might I go about installing a 2.6.24 (hardy) kernel alongside my current Karmic kernel?
+2010-04-21T07:25:00.000Z	mcurran	nirvous	- just install it sudo apt-get dist-upgrade, grub will create another entry and preserve the old kernel.
+2010-04-21T07:25:00.000Z	mcurran		you might want to just install the linux-image and headers instead, since the upgrade will be another version
+2010-04-21T07:27:00.000Z	nirvous	mcurran	- thanks. yes - if possible, i'd like to avoid an entire upgrade. do I need to add a different repository?

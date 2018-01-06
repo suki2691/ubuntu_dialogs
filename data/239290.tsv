@@ -1,0 +1,4 @@
+2006-06-04T16:13:00.000Z	M_Fatih		hi guys.. i have a big problem..  X can't start.. i compiled my intel graphic card driver// how can i reinstall my intel graphic card driver from ubuntu archives? i replaced all my /usr/lib/xorg/modules files.. but it sucked.. how can i unduo this?
+2006-06-04T16:14:00.000Z	RRubin	M_Fatih	your first lesson in not ****ing with the package management system. you may need to do an install again
+2006-06-04T16:14:00.000Z	M_Fatih	RRubin	reinstall ubunutu?
+2006-06-04T16:15:00.000Z	RRubin	M_Fatih	it depends... you could try re-installing the packages that own those files, but they may not uninstall cleanly because of your changes, so it'll be hard

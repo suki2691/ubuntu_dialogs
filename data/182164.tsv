@@ -1,0 +1,4 @@
+2006-06-03T06:15:00.000Z	Valentos		the fan on laptop is almost constantly on, (it reduces my batterylife drasticly is there a how to on it (got a acer ferrari 3400))?
+2006-06-03T06:16:00.000Z	kimo_	Valentos	just maybe, check /proc/acpi/fan/ and try to 'echo  0 > somefile'
+2006-06-03T06:17:00.000Z	Valentos	kimo_	 im a noob u need to tell me what to type on the terminal
+2006-06-03T06:19:00.000Z	kimo_	Valentos	not sure, try this 'echo 0 > /proc/acpi/fan/FAN1/state'

@@ -1,0 +1,4 @@
+2011-12-20T08:15:00.000Z	shade34321		this is more of a linux question but I haven't been able to find the answer yet from google. How do you find where a process is running from. For instance if i do /etc/init.d/slurm status I get nothing since slurm isn't located in /etc/init.d yet when i do top | grep "slurm" it's running. I need to restart the process and want to make sure i can
+2011-12-20T08:15:00.000Z	cipherboy	shade34321	want the path to the process?
+2011-12-20T08:17:00.000Z	cipherboy	shade34321	ls -l /proc/PID | grep 'exe'
+2011-12-20T08:20:00.000Z	cipherboy	shade34321	might try a rhel channel then.

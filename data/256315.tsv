@@ -1,0 +1,4 @@
+2012-11-17T01:29:00.000Z	Teduardo		does anyone know where upstart gets it's settings for the command start mysql/stop mysql?
+2012-11-17T01:30:00.000Z	Teduardo		I did update-rc.d mysql remove
+2012-11-17T01:30:00.000Z	Teduardo		and if i type start mysql it still tries to start it
+2012-11-17T01:30:00.000Z	dr_willis	Teduardo	 upstart uses servicename.conf files in /etc/init/

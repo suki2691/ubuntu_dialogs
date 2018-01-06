@@ -1,0 +1,4 @@
+2010-05-05T19:23:00.000Z	bradbook		Hi folks, I'm using Lucid. I've installed, uninstalled and reinstalled a couple of applications a number of times, and they now no longer appear in my GNOME Applications menu. I've looked in /usr/share/applications, and they don't show up here either. Can anyone help?
+2010-05-05T19:24:00.000Z	airtonix	bradbook	most applications for users have their binaries located in /usr/bin or /usr/share/bin
+2010-05-05T19:24:00.000Z	airtonix	bradbook	locate appname | grep /usr
+2010-05-05T19:24:00.000Z	bradbook	airtonix	Aye, but the menu items are sourced from /usr/share/applications - it's curious the packages aren't putting the appname.desktop file in there

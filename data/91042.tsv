@@ -1,0 +1,4 @@
+2008-08-31T05:56:00.000Z	jscinoz		hi guys
+2008-08-31T05:58:00.000Z	jscinoz		i have a sparse 100gb disk image (created with dd if=/dev/zero of=/path/to/file bs=1M count=0 seek=100000) which has a LUKS ext3 filesystem in it, this set up works perfectly, but its a bit of a pain mounting it (3 commands are needed: losetup /dev/loop1 /path/to/img; cryptsetup luksOpen /dev/loop1 something; and finally mount /dev/mapper/something mountpoint) i'm wondering if an easy program exists to automate these 3 steps?
+2008-08-31T05:59:00.000Z	mgolisch	jscinoz	write a shellscript?
+2008-08-31T05:59:00.000Z	jscinoz	mgolisch	yeah i will try that in a second, also was wondering if there is any way to do this without root, ie FUSE perhaps?

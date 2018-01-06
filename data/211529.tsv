@@ -1,0 +1,4 @@
+2011-08-06T07:35:00.000Z	ghassan		how can I edit the path for all users on my system?
+2011-08-06T07:35:00.000Z	ghassan		the path variable
+2011-08-06T07:35:00.000Z	ghassan		PATH=$PATH:/path/to/where  works but seems like only for the user I am logged in as
+2011-08-06T07:37:00.000Z	Dulak	ghassan	add a file like 'newpath.sh' to /etc/profile.d and have it set the path.  That will affect all users

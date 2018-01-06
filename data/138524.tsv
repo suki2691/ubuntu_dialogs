@@ -1,0 +1,4 @@
+2008-05-27T15:31:00.000Z	Slasher`		hi all, i was wondering if someone could give me a hand... i installed apache2 and completely buggered it up so i did an apt-get remove and removed the apache2 directory in /etc/... now when i reinstall apache2 via apt i cant get it back... is there any way i can get the apache2 directory back?
+2008-05-27T15:32:00.000Z	Slasher`		well, i think its ext3... its ubuntu server 7.10
+2008-05-27T15:33:00.000Z	magnetron	Slasher`	maybe you want to do a "sudo apt-get purge apache2"
+2008-05-27T15:33:00.000Z	magnetron	Slasher`	purge does a complete removal, including the settings files

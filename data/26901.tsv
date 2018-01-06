@@ -1,0 +1,4 @@
+2010-08-27T22:00:00.000Z	Duke_Harris		hey guys, I have a problem on ubuntu lucid. I deleted the generic linux-headers folder in /usr/src because I messed up some files in it. I thought after reinstalling linux-headers-generic the folder would appear again, but it doesn't. How do I get the generic linux headers folder back?
+2010-08-27T22:01:00.000Z	trism	Duke_Harris	linux-headers-generic is just a meta package, you would need to reinstall the actual headers package for your current kernel
+2010-08-27T22:02:00.000Z	trism	Duke_Harris	such as linux-headers-2.6.32-24-generic if you have an up-to-date lucid install
+2010-08-27T22:04:00.000Z	Duke_Harris	trism	thanks, worked well

@@ -1,0 +1,4 @@
+2005-10-23T07:25:00.000Z	aariel		anyone care to (attempt to) offer up an answer to what might be a non-ubuntu-specific issue i'm having?
+2005-10-23T07:25:00.000Z	greg_s	aariel	shoot
+2005-10-23T07:29:00.000Z	greg_s	aariel	if you have the headers, sometimes configure dosen't look into the right directories..  maybe add -I/<locationd of headers>
+2005-10-23T07:32:00.000Z	greg_s	aariel	sorry, from configure try configure --help and add directory to whatever the variable it likes  (something like --xincludes=<directory>

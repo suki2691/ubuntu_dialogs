@@ -1,0 +1,4 @@
+2010-07-05T01:56:00.000Z	wanderingi		im trying to install a web script but its telling me certain directories are unwritable. I am logged in as user and the directories are owned by the group the user belongs to. Would the web script be trying to run as something else and what would i need to do?
+2010-07-05T01:58:00.000Z	slidinghorn	wanderingi	usually it's because apache is running as a different user...you may have to chown the directories -- run:  ps aux | grep apache     that will tell you what user apache is running as
+2010-07-05T02:00:00.000Z	wanderingi	slidinghorn	user     11274  0.0  0.0   3324   796 pts/0    S+   22:00   0:00 grep --color=auto apache
+2010-07-05T02:19:00.000Z	slidinghorn	wanderingi	what is this script?

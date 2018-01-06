@@ -1,0 +1,4 @@
+2011-09-14T06:21:00.000Z	Datz		hi, all the sudden, I see that eth2 is being used. I have a configuration for eth1 setup. How can I switch back?
+2011-09-14T06:22:00.000Z	theadmin	Datz	Create an udev rule file with something like this in it: KERNEL=="eth*", SYSFS{address}=="yo:ur:ma:c:add:ress", NAME="eth1"
+2011-09-14T06:23:00.000Z	Datz	theadmin	ah I see. can I remove udev rules and have them auto created?
+2011-09-14T06:24:00.000Z	theadmin	Datz	Um, no, you have to write that manually

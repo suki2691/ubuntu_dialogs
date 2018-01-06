@@ -1,0 +1,4 @@
+2008-08-14T15:30:00.000Z	p4_xxx		hi, i have been reading a lot about how can i configure an account user to restric them in only see her/his home directory and not to see other user account and surf around them but im confused, i created an account with the name guest without privileges but with this account im able to see everything on other users account. can someone help if is it possible to achieve this in ubuntu?
+2008-08-14T15:31:00.000Z	duncan_busy	p4_xxx	you need to go to the other accounts and make sure that the bottom set of permission 'Others' does not have read any rights.
+2008-08-14T15:31:00.000Z	duncan_busy	p4_xxx	I'm talking about 'System > Settings > Users & Groups'
+2008-08-14T15:32:00.000Z	duncan_busy	p4_xxx	world = 'Others'

@@ -1,0 +1,4 @@
+2004-10-28T15:46:00.000Z	Dethread		when I do "nmap localhost" it tells me, that port 25 (smtp) is open. why is this, and how do I turn it off?
+2004-10-28T15:47:00.000Z	sg_	Dethread	/etc/init.d/postfix stop
+2004-10-28T15:48:00.000Z	Dethread	sg_	thanks
+2004-10-28T15:48:00.000Z	sg_	Dethread	that'll only stop it for now - you'll need to remove the symlinks in /etc/rc3.d

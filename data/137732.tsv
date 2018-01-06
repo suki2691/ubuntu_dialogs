@@ -1,0 +1,4 @@
+2009-12-29T14:47:00.000Z	dandaman		so how come my new hard drive that is 1.5tb can only fill up to 1.36 tb, I know this is normal for hard drives, but im curious
+2009-12-29T14:47:00.000Z	dandaman		is there a filesystem that i can format it under so it can store closer to 1.5?
+2009-12-29T14:47:00.000Z	llutz	dandaman	marketing, some calc with 10 others with powers of 2
+2009-12-29T14:48:00.000Z	llutz	dandaman	if using extX on that hdd, set reserved-blocks to 0 (tune2fs -m)

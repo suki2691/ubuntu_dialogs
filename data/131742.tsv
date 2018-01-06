@@ -1,0 +1,4 @@
+2012-03-11T22:51:00.000Z	CacheMoney		I installed Ubuntu (32-bit) on an old laptop yeterday and it went fairly smoothly (after setting up the wireless card).  However, I'd like to now dual-boot with my new laptop but I'm unsure if I should go with the 32-bit or 64-bit version.  On the Ubuntu page it says 32-bit (recommended)
+2012-03-11T22:53:00.000Z	bastidrazor	CacheMoney	grep lm /proc/cpuinfo   ..if you get a result you have a 64bit processor and could use the amd64 version
+2012-03-11T22:54:00.000Z	bastidrazor	CacheMoney	its going to say the same thing. it does not check anything on your computer to determine that.
+2012-03-11T22:55:00.000Z	bastidrazor	CacheMoney	the only thing to think about is the 32bit version will see only 3.2GB of RAM. the 64bit will see all you have. there is no real difference other than that.

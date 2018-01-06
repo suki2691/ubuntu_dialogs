@@ -1,0 +1,4 @@
+2008-02-10T14:34:00.000Z	jm_		how do you unzip/uncompress a .cpgz file?
+2008-02-10T14:35:00.000Z	spdf	jm_	its a gzip'd cpio archive
+2008-02-10T14:36:00.000Z	jm_	spdf	how do i open it?
+2008-02-10T14:38:00.000Z	spdf	jm_	gunzip it, then I believe 'cpio -id < filename'

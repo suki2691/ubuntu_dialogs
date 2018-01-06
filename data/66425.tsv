@@ -1,0 +1,4 @@
+2009-08-13T20:12:00.000Z	dalekleader		i hope someone can help me.  I had tried to setup a BIND9 dns on a server.  I later aborted it and removed the package.  now I cannot seem to get this server to connect to the web.  when I try to host google.com it appends my old domain name to the end and ofcourse fails.
+2009-08-13T20:12:00.000Z	mzz	dalekleader	anything fishy in /etc/resolv.conf?
+2009-08-13T20:13:00.000Z	dalekleader	mzz	no, it only shows my isp info
+2009-08-13T20:15:00.000Z	mzz	dalekleader	then I don't know what's up, sorry. Might want to doublecheck /etc/nsswitch.conf too, but I don't know what'd be in there that'd break it like this.

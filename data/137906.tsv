@@ -1,0 +1,4 @@
+2012-09-20T22:42:00.000Z	Koen_		anyone knows what might be the problem if i can access vsftpd from lan and not from wan, i tested it with my firewall temperaly disabled and had no result
+2012-09-20T22:43:00.000Z	llutz	Koen_	"sudo lsof -i :21"  are you sure it listens on all interfaces, not localhost only?
+2012-09-20T22:44:00.000Z	llutz	Koen_	"sudo lsof -i :2121"  are you sure it listens on all interfaces, not localhost only?
+2012-09-20T22:46:00.000Z	llutz	Koen_	no output? means no service listening on that port at all or you're using (x)inetd or something like that

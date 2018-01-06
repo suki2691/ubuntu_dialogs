@@ -1,0 +1,4 @@
+2010-07-02T10:03:00.000Z	{C}ronos		I am about to do a new install, and was wondering on some opinions on how to partition ubuntu. between / /home and swap, wich is primary? what goes in the begining or end of the drive? I have a 500 gig HDD with 4 gigs of RAM.
+2010-07-02T10:05:00.000Z	LJRuff	{C}ronos	All are primary, all at beginning - / should be around 7 gigs, swap should be at least the size of your ram and /home should take up the rest
+2010-07-02T10:05:00.000Z	LJRuff	{C}ronos	don't forget one for /boot too to hold grub (1 gig)
+2010-07-02T10:06:00.000Z	{C}ronos	LJRuff	Thanks for the info. I have been reading alot on it, but wanted to see some answers in real time.

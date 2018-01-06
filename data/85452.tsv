@@ -1,0 +1,4 @@
+2008-11-08T00:28:00.000Z	hubar	Marsjanin	try /usr/bin/gedit instead of just gedit itself.
+2008-11-08T00:29:00.000Z	Marsjanin	hubar	but it works for non-X-window apps, like wget.
+2008-11-08T00:33:00.000Z	Marsjanin	hubar	tested now: simple command echo "text" > text.txt works OK in cron. The problem is only with displaying X-window apps. Running, not only displaying (if it's possible) - pgrep can't find them.
+2008-11-08T00:34:00.000Z	hubar	Marsjanin	sorry can not help you there. :(

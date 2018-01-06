@@ -1,0 +1,4 @@
+2006-07-01T09:35:00.000Z	dribble		hey guys, so. . .my boxes cannot resolve each others names on the same subnet.  when doing rsync/scp between them, hell, even to ping, i need to explicitly enter the relevent IP address.  how can i remedy this?
+2006-07-01T09:37:00.000Z	wastrel	dribble	 add them to /etc/hosts  ?
+2006-07-01T09:37:00.000Z	dribble	wastrel	so i have to do it explicitly?
+2006-07-01T09:42:00.000Z	wastrel	dribble	 i think that's the easiest way

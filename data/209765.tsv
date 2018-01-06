@@ -1,0 +1,4 @@
+2006-12-29T08:49:00.000Z	matason		What's the best approach for trouble-shooting total lock ups in Ubuntu 6.06?
+2006-12-29T08:50:00.000Z	matason		It happens randomly
+2006-12-29T08:50:00.000Z	LjL	matason	dmesg may be a good start, then grep through all of /var/log.  also, i suggest that when it locks you, you try pressing SysRq (which is usually AltGr+SysRq, really) together with the following keys, in sequence: R S E I U B
+2006-12-29T08:51:00.000Z	LjL	matason	that will hopefully reboot the system more cleanly than if you just pressed the Reset switch, avoiding filesystem corruptions and giving the system more chances to actually *write* stuff to the logs

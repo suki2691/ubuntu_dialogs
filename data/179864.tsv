@@ -1,0 +1,4 @@
+2006-07-09T08:33:00.000Z	MSch		why does gnome use a different $PATH than the shell and how can i change it?
+2006-07-09T08:33:00.000Z	jrib	MSch	/etc/login.defs is what sets your path... you can use ~/.gnomerc for your user
+2006-07-09T08:37:00.000Z	MSch	jrib	there's no .gnomerc on my ubuntu, is it a simple shell script just like .bashrc?
+2006-07-09T08:37:00.000Z	jrib	MSch	yeah, you can just create it

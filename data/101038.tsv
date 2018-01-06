@@ -1,0 +1,4 @@
+2008-06-09T11:48:00.000Z	idran2		Hi to all. I have a problem with jack (audio connection kit). I  have just installed it on my kubuntu 8.04. This is the log of the terminal: http://paste.ubuntu.com/18660/
+2008-06-09T11:49:00.000Z	cabrioleur	idran2	you have to disable PulseAudio before using jack
+2008-06-09T11:50:00.000Z	idran2	cabrioleur	how can i disable pulse audio in kubuntu?
+2008-06-09T11:53:00.000Z	cabrioleur	idran2	I din't know you have kubuntu. What's the output of "jackd -R -d alsa -d hw:0"?

@@ -1,0 +1,4 @@
+2005-05-29T07:45:00.000Z	anto9us		acpi suspend to ram stopped working for me after installing fglrx drivers for my radeon 9700, my screen trashes and the system locks, anyone know how to fix it?
+2005-05-29T07:46:00.000Z	thr1ce	anto9us	add a tmpfs to your /etc/fstab
+2005-05-29T07:47:00.000Z	anto9us	thr1ce	thanks, I'll try that
+2005-05-29T07:47:00.000Z	thr1ce	anto9us	google for tmpfs ATI driver or something; also, make sure you ran through fglrxconfig, and make SURE you use externalAGP

@@ -1,0 +1,4 @@
+2007-12-21T17:18:00.000Z	neus		Hey guys, I want to transfer files between my ubuntu machine and my windowsxp machine. They are both on the same roter and there is a lot of data: I'd like to write to a share on the windows machine -- how do I do this?
+2007-12-21T17:20:00.000Z	g00se	neus	Mount the share using smbfs
+2007-12-21T17:26:00.000Z	neus	g00se	I've installed samba now: how do I mount a windows share?
+2007-12-21T17:26:00.000Z	g00se	neus	try something like sudo mount -t smbfs windowsbox:/share /winbox

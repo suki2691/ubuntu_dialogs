@@ -1,0 +1,4 @@
+2007-08-27T15:39:00.000Z	Cuzz		Has anybody tried to install Nvidia 88** card. Im using this tutorial: http://www.yaroman.net/2007/08/14/howto-install-nvidia-8600gt/   . In step 4 i run sudo sh NV (driver) and i get an error saying "You appear to be running an X server; please exit before installing. How do i exit X. I cant find anything in the Nvidia README.
+2007-08-27T15:40:00.000Z	Cuzz		hehe
+2007-08-27T15:40:00.000Z	monokrome	Cuzz	/etc/init.d/gdm stop
+2007-08-27T15:40:00.000Z	monokrome	Cuzz	/etc/init.d/gdm start

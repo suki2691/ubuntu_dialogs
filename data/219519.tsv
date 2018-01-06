@@ -1,0 +1,4 @@
+2008-11-15T11:04:00.000Z	flaccid		i just upgraded to intrepid from hardy and it seems to have changed the logical device naming of my partitions so it cannot boot. its like it has swapped sda1 and sda2 around. what is the problem and how to fix. the same sort of thing happened last upgrade
+2008-11-15T11:06:00.000Z	flaccid		actually seems that in each release the logical naming scheme changes. my hda has now changed to sda and the update-grub on upgrade doesn't seem to produce the right logical names. seems like ubuntu is majorly flawed here
+2008-11-15T11:06:00.000Z	flaccid		hmm and this channel is always the case of too many indians and no chiefs...
+2008-11-15T11:07:00.000Z	Flannel	flaccid	Hardy should have been using sda as well.  However, most places use UUID now, if not all.

@@ -1,0 +1,4 @@
+2009-07-20T02:34:00.000Z	Robert__		Robert2009
+2009-07-20T02:35:00.000Z	Robert__		hi i am using Ubuntu 9.04 and my laptop has Ati Radeon 9700 how can i find the correct driver?
+2009-07-20T02:35:00.000Z	Robert__		it currently at 1024 x768 only
+2009-07-20T02:36:00.000Z	jmigel	Robert__	ATI 9700 is covered in xorg's free driver and id recommend just using that... at console type 'glxinfo | grep direct' to confirm

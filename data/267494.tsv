@@ -1,0 +1,4 @@
+2011-03-31T01:55:00.000Z	Nonamehero2		I installed Ubuntu 10.10 b4 bit and when my computer tries to boot up i get this message "error: no such device:(bunch of letters and numbers)". Can someone help me fix my computer so i can boot into Ubuntu?
+2011-03-31T01:56:00.000Z	maco	Nonamehero2	i'd boot from a live cd and run "blkid" to get the uuid for the partitions on your system, then compare them to what's in /etc/fstab and make sure they match
+2011-03-31T01:56:00.000Z	maco	Nonamehero2	its looking for a certain uuid and not finding it which either means its wrong (could happen if you modify the partition table) or that your disk has failed and that partition has gone kablooey
+2011-03-31T01:57:00.000Z	maco	Nonamehero2	sure

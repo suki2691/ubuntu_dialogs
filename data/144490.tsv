@@ -1,0 +1,4 @@
+2008-01-12T17:02:00.000Z	Tilllinux		hm, I wanted to try out kde, so I did sudo apt-get install kde . logged out, logged in (kde session) that worked. As I don't like/use it, I'd like to remove it again. How to do that?
+2008-01-12T17:03:00.000Z	Tilllinux		well, that'll just remove the meta package kde
+2008-01-12T17:03:00.000Z	Tilllinux		but not the apps that were installed alongside (?)
+2008-01-12T17:03:00.000Z	crdlb	Tilllinux	then use sudo apt-get autoremove

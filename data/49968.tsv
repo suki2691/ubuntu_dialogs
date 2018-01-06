@@ -1,0 +1,4 @@
+2010-01-06T14:38:00.000Z	scyx		is it even possible to start a script after connecting to a wireless internet connection? or do i have to manually write a script for it that detects the connection?
+2010-01-06T14:39:00.000Z	ziroday	scyx	putting a script in /etc/network/if-up.d/ might do it, not sure
+2010-01-06T14:40:00.000Z	scyx	ziroday	afaik those are executed when the device powers up, so it probably isn't connected at that point
+2010-01-06T14:41:00.000Z	ziroday	scyx	I was under the impression the scripts were run as soon as a network connection was established, feel free to try it out

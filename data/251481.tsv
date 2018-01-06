@@ -1,0 +1,4 @@
+2007-10-22T06:54:00.000Z	arch1k		Astro76:  Done, Now i have a 1.2GB swap partition. The only problem is that it is not swapon when i restart
+2007-10-22T06:54:00.000Z	arch1k		how?
+2007-10-22T06:54:00.000Z	cafuego	arch1k	The UUID will have changed. get the new UUID and update /etc/fstab.
+2007-10-22T06:56:00.000Z	cafuego	arch1k	The old one should still be in fstab for the swap partition

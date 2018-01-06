@@ -1,0 +1,4 @@
+2008-11-02T02:30:00.000Z	jin_	jrib	I really don't want to compile it myself
+2008-11-02T02:32:00.000Z	jrib	jin_	I don't mean downloading the ffmpeg tarball and compiling, I actually mean just rebuilding the package (apt-get install build-essential, apt-get build-dep ffmpeg, apt-get source ffmpeg, edit debian/rules, dpkg-buildpackage -rfakeroot -us -uc -b)
+2008-11-02T02:35:00.000Z	jrib	jin_	there's a #medibuntu channel.  You might ask them about it
+2008-11-02T02:35:00.000Z	jin_	jrib	I'm building it now :\

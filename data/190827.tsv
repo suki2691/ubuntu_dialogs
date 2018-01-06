@@ -1,0 +1,4 @@
+2006-04-26T10:48:00.000Z	Knelix		Guys, I just got speakers for my Ubuntu box... I'm trying to copy all my mp3 files from my Mac to the box. I've been trying to connect, but have had no luck excpet for SSH, but even then I can't get the command to copy my music directory over to work. So, what's the easiest way to connect, or how can I copy via SSH?
+2006-04-26T10:48:00.000Z	AAA	Knelix	 the easiest way is rsync -auve ssh /path/to/mp3/ user@server:/path/to/archive/
+2006-04-26T10:49:00.000Z	Knelix	AAA	Will try that...
+2006-04-26T10:50:00.000Z	AAA	Knelix	 throw that line in a cron and have it update on a set time, or put it in your special mount script so it updates when your mount the drive

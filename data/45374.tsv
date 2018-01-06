@@ -1,0 +1,4 @@
+2009-12-19T11:09:00.000Z	plustax		how do I list my processes? istanbul freezes every time I hit record
+2009-12-19T11:09:00.000Z	plustax		I need to kill it's PID
+2009-12-19T11:09:00.000Z	mMezquitale	plustax	you can also use "top" to see what process is taking up most of your cpu
+2009-12-19T11:10:00.000Z	mMezquitale	plustax	ps aux|grep instanbul; killall instanbul

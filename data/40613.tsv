@@ -1,0 +1,4 @@
+2009-12-21T08:29:00.000Z	gimpy5301		Would anyone know why one of my machines can't use key based auth when SSHing to itself, but key based auth to other machines works fine?
+2009-12-21T08:29:00.000Z	jtaji	gimpy5301	is your public key in that same machine's authorized_keys file?
+2009-12-21T08:30:00.000Z	jtaji	gimpy5301	because that's typically not done
+2009-12-21T08:30:00.000Z	gimpy5301	jtaji	Yes, authorized_keys is correct on the machine for the user

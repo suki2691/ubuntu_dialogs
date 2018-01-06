@@ -1,0 +1,4 @@
+2012-06-20T21:50:00.000Z	harold		So, I'm looking at this article here: http://www.linuxquestions.org/linux/answers/Applications_GUI_Multimedia/How_To_Do_Eveything_With_DD
+2012-06-20T21:50:00.000Z	harold		Which basically just gives like a thousand different really really cool and interesting things you can do with dd
+2012-06-20T21:50:00.000Z	harold		And I notice he's doing a lot of "dd if=/proc/<STUFF>" and piping it to hexdump and then less. I'm wondering why he's doing that... I mean, why not just do "cat /proc/meminfo" instead of "dd if=/proc/meminfo | hexdump -C | less" (which, not to mention... does not even give you formatted (thus very readable) text). Is he just doing it because you can just "do it" for the sake of it, or is there a reason to do it?
+2012-06-20T21:50:00.000Z	FloodBot1	harold	Please don't flood; use http://paste.ubuntu.com to paste; don't use Enter as punctuation.

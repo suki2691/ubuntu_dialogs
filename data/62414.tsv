@@ -1,0 +1,4 @@
+2010-09-14T15:45:00.000Z	michal__		** Message: Could not connect to session manager: Could not get owner of name 'org.gnome.SessionManager': no such name
+2010-09-14T15:45:00.000Z	michal__		** (gnome-panel:1890): WARNING **: Could not connect to session manager: Could not get owner of name 'org.gnome.SessionManager': no such name
+2010-09-14T15:45:00.000Z	iceroot	michal__	why running it was root?
+2010-09-14T15:46:00.000Z	iceroot	michal__	dont do it as root, because root is not the owner of the current gdm session

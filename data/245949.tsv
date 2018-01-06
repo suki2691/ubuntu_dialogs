@@ -1,0 +1,4 @@
+2005-04-09T13:44:00.000Z	Flonne		user,umask=000,rw (some of those may be redundant), stu.
+2005-04-09T13:45:00.000Z	Flonne		Nope.
+2005-04-09T13:45:00.000Z	Flonne		Though Ext2 supports permissions, so you may have to do a little bit of configuration there.
+2005-04-09T13:47:00.000Z	stu	Flonne	I dont think its possible to use the umask=000 uless the file system is ntfs/vfat - it throws up file system errors when I add that line

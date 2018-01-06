@@ -1,0 +1,4 @@
+2010-10-17T22:55:00.000Z	WolfDogDesigns		can anyone help? id be happy not running as a separate user, but what can I add to a command to specify the current X display? (if command is run from outside X)
+2010-10-17T22:56:00.000Z	zteam	WolfDogDesigns	to run a command as another user, you can sudo -u username command
+2010-10-17T22:58:00.000Z	WolfDogDesigns	zteam	i get 'sudo: no tty present and no askpass program specified' (im running the command from a PHP script)
+2010-10-17T23:01:00.000Z	zteam	WolfDogDesigns	I have no idea, how bash commands works from php

@@ -1,0 +1,4 @@
+2008-09-03T07:15:00.000Z	csa3d		How can I tell if a driver is loaded, so I may blacklist it if desired
+2008-09-03T07:16:00.000Z	favro	csa3d	lsmod | grep "module name"
+2008-09-03T07:18:00.000Z	csa3d	favro	 thanks!  if I don't see it in there... it's likely not loaded, right?
+2008-09-03T07:18:00.000Z	favro	csa3d	if you've got the name right - sure

@@ -1,0 +1,4 @@
+2012-03-22T09:59:00.000Z	collinjsimpson		Is there any way I can prevent users from writing to shared folders to avoid exceeding disk quotas?
+2012-03-22T09:59:00.000Z	nibbler_	collinjsimpson	there is quota support, or you can just revoke the write permissions
+2012-03-22T10:01:00.000Z	collinjsimpson	nibbler_	 I'm using bindfs to create shared folders, and users are able to use up all of the disk space. I want users to be able to write files.
+2012-03-22T10:07:00.000Z	collinjsimpson	nibbler_	 Thanks for the link. I'm using bindfs, so that sounds like it be possible to create a filesystem, set the appropriate permissions, and go.

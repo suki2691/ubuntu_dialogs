@@ -1,0 +1,4 @@
+2005-03-02T08:04:00.000Z	ebone		jesus ... even --reinstall doesn't bring it back.
+2005-03-02T08:05:00.000Z	daniels	ebone	if what you lost is under /etc, try --force-confmiss
+2005-03-02T08:06:00.000Z	ebone	daniels	which command do i use that switch with ?
+2005-03-02T08:08:00.000Z	daniels	ebone	dpkg -i --force-confmiss /var/cache/apt/archives/packagename*.deb

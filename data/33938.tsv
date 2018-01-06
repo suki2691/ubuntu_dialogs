@@ -1,0 +1,4 @@
+2011-08-22T17:20:00.000Z	doriad		I just installed 11.04 and there doesn't seem to be a package named kde4-devel - anyone know what it might be called?
+2011-08-22T17:20:00.000Z	hiwk	doriad	why do you want that?
+2011-08-22T17:22:00.000Z	hiwk	doriad	'apt-file search kde4-config0 willl give you kdelibs-bin'
+2011-08-22T17:23:00.000Z	hiwk	doriad	hm, I failed that paste :)  executing 'apt-file search kde4-config' will point you to the package 'kdelibs-bin'

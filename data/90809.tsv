@@ -1,0 +1,4 @@
+2012-03-02T22:16:00.000Z	Zal		actually, oliphant_ is using single quotes, so bash won't touch $WD
+2012-03-02T22:18:00.000Z	Zal		it is inside single quotes
+2012-03-02T22:19:00.000Z	Zal		so it would be sed expanding it, not bash
+2012-03-02T22:19:00.000Z	hroi	Zal	oliphant_, jrib,  oh ok you dont want $WD to expand then... well

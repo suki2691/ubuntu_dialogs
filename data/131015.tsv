@@ -1,0 +1,4 @@
+2012-04-24T01:18:00.000Z	shane2peru		anyone know how to configure grub2 so I can see my boot menu?  I'm running 10.04 ubuntu LTS
+2012-04-24T01:18:00.000Z	bkc_	shane2peru	/etc/grub.d/00_default <-- look for waittime
+2012-04-24T01:19:00.000Z	shane2peru	bkc_	nope, no 00_default only 00_header 05_debian_theme 10 linux  and a few others
+2012-04-24T01:20:00.000Z	bkc_	shane2peru	sore, meant 00_header :)

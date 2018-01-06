@@ -1,0 +1,4 @@
+2005-11-02T11:36:00.000Z	nemik		i'm running a base install. once i do 'crontab foo.cron' will it always stay there or do i have to do it each time i restart?
+2005-11-02T11:37:00.000Z	nemik		and where should i place me .sh script so it runs every time i boot up?
+2005-11-02T11:38:00.000Z	nemik		the base/server install
+2005-11-02T11:38:00.000Z	rob_p	nemik	 You can put it in /etc/init.d and then make the appropriate sym link to it from all wanted run level dirs.  Use the update-rc.d tool to accomplish that.

@@ -1,0 +1,4 @@
+2006-09-02T08:23:00.000Z	digitalhav0c		hey could some one tell me how to change the kernel patha
+2006-09-02T08:23:00.000Z	digitalhav0c		im trying to compile the madwifi drivers
+2006-09-02T08:24:00.000Z	digitalhav0c		its giving me  KERNELPATH: /lib/modules/2.6.15-26-386/build does not exist. but i just down loaded the 2.6.15.26.686 kernel
+2006-09-02T08:24:00.000Z	erUSUL	digitalhav0c	sudo apt-get install linux-headers-$(uname -r)

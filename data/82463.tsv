@@ -1,0 +1,4 @@
+2010-01-04T00:44:00.000Z	shooree		hi guys. Just installed karmic and am following some tutorials on how to make it work nicely. I messed up a bit though, and now I get "sudo: /etc/sudoers is mode 0777, should be 0440" every time I use sudo. thoughts?
+2010-01-04T00:45:00.000Z	shooree		righty
+2010-01-04T00:45:00.000Z	guntbert	shooree	boot to recovery system, go to root console, there you type chmod 0440 /etc/sudoers
+2010-01-04T00:48:00.000Z	guntbert	shooree	and don't believe everything you read

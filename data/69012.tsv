@@ -1,0 +1,4 @@
+2009-01-11T02:50:00.000Z	bonhoffer		with lots of gtk applications -- i am getting my terminal full of " Gtk-CRITICAL **: gtk_paint_box: assertion " errors -- can i ignore these (i.e turn them off)
+2009-01-11T02:50:00.000Z	bonhoffer		or fix them
+2009-01-11T02:51:00.000Z	archivator	bonhoffer	those are harmless asserts that fail in the core GTK code. I think there was a patch on bugzilla to disable them but I don't have it in my history.
+2009-01-11T02:53:00.000Z	archivator	bonhoffer	professional is not the first word that comes to my mind.. Besides, those are ages old, I don't think they are getting removed any time soon..

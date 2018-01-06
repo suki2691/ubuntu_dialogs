@@ -1,0 +1,4 @@
+2009-02-17T02:11:00.000Z	M_23Brazil		Hi. I'm in 8.10 trying to use Skype with libs precompiled downloaded from site. When I start the appz I get "RtApiOss: OSS playback device (/dev/dsp) is busy". How can I solve this problem? How can I find the process that are using the dsp to kill that?
+2009-02-17T02:11:00.000Z	Slart	M_23Brazil	mm.. I get the same thing.. set skype to use alsa instead.. that's the only way I've gotten it to work.. I think it might be a bug in skype.. or pulseaudio for that matter
+2009-02-17T02:18:00.000Z	M_23Brazil	Slart	Thanks. I'll try. My Skype version doesn't permit that I choose alsa or oss. This version is compiled only with oss suport. But I'll donwload other version.
+2009-02-17T02:21:00.000Z	Slart	M_23Brazil	oh.. ok..I can't really remember where I got my skype from.. I might have downloaded it from somewhere other than the repos

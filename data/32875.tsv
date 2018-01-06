@@ -1,0 +1,4 @@
+2010-05-01T17:32:00.000Z	kouq		hi. I need to echo 1000 lines containing one word per line of kouq-NNNN where NNNN are 4 random numbers
+2010-05-01T17:32:00.000Z	kouq		please help!
+2010-05-01T17:33:00.000Z	Riviera	kouq	printf 'kouq-%04d\n' {1..1000}
+2010-05-01T17:35:00.000Z	kouq	Riviera	thanks!

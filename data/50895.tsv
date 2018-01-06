@@ -1,0 +1,4 @@
+2009-08-07T09:27:00.000Z	c0nd0m		Does anybody know where on the filesystem that sound get outputted to? Doing a: cat /dev/urandom > /dev/sound produces sound but I do not know where and how I could record the sound outputted by Totem Media Player. Can anybody help me, or have any comments?
+2009-08-07T09:28:00.000Z	shazbotmcnasty	c0nd0m	I've never used totem, but do you get audio from any other movie player?
+2009-08-07T09:31:00.000Z	c0nd0m	shazbotmcnasty	Both totem and rythmbox seem to have the: "/dev/snd/pcmC0D3p" file open when they are playing audio, although when music is playing I cannot cat it
+2009-08-07T09:36:00.000Z	shazbotmcnasty	c0nd0m	sorry i dunno

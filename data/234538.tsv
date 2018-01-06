@@ -1,0 +1,4 @@
+2012-01-31T13:08:00.000Z	miadbahrami		hi
+2012-01-31T13:08:00.000Z	dooglus	miadbahrami	that looks a lot like an error I came here for support with
+2012-01-31T13:09:00.000Z	dooglus	miadbahrami	I'm not sure how I fixed it exactly, but suspect that commenting the line out of /etc/apt/sources.list, then apt-get update, then uncommenting it and apt-get updated again fixed it
+2012-01-31T13:12:00.000Z	dooglus	miadbahrami	does this fix it?  sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com 7FC6149C6318B892

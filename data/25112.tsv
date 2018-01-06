@@ -1,0 +1,4 @@
+2010-10-04T00:17:00.000Z	antIP		I installed a new drive and formated it, and transfered some files to it, but I don't have permission to read it. I've tried setting permissions with sudo in terminal, but still get 'permission denied' in term an nautilus
+2010-10-04T00:17:00.000Z	JoeCoolDesk	antIP	gksudo nautilus
+2010-10-04T00:18:00.000Z	antIP	JoeCoolDesk	what is gksudo?
+2010-10-04T00:26:00.000Z	antIP	JoeCoolDesk	That didn't help. I did gksudo and changed my permissions for the drive and all of it's contents to my user and I still can't access the drive through my user. In terminal (ls -l) I just get question marks.

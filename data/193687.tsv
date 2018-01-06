@@ -1,0 +1,4 @@
+2006-07-02T10:08:00.000Z	fwtest		if i connect to solaris box and try to read mail with mutt, the german umlaut is not correctly showed, also if i try to write mail, the backspace works like delete key, what should i do?
+2006-07-02T10:08:00.000Z	fyrestrtr	fwtest	set the correct TERM type
+2006-07-02T10:09:00.000Z	fwtest	fyrestrtr	how?
+2006-07-02T10:09:00.000Z	fyrestrtr	fwtest	export TERM=something-here -- dont know what it is for solaris. Never had the pleasure of working with it.

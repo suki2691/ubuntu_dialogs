@@ -1,0 +1,4 @@
+2007-10-03T05:02:00.000Z	chrono13		I installed Ubuntu 7.10 on my Dell 700m laptop today. I performed a full update. My resolution is detected incorrectly, and xorg is using vesa instead of the Intel drivers. How do I change this (I eventually want to have the special effects turned on). I need to change from vesa to intel and correct the resolution (xorg doesn't seem to have any listed resolutions like it normally does).
+2007-10-03T05:03:00.000Z	chrono13		Did that too.
+2007-10-03T05:03:00.000Z	chrono13		Restarted the computer actually.
+2007-10-03T05:03:00.000Z	soundray	chrono13	then you need to run 'sudo dpkg-reconfigure xserver-xorg' and set it to the intel driver

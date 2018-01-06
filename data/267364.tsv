@@ -1,0 +1,4 @@
+2004-09-27T15:49:00.000Z	jmullman		sorry to intrude, but what runlevel would I set as default if I did not want X to start automatically?  I've checked the debian docs(as I'm new to Debian) and I have noticed that there is a gdm script that runs in all runlevels 2-5.  Thanks
+2004-09-27T15:49:00.000Z	crimsun	jmullman	there is no runlevel muckery
+2004-09-27T15:49:00.000Z	jmullman	crimsun	oh?  what do you do?
+2004-09-27T15:50:00.000Z	crimsun	jmullman	you would simply ``update-rc.d -f gdm remove''

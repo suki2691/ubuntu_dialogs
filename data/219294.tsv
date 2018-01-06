@@ -1,0 +1,4 @@
+2008-06-03T12:36:00.000Z	vic1ous		/dev/sda4 would be (hd0,3) right?
+2008-06-03T12:36:00.000Z	Flannel	vic1ous	yes
+2008-06-03T12:38:00.000Z	Flannel	vic1ous	you may need to do the more traditional linux one (where you specify the kernel, etc).  That'll only work if you have something to chainload on sda4
+2008-06-03T12:40:00.000Z	Flannel	vic1ous	Just copy one of the ubuntu entries, and change it to point to your slackware kernel.

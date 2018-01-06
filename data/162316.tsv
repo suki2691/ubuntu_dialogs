@@ -1,0 +1,4 @@
+2007-08-04T09:16:00.000Z	conreyt		looking for a solution:  I've successfully gotten ndiswrapper to load and recognize my wireless card, however, there is a module that loads at boottime,bcm43xx, that is not allowing ndiswrapper to load properly.  I'm having to modprobe -r ndiswrapper and the bcm43xx driver, then modprobe ndiswrapper to get the wireless working properly.  How can I block the bcm43xx module from loading in the first place?
+2007-08-04T09:17:00.000Z	rausb0	conreyt	add the module name to /etc/modprobe.d/blacklist
+2007-08-04T09:17:00.000Z	conreyt	rausb0	ShackJack : thanks.
+2007-08-04T09:18:00.000Z	conreyt	rausb0	ShackJack : I'll give it a go!

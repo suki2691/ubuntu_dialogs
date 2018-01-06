@@ -1,0 +1,4 @@
+2006-08-01T14:19:00.000Z	kibab		Hey all... why would a cdrom mount with noexec when fstab shows only "user,noauto"
+2006-08-01T14:20:00.000Z	Warbo	kibab	Try adding "defaults," before user
+2006-08-01T14:23:00.000Z	Warbo	kibab	Adding options after one antoher usually overrides, so "user,exec" many make it executable, but still user mountable
+2006-08-01T14:25:00.000Z	kibab	Warbo	yeah... I just didn't realize that having user implied the others.... thanks

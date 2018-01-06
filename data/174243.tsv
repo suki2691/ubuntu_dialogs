@@ -1,0 +1,4 @@
+2011-10-01T04:14:00.000Z	rhsanborn		I'm trying to install a package on maverick, I'm getting this:  ros-electric-eigen : Depends: libeigen3-dev (= 3.0.1-1+ros4~maverick) but 3.0.1-1+ros4~natty is to be installed. It looks like it doesn't want to install the package pending the upgrade. But I don't want to do the upgrade, any ideas?
+2011-10-01T04:15:00.000Z	Fudge	rhsanborn	 I have found aptitude is pretty good at recommending methods to get your package working
+2011-10-01T04:16:00.000Z	rhsanborn	Fudge	I'm sorry, I'm not sure what you mean.
+2011-10-01T04:17:00.000Z	Fudge	rhsanborn	 such as aptitude install package and if there are conflicts it gives you alternatives to get it working

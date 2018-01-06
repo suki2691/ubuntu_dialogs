@@ -1,0 +1,4 @@
+2007-03-12T11:43:00.000Z	Caramba		Hi folks. I want to disable a login promptl to tty1 when Ubuntu starts up in console mode. I've commented out the following line "#1:2345:respawn:/sbin/getty 38400 tty1" but my computer still starts up with a prompt to tty1. Anything else I should do?
+2007-03-12T11:44:00.000Z	Caramba		And the answer is: Fiddle with the file /etc/init.d/tty1
+2007-03-12T11:45:00.000Z	dyrne	Caramba	what version dapper or edgy? i would think that would work but with new init system in >=edgy not sure
+2007-03-12T11:46:00.000Z	dyrne	Caramba	hah nm

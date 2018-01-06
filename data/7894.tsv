@@ -1,0 +1,4 @@
+2011-11-08T20:10:00.000Z	querier|2		hello there. how to resolve dependencies automatically, when apt-get does not do that? e.g. im trying to install ubiquity and there are unmet dependencies. ubuntu 11.10
+2011-11-08T20:10:00.000Z	ikonia	querier|2	apt-get will resolve deps if they are available
+2011-11-08T20:11:00.000Z	querier|2	ikonia	well I tried resolvnig it one by one , it works and all dependency-packages are from the same source, but that takes me years.
+2011-11-08T20:24:00.000Z	querier|2	ikonia	As I said, apt-get install package1 should install the others but it did not, although the single dependencies can be resolved manually.

@@ -1,0 +1,4 @@
+2007-02-22T09:20:00.000Z	EnsGabe		Hi- I'm trying to, while logged in to a remote machine, initialize an xserver on that machine to display on its monitor (this is a machine running Edgy.)  I have a barebones session in .xinitrc that I use when entering 'xinit' on the keyboard of the remote machine and that works fine
+2007-02-22T09:21:00.000Z	EnsGabe		But logging in via ssh and doing the same thing yields: "X: user not authorized to run the X server, aborting." \n "xinit: Server error."
+2007-02-22T09:21:00.000Z	dyrne	EnsGabe	im not sure i know you can designate displays with xinit like xinit --:1   to launch
+2007-02-22T09:22:00.000Z	EnsGabe	dyrne	currently there's not xserver running on the machine.  The weird thing is, I perform the command at the keyboard of the laptop, and it works.  I do it over ssh, I get the above error.

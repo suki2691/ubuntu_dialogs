@@ -1,0 +1,4 @@
+2010-04-30T03:25:00.000Z	Ash_		Guys when i type "linux /boot/vmlinux-2.6.31.20-generic" it loads fine.. I get [Linux-bzImage, setup=0x3400, size.......etc.. Now when i type "boot" it tries to boot but i get a Kernel panic because it can't find my standard ext3 filesystem as this is a Wubi installation.. Help please?
+2010-04-30T03:26:00.000Z	waltercool	Ash_	Sorry... i dont know
+2010-04-30T03:27:00.000Z	waltercool	Ash_	Maybe you have touched your root partition (where OS is located)
+2010-04-30T03:28:00.000Z	Ash_	waltercool	yes my Wubi setup loads my root windows parition, but inside that you have a VFS whcih is my ubuntu, it doesn'ty find this by default it has to be specified somehow to loads from the VFS within my standard partition :( :( (:

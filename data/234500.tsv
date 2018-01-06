@@ -1,0 +1,4 @@
+2006-05-21T16:53:00.000Z	soonindallas		hello.  I am looking for a tutorial on how to apply a patch to a package source.  astonishingly there is little info about this in the wiki. can anyone refer me to a howto ?
+2006-05-21T05:00:00.000Z	dooglus	soonindallas	to apply a patch you generally just run "patch -p0 < patchfile" or something like that.
+2006-05-21T05:02:00.000Z	dooglus	soonindallas	"man patch" is probably all you need to read.
+2006-05-21T05:02:00.000Z	dooglus	soonindallas	understand the -p flag and you're set to go

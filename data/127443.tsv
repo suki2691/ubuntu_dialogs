@@ -1,0 +1,4 @@
+2007-11-25T02:20:00.000Z	Stormx2		I need to find out what is using my connection, on a specific port.
+2007-11-25T02:21:00.000Z	sp3000	Stormx2	I'd start at apt-cache search network top | grep -i network | grep -i top
+2007-11-25T02:41:00.000Z	sp3000	Stormx2	yeah, iftop jnettop pktstat looks useful -- and lsof -i of course for mapping to processes
+2007-11-25T02:41:00.000Z	Stormx2	sp3000	i used pktstat :)

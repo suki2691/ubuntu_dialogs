@@ -1,0 +1,4 @@
+2011-09-16T23:30:00.000Z	Flark706		ok so i'm trying to stop my network manager from running i ran a service Network-Manager stop command but that doesn't seem to have worked
+2011-09-16T23:32:00.000Z	escott	Flark706	it is fairly hard to stop nm as it gets started by various dbus messages whenever you plug something in. supposedly putting something in /etc/interfaces will prevent nm from managing that interface
+2011-09-16T23:33:00.000Z	Flark706	escott	lol yea i'm starting to realize that.....any thoughts on what it would be?
+2011-09-16T23:34:00.000Z	Flark706	escott	truth be told i just need to stop wpa_supplicant dhclient these two processes

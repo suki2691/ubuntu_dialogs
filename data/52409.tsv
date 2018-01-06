@@ -1,0 +1,4 @@
+2009-11-18T04:16:00.000Z	ricdanger		can I at least revert to grub-legacy?
+2009-11-18T04:18:00.000Z	arand	ricdanger	You can specify both number and title name for defualt boot, according to that, is that not what you're after?
+2009-11-18T04:19:00.000Z	ricdanger	arand	nope. I want to boot the last entry a user selects. If it boots kernel X, it should boot automatically yhat entry on the next boot
+2009-11-18T04:21:00.000Z	arand	ricdanger	use GRUB_DEFAULT=saved, it's all on the linked wiki

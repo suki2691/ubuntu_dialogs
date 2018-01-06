@@ -1,0 +1,4 @@
+2011-07-04T03:09:00.000Z	tonytraductor		I can't ssh IN to the machine I' m on, remotely. (I can ssh to localhost when I'm here with physical access). netstat says listening on port 22, and sshd is running., but when I try to ssh IN I get "connection refused"
+2011-07-04T03:09:00.000Z	tonytraductor		currently, I'm using irssi on my home machine in another city to be here, so, I can ssh OUT.
+2011-07-04T03:09:00.000Z	Viking667	tonytraductor	checked out the Listen directive in sshd_config yet?
+2011-07-04T03:13:00.000Z	Viking667	tonytraductor	no, wrong file. Check sshd_config, not ssh_config

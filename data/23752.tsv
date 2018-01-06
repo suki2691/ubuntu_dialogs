@@ -1,0 +1,4 @@
+2011-10-12T17:47:00.000Z	VonLipwig		Hi, could someone tell me how to connect to a server via ssh. I have the IP, port, username and password. I used to use Mac Coda to sign in. I can't work out what to do to connect via terminal
+2011-10-12T17:48:00.000Z	ActionParsnip	VonLipwig	you can use:   ssh -X -C username@servername -p PORTNUM
+2011-10-12T17:49:00.000Z	VonLipwig	ActionParsnip	thanks
+2011-10-12T17:49:00.000Z	ActionParsnip	VonLipwig	the -X enables X forwarding, the -C enables compression (little extra treats)

@@ -1,0 +1,4 @@
+2012-05-01T23:36:00.000Z	DRayX		Quick question, is there any documentation about the addition of Hyper-V in 12.04 anywhere?
+2012-05-01T23:36:00.000Z	escott	DRayX	/boot/config*
+2012-05-01T23:39:00.000Z	escott	DRayX	so check the config file in /boot and see if they enabled the hyperV extensions. My guess is that they didn't
+2012-05-01T23:39:00.000Z	escott	DRayX	but maybe the modularized it, and you can just load the appropriate module

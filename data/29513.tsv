@@ -1,0 +1,4 @@
+2010-07-03T13:00:00.000Z	Meekro		So I installed the Intel i7 980X CPU (3.33 gHz, 6 cores with hyperthreading) on my server, but /proc/cpuinfo is reporting each of 12 cores at only 1600mHz. That doesn't seem right
+2010-07-03T13:01:00.000Z	SwedeMike	Meekro	it'll clock down the CPUs when they're not used to save power.
+2010-07-03T13:01:00.000Z	Meekro	SwedeMike	but it's still aware of their full potential when they're needed? is there any way I can clock them up to convince myself of that?
+2010-07-03T13:02:00.000Z	SwedeMike	Meekro	do something that'll keep them busy and check. play a media file or something

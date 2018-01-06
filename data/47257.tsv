@@ -1,0 +1,4 @@
+2011-07-22T14:26:00.000Z	llutz_	newb	as user in a 2nd terminal "killall -USR dd" will give you the progress
+2011-07-22T14:27:00.000Z	llutz_	newb	if theres only linux + data on the old disk, its faster to copy the stuff using rsync/tar/cp
+2011-07-22T14:28:00.000Z	llutz_	newb	just needs some changes in /etc/fstab and grub
+2011-07-22T14:29:00.000Z	llutz_	newb	killall -USR1  sends the USR1-signal to that process, which will answer with progress-message in ths case

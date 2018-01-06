@@ -1,0 +1,4 @@
+2007-07-14T11:42:00.000Z	ShockValue		ok, ive mounted a nfs share as root, and that works fine, but my 'regular user' is getting access denied when i try and access it..   as root the files/dirs look like this (drw-rw-rw-   2 nobody nogroup 904 2006-10-14 23:15 Get Born)  what am i missing here?
+2007-07-14T11:44:00.000Z	asc	ShockValue	Most likely root has those permissions but the user doesn't. I don't know anything about NFS so I can't help much, but you might google 'linux nfs user write' or something.
+2007-07-14T11:45:00.000Z	ShockValue	asc	thanks, doing that now :)
+2007-07-14T11:45:00.000Z	asc	ShockValue	Good luck.

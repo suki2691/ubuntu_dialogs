@@ -1,0 +1,4 @@
+2009-04-22T18:53:00.000Z	rrowell		 I'm trying to start firefox and it keeps saying "Firefox is already running", but that isn't true, ps -aux | grep -i fire and ps -aux | grep -i moz both report nothing... I even restarted X just to make sure, nothing... How do I convince firefox it is OK to start?
+2009-04-22T18:53:00.000Z	Halitech	rrowell	open a terminal and do killall -9 firefox-bin
+2009-04-22T18:54:00.000Z	rrowell	Halitech	there is no firefox running, like I said ps aux | grep -i fire returns zilch
+2009-04-22T18:55:00.000Z	Halitech	rrowell	then look for the lock file that grawity suggested

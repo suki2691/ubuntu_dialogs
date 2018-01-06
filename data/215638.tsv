@@ -1,0 +1,4 @@
+2007-05-16T11:26:00.000Z	pheaver		hello everyone.  i'm using a custom compiled kernel from this guide: http://ubuntuforums.org/showthread.php?t=157560 .  The only way I was able to get nvidia drivers to work is by manually installing using the package at nvidia.com.  It works, except that everytime I reboot, the nvidia module fails to load until a re-run the nvidia install script.
+2007-05-16T11:26:00.000Z	pheaver		any idea why I have to reinstall the nvidia module every time i boot?
+2007-05-16T11:27:00.000Z	soundray	pheaver	call the script from /etc/rc.local
+2007-05-16T11:28:00.000Z	soundray	pheaver	then it's probably best to create your own restricted-modules package, so as to emulate the way the standard packages work.

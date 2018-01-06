@@ -1,0 +1,4 @@
+2006-06-04T09:22:00.000Z	MoCHARA		of all the open source programs out there, why cant there be one that sets up the windows ntldr to boot ubuntu?
+2006-06-04T09:23:00.000Z	BrianHH	MoCHARA	 If you let Ubuntu make a separate partition, it can put GRUB on your master boot disk.
+2006-06-04T09:25:00.000Z	BrianHH	MoCHARA	 ntldr is a Windows thing.  If ntldr goes on your boot record, you're screwed, because it doesn't know about Linux.
+2006-06-04T09:25:00.000Z	MoCHARA	BrianHH	i know that, but the guides say it can be done, just gotta figure it out

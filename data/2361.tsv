@@ -1,0 +1,4 @@
+2012-08-25T00:49:00.000Z	tworkin		how do i replace dash as /bin/sh? not as my own login shell. `mv /bin/sh /bin/sh_orig; ln -s /bin/bash /bin/sh` have any implications?
+2012-08-25T00:49:00.000Z	trism	tworkin	sudo dpkg-reconfigure dash; but if you want bash, use /bin/bash explicitly (making the command kind of pointless)
+2012-08-25T00:51:00.000Z	tworkin	trism	 well I want zsh, but the open-embedded build environment requires bash as /bin/sh
+2012-08-25T00:54:00.000Z	tworkin	trism	thanks. OE is happy now

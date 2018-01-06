@@ -1,0 +1,4 @@
+2012-05-27T20:41:00.000Z	deebee396		Hi, is there anyway to set my user account as superuser, or will I have to do what I want to do via the terminal
+2012-05-27T20:42:00.000Z	wawowe	deebee396	if you change your userid to 0 you'll be root. but it's not really a good idea for everything
+2012-05-27T20:43:00.000Z	wawowe	deebee396	run things with sudo and gksu
+2012-05-27T20:45:00.000Z	wawowe	deebee396	as root or with sudo chown -R user. folder

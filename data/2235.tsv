@@ -1,0 +1,4 @@
+2012-06-27T19:16:00.000Z	crackofdawn		If I modify the chunk size of a raid 5 (mdadm), and then modify the stride and stripe_width of the ext4 FS on it, will this cause any problems, and how will the existing data on the FS be affected?
+2012-06-27T19:17:00.000Z	compdoc	crackofdawn	if you change those settings after the raid holds data, you'll likely lose it all
+2012-06-27T19:17:00.000Z	crackofdawn	compdoc	according to man mdadm that isn't true
+2012-06-27T19:17:00.000Z	crackofdawn	compdoc	you can run mdadm --grow --backup-file=/file --chunk=<whatever> /dev/md/whatever

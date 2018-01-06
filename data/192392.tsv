@@ -1,0 +1,4 @@
+2006-08-01T13:34:00.000Z	msgdv		hey I installed apache2, php5, and mySQL... I'm only using the server thing to learn php so I didnt do the LAMP install when I installed it
+2006-08-01T13:35:00.000Z	msgdv		but when I do localhost and a random php file it asks to download
+2006-08-01T13:35:00.000Z	zugu	msgdv	> you have to activate the php module in apache
+2006-08-01T13:35:00.000Z	zugu	msgdv	> so that the apache server will pass php files on to php for interpreting

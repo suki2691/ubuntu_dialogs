@@ -1,0 +1,4 @@
+2009-02-13T08:04:00.000Z	campbell		I have a quick question about apt that I bet someone here could answer easily: what command would I run to determine the packages currently installed?
+2009-02-13T08:05:00.000Z	leo_rockway	campbell	dpkg --get-selections | grep -v deinstalled
+2009-02-13T08:06:00.000Z	campbell	leo_rockway	just what I was looking for; thanks everyone
+2009-02-13T08:06:00.000Z	leo_rockway	campbell	sorry, it's deinstall not deinstalled

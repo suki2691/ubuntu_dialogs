@@ -1,0 +1,4 @@
+2011-06-17T03:27:00.000Z	paranoidi		I have rather critical problem, ubuntu server (despite being desktopless) is trying to feed my poor small LCD 1024x768 with latest kernel(s) .. how can I stop that?
+2011-06-17T03:27:00.000Z	escott	paranoidi	/etc/default/grub and there may be a similar file for plymouth
+2011-06-17T03:28:00.000Z	paranoidi	escott	it would otherwise, but it's kernel specific thing .. the options in menu.lst were identical
+2011-06-17T03:28:00.000Z	escott	paranoidi	you could send the kernel a parameter for its framebuffer size

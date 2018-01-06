@@ -1,0 +1,4 @@
+2007-01-19T11:01:00.000Z	rob_p	Tonren	Make an entry for the MAC address of your network interface in /etc/iftab similar to, "eth1 mac 00:0e:35:xx:xx:xx"
+2007-01-19T11:12:00.000Z	Tonren	rob_p	There's already an entry there.
+2007-01-19T11:12:00.000Z	Tonren	rob_p	I've only been using it for 2 days.  It's been wlan0 on one bootup, and eth1 on this bootup.  Could it be that between my first and second bootup, the mapping got added to iftab automatically?
+2007-01-19T11:14:00.000Z	rob_p	Tonren	Sure.  Maybe see if it stays as eth1 on future boot-ups.  If so, then I'd say that's probably what happened.

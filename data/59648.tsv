@@ -1,0 +1,4 @@
+2009-07-14T15:34:00.000Z	Tetsuoo		I updated the system now I have low resolution, problem with nvidia drivers
+2009-07-14T15:35:00.000Z	ActionParsnip	Tetsuoo	what is the output of: lspci | grep -i vga
+2009-07-14T15:36:00.000Z	Tetsuoo	ActionParsnip	01:00.0 VGA compatible controller: nVidia Corporation GeForce 8800 GTS 512 (rev a2)
+2009-07-14T15:37:00.000Z	ActionParsnip	Tetsuoo	sudo apt-get --purge remove nvidia*; sudo apt-get --purge autoremove; sudo apt-get clean; sudo dpkg-reconfigure xserver-xorg; sudo apt-get install nvidia-glx-180

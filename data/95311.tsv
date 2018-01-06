@@ -1,0 +1,4 @@
+2008-06-14T10:36:00.000Z	BonezAU		Hi, I am running Ubuntu - I installed the 'kubunt-desktop' dummy package cause I wanted to try out KDE. I want to know how can I get my old "ubuntu" splash/boot screens back instead of the Kubuntu ones I have now?
+2008-06-14T10:38:00.000Z	nickrud	BonezAU	sudo update-alternatives --config gdm for the login
+2008-06-14T10:39:00.000Z	nickrud	BonezAU	if you want the gdm login,  sudo dpkg-reconfigure gdm
+2008-06-14T10:39:00.000Z	BonezAU	nickrud	i use auto-login so the GDM screen does not bother me, cheers anyway

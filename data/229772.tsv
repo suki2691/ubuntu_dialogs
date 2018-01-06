@@ -1,0 +1,4 @@
+2006-11-07T16:26:00.000Z	linuxwolf		if i use apt-get dist-upgrade to upgrade to edgy ( i have breezy) and , i stop it , when i do it again , the packages downloaded, are not re-downloaded, and are instaled propelly , no ? (dist-upgrade will see if there are packages downloaded and in the correct moment , will install it , within the others downloaded , no ? )
+2006-11-07T16:27:00.000Z	linuxwolf		so i don't have to use dpkg -i or so
+2006-11-07T16:27:00.000Z	bimberi	linuxwolf	actually the recommended path is breezy -> dapper -> edgy
+2006-11-07T16:29:00.000Z	bimberi	linuxwolf	anyway, dist-upgrade won't redownload packages, it resumes

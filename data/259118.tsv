@@ -1,0 +1,4 @@
+2007-05-08T16:43:00.000Z	mooky		what is the best technique to clean up the dpkg database. I've just removed postfix and exim packages from abox, and rebooted however dpkg -l still shows postfix as rc  postfix                                2.2.10-1ubuntu0.1
+2007-05-08T16:45:00.000Z	delire	mooky	man apt-get shows that the clean and --list-cleanup options are useful to these ends. i just ensure that i dpkg -P some.deb however
+2007-05-08T16:46:00.000Z	delire	mooky	clean however only clears out the /var/cache/apt/archives i believe
+2007-05-08T16:46:00.000Z	delire	mooky	(which isn't what you want)

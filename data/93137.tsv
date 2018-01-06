@@ -1,0 +1,4 @@
+2012-02-28T00:05:00.000Z	SockPants		hi all,
+2012-02-28T00:05:00.000Z	SockPants		i have a server installation that i am trying to get gnome working on
+2012-02-28T00:05:00.000Z	SockPants		long story short i need to change the default graphical shell to gdm from the command line. where can i do this?
+2012-02-28T00:07:00.000Z	skinnymg1	SockPants	sudo nano rc.conf and add gdm to the Daemons list

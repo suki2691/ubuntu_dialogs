@@ -1,0 +1,4 @@
+2009-03-10T01:17:00.000Z	Zeroyez		hi, can dd zero write a hard drive while skipping over already-zeroed areas?
+2009-03-10T01:18:00.000Z	Zeroyez		i've got a 300 gb partition i'd like to zero fill, but only about 12 gb of that is non-zeroes
+2009-03-10T01:18:00.000Z	daftykins	Zeroyez	"man dd" to find out
+2009-03-10T01:54:00.000Z	daftykins	Zeroyez	why not "dd if=/path/to/file.iso of=/usb/key/device"

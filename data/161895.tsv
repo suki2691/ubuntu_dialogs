@@ -1,0 +1,4 @@
+2012-09-14T21:29:00.000Z	Takyoji		I'm having an issue of RAM being flooded, no, it's not by shared memory or buffers; the system has 2GB of RAM, but only 70MB free (and yes, I'm referring to the row of '-/+ buffers/cache'. I'm looking through top and the biggest process is only 0.3% of the RAM; a few instances of Apache and Postgres, and nothing else notable
+2012-09-14T21:29:00.000Z	Takyoji		I cannot find anything that would cause it to add up to using almost all of the 2GB of RAM, with ANY graphical applications running
+2012-09-14T21:30:00.000Z	Troy^	Takyoji	i have the same on my ubuntu server right now.. it is not actually using that much apparently
+2012-09-14T21:31:00.000Z	Troy^	Takyoji	this is what mine looks like i have actually 1.75gb of ram http://paste.ubuntu.com/1205227/

@@ -1,0 +1,4 @@
+2012-01-24T09:24:00.000Z	Juggernaut		Hey guys. Quick question. I'm trying to execute a file in a different directory than my working directory. So I'm trying to execute a file in /xyz and the file name is /xyz/abc. But ./xyz/abc doesn't work.
+2012-01-24T09:24:00.000Z	Juggernaut		I think I'm missing a key concept somewhere
+2012-01-24T09:24:00.000Z	ActionParsnip	Juggernaut	is the file marked as executable?
+2012-01-24T09:25:00.000Z	Juggernaut	ActionParsnip	It executes using ./abc when I'm in its directory.

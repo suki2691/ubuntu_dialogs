@@ -1,0 +1,4 @@
+2007-09-02T09:13:00.000Z	albreche		Hy, does last kernel uypdate (2 days ago) remove windows from grub when theree's dual boot
+2007-09-02T09:13:00.000Z	albreche		?
+2007-09-02T09:13:00.000Z	cellofellow	albreche	it ran update-grub, which removes entries inside the AUTOMAGIC KERNEL stuff.
+2007-09-02T09:14:00.000Z	cellofellow	albreche	re-add it, and this time, do it before the AUTOMAGIC KERNEL comment.

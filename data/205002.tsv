@@ -1,0 +1,4 @@
+2006-10-13T10:32:00.000Z	richee		Failed to fetch http://archive.ubuntu.com/ubuntu/dists/edgy/multiverse/binary-i386/Packages.gz  Sub-process gzip returned an error code (1)
+2006-10-13T10:32:00.000Z	richee		I am getting this error
+2006-10-13T10:32:00.000Z	richee		can anyone help?
+2006-10-13T10:34:00.000Z	macd	richee	try 'sudo rm /var/cache/apt/archives/*' then 'sudp apt-get update'

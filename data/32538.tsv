@@ -1,0 +1,4 @@
+2010-06-14T00:56:00.000Z	PeterNL		I have an old version installed, and I want to keep it. The update manager (and apt-get upgrade) want to install a newer version
+2010-06-14T00:57:00.000Z	un214	PeterNL	dpkg hold packagename
+2010-06-14T00:57:00.000Z	un214	PeterNL	works until you do-release-upgrade which clears holds
+2010-06-14T00:57:00.000Z	PeterNL	un214	that's what I'm looking for. Thanks!

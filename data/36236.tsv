@@ -1,0 +1,4 @@
+2010-08-24T07:10:00.000Z	dj_segfault		Still can't get metacity to load on startup.  I rename .gconf and .gconfd, so it's not a configuration file thing.  Does anyone know what's SUPPOSED to start up metacity?
+2010-08-24T07:11:00.000Z	psilo2	dj_segfault	/etc/gdm/DefaultInit/  something like that.  Look around in /etc/gdm/
+2010-08-24T07:12:00.000Z	dj_segfault	psilo2	Thanks.  I miss the days when everything launched from /etc/init.d and symlinks
+2010-08-24T07:12:00.000Z	psilo2	dj_segfault	me too.

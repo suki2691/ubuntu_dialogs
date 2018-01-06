@@ -1,0 +1,4 @@
+2012-04-27T18:44:00.000Z	xilo		i accidently deleted my resolv.conf file.. how do i regenerate it?
+2012-04-27T18:45:00.000Z	violinappren	xilo	it will be generated next time you reboot, if you use dhcp
+2012-04-27T18:45:00.000Z	xilo	violinappren	i do, and it's not getting regenerated
+2012-04-27T18:46:00.000Z	violinappren	xilo	 try this command manually: sudo dhclient eth0   # where eth0 is your interface name

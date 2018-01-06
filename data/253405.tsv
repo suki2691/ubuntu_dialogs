@@ -1,0 +1,4 @@
+2006-09-08T10:23:00.000Z	chris1932		hi, i just copied a bunch of files that have -rw------ permissions for the files and drwx------ permissions for the directories to a public_html directory. what's the easiest way to change the permissions so that files are world readable and dirs are world executable, i.e. like a normal website? (this entire directory is pretty deeply nested.)
+2006-09-08T10:24:00.000Z	poningru	chris1932	while in the folder
+2006-09-08T10:25:00.000Z	poningru	chris1932	chmod * 722
+2006-09-08T10:27:00.000Z	poningru	chris1932	err bad syntax

@@ -1,0 +1,4 @@
+2007-07-31T12:36:00.000Z	kub		anyone know how to change the bash shell columns and width in ubuntu server, no gui installed
+2007-07-31T12:37:00.000Z	soundray	kub	via the vga= boot parameter
+2007-07-31T12:38:00.000Z	kub	soundray	where is that located
+2007-07-31T12:39:00.000Z	soundray	kub	you have to add it in /boot/grub/menu.lst -- ideally to the line that begins with '#kopt='. Add 'vga=ask' to begin with, and enter 'scan' at the prompt you will see when you boot next.

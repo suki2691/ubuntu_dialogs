@@ -1,0 +1,4 @@
+2010-10-21T10:41:00.000Z	boxbeatsy		hi, how do i run a command in the background and write all output to a text file?
+2010-10-21T10:42:00.000Z	boxbeatsy		i have "python blank.py & > file.txt 2>&1" but that's not working
+2010-10-21T10:42:00.000Z	lucent	boxbeatsy	  ./command > textfile.txt 2>&1 &
+2010-10-21T10:43:00.000Z	lucent	boxbeatsy	the "2>&1" is in a strange place because of the way the shell works, it's just an oddity and needs to go on the right side of the redirection

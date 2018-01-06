@@ -1,0 +1,4 @@
+2012-03-07T08:05:00.000Z	diskinetic		I am running Ubuntu from a USB thumb drive (persistent), and it isn't terribly slow, but it is noticeably hesitant at times.  Should I just spring for the SSD, or is there a way to pep up the thumb drive?
+2012-03-07T08:06:00.000Z	pfifo	diskinetic	append 'toram' to the kernel line
+2012-03-07T08:07:00.000Z	diskinetic	pfifo	assume I don't know what that meant and say it again.  :)
+2012-03-07T08:08:00.000Z	pfifo	diskinetic	tell the live cd to copy its contents to the memory during system startup

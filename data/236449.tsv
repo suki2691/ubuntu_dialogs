@@ -1,0 +1,4 @@
+2005-09-13T15:31:00.000Z	phrizer		Whats the difference between "mark for removal" and "mark for complete removal" in synaptic?
+2005-09-13T15:31:00.000Z	nalioth	phrizer	'complete' takes out config files
+2005-09-13T15:41:00.000Z	nalioth	phrizer	ubuntu-desktop is a meta-pkg, you only need to make sure it's installed when you dist-upgrade
+2005-10-29T07:12:00.000Z	nalioth	phrizer	wont hurt to run "sudo dpkg-reconfigure xserver-xorg" and see if it detects it

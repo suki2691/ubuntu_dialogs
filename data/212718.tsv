@@ -1,0 +1,4 @@
+2005-11-30T09:38:00.000Z	tvo		hi, can anyone tell me what I should write in grub/menu.lst to boot windows from 2nd HD (which i just inserted) ?
+2005-11-30T09:40:00.000Z	gnomefreak	tvo	 if you install windows first there shouldnt be a problem it is always recommended to install windows first than linux that way you use grub to boot not windows pos boot loader
+2005-11-30T09:41:00.000Z	tvo	gnomefreak	yeah, I know, it's just that I _need_ windows for 1 night (lan party) and I had it on a spare HD, so I inserted the HD and it boots fine if I change it in bios, I just don't know what to add to menu.lst to not have to change boot device in bios..
+2005-11-30T10:07:00.000Z	tvo	gnomefreak	I figured out, had to map hd0->hd1 and vice versa, because windows is too dumb to boot from 2nd HD..

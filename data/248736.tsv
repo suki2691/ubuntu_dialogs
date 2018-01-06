@@ -1,0 +1,4 @@
+2010-01-24T20:55:00.000Z	ablyss	NativeAngels	a script can be executed also by invoking bash e.g., bash script.sh
+2010-01-24T20:58:00.000Z	ablyss	NativeAngels	that error means the file or folder is not in your current path
+2010-01-24T21:01:00.000Z	ablyss	NativeAngels	another situation is when you have a broken symlink.  it appears a regular file but is really a zombie and bash will spit out that error
+2010-01-24T21:02:00.000Z	ablyss	NativeAngels	you need to know where the file was suppose to be symlinked. if you can then ls -s

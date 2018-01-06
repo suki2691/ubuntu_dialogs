@@ -1,0 +1,4 @@
+2010-10-11T07:19:00.000Z	joe_ed		Anyone know how to set PATH
+2010-10-11T07:21:00.000Z	joe_ed		tried that path..   next time I login it's got to be set again.
+2010-10-11T07:21:00.000Z	abb	joe_ed	 like icarus-c said; also, if you're on the cmdline, you can then type: . ~/.bashrc  that's a period, space, then the path to your .bashrc file) and it will re-run your bashrc so you can confirm it works correctly.
+2010-10-11T07:23:00.000Z	abb	joe_ed	 by the way, if you need to wrap quotes around the path (due to a weirdly-formatted directory or whatever) be sure to use double-quotes, not single quotes.  ie, export PATH="$PATH:/new/path/to/add"  I used single quotes one time and ended up with a path of "$PATH" lol.

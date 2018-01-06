@@ -1,0 +1,4 @@
+2010-11-11T07:32:00.000Z	pipegeek		the package "oss-compat" in maverick is broken.
+2010-11-11T07:33:00.000Z	LoganJRuff	pipegeek	did you report it?
+2010-11-11T07:34:00.000Z	pipegeek	LoganJRuff	I will do that now.  The problem is that the kernel alsa-oss compat layer is not being built for maverick kernels, and all that package does is ensure that those modules are loaded.  Particularly bad since the package description says it's meant to solve the "cannot find /dev/dsp" problem for confused new users....
+2010-11-11T07:50:00.000Z	pipegeek	LoganJRuff	Just reported it: https://bugs.launchpad.net/ubuntu/+source/oss-compat/+bug/673845

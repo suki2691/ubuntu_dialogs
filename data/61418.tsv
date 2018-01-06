@@ -1,0 +1,4 @@
+2009-06-05T04:00:00.000Z	fbc-mx		how do I remove all +.mp3 files from a directory and it's subs. I tried "sudo rm -R *.mp3" but it said it did not delete any files.
+2009-06-05T04:01:00.000Z	Scunizi	fbc-mx	you have to give it the path and not be in the directory.. so sudo rm -Rf /home/you're-user-name/path-to-1st-directory/*mp3
+2009-06-05T04:02:00.000Z	Scunizi	fbc-mx	unop 's suggestion would work better :)
+2009-06-05T04:06:00.000Z	fbc-mx	Scunizi	that was probably my mistake, I was i nthe directory

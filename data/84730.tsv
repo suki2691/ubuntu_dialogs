@@ -1,0 +1,4 @@
+2009-01-02T09:34:00.000Z	riz0n		Hi, can someone give me some mail server advice. I have postfix/dovecot and SpamAssassin running on my Ubuntu server. Is there a way to automatically filter all messages flagged as Spam into an IMAP folder? Thanks for any help you guys can provide..
+2009-01-02T09:34:00.000Z	riz0n		I am not sure if my Ubuntu server is set up to *automatically* filter and I'm missing the folder, or what.
+2009-01-02T09:36:00.000Z	jtaji	riz0n	this is usually done with either procmail or sieve
+2009-01-02T09:36:00.000Z	jtaji	riz0n	for the later there is a dovecot sieve plugin

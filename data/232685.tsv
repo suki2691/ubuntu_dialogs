@@ -1,0 +1,4 @@
+2010-07-22T02:52:00.000Z	Laggie		Hi, I have made a full backup of my server with this command "tar cvpzf backup.tgz --exclude=/proc --exclude=/lost+found --exclude=/backup.tgz --exclude=/mnt --exclude=/sys /" Can I now remove the two raid1 disks on my server, replace them with new ones, unzip the backup and everything is back to normal?
+2010-07-22T02:54:00.000Z	erUSUL	Laggie	and yopu will have to install grub in the mbr yourself
+2010-07-30T00:09:00.000Z	erUSUL	Laggie	use a pager. « lshw | less »
+2010-07-30T00:38:00.000Z	erUSUL	Laggie	check boot messages « dmesg | less »

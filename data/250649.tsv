@@ -1,0 +1,4 @@
+2011-01-24T13:47:00.000Z	stealthc		ok having huge problems with NTFS partition and permissions
+2011-01-24T13:47:00.000Z	stealthc		trying to run a .sh bash script and it says permissions denied....
+2011-01-24T13:47:00.000Z	stealthc		I cannot run the script with sudo because it screws things up.
+2011-01-24T13:48:00.000Z	syn-ack	stealthc	that's because linux can't set the execute bit and NTFS doesn't recognise UNIX file perms

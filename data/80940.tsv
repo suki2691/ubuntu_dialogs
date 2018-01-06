@@ -1,0 +1,4 @@
+2008-11-09T17:57:00.000Z	j2daosh		ok, i gots a problem guys
+2008-11-09T17:58:00.000Z	j2daosh		SSH doesn't seem to care though and thinks that someone is doing a man in the middle because the keys aren't matching
+2008-11-09T17:58:00.000Z	j2daosh		anyway i can turn off this "strict checking" of the RSA key?
+2008-11-09T17:59:00.000Z	outbackwifi	j2daosh	thats because you're portforwarding; just go into the .known_hosts file in each box and delete the offending key

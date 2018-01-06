@@ -1,0 +1,4 @@
+2007-02-26T08:53:00.000Z	opetznick		hi! is there a filesize limit on cat? 2gb?
+2007-02-26T08:54:00.000Z	queuetue	opetznick	I doubt there is a fs limit on cat (it doesn't get read into ram) but if you are catting 2gb files, you are probably going about something the wrong way. :)
+2007-02-26T08:55:00.000Z	queuetue	opetznick	See http://partmaps.org/era/unix/award.html
+2007-02-26T09:33:00.000Z	queuetue	opetznick	Try dd

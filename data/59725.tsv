@@ -1,0 +1,4 @@
+2009-11-13T03:46:00.000Z	nyk2005		How can I see what exactly is need for the system to boot? I ask because I have my root partition on sda6, and sda1 to sda5 are unused. But sda1 is bootable and I wonder if it has some function. Does it contain the MBR?
+2009-11-13T03:47:00.000Z	laclasse	nyk2005	fdisk -l
+2009-11-13T03:48:00.000Z	nyk2005	laclasse	fdisk -l just shows me they exist, but apparently they're not mounted anywhere or referenced from fstab.
+2009-11-13T03:49:00.000Z	laclasse	nyk2005	if you are wondering the jump in partition numbering, it is due to using an extended partition

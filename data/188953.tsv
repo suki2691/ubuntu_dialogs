@@ -1,0 +1,4 @@
+2006-05-03T11:57:00.000Z	jarle		How do I install the old nvidia legacy gfx-driver for my Geforce 2 Pro, I can't seem to find it on nvidia.com ?
+2006-05-03T11:58:00.000Z	amias	jarle	use ubuntu packages unless you like long compiles and dependency hunting
+2006-05-03T11:59:00.000Z	jarle	amias	which package?
+2006-05-03T12:00:00.000Z	amias	jarle	apt-get install nvidia-glx should get it all working , then check your /etc/X11/xorg.conf is using the nvidia not nv driver

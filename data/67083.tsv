@@ -1,0 +1,4 @@
+2009-02-03T22:22:00.000Z	James296		can anyone here tell me why I get this error when trying to add the openoffice.org repo from launchpad.net?
+2009-02-03T22:22:00.000Z	James296		W: GPG error: http://ppa.launchpad.net intrepid Release: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 60D11217247D1CFF
+2009-02-03T22:22:00.000Z	AidenL	James296	the source doesn't provide the public key or you chose not to install it, ignore and install anyway or grab the gpg key and add it to your trusted sources.
+2009-02-03T22:23:00.000Z	AidenL	James296	when was the last  time you apt-get updated?

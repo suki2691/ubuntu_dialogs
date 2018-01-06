@@ -1,0 +1,4 @@
+2010-09-02T12:47:00.000Z	ChrisMorgan		Then also there's the slight issue that it was dual boot - so the NTFS partition is actually the one with the boot flag.  Not certain if I could just switch the boot flag to the ext4 partition and have it work or not...
+2010-09-02T12:47:00.000Z	Jordan_U	ChrisMorgan	The boot flag only matters when you're using a microsoft style mbr.
+2010-09-02T12:49:00.000Z	ChrisMorgan	Jordan_U	so currently it boots grub from the NTFS partition - you reckon it would work just switching the boot flag to sda5 (my ext4 partition)?
+2010-09-02T12:50:00.000Z	Jordan_U	ChrisMorgan	I'm saying that the boot flag doesn't matter at all, it's completely ignored.

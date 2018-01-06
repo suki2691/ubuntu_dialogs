@@ -1,0 +1,4 @@
+2009-11-09T09:38:00.000Z	blood		what is wrong with the command: sudo chown -v $xxx/tools
+2009-11-09T09:39:00.000Z	blood		aye
+2009-11-09T09:39:00.000Z	Jordan_U	blood	You need a user and group to be the new owner
+2009-11-09T09:41:00.000Z	Jordan_U	blood	Then you need something like "chown blood:blood $xxx/tools"

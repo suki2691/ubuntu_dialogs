@@ -1,0 +1,4 @@
+2008-12-09T19:58:00.000Z	JuJuBee		If I want to block irc using iptables, is it sufficient to block port 6667?
+2008-12-09T19:59:00.000Z	error404notfound	JuJuBee	nope, different irc server use different ports, but mostly 6667... and then there is irc in web browser..
+2008-12-09T19:59:00.000Z	JuJuBee	error404notfound	bummer.  any suggestions?
+2008-12-09T20:00:00.000Z	error404notfound	JuJuBee	well always configure an exclusive firewall, ban all stuff except what you need, otherwise will mostly leave you vulnerable..

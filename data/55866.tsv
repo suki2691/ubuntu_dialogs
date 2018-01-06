@@ -1,0 +1,4 @@
+2009-10-30T23:13:00.000Z	crazy2k_		How do I install a specific version of a package?
+2009-10-30T23:13:00.000Z	G_A_C	crazy2k_	either apt-pinning, or IIRC you can do something like "aptitude install package/repo"
+2009-10-30T23:14:00.000Z	crazy2k_	th1	And the version number?
+2009-10-30T23:14:00.000Z	G_A_C	crazy2k_	you can't just pick a version number; you have to use a version which is available in a repo. so you have to use whichever repo has the version you want in it, and if none of them have it, you can't install it with apt.

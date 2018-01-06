@@ -1,0 +1,4 @@
+2007-07-20T06:30:00.000Z	Kevin4381	radoe	 - I downloaded ATI's drivers (after testing desktop effects without them--and it didn't work) ..
+2007-07-20T06:31:00.000Z	radoe	Kevin4381	ATI's driver does not work out if the box for desktop effects (beryl or compiz) as it is missing the "Composite extension". You need another X-Server (Xgl) to get it working.
+2007-07-20T06:33:00.000Z	radoe	Kevin4381	to avoid this, use the original radeon driver comming with Ubuntu, it should support effects and 3D acceleration on your 9800pro
+2007-07-20T06:43:00.000Z	radoe	Kevin4381	please start reading at https://help.ubuntu.com/community/CompositeManager

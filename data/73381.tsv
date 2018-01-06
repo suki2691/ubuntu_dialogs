@@ -1,0 +1,4 @@
+2008-11-23T19:50:00.000Z	geolr		I have one file in /var/log/samba with a nome like: log.wb->my_hostname> but it is empty. In smb.conf I find syslog = 0 which should be OK (?), so anything goes into these files.
+2008-11-23T19:51:00.000Z	remotec	geolr	are you sure smbclient is crashing, or just not mounting the directory properly?
+2008-11-23T19:52:00.000Z	remotec	geolr	try putting the address in nautilus like smb://user:pass@ip/
+2008-11-23T19:53:00.000Z	remotec	geolr	yes if you are trying to mount a remote directory i wouldn't mess with smb.conf

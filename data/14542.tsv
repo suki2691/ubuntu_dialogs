@@ -1,0 +1,4 @@
+2011-05-07T23:02:00.000Z	computermobob		Hi, don't know if this is the right place to say but, I have a 11.04 mythbuntu install, set to auto login. I have an emachine er1402 and when I suspend and then resume the screen is grabled, if I ssh in to the machine and sudo killall Xorg and then login, I can suspend and resume ok until the next reboot. Any suggestions? Thanks
+2011-05-07T23:03:00.000Z	hypetech	computermobob	the computer may not properly support suspend
+2011-05-07T23:04:00.000Z	computermobob	hypetech	it works ok if I kill Xorg the first time it fails
+2011-05-07T23:09:00.000Z	computermobob	hypetech	if i disable auto login it works fine. Need it to auto login as it will not have the keyboard attached

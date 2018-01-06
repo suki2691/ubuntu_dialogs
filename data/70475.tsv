@@ -1,0 +1,4 @@
+2008-12-29T10:12:00.000Z	nedwell		If anyone is familiar with using SSH as a SOCKS proxy, how can I create a user on my server (Ubuntu 8.10) that I can login to, but has ABSOLUTELY NO terminal access or ability to do anything except for use the proxy?  Thanks!
+2008-12-29T10:14:00.000Z	enerya	nedwell	- how do you run that proxy if you have such a user?
+2008-12-29T10:15:00.000Z	nedwell	enerya	openssh should run it by itself, right?  Then I can just plink(windows) into it using that username for proxy access.  I just don't want that to be accessible via putty (windows) for direct terminal access.
+2008-12-29T10:16:00.000Z	enerya	nedwell	- i am not 100% sure, but look in /etc/passwd if you can run ssh at login

@@ -1,0 +1,4 @@
+2007-01-21T11:49:00.000Z	Harry		if i create a user in cli, what's that user's password?
+2007-01-21T11:49:00.000Z	maher	Harry	what ever you set it to? how did you create the user?
+2007-01-21T11:51:00.000Z	maher	Harry	/etc/ssh/sshd_config is probably set to not allow blank passwords or something
+2007-01-21T11:51:00.000Z	maher	Harry	blank passwords are a bad idea use public key auth instead

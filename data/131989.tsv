@@ -1,0 +1,4 @@
+2007-08-04T05:10:00.000Z	po		how can i remove ubuntu backport updates? I disabled the backport updates, but i think these updates aren't uninstalled yet. Which command do I have to use?
+2007-08-04T05:12:00.000Z	thoreauputic	po	if you know which apps are from backports, jsut do something like   sudo aptitude purge <app1 app2 app3 >  and so on ( assuming you want to also get rid of the configurations)
+2007-08-04T05:12:00.000Z	thoreauputic	po	you might run into dependency issues though
+2007-08-04T05:13:00.000Z	po	thoreauputic	i want to fall back to original versions. I must somehow filter the packages which are backport upgraded.

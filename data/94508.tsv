@@ -1,0 +1,4 @@
+2008-04-17T20:26:00.000Z	Bananobot		I'm running Ubuntu Gutsy Server. Today I did an `apt-get update`/`upgrade` (which upgraded apache, php, linux-headers, and some other stuff) and I rebooted. Now, Apache doesn't seem to start up. `sudo /etc/init.d/apache2 start` gives me an "OK" with no errors, but the process doesn't seem to be running. When I try `sudo /etc/init.d/apache2 restart` or `stop` it says "httpd (no pid file) not running" Any ideas?
+2008-04-17T20:26:00.000Z	pihhan	Bananobot	look into /var/log/apache2/error.log or what is its name and see reason, why it did terminate
+2008-04-17T20:31:00.000Z	pihhan	Bananobot	check logs at /var/log/apache2, check apache -S, if it wont report configuration file error
+2008-04-17T20:46:00.000Z	Bananobot	pihhan	Nothing out of the ordinary in the Apache log files. It thinks it started up correctly

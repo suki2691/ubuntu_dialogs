@@ -1,0 +1,4 @@
+2007-12-31T05:54:00.000Z	Reggi1		Someone correct me if im wrong
+2007-12-31T05:55:00.000Z	Reggi1		/nickrud, there is probably a way to specify one drive instead of all the drives?
+2007-12-31T05:56:00.000Z	nickrud	Reggi1	yes, but you have to know what hal device it was registered as, using gconf-editor and navigating there can be useful as well.
+2007-12-31T05:57:00.000Z	nickrud	Reggi1	I usually give that recursive unset for all, most people only have one custom setting in my experience, and have screwed the pooch on the mount point

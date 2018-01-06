@@ -1,0 +1,4 @@
+2011-09-16T17:47:00.000Z	Guest7164		need help in recovering a deleted partition
+2011-09-16T17:48:00.000Z	escott	Guest7164	testdisk
+2011-09-16T17:49:00.000Z	escott	Guest7164	if you know the geometry of the partition you can just restore it with fdisk, but if you dont know the geometry read it off testdisk output
+2011-09-16T17:52:00.000Z	escott	Guest7164	removing a partition only removes the entry from the partition table. if you know the values you can just restore it

@@ -1,0 +1,4 @@
+2009-09-21T05:40:00.000Z	lluad	monostone	Sticky bit. means you can't delete a file unless you own it. Usually used on /tmp and friends. Check man chmod.
+2009-09-21T05:40:00.000Z	monostone	n8tuser	aha!! i think you just enlightened me!!! the multilog binary which handles the logging issues the setuidgid command
+2009-09-21T05:41:00.000Z	monostone	n8tuser	could that be part of the problem?
+2009-09-21T05:42:00.000Z	lluad	monostone	daemontools overloads the sticky bit to control logging, IIRC

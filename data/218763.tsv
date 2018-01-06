@@ -1,0 +1,4 @@
+2011-04-18T21:20:00.000Z	eddieguy		Any ideas? Local domain vs internet domain... should they differ?
+2011-04-18T21:20:00.000Z	eddieguy		Does it make it even more complex to have your local domain be the same as the global (internet) set domain?
+2011-04-18T21:21:00.000Z	sipior	eddieguy	are your internal machines reachable through the FQDN for which you have dns set up?
+2011-04-18T21:22:00.000Z	sipior	eddieguy	to put it another way: if you don't intend those machines to be directly reachable, it makes no difference what the fqdn is (since they don't appear in an authoritative dns).

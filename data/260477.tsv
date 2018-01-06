@@ -1,0 +1,4 @@
+2008-11-11T03:56:00.000Z	l7		what are the GPG files and metalink file at http://releases.ubuntu.com/8.10/ for?
+2008-11-11T03:56:00.000Z	l7		i'm wondering how i can use GPG to verify the checksum
+2008-11-11T03:56:00.000Z	l7		though maybe doing md5 on the .iso is enough
+2008-11-11T03:57:00.000Z	jmarsden	l7	gpg --verify file.sig file

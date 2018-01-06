@@ -1,0 +1,4 @@
+2011-03-06T18:47:00.000Z	Papyros		hi dudes.. i have a  video 1920 x 1080 and i want to resize it to something lower. i put in ffmpeg  ffmpeg -i video.mp4 -s xga -vcodec copy paparia.mp4 and the result is 1920 x 1080. . what can i do ? i want to resize it
+2011-03-06T18:48:00.000Z	pwnsauce	Papyros	there are loads of video size options for ffmpeg. Take a look at the ffmpeg man page
+2011-03-06T18:49:00.000Z	Papyros	pwnsauce	but i put the -s xga option and nothing happends
+2011-03-06T18:49:00.000Z	pwnsauce	Papyros	Hmmmm.... your syntax seems legit. Sorry, I can't help on this one

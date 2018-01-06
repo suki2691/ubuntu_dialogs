@@ -1,0 +1,4 @@
+2008-07-08T01:04:00.000Z	TheManiacKY		I only have Bash/Shell access to my linux box right now, How can I tell Linux to burn an iso to a black CD in the CDRW drive?
+2008-07-08T01:04:00.000Z	TheManiacKY		black=blank
+2008-07-08T01:04:00.000Z	jbroome	TheManiacKY	cdrecord -dao -eject -data <isofile>
+2008-07-08T01:05:00.000Z	TheManiacKY	jbroome	IndyGunFreak Great Thanks guys!

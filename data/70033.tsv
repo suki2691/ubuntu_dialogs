@@ -1,0 +1,4 @@
+2009-03-08T02:47:00.000Z	Veinor		i noticed that with my new keyboard, some of the special media keys don't seem to have corresponding XF86 keys, so I can't get them to do stuff under keyboard shortcuts or whatever
+2009-03-08T02:47:00.000Z	Veinor		is there any way for me to fix this?
+2009-03-08T02:48:00.000Z	glymph	Veinor	try running  "xev" and pressing them, that'll show if they're recognised; how you set them up is beyond my understanding, though;  if you're lucky, you can just use the shortcut manager in gnome.
+2009-03-08T02:48:00.000Z	Veinor	glymph	yeah, that's what I meant. they're not showing up under xev

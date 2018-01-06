@@ -1,0 +1,4 @@
+2012-08-28T06:46:00.000Z	yam_		is that real he always repead it . is it joke or sth?
+2012-08-28T06:47:00.000Z	yam_		so should i do what he says dpkg -l | awk '/^rc/{print $2}' |  sudo xargs dpkg -P
+2012-08-28T06:48:00.000Z	jrib	yam_	wait
+2012-08-28T06:48:00.000Z	jrib	yam_	do you understand that that command will remove all configurations from packages you've uninstalled?

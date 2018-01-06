@@ -1,0 +1,4 @@
+2006-07-27T10:51:00.000Z	jonh_wendell		How can i know the last time the apt database was updated? (or: When did i run apt-get update?)
+2006-07-27T10:53:00.000Z	jonh_wendell		any help?
+2006-07-27T10:53:00.000Z	jonh_wendell		 How can i know the last time the apt database was updated? (or: When did i run apt-get update?)
+2006-07-27T10:55:00.000Z	thoreauputic	jonh_wendell	ls -ld /var/cache/apt/archives and check the time stamp

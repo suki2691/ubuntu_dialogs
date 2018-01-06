@@ -1,0 +1,4 @@
+2009-09-28T15:27:00.000Z	lizzzy		Hey, so I already have  C: and D: partitioned on my system and am gonna install ubuntu on D: . I don't wanna do a "install inside windows", what are my other options?
+2009-09-28T15:27:00.000Z	lizzzy		I have the ubuntu cd with me.
+2009-09-28T15:28:00.000Z	lizzzy		and there is an option to install into sdb?
+2009-09-28T15:29:00.000Z	stefg	lizzzy	you actually don't install ubuntu to 'D:' ... there is no 'D:' in linux. Rather delete that (supposedly empty) D-Partition an give the installer the unused, unpartitioned space to work with

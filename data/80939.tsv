@@ -1,0 +1,4 @@
+2008-10-08T23:46:00.000Z	mape2345		I have a question: I have a ubuntu server and I have to administer it remotely. I use SCP to connect to it but I want to have full access to all files (I would use private key auth). How can I get full access to all files? I read on ubuntu site that enabling root user is very bad and so on. I don't have any other solutions
+2008-10-08T23:46:00.000Z	outbackwifi	mape2345	you need to connect to it using ssh and sudo
+2008-10-08T23:46:00.000Z	outbackwifi	mape2345	and then scp from there
+2008-10-08T23:47:00.000Z	outbackwifi	mape2345	and pscp

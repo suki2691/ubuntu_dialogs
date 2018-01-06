@@ -1,0 +1,4 @@
+2007-01-08T06:37:00.000Z	alex_		i am trying to format my usb hard disk to ext3, but i cant seem to get it working with gparted
+2007-01-08T06:39:00.000Z	alex_		i am trying to format my usb hard disk to ext3, but i cant seem to get it working with gparted.  I unmount the disk, and select format to ext3, but i get the error message "The following operation could not be applied to disk: Format /dev/sdc1 as ext3 See the details for more information ".  (The disk also mounts itself during this operation. ) Any ideas?
+2007-01-08T06:40:00.000Z	vitriol	alex_	why don't you just do 'mke2fs -j /dev/whatever
+2007-01-08T06:42:00.000Z	alex_	vitriol	thanks

@@ -1,0 +1,4 @@
+2007-12-05T01:31:00.000Z	tuna		I want to kill x and keep it dead until I want it back up, without a reboot. how can this be done?
+2007-12-05T01:31:00.000Z	tuna		I quess with runlevels somehow
+2007-12-05T01:32:00.000Z	VSpike	tuna	sudo invoke-rc.d gdm stop
+2007-12-05T01:32:00.000Z	VSpike	tuna	or kdm or xdm depending on which flavour you use

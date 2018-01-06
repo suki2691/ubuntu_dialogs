@@ -1,0 +1,4 @@
+2005-04-07T07:59:00.000Z	Br34ch		I'm on Ubuntu, and apparently my sound card wasn't found. I'm reading the forums.. and lots of them seem to be directing to something of "alsaconf." I've tried that, but here is what I get: bash: alsaconf: command not found (I tried apt-get install alsaconf, but it says "alsa-utils is already the newest version." to that) Any help and I'd be greatly grateful :x
+2005-04-07T08:01:00.000Z	Megabyte405	Br34ch	try sudo alsaconf
+2005-04-07T09:53:00.000Z	Megabyte405	Br34ch	uname
+2005-04-07T09:53:00.000Z	Megabyte405	Br34ch	uname -r for kernel version, -A I think for all

@@ -1,0 +1,4 @@
+2004-12-08T06:44:00.000Z	gson		is there anyway to convert an ntfs filesystem to an ext2/ext3 filesystem without destroying all the current data on it?
+2004-12-08T06:45:00.000Z	gson		is there anyway to convert an ntfs filesystem to an ext2/ext3 filesystem without destroying all the current data on it?
+2004-12-08T06:46:00.000Z	LinuxJones	gson	can you move the data to another partition then format as ext3 then move the data back. You can't convert ntfs>>ext* as far as I know.
+2004-12-08T09:17:00.000Z	LinuxJones	gson	no you will have to move your data then convert the partition to ext3 then move the data back. afaik

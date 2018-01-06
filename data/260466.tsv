@@ -1,0 +1,4 @@
+2008-07-21T10:29:00.000Z	ibos		UNOP: in the way to connect internet, I set the LAN card in ENABLE ROAMING mode. When I disable this card, the other card (regional LAN) is worked normally..
+2008-07-21T10:30:00.000Z	ibos		But when I enabled the internat LAN card, I can not reach other regional server anymore..
+2008-07-21T10:31:00.000Z	jmarsden	ibos	Sounds like you need a static route to the regional servers out the regional server interface?
+2008-07-21T10:34:00.000Z	jmarsden	ibos	can you do   ifconfig -a ; netstat -nr and put the output on pastebin... ah, same idea as unop

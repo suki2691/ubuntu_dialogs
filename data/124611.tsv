@@ -1,0 +1,4 @@
+2007-09-08T06:31:00.000Z	neramos		hey, when i try to save the files to this location i get "Permission denied" although i did this "sudo iptables-save > /etc/iptables.up.rules" ; any ideas ???
+2007-09-08T06:31:00.000Z	Flannel	neramos	sudo only works for the iptables-save, not the >.  You need to use tee:  sudo iptables-save | sudo tee /etc/iptables.up.rules
+2007-09-08T06:32:00.000Z	neramos		thanks Flannel
+2007-09-08T06:38:00.000Z	neramos	Flannel	sorry m8t but its not working...it just stays like it is and not even let me into the command again

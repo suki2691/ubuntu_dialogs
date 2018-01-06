@@ -1,0 +1,4 @@
+2010-12-21T02:35:00.000Z	mjwolf		anyone know how to have network-manager setup tun0 with an mtu of 1250?
+2010-12-21T02:36:00.000Z	Darael	mjwolf	nm doesn't handle tunnels, really.  tun0 will therefore probably need to be handled by ifupdown instead.
+2010-12-21T02:37:00.000Z	Darael	mjwolf	You could try "sudo ifconfig tun0 mty 1200".
+2010-12-21T02:37:00.000Z	Darael	mjwolf	*ahem*b I mean 1250, of course.

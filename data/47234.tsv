@@ -1,0 +1,4 @@
+2011-08-07T13:13:00.000Z	ugly		Awesome so now I could cat /image.gz* ¦ V
+2011-08-07T13:15:00.000Z	ugly		Now I can use cat /image.gz* ¦ gzip -dc ¦ dd of=/dev/hda1 conv=noerror, sync bs=4k when I want to restore
+2011-08-07T13:16:00.000Z	llutz_	ugly	use zcat, no gzip needed
+2011-08-07T13:28:00.000Z	llutz_	ugly	zcat image >/dev/hda1

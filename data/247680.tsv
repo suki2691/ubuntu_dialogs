@@ -1,0 +1,4 @@
+2008-02-03T01:13:00.000Z	akhilesh		How do I compile a kernel mobule in ubuntu ?
+2008-02-03T01:15:00.000Z	akhilesh		I installed 7.10-server edition. I want to write some test kernel modules... Just to start with ubuntu kernel
+2008-02-03T01:15:00.000Z	ompaul	akhilesh	read what the bot said
+2008-02-03T01:18:00.000Z	ompaul	akhilesh	the answer given was: To compile modules and drivers that are not bundled with the standard !kernel, install the relevant package, usually called "<modulename>-source", and run « sudo module-assistant » (you will have to do this again after kernel updates). To prevent specific modules from loading, see !blacklist  << now if you are talking about a module outside that scope you need to look at kernel.org for info on how to write kernel

@@ -1,0 +1,4 @@
+2011-02-05T00:53:00.000Z	Games_x2		how do i see what packages are installed on my machine
+2011-02-05T00:53:00.000Z	Games_x2		?
+2011-02-05T00:53:00.000Z	schnuffle1	Games_x2	sudo dpkg -l | less
+2011-02-05T01:03:00.000Z	schnuffle1	Games_x2	sudo dpkg -l | grep <packetname>

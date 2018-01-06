@@ -1,0 +1,4 @@
+2007-07-24T13:39:00.000Z	dissection		File /home/dissection/.fetchmailrc must have no more than -rwx--x--- (0710) permissions. <---- How do I set that?
+2007-07-24T13:40:00.000Z	CompIsMyRx	dissection	chmod 0710 /home/dissection/.fetchmailrc
+2007-07-24T13:40:00.000Z	dissection	CompIsMyRx	TTilus So how much is that permission set to, then onwards I can only edit it using sudo right?
+2007-07-24T13:41:00.000Z	CompIsMyRx	dissection	no, 710 means you can read, write, execute etc, but basically no one else can touch the file

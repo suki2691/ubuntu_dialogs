@@ -1,0 +1,4 @@
+2009-06-20T06:09:00.000Z	comptroller		Hi - i have a question with subversion i am using on ubuntu
+2009-06-20T06:10:00.000Z	comptroller		I am a newb - My question with subversion is that i can connect to a server and checkout files okay, and i can commit files okay; on the server side, the files show up as different versions when i do svn list --verbose; however, when i look at the files themselves on the server, they aren't changed
+2009-06-20T06:11:00.000Z	comptroller		Where are the committed svn files?
+2009-06-20T06:11:00.000Z	lstarnes	comptroller	they're stored in a special format in the repo itself

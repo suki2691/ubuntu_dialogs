@@ -1,0 +1,4 @@
+2011-01-24T00:03:00.000Z	earthian		Hi, is there a way to check if my floppy disk is working or not? I have the FDD in the case, I have a floppy disk inserted. The PC is a server so doe snot have a monitor, mouse or keyboard attached also no GUI. I am connected over SSH.
+2011-01-24T00:04:00.000Z	danst_	earthian	there sould be something like /dev/fd0 I suppose
+2011-01-24T00:04:00.000Z	danst_		try mounting it to some path
+2011-01-24T00:07:00.000Z	earthian	danst_	there is no /dev/fd0, so I suppose the cables in within the PC case are not connected. is that possible?

@@ -1,0 +1,4 @@
+2011-03-22T21:17:00.000Z	mongy		in the rsync manpage it says "famous for its delta-transfer algorithm, which reduces the amount of data sent over the network by sending only the differences between the source files and the existing files in the destination", so I have tried with a 10gig vbox vdi, I changed it by adding a 200mb zeroed file inside it, then run rsync which just sent the whole file again.  what am I missing.
+2011-03-22T21:18:00.000Z	llutz_	mongy	what was your exact command?
+2011-03-22T21:18:00.000Z	mongy	llutz	rsync --verbose --progress serv1010.vdi /media/usb-backup/
+2011-03-22T21:19:00.000Z	llutz_	mongy	--update missing

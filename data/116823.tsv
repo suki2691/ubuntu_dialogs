@@ -1,0 +1,4 @@
+2008-06-04T07:24:00.000Z	nantax		i also installed startup manager and i set grub to be at 1024x768, my desktop is set to the same res... but when grub is finished, login will be at 1280x1024, then go back to 1024x768 at desktop... annoying at best
+2008-06-04T07:24:00.000Z	nickrud	nantax	you would need to set a resolution in xorg.conf , gdm uses that to set the resolution if it's set
+2008-06-04T07:25:00.000Z	nantax	nickrud	where exactly in xorg.conf would i add that? my xorg.conf does not have any entries regarding resolutions
+2008-06-04T07:28:00.000Z	nickrud	nantax	a sec

@@ -1,0 +1,4 @@
+2009-09-30T05:15:00.000Z	smev81		hi, i want to do something simple, yet impossible. i want to embed my openoffice document to a tetex (lyx file.) I already know how to export to pdf and to ps. But how can i convert them to anything, that lyx knows (like jpg.) So my question is, how can i convert (pdf, ps or openoffice) to jpg?
+2009-09-30T05:16:00.000Z	Samus_Aran	smev81	convert foo.ps -quality 99 example.jpg
+2009-09-30T05:20:00.000Z	Samus_Aran	smev81	for pages in {1..14}; do echo "Converting page $page"; convert "foo.ps[$page]" -quality 99 "final-$page.jpg"; done
+2009-09-30T05:20:00.000Z	Samus_Aran	smev81	where 1..14 is the pages to extract

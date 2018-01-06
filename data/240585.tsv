@@ -1,0 +1,4 @@
+2006-09-08T14:45:00.000Z	mbvo		I'm trying to copy my files from my windows hdd to my linux hdd(/var/www) but it's telling me i don't have permisions to access that folder.  how do i do it from the terminal(I'm logged into the root account)?
+2006-09-08T14:45:00.000Z	thomas	mbvo	copy the contents into your home directory.
+2006-09-08T14:46:00.000Z	thomas	mbvo	use cp -R /path/to/windows /var/www running as root.
+2006-09-08T14:47:00.000Z	thomas	mbvo	what does this error say?

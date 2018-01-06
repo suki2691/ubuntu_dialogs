@@ -1,0 +1,4 @@
+2012-09-27T10:30:00.000Z	bzb		how do i setup ubuntu to run fsck after reboot automatically
+2012-09-27T10:31:00.000Z	bzb		calinou: how do i get it to invoke fsck after a reboot?
+2012-09-27T10:32:00.000Z	bzb		calinou: i need to run fsck because my system just suffered a crash and i want to make sure my disks are ok
+2012-09-27T10:34:00.000Z	JamezQ	bzb	it seems you can force a fsck on the next reboot using "sudo touch /forcefsck", then rebooting.

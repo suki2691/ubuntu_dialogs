@@ -1,0 +1,4 @@
+2011-05-14T01:19:00.000Z	Travis-42		I have an encrypted home directory and need to put my "authorized_keys" file in the unmounted .ssh folder. How do I best do this?
+2011-05-14T01:19:00.000Z	maco	Travis-42	i'd do it from a live cd
+2011-05-14T01:20:00.000Z	maco	Travis-42	if your user isn't logged in using that home dir, it'll be unencrypted. so put the authorized_keys on a flash drive, boot from a live cd, and drop it in place
+2011-05-14T01:20:00.000Z	Travis-42	maco	that makes sense, thank you

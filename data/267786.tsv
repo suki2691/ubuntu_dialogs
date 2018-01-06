@@ -1,0 +1,4 @@
+2009-01-01T11:03:00.000Z	Ghostindark		daemontools-run: subprocess post-installation script returned error exit status 1 I'm alway get this stupid error
+2009-01-01T11:04:00.000Z	crimsun	Ghostindark	you likely need to touch /etc/inittab
+2009-01-01T11:05:00.000Z	crimsun	Ghostindark	hint: daemontools doesn't quite fit in with upstart, so you'll need to find a hackaround for the inittab functionality
+2009-01-01T11:05:00.000Z	crimsun	Ghostindark	you could write an upstart job

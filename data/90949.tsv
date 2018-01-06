@@ -1,0 +1,4 @@
+2010-04-17T06:30:00.000Z	NarKoticZ		Sure
+2010-04-17T06:31:00.000Z	NarKoticZ		I downloaded the 32-bit version of Ubuntu from their website (ubuntu.com), burned it, and attempted to install Ubuntu, but when I try to boot, it loads the Intel Boot Loader and says "Operating System Not Installed"
+2010-04-17T06:32:00.000Z	daftykins	NarKoticZ	what do you mean by intel bootloader? PXE boot?
+2010-04-17T06:32:00.000Z	daftykins	NarKoticZ	that means your BIOS boot order is trying to boot on the network, go into your BIOS and change the boot order so it's CD first, then HDD second

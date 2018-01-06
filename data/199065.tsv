@@ -1,0 +1,4 @@
+2006-05-27T08:31:00.000Z	anndy		 g++ -DHAVE_CONFIG_H -I. -I. -I.. -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I./include -DGTK -DSCI_LEXER -DUSE_XIM -DGTK -DSCI_LEXER -DUSE_XIM -c AutoComplete.cxx  -fPIC -DPIC -o .libs/AutoComplete.o
+2006-05-27T08:31:00.000Z	anndy		../libtool: line 1281: g++: command not found
+2006-05-27T08:31:00.000Z	anndy		make[3] : *** [AutoComplete.lo]  Error 1
+2006-05-27T08:31:00.000Z	Frogzoo	anndy	install build-essential

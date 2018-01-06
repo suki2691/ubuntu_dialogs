@@ -1,0 +1,4 @@
+2007-02-22T08:28:00.000Z	JimBeam		hi, im using ubuntu server: is there a way when i'm doing: "apt-get -f install" to avoid being prompted for the cd? meaning a command i can use that all packeges should be downloaded, not being fetched from the  cd
+2007-02-22T08:28:00.000Z	bruenig	JimBeam	remove the cd line from your /etc/apt/sources.list
+2007-02-22T08:28:00.000Z	JimBeam	ledbettj	bruenig: can i "comment" it somehow? for later re-use
+2007-02-22T08:29:00.000Z	bruenig	JimBeam	yeah use #

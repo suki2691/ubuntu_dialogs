@@ -1,0 +1,4 @@
+2009-05-06T16:20:00.000Z	penigma_		recursively
+2009-05-06T16:22:00.000Z	penigma_		it doen't remove subdirs
+2009-05-06T16:23:00.000Z	rumpel2	penigma_	  find . -type d -name '.svn' -print0 | xargs -0 rm -rdf
+2009-05-06T16:24:00.000Z	penigma_	rumpel2	thanks :) your code help

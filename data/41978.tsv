@@ -1,0 +1,4 @@
+2011-07-21T03:27:00.000Z	pc500		How does ifconfig choose adapter names?  Is there a limit of 12 adapters?
+2011-07-21T03:27:00.000Z	pc500		I've noticed that after 12, I start getting some funky names -- ie: eth6-eth4 Link encap:Ethernet  HWaddr 00:80:c8:3a:95:e8
+2011-07-21T03:28:00.000Z	iceroot	pc500	ifconfig is not choosing the names, its udev. there is no limit
+2011-07-21T03:29:00.000Z	pc500	iceroot	 - Any reason why udev decided to use a name like "eth6-eth4"?

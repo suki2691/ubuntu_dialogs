@@ -1,0 +1,4 @@
+2012-09-14T06:37:00.000Z	CrazyHorse18		hey
+2012-09-14T06:37:00.000Z	CrazyHorse18		how can i find out what process opened a port?
+2012-09-14T06:38:00.000Z	CrazyHorse18		tcp        0      0 0.0.0.0:25              0.0.0.0:*               LISTEN  << i can see this with netstat -an
+2012-09-14T06:40:00.000Z	TJ-	CrazyHorse18	use the -p process option to netstat, and run it using sudo: "sudo netstat -anp"

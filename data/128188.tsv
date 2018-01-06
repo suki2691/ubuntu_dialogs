@@ -1,0 +1,4 @@
+2008-03-26T00:47:00.000Z	Scunizi		ouch.. I just discovered that I have two active mounted swap partitions.. If I unmount one will the system hic-up?
+2008-03-26T00:49:00.000Z	captainm	Scunizi	I think the safest method is to boot into a live-cd and remove one swap partition from fstab
+2008-03-26T00:50:00.000Z	Scunizi	captainm	ok.. thanks.. I had thought of just commenting it out in fstab then rebooting.
+2008-03-26T00:51:00.000Z	captainm	Scunizi	that's even better ;) Don't know why I didn't think of that

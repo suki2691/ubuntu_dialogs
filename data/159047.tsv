@@ -1,0 +1,4 @@
+2008-03-18T07:51:00.000Z	JoshJ		does /etc/rc.local run as root or as the user you're logging in as?
+2008-03-18T07:51:00.000Z	JoshJ		ah, okay. so "modprobe ndiswrapper" in there should do what i want, then.
+2008-03-18T07:51:00.000Z	tritium	JoshJ	it runs before any user is logged in
+2008-05-25T03:43:00.000Z	JoshJ	tritium	right, hence the --purge

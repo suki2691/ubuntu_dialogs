@@ -1,0 +1,4 @@
+2007-01-15T16:31:00.000Z	ocx32		where can i read iptables log?
+2007-01-15T16:32:00.000Z	thoreauputic	ocx32	usually /var/log/syslog and/or /var/log/messages depending how you configured iptables
+2007-01-15T16:37:00.000Z	ocx32	thoreauputic	i see the log but the port number is not displayed in thast log
+2007-01-15T16:37:00.000Z	thoreauputic	ocx32	you might want to increase the verbosity in your iptables log level

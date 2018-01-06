@@ -1,0 +1,4 @@
+2010-10-12T01:59:00.000Z	memo_		after maverick update I can't start X except in failsafe mode; it says "failed to load module "nvidia". no drivers available". Can anyone help?
+2010-10-12T02:01:00.000Z	glebihan	memo_	try generating a new xorg.conf : run "sudo X -configure && sudo mv /root/xorg.conf /etc/X11"
+2010-10-12T02:03:00.000Z	memo_	glebihan	sudo -X configure also says "failed to load module nvidia"; and there is no /root/xorg.conf
+2010-10-12T02:07:00.000Z	glebihan	memo_	maybe this can help : http://ubuntuforums.org/showthread.php?t=1472164

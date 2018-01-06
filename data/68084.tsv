@@ -1,0 +1,4 @@
+2009-01-25T07:41:00.000Z	_Vi_	albech	im wondering if this might work.. i got this from the 'man tar' page:  --recursive-unlink remove existing directories before extracting directories of the same name
+2009-01-25T07:43:00.000Z	albech	_Vi_	I believe that will remove target directories before extracting files
+2009-01-25T07:44:00.000Z	albech	_Vi_	it doesn't extract the whole archive into just one folder
+2009-01-25T07:44:00.000Z	albech	_Vi_	it could also be that I should create the archive as 'flat' and not address this in the extraction process

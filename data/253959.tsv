@@ -1,0 +1,4 @@
+2005-01-05T13:06:00.000Z	Friczy	ubuntu_user	sudo cdrecord -dev=ATAPI: -scanbus tells the correct device name for your writer
+2005-01-05T13:07:00.000Z	Friczy	ubuntu_user	then you can edit your /etc/default/cdrecord file properly
+2005-01-05T13:08:00.000Z	ubuntu_user	Friczy	yes and what i add to this file?
+2005-01-05T13:09:00.000Z	Friczy	ubuntu_user	for example in my file is: ide=    ATAPI:0,1,0     -1      -1      burnfree

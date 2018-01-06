@@ -1,0 +1,4 @@
+2006-04-08T16:47:00.000Z	lukins		how do i reinstall the english locale?
+2006-04-08T16:49:00.000Z	Jowi	lukins	"sudo dpkg-reconfigure locales" will re-generate them. /etc/environment to set it
+2006-04-08T16:49:00.000Z	Jowi	lukins	there should be a command for it as well, but i don't remember it... hmmm...
+2006-04-08T16:50:00.000Z	Jowi	lukins	"sudo dpkg-reconfigure localeconf"

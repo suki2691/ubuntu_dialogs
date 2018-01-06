@@ -1,0 +1,4 @@
+2008-06-24T07:14:00.000Z	CatCheeto		Does mysql server come with a default password for root?
+2008-06-24T07:15:00.000Z	CatCheeto		I just installed mysql, I type mysql -you root and get "Access denied for user 'root'@'localhost' (using password: NO)"
+2008-06-24T07:17:00.000Z	CatCheeto		I just installed mysql, I type mysql -you root and get "Access denied for user 'root'@'localhost' (using password: NO)"
+2008-06-24T07:19:00.000Z	kon_	CatCheeto	run mysqld-safe --skip-grant-tables and then connect and set a root pw and kill mysqld-safe and invoke-rc.d start mysql

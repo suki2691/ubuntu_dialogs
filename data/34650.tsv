@@ -1,0 +1,4 @@
+2010-05-03T23:16:00.000Z	g0ddi3		Hello
+2010-05-03T23:17:00.000Z	g0ddi3		When i try to add a packetsource with the command: "deb http://ppa.launchpad.net/jd-team/jdownloader/ubuntu lucid main" then there is the failure "Deb not found" what should i do?
+2010-05-03T23:19:00.000Z	ActionParsnip	g0ddi3	sudo add-apt-repository ppa:jd-team/jdownloader; sudo apt-get update; sudo apt-get install jdownloader
+2010-05-03T23:19:00.000Z	g0ddi3	ActionParsnip	Thx

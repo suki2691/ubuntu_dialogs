@@ -1,0 +1,4 @@
+2009-03-06T00:06:00.000Z	Steph1en		question, i just installed ubuntu on an old thinkpad i1200. it boots to a black screen. google turned up an answer: "You should add following boot-options: vga=792 acpi=force irqpoll". How do i do that?
+2009-03-06T00:07:00.000Z	arvind_khadri	Steph1en	put them in your menu.lst in the kernel line
+2009-03-06T00:08:00.000Z	Steph1en	arvind_khadri	so do that and reinstall to the laptop?
+2009-03-06T00:08:00.000Z	arvind_khadri	Steph1en	ya do that and reinstall grub

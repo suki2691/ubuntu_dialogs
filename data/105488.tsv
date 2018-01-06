@@ -1,0 +1,4 @@
+2011-01-03T02:49:00.000Z	indystorm		Hey guys I am having a problem connecting to ssh on my system from my blackberry using bbssh- I get the error "authentication failed" available methods are public key, gssapi-with-mic,password   any ideas anybody?
+2011-01-03T02:50:00.000Z	ActionParsnip	indystorm	the default is password authentication. Are you using key authentication in SSH (if you don't know then you aren't using it)
+2011-12-20T07:51:00.000Z	ActionParsnip	indystorm	make the folder, then run: sudo useradd username -p password -d /var/www/username -s /bin/false; sudo passwd username
+2011-12-20T07:52:00.000Z	ActionParsnip	indystorm	you can then run:  sudo chown -R username:username /var/www/username

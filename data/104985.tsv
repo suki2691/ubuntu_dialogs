@@ -1,0 +1,4 @@
+2010-12-19T09:30:00.000Z	chills518		having trouble connecting to windows 7 pc.  Was able to see it before but must have changed something while getting my wireless working.  Now I can't even see the windows 7 pc.. any ideas?
+2010-12-19T09:30:00.000Z	ActionParsnip	chills518	can you ping it's IP?
+2010-12-19T09:31:00.000Z	ActionParsnip	chills518	sounds like your DNS doesn't include your router, you can add a resolution in /etc/hosts if you like
+2010-12-19T09:33:00.000Z	ActionParsnip	chills518	you can access the system via IP if you like. You will bypass any DNS if you do

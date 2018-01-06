@@ -1,0 +1,4 @@
+2007-08-23T06:36:00.000Z	wicked		hey sorry im in a terminal so bare with me... Is there a fix for a very slow Grub loading window?... Ubuntu loads fine even VMware runs XP with no problem..... Hardware: P4 2.4, 512 m, 82865 vid., WD80 (WD800), 256 allocated to VM... The bios looks fine although i noticed it take 20 sec of waiting to even find the HD.... no lower than 20.... WTF? Should I use lilo or is there a fix for this?
+2007-08-23T06:37:00.000Z	dho_ragus	wicked	did you try re-instaling grub with `grub-install` ?
+2007-08-23T06:38:00.000Z	dho_ragus	wicked	not if you do it right
+2007-08-23T06:42:00.000Z	dho_ragus	wicked	i'd do `grub-install --root-directory=/ /dev/sda` or whatever before trying lilo.  just to give it a shot.

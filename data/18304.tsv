@@ -1,0 +1,4 @@
+2011-02-09T14:05:00.000Z	JenniferB2		Hi folks.. we have ubuntu server on a separate machine.. ssh using a login the specied login and password.. create a user for myself.. added to sudoers and gave a password... su myusername and enter password... all fine.. but my command line starts with a dollar $ and doesn't behave the same as the username I was given.. why not ? how can I fix this ?
+2011-02-09T14:06:00.000Z	species|work	JenniferB2	you dont use su with sudo, they are different
+2011-02-09T14:06:00.000Z	species|work	JenniferB2	to permanantly auth, use "sudo -s" or do to it temporarily, "sudo <original commands> <original params>"
+2011-02-09T14:08:00.000Z	JenniferB2	species|work	what do I do then ?

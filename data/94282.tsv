@@ -1,0 +1,4 @@
+2008-07-03T14:07:00.000Z	proximas		I have a boot problem too. I installed Ubuntu on a external USB harddrive and the main HD has XP on it. But when i boot the computer without the external HD, XP does not boot
+2008-07-03T14:08:00.000Z	proximas		i dont actually know fryguy. I think i probably installed grub on the external HD
+2008-07-03T14:08:00.000Z	Bert_2	proximas	that's because the grub bootloader file is on your external disk but your bootloader started is on the MBR of your main disk
+2008-07-03T14:09:00.000Z	Bert_2	proximas	there are some guids for that on the ubuntu forums, the best way is to restore the XP bootloader and then edit the boot.ini file, just search on ubuntuforums.org

@@ -1,0 +1,4 @@
+2008-03-27T20:47:00.000Z	rumh		Q: My SSH connection freezes after partial complete output of common functions like: "ls, cat, top, ps" Any idead how I can start to investigate?
+2008-03-27T20:48:00.000Z	rausb0	rumh	try lowering the mtu size on the client size. if that helps, some router on the way to the ssh server drops all icmp packets (which is totally braindead)
+2008-03-27T20:49:00.000Z	rausb0		*client side
+2008-03-27T20:49:00.000Z	rumh	rausb0	thanks, I'll try

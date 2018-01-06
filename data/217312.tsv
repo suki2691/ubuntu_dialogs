@@ -1,0 +1,4 @@
+2006-05-15T14:24:00.000Z	azathoth		i'm getting a "PCI: Failed to allocate mem" error that is b0rking my network card... anyone know any solutions to these problems?
+2006-05-15T14:25:00.000Z	intelikey	azathoth	looks like a driver issue.
+2006-05-15T14:26:00.000Z	azathoth	intelikey	i get it before anything has booted up, it's on my bootup list
+2006-05-15T14:31:00.000Z	intelikey	azathoth	then it is a driver issue indeed.  the lack of a driver, might be more percise.    if you can get it working then build a new initramfs.img/initrd.img   it might work.......   i said might.

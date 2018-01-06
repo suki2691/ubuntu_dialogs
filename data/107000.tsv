@@ -1,0 +1,4 @@
+2008-01-07T20:46:00.000Z	komputes		1) Given a filename, how can I find out which package it came from. 2) How do I determine (list) dependencies for a package? 3)Is there a way to manually check a package's signature to verify its integrity?
+2008-01-07T20:47:00.000Z	komputes		i know, but with utilities on debian, it can't be done???
+2008-01-07T20:49:00.000Z	komputes		1) Given a filename, how can I find out which package it came from. 2) How do I determine (list) dependencies for a package? 3)Is there a way to manually check a package's signature to verify its integrity?
+2008-01-07T20:51:00.000Z	ethercrow	komputes	you can use apt-cache show packagename, it will show dependencies among other information

@@ -1,0 +1,4 @@
+2008-03-24T05:42:00.000Z	urthmover		I have manually compiled the nvidia drivers and everything looks good (resolution etc.) when I reboot ubuntu says that it can't detect the graphics adaptor and then boots in a low graphics configuration.  How do I get the new nvidia drivers to stick after a reboot? (/etc/modules HAS nvidia in it)
+2008-03-24T05:44:00.000Z	c-ron	urthmover	can you modprobe nvidia ?
+2008-03-24T05:48:00.000Z	c-ron	urthmover	tried envy?
+2008-05-16T09:15:00.000Z	c-ron	urthmover	manually edit your xorg.conf file

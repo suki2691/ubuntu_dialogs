@@ -1,0 +1,4 @@
+2008-04-28T03:27:00.000Z	pushpop		how do you compress a directory with tar when the directory contains many subdirectores and files?
+2008-04-28T03:28:00.000Z	pushpop		how do you compress a directory with tar when the directory contains many subdirectores and files?
+2008-04-28T03:29:00.000Z	Wyzard	pushpop	tar doesn't compress things -- that's done by things like gzip or bzip2
+2008-04-28T03:29:00.000Z	Wyzard	pushpop	tar takes all those subdirectories and files, and combines them all into a single stream which you can then compress

@@ -1,0 +1,4 @@
+2005-12-28T12:25:00.000Z	intelikey	dAndy	you could try uninstalling locals before the upgrade and see if it will work... but that is just a thought.
+2005-12-28T12:26:00.000Z	dAndy	intelikey	yeah i did that, but now things need locales
+2005-12-28T12:27:00.000Z	dAndy	intelikey	I touched the missing file which appeared to work, now I just need to figure out which other locale packages I need to make my system good again
+2005-12-28T12:28:00.000Z	intelikey	dAndy	apt-cache searvh locale- | less

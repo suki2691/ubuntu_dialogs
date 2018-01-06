@@ -1,0 +1,4 @@
+2006-12-04T10:24:00.000Z	Dasnipa`		anyone by chance know of a console command to sync the system clock to the timeserver? my comp is getting older and starts to run slow within a week these days
+2006-12-04T10:24:00.000Z	Dasnipa`		i just wanna make a cronjob for it or something
+2006-12-04T10:24:00.000Z	crimsun	Dasnipa`	that happens automatically whenever a network interface is brought up (on ifup)
+2006-12-04T10:25:00.000Z	crimsun	Dasnipa`	if you're noticing clock desync, you could either install ntp-server or crontab an ntpdate

@@ -1,0 +1,4 @@
+2011-11-13T22:44:00.000Z	clio		I have an external USB drive that is automatically set to read-only when I mount it using the following command:  sudo mount -t ntfs -rw /dev/sdb1 /media/LaCie   The output of this command is:  mount: warning: /media/LaCie seems to be mounted read-only.  Any suggestions?
+2011-11-13T22:44:00.000Z	bekks	clio	take a look at dmesg, about the last 100 lines.
+2011-11-13T22:48:00.000Z	bekks	clio	nopaste the output of lsb_release -a please
+2011-11-13T22:49:00.000Z	clio	bekks	http://paste.ubuntu.com/737447/

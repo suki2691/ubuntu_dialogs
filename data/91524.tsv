@@ -1,0 +1,4 @@
+2011-04-19T00:05:00.000Z	ions		I have read online that in general most linux distros do not keep the creation date of files only the modified dates. Is this correct?
+2011-04-19T00:05:00.000Z	rhizmoe	ions	url please
+2011-04-19T00:07:00.000Z	ions	rhizmoe	http://forums.devshed.com/unix-help-35/how-to-get-the-file-creation-date-450882.html tldr; most file systems do not contain this information and that ctime is really the modified time. I have also read this on other sites as I didn't initially believe it.
+2011-04-19T00:11:00.000Z	rhizmoe	ions	ctime being the birth time of the inode seems reasonableish

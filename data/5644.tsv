@@ -1,0 +1,4 @@
+2012-02-12T07:32:00.000Z	iceocean		hello, I have a file which is 60mb, I want to chop it off so that it is only 50mb (discarding the tail end of the file), is there an easy way to do this?
+2012-02-12T07:33:00.000Z	jrib	iceocean	probably dd, cut, or split
+2012-02-12T07:34:00.000Z	jrib	iceocean	oh, check out "truncate" as well
+2012-02-12T07:34:00.000Z	iceocean	jrib	split should work well i think. thanks

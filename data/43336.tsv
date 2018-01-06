@@ -1,0 +1,4 @@
+2009-11-22T12:23:00.000Z	Trustisaweakness		I was wondering if ubuntu tweak works on 9.10? and i disabled the supend and hibarnate but I see them in the shutdown menu still. I did this in both the ubuntu tweak app and gconf-editor and still there?
+2009-11-22T12:24:00.000Z	FireCrotch	Trustisaweakness	I'm not familiar with "ubuntu tweak" but changing stuff like that typically requires you to log out and log back in for it to take effectr
+2009-11-22T12:25:00.000Z	Trustisaweakness	FireCrotch	I did and still no change should i try a reboot
+2009-11-22T12:25:00.000Z	FireCrotch	Trustisaweakness	A reboot shouldn't be necessary - I would try restarting gdm first.  sudo /etc/init.d/gdm restart

@@ -1,0 +1,4 @@
+2010-02-27T00:21:00.000Z	flowtron		ah, I added some underscores, but that didn't work either
+2010-02-27T00:22:00.000Z	flowtron		I really would like some network/routing guru to show up .. or at least some ideas what to use as search terms, nothing helpful is coming up for my issue
+2010-02-27T00:22:00.000Z	flowtron		my karmic-server/router is somehow dropping packets from a bunch of sites, I can lynx them on the router and ping them from the client, but the browser never get's any packets. Any ideas?!
+2010-02-27T00:23:00.000Z	janisozaur	flowtron	some time ago all my requests to certain sites would time out. turned out it was due to "CLAMPMSS" option in the shorewall configuration.

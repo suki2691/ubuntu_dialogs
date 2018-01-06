@@ -1,0 +1,4 @@
+2012-03-12T04:56:00.000Z	ouyes		could anyone help me with this, when I try to sudo modprobe rt5370sta
+2012-03-12T04:56:00.000Z	ouyes		FATAL: Error inserting rt5370sta (/lib/modules/2.6.32-38-generic/kernel/drivers/net/wireless/rt5370sta.ko): Device or resource busy, what is wrong?
+2012-03-12T04:57:00.000Z	boolean	ouyes	do a sudo lsmod|grep rt5370sta to see if it is already loaded
+2012-03-12T04:58:00.000Z	ouyes	boolean	nope, there is nothing in the output

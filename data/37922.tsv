@@ -1,0 +1,4 @@
+2010-02-05T22:04:00.000Z	anodesni		I used this site http://moelhave.dk/2009/12/nvidia-cuda-on-ubuntu-karmic-koala/ to install CUDA on  Ubuntu 9.10. Still, when I compile "particles" with "make emu=1" I get the following errors http://pastebin.ca/1787190
+2010-02-05T22:05:00.000Z	boourns	anodesni	can u do a gcc -v for me?
+2010-02-05T22:06:00.000Z	anodesni	boourns	it's 4.4, but I installed also 4.3 and configured nvidia sdk to use gcc4.3 with the guide I give the site from
+2010-02-05T22:07:00.000Z	boourns	anodesni	my guess is its still pointing to 4.4 somehow. seems to be what that error is caused by. "CUDA doesn't presently support gcc 4.4. You will need to downgrade/install a gcc 4.3 version to compile with CUDA." http://forums.nvidia.com/index.php?showtopic=107881

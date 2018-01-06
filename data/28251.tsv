@@ -1,0 +1,4 @@
+2010-08-03T00:02:00.000Z	tsziklay		is there a way to see what process is running on a specific port number so that I know which process to kill?
+2010-08-03T00:02:00.000Z	erUSUL	tsziklay	sudo lsof -i :port
+2010-08-03T00:03:00.000Z	tsziklay	erUSUL	port = the port number in question right?
+2010-08-03T00:03:00.000Z	erUSUL	tsziklay	correct

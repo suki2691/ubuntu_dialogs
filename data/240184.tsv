@@ -1,0 +1,4 @@
+2007-12-10T00:44:00.000Z	eTranquility		I messed with my graphics card driver, could someone help me get my GUI back?
+2007-12-10T00:44:00.000Z	nickrud	eTranquility	in a console (or recovery boot console)  sudo dpkg-reconfigure -pcritical xserver-xorg
+2007-12-10T00:45:00.000Z	nickrud	eTranquility	that command won't ask any questions, just recreate the default
+2008-01-07T08:23:00.000Z	nickrud	eTranquility	sudo dpkg-reconfigure -pcritical xserver-xorg will give you a default xorg.conf

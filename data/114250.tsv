@@ -1,0 +1,4 @@
+2008-02-17T05:07:00.000Z	abshiffl		When I installed, I set aside a few partitions for music, photos, and backup storage space.  Each partition is mounted /music ,/photos , /backup etc and belongs to root.  How can I adjust those permissions? :(
+2008-02-17T05:08:00.000Z	abshiffl		thanks
+2008-02-17T05:10:00.000Z	FourX4Luvn	abshiffl	chown = CHange OWNership
+2008-02-17T05:12:00.000Z	FourX4Luvn	abshiffl	Bah.. I misread your question.. sorry.  No, you don't need to add the groups part if it's not needed.  Wuld be simply "chown username /music"

@@ -1,0 +1,4 @@
+2005-11-26T09:51:00.000Z	eruin_		does anyone know how I could copy only non-dot files (recursively) out of a directory full of nasty dotfiles?
+2005-11-26T09:51:00.000Z	eruin_		I've been searching google and manuals enough to make my head spin
+2005-11-26T09:52:00.000Z	rryder	eruin_	i think cp -R will skip dot files
+2005-11-26T09:53:00.000Z	eruin_	rryder	I thought so too, but I get nasty .svn directories in the subdirectories

@@ -1,0 +1,4 @@
+2012-04-11T02:04:00.000Z	Mofasa		but it gives me permission denied, even when running as su
+2012-04-11T02:05:00.000Z	Mofasa		tried both echo and tee
+2012-04-11T02:07:00.000Z	jpollard	Mofasa	Try su -l instead of su
+2012-04-11T02:13:00.000Z	jpollard	Mofasa	When you say access denied, do you mean when you run su, or when you try and configure acpi?

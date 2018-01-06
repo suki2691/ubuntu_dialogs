@@ -1,0 +1,4 @@
+2007-03-28T10:50:00.000Z	arrow		can someone explain why ext3 doesn't get fragmented?
+2007-03-28T10:50:00.000Z	Dasnipa`	arrow	because the filesystem allocates space a lot smarter
+2007-03-28T10:51:00.000Z	Dasnipa`	arrow	reiserfs does similar
+2007-03-28T10:53:00.000Z	Dasnipa`	arrow	and yes, this leads to the question why hasnt microsoft done something similar... your guess is as good as mine... maybe they havent been able to invent their own algos for the stuff and they couldnt possibly use open source code or algos in their FS, God forbid it have to be open source

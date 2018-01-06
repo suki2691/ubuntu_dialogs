@@ -1,0 +1,4 @@
+2011-03-24T20:59:00.000Z	pale_		i am traying to figure out using iptables how to accept connection only with my country ip range, and drop others. Can anyone help me?
+2011-03-24T20:59:00.000Z	ikonia	pale_	what is your country ip range
+2011-03-24T21:00:00.000Z	ikonia	pale_	ok, so you want to look at the -J accept policy then use the ranges, #netfilter is the iptables support channel so you can get more detailed help there too
+2011-03-24T21:03:00.000Z	pale_	ikonia	I allready create som rules for blocking some IP ranges  but it takes long time doing it for every country,so better way is to only allow certan range of IP (my country)..i am doing this only becaouse of brute force attacks from china america japan and other country

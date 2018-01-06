@@ -1,0 +1,4 @@
+2007-12-22T01:19:00.000Z	HPM_		Where does Ubuntu store font (ttf) files?
+2007-12-22T01:19:00.000Z	ifireball	HPM_	lots of places, you've a user friendly front-end for that in the "virtual directory" "fonts:"
+2007-12-22T01:20:00.000Z	HPM_	ifireball	I'm setting up a script that requires the path to a few font files...
+2007-12-22T01:22:00.000Z	ifireball	HPM_	you may want to look into interfacing with fontconfig, the font management library, it won't be wise to hard-code the paths into the script

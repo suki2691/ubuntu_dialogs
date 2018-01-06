@@ -1,0 +1,4 @@
+2009-07-17T10:34:00.000Z	skyl		can one then latter use the image as a drive after dd if=/dev/sda1 of=/here.img  ... what can one do with the image?
+2009-07-17T10:34:00.000Z	moymoy	skyl	you can mount the image if you want
+2009-07-17T10:34:00.000Z	moymoy	skyl	sudo mount -o loop /image/here.img /folder/here
+2009-07-17T10:35:00.000Z	skyl	moymoy	I see, ty

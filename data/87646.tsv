@@ -1,0 +1,4 @@
+2008-09-09T20:27:00.000Z	stetho		Is there a way to merge the contents of three folders (with ether A + B + C or A+B = AB and then AB + C) removing duplicates and preserving folder structure?
+2008-09-09T20:28:00.000Z	jameslr	stetho	you could probably whip something up with rsync
+2008-09-09T20:30:00.000Z	jameslr	stetho	it would look something like this: rsync -av A/ B/ and the same for B/ C/
+2008-09-09T20:31:00.000Z	jameslr	stetho	if you want rsync to delete the source i think you can just use --delete in your command.

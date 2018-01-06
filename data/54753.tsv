@@ -1,0 +1,4 @@
+2009-06-15T20:22:00.000Z	mdm	cporter	is this for backup purposes or for deployment?
+2009-06-15T20:23:00.000Z	cporter	mdm	for deployment. I want an easy way to get ubuntu up and running on a bunch of office computers
+2009-06-15T20:23:00.000Z	mdm	cporter	then use cloning, you can try clonesys.  But it would be easier to create cpio images, use netbooting and a script to layout a disk and put on the cpio images
+2009-06-15T20:24:00.000Z	mdm	cporter	you can also do that with whole disk partition images, but cpios can extract partial information and can be updated rather then disk image at a time

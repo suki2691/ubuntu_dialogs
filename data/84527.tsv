@@ -1,0 +1,4 @@
+2008-12-21T22:32:00.000Z	l337ingDisorder		hey can anyone help explain something to me? There's a script on one of our company servers that I want to edit, but I don't recall where the script is. It's obviously in one of the $PATH folders since I can just tab-complete it from any folder if I want to run it, but is there any kind of readlink-like command to find it or do I just have to use the find command?
+2008-12-21T22:32:00.000Z	DRebellion	l337ingDisorder	`which nameofcommand'
+2008-12-21T22:33:00.000Z	l337ingDisorder	DRebellion	awesome, that's 100% exactly what I was hoping for. Many many thanks!
+2008-12-21T22:36:00.000Z	l337ingDisorder	DRebellion	thanks again :)

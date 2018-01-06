@@ -1,0 +1,4 @@
+2007-06-17T09:17:00.000Z	Guest399		hey, what's the umask I would need to mount a vfat partition so that files aren't executable (i.e. normal)?
+2007-06-17T09:18:00.000Z	penguin42	Guest399	Try a umask of 111
+2007-06-17T09:19:00.000Z	Guest399	penguin42	files on ext3 by default are 644, right?  should i make it 133?
+2007-06-17T09:19:00.000Z	penguin42	Guest399	I'm not really sure how umask works with FAT stuff

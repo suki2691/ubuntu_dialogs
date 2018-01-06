@@ -1,0 +1,4 @@
+2008-07-09T06:29:00.000Z	pem3v78		I'm on Ubuntu 8.04, I just added myself (gpasswd) to new group, then open new terminal, run 'groups' command and see that I'm not in the new group, what's wrong ?
+2008-07-09T06:29:00.000Z	macrobad	pem3v78	logout & login back
+2008-07-09T06:30:00.000Z	pem3v78	macrobad	why do I have to do that, I never needed to on debian in the past ?
+2008-07-09T06:31:00.000Z	macrobad	pem3v78	I am not sure about pure debian, but this is not specific to Ubuntu. Actually, I've seen the same behaviour on Gentoo. Perhaps, Debian has a patched version of groupadd, which updates the records on-the-fly?

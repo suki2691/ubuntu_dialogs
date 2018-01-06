@@ -1,0 +1,4 @@
+2010-02-23T15:12:00.000Z	feisar		Hi, I need to run 'apt-get dist-upgrade' in the early hours of the morning. I have entered 'apt-get -y dist-upgrade' in root's crontab and using 'top' I can tell it runs. But it does not update. Can someone explain why that might be?
+2010-02-23T15:13:00.000Z	erUSUL	feisar	without a a prior apt-get update there is nothing to pgrade
+2010-02-23T15:13:00.000Z	feisar	erUSUL	I have manually run apt-get update
+2010-02-23T15:13:00.000Z	feisar	erUSUL	do I need to run it in the crontab also?

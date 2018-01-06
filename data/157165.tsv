@@ -1,0 +1,4 @@
+2007-10-22T05:22:00.000Z	stubblyhead		i'm having some networking problems in feisty ubuntu, is this a good channel to ask for help, or is another more appropriate?
+2007-10-22T05:23:00.000Z	stubblyhead		ok.  i have a couple of problems.  first, when I boot up my computer, my networking invariably dies within about 10 minutes.
+2007-10-22T05:23:00.000Z	stubblyhead		if i disable and re-enable it, it works fine for as long as my computer is on.
+2007-10-22T05:24:00.000Z	MasterShrek	stubblyhead	blacklist the module, then manually load it by putting a command in /etc/rc.local

@@ -1,0 +1,4 @@
+2008-03-06T09:49:00.000Z	_aib		when I insert a usb key, what listing in /dev is it by default? i've got /dev/usb1, /dev/usb2, and 10 variants of /dev/usbdev1.1/2. i tried mo unting /dev/usb1 and 2 but it says " /dev/usb1 is not a block device"
+2008-03-06T09:51:00.000Z	cabrioleur_	_aib	it should be next consecutive number. It can create multiple files as well.
+2008-03-06T09:52:00.000Z	_aib	cabrioleur_	i tried this:`for ii in `ls /dev/usb*`;do sudo mount $i /tmp;done' and it says "* is not a block device" for each one
+2008-03-06T09:53:00.000Z	cabrioleur_	_aib	remove the key and see which one disappeared.

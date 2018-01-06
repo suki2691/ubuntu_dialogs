@@ -1,0 +1,4 @@
+2008-05-19T04:46:00.000Z	tuna		I want to run a program as root under x as soon as possible after bootup. Where should I put it? Autostarted applications only start as the user who started them
+2008-05-19T04:47:00.000Z	tuna		Flannel graphics driver hacks
+2008-05-19T04:48:00.000Z	branstrom	tuna	you could initialize it with an init script in /etc/init.d that you then symlinked to /etc/rcX.d where X is the appopriate number for the startup state you want it to launch in
+2008-05-19T04:49:00.000Z	branstrom	tuna	just learned how to do that yesterday myself :)

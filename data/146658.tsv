@@ -1,0 +1,4 @@
+2007-12-18T15:09:00.000Z	acemo		i accidently formatted the wrong partition with windows setup, this quick format doesnt removes the data, it just marks it as being empty.. is there any way to tell the partition to be ext3 withouth formatting it?
+2007-12-18T15:09:00.000Z	dadehoog	acemo	yep, change the filesystem type to ext3 in /etc/fstab
+2007-12-18T15:10:00.000Z	acemo	dadehoog	let me try that :) ill let u know if it worked
+2007-12-18T15:10:00.000Z	dadehoog	acemo	and then unmount, and re-mount the FS

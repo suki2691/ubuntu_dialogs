@@ -1,0 +1,4 @@
+2008-03-23T13:56:00.000Z	jkp		is there a command i can use to see the contents of a .deb file? or more to the point, to ask apt about the contents of a package in its db?  i just installed something but now i cant find the program
+2008-03-23T13:57:00.000Z	tiax	jkp	try dpkg -L packagename - only works when it's already installed, though
+2008-03-23T13:57:00.000Z	jkp	tiax	thanks
+2008-03-23T13:58:00.000Z	jkp	tiax	that worked, ta

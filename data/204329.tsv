@@ -1,0 +1,4 @@
+2006-08-09T15:09:00.000Z	FloK		sudo echo 1 > /proc/sys/net/ipv4/ip_forward
+2006-08-09T15:09:00.000Z	FloK		permission denied
+2006-08-09T15:10:00.000Z	FloK		?? how can i do that?
+2006-08-09T15:10:00.000Z	Subhuman	FloK	run "sudo -i" then run  "echo 1 > /proc/sys/net/ipv4/ip_forward"

@@ -1,0 +1,4 @@
+2012-01-16T20:30:00.000Z	silameth		ok I did that and tried to update
+2012-01-16T20:31:00.000Z	silameth		got new error says badsig 16126D3A3E5C1192
+2012-01-16T20:32:00.000Z	ActionParsnip	silameth	is that after running:  sudo apt-get update
+2012-01-16T20:33:00.000Z	ActionParsnip	silameth	sudo apt-key adv --recv-key --keyserver keyserver.ubuntu.com 16126D3A3E5C1192        will add it, if you use add-apt-repository instead of modifying sources.list you won't get this

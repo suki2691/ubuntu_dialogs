@@ -1,0 +1,4 @@
+2012-09-28T23:11:00.000Z	Cong		How do I read the documentation contained in *-doc packages?
+2012-09-28T23:12:00.000Z	trism	Cong	depends on the package, most of them have html you could just load up in a web browser, some of the gtk/glib related stuff you can use devhelp to view them (otherwise, dpkg -L package_name; and see what is there)
+2012-09-28T23:15:00.000Z	Cong	trism	OK, dpkg -L doc, got it!
+2012-10-23T04:28:00.000Z	trism	Cong	yes, and often it gets owned by root, preventing login

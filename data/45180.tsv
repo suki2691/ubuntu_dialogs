@@ -1,0 +1,4 @@
+2010-08-02T20:54:00.000Z	thune3	duiu	aparrantly this is a problem with cups/samba startup ordering. There are a couple workarounds buried in the discussion: https://bugs.launchpad.net/ubuntu/lucid/+source/upstart/+bug/494141
+2010-08-02T21:02:00.000Z	duiu	thune3	thanks, but could you clarify if I'm editing /etc/init/smbd.conf should this line have parentheses or not? Line is as follows: start on (local-filesystems and stopped rc)
+2010-08-02T21:10:00.000Z	thune3	duiu	looks like it should have parens: http://launchpadlibrarian.net/50822127/smb.conf.diff
+2010-08-02T21:11:00.000Z	duiu	thune3	thanks

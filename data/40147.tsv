@@ -1,0 +1,4 @@
+2009-12-25T14:27:00.000Z	Guest32571		So, I was doing some prodding around with CUDA enhanced applications, and found myself at a hard-lock and had to hard-reset my desktop, and it appears my session has become corrupt (or something along those lines) I can login to gnome failsafe, but not my gnome session
+2009-12-25T14:28:00.000Z	Guest32571		I know in older releases, I was able to simply copy my gnome-session file from session-default and be able to start back up, but in karmic I can't seem to find the file, anybody know where I should look next?
+2009-12-25T14:30:00.000Z	minimec	Guest32571	rename .gnome and .gnome2 --> .gnome-old .gnome2-old. Try to login then
+2009-12-25T14:30:00.000Z	Guest32571	minimec	thanks, I'll try that.

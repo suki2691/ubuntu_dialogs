@@ -1,0 +1,4 @@
+2006-04-30T08:36:00.000Z	venox		hey, I have bought a sony dsc-s60 digital camera and I want to mount it so I can browse my photos, how can I do that on ubuntu?
+2006-04-30T08:36:00.000Z	venox		I tried something like `sudo mount -t fat /dev/sda1 /media/cam` but it doesn't work, any ideas?
+2006-04-30T08:36:00.000Z	Madpilot	venox	it doesn't automount:
+2006-04-30T08:37:00.000Z	Madpilot	venox	try gThumb - File->Import From Camera

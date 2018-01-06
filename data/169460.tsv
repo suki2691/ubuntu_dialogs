@@ -1,0 +1,4 @@
+2006-08-27T15:58:00.000Z	NkuMike		Hey I am trying to edit the Grub menu.lst file so my Windows will be the default top of the list guy... I go to try to save it and it says I dont have permissions... How can I login as root or how can I get the permissions or whatever to save the file?
+2006-08-27T15:59:00.000Z	ladydoor	NkuMike	what editor are you using? if it's graphical, you need to run it as gksudo <editor>, and if not you need to do sudo editor
+2006-08-27T15:59:00.000Z	NkuMike	ladydoor	its gedit... how do I do the gksudo?
+2006-08-27T16:00:00.000Z	ladydoor	NkuMike	press alt+f2, enter gksudo gedit, and then hit enter. but first BACK UP the file

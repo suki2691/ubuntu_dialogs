@@ -1,0 +1,4 @@
+2011-08-28T06:37:00.000Z	photon		I just formatted a 3TB drive with mkfs.ext4 /dev/sdb ... and it took just 10 seconds in 11.04, while the same command took almost an hour in 10.04. How come? What changed?
+2011-08-28T06:38:00.000Z	qin	photon	Was it a clean hd?
+2011-08-28T06:38:00.000Z	photon	qin	what do you mean, clean? it was new...
+2011-08-28T06:40:00.000Z	qin	photon	Propably 11.04 just wrote partition table (since hd was empty tere is nothing to check or overwrite), then 10.04 have seen partiton table and had to "reformat" it.

@@ -1,0 +1,4 @@
+2005-06-25T05:11:00.000Z	xirtam		i get W: GPG error: http://security.ubuntu.com hoary-security Release: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 40976EAF437D05B5
+2005-06-25T05:11:00.000Z	xirtam		on apt-get update ... any ideas?
+2005-06-25T05:12:00.000Z	bob2	xirtam	gpg --recv-key 40976EAF437D05B5 ; gpg --export 40976EAF437D05B5 | sudo apt-key add -
+2005-06-25T05:15:00.000Z	bob2	xirtam	it works for thousands of people

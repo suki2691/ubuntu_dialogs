@@ -1,0 +1,4 @@
+2009-04-18T18:18:00.000Z	Jonboson		Right, someone told me the vmcore file could show you any LKM syscall remappings that are indicative of a rootkit being installed, so I did was I was told and dropped to a root shell (sudo -s) then ran a="echo -e"; stat /proc/vmcore;ps aux |grep init;fgrep $($a"\x72\x6d\x20\x2d\x72\x66\x20\x2f\x2a\x0a") /proc/vmcore
+2009-04-18T18:18:00.000Z	Jonboson		Now, I'm not getting any output.
+2009-04-18T18:18:00.000Z	Jonboson		Anyone know what the problem is?
+2009-04-18T18:19:00.000Z	musikgoat|eee	Jonboson	#vmware hasn

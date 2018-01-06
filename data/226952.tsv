@@ -1,0 +1,4 @@
+2007-02-03T12:17:00.000Z	Valmarko		Hello. Is it possible to upgrade to the alpha release of 7.04 without having to download the ISO file ?
+2007-02-03T12:18:00.000Z	variant	Valmarko	yes, change edgy to feisty in sources.list and apt-get update && apt-get dist-upgrade
+2007-02-03T12:19:00.000Z	variant	Valmarko	a better alternative is to change sources.list and run teh graphical update manager.. it will tell you a distrobution upgrade is available
+2007-02-03T12:19:00.000Z	variant	Valmarko	be aware that it may break your system and you may loose files if you upgrade to feisty

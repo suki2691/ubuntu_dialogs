@@ -1,0 +1,4 @@
+2007-04-05T15:36:00.000Z	slimz		hey guys, im trying to upgrade to feisty from edgy, using update-manager -c -d, but i get an authentication error, i tried usiung gpg but it didnt help, any ideas?
+2007-04-05T15:36:00.000Z	pescez	slimz	just change repositories by hand
+2007-04-05T15:37:00.000Z	slimz	pescez	: is that as safe?
+2007-04-05T15:38:00.000Z	pescez	slimz	of course, change your repository entries "edgy" with "feisty" and then sudo apt-get update ; sudo apt-get dist-upgrade ; sudo apt-get upgrade

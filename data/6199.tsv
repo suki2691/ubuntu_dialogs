@@ -1,0 +1,4 @@
+2012-01-26T20:39:00.000Z	LjL	Yudra	why can't you install kubuntu-desktop and then remove muon later? (besides, what harm does having muon installed cause?)
+2012-01-26T20:39:00.000Z	Yudra	LjL	the first update breaks dpkg
+2012-01-26T20:41:00.000Z	LjL	Yudra	muon is a recommend, so you can install "kubuntu-desktop" without recommends, and then install all the *other* recommends
+2012-01-26T20:41:00.000Z	LjL	Yudra	"sudo apt-get --no-install-recommends install kubuntu-desktop"

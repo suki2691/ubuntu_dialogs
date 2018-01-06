@@ -1,0 +1,4 @@
+2011-10-29T08:21:00.000Z	jjustman		Hello! I'm trying to change from kernel 2.6.32-34 to 2.6.32-33 for compatibility with a binary kernel module. How do I do this without breaking anything?
+2011-10-29T08:23:00.000Z	xangua	jjustman	press the Shift key when you start your pc to show Grub and select the kernel you want
+2011-10-29T08:25:00.000Z	jjustman	xangua	yes, but how do I make that change persist?
+2011-10-29T08:25:00.000Z	jjustman	xangua	I'm thinking maybe by editing /etc/defaults/grub

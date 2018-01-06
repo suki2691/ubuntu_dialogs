@@ -1,0 +1,4 @@
+2008-11-25T04:22:00.000Z	S_SubZero		I want to update the nvidia driver, but it won't let me do it with X running.  How do I get out of X?
+2008-11-25T04:23:00.000Z	zsquareplusc	S_SubZero	ctrl+alt+F1 give you a text console, F7 is back to gui. you can run /etc/init.d/gdm stop  to close the gui
+2008-11-25T04:25:00.000Z	S_SubZero	zsquareplusc	I did the gdm stop thing, but I did not get the expected result.  The screen went black, and I have a flashing cursor, but I can't type.
+2008-11-25T04:26:00.000Z	zsquareplusc	S_SubZero	with ctrl+alt+f1 (in text consoles only alt+f1) doesnt gove you a text screen where you can log in?

@@ -1,0 +1,4 @@
+2008-11-29T15:14:00.000Z	Mal3ko		guys how to disable login ssh using root acc?
+2008-11-29T15:15:00.000Z	rdw200169	Mal3ko	check /etc/ssh/sshd_config
+2008-11-29T15:16:00.000Z	rdw200169	Mal3ko	there's an option in there for "allow root access" or something like that, that you just comment out
+2008-11-29T15:16:00.000Z	rdw200169	Mal3ko	check "man sshd_config" for more options

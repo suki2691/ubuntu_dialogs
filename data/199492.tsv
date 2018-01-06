@@ -1,0 +1,4 @@
+2007-04-26T12:09:00.000Z	herbaliser		can anybody tell me how to create a mount point that i can access using normal user? newbie
+2007-04-26T12:11:00.000Z	herbaliser		ext3
+2007-04-26T12:11:00.000Z	herbaliser		i created a directory but i think i have to change the permissions on that directory for the user
+2007-04-26T12:12:00.000Z	dyrne	herbaliser	sudo chown user:group dir/  the group is usually the username as well

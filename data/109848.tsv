@@ -1,0 +1,4 @@
+2010-10-11T12:24:00.000Z	Agent001		Hi, can I upgrade from ubuntu 10.04 lts to 10.10 without reformatting?
+2010-10-11T12:24:00.000Z	soreau	Agent001	gksu update-manager
+2010-10-11T12:25:00.000Z	soreau	Agent001	no
+2010-10-11T12:27:00.000Z	soreau	Agent001	Try 'sudo apt-get update && sudo apt-get upgrade && update-manager -d'

@@ -1,0 +1,4 @@
+2006-12-23T11:46:00.000Z	gharz		guys... i have xp & ubuntu installed in my machine. i've a file in linux that i want to copy/paste in my xp system. how do i do that? xp is using ntfs format.
+2006-12-23T11:47:00.000Z	jman_	gharz	trying mounting your NTFS parititon, and then copying and pasting the file?
+2006-12-23T11:48:00.000Z	gharz	jman_	i can't paste a file from linux to my windows... but i can copy/paste files from xp to my ubuntu.
+2006-12-23T11:49:00.000Z	jman_	gharz	trying to doing at as root: su cp <source file> <directory where NTFS is mounted

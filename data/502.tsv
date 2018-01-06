@@ -1,0 +1,4 @@
+2012-11-04T12:01:00.000Z	talpur		 Hi community...which command is used to check shell I am using in
+2012-11-04T12:02:00.000Z	talpur		bash: -/.bashrc: No such file or directory....So means I am not using bash. what is my shell? csh? zsh? how I check
+2012-11-04T12:02:00.000Z	thedrub	talpur	| First "tty" to figure out your tty #. Then "ps" and look for the shell running on the tty.
+2012-11-04T12:07:00.000Z	thedrub	talpur	Type "tty". That lists the tty at which you are typing. Something like "/dev/ttys000", or similar. The "ps" outputs a list of processes and should have the shell name associated with the "ttysXXX". Will show "bash", "sh", etc

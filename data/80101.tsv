@@ -1,0 +1,4 @@
+2010-08-31T08:27:00.000Z	benbloom		for some reason one of my partitions is owned by root when it automounts but the other ones (same options in fstab) are owned by my user, I'm sure there's a simple solution. anyone know it ? thanks in advance
+2010-08-31T08:29:00.000Z	bastidrazor	benbloom	possibly look at the permissions/ownership of the directory it is mounted to?
+2010-08-31T08:33:00.000Z	benbloom	bastidrazor	I tried that. do you (or anyone else) know where permissions of mounts are inherrited from?
+2010-08-31T08:34:00.000Z	bastidrazor	benbloom	fstab

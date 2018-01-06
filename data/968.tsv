@@ -1,0 +1,4 @@
+2012-09-26T18:14:00.000Z	emamdouh		hi , i'd like to know where does users-admin tool write its configuration
+2012-09-26T18:15:00.000Z	emamdouh		i need to check effect of auto login from users-admin
+2012-09-26T18:16:00.000Z	TJ-	emamdouh	autologin relies upon the user being added to the "nopasswdlogin" group, and pam_succeed_if.so in /etc/pam.d/*
+2012-09-26T18:18:00.000Z	emamdouh	TJ-	: Thanks a lot

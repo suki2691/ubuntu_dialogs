@@ -1,0 +1,4 @@
+2008-12-29T02:46:00.000Z	MatBoy		does ubuntu uses lilo by default ?
+2008-12-29T02:46:00.000Z	joaopinto	MatBoy	no, it uses grub
+2008-12-29T02:46:00.000Z	MatBoy	joaopinto	I thought so, but why do I see lilo images in my boot ?
+2008-12-29T02:48:00.000Z	joaopinto	MatBoy	the only thing that comes to my mind is that on very special configurations lilo is choose because of know problems with grub, I believe it will be selected when you have xfs root partitions

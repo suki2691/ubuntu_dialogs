@@ -1,0 +1,4 @@
+2007-06-21T06:43:00.000Z	lo4fer		is there an operand for the rm command that will delete all files in a directory? -r seems to be the closest but i want to preserve the directory, just empty the files.
+2007-06-21T06:44:00.000Z	qnyc	lo4fer	rm -rf
+2007-06-21T06:44:00.000Z	qnyc	lo4fer	that will delete the directory though
+2007-06-21T06:47:00.000Z	qnyc	lo4fer	you could do cd into the directory then do  rm -rf ./*

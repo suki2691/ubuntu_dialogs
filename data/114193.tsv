@@ -1,0 +1,4 @@
+2011-11-02T12:01:00.000Z	Peddy		I get the error "cannot lock /etc/passwd" when trying to add my user back to Admin group through the recovery shell, how can I avoid this?
+2011-11-02T12:02:00.000Z	phlak_user	Peddy	can you do usermod -G admin
+2011-11-02T12:02:00.000Z	Peddy	phlak_user	haha that's what I just tried to do, I get "cannot lock /etc/passwd; try again later"
+2011-11-02T12:05:00.000Z	phlak_user	Peddy	look here too -> http://www.psychocats.net/ubuntu/fixsudo

@@ -1,0 +1,4 @@
+2009-09-16T05:15:00.000Z	obiwan_		please, how can i output a strace to a file? strace pwd >file just saves my home path in file
+2009-09-16T05:16:00.000Z	alankila	obiwan_	probably 2> file, or the -o output option
+2009-09-16T05:17:00.000Z	obiwan_	alankila	, 2> will simply redirect error won't it?
+2009-09-16T05:18:00.000Z	alankila	obiwan_	as it happens the strace output is on the file handle 2. If you feel this sucks, just use the -o option.

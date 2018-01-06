@@ -1,0 +1,4 @@
+2008-03-23T03:31:00.000Z	bobesponja		hi
+2008-03-23T03:32:00.000Z	bobesponja		my windows partition is on hda5, what should I add to my grub so it get picks up? I tried (hd0, 5) but nope :/
+2008-03-23T03:33:00.000Z	jonalegend	bobesponja	grub start with (hd0,0)
+2008-03-23T03:34:00.000Z	jonalegend	bobesponja	so your 5th partition would be actually hda0,4

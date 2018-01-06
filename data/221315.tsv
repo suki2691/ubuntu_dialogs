@@ -1,0 +1,4 @@
+2008-11-01T11:38:00.000Z	pdlnhrd		anyone give any advice on the ntfs-3g driver?   is it stable enough to use it to mount my home directories with something fstab like /dev/sda1 /home/ ntfs-3g defaults 0 0  ?
+2008-11-01T11:39:00.000Z	dr_willis	pdlnhrd	 dont use ntfs-3g or ntfs for your home directory
+2008-11-01T12:00:00.000Z	dr_willis	pdlnhrd	   i doubt if you find a work around for that. its just because the 2 filesstems are so different
+2008-11-01T12:02:00.000Z	pdlnhrd	dr_willis	 o.k.  i guess i will have to live with it for now... thanks for the advice.... someday someone will make a portable filesystem

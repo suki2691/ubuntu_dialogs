@@ -1,0 +1,4 @@
+2007-05-24T15:56:00.000Z	technel		Is it possible to run gnome-terminal in 256 colors so I can use a pretty vim theme (without using gvim)?
+2007-05-24T15:57:00.000Z	Pelo	technel	try commenting out the appropriate areas of xorg.conf
+2007-05-24T15:59:00.000Z	technel	Pelo	Under "Section "Screen"" there is "DefaultDepth 24" -- should I change it to 256?
+2007-05-24T15:59:00.000Z	Pelo	technel	that would probably do it

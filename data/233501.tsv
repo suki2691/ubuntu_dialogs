@@ -1,0 +1,4 @@
+2005-07-05T09:24:00.000Z	devios		I am using TightVNC Viewer on WinXP and Ubuntu's Remote Desktop feature...  Any way that I can copy/paste text between my WinXP system and the VNC session?  I tried realvnc as well.  I *see* that the clipboard options are enabled in the client, but it's still not working.  Not with RealVNC or with TightVNC.  I suspect that I need to install or enable something on my Ubuntu box.  A friend confirmed this problem trying to VNC to his Ubuntu machine as well.
+2005-07-05T09:24:00.000Z	devios		http://ubuntuforums.org/showthread.php?t=45488
+2005-07-05T09:25:00.000Z	hardcampa-	devios	you could try running autocutsel on the server. That should merge the 2 clipboards X got into 1 so you should be able to copy paste then
+2005-07-05T09:26:00.000Z	devios	hardcampa-	how do I install autocutsel?  I tried to compile it and I get configure: error: Unable to find X libraries.  I guess autocutsel is for XFree instead of XOrg?

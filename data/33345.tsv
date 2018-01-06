@@ -1,0 +1,4 @@
+2011-08-25T17:08:00.000Z	davro	rumpe1	no +a so I can do something like this sudo chmod +a "www-data allow delete,write,append,file_inherit,directory_inherit" app/cache app/logs
+2011-08-25T17:08:00.000Z	davro		sudo chmod +a "yourname allow delete,write,append,file_inherit,directory_inherit" app/cache app/logs
+2011-08-25T17:09:00.000Z	rumpe1	davro	ok... so you need acl, not chmod
+2011-08-25T17:10:00.000Z	davro	rumpe1	yup seems that way :|

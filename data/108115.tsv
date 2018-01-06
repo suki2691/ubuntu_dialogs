@@ -1,0 +1,4 @@
+2011-11-07T05:05:00.000Z	Jordan_U	gauda	What are you trying to accomplish?
+2011-11-07T05:06:00.000Z	gauda	Jordan_U	i am trying to run redcar, a ruby ide: https://github.com/redcar/redcar/wiki/Installation
+2011-11-07T05:07:00.000Z	gauda	Jordan_U	when i run it it raises: NativeException: org.eclipse.swt.SWTError: No more handles [Unknown Mozilla path (MOZILLA_FIVE_HOME not set)]
+2011-11-07T05:09:00.000Z	gauda	Jordan_U	i tried to run: "MOZILLA_FIVE_HOME=/usr/lib/xulrunner redcar" but this also does not work: NativeException: org.eclipse.swt.SWTError: No more handles [MOZILLA_FIVE_HOME='/usr/lib/xulrunner']

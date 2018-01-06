@@ -1,0 +1,4 @@
+2010-07-22T04:16:00.000Z	glick		how can i copy a folder between machines while perserving the permissions?
+2010-07-22T04:16:00.000Z	BlT	glick	scp -rp
+2010-07-22T04:17:00.000Z	glick	Dr_Willis	can i tar it into a tar ball that preserves the perms?
+2010-07-22T04:17:00.000Z	BlT	glick	scp -rp "file/s" to copy" user@host:/path/

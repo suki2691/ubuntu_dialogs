@@ -1,0 +1,4 @@
+2007-04-21T16:35:00.000Z	matason		Hi I'm trying to "make clean" and I'm getting the message: "build is missing, please set KERNELPATH. Stop." So I downloaded kernel-source-2.4.27 and unpacked that in /usr/src/kernel-source-2.4.27  and I created a sym link to this directory called build in the same directory where I'm trying to "make clean" but I still get the same message - any ideas?
+2007-04-21T08:32:00.000Z	matason		Hi I'm getting an error when running "sudo make" -> "error: stdio.h: No such file or directory", this is when I'm try to install madwifi - any ideas?
+2007-04-21T08:32:00.000Z	hajhouse	matason	you might need to install libc6-dev
+2007-04-21T08:33:00.000Z	matason	hajhouse	Oke thanks, I'll try that

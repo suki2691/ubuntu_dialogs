@@ -1,0 +1,4 @@
+2007-07-24T10:04:00.000Z	NotGuilty		"World", I've just installed firestarter. Is it recommended, to have it boot at startup, and how would one give it the proper  permission, as it asks for root permission to run it at start?
+2007-07-24T10:05:00.000Z	NotGuilty		setuid firestarter executable?
+2007-07-24T10:06:00.000Z	dyrne	NotGuilty	it will setup rules at bootup automaticlly. you can see this if you sudo iptables -L  normally by default youd just get a few inbound outbound forward labeled ACCEPT with firestarter ran itll have alot more stuff but it only needs to set the rules not run all the time
+2007-07-24T10:13:00.000Z	NotGuilty	dyrne	thanks. I think I'm just going to stop it from starting at boot :)

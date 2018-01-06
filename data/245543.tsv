@@ -1,0 +1,4 @@
+2006-07-16T07:10:00.000Z	meekish		when apt-get'ing the rails package, it tries to install PostGresQL bindings, how do I tell apt-get not to install those?
+2006-07-16T07:11:00.000Z	sproingie	meekish	if it's required, you dont really have too much choice.  if it's recommended, you could just remove the bindings after the fact
+2006-07-16T07:11:00.000Z	sproingie	meekish	rails installs so easily from gems that it's not much point using the .deb
+2006-07-16T07:14:00.000Z	sproingie	meekish	if you want any amount of customization, i would just install it from gems

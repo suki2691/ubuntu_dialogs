@@ -1,0 +1,4 @@
+2012-04-20T17:45:00.000Z	Pumpkin-	mbeierl	ergh, that sounds like a horrific ISP :/
+2012-04-20T17:46:00.000Z	mbeierl	Pumpkin-	yep.  Welcome to living in Ottawa, Canada - where if you are rural, yet in the city limits, you MUST use this horrid ISP called Xplornet.  No alternative available.  And I can't get them to fix their busted DNS
+2012-04-20T17:49:00.000Z	Pumpkin-	mbeierl	short of tunneling the DNS traffic or something similar to escape the ISP's DNS hijacking, or running your own local caching DNS server (with it configured to return NXDOMAIN for .local) I can't really think of what else you can do
+2012-04-20T17:51:00.000Z	mbeierl	Pumpkin-	I am running dnsmasq, but I can't seem to tell it to return nx for .local.  I read somewhere that as long as an SOA exists, it's broken

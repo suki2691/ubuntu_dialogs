@@ -1,0 +1,4 @@
+2005-09-25T12:43:00.000Z	MatC		hi folks.... I've just changed video card and am looking at a text screen now (x won't start).  I've tried xconfig, XF86Setup, etc. searched the ubuntu page, read the x man page, but nothing works (can't get the configurator thing started), any ideas ?
+2005-09-25T12:45:00.000Z	ompaul	MatC	 sudo dpkg-reconfigure xserver-xorg
+2005-09-25T12:45:00.000Z	MatC	ompaul	I tried that I think, will try again, brb :)
+2005-09-25T12:58:00.000Z	MatC	ompaul	Chastaghir: thanks, got x reconfigured, the new card works now :)

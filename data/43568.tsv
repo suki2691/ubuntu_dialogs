@@ -1,0 +1,4 @@
+2009-11-07T17:44:00.000Z	rotorr		does ubuntu verify the gpg signatures of the repository against different sources and repositories?
+2009-11-07T17:44:00.000Z	durt	rotorr	yes if you inport the key
+2009-11-07T17:44:00.000Z	rotorr	durt	how can i do this?
+2009-11-07T17:47:00.000Z	durt	rotorr	'sudo apt-key adv --keyserver <key.server.com> --recv-keys 12345678'

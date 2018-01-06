@@ -1,0 +1,4 @@
+2009-04-06T03:39:00.000Z	|ns|nR8		i duel boot 8.10 with 9.04 running ext4...grub info is stored on the ext4 partition...if 8.10 updates kernel will it be able to update the grub info on the 9.04 partition..i was just wondering since 8.10 cant normall access ext4
+2009-04-06T03:39:00.000Z	raylu	|ns|nR8	no plans in 8.10 to include ext4 support, though you could roll your own kernel
+2009-04-06T03:42:00.000Z	raylu	|ns|nR8	sorry, i don't see messages to me unless you put my name in them. no, they won't, yes, you will
+2009-04-06T03:42:00.000Z	raylu	|ns|nR8	unless there's a way to mount ext4 as ext3...

@@ -1,0 +1,4 @@
+2008-04-10T00:09:00.000Z	ycy		hi
+2008-04-10T00:09:00.000Z	ycy		how can i stick my eth0 to static ip?
+2008-04-10T00:10:00.000Z	jonaskoelker	ycy	replace "iface eth0 inet dhcp" with "iface eth0 inet static" in /etc/network/interfaces
+2008-04-10T00:10:00.000Z	jonaskoelker	ycy	then add a line saying address 192.168.555.foo

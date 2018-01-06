@@ -1,0 +1,4 @@
+2008-03-07T21:24:00.000Z	_ndlovu		hi. is it possible to start a program running through ssh that will continue running after I disconnect?
+2008-03-07T21:25:00.000Z	Agent_bob	_ndlovu	you can start it in a vt also.    ssh user@ip openvt -fc 32 -- your command plus agrs here.
+2008-03-07T21:27:00.000Z	_ndlovu	Agent_bob	I'll try your option if I can't get nohup working! ;)
+2008-03-07T21:28:00.000Z	Agent_bob	_ndlovu	was just pointing out that there are many ways.

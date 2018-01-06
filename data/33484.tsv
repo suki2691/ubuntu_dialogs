@@ -1,0 +1,4 @@
+2010-06-12T14:33:00.000Z	gintonic		I just installed lucid on a drive with a GUID partition table. /boot is marked as an EFI System partition. grub-install warns about using blocklists, but i'm not sure how grub2 was setup  in the first place. Is it ok to --force?
+2010-06-12T14:34:00.000Z	Jordan_U	gintonic	Do you have EFI or BIOS?
+2010-06-12T14:34:00.000Z	gintonic	Jordan_U	BIOS.
+2010-06-12T14:35:00.000Z	Jordan_U	gintonic	Then you need a BIOS boot partition instead of an EFI system partition, http://grub.enbug.org/BIOS_Boot_Partition

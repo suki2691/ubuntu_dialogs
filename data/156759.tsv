@@ -1,0 +1,4 @@
+2006-12-12T13:21:00.000Z	g1gaman		gentlemen, i am going to install ubuntu on two small harddisks from alternata cd and decided to create /usr and /home on hdb (/ and /swap stays on hda). Which partitions should be primary/logical, which should be at the beginning/end of the drive, which should be marked with boot flag. Any suggstions?
+2006-12-12T13:22:00.000Z	kuto	g1gaman	any of the mounting points in linux could be primary and logical
+2006-12-12T13:22:00.000Z	kuto	g1gaman	make sure to make an extended partition and then a logical drive once you have created 3 partitions in a hard drive
+2006-12-12T13:23:00.000Z	kuto	g1gaman	i dunno if ubuntu's gparted do that automagically for you

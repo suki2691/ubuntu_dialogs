@@ -1,0 +1,4 @@
+2012-03-21T15:57:00.000Z	ibiwor		Hello! I'm unable to ssh into laptop connected to the same network. I can ssh from laptop to desktop but not the other way round. I restarted services on both the systems, purged openssh-server, openssh-client, did ssh-keygen/keyscan but still not working. This is output of ssh -vvv http://paste.ubuntu.com/893492/ How can I fix it?
+2012-03-21T15:58:00.000Z	jrib	ibiwor	can you successfully « ssh localhost » on the laptop?
+2012-03-21T15:58:00.000Z	ibiwor		Comparing ssh -vvv from other system got same start and/etc /ssh/ssh_config are also completely same
+2012-03-21T15:58:00.000Z	ibiwor	jrib	Yes, ssh 0 works

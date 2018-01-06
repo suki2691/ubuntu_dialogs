@@ -1,0 +1,4 @@
+2012-01-01T04:23:00.000Z	k4r1m		also was wondering whats a good way to benchmark hd write speed since the disk utility is only capable of benching read speeds
+2012-01-01T04:24:00.000Z	mongy	k4r1m	 dd if=/dev/zero of=test bs=64k count=16k conv=fdatasync is what I use to test my vps speed
+2012-01-01T04:34:00.000Z	k4r1m	mongy	that doesn't seem to be verry accurate, it's giving me 107 Mb/s… I have a SATA3 SSD my system is booting in about 7 seconds that doesn't make sense
+2012-01-01T04:40:00.000Z	mongy	k4r1m	well dude, that's what I use to test speeds of disksw

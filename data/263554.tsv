@@ -1,0 +1,4 @@
+2006-12-27T13:44:00.000Z	chrissturm		whats the best way to find out what open ports my ubuntu server has?
+2006-12-27T13:45:00.000Z	mike	chrissturm	netstat -tp, or netstat -tnp
+2006-12-27T13:45:00.000Z	chrissturm	KHatfull	cool, thanks. I'm actually a customer of them
+2006-12-27T13:45:00.000Z	mike	chrissturm	also try: lsof -i

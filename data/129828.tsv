@@ -1,0 +1,4 @@
+2008-04-25T18:47:00.000Z	Cusoon959		I've blacklisted b43 and ssb in /etc/modprobe.d/blacklist. b43 does not load any more, but ssb still does. How can I get ssb to stop loading?
+2008-04-25T18:48:00.000Z	dystopianray	Cusoon959	why do you want to stop ssb from loading?
+2008-04-25T18:48:00.000Z	Cusoon959	dystopianray	because b43 doesn't seem to work with my card. I want to run ndiswrapper...
+2008-04-25T18:49:00.000Z	dystopianray	Cusoon959	try it without disabling ssb, other drivers use ssb too

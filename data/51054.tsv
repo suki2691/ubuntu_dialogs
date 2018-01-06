@@ -1,0 +1,4 @@
+2009-08-05T09:55:00.000Z	li_bai		just curious, is there a way to configure gnome-terminal to always just show "foo@bar:$" for the prompt instead of "foo@bar:full path to working directory$"?
+2009-08-05T09:57:00.000Z	firecrotch	li_bai	you'll have to edit your .bashrc file - it has plenty of comments that should help you find your way
+2009-08-05T09:57:00.000Z	li_bai	firecrotch	thanks
+2009-08-05T09:58:00.000Z	firecrotch	li_bai	the variable PS1 is what determines your prompt, by the way, so that's what you'll want to change

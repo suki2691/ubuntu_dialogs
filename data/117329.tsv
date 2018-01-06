@@ -1,0 +1,4 @@
+2009-02-16T02:26:00.000Z	aev		how can i prohibit a specific user from using a specific command?
+2009-02-16T02:27:00.000Z	geirha	aev	don't give the user access to it
+2009-02-16T02:27:00.000Z	aev	geirha	how
+2009-02-16T02:30:00.000Z	geirha	aev	Let's say the command is foo, then create a group called «foousers» (or whatever you like really), make the executable be owned by that group, and then set the permissions so that only the owner and group owner can run it. Then make all other users members of the new group.

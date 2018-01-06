@@ -1,0 +1,4 @@
+2011-11-17T06:52:00.000Z	rhinux1		Hi! I use Ubuntu 11.10 amd64, installed skype and used it. but after installing some libs skype doenst want to start any more, err msg "bash: /usr/bin/skype: File or Directory not found" even skype is in that dir. an ld /ust/bin/skype tells me " i386 architecture of input file `skype' is incompatible with i386:x86-64 output"
+2011-11-17T06:53:00.000Z	szal	rhinux1	define 'some libs'
+2011-11-17T06:55:00.000Z	rhinux1	szal	I once installed many apps which installed depending libs, I dont know exactly any more. but in aptitude.log I could look.
+2011-11-17T07:42:00.000Z	rhinux1	szal	Jordan_U I removed skype, disabled all additional repos except extras ubuntu and canonical partner, apt-get install skype on amd64 ubuntu 11.10 causes err msg: http://pastebin.com/jqxEkiS4

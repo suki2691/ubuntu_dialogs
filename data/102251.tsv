@@ -1,0 +1,4 @@
+2009-03-11T14:11:00.000Z	milligan		I have set up my nic in /etc/network/interfaces .. but it seems that dhcpclient or something else is running, causing me to get a dhcp ip. How can I disable the client ? I killed NetworkManager, but it STILL got the dhcp ip.
+2009-03-11T14:11:00.000Z	rww	milligan	can you paste your /etc/network/interfaces file to http://paste.ubuntu.com/, please?
+2009-03-11T14:13:00.000Z	milligan	rww	http://paste.ubuntu.com/129686/ -- ip is partially obfuscated.
+2009-03-11T14:16:00.000Z	milligan	rww	I have an idea what might be wrong.. the eth1 interface doesn't exist. Could it be that ubuntu somehow checks for up/down activity on eth1, according to this thread http://ubuntuforums.org/showthread.php?t=521154, and fires dhcp client based on that ?

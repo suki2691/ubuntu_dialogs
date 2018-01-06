@@ -1,0 +1,4 @@
+2011-03-03T14:53:00.000Z	mycosys	Grishnackh	will show it by mount point for the fs
+2011-03-03T14:50:00.000Z	Grishnackh	mycosys	there is no command "lvmdisplay", i think you mean lvdisplay. jepp, i tried already
+2011-03-03T14:51:00.000Z	Grishnackh	mycosys	looks better, but for the fs type there's only TYPE="LVM2_member"...
+2011-03-03T14:53:00.000Z	mycosys	Grishnackh	try ls -al /dev/disk/by-uuid and you should be able to figure out from the 2 what is what

@@ -1,0 +1,4 @@
+2006-05-26T09:19:00.000Z	pm_		why i cant see my cd-r in the cdrecord -scanbus? what coud cause this? i can read cds from it.
+2006-05-26T09:20:00.000Z	highvoltage	pm_	i think the -scanbus only works if you're using scsi emulation
+2006-05-26T09:20:00.000Z	highvoltage	pm_	with ubuntu, you can just use the devicename as your device, eg. -dev /dev/hdc
+2006-05-26T09:21:00.000Z	pm_	highvoltage	thanks

@@ -1,0 +1,4 @@
+2007-01-22T15:48:00.000Z	BrendanM		Can anyone give me some tips for clearing up hard disk space on Ubuntu?
+2007-01-22T15:48:00.000Z	BrendanM		Is there a way to sort everything in the file system by size, for instance?
+2007-01-22T15:50:00.000Z	BrendanM		Dang! Good call people, that gave me like 400 MB
+2007-01-22T15:50:00.000Z	Draconicus	BrendanM	If you mean something like defragmenting on Windows, that's not neccessary with Linux filesystems. They write in a straight line. :P  However, there's a possibility that apt hasn't been auto-cleaning your packages after they're installed. It likes to archive them. Type apt-get clean and see if you free up some space.

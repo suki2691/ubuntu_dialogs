@@ -1,0 +1,4 @@
+2008-12-08T16:11:00.000Z	brime		ok can someone help me make scene of this log msg? http://pastebin.com/d1b0a3a56 or at least point me is the right direction?
+2008-12-08T16:12:00.000Z	ikonia	brime	your tyring to run a dns server ?
+2008-12-08T16:12:00.000Z	ikonia	brime	well it looks like a permissions issue, I'm assumign your chrooting
+2008-12-08T16:13:00.000Z	ikonia	brime	look at the permissons, remember it needs to be accessable by the user running bind, which is normally named

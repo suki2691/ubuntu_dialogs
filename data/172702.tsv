@@ -1,0 +1,4 @@
+2007-08-01T16:51:00.000Z	hkBst		 is it possible to install say xubuntu from the ubuntu server cd?
+2007-08-01T16:53:00.000Z	Frogzoo	hkBst	install, then add xfce - same thing
+2007-08-01T16:54:00.000Z	hkBst	Frogzoo	I had some trouble doing this yesterday. I isntalled server cd, then gnome, failed on missing X, so I installed xorg. But it fails to load X and all I get is a black screen.
+2007-08-01T16:55:00.000Z	Frogzoo	hkBst	try "sudo dpkg-reconfigure xserver-xorg"

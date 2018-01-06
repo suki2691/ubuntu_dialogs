@@ -1,0 +1,4 @@
+2011-11-11T02:08:00.000Z	guest1		So cannot mount a CD?
+2011-11-11T02:09:00.000Z	jaybee_	guest1	you cannot specify a cd by UUID
+2011-11-11T02:11:00.000Z	guest1	jaybee_	/dev/scd0       /media/cdrom0   udf,iso9660 user,noauto     0       0
+2011-11-11T02:12:00.000Z	guest1	jaybee_	sudo mount -t iso9660 /dev/scd0  /mnt

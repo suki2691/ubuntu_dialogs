@@ -1,0 +1,4 @@
+2005-12-12T11:48:00.000Z	docta_v		anyone have tips on using lsof to find what is using all the space on my disk
+2005-12-12T11:48:00.000Z	docta_v		i'm not having a whole lot of luck...is it usually a pipe file or what
+2005-12-12T11:49:00.000Z	Kyral	docta_v	use du -h <dir>
+2005-12-12T11:49:00.000Z	docta_v	Kyral	this is one of those cases where there's a large disparity between du and df

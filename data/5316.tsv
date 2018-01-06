@@ -1,0 +1,4 @@
+2012-04-28T23:22:00.000Z	L3top		kate... this is a little hack that will validate all repositories in your sources.list... so... make sure they are trusted: gpgs=$(apt-get update |& grep -s NO_PUBKEY | awk '{ print $NF }' | cut -c 9-16); if [ -n $gpgs ]; then for gpg in $gpgs; do gpg --keyserver pgp.mit.edu --recv-keys $gpg; gpg --export --armor $gpg | apt-key add -; done; fi
+2012-04-28T23:23:00.000Z	L3top		you will need to be root kate
+2012-04-28T23:24:00.000Z	kate	L3top	ok. i'll try that. thank you
+2012-04-28T23:24:00.000Z	L3top	kate	it does a blind update so it takes some time, seeming to hang. It is not, it is just not spitting out the update dialog

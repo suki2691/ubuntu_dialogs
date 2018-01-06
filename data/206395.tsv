@@ -1,0 +1,4 @@
+2006-03-01T06:50:00.000Z	techlife		Is there a way to create a folder and set certain permissions and when ever a file of folder gets created it is created with the same permissions?
+2006-03-01T06:51:00.000Z	bill	techlife	new directories should inherit the permissions of their parent, if that's any help
+2006-03-01T06:52:00.000Z	techlife	bill	what if I have a cron job running that is dropping the files/folder into that directory?
+2006-03-01T06:53:00.000Z	bill	techlife	i think umask is specific to each process

@@ -1,0 +1,4 @@
+2006-03-20T15:35:00.000Z	YogSothoth		Hi!
+2006-03-20T15:37:00.000Z	YogSothoth		My user in "john". My group is "john" but I'm also part of the group "www-data". I want to chmod files that are owned by "www-data:www-data". The permissions on the file are "-rw-rw-rw-". I though I could be able to chmod it because I'm part of the group and the permissions gives write access to group member. But I've got "Permission denied". Why?
+2006-03-20T15:38:00.000Z	chuckyp	YogSothoth	sudo chmdo <user>:<owner>  <fileordirectory>
+2006-03-20T15:42:00.000Z	chuckyp	YogSothoth	yes

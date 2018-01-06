@@ -1,0 +1,4 @@
+2007-08-30T07:02:00.000Z	UncleD		Is there a simple means to doing so.
+2007-08-30T07:03:00.000Z	Scunizi	UncleD	or create a seperate home partition, put all your data in there then do a fresh install.
+2007-08-30T07:06:00.000Z	UncleD	Scunizi	How do I create that home partition as you suggested.
+2007-08-30T07:08:00.000Z	Scunizi	UncleD	you can use gparted from within Ubuntu or a live bootable version (preferred), make the partition with that. copy your data (don't delete the original data). Change fstab to reflect the new location of /home. reboot

@@ -1,0 +1,4 @@
+2009-10-14T10:11:00.000Z	sarloth		Hey guys, when using "xinit" with the "-config <filename>" option as a normal user it tells me I must use a relative path. When I use a path relative to the current directory it tells me it cannot find the file. Anyone have any idea what path I need to be relative to?
+2009-10-14T10:12:00.000Z	thedude42	sarloth	probably relative to the cwd where the file is executed from
+2009-10-14T10:15:00.000Z	sarloth	thedude42	you mean the cwd in my cli? it tells me it can't find it (Like I said) I run " :~$xinit /usr/bin/wine "C:\Program Files\Conquer 2.0\autopatch.exe" -- :1 -config xorg16.conf" from ~ (xorg16.conf is in ~) and it tells me it cannot find xorg16.conf
+2009-10-14T10:17:00.000Z	thedude42	sarloth	no, just because you run the command from your cwd doesn't mean the cwd doesn't change once execution starts.... I would start assuming the location of xinit as the cwd

@@ -1,0 +1,4 @@
+2006-03-25T09:23:00.000Z	rcsolutions		I have a PC Version of Ubuntu, and I have a AMD64 processor. The win32codecs doesn't work!!!
+2006-03-25T09:23:00.000Z	rcsolutions		But there is not a win64codecs
+2006-03-25T09:24:00.000Z	trappist	rcsolutions	you need a 32bit chroot
+2006-03-25T09:24:00.000Z	trappist	rcsolutions	those codecs are binary-only.  we can't just recompile them for 64bit.

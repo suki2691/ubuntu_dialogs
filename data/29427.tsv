@@ -1,0 +1,4 @@
+2010-08-19T00:26:00.000Z	vindu		Hello, when i use CTRL+ALT+F1 to open the tty¨s the only thing i see, is a blinking line :(
+2010-08-19T00:27:00.000Z	muellisoft	vindu	try alt+left or alt+right to cycle through the allocated ttys. If none is there, check /etc/init/. ttys are defined there
+2010-08-19T00:28:00.000Z	vindu	muellisoft	they are there, but it seems that nothing will happen on them, only the blinking line :(
+2010-08-19T00:28:00.000Z	muellisoft	vindu	check  i.e. /etc/init/tty1 whether a "getty" is actually spawned there

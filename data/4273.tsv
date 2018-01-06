@@ -1,0 +1,4 @@
+2012-04-06T18:13:00.000Z	mklappstuhl		Hey, I'm trying to install the soundcli gem after installing Ruby according to the wiki... I get this error though: Could not create Makefile due to some reason[...]
+2012-04-06T18:14:00.000Z	mklappstuhl		I have ruby-1.8dev installed
+2012-04-06T18:14:00.000Z	L3mce	mklappstuhl	The reason would be important. Typically if it is a missing header file, you would install the package which provides that header
+2012-04-06T18:17:00.000Z	L3mce	mklappstuhl	Before you try again, remember to run make clean

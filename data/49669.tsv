@@ -1,0 +1,4 @@
+2009-10-18T03:25:00.000Z	m_law		got a stupid question: when i look at how much space I have used on a hard drive it shows up as 248 Gb but all the files on the Hard Drive only add up to 228 GB can anyone tell me why ?
+2009-10-18T03:27:00.000Z	stroyan	m_law	 The answer really depends on how you are looking at "how much space" is used.  There are three important effects. sparse files are larger than on-disk size.  small files can pad out to a minimum block size.  Hard linked files can appear twice in the filesystem but once on the disk.
+2009-10-18T03:28:00.000Z	m_law	stroyan	what's the most reliable way I can look at how much space i am taking up on my hd
+2009-10-18T03:29:00.000Z	stroyan	m_law	 The "df" command is good about showing how much space on disk is used.

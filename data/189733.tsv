@@ -1,0 +1,4 @@
+2007-02-26T14:16:00.000Z	kupesoft		I've set up an IP-masquerading firewall for device br0 which is a network bridge between eth1 (ethernet card attached to a hub) and ath0 (wireless access point). Everything works well except clients attached to eth1 cannot communicate (ping fails) with clients attached to ath0. The gateway can talk to both wired and wireless clients. Is this a bridging issue or a firewall issue?
+2007-02-26T14:16:00.000Z	gus	kupesoft	same subnet ?
+2007-02-26T14:17:00.000Z	kupesoft	gus	Yes, same subnet.
+2007-02-26T14:18:00.000Z	gus	kupesoft	maybe u need to set up a gateway but then u will need to have different subnets

@@ -1,0 +1,4 @@
+2010-08-23T20:27:00.000Z	anders_		I've got a (probably simple) question about permissions for an FTP account. I want to upload files to /var/www using FTP. I considered it wise not to use my ordinary account, so I created a special user for this. But how do I grant this user permission to upload use /var/www?
+2010-08-23T20:29:00.000Z	sacarlson	anders_	I guess you could add your user to the group that you setup the dirs in /var/www
+2010-08-23T20:30:00.000Z	anders_	sacarlson	ok! I'll try that avenue! Many thanks!
+2010-08-23T20:31:00.000Z	sacarlson	anders_	you will also be requred to give you group write privliges in the dirs you want them to be able to write

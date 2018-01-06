@@ -1,0 +1,4 @@
+2005-12-14T17:28:00.000Z	eriksti		anyone know what I should do?   $ modprobe ndiswrapper  --->  FATAL: Error inserting ndiswrapper (/lib/modules/2.6.12-9-386/kernel/drivers/net/ndiswrapper/ndiswrapper.ko): Invalid argument
+2005-12-14T17:29:00.000Z	erUSUL	eriksti	it is a custom kernel?
+2005-12-14T17:46:00.000Z	erUSUL	eriksti	use the native driver
+2005-12-14T17:48:00.000Z	erUSUL	eriksti	use ifconfig -a to figure out the name it got assigned

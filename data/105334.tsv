@@ -1,0 +1,4 @@
+2009-11-12T23:45:00.000Z	adamnl		Hm, I changed my sourcecode to have the includes from /linux/module.h (and more) point to /usr/src/linux-header-someversion/include/linux/module.h. However, this does not help because in these files are also links towards other files in the /linux directory
+2009-11-12T23:45:00.000Z	adamnl		Would it work if I copied the whole directory to /linux?
+2009-11-12T23:46:00.000Z	ActionParsnip	adamnl	just use a symlink
+2009-11-12T23:46:00.000Z	ActionParsnip	adamnl	no need to copy then ;) the OS will be fooled

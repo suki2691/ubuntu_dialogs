@@ -1,0 +1,4 @@
+2010-04-25T05:18:00.000Z	o11c		hm, I've discovered a kinda major bug in /bin/sh
+2010-04-25T05:19:00.000Z	o11c		does echo '\\' print one backslash or 2?
+2010-04-25T05:19:00.000Z	Typos_King	o11c	  should be a backslash IIRC
+2010-04-25T05:21:00.000Z	Typos_King	o11c	  should be a backslash using double-quotes, single-quotes on the other hand do not do any 'interpolating' and thus they literally handle the strings, and thus in single-quotes, you'd get 2 backslashes

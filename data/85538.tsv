@@ -1,0 +1,4 @@
+2008-07-14T01:18:00.000Z	flowy		gdm is installed and x starts normally, when I type startx
+2008-07-14T01:18:00.000Z	flowy		!xorg
+2008-07-14T01:19:00.000Z	danand_	flowy	- take a look at your init scripts - /etc/rc2.d for instance. you should probably have a ref to gdm or kdm in there. ie on my system S30gdm. that script starts gdm / X for you at boot
+2008-07-14T01:27:00.000Z	flowy	danand_	 S30gdm is in the dir, but how do I get it to start at boot?

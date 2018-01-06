@@ -1,0 +1,4 @@
+2005-11-25T11:41:00.000Z	delltony		question i have a website running on one of my boxes i want to ssh into it and do a backup of it and store that backup on this box how would i go about doiong that please if anyone would like to help that would be great
+2005-11-25T11:41:00.000Z	rob_p	delltony	 I'd use scp.
+2005-11-25T11:42:00.000Z	rob_p	delltony	 Write a small script that makes a tar.gz of the dir(s) you want backed up and automatically scp's the tar.gz to your machine.  Add it to a crontab entry for a truly automated backup solution!
+2005-11-25T11:44:00.000Z	rob_p	delltony	 I'd say read up on how to use scp, then open a few bash scripts and poke around.  Before long, you'll be scripting your way to bliss!

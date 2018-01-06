@@ -1,0 +1,4 @@
+2009-12-18T04:26:00.000Z	dnivra_		i'm trying to install sudo from source and I get the error saying "/usr/bin/ld: cannot find -lpam". which libpam package to I have to install?
+2009-12-18T04:27:00.000Z	dnivra_		DasEil: you know ./configure, make, sudo make install.
+2009-12-18T04:28:00.000Z	geirha	dnivra_	You need the -dev package of a lib to compile something against it, so: aptitude search 'libpam.*-dev'
+2009-12-18T04:30:00.000Z	dnivra_	geirha	it worked. thanks.

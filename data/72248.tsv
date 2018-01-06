@@ -1,0 +1,4 @@
+2008-12-03T10:57:00.000Z	joelmca		Given a directory with a bunch of files and child directories, is there a command I can use to recursively go through that directory and have it output to me the group owners that exist in the recursive list?
+2008-12-03T10:58:00.000Z	joelmca		For example, I think a directory and all of its children have a group owner of www-data. I want to make sure of that. But I don't want to have to manually go through each directory doing a "ls -al" on all of them.
+2008-12-03T10:58:00.000Z	Flannel	joelmca	it'd be ls -alR, but then you may want to sort/grep/etc that
+2008-12-03T11:00:00.000Z	joelmca	Flannel	Thanks! :-)

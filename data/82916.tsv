@@ -1,0 +1,4 @@
+2009-12-22T01:12:00.000Z	malifal	guntbert	so?
+2009-12-22T01:13:00.000Z	guntbert	malifal	runlevels don't have the meaning we are used to  from other distros - so if you got no problem don't try to fix something that maybe ain't broken :-)
+2009-12-22T01:15:00.000Z	malifal	guntbert	but i do i have a problem, when i restart ubuntu, usually i need to run /etc/init.d/networking manually so eth0 can acquire a dhcp ip
+2009-12-22T01:21:00.000Z	guntbert	malifal	ok, then it should not hurt to type sudo update-rc.d network enable 23435

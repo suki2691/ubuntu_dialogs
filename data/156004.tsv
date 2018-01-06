@@ -1,0 +1,4 @@
+2010-11-03T22:08:00.000Z	grendal_prime		im connecting to an nfs share and for whatever reason i cannot even cd into the mounted dir. I get a permissions error.
+2010-11-03T22:08:00.000Z	grendal_prime		as root
+2010-11-03T22:09:00.000Z	ks3	grendal_prime	Probably permission settings on the NFS server
+2010-11-03T22:13:00.000Z	ks3	grendal_prime	Does it work as a normal user? They may have the the rootsquash option, which would make your local account appear as an anonymous account on the server side.

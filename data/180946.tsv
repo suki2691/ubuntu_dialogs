@@ -1,0 +1,4 @@
+2006-06-19T12:42:00.000Z	oni-dracula		hey guys (possibly gals), anyone know what the following error means:  dpkg-deb (subprocess): short read in buffer_copy (failed to write to pipe in copy)
+2006-06-19T12:42:00.000Z	Seveas	oni-dracula	disk full?
+2006-06-19T12:43:00.000Z	oni-dracula	Seveas	disk is not full...has about 90 gigs free
+2006-06-19T12:43:00.000Z	Seveas	oni-dracula	then your .deb file is busted. apt-get clean and retry

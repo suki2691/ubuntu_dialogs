@@ -1,0 +1,4 @@
+2009-05-24T17:30:00.000Z	whileimhere		Good morning from the East Coast USA. I have a laptop. It has 4 partitions on it. One of them is a sys restore partition, one is a MS Vista Partition, one is an Ubuntu 8.10 partition and one is storage. I need to see the size of the four partitions in order to figure out what one is what. The volume labels are meaningless on this laptop. I have an Ubuntu 9.04 live cd in the drive and have booted into a LIVE environ. Can an
+2009-05-24T17:31:00.000Z	whileimhere		NM
+2009-05-24T17:31:00.000Z	tones	whileimhere	tip=keep it short and snappy
+2009-05-24T17:32:00.000Z	tones	whileimhere	enter "fdisk -l" into a terminal, vista and sysrestore will be NTFS, storage probably FAT32 and ubuntu most definitely ext3

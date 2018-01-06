@@ -1,0 +1,4 @@
+2010-08-13T12:13:00.000Z	ezrafree_		hello
+2010-08-13T12:14:00.000Z	ezrafree_		i have a "UUID" set in my /etc/fstab but now i can't mount my external hard drive... any ideas?
+2010-08-13T12:14:00.000Z	ezrafree_		is there some way to get a new UUID?
+2010-08-13T12:15:00.000Z	rww	ezrafree_	sudo tune2fs -U newuuidgoeshere /dev/devicenode, but I'd highly recommend figuring out what's not working instead.

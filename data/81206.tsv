@@ -1,0 +1,4 @@
+2008-08-27T21:07:00.000Z	nnnulll		guys if im running a gnome program via typing a command in console to launch it and the console sits there flashing.. is there anything i can type in the console to kill the program?
+2008-08-27T21:07:00.000Z	digifuzz	nnnulll	yes.
+2008-08-27T21:08:00.000Z	digifuzz	nnnulll	You can also type: killall -KILL <prog.cmdname>
+2008-08-27T21:10:00.000Z	digifuzz	nnnulll	or find the process id: (px aux) and kill the process by pid (kill -KILLL <pid>)

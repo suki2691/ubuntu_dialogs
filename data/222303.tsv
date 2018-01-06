@@ -1,0 +1,4 @@
+2005-12-21T15:17:00.000Z	ssabljic		can you advise a newbie to install mp3 codecs?
+2005-12-21T15:19:00.000Z	ssabljic		W: Couldn't stat source package list http://security.ubuntu.com breezy-security/restricted Packages (/var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_breezy-security_restricted_binary-i386_Packages) - stat (2 No such file or directory)
+2005-12-21T15:20:00.000Z	ssabljic		this means i can't install them i guess because they are not on the server
+2005-12-21T15:22:00.000Z	intelikey	ssabljic	looks to me like you need to 'sudo apt-get update ' and try again.

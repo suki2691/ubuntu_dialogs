@@ -1,0 +1,4 @@
+2007-12-16T20:46:00.000Z	ubuntino		Hi. I'm using vodafone mobile connect app in ubuntu 7.10. It works ok (sends sms) but no web access. etc/ppp/resolv.conf has wrong dns nameservers. Every time i replace for the correct ones, i get the wrong one back after reboot. any help?
+2007-12-16T20:47:00.000Z	Blissex	ubuntino	evidently there is a DHCP client that rewrites '/etc/resolv.conf' with the numbers a DHCP server sends. Which means that either the Vodafone DHCP server sends out wrong values or there is another DHCP server.
+2007-12-16T20:53:00.000Z	ubuntino	Blissex	Any hints?
+2007-12-16T20:53:00.000Z	Blissex	ubuntino	well, you don't give any useful information, but to get that have a look at '/var/log/messages' and check what the DHCP client writes there.

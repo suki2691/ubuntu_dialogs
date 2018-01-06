@@ -1,0 +1,4 @@
+2006-10-12T06:44:00.000Z	aboutblank		Samba won't start - "user guest in passdb, but getpwnam() fails!" and "error: failed to setup guest info" in log. Have removed and reinstalled many times (and removed smb.conf). any ideas?
+2006-10-12T06:46:00.000Z	bimberi	aboutblank	(this is a wild guess), try 'sudo smbpasswd -a guest' to set up an entry in samba's password db
+2006-10-12T06:47:00.000Z	aboutblank	bimberi	no luck
+2006-10-12T06:48:00.000Z	bimberi	aboutblank	hmmk, sorry nothing else springs to mind :|

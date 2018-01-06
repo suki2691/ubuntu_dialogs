@@ -1,0 +1,4 @@
+2008-01-15T05:09:00.000Z	Negromancer		I have a couple keys that don't do anything, is there any way to capture the input off them and map it to something?
+2008-01-15T05:11:00.000Z	sethk	Negromancer	the "xev" utility (x event) will tell you the keycode
+2008-01-15T05:11:00.000Z	sethk	Negromancer	the "xev" utility (x event) will tell you the keycodes
+2008-01-15T05:11:00.000Z	sethk	Negromancer	with the codes, you can use xmodmap to assign them to something

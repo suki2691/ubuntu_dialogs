@@ -1,0 +1,4 @@
+2009-04-27T03:43:00.000Z	abz___		done that...using 25 for fstab.  when i do sudo mount -a i get [mntent]: line 15 in /etc/fstab is bad
+2009-04-27T03:44:00.000Z	abz___		/dev/sdb1  /media/320gb  -t vfat -o rw,auto,user,UID=0,GID=25  0 0
+2009-04-27T03:45:00.000Z	Kano	abz___	no -t -o in fstab
+2009-04-27T03:58:00.000Z	Kano	abz___	make sure the mountpoint is a dir which exists

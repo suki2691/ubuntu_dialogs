@@ -1,0 +1,4 @@
+2011-01-31T02:47:00.000Z	Burzmali		Okay, is a symlink isn't possible, is there a way to go back to mounting CDs to a generic folder instead of a named one?
+2011-01-31T02:47:00.000Z	jrib	Burzmali	isn't /cdrom what you want?
+2011-01-31T02:48:00.000Z	Burzmali	jrib	Nothing every mounts there, only in a subfolder of /media
+2011-01-31T02:48:00.000Z	jrib	Burzmali	I see.  I guess you have to mess with udev scripts.  My *guess* is: /etc/udev/rules.d/70-persistent-cd.rules

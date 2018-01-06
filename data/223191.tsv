@@ -1,0 +1,4 @@
+2005-11-09T08:49:00.000Z	budluva		can someone give me a hand here? i have a tnt2 and i ran the nvidia 7174 installer (*.run) and it compiled fine, after installation, remove Load "dri" and Load "GLcore" and add Load "glx" also replaced "nv" with "nvidia" saved, startx, x failed because could not load nvidia kernel module, screen found, but non have usable configuration
+2005-11-09T08:49:00.000Z	durt	budluva	whats wrong with nvidia-glx?
+2005-11-09T08:51:00.000Z	durt	budluva	get a debian packages then
+2005-11-09T08:52:00.000Z	durt	budluva	http://packages.debian.org/unstable/x11/nvidia-glx

@@ -1,0 +1,4 @@
+2007-01-05T11:32:00.000Z	mov		so... anyone know how to set which sound card's volume the vol+ and vol- keyboard keys affect?
+2007-01-05T11:32:00.000Z	Ferret	mov	One way to fix that would be to configure udev so that /dev/mixer and /dev/mixer1 got switched around.
+2007-01-05T11:33:00.000Z	Ferret		Oh, neat. Didn't realise there was a mechnism for setting the card to use o.o
+2007-01-05T11:33:00.000Z	mov	Ferret	xtknight: excellent tips, thanks. the thing I'd like to do is really to swap the two cards, making the secondary one the primary

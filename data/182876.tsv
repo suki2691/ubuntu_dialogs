@@ -1,0 +1,4 @@
+2007-04-23T13:27:00.000Z	ASDF		I'm trying to rescue some data from an NTFS drive before I reformat it.  I've managed to mount it to /media/hdd1 but the permissions are dr-x------.
+2007-04-23T13:27:00.000Z	ASDF		I tried sudo chmod a+r /media/hdd1 but it won't let me
+2007-04-23T13:28:00.000Z	Pelo	ASDF	  if you are not using feisty you need to install nfts support
+2007-04-23T13:29:00.000Z	ASDF	Pelo	- I'm using feisty.  my other ntfs partition on hdc is fine, but I had to add a hdd=remap to my kernel line for hdd to even appear

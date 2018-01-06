@@ -1,0 +1,4 @@
+2012-02-10T18:50:00.000Z	soee		hi, how can i replace some text with other text in all files and subdirectories in selected folder ?
+2012-02-10T18:50:00.000Z	arand	soee	combine find and sed?
+2012-02-10T18:50:00.000Z	soee	arand	never used it, gonna try
+2012-02-10T18:56:00.000Z	arand	soee	Something like "find dir/ -exec sed -i 's/string1/string2/g' {} \;"

@@ -1,0 +1,4 @@
+2008-12-08T09:23:00.000Z	gonzaloaf_laptop		hi, where can I get the virtualbox-ose-guest module for linux-image-2.6.24-22-server from? because there isnt in the repos
+2008-12-08T09:24:00.000Z	scunizi	gonzaloaf_laptop	did you install the vbox version from the website or the ose version from the repos?
+2008-12-08T09:24:00.000Z	gonzaloaf_laptop	scunizi	repos, the problem is that I installed the latest kernel
+2008-12-08T09:26:00.000Z	scunizi	gonzaloaf_laptop	well. you might try sudo apt-get update && sudo apt-get upgrade && sudo apt-get dist-upgrade and then search again for it.  Otherwise you might consider installing the version off the website .. you won't need the guest modules then... and you'll have usb support.

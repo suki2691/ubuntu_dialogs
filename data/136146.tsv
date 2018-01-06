@@ -1,0 +1,4 @@
+2010-03-20T08:34:00.000Z	k3rn		hi - is $EDITOR as system variable? i have it in a script here but by ubuntu doesn't resolve it. do i have to set it once?
+2010-03-20T08:35:00.000Z	k3rn		yea i am running ubuntu karmic - he doesn't seem to recongnise $EDITOR - do i have to set it once manually?
+2010-03-20T08:36:00.000Z	Gnea	k3rn	edit ~/.bashrc and then add this:  export EDITOR="/usr/bin/vim" or something
+2010-03-20T08:38:00.000Z	Gnea	k3rn	what do you need $EDITOR set for?

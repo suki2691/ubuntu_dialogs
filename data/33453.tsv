@@ -1,0 +1,4 @@
+2010-05-04T01:13:00.000Z	dxtr		So.. uhm.. How can I make .xinitrc or .xsession work?
+2010-05-04T01:15:00.000Z	Jowi	dxtr	you need to create /usr/share/xsessions/Xsession.desktop with the following information: [Desktop Entry] (new line) Name=Xsession (new line) Comment=This runs .xsession files (new line) Exec=/etc/X11/Xsession
+2010-05-04T01:17:00.000Z	dxtr	Jowi	Awesome! Thansk
+2010-05-04T01:17:00.000Z	Jowi	dxtr	you're welcome

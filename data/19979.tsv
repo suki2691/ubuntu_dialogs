@@ -1,0 +1,4 @@
+2011-03-07T06:34:00.000Z	noonian	hilarie	what is dev/shm? you might just want to give yourself access to it and keep it owned by root
+2011-03-07T06:34:00.000Z	hilarie	noonian	it's the built in ramdisk, and i want it to be on my desktop
+2011-03-07T06:39:00.000Z	noonian	hilarie	if it is mountable you could do: "mkdir ~/Desktop/shm" then "sudo mount /dev/shm ~/Desktop/shm"
+2011-03-07T06:39:00.000Z	noonian	hilarie	but i dont know what it is really

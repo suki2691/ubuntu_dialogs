@@ -1,0 +1,4 @@
+2008-12-07T03:20:00.000Z	Guest80523		hi, how do I stop X server in Ubuntu? or how do I boot with no X? CLI only?
+2008-12-07T03:20:00.000Z	LjL	Guest80523	sudo invoke-rc.d gdm stop
+2008-12-07T03:20:00.000Z	LjL	Guest80523	as for booting with no GUI, if you want to do that always, you can use update-rc.d to remove the gdm entry
+2008-12-07T03:21:00.000Z	Guest80523	LjL	tnx but not always ;)

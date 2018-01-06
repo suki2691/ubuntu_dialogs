@@ -1,0 +1,4 @@
+2009-07-17T06:01:00.000Z	Condoulo		ok, for some reason I'm having issues sharing files between two Ubuntu machines. I have Samba installed on both of em, and created a share on one, but the other one won't access it
+2009-07-17T06:02:00.000Z	soreau	Condoulo	samba is for sharing with windoze. You want to use ssh
+2009-07-17T06:02:00.000Z	Condoulo	soreau	oh? there a UI for connecting via that method? >.<
+2009-07-17T06:03:00.000Z	soreau	Condoulo	Not sure. Just use something like 'scp /path/to/file 192.168.1.102:/home/username' for instance

@@ -1,0 +1,4 @@
+2009-08-24T21:45:00.000Z	jeeves_Moss		what is "/usr/X11R6/bin/X :0 -br -auth /var/lib/gdm/:0.Xauth" doing on my system?  it's chewing through ~40% of my CPU time
+2009-08-24T21:46:00.000Z	pepperphd	jeeves_Moss	what does top say?
+2009-08-24T21:47:00.000Z	jeeves_Moss	pepperphd	when I run htop, that's all I can get out of it (due to the fact that my screen is so small)
+2009-08-24T21:50:00.000Z	pepperphd	jeeves_Moss	open a terminal, type top -b -n1 | less

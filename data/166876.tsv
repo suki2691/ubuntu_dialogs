@@ -1,0 +1,4 @@
+2008-07-19T05:03:00.000Z	Blaqlight		Im curious as to why this program (E16) wants to remove ubuntu-desktop. problem is this, its supposed to be a dummy/virtual file and it would be safe to remove, so when I tried it said it was going to remove 142MB os stuff... hence NOT a dummy file.
+2008-07-19T05:04:00.000Z	Blaqlight		Im using aptitude.
+2008-07-19T05:04:00.000Z	Blaqlight		not apt-get
+2008-07-19T05:04:00.000Z	Baughn	Blaqlight	Package foo pulls in bar, remove foo and it will try to remove bar, even if bar doesn't depend on foo, simply to avoid cluttering your system with unused packages you didn't explicitly ask for

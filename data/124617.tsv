@@ -1,0 +1,4 @@
+2008-08-18T17:18:00.000Z	ra21vi		please suggest, how can I exec a process and then logoff without terminating it.. such as when we do /etc/init.d/apache2 start and we can log off, but the daemon remains live, I need same thing for even a simple script.. any help
+2008-08-18T17:18:00.000Z	praet	ra21vi	you can use screen
+2008-08-18T17:21:00.000Z	ra21vi	praet	somethig like fg, bg .. or someother trick ???
+2008-08-18T17:22:00.000Z	praet	ra21vi	If you bg a script with &

@@ -1,0 +1,4 @@
+2007-09-05T10:09:00.000Z	revilodra1		how do i do a batch filename change?
+2007-09-05T10:09:00.000Z	revilodra1		how do i do a batch filename change?
+2007-09-05T10:11:00.000Z	gonzoism	revilodra1	  for i in $('WHATEVER_COMMAND_LISTS_THE_FILES_YOU_WANT'); do mv $i newname ; done         you can use $i.newname   to use $i for a base name.
+2007-09-05T10:12:00.000Z	revilodra1	gonzoism	so i cd to the folder then do the 'mv $i newname ?

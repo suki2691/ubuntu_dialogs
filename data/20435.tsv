@@ -1,0 +1,4 @@
+2012-02-12T15:29:00.000Z	MrMist1		What's the best way of running "cron-like" tasks in ubuntu? I know how to set up Cron, but it doesn't seem like it's being used bu default by the system
+2012-02-12T15:31:00.000Z	Chipzzz	MrMist1	use the crontab commands to create the jobs you want and /etc/crontab should be created
+2012-02-12T15:36:00.000Z	MrMist1	llutz	sudo -i? Never used that one... care to explain the difference?
+2012-02-12T15:37:00.000Z	Chipzzz	MrMist1	there is no 'root' user in ubuntu and sudo -i compensates for the differences between ubuntu & the more standard configuration

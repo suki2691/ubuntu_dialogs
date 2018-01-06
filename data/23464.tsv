@@ -1,0 +1,4 @@
+2010-10-27T10:03:00.000Z	Guest2051		I added a user to the admin group but the user can't sudo su to root, anyone know why?
+2010-10-27T10:04:00.000Z	Scunizi	Guest2051	sudo is normal.. sometimes you have to have extended root access to install something.. sudo -i will get you to the same place you expected with sudo su.. but correctly.
+2010-10-27T10:06:00.000Z	Guest2051	Scunizi	sudo -i does not work.. I can sudo su to root using the user I used to install ubuntu, how do I duplicate this functionality with a new user?
+2010-10-27T10:07:00.000Z	Scunizi	Guest2051	sorry above my paygrade.. gartral might have the answer

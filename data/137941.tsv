@@ -1,0 +1,4 @@
+2011-10-07T17:32:00.000Z	warfaren		try grep fail instead
+2011-10-07T17:33:00.000Z	warfaren		i think most times it will say failed, and not failure
+2011-10-07T17:35:00.000Z	warfaren		hm. dmesg have no timestamps ?:O
+2011-10-07T17:37:00.000Z	llutz	warfaren	grep PRINTK_TIME /boot/config-$(uname -r)

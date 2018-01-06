@@ -1,0 +1,4 @@
+2007-03-09T10:37:00.000Z	ParaPlayer		hello again... i have some trouble with the installation of beryl. i got a nvidia geforce 3, so i have chosen the AIGLX installation. but there is written: " nVidia cards require the non-free drivers to be installed, as the default "nv" driver does not support acceleration." what am i meant to do?
+2007-03-09T10:37:00.000Z	kitche	ParaPlayer	install nvidia-glx driver
+2007-03-09T10:38:00.000Z	ParaPlayer	kitche	can you give me a command to do this?
+2007-03-09T10:39:00.000Z	kitche	ParaPlayer	sudo apt-get install nvidia-glx, you might have to reconfigure xorg after wards forgot if it does it by itself or not

@@ -1,0 +1,4 @@
+2007-06-21T09:37:00.000Z	chrismurf		I'm not sure - I would suggest poking about on ubuntu forums to see if someone else had the same problem.
+2007-06-21T09:37:00.000Z	wols	chrismurf	no. nforce chipsets > nf4 uses AHCI. check http://linux-ata.org/
+2007-06-21T09:38:00.000Z	wols	chrismurf	there shouldn't be any problem with the hdd Oni-Dracula. feisty should recognize it without a problem
+2007-06-21T09:39:00.000Z	wols	chrismurf	dmesg | grep sda

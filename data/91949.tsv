@@ -1,0 +1,4 @@
+2008-11-06T11:41:00.000Z	djhash		hey.. i'm making a script that includes to kill a program using its pid.. i have a pid file.. currently my script looks like this "kill $(cat PIDFILE)" .. this atleast worked when I typed it in terminal.. the question is.. will that work inside a script? or is there a better way (a more linuxy way)
+2008-11-06T11:42:00.000Z	elpargo	djhash	that works, also `cat file`
+2008-11-06T11:43:00.000Z	djhash	elpargo	those are backticks.. right?
+2008-11-06T11:43:00.000Z	elpargo	djhash	yes

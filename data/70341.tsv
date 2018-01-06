@@ -1,0 +1,4 @@
+2010-05-14T22:36:00.000Z	badnaam		any networking experts here? I am in deep trouble with my ethernet connectivity, please help! http://pastie.org/958162
+2010-05-14T22:38:00.000Z	pdtpatrick	badnaam	why is your domain belkin ?
+2010-05-14T22:38:00.000Z	pdtpatrick	badnaam	is ur dnsserver really belkin?
+2010-05-14T22:47:00.000Z	pdtpatrick	badnaam	log into your router, look at the dns addresses and then go back to /etc/resolv.conf .. put the dns in there and then restart network with /etc/init.d/networking restart

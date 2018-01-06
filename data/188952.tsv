@@ -1,0 +1,4 @@
+2006-04-30T14:52:00.000Z	nickrud	jarle	you probably will need to reboot into recovery mode, and do adduser <newuser> admin to get sudo access for the user
+2006-04-30T14:54:00.000Z	jarle	nickrud	I'll find recovery in the grub menu?
+2006-04-30T14:54:00.000Z	nickrud	jarle	the groups for your new user (seen by typing groups <username>) should include all of adm dialout cdrom floppy audio dip video plugdev lpadmin scanner admin
+2006-04-30T14:54:00.000Z	nickrud	jarle	yes

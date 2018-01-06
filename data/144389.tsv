@@ -1,0 +1,4 @@
+2007-09-13T11:46:00.000Z	nickrud	Helmi	your question probably got lost in the clutter, you'd better ask again (I don't know nfs)
+2007-09-13T11:47:00.000Z	Helmi	nickrud	yeah kind of a problem in channels like this ;)
+2007-09-13T11:47:00.000Z	Helmi		i got a problem: mounted some network shares via fstab but they don't get mounted on boot - i always have to manually mount them. any idea why that is?
+2007-09-13T11:48:00.000Z	nickrud	Helmi	ah, I might I have the answer after all: the fstab is read before nfs is started ?

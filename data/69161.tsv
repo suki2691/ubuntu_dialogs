@@ -1,0 +1,4 @@
+2009-01-27T00:13:00.000Z	oCean_	ubuntu_is_dabest	what is the error you're getting?
+2009-01-27T00:14:00.000Z	ubuntu_is_dabest	unop	ok, i chown the files already from root:nogroup, into root:root ownership, is it what i supposed to do?
+2009-01-27T00:15:00.000Z	oCean_	ubuntu_is_dabest	probably not
+2009-01-27T00:15:00.000Z	oCean_	ubuntu_is_dabest	if you want to allow a certain process to write to a file, that file should have permissions for the process owner to write. e.g. www-data for the apache2 process

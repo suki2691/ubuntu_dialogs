@@ -1,0 +1,4 @@
+2011-09-25T06:33:00.000Z	StepNjump		Hi guys, something happened with my grub. It boots up with GRUB Rescue> Any idea what I could do to fix that?
+2011-09-25T06:33:00.000Z	escott	StepNjump	could be a corrupted fs, boot the live cd and fsck the partitions
+2011-09-25T06:33:00.000Z	escott		!grub | StepNjump
+2011-09-25T06:35:00.000Z	StepNjump	escott	I installed Acronis for windows and when it rebooted, I found out it would no longer boot up. Must be due to Acronis that made a change to the boot sector

@@ -1,0 +1,4 @@
+2011-11-23T22:57:00.000Z	afro		hi
+2011-11-23T22:57:00.000Z	afro		how do I check wich port are in use and what prog are using them?
+2011-11-23T22:58:00.000Z	llutz	afro	sudo lsof -i
+2011-11-23T22:58:00.000Z	llutz	afro	or sudo  netstat -tulpen

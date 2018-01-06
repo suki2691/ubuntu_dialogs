@@ -1,0 +1,4 @@
+2009-05-03T05:37:00.000Z	cappicard		heya. what could I do to apache2 to prevent it from jacking up my ping times from 21ms to 3000ms?
+2009-05-03T05:38:00.000Z	mattgirv	cappicard	Set up traffic shaping so apache2 only has access to part of your bandwidth
+2009-05-03T05:39:00.000Z	mattgirv	cappicard	yeah even so, i just mean anything with a limited upload rate
+2009-05-03T05:47:00.000Z	mattgirv	cappicard	Any better?

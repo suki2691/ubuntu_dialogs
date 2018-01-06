@@ -1,0 +1,4 @@
+2007-08-01T12:48:00.000Z	Diogo|Skol|		hello everyone
+2007-08-01T12:50:00.000Z	Diogo|Skol|		can anyone help me??
+2007-08-01T12:51:00.000Z	Diogo|Skol|		i have white screnn when i start terminal whit beryl on!!
+2007-08-01T12:52:00.000Z	howlingmadhowie	Diogo|Skol|	the short version: add this line to the "display" section of xorg.conf:     Option         "XAANoOffscreenPixmaps" "true"

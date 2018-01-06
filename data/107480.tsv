@@ -1,0 +1,4 @@
+2008-01-06T07:34:00.000Z	Nem3sis		Quick question (hopefully), im trying to get my soundcard to work, when i type lsmod snd-ens1371 shows up alongside snd (among others) and modprobe snd-ens1371 shows no errors, however when i type aplay -l i get a message saying no soundcards found
+2008-01-06T07:35:00.000Z	Nem3sis		a lot of forums mention using alsaconf but that apparently ha been removed in 7.10
+2008-01-06T07:35:00.000Z	Dr_Willis	Nem3sis	 check dmesg befor/after loading that module.. that may be the wrong one for your card..
+2008-01-06T07:37:00.000Z	Nem3sis	Dr_Willis	no errors, it seems to be the right chipset when checking the name on the card and checking the alsa-device list

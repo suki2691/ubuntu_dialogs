@@ -1,0 +1,4 @@
+2010-08-18T10:39:00.000Z	riis		I find myself having to "echo disable > /proc/acpi/ibm/bluetooth" on every boot, is there a config somewhere that I can set it permanently, or should/can I rebuild the appropriate kernel module withot BT support?
+2010-08-18T10:40:00.000Z	Delvien	riis	you can remove the module so it doesnt run
+2010-08-18T10:41:00.000Z	riis	Delvien	I think it's the thinkpad_acpi mod or something, so that might not be desireable as I'll lose other features too
+2010-08-18T10:43:00.000Z	Delvien	riis	what model of laptop do you own?

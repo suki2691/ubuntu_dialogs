@@ -1,0 +1,4 @@
+2004-11-05T17:35:00.000Z	travis		OK I can get into Windows for work now, nvidia module loads at start up, but domain name resolving still takes about 15 seconds, and it's close to instant on all the other pc's in our apartment. I've edited /etc/modutils/aliases AND /etc/modprobe.d/aliases. Anything else I can do?
+2004-11-05T17:36:00.000Z	jdub	travis	what's in /etc/hosts and /etc/resolv.conf?
+2004-11-05T17:45:00.000Z	jdub	travis	are you having dns name resolution problems, or windows name resolution problems?
+2004-11-05T17:45:00.000Z	travis	jdub	it's when I am opening a website. It says "resolving www.whatever.com" for about 10-15 seconds, when on other pcs it's close to instant

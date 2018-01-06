@@ -1,0 +1,4 @@
+2009-12-23T09:58:00.000Z	petsounds		hi. i want to remove netbook mode from UNR, so i remove ubuntu-netbook-remix package including netbook-launcher but now /home folder is in desktop. how can i fix it? http://imagebin.org/76601
+2009-12-23T09:58:00.000Z	apn	petsounds	gconftool-2 --set /apps/nautilus/preferences/desktop_is_home_dir  --type $HOME/Desktop
+2009-12-23T10:00:00.000Z	petsounds	apn	i get an error output No value to set for key: `/apps/nautilus/preferences/desktop_is_home_dir'
+2009-12-23T10:01:00.000Z	apn	petsounds	gconftool-2 --set /apps/nautilus/preferences/desktop_is_home_dir  --type 0

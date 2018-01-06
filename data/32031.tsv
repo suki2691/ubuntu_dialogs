@@ -1,0 +1,4 @@
+2010-09-26T02:13:00.000Z	blue_anna		how do I see what video card driver X currently has loaded?
+2010-09-26T02:14:00.000Z	banished	blue_anna	lspci -k
+2010-09-26T02:15:00.000Z	blue_anna	banished	that does tell me the kernel driver, but is there any guarantee that it is the Xorg driver as well?
+2010-09-26T02:16:00.000Z	banished	blue_anna	well, you can check lsmod, but there shoudn't be that much of a diference

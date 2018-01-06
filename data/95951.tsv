@@ -1,0 +1,4 @@
+2008-10-03T18:39:00.000Z	thiagoss		There is some service running on port 8081 on a ubuntu system and it is started when ubuntu starts. I want to remove this, where can I disable it?
+2008-10-03T18:39:00.000Z	ActionParsnip	thiagoss	netstat should tell you what is listening
+2008-10-03T18:40:00.000Z	thiagoss	ActionParsnip	yes, it is a python program, but I'd like to remove it from init scripts and I can't find it
+2008-10-03T18:40:00.000Z	ActionParsnip	thiagoss	i think you need rc.update

@@ -1,0 +1,4 @@
+2005-08-11T11:29:00.000Z	Marble2		can someone help me out? I'm mounting this partition as rw, but when I try to delete files in it, it says cannot delete, read-only file system. what am I doing wrong?
+2005-08-11T11:29:00.000Z	Gatton	Marble2	if you do an ls -l on it what do the permissions say?
+2005-08-11T11:30:00.000Z	Gatton	Marble2	ahhh in that case no worky. without ntfs write support compiled in. which i don't have the balls to try myself ;)
+2005-08-11T11:44:00.000Z	Gatton	Marble2	what fs type? ext3? reiser?

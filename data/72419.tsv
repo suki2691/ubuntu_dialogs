@@ -1,0 +1,4 @@
+2010-05-31T01:00:00.000Z	MrWise		how do I make ubuntu boot into terminal to begin with?
+2010-05-31T01:01:00.000Z	onetinsoldier	MrWise	probably with --> sudo update-rc.d -f gdm remove  ...try man update-rc.d first
+2010-05-31T01:02:00.000Z	onetinsoldier	MrWise	with --> sudo service gdm start
+2010-05-31T01:04:00.000Z	onetinsoldier	MrWise	i must admit, i'm not certain of all this. i wonder if that command to start it will work ok after removing it from /etc/rc#.d

@@ -1,0 +1,4 @@
+2008-03-11T05:29:00.000Z	themike		can anyone just tell me how to set my eth0 interface to 192.168.1.2?  in network tools, on eth0, the "configure" button is grayed, but the lshw -C network command shows my ethernet adapter and driver and all
+2008-03-11T05:30:00.000Z	themike		why do you guys ignore me, am I doing something wrong?
+2008-03-11T05:31:00.000Z	amenado	themike	ifconfig eth0 192.168.1.2
+2008-03-11T05:33:00.000Z	amenado	themike	sudo ifconfig eth0 192.168.1.2

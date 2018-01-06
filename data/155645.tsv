@@ -1,0 +1,4 @@
+2007-03-06T17:04:00.000Z	kunwon1		Hi everyone. I've installed apache2 and mod_perl from packages. When I put a PerlModule directive in apache2.conf to load Apache::Registry, the apache failed to start up because it couldn't find registry.pm. When I try to install registry via a cpan shell, it doesn't see my mod_perl. Is there a way to get it to see the existing mod_perl so that it will properly install Apache::Registry?
+2007-03-06T17:05:00.000Z	bluefox83	kunwon1	sounds liek a #perl issue O.o
+2007-03-06T17:05:00.000Z	bluefox83		*like
+2007-03-06T17:05:00.000Z	kunwon1	bluefox83	thanks, i will try there

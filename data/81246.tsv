@@ -1,0 +1,4 @@
+2008-08-26T08:08:00.000Z	Totakeke		Quick question. I have a RAID 1 array with two 250 GiB hard drives running Windows Vista (I'm on the Live CD right now) Is there a way to install Linux to just one hard drive without having the RAID array copy either the Linux hard drive to the Windows hard drive pr the Windows hard drive to the Linux hard drive?
+2008-08-26T08:09:00.000Z	Deprecated_	Totakeke	RAID 1 is meant to keep an exact copy of the disk, do you mean you want to turn off the raid capacity? JBOD?
+2008-08-26T08:11:00.000Z	Deprecated_		pkshooter: a E4600 does have virtualization extensions. Check into xen
+2008-08-26T08:13:00.000Z	Totakeke	Deprecated_	I don't want the RAID array anymore, but if I try to delete the array from the nVidia array management thing before bootup it tries to clear all the data. I want to get rid of one mirrored Vista and replace it with Ubuntu.

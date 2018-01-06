@@ -1,0 +1,4 @@
+2010-03-03T02:15:00.000Z	darolu	kraehe	those errors shouldn't affect the disc I think, does your LiveCD works?
+2010-03-03T02:16:00.000Z	kraehe	darolu	all CDs I've tryed to work failed with io/errors somewhere at the end - the ubuntu image is a bit to long
+2010-03-03T02:17:00.000Z	darolu	kraehe	try burning at slow rate; try adding -s 1 to burn at 1x, is the safest way to burn
+2010-03-03T02:19:00.000Z	darolu	kraehe	$ wodim dev=/dev/cdrw driveropts=burnfree,noforcespeed fs=14M speed=2 -dao -eject -overburn -v <isofile>.iso is very safe too

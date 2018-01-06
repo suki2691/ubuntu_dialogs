@@ -1,0 +1,4 @@
+2010-08-27T05:23:00.000Z	kalle_		is there a command to find the latest version of any package ? like mysql-client5.1 which change often
+2010-08-27T05:23:00.000Z	kalle_		i want my install script to not fail if the package version changes
+2010-08-27T05:24:00.000Z	ActionParsnip	kalle_	use an apt-cache search first and use the name found, put some logic in your script :)
+2010-08-27T05:52:00.000Z	ActionParsnip	kalle_	you can grep the output of cat using pipes to filter for certain things

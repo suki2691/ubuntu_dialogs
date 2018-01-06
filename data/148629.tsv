@@ -1,0 +1,4 @@
+2010-08-22T23:20:00.000Z	no_u0		is there a way to permanantelyt set the niceness of a program
+2010-08-22T23:20:00.000Z	no_u0		like i want to set firefox to always be -5
+2010-08-22T23:20:00.000Z	no_u0		i can renice it everytime it starts, but i would love to do that automatically
+2010-08-22T23:21:00.000Z	redwyrm	no_u0	you could write a script to keep checking the process list and set the niceness of any "firefox" processes it finds

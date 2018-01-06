@@ -1,0 +1,4 @@
+2011-11-15T16:14:00.000Z	Guest35148		in 11.10, when I type su and type my password, I'm getting su: Authentication failure.  Yet my password works in the GUI.  What's the matter?
+2011-11-15T16:15:00.000Z	SwedeMike	Guest35148	use "sudo -i" instead.
+2011-11-15T16:15:00.000Z	SwedeMike	Guest35148	"su" requires root password.
+2011-11-15T16:18:00.000Z	SwedeMike	Guest35148	sudo chmod ag+w <filename>

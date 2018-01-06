@@ -1,0 +1,4 @@
+2007-06-25T16:36:00.000Z	fatbrain		When I start an app, I get an error that the lib.so.3 was unable to be found (I have it in /usr/local/lib, I think it looks for it in /usr/lib). Anyway I can fix that?
+2007-06-25T16:37:00.000Z	scorp123	fatbrain	ln -s /usr/local/lib/lib.so.3 /usr/lib/lib.so.3  .... dirty, but it works :)
+2007-06-25T16:38:00.000Z	fatbrain	scorp123	and if I dont want it dirty? :D
+2007-06-25T16:39:00.000Z	scorp123	fatbrain	follow the other instructions you were given :)

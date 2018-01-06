@@ -1,0 +1,4 @@
+2010-05-07T10:46:00.000Z	phillipsjk	Cloaky8x	if you just deleted the entry in the partition table, you can try re-creating it with fdick (the version they tell people top avoid due to lack of hand-holding)
+2010-05-07T10:47:00.000Z	phillipsjk		*fdisk
+2010-05-07T10:47:00.000Z	Cloaky8x	phillipsjk	It was a RAID1 and I seperated the partitions, so now Im just figuring out what to do, meh thx for the direction
+2010-05-07T11:00:00.000Z	phillipsjk	Cloaky8x	I don't think a RAID changes much. If the information you deleted was predictable, you can in theory re-create it. (though the mention of DD by the other person is now making more sense.)

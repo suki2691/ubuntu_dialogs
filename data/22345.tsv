@@ -1,0 +1,4 @@
+2010-11-25T06:41:00.000Z	jrmcm		I need help connecting a mobile broadband device from clear. The device is a USB stick and nothing happens when i plug it in. I have tried using the mobile broadband setup and neither clear or clearwire are options. I am running ubuntu 10.04.1 on kernal 2.6.32-26
+2010-11-25T06:42:00.000Z	muelli	jrmcm	plug it out, do a "sudo dmesg -c", plug it back in, do a "sudo dmesg -c" again and pastebin the output.
+2010-11-25T07:03:00.000Z	muelli	jrmcm	hm. didn't you have 3G problems? Or was it WiFi indeed?
+2010-11-25T07:04:00.000Z	jrmcm	muelli	actually it supposed to be 4G

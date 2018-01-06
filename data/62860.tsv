@@ -1,0 +1,4 @@
+2009-03-23T21:40:00.000Z	eqisow1	zagabar1	 There should be a configure option for k3b where you can fix the permissions. It will ask you for your password to do it
+2009-03-23T21:40:00.000Z	eqisow1	zagabar1	It usually does it on first run
+2009-03-23T21:41:00.000Z	zagabar1	eqisow1	I could see the device in settings in k3b, but where do I set the permission?
+2009-03-23T21:50:00.000Z	eqisow1	zagabar1	I'm not in front of my computer atm and I can't remember k3b well enough to help you, but you should be able to add yourself to the cdrom group manually like this: usermod -a -G cdrom yourname

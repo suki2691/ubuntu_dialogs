@@ -1,0 +1,4 @@
+2005-10-19T13:40:00.000Z	Puffball		https://wiki.ubuntu.com//Rt2500WirelessCardsHowTo/ <-- I've been following this guide to install a Ralink 2570 driver, but when I run 'make' in Breezy I get errors due to not having GCC 3.4, but GCC 4 and 3.3 are the only versions included
+2005-10-19T13:41:00.000Z	Juhaz	Puffball	it should compile just fine with gcc 3.3
+2005-10-19T13:42:00.000Z	Puffball	Juhaz	would I have to uninstall GCC 4 to compile with 3.3?
+2005-10-19T13:47:00.000Z	Juhaz	Puffball	try something like "make CC=gcc-3.3"

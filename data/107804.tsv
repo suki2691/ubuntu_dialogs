@@ -1,0 +1,4 @@
+2008-01-04T10:13:00.000Z	wibou	JasonWoof	: try :   echo -n "disk" > /sys/power/state
+2008-01-04T10:13:00.000Z	wibou	JasonWoof	: assuming you want to suspend to disk
+2008-01-04T10:14:00.000Z	JasonWoof	wibou	I just discovered /etc/acpi/hibernate.sh I'm guessing that's cleaner somehow
+2008-01-04T10:14:00.000Z	wibou	JasonWoof	: somehow, but basically it's a script doing the command I told you (plus several nice stuff before). :)

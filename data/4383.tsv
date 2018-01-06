@@ -1,0 +1,4 @@
+2012-04-06T19:33:00.000Z	aoeui`		hi guys. Why such line put in crontab doesn't work: * * * * *  date=$(date +\%B); if [ ! -d /home/ja/directory/${date,,} ]; then mkdir /home/ja/directory/${date,,}. But when I point to a script like this, it does: * * * * *  /home/ja/directory/DATE
+2012-04-06T19:33:00.000Z	ikonia	aoeui`	you've been told this before
+2012-04-06T19:33:00.000Z	ikonia	aoeui`	you can't do * * * * *
+2012-04-06T19:35:00.000Z	aoeui`	ikonia	why not * * * * *? If I point to a script, it executes every minute. But if I put the entire command, it does not

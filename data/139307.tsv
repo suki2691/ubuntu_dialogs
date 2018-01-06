@@ -1,0 +1,4 @@
+2010-01-08T03:03:00.000Z	iAmerikan		Can anyone help me with a mount issue?
+2010-01-08T03:04:00.000Z	iAmerikan		ok :D Well, I'm trying to mount my root directory through the 8.10 livecd
+2010-01-08T03:04:00.000Z	iAmerikan		but, it's saying that it can't read the ext4 when my partition is ext3
+2010-01-08T03:05:00.000Z	deserteagle	iAmerikan	assuming by "root directory" you mean a linux distro: mount -t auto /dev/sdXXX /mnt

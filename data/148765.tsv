@@ -1,0 +1,4 @@
+2007-06-15T05:34:00.000Z	keck0f	TakeOut{u}	What packages are necessary at least? Is "xorg, twm" and the depending packages enough?
+2007-06-15T05:34:00.000Z	TakeOut{u}	keck0f	: you'd probably be better off opening "sudo aptitude" going to virtual packages, and installing Ubuntu-Desktop
+2007-06-15T05:35:00.000Z	TakeOut{u}		it might install alot of stuff you don't need, but unless bandwidth and HD space are a big concern, its the easiest way
+2007-06-15T06:15:00.000Z	keck0f	TakeOut{u}	nomasteryoda: thanx for hints. i do not want to install more packages than necessary. an X-Server installation is not necessary to allow remote users to run x-applications. There package "xlogo" or "xterm" do not depend on a X-server... but they depend on the libx11-6 ...

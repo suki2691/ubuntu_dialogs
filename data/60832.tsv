@@ -1,0 +1,4 @@
+2009-04-06T23:38:00.000Z	mweichert		is there any way to disable sudo to SSH users?
+2009-04-06T23:39:00.000Z	jamalfanaian	mweichert	you can disable sudo to specific users, don't think you can specify it just through SSH
+2009-04-06T23:39:00.000Z	mweichert	jamalfanaian	right, so maybe I can configure SSH to add users to a particular group when logged in, and then deny that group access to sudo?
+2009-04-06T23:42:00.000Z	jamalfanaian	mweichert	what i would do is create an account for ssh without sudo and sue my account on the machine with sudo

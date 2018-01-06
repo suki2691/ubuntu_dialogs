@@ -1,0 +1,4 @@
+2009-11-19T00:59:00.000Z	tundrayeti311		I just upgraded 9.04->9.10 and now have no sound.  Can someone help me troubleshoot pls? (2.6.31-14-generic #48-Ubuntu SMP Fri Oct 16 14:05:01 UTC 2009 x86_64 GNU/Linux )
+2009-11-19T01:01:00.000Z	ZykoticK9	tundrayeti311	what's the output of "lspci | grep -i audio"
+2009-11-19T01:04:00.000Z	tundrayeti311	ZykoticK9	05:07.0 Multimedia audio controller: Creative Labs CA0106 Soundblaster
+2009-11-19T01:10:00.000Z	ZykoticK9	tundrayeti311	i just finished going through http://ubuntuforums.org/showthread.php?t=1308809 sever people ended up reinstalling 9.04 - but at least two people said it was due to the grub/kernel issue -- uname -r is showing 2.6.31 for sure right.

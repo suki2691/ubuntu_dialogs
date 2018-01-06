@@ -1,0 +1,4 @@
+2009-01-22T14:42:00.000Z	rskumar_		after i connect to VPN using vpnc, it successfully connects. But then, I am disconnected from Internet. The domain of VPN network is added as primary search domain name, all entried in my /etc/resolv.conf in overwritten with new found dns server.. i cannot ping other servers in local network, i cannot connect to remote ssh server .. nothing works.. Also, I am not a sysadmin , know a little in networking and routing.. just a developer
+2009-01-22T14:43:00.000Z	rskumar_		the ifconfig shows a new network adaptor as tun (tunnel)
+2009-01-22T14:45:00.000Z	CoUrPsE|DeAd	rskumar_	I've never played with vpn, But if you connected to a virtual private network, wouldnt the internet get disconnected due to not Connecting to your router anymore?
+2009-01-22T14:49:00.000Z	rskumar_	CoUrPsE|DeAd	but there is some method to add routing which works conditionally.. packet defined for VPN domain is sent through the tunnel following other route

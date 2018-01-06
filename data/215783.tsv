@@ -1,0 +1,4 @@
+2008-08-04T20:05:00.000Z	Operator		hi
+2008-08-04T20:06:00.000Z	Operator		i am trying to set up a crontab, i want it to run on the hour and every half hour, this is not working, # m h  dom mon dow   command
+2008-08-04T20:06:00.000Z	Operator		1 0,30 * * * * /etc/init.d/ipUpdate start
+2008-08-04T20:08:00.000Z	soundray	Operator	did you use sudo crontab -e to make that entry?

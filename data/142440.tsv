@@ -1,0 +1,4 @@
+2007-03-25T05:22:00.000Z	shafto		Can anyone help, the nvidia drivers show to be there and up to date, yet they dont seem to be actually running is there anyway to check this? Other than nvidia-settings
+2007-03-25T05:23:00.000Z	rickyfingers_	shafto	try lsmod | grep nvidia
+2007-03-25T05:23:00.000Z	rickyfingers_	shafto	that will tell you if the driver is really loaded.
+2007-03-25T05:24:00.000Z	shafto	rickyfingers_	OKay that gives a response nvidia               6827412  32

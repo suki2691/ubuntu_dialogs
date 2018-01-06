@@ -1,0 +1,4 @@
+2006-05-27T07:56:00.000Z	kane77		how to have my windows partitions and disks mounted in such a way that I wouldn't need sudo to write to them.... (FAT of course)..
+2006-05-27T07:57:00.000Z	Subhuman	kane77	open a terminal , type "sudo nano /etc/fstab" look for the lines with "vfat" in them, and then where it says "defaults" make it "defaults,rw"
+2006-05-27T08:00:00.000Z	Subhuman	kane77	umm yes, but itz not 100%
+2006-05-27T08:01:00.000Z	kane77	Subhuman	thanx a lot...

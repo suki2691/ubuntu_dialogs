@@ -1,0 +1,4 @@
+2009-12-28T09:23:00.000Z	zahmed		﻿ hello everyone, I am unable to use 'cp' with a file name stored in a variable....   first i type:  x="/home/zubair/Pictures/Photos/Chengdu-Street-Shots/Jin Li/2006_06_10/Jin Li -2.tif" and it is followed by cp "$x" -t shots/   ...it says no such file ..
+2009-12-28T09:24:00.000Z	edbian	zahmed	single quotes instead of double quotes?  Just a shot in the dark.
+2009-12-28T09:24:00.000Z	zahmed	edbian	but that would stop variable expansion
+2009-12-28T09:25:00.000Z	edbian	zahmed	I don't really understand double vs. single quotes.  I was just guessing

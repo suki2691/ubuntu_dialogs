@@ -1,0 +1,4 @@
+2008-07-15T21:19:00.000Z	JoeFool		hi, I'm back again.
+2008-07-15T21:20:00.000Z	JoeFool		I tried "dist-upgrade", it said "bash: dist-upgrade command not found"
+2008-07-15T21:22:00.000Z	Rudd-O	JoeFool	strace the pid of the dpkg command with the -ff option
+2008-07-15T21:24:00.000Z	Rudd-O	JoeFool	strace lets you know where it is stuck.  if you run strace -ff dpkg --whateveroptions you have ran, you can see what it is doing behind the scenes

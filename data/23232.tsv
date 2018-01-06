@@ -1,0 +1,4 @@
+2010-11-02T22:08:00.000Z	dli	Wicla_	I wonder whether FAI would work for you? http://wiki.fai-project.org/wiki/FAI_multi-distribution
+2010-11-02T22:14:00.000Z	Wicla_	dli	hm. I'm not sure. We are using a bash script which installs the packages right now (libnss-ldap is showing dialog). Would be preferable if it's possible to skip that step and parse the files with sed or something instead
+2010-11-02T22:16:00.000Z	dli	Wicla_	in long run, FAI would be the way to go, better with PXE booting. but debconf preseed might be what you are looking for: http://www.debian-administration.org/articles/394
+2010-11-02T22:43:00.000Z	Wicla_	dli	Found a solution to the problem. Using DEBIAN_FRONTEND=noninteractive before apt-get. :P

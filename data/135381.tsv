@@ -1,0 +1,4 @@
+2007-06-08T14:22:00.000Z	Flyinion		can anyone help a newbie with getting an Nvidia 8800GTS working?  I have drivers installed but Ubuntu boots into text mode complaining the config file is not set right and can't start X
+2007-06-08T14:23:00.000Z	ziroday	Flyinion	you have a badly configed xserver either run dpkg-reconfigure xserver-xorg to reconfigure or pastebing you conf fiel pls
+2007-06-08T14:25:00.000Z	ziroday	Flyinion	np
+2007-06-08T14:27:00.000Z	ziroday	Flyinion	do sudo nano -w /etc/X11/xorg.conf to edit your xorg

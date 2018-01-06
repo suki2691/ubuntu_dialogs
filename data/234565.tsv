@@ -1,0 +1,4 @@
+2006-01-21T15:03:00.000Z	SillyZ		morning, quick question... on shutdown of ubuntu its resetting the time to UTC not localtime... where to change this?
+2006-01-21T15:05:00.000Z	SillyZ		where can I change when the system shutsdown that it sets the time to localtime not gmt / utc ?
+2006-01-21T15:06:00.000Z	dooglus	SillyZ	/etc/default/rcS
+2006-01-21T15:08:00.000Z	dooglus	SillyZ	case matters, but other than that, yes

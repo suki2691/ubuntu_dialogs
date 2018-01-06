@@ -1,0 +1,4 @@
+2007-08-16T11:57:00.000Z	pbugni		how can i tell which version of (in this example java) i would be getting via apt-get?  `apt-cache search java` doesn't reveal version info.  i want 1.4.* not 1.5.*
+2007-08-16T11:57:00.000Z	Seveas	pbugni	1.4 is no longer supported/available
+2007-08-16T11:58:00.000Z	Seveas	pbugni	apt-cache show packagename_here or apt-cache policy packagename_here
+2007-08-16T11:59:00.000Z	Seveas	pbugni	or go to http://packages.ubuntu.com :)

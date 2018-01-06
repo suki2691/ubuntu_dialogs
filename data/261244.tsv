@@ -1,0 +1,4 @@
+2005-05-01T16:00:00.000Z	Kreiger		wow.. been awhile since i used ubuntu. how do i get into sources.list as root again?
+2005-05-01T16:00:00.000Z	kent	Kreiger	"sudo nano sources.list"?
+2005-05-01T16:00:00.000Z	kent	Kreiger	or use synaptic.
+2005-05-01T16:02:00.000Z	kent	Kreiger	Both mine and Bazzi's example work. His example is using vim, which is a kind of ugly editor, its hard to use for new users.  Just open the /etc/apt/sources.list file and change every "warty" into "hoary" and then run sudo apt-get update,  and then sudo apt-get dist-upgrade

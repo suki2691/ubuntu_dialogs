@@ -1,0 +1,4 @@
+2009-07-26T23:05:00.000Z	triptec		I'm trying to change keymap on my ubuntu server via ssh. I get "Deferring virtual terminal setup until console accessible.". Why?
+2009-07-26T23:06:00.000Z	stroyan	triptec	The mapping is for the text console rather than the X server.  It won't change the mapping while the X server is active.
+2009-07-26T23:08:00.000Z	triptec	stroyan	there's no X installed
+2009-07-26T23:09:00.000Z	triptec	stroyan	it's just a server

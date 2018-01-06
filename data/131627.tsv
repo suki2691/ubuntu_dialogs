@@ -1,0 +1,4 @@
+2007-12-31T08:05:00.000Z	Cubexombi		anybody familiar with remastersys? or rebuilding the live/install iso? if so i need to do something rather odd and need a little help
+2007-12-31T08:07:00.000Z	Cubexombi		I'd like to remove the "ubuntu" user from a live CD remaster? does anyone know if this can even be done?
+2007-12-31T08:09:00.000Z	Cubexombi		<Flannel> True'nuff, yet I can't seem to find a way to get rid of it. though i did make the account a little less useful. ( which is a good thing / broke the "ubuntu" users sudo ability ) I'd like it to not boot into it though
+2007-12-31T08:10:00.000Z	cabrioleur	Cubexombi	find passwd file and remove the line with the user.

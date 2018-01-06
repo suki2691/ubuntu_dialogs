@@ -1,0 +1,4 @@
+2005-09-29T06:22:00.000Z	esac		i am trying to do a "make gconfig" for the kernel and it complains that it needs gtk+ 2.0. i installed libgtk-2.0, libglade-2.0 and libglib-2.0 .. still complains it cant find gtk+2.0 .. any idea ?
+2005-09-29T06:23:00.000Z	Pluk	esac	you prlly need libglib2.0-dev
+2005-09-29T06:24:00.000Z	esac	Pluk	ill give it a shot
+2005-09-29T06:26:00.000Z	Pluk	esac	also libglade2-dev and libgtk2.0-dev, but i thouglt liglib2.0-dev depended on those

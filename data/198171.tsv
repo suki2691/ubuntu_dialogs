@@ -1,0 +1,4 @@
+2006-06-29T15:20:00.000Z	kr4z		does anybody know an easy way to set the permissions on a bunch of files and directories so that the files are all 644 and the directories are all 755 from the command line?
+2006-06-29T15:21:00.000Z	kr4z		without setting each one individually..?
+2006-06-29T15:21:00.000Z	syllogism	kr4z	chmod -R 644 *
+2006-06-29T15:22:00.000Z	syllogism	kr4z	change them back? - it's not that hard

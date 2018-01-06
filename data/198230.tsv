@@ -1,0 +1,4 @@
+2007-03-27T15:16:00.000Z	Enverex		What package provides the file "/usr/lib/dri/r200_dri.so"?
+2007-03-27T15:17:00.000Z	theacolyte	Enverex	dpkg -s r200_dri.so yields nothing
+2007-03-27T15:18:00.000Z	Enverex	theacolyte	hrm... ok that's annoying. It's something to do with the open source radeon driver and 3D doesn't work because it says that file is missing
+2007-03-27T15:19:00.000Z	theacolyte	Enverex	I have 0 experience with ATI and Linux :(

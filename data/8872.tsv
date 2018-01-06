@@ -1,0 +1,4 @@
+2012-05-03T17:08:00.000Z	sandGorgon		how do I configure my VPN route to let everything go through it EXCEPT 10.*.*.* addresses ? basically instead of allowing an ip address, I want to prevent a specific range
+2012-05-03T17:09:00.000Z	SunTsu	sandGorgon	iptables/netfilter - or route it to 127.0.0.1
+2012-05-03T17:11:00.000Z	sandGorgon	SunTsu	any way of configuring this using the graphical UI of network manager ?
+2012-05-03T17:14:00.000Z	SunTsu	sandGorgon	NetworkManager Config has "routes" tab

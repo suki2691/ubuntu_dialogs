@@ -1,0 +1,4 @@
+2006-06-06T15:46:00.000Z	Klaidas		hello, I have this problem: after installing xubuntu-desktop (sudo aptitude install xubuntu-desktop), my default ubuntu uslpash changed to Xubuntu's usplash. I tried changing that via " sudo update-alternatives --config usplash-artwork.so", but however, that only worked when shutting down. When I'm booting up, it still displays Xubuntu's usplash. Is there a way to change that?
+2006-06-06T15:48:00.000Z	Matthewv	Klaidas	try doing sudo dpkg-reconfigure usplash-artwork
+2006-06-06T15:56:00.000Z	Matthewv	Klaidas	??
+2006-06-06T15:56:00.000Z	Klaidas	Matthewv	that worked. Thank you :)

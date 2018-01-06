@@ -1,0 +1,4 @@
+2011-05-17T19:23:00.000Z	argor		hi everybody
+2011-05-17T19:23:00.000Z	argor		is there a way to simply open a socket in bash without writing any code? I just want two terminals to communicate sending message with telnet
+2011-05-17T19:25:00.000Z	ferengee	argor	make a fifo with mkfifo and echo / cat data in and out
+2011-05-17T19:25:00.000Z	ferengee	argor	 or use netcat as server/client

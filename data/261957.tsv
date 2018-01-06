@@ -1,0 +1,4 @@
+2005-07-27T10:19:00.000Z	jblu		I added files from a CD burned on OS X.  The permissions are screwed up, and the files all have a lock.  It says the date it was created was 31 December, 1969! Somebody?
+2005-07-27T10:21:00.000Z	jblu		well, can I do a touch in terminal, to correct the date with what command?
+2005-07-27T10:22:00.000Z	Seveas	jblu	touch * will update timestamps of all files
+2005-07-27T10:31:00.000Z	Seveas	jblu	try apt-get update

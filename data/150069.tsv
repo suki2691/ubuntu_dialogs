@@ -1,0 +1,4 @@
+2008-06-24T02:07:00.000Z	amalgamated		howdy -- trying to start apache 2.2 on hardy with mod_rewrite and my logs state: "(38)Function not implemented: mod_rewrite: could not create rewrite_log_lock" -- i've not rolled my own kernel (which seems to have been a cause of it in the past) but googling has turned up nothing -- anybody ever run across this?
+2008-06-24T02:09:00.000Z	amalgamated		what what?! an ubuntu stock kernel isn't configured for semaphores? "ipcs -s" reports "kernel not configured for semaphores"
+2008-06-24T02:10:00.000Z	Pici	amalgamated	That command doesnt give me that error message here.
+2008-06-24T02:10:00.000Z	Pici	amalgamated	I'm on 2.6.24-19-generic

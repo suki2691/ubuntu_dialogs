@@ -1,0 +1,4 @@
+2010-07-11T17:39:00.000Z	dicodewani		hi - my ext4 fs has just died on me - and trying to run an fsck from a livecd says that device is busy / mounted. any ideas?
+2010-07-11T17:40:00.000Z	philinux	dicodewani	use sys>admin>disk utility and unmount it
+2010-07-11T17:41:00.000Z	dicodewani	philinux	it doesnt mount even if try - the super-block is corrupted apparently
+2010-07-11T17:41:00.000Z	dicodewani	philinux	dmesg | tail says group descriptors corrupted

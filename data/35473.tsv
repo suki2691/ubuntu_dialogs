@@ -1,0 +1,4 @@
+2010-03-22T23:27:00.000Z	zbyte64		So how is it gnome can mount / umount things even though the user can't go into the command line and do a mount / umount?
+2010-03-22T23:28:00.000Z	Pici	zbyte64	gnome mounts and unmounts using gvfs, which is not the same mechanism that using 'mount' uses.
+2010-03-22T23:29:00.000Z	Pici	zbyte64	er, maybe s/gvfs/fuse/
+2010-03-22T23:29:00.000Z	zbyte64	Pici	thx ;)

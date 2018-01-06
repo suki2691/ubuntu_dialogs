@@ -1,0 +1,4 @@
+2012-03-12T17:34:00.000Z	gvandeweyer		what would be the recommended file system for a production server under linux on a >20TB raid5 setup?
+2012-03-12T17:34:00.000Z	gvandeweyer		I'm used to setting up ext4 for daily usage, but it has a limit at 16TB
+2012-03-12T17:34:00.000Z	uictamale	gvandeweyer	depends on the average size of files, how much you care about corruption vs performance, what model of read vs. write.. etc
+2012-03-12T17:39:00.000Z	uictamale	gvandeweyer	Looks like ZFS is your best bet for large files.

@@ -1,0 +1,4 @@
+2008-03-26T02:53:00.000Z	kindofabuzz_		how do you run a .deb from cl?
+2008-03-26T02:53:00.000Z	unop	kindofabuzz_	you install one via -- sudo dpkg -i /path/to/file.deb
+2008-03-26T02:56:00.000Z	unop	kindofabuzz_	ls -l /usr/bin/dpkg
+2008-03-26T02:58:00.000Z	unop	kindofabuzz_	best you use apt-get to sort that out for you -- otherwise you need to manually install all the dependencies

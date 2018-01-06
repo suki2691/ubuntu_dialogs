@@ -1,0 +1,4 @@
+2008-06-18T06:42:00.000Z	gaintsura		omg... help me turn off system beep *kicks it* its disabled and still beeping
+2008-06-18T06:43:00.000Z	jameslr	gaintsura	sudo modprobe -r pcspkr
+2008-06-18T06:45:00.000Z	jameslr	gaintsura	to disable it permanently edit your /etc/modprobe.d/blacklist file to include a line that says "blacklist pcspkr"
+2008-06-18T06:46:00.000Z	jameslr	gaintsura	sure thing

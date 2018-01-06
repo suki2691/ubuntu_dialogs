@@ -1,0 +1,4 @@
+2007-03-19T14:11:00.000Z	Dy		any at all?
+2007-03-19T14:13:00.000Z	predaeus	Dy	run glxinfo | grep vendor  and check if it shows your video cards vendor. If not, it is probably running in software mode and you need to install drivers.
+2007-03-19T14:14:00.000Z	predaeus	Dy	yup mesa is a software driver.
+2007-03-19T14:14:00.000Z	predaeus	Dy	try to find out what card it is and install the drivers if possible

@@ -1,0 +1,4 @@
+2006-10-31T14:00:00.000Z	azureal		does anyone know why a dist-upgrade would cause weird glibc (at least it seems it is glibc) errors when starting xterm?
+2006-10-31T14:01:00.000Z	azureal		I feel like i shouldve done an 'upgrade' rather than 'dist-upgrade' and now not sure how to fix this glibc prob
+2006-10-31T14:01:00.000Z	Lars_G	azureal	possibly because you haven't upgraded xterm yet and it's compiled against the older glibc
+2006-10-31T14:01:00.000Z	Lars_G	azureal	If you did an upgrade before dist-upgrade LOTS more stuff would be broken

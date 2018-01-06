@@ -1,0 +1,4 @@
+2010-06-02T18:31:00.000Z	natefoo		could someone point me at what in karmic is responsible for the really fast suspend/resume?  i'm having trouble figuring out what exactly does it.
+2010-06-02T18:31:00.000Z	rocket16	natefoo	The ext4 partition used in 9.10 is one of the main reasons,
+2010-06-02T18:32:00.000Z	natefoo	rocket16	okay.  that i can do.  i assume it's not using s2[ram|disk|both] though?
+2010-06-02T18:33:00.000Z	natefoo	rocket16	any other pointers?

@@ -1,0 +1,4 @@
+2006-06-19T07:55:00.000Z	Bassetts		can someone help me please, i am trying to make a .sh that runs every 10 mins to run a few things for me, the .sh works but the cron isnt working
+2006-06-19T07:56:00.000Z	Kamping_Kaiser	Bassetts	whats the line you have in cron?
+2006-06-19T07:57:00.000Z	Bassetts	Kamping_Kaiser	*/10 * * * * /home/bassetts/logs/IBO/ftp.sh
+2006-06-19T07:58:00.000Z	Kamping_Kaiser	Bassetts	try taking away the */

@@ -1,0 +1,4 @@
+2007-05-28T13:57:00.000Z	admintroy		where do i find the firewall rules for port forwarding?
+2007-05-28T13:57:00.000Z	bytekode	admintroy	/sbin/iptables -L ?
+2007-05-28T13:59:00.000Z	admintroy	bytekode	- thanks.. now all i need to do is learn how to use them :)
+2007-05-28T14:00:00.000Z	bytekode	admintroy	you can also add --line-numbers to the end of iptables -L, it helps when trying to insert a rule between 2 others

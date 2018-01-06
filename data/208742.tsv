@@ -1,0 +1,4 @@
+2005-12-01T15:18:00.000Z	cafuego	jorgg	Ports are closed unless opened by an application.
+2005-12-01T15:19:00.000Z	jorgg	cafuego	so program skhould deal with it self? dont need to open ports in firewall or something like that?
+2005-12-01T15:19:00.000Z	cafuego	jorgg	No, if an application listens on a port (with a number over 1024) it should do that all by itself.
+2005-12-01T15:20:00.000Z	jorgg	cafuego	okay thanks

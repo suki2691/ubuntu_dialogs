@@ -1,0 +1,4 @@
+2007-07-04T12:24:00.000Z	xxl3w		i thought gdm pulled the first resolution from the modes part of xorg.conf?
+2007-07-04T12:25:00.000Z	dystopianray	xxl3w	you may need to set a VertRefresh and HorizSync options in your xorg.conf
+2007-07-04T12:28:00.000Z	dystopianray	xxl3w	try running this: $ sudo dpkg-reconfigure -phigh xserver-xorg
+2007-07-04T12:30:00.000Z	dystopianray	xxl3w	brief step-by-step X configuration, it may fix your issues

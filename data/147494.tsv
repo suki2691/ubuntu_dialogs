@@ -1,0 +1,4 @@
+2007-01-28T13:09:00.000Z	Vorondil		Hi all, I'm using ndiswrapper to use a linksys wmp11 v4 under ubuntu 6.10.  I can load the windows drivers into and ndiswrapper, load the ndiswrapper module, and get the system to recognize my card as wlan0.  However, when I try to set the ssid with `iwconfig wlan0 essid mynetwork`, I get, "Error for wireless request "Set ESSID" (8B1A) : SET failed on device wlan0 ; Invalid argument."
+2007-01-28T13:10:00.000Z	Vorondil		I've spent all morning google'ing and experimenting with no luck, any ideas?
+2007-01-28T13:10:00.000Z	rafik	Vorondil	it may be eth1 as it is on my ubuntu box using ndiswrapper
+2007-01-28T13:11:00.000Z	Vorondil	rafik	Nope, it's wlan0 on my machine.  I'm sure.

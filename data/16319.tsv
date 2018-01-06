@@ -1,0 +1,4 @@
+2011-05-02T23:23:00.000Z	ruffleS		hi guys. i'd like to ask you a question: will that swappiness trick still work on ubuntu 11.04? i've got 4gb ram and i'm considering making it swappiness=0. will that improve my OS responsiveness? oh, a 'free -m' tell me none of my 250mb swap is being used, by the way...
+2011-05-02T23:24:00.000Z	Halzen	ruffleS	I have no reason to think that the swappiness won't still work.
+2011-05-02T23:26:00.000Z	ruffleS	Halzen	given 'free -m' tells me none of my 250mb swap is being used at the moment, do you think making swappiness=0 may improve my OS responsiveness/overall speed??
+2011-05-02T23:26:00.000Z	Halzen	ruffleS	It often improves system responsiveness, but remember that suspend and hibernate depend on swap by default.

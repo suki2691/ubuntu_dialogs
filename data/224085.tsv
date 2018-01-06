@@ -1,0 +1,4 @@
+2010-12-28T16:33:00.000Z	NeoCicak		hi all... i have an android phone that i'm trying to ssh into from my ubuntu machine. I ran ConnectBot from my android phone, doing a port forward to remote port 8084, pointing to localhost:22 (on the phone). Then I tried to do ssh -p 8084 <username>@localhost from my ubuntu box... but nothing happens... i.e i'm not connected to the phone... if i do ssh -v, i can see "ssh_exchange_identification: connection closed by remote h
+2010-12-28T16:33:00.000Z	NeoCicak		ost"... can anyone explain to me whats happening here?
+2010-12-28T16:33:00.000Z	Klaus_Dieter	NeoCicak	increase the verbosity level of ssh even further and you will see
+2010-12-28T16:36:00.000Z	NeoCicak	Klaus_Dieter	hmmmm i'm not sure if it gives the info that i need...

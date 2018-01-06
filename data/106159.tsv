@@ -1,0 +1,4 @@
+2009-07-19T16:57:00.000Z	ubuntu		I can't seem to stop the gdm even with "/etc/init.d/gdm stop" or ctrl+alt + delete in jaunty jackalope
+2009-07-19T16:57:00.000Z	ubuntu		any ideas?
+2009-07-19T16:57:00.000Z	xray7224	ubuntu	go to command line and type "ps aux | grep gdm"
+2010-05-13T10:36:00.000Z	xray7224	ubuntu	you will have to change fstab, i think your best bet is to pastebin your current fstab its located at /etc/fstab

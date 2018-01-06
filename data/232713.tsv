@@ -1,0 +1,4 @@
+2009-09-19T21:55:00.000Z	StupidWeasel		I'm setting up a softraid array. Two discs, raid1 - and I'm leaving a little free space for a future possible windows install. My question - should I lump everything into the array, or have a separate 16gb raid0 array for my swap?
+2009-09-19T21:56:00.000Z	StupidWeasel		Or even just whack the swap on a single disc?
+2009-09-19T21:57:00.000Z	erUSUL	StupidWeasel	no need to make an raid0 array for swap. if two swaps have the same prio in fstab the kernel with stripp automatically between the two
+2009-09-19T21:58:00.000Z	erUSUL	StupidWeasel	no you can raid two paritions

@@ -1,0 +1,4 @@
+2010-03-11T21:18:00.000Z	Martijn		Do I need to remove the sudoers.tmp manualy after an edit?
+2010-03-11T21:19:00.000Z	Martijn		visudo
+2010-03-11T21:20:00.000Z	Martijn		nevermind, chaching... The tmp file is gone :)
+2010-03-11T21:20:00.000Z	Pici	Martijn	No, you don't need to do anything. visudo will copy the file and save with the proper permissions when it closes.

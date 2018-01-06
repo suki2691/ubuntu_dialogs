@@ -1,0 +1,4 @@
+2009-03-12T02:41:00.000Z	myron		does anyone know of a command that will kill all running wine programs?
+2009-03-12T02:43:00.000Z	hollywoodb	myron	ps aux | grep wine
+2009-03-12T02:43:00.000Z	hollywoodb	myron	then kill whatever shows up using the pid
+2009-03-12T02:45:00.000Z	myron	hollywoodb	that's do-able, but I was looking for something that would kill a frozen full screen app, without having to reboot or logout

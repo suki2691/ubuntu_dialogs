@@ -1,0 +1,4 @@
+2008-09-06T05:54:00.000Z	bazz		the volume up/down buttons on my thinkpad don't seem to generate keypress/release events, just keymapnotify ones (according to xev).  i can map it to a keyboard shortcut (XF86AudioRaiseVolume) in xfce, but it doesn't ever seem to execute the shortcut.  how do i fix this?
+2008-09-06T05:56:00.000Z	shingen	bazz	works fine on this T61
+2008-09-06T05:59:00.000Z	shingen	bazz	then go into gnome and see which key mappings it uses? :)
+2008-09-06T05:59:00.000Z	bazz	shingen	it's not generating a mapping, it's generating a keynotifyevent

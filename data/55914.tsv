@@ -1,0 +1,4 @@
+2010-08-03T17:50:00.000Z	hariom		Hi, I am logged in to my ubuntu server as a normal user. When I want to execute any service, I do it using sudo and provide the password of the login user. But when I do "su" and systems I asks for the password, it doesn't accept the password. Why?
+2010-08-03T17:51:00.000Z	cmpsalvestrini	hariom	the standard mode of operating for getting yourself elevated to root is sudo su
+2010-08-03T17:52:00.000Z	hariom	cmpsalvestrini	ok. I got that part. Now I have created another user and logged into it using su <username> and password for that user. But when I do sudo from the new users, it get this: <newuser> is not in the sudoers file.  This incident will be reported.
+2010-08-03T17:53:00.000Z	cmpsalvestrini	hariom	try not using su but instead use sudo directly

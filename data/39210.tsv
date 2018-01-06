@@ -1,0 +1,4 @@
+2010-01-11T01:23:00.000Z	redfuxe01		Hey guys, Question. I've got a volume shared out using CIFS. I want to also share it out using NFS. If I have concurrent access from both (read/write), do I risk filesystem corruption?
+2010-01-11T01:24:00.000Z	laebshade	redfuxe01	 I believe both file systems "lock" files when they're in use
+2010-01-11T01:25:00.000Z	redfuxe01	laebshade	so if someone locks in CIFS, the people connecting via NFS will see that same lock?
+2010-01-11T01:25:00.000Z	laebshade	redfuxe01	 I believe so

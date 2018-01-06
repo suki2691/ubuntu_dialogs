@@ -1,0 +1,4 @@
+2008-05-19T14:46:00.000Z	Ontolog		why does ubuntu refer to IDE drives using /dev/sda instead of /dev/hda? Will this effect performance? It seems hdparm isn't fully functional when referring to the drives via the /dev/sda device file
+2008-05-19T14:48:00.000Z	erUSUL	Ontolog	new pata libata based drivers make them appear as sd (scsi disks)
+2008-05-21T14:35:00.000Z	erUSUL	Ontolog	make an init script based on /etc/init.d/skeleton (put it in /etc/init.d/ too) and then add this script to boot with "sudo update-rc.d scriptname defaults"
+2008-05-21T14:35:00.000Z	erUSUL	Ontolog	that's ghow other services on the machine are configured ...

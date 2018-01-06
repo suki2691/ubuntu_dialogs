@@ -1,0 +1,4 @@
+2009-07-29T23:46:00.000Z	spO		what does the server edition of ubuntu have that the desktop version does not?
+2009-07-29T23:46:00.000Z	spO		does it have some kind of different kernel impmentations/ie, does it contain something that is difficult to addon to the desktop version if you install that version instead?
+2009-07-29T23:47:00.000Z	stefg	spO	a server kernel and no desktop bloat
+2009-07-29T23:51:00.000Z	stefg	spO	it is compiled with different options... you don't want a responsive desktop on a server, but a reliable workhorse for doznes of users accessing different services at the same time. in short: it's optimized for server workload, not for desktop/single user usage

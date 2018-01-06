@@ -1,0 +1,4 @@
+2008-03-20T01:42:00.000Z	pushpop		what argument would I use with the "man" command to display the entire content with out pagging down, as if I would cat a file it would show the entire contents at once??
+2008-03-20T01:43:00.000Z	PeterGriffin	pushpop	you can do for example: man man > file, and then cat file
+2008-03-20T01:44:00.000Z	pushpop	PeterGriffin	it has be done with an argument
+2008-03-20T01:45:00.000Z	PeterGriffin	pushpop	man -P /bin/cat ls

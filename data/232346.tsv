@@ -1,0 +1,4 @@
+2007-08-25T16:45:00.000Z	emmc		Hi guys... how could i take my /usr dir to another hd without destroy my actual configuration?
+2007-08-25T16:46:00.000Z	emmc		Hi guys... how could i take my /usr dir to another hd without destroy my actual configuration?
+2007-08-25T16:47:00.000Z	erUSUL	emmc	carefully ;P just make the new partition copy the files over (cp -a to preserve permisions iirc) and edit fstab to reflect ther changes
+2007-08-25T16:49:00.000Z	erUSUL	emmc	then you mount the partition under /usr (with usr as mount point)

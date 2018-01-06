@@ -1,0 +1,4 @@
+2008-10-14T04:09:00.000Z	Mooloo		is this sane for dual-booting vista/ubuntu: [50G vista primary] [ Ext: [15G ext3 as /] [4G swap] [100G ext3 as /home] ]?
+2008-10-14T04:09:00.000Z	Mooloo		i figure /boot partitions are not in style anymore?
+2008-10-14T04:11:00.000Z	BlueEagle	Mooloo	The removal of the 1024 cylinder limitation that plagued boot loaders in the past removed the main reason for /boot partitions. However I still think it a good idea to have a boot partion with -noauto mounting to protect your kernel from accidental alterations.
+2008-10-14T04:13:00.000Z	BlueEagle	Mooloo	Even so, having a boot partition with -noauto mounting may lead to some confusion when attempting to upgrade the kernel but forgetting to mount /boot first.

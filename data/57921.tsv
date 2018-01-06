@@ -1,0 +1,4 @@
+2009-09-29T01:49:00.000Z	mgv2		what are good graphical games to use for testing if the intel drivers insralled ok?
+2009-09-29T01:49:00.000Z	mgv2		i did whats written herer but how can i test if it is working ok? http://webupd8.blogspot.com/2009/05/reverting-xorg-video-intel-driver-of.html
+2009-09-29T01:51:00.000Z	fccf	mgv2	 I use sauerbraten (great game) but for testing glxgears works well
+2009-09-29T02:13:00.000Z	fccf	mgv2	look at /var/log/Xorg.0.log ... first 50 or so lines will show versions

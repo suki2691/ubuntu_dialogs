@@ -1,0 +1,4 @@
+2009-06-14T23:29:00.000Z	Ottos		why do I get this error when I run chroot /media? chroot: cannot run command `/bin/bash': No such file or directory
+2009-06-14T23:30:00.000Z	Ottos		I'm running a livecd
+2009-06-14T23:30:00.000Z	Slart	Ottos	you might have to create a symlink to /bin that is reachable from inside the chroot
+2009-06-14T23:30:00.000Z	Slart	Ottos	read the manual.. it's a little bit more than just running chroot in a terminal

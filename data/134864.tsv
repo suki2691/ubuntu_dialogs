@@ -1,0 +1,4 @@
+2007-09-01T12:06:00.000Z	M_42		anyone know how to put firefox cache into ram
+2007-09-01T12:06:00.000Z	Frogzoo	M_42	I do it this way - mount /tmp as tmpfs, then point the cache to /tmp
+2007-09-01T12:07:00.000Z	M_42	Frogzoo	do I have to edit my fstab to do that
+2007-09-01T12:08:00.000Z	Frogzoo	M_42	yes: tmpfs           /tmp            tmpfs   size=1G,mode=1777,noatime       0       0

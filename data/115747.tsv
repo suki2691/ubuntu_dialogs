@@ -1,0 +1,4 @@
+2007-10-21T02:55:00.000Z	jchonig		Good day (evening, night, morning).  Can someone point me to instructions on upgrading from fiesty to gutsy using my local apt-mirror
+2007-10-21T02:56:00.000Z	PhilAirtime	jchonig	can you not do it through the Update Manager?
+2007-10-21T02:57:00.000Z	jchonig	PhilAirtime	Should I just use the server method on my server and kubuntu systems
+2007-10-21T02:59:00.000Z	PhilAirtime	jchonig	if you go to a terminal, type sudo nano /etc/apt/sources.list and change all instances of feisty to gutsy (press Ctrl-X to exit) then sudo apt-get update and sudo apt-get dist-upgrade, that should do it.

@@ -1,0 +1,4 @@
+2008-10-07T00:29:00.000Z	Phoul		Does anyone know how to purge uninstalled applications in a 1liner, to like... scan the dpkg -l list and pick out what hasnt been purged
+2008-10-07T00:29:00.000Z	ShackJack	Phoul	there's a filter in Synaptic or sudo aptitude clean
+2008-10-07T00:30:00.000Z	Phoul	ShackJack	aptitude clean doesnt purge things does it
+2008-10-07T00:30:00.000Z	ShackJack	Phoul	Just package files (doesn't nuke programs)... soundray oh sorry thought that's what he was asking

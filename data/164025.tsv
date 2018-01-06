@@ -1,0 +1,4 @@
+2007-02-04T06:46:00.000Z	justin420		hi all. anybody tell me how to use a certain network interface by default? I have a wired connection (eth0) and a wireless connection (eth1) and it appears to be using eth1 to send/recieve everything.  I want to use my wired connection to do everything and just use my wireless connection for things like kismet and such. anybody help me or point me to a good howto for edgy?
+2007-02-04T06:48:00.000Z	bulmer	justin420	you need to learn about default gateways..check the result of your netstat -ran
+2007-02-04T06:54:00.000Z	justin420	bulmer	http://paste.ubuntu-nl.org/4044/ .  I think everything looks ok, but I do not know because stuff is not working the way I want ( to use my wired connection eth0 before my wireless eth1 ).  Could you point me in the right direction or something?
+2007-02-04T07:00:00.000Z	bulmer	justin420	ill give you a hint, notice the G on the result of netstat -ran?  what do you think it meant?

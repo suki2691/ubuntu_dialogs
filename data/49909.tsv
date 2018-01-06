@@ -1,0 +1,4 @@
+2010-10-21T14:36:00.000Z	DrHouse|Aribeth		hi, im having a problem installing Ubuntu 10.10, when it boots i get I/O errors like crazy and ends up just dropping down to busybox, even Disk Check fails with cant open /dev/sdd: no medium found, but when i burned in windows Verification was ok so im guessing the disk is fine, the board is a MSI 890fxa-gd70
+2010-10-21T14:36:00.000Z	DrHouse|Aribeth		and 10.04 worked fine so it seems to be a change in 10.10 which bonks boot
+2010-10-21T14:38:00.000Z	seidos	DrHouse|Aribeth	that sounds severe.  have you considered creating a bug in launchpad?
+2010-10-21T14:40:00.000Z	seidos	DrHouse|Aribeth	the only thing i can think of is maybe try changing the medium (try live cd from live usb), and verify checksum of iso before burning

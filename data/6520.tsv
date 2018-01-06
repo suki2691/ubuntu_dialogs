@@ -1,0 +1,4 @@
+2012-01-09T19:48:00.000Z	ksoo		I'm creating a partition on a Linux server that's mainly going to be used by Windows clients as a network drive. Should I create it as NTFS, FAT, or ext4?
+2012-01-09T19:48:00.000Z	llutz	ksoo	ext4
+2012-01-09T19:49:00.000Z	llutz	ksoo	when accessing the drive via network, the clients won't see the "real" filesystem at all. so use a linux fs to be on the easy side
+2012-01-09T19:49:00.000Z	ksoo	llutz	thanks. iceroot, I'll be using samba

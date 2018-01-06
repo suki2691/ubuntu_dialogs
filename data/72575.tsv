@@ -1,0 +1,4 @@
+2010-05-05T06:24:00.000Z	crazy6		where is the file that contains the list of installed packages? I am just going to try and remove it from there manually
+2010-05-05T06:24:00.000Z	onetinsoldier	crazy6	if you remove it, dpkg won't function
+2010-05-05T06:25:00.000Z	onetinsoldier	crazy6	if you remove it, dpkg won't function, but i think the file your looking for is /var/lib/dpkg/status
+2010-05-05T09:36:00.000Z	onetinsoldier	crazy6	yes. i've had people do that before. have to be careful though. make a backup of the file first for sure. it's --> /var/lib/dpkg/status

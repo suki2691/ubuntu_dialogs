@@ -1,0 +1,4 @@
+2009-02-01T03:47:00.000Z	mic_lovin		i just installed ubuntu ... i want to su to root, i type su root, it asks for a pw...i put in MY pw and get an auth failure ... what's the default root pw?
+2009-02-01T03:48:00.000Z	Slart	mic_lovin	ubuntu is designed to use sudo/gksudo to do root tasks.. check the man pages for more options
+2009-02-01T03:50:00.000Z	Slart	mic_lovin	several ways to do that.. EDITOR=gedit sudoedit /whateever/file/you/want/to.edit
+2009-02-01T03:51:00.000Z	Slart	mic_lovin	or gksudo gedit file.. but I think sudoedit is the safest way.. not that I've had any problems usind gksudo gedit.. but it might (once every ten years or so) mess things up

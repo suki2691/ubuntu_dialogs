@@ -1,0 +1,4 @@
+2012-01-29T19:05:00.000Z	ZynuiMaiche		Hello!  I had a question about Ubuntu and RAM.  My friend told me that it allocates so space on the HDD to give you more RAM than you actually have.  But my Activity Monitor tells me I have what is installed.  Any thoughts?
+2012-01-29T19:06:00.000Z	ZynuiMaiche		Specifically, something called "Swap"
+2012-01-29T19:07:00.000Z	ssta	ZynuiMaiche	yes, teh installer by default allocates some swap.  What specifically did you want to know?
+2012-01-29T19:08:00.000Z	ssta	ZynuiMaiche	no, you have 1G of actual RAM, but if you run out then the kernel can swap some out to dosk.  Generally it swaps out stuff that's not being used much

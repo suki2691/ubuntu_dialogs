@@ -1,0 +1,4 @@
+2008-12-29T10:21:00.000Z	Fezzler		I'm running a Ruby_GNOME2 tutorial app that will not "quit".  How do I kill a program process via command line?
+2008-12-29T10:23:00.000Z	eseven73	Fezzler	you could try 'ps aux | grep Ruby*' and find its process #  then do what IcemanV9 said
+2008-12-29T10:28:00.000Z	eseven73	Fezzler	type 'top' in terminal and find that .rb file's pid # then kill it's pid #
+2008-12-29T10:28:00.000Z	eseven73	Fezzler	might be easier to use htop (its nicer than top) but you have to install it :)

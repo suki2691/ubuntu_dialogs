@@ -1,0 +1,4 @@
+2010-11-03T04:33:00.000Z	libertyprime_		hi, i'm trying to retrieve the root password from my server. i can log into root via ssh using the rsa key pair
+2010-11-03T04:35:00.000Z	libertyprime_		i was wondering if anyone knows of a way to get the pw back
+2010-11-03T04:35:00.000Z	mactimes	libertyprime_	I have an idea
+2010-11-03T04:36:00.000Z	mactimes	libertyprime_	if you can't passwd root, create a sudoer and use it to reset root password

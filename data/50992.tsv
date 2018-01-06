@@ -1,0 +1,4 @@
+2009-09-22T23:43:00.000Z	mweichert		hello, I'm trying to think of how to backup my linux system from one to another. I believe that the way the kernel works and such, there's nothing from stopping me to just tar and gzip the entire filesystem (excluding /proc, /dev, /sys) and then restoring the tar on another computer - will that work?
+2009-09-22T23:43:00.000Z	mweichert		even when the hardware is completely different?
+2009-09-22T23:43:00.000Z	^mNotIntelligent	mweichert	I'm afraid it'll not work
+2009-09-22T23:46:00.000Z	^mNotIntelligent	mweichert	roygbiv : its way too much tricky/hackish...so need to be careful

@@ -1,0 +1,4 @@
+2011-09-19T23:56:00.000Z	upUbuntu		"$ sudo ifcontfig wlan0 up" SIOCSIFFLAGS: Operation not possibel duet to RF-kill   -  ---- WHAT DOES THIS MEAN?
+2011-09-19T23:57:00.000Z	BarkingFish	upUbuntu	do you have a wireless radio on/off switch on your computer?
+2011-09-19T23:58:00.000Z	BarkingFish		might be that you're trying to bring up an interface with RF deactivated on it
+2011-09-20T00:00:00.000Z	upUbuntu	BarkingFish	not sure. "rfkill list" shows that everything is blocked with "yes" everywhere. I am trying to "sudo rfkill unblock 1" to get them unblocked

@@ -1,0 +1,4 @@
+2009-05-29T15:33:00.000Z	thebe		how to set default security permissions in a file??? which is created within a folder with full permission for user and usergroup!
+2009-05-29T15:34:00.000Z	beli	thebe	umask
+2009-05-29T15:38:00.000Z	beli	thebe	umask is a shell internal...since you  are using bash by default...read the bash manual
+2009-05-29T15:40:00.000Z	beli	thebe	umas does negative permissions....so 022 means all files get 755 perms......to make it a permanent setting for your shell you need to source it in your system profile or user profile for your shell....

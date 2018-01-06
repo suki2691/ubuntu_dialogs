@@ -1,0 +1,4 @@
+2007-03-25T08:12:00.000Z	Rrandy		Can anyone tell me how to turn off ipv6 in the live cd?  I can't install it, but I really want to show what it can do on this hardware - ipv6 doesn't seem to like the router that's installed though.  rmmod ipv6 gives an error message that module ipv6 is in use.  Any references would be much appreciated.
+2007-03-25T08:12:00.000Z	linxeh	Rrandy	modprobe -r ipv6
+2007-03-25T08:13:00.000Z	Rrandy	linxeh	thank you, I get a FATAL exception that the module is in use.  I can't seem to find what's using it though.
+2007-03-25T08:15:00.000Z	linxeh	Rrandy	hmm lsmod will tell you waht is using each module. you might need to run /etc/init.d/networking stop    to kill the networking, remove some modules, then start networking again

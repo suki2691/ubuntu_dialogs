@@ -1,0 +1,4 @@
+2008-01-05T01:16:00.000Z	nickrud	isaac_	in what context, it would matter how/where you export it
+2008-01-05T01:20:00.000Z	nickrud	isaac_	a sec then
+2008-01-05T01:20:00.000Z	nickrud	isaac_	I'd look in /etc/defaults/mpd , there's probably a reference to them there. I'd put them there if they didn't exist yet
+2008-01-05T01:24:00.000Z	nickrud	isaac_	are you running a script to start your connections? If so, just put  MPD_PORT="value" in the script before calling connection

@@ -1,0 +1,4 @@
+2012-02-18T08:17:00.000Z	BrK_		hi .. i'm new on ubuntu .. and have some problems with the permission .. i've installed apache, php, mysql and git  .. now i want to create a webproject and track it with git .. but 1. i can't add files to the folder withour sudo and 2. git can't work because of permission .. what can i do ?
+2012-02-18T08:19:00.000Z	Firebolt	BrK_	you could use sudo to copy the files, or configure apache to use something like ~/webserver
+2012-02-18T08:20:00.000Z	BrK_	Firebolt	.. thanks .. but whats about git ?
+2012-02-18T08:22:00.000Z	Firebolt	BrK_	you /could/ sudo git, or, if you use something under ~, it shouldn't have permissions errors

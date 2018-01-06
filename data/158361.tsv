@@ -1,0 +1,4 @@
+2008-07-19T00:24:00.000Z	phantom784		does anyone know if it's possible to automatically run a command (as root) as soon as i connect to a certain wifi network?
+2008-07-19T00:25:00.000Z	Slart	phantom784	I think you put scripts in if.up and if.down folders.. somewhere in /etc. it might not be exclusive to wi-fi connection but take a look at it.. see what you find
+2008-07-19T00:27:00.000Z	Slart	phantom784	look in /etc/network
+2008-07-19T00:28:00.000Z	Slart	phantom784	you might be able to use the same kind of stuff under /etc/dhcp3

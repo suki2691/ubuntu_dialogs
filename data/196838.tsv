@@ -1,0 +1,4 @@
+2006-05-14T13:36:00.000Z	funkja		quick question (hopefully) I am trying to set up Apache on my box and I know that ubuntu comes with it installed. I messed up some of the configuration on it so I deleted the apach2 folder in /etc/. Now when I do 'apt-get install apache2' that folder does not come back... what do I need to od?
+2006-05-14T13:37:00.000Z	delmar	funkja	you could try purging apache2 then re-installing.  dpkg --purge apache2 but it might break and uninstall other stuff
+2006-05-14T13:40:00.000Z	delmar	funkja	u purged then re-installed?
+2006-05-14T13:40:00.000Z	delmar	funkja	hell if i know then man.

@@ -1,0 +1,4 @@
+2008-11-27T13:56:00.000Z	wangchun		how can i set a manually installed package as automatically installed package?
+2008-11-27T13:57:00.000Z	wangchun		i was trying to apt-get install <package>, but it was installed before, apt-get says it has been marked as manually installed.
+2008-11-27T13:57:00.000Z	wangchun		i wanna undo this operation
+2008-11-27T13:59:00.000Z	kija	wangchun	apt-get autoremove <package> then reinstall it.

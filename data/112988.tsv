@@ -1,0 +1,4 @@
+2008-04-29T21:51:00.000Z	Mimi		QUESTION:    If I compile an application myself, one that is on the ubuntu repos... how does it work, when I want to upgrade/remove it
+2008-04-29T21:51:00.000Z	genii	Mimi	If you use checkinstall to make a deb of it, then install that deb, should be no issue to upgrade/remove it
+2008-04-29T21:52:00.000Z	Mimi	genii	 treat tip, thanks very much :) Jack_Sparrow becuse the app doesnt work from me from the repos
+2008-04-29T21:56:00.000Z	genii	Mimi	To use checkinstall to make a deb from ubuntu sources, the first steps are same as usual compile, eg: ./configure        make           then instead of make install use checkinstall to make the deb file. Then use dpkg to install it

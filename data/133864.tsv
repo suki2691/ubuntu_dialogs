@@ -1,0 +1,4 @@
+2007-05-31T15:52:00.000Z	Danzor		Hi, earlier today I had trouble with the X server when trying to use the Live CD for ubuntu. Someone suggested that I use the alternate CD instead to install it and I've just finished doing that. However, I get the same X server problem when trying to boot Ubuntu now :(
+2007-05-31T15:53:00.000Z	Danzor		The error message returned is: "No screens found"
+2007-05-31T15:53:00.000Z	Danzor		And the detail message is "Screens found but none have a usable configuration"
+2007-05-31T15:53:00.000Z	georgy28	Danzor	: login, and then : sudo dpkg-reconfigure xserver-xorg

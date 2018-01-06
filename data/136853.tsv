@@ -1,0 +1,4 @@
+2012-06-30T02:16:00.000Z	mathmoi		Hi, on my mother's Ubuntu system, the resolution is wrong for her user, but not in the login screen or when she log as myself. So I suppose some settings in her session is causing this. I tried to make her change the resolution in NVidia Server Settings and it did not help. Is there A file I could delete in her /home to reset the resolution configuration in her session?
+2012-06-30T02:17:00.000Z	sw	mathmoi	or '$ rm ~/.config/monitors.xml'
+2012-06-30T02:18:00.000Z	mathmoi	sw	I'll try this too.
+2012-06-30T02:31:00.000Z	mathmoi	sw	your solution worked.

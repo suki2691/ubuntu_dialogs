@@ -1,0 +1,4 @@
+2009-11-11T02:10:00.000Z	sik_gerar		does anyone know where the xorg.conf is located on the new 9.10? i cant find it and i cannot configure my secondary gpu..
+2009-11-11T02:11:00.000Z	Scunizi	sik_gerar	I believe 9.10 doesn't actually build xorg.. xrandr is now used for video configuration.. However by placing a hand written xorg in the normal location (/etc/X11) you can override xrandr
+2009-11-11T02:12:00.000Z	sik_gerar	bobbyd	so how do i configure it? i have dual screen and i cannot manage to find a way to use both with both gpus.. and theyre both listed in lspci..
+2009-11-11T02:12:00.000Z	Scunizi	sik_gerar	read up on xrandr and randr..

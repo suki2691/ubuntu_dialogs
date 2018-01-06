@@ -1,0 +1,4 @@
+2011-04-19T23:14:00.000Z	sl33k_		What command to use to run a script on input file and collect the ouput in another file?
+2011-04-19T23:14:00.000Z	Seven_Six_Two	sl33k_	could be       script < input.file > output.file
+2011-04-19T23:15:00.000Z	Seven_Six_Two	sl33k_	or    cat input.file | script >> output.file
+2011-04-19T23:19:00.000Z	Seven_Six_Two	sl33k_	a single > will overwrite any existing file with that name or create it if it doesn't, a >> will create if not there, add to the end if it is

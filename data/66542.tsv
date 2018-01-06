@@ -1,0 +1,4 @@
+2009-02-11T03:25:00.000Z	Hillshum		How do I mount the HDD from the liveCD?
+2009-02-11T03:26:00.000Z	estaban	Hillshum	mkdir /mnt/hdd  then mount -t <filesystem> /mnt/hdd
+2009-02-11T03:30:00.000Z	Hillshum	estaban	where in /dev is my HDD?
+2009-02-11T03:31:00.000Z	estaban	Hillshum	sudo fdisk -l

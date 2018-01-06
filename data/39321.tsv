@@ -1,0 +1,4 @@
+2010-01-08T20:11:00.000Z	ottotto		anybody happens to know how i can useradd a sudo able user with full admin rights?
+2010-01-08T20:12:00.000Z	ottotto		is admin group just enough?
+2010-01-08T20:12:00.000Z	ottotto		ok thanks
+2010-01-08T20:12:00.000Z	zkoo	ottotto	use adduser, it does stuff like create the home directory for you.  you can tell adduser what group they should be in when you create it (check the adduser manpage)

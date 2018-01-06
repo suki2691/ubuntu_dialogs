@@ -1,0 +1,4 @@
+2009-11-17T09:14:00.000Z	devkhadka		how to show full path in ls
+2009-11-17T09:14:00.000Z	jonz	devkhadka	i think you want `pwd`
+2009-11-17T09:15:00.000Z	devkhadka	jonz	i m doing ls -R and i want full path of each file to be displayed
+2009-11-17T09:18:00.000Z	jonz	devkhadka	i don't think that's an option. pwd is the way to view the full path to where you are. in what context do you need such a feature? are you trying to right a script that needs this as input?

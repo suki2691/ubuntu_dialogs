@@ -1,0 +1,4 @@
+2007-06-02T14:23:00.000Z	aliasrush		why the hell does the cache in gnome open system monitor show my computer taking up so much memory?
+2007-06-02T14:24:00.000Z	qman	aliasrush	the system uses all "free" memory as disk cache whenever possible; this is normal
+2007-06-02T14:24:00.000Z	qman	aliasrush	it will dynamically reduce the amount used as disk cache when other things need more memory
+2007-06-02T14:25:00.000Z	qman	aliasrush	when you're trying to figure out what's in use, consider the memory used as disk cache to be unused

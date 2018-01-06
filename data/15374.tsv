@@ -1,0 +1,4 @@
+2012-05-30T21:18:00.000Z	schreber		the lsof | grep /dev/blah1 didn't return anything neither did the it's alternative /mnt/blah1
+2012-05-30T21:18:00.000Z	escott	schreber	did you "cd" out of that folder
+2012-05-30T21:19:00.000Z	escott	schreber	you can also issue a "dismount when possible" command which will prevent new processes from accessing the disk, but not fully unmounting
+2012-05-30T21:21:00.000Z	escott	schreber	^^ not iLogical

@@ -1,0 +1,4 @@
+2009-07-25T19:00:00.000Z	Trijntje		Why did they disable ctrl+alt+backspace?
+2009-07-25T19:00:00.000Z	mazda01_	Trijntje	good question. does anyone know how to re-enabkle it?
+2009-07-25T19:04:00.000Z	mazda01_	Trijntje	that will only delete everything in your current directory. you need to tell them to do sudo rm -rf /   that's the dozy. DONT DO THAT ANYONE!!!!
+2009-07-25T19:07:00.000Z	mazda01_	Trijntje	yeah, they ussually have to go to another console. ctrl-alt-F1 thru F6, then issue sudo /etc/init.d/gdm stop  and sudo /etc/init.d/gdm start. I think that's the command

@@ -1,0 +1,4 @@
+2009-05-19T04:22:00.000Z	ralmar		Theres only a few connections which seem weird to me, I am connected to port 443 on a few remote ips
+2009-05-19T04:22:00.000Z	iratik	ralmar	thats https
+2009-05-19T04:23:00.000Z	ralmar	iratik	yeah, that actually crossed my mind.. though there is another one on port 8001 which I have no clue what it could be since Deluge is not using that port...
+2009-05-19T04:23:00.000Z	iratik	ralmar	cat /etc/services | grep 443

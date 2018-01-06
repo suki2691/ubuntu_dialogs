@@ -1,0 +1,4 @@
+2011-02-26T21:57:00.000Z	osse		I have two Ubuntu computers one the same network connected via a switch. What's the easies way to share file between them? When I right-click a folder and choose "Sharing options" it asks me to install some Windows stuff.
+2011-02-26T21:58:00.000Z	terry	osse	scp
+2011-02-26T21:59:00.000Z	terry	osse	scp user@192.168.1.5:Documents/* .  #Will copy all documents from 192.168.1.5 to your current dir
+2011-02-26T22:00:00.000Z	terry	osse	You can also set up nfs if you like. (If you want persestant access)

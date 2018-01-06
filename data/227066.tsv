@@ -1,0 +1,4 @@
+2009-07-11T17:43:00.000Z	Xubuntnoob		is there an easy way to roll back a program to an earlier version? such as wine 1.1.25 down to 1.0.1, otherwise, what's the safest way to backup my current settings?
+2009-07-11T17:43:00.000Z	funkyHat	Xubuntnoob	do you mean your personal wine settings?
+2009-07-11T17:45:00.000Z	funkyHat	Xubuntnoob	ok. cp ~/.wine ~/.wine.backup
+2009-07-11T17:46:00.000Z	funkyHat	Xubuntnoob	or even mv instead of cp, if you want to try with a blank wine setup

@@ -1,0 +1,4 @@
+2010-05-11T17:09:00.000Z	JuJuBee		Need some assistance with grub2 .  After install, my boot menu had all of my partitions/os's listed including older kernels...  How do I get rid of older kernels  in the boot menu and how do I change the names to a more friendly name if I am not supposed to edit the /boot/grub/grub.cfg file?
+2010-05-11T17:11:00.000Z	arand_	JuJuBee	http://www.dedoimedo.com/computers/grub-2.html for creating custom menu entries, easiest way to remove old kernels is to remove the packages (headers headers-generic image)
+2010-05-11T17:14:00.000Z	JuJuBee	arand_	 never removed old headers etc... how do I go about that?
+2010-05-11T17:15:00.000Z	JuJuBee	arand_	 so I don't want to add to what is there, just change the names... am I out of luck?

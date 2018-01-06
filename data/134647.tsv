@@ -1,0 +1,4 @@
+2007-06-03T08:05:00.000Z	mboso		how do I keep my custom kernel from being upgraded when I do an apt-get upgrade. Every time I upgrade my box kernel panics, and I have to restore my old kernel
+2007-06-03T08:06:00.000Z	stmiller	mboso	apt-get install wajig
+2007-06-03T08:07:00.000Z	mboso	stmiller	wajig? will look it up
+2007-06-03T08:07:00.000Z	stmiller	mboso	yeah, it will hold any package back from being updated. It's command line only. man wajig to see options

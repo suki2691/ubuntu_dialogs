@@ -1,0 +1,4 @@
+2009-08-24T03:55:00.000Z	mtlife		 hey for some reason my gdm.conf is gone, and i cant restore it with dpkg-reconfigure gdm. How do i get my default gdm.conf back?
+2009-08-24T03:55:00.000Z	danbhfive	mtlife	have you tried reinstalling gdm?
+2009-08-24T03:56:00.000Z	mtlife	danbhfive	i tried apt-get remove gdm, and then apt-get install gdm. didnt really make any difference :|
+2009-08-24T04:18:00.000Z	danbhfive	mtlife	I don't know if your question got answered, but maybe you need to purge the package.  The gdm.conf is in that package

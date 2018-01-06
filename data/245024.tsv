@@ -1,0 +1,4 @@
+2005-03-21T08:19:00.000Z	ermo^brok	danny__	you could be experiencing a 'master browser' issue
+2005-03-21T08:22:00.000Z	danny__	ermo^brok	What is that?
+2005-03-21T08:26:00.000Z	ermo^brok	danny__	on a SMB/CIFS network, the 'master browser' keeps a list of all available shares. Clients query  the master browser for said list of shares. For more in depth coverage, take a look at the samba documentation (http://us4.samba.org/samba/docs/man/Samba-HOWTO-Collection/NetworkBrowsing.html#id2549105)
+2005-03-21T08:31:00.000Z	danny__	ermo^brok	 But the shares are on a windows share not Samba they have a win2k sevrer and shared some folders the other windows boxes just map a drive to their particualr folder

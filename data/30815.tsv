@@ -1,0 +1,4 @@
+2010-06-04T21:35:00.000Z	wng-		What is the best way to handle NFS mounts that should be always mounted? fstab? rc.local? in fstab if the nfs-server isn't up the machines fail to boot
+2010-06-04T21:37:00.000Z	stenchmaster	wng-	i have nfs mounts in fstab, but it will delay the boot it it's unavail during boot
+2010-06-04T21:38:00.000Z	wng-	stenchmaster	is there an option i have to add to make it timeout?
+2010-06-04T21:40:00.000Z	stenchmaster	wng-	i think there are soft or hard options that you can specify

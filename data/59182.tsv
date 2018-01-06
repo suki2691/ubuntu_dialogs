@@ -1,0 +1,4 @@
+2010-09-04T03:17:00.000Z	MarkSS		How do I mount a flash drive in Ubuntu?
+2010-09-04T03:18:00.000Z	VCoolio	MarkSS	sudo fdisk -l    then mount it
+2010-09-04T03:19:00.000Z	VCoolio	MarkSS	it's a small L there, not a one or capital i
+2010-09-04T03:21:00.000Z	VCoolio	MarkSS	then: sudo mount /dev/sdd1 /folder/you/like -t auto -o user,rw

@@ -1,0 +1,4 @@
+2007-02-17T07:04:00.000Z	x-5t4t1c		any one know a good program i can run on linux for data recovery? i cannot access partitions on a drive (bad superblocks)
+2007-02-17T07:05:00.000Z	x-5t4t1c		it's the whole drive, ext2, ext3, ntfs
+2007-02-17T07:06:00.000Z	x-5t4t1c		not the whole drive, sorry, i have access to a swap partition on there
+2007-02-17T07:06:00.000Z	SilentDis	x-5t4t1c	I think what he was looking for was a pastebin output of this command:  sudo fdisk -l /dev/drive (where drive is hdb or whereever it's located)

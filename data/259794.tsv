@@ -1,0 +1,4 @@
+2005-08-02T13:22:00.000Z	yoot		how can i make ubuntu stay at command line until i type start x
+2005-08-02T13:24:00.000Z	thoreauputic	yoot	 echo "false" | sudo tee /etc/X11/default-display-manager
+2005-08-02T13:25:00.000Z	thoreauputic	yoot	put /usr/bin/gdm in that file to restore it
+2005-08-02T13:25:00.000Z	thoreauputic	yoot	cat /etc/X11/default-display-manager to see

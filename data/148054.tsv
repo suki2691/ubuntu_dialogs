@@ -1,0 +1,4 @@
+2007-12-03T07:45:00.000Z	Pir8		audiotestsrc wave=sine freq=512 ! audioconvert ! audioresample ! gconfaudiosink: Could not open resource for writing.
+2007-12-03T07:47:00.000Z	Pir8		yes k3b is great for burning anything and everything.
+2007-12-03T07:48:00.000Z	Pir8		so is there a way to reload audio drivers somehow? any ideas on how I can troubleshoot my audio not working all of a sudden? The alternative is to restart.
+2007-12-03T07:48:00.000Z	kelsin	Pir8	you can check system logs in /var/log and dmesg

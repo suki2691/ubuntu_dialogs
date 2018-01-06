@@ -1,0 +1,4 @@
+2005-12-19T15:12:00.000Z	Thorondor		when i try to start evolution it crashes. by starting it via terminal, i get ``(evolution:14436): Gdk-CRITICAL **: gdk_gc_set_foreground: assertion `GDK_IS_GC (gc)' failed'' - what could cause this error?
+2005-12-19T15:13:00.000Z	BenUrban	Thorondor	gdk_gc_set_foreground was expecting a graphics context object but got something else
+2005-12-19T15:14:00.000Z	Thorondor	BenUrban	ok, this doesn't say much to me. any hints what i could try?
+2005-12-19T15:15:00.000Z	BenUrban	Thorondor	heh, never ask a programmer *why* some error message occurs :P

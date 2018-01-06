@@ -1,0 +1,4 @@
+2011-04-05T22:40:00.000Z	ScottONanski		I'm trying to install Cheese 3.0 and am getting the following errors;  configure: error: Package requirements (  glib-2.0 >= 2.28.0   gobject-2.0 >= 2.28.0   gdk-pixbuf-2.0   gstreamer-0.10 >= 0.10.32   gstreamer-plugins-base-0.10 >= 0.10.32   cairo >= 1.10.0   pangocairo >= 1.28.0   clutter-1.0 >= 1.6.1   clutter-gst-1.0 >= 1.0.0   mx-1.0   gudev-1.0
+2011-04-05T22:40:00.000Z	ScottONanski		How do I find all that stuff?
+2011-04-05T22:41:00.000Z	trism	ScottONanski	sudo apt-get build-dep cheese; should get most of it
+2011-04-05T22:42:00.000Z	trism	ScottONanski	although, when building newer gnome software, you often need many new library versions not in the repos

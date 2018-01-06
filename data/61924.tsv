@@ -1,0 +1,4 @@
+2009-10-30T14:58:00.000Z	foo		hm, I'm using synergyc and I just lost connection on my linux system. I'm on windows now. Is there anyway to start synergyc 192.168.0.4 and make it happen in X (via ssh)? So it can reconnect? Thanks
+2009-10-30T14:58:00.000Z	foo		Can I run a command via SSH but make it look like it's coming from my X session?
+2009-10-30T14:58:00.000Z	grawity	foo	Try this... DISPLAY=:0.0 synergyc blahblah
+2009-10-30T15:00:00.000Z	foo	grawity	thanks, looking for something like that, but that didn't work. What if DISPLAY needs to be set to something else?

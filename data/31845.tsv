@@ -1,0 +1,4 @@
+2010-05-16T14:25:00.000Z	fcoo_21		I use Ubuntu 10.04. I had SunJava and worked fine with eclipse and Jdownloader. But now i installed OpenJDK to try it. Now Jdownloader opening automatically with "Java -jar /Jdownloader.jar" command. But i want as default the SunJava. And Eclipse now does not have SunJava as compiler but OpenJDK. Can someone help me to change them please?
+2010-05-16T14:26:00.000Z	erUSUL	fcoo_21	sudo update-alternatives --config java
+2010-05-16T14:29:00.000Z	fcoo_21	erUSUL	 thank you. it worked. but how to add on list of java-compilers the Openjdk. i want to try both of them for my code . ?
+2010-05-16T14:30:00.000Z	erUSUL	fcoo_21	dunno sorry; maybe it has a different name ojavac ?

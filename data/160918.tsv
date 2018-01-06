@@ -1,0 +1,4 @@
+2009-10-14T05:53:00.000Z	eshannon		How would I change permissions on a folder and all of it contents subfolders and files?
+2009-10-14T05:54:00.000Z	eshannon		ty
+2009-10-14T05:55:00.000Z	Jordan_U	eshannon	But be *very* carefull, especially if it's a system directory
+2009-11-09T08:58:00.000Z	Jordan_U	eshannon	Fdisk doesn't create file systems, only partitions. use "sudo mkfs.xfs /dev/sdb1" to format that partition as xfs

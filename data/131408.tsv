@@ -1,0 +1,4 @@
+2007-06-23T09:12:00.000Z	logixoul		stupid question: which package should I install for the Sun Java vm in Feisty?
+2007-06-23T09:13:00.000Z	eljak	logixoul	do an apt-get install sun and hit the tab key you will get a list of packages available
+2007-06-23T09:18:00.000Z	eljak	logixoul	you maybe need also to do #sudo update-java-alternatives -s java-xxx-sun and edit /etc/jvm to add the path you installed package so it can be used by default
+2007-06-23T09:19:00.000Z	logixoul	eljak	ok

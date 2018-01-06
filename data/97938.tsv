@@ -1,0 +1,4 @@
+2010-03-31T06:32:00.000Z	MetaPhaze		how can i find out where the packages put their files... for example equery f ogre would show me the location that it installed every file in the package in gentoo... is there something similar in ubuntu?
+2010-03-31T06:33:00.000Z	MetaPhaze		ubuntu still uses dpkg, ok
+2010-03-31T06:34:00.000Z	chelz	MetaPhaze	dpkg -S
+2010-03-31T06:35:00.000Z	chelz	MetaPhaze	basically read the manpages for dpkg and apt-cache

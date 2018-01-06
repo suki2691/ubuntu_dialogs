@@ -1,0 +1,4 @@
+2006-05-10T13:44:00.000Z	eugman		Hey is there a way to do a search in the packages to find instances of tex but exclude results where where a t directly follows after tex? Also anyone know of a good .tex reader?
+2006-05-10T13:45:00.000Z	eugman		Jeff303, Oh foolish me. I thought that because it was something special.
+2006-05-10T13:45:00.000Z	eugman		Gah, My two trains of through collided.
+2006-05-10T13:46:00.000Z	kwtm	eugman	"apt-cache search tex | grep tex[^t] "

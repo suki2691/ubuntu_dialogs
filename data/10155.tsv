@@ -1,0 +1,4 @@
+2011-09-27T01:57:00.000Z	ComradeHaz`		Hi guys, if I wanted to run a command such as "sudo smartctl -a /dev/sda | grep -i cycle" on each of my drives in turn, how would I do so? So 'pseudocode' to explain better, something like sudo smartctl -a /dev/sd[a-c] | grep -i cycle
+2011-09-27T01:57:00.000Z	ComradeHaz`		 
+2011-09-27T01:58:00.000Z	alkafoo	ComradeHaz`	for i in {a..c}; do something "$i"; done
+2011-09-27T02:05:00.000Z	ComradeHaz`	alkafoo	tomodachi, trying what both are you are suggesting to no avail

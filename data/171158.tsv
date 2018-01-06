@@ -1,0 +1,4 @@
+2006-08-13T06:11:00.000Z	simsalabim		I want to set up a virtualhost for apache. It seems theres a conventional way of doing that on ubuntu (using sites-available and sites-enabled). Should I just plug in a file in sites-available with a virtual host definition, and then symlink in sites-enabled? Is that all that is to it?
+2006-08-13T06:12:00.000Z	Saviq	simsalabim	yep
+2006-08-13T06:13:00.000Z	simsalabim	longwave	Saviq I see, you wouldnt have a link to some reading about that? I mean there is probably a good reason why its like that. Or is it just to keep apache2.conf simpler?
+2006-08-13T06:14:00.000Z	Saviq	simsalabim	I think it's the latter

@@ -1,0 +1,4 @@
+2011-05-18T17:01:00.000Z	oates_		hi all, I have a problem with the eperl package on 10.04 it hangs on install forever and dpkg wont even kill -9. I now have an install of eperl that requires an install to remove, but the install hangs every time after unpacking. Does anyone have a tip on how to remove the package?
+2011-05-18T17:02:00.000Z	ActionParsnip	oates_	you can edit the dpkg status file and remove it that way, backup the file before playing
+2011-05-18T17:02:00.000Z	oates_	ActionParsnip	okedoke thanks
+2011-05-18T17:07:00.000Z	oates_	ActionParsnip	unblocked now, thanks. Not had to actually get down and dirty with apt before in 10 years of desktop use ;)

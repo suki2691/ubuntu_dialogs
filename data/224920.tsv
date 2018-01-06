@@ -1,0 +1,4 @@
+2005-08-31T08:19:00.000Z	ian		how do i make a batch file like in windows.. ".bat" in ubuntu?
+2005-08-31T08:20:00.000Z	adiabatic	ian	The closest equivalent is writing a script in bash, the usual shell
+2005-08-31T08:21:00.000Z	adiabatic	ian	either no extension or maybe .sh
+2005-08-31T08:22:00.000Z	adiabatic	ian	set the executable bit and give it a shebang line OR do `bash foo.sh`

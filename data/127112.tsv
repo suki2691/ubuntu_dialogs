@@ -1,0 +1,4 @@
+2007-11-04T11:17:00.000Z	ckin2001		cat file.log | grep string | wc
+2007-11-04T11:17:00.000Z	ckin2001		that will give you the number of lines though, not number of times the word is shown
+2007-11-04T11:18:00.000Z	ckin2001		lockzi - ln -s
+2007-11-04T11:18:00.000Z	vocx	ckin2001	Phuzion you do not need to cat as grep works like "grep <regex> <file>"  I still think some sed is the proper solution. I think it searches words.

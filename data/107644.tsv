@@ -1,0 +1,4 @@
+2008-11-03T03:29:00.000Z	woli		i have a secondary hard drive that i want to make it work as home.
+2008-11-03T03:29:00.000Z	woli		how do i tell my computer to mount it at every load?
+2008-11-03T03:30:00.000Z	RyanPrior	woli	Add the second hard drive to your /etc/fstab
+2008-11-03T03:31:00.000Z	RyanPrior	woli	It's not a command, it's a file. Type "less /etc/fstab" to see it, or type "sudo vi /etc/fstab" (or substitute your favorite text editor) to edit it.

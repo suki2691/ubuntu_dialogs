@@ -1,0 +1,4 @@
+2012-11-29T22:36:00.000Z	SuperNull		hey guys, were using vlans on CLI and the builtin configurator is resetting it to dhcp over and over (even after a killall -9 dhclient)
+2012-11-29T22:36:00.000Z	theadmin	SuperNull	the "built-in configurator" may be NetworkManager?
+2012-11-29T22:43:00.000Z	theadmin	SuperNull	"sudo stop network-manager".
+2012-11-29T22:44:00.000Z	theadmin	SuperNull	To stop network-manager from starting on reboot, rename /etc/init/network-manager.conf so that it doesn't end in conf, e.g. sudo mv /etc/init/network-manager.conf /etc/init/network-manager.conf.off

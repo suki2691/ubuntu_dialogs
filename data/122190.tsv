@@ -1,0 +1,4 @@
+2008-12-05T05:10:00.000Z	SpAc		I'm extracting a tar.gz and all the permissions are wrong. Everything has permissions of 755. Can I extract it so that it comes out with files as 644 and directories as 755?
+2008-12-05T05:12:00.000Z	gnutron	SpAc	the directory must be executable, hence the 755 octals
+2008-12-05T05:12:00.000Z	SpAc	gnutron	yeah, that part is fine. But all the files that extracted also have 755 permissions
+2008-12-05T05:13:00.000Z	gnutron	SpAc	cd dir and chmod 644 * should be ok

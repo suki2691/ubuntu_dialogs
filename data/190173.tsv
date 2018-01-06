@@ -1,0 +1,4 @@
+2006-04-27T06:50:00.000Z	taeli		hi - I'm trying to follow a tutorial to set up my wireless card on ubuntu - but I need to use apt-get to install a few things - but I don't have wireless! on windows, can i download some things and then transfer them accross?
+2006-04-27T06:51:00.000Z	taeli		I need to get ndiswrapper-utils
+2006-04-27T06:51:00.000Z	taeli		I've got a floppy tho, or a usb stick drive if need be
+2006-04-27T06:51:00.000Z	Warbo	taeli	You will need ALL of the packages apt asks for (dependencies can make this very laborious) then install them all at once with dpkg -i *.deb

@@ -1,0 +1,4 @@
+2008-02-21T22:55:00.000Z	ubuntu		Hey, I'm about to install Ubuntu and want to ensure the bootloader goes on /dev/sda's MBR, but the selector only says "(hd0)", how do I know what this refers to?
+2008-02-21T22:56:00.000Z	Xorothal	ubuntu	it's grub notation -- (hd0) is /dev/sda
+2008-02-21T22:56:00.000Z	ubuntu	Xorothal	are you sure? Ubuntu lists /dev/hdb first in the list
+2008-02-21T22:57:00.000Z	Xorothal	ubuntu	Princechild is right

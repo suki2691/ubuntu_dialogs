@@ -1,0 +1,4 @@
+2008-10-12T09:35:00.000Z	Makuseru		Is there any way in Ubuntu, to make an ISO out of a DVD?
+2008-10-12T09:36:00.000Z	usser	Makuseru	sudo dd if=/dev/dvd of=filename.iso
+2008-10-12T09:36:00.000Z	usser	Makuseru	just make sure to unmount the dvd fiirst ie sudo umount /dev/dvd
+2009-03-25T08:45:00.000Z	usser	Makuseru	also /boot/grub/device.map is helpful

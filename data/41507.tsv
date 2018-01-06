@@ -1,0 +1,4 @@
+2009-12-01T15:23:00.000Z	khelvan_a		Hi, I'm trying to use dpkg -r to remove a .deb that I installed, but it is telling me that the package hasn't been installed. Are there individual packages inside of one .deb, and if so, is there a way to list them?
+2009-12-01T15:25:00.000Z	maco	khelvan_a	so dont do the whole .deb, just the bit before _
+2009-12-01T15:26:00.000Z	khelvan_a	maco	jpds - thanks, I got this: dpkg - warning: ignoring request to remove nxclient, only the config files of which are on the system.  Use --purge to remove them too. That's weird since I just installed it today.
+2009-12-01T15:27:00.000Z	maco	khelvan_a	it means you already uninstalled it but did not purge it

@@ -1,0 +1,4 @@
+2012-05-25T20:45:00.000Z	splnet		How do I gracefully stop X from ? I've tried init 3.
+2012-05-25T20:45:00.000Z	splnet		s/stop X from/stop X/
+2012-05-25T20:45:00.000Z	escott	splnet	(a) you are by default at runlevel 2 and 2-5 are all the same. (b) sudo service lightdm stop
+2012-05-25T20:47:00.000Z	splnet	escott	ok thanks

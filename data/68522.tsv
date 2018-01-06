@@ -1,0 +1,4 @@
+2010-01-04T02:49:00.000Z	Dravenm4		can someone point me to where i can figure out if and how to install if not my sound card
+2010-01-04T02:50:00.000Z	ActionParsnip	Dravenm4	run: sudo lshw -C sound; lspci | grep -i audio    and use either output in websearches
+2010-01-04T02:57:00.000Z	Dravenm4	ActionParsnip	I ran the command and got alot of information what do I need to use in my websearch the product its self?
+2010-01-04T02:57:00.000Z	ActionParsnip	Dravenm4	yes, whatever linux sees it as, websearch that

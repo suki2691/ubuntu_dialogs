@@ -1,0 +1,4 @@
+2006-10-09T06:31:00.000Z	urakaipa		thx to both, i'm trying, stay tuned :)
+2006-10-09T06:33:00.000Z	urakaipa		actually i never used find, so it would be possibile
+2006-10-09T06:35:00.000Z	wickedpuppy	urakaipa	find -type f -exec chmod 755 * {}; or something like that ... test it first
+2006-10-09T06:48:00.000Z	urakaipa	wickedpuppy	you're quite right, thx for the hint. The right command for files seems to be: find -type f -exec chmod ug-rx {} +

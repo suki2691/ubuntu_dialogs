@@ -1,0 +1,4 @@
+2012-01-09T02:26:00.000Z	wildwind	russf	was it so right from the AMI or how did you get it?
+2012-01-09T02:27:00.000Z	russf	wildwind	No. We just noticed it. One volume is the initial root volume, the other is another EBS volume we added later.  They both show the same ID that the added volume should have.
+2012-01-09T02:28:00.000Z	russf	wildwind	We are using EBSmount to mount volumes that we attach, but I don't think that caused the problem. Perhaps someone here has a different experience.
+2012-01-09T02:32:00.000Z	wildwind	russf	didn'd see such a thing. wonder what dd think about /dev/xvdj size? :)

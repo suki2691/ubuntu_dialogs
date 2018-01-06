@@ -1,0 +1,4 @@
+2006-08-16T09:42:00.000Z	Tarandus		Is there a way to configure network-manager so that it will not ask for password every time I connect to a WLAN?
+2006-08-16T09:43:00.000Z	Ng	Tarandus	it ought to save the password for a network in your gnome keyring, but whichever application accesses that first will have to ask for the password
+2006-08-16T09:45:00.000Z	Tarandus	Ng	Some say that making the keyring password the same as one's login password would allow it to "try" it once without prompting, but this far i've been unsuccessful.
+2006-08-16T09:45:00.000Z	Ng	Tarandus	I've not heard that, although there is a pam module that claims to do that (but I haven't had any joy from it on dapper as yet)

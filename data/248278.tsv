@@ -1,0 +1,4 @@
+2008-03-15T00:22:00.000Z	own1x		hello, I installed ubunut6.06 server and after installing lighttpd, when i try to reload it I get: /etc/lighttpd/lighttpd.conf line: 162 pos: 15 parser failed somehow near here: (EOL) [fail]
+2008-03-15T00:22:00.000Z	own1x		anyone have any ideas?
+2008-03-15T00:24:00.000Z	own1x		I also installed the exact same packages on a second machine, and that one reloads just fine
+2008-03-15T00:24:00.000Z	jimcooncat	own1x	you might try looking at line 162 in that file and see if anything looks funny.

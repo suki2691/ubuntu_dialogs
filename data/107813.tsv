@@ -1,0 +1,4 @@
+2011-10-05T02:45:00.000Z	boxybrown		so everything I'm reading seems to indicate something 32bit is freaking out because this is a 64 bit library
+2011-10-05T02:45:00.000Z	boxybrown		but that doesnt make sense because I installed a 64bit version of the OS, and am jsut running apt-get update
+2011-10-05T02:46:00.000Z	arkanabar	boxybrown	not all apps are ported to 64 bit yet; some (like wine) only run as 32 bit.
+2011-10-05T02:47:00.000Z	boxybrown	arkanabar	any suggestions why running an apt-get dist-upgrade would cause my install to become unbootable because of a shared library?

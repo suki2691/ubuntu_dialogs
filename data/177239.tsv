@@ -1,0 +1,4 @@
+2006-08-07T10:14:00.000Z	Kumo		guys please could you help me with my usb? it cannot detect anything, my /proc/bus/usb is empty so I added none /proc/bus/usb usbdevfs defaults 0 0 to the fstab but no success
+2006-08-07T10:14:00.000Z	Frankenstein	Kumo	try tail -f /var/log/messages and plug in your usb, see what your system is really doing
+2006-08-07T10:15:00.000Z	Kumo	Frankenstein	no changes
+2006-08-07T10:21:00.000Z	Kumo	Frankenstein	I did the tail -f /var/log/messages but no changes

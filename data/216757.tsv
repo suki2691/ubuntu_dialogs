@@ -1,0 +1,4 @@
+2008-11-08T04:59:00.000Z	neuton		is there a way to see what version of transmissioncli I have installed and/or what are available in the repos...since the torrentflux-b4rt says that its not a bundled software?
+2008-11-08T05:00:00.000Z	ardchoille	neuton	apt-cache policy transmission-cli
+2008-11-08T05:01:00.000Z	ardchoille	neuton	apt-cache search --names-only transmission
+2008-11-08T05:02:00.000Z	ardchoille	neuton	:)

@@ -1,0 +1,4 @@
+2007-02-21T07:04:00.000Z	Zoffix		Hi, my cdrom doesn't want to open :| it has a DVD inside and I can view the files on it, but neither clicking "Unmount" nor pushing the button on CD-ROM itself, nor executing `eject` opens it :/ It gives me `umount: /media/cdrom0: device is busy` and I don't think anything is using the DVD inside :/ Any ideas on how I can open it without rebooting?
+2007-02-21T07:05:00.000Z	mcphail	Zoffix	you can try sudo umount -l /media/cdrom0
+2007-02-21T07:06:00.000Z	Zoffix	mcphail	ah \o/ awesome. Thanks ;)
+2007-02-21T07:06:00.000Z	mcphail	Zoffix	np

@@ -1,0 +1,4 @@
+2010-04-21T13:48:00.000Z	jurcek		hellow! i have a problem. i can only execute firefox wuth sudo command, bacause the owner of /usr/bin/firefox is root root. how do i chane permission to username jurcek?
+2010-04-21T13:48:00.000Z	theadmin	jurcek	I think you... sudo chmod 777 /usr/bin/firefox
+2010-04-21T13:50:00.000Z	jurcek	theadmin	doesn't help the user who can execute the firefox is still root
+2010-04-21T13:51:00.000Z	theadmin	jurcek	Uh, not only owner can execute the program

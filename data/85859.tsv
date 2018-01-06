@@ -1,0 +1,4 @@
+2008-07-11T04:04:00.000Z	MpChester		i installed ubuntu on a different harddrive then my windows installation .. ubuntu boots fine but during the bootloader it gives me the option for windows .. but when i click it it gives me "Error 25: Disk read error" Press any key to continue
+2008-07-11T04:05:00.000Z	Shujah	MpChester	you are not giving the right hd of windows :D
+2008-07-11T04:06:00.000Z	MpChester	Shujah	 what are my hd options? it's set at 0,0 ... should i try 0,1 .. 0,2 ... ect..
+2008-07-11T04:06:00.000Z	Shujah	MpChester	on ubuntu fdisk -l    <note the widows partition then sudo gedit /grub/menu.lst and change the windows hd

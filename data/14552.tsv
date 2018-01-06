@@ -1,0 +1,4 @@
+2011-12-31T11:12:00.000Z	dahlia		I just installed kubuntu and I want the latest nvidia closed driver but I cant find how to install it. The one I have now is 173. Is there some sekret thing I need to do to get a more recent one?
+2011-12-31T11:13:00.000Z	DrPenguin	dahlia	you could pull the latest from nvidia.com
+2011-12-31T11:31:00.000Z	DrPenguin	dahlia	well.. if you boot in single user mode that would do the trick.. what are you trying to accomplish?
+2011-12-31T11:31:00.000Z	DrPenguin	dahlia	oh! thats simple.. just VT swtich (like ctrl alt F2), log in, sudo services gdm stop, install it, then sudo services gdm start

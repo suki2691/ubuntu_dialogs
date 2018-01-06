@@ -1,0 +1,4 @@
+2008-04-25T08:54:00.000Z	snadge		after you've installed ubuntu hardy, how do you tell it to use the generic IDE driver?
+2008-04-25T08:55:00.000Z	Jack_Sparrow	snadge	gksudo gedit /boot/grub/menu.lst
+2008-04-25T08:56:00.000Z	snadge	Jack_Sparrow	yeah but how do i tell it to use generic IDE? i can do it from the install cd.. but not sure what option to put in my menu.lst
+2008-04-25T08:57:00.000Z	Jack_Sparrow	snadge	all_generic_ide   before splash quiet

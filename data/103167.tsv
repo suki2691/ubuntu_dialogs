@@ -1,0 +1,4 @@
+2008-03-21T04:59:00.000Z	TaRDy		thank you mneptok and Stormx2
+2008-03-21T05:01:00.000Z	TaRDy		I tried to use synaptic and recieved this error on apply "E: /var/cache/apt/archives/nvidia-glx-new_100.14.19+2.6.22.4-14.10_i386.deb: trying to overwrite `/usr/bin/nvidia-xconfig', which is also in package nvidia-xconfig"
+2008-03-21T05:02:00.000Z	Dr_willis__	TaRDy	 i would try a 'sudo apt-get update' then 'sudo apt-get upgrade' and try again.   If it still happens you could remove the nvidia-xconfig package,
+2008-03-21T05:05:00.000Z	TaRDy	Dr_willis__	on sudo apt-get upgrade it gave the following: /var/cache/apt/archives/nvidia-glx-new_100.14.19+2.6.22.4-14.10_i386.deb

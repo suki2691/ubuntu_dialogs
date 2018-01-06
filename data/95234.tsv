@@ -1,0 +1,4 @@
+2008-04-28T16:29:00.000Z	bullgard1		Where to find the Hardy file which is equivalent to the Gutsy file /home/detlef/language-pack-gnome-de-base-7.10+20080205/data/de/LC_MESSAGES/gnome-power-manager.po?
+2008-04-28T16:30:00.000Z	stalker314314	bullgard1	dpkg -S gnome-power-manager.po
+2008-04-28T16:32:00.000Z	bullgard1	stalker314314	"detlef@Amilo7600:~/gnome$ LANG=C dpkg -S gnome-power-manager.po; dpkg: *gnome-power-manager.po* not found."
+2008-04-28T16:33:00.000Z	stalker314314	bullgard1	it's just means you didn't install that file with no one package

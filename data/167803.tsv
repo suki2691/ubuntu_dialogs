@@ -1,0 +1,4 @@
+2006-09-18T09:37:00.000Z	CaptainKidd		how do I find out what port ubuntu is listening for incoming ssh on ?
+2006-09-18T09:37:00.000Z	indigoblu	CaptainKidd	not installed by default
+2006-09-18T09:38:00.000Z	indigoblu	CaptainKidd	netstat -na | grep tcp
+2006-09-18T09:38:00.000Z	indigoblu	CaptainKidd	cat /etc/ssh/sshd_config | grep Listen

@@ -1,0 +1,4 @@
+2005-01-20T13:57:00.000Z	Cam		hrmm.. ndiswrapper is giving me a assembler error "Error (%esp,1) is not a valid 64 bit base/indedx expression"
+2005-01-20T13:57:00.000Z	Amaranth	Cam	ndiswrapper doesn't work on AMD64
+2005-01-20T13:58:00.000Z	Amaranth	Cam	You have to run the 32-bit version of Ubuntu. 32-bit drivers and a 64-bit kernel don't mix.
+2005-01-20T13:59:00.000Z	Amaranth	Cam	Good news for the future though: With Windows x64 in RC1 more devices should have 64-bit Windows drivers and someone will probably make a version of ndiswrapper that works for them.

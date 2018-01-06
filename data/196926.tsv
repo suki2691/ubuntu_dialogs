@@ -1,0 +1,4 @@
+2006-09-12T05:54:00.000Z	gilianima		what is the equivalent of "scp myfile user@ip:/home/user/" with rsync (with resume option) ? I can't find the answer...
+2006-09-12T05:54:00.000Z	ootput	gilianima	rsync man pages should mention secure protocols
+2006-09-12T05:55:00.000Z	gilianima	ootput	it didn't help me, really
+2006-09-12T05:56:00.000Z	ootput	gilianima	rsync should be able to figure out which files are identical on source/target boxes

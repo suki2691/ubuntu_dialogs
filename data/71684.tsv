@@ -1,0 +1,4 @@
+2009-01-28T20:35:00.000Z	letalis		im attempting to strip the first 15 characters out of lines of a text file so that i can use sot and uniq to sort and remove the redundant lines for output. any ideas?
+2009-01-28T20:35:00.000Z	letalis		sort
+2009-01-28T20:36:00.000Z	hatter243	letalis	are you thinking of cut?
+2009-01-28T20:37:00.000Z	hatter243	letalis	if you know that it will always be 15 characters long, cut will do the job

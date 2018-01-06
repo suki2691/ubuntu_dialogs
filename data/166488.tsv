@@ -1,0 +1,4 @@
+2007-12-03T20:30:00.000Z	onats		hi, how does ubuntu know which mirror to use when downloading updates? does it use the one based on your current system location, or based on ip address?
+2007-12-03T20:31:00.000Z	wols_	onats	it uses what's in /etc/apt/sources.list
+2007-12-03T20:55:00.000Z	wols_	onats	look at apt-proxy, apt-cacher, etc
+2007-12-03T20:58:00.000Z	wols_	onats	no problem, but the sarge can't use the ubuntu repos obviously

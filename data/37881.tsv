@@ -1,0 +1,4 @@
+2010-02-22T20:44:00.000Z	joshua__		is it a bad idea to move your swap to your ram?
+2010-02-22T20:45:00.000Z	joshua__		I know, but is it a bad idea to move your swap to your ram
+2010-02-22T20:45:00.000Z	joshua__		sudo sysctl -w vm.swappiness=10 supposedly does this
+2010-02-22T20:46:00.000Z	[V13]Axel	joshua__	well, either way, it's a waste of time. Your processor needs the SWAP to fall back on in case your physical RAM isn't enough.

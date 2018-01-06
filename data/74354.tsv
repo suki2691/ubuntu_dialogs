@@ -1,0 +1,4 @@
+2009-01-18T04:26:00.000Z	obake-san		thats what i thought, but then what happened to my diskspace? i deleted 2 275mb files, and now i only have 100mb free
+2009-01-18T04:26:00.000Z	oskar-	obake-san	did you delete them as root, and looked for free space as a user?
+2009-01-18T04:28:00.000Z	oskar-	obake-san	i don't know exactly, but it could have to do something with the reserved blocks for uid 0
+2009-01-18T04:30:00.000Z	oskar-	obake-san	does lsof say the same? sudo lsof | grep filename

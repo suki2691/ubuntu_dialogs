@@ -1,0 +1,4 @@
+2006-08-09T13:13:00.000Z	alxarch		hi, i have the following problem after a week of trying i managed to enable winbind to work properly in my lab's computers. the only problem is that now the users that are being added have gids from 10000-20000 and they are not members of any group of ubuntu, thus they cannot mount usbdrives, print or do anything a normal user can do. they are only members of nogroup.how can i tall samba to add them in an additional group e.g. plugdev?
+2006-08-09T13:15:00.000Z	excitatory	alxarch	that seems like more of a general samba question.  i don't know much about it, but i think it involves creating virtual or actual machine accounts for your users.  have you tried #samba ?
+2006-08-09T13:16:00.000Z	alxarch	excitatory	i just did!: )
+2006-08-09T13:22:00.000Z	alxarch	excitatory	the guys (&girls?) on #samba are REALLY silent....: )

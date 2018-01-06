@@ -1,0 +1,4 @@
+2012-07-05T23:49:00.000Z	illannoyed		hi all.  Trying to install 12.04 to dual-boot and I'm hitting a problem.
+2012-07-05T23:51:00.000Z	illannoyed		It seems my grub is borked.  I'm getting a device not found message when I try to boot after installing.  won't let me get to ubuntu or my windows partition either one
+2012-07-05T23:53:00.000Z	illannoyed		anyone have any suggestions on how to fix from there?  It goes to "device not found" string of device ID that I didn't write down, and then I get a grub rescue> prompt
+2012-07-05T23:54:00.000Z	L3top	illannoyed	have you tried update-grub from rescue? Might require remount with write perm

@@ -1,0 +1,4 @@
+2006-11-26T14:23:00.000Z	iqloo		Hiho all, I need some help installing Firefox32 on XubuntuAMD64 - I've tried every article I can find (google) and still get this error.."error while loading shared libraries: libgtk-x11-2.0.so.0" - I have found where that library is, but I don't know how to edit the file so that it will know to look there.
+2006-11-26T14:24:00.000Z	kitche	iqloo	it sees the file but it's looking for the 32bit library of it
+2006-11-26T14:26:00.000Z	iqloo	kitche	I have "ia32-libs-gtk" and "ia32-libs" installed, I thought those installed the 32 libs? - And isn't that what I'm pointing at?
+2006-11-26T14:27:00.000Z	kitche	iqloo	that might be the libs you want but error loading doesn't really tell us much about the error your getting

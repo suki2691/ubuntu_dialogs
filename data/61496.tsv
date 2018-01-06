@@ -1,0 +1,4 @@
+2011-04-22T22:07:00.000Z	Oday		if i untar a package, then "./configure" then "make" then "makeinstall", i can then remove the package i untarred?
+2011-04-22T22:07:00.000Z	tsimpson	Oday	depends, some have a "make uninstall" command, some don't
+2011-04-22T22:10:00.000Z	tsimpson	Oday	you can try running "make uninstall" from where you ran "make install" and see, if it doesn't work you need to manually find and delete the files
+2011-04-22T22:14:00.000Z	tsimpson	Oday	you can use checkinstall to make a deb from the make install command, then you can ensure you can remove it later if you want

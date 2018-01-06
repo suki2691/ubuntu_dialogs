@@ -1,0 +1,4 @@
+2012-02-23T23:09:00.000Z	zykotick9	dillinger417	running "groups" in a terminal will list all groups that user is currently in.  If that helps at all.
+2012-02-23T23:13:00.000Z	dillinger417	zykotick9	that does help.  Apparently users are still in the group, even though not listed in /etc/group.  I wonder what gives.  In /etc/group only one user is listed vs. user1,user2 etc.
+2012-02-23T23:14:00.000Z	zykotick9	dillinger417	that doesn't make sense?  no idea.  Have the users logged out/back in?  it's only a login that group membership is established.
+2012-02-23T23:15:00.000Z	dillinger417	zykotick9	idk.  it hasn't caused any issues yet, but I'm in the process of trying to lock everything down and get permissions straight.

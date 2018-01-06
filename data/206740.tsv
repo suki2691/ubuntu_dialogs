@@ -1,0 +1,4 @@
+2006-11-02T17:27:00.000Z	SamuelDr		Hi,
+2006-11-02T17:27:00.000Z	SamuelDr		I'd like to know where the "nm-applet" saves its configuration...
+2006-11-02T17:29:00.000Z	SamuelDr		would it be possible to know where the "nm-applet" saves its configuration... or at least direct me on a channel where I would get suitable help, thanks
+2006-11-02T17:30:00.000Z	sethk	SamuelDr	run it under strace, the grep for open in the output.  you'll see what files it uses

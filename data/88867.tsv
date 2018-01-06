@@ -1,0 +1,4 @@
+2011-04-04T23:39:00.000Z	neverblue		hi guys, i want to setup a co-worker to have access to my Ubuntu VM via ssh. I would like to allow them access to install, does that require me only adding them to the sudo group? or am I being too generous and concrned?
+2011-04-04T23:40:00.000Z	neverblue		which might be an over-requirement
+2011-04-04T23:40:00.000Z	neverblue		is there a group I can put them into, so they can install applications ?
+2011-04-04T23:40:00.000Z	kla	neverblue	you can add a sudo rules to only allow them to run specific commands (apt-get, etc..)

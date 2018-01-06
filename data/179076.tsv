@@ -1,0 +1,4 @@
+2010-12-16T08:55:00.000Z	overrider		in ubuntu, do i have to use groupmod usermod etc, or can i type directly into /etc/group to add my users to groups?
+2010-12-16T08:55:00.000Z	jrib	overrider	you can do all of those things.  Or just use "adduser" and "deluser" which are probably easier and less error-prone
+2010-12-16T08:56:00.000Z	overrider	jrib	yes but say i want to add a user to a group, can i just add him to the right group in /etc/group or do i have to use the tool for it? im worried the tool may update some other files that i dont know about
+2010-12-16T08:57:00.000Z	jrib	overrider	like I said, you can just edit /etc/group if you want, but I'd suggest you use adduser/deluser

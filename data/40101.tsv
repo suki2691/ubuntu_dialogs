@@ -1,0 +1,4 @@
+2009-12-28T01:59:00.000Z	cabaro		wolf2k: locate apache2
+2009-12-28T02:01:00.000Z	wolf2k_ubuntu	cabaro	Unsure if this is a good thing or not, but...by the looks of things, it installed apache where I originally installed it via source. If that's the case...I have no clue which httpd.conf file it's calling upon, because my attempts at visiting localhost/test.php (local file) aren't working.
+2009-12-28T02:04:00.000Z	wolf2k_ubuntu	cabaro	nothing was in the file
+2009-12-28T02:08:00.000Z	wolf2k_ubuntu	cabaro	/etc/apache2 contains many files split up instead of the one big httpd.conf file, including a better site management system. /var/www is the initial location for page building now.

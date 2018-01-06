@@ -1,0 +1,4 @@
+2008-05-04T22:29:00.000Z	hischild		my XFS main partition crashed. It's telling me that it can't read the superblock. Is there a solution to this or did i lose all the data?
+2008-05-04T22:29:00.000Z	linuxgeekery	hischild	can you mount it from the ubuntu livecd
+2008-05-04T22:30:00.000Z	hischild	linuxgeekery	no i cannot. That's the point where it tells me it can't read the superblock.
+2008-05-04T22:44:00.000Z	hischild	linuxgeekery	found out what went wrong .... or well, more like the solution. had to destroy the old log data and then repair it. Apparently some files got freaked out causing it to fail.

@@ -1,0 +1,4 @@
+2012-07-20T12:22:00.000Z	tanuki		I don't know if this is a VMware issue, a Mac problem, or an Ubuntu problem, but here goes... everything I print from my Ubuntu guest to my Mac's printer through the VMware printer sharing system demands "light" media, which my printer doesn't have loaded. I have to manually tell the printer to print anyway. How do I get things to print without having to kludge around it?
+2012-07-20T12:23:00.000Z	tanuki		In other words, how do I set the default media type for a printer?
+2012-07-20T12:24:00.000Z	histo	tanuki	you can administer cups in a browser localhost:631
+2012-07-20T12:30:00.000Z	tanuki	histo	There doesn't appear to be any relevant option there.

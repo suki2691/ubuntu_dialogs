@@ -1,0 +1,4 @@
+2008-02-04T08:43:00.000Z	shiwaraya		I read Linux file system is much diferent than windows and that i can mount any storage hardware in any filesystem folder. Why the mount in /dev and /media? i dont really understand that concept
+2008-02-04T08:44:00.000Z	shiwaraya		Can i just change in fstab /media/sda4 for something like /home/downloads?
+2008-02-04T08:45:00.000Z	Cpudan80	shiwaraya	sure, just change the mnt point in /etc/fstab
+2008-02-04T08:45:00.000Z	Cpudan80	shiwaraya	gksudo gedit /etc/fstab -- and change the /media/sda4 line

@@ -1,0 +1,4 @@
+2008-07-16T00:43:00.000Z	Arnos		Hi, how do I get a file from my computer through an ssh connection and onto a remote computer?
+2008-07-16T00:44:00.000Z	ompaul	Arnos	scp user@machinewithfile:/path/to/file .   <<< where the dot is here
+2008-07-16T00:45:00.000Z	ompaul	Arnos	and here is wherever you start your command line - the one that wants to grab from the other one
+2008-07-16T00:45:00.000Z	ompaul	Arnos	the other one must be running openssh-server

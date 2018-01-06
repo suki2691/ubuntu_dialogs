@@ -1,0 +1,4 @@
+2008-05-28T09:58:00.000Z	joensy		how can i cd into smb://desktop/e/
+2008-05-28T09:59:00.000Z	keram	joensy	first you need to mount the share to a directory
+2008-05-28T10:01:00.000Z	keram	joensy	i think you can click places -> network and it should be in there somewhere
+2008-05-28T10:03:00.000Z	keram	joensy	if its mounted, type 'df -h' or 'mount -l' in terminal, you will see the share and where it is mounted to, just cd to where its mounted

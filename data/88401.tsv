@@ -1,0 +1,4 @@
+2008-09-03T16:40:00.000Z	GogoMyEggo		hello
+2008-09-03T16:41:00.000Z	GogoMyEggo		i am using an ubuntu server and i want to add an user to the sudoers group, i need that user dont need type the passwd when uses the sudo command, i was reading and editing the sudo file such as a debian server, but it does not works
+2008-09-03T16:41:00.000Z	GogoMyEggo		some clue, howto web or something is appreciated
+2008-09-03T16:42:00.000Z	bringatowel	GogoMyEggo	you can add them to /etc/sudoers but they still have to enter a password (their normal password) when using sudo

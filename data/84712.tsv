@@ -1,0 +1,4 @@
+2009-05-29T15:46:00.000Z	tbaxter		If I'm having spontaneous lock-ups on my laptop running Jaunty and am getting nothing from the logs and 15 passes with memtest86+ found no errors, what could be my next area to check on?
+2009-05-29T15:46:00.000Z	jtaji	tbaxter	intel wireless/video ?
+2009-05-29T15:49:00.000Z	jtaji	tbaxter	how about: lspci | grep -i wireless
+2009-05-29T15:50:00.000Z	jtaji	tbaxter	I would start suspecting the video as coz_  suggested

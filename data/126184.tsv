@@ -1,0 +1,4 @@
+2008-11-11T01:11:00.000Z	bakermd		p
+2008-11-11T01:12:00.000Z	bakermd		I installed apache2, php5, and mysql :: the issue I have is that i need to connect to the MySQL db from another machine, and the only open port is 80 - iptables is not running... what do I do?
+2008-11-11T01:14:00.000Z	chuy	bakermd	you have to change mysql config file and open mysql port (3306 i think)
+2008-11-11T01:14:00.000Z	chuy	bakermd	you need to change an option to be able to use mysql on a remote pc, I dont remember what option but it is in my.cnf file

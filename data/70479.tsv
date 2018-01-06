@@ -1,0 +1,4 @@
+2008-12-28T01:58:00.000Z	lvr		how do i find out which video card driver interpid is using?
+2008-12-28T01:58:00.000Z	onetinsoldier	lvr	lspci -v | grep VGA
+2008-12-28T01:59:00.000Z	lvr	onetinsoldier	the driver, not the card
+2008-12-28T02:00:00.000Z	onetinsoldier	lvr	ok, sorry.   -->  grep drivers /var/log/Xorg.0.log

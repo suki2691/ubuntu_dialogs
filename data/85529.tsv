@@ -1,0 +1,4 @@
+2010-04-19T07:10:00.000Z	astro11		hey there, how can I install a 32-bit software in my Ubuntu 9.10 64-bit? ia32-libs already installed.
+2010-04-19T07:11:00.000Z	fbianconi	astro11	it depends on what are you trying to install
+2010-04-19T07:15:00.000Z	fbianconi	astro11	sudo dpkg -i --force-architecture <pkg.deb>
+2010-04-19T07:18:00.000Z	fbianconi	astro11	good to know

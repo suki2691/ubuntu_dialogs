@@ -1,0 +1,4 @@
+2006-01-20T09:35:00.000Z	TecnoVM64		Hello people, is there any way to restore gnome's default settings?
+2006-01-20T09:36:00.000Z	TecnoVM64		Tried that :(
+2006-01-20T09:38:00.000Z	nickrud	TecnoVM64	you also need to remove .gconfd, which should be done from a virtual console with gnome not running
+2006-01-20T09:39:00.000Z	nickrud	TecnoVM64	gconf controls your gnome settings, and rewrites them every time you close gnome. That's why they just won't die :)

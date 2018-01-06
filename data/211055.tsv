@@ -1,0 +1,4 @@
+2007-07-04T06:35:00.000Z	thill2708_		Hey all, how do I get the system specs on my computer like I do in windows? like the speed of the cpu, the size of the hd, the amount of ram, etc
+2007-07-04T06:36:00.000Z	MenZa	thill2708_	cat /proc/meminfo, cat /proc/cpuinfo
+2007-07-04T06:36:00.000Z	MenZa	thill2708_	Yeah, I found one at some point
+2007-07-04T06:37:00.000Z	MenZa	thill2708_	sudo aptitude install sysinfo

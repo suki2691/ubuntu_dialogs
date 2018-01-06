@@ -1,0 +1,4 @@
+2004-11-01T17:15:00.000Z	knewt		hmm, don't know about HTP374 but i know with debian i used to be able to install on my HTP372 system, as long as i turned off dma probing at boot until i could create a custom patched kernel. 
+2004-11-01T17:15:00.000Z	mindphasr	knewt	How do I turn off DMA probing?
+2004-11-01T17:16:00.000Z	mindphasr		I can make the custom kernel..Just cant get in to do so.. heh
+2004-11-01T17:19:00.000Z	knewt	mindphasr	try ideX=noautotune, replacing X with the appropriate number. eg, i used ide2=noautotune ide3=noautotune, since ide0 and ide1 were my main controller

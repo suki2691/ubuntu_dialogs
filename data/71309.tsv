@@ -1,0 +1,4 @@
+2009-03-04T09:39:00.000Z	balrog__		how do i ssh into a computer running off of the ubuntu livecd?
+2009-03-04T09:40:00.000Z	SchighSchagh	balrog__	you probably need to install openssh (sudo apt-get install openssh) on the compy running off the live CD.
+2009-03-04T09:42:00.000Z	balrog__	SchighSchagh	agreed, and ive already done that.  but when i try to ssh to the ip address of that comp (effectively as root), i am prompted for a password.  anybody know what the livecd username is and its password?
+2009-03-04T09:43:00.000Z	SchighSchagh	balrog__	ah, right the password. try things such as "root" "toor" "ubuntu" "password", etc...

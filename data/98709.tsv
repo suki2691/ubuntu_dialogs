@@ -1,0 +1,4 @@
+2008-06-08T05:14:00.000Z	almostdvs		How do i make this usb key into a live "cd"
+2008-06-08T05:14:00.000Z	rapha	almostdvs	dd if=image.iso of=/dev/sdX
+2008-06-08T05:15:00.000Z	almostdvs	rapha	can you explain that a little bit
+2008-06-08T05:17:00.000Z	rapha	almostdvs	image.iso is the image you'd like to boot from. sdX is your usb drive. something like sdc or sdd

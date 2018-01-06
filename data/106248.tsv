@@ -1,0 +1,4 @@
+2011-07-25T00:55:00.000Z	willluongo		Hello, hopefully this is an easy and somewhat foolish question, but I am running Ubuntu Server 10.04 and I installed Gnome for vnc purposes. However, the problem is that I have tried multiple things to change the run level so that gnome only starts manually. update-rc.d, rcconf, and chkconfig seem to be failing me. Is it not GDM I need to disable anymore? And if there is something else I need to do, is there a document or oth
+2011-07-25T00:57:00.000Z	dr_willis	willluongo	 you rename/disable gdm via the /etc/init/gdm.conf file
+2011-07-25T00:57:00.000Z	dr_willis	willluongo	 the old sysv methods have been replaced by upstart. Also you an use the 'text' grub option to make sure gdm never starts
+2011-07-25T00:59:00.000Z	willluongo	dr_willis	deleting the init/gdm.conf file did the trick

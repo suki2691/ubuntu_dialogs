@@ -1,0 +1,4 @@
+2006-12-02T06:47:00.000Z	livingtarget		cool that should do it
+2006-12-02T06:47:00.000Z	livingtarget		how do I store my MAC address so it will set it on boot up? Currently I have to run sudo ifconfig eth1 hw ether MY_MAC_HERE to set my MAC each time I boot up, I imagine there must be a file somewhere I can save this.
+2006-12-02T06:48:00.000Z	bimberi	livingtarget	/etc/rc.local
+2006-12-02T06:50:00.000Z	bimberi	livingtarget	np :)

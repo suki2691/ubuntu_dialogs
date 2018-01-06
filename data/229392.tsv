@@ -1,0 +1,4 @@
+2006-06-13T11:44:00.000Z	Fastly		I've been setting up file sharing using System->Administration->Shared Folders... I am sharing my home folder across a samba network with windows laptops.  This breezy server is showing in the workgroup on the windows machines but is asking for a password. I have tried entering my root and main username and password and it won't let me view the files. Preferably I wouldn't have a password because my LAN is secure.. any ideas please?.
+2006-06-13T11:45:00.000Z	Spec	Fastly	you need to set up samba to allow guest authentication
+2006-06-13T11:46:00.000Z	Spec	Fastly	You also need to use 'smbpasswd' to set the password for any user
+2006-06-13T11:46:00.000Z	Spec	Fastly	it uses USERS from the system, but the passwords are separate, and need to be created via smbpasswd

@@ -1,0 +1,4 @@
+2007-12-11T01:28:00.000Z	bbardlbradd		hey, how do I make Vista boot before Ubuntu?
+2007-12-11T01:28:00.000Z	bbardlbradd		I use grub
+2007-12-11T01:29:00.000Z	MasterShrek_	bbardlbradd	i think i told you the other day, just move the vista entry above the ubuntu entry in your /boot/grub/menu.lst
+2007-12-11T01:29:00.000Z	MasterShrek_	bbardlbradd	alt+f2 type: gksu gedit /boot/grub/menu.lst

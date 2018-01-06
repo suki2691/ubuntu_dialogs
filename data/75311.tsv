@@ -1,0 +1,4 @@
+2011-11-24T23:22:00.000Z	nightwalkerkg		Hi,i need help with my monitor. One person told me to copy this http://paste.ubuntu.com/748456/ to X11/something/something. I cant remember the name of the folder and the file and i can't make the new folder or file in that location.I am using Ubuntu 11.10,ATI Radeon 9550 card and LG Flatron ez T710B monitor.Can anyone help?
+2011-11-24T23:23:00.000Z	genii-around	nightwalkerkg	The file would /etc/X11/xorg.conf
+2011-11-24T23:23:00.000Z	genii-around	nightwalkerkg	gksudo gedit /etc/X11/xorg.conf  and then copy the contents in, save it.
+2011-11-24T23:25:00.000Z	genii-around	nightwalkerkg	You're welcome

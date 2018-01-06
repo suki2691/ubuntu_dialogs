@@ -1,0 +1,4 @@
+2006-01-21T15:52:00.000Z	csb		are there any true booleans in perl? for instance, is "$TheValue = True" a valid statement?
+2006-01-21T15:53:00.000Z	redguy	csb	wait a sec
+2006-01-21T15:55:00.000Z	redguy	csb	no true boolean type in perl, in scalar context, 0, "" and undef is false, everything else is true
+2006-01-21T15:57:00.000Z	redguy	csb	hrm, undef might produce undef actually...

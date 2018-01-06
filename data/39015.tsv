@@ -1,0 +1,4 @@
+2010-05-15T11:58:00.000Z	nixjr		how would I write an awk script that displays my version of ubuntu?
+2010-05-15T11:59:00.000Z	dancek	nixjr	did you try lsb_release -a
+2010-05-15T12:02:00.000Z	dancek	nixjr	is this good enough? lsb_release -a | grep "^Release" | sed 's/Release:[ \t]*//'
+2010-05-15T12:03:00.000Z	nixjr	dancek	i have no idea, i dont know howto write awk, but thats better then anything i could come up with

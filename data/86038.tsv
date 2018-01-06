@@ -1,0 +1,4 @@
+2009-04-16T20:52:00.000Z	trupheenix		i created a ext2 partition on my entire thumb drive  mkfs -t ext2 /dev/sdb. but now i want to create a vfat partition on the thumbdrive. unfortunately i cannot find /dev/sdb1. i cannot create vfat on /dev/sdb. any suggestions?
+2009-04-16T20:53:00.000Z	unop	trupheenix	you'll need to partition the device into two first .. right now /dev/sdb is just one big partition.
+2009-04-16T20:55:00.000Z	trupheenix	unop	HOW?
+2009-04-16T20:55:00.000Z	unop	trupheenix	use something like gparted, fdisk, etc

@@ -1,0 +1,4 @@
+2007-09-13T11:29:00.000Z	Stwange		can anyone give me a hand with nm-applet? I ran: /etc/dbus-1/event.d/25NetworkManager stop and now I can't get it back. I've tried /etc/init.d/networking restart, I've tried running it from the terminal and ALT+F2 and it runs in my processes, but doesn't appear on the task bar
+2007-09-13T11:30:00.000Z	savvas	Stwange	try this: sudo killall -9 nm-applet && nm-applet
+2007-09-13T11:31:00.000Z	Stwange	savvas	it does the same thing it does every time I try to run nm-applet, it just sits on a blank line and does nothing
+2007-09-13T11:34:00.000Z	savvas	Stwange	have you tried restarting?

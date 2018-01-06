@@ -1,0 +1,4 @@
+2006-06-19T08:51:00.000Z	Bilange		anyone has any clues with the issue with grub where the system wont boot when you change your harddrive's position?
+2006-06-19T08:52:00.000Z	iiiears	Bilange	- Is there an option in the BIOS to select the boot from drive?
+2006-06-19T08:52:00.000Z	Bilange	iiiears	 yeah, I got this part correct... the problem is when grub tries to load from my former (old) drive position
+2006-06-19T08:53:00.000Z	Bilange	iiiears	 as in: I moved from hdb to hda, but grub still has hdb in mind

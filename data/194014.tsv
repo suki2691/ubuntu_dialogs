@@ -1,0 +1,4 @@
+2006-06-17T08:24:00.000Z	phrowzen		hey
+2006-06-17T08:25:00.000Z	phrowzen		i have only a 100MB boot partition, and i dont want to install the new kernel image because its 92% full, is it as simple as just rm -rf'ing them and grub-install will no longer install them to the boot loader? or is there some other location?
+2006-06-17T08:25:00.000Z	wastrel	phrowzen	 it would be better to apt-get remove the old kernels
+2006-06-17T08:26:00.000Z	phrowzen	wastrel	ahh teriffic, much easier, thanks

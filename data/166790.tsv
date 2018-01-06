@@ -1,0 +1,4 @@
+2008-02-02T07:26:00.000Z	stefko		hello people how i can copy file from desktop when i'm on terminal and paste the file in to /var/www ?
+2008-02-02T07:26:00.000Z	stefko		can somebody tell me?
+2008-02-02T07:27:00.000Z	compwiz18	stefko	sudo cp ~/Desktop/file /var/www/
+2008-02-02T07:30:00.000Z	compwiz18	stefko	you have to cp <filename> /var/www otherwise it doesn't know where to put <filename>

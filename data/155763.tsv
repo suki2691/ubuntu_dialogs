@@ -1,0 +1,4 @@
+2006-12-07T08:32:00.000Z	Kawaii-Panda		how do i list all the installed video card drivers in my pc?
+2006-12-07T08:33:00.000Z	Kawaii-Panda		i installed the nvidia card package and now i need to know what it is called, nv, nvidia, how can i list them all?
+2006-12-07T08:33:00.000Z	Randakar	Kawaii-Panda	aptitude search xserver-xorg | grep -e '^i A'
+2006-12-07T08:34:00.000Z	Randakar	Kawaii-Panda	nv is the xorg builtin driver, 'nvidia' i the binary package one

@@ -1,0 +1,4 @@
+2009-10-04T01:36:00.000Z	iplaman		how can i extract all word contains the characters "ns" form a file PLEASE
+2009-10-04T01:38:00.000Z	iplaman		since i dont know the "-f"
+2009-10-04T01:38:00.000Z	losha	iplaman	harder, but not impossible. Use tr to change all spaces to newlines so you only have one word per line, then use grep as before...
+2009-10-04T01:40:00.000Z	iplaman	losha	Thanks

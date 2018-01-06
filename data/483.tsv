@@ -1,0 +1,4 @@
+2012-11-06T01:18:00.000Z	DSrv		I'm hitting trouble installing Ubuntu 12.04.1 LTS x86_64 on a machine.  It was previously installed, but the hard drive had to be replaced as it was failing.  I run through the installer, it copies files, but doesn't seem to let me progress past the "Where are you?" timezone screen.  I've tried with & without network access, with & without downloads enabled, with & without 3rd-party. Any ideas or brain farts?
+2012-11-06T01:19:00.000Z	DSrv		ms_choudhary if swap is the same size as RAM, it makes hibernation possible. Larger means you can use swap as well as hibernate.
+2012-11-06T01:20:00.000Z	ms_choudhary_200	DSrv	 will it affect in anyways in performance?
+2012-11-06T01:22:00.000Z	DSrv	ms_choudhary_200	I recommend to use at least 2X swap as RAM if you have the space. I use 4X max RAM (but them again I deal with VMs of actual physical machines).

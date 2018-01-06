@@ -1,0 +1,4 @@
+2005-06-19T12:58:00.000Z	Hablandocontigo		I just uninstalled backports mozilla and removed it from my sources list and installed mozilla-firefox_1.0.2-0ubuntu5.3_i386.deb) but I still can't launch mozilla, what could be the problem?
+2005-06-19T12:59:00.000Z	ompaul	Hablandocontigo	did you check if it was running using ps awux ?
+2005-06-19T13:00:00.000Z	Hablandocontigo	ompaul	how do I check that?
+2005-06-19T13:00:00.000Z	ompaul	Hablandocontigo	run a terminal and in it type 'ps awux| grep mozilla| grep -v grep'  ?

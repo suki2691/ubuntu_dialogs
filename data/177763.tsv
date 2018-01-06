@@ -1,0 +1,4 @@
+2008-03-25T18:36:00.000Z	tyron		Can anyone help with sound on toshiba a200?
+2008-03-25T18:37:00.000Z	Jack_Sparrow	tyron	HAve you been through the troubleshooting sectionof our sound page
+2008-03-25T18:41:00.000Z	Jack_Sparrow	tyron	a quick sound check..  Report no sound or any errors after you run this command: speaker-test -c2 -Ddefault -t wav -l1
+2008-03-25T18:46:00.000Z	Jack_Sparrow	tyron	Fixing sound.. download this: http://hg.alsa-project.org/alsa/raw-file/tip/alsa-info.sh  #and run the script as Normal User... with this command: bash ./alsa-info.sh  ... then go to http://en.pastebin.ca/906336 and answer those questions ..  then  /join #Alsa and provide them with your question and a link to the uploaded file.

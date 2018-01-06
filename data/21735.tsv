@@ -1,0 +1,4 @@
+2011-01-04T09:44:00.000Z	lcd15000		having issues getting routed networking in a windows 7 guest on a ubuntu 10.10 host, anyone have any experience with ubuntu-virt-server?
+2011-01-04T09:46:00.000Z	izinucs	lcd15000	is networking set to bridged or nat?  default is typically nat.. change to bridged
+2011-01-04T09:47:00.000Z	lcd15000	izinucs	i did change to bridged, it doesnt seem to be getting a dhcp address
+2011-01-04T09:48:00.000Z	izinucs	lcd15000	perhaps stop and start the networking in win7.. not sure there.

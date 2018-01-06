@@ -1,0 +1,4 @@
+2011-05-05T18:20:00.000Z	woniu		i want to use the official driver of my Realtek  network card ,but when i startup the computer, it goto the linux one but not the official.i have installed the official driver.
+2011-05-05T18:21:00.000Z	woniu		what should i do ? blacklist did not work!
+2011-05-05T18:22:00.000Z	frostschutz	woniu	I'm not sure if the initramfs already loads the network driver, but if it does, you'd have to update your initramfs as well
+2011-05-05T18:32:00.000Z	woniu	frostschutz	it works, thanks

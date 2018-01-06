@@ -1,0 +1,4 @@
+2012-06-27T20:46:00.000Z	genii-around	kapz	Have you tried loop-mounting the iso and then pointing Wine to the directory the image is mounted as as if it is a physical cd drive?
+2012-06-27T20:47:00.000Z	kapz	genii-around	I have no idea what loop-mounting is..
+2012-06-27T20:50:00.000Z	genii-around	kapz	eg: something like sudo mount -o loop /home/mynamehere/mycdimagefile.iso /mnt        then, in Wine Configuration, under Drives tab, to put /mnt as a cd drive
+2012-06-27T20:52:00.000Z	kapz	genii-around	well playonlinux has somewhat prebuilt scripts for certain games and that GUI script does not give the optioon to copy/paste files...

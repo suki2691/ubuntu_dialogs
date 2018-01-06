@@ -1,0 +1,4 @@
+2007-04-26T15:16:00.000Z	mojojojo_		hi, how can I make an application to use ALSA instead of a direct access to the sound device (/dev/dsp)
+2007-04-26T15:16:00.000Z	mojojojo_		?
+2007-04-26T15:17:00.000Z	mjr	mojojojo_	if the app itself can't use alsa, you can try the alsa-oss wrapper which tries to fool OSS (/dev/dsp)-using apps to use ALSA nevertheless
+2007-04-26T15:19:00.000Z	mojojojo_	mjr	 Maybe I should start with the problem I have.. The VMPlayer uses /dev/dsp to control sound and it throws and exception that the sound device is busy.. Do you think the the wrapper should help?

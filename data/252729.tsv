@@ -1,0 +1,4 @@
+2006-06-14T10:48:00.000Z	smacky_wolf		Hi all. I was wondering if someone could tell me how to s1ee what is using my sound evice, and when I find out what, how to kjill it. I can't get any sound output from ALSA or OSS, because I receiver the error "This Device Is Already In Use"
+2006-06-14T10:49:00.000Z	wastrel	smacky_wolf	 try lsof /dev/dsp
+2006-07-01T07:19:00.000Z	wastrel	smacky_wolf	 yes, check here:  http://www.ubuntuforums.org/showthread.php?t=199250
+2006-07-01T07:20:00.000Z	wastrel	smacky_wolf	 you have to install the current version of gnomad2, that forum post has instructions.

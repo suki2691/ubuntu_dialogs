@@ -1,0 +1,4 @@
+2011-12-02T10:10:00.000Z	CaptAnon		I'm using ssh on my localhost but when I try to open xeyes it says error; can't open display
+2011-12-02T10:11:00.000Z	milamber	CaptAnon	to enable x forwarding you have to do: ssh -C -X <server>
+2011-12-02T10:20:00.000Z	milamber	CaptAnon	no, but you would have to specify the correct user and pass when you run the ssh command
+2011-12-02T10:21:00.000Z	milamber	CaptAnon	for the manual: man ssh

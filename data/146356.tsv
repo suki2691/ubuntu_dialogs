@@ -1,0 +1,4 @@
+2008-07-19T10:36:00.000Z	baegle		is there a way to have X auto-detect my monitor and write the appropriate configuration into the xorf.conf? I recently did an apt-get upgrade and I can't get x to start anymore.
+2008-07-19T10:36:00.000Z	baegle		I'm getting the fatal error "no screens found"
+2008-07-19T10:38:00.000Z	Seven_Six_Two	baegle	sudo dpkg-reconfigure xserver-xorg
+2008-07-19T10:41:00.000Z	baegle	Seven_Six_Two	that created an xorg.conf with almost no useful directives and I still get the fatal error about no screens

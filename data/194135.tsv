@@ -1,0 +1,4 @@
+2008-02-02T00:02:00.000Z	avery		hey guys how do I configure my laptop at home so that I can telnet it or make ftp when am in the office
+2008-02-02T00:02:00.000Z	avery		hey guys how do I configure my laptop at home so that I can telnet it or make ftp when am in the office
+2008-02-02T00:03:00.000Z	pike_	avery	id look at openssh-server instead of telnet + ftp its more secure and does both
+2008-02-02T00:03:00.000Z	pike_	avery	sudo apt-get install openssh-server   then just make sure port22 is forwarded if you are behind a router

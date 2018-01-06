@@ -1,0 +1,4 @@
+2011-07-16T17:52:00.000Z	onca		where are modules selected to be loaded, how do I remove some?
+2011-07-16T17:52:00.000Z	onca		thankyou
+2011-07-16T17:53:00.000Z	edbian	onca	It's all in kernel code.  When the system boots the hardware is scanned and proper modules are selected for you from a long list of available ones.
+2011-07-16T17:57:00.000Z	edbian	onca	What module, for what hardware? (generally the best way is to remove all other possibilities).  You can also sudo modprobe it manually

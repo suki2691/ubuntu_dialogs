@@ -1,0 +1,4 @@
+2011-07-26T20:40:00.000Z	drdnar		The Ubuntu live disk has decided that it would be a great idea to ignore my BIOS's SCSI emulation mode and just use the pure SATA driver for accessing the harddisks. This is bad, because the BIOS uses SCSI emulation to implement RAIDing. Thus, if Ubuntu attempts to write to the RAIDed volume, it will severely corrupt it.
+2011-07-26T20:41:00.000Z	drdnar		I'm not sure it's a bug. In fact, I think it's a feature, because the SCSI emulation mode was the default.
+2011-07-26T20:41:00.000Z	DasEi	drdnar	I had such propblems, too, mdadm was my friend
+2011-07-26T20:42:00.000Z	DasEi	drdnar	often fakeraid is a problem, as satal likes comtabil or ahci, but softraid is doing fine

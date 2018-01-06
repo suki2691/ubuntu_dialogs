@@ -1,0 +1,4 @@
+2010-09-08T23:19:00.000Z	icedoe		Hey, I'm trying to get a video file from a Flip Video camera to play through Ubuntu 9.10. It claims to be in the mp4 format, and I have ubuntu-restricted-extras. When I try to play the file I get a message saying "could not determine type of stream". What should I look for?
+2010-09-08T23:20:00.000Z	egsome	icedoe	try `file FILENAME` to make sure what is it's type
+2010-09-08T23:21:00.000Z	egsome	icedoe	Show us the command you executed
+2010-09-08T23:23:00.000Z	egsome	icedoe	you may need `w32codec` package

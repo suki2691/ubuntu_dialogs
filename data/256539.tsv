@@ -1,0 +1,4 @@
+2008-11-03T17:35:00.000Z	Toznoshio		Hi community, I have successfully created a read-write samba share using nautilus, however when other computers put files into that share those files are rw-r--r-- and owned by user "nobody" and group "nogroup" ... I would like for my Ubuntu user to own those files, either directly or via group. How do I do this?
+2008-11-03T17:37:00.000Z	dr_willis	Toznoshio	 you could check the smb.conf file - and perhaps tweak the share definitions.
+2008-11-03T17:39:00.000Z	Toznoshio	C65CE02	 dr_willis, I grep'ped smb.conf and couldn't find my share, I suspect it's because I created it with nautilus and not by editing the file
+2008-11-03T17:40:00.000Z	dr_willis	Toznoshio	 i would check that file again.. I though ti saw the shares get added to the end of tha tconfig.. Im not sure of any othe rway for nautilus to do it.

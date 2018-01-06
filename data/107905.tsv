@@ -1,0 +1,4 @@
+2008-01-25T01:43:00.000Z	makers_mark		i installed the latest nvidia driver for my geforce 4 but it's giving me trouble.how can i revert to the previous restricted driver?
+2008-01-25T01:44:00.000Z	LjL	makers_mark	you shouldn't have installed stuff not from the repositories in the first place... good luck reverting, now. anyway, see if the driver comes with an uninstall script, if it does run it, and then « sudo apt-get --reinstall install nvidia-glx » (or nvidia-glx-new, whichever you had installed)
+2008-01-25T01:52:00.000Z	makers_mark	LjL	actually i re-installed the driver and restarted gdm resulting in the driver working fine.after restart,it won't work though.
+2008-01-25T01:52:00.000Z	LjL	makers_mark	try sudo dpkg-reconfigure --phigh xserver-xorg

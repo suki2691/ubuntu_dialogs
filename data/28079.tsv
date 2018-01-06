@@ -1,0 +1,4 @@
+2010-08-15T19:41:00.000Z	headkase314	napterk	I don't think so - unless you want your / and /home partitions to be a different file system like http://en.wikipedia.org/wiki/Btrfs because the boot partition must be ext2 - ext4.  If your / and /home partitions are also going to be ext2 - ext4 then there is no need for a separate /boot partition
+2010-08-15T19:42:00.000Z	headkase314	napterk	see that grub2 entry too
+2010-08-15T19:48:00.000Z	napterk	headkase314	thank you for the articles. I only take ext4 for the system partitions. I always had /boot on a separate partition but I never understand why this is better.
+2010-08-15T19:49:00.000Z	headkase314	napterk	the only situation I know of that would require a separate partition for /boot is if you are using a file-system not "baked into" the boot kernal for your other partitions.

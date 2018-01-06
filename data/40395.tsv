@@ -1,0 +1,4 @@
+2009-12-22T17:08:00.000Z	vicktor_421		Hello , last night something went wrong with my hard drive , i simply tried to copy some data , and when i turn my computer today its seems the hard drive has some errors , i used the Livecd and run the command "fsck -pcfv /dev/sda1" and i get the following error - ttempt to read block from filesystem resulted in short read while trying to open /dev/sda1 Could this be a zero-length partition? any idea ?
+2009-12-22T17:09:00.000Z	creature	vicktor_421	I'd use something like cfdisk to print out the partition table to check, but 'short read' probably indicates a failing drive...
+2009-12-22T17:10:00.000Z	vicktor_421	creature	any idea what i should try in order to recover my data ?
+2009-12-22T17:10:00.000Z	creature	vicktor_421	If it won't mount then you're probably out of luck. Backups are the way to go, or a specialist recovery place if it's that important to you.

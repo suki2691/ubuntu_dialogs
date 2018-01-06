@@ -1,0 +1,4 @@
+2008-12-31T09:26:00.000Z	miranda_psi		Can anyone help me with the sound problem I have?  Sometimes a program will take sole control of the sound, and then I can't get other programs to play sound, even after quitting the program and restarting my sound server...
+2008-12-31T09:28:00.000Z	Gnea	miranda_psi	it means one of 2 things: a) pulseaudio isn't setup right, or b) you have a half-duplex soundcard.
+2008-12-31T09:29:00.000Z	miranda_psi	Gnea	its on a very recent laptop model and the pulse configuration is the default (and not everything goes through pulse either)
+2008-12-31T09:30:00.000Z	Gnea	miranda_psi	have you tried disabling pulse altogether?

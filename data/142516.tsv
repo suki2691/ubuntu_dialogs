@@ -1,0 +1,4 @@
+2007-04-20T11:14:00.000Z	rogue780|laptop		can someone tell me how to change the default keyring password? I accidentally put it in with capslock on...and it's annoying me
+2007-04-20T11:14:00.000Z	eck	rogue780|laptop	try gnome-keyring-manager
+2007-04-20T11:16:00.000Z	rogue780|laptop	eck	that lets me change the keys in the keyring...but I can't figure out how to change the actual keyring password
+2007-04-20T11:16:00.000Z	eck	rogue780|laptop	i would delete the keyring entry from gconf then and just recreate it

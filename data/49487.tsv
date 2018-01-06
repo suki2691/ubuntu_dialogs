@@ -1,0 +1,4 @@
+2009-08-31T17:18:00.000Z	Aegil		Hi, I'm trying to cut down a command I run "find /var/qmail/queue/ -type f -exec grep -l [someone@somewhere.com] {} \;"  the [someone@somewhere.com is variable everytime, does anyone know a way I could automate it so I could just name a script eg script user@domain.com so it would input that value inplace of [someone@somewhere.com] and run it?
+2009-08-31T17:19:00.000Z	Aegil		I've automated most stuff so far using alias's but Im not sure the best way for automating something I need to pass a value to in the middle of it.
+2009-08-31T17:19:00.000Z	Walex	Aegil	that is going to be quite slow too. Anyhow it is pretty easy to turn that into a script. There are many shell scripting tutorials and the first few pages of any will show you how to do what you want.
+2009-08-31T17:23:00.000Z	Aegil	Walex	Okay, I'll take a look for some thanks.

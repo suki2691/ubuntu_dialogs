@@ -1,0 +1,4 @@
+2010-02-25T00:58:00.000Z	mzuverink		Suddenly Gnome opens all directories off the places menu(such as home, documents, etc) in konqueror not nautilus, i have both kde and gnome indtalled but want nautilus to be my file manager while in gnome, how do set it back to nautilus in gnome?
+2010-02-25T01:00:00.000Z	Nitsuga	mzuverink	it is easy, gedit ~/.local/share/applications/mimeapps.list
+2010-02-25T01:00:00.000Z	Nitsuga	mzuverink	and add this line: inode/directory=nautilus-folder-handler
+2010-02-25T01:00:00.000Z	mzuverink	Nitsuga	OK, thanks I appreciate it

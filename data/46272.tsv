@@ -1,0 +1,4 @@
+2009-10-04T04:27:00.000Z	homovitr`	wlodi	I've found who's putting that line in: the Network Administration Tool. Even if the only active connection is static, the auto line is also there. I've no idea why. But I bet now the problem is solved.
+2009-10-04T04:29:00.000Z	wlodi	homovitr`	maybe it's putting the other interface automatically. I'd say, check the .config files
+2009-10-04T04:30:00.000Z	homovitr`	wlodi	which .config file?
+2009-10-04T04:33:00.000Z	wlodi	homovitr`	now that's a good question. Maybe start in the /etc/NetworkManager dir

@@ -1,0 +1,4 @@
+2008-05-18T10:23:00.000Z	m0u5e		is there a way to mount my iso under /cdrom in ubuntu?
+2008-05-18T10:23:00.000Z	m0u5e		without burning the iso to a cd
+2008-05-18T10:23:00.000Z	wols_	m0u5e	yes just mount the file
+2008-05-18T10:40:00.000Z	wols_	m0u5e	mount -t iso9660 -o loop /path/to/file /cdrom

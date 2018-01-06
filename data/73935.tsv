@@ -1,0 +1,4 @@
+2009-02-27T07:29:00.000Z	gorlak		i have a question on how nfs reads writes/transfers files. i have a remote server, if i move/copy a file from one folder to the next it copies the file to my laptop first then sends it back to the server. is this normal? or is there a setting that keeps the file on the server instead. like smb/windows file copying does.
+2009-02-27T07:29:00.000Z	gorlak		reason being is, i have 4-8 gig files i would like to move around on my remote server, and it would take a very long time to move them. unless i do it from vnc on the server itself
+2009-02-27T07:30:00.000Z	musikgoat|main	gorlak	ssh to the remote server and cp/mv
+2009-02-27T07:31:00.000Z	musikgoat|main	gorlak	client/server relationship, just the way it is

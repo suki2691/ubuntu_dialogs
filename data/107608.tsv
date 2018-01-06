@@ -1,0 +1,4 @@
+2008-05-12T03:15:00.000Z	ubuntunovice		why does ubuntu use these funny UUID labels instead of /dev/sdb1 for instance?
+2008-05-12T03:16:00.000Z	RyanPrior	ubuntunovice	The UUID-based fstab is an improvement because it lets you rename your devices without breaking the fstab. You can change it to be the old way if you like, but I don't recommend it.
+2008-05-12T03:18:00.000Z	RyanPrior	ubuntunovice	There are reasons to want to rename devices - why do you want to edit your fstab?
+2008-05-12T03:19:00.000Z	RyanPrior	ubuntunovice	To destructively format a partition, I suggest using dd to copy a massive amount of /dev/urand to fill the whole partition, then shredding the resulting file, then doing a normal format.

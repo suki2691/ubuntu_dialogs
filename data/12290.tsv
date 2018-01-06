@@ -1,0 +1,4 @@
+2012-05-21T23:52:00.000Z	russjr08		Hi guys, quick question that I'm sure I'm overlooking but how do I give my self permission to view a mounted drive that I put in fstab? It seems only root can view it (I placed it in /media)
+2012-05-21T23:52:00.000Z	zykotick9	russjr08	ext or fat/ntfs?
+2012-05-21T23:53:00.000Z	zykotick9	russjr08	then adjust the permission on the mounted folder
+2012-05-21T23:54:00.000Z	zykotick9	russjr08	ownership only has main user and group - so two options.  if you take ownership as user, the other person will be removed

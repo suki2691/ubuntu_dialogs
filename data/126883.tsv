@@ -1,0 +1,4 @@
+2010-02-12T03:27:00.000Z	Pe3k		hello, I can ping any ip address in internet, but can't ping any hostname, who can help? in /etc/resolv.conf I have nameserver <IPaddress> where it is verified working dns server
+2010-02-12T03:28:00.000Z	ikonia	Pe3k	do "nslookup", then "server $ipaddress_of_working_dns_server" then type in a hostname to lookup
+2010-02-12T03:33:00.000Z	Pe3k	ikonia	thanks, I found out with nslookup that I did not have good address of dns server :) now it is already ok
+2010-02-12T03:33:00.000Z	ikonia	Pe3k	well done

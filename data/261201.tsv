@@ -1,0 +1,4 @@
+2006-01-26T13:38:00.000Z	hcatlin		Hey, how can I force the computer to avoid loading the xserver on startup?
+2006-01-26T13:38:00.000Z	hcatlin		And then, how can i startup xserver.
+2006-01-26T13:39:00.000Z	Ng	hcatlin	remove the gdm/kdm/xdm init script symlink from /etc/rc2.d/ and then log into the console and run "sudo /etc/init.d/gdm start" (or xdm or kdm) to start it up again
+2006-01-26T13:43:00.000Z	Ng	hcatlin	if you just want to disable it while you're testing, what I suggested earlier will be fine, and you can recreate the symlink when it's working

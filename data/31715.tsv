@@ -1,0 +1,4 @@
+2010-09-22T01:23:00.000Z	tsolox		 i'm basically, finding out why i cannot talk to another machine.i do traceroute, Does it mean, that first box where time out happens is the culprit?
+2010-09-22T01:23:00.000Z	dlyneswork	tsolox	it could, or it could also mean that the first host responds to the port that traceroute is trying to probe
+2010-09-22T01:24:00.000Z	dlyneswork	tsolox	for a different view, try using traceroute -I
+2010-09-22T01:24:00.000Z	dlyneswork	tsolox	or traceroute -p xx, where xx is a udp port you wish to probe

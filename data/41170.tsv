@@ -1,0 +1,4 @@
+2010-02-19T06:47:00.000Z	flupke		hello, sometimes building .debs with dpkg-buildpackage fails with the vanilla packages taken from the repositories, I guess this must be because of missing dependencies, is there a way to pull them all for a package ?
+2010-02-19T06:48:00.000Z	blakkheim	flupke	aptitude build-dep packagenamehere
+2010-02-19T06:48:00.000Z	flupke	blakkheim	great, thanks I'll try
+2010-02-19T06:51:00.000Z	flupke	blakkheim	I had no missing packages, how is that possible that the bots build the .debs from the source packages ? (or maybe it doesn't work that way?)

@@ -1,0 +1,4 @@
+2008-06-25T17:29:00.000Z	the_eraser		hi i cant get the mouse working with the evdev driver anyone know whats wrong?
+2008-06-25T17:29:00.000Z	jrib	the_eraser	you may want to pastebin your xorg.conf an /var/log/Xorg.0.log
+2008-06-25T17:29:00.000Z	the_eraser	jrib	ok.. gotta learn how to pastebin first hehe :) brb
+2008-06-27T20:11:00.000Z	jrib	the_eraser	you need to use find (and -delete or -exec or pass to xargs) or in nice shell like zsh, you could do rm **/Thumbs.db

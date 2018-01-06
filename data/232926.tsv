@@ -1,0 +1,4 @@
+2011-01-18T04:33:00.000Z	loupe		is there some way to instantly halt the whole machine (without shutting down, etc.)? i'm trying to simulate a catastrophic hardware failure
+2011-01-18T04:35:00.000Z	erUSUL	loupe	pull the power cord ?
+2011-01-18T04:37:00.000Z	erUSUL	loupe	echo "sysrqsequence" | sudo tee /proc/sysrq-trigger
+2011-01-18T04:37:00.000Z	erUSUL	loupe	think again :)

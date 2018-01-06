@@ -1,0 +1,4 @@
+2009-06-21T01:03:00.000Z	optical		Hey all.  How do I give someone SSH access, but no access to a shell?  ie:  I want someone to be able to use SSH tunneling, but don't want to grant them shell access.
+2009-06-21T01:04:00.000Z	cabrey	optical	make their shell true
+2009-06-21T01:05:00.000Z	cabrey	optical	yes it will log them out immediately when they try to log into a shell
+2009-06-21T01:06:00.000Z	cabrey	optical	or you could use nologin, more proper but doesnt make a difference

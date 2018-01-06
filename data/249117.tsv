@@ -1,0 +1,4 @@
+2011-02-23T15:43:00.000Z	b0tz		Hi, I accidently cleared my package cache using ubuntu tweak, I forgot I was supposed to make a APTonCD backup before I did that. when i reload the package cache in aptoncd it doesnt find anything. Can I make a cache again of all apt-installed packages for aptoncd?
+2011-02-23T15:44:00.000Z	cast	b0tz	i don't know what aptoncd is, but unlikely, the debs don't exist on your system now that the cache is cleared
+2011-02-23T15:44:00.000Z	cast	b0tz	there is no way to work backwards and create them from an installed set of packages
+2011-02-23T15:45:00.000Z	cast	b0tz	that seems like a 1 line of sh, kind of program

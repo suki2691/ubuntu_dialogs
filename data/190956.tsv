@@ -1,0 +1,4 @@
+2006-04-15T15:46:00.000Z	alon		when i restart gnome by ctrl+alt+backspace it is changed to text mode, how can i return to gnome graphical mode?
+2006-04-15T15:47:00.000Z	saik0	alon	sudo /etc/init.d/gdm start
+2006-04-15T15:47:00.000Z	alon	saik0	startx seems to be simpler, but thanks although
+2006-04-15T15:47:00.000Z	saik0	alon	startx will run X without the display manager

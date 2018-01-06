@@ -1,0 +1,4 @@
+2011-04-06T22:36:00.000Z	capleton		Hey, I just installed ubuntu server edition (tried twice), but bios goes through, then no grub.  Does anyone know how I could fix this?
+2011-04-06T22:37:00.000Z	Polah	capleton	install grub manually afterwards
+2011-04-06T22:38:00.000Z	capleton	Polah	How?  can I do it from a live cd?
+2011-04-06T22:40:00.000Z	Polah	capleton	Yeah. Mount the drive, then do: grub-install --root-directory=/mount/point /dev/sdX   replace X with the drive you're installing it on

@@ -1,0 +1,4 @@
+2006-11-17T17:22:00.000Z	dcordes		how can i access the filesystem of a windows box connected to my network without having folders shared on it?
+2006-11-17T17:24:00.000Z	zambonie	dcordes	not familiar with the samba method, but in windows you could do it with the "net use" command.
+2006-11-17T17:24:00.000Z	dcordes	zambonie	well i want to connect from my ubuntu to the windows box. not the other way around.
+2006-11-17T17:27:00.000Z	zambonie	dcordes	it may work similar to the following:  smbmount //User:password@workgroupordomain/windowsbox/c /mnt/wherever

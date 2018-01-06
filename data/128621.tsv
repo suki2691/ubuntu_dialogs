@@ -1,0 +1,4 @@
+2007-09-09T09:50:00.000Z	numus		smb helps.. but i am trying to access a samba drive on a windows machine how do i edit fstab to reflect the server
+2007-09-09T09:51:00.000Z	numus		anyone ever mount a samba?
+2007-09-09T09:52:00.000Z	SpudDogg	numus	you need to add a line to your fstab like this ' //ipofwindowsbox/sharename     /pathto/mountpoint     smbfs     user/pass/etc  0 0
+2007-09-09T09:52:00.000Z	numus	SpudDogg	what is sharename and pathto mountpoint

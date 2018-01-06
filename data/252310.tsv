@@ -1,0 +1,4 @@
+2005-04-29T13:37:00.000Z	p0si		got a question about upgrading warty to hoary... changed my sources.list to "deb http://archive.ubuntu.com/ubuntu/ hoary main restricted" and ran apt-get update (successful) but upgrade/dist-upgrade does not find any packages to update. if I try to install something manual it complains about missing dependencies/version-nr -- any ideas/hints for me???
+2005-04-29T13:38:00.000Z	St0n3-C0l	p0si	deb http://archive.ubuntu.com/ubuntu hoary main universe multiverse restricted
+2005-04-29T13:38:00.000Z	St0n3-C0l	p0si	apt-update
+2005-04-29T13:39:00.000Z	St0n3-C0l	p0si	Strange.

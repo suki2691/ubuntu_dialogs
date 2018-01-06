@@ -1,0 +1,4 @@
+2010-07-20T14:43:00.000Z	manje		hi there. in the past, i've been able to copy .deb files into /var/cache/apt/archives from one host onto another, preventing re-downloading of the packages, but trying to do so now, from 9.10 to 10.04 makes no difference. i.e. the upgrade process is downloading all the packages again. has anything changed?
+2010-07-20T14:44:00.000Z	Beyecixramd	manje	well, you need Lucid packages
+2010-07-20T14:45:00.000Z	manje	Beyecixramd	yes, i've copied lucid packages from an already upgraded machine onto the one which i want to upgrade
+2010-07-20T14:45:00.000Z	Beyecixramd	manje	maybe there's a different dir, i'm not sure

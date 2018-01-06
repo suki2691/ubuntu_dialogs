@@ -1,0 +1,4 @@
+2012-01-19T21:57:00.000Z	rabc		just installed latest lubuntu is there any way to update drivers for usb devices usb 2.0 hard drive caddy not showing up
+2012-01-19T21:57:00.000Z	gamerpro2000	rabc	you shouldn't need drivers for a generic USB hard drive caddy.  Does it show up as connected when you run demsg?
+2012-01-19T21:59:00.000Z	gamerpro2000	rabc	dmesg is a terminal command.  It shows the message buffer for the kernel, and since the kernel controls hardware-to-software interaction, it'll tell you if a new device has been connected when it finishes outputting all the other stuff going on.
+2012-01-19T22:02:00.000Z	gamerpro2000	rabc	Make sure the simple stuff is checked before messing with that, though.  Power, Another USB port, etc.

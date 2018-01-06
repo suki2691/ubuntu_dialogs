@@ -1,0 +1,4 @@
+2010-05-11T23:08:00.000Z	isaac_		> I had a number of programs open last night. The RAM requirements were greater than the RAM available. Did I see correctly that Ubuntu killed one of the programs to preserve free RAM?
+2010-05-11T23:09:00.000Z	Nitsuga	isaac_	when there is no free ram, the kernel kills the process with most private ram use, or one of its childs, unless it is niced (high priority) or active,
+2010-05-11T23:10:00.000Z	Nitsuga	isaac_	you can prevent this by adding swap space, but when you run out of memory the system will be realy slow.
+2010-05-11T23:12:00.000Z	Nitsuga	isaac_	if you run out of ram and don't want to wait for the kernel to kill a processs, you can force it to do that with Alt-Print screen-F (F from Full). If your system hangs, you can try that first to unfreeze it.

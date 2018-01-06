@@ -1,0 +1,4 @@
+2006-10-04T05:13:00.000Z	unknown		 now i have only 2 partitions: swap and root, how can i move "home" to a new partition?
+2006-10-04T05:14:00.000Z	kzm	unknown	mount /dev/hdXN /mnt; cp -a /home /tmp/; rm -rf /home/*; umount /mnt; mount /dev/hdXN /home (some caution advised)
+2006-10-04T05:15:00.000Z	unknown	kzm	is there a web site where i can learn to do that?
+2006-10-04T05:15:00.000Z	kzm	unknown	probably, but I have no particular suggestions.  Perhaps a good book on Unix?

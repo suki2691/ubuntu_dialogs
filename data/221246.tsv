@@ -1,0 +1,4 @@
+2006-09-22T06:24:00.000Z	|hate|		need some help only my second day on ubuntu... put xampp on ... how do i change permissions of the files... it wont' let me becuase im not "root"
+2006-09-22T06:25:00.000Z	BlueEagle	|hate|	chown is the way to change owners of files.
+2006-09-22T06:25:00.000Z	BlueEagle	|hate|	Note that some filesystems (like vfat and ntfs) don't support permissions. These you would need to specify when you mount the partition.
+2006-09-22T06:25:00.000Z	BlueEagle	|hate|	Relevant resources: man chown and man mount

@@ -1,0 +1,4 @@
+2008-11-04T18:31:00.000Z	pioSko		NetWork manager / wlan0 Question: in my system-connections config file for my wlan0 I have in the [ipv4] section addresses1=192.168.1.102;24;192.168.1.1    ....     shouldn't it be 192.168.1.102;255.255.255.0;192.168.1.1??
+2008-11-04T18:31:00.000Z	pioSko		i'm connected to router but have no interweb
+2008-11-04T18:32:00.000Z	ActionParsnip1	pioSko	the ;24; bit means /24 which is equivelant to 255.255.255.0
+2008-11-04T18:32:00.000Z	pioSko	ActionParsnip1	thanks

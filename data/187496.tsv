@@ -1,0 +1,4 @@
+2007-12-04T20:57:00.000Z	graelin		what is the safest (read secure) way to give an account r/w privileges to a /dev node? Currently /dev/raw1394 is owned root:disk. Is chown user:disk appropriate?
+2007-12-04T20:58:00.000Z	graelin		or would su/sudo program name be better
+2007-12-04T20:58:00.000Z	ikonia	graelin	its already owned by root:disk, why chown it ?
+2007-12-04T20:58:00.000Z	ikonia	graelin	either put the user in the disk group or change the udev rule

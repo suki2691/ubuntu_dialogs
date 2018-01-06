@@ -1,0 +1,4 @@
+2008-03-30T04:43:00.000Z	amenado		Traveler0-> paste in pastebin your ifconfig; iwconfig; route -n; cat /etc/resolv.conf  and sudo iptables -n -vL
+2008-03-30T04:44:00.000Z	Traveler0	amenado	I'm sorry... what? I just switched to Ubuntu today, so I'm a bit new to using the commands and such.
+2008-04-11T05:55:00.000Z	Traveler0	amenado	so than i will have to get the WAN address (public) before i leave for work and than connect to that? but how will thesystem know which computer is RDP and which is SSH?
+2008-04-11T05:58:00.000Z	amenado	Traveler0	per my suggestion, your ubuntu(router) will get your external ip address, you can ssh from work directly to your ubuntu(router) and if needed to get to windows, you configure your ubuntu to forward request to windows

@@ -1,0 +1,4 @@
+2006-03-09T15:30:00.000Z	heman		how can I activate the dma in linux? from the command line
+2006-03-09T15:30:00.000Z	mwe	heman	hdparm
+2006-03-09T15:32:00.000Z	heman	mwe	and to activate the dma for the cd-rom how can I do it?
+2006-03-09T15:32:00.000Z	mwe	heman	sudo hdparm -d1 /dev/hdc or whatever the device name is

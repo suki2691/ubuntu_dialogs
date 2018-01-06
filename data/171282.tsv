@@ -1,0 +1,4 @@
+2006-08-11T13:04:00.000Z	g-unit		Been trying to configure ldap-auth, but "getent passwd <userid>" returns no data from a known userid on my ldap server. Any help is appreciated.
+2006-08-11T13:04:00.000Z	trappist	g-unit	grep passwd nsswitch.conf
+2006-08-11T13:05:00.000Z	g-unit	trappist	Oops, thought that was done by the script. Let me check.
+2006-08-11T13:09:00.000Z	g-unit	trappist	You're correct, the configure script didn't edit nsswitch.conf. Thanks for the reminder.

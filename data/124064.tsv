@@ -1,0 +1,4 @@
+2009-12-07T22:06:00.000Z	freeride		please help. how do i create iso imahe of a dvd???
+2009-12-07T22:07:00.000Z	freeride		how do i  creat iso image of a DVD
+2009-12-07T22:08:00.000Z	nperry	freeride	cat /dev/scd0 > /home/yourusername/isoname.iso - you need to find out first of all your dir for the dvd and then change the output dir
+2009-12-07T22:09:00.000Z	nperry	freeride	to find the dev location, go to the Main Menu, click on System, mouseover Administration and select System Monitor. Click the File Systems tab. The device name will be listed in the Device column

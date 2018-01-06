@@ -1,0 +1,4 @@
+2005-07-05T15:30:00.000Z	torti-		hm, somehow all programs (like synaptic) who require the root password won't open if i start them under my normal username and enter the password. only if i use a rootshell and export $DISPLAY and use xhost +, which kinda sucks. how can i fix this?
+2005-07-05T15:31:00.000Z	torti-		?
+2005-07-05T15:31:00.000Z	torti-		ehm ok
+2005-07-05T15:31:00.000Z	highvoltage	torti-	gksudoexec

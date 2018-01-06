@@ -1,0 +1,4 @@
+2012-05-05T08:28:00.000Z	tutysra		finally  in the end it says - E: Unmet dependencies. Try 'apt-get -f install' with no packages (or specify a solution)., I did sudo apt-get -f install and  it crashes with this error - " libqt4-test:amd64 4:4.8.1-0ubuntu4.1 cannot be configured because libqt4-test:i386 is in a different version (4:4.8.1-0ubuntu4)"
+2012-05-05T08:29:00.000Z	tutysra		any idea how to resolve this unmet dependencies issue?
+2012-05-05T08:30:00.000Z	dr_willis	tutysra	 libqt-test came from  some ppa? remove it and disable the ppa perhaps.
+2012-05-05T08:34:00.000Z	tutysra	dr_willis	: i installed skype by downloading it from their website (.deb file) and this issue started when skype installation was aborted due to unmet dependencies, tried doing apt-get remove libqt4-test but again apt-get refuses to do anything other than giving the old error and suggesting to run apt-get install -f

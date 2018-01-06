@@ -1,0 +1,4 @@
+2009-04-01T05:12:00.000Z	so20f		any reason why i can't configure my card with iwconfig anymore? it keeps disconnecting from the AP from local choice (dmesg output) but using the network manager program it's flawless. any ideas?
+2009-04-01T05:14:00.000Z	coppro	so20f	You will need to turn networkmanager off to do manual configuration; /etc/init.d/NetworkManager stop
+2009-04-01T05:15:00.000Z	so20f	coppro	i did
+2009-04-01T05:15:00.000Z	so20f	coppro	uninstalled it with apt-get to make sure of that as well. same result.

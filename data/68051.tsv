@@ -1,0 +1,4 @@
+2011-08-29T18:44:00.000Z	bfig		how can i recover a job i ^Z'ed in graphical mode?
+2011-08-29T18:44:00.000Z	bfig		(i accidentally pressed ^Z in gvim)
+2011-08-29T18:45:00.000Z	bfig		if i was in a terminal i could just use fg or bg or jobs or something, but in the gui i 'lost' it
+2011-08-29T18:45:00.000Z	frostschutz	bfig	then you most likely closed it. check ps -A | grep gvim

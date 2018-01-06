@@ -1,0 +1,4 @@
+2008-02-22T03:06:00.000Z	Tim000		is my deleting dyntax correct? I'm trying to delete a bunch of jpg files with the command
+2008-02-22T03:07:00.000Z	Tim000		is my deleting dyntax correct? I'm trying to delete a bunch of jpg files with the command "rm -rf *.jpg" but when I do "ls -R | grep jpg" afterwards it still finds files
+2008-02-22T03:08:00.000Z	LjL-Temp	Tim000	you can't recursively remove like that. your command will only remove files in the *current* directory that are named something.jpg, and recursively removed *directories* which are themselves named something.jpg
+2008-02-22T03:08:00.000Z	LjL-Temp	Tim000	if you want to remove recursively, you should probably use "find"

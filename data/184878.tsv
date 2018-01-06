@@ -1,0 +1,4 @@
+2011-04-29T17:17:00.000Z	vibhav		sarge : serge rp-filter uses the routing table to decide which source addresses are accepted through an interface. Packets will be accepted not only if they originate from the connected network, but also if they originate from a network that (according to the routing table) is connected via that network.
+2011-04-29T17:18:00.000Z	sarge	vibhav	i need to disable rp_filter functioning in order to setup Transparent Proxy though WCCPV2 with my ASA cisco box
+2011-04-29T17:19:00.000Z	sarge	vibhav	they are not compatiable
+2011-04-29T17:19:00.000Z	sarge	vibhav	alright

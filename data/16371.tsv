@@ -1,0 +1,4 @@
+2012-05-12T12:07:00.000Z	szerzetes		hi, I have Xubuntu 12.04, i start script with #! /bin/bash and terminal say: "/bin/bash^M: bad interpreter: No such file or directory
+2012-05-12T12:07:00.000Z	szerzetes		" but this is exists
+2012-05-12T12:07:00.000Z	szerzetes		what's wrong?
+2012-05-12T12:08:00.000Z	nopf	szerzetes	remove the ^M at the end of line. you edited that with a windows/dos machine or such it seems...

@@ -1,0 +1,4 @@
+2005-08-01T13:48:00.000Z	feugan3333		Hi all. Is there any reason why /var/www is owned by root and not the www-data user?
+2005-08-01T13:49:00.000Z	dabaR	feugan3333	dont let www-data own anything.
+2005-08-01T13:50:00.000Z	dabaR	feugan3333	he is not to own anything, cause he can be compromised, whatever wahtever, bla bla,. just make the files under /var/www readable to all, folders read+exec to all
+2005-08-01T13:51:00.000Z	dabaR	feugan3333	ask on #debian, I dont think you can get an answer for that here, but, please try...

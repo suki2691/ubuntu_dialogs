@@ -1,0 +1,4 @@
+2007-11-28T04:01:00.000Z	Ruud		Is there anybody here who knows about the fstab file and how I can get the mounted volumes to be writable??
+2007-11-28T04:01:00.000Z	neverblue	Ruud	what type of partition is it ?
+2007-11-28T04:01:00.000Z	Ruud	neverblue	primary ext3
+2007-11-28T04:02:00.000Z	neverblue	Ruud	sudo nano /etc/fstab, add an entry, then try 'sudo mount -a' to confirm the mount is syntically correct

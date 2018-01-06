@@ -1,0 +1,4 @@
+2011-03-04T21:14:00.000Z	sacarlson1		is there a way that I don't have to enter the passphrase for this sudo cryptsetup --key-file /dev/shm/password.txt luksOpen /dev/loop0 ; even when I give it the password it still wants me to type it
+2011-03-04T21:15:00.000Z	waxrose	sacarlson1	You mean so you don't have to constantly type the same passphrase for each partition?
+2011-03-04T21:15:00.000Z	sacarlson1		opps wrong line this one sudo cryptsetup --key-file /dev/shm/password.txt luksFormat /dev/loop0
+2011-03-04T21:16:00.000Z	sacarlson1	waxrose	yes I never want to type the password it will come from an encrypted online source

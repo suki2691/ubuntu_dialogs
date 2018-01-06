@@ -1,0 +1,4 @@
+2007-12-02T18:16:00.000Z	GDhoore		my newly compiled kernel is having trouble accessing my encrypted root partition.  Error is: "cryptsetup:  Source device (uuid of the disk) not found".  Old kernels still boot fine.
+2007-12-02T18:17:00.000Z	sethk	GDhoore	I'd guess that a driver is missing, either for the device itself, or another device, so that the uuid changes
+2007-12-02T18:18:00.000Z	GDhoore	sethk	 I'm fairly sure I have the appropriate drivers compiled.  dm-crypt and its lot are there for certain.  Let me go through the config again and see if I missed anything
+2007-12-02T18:19:00.000Z	sethk	GDhoore	worth checking.

@@ -1,0 +1,4 @@
+2012-07-03T14:55:00.000Z	geirha	temp	The main problem with that is that cron does not have any knowledge of your Xserver. To run a graphical program, it must have an Xserver.
+2012-07-03T14:56:00.000Z	geirha	temp	The easiest way I can think of is to write a script that runs an infinite loop and spawns a vlc at a given time. Then you run this script from startup applications
+2012-07-03T14:59:00.000Z	temp	geirha	thanks would try that
+2012-07-03T15:00:00.000Z	geirha	temp	What's the goal? run a certain video file at a given time each day?

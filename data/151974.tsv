@@ -1,0 +1,4 @@
+2009-02-19T17:16:00.000Z	IntuitiveNipple	Favorit	Stueh: It is indefinitely unless the user chooses to clear out the cache. We have had a long-standing bug that affects in particular ubuntu+1 testers where /var/ runs out of disk space as a result :)
+2009-02-19T17:17:00.000Z	Favorit	IntuitiveNipple	hehe, i keep forgetting about that cache all the time, actually :) Sometimes takes me a while to figure where the hell did the space on /var disappear while there're really no applications that spit in there, not even logging :)
+2009-02-19T17:18:00.000Z	IntuitiveNipple	Favorit	Yeah... I have the apt cache in a separate LVM volume just to protect against /var/ running out of space
+2009-02-19T17:18:00.000Z	Favorit	IntuitiveNipple	that's a good one actually! Should do that as well

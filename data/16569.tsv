@@ -1,0 +1,4 @@
+2011-04-27T18:53:00.000Z	vincenzoml		so, all: I narrowed my problem. I have this usb modem. What I need to make it work is to first "rmmod option" and then insert the usb stick. How can I do something like that when I insert the usb stick itself? Seems difficult but that will make the difference for the user, who just switched from windows.
+2011-04-27T18:55:00.000Z	vincenzoml		googling for "option kernel module" is hard...
+2011-04-27T18:55:00.000Z	jatt	vincenzoml	take a look at /etc/modprobe.d/blacklist*
+2011-04-27T18:55:00.000Z	vincenzoml	jatt	if I blacklist the module then it would not be inserted even when I insert the usb stick, right?

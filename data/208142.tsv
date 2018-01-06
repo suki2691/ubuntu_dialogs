@@ -1,0 +1,4 @@
+2005-11-09T17:57:00.000Z	budluva		is there anyway to eject my dvd drive via console? eject button isnt working
+2005-11-09T08:38:00.000Z	budluva		can someone give me a hand here? i have a tnt2 and i ran the nvidia 7174 installer (*.run) and it compiled fine, after installation, remove Load "dri" and Load "GLcore" and add Load "glx" also replaced "nv" with "nvidia" saved, startx, x failed because could not load nvidia kernel module, screen found, but non have usable configuration
+2005-11-09T08:38:00.000Z	budluva		any suggestions?
+2005-11-09T08:39:00.000Z	penguinbrat	budluva	run the dmesg command, there should be some lines at the bottom complaining about something when you tried to run X - when the nvidia module was attempted to be laoded

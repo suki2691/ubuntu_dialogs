@@ -1,0 +1,4 @@
+2010-07-16T15:56:00.000Z	airtonix	matt____	assuming it's in your ~/Download folder : chmod +x ~/Download/NVIDIA-Linux-x86-256.35.run
+2010-07-16T15:57:00.000Z	matt____	airtonix	done, next step?
+2010-07-16T15:59:00.000Z	airtonix	matt____	you'll need to stop the x server and then you need to run the file. so : 1) press ctrl + alt + f1 (this will switch to a fullscreen terminal screen where you need to login) 2) login 3) then run the drier installer (assuming it's in your ~/Download folder ) sudo sh ~/Download/NVIDIA-Linux-x86-256.35.run
+2010-07-16T16:00:00.000Z	airtonix	matt____	stopping the x server will also log you out from the gui desktop

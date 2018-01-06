@@ -1,0 +1,4 @@
+2012-06-27T19:57:00.000Z	i38		help: trying to understand ubuntu and multi core cpus. do i still need an smp kernel to make it work? or is it only for older versions? uname says "generic", will this work?
+2012-06-27T19:57:00.000Z	alankila	i38	smp vanished long time ago.
+2012-06-27T19:58:00.000Z	i38	alankila	thanks :)
+2012-06-27T19:58:00.000Z	alankila	i38	a runtime kernel patching technology was designed that can convert smp kernels into uniprocessor kernels when smp is not desired, which eliminated the performance impact that harmed uniprocessor

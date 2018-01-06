@@ -1,0 +1,4 @@
+2005-03-03T06:14:00.000Z	Wop2		Does anyone know how I could change the resolution of he ubuntu login screen?
+2005-03-03T06:16:00.000Z	Wop2		How could I change the resolution of the ubunutu login screen?
+2005-03-03T06:17:00.000Z	Xappe	Wop2	gdm uses the first resolution in the xf86config or xorg.conf
+2005-03-03T06:19:00.000Z	Xappe	Wop2	sudo gedit /etc/X11/<configfile>

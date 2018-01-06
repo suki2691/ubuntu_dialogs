@@ -1,0 +1,4 @@
+2008-02-15T04:48:00.000Z	sam1am		Can someone tell me how to make ubuntu request a new dhcp lease from my router?
+2008-02-15T04:49:00.000Z	sam1am		I have given it a static lease from the router, but it is having a hard time letting go of the old IP
+2008-02-15T04:49:00.000Z	astro76	sam1am	with dhclient, not sure of the syntax
+2008-02-15T04:49:00.000Z	astro76	sam1am	yeah ifdown and ifup would do it too

@@ -1,0 +1,4 @@
+2009-06-04T05:29:00.000Z	regeya		awright, anyone else here have success booting a jaunty system with the root partition a.) on an lvm2 volume and b.) formatted as ext4?
+2009-06-04T05:31:00.000Z	regeya		awright...for some reason when I rebuild the initrd, /sbin/lvm isn't getting copied in; I'm seriously thinking of just building an initrd by hand 'coz it's not working here...
+2009-06-04T05:31:00.000Z	matrixblue	regeya	using ext4 but not sure if I'm using lvm2
+2009-06-04T05:31:00.000Z	regeya	matrixblue	if you're not sure, then you're not :-)

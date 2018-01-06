@@ -1,0 +1,4 @@
+2008-01-31T20:04:00.000Z	STM		hi all, could someone explain why accessing my samba shares on a windows computer results in a request for a username and password?
+2008-01-31T20:06:00.000Z	devilsadvocate	STM	how are you trying to access the shares. More often than not, nautilus on my computer is able to discover the shares quite easily (unless its set to require user authentication, of course). You will see some other folders there too.. comething like C$ and stuff that are not the usual samba shares. I have no idea whose fault it is that they show up (or who wants them to show up)
+2008-01-31T20:06:00.000Z	STM	devilsadvocate	i'm accessing directories on my ubuntu laptop from my windows PC
+2008-01-31T20:08:00.000Z	devilsadvocate	STM	- ah. The last time i trried doing that it didnt work unless i setup authentication

@@ -1,0 +1,4 @@
+2011-08-14T12:58:00.000Z	RKyle		I don't know if this has anything to do with it but it probably does but I installed kubuntu-desktop and removed ubuntu-desktop and when I logged in it looked like it is trying to use the default ubuntu desktop with the theme but there are no menus however everything else still works fine. Do I need to set KDE to be the default session or something and if so how do I do it or is this even the problem?
+2011-08-14T12:59:00.000Z	milamber	RKyle	you can't really remove ubuntu-desktop as it is a meta package. you should be able to select your session from the login screen
+2011-08-14T13:00:00.000Z	RKyle	milamber	When I ran 'apt-get remove ubuntu-desktop' the command worked fine and didn't return any errors and I know I can but I want to set KDE as the default.
+2011-08-14T13:04:00.000Z	milamber	RKyle	echo startkde > ~/.xinitrc

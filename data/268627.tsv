@@ -1,0 +1,4 @@
+2004-09-28T06:51:00.000Z	lenkki		Any one of the developers here ?
+2004-09-28T06:52:00.000Z	lenkki		Might I suggest the use of a separate /boot partition, and reiserfs3 (or reiser4) for '/' ?
+2004-09-28T06:53:00.000Z	Kamion	lenkki	The defaults are best left vanilla, we think; ReiserFS and XFS both have both very vocal advocates and very vocal detractors, so choosing either by default would be likely to annoy a lot of people.
+2004-09-28T06:54:00.000Z	Kamion	lenkki	You can set it up as you like with the manual partitioner, of course.

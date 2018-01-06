@@ -1,0 +1,4 @@
+2005-12-07T16:43:00.000Z	tk401		can someone help with grub please?
+2005-12-07T16:45:00.000Z	tk401		please help with GRUB: i have kubuntu dapper drake installed on hda1 with grub in the MBR and I have breezy on hda3, but it want grub to load from menu.lst on hda3 not hda1
+2005-12-07T16:47:00.000Z	hlen	tk401	what i'd try to do is let grub use hda1 and merge the relevant sections from (hda3)/path/to/menu.lst to (hda1)/path/to/menu.lst. but that's me.
+2005-12-07T16:48:00.000Z	tk401	hlen	thank you, dapper drake setup already did that, but since i use breezy mainly, i wanted to take advantage of automatic grub menu entries for new kernels

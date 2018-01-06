@@ -1,0 +1,4 @@
+2008-04-28T21:39:00.000Z	justdave		So I have a Mac Mini that I just installed Ubuntu Hardy on from scratch.  It's hooked up to a TV via the composite output, but xorg is misdetecting the screen size.  the xorg.conf file looks like it's supposed to pass things through to an autoconfig thing instead of specifying it in the config these days (probably a good thing in general).  So where's the proper place to override the screen size nowadays?
+2008-04-28T21:39:00.000Z	ikonia	justdave	in the xorg.conf
+2008-04-28T21:40:00.000Z	justdave	ikonia	specifically for hardy or is that a pre-hardy answer?  xorg.conf looks different in hardy. :)
+2008-04-28T21:40:00.000Z	ikonia	justdave	for both

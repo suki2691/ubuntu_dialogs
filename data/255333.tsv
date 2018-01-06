@@ -1,0 +1,4 @@
+2005-04-28T15:30:00.000Z	jnk	tm17h	dpkgk -S filename  ? but if it's not here maybe the package is not installed
+2005-04-28T15:31:00.000Z	tm17h	jnk	Right -- I thought there might be some magic to figure out *which* package isn't installed based on the filename I know ought to exist.
+2005-04-28T15:31:00.000Z	jnk	tm17h	not with dpkg then. Some apt tool I don't know which
+2005-04-28T15:33:00.000Z	tm17h	jnk	Perhaps apt-cache search or some such... I'll give it a go and see if I have any luck.

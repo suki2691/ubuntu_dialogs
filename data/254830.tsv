@@ -1,0 +1,4 @@
+2006-11-11T12:26:00.000Z	dks_matt		can anybody tell me how to reconfigure/reinstall alsa?
+2006-11-11T12:27:00.000Z	carthik	dks_matt	alsaconf from the commandline I think
+2006-11-11T12:28:00.000Z	carthik	dks_matt	if you want to reinstall it, use sudo apt-get install --reinstall <whatever>
+2006-11-11T12:29:00.000Z	carthik	dks_matt	apt-cache search alsa will tell you what packages have "alsa" in their name.... reinstall the one that you think you need.

@@ -1,0 +1,4 @@
+2007-10-29T20:30:00.000Z	cblack0		I did an upgrade with do-release-upgrade and it got interrupted. Now my system doesn't fully boot up (no xdm, no ssh daemon, etc). I tried to rerun do-release-upgrade but it failed. Is there a way to force rerunning of whatever scripts should be run to get my system in a working state?
+2007-10-29T20:30:00.000Z	John_R	cblack0	apt-get -f install
+2007-10-29T20:30:00.000Z	John_R		?
+2007-10-29T20:31:00.000Z	cblack0	John_R	thanks

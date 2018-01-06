@@ -1,0 +1,4 @@
+2010-08-23T01:10:00.000Z	Roasted		Hey guys. I was using some utilities to test my works security with wireless, but I have several "monitor" sessions open - or something? Ifconfig yields like 5 instances of "mon0, mon1, mon2" etc. How can I disable these?
+2010-08-23T01:11:00.000Z	[thor]	Roasted	killall mon0 && killall mon1 && killall mon2
+2010-08-23T01:11:00.000Z	Roasted	[thor]	they are not processes. They're my wifi device in monitor mode.
+2010-08-23T01:20:00.000Z	Roasted	[thor]	they are not processes. They're my wifi device in monitor mode.

@@ -1,0 +1,4 @@
+2012-08-26T00:19:00.000Z	DanS		I could really use some help here..  If I've installed libcups by typing "sudo apt-get install libcups2-dev libcupsimage2-dev"  How can I find the path which that's been installed to?
+2012-08-26T00:20:00.000Z	DanS		as i have something to compile that needs to be pointed to that path.. which in ubuntu 11 was /usr/lib/x86_64-linux-gnu but that doesn't exist now
+2012-08-26T00:21:00.000Z	trism	DanS	dpkg -l package_name;
+2012-08-26T00:21:00.000Z	trism	DanS	sorry, dpkg -L package_name

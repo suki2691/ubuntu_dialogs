@@ -1,0 +1,4 @@
+2011-09-18T16:07:00.000Z	spacebug-		can you really read från /dev/null ??
+2011-09-18T16:08:00.000Z	spacebug-		from*
+2011-09-18T16:08:00.000Z	spacebug-		I think I tried to use /dev/null and that did not work so I had to use /dev/zero
+2011-09-18T16:09:00.000Z	Polah	spacebug-	Yes, it provides no data when read from, so when dd reads from it, for example, it has no data as an input so it writes no data (blanks it) as an output

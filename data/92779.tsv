@@ -1,0 +1,4 @@
+2009-04-29T09:31:00.000Z	ekimmargni		How does one restart X?
+2009-04-29T09:31:00.000Z	fde	ekimmargni	it has an entirely different interface similar to cell phones and stuff
+2009-04-29T09:32:00.000Z	fde	ekimmargni	/etc/init.d/gdm restart ...
+2009-04-29T09:38:00.000Z	fde	ekimmargni	you loook in /var/log/Xorg.0.log and gdm.log and see what went wrong

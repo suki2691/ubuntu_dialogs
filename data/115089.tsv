@@ -1,0 +1,4 @@
+2008-05-24T18:13:00.000Z	Steve-cal		Can someone tell me what the advantage/disadvantage is of using UUID to specify my drives to mount on startup in my fstab file? Why not simply specify the device as /dev/hdaX or similar?
+2008-05-24T18:13:00.000Z	[swb]	Steve-cal	they may chanfge positions
+2008-05-24T18:13:00.000Z	[swb]	Steve-cal	for example, if you change master to slae or change the cable they are on, the sdX will change, so all your mountpoints and grub and boot image would be all wrong
+2008-05-24T18:15:00.000Z	[swb]	Steve-cal	now you've lost me, I know why its there, but I dont know how to use it properly!

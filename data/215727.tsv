@@ -1,0 +1,4 @@
+2007-12-07T00:33:00.000Z	manolo		hi. Is there someone who knows how to list the current list of ALL users on system? (not just the curently connected ones). Thanks a lot.
+2007-12-07T00:34:00.000Z	soundray	manolo	cat /etc/passwd
+2007-12-07T00:34:00.000Z	soundray	manolo	better yet: cat /etc/passwd | cut -d ":" -f 1
+2007-12-07T00:35:00.000Z	manolo	soundray	thanks a lot ;)

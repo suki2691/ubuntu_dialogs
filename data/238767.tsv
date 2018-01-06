@@ -1,0 +1,4 @@
+2005-05-03T13:15:00.000Z	Olsen		i'm trying to umount /dev/hdc1 from /mnt and says that is busy... how can i know what process is using /mnt or how can i force it?
+2005-05-03T13:16:00.000Z	k-dog	Olsen	fuser -mv /dev/hdc1
+2005-05-03T13:16:00.000Z	Olsen	k-dog	thx
+2005-05-03T13:17:00.000Z	Olsen	k-dog	i got nothing as output

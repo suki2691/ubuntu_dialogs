@@ -1,0 +1,4 @@
+2006-01-23T07:06:00.000Z	stian		can anyone explain to me how i set a password for my mysql server in ubuntu? im new to this, and googling havent gotten me anywhere (yet anyways)
+2006-01-23T07:08:00.000Z	stian		error: 'Access denied for user: 'root@localhost' (Using password: YES)'
+2006-01-23T07:09:00.000Z	lowman62	stian	did you start mysql?
+2006-01-23T07:13:00.000Z	lowman62	stian	check to see how many mysql config files you have ...if you have more than one rename one to my.conf and edit it appropriately

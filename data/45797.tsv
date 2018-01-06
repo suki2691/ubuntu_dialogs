@@ -1,0 +1,4 @@
+2010-07-07T10:00:00.000Z	SoftwareExplorer		Hi. I normally keep backups, but last week my backups drive died. Today, the main folder that I store pictures in went blank. It's an ext3 filesystem. Any suggestions?
+2010-07-07T10:01:00.000Z	Jordan_U	SoftwareExplorer	Try an fsck, and use the "locate" command to make sure the files didn't just get moved anywhere. If that doesn't work check /lost+found and try photorec.
+2010-07-07T10:02:00.000Z	SoftwareExplorer	Jordan_U	Ok, will do. I'm starting a fsck right now. Thanks!
+2010-07-07T10:02:00.000Z	Jordan_U	SoftwareExplorer	You're welcome.

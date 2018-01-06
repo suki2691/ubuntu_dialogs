@@ -1,0 +1,4 @@
+2010-04-12T12:34:00.000Z	ezequiel		I have formatted my 160 GB external usb HDD using disk utility in FAT filesystem, it works in ubuntu but it doesn't work in computers running windows xp, anyone knows why this happening???
+2010-04-12T12:34:00.000Z	red2kic	ezequiel	Any particular reason why you're using FAT format?
+2010-04-12T12:36:00.000Z	red2kic	ezequiel	FAT32? Ubuntu is capable of using NTFS btw.
+2010-04-12T12:38:00.000Z	red2kic	ezequiel	Run "sudo blkid" -- What does it say about your hard drive?  fat32?

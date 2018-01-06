@@ -1,0 +1,4 @@
+2010-09-08T18:50:00.000Z	rwat	SmokeyD	I think you might have better success if you add it as a launcher on the panel
+2010-09-08T18:51:00.000Z	SmokeyD	rwat	hmm, ok. I don't really want to though. But I'll check. So no way to do that with a desktop script?
+2010-09-08T18:52:00.000Z	rwat	SmokeyD	this is a shell script?
+2010-09-08T18:57:00.000Z	SmokeyD	rwat	yes it is indeed a shell script. I fixed it by moving the scripts to ~/bin and then creating launchers on the desktop with the command 'gnome-terminal -e "~/bin/shellscript.sh"'

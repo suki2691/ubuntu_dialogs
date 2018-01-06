@@ -1,0 +1,4 @@
+2006-12-21T16:03:00.000Z	mzanfardino		question: what file should I modify if I want an application to load when my ubuntu server boots?  Currently I have a reference in my .bashrc, but this requires that I log in, and I need the server to launch my app at book (note: no desktop)
+2006-12-21T16:04:00.000Z	Rug	mzanfardino	many ways:  cron, Admin -> Startup
+2006-12-21T16:06:00.000Z	Rug	mzanfardino	sudo chmod +x file
+2006-12-21T16:07:00.000Z	mzanfardino	Rug	ls -l shows /etc/rc.local is +r (-rwxr-xr-x actually)

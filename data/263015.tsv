@@ -1,0 +1,4 @@
+2005-08-10T10:16:00.000Z	Funzo		can anybody tell me where to find a amd64 binary version of wine?
+2005-08-10T10:17:00.000Z	mjr	Funzo	you don't
+2005-08-10T10:18:00.000Z	mjr	Funzo	wine doesn't emulate the underlying hardware; it needs to run as a 32-bit binary to provide a 32-bit environment for the windows programs
+2005-08-10T10:19:00.000Z	mjr	Funzo	things are being done to support 64-bit windows binaries on a 64-bit wine, but the official stance seems to be that people should just run a 32-bit wine to run 32-bit windows apps

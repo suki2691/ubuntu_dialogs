@@ -1,0 +1,4 @@
+2009-11-22T00:00:00.000Z	mib_mib		hi guys - i'm trying to use wget to recursively download a bunch of links for a site; how do I change the behavior so that what it stores are full links, instead of like a directory structure like www.google.com (directory) -> shoppinglist?hl=en_US, when in reality i just want a link like www.google.com/shoppinglist?hl=en_US
+2009-11-22T00:01:00.000Z	BlueEagle	mib_mib	I think that exact question is answered in the manual for wget
+2009-11-22T00:08:00.000Z	mib_mib	BlueEagle	i see wget -B which is supposed to append the 'base' but that is only when used with the -i option from a file i thought
+2009-11-22T00:12:00.000Z	BlueEagle	mib_mib	Hmm.. It looks that I was mistaking. Sorry.

@@ -1,0 +1,4 @@
+2007-08-22T07:11:00.000Z	ubuntu_		how do i fix my fstab
+2007-08-22T07:12:00.000Z	ubuntu_		i reformatted my /home and i cant boot now
+2007-08-22T07:14:00.000Z	boabsta	ubuntu_	did you format it with a different FS than before? if so you'll just need to update your /etc/fstab
+2007-08-22T07:15:00.000Z	boabsta	ubuntu_	edit /etc/fstab to update with the new FS

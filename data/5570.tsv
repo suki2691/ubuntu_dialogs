@@ -1,0 +1,4 @@
+2012-02-16T03:46:00.000Z	kostasz		I installed xubuntu 11.10 on one drive divided into 3 partitions: one for windows7, one for data and one for linux. However, I couldn't set my data partition to be NTFS so it could be seen by both systems. After installing Xubuntu I changed it using GParted to NTFS and after that it is no a problem while Xubuntu is booting
+2012-02-16T03:47:00.000Z	hatop	kostasz	make sure your fstab is updated to reflect the change in format
+2012-02-16T03:48:00.000Z	hatop	kostasz	first I'd check it, then you can manually edit if necessary
+2012-02-16T03:52:00.000Z	hatop	kostasz	using apt-cache search

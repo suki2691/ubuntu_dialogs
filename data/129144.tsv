@@ -1,0 +1,4 @@
+2007-07-10T13:44:00.000Z	kwtm		If no one knows how to downgrade a .deb package to an earlier version (assuming that I have the .deb file stored on the hard drive), can someone point me to a web site where I might find out?
+2007-07-10T13:44:00.000Z	pimp31415	kwtm	can you take the other one out first?
+2007-07-10T13:45:00.000Z	kwtm	macogw	Thanks!  Will try.
+2007-07-10T13:45:00.000Z	pimp31415	kwtm	dpkg --force -i package.deb

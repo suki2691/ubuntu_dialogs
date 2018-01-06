@@ -1,0 +1,4 @@
+2012-07-01T02:34:00.000Z	kristenB		I would like to copy a file from machine C (which can only be accessed through machine B) to machine A, using say rsync (through ssh). How can I do that in one move, without having to copy the file to machine B?
+2012-07-01T02:35:00.000Z	ratcheer	kristenB	Maybe scp will do that.
+2012-07-01T02:36:00.000Z	kristenB	ratcheer	I don't want scp because it doesn't care whether the file as been modified or not. But even so, how would you do it in scp ?
+2012-07-01T02:37:00.000Z	ratcheer	kristenB	I honestly don't remember. It has been more than three years since I did it.

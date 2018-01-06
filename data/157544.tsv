@@ -1,0 +1,4 @@
+2007-03-07T09:56:00.000Z	Coyote{x}		I have an MSI graphics card that evidently uses an nvidia chipset of some sort, it says unknown device, is there some way I can get more info out of LSPCI about the device?
+2007-03-07T09:56:00.000Z	mjunx	Coyote{x}	try using lshw
+2007-03-07T09:58:00.000Z	mjunx	Coyote{x}	try lshal
+2007-03-07T09:59:00.000Z	mjunx	Coyote{x}	or try lspci -vv

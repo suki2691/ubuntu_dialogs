@@ -1,0 +1,4 @@
+2011-02-24T11:00:00.000Z	Golden		is there a way to lock in what /dev/sdX a paticular drive gets?
+2011-02-24T11:02:00.000Z	usr13_	Golden	You can but would have to override plugdev and make a fstab entry for it.
+2011-02-24T11:03:00.000Z	usr13_	Golden	What exactly are you trying to accomplish?
+2011-02-24T11:05:00.000Z	Golden	usr13_	 I wan't to get my arrays back online after rebooting without having to mdadm --assemble /dev/md0 /dev/sda1 /dev/sdb1 /dev/sdc1 /dev/sde1 .. and then mount /dev/md0 /mnt/FastRaid5 .. each time

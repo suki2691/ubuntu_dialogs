@@ -1,0 +1,4 @@
+2007-05-04T13:41:00.000Z	faisal_d		How do you grant/revoke sudo privileges from a user through the terminal?
+2007-05-04T13:43:00.000Z	mwe	faisal_d	sudo gpasswd -a user admin or sudo gpasswd -d user admin
+2007-05-04T13:44:00.000Z	faisal_d	mwe	thanx :)
+2007-05-04T13:44:00.000Z	mwe	faisal_d	on a default setup being a member of the admin group determines if you're allowed to use sudo

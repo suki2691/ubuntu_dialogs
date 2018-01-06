@@ -1,0 +1,4 @@
+2007-06-20T14:46:00.000Z	hwilde		is there a way to log the initial boot messages, before the rc messages in /var/log/boot ?
+2007-06-20T14:46:00.000Z	hwilde		!audio | javabyte
+2007-06-20T14:47:00.000Z	mwe	hwilde	dmesg is the closest you get. compile your kernel with debugging options if you need more info I think
+2007-06-20T14:47:00.000Z	mwe	hwilde	/var/log/dmesg should keep it

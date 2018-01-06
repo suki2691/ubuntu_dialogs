@@ -1,0 +1,4 @@
+2009-10-25T19:40:00.000Z	Anathema		hello, I have a cron job that keeps sending me mail even though I appended >& /dev/null to the end of it's line in crontab and restarted crond
+2009-10-25T19:41:00.000Z	geirha	Anathema	>& and &> is bash-syntax. cron uses sh, not bash. The equivalent for sh is: >/dev/null 2>&1
+2009-10-25T19:42:00.000Z	Anathema	geirha	oh thanks, I didn't know the difference, I'll try that :)
+2009-10-25T19:45:00.000Z	Anathema	geirha	thank you very much, that seems to of worked

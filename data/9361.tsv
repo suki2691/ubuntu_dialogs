@@ -1,0 +1,4 @@
+2012-05-07T20:00:00.000Z	Icculus		Hi everyone. I have a quick question. I've been reading up on the Xen Hypervisor and have an idea. I can figure out the details on my own, but before I start the project, I wanted to figure out if I was wasting my time from the get go...
+2012-05-07T20:01:00.000Z	Icculus		I want to set it up so I have a Windows 7 virtual machine running on top of Xen that can run DirectX11 at full speed. Is it possible to give the guest client access to the GPU with a full pass through?
+2012-05-07T20:01:00.000Z	openvoid	Icculus	there is passtrough of gpu to xen
+2012-05-07T20:04:00.000Z	openvoid	Icculus	yes you can, i tried to do so two months ago, but xen was broken in ubuntu, not tried it in 12.04 yet

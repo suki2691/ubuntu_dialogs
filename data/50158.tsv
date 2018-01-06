@@ -1,0 +1,4 @@
+2009-10-31T21:06:00.000Z	ollie___		Hey, how can i check to see what my disk drive can do? ie can it write / rewrite dvds etc?
+2009-10-31T21:07:00.000Z	ollie___		Thanks :)
+2009-10-31T21:07:00.000Z	MsMaco	ollie___	"sudo lshw | less" then type "/cdrom" to scroll down to that part
+2009-10-31T21:07:00.000Z	MsMaco	ollie___	there'll be a "capabilities: " line a bit below it

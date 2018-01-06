@@ -1,0 +1,4 @@
+2009-01-10T12:06:00.000Z	whitedox		What filesystem does Ubuntu use?
+2009-01-10T12:07:00.000Z	whitedox		I am using a default install of Hardy. Straight off the disc.
+2009-01-10T12:09:00.000Z	whitedox		So...If I installed Ubuntu Hardy fresh off the disc, then it is ext3? Or is there a way to check?
+2009-01-10T12:10:00.000Z	rww	whitedox	Yes, by default it's ext3. You can check by running "mount" and looking at the "type" of the partitions you care about.

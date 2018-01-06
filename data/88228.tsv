@@ -1,0 +1,4 @@
+2008-06-08T06:06:00.000Z	killux		hey, I have a music folder on my windows hard drive. I would like to my a symbolic link to this folder in ubuntu. How can I do this so that everytime I boot up, the folder will still be there. also if I add to this folder, will the music be uploaded to my windows folder
+2008-06-08T06:07:00.000Z	sandaruwan	killux	is your windows drive mounted?
+2008-06-08T06:08:00.000Z	sandaruwan	killux	after it's mounted use the "ln" command Odd-rationale mentioned
+2008-06-08T06:11:00.000Z	sandaruwan	killux	you'll have to edit /etc/fstab

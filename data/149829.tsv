@@ -1,0 +1,4 @@
+2011-07-29T16:29:00.000Z	ansumanb		What is the version of python in ubuntu 11.04
+2011-07-29T16:30:00.000Z	Pici	ansumanb	2.7
+2011-07-29T16:31:00.000Z	Pici	ansumanb	python2.5 and 2.6 are also in the repos, as is 3.1 and 3.2
+2011-07-29T16:34:00.000Z	Pici	ansumanb	I wouldn't do it globally, as many things in Ubuntu use python, and may require a specific version.  You can use #!/usr/bin/env python2.5   (or whatever) at the top of your scripts to force a particular version (assuming you have that installed of course)

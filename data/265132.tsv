@@ -1,0 +1,4 @@
+2005-11-25T07:58:00.000Z	aru		so after a drive is formatted and partitions created what is the next step to get it mounted to where I can copy stuff to it
+2005-11-25T07:59:00.000Z	egon_spengler	aru	Choose to create a directory of some sort as a mount point, then issue the mount command as root
+2005-11-25T07:59:00.000Z	egon_spengler	aru	E.g. mkdir /mnt/drive_d then sudo mount /dev/hdb /mnt/drive_d
+2005-11-25T07:59:00.000Z	aru	egon_spengler	I did that, but once the drive is mounted, the users cannot access the drive

@@ -1,0 +1,4 @@
+2008-07-14T23:19:00.000Z	Funcan		Evening all... if you were daft enough to install with no swap partition, is there a gui for adding a swapfile easily?
+2008-07-14T23:21:00.000Z	sipior	Funcan	i don't believe there is a gui for that, but you can easily make one with dd, mkswap and swapon
+2008-07-14T23:25:00.000Z	sipior	Funcan	to be more specific: "dd if=/dev/zero of=swapfile bs=1024 count=1000000" makes a gigabyte (empty) file, "mkswap swapfile" will make it a swap file, and "swapon swapfile" will make it available to the system.
+2008-07-14T23:25:00.000Z	Funcan	sipior	Cheers. It isn't for me, it is for a friend, I'll knock up a bash script to do it for him

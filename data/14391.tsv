@@ -1,0 +1,4 @@
+2011-05-11T14:59:00.000Z	quatl	stimpie	VAR=$(ls | tail -n 1 ); echo $VAR
+2011-05-11T15:01:00.000Z	stimpie	quatl	that works on a new command what if I already have executed a command and want to use that? I now just copy paste in a terminal but there should be a better way
+2011-05-11T15:04:00.000Z	quatl	stimpie	just replace ls with your command and echo with your new command
+2011-05-11T15:04:00.000Z	quatl	stimpie	i dont know if its possible to grab the output of some command you executed at some point in the past without running it again

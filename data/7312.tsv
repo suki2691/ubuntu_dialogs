@@ -1,0 +1,4 @@
+2011-12-10T10:12:00.000Z	polardude1983		Hello, I am having trouble with a folder that has spaces in it in a shell script. I did the \ but it doesn't work. here is my shell script that im using http://paste.ubuntu.com/765616/ it just says no polly directory and doesn't find polly dogg dir
+2011-12-10T10:13:00.000Z	MahaVishnu	polardude1983	put  " around the file path " I think...
+2011-12-10T10:17:00.000Z	MahaVishnu	polardude1983	I think take the \ out and just use "
+2011-12-10T10:22:00.000Z	MahaVishnu	polardude1983	you tried this ? for file in "/home/christoph/Videos/test/polly\ doggy*.*"

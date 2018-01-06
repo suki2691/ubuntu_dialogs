@@ -1,0 +1,4 @@
+2009-05-17T10:53:00.000Z	StrangeCharm		how can i add support for my soft-raid array to the kernel?
+2009-05-17T10:54:00.000Z	StrangeCharm		specificall, i need to add device-mapper target type raid45
+2009-05-17T10:56:00.000Z	un_dave	StrangeCharm	hi. i think you'll find that the stuff you need to handle all the software raid stuff is in the mdadm package
+2009-05-17T10:57:00.000Z	un_dave	StrangeCharm	not sure how you'd add it into the kernal though

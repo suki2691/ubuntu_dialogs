@@ -1,0 +1,4 @@
+2007-03-02T16:15:00.000Z	DaveTarmac		ok, networking question time. I've been trying to get my Atheros AR5212 chipset wireless card to see my wpa-psk network for a while now. So far, I've got the MadWiFI driver on, the WPA Supplicant on. I am trying to get the network-manager-gnome on, but (and this is going to sound like a dumb question) I can't seem to install it using 'sudo apt-get install network-manager-gnome' from inside the extracted directory. What am I doing wrong?
+2007-03-02T16:16:00.000Z	DaveTarmac		I'm using Edgy 6.10 by the way, if that helps...
+2007-03-02T16:16:00.000Z	eck	DaveTarmac	i might be wrong, but i don't think NM does wpa-psk (or at least not the one packaged in ubuntu)
+2007-03-02T16:30:00.000Z	eck	DaveTarmac	can you not configure the computer to use wpa and the wireless network using the cli tools just to get on the network so you can install NM?

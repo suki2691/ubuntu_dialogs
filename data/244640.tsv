@@ -1,0 +1,4 @@
+2005-07-18T16:09:00.000Z	phanter		hello, how can I find a filesystem connected via smb in nautilus (if, for example, i want to save something on it). I cannot find it in /media
+2005-07-18T16:10:00.000Z	bob2	phanter	nautilus doesn't mount it
+2005-07-18T16:10:00.000Z	phanter	bob2	gyaresu, how can i do this?
+2005-07-18T16:13:00.000Z	bob2	phanter	sudo mount -t smbfs -o ro //ipofserver//sharename /mnt/

@@ -1,0 +1,4 @@
+2010-09-18T06:10:00.000Z	vbabiy		how can you find out how any file descriptors are being used?
+2010-09-18T06:12:00.000Z	Cmdr_W_T_Riker	vbabiy	lsof perhaps?
+2010-09-18T06:16:00.000Z	Cmdr_W_T_Riker	vbabiy	when the suid bit is set (s), but the owner execute bit is off, ls will display a capital S in that case
+2010-09-18T06:16:00.000Z	Cmdr_W_T_Riker	vbabiy	so for that directory the group lacks execute persmission

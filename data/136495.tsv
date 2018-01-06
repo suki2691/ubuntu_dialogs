@@ -1,0 +1,4 @@
+2007-11-03T07:57:00.000Z	Big-E		E: Could not get lock /var/lib/apt/lists/lock - open (11 Resource temporarily unavailable)
+2007-11-03T07:57:00.000Z	Big-E		E: Unable to lock the list directory
+2007-11-03T07:57:00.000Z	Big-E		What does that mean?
+2007-11-03T07:58:00.000Z	osxdude	Big-E	if you have none of those open, do sudo rm /var/lib/apt/lists/lock

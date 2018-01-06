@@ -1,0 +1,4 @@
+2007-05-27T06:04:00.000Z	GrimReeper		I have succesfully made a 160GB Ext3 partiation. Now the only question remains, how can I add it to /home or make a other dir for it (which can be used and accesed for storage by all users)?
+2007-05-27T06:05:00.000Z	Taxman	GrimReeper	create a mountpoint /usr/home/storage and mount it there
+2007-05-27T06:06:00.000Z	Taxman	GrimReeper	that's the easiest way to add it in, though you can move all of usr/home over too
+2007-05-27T06:09:00.000Z	Taxman	GrimReeper	you don't need anything added in gparted, you just add a line to /etc/fstab that sets the new partition to mount automatically

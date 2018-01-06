@@ -1,0 +1,4 @@
+2008-10-31T06:58:00.000Z	Spoom		apt-get dist-upgrade seems to be working, so hopefully that will fix my update-manager woes, is there anything special i need to do after an apt-get dist-upgrade that upgrade-manager usually does?
+2008-10-31T06:59:00.000Z	Flannel	Spoom	You need to do some stuff beforehand.  But afterwards, no.
+2008-10-31T07:00:00.000Z	Flannel	Spoom	That's not the important part for a successful upgrade.  Proper metapackage (ubuntu-desktop, ubuntu-minimal, ubuntu-standard, and your kernel metapackage) installation makes it a lot happier
+2008-10-31T07:01:00.000Z	Spoom	Flannel	well, it was partially working through upgrade-manager before but i had to kill it as i mentioned above, so that may have already been done... if not, can / should i just apt-get install ubuntu-desktop etc?

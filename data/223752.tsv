@@ -1,0 +1,4 @@
+2008-06-27T18:08:00.000Z	th0r	PMantis	the use of the folder architecture varies from distro to distro. There is a Linux Standard Base project, but I don't know of a distro that totally conforms to it
+2008-06-27T18:09:00.000Z	PMantis	th0r	My question was meant to justify *me* creating a package that installs a binary to /usr/sbin rather than /usr/local/sbin. My understanding is that /usr//local is for hand-maintained files for THAT system, and /usr is for packages.
+2008-06-27T18:10:00.000Z	th0r	PMantis	that is pretty much the convention I use, but I have never seen it in writing.
+2008-06-27T18:11:00.000Z	th0r	PMantis	but then again...in Suse I used /opt instead of /usr/local

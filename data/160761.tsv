@@ -1,0 +1,4 @@
+2007-09-04T16:25:00.000Z	tom314		running the command "/etc/init.d/gdm start" causes my screen to go blank, any ideas?
+2007-09-04T07:01:00.000Z	tom314		Does anyone have any idea's as to why my screen goes blank when booting ubuntu 7.0.4 normally, but if I boot into recovery mode, and then "startx" it works?  I am using the 'ati' drivers
+2007-09-04T07:02:00.000Z	Jordan_U	tom314	What if you boot without "splash" ?
+2007-09-04T07:04:00.000Z	Jordan_U	tom314	At the grub menu press "e" to edit the first line, then e again to edit the line with "splash" in it and delete the "splash"

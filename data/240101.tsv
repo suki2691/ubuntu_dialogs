@@ -1,0 +1,4 @@
+2007-12-29T05:33:00.000Z	sint		is comes up with this: lrwxrwxrwx 1 root root 13 2007-11-07 12:49 /etc/rc2.d/S16ssh -> ../init.d/ssh
+2007-12-29T05:34:00.000Z	sint		there is no sshd
+2007-12-29T05:35:00.000Z	sint		in /etc/init.d/ is only a ssh not a sshd
+2007-12-29T05:35:00.000Z	nickrud	sint	yes that's the one you want to remove

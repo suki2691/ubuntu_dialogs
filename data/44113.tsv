@@ -1,0 +1,4 @@
+2009-11-10T04:30:00.000Z	London90		Hi guys, I'm having trouble editing /boot/grub/grub.cfg It's telling me the drive is read only. I did use sudo gedit. Any thoughts?
+2009-11-10T04:31:00.000Z	trism	London90	you aren't supposed to edit grub.cfg, you need to edit /etc/default/grub and files in /etc/grub.d, see https://wiki.ubuntu.com/Grub2#Adding Entries to Grub 2
+2009-11-10T04:31:00.000Z	London90	trism	thanks, I thought I maybe doing something daft :-)
+2009-11-10T04:34:00.000Z	London90	trism	thanks that was just what I was looking for. I hadn't realised it'd chaged in Karmic!

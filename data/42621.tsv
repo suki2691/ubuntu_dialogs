@@ -1,0 +1,4 @@
+2010-11-08T00:19:00.000Z	Ghone		I broke my computer.  I was curious about what Unity looks like, So I installed it from synaptic.  I then changed my mind and removed it.  Now, when I log in, it seems that I've broken my desktop.  I have no panels, Alt-F2 doesn't work.  Any idea how this can be fixed?
+2010-11-08T00:19:00.000Z	aeon-ltd	Ghone	log out and select gnome session
+2010-11-08T00:20:00.000Z	Ghone	aeon-ltd	I can't log out, I have no panel.  All I can do is reboot or switch to a console.
+2010-11-08T00:23:00.000Z	aeon-ltd	Ghone	go to console, type ls, if your in your ~/, type touch .xinitrc, then 'nano .xinitrc' and put 'exec gnome-session' save and exit then do 'startx' if that doesn't work do 'sudo killall X' to kill the current x session

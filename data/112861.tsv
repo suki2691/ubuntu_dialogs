@@ -1,0 +1,4 @@
+2008-02-24T09:59:00.000Z	GSF1200S		anyone know how to make uswsusp default instead of what gutsy uses by default?
+2008-02-24T10:00:00.000Z	infinitycircuit	GSF1200S	you need to edit /usr/lib/hal/scripts/linux/hal-system-power-{suspend,hibernate}-linux
+2008-02-24T10:00:00.000Z	infinitycircuit	GSF1200S	and replace their contents with the correct uswsusp commands
+2008-02-24T10:00:00.000Z	GSF1200S	infinitycircuit	thank you- checking now

@@ -1,0 +1,4 @@
+2009-09-08T15:59:00.000Z	Guest72797		anybody now how to get sound going i have alsa driver for sound but still doesnt work
+2009-09-08T15:59:00.000Z	Guest72797		how can i tell what sound card i have
+2009-09-08T16:00:00.000Z	erUSUL	Guest72797	lspci | grep -i audio
+2009-09-08T16:01:00.000Z	erUSUL	Guest72797	ntel Corporation 82801I (ICH9 Family) HD Audio Controller (rev 03) <<< that's the one

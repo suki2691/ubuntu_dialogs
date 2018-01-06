@@ -1,0 +1,4 @@
+2009-03-25T16:27:00.000Z	ecret		in the iptables, will doing -A INPUT -s 64.34.181.47 -j ACCEPT    open all ports to that ip?
+2009-03-25T16:29:00.000Z	beli	ecret	depends on the other rules you have and where it appears...check with  iptables -L
+2009-03-25T16:29:00.000Z	ecret	beli	no rules there specifically turn off ports, so will it all be open?
+2009-03-25T16:30:00.000Z	beli	ecret	should....just enter the rule and verify with iptables -L

@@ -1,0 +1,4 @@
+2011-11-20T02:12:00.000Z	i-SiS		Hi together, how can i change my wallpapers individual? I have two monitors (2x 1920*1080) but under "System Settings"->"apperance" i can only change both wallpapers together. Is there a better way for dual-wallpapers?
+2011-11-20T02:12:00.000Z	escott	i-SiS	it would be easiest to use something like imagemagick or the gimp to create a background file for the two monitors
+2011-11-20T02:14:00.000Z	i-SiS	escott	The wallpaper is not that problem-> "apperace" change the wallpaper for both monitors (but on every monitor appers the same picture), so its not possible for me to add a "longer" pic.
+2011-11-20T02:23:00.000Z	escott	i-SiS	so nautilus usually draws the root window. you can try and use gconf to get the settings for nautilus the way you want it, or you can disable nautilus drawing the root, and use some other tool to set the background

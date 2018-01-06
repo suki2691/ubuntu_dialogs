@@ -1,0 +1,4 @@
+2010-11-16T08:23:00.000Z	sukuri		I'm running a custom distro of Ubuntu 10.04 specifically designed to handle intel's gma500 graphics card. When I boot my computer the first time, everything runs well. When I finish a long list of updates, the regular progress bar goes across the screen, then the screen begins to flash, showing the console-login screen a couple of times. When I put my computer in standby and bring it out of it, I can then use the console mode.
+2010-11-16T08:23:00.000Z	sukuri		Any thoughts on how to fix my current issue?
+2010-11-16T08:24:00.000Z	crimeboy	sukuri	try dpkg-reconfigure xserver-xorg
+2010-11-16T08:28:00.000Z	sukuri	crimeboy	didn´t fix

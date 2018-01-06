@@ -1,0 +1,4 @@
+2007-08-24T12:01:00.000Z	Rabiddog		Anyone know whats causing gdm/nvida/login screen to be just plain black?
+2007-08-24T12:01:00.000Z	Nubbie	Rabiddog	you set up your xorg wrong?
+2007-08-24T12:02:00.000Z	Nubbie	Rabiddog	hit Ctrl Alt F1, reconfigure xorg using sudo dpkg-reconfigure xserver-xorg and try again.
+2007-08-24T12:02:00.000Z	Nubbie	Rabiddog	when you're done editing xorg, type sudo /etc/init.d/gdm restart.

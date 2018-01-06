@@ -1,0 +1,4 @@
+2008-12-14T05:13:00.000Z	infosoak		Hi. If I have a top level directory A with a bunch of files and subdirectories in it, and I want to set the permissions of all directories to be 755 and files to be 644, what is the fastest way to do it at the command line? Thanks.
+2008-12-14T05:14:00.000Z	dft	infosoak	chmod -R 644 <topdir>
+2008-12-14T05:14:00.000Z	dft	infosoak	no
+2008-12-14T05:15:00.000Z	dft	infosoak	all files and directories will go 744

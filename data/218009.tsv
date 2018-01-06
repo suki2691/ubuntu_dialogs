@@ -1,0 +1,4 @@
+2009-08-26T20:40:00.000Z	gubuntu		can someone suggest where I should start looking for informaiton that would help me accomplish the following: I have a SQL database with a list of regex filenames in one column and a string of a destination for those files in another column.. i need a method of reading the table and running a move command based on those variable
+2009-08-26T20:41:00.000Z	nibbler	gubuntu	for that you most likely need an order of the regexes, just in case one file fits two
+2009-08-26T20:41:00.000Z	gubuntu	MikeSeth	i just mean they contain wildcards
+2009-08-26T20:41:00.000Z	nibbler	gubuntu	so you just itereate, and mv $1 "$2"

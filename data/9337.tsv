@@ -1,0 +1,4 @@
+2011-09-25T20:08:00.000Z	Headcase_Fargone		Hi folks.  Need to know where mount point configuration for boot is stored.  I have two drives, /dev/sdb1 and /dev/sdc1 that are mounting as /media/Storage1 and /media/Storage2 respectively.  I can umount and re-mount them in reverse (the way I want them), but upon reboot they're back to the way they were originally.
+2011-09-25T20:08:00.000Z	Headcase_Fargone		Basically I want to make /dev/sdc1 default to /media/Storage1 and /dev/sdb1 default to /media/Storage2
+2011-09-25T20:09:00.000Z	birvis	Headcase_Fargone	check /etc/fstab file
+2011-09-25T20:12:00.000Z	Headcase_Fargone	birvis	fstab did the trick.  Thanks mate

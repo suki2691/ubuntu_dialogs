@@ -1,0 +1,4 @@
+2005-07-05T06:14:00.000Z	lao_v		hi guys..has anyone come accross this error when setting up postfix+mysql? Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2005-07-05T06:15:00.000Z	lamont	lao_v	it's probably because it's chrooted...
+2005-07-05T06:16:00.000Z	lamont		use proxy:mysql:<name> instead of mysql:<name> for the map
+2005-07-05T06:17:00.000Z	lao_v	lamont	i've already looked at that..and its not chrooted

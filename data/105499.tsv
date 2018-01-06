@@ -1,0 +1,4 @@
+2009-05-07T15:31:00.000Z	smr904		hello, did anybody have issues with nvidia cards and low resolution after updating?
+2009-05-07T15:32:00.000Z	ActionParsnip	smr904	reinstall the video driver you use
+2009-05-07T15:33:00.000Z	ActionParsnip	smr904	try removing them, then run: sudo dpkg-reconfigure xserver-xorg
+2009-05-07T15:33:00.000Z	ActionParsnip	smr904	then reboot, you can then setup the driver from scratch

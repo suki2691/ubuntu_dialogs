@@ -1,0 +1,4 @@
+2010-04-24T01:19:00.000Z	Losha	Travis-42	what os release, and what type of filesystems?
+2010-04-24T01:22:00.000Z	Travis-42	Losha	ext3 in ubuntu server 8.04 32-bit
+2010-04-24T01:24:00.000Z	Losha	Travis-42	hard to get a more stable configuration than that. The fact that you've seen widespread file corruptions makes me wonder if your disk isn't failing. Normall a power glitch would only affect the handful of files that are open, and the ext3 journal takes care of them. Consider running smartmontools on your drives...
+2010-04-24T01:24:00.000Z	Travis-42	Losha	ok thanks for the help, I'll look into it

@@ -1,0 +1,4 @@
+2010-03-03T19:17:00.000Z	Kangarooo		i installed ubuntu dual boot next to win 7. before installing i moved windows loader and win partition to end of disk (to the right) with Gparted. Now ubuntu is installed windows loader doesnt work.. what to do?
+2010-03-03T19:19:00.000Z	duffydack	Kangarooo	need to boot the windows dvd and run repair.
+2010-03-03T19:19:00.000Z	duffydack	Kangarooo	then you`ll need to reinstall grub
+2010-03-03T19:22:00.000Z	duffydack	Kangarooo	if it doesnt offer to autorepair, then sometihng like bootsect /nt60 C:\ /mbr

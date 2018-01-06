@@ -1,0 +1,4 @@
+2011-05-21T04:40:00.000Z	gonzalo		Hello, I installed Ruby (programming language interpreter) with: "sudo apt-get ruby". This installed Ruby 1.8.7, but I want 1.9.2. I did't find 1.9.2 in the synaptic package manager, so I downloaded the source and compiled. However, the Ruby my system has is still 1.8.7. In the folder I downloaded I execute "./ruby --version" and there it's 1.9.2. How do I replace the ruby I have installed...
+2011-05-21T04:40:00.000Z	gonzalo		...for the new one??? Thanks!
+2011-05-21T04:42:00.000Z	escott	gonzalo	you dont want to just install something you downloaded. see if there is a ruby1.9 package in synaptic (i thought there way) otherwise put your downloaded ruby in /opt and prefix your $PATH to point at it
+2011-05-21T05:11:00.000Z	escott	gonzalo	just add a symlink in /usr/bin from ruby to ruby1.9.1

@@ -1,0 +1,4 @@
+2010-05-25T04:57:00.000Z	Jordan_U	Ganymede	When you run out of inodes you can no longer add new files (with ext2/3/4). You'd have to mkfs with more reserved inodes (no way to increase the number in an already created FS).
+2010-05-25T04:57:00.000Z	Jordan_U	Ganymede	Well, I guess if you don't mind the bleading edge you could convert in place to btrfs which allocates inodes dynamically.
+2010-05-25T05:18:00.000Z	Ganymede	Jordan_U	thanks for the answers
+2010-05-25T05:19:00.000Z	Jordan_U	Ganymede	You're welcome.

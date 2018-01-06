@@ -1,0 +1,4 @@
+2007-06-30T06:58:00.000Z	amon__		How can I make it so that the Gnome file manager opens new folders, in the same window rather than opening a new window every time?
+2007-06-30T06:59:00.000Z	sn0	amon__	that is spatial browsing, you can turn it off somewhere
+2007-06-30T07:00:00.000Z	sn0	amon__	i always forget, 1 sec
+2007-06-30T07:01:00.000Z	sn0	amon__	try gconftool-2 --type boolean --set /apps/nautilus/preferences/always_use_browser true

@@ -1,0 +1,4 @@
+2006-06-07T09:26:00.000Z	Anonycat		How do I add a network interface on Ubuntu?  I have a wireless card inserted in a PC slot, but the only interface showing is ppp0 and I don't see an option to add another one such as wlan0
+2006-06-07T09:26:00.000Z	intelikey	Anonycat	ifconfig
+2006-06-07T09:32:00.000Z	Anonycat	intelikey	I don't see any option on ifconfig to actually add an interface.  Is there one, and if so what is it?
+2006-06-07T09:33:00.000Z	intelikey	Anonycat	i'm network illiterate.  but  here's an example; ifconfig lo 127.0.0.1 up

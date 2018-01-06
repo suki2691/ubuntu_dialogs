@@ -1,0 +1,4 @@
+2011-05-19T03:17:00.000Z	Snicers-Work2		I have a folder with -rwxrwxr-x permissions on it, but when I mkdir inside of that folder the new folder has -rwxr-xr-x, how do I force it to inherit the parent directories permissions?
+2011-05-19T03:19:00.000Z	dwxreaper	Snicers-Work2	maybe it has to do with who owns the folder and an alias would also work
+2011-05-19T03:20:00.000Z	Snicers-Work2	dwxreaper	what do you mean an alias would also work?
+2011-05-19T03:20:00.000Z	Snicers-Work2	dwxreaper	and the owner is the same user that is creating the new folder.

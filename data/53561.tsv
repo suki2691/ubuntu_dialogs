@@ -1,0 +1,4 @@
+2011-12-03T23:06:00.000Z	Phrogz		"/boot is using 98.9% of 91MB"  How do I increase the size of the partition and/or identify files that can be deleted?
+2011-12-03T23:07:00.000Z	Phrogz		(No idea why such a small partition was created for /boot; I assume I used the defaults during setup.)
+2011-12-03T23:07:00.000Z	mneptok	Phrogz	look for kernel version older than what "uname" reports, and remove them. that will free space in /boot
+2011-12-03T23:08:00.000Z	Phrogz	mneptok	Any/all files with older version? abi- config- initrd.img- System.map- vmcoreinfo- and vmlinuz-?

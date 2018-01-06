@@ -1,0 +1,4 @@
+2008-07-05T07:25:00.000Z	Leefmc		Question: To shut down a computer gently (ie, not pulling plug) via ssh, "shutdown" is correct right? Is -h needed? The --help is a bit odd with this: "-h      halt or power off after shutdown" isn't shutting down synonymous with power off?
+2008-07-05T07:25:00.000Z	FelixTheCat	Leefmc	'shutdown -h now'
+2008-07-05T07:26:00.000Z	Leefmc	Seven_Six_Two	Yea but.. -r reboots.. so what does "shutdown now" give you..?
+2008-07-05T07:26:00.000Z	FelixTheCat	Leefmc	probably an error message. You need 'shutdown -h now'

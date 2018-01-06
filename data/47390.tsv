@@ -1,0 +1,4 @@
+2009-12-09T16:07:00.000Z	Tina-		how i remove old unused kernels?
+2009-12-09T16:09:00.000Z	Tina-		how i remove old unused kernels?
+2009-12-09T16:10:00.000Z	theadmin	Tina-	"sudo apt-get remove --purge kernelpackage". To see all them, "dpkg -l | grep "linux-image""
+2009-12-09T16:30:00.000Z	theadmin	Tina-	Run sudo apt-get autoremove

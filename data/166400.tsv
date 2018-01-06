@@ -1,0 +1,4 @@
+2007-12-27T01:35:00.000Z	pgjensen		anyone heard of parted working fine with partitions and then after reboot the filesystems on the partitions only allow the max cfdisk shows as the partition? (i.e. cfdisk will show EFI partition of 800gb, and 4000gb free space while parted shows 4800gb partition)
+2007-12-27T01:35:00.000Z	pgjensen		mkfs.ext3 will format the full 4800gb and then upon reboot when mounted shows 800gb under df
+2007-12-27T01:36:00.000Z	wols	pgjensen	cfdisk can't deal with GPT partitions IIRC
+2007-12-27T02:48:00.000Z	wols	pgjensen	hdparm, bonnie

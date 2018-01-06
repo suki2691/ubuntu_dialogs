@@ -1,0 +1,4 @@
+2008-10-04T02:18:00.000Z	kitty_		so i have a working windows install, is there a way to boot it directly without using ntldr from grub?
+2008-10-04T02:19:00.000Z	bobertdos	kitty_	You mean without using the Grub menu.......or?
+2008-10-04T02:21:00.000Z	bobertdos	kitty_	Pastebin your menu.lst and we can try to help you clean it up. After that, if you still want Windows to be the default, there are a couple ways to do that.
+2008-10-04T02:26:00.000Z	bobertdos	kitty_	Well, the file is fine. Since this happened due to a corrupt ntldr, if you've got a Windows disk, I'd use the recovery console to issue fixmbr and fixboot.

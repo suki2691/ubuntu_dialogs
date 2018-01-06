@@ -1,0 +1,4 @@
+2012-10-15T00:47:00.000Z	Cong		Is it possible to telnet to the same computer running telnetd?
+2012-10-15T00:49:00.000Z	guntbert	Cong	what are you trying to do? the telnet daemon is not enabled by default - for a very good reason
+2012-10-15T00:49:00.000Z	guntbert		!sensors | ls612
+2012-10-15T00:50:00.000Z	Cong	guntbert	I want to see how telnet works. I didn't the configuring. Set up inetd, removed the commented telnetd line from /etc/inetd.conf.

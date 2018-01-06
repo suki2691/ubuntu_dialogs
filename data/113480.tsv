@@ -1,0 +1,4 @@
+2011-06-17T22:23:00.000Z	antlong		I think i created a user incorrectly, when i ssh in, i see $ in the prompt, instead of the usual user@hostname: prompt. how do i fix this?
+2011-06-17T22:24:00.000Z	techzilla	antlong	you are missing default .bashrc files
+2011-06-17T22:24:00.000Z	techzilla	antlong	do this command in your home dir
+2011-06-17T22:24:00.000Z	techzilla	antlong	cp /etc/skel/.bash* ./

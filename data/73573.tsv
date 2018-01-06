@@ -1,0 +1,4 @@
+2012-03-12T07:01:00.000Z	pepee		hi. I think I found a bug in a driver or something, but I'm not sure
+2012-03-12T07:01:00.000Z	fxhp	pepee	which driver
+2012-03-12T07:02:00.000Z	pepee		for the power management,  /usr/lib/pm-utils/power.d/wireless  should enable or disable it, but /var/log/pm-powersave.log says "cat: /sys/class/net/wlan1/device/enable: No such file or directory"
+2012-03-12T07:02:00.000Z	pepee	fxhp	rt73usb

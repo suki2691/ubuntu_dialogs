@@ -1,0 +1,4 @@
+2006-01-18T12:03:00.000Z	john043		hello
+2006-01-18T12:04:00.000Z	john043		i have a question, does ubuntu write to anything other than the RAM? ie motherboard, bios, etc..
+2006-01-18T12:05:00.000Z	sethk	john043	the bios is generally read/only
+2006-01-18T12:05:00.000Z	sethk	john043	there are various types of "memory mapped" devices the kernel writes to, and it writes to i/o space also

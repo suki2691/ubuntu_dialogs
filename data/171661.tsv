@@ -1,0 +1,4 @@
+2007-05-06T16:02:00.000Z	jughead		How can I restart the network?  sometimes my connection just stops working, so I try things like sudo /etc/init.d/networking restart -or- sudo ifdown eth1 then sudo ifup eth1, but whenever I do that I get no DHCPOFFERS or something.  Everything works again when I restart altogether
+2007-05-06T16:04:00.000Z	neildarlow	jughead	sometimes you have to down the interface and remove and reinstall the NIC module
+2007-05-06T16:05:00.000Z	neildarlow	jughead	e.g. sudo /etc/init.d/networking stop ; sudo modprobe -r <module> ; sudo modprobe <module> ; sudo /etc/init.d/network restart
+2007-05-06T16:06:00.000Z	neildarlow	jughead	thunderbird is good at waking-up wireless links :)

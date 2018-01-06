@@ -1,0 +1,4 @@
+2007-07-26T10:52:00.000Z	obtix		say i output to a file (ie: ls -l >>~/test/test.txt) and i want to run a second command that is similar to append to the test.txt file. how would i do this?
+2007-07-26T10:53:00.000Z	coopster	obtix	if you use >, it will overwrite the file, but if you use >>, it will always append, no matter what command it is
+2007-07-26T10:54:00.000Z	obtix	coopster	thank you!
+2007-07-26T10:54:00.000Z	coopster	obtix	no problem

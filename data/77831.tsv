@@ -1,0 +1,4 @@
+2009-02-05T15:15:00.000Z	ruediix		Hello, I'm back.  Does anyone know how to override the refusal of x64 Ubuntu to install i386-i686 packages.
+2009-02-05T15:16:00.000Z	Slart	ruediix	you can use dpkg with a force option.. but think twice before doing it
+2009-02-05T15:16:00.000Z	ruediix	Slart	Yes, always check that you have the compatability libraries installed.
+2009-02-05T15:18:00.000Z	ruediix	Slart	they should make the compatability libraries package add i386 as a supported architecture.

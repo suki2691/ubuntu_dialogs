@@ -1,0 +1,4 @@
+2009-01-08T23:07:00.000Z	Sanketsu		I've got a fresh install of Intrepid on a laptop and when I just let all the updates go, my internet connectivity breaks completely, no wireless, no wired.  I reformatted and went through the updates list last night one by one and deselected 12 packages that seemed relevant to the issue, let the rest upgrade and restarted.  Internet worked fine.  What from this list  http://paste.ubuntu.com/102226/  might cause that issue?
+2009-01-08T23:07:00.000Z	Ali_ix	Sanketsu	avahi! they are all related to avahi, the zero conf network daemon
+2009-01-08T23:09:00.000Z	Sanketsu	Ali_ix	Ok, so any idea why updating them would break my net on the laptop?
+2009-01-08T23:09:00.000Z	Ali_ix	Sanketsu	no it is been ages since i used avahi

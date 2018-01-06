@@ -1,0 +1,4 @@
+2010-02-26T02:36:00.000Z	lfaraone		I want to do an one-off transfer of highly redundant files over a internet connection, and I don't care about encrypting the stream. what's the fastest way to do this?
+2010-02-26T02:37:00.000Z	meganerd	lfaraone	scp, rsync, netcat, it probably depends on what you have installed at both ends
+2010-02-26T02:37:00.000Z	lfaraone	meganerd	it's one file, and I can install what I want. I fear scp will suffer from a performance penalty...
+2010-02-26T02:38:00.000Z	meganerd	lfaraone	I force the use of blowfish for an encryption algorithm, but there is still overhead

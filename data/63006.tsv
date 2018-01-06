@@ -1,0 +1,4 @@
+2009-05-04T04:21:00.000Z	BePhantom		hi all, i need some help. i need to format my usb stick to fat32, how do i do it in ubuntu?
+2009-05-04T04:21:00.000Z	genii	BePhantom	mkfs.vfat
+2009-05-04T04:22:00.000Z	BePhantom	genii	mkfs.vfat and what else?
+2009-05-04T04:23:00.000Z	genii	BePhantom	You might want to change partition type first to some windows kind with a partitioner like gparted as suggested. But otherwise, jst something like: sudo mkfs.vfat /dev/sdz1          for instance, if your usb stick is registering as sdz

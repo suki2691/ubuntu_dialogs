@@ -1,0 +1,4 @@
+2008-10-26T23:00:00.000Z	zylex		Is it possible to mount mini images in linux?
+2008-10-26T23:00:00.000Z	Kr0ntab	zylex	define mini images
+2008-10-26T23:02:00.000Z	Kr0ntab	zylex	you mean a small ISO?  yeah, doesn't matter about the size.
+2008-10-26T23:03:00.000Z	Kr0ntab	zylex	you can issue the mount command with "-o loop":    sudo mount -o loop /path/to/file.iso /path/to/empty/directory

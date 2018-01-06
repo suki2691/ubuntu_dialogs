@@ -1,0 +1,4 @@
+2007-03-21T07:25:00.000Z	danman862		?
+2007-03-21T07:26:00.000Z	danman862		I am trying to make one service start before another during bootup, and I can't figure out how to do it?
+2007-03-21T07:27:00.000Z	danman862		anyone?
+2007-03-21T07:29:00.000Z	Chousuke	danman862	services are started in the order in which they are in the corresponding /etc/rcN.d directory.

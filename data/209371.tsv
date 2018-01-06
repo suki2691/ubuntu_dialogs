@@ -1,0 +1,4 @@
+2007-02-04T10:15:00.000Z	st00ner		if i ran the command cp -r / /mnt/root would my home partition be coppied also? i want to copy /home to a different partition than my root
+2007-02-04T10:15:00.000Z	st00ner		mnt/root is a differnt partition than my actual root, its on a new hard drive
+2007-02-04T10:16:00.000Z	LjL	st00ner	if you don't use "-x" to copy /, anyway, you'll probably end up with a stuck cp, since it'll try to copy things like /proc and /sys as well
+2007-02-04T10:16:00.000Z	LjL	st00ner	use the "-x" option to avoid copying mountpoints. see the cp manpage. i also suggest you use "-a" for those kind of copies

@@ -1,0 +1,4 @@
+2010-01-23T13:08:00.000Z	CoJaBo-Aztec		I have a source file that includes #include <openssl/bn.h>. What needs to be installed to make this work?
+2010-01-23T13:08:00.000Z	CoJaBo-Aztec		Is there a dev package or something? The obvious, apt-get install openssl, reports its already installed.
+2010-01-23T13:09:00.000Z	Slart	CoJaBo-Aztec	libssl-dev is the one you're looking for..
+2010-01-23T13:10:00.000Z	Slart	CoJaBo-Aztec	and I agree with iceroot.. apt-file is a wonderful little tool for these kinds of problems

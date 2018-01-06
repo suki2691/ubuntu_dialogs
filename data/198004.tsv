@@ -1,0 +1,4 @@
+2006-07-03T14:27:00.000Z	jsestri2		The way dapper uses the DNS servers is very inefficient. The first two DNS servers that come from my ISP via the DHCP lookup are very slow compared to the 3rd. From what I can tell it takes forever to timeout to the first two and then finally gets to the third. If i delete the first two everything is fast, however it re-populates the list every few hours. Is there any way to fix this behavior?
+2006-07-03T14:28:00.000Z	spades	jsestri2	you can set custom dns in /etc/resolv.conf and then chattr -i so it wont be messed with
+2006-07-03T14:28:00.000Z	spades	jsestri2	chattr +i to reverse the no edit effect
+2006-07-03T14:28:00.000Z	jsestri2	spades	thanks for the pointer, alright cool

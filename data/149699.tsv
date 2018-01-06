@@ -1,0 +1,4 @@
+2008-12-15T23:38:00.000Z	Fenix|work		how does one find all the packages installe?
+2008-12-15T23:38:00.000Z	Fenix|work		installed?
+2008-12-15T23:38:00.000Z	Pici	Fenix|work	dpkg -l | grep ^ii
+2008-12-15T23:38:00.000Z	Pici	Fenix|work	Sorry, dpkg -l | grep "^ii"

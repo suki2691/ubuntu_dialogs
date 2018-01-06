@@ -1,0 +1,4 @@
+2005-09-25T13:16:00.000Z	peter1984		how do i make an initrd image?
+2005-09-25T13:16:00.000Z	Morimando	peter1984	"man mkinitrd" should give you some clues
+2005-09-25T13:18:00.000Z	Morimando	peter1984	mkinitrd is the program you need, i dunno the syntax by heart, though, but it ain't too hard
+2005-09-25T13:19:00.000Z	Morimando	peter1984	you probably just need to insert te modules needed in /etc/mkinitrd

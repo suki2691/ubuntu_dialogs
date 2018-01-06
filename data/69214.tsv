@@ -1,0 +1,4 @@
+2009-02-21T20:13:00.000Z	oCean_	HOMEMADEJAM	well, the $file has to be declared first. If it's an empty variable, that's the error you'll get
+2009-02-21T20:14:00.000Z	oCean_	HOMEMADEJAM	"myfile=/tmp/output.txt" and then "stat -c%s >$myfile" and you will result with the output in /tmp/output.txt
+2009-02-21T20:16:00.000Z	oCean_	HOMEMADEJAM	err, there is a typo in my command, 2nd should be "stat -c%s file > $myfile" , where 'file' is the actual file you want to stat
+2009-02-21T20:16:00.000Z	HOMEMADEJAM	oCean_	thanks, I'll give that a try

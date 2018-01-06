@@ -1,0 +1,4 @@
+2008-01-23T22:43:00.000Z	hobbzilla		I understand that root is locked in Ubuntu. But I don't have acces to my Ubuntu server right now and wanted to clarify something I can't test. If root is locked, does that mean root can't even log in at the console, no matter the runlevel or init?
+2008-01-23T22:44:00.000Z	pike_	hobbzilla	you can do a single user shell or recovery
+2008-01-23T22:44:00.000Z	pike_		security reasons sudo allows control similar to wheel in bsd when su'ing
+2008-01-23T22:45:00.000Z	hobbzilla	pike_	thanks for the clarification.

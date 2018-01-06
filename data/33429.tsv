@@ -1,0 +1,4 @@
+2010-12-16T08:14:00.000Z	Igoru		can't stop mysql via 'sudo service mysql stop'. what the hell this means, from syslog?
+2010-12-16T08:14:00.000Z	Igoru		operation="open" pid=25051 parent=25050 profile="/usr/sbin/mysqld" requested_mask="r::" denied_mask="r::" fsuid=0 ouid=0 name="/sys/devices/system/cpu/"
+2010-12-16T08:15:00.000Z	craigbass1976	Igoru	does sudo /etc/init.d/mysql stop work?
+2010-12-16T08:16:00.000Z	Igoru	craigbass1976	no too.

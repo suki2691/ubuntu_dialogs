@@ -1,0 +1,4 @@
+2006-01-02T10:56:00.000Z	benplaut		i'm having a problem with TightVNC... it can't find X fonts.
+2006-01-02T10:57:00.000Z	psusi	benplaut	you mean tightvnc server?  you need to point it to the font dirs with the -fp option
+2006-01-02T10:57:00.000Z	benplaut	psusi	and what would the font dirs be?
+2006-01-02T10:58:00.000Z	psusi	benplaut	take a look at your /etc/X11/xorg.conf to see which ones are used there... add them to the tightvnc server command line after a -fp, each seperated by a , I think it was

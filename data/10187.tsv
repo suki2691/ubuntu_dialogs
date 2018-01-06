@@ -1,0 +1,4 @@
+2012-11-17T15:25:00.000Z	zone		hai i just try to use usb camera i had execute mplayer tv:// -tv driver=v4l2:width=640:height=480:device=/dev/video0,it just opened a window and blank,nothing happen
+2012-11-17T15:25:00.000Z	zone		what is the issue?
+2012-11-17T15:26:00.000Z	llutz	zone	ls -l /dev/video0
+2012-11-17T15:29:00.000Z	zone	llutz	  ls -l /dev/video0 it shows crw-rw----+ 1 root video 81, 0 2012-11-17 21:18  /dev/video0

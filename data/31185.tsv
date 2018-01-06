@@ -1,0 +1,4 @@
+2010-05-26T23:44:00.000Z	quaa		So i need some help, just installed ubuntu server on my system and when i turn it on it gets to a blinking _ prompt then after a second i get a red screen flash and my monitor says no signal.  I have ssh access, but cant figure out why the local console isn't displaying anything.  any ideas on what to look at/try?
+2010-05-26T23:45:00.000Z	ikonia	quaa	kernel framebuffer settings
+2010-05-26T23:48:00.000Z	quaa	ikonia	framebuffer settings?
+2010-05-27T00:09:00.000Z	quaa	ikonia	thanks for pointing me in the right direction.  had to add "echo options nouveau modeset=0 > /etc/modprobe.d/nouveau-kms.conf"

@@ -1,0 +1,4 @@
+2007-08-23T05:25:00.000Z	Pe3k		hello, pls I would like to publish video I recorded on web but it is large (mpeg2, 720x576, 24fps  - 1 minute has over 400MB) . could anybody give me advice  - which format / software shall I use?
+2007-08-23T05:26:00.000Z	Falstius	Pe3k	if you don't need to be super concerned about quality, just use mencoder file.mpg -ovc lavc -oac copy -o file.avi
+2007-08-23T05:30:00.000Z	Pe3k	Falstius	thanks a lot :) it reduced size of video 1 minute long to 14MB ..with good quality ;)
+2007-08-23T05:31:00.000Z	Falstius	Pe3k	yeah, the default quality is good enough for most things.  There are lots and lots of confusing options you can use if you want (but it is generally not worthwhile)

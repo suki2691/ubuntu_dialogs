@@ -1,0 +1,4 @@
+2009-09-22T18:21:00.000Z	bluebaron		is there a way to du only certain files in the directory?  there's an exclude file pattern but not a "count only these files"
+2009-09-22T18:22:00.000Z	bluebaron		anyone know how to count the size of files in a directory that match a certain pattern?
+2009-09-22T18:23:00.000Z	bluebaron		anyone know how to count the size of files in a directory that match a certain pattern?
+2009-09-22T18:25:00.000Z	shruggar	bluebaron	echo "$(find . (something) -printf '%s +')" 0 | bc

@@ -1,0 +1,4 @@
+2009-06-08T23:26:00.000Z	TrouserTrout		Hello, does anyone know why ctrl+alt+backspace doesn't restart X with 0.04
+2009-06-08T23:26:00.000Z	TrouserTrout		9.04
+2009-06-08T23:27:00.000Z	deco	TrouserTrout	you need to enable it via xorg.conf , you don't to install additional software
+2009-06-08T23:29:00.000Z	deco	TrouserTrout	 Section "ServerFlags" option "DontZap" "false" EndSection

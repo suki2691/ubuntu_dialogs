@@ -1,0 +1,4 @@
+2009-05-14T00:43:00.000Z	MHz128		how do I enable the locate command to keep track of files in auto-mounted NTFS drives?
+2009-05-14T00:43:00.000Z	snuxoll	MHz128	if it's mounted at the time the update cronjob is run it should automatically index it
+2009-05-14T00:44:00.000Z	MHz128	snuxoll	oh i c, thansk!
+2009-05-14T00:44:00.000Z	snuxoll	MHz128	you can force an update with 'sudo updatedb'

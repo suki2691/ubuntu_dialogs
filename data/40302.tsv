@@ -1,0 +1,4 @@
+2010-01-07T07:14:00.000Z	Maletor		What do I type to find all the IPs on my network?
+2010-01-07T07:16:00.000Z	Takyoji	Maletor	If you're talking about IPs of systems on a LAN, use the network analysis tool called "Zenmap" (which is a GUI for nmap); if you're talking about the WAN IP, you can just check your IP address on a typical "What's my IP address?" website
+2010-01-07T07:18:00.000Z	Maletor	Takyoji	then what's the command in nmap?
+2010-01-07T07:22:00.000Z	Takyoji	Maletor	I believe it should be as simple as "sudo nmap -sP 192.168.0.0-255" which would scan all IP addresses from 192.168.0.0 to 192.168.0.255

@@ -1,0 +1,4 @@
+2011-06-02T13:50:00.000Z	axle3d		new hard disk already has another OS on it and space for the clone i want to make. I was thinking of mounting the partition and doing a copy file by file to the new hard disk?
+2011-06-02T13:50:00.000Z	joel135	axle3d	you could boot from a livecd and use "cp" with the -ax flags
+2011-06-02T13:51:00.000Z	axle3d	pfifo	the problem is, how should i mount the new hard disk over network. on windows i would use smb, but linux 2 linux?
+2011-06-02T13:52:00.000Z	joel135	axle3d	use sftp

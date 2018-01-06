@@ -1,0 +1,4 @@
+2006-11-05T17:39:00.000Z	jeronim		is there some simple way to check that what dpkg thinks is installed is what's *really* installed, for all packages?
+2006-11-05T17:40:00.000Z	jeronim		bc dpkg was quite deluded about vim being at version 7 after dist-upgrade
+2006-11-05T17:40:00.000Z	jeronim		which broke
+2006-11-05T17:41:00.000Z	anto9us	jeronim	you need to complete the upgrade else it will remain confused

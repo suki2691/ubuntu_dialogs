@@ -1,0 +1,4 @@
+2006-11-10T09:47:00.000Z	Jimbo52		I have a drive on this machine that is still ntfs.....is there an easy way to change it to a more linux compatable filesystem without loosing all data?
+2006-11-10T09:48:00.000Z	thomas_	Jimbo52	shrink it somehow, create a new partition of equal/greater size, copy all data over, then expand the ext3 partition.
+2006-11-10T09:49:00.000Z	thomas_	Jimbo52	use either a partition magic boot cd or maybe even gparted live cd. i dunno i haven't  ever done this, but that's what you need to do.
+2006-11-10T09:54:00.000Z	thomas_	Jimbo52	dude

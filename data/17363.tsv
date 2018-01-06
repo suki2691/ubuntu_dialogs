@@ -1,0 +1,4 @@
+2011-03-04T10:08:00.000Z	B|ackPanther		Hi, i have a problem i forgot the password for accessing one of my private keys, how can i reset the password ?
+2011-03-04T10:10:00.000Z	Ry4an	B|ackPanther	that sounds like like a ssh key.  You'll need to generate a new keypair and set the public key on the server if you've forgotten it.
+2011-03-04T10:10:00.000Z	B|ackPanther	rww	: the how do i get  a new one ?
+2011-03-04T10:11:00.000Z	Ry4an	B|ackPanther	you can create a new one with ssh-keygen, but you probably followed directions on a specific hosting site initially (github?) and if so you should follow them again.

@@ -1,0 +1,4 @@
+2008-04-01T23:58:00.000Z	Toznoshio		Q: What are the top 3 things I might be able to do to have better performance / responsiveness on a freshly installed Gutsy?
+2008-04-02T00:00:00.000Z	tuna	Toznoshio	profile the boot, install preload and turn off access times
+2008-04-02T00:01:00.000Z	Toznoshio	tuna	I know how to do #2 and #3, but how do I profile the boot?
+2008-04-02T00:03:00.000Z	tuna	Toznoshio	when booting, enter grub and add profile to kernel command line. That boot, it will be abysmally slow, but it will be faster on subsequent boots

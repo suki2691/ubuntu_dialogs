@@ -1,0 +1,4 @@
+2009-05-27T17:09:00.000Z	Keloran		how on earth do you cat a file that starts with a -, e.g. -4992
+2009-05-27T17:10:00.000Z	Keloran		doesnt work, i just get "invalid option 4"
+2009-05-27T17:11:00.000Z	Keloran		cat \-453032392 == cat: invalid option -- '4'
+2009-05-27T17:11:00.000Z	Ampelbein	Keloran	cat -- -4992

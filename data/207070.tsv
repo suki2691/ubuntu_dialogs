@@ -1,0 +1,4 @@
+2006-05-03T15:43:00.000Z	No1Viking		I made a partition in cfdisk called /dev/hda4. When I now try to format it with the mkfs.ext3 /dev/hda4 command it say it cannot find anything. What's wrong?
+2006-05-03T06:22:00.000Z	No1Viking		I made a partition in cfdisk called /dev/hda4. When I now try to format it with the mkfs.ext3 /dev/hda4 command it say it cannot find anything. Any ideas?
+2006-05-03T06:23:00.000Z	void^	No1Viking	try a reboot, or perhaps blockdev --rereadpt /dev/hda
+2006-05-03T06:23:00.000Z	No1Viking	void^	ok

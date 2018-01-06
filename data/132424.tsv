@@ -1,0 +1,4 @@
+2007-06-03T14:54:00.000Z	b0lland		can anyone tell me how to get a hold of the default apache2.conf for the installed version of apache2? I'm thinking like dpkg-reconfigure or something, but that doesn't seem to be it in this case
+2007-06-03T14:55:00.000Z	LjL	b0lland	--purge the package and reinstall it is an option.
+2007-06-03T14:55:00.000Z	b0lland	LjL	you mean apt-get remove --purge apache2 && apt-get install apache2 ?
+2007-06-03T14:56:00.000Z	LjL	b0lland	yes, i mean that

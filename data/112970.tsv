@@ -1,0 +1,4 @@
+2010-10-28T07:11:00.000Z	ilyekkakai		I have 2 hard disks in this laptop. Ubuntu and all my files are installed on the 2nd drive. Vista is installed on the 1st drive which is also the boot drive. I want to remove Vista and reformat the 1st drive as ext4 and make the 2nd drive the boot drive. I used gparted to remove all the partitions on the 1st drive and created a new partition ext4 on it. Now how do I get the 2nd drive to be the boot drive?
+2010-10-28T07:12:00.000Z	kodemage	ilyekkakai	use gparted to flag it as bootable
+2010-10-28T07:12:00.000Z	kodemage	ilyekkakai	then adjust your bios
+2010-10-28T07:13:00.000Z	kodemage	ilyekkakai	ok, you may need to install grub too... god I'm probably not supposed to be here talking...

@@ -1,0 +1,4 @@
+2008-03-03T00:48:00.000Z	Forbr4d3		how do i mount a usb hard drive from command line?
+2008-03-03T00:49:00.000Z	Forbr4d3		i have ubuntu server edition and i am trying to hook up an external usb hard disk
+2008-03-03T00:51:00.000Z	Forbr4d3		how do i find out what the device name is once i plug it in?
+2008-03-03T00:51:00.000Z	foldart	Forbr4d3	connect the drive, then do a 'sudo fdisk -l' to see if its filesystems are listed.  If you can see what it is, mount the filesystem with 'sudo mount /dev/<partition> /mnt/<mountpoint>

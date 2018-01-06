@@ -1,0 +1,4 @@
+2007-08-04T16:29:00.000Z	Desp		hi all
+2007-08-04T16:29:00.000Z	Desp		When i want to install something on my box I get asked to insert ubuntu Cd is there a command to go over this
+2007-08-04T16:30:00.000Z	jetscreamer	Desp	nano -w /etc/apt/sources.list and comment out the cd line
+2007-08-04T16:31:00.000Z	jetscreamer	Desp	sudo nano -w /etc/apt/sources.list and comment out the cd line or remove it

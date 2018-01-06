@@ -1,0 +1,4 @@
+2011-04-01T15:39:00.000Z	Nomikos		I'm running Ubuntu in a VirtualBox, but it doesn't go on the network until after I login via the login dialog. what should I look for?
+2011-04-01T15:40:00.000Z	Nomikos		To clarify, I'd like it to be able to accept incoming SSH and HTTP without logging in
+2011-04-01T15:40:00.000Z	Nomikos		*in the gui
+2011-04-01T15:41:00.000Z	ikonia	Nomikos	this is probably due to the fact that your network card is setup using network manager settings which doesn't get loaded until you log in

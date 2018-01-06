@@ -1,0 +1,4 @@
+2009-08-17T21:34:00.000Z	[t0rc]		I have multiple e-mail addresses and I like to use Thunderbird to aggregate them, the checking, etc. Sometimes I use Windows though and like to check things there. Sometimes I use Ubuntu and check things here. Anyone have suggestions as to how I can synchronize the data in Thunderbird so I can see the same e-mails in both OS (as well as deletes affecting both inboxes, etc.) ?
+2009-08-17T21:36:00.000Z	BrianE	[t0rc]	You could make your Ubuntu Thunderbird profile directory a symbolic link to your Windows'
+2009-08-17T21:39:00.000Z	BrianE	[t0rc]	"/home/username/.mozilla-thunderbird", you'll see a folder with a random name like "dja185jq.default"... That's the folder you'll need to symlink
+2009-08-18T02:01:00.000Z	[t0rc]	BrianE	Thanks for the symlink advice for Thunderbird. :)

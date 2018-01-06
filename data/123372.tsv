@@ -1,0 +1,4 @@
+2009-09-08T08:34:00.000Z	Ecto		hello everybody!  can anyone help.. when i log in, my 9.04 system automattically mounts and puts on the desktop one of my partitions on the same disk as my / and /home folder partitions.  how do i stop it from mounting/putting it on the desktop everytime i log in ?
+2009-09-08T08:34:00.000Z	Vovk	Ecto	do you know which partition it is? :)
+2009-09-08T08:35:00.000Z	Vovk	Ecto	if so, open up /etc/fstab and delete the line with that partition name
+2009-09-08T08:39:00.000Z	Vovk	Ecto	user friendly means different things to different people. rww, i don't see a reason why centralized configs are bad for user mounted drives, if there was an option in fstab to autodetect the file system, then you could easily add as many entries as you had ports and you'd be fine

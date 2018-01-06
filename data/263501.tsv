@@ -1,0 +1,4 @@
+2004-10-11T16:58:00.000Z	Atticus		Eldados, it asked me which partition id like to use, and i used free space i made on the Slave hard drive using partition magic, ubuntu then created the linux partition and swap partition within the free space, and then installed automatically to that partition
+2004-10-11T05:01:00.000Z	Atticus		Eldados that is what i did, i had one large partition to start on the Slave drive which i only use for backup, i took out a 15 gb chunk of unallocated space... then i went into the ubuntu install and created a new partition with that space.
+2004-10-11T05:02:00.000Z	rusty	Atticus	do you have a boot manager installed on the MBR of the SATA?
+2004-10-11T05:03:00.000Z	rusty	Atticus	right. I believe that is because the rest of the installation was on your slave.  I think all you have to do is install a boot manager on the SATA

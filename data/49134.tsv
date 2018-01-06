@@ -1,0 +1,4 @@
+2010-10-26T23:52:00.000Z	plouffe		Is it possible to use one Ubuntu computer to give internet access to other computers on the local network? What software is needed?
+2010-10-26T23:53:00.000Z	shadyabhi	plouffe	You can  use ssh for using SOCKS proxy
+2010-10-26T23:53:00.000Z	plouffe	shadyabhi	 good idea, thanks
+2010-10-26T23:54:00.000Z	shadyabhi	plouffe	From other computer on LAN, just do ssh -D 1080 user@ip...

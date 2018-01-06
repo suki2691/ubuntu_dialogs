@@ -1,0 +1,4 @@
+2007-11-02T23:22:00.000Z	minus		I downloaded Songbird. And it was precompiled an everything so I put the executable in /usr/bin/ but where to I put the directory with all the data?
+2007-11-02T23:23:00.000Z	LjL	minus	you should NOT use /usr/bin for stuff you install manually. use /usr/local/bin or /opt
+2007-11-02T23:24:00.000Z	minus	LjL	but then I cant exec by just doing: "songbird" in a terminal
+2007-11-02T23:25:00.000Z	LjL	minus	for /usr/local/bin, yes you can. for /opt, you'll have to add it to your PATH variable if you want to do that.

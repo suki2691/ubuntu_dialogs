@@ -1,0 +1,4 @@
+2010-03-31T03:43:00.000Z	Matisse		i removed some old kernel versions, but there remained something in the grub boot menu and some files in /boot. do i have to remove some other packages or was the option "remove" wrong (instead of "purge")?
+2010-03-31T03:45:00.000Z	Typos_King	Matisse	  you want them out of the grub menu?   why not just edit the template that makes grub.cfg and adds them, /etc/default/grub
+2010-03-31T03:46:00.000Z	Matisse	Typos_King	already did that, but i want to get rid of the never-anymore-needed files too
+2010-03-31T03:46:00.000Z	Typos_King	Matisse	  though I think the fact it finds the files in /boot is what 'adds' them from the template, try 'moving' the vmlinuz-... files you don't want from boot and do annother update-grub, to see what it produces

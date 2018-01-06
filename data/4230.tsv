@@ -1,0 +1,4 @@
+2012-09-24T18:04:00.000Z	zykotick9	g00denough	i doubt update-rc.d should be used on ubuntu, as ubuntu uses upstart...  just sayin'
+2012-09-24T18:04:00.000Z	g00denough	zykotick9	"AdvoWork: thats why i suggested sysv-rc-conf, which handles this correct (afaik)  "       just saying ;)
+2012-09-24T18:10:00.000Z	zykotick9	g00denough	/etc/init.d is SYSV - NOT upstart!  /etc/init/ is upstart.
+2012-09-24T18:11:00.000Z	g00denough	zykotick9	yes, but sysv-rc-conf handles old sysv-links in a upstart-pleasant way (in opposite to updae-rc.d)

@@ -1,0 +1,4 @@
+2012-11-20T03:26:00.000Z	X-warrior		So I was thinking to save some space on my backup hard disk, I think to create a script which will look all files looking for the same hash and use hard links to leave just one copy of them. But then I think probably there is some file system that works on this way on os level. Does anybody know the name?
+2012-11-20T03:26:00.000Z	ActionParsnip	X-warrior	rsync can do that for you
+2012-11-20T03:28:00.000Z	X-warrior	ActionParsnip	I think it could preserve my hard links, but if I don't have it yet. How is it possible? I didn't find this option on it
+2012-11-20T03:29:00.000Z	ActionParsnip	X-warrior	not sure there, is it listed in the man page?

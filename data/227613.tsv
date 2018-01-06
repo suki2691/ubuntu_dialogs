@@ -1,0 +1,4 @@
+2006-01-09T10:21:00.000Z	rance		I need to ask a question about a new kubuntu install, yea I know, that damn kde :-) well this has to do with scanner recognition...sudo scanimage -L can detect my scanner, but scanimage -L cant, so why cant a regular user use a scanner?
+2006-01-09T10:23:00.000Z	Jowi	rance	is the user in the scanner group?
+2006-01-09T10:23:00.000Z	rance	Jowi	no, didnt know there was a scanner group
+2006-01-09T10:24:00.000Z	Jowi	rance	cat /etc/group, edit as needed

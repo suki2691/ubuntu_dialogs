@@ -1,0 +1,4 @@
+2011-04-01T13:10:00.000Z	silvery		Hi. How can I install grub to /boot/grub? I used Ubuntu 10.10 and did sudo grub install /dev/sdb (it's external disk) and as result system installed grub in /grub instead of /boot/grub. Now it returns "grub rescue>" when I'm trying to boot from that HDD.
+2011-04-01T13:10:00.000Z	qwebirc44173	silvery	you want this https://help.ubuntu.com/community/Grub2#METHOD%203%20-%20CHROOT
+2011-04-01T13:11:00.000Z	qwebirc44173		just follow it it's easy
+2011-04-01T13:14:00.000Z	silvery	qwebirc44173	: thanks a lot

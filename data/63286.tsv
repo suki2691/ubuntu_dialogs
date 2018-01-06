@@ -1,0 +1,4 @@
+2011-03-07T23:25:00.000Z	Lint		some how my keyboard is setup in a strange way on my login. i need to know what to change to fix it.
+2011-03-07T23:26:00.000Z	genii-around	Lint	I'd suggest: sudo dpkg-reconfigure console-setup           and answer all the questions appropriately
+2011-03-07T23:26:00.000Z	Lint	genii-around	will it affect X apps?
+2011-03-07T23:28:00.000Z	genii-around	Lint	It gives X a hint of what to use, but you can always use something like xmodmap or so on to make your own X keyboard map

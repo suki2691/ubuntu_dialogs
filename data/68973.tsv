@@ -1,0 +1,4 @@
+2009-02-03T07:29:00.000Z	lanoxx		hi, how can i mount a ntfs partition in linux and get user rights for it so i can share it with write access
+2009-02-03T07:30:00.000Z	Titan8990	lanoxx	are you wanting it to mount on boot?
+2009-02-03T07:31:00.000Z	lanoxx	Titan8990	mount it, i have installed ntfs-3g already and i can mount the partition, but its always mounted with root access rights and if i right click and choose share, then i get a message saying that i dont own the folder
+2009-02-03T07:34:00.000Z	Titan8990	lanoxx	you don't need ntfs-3g in ubuntu, or really any recent kernel.   try:     chown -R USER:GROUP /mount/point

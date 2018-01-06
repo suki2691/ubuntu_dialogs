@@ -1,0 +1,4 @@
+2006-10-28T07:10:00.000Z	Intangir		how do i set up nvidia drivers on edgy? it wont work
+2006-10-28T07:10:00.000Z	Intangir		says my kernel module couldnt load
+2006-10-28T07:10:00.000Z	kitche	Intangir	sudo apt-get install nvidia-glx
+2006-10-28T07:11:00.000Z	kitche	Intangir	sudo /etc/init.d/gdm stop then do sudo nvidia-xconfig

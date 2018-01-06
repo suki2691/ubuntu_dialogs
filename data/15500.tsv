@@ -1,0 +1,4 @@
+2012-06-10T19:28:00.000Z	joel135		hi, #ubuntu! when i issue "sudo apt-get remove firefox", apt wants to install epiphany instead. i need help finding the cause of this behaviour. is there perhaps a command that lists packages that (are installed && depends on firefox)?
+2012-06-10T19:30:00.000Z	joel135		the *-desktop packages I've used so far are ubuntu- and lubuntu- (both uninstalled by now). maybe there is a connection there
+2012-06-10T19:32:00.000Z	escott	joel135	there might be some rule that says "you must have a browser from one of these 4"
+2012-06-17T00:07:00.000Z	escott	joel135	Slart the manpage describes everything

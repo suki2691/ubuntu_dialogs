@@ -1,0 +1,4 @@
+2012-02-18T22:42:00.000Z	f10w3r5		I have a box that we use as flight recorder (full packet capture).  dual nics, one in promisc mode.  We need to be able to connect to a network share but when eth1 is put up in promisc mode, it takes the ip of eth0 by default and adds a GW.  This makes it impossible for us to connect to the network share because routing is going nowhere.  I know we can either remove the ip address using ip addr del or delete the route, but I cannot fi
+2012-02-18T22:42:00.000Z	f10w3r5		out how to do it on start up.  Which script is run dead last, so I can append my command line to it?
+2012-02-18T22:43:00.000Z	sacarlson	f10w3r5	can't you just ssh in?
+2012-02-18T22:46:00.000Z	sacarlson	f10w3r5	I'm not clear on your config but if you can ping it then you should be able to ssh in and or ssh file access

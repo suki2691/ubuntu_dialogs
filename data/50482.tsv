@@ -1,0 +1,4 @@
+2012-05-29T13:59:00.000Z	alankila		I read about some awesome C extension which adds the ability to validate all memory accesses with only very small runtime cost by arranging allocations at 16-byte boundaries and storing a memory table with byte per each 16 bytes recording the log2 of the allocation length at that address.
+2012-05-29T14:00:00.000Z	alankila		so the length of any allocation can be acquired by doing int log2len = table[pointer >> 4] and then you can insert the relevant assembly everywhere to check that accesses outside bounds do not happen. I wish media libraries were built with this stuff... it wasn't for gcc though
+2012-05-29T14:01:00.000Z	LjL	alankila	err... you sure this is the most appropriate channel for this?
+2012-05-29T14:01:00.000Z	alankila	LjL	hm, you are right. Probably not.

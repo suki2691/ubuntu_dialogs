@@ -1,0 +1,4 @@
+2007-11-18T14:55:00.000Z	Indephysis		Hm, I'm using a nvidia-drivered legacy card and I want to use DRI
+2007-11-18T14:55:00.000Z	Indephysis		What's the simplest way to do that?
+2007-11-18T14:56:00.000Z	MilitantPotato	Indephysis	if it handles dri, you can load the module dri in xorg.conf
+2007-11-18T14:57:00.000Z	MilitantPotato	Indephysis	well, backup your xorg, have it load DRI, if it breaks X, re-load the xorg

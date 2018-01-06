@@ -1,0 +1,4 @@
+2011-12-15T14:26:00.000Z	AdvoWork		if ive got a brand new HD I need to format for use with ubuntu, whats the best format to go with, ive got ; ext2,3,4, fat16, fat32, ntfs, linux-swap, xfs and reisers(sp)
+2011-12-15T14:28:00.000Z	deej1976	AdvoWork	Depends on the use, but common ones are ext4,xfs and reifers. fat## are windows formats, linux-swap is just that used for the Linux Swap partition
+2011-12-15T14:35:00.000Z	deej1976	AdvoWork	Go with ext4 for simplicity
+2011-12-15T14:54:00.000Z	deej1976	AdvoWork	You probably want to create a directory with sudo mkdir /mountpoint/directoryname, then give you user ownership sudo chown userid:group /mountpoint/directoryname

@@ -1,0 +1,4 @@
+2010-04-19T23:51:00.000Z	debabrata_		what might be the problem if Ubuntu not able to recognise my Ethernet device
+2010-04-19T23:52:00.000Z	debabrata_		<Plugh> How to fix it
+2010-04-19T23:52:00.000Z	erUSUL	debabrata_	you have to manually load the driver or there is no driver for it
+2010-04-19T23:52:00.000Z	erUSUL	debabrata_	lspci | grep -i net

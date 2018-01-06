@@ -1,0 +1,4 @@
+2008-08-03T02:06:00.000Z	Ketsuban		Hi there, I'm trying to set up the wireless card in my HP 530 laptop. I tried some instructions I got off the forums, but they didn't help, so I'm trying using the "Hardware Drivers" application. If I extract drivers using b32-fwcutter where should I extract them to in order to use the device?
+2008-08-03T02:07:00.000Z	Odd-rationale	Ketsuban	if you can wire up, it would be easiest...
+2008-08-03T02:08:00.000Z	Odd-rationale	Ketsuban	otherwise. download the firmware yourself and extract it to /lib/firmware
+2008-08-03T02:08:00.000Z	Odd-rationale	Ketsuban	e.g. b43-fwcutter -w "/lib/firmware" <driver>

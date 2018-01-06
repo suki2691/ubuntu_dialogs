@@ -1,0 +1,4 @@
+2006-08-28T06:15:00.000Z	Justin_		Where does Ubuntu store all the extra package data it keeps cached?
+2006-08-28T06:16:00.000Z	Justin_		I believe synaptic caches data right?, since when I re-install programs I had earlier, even after reboot - it does not need to refetch them from the servers
+2006-08-28T06:16:00.000Z	oskude	Justin_	see: ls /var/cache/apt/archives
+2006-08-28T06:17:00.000Z	oskude	Justin_	sudo apt-get clean (cleans that)

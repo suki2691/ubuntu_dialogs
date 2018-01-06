@@ -1,0 +1,4 @@
+2011-07-30T23:15:00.000Z	bastidrazor	anygivenname	fail2ban drops all bans on a restart. or so i thought.
+2011-07-30T23:20:00.000Z	bastidrazor	anygivenname	normally fail2ban will monitor /var/log/auth.log and 3 unsuccessful attempts at a login will ban the IP. also you can have fail2ban ignore certain a certain IP/hostname
+2011-07-30T23:22:00.000Z	anygivenname	bastidrazor	yes......that's what I am setting a 24 hours ban of IP after 3 failure attempts
+2011-07-30T23:32:00.000Z	bastidrazor	anygivenname	look also in the fail2ban log. it would tell you if something triggered it

@@ -1,0 +1,4 @@
+2010-07-16T01:58:00.000Z	Theaxiom		how do I find out which is the current video driver loaded?
+2010-07-16T01:58:00.000Z	Theaxiom		anyone?
+2010-07-16T01:59:00.000Z	Theaxiom		I need to know which display driver is currently loaded
+2010-07-16T01:59:00.000Z	ZykoticK9	Theaxiom	"lspci -vnvn" and find the VGA section then the line "Kernel driver in use:"

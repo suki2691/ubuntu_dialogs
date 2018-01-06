@@ -1,0 +1,4 @@
+2011-01-31T08:06:00.000Z	Da_Wrecka		Oh yeah, while I'm here; I've also run into a rather annoying problem; Basically, I once set my netbook's power scheme to Performance, and shut the netbook down some time after. Now, every time I boot Ubuntu, it starts in Performance, even if I set it to Conservative or Ondemand before I shut down. Anyone have a fix?
+2011-01-31T08:08:00.000Z	Da_Wrecka		good question factotum... I did find an answer a while back. Unfortunately I've forgotten since then.
+2011-01-31T08:09:00.000Z	factotum	Da_Wrecka	fantastic!
+2011-01-31T08:10:00.000Z	Da_Wrecka	factotum	Try typing the following in a terminal: lspci -s -v 00:02.0

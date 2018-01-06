@@ -1,0 +1,4 @@
+2007-08-15T15:51:00.000Z	chris_2		guys, i've downloaded a package from the internet, and when i try to install it, it says "Only one software management tool is allowed to run at the same time" but I dont have any other software management program open. I've just rebooted :S
+2007-08-15T15:51:00.000Z	scguy318	chris_2	i suspect perhaps the lock file is still there but i cant tell you how to resolve
+2007-08-15T15:52:00.000Z	chris_2	scguy318	the installer froze before, so I had to "xkill" it. And when I tried to install it again, I got that message. So I Rebooted and im still getting the message
+2007-08-15T15:59:00.000Z	scguy318	chris_2	sudo dpkg -i does the trick too I think

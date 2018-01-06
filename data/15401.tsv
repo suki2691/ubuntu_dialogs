@@ -1,0 +1,4 @@
+2012-05-16T21:26:00.000Z	Lutsen		I've successfully mounted /home on a separate primary partition using the instructions at https://help.ubuntu.com/community/Partitioning/Home/Moving .  But I just tried it again and noticed something odd (to me) as it is copying /home to /media/home.  It spends a lot of time telling me that countless ecryptfs files have "vanished".  I don't remeber if it did this when I moved /home several months ago so I don't know if this is a bad thing.  I a
+2012-05-16T21:27:00.000Z	escott	Lutsen	if you have ecryptfs I would recommend rebooting the livecd and performing the copy there
+2012-05-16T21:29:00.000Z	escott	Lutsen	basically. important thing is to get your ecryptfs user logged off the computer before performing the copy
+2012-05-16T21:36:00.000Z	escott	Lutsen	/home itself should be owned by root

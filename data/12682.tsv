@@ -1,0 +1,4 @@
+2011-07-05T07:35:00.000Z	lei_		Is there anyone who knows how to configure network by bridge mode? i really need help!
+2011-07-05T07:36:00.000Z	lei_		ps: use libvirt to start a kvm guest
+2011-07-05T07:37:00.000Z	Henryk	lei_	brctl addbr br0; ip link set $first_interface up; brctl addif br0 $first_interface; ip link set $second_interface up; brctl addif br0 $second_interface; ifconfig br0 $whateveripyoulike up
+2011-07-05T07:54:00.000Z	lei_	Henryk	Thanks for your reply, i am a newcomer to engage in kvm open source, and a new to here. i really want to fix that bug on ubuntu, and i have made a test pacth,but now still don't know how to test it...

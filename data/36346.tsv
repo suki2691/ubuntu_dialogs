@@ -1,0 +1,4 @@
+2010-03-30T03:18:00.000Z	schlaftier	Bodsda	find . -type f print
+2010-03-30T03:20:00.000Z	schlaftier	Bodsda	also, if you are only interested in the file name without the path, try: find . -type f -printf '%f\n'
+2010-03-30T03:21:00.000Z	Bodsda	schlaftier	cheers - that'll come in handy
+2010-03-30T03:21:00.000Z	schlaftier	Bodsda	for other formatting options, have a look at the manpage

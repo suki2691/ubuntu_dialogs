@@ -1,0 +1,4 @@
+2010-07-28T17:11:00.000Z	lostinspace_46		When compiling software, if you have an .sh file (for instance genfslist.sh) does not that file need to be executable?
+2010-07-28T17:12:00.000Z	Dr_Willis	lostinspace_46	 if its not executable you need to do 'sh whatever.sh' then
+2010-07-28T17:14:00.000Z	lostinspace_46	Dr_Willis	I got the tarball for the program that allows you to "pretty up" the grub screen, and I am trying to compile it.  However, even the configure file isn't executable till I make it so.
+2010-07-28T17:19:00.000Z	lostinspace_46	Dr_Willis	It does not seem like the program would compile if files that need to be executable, aren't.  Or am I missing something?  BTW, some of the .sh files are executable and some are not.  Might they get changed to executable when configure runs?

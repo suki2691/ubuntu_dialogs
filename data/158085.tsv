@@ -1,0 +1,4 @@
+2009-03-12T17:41:00.000Z	cornell_w		I've installed Ibex.  It is common for various processes, daemons, whatever to send notification emails as necessary.  Are there configurations that I have to do to sendmail (exim) for the email to get out, or is there an operable configuration already setup?
+2009-03-12T17:42:00.000Z	Slart	cornell_w	I think you have to set it up so it forwards mails to some external smtp server.. also you have to make sure to use real addresse.. not just root@mygamingbox
+2009-03-12T17:44:00.000Z	Slart	cornell_w	something like that.. but probably by editing some obscure text file somewhere.. I don't know the specifics but I think it's the same stuff you have to do if you just want to run your own mail server
+2009-03-12T17:53:00.000Z	Slart	cornell_w	there should be lots of howto's out there. hope you find something good, that works for you

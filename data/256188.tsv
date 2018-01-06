@@ -1,0 +1,4 @@
+2006-06-20T11:25:00.000Z	Laney		How would I go about doing creating /home/*/.Spam ? I tried mkdir /home/*/.Spam but without success...
+2006-06-20T11:25:00.000Z	dr_willis	Laney	 the use of * in that makes little sence
+2006-06-20T11:25:00.000Z	dr_willis	Laney	 you want to make a .Spam dir for EVERy user?
+2006-06-20T11:26:00.000Z	dr_willis	Laney	 well you will have permission issues.. ya proberly need to use find/xargs or similer tools

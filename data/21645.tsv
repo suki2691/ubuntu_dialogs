@@ -1,0 +1,4 @@
+2010-12-27T00:34:00.000Z	cgcardona		what step do I take once I have switched my ssh port from 22 to get the new port to take effect?
+2010-12-27T00:35:00.000Z	linxeh	cgcardona	restart sshd
+2010-12-27T00:36:00.000Z	cgcardona	linxeh	that gives me Uknown job: sshd
+2010-12-27T00:37:00.000Z	linxeh	cgcardona	sudo service ssh restart

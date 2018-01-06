@@ -1,0 +1,4 @@
+2010-05-18T14:17:00.000Z	slide		Is there any way to make it so ubuntu will know the computer host names from samba and use them for their ips? so when sshing to my server i can use its samba name instead of its ip?
+2010-05-18T14:18:00.000Z	moetunes	slide	add them in /etc/hosts
+2010-05-18T14:19:00.000Z	slide	moetunes	but that wont work is another computer comes online, i think im looking for WINS, or WINBIND, not sure yet
+2010-05-18T14:20:00.000Z	moetunes	slide	heh I use static ips on the lan here so that sort of thing is easier

@@ -1,0 +1,4 @@
+2006-06-30T10:51:00.000Z	Raul654		one more quick question
+2006-06-30T10:51:00.000Z	Raul654		what is the ifconfig command to renew eth0's DHCP?
+2006-06-30T10:53:00.000Z	bimberi	Raul654	try 'ifdown eth0 && ifup eth0' (a guess)
+2006-06-30T10:53:00.000Z	bimberi	Raul654	er, use 'sudo's with

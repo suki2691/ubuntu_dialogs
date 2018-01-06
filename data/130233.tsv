@@ -1,0 +1,4 @@
+2008-10-16T00:09:00.000Z	Azhi_Dahaka		Shutdown from the cli does a regular shutdown of the system?
+2008-10-16T00:10:00.000Z	mongolai	Azhi_Dahaka	it can. It can also do other things like reboot, etc
+2008-10-16T00:12:00.000Z	mongolai	Azhi_Dahaka	well, that's getting a little bit tricky. gnome seems to first check certain programs if there's unsaved data and will prompt the user to save. I don't think the CLI shutdown program does this
+2008-10-16T00:14:00.000Z	mongolai	Azhi_Dahaka	shutdown will work, there is just a risk of losing unsaved personal data. Im not really sure of any way around this for a timed shutdown

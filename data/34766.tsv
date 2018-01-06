@@ -1,0 +1,4 @@
+2010-10-26T18:23:00.000Z	delx		Does anyone know if INOTIFY_FILE_CREATED is issued after a file has been completely written or as soon as it is created?
+2010-10-26T18:23:00.000Z	Gnea	delx	depends what filesystem
+2010-10-26T18:23:00.000Z	delx	Gnea	ext3/4 for example?
+2010-10-26T18:24:00.000Z	Gnea	delx	I'd check the documentation on those to see... usually it's in the source code

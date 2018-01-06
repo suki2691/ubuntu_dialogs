@@ -1,0 +1,4 @@
+2007-01-08T11:22:00.000Z	foglight		is there a command similar to yum --whatprovices in ubuntu for finding file level dependencies?
+2007-01-08T11:24:00.000Z	sdgr406	foglight	looks like dpkg can do that for you
+2007-01-08T11:25:00.000Z	sdgr406	foglight	-S | --search <pattern> ...        Find package(s) owning file(s).
+2007-01-08T11:25:00.000Z	foglight	sdgr406	ok yea thats good for already installed pkgs

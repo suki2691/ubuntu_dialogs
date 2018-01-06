@@ -1,0 +1,4 @@
+2012-09-01T22:13:00.000Z	michelfp		I need help: When using "make -f Makefile", I get the error "seeborg.cpp:1: error: CPU you selected does not support x86-64 instruction set
+2012-09-01T22:13:00.000Z	michelfp		, error code 1"
+2012-09-01T22:14:00.000Z	aidanjt	michelfp	what are you trying to compile?
+2012-09-01T22:18:00.000Z	aidanjt	michelfp	it looks like you'll have to edit the Makefile by hand and change the CFCPU variable to "native"

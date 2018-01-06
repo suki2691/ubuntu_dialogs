@@ -1,0 +1,4 @@
+2012-05-30T18:44:00.000Z	xyzzy_		Is there a way of preventing a single, one-off command from getting stored in bash's history?
+2012-05-30T18:44:00.000Z	reisio	xyzzy_	you can just clear the history afterwards with history -c && echo '' > ~/.bash_history
+2012-05-30T18:45:00.000Z	xyzzy_	reisio	I don't want to clear the whole history, just exlude a single command which will contain a password
+2012-05-30T18:45:00.000Z	reisio	xyzzy_	ah, you shouldn't ever type a password in plain text (so it can be seen by eyes), history or not

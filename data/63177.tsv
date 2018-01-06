@@ -1,0 +1,4 @@
+2009-05-28T00:31:00.000Z	podman99a		hey all .. using 8.04 currently trying to upgrade... however when i do-release-upgrade i get told there are no new versions?
+2009-05-28T00:31:00.000Z	Flannel	podman99a	You need to let it know you're willing to have non-LTS upgrades, are you on CLI only? or do you have a GUI?
+2009-05-28T00:34:00.000Z	Flannel	podman99a	edit /etc/update-manager/release-upgrades, and change it from 'lts' to 'normal'
+2009-05-28T00:34:00.000Z	podman99a	Flannel	Thanks .. star

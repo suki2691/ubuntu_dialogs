@@ -1,0 +1,4 @@
+2007-08-28T08:41:00.000Z	HaYZaM		" add the $OPENH323DIR/lib directory to LD_LIBRARY_PATH so youre be able using the shared libraries. " << HOW CAN I DO THIS ?
+2007-08-28T08:42:00.000Z	sipior	HaYZaM	export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/path/to/lib
+2007-08-28T09:00:00.000Z	sipior	HaYZaM	you just need to give it the ful path to Pwlib
+2007-08-28T09:01:00.000Z	sipior	HaYZaM	--prefix=/home/whatever/Pwlib

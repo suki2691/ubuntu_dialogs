@@ -1,0 +1,4 @@
+2011-03-25T02:03:00.000Z	casper_por		Hello everyone. Can some help me to install lowlatency kernel from ppa:abogani/ppa on ubutu 10.10? After adding repository, i can't find any "lowlatency" kernel's in synaptic :-(
+2011-03-25T02:05:00.000Z	casper_por		have done everythin, but apt-get didn't find package linux-lowlatency
+2011-03-25T02:06:00.000Z	casper_por		yes
+2011-03-25T02:06:00.000Z	ActionParsnip	casper_por	sudo add-apt-repository ppa:abogani/ppa; sudo apt-get update; sudo apt-get -y install linux-lowlatency

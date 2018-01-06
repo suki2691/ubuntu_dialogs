@@ -1,0 +1,4 @@
+2008-07-22T19:24:00.000Z	kelvin911		how to list a sequence using linux command?
+2008-07-22T19:25:00.000Z	kelvin911		for N in {1..99}; do echo "&N" >> file; done
+2008-07-22T19:25:00.000Z	kelvin911		but i want 01 02 03 04 .... 99 instead of 1 2 3 .... 99
+2008-07-22T19:26:00.000Z	mrtimdog	kelvin911	use printf

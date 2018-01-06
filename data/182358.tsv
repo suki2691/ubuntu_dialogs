@@ -1,0 +1,4 @@
+2007-06-29T14:23:00.000Z	ignignokt00		haha
+2007-06-29T14:24:00.000Z	ignignokt00		how do i mount/unmount a floppy image file in a loop?
+2007-06-29T14:25:00.000Z	stefg	ignignokt00	mount -o loop floopy.img (filetype should be recognized automagically)
+2007-06-29T14:25:00.000Z	stefg	ignignokt00	mount -o loop floppy.img /mnt (filetype should be recognized automagically)

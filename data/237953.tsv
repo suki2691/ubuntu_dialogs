@@ -1,0 +1,4 @@
+2007-10-12T14:12:00.000Z	Balz		how can i install the grub loader to a certain partition ??
+2007-10-12T14:14:00.000Z	Balz		corentin': i got the grub loader installed at hd0,6 which is the linux ext3 partition
+2007-10-12T14:14:00.000Z	Balz		corentin': but when i load my computer grub wont load and it goes straight to windows
+2007-10-12T14:15:00.000Z	h|barbobot	Balz	you need to load a live-cd, run grub-install then reboot

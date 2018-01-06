@@ -1,0 +1,4 @@
+2010-02-02T02:45:00.000Z	mib_mib		hi guys, i did an ssh -L 3000:localhost:3000 myname@myserver, and i killed it on my local machine - but when i try to do it again, it says bind: address in use. I am sure i killed it properly on my machine how do i kill it?
+2010-02-02T02:47:00.000Z	mib_mib		can someone help?
+2010-02-02T02:48:00.000Z	warriorforgod	mib_mib	does the process appear when you ps -ef | grep ssh?
+2010-02-02T02:49:00.000Z	mib_mib	warriorforgod	only /usr/bin/ssh-agent -l appears (and grep ssh)

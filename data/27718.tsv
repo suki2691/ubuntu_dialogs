@@ -1,0 +1,4 @@
+2010-08-12T07:12:00.000Z	reggi		hey thanks for responding peepingtom, I had gone through those setup details as well. my problem is that I think I have more tried to set dhcp 3 different ways and these settings are conflicting with each other. i'll take KE1HA's suggestion and check out the server channel. =)
+2010-08-12T07:13:00.000Z	bofh80	reggi	dhcp should only be reading from the one config file. have you checked the config in /etc itself ?
+2010-08-12T07:15:00.000Z	reggi	bofh80	that is good to hear then. you are referring to /etc/dhcpd.conf right? its just that I installed dhcp3 and it has it's own config file /etc/dhcp3/dhcpd.conf which is probably where the conflict is happening.
+2010-08-12T07:21:00.000Z	bofh80	reggi	you could try renaming ..  sudo mv /etc/dhcpd.conf /etc/dhcpd.conf.old     then restart the service.  only dhcp2 is meant to read the older one

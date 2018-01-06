@@ -1,0 +1,4 @@
+2007-04-30T10:51:00.000Z	dade		what's the diff GiB and GB?? Array Size : 488391808 (465.77 GiB 500.11 GB)
+2007-04-30T10:53:00.000Z	dade		tnx pici andjpjacobs
+2007-04-30T10:54:00.000Z	dade		and why df gives me this when I have 500 GB? /dev/md1 459G  199M  435G   1% /mnt/raid
+2007-04-30T10:55:00.000Z	LjL	dade	because you have 500GB but the value is being expressed in GiB, most likely.

@@ -1,0 +1,4 @@
+2006-09-22T09:13:00.000Z	gpro		Hello, how do I search on console for a certain lib to see if it is already installed?
+2006-09-22T09:13:00.000Z	krazykit	gpro	slocate
+2006-09-22T09:13:00.000Z	krazykit	gpro	or just check in apt for the package.
+2006-09-22T09:14:00.000Z	krazykit	gpro	slocate will fine any file with the string you search for... so you could do slocate libsomething

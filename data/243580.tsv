@@ -1,0 +1,4 @@
+2005-04-07T14:13:00.000Z	corza		hey guys i have a secondary drive and i was wondering how i can view it.. it's FAT32 format
+2005-04-07T14:14:00.000Z	corza		can someone help me out with my FAT32 drive?
+2005-04-07T14:16:00.000Z	corza		"unable to mount volume"
+2005-04-07T14:16:00.000Z	drummer87	corza	add to fstab, /dev/hdb1  /media/name  vfat  rw,umask=0000  0  0

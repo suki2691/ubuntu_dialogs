@@ -1,0 +1,4 @@
+2007-11-24T11:11:00.000Z	lostblur		hi. i had a fresh install and everything was running fine until i installed firestarter via applications add. immedietalye lost view of NAS on the smb.. however i was abel to access it directly via the IP. i removed firestarter, but this did not undo the damage,. why did this happen and what can i do?
+2007-11-24T11:11:00.000Z	joeb3_	lostblur	does 'iptables -L' still show any rules?
+2007-11-24T11:14:00.000Z	joeb3_	lostblur	iptables -P INPUT ACCEPT ; iptables -P OUTPUT ACCEPT ; iptables -P FORWARD ACCEPT ; iptables -F
+2007-11-24T11:14:00.000Z	joeb3_	lostblur	that should remove what firestarter added.

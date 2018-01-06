@@ -1,0 +1,4 @@
+2008-12-07T21:41:00.000Z	quambo		my swap no longer gets set on boot after editing partitions with parted (since i didn't think ubuntu needed so much space for its boot partition). fstab seems to have a strange format, i've never seen this UUID value. how do i configure this? does the normal fstab format work?
+2008-12-07T21:41:00.000Z	joaopinto	quambo	you can list the UUIDs with: blkid
+2008-12-07T21:42:00.000Z	joaopinto	quambo	the plain fstab format does work, but it's preferable UUIDs, since those do not change when you delete/add partitions, unlke the logical nr
+2008-12-07T21:43:00.000Z	quambo	joaopinto	ah thank you :)

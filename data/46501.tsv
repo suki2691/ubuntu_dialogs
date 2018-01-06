@@ -1,0 +1,4 @@
+2011-03-28T08:13:00.000Z	leapy0yo		I don't understand why samba is sharing a hard drive that is not in /etc/samba/smb.conf ... anyone think of a reason?
+2011-03-28T08:15:00.000Z	pfifo	leapy0yo	can you pastebin you config and what directory is it sharing
+2011-03-28T12:02:00.000Z	pfifo	leapy0yo	by first deleting the destination
+2011-03-28T12:04:00.000Z	pfifo	leapy0yo	i usually use 'cp -a' and then once finished delete the originals if i dont want them on the filesystem

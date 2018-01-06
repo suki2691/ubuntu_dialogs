@@ -1,0 +1,4 @@
+2010-10-21T00:22:00.000Z	grpace		Question: Running dual-boot...  Ubuntu and XP. I updated Ubuntu yesterday.  Today, I had to install new updates (which is OK... I like the constant updates).  Is there  a way to prevent the GRUB boot screen from showing all the different kernels that have been updated and only show the most recent, without having to edit the GRUB configuration file?  2nd Question: Are all the previous kernels, etc. still living on the hard drive?  If so
+2010-10-21T00:22:00.000Z	grpace		, how do I remove them?
+2010-10-21T00:24:00.000Z	xangua	grpace	you can configure how many kernels you want grub to show with startupmanager - sudo apt-get install startupmanager
+2010-10-21T00:26:00.000Z	xangua	grpace	yes, you can remove them with synaptic

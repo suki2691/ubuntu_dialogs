@@ -1,0 +1,4 @@
+2008-02-08T00:38:00.000Z	zil2		hi... I need to transfer a few files from a windows box. I thought ftp would be easiest. I installed ftp server on my windows box and copied everything over to the folder. IT all worked fine locally, but I can not connect remotly to the box :( it just says failed to list contents
+2008-02-08T00:38:00.000Z	m0u5e	zil2	the easiest way is to use samba to access the windows c$ root share
+2008-02-08T00:39:00.000Z	m0u5e	zil2	type in the computer name / IP address like this <computername>/c$
+2008-02-08T00:39:00.000Z	m0u5e	zil2	it will access the root share (it will prompt for user name & pass)

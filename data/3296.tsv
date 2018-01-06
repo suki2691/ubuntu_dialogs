@@ -1,0 +1,4 @@
+2012-05-26T19:54:00.000Z	imaubuntunoob		hello guys. i have a problem login in.. the password is correct, but i can't login. login manager is always presented to me everytime i keyed in the correct password. how do i fix this?
+2012-05-26T19:55:00.000Z	imaubuntunoob		sorry this problem persists since 2 weeks ago..
+2012-05-26T19:56:00.000Z	imaubuntunoob		i'm sorry. won't do this again..
+2012-05-26T19:56:00.000Z	wawowe	imaubuntunoob	ctrl+alt+f1 , login , sudo apt-get remove lightdm , sudo apt-get install gdm , service gdm start

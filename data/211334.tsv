@@ -1,0 +1,4 @@
+2008-07-14T01:15:00.000Z	flowy		.
+2008-07-14T01:15:00.000Z	flowy		How do I automatically start x when booting up mu machine. I deinstalled and reinstalled X and now it dows not autostart anymore. Can anybody please assist me on this one? I googled for days! I am on Ubuntu 8.04
+2008-07-14T01:16:00.000Z	axisys	flowy	dpkg-recondfigure xserver-xorg
+2008-07-14T01:16:00.000Z	axisys	flowy	dpkg-reconfigure xserver-xorg

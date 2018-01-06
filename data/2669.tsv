@@ -1,0 +1,4 @@
+2012-06-04T23:56:00.000Z	brasidas		eth0 and eth1 both have valid connections to the outside world. If I turn off eth0 via 'ifdown eth0', eth1 does not automatically take over as the primary interface.
+2012-06-04T23:56:00.000Z	brasidas		Is there a command I can run or a setting in /etc/network/interfaces I can add to make eth1 automatically take over?
+2012-06-04T23:57:00.000Z	cpet	brasidas	that is difficult as the issue is the routing table
+2012-06-04T23:58:00.000Z	cpet	brasidas	you need to use a device that allow you to do that

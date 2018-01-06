@@ -1,0 +1,4 @@
+2010-07-29T00:38:00.000Z	lachouffe		is there a way to know the origin of an installed package ?
+2010-07-29T00:39:00.000Z	lachouffe		assuming that i have many "deb"  entries in my source.list
+2010-07-29T00:39:00.000Z	maco	lachouffe	"apt-cache policy $PACKAGENAME" tells which repo has that version...
+2010-07-29T00:40:00.000Z	lachouffe	maco	nice i'll try that

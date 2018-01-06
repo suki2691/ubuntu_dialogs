@@ -1,0 +1,4 @@
+2007-05-07T16:34:00.000Z	LaHrrSLoVeLL		Anyone here?
+2007-05-07T16:34:00.000Z	LaHrrSLoVeLL		I'm having trouble after an upgrade.
+2007-05-07T16:36:00.000Z	LaHrrSLoVeLL		I've done an apt-get upgrade on my system. Now it won't boot with the new 2.6.17.11-server-bigiron kernel, I selected an older version (2.6.17.11-generic) in my GRUB boot, but how can I remove the newer kerne?
+2007-05-07T16:36:00.000Z	bruenig	LaHrrSLoVeLL	delete it and remove the menu.lst entry or delete it and run sudo upgrade-grub

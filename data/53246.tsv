@@ -1,0 +1,4 @@
+2012-01-19T01:52:00.000Z	fission6		how can i update my system time?
+2012-01-19T01:54:00.000Z	mneptok	fission6	sudo ntpdate tick.usno.navy.mil
+2012-01-19T01:54:00.000Z	fission6	mneptok	18 Jan 15:59:16 ntpdate[19999]: the NTP socket is in use, exiting
+2012-01-19T01:54:00.000Z	mneptok	fission6	then you are running NTP as a background service already

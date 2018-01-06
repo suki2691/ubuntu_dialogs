@@ -1,0 +1,4 @@
+2012-06-12T00:47:00.000Z	Thom-		guys, I'm getting crazy. Nautilus is ignoring my LC_COLLATE setting (sort order should be de_DE.UTF-8, not C -> it should be case insensitive). It works fine with ls, but not in Nautilus
+2012-06-12T00:49:00.000Z	Thom-		I've already changed etc/default/locale and added an export LC_COLLATE="de_DE.UTF-8" in the .profile file. Any idea from where nautilus could get it's wrong collate setting?
+2012-06-12T00:50:00.000Z	mneptok	Thom-	poke around in the gconf-editor app. also, #ubuntu-de users may have similar experiences they have solved.
+2012-06-12T00:51:00.000Z	mneptok	Thom-	Nautilus setting strings are visible to that app.

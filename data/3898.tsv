@@ -1,0 +1,4 @@
+2012-04-20T22:25:00.000Z	L3top_		Does anyone know what happened to Xorg -scanpci? Or if there is an alternative that produces the proper format for xorg.conf? I do not wish to convert hex to decimal and then format
+2012-04-20T22:27:00.000Z	L3top_		I just need the pci bus.
+2012-04-20T22:28:00.000Z	L3top_		for dual gpu setups, I must specify the appropriate card, and getting it from lspci I have to split it up, convert it with bc, reformat it and get rid of numbers sometimes... and... I just want exactly what Xorg -scanpci used to do.
+2012-04-20T22:29:00.000Z	codeslinger	L3top_	so you use the gnu also for display, not just computation?

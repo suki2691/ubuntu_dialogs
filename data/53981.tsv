@@ -1,0 +1,4 @@
+2009-06-21T01:00:00.000Z	MrNaz_x40		whenever i want to run dvgrab i have to use sudo as /dev/raw1394 is chmoded to root... how do i make it so that all users can access the firewire port without the need for sudo ?
+2009-06-21T01:00:00.000Z	usser	MrNaz_x40	whats the group that owns /dev/raw1394
+2009-06-21T01:01:00.000Z	MrNaz_x40	usser	root root
+2009-06-21T01:01:00.000Z	usser	MrNaz_x40	hm thats weird, its usually something like root:video in which case all you have to do is add your user to video group to allow them access

@@ -1,0 +1,4 @@
+2010-01-29T21:39:00.000Z	Aldus		Hi, with the command fdisk -l I can see all disks and their partitions. But how to know what kind of disk is it? How to know if it's pendrive, usb external disk, memory stick etc. ?
+2010-01-29T21:40:00.000Z	cn28h	Aldus	one way would be to, for instance: dmesg | grep sda
+2010-01-29T21:41:00.000Z	cn28h	Aldus	for usb you can also lsusb
+2010-01-29T21:41:00.000Z	Aldus	cn28h	thank you

@@ -1,0 +1,4 @@
+2011-09-27T09:18:00.000Z	thenickperson		I'm having trouble finding my sound drivers, should I just reinstall my sound drivers with "sudo aptitude --purge reinstall linux-sound-base alsa-base alsa-utils linux-image-`uname -r` linux-ubuntu-modules-`uname -r` libasound2"? I'm just worried, will this delete anything other than my sound config?
+2011-09-27T09:19:00.000Z	thenickperson		also, I have apt-get, can I just replace "aptitude" with "apt-get"?
+2011-09-27T09:19:00.000Z	zykotick9	thenickperson	careful!  you're removing your kernel in that command!!!
+2011-09-27T10:06:00.000Z	zykotick9	thenickperson	possible a new issue with your ENTER key though ;)

@@ -1,0 +1,4 @@
+2009-01-08T08:14:00.000Z	Logomachist		I asked this earlier but my problem still isn't fixed so I'll ask again:
+2009-01-08T08:14:00.000Z	Logomachist		Grub doesn't kick in after installing Ubuntu. What can I do? I tried "install-grub" but the command wasn't found. I tried Auto Super Grub Disk for Windows but that didn't do anything.
+2009-01-08T08:15:00.000Z	vantrax	Logomachist	on a live cd open a terminal and run sudo grub
+2009-01-08T08:21:00.000Z	vantrax	Logomachist	the livecd lets you edit local files, sudo grub loads the grub terminal and you can find and repair grub, or install it if it is missing

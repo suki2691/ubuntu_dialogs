@@ -1,0 +1,4 @@
+2011-12-07T19:29:00.000Z	janolap1		My ubuntu server 8.04 LTS has ubuntu-desktop installed on it. How can I exit the desktop, just to have command line ?
+2011-12-07T19:30:00.000Z	iceroot	janolap1	ctrl + alt +f1  but then the x-server is still running
+2011-12-07T19:30:00.000Z	iceroot	janolap1	if you want to stop the x-server use "sudo /etc/init.d/gdm stop"
+2011-12-07T19:30:00.000Z	janolap1	iceroot	: thanx ! I'll ty it !

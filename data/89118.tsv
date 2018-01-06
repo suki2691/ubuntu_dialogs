@@ -1,0 +1,4 @@
+2008-06-18T08:28:00.000Z	flouge1		i get selected cylinder exceeds maximum supported by bios
+2008-06-18T08:30:00.000Z	glitsj16	flouge1	oops, not familiar with that one .. you were upgrading your kernel ?
+2008-06-18T08:33:00.000Z	glitsj16	flouge1	have you gone over your /boot/grub/menu.lst manually to check if there's something out of the ordinary ?
+2008-06-18T08:51:00.000Z	glitsj16	flouge1	have you considered chroot'ing and reinstalling grub that way ? it's some work i realize that, but seems like something you can try before sledgehammering (i know how frustrating grub errors can be)

@@ -1,0 +1,4 @@
+2006-09-12T07:07:00.000Z	technel		I have a directory that has a million "./*/*/.*.swp" files from VIM, any way to recursively auto-delete them all?
+2006-09-12T07:09:00.000Z	jrib	technel	you can use a combination of find and rm, or if you use zsh you can do rm **/.*.swp
+2006-09-12T07:10:00.000Z	technel	jrib	I don't really know how to use find/rm together
+2006-09-12T07:10:00.000Z	jrib	technel	find -iname *.swp -exec rm '{}' \;   <-- maybe?  check this...

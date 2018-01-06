@@ -1,0 +1,4 @@
+2005-12-04T09:13:00.000Z	oneseventeen		ever since I upgraded the ati driver via system updates my screen resolution is very low :(
+2005-12-04T09:15:00.000Z	oneseventeen		My xorg.conf still has 1280x800 listed as the preferred resolution, but it isn't even a choic from system>preferences>screen resolution
+2005-12-04T09:17:00.000Z	oneseventeen		it worked with my custom installed one... I think it might be fidgety because I'm using a laptop with ati
+2005-12-04T09:17:00.000Z	nickrud	oneseventeen	the gnome resolution preferences only allows what X says it can do; look in /var/log/Xorg.0.log for some hints about what resolutions are supportd

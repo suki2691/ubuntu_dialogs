@@ -1,0 +1,4 @@
+2005-04-29T16:57:00.000Z	CellarDoor		hey folks its me again
+2005-04-29T16:58:00.000Z	CellarDoor		I'm using kubuntu here (no ones talking in #kubuntu atm) and I'm trying to shut down X so I can install my nvidia driver, but it keeps restarting X everytime I do ctrl-alt-backspace... anyone know what to do ?
+2005-04-29T16:59:00.000Z	CellarDoor		I've asked in #kubuntu but no ones chatting, so I thought I'd ask in here
+2005-04-29T05:00:00.000Z	Shufla	CellarDoor	Ctl+Alt+F1 ; login ; sudo /etc/init.d/kdm stop ; do what you need ; sudo /etc/init.d/kdm start

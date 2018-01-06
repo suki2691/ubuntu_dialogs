@@ -1,0 +1,4 @@
+2005-10-25T07:49:00.000Z	Topslakr		can anyone tell me how to remove a pkg but not the things that depend on it?
+2005-10-25T07:50:00.000Z	carthik	Topslakr	packages depend on other packages for functionality - so what you say in intrinsically impossible
+2005-10-25T07:51:00.000Z	Topslakr	carthik	- i agree :) I'm trying to remove a dhcp server that is a problem for me but there are other things on the system that require a DHCP server. I have one on the network and I want/need to use the other one
+2005-10-25T07:53:00.000Z	carthik	Topslakr	maybe you can find out what the other dhcp server does, disable the one installed by ubuntu through its configuration file, and start using the other one?

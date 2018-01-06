@@ -1,0 +1,4 @@
+2007-07-13T06:46:00.000Z	diamondcutter		Alright, I just added a drive to my ubuntu box and formatted it using Partition Magic in DOS. Thing is, I don't have a copy of Windows any where and I'm getting mount errors about it needing a chkdsk. I ran ntfsfix, but apparently that tells it to run chkdsk.. Basically, I know the disk doesn't need checking and I just want to clear the stupid chkdsk flags so I can mount it without any trouble. Anyone help with this?
+2007-07-13T06:47:00.000Z	diamondcutter		I was trying to find a good partitioner in ubuntu, but I couldn't find anything through Googling it.. Does the ubuntu live cd have a GUI partitioner?
+2007-07-13T06:48:00.000Z	astro76	diamondcutter	run dosfsck on the partition
+2007-07-13T06:49:00.000Z	astro76	diamondcutter	you can install it too, but note partitions have to be unmounted to operate on them

@@ -1,0 +1,4 @@
+2012-02-11T01:38:00.000Z	Steevca		How can i make a xorg.conf file?
+2012-02-11T01:39:00.000Z	zykotic10	Steevca	(general hints only) 1) stop Xorg 2) run "X -configure" (possibly requiring sudo), notice where it places the generated xorg.conf 3) copy/rename the xorg from step2 to /etc/X11/xorg.conf 4) restart XOrg to test
+2012-02-11T01:41:00.000Z	zykotic10	Steevca	oh ya, if you happen to be using nvidia propritary driver, it's just "sudo nvidia-xconfig"
+2012-02-11T01:41:00.000Z	Steevca	zykotic10	 Nope,it's ATI. :S And i am on open drivers.

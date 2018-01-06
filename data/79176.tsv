@@ -1,0 +1,4 @@
+2009-09-06T09:43:00.000Z	Geoffrey2		ok, for the iptables FORWARD command, what does the /24 on the back the following represent.... -s 192.168.0.0/24
+2009-09-06T09:45:00.000Z	Jan500	Geoffrey2	so your ip range is from 192.168.0.0 to 192.168.0.255
+2009-09-06T09:50:00.000Z	Geoffrey2	Jan500	so -s 192.168.5.0/4 would give me a range 192.168.5.0 to 192.168.5.3?
+2009-09-06T09:54:00.000Z	Jan500	Geoffrey2	 /30 would be .0 .1 .2 and .255

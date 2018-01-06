@@ -1,0 +1,4 @@
+2009-12-30T02:11:00.000Z	mhouck		i have a fresh install of ubuntu 9.1 and I'm trying to get ALL of my audio to passthrough the optical out to my receiver.  I've tested that it works with an AC3 file using "aplay -D plughw:0,2 ~/Downloads/Prelude.wav"... but I can't figure out how to have all applications default to passthrough.  The Sound preferences app is set to IEC958 Digital Stereo... but it won't do any more channels than that.  i've tried adding "default-sample-ch
+2009-12-30T02:12:00.000Z	FatherBadTouch	mhouck	probably NO HELP at all but have you tried pasuspender?
+2009-12-30T02:13:00.000Z	FatherBadTouch	mhouck	it puts pulse audio on suspense while the program you're using is running
+2009-12-30T02:14:00.000Z	FatherBadTouch	mhouck	like I said, probably no help at all.

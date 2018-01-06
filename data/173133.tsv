@@ -1,0 +1,4 @@
+2006-12-12T14:38:00.000Z	fallingdutch		i upgraded from 6.06 to 6.10 yesterday, rebooted and when i wanted to login X crashed - the error seemed to be in /etc/bash_completion i have uncommented the lines in .bashrc then the x-session didn't crash. Now i start an app and X crashes again, but ran before.is there a known problem with /etc/bash_completion and any ideas why x crashes when starting the app, what changed between 6.10 and 6.06?
+2006-12-12T14:39:00.000Z	frogzoo	fallingdutch	I doubt an x crash could be related to bash, a text utility
+2006-12-12T14:40:00.000Z	fallingdutch	frogzoo	well to be more precise: the session didn't came up and the message your session took less than 10 secs came up and stated an error in /etc/bash_completion
+2006-12-12T14:44:00.000Z	frogzoo	fallingdutch	if you can get to a terminal, take a look at what's in /var/log/messages - sounds like your machine is badly sick

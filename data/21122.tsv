@@ -1,0 +1,4 @@
+2010-12-31T04:33:00.000Z	chrisA1		I'm a noob setting up a file server with 10.10 Server as a learning exercise, trying to get wireless working. I'm trying to follow https://help.ubuntu.com/community/WifiDocs/WiFiHowTo . However, 'sudo ifconfig wlan0 up' dies and requires a soft reboot, while iwconfig reports that wlan0 exists.
+2010-12-31T04:34:00.000Z	ActionParsnip	chrisA1	run:   sudo iwlist scan | less     do you find access points?
+2010-12-31T04:36:00.000Z	chrisA1	ActionParsnip	lo and eth0 don't support scanning, and the wlan0 entry is, verbatim, "Interface doesn't support scanning : Network is down".
+2010-12-31T04:37:00.000Z	ActionParsnip	chrisA1	ok then run:   sudo lshw -C network    websearch the product line to find guides

@@ -1,0 +1,4 @@
+2008-06-01T03:23:00.000Z	carrus85		(8.04) ok; so I have an shared NTFS partition at /dev/sdb5 (partition on an internal sata drive).  It can be mounted on demand through the Places/Removable Drives menu.  However, I'm not exactly sure how to automatically mount the partition at startup.  Since I haven't used fuse a lot, is it possible to just drop it into fstab with fuseblk as the partition type, or is a more exotic solution necessary?
+2008-06-01T03:24:00.000Z	Mecha25	carrus85	you can use fstab to make it automount, I'm not exactly sure how, I did it a while ago
+2008-06-01T03:25:00.000Z	carrus85	Mecha25	eh; I'll give it a try.  Recovery Console ftw
+2008-06-01T03:43:00.000Z	carrus85	Mecha25	nope; dropping in fuseblk as the file system type doesn't work :(

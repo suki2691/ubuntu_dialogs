@@ -1,0 +1,4 @@
+2010-01-16T04:50:00.000Z	nullp0inter		anyone know how i would escape setTimeout('TINY.box.show("session.php?suid=<?php echo $id; ?>",1,200,200,1,0);', <?php echo $timeLeft; ?>); in a sed replace?
+2010-01-16T04:51:00.000Z	kwtm	nullp0inter	are there octal/hex escapes allowed in sed?  I'd go that route.
+2010-01-16T04:54:00.000Z	nullp0inter	kwtm	i dont know what you mean
+2010-01-16T04:54:00.000Z	kwtm	nullp0inter	darn, sed (which uses GNU regexes, right?) doesn't recognize \x00 to \xFF as ASCII escapes. :(   THis is from http://www.regular-expressions.info/refflavors.html

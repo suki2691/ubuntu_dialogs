@@ -1,0 +1,4 @@
+2009-07-24T22:47:00.000Z	ankush		whenever i wish to mount a partition of my external hdd it says "acc to mtab, dev/sdb2 is already mounted on /media/disk"  but on giving sudo umount /media/disk it says not found
+2009-07-24T22:48:00.000Z	daftykins	ankush	yeah sometimes a drive gets listed on the "Places" menu and is kind of mounted but not (: ( i think)
+2009-07-24T22:49:00.000Z	ankush	daftykins	i think a restart will do...but i cannot do it right now due to a dwnld in progress  ..any other method
+2009-07-24T22:52:00.000Z	daftykins	ankush	force unmount the device rather than the place it's mounted to

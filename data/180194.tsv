@@ -1,0 +1,4 @@
+2007-04-19T11:25:00.000Z	respa		how do I disable sudo and set a root password?
+2007-04-19T11:27:00.000Z	jrib	respa	there's an option you can set in /etc/sudoers, read 'man sudoers'
+2007-04-19T11:28:00.000Z	respa	Agrajag	so every user on the system can perform root commands?
+2007-04-19T11:28:00.000Z	jrib	respa	by default, only users in the "admin" group can sudo

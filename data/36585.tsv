@@ -1,0 +1,4 @@
+2011-01-02T02:03:00.000Z	Ziber		If I have a box that has two harddrives in it, how can I access the second one?
+2011-01-02T02:05:00.000Z	GeekSquid	Ziber	has the second one been formatted/partitioned? if not you will need to format it with gparted, which is not installed by default... then it will become available
+2011-01-02T02:05:00.000Z	Ziber	GeekSquid	the HD was used on another box, but for what it was doing (simply a firesharing server), I figured I'd just move it.
+2011-01-02T02:06:00.000Z	GeekSquid	Ziber	does it show up in /media .. perhaps a mount -a to get starteed

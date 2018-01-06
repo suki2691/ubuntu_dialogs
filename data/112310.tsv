@@ -1,0 +1,4 @@
+2010-06-15T14:36:00.000Z	pip		Hello, can I share a ubuntu's swap partition with another linux dist ?
+2010-06-15T14:36:00.000Z	piko	pip	yes, but forget about hibernation
+2010-06-15T14:49:00.000Z	piko	pip	I dod not follow the whole chat, but what should be usually sufficient for linux distro is 1) to build a swap partition by mkswap, 2) set it in /etc/fstab, 3) label partition by fdisk as linux partition
+2010-06-15T14:52:00.000Z	pip	piko	 I just want to share the swap partition with another linux distribution

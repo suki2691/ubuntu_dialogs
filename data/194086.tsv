@@ -1,0 +1,4 @@
+2008-01-09T00:21:00.000Z	Dr_willis		Hmm.. how do you fsck a loopback'd filesystem in a file..
+2008-01-09T00:21:00.000Z	Dr_willis		Ive heard of it being done.. just not sure how. :)
+2008-01-09T00:23:00.000Z	pike_	Dr_willis	after you losetup and its associated with a node then you can just fsck loop0 or whatever right? or maybe not ive never done it
+2008-01-09T00:23:00.000Z	pike_	Dr_willis	fsck /dev/loop1 or whatever i mean

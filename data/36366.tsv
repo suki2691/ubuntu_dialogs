@@ -1,0 +1,4 @@
+2011-07-04T04:06:00.000Z	innergalaxy		I just upgraded to 11.04, and am having a problem with VirtualBox.  It reports that I am not in the vboxuser group.  I have verified that I am - however, when using either the 'groups' or 'id' command by itself, it shows I'm not in the group - but, when I use those commands with my name, it shows I am in that group.  Also 'whoami' shows I am logged in under my name.  I'm not sure what to do at this point.
+2011-07-04T04:07:00.000Z	dork	innergalaxy	it probably is a group permission issue
+2011-07-04T04:07:00.000Z	innergalaxy	vlt	I have rebooted completely, as well as removing myself from the group and re-adding.  Nothing has had an effect.
+2011-07-04T04:07:00.000Z	dork	innergalaxy	hang on installing virtualbox really quick

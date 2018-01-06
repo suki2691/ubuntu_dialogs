@@ -1,0 +1,4 @@
+2011-08-09T07:11:00.000Z	fission6		if i create an upstart script do i need to run it with sudo? like sudo start something
+2011-08-09T07:13:00.000Z	escott	fission6	sudo service whatever start
+2011-08-09T07:14:00.000Z	escott	fission6	correctly configured it should start automatically, but if you just created it and want to test it you have to manually start it
+2011-08-09T07:16:00.000Z	escott	fission6	yes

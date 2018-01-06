@@ -1,0 +1,4 @@
+2009-10-22T09:16:00.000Z	josh		How do I install alsa-lib from command line?  I run 'sudo apt-get install alsa-lib' and I get the error "package alsa-lib does not exist"
+2009-10-22T09:17:00.000Z	ne0futur	josh	apt-cache search alsa | grep lib
+2009-10-22T09:19:00.000Z	josh	ne0futur	all the guides say I should be installing "alsa-lib", and it's even on canonical's site, but it's not showing up with a 'apt-cache search alsa | grep lib'
+2009-10-22T09:19:00.000Z	josh	ne0futur	http://ns2.canonical.com/ko/source/karmic/alsa-lib

@@ -1,0 +1,4 @@
+2007-12-26T10:22:00.000Z	American-Tech		Just installed unbuntu and my screen res is not supported. How do I change to 1920x1200
+2007-12-26T10:23:00.000Z	nickrud	American-Tech	what video card do you have
+2007-12-26T10:24:00.000Z	nickrud	American-Tech	  applications->accessories->terminal , type in there:  lspci | grep -i vga, it'll tell you in detail
+2007-12-26T10:28:00.000Z	nickrud	American-Tech	system->admin->restricted drivers, enable the nvidia one, and reboot. You should get better video support.

@@ -1,0 +1,4 @@
+2011-06-28T13:04:00.000Z	jfcaron		Whenever I run apt-get, I get an error message: "WARNING: /usr/share/pyshared/papyon-0.4.6.egg-info is linked but does not belong to any package."  I tried apt-get --reinstalling python-papyon, with no luck.  Any suggestions on how to get rid of this error message?
+2011-06-28T13:06:00.000Z	pksadiq	jfcaron	try sudo dpkg --configure -a
+2011-06-28T13:08:00.000Z	jfcaron	pksadiq	Running that command seemed to do nothing, there was no output.
+2011-06-28T13:08:00.000Z	pksadiq	jfcaron	k, also try sudo apt-get install -f

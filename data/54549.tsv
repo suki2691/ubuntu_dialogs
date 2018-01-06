@@ -1,0 +1,4 @@
+2009-06-11T20:03:00.000Z	JasonMoss		So if I need to make sure i "restart my shell" after making some changes to an /etc/profile file what does that entail? Closing the terminal, and reopening another one? Exiting out of an ssh session and opening another one?
+2009-06-11T20:03:00.000Z	cabrey	JasonMoss	exec bash -l
+2009-06-11T20:03:00.000Z	JasonMoss	cabrey	thanks
+2009-06-11T21:36:00.000Z	cabrey	JasonMoss	give the folder group permissions and add user to said group

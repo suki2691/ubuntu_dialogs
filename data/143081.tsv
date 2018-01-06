@@ -1,0 +1,4 @@
+2007-05-23T05:28:00.000Z	aa^way		How to run .pl f iles in ubuntu apache?
+2007-05-23T05:28:00.000Z	aa^way		i did sudo apt-get install apache-perl
+2007-05-23T05:28:00.000Z	chuck`_	aa^way	: you need chmod the scripts so they can be executed, and put them in your cgi-bin
+2007-05-23T05:29:00.000Z	chuck`_	aa^way	: Or, if you want the scripts to be executed in directories other than cgi-bin, you need to edit your apache2.conf to set .cgi and .pl files to be executed by the perl interpreter

@@ -1,0 +1,4 @@
+2008-02-25T09:11:00.000Z	storm-zen		will stopping and restarting the automounter get my drives back?
+2008-02-25T09:13:00.000Z	storm-zen		( That is, they weren't earlier, when the rest of them were mounted. )
+2008-02-25T09:14:00.000Z	storm-zen		4 - all the same external drive.
+2008-02-25T09:16:00.000Z	slenentine	storm-zen	sudo fdisk -l   find the appropriate partitions (/dev/whatever); then    sudo mount /dev/whatever /media/mountPoint

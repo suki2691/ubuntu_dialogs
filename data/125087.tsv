@@ -1,0 +1,4 @@
+2007-12-16T07:12:00.000Z	holycow		what controls resolution in the latest ubuntu?  in the past the xorg.conf file would have resolution entries, now you can leave them out and something will autoguess the resolution possibilities for a particular monitor.  anyone know?
+2007-12-16T07:12:00.000Z	scguy318	holycow	still xorg.conf
+2007-12-16T07:13:00.000Z	scguy318	holycow	X has always been able to auto-detect I believe
+2007-12-16T07:13:00.000Z	scguy318	holycow	if you start X without an xorg.conf it tries to guess and detect defaults

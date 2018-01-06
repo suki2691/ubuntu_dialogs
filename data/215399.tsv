@@ -1,0 +1,4 @@
+2008-05-08T18:50:00.000Z	Pord		can any1 here help with cron? ive tried to set up a cron file looking like this "* 4,10,16,21 * * * sh  ./home/pord/.change.sh" but it never runs the sh file at the time. I know the sh file works
+2008-05-08T18:51:00.000Z	soundray	Pord	make ./home/pord/.change.sh executable and omit the sh
+2008-05-08T18:52:00.000Z	soundray	Pord	the leading . on ./home/pord/.change.sh looks wrong, too
+2008-05-08T18:55:00.000Z	soundray	Pord	have you solved your cron problem?

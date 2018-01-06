@@ -1,0 +1,4 @@
+2009-11-16T11:03:00.000Z	uccadmin		What would be a good way to shutdown a machine if it has been sitting at the GDM login for a certain amount of time? Could this be a job for cron? Or should I go another route?
+2009-11-16T11:04:00.000Z	jonz	uccadmin	http://www.cyberciti.biz/tips/linux-shutdown-command-and-logfile.html
+2009-11-16T11:04:00.000Z	jonz	uccadmin	(that's if you'll end up putting it in cron)
+2009-11-16T11:05:00.000Z	uccadmin	jonz	Yes, I know the command to shut down. I'm trying to figure out what is the best method for the system to determine WHEN to shut down. I need to be able to track idle time at login or something of the sort

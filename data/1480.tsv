@@ -1,0 +1,4 @@
+2012-08-21T19:50:00.000Z	newguest1122		hey guys, after installing nvidia drivers my ubuntu 11.10 doesn't boot normally. i have to go to recovery mode and then select resume normal boot. is there any solution?
+2012-08-21T19:51:00.000Z	ActionParsnip	newguest1122	try:  sudo nvidia-xconfig;  gksudo nvidia-settings     and set the display, click 'save to xorg config file' when done
+2012-08-21T19:54:00.000Z	newguest1122	ActionParsnip	thanks. also whenever kernel upgrades to newer version, i cant boot to full graphical system. i have to install nvidia drivers again and then it boots normally.
+2012-08-21T19:54:00.000Z	ActionParsnip	newguest1122	no as there is a DKMS module in the packaged driver so it gets rebuilt

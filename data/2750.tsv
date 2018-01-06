@@ -1,0 +1,4 @@
+2012-07-01T19:22:00.000Z	jdjb		I am using Ubuntu 12.04. I have tried to install a package from a ppa that is failing and now every apt command I try attempts to install the package yet again.
+2012-07-01T19:23:00.000Z	jdjb		Actually, it fails at the "Setting up [package]" stage. Removing the package with apt-get remove doesn't work as it still tries to "setup" the package first.
+2012-07-01T19:24:00.000Z	jdjb		I'm not asking how to install software from a ppa. I'm asking in general how do you get aptitude to remove a package that is sitting in limbo state between "installed" and "setting up"
+2012-07-01T19:24:00.000Z	TheLordOfTime	jdjb	 contact the maintainer of that ppa for assistance with their ppa's packages.

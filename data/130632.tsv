@@ -1,0 +1,4 @@
+2007-08-28T06:44:00.000Z	Bucketface		Um, I accidently copied an unwritable folder to my  'Musics' folder, I can't delete it. I have tried sudo chown charles /home/charles/Musics/Buckethead
+2007-08-28T06:45:00.000Z	jessie_	Bucketface	try "sudo chown -R charles"
+2007-08-28T06:45:00.000Z	jessie_	Bucketface	or what not. the -R makes it recursive and does it to all of the files and folders in that directory.
+2007-08-28T06:47:00.000Z	jessie_	Bucketface	no, try to do "sudo nautilus" in the terminal and just right click the folder to change them.

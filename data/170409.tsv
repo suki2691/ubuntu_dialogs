@@ -1,0 +1,4 @@
+2007-12-28T05:51:00.000Z	elson6659		hey there - can someone give me a quick hint? I have a wireless card for which I need to use ndiswrapper, all fine and good. but the only way I know how to start the card is by using 'dhclient' - how can I start it with a static ip address? I'm using xubuntu, but happy on the console.
+2007-12-28T05:52:00.000Z	DigitalNinja	elson6659	You need to configure /etc/network
+2007-12-28T05:52:00.000Z	DigitalNinja	elson6659	Wait! that's not right. let me check
+2007-12-28T05:53:00.000Z	DigitalNinja	elson6659	/etc/network/interfaces

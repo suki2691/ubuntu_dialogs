@@ -1,0 +1,4 @@
+2008-02-17T19:19:00.000Z	artti		Anyone knows about fragmentation on Linux?
+2008-02-17T19:20:00.000Z	pajamian	artti	you mean file fragmentation?  Generally speakign it's not a problem with Linux like it is in Windows.
+2008-02-17T19:24:00.000Z	pajamian	artti	it can fragment if it gets too full, yes.
+2008-02-17T19:28:00.000Z	pajamian	artti	well, linux filesystems avoid fragmentation by padding files with empty space at the end so they have room to grow.  If the hard drive gets too full then it has to use that empty space that was formerly used as padding to store new files and things start to fragment.

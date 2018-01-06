@@ -1,0 +1,4 @@
+2009-03-03T05:51:00.000Z	hackel		How can I find the most recently modified file in a directory (recursively)?
+2009-03-03T05:52:00.000Z	LjL	hackel	uhm, you can get "find" to print modification dates, then pipe "sort -n" to that
+2009-03-03T05:54:00.000Z	LjL	hackel	find ./ -printf '%A@ %p\n' | sort -n | tail
+2009-03-03T05:55:00.000Z	hackel	LjL	thanks, just what I wanted.  Didn't realize the power of find's -printf.

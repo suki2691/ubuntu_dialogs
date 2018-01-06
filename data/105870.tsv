@@ -1,0 +1,4 @@
+2008-12-28T16:48:00.000Z	d_mitry		i've had a slight mishap whilst trying to resize an ntfs partition within ubuntu using gparted. the computer experienced a hang during the process. now i can't mount the partition -- "NTFS signature is missing". is there way to recover?
+2008-12-28T16:49:00.000Z	CaptainMorgan	d_mitry	I assume you sufficiently made backups?
+2008-12-28T16:50:00.000Z	d_mitry	CaptainMorgan	if i did, i wouldn't be asking. i took a bad risk.
+2008-12-28T16:55:00.000Z	d_mitry	CaptainMorgan	the good thing is that the data isn't THAT important. also, it may be of help to say that testdisk says that the partition has more heads/cylinders than an ntfs partition. maybe testdisk would help, but it hangs the machine soon enough after asking it to analyse the structure of the disk.

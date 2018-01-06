@@ -1,0 +1,4 @@
+2006-06-16T11:18:00.000Z	MikkelRev		Need help! Im having wireless networking problems. I can connect with the wireless card in Windows, but not in gnu. Im now using a wired connection. How to fix the wireless? Its RaLink
+2006-06-16T11:19:00.000Z	rapha	MikkelRev	there's an inofficial driver for RaLink 2500 chipsets. Look at the RaLink website. It's not the easiest of chipsets however.
+2006-06-16T11:20:00.000Z	MikkelRev	fyrestrtr	rapha: lspci shows me this about the card: 0000:00:0b.0 Network controller: RaLink: Unknown device 0302
+2006-06-16T11:21:00.000Z	rapha	MikkelRev	then you might get lucky with the RaLink driver. Try http://rt2x00.serialmonkey.com/

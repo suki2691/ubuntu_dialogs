@@ -1,0 +1,4 @@
+2011-05-15T23:12:00.000Z	yori		how can someone tries to see my desktop by remote desktop? i had a request from an ip i didn't know
+2011-05-15T23:13:00.000Z	ActionParsnip	yori	have you confiured vnc port forwarding to allow remote connections from the web?
+2011-05-15T23:14:00.000Z	yori	ActionParsnip	yes i configuered those settings so no one is allowed to connect to my desktop, but when i was away from my laptop, someone tried to make a connection
+2011-05-15T23:14:00.000Z	ActionParsnip	yori	that's why then, you haven't used an SSH tunnel to add security. VNC is a very unsecure protocol

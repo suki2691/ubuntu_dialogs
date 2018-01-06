@@ -1,0 +1,4 @@
+2008-02-20T07:15:00.000Z	SystemBomber		Hello all, I have a little problem if someone can help me please. I'm running Ubuntu Server (latest v - Gutsy), its a headless machine which i SSH into, no GUI, however when I press the on/off button on the machine, it doesn't do anything.
+2008-02-20T07:15:00.000Z	N6REJ_	SystemBomber	go into bios and turn off ALL stop on error... its probably looking for a kbd
+2008-02-20T07:16:00.000Z	SystemBomber	N6REJ_	why would not having a keyboard prevent it from starting the shutdown sequence when i press the on/off button?
+2008-02-20T07:17:00.000Z	N6REJ_	SystemBomber	because its a failure in the post test.  You have to tell the bios to ignore those failures, its ez to do just take 5 sec

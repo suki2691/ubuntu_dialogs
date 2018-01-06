@@ -1,0 +1,4 @@
+2008-03-09T12:07:00.000Z	Rgem		I've been trying to get the 'abc' of this code with regex: ;h=abc" target but it seems to be impossible, how to do this?
+2008-03-09T12:09:00.000Z	Rgem		please someone help me with my regex question. The #regex channel doesn't answer.
+2008-03-09T12:10:00.000Z	padski	Rgem	more detail
+2008-03-09T12:14:00.000Z	padski	Rgem	echo ';h=blahblah213" target' | sed 's/;h=\([^"]*\)".*/\1/'

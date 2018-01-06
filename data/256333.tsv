@@ -1,0 +1,4 @@
+2011-11-22T11:38:00.000Z	dkog		I'm not getting this... Here's a concrete example.  I just installed 'redis-server' package.  It created an entry i n /etc/init.d/redis-server.  How would I enable/disable this on startup?
+2011-11-22T11:38:00.000Z	dkog		Hi-WiFive
+2011-11-22T11:39:00.000Z	dr_willis	dkog	 rename foo.conf to foo.dontrun  is one way
+2011-11-22T11:40:00.000Z	dr_willis	dkog	 upstart has been in use for the last 3 releases i think.  its amazing so few people have noticed the change

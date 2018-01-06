@@ -1,0 +1,4 @@
+2010-05-18T19:32:00.000Z	Roasted		Is there a way to suck up all folders/permissions and re-deploy them to a new server? I know Linux tends to associate owner ID's with names... aka Jason might be user 1001, Fred might be 1002, etc. I have NO clue how I could possibly re-add all users on the new server and get them dead-on to match the permissions. Is there any way I can save those accordingly and transfer them w/o a headache?
+2010-05-18T19:33:00.000Z	Aji-Dahaka	Roasted	rsync can do that
+2010-05-18T19:33:00.000Z	Aji-Dahaka	Roasted	if the usernames exist
+2010-05-18T19:33:00.000Z	Roasted	Aji-Dahaka	right - but that doesn't solve the issue with the usernames.

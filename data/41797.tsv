@@ -1,0 +1,4 @@
+2011-04-02T08:08:00.000Z	chinthaka		hi, I have installed wordpress in ubuntu (/var/www).when I tried to install a theme it says "Is its parent directory writable by the server?". The reason for this I think it is not allowed to write in to the system directly.  can I allow accessing the system directly in ubuntu?
+2011-04-02T08:08:00.000Z	chinthaka		can anone please help me
+2011-04-02T08:08:00.000Z	techhelper1	chinthaka	sudo chmod 777 /var/www/* -R
+2011-04-02T08:11:00.000Z	techhelper1	chinthaka	sudo chmod 777 /var/www/wp-content/themes/* -R

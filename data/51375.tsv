@@ -1,0 +1,4 @@
+2009-12-07T06:57:00.000Z	macondo		Is there any application that plots 3d functions?
+2009-12-07T06:58:00.000Z	trism	macondo	gnuplot can plot 3D functions, although you might want to use it with something like wxmaxima, a bit more user-friendly
+2009-12-07T07:00:00.000Z	macondo	trism	I like gnuplot, but never got around to plot 3d lines. And while wxmaxima is nice, it's behaving strangely now.
+2009-12-07T07:04:00.000Z	trism	macondo	yeah, there is a bug with maxima in karmic, that has to do with the heap randomization, there is a workaround here https://bugs.launchpad.net/ubuntu/+source/maxima/+bug/303587 (comment number 14)

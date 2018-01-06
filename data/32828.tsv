@@ -1,0 +1,4 @@
+2011-03-09T10:28:00.000Z	italic		i'm trying to find a package for the "mean" dictionary program. any ideas? google fails me
+2011-03-09T10:28:00.000Z	ActionParsnip	italic	dpkg -S mean | less
+2011-03-09T10:30:00.000Z	italic	ActionParsnip	no dice. apt-cache search doesn't turn it up either. it may not be in the repo i guess
+2011-03-09T10:30:00.000Z	ActionParsnip	italic	could try apt-file

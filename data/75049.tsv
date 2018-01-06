@@ -1,0 +1,4 @@
+2009-01-04T03:21:00.000Z	danes_		hello, i have a gps device that has a usb connector, but it includes an internal serial adapter, the problem is that i do not know the specs on the device. is there any way to know the specs on it?
+2009-01-04T03:22:00.000Z	danes_		i did a lsusb and got this Bus 002 Device 004: ID 067b:2303 Prolific Technology, Inc. PL2303 Serial Port
+2009-01-04T03:22:00.000Z	zsquareplusc	danes_	check out gpsbabel they probably have a device list or hints on their website. if its a garmin modprobe sudo garmin-gps might help
+2009-01-04T03:23:00.000Z	zsquareplusc	danes_	ah, so the serial port is already there. then just try gpsbabel :-)

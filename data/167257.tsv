@@ -1,0 +1,4 @@
+2006-09-28T11:06:00.000Z	daurn		how can i totally reset sound config?
+2006-09-28T11:07:00.000Z	crimsun	daurn	unload the driver(s), rm -f ~/.asoundrc* /etc/asound.conf /var/lib/alsa/asound.state, sync, and forcibly reboot (don't shutdown)
+2006-09-28T11:08:00.000Z	daurn	crimsun	then, when i reboot, i'll have defulat config?
+2006-09-28T11:08:00.000Z	crimsun	daurn	yes

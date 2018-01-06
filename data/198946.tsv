@@ -1,0 +1,4 @@
+2007-05-18T07:28:00.000Z	ajd17case		I'm having trouble mounting a samba share. If I use smbmount, the shares mount but I can't CD into them. If I browse to them in Nautilus, (smb://cndrr/samba) everything works fine. How should I be mounting them into my file system?
+2007-05-18T07:29:00.000Z	ajd17case		What is the preferred way to mount a samba share on Feisty? A friend mentioned mount.cifs
+2007-05-18T07:31:00.000Z	Frogzoo	ajd17case	use smbmount instead
+2007-05-18T07:31:00.000Z	Frogzoo	ajd17case	or easier to use smb4k

@@ -1,0 +1,4 @@
+2012-05-01T02:23:00.000Z	BFranks		After updating my Ubuntu 11.x to 12.04 (running on an ESX server) I found myself with no xorg.conf  so I tried copying xorg.conf.failsafe to xorg.conf and that got me back into xwindows.. But Unity is SO unhappy and the speed is just a crawl.. Need some advice on killing Unity fully?
+2012-05-01T02:23:00.000Z	BFranks		(or getting some diagnostics) Thanks! :)
+2012-05-01T02:24:00.000Z	wassy121	BFranks	sometimes the upgrade silently doesn't finish.  Try to make sure "sudo apt-get -f upgrade" finishes successfully
+2012-05-01T02:24:00.000Z	wassy121	BFranks	And I think nowadays you can go without the xorg.conf ?  Not positive on that front

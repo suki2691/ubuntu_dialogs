@@ -1,0 +1,4 @@
+2008-06-21T02:05:00.000Z	J2		﻿i just noticed my system doesnt like it when i do suspend. so now i was fixing my partitions using "sudo fsck -y -t ext3 /dev/xxxx"
+2008-06-21T02:05:00.000Z	J2		worked well on all partitions but one where I get bla blabla "Bad magic number in super-block while trying to open /dev/xxxx"
+2008-06-21T02:05:00.000Z	J2		any ideas?
+2008-06-21T02:05:00.000Z	DRebellion	J2	well, the "magic number" is used to identify file types/filesystems, etc.

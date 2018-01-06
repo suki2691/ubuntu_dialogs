@@ -1,0 +1,4 @@
+2007-02-26T11:51:00.000Z	okih-imus		How do I get rid of the grub bootloader if i want to remove Ubuntu from my system if i was dual booting XP and ubuntu? the bootloader isn't in the boot sector or mbr.
+2007-02-26T11:52:00.000Z	Dr_willis	okih-imus	 where is it then?
+2007-02-26T11:53:00.000Z	Dr_willis	okih-imus	 how do you know its not on the  MBR then?
+2007-02-26T11:53:00.000Z	Dr_willis	okih-imus	 normally one would use fdisk, or some othe rpartioning tool to delete the linux partitions,  then run fixmbr,  you are saying you ran fixmbr and grub is STILL there?

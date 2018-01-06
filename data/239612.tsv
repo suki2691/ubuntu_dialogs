@@ -1,0 +1,4 @@
+2007-07-07T07:20:00.000Z	james_		would like to at least upgrade to dapper from breezy, however sudo apt-get dist-upgrade give me nothing
+2007-07-07T07:20:00.000Z	NigelS	james_	you need to alter your sources to reflect dapper not breezy
+2007-07-07T07:23:00.000Z	NigelS	james_	you can do it through the menu or you can edit /etc/apt/sources.list (with sudo) and change all references to breezy to dapper
+2007-07-07T07:23:00.000Z	NigelS	james_	then you apt-get update and after that you can apt-get dist-upgrade

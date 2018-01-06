@@ -1,0 +1,4 @@
+2009-01-13T14:08:00.000Z	archman		hello. everytime i boot into ubuntu after a few minutes disk starts to work even if i'm not running or trying to run anything. So i ran htop today and seen that /usr/bin/updatedb is running when the 'disk started to work'. Is it necesarry or can be turned off?
+2009-01-13T14:09:00.000Z	sloopy	archman	can be turned off but it is better to let it run
+2009-01-13T14:09:00.000Z	archman	sloopy	why? what's it for?
+2009-01-13T14:10:00.000Z	sloopy	archman	its a database of file names installed on your machine

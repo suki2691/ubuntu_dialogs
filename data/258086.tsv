@@ -1,0 +1,4 @@
+2006-03-08T09:39:00.000Z	spazzz		What keys do I press to shutdown the Xserver and go to the command line?  I don't want it to restart.  I need this so I can try to fix XORG
+2006-03-08T09:40:00.000Z	spazzz		Engala: I can't see the screen
+2006-03-08T09:40:00.000Z	Xenguy	spazzz	drop to the console (Ctrl-Alt-F2), then do: /etc/init.d/gdm stop
+2006-03-08T09:41:00.000Z	Xenguy	spazzz	er, sudo that

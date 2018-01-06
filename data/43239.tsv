@@ -1,0 +1,4 @@
+2009-11-30T08:29:00.000Z	dhaivat_		how do I mount a flash drive in ubuntu? decora, I need help doing this from console
+2009-11-30T08:30:00.000Z	dhaivat_		dmesg gives me a lot of stuff, what should I pick?
+2009-11-30T08:31:00.000Z	dhaivat_		okay, how do I mount /dev/sdb?
+2009-11-30T08:32:00.000Z	rhorse	dhaivat_	use ls -lart /dev That will put the recent devices last, usually sda1 or sdb1 or something. Then you cann use sudo mount -t vfat /dev/sdb1 /mountpoint.

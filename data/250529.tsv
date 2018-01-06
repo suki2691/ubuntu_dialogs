@@ -1,0 +1,4 @@
+2007-05-03T05:35:00.000Z	mr_lars		i have a unix-n00b question: how can i grant write access to my user for a directory in /opt ? sudo chmod username w -R /directoryname/ ?
+2007-05-03T05:36:00.000Z	predaeus	mr_lars	no idea if that is a good idea at all but would be   sudo chmod u+w -R username dirname     I think
+2007-05-03T05:37:00.000Z	predaeus	mr_lars	probably.    for   u+w to work you would have to chown to username.  else it would still be root's dir
+2007-05-03T05:38:00.000Z	predaeus	mr_lars	what do you need that for, probably there is some better solution?

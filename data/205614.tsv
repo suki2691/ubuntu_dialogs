@@ -1,0 +1,4 @@
+2011-03-21T20:20:00.000Z	mweichert		hello, can someone explain me what happens behind the scenes when I do "dig hostname.example.com"? My understanding was that a lookup was done against /etc/hosts, and then if not available, did a DNS lookup using /etc/resolv.conf - but that doesn't appear to be so
+2011-03-21T20:21:00.000Z	sipior	mweichert	no, have a look at /etc/nsswitch.conf.
+2011-03-21T20:21:00.000Z	mweichert	sipior	hosts: files dns - wouldn't that mean, /etc/hosts, and then nslookup via /etc/resolv.conf?
+2011-03-21T20:22:00.000Z	sipior	mweichert	yes, but i didn't appreciate that you were talking about dig specifically. Pumpkin- is quite correct in saying that it will ignore /etc/hosts.

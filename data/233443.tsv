@@ -1,0 +1,4 @@
+2007-01-03T12:48:00.000Z	disasm		whats the best way to upgrade sarge to ubuntu with only 1 reboot? I was thinking of removing almost all packages from sarge, changing repositories update; dist-upgrade, install ubuntu-desktop, run bash script to add any custom packages and make any custom changes, but hardest part with that is removing all the packages I possibly can without breaking apt
+2007-01-03T12:50:00.000Z	kyncani	disasm	you don't upgrade from debian to ubuntu, just install ubuntu
+2007-01-03T12:56:00.000Z	disasm	kyncani	HymnToLife: yes, I know a reinstall would be better, but I have to do this to 75 computers, all of which have custom fstabs and network setups. I'm doing this on a pilot machine so I can see how hard it will be to make the switch. with the recent debian holdup on etch my boss gave me the go ahead to start working on a migration path
+2007-01-03T12:58:00.000Z	kyncani	disasm	i suppose you could play with debfoster, maybe

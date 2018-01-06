@@ -1,0 +1,4 @@
+2006-12-21T14:44:00.000Z	aeromix		does someone knows why I am not allowed to modify /etc/resolv.conf? sudo echo "nameserver 195.113.0.2" > /etc/resolv.conf  - bash: /etc/resolv.conf: Permission denied
+2006-12-21T14:46:00.000Z	bruenig	aeromix	it has to do with the >, the sudo is only being applied to the first part
+2006-12-21T14:46:00.000Z	bruenig	aeromix	do sudo -s, then run the command without sudo
+2007-03-27T06:00:00.000Z	bruenig	aeromix	questionable legality, not that that means anything

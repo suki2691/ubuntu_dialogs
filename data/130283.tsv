@@ -1,0 +1,4 @@
+2007-10-24T19:48:00.000Z	DeFirence		can anyone here help me make a cron job check if a daemon has stopped and if so, restart it?
+2007-10-24T19:48:00.000Z	KNY	DeFirence	basically have a script check if `ps -A | grep daemonName` is null and, if so, restart the daemon
+2007-10-24T19:49:00.000Z	DeFirence	KNY	but how do i make it check at certain intervals? i mean atm it only has start, stop and restart functions
+2007-10-24T19:50:00.000Z	KNY	DeFirence	sudo apt-get install scheduler

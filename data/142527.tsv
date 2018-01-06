@@ -1,0 +1,4 @@
+2008-05-13T18:39:00.000Z	LOWER_CASE		Hi, ever since I installed Gutsy about 6 weeks ago, I've never had so much trouble with my disk partitions. (1) after the initial install, the disks were all changed from /dev/hdAN to /dev/sdAN, but after any boot-up, they can be *anywhere*. (2) But what is upsetting me hourly, is that USB memory-stick mounts are totally inconsistent: various wrong permissions, various wrong mount points, or just not mounting.  What changed? Why is
+2008-05-13T18:39:00.000Z	LOWER_CASE		it so screwed up? Can anybody help with a URL or HOWTO to fix this mess?
+2008-05-13T18:41:00.000Z	genii	LOWER_CASE	Use UUIDs in the files instead of dev names, if you put USB stick A in first one day it's sdc or so, if you ut USB stick B in by itself next day, it becomes sdc instead, even if totally different size or filesystem. UUIDs make sure you have that specific device.
+2008-07-27T13:40:00.000Z	LOWER_CASE	genii	ubottu: will check out, thanks.

@@ -1,0 +1,4 @@
+2012-09-20T00:39:00.000Z	TJ-	babilen	One way to find out where the bottle-neck is, would be to check if the kernel is spending a lot of time waiting on I/O "sudo iotop"
+2012-09-20T00:44:00.000Z	babilen	TJ-	I've done that already (second thing actually) and confirmed that a lot of I/O is performed by mount.ntfs for which I blame wubi.
+2012-09-20T00:48:00.000Z	TJ-	babilen	OK, what processes are running when you see the activity for mount.ntfs ? Maybe something is scanning/searching/indexing the disk
+2012-09-20T00:49:00.000Z	babilen	TJ-	I've performed an "apt-get dist-upgrade" and the I/O was caused during the unpacking step. Which is not really surprising, but shouldn't cause *that* much load.

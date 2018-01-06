@@ -1,0 +1,4 @@
+2009-06-19T00:13:00.000Z	daishadar		if i mount a samba drive in /etc/fstab, what happens when i lose net?  will the share unmount?  will it remount when i get net again?
+2009-06-19T00:15:00.000Z	stealth-	daishadar	fstab is mounted on boot, or you can specify what part of it to mount with the "mount devicehere" command. It will not remount if you loose net and get it back, and it should unmount if you loose your internet, like a flash drive (not sure though)
+2009-06-19T00:16:00.000Z	daishadar	stealth-	i see.  how should i be mounting this share then so that it remounts when i gain net again?
+2009-06-19T00:17:00.000Z	stealth-	daishadar	samba *might* have something like that in the settings, but worse case scenerio you can write a bash script that checks to see if the samba share is mounted, and if its not it will mount it. Then you could put that script in the crontab to run every minute.

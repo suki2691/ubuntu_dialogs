@@ -1,0 +1,4 @@
+2010-02-27T18:53:00.000Z	sander		any1 knows where i can change the 15 minuts of the sudo command (so i can set it to 1 hour or something?)
+2010-02-27T18:54:00.000Z	littlegirl	sander	You must edit the /etc/sudoers file with the visudo command. See man visudo and see passwd_timeout in man sudoers for more information.
+2010-02-27T18:55:00.000Z	sander	littlegirl	thnx have an look to it...thnx !
+2010-02-27T18:56:00.000Z	littlegirl	sander	Sure, and good luck with it. For a quick fix, you can type sudo -k to reset the timer manually at any time. (:

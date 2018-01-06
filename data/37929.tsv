@@ -1,0 +1,4 @@
+2010-06-19T02:27:00.000Z	erichynds		i can't start mysql via "sudo /etc/init.d/mysql start" or "sudo start mysql" - it just hangs.  the only way it seems to work is by logging into root and running "mysqld" - how can i fix this?
+2010-06-19T02:28:00.000Z	pfifo	erichynds	perhaps add mysqld to the bootup sequence
+2010-06-19T02:30:00.000Z	erichynds	pfifo	how do i do that?
+2010-06-19T02:32:00.000Z	pfifo	erichynds	i have no clue, my bootup sequence is custom, im sure someone here knows howto start services the proper way though

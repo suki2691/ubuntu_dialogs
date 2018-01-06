@@ -1,0 +1,4 @@
+2011-05-16T03:37:00.000Z	darkorical		three days ago I upgraded version 9 to 10 then today from 10 to 11.04 (I originally started with version 7) and all upgrades have always gone fine but today going to version 11.04 the upgrade worked just fine and then when it boots up it just sits at a blank screen with a responcive mouse pointer but never shows the rest of the gui any suggestions?
+2011-05-16T03:39:00.000Z	pfifo	darkorical	do a fresh install of 11.04
+2011-05-16T04:40:00.000Z	pfifo	darkorical	its possible that you installed grub on a partition rather then the mbr, or on a different hard drive if you have more than one (or the thumbdrive if you installed via usb)
+2011-05-16T04:41:00.000Z	pfifo	darkorical	run grub-update to fix it manually

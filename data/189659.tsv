@@ -1,0 +1,4 @@
+2009-05-13T13:10:00.000Z	rossnixon		I want to mount my hibernated Windows drive. When I try "sudo mount -t ntfs-3g /dev/sda1 /media/disk -o ro" it says "fuse: failed to access mountpoint /media/disk: No such file or directory"
+2009-05-13T13:11:00.000Z	Ademan	rossnixon	^^
+2009-05-13T13:18:00.000Z	Ademan	rossnixon	no, you just open a file and put them in there, save it (.sh if you want it to be easily identifiable as a shell script)   chmod a+x whateveryourfileis
+2009-05-13T13:19:00.000Z	Ademan	rossnixon	oh right, and at the top you will need #!/bin/bash

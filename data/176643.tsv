@@ -1,0 +1,4 @@
+2006-07-16T07:55:00.000Z	jramsey		if fstab is changed do i need to reboot?
+2006-07-16T07:55:00.000Z	hawkaloogie	jramsey	no, sudo mount -a
+2006-07-16T07:55:00.000Z	hawkaloogie	jramsey	unless you removed something, then you'll have to umount it manually
+2006-07-16T07:56:00.000Z	jramsey	hawkaloogie	trying to remount a cdrom with exec so i can run an install on it; it mounted so i cannot

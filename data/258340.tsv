@@ -1,0 +1,4 @@
+2007-04-26T11:55:00.000Z	zerokill88		how can you view everything in the sudo apt-cache search?
+2007-04-26T11:57:00.000Z	ben__	zerokill88	to view the full record for a package use `apt-cache show <package-name>`. Is that what you're looking for?
+2007-04-26T12:00:00.000Z	ben__	zerokill88	grep through `apt-cache dump` then? It depends on what you're looking for. :-)
+2007-04-26T12:06:00.000Z	ben__	zerokill88	I'm not aware of a more comprehensive view that what `apt-cache dump` gives you, I'm afraid.

@@ -1,0 +1,4 @@
+2006-04-09T08:45:00.000Z	roland		I am trying to find the emacs editor in ubuntu?
+2006-04-09T08:46:00.000Z	tale_	roland	try dpkg -l | grep emacs
+2006-04-09T08:46:00.000Z	tale_	roland	it may not be installed
+2006-04-09T08:46:00.000Z	tale_	roland	if it is, then try dpkg -L emacs21 to see a list of the files in the package.  You can find the executable that way.

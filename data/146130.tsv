@@ -1,0 +1,4 @@
+2007-02-11T17:45:00.000Z	pp|Paul		can anyone help me with a wireless card question?
+2007-02-11T17:47:00.000Z	pp|Paul		My usb wireless lan card has been found and installed etc... but I'm trying to connect to a 64bit wep network... I've put in the hex key and attempted to connect (to the right) network.. but as far as I can tell, nothing happens. Any suggestions?
+2007-02-11T17:48:00.000Z	pbureau	pp|Paul	how do you  know the usb hardware is "seeing" the network ? - try in a terminal window - iwlist  <CARD> scanning (ie: my wifi is ra0 so I use it like so : iwlist ra0 scanning) does it report any wireless networks around you ?
+2007-02-11T17:50:00.000Z	pp|Paul	pbureau	it found the correct network

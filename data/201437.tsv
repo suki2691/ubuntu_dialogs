@@ -1,0 +1,4 @@
+2006-01-16T07:56:00.000Z	masX		hey all, can someone tell me how my nic module is getting loaded if it's not in /etc/modules?  Does ifup -a load any modules?
+2006-01-16T07:57:00.000Z	PuMpErNiCkLe	masX	Do you have hotplug enabled?
+2006-01-16T07:58:00.000Z	PuMpErNiCkLe	masX	Hotplug is responisble for a large part of hardware activation, and it does handle some network cards.
+2006-01-16T08:11:00.000Z	PuMpErNiCkLe	masX	Dude... hotplug will load modules that aren't in /etc/modules... that's what it does.

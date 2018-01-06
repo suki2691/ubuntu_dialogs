@@ -1,0 +1,4 @@
+2010-09-12T09:44:00.000Z	dcajacob		Is there a way to allow ssh access to an Ubuntu box where the user has not yet logged in (say, right after reboot)?
+2010-09-12T09:45:00.000Z	dcajacob		Thanks, edbian.
+2010-09-12T09:47:00.000Z	dcajacob		Oh, edbian.  I know this works for machines on a LAN, but I am referring to a laptop on wireless.  I think it doesn't connect until the user logs in - therefore no SSH access.  Is that correct and if so, is there a way around it?
+2010-09-12T09:49:00.000Z	Dulak	dcajacob	you can use wicd instead of network manager, or manually define all settings for the interface in /etc/network/interfaces to get around the login problem for wireless

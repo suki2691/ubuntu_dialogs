@@ -1,0 +1,4 @@
+2008-01-31T00:30:00.000Z	jackdaw		hey, i downloaded some software and now i want to compile it but it doesn't have a configure file yet. Can anyone walk me through how to use: aclocal, autoconf etc to make it build?
+2008-01-31T00:31:00.000Z	DRebellion	jackdaw	so it doesn't have a file called 'configure' in the source tarball? if it has a makefile, just type 'make'. but read the README first.
+2008-01-31T00:32:00.000Z	jackdaw	DRebellion	nah we're looking at a: Makefile.am and Makefile.in situation
+2008-01-31T00:32:00.000Z	jackdaw	DRebellion	there's also a config.guess, a configure.in etc

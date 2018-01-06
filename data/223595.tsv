@@ -1,0 +1,4 @@
+2006-07-31T13:23:00.000Z	zcat[1] 	ajmitch	I looked into that; I can't figure out what device I'm trying to name; /dev/dsp and /dev/audio and /dev/mixer all point to the same card, the only thing udevinfo shows different is noithing I can use
+2006-07-31T13:24:00.000Z	zcat[1] 	ajmitch	you think you could dig up an example for me?
+2006-07-31T13:25:00.000Z	zcat[1] 	ajmitch	I don't think verne would be too happy without sound.
+2006-07-31T13:40:00.000Z	zcat[1] 	ajmitch	yeah, I know that.. but if I pick the ID of the first card and try to NAME=dsp , everything breaks.. how do I tell the kernel I want to point /dev/dsp AND /dev/audio AND /dev/mixer to that card? when I look up any of those devices now all the numbers are the same.

@@ -1,0 +1,4 @@
+2011-06-07T11:15:00.000Z	blvnfsm		hello. i'm having a problem mounting a hard drive. i'm working on a friend's computer and trying to recover his data. i boot ubuntu live from a disk and go into the command line. i try 'sudo fdisk -l' and nothing happens. i tried sfdisk as well and still nothing. when i try 'sudo cfdisk -P r' it says "FATAL ERROR: Cannot open disk drive." any idea what the problem is?
+2011-06-07T11:16:00.000Z	tlhonmey	blvnfsm	If you're trying to recover a failed disk, start by making a bitwise copy of it with ddrescue.  Otherwise you might destroy what's left of the data with your recovery attempts.
+2011-06-07T11:16:00.000Z	tlhonmey		s/might/will probably/
+2011-06-07T11:17:00.000Z	blvnfsm	tlhonmey	and rinkukokiri: it may be that it's just dead. good idea to check for it in the bios. thanks, not sure why i didn't try that first

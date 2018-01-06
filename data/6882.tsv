@@ -1,0 +1,4 @@
+2012-01-25T16:14:00.000Z	renegade_m		why is that when I boot on live cd of ubuntu 11.10, i always end up to console.. same with zorin..
+2012-01-25T16:15:00.000Z	renegade_m		i can't go to the desktop
+2012-01-25T16:17:00.000Z	metaspike	renegade_m	does it have internet? cat /var/log/Xorg.0.log | pastebinit
+2012-01-25T16:22:00.000Z	metaspike	renegade_m	definately, or kernel related. or use dmesg and such.

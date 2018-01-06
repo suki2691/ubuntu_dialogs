@@ -1,0 +1,4 @@
+2008-08-26T11:19:00.000Z	MIKED		hey everyone, can you help me to fix this error when I try to access my windows drive "You are not privileged to mount the volume 'OS'."
+2008-08-26T11:20:00.000Z	ra21vi	MIKED	use sudo mount /media/path/to/mappe  read /etc/fstab
+2008-08-26T11:43:00.000Z	ra21vi	MIKED	oh, I told you the way, anyway, open gnome-terminal , then sudo nautilus .. give your current password, and it opens the nautilus, go to computer and mount it
+2008-08-26T11:44:00.000Z	ra21vi	MIKED	I am not sure if it will show the drives in root launched nautilus file maanager

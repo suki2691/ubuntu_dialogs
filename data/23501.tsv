@@ -1,0 +1,4 @@
+2012-03-17T21:43:00.000Z	diverdude		how do i see all available packages in the repo named something with "gpho" ?
+2012-03-17T21:43:00.000Z	Bodsda	diverdude	apt-cache search gpho
+2012-03-17T21:45:00.000Z	diverdude	Bodsda	aha ok..thx....and how can i see the version number in a package not yet installed?
+2012-03-17T21:45:00.000Z	Bodsda	diverdude	apt-cache show <packagename>

@@ -1,0 +1,4 @@
+2006-10-31T14:54:00.000Z	atk_		Hi. I'm trying to install gnome-devel on 6.06 and libgtk2.0-bin fails with followin error: Updating the IM modules list for GTK+-2.4.0.../usr/bin/gtk-query-immodules-2.0: error while loading shared libraries: libXfixes.so.0: cannot open shared object file: No such file or directory
+2006-10-31T14:55:00.000Z	atk_		I faced libxfixes package error with edgy beta twice which led me, on both times, reinstalling the system. I wouldn't want to do that now
+2006-10-31T14:55:00.000Z	khermans_	atk_	sudo aptitude install libxfixes3 ?
+2006-10-31T14:57:00.000Z	atk_	khermans_	already at the newest. It provides libXfixes.so.3

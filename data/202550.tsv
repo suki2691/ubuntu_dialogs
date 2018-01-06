@@ -1,0 +1,4 @@
+2008-03-29T00:36:00.000Z	whatspy		hi, I'm trying to create a tiny shell script, it's goal is simple: execute "python script.py", and store the exit value in $myvar
+2008-03-29T00:36:00.000Z	whatspy		("script.py" will return some kind of code)
+2008-03-29T00:37:00.000Z	graft	whatspy	so?
+2008-03-29T00:37:00.000Z	graft	whatspy	#!/bin/bash \n myvar=`python script.py`

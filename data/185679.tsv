@@ -1,0 +1,4 @@
+2006-05-18T10:36:00.000Z	tonygeorge		on my system /dev/hdb9 is my ubuntu installation, is it possible to get a list of hard disk partitions on my computer? or I have to try to mount all of them and write down the valid ones?
+2006-05-18T10:37:00.000Z	hyphenated	tonygeorge	sudo fdisk -l /dev/hda should list them all. or cat /proc/partitions
+2006-05-18T10:38:00.000Z	hyphenated	tonygeorge	yeah, but the output of fdisk -l is more readable
+2006-05-18T10:39:00.000Z	tonygeorge	hyphenated	ok

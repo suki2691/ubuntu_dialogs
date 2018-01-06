@@ -1,0 +1,4 @@
+2007-04-10T12:10:00.000Z	Hatty		I have a problem. I'm reinstalling dapper, and when I get to the partitioning part, I make my partitions (1 2GB ext2, 1 2gb swap, the rest ext3 for linux). I hit next after finishing and none of the partition show up in the next screen. I go back and they are all listed as "unknown". I edit the partition table with fdisk and same thing. Help?
+2007-04-10T12:10:00.000Z	Hatty		fdisk sees them fine but gparted in the installer doesn't
+2007-04-10T12:11:00.000Z	Nubbie	Hatty	why are you using ext2?
+2007-04-10T12:11:00.000Z	Hatty	Nubbie	for /boot

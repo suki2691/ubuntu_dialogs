@@ -1,0 +1,4 @@
+2010-08-14T23:56:00.000Z	morbio		what is the terminal command to restart X?
+2010-08-14T23:57:00.000Z	ledbettj	morbio	 sudo /etc/init.d/gdm start  (or 'sudo start gdm')
+2010-08-14T23:58:00.000Z	morbio	ledbettj	thanks.
+2010-08-14T23:58:00.000Z	ledbettj	morbio	 actually if it's already running you would use 'restart' instead of start

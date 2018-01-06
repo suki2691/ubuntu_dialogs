@@ -1,0 +1,4 @@
+2011-03-05T15:50:00.000Z	dtrf4837		i installed pastebininit and typed the command pastebinit but nothing's happening. as far as the link to the post, its http://ubuntuforums.org/showpost.php?p=7075501&postcount=14
+2011-03-05T15:51:00.000Z	oCean	dtrf4837	how did you try to use the pastebinit command?
+2011-03-05T15:54:00.000Z	dtrf4837	oCean	i think it was sudo apt-get install pastebin if i recall...i just followed the command to type that was given in command line to install it
+2011-03-05T15:56:00.000Z	oCean	dtrf4837	you told "typed the command pastebinit but nothing's happening". You can use it like so: pastebinit -i /etc/lsb-release <- this will return a pastebin url with the contents of the /etc/lsb-release file

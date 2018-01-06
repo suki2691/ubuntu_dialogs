@@ -1,0 +1,4 @@
+2007-02-07T09:13:00.000Z	syzygyBSD		I have also tried installing the 32bit version of the LTS
+2007-02-07T09:13:00.000Z	syzygyBSD		k, I am getting on on my laptop and rebooting this machine
+2007-02-07T09:14:00.000Z	syzygyBSD		is there anyway to put ubuntu into text mode for bootup, so I see more than just the loading screen?
+2007-02-07T09:15:00.000Z	frogzoo	syzygyBSD	remove the "quiet" flag from kopt in /boot/grub/menu.lst & then 'sudo update-grub'

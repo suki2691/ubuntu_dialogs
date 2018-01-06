@@ -1,0 +1,4 @@
+2007-06-26T13:41:00.000Z	RabidWeezle		I just suffered a power outage, is there a way to check my hard drive for errors?
+2007-06-26T13:41:00.000Z	RabidWeezle		k
+2007-06-26T13:41:00.000Z	preaction	RabidWeezle	done automatically if necessary. usually not necessary with a journalling filesystem like ext3
+2007-06-26T13:42:00.000Z	preaction	RabidWeezle	then it's unnecessary. the first step is to write to the journal the change that's about to happen. if the journal write fails, you lose data but no damage to the file system. if the actual write fails, the system replays the journal to re-create it

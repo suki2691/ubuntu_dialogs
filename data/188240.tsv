@@ -1,0 +1,4 @@
+2011-03-29T12:34:00.000Z	jiltdil		How to hide Apache version number in ubuntu?
+2011-03-29T12:35:00.000Z	freakynl	jiltdil	i'd presume like in any other install, change the variable in the apache config
+2011-03-29T12:36:00.000Z	freakynl	jiltdil	see if there's a 'ServerTokens' value in the httpd.conf/apache2.conf/whatever ubuntu calls it and set it
+2011-03-29T12:37:00.000Z	freakynl	jiltdil	config usually in the dir /etc/apache(2) or /etc/httpd, just use something like 'grep -inr servertokens /etc/apache2' for example

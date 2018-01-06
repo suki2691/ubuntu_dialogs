@@ -1,0 +1,4 @@
+2007-02-12T13:04:00.000Z	pbureau		When using modprobe (installed a new Ralink rt61 driver), where does Modprobe look for the driver? I have it in  /lib/modules/2.6.17-11-generic/kernel/drivers/net/wireless/rt61.ko, but when I do a modprobe rt61 it says FATAL: Module rt61 not found. I even tried modprobe  with full path to the rt61 file and it still says the same error message... is modprobe blind ? yes I did updatedb & and used locate to make sure the file was there..
+2007-02-12T13:05:00.000Z	pbureau		depends on  monitor extrawide 15 gets 1280x800
+2007-02-12T13:06:00.000Z	thekidrio	pbureau	yeah he does not have wide aspect ratio, i asked that already hehe
+2007-02-12T13:06:00.000Z	pbureau	thekidrio	and I get 1024x768 on a 14.1 so... lol

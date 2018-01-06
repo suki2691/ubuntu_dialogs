@@ -1,0 +1,4 @@
+2006-07-06T09:28:00.000Z	ajay_		how do i boot a iso from qemu?
+2006-07-06T09:29:00.000Z	narfmaster	ajay_	qemu -hda c.img -cdrom linux.iso -boot d -m 128
+2006-07-06T09:30:00.000Z	ajay_	narfmaster	that is from cdrom?
+2006-07-06T09:31:00.000Z	narfmaster	ajay_	that line assumes you want to install onto c.img

@@ -1,0 +1,4 @@
+2012-02-23T18:37:00.000Z	m4k		How to make debootstraped file system to bootable
+2012-02-23T18:37:00.000Z	llutz_	m4k	install a kernel, install a bootmanager or update your default bootmanager to add the debootsrapped system
+2012-02-24T14:24:00.000Z	llutz_	m4k	check your grub.cfg or whatever bootmanager you use, what boot options do you use, what kernel-line etc.pp
+2012-02-24T14:29:00.000Z	llutz_	m4k	pastebin the corresponding menuentry-lines from grub.cfg, and the output of "sudo fdisk -l" pls

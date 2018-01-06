@@ -1,0 +1,4 @@
+2012-07-23T21:31:00.000Z	dougb		does anyone have a guide to change the proxy settings in ubuntu server? i'm on 120.04.  Everything I find shows instructions using Gnome
+2012-07-23T21:31:00.000Z	dougb		*12.04, not 120.04
+2012-07-23T21:32:00.000Z	escott	dougb	many applications look at (ftp|http)(s)_proxy environment variables
+2012-07-23T21:34:00.000Z	escott	dougb	the syntax is export http_proxy="http://whatever:port"

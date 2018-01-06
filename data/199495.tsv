@@ -1,0 +1,4 @@
+2007-02-19T15:37:00.000Z	KrAsHeR		Hey guys... i'm feeling i forgot something... i installed the nvidia official driver and when i reboot the system, the gdm complains of kernel module missing... then i have to reinstall it... anyone can help me?
+2007-02-19T15:38:00.000Z	dyrne	KrAsHeR	try sudo apt-get install linux-restricted-modules-$(uname -r)
+2007-02-19T15:38:00.000Z	dyrne	KrAsHeR	then just sudo /etc/init.d/gdm restart   instead of reboot
+2007-02-19T15:39:00.000Z	dyrne	KrAsHeR	ah didnt read your post carfully enough :)

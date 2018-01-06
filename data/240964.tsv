@@ -1,0 +1,4 @@
+2006-12-30T09:59:00.000Z	ken		Anyway to troubleshoot extremely SLOW booting time with Ubuntu 6.10? I am running AMD Athlon 2600 XP+, 512RAM, 128MB GPU, 160GB HDD. The splash screens load-up bar freezes at 1/4 place, and stays there for considerable amount of time. Before, the booting bar filled up more or less at a uniform speed. What could be the problem of extremely slow boot-ups? please help
+2006-12-30T10:00:00.000Z	MistaED	ken	that section is usually filesystem checking afaik, or maybe modprobing of hardware, have you added any hardware recently? even if it's a usb device
+2006-12-30T10:01:00.000Z	ken	MistaED	No hardware added
+2006-12-30T10:03:00.000Z	MistaED	ken	the ext3 filsystem does a fs check after 30 days, or after 30 mounts so it's probably that

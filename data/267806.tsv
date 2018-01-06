@@ -1,0 +1,4 @@
+2005-01-19T13:36:00.000Z	binReapr		if I compile and install a module, program, how can it be uninstalled? from synaptic?
+2005-01-19T13:37:00.000Z	crimsun	binReapr	if you compiled from source yourself and installed it into a system-wide location, it is not registered with dpkg, and thus you can't use package tools to remove it
+2005-01-20T12:54:00.000Z	crimsun	binReapr	there is none. Use sudo with your password.
+2005-01-20T12:54:00.000Z	crimsun	binReapr	FAQ, see the wiki.

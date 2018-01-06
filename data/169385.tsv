@@ -1,0 +1,4 @@
+2006-10-28T13:22:00.000Z	Tjoels		hey, i have serious problems: I just installed some updates with the update manager including nvidia-glx, and after i restarted X, i was stuck in the kernel with the message: Failed to start the X server. I then tried to change the graphics driver in xorg.conf to "nv" from "nvidia", but with no effect. I didn't make a backup of xorg.conf. What can i do to make it start X again?
+2006-10-28T13:23:00.000Z	tristan_	Tjoels	change nv to vesa
+2006-10-28T13:23:00.000Z	Tjoels	tristan_	okay, i'll try!
+2006-10-28T13:27:00.000Z	Tjoels	tristan_	it doean't work!

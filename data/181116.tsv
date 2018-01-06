@@ -1,0 +1,4 @@
+2007-03-16T09:20:00.000Z	estupendocero		I used the "disks" dialog under the "administration" menu to format my primary slave HDD, and now I can't write to it or modify the permissions. It has an "unknown" owner and group. How do I access it?
+2007-03-16T09:21:00.000Z	bruenig	estupendocero	you can't modify them with sudo chmod, or sudo chown?
+2007-03-16T09:21:00.000Z	bruenig	estupendocero	if you formatted it, doesn't that mean nothing is on it
+2007-03-16T09:22:00.000Z	estupendocero	bruenig	oooooh yeah, sudo!

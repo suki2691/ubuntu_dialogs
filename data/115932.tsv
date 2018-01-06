@@ -1,0 +1,4 @@
+2009-01-24T08:17:00.000Z	PC_Nerd1		http://pastebin.ubuntu.com/108848/  thats my suders.  im running as user jack, both jack and root can "run" apachectl, but sudo doesnt know the command, its not in its path ( which ive placed in teh /etc/bash.bashrc)   any suggestions?
+2009-01-24T08:19:00.000Z	joeb3_	PC_Nerd1	use the full path or add an alias for the command.
+2009-01-24T08:20:00.000Z	joeb3_	PC_Nerd1	it's not sudo, the user must have the same path as the root user.
+2009-01-24T08:25:00.000Z	joeb3_	PC_Nerd1	either use sudo -E  or remove the env_reset option in the sudoers file.

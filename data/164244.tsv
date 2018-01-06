@@ -1,0 +1,4 @@
+2008-03-18T08:01:00.000Z	evilbug		how can i restore a bootcamp partition if it's in ntfs? (since mac os doesn't natively handle ntfs)
+2008-03-18T08:01:00.000Z	Fryguy--	evilbug	this is #ubuntu, not #osx
+2008-07-04T01:08:00.000Z	Fryguy--	evilbug	open up your /etc/X11/xorg.conf directory and get rid of resolution ssettings you don't need (or be sure to put them in an order such that the one you want to use most of the time is first)
+2008-07-04T01:09:00.000Z	Fryguy--	evilbug	gdm defaults to using the first resolution it sees and will ignore edid data from your monitor

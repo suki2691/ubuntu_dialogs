@@ -1,0 +1,4 @@
+2005-11-30T17:53:00.000Z	conn		hi, when I try to set my resolution to 1280x1024, 16bit, I get segfaults when running glxinfo, glxgears etc. I have an ATI Mobility M4 (r128), can someone help?
+2005-11-30T17:53:00.000Z	onkarshinde	conn	you may try changing your driver in xorg.conf to r128
+2005-11-30T17:54:00.000Z	onkarshinde	conn	perhaps 'man r128' will help
+2005-11-30T17:54:00.000Z	conn	onkarshinde	I'll try that, but the ati driver loads the r128 module automatically

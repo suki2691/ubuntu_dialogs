@@ -1,0 +1,4 @@
+2006-08-10T15:22:00.000Z	zool2005		my /var/log/syslog is huge, how can I jump to the end of it?
+2006-08-10T15:22:00.000Z	Spec	zool2005	tail /var/log/syslog
+2006-08-10T15:22:00.000Z	Spec	zool2005	if you're editing it in vim, press ctrl+g
+2006-08-10T15:22:00.000Z	Spec	zool2005	if you want more than just the last few lines, do tail -n100 /var/log/syslog

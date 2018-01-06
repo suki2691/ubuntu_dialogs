@@ -1,0 +1,4 @@
+2010-03-25T01:38:00.000Z	New2LinuxGuy		Newbie question here.  I have downloaded source code for application and I am trying to compile and install.  I have done the ./configure step and it gives me two dependencies: gtk+-2.0 & gstreamer-0.10.  I have done apt-cache searches for both and they are not in the repositories.  Is this normal?
+2010-03-25T01:39:00.000Z	New2LinuxGuy		I was trying to teach myself how to download and compile software.
+2010-03-25T01:39:00.000Z	Out_Cold	New2LinuxGuy	quite possible... try this command sudo apt-get build-dep <package name>
+2010-03-25T01:40:00.000Z	Out_Cold	New2LinuxGuy	the package being what you are trying to compile

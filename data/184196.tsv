@@ -1,0 +1,4 @@
+2006-12-17T08:35:00.000Z	gizmo_the_great1		hi. I have an external HDD drive caled 'LACIE'. I am trying to empty the wastebacket to free space but I get an error saying files cannot be deleted as it a Read-Only File Syste. I have tried chmod to 777 but I get : 'chmod: changing permissions of `/media/LACIE/': Read-only file system'. How can make the FS write-enabled? Thanks
+2006-12-17T08:36:00.000Z	gizmo_the_great1		i will have a look and get back to you in 10 seconds
+2006-12-17T08:37:00.000Z	CalJohn	gizmo_the_great1	look up fuse and ntfs-3g and poke
+2006-12-17T08:37:00.000Z	CalJohn	gizmo_the_great1	that's if it's ntfs

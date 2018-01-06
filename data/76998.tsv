@@ -1,0 +1,4 @@
+2008-10-18T08:49:00.000Z	Chris_Foster		my computer doesn't like to automount for some reason, and somebody on the forum earlier gave me a command that lets me see the names of attached devices so I can manually mount the devices, could somebody give me that command. I know there is a few different ones, but Im looking for one in specific
+2008-10-18T08:51:00.000Z	root______	Chris_Foster	cat /proc/partitions ;sudo fdisk -l ;blkid   ????
+2008-10-18T08:51:00.000Z	Chris_Foster	root______	 thanks, it was the fdisk one
+2008-10-18T08:52:00.000Z	root______	Chris_Foster	welcome

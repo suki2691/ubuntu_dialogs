@@ -1,0 +1,4 @@
+2012-06-18T14:51:00.000Z	kingsikes		how can i make ubuntu use my nvidia adaaptor instead of the Intel one?
+2012-06-18T14:52:00.000Z	jagginess	kingsikes	stop lightdm, X -configure, cp /root/xorg.conf.new /etc/X11/xorg.conf .. edit xorg.conf, possibly you can replace the intel keyword with nvidia-- dont forget to have nvidia driver installed (and use sudo as necessary)
+2012-06-18T14:52:00.000Z	jagginess	kingsikes	(and of course once edited, you can start lightdm)
+2012-06-18T14:53:00.000Z	jagginess	kingsikes	it's hype and geekness, but thats what i check/do/tinker to fix X11.. definitely not fun..

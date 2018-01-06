@@ -1,0 +1,4 @@
+2010-06-25T20:11:00.000Z	Gwar		What command is sent when you right click the network manager and disable networking? I want to send it via the CLI if possible, as well as the command to enable it. I have tried using ifconfig up down as well as start and stop networking, and combinations thereof to no avail.
+2010-06-25T20:12:00.000Z	eoke	Gwar	It's possible network manager is bringing them straight back up.
+2010-06-25T20:14:00.000Z	Gwar	eoke	I do not think it is, because when i run ifconfig after, wlan0 is not up. It's just that after I put it back up, it hangs and wont connect until I right click the applett and disable/enable by hand
+2010-06-25T20:16:00.000Z	eoke	Gwar	I do it on a debian box with ifconfig eth0 down but it doesn't have gnome on it.

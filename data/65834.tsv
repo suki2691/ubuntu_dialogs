@@ -1,0 +1,4 @@
+2011-03-22T14:45:00.000Z	shruggar		can automount (or similar) be made to run an arbitrary command in order to handle the "mount" and "unmount" operations?
+2011-03-22T14:45:00.000Z	llutz	shruggar	for removable media? use udev-rules
+2011-03-22T14:48:00.000Z	shruggar	llutz	no, for "cd /magic/directory" -> [mount something behind the scenes]. Specifically I want to be able to just go to /var/snapshots/SomeNumber and have something mount a nilfs2 snapshot for me
+2011-03-22T14:49:00.000Z	llutz	shruggar	sounds not like a thing udev can do, no idea sry

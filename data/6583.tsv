@@ -1,0 +1,4 @@
+2012-08-14T18:32:00.000Z	Kvaks		rsync question: If I have two files that hardlinked (to save space), if I rsync them to a remote host, will they still be hardlinked there?
+2012-08-14T18:33:00.000Z	Kvaks		that *are* hardlinked
+2012-08-14T18:33:00.000Z	acicula	Kvaks	i would guess you would just end up with duplicates
+2012-08-14T18:34:00.000Z	Kvaks	acicula	Ok.

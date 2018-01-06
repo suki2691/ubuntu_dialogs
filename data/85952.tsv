@@ -1,0 +1,4 @@
+2009-04-18T12:29:00.000Z	vegombrei		i borrowed my friends external hdd .. when i plugged it in it says i need to connect it to a windows pc and disconnect it ... is there another safe way to mount?
+2009-04-18T12:30:00.000Z	hateball	vegombrei	you can force mount it through a !terminal
+2009-04-18T12:30:00.000Z	hateball	vegombrei	As for safe... there are risks of losing data, and it warns you too. Though personally I've never had it happen to me
+2009-04-18T12:31:00.000Z	hateball	vegombrei	sudo mount -t ntfs-3g -o force /path/to/external/dev /path/to/mount/point

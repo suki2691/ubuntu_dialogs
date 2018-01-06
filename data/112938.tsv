@@ -1,0 +1,4 @@
+2008-02-06T19:35:00.000Z	cyrus		does anyone know where the xserver/gdm startup scripts are kept? im trying to add a line to it so that everytime i start my pc i put my ati graphics card into a low powerstate
+2008-02-06T19:36:00.000Z	iNeo	cyrus	/etc/X11
+2008-02-06T19:37:00.000Z	iNeo		!hardy
+2008-02-06T19:38:00.000Z	cyrus	iNeo	but which file? ive tried adding the line 'aticonfig --set-powerstate 1' to different files and it doesnt work. the only one which works is when i had it to my own user startup script

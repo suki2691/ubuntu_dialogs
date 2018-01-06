@@ -1,0 +1,4 @@
+2005-07-18T12:18:00.000Z	alvaro		yo i need help, i have ubuntu warty and im trying to compile mplayer... it all works fine when i do the 'tar -xjf MPlayer-1.0pre5.tar.bz2, cd MPlayer-1.0pre5,' BUT when i do the next step ./configure --enable-gui it says that GUI requires GTK devel packages (which were not found) what do i do? :S
+2005-07-18T12:19:00.000Z	JohnFlux	alvaro	install the gtk devel packages :)
+2005-07-18T12:19:00.000Z	JohnFlux	alvaro	do apt-cache search gtk | grep devel
+2005-07-18T12:19:00.000Z	JohnFlux	alvaro	do what lsuactiafner says

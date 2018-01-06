@@ -1,0 +1,4 @@
+2009-08-10T14:45:00.000Z	hateball		What's the command to scan for a new HDD on Ubuntu server? If I a disk in VmWare, dmesg doesnt spit out anything... It works if I reboot the machine tho, but I'm assuming this can be done on the fly?
+2009-08-10T14:47:00.000Z	grawity	hateball	I think you just look for a new /dev/hda,hdb,hdc,sda,whatever and mount its partitions.
+2009-08-10T14:50:00.000Z	hateball	grawity	The virtual machine doesnt think there's a disk there until I reboot... dunno if it's a problem with the vmware virtual scsi controller perhaps
+2009-08-10T14:55:00.000Z	hateball	grawity	a bit of googling tells me I have to manually tell the kernel it has new scsi disks, so I guess that's that. Wonder if it works if it emulated SATA...

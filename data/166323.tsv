@@ -1,0 +1,4 @@
+2007-06-27T12:29:00.000Z	ZummiG777		Question: What is the best way to change the hardware cards for eth1 and eth0?  So I want to change eth0 to eth1 and eth1 to eth0.
+2007-06-27T12:30:00.000Z	wols	ZummiG777	ifrename?
+2007-06-27T12:30:00.000Z	wols	ZummiG777	or if you load them via modules: load the one you want to be eth0 first
+2007-06-27T12:30:00.000Z	wols	ZummiG777	via /etc/modules

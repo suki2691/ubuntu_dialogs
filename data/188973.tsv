@@ -1,0 +1,4 @@
+2006-04-30T06:51:00.000Z	pindahoonmain		how to check memory allocated to a running process
+2006-04-30T06:51:00.000Z	Frogzoo	pindahoonmain	ps -al |grep procname
+2006-04-30T06:54:00.000Z	pindahoonmain	Frogzoo	that's showing mem usage for the process started in that terminal?What about process started in other terminals or from menus?
+2006-04-30T06:56:00.000Z	Frogzoo	pindahoonmain	either try 'top' or 'ps aux'

@@ -1,0 +1,4 @@
+2011-01-20T08:12:00.000Z	rvn		trying to use smbclient to connect to my windows box - would use GUI but it doesn't support the dollar sign in a share name, and im trying to connect to the hidden drive share T$. i did "smbclient \\\\retrocomputer\\t$ -U=<My Username> <My Password>" and it tosses back NT_STATUS_CONNECTION_REFUSED
+2011-01-20T08:12:00.000Z	rvn		box runs win7 pro
+2011-01-20T08:12:00.000Z	rvn		ideas?
+2011-01-20T08:12:00.000Z	sandyd	rvn	if your using homegroups or whatever you call it, samba doesnt work with it

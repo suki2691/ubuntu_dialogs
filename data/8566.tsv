@@ -1,0 +1,4 @@
+2011-12-01T18:54:00.000Z	deej1976	Judge	your on the client, and the nfs entries is in /etc/fstab ?
+2011-12-01T18:54:00.000Z	Judge	deej1976	Right.
+2011-12-01T18:56:00.000Z	deej1976	Judge	The problem might be the network (dhcp) starting but not completing before and IP address is assigned. ( I've got this problem with nfs/nis homearea )
+2011-12-01T18:59:00.000Z	deej1976	Judge	I've got a script that waits until the network is up then restart autofs

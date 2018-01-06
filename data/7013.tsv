@@ -1,0 +1,4 @@
+2012-01-31T02:53:00.000Z	glacia		can someone help me understand this command cp ./<kernel version>/wacom_w8001.ko /lib/modules/`uname -r`/kernel/drivers/input/touchscreen/
+2012-01-31T02:54:00.000Z	glacia		it keeps responding with a bash error
+2012-01-31T02:55:00.000Z	glacia		no such file or dir but i followed the instructions to the dot at http://sourceforge.net/apps/mediawiki/linuxwacom/index.php?title=Input-wacom
+2012-01-31T02:56:00.000Z	yumbo	glacia	to see what version you compiled, I think you can do "ls ./"

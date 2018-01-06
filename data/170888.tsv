@@ -1,0 +1,4 @@
+2006-08-15T09:12:00.000Z	ootz0rz		hi, does anyone know how i can change my default audio device? i have two audio controllers in my computer (onboard and pci card) i wanna use the pci card, but it keeps defaulting to the onboard one
+2006-08-15T09:13:00.000Z	ootz0rz		i tried to change from preferences -> sound, but it doesnt keep the setting
+2006-08-15T09:13:00.000Z	crimsun	ootz0rz	use asoundconf set-default-card
+2006-08-15T09:14:00.000Z	ootz0rz	crimsun	doing so gives me an "IndexError: list index out of range"...

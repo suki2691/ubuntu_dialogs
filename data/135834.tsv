@@ -1,0 +1,4 @@
+2007-08-22T12:39:00.000Z	kenji		if I do LANG=C date -d yesterday +%B it show Agust but I can't keep this value in a var :S can you help me?
+2007-08-22T12:40:00.000Z	cberlo	kenji	how about:  myvariable=`LANG=C date -d yesterday +%B`
+2007-08-22T12:41:00.000Z	kenji	cberlo	what kind of magic the `` did?
+2007-08-22T12:41:00.000Z	cberlo	kenji	`` tells bash to execute the stuff inside and give you the results.

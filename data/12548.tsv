@@ -1,0 +1,4 @@
+2011-10-10T08:58:00.000Z	hexacode		hey you guys i created a new user with "useradd new_user" then i did "passwd added_user" to give the user a password...when i logged into ssh with the new user, my terminal didnt say  $user@$host:   it just had a '$' symbol and when i did "ls", nothing was colored...everything was just one color, all directories, and all files...whats up with this?  why is my terminal not saying new_user@my_host:  ?
+2011-10-10T08:59:00.000Z	hexacode		and why are there no colors
+2011-10-10T09:00:00.000Z	zykotick9	hexacode	for next time - "adduser foo" is probably better then useradd
+2011-10-10T09:01:00.000Z	zykotick9	hexacode	but check out /etc/skel for the default .bashrc

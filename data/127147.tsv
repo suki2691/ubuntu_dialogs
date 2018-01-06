@@ -1,0 +1,4 @@
+2007-08-19T11:24:00.000Z	trond		does this sound ok as a partition plan: / = 20g, /swap = 3gb (I got 1,5 gb ram), /boot = 3gb /home = 54gb
+2007-08-19T11:25:00.000Z	vocx	trond	you do not need /boot more than 100 MB. Where did you see you needed more?
+2007-08-19T11:26:00.000Z	trond	vocx	right. so 100mb or 200mb maybe... just to be on the safe side?
+2007-08-19T11:28:00.000Z	vocx	trond	/boot hold the Linux kernel and the boot loader. Each kernel needs like 15 MB. Unless you are using 100 kernels you do need 3 GB. Yes use 200 MB if you wish. Make it a ext2 partition.

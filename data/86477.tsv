@@ -1,0 +1,4 @@
+2008-07-03T08:37:00.000Z	rand0m-		quick question... how do I mount my master drive from my slave drive?
+2008-07-03T08:37:00.000Z	Bodsda	rand0m-	sudo mount /dev/**#
+2008-07-03T08:39:00.000Z	Bodsda	rand0m-	in a terminal type    sudo fdisk -l      then find the section relating to the disk you wont to mount (dev/hda1) then make a mount point    sudo mkdir /media/mountPoint       sudo mount /dev/hda1 /media/mountPoint
+2008-07-03T08:39:00.000Z	rand0m-	Bodsda	awesome thanks ill try that

@@ -1,0 +1,4 @@
+2010-02-10T10:46:00.000Z	rickbee		how can i tell if the superblock is bad? or what is wrong if only some partitions are mountable?
+2010-02-10T10:47:00.000Z	paotzu	rickbee	if it is ext3 you can use backup superblock
+2010-02-10T10:47:00.000Z	paotzu	rickbee	do dumpe2fs /dev/sda1 | grep superblock or dev/whatever
+2010-02-10T10:48:00.000Z	paotzu	rickbee	assuming it is not mounted

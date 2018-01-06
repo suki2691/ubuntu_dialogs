@@ -1,0 +1,4 @@
+2006-06-22T09:57:00.000Z	rot		I just reinstalled my Ubuntu system and had a few problems resurecting my data. I copied it all back to my /home directory, but it has root as owner... how do I change owner for every file within /home/michael???
+2006-06-22T09:57:00.000Z	rot		I can't even log on right now w/ it
+2006-06-22T09:57:00.000Z	HBuzacott	rot	sudo chmod -R 777
+2006-06-22T10:05:00.000Z	HBuzacott	rot	sudo chown -R <user>:<user> * && sudo chmod -R 755 (replacing <user> with your username)

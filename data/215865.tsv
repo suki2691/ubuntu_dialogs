@@ -1,0 +1,4 @@
+2008-07-03T04:06:00.000Z	v3trae		is there a command to have a program run at system boot? if memory serves it was rc-update on gentoo. Can't seem to find out how to do it in ubuntu.
+2008-07-03T04:06:00.000Z	soundray	v3trae	update-rc.d  -- or use System-Admin-Services
+2008-07-03T04:15:00.000Z	soundray	v3trae	no
+2008-07-03T04:15:00.000Z	soundray	v3trae	if you installed openssh-server through package management, it's enabled automatically at boot

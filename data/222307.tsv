@@ -1,0 +1,4 @@
+2007-12-10T08:58:00.000Z	intelikey	randoman	i'm not a networking guru my anymeans,  but if no one else is trying to help you.    route add default gw 192.168.1.200 <<< if that's the server end. on the client end of things might help you.   also is ipv4 forwarding enabled ?   edit /etc/sysctl to enable
+2007-12-10T09:48:00.000Z	intelikey	randoman	##windows  might be more helpful   seeing that it's probably the client that needs work.
+2007-12-10T09:48:00.000Z	intelikey	randoman	i don't do windows,  but you need to set the linux boxes ip as the default gateway
+2007-12-10T09:51:00.000Z	intelikey	randoman	well one other thing to consider    iptables      if you have things firewalled out you may be blocking the lan as well as the world     just a thought.

@@ -1,0 +1,4 @@
+2011-01-20T19:01:00.000Z	dslip		hello people. hopefully a simple questions, I have two ubuntu 10.04 LTS servers and need to compare the installed packages between the two (1 server when running a java app goes 100% on one core) which is abnormal. So, i believe that there is an installed package conflicting. What is the easiest way to compare installed packages ? Can I list installed packages to a txt file and then use something
+2011-01-20T19:01:00.000Z	dslip		like diff ?
+2011-01-20T19:02:00.000Z	greppy	dslip	dpkg --get-selections
+2011-01-20T19:10:00.000Z	greppy	dslip	diff file1 file2

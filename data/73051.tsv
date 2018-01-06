@@ -1,0 +1,4 @@
+2011-09-02T00:49:00.000Z	infested999		Why are xfs partitions mounted read-only by default?
+2011-09-02T00:49:00.000Z	ActionParsnip	infested999	use a different mount option
+2011-09-02T00:50:00.000Z	infested999	ActionParsnip	What /etc/fstab line do I use to mount the partition at boot: Here is my current: "UUID=xxxxxxxxxxxx /media/Backup xfs defaults 0 0"
+2011-09-02T00:51:00.000Z	ActionParsnip	infested999	try:  default,rw    see if it helps

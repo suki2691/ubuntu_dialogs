@@ -1,0 +1,4 @@
+2007-06-08T15:56:00.000Z	kraft		HI all ! It the first time i try Linux and ubuntu and so far everything is ok(with some googling).But i have one problem i cannot solve.I m connecting to the internet with a wireless card and while i can surf and download with max speed,i cannot use torrents.Everytime it starts to download and then i loose my connection.Any tips? I already tried sudo ethtool -k wlan0 but nothing... :(
+2007-06-08T15:57:00.000Z	SimAtWork	kraft	are you using a router?
+2007-06-08T15:57:00.000Z	SimAtWork	kraft	then you need to forward some ports and define what ports those are in the torrent app.
+2007-06-08T15:57:00.000Z	SimAtWork	kraft	torrents should work without this... but they'll be super slow

@@ -1,0 +1,4 @@
+2009-03-20T15:37:00.000Z	PC_Nerd		Hi - I attempted a "cat file" - which I wasnt sure of the doctype on.. and now all my terminal commands appear on screen  (along wiht their output) - as weird characters (like when you open a binary file in notepad)
+2009-03-20T15:37:00.000Z	PC_Nerd		any suggestions
+2009-03-20T15:37:00.000Z	sprinkmeier	PC_Nerd	type "reset"
+2009-03-20T15:38:00.000Z	sprinkmeier	PC_Nerd	cat-ing binary files can mess up your terminal (has to do with ANSI escape codes). use "less FILENAME" instead, safer!

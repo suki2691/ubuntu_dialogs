@@ -1,0 +1,4 @@
+2006-05-14T16:42:00.000Z	AlmtyBob		how do I set my box up so I can tightvnc right after boot without having to login?
+2006-05-14T16:43:00.000Z	paradizelost	AlmtyBob	add x11vnc -scale 0.75 -rfbauth /home/dan/.vnc/passwd -bg -q -forever -auth /var/lib/gdm/:0.Xauth -gone 'xscreensaver-command -lock' -shared
+2006-05-14T16:45:00.000Z	paradizelost	AlmtyBob	lets you vnc to the console of the machine
+2006-05-14T16:45:00.000Z	paradizelost	AlmtyBob	this is assuming that you are using gdm of cours

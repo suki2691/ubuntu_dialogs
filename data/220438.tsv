@@ -1,0 +1,4 @@
+2008-08-02T07:12:00.000Z	flats		Thank god. Ubuntu came back.  Here's my situation... I have a ext3 partition at /dev/sda1 that is just a play partition, nothing important on it.  It currently mounts on / which is not good.  How can I get it to mount on a different mount point?  Everytime I try to umount it, It says drive busy please try manually.  If I use umount -l it makes my whole drive disappear in gparted.  Any ideas
+2008-08-02T07:13:00.000Z	flats		OK brb
+2008-08-02T07:13:00.000Z	flats		Oh by the way, when booting whats the difference between kernel 386 and kernel generic?
+2008-08-02T07:13:00.000Z	Flannel	flats	You want generic.  386 is for computers that don't like generic

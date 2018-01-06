@@ -1,0 +1,4 @@
+2007-05-13T16:29:00.000Z	Fylk		Hey guys, can I have some help building the new version of Pidgin?
+2007-05-13T16:30:00.000Z	vorbote	Fylk	best way is to grab the sources from debian and port them.
+2007-05-13T16:31:00.000Z	vorbote	Fylk	You use pbuilder for starters.
+2007-05-13T16:32:00.000Z	vorbote	Fylk	the tips (I did the backporting by hand) is to change the dependency from libnss3-dev to libnss-dev, remove the avahi-compat-howl-dev dependency and add --with-nss-includes=/usr/include/firefox/nss and --with-nspr-include=/usr/include/firefox/nspr

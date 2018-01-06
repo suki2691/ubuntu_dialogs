@@ -1,0 +1,4 @@
+2008-12-23T22:12:00.000Z	Error121		hi, im having some trouble with my sound and was curious if someone could help me out
+2008-12-23T22:14:00.000Z	Error121		my sound was working fine a couple days ago, then yesterday it stopped and says my /dev/dsp is busy.
+2008-12-23T22:15:00.000Z	Error121		i cant figure out how to tell whats tying up my /dev/dsp, anyone know?
+2008-12-23T22:16:00.000Z	erUSUL	Error121	sudo lsof /dev/dsp

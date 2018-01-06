@@ -1,0 +1,4 @@
+2012-06-15T19:05:00.000Z	ace_me		should I be able to receive email after modifying aliases as root: mygmail@gmail.com without installing devcot pop3 and imap ?
+2012-06-15T19:05:00.000Z	ace_me		dovecot*^
+2012-06-15T19:06:00.000Z	llutz	ace_me	if your mta uses /etc/aliases, yes
+2012-06-15T19:10:00.000Z	llutz	ace_me	and postfix won't use /etc/aliases. you have to generate aliases.db /sudo newaliases/

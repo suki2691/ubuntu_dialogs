@@ -1,0 +1,4 @@
+2007-09-11T08:59:00.000Z	josiah		I believe I added my wireless drivers to the blacklist using this: echo "blacklist drivername.inf" | sudo tee -a /etc/modprobe.d/blacklist
+2007-09-11T08:59:00.000Z	josiah		how do I remove it from the list?
+2007-09-11T08:59:00.000Z	cld2	josiah	vi /etc/modprobe.d/blacklist and # comment out the line or delete it
+2007-09-11T09:00:00.000Z	cld2	josiah	also, you dont need the .inf just the module name

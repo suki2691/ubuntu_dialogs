@@ -1,0 +1,4 @@
+2008-10-20T22:06:00.000Z	kunwon1	MarkRichman	maybe something like..    for i in `find`; do cat $i >> ~/concatenated_files.txt; done
+2008-10-20T22:07:00.000Z	kunwon1	MarkRichman	but can't have anything but text files to be concatenated in the directory where you run that command
+2008-10-20T22:07:00.000Z	MarkRichman	kunwon1	oh
+2008-10-20T22:08:00.000Z	kunwon1	MarkRichman	if the directories are filled with clutter, you could refine the find command, man find

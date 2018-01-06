@@ -1,0 +1,4 @@
+2006-03-26T16:47:00.000Z	Owner		Hi, i'm trying to install ubuntu as a dual boot system with windows. I am setting up my partitions right now and here's what i have: 40GB primary ntfs /media/hda1 which has my winidows on it. 30gb logical ext3 journaling file system /media/hda5, and a logical 7.1gb swap partition
+2006-03-26T16:47:00.000Z	Owner		when i click Finish partitioning and write changes to disk, i get no root file system error
+2006-03-26T16:48:00.000Z	hurax	Owner	did you mount the ext3 partition as / in the partition editor?
+2006-03-26T16:49:00.000Z	Owner	hurax	no, i'll do it right now...does it matter if i do it to the windows partition or the linux partition?

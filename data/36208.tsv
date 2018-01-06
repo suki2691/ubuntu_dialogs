@@ -1,0 +1,4 @@
+2010-03-06T00:17:00.000Z	fourdfourm		I'm trying to set it up so users authenticate using radius. What's the typical way to do this, if any? radiusclient1? I have a Cisco ACS I want to authenticate against.
+2010-03-06T00:18:00.000Z	ikonia	fourdfourm	do you want your ubuntu machine to authenticate against it, or external devices ?
+2010-03-06T00:19:00.000Z	fourdfourm	ikonia	The ubuntu machine.
+2010-03-06T00:20:00.000Z	ikonia	fourdfourm	you need to use something like the openradia client and going pam to use it

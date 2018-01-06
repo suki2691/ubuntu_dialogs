@@ -1,0 +1,4 @@
+2012-01-13T15:07:00.000Z	vagothcpp		Currently I am doing a 1GB apt-get install but need to switch to a faster link as this one is horribly slow, can it be interrupted in anyway so that I may resume on a faster link?
+2012-01-13T15:08:00.000Z	NimeshNeema	vagothcpp	if you interrupt a apt-get install midway, it resumes from the point it left.
+2012-01-13T15:08:00.000Z	vagothcpp	NimeshNeema	its still at the download stage, and i dont have time to redownload all
+2012-01-13T15:09:00.000Z	NimeshNeema	vagothcpp	the already downloaded content will not be downloaded again. it resumes apt-get handles it autometically

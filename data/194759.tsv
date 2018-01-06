@@ -1,0 +1,4 @@
+2006-04-22T14:22:00.000Z	Nukeador		/dev/sda2       /media/sda2     vfat    gid=1000,umask=0007,fmask=0117,utf8 0       0  (what should i add to allow writing?)
+2006-04-22T14:23:00.000Z	DBO	Nukeador	you will either have to chown the mount point (not recommended) or chown a subdirectory inside the mountpoint with the sudo command
+2006-06-18T09:39:00.000Z	DBO	Nukeador	you mean you installed some updates from third party repositories?
+2006-06-18T09:40:00.000Z	DBO	Nukeador	remove the repos from your sources.list, then sudo apt-get update, then sudo apt-get dist-upgrade

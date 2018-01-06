@@ -1,0 +1,4 @@
+2007-04-30T11:47:00.000Z	olimpico		Does someon know how to make diferent file appear in different colors on the bash?
+2007-04-30T11:47:00.000Z	Possum	olimpico	ls --color=auto
+2007-04-30T11:48:00.000Z	Possum	olimpico	if you want it to default to showing colors, add a line to your .bashrc that says 'alias ls="ls --color=auto"'
+2007-04-30T11:50:00.000Z	olimpico	Possum	OK, that's great, but how can I make it shw different colors for specific files, like in gentoo, they have this /etc/DIR_COLORS with a list of specific colors

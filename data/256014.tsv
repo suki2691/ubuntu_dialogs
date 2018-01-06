@@ -1,0 +1,4 @@
+2005-01-29T16:05:00.000Z	thenuke		is it easy to setup somekind of software RAID to ease up utilisation of many harddisks with many partitions.. so that those many partitions would show up as a one big partition
+2005-01-29T16:06:00.000Z	melazyboy	thenuke	i don't believe software raid works like that
+2005-01-29T16:07:00.000Z	melazyboy	thenuke	it will just add the constrant of having to utilize the drives wheither you use them or not
+2005-01-29T16:07:00.000Z	melazyboy	thenuke	but setting it up is easy you will have loose everything when you create the array just apt-get raid-tools, and man mkraid, and raidtab

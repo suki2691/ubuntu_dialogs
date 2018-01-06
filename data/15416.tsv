@@ -1,0 +1,4 @@
+2011-08-08T03:56:00.000Z	KaZumaKat		anyone want to help me troubleshoot the no-HDMI-audio-from-Nvidia-vidcard issue I have? :/
+2011-08-08T03:57:00.000Z	KaZumaKat		so its a backend issue?
+2011-08-08T03:59:00.000Z	escott	KaZumaKat	pulseaudio will only send sound through one card at a time. go into pulse (the volume control) and change the output to the hdmi associated sound card
+2011-08-08T04:01:00.000Z	escott	KaZumaKat	and its not muted in alsamixer

@@ -1,0 +1,4 @@
+2008-10-31T02:24:00.000Z	zamba		i have a private key with a password that i use to connect to other hosts.. but now i want to run a cron job that rsyncs files from one host to another.. this of course fails, since the cron process haven't got access to my ssh-agent.. how can i solve this?
+2008-10-31T02:25:00.000Z	hspaans	zamba	ssh-keygen
+2008-10-31T02:25:00.000Z	zamba	hspaans	generate a new set of keys for that use?
+2008-10-31T02:26:00.000Z	hspaans	zamba	yes without an password and update your ssh_config so those keys are only used in that situation

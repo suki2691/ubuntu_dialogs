@@ -1,0 +1,4 @@
+2007-12-09T21:26:00.000Z	matttis		how do I find out the name of an program of which I know the shell command
+2007-12-09T21:26:00.000Z	matttis		!name
+2007-12-09T21:27:00.000Z	jrib	matttis	dpkg -S $(which COMAAND_HERE)     tells you the package name
+2007-12-09T21:27:00.000Z	matttis	jrib	thanks

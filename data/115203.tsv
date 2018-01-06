@@ -1,0 +1,4 @@
+2007-11-30T19:50:00.000Z	Profanephobia		im not sure where else to ask for help with this issue but can someone tell me what they think is going wrong here: http://paste.ubuntu-nl.org/46333/
+2007-11-30T19:51:00.000Z	Mortice	Profanephobia	not that I know anything about the protocol, but the remote host is sending a TermReq (termination request) after you send a packet (ll. 57-8). The packet which causes it doesn't seem to have valid ip addresses in it. My bet is that that's the cause.
+2007-11-30T19:53:00.000Z	Profanephobia	Mortice	so maybe if i set a static IP in the script, you think that might work? (thanks btw)
+2007-11-30T19:53:00.000Z	Mortice	Profanephobia	no idea. worth a go.

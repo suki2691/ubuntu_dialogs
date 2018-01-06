@@ -1,0 +1,4 @@
+2010-12-25T04:27:00.000Z	xxmayhem714xx		can anyone help me, i want to kill Gnome screensaver and make xsreensaver the default.. i have followed tutorials but no luck
+2010-12-25T04:29:00.000Z	aguitel	xxmayhem714xx	delete gnome-screensaver
+2010-12-25T04:30:00.000Z	aguitel	xxmayhem714xx	sudo aptitude remove --purge gnome-screensaver && sudo aptitude install xscreensaver
+2010-12-25T04:33:00.000Z	aguitel	xxmayhem714xx	xcreensaver came with lxde

@@ -1,0 +1,4 @@
+2011-11-21T19:42:00.000Z	synapse		I am running 2.6.32-35-generic #78, if I do a git clone of git://kernel.ubuntu.com/ubuntu/ubuntu-lucid.git, is it possible for me to use my existing /boot/config-2.6.32-35-generic as the .config when rebuilding?  I want to ensure everything is exactly the same except a hack I've made
+2011-11-21T19:42:00.000Z	iceroot	synapse	yes the config should match because its the ubuntu-config
+2011-11-21T19:43:00.000Z	synapse	iceroot	do I need to do a make menuconfig if I use the config from /boot ?
+2011-11-21T19:43:00.000Z	iceroot	synapse	sorry dont know

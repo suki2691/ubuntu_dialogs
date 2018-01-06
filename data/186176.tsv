@@ -1,0 +1,4 @@
+2006-07-15T06:42:00.000Z	LMJ		i'm Linux sysadmin in a company and i'm asking to myself a question. I have to run "apt-get update" by hand on each machine to update them and maybe upgrade them. Each time, i dowload all XML packages definition from internet for each computers. Have you ever seems a kind of "proxy" who store all fresh "XML packages lists"  in local and share them on the LAN . Then, i can do the "apt-get update" from all others computers of the LAN to this local machine with
+2006-07-15T06:42:00.000Z	LMJ		out re-download them from internet ?
+2006-07-15T06:43:00.000Z	BazziR	LMJ	you could setup a local mirror
+2006-07-15T06:45:00.000Z	BazziR	LMJ	just use rsync

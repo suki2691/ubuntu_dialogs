@@ -1,0 +1,4 @@
+2012-10-12T12:59:00.000Z	bittyx-work		hi all. i want to time the output of a command. however i'm not sure about the syntax. say the command is: "mysql dbname < data.sql > data.log" - how would i time this command? the command, when used with quotes as the argument to "time" won't run, but if i just pass it without quotes, how do i know what will be written to data.log - the output of mysql or time?
+2012-10-12T12:59:00.000Z	bittyx-work		thanks in advance
+2012-10-12T12:59:00.000Z	bittyx-work		and when i say "time the output", of course i mean the "execution time"
+2012-10-12T13:00:00.000Z	geirha	bittyx-work	time mysql dbname < data.sql > data.log

@@ -1,0 +1,4 @@
+2005-01-08T08:56:00.000Z	ftwig		hi - managed to boot with reaque disk - tried 'sudo mount -t ext3 /dev/hda /media/hda/' but got 'mount: wrong fs type, bad option, bad superblock on /dev/hda, or too many mounted file systems' any ideas?
+2005-01-08T08:57:00.000Z	thoreauputic	ftwig	umm... I think you meant /dev/hda1 didn't you?
+2005-01-08T08:58:00.000Z	thoreauputic	ftwig	and probably /media/hda1, if it exists on your system
+2005-01-08T08:58:00.000Z	ftwig	thoreauputic	ta - thats the one

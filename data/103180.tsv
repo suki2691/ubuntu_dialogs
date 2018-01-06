@@ -1,0 +1,4 @@
+2008-05-09T10:32:00.000Z	ShadowAp3x		Hey, I'm trying to install the 169.12 NVIDIA driver on 8.04 for a 7900GS; It installs correctly and it can be up and running but I cannot, for the life of me, get my x settings to retain after reboot
+2008-05-09T10:33:00.000Z	Rat409	ShadowAp3x	sudo nvidia-settings with root perms its sticks
+2008-05-09T10:33:00.000Z	ShadowAp3x	Rat409	I've done that but even then it still won't retain the settings; X will refuse to start after reboot
+2008-05-09T10:34:00.000Z	Rat409	ShadowAp3x	dunno but i'd run sudo nvidia-xconfig again then

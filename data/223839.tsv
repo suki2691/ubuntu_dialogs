@@ -1,0 +1,4 @@
+2011-08-02T04:20:00.000Z	mcurran		Anyone know the fix when you cannot connect to unsecured wireless networks?
+2011-08-02T04:21:00.000Z	th0r	mcurran	install a wifi card?
+2011-08-02T04:25:00.000Z	th0r	mcurran	usually the other way around. What errors do you get when it fails. Have you checked dmesg after trying? Or better yet, start a 'tail -f /var/log/messages' before attempting so you can see errors in real time
+2011-08-02T04:26:00.000Z	th0r	mcurran	right, looks like a dhcp issue

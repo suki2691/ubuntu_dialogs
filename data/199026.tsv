@@ -1,0 +1,4 @@
+2006-04-08T11:52:00.000Z	aravinds		i want kernel 2.6.15 on breezy. i got the kernel source for 2.6.15 from dapper. i did cd /usr/src/linux-2.6.15; cat debian/config/i386/config debian/config/i386/config.server > .config; make menuconfig
+2006-04-08T11:52:00.000Z	aravinds		is  there anything i should worry about?
+2006-04-08T11:54:00.000Z	Frogzoo	aravinds	only that all the breezy pkgs are built for 2.6.12...
+2006-04-08T11:56:00.000Z	Frogzoo	aravinds	it's possible - I don't know how different 2.6.12 & 2.6.15 are - best check the kernel release notes

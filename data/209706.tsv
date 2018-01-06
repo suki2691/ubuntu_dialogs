@@ -1,0 +1,4 @@
+2008-11-10T03:18:00.000Z	theuniverse		could someone please explain how to get rid of old kernels that are visible on startup and how to change their order?
+2008-11-10T03:18:00.000Z	LjL	theuniverse	well, you could uninstall those old kernels, for a start
+2008-11-10T03:18:00.000Z	LjL	theuniverse	but the listings and order is dictated by the file /boot/grub/menu.lst
+2008-11-10T03:24:00.000Z	LjL	theuniverse	by default it will boot the *first kernel listed*, so be careful changing that.

@@ -1,0 +1,4 @@
+2009-04-17T16:59:00.000Z	NarbeH		how can i LowLevelFormat my HDD ?
+2009-04-17T17:01:00.000Z	Activity	NarbeH	"dd if=/dev/zero of=$DEVICE_TO_OVERWRITE_WITH_BIN_ZEROS bs=8M"
+2009-04-17T17:01:00.000Z	NarbeH	Activity	thq
+2009-04-17T17:05:00.000Z	Activity	NarbeH	dunno if you read it, but the badblocks-command can help you detect (and in a limited way fight) bad sectors on your drive. more: man badblocks

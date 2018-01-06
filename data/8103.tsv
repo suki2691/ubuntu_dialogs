@@ -1,0 +1,4 @@
+2011-11-02T16:46:00.000Z	Loptr		Whats the terminal command to check whats the refresh rate ot the monitor
+2011-11-02T16:47:00.000Z	jeax	Loptr	cat /etc/X11/xorg.conf | grep VertRefresh
+2011-11-02T16:48:00.000Z	jeax		thats not a command that does it per se, but that will certainly give you your refresh rate
+2011-11-02T16:49:00.000Z	Loptr	jeax	i know how i set it up in xorg but it seems its lower refres rate

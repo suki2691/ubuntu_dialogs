@@ -1,0 +1,4 @@
+2008-11-18T18:28:00.000Z	tuesday_flounder		hi i'm very new to ubuntu can anyone tell me a command to determine if the machine i'm using is 64 or 32 bits, or where to look for this info?
+2008-11-18T18:28:00.000Z	LjL	tuesday_flounder	"cat /proc/cpuinfo | grep flags", see if there is the "lm" flag
+2008-11-18T18:34:00.000Z	LjL	tuesday_flounder	i don't know about lahf_lm, but "lm" means your processor is 64bit
+2008-11-18T18:54:00.000Z	LjL	tuesday_flounder	one thing is saying that you're *running* the 32-bit version of Ubuntu, another thing is saying that you *have* a 64-bit processor. you asked about the latter.

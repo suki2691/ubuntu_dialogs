@@ -1,0 +1,4 @@
+2010-05-18T00:21:00.000Z	Snarkster		i dont have any experience with -exec.. keeps telling me im missing an argument
+2010-05-18T00:21:00.000Z	Snarkster		let me RTFM and get back to ya
+2010-05-18T00:22:00.000Z	unop	Snarkster	what was the command you used?  does it have a \; at the end?
+2010-05-18T00:23:00.000Z	unop	Snarkster	 find . -name "*.txt" -type f -exec cp -vi {} dest/ \;

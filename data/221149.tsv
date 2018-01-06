@@ -1,0 +1,4 @@
+2008-10-13T12:22:00.000Z	nxmehta		i need to print remotely over the internet from windows to a printer connected to a ubuntu server.  i've set cups/samba up so i can do it on the local LAN, but how should i do it remotely?  am i correct in assuming that i should not use samba remotely (it's insecure)?
+2008-10-13T12:23:00.000Z	BlueEagle	nxmehta	smb shares has got no business being published to the internet.
+2008-10-13T12:24:00.000Z	BlueEagle	nxmehta	I would investegate the possibillity of printing directly to a cups server.
+2008-10-13T12:26:00.000Z	BlueEagle	nxmehta	alternately you could set up a VPN tunnel of sorts to allow a remote host to access the local smb network.

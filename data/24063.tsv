@@ -1,0 +1,4 @@
+2010-11-08T07:09:00.000Z	miststlkr		I am trying to get sounds working in Empathy.  Added the PPA, refreshed and updated.  Several packages were updated, but the sound wasn't fixed and now I have the Empathy icon in the notification applet  and not the messaging applet.   Is there an easy way to fix this?
+2010-11-08T07:11:00.000Z	yagoo	miststlkr	try getting alsa utils to play out samples.. if that works then the might be empathy.. sound should be heard at least with aplay
+2010-11-08T07:12:00.000Z	miststlkr	yagoo	rhythmbox, mythtv and VLC play fine, as far as I can tell it is only Empathy.  I'll look into aplay, not familiar with it, thanks
+2010-11-08T07:13:00.000Z	yagoo	miststlkr	in that case see what empathy is set to.. the aplay(alsa test tools) is used for testing if sound works at all.. u said sound works but just empathy.. so must be something about empathy

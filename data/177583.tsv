@@ -1,0 +1,4 @@
+2008-06-23T03:05:00.000Z	Nostahl		hi all i just put an ubuntu cd in my computer and booted up it brought me to a screen that just says (initramfs)  its black screen with a _ blinking
+2008-06-23T03:05:00.000Z	Nostahl		any idea's what to do
+2008-06-23T03:06:00.000Z	Nostahl		lets see what happens
+2008-06-23T03:06:00.000Z	Jack_Sparrow	Nostahl	To get live cd to run this often helps..At start or install press F6 and remove Quiet and Splash from the command line. If it still fails.. Repeat and after removing quiet and splash add noapic acpi=off before the "--"

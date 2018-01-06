@@ -1,0 +1,4 @@
+2011-02-19T16:16:00.000Z	przemasu		Hi. It's me again. Somebody told me to change to "blank-only" to disable screen turning off. It doesn't work. I tried to change options in power management, gconfig-editor and BIOS. Maybe somebody know how to disable turning TV off. I'm using PC, not laptop
+2011-02-19T16:17:00.000Z	yarekt	przemasu	setterm -powerdown 0; setterm -powersave Off; setterm -blank 0
+2011-02-19T16:19:00.000Z	yarekt	przemasu	is it, errr, are you viewing the terminal on your TV?
+2011-02-19T16:20:00.000Z	yarekt	przemasu	then my above answer still stands

@@ -1,0 +1,4 @@
+2007-06-18T12:46:00.000Z	Go2Fast		now i have tried configuring the itnerfaces config file for all interfaces, rebooted, restarted networking, etc. and it can't do anything
+2007-06-18T12:47:00.000Z	Go2Fast		my problem: the server was running for a while and i shut it down to install it in a cabinet.  rebooted and everything looked okay and started up okay.  howevever, the network wasn't working. i could pin glocalhost and the local network IP configured on eth0. i could not ping the gateway configd in the interfaces file. restarted networking, restarted server, nada.  reconfigured it on another interface, eth2 and it worked until I reboot
+2007-06-18T12:47:00.000Z	yknott	Go2Fast	is there a strange gateway setting? you could manually enter that in /etc/network/interfaces
+2007-06-18T12:48:00.000Z	Go2Fast	yknott	the gateway is config'd in the interfaces file

@@ -1,0 +1,4 @@
+2012-06-10T23:21:00.000Z	DexterF		hi
+2012-06-10T23:22:00.000Z	DexterF		moved root partition, updated etc. now how do I tell grub about the new config? grub-mkconfig from a chroot to the root partition generates a proper menu.cfg, but how do I install it?
+2012-06-10T23:22:00.000Z	notwist	DexterF	maybe http://manpages.ubuntu.com/manpages/hardy/man8/update-grub.8.html ?
+2012-06-10T23:27:00.000Z	DexterF	notwist	ah, ok, thanks.

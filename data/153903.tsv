@@ -1,0 +1,4 @@
+2010-07-23T02:55:00.000Z	asdf_baron		can someone tell me the difference between ALSA and PulseAudio?  I don't get how they coexist
+2010-07-23T02:55:00.000Z	randy_	asdf_baron	they are related because alsa == hardware, pulse == application layer
+2010-07-23T02:56:00.000Z	randy_	asdf_baron	for example, alsa provides the hardware interface to the various sound cards out there on the market; pulse audio is (supposed) to make it easy to finely tune your audio for different sources and outputs
+2010-07-23T02:58:00.000Z	randy_	asdf_baron	pulse audio, albeit a little buggy now due to its newness, works really well for closely managing each applications' interface for sound

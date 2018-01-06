@@ -1,0 +1,4 @@
+2010-07-14T09:59:00.000Z	dcpd		is there a way to get a list of the drivers in th ekernel?
+2010-07-14T10:00:00.000Z	asymptote	dcpd	it's anything that ends in a .ko extension
+2010-07-14T10:00:00.000Z	asymptote	dcpd	like if you type "locate *.ko"
+2010-07-14T10:02:00.000Z	asymptote	dcpd	a lot of them are listed in /lib/modules/<kernel version>/kernel/drivers/ but they are located in other places as you can see by using the "locate *.ko" command

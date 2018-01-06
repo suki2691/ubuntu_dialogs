@@ -1,0 +1,4 @@
+2007-04-29T08:23:00.000Z	asgoo		when i run sudo gedit xorg.conf , i get gedit but its blank. i know the file exists as everyone has it, and without it i wouldnt see any windows. what am i doing wrong?
+2007-04-29T08:24:00.000Z	orbin	asgoo	you have to be in the right directory or use the absolute path.  and you should use gksudo with gui apps:  gksudo gedit /etc/X11/xorg.conf
+2007-04-29T08:25:00.000Z	asgoo	orbin	thanks , stupid mistake on my part.
+2007-04-29T08:25:00.000Z	orbin	asgoo	no worries.

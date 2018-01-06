@@ -1,0 +1,4 @@
+2010-08-03T10:36:00.000Z	HeadAche		help please...-> installed 10.04 fine. now i need to get the raid card recognized. found the card in the dmesg, but it's listed as scsi7.. when i was expecting it to have like a sda1 or something. does that mean the bios sees it but a driver has not been loaded, or...?
+2010-08-03T10:37:00.000Z	ActionParsnip	HeadAche	dmesg will find everything by default. Doesn't mean its configured
+2010-08-03T10:38:00.000Z	ActionParsnip	HeadAche	if you run: lspci ,you will see the chip it uses and you can find guides using that. You may just see your drives with: sudo fdisk -l ,in which case you are good to go
+2010-08-03T10:48:00.000Z	HeadAche	ActionParsnip	Thanks. the raid card was listed in lspci, and "sudo fdisk -l" also showed it, (so yay!, right?)

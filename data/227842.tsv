@@ -1,0 +1,4 @@
+2006-01-03T15:32:00.000Z	ian_		qq ghost i think i followed your intructions...butit says contents could not be displayed
+2006-01-03T15:34:00.000Z	ian_		changing ownership of media/ntfs1: read onyl file
+2006-01-03T15:36:00.000Z	ian_		it says on the error that i do not have the permission to view the files...
+2006-01-03T15:37:00.000Z	Morrowyn	ian_	 use this:  mount -o uid=<youruid> /dev/<ntfsdev> /media/<ntfsmountpoint>   since it auto mounts to root on default

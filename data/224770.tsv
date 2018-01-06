@@ -1,0 +1,4 @@
+2006-01-02T11:24:00.000Z	ekimus		anyone who knows tomcat and apache well, ii'm tryingo tell apache that every reques to "host/directory" should be redirected to "host:8080/" and every answer should be normalized so that the links in these pages relative to "host/directory/" i tried with proxypass and proxypassreverse, the requests work but the link inside the html pages just look as if i were browsing "hots:8080/" directly...
+2006-01-02T11:25:00.000Z	trappist	ekimus	try mod_rewrite
+2006-01-02T11:27:00.000Z	ekimus	trappist	mod_rewrite is something i'm trying to avoid. tried to figure it out a couple of times (although unmotivated) and gave up. guess i won't come around it anymore now.. :(
+2006-01-02T11:27:00.000Z	trappist	ekimus	it's poorly documented but very nice and very powerful

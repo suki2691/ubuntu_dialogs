@@ -1,0 +1,4 @@
+2010-02-04T00:16:00.000Z	pweezy		hi, i am looking to see what packages are installed on my system, i dont see a /var/log/packages, is the list being held somewhere else?
+2010-02-04T00:16:00.000Z	blakkheim	pweezy	dpkg --get-selections
+2010-02-04T00:18:00.000Z	blakkheim	pweezy	dpkg --get-selections > /tmp/the_physical_list :P
+2010-02-04T00:19:00.000Z	pweezy	blakkheim	do you have a method that doesn't involve some ominous program telling you?

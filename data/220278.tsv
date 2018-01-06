@@ -1,0 +1,4 @@
+2008-08-16T00:28:00.000Z	simotempler		hi there - for some odd season since i installed ubuntu as a dual boot everytime i go to xp it goes back an hour but the time stays as is in ubuntu - any ideas what ubuntu did to cause this?
+2008-08-16T00:29:00.000Z	Flannel	simotempler	What time zone are you in?
+2008-08-16T00:30:00.000Z	Flannel	simotempler	It has to do with XP wanting the hardware clock to be local time, but Linux wanting the hardware clock to UTC.  https://help.ubuntu.com/community/UbuntuTime#Multiple%20Boot%20Systems%20Time%20Conflicts
+2008-08-16T00:30:00.000Z	Flannel	simotempler	There's two workarounds (tweak Linux, Tweak windows), they're both available at that page

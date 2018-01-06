@@ -1,0 +1,4 @@
+2008-03-25T05:18:00.000Z	kindofabuzz_		i still can't find out if i put a file in a NFS folder on the client machine is it "pused" to the server?  and if file on server just "links" to the client share
+2008-03-25T05:19:00.000Z	rbil	kindofabuzz_	do you mean a mount on the client to the nfs share on the server side?
+2008-03-25T05:19:00.000Z	kindofabuzz_	rbil	yes
+2008-03-25T05:20:00.000Z	rbil	kindofabuzz_	on the client side it's just a mount point, so anything put in there is actually going to go to the share on the server side

@@ -1,0 +1,4 @@
+2005-10-10T15:38:00.000Z	eck		how can i migrate an existing filesystem (/home) into a new partition?
+2005-10-10T15:38:00.000Z	oO_will_Oo	eck	then modify /etc/fstab
+2005-10-10T15:40:00.000Z	oO_will_Oo	eck	just copy the /home folder to the root of the new partition, then add a line to /etc/fstab and set the mountpoint as /home
+2005-10-10T15:40:00.000Z	eck	oO_will_Oo	and dooglus: will i need to remove it from my old filesystem afterwards?

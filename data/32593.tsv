@@ -1,0 +1,4 @@
+2011-01-11T17:19:00.000Z	s3r3n1t7		In order to make sure a certain amount of scripts will be executed on bootup, would it be best to write an init.d script or to put an @reboot in the crontab, or some other method?
+2011-01-11T17:20:00.000Z	acicula_	s3r3n1t7	the init script or rc.local ?
+2011-01-11T17:20:00.000Z	acicula_		though rc.local is part of the old init system, so your own init script is probably nicer
+2011-01-11T17:20:00.000Z	s3r3n1t7	acicula_	the ones that you can execute with /etc/init.d/*

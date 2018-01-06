@@ -1,0 +1,4 @@
+2007-08-21T07:37:00.000Z	NemesisD		could anyone help me with SSH? I'm trying to ssh into a work server, i can ping it, 22 is set to forward, my 22 is open but ssh times out every time
+2007-08-21T07:38:00.000Z	pike__	NemesisD	you have root on the box? sometimes i have to use the https port on some locked down networks. you can add Port 443 under Port 22 in /etc/ssh/sshd_config.
+2007-08-21T07:39:00.000Z	NemesisD	pike__	yes they gave me the root username, are you saying to add 443 on the client or the server machine
+2007-08-21T07:39:00.000Z	pike__	NemesisD	server. im sure your problem is something else but if youre not using 443 for another service you could try that

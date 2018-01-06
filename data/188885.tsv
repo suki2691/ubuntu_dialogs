@@ -1,0 +1,4 @@
+2007-05-19T07:51:00.000Z	shaba1		Hello folks can I make xchat tabbed
+2007-05-19T07:52:00.000Z	shaba1		ok guys since know answer to that
+2007-05-19T07:52:00.000Z	shaba1		How do I install and rpm package
+2007-05-19T07:54:00.000Z	blind	shaba1	first, sudo apt-get install alien then sudo alien -d <rpm package name>  -- it will create a .deb that you can then sudo dpkg -i <debfile name>

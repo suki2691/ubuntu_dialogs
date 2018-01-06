@@ -1,0 +1,4 @@
+2007-07-02T13:23:00.000Z	BelialMkII		What is the package name to get the latest kernel sources, need to compile a few things in and wish to try that powertop app, or do i just need to grab them from kernel.org
+2007-07-02T13:23:00.000Z	timfrost	BelialMkII	unless the driver you want to build must be built in the source tree, you only need the headers, supplied as linux-headers-generic
+2007-07-02T13:25:00.000Z	BelialMkII	timfrost	I'd like to use a different framebuffer, and well.... am used to compiling my own. Is there a package for the lot or will it cause troubles? Or should i head back to gentoo
+2007-07-02T13:29:00.000Z	timfrost	BelialMkII	if you really need the linux source package, the package you need is linux-source

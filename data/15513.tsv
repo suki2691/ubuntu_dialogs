@@ -1,0 +1,4 @@
+2011-06-12T04:01:00.000Z	ancientpc		hey guys, I have a problem resuming a network upgrade
+2011-06-12T04:02:00.000Z	ancientpc		I ssh'ed into a server and ran screen(byobu) running 10.04 to upgrade to 10.10.  Halfway through the setup (at samba comfiguration window) I lost connection.  When I log back in I can't see the setup windows anymore but I can still see it via ps aux | grep root, and there are locks.
+2011-06-12T04:03:00.000Z	escott	ancientpc	screen -list
+2011-06-12T04:05:00.000Z	escott	ancientpc	screen -r

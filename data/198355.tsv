@@ -1,0 +1,4 @@
+2008-02-25T09:55:00.000Z	z0man		You have to sort your firewall out crab
+2008-02-25T09:56:00.000Z	z0man		iptables....
+2008-02-25T09:57:00.000Z	z0man		I suggest a GUI for ya
+2008-02-25T09:57:00.000Z	crab	z0man	its this command iptables doesn't like: iptables -A INPUT -j LOGDROP --log-level debug -j LOG -m limit --limit 5/s --log-prefix "Blocked: "

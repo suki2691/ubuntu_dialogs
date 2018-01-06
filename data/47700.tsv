@@ -1,0 +1,4 @@
+2012-01-23T23:52:00.000Z	tdn		That is not really what I need. What I need is to recreate fstab on a running system. By either dumpung /proc/mtab or manually parsing 'mount' or something like that. The system is still running.
+2012-01-23T23:53:00.000Z	theadmin	tdn	Then do exactly what you said, look at the output of "mount" and write an fstab respectively.
+2012-01-23T23:54:00.000Z	tdn	theadmin	I need to figure out uuid's for disks and such things.
+2012-01-23T23:54:00.000Z	theadmin	tdn	blkid for that...

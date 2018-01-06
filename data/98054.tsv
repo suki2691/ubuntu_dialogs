@@ -1,0 +1,4 @@
+2010-10-03T09:26:00.000Z	chicom9		hello everyone... i need a little help w a small issue ...i am getting an interesting problem with the command passwd... only root is able to change passwords, but not normal users. running strace gives the following error passwd: Authentication token mani"..., 48passwd: Authentication token manipulation error wondering if i could get some tips as to how to troubleshot this issue thank you everyone...
+2010-10-03T09:27:00.000Z	izinucs	chicom9	using sudo you become root for the command at that time.. passwords can only be changed as root
+2010-10-03T09:28:00.000Z	izinucs	chicom9	after entering their password in the gui or using sudo on cli
+2010-10-03T09:29:00.000Z	izinucs	chicom9	ah.. ok.. someone else will have to solve that one.. you're right there is an issue with the keyring it sounds like

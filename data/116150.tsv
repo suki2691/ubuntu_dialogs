@@ -1,0 +1,4 @@
+2010-09-06T05:46:00.000Z	zcat[1]	Karth	use the alternative cd and do an upgrade?
+2010-09-06T05:48:00.000Z	zcat[1]	Karth	you could give debian a shot, it has a much longer releace cycle and I think a smoother upgrade path..
+2010-09-06T05:53:00.000Z	zcat[1]	Karth	many ways. You could use the live CD to resize your main partition without doing a full install, make a filesystem in the new partition, move everything but /home over, then fix up /etc/fstab and grub to match the new layout. I've done similar in the past..
+2010-09-06T05:54:00.000Z	zcat[1]	Karth	might be easier to use something like puppy or insert for your live CD, they'll have less overhead than ubuntu and still provide mostly the same tools

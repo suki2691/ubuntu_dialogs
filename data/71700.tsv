@@ -1,0 +1,4 @@
+2009-05-03T18:19:00.000Z	Houba1986		hey, i have a problem, everytime i connect my laptop to an external monitor, or projector, or tv, the mirror screens doesn't work and it always messes something up. first it changed my visual resolution in xorg.conf to 2304 800, then i changed it back to 2048 768, now i lost my resolution 1280x800, which was my default resolution before. this happened before and i had manually added it into the xrandr, but can't remember how to do it, can someone please t
+2009-05-03T18:21:00.000Z	Houba1986		does anyone know how to manually add the resolution 1280x800 to xrandr using the terminal???
+2009-05-03T18:22:00.000Z	Uuu	Houba1986	type 'xrandr' to see resolutions, then 'xrandr -s <num>x<num>'
+2009-05-03T18:29:00.000Z	Uuu	Houba1986	if you have closed NVidia dirvers, there is nvidia-settings (a GUI tool) which can be used to set resolutions and save 'em

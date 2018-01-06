@@ -1,0 +1,4 @@
+2011-12-05T19:03:00.000Z	gwb		HI -- in 11.10, grub 1, in /boot/grub/menu.lst, are the kopt= parameters cumulative?  That is, if I have kopt=foo and kopt_3_0_0=bar, will update-grub build options "foo bar" for 3.0.0 kernels?
+2011-12-05T19:04:00.000Z	ThinkT510	gwb	why are you using grub1 on 11.10?
+2011-12-05T19:05:00.000Z	gwb	ThinkT510	I've got a system continually in use for more than 5 years that has been kept up-to-date with Ubuntu's releases
+2011-12-05T19:07:00.000Z	ThinkT510	gwb	cool, glad to see the upgrade process works for you

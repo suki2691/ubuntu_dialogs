@@ -1,0 +1,4 @@
+2007-04-29T05:43:00.000Z	Sergo		hello, why i cannot do 2 aptitude install at same time?
+2007-04-29T05:44:00.000Z	variant	Sergo	because apt is carefull about package collisions
+2007-04-29T05:44:00.000Z	variant	Sergo	it's a restriction to avoid such things as conf files being edited at the same time
+2007-04-29T05:45:00.000Z	variant	Sergo	unlike gentoo's emerge, which has intellegent collision detection allowing you to install as much at the same time as you like :)

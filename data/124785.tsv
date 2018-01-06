@@ -1,0 +1,4 @@
+2010-06-09T10:44:00.000Z	Coded1		how do i find out each file contained in a particular package?  i installed libtorrent-dev and am looking for the headder file but cant find it in /usr/src/include if i can query the pkg then i might be able to track it down
+2010-06-09T10:44:00.000Z	nanotube	Coded1	dpkg -L packagename
+2010-06-09T10:46:00.000Z	Coded1	nanotube	thanks worked like a charm
+2010-06-09T10:46:00.000Z	nanotube	Coded1	np :)

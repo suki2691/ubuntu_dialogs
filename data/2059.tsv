@@ -1,0 +1,4 @@
+2012-07-10T06:04:00.000Z	lubuntuHDD		hello -- I suspect errors on my computer's HDD (which cannot boot). Can I just run "fsck /dev/sda" from my live cd? or is there a better thing?
+2012-07-10T06:06:00.000Z	JokesOnYou77	lubuntuHDD	you could always try and boot from a tool like Spinrite but if you're familiar with the command line tools I'd say that you're better off using the live CD
+2012-07-10T06:07:00.000Z	lubuntuHDD	JokesOnYou77	I can use the commandline tools -- I've just never tried to run fsck on a whole disk before
+2012-07-10T06:09:00.000Z	JokesOnYou77	lubuntuHDD	Me neither.  I usually pop in a liveCD with a GUI and run palimpsest to run a few diagnostics to confirm any theories I have before doing anything else.  I suspect that running fsck on the whole disk would definitely be an overnight task though

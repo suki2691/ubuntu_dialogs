@@ -1,0 +1,4 @@
+2012-05-30T22:37:00.000Z	arooni-mobile		i'm running ubuntu 12.04 on my laptop.  i want a command to run at 6AM, but if my laptop is asleep cron can't run it.  how can i make sure this command is run as soon as laptop is active and not sleeping etc?
+2012-05-30T22:38:00.000Z	xclusive585	arooni-mobile	if you know your way around command line look into cron
+2012-05-30T22:38:00.000Z	arooni-mobile	xclusive585	i am running cron now; but i dont believe cron will run if the time passes
+2012-05-30T22:39:00.000Z	xclusive585	arooni-mobile	there are explicit options that start with "@" like @reboot etc.

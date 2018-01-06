@@ -1,0 +1,4 @@
+2011-01-11T14:16:00.000Z	alaing		Hi I'm trying to install my dlink dwa-140 wireless usb. I' following this tutorial  http://ubuntuforums.org/showthread.php?t=1016108. I've downloaded the latest RAlink drivers and am stuck on point 10. make && make install. when i run that command I get the following errors http://pastebin.com/GLm7UZjm
+2011-01-11T14:17:00.000Z	ejv	alaing	missing build-essentials
+2011-01-11T14:20:00.000Z	ejv	alaing	i belive so, give it a whirl...
+2011-01-11T14:21:00.000Z	ejv	alaing	build-essential i belive is a big meta-package for gcc, g++, libc, dpkg-dev, etc.

@@ -1,0 +1,4 @@
+2008-01-03T13:32:00.000Z	dman		if im using 7.04 can i use 7.10 in my apt sources and just upgrade some packages?
+2008-01-03T13:33:00.000Z	nickrud	dman	not recommended or easy to limit to 'just a few'
+2009-01-09T00:50:00.000Z	nickrud	dman	you're trying to purge mysql and it's data files as well?
+2009-01-09T00:50:00.000Z	nickrud	dman	sudo apt-get remove --purge mysql-server-5.0

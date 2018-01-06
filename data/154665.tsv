@@ -1,0 +1,4 @@
+2008-08-26T11:46:00.000Z	The-Compiler		What does "chroot: cannot run command `/bin/bash': Exec format error" mean if I want to chroot into a mac-system?
+2008-08-26T11:47:00.000Z	ikonia	The-Compiler	it means it can't execute /bin/bash (probably because /bin/bash isn't on a mac system) so it's not emptied the chroot
+2008-08-26T11:48:00.000Z	ikonia	The-Compiler	launch the shell the mac uses
+2008-08-26T11:48:00.000Z	The-Compiler	ikonia	kriebel: There is a /media/mac/bin/bash and a -/bin/zsh

@@ -1,0 +1,4 @@
+2009-12-25T15:45:00.000Z	tolpico		 I have installed some emerald themes, but when I apply them in emerald manger, they don't apply. I have even restarted the desktop environment and restarted. Is there anything else I am supposed to do to apply them?
+2009-12-25T15:45:00.000Z	zer_x252	tolpico	try pressing Alt+F2 and typing emerald --replace
+2009-12-25T15:47:00.000Z	tolpico	zer_x252	no no effect, still the same
+2009-12-25T15:49:00.000Z	zer_x252	tolpico	try sudo apt-get install fusion-icon, and then run fusion-icon from applications->System, it will add an icon to your gnome-panel, right-click on it and click Reload Window Manager

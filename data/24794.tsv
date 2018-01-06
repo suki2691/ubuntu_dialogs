@@ -1,0 +1,4 @@
+2010-10-12T01:20:00.000Z	CajunLANMan		Hello all.  I installed 10.10 RC on several computers at different locations.  As of yesterday (launch day) my updates are not working. I have the error if anyone care's to take a look.
+2010-10-12T01:21:00.000Z	rxs	CajunLANMan	what error ? pastebin?
+2010-10-12T01:22:00.000Z	CajunLANMan	rxs	W: A error occurred during the signature verification. The repository is not updated and the previous index files will be used. GPG error: http://extras.ubuntu.com maverick Release: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 16126D3A3E5C1192
+2010-10-12T01:25:00.000Z	rxs	CajunLANMan	its the ubuntu extra repos and its seems to be down ... thats okay and you are missing the public key .. https://bugs.launchpad.net/ubuntu/+source/ubiquity/+bug/645110

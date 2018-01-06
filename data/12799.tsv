@@ -1,0 +1,4 @@
+2011-07-23T15:12:00.000Z	venol		hello, I have little problem with mailgraph, I have mail server Postfix 2.7 on ubuntu 10.04 with amavisd-new, spamassassin, and clamav to filter bad email. I Start my server for 3 hours and make some email to send to another domain, and then I'm use mailgraph to monitoring my postfix server. But for 3 hours, Why I see graph on mailgraph for last week is more than last day? sent Item for last day I see is 193 message, But for last week is 218...
+2011-07-23T15:13:00.000Z	lv_	venol	maybe reading the graph wrong. check the output of /var/log/maillog or such deriviate
+2011-07-23T15:13:00.000Z	venol		lv_:Thanks for your reply.
+2011-07-23T15:14:00.000Z	venol	lv_	I make sure installation is correct, But I don't know how mailgraph works. Maybe do you know ? thanks for  your advance

@@ -1,0 +1,4 @@
+2011-06-22T06:24:00.000Z	chaddy	devral	did you try aptitude remove --purge screen? will get shot of any (bad) config files
+2011-06-22T06:26:00.000Z	devral	chaddy	doing so asks if i wish to remove the ubuntu-desktop package :|
+2011-06-22T06:26:00.000Z	chaddy	devral	you probably don't ;)
+2011-06-22T06:31:00.000Z	devral	chaddy	i did an apt-get install --reinstall ubuntu-desktop and byobu (the --purge said those 2 were broken), but now it shows ubuntu-desktop: Depends: screen but it is not installable

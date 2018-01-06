@@ -1,0 +1,4 @@
+2005-07-15T05:25:00.000Z	jpoe		does anyone know, should an SMP kernel be used to take advantage of a dual core processor such as an Athlon X2?
+2005-07-15T05:26:00.000Z	nalioth	jpoe	yes, if there is one for it
+2005-07-15T05:29:00.000Z	jpoe	nalioth	 So would linux-image-k7-smp be a good choice for an Athlon64 4400 X2?
+2005-07-15T05:31:00.000Z	nalioth	jpoe	no, because those are for pre amd64 processors

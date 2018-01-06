@@ -1,0 +1,4 @@
+2006-08-08T10:57:00.000Z	TGM		I'm trying to install fonts via sudo nautilus- I've come in here and asked for directions, I go to the fonts:/// directory and try pasteing them in there however they never copy into the folder. The only other way i know how to do this is one at a time and I would rather avoid that slower option, is there something else I can do to install several fonts at once?
+2006-08-08T10:57:00.000Z	nalioth	TGM	don't sudo nautilus
+2006-08-08T10:57:00.000Z	nalioth	TGM	you'll mess your permissions all up
+2006-08-08T11:02:00.000Z	nalioth	TGM	you can hit the alt-f2 keys and enter "gksudo nautilus" in the field, or you can do that from a terminal

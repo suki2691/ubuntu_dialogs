@@ -1,0 +1,4 @@
+2012-05-30T17:30:00.000Z	kvarley		Is there a way to clone an SD Card with dd but in a way that the output of the device is half the size of the actual card? For example my SD card is 512 MB but the content on there only actually fills 128MB, is there a way to clone the partitions but with a smaller cylinder size?
+2012-05-30T17:32:00.000Z	Darael	kvarley	Is there any reason a simple copy of the files on it wouldn't serve your purposes?
+2012-05-30T17:33:00.000Z	kvarley	Darael	Yes - I'm making an image which is going to be written to a card to be booted on an ARM device
+2012-05-30T17:33:00.000Z	Darael	kvarley	I see.  You're probably best off doing as Dr_Willis suggests, then.

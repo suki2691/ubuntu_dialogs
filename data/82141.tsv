@@ -1,0 +1,4 @@
+2008-08-16T11:24:00.000Z	DarkMage2303		I love how quickly Ubuntu restarts
+2008-08-16T11:25:00.000Z	DarkMage2303		Damn, is there anyone someone could give me help via a remote assistance, to get my USB external hard drive working?
+2008-08-16T11:26:00.000Z	Dr_Willi1	DarkMage2303	 you have tried to mount the thing manually? 'sudo fdisk -l' does show the device?
+2008-08-16T11:30:00.000Z	Dr_Willi1	DarkMage2303	 so you make a directiroy with 'sudo mkdir /media/USBDRIVE' and try 'sudo mount /dev/DEVICENAME /media/USBDRIVE' or similer commands?

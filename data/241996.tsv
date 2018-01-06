@@ -1,0 +1,4 @@
+2008-02-05T11:08:00.000Z	boyhppy		since i installed ubuntu on an external hard drive and if I don't have the external hard drive isn't plugged into the pc, grub booter won't work and then i can't boot from my XP operating system (my other operating system)
+2008-02-05T11:08:00.000Z	boyhppy		when you install ubuntu, it installs GRUB on your bios
+2008-02-05T11:10:00.000Z	boyhppy		but when i take my external hard drive out, it shows the grub and it says error so i can't boot for my other OS
+2008-02-05T11:10:00.000Z	astro76	boyhppy	right because grub is in the MBR of your internal hard drive, but the config file is in /boot on the external drive

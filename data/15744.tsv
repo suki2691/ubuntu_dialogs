@@ -1,0 +1,4 @@
+2011-08-18T22:06:00.000Z	anonissimus		I am trying to create a 5TB volume but it only returns failed to add partition
+2011-08-18T22:07:00.000Z	wildbat	anonissimus	are you using MBR? what fs are you trying to use?
+2011-08-18T22:08:00.000Z	anonissimus	wildbat	using the gui, trying to use ext4
+2011-08-18T22:16:00.000Z	wildbat	anonissimus	that's ehy i asked ~ you are useing MBR ~ MBR style partition table don't support partition> 2TiB

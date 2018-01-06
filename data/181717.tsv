@@ -1,0 +1,4 @@
+2006-06-06T16:18:00.000Z	montbazin		I have  machines connecte to a router, how can I see the IP address of each of the other computers connected to the router
+2006-06-06T16:18:00.000Z	montbazin		is there any shell command ?
+2006-06-06T16:19:00.000Z	joebake1	montbazin	 ifconfig eth0 192.168.15.1 netmask 255.255.255.0   This might do the trick.
+2006-06-06T16:20:00.000Z	montbazin	joebake1	ifconfig only shows the IP of the machine where you are, but not the other connecte to the router

@@ -1,0 +1,4 @@
+2008-06-05T01:05:00.000Z	evil_tech		can someone please tell me how to remove the nvidia driver from the command line. it broke my gui and i have no other computer to look it up on google
+2008-06-05T01:06:00.000Z	evil_tech		through the icon on the taskbar
+2008-06-05T01:07:00.000Z	evil_tech		told me to reboot i rebooted and now i have no visible screen on tty7
+2008-06-05T01:07:00.000Z	ruben	evil_tech	just type sudp dpkg-reconfigure xorg.conf , after that you may want to check your xorg.conf file and if it still doesnt work, try "vesa" as a drive instead of nv

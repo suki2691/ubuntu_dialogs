@@ -1,0 +1,4 @@
+2010-04-26T01:21:00.000Z	xixor		Yo, is there a quick way to determine the type of GPU installed and how much video memory is installed?
+2010-04-26T01:21:00.000Z	ZykoticK9	xixor	"lspci | grep -i vga" for the video card type - memory is more difficult
+2010-04-26T01:22:00.000Z	xixor	ZykoticK9	I think glxinfo or glinfo will say the amount of video memory, but I can't figure out which packages to install
+2010-04-26T01:23:00.000Z	ZykoticK9	xixor	i don't believe either does actually.  nvidia-settings shows you for nvidia based cards

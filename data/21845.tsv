@@ -1,0 +1,4 @@
+2011-01-04T02:04:00.000Z	campbellgolf		Ubuntu Server SSH question: How can I set up SSH / SFTP for different users and lock them into a specific directory tree?
+2011-01-04T02:06:00.000Z	dajhorn	campbellgolf	Look at the ChrootDirectory option in the sshd_config man page.
+2011-01-04T02:06:00.000Z	campbellgolf	dajhorn	roger that
+2011-01-04T02:34:00.000Z	campbellgolf	dajhorn	 that was helpful, it lead me to this which is exactly what I was looking for.  http://wiki.lapipaplena.org/index.php/How_to_mount_SFTP_accesses

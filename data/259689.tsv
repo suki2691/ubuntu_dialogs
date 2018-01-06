@@ -1,0 +1,4 @@
+2005-08-04T05:36:00.000Z	spola		is a there an easy 4 seconds fix to get ubuntu to perform a certain command, as root, before gdm starts?
+2005-08-04T05:37:00.000Z	spola		echo "et.x86 0 0 direct" > /proc/asound/card0/pcm0p/oss
+2005-08-04T05:37:00.000Z	spola		(to play enemy territory ;)
+2005-08-04T05:37:00.000Z	thoreauputic	spola	it depends - look at update-rc.d or /etc/init.d/bootmisc.sh

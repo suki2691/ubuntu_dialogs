@@ -1,0 +1,4 @@
+2010-06-10T15:52:00.000Z	SmokeyD		hey everyone, I have a gpg encrypted text file. Is there any tool that I can use to decrypt the text file into memory, edit it, and save it again encrypted. I could use gpg to decrypt it into plain text, edit that and then encrypt it again, but I am wondering if there is a way to do that on the fly
+2010-06-10T15:53:00.000Z	RiotingPacifist	SmokeyD	you could extract it to a ramdisk (like /dev/shm, i think), but there may be a tool to do what you want anyway
+2010-06-10T15:54:00.000Z	SmokeyD	RiotingPacifist	that is actually a good idea, but I just found a gnupg plugin for vi that lets me transparently edit gpg encrypted files
+2010-06-10T15:57:00.000Z	RiotingPacifist	SmokeyD	on small loads, i've never noticed it and when i'm using a lot of swap my computer was slow anyway, so IMHO there is no noticable difference

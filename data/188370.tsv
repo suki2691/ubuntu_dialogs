@@ -1,0 +1,4 @@
+2006-10-29T11:39:00.000Z	devios		DOH!  i just upgraded from dapper to edgy by changing all the "dapper" to "edgy" in sources.list and apt-get dist-upgrade and now X wont start... using irssi.  easiest way to fix x from command line?  is there some way to auto-configure x?
+2006-10-29T11:41:00.000Z	devios		DOH!  i just upgraded from dapper to edgy by changing all the "dapper" to "edgy" in sources.list and apt-get dist-upgrade and now X wont start... using irssi.  easiest way to fix x from command line?  is there some way to auto-configure x?
+2006-10-29T11:42:00.000Z	mc44	devios	: sudo dpkg-reconfigure xserver-xorg
+2006-10-29T11:42:00.000Z	devios	mc44	ty!

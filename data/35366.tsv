@@ -1,0 +1,4 @@
+2010-03-30T04:59:00.000Z	flyingtabmow		does anyone know why loading xmodmap files from a startup program might not work?  i have a script set to run as a startup program, which contains the line "xmodmap ~/.remotekbmap", and i'm expecting it to load the modmap file "~/.remotekbmap", but it doesn't seem to be working
+2010-03-30T04:59:00.000Z	gottto	flyingtabmow	is the script executable?
+2010-03-30T05:01:00.000Z	gottto	flyingtabmow	try running the script in terminal to look for errors
+2010-03-30T05:03:00.000Z	gottto	flyingtabmow	next thing to check is the path to the file in autostarted apps

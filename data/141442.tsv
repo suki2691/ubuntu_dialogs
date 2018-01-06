@@ -1,0 +1,4 @@
+2007-05-04T09:10:00.000Z	NewG		Ubuntu installation didn't set up Grub options correctly. For example it refers to hda, when all the installation of linux went to another HD. HELP!?
+2007-05-04T09:11:00.000Z	SlimeyPete	NewG	use the editor which is built in to the grub menu. Change the option "boot" to another value (format is hd(drive, partition) - you may need to do this via trial and error.
+2007-05-04T09:12:00.000Z	SlimeyPete	NewG	once you're in to the system, update your /boot/grub/menu.lst with the new values and run grub-install, telling it to install to your boot drive.
+2007-05-04T09:13:00.000Z	SlimeyPete	NewG	I don't think so, but I'm not an expert. It might be able to - try typing "help" and playing around with the commands it lists.

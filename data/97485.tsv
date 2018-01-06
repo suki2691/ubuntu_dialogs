@@ -1,0 +1,4 @@
+2008-03-14T03:18:00.000Z	amenado		pardusman-> you have not clarified if you were having a problem after having that config or not..so what is the issue?
+2008-03-14T03:19:00.000Z	pardusman	amenado	I am trying to configure Proftpd on Ubuntu Linux in SSH. I have been researching all evening on getting the filing permissions right but its getting a bit complex.  Basically I need to set the correct permissions in /etc/proftpd/proftpd.conf.. and what I want is to block all access to all folders except a folder called /var/www with all the contents withing www being unblocked ?
+2008-03-14T03:19:00.000Z	pardusman	amenado	http://paste.ubuntu-nl.org/59542
+2008-03-14T03:20:00.000Z	pardusman	amenado	I am using a VPS and the FTP is to upload files to the /var/www/ directory. My current setup is below, note that this could be completly wrong or messed:

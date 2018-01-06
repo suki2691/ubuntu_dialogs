@@ -1,0 +1,4 @@
+2012-07-19T07:07:00.000Z	SecretFire		and now I get sudo: no valid sudoers sources found, quitting
+2012-07-19T07:09:00.000Z	SecretFire		I am having an error saying /etc/sudoers is owned by 1000 should be 0, now I can't use the sudo command in anything. I tried to change the ownership of my root directory to my username
+2012-07-19T07:10:00.000Z	SecretFire		what can I do to fix it?
+2012-07-19T07:11:00.000Z	Jordan_U	SecretFire	It sounds like you've changed the owner of every file in your system. If so, you really should just re-install Ubuntu.

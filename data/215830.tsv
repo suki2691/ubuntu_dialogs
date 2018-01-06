@@ -1,0 +1,4 @@
+2006-03-28T10:27:00.000Z	kahuna_		Hi. How can I get a list of installed packages from the command line?
+2006-03-28T10:27:00.000Z	soundray	kahuna_	dpkg -l
+2006-03-28T10:29:00.000Z	soundray	kahuna_	if you only want the names, try dpkg -l | tr -s " " | cut -d " " -f 2
+2006-03-28T10:29:00.000Z	kahuna_	soundray	just what I was looking for,

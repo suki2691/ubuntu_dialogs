@@ -1,0 +1,4 @@
+2010-02-11T17:05:00.000Z	karpus		hi, deluge have been runing perfectly for several days but when I started my computer just now it won't start! I added --log-level=debug and deluge stops on "ipcinterface:127 Deluge is already running! Sending arguments to running instance" but it isn't running (can't find it in the system monitor)
+2010-02-11T17:07:00.000Z	joebodo	karpus	you can try ps -ef | grep deluge          --- or killall deluge
+2010-02-11T17:08:00.000Z	karpus	joebodo	I got several "/usr/bin/python /usr/bin/deluge-gtk" running, but killall doesn't work ("no process found" when I tried killall deluge and killall deluge-gtk)
+2010-02-11T17:09:00.000Z	joebodo	karpus	maybe killall -9 deluge-gtk

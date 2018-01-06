@@ -1,0 +1,4 @@
+2012-03-14T12:22:00.000Z	cookie1980	AdvoWork	Whatt shell do you use for root and what shell for the user?
+2012-03-14T12:28:00.000Z	AdvoWork	cookie1980	just set their shell to Bash, I can now ssh in, but I still cant do connect to server via ssh?
+2012-03-14T12:40:00.000Z	AdvoWork	cookie1980	i can't connect via telnet, but I can ssh in as that user fine, under that port 8082. I just can't do it via the Connect to server method. It ranges from please verify your details to permission denied. Root works fine,  username and pass are correct :S
+2012-03-14T12:44:00.000Z	cookie1980	AdvoWork	can you try to 'chown -R <username> /home/<username>'

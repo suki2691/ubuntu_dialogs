@@ -1,0 +1,4 @@
+2009-02-11T01:11:00.000Z	Waelwulf		I know this is a question for #ubuntustudio but no one's really there. Does anyone know why networkmanager isn't installed by default on both the 8.10 and 9.04 Alpha 4 versions? Is it because the alternate install CD doesn't detect network hardware and so skips its install?
+2009-02-11T01:12:00.000Z	rdw200169	Waelwulf	you're gonna have better luck trying #ubuntu+1 for that
+2009-02-23T03:18:00.000Z	rdw200169	Waelwulf	gnome-network-admin is the package
+2009-02-23T03:22:00.000Z	rdw200169	Waelwulf	here's where the file is that explains how to use wpasupplicant w/ /etc/network/interfaces: /usr/share/doc/wpasupplicant/README.modes.gz

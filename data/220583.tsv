@@ -1,0 +1,4 @@
+2006-08-25T12:52:00.000Z	imping		I'm trying to use the Ubuntu live CD on my new Toshiba R25. I get the following error message when booting up: "Failed to start the X server (your graphical interface)." Can anyone help?
+2006-08-25T12:54:00.000Z	dannym	imping	sounds like your graphics adapter is unsupported? What does "lspci" say your graphics adapter is?
+2006-08-25T12:57:00.000Z	dannym	imping	hmm, "http://www.ubuntuforums.org/showthread.php?p=1381554" says it "should" work
+2006-08-25T12:58:00.000Z	dannym	imping	I fear you'll need to do try some stuff on the text console, if that works...

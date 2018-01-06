@@ -1,0 +1,4 @@
+2006-04-16T16:10:00.000Z	sebastianmares		Hey guys, I recently downloaded the Flight 4, 5 and 6 CDs and all of them failed to start X.org. Any idea why? I have an ATI Radeon 9600 AGP card that works fine with 5.10.
+2006-04-16T16:11:00.000Z	sebastianmares		Yes, that's what I did in first place and same problem: after the upgrade finished, I couldn't boot in graphic mode.
+2006-04-16T16:12:00.000Z	ompaul	sebastianmares	file a bug with errors from startx
+2006-04-16T16:13:00.000Z	ompaul	sebastianmares	you should try >> sudo dpkg-reconfigure xserver-xorg << and choose VESA as the card type and leave the rest of the stuff the same

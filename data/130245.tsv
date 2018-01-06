@@ -1,0 +1,4 @@
+2007-07-05T08:27:00.000Z	josh__		im trying to setup openssh-server so I can ssh into my linux box from vista with putty. I installed openssh-server but cant seem to figure out how to configure it, can anyone help me?
+2007-07-05T08:28:00.000Z	mongolai	josh__	do you see ssh or port 22 listed as listening if you netstat -tap
+2007-07-05T08:30:00.000Z	mongolai	josh__	are you trying to connect on a LAN, or from the WAN side?
+2007-07-05T08:32:00.000Z	mongolai	josh__	you need to make sure to use the proper IP address which can be found by ifconfig

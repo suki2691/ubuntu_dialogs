@@ -1,0 +1,4 @@
+2011-01-03T17:11:00.000Z	jorge__		hi, i'm trying to make a debian package out of a source package but i'm facing some trouble... I've used dh_make to generate the debian but that doesn't seem to be enough... when the building reachs the make install, it tries to install the files to /usr directly instead of the directory it's supossed to isntall to (debian/building-something?), some help? where should i start checking?
+2011-01-03T17:11:00.000Z	iceroot	jorge__	edit the file debian/dirs  so the rules-file is creating the directories before installing something into them
+2011-01-03T17:14:00.000Z	jorge__	iceroot	thanks, i'm reading about debian/dirs file now =)
+2011-01-03T17:16:00.000Z	jorge__	iceroot	i've added the directory to debian/dirs but it's the same, the makefile tries to "install" the files to /usr/include/wfdb instead of the package building directory, the contents of the debian/dirs file is just usr/include/wfdb

@@ -1,0 +1,4 @@
+2008-08-12T05:35:00.000Z	usser	ubuntu	/boot swap /home / and C:
+2009-05-08T05:18:00.000Z	usser	ubuntu	there's mount it as ext4dev
+2009-05-08T05:19:00.000Z	usser	ubuntu	that will also require marking your partition as 'for testing purposes only'
+2009-05-08T05:19:00.000Z	usser	ubuntu	sudo tune2fs -E test_fs /dev/whateverdriveparition

@@ -1,0 +1,4 @@
+2012-02-19T08:22:00.000Z	Tyrope		I'd use the file manager, but it doesn't display hidden files.
+2012-02-19T08:23:00.000Z	WoC	Tyrope	Maybe something like; find . -type d --depth 1 -exec mv {} .. \;
+2012-02-19T08:24:00.000Z	Tyrope	WoC	find: unknown predicate '--depth'
+2012-02-19T08:25:00.000Z	WoC	Tyrope	my bad, maxdepth :)

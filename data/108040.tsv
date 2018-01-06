@@ -1,0 +1,4 @@
+2008-01-04T07:33:00.000Z	ubuntu-mx		HI everyone !! I have some trouble with a wireless card a rtl8185, i have comipiled the drivers r8180 (patched por injention), and are acitve but, I can't rise the interface wlan0, some one can help me ?? :)
+2008-01-04T07:34:00.000Z	truna	ubuntu-mx	you can try ifdown wlan0; ifup wlan0  if it doesnt, go to the nm gui and activate there?
+2008-01-04T07:37:00.000Z	truna	ubuntu-mx	umm try /etc/init.d/networking restart
+2008-01-04T07:42:00.000Z	truna	ubuntu-mx	no wonder it does not come up

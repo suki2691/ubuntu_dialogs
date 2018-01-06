@@ -1,0 +1,4 @@
+2005-07-01T16:22:00.000Z	loply		ive just compiled a custom kernel for my ubuntu box and the kernel is unable to mount the root fs- Do i need to include an initrd or something? (the root fs is just ext3...)
+2005-07-01T16:24:00.000Z	njan	loply	did you compile file system drivers for your filing system into the kernel?
+2005-07-01T16:24:00.000Z	njan	loply	s/your filing system/your root filing system/
+2005-07-01T16:24:00.000Z	loply	njan	Yeah, ext3... Does the inclusion of an initrd in the included Ubuntu kernels influence the partition number?

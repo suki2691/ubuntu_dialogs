@@ -1,0 +1,4 @@
+2008-04-21T00:39:00.000Z	fimp		hi. I am trying to install Ubuntu 7.10 on my sisters laptop. But when trying to resize the ntfs-partition with gparted it only allows me to make the partition 8mb bigger. I cannot make it smaller. Do you know why this is?
+2008-04-21T00:40:00.000Z	KOJV	fimp	try doing a full SPACE defrag with O&O Defrag or the like, in Windows, to ensure that no data is spread beyond the needed space on the drive. This should allow you to shrink the NTFS partition later.
+2008-04-21T00:41:00.000Z	fimp	KOJV	cannot I use the defrag tool that comes with windows?
+2008-04-21T00:43:00.000Z	KOJV	fimp	 you can try with Windows Defrag, but that's not as effiencent as a full SPACE defrag. The latter will put all used blocks in a row at the beginning of the drive, so to free up sequential space at the end, in opposition of just defragging all files.

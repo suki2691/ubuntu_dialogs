@@ -1,0 +1,4 @@
+2012-08-03T13:15:00.000Z	cihhan		Hi all! I have a question. Im running Ubuntu Server without any GUI and I have VMs running (with GUI) with private IP. I want to vnc to the VMs from remote machine and use them with GUI. How can I do that?
+2012-08-03T13:17:00.000Z	MonkeyDust	cihhan	 i use vbox too - make sure the virtual machines are in the same network as your physical machines - use bridged instead of NAT to that end
+2012-08-03T13:18:00.000Z	cihhan	MonkeyDust	The problem is the host doesnt have GUI
+2012-08-14T01:18:00.000Z	MonkeyDust	cihhan	 i havent followed, but sometimes it's easier to start over (reinstall), rather than try to repair things

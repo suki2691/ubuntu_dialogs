@@ -1,0 +1,4 @@
+2010-10-23T00:54:00.000Z	alkemann		ok i may have done something terribly stupid. my php install wasnt working, so I did "sudo apt-get remove php*" it seems to a have remove a lot more
+2010-10-23T00:55:00.000Z	mattt-netbook	alkemann	as in it removed non-php* packages?
+2010-10-23T00:55:00.000Z	alkemann	mattt-netbook	openoffice, pidgin, all sorts of stuff in the list
+2010-10-23T00:59:00.000Z	mattt-netbook	alkemann	i think you should have a log of what was removed in /var/log/dpkg.log, btw.

@@ -1,0 +1,4 @@
+2006-03-20T10:00:00.000Z	ezu		i have tried a lot of different ways to mount a shamba share that is mounted on boot through fstab, i need it to mount as user and group root but to follow the read write privs on the directory.. i have tried umask=000, rw, and a lot of different ways of setting it up
+2006-03-20T10:01:00.000Z	Dr_Willis	ezu	 the privilages on the 'directory' dont matter.   for samba - you need to set some other options, could try 'smb4k' and see what all options its using to mount the share.
+2006-03-20T10:01:00.000Z	Dr_Willis	ezu	 plus the samba server could be forceing it to be mounted read only.
+2006-03-20T10:02:00.000Z	ezu	Dr_Willis	okay..

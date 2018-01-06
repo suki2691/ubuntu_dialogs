@@ -1,0 +1,4 @@
+2009-01-08T23:55:00.000Z	_dark__		for some reason my eth0 has changed to eth2, i've only got one network card. Anybody know a way to change it back?
+2009-01-08T23:56:00.000Z	sarmisak	_dark__	change it in /etc/udev/rules.d/70-persistent-net.rules
+2009-01-08T23:56:00.000Z	sarmisak	_dark__	and you should reboot perhaps.
+2009-01-08T23:56:00.000Z	sarmisak	_dark__	don't forget to check /etc/network/interfaces file, auto eth2 should match what you wrote in udev

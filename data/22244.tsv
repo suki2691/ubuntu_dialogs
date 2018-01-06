@@ -1,0 +1,4 @@
+2010-12-13T23:41:00.000Z	kreuter		hi #ubuntu.  is there a way to for a package to prevent 'apt-get upgrade' from restarting a service when the package gets upgraded? (I've got users who want to minimize downtime, and want the restart to be something they do manually, but can't figure out how to do that for them.)
+2010-12-13T23:42:00.000Z	micols	kreuter	I don't think there is such a thing, but you can put the package on hold to manually upgrade it when you want
+2010-12-14T00:03:00.000Z	kreuter	micols	how do you put a package on hold?
+2010-12-14T00:40:00.000Z	kreuter	micols	yeah, got it.

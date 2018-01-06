@@ -1,0 +1,4 @@
+2006-07-18T11:31:00.000Z	bicho		hello, i have any problem, when i turn on the computer, the dns settings is blank, then i put then again and work, but if i restart the machine i loss them. What happen?
+2006-07-18T11:32:00.000Z	MarcN	bicho	dhcp is probably replacing them.  Are you using DHCP to get an ip/dns/etc
+2006-07-18T11:33:00.000Z	bicho	MarcN	my ip is static
+2006-07-18T11:34:00.000Z	MarcN	bicho	make sure that /etc/network/interfaces does not show dhcp for your ethX device.

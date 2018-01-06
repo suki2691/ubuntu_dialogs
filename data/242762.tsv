@@ -1,0 +1,4 @@
+2009-02-24T03:23:00.000Z	diesel		I installed adobe reader from the adobe site and I can see that it is installed using 'dpkg -l | grep adobe' which returns adobereader-enu.  I thought that I could then do dpkg -e adobereader-enu OR apt-get remove adobereader-enu, but I get 'failed to read archive 'adobereader-enu': no such file or directory'.  What am I missing?
+2009-02-24T03:25:00.000Z	sammy	diesel	dpkg is meant to refer to a specific .deb file, is that the same error you get from apt-get remove adobereader-enu?
+2009-02-24T03:26:00.000Z	sammy	diesel	I was confusing gentoo emerge flags with dpkg flags earlier :P it happens.
+2009-02-24T03:28:00.000Z	diesel	sammy	well, thanks for the quick response

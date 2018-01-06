@@ -1,0 +1,4 @@
+2012-05-31T16:53:00.000Z	Captain_Proton		anyone know how to fix this : Starting amavisd: Error in config file "/etc/amavis/conf.d/05-domain_id": Insecure directory in $ENV{PATH} while running with -T switch at /etc/amavis/conf.d/05-domain_id line 7.
+2012-05-31T16:54:00.000Z	ikonia	Captain_Proton	look at what's referencved in line 7 then work out why it thinks it's insecure
+2012-05-31T16:55:00.000Z	Captain_Proton	ikonia	/etc/mailname is what it points to and that is set to -rw-r--r--
+2012-05-31T16:55:00.000Z	ikonia	Captain_Proton	ok ?

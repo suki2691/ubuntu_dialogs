@@ -1,0 +1,4 @@
+2009-12-20T17:43:00.000Z	Zelest		How can I install "virtualbox-ose" without apt-get magically trying to install "virtualbox-ose-qt" ?
+2009-12-20T17:44:00.000Z	grawity	Zelest	Try apt-get install virtualbox-ose --no-install-recommends
+2009-12-20T17:44:00.000Z	Zelest		ah, thanks
+2009-12-20T17:46:00.000Z	Zelest	grawity	that worked.. shame the kernel module refuse to load though. :(

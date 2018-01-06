@@ -1,0 +1,4 @@
+2012-08-20T01:02:00.000Z	ClientAlive		Hi. I'm at a loss to understand why something is happening on my system. I started with ubuntu server 12.04, installed lxde on it then decided I would rather have gnome. I installed gnome but it comes with a bunch of extra apps I don't want (stuff like evince and empathy, etc, etc). When I do a sudo apt-get remove for any one of those extra packages it want's to remove gnome and gnome shell as well - leaving the system broken. Is there no
+2012-08-20T01:02:00.000Z	ClientAlive		way to simply get a full gnome 3 on my ubuntu without all the extra suff?
+2012-08-20T01:04:00.000Z	ClientAlive		edit: first I removed lxde (I think I got it all) then I installed gnome
+2012-08-20T01:04:00.000Z	W4sp	ClientAlive	That's probably caused because it has the user status that want's to tell empathy if you're online. :-(

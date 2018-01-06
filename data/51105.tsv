@@ -1,0 +1,4 @@
+2009-08-04T14:18:00.000Z	apexhouse_		morning all - quick question, I have ubuntu server set up as a DHCP server. Is there any way to STOP other computers seeing eachother, so they can only see the internet?
+2009-08-04T14:19:00.000Z	richardcavell	apexhouse_	iptables
+2009-08-04T14:19:00.000Z	apexhouse_	richardcavell	: thanks! (any pointers re a tutorial anywhere?)
+2009-08-04T14:21:00.000Z	richardcavell	apexhouse_	yeah, look up man iptables and google it.  You just want to route all packets from one computer through the 'DHCP server' to the Net

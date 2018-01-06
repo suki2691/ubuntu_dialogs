@@ -1,0 +1,4 @@
+2008-10-17T11:59:00.000Z	drgonzo00000		After I installed the mad wifi drivers for my Atheros AR5007EG in the new 2.6.24-21-generic kernel, I can't boot into the new kernel because I get a kernel panic when loading my wireless drivers. How can I fix this problem?
+2008-10-17T12:01:00.000Z	Gnea	drgonzo00000	is it giving any information on why it's panicing?
+2008-10-17T12:04:00.000Z	Gnea	drgonzo00000	it may or may not be in /var/log/dmesg.0
+2008-10-17T12:04:00.000Z	Gnea	drgonzo00000	you could always blacklist the driver temporarily

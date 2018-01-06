@@ -1,0 +1,4 @@
+2009-04-25T00:24:00.000Z	maximumbob		Did anyone else's upgrade kill flash in firefox?
+2009-04-25T00:25:00.000Z	slayton	maximumbob	yes, sudo apt-get remove --purge flashplugin-nonfree then download the latest flash from adobe
+2009-04-25T00:25:00.000Z	maximumbob	slayton	Thanks I'll try the purge... last time I downloaded from adobe though it failed, "Wrong architecture: i386". I'm on amd64.
+2009-04-25T00:28:00.000Z	maximumbob	slayton	Where should I put the .so? In /usr/share/mozilla/plugins? In /usr/lib/firefox/plugins? Perhaps ~/.mozilla/plugins?

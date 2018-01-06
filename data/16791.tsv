@@ -1,0 +1,4 @@
+2011-03-17T16:31:00.000Z	wakawaka_		hi all, im using vsftpd, a user can login and create a file fine, but the created file is drwx------, any idea why / how to change the default permissions?
+2011-03-17T16:32:00.000Z	jrib	wakawaka_	search http://vsftpd.beasts.org/vsftpd_conf.html for "umask"
+2011-03-17T16:39:00.000Z	jrib	wakawaka_	I told you to search for umask on the page I linked.  Then you have to read about all the options that involve umask
+2011-03-17T16:40:00.000Z	wakawaka_	jrib	shoot, sorry if i missed something - will re-read

@@ -1,0 +1,4 @@
+2009-05-14T18:20:00.000Z	cannonball		Hi everybody, this pertains to 9.04.  My home directory is an nfs mount and it's defined in fstab.  When booting up, it doesn't mount any of the nfs mounts (more than just /home).  When I login (to a text terminal), I see it starting portmap and mounting the nfs mounts.
+2009-05-14T18:22:00.000Z	cannonball		as long as I login in text mode first, everything is alright, but if I login on the gui first, it doesn't do things in order (that I can tell), and the /home (and other nfs mounts) never get loaded.  Is this something common?  Easy to fix?
+2009-05-14T18:22:00.000Z	cannonball		I'm used to the RH style where all of the nfs mounts are done during boot init scripts, rather than on demand.
+2009-05-14T18:23:00.000Z	usser	cannonball	thats an odd behaviour, nfs mounts should be mounted before login

@@ -1,0 +1,4 @@
+2007-07-02T10:55:00.000Z	llllllll		So if I haven't specified a directory, wget is putting the package straight in the 'root' of the filesystem?
+2007-07-02T10:55:00.000Z	pike_	llllllll	it will place it in the directory it was launched from i think
+2007-07-02T13:31:00.000Z	pike_	llllllll	alas, no
+2007-07-02T13:43:00.000Z	pike_	llllllll	i dunno but maybe you could dpkg -b directory packagename.deb where directory is the where you ran make then you could install and remove it. i havent used debian packaging much

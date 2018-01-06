@@ -1,0 +1,4 @@
+2009-09-27T09:34:00.000Z	Aalinux		sudo fdisk -l , sudo: fdisk: command not found , but sudo /sbin/fdisk -l works, Why? What to do?
+2009-09-27T09:34:00.000Z	n8tuser	Aalinux	-> thats because the command fdisk is not in the $PATH,  use the full path and it will work
+2009-09-27T09:35:00.000Z	Aalinux	n8tuser	Any way to avoid using /sbin, i want to use only sudo fdisk -l
+2009-09-27T09:36:00.000Z	n8tuser	Aalinux	-> dangerous,  try to use the full path to ensure you are running the correct command and not some trojaned command sitting in your home dir

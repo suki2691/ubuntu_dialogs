@@ -1,0 +1,4 @@
+2008-07-02T00:11:00.000Z	grahamperrin		I'm trying to install Ubuntu on a Toshiba Portege - external CD drive. Boot from CD, opt to install, find myself at a command prompt (BusyBox, ash). Is this a known problem?
+2008-07-02T00:12:00.000Z	Jack_Sparrow	grahamperrin	Been there dont that and failed miserably
+2008-07-02T00:12:00.000Z	Jack_Sparrow	grahamperrin	To get live cd to run this often helps..At start or install press F6 and remove Quiet and Splash from the command line. If it still fails.. Repeat and after removing quiet and splash add noapic acpi=off before the "--"
+2008-07-02T00:13:00.000Z	grahamperrin	Jack_Sparrow	thanks I tried removing quiet and splash that's where I'm at now

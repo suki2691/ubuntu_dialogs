@@ -1,0 +1,4 @@
+2009-03-03T22:53:00.000Z	Hydrant2		anyone know how to get a source code package for ubuntu, and have it extracted with patches applied?
+2009-03-03T22:53:00.000Z	LjL	Hydrant2	"apt-get source packagename" will get it... it won't apply the patches AFAIK, that'll only happen when you tell it to build - there might be a separate command to perform that step but it escapes me
+2009-03-03T22:54:00.000Z	LjL	Hydrant2	to apply patches *AND* build, yes there is, it's "apt-get --build source packagename"
+2009-03-03T22:54:00.000Z	LjL	Hydrant2	to apply patches and *NOT* build, i don't know

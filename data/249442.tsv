@@ -1,0 +1,4 @@
+2011-03-22T19:17:00.000Z	mutewit		Ok, just did a dis-upgrade to 10.04 and now everytime I restart/shutdown I get a "unmount of /dev/nbd0 failed" with a 10-second timeout.
+2011-03-22T19:18:00.000Z	mutewit		*dist-upgrade
+2011-03-22T19:18:00.000Z	terry	mutewit	So what is /dev/nbd0 ? Is it in fstab?  Or...?
+2011-03-22T19:19:00.000Z	terry	mutewit	First, let me ask you this:  Did you do apt-get upgrade   first? (Or in other words, did you fist make sure the old system was fully updated?)

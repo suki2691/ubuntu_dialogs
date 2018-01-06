@@ -1,0 +1,4 @@
+2006-03-31T15:11:00.000Z	BenderNZ		hi2u, I've written a patch for php5, and I want to merge it into the sources from apt-get source, which I've done and compiled. However when I compile it apt wants to keep overwriting it via apt-get upgrade. How can I append my own version to the end of this? like say 5.0.5-bender
+2006-03-31T15:12:00.000Z	crimsun	BenderNZ	use 5.0.5-2ubuntu1.2bender1
+2006-03-31T15:12:00.000Z	BenderNZ	crimsun	yes, but how do I append that version ?
+2006-03-31T15:12:00.000Z	crimsun	BenderNZ	edit debian/changelog

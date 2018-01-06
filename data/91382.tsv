@@ -1,0 +1,4 @@
+2008-05-10T23:40:00.000Z	Nostahl		what do i add to fstab  if i want to get this effect sudo mount /dev/sda2 /media/C
+2008-05-10T23:41:00.000Z	Virtue	Nostahl	mount /dev/sda2 filesystem /media/C default 0 2 (2 - means boot order)
+2008-05-10T23:42:00.000Z	Virtue	Nostahl	mount /dev/sda2 /media/C default filesystem 0 2 (2 - means boot order)
+2008-05-10T23:43:00.000Z	Virtue	Nostahl	mount /dev/sda2 /media/C filesystem default 0 2 (2 - means boot order) da

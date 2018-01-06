@@ -1,0 +1,4 @@
+2009-11-02T10:12:00.000Z	agus		help me how to get deb file after installing using apt-get install ?
+2009-11-02T10:12:00.000Z	Blue1	agus	dpkg -i <nameofdebfile>
+2010-08-30T06:43:00.000Z	Blue1	agus	upgrade NOT recommended
+2010-08-30T06:44:00.000Z	Blue1	agus	do:  if grep -q ' lm ' /proc/cpuinfo; then echo "is 64 bits"; else "No luck  :("; fi

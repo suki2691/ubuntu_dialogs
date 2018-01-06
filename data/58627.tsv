@@ -1,0 +1,4 @@
+2009-05-02T00:14:00.000Z	TX-Dan		Anyone? Quick SSH question. I created an account and the user can log on. But he can head up the tree and see files outside his home directory. How can I jail him?
+2009-05-02T00:15:00.000Z	w3ccv	TX-Dan	 the user has the permissions same as if on the terminal.
+2009-05-02T00:15:00.000Z	TX-Dan	w3ccv	hmm I guess I just don't understand how to restrict them well enough
+2009-05-02T00:18:00.000Z	w3ccv	TX-Dan	 if they run in a restricted shell (rsh ?) they are only in their home tree. Been a long time since I set up one like that. so I don't remember the details.

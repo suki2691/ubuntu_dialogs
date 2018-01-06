@@ -1,0 +1,4 @@
+2008-10-19T19:56:00.000Z	jckoster-edwards		how do i  install an external hard drive in ubuntu when it's not recognised on the system?
+2008-10-19T19:57:00.000Z	scunizi	jckoster-edwards	if it's new, unpartitioned and unformatted .. do that first then it should be recognized.
+2008-10-19T19:58:00.000Z	scunizi	jckoster-edwards	try a different port in your computer to plug it in.
+2008-10-19T20:01:00.000Z	scunizi	jckoster-edwards	I'm poking in the dark here but you might look for it using "sudo fdisk -l".. that will give you a list of current partitions and drives and their mount points.. if you see it there but not mounted you'll have to manually mount it.

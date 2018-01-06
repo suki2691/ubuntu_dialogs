@@ -1,0 +1,4 @@
+2008-07-19T13:52:00.000Z	Phase		I've got a program that needs `mcs`, which I'm guessing to be something related to Mono (as it says to run with "mono <blah>", but apt-get install mono doesn't give me anything.
+2008-07-19T13:52:00.000Z	orphean	Phase	apt-get install mono-gmcs
+2008-07-19T13:53:00.000Z	orphean	Phase	well wait. if it wants 'mcs' then mono-mcs
+2008-07-19T13:53:00.000Z	orphean	Phase	aptitude search <pkg> works well for this kind of crap

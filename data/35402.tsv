@@ -1,0 +1,4 @@
+2010-03-25T01:02:00.000Z	angel_linuxfreak		I am trying to create a launcher for a python program but I can't figure it out. Here is the command I am using in the launcher. "/home/angel/.config/pystromo/pystromo-remap.py -m default.map" Can someone tell me what I am doing wrong?
+2010-03-25T01:02:00.000Z	harisund	angel_linuxfreak	if I am not much mistaken, you might want to call /usr/bin/python ahead of it since it's a .py script
+2010-03-25T01:03:00.000Z	angel_linuxfreak	harisund	I will try that really quick. Thanks
+2010-03-25T01:05:00.000Z	angel_linuxfreak	harisund	I changed the command to this: "/usr/bin/python /home/angel/.config/pystromo/pystromo-remap.py -m default.map" but it still isn't working

@@ -1,0 +1,4 @@
+2007-04-25T08:02:00.000Z	weswh-work		earlier i had a drive that was formatted with NTFS, and i was able to mount it and have my user access it using "mount -o umask=0222 /dev/hdb1 /media/hdb", since then, I used qtparted to repartition the drive with ext3, and format it. now using the same mount command, it says wrong fs type, bad option, or bad superblock
+2007-04-25T08:02:00.000Z	weswh-work		anyone know what might be wrong? or how I could try mounting it a different way? when i simply do "mount /dev/hdb1 /media/hdb" it works fine - i just can't access it with my user
+2007-04-25T08:03:00.000Z	RobbieCrash	weswh-work	what kind of fs is on the drive?
+2007-04-25T08:04:00.000Z	RobbieCrash	weswh-work	is it from a different Linux install?

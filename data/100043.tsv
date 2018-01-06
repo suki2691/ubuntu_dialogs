@@ -1,0 +1,4 @@
+2008-02-17T17:01:00.000Z	dataloss		Yesterday I shrunk my partitions using Gparted (shrunk NTFS (Vista), grew ext3), and everything went almost well. Windows wouldn't work anyore as it kept booting into the EISA partition instead but I didn't let that bother me since Ubuntu was workin fine. Today the ext3 filesystem went into read-only mode, and when I rebooted, it did a fsck and then told me to do it manually. I went into the LiveCD and did sudo fsck -y /dev/sda3 and it said
+2008-02-17T17:01:00.000Z	dataloss		*** ext3 journal has been deleted - filesystem is now ext2 only ***. How do I mount this? I need to recover a few things before I format and start over
+2008-02-17T17:02:00.000Z	trekdanne	dataloss	try to mount it as ext2
+2008-02-17T17:02:00.000Z	dataloss	trekdanne	How?

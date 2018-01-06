@@ -1,0 +1,4 @@
+2010-06-14T18:42:00.000Z	Ta3v		is ubuntu capable of resizing a NTFS partition?
+2010-06-14T18:43:00.000Z	Ta3v		I keep trying to resize a partion on /dev/sdb with GParted, I even ran the program from the console using sudo, but the resize option remains grayed out
+2010-06-14T18:44:00.000Z	scunizi	Ta3v	if it's mounted, unmount it.. gparted will do that in the menus I think
+2010-06-14T18:51:00.000Z	scunizi	Ta3v	partitionmanager is the kde version of gparted

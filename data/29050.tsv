@@ -1,0 +1,4 @@
+2012-11-26T19:00:00.000Z	nishttal2		hello ppl.. this morning i found that one of the servers had the file system as read only.. how can that change without a reboot?
+2012-11-26T19:01:00.000Z	nishttal2		its running Ubuntu 12.04 LTS
+2012-11-26T19:01:00.000Z	jbwiv	nishttal2	mount -o rw /filesystem
+2012-11-26T19:01:00.000Z	nishttal2	jbwiv	gordonjcp i rebooted and its fine now.. but how can this happen?

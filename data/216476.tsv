@@ -1,0 +1,4 @@
+2010-01-23T00:50:00.000Z	outer_space		how does super-user not have permission to put a file someplace? sudo echo "" > ms_error.txt  "bash: ms_error.txt: Permission denied"
+2010-01-23T00:52:00.000Z	ardchoille	outer_space	echo blah  sudo tee -a file
+2010-01-23T00:52:00.000Z	ardchoille	outer_space	echo blah | sudo tee -a file
+2010-01-23T00:53:00.000Z	ardchoille	outer_space	so it would be: echo "" | sudo tee -a ms_error.txt

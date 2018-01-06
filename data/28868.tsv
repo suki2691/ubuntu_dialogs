@@ -1,0 +1,4 @@
+2011-11-27T12:05:00.000Z	tensorpudding		you can edit the Makefile to remove -Werror but you should report a bug on the nginx bugtracker
+2011-11-27T12:06:00.000Z	tensorpudding		don't actually build gcc with -Werror disabled, that is a terrible idea
+2011-11-27T12:06:00.000Z	phix	tensorpudding	that is a great idea, warnings are fine
+2011-11-27T12:07:00.000Z	tensorpudding	phix	if the writers of the software put -Werror in their Makefile, it was because they want to maintain a reasonably clean and compliant codebase, and disabling -Werror on your GCC is not only a huge time sink, but subverts their intention

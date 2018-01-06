@@ -1,0 +1,4 @@
+2012-08-10T09:21:00.000Z	Element85		hey guys, I am trying to figure something out I need to stop a module from loading when connecting a USB device
+2012-08-10T09:23:00.000Z	Element85		if anyone has a good way to stop the module from loading let me know trying to resolve a bug
+2012-08-10T09:23:00.000Z	Element85		its loading as part of the evdev driver
+2012-08-10T09:24:00.000Z	theadmin	Element85	Create /etc/modprobe.d/yourmodule.conf and add "blacklist yourmodule" there.

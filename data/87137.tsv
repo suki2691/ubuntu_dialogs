@@ -1,0 +1,4 @@
+2008-06-27T00:56:00.000Z	jetrost		Scenario: I have a 5gig root directory and a 35gig home directory. The root directory is essentially full ("not enough room" errors) whereas my home directory is literally empty. How hard would it be to fix this?
+2008-06-27T00:57:00.000Z	tillux	jetrost	easy, but it will probably "eat" up a day ;)
+2008-06-27T00:57:00.000Z	jetrost	theunixgeek	any suggestions on how large to make my root directory?
+2008-06-27T00:58:00.000Z	tillux	jetrost	if your root and home directory are separate partitions, you can shrink and move the home partition "to the right" via gparted and resize the root partition afterwards

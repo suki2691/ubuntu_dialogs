@@ -1,0 +1,4 @@
+2005-04-15T10:30:00.000Z	mr_mojo		i have php working in my apache config
+2005-04-15T10:30:00.000Z	mr_mojo		but i don't have mysql
+2005-04-15T10:31:00.000Z	mr_mojo		Fatal error: Call to undefined function: mysql_connect() in /var/www/test.php on line 2
+2005-04-15T10:31:00.000Z	RexM	mr_mojo	you just need to compile php with mysql support

@@ -1,0 +1,4 @@
+2006-09-04T15:32:00.000Z	marshall		how do you make apps that run under root have the same theme as normal apps?
+2006-09-04T15:33:00.000Z	nozorro	marshall	you link the them to the system theme directory
+2006-09-04T15:33:00.000Z	marshall	nozorro	how do i do that?
+2006-09-04T15:34:00.000Z	nozorro	marshall	ln -s /~.themes/themename /usr/share/themes *i think* -- lemme check

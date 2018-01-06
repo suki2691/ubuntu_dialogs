@@ -1,0 +1,4 @@
+2007-04-25T07:32:00.000Z	mice		im trying to install ubuntu on an external drive.  i dont want to install grub on the MBR but i dont know how to find out the location of the disk im installing it on.  anyone know?
+2007-04-25T07:34:00.000Z	Jordan_U	mice	"sudo fdisk -l" to list your drives
+2007-04-25T07:35:00.000Z	mice	Jordan_U	: it has it listed as /dev/sda1   but the install asks for something like hd0,1
+2007-04-25T07:36:00.000Z	Jordan_U	mice	Ahh, run "grub" and from the prompt use the "find" command I believe

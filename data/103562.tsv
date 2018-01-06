@@ -1,0 +1,4 @@
+2010-10-28T01:35:00.000Z	abehad701		i'm new to xubuntu. just installed on a toshiba portege r100. trying to change my display to 1024x768 but there is no option for anythign greater than 800x600. i've been searching the web for hours trying to find the answer and nothign seems to work. my biggest problem is that the most common solution involves editing xorg.conf, which i don't have (and i don't think is used anymore if i understand correctly). does anyone know how i can fix this? my graphics
+2010-10-28T01:35:00.000Z	abehad701		 card is a trident cyberblade xp4m32
+2010-10-28T01:36:00.000Z	ActionParsnip	abehad701	can you run:  lspci | grep -i vga    what is output?
+2010-10-28T01:41:00.000Z	ActionParsnip	abehad701	http://www.uluga.ubuntuforums.org/showthread.php?t=1329192&highlight=trident

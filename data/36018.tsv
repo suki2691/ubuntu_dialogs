@@ -1,0 +1,4 @@
+2010-03-09T20:39:00.000Z	m2cm2c		hi guys, I was wondering if there is a way to replace all numbers in a text file to 0 "zero" using bash :)
+2010-03-09T20:40:00.000Z	Sh3r1ff	m2cm2c	use sed on the file
+2010-03-09T20:41:00.000Z	Sh3r1ff	m2cm2c	sed -e 's/[0-9]/0/g' /path/to/file
+2010-03-09T20:41:00.000Z	m2cm2c	Sh3r1ff	much appreciated

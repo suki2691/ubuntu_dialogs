@@ -1,0 +1,4 @@
+2010-05-30T00:06:00.000Z	ch3mtail		If removing symlinks for several services from /etc/rc* makes no difference, what am I missing?
+2010-05-30T00:07:00.000Z	ch3mtail		I've tried to stop samba, ssh, etc. from starting at boot, but they're popping up just like before even though I purged all /etc/rc* directories of the respective symlinks.  It makes no sense.
+2010-05-30T00:07:00.000Z	Inazad	ch3mtail	modprobe ssh ?
+2010-05-30T00:09:00.000Z	ch3mtail	Inazad	eh?  Load a kernel module called ssh, how does that relate to service init scripts?

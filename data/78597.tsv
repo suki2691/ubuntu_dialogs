@@ -1,0 +1,4 @@
+2010-09-27T06:43:00.000Z	dorkface		Hi all.  When running the "df" command, it should list  available swap partitions, correct?  However, when I do "swapon -s", it lists something that isn't shown in the df output.
+2010-09-27T06:44:00.000Z	indrora	dorkface	it shouldn't show swap.
+2010-09-27T06:44:00.000Z	indrora	dorkface	Swap isn't a disk.
+2010-09-27T06:44:00.000Z	indrora	dorkface	try 'free'

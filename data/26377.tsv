@@ -1,0 +1,4 @@
+2010-10-03T03:39:00.000Z	incognito_		I installe VLC but when I try to navigate to my dvd in my dvd rom ubunto cannot see it. How do I mount the dvd player?
+2010-10-03T03:40:00.000Z	erUSUL	incognito_	for dvd you need to enable madibuntu repo and install libdccs2
+2010-10-03T03:44:00.000Z	incognito_	erUSUL	can you just give me the command to mount the DVD player? is  the dvd player going to be sdb sdc or what?
+2010-10-03T03:45:00.000Z	erUSUL	incognito_	/dev/sr0 usually « sudo mount -t auto /dev/sr0 /mount/point/ »

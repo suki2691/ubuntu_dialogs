@@ -1,0 +1,4 @@
+2011-09-28T00:53:00.000Z	Jimsome		hey! does anyone know if theres any inbuilt feature in ubuntu to only keeps a user account enabled for 7days,30days, 365days etc... before locking it
+2011-09-28T00:54:00.000Z	notklaatu	Jimsome	i believe useradd is the program you are looking for.
+2011-09-28T00:55:00.000Z	Jimsome	qin	wouldent crontab turn off at a specific time of year instead of after a set number of days?
+2011-09-28T00:55:00.000Z	notklaatu	Jimsome	useradd -e $EXPIRE_DATE -m -s $NAME_OF_USER

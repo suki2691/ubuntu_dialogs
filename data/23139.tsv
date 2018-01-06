@@ -1,0 +1,4 @@
+2010-11-05T05:26:00.000Z	zaery		I have a server, running desktop Ubu 10.10, it's running a shell script in a terminal window on the monitor connected to the box itself. Is there any way to stop the script using ssh?
+2010-11-05T05:28:00.000Z	dougb_freebsd	zaery	yes, if the system is running sshd, and you have login credentials
+2010-11-05T05:54:00.000Z	dougb_freebsd	zaery	do ps ax
+2010-11-05T05:56:00.000Z	zaery	dougb_freebsd	thank you very much, it worked :)

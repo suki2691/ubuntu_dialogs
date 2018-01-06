@@ -1,0 +1,4 @@
+2005-07-12T12:58:00.000Z	BeatYOu		how do i fnid the pid of httpd (apache2) so i can close it
+2005-07-12T12:58:00.000Z	BeatYOu		.
+2005-07-12T12:58:00.000Z	BeatYOu		/etc/init.d/apache2 stop does not work
+2005-07-12T12:58:00.000Z	Razor-X	BeatYOu	ps -e | grep httpd

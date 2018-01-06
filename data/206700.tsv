@@ -1,0 +1,4 @@
+2006-08-31T07:06:00.000Z	rambo		I have my windows partition on a raid-0 array controlled by an nvidia adapter that linux doesn't have a driver for. Is it possible to mount said Windows partition by setting up a software raid in linux to read the partition?
+2006-08-31T07:07:00.000Z	rambo		thats a level 10 difficulty linux question, btw :)
+2006-08-31T07:07:00.000Z	sethk	rambo	the answer is no
+2006-08-31T07:08:00.000Z	sethk	rambo	you can't mix software and hardware raid, and software raid doesn't substitute for a missing hardware raid driver, unfortunately.  be nice if it did.

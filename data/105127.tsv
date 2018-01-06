@@ -1,0 +1,4 @@
+2012-02-08T07:59:00.000Z	Roge152		Does anyone know why/how ubuntu would throttle an internet connection to 100kbps
+2012-02-08T08:00:00.000Z	Roge152		On the same machine, windows and other linux distros give me my full speed, but for some reason in ubuntu, both live CD and full install throttles my connection.
+2012-02-08T08:01:00.000Z	ActionParsnip	Roge152	disable ipv6 with the boot option: ipv6.disabl=1   if you don't use it, also try adding this: http://dl.dropbox.com/u/8850924/sysctl  to /etc/sysctl.conf
+2012-02-08T08:01:00.000Z	ActionParsnip	Roge152	run:  sudo sysctl -p   to apply

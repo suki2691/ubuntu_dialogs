@@ -1,0 +1,4 @@
+2009-11-14T07:05:00.000Z	sam_		does anyone have a bash script that I could run to install a list of packages?
+2009-11-14T07:05:00.000Z	wm_eddie	sam_	apt-get install pkga pkgb pkgc?
+2009-11-14T07:09:00.000Z	wm_eddie	sam_	have you tried apt-get install `cat packages.txt`?
+2009-11-14T07:09:00.000Z	wm_eddie	sam_	It might work, I don't know if command line arguments care about newlines.

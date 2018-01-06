@@ -1,0 +1,4 @@
+2010-06-28T02:10:00.000Z	wad		Hi folks. I'm replacing my debian-based server with an Ubuntu 10.04 32-bit server edition. The machine has two NICs in it, one of which needs to use PPPOE to talk with the DSL modem. Should I use pppoeconf or something else? (This box has no network until I get pppoe running.)
+2010-06-28T02:11:00.000Z	brontoeee	wad	and they would work over samba?
+2010-06-28T02:11:00.000Z	wad	brontoeee	sure do.
+2010-06-28T02:12:00.000Z	wad	brontoeee	samba asks the OS for the directories, and the OS understands symbolic links. QED.

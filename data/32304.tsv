@@ -1,0 +1,4 @@
+2010-05-08T01:59:00.000Z	cn1109		How I can pass the ssh-user password using ssh-plugin?
+2010-05-08T02:00:00.000Z	Cwos	cn1109	you can use sshpass
+2010-05-08T02:01:00.000Z	cn1109	Cwos	Just tried that right now. It did not work. I'm using mysql-zrm to backup remote databases. Upon creating raw backups it's asking for the ssh user password
+2010-05-08T02:03:00.000Z	Cwos	cn1109	don't know about mysql, but sshpass should do the trick when connecting through ssh

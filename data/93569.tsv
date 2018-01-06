@@ -1,0 +1,4 @@
+2008-07-04T09:52:00.000Z	Sylphid		can someone tell me how i can initiate X11 forwarding in the reverse direction ... ie starting the X client localy and send it to the remote Xserver
+2008-07-04T09:54:00.000Z	Utalcn2me	Sylphid	i would like to learn howto do that too.  i think you have to open a display value different from your servers,  like display 0:1
+2008-07-04T09:56:00.000Z	Sylphid	Utalcn2me	I know you can start an Xclient on the remote server via ssh and send it to the local Xserver using the -Y option but i dont know how to initiate it from the remote end
+2008-07-04T09:58:00.000Z	Utalcn2me	Sylphid	yea, i would like to be able to use a thin client to log into and run programs on my main server through xorg, that would be cool

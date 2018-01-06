@@ -1,0 +1,4 @@
+2008-03-16T16:35:00.000Z	wookienz		when you specify a type option during a mount command... are you specifying how you would like to mount it or the type of filesystem you ARE mounting...
+2008-03-16T16:37:00.000Z	wookienz		im trying to umount a share but it says that the deivce is busy...any thoughts on how i can force it to unmount or find out why it is busy?
+2008-03-16T16:37:00.000Z	Dr_willis	wookienz	  I think 'lsof /dev/DEVICE' will show some info.
+2008-03-16T16:38:00.000Z	Dr_willis	wookienz	 but if its a samba share, you may have a program thats just accessed it then crashed. or somthing.

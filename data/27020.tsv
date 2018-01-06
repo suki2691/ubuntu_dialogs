@@ -1,0 +1,4 @@
+2010-08-29T03:54:00.000Z	frxstrem		is there a program I can use in command line to ignore data from STDIN until it reaches a double newline, and then pass the rest through STDOUT to another program?
+2010-08-29T03:55:00.000Z	frxstrem		the reason for this is that I need to remove the headers from a HTTP response from netcat
+2010-08-29T03:57:00.000Z	^james_foo^	frxstrem	you could use 'awk' with an invocation i won't work out at the moment
+2010-08-29T03:57:00.000Z	frxstrem	^james_foo^	well, I figured I could use `wget` instead of netcat for HTTP requests :S stupid me

@@ -1,0 +1,4 @@
+2011-10-16T17:48:00.000Z	zromayn		hya: I'm trying to resize my ubuntu 11.10 server buffer size window. Right now, it is set with the default, which, I believe it is 80x25. Where do I go to modify this? I found something in the ubuntu community, but it looks like that article is outdated
+2011-10-16T17:49:00.000Z	lunitik	zromayn	you can edit resolution in grub's boot line...
+2011-10-16T17:50:00.000Z	zromayn	lunitik	thx for the tip. btw, how to I get to grub's boot line?
+2011-10-16T17:51:00.000Z	lunitik	zromayn	sudo gedit /boot/grub/grub.cfg

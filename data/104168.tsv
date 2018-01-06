@@ -1,0 +1,4 @@
+2011-10-01T19:59:00.000Z	Scott_T		Good morning, folks!  Anyone want to help me with a COMBIZ problem on an HP DV6 laptop?
+2011-10-01T20:00:00.000Z	Scott_T		Compiz
+2011-10-01T20:02:00.000Z	Scott_T		I'm running 11.04.  Using Compiz under Unity on an HP DV6.  Changed to the cube setting, and completely lost the desktop in Unity.  The only thing I have is the wallpaper.
+2011-10-01T20:03:00.000Z	ActionParsnip	Scott_T	try:   gconftool-2 --recursive-unset /apps/compiz; compiz --replace

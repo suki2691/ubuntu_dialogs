@@ -1,0 +1,4 @@
+2009-05-23T09:56:00.000Z	Nirrad		Hello, using Jaunty, 64. Can not get NVIDIA settings to remain after reboot. I did the "sudo nvidia-settings" applied, and saved . But when I reboot it is back to the default setting? any ideas? Thank you in advance.
+2009-05-23T09:57:00.000Z	chichihchen	Nirrad	make a copy of /etc/X11/xorg.conf and then use nvidia-settings to save it again but do not choose "merge with current xorg.conf" option
+2009-05-23T09:59:00.000Z	Nirrad	chichihchen	Ok thank you  I will try that. So make a copy and leave it in same folder?
+2009-05-23T10:00:00.000Z	chichihchen	Nirrad	make a copy just in case.  then overwrite xorg.conf without merging settings..

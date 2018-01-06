@@ -1,0 +1,4 @@
+2008-11-16T19:26:00.000Z	Guest5396		anyone else having trouble with creating a bridged network in intrepid?
+2008-11-16T19:27:00.000Z	Guest5396		if a create interface bro0 for virtualbox it works for few minutes then my interfaces on the host change from etho to ifupdown0
+2008-11-16T19:29:00.000Z	Guest5396		also when that happens the host can't connect to the net but the guest os can
+2008-11-16T19:30:00.000Z	ilaiho	Guest5396	There should be not eth0 on the host os

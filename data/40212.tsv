@@ -1,0 +1,4 @@
+2011-05-13T05:40:00.000Z	teage		Hello, to download a deb file without installing would be sudo apt-get -d (package) , right? I tried that and just says invalid operation. How do i use apt-get to download without install?
+2011-05-13T05:41:00.000Z	szal	teage	you forgot to tell apt-get what to do
+2011-05-13T05:42:00.000Z	teage	szal	what do you mean? the -d means download only
+2011-05-13T05:43:00.000Z	szal	teage	apt-get takes a command as 1st option

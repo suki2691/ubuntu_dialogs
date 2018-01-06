@@ -1,0 +1,4 @@
+2010-05-17T23:42:00.000Z	thedeeno		Where can I set my PATH so that both my shell and X recognize it?
+2010-05-17T23:42:00.000Z	thedeeno		.bashrc doesn't seem to do the trick
+2010-05-17T23:44:00.000Z	joebodo	thedeeno	did you log out after changing bashrc ?
+2010-05-17T23:45:00.000Z	thedeeno	joebodo	yeah. This has to do with vim. It's not reading .bashrc and doesn't care about running source ~/.bashrc. Thus my path is correctly set when running from the terminal but not x

@@ -1,0 +1,4 @@
+2010-06-04T15:17:00.000Z	nyuszika7h		I'd also like to know how I can see a screen like in PCLinuxOS, and not that ugly 640×480 boot logo.
+2010-06-04T15:19:00.000Z	well_laid_lawn	nyuszika7h	in /boot/grub/grub.cfg add    vga=791   to the end of the kernel line
+2010-06-04T15:21:00.000Z	nyuszika7h	well_laid_lawn	To end of which line?
+2010-06-04T15:22:00.000Z	well_laid_lawn	nyuszika7h	the line that names the kernel

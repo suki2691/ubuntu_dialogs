@@ -1,0 +1,4 @@
+2006-03-07T12:24:00.000Z	pingu		Ok, new approach: Does anyone here have any bright ideas on how I would go about getting a 2.6.15 kernel onto a hoary install CD?
+2006-03-07T12:26:00.000Z	pingu		Used to build the kernel?
+2006-03-07T12:26:00.000Z	pingu		The no doubt patched beyond recognition "ubuntu" kernel sources?
+2006-03-07T12:27:00.000Z	jetscreamer	pingu	maybe you want apt-get install linux-headers-`uname -r`

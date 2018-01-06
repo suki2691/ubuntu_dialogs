@@ -1,0 +1,4 @@
+2012-11-06T22:18:00.000Z	zivester		has anyone ever seen a cursor appear but the login prompt never appear? like the mouse moves but nothing is going on... Ctrl+F1-6 allow me to switch to other ttys fine, but where is the login?
+2012-11-06T22:18:00.000Z	zivester		and by cursor, I mean the arrow
+2012-11-06T22:18:00.000Z	dr_willis	zivester	 if the login manager hung, that would look somthing like that.
+2012-11-06T22:19:00.000Z	dr_willis	zivester	 try 'sudo service lightdm stop' then 'startx' at the conosle

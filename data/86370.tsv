@@ -1,0 +1,4 @@
+2008-12-01T02:40:00.000Z	elexodus		Need some help figuring out what device to mount for a new SATA I just put in. Could it be "sg0"?
+2008-12-01T02:41:00.000Z	dr_willis	elexodus	  try 'sudo fdisk -l' and see what looks promising  - ive never seen a sg0
+2008-12-01T02:43:00.000Z	elexodus	dr_willis	OK, I am running a Dell server, and I have 4 SATA's set in RAID array. fdisk only pulls up the 4 SATAs. I just installed a 5th SATA to be used outside of the array.
+2008-12-01T02:44:00.000Z	dr_willis	elexodus	 no idea then on raids..   could be somthign special you have to do.

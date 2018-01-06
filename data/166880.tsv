@@ -1,0 +1,4 @@
+2008-06-18T18:24:00.000Z	jhall		I am fairly new to linux, and whenever I try to boot up, I get the following error message:"kernel panic - not syncing: IO-APIC + timer doesn't work! Boot with apic=debug and send a report."  can anyone help?
+2008-06-18T18:24:00.000Z	Baughn	jhall	What sort of machine are you running it on?
+2008-06-18T18:25:00.000Z	Baughn	jhall	apic=debug will just give you more details on the brokenness. noapic might work
+2008-06-18T18:25:00.000Z	Baughn	jhall	But the thing is, it's doing this because your hardware is broken

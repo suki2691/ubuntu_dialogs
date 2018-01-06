@@ -1,0 +1,4 @@
+2011-06-29T05:46:00.000Z	mu3en	cpgo	if it's a fat32 partition, it cannot actually have permissions, you have to set those when you mount the drive, it is documented with examples in the ubuntu community documentation.
+2011-06-29T05:46:00.000Z	cpgo	mu3en	ntfs
+2011-06-29T05:46:00.000Z	cpgo	mu3en	I mounted via /dev/sda2 /media/windows ntfs-3g defaults 0 2
+2011-06-29T05:48:00.000Z	mu3en	cpgo	i don't know for ntfs so it would be dangerous for me to say. i assume that you need some kind of gid uid in that command (but i think that's in the community docs too)

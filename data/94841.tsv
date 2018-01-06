@@ -1,0 +1,4 @@
+2008-04-12T10:32:00.000Z	hurrrtin		hi guys :) I am trying to sudo apt-get install vmware-server in gutsy 64-bit, and I get this error: http://pastebin.com/m6a388b7
+2008-04-12T10:33:00.000Z	stdin	hurrrtin	you'd have to remove the lib32rsvg2-common package to install the vmware-server package
+2008-04-12T10:34:00.000Z	stdin	hurrrtin	using --force* with dpkg may not be a good idea, as any upgrade to vmware-server or lib32rsvg2-common will produce the same error again
+2008-04-12T10:35:00.000Z	hurrrtin	stdin	remove --purge 'ing that lib worked.

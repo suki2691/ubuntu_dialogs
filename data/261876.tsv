@@ -1,0 +1,4 @@
+2006-09-25T14:59:00.000Z	adam		hi, my friend needs help setting up an internet connection with the DWL-G520 wlan card, on the networkcard wiki page it says "DAPPER: Nearly works out-of-the-box, but had to add "wireless-rate 11M" to /etc/network/interfaces + reboot or two." i asked my cousin what to do since i didnt understand what it says,  he says to put in "sudo echo wireless-rate 11M >> /etc/network/interfaces" in the command line, my friend did this but he does not get
+2006-09-25T14:59:00.000Z	adam		permission and it doesnt ask for a root password? any ideas? please my friend needs help. =D
+2006-09-25T14:59:00.000Z	Seveas	adam	echo "wireless-rate 11M" | sudo tee -a /etc/network/interfaces
+2006-09-25T15:00:00.000Z	Seveas	adam	sudo and output redirection don't combine well

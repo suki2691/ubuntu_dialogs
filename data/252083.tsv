@@ -1,0 +1,4 @@
+2007-05-08T11:43:00.000Z	telejedi		how can i best backup my system - feisty ???
+2007-05-08T11:44:00.000Z	eyequeue	telejedi	"best" is opinion, but i'm a huge fan of "ubiquity" for remote backups ... you might accomplish *your* needs with a dvd burning app though, you know?
+2007-05-08T11:46:00.000Z	eyequeue	telejedi	ubiquity uses ssh to transmit a gpg-encrypted set of files to a remote server, the only thing that you need to have on the remote and is a ssh-accessible account, if that's what you want to use
+2007-05-08T11:47:00.000Z	eyequeue	telejedi	oh and yes, rsync is sweet (ubiquity uses the rsync protocol for the actual transfers btw)

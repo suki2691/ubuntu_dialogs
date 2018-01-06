@@ -1,0 +1,4 @@
+2009-03-30T06:40:00.000Z	buzzsaw		good afternoon
+2009-03-30T06:41:00.000Z	buzzsaw		i just installed ubuntu server and tried to use subversion (not installed) so i did sudo apt-get install subversion      it says cant find package :-s
+2009-03-30T06:42:00.000Z	Flannel	buzzsaw	Do `sudo apt-get update` first
+2009-03-30T06:43:00.000Z	Flannel	buzzsaw	You need to do it periodically to update your cache (for new versions, etc).  But its extremely important when you first install, because your machine doesn't know about anything in the repos.

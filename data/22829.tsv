@@ -1,0 +1,4 @@
+2011-06-21T23:18:00.000Z	tinhead		I cannot find grub's menu.lst in Nutty Narwhal: need to modify kernel command line. Any pointers how I can set the kernel command line in Nutty?
+2011-06-21T23:20:00.000Z	trism	tinhead	you can add items to the kernel command line in /etc/default/grub GRUB_CMDLINE_LINUX_DEFAULT, and then running sudo update-grub; natty uses grub2 which has no menu.lst
+2011-06-21T23:20:00.000Z	trism		!grub2 | tinhead for more info:
+2011-06-21T23:21:00.000Z	tinhead	trism	Thanks.

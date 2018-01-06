@@ -1,0 +1,4 @@
+2009-11-23T08:54:00.000Z	ericdb		Anyone know of a way to search .pdf and .djvu files from the command line?  Evince does text search while viewing, but the man page doesn't say anything about doing it from the command line.
+2009-11-23T08:54:00.000Z	mezquitale	ericdb	try find . -name *.pdf
+2009-11-23T08:55:00.000Z	ericdb	mezquitale	I'm wanting to search for text inside the documents, not find the documents.
+2009-11-23T08:55:00.000Z	ericdb	mezquitale	Like grep, but for .pdf and .djvu.

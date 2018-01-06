@@ -1,0 +1,4 @@
+2012-06-20T15:46:00.000Z	user-09		guys does anyone knows how to send a pop up msg in ubuntu? just like net send in xp without install any software
+2012-06-20T15:47:00.000Z	ActionParsnip	user-09	if you can ssh to the system you can use notify-send
+2012-06-20T15:48:00.000Z	ActionParsnip	user-09	you can run: export DISPLAY=:0.0; notify-send "Title of message" "message text"
+2012-06-20T15:48:00.000Z	ActionParsnip	user-09	you can even script it to connect and run the command then disconnect :)

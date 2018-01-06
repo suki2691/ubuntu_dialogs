@@ -1,0 +1,4 @@
+2008-07-08T04:03:00.000Z	zanberdo		A co-worker of mine inadvertently overwrote the /etc/sudoers file with one that is owned by a user other than root.  Now all sudo commands reply that the file must be owned by root.  How can I change ownership if I can't sudo chmod the file?
+2008-07-08T04:03:00.000Z	Flannel	zanberdo	Reboot into the recovery console.  And teach him to be more careful
+2008-10-29T00:44:00.000Z	Flannel	zanberdo	sinan: please don't use that term pejoratively.
+2008-10-29T00:45:00.000Z	zanberdo	Flannel	actually, I was pointing out that it was being used pejroatively, thank you

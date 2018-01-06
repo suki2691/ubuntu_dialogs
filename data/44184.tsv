@@ -1,0 +1,4 @@
+2010-05-03T21:45:00.000Z	enriq		is there a tool to read/write disk sectors for a ntfs partition?
+2010-05-03T21:47:00.000Z	celestial	enriq	boot with the windows cd and get into the recovery command prompt, and then use fixmbr or fixboot (depends on version)
+2010-05-03T21:48:00.000Z	enriq	celestial	wise_crypt, erUSUL won't that ruin grub in /dev/sda?
+2010-05-03T21:49:00.000Z	celestial	enriq	of course it will ruin grub, you will need to reinstall grub

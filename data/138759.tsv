@@ -1,0 +1,4 @@
+2008-12-03T16:01:00.000Z	ndlovu		anyone know of a way to check that *all* the files in a directory are duplicated somewhere else? (trying to clean up my photo collection)
+2008-12-03T16:02:00.000Z	koshari	ndlovu	with rsync?
+2008-12-03T16:04:00.000Z	ndlovu	koshari	how would you do that with rsync?
+2008-12-03T16:08:00.000Z	koshari	ndlovu	"rsync -r --del -u /origin/dir /destination/dir --progress" would copy all newer files from the origin file into the destination file and delete any files in the destination file you have deleted in the origin file since last backup. it would also give progress and delete anyolder files in the destination with an older date

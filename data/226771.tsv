@@ -1,0 +1,4 @@
+2007-08-15T13:37:00.000Z	Ryan52		I have 2 ethernet cards and neither of them will connect. Ther're both plugged into my routers but the lights aren't on. I ran lspci and it listed both of my ethernet controllers. What can I do to fix this?
+2007-08-15T13:38:00.000Z	joakim	Ryan52	first of all, connect only one, unplug the other one if possible. if you dont get any lights what so ever on neither of them they both might be broken
+2007-08-15T13:39:00.000Z	joakim	Ryan52	so try with one at a time to see whether they actually are broken or not
+2007-08-15T13:41:00.000Z	joakim	Ryan52	you could also try at net boot and see if the link lights at the back of the card goes on. if not, then they're probably broken or bios cant find them. try to restore bios to default settings (usually hold down power button for 10 seconds when no power source is plugged in (ac adapter, battery)

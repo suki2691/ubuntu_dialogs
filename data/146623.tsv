@@ -1,0 +1,4 @@
+2010-01-05T23:42:00.000Z	b0n4tt4ck		Im having real trouble turning off x to install nvidia 190 drivers, i have tried every method I cant find in google.
+2010-01-05T23:44:00.000Z	b0n4tt4ck		i have tried recovery mode, no luck
+2010-01-05T23:46:00.000Z	BluesKaj	b0n4tt4ck	drop to a tty with ctrl+alt+f1 or f2  ,stop X  with sudo /etc/init.d/kdm stop ,if you have the repos in your sources.list , then sudo aptitude install nvidia-glx-190,then startx withsudo /etc/init.d/kdm start .
+2010-01-05T23:47:00.000Z	BluesKaj	b0n4tt4ck	substitute gdm for kdm in the command

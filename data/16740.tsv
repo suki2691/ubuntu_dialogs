@@ -1,0 +1,4 @@
+2012-02-03T23:15:00.000Z	g105b		Hi, I'd like to allow remote root login to my server - but I don't want the password exposed - can I do this with a priv/pub key?
+2012-02-03T23:15:00.000Z	ActionParsnip	g105b	why not use normal users and use sudo as usual?
+2012-02-03T23:16:00.000Z	g105b	ActionParsnip	because I'm allowing remote root for MySQL management through MySQL workbench application
+2012-02-03T23:16:00.000Z	g105b	ActionParsnip	the users won't be in the terminal - the application needs to have root privilages.

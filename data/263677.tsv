@@ -1,0 +1,4 @@
+2004-10-28T15:46:00.000Z	Dethread		when I do "nmap localhost" it tells me, that port 25 (smtp) is open. why is this, and how do I turn it off?
+2004-10-28T15:48:00.000Z	Dethread		one question though, why was this installed/activated by default when isntalling ubuntu?
+2004-10-28T15:49:00.000Z	inklingx	Dethread	or run rcconfig and disable the postfix service
+2004-10-28T15:51:00.000Z	inklingx	Dethread	postfix is enabled so you can see local mail to your root account (eg errors, output of cron jobs, ...)

@@ -1,0 +1,4 @@
+2009-10-30T13:03:00.000Z	Kartagis		I did sudo apt-get update && sudo apt-get dist-upgrade but Firefox still shows me 9.04 homepage
+2009-10-30T13:03:00.000Z	filgy	Kartagis	first off.. NEVER do a release upgrade via apt-get dist-upgrade
+2009-10-30T13:08:00.000Z	filgy	Kartagis	upgrading to a new release via apt-get dist-upgrade has a HIGH chance of breaking your system.. do not try it
+2009-10-30T13:09:00.000Z	filgy	Kartagis	you want to upgrade by doing apt-get install update-manager-core running sudo do-release-upgrade

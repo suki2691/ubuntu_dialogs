@@ -1,0 +1,4 @@
+2011-11-21T08:45:00.000Z	surjagain		can anyone help with issues after installing Radeon binary drivers? Notebook cannot boot anymore
+2011-11-21T08:46:00.000Z	ActionParsnip	surjagain	hold shift at boot and you can drop to recovery root console and do stuff there
+2011-11-21T08:47:00.000Z	surjagain	ActionParsnip	i did, what how do i uninstall the driver.. i'm not sure where it installed and whether it has an uninstallation script
+2011-11-21T08:47:00.000Z	ActionParsnip	surjagain	dpkg -l | grep -i frglx     should show the package

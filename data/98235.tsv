@@ -1,0 +1,4 @@
+2008-03-07T02:01:00.000Z	fibres		Can anyone tell me how to stop ubuntu from looking to the install cd when running apt-get?
+2008-03-07T02:02:00.000Z	Jack_Sparrow	fibres	easy.. system admin software sources and uncheck cd
+2008-03-07T02:02:00.000Z	fibres	Jack_Sparrow	im running ubuntu server with no gui.
+2008-03-07T02:03:00.000Z	Jack_Sparrow	fibres	sudo nano /ect/apt/sources.list  rem out the cd

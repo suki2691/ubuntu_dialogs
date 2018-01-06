@@ -1,0 +1,4 @@
+2009-02-25T02:37:00.000Z	ajeqwer		omg omg help I have lost ext3 partition after trying to install win 98!!
+2009-02-25T02:38:00.000Z	ajeqwer		anyone does know how to restore data from lost ext3 partition ???
+2009-02-25T02:39:00.000Z	BlueEagle	ajeqwer	fsck and look in lost+found
+2009-02-25T02:43:00.000Z	ajeqwer	BlueEagle	duelboot, duelboot. I lost /dev/sda1 main ext3 partition with ubuntu and much data.... other partition intact. I tried to install win98, but win98 failed to install... after reboot I found that I lost OS partition... Now in live mode I run gparted and /dev/sda1 has been converted to fat16 but in gparted I can see percent of used space and free space on partition but when I mount there is nothing. I tried to fix partition from gparted using check 

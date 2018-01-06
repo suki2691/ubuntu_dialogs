@@ -1,0 +1,4 @@
+2011-09-26T10:31:00.000Z	dhruvasagar		Hey is there a way for me to run a bash script without having for the commands to actually work, just to kindof test what it is supposed to do ?
+2011-09-26T10:33:00.000Z	binni	dhruvasagar	if it doesn't require root privileges then run it under a dummy user and see what happens, if it requires root privileges and changes the system then maybe you can run it undir virtual box.
+2011-09-26T10:33:00.000Z	binni		under*
+2011-09-26T10:34:00.000Z	dhruvasagar	binni	yes I am aware of the virtualization options, this is actually a script written by me, some of the commands are run with sudo so they require that. But I just wanted to check and see if the messages in between commands are formatted correctly, I guess I will simply comment out stuff and confirm that

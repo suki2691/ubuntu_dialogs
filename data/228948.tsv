@@ -1,0 +1,4 @@
+2007-01-20T16:44:00.000Z	nfp|kelnoky		 /dev/sdb1 /home/shaolin/question ext3 defaults 0 0 <-- thats a correct line for fstab, right?
+2007-01-20T16:44:00.000Z	nfp|kelnoky		well, with spaces
+2007-01-20T16:44:00.000Z	EnsignRedshirt	nfp|kelnoky	That looks OK.  You could also make the last number a 2; then the filesystem will automatically be checked periodically when you boot.
+2007-01-20T16:45:00.000Z	EnsignRedshirt	nfp|kelnoky	For more details: man fstab

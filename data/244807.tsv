@@ -1,0 +1,4 @@
+2009-01-20T09:35:00.000Z	spill		well, I'm running 8.10 64 and using dansguardian configured with tinyproxy and firehol.  What I really need to do is keep dans guardian from being shutdown with sudo from any user.
+2009-01-20T09:35:00.000Z	TQuid	spill	are you giving full sudo rights?
+2009-01-20T09:38:00.000Z	TQuid	spill	sudo *might* allow you to give a negative permission but then someone can just do "sudo bash" and do as they like.
+2009-01-20T09:39:00.000Z	TQuid	spill	as yourself you just do "sudo su <user>"

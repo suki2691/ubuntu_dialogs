@@ -1,0 +1,4 @@
+2010-03-02T08:35:00.000Z	supercom32		I have a machine that is triple boot. 2 Linux, 1 Windows. Using grub2, how do I change the grub menu order so that one particular Linux OS is at the top of the list? I keep changing the orders in grub.d but nothing happens. Any ideas?
+2010-03-02T08:36:00.000Z	flaarg	supercom32	update-grub overwrites grub.d using the settings from /etc/default/grub
+2010-03-02T08:36:00.000Z	supercom32	flaarg	I don't see any boot order information my default grub. Do I need to add this?
+2010-03-02T08:37:00.000Z	flaarg	supercom32	no idea, I don't know grub2 that well yet

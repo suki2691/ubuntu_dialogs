@@ -1,0 +1,4 @@
+2011-10-16T18:50:00.000Z	BoulderDave		In my crontab, can i 'cd' to a directory before a command is ran? i have that as an entry before a command that requires it be ran from that location, and it doesn't seem to be working
+2011-10-16T18:51:00.000Z	glebihan	BoulderDave	instead of using cd, you could just directly put the full path to the executable file
+2011-10-16T18:51:00.000Z	BoulderDave		The command is not working
+2011-10-16T18:53:00.000Z	BoulderDave	glebihan	I'm using the full path, but an extra parameter (the 'sub command name')  isn't recognized unless im actually in that directory

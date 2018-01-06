@@ -1,0 +1,4 @@
+2012-10-22T06:56:00.000Z	Snowie		Anyone explain this error to me? doesn't seem to make sense. The command is not a file??? ~/dos$ game-data-packager -i quake -d c/QUAKE_SW/
+2012-10-22T06:56:00.000Z	Snowie		/usr/games/game-data-packager: is not a file
+2012-10-22T06:57:00.000Z	Snowie		hmm. the command seems to half work though.
+2012-10-22T06:58:00.000Z	PatrickDickey	Snowie	try ln -l /usr/games and see what it shows for game-data-packager if it has a d in the beginning, it's a directory.

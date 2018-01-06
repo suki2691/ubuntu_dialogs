@@ -1,0 +1,4 @@
+2011-12-13T18:29:00.000Z	uggla		if I create a new user and then I create a file in that users home dir. What chmod command is it to make it owned by the new user I just created?
+2011-12-13T18:29:00.000Z	Dj_FlyBy	uggla	chown
+2011-12-13T18:30:00.000Z	Dj_FlyBy	uggla	chown changes the owner and group
+2011-12-13T18:31:00.000Z	Dj_FlyBy	uggla	sudo chown user:user file_1.txt

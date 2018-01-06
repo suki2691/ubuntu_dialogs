@@ -1,0 +1,4 @@
+2009-04-19T16:54:00.000Z	Scription		When i try to do "su" or open anything, i get "I/O" error. When i first tried to boot i got "cylinder is too large;not supported by BIOS" twice and the third time i tried to reboort my BIOS didn't recognize my HDD at all, 4th time it worked fine, except that I keep getting IO errors no matter what i do
+2009-04-19T16:56:00.000Z	kklimonda	Scription	also disk may be failing - check output of smartctl -H /dev/sdX
+2009-04-19T16:59:00.000Z	kklimonda	Scription	there might be a hardware problem
+2009-04-19T16:59:00.000Z	kklimonda	Scription	/dev/sda

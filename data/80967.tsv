@@ -1,0 +1,4 @@
+2008-10-31T07:42:00.000Z	jesseboi	trimeta	I remember there was a way to fix the mbr of your USB stick so that it's bootable....  let me find the command.
+2008-10-31T07:43:00.000Z	trimeta	jesseboi	In principle, the "Create a USB Startup Disk" thing should have run that command, right?
+2008-10-31T07:45:00.000Z	jesseboi	trimeta	 I think it should...  But I had problems with this too so I have to run the command.     1. Type sudo apt-get install mbr   2. Type fdisk -l to find out which device is your flash drive   3. Type install-mbr /dev/sdx (replacing x with your flash device)
+2008-10-31T07:46:00.000Z	trimeta	jesseboi	I'll try it.

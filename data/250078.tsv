@@ -1,0 +1,4 @@
+2008-02-14T06:36:00.000Z	stooge		i am using ubuntu 6.06. i have installed samba for the network, set my user name & password in samba. i can't see the other computers on the windows network. help please?
+2008-02-14T06:37:00.000Z	Dr_willis	stooge	 how did you set the password in samba?  smbpasswd -a username sets the samba password for  that machines users home dir. not whats used on othe rmachines.
+2008-02-14T06:39:00.000Z	Dr_willis	stooge	 if you cant see shares on other machines.. thats not really an issue on the local machine.  You did set the samba password on those machines? Checkyour workgroups also..
+2008-02-14T06:39:00.000Z	Dr_willis	stooge	 Ive beenusing the smbfuse tools mainly these days to access the samba shares

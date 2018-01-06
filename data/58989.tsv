@@ -1,0 +1,4 @@
+2009-04-27T17:25:00.000Z	acerbus		In 9.04, is there a way to modify the notification when receiving messags in Pidgin? I want the notification to appear, but not the message itself in the notification.
+2009-04-27T17:27:00.000Z	technopagan	acerbus	When you deactivate the libnotify-plugin in Pidgin, messages will not appear anymore.
+2009-04-27T17:28:00.000Z	acerbus	technopagan	I'm aware of that, but that would disable notifications completely. What I'm hoping is to still have the notifications, just not with the actual IM message content in the notification, more like "Mr. Hyde just sent you a message" and that's it.
+2009-04-27T17:32:00.000Z	technopagan	acerbus	Understood - But I don't see a way to configure notifications that way. Most likely it is easier to modify the libnotify-plugin for Pidgin so that it does not transport the actual messages to the notification-system, but replaces them with a generic message like you just described ...

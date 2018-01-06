@@ -1,0 +1,4 @@
+2012-08-13T17:29:00.000Z	sanrabbit		"Transitional package" meas what?
+2012-08-13T17:31:00.000Z	L3top	sanrabbit	typically it means a package had a name for a long time, and people are used to looking for it by that name, though there is a new package under a new name, so a dummy transitional package is there.
+2012-08-13T17:38:00.000Z	sanrabbit	L3top	thanks, but is it just a 'link'? once I installed ruby1.8, but the 'ruby' package is still purge, then I exec 'aptitude install ruby', apt downloads a package named 'ruby' and install it.
+2012-08-13T17:39:00.000Z	L3top	sanrabbit	it is not a link, it is a package, that package name exists in the package database, so if you apt-get remove it, it will remove it... however its contents either install the same contents, or links elsewhere

@@ -1,0 +1,4 @@
+2009-08-15T20:17:00.000Z	zouhair		hi, is there a way to have a list of installed packaged chronologically sorted (last installed first for ex.)?
+2009-08-15T20:18:00.000Z	arand	zouhair	you can always use some grep magic on /var/log/apt/term.log
+2009-08-15T20:20:00.000Z	zouhair	arand	yes definitely, I amost never use synaptic, only aptitude
+2009-08-15T20:24:00.000Z	arand	zouhair	then something like sudo cat /var/log/apt/term.log | grep "Setting up" will catch everything which passes apt.

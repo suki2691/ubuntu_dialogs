@@ -1,0 +1,4 @@
+2005-12-02T17:16:00.000Z	heien		Hi all. I want to resize a partion of mine, but i cant seem to umount the swap partions, and because of that, i cant resize. How do i umount a swap partion?
+2005-12-02T17:17:00.000Z	jackie	heien	or Turn off swapping by editing the /etc/fstab file and commenting the line that describes your swap partition.
+2005-12-02T17:20:00.000Z	jackie	heien	no problem dude
+2005-12-02T17:20:00.000Z	jackie	heien	don't mess with your swap if you have very little ram. you could mess something up. and remember to back up anything important before messing with partitions

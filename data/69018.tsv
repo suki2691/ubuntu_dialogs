@@ -1,0 +1,4 @@
+2009-01-10T23:46:00.000Z	sldkfsjldkf		how do i find out what video card driver im using?
+2009-01-10T23:46:00.000Z	Jack_Sparrow	sldkfsjldkf	lspci | grep -i vga should show you the right pci port for setting up the video card in your xorg
+2009-01-10T23:47:00.000Z	sldkfsjldkf	Jack_Sparrow	that will also show the version number?
+2009-01-10T23:48:00.000Z	Jack_Sparrow	sldkfsjldkf	not  sure

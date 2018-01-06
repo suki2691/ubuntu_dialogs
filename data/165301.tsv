@@ -1,0 +1,4 @@
+2006-10-23T15:13:00.000Z	cogitatus		what's a safe way to remove a soft link?
+2006-10-23T15:13:00.000Z	cogitatus		will rm <link> attempt to remove the file it's linked to?
+2006-10-23T15:14:00.000Z	osman	cogitatus	you can remove a soft link with rm, for instance if the softlink is a dir make sure it doesnt have the / at the end and it removes the link not the dir
+2006-10-23T15:14:00.000Z	cogitatus	osman	cool. thanks.

@@ -1,0 +1,4 @@
+2006-03-15T10:07:00.000Z	logical_mark		Ok guys I have a question. The wireless card on my laptop is not detected by Ubuntu so I was going to use ndiswrapper to install the driver using my windows .inf file, but when I look at the properties of the wireless card in windows under the dirver info it just has a .sys file. What do I do?
+2006-03-15T10:07:00.000Z	anto9us	logical_mark	copy the entire folder containing the .inf and .sys files to your linux partition and use ndiswrapper to load the .inf file
+2006-03-15T10:08:00.000Z	logical_mark	anto9us	so I just need to copy the entire folder that has the .sys file?
+2006-03-15T10:08:00.000Z	anto9us	logical_mark	yes, the inf file tells ndiswrapper to use the sys file

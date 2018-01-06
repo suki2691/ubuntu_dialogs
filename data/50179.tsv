@@ -1,0 +1,4 @@
+2009-09-14T02:03:00.000Z	jMyles_		What's the best way to determine if a package exists and what it's name is?  I usually just google "ubuntu <program name>" but surely there's a better way
+2009-09-14T02:03:00.000Z	erUSUL	jMyles_	apt-cache search name || aptitude search name
+2009-09-14T02:04:00.000Z	erUSUL	jMyles_	or use the search functions of synaptic and Aplications>Add remove
+2009-09-14T02:04:00.000Z	jMyles_	erUSUL	Yeah, I've found that the add/remove search function is not terribly useful unless you already know the exact name of the application as entered in the database, which isn't always the case.  I'll try apt-cache

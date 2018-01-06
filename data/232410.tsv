@@ -1,0 +1,4 @@
+2006-04-21T05:33:00.000Z	guy7595		is there a commmand to file1.deb;file2.deb;file3.deb all of them at the same time? if not can someone tell me how to set them up seprately?
+2006-04-21T05:33:00.000Z	guy7595		to install those
+2006-04-21T05:33:00.000Z	guy7595		yeah
+2006-04-21T05:33:00.000Z	erUSUL	guy7595	if you have all the debs in a dir you can run ls *.deb | xargs sudo dpkg -i

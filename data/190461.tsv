@@ -1,0 +1,4 @@
+2011-02-24T18:56:00.000Z	shomon		how do I find out what is running on a specific port?
+2011-02-24T18:56:00.000Z	usr13_	shomon	netstat -pantu
+2011-02-24T19:14:00.000Z	usr13_	shomon	netstat -pantu |grep 80   #To cut down the size of the output and you can more easily see what you want.
+2011-02-24T19:18:00.000Z	usr13_	shomon	very good.

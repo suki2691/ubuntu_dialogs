@@ -1,0 +1,4 @@
+2005-05-04T15:45:00.000Z	fejaor		how can i change the mode so I have permission to write over a folder??
+2005-05-04T15:45:00.000Z	fejaor		Im trying to upgrade firefox but wanted to install the files in /etc/mozilla-firefox but is not allowing me to write in the folder
+2005-05-04T15:46:00.000Z	fejaor		how do I change the permission?? Im the only user for ubuntu in this computer
+2005-05-04T15:47:00.000Z	XplOzIon	fejaor	"sudo chmod -R 777 /folder_name/  (warning this chmod will give permissions to everyone)

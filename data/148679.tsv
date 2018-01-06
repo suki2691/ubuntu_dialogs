@@ -1,0 +1,4 @@
+2007-12-29T21:13:00.000Z	nickrud		!gksudo | {Nathan} Cnerd
+2007-12-29T21:14:00.000Z	{Nathan}	nickrud	Actually, I use fluxbox so I don't ever use any gnome apps... so I didn't know if it was gksu or gksudo :-p
+2007-12-29T21:14:00.000Z	nickrud	{Nathan}	gksu can be set to use either sudo or su , your choice ;)
+2007-12-29T21:15:00.000Z	nickrud	{Nathan}	it's not about gnome, the main thing is sudo <app> uses your home as home, so if you save prefs they'll be saved as root owned, and no longer changeable by your normal user. gksudo will use /root

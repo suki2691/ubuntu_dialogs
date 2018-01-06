@@ -1,0 +1,4 @@
+2007-04-05T12:28:00.000Z	freeza		when im trying to install my printer using the drivers from the manufactures i have to run a sh script but when i run it i get this msg: ./Linux/install.sh: 1232: source: not found
+2007-04-05T12:28:00.000Z	freeza		anyone know what that means?
+2007-04-05T12:28:00.000Z	Ash-Fox	freeza	one moment
+2007-04-05T12:29:00.000Z	Ash-Fox	freeza	you need to install a program called 'source' apparently, but 'apt-file search /usr/bin/source' doesn't return any relevent packages... so I have no idea

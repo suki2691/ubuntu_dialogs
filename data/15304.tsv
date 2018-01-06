@@ -1,0 +1,4 @@
+2011-08-10T16:50:00.000Z	escott	bullgard4_	check with dpkg -l "*linux*". synaptic is probably just going to show linux-image
+2011-08-10T17:07:00.000Z	bullgard4_	escott	'~$ dpkg -l "*linux*" ' lists the package »linux-headers-2.6.38-10-generic«. This is the only entry having 'generic' in its name. So the results of Synaptic and dpkg do not contradict. Why does Grub 2 show a boot entry "Linux 2.6.38-8-generic on /dev/sda1 ?
+2011-08-10T17:10:00.000Z	bullgard4_	escott	'~$ dpkg -l "*linux*" does not list an entry ""linux-image-2..." ending in 'generic'.
+2011-11-16T10:27:00.000Z	escott	bullgard4_	ls -l `locate gnome-desktop-item-edit | grep man`

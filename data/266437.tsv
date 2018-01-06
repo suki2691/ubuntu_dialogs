@@ -1,0 +1,4 @@
+2006-04-10T09:19:00.000Z	e4rlgrey		ok... i was on here yesterday and you guys were a lot of help... now i'm hoping you can help me out again
+2006-04-10T09:20:00.000Z	e4rlgrey		i installed ubuntu and everything worked out great... however... my second drive... which i use for storage... says that it's access path is /root... the owner is root... and I can't delete or change anything on it... how can i fix this?
+2006-04-10T09:20:00.000Z	Dr_Willis	e4rlgrey	 you told the isntaller to mount it as /root ?
+2006-04-10T09:21:00.000Z	Dr_Willis	e4rlgrey	 somthing must have..  :P  check your /etc/fstab - see if theres a  entry that mentions  /root

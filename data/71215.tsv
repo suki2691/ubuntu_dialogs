@@ -1,0 +1,4 @@
+2008-12-17T03:50:00.000Z	aridite		i am logged in on my linux desktop... how can I ssh to that desktop and (for example) play a video file that is on the desktop (so that the video is being played normally on the desktop) (does that make sense?)
+2008-12-17T03:51:00.000Z	EADG	aridite	You want to play the video on the remote box or the box you are sitting at?
+2008-12-17T03:51:00.000Z	aridite	EADG	play the video on the remote box
+2008-12-17T03:52:00.000Z	EADG	aridite	mplayer -vo fbdev video.avi   That should do it.

@@ -1,0 +1,4 @@
+2008-10-01T12:18:00.000Z	Atax		Hi all, im trying to install Nvidia-Drivers and have to exit x-windows first. How do I exist x-windows in Ubuntu?
+2008-10-01T12:20:00.000Z	Atax		Under Debian or Suse I would change to console ctrl+alt+f1, and then type "init 1". This doesent work with ubuntu, ... I cant get a console after i typed int 1!
+2008-10-01T12:21:00.000Z	Flannel	Atax	You don't need to type init 1 to get a console.  There are 6 ttys available already (you're already there with ctrl-alt-f1)
+2008-10-01T12:21:00.000Z	Flannel	Atax	If you want single user mode, choose it from your grub menu.

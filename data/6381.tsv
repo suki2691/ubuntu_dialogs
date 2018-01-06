@@ -1,0 +1,4 @@
+2012-01-19T12:49:00.000Z	kilmickey		I'm just trying to get my calibration to stick, and the steps given to me seem to not be available. And yes I'm using "Calibrate Touchscreen". It leaves me with a Terminal window explaining how to make it permanent.
+2012-01-19T12:50:00.000Z	tawm_	kilmickey	is it explaining that you need to save it to /etc/X11/xorg.conf
+2012-01-19T12:55:00.000Z	tawm_	kilmickey	hrm well i know whenever I need to muck with my display settings I usually have to 1)make the conflicting file xorg.conf not exist anymore (usually i mv xorg.conf xorg.conf.bak) 2) tell the program to try and save the changes again and it usually works now that xorg.conf no longer exists
+2012-01-19T12:56:00.000Z	tawm_	kilmickey	and to get X11 to properly reload you either need to logout or restart the machine

@@ -1,0 +1,4 @@
+2011-11-08T09:21:00.000Z	bjrohan		I also havve Ubuntu running on another desktop in my home. Both computers connect to the internet via a wireless router connected to a router. I have set up Samba, and can access the other computer, however connected to that computer is a 1TB USB drive, that I can recognize via my laptop, but can not access, any ideas why?
+2011-11-08T09:22:00.000Z	bjrohan		Do I need to put this drive in fstab as well on that desktop?
+2011-11-08T09:23:00.000Z	led-bandit	bjrohan	for samaba see https://help.ubuntu.com/community/Samba/SambaServerGuide  especialy the part about sudo  smbpasswd -a username
+2011-11-08T09:23:00.000Z	led-bandit	bjrohan	what do you need help with?

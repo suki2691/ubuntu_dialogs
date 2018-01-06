@@ -1,0 +1,4 @@
+2009-06-16T01:10:00.000Z	JuJuBee		I have an ntfs partition.   I can mount it from dolphin and get  /dev/sda1 /media/WinXP fuseblk rw,nosuid,nodev,allow_other,blksize=4096 0 0  in my mtab.  Can I just add that to my fstab to mount it at startup?
+2009-06-16T01:10:00.000Z	JuJuBee		K  thanks erUSUL
+2009-06-16T01:11:00.000Z	dajhorn	JuJuBee	Yes, you can put NTFS filesystems in the /etc/fstab file.
+2010-09-20T20:29:00.000Z	dajhorn	JuJuBee	Usually something like /dev/ttyS0

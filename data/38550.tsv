@@ -1,0 +1,4 @@
+2010-03-02T04:08:00.000Z	karpus		I'm trying to install a ftp server (vsftp) and I can connect through filezilla successfully, but the second I add ssl support, I only get ECONNREFUSED thrown in my face... what could be wrong?
+2010-03-02T04:10:00.000Z	oskar-	karpus	 there could be a firewall between it, that recognizes an unencrypted ftp-port statement, but is (of course) not able to recognize it, when it is ssl-encrypted.
+2010-03-02T04:13:00.000Z	oskar-	karpus	 is there a NAT between client and server?
+2010-03-02T04:13:00.000Z	karpus	oskar-	no

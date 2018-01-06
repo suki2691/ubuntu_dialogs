@@ -1,0 +1,4 @@
+2007-06-24T06:44:00.000Z	RainCT	kbrooks	isalpha also gives False for (, ) and "
+2007-06-24T06:45:00.000Z	kbrooks	RainCT	uhm, s = "(42)", and iterating over that string does not give you ". it gives you (, 4, 2, and ).
+2007-06-24T06:46:00.000Z	kbrooks	RainCT	i did not iterate over repr(s), just to be clear, as that would give you ".
+2007-06-24T06:46:00.000Z	RainCT	kbrooks	yes, and Jello was asking how to get only the numbers

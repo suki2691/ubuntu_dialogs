@@ -1,0 +1,4 @@
+2008-08-03T23:49:00.000Z	cogit0		hello all! i'm using a thinkpad x61 tablet with gutsy, and can't modify my xorg.conf. every time i restart the x server, the xorg.conf gets overwritten. any thoughts on what i can do to prevent this from happening?
+2008-08-03T23:50:00.000Z	hwilde	cogit0	if you try to edit xorg.conf and it fails it will overwrite with the failsafe
+2008-08-03T23:51:00.000Z	cogit0	hwilde	aaah, so i'm just making errors in it? i'm trying to add the stylus stuff into xorg.conf, and its tried and true code, so i dont know why it would be failing
+2008-08-03T23:52:00.000Z	hwilde	cogit0	/var/log/Xorg.0.log

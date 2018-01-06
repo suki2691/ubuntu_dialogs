@@ -1,0 +1,4 @@
+2010-11-01T23:53:00.000Z	glaucous		When creating a cronjob with crontab -e, and the cronjob is missed (computer turned off, whatever). Will it run again before next scheduled time?
+2010-11-01T23:55:00.000Z	LinuxAdmin	glaucous	see anacron
+2010-11-01T23:56:00.000Z	LinuxAdmin	glaucous	yes, it's like crontab
+2010-11-02T00:02:00.000Z	glaucous	LinuxAdmin	yes I read up on it now. I've been using cron.weekly/daily folders before, and noticed that they ran at various times (because of computer shutdown). And it is indeed anacron which manages them, and not crontab.

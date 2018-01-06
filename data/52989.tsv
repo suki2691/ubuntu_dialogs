@@ -1,0 +1,4 @@
+2009-07-23T18:54:00.000Z	Cube		hey guys. im having issues with my netbook being pretty slow. i see its using 20% of the swap, although its only using like 40% or the actual RAM. is there any way to fix that?
+2009-07-23T18:56:00.000Z	stew	Cube	its normal for linux to use some swap for things being rarely used so that the ram can be better used to speed your machine up
+2009-07-23T18:56:00.000Z	stew	Cube	this is controlled by the 'swappiness' setting in /proc/sys/vm/swappiness ; though its not recommended to mess with it
+2009-07-23T18:57:00.000Z	Cube	stew	ok gotcha. didnt know that. oh and: my netbook is pretty slow in general, wasnt like that at the beginning. especially the boot times are ridiculous. i dont even boot anymore, but close all programs and hibernate (and than wake it up from that). is there any way to get rid of start up programs? (i know of the perferences -> session way, but its not showing all of them)

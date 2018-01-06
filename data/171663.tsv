@@ -1,0 +1,4 @@
+2006-09-10T14:54:00.000Z	spiderworm		hi all... i removed the sound card from my system and am trying to use the onboard sound.... there is no /dev/dsp, does anyone know how i would go about getting it to work?
+2006-09-10T14:55:00.000Z	neildarlow	spiderworm	should just be a case of reconfiguring ALSA for your onboard hardware
+2006-09-10T14:55:00.000Z	spiderworm	neildarlow	how do i go about reconfiguring alsa? dpkg-reconfigure alsa?
+2006-09-10T14:56:00.000Z	neildarlow	spiderworm	probably. i've never needed to do it.

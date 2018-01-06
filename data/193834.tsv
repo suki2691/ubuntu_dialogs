@@ -1,0 +1,4 @@
+2006-09-19T13:25:00.000Z	nexact		hey all, i've modified /etc/init.d/network/interfaces how can I apply this modification to current configuration without rebooting the box?
+2006-09-19T13:25:00.000Z	fredl	nexact	depends. Which interface did you change?
+2006-09-19T13:26:00.000Z	nexact	fredl	ive changed eth0 and eth1.
+2006-09-19T13:27:00.000Z	fredl	nexact	in that case sudo ifdown eth0; sudo ifup eth0; sudo ifdown eth1; sudo ifup eth1

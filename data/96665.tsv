@@ -1,0 +1,4 @@
+2008-06-23T06:53:00.000Z	stroyan`	ALPSINC	Flannel: "man visudo" spells it out.  You need to set "env_editor" in the sudoers file to allow alternate editors from the EDITOR environment variable.
+2008-06-23T06:54:00.000Z	ALPSINC	stroyan`	ahh ok thanks!
+2008-06-23T06:56:00.000Z	stroyan`	ALPSINC	"man sudoers" has more details.  You can set the "editor" variable in /etc/sudoers to a specific list of allowed editors.
+2008-06-23T06:57:00.000Z	ALPSINC	stroyan`	yes, I saw, thanks :)

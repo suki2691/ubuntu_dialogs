@@ -1,0 +1,4 @@
+2009-07-30T05:44:00.000Z	Mickael		If I reinstall ubuntu onto the same place on the hdd, would i have to reinstall the bootloader?
+2009-07-30T05:44:00.000Z	LjL	Mickael	well, parts of the bootloader *are* inside the ubuntu partition to begin with (as long as you didn't install it in custom ways), so yeah
+2009-07-30T05:45:00.000Z	LjL	Mickael	so it's not GRUB?
+2009-07-30T05:46:00.000Z	LjL	Mickael	ok, but the point is, GRUB is installed partly in the boot sector, and partly on a partition - generally your main Ubuntu partition. at least the latter will need to be installed again

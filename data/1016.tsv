@@ -1,0 +1,4 @@
+2012-09-24T08:47:00.000Z	Devin__		hey what command would I use to extract a gz file
+2012-09-24T08:48:00.000Z	tsimpson	Devin__	.gz, or .tar.gz?
+2012-09-24T08:50:00.000Z	Devin__	tsimpson	so should it look like this tar linux-3.2.2.tar.gz
+2012-09-24T08:51:00.000Z	tsimpson	Devin__	no, "tar xvf linux-3.2.2.tar.gz", the "xvf" part are arguments to the tar command. in this case 'x' for eXtract, 'v' for Verbose, and 'f' for Filename

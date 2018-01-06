@@ -1,0 +1,4 @@
+2012-07-18T19:03:00.000Z	tjingboem		what package do i need to install a .deb file?
+2012-07-18T19:04:00.000Z	tjingboem		tuxboot
+2012-07-18T19:04:00.000Z	L3top	tjingboem	sudo dpkg -i packagename.deb    though usually you should stick to the repositories using apt-get
+2012-07-18T19:12:00.000Z	L3top	tjingboem	sudo dpkg -i --dry-run package.deb

@@ -1,0 +1,4 @@
+2012-03-07T09:45:00.000Z	Tohuw		Setting up BIND: If my local network is 10.254.7.0/24, what is the proper syntax to express every 10.in-addr.arpa address except that subnet? I need to know so that I can list it in my modified rfc1918 zones file. Or is it top-down processing, such that a later reference to that subnet and another db will take precedence?
+2012-03-07T09:45:00.000Z	scientes	Tohuw	throw BIND out the windows, use dnsmasq
+2012-03-07T09:46:00.000Z	scientes		its way better and easier to setup
+2012-03-07T09:46:00.000Z	Tohuw	scientes	I understand your reason for that statement, but I specifically need BIND in this environment. dnsmasq does not have the featureset I require.

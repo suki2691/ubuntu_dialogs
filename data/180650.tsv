@@ -1,0 +1,4 @@
+2006-06-10T15:44:00.000Z	tnks		Earlier, someone indicated that ubuntu sets up power management nicely (relative to the non-setup in Debian).  How does ubuntu manage speedstep for laptops?  A user-space daemon?  Or a kernel with a built-in frequency governor?
+2006-06-10T15:44:00.000Z	krazykit	tnks	depends on how you set it up.
+2006-06-10T15:45:00.000Z	tnks	krazykit	just trying to get a feel of what Ubuntu does that's a step beyond Debian.
+2006-06-10T15:46:00.000Z	krazykit	tnks	by default, it uses the performance daemon.  you can set it to one of the others by loading the modules (don't recall what they are, look it up) or switching it to userspace and using powernowd.  cpufreqd switches between the governers, i think

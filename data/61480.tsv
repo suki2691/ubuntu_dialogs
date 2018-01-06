@@ -1,0 +1,4 @@
+2012-09-19T14:05:00.000Z	Doonz		How do i change the timestamp of all files and folders in a directory. /home/user/diretory/directory_containing_all_those_That_i_Want_to_change
+2012-09-19T14:06:00.000Z	tsimpson	Doonz	use the -d/--date option with touch
+2012-09-19T14:07:00.000Z	tsimpson	Doonz	or http://manpages.ubuntu.com/manpages/precise/en/man1/touch.1.html
+2012-09-19T14:11:00.000Z	tsimpson	Doonz	you have to do that manually, probably via the find command. eg: find . -type f -print0 | xargs -0 touch -d "2012-09-19 10:11:00"

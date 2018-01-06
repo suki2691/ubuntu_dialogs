@@ -1,0 +1,4 @@
+2009-08-16T23:36:00.000Z	__8472		hi, is here somebody skilled with pure-ftpd and the UMASK directive? i simply can't understand it. i always try to compare it to the CHMOD directive, but it doesn't pass, it ain't similar. and i dunno what number what means. can somebody explain me? thx.
+2009-08-16T23:38:00.000Z	__8472		hi, is here somebody skilled with pure-ftpd and the UMASK directive? i simply can't understand it. i always try to compare it to the CHMOD directive, but it doesn't pass, it ain't similar. and i dunno what number what means. can somebody explain me? thx.
+2009-08-16T23:38:00.000Z	th0r	__8472	the umask is the binary complement of the chmod. For chmod 755 you would use umask 022
+2009-08-16T23:40:00.000Z	__8472	th0r	thx

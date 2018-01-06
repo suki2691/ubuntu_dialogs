@@ -1,0 +1,4 @@
+2009-09-22T12:12:00.000Z	cq		how do I get my nameservers into etc/resolv.conf permanently? I have resolverconf installed, and the nameservers are listed correctly in /etc/network/interfaces as dns-nameservers IP1 IP2
+2009-09-22T12:12:00.000Z	Boohbah	cq	are you getting a dynamic IP from dhcp? it will overwrite resolv.conf
+2009-09-22T12:13:00.000Z	cq	Boohbah	no, fixed IP, these are virtual machines I have set up ...
+2009-09-22T12:13:00.000Z	cq	Boohbah	I want to use one as a webserver, so I need a fixed IP for it.

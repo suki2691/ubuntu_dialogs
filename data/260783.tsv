@@ -1,0 +1,4 @@
+2006-09-21T07:37:00.000Z	jim80104		root
+2006-09-21T07:38:00.000Z	jim80104		I have a need to log in as root for something that I need to do.... Can anyone tell me how to do so?
+2006-09-21T07:40:00.000Z	jim80104		I know all about sudo.... problem is, I need to actually be logged in as root, or this particular install will damage my profile.
+2006-09-21T07:41:00.000Z	jbroome	jim80104	sudo -s to root, then passwd to set a root password.  you can login as root then

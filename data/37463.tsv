@@ -1,0 +1,4 @@
+2011-03-08T09:51:00.000Z	ssbpls		drobole_:i am reading the book "linux device drives" writed by Jonathan Corbet etc. but the book tells me to build the kernel code tree and just use the command "insmod module-name" to test the module. however, i don't understand where the module insert   into ? Is it insert into the old kernel or the new one?
+2011-03-08T09:53:00.000Z	ssbpls		drobole_:insmod tht module to test it . where the module insert into? the old or new?
+2011-03-08T09:53:00.000Z	Jordan_U	ssbpls	Whatever kernel you are currently booted with,
+2011-03-08T09:55:00.000Z	ssbpls	Jordan_U	i am booting the old kernel :ssbpls@ssbpls-laptop:~$ uname -r

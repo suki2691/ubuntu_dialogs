@@ -1,0 +1,4 @@
+2009-05-26T01:32:00.000Z	d0t		weird thing happens and i don't know why.. when i do ssh localhost i can connect normally but when i try to use my ip (or host using no-ip) it says my password is wrong why is that ?!
+2009-05-26T01:33:00.000Z	gartral	d0t	bad encryption settins somewhere?
+2009-05-26T01:33:00.000Z	d0t	gartral	where can it be ? i checked ssh_config i think it's ok
+2009-05-26T01:35:00.000Z	gartral	d0t	either something in the connection to the net is going through an encryption proxy, or your client has bad settings... or you may have set up ssh keys!

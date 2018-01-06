@@ -1,0 +1,4 @@
+2008-10-18T16:02:00.000Z	badfish		is there a way to make netstat go one screen at a time?
+2008-10-18T16:02:00.000Z	BobCFC	badfish	pipe it to less    netstat | less
+2008-10-18T16:04:00.000Z	BobCFC	badfish	also do you know you can use  shift-pageup  shift-pagedown to go back at the terminal?
+2008-10-18T16:06:00.000Z	BobCFC	badfish	only trouble is you have a limited buffer, somthing like compile may go too far off the screen,  in that case you can either use less or save the output to a file suchas   netstat > results.txt  and then read the text file

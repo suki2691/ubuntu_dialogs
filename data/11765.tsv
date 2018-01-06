@@ -1,0 +1,4 @@
+2011-10-25T06:08:00.000Z	BlackWeb		How do you specify a display driver to use
+2011-10-25T06:10:00.000Z	zykotick9_	BlackWeb	typically you would use an xorg.conf file - but it's automatic (for intel, these days).  Do you know what driver is currently being used?  "less /var/log/Xorg.0.log" to check.
+2011-10-25T06:14:00.000Z	zykotick9_	BlackWeb	"...then installed packages..." sounds suspicious ;)  Do you currently have a /etc/X11/xorg.conf file?
+2011-10-25T06:16:00.000Z	zykotick9_	BlackWeb	sorry I have no suggestions then, good luck.

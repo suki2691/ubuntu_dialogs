@@ -1,0 +1,4 @@
+2008-03-03T16:50:00.000Z	yusuo		everytime i try and download a tar.bz2 file and get round to compiling it gives me an error while im doing ./configure any ideas anyone
+2008-03-03T16:51:00.000Z	yusuo		checking for C compiler default output file name... configure: error: C compiler cannot create executables
+2008-03-03T16:51:00.000Z	yusuo		any help wayne
+2008-03-03T16:51:00.000Z	adughep	yusuo	use at CFLAGS  -fPIC

@@ -1,0 +1,4 @@
+2006-08-21T16:28:00.000Z	robd		Hey all
+2006-08-21T16:28:00.000Z	robd		Does anyone know how I can clear my apt archive cache? Is it alright if I just delete all the dpkgs in /var/cache/apt/archives/ or should I use some tool?
+2006-08-21T16:28:00.000Z	yeager	robd	apt-get autoclean; apt-get clean
+2006-08-21T16:29:00.000Z	robd	yeager	Ahh, thanks

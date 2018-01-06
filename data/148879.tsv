@@ -1,0 +1,4 @@
+2008-03-21T11:33:00.000Z	crypt0		can someone help me out pls?
+2008-03-21T11:35:00.000Z	crypt0		i have a samba file server running at home on ubuntu server. is there a command to check which files are in use by network users?
+2008-03-21T11:36:00.000Z	unop	crypt0	you could use a combination of lsof and grep -- lsof | grep -i /path/to/samba_share
+2008-03-21T11:37:00.000Z	unop	crypt0	although that does list which user or computer is accessing the files - there might be some tool part of the samba package to help with that

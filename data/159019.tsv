@@ -1,0 +1,4 @@
+2007-01-07T14:32:00.000Z	Moon_Rabbits		I have a folder set to "owner: root > create aand ddelete files", and "group: users > create and delete files", but for some reason I can still only use that folder if I am using the root account or 'sudo', why?
+2007-01-07T14:33:00.000Z	Hansel	Moon_Rabbits	- you can chmod 766 it if you want everybody to read/write to it...
+2007-01-07T14:33:00.000Z	Moon_Rabbits	Hansel	What exactly does that do?
+2007-01-07T14:36:00.000Z	Moon_Rabbits	Hansel	Alright, sounds like it will work. But, mostly just because I'm curious and would like to figure my way around better, why doesn't it work right now? I have the permissions set to "users: create/delete files" and this account is part of the 'users' group, but it still doesn't work?

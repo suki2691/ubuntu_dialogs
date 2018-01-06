@@ -1,0 +1,4 @@
+2005-09-03T07:50:00.000Z	Weems		I get a error when logging into gnome that the session lasted less than 10 seconds and was ended. When I click OK it goes back to the login screen. Any ideas how to fix this in failsafe gnome?
+2005-09-03T07:51:00.000Z	Madpilot	Weems	do you get an error about accessing .ICEauthority?
+2005-09-03T07:52:00.000Z	Madpilot	Weems	I had a problem like that at one point. I needed to "sudo chown $user:$group /.ICEauthority"
+2005-09-03T07:55:00.000Z	Madpilot	Weems	where I wrote $user:$group put your group & user - weems:weems or whatever

@@ -1,0 +1,4 @@
+2008-05-30T18:37:00.000Z	kane77		how do I remove all files with a certain extension but leave one of them? (I have 1000+ pdf's and I want to merge them into one and remove them, but leave the merged file..)
+2008-05-30T18:39:00.000Z	codecaine	kane77	when you merge the one you want move it to a anothe directiry then rm -f *.pdg
+2008-05-30T18:39:00.000Z	codecaine		*.pdf
+2008-05-30T18:40:00.000Z	kane77	codecaine	amenado jrib Frogzoo__ I guess naming the merged file to out.foo and then removing all the pdf's would do the trick, thank you

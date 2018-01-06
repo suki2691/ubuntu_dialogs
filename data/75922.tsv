@@ -1,0 +1,4 @@
+2008-11-23T06:54:00.000Z	M4rotku		 hello, i'm trying to upgrade from 8.04 to 8.10.  In the second step, "Setting new software channels," the fetching file process is frozen at "fetching file 18 of 40" and it has been frozen there for about 50 minutes or so.  I tried restarting the process and it still freezes in the same exact spot.  Can anyone help me with this?
+2008-11-23T06:55:00.000Z	temppy	M4rotku	it sounds like you are failing to connect to a repo
+2008-11-23T06:56:00.000Z	M4rotku	temppy	it dissabled some third party repos at the beginning of the install, but it did that purposefully, i'll check my repo list
+2008-11-23T07:02:00.000Z	M4rotku	temppy	it got past that part now, but i still received the following error which seems significant:  "Error authenticating some packages

@@ -1,0 +1,4 @@
+2011-09-08T17:54:00.000Z	Theishi		I am trying to use grep to parse an email, i have this string i want to search for '--f46d0447a27db0771e04ac5e4a62', and I am not sure how to tell grep that this is a string and not an option or a regular expression
+2011-09-08T17:55:00.000Z	jrib	Theishi	grep -- '--f4...' file   should work
+2011-09-08T17:56:00.000Z	Theishi	jrib	what does '--' mean? the end of arguements?
+2011-09-08T17:56:00.000Z	jrib	Theishi	yeah

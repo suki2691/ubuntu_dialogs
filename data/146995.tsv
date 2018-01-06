@@ -1,0 +1,4 @@
+2008-10-04T22:48:00.000Z	quaal		could someone please tell me what controls the available resolutions in the screen resolution dialog box in gnome
+2008-10-04T22:50:00.000Z	quaal		could someone please tell me what controls the available resolutions in the screen resolution dialog box in gnome
+2008-10-04T22:50:00.000Z	dr_willis	quaal	 xorg.conf and how the drivers detect what the monitor can do.
+2008-10-04T22:53:00.000Z	quaal	dr_willis	i've tried replacing my xorg.conf with about 5 different backups. after following this https://help.ubuntu.com/community/FixVideoResolutionHowto#Undetected%20Monitor%20Specs which was recommended here. after i did that it popped up a configuration window after restarting X telling me it was running in minimal resolution mode of which it is still stuck in now 800x600 after trying to restore my xorg.conf several times from

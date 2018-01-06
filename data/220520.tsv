@@ -1,0 +1,4 @@
+2008-08-06T09:59:00.000Z	znh		I accidentally messed up my groups my user. Now I can't do no more sudo, as it claims I am not in the sudoers file.. Help please
+2008-08-06T09:59:00.000Z	Flannel	znh	reboot to the recovery console (at GRUB) and usermod -G admin -a [yourusername]
+2008-08-06T10:00:00.000Z	Flannel	znh	You need to be in the admin group to sudo, that previous command adds you there.  You'll probably need to re-add all your other groups too: adm dialout cdrom floppy audio dip video plugdev lpadmin scanner admin
+2008-08-06T10:01:00.000Z	znh	Flannel	ty!

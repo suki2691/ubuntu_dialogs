@@ -1,0 +1,4 @@
+2009-03-27T08:56:00.000Z	amitb		I'm trying to connect to my ubuntu desktop (I've already enabled Remote Desktop), but when I connect from VNC I get a dialog box saying 'No matching security types'. What is wrong here?
+2009-03-27T08:57:00.000Z	QPrime	amitb	on your vnc client (the one you are connecting from)
+2009-03-27T08:59:00.000Z	amitb	QPrime	I'm using the free vncviewer 4 on Windows.
+2009-03-27T09:00:00.000Z	QPrime	amitb	the no matching security types usually indicates an encryption or auth problem (client and server not agreeing on the settings)

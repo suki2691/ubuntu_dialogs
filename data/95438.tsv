@@ -1,0 +1,4 @@
+2008-12-19T14:43:00.000Z	qwyeth		Hello all; I'm running Ubuntu server 8.10 and I have some remote users.  I would like to force them to change password on login.  I have done this using chage -d 0 <user>, and it works when logging in locally, however when ssh'ing in to the user with expired password, it announces that the password must be changed immediately, but then drops the connection.  I have extensively googled the problem and read man pages for chage, sshd, pam, an
+2008-12-19T14:44:00.000Z	qwyeth		And if not, is there a better channel I should be asking Ubuntu Server questions on?
+2008-12-19T14:45:00.000Z	qwyeth		Yes, I've done that, but that does not answer my question.  I want to set random passwords and FORCE the change upon login.
+2008-12-19T14:46:00.000Z	DJones	qwyeth	There is the channel #ubuntu-server as well that might be able to help

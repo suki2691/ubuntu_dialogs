@@ -1,0 +1,4 @@
+2005-04-26T09:19:00.000Z	dcraven	jivera	I'm trying to figure out why that command should not print a 'b'.
+2005-04-26T09:19:00.000Z	jivera	dcraven	Because grep is case sensitive by default.
+2005-04-26T09:20:00.000Z	jivera		[A-B]  should match just 'A' and 'B'.
+2005-04-26T09:22:00.000Z	dcraven	jivera	oh.. I was looking at a line that up there with a LANG= in the middle of the command and it didn't make any sense. Nevermind.

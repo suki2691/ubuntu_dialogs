@@ -1,0 +1,4 @@
+2012-11-04T07:07:00.000Z	myersg		I tried to boot into ubuntu, but it took me to this: BusyBox v1.18.5 (Ubuntu 1:1.18.5) built in shell ash Enter 'help for a list of built0in commands
+2012-11-04T07:08:00.000Z	myersg		what do I do?
+2012-11-04T07:10:00.000Z	tomreyn	myersg	that's usually because your root file system (the one which should get mounted to / ) could not be mounted. this can happen for various reasons, here's what comes to mind: an ubuntu installation failed/is incomplete, the file system is broken, your raid is out of synch.
+2012-11-04T07:13:00.000Z	tomreyn	myersg	so its failing since you added this drive?

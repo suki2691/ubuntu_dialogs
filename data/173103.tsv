@@ -1,0 +1,4 @@
+2006-07-26T15:07:00.000Z	jnoon		is there any way to avoid multiple sudo's in something like: sudo sleep 5 && sudo sleep 10........ is there any way i can just do something like: sudo (sleep 5 && sleep 10)?
+2006-07-26T15:07:00.000Z	jnoon		maybe someone knows some bash magic
+2006-07-26T15:07:00.000Z	Renan_s2	jnoon	sudo sh -c "commands"
+2006-07-26T15:07:00.000Z	jnoon	Renan_s2	thanks

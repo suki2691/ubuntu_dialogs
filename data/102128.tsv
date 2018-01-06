@@ -1,0 +1,4 @@
+2010-12-27T08:05:00.000Z	opla2		i usually run ubuntu  desktop mode.. but now i got this no-x11-at-all install of 10.04 that should get all, what synaptic calls "rekommended updates". How is this accompilished in bash only? Aptitude?
+2010-12-27T08:05:00.000Z	rww	opla2	sudo apt-get update, then sudo apt-get upgrade
+2010-12-27T08:16:00.000Z	rww	opla2	standby being a state where the computer is still turned on but in a low-power mode?
+2010-12-27T08:17:00.000Z	rww	opla2	pm-suspend. see "man pm-suspend" for details.

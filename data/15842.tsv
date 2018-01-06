@@ -1,0 +1,4 @@
+2011-04-17T13:04:00.000Z	TheAnyInbox		I have grub installed on my laptop along with ubuntu 10.04LTS but im not sure how to run update-grub from the livecd to fix the cfg so it will boot
+2011-04-17T13:04:00.000Z	TheAnyInbox		Any suggestions?
+2011-04-17T13:05:00.000Z	dEhiN	TheAnyInbox	check out https://help.ubuntu.com/community/RecoveringUbuntuAfterInstallingWindows?action=show&redirect=RestoreGrub
+2011-04-17T13:20:00.000Z	dEhiN	TheAnyInbox	so after chroot /mnt, did it work? if so, then cd into it and update-grub

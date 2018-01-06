@@ -1,0 +1,4 @@
+2006-08-27T06:29:00.000Z	gath_		Anyone know why my computer won't shut down (ACPI doesn't work) with Ubuntu (and several other distros)? It just says "acpi_power_off called" but doesn't turn off power
+2006-08-27T06:30:00.000Z	gath_		I've fixed it by passing acpi=ht to the kernel, but what does that mean?
+2006-08-27T06:30:00.000Z	rambo3	gath_	man acpi
+2006-08-27T06:31:00.000Z	gath_	rambo3	doesn't say what acpi=ht means?

@@ -1,0 +1,4 @@
+2010-12-19T08:14:00.000Z	mhfs		hey guys ... I wrote a init.d script to start a custom service and it's working ok, but the service is running as the root user. how can I make it run with a different user?
+2010-12-19T08:16:00.000Z	sam-_-	mhfs	su?
+2010-12-19T08:17:00.000Z	sam-_-	mhfs	su <username>
+2010-12-19T08:17:00.000Z	mhfs	sam-_-	yeah ... so obvious but I haven't thought of it. was expecting some fancy way to specify the user. thanks dude.

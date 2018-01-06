@@ -1,0 +1,4 @@
+2011-05-10T17:25:00.000Z	dnivra		hello. I recently set a password accidently to the root account and would like to reset it. I checked the /etc/passwd and it still says x in the password field. could someone tell me how to reset the root password so that it doesn't exist anymore and the root account is locked?
+2011-05-10T17:26:00.000Z	sipior	dnivra	you'll notice that all the accounts have an "x" in the password field in /etc/passwd :-)
+2011-05-10T17:27:00.000Z	sipior	dnivra	try "sudo passwd -l" if you're concerned that a password is still set.
+2011-05-10T17:28:00.000Z	dnivra	sipior	cool! thanks!

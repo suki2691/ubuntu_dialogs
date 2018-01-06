@@ -1,0 +1,4 @@
+2008-09-23T02:57:00.000Z	Sk8rdude		does anyone know a way to samba share inside hidden folders (eg: inside the .wine folder)
+2008-09-23T02:59:00.000Z	jimcooncat	Sk8rdude	maybe you could make a non-hidden symbolic link to it -- but Samba would need to follow it. not sure what the default is
+2008-09-23T03:01:00.000Z	jimcooncat	Sk8rdude	then perhaps some fuse filesystem would work
+2008-09-23T03:02:00.000Z	jimcooncat	Sk8rdude	sure. you could use sshfs, but I would think there would be something simpler

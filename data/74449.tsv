@@ -1,0 +1,4 @@
+2008-11-12T22:21:00.000Z	[T]ank1		after creating the usb startdisk from the system menu in 8.10, where would i find the xorg.conf that it uses? I need to make it work with dual screens.
+2008-11-12T22:22:00.000Z	hotdog0031	[T]ank1	There isn't any. When your USB system boots, it generates for itself an xorg.conf that it thinks will work well for the computer it's being booted on.
+2008-11-12T22:22:00.000Z	[T]ank1	hotdog0031	so i just need to boot it up and change it then?
+2008-11-12T22:24:00.000Z	hotdog0031	[T]ank1	Most likely, yeah. You could boot it up and use the GUI tool to do dual screen if you'd like. Or you could enable persistence and set it up just once.

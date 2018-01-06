@@ -1,0 +1,4 @@
+2011-06-10T20:06:00.000Z	codazoda		gedit will not die.  'sudo kill -9 6277' does not kill the process.  Thoughts?
+2011-06-10T20:08:00.000Z	codazoda		gedit won't die.  kill -9 fails to work.  Output (http://pastebin.com/S7NMt8FG).
+2011-06-10T20:09:00.000Z	codazoda		I believe this is causing "suspend" problems randomly.  Since the process refuses to die.  Reboot the only option?  Seems... wrong.
+2011-06-10T20:10:00.000Z	th0r	codazoda	I assume you tried to kill it as joel first

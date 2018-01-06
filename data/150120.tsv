@@ -1,0 +1,4 @@
+2007-07-20T12:24:00.000Z	ALL4N		hey, I installed apache2 and saw in the sites-enabled/000-default file that there is an alias pointing to /usr/share/doc..  however when I try localhost/doc, apache claims url 'doc' was not found on the server. Anyone know anything about that?
+2007-07-20T12:26:00.000Z	Pici	ALL4N	Do you have the /doc directory setup in apache2.conf?
+2007-07-20T12:27:00.000Z	Pici	ALL4N	A better answer would be /etc/apache2/sites-enabled/ is not the root directory of your website, you'll have to check apache2.conf to see what it is.
+2007-07-20T12:30:00.000Z	ALL4N	Pici	thanks, I'll try to move it there, was just wondering since it had the alias there installed by default after installing apache2

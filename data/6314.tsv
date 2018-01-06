@@ -1,0 +1,4 @@
+2012-03-25T19:48:00.000Z	zykotic10	remoteCTRL	i asked in #ubuntu-irc a while ago about finding a replacement method for !clone (as it uses aptitude) but alternatives where all deemed dangerous/sub-optimal.  So aptitude still has a use on ubuntu ;)
+2012-03-25T20:08:00.000Z	remoteCTRL	zykotic10	not only do you need to chroot but also do you need to bind mount proc, sys and temp into the chrooted installation in order to have grub do its job
+2012-03-25T20:08:00.000Z	zykotic10	remoteCTRL	which is all documented in the !grub2 chroot option ;)
+2012-03-25T21:04:00.000Z	zykotic10	remoteCTRL	re:n8w !anyone might have been better ;)

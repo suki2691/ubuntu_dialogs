@@ -1,0 +1,4 @@
+2009-01-10T04:02:00.000Z	Joeseph		Hi.    I have updated my ubuntu machine many times, and occasionally it will ask me if I want to change my menu.lst   ...  I remember editing that so I could add XP dual-boot functionality, so I would always just tell it not to mess with it.....  Does that make it so I don't boot the latest kernel?
+2009-01-10T04:04:00.000Z	nickrud_	Joeseph	put the stanza for windows below the ## END AUTOMAGIC line, then you won't have to worry about losing it with a kernel upgrade
+2009-01-10T04:05:00.000Z	Joeseph	MTecknology	Dr_willis, nickrud: so as long as xp is after '##End AUTOMAGIC ' line, I should be good?
+2009-01-10T04:05:00.000Z	nickrud_	Joeseph	yes

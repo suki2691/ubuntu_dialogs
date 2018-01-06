@@ -1,0 +1,4 @@
+2007-01-28T16:57:00.000Z	sdac1		if linux cannot write to ntfs, then how can it damage an ntfs windows partition ?
+2007-01-28T16:58:00.000Z	sdac1		hi,  can someone tell me what mounting exactly does ?  I have a dual boot system with an ntfs windows partition and several reiserf linux partitions.  anyway I went into xubuntu recovery mode and mounted a usb flash drive at the same mount point that my windows partition was mounted at: "media/sda2".  After that point i could no longer boot windows... please  help.
+2007-01-28T16:59:00.000Z	sdac1		the only thing i did before this happened is mount a usb drive to somewhere where windows ntfs was already mounted
+2007-01-28T17:00:00.000Z	Jowi	sdac1	compare "sudo fdisk -l" (check which partition is windows) and /boot/grub/menu.lst (the entry for windows) and hopefully the problem will be obvious. if not poste them both at pastebin.

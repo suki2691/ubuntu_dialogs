@@ -1,0 +1,4 @@
+2010-04-16T01:37:00.000Z	weekly		could someone help me? My fstab is set up to mount my other hard drive at boot it reads "/dev/sdc1    /media/main   ext3    rw     0        2" but i still cant write anything to it! how do i make it writeable?
+2010-04-16T01:38:00.000Z	abountu	weekly	if you do ls -l /media | grep main what do you get?
+2010-04-16T01:39:00.000Z	abountu	weekly	ls -l /media | grep
+2010-04-16T01:39:00.000Z	abountu	weekly	the command is:  ls -l /media | grep main

@@ -1,0 +1,4 @@
+2009-11-29T13:56:00.000Z	ardchoille		That command is missing a pipe anyway, isn't it?
+2009-11-29T13:56:00.000Z	mattcen	ardchoille	Which command?
+2009-11-29T13:57:00.000Z	mattcen	ardchoille	No. The entire process is done within find; find calls rm itself, it doesn't print the file names to stdout and then pass them to exec
+2009-11-29T13:58:00.000Z	ardchoille	mattcen	yeah, -exec is an option of find, forgot about that

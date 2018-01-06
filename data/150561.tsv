@@ -1,0 +1,4 @@
+2010-02-23T00:41:00.000Z	Matson		why after I do an apt-get purge of every single mysql-related package is /var/lib/mysql STILL THERE!@?
+2010-02-23T00:41:00.000Z	Matson		how do I see which package installed a given file?
+2010-02-23T00:41:00.000Z	Pici	Matson	dpkg -S /path/to/file
+2010-02-23T00:45:00.000Z	Pici	Matson	Because that file was created by your mysql tables.

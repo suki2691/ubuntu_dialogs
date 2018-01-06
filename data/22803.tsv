@@ -1,0 +1,4 @@
+2010-11-13T03:20:00.000Z	bobbi		an unsuccessful recovery attempt after a crash when using openoffice writer results in me being unable to save documents with _the same filename_ as the one i used when the system crashed. any ideas?
+2010-11-13T03:20:00.000Z	tehnef	bobbi	remove the file with the offending filename? sounds like a permissions screwup
+2010-11-13T03:22:00.000Z	bobbi	tehnef	yes i get a permission error in open office like object not accessible due to user rights. but i've tried deleting the file multiple times. its in my ~/Document folder and i can save the filename with all other programs. just ooo
+2010-11-13T03:42:00.000Z	bobbi	tehnef	ok i solved it. it was a hidden "lock" file in the same directory

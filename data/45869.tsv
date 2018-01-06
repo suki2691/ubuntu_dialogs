@@ -1,0 +1,4 @@
+2009-11-01T01:49:00.000Z	mathepic		How do I change my login theme in Karmic since Administration/Login Screen does not let me do that?
+2009-11-01T01:50:00.000Z	trism	mathepic	gksudo -u gdm dbus-launch gnome-appearance-properties; this will let you set the gtk theme and wallpaper, etc
+2009-11-01T01:51:00.000Z	mathepic	trism	that doesn't work
+2009-11-01T01:52:00.000Z	trism	mathepic	it will say gnome appearance properties, but it will edit the gdm theme

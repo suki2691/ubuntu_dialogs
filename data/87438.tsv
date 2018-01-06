@@ -1,0 +1,4 @@
+2009-03-09T13:46:00.000Z	X4D		hello, I'm trying to setup SSH access from an external network. Locally it works fine, I've also successfully configured DynDNS, I've opened up the necessary ports on UFW, forwarded the ports in the router and made a port scan to verify the service is listening. But I still get a connection refused... what am I missing here? Is there a setting that is on that will only allow ssh connections from the local network ?
+2009-03-09T13:47:00.000Z	dayo	X4D	probably ssh is not installed on the target system.   sudo aptitude install ssh
+2009-03-09T13:47:00.000Z	X4D	dayo	it's installed and working perfectly locally
+2009-03-09T13:48:00.000Z	dayo	X4D	u are sure u have ssh on *both* sides of the connection attempt? how about your firewall. does it allow ssh? i use firehol on my server, and i need to explicitly allow ssh or any other service

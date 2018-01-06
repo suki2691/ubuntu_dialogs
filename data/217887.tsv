@@ -1,0 +1,4 @@
+2011-05-05T15:56:00.000Z	wodim		how does one disable a service at startup?
+2011-05-05T15:56:00.000Z	wodim		i'd use rcconf in debian, but i have no network access here
+2011-05-05T15:58:00.000Z	Viking667	wodim	I often wander into /etc/init and find the service to disable, rename the .conf file so it's something like myservice.conf.disabled
+2011-05-05T16:01:00.000Z	Viking667	wodim	by the way, have you walked through the man page for "upstart(8)" yet?

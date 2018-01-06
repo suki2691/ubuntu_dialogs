@@ -1,0 +1,4 @@
+2010-08-31T23:21:00.000Z	Muscovy		Could someone tell me how to determine if dpkg is running? I'm trying to make a script that does. Thanks.
+2010-08-31T23:21:00.000Z	erUSUL	Muscovy	pgrep dpkg
+2010-08-31T23:23:00.000Z	erUSUL	Muscovy	use the apt lock
+2010-08-31T23:25:00.000Z	Muscovy	erUSUL	What is the apt lock? I thought it was /var/lib/dpkg/lock, but that never goes away.

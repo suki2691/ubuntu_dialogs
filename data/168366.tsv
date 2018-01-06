@@ -1,0 +1,4 @@
+2007-10-23T03:46:00.000Z	Reng		My external hdd lost write access. how can i fixed this??
+2007-10-23T03:46:00.000Z	gumby600m	Reng	 look in /etc/fstab and make sure you have permissions to write to the drive
+2007-10-23T03:50:00.000Z	gumby600m	Reng	 I think the "umask=XXX" gives you the permissions...  I know that "umask=007" is read-only
+2007-10-23T03:50:00.000Z	gumby600m	Reng	 I would try googling "/etc/fstab umask write permissions" or something like that

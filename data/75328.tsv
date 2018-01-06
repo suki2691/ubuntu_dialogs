@@ -1,0 +1,4 @@
+2009-11-04T10:01:00.000Z	loquitus		How do I tar a bunch of files without including the directory they are in as part of the tarball?
+2009-11-04T10:02:00.000Z	loquitus		For example, if they are in tmp/, and I do tar cf foo.tar tmp/, it will include tmp/ in the resulting archive.
+2009-11-04T10:02:00.000Z	Hilikus	loquitus	try tmp/*
+2009-11-04T10:02:00.000Z	loquitus	Hilikus	actually it was the /* I did.

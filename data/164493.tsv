@@ -1,0 +1,4 @@
+2006-10-13T15:30:00.000Z	friday		Hi, I changed my LCD monitor from using the DVI connection to the VGA connection on my graphics card. Then I had to run dpkg-reconfigure xserver-xorg, but apparently the default frequency settings doesnt, work. Now I im stuck at GDM with a frequency my monitor cant display. How do I get to a console prompt? Is there an easy way to tell what frequencies i need to input? Why doesnt it just autodetect it as it did when I had it on the DVI connector?
+2006-10-13T15:31:00.000Z	KenSentMe	friday	press ctrl+alt+f1, edit /etc/X11/xorg.conf
+2006-10-13T15:32:00.000Z	KenSentMe	friday	then reboot in emergency mode (or whatever it's called), choose it from grub
+2006-10-13T15:34:00.000Z	friday	KenSentMe	cpk2 dang 2 sec timer on the menu, thats why i never saw it :-)

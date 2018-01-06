@@ -1,0 +1,4 @@
+2005-04-28T12:38:00.000Z	cnez0red		Well I'm on dialup, and I know for a fact that if there's more than two dns lines in my /etc/resolv.conf, I'm going to have difficulties resolving addresses.
+2005-04-28T12:39:00.000Z	cnez0red		Usually what I do if that happens, is disconnect, type $sudo echo "" > /etc/resolv.conf
+2005-04-28T12:39:00.000Z	cnez0red		and then reconnect.
+2005-04-28T12:40:00.000Z	kyncani	cnez0red	Marble2: i think there are two nameservers, a primary and a secondary one

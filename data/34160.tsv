@@ -1,0 +1,4 @@
+2010-04-11T07:14:00.000Z	jsjc		when it comes to basic things i am a bit stupid... I am creating a bash script that I want cron to exec but I need to know as which user cron execs that file?? root???
+2010-04-11T07:14:00.000Z	seurgey	jsjc	chmod +x to make it executable
+2010-04-11T07:15:00.000Z	seurgey		anyone know how to set up a pptp server?
+2010-04-11T07:15:00.000Z	jsjc	seurgey	yes i know but cron will run it as root? Because in this script there is ssh and scp command that need to be exec as root so the private keys work

@@ -1,0 +1,4 @@
+2012-08-24T23:06:00.000Z	svip_		Is it possible to remove and install two different packages at the same time, so dpkg won't remove a whole bunch of packages only to install them again?
+2012-08-24T23:06:00.000Z	Sven_vB	svip_	yes, e.g. with aptitude install do-not-want_ want-this-instead
+2012-08-24T23:07:00.000Z	Sven_vB	svip_	the _ at the end tells it to purge that
+2012-08-24T23:07:00.000Z	svip_	Sven_vB	Awesome.  Thanks for that.

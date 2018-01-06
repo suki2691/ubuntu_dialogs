@@ -1,0 +1,4 @@
+2009-04-09T11:54:00.000Z	lvlefisto	J-_	if you open /etc/fstab it will list your partitions. And The one with the type swap it is.
+2009-04-09T11:55:00.000Z	J-_	lvlefisto	I'm dual booting. /etc/fstab doesn't show my swap. It's not in use at the moment. This is why I'm trying to find out the UUID.
+2009-04-09T11:56:00.000Z	J-_		There's no UUID for my swap partition. Weird.
+2009-04-09T11:56:00.000Z	lvlefisto	J-_	the disk mounter panel applet will show you the not mounted available partition, if you mount one of them you can see in its propierties the UUID

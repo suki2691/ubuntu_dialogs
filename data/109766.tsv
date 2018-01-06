@@ -1,0 +1,4 @@
+2008-10-17T21:48:00.000Z	yancho		I have HPLip 0.9.7 (Ubuntu 6.06) installed and want to update it to the one of HP 2.9.8 .. If i go to Synaptic it says that it will uninstall also ubuntu-desktop .. is it save to do so?
+2008-10-17T21:48:00.000Z	Flannel	yancho	ubuntu-desktop is just a metapackage, so yes.  But Have you considered upgrading to Hardy?
+2008-10-17T21:49:00.000Z	yancho	Flannel	 got alot of software (i know is bad) which is installed as tar .. so until i am finished with the thesis i cannot upgrade to hardy
+2008-10-17T21:50:00.000Z	Flannel	yancho	Fair enough.  In the future, make sure all of that goes in /usr/local/* which will make upgrading easier (of course, you likely already know this)

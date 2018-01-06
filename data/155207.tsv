@@ -1,0 +1,4 @@
+2007-02-03T09:17:00.000Z	michaelpo		how do i check if ubuntu6.06 detected my cdwriter correctly or not?
+2007-02-03T09:18:00.000Z	adaptr	michaelpo	dmesg | grep hd
+2007-02-03T09:19:00.000Z	adaptr	michaelpo	or cat /proc/ide/hd?/model
+2007-02-03T09:20:00.000Z	adaptr	michaelpo	it would be quite hard for Linux to detect your hardware *in*correctly, as that info is simply stored on the drive

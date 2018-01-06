@@ -1,0 +1,4 @@
+2007-09-06T06:04:00.000Z	gustavo		i need some help with amavis/postfix, "Starting amavisd:   The value of variable $myhostname is "gustavo-laptop", but should have been a fully qualified domain name;"
+2007-09-06T06:06:00.000Z	nbkr	gustavo	Amavais expects something like mail.yourdomain.com for "hostname"
+2007-09-06T06:06:00.000Z	gustavo	nbkr	i changed it on postfix - main.cf
+2007-09-06T06:07:00.000Z	nbkr	gustavo	maybe amavis has another config file?

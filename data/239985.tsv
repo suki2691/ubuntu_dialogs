@@ -1,0 +1,4 @@
+2008-11-18T03:58:00.000Z	supercom32		Is there a simple way to duplicate/clone a users account so all the settings get cloned rather than back at default for laborus configuration again?
+2008-11-18T03:59:00.000Z	supercom32		/etc/skel?
+2008-11-18T03:59:00.000Z	supercom32		well, if you copy the home folder, doesn't that cause big problems? When i remember doing that last, lots of stuff didn't startup right. hardcoded paths?
+2008-11-18T03:59:00.000Z	nickrud	supercom32	the dot files (the files/folders starting with a period) in the home dir holds the configs. Copy them over, and change the ownership. There may be a few that have the home path hard coded in them, you can search for that with grep

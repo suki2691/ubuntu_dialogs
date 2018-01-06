@@ -1,0 +1,4 @@
+2005-01-06T15:45:00.000Z	jats		did anyone have any idea about why warty's installer won't install the base system? it tries to start the partitioner, which won't start. could it have anything to do with the fact that i enabled some swap manually earlier on in the install?
+2005-01-06T15:46:00.000Z	crimsun	jats	which partition is the swap partition?
+2005-01-06T15:46:00.000Z	jats	crimsun	hda5
+2005-01-06T15:47:00.000Z	crimsun	jats	I know with the Warty prerelease that creating swap on /dev/hda1 hangs the installer; no idea if that was fixed.

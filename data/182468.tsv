@@ -1,0 +1,4 @@
+2008-04-01T22:22:00.000Z	[T]an2		what is the command to restart x in a terminal? i am doing a shell script to change my resolution and need it to issue a change in runlevel
+2008-04-01T22:23:00.000Z	stefg	[T]an2	sudo /etc/init.d(gdm start|stop|restart
+2008-04-01T22:23:00.000Z	stefg	[T]an2	sudo /etc/init.d/gdm start|stop|restart
+2008-04-01T22:24:00.000Z	stefg	[T]an2	if you want to make it portable to kubuntu use ?dm instead of gdm

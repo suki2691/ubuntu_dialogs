@@ -1,0 +1,4 @@
+2011-10-26T00:29:00.000Z	grkblood	Mion	i see you talking about video cards, do you knwo how to switch  hybriud graphics?
+2011-10-26T00:29:00.000Z	Mion	grkblood	depends on what it is
+2011-10-26T00:30:00.000Z	grkblood	Mion	whenever i try to use switcheroo to change to my discrete gpu with this command `echo DIS > /sys/kernel/debug/vgaswitcheroo/switch` i get the error vga_switcheroo: client 0 refused switch in my syslog, how do i switch cards?
+2011-10-26T00:30:00.000Z	Mion	grkblood	vga_switcharoo for amd, bumblebee(buggy) for nvidia

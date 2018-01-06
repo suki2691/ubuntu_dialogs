@@ -1,0 +1,4 @@
+2012-06-20T05:53:00.000Z	ldiamond		I  currently have /boot / and /home partitions on a hard drive. I want to move / to my new SSD. I changed /etc/fstab but / keeps being mounted in the old location.
+2012-06-20T05:53:00.000Z	ldiamond		nothing in grub really points to / via UUIDs
+2012-06-20T05:53:00.000Z	OerHeks	ldiamond	did you perform update-grub after those changes?
+2012-06-20T05:54:00.000Z	ldiamond	OerHeks	yes I did

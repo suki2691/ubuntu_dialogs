@@ -1,0 +1,4 @@
+2009-04-08T14:26:00.000Z	axyjo		hi all, can some bash wizard help me out? i want to recursively remove all files, except for the .svn folder, and except for one particular subfolder. someone did this for me before using find, but i don't remember how to do it now. thanks.
+2009-04-08T14:28:00.000Z	Boohbah	axyjo	find . -prune .svn | xargs rm -f
+2009-04-08T14:28:00.000Z	axyjo	Boohbah	thanks, i'll try it out
+2009-04-08T14:31:00.000Z	axyjo	Boohbah	I get an error. "find: .svn: unknown option"

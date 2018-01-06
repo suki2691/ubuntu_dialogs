@@ -1,0 +1,4 @@
+2007-01-27T08:06:00.000Z	edman007		what do i need to do to tell ubuntu to forget about trying to upgrade my kernel so i can do it from source then (so apt-get ignores it)
+2007-01-27T08:07:00.000Z	edman007		edgy
+2007-01-27T08:08:00.000Z	LjL	edman007	i was convinced that page answered your question, but i'm afraid it doesn't
+2007-01-27T08:10:00.000Z	LjL	edman007	you basically just need to give your own kernel package a newer version than what'll be pulled from the repositories, though the solutions involving removing linux* packages might also work. i'm not quite sure on the specific details however

@@ -1,0 +1,4 @@
+2007-11-30T10:09:00.000Z	WorkingOnWise		does apt save to /var/cache/apt/archives every deb I have installed?
+2007-11-30T10:10:00.000Z	riotkittie	WorkingOnWise	ls it and find out? :P
+2007-11-30T10:12:00.000Z	WorkingOnWise	riotkittie	I am looking as Disk Usage Analyzer and it shows  /var/cache/apt/archives has 2205 files in it consuming 2.6GB! how can I purge that? I have already installed all them! I sure don't need them burning disk space!
+2008-01-02T09:04:00.000Z	riotkittie	WorkingOnWise	*can* it use system ram ? if so, uhmm, back up /etc/X11/xorg.conf and then open a termintal and sudo dpkg-reconfigure xserver-xorg. you can specify ram on like the second or third screen in, iirc

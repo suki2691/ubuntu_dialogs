@@ -1,0 +1,4 @@
+2007-09-30T10:03:00.000Z	Smashcat		Anyone know of an alternative to wget that will discard output silently?
+2007-09-30T10:04:00.000Z	MasterShrek	Smashcat	wget -q
+2007-09-30T10:04:00.000Z	Smashcat	nanonyme	-q doesn't work, also --output-file=/dev/null doesn't work. Need another option really. I could just write an app in java/perl I guess.
+2007-09-30T10:05:00.000Z	MasterShrek	Smashcat	wget --help

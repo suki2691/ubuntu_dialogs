@@ -1,0 +1,4 @@
+2009-02-21T09:08:00.000Z	BehiiMehii		I have Vista installed on my computer, how do I create an Ubuntu partition and have it share the harddrive space (so I could access all files) with the Windows partition?
+2009-02-21T09:09:00.000Z	ziroday	BehiiMehii	well you can partition your system and have ubuntu run on one partition and windows on the other, ubuntu will be able to access the windows files
+2009-02-21T09:10:00.000Z	BehiiMehii	ziroday	nickrud: would that require them to be in different format, like Windows as an NTFS and Linux on something else, or can I have them both the same so I could browse among the files freely?
+2009-02-21T09:11:00.000Z	ziroday	BehiiMehii	ubuntu will be in the ext3 format, now ubuntu can read your windows files but windows can't read them back

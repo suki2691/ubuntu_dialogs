@@ -1,0 +1,4 @@
+2007-11-07T19:14:00.000Z	ihate88		heeeeeey there: i finally got my wlan drivers compiled(can i add them to ubuntu, so they are included in the next release?) - my question - ive got 6 kernel modules under /usr/local/sry/rtl8187b-modified - instead of insmodding them manually i copied them to /lib/modules/`uname -r`/rtl8187b . then i hammered in some "depmod"s and "depmod -A"s - in hope it will function. then i am able to load the r8187 module(it automatically loads its
+2007-11-07T19:14:00.000Z	ihate88		dependencies AND keeps them after reboot) NOW the part: the ieee80211's ccmp, tkip and wep modules are not loaded automatically when i load r8187 and in case i load them manually - they don't stay after the reboot
+2007-11-07T19:14:00.000Z	ihate88		is there any "nice" way of solving it? i want to do it the ubuntu way
+2007-11-07T19:14:00.000Z	Blinny	ihate88	Check /etc/modules

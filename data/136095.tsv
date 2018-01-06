@@ -1,0 +1,4 @@
+2009-01-07T20:05:00.000Z	hobbes006		hi guys, how do i configure it so that my "normal ubuntu user" can execute the "mount" and "umount" commands? i dont want to run as root.
+2009-01-07T20:05:00.000Z	hobbes006		i dont want to have to type "sudo mount"
+2009-01-07T20:06:00.000Z	Gnea	hobbes006	you can change fstab settings for specific devices, but for random devices, you'll need to do it as root initially. it has to be.
+2009-01-07T20:07:00.000Z	Gnea	hobbes006	no. read the URLs above, they will tell you how to do it right

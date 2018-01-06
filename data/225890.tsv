@@ -1,0 +1,4 @@
+2006-01-24T13:05:00.000Z	cybernmd		a quick question, i am experimenting with compiling a kernel from scratch and i have been getting kernel panics after i boot. I do not use any ram disks while booting, should i?
+2006-01-24T13:05:00.000Z	cybernmd		kernel panics when trying to work with filesystems
+2006-01-24T13:06:00.000Z	trappist	cybernmd	if you don't use an initrd you need to make sure everything required to mount your root fs is builtin, not a module
+2006-01-24T13:27:00.000Z	trappist	cybernmd	if your root device is sda1 make sure you have scsi support, scsi disk support etc. builtin too

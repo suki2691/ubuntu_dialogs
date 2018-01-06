@@ -1,0 +1,4 @@
+2006-05-26T10:46:00.000Z	alexcamilo{u}		i was trying to insall using aptitude and got this message "No candidate version found for gstreamer0.8-mad
+2006-05-26T10:46:00.000Z	alexcamilo{u}		" i'm on ubuntu 5.10 on a ppc
+2006-05-26T10:47:00.000Z	nickrud	alexcamilo{u}	you need to enable the universe repo, see the following link:
+2006-05-26T13:50:00.000Z	nickrud	alexcamilo{u}	try sudo apt-get update & then try the install again. If that doesn't work, you need to fix your /etc/apt/sources.list

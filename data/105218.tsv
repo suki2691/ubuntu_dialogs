@@ -1,0 +1,4 @@
+2009-10-06T12:55:00.000Z	shiftless		is there a way to make APT fetch multiple files at once? my LAME isp has just started limited individual connections to 2,397 bytes/sec max
+2009-10-06T12:56:00.000Z	ActionParsnip	shiftless	no as the single instance of apt will lock the pakages, you could manually wget files I guess
+2009-10-06T12:57:00.000Z	ActionParsnip	shiftless	you'd need to tell apt get to tell you what is possibly updatable, then get the debs manually, its a bit messy
+2009-10-06T13:01:00.000Z	ActionParsnip	shiftless	man apt-get

@@ -1,0 +1,4 @@
+2008-11-03T05:47:00.000Z	remu		Hey guys, I'm running Intrepid and wanted to try Kubuntu, how can I install that so that if I change my mind I can get rod of it cleanly?
+2008-11-03T05:49:00.000Z	yoyoned	remu	sudo aptitude install kubuntu-desktop
+2008-11-03T05:51:00.000Z	remu	yoyoned	if I do it that way, will sudo aptitude remove kubuntu-desktop properly, completely, and cleanly get rid of it all, including the config stuff in home?
+2008-11-03T05:53:00.000Z	yoyoned	remu	no.  It will leave junk behind.  But if you create a new user, and only use KDE for that user, there will be no config files created.  Or just use live cd

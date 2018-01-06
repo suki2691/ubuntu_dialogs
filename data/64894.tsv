@@ -1,0 +1,4 @@
+2009-10-09T02:39:00.000Z	[manas]		need help i intalled samba but i cant run it or configure???
+2009-10-09T02:40:00.000Z	ZykoticK9	[manas]	samba at it's lowest level is configured with the file /etc/samba/smb.conf -- to start samba "sudo /etc/init.d/samba start"
+2009-10-09T02:41:00.000Z	[manas]	ZykoticK9	do i need to start samba everytime i swich off my machine??
+2009-10-09T02:43:00.000Z	ZykoticK9	[manas]	no simply add it as an automatically started service "System / Administration / Services" - "Folder sharing service (samba)"

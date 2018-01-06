@@ -1,0 +1,4 @@
+2011-01-16T02:50:00.000Z	jonas_		I'm newb!! Just wondering, if i eg. make chmod -R 777 /path/to/directory and change file permissions, do these permissions 'stay' if I transfer files to ftp server?
+2011-01-16T02:52:00.000Z	jonas_		Okay, I tried to make 777 in a files, when i transfer the file to ftp using filezilla and right click for permissions, it tells me: numeric value: xxx
+2011-01-16T02:52:00.000Z	pradeep	jonas_	it depends but most times it does not... is your ftp server linux based
+2011-01-16T02:52:00.000Z	pradeep	jonas_	cant you change on the webserver

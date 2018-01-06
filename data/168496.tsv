@@ -1,0 +1,4 @@
+2007-02-07T14:16:00.000Z	delight		I'm using an edgy with mysql5 server ... does someone know where to set mysql to use unicode instead of latin1 ?
+2007-02-07T14:17:00.000Z	medic30420	delight	that is done table by table if needed, else you may have to recompile it :(
+2007-02-07T14:18:00.000Z	delight	medic30420	thanks, wondering why on a completly set to unicode system that is set to latin1 ... maybe that is something for a bugreport on launchpad ?
+2007-02-07T14:23:00.000Z	delight	medic30420	can i set utf8 only table-wise or is there a way to tell mysql that a whole db-instance is utf8 .. something lie "create database foo character set uf8;"

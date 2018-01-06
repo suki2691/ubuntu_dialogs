@@ -1,0 +1,4 @@
+2007-03-03T07:46:00.000Z	fotofl0		how do i uninstall a package so that the system has no trace it was ever installed?
+2007-03-03T07:48:00.000Z	fotofl0		can anyone help me? i need to uninstall a package, and leave no trace that it was ever there
+2007-03-03T07:48:00.000Z	bronze	fotofl0	apt-get remove, but it isn't known if all traces will be removed. it is not a security program
+2007-03-03T07:49:00.000Z	fotofl0	bronze	no luck... cause when i apt-get install the package after apt-get removing it, it dosnt run a setup program like it did the first time

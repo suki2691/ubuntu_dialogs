@@ -1,0 +1,4 @@
+2009-11-21T21:38:00.000Z	ericdb		I just got a replacement laptop, same hardware, because of a physical flaw in the first one.  What's the best way to replicate my Ubuntu install to the new laptop?  I don't want to swap hard drives because the new one has Win 7, and I'd rather screw with Ubuntu than with upgrading Vista->7.
+2009-11-21T21:38:00.000Z	erUSUL	ericdb	copy the paritions over with pasrtimage ? (does not support ext4 though) then install grub in the mbr
+2009-11-21T21:39:00.000Z	ericdb	erUSUL	ext4 is the case, though, so that's out.
+2009-11-21T21:40:00.000Z	erUSUL	ericdb	then use dd ? to replicate the partitions

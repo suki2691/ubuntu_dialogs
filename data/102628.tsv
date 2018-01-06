@@ -1,0 +1,4 @@
+2009-03-04T14:51:00.000Z	mejobloggs		i've put a floppy in the floppy drive but can't see it anywhere. how do i access it?
+2009-03-04T14:53:00.000Z	mejobloggs		yeah ubuntu
+2009-03-04T14:54:00.000Z	rww	mejobloggs	"sudo modprobe floppy" to activate the floppy module. "sudo nano /etc/modules" and add "floppy" at the end to keep it activated.
+2009-03-05T14:18:00.000Z	rww	mejobloggs	partitions in fstab aren't mounted automatically by default. you need to add "auto" to the options column for each partition for that (options column is the one after "ext3")

@@ -1,0 +1,4 @@
+2010-01-01T00:45:00.000Z	Craig`		`sudo apt-get install flex` I did that before trism
+2010-01-01T00:46:00.000Z	Craig`		when I sudo make install'ed it said I needed yacc
+2010-01-01T00:46:00.000Z	arquebus	Craig`	you dont want cl-yacc, ubuntu uses Bison instead of yacc
+2010-01-01T00:47:00.000Z	arquebus	Craig`	if youre compiling from source you will have to find dependecys like yacc yourself, the package manager wont help you

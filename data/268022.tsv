@@ -1,0 +1,4 @@
+2007-10-07T07:24:00.000Z	acoustyk		so does anyone know how I can get my linux partition to read my windows partition?  i'm trying to access my documents folder and all that
+2007-10-07T07:25:00.000Z	crimsun	acoustyk	use ntfs-3g
+2007-10-07T07:26:00.000Z	crimsun	acoustyk	meaning it no longer is accessible by default on login?
+2007-10-07T07:28:00.000Z	crimsun	acoustyk	ok, so let's look at a couple system files.  First, what does `grep ntfs /etc/fstab` in a Terminal give you?

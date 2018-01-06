@@ -1,0 +1,4 @@
+2005-11-05T12:16:00.000Z	alexbligh		On breezy, AMD64, how to I persuade ./configure to build a 32bit app, not a 64bit app? (i.e. build with sizeof(long)=4).
+2005-11-05T12:17:00.000Z	erUSUL	alexbligh	you'll need a complete 32b toolchain (gcc,binutils, libraries...) maybe is not worth the effort
+2005-11-05T12:18:00.000Z	alexbligh	erUSUL	mmm.... where would I get that from? (app I am trying to compile is not 64-bit clean)
+2005-11-05T12:21:00.000Z	erUSUL	alexbligh	i do not know if ubuntu has this for installing in amd64. iirc debian amd64 is clean from 32 bits so you are a bit on you're on

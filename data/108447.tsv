@@ -1,0 +1,4 @@
+2008-01-02T00:58:00.000Z	matthe1		help!  i'm having some troubles here.  trying to reinstall ubuntu.  i was using fedora. for some reason fedora didn't just create new partitions, it created new "devices".  one is called /dev/mapper/VolGroup00-LogVol00 for example.  how do I get rid of these undesirable "devices" so that I can set up the partition the way I used to have them (as all being under /dev/sda)????
+2008-01-02T00:58:00.000Z	annonymouse	matthe1	  run the live disk and use the partition manager via install
+2008-01-02T00:59:00.000Z	matthe1	annonymouse	 i'm on the live disk right now.  Gparted doesn't have any mechanism to delete devices (that i'm aware of).  The space that is showing up as under /dev/sda/ AND as the seperate devices.  However, I can't format the free space under /dev/sda/ I get errors!
+2008-01-02T01:00:00.000Z	annonymouse	matthe1	 sounds like ur disk is nakard

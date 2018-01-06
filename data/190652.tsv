@@ -1,0 +1,4 @@
+2007-04-27T15:27:00.000Z	MystaMax		hello everyone. I was wondering if I'd see any performance increase if I use the LVM filesystem instead of EXT3? can anyone answer that?
+2007-04-27T15:29:00.000Z	eck	MystaMax	i'd imagine the speed depends on how the physical volumes are configured
+2007-04-27T15:30:00.000Z	eck	MystaMax	i would guess that if a file is split across two disks that would make it faster (like raid)
+2007-04-27T15:30:00.000Z	MystaMax	eck	ok. I'm not doing anything that would require superior speed. I guess I'll just stick w/ EXT3. It seems LVM will only be useful to me if I wanted to expand the size of a partition

@@ -1,0 +1,4 @@
+2012-07-04T03:28:00.000Z	saori		hello!
+2012-07-04T03:30:00.000Z	saori		I have a new install of 12.04 desktop 32 bit, and I can't get my media keys to have any effect. I checked and the keys are properly bound n the keyboard settings page. What else might help me fix/troubleshoot this?
+2012-07-04T03:31:00.000Z	Jordan_U	saori	Try running "xev" and with the xev window in focus try pressing one of the media keys and see if it registers as an event (you'll have to watch the output in the terminal).
+2012-07-04T03:35:00.000Z	saori	Jordan_U	It does pop up with distinct events for each key.

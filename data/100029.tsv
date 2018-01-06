@@ -1,0 +1,4 @@
+2010-04-21T02:51:00.000Z	puff		So, I have this 500GB drive in a USB enclosure.  I need to partition it.  I'd originally planned to use it to buff out a tivo box, but at the moment I want to use it to back up my laptop so I can repartition, reinstall and etc.  What fstype do you suggest, ntfs, ext2?
+2010-04-21T02:51:00.000Z	perhamlinux	puff	ext3 is very stable, if you only need that
+2010-04-21T02:54:00.000Z	perhamlinux	puff	there is a system driver for reading ext3 filesystems on windows. google ext2ifs
+2010-04-21T02:55:00.000Z	perhamlinux	puff	and as ZykoticK9 says, ntfs is also very usable. I'm using it daily as a storage filesystem which is shared between my ubuntu and my windows and found no problem with it. both OSs write on it regularly without any problems

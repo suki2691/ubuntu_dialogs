@@ -1,0 +1,4 @@
+2012-03-25T23:17:00.000Z	derpella		Hello. If I erased stuff from nautilus as root, how do I delete it from it's unesistant trash bin?
+2012-03-25T23:19:00.000Z	guntbert	derpella	1) don't do that!     2) in terminal      sudo  ls -l /root/.local/share/Trash/    will show you what is there, then you can remove it
+2012-03-25T23:22:00.000Z	derpella	guntbert	thank you :)
+2012-03-25T23:23:00.000Z	guntbert	derpella	you're welcome :-) -- be very careful ™ when working as root

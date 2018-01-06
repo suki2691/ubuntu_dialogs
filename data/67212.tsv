@@ -1,0 +1,4 @@
+2011-07-31T05:01:00.000Z	g2bl33t		i want to move all my .pdf files to a dir called ebooks
+2011-07-31T05:01:00.000Z	g2bl33t		how do i do that with the terminal?
+2011-07-31T05:01:00.000Z	g2bl33t		why didnt mv *.pdf  > ebooks work?
+2011-07-31T05:02:00.000Z	EEMPHASISS	g2bl33t	try: find . -name \*.pdf -exec cp (or mv) {} ebooks \;

@@ -1,0 +1,4 @@
+2009-06-14T20:29:00.000Z	Guest28989		Good evening. I have got a computer (let's call it Server) with Ub. 9.04 on board and two network cards. First card goes to ADSL modem, second card goes to Win XP computer. How do I share Server's internet connection with Windows XP computer? Any links/solution keywords would be greatly appreciated. Thank you very much.
+2009-06-14T20:30:00.000Z	durt	Guest28989	you just need to set iptables to forward ip packets between interfaces.
+2009-06-14T20:31:00.000Z	Guest28989	durt	iptables is firewall-like application if I remember right?
+2009-06-14T20:33:00.000Z	durt	Guest28989	no, iptables IS the firewall (packet filter) that is in every linux kernel. Scripts (firewall apps) just change the settings of it

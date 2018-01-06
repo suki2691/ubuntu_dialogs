@@ -1,0 +1,4 @@
+2012-01-10T13:55:00.000Z	gaby		hello - any body can help me - how to use - netsend between ubuntu and windows please .
+2012-01-10T13:55:00.000Z	theadmin	gaby	netsend is a Windows thing, I don't think Ubuntu even has that
+2012-01-10T13:56:00.000Z	theadmin	gaby	However, "smbclient" has a -M option which is similar to net send
+2012-01-10T13:57:00.000Z	theadmin	gaby	Basically: smbclient -M windowshost <<< "MESSAGE"

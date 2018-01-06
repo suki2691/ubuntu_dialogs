@@ -1,0 +1,4 @@
+2006-10-17T10:36:00.000Z	Stormx2		If i've got two seperate scripts running at different locations (with the same name), how do I kill just one of them?
+2006-10-17T10:37:00.000Z	Stormx2		For example, ~/lol1/script and ~/lol2/script <-- how do I kill the first one?
+2006-10-17T10:38:00.000Z	Gumby	Stormx2	ps aux |grep script  then use kill PID_of_script
+2006-10-17T10:43:00.000Z	Stormx2	Gumby	Which is the PID?

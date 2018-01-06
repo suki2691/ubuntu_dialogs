@@ -1,0 +1,4 @@
+2008-03-15T23:51:00.000Z	popey		oh please, I know the difference
+2008-03-15T23:52:00.000Z	nikrud	popey	there is a reason: gksudo sets up the environment differently than sudo does, primarily changing $HOME to protect ~/.gconf
+2008-03-15T23:52:00.000Z	popey	nikrud	in this case I really dont think thats a problem
+2008-03-15T23:54:00.000Z	nikrud	popey	I agree, bullgard isn't clueless. But, someone might run sudo gedit , change a pref and suddenly a config file in $home is owned by root. Causes problems. So, we are careful not to suggest sudo with gnome apps

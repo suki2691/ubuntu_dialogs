@@ -1,0 +1,4 @@
+2009-09-28T09:59:00.000Z	michelle		I installed ubuntu 9.04 on this rather old computer, and in grub if I have it boot to the updated kernel 2.6.28-15-generic, it will go through the loading screen and then it's all black. Does someone know a fix?
+2009-09-28T10:01:00.000Z	michelle		It works fine if I choose kernel 2.6.28-11-generic instead though
+2009-09-28T10:01:00.000Z	n810	michelle	had the same problem, install karmic fixed it where jaunty did not
+2009-09-28T10:02:00.000Z	n810	michelle	it was a problem with that specific kernel and previous ones in jaunty, karmic ridded all those, also check your swap to ensure it is activated

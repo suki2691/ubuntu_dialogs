@@ -1,0 +1,4 @@
+2010-10-10T21:54:00.000Z	jesse2		Hello! I just tried to install ubuntu along windows on my laptop.  Ubuntu did not detect my hard drive (perhaps because ih ave a RAID 0 configuration?) but detected my external hard drive and installed to that.  Now, I can't boot into windows.  It still won't detect my internal hard drive, and the boot loader doesnt recognize windows, either
+2010-10-10T21:54:00.000Z	Stormx2	jesse2	what error do you get? Missing MBR?
+2010-10-10T21:56:00.000Z	Stormx2	jesse2	I thought you said you couldn't boot windows? You need to be more specific as to what the problem is.
+2010-10-10T21:57:00.000Z	Stormx2	jesse2	ah right. Well your options are 1) Investigate why ubuntu can't see windows (often it's just a dirty NTFS journal) and then add it as an option in GRUB, or 2) Find a windows CD and have it overwrite your MBR

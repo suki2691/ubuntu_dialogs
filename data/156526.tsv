@@ -1,0 +1,4 @@
+2008-05-21T11:54:00.000Z	proqesi		what command can I run to get info on my DVD drive?
+2008-05-21T11:55:00.000Z	genii	proqesi	lspci -vv               and you might want to pipe it to a file and open it up after, a lot of info in it
+2008-05-21T11:56:00.000Z	proqesi	JebJoya2	other than the name "nvidia", etc, not really
+2008-05-21T11:56:00.000Z	genii	proqesi	You might want something like:  sudo lspci -vv | ~/Desktop/systeminfo.txt                      then use a text editor to open that file on your desktop

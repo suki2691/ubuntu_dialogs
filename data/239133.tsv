@@ -1,0 +1,4 @@
+2008-03-18T20:09:00.000Z	bosnad		Hello people i'm running linux ubuntu 7.10 and my usernames its bosanac i want to rename it i mean to create another username and to send everything from bosanac to the new username can somebody help me ?
+2008-03-18T20:10:00.000Z	bosnad		Hello people i'm running linux ubuntu 7.10 and my usernames its bosanac i want to rename it i mean to create another username and to send everything from bosanac to the new username can somebody help me ?
+2008-03-18T20:10:00.000Z	Gumby	bosnad	create the new user, sudo cp -R /home/bosanac/* /home/new_user && sudo chown -R new_user:new_user /home/new_user
+2008-03-18T20:11:00.000Z	Gumby	bosnad	obviously new_user will be the name of the new user in the commands I just wrote

@@ -1,0 +1,4 @@
+2008-01-08T09:59:00.000Z	Lurner		Hey.. I'm 3/4 of the way to getting a samba share to work. I've got both machines to see each other in the Network Neighbourhood/Places/Network area, and the Linux machine can access the XP machine but the XP machine is forced to do a log in to the Linux machine, so obviously I have to make an account on the linux machine for the XP machine. I have already said which folder I want to share, now how to I create an account for this Samba share
+2008-01-08T09:59:00.000Z	Lurner		 ?
+2008-01-08T10:00:00.000Z	Dr_willis	Lurner	 i alwsya make xp and linux users with identical names and passwords.. and i also give the linux user a samba password with 'sudo smbpasswd -a USERNAME'
+2008-01-08T10:00:00.000Z	Dr_willis	Lurner	 i make that password identical to the users password. :)

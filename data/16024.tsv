@@ -1,0 +1,4 @@
+2011-04-09T01:15:00.000Z	ericbarnes		I am trying to setup a cron job via these directions and it isn't working. http://bit.ly/eV0gdQ  Anyway to debug cron jobs and actually see if they are being called?
+2011-04-09T01:15:00.000Z	meganerd	ericbarnes	pipe the output to a text file in the crontab entry.
+2011-04-09T01:18:00.000Z	ericbarnes	meganerd	Thanks. To confirm adding >> log.file will log it to the /etc/cron.d/ dir?
+2011-04-09T01:19:00.000Z	meganerd	ericbarnes	you specify the whole path after >>, otherwise it will go into the home directory of the user whose crontab it is

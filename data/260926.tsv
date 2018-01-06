@@ -1,0 +1,4 @@
+2005-02-01T15:05:00.000Z	zooko		Oh boy.  I've screwed up my perl-base package.   8-(
+2005-02-01T15:05:00.000Z	zooko		Can't locate File/Basename.pm in @INC (@INC contains: /etc/perl /usr/local/lib/perl/5.8.4 /usr/local/share/perl/5.8.4 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.8 /usr/share/perl/5.8 /usr/local/lib/site_perl .) at /usr/sbin/install-docs line 24.
+2005-02-01T15:06:00.000Z	zooko		which .deb has Basename.pm ?
+2005-02-01T15:07:00.000Z	__daniel	zooko	apt-file can help you there

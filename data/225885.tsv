@@ -1,0 +1,4 @@
+2006-01-04T10:04:00.000Z	gunfus		how can I modify teh max resolution that gnome uses..?
+2006-01-04T10:04:00.000Z	gunfus		The max resolution that I can select is 1024 by 724
+2006-01-04T10:04:00.000Z	trappist	gunfus	sudo dpkg-reconfigure xserver-xorg
+2006-01-04T10:05:00.000Z	trappist	gunfus	it's xorg's resolution, not gnome's.  gnome just runs on top of xorg

@@ -1,0 +1,4 @@
+2011-03-25T09:36:00.000Z	grandrew		hi all! is it possible to set the rule in iptables so that packets do not go through a certain gateway? (I have several gateways in system)
+2011-03-25T09:37:00.000Z	grandrew		I know that I can block destinations in iptables, but is it possible to create route rules?
+2011-03-25T09:38:00.000Z	jrmcm	grandrew	I think thats done through the routing tables not iptables, but im not sure. I do remember reading it somewhere
+2011-03-25T09:41:00.000Z	grandrew	jrmcm	the problem is that it IS actually done by routing already but when the device w/rule goes down - my rule is dropped and the packets go through other gateway which I do not want. And I cannot add rule for pkts to go elsewhere since other device does not exist

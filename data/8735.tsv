@@ -1,0 +1,4 @@
+2011-10-15T04:58:00.000Z	Static		Hello, the process "init" on my ubuntu computer is using 96-100% CPU, is there any way to lower this? (Tried rebooting)
+2011-10-15T04:59:00.000Z	phiscibe	Static	init most likely has many subprocesses under it, finding the one eating your cpu might give a clue
+2011-10-15T05:00:00.000Z	phiscibe		you could try top or htop at the command or if you can get a process monitor open in the gui
+2011-10-15T05:01:00.000Z	Static	phiscibe	None of the other processes are using much CPU (mostly 0%)

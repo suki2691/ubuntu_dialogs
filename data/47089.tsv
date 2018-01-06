@@ -1,0 +1,4 @@
+2009-09-23T03:45:00.000Z	haris		Any command line junkies here? How do I use the output of a previous command as an argument in the current command?
+2009-09-23T03:45:00.000Z	haris		In bash of course
+2009-09-23T03:46:00.000Z	remo234	haris	Try using a pipe?  ls | nextcommand.
+2009-09-23T03:47:00.000Z	haris	remo234	ok here's what I want. first I did "which gconftool" and the output was /usr/bin/gconftool .. next I want to do a "file" on that. So I could do file `which gconftool` but I don't want to type `which gconftool` again .. get what I am saying?

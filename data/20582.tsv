@@ -1,0 +1,4 @@
+2011-04-23T03:32:00.000Z	bencc		can I change all the permissions inside a .tar.gz file?
+2011-04-23T03:34:00.000Z	schnuffle	bencc	checked the man page and I don't think so
+2011-04-23T03:42:00.000Z	schnuffle	bencc	 you can use --owner to change the owner while creating the archive but the default is that the user unpacking the files will own the files
+2011-05-06T17:44:00.000Z	schnuffle	bencc	normally a new user gets a group with the same name

@@ -1,0 +1,4 @@
+2008-07-30T17:50:00.000Z	cdoublejj		Ok i have narrowed my wirless troubles down to this sudo lspci -v | less brings up nothing and when i mous over my braodcom driver it says i need a firmware ??????
+2008-07-30T17:50:00.000Z	SNuxoll	cdoublejj	ahh, you must have the same chipset as me
+2008-07-30T17:50:00.000Z	SNuxoll	cdoublejj	all you need to do is open the restricted drivers manager, check the box and enable the restricted firmware, and click apply
+2008-07-30T17:50:00.000Z	SNuxoll	cdoublejj	after a rebooot your card should work perfectly

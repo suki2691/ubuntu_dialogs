@@ -1,0 +1,4 @@
+2008-02-13T04:48:00.000Z	phantomcircuit		i want to get the size of a file using a shell script how can i do that?
+2008-02-13T04:48:00.000Z	pike_	phantomcircuit	ls -lh filename | awk "{print $ 5}" i think
+2008-02-13T04:49:00.000Z	pike_	phantomcircuit	the 5 is for the fifth column
+2008-02-13T04:50:00.000Z	phantomcircuit	pike_	sweet

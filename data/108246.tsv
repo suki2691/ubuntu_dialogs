@@ -1,0 +1,4 @@
+2007-12-31T21:56:00.000Z	troythetechguy		Why when I make a change to my /boot/grub/menu.lst do I need to run update-grub for the changes to take effect?  Does the menu.lst file not ge
+2007-12-31T21:58:00.000Z	biff420	troythetechguy	i believe grub needs to write the changes to the boot sector on the HD
+2007-12-31T22:00:00.000Z	troythetechguy	biff420	So that would mean menu.lst is not read at boot then, right?
+2007-12-31T22:00:00.000Z	biff420	troythetechguy	i don't think so, i think you write it one and then if it changes it has to be written again

@@ -1,0 +1,4 @@
+2008-03-24T19:44:00.000Z	seamus_ie	bartmon	this is because the kernel only has ext3 drivers compiled into it.
+2008-03-24T19:45:00.000Z	bartmon	seamus_ie	Ah... But not even ext2 support which is a subset of ext3? :)
+2008-03-24T19:46:00.000Z	seamus_ie	bartmon	yup, you could compile a kernel with reiserfs support built in or just use ext3 for /boot and / and use reiserfs for /home
+2008-03-24T19:46:00.000Z	bartmon	seamus_ie	danand: Thanks for the info.

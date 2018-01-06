@@ -1,0 +1,4 @@
+2005-06-27T05:29:00.000Z	BROKEN_LADDER		does anyone know of a way to fix my system if i broke it by running dist-upgrade?
+2005-06-27T05:29:00.000Z	BROKEN_LADDER		is there any way to downgrade in apt-get?
+2005-06-27T05:30:00.000Z	EvanCarroll	BROKEN_LADDER	sort of.
+2005-06-27T05:30:00.000Z	EvanCarroll	BROKEN_LADDER	if you don't run apt-get clean, you still have the old debs, and you can dpkg -i them

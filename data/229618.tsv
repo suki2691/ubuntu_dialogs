@@ -1,0 +1,4 @@
+2006-12-04T16:55:00.000Z	j_		i have a fresh install of edgy. i've installed proftpd and openssh but can't seem to connect to either
+2006-12-04T16:56:00.000Z	j_		even from the local machine
+2006-12-04T16:56:00.000Z	j_		what am i doing wrong?
+2006-12-04T16:57:00.000Z	bimberi	j_	make sure they're running: 'sudo netstat -plunt' will show you if they have ports open

@@ -1,0 +1,4 @@
+2006-08-10T12:01:00.000Z	luxc		I try to change the permission of this sources.list
+2006-08-10T12:03:00.000Z	luxc		is it possible to change the permission of this etc/apt/sources.list
+2006-08-10T12:04:00.000Z	ardchoille	luxc	Probably not a good idea unless it's messed up. Why would you want to change perms on it?
+2006-08-10T12:05:00.000Z	ardchoille	luxc	You can open the list for editing with:  gksudo gedit /etc/apt/sources.list

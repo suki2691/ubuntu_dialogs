@@ -1,0 +1,4 @@
+2008-06-13T01:22:00.000Z	omposter		I have two computers: One running arch, one running ubuntu 8.04. My arch box just uses ifconfig and dhcpcd to grab IPs from my router. The ubuntu box has some weird networking mess. Ubuntu box needs to be rebooted several times before it can grab an IP. Any ideas on what I should look for?
+2008-06-13T01:23:00.000Z	nano	omposter	maybe you need to reduce the MTU size setting on your routher
+2008-06-13T01:23:00.000Z	omposter	nano	how is that even supposed to help? :-\
+2008-06-13T01:24:00.000Z	nano	omposter	with my ubuntu, i can only access the router; however, i cannot have my requests forwarded beyond the router if the mtu size setting on the router is not < 1400

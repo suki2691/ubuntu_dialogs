@@ -1,0 +1,4 @@
+2012-04-05T14:42:00.000Z	bobweaver		ok so I have this zpanel@zpanel:~/ZpanelX/etc/build/config_packs/ubuntu_11_10$ ifconfig| grep addr| awk '/inet/  {print $2}' | grep -v 127.0.0.1| head -n 1|
+2012-04-05T14:42:00.000Z	bobweaver		but how to cut to a delimiter of :
+2012-04-05T14:42:00.000Z	bobweaver		sorry   ::   ifconfig| grep addr| awk '/inet/  {print $2}' | grep -v 127.0.0.1| head -n 1|
+2012-04-05T14:43:00.000Z	b1nr	bobweaver	probably you  should check these in #bash instead of #ubuntu

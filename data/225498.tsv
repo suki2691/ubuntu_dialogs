@@ -1,0 +1,4 @@
+2012-10-21T19:00:00.000Z	subichan		lscpu counts HT cores as well under CPU, right?
+2012-10-21T19:01:00.000Z	kostkon	subichan	cat /proc/cpuinfo does, so lscpu does it too
+2012-10-21T19:01:00.000Z	kostkon	subichan	see above, better substitute it with: cat /proc/cpuinfo
+2012-10-21T19:03:00.000Z	kostkon	subichan	if you only want to count the number of cpus, then probably yes

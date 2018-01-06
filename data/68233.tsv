@@ -1,0 +1,4 @@
+2011-01-01T17:22:00.000Z	buntu		hi! i have an issue. My /home is running out of disk space, i added an extra HD, but what's the method to move home to new HD?
+2011-01-01T17:23:00.000Z	buntu		hi John
+2011-01-01T17:23:00.000Z	CyL	buntu	partition the new hd, format it, copy files, remount the new hd as your home (optinionally wipe your old home so that you can save some space after being sure everything is fine with the new home)
+2011-01-01T17:28:00.000Z	CyL	buntu	if you mount your mount your new home without moving it before, the old files become unacessible..

@@ -1,0 +1,4 @@
+2008-11-08T00:03:00.000Z	unique		E: Could not get lock /var/lib/dpkg/lock - open (11 Resource temporarily unavailable)
+2008-11-08T00:03:00.000Z	unique		E: Unable to lock the administration directory (/var/lib/dpkg/), is another process using it?
+2008-11-08T00:04:00.000Z	unique		when i try to install ia32-libs.. i get that error
+2008-11-08T00:04:00.000Z	chuckmoney	unique	check and be sure ubuntu isn't checking for updates.  look at the icons in the system tray.  if it's looking for updates the icon will be gray.  if it is, that's what's using dpkg.

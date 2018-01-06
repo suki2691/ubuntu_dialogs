@@ -1,0 +1,4 @@
+2010-05-05T17:29:00.000Z	SandGorgon		is there a upstart service manager that lets me choose services (like mysql.etc.) that should be started/not-started on boot ?
+2010-05-05T17:29:00.000Z	marienz	SandGorgon	I'm pretty sure that's still controlled through the sysv compatibility layer
+2010-05-05T17:30:00.000Z	SandGorgon	marienz	ActionParsnip, BobMarley I used to use sysv-rc-conf, but that may no longer be applicable, since I dont see entries for mysql in there
+2010-05-05T17:31:00.000Z	marienz	SandGorgon	I haven't checked if mysql has a pure upstart init script. If it does you may have to edit the script directly.

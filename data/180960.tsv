@@ -1,0 +1,4 @@
+2008-03-06T16:21:00.000Z	faragelloo		can i use rpms from other distros into ubuntu?
+2008-03-06T16:22:00.000Z	NinjaPlimsoles	faragelloo	Ubuntu is debian based, so primarily it uses .deb, but you can use the command line 'alien' to change an rpm into a deb
+2008-03-06T16:23:00.000Z	NinjaPlimsoles	faragelloo	specifically: sudo alien -d package-name.rpm
+2008-03-06T16:24:00.000Z	NinjaPlimsoles	faragelloo	if you wish to convert the selected .rpm into a .deb and then install the output use: sudo alien -i package-name.rpm

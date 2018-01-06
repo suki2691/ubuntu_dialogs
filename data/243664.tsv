@@ -1,0 +1,4 @@
+2005-04-05T07:31:00.000Z	stang		can someone tell me if I have an ipv6 problem?  I just downloaded hoary preview and was very impressed.  Everything worked perfect... until i did apt-get upgrade... now it looks as if the dns is never resolved.
+2005-04-05T07:31:00.000Z	crimsun	stang	the first thing you should inspect is whether /etc/resolv.conf looks sane
+2005-04-05T07:33:00.000Z	stang	crimsun	ok... I'll switch back over and check it out, I use a little script I made to connect to my home wireless network with a static ip that works just fine in FC3 and did work just fine in hoary... then after updating, all went to hell
+2005-04-05T07:44:00.000Z	stang	crimsun	no problems now... thanks

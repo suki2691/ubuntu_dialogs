@@ -1,0 +1,4 @@
+2009-07-05T23:20:00.000Z	macondo		For some reason I can't eject my cd drive physically (pressing the button), is there any way I can do this from ubuntu itself?
+2009-07-05T23:21:00.000Z	macondo		Hmm, it just doesn't eject. Maybe it's broken.
+2009-07-05T23:21:00.000Z	The_Cog	macondo	try sudo unount -l /dev/cdrom
+2009-07-05T23:22:00.000Z	The_Cog	macondo	correction: try sudo umount -l /dev/cdrom

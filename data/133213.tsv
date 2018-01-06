@@ -1,0 +1,4 @@
+2007-05-25T11:30:00.000Z	turffy		hi is there a equivalent command for rpm -qa | grep samba, I want to check if all samba package are installed in my server?
+2007-05-25T11:32:00.000Z	uid0complex	turffy	as in, "sudo dpkg-query"  -- also, check the man page.  Should be easy enough :)
+2007-05-25T11:31:00.000Z	uid0complex	turffy	try dpkg-query -S
+2007-05-25T11:31:00.000Z	turffy	uid0complex	tnx, I will try it

@@ -1,0 +1,4 @@
+2010-09-22T09:18:00.000Z	mast`		Is it possible to "merge" an empty partition (by let say destroying it) with my current ubuntu partition without damaging my installation?
+2010-09-22T09:18:00.000Z	AbhiJit	mast`	do you have separate '/'??
+2010-09-22T09:19:00.000Z	mast`	AbhiJit	 one of the partition is empty, it could be unformatted space
+2010-09-22T09:20:00.000Z	AbhiJit	mast`	if you have separate '/' (root) and separate /home then merge that empty partition to /home and not to / thus reducing the risk of damage. if you dont have such separte / adn /home thne there will be always a risk of damage. do that carefully

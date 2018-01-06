@@ -1,0 +1,4 @@
+2008-03-26T17:34:00.000Z	BlueElmo		Can someone tell me how to start a wireless connection in the terminal?
+2008-03-26T17:35:00.000Z	soundray	BlueElmo	if it's configured, just 'sudo ifup wlan0' (substitute wlan0 with your device name)
+2008-03-26T17:37:00.000Z	soundray	BlueElmo	read all of what I said
+2008-03-26T17:39:00.000Z	soundray	BlueElmo	then it's not configured (edit /etc/network/interfaces , use 'man interfaces' and have a look at the wiki help)

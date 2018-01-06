@@ -1,0 +1,4 @@
+2005-03-04T13:55:00.000Z	dtudosie		hi, people !
+2005-03-04T13:56:00.000Z	dtudosie		does anybody know how can I install a deb package from a local source ?
+2005-03-04T13:56:00.000Z	dtudosie		(made a deb from sun's bin of jsk 2 1.5)
+2005-03-04T13:57:00.000Z	JDahl	dtudosie	you can use dpkg -i file.deb (e.g., for just installing your own kernel), or for larger repositories you can update sources.list with a local disk entry

@@ -1,0 +1,4 @@
+2011-11-09T17:52:00.000Z	ispirto		hey, i have a bin file which contains a gzip file, i'm trying to get the gzip part from it. I know gzip files starts with "1F 8B 08". So I open the bin file with a hex editor and search for that string. And get the offset. Convert it to decimal and use it in dd command. i.e: dd if=openrg-4.5.3.PRGE4202G_TEL_4.3.2.0250-DRGTW_96358.rmt of=test.img.gz bs=1c skip=28437 But it doesn't work. What am I doing wrong?
+2011-11-09T17:54:00.000Z	Thelmaria	ispirto	Have you tried running it through urar or similar to remove compression?
+2011-11-09T17:55:00.000Z	ispirto	Thelmaria	it's a firmware file. so it won't work :)
+2011-11-09T18:16:00.000Z	Thelmaria	ispirto	There's an FAQ on the gzip site - http://www.gzip.org/#faq2

@@ -1,0 +1,4 @@
+2006-04-07T08:54:00.000Z	ghosty		anyone here got icmpenum installed on ubuntu ?
+2006-04-07T08:56:00.000Z	ghosty		having trouble cant find bash: libnet-config: command not found , anyone know what i need to install
+2006-04-07T08:57:00.000Z	ghosty		im trying to compile like this gcc `libnet-config --defines` -o icmpenum icmpenum.c -lnet -lpcap
+2006-04-07T08:58:00.000Z	nickrud	ghosty	depending on if you have libnet1 or libnet0 installed, install libnet0-dev or libnet1-dev

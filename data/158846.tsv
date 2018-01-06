@@ -1,0 +1,4 @@
+2008-02-04T15:42:00.000Z	gatestone		How do I capture loopback traffic from MySQL client/server?
+2008-02-04T15:43:00.000Z	gatestone		I see nothing on Wireshark loopback interface.
+2008-02-04T15:43:00.000Z	Kevin`	gatestone	your probably using a filesystem socket instead of a network socket
+2008-02-04T15:44:00.000Z	Kevin`	gatestone	I think if you give it a port number it will do it

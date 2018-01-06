@@ -1,0 +1,4 @@
+2008-10-16T06:15:00.000Z	trimeta		I mean, it's really annoying when it tries to get a copy of the /boot/System.map-2.6.24-19-server file, which no longer exists, just so it can remove something I don't want anyway.
+2008-10-16T06:16:00.000Z	dajhorn	trimeta	If your root filesystem is in a regular partition, then you can just stop using /boot.
+2008-10-16T06:16:00.000Z	trimeta	dajhorn	It (my main filesystem) is on one system, but it's an LVM on another.
+2008-10-16T06:16:00.000Z	dajhorn	trimeta	If the root ("/") is in RAID or LVM, then you should just backup and reinstall.

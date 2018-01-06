@@ -1,0 +1,4 @@
+2012-03-04T00:45:00.000Z	Church		uname -a shows only running kernel. useful only to tell version (if you need updates) and to tell if it's x86 or 64bit. not for telling distribution version
+2012-03-04T00:46:00.000Z	Church		check under which user it runs
+2012-03-04T00:47:00.000Z	L3top_	Church	ls /lib/modules
+2012-03-04T00:48:00.000Z	L3top_	Church	ls /lib/modules --sort time|head -1    will show most recent

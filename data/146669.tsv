@@ -1,0 +1,4 @@
+2009-07-01T07:27:00.000Z	OneirosFade		Hey all.  Can someone spare a few minutes to assist me in troubleshooting some permissions problems?  I'm stuck :(
+2009-07-01T07:28:00.000Z	Edward_	OneirosFade	Drop a summary of the problem in
+2009-07-01T07:31:00.000Z	Edward_	OneirosFade	You need to get individual users to access smb shares as themselves, rather than one system connection
+2009-07-01T07:31:00.000Z	Edward_	OneirosFade	You've mounted the share using /etc/fstab right?

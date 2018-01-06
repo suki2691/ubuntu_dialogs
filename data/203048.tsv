@@ -1,0 +1,4 @@
+2005-12-28T09:03:00.000Z	dailyrorschach		has anyone been able to compile gaim2.0beta, the configure script is telling me that GLib 2.0 is not installed or configured improperly
+2005-12-28T09:04:00.000Z	DonVincenzo	dailyrorschach	do you performed "sudo apt-get  build-dep gaim" before compiling ?
+2005-12-28T09:04:00.000Z	dailyrorschach	DonVincenzo	I think i found what i was missing, I think it wanted the development package as well
+2005-12-28T09:06:00.000Z	DonVincenzo	dailyrorschach	yes, it needs the development package. When you want to build from source, qlways perfom an apt-get build-dep.You should add the deb-src repositories. It works well, because it will download automatically all the needed dev files. I discovered it yesterday, I found it very useful.

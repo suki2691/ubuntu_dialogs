@@ -1,0 +1,4 @@
+2009-04-19T17:49:00.000Z	sisif		Hello guys. I`m trying to open a port via iptables with this rule: "-I INPUT -p tcp --dport 10001 -j ACCEPT". When I do iptables -L it shows me the port as open "ACCEPT tcp -- anywhere anywhere tcp dpt:10001", but when I`m trying to telnet into that port, I get "Connection refused". Can somebody please point me what I`m doing wrong? Thanks.
+2009-04-19T17:50:00.000Z	chenno	sisif	is there any program listenening on port 10001?
+2009-04-19T17:51:00.000Z	sisif	chenno	No, it is not. I was planing to use it for a OTTY server
+2009-04-19T17:51:00.000Z	chenno	sisif	if there's no program listening the 'connection refused' is normal

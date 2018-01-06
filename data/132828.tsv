@@ -1,0 +1,4 @@
+2007-06-09T13:04:00.000Z	Heptofite		i need a command or method to download every game in the repositories
+2007-06-09T13:04:00.000Z	ubuntu_laptop	Heptofite	synaptic
+2007-06-09T13:05:00.000Z	ubuntu_laptop	Heptofite	there is no meta package for games other than gnome-games or kde-games
+2007-06-09T13:06:00.000Z	ubuntu_laptop	Heptofite	apt-cache search games | less   and look through the list. open another terminal and sudo apt-get install <list the games you want to install>

@@ -1,0 +1,4 @@
+2012-05-25T02:25:00.000Z	trism	niklasfi	is this 12.04? if so, the log should be in /var/log/upstart/ if the job had any output, unless you explicitly disabled it in the .conf file
+2012-05-25T02:26:00.000Z	niklasfi	trism	thanks that is what i was looking for. however my program is quite verbose. (it createes one line of output every second) so i guess i will have to set console none
+2012-05-25T02:30:00.000Z	niklasfi	trism	what happens if the logs grow to large? are they on log-rotation? are they automatically removed after some time? i was thinking of logging to /tmp/ which is a tmpfs
+2012-05-25T02:34:00.000Z	trism	niklasfi	the default is /etc/logrotate.d/upstart, seems to only be daily, could probably add size if you wanted, but I'm not very familiar with the logrotate settings

@@ -1,0 +1,4 @@
+2009-02-03T01:25:00.000Z	wick2o		hello, anyone know of a howto for setting up a ubuntu print server for printers connected directly to the network via ip address? All the docs I'm finding only talk about being a print server for printers directly attached to the machine
+2009-02-03T01:27:00.000Z	asteroid	wick2o	it's a simple feature of cups, no particular thing to do. Connect to http://localhost:631, and tick the box "share printer"
+2009-02-03T01:27:00.000Z	wick2o	asteroid	that makes no sense
+2009-02-03T01:28:00.000Z	asteroid	wick2o	cups is the _printer SERVER_ (cupsd). It is administrable via http://localhost:631, a webface.

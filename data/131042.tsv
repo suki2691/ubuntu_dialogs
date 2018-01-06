@@ -1,0 +1,4 @@
+2007-06-12T06:34:00.000Z	goran_gejmer		im trying to remove some files on an ntfs hdd by using the ubuntu live cd (im very new to linux). When i try to remove files it gives me "<filename> cannot be deleted because it is on a read-only disk", whats the solution_
+2007-06-12T06:35:00.000Z	stefg	goran_gejmer	ntfs needs special drivers for read/write access, which aren't enabled on the Live-CD
+2007-06-12T06:35:00.000Z	goran_gejmer	stefg	those ntfs-3g drivers right?
+2007-06-12T06:38:00.000Z	goran_gejmer	stefg	does the live dvd include those drives then?

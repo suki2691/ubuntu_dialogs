@@ -1,0 +1,4 @@
+2007-03-21T11:26:00.000Z	tamereenslip		hi all
+2007-03-21T11:27:00.000Z	tamereenslip		i got a problem : I just formated my usb disk in ext3, but I can't write here without root right, I tried chown but it doesn't work (no error message but files are still owned by root) what can I do ?
+2007-03-21T11:28:00.000Z	bur[n] er	tamereenslip	use sudo to chown?
+2007-03-21T11:29:00.000Z	bur[n] er	tamereenslip	could be /etc/fstab mount options

@@ -1,0 +1,4 @@
+2006-07-21T12:37:00.000Z	IseeIsee		was using Ubuntu and my electricty went out twice and when I restarted there is no Hard Disk Scan or Error check anything etc like in windows ?
+2006-07-21T12:37:00.000Z	fowlduck	IseeIsee	by default ubuntu uses ext3, which recovers gracefully due to journaling
+2006-07-21T12:39:00.000Z	IseeIsee	fowlduck	so you mean ext3 is something which takes care of errors & stuff without even running a scandisk sort of thing in front ?
+2006-07-21T12:39:00.000Z	fowlduck	IseeIsee	yep, it's the filesystem.  It keeps track of changes and rolls back any that aren't completed

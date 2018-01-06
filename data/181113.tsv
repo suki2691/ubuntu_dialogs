@@ -1,0 +1,4 @@
+2007-03-20T12:31:00.000Z	Ech1		Is there a reason that my router is not seeing my ubuntu box on the network and is not giving it an ip address such as 192.168.1.XXX?
+2007-03-20T12:33:00.000Z	Ech1		Is there a reason that my router is not seeing my ubuntu box on the network and is not giving it an ip address such as 192.168.1.XXX?
+2007-03-20T12:34:00.000Z	Ech1		ok
+2007-03-20T12:35:00.000Z	bruenig	Ech1	ifconfig | grep Bcast | awk '{print $2}' | sed 's/addr://' will get the ip

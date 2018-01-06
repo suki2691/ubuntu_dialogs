@@ -1,0 +1,4 @@
+2010-02-14T10:26:00.000Z	amadeus_		hello my question is where does Ubuntu 9.10 store its video file for configuring screens, is there a file like xorg.conf use to be and I know you can use xorg too just asking
+2010-02-14T10:26:00.000Z	scunizi	amadeus_	check out xrandr for resolution settings.
+2010-02-14T10:27:00.000Z	amadeus_	scunizi	is there a config file laying around somewhere in the system by chance
+2010-02-14T10:28:00.000Z	scunizi	amadeus_	probably but a lot off it seems to be dynamic.. the newer releases have gone to xrandr for control.. however you can create your own xorg.conf to override it.

@@ -1,0 +1,4 @@
+2012-05-19T22:26:00.000Z	thebishop		hi, mounting ntfs with fstab seems broken.  i'm using the entry below, and i get an error on boot to skip mounting: UUID=d1a13949-f2a0-4c73-8177-6ca6da7a5caf /mnt/storage          ntfs-3g auto,users,uid=0,gid=1000,umask=000,rw   0 0
+2012-05-19T22:28:00.000Z	escott	thebishop	verify the uuid by running sudo blkid
+2012-05-19T22:28:00.000Z	thebishop	escott	oh shit... thanks a lot, the disk isn't ntfs after all
+2012-05-19T22:28:00.000Z	thebishop	escott	/me is dumb

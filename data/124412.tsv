@@ -1,0 +1,4 @@
+2011-06-11T10:34:00.000Z	barf_barf		hi again I'm trying to run a installer thats a "ELF 32-bit LSB executable" , I've given it +x permissions yet still get "Permission denied" even as root , I'm not on a 64 bit system, any ideas ?
+2011-06-11T10:36:00.000Z	Random832	barf_barf	that is a directory.
+2011-06-11T10:36:00.000Z	Random832	barf_barf	what are the permissions on the file?
+2011-06-11T10:37:00.000Z	Random832	barf_barf	try running ldd on it

@@ -1,0 +1,4 @@
+2009-07-24T19:02:00.000Z	JPSman		is it possible to access my wubi files from within windows?  Ubuntu isn't starting up after ATI driver installs and I want to back things up first.
+2009-07-24T19:03:00.000Z	Seronis	JPSman	assuming you are using ext2 or ext3 filesystem you can install ext2ifs in windows to gain access to your linux partitions from within windows
+2009-07-24T19:04:00.000Z	JPSman	Seronis	thank you for the response.  I have been trying to use explore2fs and it cant open the root.disk
+2009-07-24T19:06:00.000Z	Seronis	JPSman	im a newb myself, but ext2ifs worked well for me, but it doesnt obey any file permissions nor does it do ext3 journaling by what i read on it.

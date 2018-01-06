@@ -1,0 +1,4 @@
+2010-07-11T05:35:00.000Z	magog		i cannot execute even in sudo echo 1 > /proc/sys/net/ipv4/ip_forward
+2010-07-11T05:35:00.000Z	magog		any ideas why ?
+2010-07-11T05:35:00.000Z	magog		i neet it for ettercap
+2010-07-11T05:36:00.000Z	bastid_raZor	magog	sudo tee -a 1 | /proc/....blahblah

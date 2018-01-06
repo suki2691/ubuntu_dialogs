@@ -1,0 +1,4 @@
+2007-07-28T07:42:00.000Z	darrin		gotta question regarding codeweavers crossover for linux.
+2007-07-28T07:42:00.000Z	darrin		how do you get it to install on fiesty fawn?
+2007-07-28T07:44:00.000Z	darrin		so apt-get install gdesklets should install it?
+2007-07-28T07:46:00.000Z	levander	darrin	that's how you can install any package.  1.) "sudo apt-cache search <string>" to find the package name, 2.) "sudo apt-get install <package-name>" to install it.  Synaptic is a GUI interface to the same APT backend that apt-get uses.  Some people find it easier.

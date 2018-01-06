@@ -1,0 +1,4 @@
+2007-05-12T07:48:00.000Z	malky		guys, how do i install packages without internet connection? (i need pppoe)
+2007-05-12T07:48:00.000Z	VSpike	malky	do you have the package on CD or anything?
+2007-05-12T07:50:00.000Z	malky	VSpike	i have the Xubuntu 7.04 cd (and the ubuntu 7.04 cd).
+2007-05-12T07:52:00.000Z	VSpike	malky	if you can find the file (e.g. by find /mnt/cdrom -iname '*pppoe*') then you can install the package with "sudo dkpg -i <pkgname.deb>"

@@ -1,0 +1,4 @@
+2008-06-07T21:27:00.000Z	sanya		no-one in #bash knows why my script does not work as it's supposed to, the script is at http://paste.ubuntu.com/18070/
+2008-06-07T21:28:00.000Z	sanya		on line 59 the OUTPUT variable contains the contents of $out, but the first part has been overwritten instead of appended as it is supposed to be
+2008-06-07T21:29:00.000Z	Stroganoff	sanya	add debug output and figure it out..
+2008-06-07T21:32:00.000Z	sanya	Stroganoff	the output of line 58 is "211 active channels 114 active calls" and the output of line 59 is " |channels="211";calls="114";5;0;0ls"

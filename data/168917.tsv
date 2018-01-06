@@ -1,0 +1,4 @@
+2006-09-01T12:00:00.000Z	tjb891		I think I am running a cups server accidentally, can anyone tell me how to access it to turn it off?
+2006-09-01T12:01:00.000Z	afm\colossus	tjb891	you might want to check via `netstat -nlp` as root to make sure :)
+2006-09-01T12:05:00.000Z	tjb891	afm\colossus	I used nmap on myself and it said all ports were closed, that means no cups server right?
+2006-09-01T12:06:00.000Z	afm\colossus	tjb891	well, nmap scans only one of your ifaces, probably the wrong one

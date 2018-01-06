@@ -1,0 +1,4 @@
+2008-05-19T01:24:00.000Z	Darlok_Williams		Is it possible to completely move an installation of Linux from one partition to another?
+2008-05-19T01:24:00.000Z	icewaterman	Darlok_Williams	yes, either put all in a tar.gz file and extract it on the other partition or do a binary-copy with dd
+2008-05-19T01:25:00.000Z	Darlok_Williams	icewaterman	And that would be bootable?
+2008-05-19T01:25:00.000Z	icewaterman	Darlok_Williams	no you need to change some grub and fstab settings (maybe reinstall grub)

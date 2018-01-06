@@ -1,0 +1,4 @@
+2006-07-19T16:52:00.000Z	burzum_		hi
+2006-07-19T05:33:00.000Z	burzum_		when i try to access one of my sata drives i get the message "cant run pmount"
+2006-07-19T05:33:00.000Z	burzum_		and i get the message that /dev/sdb1 is no switchable device
+2006-07-19T05:34:00.000Z	sladen	burzum_	pmount is for removal drivers.  For a fixe drive, put it in /etc/fstab

@@ -1,0 +1,4 @@
+2006-12-01T09:34:00.000Z	Jowi		!upgrade | Fred_
+2006-12-01T09:35:00.000Z	Jowi		sorry Fred_ I have to leave in a minute. basicly you can upgrade hoary -> breezy -> dapper -> edgy. but it is easier to do a fresh install of edgy. if you have all the user data on a  separate partition it is easy. if not you have some work ahead of you.
+2006-12-01T09:36:00.000Z	Fred_	Jowi	I tried the instructions there, redirected it where to look for packages, and tried to set everything running, but when it was all done, I still had Hoary.
+2006-12-01T09:39:00.000Z	Jowi	Fred_	hoary is quite old. you can upgrade step by step (hoary->breezy->dapper->edgy) as I said previously (use apt-get dist-upgrade) but most likely something will break. if you have user files on separate partition - reinstall but do not format /home and use it as it is. That is the easiest way. I would not find it worth the effort trying to upgre the system from hoary myself.

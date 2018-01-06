@@ -1,0 +1,4 @@
+2011-07-12T09:56:00.000Z	ktime		does anyone know anything about the error "grub-mkconfig couldn't be executed successfully. You must run this as root!" with grub-customizer?
+2011-07-12T09:57:00.000Z	ktime		i'm getting the error grub-mkconfig couldn't be executed successfully. You must run this as root! I ran gksu grub-mkconfig and it stops after BEGIN /etc/grub.d/05_debian_theme ###
+2011-07-12T09:58:00.000Z	ktime		do you think it would have anything to do with windows 7 being my default os?
+2011-07-12T09:58:00.000Z	acklee	ktime	sudo grub-mkconfig ?

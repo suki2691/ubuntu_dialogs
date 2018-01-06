@@ -1,0 +1,4 @@
+2009-09-09T11:00:00.000Z	tim__		hi ubuntu! i set the /exitnice"
+2009-09-09T11:02:00.000Z	tim__		hey ubuntu, i adjusted the "nice"ness of a process too high via the process manager ("set priority"). now the process runs, but gdm does not. how can i readjust it through a terminal
+2009-09-09T11:03:00.000Z	losher	tim__	renice <priority> -p <pid>
+2009-09-09T11:03:00.000Z	tim__	losher	thanks!!

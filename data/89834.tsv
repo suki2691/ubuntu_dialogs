@@ -1,0 +1,4 @@
+2008-05-23T03:23:00.000Z	SanityInAnarchy		Ok, problem: How do I force the default config files to be regenerated for a package, without completely removing/reinstalling it?
+2008-05-23T03:24:00.000Z	eleventy-six	SanityInAnarchy	dpkg-reconfigure -phigh package_name
+2008-05-23T03:26:00.000Z	SanityInAnarchy	eleventy-six	Nope, dpkg-reconfigure doesn't do it, for any priority value.
+2008-05-23T03:27:00.000Z	SanityInAnarchy	eleventy-six	 For at least a few isolated packages, I can completely remove (purge), then reinstall. But that's a bit inconvenient for, say, xserver-xorg-core, as uninstalling wants to remove everything that depends on it.

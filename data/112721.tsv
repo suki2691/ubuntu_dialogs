@@ -1,0 +1,4 @@
+2007-12-22T23:37:00.000Z	tarsin		good morning.  i've install 7.10 server.  i'd like to install X.  whats the best way to do this? is there a meta-package i can get that will do everything for me?  something like `apt-get install x-gnome` would be awesome
+2007-12-22T23:38:00.000Z	erUSUL	tarsin	or xubuntu-desktop or kubuntu-desktop
+2007-12-22T23:39:00.000Z	tarsin	erUSUL	how do i then go and configure X? or do i need to?  my actual intention is to never run an X (Server i think) locally.. all my GUIs will be done remotely
+2007-12-22T23:39:00.000Z	erUSUL	tarsin	try 'sudo dpkg-reconfigure -phigh xserver-xorg'

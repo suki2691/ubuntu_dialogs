@@ -1,0 +1,4 @@
+2007-09-20T07:24:00.000Z	demolitio		ok... now I have a big problem. after installing the new drivers off of ati's site, rolling back, and using the ones in the ubuntu repo, my mouse pointer is corrupt (looks like a big ladder), and every time I log out, I am greeted with a blank screen. in addition to this, synaptic package managerand the restricted drivers manager both crash when I start them up. help?
+2007-09-20T07:25:00.000Z	Jack_Sparrow	demolitio	it isnt that easy to roll stuff back.  How did you install the ati drivers from their site?>
+2007-09-20T07:32:00.000Z	Jack_Sparrow	demolitio	get into recovery mode on boot with escape... then sudo if needed...   dpkg-reconfigure xserver-xorg
+2007-09-20T07:34:00.000Z	Jack_Sparrow	demolitio	vesa and a res at or below 1024 will get you back in

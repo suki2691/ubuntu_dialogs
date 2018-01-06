@@ -1,0 +1,4 @@
+2006-08-05T07:47:00.000Z	dsas		Using a ubuntu live cd to reinstall grub I get "Error 21: Selected disk does not exist" when doing root (hd0,1) any ideas?
+2006-08-05T07:48:00.000Z	Warbo	dsas	sudo grub-install /dev/linuxdevicename (not GRUB device name)
+2006-08-05T07:49:00.000Z	dsas	Warbo	thanks, I'll give that a try.
+2006-08-05T07:51:00.000Z	dsas	Warbo	Thinking about it, would that be different if the /boot I want to use isn't the currently running one (i'm boot on a live disk atm)

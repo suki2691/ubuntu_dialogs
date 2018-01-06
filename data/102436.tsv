@@ -1,0 +1,4 @@
+2010-05-25T13:57:00.000Z	adel		hey guyz... i want to edit the /etc/grub/grub file but its read only.... how can i edit it?
+2010-05-25T13:57:00.000Z	rww	adel	sudo nano or gksudo gedit
+2010-05-25T14:00:00.000Z	adel	rww	i tried using sudo nano but it gave me an empty box
+2010-05-25T14:00:00.000Z	rww	adel	/etc/grub/grub probably isn't the file you're looking for. /etc/default/grub, perhaps?

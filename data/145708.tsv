@@ -1,0 +1,4 @@
+2007-02-15T13:59:00.000Z	Ian_		Hey guys, I'm trying to install grub on my fakeraid array (using dmraid), and upon running grub-install /dev/mapper/sil_aeahdfdcbdba, I'm met with the error 'sil_aeahdfdcbdba5 has no corresponding BIOS drive' .. sil_aeahdfdcbdba5 is my first logical parition (second over-all) and is mounted to /boot.
+2007-02-15T14:00:00.000Z	Muzik83	Ian_	not 100% sure on this, but i dont think you can boot off of a "fake" raid array
+2007-02-15T14:00:00.000Z	Ian_	Muzik83	with dmraid. It's dodgy, but it works.
+2007-02-15T14:01:00.000Z	Muzik83	Ian_	ok nm then :p

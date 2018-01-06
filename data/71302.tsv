@@ -1,0 +1,4 @@
+2008-12-15T05:35:00.000Z	csc_		what is the  fastest way to configure a remote ssh server to avoid to be asked for a password when connecting to it?
+2008-12-15T05:36:00.000Z	ranok	csc_	ssh-copy-id
+2008-12-15T05:36:00.000Z	ranok	csc_	it'll automatically copy your rsa key to the remote server for you
+2008-12-15T05:37:00.000Z	csc_	ranok	that's very useful thanks

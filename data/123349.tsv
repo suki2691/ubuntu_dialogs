@@ -1,0 +1,4 @@
+2009-04-16T17:34:00.000Z	recon69		﻿ I'm having problems sharing a folder between a 8.04 machine and a 8.10 machine. I dont seem to be able to change the permission on the folder i want to share ( it's a fat32 partition). any suggestions?
+2009-04-16T17:34:00.000Z	Marfi	recon69	have you set samba up?
+2009-04-16T17:37:00.000Z	recon69	Marfi	strange, removing the share as root and adding it again as myself seem to work. I'll try again :)
+2009-04-16T17:38:00.000Z	Marfi	recon69	try not to do it as root. if you just installed samba, then it needs to be rebooted

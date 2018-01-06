@@ -1,0 +1,4 @@
+2011-09-14T01:39:00.000Z	zykotick9_	johughes	be sure you have ia32-libs installed, if it's a specific/non-standard 32bit library checkout the getlibs script to install 32bit libraries on 64bit OS.  Good luck.
+2011-09-14T01:41:00.000Z	johughes	zykotick9_	thanks, I have ia32-libs installed, and I've checked everything with ldd to make sure it can resolve all of the dynamic dependencies
+2011-09-14T01:42:00.000Z	johughes	zykotick9_	I was just wondering if there were any known issue with dlopen()'ing a 32-bit lib on a 64-bit OS
+2011-09-14T01:42:00.000Z	zykotick9_	johughes	sorry i don't even know what dlopen is.  Good luck.

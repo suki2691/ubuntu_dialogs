@@ -1,0 +1,4 @@
+2009-05-11T10:38:00.000Z	fbc-mx		If I ssh to a machine and would like to leave that session running and come back to it later, what to I have to do? If I just close the session the program won't stay running.
+2009-05-11T10:39:00.000Z	Guest92469	fbc-mx	run "screen" which will let you detach with ctl-A D rather than just logging out.
+2009-05-11T10:39:00.000Z	Guest92469	fbc-mx	then when you're back on that machine you can run "screen -r" to re-attach to it.
+2009-05-11T10:39:00.000Z	fbc-mx	Guest92469	 awesome... thanks

@@ -1,0 +1,4 @@
+2006-01-25T06:53:00.000Z	durt		when i dist-upgrade, i get this error: dpkg-deb: subprocess paste killed by signal (Broken pipe) when nvidia-glx is trying to be installed and apt-get -f install cant get past this error. how do i fix this?
+2006-01-25T06:53:00.000Z	soundray	durt	is your filesystem full?
+2006-01-25T06:54:00.000Z	durt	soundray	no, but the error also says: trying to overwrite `/usr/bin/nvidia-settings', which is also in package nvidia-settings
+2006-01-25T06:55:00.000Z	soundray	durt	'sudo dpkg -i --force-overwrite /var/cache/apt/archives/<packagename>'

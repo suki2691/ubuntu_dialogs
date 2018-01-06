@@ -1,0 +1,4 @@
+2007-11-15T01:44:00.000Z	PuppiesAtWork		On the CLI, what is the difference between | and > ?
+2007-11-15T01:45:00.000Z	PuppiesAtWork		like, why do I do cat /dev/null > file.txt and not cat /dev/null | file.txt
+2007-11-15T01:45:00.000Z	Terrasqu1	PuppiesAtWork	| redirects from stdout to stdin, but > redirects stdout to a device / file
+2007-11-15T01:46:00.000Z	Terrasqu1	PuppiesAtWork	< redirects from device / file to stdin iirc :)

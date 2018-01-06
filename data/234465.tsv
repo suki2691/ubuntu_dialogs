@@ -1,0 +1,4 @@
+2005-10-07T15:20:00.000Z	transparentdream		My console says it con't find the X includes. What does that mean?
+2005-10-07T15:21:00.000Z	transparentdream		Where can I find headers? Headers in general or headers for specific program im trying to install?
+2005-10-07T15:22:00.000Z	dooglus	transparentdream	in the <package>-dev package
+2005-10-07T15:23:00.000Z	dooglus	transparentdream	you can "sudo apt-get build-dep <package>" to install all the headers you need to build <package>

@@ -1,0 +1,4 @@
+2008-01-04T11:01:00.000Z	briantumor		is it safe to unmount /home while it's in use?
+2008-01-04T11:02:00.000Z	briantumor		why not?
+2008-01-04T11:02:00.000Z	briantumor		 / is still active
+2008-01-04T11:04:00.000Z	nickrud	briantumor	you shouldn't unmount /home while you're logged in as a regular user. If you plan on doing some maintenance on that partition, you should boot into recovery mode

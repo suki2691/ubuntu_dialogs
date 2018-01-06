@@ -1,0 +1,4 @@
+2006-12-30T15:26:00.000Z	alexi5		i have ubuntu and i want to prevent the gui from start when it books
+2006-12-30T15:26:00.000Z	alexi5		how do i do that
+2006-12-30T15:26:00.000Z	kitche	alexi5	sudo /etc/init.d/gdm stop && sudo chmod -x /etc/init.d/gdm should do it
+2006-12-30T15:27:00.000Z	kitche	alexi5	the sudo chmod -x /etc/init.d/gdm is what you really want

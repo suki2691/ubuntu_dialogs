@@ -1,0 +1,4 @@
+2011-04-13T21:16:00.000Z	shcherbak	osse	whole command, please? also try #bash
+2011-04-13T21:17:00.000Z	osse	shcherbak	command="/usr/bin/time -f '$formattime' -o ${file%sif}log nice --adjustment=19 ./Maxwell1D_x64 -p $file -o ${file%sif}nc" :P
+2011-04-13T21:20:00.000Z	shcherbak	osse	And where is "faulty" variable? or this command should be user as variable?
+2011-04-13T21:24:00.000Z	osse	shcherbak	I don't completely understand your question. echo $command gives something that I could have just as well typed myself and it would work. However, only $command gives this error: "/usr/bin/time: cannot run %C\nEkte: No such file or directory". It's trying to run the formatstring (up to the first space) as a command.

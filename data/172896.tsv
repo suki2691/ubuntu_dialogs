@@ -1,0 +1,4 @@
+2007-08-01T08:17:00.000Z	emulatorOne		Hi. When I attempt in a terminal window to use apt-get build-dep command to get the XMAME deps it tells me E: Unable to find a source package for xmame. I worked a month ago but now on this new computer it will not. Any ideas?
+2007-08-01T08:18:00.000Z	howlingmadhowie	emulatorOne	do you have the source repositories activated?
+2007-08-01T08:18:00.000Z	howlingmadhowie	emulatorOne	can you check in /etc/apt/sources.list if they're active and then run "sudo apt-get update"?
+2007-08-01T08:20:00.000Z	howlingmadhowie	emulatorOne	cool :) problem (maybe) solved :)

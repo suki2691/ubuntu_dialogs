@@ -1,0 +1,4 @@
+2007-09-04T10:07:00.000Z	Thunderfox933		how do i change login screen resoultion
+2007-09-04T10:09:00.000Z	Daverocks	Thunderfox933	sudo dpkg-reconfigure -phigh xserver-xorg
+2007-09-04T10:09:00.000Z	Daverocks	Thunderfox933	and change the screen resolution option
+2007-09-04T10:12:00.000Z	Daverocks	Thunderfox933	btw, if that stuffs up your X (and you can't start it again) it makes a backup of xorg.conf in /etc/X11/ (should be xorg.conf with some numbers on the end)

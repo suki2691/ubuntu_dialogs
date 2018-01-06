@@ -1,0 +1,4 @@
+2009-10-30T09:36:00.000Z	Offplanet		catch 22, wubi install of jaunty, updated to beta of Karmic worked fine. grub update to grub2 blew up! now cann't boot asus express go, vista, or Karmic. Looking for recovery suggestions to recove boot to each partition. thx
+2009-10-30T09:37:00.000Z	Jordan_U	Offplanet	wubi doesn't use a normal grub or grub2, I think it's a separate branch called grub4dos
+2009-10-30T09:38:00.000Z	Jordan_U	Offplanet	You need to restore whatever bootloader wubi came with
+2009-10-30T09:38:00.000Z	Offplanet	Jordan_U	thanks I will look

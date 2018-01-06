@@ -1,0 +1,4 @@
+2005-08-26T05:44:00.000Z	TraceGreen		Hello, when i tried to compile c program in Debian linux, i get this error : undefined reference to `errno', can anybody help me
+2005-08-26T05:45:00.000Z	TraceGreen		Actually, i try to reinstall libc6, before i do that, i can compile it sucessfully
+2005-08-26T05:47:00.000Z	ompaul	TraceGreen	if you find that  'grep -rs ?extern int errno? *' gives an answer from the stuff you put on your machine or in the source it needs conventions to be updated
+2006-04-22T14:36:00.000Z	ompaul	TraceGreen	no, because that platform is full of lockin and the spec is not open, I do believe that some people are working on a solution, but then the length of a piece of string is similar to the depth of a hole :-)

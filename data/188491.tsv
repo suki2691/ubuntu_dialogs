@@ -1,0 +1,4 @@
+2010-06-04T04:36:00.000Z	moegreen		hey guys i need help with a quick command.  I have a .txt file that i want to take all words that start with "Z" and put it into a text file on my desktop.  I am using "grep -i z file.txt |  and dont know what to pipe to..
+2010-06-04T04:36:00.000Z	MrElendig	moegreen	don't pipe at all
+2010-06-04T04:36:00.000Z	MrElendig	moegreen	just > somefile
+2010-06-04T04:37:00.000Z	MrElendig	moegreen	or >> if you don't want to overwrite the existing data in the file

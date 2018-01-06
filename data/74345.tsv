@@ -1,0 +1,4 @@
+2009-01-18T15:43:00.000Z	Mononofu		I'm trying to upgrade my Ubuntu 8.04 server to 8.10. However, everytime after rebooting I can't reconnect using SSH - it just refuses the connection. Do I have to change anything before rebooting the server?
+2009-01-18T15:44:00.000Z	oskar-	Mononofu	is the ssh server referenced in any runlevel to be started?
+2009-01-18T15:46:00.000Z	oskar-	Mononofu	perhaps something before ssh is blocking and waiting for a timeout (?)
+2009-01-18T15:48:00.000Z	oskar-	Mononofu	or was it perhaps generating keys, because started for the first time (?)

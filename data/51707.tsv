@@ -1,0 +1,4 @@
+2009-10-25T13:06:00.000Z	quentusrex		Anyone know how to remove line 63 from a file?
+2009-10-25T13:06:00.000Z	quentusrex		from the command line?
+2009-10-25T13:07:00.000Z	quentusrex		I'm familiar with the 'perl -pi -e "s/text/replacement/g" filename '
+2009-10-25T13:08:00.000Z	Blehk	quentusrex	sed -i '63 d' /path/to/file

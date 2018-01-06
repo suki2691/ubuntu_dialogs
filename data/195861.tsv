@@ -1,0 +1,4 @@
+2006-03-15T15:40:00.000Z	antibus	nickrud	so if you use apt-zip, and you specify a flash drive as an apt-source on anotehr compy.. what you put on the flash drive using apt-zip can be apt-get install from the flash drive on another comp?
+2006-03-15T15:40:00.000Z	antibus	nickrud	is that the way it works
+2006-03-15T15:41:00.000Z	nickrud	antibus	essentially, you do an apt-zip on the machine you want to install, it writes a script you can take to another manchine & run. That'll get the debs you need
+2006-03-15T15:44:00.000Z	antibus	nickrud	ahh, fun.

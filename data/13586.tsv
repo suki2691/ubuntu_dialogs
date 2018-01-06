@@ -1,0 +1,4 @@
+2012-10-08T16:07:00.000Z	llutz	WHAT_UP	"import" might help
+2012-10-08T16:07:00.000Z	WHAT_UP	llutz	i saw that, but i don't know how to get the currently active desktop if i can't forward x
+2012-10-08T16:09:00.000Z	WHAT_UP	llutz	hmm. i think i got it, but the screen is locked. no easy way of seeing what's under the unlocked screen, i'm guessing?
+2012-10-08T16:15:00.000Z	WHAT_UP	llutz	awesome, got it working. had to "export DISPLAY=:0; gnome-screensaver-command-d; import -display :0 -window root blah.png" =)

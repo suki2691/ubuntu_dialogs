@@ -1,0 +1,4 @@
+2007-10-15T06:37:00.000Z	michael__		I wondering if anyone could help me edit a read only file in ubuntu
+2007-10-15T06:37:00.000Z	riotkittie	michael__	what file are you attempting to edit?
+2007-10-15T06:38:00.000Z	riotkittie	michael__	alt + f2 and then gksu gedit /path/to/file  or sudo nano /path/to/file in a term
+2007-10-15T06:38:00.000Z	riotkittie	michael__	before you do that, back it up! :P   sudo cp /boot/grub/menu.lst /boot/grub/menu.lst.old

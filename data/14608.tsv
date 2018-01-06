@@ -1,0 +1,4 @@
+2011-05-06T18:03:00.000Z	Oppe		yes
+2011-05-06T18:04:00.000Z	Oppe		I can access the "main" website from outside.. and i can do ssh to the server from outside as well.. is just only this application under the path /usr/chare/tomcat6/webapps/iqs-web-0.0.1 which is accessable only inside the network.. (we have no rules at apache for it at all)
+2011-05-06T18:04:00.000Z	Oppe		any clue where are the tomcat conf files?
+2011-05-06T18:05:00.000Z	moriramar	Oppe	/usr/local/tomcat/conf/server.xml?

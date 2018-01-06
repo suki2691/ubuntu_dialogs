@@ -1,0 +1,4 @@
+2011-06-21T21:23:00.000Z	chombee		Hey, can anyone tell me how to add an "administrator" user (with the same privileges as the first user that is created at install, ability to sudo etc) from the command-line? I've been searching but can't find. Presumably it's a case of creating a user and then adding him to the right groups?
+2011-06-21T21:25:00.000Z	ActionParsnip	chombee	useradd -G admin name
+2011-06-21T21:26:00.000Z	chombee	ActionParsnip	thanks, looking into it
+2011-06-21T21:33:00.000Z	chombee	ActionParsnip	thanks, my user is able to sudo nwow

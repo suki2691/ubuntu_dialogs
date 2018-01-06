@@ -1,0 +1,4 @@
+2005-05-01T07:06:00.000Z	b0ol		how can i tell my ubuntu to load athcool at boot?
+2005-05-01T07:07:00.000Z	bwlang	b0ol	it probably already has put some scripts into /etc/init.d - look at the list of file that it installed with dpkg -L athcool
+2005-05-01T07:09:00.000Z	b0ol	bwlang	how to tell now that it shall run on      startup?
+2005-05-01T07:10:00.000Z	bwlang	b0ol	assuming that athcool has put files in /etc/init.d  you can use update-rc.d to specify when it should be run (man update-rc.d)

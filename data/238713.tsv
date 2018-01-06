@@ -1,0 +1,4 @@
+2007-08-24T14:04:00.000Z	Golhn		I did sudo dpkg-reconfigure -phigh xserver-xorg and select 1280x800 on the menu, but still can't see ir on the screen resolution preference
+2007-08-24T14:04:00.000Z	Anlar	Golhn	what display adapter that Compaq laptop has?
+2007-08-24T14:14:00.000Z	Anlar	Golhn	1600x1200 is what you want? it's a standard non-widescreen resolution, you shouldn't need 915resolution at all but just add that resolution to xorg.conf anyways
+2007-08-24T14:17:00.000Z	Anlar	Golhn	well, /var/log/Xorg.0.log should tell why it does not want to use it. it might be for instance that your monitor says it can't handle it, in which case you'd want to disable the automatic detection of that

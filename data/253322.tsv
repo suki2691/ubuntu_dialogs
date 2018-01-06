@@ -1,0 +1,4 @@
+2006-01-21T12:02:00.000Z	digirat		hi, i'm trying to do a "make" and i get the following error: "make: c: Command not found"... what am i missing?
+2006-01-21T12:03:00.000Z	digirat		ty
+2006-01-21T12:03:00.000Z	Doomhammer	digirat	you need the GNU C compiler -- which is included in build-essentials
+2006-01-21T12:04:00.000Z	Doomhammer	digirat	try doing apt-get install gcc

@@ -1,0 +1,4 @@
+2010-07-08T20:26:00.000Z	machete		what about just replacing my resolv.conf for the one which works ini the other computer?
+2010-07-08T20:28:00.000Z	machete		??
+2010-07-08T20:29:00.000Z	machete		apt-get install resolvconf
+2010-07-08T20:30:00.000Z	maco	machete	i think my short way would be a one-time filesystem hack... "sudo chattr +i /etc/resolv.conf" ... it cant be deleted if its immutable

@@ -1,0 +1,4 @@
+2009-11-19T08:59:00.000Z	Roasted		hey guys - how can I check the md5 sum of an ISO cd I already made?
+2009-11-19T09:00:00.000Z	Ashfire908	Roasted	I think i've md5sumed the device before and I think that works.
+2009-11-19T09:01:00.000Z	Ashfire908	Roasted	sudo dd if=CDROM_DEVICE | md5sum
+2009-11-19T09:01:00.000Z	Ashfire908	Roasted	where CDROM_DEVICE is the cdrom device node.

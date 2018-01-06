@@ -1,0 +1,4 @@
+2010-01-16T03:02:00.000Z	amirite		if I have no rules in iptables, i.e. it looks look this http://pastie.org/780217 then what does that imply? all traffic can come in and go out, right?
+2010-01-16T03:02:00.000Z	amirite		nothing is blocked?
+2010-01-16T03:03:00.000Z	daftykins	amirite	yes, but only if IP forwarding is enabled
+2010-01-16T03:03:00.000Z	daftykins	amirite	cat /proc/sys/net/ipv4/ip_forwarding for IPv4

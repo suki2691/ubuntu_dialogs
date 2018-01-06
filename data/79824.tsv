@@ -1,0 +1,4 @@
+2009-07-16T00:47:00.000Z	rohan		i have both -server and -generic kernels installed on my system, hence both are shown in grub menu. however, i want only the -server one to be shown, yet i don't want to uninstall -generic, it might come in handy sometime. how do i do that?
+2009-07-16T00:49:00.000Z	Nitsuga	rohan	see the commented section above the kernels, there are some handy options
+2009-07-16T00:51:00.000Z	rohan	Nitsuga	what i think might be useful is "howmany=1", but no other optoin to ignore a kernel as such
+2009-07-16T00:55:00.000Z	rohan	Nitsuga	i'd suggest fat, if it didn't have the 4gb limit. fat is the most compatible fs.

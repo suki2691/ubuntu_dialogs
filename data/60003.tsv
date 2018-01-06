@@ -1,0 +1,4 @@
+2009-04-20T01:45:00.000Z	SlAiD		hello. I'm connected using the nx client (nomachine) and when I quit nx client I lose all aplications... likle, things shutdown with no reason. on windows using remote desktop connection when I disconnect, I can login again and stay with things exacly as I left... any clue for this?
+2009-04-20T01:46:00.000Z	Slart	SlAiD	it probably creates a session that only lasts while you are logged in.. some vnc servers can use the currently logged in user and doesn't exit when you disconnect.. I don't know if nx has the same option
+2009-04-20T01:48:00.000Z	SlAiD	Slart	yep, probably. I think it does not. any way I can install vnc server on ubuntu 8.04? you have a guide or something?
+2009-04-20T01:49:00.000Z	Slart	SlAiD	that's the one I was talking about.. it uses the already running session

@@ -1,0 +1,4 @@
+2009-02-04T02:27:00.000Z	Y-Town		I have a directory I created as a different user on this system called /Share.  When I look at it as this user I see locks on the folders inside.  I want to make /Share so that everyone can access add delete and do whatever sionce its a total share for everyone.  I am not worried about security this is a home network basically sharing music, videos documents etc..  So How would I properly change the permissions so everyone can add and
+2009-02-04T02:27:00.000Z	Y-Town		delete
+2009-02-04T02:28:00.000Z	nightrid3r	Y-Town	chmod -R 777 dir/
+2009-02-04T02:30:00.000Z	Y-Town	nightrid3r	Thanks that did it I believe

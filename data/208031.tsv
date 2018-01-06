@@ -1,0 +1,4 @@
+2005-11-10T11:03:00.000Z	soke		just made my first ubuntu install on a Toshiba A10, during the install (in console mode) it showed modes my comp. is capable of 1900x.... etc. but when it booted i only see 640x480.. nothing higher,  how do i change this?
+2005-11-10T11:05:00.000Z	deFrysk	soke	sudo dpkg-reconfigure xserver-xorg and have your run defaults exept for monitor-spect wich you need to have at your disposal
+2005-11-10T11:07:00.000Z	soke	deFrysk	it also asks for amount of video ram (which i dont know) any idea if I should leave it blank or enter something?
+2005-11-10T11:08:00.000Z	deFrysk	soke	run the default

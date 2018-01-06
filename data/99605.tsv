@@ -1,0 +1,4 @@
+2008-09-02T03:10:00.000Z	nDuff	dfgas	generally speaking, I'd be worried about data integrity more than performance.
+2008-09-02T03:10:00.000Z	dfgas		true
+2008-09-02T03:10:00.000Z	dfgas	Strife89	baracuda 160gig
+2008-09-02T03:11:00.000Z	nDuff	dfgas	ReiserFS has a very bad record vis-a-vis integrity -- I've lost multiple partitions due to bugs in its fsck, and there was a *long* time in which they had no bad-block handling whatsoever.

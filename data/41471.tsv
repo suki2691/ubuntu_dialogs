@@ -1,0 +1,4 @@
+2009-12-02T05:45:00.000Z	G_S_SR		Please Help, ive installed ubuntu karmic, and everything worked perfectly. i updated through "update manager" and after a restart, my cpu is being used constantly. it wasnt like that before the update. ive even reformated and reinstalled ubuntu thinking it was something i did, with the same results. any suggestions?
+2009-12-02T05:47:00.000Z	minimec	G_S_SR	start ubuntu and press (and hold) the <shift>button at boot. Then choose an olde kernel (not recovery)
+2009-12-02T05:50:00.000Z	G_S_SR	minimec	 if chosing the old kernal works, should i manuallly update the kernal or set it to chose the old kernal at startup?
+2009-12-02T05:52:00.000Z	minimec	G_S_SR	You can set the default kernel in /etc/grub-something(?). That should do it. it seems to be a bug with your hardware. You could also try to file a bug, but to trace a kernel bug... ;)

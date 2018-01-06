@@ -1,0 +1,4 @@
+2007-07-15T14:31:00.000Z	trias		new user question;  I want to run the command java -Xmx256M -jar FreeCol.jar in a launcher problem is it runs it as though i'm in the desktop directory. I can put the path in but then the game can't find the data files.  how do i make it run as though it is in the correct directory
+2007-07-15T14:32:00.000Z	Jordan_U	trias	You could try cd /path/to/game && command
+2007-07-15T14:48:00.000Z	Jordan_U	trias	Are you typing it correctly? Try using tab completion and remember that *nix is case sensitive
+2007-07-17T11:21:00.000Z	Jordan_U	trias	You need to unmount the partition first

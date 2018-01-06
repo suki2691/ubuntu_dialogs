@@ -1,0 +1,4 @@
+2006-06-25T05:50:00.000Z	polpak	Stormx2	they don't need to be +x   I've found the easiest thing to do is to move the lines from .bash_profile into .bashrc (which is sourced from .bash_profile)
+2006-06-25T05:51:00.000Z	polpak	Stormx2	then it will be added to your path regardless of whether your session is a login shell or not
+2006-06-25T05:51:00.000Z	Stormx2	polpak	Ah ok
+2006-06-25T05:53:00.000Z	Stormx2	polpak	Thanks very much that worked!

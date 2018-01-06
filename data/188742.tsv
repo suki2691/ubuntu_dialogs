@@ -1,0 +1,4 @@
+2007-01-11T12:19:00.000Z	Slart		I few minutes ago I had a working ubuntu edgy, I could play games with 3d acceleration.. all was fine.. then a crash.. now I can't even run glxgears without X restarting
+2007-01-11T12:19:00.000Z	Slart		any troubleshooting hints?
+2007-01-11T12:20:00.000Z	snail	Slart	if you're lucky you've saved lots of the commands you used into .bash_history either as root or your user
+2007-01-11T12:21:00.000Z	snail	Slart	also it could be related to not loading a module. loading a kernel module and having a kernel module load at boot are seperate operations

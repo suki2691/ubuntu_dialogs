@@ -1,0 +1,4 @@
+2011-10-04T20:35:00.000Z	Seven_Six_Two		I installed 11.04 on my laptop with usb net install. It worked, but I seem to have accidentally installed grub to my usb key
+2011-10-04T20:36:00.000Z	Seven_Six_Two		how can I fix it? I get "incompatible license" if I boot without my usb key
+2011-10-04T20:38:00.000Z	jola_	Seven_Six_Two	run your ubuntu installation from usb then open terminal and enter sudo grub-install /dev/sda
+2011-10-04T20:40:00.000Z	Seven_Six_Two	jola_	that did the trick. thanks!

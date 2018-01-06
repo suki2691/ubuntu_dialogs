@@ -1,0 +1,4 @@
+2008-01-17T00:50:00.000Z	WorkingOnWise		if I copy my /var/cache/apt/archives to a new installation, and then do « dpkg --get-selections > ~/my-packages », move the file "my-packages" to the other machine, and there type « sudo dpkg --set-selections < my-packages && sudo apt-get dselect-upgrade », will apt-get still try to download all 1613 packages, or just the ones newer than in the cache?
+2008-01-17T00:50:00.000Z	khermans	WorkingOnWise	i believe it will check the cache first
+2008-01-17T00:52:00.000Z	WorkingOnWise	khermans	will it check the cache if I just do <<apt-get install foo>> and foo is in the cache but not in any repositories
+2008-01-17T00:52:00.000Z	khermans	WorkingOnWise	i dont believe it will install if it is not in the repos -- but you can dpkg it

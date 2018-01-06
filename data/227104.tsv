@@ -1,0 +1,4 @@
+2005-07-29T12:36:00.000Z	robert_pectol	Belutz	  you can use update-rc.d to configure which services you want to start/stop at bootup/shutdown... something similar to, "update-rc.d firestarter start 20  2 3 4 5 . stop 20  0 1 2 6 ." would set firestarter to auomatically run in levels 2, 3, 4, and 5.
+2005-07-29T12:40:00.000Z	Belutz	robert_pectol	what's the number 20 means?
+2005-07-29T12:40:00.000Z	robert_pectol	Belutz	  priority... I think!
+2005-07-29T12:40:00.000Z	Belutz	robert_pectol	ok, thx :)

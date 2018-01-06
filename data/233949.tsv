@@ -1,0 +1,4 @@
+2005-07-10T07:54:00.000Z	juju		how to reconfigure the resolution display with a shell
+2005-07-10T07:54:00.000Z	tiglionabbit	juju	edit the file /etc/X11/xorg.conf
+2005-07-10T07:55:00.000Z	tiglionabbit	juju	there should be several lines that start with the word "Modes".  You can add other resolutions as strings on here.  You will have to kill X for these to take effect, and it will usually use the largest resolution your monitor is happy with
+2005-07-10T07:55:00.000Z	tiglionabbit	juju	or lister to I-IIEars, that's probably an easier method

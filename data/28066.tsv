@@ -1,0 +1,4 @@
+2010-07-31T23:19:00.000Z	lathan		can anyone help with my question? i can type it again if need be
+2010-07-31T23:19:00.000Z	lathan		so, i have an SD card with Ubuntu Netbook Remix 10.4 on it. So, i boot from the SD card, and click to "test" ubuntu, but I also have a persistence file. Now, i want to install UNR on my hdd. how would i go about transferring my changes from my SD card's persistence file to my hdd install?
+2010-07-31T23:19:00.000Z	headkase314	lathan	Possible solution.  Install Ubuntu to the hard drive.  Then boot off the SD card and mount the Ubuntu HD.  Then copy the files over and reboot into the Ubuntu HD.
+2010-07-31T23:21:00.000Z	headkase314	lathan	All your settings are in /home some of them are hidden by having a . before the file name

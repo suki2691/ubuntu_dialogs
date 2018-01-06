@@ -1,0 +1,4 @@
+2007-10-03T07:54:00.000Z	DaBeowulf		Okay how come after every reboot I've got to 'sudo modprobe nvidia' to get X starting again?
+2007-10-03T07:54:00.000Z	erUSUL	DaBeowulf	put nvidia in /etc/modules
+2007-10-03T07:55:00.000Z	erUSUL	DaBeowulf	sudo sh -c "echo nvidia >> /etc/modules" for example or with any editor
+2007-10-03T08:29:00.000Z	erUSUL	DaBeowulf	ls -l (with -c for creation time)

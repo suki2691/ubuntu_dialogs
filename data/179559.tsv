@@ -1,0 +1,4 @@
+2010-08-18T04:58:00.000Z	sifter_		when i try to run "sudo -C network" it simply displays "PCI (sysfs)" for several seconds and then disappears
+2010-08-18T04:58:00.000Z	sifter_		why is this happening?
+2010-08-18T04:58:00.000Z	jrib	sifter_	I'm guessing there should be a "lshw" in there?
+2010-08-18T05:00:00.000Z	jrib	sifter_	do you get network info if you don't include the -C?  Try typing "reset" first

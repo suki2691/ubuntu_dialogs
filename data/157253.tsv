@@ -1,0 +1,4 @@
+2007-12-24T11:00:00.000Z	MasterShrek	dthacker	look carefully at the syntax for usermod, im sure you got removed from the admin group
+2007-12-24T11:01:00.000Z	dthacker	MasterShrek	id dthacker does not show me in admin.  How can I restore without sudo?
+2007-12-24T11:02:00.000Z	MasterShrek	dthacker	most likely youll have to reboot on a livecd and edit /etc/group on your root partition, unless you have another user that has sudo privildges, or if you created a root password
+2007-12-24T11:04:00.000Z	dthacker	MasterShrek	nickrud: thanks, I'll have to go to the the hosting site tomorrow.

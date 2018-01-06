@@ -1,0 +1,4 @@
+2008-04-12T17:21:00.000Z	srodden		Hello again. How do I set an env var such that it affects apps I launch within X? I added my export line to .bashrc but that doesn't seem to have worked.
+2008-04-12T17:22:00.000Z	unop_	srodden	did you log X out and log back in?
+2008-04-12T17:26:00.000Z	unop_	srodden	are you sure the variable is exported properly - open up a terminal and do this .  echo $VARIABLE
+2008-04-12T18:03:00.000Z	unop_	srodden	hmm, something you aren't doing right perhaps .. have you verified the syntax in the sudoers file, you should read the sudoers manpage too

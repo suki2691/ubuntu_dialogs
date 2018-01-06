@@ -1,0 +1,4 @@
+2010-12-17T12:00:00.000Z	makulkar		i give up, reinstalling grub on windows installed ubuntu doesnt work!!
+2010-12-17T12:01:00.000Z	sacarlson	makulkar	no grub won't work on a wubi (windows install) system,  I'm not sure how you could fix a wubi loader.
+2010-12-17T12:03:00.000Z	makulkar	sacarlson	ok :( I tried few hacks but ur right. Any clue how i can take bacup of my data? I want few patches!!
+2010-12-17T12:05:00.000Z	sacarlson	makulkar	I guess to at least boot you will have to use a windows install disk to fix the mbr then find a way to backup the virtual partitions that the wubi install created inside the windows partition.  then install a ubuntu system and find a way to mount and recover the data inside them

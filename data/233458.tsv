@@ -1,0 +1,4 @@
+2006-08-29T10:37:00.000Z	LajujKej		hello
+2006-08-29T10:38:00.000Z	LajujKej		I have a question about ndiswrapper and broadcom drivers.  I can get install the drivers, and my wlan0 can see networks, but I can't connect.  Does anyone have a hint as to what is the problem?
+2006-08-29T10:40:00.000Z	LajujKej		what command do i use to disable bcm43xx
+2006-08-29T10:41:00.000Z	disasm	LajujKej	rmmod will remove it temporarily, you can blacklist it if you need it permanently removed

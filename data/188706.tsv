@@ -1,0 +1,4 @@
+2007-06-28T07:58:00.000Z	XiXaQ		when someone has lost their sudoers password, how do they login as root?
+2007-06-28T07:59:00.000Z	pike_	XiXaQ	reboot into recovery mode. or add a init=/bin/sh to the kernel line at bootup. use the 'e' key to edit stuff at grub boot
+2007-06-28T08:00:00.000Z	XiXaQ	pike_	recovery mode gives you a bash commandline with root privilegies?
+2007-06-28T08:00:00.000Z	pike_	XiXaQ	im assuming its a single user shell

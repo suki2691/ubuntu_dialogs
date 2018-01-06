@@ -1,0 +1,4 @@
+2008-05-05T18:49:00.000Z	azuki		hey there... a quick question.. is there a way to find out in the bash (without mounting a device) to check out the drive inf? (e.g. the ATA ST 340016A and something more to be able to identify the drive contents)
+2008-05-05T18:49:00.000Z	azuki		if WITH mounting.. thatś ok too
+2008-05-05T18:50:00.000Z	simplexio	azuki	ls -la /dev/disk/by-id/
+2008-05-05T18:52:00.000Z	azuki	simplexio	thnx dude!.. that´s exactly what I was looking for

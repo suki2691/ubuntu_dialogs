@@ -1,0 +1,4 @@
+2005-10-18T14:48:00.000Z	|AmaTeuR|		get configure error "can't find x includes", how can i solve that/
+2005-10-18T14:48:00.000Z	|AmaTeuR|		?
+2005-10-18T14:48:00.000Z	crimsun	|AmaTeuR|	install libx11-dev
+2005-10-18T14:49:00.000Z	crimsun	|AmaTeuR|	then it's looking for something specific, which is an extension, which means configure.in is broken and needs to be updated

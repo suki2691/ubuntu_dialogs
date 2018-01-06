@@ -1,0 +1,4 @@
+2011-12-10T20:36:00.000Z	vincent_		Does anybody know how to auto start n2n supernode at boot?
+2011-12-10T20:38:00.000Z	mongy	vincent_	 if it has scripts, then sudo update-rc.d n2n default
+2011-12-10T20:38:00.000Z	vincent_	mongy	No.  It doesn't have a startup script
+2011-12-10T20:39:00.000Z	mongy	vincent_	 try adding it to /etc/rc.local then

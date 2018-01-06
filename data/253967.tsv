@@ -1,0 +1,4 @@
+2005-01-11T12:07:00.000Z	hartbrkr		I just installed ubuntu and used the default partitions (3.0 GB for / and 171MB for swap) but changed the fs type to reiserfs, as someone recommended I use it. now that it finished installing, it rebooted and I got grub Error 17. is that because the / partition isn't ext3? can grub only read ext2/3 partitions to boot from?
+2005-01-11T12:08:00.000Z	nicedreams	hartbrkr	 you can't just change to reiserfs, change it back to ext3
+2005-01-11T12:08:00.000Z	hartbrkr	nicedreams	so do I need to reinstall ubuntu? probably eh?
+2005-01-11T12:08:00.000Z	nicedreams	hartbrkr	easiest way i know to fix it is boot with knoppix and change root

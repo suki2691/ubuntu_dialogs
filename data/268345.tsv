@@ -1,0 +1,4 @@
+2004-12-15T09:23:00.000Z	mouu		how can I change root's password on ubuntu?
+2004-12-15T09:23:00.000Z	sladen	mouu	just use sudo:      sudo command-you-want-to-run-as-root
+2004-12-15T09:43:00.000Z	sladen	mouu	sudo /etc/init.d/ssh start
+2004-12-15T09:48:00.000Z	sladen	mouu	it's installed by default, but.    sudo apt-get install ssh

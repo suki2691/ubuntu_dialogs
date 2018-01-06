@@ -1,0 +1,4 @@
+2008-10-15T06:57:00.000Z	wartalker		how to let system auto load a module when reboot
+2008-10-15T06:57:00.000Z	tritium	wartalker	append the module name to /etc/modules
+2008-10-16T08:02:00.000Z	tritium	wartalker	there are only 3 that debian/ubuntu use: 0 (reboot), 1 (single-user), and 2.  You really only use 2 on a regular basis.
+2008-10-16T08:03:00.000Z	tritium	wartalker	runlevel 1 is single-user (recovery) mode, and doesn't load X, so won't "need" the nvidia driver

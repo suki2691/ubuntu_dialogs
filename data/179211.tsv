@@ -1,0 +1,4 @@
+2008-12-13T19:27:00.000Z	wdh		i (re)moved the /etc/apache2 directory because I want to reconfigure it. However, reinstalling the 'apache2' package (or a dpkg-reconfigure), does not seem to put a new /etc/apache2 directory into place. Any ideas on this?
+2008-12-13T19:28:00.000Z	jrib	wdh	purge and reinstall whatever package you get from the output of: apt-cache search -n apache common
+2008-12-13T19:28:00.000Z	jrib	wdh	actually, just install apache2 after you purge the above
+2008-12-13T19:35:00.000Z	wdh	jrib	thx.. that helped

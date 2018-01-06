@@ -1,0 +1,4 @@
+2011-07-31T18:44:00.000Z	tomasm-		hi, im trying to install phpize via 'apt-get install php5-dev', and i get an error saying linux-libc-dev could not be found (i get a 404 not found from security.ubuntu.com/ubuntu/lucid-updates/main), any ideas whats wrong?
+2011-07-31T18:45:00.000Z	wols	tomasm-	where do you install this php5-dev from?
+2011-07-31T18:45:00.000Z	tomasm-	wols	i dunno, apt-get php5-dev .... apparently i needed to run apt-get update first, now its ok
+2011-07-31T18:46:00.000Z	wols	tomasm-	apt-cache policy <package> shows you were from something gets installed

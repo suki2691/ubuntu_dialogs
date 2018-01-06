@@ -1,0 +1,4 @@
+2008-01-21T01:46:00.000Z	mbh00020		Anyone have any step-by-step instructions on ftping files into apache? I keep getting 550 errors even after I chown /var/www
+2008-01-21T01:47:00.000Z	Cpudan80	mbh00020	Normally you have to put stuff in there as root
+2008-01-21T01:47:00.000Z	Cpudan80	mbh00020	Furthermore, stuff in there needs global read privs (XX4)
+2008-01-21T01:47:00.000Z	Cpudan80	mbh00020	sudo cp stuff /var/www

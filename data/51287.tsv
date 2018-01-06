@@ -1,0 +1,4 @@
+2011-12-25T01:08:00.000Z	trism	philpem	I haven't looked to closely, but if you notice, doc/developer is already built in the ubuntu package, so you make want to pre-build it before uploading since it won't be able to fetch that file when building on launchpad
+2011-12-25T01:11:00.000Z	philpem	trism	I figured that'd be one option
+2011-12-25T01:12:00.000Z	philpem	trism	what I'd like to know is which commands the gutenprint dev team use to make the release tarballs from CVS
+2011-12-25T01:12:00.000Z	philpem	trism	if I had a rel tarball it'd presumably have the docs prebuilt, thus making it far easier to package

@@ -1,0 +1,4 @@
+2007-05-25T07:00:00.000Z	JABJabJAB		im trying to build a metapackage deb file which depends on many other packages,   when i do a dpkg -b all works good but when i dpkg-buildpackage i get an error "control file must have at least one binary package part" what is the "binary part" im only building a package to depend on all of my favorite packages
+2007-05-25T07:01:00.000Z	LjL	JABJabJAB	that allows you to do that without going through the pains of building a "proper" package, if you prefer
+2007-05-25T07:02:00.000Z	LjL	JABJabJAB	equivs is easy to use, basically you just edit a little file to list all the dependencies you want included, then fire up equivs-build (or whatever it's called), and there you have the .deb
+2007-05-25T07:04:00.000Z	LjL	JABJabJAB	specifically, the procedure is 1) run  equivs-control <filename> , where filename is a name of your choice  2)  nano <filename> , and change as needed   3)  equivs-build <filename>   4)  sudo dpkg -i <packagename.deb> 

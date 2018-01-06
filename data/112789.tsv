@@ -1,0 +1,4 @@
+2007-11-25T16:33:00.000Z	whabo		is there a way u can boot 2 distros together what adjustments do i have to make .. to let grub recognize both distros on both partitions thx ...
+2007-11-25T16:34:00.000Z	whabo		thx
+2007-11-25T16:34:00.000Z	ephemient	whabo	if they don't share the same /boot partition, you can make one grub chainload the other
+2007-11-25T16:34:00.000Z	ephemient	whabo	or you could merge their /boot/grub/grub.conf's

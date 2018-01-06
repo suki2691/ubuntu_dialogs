@@ -1,0 +1,4 @@
+2010-07-29T12:34:00.000Z	LinuxFetus		 want to select on startup (I don't like the fact that there's a memtest, etc., and that I can't rename them).  I have two choices: "Microsoft Windows XP Professional" and "Ubuntu 10.04 LTS" (that's what I've called them).  I chmod'ed the permissions on "10_linux," "30_os-prober", and "20_memtest86+" to no longer be executable by anyone (chmod ugo-x).  Then I run update-grub and then my boot/grub/grub.lst file or whatever only
+2010-07-29T12:34:00.000Z	LinuxFetus		has two menu options -- the two specified in 40_custom.  I don't know if that's pertinent, or not, but I thought I'd let you know just in case.
+2010-07-29T12:34:00.000Z	shorttech	LinuxFetus	are writing a book?
+2010-07-29T12:35:00.000Z	LinuxFetus	shorttech	No... sorry :X  I just wanted to be very specific.

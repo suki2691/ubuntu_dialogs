@@ -1,0 +1,4 @@
+2007-01-12T17:00:00.000Z	andyshack		wow. ive got 15 ip's a second hitting my box. i knew there was something up.
+2007-01-12T17:01:00.000Z	frogzoo	andyshack	that's pretty standard for a net connected box
+2007-02-02T14:00:00.000Z	frogzoo	andyshack	you need to enable the input connections on the relevant ports
+2007-02-02T14:00:00.000Z	frogzoo	andyshack	firestarter is a front end only to iptables - try 'sudo iptables -L -v' to see your ruleset

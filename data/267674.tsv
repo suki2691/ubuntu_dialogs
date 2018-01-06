@@ -1,0 +1,4 @@
+2010-08-30T02:07:00.000Z	alpharesearch		I want to find the package that includes hhp2cached from wxwidgets, I guessed this command would help: dpkg-query -S hhp2cached (but there are findings)
+2010-08-30T02:08:00.000Z	alpharesearch		Is there a better command to find what package includes what binary?
+2010-08-30T02:09:00.000Z	maco	alpharesearch	apt-file search _____
+2010-08-30T02:09:00.000Z	maco	alpharesearch	dpkg -S only works if you have the package installed

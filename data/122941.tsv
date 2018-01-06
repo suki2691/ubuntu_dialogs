@@ -1,0 +1,4 @@
+2009-01-21T09:46:00.000Z	un_dave		could anyone explain how i uninstall something i've installed from source, using make install ?
+2009-01-21T09:46:00.000Z	mindrape	un_dave	          ./configure             make                 make install                    you need to apt-get install build-essentials and kernel-headers and libc-dev I believe.
+2009-01-21T09:47:00.000Z	un_dave	redvamp128	i think i'll try that
+2009-01-21T09:47:00.000Z	mindrape	un_dave	err.. didn't read what you wrote... yeah.. make uninstall  :)

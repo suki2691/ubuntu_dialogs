@@ -1,0 +1,4 @@
+2005-10-27T16:07:00.000Z	kkathman		Greetings, I wonder if I could get a little help diagnosing a network problem, please?
+2005-10-27T16:08:00.000Z	kkathman		I had a power outage, which caused my linux box to go down. When I restarted, it hung during the boot on bringing up the network connection, and SMB failed. All my other computers are ok, and the connection point is good. The ethernet lights on the card are blinking
+2005-10-27T16:09:00.000Z	kkathman		when I do an ifup eth0, it says eth0 is already configured, yet in the system settings it reports "Disabled network device"
+2005-10-27T16:09:00.000Z	don	kkathman	have u tried a fsck?

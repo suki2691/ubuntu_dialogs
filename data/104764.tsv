@@ -1,0 +1,4 @@
+2009-09-09T04:24:00.000Z	peb_live		how do i mount my floppy disk drive in ubuntu?
+2009-09-09T04:24:00.000Z	peb_live		yes\
+2009-09-09T04:25:00.000Z	peb_live		how do i mount my floppy drive?
+2009-09-09T04:25:00.000Z	ActionParsnip	peb_live	sudo modprobe floppy; sudo mkdir /media/floppy0; sudo mount /dev/fd0 /media/floppy0 -t vfat rw,user

@@ -1,0 +1,4 @@
+2008-04-12T19:08:00.000Z	DarrenCB9		Hi, I'm having trouble with ubuntu-server, after I reboot the memory usage steadly goes up and up but when I look at the list of processes nothing seems to be consuming large amounts of memory, can anyone suggest how I might diagnose this problem?
+2008-04-12T19:08:00.000Z	ikonia	DarrenCB9	how do you know the memory use is going up
+2008-04-12T19:10:00.000Z	DarrenCB9	ikonia	the memory in use as reported by top and free increases close to my max memory but after that no swap is used.
+2008-04-12T19:10:00.000Z	ikonia	DarrenCB9	that could be a good thing depending on how the kernel is managing memory

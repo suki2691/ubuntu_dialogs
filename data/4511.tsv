@@ -1,0 +1,4 @@
+2012-07-20T20:53:00.000Z	semarjt		hey guys I am on a fresh 12.04 install, i tried adding an nvidia card, it didnt work so i removed xorg.conf and removed nvidia-current, now i am back to the integrated card, problem is now my original user cannot log in graphically, i logged in as them on the console and created a new user that can login graphically
+2012-07-20T20:54:00.000Z	semarjt		is there a way to be able to log in graphically as my original user?
+2012-07-20T20:54:00.000Z	beandog	semarjt	run groups as both users, and see if there's a difference
+2012-07-20T20:56:00.000Z	beandog	semarjt	hmm, dunno then

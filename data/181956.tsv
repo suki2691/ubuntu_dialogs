@@ -1,0 +1,4 @@
+2006-06-08T07:57:00.000Z	AlwaysIcey		Hi everyone.  I have a strange networking issue.  I've configured my ethernet using ifconfig.  I can ping my other computers on the network, and I can ping my router/modem.  But, I can't ping anything outside of the local network.  Neither by IP address or www name.  However, I can do an nslookup and get IP addresses.
+2006-06-08T07:57:00.000Z	bobstro	AlwaysIcey	are your local machines using your router for dns proxy?
+2006-06-08T07:58:00.000Z	bobstro	AlwaysIcey	are your local machines getting addresses via dhcp?
+2006-06-08T08:06:00.000Z	AlwaysIcey	bobstro	 Where do I find the conf files that I have to set my gateway and dns up in (I think it's just default.conf, but I can't remember for sure)?  Thanks.

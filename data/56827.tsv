@@ -1,0 +1,4 @@
+2009-05-25T11:12:00.000Z	ayo		i specify the -L/usr/lib for -lssl, but /usr/bin/ld still says "cannot find -lssl", why
+2009-05-25T11:14:00.000Z	ykphuah	ayo	what's the full command that you use?
+2009-05-25T11:14:00.000Z	ayo	ykphuah	gcc -static -o wpa_supplicant config.o ...  main.o drivers.o driver_wext.o -L/usr/lib -lssl -ldl
+2009-05-25T11:15:00.000Z	ayo	ykphuah	/usr/bin/ld: cannot find -lssl

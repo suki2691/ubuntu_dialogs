@@ -1,0 +1,4 @@
+2011-12-20T01:44:00.000Z	phil_phys		can i modify a partition increasing space?
+2011-12-20T01:44:00.000Z	ssta	phil_phys	yes, if it's not mounted.  get gparted
+2011-12-20T01:45:00.000Z	phil_phys	ssta	I used gparted but I cannot add the space of 8.04 into 11.10 partition
+2011-12-20T01:46:00.000Z	ssta	phil_phys	delete the partition with the free space, then expand the other one into that space

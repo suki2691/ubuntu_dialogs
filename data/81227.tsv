@@ -1,0 +1,4 @@
+2008-08-27T09:36:00.000Z	redrobin		Does anyone know how to change the sda2 partition to sda1?
+2008-08-27T09:36:00.000Z	dhenry	redrobin	the partition number is determined by your partition table
+2008-08-27T09:45:00.000Z	dhenry	redrobin	 If you really want to play with fire (strong possibility of losing data!!!) you need to fire up fdisk.  Write down the start and size of the second partition.  Then delete the partition and recreate it with the exact same start and size numbers, but as the first partition.  THIS IS VERY DANGEROUS!!!  BACK UP ALL DATA AND BE PREPARED TO REINSTALL WINDOWS.
+2008-08-27T09:56:00.000Z	dhenry	redrobin	You need to boot with the windows disk and start the recovery console.  Run fixmbr http://amazingrando.wordpress.com/2007/04/05/fixmbr-is-your-friend/  You won't be able to boot into anything else after doing that.

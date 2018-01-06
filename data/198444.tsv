@@ -1,0 +1,4 @@
+2006-02-20T12:13:00.000Z	scampbell		vmware doesn't really emulate hardware so much as it time slices and does state control.  The flaws are probably real.
+2006-02-20T12:13:00.000Z	bluefoxicy	scampbell	 so it uses your real network card, exporting a driver interface to your real NIC chipset and your real IDE and mobo chipsets?
+2006-02-20T12:14:00.000Z	bluefoxicy	scampbell	 and real video card?
+2006-02-20T12:14:00.000Z	scampbell	bluefoxicy	nah you got me on network card, I'm sure that's a stacked.  The video card I think is pretty much direct access and state save.  Of course, I'm only guessing, I don't have the source code.

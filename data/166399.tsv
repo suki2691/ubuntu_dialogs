@@ -1,0 +1,4 @@
+2007-06-21T10:09:00.000Z	ochosi		hi, my usb-hdd doesn't spin down correctly (it makes a clicking noise on shutdown) when being unmounted (also from the terminal). any idea why that is?
+2007-06-21T10:10:00.000Z	wols	ochosi	when a hdd starts to click a smartmontools check is in order. disk could go bad very soon
+2007-06-21T10:12:00.000Z	ochosi	wols	so you're sure it's not ubuntu's fault? (i had this laptop-hdd shutdown kernel bug as well...)
+2007-06-21T10:18:00.000Z	ochosi	wols	smartctl doesn't seem to work on my external usb-hdd... any other ideas?

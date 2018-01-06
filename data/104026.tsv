@@ -1,0 +1,4 @@
+2009-08-06T03:41:00.000Z	proq		I have a backup of sda1 on an equally-sized partition sda2.  when I change /etc/fstab to use sda2 as /, it works fine.  but when I change it back to /etc/fstab my machine becomes unbootable.  is this something MBR-related?
+2009-08-06T03:41:00.000Z	proq		erm, when I change it back to sda1 I mean
+2009-08-06T03:42:00.000Z	proq		I almost get the suspicion that changing root in /etc/fstab to sda2 doesn't really change it to sda2, but makes ubuntu get sda1 and sda2 mixed up
+2009-08-06T03:43:00.000Z	ActionParsnip	proq	you'll need to instal grub probably

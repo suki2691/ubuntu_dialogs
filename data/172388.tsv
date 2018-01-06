@@ -1,0 +1,4 @@
+2006-08-09T10:03:00.000Z	eon_		when i do apt-get remove mysql-server-5.0 and then reinstall it, it still is pulling config from somewhere, cause i get access denied when trying to log onto the db
+2006-08-09T10:03:00.000Z	eon_		how do i go about fixing this/
+2006-08-09T10:04:00.000Z	scrappy_	eon_	apt-get remove --purge package
+2006-08-09T10:04:00.000Z	eon_	scrappy_	 thanks, ill give it a shot

@@ -1,0 +1,4 @@
+2009-05-08T22:40:00.000Z	quilby		how do i delete the first line of a csv file in the command line?
+2009-05-08T22:41:00.000Z	matreya6	quilby	    sed '1d' data.file > mynewdata.file
+2009-05-08T22:42:00.000Z	quilby	matreya6	thanks ill try
+2009-05-08T22:42:00.000Z	matreya6	quilby	should work with *any* textfile

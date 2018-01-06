@@ -1,0 +1,4 @@
+2006-03-19T14:54:00.000Z	justintime32		hey, does anyone know how to remove the bcm43xx driver from dapper?
+2006-03-19T14:55:00.000Z	justintime32		yeah, i did that
+2006-03-19T14:55:00.000Z	nickrud	justintime32	you can add the driver to /etc/hotplug/blacklist.d/ , that will prevent it from loading
+2006-03-19T14:56:00.000Z	nickrud	justintime32	it won't affect anything if it isn't loaded

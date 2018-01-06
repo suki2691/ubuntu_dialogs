@@ -1,0 +1,4 @@
+2011-03-04T01:24:00.000Z	the-prototype		Can anyone tell me how to get the Synaptic Packet Manager and Firestarter firewall to accept my password when it asks for it? Only rejects when i get the option to use keychain...
+2011-03-04T01:25:00.000Z	ActionParsnip	the-prototype	use:  gksudo firestarter       firetarter doesn't need to be running for the firewall to work, its only a frontend
+2011-03-04T01:28:00.000Z	the-prototype	ActionParsnip	ah ok. and what about synaptic manager? i try to get the linux firmware update, i'm prompted with the password screen that has the keychain option, and my pw gets rejected?
+2011-03-04T01:31:00.000Z	ActionParsnip	the-prototype	not sure, if you run: sudo apt-get update; sudo apt-get -y upgrade    does the password work there?

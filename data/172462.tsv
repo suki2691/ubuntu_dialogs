@@ -1,0 +1,4 @@
+2006-07-31T10:58:00.000Z	apeman2020		how can I edit my sources.list using command line
+2006-07-31T10:58:00.000Z	joshuapurcell	apeman2020	sudo vi /etc/apt/sources.list
+2006-07-31T11:01:00.000Z	joshuapurcell	apeman2020	sudo apt-get install ubuntu-desktop
+2006-07-31T11:03:00.000Z	joshuapurcell	apeman2020	sudo apt-get update may do the trick, but you may need to look at what repositories you have listed in you /etc/apt/sources.list file

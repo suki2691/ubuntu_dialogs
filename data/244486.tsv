@@ -1,0 +1,4 @@
+2005-12-08T17:46:00.000Z	Johnson_		waany know a good ip scanner?
+2005-12-08T17:46:00.000Z	Johnson_		i need one
+2005-12-08T17:47:00.000Z	Johnson_		would that check if the ip are alive over a range of them
+2005-12-08T17:48:00.000Z	LeeJunFan	Johnson_	if you want to check a span of systems for being up use nmap -sP -PI 192.168.1.1-254 (or whatever IP range you are working with)

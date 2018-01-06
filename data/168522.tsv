@@ -1,0 +1,4 @@
+2008-03-24T20:16:00.000Z	bobbyd		hi
+2008-03-24T20:16:00.000Z	bobbyd		is there a way to explicitly set the processor speed of my laptop under ubuntu? I want to force it to be slow to extend battery life...
+2008-03-24T20:17:00.000Z	icf7	bobbyd	cpufreq-set -u 800MHz
+2008-03-24T20:18:00.000Z	icf7	bobbyd	Although im not sure whether a userspace daemon does that in Ubuntu, sry

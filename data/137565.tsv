@@ -1,0 +1,4 @@
+2008-04-26T01:36:00.000Z	Xecuter88		hi! having a strange problem. I'm using a python script so that amarok can handle my keyboard buttons and such, but the strange thing is that if i run "python gnome_media_keys.py" in a terminal things is fine. However, if i use the Run program thing (Alt + F2) and "python gnome_media_keys.py", then python is eating all of my CPU. How come?
+2008-04-26T01:36:00.000Z	dystopianray	Xecuter88	check ~/.xsession-errors to see if there is any unusual output from python
+2008-04-26T01:44:00.000Z	Xecuter88	dystopianray	lost my connection.... didn't find anything in .xsession-error
+2008-04-26T01:45:00.000Z	dystopianray	Xecuter88	i'm not sure why it would take up so much cpu then, it's very strange

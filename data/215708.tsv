@@ -1,0 +1,4 @@
+2006-11-03T13:11:00.000Z	strabes		does anyone know why a mounted vfat partition would randomly change its name from 'data' to '_PNG' ???
+2006-11-03T13:11:00.000Z	strabes		i've tried changing the location it is mounted to to things like 'shared' and 'windows' and rebooting but it doesn't seem to help
+2006-11-03T13:12:00.000Z	strabes		it keeps the name '_PNG'
+2006-11-03T13:13:00.000Z	soundray	strabes	it's probably the filesystem label. You can change that with one of the utils from the mtools package... I think it's called mlabel

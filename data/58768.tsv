@@ -1,0 +1,4 @@
+2009-04-30T05:34:00.000Z	MagicDuck1		hi, I just installed jaunty. I am having a problem with xfontsel. TTF fonts such as ttf-inconsolata do not appear. (I want to use a program called dmenu, that's why I need this to work)
+2009-04-30T05:35:00.000Z	piroko	MagicDuck1	Use "xft-<ttf_font_name>" as the font. ttf fonts won't show up in xfontsel because it only shows X fonts
+2009-04-30T05:35:00.000Z	piroko	MagicDuck1	May or may not work... I'm sorry if it doesn't
+2009-04-30T05:37:00.000Z	MagicDuck1	piroko	then how come it show deja vu sans?

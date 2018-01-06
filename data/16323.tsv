@@ -1,0 +1,4 @@
+2011-04-12T16:03:00.000Z	oxodesign		hi all, im going to ask something very stupid, do I need to install crontab? When I run "crontab -e" i get "command not found"?
+2011-04-12T16:03:00.000Z	tfogal	oxodesign	you need to install a cron daemon, it'll come with a crontab
+2011-04-12T16:04:00.000Z	oxodesign	tfogal	how do I install a cron deamon?
+2011-04-12T16:04:00.000Z	tfogal	oxodesign	apt-cache search cron

@@ -1,0 +1,4 @@
+2007-08-08T14:54:00.000Z	Hadron		I created a dvd holding all the packages I installed on my development machine using "aptoncd". I then ran aptoncd on my laptop. But how to tell the laptop to *install* all these packages? In other words how do I get a list of installed packages and duplicate it on another machine.
+2007-08-08T14:55:00.000Z	MasterShrek	Hadron	just go on the cd and dpkg -i *.deb
+2007-08-08T14:55:00.000Z	Hadron	MasterShrek	doh! Of course.
+2007-08-08T14:58:00.000Z	Hadron	MasterShrek	working like  a charm. Why didn't I think of tha obvious solution. Thats what happens when an app like aptocd doesn't do its job fully :-;

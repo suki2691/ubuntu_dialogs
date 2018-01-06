@@ -1,0 +1,4 @@
+2007-02-05T12:33:00.000Z	Kajin		Can somebody help me with a networking problem? The thing is, I just did a fresh install of Ubuntu Edgy, ping works perfectly to any site, but when I enter it in Firefox, it just displays 'Waiting for connection' forever.
+2007-02-05T12:34:00.000Z	pbureau	Kajin	 can you ping to www.yahoo.com ?
+2007-02-05T12:35:00.000Z	pbureau		Kaja, try terminal window --> ping www.yahoo.com you should get something like PING www.yahoo-ht2.akadns.net (209.191.93.52) 56(84) bytes of data. and a series of pings below it, if not you need to fix your DNS addres in /etc/resolv.d
+2007-02-05T12:36:00.000Z	Kajin	pbureau	unop: I can ping everything with success, but the weird thing is that a site like Google does show up in my browser but Yahoo for example does not.

@@ -1,0 +1,4 @@
+2012-11-20T20:38:00.000Z	x7fffffff_		Hello there, ive got a question and i hope i am in the right channel...  on my newly installed 12.10 (x64) box im trying to install fglrx which installs just fine, however on reboot it automaticly sets a default resolution that my monitor cant handle which shuts off at that point leaving me blinded. On debian i'd edit that in [/etc/X11/xorg.conf] however on this version of ubuntu i dont find...
+2012-11-20T20:38:00.000Z	x7fffffff_		...that file. Any idea where that configuration/data is now stored?
+2012-11-20T20:40:00.000Z	boichev	x7fffffff_	look here https://help.ubuntu.com/community/BinaryDriverHowto/ATI
+2012-11-20T20:42:00.000Z	boichev	x7fffffff_	I think if there is no such file you just can make one

@@ -1,0 +1,4 @@
+2005-03-28T12:45:00.000Z	Quarupt		Can anyone please tell me in which dir are the kernel headers stored?
+2005-03-28T12:47:00.000Z	adamh	Quarupt	/usr/src/linux-headers-xxxxx
+2005-03-28T12:47:00.000Z	adamh	Quarupt	You've gotta have the linux-headers-xxxx package installed first :)
+2005-03-28T12:49:00.000Z	adamh	Quarupt	The script ought to be able to find them automatically. But they're in /usr/src/linux-headers-xxxx... where xxxx is "type ls to find out" :)

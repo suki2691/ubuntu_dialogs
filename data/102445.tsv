@@ -1,0 +1,4 @@
+2010-01-14T11:18:00.000Z	MrProkhorov		Hi, could anybody help me out with a stupid-simple BASH question?
+2010-01-14T11:18:00.000Z	MrProkhorov		 I need to know how to notate a directory name with whitespace while using a shell? e.g. if I wanted to "cp /this and that /blah/that"
+2010-01-14T11:19:00.000Z	rww	MrProkhorov	replace the " " with "\ ". e.g. "this\ and\ that"
+2010-01-14T11:19:00.000Z	rww	MrProkhorov	tab-completion can often help with that

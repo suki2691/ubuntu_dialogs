@@ -1,0 +1,4 @@
+2008-01-13T23:47:00.000Z	Bieleke		anybody for ubuntu 6.03LTS imap and squirrelmail ?
+2008-01-13T23:47:00.000Z	Bieleke		seems inet is running, but imap is not
+2008-01-13T23:47:00.000Z	Bieleke		at least if i try to connect, i get connection refused
+2008-01-13T23:49:00.000Z	robdig	Bieleke	if you are getting connection refused, that typically means that nothing is listening on the port...in your case imap daemon isn't running on the server you're connecting to

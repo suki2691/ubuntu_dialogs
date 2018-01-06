@@ -1,0 +1,4 @@
+2011-05-29T22:29:00.000Z	BobTheGreat		i don't understand how to "add ppa:kernel-ppa/ppa to sources". Isn't sources meant to be like "deb http://..."?
+2011-05-29T22:30:00.000Z	hypatia	BobTheGreat	sudo add-apt-repository ppa:....
+2011-05-29T22:30:00.000Z	hypatia	BobTheGreat	try that (but with the right ppa name)
+2011-05-29T22:31:00.000Z	hypatia	BobTheGreat	after an apt-get update, yes

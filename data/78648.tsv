@@ -1,0 +1,4 @@
+2008-09-22T03:36:00.000Z	ubuntudebug		ok so I've replaced the cdrom drive and I've replaced the cdrom
+2008-09-22T03:36:00.000Z	ubuntudebug		it's just unable to mount anything on boot
+2008-09-22T03:36:00.000Z	ActionParsnip	ubuntudebug	does it detect in bios?
+2008-09-22T03:39:00.000Z	ubuntudebug	ActionParsnip	what do you mean?  it begins to boot, I see the kernel messages, the kernel finds the cdrom drive sd sr (attached scsi generic sg0/1 respectively) and then /root/var/log: No such file or directory and a stream of errors mounting because it can't find the device

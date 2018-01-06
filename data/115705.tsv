@@ -1,0 +1,4 @@
+2008-01-18T20:37:00.000Z	pkundu		in my laptop SMART is giving error at boot time. how do scan for hdd errors from ubuntu
+2008-01-18T20:38:00.000Z	ZionPsyfer	pkundu	 try the smartmontools package
+2008-01-18T20:39:00.000Z	pkundu	ZionPsyfer	thanks
+2008-01-18T20:40:00.000Z	ZionPsyfer	pkundu	np.  the command to use will be 'smartctl' the man page is pretty short and sweet.  -a /dev/drive will most likely be all you need.

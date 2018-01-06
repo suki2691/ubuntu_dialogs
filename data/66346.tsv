@@ -1,0 +1,4 @@
+2010-05-14T23:13:00.000Z	boxer-		i have samba all setup, but i can only access shared folders that have "allow access to everyone" selected
+2010-05-14T23:14:00.000Z	mgmuscari	boxer-	to mount a samba share using credentials, append the following to your mount command: -o username=whatever
+2010-05-14T23:15:00.000Z	mgmuscari	boxer-	it'll prompt you for your password
+2010-05-14T23:15:00.000Z	mgmuscari	boxer-	if you want details on how to set up a credentials file and put the samba shares in your fstab, pm me

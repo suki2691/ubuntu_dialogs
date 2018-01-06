@@ -1,0 +1,4 @@
+2012-05-31T17:36:00.000Z	sshme		Hi. how to change user's initial group?
+2012-05-31T17:37:00.000Z	gvo	sshme	edit /etc/passwd
+2012-05-31T17:37:00.000Z	sshme	gvo	thanks.
+2012-05-31T17:38:00.000Z	gvo	sshme	 lines like: mail:x:8:8:mail:/var/mail:/bin/sh change the second 8 to the id of the group.  See /etc/group for group id/names

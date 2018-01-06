@@ -1,0 +1,4 @@
+2006-01-20T13:30:00.000Z	lightbright		how can i wipe or totally securely format hdb?
+2006-01-20T13:30:00.000Z	lightbright		ant ideas anyoner?
+2006-01-20T13:31:00.000Z	lightbright		dd if=/dev/urandom of=/dev/hdb  <--  this wipes the hdb?
+2006-01-20T13:33:00.000Z	Madpilot_elsewhe	lightbright	if you want to securely delete stuff, there's also the "shred" util - try "man shred" for details

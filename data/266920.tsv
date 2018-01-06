@@ -1,0 +1,4 @@
+2010-01-24T03:21:00.000Z	Johnny_425		I need to merge two partitions, how do I do it?
+2010-01-24T03:22:00.000Z	Dr_Willis	Johnny_425	 what filesystems? are they side by side on the disk layout? are they both primary? extended/logicals?
+2010-01-24T03:26:00.000Z	Dr_Willis	Johnny_425	 what filesystems? are they side by side on the disk layout? are they both primary? extended/logicals?
+2010-01-24T03:27:00.000Z	Dr_Willis	Johnny_425	 short answer - use gparted.. but you proberly will have to move data from one to the 2nd.. then shrink the 1st.. and enlarge the 2nd..  repeate as needed

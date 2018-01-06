@@ -1,0 +1,4 @@
+2009-10-21T10:05:00.000Z	Mr_Orange		anyone see anything wrong with this crontab entry? @daily /etc/squeezer2.pl >> "/var/www/wordpress/squidlogs/`date +'%B %-d %Y'` - report.html" 2>&1
+2009-10-21T10:05:00.000Z	Mr_Orange		it works when i manually run it
+2009-10-21T10:05:00.000Z	mobi-sheep	Mr_Orange	Run it in the root and see.
+2009-10-21T10:06:00.000Z	Mr_Orange	mobi-sheep	it works just fine when i run as root

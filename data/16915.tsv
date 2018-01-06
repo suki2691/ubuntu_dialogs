@@ -1,0 +1,4 @@
+2011-11-20T07:45:00.000Z	brightspark		is there a difference, functionally speaking, between "sudo -i" and "sudo su"?
+2011-11-20T07:45:00.000Z	jrib	brightspark	yes
+2011-11-20T07:49:00.000Z	jrib	brightspark	there are two issue.  There's 'su -' vs 'su' (or in the sudo context: sudo -i vs. sudo -s) and there is another issue: sudo -i vs. sudo su -.  The first distinction is pretty important as one version resets the environment and the other doesn't.  For the second issue, I don't know of a significant reason other than "sudo -i exists so why not use it"
+2011-11-20T07:50:00.000Z	brightspark	jrib	brjannc, thanks very much.

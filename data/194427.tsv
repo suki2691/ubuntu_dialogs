@@ -1,0 +1,4 @@
+2010-06-02T06:02:00.000Z	Bacon		I have a question about Broadcom drivers for Ubuntu 10.04. When I activate the Broadcom STA wireless drivers that come with the distro, my wireless begins to work (bcm4311). However, upon reboot, it says the drivers are installed, but not activated. It isn't until I uninstall the drivers then reinstall that the wireless works again.
+2010-06-02T06:04:00.000Z	Bacon		I have a question about Broadcom drivers for Ubuntu 10.04. When I activate the Broadcom STA wireless drivers that come with the distro, my wireless begins to work (bcm4311). However, upon reboot, it says the drivers are installed, but not activated. It isn't until I uninstall the drivers then reinstall that the wireless works again.
+2010-06-02T06:05:00.000Z	Bacon		!broadcom
+2010-06-02T06:07:00.000Z	LogicalDash	Bacon	you need to add ndiswrapper to your /etc/modules.d, the help page above should have some instructions

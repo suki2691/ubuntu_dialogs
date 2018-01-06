@@ -1,0 +1,4 @@
+2006-01-17T12:08:00.000Z	shad0w1e		is there really a performance decrease with ext3 versus ext2 (im talking about a very slow machine)
+2006-01-17T12:09:00.000Z	d33t	shad0w1e	i'm no expert, but from what i've recently read, yes. ext2 doesn't keep a log, so it shoudl use less overhead
+2006-01-17T12:10:00.000Z	d33t	shad0w1e	fallback is, you can lose info if the machine dies in mid write
+2006-01-17T12:11:00.000Z	d33t	shad0w1e	there's a way to turn off journalling on an ext3 partition, which will make it run as an ext2 partition. you can play with that if you want to test it

@@ -1,0 +1,4 @@
+2010-08-11T11:23:00.000Z	deanes		Hi guys just wondering if there is way for apt-get to ignore certain packages during update?
+2010-08-11T11:24:00.000Z	maco	deanes	yes you can lock package versions in synaptic or using aptitude
+2010-08-11T11:24:00.000Z	deanes	maco	how do i do that?
+2010-08-11T11:24:00.000Z	maco	deanes	sudo aptitude hold <package name>

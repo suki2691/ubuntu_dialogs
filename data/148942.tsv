@@ -1,0 +1,4 @@
+2008-09-04T11:56:00.000Z	fudus		how do i mount a device using nautilus? i can use mount to do it, but then I need to sudo everything in order to write to the mount point
+2008-09-04T11:56:00.000Z	unop	fudus	what kind of filesystem on the device?
+2008-09-04T12:02:00.000Z	unop	fudus	the mount.vboxfs manpage might show you how to change the user
+2008-09-04T12:03:00.000Z	unop	fudus	chubs, that would upset permissions/ownership on the directory associated with the share itself

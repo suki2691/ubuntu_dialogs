@@ -1,0 +1,4 @@
+2007-08-09T09:30:00.000Z	heyadayo		hello
+2007-08-09T09:31:00.000Z	heyadayo		how do I unblock port 25 in ubuntu via a remote shell?
+2007-08-09T09:32:00.000Z	Vlet	heyadayo	Try iptables -A INPUT -p tcp -i eth0 --dport 25 -j ACCEPT
+2007-08-09T09:35:00.000Z	heyadayo	Vlet	thanks

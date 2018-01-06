@@ -1,0 +1,4 @@
+2009-07-21T22:57:00.000Z	veritos		Can you make apt-get (not aptitude) say "install this package, but not a certain recommended package"? For example, if I want ubuntu-restricted-extras but not Flash?
+2009-07-21T22:59:00.000Z	Pici	veritos	ubuntu-restricted-extras is a metapackage that depends on other packages, such as flashplugin-nonfree.  If you use your favorite package manager to show you its dependencies, then you could install any or all of them manually.
+2009-07-21T23:05:00.000Z	veritos	Pici	that marks them all as manually installed in /var/lib/apt/extended_states; I want them automatically installed. Installing the metapackage and then removing the unwanted packages has the desired effect, but requires installing and removing.
+2009-07-22T00:00:00.000Z	Pici	veritos	Thats a better question for #ubuntu-devel or #ayatana (which is the desktop experience team)

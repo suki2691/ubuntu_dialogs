@@ -1,0 +1,4 @@
+2005-03-06T06:35:00.000Z	foznot		i am having problems giving proper permissions to another user so they can use sudo
+2005-03-06T06:35:00.000Z	foznot		any suggestions on how to correct that
+2005-03-06T06:35:00.000Z	farruinn	foznot	you're using visudo?
+2005-03-06T06:37:00.000Z	farruinn	foznot	actually, forget what I said, just 'sudo [editor]  /etc/sudoers' and copy the last line for this other user

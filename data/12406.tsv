@@ -1,0 +1,4 @@
+2012-02-09T00:28:00.000Z	zykotick9	lekremyelsew	running update-grub will not remove kernels from the list, you have to uninstall them to do that.
+2012-02-09T00:29:00.000Z	lekremyelsew	zykotick9	wow you just made me realize I have a bunch of old kernels still installed on my system XD
+2012-02-09T00:30:00.000Z	zykotick9	lekremyelsew	FYI from terminal "dpkg -l | grep linux-image" lists them
+2012-02-09T00:32:00.000Z	lekremyelsew	zykotick9	thanks i always thought that the package system automatically removed the old one when you update, but that would be dangerous because new images don't always work. The more you know haha

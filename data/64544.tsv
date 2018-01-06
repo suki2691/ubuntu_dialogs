@@ -1,0 +1,4 @@
+2011-06-11T21:52:00.000Z	disposable		when i try to mount a nfs v3 share (rw,no_subtree_check,no_root_squash) from a freshly installed natty (with -o users,auto,vers=3), all i get is "rpc.statd is not running but is required for remote locking". when i try to start stat.d, i get "Warning: Fake initctl called, doing nothing". statd isn't running and can't be started, setting "NEED_STATD=yes" in /etc/default/nfs-common does not start it either when i try to mount. mounting with "-o nolock" wo
+2011-06-11T21:53:00.000Z	ZykoticK9	disposable	do you have portmap installed?
+2011-06-11T21:54:00.000Z	disposable	ZykoticK9	yes, it was a dependency
+2011-06-11T21:54:00.000Z	ZykoticK9	disposable	ok, just checking

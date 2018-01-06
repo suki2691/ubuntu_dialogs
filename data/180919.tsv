@@ -1,0 +1,4 @@
+2006-10-09T16:57:00.000Z	Ronz		hey, the nvidia drivers on my computer seem to be broken. ive gone through every tutorial, installed nvidia-glx, changed my xorg.conf file, and when i load it up...the screen stays black and doesn't load. has anyone heard of the black screen problem?
+2006-10-09T16:59:00.000Z	kitche	Ronz	pastebin your Xorg.0.log file it's in /var/log
+2006-10-09T05:02:00.000Z	Ronz	kitche	the error i was getting was "failed to load nvidia kernel module"
+2006-10-09T05:03:00.000Z	kitche	Ronz	ah ok try sudo modprobe nvidia see if that helps

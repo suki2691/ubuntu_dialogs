@@ -1,0 +1,4 @@
+2007-08-20T14:23:00.000Z	hxu		The kernel has limited the per-uid mqueue space usage to 819200 bytes, but in Ubuntu there is no such limit, any idea?
+2007-08-20T14:25:00.000Z	cafuego	hxu	That's prolly a ulimit setting, no?
+2007-08-20T14:28:00.000Z	hxu	cafuego	Do you have time to talk about this with me?
+2007-08-20T14:29:00.000Z	hxu	cafuego	In include/linux/mqueue.h, the limit is set to 819200 bytes.  But you always get all -1 (which means infinity) by calling getrlimit()

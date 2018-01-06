@@ -1,0 +1,4 @@
+2008-07-11T03:10:00.000Z	simotempler		Hi can anyone help me with the following PLEASE! - if I logon as root and - sudo nautilus and delete a video game folder cause it wont uninstall where does it go when deleted here cause it hasnt free d up the disk space
+2008-07-11T03:11:00.000Z	ASULutzy	simotempler	I read if I login as root, and I immediately got scared
+2008-07-11T03:11:00.000Z	ASULutzy	simotempler	Check /home/$USER/.local/share/Trash if you're using Hardy
+2008-07-11T03:12:00.000Z	ASULutzy	simotempler	Alternatively it could be /root/.local/share/Trash, but you wouldn't actually be logging in as root because that'd be a really bad practice, right? ;)

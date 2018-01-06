@@ -1,0 +1,4 @@
+2007-07-17T13:31:00.000Z	h-bomb		anyone: how do you apply changes to iptables after you edit it?
+2007-07-17T13:31:00.000Z	h-bomb		restarting networking didnt help
+2007-07-17T13:33:00.000Z	MrStonedOne	h-bomb	this is a guess, but ifdown <inferface>&&ifconfig <interface> down&&ifup <interface>
+2007-07-17T13:33:00.000Z	h-bomb	MrStonedOne	thanks, ill try that

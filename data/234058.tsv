@@ -1,0 +1,4 @@
+2008-08-21T07:07:00.000Z	andax	Theaxiom	find / -name httpd.conf
+2008-08-21T07:12:00.000Z	andax	Theaxiom	the actual command to load the php module is " ln -s /etc/apache2/mods-available/php5.load /etc/apache2/mods-enabled/php5.load " - create a symlink in mods-enabled that points to mods-available.  (check /etc/apache2 dir and you'll understand ) restart apache with apache2ctl restart when you have created the symlink
+2008-08-21T07:15:00.000Z	andax	Theaxiom	you have the module installed then, so it is available but you have to enable it. check /etc/apache2/modules-available and modules-enabled directories and it will be clear :)
+2008-08-21T07:16:00.000Z	andax	Theaxiom	it can be a symlink as long as apache has access to the target directory

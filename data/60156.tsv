@@ -1,0 +1,4 @@
+2009-04-18T06:01:00.000Z	RealUlli		hmm.. is there a way to map the ide0 master to sda and sata0 to sdb? Currently, my system seems to roll dice..
+2009-04-18T06:03:00.000Z	zsquareplusc	RealUlli	or maybe switch to using uuids for the disks
+2009-04-18T06:04:00.000Z	RealUlli	zsquareplusc	the root is already mounted from the UUID - but the fsck on sdb1 regularly fails when it decides to discover the sata disk first...
+2009-04-18T06:05:00.000Z	RealUlli	zsquareplusc	i could switch that to UUID as well, but it seems... messy.

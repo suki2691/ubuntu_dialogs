@@ -1,0 +1,4 @@
+2009-11-01T19:18:00.000Z	zroysch		ubuntu/gnome just logged itself out while i was doing work. i would like to know why. i see nothing in dmesg or /var/log/messages
+2009-11-01T19:18:00.000Z	penguin42	zroysch	Maybe look in /var/log/Xorg.0.log or /var/log/Xorg.0.log.old to see if X crashed
+2009-11-01T19:20:00.000Z	zroysch	penguin42	lines of video modes in the first one and mouse/keyboard in fo in the second. also no timestamps.
+2009-11-01T19:20:00.000Z	penguin42	zroysch	Hmm, if the X server crashed it normally leaves something at the bottom of there

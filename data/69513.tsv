@@ -1,0 +1,4 @@
+2009-05-25T01:51:00.000Z	Juren		back again.  My attempt to remove the files has failed.  Problem being that the directory names have spaces in them and I can't get find to create a format that allows rm to use the spaces.  any thoughts?
+2009-05-25T01:52:00.000Z	Juren		been trying to use the command:  find . -print0 -type f -name '*.ini' | xargs -0 rm
+2009-05-25T01:53:00.000Z	Juren		Tryin it now  :)
+2009-05-25T01:54:00.000Z	vigo	Juren	There are a few ways to resolve that: here is one: http://www.linuxforums.org/forum/ubuntu-help/88339-fix-broken-pkg-first.html

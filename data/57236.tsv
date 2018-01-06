@@ -1,0 +1,4 @@
+2012-03-29T03:22:00.000Z	mobilenoob11		I'm going to backup ubuntu with rsync, anyone see a problem with doing the whole drive, as in "/" ?
+2012-03-29T03:23:00.000Z	ejv	mobilenoob11	besides being unnecessary? i'd limit the backup to /etc /home and /var personally
+2012-03-29T03:25:00.000Z	ejv	mobilenoob11	/boot to if you're dependent upon a specific kernel configuration, /usr/src/linux/.config, etc. etc. anything of real importance
+2012-03-29T03:29:00.000Z	ejv	mobilenoob11	good luck

@@ -1,0 +1,4 @@
+2012-11-09T02:12:00.000Z	CrawfordComeaux		what could be the cause of resolveip <ip address> not resolving to a hostname?
+2012-11-09T02:14:00.000Z	escott	CrawfordComeaux	reverse DNS is not available for all domains
+2012-11-09T02:17:00.000Z	CrawfordComeaux	escott	it's worked before, though & it's my server/domain. I think the issue may be that before the zone file propagated, I tried resolving it & the local DNS server is still serving the cached result
+2012-11-09T02:18:00.000Z	escott	CrawfordComeaux	zone files... you got beyond my knowledge there

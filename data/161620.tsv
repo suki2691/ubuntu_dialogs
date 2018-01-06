@@ -1,0 +1,4 @@
+2007-02-19T13:17:00.000Z	pumpkinhead		can anyone tell me a way to get rid of firefox processes after xkill? seem to be some still running that i can't get at.
+2007-02-19T13:17:00.000Z	kitche	pumpkinhead	sudo killall firefox-bin you can also do kill -9 <pid>
+2007-02-19T13:18:00.000Z	pumpkinhead		tyvm kitche
+2007-02-19T13:19:00.000Z	pumpkinhead	kitche	that did the trick :)

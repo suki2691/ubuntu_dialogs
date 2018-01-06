@@ -1,0 +1,4 @@
+2011-10-22T07:54:00.000Z	okee		Has anyone encountered problems with an ISO for Ubuntu?  I tried installing it and it wouldn't install.  I got an error message indicating that ata4: SATA Link down (sstatus 0 Scartd 300), and another ATA5 and ATA6 with the same message.  What do these messages mean?
+2011-10-22T07:55:00.000Z	yagoo	okee	do an MD5SUM or SHASUM on the iso
+2011-10-22T07:56:00.000Z	yagoo	okee	md5 <filename> .. then look at the download site.. see if the md5sums match
+2011-10-22T08:04:00.000Z	yagoo	okee	i'm guessing alot of folks don't know the difference.. and they'res really no advantage of using 64bit for the most common desktop out there..

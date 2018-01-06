@@ -1,0 +1,4 @@
+2009-11-28T19:44:00.000Z	Pholious		what is wrong with this command? "head -n 3902214 | tail -n 1  chebiOutput.skos.owl", it keeps returning the final line and not the specific one line I want
+2009-11-28T19:45:00.000Z	oCean_	Pholious	you probably mean "head -n 3902214 filename | tail -1"
+2009-11-28T19:46:00.000Z	Pholious	oCean_	let me try that :)
+2009-11-28T19:49:00.000Z	Pholious	oCean_	thanks, that worked as well :)

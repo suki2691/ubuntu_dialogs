@@ -1,0 +1,4 @@
+2006-11-10T13:11:00.000Z	_chris_		what's the command line tool that can list all of the installed packages?  i'm looking for the equivalent of gentoo's "equery list" and redhat's "rpm -qa".
+2006-11-10T13:12:00.000Z	bimberi	_chris_	dpkg -l
+2006-11-10T13:12:00.000Z	_chris_	bimberi	thank ye much
+2006-11-10T13:12:00.000Z	bimberi	_chris_	dpkg -l | grep ^ii   (more precisely)

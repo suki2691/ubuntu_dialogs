@@ -1,0 +1,4 @@
+2011-05-21T06:16:00.000Z	tapple		how do I figure out what opengl driver X is using? I believe it's using the wrong one. my symptom is that glxinfo and every other opengl application freeze and have to be force killed. I googled that, and got a suggestion to "remove nvidia drivers from an ati system". How do I find out if I'm using nvidia drivers, and get rid of them if so?
+2011-05-21T06:17:00.000Z	tapple		(and yes, it's an ati radeon I have)
+2011-05-21T06:17:00.000Z	coz_	tapple	 which card do you have on that system.. in terminal      lspci | grep -i vga
+2011-05-21T06:18:00.000Z	coz_	tapple	mm  there are peple here who are far more experineced with ati video than I am ..however if no one here has any solutions,, I would check in the #radeon channel

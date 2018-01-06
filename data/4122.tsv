@@ -1,0 +1,4 @@
+2012-04-12T21:12:00.000Z	martinphone		is there any command to safely remove a hdd? the icon doesnt work
+2012-04-12T21:13:00.000Z	L3mce	martinphone	try: umount /dev/xxx
+2012-04-12T21:18:00.000Z	martinphone	L3mce	but file manager still lists it, and if I click on the HDD I can see the files
+2012-04-12T21:19:00.000Z	L3mce	martinphone	sudo umount -lf /dev/sdb1

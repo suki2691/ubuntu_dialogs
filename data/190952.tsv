@@ -1,0 +1,4 @@
+2006-06-17T08:43:00.000Z	cparker		i'm having a problem adding a repo to Synaptic Package Manager. It's asking me to format an apt line, and I'm not really sure how to. The "repo" i'm trying to add is at http://people.ubuntu.com/~seb128/deb/
+2006-06-17T08:45:00.000Z	cparker		so, anyone know what i would have to add to Synaptic Package Manager to get it to accept this repo? http://people.ubuntu.com/~seb128/deb/
+2006-06-17T08:46:00.000Z	neutrinomass	cparker	I don't know if it can be done by synaptic, but you can just add that line in /etc/apt/sources.list (edit it with "gksudo gedit /etc/apt/sources.list")
+2006-06-17T08:48:00.000Z	cparker	neutrinomass	okay, i've added this line: deb http://people.ubuntu.com/~seb128/deb/

@@ -1,0 +1,4 @@
+2008-05-15T15:41:00.000Z	newb		hi i am trying to install hadoop on an edgy server. hadoop requires ssh access to itself. i generated a public/private key with a blank password to allow hadoop to access ssh without me having to intervene to enter the password. i tried it on my gutsy workstation but on my edgy server it's not happening. why?
+2008-05-15T15:43:00.000Z	newb		how do i stop edgy from asking a password when i'm running hadoop?
+2008-05-15T15:45:00.000Z	tenX	newb	ssh certs
+2008-05-15T15:46:00.000Z	newb	tenX	ikonia: ok so i did this ssh-keygen -t rsa -P "" where i left the password blank so that i don't require to enter the password everytime

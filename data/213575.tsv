@@ -1,0 +1,4 @@
+2006-03-24T16:34:00.000Z	timon-ubu		how to solve this? "Your home/.dmrc file has incorrect permissions and is being ignored. This prevents the default session and language from being saved. File sould be ownd by user and have 644 permissions"
+2006-03-24T16:35:00.000Z	timon-ubu		thanks
+2006-03-24T16:36:00.000Z	timon-ubu		chmod: cannot access `home/.dmrc': No such file or directory
+2006-03-24T16:36:00.000Z	tonyyarusso	timon-ubu	Since you don't have the permissions now, you might need sudo in from of those two commands from Vornicus.

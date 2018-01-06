@@ -1,0 +1,4 @@
+2006-07-31T11:18:00.000Z	Yakubovich		hey guys, what's the fastest way to transfer many little files from Linux to Windows?
+2006-07-31T11:19:00.000Z	MarcN	Yakubovich	depends.  What is the setup? same system? networked?
+2006-07-31T11:19:00.000Z	Yakubovich	MarcN	a wired network
+2006-07-31T11:21:00.000Z	MarcN	Yakubovich	setup samba and have the windows grab it (System->Administration->Shared Folders).  I like to have cygwin installed on windows systems (including sshd) so I can then just scp to/from a windows box.

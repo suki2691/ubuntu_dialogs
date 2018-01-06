@@ -1,0 +1,4 @@
+2008-03-10T03:11:00.000Z	Seeker`		how do you list packages that have been removed and have left stuff on the system?
+2008-03-10T03:11:00.000Z	Seeker`		I know it involves dpkg, but cant remember what exactly
+2008-03-10T03:12:00.000Z	jrib	Seeker`	dpkg -l | grep '^rc'
+2008-03-10T03:13:00.000Z	Seeker`	jrib	Thanks

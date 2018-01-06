@@ -1,0 +1,4 @@
+2009-04-17T19:07:00.000Z	antineko		Hey everyone - I'm running a script in etc/init.d/ at boot, which powers on a Ventrilo server, and I've added it to Sessions. Now, it's working, but it runs the script before my desktop has loaded (x/gnome etc.) and I don't want that. I want it to run after I've logged in
+2009-04-17T19:08:00.000Z	zagibu	antineko	maybe put it in /etc/profile? or your own .profile if you have one
+2009-04-17T19:13:00.000Z	zagibu	antineko	runlevels won't help you with stuff starting after login, you need /etc/profile or ~/.profile for this
+2009-04-17T19:16:00.000Z	antineko	zagibu	I've got a profile.d folder in etc and a .profile file in my home dir which I can't figure out how to edit. Should I put the script location in there?

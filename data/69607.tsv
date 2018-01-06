@@ -1,0 +1,4 @@
+2012-03-07T23:33:00.000Z	vinzz_		sudo apt-get install sun-java6-jdk sun-java6-plugin Reading package lists... Done Building dependency tree        Reading state information... Done sun-java6-plugin is already the newest version. You might want to run 'apt-get -f install' to correct these: The following packages have unmet dependencies:  sun-java6-jdk : Depends: sun-java6-bin (>= 6.26-1~lffl~oneiric~ppa) but it is not going to be installed  sun-java6-plugin : Depends
+2012-03-07T23:33:00.000Z	vinzz_		how can we recover from this error/
+2012-03-07T23:34:00.000Z	vinzz_		can anyone help me with my error
+2012-03-07T23:34:00.000Z	sacarlson	vinzz_	remove the ppa repository and try again?

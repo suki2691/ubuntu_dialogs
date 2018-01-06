@@ -1,0 +1,4 @@
+2005-01-19T09:55:00.000Z	Munchr		can anyone assist me with a linksys lne100tx card?  I've tried running modprobe tulip, but that doesn't seem to do much.
+2005-01-19T09:56:00.000Z	crimsun	Munchr	then you have to up the iface
+2005-01-19T09:57:00.000Z	crimsun	Munchr	have you defined eth0 in /etc/network/interfaces?
+2005-01-19T10:03:00.000Z	crimsun	Munchr	does dmesg tell you that the nic's chipset was recognized?

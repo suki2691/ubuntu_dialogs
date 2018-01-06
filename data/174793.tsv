@@ -1,0 +1,4 @@
+2006-07-15T09:27:00.000Z	gimmulf		Hmm cant mount some partitions it just says: ount: you must specify the filesystem type   when doing:   sudo mount /dev/hda3 /mnt/hdb3
+2006-07-15T09:28:00.000Z	trispace	gimmulf	try mount -t auto /dev/hda3 /mnt/hdb3
+2006-07-15T09:28:00.000Z	gimmulf	trispace	 same error
+2006-07-15T09:28:00.000Z	trispace	gimmulf	or specify the filesystem you're using

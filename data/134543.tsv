@@ -1,0 +1,4 @@
+2007-08-06T10:57:00.000Z	nos		Good day all, Im having trouble playing audio and video at the same time, it gets real choppy or the sound loops. any suggestions?
+2007-08-06T10:58:00.000Z	DWSR	nos	You using ALSA or OSS?
+2007-08-06T10:59:00.000Z	DWSR	nos	That's your problem. OSS doesn't support multiple applications using sound at once. To get around this please 'sudo apt-get install alsa-oss'
+2007-08-06T11:00:00.000Z	DWSR	nos	After that, you need to start all of the applications using sound simultaneous with aoss infront. (e.g. aoss /etc/application)

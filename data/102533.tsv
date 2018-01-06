@@ -1,0 +1,4 @@
+2009-05-30T11:32:00.000Z	gabbah		hey guys. I have problems changing the owner of a folder on my ntfs partition: sudo chown -R gabriel.gabriel /media/bigmama/found.000/ but after the owner is still root when i check! why?
+2009-05-30T11:33:00.000Z	rww	gabbah	NTFS partitions don't use chmod or chown, because they don't support UNIX-style permissions. You'd need to specify the owner and group when mounting it.
+2009-05-30T11:33:00.000Z	rww		!ntfs | gabbah: this page has details.
+2009-05-30T11:33:00.000Z	gabbah	rww	thanks... yeah i've been trying to fix fstab too

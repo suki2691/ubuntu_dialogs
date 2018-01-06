@@ -1,0 +1,4 @@
+2011-08-28T23:13:00.000Z	konbon		can i get some hard drive mounting help please. This is the error i get when i try to use Disk Utility to mount the drive. http://img708.imageshack.us/img708/1226/screenshotaqu.png
+2011-08-28T23:14:00.000Z	konbon		It says that "according to mtab none is already mounted to none"
+2011-08-28T23:15:00.000Z	ActionParsnip	konbon	its a partition, not a drive. You are mounting /dev/sda1   sda is the drive, sda1 is the partition
+2011-08-28T23:18:00.000Z	konbon	ActionParsnip	do you know how i can change the settings to force it to mount on sda1?

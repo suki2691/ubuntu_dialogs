@@ -1,0 +1,4 @@
+2008-12-23T20:55:00.000Z	dlozarie		hi guys.. need some help with XAMPP.
+2008-12-23T20:57:00.000Z	dlozarie		so I installed XAMPP on Linux with Alien and did chown username -r /opt/lampp so i could copy files there. after that, when i tried to access http://localhost/phpmyadmin I got the error "chown cpanel.cpanel config.inc.php", so how do I give everyone read perms to that file/directory?
+2008-12-23T20:58:00.000Z	ASULutzy	dlozarie	Why did you use alien? Why not just download the tarball and extract it to /opt/lampp, that's the whole point
+2008-12-23T20:58:00.000Z	dlozarie	ASULutzy	in retrospect, I should've done that, but looks like Alien worked just as well

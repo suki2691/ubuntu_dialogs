@@ -1,0 +1,4 @@
+2011-05-01T23:47:00.000Z	Calif		If your doing something like editing a file with vi, and you accidently cntl Z instead of quitting properly, how do you get back to that 'program'. (Keep getting messages about .swp)
+2011-05-01T23:48:00.000Z	pr3d4t0r	Calif	rm yourfile.swp
+2011-05-01T23:48:00.000Z	pr3d4t0r	Calif	That means that you aborted vi withoug closing the file.  Just remove the .swp and edit again.  Any changes not saved will be lost.
+2011-05-01T23:48:00.000Z	pr3d4t0r	Calif	vi should also give you the option to (R)ecover the file.

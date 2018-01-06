@@ -1,0 +1,4 @@
+2009-06-24T18:40:00.000Z	hackeron		hey, can someone tell me how to copy a DVD to hard drive (iso)? -- With the same optical drive on mac leopard, I do dd if=/dev/disk4 of=file.iso but on ubuntu when I do dd if=/dev/sr0 of=file.iso I get dd: reading `/dev/sr0': Input/output error instantly and dd only copied 721KB -- any ideas?
+2009-06-24T18:42:00.000Z	revygttam	hackeron	your dvd is probably encrypted and thats why its not working.  Try cat /dev/xxx > file.iso and see if you receive the same error
+2009-06-24T18:42:00.000Z	hackeron	revygttam	how do I unencrypt it? -- doesn't seem to be encrypted under OSX
+2009-06-24T18:42:00.000Z	hackeron	revygttam	same error with cat

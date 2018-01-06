@@ -1,0 +1,4 @@
+2011-12-01T03:54:00.000Z	robertfw		so, i've managed to break ~/.profile - i had added a call to launch a python script i wrote that detects if my virtualbox has provided multiple monitors, and makes the appropriate xrandr call - and now i can't login. i'm in recovery mode in the root shell, but the files are unmounted so i cant fix .profile from there. not sure where to go from here
+2011-12-01T03:56:00.000Z	bastidrazor	robertfw	mount your /home then fix.
+2011-12-01T03:57:00.000Z	robertfw	bastidrazor	gotcha, found https://help.ubuntu.com/community/EncryptedPrivateDirectory, i'll work through those. thanks
+2011-12-01T04:00:00.000Z	robertfw	bastidrazor	step 1 goes fine, but when i try to mkdir -p /home/robertfw/Private, i get "Read only file system"

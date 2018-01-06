@@ -1,0 +1,4 @@
+2006-01-23T10:04:00.000Z	tsaberi		Hi all. I have got 5.10 Breezy running and I'm having trouble getting X to use the proper video driver. I have an intel mobo /w the i865 chipset. dpkg-reconfigure xserver-xorg does not seem to fix anything (i865 isn't in the controller list)
+2006-01-23T10:05:00.000Z	brenner	tsaberi	have you tried the vesa driver?
+2006-01-23T10:07:00.000Z	tsaberi	brenner	is that the driver I should be using with this chipset ?
+2006-01-23T10:07:00.000Z	brenner	tsaberi	it's sort of like the "failsafe"  almost every card should at least be able to get into X with it

@@ -1,0 +1,4 @@
+2010-03-04T12:38:00.000Z	saurabh		on ubuntu server 9.10 i hv changed my ip with ifconfig command....now am able to recieve and send packets...but now when i use apt-get install ubuntu-desktop it says no package found
+2010-03-04T12:40:00.000Z	Jordan_U	saurabh	Check your /etc/apt/sources.lst. Why are you installing ubuntu-desktop on a server though?
+2010-03-04T12:41:00.000Z	Jordan_U	saurabh	You may also just need to "sudo apt-get update"
+2010-03-04T12:43:00.000Z	Jordan_U	saurabh	Are you sure the network is configured properly? Can you ping google.com?

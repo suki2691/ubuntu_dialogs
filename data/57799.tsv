@@ -1,0 +1,4 @@
+2009-05-22T01:13:00.000Z	plastun		hi! i use xubuntu 9.04 and 2 ntfs partitions don't mount at startup. This is my options: defaults,rw,user,auto,locale=ru_RU.UTF-8. What's wrong?
+2009-05-22T01:13:00.000Z	boss_mc	plastun	try to mount them manually (sudo mount -t ntfs-3g /dev/??? /location)
+2009-05-22T01:13:00.000Z	boss_mc	plastun	it might be that the 'shut down safely' flag is not set...
+2009-05-22T01:14:00.000Z	plastun	boss_mc	manualy it works

@@ -1,0 +1,4 @@
+2011-01-06T00:19:00.000Z	Jemt		Hi. How can I list storage devices from a command line ?
+2011-01-06T00:20:00.000Z	Jemt		... list attached storage devices, that is :)
+2011-01-06T00:20:00.000Z	thekid	Jemt	quick n dirty: dmesg |cut -d \] -f 2- |grep ' sd' |grep GB
+2011-01-06T00:21:00.000Z	Jemt	thekid	Hm, I should have thought about that! :-) Thanks for the ready-to-use sample :-)

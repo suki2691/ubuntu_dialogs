@@ -1,0 +1,4 @@
+2010-02-08T02:21:00.000Z	klaxian		i am trying to mount my old ext3 fs as ext4.  i have updated fstab and rebooted, but mount still reports that is is type ext3
+2010-02-08T02:21:00.000Z	klaxian		how can i verify that it is using the ext4 driver?
+2010-02-08T02:21:00.000Z	hyperstream	klaxian	its the format, you must mount it as ext3
+2010-02-08T02:23:00.000Z	hyperstream	klaxian	you would have to change its format

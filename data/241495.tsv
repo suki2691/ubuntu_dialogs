@@ -1,0 +1,4 @@
+2008-04-18T07:13:00.000Z	arrrghhh		hey all. so when i run firefox from an SSH console (to run it on the server machine, NOT mine (the client)) i use the --display :0 command... but if firefox is already running instead of opening the web page in a tab, it gives an error on the server that firefox is already running and the need to close the current firefox...
+2008-04-18T07:14:00.000Z	arrrghhh		hrm ok
+2008-04-18T07:16:00.000Z	arrrghhh		i can run firefox remotely fine if it's not already running... but if it is running i get that error.
+2008-04-18T07:18:00.000Z	jordan_	arrrghhh	-no-remote

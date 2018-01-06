@@ -1,0 +1,4 @@
+2008-05-31T03:07:00.000Z	Delts		﻿Hey guys, got a slight problem.  I just upgraded to 8.04 and every time I put my laptop into hibernate the screen resolution switches away from 1280x800 to 1024x768.  Anyone know what's up and a solution?
+2008-05-31T03:08:00.000Z	Delts		﻿I'm using an acer Aspire 5633WLMi laptop for reference
+2008-05-31T03:08:00.000Z	Pelo	Delts	check in xorg.conf,  remove all other resolutions listed,  see what that does
+2008-05-31T03:08:00.000Z	Pelo	Delts	I don'T mean remove , I mean comment them out

@@ -1,0 +1,4 @@
+2006-03-20T10:19:00.000Z	babo		I'm trying to mount an FAT16 filesystem to my computer but when I type mount -t fat /dev/sdb /mnt/test ... it tells me that fat is an unknown filesystem .. can anyone help ?
+2006-03-20T10:20:00.000Z	WoC	babo	try /dev/sdb1
+2006-03-20T10:21:00.000Z	babo	WoC	thanks ... but why did sdb1 work and not sdb, as the device was referred to in dmesg
+2006-03-20T10:22:00.000Z	WoC	babo	sdb is the entire disk, sdb1 is the partition

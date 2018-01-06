@@ -1,0 +1,4 @@
+2007-11-21T07:08:00.000Z	ouellettesr		hello, which port do I need to forward for rdesktop?
+2007-11-21T07:10:00.000Z	bradv_	ouellettesr	rdesktop is a client. You shouldn't need to forward any port. On the server side, you will need to open a port depending on what you are using (Windows Terminal Services, etc.)
+2007-11-21T07:11:00.000Z	ouellettesr	bradv_	so If im going to connect to my friend windows pc to help him, im the one that has to open the port?
+2007-11-21T07:12:00.000Z	bradv_	ouellettesr	No, he does. He's running the server. Check the documentation for remote desktop in Windows.

@@ -1,0 +1,4 @@
+2008-05-13T03:36:00.000Z	brocebeats		anyone know how to connect to a subversion server though a socks5 proxy
+2008-05-13T03:37:00.000Z	stroyan	brocebeats	 How about a tsocks wrapper command.
+2008-05-13T03:40:00.000Z	stroyan	brocebeats	 Use the 'tsocks' package to get the 'tsocks' command. You configure a proxy with /etc/tsocks.conf file. You run a command transparently using a proxy with 'tsocks command'.
+2008-05-13T03:43:00.000Z	stroyan	brocebeats	 I don't understand the distinction you make between 'connect' vs. 'checkout'.

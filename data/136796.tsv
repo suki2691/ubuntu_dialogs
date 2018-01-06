@@ -1,0 +1,4 @@
+2007-05-08T10:06:00.000Z	guerrillawon		My webcam is up and running, I was just wondering if anyone knew how to check where the video is loacted, like, /dev/usb0 or something similiar?
+2007-05-08T10:06:00.000Z	guerrillawon		Or more accurately which device locationg ubuntus recieving the video from.
+2007-05-08T10:06:00.000Z	LtL	guerrillawon	- try /dev/video0
+2007-05-08T10:23:00.000Z	LtL	guerrillawon	- netstat -tunap

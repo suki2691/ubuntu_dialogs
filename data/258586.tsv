@@ -1,0 +1,4 @@
+2005-06-12T07:42:00.000Z	spanglesontoast		how come I can access shamelessnet from mirc and I cannot from xchat?
+2005-06-12T07:42:00.000Z	dougsk	spanglesontoast	I'd suspect they require an ident daemon
+2005-06-12T07:44:00.000Z	dougsk	spanglesontoast	apt-cache search identd  I'm not really sure what all is involved with setting on up nor what ports etc
+2005-06-12T07:45:00.000Z	dougsk	spanglesontoast	typically when you install a package it will ask you if you'd like it to run.  otherwise /etc/init.d/$SERVICENAME start

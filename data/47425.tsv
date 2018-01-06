@@ -1,0 +1,4 @@
+2012-02-28T16:24:00.000Z	jsoft		How are usb devices mounted? What process does this? Obviously must be some kind of priviledged process?
+2012-02-28T16:25:00.000Z	theadmin	jsoft	Automount is handled by gvfs, which does it via dbus
+2012-02-28T16:35:00.000Z	jsoft	theadmin	hmmm, so whats the process? device gets plugged in, and dbus notifies gvfs?
+2012-02-28T16:35:00.000Z	theadmin	jsoft	Not so sure.

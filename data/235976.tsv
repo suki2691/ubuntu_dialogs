@@ -1,0 +1,4 @@
+2005-10-23T15:22:00.000Z	Mrl33t		does ubuntu support mounting a windows partition that uses NTFS?
+2005-10-23T15:23:00.000Z	shutdownrunner	Mrl33t	it's up to kernel. yes, but read-only I think
+2005-10-23T15:29:00.000Z	shutdownrunner	Mrl33t	rhythmbox
+2005-10-23T15:56:00.000Z	shutdownrunner	Mrl33t	just add /dev/sdb1 /path/to/mount/point vfat defaults,umask=000 0 0

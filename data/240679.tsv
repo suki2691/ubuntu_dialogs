@@ -1,0 +1,4 @@
+2007-01-03T14:03:00.000Z	Gosha		why can i not change the permissions for /media/sda1 ( where i mounted my exHDDthat is NTFS )
+2007-01-03T14:03:00.000Z	enyc	Gosha	regardless of mount permissions... NTFS is not writable driver basically
+2007-01-03T14:04:00.000Z	enyc	Gosha	erm... the linux kernel implementation of ntfs cannot writo to ntfs except simple safe operations changing contents of file woithout changing size...  I undorstand that with NTFS-3G you can write to NTFS fairly well...
+2007-01-03T14:05:00.000Z	enyc	Gosha	the real problem being that ntfs in proprietary

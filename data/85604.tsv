@@ -1,0 +1,4 @@
+2008-07-13T01:45:00.000Z	pteeb		anyone have a clue what "The VirtualBox kernel driver is not accessible to the current user. Make sure that the user has write permissions for /dev/vboxdrv by adding them to the vboxusers groups. You will need to logout for the change to take effect.." means?
+2008-07-13T01:47:00.000Z	dr_Willis	pteeb	 your user needs to be in the vboxusers group.
+2008-07-13T01:47:00.000Z	pteeb	dr_Willis	as well
+2008-07-13T01:48:00.000Z	dr_Willis	pteeb	 sudo adduser USER GROUP

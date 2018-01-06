@@ -1,0 +1,4 @@
+2012-07-11T20:45:00.000Z	Balask		Hello. I have to reinstall Ubuntu on a machine that doesn't boot anymore that had a server distro of Ubuntu.  I was wondering what files I need to save so that it will still have all the user account and the folders they are linked to as well as allow SSH
+2012-07-11T20:47:00.000Z	nandersson	Balask	/etc/passwd* /etc/group* /etc/shadow* /home/*
+2012-07-11T20:47:00.000Z	nandersson	Balask	works if user-home-directories are not encrypted.
+2012-07-11T20:48:00.000Z	nandersson	Balask	yes

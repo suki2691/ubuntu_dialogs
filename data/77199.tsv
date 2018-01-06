@@ -1,0 +1,4 @@
+2010-04-02T02:35:00.000Z	n0000b		i have an HFS (journling disabled) attached to my xbmc live linux box, but can't send files to it over sftp using an sftp app cos its only read only. using terminal on my mac, i ssh into the external drive attached, and if i use sudo mv to rename a file, it also tells it cant cos its read only. i hate read only!!! is it easy to change without reformatting the drive? it's a 1tb you see......
+2010-04-02T02:36:00.000Z	costre	n0000b	chmod?
+2010-04-02T02:38:00.000Z	costre	n0000b	Is the drive full of stuff?
+2010-04-02T02:38:00.000Z	costre	n0000b	dev is like the ohysical unit, the hardware .. /media is the partitions and the storage

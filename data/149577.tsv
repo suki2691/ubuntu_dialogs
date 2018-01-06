@@ -1,0 +1,4 @@
+2010-04-08T00:00:00.000Z	cptblood		how do i add a user to the sudoers file?
+2010-04-08T00:00:00.000Z	Pici	cptblood	Easiest way is to just add them to the admin group, then you don't need to touch /etc/sudoers
+2010-04-08T00:01:00.000Z	Pici	cptblood	sudo adduser someuser admin
+2010-04-08T00:02:00.000Z	Pici	cptblood	That was for an existing user.

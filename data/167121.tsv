@@ -1,0 +1,4 @@
+2007-06-01T05:40:00.000Z	HOT		hello, i have a weird problem with a .Xauthority file that keeps reverting on a seemingly random basis to root ownership, is there anyway to track not so much who changed a file but why a file was changed?
+2007-06-01T05:41:00.000Z	__mikem	HOT	that would mean that X is writing to the file
+2007-06-01T05:42:00.000Z	HOT	__mikem	yea i understand that part, i have about 7 users using the system, no one else has this issue, i need to know why root is changing the file, is there some kind of filesystem changing tracker?i know who what is changing the file, but i need to know why, the process that is changing it
+2007-06-01T05:44:00.000Z	HOT	__mikem	actually i think i have it, its a suid problem, thanks for your thoughts anyway

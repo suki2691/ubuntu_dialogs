@@ -1,0 +1,4 @@
+2006-09-22T16:28:00.000Z	RedGhost		Whats the easiest way to view your hardware (CPU, type, speed, ram, type ... etc)?
+2006-09-22T16:28:00.000Z	jpjacobs	RedGhost	lshw
+2006-09-22T16:29:00.000Z	jpjacobs	RedGhost	or if you want more info: dmidecode|less
+2006-09-22T16:33:00.000Z	jpjacobs	RedGhost	i think that's because sudo needs the pass first, and that won't work through the pipe ;)

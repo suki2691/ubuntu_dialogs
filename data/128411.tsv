@@ -1,0 +1,4 @@
+2007-07-10T11:18:00.000Z	zorrolero		hi, there was a bug in /etc/event.d/tty* when upgrading to feisty. in my fresh feisty-install, there is a "time"-prob for tty1. the last bootup-messages overwrite the login-prompt of tty1.(
+2007-07-10T11:18:00.000Z	zorrolero		tried to add a "sleep 4" to /etc/event.d/tty1 before the exec of getty, but this ends in not starting tty1! :(
+2007-07-10T11:18:00.000Z	kitche	zorrolero	just type your username and password as nornal it works fine but just the messages go past the login but still works
+2007-07-10T11:19:00.000Z	zorrolero	kitche	yep, right. but...it looks like shit! ,)

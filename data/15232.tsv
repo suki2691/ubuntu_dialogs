@@ -1,0 +1,4 @@
+2012-07-23T18:11:00.000Z	bluenemo_		hi guys, has anyone an idea where i can find what the value of ID_SERIAL for a usb stick? it was somewhere in /sys but i cant find it anymore in 12.04. i need it to clearly identify usb keys that only contain random data (no partitions)
+2012-07-23T18:12:00.000Z	escott	bluenemo_	it doesnt appear in lsusb?
+2012-07-23T18:15:00.000Z	bluenemo_	escott	yes but i need the exact path as i'm working on a script for the initramfs, and there is no lsusb :) and no, it doesnt show up in lsusb -vvv. a part of it but not the long version
+2012-07-23T18:15:00.000Z	escott	bluenemo_	i would think it would appear somewhere under /sys/bus/usb/devices/#####

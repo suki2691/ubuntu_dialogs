@@ -1,0 +1,4 @@
+2004-12-29T09:49:00.000Z	D0wnXcaST		I'm trying to config my internet on ubuntu, i'm not able. I have a cable modem plug to my ethernet card. I do : Sudo ifconfig eth0 down; dhclient eth0; ifconfig eth0 up . and its written that permission is denied ....
+2004-12-29T09:49:00.000Z	D0wnXcaST		It worked once, but i had to reconfig. and didnt work anymore?
+2004-12-29T09:50:00.000Z	Qerub	D0wnXcaST	you should be using "ifup" and "ifdown" first of all. and you need to be root, so use sudo.
+2004-12-29T09:51:00.000Z	Qerub	D0wnXcaST	yes

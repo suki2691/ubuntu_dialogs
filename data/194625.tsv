@@ -1,0 +1,4 @@
+2006-03-18T15:07:00.000Z	torinarg		Hello...   I'm somewhat new to ubuntu (i.e. fairly new to ubuntu, but long-time debian user before).  Can anyone tell me how to "fix" initrd images? I tried upgrading from breezy to dapper, but the new kernel won't boot (won't find boot device from the mounted RAM disk)
+2006-03-18T15:08:00.000Z	torinarg		Does anyone know how to get the kernel into "booting" shape again?
+2006-03-18T15:08:00.000Z	Kovecses	torinarg	how did it get out of "booting" shape?
+2006-03-18T15:10:00.000Z	torinarg	Kovecses	As I wrote (just) before, I tried upgrading to dapper; and the new linux-2.6.15-18 (and 2.6.12-10) kernels can't boot -- initial graphics screwed up; changing to a different PTY shows an error message that it couldn't find the boot device (/dev/hda2), /dev is fairly empty on the RAMdisk)...

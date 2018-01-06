@@ -1,0 +1,4 @@
+2011-06-15T23:50:00.000Z	Somelauw		Is there a apt-remove-repositoty command or is is safe to manually remove the repository file in /etc/apt/sources.d/ ?
+2011-06-15T23:50:00.000Z	Somelauw		Seems weird that there is no command to remove repositories.
+2011-06-15T23:51:00.000Z	andycc	Somelauw	if you want to remove a PPA and downgrade packages, use the 'ppa-purge' utility (install it with apt-get)
+2011-06-16T00:14:00.000Z	Somelauw	andycc	Okay, but I think ppa-purge should be installed by default.

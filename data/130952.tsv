@@ -1,0 +1,4 @@
+2009-10-18T03:35:00.000Z	Krahazik		hello, i am new to Linux and working with my first installation of Ubuntu. I have accidentally turned off graphical login and i am now stuck in the command-line interface.
+2009-10-18T03:36:00.000Z	Krahazik		so ther eis not way to restor the GUI from the command line then?
+2009-10-18T03:37:00.000Z	stroyan	Krahazik	 There is a way.  But it would depend on how you turned the GUI off.  You could try "sudo /etc/init.d/gdm restart".
+2009-10-18T03:49:00.000Z	stroyan	Krahazik	 Perhaps you changed the default run level.  Or perhaps you removed the gdm startup from the default run level.  Do you have any idea how you disabled the GUI?

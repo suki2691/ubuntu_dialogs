@@ -1,0 +1,4 @@
+2006-12-01T14:05:00.000Z	e3		Help! I  want to make sure fglrx is not disabled! I ran:    sudogedit/etc/default/linux-restricted-modules-common    and it looks like it is disabled but im a newbie so im not sure. i found this in gedit:      # DISABLED_MODULES="ath_hal fc fglrx ltm nv"             does that mean fglrx is disabled???
+2006-12-01T14:05:00.000Z	soundray	e3	no, it doesn't mean that, because there is a # (comment mark) at the beginning of the line
+2006-12-01T14:08:00.000Z	soundray	e3	by the sounds of it, yes
+2006-12-01T14:09:00.000Z	soundray	e3	Don't think it matters, but I would remove one of them for sanity

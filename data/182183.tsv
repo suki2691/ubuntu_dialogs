@@ -1,0 +1,4 @@
+2006-06-07T05:30:00.000Z	mandavi		hi, how do I delete a symbolic link as root without deleting the actual file? is it simply 'rm file'?
+2006-06-07T05:32:00.000Z	chennaituxian	mandavi	deleting symbolic links wont delete files, only hard links do
+2006-06-07T05:32:00.000Z	chennaituxian	mandavi	create a dymmy dir , link it and try
+2006-06-07T05:32:00.000Z	mandavi	chennaituxian	alright

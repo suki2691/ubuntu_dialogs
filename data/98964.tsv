@@ -1,0 +1,4 @@
+2010-06-13T02:34:00.000Z	SeanInSeattle		Hey all.  Is it possible to execute a find command through the commandline interface that includes hidden directories, such as the .metadata directory for eclipse workspaces?
+2010-06-13T02:35:00.000Z	unop	SeanInSeattle	 find some_dir/ -name ".*" -type df
+2010-06-13T02:35:00.000Z	unop	SeanInSeattle	err     find some_dir/ -name ".*" -type d
+2010-06-13T02:35:00.000Z	SeanInSeattle	unop	thx.

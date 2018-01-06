@@ -1,0 +1,4 @@
+2006-07-24T11:29:00.000Z	knapper		Help, I'm trying to install gimpshop from source. It complained there is no XML::Parser installed. So I brought up the cpan prompt to install it, but it says "make returned bad status" and will not install.
+2006-07-24T11:30:00.000Z	jrib	knapper	install libxml-parser-perl package
+2006-07-24T11:34:00.000Z	knapper	jrib	That got it, but now it's saying "Test for GTK+ failed". Is there some dev packages I need to install?
+2006-07-24T11:35:00.000Z	jrib	knapper	yes, search for lib gtk dev, some name like that

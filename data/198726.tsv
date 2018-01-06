@@ -1,0 +1,4 @@
+2006-09-15T13:06:00.000Z	Paddy_EIRE		Is there anyway that i can use a command or application that can scan my entire ubuntu install for all the installed software on there
+2006-09-15T13:07:00.000Z	twb	Paddy_EIRE	dpkg -l
+2006-09-15T13:08:00.000Z	twb	Paddy_EIRE	to find programs that shouldn't be there, install the `cruft' package.
+2006-09-15T13:09:00.000Z	twb	Paddy_EIRE	apt-get install cruft; man cruft

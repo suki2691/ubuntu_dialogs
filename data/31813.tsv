@@ -1,0 +1,4 @@
+2012-09-06T18:18:00.000Z	TJ-	nmap	The rule you used; did you -A ppend or -I nsert it?
+2012-09-06T18:18:00.000Z	TJ-	nmap	If you Append it, it'll be *after* the default rule which is usually target ACCEPT
+2012-09-06T18:19:00.000Z	TJ-	nmap	Check the list of rules on that chain using iptables -nL and see if there's a rule before yours that's ACCEPTing everything
+2012-09-06T18:19:00.000Z	TJ-	nmap	Often, yes

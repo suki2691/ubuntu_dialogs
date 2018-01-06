@@ -1,0 +1,4 @@
+2006-08-14T16:40:00.000Z	lmosher		What's the command to install my current kernel's source?
+2006-08-14T16:42:00.000Z	lmosher		Anyone know how to install my current kernel's source?
+2006-08-14T16:43:00.000Z	lmosher		Anyone know: What is the location of the directory of C header files that match your running kernel?
+2006-08-14T16:43:00.000Z	JackMacOKC	lmosher	you could try sudo apt-get source linux-$(uname -r) ..not sure if that would work or not

@@ -1,0 +1,4 @@
+2011-04-02T02:23:00.000Z	tz_		how can I get something like ls -R "*.java" to work if there are no java files in my current directory, only subdirectories?
+2011-04-02T02:23:00.000Z	tz_		I keep getting this error: ls: cannot access *.java: No such file or directory
+2011-04-02T02:25:00.000Z	brontosaurusrex	tz_	how about: find ./ -name *.java*
+2011-04-02T02:28:00.000Z	brontosaurusrex	tz_	np, i have an alias like: alias easyfind='find . | grep -i -s -e ' <- the usage is "easyfind .java"

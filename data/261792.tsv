@@ -1,0 +1,4 @@
+2008-04-26T23:01:00.000Z	krasher		hey guys... i'm using my wireless pci card via ndiswrapper... how can i do the system to load the module at boot time... because i'm having to modprobe ndiswrapper all times after boot
+2008-04-26T23:02:00.000Z	krasher		﻿hey guys... i'm using my wireless pci card via ndiswrapper... how can i do the system to load the module at boot time... because i'm having to modprobe ndiswrapper all times after boot
+2008-04-26T23:03:00.000Z	Seveas	krasher	echo ndiswrapper | sudo tee -a /etc/modules
+2008-04-26T23:04:00.000Z	Seveas	krasher	echo ndiswrapper | sudo tee -a /etc/modules

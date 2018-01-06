@@ -1,0 +1,4 @@
+2007-06-03T07:01:00.000Z	Flannel	noob	Nope.  It's binary-only (closed source) and they haven't released a 64bit version.  The only thing you can use is a free alternative, like gnash, or something like gstreamer0.8-swfdec
+2007-06-03T07:01:00.000Z	Flannel	noob	or the 32bit chroot, of course.
+2009-08-19T11:24:00.000Z	Flannel	noob	needhelp1: no, that's the wrong way to go about "cleaning" your grub menu.  If you want those entries gone, just use your favorite package manager to remove their corresponding kernel packages (linux-image-[version])
+2009-08-19T11:28:00.000Z	Flannel	noob	find your linux-image- packages, and remove the old ones.  I recommend keeping at least one old, known good one.  In case you find a problem with the most recent kernel

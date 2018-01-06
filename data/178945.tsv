@@ -1,0 +1,4 @@
+2007-08-22T14:59:00.000Z	gh0sty2k		quick question folks, when i tar, im doing tar cvpf /root/lampp.tar /opt/ --exclude /opt/lampp/logs/ why is it still processing the logs folder and files?
+2007-08-22T15:00:00.000Z	jrib	gh0sty2k	tried placing the  --exclude /opt/lampp/logs  before the pathnames?
+2007-08-22T15:02:00.000Z	jrib	gh0sty2k	try a * at the end of your pattern
+2007-08-22T15:07:00.000Z	jrib	gh0sty2k	hmm, I see the syntax is supposed to be:  --exclude=PATTERN   do you have the  = ?

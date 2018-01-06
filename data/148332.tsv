@@ -1,0 +1,4 @@
+2007-05-04T11:57:00.000Z	sgtmattbaker		how do you check to see if samba is run as root by default?
+2007-05-04T07:02:00.000Z	sgtmattbaker		hello, I installed a server on my PC with the dapper alternate installer CD.  I guess it has the default sources but when I do sudo apt-get install xchat or proftpd it can't find the packages
+2007-05-04T07:03:00.000Z	sgtmattbaker		hello, I installed a server on my PC with the dapper alternate installer CD.  I guess it has the default sources but when I do sudo apt-get install xchat or proftpd it can't find the packages.. what do I do?
+2007-05-04T07:05:00.000Z	Tom47	sgtmattbaker	take a look at /etc/apt/sources.lst

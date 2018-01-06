@@ -1,0 +1,4 @@
+2005-05-14T06:59:00.000Z	JDigital		Hey guys, how do I format a hard drive partition?
+2005-05-14T06:59:00.000Z	spartacus	JDigital	mkfs.whatever
+2005-05-14T06:59:00.000Z	spartacus	JDigital	sounds reasonable... did it not work?
+2005-05-14T07:01:00.000Z	spartacus	JDigital	ok, mkfs.vfat did the formatting for you (a high level one, most likely). you'll need to edit /etc/fstab to tell the OS you've got vfat instead of ntfs now

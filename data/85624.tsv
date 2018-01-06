@@ -1,0 +1,4 @@
+2011-03-29T12:17:00.000Z	Elephantman		hi :) the internal mic of my Dell Latitude E6510 doesn't work. Seems related to this issue http://ubuntuforums.org/showthread.php?t=1504774 . But the solution (adding options snd-hda-intel model=dell-s14 at the end of /etc/modprobe.d/alsa-base.conf) doesn't work for me. At a guess, it's not the right model written in there, how could I find out what to put in that model value ?
+2011-03-29T12:18:00.000Z	gaelfx	Elephantman	open termial, type "lspci" without quotes, should tell you your sound card
+2011-03-29T12:20:00.000Z	Elephantman	gaelfx	aint any use really - Intel Corporation 5 Series/3400 Series Chipset High Definition Audio
+2011-03-29T12:21:00.000Z	gaelfx	Elephantman	well, you might try finding out any information you can about how to get that particular chip to work rather than the whole laptop thing

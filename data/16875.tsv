@@ -1,0 +1,4 @@
+2011-06-27T20:34:00.000Z	Pici	deucep	Its rather easy to do with xargs as well.
+2011-06-27T20:34:00.000Z	Pici	deucep	something like: grep -l stuff location | xargs -I '{}' mv '{}' destination/     (test with echo in front of mv)
+2011-06-27T20:36:00.000Z	deucep	Pici	exactly what I was looking for
+2011-06-27T20:37:00.000Z	Pici	deucep	np

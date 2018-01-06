@@ -1,0 +1,4 @@
+2009-02-09T04:22:00.000Z	tomvolek_		Hi, I am running 8.1,  i have updated my system from now and then and now i see three kernel versions on the grub bootup screen..  How can I remove the ones i dont want from both the fiule system ?  I know how to remove grub entries .
+2009-02-09T04:24:00.000Z	G-Bleezy	tomvolek_	/boot/grub/menu.lst and delete the vmlinuz file from wherever you've got the binaries stashed...usually /boot
+2009-02-09T04:24:00.000Z	tomvolek_	prahal_	 just unmark the one i dont want ?   is that safe to do ?
+2009-02-09T04:34:00.000Z	G-Bleezy	tomvolek_	hey i found a better way to remove the kernel entries you don't want....don't just erase the files, you just install the packages:  apt-get --purge remove linux-image-2.3.2.2.-whateverkernel

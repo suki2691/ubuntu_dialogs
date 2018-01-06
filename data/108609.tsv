@@ -1,0 +1,4 @@
+2011-04-14T11:43:00.000Z	pm2		Is it typically for postfix to only listen on port 587 externally, or also port 25?
+2011-04-14T11:45:00.000Z	pm2		I have: smtp      inet  n       -       -       -       -       smtpd -o content_filter=smtp-amavis:[127.0.0.1]:10024
+2011-04-14T11:45:00.000Z	pm2		submission inet n       -       -       -       -       smtpd #  -o smtpd_tls_security_level=encrypt   -o smtpd_sasl_auth_enable=yes   -o smtpd_client_restrictions=permit_sasl_authenticated,reject
+2011-04-14T11:45:00.000Z	FloodBot3	pm2	Please don't flood; use http://paste.ubuntu.com to paste; don't use Enter as punctuation.

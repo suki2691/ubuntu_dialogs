@@ -1,0 +1,4 @@
+2009-11-06T22:13:00.000Z	ewindisch		(unless the data is actually overwritten, it isn't really *wiped*, MD in particular is funny with this. You need to dd the drive over with zeros or clear the superblocks)
+2009-11-06T22:13:00.000Z	dekoy	ewindisch	well it will tell you on the install if you want to delete your old lvm groups and create a new one
+2009-11-06T22:14:00.000Z	dekoy		had the same problem the default initrd included with the cd doesn't have the modules
+2009-11-06T22:14:00.000Z	ewindisch	dekoy	my point was that if you were to delete partitions and recreate new ones at those same offsets, you could potentially run into issues (again, particularly true with MD unless you do mdadm --zero-superblock)

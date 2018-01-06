@@ -1,0 +1,4 @@
+2010-10-27T12:33:00.000Z	dusf		i'm trying to search all .log files in .irssi/irclogs for the string irssi but the command $HOME -name '*.log' -exec grep "irssi" /dev/null '{}' + is giving the error 'dusf is a directory'. how should i edit it please?
+2010-10-27T12:35:00.000Z	debuggerboy	dusf	: can you try     grep -lir "irssi" *.log
+2010-10-27T12:38:00.000Z	dusf	debuggerboy	it's given me a list of log files, a long list
+2010-10-27T12:38:00.000Z	dusf	debuggerboy	and i have to be in a specific directory, rather than search several

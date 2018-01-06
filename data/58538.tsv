@@ -1,0 +1,4 @@
+2011-02-27T02:32:00.000Z	Jonii^		how do I list devices?
+2011-02-27T02:32:00.000Z	Jonii^		Like, all the file storage device things that are connected?
+2011-02-27T02:34:00.000Z	Darael	Jonii^	running 'mount' will show the ones that are mounted, which is a start.  Anything else probably has a device file in /dev.  Also try using lsusb to find usb devices.
+2011-02-27T02:35:00.000Z	Darael	Jonii^	(tl; dr: I'm not sure, but here's some stuff to try)

@@ -1,0 +1,4 @@
+2007-02-02T13:21:00.000Z	yellowdart		does anybody know how to make my wireless card show up as wlan0 rather than eth1
+2007-02-02T13:23:00.000Z	dyrne	yellowdart	sudo gedit /etc/iftab
+2007-02-02T13:24:00.000Z	yellowdart	dyrne	thanks.. i'll try it out
+2007-02-02T13:31:00.000Z	yellowdart	dyrne	works great.. thanks.. i needed it because nm-applet wouldnt see the device as wireless if it was eth1 rather than wlan0

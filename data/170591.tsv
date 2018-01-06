@@ -1,0 +1,4 @@
+2007-09-08T16:30:00.000Z	ochosi		houston, we have a problem. i just wanted to put the nvidia module into my kernel, ran the "sudo m-a update" and then the "prepare" commands and when i wanted to enter "m-a auto-install nvidia" i forgot the nvidia and now the module-assistant keeps on putting ALL the packages he can into my kernel... is there any way of undoing this and removing all the useless modules from my kernel?
+2007-09-08T05:07:00.000Z	ochosi		hi, i installed the wacom-kernel-source via m-a "by accident" (long story...). could anyone tell me how to remove it since it seems to be in the way of installing fakeroot
+2007-09-08T05:07:00.000Z	MrObvious	ochosi	What happens with sudo apt-get remove wacom-kernel-source ?
+2007-09-08T05:09:00.000Z	ochosi	MrObvious	oh my dear. sometimes it's really easy. sorry for bothering, it's already late and i've had some wine :) thanks anyway!

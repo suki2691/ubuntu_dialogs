@@ -1,0 +1,4 @@
+2008-09-22T17:15:00.000Z	rdz		hi all. i don't get any image from video card, when x is running, only console is displayed correctly. what i can i do the fix X or use the 'factory' settings?
+2008-09-22T17:15:00.000Z	rdz		somehow it sees, that xorg.conf isn't read anymore.. or some parts of it are ignored
+2008-09-22T17:15:00.000Z	DasEi1	rdz	backup xorg, then : sudo dpkg-reconfigure -phigh xserver-xorg
+2008-09-22T17:16:00.000Z	rdz	DasEi1	thanks.

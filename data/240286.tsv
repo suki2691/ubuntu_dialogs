@@ -1,0 +1,4 @@
+2008-01-04T05:32:00.000Z	DrBroccoli		So I installed ubuntu, didn't like and decided to delete the partition it was on, now when I try to turn on my PC, I get a "GRUB load error 17" and it won't move on
+2008-01-04T05:33:00.000Z	nickrud	DrBroccoli	you need to boot a windows rescue disk and run    fdisk /mbr , so the boot loader will point at windows
+2008-01-04T05:34:00.000Z	nickrud	DrBroccoli	I know very little about windows .... I use it for games and work but that's about it
+2008-01-04T05:35:00.000Z	nickrud	DrBroccoli	you could try asking on ##windows

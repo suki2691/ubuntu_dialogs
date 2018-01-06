@@ -1,0 +1,4 @@
+2006-07-15T16:08:00.000Z	TyeDye		i've installed quake4 and can run the game if I click on the file and tell it to run but I can't run it from the command line,it says bash: quake4: command not found,any ideas why I can't run from terminal??
+2006-07-15T16:09:00.000Z	Samus_Aran	TyeDye	because it isn't in your path
+2006-07-15T16:10:00.000Z	Samus_Aran	TyeDye	if you type the full path into the terminal, it will run it the same as your shortcut icon
+2006-07-15T16:10:00.000Z	Samus_Aran	TyeDye	otherwise you need to add a launcher script for it somewhere in your path (or symlink it)

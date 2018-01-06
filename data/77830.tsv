@@ -1,0 +1,4 @@
+2008-10-08T13:26:00.000Z	dialman		I can't connect to my windows SMB share from ubuntu. I can ping it. Can't figure out smbclient to connect. Any ideas?
+2008-10-08T13:27:00.000Z	blueeagle	dialman	You haven't set up your smb credentials correctly.
+2008-10-08T13:27:00.000Z	blueeagle	dialman	ie. your local username/password are not automagically transferred to samba username/passwords
+2008-10-08T13:28:00.000Z	blueeagle	dialman	Try looking in /etc/samba/smb.conf

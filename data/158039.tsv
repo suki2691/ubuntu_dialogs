@@ -1,0 +1,4 @@
+2010-01-20T23:46:00.000Z	SciRuoWa		my friend and i were trying to install a driver for my wireless card, and used an instamagick installer thing, but my linux partition now refuses to boot, and goes into kernel panic if i try to. any ideas as to what went wrong, by any chance?
+2010-01-20T23:46:00.000Z	Slart	SciRuoWa	well.. your wi-fi driver seems to be a very probable culprit.. tried uninstalling it?
+2010-01-20T23:48:00.000Z	Slart	SciRuoWa	I'm not really sure here.. but you could try booting from a live cd (the regular ubuntu install cd is a live cd) and then try removing the compiled kernel module.. I think that will just give you an error message but a working kernel
+2010-01-20T23:48:00.000Z	Slart	SciRuoWa	you're welcome

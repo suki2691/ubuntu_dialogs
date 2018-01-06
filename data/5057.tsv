@@ -1,0 +1,4 @@
+2012-05-21T16:55:00.000Z	ubsrv		hi guys, I'm having some serious problems with postfix, last night my server was attacked and used to send over 15000 spam mails within 2 hours.. My configuration included 0.0.0.0/0 in 'mynetworks' (I know that's too bad...). Now I've deleted that entry, but the problem is I need my users to be able to send mails from their homes, and most of them include dynamic ips, and if they IPs are not
+2012-05-21T16:55:00.000Z	ubsrv		listed in 'mynetworks' they get a "Relay access denied" error. Any idea on how to configure this?
+2012-05-21T16:56:00.000Z	compdoc	ubsrv	yikes
+2012-05-21T16:57:00.000Z	ubsrv	compdoc	big yikes...

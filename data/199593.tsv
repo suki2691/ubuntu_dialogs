@@ -1,0 +1,4 @@
+2007-12-15T04:23:00.000Z	lalalalalala		hey
+2007-12-15T04:23:00.000Z	lalalalalala		I have a user "larry," and I want him to be able to use apt, without getting all the other sudo powers. Is there a way to do this?
+2007-12-15T04:24:00.000Z	jepler	lalalalalala	what makes you believe that a user who can install packages via apt doesn't have equivalent powers to a full root/administrator user?
+2007-12-15T04:27:00.000Z	jepler	lalalalalala	a user who can run apt-get can completely f*** the system by uninstalling required packages, or install a specially crafted package which will give him full root/administrator privileges.  so there's little point (IMO) in allowing a user to install software via apt and not giving full sudo privs.

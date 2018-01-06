@@ -1,0 +1,4 @@
+2008-12-25T02:20:00.000Z	timholum		I am having problems routing in ubuntu 8.04, i done the following echo "1" > /proc/sys/net/ipv4/ip_forward also edited /etc/sysctl.conf and added net.ipv4.ip_forward=1 then did /etc/init.d/networking restart and /etc/init.d/procps restart yet it still does not route trafic? any ideas
+2008-12-25T02:21:00.000Z	Slart	timholum	you ran the first command as root, right?
+2008-12-25T02:21:00.000Z	Slart	timholum	because it can be kind of tricky to use with sudo..
+2008-12-25T02:22:00.000Z	Slart	timholum	I'm not sure if you need to setup some iptables rules just for general routing.. are you following some kind of howto?

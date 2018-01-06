@@ -1,0 +1,4 @@
+2008-07-09T09:23:00.000Z	zcat[1]		ok, I've added what I think is the correct option, now /etc/init.d/named restart fails .. if I comment out my option it works.. does named log anywhere the reason it can't restart?
+2008-07-09T09:24:00.000Z	Templar_Xion	zcat[1]	Try /var/log/syslog or /var/log/named if the latter exists
+2008-07-09T09:26:00.000Z	Templar_Xion	zcat[1]	Was it in syslog or a config file?
+2008-07-09T09:27:00.000Z	Templar_Xion	zcat[1]	I don't think a file system check will fix it.

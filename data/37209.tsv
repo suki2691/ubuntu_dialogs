@@ -1,0 +1,4 @@
+2010-02-16T14:49:00.000Z	fhermeni		I have an issue with preseed: netcfg works fine by getting all the network stuff from dhcp but still asking for a hostname. I try to add the line "d-i netcfg/get_hostname string unassigned-hostname" on the config file but no change. Any idea ?
+2010-02-16T14:50:00.000Z	mngrif	fhermeni	any reason you're working without a hostname?
+2010-02-16T14:51:00.000Z	fhermeni	mngrif	it retrieves the hostname but I still have to press enter :/
+2010-02-16T14:52:00.000Z	mngrif	fhermeni	ooooh. i see. sorry, can't help. my problem with it is it doesn't set my default route :(

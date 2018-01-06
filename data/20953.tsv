@@ -1,0 +1,4 @@
+2011-01-03T13:18:00.000Z	hudson_		when using chroot, should I do something special for proc and dev? mount --bind, or something like that
+2011-01-03T13:19:00.000Z	rs0832	hudson_	yes.. sudo mount --bind /proc /mnt/proc, for example
+2011-01-03T13:20:00.000Z	hudson_	rs0832	thanks.
+2011-01-03T13:21:00.000Z	rs0832	hudson_	y/w

@@ -1,0 +1,4 @@
+2012-03-07T23:55:00.000Z	igor_		is there a way to rip a dvd disc without transcoding it too?
+2012-03-07T23:55:00.000Z	igor_		how?
+2012-03-07T23:57:00.000Z	jhutchins_wk	igor_	Theoretically if you dd if=/dev/dvd of=/<path to>/<file>.iso you'll get a usable iso image that you can mount or burn back to a DVD.
+2012-03-07T23:58:00.000Z	jhutchins_wk	igor_	There might be copy protection on the disk that would interfere with that, but I haven't encountered any so far.

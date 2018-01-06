@@ -1,0 +1,4 @@
+2008-06-28T07:29:00.000Z	Kira		I just installed the freenx server. I try to add a user to the nxserver, but it tells me that that permission is denied to ~/.ssh/authorized_keys2
+2008-06-28T07:29:00.000Z	Kira		the command was already invoked with sudo. What's going on?
+2008-06-28T07:30:00.000Z	__yy	Kira	sounds like root doesn't have read permission on that file
+2008-06-28T07:31:00.000Z	Kira	__yy	well, to begin with, authorized_keys2 never existed in ~/.ssh; and ~/.ssh is owned by root:root anyway.

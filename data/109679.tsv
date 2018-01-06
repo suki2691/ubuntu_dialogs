@@ -1,0 +1,4 @@
+2007-12-15T04:51:00.000Z	logankoester		Okay, I ran sudo a2enmod php5 and reloaded apache but still no luck
+2007-12-15T04:51:00.000Z	logankoester		damn
+2007-12-15T04:51:00.000Z	Sionide21	logankoester	Make sure the line "AddHandler php5-script php" is in your apache conf
+2007-12-15T04:54:00.000Z	logankoester	Sionide21	okay I added that line at the bottom of apache2.conf and it had no effect, even after reloading apache

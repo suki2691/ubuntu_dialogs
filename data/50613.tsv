@@ -1,0 +1,4 @@
+2009-10-28T12:55:00.000Z	hanasaki		how can I tell if my nfs is exported with SQUASH on?
+2009-10-28T12:57:00.000Z	hanasaki		thanks DireFog .. its (rw,wdelay,no_root_squash,no_subtree_check) however cups pdf print doesn't work and the reports are it needs no squash to work and write to ~PDF... an ideas?
+2009-10-28T12:59:00.000Z	hanasaki		 kernel: [  369.328719] type=1503 audit(1256720001.964:41): operation="open" pid=9320 parent=4762 profile="/usr/lib/cups/backend/cups-pdf" requested_mask="r::" denied_mask="r::" fsuid=0 ouid=0 name="/var/spool/cups/d00082-001"
+2009-10-28T13:01:00.000Z	rafiq	hanasaki	which is the best way to install flash player...i tried many times to download and install from adobe site...

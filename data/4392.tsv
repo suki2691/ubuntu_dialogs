@@ -1,0 +1,4 @@
+2012-10-11T00:21:00.000Z	foobArrr	macmartine	"2>&1" redirects stderr to stdout, and ">/dev/null" redirects stdout to /dev/null. if you want both to be written to a log file, remove the ">/dev/null" part.
+2012-10-11T00:23:00.000Z	macmartine	foobArrr	So that it looks like this? */10 * * * * /myscript > /path/to/logs/cron.log 2>&1
+2012-10-11T00:23:00.000Z	foobArrr	macmartine	yes. that works for me at least :)
+2012-10-11T00:29:00.000Z	foobArrr	macmartine	if it still doesn't write anything to the log: is this a user's crontab or root's crontab? in the first case check if you have write permissions to /path/to/logs/cron.log

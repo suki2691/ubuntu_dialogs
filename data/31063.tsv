@@ -1,0 +1,4 @@
+2010-05-29T22:12:00.000Z	KhaZ		Ack.  So, I'm new to ubuntu, but I want to reinstall screen (it's complaining about /var/run/screen not existing, and I'm hoping a reinstall will fix it).  Running 'sudo apt-get remove screen' tells me that it's going to remove ubuntu-desktop, boxee, byobu AND screen.  Why is it trying to remove stuff I want?
+2010-05-29T22:12:00.000Z	Docteh	KhaZ	just sudo mkdir /var/run/screen ;-;
+2010-05-29T22:15:00.000Z	Docteh	KhaZ	why dont you just make the directory that screen is asking for?
+2010-05-29T22:15:00.000Z	KhaZ	Docteh	I can do that, but I'm more just trying to understand what apt-get is up to for now.  Making the directory is probably not a big deal, but I'm confused why on a new install of Ubuntu, screen wouldn't be working properly anyhow.

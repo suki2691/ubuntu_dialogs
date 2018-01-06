@@ -1,0 +1,4 @@
+2009-08-19T19:08:00.000Z	a94060		could someone tell me how i can password protect grub?
+2009-08-19T19:09:00.000Z	Syka	a94060	edit /boot/grub/menu.lst
+2009-08-19T19:09:00.000Z	Syka	a94060	There's a setting in there.You need to be root to edit, though. So use sudo
+2009-08-19T19:10:00.000Z	Syka	a94060	Honestly, if someone has access to the hardware, nothing can protect you short of a Truecrypt drive

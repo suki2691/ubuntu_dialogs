@@ -1,0 +1,4 @@
+2008-12-05T05:38:00.000Z	lolboi		hey guys i tired installing java got to the agreement page and closed it sice i thouht it was done, now i try opening synaptic and i get this error : E: dpkg was interrupted, you must manually run 'dpkg --configure -a' to correct the problem.
+2008-12-05T05:38:00.000Z	lolboi		E: _cache->open() failed, please report.
+2008-12-05T05:38:00.000Z	lolboi		 what do i do?
+2008-12-05T05:39:00.000Z	prahal_	lolboi	I would dpkg -P <java_package_name> and reinstall (though you should report the issue there is a bug

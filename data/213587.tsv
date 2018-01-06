@@ -1,0 +1,4 @@
+2009-04-08T06:58:00.000Z	lewench		I am creating a small basic script for some commands. I am having a problem with this piece. Its very baisc, Im  learning as I go (never made a script before). http://pastebin.com/d696b8249 I don't know why when I set the BSSID that has a space I add "\" due to the special character i.e the space, but It seems as the exec is not inputting this correctly. This works with BSSID's that have no space. Can anyone tell me what I might be
+2009-04-08T06:58:00.000Z	lewench		missing?
+2009-04-08T07:00:00.000Z	tonyyarusso	lewench	you might try to just enclose it in quotes instead of trying to escape spaces.
+2009-04-08T07:00:00.000Z	tonyyarusso	lewench	(but #bash would know better)

@@ -1,0 +1,4 @@
+2008-12-11T00:35:00.000Z	Tex-Twil		Hello
+2008-12-11T00:35:00.000Z	Tex-Twil		please how can I secure erase a partition ?
+2008-12-11T00:36:00.000Z	ikonia	Tex-Twil	dd if=/dev/random of=/dev/$diskID bs=512k
+2008-12-11T00:36:00.000Z	ikonia	Tex-Twil	that will write random data to the disk

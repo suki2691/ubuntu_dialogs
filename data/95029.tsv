@@ -1,0 +1,4 @@
+2012-01-10T02:24:00.000Z	chadwic		Hi, I was wondering if anybody new if it was possible to run an ubuntu install and put root on a flash drive and /home would be on the computers HDD. Any ideas?
+2012-01-10T02:26:00.000Z	deusprogrammer	chadwic	If you alter /etc/fstab on the live image to mount the drive (usually /dev/sda/directory_here).
+2012-01-10T02:31:00.000Z	deusprogrammer	chadwic	I'm not sure if this is what you are asking, but you can mount just about any file system in Linux.  So you could mount just about any file system's directory as /home in /etc/fstab
+2012-01-10T02:34:00.000Z	deusprogrammer	chadwic	Why not just multiboot, and put your /home on an nfs server or something?

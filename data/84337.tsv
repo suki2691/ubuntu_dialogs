@@ -1,0 +1,4 @@
+2011-08-15T05:53:00.000Z	agike		Hi, When installing Debian 6.0 and/or Ubuntu WattOS2 on my other partition I keep getting the GRUB msg "error: no such device: e93e [...], Entering rescue mode .. grub rescue>". Sourceforge tells me it is because grug.cfg contains "search --no-floppy --fs-uuid --set e933[...]", and that the solution is "sudo abiword /usr/lib/grub/grub-mkconfig_lib" to comment out the last three lines of the paragraph including UUID. I have done that on Wa
+2011-08-15T05:53:00.000Z	agike		ttOS2 and Deb6 drives, but on trying 'sudo update-grub2' I keep getting "/usr/sbin/grub-probe: cannot find device for / (is dev mounted ?)". I have run out of ideas and cannot boot into the drive containing details of high-priority current projects. Any ideas ?
+2011-08-15T05:54:00.000Z	agike		Apologies.
+2011-08-15T05:54:00.000Z	szal	agike	WattOS2?

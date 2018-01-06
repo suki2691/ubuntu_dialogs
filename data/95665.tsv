@@ -1,0 +1,4 @@
+2008-05-05T15:03:00.000Z	prophet05		Hi, i want do execute a shellscript with root rights directly after login, before desktop software accesses home. I tried that with pam_exec. I added this line "session optional pam_exec.so seteuid /opt/test.sh" to the /etc/pam.d/gdm file. The script is executed correct but i don't know how to find out the user that just logged in. Can you help me on that?
+2008-05-05T15:04:00.000Z	prophet05		I allready tried ${USER}, ${PAM_USER} and ${PAM_RUSER} all are empty
+2008-05-05T15:04:00.000Z	ere4si	prophet05	that is what /etc/rc.local is for I thought
+2008-05-05T15:05:00.000Z	prophet05	ere4si	rc.local is only executed on bootup

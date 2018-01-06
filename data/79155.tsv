@@ -1,0 +1,4 @@
+2010-07-23T11:37:00.000Z	jgcampbell300		can anyone tell me how to log into my ubuntu 10.04 server from my other computer running ubuntu 10.04 desktop ... i need to be able to open a terminal on the desktop to control the server ... thanks
+2010-07-23T11:37:00.000Z	DasEi1	jgcampbell300	use ssh
+2010-07-23T11:38:00.000Z	DasEi1	jgcampbell300	on both machines : sudo apt-get install ssh
+2010-07-23T11:38:00.000Z	DasEi1	jgcampbell300	then edit ssh-config on server, get its ip, can ssh in

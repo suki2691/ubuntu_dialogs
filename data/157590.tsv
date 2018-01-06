@@ -1,0 +1,4 @@
+2009-10-07T19:22:00.000Z	shane2peru		does anyone know if scp is considered the same as ftp, or does the server see it as the same?  ports etc?
+2009-10-07T19:22:00.000Z	jimcooncat	shane2peru	no, server must be sshd, not ftpd
+2009-10-07T19:23:00.000Z	jimcooncat	shane2peru	only uses one port, 22 by default, but most change it if they expose it to the internet
+2009-10-07T19:24:00.000Z	shane2peru	jimcooncat	right, my server doesn't allow ssh, so, only ftp

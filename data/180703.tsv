@@ -1,0 +1,4 @@
+2008-11-28T04:57:00.000Z	Sierradump		When I type DMESG it outputs so much text I can't get to the beginning?  Is there a "DMESG /(option)" I can try???????
+2008-11-28T04:58:00.000Z	SimAtWork	Sierradump	you need to learn about | and less... try dmesg | less
+2008-11-28T04:58:00.000Z	SimAtWork	Sierradump	also try dmesg | tail and dmesg | head
+2008-11-28T04:59:00.000Z	SimAtWork	Sierradump	also try dmesg | grep eth0 -i

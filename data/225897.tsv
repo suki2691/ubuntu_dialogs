@@ -1,0 +1,4 @@
+2006-07-20T13:26:00.000Z	DoomStone		If i want to chmod a folder and all its subfolders to 777 what is the command for that?
+2006-07-20T13:26:00.000Z	trappist	DoomStone	chmod -R rwX foldername, but don't do it.
+2006-07-20T13:27:00.000Z	trappist	DoomStone	you don't want it writable by everybody in the world, do you?
+2006-07-20T13:28:00.000Z	trappist	DoomStone	make a group that has access to the directory, add whoever you want to the group, and chown -R root:newgroup foldername

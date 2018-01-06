@@ -1,0 +1,4 @@
+2008-05-16T06:08:00.000Z	bugmanx2000		i want to install an older version of libcurl3_gnutls.  specifically 7.17 instead of the latest 7.18.  is there a way to do this?
+2008-05-16T06:08:00.000Z	wols	bugmanx2000	not really, why would you: newer programs will depend on 7,19
+2008-05-16T06:10:00.000Z	bugmanx2000	wols	my curlftpfs seems to be buggy with 7.18
+2008-05-16T06:10:00.000Z	wols	bugmanx2000	get the .deb from somewhere and install it with dpkg -i

@@ -1,0 +1,4 @@
+2012-08-22T15:56:00.000Z	`4fun`		heya guys, i added a batch file to my rc.local file like this: http://pastebin.com/0R0Ayk9h but it doesnt run at boot like it should be
+2012-08-22T15:56:00.000Z	`4fun`		am i doing it wrong?
+2012-08-22T15:58:00.000Z	theadmin	`4fun`	If it's a file, remove the trailing slash
+2012-08-22T15:58:00.000Z	theadmin	`4fun`	/usr/ is a folder. /usr is either a file or a folder, depending on a context.

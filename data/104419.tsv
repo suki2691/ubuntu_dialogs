@@ -1,0 +1,4 @@
+2012-09-03T07:08:00.000Z	ActionParsnip	jaime	the way I have done it in the past is make a bash script to run the application, then make a .desktop file in /usr/share/applications to run the script
+2012-09-03T07:14:00.000Z	ActionParsnip	jaime	if you copy a .desktop file from ~/.config/autostart  and modify it, you can make it run what you want.
+2012-09-03T07:32:00.000Z	jaime	ActionParsnip	I'm getting "Access denied" when I try to copy into /usr/share/applications
+2012-09-03T07:36:00.000Z	ActionParsnip	jaime	run:  gksudo nautilus $HOME    and you should be able to

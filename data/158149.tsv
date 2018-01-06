@@ -1,0 +1,4 @@
+2008-08-19T20:18:00.000Z	Diabolus		On the latest version of Ubuntu, i recently downloaded, everything is working fine except for the internet. I can't seem to get the settings right for it to work. i go system -> admin -> network. then setup a wired static ip address which i know is right due to this windows working fine, DNS is entered, am i missing something? everything is ticked and enabled
+2008-08-19T20:19:00.000Z	Slart	Diabolus	you might have to set a gateway too.. not sure if ubuntu does it for you in some way
+2008-08-19T20:20:00.000Z	Slart	Diabolus	ah.. ok.. well.. then I can't think of anything else to configure
+2008-08-19T20:21:00.000Z	Slart	Diabolus	you can always try "sudo /etc/init.d/networking restart"

@@ -1,0 +1,4 @@
+2007-04-07T06:43:00.000Z	RyanRyan52		I have onboard Intel GMA x3000 grapics. I installed an unstable driver which made it so i couldnt get into gnome. somebody on here told me to change the graphics driver to vesa. It works but its slow. can anybody tell me how to get it back to its original?
+2007-04-07T06:44:00.000Z	ATi7500	RyanRyan52	did you try to reconfigure xorg?
+2007-04-07T06:44:00.000Z	ATi7500	RyanRyan52	sudo dpkg-reconfigure -phigh xserver-xorg
+2007-04-07T06:45:00.000Z	ATi7500	RyanRyan52	you're welcome

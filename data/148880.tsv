@@ -1,0 +1,4 @@
+2007-01-16T07:27:00.000Z	bds		How do I change the default run level so GDM does not load, I don't have a /etc/inittab, do I chmod /etc/init.d/gdm to make it not executable?
+2007-01-16T07:28:00.000Z	bds		I would like the default run level to be without X, similar to Slackware
+2007-01-16T07:28:00.000Z	unop	bds	use the update-rc.d command to disable GDM altogether
+2007-01-16T07:28:00.000Z	bds	unop	Danke

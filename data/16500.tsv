@@ -1,0 +1,4 @@
+2011-03-26T20:11:00.000Z	cbkia		when I on my laptop,instead of the grub list,I see the grub> command prompt.. Any ideas to login into windows
+2011-03-26T20:11:00.000Z	eirikb	cbkia	I guess your grub stage 1 can't find stage 2. You need to reinstall grub and make stage 1 in MBR point to correct stage 2
+2011-03-26T20:12:00.000Z	eirikb	cbkia	If you have a live cd that has grub (like arch has) you could select boot existing OS, hit TAB and change to where you know your windows boot is at
+2011-03-26T20:13:00.000Z	cbkia	eirikb	soreau : i will follow it

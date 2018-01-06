@@ -1,0 +1,4 @@
+2010-02-22T13:34:00.000Z	jjulian		hi im having some problems with the grep programm in ubuntu: i call it like this: grep '^.*(SEPERATED1|SEPERATED2|SEPERATED3|SEPERATED4){1}.*(ANDTHIS){1}.*$' my.csv and it just gives me every line. but i want only lines with the SPERATED1-4 (one of them) and with "ANDTHIS" how comes that it just matches every line?
+2010-02-22T13:34:00.000Z	jjulian		ive some tools like regexbuddy it seems to work good there
+2010-02-22T13:36:00.000Z	Flannel	jjulian	just a little note on the regexp, {1} is redundant, and you could do seperated(1|2|3|4) as well (although I suspect that bit may have been placeholders for other stuff)
+2010-02-22T13:37:00.000Z	jjulian	Flannel	right. its a bit more complicated so i just skipped that out :D

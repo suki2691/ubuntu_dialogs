@@ -1,0 +1,4 @@
+2010-06-08T03:03:00.000Z	ToeKutter		is there the equalivent of "boot.ini" file where I can see / mod the default boot choice ?
+2010-06-08T03:05:00.000Z	Jordan_U	ToeKutter	The default setting is to use the first menu entry in /boot/grub/grub.cfg . If you want to change that, change GRUB_DEFAULT in /etc/default/grub and re-run update-grub
+2010-06-08T03:06:00.000Z	Jordan_U	ToeKutter	What is your end goal? (If you want to change things via a script then you should look at GRUB_DEFAULT=saved and the utility grub-set-default)
+2010-06-11T00:35:00.000Z	Jordan_U	ToeKutter	"exit", but you should not start root shells like that. Just use sudo for individual commands as needed.

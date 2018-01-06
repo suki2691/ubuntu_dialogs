@@ -1,0 +1,4 @@
+2011-11-20T18:44:00.000Z	Atamisk		what does nosplash do?
+2011-11-20T18:45:00.000Z	Atamisk		so, would this allow one to boot directly into tty1 without seeing that Ubuntu-plus-four-dots screen?
+2011-11-20T18:45:00.000Z	dr_willis	Atamisk	 yes.  the 'text' option disables the gdm/kdmxdm/whateverdm login from starting.
+2011-11-20T18:46:00.000Z	dr_willis	Atamisk	 'noquiet nosplash nofb text' :) is what ive used in the past.. some optiuons may not be needed in all cases.

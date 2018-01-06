@@ -1,0 +1,4 @@
+2011-08-05T21:55:00.000Z	asteve		how can i install a package but not one of the it's dependencies?
+2011-08-05T21:57:00.000Z	Pici	asteve	Theres a reason that they're called dependencies.
+2011-08-05T21:58:00.000Z	asteve	Pici	i have installed the package required from source
+2011-08-05T22:00:00.000Z	Pici	asteve	You'd need to to dpkg that you've already installed it. The most common way is to use check-install and use a version number higher than the one in the repos.

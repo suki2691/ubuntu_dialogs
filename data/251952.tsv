@@ -1,0 +1,4 @@
+2006-11-01T16:55:00.000Z	kzm		Hmm...upgrading problem: trying to go from breezy to edgy (yeah, I know).  /sbin/vol_id was previously owned by udev, in edgy it belongs to volumeid.
+2006-11-01T16:55:00.000Z	kzm		So that blocks the upgrade of volumeid, and thus the whole process.
+2006-11-01T16:55:00.000Z	kzm		Any way around this?
+2006-11-01T16:56:00.000Z	eyequeue	kzm	breezy to edgy isn't supported, breezy to dapper to edgy

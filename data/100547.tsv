@@ -1,0 +1,4 @@
+2009-08-19T09:11:00.000Z	Ozzah		hello? boxes everywhere... my system is now completely unusable. anybody?
+2009-08-19T09:11:00.000Z	prince_jammys	Ozzah	have you tried to reset your X with sudo dpkg-reconfigure -phigh xserver-xorg ?
+2009-08-19T09:12:00.000Z	prince_jammys	Ozzah	you'll have to restart X after doing that. It'll automatically backup your xorg.conf, just in case.
+2009-08-19T09:13:00.000Z	prince_jammys	Ozzah	sudo /etc/init.d/?dm restart

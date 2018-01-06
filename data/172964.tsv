@@ -1,0 +1,4 @@
+2006-10-18T12:04:00.000Z	eetfunk		how do i get a list of installed packages from the command line?
+2006-10-18T12:06:00.000Z	TheGateKeeper	eetfunk	apt-cache search <whatever> or dpkg -S filename
+2006-10-18T12:06:00.000Z	eetfunk	TheGateKeeper	i need a list of packages currently installed on my box, not search for a package
+2006-10-18T12:08:00.000Z	TheGateKeeper	eetfunk	don't know off the top of my head try man:apt-get

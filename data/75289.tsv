@@ -1,0 +1,4 @@
+2009-09-18T20:56:00.000Z	utlo		I'm doing some work where we are remotlly detecting security vulnerblites in out of date packages.  In doing demonstrations I want to have a machine set up with old packages, but all our machines right now are up to date
+2009-09-18T20:56:00.000Z	utlo		Is their a way to roll back packages easily with apt or do I have to install things manually?
+2009-09-18T20:58:00.000Z	utlo		cool thanks
+2009-09-18T20:58:00.000Z	genii-around	utlo	If the previous version is still available from result of: apt-cache policy <packagename>   then you can explicitly install it by version with something like sudo apt-get install packagename=some-version-as-reported-by-search

@@ -1,0 +1,4 @@
+2008-03-15T07:16:00.000Z	wookienz		i have added a line to fstab to add a smbfs share at boot... will a "networking restart" bring the share up or do i have to reboot?
+2008-03-15T07:17:00.000Z	stefano_	wookienz	mount the device manually until your next reboot. you're not on a server that you can't just reboot, are you?
+2008-03-15T07:17:00.000Z	wookienz	stefano_	it is a remote box that i dont want to reboot as it needs me to replug in screen to log on and then i can VNC to it. another thing i need to fix!
+2008-03-15T07:18:00.000Z	stefano_	wookienz	can't you connect to it via ssh?

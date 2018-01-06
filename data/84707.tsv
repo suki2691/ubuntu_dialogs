@@ -1,0 +1,4 @@
+2009-01-04T02:39:00.000Z	shovi		hey im trying to change my computer name... I edited gedit /etc/hostname
+2009-01-04T02:39:00.000Z	shovi		but How do i know it changed
+2009-01-04T02:39:00.000Z	shovi		i cannot access users and groups now
+2009-01-04T02:40:00.000Z	jtaji	shovi	change it in /etc/hostname AND /etc/hosts, then do sudo hostname -F /etc/hostname

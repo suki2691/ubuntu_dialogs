@@ -1,0 +1,4 @@
+2005-01-14T11:53:00.000Z	nevyn	crimsun	users should not use update-rc.d it's only for packages when they update their changes will be lost.
+2005-01-14T11:57:00.000Z	crimsun	nevyn	policy does not make it clear that only maintainer scripts can use update-rc.d or invoke-rc.d
+2005-01-14T12:01:00.000Z	nevyn	crimsun	but if an administrator uses it the changes will be reverted when they next invoke-rc.d
+2005-01-15T09:03:00.000Z	crimsun	nevyn	I agree, and I'm attempting to see where sudo will fail for driverloader

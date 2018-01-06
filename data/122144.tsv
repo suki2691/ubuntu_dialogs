@@ -1,0 +1,4 @@
+2009-09-22T05:56:00.000Z	mattgyver	deamonunix	its gonna require that you setup apache, after that you pretty much put the files in /var/www and make sure you chgrp www-data /var/www/sitefolder
+2009-09-22T05:58:00.000Z	mattgyver	deamonunix	setup a DDNS service and install the IP updater from a provider like Dyndns, or no-ip.com
+2009-09-22T06:01:00.000Z	mattgyver	deamonunix	its okay to set it up that way but you really need to make sure your system is pretty tight from a security standpoint
+2009-09-22T06:01:00.000Z	mattgyver	deamonunix	i would look into setting up fail2ban before you even think about going live with it

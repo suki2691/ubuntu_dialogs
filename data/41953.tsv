@@ -1,0 +1,4 @@
+2009-11-25T15:12:00.000Z	iKernel		I want to install pulseaudio from source, but to do that I need to first uninstall the pulseaudio package. However, a few packages depend on pulseaudio, most notably ubuntu-desktop. How can I install pulseaudio from source and get rid of the pulseaudio package without affecting the other packages?
+2009-11-25T15:13:00.000Z	forkcap	iKernel	ubuntu-desktop is just a metapackage which specifies other dependent packages, it can safely be removed
+2009-11-25T15:13:00.000Z	iKernel		forkcap
+2009-11-25T15:13:00.000Z	iKernel	forkcap	oh

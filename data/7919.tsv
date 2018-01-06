@@ -1,0 +1,4 @@
+2011-12-06T20:54:00.000Z	jason00		Question - I want to create a DD backup of my SD card. How would I do it? sudo dd if=/dev/sdb of=/home/user/sdbackup.tar.gz ???
+2011-12-06T20:56:00.000Z	RaTTuS|BIG	jason00	like http://www.backuphowto.info/linux-backup-hard-disk-clone-dd
+2011-12-06T20:56:00.000Z	jason00	RaTTuS|BIG	ahhh! .img! That's what it was. I had forgotten what it was when I read about it a few weeks ago.
+2011-12-06T21:01:00.000Z	jason00	RaTTuS|BIG	I don't really want speed or anything. I just want to ensure what I have in the .img is identical to the sd card contents. Would the standard if=/dev/sdb of=/home/user/disk.img do the job?

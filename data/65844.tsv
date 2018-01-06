@@ -1,0 +1,4 @@
+2009-02-20T05:26:00.000Z	bpat1434		I'm setting up my ubuntu server, and I've installed xinetd via aptitude; however, it doesn't seem to be running.  No PID is given when I do /etc/init.d/xinetd status
+2009-02-20T05:26:00.000Z	bpat1434		how can I check to see if xinetd is in fact running?
+2009-02-20T05:27:00.000Z	mikewu	bpat1434	ps -ef | grep xinetd
+2009-02-20T05:27:00.000Z	bpat1434	mikewu	thanks.

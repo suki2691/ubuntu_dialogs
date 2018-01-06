@@ -1,0 +1,4 @@
+2010-08-28T20:49:00.000Z	bsmith093		will dd work to sanitize a drive and if so what is the command
+2010-08-28T20:50:00.000Z	flixil	bsmith093	dd if=/dev/urandom of=/yourunit
+2010-08-28T20:51:00.000Z	flixil	bsmith093	this destructs the file system completly, so it's the same as shred in this case
+2010-08-28T20:52:00.000Z	flixil	bsmith093	depends on size, ram memory, sip speed of the disks, apps opened as well as other things, just try

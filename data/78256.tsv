@@ -1,0 +1,4 @@
+2008-09-28T02:38:00.000Z	unixSnob_		anyone know what package contains the gcc-x86_64-has-stack-protector.sh file?
+2008-09-28T02:39:00.000Z	tritium	unixSnob_	and if it's not on your system, apt-file can help you find it.
+2008-09-28T02:40:00.000Z	tritium	unixSnob_	install apt-file, sudo apt-file update, then apt-file search <foo>
+2008-09-28T02:40:00.000Z	unixSnob_	tritium	i actually just installed apt-file for this purpose, but running apt-file update is expensive, on my measured rate g3 connection

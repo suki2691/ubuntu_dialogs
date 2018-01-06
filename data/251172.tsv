@@ -1,0 +1,4 @@
+2006-06-11T16:13:00.000Z	viyyer		not too rarely
+2006-06-11T16:13:00.000Z	viyyer		as there is no /dev/psaux ??
+2006-06-11T16:14:00.000Z	Samus_Aran	viyyer	just use /dev/input/mice and it will use all available mice
+2006-06-11T16:15:00.000Z	Samus_Aran	viyyer	/dev/input/mice is a special device which combines all mice into a single device.  this way if you plug a USB mouse in while in X, it will just appear onscreen immediately, no restart needed

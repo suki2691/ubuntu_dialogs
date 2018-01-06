@@ -1,0 +1,4 @@
+2010-03-22T15:07:00.000Z	Peanut		Hi - I've got a 9.10 machine that does DHCP, and NFS mounts /home. This works - but now that I changed the machine to a fixed IP, it doesn't complete booting, complaining that it cannot mount /home. The IP address hasn't changed. Sometimes the boot still does complete, which is even stranger.. any suggestions?
+2010-03-22T15:07:00.000Z	Peanut		And now it dropped me into the maintenance shell
+2010-03-22T15:07:00.000Z	theadmin	Peanut	fsck that /home part
+2010-03-22T15:07:00.000Z	Peanut	theadmin	/home is on NFS, can't fsck that.

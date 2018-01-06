@@ -1,0 +1,4 @@
+2005-12-16T16:51:00.000Z	JonasNorman		anyone know how to require a user to press 'return' to continue in a bash script
+2005-12-16T16:52:00.000Z	sethk	JonasNorman	put on a line by itself, read
+2005-12-16T16:52:00.000Z	sethk	JonasNorman	that will wait for a line, which can be just enter.  waiting for a single character is difficult in a shell script.
+2005-12-16T16:52:00.000Z	sethk	JonasNorman	if you really need to do that, use a different language.

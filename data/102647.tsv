@@ -1,0 +1,4 @@
+2008-11-28T19:03:00.000Z	rww	bartmon	I just did sudo apt-get install libdvdread3 then sudo /usr/share/doc/libdvdread3/install-css.sh =/
+2008-11-28T19:06:00.000Z	bartmon	rww	I tried this again just now and there's some improvement! Now i get half garbage and half video. But i get a lot of CRC errors and full buffer errors in mplayers debug output
+2008-11-28T19:07:00.000Z	rww	bartmon	mplayer confused the heck out of me, so I ended up using VLC. Even then, it only worked well if I told it not to use DVD menus and to cache about 3s in advance.
+2008-11-28T19:07:00.000Z	rww	bartmon	from my experience, DVD playback in Linux is kidna... problematic

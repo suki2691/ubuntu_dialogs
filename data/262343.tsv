@@ -1,0 +1,4 @@
+2005-04-19T10:40:00.000Z	paygiant		where can I go to learn how to compile the kernal for my machine?
+2005-04-19T10:41:00.000Z	saw27	paygiant	install the "kernal-package" package and then read the docs in /usr/share/doc/kernel-package/README.gz
+2005-04-19T10:43:00.000Z	saw27	paygiant	you'll find the packaged kernel source in "linux-source-*" package
+2005-04-19T10:44:00.000Z	saw27	paygiant	and the .config that was used to make the linux-image package is in the linux-headers- package that matches it.

@@ -1,0 +1,4 @@
+2007-04-03T14:02:00.000Z	brainiac8008		i have 6.06 dapper and would like to upgrade to feisty fawn when it comes out.  I read that you must upgrade to edgy first and then upgrade to feisty.  Is this safe to do?  Will I lose any configuration settings?  How exactly do I do this?
+2007-04-03T14:04:00.000Z	ale1	brainiac8008	go into /etc/apt and open sources.list, change every instance of dapper to edgy, and then run sudo apt-get update, sudo apt-get upgrade, sudo apt-get dist-upgrade
+2007-04-03T14:06:00.000Z	ale1		thanks, knew it something simple
+2007-04-03T14:08:00.000Z	brainiac8008	ale1	i checked the ubuntu website and it said that i should use gksu "update-manager -c" instead of what u said and that gksu "update-manager -c" is much more reliable.  Do you know of this?

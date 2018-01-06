@@ -1,0 +1,4 @@
+2007-04-19T09:56:00.000Z	peanutb		anyone know where shutdown errors are located (such as why a computer shuts down by itself)?
+2007-04-19T09:56:00.000Z	micahcowan	peanutb	did it shut down gracefully, or just power down hard?
+2007-04-19T09:57:00.000Z	peanutb	micahcowan	somewhat gracefully (x just quit) but then regulary
+2007-04-19T09:59:00.000Z	micahcowan	peanutb	it really shouldn't do that unless you've /asked/ it to. You're sure nothing was pressed up against the computer's power button, right? ...if there was an unusual event that would cause that, it'd probably be in /var/log/syslog.

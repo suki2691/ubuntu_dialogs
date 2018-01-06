@@ -1,0 +1,4 @@
+2007-02-27T17:02:00.000Z	Mach3		I have to register (by MAC addr) to get on the network at my school.  But i've learned that linux gives a different ip address than windows.  Any way i can set it to be the same, so that i dont have to re-register everytime i switch OSs?
+2007-02-27T17:02:00.000Z	orionrobots	Mach3	Is this a static or dhcp address?
+2007-02-27T17:03:00.000Z	orionrobots	Mach3	If windows is using a static address, then chances are you should set it up the same way in linux.
+2007-02-27T17:05:00.000Z	orionrobots	Mach3	DHCP addresses are by their nature changing. If you take a box, get it to acquire an IP via DHCP, then reboot it and do the same, you may get a different IP. The MAC should be the same.

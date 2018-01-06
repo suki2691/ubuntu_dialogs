@@ -1,0 +1,4 @@
+2012-08-13T22:19:00.000Z	Shadow`		ext has no fragmenting, so lotsa wasted space easily with lotsa small files
+2012-08-13T22:19:00.000Z	kyle__	Shadow`	Err, ext can fragment, it's just more resilliant, and less likely to fragment.
+2012-08-13T22:20:00.000Z	kyle__	Shadow`	And the "wasted space" is about block size.  It's something that can be tuned at filesystem creation time.
+2012-08-13T22:21:00.000Z	kyle__	Shadow`	It does.  But unless you're really really squeezed for space/performance, it's not worth sweatting over :)

@@ -1,0 +1,4 @@
+2012-08-07T12:30:00.000Z	ubuntu-guest1221		in what way do Firefox builds from mozilla ftp differ from Firefox Ubuntu builds?
+2012-08-07T12:30:00.000Z	ubuntu-guest1221		I can reproduce an issue in 14.0.1 on mozilla's 14.0.1 build which I can't on the same version from Ubuntu
+2012-08-07T12:31:00.000Z	TJ-	ubuntu-guest1221	that suggests that the mozilla bundles system libraries that the ubuntu system provides for its own build
+2012-08-07T12:36:00.000Z	TJ-	ubuntu-guest1221	Our firefox package depends on libgdk-pixbuf2.0-0, which depends on librsvg2-2

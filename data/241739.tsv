@@ -1,0 +1,4 @@
+2005-04-17T13:54:00.000Z	dhonn		I am use to fedora: yum -y update,  how do I do the same with apt?
+2005-04-17T13:56:00.000Z	dhonn		i need some automation
+2005-04-17T13:57:00.000Z	jeramy_	dhonn	apt-get update apt-get -y upgrade
+2005-04-17T13:57:00.000Z	jeramy_	dhonn	and if you're moving to a new version of something (like Warty to Hoary) use dist-upgrade

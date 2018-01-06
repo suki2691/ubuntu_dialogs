@@ -1,0 +1,4 @@
+2005-07-31T11:04:00.000Z	liran_		uhmm, i just added repositories to ubuntu5.04 hoary in synaptic and marked some software for installation but it failed downloading it from the repositories and asked for the cdrom
+2005-07-31T11:04:00.000Z	liran_		first error is this (any idea anyone?): W: Failed to fetch http://security.ubuntu.com/ubuntu/pool/main/z/zlib/zlib1g_1.2.2-4ubuntu1.2_i386.deb
+2005-07-31T11:05:00.000Z	frank	liran_	I think its talking about wget so try apt-get update
+2005-07-31T11:05:00.000Z	frank	liran_	you can click the update button from synaptic if you want

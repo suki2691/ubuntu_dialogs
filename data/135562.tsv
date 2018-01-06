@@ -1,0 +1,4 @@
+2007-05-04T13:29:00.000Z	WesLappy		What is command/program responcible for what runs on startup? I know ifup/down but I want to disable eth0 from running on startup and enable another.
+2007-05-04T13:29:00.000Z	Answer	WesLappy	in /etc/network/interfaces,  remote the section "auto eth0" and it will not startup automatically
+2007-05-04T13:30:00.000Z	WesLappy	Answer	how to I add/remove scripts from the init.d process?
+2007-05-04T13:31:00.000Z	Answer	WesLappy	look in /etc/rcS.d

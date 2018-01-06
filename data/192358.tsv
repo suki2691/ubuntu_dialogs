@@ -1,0 +1,4 @@
+2007-12-11T19:52:00.000Z	andres_		question Im using gcc to compile a c program that uses execl() but the compiler it gives me an error in my local machine warnng :myforkexec.c:18: warning: incompatible implicit declaration of built-in function ‘execl’,.. but if i run the same program on a server using unix it works thats anyone have a clue about this???
+2007-12-11T19:54:00.000Z	kling0n	andres_	same version of gcc?
+2007-12-11T19:58:00.000Z	kling0n	andres_	try running gcc --version on both machines
+2007-12-11T19:58:00.000Z	kling0n	andres_	perhaps your program wont compile with gcc4x so you could try gcc3x

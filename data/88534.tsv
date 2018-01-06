@@ -1,0 +1,4 @@
+2009-01-05T23:24:00.000Z	omnydevi		hmm, what is the difference from apt-get remove and apt-get purge?
+2009-01-05T23:24:00.000Z	ASULutzy	omnydevi	remove just removes the program, purge removes the program and its config files I believe
+2009-01-06T02:57:00.000Z	ASULutzy	omnydevi	lzantal: You can create a raid 1 without erasing
+2009-01-06T03:02:00.000Z	ASULutzy	omnydevi	Well, you didn't really give bad info... There isn't really a simple or normal way to create a RAID1 without destroying the partitions of both disks... This way works, but what you're basically doing is tricking mdadm into rebuilding a broken array

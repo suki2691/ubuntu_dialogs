@@ -1,0 +1,4 @@
+2008-11-30T16:22:00.000Z	Guest59572		i just installed ubuntu 8.10, and it's crashing almost immediately after i log in, this started happening after i enabled desktop effects and i think that this is what is causing it. how can i disable desktop effects in terminal? or any other ideas?
+2008-11-30T16:23:00.000Z	rww	Guest59572	perhaps remove the relevant packages with sudo apt-get remove --purge compiz-core desktop-effects
+2008-11-30T16:26:00.000Z	Guest59572	rww	i tried that, and now when it crashets instead of sitting in some command window, it goes back to the login screen
+2008-11-30T16:31:00.000Z	Guest59572	rww	thanks

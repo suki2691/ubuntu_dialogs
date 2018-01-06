@@ -1,0 +1,4 @@
+2008-08-09T20:37:00.000Z	liz1		Hi, I've just installed ubuntu 8.04 on my computer but I can't connect to the internet. I can ping my laptop but nothing outside e.g. google. I've given myself an IP-adress using ifconfig. Can anybody help me please?
+2008-08-09T20:38:00.000Z	linxeh	liz1	you need to set a gateway / router IP
+2008-08-09T20:40:00.000Z	linxeh	liz1	try route -n
+2008-08-09T20:40:00.000Z	linxeh	liz1	you should have a line with a "UG" as the flags

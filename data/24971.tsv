@@ -1,0 +1,4 @@
+2010-10-03T07:27:00.000Z	jtduncan		is there a way to compile and install ffmpeg myself without having aptitude clobber it or throw up when installing something that depends on libavcodec52 or whatnot?
+2010-10-03T07:27:00.000Z	p_res	jtduncan	I recently installed ffmpeg via aptitude and never got such issues.
+2010-10-03T07:29:00.000Z	jtduncan	p_res	if I install ffmpeg and libavcodec/libavformat/etc. via ffmpeg, then there is no problem....., however, if i install ffmpeg and the associated libraries from source, then installing, say mplayer, from the repositories is going to throw up saying i don't have yaddyyaaddy libraries
+2010-10-03T07:31:00.000Z	p_res	jtduncan	I just installed all from the repos along with the ffmpeg gui winff. All working fine here.

@@ -1,0 +1,4 @@
+2011-06-24T17:00:00.000Z	hammoommah		if im using cheap terminals with itsp server should i put ubuntu server edition on server or will desktop edition work?
+2011-06-24T17:01:00.000Z	hammoommah		and if i put server edition on can i use as client pc at same time?
+2011-06-24T17:03:00.000Z	leagris	hammoommah	server version install a specific kernel and some different default packages but it is perfectly usable as a desktop or client
+2011-06-24T17:09:00.000Z	leagris	hammoommah	the server kernel has different optimizations turned on, manage bigger memory sizes, has enabled support for hosting virtual hosts, may not provide realtime interaction with gui because of different scheduler settings. You may not notice the difference by the way.

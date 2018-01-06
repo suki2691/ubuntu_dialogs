@@ -1,0 +1,4 @@
+2011-03-01T22:55:00.000Z	noob645		Hi anybody know what the best way to install drupal on ubuntu?
+2011-03-01T22:55:00.000Z	tonyyarusso	noob645	It's in the repos, but I find it better to just install from the tarball.
+2011-03-01T22:57:00.000Z	tonyyarusso	noob645	Additionally, I like to keep my sites directory separate and just symlink it, so there's less work to do when upgrading between drupal versions and permissions can be set differently, etc.
+2011-03-01T22:58:00.000Z	tonyyarusso	noob645	iceroot: You can also install the Nagios Monitoring plugin for Drupal, set up Nagios, and get an e-mail and/or SMS alert when security updates are available.

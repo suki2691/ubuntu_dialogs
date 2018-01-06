@@ -1,0 +1,4 @@
+2009-02-14T01:31:00.000Z	yalu		Hi! good evening. I have a small problem here with an ubuntu installation. I upgraded from 2.6.24 to 2.6.27 kernel and the system does not want to boot with the .27 kernel. My root is on LVM. It says 'waiting for root file system' and keeps waiting forever. frub config is fine, but I examined the differences between the initrd files and from the .27's initrd the whole directory of kernel/drivers/ide is missing.
+2009-02-14T01:31:00.000Z	yalu		How could that come?
+2009-02-14T01:33:00.000Z	Evilrick	yalu	check the .27 kernel for nfs and ip support?
+2009-02-14T01:35:00.000Z	yalu	Evilrick	nfs, why nfs? I said root on lvm, not nfs. btw, it's a distribution kernel

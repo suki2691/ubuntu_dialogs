@@ -1,0 +1,4 @@
+2012-10-12T10:05:00.000Z	atrius		stupid question time... is there any way to install skype on a 64bit machine and not trigger over 200 dependencies?
+2012-10-12T10:07:00.000Z	crizis	atrius	why it's strange? unless you have KDE installed, you're likely missing Qt and all the stuff related to it (skype is a QT app
+2012-10-12T10:08:00.000Z	atrius	crizis	true.. so i'd expect QTish dependencies.. but not 200+ i386 packages, no?
+2012-10-12T10:15:00.000Z	atrius	crizis	that's what i'm thinking given what happens when you try and install it via regular dpkg

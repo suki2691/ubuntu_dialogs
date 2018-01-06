@@ -1,0 +1,4 @@
+2007-06-27T05:54:00.000Z	qos		hey guys ... can someone tell me if there is something strange with the following line: "Mem:    515504k total,   511700k used,     3804k free,     8808k buffers" its a bit few free memory out there, huh?
+2007-06-27T05:55:00.000Z	thedonvaughn	qos	free memory is wasted memory.
+2007-06-27T05:57:00.000Z	qos	thedonvaughn	why is it wasted memory?
+2007-06-27T05:58:00.000Z	thedonvaughn	qos	because if memory is being used or in buffer doesn't mean it's not available to other applications.  The OS is constantly swapping out pages of ram to other applications etc.  so free ram is not being used by anything... just wasted

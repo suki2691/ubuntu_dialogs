@@ -1,0 +1,4 @@
+2008-05-31T01:52:00.000Z	moonyloony		i can't see my NTFS partition?help pls...
+2008-05-31T01:54:00.000Z	moonyloony		how can i mount my ntfs partition ?:(
+2008-05-31T01:55:00.000Z	moonyloony		more specific
+2008-05-31T01:56:00.000Z	Jack_Sparrow	moonyloony	sudo fdisk and verify the partition you want to mount... sudo mkdir /media/Descriptive_Name_for_Mount... gksudo gedit /etc/fstab and add /dev/sda(x)              /media/sda5-ntfs     ntfs-3g users,auto,uid=1000,gid=100,umask=007 0 0        then mount -a to re-read your fstab settings.  Note.. disable any previous mounts in your fstab pointing to the same drive/partition

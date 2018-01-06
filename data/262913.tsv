@@ -1,0 +1,4 @@
+2007-03-10T12:06:00.000Z	lkthomas		guys
+2007-03-10T12:07:00.000Z	lkthomas		I found something interesting, dmesg found my e100 eth0 card, but when I try ifconfig eth0, it said device not found
+2007-03-10T12:07:00.000Z	lkthomas		anyone got idea ?
+2007-03-10T12:07:00.000Z	t35t0r	lkthomas	ifconfig -a | more

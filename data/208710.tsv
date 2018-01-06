@@ -1,0 +1,4 @@
+2010-09-03T14:14:00.000Z	bisserke		hi. got a question... how come multicast is working on ubuntu without a multicast route in place?
+2010-09-03T14:14:00.000Z	bisserke		route does not show a 224.0.0.0 route...
+2010-09-03T14:16:00.000Z	PresuntoRJ	bisserke	its a avahi/bonjour trick... every ubuntu talks to local networks via host.local address thanks to this multicast sessions
+2010-09-03T14:17:00.000Z	PresuntoRJ	bisserke	check ehterape (a GUI for read network protocols) and you will find them

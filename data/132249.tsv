@@ -1,0 +1,4 @@
+2010-07-01T20:17:00.000Z	johnm1019		I edited my /etc/motd file but my SSH post-login banner is still the same jazz with the system load stats etc.... what else do I need to do to prevent all that system load stuff from being auto-generated as my post-login ssh message?
+2010-07-01T20:17:00.000Z	johnm1019		I'm running ubuntu-server latest
+2010-07-01T20:18:00.000Z	bastid_raZor	johnm1019	look in /etc/update-motd   several files there may need -x
+2010-07-01T20:18:00.000Z	johnm1019	bastid_raZor	thx

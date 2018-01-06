@@ -1,0 +1,4 @@
+2009-03-17T01:49:00.000Z	angasule		hi, I've installed ubuntu 8.10 on a computer with a realtek 8139C (or C+? not sure), when the ethernet cable is connected ubuntu tries to connect but fails (I called dhclient manually and it also failed), I tried configuring it manually but it doesn't seem to reach the network...
+2009-03-17T01:50:00.000Z	guntbert	angasule	is there a dhcp server in your network?
+2009-03-17T01:50:00.000Z	angasule	guntbert	yes, and it works fine
+2009-03-17T01:58:00.000Z	guntbert	angasule	you will need to use mii-tool with sudo, I guess

@@ -1,0 +1,4 @@
+2005-05-26T07:18:00.000Z	Mahl		Whats the command into making a bunch of files into an ISO file?
+2005-05-26T07:18:00.000Z	crimsun_	Mahl	man mkisofs
+2005-05-26T07:20:00.000Z	crimsun_	Mahl	presuming you have a subdir foo/ containing the files, % mkisofs -o foo.iso -R -J foo/
+2005-05-26T07:21:00.000Z	crimsun_	Mahl	be careful with -R and -J (rock ridge and joliet)

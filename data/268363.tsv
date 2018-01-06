@@ -1,0 +1,4 @@
+2006-07-04T11:50:00.000Z	tibbe		what's a recommended split of a 40gb laptop hard drive if I want a separate /home?
+2006-07-04T11:52:00.000Z	tibbe		and why does the default layout put swap in hda5 instead of hda2 right after / which is at hda1?
+2006-07-04T11:53:00.000Z	tibbe		also, should I check round to cylinders when making partitions?
+2006-07-04T11:54:00.000Z	sladen	tibbe	probably 10G root, 30G home

@@ -1,0 +1,4 @@
+2011-11-22T14:40:00.000Z	nardul		Morning. When trying to boot a server i moved from OpenVZ to KVM, it hangs right after "Settings console screen modes and fonts". If i press enter, it keeps booting and works fine. Tihs is 10.4. Does anyone have an idea of where to start debugging?
+2011-11-22T14:42:00.000Z	susundberg	nardul	sounds weird. I might look at the logs and try too boot it with no framebuffer, but i have no real clue what is going on there ..
+2011-11-22T14:42:00.000Z	nardul	susundberg	Neither do i. How do i disable the framebuffer?
+2011-11-22T14:43:00.000Z	susundberg	nardul	kernel boot parameters, i do not unfortunately recall what was the name. I am sure you can google it

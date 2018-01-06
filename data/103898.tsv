@@ -1,0 +1,4 @@
+2010-07-27T04:26:00.000Z	rabbit_		What's wrong with this?- ---> for i in *.flv; do ffmpeg -i "$i" -f mp3 -vcodec libxvid -acodec libfaac -ar 22050 `basename $i .flv`-`date +%H%M%S%N`.mp3; done
+2010-07-27T04:26:00.000Z	rabbit_		i get this error: Unknown encoder 'libfaac' (i installed it)
+2010-07-27T04:26:00.000Z	rabbit_		do i need to restart to get libfaac to work maybe
+2010-07-27T04:27:00.000Z	ActionParsnip	rabbit_	http://ubuntuforums.org/showthread.php?t=1422050

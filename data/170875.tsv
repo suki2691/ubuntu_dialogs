@@ -1,0 +1,4 @@
+2007-02-17T07:04:00.000Z	DJNOVA2006		my screen res has only one option in 6.10, i only get 640*480 how can i increase it? Is there a driver out there? Its just a standard graphics card built into the motherboard
+2007-02-17T07:06:00.000Z	DARKGuy	DJNOVA2006	try running "sudo dpkg-reconfigure xorg-xserver", following the instructions there will help you to choose other resolutions (it will be best to do it out of X, inside a tty terminal)
+2007-02-17T07:06:00.000Z	DARKGuy	DJNOVA2006	erm, sudo dpkg-reconfigure xserver-xorg
+2007-02-17T07:09:00.000Z	DARKGuy	DJNOVA2006	Welcome ^^ that's easy, control + alt + F1 through F6 IIRC

@@ -1,0 +1,4 @@
+2007-01-13T12:30:00.000Z	bcardarella		If I define a VirtualHost in Apache to be at another port (i.e. :8080) does Apache open this port for me or do I have to open the port myself?
+2007-01-13T12:31:00.000Z	omarkj	bcardarella	If port 8080 is blocked by a firewall you'll have to unblock it.
+2007-01-13T12:37:00.000Z	omarkj	bcardarella	You're probably just using iptables to block the port, I have no idea if Ubuntu blocks some ports by default but the way to open 8080 TCP traffic to anyone via iptables is by writing iptables -p tcp -sport 8080 -j ACCEPT
+2007-01-13T12:42:00.000Z	omarkj	bcardarella	http://httpd.apache.org/docs/2.0/vhosts/examples.html here you can see how to correctly configure your virtualhost to listen on another port then the default one specified in httpd.conf

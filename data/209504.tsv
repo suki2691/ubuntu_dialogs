@@ -1,0 +1,4 @@
+2007-05-29T10:48:00.000Z	rainbowsdonthide		can I pull up the terminal and "sudo fsck -f" well I just keep working on other stuff, is that safe?
+2007-05-29T10:50:00.000Z	LjL	rainbowsdonthide	no, the partition must be unmounted for fsck to fix errors.
+2007-05-29T10:52:00.000Z	LjL	rainbowsdonthide	i'm not sure that's the right filename to touch. anyway, if the system is convinced that the FS is clean, it won't really check it
+2007-05-29T10:52:00.000Z	LjL	rainbowsdonthide	reboot in recovery mode, remount root as read-only (mount / -o remount,ro) and force the fsck, if you really want it to check it

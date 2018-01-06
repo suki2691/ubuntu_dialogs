@@ -1,0 +1,4 @@
+2007-02-15T08:36:00.000Z	Peacer		I have troubles dualbooting, wanted to sneak in a windows partition into my ubuntu partition, I did but can't boot windows now... help anyone?
+2007-02-15T08:36:00.000Z	Peacer		not the bot :|
+2007-02-15T08:37:00.000Z	Peacer		thank you ^^ didn't think that would work though *shrugs* simpler than I thought <.<
+2007-02-15T08:37:00.000Z	erUSUL	Peacer	add an "stanza" to boot windows in your /boot/grub/menu.lst there is an example in the coments of the file. maybe a simple 'sudo update-grub' could do the trick

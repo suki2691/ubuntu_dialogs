@@ -1,0 +1,4 @@
+2012-05-06T02:48:00.000Z	MirkoKa	viejotren	on 12.04 (and I'm pretty sure on 10.04 too) adding to /etc/environment should work. do the env vars don't show up after relogin or do the internet programs (browser, mail, etc) not work
+2012-05-06T02:56:00.000Z	MirkoKa	viejotren	no need for export in /etc/environment, but it seems that firefox (maybe other GUI browsers) doen't recognize the http_poxy var, try removing the export from the file and if that doesn't work, use your browsers settings to specify the proxy
+2012-05-06T03:00:00.000Z	MirkoKa	viejotren	chromium seems to not honor the var as well, what message do you get when using its own configuration?
+2012-05-06T03:11:00.000Z	MirkoKa	viejotren	did you really used the Manual method and have added the proxy url in the various entries? don't use the Automatic method and don't add the :port to the url, but give the port in the fields next to it

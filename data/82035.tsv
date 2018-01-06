@@ -1,0 +1,4 @@
+2010-07-13T17:58:00.000Z	dlublink		Running Ubuntu 10.04 server, I added a script to /etc/network/if-up.d/, I made it executable ( chmod a+x myscript ), the trouble is my script is not being run when ppp0 comes up. Is there something I am missing ?
+2010-07-13T17:59:00.000Z	llutz	dlublink	shouldn't it be places at /etc/ppp/ip-up.d/ ?
+2010-07-13T17:59:00.000Z	llutz		placed*
+2010-07-13T18:01:00.000Z	dlublink	llutz	=> Thanks, you are right. I moved the script to the said directory and the script runs. thanks!

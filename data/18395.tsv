@@ -1,0 +1,4 @@
+2011-04-29T18:32:00.000Z	roeland		hey fellas, i got an ubuntu box (through Linode) and it keeps randomly getting stuck at 100% cpu usage (400% actually?). i am unable to pull up the site , or access the console (via putty) the only way to fix it is to log into the linode web manager and reboot it.
+2011-04-29T18:33:00.000Z	roeland		what are some things i could do to diagnose this
+2011-04-29T18:33:00.000Z	Incarus6	roeland	400%? Do you use a quad core computer?
+2011-04-29T18:35:00.000Z	Incarus6	roeland	sure all 4 kernels are at 100%? Usually when a process hangs my computer just one core is affected (100%) -> 25% of all cores and the system is still usable. Do you use the 64bit version?

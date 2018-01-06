@@ -1,0 +1,4 @@
+2007-01-02T17:53:00.000Z	NET||abuse		hey guys,,, from a fairly default setup, no X, just terminal,, how do i add ~/bin/ to $PATH for all users? including root?
+2007-01-02T17:54:00.000Z	NET||abuse		i'm looking into ~/.bashrc for each user, or into /etc/bash.bashrc ,, and i'm not sure how to right the line in to do it
+2007-01-02T17:55:00.000Z	arrenlex	NET||abuse	This line works for me. Maybe it will help you. export PATH=$PATH:$HOME/base/mine/bin
+2007-01-02T17:55:00.000Z	NET||abuse	arrenlex	thanks

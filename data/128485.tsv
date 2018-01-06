@@ -1,0 +1,4 @@
+2007-08-21T07:37:00.000Z	gsevil		as default, in recovery mode, ubuntu auto login as root, so funny, how can I make it require login?
+2007-08-21T07:37:00.000Z	jrib	gsevil	why?
+2007-08-21T07:40:00.000Z	gsevil	jrib	at boot grub menu, you have option to run in recovery mode, it auto login as root, and you can do anything with root, without a passwords, how can I make ubuntu request login?
+2007-08-21T07:42:00.000Z	jrib	gsevil	yes, why do you want it to request a password?  Anyone with physical access can do whatever they want anyway.  If you set a root password, it will prompt for that password.  But you can edit the grub menu too by pressing 'e' and then get to a shell with root permissions anyway.  If you stop that, then you can put a live cd in your drive and do wahtever you want.  So you set a bios password, then they can remove your hard drive and do whatever they wa

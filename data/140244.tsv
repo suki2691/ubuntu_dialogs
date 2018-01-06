@@ -1,0 +1,4 @@
+2009-07-28T17:50:00.000Z	elementz_		ho can i add a line to a textfile, eg: echo line1 > foo.txt, now how do i get echo to write to the second line? i tried via echo -e \n fooline2 > myfile.txt but that did not work
+2009-07-28T17:50:00.000Z	jrib	elementz_	>>
+2009-07-28T17:51:00.000Z	elementz_	jrib	that simple, hrmpf, thx
+2009-07-28T17:51:00.000Z	jrib	elementz_	yep, >> appends

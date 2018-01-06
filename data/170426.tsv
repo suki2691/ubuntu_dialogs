@@ -1,0 +1,4 @@
+2006-11-14T13:34:00.000Z	Dralid		Where should program files be placed? In windows they were located at the convenient "Program Files" folder. Is there an equivalent in linux?
+2006-11-14T13:35:00.000Z	w30	Dralid	If you are installing a tar file and compiling I recomment mkdir /usr/local/newprogramname and put it in there.
+2006-11-14T13:37:00.000Z	Dralid	neildarlow	no deb package exists for the program I'm trying to install. (Stepmania)
+2006-11-14T13:38:00.000Z	w30	Dralid	most programs do some placing of their own when installed, A .deb program does all of it placing and you can throw away the .deb after install if you don't want a copy of the installer file

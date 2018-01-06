@@ -1,0 +1,4 @@
+2008-01-23T15:21:00.000Z	CosmicBat		hmm, does anybody know howto run fsck on / without rescue cd or rebooting ? like doing 'init s' but howto remount / in ro mode ?
+2008-01-23T15:21:00.000Z	CosmicBat		umount /dev/sda1 doesn't work (?) (sda1 is my root partition)
+2008-01-23T15:22:00.000Z	icesword	CosmicBat	you cannot umount / ,when system is still running
+2008-01-23T15:25:00.000Z	CosmicBat	icesword	okay cheers :) but I can remount it it seems, 'cause I just did 'mount -fr -o remount / ' and 'mount' now tells me / is ro, and I can run fsck

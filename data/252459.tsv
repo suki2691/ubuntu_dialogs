@@ -1,0 +1,4 @@
+2007-09-01T14:32:00.000Z	CyberCod		can anyone tell me how to find out what the /dev location is of a usb device?
+2007-09-01T14:33:00.000Z	velko	CyberCod	sfdisk -l
+2007-09-01T14:33:00.000Z	velko	CyberCod	sorry "sudo sfdisk -l"
+2007-09-01T14:36:00.000Z	velko	CyberCod	i have no experience with irda but you may try "sudo lsusb -v" and look at the system log after plugging the device

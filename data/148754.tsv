@@ -1,0 +1,4 @@
+2007-03-16T16:08:00.000Z	kaso		What's the command to see which process is using a certain file? (thus locking it)
+2007-03-16T16:08:00.000Z	jrib	kaso	fuser
+2007-03-16T16:10:00.000Z	kaso	jrib	and what does it mean if i do fuser /var/lib/apt/lists/lock and nothing is returned, why is it still locked if noone is using it? and how can i unlock it
+2007-03-16T16:11:00.000Z	jrib	kaso	do you have synaptic or update-manager open?  Or some other apt or dpkg process running?

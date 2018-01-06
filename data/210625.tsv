@@ -1,0 +1,4 @@
+2005-10-27T07:10:00.000Z	jason0_		Installed breezy on a ibm thinkpad t22, everything seems to work but the NIC. It appears to be recognized (eth0, etc) but DHCP fails. The connection works fine with my desktop. Could this be an IPV6 issue?
+2005-10-27T07:11:00.000Z	Severian	jason0_	I had a similar problem with Hoary on two Thinkpads, an A20M and a T21.  I just put pcmcia nics in both.  I may try the T21 tonight with Breezy.
+2005-10-27T07:13:00.000Z	jason0_	Severian	I don't have wireless, I guess this is an excuse to go pickup some hardware
+2005-10-27T07:17:00.000Z	Severian	jason0_	That is normally a good nic, that is well supported.  But the mini-pci one in ThinkPads are problematic.  At the time I first st mine up, I did some research and a lot of people had similar problems.  Some could get around it by adding a kernael boot parameter of NOAPIC.  That fix worked intermittently for me.

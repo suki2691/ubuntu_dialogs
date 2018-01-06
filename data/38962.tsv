@@ -1,0 +1,4 @@
+2010-01-16T03:09:00.000Z	TimoH		Hi there! I spent most of my week to move one of our projects from several servers (Apple XServe & Linux) into one VMWare Server 2.0.2 VM using Ubuntu Server 9.10 64bit. Everything is working now, but the file systems are not unmounting properly on shutdown. On every startup I get msgs from fsck. Not sure where to start.
+2010-01-16T03:10:00.000Z	acicula	TimoH	you are rebooting the VMware server or?
+2010-01-16T03:11:00.000Z	TimoH	acicula	no, that would be too easy... :) I'm rebooting the VM.
+2010-01-16T03:12:00.000Z	acicula	TimoH	the guests being shutdown before the machine has finished shutting down then i guess, wouldnt know why though

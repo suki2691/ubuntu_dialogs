@@ -1,0 +1,4 @@
+2006-07-02T05:55:00.000Z	Sanne	jrattner1	you would need to have some source repositories in your /etc/apt/sources.list, so synaptic can fetch source packages.
+2006-07-02T05:56:00.000Z	jrattner1	Sanne	should i put those CVS lines in my sources?
+2006-07-02T05:58:00.000Z	Sanne	jrattner1	take a look at /etc/apt/sources.list with an editor like gedit, you will see some lines beginning with #deb-src in it. Remove those '#' signs to activate them (make a backup of the file first)
+2006-07-02T05:59:00.000Z	Sanne	jrattner1	you might also be able to activate the source repositories from within synaptic.

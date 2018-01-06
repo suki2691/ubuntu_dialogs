@@ -1,0 +1,4 @@
+2011-08-03T14:08:00.000Z	Joelio		Hi, is there a way to set the permissions of a tar (the acutal tar, not the contents) at creation time, rather than chmodding after creation?
+2011-08-03T14:09:00.000Z	MrCoffeeTV	Joelio	From my experience, the files should have the same permissions going into the archive...
+2011-08-03T14:10:00.000Z	MrCoffeeTV		So, I think the only way you can get it to work, is to change permissions on each file beforehand.
+2011-08-03T14:10:00.000Z	Joelio	MrCoffeeTV	Ok, I'll give it a try.

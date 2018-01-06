@@ -1,0 +1,4 @@
+2006-06-20T11:07:00.000Z	Pxtl_		So anyways, I've been playing more with getting my old Voodoo2 to work, and I've found a few things: 1) libglide3 is b0rked.   When I tried to use a 3dfx mesa lib that depends on libglide3, it complained that libglide3 contained a __LINE__ symbol.
+2006-06-20T11:09:00.000Z	Pxtl_		Is there a hotkey to shut down Xorg?
+2006-06-20T11:10:00.000Z	Pxtl_		Anybody konw how to shut down xorg when I've borked it?
+2006-06-20T11:10:00.000Z	dingus9	Pxtl_	ctrl alt f1 then killall gdm or xorg or kdm depending on your setup

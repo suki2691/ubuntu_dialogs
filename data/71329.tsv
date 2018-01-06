@@ -1,0 +1,4 @@
+2008-12-15T01:38:00.000Z	mrjohnsen		Hi guys! My gateway has two interfaces. One with dhcp which deliver inet connection. the other for sharing on the local network (static ip). I also have a dns server on the local network. How can i get the gateway to use my local dns server? dhcp for eth1 just overwrites resolv.conf
+2008-12-15T01:38:00.000Z	ActionParsnip	mrjohnsen	add its ip in /etc/resolv.conf
+2008-12-15T01:39:00.000Z	mrjohnsen	ActionParsnip	dhcp on eth1 removes it on every boot up
+2008-12-15T01:39:00.000Z	ActionParsnip	mrjohnsen	add it to the data the dhcpd kicks out ;)

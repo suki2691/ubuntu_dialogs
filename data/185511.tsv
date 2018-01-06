@@ -1,0 +1,4 @@
+2009-12-30T10:08:00.000Z	effthis		if i suspend my netbook with unr via the menu i am prompted for a password when i resume.  when i suspend by closing the lid (confirmed via power mgmt) it doesn't prompt.  the prompt doesn't concern me, but i'm hemorrhaging battery life with a closed lid and i'm wondering if it's suspending at all.
+2009-12-30T10:10:00.000Z	effthis		anyone aware of split password-on-resume behavior depending on the way suspend was initiated?
+2009-12-30T10:12:00.000Z	angelus	effthis	yes, if you do $pmi action suspend, it wont ask you for a password
+2009-12-30T10:13:00.000Z	angelus	effthis	i like to do $ pmi action suspend && gnome-screensaver-command --lock

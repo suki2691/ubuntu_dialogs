@@ -1,0 +1,4 @@
+2008-10-09T16:20:00.000Z	AussieGuy		hi, I have a weird error... as root (sudo) ....   sudo ls > output/delete-me
+2008-10-09T16:20:00.000Z	AussieGuy		-bash: output/delete-me: Permission denied
+2008-10-09T16:22:00.000Z	jrib	AussieGuy	redirection is being done as your user since that is who your shell is being run by.  Do this instead:  ls | sudo tee output/delete-me   .  Though I hope you are really trying to do something else as it would make more sense to just redirect the output somewhere in your HOME instead of using sudo
+2008-10-10T03:47:00.000Z	jrib	AussieGuy	vim-nox

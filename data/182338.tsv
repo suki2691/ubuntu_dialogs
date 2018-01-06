@@ -1,0 +1,4 @@
+2009-10-02T19:05:00.000Z	spitzi1		Hi. I've installed a new HD in my PC, to which I'd like to clone my existing partitions. The BIOS shows the new HD, but CloneZilla doesn't seem to be aware of its existance. How can I check if Ubuntu sees it ?
+2009-10-02T19:07:00.000Z	spitzi1		Has my message reached the channel ? I don't know if nickserv allows me.
+2009-10-02T19:07:00.000Z	spitzi1		Oh, ok
+2009-10-02T19:09:00.000Z	stefg	spitzi1	it should be mentioned in dmesg ... dmesg | grep sd

@@ -1,0 +1,4 @@
+2011-09-30T09:21:00.000Z	jrgp		Where does natty store the UUID for the swap partition needed for hibernation resume?
+2011-09-30T09:21:00.000Z	ActionParsnip	jrgp	sudo blkid     will show it, if that's what you mean
+2011-09-30T09:22:00.000Z	jrgp	ActionParsnip	that isn't what I mean. I mean Ubuntu stores the location of the swap partition under /etc somewhere so it knows to look there upon resume.
+2011-09-30T09:23:00.000Z	jrgp	ActionParsnip	the config file this article references does not exist in natty. http://sites.google.com/site/lightrush/random-1/howtofixhibernateafterresizingswappartitiononubuntu

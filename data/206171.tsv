@@ -1,0 +1,4 @@
+2005-12-09T14:16:00.000Z	Michael		Can someone tell me how allow access to my other hard drive partitions?
+2005-12-09T14:17:00.000Z	lysis	Michael	sudo fdisk -l    tell the /etc/fstab what drives you want to mount
+2005-12-09T14:19:00.000Z	Michael	lysis	everything is already mounted, but it tells me I don't have permissions to access
+2005-12-09T14:20:00.000Z	lysis	Michael	try doing it as root with sudo. if you can access it that way, just simply change the permissions of that share

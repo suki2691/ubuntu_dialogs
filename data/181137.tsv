@@ -1,0 +1,4 @@
+2006-09-27T06:55:00.000Z	mikeo1		how do i get ubuntu to detect my keyboard correctly?
+2006-09-27T06:56:00.000Z	bruenig	mikeo1	select it in System>Preferences>Keyboard
+2006-09-27T06:56:00.000Z	bruenig	mikeo1	you could try sudo dpkg-reconfigure xserver-xorg and select it when you get to the keyboard part
+2006-09-27T06:59:00.000Z	bruenig	mikeo1	I am sure there is, you could edit the /etc/X11/xorg.conf

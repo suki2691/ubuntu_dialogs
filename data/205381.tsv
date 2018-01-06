@@ -1,0 +1,4 @@
+2008-11-01T21:34:00.000Z	messed-up		i installed 8.10.. i have problems getting my wifi card working. its a old broadcom uses chit 4306 i think. on a older kernel i used to have the bcm43xx driver installed. but now it seams want b43leagcy. i installed firmware. but it will not connect to any networks. anyideas?
+2008-11-01T21:34:00.000Z	dli_	messed-up	I think you want b43 ( the new driver)
+2008-11-01T21:36:00.000Z	dli_	messed-up	yes, just try, rmmod old one, and modprobe new one
+2008-11-01T21:38:00.000Z	dli_	messed-up	I found something on forum: http://ubuntuforums.org/showthread.php?p=6078027

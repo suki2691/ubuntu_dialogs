@@ -1,0 +1,4 @@
+2012-11-09T22:38:00.000Z	Tsubaki		how do I get the default Unity notifications back? I installed Gnome and XFCE4 and now its using Gnome notifications
+2012-11-09T22:39:00.000Z	trism	Tsubaki	the problem is probably xfce4-notifyd it can be a race to see who gets to be the daemon
+2012-11-09T22:39:00.000Z	trism	Tsubaki	if you remove that notify-osd should take over
+2012-11-09T22:40:00.000Z	trism	Tsubaki	sudo apt-get remove xfce4-notifyd;

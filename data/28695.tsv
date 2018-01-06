@@ -1,0 +1,4 @@
+2010-08-22T00:13:00.000Z	chrisd		Hi, does anyone know where apt-add-repository stores the repos it adds? For some reason all of my PPAs are giving 404s
+2010-08-22T00:13:00.000Z	chrisd		for example i get W: Failed to fetch http://ppa.launchpad.net/kholis/ppa/ubuntu/dists/lucid/main/binary-i386/Packages.gz  404  Not Found
+2010-08-22T00:13:00.000Z	chrisd		 -- but that's not where it should be anyway
+2010-08-22T00:15:00.000Z	splnet	chrisd	have you check /etc/apt/apt.conf.d ?

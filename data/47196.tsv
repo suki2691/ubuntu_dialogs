@@ -1,0 +1,4 @@
+2012-10-06T12:56:00.000Z	Woozie		alright, i'm back
+2012-10-06T12:57:00.000Z	Woozie		modprobe nvidia told me that it can't find module nvidia_current, rmmod nouveau told me it can't find nouveau in proc/modules and the error is the same.
+2012-10-06T12:58:00.000Z	llutz_	Woozie	"sudo depmod -a && modprobe -l nvid*"
+2012-10-06T13:01:00.000Z	llutz_	Woozie	"sudo depmod -a && modprobe -l nvid*"   does it llist nvidia_current ?

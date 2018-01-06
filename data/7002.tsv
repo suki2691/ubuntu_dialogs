@@ -1,0 +1,4 @@
+2012-01-10T20:57:00.000Z	Caifas		sudo find . -type f -print0 | xargs -0 md5sum > md5sum.txt
+2012-01-10T20:57:00.000Z	Caifas		bash: md5sum.txt: Permission denied
+2012-01-10T20:57:00.000Z	Caifas		what is wrong with this command guys?
+2012-01-10T20:59:00.000Z	yumbo	Caifas	ask in #bash

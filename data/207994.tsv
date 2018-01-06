@@ -1,0 +1,4 @@
+2005-11-16T10:37:00.000Z	DJHasis		Does anyone know how can I reset the root-pass cause when I installed breezy on my amd64 it didn't ask any pass for root
+2005-11-16T10:37:00.000Z	agro1986	DJHasis	sudo passwd
+2005-11-16T10:38:00.000Z	agro1986	DJHasis	but normally you don't need to log in as root. When you need to do administrative stuffs, just append "sudo" before the command, such as "sudo rm -rf /". That's the ubuntu way (tm)
+2005-11-16T10:40:00.000Z	DJHasis	agro1986	I just installed only the base-system cause I can't start x with my pci-express gpu

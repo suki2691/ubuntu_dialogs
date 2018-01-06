@@ -1,0 +1,4 @@
+2007-07-06T06:57:00.000Z	Eltimbalino		Hi, I have corrupted my xorg.conf file. I think it was created automatically when I installed. Can I create it again?
+2007-07-06T06:58:00.000Z	Eltimbalino		I can't boot any other way without errors
+2007-07-06T06:59:00.000Z	ilikec0ws	Eltimbalino	If they are X errors, just move to one of the virtual terminals ^^
+2007-07-06T07:01:00.000Z	ilikec0ws	Eltimbalino	Boot up, if the errors are about xorg, hit ctrl+alt+f1, login using your username and pass then run 'sudo dpkg-reconfigure xorg-server'

@@ -1,0 +1,4 @@
+2012-02-03T19:52:00.000Z	xorred		what's the best way to check which user is apache running under?
+2012-02-03T19:52:00.000Z	xorred		ps aux | grep apache is giving me a hell of an output
+2012-02-03T19:53:00.000Z	cannonball	xorred	Try this:    ps aux | head -n 1; ps aux | grep a[p]ache
+2012-02-03T19:53:00.000Z	cannonball	xorred	The output of that should make a little more sense to you, and answer your question at the same time.

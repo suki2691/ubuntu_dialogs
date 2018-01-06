@@ -1,0 +1,4 @@
+2012-06-06T00:21:00.000Z	bakarat		is there no way to control the default creation mask of a file?
+2012-06-06T00:21:00.000Z	SwedeMike	bakarat	man umask
+2012-06-06T00:22:00.000Z	bakarat	SwedeMike	it only allows substraction of permissions, not addition (unless I'm missing something?)
+2012-06-06T00:22:00.000Z	SwedeMike	bakarat	why would you be allowed to set more permissions than your user has already?

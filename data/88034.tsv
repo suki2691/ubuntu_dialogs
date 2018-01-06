@@ -1,0 +1,4 @@
+2008-10-08T18:47:00.000Z	abe3k		ok so I think a cool idea would be to copy windows registry to overwrite wine's registry and view it
+2008-10-08T18:48:00.000Z	cwraig	abe3k	cant you just export the regsitry from regedit in windows?
+2008-10-08T18:49:00.000Z	abe3k	cwraig	: but I have to log into windows which I don't want to do
+2008-10-08T18:51:00.000Z	cwraig	abe3k	if i remember correctly there was some kind of group policy that let you run commands in windows on shutdown, you could dump your registry on each shutdown to a text file and then import it into wine each time (theres prob a command line thing for that too)

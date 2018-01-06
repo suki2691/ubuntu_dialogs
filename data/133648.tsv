@@ -1,0 +1,4 @@
+2012-04-24T06:36:00.000Z	ClientAlive		hey, that's wierd! When I installed konqueror I'm pretty sure it installed nearly 1 GB of stuff (and a but load more than just 1 package). When I do a sudo apt-get remove konqueror it comes back with removing 1 package (konqueror) and only freeing 3.499 kB of space.
+2012-04-24T06:36:00.000Z	ClientAlive		hmmm...
+2012-04-24T06:37:00.000Z	limpc	ClientAlive	if you're using gnome or another wm, it probably installed KDE libs
+2012-04-24T06:38:00.000Z	limpc	ClientAlive	sudo apt-get autoremove

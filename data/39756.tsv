@@ -1,0 +1,4 @@
+2010-01-01T12:24:00.000Z	daedro		i accidentally recursively chmodded my www folder and i assume thats bad, so im trying to get it back to default -rw-x---- or something, and i read thats chmod -R 644 ./, works for 777, but 644 makes all files say "unknown type" and disappear
+2010-01-01T12:25:00.000Z	alkisg	daedro	directories need 755, so you need to run 2 `find` commands (find -type d and find -type f -exec chmod...)
+2010-01-01T12:26:00.000Z	daedro	alkisg	you the man, thanks ^^
+2010-01-01T12:26:00.000Z	alkisg	daedro	got a script for it if you want

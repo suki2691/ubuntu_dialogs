@@ -1,0 +1,4 @@
+2008-12-29T10:14:00.000Z	bin10101		all I can find is crontab or rc.d but I really need this program to run in a normal window with sudo privs.  Unfortunately it has a lot of output and needs to be babysat from time to time.  any ideas on how to get around this?
+2008-12-29T10:14:00.000Z	enerya	bin10101	- look around /etc/network/ifup.d or ifdown.d
+2008-12-29T10:18:00.000Z	bin10101	enerya	not following, those dont run in viewable terminal...do they?  am I missing something?
+2008-12-29T10:19:00.000Z	enerya	bin10101	- try it, put a script there that requires a terminal or console

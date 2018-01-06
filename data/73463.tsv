@@ -1,0 +1,4 @@
+2009-03-27T22:11:00.000Z	Leon_Nardella		Well.. There seems to be a bug about it: https://bugs.launchpad.net/ubuntu/+source/linux/+bug/347458
+2009-03-27T22:13:00.000Z	stefg	Leon_Nardella	I went thru this before you and found out i'm wasting my time opn trying to install the lpia port. The install will not work (no kernel installed) and you will regret to give up compatibility with i386 packages. i talked to some ubuntu-dev and he told me that lpia will be a properly supported architecture in the future, but at the time being only works with Dell mini 9's
+2009-03-27T22:14:00.000Z	Leon_Nardella	stefg	Yeah.. Support seems to be half-baked now.
+2009-03-27T22:15:00.000Z	stefg	Leon_Nardella	true... and you won't lose anything by using plain i386... battery life is the same, just some obscure compiler flags are set differemtly

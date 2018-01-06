@@ -1,0 +1,4 @@
+2012-02-05T18:47:00.000Z	DevilSolution		okay i seem to be stuck, ive downloaded the scala compiler and IDE for eclipse but im not sure how to set the $PATH variable to allow me to use it, ive tried editing the .profile file and added the path of the /bin but it doesnt seem to work...any idea's?
+2012-02-05T18:48:00.000Z	oCean	DevilSolution	once you've edited .bashrc or .profile to add a directory to your PATH, you have to source that file again  source ~/.profile
+2012-02-05T18:48:00.000Z	oCean	DevilSolution	check with echo $PATH
+2012-02-05T21:44:00.000Z	oCean	DevilSolution	it's probably also in /etc/skel/.profile

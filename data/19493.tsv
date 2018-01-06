@@ -1,0 +1,4 @@
+2011-05-10T10:02:00.000Z	codingenesis		best way to partition  my hardisk, so that i can have my home partitioned installed even after installing new ubuntu
+2011-05-10T10:03:00.000Z	Jordan_U	codingenesis	Just allow the installer to partition automatically (creating just a single root partition and a swap partition). You can re-install preserving /home without having a separate /home partition.
+2011-05-10T10:04:00.000Z	codingenesis	Jordan_U	how is it possible... i can have my home partion totaly preserved??
+2011-05-10T10:07:00.000Z	Jordan_U	codingenesis	When you re-install select manual partitioning, choose your old '/' partition as the new '/' partition and make sure that "Format" is *not* checked. It will use the old filesystem but remove all system directories (but not /home) before continuing with the install, and it will re-create any users it finds in /home in the new install.

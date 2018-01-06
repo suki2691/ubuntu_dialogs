@@ -1,0 +1,4 @@
+2007-02-25T11:43:00.000Z	Renu23		help-after recovery mode i found this the root flesystem is mounted in read only mode
+2007-02-25T11:44:00.000Z	Renu23		can anybody tell me why?
+2007-02-25T11:44:00.000Z	soundray	Renu23	this is usually an alarm signal. Backup your data before you try anything else
+2007-02-25T11:46:00.000Z	soundray	Renu23	boot from a live CD and run fsck on that partition. Use 'man fsck', you will probably use something like 'e2fsck -y /dev/hda1' (please don't use this suggestion uncritically)

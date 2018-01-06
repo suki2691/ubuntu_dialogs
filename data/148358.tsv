@@ -1,0 +1,4 @@
+2007-01-20T15:11:00.000Z	kaso		well. when i run the makefile it errors saying :     luaconf.h:263:31: error: readline/readline.h: No such file or directory    luaconf.h:264:30: error: readline/history.h: No such file or directory
+2007-01-20T15:11:00.000Z	pommie	kaso	: Sounds like you're missing the readline library...?
+2007-01-20T15:15:00.000Z	pommie	kaso	: In general terms, use synaptic and install libreadline-dev and readline-common
+2007-01-20T15:16:00.000Z	pommie	kaso	: In synaptic, hit Control-F to find matching package names.

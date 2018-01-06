@@ -1,0 +1,4 @@
+2009-09-22T12:29:00.000Z	nmvictor		whats the difference between a symbolic link and a hardlink?
+2009-09-22T12:30:00.000Z	dvinchi____	nmvictor	symlink just create references
+2009-09-22T12:30:00.000Z	dvinchi____	nmvictor	hardlink just clone the inode
+2009-09-22T12:37:00.000Z	nmvictor	dvinchi____	kdewhirst so i have contents in ./dirA that are known and used by an application.Because of storage, i want to move the to /media/TOSHIBA SYSTEM VOLUME/<dirB> and make them available to the application as if they were in dirA, so i understand i have to create a link, im confused, which is appropriate?a hard link or a symlink?

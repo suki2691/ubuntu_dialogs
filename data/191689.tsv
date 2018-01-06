@@ -1,0 +1,4 @@
+2008-01-16T01:37:00.000Z	gaurav_		how do i get the uid of a mount point? i want to manually add it to fstab so it automounts
+2008-01-16T01:38:00.000Z	gaurav_		i'll give it a go, ni1s, ty
+2008-01-16T01:40:00.000Z	remke	gaurav_	 vol_id -u /dev/sda1 -> gives UUID, or ‘blkid' see ... also http://www.google.nl/search?q=ubuntu+UUID+fstab&ie=utf-8&oe=utf-8&aq=t&rls=com.ubuntu:en-US:official&client=firefox-a
+2008-01-16T01:41:00.000Z	remke	gaurav_	 vol_id -u /dev/sda1 -> gives UUID, or ‘blkid' see ... also http://www.google.nl/search?q=ubuntu+UUID+fstab&ie=utf-8&oe=utf-8&aq=t&rls=com.ubuntu:en-US:official&client=firefox-a

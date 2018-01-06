@@ -1,0 +1,4 @@
+2006-05-13T13:48:00.000Z	AlmtyBob		what do I put in smb.conf so that samba won't require a username or password for accessing my shares?
+2006-05-13T13:49:00.000Z	AlmtyBob		zcat[1] : I put "security = share" in there, do I need to restart smbd?
+2006-05-13T13:49:00.000Z	hyphenated	AlmtyBob	of course you need to restart :-)
+2006-05-13T13:52:00.000Z	hyphenated	AlmtyBob	haha yeah, uncommenting helps a lot :-)

@@ -1,0 +1,4 @@
+2009-09-05T20:17:00.000Z	roberthl		Hi, I have installed X via `apt-get install xorg`, does anyone know where the resolution is defined - i cannot find it in xorg.conf?
+2009-09-05T20:18:00.000Z	edbian	roberthl	The xserver starts and it probes the hardware and determines the proper resolutions live.  If you add properly formatted options in xorg.conf it will add them to the list available to the system.
+2009-09-05T20:19:00.000Z	roberthl	edbian	Ah, sweet. Thanks.
+2009-09-05T20:19:00.000Z	edbian	roberthl	NP

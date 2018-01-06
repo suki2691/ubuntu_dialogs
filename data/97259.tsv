@@ -1,0 +1,4 @@
+2008-10-09T07:32:00.000Z	brent113		Hello, I have a question regarding file permissions.  I have 2 groups on my system, with various users in them.  How can I have files where 1 group has full read/write and the other has read only
+2008-10-09T07:33:00.000Z	jrib	brent113	you can't.  Use ACLs if you really need that kind of control.  Your other option is to just give everyone read permissions and 1 specific group write permissions
+2008-10-09T07:34:00.000Z	brent113	jrib	thanks
+2008-10-09T07:35:00.000Z	brent113	jrib	yea, I have a folder tree where 1 group has 755 access to the entire thing, and I need 1 group to have 775 access to 1 specific folder in it.  So ACLs are where it's at I guess

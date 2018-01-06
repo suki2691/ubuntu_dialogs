@@ -1,0 +1,4 @@
+2009-06-16T02:04:00.000Z	polpak		Anyone know if there's any configuration changes needed to connect to a remote server (not linux) from an ubuntu workstation using XDMCP ?
+2009-06-16T02:04:00.000Z	polpak		I'm just getting a black screen when I connect
+2009-06-16T02:04:00.000Z	polpak		Or, barring that, just an explaination of the protocol/connection proceedure would be good
+2009-06-16T02:06:00.000Z	th0r	polpak	you have to enable xdmcp in the server. Xdmcp isn't the best choice for remote access...you might want to look at X-forwarding over ssh

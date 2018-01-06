@@ -1,0 +1,4 @@
+2007-08-30T07:53:00.000Z	File13		i made a fat32 partition that i mounted at /storage but it doesnt show on my ubuntu desktop how do i get it to show
+2007-08-30T07:54:00.000Z	steph_16th	File13	mkdir windows in /mnt
+2007-08-30T07:55:00.000Z	steph_16th	File13	then type "ln -s /mnt/windows /home/you/Desktop"
+2007-08-30T07:58:00.000Z	steph_16th	File13	mount it, then link it to your desktop if it doesn't automatically

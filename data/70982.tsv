@@ -1,0 +1,4 @@
+2008-12-21T04:59:00.000Z	rww	Capn_Fish	I just joined the channel, so I'm not sure what you need, but /etc/default/grub can be created if you have something you need to put in there.
+2008-12-21T05:04:00.000Z	Capn_Fish	rww	I'm trying to disable the auto-creation of recovery boot options
+2008-12-21T05:06:00.000Z	rww	Capn_Fish	edit /boot/grub/menu.lst and change "alternative=true" to "alternative=false", then run sudo update-grub
+2008-12-21T05:09:00.000Z	Capn_Fish	rww	thanks

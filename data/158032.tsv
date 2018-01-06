@@ -1,0 +1,4 @@
+2012-10-30T21:41:00.000Z	Slart		oops.. sorry Paul92, wasn't meant for you
+2012-10-30T21:41:00.000Z	fishscene	Slart	vlc won't execute with sudo (smart!), crizis: I'll check it out. Should I also use nohup?
+2012-10-30T21:42:00.000Z	fishscene		For example: su username -c nohup cvlc $source --sout $destination --sout-keep &
+2012-10-30T21:42:00.000Z	Slart	fishscene	it won't run as root.. that doesn't mean you can't use sudo with it.. sudo can run something by any user.. not just root, although that is the most commonly used option

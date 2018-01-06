@@ -1,0 +1,4 @@
+2007-12-09T05:59:00.000Z	UserUbuntu		help, i need install gcc in ubunto, i tried "sudo apt-get install build-essential", but continues "gcc: no input files"
+2007-12-09T06:00:00.000Z	loke	UserUbuntu	sudo apt-get install gcc-4.2
+2007-12-09T06:01:00.000Z	loke	UserUbuntu	You might have an older version.  Try sudo apt-cache search gcc|grep gcc
+2007-12-09T06:02:00.000Z	loke	UserUbuntu	Look for the last one, it should be something like...gcc-4.2, or gcc-3.4, or similar.

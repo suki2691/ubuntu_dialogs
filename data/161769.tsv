@@ -1,0 +1,4 @@
+2007-05-06T16:14:00.000Z	troxor		does anyone use the deskbar applet with ctrl+<spacebar> keybinding?
+2007-05-06T12:46:00.000Z	troxor		how does one go about determining what is in control of the keycodes sent by the terminal when doing, say, ctrl+left arrow? I'd like to unify my screenrc bindkey statements across several distros, but each produces a different keycode (^[[1;5D on gentoo, ^[01;5D on ubuntu, eg)
+2007-05-06T12:47:00.000Z	variant	troxor	xev
+2007-05-06T12:48:00.000Z	troxor	variant	rather

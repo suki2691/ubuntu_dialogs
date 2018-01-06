@@ -1,0 +1,4 @@
+2006-11-09T13:09:00.000Z	Enoxs		i have problems with my wireless broadcom adaptor. It's a 4311 model. I've did all the steps in the wiki pages. Extraced bcmwl5.sys in the /lib/firmware dir , modprobe bcm43xx. The device is there when i do iwconfig. But i can't do anything with it. On boot time, i've get an error message "IRQ0 not found for bcm43xx"
+2006-11-09T13:10:00.000Z	Hattori	Enoxs	try to "echo 'blacklist bcm43xx' | sudo tee -a /etc/modprobe.d/blacklist"
+2006-11-09T13:10:00.000Z	Hattori		=\
+2006-11-09T13:12:00.000Z	Enoxs	Hattori	: Thx, i'll try this out before asking another question. Thanks anyway

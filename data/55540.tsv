@@ -1,0 +1,4 @@
+2009-06-16T20:53:00.000Z	EvaLuaTe		hello
+2009-06-16T20:54:00.000Z	EvaLuaTe		is there any 'pretty' way of showing all the partitions? fdisk -l is pretty nice, but the size of the disk is unreadable by the average user, and also it doesn't show the mountpoint, which would also be very helpful. is there any prettier alternative?
+2009-06-16T20:54:00.000Z	jim____	EvaLuaTe	df -h shows mounted partition sizes.
+2009-06-16T20:56:00.000Z	EvaLuaTe	jim____	wow, that looks way better. thanks alot =)

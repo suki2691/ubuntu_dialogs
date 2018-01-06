@@ -1,0 +1,4 @@
+2005-07-13T10:27:00.000Z	hgh		sorry this is more of general linux question, but does anybody know how to grep through a directory excluding a specific subset of files?
+2005-07-13T10:29:00.000Z	hgh		tig: but what if the files are more general than that?
+2005-07-13T10:29:00.000Z	hgh		tig: specifically, say I want to exclude everything that starts with 'ChangeLog'
+2005-07-13T10:30:00.000Z	jewel_	hgh	Do this: grep include | grep -v exclude

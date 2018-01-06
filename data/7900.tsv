@@ -1,0 +1,4 @@
+2012-05-14T18:06:00.000Z	tyteen4a03		Hi, I installed Ubuntu 12.04 but after installing ubuntu, the system restarts and takes me straight to windows. I have tried reinstalling grub but no luck. How would I fix this? (the windows bootloader is located in /dev/sda1 while win7 sits on sda2 and ubuntu on sda6)
+2012-05-14T18:07:00.000Z	morsnowski	tyteen4a03	are you sure that you've not set it staright to boot to windows
+2012-05-14T18:07:00.000Z	tyteen4a03	morsnowski	how would I check? I don't remember doing so
+2012-05-14T18:09:00.000Z	morsnowski	tyteen4a03	look for the timeout in the grub.cfg

@@ -1,0 +1,4 @@
+2008-01-14T21:25:00.000Z	bobbob1016		I'm just figuring out SSH, and I am copying files, I found the syntax to do so, it won't let me copy them from/to a folder with a space in it though.  I do "ssh user@server cat /home/user/Abc\ Def/file > /home/user/file" and it says invalid location Abc, any ideas?
+2008-01-14T21:26:00.000Z	preaction	bobbob1016	are you trying to use SSH to copy a file from a remote server to your local system? use scp for that instead
+2008-01-14T21:27:00.000Z	bobbob1016	preaction	Pici, is that easier syntax?
+2008-01-14T21:29:00.000Z	bobbob1016	preaction	Pici, Thanks.

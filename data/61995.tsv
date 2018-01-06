@@ -1,0 +1,4 @@
+2009-11-28T18:01:00.000Z	mha2908		hi! Will I be able to shutdown a Windows-pc on my lan using terminal, exactly as I can if I had a second windows-pc with cmd?
+2009-11-28T18:02:00.000Z	mha2908		hi! Will I be able to shutdown a Windows-pc on my lan using terminal, exactly as I can if I had a second windows-pc with cmd?
+2009-11-28T18:02:00.000Z	grawity	mha2908	net rpc shutdown -S remotemachinename -U remoteusername
+2009-11-28T18:03:00.000Z	grawity	mha2908	Requires smbclient - but you probably already have that.

@@ -1,0 +1,4 @@
+2010-01-11T20:26:00.000Z	DHR		On 9.10, I wrote a file of size 4294967295 to my VFAT32 flash.  It appeared to work (according to ls -l).  How can it work when vfat32 has a 4G-1 filesize limit?
+2010-01-11T20:28:00.000Z	llutz	DHR	that is 3.99999GB
+2010-01-11T20:29:00.000Z	DHR	llutz	oops, you are right.  Thanks.
+2010-01-11T20:29:00.000Z	llutz	DHR	even karmic cannot perform miracles

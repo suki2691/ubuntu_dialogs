@@ -1,0 +1,4 @@
+2006-11-12T16:31:00.000Z	aridese		hey guys, what would cause ubuntu GNOME to hang on boot after login? i.e, mouse cursor boots, nothing happens
+2006-11-12T16:31:00.000Z	aridese		mouse cursor moves
+2006-11-12T16:31:00.000Z	aridese		tough
+2006-11-12T16:33:00.000Z	Jowi	aridese	instead of logging in directly after boot; press alt-ctrl-F1 to go to a console. add a new user there "sudo adduser test". switch back to the login screen with ctrl-alt-F7 and login with the "test" user. if that works then you know it is only your account that is affected.

@@ -1,0 +1,4 @@
+2007-02-06T13:38:00.000Z	anon__		is there any way to force a debian package to install, ignoring dependencies?
+2007-02-06T13:39:00.000Z	pppoe_dude	anon__	yes
+2007-02-06T13:39:00.000Z	pppoe_dude	anon__	dpkg --force-all -i <package>
+2007-02-06T13:39:00.000Z	pppoe_dude	anon__	you need to specify the path for the package tho

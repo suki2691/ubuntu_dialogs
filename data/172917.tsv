@@ -1,0 +1,4 @@
+2007-07-26T14:26:00.000Z	howlingmadhowie	Anlar	really? i thought glxgears used the card
+2007-07-26T14:27:00.000Z	Anlar	howlingmadhowie	no, it falls back to the software.
+2007-07-26T14:27:00.000Z	howlingmadhowie	Anlar	everyday i learn somethinf new ;)
+2007-07-26T14:31:00.000Z	Anlar	howlingmadhowie	all opengl is piped through this library that sends everything the card can handle to the card and does the rest with mesa.. it's because cards are quite different anyways, the application programmers will never have to really check some minor details

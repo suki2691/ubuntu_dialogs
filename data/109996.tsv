@@ -1,0 +1,4 @@
+2010-03-04T21:55:00.000Z	DNil		hi all.i have deleted a file accidentally. n now i see my trash is not opening, because of some errors.can anyone tell me how to restore it thru terminal?
+2010-03-04T21:56:00.000Z	soreau	DNil	In your terminal, do you see the file with the command 'ls ~/.local/share/Trash' ?
+2010-03-04T22:02:00.000Z	soreau	DNil	Yes, try 'cp ~/.local/share/Trash/yourfile ~/Desktop'
+2010-03-04T22:08:00.000Z	soreau	DNil	it would be 'cp ~/.local/share/Trash/dom\ parser ~/Desktop' This should copy it to your desktop

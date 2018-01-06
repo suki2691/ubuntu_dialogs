@@ -1,0 +1,4 @@
+2008-06-12T10:45:00.000Z	ghindo		I'm using ssh to login to a remote machine, but for some reason, it's not recognizing the hostname.  ssh recognizes the IP address alright, but when I try to ssh username@hostname, I get "Name or service not known"
+2008-06-12T10:46:00.000Z	RAdams	ghindo	what happens when you ping the name? and yes, add it to /etc/hosts as anirudh0 said
+2008-06-12T10:46:00.000Z	ghindo	RAdams	 It says "unknown host"
+2008-06-12T10:47:00.000Z	RAdams	ghindo	"man hosts"

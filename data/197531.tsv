@@ -1,0 +1,4 @@
+2006-11-07T15:05:00.000Z	curley_sue		can anyone explain howcome i have SMP while having one processor? (uname output: Linux 2.6.17-10-generic #2 SMP Fri Oct 13 18:45:35 UTC 2006 i686 GNU/Linux)
+2006-11-07T15:06:00.000Z	ailean	curley_sue	what is your processor?
+2006-11-07T15:08:00.000Z	curley_sue	ailean	cat /proc/cpuinfo | grep processor output: processor : 0 model name : Intel(R) Pentium(R) M processor 1.70GHz
+2006-11-07T15:08:00.000Z	ailean	curley_sue	it won't run that in SMP mode, don't worry

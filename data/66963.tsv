@@ -1,0 +1,4 @@
+2009-02-17T15:48:00.000Z	moniker127		this sounds like a terribly noobish question - and it is - but how can i tell whether i'm running 8.04 or 8.10? I used a cd from a while ago, and i never mark my cds
+2009-02-17T15:48:00.000Z	kyledr	moniker127	uname -a
+2009-02-17T15:49:00.000Z	kyledr	moniker127	that'll actually only tell you your kernel version
+2009-02-17T15:51:00.000Z	kyledr	moniker127	cat /etc/issue

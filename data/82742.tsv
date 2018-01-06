@@ -1,0 +1,4 @@
+2010-03-12T01:03:00.000Z	JULinuxUser		How do I get a list of the packages installed on my computer?
+2010-03-12T01:03:00.000Z	JULinuxUser		I think I need to get them from apt-get somehow
+2010-03-12T01:03:00.000Z	guntbert	JULinuxUser	dpkg -l
+2010-03-12T01:05:00.000Z	guntbert	JULinuxUser	dpkg -l > mypackages

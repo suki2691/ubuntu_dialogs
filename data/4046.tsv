@@ -1,0 +1,4 @@
+2012-04-12T00:27:00.000Z	ssta	mashbro	I'd make /var/www owned by root:www-data and add myself to www-data group
+2012-04-12T00:29:00.000Z	mashbro	ssta	I am not a terminal guy, so if you could please tell me the command or point to an article it would really help.
+2012-04-12T00:31:00.000Z	ssta	mashbro	sudo chown -R root:www-data /var/www; sudo adduser <your username> www-data # then logout and log back in again
+2012-04-12T00:32:00.000Z	ssta	mashbro	umm, needs a: sudo chmod -R 775 /var/www

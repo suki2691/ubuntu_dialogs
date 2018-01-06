@@ -1,0 +1,4 @@
+2009-05-23T04:16:00.000Z	SetiAmon		hey has anyone setup ubuntu to launch firestarter at startup?
+2009-05-23T04:17:00.000Z	SetiAmon		i tried and it didn't prompt me for a password or anything,BUT it did say i had no net connection,is there a way to have firestarter launch after i get a internet connection,or at least last of the startup programs?
+2009-05-23T04:17:00.000Z	SetiAmon		chemilkalz,did that.i'm just interested in delaying its startup
+2009-05-23T04:18:00.000Z	Gnea	SetiAmon	you could change the runlevel at which it starts so that it starts after certain other daemon(s) start

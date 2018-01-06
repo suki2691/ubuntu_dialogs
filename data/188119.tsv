@@ -1,0 +1,4 @@
+2006-11-30T06:13:00.000Z	hubb4hubb4hubb4		hey guys, my friend just installed ubuntu server edition which does come with gnome by default. however, he also has the ubuntu desktop cd
+2006-11-30T06:13:00.000Z	hubb4hubb4hubb4		what i want to know is where are the gnome packages on the install cd
+2006-11-30T06:13:00.000Z	hubb4hubb4hubb4		im not a ubuntu guy, i know slackware better
+2006-11-30T06:15:00.000Z	hastesaver	hubb4hubb4hubb4	do "apt-cdrom add" and then the cd becomes a repository and apt-get install will install from the cd if available

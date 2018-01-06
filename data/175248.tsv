@@ -1,0 +1,4 @@
+2007-07-04T14:26:00.000Z	mikeconcepts		I just moved a large hard drive from one computer to another as a slave and need to know how to access it, from xubuntu 7.04 to ubuntu 6.10
+2007-07-04T14:27:00.000Z	mikeconcepts		sudo mount dev/sdb1 /media/movies   says special device dev/hdb1 does not exist
+2007-07-04T14:28:00.000Z	Nutubuntu	mikeconcepts	could you be trying to mount the wrong device somehow?
+2007-07-04T14:29:00.000Z	Nutubuntu	mikeconcepts	 is the drive in question an IDE device or a SATA device?

@@ -1,0 +1,4 @@
+2012-09-06T11:37:00.000Z	muelli		hmpf. Upgrade from 11.10 to 12.04 failed, because the laptop went into suspend (although being hooked up to power) in the middle of installing packages. Anyway, now the kernel can't find rootfs and panics. Will a live CD and a do_release_update in the chroot do?
+2012-09-06T11:38:00.000Z	user_	muelli	doesn't hurt to try... or just apt-get update and dist-upgrade in a first time...
+2012-09-06T13:28:00.000Z	muelli	user_	I had the broken upgrade to 12.04 due to suspend while update-manager was installing packages. dpkg --configure -a went through fine, do-release-update says "no new release found" may I assume that I'm fine to reboot then? Or is there anything that do-release-update usually does that I missed now with my manual apt-get dist-upgrade?
+2012-09-06T13:29:00.000Z	user_	muelli	well, you can try at least, you'll see rather fast if there is a problem

@@ -1,0 +1,4 @@
+2008-11-11T09:24:00.000Z	x86		I'm new to ubuntu on servers, and I'm running 8.10 now... I'm used to using /etc/inittab to maintain a mission-critical process (asterisk), but in ubuntu I guess it uses upstart.
+2008-11-11T09:25:00.000Z	x86		I found this: http://blog.mypapit.net/2007/03/where-can-i-find-inittab-in-ubuntu-edgy-eft-or-feisty-fawn.html, and I copied /etc/event.d/tty6 to /etc/event.d/ast, and used it as a template for making one for asterisk, but telinit q didn't start asterisk
+2008-11-11T09:25:00.000Z	x86		nothing in the logs, any ideas?
+2008-11-11T09:26:00.000Z	jrib	x86	um, did you install asterisk through the repositories?

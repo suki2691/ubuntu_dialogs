@@ -1,0 +1,4 @@
+2007-04-22T07:10:00.000Z	feisty-beginner		I have just created a local feisty repository using apt-mirror and launched it on my local server using apache.  other machine are able to access this local repository via apt.  However when I tried to netboot via http://archive.ubuntu.com/ubuntu/dists/feisty/main/installer-i386/current/images/netboot/netboot.tar.gz this boot image fails to retrieve from my local repository despite it can access the offic
+2007-04-22T07:10:00.000Z	feisty-beginner		ial one, what's wrong with my local repository?
+2007-04-22T07:12:00.000Z	stefg	feisty-beginner	have you adapted your /etc/apt/sources.list, so that it point to your local repo?
+2007-04-22T07:13:00.000Z	feisty-beginner	stefg	yes, in the installer ,I explicitly pointed to my local repository

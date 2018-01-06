@@ -1,0 +1,4 @@
+2011-01-16T00:37:00.000Z	midi		I have an external hard drive on my 2nd laptop(ubunto os), and i want to know if I can share it on network with other ubuntu
+2011-01-16T00:39:00.000Z	Dr_Willis	midi	 what os is on the other laptop?
+2011-01-16T00:40:00.000Z	Dr_Willis	midi	 for linux to linux, you could use ssh/scp/sshfs, or nfs.  nfs would be faster.. and is not too hard to setup. but its not an 'on the fly' type shareing like samba is.
+2011-01-16T00:42:00.000Z	midi	Dr_Willis	so i have to use samba, i made my own configuration on samba, created a network "MIDIGROUP" on one laptop i can access the file that i shared, "desktop" folder, but i cant access the external hard drive.

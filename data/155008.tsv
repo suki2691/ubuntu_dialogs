@@ -1,0 +1,4 @@
+2008-04-11T16:49:00.000Z	Smegzor		I have heard that in linux (ext3) it is possible to resize a partition with no data loss.  Is this true?  I want to double my swap from 4 gigs to 8 gigs by taking 4 gigs away from my home partition.  I have more than 4 gigs free in home.
+2008-04-11T16:50:00.000Z	GNU\colossus	Smegzor	growing the fs is possible with ext3, I'm not sure about shrinking though
+2008-04-11T16:52:00.000Z	GNU\colossus	Smegzor	your machine is actually swapping?
+2008-04-11T16:52:00.000Z	GNU\colossus	Smegzor	then don't bother resizing

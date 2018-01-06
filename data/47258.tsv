@@ -1,0 +1,4 @@
+2012-01-20T14:21:00.000Z	Bogy		I can still see the files and such from the live cd boot and would like to copy my data to my backup disk /dev/hdb/0 but can't get permission to enter the dirs
+2012-01-20T14:23:00.000Z	Bogy		is there a way to get the permissions I need
+2012-01-20T14:24:00.000Z	Bogy		leme try that
+2012-01-20T14:25:00.000Z	llutz_	Bogy	"sudo mkfs.ext4 -n /dev/hda1"  gives you a list where superblocks would be stored. use one of those, to feed fsck -b <block-no> with

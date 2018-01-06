@@ -1,0 +1,4 @@
+2008-11-16T17:15:00.000Z	Bullen		yo
+2008-11-16T17:16:00.000Z	Bullen		i have a problem... when i try to terminate a missbehaving application i get a persistent dead process in the background which consumes a system resource (occupies a network socket), how can i kill it if it will not respond the regular kill command?
+2008-11-16T17:16:00.000Z	Bullen		doesn't work
+2008-11-16T17:17:00.000Z	fosco_	Bullen	sudo kill -9 PID

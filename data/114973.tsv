@@ -1,0 +1,4 @@
+2008-06-23T03:35:00.000Z	jdwilm		In ubuntu server edition, is port 22 blocked by default?
+2008-06-23T03:36:00.000Z	jrib	jdwilm	no
+2008-06-23T03:36:00.000Z	jrib	jdwilm	sudo iptables -L   will show you all the rules (they are empty by default)
+2008-06-23T03:36:00.000Z	jdwilm	jrib	ty

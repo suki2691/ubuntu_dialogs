@@ -1,0 +1,4 @@
+2007-09-24T08:22:00.000Z	cole		How do you revert GNome Panels
+2007-09-24T08:24:00.000Z	cole		I deleted .gnome, .gnome2, .gconf, and .metacity, but didnt't suceed
+2007-09-24T08:25:00.000Z	cole		hmm ill try again
+2007-09-24T08:26:00.000Z	nickrud	cole	to revert the panel:   gconftool --recursive-unset /apps/panel && killall gnome-panel

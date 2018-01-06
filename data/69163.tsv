@@ -1,0 +1,4 @@
+2009-02-27T00:46:00.000Z	FrozenFire		Easier question this time: Apparently, I'm suddenly not in the sudoers file. I'm the only user, other than root. I've been in the sudoers file until today. Do I have to drop to a root shell to fix this?
+2009-02-27T00:48:00.000Z	oCean_	FrozenFire	maybe you're no longer in the 'admin' group?
+2009-02-27T00:48:00.000Z	oCean_	FrozenFire	using usermod?
+2009-02-27T00:49:00.000Z	oCean_	FrozenFire	to see your groups, type "id"

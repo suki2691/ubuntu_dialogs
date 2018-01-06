@@ -1,0 +1,4 @@
+2007-08-15T15:04:00.000Z	dane2		yea I've tried to 'sudo dpkg -i' a few file packages but the 'dependence' don't satisfy due to (broken cache) and sometimes other reasons
+2007-08-15T15:04:00.000Z	vlt	dane2	You can install then using dpkg -i pkg.deb or put the deb files in /var/cache/apt/archives/
+2007-08-15T15:05:00.000Z	dane2	vlt	, using 'sudo mv' command?
+2007-08-15T15:05:00.000Z	vlt	dane2	Yes, this directory is writable for root only.

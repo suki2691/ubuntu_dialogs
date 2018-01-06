@@ -1,0 +1,4 @@
+2008-09-30T17:44:00.000Z	Jampiter		Hi
+2008-09-30T17:45:00.000Z	Jampiter		How do I write a .img file to a floppy? I believe it's a RaWrite image.
+2008-09-30T17:45:00.000Z	usser	Jampiter	try dd if=filename.img /dev/fd0
+2008-09-30T17:46:00.000Z	usser	Jampiter	err dd if=filename.img of=/dev/fd0

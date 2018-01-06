@@ -1,0 +1,4 @@
+2006-08-23T11:52:00.000Z	munsa		Hello All, I have a question, I am trying to use GnomeBreaker and it tells me that it does not have premission to use my CDRom any idea how to change this?
+2006-08-23T11:52:00.000Z	munsa		bicoded : sudo apt-get install mplayer
+2006-08-23T11:52:00.000Z	JulianCoccia	munsa	Has your user cdrecording privileges ? Go to user administration and check that
+2006-08-23T11:53:00.000Z	JulianCoccia	munsa	worst case, a quick and dirty solution would be:  sudo chmod 777 /dev/cdrom

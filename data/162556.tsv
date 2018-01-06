@@ -1,0 +1,4 @@
+2007-04-07T16:55:00.000Z	aabrahao		thanks all
+2007-04-07T05:09:00.000Z	aabrahao		when try to install vmware with sudo vmware-install.pl the command not found appears, Im in the same directory of the installarion program
+2007-04-07T05:10:00.000Z	PriceChild	aabrahao	use sudo ./vmware-install.pl
+2007-04-07T05:10:00.000Z	PriceChild	aabrahao	the ./ tells bash to look in the current directory instead of your PATH

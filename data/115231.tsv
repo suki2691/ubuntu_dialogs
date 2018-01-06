@@ -1,0 +1,4 @@
+2007-11-03T12:21:00.000Z	ReubenY		Hi I am new to Linux. Just installed ubuntu-server on a computer with two HDs, both SATA and they're sda and sdb. sda is 80 gigs and sdb is 400 gigs. Now I intended to use sdb as a storage storing things while sda runs the linux system. I note that the server doesn't mount the sdb by default. I am now editing fstab but was wondering two things: why instead of /dev/sda1 etc etc i see some UUID? Second, where would be a good place to mount this storage drive?
+2007-11-03T12:22:00.000Z	ReubenY		i note that /media is also the default place for USB drives and such addons...but this sdb isn't really an addon drive correct?
+2007-11-03T12:22:00.000Z	IPGHOST	ReubenY	can u pastebin you fstab
+2007-11-03T12:23:00.000Z	ReubenY	IPGHOST	ok sec. clever: anyway I can find the UUID of sdb1?

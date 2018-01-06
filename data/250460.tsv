@@ -1,0 +1,4 @@
+2005-11-19T12:58:00.000Z	weiers		Hi, I really need help. I somehow broke my CUPS server in the process of trying to edit the /etc/cups/cupsd.conf file. (I'm trying to get my wife's winXP computer to print on my Laserjet printer.) I've used synaptic to uninstall and re-install cups, but I get the same error all the time:  "The CUPS server could not be contacted"
+2005-11-19T12:59:00.000Z	socketbind	weiers	how did you managed to break it? can you tell what did you changed?
+2005-11-19T12:59:00.000Z	socketbind	weiers	or purge it of course
+2005-11-19T13:01:00.000Z	socketbind	weiers	dpkg --purge cupsys

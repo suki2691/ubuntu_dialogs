@@ -1,0 +1,4 @@
+2005-04-24T09:05:00.000Z	holycow		on a side note, does anyone know where to specify a specific refresh rate for xorg?  i know about refresh rates and resolutions, but when you select 'refresh rate' in gui, where does that get stored in a text file?  i have a resolution thats not working under vmware and need to forcibly drop down to 60hz
+2005-04-24T09:06:00.000Z	linuxpoet	holycow	/etc/X11/xorg.conf
+2005-04-24T09:07:00.000Z	holycow	linuxpoet	i know, where exactly do you force a 1024x76 to either be 60hz or 75? i don't see the relationship between default/current refresh rate and default/current resolution?
+2005-04-24T09:08:00.000Z	holycow	linuxpoet	no worries :)

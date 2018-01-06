@@ -1,0 +1,4 @@
+2004-11-09T15:47:00.000Z	slade_		i have X11 forwarding set to yes, and i am trying to open firefox remotely. i export DISPLAY=":0" and run firefox. I can do a ps aux and it show firefox running but the window doesn't open on the remote machine. Am I doing something wrong?
+2004-11-09T15:49:00.000Z	WW	slade_	You are using ssh?
+2004-11-09T15:52:00.000Z	slade_	WW	yes
+2004-11-09T15:53:00.000Z	WW	slade_	Did you use the -X option?  If so, I don't have any other suggestions.

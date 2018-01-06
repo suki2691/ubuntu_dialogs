@@ -1,0 +1,4 @@
+2011-02-05T00:29:00.000Z	almufadado		hi what good app is there to monitor network traffic in realtime ?
+2011-02-05T00:31:00.000Z	almufadado		I use ntop -> good for traffic analysis
+2011-02-05T00:31:00.000Z	almufadado		i need to see who connected to my computer at a given time when there was a "mishapp"
+2011-02-05T00:32:00.000Z	jk_	almufadado	try "less /var/log/auth.log" to see who's logged in and when.

@@ -1,0 +1,4 @@
+2012-03-08T04:14:00.000Z	psyferre		Hey folks, would anyone have a quick moment for advice?  My putty session timed out while running a grub update, and like an idiot I decided to just give the machine a quick reboot to resolve the dpkg lock.  Now the system starts to boot but does not quite get to a prompt.  I assume I just need to get in and run dpkg --configure -a... is a live cd the best way to go about this?
+2012-03-08T04:15:00.000Z	velko	psyferre	yes. in a chroot
+2012-03-08T04:16:00.000Z	velko	psyferre	don't forget to mount-bind /dev/ and /proc before you enter the chroot. else grub won't see any hard disks
+2012-03-08T04:18:00.000Z	psyferre	velko	thanks, I appreciate it!  I was having trouble googling the right terms to find the info I needed.

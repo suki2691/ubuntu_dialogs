@@ -1,0 +1,4 @@
+2010-07-06T22:44:00.000Z	andyzammy		hi everybody. I'm trying to install a LAMP server on 10.4, but MySQL isn't working. I get this error in webmin: "MySQL is not running on your system - database list could not be  retrieved" any help would be appreciated.
+2010-07-06T22:45:00.000Z	IdleOne	andyzammy	guessing you need to start mysql from that error.
+2010-07-06T22:45:00.000Z	IdleOne		!googleearth
+2010-07-06T22:46:00.000Z	andyzammy	IdleOne	i do - i've tried inputting the following command to no effect: "/etc/init.d/mysql start >/dev/null 2>&1 &"

@@ -1,0 +1,4 @@
+2004-11-15T12:14:00.000Z	jeff__		hi there.
+2004-11-15T12:15:00.000Z	jeff__		KeyserSoze> not much.  switched from Debian testing to Ubuntu yesterday - smooth, as expected.  i am left with a question regarding DHCP3 and multiple interfaces.
+2004-11-15T12:17:00.000Z	jeff__		any way to have network/interfaces skip auto interface that don't have media connected?  for instance, i want to skip bringing up/requesting dhcp for my wired 100baseT connection if it's not connected.
+2004-11-15T12:18:00.000Z	sjoerd	jeff__	use ifplugd and disable auto in interfaces

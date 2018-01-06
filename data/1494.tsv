@@ -1,0 +1,4 @@
+2012-08-21T01:21:00.000Z	admin-tori		I have a question, I'm running Ubuntu Server 12.4, how do I get a script to run and show output after login using the CLI command prompt?
+2012-08-21T01:21:00.000Z	pmelse	admin-tori	what is the script written in?
+2012-08-21T01:25:00.000Z	pmelse	admin-tori	I believe you can add it to /etc/rc.local (make sure the exit status is 0)
+2012-08-21T01:28:00.000Z	pmelse	admin-tori	Jordan's idea is probably better

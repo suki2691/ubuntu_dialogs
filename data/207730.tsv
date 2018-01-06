@@ -1,0 +1,4 @@
+2007-01-08T13:08:00.000Z	burepe		This guy I am helping is getting crazy slow downloads from "apt-get update" and any aptget installs. Any one know why? He says that he has dsl and it is working fine
+2007-01-08T13:08:00.000Z	dirkson	burepe	Any chance his DSL is piped through a router?
+2007-01-08T13:11:00.000Z	burepe	dirkson	he has another windows comp that is behind the router too though
+2007-01-08T13:12:00.000Z	dirkson	burepe	Get him to try a direct connection from the DSL modem to the ubuntu-comp. If that fixes it, it's a port forwarding issue; see if he can't get his router to enable upnp, or find/forward the ports apt-get might be using.

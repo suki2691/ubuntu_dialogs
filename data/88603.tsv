@@ -1,0 +1,4 @@
+2008-11-12T14:58:00.000Z	Kate28f		Hello , I need help , i would like to use "tail" or "cat" command to show range of lines (from line 1000 to 2000 only) does it possible ?
+2008-11-12T14:59:00.000Z	ne2k__	Kate28f	cat file | tail -n+1000 | tail -n1001
+2008-11-12T15:00:00.000Z	ne2k__	Kate28f	sorry, I meant cat file | tail -n+1000 | head -n1001
+2008-11-12T15:01:00.000Z	ne2k__	Kate28f	where 1000 is your start line and 1001 is stop line - start line + 1

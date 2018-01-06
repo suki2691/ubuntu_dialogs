@@ -1,0 +1,4 @@
+2009-03-09T09:12:00.000Z	xybre		How can I get a list of packages that depend on a given package?
+2009-03-09T09:12:00.000Z	Flannel	xybre	directly? or all of the things that depend on the things that depend on that package as well?
+2009-03-09T09:13:00.000Z	xybre	Flannel	justif I say "pkg-depends libfoo" it will give me all the packages that require libfoo to be installed
+2009-03-09T09:13:00.000Z	Flannel	xybre	apt-cache rdepends package

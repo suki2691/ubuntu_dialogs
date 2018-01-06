@@ -1,0 +1,4 @@
+2007-11-28T13:02:00.000Z	gluonman		I'm trying to enter a command that will let me configure my laptop into a gateway for my desktop to connect to the internet. However, I can't get it to recognize that I'm root and give me permissions. The command is echo 1 > /proc/sys/net/ipv4/ip_forward . Any help?
+2007-11-28T13:03:00.000Z	MatthewV	gluonman	so you're running as root? not using sudo
+2007-11-28T13:04:00.000Z	MatthewV	gluonman	try running sudo -s to get to root user
+2007-11-28T13:04:00.000Z	gluonman	MatthewV	okay.

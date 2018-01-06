@@ -1,0 +1,4 @@
+2009-10-17T20:09:00.000Z	dassouki		what does this error mean ---> apt-get update
+2009-10-17T20:09:00.000Z	dassouki		E: Could not open lock file /var/lib/apt/lists/lock - open (13 Permission denied)
+2009-10-17T20:10:00.000Z	Halitech	dassouki	means you need to run the command as sudo
+2009-10-17T20:12:00.000Z	dassouki	Halitech	ahh i was running under postgres .. so it was asking me for the postgres rather than my usename's password

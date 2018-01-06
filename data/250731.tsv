@@ -1,0 +1,4 @@
+2005-04-14T13:13:00.000Z	kingsley		Does putting ext3's journal on a different disk improve performance?
+2005-04-14T13:15:00.000Z	geneo91	kingsley	 now how would you do that
+2005-04-14T13:16:00.000Z	kingsley	geneo91	Two disk drives and mkfs.ext2 with -J device=
+2005-04-14T13:17:00.000Z	geneo91	kingsley	 if you want preformance use reiserfs4

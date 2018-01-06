@@ -1,0 +1,4 @@
+2007-09-18T09:36:00.000Z	HugCows		how can i change my screen resolution to 1280x800 when the screen resolution preferences only give me 1024x768 as the largest res?
+2007-09-18T09:37:00.000Z	dystopianray	HugCows	runt he following (select your video driver then all the resolutions you want to use): sudo dpkg-reconfigure -phigh xserver-xorg
+2007-09-18T09:37:00.000Z	dystopianray	HugCows	select 'i810' as the video driver
+2007-09-18T09:44:00.000Z	dystopianray	HugCows	did you run: sudo dpkg-reconfigure -phigh xserver-xorg ?

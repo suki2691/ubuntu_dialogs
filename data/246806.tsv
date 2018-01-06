@@ -1,0 +1,4 @@
+2006-07-07T07:41:00.000Z	ToHellWithGA		how can i change my NIC configuration in a terminal?
+2006-07-07T07:42:00.000Z	ToHellWithGA		i would like to customize my NIC setup to use certain DNS servers and a static local IP
+2006-07-07T07:43:00.000Z	spades	ToHellWithGA	edit /etc/resolv.conf with your custom nameservers and chattr -i the file so it doesnt get reset, chattr +i to reverse the effect
+2006-07-18T13:54:00.000Z	spades	ToHellWithGA	the same reason why my quit message is the default one, dont feel like changing it :P

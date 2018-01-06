@@ -1,0 +1,4 @@
+2012-05-15T04:03:00.000Z	funkster		if I run ulimit -n in a shell, is that only environment based setting?
+2012-05-15T04:04:00.000Z	tyler_d	funkster	hard limits vs soft limits are user specific(soft) or global (hard)
+2012-05-15T04:05:00.000Z	funkster	tyler_d	there a way I can view the global hard limit?
+2012-05-15T04:06:00.000Z	tyler_d	funkster	I would simply cat limits.conf

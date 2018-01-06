@@ -1,0 +1,4 @@
+2006-03-12T12:40:00.000Z	Robokop		i have a question
+2006-03-12T12:41:00.000Z	Robokop		i am low on space on my partition and now i am willing to move my /usr to another partition, but then sudo won't work anymore
+2006-03-12T12:43:00.000Z	Robokop		i am low on space on my partition and now i am willing to move my /usr to another partition, but then sudo won't work anymore does anybody now how i should fix that
+2006-03-12T12:44:00.000Z	smo	Robokop	How's sudo broke?  What did you use to copy the files?  I'm taking a stab in the dark, that you may have dropped the setuid bit from /usr/bin/sudo

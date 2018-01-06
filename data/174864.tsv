@@ -1,0 +1,4 @@
+2007-06-27T07:44:00.000Z	nikosapi		hello, how can I find out what kind of support packages were compiled with? (eg. mmx, O2, O3, arch, etc..)
+2007-06-27T07:45:00.000Z	jrib	nikosapi	you could 'apt-get source PACKAGE' and the read debian/rules.  Don't know of an easier way
+2007-06-27T07:45:00.000Z	nikosapi	jrib	thanks
+2007-06-27T07:46:00.000Z	jrib	nikosapi	I'm guessing there is probably some policy that you could refer to

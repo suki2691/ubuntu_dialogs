@@ -1,0 +1,4 @@
+2012-11-20T22:35:00.000Z	Lorra		Hey everybody, I've got a usb stick with write protect on (no hardware switch) and I'm unable to format it, how should I do to format it?
+2012-11-20T22:36:00.000Z	theadmin	Lorra	sudo mkfs.vfat /dev/sdb1 # Or something like that.
+2012-11-20T22:37:00.000Z	Lorra	theadmin	done already, says it can't open the device 'cause it's read-only
+2012-11-20T22:37:00.000Z	theadmin	Lorra	Oh, so it's hardware-protected... um... I dunno honestly if there's no switch

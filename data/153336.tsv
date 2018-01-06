@@ -1,0 +1,4 @@
+2008-02-24T07:57:00.000Z	Anja		ok so are there any boards that ubuntu has trouble being compatable with the sound-card drivers?
+2008-02-24T07:58:00.000Z	Anja		was trying to research it, but haven't found anything yet
+2008-02-24T07:58:00.000Z	IndyGunFreak	Anja	only ones that seem to consistently be a major issue, are the Intel HDA chipsets.. but there's fixes and work arounds
+2008-02-24T08:00:00.000Z	IndyGunFreak	Anja	open a terminall and type "lspci" no quotes, then hit enter, look and see how it identifies your ssound device.

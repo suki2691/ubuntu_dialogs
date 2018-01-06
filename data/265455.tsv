@@ -1,0 +1,4 @@
+2006-11-23T15:53:00.000Z	tengil		Hi. Are there any reasons perl scripts in cron.hourly won't run? (cron is running)
+2006-11-23T15:54:00.000Z	Tomcat_	tengil	Check for owner/group, permissions (has to be the same as the rest)
+2006-11-23T15:57:00.000Z	Tomcat_	tengil	I thought you had it in cron.hourly, why now crontab?
+2006-11-23T15:58:00.000Z	Tomcat_	tengil	Weird... should work. :\

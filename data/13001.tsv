@@ -1,0 +1,4 @@
+2011-07-22T17:39:00.000Z	wasanzy		hi all, I have a mod_perl web site running on centos, and I want to migrate the site to Ubuntu, but in centos the site directory is in /usr/lib/perl5/site_perl/
+2011-07-22T17:40:00.000Z	wasanzy		I don't have that directory in my ubuntu, so my question is, under which directory does mod_perl sites resides? the site is written in pure mod_perl not cgi
+2011-07-22T17:41:00.000Z	wols	wasanzy	under /var/www like any other website
+2011-07-22T17:43:00.000Z	wasanzy	wols	I know in centos, the documentroot is /var/www/html/ but still, that was not the path mod_perl was using, is it not some kind of special directory for perl?

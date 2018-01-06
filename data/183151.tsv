@@ -1,0 +1,4 @@
+2007-05-27T05:17:00.000Z	Cocofat		can anyone help me with an installing problem, I have installed ubuntu in virtual machine fine, but when i do a normal install i have to disable acpi in bios for it to work, it installed ok, then i goto login and it logs in ok, but the ubuntu splash screen just stays there with a grey box in the top left of the screen? and i have to turn acpi back on to get into windoze
+2007-05-27T05:18:00.000Z	Pelo	Cocofat	  I beleive that is an issue with grub,  I think you need to add a noacpi option to the boot string,   look it up in the forum for the exact method
+2007-05-27T05:26:00.000Z	Pelo	Cocofat	 possibly  but it will mostly take dare of your acpi thing you wont, have to play in the bios anymore,  can you boot the recovery mode ?
+2007-05-27T05:26:00.000Z	Pelo	Cocofat	 there is very little you can do wrong during the install

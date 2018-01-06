@@ -1,0 +1,4 @@
+2008-01-19T04:38:00.000Z	jskulski		hey how can I disable audio? as far as I know, this computer doesn't have a sound card. but when mplayer starts it tries to get to the card and will just keep trying, and any browser plugin for movies I tried always errors out - which I think is related to trying to get at audio.
+2008-01-19T04:38:00.000Z	soundray	jskulski	start mplayer with the '-ao none' option
+2008-01-19T04:39:00.000Z	soundray	jskulski	sorry, start mplayer with the '-ao null' option
+2008-01-19T04:40:00.000Z	jskulski	soundray	well i mainly need to get the plugins working. i tried ln -s /dev/null /dev/dsp (which is seems to want to get at) but no go

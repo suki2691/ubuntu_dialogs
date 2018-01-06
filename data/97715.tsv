@@ -1,0 +1,4 @@
+2008-06-20T08:10:00.000Z	pwolfe		can someone help me develop a command that will grep sensors and only return the temps of my 4 cores?
+2008-06-20T08:11:00.000Z	arvind_khadri	pwolfe	lmsesnors | grep "Temp"
+2008-06-20T08:12:00.000Z	pwolfe	arvind_khadri	that gives me the sys temps, but not the temps of the individual cores
+2008-06-20T08:12:00.000Z	arvind_khadri	pwolfe	grep core too :)

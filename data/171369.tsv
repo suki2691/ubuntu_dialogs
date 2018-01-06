@@ -1,0 +1,4 @@
+2009-04-23T14:40:00.000Z	malik__		hi all
+2009-04-23T14:42:00.000Z	malik__		i have two network interface on my machine. one is the Ethernete NIC and the other one is USB NIC  which connects to my laptop through a USB data cable. i want to bridge them both so that i can use the internet on my laptop also, how cn i do this in ubuntu jaunty?
+2009-04-23T14:43:00.000Z	slytherin	malik__	an easy way would be to install a proxy server (squid) on machine that has internet connection, assign static IP address on both end of USB cable and then use the proxy address on the machine that needs internet address.
+2009-04-23T14:44:00.000Z	slytherin	malik__	it depends on many things

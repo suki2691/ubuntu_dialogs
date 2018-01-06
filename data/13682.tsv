@@ -1,0 +1,4 @@
+2012-01-24T12:52:00.000Z	oyvindby		Hi, how do i completely remove sendmail from my system. It somehow got installed and totally messed up my postfix install, and I cant find a way to remove it.. cant even stop it
+2012-01-24T12:52:00.000Z	Muelli	oyvindby	sudo aptitude purge sendmail should do it.
+2012-01-24T12:54:00.000Z	oyvindby	Muelli	it tells me package sendmail is not installed, still it tells me sendmail is answering on port 25 when i telnet locahlost 25 it tells me sendmail is answering
+2012-01-24T12:56:00.000Z	Muelli	oyvindby	I guess that's a bug. I'd expect the service to be stopped after you removed the package

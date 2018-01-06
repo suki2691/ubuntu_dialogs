@@ -1,0 +1,4 @@
+2010-04-29T17:35:00.000Z	Artemios		I've installed ati video driver using EnvyNG program, and after rebooting i can't start X. What have i to do?
+2010-04-29T17:35:00.000Z	Slart	Artemios	check the file /var/log/Xorg.0.log find lines starting with EE or WW ..
+2010-04-29T17:36:00.000Z	Artemios	Slart	and?
+2010-04-29T17:37:00.000Z	Slart	Artemios	usually those lines tell you why X isn't starting.. something like "no valid graphics modes" or such.

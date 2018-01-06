@@ -1,0 +1,4 @@
+2010-03-09T19:56:00.000Z	slacker_nl	TxHawks	re different ssh keys, should be possible, if you use a different sshd_config for each seperate sshd process
+2010-03-09T19:57:00.000Z	TxHawks	slacker_nl	I think you misunderstood me - I am trying to connect to a system that HAS tow public keys
+2010-03-09T19:57:00.000Z	TxHawks	slacker_nl	the same IP is both for one of the VPSs and the host system
+2010-03-09T19:59:00.000Z	slacker_nl	TxHawks	ssh -i $identity_file $host

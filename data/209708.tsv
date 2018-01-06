@@ -1,0 +1,4 @@
+2007-05-25T07:17:00.000Z	SHADD		hello help mee
+2007-05-25T07:17:00.000Z	SHADD		how can i recovery my login password to Ubuntu
+2007-05-25T07:18:00.000Z	SHADD		hear me?
+2007-05-25T07:18:00.000Z	LjL	SHADD	i never remember if recovery mode asks for a password... if it doesn't, use recovery mode, otherwise in the GRUB menu, hit "e", then down-arrow to the kernel command line, then "e" again to edit it, and change "init=whatever" into "init=/bin/sh"

@@ -1,0 +1,4 @@
+2007-07-25T07:20:00.000Z	tzbishop		guys, i have 2 hds (1 IDE 1 SATA). Linux recognizes them as /dev/hda and /dev/sda. How can I set GRUB with that?
+2007-07-25T07:21:00.000Z	clever	tzbishop	at the grub command line(run grub in linux or hit c at the menu) type in root (<tab> and it will list off devices
+2007-07-25T07:21:00.000Z	clever	tzbishop	and if you do cat /<tab> youll get a listing of filenames on the device you last set as root
+2007-07-25T07:23:00.000Z	clever	tzbishop	i beleive each drive whould have a diff number

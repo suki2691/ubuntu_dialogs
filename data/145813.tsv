@@ -1,0 +1,4 @@
+2007-02-14T11:32:00.000Z	JONES3700		used easyubuntu to install sun-java and other stuff, accidentally closed terminal; and now: E: The package sun-java5-jre needs to be reinstalled, but I can't find an archive for it.
+2007-02-14T11:33:00.000Z	xtknight	JONES3700	maybe in /var/cache/apt/archives/
+2007-02-14T11:44:00.000Z	JONES3700	xtknight	found the archive, can't access it - what to do? sorry, i suck at this
+2007-02-14T11:51:00.000Z	xtknight	JONES3700	sudo dpkg -i <asdf.deb>

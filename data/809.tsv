@@ -1,0 +1,4 @@
+2012-10-13T04:03:00.000Z	cuddlemonster		I have an eSATA expresscard that is listed in lspci, but when I plug the cable in, the drives aren't recognized. How can I find out why that is?
+2012-10-13T04:04:00.000Z	zykotick9	cuddlemonster	fyi, my eSATA isn't hot-pluggable, i have to reboot to get the drives to detect.... best of luck.  not all esata is like my experience!
+2012-10-13T04:06:00.000Z	cuddlemonster	zykotick9	Is that a limitation of the kernel? Bug or missing feature?
+2012-10-13T04:06:00.000Z	zykotick9	cuddlemonster	it's a hardware/driver issue... many esata cards aren't supported 100% :(

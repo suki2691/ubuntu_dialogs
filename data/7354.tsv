@@ -1,0 +1,4 @@
+2012-06-01T18:22:00.000Z	Xeneth		... established
+2012-06-01T18:24:00.000Z	obelus	Xeneth	ufw or iptables can accomplish what you want. Mine already logs all connections that it blocks, but you can set it to log connections that are allowed too. It logs time, src ip:port and dest ip:port
+2012-06-01T18:25:00.000Z	Xeneth	obelus	Sweet, sounds like what I am looking for.  Not a public server, so I do not have to worry about bloated logs.
+2012-06-01T18:31:00.000Z	obelus	Xeneth	I'd probably scroll down a bit and look at the example for only logging the initial connection to make your logs more readable

@@ -1,0 +1,4 @@
+2008-02-26T06:43:00.000Z	Front187		I recieve the error:     sudo: can't open /etc/sudoers: Permission denied   -- my permissions are correct, but I discovered that my drives are being automatically mounted as read only.  Could this be the problem/how can I fix it?
+2008-02-26T06:44:00.000Z	Front187		geoff, you have to manually edit /etc/xorg.conf
+2008-02-26T06:44:00.000Z	geoff_	Front187	i thought of that but not even the current resolution is listed there so I dont kno where to add this new one
+2008-02-26T06:45:00.000Z	geoff_	Front187	the current res is 2560x1024 but its not listed in xorg.conf

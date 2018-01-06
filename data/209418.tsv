@@ -1,0 +1,4 @@
+2007-03-14T13:49:00.000Z	winmutt		find  . -exec cat '{}'  ;
+2007-03-14T13:49:00.000Z	winmutt		find: missing argument to `-exec'
+2007-03-14T13:49:00.000Z	winmutt		what am i missing?
+2007-03-14T13:49:00.000Z	LjL	winmutt	something awkward. you should do \; instead of just ;  if i recall correctly. or something.

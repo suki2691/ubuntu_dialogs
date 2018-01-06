@@ -1,0 +1,4 @@
+2012-06-06T04:42:00.000Z	aleminio		hey guys, i need a little help installing grub2 after it manually failed, i'm on livecd now .
+2012-06-06T04:43:00.000Z	aleminio		after it failed while installing* now trying to install manually
+2012-06-06T04:43:00.000Z	zhanger	aleminio	see man grub-install
+2012-06-06T04:44:00.000Z	zhanger	aleminio	make sure you specify --root-directory correctly and use the device name w/o a number to install to MBR

@@ -1,0 +1,4 @@
+2007-03-18T09:50:00.000Z	I_Eat_Plastic		How do I allow users to WRITE (can already read) files via FTP in their own directory?!! +++
+2007-03-18T09:50:00.000Z	slavik	I_Eat_Plastic	chmod o+w /home/user/
+2007-03-18T09:50:00.000Z	slavik	I_Eat_Plastic	sudo chmod o+w /home/user/
+2007-03-18T09:51:00.000Z	slavik	I_Eat_Plastic	sudo chmod 0644 /home/user/ is safer

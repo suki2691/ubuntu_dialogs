@@ -1,0 +1,4 @@
+2009-06-10T18:24:00.000Z	Houba1986		hey, i'm trying to edit my xorg.conf, and it used to work fine, but now it doesn't. when i type sudo nano xorg.conf, it brings me up a blank, but in the X11 folder, i have lots of files xorg.conf.#### but no original xorg.conf, which should i edit?
+2009-06-10T18:26:00.000Z	thiebaude	Houba1986	try sudo gedit /etc/X11/xorg.conf
+2009-06-10T18:27:00.000Z	Houba1986	thiebaude	same thing, brings up a blank. i want to enable direct rendering and compositing in xorg.conf, so how would i do that? i have the lines im supposed to add to xorg.conf, but i dont have an original xorg.conf, just a lot of files xorg.conf.####
+2009-06-10T18:28:00.000Z	thiebaude	Houba1986	can you copy and paste what you have into xorg.conf(into the blank xorg.conf) and then save it

@@ -1,0 +1,4 @@
+2008-04-04T19:54:00.000Z	pirate_Hunter		hi whats the command to check usb stick?
+2008-04-04T19:56:00.000Z	hischild	pirate_Hunter	if you've plugged it in, type dmesg. On the bottom it'll show what it is.
+2008-04-04T19:59:00.000Z	pirate_Hunter	hischild	Lamego: that gave me a lot of info but i still dont know where my usb is plugged in, could you suggest something... what am I suposed to look for?
+2008-04-04T20:00:00.000Z	hischild	pirate_Hunter	unplug, count to 5, plug back in, type dmesg. It'll show something with sda, sdb, or something along those lines.

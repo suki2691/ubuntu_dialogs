@@ -1,0 +1,4 @@
+2009-05-06T17:41:00.000Z	szonek		how can i change time zone in console without interactive mode? (i tried dpkg-reconfigure tzdata -f noninteractive but it just displays current timezone?)
+2009-05-06T17:41:00.000Z	Dr_Willis	szonek	 if you knew the right timezone you could just alter /etc/timezone
+2009-05-06T17:43:00.000Z	szonek	Dr_Willis	yeah but i think it needs something more to notice the change
+2009-05-06T17:43:00.000Z	Dr_Willis	szonek	 proberly some service resart.  but im not sure what one.

@@ -1,0 +1,4 @@
+2011-03-27T17:39:00.000Z	Acruax		Hello, I need your help. I have this line - $(/usr/bin/who | wc -l | printf %03d number_of_users_here). How can I send output of wc -l to printf?
+2011-03-27T17:40:00.000Z	jrib	Acruax	use xargs
+2011-03-27T17:41:00.000Z	jrib	Acruax	or command substitution $()
+2011-03-27T17:45:00.000Z	Acruax	jrib	thanks

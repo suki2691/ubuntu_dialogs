@@ -1,0 +1,4 @@
+2011-12-10T06:44:00.000Z	n0sq		i tried going back to mandriva and had the same problem
+2011-12-10T06:46:00.000Z	sbts-tv	n0sq	can you login as any user? if so start a terminal and use "ls -la /home" to find out what user and group own the directories there. then "grep username /etc/passwd" and "grep groupname /etc/group" and make sure things look right
+2011-12-10T06:47:00.000Z	n0sq	sbts-tv	only as guest
+2011-12-10T06:47:00.000Z	sbts-tv	n0sq	that should be fine

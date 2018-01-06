@@ -1,0 +1,4 @@
+2010-05-28T23:56:00.000Z	kjcooler		Does anyone know how to change the permissions nautilus mounts an ext4 external harddrive
+2010-05-28T23:57:00.000Z	kjcooler		Does anyone know how to change the permissions nautilus mounts an ext4 external harddrive, I want to be able to mount the drive so that any new files are created with permission of 0777
+2010-05-28T23:59:00.000Z	mdlueck	kjcooler	I have done that sort of thing to a subtree (could be a drive) using ACL's
+2010-05-29T00:00:00.000Z	mdlueck	kjcooler	If you are interested I could send you an example of how to change the UMASK of a subtree using ACL's

@@ -1,0 +1,4 @@
+2008-07-17T20:03:00.000Z	vices		how do i run a .run file ?
+2008-07-17T20:05:00.000Z	genii	vices	Sometimes just ./filename.run
+2008-07-17T20:06:00.000Z	vices	genii	sh ./file opens it up, but it's supposed to be an install file.. am I supposed to extract it and run the .bin somehow?
+2008-07-17T20:08:00.000Z	genii	vices	Likely it needs some additional options. For instance the ati installer needs running like         bash/sh ati-whatever.run --buildpkg Ubuntu/hardy

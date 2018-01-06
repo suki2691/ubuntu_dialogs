@@ -1,0 +1,4 @@
+2008-05-26T16:42:00.000Z	hockeypuck89		ok, i just install ubuntu server on an old desktop in my closet, i have ssh and samba working and im looking to get ampache working...
+2008-05-26T16:43:00.000Z	hockeypuck89		can anyone help with the commands to create directories for samba to share and ampache to pull music from? and how do i create users in samba so i can access those shares and get music in there... i also need to get the ampache config file into its place
+2008-05-26T16:44:00.000Z	Dr_willis	hockeypuck89	 the samba-doc package has books on using samba. :) to make a samba user ' sudo smbpasswd -a USERNAME '
+2008-05-26T16:44:00.000Z	Dr_willis	hockeypuck89	 no idea on the ampache bit

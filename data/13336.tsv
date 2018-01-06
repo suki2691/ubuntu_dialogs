@@ -1,0 +1,4 @@
+2011-06-15T09:26:00.000Z	hexacode		can someone tell me why i have 2 different mac addresses for my router?   airodump gives me one mac address that my nic is associated with, i assume this is the wireless router im connected to...however, the sbin utlity "arp" gives me a different HWaddress for my default gateway's ip address. what is up with that
+2011-06-15T09:27:00.000Z	celthunder	hexacode	is your default gateway an ethernet?
+2011-06-15T09:28:00.000Z	hexacode	celthunder	its wlan0
+2011-06-15T09:29:00.000Z	hexacode	celthunder	...the mac that the arp utility is giving me doesnt match my wireles nic or my wired nic

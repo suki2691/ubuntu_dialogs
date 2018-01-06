@@ -1,0 +1,4 @@
+2005-05-03T13:26:00.000Z	hansderlutscher		when i type sudo apt-get install ...  for the second time in a terminal, i have the following problem  "E: Unable to lock the administration directory (/var/lib/dpkg/), are you root?
+2005-05-03T13:26:00.000Z	hansderlutscher		"  what does that mean?
+2005-05-03T13:27:00.000Z	Ironfrost	hansderlutscher	- do you have Synaptic open?
+2005-05-03T13:33:00.000Z	Ironfrost	hansderlutscher	- maybe you could try using the command 'ps aux' to see if you have any other instances of apt-get that haven't closed properly?

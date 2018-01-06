@@ -1,0 +1,4 @@
+2006-01-28T17:58:00.000Z	pixelmonkey		I cannot connect to my Ubuntu system using X11 forwarding, not even if I try it locally using ssh -X localhost.  When I try to run X11 applications, I get "X11 connection rejected because of wrong authentication."  ANyone know what's up?
+2006-01-28T17:59:00.000Z	Kyral	pixelmonkey	do you have it enabled in your sshdconf? /etc/ssh/sshd_config
+2006-01-28T06:00:00.000Z	pixelmonkey	Kyral	yes
+2006-01-28T06:02:00.000Z	Kyral	pixelmonkey	hmm...It works for me...hmm indeed

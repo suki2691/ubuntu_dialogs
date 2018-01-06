@@ -1,0 +1,4 @@
+2012-06-23T07:55:00.000Z	Spyder83		if I run the command "ifconfig eth0 down" shouldn't the interface stay down even though it's plugged in?
+2012-06-23T07:55:00.000Z	escott	Spyder83	drop a line referencing that interface in /etc/network/interfaces and networkmanager should take its hands off the device
+2012-06-23T07:57:00.000Z	escott	Spyder83	^^^ Pecker what is [keyfile]?
+2012-06-23T07:58:00.000Z	Spyder83	escott	it still comes back up after removing the it

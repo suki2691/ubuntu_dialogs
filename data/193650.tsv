@@ -1,0 +1,4 @@
+2006-07-04T12:35:00.000Z	eugman	fyrestrtr	whats the difference between sudo su and sudo bash?
+2006-07-04T12:37:00.000Z	fyrestrtr	eugman	sudo -- temporarily allows you to run commands as another user, as long as you are in a sudoers list file. You use your own password to authenticate. su is switch user, for which you need the password of the other user account you want to switch to. sudo bash just launches the bash shell as the superuser (root).
+2006-08-11T14:16:00.000Z	fyrestrtr	eugman	sudo -i
+2006-08-24T11:57:00.000Z	fyrestrtr	eugman	tar

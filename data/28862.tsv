@@ -1,0 +1,4 @@
+2010-09-13T21:47:00.000Z	Zolomon		My box is currently set to only allow connections via ssh from a certain IP, which ssh file should I edit to remove this feature - or add another ip? I have RSA keys as well but I don't know which files it is I need to store on the other computer that I wish to enable
+2010-09-13T21:48:00.000Z	brett\	Zolomon	/etc/hosts.allow ? /etc/hosts.deny ?
+2010-09-13T21:48:00.000Z	brett\	Zolomon	unless its blocked with iptables firewall rules.. then youll have to analyze your chains
+2010-09-13T21:48:00.000Z	Zolomon	brett\	thanks!

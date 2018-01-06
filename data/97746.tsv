@@ -1,0 +1,4 @@
+2009-02-24T01:31:00.000Z	acfrazier		is there anyone that can tell me how to get my ieee80211 kernel module back? I deleted it when installing wifi drivers, it now seems t owork
+2009-02-24T01:31:00.000Z	e-type	acfrazier	reinstall your kernel should put back the default
+2009-02-24T01:32:00.000Z	acfrazier	e-type	how?
+2009-02-24T01:33:00.000Z	e-type	acfrazier	'$ sudo apt-get --reinstall install linux-image-$(uname -r)' in a terminal should do it.

@@ -1,0 +1,4 @@
+2010-10-15T20:58:00.000Z	Nicolas_		Hi! I have a problem with Ubuntu 9.10, I am loosing free space continously, i already have 200 mb and this is a server so i cannot shut it down and when there will be no space the webpage will stop working. can you help me that what could be the problem? kjournaled2 is the process what writes often to the disk i know it from iotop.
+2010-10-15T20:58:00.000Z	c0nv1ct	Nicolas_	find out where the space is being used with du
+2010-10-15T20:59:00.000Z	c0nv1ct	Nicolas_	start with `man du`
+2010-10-15T21:01:00.000Z	c0nv1ct	Nicolas_	 you might want to try --max-depth=3  or some other reasonable number instead of -a

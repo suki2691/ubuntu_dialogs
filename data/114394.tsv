@@ -1,0 +1,4 @@
+2008-01-07T13:35:00.000Z	deufrai		hi guys, my machine gets its LAN adress via DHCP. I'd like to use other DNS servers than the one provided via DHCP. No way to set router with manual DNS server. IS there a way to prevent /etc/resolv.conf to be updated when dhcpclient get its info ?
+2008-01-07T13:35:00.000Z	bulmer	deufrai	look for dhclient.conf if there is one
+2008-01-07T13:36:00.000Z	deufrai	bulmer	file exists. What do I look for ?
+2008-01-07T13:37:00.000Z	bulmer	deufrai	make a copy first then modify and remove the domain server entries? and see if it modifies your resolv.conf or not

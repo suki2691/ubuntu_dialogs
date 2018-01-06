@@ -1,0 +1,4 @@
+2011-06-01T06:25:00.000Z	futureproof		 hi guys. My dad recently installed windows and messed up the grub bootloader. I was able to boot from a live cd and run 'grub-install' on the previous linux partition. I specified the root (hd0,5) and setup (hd0) , then rebooted. Upon reboot I am only presented with a grub shell (no menu)
+2011-06-01T06:25:00.000Z	Jordan_U	futureproof	What version of Ubuntu are you using?
+2011-06-01T06:26:00.000Z	Jordan_U	futureproof	Then it uses grub2, not grub legacy.
+2011-06-01T06:27:00.000Z	Jordan_U	futureproof	Also, 9.10 is EOL so you'll need to upgrade to 10.04.

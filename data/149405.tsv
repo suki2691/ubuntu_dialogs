@@ -1,0 +1,4 @@
+2007-11-28T23:51:00.000Z	cizarr		anyone know why im getting: configure:error:C compiler cannot create executables when trying to configure the Apache 2.2 src ?
+2007-11-28T23:51:00.000Z	Pici	cizarr	install the build-essential package
+2007-11-28T23:51:00.000Z	Pici	cizarr	its in the Ubuntu repositories.  `sudo apt-get install build-essential`
+2007-11-28T23:55:00.000Z	Pici	cizarr	Its a metapackage that includes everything you need to compile programs, most desktop users don't need this installed.

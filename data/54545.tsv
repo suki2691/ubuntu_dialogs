@@ -1,0 +1,4 @@
+2009-06-12T00:42:00.000Z	Travis-42		how can I overwrite a symbolic link with a new one?  I tried "ln -nsf newsrc linkname" but it doesn't seem to be working
+2009-06-12T00:42:00.000Z	Daniel_online	Travis-42	unlink <name of softlink>
+2009-06-12T00:42:00.000Z	Travis-42	Daniel_online	Is there no way to overwrite it with ln?
+2009-06-12T00:43:00.000Z	Daniel_online	Travis-42	Just unlink the working one first then create the new one

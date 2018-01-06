@@ -1,0 +1,4 @@
+2006-04-29T14:17:00.000Z	DavidW2		hi. I seem to be missing the timezone files. What package are they in or how are they created? *My timezone is stuck at UTC and I can't select another)
+2006-04-29T14:18:00.000Z	DavidW2		Or, how can I find what package a given file on the filesystem belongs to?
+2006-04-29T14:18:00.000Z	_jason	DavidW2	dpkg -S /path/to/file
+2006-04-29T14:26:00.000Z	DavidW2	_jason	OK, it's part of libc6 apparenlt. Is there any way I can force a reinstall libc6?

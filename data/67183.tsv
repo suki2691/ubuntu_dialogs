@@ -1,0 +1,4 @@
+2009-02-01T20:45:00.000Z	Soooooa		Hi when I do "/etc/init.d/proftpd restart" I get response: "ProFTPd is started from inetd/xinetd."  .... Does that mean my command was ignored?
+2009-02-01T20:45:00.000Z	scunizi	Soooooa	try /etc/xinet.d/proftpd restart
+2009-02-01T20:46:00.000Z	scunizi	Soooooa	or if you didn't include sudo at the beginning of the command.. do so
+2009-02-01T20:49:00.000Z	Soooooa	scunizi	i am root (sudo -s H) so sudo part was not nesc. Also i dont have /etc/xinet.d

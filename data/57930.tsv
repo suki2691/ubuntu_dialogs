@@ -1,0 +1,4 @@
+2009-09-29T03:14:00.000Z	colinmarc		Hi, can someone help me with some mdadm software raid issues?
+2009-09-29T03:16:00.000Z	colinmarc		sure thing: I've been trying to configure a raid 5 array. Everytime I get a little bit into mdadm --create (about 4.5% shaped) I get a system crash, frozen completely. I've tried it in recovery mode and it spouts a lot of lines, once about a bad RIP and kernel panic and once just a call trace. I have no idea what those mean in this context... any ideas?
+2009-09-29T03:18:00.000Z	colinmarc		how can I find the logs? I looked in the log viewer and can't find it
+2009-09-29T03:19:00.000Z	fccf	colinmarc	all logs are in /var/log , old ones are compressed .gz

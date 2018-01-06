@@ -1,0 +1,4 @@
+2009-03-25T07:31:00.000Z	bruenig	skyl	the reason it fails is because > redirects the output to a file. Redirection is done by the bash shell, not by iptables-save. iptables-save is the only thing running as root
+2009-03-25T07:31:00.000Z	bruenig	skyl	bash does not have root privileges iptables-save has root privileges
+2009-03-25T07:32:00.000Z	bruenig	skyl	so you can either do what skyl told you to do, OR you can do sudo bash -c 'iptables-save > ...' OR have a full root shell and so on.
+2009-03-25T07:32:00.000Z	skyl	bruenig	thanks yeah, running as su does it

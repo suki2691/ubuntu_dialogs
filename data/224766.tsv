@@ -1,0 +1,4 @@
+2005-11-05T09:53:00.000Z	xman		Anybody want to walk me through setting up wireless internet?
+2005-11-05T09:54:00.000Z	xman		I'm in an environment with multiple wireless SSID's, and the graphical install never seemed to latch on to the right one
+2005-11-05T09:55:00.000Z	ekimus	xman	'iwconfig <your device> essid <your essid> && iwconfig <your device> key <your key or off if no key> && dhclient <your device>'
+2005-11-05T09:55:00.000Z	ekimus	xman	for mor options man iwconfig (pretty good description)

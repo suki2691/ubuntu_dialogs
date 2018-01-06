@@ -1,0 +1,4 @@
+2010-02-28T14:53:00.000Z	sarthor		Hi, in ubuntu, i fixed 3 lan cards, and ubunntu give name to that lan cards like, eth0, eth1, eth2, Now i removed the 2 lan cards, and only one eth2 remaining, How can i change this eth2 to eth0, from where we can change or clear these ethX name,
+2010-02-28T14:54:00.000Z	llutz	sarthor	check  /etc/udev/rules.d/70-persistent-net.rules
+2010-02-28T14:57:00.000Z	sarthor	llutz	thanks bro.
+2010-02-28T14:58:00.000Z	llutz	sarthor	you even can delete that file, it should be created new with next boot

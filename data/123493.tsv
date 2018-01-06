@@ -1,0 +1,4 @@
+2011-03-07T00:20:00.000Z	c0mp13371331337		After having switched from an NVIDIA card to an old ATI card (which lacks fglrx driver support), I'm trying to get GLX working.  In my xorg log, I'm getting: "Failed to initialize GLX extension (Compatible NVIDIA X driver not found)", even after completely removing the NVIDIA binary drivers.  Anyone have any pointers?
+2011-03-07T00:21:00.000Z	erUSUL	c0mp13371331337	remove also the xorg.conf file
+2011-03-07T00:21:00.000Z	erUSUL	c0mp13371331337	/etc/X11/xorg.conf
+2011-03-07T00:26:00.000Z	c0mp13371331337	erUSUL	Thanks for the tip, but have the same problem after removing the file and rebooting.  And glxinfo gives "Error: couldn't find RGB GLX visual or fbconfig" and "Xlib:  extension "GLX" missing on display ":0.0"."

@@ -1,0 +1,4 @@
+2012-01-26T15:23:00.000Z	yogg		how can I fore an fsck on an mounted drive? I always get "WARNING!!!  The filesystem is mounted. ..." -> "Would you realy continue (y/n)?". How can i disable this question or answer it with "yes" out of a script?
+2012-01-26T15:23:00.000Z	_NiC	yogg	you should really umount it first.
+2012-01-26T15:27:00.000Z	_NiC	yogg	doesn't fsck have some kind of force option?
+2012-01-26T15:27:00.000Z	yogg	_NiC	"-f" yes   but this message comes anyway :(

@@ -1,0 +1,4 @@
+2005-06-12T05:20:00.000Z	dpod		can anybody give me advice on where I can follow the boot sequence? I'm not getting how things are told to load up. My books stop at inittab but unless I'm stupid don't say how the stuff in init.d etc. gets started
+2005-06-12T05:21:00.000Z	kent	dpod	init is the first thing that starts, so perhaps its the kernel..?
+2005-06-12T05:22:00.000Z	dpod	kent	init is binary right? Is there a way of figuring out or editing what it does?
+2005-06-12T05:23:00.000Z	kent	dpod	run "man inittab" and you will get some information of how to change things..

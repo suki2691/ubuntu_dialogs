@@ -1,0 +1,4 @@
+2006-01-01T15:42:00.000Z	alan__		how do you mount a harddrive that you know the name eg: hdb2 i see it but cant seem to mount it
+2006-01-01T15:42:00.000Z	trappist	alan__	mkdir foo && sudo mount /dev/hdb2 foo
+2006-01-01T15:44:00.000Z	alan__	trappist	it said i must specify filesystem type
+2006-01-01T15:45:00.000Z	trappist	alan__	do you know what kind of filesystem is on that device?  usually mount can guess if it's a supported fs

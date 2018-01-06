@@ -1,0 +1,4 @@
+2008-11-16T02:24:00.000Z	deathtech		Hello all
+2008-11-16T02:25:00.000Z	deathtech		Im having a really hard time with getting my wireless set to start at boot, I have followed multiple tutorials, and for some reason i just cant get it to come up. I have to log in locally through gnome and use network manager to connect. I use this Machine as a toy, so i can browse the web and goof off at work, so obviously it is quite important to me
+2008-11-16T02:26:00.000Z	fryguy	deathtech	networkmanager doesn't start until gnome starts, so you need to log in.  if you want your wireless interface to be up before that, look at iwconfig, /etc/network/interfaces, and iwconfig
+2008-11-16T02:26:00.000Z	deathtech	fryguy	yes thats my complaint , i have done that and it wont function so im forced to use networkmanager

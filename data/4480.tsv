@@ -1,0 +1,4 @@
+2012-03-21T18:55:00.000Z	bemasc		How can I add my university's (unofficial) mirror to the list of available package mirrors?
+2012-03-21T18:55:00.000Z	Zaitzev	bemasc	/etc/apt/sources.list I assume
+2012-03-21T18:56:00.000Z	bemasc	Zaitzev	That's not quite what I mean.  Synaptic offers a long list of mirrors.  I want to add one to that list.  I've been grep'ing my hard drive but I can't figure out where the list is stored.
+2012-03-21T19:28:00.000Z	bemasc	Zaitzev	used grep; turns out the answer is "/usr/share/python-apt/templates/Ubuntu.mirrors"

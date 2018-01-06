@@ -1,0 +1,4 @@
+2006-12-16T15:21:00.000Z	noelferreira	Administrator	how can write a scrip for two different conecntions
+2006-12-16T15:22:00.000Z	Administrator	noelferreira	well just use lo or whatever in /etc/network/interfaces and add another init startup script that setsup your ra0. check out /etc/init.d/skeleton
+2006-12-16T15:22:00.000Z	noelferreira	Administrator	i web one with wep and another open. i need that it knows wich one to connect. do you know what i mean?
+2006-12-16T15:23:00.000Z	Administrator	noelferreira	checkout man iwlist

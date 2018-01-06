@@ -1,0 +1,4 @@
+2009-05-27T19:34:00.000Z	frodon1		Hi. I have a problem with the TuxGuard firewall: I installed it and decided to deinstall and to use another solution. But after deinstall (automatic and manual) I still get a message after every logon where I have to give the root password because "tg-frontend" needs it to be allowed changes in the system. However, the point is that the tg-frontend is not any more installed and cannot be find as a file on the entire system. There must
+2009-05-27T19:36:00.000Z	Dr_Willis	frodon1	 the gnome 'startup-programs' listing may still have a referance to it.  If its trying to startup at user Login.
+2009-05-27T19:36:00.000Z	Dr_Willis	frodon1	 system -> preferances -> sttartup-applications
+2009-05-27T20:01:00.000Z	Dr_Willis	frodon1	 lesson to rember.. :) the package manager system does NOT (and should not) mess with the users personal config settings.

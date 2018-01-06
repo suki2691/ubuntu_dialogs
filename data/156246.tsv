@@ -1,0 +1,4 @@
+2008-06-19T09:05:00.000Z	Mr_Cheeto		ok, so i reconfigured /etc/network/interfaces to DHCP and got my IP appended, now it says "renewal in 37476 seconds" at the end of the response in konsole, how can i halt the renewal?
+2008-06-19T09:06:00.000Z	genii	Mr_Cheeto	You want to release the IP?
+2008-06-19T09:07:00.000Z	genii	Mr_Cheeto	If this is some case where you get a different number each time but want a (semi)static number, try assigning IP by mac address in the config of your router or modem
+2008-06-19T09:09:00.000Z	genii	Mr_Cheeto	Almost all routers have this feature. Exactly how to do this varies by how their web-based admin system works. I'd advise looking at the manual for your router.

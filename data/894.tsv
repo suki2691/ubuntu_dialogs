@@ -1,0 +1,4 @@
+2012-10-03T20:53:00.000Z	trinode		Hey, I've replaced my network card, now ubuntu is calling the new card eth1, can I make it forget it ever saw the old card and just call the new one eth0?
+2012-10-03T20:54:00.000Z	mknarr_	trinode	 yep you can you just need to edit the interfaces file
+2012-10-03T20:56:00.000Z	trinode	mknarr_	are you sure? that tells it the settings to use for each interface, not what to call  each interface
+2012-10-03T20:58:00.000Z	trinode	mknarr_	looks like  /etc/udev/rules.d/70-persistent-net.rules has something to do with it

@@ -1,0 +1,4 @@
+2007-09-22T07:24:00.000Z	parabola		hi, I have a problem: i'm trying to configure ubuntu for a remote desktop via tunnel whit SSH. My router settings are ok and i can log into my windows xp account  from anywhere. I'm using the same static ip in windows and linux, but i's not workin on linux... any idea?
+2007-09-22T07:25:00.000Z	cast	parabola	are you forwarding the correct ports?
+2007-09-22T07:26:00.000Z	cast	parabola	so you have explicitly forwarded port 22?
+2007-09-22T07:27:00.000Z	cast	parabola	can you ssh into windows then? if the answer is no then you need to configure you're router properly, if its yes then check your ip tables rules and that sshd is listening on the right iface

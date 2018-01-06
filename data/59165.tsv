@@ -1,0 +1,4 @@
+2010-02-06T04:00:00.000Z	domino14		i'd like to install ubuntu on a windows XP laptop (full install, not within windows) and i have already defragged the hard drive. i am unclear as to what the community website says. do i have to use GParted now to resize the windows partition, or can i just install ubuntu directly using the "largest contiguous space" option?
+2010-02-06T04:02:00.000Z	VCoolio	domino14	it's useful to have separate partitions not only for / and /swap but also for /home, so you can upgrade ubuntu without need to backup your user files
+2010-02-06T04:03:00.000Z	domino14	VCoolio	so i should use GParted ?
+2010-02-06T04:03:00.000Z	VCoolio	domino14	that's what I did, but I think the installer also provides opportunity to make partitions; but I never did that so can't help with that

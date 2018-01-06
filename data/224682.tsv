@@ -1,0 +1,4 @@
+2009-06-27T04:40:00.000Z	glicks		hey how can i get a server to reread its configuration file without disconnectin git
+2009-06-27T04:40:00.000Z	dazjorz	glicks	what server?
+2009-06-27T04:41:00.000Z	dazjorz	glicks	it's dazjorz, also, yep - you can even restart sshd without your connection closing
+2009-06-27T04:42:00.000Z	dazjorz	glicks	but rereading your config should just be /etc/init.d/sshd reload

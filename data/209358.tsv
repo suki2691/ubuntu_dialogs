@@ -1,0 +1,4 @@
+2007-04-23T15:42:00.000Z	Evensa1		I just installed vsftpd, but I cant find it anywhere... how can i find it?
+2007-04-23T15:44:00.000Z	LjL	Evensa1	dpkg -L vsftpd
+2007-04-23T15:44:00.000Z	LjL	Evensa1	anyway, it's a daemon - i.e. a service - so you don't start and stop it directly, but by doing  sudo invoke-rc.d servicename start  (or stop, or restart). the servicename i guess is vsftpd in this case
+2007-04-23T15:51:00.000Z	LjL	Evensa1	if you have no idea how to use an FTP server, you shouldn't use it. it's the most insecure protocol on earth, or close. configure one thing wrong, and people can crack into your system. anyway - ubotu gave you the tools.

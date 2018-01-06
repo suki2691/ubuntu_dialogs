@@ -1,0 +1,4 @@
+2004-10-14T13:05:00.000Z	peringz		how can I uninstall j2re from sun systems?
+2004-10-14T13:05:00.000Z	jgeorgeson	peringz	I just download from java.sun.com, and run the sh to install it in /usr/local, and then symlink the plugin in .../firefox/plugins
+2004-10-14T13:06:00.000Z	peringz	jgeorgeson	now I want uninstall j2re any idea how?
+2004-10-14T13:07:00.000Z	jgeorgeson	peringz	using my 'install' method just delete the symlink and rm -rf /usr/local/java

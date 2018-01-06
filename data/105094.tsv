@@ -1,0 +1,4 @@
+2011-11-11T15:52:00.000Z	sharlene		i push the wireless button and my blue light dont turn on like it does in vista,
+2011-11-11T15:52:00.000Z	sharlene		can someone remotely help me'
+2011-11-11T15:54:00.000Z	sharlene		im sure this is easy for a guru in linux
+2011-11-11T15:54:00.000Z	ActionParsnip	sharlene	can you give a pastebin of the output of:  sudo lshw -C network; lsb_release -a; rfkill list; dmesg | grep -i firm

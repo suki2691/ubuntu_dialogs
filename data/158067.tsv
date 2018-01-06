@@ -1,0 +1,4 @@
+2008-12-26T15:23:00.000Z	minterior		somebody knows how can I get the text betwen two double quotes? With mawk or sed?
+2008-12-26T15:25:00.000Z	minterior		i have: blabla "text inside quotes" blabla, and I need the output: text inside quotes
+2008-12-26T15:27:00.000Z	Slart	minterior	can't you use grep instead of sed?
+2008-12-26T15:33:00.000Z	Slart	minterior	try this sed -r 's/.*\"(.*)".*/\1/'

@@ -1,0 +1,4 @@
+2009-06-01T21:57:00.000Z	IHS_intern		is there anything for setting up Beowulf clusters in ubuntu? considering playing around with some of the dells that have bad primary IDE controllers
+2009-06-01T21:59:00.000Z	mdm	IHS_intern	they need to have boot proms in the NICs, but I assume you already knew this
+2009-06-01T22:00:00.000Z	IHS_intern	mdm	I can do live-CD, as well, and they do support network booting.
+2009-06-01T22:00:00.000Z	mdm	IHS_intern	then you need to read up on PXE booting, setting up a tftp server and get them to boot.  After that read up and set up the cluster

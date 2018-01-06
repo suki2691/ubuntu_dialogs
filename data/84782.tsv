@@ -1,0 +1,4 @@
+2008-08-01T03:55:00.000Z	Johnny		whats the syntax to mount a hard drive real quick?
+2008-08-01T03:55:00.000Z	derrich	Johnny	mount /mountpoint , as long as /mountpoint is defined in /etc/fstab
+2008-08-01T03:57:00.000Z	derrich	Johnny	if it's asking you for the file type, then either hdb1 isn't a valid partition w/ a filesystem on it, or you don't have support for that filesystem installed
+2008-08-01T03:58:00.000Z	derrich	Johnny	run 'fdisk -l' and make sure hdb1 is the right device

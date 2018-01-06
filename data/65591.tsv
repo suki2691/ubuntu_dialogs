@@ -1,0 +1,4 @@
+2009-02-23T10:22:00.000Z	dicedealer		hi could somebody tell me how to exit the X Windows server so i can log in as root please?
+2009-02-23T10:23:00.000Z	evanbd	dicedealer	that's probably a bad idea :)
+2009-02-23T10:24:00.000Z	evanbd	dicedealer	in general, anything you could do by logging in as root can be done with sudo more safely.
+2009-02-23T10:29:00.000Z	evanbd	dicedealer	ctrl + alt + Fn will get you a text-mode login prompt.  Login there *as your normal user*, then shut down the X server manually.

@@ -1,0 +1,4 @@
+2010-05-29T16:52:00.000Z	RKC		Can anyone tell me how to remotely enable krfb on kubuntu? I can ssh in but calling krfb all I get is 'cannot connect to X server'.
+2010-05-29T16:53:00.000Z	phlak_user	RKC	you need to forward X thro ssh
+2010-05-29T16:57:00.000Z	phlak_user	RKC	launch krdc like this ---> krdc localhost:5900
+2010-05-29T16:59:00.000Z	phlak_user	RKC	This will help --> http://www.linuxquestions.org/questions/linux-networking-3/how-to-launch-krfb-using-the-command-line-415996/

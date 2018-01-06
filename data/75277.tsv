@@ -1,0 +1,4 @@
+2012-07-09T22:40:00.000Z	SDX		If I try "sudo apt-get install libqt4-opengl" I get "E: Unable to correct problems, you have held broken packages.".  Is there a way to fix this?
+2012-07-09T22:41:00.000Z	genii-around	SDX	try just sudo apt-get -f install first
+2012-07-09T22:42:00.000Z	genii-around	SDX	If you are on 12.04 and installed the gimp2.8  manually from 12.10 no wonder issues
+2012-07-09T22:50:00.000Z	genii-around	SDX	Anyhow, you're best off to downgrade back to 12.04 default with: sudo apt-get install gimp=2.6.12-1ubuntu1        and then probably wait for either a 12.04 backport, or 12.10 to release

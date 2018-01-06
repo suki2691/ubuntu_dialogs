@@ -1,0 +1,4 @@
+2009-10-26T23:28:00.000Z	dajhorn	kdibble	Use gzcat instead of gunzip to get the desired result.
+2009-10-26T23:29:00.000Z	kdibble	dajhorn	Yes I could do that, the question is why does this fail, it doesn't fail if I am not on a readonly filesystem
+2009-10-26T23:29:00.000Z	dajhorn	kdibble	gzunzip is unzipping the file, not piping it to tar.
+2009-10-26T23:30:00.000Z	kdibble	dajhorn	thank you

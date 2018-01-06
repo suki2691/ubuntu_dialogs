@@ -1,0 +1,4 @@
+2008-06-30T04:11:00.000Z	ilembitov		Hi, all. Are the customized Dell images for 8.04 available somewhere on the Web? I need my Broadcom wi-fi to work out-of-box, otherwise I won't be able to connect to the Internet
+2008-06-30T04:12:00.000Z	Josdell	ilembitov	you have to enable the restricted drivers or ndiswrapper
+2008-06-30T04:12:00.000Z	ilembitov	Josdell	the problem is, that I won't be able to download it, since I don't have means for wired connection in my house, only wireless
+2008-06-30T04:14:00.000Z	Josdell	ilembitov	switch to Windows, dowload the ndiswrapper to a USB Drive and while you're at it, get the drivers from the WIndows system, yes that's where you get them, and then switch to Ubuntu, install ndiswrapper, select the drivers, modprobe ndiswrapper, and you're done, or there might be something else but thats what the internet is for

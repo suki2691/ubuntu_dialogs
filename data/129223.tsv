@@ -1,0 +1,4 @@
+2007-07-02T08:20:00.000Z	wyggler2		how do i get ubuntu to show icons of the desktop for mounted drives? my removable drives and ntfs partitions show up when mounted and go away when umounted.  How do I get my vfat partitions to do the same?
+2007-07-02T08:21:00.000Z	Pelo	wyggler2	  gconf-editor  /apps/nautilus/desktop ,  there is a box to check in there
+2007-07-02T08:24:00.000Z	wyggler2	Pelo	thanks.  will try that right now.
+2007-07-02T08:43:00.000Z	wyggler2	Pelo	That didn't do it.  It did,  however, allow me to toggle the ones that are currently shown on the desktop.  It also shows an elephant full of useful settings for me to experiment with.  Do you think it might be a setting in my fstab?

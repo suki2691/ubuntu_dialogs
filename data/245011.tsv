@@ -1,0 +1,4 @@
+2005-03-27T10:59:00.000Z	EsK		how do i check which version of GTK i have
+2005-03-27T11:00:00.000Z	kotatsu	EsK	dpkg -l | grep gtk
+2005-03-27T11:01:00.000Z	kotatsu	EsK	or better yet, $ apt-cache policy libgtk2.0-0
+2005-03-29T10:25:00.000Z	kotatsu	EsK	yes, to varying degrees... you can replace your window manager only, or use something like xfce to replace most of your desktop

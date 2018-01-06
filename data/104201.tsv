@@ -1,0 +1,4 @@
+2012-07-31T07:24:00.000Z	thomasbomb		I'm using youtube-dl
+2012-07-31T07:25:00.000Z	thomasbomb		My current script is using grep to find urls to save to a file, which would then be sent to youtube-dl to download
+2012-07-31T07:25:00.000Z	ActionParsnip	thomasbomb	try:  cat file | youtube-dl
+2012-07-31T07:27:00.000Z	ActionParsnip	thomasbomb	output's the file, default is to stdout but you can pipe it to commands and such

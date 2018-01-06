@@ -1,0 +1,4 @@
+2007-12-22T11:49:00.000Z	rkj		if I change settings in my samba configuration file, is there something I need to do to restart the service for the changes to take effect?
+2007-12-22T11:49:00.000Z	subfreeze	rkj	Not normally, but you can do /etc/init.d/smb restart
+2007-12-22T11:50:00.000Z	subfreeze		fark it, taking this thing upstairs and hooking it into a wired connection so I don't have to deal with all of this.
+2007-12-22T11:51:00.000Z	rkj	subfreeze	thanks.  Is that generally true for things with conf files such as ftp, that they detect changes and update accordingly?

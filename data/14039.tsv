@@ -1,0 +1,4 @@
+2011-08-23T20:37:00.000Z	schnuffle	RA_drc	sudo fdisk -l will list the partitions and its file system type as orientation
+2011-08-23T20:41:00.000Z	RA_drc	schnuffle	excellent, thanks!
+2011-08-23T20:53:00.000Z	schnuffle	RA_drc	should be: sudo mount -o rw /dev/sdb1  /mnt
+2011-08-23T20:54:00.000Z	schnuffle	RA_drc	and maybe you'll need to tell the filesystem type with -t vfat|etx2|....

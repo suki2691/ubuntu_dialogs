@@ -1,0 +1,4 @@
+2006-05-21T09:55:00.000Z	gary		Can someone explain to me why this doesn't work: "sudo cd some_directory"
+2006-05-21T09:56:00.000Z	gary		It just says "cd: no such command
+2006-05-21T09:56:00.000Z	dooglus	gary	because cd isn't a command, it's a bash builtin
+2006-05-21T09:57:00.000Z	dooglus	gary	sudo runs one child process as root, and then the child process exits, leaving you where you were.  even if there was a cd command, it wouldn't do you any good, because the process which changed to a different directory would have died before you get to type your next command

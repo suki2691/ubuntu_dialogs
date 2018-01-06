@@ -1,0 +1,4 @@
+2012-10-10T16:04:00.000Z	nibbier	Eagleman	apt-file search ldapsearch <-- that's how you'd find out....
+2012-10-15T17:06:00.000Z	nibbier	Eagleman	set system time long enough into the future?
+2012-10-15T17:07:00.000Z	Eagleman	nibbier	no its not that
+2012-10-15T17:07:00.000Z	nibbier	Eagleman	just crontab -l| awk 'foo' | xargs bash

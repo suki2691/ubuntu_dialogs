@@ -1,0 +1,4 @@
+2006-06-04T13:53:00.000Z	bulltitan		problems with amarok! it says "playlist finished" when trying to play a mp3 file
+2006-06-04T13:53:00.000Z	kameron	bulltitan	do you have codecs installed for mp3 files?
+2006-06-04T13:54:00.000Z	kameron	bulltitan	try installing: gstreamer-0.10-mad.. something like that.
+2006-06-04T13:54:00.000Z	kameron	bulltitan	try this: sudo apt-cache search gstreamer... then install the on that has "mad" in it.

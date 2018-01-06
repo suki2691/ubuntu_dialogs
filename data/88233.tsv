@@ -1,0 +1,4 @@
+2008-10-10T06:42:00.000Z	sploozer		i'm having issues with this very simple bash script, for some reason its not printing out any results to my output files....any suggestions? http://fpaste.org/paste/7326....I want it to compare my request and reply sequence numbers and output any difference between the two to display packet loss occured
+2008-10-10T06:44:00.000Z	sploozer		any ideas?
+2008-10-10T06:44:00.000Z	IntuitiveNipple	sploozer	The tail "-f" option isn't going to help
+2008-10-10T06:45:00.000Z	sploozer	IntuitiveNipple	I want to keep track of that file in real time though

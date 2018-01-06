@@ -1,0 +1,4 @@
+2012-05-15T23:29:00.000Z	goolala		how do i delete a rule with ufw: 22/tcp                     ALLOW       45.21.2.23
+2012-05-15T23:30:00.000Z	goolala		when I do "ufw delete allow from 45.21.2.23" it said "Could not delete non-existent rule"
+2012-05-15T23:31:00.000Z	llutz	goolala	"sudo ufw delete allow from 45.21.2.23 to any port 22"
+2012-05-15T23:34:00.000Z	llutz	goolala	did it work? stolen from http://pka.engr.ccny.cuny.edu/~jmao/node/28 :)

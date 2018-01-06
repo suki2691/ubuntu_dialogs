@@ -1,0 +1,4 @@
+2011-02-09T20:38:00.000Z	PL-1		if I have XP then Windows 7 and put Ubuntu on same disk (empty partition) will it ruin XP or 7 ?
+2011-02-09T20:39:00.000Z	ActionParsnip	PL-1	not at all
+2011-02-09T20:40:00.000Z	ActionParsnip	PL-1	you can install it that way, which will use wubi and not be in the empty partition. you will need to boot a CD or USB stick. I also suggest you unpartition the space you want to install to so it is clear where the install will go
+2011-02-09T20:41:00.000Z	ActionParsnip	PL-1	remember you can only have 4 primary partitions on a drive, so you may need to make an extended partition and then make logical partitions therin

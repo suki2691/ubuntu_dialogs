@@ -1,0 +1,4 @@
+2011-03-20T21:22:00.000Z	tommisa		hello, i installed x-ubdates ppa to get newere intel drivers, those didn´t work so i removed ppa and gpg key, but even though when i update the packages don´t downgrade (duh) to the packages provided by ubuntu that worked. please help
+2011-03-20T21:23:00.000Z	tommisa		sorry if it is hard to understand
+2011-03-20T21:23:00.000Z	erUSUL	tommisa	you have to use ppa-purge
+2011-03-20T21:23:00.000Z	erUSUL	tommisa	enable again the ppa and install ppa-purge. then use iot to purge the ppa

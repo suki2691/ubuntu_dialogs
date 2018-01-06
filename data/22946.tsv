@@ -1,0 +1,4 @@
+2010-11-08T02:35:00.000Z	Lachezar		Hello all... After upgrading to 10.10 I am missing locale data: all except for LC_MESSAGES is missing!
+2010-11-08T02:35:00.000Z	Lachezar		For all locales
+2010-11-08T02:36:00.000Z	Lachezar		How do I reinstall/rebuild locale information? Even en_US and en_UK are missing.
+2010-11-08T02:37:00.000Z	bobdobbs`	Lachezar	sudo dpkg-reconfigure locales

@@ -1,0 +1,4 @@
+2008-04-17T03:18:00.000Z	DarkLordVenom		how do i disable a network port?
+2008-04-17T03:19:00.000Z	unop_	DarkLordVenom	you disable the service/application that has that port open.
+2008-04-17T03:19:00.000Z	unop_	DarkLordVenom	find out.  netstat -antp  | grep <portnumber>
+2008-04-17T03:20:00.000Z	unop_	DarkLordVenom	you might also need to run netstat under sudo if the app. is running as another user

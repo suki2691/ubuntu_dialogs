@@ -1,0 +1,4 @@
+2010-05-21T20:38:00.000Z	[0]Aazoris		Problem I am using a VPS with root(me)the manual only explains about the gui version, I cant get to a gui via my ssh connection.
+2010-05-21T20:39:00.000Z	llutz	[0]Aazoris	ssh -X user@host
+2010-05-21T20:41:00.000Z	[0]Aazoris	llutz	what i didnt understand that. Sorry, I am 100% new to linux...
+2010-05-21T20:42:00.000Z	llutz	[0]Aazoris	ssh -X   for X11-Forwarding of single apps. if you want a complete GUI, use something like freenx or vnc tunneled through ssh

@@ -1,0 +1,4 @@
+2006-08-29T06:51:00.000Z	ZenJabba		what is the init level to boot up in terminal mode, without starting X?
+2006-08-29T06:53:00.000Z	longwave	ZenJabba	i think it is runlevel 3 that starts everything as normal except X
+2006-08-29T06:53:00.000Z	ZenJabba	longwave	will give it a try
+2006-08-29T06:54:00.000Z	longwave	ZenJabba	you can look in /etc/rc2.d and /etc/rc3.d to compare what services will start at different runlevels

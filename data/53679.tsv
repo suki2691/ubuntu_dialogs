@@ -1,0 +1,4 @@
+2010-03-02T06:51:00.000Z	hikenboot		I am trying to compile a custom kernel it gives the following error http://pastebin.ca/1818251 anyone able to help
+2010-03-02T06:53:00.000Z	flaarg	hikenboot	try the option --append-to-version=-final-union
+2010-03-02T06:53:00.000Z	flaarg	hikenboot	try the option --append-to-version=-final-union-try3
+2010-03-02T06:55:00.000Z	hikenboot	flaarg	figured it out need to do make-kpkg clean

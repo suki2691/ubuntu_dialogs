@@ -1,0 +1,4 @@
+2010-05-22T00:03:00.000Z	Andorin		If I have a 100 KB/s download cap on Transmission, why does System Monitor report that I'm downloading at my maximum speed? Nothing else should be downloading, and when I quit Transmission, the graph shows continued maximum downloading for a minute, then it crashes to 0.
+2010-05-22T00:04:00.000Z	Andorin		Do I have some wacky form of malware that attaches itself to a BitTorrent client and only downloads when said client is running?
+2010-05-22T00:04:00.000Z	blime	Andorin	100 KB/s * 8 (bits per byte) = 800 Kbps
+2010-05-22T00:04:00.000Z	Andorin	blime	So? System Monitor is set to report in KB/s, not Kb/s

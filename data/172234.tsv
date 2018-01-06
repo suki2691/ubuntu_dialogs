@@ -1,0 +1,4 @@
+2006-08-08T16:59:00.000Z	acojlo		possible to execute command every 20 seconds?
+2006-08-08T05:02:00.000Z	acojlo		is it possible to execute command every 20 seconds? cron seems to give option of a minute?
+2006-08-08T05:02:00.000Z	zoredache	acojlo	if you really need something to run that often you probably would need to write a script that has a loop, that runs the command and then sleeps
+2006-08-08T05:03:00.000Z	acojlo	zoredache	Yes, I'm thinking. I can use sleep in bash script

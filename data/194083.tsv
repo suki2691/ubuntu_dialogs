@@ -1,0 +1,4 @@
+2007-11-01T21:43:00.000Z	rjune__		is there a command to control what services start and stop in ubuntu? something ala chkconfig?
+2007-11-01T21:44:00.000Z	rjune__		or howot find out what runlevel a system is at? there's no /etc/inittab on my system
+2007-11-01T21:44:00.000Z	pike_	rjune__	bum is a nice front end to update-rc.d havent used bum myself
+2007-11-01T21:45:00.000Z	pike_	rjune__	to remove a prog from startup 'sudo update-rc.d -f scriptname remove' to add one sudo update-rc.d -f scriptname defaults  <-- that is very basic usage and i think syntax is right

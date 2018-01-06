@@ -1,0 +1,4 @@
+2007-11-26T04:26:00.000Z	Nimby		in the guide to getting the dvb card to work it says "In order that the saa7134-svb module gets loaded at startup add following line"
+2007-11-26T04:26:00.000Z	Nimby		"nstall saa7134 /sbin/modprobe  --ignore-install saa7134 && { /sbin/modprobe saa7134-alsa; } && { /sbin/modprobe saa7134-dvb;}"
+2007-11-26T04:26:00.000Z	Nimby		in modprobe.conf  but this file doesnt exist
+2007-11-26T04:26:00.000Z	ikonia	Nimby	thats not an upragde command

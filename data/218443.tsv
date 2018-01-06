@@ -1,0 +1,4 @@
+2006-05-19T09:34:00.000Z	Ponijs		why aren't all resolutions supported by my monitor shown in Screen Resolution?
+2006-05-19T09:35:00.000Z	Ponijs		the biggest I see is 832x624
+2006-05-19T09:35:00.000Z	Ponijs		even though it supports up to 1600x1200
+2006-05-19T09:36:00.000Z	rikai	Ponijs	they weren't correctly configured, open a terminal and run: sudo dpkg-reconfigure xserver-xorg

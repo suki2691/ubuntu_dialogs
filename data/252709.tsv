@@ -1,0 +1,4 @@
+2005-07-11T13:51:00.000Z	jbailey		Like in breezy, there's some chance t hat we may do all the udevstart stuff in the initramfs.
+2005-07-11T13:51:00.000Z	jbailey		(Right now we do it twice)
+2005-07-11T13:53:00.000Z	spacey	jbailey	will that shorten the boottime much?
+2005-07-11T13:53:00.000Z	jbailey	spacey	Not alot, it can remove some boottime race conditions, I think.

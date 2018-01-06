@@ -1,0 +1,4 @@
+2010-05-31T18:40:00.000Z	lubuntu_user	loic	- i have similar problems in my laptop and the same via card. I guess it os not the video card, but the monitor, so i made a little xrandr script into my gdm - https://wiki.ubuntu.com/X/Config/Resolution .
+2010-05-31T18:42:00.000Z	lubuntu_user	loic	- But now I have different problems - no 3d (i guess it will not be fixed for the time being) and no Xv (X11 is the only option, but it is so slow, that i cannot watch any video)
+2010-05-31T18:44:00.000Z	lubuntu_user	loic	- try https://launchpad.net/~xorg-edgers/+archive/drivers-only if you thing the fault is into the the driver. For it wasn't.
+2010-05-31T18:49:00.000Z	loic	lubuntu_user	: how did you get the xrandr script to launch at startup but only after Xorg has started ?

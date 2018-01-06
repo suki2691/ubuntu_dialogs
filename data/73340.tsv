@@ -1,0 +1,4 @@
+2008-11-27T05:06:00.000Z	_cb		Will sudo dpkg –get-selections > /home/user/package.selections save things like my Evolution contacts or are those save in my home folder ? Trying to figure out how to do a clean install without loosing apps or settings.
+2008-11-27T05:07:00.000Z	_cb		So for a clean install I only need to tar my home folder, do an sudo dpkg –get-selections > /home/user/package.selections do the clean install copy home folder back and sudo dpkg –set-selections /home/package.selections && apt-get dselect-upgrade
+2008-11-27T05:08:00.000Z	_cb		What is /etc used for ?
+2008-11-27T05:09:00.000Z	snuitje	_cb	that was a test area for monkeys, they wrote a lot of random junk and the best of it ended up in /etc ^^

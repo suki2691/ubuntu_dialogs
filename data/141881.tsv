@@ -1,0 +1,4 @@
+2008-07-31T22:41:00.000Z	blue__		anyone know a good way to 'tidy' an ubuntu installation, i installed an uninstalled a load of stuff and there are files left behind
+2008-07-31T22:42:00.000Z	SeveredCross	blue__	dpkg -l | grep rc | cut -d ' ' -f2 | xargs apt-get purge might work.
+2008-07-31T22:42:00.000Z	SeveredCross		I'd check the output first though, I'm not sure if I got the cut comand right.
+2008-07-31T22:42:00.000Z	blue__	SeveredCross	thanks mate

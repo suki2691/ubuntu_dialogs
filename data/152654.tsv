@@ -1,0 +1,4 @@
+2007-09-24T11:44:00.000Z	sid		How can I check to see what is in the cron?
+2007-09-24T11:45:00.000Z	sid		This system is setup so mplayer plays this movie every 10 minutes, but I can't find out where it is starting from.
+2007-09-24T11:45:00.000Z	vulcanius	sid	cat /etc/crontab
+2007-09-24T11:46:00.000Z	vulcanius	sid	or you can use "crontab -u user -l" to list crontabs of each user

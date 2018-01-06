@@ -1,0 +1,4 @@
+2009-05-24T09:15:00.000Z	keshik		does anyone know of a piece of software that can monitor if a server is up?  as in, a tool that constantly pings and gives a green light when a ping is returned, red when it times out?  I've had quite a few on windows...
+2009-05-24T09:16:00.000Z	eseven73	keshik	webmin can email you when a service goes down, like FTP, Apache, and stuff, Ubuntu doesn't support it, but it works for about 97% of the services
+2009-05-24T09:17:00.000Z	eseven73	keshik	it also can play a sound, if the service goes down
+2009-05-24T09:22:00.000Z	eseven73	keshik	well I have it set up to monitor localhost, and the sound is local too, ummmm im not sure if it's able to do remote

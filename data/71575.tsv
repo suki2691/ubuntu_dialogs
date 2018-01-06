@@ -1,0 +1,4 @@
+2009-03-30T04:07:00.000Z	todd_r		Any way I can completely reset everything to do with graphics, the propriety nvidia driver used to work ok before I messed up by trying to install a newer one, now even if I reinstall it the screen is still messed up
+2009-03-30T04:08:00.000Z	Guest12053	todd_r	dpkg-reconfigure xserver-xorg
+2009-03-30T04:11:00.000Z	Guest12053	todd_r	That should reset xorg.conf
+2009-03-30T04:11:00.000Z	Guest12053	todd_r	Which should have priority over the autoconf

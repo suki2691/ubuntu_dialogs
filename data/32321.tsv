@@ -1,0 +1,4 @@
+2010-05-07T17:49:00.000Z	salil		Hi.. "rm -rf *.o" does not remove all ".o" files recursively if there are none at the top level directory.. What can be done?
+2010-05-07T17:51:00.000Z	salil		Hi.. "rm -rf *.o" does not remove all ".o" files recursively if there are none at the top level directory.. What can be done?
+2010-05-07T17:52:00.000Z	defswork	salil	find . -name '*.o' -print0 | xargs -0 rm
+2010-05-07T17:53:00.000Z	salil	defswork	Thanks a ton, works..

@@ -1,0 +1,4 @@
+2005-07-14T07:57:00.000Z	qt2		now then, how do i figure out what grub sees /dev/hdc5 as?
+2005-07-14T07:58:00.000Z	djm62	qt2	it uses its own system, if you do "info grub" you can find it
+2005-07-14T07:58:00.000Z	djm62	qt2	I think that would be (hd3,6) but check the page
+2005-07-14T07:59:00.000Z	djm62	qt2	a,b,c are counted from zero, and I think the partitions are as well

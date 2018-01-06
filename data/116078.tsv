@@ -1,0 +1,4 @@
+2008-11-11T04:19:00.000Z	kuro		I used dd to make a copy of my Ubuntu 8.10 partition to another partition on the same HD.  How do i add the new partition to Grub.  I transferred from sda4 to sda3 if that helps
+2008-11-11T04:20:00.000Z	owh	kuro	The menu.1st file in /boot/{mumble}
+2008-11-11T04:20:00.000Z	kuro	owh	What do i need to enter
+2008-11-11T04:21:00.000Z	owh	kuro	Have a look at the file, the HD(0,0) stuff is pointing to your partition. I cannot give you specifics, it's different for each OS and installation.

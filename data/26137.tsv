@@ -1,0 +1,4 @@
+2010-09-22T17:40:00.000Z	sKeith		i have process that wont die. tried kill -9 PID but still wont die.
+2010-09-22T17:42:00.000Z	sKeith		the process is holding a mount open and cannot umount until process gone. how do i kill zombie
+2010-09-22T17:43:00.000Z	maedox	sKeith	zombies as already dead. umount -f  if you're sure about it.
+2010-09-22T17:50:00.000Z	maedox	sKeith	no, don't force it. A reboot might be needed to get rid of the zombie.

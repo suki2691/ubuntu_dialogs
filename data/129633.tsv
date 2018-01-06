@@ -1,0 +1,4 @@
+2012-02-11T11:08:00.000Z	stacks`		with iptables if i wanted to block the ranges 166.(128-255).*.* would i use 166.128.0.0/9 or how would it go? like i know iptables -A input -s (IP) -d 0/0 -j DROP etc..
+2012-02-11T11:09:00.000Z	jetole	stacks`	first off 0/0 is a bad idea in iptables
+2012-02-11T11:09:00.000Z	jetole	stacks`	secondly, yes it accept CIDR ranges
+2012-02-11T11:10:00.000Z	jetole	stacks`	under what circumstances do you use 0/0

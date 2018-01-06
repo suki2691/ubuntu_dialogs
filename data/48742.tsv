@@ -1,0 +1,4 @@
+2009-09-11T15:02:00.000Z	frenkien		anyone tell me how to stop servives at line command
+2009-09-11T15:02:00.000Z	erUSUL	frenkien	sudo /etc/init.d/service stop
+2009-09-11T15:03:00.000Z	frenkien	erUSUL	 command to perminently turn off the service
+2009-09-11T15:03:00.000Z	erUSUL	frenkien	sudo update-rc.d -f service remove

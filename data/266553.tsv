@@ -1,0 +1,4 @@
+2009-10-17T21:17:00.000Z	stillbourne		I can't seem to get grub2 to boot windows. I placed the entry into 40_custom but now it doesn't display a menu at all it boots straight to kernel.
+2009-10-17T21:18:00.000Z	Dr_Willis	stillbourne	 check  /etc/default/grub    for a line like --> #GRUB_HIDDEN_TIMEOUT=0
+2009-10-17T21:18:00.000Z	Dr_Willis	stillbourne	 that will Unhide the grub menu
+2009-10-17T21:19:00.000Z	Dr_Willis	stillbourne	 dont forget to rerun update-grub after changing grub vconfigs

@@ -1,0 +1,4 @@
+2010-01-29T12:30:00.000Z	Damian		I have a quick question, since I dont know how to do it. I'm trying to change it to where I boot up nongui and only run gui if I type startx. Only thing I've been able to try is to change the runlevel to 3 but it doesnt change anything. I really dont know what I'm doing.
+2010-01-29T12:30:00.000Z	llutz	Damian	sudo update-rc.d -f gdm remove
+2010-01-29T12:31:00.000Z	llutz	Damian	changing runlevel won't work, since *buntu uses 2-5 the same way
+2010-01-29T12:36:00.000Z	llutz	Damian	sry no idea then. ask those clever guys who forced the use of upstart :(

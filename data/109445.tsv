@@ -1,0 +1,4 @@
+2008-05-21T19:26:00.000Z	ushimitsudoki		Why does the kernel set some of my USB ports to uhci rather than ehci? Is it safe for me just to blacklist uhci_hcd?
+2008-05-21T19:27:00.000Z	erUSUL	ushimitsudoki	uhci is for some usb 1.1 host chip devices (the others use ohci) ehci is for all USB 2.0 host chip devices
+2008-05-21T19:28:00.000Z	ushimitsudoki	erUSUL	right, but i should have all 2.0 controllers on my mobo (or that's what the mobo documentation says)
+2008-05-21T19:28:00.000Z	erUSUL	ushimitsudoki	many chips support 1.1 and 2.0 on the same chip so they use both (o|u)hci and ehci

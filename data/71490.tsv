@@ -1,0 +1,4 @@
+2009-01-25T04:30:00.000Z	djabbour		Anyone know what "VT_ACTIVATE operation not permitted" means? I'm trying to debug why this app won't work as a non-root user.
+2009-01-25T04:30:00.000Z	rww	djabbour	which app?
+2009-01-25T04:31:00.000Z	djabbour	rww	It's a binary which tests this library I'm using tslib. It reads from the touchscreen event input /dev/input/event5 and writes to the framebuffer /dev/fb0.
+2009-01-25T04:32:00.000Z	rww	djabbour	In a default Ubuntu setup, at least one of those /dev/ nodes isn't accessible by normal users. That's probably your issue.

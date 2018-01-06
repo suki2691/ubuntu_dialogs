@@ -1,0 +1,4 @@
+2009-04-20T22:11:00.000Z	metalfan_		sudo echo "quake3.x86 0 0 direct" > /proc/asound/card0/pcm0p/oss          why do i get permission denied?
+2009-04-20T22:12:00.000Z	Pici	metalfan_	sudo does not cross IO redirection operators, so do something like: echo foo | sudo tee /bar/baz
+2009-06-29T16:48:00.000Z	Pici	metalfan_	Not everyone here speaks english as their first language, try to be nice.
+2009-06-29T16:48:00.000Z	metalfan_	Pici	im german....but language gets treated like shit here

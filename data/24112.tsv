@@ -1,0 +1,4 @@
+2011-05-19T07:59:00.000Z	dojohnso		hey all, i've been on 11.04 for a week or so, keeping it up to date, and wireless has been fine until tonight. network controller is Intel Link 5100. any thoughts?
+2011-05-19T08:00:00.000Z	dojohnso		it's as if the wireless card doesn't exist. no list of networks, etc
+2011-05-19T08:01:00.000Z	rjune	dojohnso	lshw -C network Do you see it there?
+2011-05-19T08:01:00.000Z	dojohnso	rjune	i see *-network DISABLED, description: Wireless interface

@@ -1,0 +1,4 @@
+2007-02-10T13:57:00.000Z	zero88		mwe,hm in the ieee80211 directory the command sudo make patch_kernel works,but doesnt find the files wich are in the in-tree location.when i sudo make patch_kernel in the in-tree directory i get   make: *** No rule to make target `patch_kernel'.  Stop.
+2007-02-10T13:57:00.000Z	zero88		
+2007-02-10T13:58:00.000Z	pbureau	zero88	 you will need apt-get install build-essentials as well
+2007-02-10T14:00:00.000Z	zero88	pbureau	i think i do have the buildessentials becuase i have the make command

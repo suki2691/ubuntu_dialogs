@@ -1,0 +1,4 @@
+2011-03-05T03:46:00.000Z	deadkitten		why _doesn't_ eth0 show up in /dev, btw? I thought everything was a file in unix
+2011-03-05T03:46:00.000Z	ikonia	deadkitten	network cards don't
+2011-03-05T03:46:00.000Z	deadkitten	ikonia	i know, but why not?
+2011-03-05T03:47:00.000Z	ikonia	deadkitten	there is no need for a device file as network cards are not accessed through a block or character device file

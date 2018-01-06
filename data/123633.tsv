@@ -1,0 +1,4 @@
+2008-01-30T16:56:00.000Z	albec1		what can it be that cause my computer to randomly loose all connectivity.. it can ping itself, but not the router
+2008-01-30T16:56:00.000Z	albec1		i have been keeping an eye on the log files and they say nothing
+2008-01-30T16:58:00.000Z	albec1		im pinging the system from another one and when the nic crash i get 'no route to host'
+2008-01-30T17:00:00.000Z	Ziroday	albec1	next time that happens try sudo /etc/init.d/dbus restart

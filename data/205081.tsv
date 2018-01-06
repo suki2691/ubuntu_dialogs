@@ -1,0 +1,4 @@
+2008-11-18T05:48:00.000Z	Falstius	yoyo	if the drive is formatted ext3, you need to use chmod.
+2008-11-18T05:48:00.000Z	yoyo	Falstius	theres nothing i can set in the fstab to give root privledges?  Also how do i use chmod?
+2008-11-18T05:50:00.000Z	Falstius	yoyo	in fstab you can set who can mount and umount a partition, but to actually allow writing and reading you generally need to change the permissions (unless this is a NTFS drive).
+2008-11-18T05:50:00.000Z	Falstius	yoyo	for chmod, it would be something like chmod a+rwX /media/disk   but you should check the man page.

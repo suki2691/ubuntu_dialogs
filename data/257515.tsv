@@ -1,0 +1,4 @@
+2004-11-28T10:05:00.000Z	AwayDip		it's the only program that reads the esd.conf, so in ordr for it to start and read it, it needs to be started elsewhere... logic
+2004-11-28T10:05:00.000Z	lemsx1	AwayDip	libesd will start esd for you if you set auto_spawn to 1
+2004-11-28T10:06:00.000Z	lemsx1	AwayDip	that's not true... try it and see... it just creates problems in gnome when you set Start Sound Service to yes in Gnome's sound preferences
+2004-11-28T10:08:00.000Z	lemsx1	AwayDip	from "man esd":        auto_spawn

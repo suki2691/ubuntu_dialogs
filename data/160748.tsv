@@ -1,0 +1,4 @@
+2008-04-01T04:50:00.000Z	zx-sanji		any1 got an idea  ? when i try to remove the dhcp3-server pckg , the output error is like invoke-rc.d: initscript dhcp3-server, action "stop" failed.  ?
+2008-04-01T04:51:00.000Z	Jordan_U	zx-sanji	You can change the init script to just exit successfully
+2008-04-01T04:56:00.000Z	Jordan_U	zx-sanji	gksudo gedit /etc/init.d/dhcp3-server
+2008-04-01T04:58:00.000Z	Jordan_U	zx-sanji	Yes, but if you can't figure out why it is failing ( and you just want to remove the package ) you can just have the script exit before doing anything.

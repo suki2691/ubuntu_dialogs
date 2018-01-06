@@ -1,0 +1,4 @@
+2011-09-18T11:53:00.000Z	krunkosaurus		Whats the best way to get my ubuntu to always load headless
+2011-09-18T11:54:00.000Z	theadmin	krunkosaurus	Either remove any display managers from the boot sequence, or append "text" to the kernel line
+2011-09-18T11:55:00.000Z	krunkosaurus	theadmin	Thanks, how do I go about appending text to the kernel line?
+2011-09-18T12:02:00.000Z	theadmin	krunkosaurus	Runlevels are no longer supported

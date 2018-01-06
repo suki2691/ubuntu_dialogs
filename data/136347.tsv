@@ -1,0 +1,4 @@
+2007-05-17T14:55:00.000Z	DanaG		I'm trying to rsync an 8GB backup tree into a 10GB partition, yet I'm getting it filling all 10 gigs and failing.
+2007-05-17T14:56:00.000Z	\x6e\x65\x72\x64	DanaG	the 10gb drive probably has more stuff than the 8gb one
+2007-05-17T14:56:00.000Z	\x6e\x65\x72\x64	DanaG	are they both using the same filesystems?
+2007-05-17T14:58:00.000Z	\x6e\x65\x72\x64	DanaG	maybe you need -x

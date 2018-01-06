@@ -1,0 +1,4 @@
+2011-10-09T05:47:00.000Z	Slapshot		Hi I'm trying to access a Mac Journaled partition but ubuntu keeps spitting back that its read only. Ive tried chown root:root and chmod 777 over the drive and I still cant write to it. Any help?
+2011-10-09T05:47:00.000Z	Polah	Slapshot	Have you tried remounting it with defaults or rw as options?
+2011-10-09T05:48:00.000Z	Slapshot	Polah	I mounted it with this sudo mount -t hfsplus /dev/sdb2 /media/mac/
+2011-10-09T05:49:00.000Z	Polah	Slapshot	sudo mount -t hfsplus -o defaults /dev/sdb2 /media/mac

@@ -1,0 +1,4 @@
+2007-02-27T17:52:00.000Z	qos		hey guys ...
+2007-02-27T17:53:00.000Z	qos		there is a console command which always returns 3 lines ... but i only want to save the last line in a variable. how to do this via bash?
+2007-02-27T17:54:00.000Z	bimberi	qos	something like:   var = "`command | tail -1`"
+2007-02-27T17:55:00.000Z	qos	bimberi	thanks will try it :)

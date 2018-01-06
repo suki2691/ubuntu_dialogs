@@ -1,0 +1,4 @@
+2010-05-31T14:09:00.000Z	zeer		I want to shutdown the PC with a normal user. I have put this line into visudo 'zeer        ALL=NOPASSWD:/sbin/shutdown -h now', but he says only root can do that or if I place sudo before, he wants the root pw.
+2010-05-31T14:11:00.000Z	Flannel	zeer	"zeer ALL=(ALL) NOPASSWD: command-goes-here
+2010-05-31T14:11:00.000Z	Flannel	zeer	"
+2010-05-31T14:11:00.000Z	Flannel	zeer	see https://help.ubuntu.com/community/Sudoers for all sorts of good details

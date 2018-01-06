@@ -1,0 +1,4 @@
+2010-07-20T23:09:00.000Z	mleger		Hello all, I recently upgraded thunderbird to 3.1 on my Lucid 64 bit and as always I now need to find a lightning and provider for google calendar extensions that work. I get the following error when install lightning 1.02b "Lightning" could not be installed because it is not compatible with your Thunderbird build type (Linux_x86_64-gcc3). Has anyone encountered this issue and have a workaround they'd like to share?
+2010-07-20T23:10:00.000Z	edoceo	mleger	manually edit the extensions and set the manifest to allow your version
+2010-07-20T23:10:00.000Z	mleger	edoceo	can you be a little more specific or direct me to an online how-to?
+2010-07-20T23:11:00.000Z	edoceo	mleger	not really, I don't use that one.  But XPIs are zip files, unzip and edit, re-zip and put back in your extensions directory

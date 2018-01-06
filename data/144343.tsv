@@ -1,0 +1,4 @@
+2010-07-23T22:33:00.000Z	caotic		Hi, does anyone knows how can I enable ssh and sshfs as root remotely ?
+2010-07-23T22:34:00.000Z	th1	caotic	you can put an ssh key into root's .ssh directory
+2010-07-23T22:37:00.000Z	th1	caotic	first edit /etc/ssh/sshd_config and make sure PermitRootLogin is yes and then sudo passwd to set a password for root (or better sudo ssh-keygen to generate him a keypair)
+2010-07-23T22:37:00.000Z	caotic	th1	I see thanks a lot :D

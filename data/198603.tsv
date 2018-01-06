@@ -1,0 +1,4 @@
+2006-02-27T14:36:00.000Z	Nunquam_Fidelis		Is there a way to disable password protection of a Samba share?
+2006-02-27T14:37:00.000Z	LjL	Nunquam_Fidelis	what about an empty password? and why would you do that?
+2006-02-27T14:37:00.000Z	Nunquam_Fidelis	LjL	That would still require a username to be used though, right?
+2006-02-27T14:38:00.000Z	LjL	Nunquam_Fidelis	yes. to avoid that, you can set "share" level security. i think it's all explained in the samba howto. it boils down to putting "security = share" in the share config, though i don't think that's *quite* all there is to it

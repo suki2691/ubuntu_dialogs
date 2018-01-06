@@ -1,0 +1,4 @@
+2006-07-10T07:56:00.000Z	asdx		hi, i'm running ubuntu 6.06 on a athlon 64/via motherboard, the problem is, when i install the nvidia driver, and i change /etc/X11/xorg.conf, from nv to nvidia, and i start X, X hangs...
+2006-07-10T07:57:00.000Z	epod	asdx	are your OS and your nvidia driver both 32 or 64bit?
+2006-07-10T07:57:00.000Z	asdx	epod	ubuntu is 32 bits, and i installed the driver with apt-get, i think it should be 32 bit too
+2006-07-10T07:59:00.000Z	asdx	epod	i was using archlinux before, and i installed the driver with it's package manager, and it hanged too, after that i compiled a kernel and installed the nvidia driver manually (the 32 bit one) and worked fine

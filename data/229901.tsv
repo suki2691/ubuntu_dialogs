@@ -1,0 +1,4 @@
+2005-07-02T15:14:00.000Z	budluva		how can i pass a command on boot up? i have an old monitor so i need to manually adjust gamma by doing this xgamma -d :0 -gamma 3.0 everytime i boot my machine, is there somewhere i can place this line to exec at bootup?
+2005-07-02T15:15:00.000Z	monchichi	budluva	try /etc/init.d/bootmisc.sh
+2005-07-02T15:18:00.000Z	budluva	monchichi	where do you suggest i put that xgamma line in my bootmisc.sh? at the very end?
+2005-07-02T15:19:00.000Z	monchichi	budluva	at the end, unless you want to see the boot messages, then it should be in a different file altogether

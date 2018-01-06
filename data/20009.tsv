@@ -1,0 +1,4 @@
+2011-01-22T10:14:00.000Z	mintux		how can I find my usb path. suppose I connect a device to usb port. how can I know what is path of my that usb ? forexample /dev/tty.. what ?
+2011-01-22T10:15:00.000Z	willowave	mintux	I don't know the best answer but I've been using dmesg | tail after you hook the USB up, then /dev/sd* whatever you can figure out to be the usb
+2011-01-22T10:15:00.000Z	mintux		hmm
+2011-01-22T10:18:00.000Z	mintux	willowave	I got this http://codepad.org/eF9N6C5S what thing can in understand from it ? in lsusb I have http://codepad.org/YPPb9aHF and I need to know path of VOTI USBasp AVR Programmer

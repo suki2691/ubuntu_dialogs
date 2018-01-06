@@ -1,0 +1,4 @@
+2012-01-08T22:42:00.000Z	jpk		I installed OpenSSH on my ubuntu box and am trying to access it via FileZilla installed on Windows XP. Useing sftp it tries to connect to my ubuntu box but connection times out. I set the port to 2222 as suggest in the ubuntu article. I would like to be able to move files back and forth from Windows to my Ubuntu box. Anyone have the experience to help or can tell me where I can get questions answered?
+2012-01-08T22:42:00.000Z	jpk		Yes
+2012-01-08T22:44:00.000Z	jpk		My understanding was to edit the sshd_config file which the default value is 22 but I changed it to 2222.
+2012-01-08T22:44:00.000Z	llutz	jpk	sudo lsof -i :2222

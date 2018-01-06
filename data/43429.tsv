@@ -1,0 +1,4 @@
+2010-02-20T14:14:00.000Z	greezmunkey		OK, I have my /home contained on a seperate HDD. My guess is that if I were to umount /home I would lose all access i.e. gnome, etc. Am I correct?
+2010-02-20T14:15:00.000Z	darolu	greezmunkey	you'll loose all your preferences but gnome and other apps should be there
+2010-02-20T14:16:00.000Z	greezmunkey	darolu	are you saying that whilst logged on, as I am now, and then umounted /home this gnome session, all running programs, etc will keep running?
+2010-02-20T14:17:00.000Z	darolu	greezmunkey	yes, in theory all is loaded into your ram; but if you open an app that has to write to your /home you'll probably get an error

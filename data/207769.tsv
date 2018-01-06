@@ -1,0 +1,4 @@
+2007-09-11T09:45:00.000Z	gs246		hi.i try connect using ssh to my remote computer and i have error ssh: connect to host edison.bath.ac.uk port 22: Connection refuse
+2007-09-11T09:46:00.000Z	dystopianray	gs246	you need to forward port 22 to the local machine
+2007-09-11T09:46:00.000Z	dystopianray	gs246	do you have the ssh server started on the remote machine?
+2007-09-11T09:47:00.000Z	dystopianray	gs246	you need to install the openssh-server package

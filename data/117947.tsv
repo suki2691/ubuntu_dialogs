@@ -1,0 +1,4 @@
+2009-09-17T03:32:00.000Z	Argos		is there some command which will get rid of any cached programs that Ive already closed down to free up a bit more ram.
+2009-09-17T03:32:00.000Z	qwerkus	Argos	top or ps aux to check out the load
+2009-09-17T03:33:00.000Z	qwerkus	Argos	and than kill by id or killall by name
+2009-09-17T03:33:00.000Z	qwerkus	Argos	if you kill the app, the kernel frees the memory allocated to it

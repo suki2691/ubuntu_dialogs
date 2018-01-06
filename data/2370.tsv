@@ -1,0 +1,4 @@
+2012-06-21T07:00:00.000Z	Mandalord		airmail: whats your prob?
+2012-06-21T07:01:00.000Z	arimail	Mandalord	I'm getting a HDIO_GET_IDENTITY failed for /dev/sdb: Invalid argument And i'm trying to use edit parameters in Grub to find my disk. It's a Ubuntu intall on a USB external hdd disk. But I don't figure out what do change/do to be able to boot my ubuntu. Could someone please help me?
+2012-06-21T07:18:00.000Z	arimail	Mandalord	Hi. It says i could run some commands to mount the hdd manually. But all of these commands returns "unknown command"
+2012-06-21T07:29:00.000Z	Mandalord	arimail	One way to work temporarily is to remove "quiet splash" from the command line in the grub menu and press f10 to begin booting. When it fails and prints (initramfs) enter exit and the boot will continue.

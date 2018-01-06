@@ -1,0 +1,4 @@
+2010-03-05T05:59:00.000Z	shane_		hey all, anyone know how to check and see what video driver your using on buntu?
+2010-03-05T06:00:00.000Z	Sensiva	shane_	/var/log/Xorg.0.log
+2010-03-05T06:00:00.000Z	shane_	Sensiva	it says command not found
+2010-03-05T06:01:00.000Z	Sensiva	shane_	cat /var/log/Xorg.0.log | more

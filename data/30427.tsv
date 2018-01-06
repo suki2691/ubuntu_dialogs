@@ -1,0 +1,4 @@
+2010-09-21T02:45:00.000Z	jarlg		what's the difference between apt-get and aptitude? I recall aptitude was more preffered before?
+2010-09-21T02:46:00.000Z	VCoolio	jarlg	different handling of dependencies when uninstalling; aptitude has an ncurses interface
+2010-09-21T02:46:00.000Z	jarlg	VCoolio	So basically, stick to one of them?
+2010-09-21T02:47:00.000Z	VCoolio	jarlg	doesn't matter in this case, but if you use apt-get you need 'apt-get autoremove' to get rid of unneeded dependencies

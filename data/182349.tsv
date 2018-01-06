@@ -1,0 +1,4 @@
+2006-12-14T09:09:00.000Z	buzzy		sorry people can you say me if i have set well my grub? I would like to be able to boot windows partition. i have pasted fdisk -l and menu.lst content: http://rafb.net/paste/results/mSEqJT58.html
+2006-12-14T09:10:00.000Z	buzzy		ok hybrid  that says me: NTLDR is missing :S
+2006-12-14T09:12:00.000Z	buzzy		what to do?
+2006-12-14T09:12:00.000Z	stefg	buzzy	The section in /boot/grub/menu.lst is correct (only the comment is wrong). So you reinstalled windows and lost grub from the MBR... see !grub for help

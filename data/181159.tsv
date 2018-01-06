@@ -1,0 +1,4 @@
+2007-07-20T11:32:00.000Z	rsai		Can some one let me know about desktop manager, window manager difference / hierarchy.. I am seeing many buzz words like gnome, kde, xgl, xorg, enlightenment, metacity, compiz, beryl... :(.. completely lost.. any good links that talk about their hierarchy ?
+2007-07-20T11:32:00.000Z	bruenig	rsai	hierarchy?
+2007-07-20T11:33:00.000Z	bruenig	rsai	I will go through the list, gnome is a desktop environment, kde is a desktop environment, xgl is a hack of xorg that allows it to run gl stuff mainly good for ati cards, xorg is the x server it is the graphical server that controls everything from screen res to mouse, enlightenment is a window manager, metacity is a window manager and is part of the gnome desktop environment, compiz is a window manager
+2007-07-20T11:36:00.000Z	bruenig	rsai	x server is the underlying thing below all of that, if you don't have x server you can't use any of that stuff

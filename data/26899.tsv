@@ -1,0 +1,4 @@
+2010-08-28T03:11:00.000Z	ActionParsnip	kill3r3k	you can hold shift at boot and access recovery mode, you should be able to do it from there, or boot to livecd. chroot to the nistalled system and run it there
+2010-08-28T03:16:00.000Z	kill3r3k	ActionParsnip	I cant use recovery mode because I added vga=ask to GRUB_CMDLINE_LINUX and it affects recovery mode as well :/
+2010-08-28T03:16:00.000Z	ActionParsnip	kill3r3k	then you'll need the desktop cd (or another live cd distro) to chroot to the installed OS
+2010-08-28T04:16:00.000Z	ActionParsnip	kill3r3k	use the commands here, you can use the framebuffer driver: http://idyllictux.wordpress.com/2010/04/26/lucidubuntu-10-04-high-resolution-plymouth-virtual-terminal-for-atinvidia-cards-with-proprietaryrestricted-driver/   stop at the embedded video

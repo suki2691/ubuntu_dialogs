@@ -1,0 +1,4 @@
+2006-08-16T12:45:00.000Z	madmax		does anyone know how the modules are loaded at boot time? i tried to look in /etc/modules and /etc/init.d and i can't find a module i want to remove
+2006-08-16T12:46:00.000Z	madmax		i have two soundcards.. how do i remove one ?
+2006-08-16T12:47:00.000Z	neutrinomass	madmax	/etc/modprobe.d/blacklist if you don't want a module to be loaded ...
+2006-08-16T12:47:00.000Z	madmax	neutrinomass	thank you

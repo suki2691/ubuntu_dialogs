@@ -1,0 +1,4 @@
+2011-08-04T08:53:00.000Z	wrtiii		How do I search for a file using command line?
+2011-08-04T08:55:00.000Z	wrtiii		sudo find / -name mumble-django.db3   just returns me directly back to prompt
+2011-08-04T08:55:00.000Z	wrtiii		that mean it does not exist?
+2011-08-04T08:57:00.000Z	quiescens	wrtiii	probably, just note that find's -name option is for a complete match unless you explicitly add wildcards

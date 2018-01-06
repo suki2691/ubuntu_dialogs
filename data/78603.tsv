@@ -1,0 +1,4 @@
+2008-10-26T23:53:00.000Z	mmcji		I use putty to ssh from windows to my ubuntu box all the time to tunnel vnc.  This works perfectly.  However, I am having a problem doing the same thing from ubuntu to ubuntu, how should I set this up?
+2008-10-26T23:54:00.000Z	dany_21a_	mmcji	did you check the man pages of ssh? ("man ssh" on a console)
+2008-10-26T23:56:00.000Z	dany_21a_	mmcji	whats your ssh command line?
+2008-10-26T23:58:00.000Z	dany_21a_	mmcji	try  "ssh -L *:5900:localhost:5900 user@ip"

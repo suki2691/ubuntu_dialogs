@@ -1,0 +1,4 @@
+2009-09-10T03:49:00.000Z	ctmjr	Waseem	if it's in the repo apt-get install if not find a good kernel compiling guide and study it
+2009-09-10T03:51:00.000Z	Waseem	ctmjr	what command would i write? I have 2.6.24-24-generic and my wifi has problems with it, so i want to upgrade to linux-image-generic_2.6.27-4.6_i386 which some describe as a fix.
+2009-09-10T04:00:00.000Z	ctmjr	Waseem	try apt-cache search linux-image-generic_2.6.27-4.6_i386 see if it's there (which i doubt)
+2009-09-10T04:03:00.000Z	ctmjr	Waseem	sudo update-manager -d in terminal

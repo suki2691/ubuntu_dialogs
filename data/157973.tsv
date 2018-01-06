@@ -1,0 +1,4 @@
+2007-12-19T20:40:00.000Z	aj_		Hi, dont know if anyone recalls me - but I was here a couple of days back with problems running the nvidia binary drivers. I figured it out, and thought I should mention it here. It seems certain kernel boot options does not work well with the binary driver and thats what was causing me a problem previously
+2007-12-19T20:41:00.000Z	Slart	aj_	what did you find out.. what did you have to change to make it work?
+2007-12-19T20:44:00.000Z	aj_	Slart	i used to boot my laptop with acpi=off, cos the stock install will hang on bootup. i removed that, and i added noapic -- that allows me to boot up / run the binary drivers
+2007-12-19T20:45:00.000Z	Slart	aj_	ah.. ok... I don't use acpi=off.. haven't had any troubles with it.. but it's good to know.. thanks

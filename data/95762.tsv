@@ -1,0 +1,4 @@
+2008-06-10T13:34:00.000Z	soundray	powertool08	not sure, but you can find out by saving one under the name 'someuniquestring.m3u', and then running 'sudo updatedb ; locate someuniquetring.m3u'
+2008-06-10T13:34:00.000Z	powertool08	soundray	when it asks for a name it also asks for a location, which has changed from default
+2008-06-10T13:36:00.000Z	soundray	powertool08	in that case, you could stop xmms, do a 'mv ~/.xmms ~/xmms-backup', restart xmms and follow the procedure above (starting from a clean slate config-wise)
+2008-06-10T13:37:00.000Z	powertool08	soundray	anirudh0: thanks, i found them

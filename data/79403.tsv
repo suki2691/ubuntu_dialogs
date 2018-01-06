@@ -1,0 +1,4 @@
+2012-04-11T21:35:00.000Z	qubit[0|1]		hmm, I need some sort of bash trickery to make 'xvfb wkhtmltopdf' translate to just 'wkhtmltopdf' so I dont have to keep changing it on the server
+2012-04-11T21:36:00.000Z	qubit[0|1]		how do I alias xvfb to just do nothing, or possible just execute its argument
+2012-04-11T21:36:00.000Z	DasEi	qubit[0|1]	you want an alias in /etc/bash.bashrc
+2012-04-11T21:38:00.000Z	DasEi	qubit[0|1]	open that file as root, scroll down, enter a line like alias mycommand="this was the original ubuntu command" , save file, once in a new terminal, can use your mycommand expression

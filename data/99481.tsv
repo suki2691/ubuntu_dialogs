@@ -1,0 +1,4 @@
+2008-02-23T06:22:00.000Z	|Prometheus|		hi - how do i make a script, or command run right after grub, as the system boots - before any other script runs?
+2008-02-23T06:24:00.000Z	EnvoyRising	|Prometheus|	http://ubuntu.wordpress.com/2005/09/07/adding-a-startup-script-to-be-run-at-bootup/
+2008-02-23T06:27:00.000Z	|Prometheus|	EnvoyRising	thank you. but i think i need the script to run before anything else... Ill explain my problem. I am getting DMA timeouts on y old hdd (/dev/hda).. i have appended kernel string to use ide=nodma, but still get the timeouts.. i have also tried /etc/hdparm.conf and added /dev/hda dma=off but still get the timeout. its very frustrating as it has increased my boot tie by almost two inutes
+2008-02-23T06:29:00.000Z	EnvoyRising	|Prometheus|	could always just recompile a kernel without that module, right?

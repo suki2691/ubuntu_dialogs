@@ -1,0 +1,4 @@
+2005-09-20T11:29:00.000Z	peter_		Please  help, i have just compiled intels acpi tool, but when i want to use it i get this errorpeter@ubuntu:~/sbs-cm-20050328$ iasl -d dsdt.dat
+2005-09-20T11:29:00.000Z	peter_		bash: iasl: command not found
+2005-09-20T11:29:00.000Z	peter_		why is that??
+2005-09-20T11:30:00.000Z	dbzdeath	peter_	try ./iasl -d dsdt.dat

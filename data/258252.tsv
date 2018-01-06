@@ -1,0 +1,4 @@
+2005-06-16T09:10:00.000Z	Stuttergart		Anyone done a Sarge -> Hoary migration and been able to get the apt signing stuff to work ?
+2005-06-16T09:10:00.000Z	bob2	Stuttergart	you need to sort out the key manually
+2005-06-16T09:11:00.000Z	Stuttergart	bob2	Is there a document on what needs to be done?
+2005-06-16T09:11:00.000Z	bob2	Stuttergart	gpg --import <whateverkeyiditomcplainsabout> ; gpg --export <whateverkeyiditomcplainsabout> | sudo apt-key add -

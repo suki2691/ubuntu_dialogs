@@ -1,0 +1,4 @@
+2009-09-21T03:03:00.000Z	carl1408		!pulseaudio
+2009-09-21T03:04:00.000Z	carl1408		I think pulseaudio is causing a problem for me?  Should I try to just turn it off?
+2009-09-21T03:04:00.000Z	carl1408		How do I turn off pulseaudio?  Just uninstall with apt-get?
+2009-09-21T03:05:00.000Z	maritim	carl1408	I threatened it with a sledgehammer, and as a matter of fact it helped. However I'd recommend uninstalling it (sudo aptitude uninstall pulseaudio) and just reboot

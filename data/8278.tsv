@@ -1,0 +1,4 @@
+2011-12-01T19:18:00.000Z	Pici	cari_veri_ud	it does, but your current login manager will not be replaced if this is an upgrade. Use sudo dpkg-reconfigure lightdm to choose a different login manager
+2011-12-01T19:21:00.000Z	cari_veri_ud	Pici	MonkeyDust, I jsut found the lightdm.conf and it says user-session=xubuntu which could be part of the problem.
+2011-12-01T19:23:00.000Z	Pici	cari_veri_ud	IF you are talking about your plymouth boot splash you can change it by using the following:  « sudo update-alternatives --config
+2011-12-01T19:23:00.000Z	Pici	cari_veri_ud	er.. that got cutoff

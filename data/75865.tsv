@@ -1,0 +1,4 @@
+2009-08-17T13:08:00.000Z	jason__	kbp	you can try "$ sudo apt-get upgrade &", followed by "$ disown", although it might need to be "$ sudo disown"
+2009-08-17T13:08:00.000Z	jason__	kbp	but you still need to connect to the server to run that command; if you want to run updates automatically, go with ActionParsnip's cron suggestion
+2009-08-17T13:09:00.000Z	kbp	jason__	: so if i use sudo apt-get upgrade & disown, then I dont need to keep the connection after i run that command right? I dont mind to connect to it to execute a command
+2009-08-17T13:10:00.000Z	jason__	kbp	that's right.  screen (as ActionParsnip suggested) is another good option; you can reconnect and check on its progress.  With disown, it's difficult to see what's going on with your process after you disown it.

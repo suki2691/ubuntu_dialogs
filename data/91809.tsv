@@ -1,0 +1,4 @@
+2009-07-28T17:51:00.000Z	orschiro		hi guys, I booted from the current live iso and wanted to backup my /home that currently is stored on the root partition on a usb media. a sudo cp -a copies my whole home but it does not save the personal file rights. how can I copy them too?
+2009-07-28T17:53:00.000Z	orschiro		it gaves me the output that it can not gain the owner
+2009-07-28T17:53:00.000Z	joaopinto	orschiro	cp -a does keep privileges, unless your destionation is not ext3
+2009-07-28T17:53:00.000Z	joaopinto	orschiro	if the target is not unix-capable, like ntfs, you will need to use archiving, like tar

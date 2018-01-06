@@ -1,0 +1,4 @@
+2005-10-27T06:28:00.000Z	HiddenWolf		I've removed my /dev/hda, so now I need to teach grub to boot from hd(0,0) rather than hd(1,0) - I've updated device.map, ran update-grub and grub-install, but it's still not fixed.
+2005-10-27T05:32:00.000Z	HiddenWolf		guys, how do I create a boot floppy from linux?
+2005-10-27T05:34:00.000Z	[Chameleon] 	HiddenWolf	mkboot
+2005-10-27T05:34:00.000Z	[Chameleon] 	HiddenWolf	man mkboot

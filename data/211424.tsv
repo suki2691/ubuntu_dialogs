@@ -1,0 +1,4 @@
+2005-10-21T12:26:00.000Z	PatrikJohansson		when i try to access my ntfs partition mounted as ro at /media i get this error msg :"You do not have the permissions necessary to view the contents of "sda1""
+2005-10-21T12:26:00.000Z	PatrikJohansson		any ideas??
+2005-10-21T12:27:00.000Z	SEJeff	PatrikJohansson	add uid=1000 to the end of your mount options
+2005-10-21T12:27:00.000Z	SEJeff	PatrikJohansson	How are you mounting the drive?

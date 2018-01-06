@@ -1,0 +1,4 @@
+2006-10-17T08:36:00.000Z	pak-x		how can i use my swap? i have not created a swap partition on install -.- yes it hurts ;-) but now i have created a new swap with partition magic. how can i use it now? because i dont want to reinstall ubuntu
+2006-10-17T08:38:00.000Z	pak-x		yes i also have "windows"... sorry ;-)
+2006-10-17T08:38:00.000Z	KenSentMe	pak-x	i think you can go to System|Administration|Drives
+2006-10-17T08:41:00.000Z	KenSentMe	pak-x	run sudo gedit /etc/fstab in terminal and then put the line /dev/hda5 none swap sw 0 0 in there

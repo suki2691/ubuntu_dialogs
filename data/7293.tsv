@@ -1,0 +1,4 @@
+2011-12-07T15:53:00.000Z	trapni		hey guys, I'm having a ubuntu server here, with kernel version 2.6.24-16-server, and I need its source code. I can't find it via `dpkg -l | grep linux-` - so how do I get this kernels source code?
+2011-12-07T15:55:00.000Z	deej1976	trapni	apt-get install linux-source ?
+2011-12-07T15:55:00.000Z	deej1976	trapni	sudo apt-get install linux-source ?
+2011-12-07T15:56:00.000Z	trapni	deej1976	ai, thanks :)

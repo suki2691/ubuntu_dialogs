@@ -1,0 +1,4 @@
+2009-01-09T19:53:00.000Z	Zehava		I have index.php and portal.php both in my /var/www/ I need portal.php to show up when people enter the site, but it goes directly to index.php instead.  How can I change this please?
+2009-01-09T19:55:00.000Z	Pici	Zehava	You'll need to modify apache's behavior for this directory.  #apache and the the documentation apache.org should be able to help you there.  .htaccess may be helpful as well.
+2009-01-09T19:55:00.000Z	Zehava	Pici	thank you
+2009-01-09T20:00:00.000Z	Pici	Zehava	'not really' see: http://librenix.com/?inode=21

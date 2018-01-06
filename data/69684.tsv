@@ -1,0 +1,4 @@
+2012-06-06T08:57:00.000Z	sacarlson	wereHamster	I think you add the -y param to apt-get to force yes
+2012-06-06T09:00:00.000Z	wereHamster	sacarlson	no, -y does not fix it.
+2012-06-06T09:00:00.000Z	wereHamster	sacarlson	I'm trying -o Dpkg::Options::="--force-confnew" now
+2012-06-06T09:01:00.000Z	sacarlson	wereHamster	if like mysql it needs values to login then I'm not sure

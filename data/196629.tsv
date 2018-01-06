@@ -1,0 +1,4 @@
+2006-10-28T07:53:00.000Z	foomonkey		I am having a rough time with apt-get. It keeps dying saying "files list file for package 'libmusicbrainz4c21' is missing final newline." Where is this 'files list' and how can I fix it?
+2006-10-28T07:54:00.000Z	chuckyp	foomonkey	sudo apt-get update  then try again
+2006-10-28T07:54:00.000Z	chuckyp	foomonkey	if not it could be that the repos are getting hammered right now as well.
+2006-10-28T07:54:00.000Z	chuckyp	foomonkey	sudo apt-get clean and sudo apt-get update  then try again.  If not try aptitude sudo aptitude update && sudo aptitude install packagename

@@ -1,0 +1,4 @@
+2012-11-19T17:28:00.000Z	zhufeng		hello
+2012-11-19T17:30:00.000Z	zhufeng		seems that multimedia keys are powered by kernel driver
+2012-11-19T17:32:00.000Z	zhufeng		I found a very strange problem about the multimedia keys, a Acer Aspire 4750G laptop, Fn+arrow keys don't function well, I have to edit /etc/default/grub to modify the kernel_cmd to make it work
+2012-11-19T17:33:00.000Z	balveda	zhufeng	and which userland pkg uses the kernel driver for the multimedia keys? Its not all just  kernel functionality, it has to be userland too...

@@ -1,0 +1,4 @@
+2010-12-24T20:56:00.000Z	LinuxGold		what is apt command to use to reinstall pacakage that also recover the deleted files i.e. /etc/samba/* ?
+2010-12-24T20:56:00.000Z	KM0201	LinuxGold	i believe you'd want to purge it.
+2010-12-24T20:57:00.000Z	KM0201	LinuxGold	if i'm not mistaken, that will purge all settings, and make it like a new install
+2010-12-24T20:57:00.000Z	KM0201	LinuxGold	sudo apt-get purge packagename

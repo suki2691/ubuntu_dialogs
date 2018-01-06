@@ -1,0 +1,4 @@
+2012-03-29T22:02:00.000Z	btorch		anyone here using raid controllers with lucid on a 3.0.X kernel ? I have 3 PERCs , 1 integrated and two H800 pci ... for some reason with 3.0 the H200 devices are now seen last
+2012-03-29T22:03:00.000Z	dackyshawn	btorch	do  they show up in the RAID card's BIOS?
+2012-03-29T22:04:00.000Z	btorch		the h200 (integrated) used to be sda and sdb ... now they come as sdcm and sdcn after the 90 drives from the jbods are mounted
+2012-03-29T22:04:00.000Z	btorch	dackyshawn	the drives show up just fine ... it's just that how the kernel decided to re-order everything

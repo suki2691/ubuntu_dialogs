@@ -1,0 +1,4 @@
+2010-09-30T03:37:00.000Z	acicula		err, sudo modprobe iwl3945
+2010-09-30T03:39:00.000Z	acicula		if modprobe fails to load the drievr it should output it there
+2010-09-30T03:41:00.000Z	acicula		but the firmware that matches that driver may be different from the one thats distributed with the kernel you have in use, so you may have to change that also
+2010-09-30T03:42:00.000Z	Master	acicula	modprobe -f (force) maybe

@@ -1,0 +1,4 @@
+2008-09-06T05:39:00.000Z	Brucee		whats the command to restart php in ubuntu?
+2008-09-06T05:40:00.000Z	RyanPrior	Brucee	PHP is an interpreter - it gets restarted for each script it runs.
+2008-09-06T05:41:00.000Z	RyanPrior	Brucee	If you're using mod_php, then you have to restart Apache.
+2008-09-06T05:41:00.000Z	RyanPrior	Brucee	sudo invoke-rc.d apache2 restart

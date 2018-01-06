@@ -1,0 +1,4 @@
+2009-02-23T08:58:00.000Z	felixsulla		So, I have a folder I want to make permissions avail for my normal login to read/write/execute. I did gksudo nautilus to run nautilus as root, but when try to change the owner of the directory it just changes it right back to root. What do I need to do?
+2009-02-23T08:58:00.000Z	rww	felixsulla	what type of filesystem is the folder on? ext2/3, ntfs, etc.?
+2009-02-23T08:59:00.000Z	felixsulla	rww	Ok, stupid question.. how do I check that :/
+2009-02-23T09:00:00.000Z	rww	felixsulla	the "mount" command in terminal will show a list of all mounted filesystems. If you know the folder path (e.g. /media/disk/foo/bar), you can match that up to the right line, then the filesystem type is right after it.

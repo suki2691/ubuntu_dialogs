@@ -1,0 +1,4 @@
+2006-01-20T17:12:00.000Z	s1		Is there a way to override the filepermissions to 0775 and the group to "users" in a folder for all files that are saved there?
+2006-01-20T17:14:00.000Z	tonyyarusso	s1	sudo chmod -R 775 /pathtofolder && sudo chown nobody:users /pathtofolder
+2006-01-20T17:18:00.000Z	s1	tonyyarusso	alright, will that work for the future och is that for the present file in the folder?
+2006-01-20T17:20:00.000Z	tonyyarusso	s1	You can do that any time, as long as you have the absolute or relative path to what you want right.  The switch -R means recursive, meaning it will do that to the entire directory.

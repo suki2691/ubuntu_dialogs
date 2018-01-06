@@ -1,0 +1,4 @@
+2006-07-23T14:23:00.000Z	minerale		Hi, what package do I install to get the nvidia drivers ?
+2006-07-23T14:24:00.000Z	minerale		paladine: I seem to have installed nvidia glx but it does not seem to be using the driver
+2006-07-23T14:25:00.000Z	zealot	minerale	sudo nvidia-glx-config enable
+2006-07-23T14:26:00.000Z	zealot	minerale	that is all you should have to do and then just restart X with CTRL ALT Backspace

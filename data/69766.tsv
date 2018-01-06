@@ -1,0 +1,4 @@
+2009-01-06T01:32:00.000Z	memenotyou		how do I give a user sudo privledges from the command line?
+2009-01-06T01:33:00.000Z	hwilde	memenotyou	the user has to be added to the admin group
+2009-01-06T01:33:00.000Z	memenotyou	hwilde	 how do I do that from the command line?
+2009-01-06T01:34:00.000Z	hwilde	memenotyou	add the username to the admin: line in the file /etc/group

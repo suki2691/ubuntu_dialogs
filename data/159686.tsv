@@ -1,0 +1,4 @@
+2007-07-10T07:23:00.000Z	r0dzilla		I was able to install Ubuntu using the alternate cd but all I'm getting is a blank screen with a blinking power light, I know this is some problem with X or the mode it's trying to use but I have been able to get it up and running twice by messing with the grub boot options but I haven't narrowed down what changes are making it come up
+2007-07-10T07:23:00.000Z	h1st0	r0dzilla	edit the xorg.conf and change the video settings.  Like try vesa for a driver and see if that helps.
+2007-07-10T07:31:00.000Z	h1st0	r0dzilla	what type of video card are you trying to get working?
+2007-07-10T07:35:00.000Z	h1st0	r0dzilla	yes it should be on your grub list

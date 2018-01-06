@@ -1,0 +1,4 @@
+2006-12-26T07:33:00.000Z	Kilzin		Hey guys, I just burned the 6.06 Ubuntu Live CD and I have problems loading X when not in Safe Graphics Mode. I'm quite new to Linux. Could anyone help?
+2006-12-26T07:33:00.000Z	apokryphos	Kilzin	what's the error that you get?
+2006-12-26T07:35:00.000Z	Kilzin	apokryphos	When Gnome is supposed to load, I get a blue and red screen with tons of weird symbols and it says X has had problems with configuration. I've also read it involves xorg.conf but I guess you know that.
+2006-12-26T07:36:00.000Z	apokryphos	Kilzin	curious. I recommend doing this when it happens: <ctrl><alt><f1> and then typing sudo dpkg-reconfigure xserver-xorg, and just walk through the wizard. More info here:

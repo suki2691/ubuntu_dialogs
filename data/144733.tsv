@@ -1,0 +1,4 @@
+2011-06-01T23:34:00.000Z	Pici	Smashcat	apt-cache search, apt-file search, most of the time the packages are in lib$something format.  You're probably looking for zlibc, or if you're compiling something: zlib1g-dev
+2011-06-01T23:37:00.000Z	Smashcat	Pici	Thanks - searching for libz or zlib gives hundreds of options so i just did this : apt-cache search libz | awk '{print "apt-get install " $1} | /bin/sh
+2011-06-01T23:38:00.000Z	Pici	Smashcat	Er. I wouldn't do that if I were you.  Often packages will replace one another, and you could put your system in an unusable state doing so.
+2011-06-01T23:38:00.000Z	Smashcat	Pici	: Just figured at least one of those should include the lib ;-)

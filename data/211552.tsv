@@ -1,0 +1,4 @@
+2011-06-28T02:08:00.000Z	lnb		ok, here is what i did to gain root access after screwing up sudoers file. boot to install cdrom, try it as demo, find UID for / partition, open shell, vi /media/somelongnumber/etc/sudoers  fix line, save/exit/reboot.
+2011-06-28T02:08:00.000Z	lnb		and it worked just fine :)
+2011-06-28T02:08:00.000Z	lnb		sudo su #
+2011-06-28T02:09:00.000Z	Dulak	lnb	'sudo -i'

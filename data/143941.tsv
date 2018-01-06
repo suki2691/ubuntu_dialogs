@@ -1,0 +1,4 @@
+2011-01-04T06:45:00.000Z	qwebirc40302		So I've been looking through some logs...
+2011-01-04T06:45:00.000Z	qwebirc40302		 Address 205.234.228.97 maps to server.rticams.net, but this does not map back to the address - POSSIBLE BREAK-IN ATTEMP
+2011-01-04T06:45:00.000Z	qwebirc40302		what exactly is going on?
+2011-01-04T06:47:00.000Z	stew	qwebirc40302	someone from the ip address 205.234.228.97 tried to connect to your machine.  when you lookup the name associated with that ip address, you get server.rticams.net, but the ip address associated with that name is 64.202.189.170 not 205.234.228.97.  so your server is concerned that someone is trying to impersonate server.rticams.net

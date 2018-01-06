@@ -1,0 +1,4 @@
+2008-12-07T09:29:00.000Z	jtaji		Decepticon: if the one machine doesn't have public keys, then first run ssh-keygen -t rsa
+2008-12-07T09:29:00.000Z	jtaji		Decepticon: ssh-copy-id does the pubkey copying into the remote machine's authorized_keys
+2008-12-07T09:30:00.000Z	Decepticon_	jtaji	which ssh-keygen command am i supposed to use, everyone keeps saying different things, some say ssh-keygen -d, some say ssh-keygen -t rsa, some say ssh-keygen -t dsa... which one is the one i need and why
+2008-12-07T09:34:00.000Z	Decepticon_	jtaji	it doesnt matter, ive tried ssh-kegen -t rsa and dsa and ssh-keygen -d and plain ssh-keygen, if i do the same commands on both machines, still only B can log onto A without being assked for a password, whereas A is asked for a password when trying to get onto B, whats the use of keys if i have to type a password

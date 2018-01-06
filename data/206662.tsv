@@ -1,0 +1,4 @@
+2007-11-19T04:07:00.000Z	digilink		how can I tell which drive in my system grub considers to be hd0? (I have multiple drives and want the bootloader to be installed on a specific one)
+2007-11-19T04:08:00.000Z	digilink		pelo: ok, how would I install it to say sdc? would it be hd2?
+2007-11-19T04:08:00.000Z	sethk	digilink	there is a mapping file in /boot/grub that maps hd# to devices
+2007-11-19T04:08:00.000Z	sethk	digilink	called /boot/grub/device.map

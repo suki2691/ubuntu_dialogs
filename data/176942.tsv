@@ -1,0 +1,4 @@
+2006-11-03T17:47:00.000Z	azureal		lo, i'm compiling a kernel.. but in various ubuntu guides online i'm seeing recommendations to use make-kpkg and then install .deb files..... can't i also do   make, make modules_install, make install ...?
+2006-11-03T17:49:00.000Z	plugwash	azureal	there is nothing to stop you installing kernels manually, it just means you have to clean up manually too ;)
+2006-11-03T17:50:00.000Z	azureal	plugwash	oh, so should i have used the make-kpkg method?
+2006-11-03T17:53:00.000Z	azureal	plugwash	they recommend "make menuconfig", "make-kpkg clean" (not sure if i need this), "make-kpkg --initrd --append-to-version=custom1 kernel_image kernel_headers", and then afterwards install the headers and image .deb files w/ dkpg

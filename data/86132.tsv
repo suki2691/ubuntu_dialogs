@@ -1,0 +1,4 @@
+2008-07-31T18:59:00.000Z	ATA_Dark_Shadow		greetings, what would be the mount command to mount /dev directly, without an init script?
+2008-07-31T19:00:00.000Z	xnv	ATA_Dark_Shadow	You can mount /dev?
+2008-07-31T19:00:00.000Z	ATA_Dark_Shadow		i need to basically, my udev isnt starting as /dev seems to has the wrong fs
+2008-07-31T19:03:00.000Z	ATA_Dark_Shadow	xnv	what i need : the "usual" line udev on /dev type tmpfs (rw,mode=0755) when i enter #mount, however it seems that it is not mounted because

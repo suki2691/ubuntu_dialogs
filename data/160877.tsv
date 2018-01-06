@@ -1,0 +1,4 @@
+2011-04-28T09:17:00.000Z	Herbs		<renancoelho> so you cant cd to /etc/init whats the message displayed?
+2011-04-28T09:17:00.000Z	Jordan_U	Herbs	This has nothing to do with $PATH, his root filesystem wasn't mounted properly and he's at an initramfs / busybox shell.
+2011-04-28T09:19:00.000Z	Jordan_U	Herbs	The initramfs doesn't contain fsck.
+2011-04-28T09:20:00.000Z	Jordan_U	Herbs	And so he won't be able to "boot into single user mode and run fsck". fsck is on his root filesystem, which isn't mounting properly at boot.

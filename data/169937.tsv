@@ -1,0 +1,4 @@
+2007-05-02T13:37:00.000Z	Zilus		anyone knows, why i can see networks using $ sudo iwlist eth1 scan, under ubuntu edgy, and not see anything under net-manager-gnome
+2007-05-02T13:38:00.000Z	Zilus		its a bcm43xx under ndiswrapper
+2007-05-02T13:38:00.000Z	macogw	Zilus	why are you using ndiswrapper?
+2007-05-02T13:38:00.000Z	macogw	Zilus	you dont need ndiswrapper for that.  NM doesnt always play nice with ndiswrapper

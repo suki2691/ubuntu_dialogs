@@ -1,0 +1,4 @@
+2010-05-27T20:03:00.000Z	getxsick		how to change a pendrive label? currently it's being mounted in /media/4A0B-612D
+2010-05-27T20:04:00.000Z	edbian	getxsick	You can edit the label using gparted but I think you might have to repartition it...
+2010-05-27T20:05:00.000Z	getxsick	edbian	hmm before i reinstall Ubuntu (9.04 previously) i had a different label. Maybe something in /etc/fstab?
+2010-05-27T20:05:00.000Z	edbian	getxsick	You can create an entry for it in /etc/fstab and then it will be mounted in whatever folder you want.  It will still have that label though, you just probably won't see it anywhere.

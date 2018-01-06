@@ -1,0 +1,4 @@
+2010-10-17T14:25:00.000Z	Jigal		how to check wether xdebug is installed?
+2010-10-17T14:26:00.000Z	psycho_oreos	Jigal	dpkg -l xdebug
+2010-10-17T14:27:00.000Z	Jigal	psycho_oreos	when i do that it says no packages found matching xdebug but when i do pecl install xdebug it says that it is already installed
+2010-10-17T14:28:00.000Z	psycho_oreos	Jigal	it might be installed under another name, try dpkg -l xdebug* or something

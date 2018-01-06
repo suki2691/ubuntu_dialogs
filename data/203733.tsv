@@ -1,0 +1,4 @@
+2010-03-23T10:40:00.000Z	Logicwax		got a question:  i have fake that ubuntu does great at mounting at /dev/mapper/sil_nfjafrfqqq.   if i format it directly, without a partition table (mkfs.ext4) it works great.   my problem is when i put a partition table on it, it'll only mount after reboot if i do "sudo partprobe"
+2010-03-23T10:40:00.000Z	Logicwax		why do i need to do this at every reboot?
+2010-03-23T10:41:00.000Z	Logicwax		fake = fakeraid
+2010-03-23T10:41:00.000Z	Kian	Logicwax	you can also use software raid

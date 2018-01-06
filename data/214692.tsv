@@ -1,0 +1,4 @@
+2005-10-16T09:20:00.000Z	gleesond		I just installed ubuntu and I was wondering what the command was to update. is there something like yum for fedora. also I didn't set a root password, and now that I'm on the machine I cant gain root privleges for anything
+2005-10-16T09:20:00.000Z	gleesond		i.e. my nfts partition
+2005-10-16T09:21:00.000Z	daved	gleesond	apt-get update; apt-get upgrade
+2005-10-16T09:21:00.000Z	daved	gleesond	and you should be able to    sudo anything from your user

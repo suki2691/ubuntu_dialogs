@@ -1,0 +1,4 @@
+2006-11-02T06:17:00.000Z	karl		hi, I just dist-upgraded from dapper to edgy, it all looked good, nice new fonts, everything still worked, then I rebooted.  Now my x server is broken, as well as my wireless.  apt-get dist-upgrade again just says that a bunc of packages have been "held back" included xserver-xorg-core. any ideas?
+2006-11-02T06:17:00.000Z	LjL	karl	do you have any third-party repositories enabled? do you have the ubuntu-desktop package installed?
+2006-11-02T06:18:00.000Z	karl	LjL	nope, just a dapper config with s/dapper/edgy/g
+2006-11-02T06:19:00.000Z	LjL	karl	i'd make sure you have ubuntu-desktop installed. "apt-cache policy ubuntu-desktop", otherwise install it

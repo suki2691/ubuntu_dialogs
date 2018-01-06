@@ -1,0 +1,4 @@
+2008-11-18T16:54:00.000Z	sKeiths		is there anyway I can use the 7.10 apt-get package database for 8.10?
+2008-11-18T16:55:00.000Z	fde	sKeiths	no
+2008-11-18T16:55:00.000Z	fde	sKeiths	well, correction, you can, but you'd have to re-compile everything, the binaries wouldn't work
+2008-11-18T16:56:00.000Z	fde	sKeiths	you can add a 7.10 source repo... then apt-get -b source ee -t <whatever_7.10_codename_was>

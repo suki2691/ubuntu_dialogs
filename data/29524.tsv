@@ -1,0 +1,4 @@
+2010-07-03T00:27:00.000Z	spaes		Hi, I have a desktop with a new install of 10.04. I want to install the latest Nvidia drivers so in order to stop X server, I have tried both gdm stop and init 3. init 3 does nothing, gdm stop starts but then hangs at "Checking battery state..."  This is a desktop machine with no battery. what can i do to avoid this check? i have looked into acpi and apm but can't figure those out
+2010-07-03T00:27:00.000Z	sebsebseb	spaes	uhmm  thing is
+2010-07-03T00:27:00.000Z	sebsebseb	spaes	since its 10.04  if you successfuly get the propritary driver installed, your boot up may mess up big time!
+2010-07-03T00:30:00.000Z	spaes	sebsebseb	i am trying to install the CUDA toolkit for some GPU development stuff, I read that CUDA needs the latest version of the drivers, not the ones made for Ubuntu... so i hope i can get it to work, though it is proprietary

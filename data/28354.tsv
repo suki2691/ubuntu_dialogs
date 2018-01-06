@@ -1,0 +1,4 @@
+2011-08-07T04:34:00.000Z	ski_		since the default behaviour has changed, i'm assuming there's an option to get the old behaviour, but i don't know what it is
+2011-08-07T04:36:00.000Z	qin	ski_	http://www.linuxforums.org/forum/red-hat-fedora-linux/22464-ls-output-order.html something to do with locale, or: for i in `ls -a` ; do echo $i | grep "^\."; done; ls -1
+2011-08-07T04:39:00.000Z	ski_	qin	: wouldn't that snippet only print dot-files ?
+2011-08-07T04:39:00.000Z	qin	ski_	thune3 ismore elegant with -v

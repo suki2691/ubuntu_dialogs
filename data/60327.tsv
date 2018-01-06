@@ -1,0 +1,4 @@
+2011-01-14T12:26:00.000Z	fratzbc		can anybody tell me where this is failing:: CHECK_USER=`echo $1 | egrep '(root|nxs|$USER)'` :: where the $1 is an ssh command with my user id... but it fails because $USER is not getting my linux user id
+2011-01-14T12:27:00.000Z	celthunder	fratzbc	echo $USER
+2011-01-14T12:27:00.000Z	celthunder		does it return the id
+2011-01-14T12:27:00.000Z	fratzbc	celthunder	yep

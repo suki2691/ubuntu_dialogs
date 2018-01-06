@@ -1,0 +1,4 @@
+2007-05-10T08:59:00.000Z	cblack0		I want to use apt-get to download the binary (not source) .deb files for a package I already have installed. I have tried: apt-get -d --force-yes install package with no luck. Does anyone have any tips?
+2007-05-10T09:00:00.000Z	leagris	cblack0	apt-get install --reinstall package
+2007-05-10T09:00:00.000Z	cblack0	leagris	adding in the -d flag to just dl I assume?
+2007-05-10T09:00:00.000Z	cblack0	leagris	I don't want to actually change the local system at all in terms of installation, just download the .deb to put it on a cd

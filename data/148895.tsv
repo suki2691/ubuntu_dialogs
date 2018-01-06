@@ -1,0 +1,4 @@
+2009-06-09T04:55:00.000Z	ge0rge007		hello!
+2009-06-09T04:56:00.000Z	ge0rge007		could anyone tell me the difference between : "sed '/^$/d' file" and "sed '/^ *$/d' file"?
+2009-06-09T04:58:00.000Z	unop	ge0rge007	both allow for an empty line to be deleted - except the latter one allows for zero-or-more whitespace characters to be matched too.
+2009-06-09T05:00:00.000Z	unop	ge0rge007	I answered your question

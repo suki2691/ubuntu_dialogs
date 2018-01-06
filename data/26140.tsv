@@ -1,0 +1,4 @@
+2010-09-20T13:37:00.000Z	elTigre		Hey, I know this is probably a dumb question... but I am trying to make a custom script start up at boot time
+2010-09-20T13:38:00.000Z	elTigre		and I just don't get it to work.... I need to run a few scripts with the privileges of a certain user (not root)
+2010-09-20T13:39:00.000Z	elTigre		I tried to use the instructions on various websites but it still doesn't work with no clue as to why it doesn't
+2010-09-20T13:39:00.000Z	maedox	elTigre	add this to /etc/crontab:   @reboot   username    /path/to/script.sh

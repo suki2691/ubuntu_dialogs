@@ -1,0 +1,4 @@
+2009-08-11T06:03:00.000Z	blbrown		I partition /dev/sda1, 5, 6, etc.  How do I see how those map to grub.  Shouldn't they have a hd0, hd3?
+2009-08-11T06:05:00.000Z	Dr_Willis	blbrown	 no..  sda is hd0, sda1 is hd0,0
+2009-08-11T06:05:00.000Z	Dr_Willis	blbrown	 grub starts counting at zero. :)
+2009-08-11T06:07:00.000Z	blbrown	Dr_Willis	is there anyway to map that.  E.g. I know what /dev/sda1, 3 is etc

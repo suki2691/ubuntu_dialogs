@@ -1,0 +1,4 @@
+2006-09-25T09:00:00.000Z	mdkaneda		hey, got a quick question... If i move my harddrive to the slave position and add a new harddrive as a master... if i edit grub.conf to reflect the change (hdb1 instead of hda1), will ubuntu boot just fine and realize that the swap partition and all other are now on hdb? or is there more to it than that?
+2006-09-25T09:00:00.000Z	kitche	mdkaneda	you have to change your /etc/fstab around
+2006-09-25T09:01:00.000Z	mdkaneda	kitche	but otherwise, if grub.conf and fstab reflect the changes, i wont run into any other craziness? heh
+2006-09-25T09:01:00.000Z	kitche	mdkaneda	you are correct

@@ -1,0 +1,4 @@
+2010-10-28T18:48:00.000Z	Cmdr_W_T_Riker	Benkinooby	well theoretically ping should resolve the hostname at every ping, but hands that job over to the resolver. so it does a lookup, but just locally.
+2010-10-28T18:49:00.000Z	Benkinooby	Cmdr_W_T_Riker	my look ups were not done locally
+2010-10-28T18:49:00.000Z	Cmdr_W_T_Riker	Benkinooby	perhaps the hostname you're looking up has a very low TTL
+2010-10-28T18:51:00.000Z	Benkinooby	Cmdr_W_T_Riker	google.com? ... i doubt... also i have a lot of ipv6-dns querries. somehow by inner ubunut-sense blames them. if you have wireshark, can you verify the tremendous number of ip46-dns querries for me?

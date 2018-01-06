@@ -1,0 +1,4 @@
+2012-10-19T04:49:00.000Z	monacelli		Does anybody know why Microsoft fonts are showing up as little boxes in XFCE's font config?
+2012-10-19T04:50:00.000Z	ais523	monacelli	most likely the fonts in question aren't installed/updated properly, you could try apt-get install ttf-mscorefonts-installer (I think that's what it's called, but that's from memory so I might be wrong)
+2012-10-19T04:51:00.000Z	monacelli	ais523	Word.. I'll check out the installer from the repo, I usually just copy them to /usr/share/fonts/truetype and then fc-cache -fv but maybe something weird happened this time.
+2012-10-19T05:00:00.000Z	ais523	monacelli	that's the GUI update manager

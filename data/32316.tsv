@@ -1,0 +1,4 @@
+2010-05-07T18:11:00.000Z	Medion		why for example i do "useradd -g cacti cactiuser" i just have "$" when i log on ?  i would like something like "cactiuser@ubuntu:"  any idea ?
+2010-05-07T18:13:00.000Z	Pici	Medion	Because you use useradd not 'adduser', useradd does not setup all the convenciences that you normally get with a user, like the a sane default shell, etc.
+2010-05-07T18:14:00.000Z	Pici	Medion	Copy the contents of /etc/skel/ into that user's home directory
+2010-05-07T18:15:00.000Z	Medion	Pici	thx i 'll try with adduser

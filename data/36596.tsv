@@ -1,0 +1,4 @@
+2011-01-07T23:31:00.000Z	AndyGraybeal		how do i move the contents of a folder instead of the folder itself?  for example, i want to: sudo mv /home/andy/joomla/ /var/www  -- but i just want the contents of the joomla to end up in /var/www not like /var/www/joomla
+2011-01-07T23:32:00.000Z	GeekSquid	AndyGraybeal	sudo mv -r /home/andy/joomla/* /var/www
+2011-01-07T23:32:00.000Z	AndyGraybeal	GeekSquid	gobbe: badass thank yuo
+2011-01-07T23:32:00.000Z	AndyGraybeal	GeekSquid	thanks

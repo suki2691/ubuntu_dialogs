@@ -1,0 +1,4 @@
+2012-02-08T22:18:00.000Z	bananenkampf-de		hey, i want to sync files between two folders. i tried rsync, but it only sync in one direction... any idea?
+2012-02-08T22:18:00.000Z	zykotick9	bananenkampf-de	use rsync and swap the source destination... easy
+2012-02-08T22:19:00.000Z	bananenkampf-de	zykotick9	i don't understand... sorry - can you explain
+2012-02-08T22:19:00.000Z	zykotick9	bananenkampf-de	"rsync ... a b" then "rsync .. b a"

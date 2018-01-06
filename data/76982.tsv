@@ -1,0 +1,4 @@
+2010-04-16T17:33:00.000Z	bittyx		hey all, need a little help with making a usb stick work, anyone available?
+2010-04-16T17:33:00.000Z	bazhang	bittyx	work to do what
+2010-04-16T17:35:00.000Z	bittyx	bazhang	just to make it working (it's not now). background: it was attacked by a virus (in windows of course), and became inaccesible. tried formatting from win, but couldn't make it work. tried gparted, it reports an error when i try to create a partition after deleting the old one.
+2010-04-16T17:36:00.000Z	bittyx	bazhang	tried to delete all partitions from fdisk, succeeded. tried dd if=/dev/zero of=/dev/sdc to overwrite it completely, it gets to some 66MB (it's a 1GB stick) and stops.

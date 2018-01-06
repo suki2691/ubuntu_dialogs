@@ -1,0 +1,4 @@
+2008-08-18T09:50:00.000Z	bedouwin		trying to do cp /media/cdrom/VMwareTools-*.tar.gz /tmp/ but i get cp: cannot create regular file /tmp/VMwareTools-6.0.4-93057.tar.gz permission denied.  how to
+2008-08-18T09:51:00.000Z	bedouwin		do i need to have elevated permissions ?
+2008-08-18T09:53:00.000Z	jcarter	bedouwin	You need to be superuser - try sudo with the command. And copy it to $HOME/src and work in there.
+2008-08-18T09:55:00.000Z	bedouwin	jcarter	thank you.  sudo worked! :)

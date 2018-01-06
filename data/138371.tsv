@@ -1,0 +1,4 @@
+2007-05-06T14:06:00.000Z	rob65		Can anyone help me with my Feisty Fawn freezing issue? I'm quite new to Linux. Problem as per http://ubuntuforums.org/showthread.php?t=432186&page=2
+2007-05-06T14:08:00.000Z	Jove`	rob65	try doing sudo killall -9 hald-addon-storage
+2007-05-06T14:09:00.000Z	Jove`	rob65	there's a sata / ata conflict in Feisty which causes hard disk to freeze for 2 mins at a time. That fixed it for me.
+2007-05-06T14:09:00.000Z	Jove`	rob65	Might not be the same prob. with you, but worth a try

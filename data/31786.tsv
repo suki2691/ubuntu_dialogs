@@ -1,0 +1,4 @@
+2012-10-09T23:48:00.000Z	SystemTyrant		anybody here familiar with rolling your own packages?
+2012-10-09T23:49:00.000Z	SystemTyrant		I'm just trying to figure out how to know what deps are required by a source file?
+2012-10-09T23:49:00.000Z	SystemTyrant		an easy way that is.
+2012-10-09T23:50:00.000Z	TJ-	SystemTyrant	Figuring out dependencies is a case of identifying which libraries the source Makefile link in. Often that stuff will be available from the autoconf script

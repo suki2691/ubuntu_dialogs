@@ -1,0 +1,4 @@
+2012-07-31T20:51:00.000Z	L3top		echo "te\st" | sed 's/\\//;s/"//g'
+2012-07-31T20:53:00.000Z	L3top		echo "\"te\st\"" | sed 's/\\//;s/"//g'     would work better g105b as a test.
+2012-07-31T20:53:00.000Z	L3top		echo "\"te\st\"" | sed 's/\\//'       reveals that there are now quotes... the former takes them away.
+2012-07-31T20:54:00.000Z	g105b	L3top	thanks

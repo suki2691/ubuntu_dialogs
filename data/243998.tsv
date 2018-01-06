@@ -1,0 +1,4 @@
+2005-04-04T10:09:00.000Z	Desolate		anyone know how to enable identd?
+2005-04-04T10:09:00.000Z	Desolate		for irc (irssi) and such
+2005-04-04T10:10:00.000Z	nis	Desolate	 cd /etc/rc2.d && ln -s ../init.d/identd .  <- or similar
+2005-04-04T10:10:00.000Z	nis	Desolate	and then rename the link:  mv identd S98identd

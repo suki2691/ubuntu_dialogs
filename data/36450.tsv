@@ -1,0 +1,4 @@
+2010-02-28T21:36:00.000Z	combunio		how can i make link in /bin folder so if i want to run a command save there i just have to type the word in console ? :)
+2010-02-28T21:37:00.000Z	soreau	combunio	I didn't understand your question fully but perhaps you want to create a symlink
+2010-02-28T21:37:00.000Z	combunio	soreau	yes, simlink :D
+2010-02-28T21:37:00.000Z	soreau	combunio	ln -s /path/to/existing/file /path/to/shortcut/name

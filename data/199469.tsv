@@ -1,0 +1,4 @@
+2007-05-22T10:40:00.000Z	drivera90		Hi. I broke my X Server.
+2007-05-22T10:40:00.000Z	drivera90		Help.
+2007-05-22T10:41:00.000Z	drivera90		I also can't move windows around.
+2007-05-22T10:41:00.000Z	dyrne	drivera90	alt-ctrl-f2 then login then type sudo dpkg-reconfigure xserver-xorg and choos vesa a driver and the rest just go with defaults then sudo /etc/init.d/gdm restart  <--generic answer

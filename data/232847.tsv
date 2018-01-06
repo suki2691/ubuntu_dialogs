@@ -1,0 +1,4 @@
+2007-02-01T13:07:00.000Z	sdac221x		hi.  i am trying to set the class path by typing "export CLASSPATH=/usr/share/tomcat5.5/common/lib/jsp-api.jar;/usr/share/tomcat5.5/common/lib/servlet-api.jar" ... but i get the following error on shell startup --> "bash: /usr/share/tomcat5.5/common/lib/servlet-api.jar: Permission denied"->
+2007-02-01T13:07:00.000Z	sdac221x		I tried sudo export but same error...
+2007-02-01T13:08:00.000Z	erUSUL	sdac221x	 CLASSPATH=CLASSPATH:/usr/share/tomcat5.5/common/lib/ <<<<
+2007-02-03T09:00:00.000Z	erUSUL	sdac221x	are you regstered in freenode?

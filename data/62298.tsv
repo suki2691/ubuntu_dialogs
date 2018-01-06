@@ -1,0 +1,4 @@
+2011-11-01T18:12:00.000Z	Loptr		I mounted a ntfs drive with ntfs-3g with options auto,users,uid=1000,gid=100,dmask=027,fmask=137,utf8  0  0
+2011-11-01T18:12:00.000Z	Loptr		but it still doesnt allow me to change chmods on files and folders
+2011-11-01T18:12:00.000Z	iceroot	Loptr	ntfs doesnt support unix-acls
+2011-11-08T06:06:00.000Z	iceroot	Loptr	upstart is already doing that

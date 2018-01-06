@@ -1,0 +1,4 @@
+2011-08-01T18:54:00.000Z	dcg	Pici	odie5533: no for just allowing a user to use sudo it is the "sudo" group. look at /etc/sudoers
+2011-08-01T18:55:00.000Z	Pici	dcg	No, not in Ubuntu by default. Its the 'admin' group.
+2011-08-01T18:56:00.000Z	dcg	Pici	if you look at the sudoers file the default is "sudo" admin will potentially allow other privlidges (based on file permissions etc)
+2011-08-01T18:56:00.000Z	Pici	dcg	I stand corrected.

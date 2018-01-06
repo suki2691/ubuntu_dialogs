@@ -1,0 +1,4 @@
+2012-04-19T19:38:00.000Z	mlrenard		Hello, I'm unsure if I'm using the free or proprietary AMD driver on a new user session. How can I check which one's in use?
+2012-04-19T19:40:00.000Z	dwescott	mlrenard	glxinfo | grep renderer or check the xorg.0.log
+2012-04-19T19:47:00.000Z	dwescott	mlrenard	you should verify that open gl is working
+2012-04-19T19:47:00.000Z	dwescott	mlrenard	its possible that glxinfo could indicate one driver in use when glx is not suppored

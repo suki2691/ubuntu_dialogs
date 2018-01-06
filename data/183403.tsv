@@ -1,0 +1,4 @@
+2008-04-24T08:20:00.000Z	milly1234		I am running Ubuntu 7.10 and just installed a TV Tuner card and now my Webcam stopped working, it doesn't even show it under the multimedia systems selector in the video part, though it does show its usb mic, it also shows up when I enter "lsusb" in a terminal but nothing else shows it or can use it, anyone have a clue what might be causing this?
+2008-04-24T08:22:00.000Z	milly1234		anyone here a video input guru :( please
+2008-04-24T08:23:00.000Z	Pelo	milly1234	 jsut state your issue
+2008-04-24T08:25:00.000Z	Pelo	milly1234	my guess it that your tvcard is now hoging /dev/video0 ,  which is wat your webcam was using , not sure how to fix it ,   try reconfuring the the webcam

@@ -1,0 +1,4 @@
+2006-01-26T10:35:00.000Z	nir_		hi, i try to install manually the latest version of ndiswrapper ; when i put 'make install', i get a 'make : command not found' ...
+2006-01-26T10:35:00.000Z	_jason	nir_	sudo apt-get install build-essential
+2006-01-26T10:36:00.000Z	nir_	_jason	: whats in this package ?
+2006-01-26T10:37:00.000Z	_jason	nir_	the stuff you need to compile things, you can get more info with 'apt-cache show build-essential'.  And be sure to read what johndarkhorse said.  Checkinstall is better to use than 'make install'

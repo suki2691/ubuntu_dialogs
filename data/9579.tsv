@@ -1,0 +1,4 @@
+2011-10-09T05:47:00.000Z	Slapshot		Hi I'm trying to access a Mac Journaled partition but ubuntu keeps spitting back that its read only. Ive tried chown root:root and chmod 777 over the drive and I still cant write to it. Any help?
+2011-10-09T05:49:00.000Z	MNichie	Slapshot	You need to turn off journaling, open up disk utilities and turn off journaling
+2011-10-09T05:51:00.000Z	MNichie	Slapshot	https://help.ubuntu.com/community/hfsplus
+2011-10-09T05:53:00.000Z	Slapshot	MNichie	can I disable it in ubuntu? I cant disable from a mac and I couldnt find a disable option in disk utility

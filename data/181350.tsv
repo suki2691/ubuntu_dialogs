@@ -1,0 +1,4 @@
+2007-02-25T11:33:00.000Z	section31		what's the easiest way to install mplayer with all the codecs...i tried using apt-get and I keep getting this error when trying to open a video error opening/initializing the selected video_out (-vo) device
+2007-02-25T11:34:00.000Z	section31		!codecs
+2007-02-25T11:34:00.000Z	bruenig	section31	maybe this will help https://help.ubuntu.com/community/MPlayer
+2007-02-25T11:36:00.000Z	bruenig	section31	right but when you compile it normally, don't you have to have the codec libraries on the computer first, so if ubuntu has a precompiled version that didn't have all the codecs there when they compiled them, you wouldn't be able to get it to work, (this is all assuming that you needed to have the codecs before compiling normally which I think is true but am not sure)

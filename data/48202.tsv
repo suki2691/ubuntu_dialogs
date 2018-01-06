@@ -1,0 +1,4 @@
+2012-09-16T23:26:00.000Z	mafiaboy		hi...if i wanna only download a package (for eg : vlc)...and wanna install it later using apt-get ....WHAT should i do?
+2012-09-16T23:26:00.000Z	OerHeks	mafiaboy	use "dpkg -i <package>
+2012-09-16T23:28:00.000Z	mafiaboy	OerHeks	what i want is apt-get first download a package and later i can install it
+2012-09-16T23:29:00.000Z	OerHeks	mafiaboy	apt-get install wil install it, use wget to download the package.

@@ -1,0 +1,4 @@
+2010-04-09T02:56:00.000Z	ObjectiveSea		Does anyone here know why Windows 7 would have acceptable Wifi Perfornmance, but Ubuntu would have terrible (but technically functional) performance?
+2010-04-09T02:57:00.000Z	ObjectiveSea		ok... but they are running on the same hardware, shouldn't they have the same throughput with the3 wireless card?
+2010-04-09T02:58:00.000Z	Runeg	ObjectiveSea	Windows 7 has a lot more proprietary and non-free drivers installed by default, Linux does not.
+2010-04-09T03:00:00.000Z	Runeg	ObjectiveSea	do sudo lshw -C |grep network and let's see what card you have

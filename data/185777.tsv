@@ -1,0 +1,4 @@
+2007-08-01T10:16:00.000Z	tdn		How do I wipe free space on a USB storage device? Zeroes is ok.
+2007-08-01T10:18:00.000Z	pike__	tdn	cat /dev/zero > /media/whatever/file.temp; del /media/whatever/file.temp i guess
+2007-08-01T10:18:00.000Z	pike__	tdn	er.. rm file.temp
+2007-08-01T10:21:00.000Z	tdn	pike__	of course.

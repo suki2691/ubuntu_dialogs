@@ -1,0 +1,4 @@
+2009-09-30T17:23:00.000Z	Jyxt		will the command: tar -cvvfpP /mnt/usb/everything.tar /
+2009-09-30T17:23:00.000Z	Jyxt		backup everything?
+2009-09-30T17:24:00.000Z	torgrimt	Jyxt	cd /mnt/usb && find -xdev / | xargs cpio -p . is much smarter ;)
+2009-09-30T17:26:00.000Z	Jyxt	torgrimt	what kind of file does that make? and when restoring whats the command?

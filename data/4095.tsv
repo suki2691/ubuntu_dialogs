@@ -1,0 +1,4 @@
+2012-04-08T02:58:00.000Z	beaglebr1ath		How do you execute a command and have it execute from another /dev/pts/# ?  i.e. execute clear from /dev/pts/2 but executes on /dev/pts/3
+2012-04-08T02:59:00.000Z	gr33n7007h	beaglebr1ath	clear > /dev/pts/*
+2012-04-08T03:02:00.000Z	beaglebr1ath	gr33n7007h	thanks, but clear doesn't accept any other arguments.  I've got the redirect output from one pts to another figured out.  but now I'd like to have a command execute from a different /dev/pts. :)
+2012-04-08T03:06:00.000Z	gr33n7007h	beaglebr1ath	I don't understand what you mean

@@ -1,0 +1,4 @@
+2006-05-27T15:29:00.000Z	haakonn		what is the simplest way to set up a caching dns server on my system, which is only available locally?
+2006-05-27T15:30:00.000Z	amphi	haakonn	dnsmasq is a caching dns forwarder, if that's all you want
+2006-05-27T15:30:00.000Z	haakonn	amphi	 sounds right, thanks
+2006-05-27T15:30:00.000Z	amphi	haakonn	apt-cache show dnsmasq will give you some info

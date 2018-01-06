@@ -1,0 +1,4 @@
+2006-06-12T10:31:00.000Z	Snurf		If I log into SSH and wget a file that is very big and will take awhile, can I close the SSH window and will the server keep getting the file?
+2006-06-12T10:31:00.000Z	sparkleytone	Snurf	you need to use screen
+2006-06-12T10:31:00.000Z	sparkleytone	Snurf	such as "screen wget blahblah"
+2006-06-12T10:31:00.000Z	sparkleytone	Snurf	then you detach the screen using ctrl-d

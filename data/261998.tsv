@@ -1,0 +1,4 @@
+2005-08-07T15:50:00.000Z	ixion		basically, the reason I am asking these krb5 questions is, hi, I have installed a samba server and used winbind to integrate with AD users, this works fine for people on domain member computers using windows. When I use linux to try and connect to the samba share I cant authenticate, any ideas what syntax I am supposed to use for the username? eg user@domain.com etc
+2005-08-07T15:50:00.000Z	Seveas	ixion	try \\domain\user
+2005-08-08T16:14:00.000Z	Seveas	ixion	sudo gdmsetup
+2005-08-08T16:14:00.000Z	Seveas	ixion	if you hate entering your password: tell sudo not to ask it

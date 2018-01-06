@@ -1,0 +1,4 @@
+2010-04-18T17:49:00.000Z	Hans_Henrik		im running multi-boot ubuntu/Win7, i made win7 default from grub bootloader, and gave myself 1 second to chose ubuntu instead, and seemingly its a bug in grub cus no matter how much i spam the up-button, that 1 second goes down to 0 before grub responds, thus im unable to enter ubuntu.. ideas how i can fix it?
+2010-04-18T17:50:00.000Z	Hans_Henrik		Dr_Willis/ActionParsnip: i would if i could... how can i do that from win7?
+2010-04-18T17:51:00.000Z	tenmiles	Hans_Henrik	use your ubuntu install cd as a live cd and edit it from there
+2010-04-18T17:52:00.000Z	tenmiles	Hans_Henrik	you'll have to mount your hard drive once you've booted up and then under that go to the boot/grub/ folder and look for a conf file.

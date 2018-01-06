@@ -1,0 +1,4 @@
+2009-06-08T17:21:00.000Z	maxo		I just did an upgrade using some packages from a ppa but they're buggy. How can I downgrade?
+2009-06-08T17:22:00.000Z	vigo	maxo	aptitude, remove is safeish, but that is what backups are for.
+2009-06-08T17:25:00.000Z	maxo	vigo	I've tried aptitude remove but it hasn't worked. It's Xserver I upgraded, so I just need to downgrade to older packages
+2009-06-08T17:25:00.000Z	vigo	maxo	Go hardcore, backup /home and stuff, then re-install

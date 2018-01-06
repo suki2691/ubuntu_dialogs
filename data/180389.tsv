@@ -1,0 +1,4 @@
+2006-06-13T14:00:00.000Z	dhendrix		Hello everyone. I'm new to Ubuntu and haven't used Debian in a while. It seems that my "Hoary Hedgehog" install doesn't have some header files (stdarg.h, for example), and i can't seem to find a gcc-devel package. What package(s) should I be looking for to install these extra headers?
+2006-06-13T14:01:00.000Z	yoshiznit123	dhendrix	have you installed build-essential?
+2006-06-13T14:05:00.000Z	yoshiznit123	dhendrix	dpkg -S file
+2006-06-13T14:05:00.000Z	dhendrix	yoshiznit123	 Thanks again! I'll try that out right now.

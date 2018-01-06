@@ -1,0 +1,4 @@
+2006-02-27T16:26:00.000Z	pilsen		anyone in here who use vmware?
+2006-02-27T16:26:00.000Z	LjL	pilsen	have you tried qemu? that's free software
+2006-02-27T16:28:00.000Z	LjL	pilsen	well, it's not too hard. you should first run "qemu-img" to create an hard drive image... the syntax is "qemu-img create -f qcow filename maximumsize"
+2006-02-27T16:30:00.000Z	LjL	pilsen	then you run "qemu imagefilename", and it starts. of course it won't do anything at that point, because there's no OS installed... but then just insert an OS cd-rom, and use "qemu -hdc -boot d imagefilename"

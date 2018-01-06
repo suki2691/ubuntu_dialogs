@@ -1,0 +1,4 @@
+2007-10-03T08:01:00.000Z	ts_		I'm dd'ing my hard disk, and it gets to 2GB but then says 'File size limit exceeded (core dumped)'... The HD is 20gb. How do I fix this? Thanks
+2007-10-03T08:01:00.000Z	soundray	ts_	you have to write the file to a file system that supports files larger than 2GB, e.g. ext3
+2007-10-03T08:02:00.000Z	ts_	soundray	 i was dding to a NTFS
+2007-10-03T08:03:00.000Z	soundray	ts_	dd to an ext3 instead

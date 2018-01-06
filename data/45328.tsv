@@ -1,0 +1,4 @@
+2009-10-21T14:40:00.000Z	oh_robot		shell question. how can I  copy all  *.jpg files in a certain directory or its subdirectories to one /target folder?
+2009-10-21T14:41:00.000Z	[1]SpaceGhost	oh_robot	cp -R .jpg /path
+2009-10-21T14:51:00.000Z	oh_robot	[1]SpaceGhost	"cp -R .jpg /path" says "cannot stat .jpg: not such file ..." ...hm
+2009-10-21T14:51:00.000Z	[1]SpaceGhost	oh_robot	you need the asterisk. the *

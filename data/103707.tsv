@@ -1,0 +1,4 @@
+2009-01-17T04:44:00.000Z	G1ZmO		wonder if someone can help me. I have ubuntu desktop on this laptop and trying to access shared folders on a win 2003 server. I can connect to shared folders with the "Connect to server" option as long as the shares have no spaces in the names. how do I connect to those with spaces? e.g. "\\servername\pauls docs" ?
+2009-01-17T04:45:00.000Z	ActionParsnip	G1ZmO	use \\servername\pauls/ docs
+2009-01-17T04:45:00.000Z	ActionParsnip	G1ZmO	i'd reshare the folder personally
+2009-01-17T04:47:00.000Z	ActionParsnip	G1ZmO	you can also use smb://severname in nautilus

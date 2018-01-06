@@ -1,0 +1,4 @@
+2008-07-11T16:41:00.000Z	IcyPolecat	mndo	are you using a single machine to handle the routing?
+2008-07-11T16:42:00.000Z	IcyPolecat	mndo	- and are we talking load balancing those connections for machines inside your LAN or for connections coming in from the outside world?
+2008-07-11T16:45:00.000Z	IcyPolecat	mndo	- ok, so setup a bridge for the DSL and another for the Cable, these can reference virtual interfaces with static LAN IP's which will allow you to setup your LB on a virtual IP which in turn is used that the default gateway for all clients
+2008-07-11T16:58:00.000Z	IcyPolecat	mndo	- good luck

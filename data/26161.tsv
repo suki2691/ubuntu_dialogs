@@ -1,0 +1,4 @@
+2011-03-20T08:01:00.000Z	dogarrhea		has anyone ever paid attention to the following detail:  Sudo AUTO prompts you for password.. even if the command you entered is wrong.
+2011-03-20T08:01:00.000Z	dogarrhea		this seems like a really dumb design decision
+2011-03-20T08:02:00.000Z	joshmc	dogarrhea	sudo isn't supposed to care about what you are doing ;) perhaps there's a program in root's path that's not in the current user's path, and they want to use it (the converse often holds true).
+2011-03-20T08:03:00.000Z	joshmc	dogarrhea	What i mean is, it is certainly deliberate, sure, but that's not always bad.

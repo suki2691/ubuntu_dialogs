@@ -1,0 +1,4 @@
+2006-01-12T17:24:00.000Z	paddygman		hey all was tryin to install jre java and got an error back "E: libapache-mod-tsunami: subprocess post-removal script returned error exit status 1"
+2006-01-12T17:24:00.000Z	paddygman		anyone any help??
+2006-01-12T17:25:00.000Z	polpak	paddygman	looks like you tried removing something and the removal didn't go quite right
+2006-01-12T17:26:00.000Z	polpak	paddygman	try sudo apt-get clean

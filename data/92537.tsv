@@ -1,0 +1,4 @@
+2008-05-02T03:27:00.000Z	maunykah		hello everyone-is it possible to remove the ubuntu desktop and all of the libraries? I'm currently using Kubuntu 8.04 and KDE4
+2008-05-02T03:28:00.000Z	stefg	maunykah	a first step would be to remove libgnome, which will take a /lot/ of the gnome stuff with it as dependency
+2008-05-02T03:28:00.000Z	maunykah	stefg	do I do that through the terminal?
+2008-05-02T03:30:00.000Z	stefg	maunykah	synaptic... serach for all libgnome packages and check what they cause to be removed if you remove the lib-package

@@ -1,0 +1,4 @@
+2007-01-11T10:02:00.000Z	sexshun		can someone explain to me what (network and broadcast) do in the etc/interface config file
+2007-01-11T10:03:00.000Z	Kluster	sexshun	network is the network mask and broadcast is the broadcast address
+2007-01-11T10:04:00.000Z	Kluster	sexshun	oops... netmask is the network mask
+2007-01-11T10:07:00.000Z	Kluster	sexshun	network is basically the ip with the netmask.. bit to bit AND

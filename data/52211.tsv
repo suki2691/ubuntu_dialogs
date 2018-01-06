@@ -1,0 +1,4 @@
+2011-06-29T17:14:00.000Z	podman99		hey all ... ubuntu 11.04 natty does not have any updates to apache from 2.2.17 - i need 2.2.18 to get past CVE-2011-0419 CVE-2011-1928 ?? any suggestions?
+2011-06-29T17:15:00.000Z	Pici	podman99	let me take a look, one moment.
+2011-06-29T17:19:00.000Z	Pici	podman99	It looks like those CVEs only affected the apr package, not the apache2 package. More info can be seen at the following links (the usn reference links may be informative to you as well): http://people.canonical.com/~ubuntu-security/cve/2011/CVE-2011-0419.html and http://people.canonical.com/~ubuntu-security/cve/2011/CVE-2011-1928.html
+2011-06-29T17:20:00.000Z	podman99	Pici	PCI compliance requires apache version change??

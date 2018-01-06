@@ -1,0 +1,4 @@
+2010-02-23T19:17:00.000Z	mattgyver		Hey guys, im installing ubuntu on a 40gb solid state drive.  I really only want to install the core system and a handful of applications onto the SSD however.  Whats the best way to go about this (ie which directories would be a must on the SSD), thanks.
+2010-02-23T19:19:00.000Z	nowonmai	mattgyver	/boot/ /bin/ /etc/ /dev/ /sbin/ /proc/ /sys/ /lib/ would probably cover the basics, put the rest elsewhere
+2010-02-23T19:19:00.000Z	nowonmai	mattgyver	best solution is to put /home/ /var/ /usr/ and /opt/ somewhere else and the rest on your ssd
+2010-02-23T19:20:00.000Z	mattgyver	nowonmai	thats exactly what i needed to know.  Thanks guys.

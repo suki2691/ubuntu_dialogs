@@ -1,0 +1,4 @@
+2007-11-07T12:22:00.000Z	cptcanuck		what is the command to do an entire system up date via command line?
+2007-11-07T12:22:00.000Z	cptcanuck		THX
+2007-11-07T12:24:00.000Z	cptcanuck		Okay next dumb question, when I did an upgrade  and rebooted now my display is totally borked it's like it's wrapping around the screen several times, when I go to another login prompt I don't have any problem with plain text.  But in the GUI it's totally borked.  Any idea what I need to do to fix it?
+2007-11-07T12:25:00.000Z	jimmacdonald	cptcanuck	if you can reboot and get to a cmd prompt you can do sudo dpkg-reconfigure xserver-xorg and that should correct  the issues

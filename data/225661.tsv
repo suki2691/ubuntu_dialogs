@@ -1,0 +1,4 @@
+2006-05-29T14:16:00.000Z	g-nome		i know
+2006-05-29T14:17:00.000Z	g-nome		but how to know the pid of some processes with pidof or pstree?
+2006-05-29T14:19:00.000Z	puff	g-nome	it's effectively ps | fgrep targetname | xargs kill
+2006-05-29T14:21:00.000Z	puff	g-nome	Generally you don't *want* to kill any process, but sometimes you have to.

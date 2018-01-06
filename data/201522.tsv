@@ -1,0 +1,4 @@
+2009-08-15T11:33:00.000Z	spO		after i  change my group's name from IAMELITE to user in my /etc/group file,  how do I change all the files on my system to use the new group instead of the previous one?
+2009-08-15T11:35:00.000Z	di||itante	spO	find / -gid xxx -exec chown username \{\} \;
+2009-08-15T11:35:00.000Z	di||itante	spO	oops, do this
+2009-08-15T11:35:00.000Z	di||itante	spO	find / -gid xxx -exec chown username:groupname \{\} \;

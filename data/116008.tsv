@@ -1,0 +1,4 @@
+2008-05-20T00:42:00.000Z	ArthurArchnix		What's the command to read the current powersetting of the hard-drive? "sudo hdparm -B 254 /dev/sda" should turn off powersaving features. But how do I read the current value to confirm? I can't find the command in the man page, or rather, if it's there I can't figure it out.
+2008-05-20T00:43:00.000Z	fluffman	ArthurArchnix	128 is default if you are on battery power
+2008-05-20T00:44:00.000Z	ArthurArchnix	fluffman	I've got a script controlling it because of the load/cycle count issue. But I want to read the value to confirm the script is doing what it should/.
+2008-05-20T00:45:00.000Z	fluffman	ArthurArchnix	well if your Load_Cycle_Count is not increasing rapidly anymore then it worked

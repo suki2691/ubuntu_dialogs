@@ -1,0 +1,4 @@
+2007-07-18T09:31:00.000Z	gundam_rx78nt1		hello. I am trying out linux due to a university course and want to set up a linux network. How can I get the individual workstations to do centralized authentication? Any pointers?
+2007-07-18T09:32:00.000Z	IntuitiveNipple	gundam_rx78nt1	See Samba (smb) it can be configured like a Windows domain server for central authentication
+2007-07-18T09:34:00.000Z	gundam_rx78nt1	IntuitiveNipple	is that all there is? Using Samba will permit to use wins and linux together on a network, what about 'pure linux' options?
+2007-07-18T09:34:00.000Z	IntuitiveNipple	gundam_rx78nt1	It is pure linux, Samba implements the protocols needed to do it

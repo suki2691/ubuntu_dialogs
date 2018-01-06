@@ -1,0 +1,4 @@
+2006-12-17T09:10:00.000Z	nokrev		Suddenly wpasupplicant is causing me all sorts of problems, whenever I try to dist-upgrade. I can't install it, and I can't remove it. I don't want it, as I'm not using wireless anyways. Something is very faulty about it.
+2006-12-17T09:10:00.000Z	nokrev		Can I just remove the .deb file itself, /var/cache/apt/archives/wpasupplicant_0.5.5-3v1ubuntu4_i386.deb?
+2006-12-17T09:12:00.000Z	nokrev		so, is it safe to simply delete the .deb file, /var/cache/apt/archives/wpasupplicant_0.5.5-3v1ubuntu4_i386.deb?
+2006-12-17T09:12:00.000Z	arrenle1	nokrev	Yes. That is a cache.

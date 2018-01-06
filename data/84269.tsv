@@ -1,0 +1,4 @@
+2008-07-28T16:18:00.000Z	VeryBigNude		hi, I'm runing ubuntu 8.04 server but something happend and I cant resolve urls from it anymore, any ideas how to solve this?
+2008-07-28T16:19:00.000Z	naz	VeryBigNude	are you using dhcp? can you ping IPs?
+2008-07-28T16:19:00.000Z	naz	VeryBigNude	cat resolv.conf to see if you're using the right dns server
+2008-07-28T16:20:00.000Z	naz	VeryBigNude	in a terminal type      cat /etc/resolv.conf

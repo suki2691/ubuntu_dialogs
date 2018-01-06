@@ -1,0 +1,4 @@
+2006-08-09T15:07:00.000Z	steve_Laptop		Getting 403 Forbidden on CUPS web admin.  Any ideas how to get around that?  I'm root for the box...
+2006-08-09T15:07:00.000Z	mwe	steve_Laptop	it's disabled by default
+2006-08-09T15:08:00.000Z	mwe	steve_Laptop	"sudo adduser cupsys shadow" then "sudo /etc/init.d/cupsys restart"
+2006-08-09T15:09:00.000Z	mwe	steve_Laptop	then I don't know why it's not working

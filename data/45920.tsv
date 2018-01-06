@@ -1,0 +1,4 @@
+2010-06-15T06:28:00.000Z	Rigorm0rtis		I am having a problem I think might be a kernel problem in the latest Ubuntu release. I am trying to copy large disk images over my network to a fileserver. After copying about 60GB, the file server locks up. It doesn't matter if I send the file over Samba, or SSH.
+2010-06-15T06:30:00.000Z	Rigorm0rtis		The disk is a 2TB raid array.
+2010-06-15T06:30:00.000Z	Rigorm0rtis		It is just one file, a large dd image.
+2010-06-15T06:30:00.000Z	codebrainz	Rigorm0rtis	I had a similar problem with my headless fileserver, turned out to be not enough ram

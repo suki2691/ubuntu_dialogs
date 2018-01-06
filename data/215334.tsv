@@ -1,0 +1,4 @@
+2007-03-07T08:46:00.000Z	emacsen		What's the command that Ubuntu uses during install to generate the fstab?
+2007-03-07T08:47:00.000Z	emacsen		On upgrade from whatever was pre-edgy to edgy, a non-tech friend lost her mounts for /dev/hdb so I need to find the command to bring them back without her needing to add them manually
+2007-03-07T08:48:00.000Z	soundray	emacsen	find available partitions with 'sudo fdisk -l'
+2007-03-07T08:48:00.000Z	emacsen	soundray	no, you don't understand the problem

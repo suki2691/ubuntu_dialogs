@@ -1,0 +1,4 @@
+2010-05-11T21:16:00.000Z	madbiologist		Do I need to (or should I) use any particular configure -- flags when building gtk+ on Lucid? (apart from the reccomendation in the gtk+ documentation to pass --with-libjasper if I want JPEG2000 support).
+2010-05-11T21:17:00.000Z	onetinsoldier	madbiologist	don't know if you'd want this or not, but a lot of time i make --prefix=/usr
+2010-05-11T21:18:00.000Z	onetinsoldier	madbiologist	you might want to use the 'checkinstall' package to actually install
+2010-05-11T21:20:00.000Z	onetinsoldier	madbiologist	checkinstall will run a 'make install' command to build a custom ubuntu package... it makes a .deb file

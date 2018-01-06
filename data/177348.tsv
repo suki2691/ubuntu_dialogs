@@ -1,0 +1,4 @@
+2007-02-06T09:40:00.000Z	icebird		I want to start a shell script at login.  While searching on the internet ther seemed to be a ton of different options.  What would some of you guys recomend to be the best.
+2007-02-06T09:40:00.000Z	Vuen	icebird	are you running ubuntu or kubuntu?
+2007-02-06T10:02:00.000Z	Vuen	icebird	#! specifies the interpreter to execute the file with.
+2007-02-06T10:02:00.000Z	Vuen	icebird	so if you put #!/bin/bash, the file is run with bash. if you put #!/usr/bin/python, the file is run with python.

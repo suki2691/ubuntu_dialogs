@@ -1,0 +1,4 @@
+2009-12-24T00:07:00.000Z	alabd		how to search for a file that contain both 2 word ?
+2009-12-24T00:08:00.000Z	gdb	alabd	egrep 'word1|word2' <file>
+2009-12-24T00:08:00.000Z	alabd	gdb	both words
+2009-12-24T00:09:00.000Z	gdb	alabd	They have different results.  Yours will show results of both words are present, mine will show if either word is present (ie; yours is an AND, mine's an OR). ;-)  I don't know what he's trying to do, but egrep is what I use.

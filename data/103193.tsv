@@ -1,0 +1,4 @@
+2008-04-04T02:46:00.000Z	azexian		I run a dhcp server on my server, is there any command I can run to list all the dhcp leases it has given out?
+2008-04-04T02:48:00.000Z	unop	azexian	you could also examine /var/lib/dhcpd/dhcpd.leases
+2008-04-04T02:49:00.000Z	azexian	unop	thanks, I wanted something a little more formated, with out writing a greping script
+2008-04-04T02:50:00.000Z	unop	azexian	http://zwitterion.org/software/get-current-dhcpd-leases/get-current-dhcpd-leases

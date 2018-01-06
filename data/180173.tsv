@@ -1,0 +1,4 @@
+2008-10-03T17:13:00.000Z	Aslate		This might be a bit noob, but i'm trying to force mount an NTFS drive and it's not happy
+2008-10-03T17:14:00.000Z	Aslate		Says my mount point does not exist
+2008-10-03T17:14:00.000Z	jrib	Aslate	you need to create the mount point (try without forcing first)
+2008-10-03T17:16:00.000Z	jrib	Aslate	well forcing may cause data loss according to the man page.  Did you try to use ntfsfix?

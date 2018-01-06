@@ -1,0 +1,4 @@
+2007-08-10T11:49:00.000Z	Ecalix		trying to point non-existant (turned off onboard sound after install in bios) /dev/dsp to usb sound /dev/dsp1. any ideas how to make this work?
+2007-08-10T11:49:00.000Z	MasterShrek	Ecalix	sudo ln -s /dev/dsp1 /dev/dsp
+2007-08-10T11:50:00.000Z	Ecalix	MasterShrek	tried that actually. doesnt seem to work. and upon reboot it is removed
+2007-08-10T12:53:00.000Z	MasterShrek	Ecalix	all i know is you can add/edit rules in /etc/udev/rules.d

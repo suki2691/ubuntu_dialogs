@@ -1,0 +1,4 @@
+2006-08-07T13:48:00.000Z	qos		i know it's possible to change the umask for samba shares, but i need to change the umask for each direactory individually in the share. is this possible?
+2006-08-07T13:50:00.000Z	qos		zcat[1] , google "ogg2mp3"
+2006-08-07T13:50:00.000Z	fyrestrtr	qos	no, umask doesn't work like that.
+2006-08-07T13:51:00.000Z	qos	fyrestrtr	thats a problem. i have a home share where every file/dir get created with rw-rw---- . within that share is another dir, but there the files must get other permissions :( any ideas?

@@ -1,0 +1,4 @@
+2009-12-21T07:09:00.000Z	bigdavjoker		Need help booting from windows partition after copying it from bad hard drive Ubuntu boots fine but can't get windows to load after grub finds it
+2009-12-21T07:09:00.000Z	Chewie[]	bigdavjoker	get a windows install disk, go into the repair console, use fixboot.
+2009-12-21T07:10:00.000Z	Chewie[]	bigdavjoker	er, my bad ... use bootcfg. use the /scan then /rebuild switches. if that doesn't work, do a fixboot /mbr, then reinstall grub.
+2009-12-21T07:11:00.000Z	bigdavjoker	Chewie[]	 thanks

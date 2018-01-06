@@ -1,0 +1,4 @@
+2008-05-14T14:17:00.000Z	baalsgate		how do i make sure cron is running ????
+2008-05-14T14:18:00.000Z	anomoly	baalsgate	I think running top will tell you
+2008-05-14T14:19:00.000Z	baalsgate	anomoly	its in the process list with a ps -ax | grep cron
+2008-05-14T14:20:00.000Z	baalsgate	anomoly	but i put in the crontab " 2 * * * * root /usr/bin/touch /tmp/testfile" and nothing is happening

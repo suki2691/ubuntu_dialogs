@@ -1,0 +1,4 @@
+2012-10-26T15:33:00.000Z	penyulap		can someone help me, I want to copy files into the current directory, but I don't use the command line much, and otherwise it doesn't seem to work because i have to be root, so I sudo instead. I want to copy a directory called for example boxofapples into the current directory. is it like this >sudo cp ///home/me/.arduino/boxofapples/* -r /
+2012-10-26T15:35:00.000Z	penyulap		Does anyone use the command line anymore ? I dont' use it much
+2012-10-26T15:35:00.000Z	PatrickDickey	penyulap	is the current directory one that you have write permissions to?
+2012-10-26T15:36:00.000Z	PatrickDickey	penyulap	try this sudo cp -r /home/me/.arduino/boxofapples .

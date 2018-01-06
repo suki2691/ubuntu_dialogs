@@ -1,0 +1,4 @@
+2006-06-23T06:47:00.000Z	mitcheloc		hey guys, i just reformatted one of my computers, stuck ubuntu on and i can't get the X-Display to start, i don't think it's recognizing my graphics driver....i grabbed the ati drivers and tried to run them, they seemed to install, no luck on reboot, how do i configure X via command line to use the drivers I installed? Please help! =)
+2006-06-23T06:48:00.000Z	imbrandon	mitcheloc	sudo dpkg-reconfigure xserver-xorg
+2006-06-23T06:49:00.000Z	mitcheloc	imbrandon	i'm trying right now
+2006-06-23T06:52:00.000Z	mitcheloc	imbrandon	i ran the command, rebooted and it booted fine, now i've got to reconfigure for my secondary monitor...

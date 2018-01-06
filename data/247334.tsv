@@ -1,0 +1,4 @@
+2006-10-05T08:09:00.000Z	ExitMenu		hi can some one please help me I have made a big mistake and did the following sudo usermod -Gsubversion user and now cant sudo anything, is there any way to fix this :(
+2006-10-05T08:11:00.000Z	ExitMenu		so have I screwed my system guys or is there a fix ?
+2006-10-05T08:13:00.000Z	segfault	ExitMenu	there is a fix
+2006-10-05T08:15:00.000Z	segfault	ExitMenu	ull need to reboot into single user mode, then run usermod -G user again but this time as the option to G list all of the groups u wnat ur user in, and make sure to include admin and ur usernamelist all

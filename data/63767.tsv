@@ -1,0 +1,4 @@
+2009-03-26T07:12:00.000Z	skate2		what does this mean in my netstat output:  tcp6       0      0 :::80                   :::*                    LISTEN      -
+2009-03-26T07:14:00.000Z	RussM_	skate2	it means some process (probably a web server, like apache's httpd) is listening for connections on port 80 of your IP v6 network address.
+2009-03-26T08:02:00.000Z	skate2	RussM_	so apache in ubuntu uses ipv6 only by default?
+2009-03-26T08:03:00.000Z	RussM_	skate2	no, generally it sets up both ipv4 and ipv6

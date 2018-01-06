@@ -1,0 +1,4 @@
+2008-07-11T03:22:00.000Z	phish		After i install a package is it safe to delete the .deb files it leaves behind? ( i've got a small hd ) Also, is there a command that does this already?
+2008-07-11T03:23:00.000Z	unop	phish	it is
+2008-07-11T03:23:00.000Z	unop	phish	sudo apt-get autoclean
+2008-07-11T03:23:00.000Z	unop	phish	but that might not remove packages that you installed manually

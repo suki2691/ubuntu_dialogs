@@ -1,0 +1,4 @@
+2008-03-02T05:18:00.000Z	Figs		I'm having some kind of problem getting Ubuntu to recognize the monitor on my laptop
+2008-03-02T05:19:00.000Z	Figs		Unfortunately, hardware issues aren't my strong point
+2008-03-02T05:19:00.000Z	Figs		is anyone willing to help me figure this out?
+2008-03-02T05:21:00.000Z	Jack_Sparrow	Figs	you can sudo dpkg-reconfigure xserver-xorg   set vesa for your card and 1024x768 max res to get basic gui

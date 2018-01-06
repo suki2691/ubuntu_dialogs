@@ -1,0 +1,4 @@
+2009-11-22T00:54:00.000Z	Turno		is there any way to completely reset the USB bus in karmic? I have a device that has to be unplugged/replugged after loading a kernel module, and I'd much rather just reset the usb bus
+2009-11-22T00:55:00.000Z	Turno		kenti, are you sure the drive is connected/recognized properly? does the drive work in read-only mode?
+2009-11-22T00:56:00.000Z	Kenti	Turno	no
+2009-11-22T01:02:00.000Z	Turno	Kenti	I would look at dmesg and see if it has any relevant error messages in there

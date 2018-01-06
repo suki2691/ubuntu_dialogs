@@ -1,0 +1,4 @@
+2012-04-25T04:10:00.000Z	JensenDied		so, I'm trying to setup an AP from my desktop which has an integrated wireless card (rtl8187 driver) which I have setup as an AP in the past.  It seems that now (since 3.0) it's unsupported and the new mac version doesn't have master/ap.  is this accurate in that trying to do more is frutless until the mac80211 verion is finished?
+2012-04-25T04:12:00.000Z	christhisisgool	JensenDied	since it is not compiled as a module by default, you may have to compile the kernel yourself
+2012-04-25T04:13:00.000Z	JensenDied	christhisisgool	which module? nl80211?
+2012-04-25T04:15:00.000Z	JensenDied	christhisisgool	thanks, that will kill some time before i can call it quits or see how unfinished it is.

@@ -1,0 +1,4 @@
+2008-03-28T02:39:00.000Z	Wanderer		Anyone know how to convert the timestamp from a dmesg output?  I have this:  [3697200.427516] Dazed and confused, but trying to continue
+2008-03-28T02:39:00.000Z	Wanderer		how do I get a real timestamp?
+2008-03-28T02:40:00.000Z	stroyan	Wanderer	 Add that many seconds to the date from the first line of /var/log/dmesg.
+2008-03-28T02:50:00.000Z	stroyan	Wanderer	 date +%s will format as seconds since 1970-01-01 00:00:00 UTC.  If you put the dmesg date in file D you could use   date -f D +%s

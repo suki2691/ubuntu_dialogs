@@ -1,0 +1,4 @@
+2011-06-14T19:29:00.000Z	Cataldo_orlando		hello, I noticed that sometimes my computer connects to some canonical.com address (odd names sorry dont really remember) but apparently I'm not even using the internet, is there any way to know what program/demon/anything is estabilishing that connections?
+2011-06-14T19:30:00.000Z	Pici	Cataldo_orlando	Are you using UbuntuOne?
+2011-06-14T19:36:00.000Z	Pici	Cataldo_orlando	You can use the following command to determine what program is making a connection to that server: sudo netstat -tanp
+2011-06-14T19:36:00.000Z	Cataldo_orlando	Pici	tried it, oddly enough when its not estabilished it doesn't list a program :S

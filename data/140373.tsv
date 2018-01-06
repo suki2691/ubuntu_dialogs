@@ -1,0 +1,4 @@
+2007-04-04T15:22:00.000Z	Harpette		i'm a bit confused: i removed gnome-screensaver with the help of Synaptic, then later it occurred to me that there might be some pkgs which depend on it, so i asked apt-cache for rdepends, and got some. So i thought that Synaptic should've either removed them, or warned me. I also tried a "apt-get -f install" which replies "0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded". So it looks like apt-cache is mistaken, right?
+2007-04-04T15:22:00.000Z	Harpette		oh yeah i meant to say i replaced it with xscreensaver
+2007-04-04T15:22:00.000Z	AzMoo	Harpette	perhaps the packages that depend on it aren't installed?
+2007-04-04T15:23:00.000Z	Harpette	AzMoo	they are, i made sure to ask apt-cache --installed

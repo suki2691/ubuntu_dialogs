@@ -1,0 +1,4 @@
+2007-08-08T16:35:00.000Z	kmh		i cant isntall things because an other program uses the databse, but i cant find anothe open adept program
+2007-08-08T16:36:00.000Z	kmh		what can i do?
+2007-08-08T16:37:00.000Z	lietu	kmh	some lsof | grep something will reveal what's using the lock file, but I dont remember what the lock file is so I dunno the exact grep line
+2007-08-08T16:50:00.000Z	lietu	kmh	if you're still having the problem, try "lsof|grep "/var/lib/dpkg/log"

@@ -1,0 +1,4 @@
+2008-12-15T02:18:00.000Z	jpoRS		I am using Amarok 1.4something in 8.10 (64bit) and my collection has dissapeared, I don't know why.  I have tried numerous fixes I found on the web, but nothing has worked.  Anyone have any ideas?
+2008-12-15T02:19:00.000Z	raylu	jpoRS	the actual files or just the library that catalogued the files?
+2008-12-15T02:20:00.000Z	jpoRS	raylu	the files are fine, but amarok, exaile, and rthmnbox are all having difficulties with collection/library
+2008-12-15T02:21:00.000Z	raylu	jpoRS	i'm not sure about rhythmbox, but i know that amarok and exaile use sqlite by default. i'd reinstall that package and also remove any configuration files you have in your home directory ("ls ~/.* -d" will help)

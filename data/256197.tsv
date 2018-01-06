@@ -1,0 +1,4 @@
+2011-08-31T00:50:00.000Z	BrianOfTacoma		I have connected to a Samba network folder on another computer.  How do I copy files to it from the command line?  addressing it as smb://myserver/myfiles doesn't work
+2011-08-31T00:51:00.000Z	dr_willis	BrianOfTacoma	 depends on how you connected. It may be located in the .gvfs directory.
+2011-08-31T00:51:00.000Z	dr_willis	BrianOfTacoma	 smb:// is file manager feature.. not a shell/bash feature.
+2011-08-31T01:09:00.000Z	dr_willis	BrianOfTacoma	 you could just mount the share by hand whever you want..

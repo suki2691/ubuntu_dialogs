@@ -1,0 +1,4 @@
+2010-05-19T16:29:00.000Z	Geralt		Hi, is it possible to install lucid lynx into a manually setup filesystem hierarchy?
+2010-05-19T16:29:00.000Z	acicula	Geralt	yeah, choose manual partitioning during boot and assign the partitions
+2010-05-19T16:31:00.000Z	Geralt	acicula	jrib: the standard install does not offer my lvm/dv-crypt partition setup, so I've arranged it on the command-line, mounted everything and now I want my ubuntu installed into /mnt (so that I can chroot into it and configure it)
+2010-05-19T16:31:00.000Z	acicula	Geralt	ah yeah for FDE you have to use the alternate text based installer

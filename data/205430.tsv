@@ -1,0 +1,4 @@
+2007-08-30T08:55:00.000Z	jj_		What is the best way to troubleshoot an X not being able to start out-of-the-box?
+2007-08-30T08:56:00.000Z	nickrud	jj_	look at /var/log/Xorg.0.log
+2007-08-30T08:56:00.000Z	jj_	nickrud	what am I looking for in particular...?
+2007-08-30T08:57:00.000Z	nickrud	jj_	towards the end, there'll be something about why it couldn't start (hopefully)

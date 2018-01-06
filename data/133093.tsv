@@ -1,0 +1,4 @@
+2007-05-26T10:06:00.000Z	WorkBacon		hmmm... eth0 and eth1 exist, the kernel found them, I added 'iface eth0 inet dhcp' to the interfaces file, and ran /etc/init.d/networking restart
+2007-05-26T10:07:00.000Z	WorkBacon		but it's not setting up eth0 or eth1
+2007-05-26T10:07:00.000Z	_muelli_	WorkBacon	does "dhclient eth0" work?
+2007-05-26T10:08:00.000Z	WorkBacon	_muelli_	eth0 doesn't have a wire, so no... eth1 works fine (attached to laptop's wireless)

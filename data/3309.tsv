@@ -1,0 +1,4 @@
+2012-05-17T01:16:00.000Z	phy1729		Is there an fairly easy way to make a ubuntu-desktop install a ubuntu-server install?
+2012-05-17T01:18:00.000Z	wawowe	phy1729	install which ever servers you need, openssh-server, mysql-server, apache
+2012-05-17T01:18:00.000Z	wawowe	phy1729	and apt-get remove ubuntu-desktop; apt-get --purge autoremove
+2012-05-17T01:19:00.000Z	phy1729	wawowe	thanks will try tonight

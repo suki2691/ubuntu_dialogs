@@ -1,0 +1,4 @@
+2011-07-28T01:33:00.000Z	ben_q		hey guys, is there a tweak that would allow me to set a different default browser for a specific domain?
+2011-07-28T01:35:00.000Z	ben_q		yes, Polah
+2011-07-28T01:36:00.000Z	Reikoku	ben_q	The easiest way I can think of is write a script which takes the URL, then determines the browser, and set the script as your default URL handler
+2011-07-28T01:39:00.000Z	Reikoku	ben_q	That should work, browser handler functions just pass a parameter to a program so you could set up a shell script to take that parameter and pass it to the browser you want

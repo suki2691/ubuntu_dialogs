@@ -1,0 +1,4 @@
+2007-09-11T15:45:00.000Z	JC_Denton_		 fstab:  /dev/hda6   /mnt/hda6 vfat auto,rw            hda6 is mounted as read/write but I can't write to it unless I use nautilus with admin rights..
+2007-09-11T15:46:00.000Z	DSpair	JC_Denton_	YOu have to set the rights for the mounted partition. Try adding "uid=xxxx,gid=xxxx" which the uid and gid match your unprivileged user.
+2007-09-11T15:48:00.000Z	DSpair	JC_Denton_	In the options part of the /etc/fstab line.
+2007-09-11T15:52:00.000Z	DSpair	JC_Denton_	Nope, just run "remount -o remount /path/to/mountpoint" as root.

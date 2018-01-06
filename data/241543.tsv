@@ -1,0 +1,4 @@
+2006-07-23T16:44:00.000Z	goatmale		what sites do I remove from sorces.list to get aptget to work correctly
+2006-07-23T16:44:00.000Z	spartas	goatmale	just remove the us. before the address
+2006-07-23T16:45:00.000Z	spartas	goatmale	apt-get update before doing anything else
+2006-07-23T16:47:00.000Z	spartas	goatmale	it shouldn't be trying to connect to us.archive anymore (make sure you removed us. from everything)

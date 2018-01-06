@@ -1,0 +1,4 @@
+2009-04-23T04:32:00.000Z	derrick-mary		hello I deleted both panels on ubuntu 8.04 64 how do i reinstall
+2009-04-23T04:32:00.000Z	derrick-mary		cause my awn doesn't start up when i reboot
+2009-04-23T04:32:00.000Z	Jack_Sparrow	derrick-mary	you should not need to reinstall, you should be able to reset the panels
+2009-04-23T04:34:00.000Z	Jack_Sparrow	derrick-mary	To reset the panel to defaults, type this in a !terminal: « gconftool --recursive-unset /apps/panel && killall gnome-panel »

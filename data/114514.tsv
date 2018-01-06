@@ -1,0 +1,4 @@
+2007-11-03T01:22:00.000Z	datenhamster		how can I check which version of the ati driver has been installed by the restricted driver manager?
+2007-11-03T01:22:00.000Z	proprietarysucks	datenhamster	lspci | grep -i vga
+2007-11-03T01:23:00.000Z	datenhamster	proprietarysucks	thanks, will try
+2007-11-03T01:25:00.000Z	datenhamster	proprietarysucks	lspci does not tell the version number

@@ -1,0 +1,4 @@
+2005-11-17T07:32:00.000Z	elver		How can I insert a dummy package into Ubuntu? I mean, I've got an older Ubuntu package that depends on package "foo" that got renamed to "bar" and "bar" is installed, but the old package still wants "foo". How can I fool the system into thinking that "foo" is installed?
+2005-11-17T07:32:00.000Z	frogzoo	elver	try a forced install - but you probably don't want to do this, get the updated  package
+2005-11-17T07:33:00.000Z	frogzoo		!tell tito about restricted
+2005-11-17T07:33:00.000Z	elver	frogzoo	there is no update package. Force install works. But I can't apt-get install anything after that. It tells me to apt-get -f install and when I do, it uninstalls the old package.

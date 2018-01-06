@@ -1,0 +1,4 @@
+2011-10-18T00:18:00.000Z	Triscar0		i have mad a folder in /var/www/ but dont have permission to add files, what command to use ?
+2011-10-18T00:20:00.000Z	brontosaurusrex	Triscar0	chown user:user /var/www/myfolder
+2011-10-18T00:20:00.000Z	brontosaurusrex	Triscar0	sudo chown user:user /var/www/myfolder
+2011-10-18T00:22:00.000Z	brontosaurusrex	Triscar0	basically you have to keep in mind that the server is then another user as well and it may have limited access to "your" files

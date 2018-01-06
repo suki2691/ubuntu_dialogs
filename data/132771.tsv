@@ -1,0 +1,4 @@
+2007-07-05T13:52:00.000Z	chrismhampson		i'm having problems with grub and lilo. They both take a long time to initiate (c.30secs) before the graphical menu appears. Someone has suggested reiserFS is a problem but both my partitions are ext3.
+2007-07-05T13:53:00.000Z	shiester_miester	chrismhampson	i dont think grub sits on the ext3 partition anyway...doesnt it have its own little partition in the boot sector or something?
+2007-07-05T13:53:00.000Z	chrismhampson	shiester_miester	yes but it must check filesystems
+2007-07-05T13:53:00.000Z	shiester_miester	chrismhampson	true

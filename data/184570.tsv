@@ -1,0 +1,4 @@
+2008-07-24T21:44:00.000Z	Dante123		﻿ trying to run livecd on averatec 3250 laptop and it won't work (there is no hd in this laptop as it went belly up) any suggestions? (Googling didn't come up with anything)  Never gets to GUI....drops to cli
+2008-07-24T21:45:00.000Z	ejer	Dante123	it means it can't start graphics system... could be a bunch of reasons - see https://wiki.ubuntu.com/X/ and https://wiki.ubuntu.com/X/Debugging
+2008-07-24T21:49:00.000Z	ejer	Dante123	in grub you can add noapic
+2008-07-24T21:50:00.000Z	ejer	Dante123	v possible

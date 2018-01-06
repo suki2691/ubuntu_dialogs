@@ -1,0 +1,4 @@
+2010-11-04T02:14:00.000Z	rcmaehl		How do I get my swap partition to become active at boot?
+2010-11-04T02:14:00.000Z	zaxonspox	rcmaehl	put an SWAP entry into /etc/fstab
+2010-11-04T02:15:00.000Z	zaxonspox	rcmaehl	first find the UUID of the SWAP partition
+2010-11-04T02:22:00.000Z	zaxonspox	rcmaehl	UUID=<<replace with your UUID>>  none            swap          sw        0       0

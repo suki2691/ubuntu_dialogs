@@ -1,0 +1,4 @@
+2007-08-02T16:34:00.000Z	ramseize		Could not open '/dev/kqemu' - QEMU acceleration layer not activated === what does this mean?
+2007-08-02T16:34:00.000Z	howlingmadhowie	ramseize	sounds like the kqemu module couldn't be loaded. does your cpu support virtual machines on-chip?
+2007-08-02T16:36:00.000Z	howlingmadhowie	ramseize	maybe wikipedia can help you here
+2007-08-02T16:44:00.000Z	howlingmadhowie	ramseize	have you tried "sudo modprobe kqemu"?

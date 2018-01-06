@@ -1,0 +1,4 @@
+2006-08-17T08:30:00.000Z	Necho		Does anyone have experience with getting wireless devices working under ubuntu?
+2006-08-17T08:31:00.000Z	pike_	Necho	first thing type uname -r in a terminal then install the linux-restricted-modules-kernelversion you have
+2006-08-17T08:34:00.000Z	pike_	Necho	copy and paste this into a terminal dont type it: sudo apt-get install linux-restricted-modules-`uname -r`
+2006-08-17T08:36:00.000Z	pike_	Necho	or open synaptic (the add remove programs) and search for the package restricted-modules you want the one that matches your kernel version (which you get by typing uname -r in a terminal and hitting enter)

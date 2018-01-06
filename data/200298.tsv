@@ -1,0 +1,4 @@
+2008-02-11T08:42:00.000Z	b4l74z4r		where can i find info about what the tar command option xvzf and xvjf means?
+2008-02-11T08:42:00.000Z	torpedo|dog	b4l74z4r	if you read "man tar", that gives an explanation of all its options.
+2008-02-11T08:43:00.000Z	torpedo|dog	b4l74z4r	those particular options mean "extract, verbosely, the gzipped tar file", and "extract, verbosely, the bzip2'd tar file"
+2008-02-11T08:44:00.000Z	torpedo|dog	b4l74z4r	and if you don't need it to print out every filename, you can omit the "v"

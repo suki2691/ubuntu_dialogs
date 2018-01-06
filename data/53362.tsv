@@ -1,0 +1,4 @@
+2009-06-30T18:04:00.000Z	Shishire_Maiga		Ok, I've got a bit of an unusual problem.  I had some trouble with my partitions recently, and just now recovered them.  However, one of them, my home partition had a slightly larger filesystem (ext3) than it has a partition.  I can mount it fine, and as far as I can tell, all the data is fine, but when I run e2fsck, it tells me that the superblock says the FS is too large, and then proceeds to work fine. http
+2009-06-30T18:05:00.000Z	Titan8990_	Shishire_Maiga	use resize2fs to restore the partition to the original size
+2009-06-30T18:07:00.000Z	Shishire_Maiga	Titan8990_	thank you very much, its all fixed now :D
+2009-06-30T18:07:00.000Z	Titan8990_	Shishire_Maiga	excellent

@@ -1,0 +1,4 @@
+2006-01-05T14:22:00.000Z	Sturgeon		I have a question here. I want to run a program as a normal user, but with high priority (with nice -n -19, say) but only root can do that. How can i do this?
+2006-01-05T14:22:00.000Z	Sturgeon		if i use sudo nice -n -19 program, it will run as root
+2006-01-05T14:24:00.000Z	humbraro	Sturgeon	you should be able to start the process, the re-nice it as root - my understanding is that only root can nice a program up, ie, make it higher priority
+2006-01-05T14:25:00.000Z	humbraro	Sturgeon	that should read theN re-nice it as root

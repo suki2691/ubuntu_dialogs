@@ -1,0 +1,4 @@
+2012-05-29T19:21:00.000Z	Jonii		hey, anyone know why my new zenbook boots into windows even though i installed ubuntu on it?
+2012-05-29T19:22:00.000Z	vfw	Jonii	You more-than-likely skipped grub install.
+2012-05-29T19:38:00.000Z	vfw	Jonii	That is the problem.  You need to instal grub to the MBR of the drive your computer boots too.
+2012-05-29T19:41:00.000Z	vfw	Jonii	https://help.ubuntu.com/community/RestoreGrub

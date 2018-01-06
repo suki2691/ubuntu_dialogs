@@ -1,0 +1,4 @@
+2005-08-12T16:34:00.000Z	ixion^^		hi, which manual should I be looking at I've tried ifconfig and interfaces but cant see how to turn promiscuous mode on for an interface?
+2005-08-12T16:36:00.000Z	johanbr	ixion^^	From ifconfig manpage: "promisc    Enable or disable the promiscuous mode of an interface"
+2005-08-12T16:36:00.000Z	ixion^^		hmm maybe I was spelling it wrong
+2005-08-12T16:39:00.000Z	ixion^^	johanbr	any chance you know what the syntax for it is, I'm trying ifconfig eth0 promisc and ifconfig eth0 promisc but I'm not convinced anything is happening, no output in dmesg

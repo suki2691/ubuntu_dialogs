@@ -1,0 +1,4 @@
+2007-06-10T09:55:00.000Z	ALMimoni		I wanna remove all files and directories listed in the file named installed.files, HOW?
+2007-06-10T09:57:00.000Z	ALMimoni		<defrysk> i have names listed in a file
+2007-06-10T09:58:00.000Z	ALMimoni		<defrysk> i have lot of files & i wanna remove them at once
+2007-06-10T09:58:00.000Z	roryy	ALMimoni	something like   'cat installed.files | xargs -n100 rm' or even 'rm $(cat installed.files)'   --- be careful though!

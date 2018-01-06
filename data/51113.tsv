@@ -1,0 +1,4 @@
+2009-08-08T04:27:00.000Z	prince_jammys	SomeGuy123	not without somehow modifying /etc/sudoers such that no password is needed for certain commands.
+2009-08-08T04:28:00.000Z	SomeGuy123	prince_jammys	I need to sudo modprobe ndiswrapper, and I'm setting a shellscript to run on startup but I need to use sudo. Any way to get around that?
+2009-08-08T04:29:00.000Z	prince_jammys	SomeGuy123	yes, it's done by modifying /etc/sudoers with 'visudo', and adding something like  username ALL = NOPASSWD: /some/program  . see man sudoers
+2009-08-08T04:36:00.000Z	prince_jammys	SomeGuy123	the ALL there is literal, and refers to hosts, and /some/program would be modprobe

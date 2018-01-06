@@ -1,0 +1,4 @@
+2012-05-11T11:10:00.000Z	reason		hey guys "if it's possible" can you lead me in the direction of installing a vitual box in my ubuntu to run my win 7 part from?, i hope i dont have to install win again within a virtual box.
+2012-05-11T11:10:00.000Z	reason		partition*
+2012-05-11T11:12:00.000Z	AntiSol	reason	firstly, you'll want to 'sudo apt-get install virtualbox' in a terminal to install virtualbox. Once it's installed you'll see "virtualbox" in the menu. It's far far simpler to just install windows again inside your VM, though it's possible to take an image of your windows partition and run that inside your VM.
+2012-05-11T11:17:00.000Z	AntiSol	reason	zero. it's perfectly safe to create a VM with windows inside it. In fact I won't run windows on native hardware these days - it's safer inside a VM because you can just delete the VM or restore it back to a snapshot.

@@ -1,0 +1,4 @@
+2009-01-06T01:29:00.000Z	LordDicranius		when viewing the routing table via CLI, what does an asterisk mean unde the gateway column?
+2009-01-06T01:30:00.000Z	hwilde	LordDicranius	usually all you really need to look for is the one that says "default" that is your default gateway
+2009-01-06T01:31:00.000Z	LordDicranius	hwilde	thanks, I know, but I was just wondering what an asterisk means :)
+2009-01-06T01:32:00.000Z	hwilde	LordDicranius	it means "all".  those lines with the stars really differentiate subnet traffic and interfaces

@@ -1,0 +1,4 @@
+2010-11-27T04:58:00.000Z	kismet		hi
+2010-11-27T04:58:00.000Z	kismet		how can I check if a given port is allowed for connection ?
+2010-11-27T04:59:00.000Z	kismet		I want to connect to my ubuntu server via port 9160 but I get connection refused
+2010-11-27T04:59:00.000Z	guampa	kismet	from another machine nmap -PN -p 9160 <ip address>

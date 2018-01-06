@@ -1,0 +1,4 @@
+2007-06-11T12:01:00.000Z	duncan__		is there any way to access other disc drives from the terminal?
+2007-06-11T12:02:00.000Z	pike_	duncan__	well that didnt tell you much about the terminal
+2007-06-11T12:03:00.000Z	pike_	duncan__	sudo fdisk -l to see the partitions and sudo mkdir /mnt/something; sudo mount /dev/hdb1 /mnt/something  where hdb1 is whatever partition you saw with fdisk
+2007-06-11T12:03:00.000Z	pike_	duncan__	that varies a bit depending of the format fat32 or ntfs etc.

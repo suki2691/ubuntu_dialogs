@@ -1,0 +1,4 @@
+2006-11-23T16:48:00.000Z	fabio__|		which program can I install to set the general volume of audio? (i'm under xubuntu, and i don't find the program the set the volumes..
+2006-11-23T16:48:00.000Z	kitche	fabio__|	you can open up a terminal and do sudo alsamixer then do sudo alsactl store
+2006-11-23T16:50:00.000Z	fabio__|	kitche	thanks! alsamixer seems to work fine"
+2006-11-23T16:51:00.000Z	kitche	fabio__|	remember when you exit alsamixer do sudo alsactl store and it will store yoursettigns so when you reboot they come back

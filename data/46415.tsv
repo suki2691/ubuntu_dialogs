@@ -1,0 +1,4 @@
+2009-11-17T06:34:00.000Z	LordHawke13		How do I change the workgroup of my computer?
+2009-11-17T06:36:00.000Z	LordHawke13		How do I change my machine's workgroup?
+2009-11-17T06:37:00.000Z	losha	LordHawke13	there is a workgroup parameter in /etc/samba/smb.conf
+2009-11-17T06:39:00.000Z	losha	LordHawke13	you must also restart the samba daemon whenever you change the config file sudo /etc/init.d/samba restart

@@ -1,0 +1,4 @@
+2006-05-27T05:45:00.000Z	elixter		hi, i'm going to install ubuntu on my PC and need to know does it recognise NTFS filesystem ?
+2006-05-27T05:46:00.000Z	elixter		but not write ?
+2006-05-27T05:46:00.000Z	dooglus	elixter	you can't install linux onto an NTFS partition, no.  but the ubuntu installer will shrink your existing ntfs partition to make space for a linux partition if you want it to
+2006-05-27T05:47:00.000Z	dooglus	elixter	it will recognise that you have an NTFS filesystem, but it won't be able to use it for storage.

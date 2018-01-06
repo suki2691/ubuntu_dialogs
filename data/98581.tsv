@@ -1,0 +1,4 @@
+2008-03-02T09:01:00.000Z	lsth		i need help. how can i completely reinstall gnome. im on ubuntu 7.04
+2008-03-02T09:03:00.000Z	googling	lsth	what issue is making you want to do this?
+2008-03-02T09:05:00.000Z	googling	lsth	you could try removing ubuntu-desktop and reinstalling ... you may want to remove all the dependencies too using autoremove for apt-get
+2008-03-02T09:06:00.000Z	googling	lsth	this is a bit of a drastic step, but, sudo apt-get remove ubuntu-desktop, followed by sudo apt-get autoremove

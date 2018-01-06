@@ -1,0 +1,4 @@
+2008-09-28T08:14:00.000Z	speener		anyone know what line i'm supposed to put on fstab to mount a vfat partition???
+2008-09-28T08:15:00.000Z	speener		i have this line /dev/sda1 /media/hda1 vfat  user,defaults,rw 0 0
+2008-09-28T08:16:00.000Z	speener		but doesn't load either
+2008-09-28T08:16:00.000Z	scunizi	speener	you might also need the uuid number .. use blkid for that

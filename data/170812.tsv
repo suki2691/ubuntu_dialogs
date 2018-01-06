@@ -1,0 +1,4 @@
+2006-08-15T08:42:00.000Z	rainbird51		I am new to Linux, when I try to do a sudo apt-get I get an error: not allowed to execute '/usr/bin/apt-get' as root on localhost.localdoman
+2006-08-15T08:42:00.000Z	rainbird51		I am in the sudo group
+2006-08-15T08:42:00.000Z	DARKGuy`WoW	rainbird51	you're already root, no need to use sudo. You shouldn't though. Login with your normal user and then use sudo
+2006-08-15T08:43:00.000Z	DARKGuy`WoW	rainbird51	using root as the normal user account is dangerous as you can screw things up without even knowing x_X

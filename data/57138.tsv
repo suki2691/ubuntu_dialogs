@@ -1,0 +1,4 @@
+2009-05-21T20:38:00.000Z	mattgyver		When using ffmpeg to convert video to audio, i recieve 'unknown encoder: libmp3lame' i have libmp3lame0, and libmp3lame-dev installed.  Could anyone help?
+2009-05-21T20:39:00.000Z	ozzmosis	mattgyver	you know you can use mplayer to extract audio from video?
+2009-05-21T20:39:00.000Z	mattgyver	ozzmosis	yes but im actually doing this all via command line in debian ';(
+2009-05-21T20:41:00.000Z	ozzmosis	mattgyver	yes .. mplayer -ao pcm -vo null inputfile.avi  .. will generate audiodump.wav

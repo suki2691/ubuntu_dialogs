@@ -1,0 +1,4 @@
+2009-03-31T15:28:00.000Z	bluenzo		how do I mount my external hdd..it says $logfile indicated unclean shutdown ;x
+2009-03-31T15:28:00.000Z	ActionParsnip1	bluenzo	sudo fdisk -l will show its partition name
+2009-03-31T15:29:00.000Z	ActionParsnip1	bluenzo	then use: sudo mkdir /media/external; sudo mount <partition name> /media/external
+2009-03-31T15:33:00.000Z	ActionParsnip1	bluenzo	what file system is the partition you are mounting?

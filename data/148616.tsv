@@ -1,0 +1,4 @@
+2008-07-14T06:39:00.000Z	getthearm		can anyone tell me how to have my extra hd partitions mount on ubuntu startup (sda6,sda7, etc)
+2008-07-14T06:40:00.000Z	Painless	getthearm	put them into /etc/fstab with 'auto' in the options field
+2008-07-14T06:44:00.000Z	Painless	getthearm	you need a line like '/dev/scd1  /mnt/here   ext3   auto  0   0
+2008-07-14T06:45:00.000Z	Painless	getthearm	most welcome

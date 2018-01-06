@@ -1,0 +1,4 @@
+2011-04-18T04:35:00.000Z	vadi2		When X server completely crashes, where to look for logs?
+2011-04-18T04:36:00.000Z	pfifo	vadi2	/var/log has the Xorg logs
+2011-04-18T04:36:00.000Z	pfifo	vadi2	the most recent
+2011-04-18T04:38:00.000Z	pfifo	vadi2	yeah that its log, if it crashed there might be some info in dmesg or syslog, but usually you dont get much more than a backtrace

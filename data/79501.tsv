@@ -1,0 +1,4 @@
+2009-06-20T11:12:00.000Z	jasu		dylan_, i changed my grub menu root (hd0,5) to root (hd0,6) so i can boot my system but after i reboot i hav to changed again so how do i save my grub menu after i changed my grub
+2009-06-20T11:14:00.000Z	DasEi	jasu	: after altering grub, you just exit, it's saved then
+2009-06-20T11:16:00.000Z	jasu	DasEi	Error 17: cannot mount seleted partition
+2009-06-20T11:20:00.000Z	DasEi	jasu	I'm tired now and will leave; in grub you decide where grub itsel installs and were  (stage1) is, in /boot/grub/menu.lst you define where the kernelimage is

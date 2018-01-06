@@ -1,0 +1,4 @@
+2009-05-26T02:15:00.000Z	Sylphid		anyone know how i can get ping to only print when an ECHO_REPLY is not received?
+2009-05-26T02:16:00.000Z	Slart	Sylphid	what are you trying to do? perhaps there is another way of doing it?
+2009-05-26T02:17:00.000Z	Sylphid	Slart	i want to ping a device and see on screen when it is unresponsive preferably with timestamps
+2009-05-26T02:20:00.000Z	Slart	Sylphid	try something like this instead ping -c 2 100.100.100.100 &> /dev/null || date

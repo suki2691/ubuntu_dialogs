@@ -1,0 +1,4 @@
+2012-04-09T02:53:00.000Z	dwatkins		What is the correct mechanism for setting a background image for the grub menu in 12.04? I've tried various tutorials and grub-customizer, but always end up with a blank background.
+2012-04-09T02:54:00.000Z	L3top	dwatkins	you should research plymouth
+2012-04-09T02:54:00.000Z	dwatkins	L3top	thanks, will do
+2012-04-09T02:57:00.000Z	L3top	dwatkins	check the splash in /etc/default/grub for the grub splash... if you mean the bootsplash/shutdown then you need to create a plymouth theme

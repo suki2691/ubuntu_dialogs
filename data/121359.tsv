@@ -1,0 +1,4 @@
+2007-09-21T12:31:00.000Z	velko	Semidios	you're wrong. mount -a will mount all fstab entries
+2007-09-21T12:33:00.000Z	Semidios	velko	indeed.  just reread the man page.  My bad.
+2007-09-21T12:34:00.000Z	velko	Semidios	so did i. and realized that i'm wrong
+2007-09-21T12:36:00.000Z	velko	Semidios	because the option "defaults" implies "rw, suid, dev, exec, auto, nouser, async". and for the option "auto" it says:  Can be mounted with the -a option.

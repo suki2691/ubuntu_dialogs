@@ -1,0 +1,4 @@
+2011-09-14T05:50:00.000Z	lightcatcher		i installed ubuntu from a flash drive, and i'm dual booting with windows 7. when i boot from hdd, grub fails. when i boot from flash drive, grub runs and I can choose which OS to boot into. any idea how i can get grub to work off of hdd?
+2011-09-14T05:51:00.000Z	dr_willis	lightcatcher	 boot the os, rerun 'sudo dpkg-reconfigure grub-pc' and tell it to put grub on the HD. You can keep the flash as a backup grub emergancy booting gizmo :)
+2011-09-14T05:52:00.000Z	dr_willis	lightcatcher	 theres prob other ways to reinstall grub to the hd. but i tend to always make a flash that  boots every machine as a rescue feature.
+2011-09-14T05:53:00.000Z	lightcatcher	dr_willis	thanks

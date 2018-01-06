@@ -1,0 +1,4 @@
+2006-07-30T10:58:00.000Z	juan		Hi there
+2006-07-30T11:00:00.000Z	juan		An easy question: rar doesn't accept wildcards (*.rar) Is there any way to pass all the files in a directory to it to unrar them using pipes ?
+2006-07-30T11:00:00.000Z	gregg__	juan	you can make a loop using for: for i in *.rar: do unrar x "$i"; done
+2006-07-30T11:03:00.000Z	gregg__	juan	BTW, it's not the program (rar/unrar) that processess the wildcard, it's the shell

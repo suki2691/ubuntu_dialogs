@@ -1,0 +1,4 @@
+2011-12-12T04:32:00.000Z	keithclark		anyone else know why I cannot access a symbolic linked directory via ftp?  I can when on the physical machine.
+2011-12-12T04:34:00.000Z	CarlFK	keithclark	often ftp server will chroot to something, and if the symlink links out of it, no access
+2011-12-12T04:34:00.000Z	keithclark	MahaVishnu	yes, how to grant permission?
+2011-12-12T04:34:00.000Z	CarlFK	keithclark	or the server doesn't follow links.  apache is that way by default I think.

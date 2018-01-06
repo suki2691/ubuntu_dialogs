@@ -1,0 +1,4 @@
+2010-07-07T20:02:00.000Z	plazia		I've just installed a new motherboard (old one had dual lan so eth0 and eth1) and now this new mobo's lan is showing as eth2. Is there a way I can rename the interface to eth0?
+2010-07-07T20:03:00.000Z	bankix	plazia	You have to edit /etc/udev/rules.d/70-persistent-net.rules
+2010-07-07T20:04:00.000Z	bankix	plazia	Or just delete that file, it will be generated at next boot.
+2010-07-07T20:05:00.000Z	plazia	bankix	thanks matey Vaevictus I think bankix has furnished us with a suitable solution.

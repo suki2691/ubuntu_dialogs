@@ -1,0 +1,4 @@
+2012-10-03T12:19:00.000Z	diverdude		When i insert my usb-stick both /dev/sdb and /dev/sdb1 appears. Why are 2 devices appearing?
+2012-10-03T12:20:00.000Z	gordonjcp	diverdude	/dev/sdb is the whole disk, /dev/sdb1 is the first partition on it
+2012-10-03T12:20:00.000Z	gordonjcp		!anyone | milindxcra
+2012-10-03T12:21:00.000Z	diverdude	gordonjcp	so if i want to do create bootable disk, this would be correct right?  dd if=pve-cd.iso of=/dev/sdb1 bs=1M

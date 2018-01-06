@@ -1,0 +1,4 @@
+2007-01-04T15:57:00.000Z	Skyrail		When I switch on my PC it loads up and the Ubuntu loading screen comes up, but when it finishes loading it just goes to a black screen. The little tune places to tell me I've reached the logon screen so I just type my name and password and login but I can't actually see anything until the window in the middle appears and loads the desktop things like Nautilus etc. Anyone any ideas what the problem is? After I login it it's all fine and I can see everythin
+2007-01-04T15:58:00.000Z	stefg	Skyrail	the default resolution for gdm is borked. Sudo dpkg-reconfigure xserver-xorg
+2007-01-04T16:10:00.000Z	Skyrail	stefg	ah thanks :) I'll try that, will it get rid of my current resolution on my desktop? I'd already spent ages trying to sort out resolution problems
+2007-01-04T16:11:00.000Z	Skyrail	stefg	thanks

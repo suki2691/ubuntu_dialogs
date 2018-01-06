@@ -1,0 +1,4 @@
+2008-12-04T08:05:00.000Z	Zoffix		Hello, I've installed Ubuntu 8.10 from a "Minimal" CD and I'm having a hard time installing "Restricted Drivers Manager". Anyone have a clue in which package that thing is?
+2008-12-04T08:06:00.000Z	arrenlex	Zoffix	restricted-manager I think
+2008-12-04T08:08:00.000Z	Zoffix	arrenlex	uh, that is it. It shows up in Synaptic here at the home box, but I searched for "restricted" at $work on that "minimal" install and didn't see it. Well, at least now I know for sure the name of the package. Gonna check the sources tomorrow. Thanks.
+2008-12-04T08:08:00.000Z	arrenlex	Zoffix	I'm looking at packages.ubuntu.com -- seems it's not a full package anymore, but is provided by jockey-gtk

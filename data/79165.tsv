@@ -1,0 +1,4 @@
+2008-09-17T02:29:00.000Z	unop	mike-ubuntu	what do you mean by "file" there?
+2008-09-17T02:31:00.000Z	mike-ubuntu	unop	i mean a package, i'm trying to get a list of dependencies for a package so i can download them and instal them on a computer without internet access
+2008-09-17T02:32:00.000Z	mike-ubuntu	unop	i'm reading through aptitude and apt and dpkg, but if i do aptitude -D <package> it claims that it is incorrect syntax
+2008-09-17T02:35:00.000Z	unop	mike-ubuntu	dpkg -f file.deb  #lists info about the .deb file, including the depends field .. you can also use this https://wiki.ubuntu.com/OfflinePackageDownload

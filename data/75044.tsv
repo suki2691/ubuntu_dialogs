@@ -1,0 +1,4 @@
+2008-12-01T03:58:00.000Z	faemir		... oh.
+2008-12-01T03:59:00.000Z	zsquareplusc	faemir	did you check the output of dmesg for "read only" messages?
+2008-12-01T04:00:00.000Z	faemir	zsquareplusc	[ 3038.116794]     fat_get_cluster: invalid cluster chain (i_pos 0) O_o
+2008-12-01T04:02:00.000Z	zsquareplusc	faemir	sounds like it's not well. it might be usefule to un checkdisk (on windlows) over it (if fsck.vfat)

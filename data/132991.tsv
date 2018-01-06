@@ -1,0 +1,4 @@
+2009-11-19T07:24:00.000Z	Jetsetlemming1		I just got a new hard drive in an external enclosure. It came unpartitioned and formatted, so I'm trying to set it up now using the Disk Utility. But when I try to create the file system (as NTFS), I get this error message: "Error creating file system: helper exited with exit code 1: cannot spawn 'mkntfs -f -L "640 Storage" /dev/sdd': Failed to execute child process "mkntfs" (No such file or directory)"
+2009-11-19T07:24:00.000Z	jonaskoelker	Jetsetlemming1	it seems like you're missing some ntfs tools
+2009-11-19T07:24:00.000Z	jonaskoelker	Jetsetlemming1	lemme' see if I can find out... [hold on]
+2009-11-19T07:25:00.000Z	jonaskoelker	Jetsetlemming1	you probably want to install the ntfsprogs package

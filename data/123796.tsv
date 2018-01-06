@@ -1,0 +1,4 @@
+2008-03-27T22:39:00.000Z	rexy_	mrpoundsign	openssl can do that for you
+2008-03-27T22:39:00.000Z	mrpoundsign	rexy_	Yes, I know how to use openssl, was hoping there was something easier. heh. thanks.
+2008-03-27T22:40:00.000Z	rexy_	mrpoundsign	then i'm not sure what you are asking for
+2008-03-27T22:42:00.000Z	mrpoundsign	rexy_	like which key file dovecot and postfix use. It seems to be using some automatically generated key and it's not specified in the dovecot config. Also, there is a smtp.keyin /etc/ssl/provate, but no crt or pem file associated with it in the same directory. So the actual command to generate a useful key and where to put them is what I am looking for.

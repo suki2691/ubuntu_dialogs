@@ -1,0 +1,4 @@
+2006-04-06T16:45:00.000Z	PetterT		Rehashing: Fresh 5.10 install. No network. Can't connect to router with static IP setting. Can't even get ARP info. Can't get a DHCP address (not very surprising when there is no ARP table).
+2006-04-06T16:45:00.000Z	PetterT		Is there some uber network filter installed by default that I need to disable?
+2006-04-06T16:45:00.000Z	chamo	PetterT	normally not
+2006-04-06T16:46:00.000Z	chamo	PetterT	dmesg | grep interface_name tell you something?

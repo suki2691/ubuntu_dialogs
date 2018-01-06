@@ -1,0 +1,4 @@
+2012-02-18T02:12:00.000Z	bustedz		so i've made progress with my dvd drive but have hit a wall that lots of other folks have also hit
+2012-02-18T02:12:00.000Z	bustedz		trying to force a mount returns "mount: no medium found on /dev/sr0"
+2012-02-18T02:13:00.000Z	bustedz		all the threads i can find seem to be about acer laptops, which makes me suspect some stupid firmware issue
+2012-02-18T02:14:00.000Z	joren	bustedz	you could look around in dmesg, around where it talks about /dev/sr0 and see if it mentions anything about firmware

@@ -1,0 +1,4 @@
+2006-11-13T12:58:00.000Z	mads-		How does screen command work - I can't really see it =/ Or is there anything better? I need the program to run when I log of from ssh...
+2006-11-13T12:59:00.000Z	soundray	mads-	you ssh into the remote box, then start screen. "Detach" the session with Ctrl-A D and exit. When you next ssh, just re-attach with screen -R -D
+2006-11-13T13:00:00.000Z	soundray	mads-	try man screen for more detail
+2007-04-18T12:29:00.000Z	soundray	mads-	use professional language please

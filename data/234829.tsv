@@ -1,0 +1,4 @@
+2005-12-04T11:27:00.000Z	Grundlebug		can anybody tell me where ubuntu installs the kernel source, because it's not in my /usr/src directory
+2005-12-04T11:29:00.000Z	robotgeek	Grundlebug	/usr/src/
+2005-12-04T11:29:00.000Z	robotgeek	Grundlebug	oops, i think you are asking the same thing
+2005-12-04T11:29:00.000Z	robotgeek	Grundlebug	dpkg -l <packagename> | less

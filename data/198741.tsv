@@ -1,0 +1,4 @@
+2008-03-21T19:43:00.000Z	aalper		Well, that's interesting, this install from the live DVD does not even HAVE apache2 installed
+2008-03-21T19:44:00.000Z	Creeture	aalper	What're you trying to do?
+2008-03-21T19:45:00.000Z	Creeture	aalper	apache2 isn't installed by default on any Ubuntu distribution. Just aptitude install apache2
+2008-03-21T19:47:00.000Z	Creeture	aalper	When you get to the autostart stuff, do a "man update-rc.d" for the official way to do it. rc.local should be pretty well left alone.

@@ -1,0 +1,4 @@
+2010-09-11T01:07:00.000Z	sinister-nation		I had installed ubuntu & ubuntu studio on my computer, something happen to grub and had to reinstall grub. How can i get ggrub to see the other linux OS?
+2010-09-11T01:09:00.000Z	bdutta	sinister-nation	i think you need to just edit the /boot/grub/menu.lst fileand add entries for the other OS images... not 100% sure though. feeling quite rusty today.
+2010-09-11T01:11:00.000Z	bdutta		@Helpmeplease... after mounting your /dev/sda8 under /tmp somewhere in LiveCD, can you try to check the dmesg logs ?? where exactly does it bomb ?
+2010-09-11T01:13:00.000Z	sinister-nation	bdutta	I don't see the menu.lst file

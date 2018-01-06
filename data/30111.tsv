@@ -1,0 +1,4 @@
+2010-06-17T20:37:00.000Z	erUSUL	erikd	have you tried to configure the card manually via ifconfig ? does it work ?
+2010-06-17T20:37:00.000Z	erikd	erUSUL	i just tried setting it to a local address and it does, i'll try configuring it with the remote address and see if that works
+2010-06-17T20:59:00.000Z	erikd	erUSUL	i just tried setting all the hosts up completely manually (including the route) and it's working fine.  so it seems like it's not reading the configuration file correctly?
+2010-06-17T21:05:00.000Z	erUSUL	erikd	dunno; maybe if you post you /etc/network/interfaces  we can take a look ?

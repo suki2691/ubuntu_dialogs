@@ -1,0 +1,4 @@
+2010-06-07T19:29:00.000Z	wols	P-Nuts	grep -i ext4 /boot/config*
+2010-06-07T19:32:00.000Z	P-Nuts	wols	most relevant line: /boot/config-2.6.27-17-generic:CONFIG_EXT4DEV_FS=m
+2010-06-07T19:33:00.000Z	wols	P-Nuts	so now you know what to modprobe. and prepare for data loss.... development filesystems are never trustworthy. but I'm sure you have backports
+2010-06-07T19:34:00.000Z	P-Nuts	wols	 have tried modprobe ext4dev

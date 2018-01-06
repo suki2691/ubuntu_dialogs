@@ -1,0 +1,4 @@
+2008-04-12T12:30:00.000Z	JPSman		HIYA!  How do I edit my grub so that it doesn't count down to defaul linux?
+2008-04-12T12:31:00.000Z	Daviey	JPSman	sudo nano /boot/grub/menu.lst
+2008-04-12T12:32:00.000Z	Daviey	JPSman	then look at "## timeout sec"
+2008-04-12T12:33:00.000Z	Daviey	JPSman	use any text editor you want.. but note you need sudo, so you probably want - gksudo gedit /boot/grub/menu.lst

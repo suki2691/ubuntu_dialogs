@@ -1,0 +1,4 @@
+2008-03-07T11:43:00.000Z	Prez00		would there be any problem on installing ubuntu on SSD sata drive?  I am about to buy a LEnovo ThinkPad X300
+2008-03-07T11:43:00.000Z	Prez00		gutsy currently runs great on my x61
+2008-03-07T11:44:00.000Z	macogw	Prez00	shouldnt be, just make sure you set "noatime" on your /etc/fstab so it doesnt write the disk too much.  SSD's have limited writes
+2008-03-07T11:45:00.000Z	Prez00	macogw	great, thanks

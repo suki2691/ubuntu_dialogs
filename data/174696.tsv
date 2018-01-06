@@ -1,0 +1,4 @@
+2006-07-16T06:15:00.000Z	radam		Can anyone tell me how I can stop the current directory being displayed at the command prompt? Currently I have 'adam@adam:~/Desktop$', but I would like 'adam@adam$' (or somthing like that)
+2006-07-16T06:15:00.000Z	radam		it is just annoying when i am in a deep directory
+2006-07-16T06:16:00.000Z	spades	radam	edit .bashrc and find and remove /W
+2006-07-16T06:20:00.000Z	radam	spades	Thanks got it working now!

@@ -1,0 +1,4 @@
+2006-05-24T11:52:00.000Z	webwolf_27		Hey can somebody please tell me how to fix the error "*** glibc detected *** double free or corruption (!prev): 0x081781d8 ***
+2006-05-24T11:52:00.000Z	webwolf_27		Unable to read printer database." or is this a bug in Dapper that needs to be reported
+2006-05-24T11:53:00.000Z	yoyo_	webwolf_27	double free means a bulk of memory has been freed and then try free it again ,usually causing by program's bug
+2006-05-24T11:54:00.000Z	webwolf_27	yoyo_	then this is probably a glibc bug that needs to be reported

@@ -1,0 +1,4 @@
+2009-01-22T21:14:00.000Z	linenoise		Howdy chan.  I got a new camera and I took a bunch of pictures and they're way too big.  Is there an easy way to make them all smaller at once?  I can use gimp to individually save them with less quality, but that will take forever.
+2009-01-22T21:15:00.000Z	h0ra	linenoise	try the command convert from imagemagick
+2009-01-22T21:16:00.000Z	h0ra	linenoise	a nice tool i use is phatch http://photobatch.stani.be/
+2009-01-22T21:19:00.000Z	h0ra	linenoise	 convert rose.jpg -resize 50% rose.png

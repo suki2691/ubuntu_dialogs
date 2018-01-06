@@ -1,0 +1,4 @@
+2009-11-19T00:51:00.000Z	sahilsk_		i neeed to add a path in the bashrc permanently how can i.?? without adding it in the sytem startup list.
+2009-11-19T00:52:00.000Z	llutz	sahilsk_	[20:30:06] <losha> sahilsk_: use the same exact line PATH=$PATH:path/to/my/directory/., but place it in ~/.profile. Lines in ~/.profile are run once each time you login
+2009-11-19T00:54:00.000Z	sahilsk_	llutz	i dont want to add it in the sytem startup application. i neeed to add it int he bashrc permananently. is there any way?? and how can i use chroot here??
+2009-11-19T00:55:00.000Z	llutz	sahilsk_	do what you were told, that has nothing to do with systemstartup-apps

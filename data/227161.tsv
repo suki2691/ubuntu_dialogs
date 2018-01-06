@@ -1,0 +1,4 @@
+2005-07-21T11:55:00.000Z	evillight		hoary, yes, I am booted into the stock kernel as we speak
+2005-07-21T11:55:00.000Z	cafuego	evillight	Did you set up an initrd image in the bootloader when you really needn't have bothered?
+2005-07-21T11:56:00.000Z	evillight	cafuego	no previously I did not
+2005-07-21T11:56:00.000Z	cafuego	evillight	Well, without initrd there's no reason for it to call pivot_root

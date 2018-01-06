@@ -1,0 +1,4 @@
+2011-03-15T00:50:00.000Z	Jinxed--		Does anyone know why something would run find in shell but segfaults when it is run with crontab or rc.local?
+2011-03-15T00:51:00.000Z	guntbert	Jinxed--	might be a question of search paths or environment settings
+2011-03-15T00:52:00.000Z	Jinxed--	guntbert	I thought so too especially since it would segfault when I ran it with env -
+2011-03-15T00:52:00.000Z	Jinxed--	guntbert	rvn but I manually set the $PATH and $TERM in my script now and it still segfaults

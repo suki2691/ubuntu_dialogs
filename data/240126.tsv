@@ -1,0 +1,4 @@
+2006-03-21T08:04:00.000Z	htrp		when you uninstall something using 'apt-get remove' command, what other things you need to remove if you really want to remove it completely?
+2006-03-21T08:05:00.000Z	nickrud	htrp	remove leaves files in /etc ; purge removes those as well
+2006-03-21T08:29:00.000Z	nickrud	htrp	sudo deluser <usr> ; sudo rm /home/usr/ -rf (be careful)
+2006-03-22T08:07:00.000Z	nickrud	htrp	that msg from ubotu has some breezy sources

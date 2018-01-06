@@ -1,0 +1,4 @@
+2005-12-04T11:01:00.000Z	jeremywhiting		while I'm here, is there a way to disable some of the things that start on boot? e.g. bluetooth, since I don't even have bluetooth?
+2005-12-04T11:01:00.000Z	jeremywhiting		er... a ubuntu way to do it besides rm /etc/rcS.d/bluetoothsymlink
+2005-12-04T11:01:00.000Z	cafuego	jeremywhiting	sudo apt-get install rcconf; sudo rcconf
+2005-12-04T11:02:00.000Z	jeremywhiting	cafuego	thanks

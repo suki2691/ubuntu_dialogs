@@ -1,0 +1,4 @@
+2008-04-03T10:17:00.000Z	aubade		What command actually starts gnome?
+2008-04-03T10:18:00.000Z	aubade		Just 'gnome-session'? Rather use startx w/ .xinitrc than GDM since it's a single-user box.
+2008-04-03T10:19:00.000Z	aubade		Aye, worked. Forgot how quick gnome can be.
+2008-04-03T10:20:00.000Z	genii	aubade	Starting gnome from startx usually involves exec gnome-session

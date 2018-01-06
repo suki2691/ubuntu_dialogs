@@ -1,0 +1,4 @@
+2007-04-09T09:54:00.000Z	BrianBoyko		Hi.  I have an unusual dual-core question.  I had an Ubuntu System on a single-core processor.  I upgraded to a dual-core system recently and while Linux is clearly using both cores, I'm not 100% sure it's using them effectively.  I set it up on encoding an Xvid to DVD, and while it used both cores, it only used them to about 50% total capacity - and when one core slacked off the other picked up and vice versa.  My CPU graph looks like a symmetrical se
+2007-04-09T09:55:00.000Z	mjr	BrianBoyko	encoding programs often use only a single process (or thread) by default, in which case the OS itself can't do much to parallelize it
+2007-04-09T09:56:00.000Z	mjr	BrianBoyko	depending on your program, you may be able to tell it to use multiple processes
+2007-04-09T09:57:00.000Z	mjr	BrianBoyko	well, I don't know about that. One thing you can at least do is if you've got a lot to convert, just start two devedes at once ;)

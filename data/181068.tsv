@@ -1,0 +1,4 @@
+2007-09-24T05:58:00.000Z	LOrENz		hello, someone know how to replace a word in many different directory
+2007-09-24T05:59:00.000Z	bruenig	LOrENz	explain what you mean, do you mean a word in many text files in different directories, or renaming directories or what
+2007-09-24T06:02:00.000Z	bruenig	LOrENz	there are a few ways to do it, if there is some parent directory that you can cd into, you can just do: find . -type f -exec sed 's/color=red/color=blue/g' -i '{}' \;
+2007-09-24T06:02:00.000Z	bruenig	LOrENz	after cding into the parent directory of course

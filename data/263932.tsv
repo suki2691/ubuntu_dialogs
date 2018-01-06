@@ -1,0 +1,4 @@
+2005-06-24T05:51:00.000Z	ivanox		hey, can anyone apt-get install xlibmesa-glu-dev without problems!? I get " http://us.archive.ubuntu.com/ubuntu/pool/main/x/xorg/xlibmesa-glu-dev_6.8.2-10_i386.deb  404 Not Found [IP: 82.211.81.138 80] "
+2005-06-24T05:51:00.000Z	LinuxJones	ivanox	that repository server is not working correctly
+2005-06-24T05:52:00.000Z	LinuxJones	ivanox	edit /etc/apt/sources.list and remove the .us part from all lines then apt-get update and try again
+2005-06-25T07:49:00.000Z	LinuxJones	ivanox	do you have the universe repositories enabled ?

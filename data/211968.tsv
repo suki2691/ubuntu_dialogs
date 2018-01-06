@@ -1,0 +1,4 @@
+2005-10-18T06:14:00.000Z	G-Spot		OK, how do I get gpilot to see a usb Palm Pilot?
+2005-10-18T06:15:00.000Z	ThomasM	G-Spot	I've not looked into it for a few years, but I had to use 'dmesg' to find out which USB /dev slot it was on, and then either symlink that from /dev/pilot or configure g-pilot to use that /dev slot.
+2005-10-18T06:16:00.000Z	G-Spot	ThomasM	good call. I didn't thing of checking the logs. First rule of a sys admin too.... doh!
+2005-10-18T06:18:00.000Z	ThomasM	G-Spot	When I did it, there were two entries both pilot-related.  I think it uses one for keepalive checks and one for data, but I'm not sure.  In any case, I think it worked using the first entry.

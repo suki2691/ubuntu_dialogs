@@ -1,0 +1,4 @@
+2006-12-10T14:02:00.000Z	ubuntu_		so noone here knows how to mount a HD while runing a live cd?
+2006-12-10T14:03:00.000Z	engla	ubuntu_	find out which disk is which and then create a folder (like /media/myhd), then sudo mount /dev/* /media/myhd
+2006-12-10T14:04:00.000Z	engla	ubuntu_	but you have to find out what /dev/* is for your hd
+2006-12-10T14:13:00.000Z	ubuntu_	engla	ubuntu@ubuntu:~$ sudo mount /dev/hda1/media

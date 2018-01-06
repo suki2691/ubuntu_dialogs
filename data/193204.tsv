@@ -1,0 +1,4 @@
+2008-04-25T13:24:00.000Z	Sajuukkhar		guys if i insert my flash drive, where will it be in terms of root?
+2008-04-25T13:24:00.000Z	asc	Sajuukkhar	usually in a subdirectory of /media
+2008-04-25T13:27:00.000Z	asc	Sajuukkhar	Nah, just mount it manually. Uh, do 'ls /dev/sd*' It'll list a couple things. The flash drive's partition should be the last item on the list.
+2008-04-25T13:28:00.000Z	asc	Sajuukkhar	run 'sudo mount /dev/sd__ /mnt' where sd__ is the last item on the list, and it'll mount it on /mnt

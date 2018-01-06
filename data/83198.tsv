@@ -1,0 +1,4 @@
+2009-05-26T02:22:00.000Z	tyvek		can anyone help with an apt/dpkg question?
+2009-05-26T02:23:00.000Z	tyvek		i am trying to do recovery from a harddisk on a dead system, and i want to see what packages are installed. i know `dpkg -l` on a live system, but not what to do if i just have a drive from a dead system
+2009-05-26T02:23:00.000Z	ryanprior	tyvek	It's probably a good idea to try to use dd or ddrescue to copy the data to a working system first.
+2009-05-26T02:24:00.000Z	tyvek	ryanprior	yeah, i've taken care of this, and i am just trying to recover a few system files - all the user data is already backed up. i am just curious, tho, what packages were installed so i can reinstall more quickly

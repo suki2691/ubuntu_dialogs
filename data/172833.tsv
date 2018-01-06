@@ -1,0 +1,4 @@
+2007-09-04T11:57:00.000Z	pteague		anybody know of a way that i can sync usernames & password for linux, samba, nfs, & such?
+2007-09-04T11:58:00.000Z	Vlet	pteague	you can also configure samba and nfs to use pam authentication
+2007-09-04T11:58:00.000Z	Vlet	pteague	which means they would use whatever passwords are set for each user
+2007-09-04T12:00:00.000Z	Vlet	pteague	yeah, I'm fairly certain it will, and it would be a lot easier than setting up an ldap server just for that... you'll have to look into the docs for the samba and nfs configs

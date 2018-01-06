@@ -1,0 +1,4 @@
+2009-03-18T17:33:00.000Z	deany		im tryin to get ssh workin on my dell mini 9.  ive already got 1 server setup fine with publickeyauth as "yes" and pub key added.  but this ubuntu hardy on this mini isnt having it. keeps askin for the password..
+2009-03-18T17:35:00.000Z	deany		ive even set the config to pubkeyauth NO, still wont accept the password..
+2009-03-18T17:35:00.000Z	rtx3462	deany	you must generate the key pair on the client, then you ssh-copy-id to copy the public key to the server
+2009-03-18T17:36:00.000Z	rtx3462	deany	try looking in /var/log/auth.log on the server

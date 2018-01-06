@@ -1,0 +1,4 @@
+2006-01-18T15:21:00.000Z	deuce^		Is there an easy way to upgrade from Hoary to Breezy without reinstalling?
+2006-01-18T15:21:00.000Z	PuMpErNiCkLe	deuce^	sudo apt-get dist-upgrade
+2006-01-18T15:22:00.000Z	deuce^	PuMpErNiCkLe	I had tried that.  It doesn't do it.  I get: 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+2006-01-18T15:23:00.000Z	PuMpErNiCkLe	deuce^	hmm... you may have to open /etc/apt/sources.list, search for "hoary" and replace it with "breezy"

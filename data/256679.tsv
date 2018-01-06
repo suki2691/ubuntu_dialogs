@@ -1,0 +1,4 @@
+2007-09-10T12:38:00.000Z	scriptha		My editor is making .bak files for almost everything it edits, it there an easy way to remove every .bak file in a directory, and the ones in subdirectories?
+2007-09-10T12:38:00.000Z	thibaud	scriptha	rm *.bak
+2007-09-10T12:39:00.000Z	thibaud	scriptha	rm -r *.bak
+2007-09-10T12:39:00.000Z	thibaud	scriptha	-r == recursive

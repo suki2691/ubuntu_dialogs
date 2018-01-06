@@ -1,0 +1,4 @@
+2012-11-18T04:02:00.000Z	maslo		hi guys how would I round this number on the same line? right now I have this memtotal=$(echo "`cat /proc/meminfo | grep MemTotal | awk {'print $2'}`*0.0009765625" | bc)
+2012-11-18T04:02:00.000Z	maslo		 which grabs the total memory available and converts it to mb I could convert it from a float to an integer by using ${memtotal/.*} but I don't really know how I'd add that to my existing declaring line
+2012-11-18T04:02:00.000Z	maslo		kinda new to bash scripting but not coding in general
+2012-11-18T04:04:00.000Z	MonkeyDust	maslo	 better visit #bash

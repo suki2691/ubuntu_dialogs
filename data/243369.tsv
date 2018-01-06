@@ -1,0 +1,4 @@
+2005-04-07T05:35:00.000Z	dex1		Hi, I'm still struggling with the Ubuntu install. I was in here yesterday and've now managed to reboot after the custom install (custom becaus it's an old system w/small HD & low RAM). I'm trying to follw this guide: http://www.binonabiso.com/en/Ubuntu-miniRAM-HOWTO.html. The pacakage installing part "apt get ..." threw me as the PC has no modem connection. But someone in here pointed me to a repository and I now have the pacakges (deb files) burned on CD; 
+2005-04-07T05:36:00.000Z	dex1		I googled for help and it suggested "mount /mt/cdrom" but I just get "mount: can't find /mt/cdrom in /etc/fstab or /etc/mtab".
+2005-04-07T05:36:00.000Z	Tekmaven	dex1	you need to tell mount where to mount the cdrom ;-)
+2005-04-07T05:37:00.000Z	Tekmaven	dex1	try: mkdir /mnt/cdrom

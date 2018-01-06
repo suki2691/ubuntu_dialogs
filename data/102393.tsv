@@ -1,0 +1,4 @@
+2009-01-25T04:52:00.000Z	leefmc		Question: How do you ssh copy from one computer to another?
+2009-01-25T04:52:00.000Z	leefmc		via cmd line, ofcourse
+2009-01-25T04:52:00.000Z	rww	leefmc	using scp. See "man scp", and no, you don't need ssh server on both boxes
+2009-01-25T04:53:00.000Z	rww	leefmc	there's also sftp, which also has a manpage

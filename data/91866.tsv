@@ -1,0 +1,4 @@
+2010-10-16T14:23:00.000Z	nadav		is there any way I can capture packets going through my default gateway, or I can only do it from the local station
+2010-10-16T14:25:00.000Z	lucent	nadav	interface in promiscuous mode will capture any unswitched packets on the local HUB but most network attachments are SWITCHED these days
+2010-10-16T14:25:00.000Z	lucent	nadav	so in theory yes, in actuality you must be the gateway to have access to the packets going through it
+2010-10-16T14:26:00.000Z	lucent	nadav	'wireshark' is able to capture some of the traffic that is visible

@@ -1,0 +1,4 @@
+2007-09-08T11:04:00.000Z	nathan		can anyone explain to me sudo? why would only knowing your own password be good enough for root access?
+2007-09-08T11:05:00.000Z	nathan		I just assumed you needed the root password to do the commands. Is there a way to set it up where users can run root commands by entering the root password?
+2007-09-08T11:06:00.000Z	kdubois	nathan	you can switch to the superuser with the 'su' command...
+2007-09-08T11:10:00.000Z	kdubois	nathan	you can specify what users get sudo access, you know

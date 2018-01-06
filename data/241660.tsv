@@ -1,0 +1,4 @@
+2005-04-30T06:55:00.000Z	darko__		arrgh, i guess the problem is that 'nvidia' only shows up in /proc/interrupts after i load X and then it's no more "free"? IRQ's so it sets itself to an already occupied IRQ. I guess if i could "free" an IRQ(you know, so I would have an empy space in /proc/interrupts or nvidia would load up another IRQ at X startup... if that would be possible) then i would have no problem. But how would I do this? Probably with some kernel cmdline, X setti
+2005-04-30T06:55:00.000Z	darko__		nvidia setting or ... ? please help :/
+2005-04-30T06:56:00.000Z	Xappe	darko__	doesn't bios take care of the irq handling? i've seen options like "assign irq to VGA" and stuff in BIOS
+2005-04-30T06:58:00.000Z	darko__	Xappe	yeah that "assign irq to VGA" works, but uhci_hcd also seem to want that irq..

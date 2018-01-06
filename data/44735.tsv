@@ -1,0 +1,4 @@
+2009-10-26T09:39:00.000Z	vigo		!backup
+2009-10-26T09:41:00.000Z	saracen1	vigo	thanks for the links, the main problem i am having trouble with is checking if the tape drive exists, and maybe write to a log file about the status
+2009-10-26T09:42:00.000Z	saracen1		for instance how do i check is /dev/sda is available for writing and then perform the backup ?
+2009-10-26T09:43:00.000Z	vigo	saracen1	Might be a cron job or startup type script to /ping the other box,

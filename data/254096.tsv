@@ -1,0 +1,4 @@
+2007-05-23T16:37:00.000Z	tri3axe		sudo: /var/run/sudo owned by uid 1000, should be uid 0    how do i fixs this?? i did sudo chown -R <user> /var/www/
+2007-05-23T13:45:00.000Z	tri3axe		heyas.. im trying to delete a folder in my /home with the command "rm htdocs"   but console only responds with htdocs is a directory
+2007-05-23T13:46:00.000Z	Crane	tri3axe	type man rm or rm --help for a list of switches or aruements
+2007-05-23T13:47:00.000Z	Crane	tri3axe	the -r will remove all file from that folder down

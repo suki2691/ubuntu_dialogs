@@ -1,0 +1,4 @@
+2005-10-15T06:50:00.000Z	Daishi		im using the ubuntu live cd and i just wanted to know how i get cdrecord to work?
+2005-10-15T06:51:00.000Z	Daishi		cdrecord -scanbus complains about being unable to open /dev/pg*
+2005-10-15T06:51:00.000Z	bob2	Daishi	don't bother with it unless you actually have a SCSI cd burner
+2005-10-15T06:51:00.000Z	bob2	Daishi	? sudo cdrecord dev=/dev/hdwhatever foo.iso

@@ -1,0 +1,4 @@
+2009-10-21T23:45:00.000Z	visbits		hi, im trying to run a service at startup but i need to run as a user not root.  Any ideas?
+2009-10-21T23:46:00.000Z	visbits		slart how can i add a service to init.d and tell it to sudo another user?
+2009-10-21T23:46:00.000Z	visbits		thanks
+2009-10-21T23:47:00.000Z	BoxMagnet	visbits	/etc/rc.local runs commands as root.

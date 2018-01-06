@@ -1,0 +1,4 @@
+2006-01-25T07:03:00.000Z	boodle		anyone getting xorg-server to work in dapper right now (font problems it looks like)
+2006-01-25T07:04:00.000Z	gnomefreak	boodle	the fix is fairly easy :)
+2006-01-25T07:04:00.000Z	boodle	crimsun	tyvm!
+2006-01-25T07:04:00.000Z	gnomefreak	boodle	replace /usr/X11r6/bin/X with /usr/bin/X11/Xorg in /etc/gdm/gdm.conf

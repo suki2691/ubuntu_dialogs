@@ -1,0 +1,4 @@
+2009-10-31T07:28:00.000Z	abhiroopb		Need some help with Bash: basically I have a very simple script that executes a very long rsync command. Instead of putting it all in one line (and it looking very messy) is there anyway to put each command on a new line? When I hit ENTER to put it on a new line and try and run the script the script fails to run (although when I don't hit enter it runs fine). Thanks
+2009-10-31T07:29:00.000Z	abhiroopb		thanks!
+2009-10-31T07:29:00.000Z	jken146	abhiroopb	yes.  the first line should say #!/bin/bash and then you put each command on a new line
+2009-10-31T07:30:00.000Z	abhiroopb	jken146	yes the first line does say that. Basically its just one long terminal command. When I put it on different lines it executes each line as a separate command. But, I think quiescens solution should work

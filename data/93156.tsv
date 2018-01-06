@@ -1,0 +1,4 @@
+2008-04-27T11:26:00.000Z	ceil420		is there a non-ext3 fs that people recommend?
+2008-04-27T11:27:00.000Z	ceil420		i'm not sure if it's old HDDs or the fs, but i'm getting inode/superblock errors on both my disks sometimes :x
+2008-04-27T11:27:00.000Z	Radtoo^laptop	ceil420	All the ones that are supported by linux have their place. xfs for instance is good if you want constant, predictable throughput
+2008-04-27T11:28:00.000Z	Radtoo^laptop	ceil420	But the most useful and robust for most users still is ext3.

@@ -1,0 +1,4 @@
+2010-01-18T20:45:00.000Z	johnny_bris		I can copy a load of files into a single file with  find . -name "*.txt" -exec cat {} >> somefile \;  How do I use echo to seperate the files with ""
+2010-01-18T20:46:00.000Z	ikonia	johnny_bris	you can't seperate like that, you'd have to use something like sed or cut to seperate out using "" as a delemeter
+2010-01-18T20:46:00.000Z	ikonia	johnny_bris	maybe a for loop with grep would also work but I can't see it in my head now
+2010-01-18T21:00:00.000Z	johnny_bris	ikonia	I have been looking at the sed manpage. I am a newbie and cannot work out how to apply it. Do you know the correct syntax for my use case?

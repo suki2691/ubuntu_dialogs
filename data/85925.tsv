@@ -1,0 +1,4 @@
+2008-12-31T14:31:00.000Z	Squawk		Hey chaps, just done a fresh install on a maters puter, everything working fine except for xine. Xine is looking for /dev/dvd, but the device is at scd0. A symbolic link in /dev sorts the problem but does not persist after a restart (/dev created on the fly presumably, I'm new to ubuntu, not linux). Any help
+2008-12-31T14:33:00.000Z	hateball	Squawk	if that's the way you'd like to solve it, you could always put something like... "ln -s /dev/scd0 /dev/dvd" in /etc/rc.local
+2008-12-31T14:34:00.000Z	hateball	Squawk	Then again.. I'm sure it's configurable in Xine
+2008-12-31T14:34:00.000Z	Squawk	hateball	actually I figure it has to be configurable in xine, just not figured it out yet and was kinda hoping someone might know off hand

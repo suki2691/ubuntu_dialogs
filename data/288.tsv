@@ -1,0 +1,4 @@
+2012-11-30T13:52:00.000Z	iceroot	tizxxx	ifconfig is reading the current network settings which can be set via interfaces, network-manager and so on
+2012-11-30T13:53:00.000Z	iceroot	tizxxx	interfaces is just one way to edit the settings but network-manager will for example overwrite that settings
+2012-11-30T13:54:00.000Z	tizxxx	iceroot	i apt-get purge network manager, ifconfig shows actual ip, but i want settings from interfaces.
+2012-11-30T13:55:00.000Z	tizxxx	iceroot	i'm using script from opennebula for my vm, it puts rights settings to interfaces file, but i can't figure out how to apply them

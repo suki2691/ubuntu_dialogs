@@ -1,0 +1,4 @@
+2006-06-16T15:45:00.000Z	jenda-lappy		Hmm... my laptop doesn't connect to eth0 when plugged. How can I make it do that? (ATM, I have to restart the connection)
+2006-06-16T15:46:00.000Z	KrisWood	jenda-lappy	have you tried ifup eth0?
+2006-06-16T15:48:00.000Z	jenda-lappy	KrisWood	imagine this... I'm connected. I unplug. I replug. I'm not connected. I believe running dhclient fixes that, but I don't want to have to run a command manually (it should detect the connection)
+2006-06-16T15:50:00.000Z	KrisWood	jenda-lappy	sounds like a bug to me, I'd try searching on the ubuntu forums if I were you

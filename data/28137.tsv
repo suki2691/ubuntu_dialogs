@@ -1,0 +1,4 @@
+2010-07-30T11:51:00.000Z	Guest65266		any ideas on how to mount a card reader that fdisk -l can't find .... lsusb finds the reader but card can't be found only in lucid worked fine before upgrade
+2010-07-30T11:52:00.000Z	Docteh	Guest65266	look at dmesg, might want to remove, reinsert card
+2010-07-30T11:53:00.000Z	Guest65266	Docteh	thatnks, tried dmesg,: READ CAPACITY failed
+2010-07-30T11:53:00.000Z	Docteh	Guest65266	eeeeeek

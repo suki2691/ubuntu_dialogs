@@ -1,0 +1,4 @@
+2011-12-18T20:48:00.000Z	AndrewW		I had ubuntu running on a Compaq TC1100, and when I rotate the screen the stylus doesn't work right. It still acts like its in landscape mode. How can I fix this?
+2011-12-18T20:49:00.000Z	popey	AndrewW	is it a wacom tablet (the screen)?
+2011-12-18T20:49:00.000Z	popey	AndrewW	if so i think you can use xsetwacom to rotate the input device
+2011-12-18T20:50:00.000Z	popey	AndrewW	i used to do this with an old toshiba convertible laptop/tablet thing. use xrandr and xsetwacom to rotate the display and the tablet

@@ -1,0 +1,4 @@
+2010-01-07T21:15:00.000Z	sinthetek		ok, so removing network-manager and restoring /etc/network/interfaces is insufficient to revert to previous-style network intialization in karmic
+2010-01-07T21:16:00.000Z	sinthetek		any suggestions what might do the trick? do i need to add /etc/init.d/networking to a runlevel or something?
+2010-01-07T21:16:00.000Z	sinthetek		oh wait
+2010-01-07T21:16:00.000Z	BluesKaj	sinthetek	make sure do eth0=dhcp if on a wired connection

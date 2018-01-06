@@ -1,0 +1,4 @@
+2005-03-01T07:14:00.000Z	shade_eating		okay guys i need help
+2005-03-01T07:14:00.000Z	shade_eating		how do i make the following command valid for the mp3 directory and EVERY other directory within it?
+2005-03-01T07:14:00.000Z	shade_eating		sudo chown cryan:cryan /home/cryan/mp3
+2005-03-01T07:15:00.000Z	thoreauputic	shade_eating	chown -R cryan:cryan mp3

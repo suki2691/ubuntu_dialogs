@@ -1,0 +1,4 @@
+2011-02-02T04:11:00.000Z	ubuntuuuss		how can you bring a network up without using the ifup command?
+2011-02-02T04:13:00.000Z	fumblnoob	ubuntuuuss	sudo ifconfig <device> up; sudo dhclient <device>
+2011-02-02T04:15:00.000Z	ubuntuuuss	fumblnoob	I have tried that, but in order for dhclient to work properly the network must be up (i.e. I must invoke ifup), if I invoke "ifconfig eth1 up" it doesn't seem to be enough, try "ping whatever" after that and I receive "network is down"
+2011-02-02T04:15:00.000Z	ubuntuuuss	fumblnoob	there seems to be something else that ifconfig up and dhclient cannot take care that must be "upped"

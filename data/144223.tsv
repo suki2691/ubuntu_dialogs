@@ -1,0 +1,4 @@
+2007-03-02T09:30:00.000Z	Armyboy30		Im trying to compile my first kernel.  Im useing a web site as a guide but Im having a problem.  It tells me to "fakeroot make-kpkg --initrd --append-to-version=-custom kernel_image kernel_headers"  but when I do that I get  "/usr/bin/fakeroot: 152: make-: not found".  Can anyone tell me what the problem is?
+2007-03-02T09:30:00.000Z	h1st0	Armyboy30	you need make-kpkg installed.
+2007-03-02T09:31:00.000Z	Armyboy30	h1st0	 cool, thanks.  Tought it was an easy fix but wasnt sure
+2007-03-02T09:31:00.000Z	h1st0	Armyboy30	yeah you may want build-essentials I believe its in there.  Its a meta package with a bunch of compiling stuff.

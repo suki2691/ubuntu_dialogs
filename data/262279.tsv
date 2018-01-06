@@ -1,0 +1,4 @@
+2004-10-23T16:58:00.000Z	plovs_work		how do I make an ubuntu package from a debian-unstable package?
+2004-10-23T16:59:00.000Z	plovs_work		alien is rpm-deb etc, i mean rebuild from dsc or something
+2004-10-23T05:00:00.000Z	TML	plovs_work	I can't think of any reason you couldn't just dpkg -i foo.deb
+2004-10-23T05:00:00.000Z	TML	plovs_work	Of course, you'll have to satisfy all the deps

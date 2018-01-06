@@ -1,0 +1,4 @@
+2009-09-18T05:55:00.000Z	Mikru		Hey my friend is running Jaunty 9.04 and gets "Video mode not supported" on any monitors he tries when using the "nvidia" (The official ones..) drivers
+2009-09-18T05:55:00.000Z	Mikru		Works fine when he uses the "nv" drivers, but obviously he'd like some hardware accel.
+2009-09-18T05:55:00.000Z	Josh__	Mikru	mabye his monitor doesnt support DPMS?
+2009-09-18T05:56:00.000Z	Josh__	Mikru	ahh. Mabye copy the modeline from the working config to the "nvidia" Xorg.conf?

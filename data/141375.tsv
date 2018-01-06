@@ -1,0 +1,4 @@
+2007-04-10T13:50:00.000Z	chengzhewu		A question: I can`t seem to find my windows partitions on Ubuntu. How do I get them to show? THanks
+2007-04-10T13:51:00.000Z	chengzhewu		ok, how do I do that? I`m rather new to the whole thing...
+2007-04-10T13:51:00.000Z	chengzhewu		VERY new
+2007-04-10T13:53:00.000Z	kbidd	chengzhewu	to just mount it, try something like this:  mkdir /mnt/windows && mount -t ntfs /dev/hda# /mnt/windows, where hda# is the partition you use for windows

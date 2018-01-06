@@ -1,0 +1,4 @@
+2008-12-05T07:10:00.000Z	uc50ic4more		@storrgie; have you done anything w/ iptables yet? do you have an external firewall? does the program *require* that any ports be open specifically?
+2008-12-05T07:11:00.000Z	storrgie	uc50ic4more	nothing with iptables yet (those are the hosts files right?) the machine is local to me.... and i dont know if verlihub requires it.... but i know its listening on 4111
+2008-12-05T07:12:00.000Z	uc50ic4more	storrgie	ok, i am pretty sure you're fine as long as you are not behind a router... if you are behind a router, simply forward port 4111 to the IP of your machine
+2008-12-05T07:12:00.000Z	storrgie	uc50ic4more	i know how to take care of the router... i just dont even know if verlihub is running right now.. hmmm but i configured it for 4111

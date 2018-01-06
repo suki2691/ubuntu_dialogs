@@ -1,0 +1,4 @@
+2009-08-31T10:17:00.000Z	amites		Anyone know how to install a package with dependencies on an outdated package, I have already installed an updated version of the outdated package from source
+2009-08-31T10:19:00.000Z	xikteny	amites	is the package you are trying to install a .deb
+2009-08-31T10:19:00.000Z	amites	xikteny	I would assume so
+2009-08-31T10:20:00.000Z	xikteny	amites	if so i think you could use dpkg -i --force-depends-version package.deb

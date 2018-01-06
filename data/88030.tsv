@@ -1,0 +1,4 @@
+2009-11-28T04:54:00.000Z	aron_		Hello I'm new to linux, is it true that user and root passwords only matters for physical access?
+2009-11-28T04:54:00.000Z	LjL	aron_	uhm, what do you mean?
+2009-11-28T05:01:00.000Z	LjL	aron_	that password is used both locally and remotely - i.e. it will prevent someone with physical access from doing admin-like things on your computer, but it will also prevent them from logging in remotely if you have any sort of remote login facility (such as an SSH server) enabled. ubuntu, by default, doesn't come with any such thing enabled, though.
+2009-11-28T05:03:00.000Z	aron_	LjL	I see I haven't installed any servers or ssh so I should be safe then

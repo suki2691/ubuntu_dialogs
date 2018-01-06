@@ -1,0 +1,4 @@
+2012-03-17T15:11:00.000Z	bouzbou		is there a path on ubuntu (like windows) ? When I install a package (git for example), I can then directly run 'git' from the command line, where is it defined?
+2012-03-17T15:13:00.000Z	bouzbou		are you sur it's added automatically in the $PATH? It looks more like there put in a folder and that folder is in the PATH?
+2012-03-17T15:14:00.000Z	sacarlson	bouzbou	most runable apps will be installed in /bin or /usr/bin;  if they are admin then maybe /sbin ; /user/sbin
+2012-03-17T15:16:00.000Z	bouzbou	sacarlson	os so basically most of the packages I'll install with aptitude (php, mysql, git, ...) will be put in folders of the $PATH so everything is automatic it's not like windows?

@@ -1,0 +1,4 @@
+2012-03-29T02:17:00.000Z	rallias_		Is it possible to chown a file to a user and a group that user isn't a part of?
+2012-03-29T02:18:00.000Z	ejv	rallias_	that question makes little to no sense
+2012-03-29T02:19:00.000Z	rallias_	ejv	let me rephrase it. I have a file chmodded to 0750. The user is derp. The group is the same group that PHP-FastCGI runs under. Derp is not part of that group. Is that allowed, or will it cause complications?
+2012-03-29T02:21:00.000Z	ejv	rallias_	if you set strange ownership privileges, ubuntu is not going to question you.

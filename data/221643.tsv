@@ -1,0 +1,4 @@
+2006-07-28T15:57:00.000Z	dooglus	ruxpin	the default in ubuntu is to use runlevel 2 for everything
+2006-07-28T15:59:00.000Z	dooglus	ruxpin	running "ls -l /etc/rc*.d/*udev" should show only one link: /etc/rcS.d/S10udev -> ../init.d/udev
+2006-07-28T16:00:00.000Z	ruxpin	dooglus	I've got four the links to 3,4,5 and S
+2006-07-28T16:04:00.000Z	dooglus	ruxpin	I don't suppose you ever enter levels 3, 4, or 5, so it probably makes no difference.

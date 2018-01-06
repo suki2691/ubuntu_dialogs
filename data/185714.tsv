@@ -1,0 +1,4 @@
+2006-06-06T09:12:00.000Z	paradizelos1		hey all, how do i force the system to use specific DNS servers, rather than the ones that DHCP provides?
+2006-06-06T09:13:00.000Z	DBO	paradizelos1	well a very hacky way to do it is by editing resolv.conf and making it read only...  there is probably a better way though
+2006-06-06T09:14:00.000Z	paradizelos1	DBO	doesn't work, file still gets overwritten when the client renews the lease
+2006-06-06T09:14:00.000Z	DBO	paradizelos1	you made it read only?

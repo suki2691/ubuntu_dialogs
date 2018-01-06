@@ -1,0 +1,4 @@
+2006-01-15T16:41:00.000Z	rseeber		how can i get privledges to access an NTFS folder as my user and not just root
+2006-01-15T16:42:00.000Z	dooglus	rseeber	you mount it with option "umask=0"
+2006-01-15T16:43:00.000Z	dooglus	rseeber	"umask=0"
+2006-01-15T16:43:00.000Z	dooglus	rseeber	the line I use is:

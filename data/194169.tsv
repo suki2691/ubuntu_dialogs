@@ -1,0 +1,4 @@
+2007-06-08T05:42:00.000Z	random		Hi all, I need some help increasing the size of my "/tmp" folder. I don't know if that is even possible or not, but I would appreciate some help.
+2007-06-08T05:42:00.000Z	pike_	random	very easy just make a new partition and add it to /etc/fstab to mount on /tmp
+2007-06-08T05:42:00.000Z	pike_	random	format it xfs for kicks
+2007-06-08T05:43:00.000Z	pike_	random	serious about the format ext is safe but not fast and for /tmp you dont need safe

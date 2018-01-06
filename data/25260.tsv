@@ -1,0 +1,4 @@
+2011-03-25T13:32:00.000Z	JonesNH		So where does 'wordpress' install to?
+2011-03-25T13:32:00.000Z	JonesNH		If i install the package using apt
+2011-03-25T13:33:00.000Z	oCean	JonesNH	/usr/share/wordpress most likely
+2011-03-25T13:44:00.000Z	oCean	JonesNH	usually after installing such packages, the installer should create a blah.conf in /etc/apache2/conf.d pointing to the correct location

@@ -1,0 +1,4 @@
+2010-06-24T23:43:00.000Z	weekly		hello guys, question: I cant seem to run this .sh file. when i just strait ./ it it says permision denied, when i sudo it it says "./xx.sh command not found" how do i run this .sh!?
+2010-06-24T23:43:00.000Z	VanessaE	weekly	chmod 755 file.sh  && ./file.sh
+2010-06-24T23:43:00.000Z	VanessaE		(youyr permissions are probably not set right)
+2010-06-24T23:45:00.000Z	weekly	VanessaE	thanks! it worked

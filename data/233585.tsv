@@ -1,0 +1,4 @@
+2005-06-10T05:26:00.000Z	leitao_		Hello, My machine have crashed and it was necessarily to reboot. When it started, fsck forces a scan, but it stops, and ask for root password. But i dont know the password, cause i always use sudo. What could i do?
+2005-06-10T05:26:00.000Z	hyphenater	leitao_	the root password is the same as the user password you gave during install
+2005-06-10T05:27:00.000Z	leitao_	hyphenater	the same password as the sudo user?
+2005-06-10T05:28:00.000Z	hyphenater	leitao_	yes, it should be. If not try "sudo passwd"

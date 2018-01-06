@@ -1,0 +1,4 @@
+2005-11-19T13:13:00.000Z	technomancy		i've got a problem with switching virtual terminals on breezy--when I press ctrl-alt-1 and then try to go back to my X display, it permanently blacks out
+2005-11-19T13:13:00.000Z	technomancy		anybody got any tips? I can't get the display back except by a reboot
+2005-11-19T13:13:00.000Z	trappist	technomancy	what video card
+2005-11-19T13:14:00.000Z	trappist	technomancy	I've only seen that with some nvidia cards, where it's a framebuffer issue.  you might try booting with no framebuffer.

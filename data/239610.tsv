@@ -1,0 +1,4 @@
+2007-07-10T06:52:00.000Z	bthornton		I've got a Linux host with two NICs in it: one is hooked up to the "main network", and the other is connected to a WAP (which gets its IP statically).  Is it possible to configure my Linux host to indescriminately forward all packets back and forth between the WAP connected on one NIC to the main network connected on the other NIC?
+2007-07-10T06:53:00.000Z	NigelS	bthornton	you mean turn on forwarding? yes
+2007-07-10T06:54:00.000Z	bthornton	NigelS	and insofaras I've done "echo 1 > /proc/sys/net/ipv4/ip_forward", I have enabled ip forwarding.  But it's still not forwarding packets freely
+2007-07-10T06:54:00.000Z	NigelS	bthornton	you need to masquerade

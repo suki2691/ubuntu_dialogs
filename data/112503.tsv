@@ -1,0 +1,4 @@
+2008-03-29T03:47:00.000Z	johnny2008		does a fresh install of ubuntu have a firewall already installed?
+2008-03-29T03:48:00.000Z	johnny2008		a website says: Iptables is a firewall, installed by default on all official Ubuntu distributions (Ubuntu, Kubuntu, Xubuntu). When you install Ubuntu, iptables is there, but it allows all traffic by default..   Whats that mean?
+2008-03-29T03:50:00.000Z	Kuwanger	johnny2008	What it sounds like?
+2008-03-29T03:51:00.000Z	Kuwanger	johnny2008	iptables is the kernel firewall.  It can be compiled built-in or as a module.  Most distros include it as a module, installed by default.  Some will include some default rules.  Ubuntu doesn't include any.

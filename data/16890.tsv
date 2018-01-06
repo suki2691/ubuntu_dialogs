@@ -1,0 +1,4 @@
+2012-02-07T15:11:00.000Z	brianz		my box can get ip from dhcp server and can ping hosts on local subnet, but can not ping gateway or hosts on other subnets, does anyone know what's wrong? i'm using 11.04
+2012-02-07T15:12:00.000Z	ikonia	brianz	probably wrong default gateway
+2012-02-07T15:19:00.000Z	brianz	ikonia	output of 'route -n' is correct, and if i issuing 'sudo dhclient eth0' and ping default gateway immediately, i could get several responses, but about 10 to 20 seconds later, all ping response timed out
+2012-02-07T15:20:00.000Z	ikonia	brianz	sounds like your dhcp lease is expiring, or your network link is going down

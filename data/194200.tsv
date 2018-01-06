@@ -1,0 +1,4 @@
+2008-02-04T23:47:00.000Z	MHz128		hello world! What commands are used to mount a USB wifi card in linux?
+2008-02-04T23:47:00.000Z	MHz128		Ive already installed the driver with the provided script
+2008-02-04T23:48:00.000Z	pike_	MHz128	you will not want to mount it but plug it in and do dmest | tail  and lsusb to see if its detected. if it is then sudo ifconfig -a should show it
+2008-02-04T23:48:00.000Z	pike_	MHz128	dmesg i mean

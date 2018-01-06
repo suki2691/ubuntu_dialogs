@@ -1,0 +1,4 @@
+2011-02-20T15:01:00.000Z	dve		If I create a file in a symlink'ed folder, does that file get created in the target folder only?
+2011-02-20T15:02:00.000Z	Diamondcite	dve	It should be created at the origin of the symlink.
+2011-02-20T15:03:00.000Z	Diamondcite	dve	Such as.. if you symlink toast/ to bagel/ , change into bagel/ , create butter.txt, It will appear in both toast/ and bagel/
+2011-02-20T15:04:00.000Z	Diamondcite	dve	Deleting bagel/ in the above will not affect toast/ in any way. On the other hand.. deleting toast/ would break bagel/

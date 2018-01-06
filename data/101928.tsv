@@ -1,0 +1,4 @@
+2008-03-22T13:18:00.000Z	unop__	ProbeDot	as long as the sentences match exactly yes
+2008-03-22T13:19:00.000Z	unop__	ProbeDot	the only problem is that the output will be sorted -- something you might not want -- use the perl example if not
+2008-03-22T13:21:00.000Z	unop__	ProbeDot	 echo -e "foo\nbar\nfoo\nquuz\nbar" | sort | uniq  -- will give you "bar foo quuz" instead of "foo bar quuz" ..
+2008-03-22T13:22:00.000Z	unop__	ProbeDot	they dont match exactly - therefore they will pass through untouched

@@ -1,0 +1,4 @@
+2010-10-07T18:07:00.000Z	tytyuyh		what can I use on Ubuntu to extract the boot record from CD? GUI something please
+2010-10-07T18:08:00.000Z	greppy	tytyuyh	dd if=/dev/sda of=/dev/sdb bs=512 count=1
+2010-10-07T18:09:00.000Z	greppy	tytyuyh	sorry, that's cli, but you don't get much simpler.
+2010-10-07T18:10:00.000Z	tytyuyh	greppy	I doubt CDs work this way

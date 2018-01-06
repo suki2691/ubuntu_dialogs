@@ -1,0 +1,4 @@
+2012-10-09T21:11:00.000Z	dyd		guys i've installed the latest version of ubuntu, then i resized the disk and installed on another partition WIN XP. Now it just boots with XP, how can i dual boot?
+2012-10-09T21:12:00.000Z	dyd		thank you
+2012-10-09T21:14:00.000Z	wilee-nilee	dyd	Are you getting to XP through the grub bootloader, and what happens if it is grub when you choose ubuntu?
+2012-10-09T21:16:00.000Z	wilee-nilee	dyd	Ah I see you installed XP after ubuntu you just need to reload grub to the mbr.

@@ -1,0 +1,4 @@
+2007-09-08T13:52:00.000Z	yotam		howlingmadhowie:is there a way to mount a folder from my windows machine at the uni to a computer at home via ssh?
+2007-09-08T13:54:00.000Z	yotam		ok. I'll just have to find some windows guru to do it won't I...
+2007-09-08T13:54:00.000Z	yotam		yes Xenguy?
+2007-09-08T13:56:00.000Z	anto9us	yotam	you can forward ports 139 and 445 over ssh, smb (windows shares) uses one or the other as I recall

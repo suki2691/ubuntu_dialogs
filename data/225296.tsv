@@ -1,0 +1,4 @@
+2006-03-19T14:20:00.000Z	Jemt		Hm, I am trying to share a folder on my laptop using Samba. I have given it a share-name and opened port 137-139 and 445 for incomming connection in my firewall. When I try to access the share on my stationary workstation (mount -t smbfs -o username=usr,password=psw //ip/share-name /media/net) I get "Connection refused". What is wrong?
+2006-03-19T14:21:00.000Z	Jemt		!samba
+2006-03-19T14:21:00.000Z	Xanadu	Jemt	run smbpasswd from console to add a user for samba
+2006-03-19T14:21:00.000Z	Jemt	Xanadu	Of cause - i forgot that. Thanks

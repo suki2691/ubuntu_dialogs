@@ -1,0 +1,4 @@
+2005-08-10T10:21:00.000Z	Saba_Z		Hi
+2005-08-10T10:22:00.000Z	Saba_Z		Is there any way to make my intel I855M work with 3d support?
+2005-08-10T10:23:00.000Z	Saba_Z		Is there any way to make my intel I855M work with 3d support?
+2005-08-10T10:24:00.000Z	mjr	Saba_Z	see /var/log/Xorg.0.log for why it isn't using 3d acceleration; I seem to recall that you might have to set it to use 16-bit colors to enable it

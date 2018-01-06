@@ -1,0 +1,4 @@
+2009-05-08T06:21:00.000Z	Weez		can someone tell me how to see a list of the sata devices on my linux box?
+2009-05-08T06:22:00.000Z	Weez		Thanks KB1JWQ
+2009-05-08T06:22:00.000Z	ZykoticK9	Weez	"dmesg | grep sd" will show sata hard drives
+2009-05-08T06:23:00.000Z	ZykoticK9	Weez	even better "ls /dev/sd*"

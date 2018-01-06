@@ -1,0 +1,4 @@
+2008-11-14T13:43:00.000Z	oakmac		I have a web server running that I want to shut down.  How can I figure out what process is being the web server?
+2008-11-14T13:43:00.000Z	joaopinto	oakmac	check the running processes with "ps -ef"
+2008-11-14T13:48:00.000Z	joaopinto	oakmac	run: sudo netstat -lp
+2008-11-14T13:49:00.000Z	joaopinto	oakmac	you should not use lampp, you should use the regular ubuntu packages

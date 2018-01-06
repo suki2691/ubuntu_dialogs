@@ -1,0 +1,4 @@
+2012-11-13T16:13:00.000Z	BuGo_		why script works when i ./script run it but fails when run-parts tries to run it?
+2012-11-13T16:14:00.000Z	llutz	BuGo_	what is the scripts filename?
+2012-11-13T16:17:00.000Z	BuGo_	llutz	nothing special: database_backup
+2012-11-13T16:18:00.000Z	BuGo_	llutz	i think i found what was wrong #!/bin/sh was required at the start of the script

@@ -1,0 +1,4 @@
+2008-05-25T19:14:00.000Z	Retiree		I have a MSI 7300 nVidia and i tried to install in Gutsy and it will not let me install driver that I obtained from manufacture website. it is a run file and when I run it from root terminal it stops on error and says it has to be run from terminal.What can I do to get it loaded? I plan on upgrade to Hardy after I get it running. The best resolution I can get now is 800x600.Before I tried to install I had desktop effects under compiz. T
+2008-05-25T19:14:00.000Z	mewt	Retiree	switch to a virtual terminal by pressing ctrl+alt+f1
+2008-05-25T19:15:00.000Z	mewt	Retiree	then type sudo /etc/init.d/gdm stop
+2008-05-25T19:15:00.000Z	mewt	Retiree	after installation is finished type sudo /etc/init.d/gdm start

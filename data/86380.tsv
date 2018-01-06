@@ -1,0 +1,4 @@
+2010-01-09T18:16:00.000Z	jonaskoelker		Hi all.  How do I compute the amount of disk space taken up by the set of files matching a particular glob pattern?
+2010-01-09T18:17:00.000Z	jonaskoelker		neither du nor ls prints the total :(
+2010-01-09T18:19:00.000Z	enzotib	jonaskoelker	du -c <my-glob-here> | tail -1
+2010-01-09T18:21:00.000Z	jonaskoelker	enzotib	thanks :)

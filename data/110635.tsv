@@ -1,0 +1,4 @@
+2007-12-07T01:03:00.000Z	alobodig		Slight problem: echo $PATH gives me: //bin:/usr/local/bin:/bin:.. That extra slash in the beginning is causing a lot of trouble. Anyone care to guess where that's being set?
+2007-12-07T01:03:00.000Z	MasterShrek_	alobodig	/etc/environment  possibly
+2007-12-07T01:03:00.000Z	alobodig	MasterShrek	checked it, it's not there
+2007-12-07T01:04:00.000Z	MasterShrek_	alobodig	/etc/profile ?

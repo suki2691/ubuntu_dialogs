@@ -1,0 +1,4 @@
+2010-11-26T01:05:00.000Z	quiescens	wrd	you'll find that shell scripts can't technically be setuid without some considerable effort
+2010-11-26T01:11:00.000Z	wrd	quiescens	oh you're right. wonder why that should be technically impossible.
+2010-11-26T01:12:00.000Z	quiescens	wrd	because you're not really "running" the script, you're technically running /bin/sh on the script, and /bin/sh isn't suid
+2010-11-26T01:13:00.000Z	wrd	quiescens	ah that makes perfect sense...

@@ -1,0 +1,4 @@
+2009-11-26T08:56:00.000Z	RickJames		is there a way to poll a serial to usb device to see which com port it's been assigned?
+2009-11-26T08:57:00.000Z	RickJames		i'm sorry, it's a gps.
+2009-11-26T08:58:00.000Z	RickJames		pharos gps-500 uses a serial interface to usb adapter to connect to the computer
+2009-11-26T08:59:00.000Z	venger	RickJames	did you try something like dmesg | grep tty or setserial -g /dev/ttyS* ?

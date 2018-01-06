@@ -1,0 +1,4 @@
+2010-01-03T07:53:00.000Z	gabex		anyone know if, after resizing the ubuntu / (only) partition and moving both it and the swap partition to the end of the disk, from the installer cd with gparted, if i need to do anything special to make sure it boots when it's done?
+2010-01-03T07:53:00.000Z	gabex		like with grub?
+2010-01-03T07:53:00.000Z	Out_Cold	gabex	most likely but i don't know anything about grub2
+2010-01-03T07:54:00.000Z	Out_Cold	gabex	and most likely /etc/fstab will need new UIDs also

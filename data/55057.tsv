@@ -1,0 +1,4 @@
+2011-08-10T05:09:00.000Z	renancoelho		Hi there! my hardware is working however the computer is not booting from it. I think maybe something messed up the Grub loader. I am using Ubuntu through the usb. How can I reinstall Grub here? Does this sound logic to you guys?
+2011-08-10T05:09:00.000Z	edbian	renancoelho	sudo grub-install --boot-directory=/path/to/your/ubuntu/mounted /dev/sda
+2011-08-10T05:10:00.000Z	edbian	renancoelho	:)
+2011-08-10T05:12:00.000Z	edbian	renancoelho	you have to mount it first, wanna PM me ?

@@ -1,0 +1,4 @@
+2007-12-28T19:17:00.000Z	noor		I seem to be losing audio periodically.  A restart seems to fix it, but restarting ALSA doesn't.  This most recent time I was watching a two file movie and when it switched over to the second file the audio was no longer working! (this was in vlc and other programs like amarok had no sound)  The first time I noticed this problem was right after I installed the FF 3 beta yesterday...if that means anything.  Firefox was not running during any of
+2007-12-28T19:17:00.000Z	noor		 this recent stuff, however.
+2007-12-28T19:19:00.000Z	noor		I guess for a specific question, how does one restart the audio stuff completely?
+2007-12-28T19:21:00.000Z	Wander_w	noor	stop all applications using audio (including artsd and the like) then rmmod you sound card modules and modprobe them back in

@@ -1,0 +1,4 @@
+2009-05-25T05:01:00.000Z	erichammond_		What is the name of the file system which allows you to "layer" on top of an existing read-only file system?  New and modified files can be stored on a different device with transparent fall-through to the underlying fs.
+2009-05-25T05:01:00.000Z	boss_mc	erichammond_	squashfs?
+2009-05-25T05:01:00.000Z	boss_mc	erichammond_	aufs?
+2009-05-25T05:06:00.000Z	erichammond_	boss_mc	ozzmosis, unop_: aufs looks like what I was thinking of.  unionfs sounds like the same thing but older. Thanks.

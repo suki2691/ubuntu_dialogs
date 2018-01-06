@@ -1,0 +1,4 @@
+2012-05-30T05:48:00.000Z	Apocalyptikz		O
+2012-05-30T05:49:00.000Z	Apocalyptikz		I'm trying to get my user back to default. What files do I need to rename?
+2012-05-30T05:50:00.000Z	escott	Apocalyptikz	/var/log/Xorg.0.log. to go back to what you had you would "rm -rf .config; mv .config.bak .config"
+2012-05-30T05:54:00.000Z	Apocalyptikz	escott	I see "fglrx: No matching Device section for instance... found"

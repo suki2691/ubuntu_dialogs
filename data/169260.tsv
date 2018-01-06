@@ -1,0 +1,4 @@
+2006-09-01T16:37:00.000Z	Abst		Hey: I just installed kubuntu-desktop by sudo aptitude install ... but when I do sudo aptitude remove .. it doesn't work.. Any suggestions?
+2006-09-01T16:39:00.000Z	mneptok	Abst	you can't remove it with Aptitude because the Aptitude package itself depends on KDE.
+2006-09-01T16:40:00.000Z	mneptok	Abst	sudo apt-get remove kubuntu-desktop
+2006-09-01T16:40:00.000Z	Abst	mneptok	That doesn't work

@@ -1,0 +1,4 @@
+2010-04-28T07:58:00.000Z	Guest74840		I think I might of gotten a magnet near my hdd lol, how do I manually start the maintence thing that occurs monthly
+2010-04-28T08:00:00.000Z	thiemster	Guest74840	try running "run sudo fdisk -l". this will list the partitions on your hard drive. Then run "sudo fsck /dev/*" where * is each partition that you found using the previous command
+2010-04-28T08:01:00.000Z	thiemster	Guest74840	You should actually run fsck /dev/whatever from a live cd because it is dangerous to run it if it's in use... and it would be in use if you are running the computer with it
+2010-04-28T08:03:00.000Z	thiemster	Guest74840	so the easy way would be to just take the CD that you installed ubuntu with and use that to run the check

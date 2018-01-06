@@ -1,0 +1,4 @@
+2011-09-14T12:57:00.000Z	TWiSTEDSO		anyone that can help out on this problem , it seems that eth0 got an old ip , need to restart the network , but when doing a start/stop/restart , im getting this error : ifdown couldnt read interfaces file etc/network/interfaces : ifup couldnt read interfaces file etc/network/interfaces any hints ? Computer aint using any router ?
+2011-09-14T12:58:00.000Z	ActionParsnip	TWiSTEDSO	sudo dhclient3 eth0
+2011-09-14T12:59:00.000Z	TWiSTEDSO	ActionParsnip	testing , thnks
+2011-09-14T13:02:00.000Z	TWiSTEDSO	ActionParsnip	THNKS it solved the problem :)

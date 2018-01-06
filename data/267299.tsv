@@ -1,0 +1,4 @@
+2004-11-25T10:37:00.000Z	yohannes		why cant i isssue a command: sudo export ......?
+2004-11-25T10:37:00.000Z	yohannes		anyone knows?
+2004-11-25T10:37:00.000Z	dopey	yohannes	export is a shell-builtin - sudo spawns a subshell, runs the command, then closes
+2004-11-25T10:38:00.000Z	dopey	yohannes	you shouldnt need sudo for that

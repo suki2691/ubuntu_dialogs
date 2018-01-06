@@ -1,0 +1,4 @@
+2010-03-08T03:57:00.000Z	boehlke		I have a strange networking problem: My internet connection and most sites work, but I cannot connect to some hosts on some ports. For example, I can ping the host, but I cannot connect on port 80 (telnet ... 80). When I start a VMWare VM (Windows), the connection works (telnet ... 80 in Windows shell). After restarting my system, the connections work again!! Can anyone point me a direction to look?
+2010-03-08T03:58:00.000Z	MilitantPotato	boehlke	launch (might need installed) firestarter and see if iptables is blocking communication for some reason?
+2010-03-08T03:58:00.000Z	MilitantPotato	boehlke	doubt it since vmware works, but meh.
+2010-03-08T04:02:00.000Z	boehlke	MilitantPotato	iptables rule tables are empty

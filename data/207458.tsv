@@ -1,0 +1,4 @@
+2006-03-20T16:40:00.000Z	pvd2006		How do you access your apache web server and put files onto it once its up and running? do you ftp into the address? I tried to ftp into it and it said connection refused.
+2006-03-20T14:21:00.000Z	pvd2006		Alright, I got APache web server 2.0 running. I am confused as to where to put the html, cgi, pl files. I mean since its hosted on my own IP and im just using it to test cgi scripts I dont need to ftp anything. There should be some directory on Ubuntu where I can load those files and they will show up when I goto my local site, right?
+2006-03-20T14:22:00.000Z	pvd2006		IVe been reading a lot of tutorials on apache, and havent figured that out. Even though its probably something really simple.
+2006-03-20T14:22:00.000Z	oskude	pvd2006	the documentroot of apache is normally "/var/www"

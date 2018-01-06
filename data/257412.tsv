@@ -1,0 +1,4 @@
+2004-11-23T11:45:00.000Z	pdaoust		quick question: does anybody know the environment variable that sets the system's default text editor? I went 'crontab -e' and it brought up VIM, which I'm still completely confused about.
+2004-11-23T11:46:00.000Z	xuzo	pdaoust	EDITOR
+2004-11-23T11:46:00.000Z	pdaoust	xuzo	thanks!
+2004-11-23T11:51:00.000Z	xuzo	pdaoust	update-alternatives sets the destination of /etc/alternatives/editor symlink, it can be used to set sistem wide editor.

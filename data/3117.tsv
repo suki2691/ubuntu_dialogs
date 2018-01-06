@@ -1,0 +1,4 @@
+2012-05-12T07:43:00.000Z	bmck-		if i have 16gb ram how much swap area do i need for the partition
+2012-05-12T07:45:00.000Z	krababbel	bmck-	does it matter? how big is you hdd?
+2012-05-12T07:46:00.000Z	bmck-	krababbel	no it doesnt matter, i have a 500gb hd for it
+2012-05-12T08:01:00.000Z	krababbel	bmck-	A Red Hat Enterprise Linux 5 system will run just fine with no swap space at all as long as the sum of anonymous memory and system V shared memory is less than about 3/4 the amount of RAM.

@@ -1,0 +1,4 @@
+2009-07-19T07:04:00.000Z	mfillpot	arand	the problem was PEBKAC, the issue was fixed with ln -s
+2009-07-19T07:01:00.000Z	arand	mfillpot	from the grub manual error two is "This error is returned if a file requested is not a regular file, but something like a symbolic link, directory, or FIFO."
+2009-07-19T07:02:00.000Z	mfillpot	arand	I knew that it could not find something that was needed, I was jsut too slow to figure out that it is due to a missing symlink.
+2009-07-19T07:03:00.000Z	arand	mfillpot	ah, didn't realise you'd already solved it :)

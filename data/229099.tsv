@@ -1,0 +1,4 @@
+2007-04-23T15:54:00.000Z	Asterix_		I'm trying to install the latest nvidia drivers but it keeps telling me I've got an X server running.  How do I close X server and keep that GUI login screen coming up?
+2007-04-23T15:54:00.000Z	mwe	Asterix_	you probably need to shut down gdm while installing it
+2007-04-23T15:54:00.000Z	mwe	Asterix_	log in at the console and complete the installation
+2007-04-23T15:55:00.000Z	mwe	Asterix_	sudo invoke-rc.d gdm stop

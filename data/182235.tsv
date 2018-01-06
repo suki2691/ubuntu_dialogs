@@ -1,0 +1,4 @@
+2006-12-28T17:27:00.000Z	stefg		!wpa | hheee
+2006-12-28T06:12:00.000Z	felixfoertsch	stefg	So what do you suggest?
+2006-12-28T06:14:00.000Z	felixfoertsch	stefg	Is there a tutorial to explain that?
+2006-12-28T06:15:00.000Z	stefg	felixfoertsch	it's dead simple: sudo cp /etc/fstab /etc/fstab.backup ... sudo nano /etc/fstab... the /dev/names are already in the file, only as comments... see 'man fstab' for the details

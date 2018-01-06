@@ -1,0 +1,4 @@
+2005-11-10T13:54:00.000Z	_chani		erm. amarok crashes when it finishes playing an mp3...
+2005-11-10T13:55:00.000Z	_chani		also, my usb isn't working. I get stuff in dmesg about sda, but I would expect stuff about sda1 too and that's not there
+2005-11-10T13:55:00.000Z	crimsun	_chani	sda1 is a partition on sda, so you won't see messages about it
+2005-11-10T13:56:00.000Z	_chani	crimsun	funny, I did in gentoo. anyways, konq is trying to go to media:/sda1 and failing.

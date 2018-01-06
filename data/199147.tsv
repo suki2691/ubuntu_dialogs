@@ -1,0 +1,4 @@
+2006-04-13T14:44:00.000Z	johannes__		if i upgrade to dapper can i just save my home partition and mount it again?thx guys
+2006-04-13T14:46:00.000Z	Frogzoo	johannes__	there will be setting you want to save from /etc - but you'll need to restore them piece by piece eg. /etc/hdparm.conf
+2006-04-13T14:50:00.000Z	Frogzoo	johannes__	you should backup /etc & let the install reformat the /etc partition, as dapper will have its own ideas about what /etc should look like, once the upgrade is finished, any files you've modified in /etc will need to be redone
+2006-05-22T07:55:00.000Z	Frogzoo	johannes__	mobile? phone? or laptop?

@@ -1,0 +1,4 @@
+2007-08-23T08:43:00.000Z	jerbear		i've installed a few programs from source... what's the best way to get rid of them? the prefix is /usr/local
+2007-08-23T08:45:00.000Z	dxdt	jerbear	make uninstall in the same source that you did make install in.  In the future, you should use a progame called checkinstall.  Use this instead of make install and a nice package will be made such that you can remove the programs much faster and better in the future.
+2007-08-23T08:48:00.000Z	jerbear	dxdt	i tried checkinstall, but when i tried to install the package it looked like it was trying to install it to /usr instead of /usr/local and it failed
+2007-08-23T08:48:00.000Z	jerbear	dxdt	if it helps, the program i'm trying to install is pidgin

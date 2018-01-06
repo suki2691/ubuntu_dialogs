@@ -1,0 +1,4 @@
+2011-05-29T02:01:00.000Z	lloowen		Hello all! I need to disable my grub boot menu so that my Ubuntu/server boots up without me having to use a keyboard to press the enter key.
+2011-05-29T02:01:00.000Z	escott	lloowen	see /etc/default/grub
+2011-05-29T02:02:00.000Z	lloowen	escott	I've just been there. Not sure what I'm supposed to do there.
+2011-05-29T02:04:00.000Z	escott	lloowen	i think you can shorten the timeout, and then run grub-mkconfig

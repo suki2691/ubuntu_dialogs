@@ -1,0 +1,4 @@
+2010-10-23T00:25:00.000Z	uLinux		What is the command to reinstall a program?
+2010-10-23T00:26:00.000Z	muelli	uLinux	apt-get install --reinstall $package
+2010-10-23T00:29:00.000Z	muelli	uLinux	you can dpkg-reconfigure the package after installation.
+2010-10-23T00:30:00.000Z	uLinux	muelli	dpkg-reconfigure "resets" configurations to default?

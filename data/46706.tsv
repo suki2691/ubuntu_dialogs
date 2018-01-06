@@ -1,0 +1,4 @@
+2010-10-19T06:49:00.000Z	xenogia		just wondering is there anyway to make the update manager automatically pop up after a sudo apt-get update?
+2010-10-19T06:49:00.000Z	Dr_Willis	xenogia	 Ive seen it pop up automatically here befor.  But it may be somthing related to the update manager only checking every so often for updated
+2010-10-19T06:50:00.000Z	xenogia	Dr_Willis	That is what I thought.  Just wish I could figure out how.. hahaha
+2010-10-19T06:50:00.000Z	Dr_Willis	xenogia	 you could just make a script that does 'sudo apt-get update' 'sudo apt-get upgrade' and not even need update manager.

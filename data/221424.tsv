@@ -1,0 +1,4 @@
+2005-09-07T16:08:00.000Z	gwilym		Does anyone know a way to arrange things so that, from either windows or ubuntu, I can choose what the default boot option will be next time?
+2005-09-07T16:08:00.000Z	nfinitep1astik	gwilym	change your options on your boot loader, but you'll need a little knowledge
+2005-09-07T16:10:00.000Z	gwilym	nfinitep1astik	I'd like to be able to toggle between the two easily, so that the next boot after ubuntu is windows, but the next after windows is ubuntu, or similar: it's a remote machine. I've set the menu.lst at the moment to go into windows - is there an easy way to change it from in windows?
+2005-09-07T16:12:00.000Z	nfinitep1astik	gwilym	i haven't heard of something like that nor how sure it how possible that would be....the boot script usually remains static, unless you're able to modify ntldr dynamically...which i doubt x.x

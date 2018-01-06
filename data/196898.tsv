@@ -1,0 +1,4 @@
+2007-02-20T13:35:00.000Z	miha		hello this is first time this happened to me.. i installed mysql (5.something) and when i start it just prints lines with single .  .. after a minute it gives up.. i see no errors in logs
+2007-02-20T13:35:00.000Z	miha		any ideas?
+2007-02-20T13:36:00.000Z	disasm	miha	try running strace on the daemon when starting it manually
+2007-02-20T13:37:00.000Z	miha	disasm	it displays cryptic messages:)

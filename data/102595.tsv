@@ -1,0 +1,4 @@
+2011-02-04T04:02:00.000Z	durpa		i installed a lamp environment with apt-get install lamp^ , but i want to see what version of apache i'm running, and no where is httpd installed as a binary... anyone know why? or how i can check the version w/out httpd binary?
+2011-02-04T04:03:00.000Z	rww	durpa	apt-cache policy apache2 will show the version number
+2011-02-04T04:04:00.000Z	rww	durpa	or "/usr/sbin/apache2 -v", if you want to use the binary itself.
+2011-02-04T04:07:00.000Z	durpa	rww	thank you, that worked :D

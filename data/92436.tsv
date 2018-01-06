@@ -1,0 +1,4 @@
+2008-11-29T02:01:00.000Z	StephenF		whats the best way to partition/ RAID a webserver with 4 drives using software RAID, dont care much about speed or size just need redundancy
+2008-11-29T02:03:00.000Z	genii	StephenF	raid5 for 4 drive setup will give most bang for the buck
+2008-11-29T02:05:00.000Z	StephenF	genii	how would I handle the boot partition
+2008-11-29T02:06:00.000Z	genii	StephenF	Make a small partition at start of each drive which is not in the raid. Use that to have uncompressed /boot

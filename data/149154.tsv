@@ -1,0 +1,4 @@
+2008-08-06T22:35:00.000Z	Skinzy1		Hey, just a quick question, when writing bash scripts what's the variable for using text outside the script i.e. if i wrote a script that was ./hello frank the script would echo hello frank (so frank is the variable)
+2008-08-06T22:36:00.000Z	unop	Skinzy1	$1, $2, $3, etc for each positional parameter
+2008-08-06T22:36:00.000Z	unop	Skinzy1	 $@ for all of them
+2008-08-06T22:37:00.000Z	unop	Skinzy1	well, it should do   hey tom fred bob  actually :)

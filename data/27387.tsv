@@ -1,0 +1,4 @@
+2012-01-06T02:04:00.000Z	ssfdre38		i just tried iptables -A OUTPUT -s tcp --dport 6667 -j ACCEPT
+2012-01-06T02:05:00.000Z	ssta	ssfdre38	looks about right to me
+2012-01-06T02:05:00.000Z	ssfdre38	ssta	its says --dport is not a vaild command for iptables
+2012-01-06T02:05:00.000Z	ssta	ssfdre38	ah, -p tcp

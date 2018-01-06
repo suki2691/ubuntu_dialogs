@@ -1,0 +1,4 @@
+2008-11-28T13:37:00.000Z	N-A		I have a problem mounting a partition (ntfs-3g) I get the message that I must be root to mount xxx in yyy, this is one of several ntfs partitions, the rest mount fine. I can sudo mount it fine, just not as user, so I have to open a terminal to mount/unmount it, which is not needed for the rest of the ntfs partitions, I would like for this partition to mount when I double click on it in nautilus (like the rest) and unmount wh
+2008-11-28T13:38:00.000Z	aftertaf	N-A	any differences for that Ntfs partitioon in your /etc/fstab ?
+2008-11-28T13:38:00.000Z	N-A	aftertaf	No
+2008-11-28T13:39:00.000Z	N-A	aftertaf	/dev/sdd2 /media/Big1 ntfs-3g defaults,locale=da_DK.UTF-8 0 0

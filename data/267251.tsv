@@ -1,0 +1,4 @@
+2011-04-04T22:45:00.000Z	renzo_sabayon		i'm having a little problem with access on my windows7 partition...i mount it in a folder (/media/windows) whose owner is my user (and ls -l gives me rwx on my user), and in my fstab i wrote ntfs as type (it's windows 7) and defaults,users as optiions! i can browse it, but i cannot move files in it, either if i'm user or root!! can you give me some hints,please?
+2011-04-04T22:46:00.000Z	renzo_sabayon		yes of course
+2011-04-04T22:46:00.000Z	Dr_Willis	renzo_sabayon	 you want to use ntfs-3g not ntfs.
+2011-04-04T22:48:00.000Z	Dr_Willis	renzo_sabayon	 ntfs-3g is the next generation of ntfs fs drivers.. use it.

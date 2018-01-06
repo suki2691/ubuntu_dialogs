@@ -1,0 +1,4 @@
+2012-02-24T02:01:00.000Z	trishxo		when im upgrading to ubuntu 10.04, when it dells me packages i can either remove or keep, what should i do?
+2012-02-24T02:02:00.000Z	trishxo		should i keep or remove packages when upgrading ubuntu?
+2012-02-24T02:03:00.000Z	pangolin	trishxo	I always let the installer remove them
+2012-02-24T02:05:00.000Z	pangolin	trishxo	dpkg -l | awk '/^rc/{print $2}' |  sudo xargs dpkg -P

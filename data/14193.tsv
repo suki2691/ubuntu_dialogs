@@ -1,0 +1,4 @@
+2011-08-29T02:52:00.000Z	JoeR1		I would like to get rid of firefox and I would like to not have chromium either, how may I do this?
+2011-08-29T02:53:00.000Z	Polah	JoeR1	sudo apt-get remove firefox, or sudo apt-get purge firefox. Purging will remove dpkg config files as well.
+2011-08-29T02:53:00.000Z	JoeR1	Polah	qin Thanks
+2011-08-29T02:56:00.000Z	JoeR1	Polah	qin  - No such luck, apt-get still insists on installing Chromium if I remove/purge Firefox or vice versa

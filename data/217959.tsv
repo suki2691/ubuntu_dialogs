@@ -1,0 +1,4 @@
+2005-09-24T13:45:00.000Z	Blissex		oO[NOVA] Oo: add a script to do so to '/etc/init.d/' and then link it in the runlevel directories you want it to run for.
+2005-09-24T13:46:00.000Z	oO[NOVA] Oo	Blissex	i create a file called mountsmbshares in /etc/init.d/ and i put this command in: sudo mount -t smbfs "//192.168.0.250/ADMIN 2" "/mnt/smb/192.168.0.250/ADMIN 2" -o username=narf,password=narf,rw,fmask=777 and i ran init-rc.d mountsmbshares defaults to get it hooked up, but it's not working.
+2005-09-24T13:47:00.000Z	oO[NOVA] Oo	Blissex	the command does work when executed from a root terminal.
+2005-09-24T13:49:00.000Z	oO[NOVA] Oo	Blissex	alright.. i tried with and without..

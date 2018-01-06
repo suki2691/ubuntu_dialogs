@@ -1,0 +1,4 @@
+2006-05-30T06:25:00.000Z	tomek_		thx for all the tips so far,I have one more to ask - how can I check my HD for errors or bad sectors or whatever on ubuntu?
+2006-05-30T06:26:00.000Z	amphi	tomek_	badblocks
+2006-05-30T06:28:00.000Z	tomek_	amphi	sorry for being such a moron, but what exactly do i have to type: badblocks -what?
+2006-05-30T06:29:00.000Z	amphi	tomek_	man badblocks - you want non-destructive, probably; if it's a recent drive, you'd probably be better off to use smartctl to run the drive's onboard diagnostics

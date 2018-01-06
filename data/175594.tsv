@@ -1,0 +1,4 @@
+2006-07-06T14:05:00.000Z	sloucher		i locked myself out of sudo. I ran something like usermod -G fuse user, and now i'm only in the fuse group. How acan I get back to being sudo
+2006-07-06T14:06:00.000Z	brainsik	sloucher	hmmm.. bad situation
+2006-07-06T14:06:00.000Z	brainsik	sloucher	you might need to boot via rescue mode and edit the groups file by hand
+2006-07-06T14:07:00.000Z	brainsik	sloucher	its /etc/group (in case you don't know)

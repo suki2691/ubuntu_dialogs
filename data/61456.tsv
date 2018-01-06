@@ -1,0 +1,4 @@
+2010-06-24T11:09:00.000Z	tsimpson	inspiron	"sed 's/linxu\-headers-\(.*\)\-generic/\1/g'" should work
+2010-06-24T11:12:00.000Z	inspiron	tsimpson	It doesn't - I managed to get it delete the 2.6.??-?? but can't invert the behaviour
+2010-06-24T11:13:00.000Z	tsimpson	inspiron	that works here, eg "echo "linux-headers-$(uname -r)" | sed 's/linux\-headers-\(.*\)\-generic/\1/g'" gives me "2.6.32-22"
+2010-06-24T11:14:00.000Z	inspiron	tsimpson	it doesn't work with me. I'll try it again don't worry

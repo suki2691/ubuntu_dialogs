@@ -1,0 +1,4 @@
+2007-11-30T21:38:00.000Z	ptn107		proftpd question: Starting/stopping proftpd is fine but I still get the error "IPv6 getaddrinfo 'phil-desktop' error: No address associated with hostname"  I think its related to /etc/hosts but no matter what I tinker with I can't get the error to go away on ftp restarts
+2007-11-30T21:39:00.000Z	MasterShrek	ptn107	ive seen that error before, google it for a quick fix
+2007-11-30T21:39:00.000Z	ptn107	MasterShrek	ive followed several tutorials on google each suggests to change something in /etc/hosts but no fixes are working for me
+2007-11-30T21:45:00.000Z	ptn107	MasterShrek	oh i think i got it, i can't just add to the /etc/hosts file, i need to use ipv6 format or something

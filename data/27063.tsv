@@ -1,0 +1,4 @@
+2010-08-24T22:44:00.000Z	dr3af		when i boot my pc i see this "kinit: no resume image, doing normal boot" what is this?
+2010-08-24T22:44:00.000Z	jk_	dr3af	it simply means that you didn't have a stored hibernate image to reload; perfectly normal.
+2010-08-24T22:45:00.000Z	dr3af	jk_	yes i know its normal,but i need to know which service is this and if i can disable it
+2010-08-24T22:46:00.000Z	jk_	dr3af	I think it's built into kinit, and not able to be disabled without recompiling that part of the system.

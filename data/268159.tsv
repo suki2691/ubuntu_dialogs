@@ -1,0 +1,4 @@
+2009-11-07T15:30:00.000Z	ubuntunetsucks		why i cant connect to net from ubuntu , while can from arch , sabayon,fedora , suse , mandriva, granular, pradus, freebsd, linuxmint??
+2009-11-07T15:32:00.000Z	ubuntunetsucks		why why why , aah .i down;oaded a pkg so that i can get net connectivity , and during installation it tried to downloade dep, else refuse to install??? a classic catch-22 situation
+2009-11-07T15:33:00.000Z	sivang	ubuntunetsucks	do apt-cache showdeps on the pkg you want to install, so you'd have a complete list of dependencies
+2009-11-07T15:33:00.000Z	sivang	ubuntunetsucks	then get them all and then install them using dpkg

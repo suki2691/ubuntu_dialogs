@@ -1,0 +1,4 @@
+2011-03-15T02:07:00.000Z	Kevin1a		I just downloaded the latest Natty Narwhal to test it out before it's released.  I used the alternative torrent download, and I want to keep seeding it even after I upgrade.  I'm upgrading with the CD rather than just using the terminal for a few reasons.  What folder did transmission put the torrent for natty in?  I just hit "open with" in Firefox download prompt
+2011-03-15T02:08:00.000Z	trism	Kevin1a	in Transmission, Edit/Preferences and look at Save to Location:
+2011-03-15T02:10:00.000Z	trism	Kevin1a	oh, do you mean the actual .torrent file? I'm not sure, misunderstood
+2011-03-15T02:11:00.000Z	trism	Kevin1a	looks like those are saved to ~/.config/transmission/torrents/

@@ -1,0 +1,4 @@
+2009-07-03T03:18:00.000Z	cocoa117		hi, is it possible to create nested group under traditional Linux group access method? e.g. in /etc/group can i create a group inside another group?
+2009-07-03T03:19:00.000Z	ZykoticK9	cocoa117	groups can be members of other groups i believe
+2009-07-03T03:20:00.000Z	cocoa117	ZykoticK9	how do i put it in /etc/group file?
+2009-07-03T03:21:00.000Z	ZykoticK9	cocoa117	not really a great idea to be directly editing that file if you don't know what you're doing.  there are commands for adding users/groups to the system (sorry off the top of my head can't remember them)

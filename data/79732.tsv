@@ -1,0 +1,4 @@
+2010-01-20T10:46:00.000Z	Renatus		Hm, so this is the error im getting when i click reload on synaptic, "W: GPG error: http://ppa.launchpad.net karmic Release: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 5A9BF3BB4E5E17B5"
+2010-01-20T10:47:00.000Z	keepsake	Renatus	The keyring is broken
+2010-01-20T10:48:00.000Z	keepsake	Renatus	Give me one second to paste the command.
+2010-01-20T10:49:00.000Z	keepsake	Renatus	In terminal: gpg --keyserver keyserver.ubuntu.com --recv 4E5E17B5, and then gpg --export --armor 4E5E17B5 | sudo apt-key add -

@@ -1,0 +1,4 @@
+2006-08-13T16:27:00.000Z	loko555		hello, i have 3 deb-files in a directory, how could i install them with dpkg, i mean -i dont work. cause the 3 files are depencies with each other but dpkg wont recognize
+2006-08-13T16:28:00.000Z	Amaranth	loko555	If you use `dpkg -i file1.deb file2.deb file3.deb` it should work.
+2006-08-13T16:29:00.000Z	loko555	Amaranth	thanks this works
+2006-08-13T16:30:00.000Z	Amaranth	loko555	No problem. :) dpkg is smart enough to realize that it's going to get the dependency resolved if you install them all in one go, something to remember for later.

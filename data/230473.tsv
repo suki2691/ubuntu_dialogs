@@ -1,0 +1,4 @@
+2005-07-14T09:57:00.000Z	johntramp		hey I installed ubuntu on a pc with a 21" monitor and it set the resolution to something like 1280x1024 and now I have it running on a smaller monitor which cant handle that resolution.  Is there a way to have ubuntu reconfigure itself for this new monitor or do I have to edit config files by hand?
+2005-07-14T09:57:00.000Z	dabaR	johntramp	yes, hoary?
+2005-07-14T09:57:00.000Z	johntramp	dabaR	yes
+2005-07-14T09:58:00.000Z	dabaR	johntramp	well, I used this, sudo dpkg-reconfigure xserver-xorg it is a little funny, cause it asks you all these things, but I enter through it except for the resolution part, youll see.

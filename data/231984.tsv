@@ -1,0 +1,4 @@
+2006-08-14T09:05:00.000Z	jmst		does anybody know why i get no response from "ping localhost"?
+2006-08-14T09:05:00.000Z	jmst		ifconfig doesn't list lo
+2006-08-14T09:06:00.000Z	jmst		will i drop offline?
+2006-08-14T09:06:00.000Z	erUSUL	jmst	check /etc/network/interfaces for a line like auto lo\n auto lo

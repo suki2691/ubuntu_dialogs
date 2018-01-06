@@ -1,0 +1,4 @@
+2012-01-10T21:14:00.000Z	Pumpkin-		"invalid", ie: you cannot login to it with a password.
+2012-01-10T21:16:00.000Z	Pumpkin-		generally you don't. If you want to work as that user for some reason, use something like "sudo sudo -u www-data -i"
+2012-01-10T21:17:00.000Z	Pumpkin-		the 1st sudo to let you run something as root, the second to change your user to (-u) www-data and give you an interactive shell (-i)
+2012-01-10T21:18:00.000Z	yumbo	Pumpkin-	I think you don't even need the first sudo

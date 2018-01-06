@@ -1,0 +1,4 @@
+2008-09-19T10:38:00.000Z	snadge		why would i be able to start gdm by typing in "gdm" as root.. but if i run /etc/init.d/gdm restart .. it doesnt work?
+2008-09-19T10:38:00.000Z	snadge		this is a fresh install too of 8.04.1 .. absolutely bizarre
+2008-09-19T10:38:00.000Z	carpediem	snadge	define "doesn't work"
+2008-09-19T10:39:00.000Z	carpediem	snadge	look at /var/log/Xorg.0.log  right after you try to run it

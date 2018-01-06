@@ -1,0 +1,4 @@
+2007-10-11T11:54:00.000Z	tomd		hi, I was wondering why ubuntu assigned the device /dev/sda to my hd instead of hda. I'm assuming it is emulating scsi, but i'm not sure. when I run hdparm, the settings look different than usual.. it seems performance is better if I don't emulate scsi
+2007-10-11T11:54:00.000Z	tomd		anyone else have this happen? also, is there a way to get the vendor information from the hard drive?
+2007-10-11T11:55:00.000Z	USMarine	tomd	sudo hdparm -i /dev/sda
+2007-10-11T11:56:00.000Z	tomd	USMarine	thanks, that gives more info

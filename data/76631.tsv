@@ -1,0 +1,4 @@
+2008-10-24T03:35:00.000Z	pavel-		Hi. In short: gdm is broken. Details: after booting the login screen is not displayed, instead a blank (black) screen with a cryptic error dialogue (all characters of the message are squares, same with OK button). I have compared my `/etc/gdm/gdm.conf' and `/etc/gdm/gdm.conf-custom' with ones from a working machine, they are identical. I have attempted to run `gdm restart' - same result. `killall gdm' followed by `gdm start' - same result. Any help
+2008-10-24T03:37:00.000Z	louise	pavel-	are you using intrepid ibex beta?
+2008-10-24T03:38:00.000Z	pavel-	louise	no i am not
+2008-10-24T03:38:00.000Z	louise	pavel-	something similar is happening to me

@@ -1,0 +1,4 @@
+2009-03-01T02:31:00.000Z	tmg1|riemann	nasso	you go into /etc/password and change the password string there from whatever it is to whatever it is that represents 'no password'
+2009-03-01T02:33:00.000Z	nasso	tmg1|riemann	no password means that just can log in without a password. that doesnt sound like a good idea on a root account
+2009-03-01T02:35:00.000Z	nasso	tmg1|riemann	if you use /dev/false as shell in /etc/passwd you cant login
+2009-03-01T02:36:00.000Z	tmg1|riemann	nasso	that works too

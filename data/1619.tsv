@@ -1,0 +1,4 @@
+2012-08-10T20:51:00.000Z	mowol		I am having problems with several development environments on top of each other (avr, opencv, ros, c++, java etc), so i would like a way to seperate them. I was thinking of running all development environments through an instance in virtual box, sharing workspaces to the actual computer through ubuntu one (for backup purposes) and then use the actual computer to all other things. Any ideas or thoughts about this?
+2012-08-10T20:53:00.000Z	theadmin	mowol	Likely won't work. VirtualBox uses shared folders as networked drives (I think it's samba) and you may run into many problems when trying to execute stuff from them
+2012-08-10T20:54:00.000Z	mowol	theadmin	 i dont mean to actual use the ubuntu one folders as workspaces, but using it to share it when i need to backup
+2012-08-10T20:55:00.000Z	mowol	theadmin	i have a few friends who uses this methods on their macs, which seems to work very nice

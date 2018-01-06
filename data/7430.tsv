@@ -1,0 +1,4 @@
+2012-02-02T06:55:00.000Z	IHateHavingToReg		I want to connect via Telnet to my localhost VirtualBox running Ubuntu. Can someone tell me how I should set up my network port forwarding rules to allow this? Thanks.
+2012-02-02T06:57:00.000Z	ActionParsnip	IHateHavingToReg	if you set the network to be bridged, it will get an IP from the LAN and will appear as a system on the network. You can then connect as if it were a real PC on your network
+2012-02-02T06:58:00.000Z	IHateHavingToReg	ActionParsnip	thanks, one more question - does a telnet server automatically start up?
+2012-02-02T06:59:00.000Z	ActionParsnip	IHateHavingToReg	by default it will add to the startup and start after install.

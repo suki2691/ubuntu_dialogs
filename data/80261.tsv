@@ -1,0 +1,4 @@
+2009-04-28T06:58:00.000Z	mikejet		Any suggestions for caching DNS server?
+2009-04-28T06:58:00.000Z	LjL	mikejet	i use dnsmasq
+2009-04-28T06:59:00.000Z	LjL	mikejet	well, i can't say for sure that dnsmasq is the best alternative... but among the other ones mentioned, BIND9 is a full-fledged, very big DNS server, not just a small caching server, and powerdns doesn't seem to be in our repositories
+2009-04-28T07:01:00.000Z	mikejet	LjL	: Yeah this caching DNS server will only be accessed from the local system, usually for firefox website browsing.  Yeah, I was just simple caching. Bind9 is too much.

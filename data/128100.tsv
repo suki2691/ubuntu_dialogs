@@ -1,0 +1,4 @@
+2010-11-23T23:02:00.000Z	mbeierl		in top, does the RSS (resident share) include the SHR mem size, or do I add the two together to determine the actual footprint of the process?
+2010-11-23T23:04:00.000Z	JohnFlux_	mbeierl	"actual footprint" is a bit tricky
+2010-11-23T23:04:00.000Z	JohnFlux_	mbeierl	best way is to kill the process, see what "free" says, then run the process and see what "free" says
+2010-11-23T23:05:00.000Z	mbeierl	JohnFlux_	yes, you're right.  I've got to measure the impact of using Java vs. Perl as an interpreter.  BeanShell is my friend ;)

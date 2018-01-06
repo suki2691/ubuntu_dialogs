@@ -1,0 +1,4 @@
+2012-05-12T16:52:00.000Z	Blarrffll	rdz	: http://ubuntuforums.org/showthread.php?t=1228374&highlight=password+default+keyring Does that help (It's for 9.04)
+2012-05-12T17:05:00.000Z	rdz	Blarrffll	thanks for the link.. i thinkn this about the wifi password.. but my problem is about the login password that network-manager requests in order to get the wifi password from the keyring
+2012-05-12T17:07:00.000Z	rdz	Blarrffll	i'm using fluxbox and it turned everything is ok in unity (12.04). then i also figured out why it works in unity but not in fluxbox.. i have to start gnome-keyring-daemon with the ffollowing options: --login --damonize
+2012-05-12T17:08:00.000Z	Blarrffll	rdz	: glad you figured it out :)

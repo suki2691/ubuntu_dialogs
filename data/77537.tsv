@@ -1,0 +1,4 @@
+2009-05-01T00:03:00.000Z	losher	meuserj	what difference does manually installed make?
+2009-05-01T00:05:00.000Z	meuserj	losher	apt and aptitude will offer to uninstall automatically installed packages later when nothing depends on them.
+2009-05-01T00:09:00.000Z	losher	meuserj	then somewhere there must be something tracking whether something was manually or automatically installed. You 'just' have to find & tweak it
+2009-05-01T00:13:00.000Z	losher	meuserj	Aha. /var/lib/apt/extended_states. Edit at your own risk....

@@ -1,0 +1,4 @@
+2007-01-28T07:48:00.000Z	psynaps3		hi ppl, i am having this problem in my dell laptop where something keeps resetting the boot flag to the windows partition. if i set it to the /boot partition, the next time i reboot windows, it gets set back to the windows partition. any idea what is causing this?
+2007-01-28T07:49:00.000Z	brucebat	psynaps3	yout have to edit you /boot/grub/menu.lst
+2007-01-28T07:50:00.000Z	brucebat	psynaps3	you have to remove setdefault from windows
+2007-01-28T07:51:00.000Z	psynaps3	brucebat	let me check the file, but i don't think i have setdefault there. maybe i did add a makeactive or something like that recently

@@ -1,0 +1,4 @@
+2006-07-05T08:21:00.000Z	tritium	Subhuman_	monomaniacpat: apt-get install --reinstall is a better option
+2006-07-05T08:26:00.000Z	tritium	Subhuman_	monomaniacpat: you can't just install usplash.  The image is kept in the initrd
+2006-07-05T08:26:00.000Z	Subhuman_	tritium	i did when i screwed it up
+2006-07-05T08:27:00.000Z	tritium	Subhuman_	reinstalling usplash doesn't re-make the initrd image.  You have ot sudo dpkg-reconfigure the linux-image to do that.

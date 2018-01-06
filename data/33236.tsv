@@ -1,0 +1,4 @@
+2010-07-16T10:38:00.000Z	yoshie		Jamil_1  Problem is I need to Mount the DVD so that it shows hidden files, sudo mount -t udf -o ro,unhide /dev/cdrom /media/cdrom0   . In ubuntu 9.10 64 Bit it worked fine, im using 10.04 64 Bit and it doesnt work.
+2010-07-16T10:40:00.000Z	yoshie		Jamil_1 I put the dvd in first and it mounts fine, but once i unmount it  ,    Sudo Umount /media/cdrom it unmounts fine, but trying to mount it is the problem now.
+2010-07-16T10:41:00.000Z	Loshki	yoshie	is there, like, an error message?
+2010-07-16T10:53:00.000Z	Loshki	yoshie	given that you know the identical command worked in 9.10 (you did say that, right?) then I'd say you've hit a bug. Have you looked in launchpad?

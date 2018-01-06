@@ -1,0 +1,4 @@
+2006-08-01T11:38:00.000Z	ceruleantiger	Balin	for some stuff, you may need to actually log in as root as sudo will not work (usually crappily written proprietary software installers - i.e. matlab), in which case you just create a user named root and log in
+2006-08-01T11:38:00.000Z	ceruleantiger	Balin	but you probably won't need to do that if you're not installing anything special
+2006-08-01T11:41:00.000Z	ceruleantiger	Balin	there's a file /etc/fstab, you need to edit that so that there is a line in it for windows and a corresponding mount point
+2006-08-01T11:42:00.000Z	ceruleantiger	Balin	try adding this: /dev/hda1    /windows ntfs  nls=utf8,umask=0222 0    0

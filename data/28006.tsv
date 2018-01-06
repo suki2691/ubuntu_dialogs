@@ -1,0 +1,4 @@
+2010-07-31T21:29:00.000Z	extraclassic		hi, I'm using Ubuntu and trying to do a MySQL query with php, but I keep getting the error Call to undefined function mysql_connect()....I was looking for help since I've configured something wrong
+2010-07-31T21:31:00.000Z	oparia	extraclassic	Look in php.ini for the line with mysql.so, and uncomment it if it's commented
+2010-07-31T21:34:00.000Z	oparia	extraclassic	What about mysqli.so? The next line, usually
+2010-07-31T21:35:00.000Z	oparia	extraclassic	You'll need both together, if I remember correctly

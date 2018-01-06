@@ -1,0 +1,4 @@
+2011-12-20T18:03:00.000Z	theadmin	resonantsky	Any of them. apt-get is also a package manager. Basically anything APT-aware is.
+2011-12-20T18:04:00.000Z	resonantsky	theadmin	synaptic was complaining about broken packages... i thought i had sorted that all out... should I go about installing all the packages that bootstrap.log says are missing?
+2011-12-20T18:05:00.000Z	theadmin	resonantsky	I'm not so sure about what "bootstrap.log" is, but "sudo apt-get -f install" or "sudo dpkg --configure -a" usually fix broken packages.
+2011-12-20T18:06:00.000Z	resonantsky	theadmin	seems to be a log of all dpkg actions... its cool, i assume that adding all these predependencies can do no harm...

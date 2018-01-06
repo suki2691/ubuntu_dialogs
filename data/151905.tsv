@@ -1,0 +1,4 @@
+2012-05-05T15:48:00.000Z	Crooper		What would be the reason for me getting a 'initramfs' prompt when booting up?
+2012-05-05T15:48:00.000Z	IntuitiveNipple	Crooper	Failure to find or mount the root partition
+2012-05-05T15:49:00.000Z	Crooper	IntuitiveNipple	any ideas how to fix it?
+2012-05-05T15:51:00.000Z	IntuitiveNipple	Crooper	You need to identify the cause, by catching errors written to the screen during start-up. Reboot and enter the GRUB boot-loader menu by holding down the Shift key as soon as BIOS finishes POSTing. Then choose the recovery option and watch the messages on screen carefully.

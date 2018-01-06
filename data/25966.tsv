@@ -1,0 +1,4 @@
+2010-09-17T18:34:00.000Z	b0ot		Is there a way to get a process id or something when I call something, so that I could kill it later if I wanted to?
+2010-09-17T18:36:00.000Z	FernandoBasso	b0ot	ps ax | grep <you_app>
+2010-09-17T18:37:00.000Z	b0ot	FernandoBasso	Is there a way to attach something to a process when you call it... I have multiple instances of vlc going and when I call one I want to either know that specific process id so i can kill it later, or attach some sort of handle to it so I can kill it later
+2010-09-17T18:38:00.000Z	FernandoBasso	b0ot	That command I showed you will show what it is playing, I think. Then you will known what instance to kill. I have no other idea.

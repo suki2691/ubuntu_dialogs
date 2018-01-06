@@ -1,0 +1,4 @@
+2008-06-04T20:44:00.000Z	arno-t		hi all When I enter the command "route" sometimes it takes ages before anything comes up. any idea why this could be? Sometimes it's lightning quick...
+2008-06-04T20:44:00.000Z	jonaskoelker	arno-t	try route -n
+2008-06-04T20:44:00.000Z	jonaskoelker	arno-t	if that's faster, route is waiting to resolve names for IP addresses but fails
+2008-06-04T20:59:00.000Z	arno-t	jonaskoelker	I added the static ip's to the /etc/hosts and "route" speeds up a bit. I tried wiresharking my connection; everything seems so clear now. Even so clear I can see my company's dns isn't working very well... :) (wins/dns mix :( )

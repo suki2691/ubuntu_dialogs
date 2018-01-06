@@ -1,0 +1,4 @@
+2007-03-25T11:04:00.000Z	tabbot		when i try and build alsa, its asks for version.h? do i need an actual kernel build for it, or is headers enough?
+2007-03-25T11:04:00.000Z	crimsun	tabbot	headers are sufficient.
+2007-03-25T11:04:00.000Z	crimsun	tabbot	specifically, linux-headers-$(uname -r)
+2007-03-25T11:15:00.000Z	tabbot	crimsun	thank you m8, will try with it

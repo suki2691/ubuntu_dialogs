@@ -1,0 +1,4 @@
+2006-10-05T16:01:00.000Z	Tokenbad		I have an 80 gig drive...it was orginally all in one partition...I then used qparted to try and resize that partition to 2 partitions...gparted froze...so rebooted...once rebooted the drive said all the space was used...so I then ran fsck try and fix the drive...well it freed up part of the it saying the drive is 47 gigs with 15 gigs free...but I am still missing like 30 gigs that should be free but can't find where it is
+2006-10-05T16:02:00.000Z	ompaul	Tokenbad	what does sudo fdisk -l /dev/hd(a??)
+2006-10-05T16:03:00.000Z	ompaul		!msg the bot
+2006-10-05T16:17:00.000Z	Tokenbad	ompaul	http://paste.ubuntu-nl.org/25698/

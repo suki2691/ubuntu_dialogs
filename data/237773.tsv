@@ -1,0 +1,4 @@
+2006-09-08T09:14:00.000Z	shadowhywind		morning all
+2006-09-08T09:15:00.000Z	shadowhywind		I am having a problem connecting to the internet in linux, any dhcp commands i can use in the shell?
+2006-09-08T09:15:00.000Z	matid	shadowhywind	sudo invoke-rc.d networking restart
+2006-09-08T09:16:00.000Z	matid	shadowhywind	or sudo dhclient

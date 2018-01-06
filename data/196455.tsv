@@ -1,0 +1,4 @@
+2006-03-07T08:38:00.000Z	TimothyP		What takes care of log rotation on ubuntu ?
+2006-03-07T08:38:00.000Z	Ng	TimothyP	logrotate
+2006-03-07T08:39:00.000Z	TimothyP	Ng	that's weird, my logrotate.conf file doesn't have an entry for /var/log/syslog and yet it does rotate the log
+2006-03-07T08:39:00.000Z	Ng	TimothyP	perhaps it just does that by default or something. I suggest consulting its docs :)

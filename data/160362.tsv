@@ -1,0 +1,4 @@
+2006-11-29T10:15:00.000Z	Apollo		i am getting a notice in terminal after update, bad header, it skipped some files and ignored some. when i edited my sources.list i removed the hash marks, could that be the problem?
+2006-11-29T10:17:00.000Z	Jordan_U	Apollo	Yes, those hash marks tell it to ignore that line, any comments like " this is to enable the blah die blah" are now trying to be read as commands instead of ignored
+2006-11-29T10:17:00.000Z	Apollo		ok so i should edit those back in. ok thanks
+2006-11-29T10:22:00.000Z	Apollo	Jordan_U	i just edited my sources.list and updated like you suggested and all is good thnk you!

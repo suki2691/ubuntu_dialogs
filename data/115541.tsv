@@ -1,0 +1,4 @@
+2007-10-22T18:19:00.000Z	sponix		Anyone good with UUID entries for External USB Drives in /etc/fstab ?
+2007-10-22T18:20:00.000Z	Joachim	sponix	You don't need UUID - you can use /dev/...
+2007-10-22T18:23:00.000Z	sponix	Joachim	yeah, but on /dev/sdb1 it could be /dev/sdd1 next time I plug it in if another USB drive is hooked up first
+2007-10-22T18:23:00.000Z	sponix	Joachim	So, I want the drive mounted automagic with ext3 fs and remount-rw on errors with the UUID set

@@ -1,0 +1,4 @@
+2011-03-31T11:12:00.000Z	plouffe		Say I install Ubuntu on external HDD: is it possible to create an image backup of that HDD, so in case HDD breaks or gets lost, I could copy the image to a new HDD, and continue using it as before.
+2011-03-31T11:13:00.000Z	icedtea	plouffe	I think ubuntu has a package called clone2fs, which can clone a filesystem, kinda like ghost
+2011-03-31T11:13:00.000Z	plouffe	icedtea	thx, will look into it
+2011-03-31T11:14:00.000Z	icedtea	plouffe	there's also a utility called 'dd' but that will copy the entire contents, even space on your hard drive that is not used

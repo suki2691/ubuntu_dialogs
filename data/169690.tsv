@@ -1,0 +1,4 @@
+2007-08-16T05:00:00.000Z	fxfitz		How does one go about converting movies from one format to another??
+2007-08-16T05:01:00.000Z	ladydoor	fxfitz	You could probably just use ffmpeg to do it.
+2007-08-16T05:03:00.000Z	ladydoor	fxfitz	Okay, well the first problem is that the original file is a CD image in a nonstandard format and not an AV file
+2007-08-16T05:04:00.000Z	ladydoor	fxfitz	Something you might try is converting the .bin file to .iso with bchunk, mounting it, and then ripping the data from it

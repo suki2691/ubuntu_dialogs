@@ -1,0 +1,4 @@
+2008-08-28T20:02:00.000Z	mamr		I'm trying to activate dma
+2008-08-28T20:02:00.000Z	mamr		but all I get when entering sudo hdparm /dev/dvd is:  HDIO_GET_DMA failed: Inappropriate ioctl for device
+2008-08-28T20:03:00.000Z	mamr		what can I do?
+2008-08-28T20:03:00.000Z	Dr_willis	mamr	 how do you even knwo that dma is not enabled on it? Most devices use the scsi subssytem these days. and dma should be enabled for them by default.

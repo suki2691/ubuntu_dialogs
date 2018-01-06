@@ -1,0 +1,4 @@
+2009-11-29T22:45:00.000Z	skeletal		Guys, i have a doubt. How can I do a SCANDISK in my windows partition? ( ps: But, i would like to do it just in my LINUX.)
+2009-11-29T22:45:00.000Z	grawity	skeletal	if it's FAT32, fsck.vfat /dev/sdXY (where sdXY is the Windows partition)
+2009-11-29T22:45:00.000Z	grawity	skeletal	If it's NTFS - fsck.ntfs-3g
+2009-11-29T22:52:00.000Z	skeletal	grawity	Man, i have installed here the ntfs-3g tools, right? But, what i need for do my scan in windows?

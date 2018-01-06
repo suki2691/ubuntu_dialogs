@@ -1,0 +1,4 @@
+2008-03-24T04:41:00.000Z	askand		Hi! I dont really know how this works..but on the ALSA site one can read about the Creative Labs X-Fi this: "Card delivered to developers. Completely new architecture. Creative actively preventing support due to no datasheets being released to ALSA developers. Reverse engineering work not started due to lack of time.". However the OSS-driver do support this card, cant ALSA use the OSS-code?
+2008-03-24T04:43:00.000Z	michealPW	askand	Technically, wouldn't drivers be considered programs or "software" ?:)
+2008-03-24T04:44:00.000Z	askand	michealPW	yea..ok I see
+2008-03-24T04:45:00.000Z	michealPW	askand	Basically, drivers are software libraries that expose functions, which the operating system uses to interact with your hardware at the kernel level, IIRC.

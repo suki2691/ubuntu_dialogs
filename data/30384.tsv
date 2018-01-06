@@ -1,0 +1,4 @@
+2010-06-12T05:51:00.000Z	nsahoo		hi guys. how do I find out at what frequency my processor is running? cat /proc/cpuinfo says "cpu MHz         : 1600.000", dmesg says "Detected 2992.697 MHz processor."
+2010-06-12T05:52:00.000Z	nsahoo		it's actually a Intel Core 2 Quad (Q6600)
+2010-06-12T05:52:00.000Z	CynthiaG	nsahoo	sounds like your processor temporarily underclocked itself to 1600 MHz due to low load; it will go back to 3000 or so if you load it up
+2010-06-12T05:58:00.000Z	nsahoo	CynthiaG	Random832 : MeanEYE : I am wondering if cpuinfo detects overclocking correctly

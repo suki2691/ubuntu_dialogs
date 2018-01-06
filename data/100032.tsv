@@ -1,0 +1,4 @@
+2008-10-01T23:00:00.000Z	orsi		hi. mpd stopped working for me. htop doesn't show it to be working, i can't start/stop/restart it through /etc/init.d/mpd. started from a terminal, it doesn't do anything or display any messages. i tried to remove it, but apt-get errors out... any ideas what i could try next?
+2008-10-01T23:02:00.000Z	greencookie	orsi	Assuming you issuing the sudo command with that rite?
+2008-10-01T23:13:00.000Z	orsi	greencookie	sorry for the very late one, but of course im using sudo :)
+2008-10-01T23:14:00.000Z	greencookie	orsi	okay. just making sure :) one of my mistakes previously. have you configured mpd.conf correctly?

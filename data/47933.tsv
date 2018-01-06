@@ -1,0 +1,4 @@
+2012-01-15T20:40:00.000Z	osmodivs		Hello. For some strange reason I can't login to the LinuxMint server, but, since that distro is based in Ubuntu, I'll ask here. I backed up all my files with mintBackup 2.0.7 and now I am restoring my files to a new fresh intall of Mint12, but Why is the restored folders have root permissions? Does that means I need to chmod all of them?
+2012-01-15T20:41:00.000Z	theadmin	osmodivs	Sorry, Mint is not supported here... But yes, likely so. mintbackup runs as root for some weird reason.
+2012-01-15T20:41:00.000Z	theadmin	osmodivs	Any further questions should be asked in irc.spotchat.org/linuxmint-help
+2012-01-15T20:43:00.000Z	theadmin	osmodivs	sudo chown -R your_user:your_group /path/to/blah/*

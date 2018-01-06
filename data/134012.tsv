@@ -1,0 +1,4 @@
+2011-12-12T22:47:00.000Z	Matt_Slack_Debia		I have a question about Ubuntu and Grub, I installed 11.10 twice, didn't work on 2nd boot, twice, hated dasher, installed 11.04, like the Gnome, afraid to 2nd boot because I cannot find anything to manually configure Grub in the Gnome System Tools.   Liloconfig was so much easier.
+2011-12-12T22:47:00.000Z	phlak_user	Matt_Slack_Debia	so whats the question?
+2011-12-12T22:52:00.000Z	phlak_user	Matt_Slack_Debia	not sure what you want to configure in grub but most options sit in /etc/default/grub and that can be edited with a graphical text editor like gedit; once you save your changes, you need to run a command called update-grub2
+2011-12-12T22:58:00.000Z	phlak_user	Matt_Slack_Debia	GRUB_CMDLINE_LINUX_DEFAULT="splash=verbose"

@@ -1,0 +1,4 @@
+2010-10-25T16:00:00.000Z	Diamondcite	zagabar	Is the server with ICS actually ICS? Did you assign ubuntu a working IP address and gateway if DHCP isn't setup locally?
+2010-10-25T16:04:00.000Z	zagabar	Diamondcite	eth0 on the server with ICS is connected to the internet with dhcp and it works. The other PC is connected to eth1 with a static address
+2010-10-25T16:06:00.000Z	Diamondcite	zagabar	This probably isn't proper.. but maybe for eth1 you can configure it to share the intertnet with automatic dhcp? (I don't know if all the needed packages are there)
+2010-10-25T16:10:00.000Z	zagabar	Diamondcite	SpaceGhostC2C I'll try doing it with dnsmasq then. But for clarity, here is what I am trying to achieve and how: http://pastebin.com/bSUREW3u

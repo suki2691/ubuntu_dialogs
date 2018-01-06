@@ -1,0 +1,4 @@
+2006-10-04T09:17:00.000Z	HTGN-css|Silent_		anyone?
+2006-10-04T09:18:00.000Z	HTGN-css|Silent_		Hey guys. I reinstalled Windows and it killed grub. I tried reinstalling grub by chrooting to my linux partition from live, but I can't grub-install because /dev/sda dissappears after I chroot. What must I do?
+2006-10-04T09:20:00.000Z	HTGN-css|Silent_		it says it cant access /proc/something
+2006-10-04T09:20:00.000Z	kitche	HTGN-css|Silent_	you have to mount /proc also

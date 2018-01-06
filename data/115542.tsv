@@ -1,0 +1,4 @@
+2007-12-16T19:27:00.000Z	snkmad		how do i force apt-get to reinstall a package?
+2007-12-16T19:29:00.000Z	ompaul	snkmad	that is not a great thing to do - you can break a system beyond the point where irc can help - try this first, sudo apt-get remove --purge PackageName; sudo apt-get install PackageName ; rm .LocalConfigFileDirectoryInHomeUsersDirectory
+2007-12-16T19:40:00.000Z	snkmad	ompaul	dpkg-reconfigure wine this worked, better than reinstalling, thx for the tips
+2007-12-16T19:40:00.000Z	ompaul	snkmad	enjoy

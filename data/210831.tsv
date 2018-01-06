@@ -1,0 +1,4 @@
+2005-11-07T14:03:00.000Z	warreng		how would i, through an automated script, SFTP several file to a remote server? the "sftp" command requires typing in a password.... which doesn't work well for an automated script
+2005-11-07T14:04:00.000Z	NoUse	warreng	look into ssh keys
+2005-11-07T14:05:00.000Z	warreng	NoUse	problem with ssh keys is the remote host isn't under my control.... getting them to accept my ssh identity key would be tricky at best
+2005-11-07T14:06:00.000Z	NoUse	warreng	do you have an account on the remote host?

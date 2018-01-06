@@ -1,0 +1,4 @@
+2010-06-18T02:21:00.000Z	lawrence		I was running Ubuntu Linux (Wubiinstalled) and my PC lost power and now I cannot get back into it.  I get an install error something about power management.
+2010-06-18T02:22:00.000Z	Heebie	lawrence	an install error?  Have you tried booting off of a rescue disk and doing an fsck on every filesystem?
+2010-06-18T02:23:00.000Z	Heebie	lawrence	Sounds like filesystem corruption that wasn't "caught" by an fsck. :/  Re-installing the stuff that's borked will probably fix it. (just the packages that the damaged files belong to.. so power management stuff.)
+2010-06-18T02:28:00.000Z	Heebie	lawrence	If you do a CTRL-ALT-F1 that should get you to a text-based login prompt..and you should be able to login & check things from there.

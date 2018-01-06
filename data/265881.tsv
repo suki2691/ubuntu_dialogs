@@ -1,0 +1,4 @@
+2005-01-22T09:51:00.000Z	bj_		I have 2 SATA HDs, that won't mount when /etc/init.d/mountall.sh runs because it says that /dev/sda1 and sdb2 don't exist.
+2005-01-22T09:52:00.000Z	bj_		does hotplug or something have to run first?
+2005-01-22T09:52:00.000Z	bj_		because I can mount them once it's booted up
+2005-01-22T09:53:00.000Z	tritium	bj_	I have similar problems with hdparm settings on /dev/hdb (CD-ROM)

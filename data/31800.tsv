@@ -1,0 +1,4 @@
+2012-09-23T01:17:00.000Z	TJ-	Dantevios	check the log-file /var/log/kern.log
+2012-09-23T01:20:00.000Z	TJ-	Dantevios	sometimes there's a freeze caused by the GPU, or an interrupt line, and there's clues in the log
+2012-09-23T01:21:00.000Z	TJ-	Dantevios	No... you need to look at the reports that are timestamped around the time of the last freeze
+2012-09-23T01:25:00.000Z	TJ-	Dantevios	OK, in case it's a GPU driver issue, also check /var/log/Xorg.0.log - that's the X server log-file

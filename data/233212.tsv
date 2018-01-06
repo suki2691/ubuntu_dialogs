@@ -1,0 +1,4 @@
+2005-06-15T13:00:00.000Z	Miserable		Having a bit of a problem, wonder if anyone can help: I'm setting up a udev rule for my external USB hard drive, but all I get in my logs is a message that a configured rule matched and 'sda' was ignored; no devices show up (although it should set NAME="%k" and SYMLINK="usbhd%n"). The exact same rule works fine on my Gentoo box.
+2005-06-15T13:02:00.000Z	lok	Miserable	did the /dev/sdax existe when you connect your usb drive ?
+2005-06-15T13:02:00.000Z	Miserable	lok	Prior to connecting it, of course, it did not. When I connect it, the nodes are created -unless- I create my custom rule, in which case they are not.
+2005-06-15T13:06:00.000Z	lok	Miserable	I don't see why this not works sorry, maybe a change between the two version of udev in gentoo and hoary

@@ -1,0 +1,4 @@
+2011-09-05T20:05:00.000Z	Polah		mount -l will give you a list which should include any CDs mounted when you run it.
+2011-09-05T20:06:00.000Z	jasef	Polah	-.- why do I always think of the hard way to do it? :P I was about to suggest 'cat /etc/fstab | grep /mnt/cdrom'
+2011-09-05T20:07:00.000Z	Polah	jasef	I don't think that would show it. My fstab has no entry for my cdrom, they just get automounted when I put one in.
+2011-09-05T20:08:00.000Z	jasef	Polah	Oh... didn't think of that, can't exactly test right now, on an eeepc with no optical drive atm.

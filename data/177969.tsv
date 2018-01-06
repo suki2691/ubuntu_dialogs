@@ -1,0 +1,4 @@
+2008-08-05T05:34:00.000Z	ninix		anyone has a xorg.conf with a dual screen using the "radeon" driver setup.. i've got a ati 9200 mobility (or rv250 ? i don't understand that) and i think "ati" driver don't support my card, and fglrx neither. anyone can steer me in the right way ?
+2008-08-05T05:35:00.000Z	Jack_Sparrow	ninix	9200 does not support fglrx, only aiglx...  see xinerama or twinview
+2008-08-05T05:39:00.000Z	ninix	Jack_Sparrow	oh... emm i'll check this.
+2008-08-05T05:43:00.000Z	ninix	Jack_Sparrow	if i got my screens working properly (clone screen) i could simple add option aiglx true, option xinerama true and it should work ?

@@ -1,0 +1,4 @@
+2006-06-04T14:31:00.000Z	Linuturk		how do you force a specific resolution?
+2006-06-04T14:31:00.000Z	skippy81	Linuturk	backup xorg.conf - then run "sudo dpkg-reconfigure xserver-xorg"
+2006-06-04T14:32:00.000Z	skippy81	Linuturk	 /etc/X11/xorg.conf is the path
+2006-06-04T14:33:00.000Z	skippy81	Linuturk	 "sudo cp /etc/X11/xorg.conf /etc/X11/xorg.backup" will do the trick

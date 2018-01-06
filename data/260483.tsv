@@ -1,0 +1,4 @@
+2012-09-20T21:36:00.000Z	captine	Ihsan008	i am no expert, but my laptop has intel and nvidia GT540.  the intel works out the box, but i use bumblebee to activate the Nvidia card
+2012-09-20T21:38:00.000Z	captine	Ihsan008	i am very new to this too, but basically, my understadning is bumblebee is a work around for nvidia optimus laptops, as linux doesnt currently have support in the kernel/nvidia drivers
+2012-09-20T21:39:00.000Z	captine	Ihsan008	I had followed the instructions here:  https://wiki.ubuntu.com/Bumblebee
+2012-09-20T21:44:00.000Z	captine	Ihsan008	once installed, you need to use the command "optirun" and then the application you are opening, to activate the nvidia card.  after some searching, found an application called "Main Menu" which lets you edit the launchers in ubuntu. you can add "optirun" to the  "command" option

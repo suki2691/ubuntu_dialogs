@@ -1,0 +1,4 @@
+2006-05-27T08:19:00.000Z	K-DawG		does any1 have a good guid how to install Nvidia 386 drivers?
+2006-05-27T08:20:00.000Z	charlesJacobs	K-DawG	tseliot has a nice guide on the forums www.ubuntuforums.org
+2006-05-27T08:46:00.000Z	charlesJacobs	K-DawG	CTRL+ALT+F2, sudo /etc/init.d/gdm stop, sudo dpkg-reconfigure xserver-xorg
+2006-05-27T08:46:00.000Z	charlesJacobs	K-DawG	and then sudo gdm start

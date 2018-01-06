@@ -1,0 +1,4 @@
+2008-06-15T17:52:00.000Z	mib		anyone has audio problem in ubuntu?
+2008-06-15T17:52:00.000Z	Jack_Sparrow	mib	Please describe the problem you have
+2008-06-15T17:54:00.000Z	Jack_Sparrow	mib	/join #alsa ...  they should be able to fix you up quickly
+2009-02-05T18:01:00.000Z	Jack_Sparrow	mib	First, check the ownership: Open a terminal and type cd /media ...then type... ls -la ...then, do the following, replacing “yourPartition” with the name of the partition (e.g. /sdb1)... sudo chown -R username:username /media/yourPartition  (On a live system you must create a user name first) followed by... sudo chmod -R 755 /media/yourPartition ... Finally, check to see if it worked by doing another ls -la to verify the perm

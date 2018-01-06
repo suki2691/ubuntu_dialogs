@@ -1,0 +1,4 @@
+2011-02-16T01:16:00.000Z	zkriesse		Quick question, I know how to CHANGE user permissions for a folder/file in terminal but how do I check to see what the current user permissions for a folder/file are
+2011-02-16T01:17:00.000Z	jrib	zkriesse	ls -l
+2011-02-16T01:17:00.000Z	jrib	zkriesse	ls -ld  for a directory
+2011-02-16T01:19:00.000Z	jrib	zkriesse	you can use ls -ld on a file too if you want but you don't *need* the -d

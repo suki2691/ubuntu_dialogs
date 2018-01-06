@@ -1,0 +1,4 @@
+2012-10-02T19:58:00.000Z	jjb123		Hey everyone, quick question. How can I install an application from the repository as a different user? I want to install gitolite and have it run under a "git" user that I made. Any ideas?
+2012-10-02T19:59:00.000Z	Pici	jjb123	Unless the package was already configured to do that at install time, you can't. You'll just have to install and then change the configuration afterwards.
+2012-10-02T20:00:00.000Z	jjb123	Pici	Hum, could I use su to log in as that user and then apt-get install from there?
+2012-10-02T20:00:00.000Z	Pici	jjb123	apt-get installs stuff for the entire system, it has nothing to do with what user your run it as.

@@ -1,0 +1,4 @@
+2008-07-17T13:09:00.000Z	Raheem	StonedToo	i heard sfdisk can do it .. never tried it though .. check it out
+2008-07-17T13:11:00.000Z	StonedToo	Raheem	Hey thx, you seem to know something about the problem ... i tried sfdisk and it does its job but i dont know how to create partitions with it ... switched over to "parted" and it is messing up my partition table ... those are the only two tools i found for this
+2008-07-17T13:13:00.000Z	StonedToo	Raheem	ok ill try cfdisk with expect ... ill write back if it works
+2008-07-17T13:43:00.000Z	StonedToo	Raheem	ok i've worked it out ... use "sfdisk /dev/sdxx < file" where every line in file stands for one partition with <start><size><id><bootable> ... values are in cylinders and comma seperated

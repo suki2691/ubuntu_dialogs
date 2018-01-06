@@ -1,0 +1,4 @@
+2006-11-17T07:03:00.000Z	Seiruu		Quick question: if I want to dualboot ubuntu/win xp, linux can't access/write on NTFS, right?
+2006-11-17T07:04:00.000Z	soundray	Seiruu	it can, if you're prepared to take a small risk and install the fuse driver
+2006-11-17T07:05:00.000Z	soundray	Seiruu	to share data on a partition or removable drive between Windows and Linux, I recommend ext3 with a second extended filesystem driver for Windows.
+2006-11-17T07:06:00.000Z	soundray	Seiruu	work is under way, but it is difficult because NTFS is proprietary, poorly documented and has complex, rarely used features.

@@ -1,0 +1,4 @@
+2011-07-12T09:19:00.000Z	sam1234		hei guys anyone using GT540m VGA with ubuntu ?
+2011-07-12T09:21:00.000Z	sam1234		oh sorry obottu. im strucked with my VGA driver with ubuntu distro from two weeks.
+2011-07-12T09:22:00.000Z	sam1234		it give me device not found error. dont know how to fix it.
+2011-07-12T09:22:00.000Z	ActionParsnip	sam1234	install nvidia-current and it will give the driver you need, you may need to add the boot option: nouveau.blacklist=1   to get the initial desktop

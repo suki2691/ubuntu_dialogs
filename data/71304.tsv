@@ -1,0 +1,4 @@
+2009-03-06T21:54:00.000Z	KeyserSoze		i am using the fglrx driver with my lenovo thinkpad w500 with firegl graphics.  the laptop is plugged into the lenovo advanced mini dock, and my 30" dell 3007wfp is plugged into that.  the 30" monitor looks to be mirroring the laptop display, but the image is severely corrupted
+2009-03-06T21:55:00.000Z	KeyserSoze		is there a ubuntu tool for fixing it, or do i need to edit xorg.conf?
+2009-03-06T21:55:00.000Z	RichardWolfVI	KeyserSoze	Reconfigure X
+2009-03-06T21:56:00.000Z	RichardWolfVI	KeyserSoze	sudo dpkg-reconfigure xserver-xorg

@@ -1,0 +1,4 @@
+2008-07-14T13:41:00.000Z	digitaltao		hey, is there a daemon tools type program for Ubuntu IE: Allows me to mount an ISO as a drive?
+2008-07-14T13:42:00.000Z	ikonia	digitaltao	you can do that with "mount", the file system type is "loop"
+2008-07-14T13:42:00.000Z	digitaltao	ikonia	eh could you give me an example of the syntax?
+2008-07-14T13:43:00.000Z	ikonia	digitaltao	mount -o loop $image.iso /$mount_point

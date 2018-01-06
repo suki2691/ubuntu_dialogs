@@ -1,0 +1,4 @@
+2010-12-14T06:06:00.000Z	flourishing7		hello everyone. How can the firewall in Ubuntu 10.10 be adjusted to start automatically after every boot?
+2010-12-14T06:07:00.000Z	highclasshole	flourishing7	save your iptables state
+2010-12-14T06:08:00.000Z	flourishing7	highclasshole	- how can I save iptables state?
+2010-12-14T06:08:00.000Z	highclasshole	flourishing7	sudo /etc/init.d/iptables save

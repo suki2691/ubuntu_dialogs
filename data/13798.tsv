@@ -1,0 +1,4 @@
+2012-08-21T11:52:00.000Z	MACscr		when i run sudo cat /dev/null > /var/spool/mail/root, it says permission denied. I have recently authenticated to root, so im not sure what the issue is
+2012-08-21T11:52:00.000Z	MACscr		is there another method for emptying the root mailbox?
+2012-08-21T11:53:00.000Z	anddam	MACscr	sudo bash -c 'cat /dev/null >/var/spool/mail/root'
+2012-08-21T11:56:00.000Z	MACscr	anddam	thanks. Worked perfectly

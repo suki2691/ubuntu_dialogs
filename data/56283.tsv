@@ -1,0 +1,4 @@
+2009-05-27T00:56:00.000Z	sandstrom		I am trying to use an ssh tunnel, forwarding traffic from one local port to another port on the host machine (-L 4444:111.111.111.111:4444). However, my connections aren't passing through, giving this error: channel 2: open failed: connect failed: Connection timed out Anyone have come across this before?
+2009-05-27T00:58:00.000Z	Kalmi_	sandstrom	err.... do you actually have 4444 on both sides of your ip?
+2009-05-27T00:58:00.000Z	Kalmi_	sandstrom	are you sure the ip is right?
+2009-05-27T00:59:00.000Z	Kalmi_	sandstrom	use gufw

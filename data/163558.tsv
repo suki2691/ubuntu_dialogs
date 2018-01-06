@@ -1,0 +1,4 @@
+2006-11-12T07:29:00.000Z	wweasel		Question: I've heard that in Edgy they turned off the whole auto fsck after x mounts.  I upgraded from Dapper, and they've always pissed me off. Should I disable it? Where in fstab do I?
+2006-11-12T07:30:00.000Z	TGPO	wweasel	at the end of the fstab line there are 2 numbers, one of those says to check or not
+2006-11-12T07:37:00.000Z	TGPO	wweasel	set the last number in fstab to 0 if you dont want fsck to run
+2006-11-12T07:37:00.000Z	TGPO	wweasel	if it has any other number it will get checked

@@ -1,0 +1,4 @@
+2009-06-06T05:59:00.000Z	ganymede		is there a way to run multiple apt-get commands in one line, like sudo apt-get remove links install links2?
+2009-06-06T06:00:00.000Z	fccf	ganymede	sudo apt-get install xxxx & & sudo apt-get remove xxx
+2009-06-06T06:02:00.000Z	fccf	ganymede	it has to look at the current package list to know what is available in the repository - can't avoid it
+2009-06-06T06:03:00.000Z	ganymede	fccf	yeah, but not multiple times, right?

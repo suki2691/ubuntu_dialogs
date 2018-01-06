@@ -1,0 +1,4 @@
+2010-11-19T17:38:00.000Z	DamienCassou		sometimes my network connection acts very strangely: http://dl.dropbox.com/u/152013/reports/network-sawtooth.png. I'm sure it's from me (my computer, or ISP) because it happens with different servers. Does any of you have an idea?
+2010-11-19T17:39:00.000Z	ActionParsnip	DamienCassou	verstrange, i'd run ntop and see what's what
+2010-11-19T17:40:00.000Z	DamienCassou	ActionParsnip	I'm installing ntop right now. Do I need to pass any option? What should I have a look at?
+2010-11-19T17:42:00.000Z	ActionParsnip	DamienCassou	its like top, but for network traffic, just run it and watch. you may also want to run: dmesg | tail    to see any kernel messages recently

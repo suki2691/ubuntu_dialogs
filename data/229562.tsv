@@ -1,0 +1,4 @@
+2005-10-29T07:36:00.000Z	guilherme		guys, i use hoary, when the i login (administrator), i can access terminal like root using "su - typing the root pwd" but i can access the 'terminal like root' when the login pwd works... So, it's not cool to have. I can be "su" using the administrator pwd
+2005-10-29T07:37:00.000Z	guilherme		It's suposed to be like that?
+2005-10-29T07:38:00.000Z	bimberi	guilherme	sudo uses the users own password.  You don't have to set a user password.  sudo is only set up for the user created during install, after that you have to grant it explicitly
+2005-10-29T07:39:00.000Z	bimberi	guilherme	s/user password/root password/

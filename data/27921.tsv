@@ -1,0 +1,4 @@
+2010-08-04T13:04:00.000Z	tesuji		folks can someone help me with apt-get - what i want is to force it to download but not install a package that is already at the latest version.  i think it would be "apt-get -d --reinstall" does that sound about right?
+2010-08-04T13:05:00.000Z	hateball	tesuji	just apt-get -d should do it
+2010-08-04T13:06:00.000Z	tesuji	hateball	no, then it takes the packagename as an option
+2010-08-04T13:09:00.000Z	hateball	tesuji	well I dunno, I only use aptitude... "aptitude download <package>"

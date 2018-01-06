@@ -1,0 +1,4 @@
+2012-06-12T07:54:00.000Z	fishbait		i tried sudo mii-tool -F 100baseTx-fd eth0
+2012-06-12T07:55:00.000Z	fishbait		i issue sudo ifconfig up eth0 and it says eth0: Unkown host
+2012-06-12T07:55:00.000Z	keepishop	fishbait	try ifconfig -a and see what's there
+2012-06-12T08:18:00.000Z	keepishop	fishbait	When you plug in the cable while hot, dmesg should say if the link was negotiated at 100mb of gbit.

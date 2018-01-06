@@ -1,0 +1,4 @@
+2011-11-16T21:21:00.000Z	newnoise		can anyone explain my what resize2fs does exactly? it just changes the filesystem-size, but not the partition size, correct?
+2011-11-16T21:22:00.000Z	tjader	newnoise	yes
+2011-11-16T21:22:00.000Z	tjader		You have to adjust the partition size accordingly before/later if you are growing/shrinking.
+2011-11-16T21:25:00.000Z	newnoise	tjader	ok. how do I do this?

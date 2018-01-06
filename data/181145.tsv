@@ -1,0 +1,4 @@
+2007-04-06T15:10:00.000Z	lopa		that was the last error it gave me after running apt-get install openssh-server
+2007-04-06T15:10:00.000Z	lopa		Could not get lock /var/cache/apt/archives/lock - open (11 Resource temporarily unavailable)
+2007-04-06T15:10:00.000Z	lopa		why?
+2007-04-06T15:11:00.000Z	bruenig	lopa	you can't have two package managers open at once

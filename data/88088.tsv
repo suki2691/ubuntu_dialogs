@@ -1,0 +1,4 @@
+2008-11-17T08:46:00.000Z	supercom32		When you download updates, where does ubuntu temp save the files?
+2008-11-17T08:47:00.000Z	bimberi	supercom32	/var/cache/apt/archives
+2008-11-17T08:49:00.000Z	supercom32	bimberi	is it safe to empty this folder, or is it needed for uninstall or something?
+2008-11-17T08:50:00.000Z	bimberi	supercom32	you can empty it using 'sudo apt-get clean'

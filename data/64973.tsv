@@ -1,0 +1,4 @@
+2010-12-24T06:15:00.000Z	ZykoticK9		Problem 1 - is there a way to disable a TwinView monitor from command line?  Problem 2 - MythTV crashing X when trying to play TV.  Problem 3 - Bluetooth audio on minimal install not showing in Sound Preferences.  Any ideas?
+2010-12-24T06:17:00.000Z	BlueEagle	ZykoticK9	1: Alter /etc/X11/xorg.conf 2: Check the logs 3: alsamixer -C <sound card>
+2010-12-24T06:41:00.000Z	ZykoticK9	BlueEagle	well your "check log" suggestion was a good one ;) through the log output found the related bug at https://bugs.launchpad.net/ubuntu/+source/mythtv/+bug/660833 which led me to disabling XvMC and now I can watch TV - so thanks for that one.
+2010-12-24T06:42:00.000Z	BlueEagle	ZykoticK9	good stuff

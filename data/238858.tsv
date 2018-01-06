@@ -1,0 +1,4 @@
+2005-05-01T14:16:00.000Z	foolip		Hi. I have a computer set up to be a masquerading router. I want it to serve DNS to the computers on the local network since the external dns servers are assigned by DHCP and may be changing. What (caching,recursive?) DNS server could I use?
+2005-05-01T14:17:00.000Z	foolip		Preferably one that just looks at my resolv.conf and asks those nameservers
+2005-05-01T14:17:00.000Z	jhaig	foolip	I think named is the usual
+2005-05-01T14:18:00.000Z	foolip	jhaig	that package isn't available to me. Is it called "named"?

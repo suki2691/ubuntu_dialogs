@@ -1,0 +1,4 @@
+2010-03-21T01:46:00.000Z	chocamo		I mounted my windows disk in ubuntu, where is the recycle bin on the windows disk?
+2010-03-21T01:46:00.000Z	G_A_C	chocamo	on an NTFS drive, in $RECYCLER
+2010-03-21T01:47:00.000Z	chocamo	G_A_C	so /mnt/windows/$RECYCLER ? I dont see it
+2010-03-21T01:47:00.000Z	G_A_C	chocamo	there's a folder for each user, named by their SID, and then all the files are renamed inside it to "a000000.exe" etc, so I don't think you'll find it easy (maybe not even possible) to recover them

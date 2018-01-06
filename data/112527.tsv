@@ -1,0 +1,4 @@
+2009-04-11T11:45:00.000Z	armornic1		hey guys, what is the default behavior of iptables?
+2009-04-11T11:47:00.000Z	armornic1		so, by default, any incoming connection is disabled, right?
+2009-04-11T11:47:00.000Z	armornic1		just to make sure I don't have a leak
+2009-04-11T11:48:00.000Z	JoshuaRL	armornic1	by default iptables is either closed or stealthed (same thing for security)  so by default its secure.  if you go installing other things, it may open ports though, depending on the app.

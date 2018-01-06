@@ -1,0 +1,4 @@
+2006-01-16T12:33:00.000Z	Locke		E: Could not get lock /var/lib/dpkg/lock - open (11 Resource temporarily unavailable)
+2006-01-16T12:33:00.000Z	Locke		E: Unable to lock the administration directory (/var/lib/dpkg/), is another process using it?
+2006-01-16T12:33:00.000Z	Locke		does anyone know what that means?
+2006-01-16T12:33:00.000Z	deFrysk	Locke	it means you try to do 2 apt-sessions at the same time

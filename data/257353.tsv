@@ -1,0 +1,4 @@
+2008-05-25T05:10:00.000Z	Killthrill		anyone know what command I need to use to access my already install ubuntu system from the Live CD?
+2008-05-25T05:11:00.000Z	rouslan	Killthrill	mount /dev/sdb1 /mnt/sdb1
+2008-05-25T05:18:00.000Z	rouslan	Killthrill	grub> root(hd0,0); setup(hd0)
+2008-05-25T05:28:00.000Z	rouslan	Killthrill	i apologize for my shorthard. start grub by running `grub`. you will see the "grub>" prompt. then type "root(hd0,0)", if that is fine, then your boot partition is on sda1. then go ahead and type "setup(hd0)". if that is fine, your MBR is fixed. type Ctrl-D. you're done

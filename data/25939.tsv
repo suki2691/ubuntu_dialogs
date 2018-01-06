@@ -1,0 +1,4 @@
+2010-11-21T09:15:00.000Z	Ed_Money		how do i get the count of the number of files in a directory through tty?
+2010-11-21T09:15:00.000Z	_jesse_	Ed_Money	ls -l | wc -l
+2010-11-21T09:16:00.000Z	Ed_Money	_jesse_	thanks much
+2010-11-21T09:17:00.000Z	_jesse_	Ed_Money	ls -la | wc -l if you want to count hidden files :) make sure to subtract two for the 'special' . and .. files

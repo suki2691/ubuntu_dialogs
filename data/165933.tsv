@@ -1,0 +1,4 @@
+2007-09-09T16:16:00.000Z	Sergemine		Is there a way to force dpkg/apt-get to install a package is dependancies are not met ???I am having a problem  that the printer-driver-deb-package that contains my printer's driver is very old in Feisty - December 2006, the Gusty deb-package of the driver is MUCH newer - August 2007/ IS THERE A WAY TO FORCE  dpkg / or apt-get to instal the newer incompatible with this release version???
+2007-09-09T16:17:00.000Z	Pelo	Sergemine	when you get the dependencies not met message,  open up synaptic and look for the dependencies in there,  then close gdebi before seenting the install on synaptic
+2007-09-09T16:20:00.000Z	Sergemine	Pelo	thank you - but I need to instal a Gusty packae on Feisty. Is there a way to do that ??? even if it may currupt some bits. I need it to know if the package install everythng needed for my printer.
+2007-09-09T16:20:00.000Z	Pelo	Sergemine	 you 'd need a gutsy repos,  ask in #ubuntu+1

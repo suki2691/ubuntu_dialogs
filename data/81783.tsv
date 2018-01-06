@@ -1,0 +1,4 @@
+2008-09-11T16:17:00.000Z	xbxb		Hey, I resized my swap partition from 1.8 GB to 3.7 GB with gparted, even checked /etc/fstab, everything is mounted correctly, but my system monitor still says 'swap: 1.8 GB'. what did I do wrong?
+2008-09-11T16:19:00.000Z	dns53	xbxb	you probably need to reformat the swap partition, the file system does not know it's bigger
+2008-09-11T16:19:00.000Z	xbxb	dns53	thanks, I'll try that
+2008-09-11T16:27:00.000Z	xbxb	dns53	 thanks, it worked :)

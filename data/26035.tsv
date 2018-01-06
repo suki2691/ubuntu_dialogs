@@ -1,0 +1,4 @@
+2010-09-16T21:37:00.000Z	DFM		Hello. Can someone tell me how to reconfigure the network to pull DHCP from the cli. I'm using server 10.04 and during the install I didn't have a network connection. Now I do but have to use DHCP.
+2010-09-16T21:38:00.000Z	warflyr	DFM	edit /etc/network/interfaces; add: auto eth0\n iface eth0 inet dhcp
+2010-09-16T21:38:00.000Z	warflyr	DFM	them /etc/init.d/networking restart
+2010-09-16T21:41:00.000Z	DFM	warflyr	I tried editing the interfaces as suggested but it didn't work and I did restart the interface after making the change.

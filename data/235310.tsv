@@ -1,0 +1,4 @@
+2006-06-15T09:26:00.000Z	wrath		Anyone know how to get to perls command prompt?
+2006-06-15T09:27:00.000Z	BioVorE	wrath	you mean cpan shell?
+2006-06-15T09:29:00.000Z	BioVorE	wrath	perl is an interpiters.. just start a text file and start it with #!/usr/bin/perl followed by you perl program..
+2006-06-15T09:30:00.000Z	BioVorE	wrath	I don't think there is any interactive shell for it.  perl -MCPAN -e shell allows you to install new modules from cpan if needed but isn't a shell

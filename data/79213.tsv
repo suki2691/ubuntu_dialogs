@@ -1,0 +1,4 @@
+2012-04-20T01:38:00.000Z	dhunter		Anybody here successfully use client certificates to authenticate apt-get?
+2012-04-20T01:39:00.000Z	dhunter		I've read doc/examples/apt-https-method-example.conf and followed its advice, but when I `apt-get update` I get a message like: Failed to fetch https://bld-repo-ext-dev.oblong.com/apt/dists/lucid/main/binary-amd64/Packages.gz  server certificate verification failed.
+2012-04-20T01:40:00.000Z	dhunter		Sorry, that's my internal repo that I'm testing apt-get with.
+2012-04-20T01:40:00.000Z	Monotoko	dhunter	there's your problem... you'll need to self sign it

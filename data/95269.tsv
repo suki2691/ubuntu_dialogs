@@ -1,0 +1,4 @@
+2008-04-07T05:54:00.000Z	Nervetatoo		I get a kernel panic at boot but without any errors before it, and the only thing during boot that looks suspicious is a call to name_to_dev_t() which is passed a dev uuid that i certainly dont recognize and its not for my hd. Also, nothing ends up in kern.log, which made me believe the hd could be failing, but in live cd i have no problem using it and fsck turns out ok (although i fixed a lot of multiply claimed blocks)
+2008-04-07T05:54:00.000Z	Stewie_Griffin	Nervetatoo	what version of ubuntu are you running?
+2008-04-07T05:54:00.000Z	Nervetatoo	Stewie_Griffin	7.10
+2008-04-07T05:55:00.000Z	Stewie_Griffin	Nervetatoo	just making sure, were getting a lot of hardy people trying to get support in here, was gonna say if its hardy go to #ubuntu+1, but seeing as its gutsy...hmm....

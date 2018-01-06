@@ -1,0 +1,4 @@
+2009-07-26T03:00:00.000Z	brunner		what's the easiest way to clone my laptop hard drive to an external USB drive?  I'm looking to copy the boot sector and everything.
+2009-07-26T03:00:00.000Z	brunner		I thought I'd just be able to use dd, but people who've written tutorials seem to advocate cp and tons of different complicated steps
+2009-07-26T03:00:00.000Z	brunner		couldn't I just dd from my current drive to the new one?
+2009-07-26T03:00:00.000Z	edbian	brunner	I don't think that dd will copy the MBR.

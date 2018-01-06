@@ -1,0 +1,4 @@
+2008-08-29T04:43:00.000Z	Kai_wp		I'm not sure if this is the place to ask. But, does anyone know if resizing my Wubi's "partition"  to be larger is risky when dual-booting with windows xp pro sp2 on an NTFS HD?
+2008-08-29T04:44:00.000Z	Flannel	Kai_wp	Wubi doesn't dual boot "really", it sits in a file inside your windows partition.  Resizing it should be fine, there's no danger of breaking your windows partition (just running out of space)
+2008-08-29T04:45:00.000Z	Kai_wp	Flannel	Alright. Although, I assume I'll have to use "PartedMagic" to increase the "partitions" size?
+2008-08-29T04:45:00.000Z	Flannel	Kai_wp	No, no.  I'm... actually not sure how you'd increase wubi's size.  But theres *no* parititoning at all.

@@ -1,0 +1,4 @@
+2011-07-23T18:03:00.000Z	terry	Polah_	alex-- AND, after you switch to a non-standard port, you could go a step further and set an iptables rule to block all port 22 traffic from outside.
+2011-07-23T18:04:00.000Z	Polah_	terry	alex--: Outside the IP ranges you want, else you wouldn't be able to connect to the SSH server anywhere.
+2011-07-23T18:05:00.000Z	terry	Polah_	What i'm saying is to block port 22 specifically.  That way, the hacker sees "filtered"
+2011-07-23T18:06:00.000Z	terry	Polah_	Since your not using port 22 anyway, it doesn't matter.

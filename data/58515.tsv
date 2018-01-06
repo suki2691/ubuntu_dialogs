@@ -1,0 +1,4 @@
+2010-03-08T20:46:00.000Z	MgMt		how do i change a sd card from read only?
+2010-03-08T20:46:00.000Z	MgMt		i want to format it
+2010-03-08T20:46:00.000Z	KB1JWQ	MgMt	Remount it as readwrite?
+2010-03-08T20:47:00.000Z	KB1JWQ	MgMt	There's probably some GUIfied way to do it, but I mount -o remount,rw /dev/YOURSDCARDDEVICE

@@ -1,0 +1,4 @@
+2005-10-16T16:29:00.000Z	daxxar	asraniel	you mean chmod 777 -R /path/to/stuff, I bet? :)
+2005-10-16T16:29:00.000Z	daxxar	asraniel	also, you could just do chmod go+rwX -R /path/to/stuff
+2005-10-16T16:30:00.000Z	daxxar	asraniel	if it's fat, you should put this into the options of the mount: umask=000, but you're better off doing uid=someUser,gid=someGroup,umask=007, then just make sure everyone that needs rwx is in someGroup. (:
+2005-10-16T16:35:00.000Z	daxxar	asraniel	you should generally not set 777, rather set 770, and make people member of a group. :)

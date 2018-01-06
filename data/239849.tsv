@@ -1,0 +1,4 @@
+2008-06-24T02:30:00.000Z	fahd-malik87		i just installed ubuntu 7.10, and whenever i boot, the other drives(C,D) in my hard disk are not visible on desktop, but when i go to 'Computer" and open those drives, they appear on desktop, is there a way that my drives can be visible from the time ubunto boots up?
+2008-06-24T02:31:00.000Z	fahd-malik87		unop
+2008-06-24T02:32:00.000Z	nickrud	fahd-malik87	you would need to add those partitions to /etc/fstab. See link that follows
+2008-06-24T02:33:00.000Z	nickrud	fahd-malik87	when you choose a mount point, make it in /media , then they will be on the desktop

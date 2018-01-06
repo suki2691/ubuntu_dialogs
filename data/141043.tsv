@@ -1,0 +1,4 @@
+2008-12-16T02:57:00.000Z	Improv		If I need to make an initscript synchronous so it finishes running before gdm starts, how do I do it?
+2008-12-16T02:57:00.000Z	raylu	Improv	i think it involves naming it with a lower number than gdm
+2008-12-16T02:59:00.000Z	Improv	raylu	Aha, good spot. Thanks.
+2008-12-16T02:59:00.000Z	Improv	raylu	I assumed ubuntu was using one of those dependency-based init scripts rather than the numeric, but it seems I'm wrong

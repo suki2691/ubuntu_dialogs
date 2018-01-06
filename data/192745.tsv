@@ -1,0 +1,4 @@
+2006-04-13T11:34:00.000Z	darkram		I'm trying to get Cedega to run right in the end, it says 3D Acceleration tests failed.
+2006-04-13T11:35:00.000Z	xfcefreak	darkram	did you install nvidia-settings nvidia-glx?
+2006-04-13T11:36:00.000Z	xfcefreak	darkram	did you run the enable command and than sudo dpkg-recofigure xserver-xorg and set the drivers to nvidia
+2006-04-13T11:40:00.000Z	xfcefreak	darkram	sudo apt-get install linux-restricted-modules-     after the - put the output of uname -r

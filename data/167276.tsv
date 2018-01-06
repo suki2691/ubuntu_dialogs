@@ -1,0 +1,4 @@
+2006-09-19T08:00:00.000Z	z0rz		You know what I don't get....
+2006-09-19T08:00:00.000Z	z0rz		I can boot Xubuntu live at 1280x1024 .. but then I install it and I don't have the choice of 1280x1024 in the Display settings ... how can I get this resolution?
+2006-09-19T08:01:00.000Z	kb3istiger	z0rz	it is an issue with your monitor being correctly identified, you can manually had that resolution in xorg.conf
+2006-09-19T08:02:00.000Z	kb3istiger	z0rz	no it is in your /etc/X11 directory. You might want to search google for editing it before you start if you are not sure about how to edit it.

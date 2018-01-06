@@ -1,0 +1,4 @@
+2008-02-26T06:44:00.000Z	geoff_		hey i have bigdesktop working but im trying to set a resolution on 2048x768 however its not listed in Screen resolution Preferences, how can I fix this?
+2008-02-26T06:44:00.000Z	mneptok	geoff_	sudo dpkg-reconfigure xserver-xorg
+2009-08-03T20:54:00.000Z	mneptok	geoff_	or "locate"
+2009-08-03T20:55:00.000Z	mneptok	geoff_	sudo updatedb && locate mht

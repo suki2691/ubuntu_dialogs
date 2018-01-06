@@ -1,0 +1,4 @@
+2010-01-26T22:57:00.000Z	Leolo_3		ok, i created /dev/md0.  and put an FS on it.  tune2fs -l /dev/md0 I see : Filesystem UUID:          7bb2fe2e-bb1a-480d-9ff0-5b523c1c538e, but I can't mount it with that UUID in fstab.  nor is that UUID in /dev/disk/by-uuid
+2010-01-26T22:57:00.000Z	Leolo_3		so, how do I get the kernel to update its UUID list?
+2010-01-26T22:58:00.000Z	Leolo_3		trek : lsmod shows all loaded modules
+2010-01-26T23:00:00.000Z	Trek	Leolo_3	while that lists all the modules, how do I differentiate which applies to what device?

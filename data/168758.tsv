@@ -1,0 +1,4 @@
+2009-10-05T04:27:00.000Z	Rakko		Another question: I compiled and installed a custom kernel module, and it worked fine. Well, since then I've updated the kernel package, so now it doesn't load. Is there something I can do that would allow it to load even after upgrading the kernel (without having to recompile the module every time)?
+2009-10-05T04:29:00.000Z	scunizi	Rakko	sometimes installing dkms will allow the kernel updates to be updated as well.. other than that you're stuck redoing the kernel manually
+2009-10-05T04:30:00.000Z	Rakko	scunizi	how does that work? does the module have to be written especially for dkms?
+2009-10-05T04:32:00.000Z	scunizi	Rakko	not sure.. dkms was something we (linux community) got from Dell and their relationship with ubuntu and others...

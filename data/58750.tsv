@@ -1,0 +1,4 @@
+2009-04-30T19:07:00.000Z	shadeslayer		theres also a file,something.local where you can add commands,which will be run on boot
+2009-04-30T19:09:00.000Z	JonDgls	shadeslayer	rc.local will run uShare in the background before login prompt but uShare does cannot scan media directories until login. Therefore a manual start is required using "ushare" to scan directories and then "sudo /etc/init.d/ushare start" to start the UPnP server.
+2009-04-30T19:10:00.000Z	shadeslayer	JonDgls	cool,it was just a thought btw
+2009-04-30T19:11:00.000Z	JonDgls	shadeslayer	np, thank you. I do use rc.local for other commands tho. uShare unfortunatley won't play nice :) Thanx

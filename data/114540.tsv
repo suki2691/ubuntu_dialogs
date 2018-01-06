@@ -1,0 +1,4 @@
+2007-11-01T21:43:00.000Z	rjune__		is there a command to control what services start and stop in ubuntu? something ala chkconfig?
+2007-11-01T21:44:00.000Z	transcube	rjune__	they're all in /etc/init.d
+2007-11-01T21:44:00.000Z	rjune__		or howot find out what runlevel a system is at? there's no /etc/inittab on my system
+2007-11-01T21:45:00.000Z	rjune__	transcube	that's where the startup scripts are, but I want the command to tell it to start the script on boot. something like update-rc.d, thanks pike_

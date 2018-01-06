@@ -1,0 +1,4 @@
+2008-09-27T00:56:00.000Z	lorenzo		I installed ubuntu-studio audio package, but would like to have the extended version of one of the softwares, that is Pure Data. But if I try removing it with synaptic I get a message that all the ubuntu-studio chould be also removed. That seems quit illogical. What am I missing?
+2008-09-27T00:57:00.000Z	noodlesgc	lorenzo	ubuntu-studio is a metapackage, it will not remove all the parts of ubuntu-studio
+2008-09-27T00:59:00.000Z	noodlesgc	lorenzo	its a package that depends on a whole bunch of different packages, so it installs a certain set of software
+2008-09-27T01:01:00.000Z	noodlesgc	lorenzo	well, since a metapackge depends on a program being installed, when you uninstall that program, the metapackge must be removed also

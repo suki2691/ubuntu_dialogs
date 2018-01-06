@@ -1,0 +1,4 @@
+2008-05-04T04:34:00.000Z	SnakeArt		How to get an info about modules loaded on bootup and then after modprobe command?
+2008-05-04T04:34:00.000Z	macd	SnakeArt	"lsmod" lists all loaded modules
+2008-05-04T04:35:00.000Z	SnakeArt	macd	I know that, but I need to know which 'wacom' module is loaded on boot, and which is loaded when i type modprobe wacom
+2008-05-04T04:35:00.000Z	macd	SnakeArt	then use modinfo wacom before and after loading it.

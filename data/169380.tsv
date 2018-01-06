@@ -1,0 +1,4 @@
+2007-09-08T10:09:00.000Z	tech13		I've already installed build-essential, but when I try to compile wine from source, at the step run ./configure, I get the error "configure: error: C compiler cannot create executables"   suggestions?
+2007-09-08T10:11:00.000Z	dug	tech13	what version of wine do you want that has the fix?  You can get a more recent deb by adding a new source to apt-get: http://www.winehq.org/site/download-deb
+2007-09-08T10:12:00.000Z	tech13	dug	 according to the guys in #winehq, it was fixed after 0.9.44, which is the last .deb.
+2007-09-08T10:14:00.000Z	dug	tech13	i bet they'll update that deb soon, but if you want to compile yourself, you might try adding linux headers: sudo apt-get install linux-headers-`uname -r`

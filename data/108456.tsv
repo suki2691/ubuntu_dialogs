@@ -1,0 +1,4 @@
+2010-11-04T18:06:00.000Z	LjL		pvh_sa: "rkhunter" and "chkrootkit" are two packages that, among other thing, check your list of currently running proxies against known malicious tools
+2010-11-04T18:07:00.000Z	pvh_sa	LjL	yeah but those check for "bad" processes... what i'm dealing with is a machine that has a known process load (remains constant long term) and anything unknown is suspicious. think of it as "tripwire" for processes
+2010-11-04T18:11:00.000Z	LjL	pvh_sa	i don't know of anything like that (aside perhaps from full blown IDS that also can do that), but if you don't need it to spot stuff that might be hidden, then i think it should be pretty easy to write a script that parses "ps aux" output...
+2010-11-04T18:15:00.000Z	pvh_sa	LjL	yeah might just have to do that

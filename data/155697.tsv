@@ -1,0 +1,4 @@
+2012-03-23T01:23:00.000Z	GhostConn		understandable... however to install BURG to my mbr i need to enter this command   sudo burg-install "(hd0)"   i tried that after adding the repositories and it wont work... all im asking is ifthe command is wrong because im unsure of where my mbr is located. from my understanding its located on /dev/sda   as far as a disk numer i don't know ?  example "hd0"
+2012-03-23T01:24:00.000Z	GhostConn		yes
+2012-03-23T01:25:00.000Z	wylde	GhostConn	I honestly think you should take ikonia's advice about not playing with your bootloader. Not to mentio BURG is *NOT* an official ubuntu package, so essentially not supported here.
+2012-03-23T01:31:00.000Z	wylde	GhostConn	considering it's not an official Ubuntu PPA you're installing from it's not supported here anyway.

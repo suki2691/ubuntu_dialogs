@@ -1,0 +1,4 @@
+2011-07-07T11:49:00.000Z	purplefool		lately my computer video output has been freezing up when watching in full screen.  i can control-alt-f1 into the terminal, but then have to reboot.  is there a way to restart the gui from terminal? what is the command for that?
+2011-07-07T11:49:00.000Z	quentusrex_	purplefool	when you ctrl+alt+f1 you can then issue the command: /etc/init.d/gdm restart
+2011-07-07T11:50:00.000Z	quentusrex_	purplefool	then once restarted you can either switch back or type: startx
+2011-07-07T11:51:00.000Z	quentusrex_	purplefool	it sounds like you might want to file a bug report against your graphics driver as well.

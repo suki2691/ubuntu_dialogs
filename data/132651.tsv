@@ -1,0 +1,4 @@
+2008-11-14T08:18:00.000Z	Andrew3		Can anyone help me with the chmod command?
+2008-11-14T08:18:00.000Z	fryguy	Andrew3	man chmod has full documentation for the usage of it.  do you have a particular problem?
+2008-11-14T08:19:00.000Z	fryguy	Andrew3	put the both into the same group, and modify the second octet of permissions, or modify the 3rd octet of permissions, which will give everybody permissions
+2008-11-14T08:20:00.000Z	fryguy	Andrew3	chmod -R g+rw yourdirectory or chmod -R o+rw yourdirectory

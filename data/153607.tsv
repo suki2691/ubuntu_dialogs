@@ -1,0 +1,4 @@
+2012-09-26T13:44:00.000Z	Axsuul		How come when I do, /bin/su - joe -c  -i 'echo $PATH', it gives me the correct $PATH under joe, but without the -i, it doesn't, and `su` doesn't appear to have a -i argument?
+2012-09-26T13:45:00.000Z	Pricey	Axsuul	I'm not sure what '-i' is meant to be? But you want "-c 'echo $PATH'" with nothing said between it?
+2012-09-26T13:47:00.000Z	Axsuul	Pricey	if I put -i in between, it gives me the correct path
+2012-09-26T13:47:00.000Z	Axsuul	Pricey	as if I've logged in

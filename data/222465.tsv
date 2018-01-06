@@ -1,0 +1,4 @@
+2005-10-21T14:34:00.000Z	shagg		having a problem with upgrading to breezy.  I've got all the packages but have a broken pipe on an openoffice package. I've tried apt-get -f dist-upgrade multiple times but to no avail.  help?
+2005-10-21T14:34:00.000Z	Xorlev	shagg	Did you apt-get update first?
+2005-10-21T14:37:00.000Z	Xorlev	shagg	Its never good to force a package unless you know what you're doing, otherwise it can seriously screw up a system.
+2005-10-21T14:38:00.000Z	Xorlev	shagg	Have you tried apt-get -f'ing it?

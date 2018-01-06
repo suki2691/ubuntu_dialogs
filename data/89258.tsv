@@ -1,0 +1,4 @@
+2008-07-13T19:12:00.000Z	gpd		My laptop has a weird acpi issue - when on it freezes until you move the mouse or press a key then starts again fine. acpi off is not ideal - where should i look? blacklist options? newer kernels? bios options?
+2008-07-13T19:14:00.000Z	gpd		It is a samsung R20 and works fine otherwise. freeze symptom is during normal operation - running top, don't touch anything and it will freeze, touch the mouse or a key and all returns. with acpi=off this goes away.
+2008-07-13T19:15:00.000Z	rockenrola	gpd	that happens to me at boot
+2008-07-13T19:19:00.000Z	gpd	rockenrola	I found the acpi debug pages and there are several options for the kernel which i will try now

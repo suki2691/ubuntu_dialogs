@@ -1,0 +1,4 @@
+2010-12-31T12:43:00.000Z	supaplex		how can I pin only kernel images/headers/etc from maverick on karmic?  I tried using -10 as the preference for a=maverick, but aptitude safe-upgrade shows it's going to try upgrading 400mb of packages. (not what I expect; no kernel* specifics in preferences yet)
+2010-12-31T12:43:00.000Z	Maahes	supaplex	I recommend using synaptic's interace.
+2010-12-31T12:46:00.000Z	supaplex	Maahes	and I can be that specific with synaptic? I want the majority of the system to remain with karmic for now, but this laptop has serious dain brammage if it's not running at least 2.6.35 and acpi=copy_dsdt cmdline for the kernel.
+2010-12-31T12:47:00.000Z	Maahes	supaplex	you go and do a force version (it gives you a drop down menu), then once you've forced versions, after that, pin them all

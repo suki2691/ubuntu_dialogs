@@ -1,0 +1,4 @@
+2012-01-26T05:50:00.000Z	ActionParsnip	rtorto	try the positionfix option on the sound driver
+2012-01-26T05:52:00.000Z	ActionParsnip	rtorto	try:  echo "options snd-hda-intel position_fix=1" | sudo  tee -a /etc/modprobe.d/alsa-base.conf                 reboot to test
+2012-01-26T05:58:00.000Z	rtorto	ActionParsnip	That doesn't seem to change anything. Thanks though.
+2012-01-26T06:00:00.000Z	ActionParsnip	rtorto	remove the line from the file, as it does nothing

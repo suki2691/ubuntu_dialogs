@@ -1,0 +1,4 @@
+2009-03-21T12:27:00.000Z	tech404		is there a way to stop scrolling on output at the consle or in screen?
+2009-03-21T12:27:00.000Z	ziroday	tech404	run the command but pipe it through less like this mycommand | less
+2009-03-21T12:29:00.000Z	tech404	ziroday	thanks for your help however I am looking for an overall solution. While in screen information is updated every second and it keeps me from seeing output very far up with <ctrl> + <pg up>
+2009-03-21T12:31:00.000Z	ziroday	tech404	ah! then you want tail or tail -f

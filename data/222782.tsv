@@ -1,0 +1,4 @@
+2006-05-15T11:05:00.000Z	teletubbie		I can't umount /home it says it is busy but lsof is not showing anything that's using /home
+2006-05-15T11:05:00.000Z	teletubbie		anything that may be using it?
+2006-05-15T11:05:00.000Z	mneptok	teletubbie	just about everything if you're logged in.
+2006-05-15T11:46:00.000Z	mneptok	teletubbie	not to mention reserved blocks, which Ubuntu defaults to 5%.

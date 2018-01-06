@@ -1,0 +1,4 @@
+2006-05-05T13:37:00.000Z	goonie		Here is a problem I need to solve... My netcards are always inactive on boot. I have to manually acitvate them which is tiresome and shouldn't be necessary. I have also noticed an error when shutting down the machine "Deconfiguring network interfaces ... Fail" Any ideas?
+2006-05-05T13:38:00.000Z	dli	goonie	easier way is to build your kernel :)
+2006-05-05T13:40:00.000Z	dli	goonie	you can build the nic driver in kernel, so, it's always enabled
+2006-05-05T13:42:00.000Z	dli	goonie	also, you can get a newer kernel, in which the driver problem is already fixed

@@ -1,0 +1,4 @@
+2007-10-31T17:11:00.000Z	Alejandr0		Hello, my video card seems to be broken so i wanna know what happens if u boot with no video card and also if doing that affects the grub, ty.
+2007-10-31T17:12:00.000Z	kkathman	Alejandr0	do you have video support on your motherboard ?
+2007-10-31T17:13:00.000Z	kkathman	Alejandr0	 check on your motherboard (back of the computer) and check if you do.  If so, then remove the bad card, and ubuntu should reconfigure itself to the new video. In any case grub wont be affected
+2007-10-31T17:17:00.000Z	kkathman	Alejandr0	 well, technically, error messages (that you wouldnt see). But I think probably it would end up at a shell login (again that you wouldnt see) unless you had a fall back video - but I imagine your Motherboard has integrated video

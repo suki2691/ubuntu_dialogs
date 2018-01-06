@@ -1,0 +1,4 @@
+2012-04-03T14:53:00.000Z	sasori		how to rename all .txt files into .dat files all at once?
+2012-04-03T14:54:00.000Z	io	sasori	'$ for old in *.txt; do cp $old `basename $old .txt`.dat; done'
+2012-04-03T14:57:00.000Z	sasori	io	, nothing happened
+2012-04-03T15:00:00.000Z	io	sasori	you could try using rename.ul: '$ rename.ul .txt .dat *.txt'

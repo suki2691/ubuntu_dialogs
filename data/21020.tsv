@@ -1,0 +1,4 @@
+2011-10-09T17:50:00.000Z	m477		is it possible to check by ps process just my as a user?
+2011-10-09T17:50:00.000Z	ActionPa1snip	m477	ps -ef | grep $USER
+2011-10-09T17:51:00.000Z	ActionPa1snip	m477	cleaner is:  ps -U $USER
+2011-10-09T17:57:00.000Z	m477	ActionPa1snip	thx o/

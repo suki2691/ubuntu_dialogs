@@ -1,0 +1,4 @@
+2007-05-26T07:27:00.000Z	Sh3r1ff	Notchnick	use the absolute path to the file or first go to directory where it is
+2007-05-26T07:30:00.000Z	Notchnick	Slart	 I created a folder media and moved the iso file to it... how should I edit the command sudo mount -o loop -t iso9660 /media/ubuntu-7.04-desktop-amd64.iso mountpoint   ?
+2007-05-26T07:30:00.000Z	Notchnick	Slart	 a newbie here.. I dunno what am doing
+2007-05-26T07:31:00.000Z	Sh3r1ff	Notchnick	put the iso on your desktop, mkdir /media/mount, and then cd ~/Desktop and then mount -o loop isofile /media/mount

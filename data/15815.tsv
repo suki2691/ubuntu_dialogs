@@ -1,0 +1,4 @@
+2011-10-12T03:20:00.000Z	tarrant		Is there anyway to install sun-java without x11?
+2011-10-12T03:22:00.000Z	dtigue	tarrant	yes you can install sun-java from the cli
+2011-10-12T03:23:00.000Z	tarrant	dtigue	what I meant is sun-java relies on sun-java6-fonts and that installs x11
+2011-10-12T03:25:00.000Z	dtigue	tarrant	you might be able to use dpkg to install it with --ignore-depends=<package>

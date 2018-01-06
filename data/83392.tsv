@@ -1,0 +1,4 @@
+2008-12-16T12:51:00.000Z	the_gamer		how to find out the version of an installed program with a shellcommand?
+2008-12-16T12:53:00.000Z	jtaji	the_gamer	command --version is usually a good place to start, else if you know the package name, apt-cache policy packagename
+2008-12-16T12:53:00.000Z	jtaji	the_gamer	if you don't know the package name, dpkg -S `which commandname` ;)
+2008-12-16T12:53:00.000Z	the_gamer	jtaji	bascule thanks

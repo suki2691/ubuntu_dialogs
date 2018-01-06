@@ -1,0 +1,4 @@
+2006-11-26T17:18:00.000Z	DjViper		guys, how do I sftp a whole dir from one place to another?
+2006-11-26T17:18:00.000Z	enyc	DjViper	using scp -r instead of sftp
+2006-11-26T17:18:00.000Z	DjViper	enyc	ok
+2006-11-26T17:18:00.000Z	enyc	DjViper	scp -r locatdir remotehost:remotedir   I think

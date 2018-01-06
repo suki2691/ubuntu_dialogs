@@ -1,0 +1,4 @@
+2011-02-19T06:09:00.000Z	Stevezau		i have a usb dvb card that has a inbuilt IR receiver.. which creates a inputX in /dev.. ive got lirc but im gettig double key presses cause its also detected as a kbd.. any ideas how i can tell ubuntu to ignore kdb events from that input device??
+2011-02-19T06:11:00.000Z	Stevezau		tried there
+2011-02-19T06:12:00.000Z	th0r	Stevezau	you might look into blacklisting the module
+2011-02-19T06:13:00.000Z	Stevezau	th0r	i cant blacklist it as i still want to use the input for lirc

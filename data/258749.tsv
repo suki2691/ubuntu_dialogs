@@ -1,0 +1,4 @@
+2005-01-01T16:06:00.000Z	tolstoy_		folks, updated to hoary, no xorg.conf.  X -configure didn't work (or do I need to be out of X).  What was that deb-something command I need to get an xorg conf to appear?
+2005-01-01T16:06:00.000Z	ogra	tolstoy_	sudo dpkg-reconfigure xserver-xorg
+2005-01-01T16:09:00.000Z	tolstoy_	ogra	seems like someone here did something different to get it working, but I'll try that.
+2005-01-18T07:33:00.000Z	ogra	tolstoy_	did you start vino (the vnc server included in gnome) ?

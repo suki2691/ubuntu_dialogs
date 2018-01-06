@@ -1,0 +1,4 @@
+2009-10-13T20:30:00.000Z	olmari		Hello, is there an way to install an downloaded .deb from CLI so that depencies will get downloaded (semi)automatically too?
+2009-10-13T20:31:00.000Z	jpds	olmari	dpkg -i it, and then run: apt-get install -f
+2009-10-13T20:31:00.000Z	olmari	jpds	Hmm... indeed
+2009-10-13T20:33:00.000Z	olmari	jpds	Okay then could there be suggested something even more automatic way... so that installation goes with one command, and it perhaps asks like apt-get joes..-

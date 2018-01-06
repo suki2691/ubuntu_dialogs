@@ -1,0 +1,4 @@
+2011-03-30T10:00:00.000Z	elijah		How do I flush GRUB to only have latest 2/3 kernels?
+2011-03-30T10:01:00.000Z	ruan	elijah	delete the older kernels
+2011-03-30T10:01:00.000Z	ruan	elijah	sudo apt-get delete linux-image-older-version-
+2011-03-30T10:02:00.000Z	ruan	elijah	this can be done from synaptic too, just search

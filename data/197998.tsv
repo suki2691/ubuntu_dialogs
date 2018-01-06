@@ -1,0 +1,4 @@
+2006-03-31T11:35:00.000Z	pppoe_dude	graveson	why cant you use alsa?
+2006-03-31T12:07:00.000Z	graveson	pppoe_dude	i use the aoss wrapper and start audacity with aoss ,but it cannot open the device ,not sure what else is using /dev/dsp besides es
+2006-03-31T12:08:00.000Z	pppoe_dude	graveson	might be the bug with esd. try killing -9 esd
+2006-03-31T12:10:00.000Z	graveson	pppoe_dude	: esd is killed ,because oss works with audacity :(

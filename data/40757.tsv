@@ -1,0 +1,4 @@
+2012-06-08T10:55:00.000Z	thechef	jarray52	did you ever install it as a non-package?
+2012-06-08T10:56:00.000Z	jarray52	thechef	Not that I know of.
+2012-06-08T10:57:00.000Z	thechef	jarray52	maybe you can find the kernel module in the filesystem and then track the packages which contain that file. Some dpkg query should be able to help you find it.
+2012-06-08T11:00:00.000Z	jarray52	thechef	dpkg --list | grep fglrx doesn't show anything. Grepping for radeon and amd doesn't show any packages that would have the fglrx module.

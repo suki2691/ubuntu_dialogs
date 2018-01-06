@@ -1,0 +1,4 @@
+2008-01-23T10:13:00.000Z	rekon		I am having issues creating a new user via the GUI on Gnome. This username and group existed before but my girlfriend goobered up all sorts of things so I deleted the username, group, and home dir so I could start fresh. But now when I try to create a new user with the same name it won't create it. Am I missing something?
+2008-01-23T10:14:00.000Z	nickrud	rekon	make sure the username doesn't appear in any of /etc/passwd or /etc/group or /etc/shadow
+2008-01-23T10:15:00.000Z	rekon	nickrud	let me check
+2008-01-23T10:17:00.000Z	rekon	nickrud	Thanks alot! The name was still listed in the group file even though I deleted the group. Works great now. Thanks again :)

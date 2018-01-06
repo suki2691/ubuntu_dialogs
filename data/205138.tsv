@@ -1,0 +1,4 @@
+2006-07-25T16:19:00.000Z	vakosel		i want to install the headers kernel files . which package to choose?
+2006-07-25T16:20:00.000Z	vakosel		i have intel pentium
+2006-07-25T16:20:00.000Z	dli	vakosel	apt-get install linux-headers-`uname -r`
+2006-07-25T16:24:00.000Z	dli	vakosel	apt-get install linux-headers-$(uname -r)

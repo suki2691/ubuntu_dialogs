@@ -1,0 +1,4 @@
+2011-08-08T21:08:00.000Z	RA_drc		hello, i am trying to mount an SD card.  when i type "sudo mount /dev/sde /mnt/sdhc" i get an error: "mount: you must specify the filesystem type".  however, when i try "sudo mount -t fat32 /dev/sde /mnt/sdhc" or variations thereof, i get the error: "mount: unknown filesystem type 'fat32'".  what am i doing worng?
+2011-08-08T21:08:00.000Z	RA_drc		*wrong
+2011-08-08T21:08:00.000Z	phoque	RA_drc	it's vfat
+2011-08-08T21:22:00.000Z	RA_drc	phoque	thanks

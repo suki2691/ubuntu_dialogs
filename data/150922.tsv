@@ -1,0 +1,4 @@
+2007-01-15T17:18:00.000Z	tiolpxe		hi where is ubuntu's file that configures tcp services at bootup
+2007-01-15T17:19:00.000Z	stefg	tiolpxe	/etc/network/interfaces
+2007-01-15T17:20:00.000Z	tiolpxe	stefg	so it doesnt use inetd?
+2007-01-15T17:22:00.000Z	stefg	tiolpxe	inetd is a *server* daemon, and no tinstalled by default. if you just want to mess with your IP settings from the cmmand line then /etc/network/interfaces is the file to edit (smartly, i might add)

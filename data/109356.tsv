@@ -1,0 +1,4 @@
+2008-09-10T04:05:00.000Z	audihertz		Hey folks...  I have an IP address that repeatedly tries to hack into a FTP server.  How do I block or deny this IP?  Is it done through proftpd?
+2008-09-10T04:07:00.000Z	dashnu	audihertz	use iptables?
+2008-09-10T04:07:00.000Z	dashnu	audihertz	iptables -i eth0 -s XX.XX.XX.XX -j DROP
+2008-09-10T04:09:00.000Z	audihertz	dashnu	- Thanks!  Thought I'd asked first.  Now I know what to lookup.

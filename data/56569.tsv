@@ -1,0 +1,4 @@
+2010-01-27T02:50:00.000Z	RobLikesBrunch		When I delete a file from usb drive, no space is actually freed up on the drive. The file simply vanishes from Nautilus. Why is this? When I delete the file from Windows using vmware, space is actually freed-up on the drive.
+2010-01-27T02:51:00.000Z	DopeGhoti	RobLikesBrunch	something still has the file open (see `lsof`); once that's closed, the space will be freed
+2010-01-27T02:51:00.000Z	RobLikesBrunch	DopeGhoti	Aha! Thank you.
+2010-01-27T02:53:00.000Z	DopeGhoti	RobLikesBrunch	also, if there is still a file in use, 'umount' will complain when you try to unmount the drive

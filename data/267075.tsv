@@ -1,0 +1,4 @@
+2012-08-09T01:18:00.000Z	mr_daniel		I want to setup a new init.d service, but don't understand "Requierd-Start" values. E.g. nginx uses the following values:
+2012-08-09T01:18:00.000Z	mr_daniel		# Required-Start:    $local_fs $remote_fs $network $syslog
+2012-08-09T01:18:00.000Z	mr_daniel		Are $local_fs predefined values in upstart or update-rc.d? I want to understand what they are good for
+2012-08-09T01:19:00.000Z	Dr_Willis	mr_daniel	 for making a new service. you should be using Upstart not the  sysv stuff. its slowly being phased out.

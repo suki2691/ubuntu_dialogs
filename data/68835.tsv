@@ -1,0 +1,4 @@
+2009-01-13T00:30:00.000Z	b4dace		i want to execute a bash script before the X server starts, how is that possible?
+2009-01-13T00:31:00.000Z	Jack_Sparrow	b4dace	yes it is possible
+2009-01-13T00:32:00.000Z	Jack_Sparrow	b4dace	Getting a script to run at boot before login: Put it in you ~/.bashrc. Something like: export PATH=$PATH:~/bin ...
+2009-01-13T00:33:00.000Z	b4dace	Jack_Sparrow	thanks, i'll give it a try

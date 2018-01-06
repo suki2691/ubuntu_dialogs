@@ -1,0 +1,4 @@
+2012-10-20T00:37:00.000Z	sourav		hey guys i change my dns to opendns via resolv.conf but after reboot resolv.conf gets empty and i have to manually enter dns again any fix so that resolv.conf stays to opendns
+2012-10-20T00:39:00.000Z	sourav		resolv.conf changes after reboot any fix for this
+2012-10-20T00:40:00.000Z	sourav		can u guide me i don't use network manager
+2012-10-20T00:41:00.000Z	ActionParsnip	sourav	addthe name server in /etc/resolvconf/resolv.conf.d/tail

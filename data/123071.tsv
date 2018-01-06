@@ -1,0 +1,4 @@
+2007-09-01T08:27:00.000Z	Paerox		I do a ./madwifi-unload.bash, but module wlan is in use. What do I do now?
+2007-09-01T08:27:00.000Z	kousotu	Paerox	try sudo modprobe -r wlan ?
+2007-09-01T08:28:00.000Z	Paerox	kousotu	modprobe -r wlan gave the same result
+2007-09-01T08:33:00.000Z	Paerox	kousotu	sudo modprobe -r wlan gave the same result as being logged on as root

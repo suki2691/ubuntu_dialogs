@@ -1,0 +1,4 @@
+2011-02-22T10:30:00.000Z	crlcan81		I'm trying to get sudo burg-install to run and any designations for my drive that gparted list, as well as any of the alternate designations, like hd1, or hd0, give me /usr/sbin/burg-probe: error: cannot stat 'drivename#'.
+2011-02-22T10:32:00.000Z	Jordan_U	crlcan81	GRUB2 has theming capability as well. I highly recommend using that instead of BURG (which doesn't appear to be maintained anymore and when it was was a one man fork).
+2011-02-22T10:38:00.000Z	Jordan_U	crlcan81	You're welcome.
+2011-03-14T09:44:00.000Z	Jordan_U	crlcan81	It's now owned by root as you ran a GUI command with sudo rather than gksudo. Chown it back to your user to be able to log in again.

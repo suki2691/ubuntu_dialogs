@@ -1,0 +1,4 @@
+2008-01-19T22:41:00.000Z	[RAY]		I've got a question. I'm trying to boot Ubuntu from the CD, but when it tries to boot from the CD it givs this error: " PXE-E53: Not boot filename received'
+2008-01-19T22:42:00.000Z	hellop	[RAY]	U are doing a network boot for some reason,  disable network boot in your Bios, check your boot order, verify your CD
+2008-01-19T22:44:00.000Z	[RAY]	hellop	boot order is corret, cd too, I don't have that much knowledge from bios though :|
+2008-01-19T22:45:00.000Z	hellop	[RAY]	your thing is set to boot from network, you will have to poke around, disable boot from "other devices"  disable PXE anything, you should see like "boot from cd..."  If not its your boot order, or CD drive not plugged in right

@@ -1,0 +1,4 @@
+2009-01-15T03:30:00.000Z	hydrozen		hi, just wondering, if i install ubuntu server with LVM, it means that I can always add a second drive later on to the LVM, and then make my two drives appear as one big partition right???
+2009-01-15T03:30:00.000Z	ikonia	hydrozen	as one logical volume yes
+2009-01-15T03:31:00.000Z	hydrozen	ikonia	or n8tuser: any good tutorial out there on how to do that?
+2009-01-15T03:32:00.000Z	ikonia	hydrozen	1.) pvcreate the new disk 2.) vgetend the volume with the new disk, your done

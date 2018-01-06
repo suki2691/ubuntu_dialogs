@@ -1,0 +1,4 @@
+2010-02-26T02:08:00.000Z	Dougal		my desktop appears as if frozen, but I can still access it remotely over ssh. Don't know much about command-line control though. How can I bring up a list of processes/applications so I can kill whatever's locked up my terminal?
+2010-02-26T02:08:00.000Z	Dougal		I'm basically looking for the commandline version of a task manager
+2010-02-26T02:09:00.000Z	guntbert	Dougal	either ps aux  or top  or htop
+2010-02-26T02:15:00.000Z	guntbert	Dougal	press k, then enter the pid and the signal

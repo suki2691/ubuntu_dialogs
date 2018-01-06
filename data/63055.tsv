@@ -1,0 +1,4 @@
+2009-03-20T05:57:00.000Z	Brando753		how can I build a development server (Xampp) to work only on a LAN connection that only computers with a correct mac address could access the server
+2009-03-20T05:57:00.000Z	Brando753		?
+2009-03-20T05:59:00.000Z	cipherZen	Brando753	I would just set up xammp normally, then mess with iptables to only allow access from computers in a given IP range
+2009-03-20T06:00:00.000Z	cipherZen	Brando753	You'll still want some kind of authentication though, cause IPs and MACs can both be spoofed

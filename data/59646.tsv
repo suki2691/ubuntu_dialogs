@@ -1,0 +1,4 @@
+2010-09-07T13:18:00.000Z	cutout		Hi I have 6 machines with Ubuntu installed on it and the updates are killing me, is there a way to install updates on one of them and have it moved automagically to the other machines?? all the machines on the same network
+2010-09-07T13:20:00.000Z	beli	cutout	update-manager-core.....it comes with ubuntu server edition..take a look
+2010-09-07T13:22:00.000Z	beli	cutout	for automagical updates on remote machines you could create a ssh account that does the job for you on login....you can do selective updates of boxes that way
+2010-09-07T13:25:00.000Z	cutout	beli	: it is OK if user accepts the updates the real problem to download it for each machine

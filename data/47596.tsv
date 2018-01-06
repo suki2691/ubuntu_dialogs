@@ -1,0 +1,4 @@
+2012-02-24T16:53:00.000Z	Zoffix		Hey. Does google have some kind of spyware in Ubuntu? Weird question, but I just noticed 4kb/s going up, not knowing what it was. I ran `netstat -tunawep` and there were a bunch of `sh` processes apparently connected to 74.125.226.88 and other IP addresses, all owned by Google (according to whois, at least). I killed all those, and I even restarted my network, but I still get a bunch of entries to google with "LAST_ACK" as status. I closed my browser an
+2012-02-24T16:53:00.000Z	Zoffix		d I have no idea where else these could be coming from.
+2012-02-24T16:54:00.000Z	Zoffix		Even putting privacy aside, I really don't want to waste my bandwidth on ... google
+2012-02-24T16:54:00.000Z	theadmin	Zoffix	htop will tell you I suppose.

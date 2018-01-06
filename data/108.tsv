@@ -1,0 +1,4 @@
+2004-10-20T10:42:00.000Z	jubalj		hi guys.. simple question, how can i get disable pcmcia for automatically starting up on my destkop on every boot - seeing as i dont need it?
+2004-10-20T10:42:00.000Z	jubalj		is update-rc.d pcmcia remove the right way to do it?
+2004-10-20T10:43:00.000Z	jdub	jubalj	apt-get remove --purge pcmcia-cs :-)
+2004-10-20T10:43:00.000Z	jubalj	jdub	thanks dude

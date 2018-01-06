@@ -1,0 +1,4 @@
+2012-02-14T23:03:00.000Z	raevol		hi guys, i need some help: i've got a broken linux-headers package, but i can't fix it because i don't have enough disk space (netbook, / and /home and separate drives) but i can't remove any packages because i have a broken linux-headers
+2012-02-14T23:03:00.000Z	raevol		how can i force removing some packages so i can fix this broken package?
+2012-02-14T23:03:00.000Z	raevol		or are there any large files in my / directory that i can safely delete? temp files or log files or something?
+2012-02-14T23:05:00.000Z	cfhowlett	raevol	you can free up space by deleting .deb packages from prior downloads/updates;  sudo apt-get clean apt-get autoclean

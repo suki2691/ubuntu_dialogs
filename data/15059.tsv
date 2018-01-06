@@ -1,0 +1,4 @@
+2011-11-21T16:06:00.000Z	Boreeas		I am trying to edit the etc/apt/sourceslist to add the virtualbox host. But even though I've set +w on the file, I still get an error when saving the file
+2011-11-21T16:07:00.000Z	Boreeas		"Error opening file '/etc/apt/sources.list': Permission denied"
+2011-11-21T16:07:00.000Z	Boreeas		How do I fix this?
+2011-11-21T16:08:00.000Z	vibhav	Boreeas	"sudo gedit /etc/apt/sources.list"

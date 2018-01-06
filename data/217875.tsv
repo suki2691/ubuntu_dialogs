@@ -1,0 +1,4 @@
+2011-05-02T07:39:00.000Z	bromide_bro		is there some particular reason why this ubuntu installer is telling me i need 4.4 gb of hard disk space when the boot disk is only something like 600mb
+2011-05-02T07:39:00.000Z	bromide_bro		because this is an old asus netbook and it only has 2 gb of hdd
+2011-05-02T07:39:00.000Z	Viking667	bromide_bro	and the deb packages expand to bigger than 600Mb when uncompressed
+2011-05-02T07:40:00.000Z	Viking667	bromide_bro	what's on the CDROM is a single compressed filesystem, and the contents (usually) gets copied over uncompressed.

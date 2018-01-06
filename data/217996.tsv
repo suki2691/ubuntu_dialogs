@@ -1,0 +1,4 @@
+2010-03-25T20:10:00.000Z	pranay_09		isn't it insecure if all ports are open in ubuntu?
+2010-03-25T20:10:00.000Z	pranay_09		how do i close any port?
+2010-03-25T20:11:00.000Z	pranay_09		sipior:how do i close any port?
+2010-03-25T20:12:00.000Z	nibbler	pranay_09	iptables -I INPUT -p tcp/udp --dport 80/whatever -j DROP

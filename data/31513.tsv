@@ -1,0 +1,4 @@
+2012-05-03T21:07:00.000Z	sin_tax		OK, I am 95% there - I have my partition auto-mounting and labeled properly, but when I go to unmount it, I get an error stating that only root can umount it.. I believe that I already did a chown to my username for the mount location, any ideas?
+2012-05-03T21:08:00.000Z	wylde	sin_tax	you still require root access to mount/unmount partitions. Just prepend the command with sudo
+2012-05-03T21:09:00.000Z	sin_tax	wylde	well, with one of my NTFS partitions I can just do it via nautilus, but this one is throwing that error
+2012-05-03T21:10:00.000Z	wylde	sin_tax	did you try it with sudo? I believe nautilus use gvfs for mounting.

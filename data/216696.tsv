@@ -1,0 +1,4 @@
+2008-01-28T15:34:00.000Z	josiahw		can you use * to represent all files in a dir? Example: pnmtojpeg /images/*.pnm *.jpg
+2008-01-28T15:35:00.000Z	ardchoille	josiahw	yes, that will process all .pnm images
+2008-01-28T15:37:00.000Z	ardchoille	josiahw	"for i in" means "do this for each file in the directory"
+2008-01-28T15:38:00.000Z	ardchoille	josiahw	You can also use "a" or "j" or "g" instead of i as long as you keep track of what your variables are doing and keep them seperated

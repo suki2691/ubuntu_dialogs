@@ -1,0 +1,4 @@
+2012-07-09T22:40:00.000Z	SDX		If I try "sudo apt-get install libqt4-opengl" I get "E: Unable to correct problems, you have held broken packages.".  Is there a way to fix this?
+2012-07-09T22:41:00.000Z	MonkeyDust	SDX	 try sudo apt-get -f install     -f means fix
+2012-07-09T22:44:00.000Z	MonkeyDust	SDX	 is it a PPA?
+2012-07-09T22:44:00.000Z	MonkeyDust	SDX	 try removing the PPA then

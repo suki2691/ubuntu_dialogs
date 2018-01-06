@@ -1,0 +1,4 @@
+2010-11-11T04:09:00.000Z	karmiclaw1		hey guys can some one help me with fork() ... How do i make the parent check if the child process has exited without have to block it with waitpid()
+2010-11-11T04:11:00.000Z	blue_anna	karmiclaw1	man waitpid
+2010-11-11T04:12:00.000Z	blue_anna	karmiclaw1	do {  w = waitpid(cpid, &status, WUNTRACED | WCONTINUED); }while (!WIFEXITED(status) && !WIFSIGNALED(status)); ...
+2010-11-11T04:13:00.000Z	blue_anna	karmiclaw1	wait() blocks, waitpid can't, or else the example they give wouldnt be in a while loop

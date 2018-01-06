@@ -1,0 +1,4 @@
+2010-03-16T00:40:00.000Z	17SAAL01W		hi guys. I need some assistance with a partition copy, please. I want to migrate an OS on a 4G SD card to a new 8G SD.
+2010-03-16T00:40:00.000Z	17SAAL01W		I partitioned the new disk ext4, set the boot flag  & then tried both (X being the source, Y being the target) `dd if=/dev/sdX1 of=/dev/sdY1`& `rsync -av /mount/source /mount/target`.
+2010-03-16T00:40:00.000Z	17SAAL01W		In both cases I completed the copied, but the systems fails to boot (would've expected the dd to work OK). What did I miss?
+2010-03-16T00:40:00.000Z	FloodBot3	17SAAL01W	Please don't flood, use http://paste.ubuntu.com to paste, don't use Enter as punctuation.

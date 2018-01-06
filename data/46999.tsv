@@ -1,0 +1,4 @@
+2009-09-25T17:01:00.000Z	squircle		Hi everyone; when I boot my new ubuntu install, the bootloader drops me down to a shell after "waiting for root device" and says /dev/sdb1 does not exist. and when i do ls /dev, there is nothing that's hdx or sdx. what do I do?
+2009-09-25T17:02:00.000Z	squircle		just the bootloader doesn't want to mount it... there isn't any /dev/sdx
+2009-09-25T17:02:00.000Z	Cyrano_Zz	squircle	sudo fdisk -l
+2009-09-25T17:03:00.000Z	squircle	Cyrano_Zz	gimme a sec to get out of the busybox shell; it's really limited

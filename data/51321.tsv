@@ -1,0 +1,4 @@
+2011-05-02T08:30:00.000Z	Bsims		something chaged pan and other gtk2 apps you have to hold your mouse and hover to make the slider appear now how do I fix it to the way it was
+2011-05-02T08:32:00.000Z	Bsims		how do I disable the now you see it now you don't slider bars...
+2011-05-02T08:33:00.000Z	trism	Bsims	sudo apt-get remove liboverlay-scrollbar-0.1-0; will disable the overlay scrollbars
+2011-05-02T08:33:00.000Z	trism	Bsims	and sudo apt-get install overlay-scrollbar; will bring them back

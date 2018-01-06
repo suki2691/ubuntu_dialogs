@@ -1,0 +1,4 @@
+2007-10-06T09:35:00.000Z	jshriver		how do you unzip all the files in a directory?
+2007-10-06T09:35:00.000Z	jshriver		tried unzip *.zip
+2007-10-06T09:35:00.000Z	jshriver		but it gives me errors
+2007-10-06T09:36:00.000Z	dystopianray	jshriver	for x in *.zip ; do unzip $x ; done

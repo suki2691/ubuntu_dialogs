@@ -1,0 +1,4 @@
+2005-11-15T08:19:00.000Z	DrZeus		hi all.  Im trying to recompile a kernel but xconfig nor gconfig are working
+2005-11-15T08:20:00.000Z	DrZeus		xconfig: unable to find Qt instalation; gconfig: unable to find GTK installation
+2005-11-15T08:21:00.000Z	Agrajag	DrZeus	use menuconfig, or install the GTK or QT development packages
+2005-11-15T08:22:00.000Z	Agrajag	DrZeus	it needs to compile a small program to run xconfig, you need gtk2.0-dev for that

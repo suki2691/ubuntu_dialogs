@@ -1,0 +1,4 @@
+2007-09-04T09:42:00.000Z	Sheliak		hey, maybe someone knows here how can I run an external program from python and catch after that the return value of the ext. program,  I tried with popen and system but unfortunately nothing works the way i would like :-/. Any ideas ?
+2007-09-04T09:43:00.000Z	Sheliak		*damn* sorry, I believed I was in #python ... ups
+2007-09-04T09:43:00.000Z	bascule	Sheliak	os.popen('ls -l).read() <-- like that ?
+2007-09-04T09:44:00.000Z	bascule	Sheliak	also .read().split() for nicer formatting

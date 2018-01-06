@@ -1,0 +1,4 @@
+2006-09-17T11:45:00.000Z	klhrevolutionist		Currently, the only installer we have is for Debian. The best way to install it is to add the line "deb http://actlab.tv/debian binary/" to your /etc/apt/sources.list file and then do an "apt-get update" and an "apt-get install snakebite". This will also install the latest version of BitTorrent (much more up-to-date than the standard one in Debian).
+2006-09-17T11:45:00.000Z	klhrevolutionist		How to add that repo to my sources.list please
+2006-09-17T11:47:00.000Z	klhrevolutionist		ty
+2006-09-17T11:47:00.000Z	ynef	klhrevolutionist	from a terminal: sudo gedit /etc/apt/sources.list -- add the line as specified somewhere in that file, then run those "apt-get" commands with sudo: "sudo apt-get update", etc

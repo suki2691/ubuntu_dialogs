@@ -1,0 +1,4 @@
+2005-04-08T09:12:00.000Z	prophet-		hello ppl, i just did a dist-upgrade from warty to hoary, but now when i try to log into gdm the computer just freeze. maybe something with the gdm.conf file -i really dont know-. Maybe could be a conflict between XFree (warty) and Xorg (hoary)? or XFree is auto-removed ? ;o any ideas? ;\ <3
+2005-04-08T09:12:00.000Z	crimsun	prophet-	yes, XFree86 is removed and X.Org, installed
+2005-04-08T09:12:00.000Z	crimsun	prophet-	look at /var/log/Xorg.0.log for starters
+2005-04-08T09:18:00.000Z	crimsun	prophet-	it should do that automatically.

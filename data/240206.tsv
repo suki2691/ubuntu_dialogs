@@ -1,0 +1,4 @@
+2008-01-27T08:25:00.000Z	Leila		 I installed Digikam and wanted to make a slide show with music. but it said that I needed mp2enc. It is not in the repositories. It is not availabe with apt. I did install ImageMagick but that did not work. Can I fix it. Or, is there another way to make a slide show with music?
+2008-01-27T08:26:00.000Z	nickrud	Leila	it's in mjpegtools
+2008-01-27T08:30:00.000Z	nickrud	Leila	install apt-file , it downloads a database of the files and packages, you can search for things with that
+2008-01-28T00:07:00.000Z	nickrud	Leila	 glxinfo | grep direct should tell you the status of your 3d

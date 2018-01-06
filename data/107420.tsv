@@ -1,0 +1,4 @@
+2008-01-15T09:14:00.000Z	Smegzor		Ever since opening port 22 I've been getting remote login attempts (no surprise there).  I found a program called fail2ban.  Anybody here use it?  I think the chances of the script kiddies logging in are zero, but I'm a meanie and the ability to auto ban ip's after x failed logins is soooo tempting =D
+2008-01-15T09:16:00.000Z	Smegzor		Does ubuntu use IP tables out of the box?
+2008-01-15T09:16:00.000Z	Smegzor		I don't want to install firestarter when fail2ban can just add ip's to there.
+2008-01-15T09:17:00.000Z	erawfish	Smegzor	netfilter is enabled by default yes

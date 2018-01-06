@@ -1,0 +1,4 @@
+2008-01-13T21:57:00.000Z	AngryAnt		Hi. I was wondering if you could answer a security question of mine: Would it be sane of me to accept SSH requests from the internet to my ubuntu 7 server? I'd like to be able to do some remote administration on it.
+2008-01-13T21:59:00.000Z	squallbsr	AngryAnt	I have my openssh server open to the internet, without any problems, just keep on top of the automatic updates.
+2008-01-13T22:03:00.000Z	squallbsr	AngryAnt	changing your port will kill any of the 'automated' scan everybody attacks on ssh, if somebody is determined, a simple nmap scan will show you are running ssh on another port, just fyi.
+2008-01-13T22:04:00.000Z	AngryAnt	squallbsr	Yea most things have some kind of countering, but every little bit helps, eh? :)

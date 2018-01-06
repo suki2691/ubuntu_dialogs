@@ -1,0 +1,4 @@
+2011-04-05T09:45:00.000Z	aauthor		If I wanted a BASH script to open several gui applications (at the same time) how could I do this?  If I just put each one in a bash script (one after the other) it will wait for one to close before opening the next one.
+2011-04-05T09:45:00.000Z	quiescens	aauthor	put an & at the end of each command that opens in a gui to load it in background
+2011-04-05T09:46:00.000Z	aauthor	quiescens	thanks I'll give that a try right now.
+2011-04-05T09:47:00.000Z	aauthor	quiescens	brilliant!  Worked like a charm!  Thanks for your help!

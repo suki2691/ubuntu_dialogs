@@ -1,0 +1,4 @@
+2008-10-29T08:54:00.000Z	mikematic		Hi All...Im trying to install samba and everytime I try to compile by running the script autogen.sh I get the error: " need autoconf 2.53 or later to build samba from SVN". Anybody who knows how to resolve this please ping me. Thanks
+2008-10-29T08:54:00.000Z	rww	mikematic	any particular reason why you're compiling it instead of grabbing it from the ubuntu repositories?
+2008-10-29T08:58:00.000Z	rww	mikematic	okays. Well, do you have autoconf installed? The latest version in hardy appears to be 2.61, so if you install it you should be okay. Try sudo apt-get install autoconf and see :)
+2008-10-29T09:04:00.000Z	rww	mikematic	well, you said you needed autoconf, which is installed by the autoconf package. build-essential is just generally a Good Idea if you're going to be compiling your own stuff.

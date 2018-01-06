@@ -1,0 +1,4 @@
+2006-07-14T05:55:00.000Z	liran1		someone remind me please how to search for a tool through all packages?
+2006-07-14T05:56:00.000Z	liran1		no apt-cache search is for packages. im talking about searching for a file within all packages
+2006-07-14T05:56:00.000Z	liran1		its a dpkg command, i just cant remember the syntax
+2006-07-14T05:56:00.000Z	jrib	liran1	dpkg -S, but that only searches installed packages.  Use apt-file or packages.ubuntu.com if you want to search uninstalled packages too

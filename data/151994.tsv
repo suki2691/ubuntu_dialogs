@@ -1,0 +1,4 @@
+2008-09-20T21:32:00.000Z	Bigmack83		what is the command to see all the folders that a program was installed from ?
+2008-09-20T21:33:00.000Z	Bigmack83		i meant installed into. not from
+2008-09-20T21:33:00.000Z	IntuitiveNipple	Bigmack83	you mean "dpkg-query -L <package-name>" ?
+2008-09-20T21:40:00.000Z	IntuitiveNipple	Bigmack83	Use "rm -rf <dir>" to recursively force deletion of files and directories

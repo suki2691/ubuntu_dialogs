@@ -1,0 +1,4 @@
+2008-12-28T10:41:00.000Z	mib_torpty		my ifconfig shows everything right, ip 1292.168.1.167, 255.255.255.0 default gateaway 192.168.1.254, but i cant do pings out of my local ip or localhost, if i ping further then my gateaway 192.168.1.254 mi got "icpm" socker error, operation not permitides ...any suggestion?
+2008-12-28T10:42:00.000Z	stan	mib_torpty	you dont have a DHCP server?
+2008-12-28T10:43:00.000Z	stan	mib_torpty	why on earth is your router .254 ?
+2008-12-28T10:44:00.000Z	mib_torpty	stan	my router its 192.168.1.0 my default gateaway its 192.168.1.254, netmask 255.255.255.0

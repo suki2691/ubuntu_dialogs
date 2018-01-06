@@ -1,0 +1,4 @@
+2007-08-03T06:36:00.000Z	ThanatosDrive		Guys I got a pretty odd problem. I'm trying to use the restricted ATI driver, but when I turn it on, it seems that the highest resolution is 1024x768. My default (and what I prefer it at) is 1280x1024. But when I try to use 'sudo dpkg-reconfigure xserver-xorg -phigh' to reinstate the 1280x1024 resolution, it reverts back to the original driver.
+2007-08-03T06:37:00.000Z	ShackJac1	ThanatosDrive	You can edit /etc/X11/xorg.conf manually and add "fglrx" as driver ;) you sure you're selecting the right driver in dpkg?
+2007-08-03T06:37:00.000Z	ThanatosDrive	ShackJac1	Ah I'll probably need it edit it. I don't see an fglrx in there in the first place though.
+2007-08-03T06:38:00.000Z	ThanatosDrive	ShackJac1	Be right on it. BRB! And Thanks!

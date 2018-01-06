@@ -1,0 +1,4 @@
+2010-07-21T04:10:00.000Z	tgalal		here is my case.. installed ubuntu lucid. then installed kubuntu-desktop. then updated KDE to 4.5 RC2, then removed kubuntu-desktop, so ubuntu got destroyed. so re-installed ubuntu-desktop. now I've got many missing dependencies. Trying to install vlc: depeDepends: libqtgui4 (>= 4:4.6.1) but it is not going to be installed. Trying to re-install kubuntu-desktop, got a huge list of missing depends too........
+2010-07-21T04:11:00.000Z	slidinghorn	tgalal	apt-get build-dep vlc
+2010-07-21T04:14:00.000Z	tgalal	slidinghorn	thanks worked. But why didn't this happen automatically?
+2010-07-21T04:15:00.000Z	slidinghorn	tgalal	i think edbian was describing it earlier...apt-get isn't quite as "smart" when it comes to dependencies as compared to aptitude...sometimes you have to build them up with apt-get

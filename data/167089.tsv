@@ -1,0 +1,4 @@
+2006-10-05T12:10:00.000Z	ArrenLex		Can someone explain why /bin/sh -> dash? It seems to me this will break a ton of scripts in really-hard-to-troubleshoot ways.
+2006-10-05T12:10:00.000Z	jldugger	ArrenLex	the best argument ive heard is that it speeds up ./configure in many cases
+2006-10-05T12:10:00.000Z	ArrenLex	jldugger	would it not be easier, then, to ask developers to use dash for ./configure scripts?
+2006-10-05T12:11:00.000Z	jldugger	ArrenLex	i have no idea. maybe they intend to make an even faster shell, and wanted to iron out bugs now rather than later =/

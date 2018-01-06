@@ -1,0 +1,4 @@
+2009-11-23T03:44:00.000Z	oorah		i tried to update and got an error. W: GPG error: http://ppa.launchpad.net karmic Release: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY D0D3C959DB2035A6
+2009-11-23T03:46:00.000Z	ActionParsnip	oorah	sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com D0D3C959DB2035A6
+2009-11-23T03:48:00.000Z	oorah	ActionParsnip	thanks
+2009-11-23T03:48:00.000Z	ActionParsnip	oorah	you added the repo but didnt ad the key on the repo

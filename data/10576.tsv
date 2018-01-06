@@ -1,0 +1,4 @@
+2012-02-13T06:57:00.000Z	pmitros		My computer has a hard drive that mounts in /media on bootup. I accidentally unmounted it. Is there a way to remount it in the same way as ubuntu mounts it? I know I can mkdir /media/[UUID], mount /dev/sdXX /media/[UUID], but that seems like the wrong way to do it.
+2012-02-13T06:58:00.000Z	pmitros		With a removable drive, I'd unplug it and plug it back in, but this is a normal, fixed HDD
+2012-02-13T06:58:00.000Z	Gentoo64	pmitros	try just /mount/drive
+2012-02-13T06:58:00.000Z	Gentoo64	pmitros	try mount /drive rather

@@ -1,0 +1,4 @@
+2009-02-27T06:11:00.000Z	Flannel	capttwinky	ST47: use gksu not sudo for graphical programs
+2009-02-27T06:13:00.000Z	Flannel	capttwinky	No.  gksu sets up the environment differently than sudo.  More appropriately for graphical programs.  The recommendation has nothing to do with the graphical prompt.
+2009-02-27T06:23:00.000Z	Flannel	capttwinky	The issue isn't in running the program, but logging in after using it.  Some things can save stuff to /home/username/ with root permissions, which can sometimes make things go poorly in the future.
+2009-02-27T06:24:00.000Z	Flannel	capttwinky	Just suggest the use of gksu with graphical programs always in this channel.  It's a good best practice, and some people don't know as much as you and its good to steer them the appropriate way so things don't bite them in the future.

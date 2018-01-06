@@ -1,0 +1,4 @@
+2010-11-07T22:28:00.000Z	maria__		Hi. I really need help. I need to make a bash script that will fire up one file as a root. Sudo is set to NOPASSWD so authorization is not an issue, however, the 'sudo su;programname -p' does not work. Any suggestions?
+2010-11-07T22:30:00.000Z	cpk	maria__	sudo su -c 'programname -p'
+2010-11-07T22:30:00.000Z	cpk		srry :)
+2010-11-07T22:30:00.000Z	maria__	cpk	Will try that right away. Thanks.

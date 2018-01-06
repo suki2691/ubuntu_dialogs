@@ -1,0 +1,4 @@
+2006-07-05T10:09:00.000Z	SurfnKid		whats the ls argument to list directories only?
+2006-07-05T10:09:00.000Z	RememberPOL	SurfnKid	`ls -d`
+2006-07-05T10:09:00.000Z	SurfnKid	RememberPOL	i tried that, i have 3 directories, it doesnt list them
+2006-07-05T10:11:00.000Z	RememberPOL	SurfnKid	 `ls -l|grep ^d`

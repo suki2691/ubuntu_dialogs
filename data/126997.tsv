@@ -1,0 +1,4 @@
+2007-07-24T14:11:00.000Z	pircjo1		I am running UBUNTU 6.06 server and have attached a windows network drive via cifs I have an intermittent problem when I copy files to the shared drive I get a "Bad file Descriptor" message, I can't see a pattern it seams to be random although I have only had it happen on a larger file (around 300 meg) and it transfers part of the file, always the same amount of bytes before aborting
+2007-07-24T14:12:00.000Z	Vlet	pircjo1	Sounds like a #samba issue
+2007-07-24T14:14:00.000Z	pircjo1	Vlet	Is there a better way to mount the drive?
+2007-07-24T14:17:00.000Z	Vlet	pircjo1	not sure, but I think I've had similar problems when doing such things... think it's slight incompatibilities between versions of the SMB protocol

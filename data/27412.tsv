@@ -1,0 +1,4 @@
+2011-08-14T09:05:00.000Z	llutz_	lotrpy	find the sources.list file containing the ppa (grep -ri ppaname /etc/apt/*) and delete it then (sudo nano filename)
+2011-08-14T09:05:00.000Z	lotrpy	llutz_	I find it at /etc/apt/source.list.d/, is it safe just delete it?
+2011-08-14T09:06:00.000Z	llutz_	lotrpy	delete the file only, not the dir. sudo apt-get update after doing so
+2011-08-14T09:07:00.000Z	lotrpy	llutz_	yes, just delete the file, not the dir, thanks

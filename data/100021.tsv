@@ -1,0 +1,4 @@
+2009-01-15T05:26:00.000Z	linux_trojan		sudu ifup eth0 is that renew IP?
+2009-01-15T05:27:00.000Z	unop	linux_trojan	that brings up an interface, not necessarily renew the DHCP lease.
+2009-01-15T05:28:00.000Z	linux_trojan	unop	well you have to do sudo ifdown eth0 first?
+2009-01-15T05:28:00.000Z	unop	linux_trojan	even then, an ifup doesn't necessarily renew a DHCP lease.

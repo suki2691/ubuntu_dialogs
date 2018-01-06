@@ -1,0 +1,4 @@
+2012-09-08T16:06:00.000Z	zaggynl		hi, ubuntu 12.04 gets stuck at boot, hub 2-1 port 2 disabled by hub (EMI?), re-enabling has shown up twice now, any clues what's happening?
+2012-09-08T16:08:00.000Z	tomreyn	zaggynl	there's something wrong with a USB device you have attached. unplug them one by one (or all for startters, then re-plug them one by one and reboot each time) to single out the problematic device.
+2012-09-08T16:08:00.000Z	tomreyn	zaggynl	this could be due to lack of power on the USB hub you have there.
+2012-09-08T16:11:00.000Z	tomreyn	zaggynl	do you have an usb extender or a monitor which works as a usb hub?

@@ -1,0 +1,4 @@
+2009-09-24T03:37:00.000Z	a_		hi
+2009-09-24T03:38:00.000Z	a_		How do i add something to the kernel boot command line?
+2009-09-24T03:39:00.000Z	Flannel	a_	temporarily or permanently?
+2009-09-24T03:40:00.000Z	Flannel	a_	edit the commented lines (like kopt=) in /boot/grub/menu.lst then sudo update-grub, you should be able to then verify that the changes were applied via your menu.lst

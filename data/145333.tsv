@@ -1,0 +1,4 @@
+2010-07-09T23:04:00.000Z	Gibbs		The text in the terminal (i.e. ctrl+shift+f1) is probably 4px, distorted and completely unreadable. It's also like that when I boot and I need to do some things outside of X. Any suggestions?
+2010-07-09T23:06:00.000Z	hwilde	Gibbs	what is your monitor native resolution
+2010-07-09T23:06:00.000Z	Gibbs	hwilde	- 1440x900
+2010-07-09T23:08:00.000Z	hwilde	Gibbs	you will probably have to settle for something like 1024x768 for the tty but basically you need to add vga=791 or something to your grub kernel line see this http://ubuntuforums.org/showthread.php?t=258484&highlight=kernel+booting+parameters

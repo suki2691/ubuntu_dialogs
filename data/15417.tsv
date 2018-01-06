@@ -1,0 +1,4 @@
+2012-10-07T22:26:00.000Z	ElixirVitae		Speaking of lightdm, why does restarting it through restart lightdm also closes all applications?
+2012-10-07T22:26:00.000Z	escott	ElixirVitae	because it has to close the x server to restart
+2012-10-07T22:26:00.000Z	escott	ElixirVitae	"compiz" is the analog of explorer.exe.
+2012-10-07T22:29:00.000Z	escott	ElixirVitae	compiz isn't a service. it would just be compiz --replace (or metacity --replace or gnome-shell --replace depending on what Window manager you use)

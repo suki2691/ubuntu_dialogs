@@ -1,0 +1,4 @@
+2005-10-04T07:14:00.000Z	Ninjew	onkarshinde	Or, you can add the option uid=user or gid=group (the preferable solution being make a group)
+2005-10-04T07:16:00.000Z	onkarshinde	Ninjew	True. gid=100 maybe. But you will still need umask
+2005-10-04T07:16:00.000Z	Ninjew	onkarshinde	I can't remember what the default umask is for a mounted fat32 partition, doesn't it include group rw as well? Maybe i'm wrong
+2005-10-04T07:17:00.000Z	onkarshinde	Ninjew	I suppose default is 022 and files owned by root

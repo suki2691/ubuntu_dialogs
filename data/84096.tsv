@@ -1,0 +1,4 @@
+2008-07-31T03:17:00.000Z	jcovert		hey question - if i ssh into a machine without X-forwarding and try to run firefox, for example, what will happen?
+2008-07-31T03:17:00.000Z	ubuntu_live	jcovert	firefox will probably error saying it can't connect to the display
+2008-07-31T03:18:00.000Z	ubuntu_live	jcovert	is xorg also running on the remote machine?
+2008-07-31T03:20:00.000Z	jcovert	ubuntu_live	 basically, i'm trying to ssh into a machine and run a script that opens firefox - as of right now, there is no X installed - what will I need to do?  Is installing X enough?

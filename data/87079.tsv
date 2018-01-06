@@ -1,0 +1,4 @@
+2009-07-16T11:41:00.000Z	cn28h	vise	what did errno say?
+2009-07-16T11:41:00.000Z	vise	cn28h	errno is -1.. how do i check what "-1" is?
+2009-07-16T11:41:00.000Z	cn28h	vise	no, tha'ts the return value -- add perror("mprotect"); after it fails
+2009-07-16T11:43:00.000Z	vise	cn28h	R0b0t1 Invalid argument

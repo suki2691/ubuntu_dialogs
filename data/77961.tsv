@@ -1,0 +1,4 @@
+2008-10-15T05:42:00.000Z	garutachi		trying to use the manual method to install ATi drivers.  I used this command          sudo apt-get install build-essential cdbs fakeroot dh-make debhelper debconf libstdc++5 dkms linux-headers-$(uname -r)       and got this error: E: Could not get lock /var/lib/dpkg/lock - open (11 Resource temporarily unavailable)
+2008-10-15T05:42:00.000Z	garutachi		E: Unable to lock the administration directory (/var/lib/dpkg/), is another process using it?
+2008-10-15T05:43:00.000Z	garutachi		why yes I do LoL
+2008-10-15T05:44:00.000Z	RHorse	garutachi	lock file you possibly7 neecd to rm

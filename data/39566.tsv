@@ -1,0 +1,4 @@
+2010-01-05T18:59:00.000Z	annagirdlestone		I have a load of html files in a hierachical group of folders. I wish to convert the .html to text. I can do this for a single folder with;      find . -name *.html -exec textutil -convert txt '{}' \;
+2010-01-05T18:59:00.000Z	annagirdlestone		how can I apply this recurively ?
+2010-01-05T19:00:00.000Z	Scunizi	annagirdlestone	maybe with a -R switch someplace in that line.. like... find -R . -name etc etc etc
+2010-01-05T19:01:00.000Z	annagirdlestone	Scunizi	thanks

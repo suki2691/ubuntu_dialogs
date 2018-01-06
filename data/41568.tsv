@@ -1,0 +1,4 @@
+2012-04-13T23:42:00.000Z	kaffien		I need to identify which ethernet port is being used on a server.    how can i identify which is not being used?
+2012-04-13T23:43:00.000Z	kaffien		can i turn off a eth1 so the link light goes out?
+2012-04-13T23:44:00.000Z	kaffien		theres link up on both
+2012-04-13T23:44:00.000Z	ssta	kaffien	sudo ifconfig eth1 down

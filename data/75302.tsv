@@ -1,0 +1,4 @@
+2010-12-16T21:49:00.000Z	BajK_		where do i see the file system a usb stick is formatted withß
+2010-12-16T21:49:00.000Z	BajK_		thx got it.
+2010-12-16T21:50:00.000Z	BajK_		(stupid that it is not shown in properties dialog)
+2010-12-16T21:51:00.000Z	genii-around	BajK_	I'm pretty sure you can also fdisk a dd image file as if it were the drive. So sudo fdisk -l whatever.img   or so works and tells you the old partition table

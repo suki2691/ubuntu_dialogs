@@ -1,0 +1,4 @@
+2009-10-13T19:19:00.000Z	tree		Somebody, I installed openbox and then xorg, I am running openbox but when I open /etc/X11/xorg.conf for changing my default resolution, It is empty. What should I do ?
+2009-10-13T19:20:00.000Z	tree		how can I auto-generate the default "xorg.conf" file ?
+2009-10-13T19:22:00.000Z	BaGy	tree	sudo dpkg-reconfigure -phigh xserver-xorg
+2009-10-13T19:23:00.000Z	tree	BaGy	thanks :)

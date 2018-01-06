@@ -1,0 +1,4 @@
+2008-02-27T17:45:00.000Z	Majkball		This may seem stupid... but how do I find my C library files?  Can I use "ls" to do a recursive search in all directories for a specific file, how would the syntax look then?
+2008-02-27T17:45:00.000Z	Majkball		I am looking for mpi.h
+2008-02-27T17:45:00.000Z	MenZa	Majkball	Try find -- find . | grep -i <query>
+2008-02-27T17:45:00.000Z	MenZa	Majkball	e.g. find . | grep -i mpi.h

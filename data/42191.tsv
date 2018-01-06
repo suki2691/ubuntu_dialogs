@@ -1,0 +1,4 @@
+2009-11-21T04:54:00.000Z	dr_spork		I'm trying to install Karmic from USB using an image created with UNetbootin. It boots, logs in, and hangs directly after displaying gnome-panel. I'm on a Dell Optiplex 320. I can switch to a terminal (Ctl+Alt+F1) during Xsplash, but every time I switch back to X (Ctl+Alt+F7) it hangs, and I have to power cycle. Any ideas on how to get it to stop freezing like this?
+2009-11-21T04:54:00.000Z	mcurran	dr_spork	- I would try killall compiz-fusion or something
+2009-11-21T04:54:00.000Z	dr_spork		Ok trying
+2009-11-21T04:59:00.000Z	dr_spork	mcurran	thanks, it worked! after I restarted metacity through a terminal.

@@ -1,0 +1,4 @@
+2011-11-19T01:40:00.000Z	hilarie		what mask should I use https://help.ubuntu.com/11.10/serverguide/C/samba-fileserver.html says 0755 but I want people connecting to be able to do anything to the samba share,
+2011-11-19T01:41:00.000Z	hilarie		or is it the permissions that the file has on the server, so it doesn't really matter?
+2011-11-19T01:41:00.000Z	brontosaurusrex	hilarie	755 is everything minus execute
+2011-11-19T01:42:00.000Z	brontosaurusrex	hilarie	ups, was totally wrong

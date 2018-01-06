@@ -1,0 +1,4 @@
+2005-11-04T09:19:00.000Z	tris622ph		how do i add screen resolution in screen resolution dialog?
+2005-11-04T09:20:00.000Z	tris622ph		i have only 3 resolution, 800 x 600, 1024 x 768 pixels and the lower one
+2005-11-04T09:20:00.000Z	rob_p	tris622ph	 Make sure it's defined in your /etc/X11/xorg.conf.
+2005-11-04T09:23:00.000Z	rob_p	tris622ph	 Open your /etc/X11/xorg.conf and add your desired resolution to the right section.  Make a backup of your original xorg.conf though.

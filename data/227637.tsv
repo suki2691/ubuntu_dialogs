@@ -1,0 +1,4 @@
+2006-10-01T13:50:00.000Z	Jowi	Jan-pp	I think you just need to install lanuage-pack-en and language-support-en
+2006-10-01T13:51:00.000Z	Jowi	Jan-pp	"update-language"
+2006-10-01T13:54:00.000Z	Jowi	Jan-pp	/etc/environment file should have the language setting
+2006-10-01T13:58:00.000Z	Jowi	Jan-pp	hehe, found an easier way. typical. "sudo dpkg-reconfigure localeconf"

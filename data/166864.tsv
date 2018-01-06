@@ -1,0 +1,4 @@
+2008-04-12T14:20:00.000Z	thoreauputic	Quintin	1) the sudo echo command won't work 2) you don't know if it's a dns problem
+2008-04-12T14:20:00.000Z	Quintin	thoreauputic	1) it very well could be 2) backup resolv.conf so it's fine 3) numbered lists are stupid :)
+2008-04-12T14:22:00.000Z	thoreauputic	Quintin	the sudo echo will not work - you need something like  echo "foo" | sudo tee /etc/resolve.conf ( see the RootSudo wiki page)
+2008-04-12T14:22:00.000Z	thoreauputic	Quintin	interesting how you managed to imply stupidity when you had just given inaccurate advice ;)

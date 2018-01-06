@@ -1,0 +1,4 @@
+2005-05-03T07:00:00.000Z	trentbuck		You can only have ONE program using each sound card at any one time.  In your case, that program is ESD.  Other programs then connect to ESD, which multiplexes the sources.  Some programs don't know about ESD and try to talk to the sound card directly, hence they don't play sound (because ESD is already using the sound card).
+2005-05-03T07:01:00.000Z	trentbuck		I want to get a just-enough-to-install ISO image, then get other packages via my apt-proxy.  What's the best way to go about that?  Does jigdo work with Ubuntu?
+2005-05-03T07:01:00.000Z	Amaranth	trentbuck	Not true, newer sound cards can do the mixing themselves and ALSA has dmix for those that can't.
+2005-05-03T07:01:00.000Z	trentbuck	Amaranth	I stand corrected.  My $18 cards dont :-)

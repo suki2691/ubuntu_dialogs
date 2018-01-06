@@ -1,0 +1,4 @@
+2008-03-29T12:35:00.000Z	Scientus		> i killed my mbr with qemu and now i am having trouble getting grub reinstalled. ubuntu live 7.04 could recognize my drive ad i could mount it but grub wont recognize my partition formatting, and super grub disk doesnt reconize the formatting of my ext3 and wont booot it, but the live cd could see all the files and i open up my grub menu.1st and stuff any idea on getting grub working again???
+2008-03-29T12:37:00.000Z	gpm	Scientus	chroot <yourdrive>
+2008-03-29T12:37:00.000Z	gpm	Scientus	man grub-install
+2008-03-29T12:37:00.000Z	gpm	Scientus	i think it's just grub-install (hd0,0), but i might be wrong

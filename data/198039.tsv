@@ -1,0 +1,4 @@
+2006-04-13T11:00:00.000Z	DrawLt		I can't connect to ubuntu 5.10 from OS X 10.4.6 using connect to server.  I have shared a folder from my home dir in ubuntu and have set up "shared folders" in system>admin, OS X asks for a password when I try to connect to smb://etc... but then I get an error 43 from OS X
+2006-04-13T11:00:00.000Z	DrawLt		please help
+2006-04-13T11:02:00.000Z	dj-fu	DrawLt	you have to use smbpasswd -a <your linux user account> - then you'll be able to login to the machine from osx with your username and password
+2006-04-13T11:04:00.000Z	dj-fu	DrawLt	OSX is probably the problem :{

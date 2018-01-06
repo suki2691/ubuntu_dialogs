@@ -1,0 +1,4 @@
+2009-09-13T13:28:00.000Z	younder		I have a problem with sending mail to myself. I want to remind myself one a month to take a backup by sending a mail to myself. in /etc/cron.monthly:
+2009-09-13T13:29:00.000Z	younder		mail -s "*SYSTEM" <addr> < backup.txt
+2009-09-13T13:29:00.000Z	leaf-sheep	younder	Avoid /etc/cron.monthly -- Use "crontab -e" (NO SUDO)
+2009-09-13T13:29:00.000Z	younder	leaf-sheep	OK

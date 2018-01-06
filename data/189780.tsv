@@ -1,0 +1,4 @@
+2008-10-16T10:51:00.000Z	bzaks		Is there a way to set the wlan0 as the primary when you have an eth0 on a different network set up?
+2008-10-16T10:53:00.000Z	matt__	bzaks	I usually edit /etc/network/interface to take eth0 out of control of network manager (explicitely define the settings)
+2008-10-16T10:56:00.000Z	bzaks	matt__	how do I keep my eth0 utilized and running? Do I need to activate it using ifconfig in my .profile or something?
+2008-10-16T11:00:00.000Z	matt__	bzaks	 click on NetworkManager, goto manual config, and change the ethernet interface from "roaming mode" to dhcp or static

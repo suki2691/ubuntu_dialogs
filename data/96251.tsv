@@ -1,0 +1,4 @@
+2008-04-10T07:14:00.000Z	Elv1313		anybody know how to get the output of a bash command into a sting in CPP? I tried execclr, system() and few other, but they all return integer
+2008-04-10T07:15:00.000Z	ppibburr	Elv1313	you will need a pipe
+2008-04-10T07:16:00.000Z	Elv1313	ppibburr	how do i do that?
+2008-04-10T07:18:00.000Z	ppibburr	Elv1313	well i code in ruby, so im sure its different :) but running the command through system to direct the the output to a file, we can be loaded is one way i now would work, ruby has IO::popen Popen3::open3 :)

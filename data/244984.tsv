@@ -1,0 +1,4 @@
+2005-03-22T13:43:00.000Z	robzulah		I doenloaded the Kmud binary, but when I go to run it with ./kmud it says "./kmud: line 21: /home/zeppelin/kmud-1.0-linux-i386/bin/kmud: cannot execute binary file" any idea why?
+2005-03-22T13:44:00.000Z	DarthFrog	robzulah	What're the permissions on kmud?  Is it marked executable.
+2005-03-22T13:47:00.000Z	DarthFrog	robzulah	Open a terminal and issue the command "ls -l kmud*" in the directory that the kmud binary is installed in.
+2005-03-22T13:49:00.000Z	DarthFrog	robzulah	What do the first 10 characters say?  It should be something like rwxr_xr_x

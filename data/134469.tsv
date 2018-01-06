@@ -1,0 +1,4 @@
+2009-11-23T00:09:00.000Z	Plugh	xand_	If your machine isn't booting because of the bad grub install, boot from a rescue CD/DVD to gain access to the HD and fix/re-install grub.
+2009-11-23T00:21:00.000Z	xand_	Plugh	thats not the issue, my system is working fine
+2009-11-23T00:21:00.000Z	xand_	Plugh	my problem is just the names of device mapper devices. I want to change them
+2009-11-23T00:23:00.000Z	Plugh	xand_	You will need to lookup info on the mapper program. You have to be careful trying to change device names as they may also appear in /etc/fstab and in your grub boot configuration. If you don't change them all properly your machine may not boot properly.

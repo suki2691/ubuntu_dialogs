@@ -1,0 +1,4 @@
+2005-04-20T05:29:00.000Z	dle		hi.  I'm trying to use Synaptic to upgrade to hoary.  Doing Edit->Add CD-ROM... doesn't work as it always looks for it with /cdrom as mount point. Any suggestions?
+2005-04-20T05:31:00.000Z	Flonne	dle	it's a little more technical, but you could try hacking /etc/apt/sources.lst by hand to refer to the real mount point.
+2005-04-20T05:31:00.000Z	dle	SuperQ	I just did that with apt-cdrom, but Synaptic still looks at /cdrom for a mount point.
+2005-04-20T05:31:00.000Z	Flonne	dle	you could try using apt-get from the command line, then remove the changes from sources.list so you can return to Synaptic.

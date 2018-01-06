@@ -1,0 +1,4 @@
+2010-04-30T02:16:00.000Z	KEFIR		I've downloaded alternate cd, running update with gksu sh /cdrom/cdromupgrade, but in the middle of getting packages from the .iso updater still trying to connect to the internet and show an error about that. is that normal?
+2010-04-30T02:17:00.000Z	s3r3n1t7	KEFIR	if you've updated while connected to the internet and the package you're trying to get has released a new update in the repo's it will still download it from the repo's and not the alternate CD, since it's outdated on that package.
+2010-04-30T02:19:00.000Z	KEFIR	s3r3n1t7	I even tried to pull my internet cable out, how do updater realize files are outdated? how to turn off this?
+2010-04-30T02:19:00.000Z	s3r3n1t7	KEFIR	I"m not sure if you can to be honest. Some patience is probably best, or try switching a mirror

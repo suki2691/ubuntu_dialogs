@@ -1,0 +1,4 @@
+2009-09-16T01:15:00.000Z	feydr		been fighting upgrades on jaunty today.. short story is I lost my kernels and rebooted on accident -- wanting to install new kernel on mounted partition.... how would I go about doing that?
+2009-09-16T01:15:00.000Z	bgamari	feydr	chroot
+2009-09-16T01:16:00.000Z	feydr	bgamari	I figured... so I just need to maybe chroot /media/disk/ sudo apt-get dist-upgrade or something??
+2009-09-16T01:16:00.000Z	bgamari	feydr	yeah, perhaps explicitly install linux-image or something as well

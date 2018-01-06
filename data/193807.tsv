@@ -1,0 +1,4 @@
+2006-03-24T06:19:00.000Z	pvd2006		I opened a file and it got saved into the tmp folder. the file is a  .deb package file and I am trying to use sudo dpkg -i on it , but it says dpkg: status database area is locked by another process
+2006-03-24T06:20:00.000Z	dli__	pvd2006	another instance of apt is running? or died running
+2006-03-25T13:39:00.000Z	dli__	pvd2006	dpkg -i foo.deb, but you many want to use synaptic
+2006-03-25T13:44:00.000Z	dli__	pvd2006	in console, run: sudo apt-get -f install

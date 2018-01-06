@@ -1,0 +1,4 @@
+2005-05-29T11:19:00.000Z	mattlins		I asked this earlier, but had to run. How do I run a rpm for the Java sdk 1.4.2_8?  I just need the command.  I tried rpm <java_sdk.rpm>
+2005-05-29T11:20:00.000Z	MobyTurbo	mattlins	alien would work, but it's better to download the bin, apt-get install java-package, then run "fakeroot make-jpkg j2sdk-foo.bin"
+2005-05-29T11:24:00.000Z	MobyTurbo	mattlins	the Ubuntu way is to use sudo
+2005-05-29T11:36:00.000Z	MobyTurbo	mattlins	get the bin, not the rpm, install java-package and make a deb to dpkg -i using java-package.

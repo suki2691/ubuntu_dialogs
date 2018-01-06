@@ -1,0 +1,4 @@
+2007-01-15T16:08:00.000Z	kobra		actually that tells only how to install fonts through multiverse etc but what if addl fonts have to be installed ? I tried copying into the fonts dir but  to no avail
+2007-01-15T16:09:00.000Z	thoreauputic	kobra	ttf fonts --> ~/.fonts  ( note the dot)
+2007-01-15T16:15:00.000Z	kobra	thoreauputic	: sorry but it is not working ! I have copied the fonts to /usr/share/fonts dir as well as ~/.fonts , what else could be wrong ?
+2007-01-15T16:16:00.000Z	thoreauputic	kobra	try running sudo dpkg-reconfigure fontconfig

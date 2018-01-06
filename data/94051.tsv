@@ -1,0 +1,4 @@
+2008-04-22T09:02:00.000Z	corny		I am setting up a computer with a Gutsy 64-bit and a Broadcom BCM94311 Wireless card. I have tried ndiswrapper using several different drivers and have tried bcm43xx-fwcutter with almost every driver available. Does anyone have any other ides to get this wireless card working?
+2008-04-22T09:03:00.000Z	kuda	corny	i had success with the broadcom drivers using the restricted driver manager on 32 bit, but i don't have the model of the card i used off hand.
+2008-04-22T09:06:00.000Z	corny	kuda	did you use the default linux driver with the restricted driver or did you go to one of the other ones?
+2008-04-22T09:07:00.000Z	kuda	corny	i used the default driver. I had less throughput than my equivalent intel card that was natively supported, but it did work.

@@ -1,0 +1,4 @@
+2009-05-08T18:16:00.000Z	zealiod		im using a shell script - how come this gives me an empty line?
+2009-05-08T18:16:00.000Z	zealiod		set seren_ver = "1.1"
+2009-05-08T18:16:00.000Z	zealiod		echo 1>&2 $seren_ver
+2009-05-08T18:17:00.000Z	hggdh	zealiod	echo $serev_ver 2>&1 (although I do not know why the redirection)

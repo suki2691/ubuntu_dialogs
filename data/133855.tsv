@@ -1,0 +1,4 @@
+2007-05-26T09:30:00.000Z	Rawr2		Can I run compiz/beryl without xgl?
+2007-05-26T09:31:00.000Z	Rawr2		<--has an Intel graphics card... enough to run compiz/xgl?
+2007-05-26T09:33:00.000Z	non|linear	Rawr2	what driver are you using?
+2007-05-26T09:36:00.000Z	non|linear	Rawr2	the i915 drivers supp'ort the card better, but they result in conflicts with some lib files and there isn't much info on the web about how to fix it... basically uninstall all the irrelevant xserver.xorg.video.CARD drivers and dri will work again

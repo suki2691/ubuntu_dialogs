@@ -1,0 +1,4 @@
+2010-09-14T19:10:00.000Z	votan		Hi, is there a reason why I get "Permission denied" when I do "sudo echo 1 > /proc/sys/net/ipv4/ip_forward" ?
+2010-09-14T19:10:00.000Z	jellow	votan	do sudo -i then try
+2010-09-14T19:10:00.000Z	jellow	votan	you need root
+2010-09-14T19:11:00.000Z	votan	jellow	worked, thanks. I thought sudo would suffice

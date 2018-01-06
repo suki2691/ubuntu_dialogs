@@ -1,0 +1,4 @@
+2009-02-22T11:18:00.000Z	Myst		Does anyone know how to have the DHCP server assign a specific IP address depending on your mac address?
+2009-02-22T11:20:00.000Z	unop	Myst	  hardware ethernet de:ad:be:ef:ca:fe;
+2009-02-22T11:20:00.000Z	unop	Myst	have a look in your /etc/dhcp3/dhcpd.conf
+2009-02-22T11:22:00.000Z	Myst	unop	im in the dhcpd.conf file, do i need to add a line in the range or...

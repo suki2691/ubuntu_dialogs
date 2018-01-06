@@ -1,0 +1,4 @@
+2012-07-09T11:11:00.000Z	Erealz		hi everyone quick question , how do i get my self permission to a file dir that i cant cd into useing chmod?
+2012-07-09T11:12:00.000Z	Erealz		hi everyone quick question , how do i get my self permission to a file dir that i cant cd into? useing chmod?
+2012-07-09T11:13:00.000Z	ruiwen	Erealz	if that directory belongs to the group you're in and you have root/sudo, you can chmod it to be group executable/readable
+2012-07-09T11:15:00.000Z	ruiwen	Erealz	chmod g+x dirname

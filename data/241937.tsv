@@ -1,0 +1,4 @@
+2007-07-15T07:57:00.000Z	tomer		ok so now with this upstart system
+2007-07-15T07:57:00.000Z	tomer		how do we make ubuntu not start the X system on boot up?
+2007-07-15T07:57:00.000Z	tomer		previously the inittab took care of it
+2007-07-15T07:58:00.000Z	astro76	tomer	/etc/event.d/rc-default

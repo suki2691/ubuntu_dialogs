@@ -1,0 +1,4 @@
+2007-09-22T16:56:00.000Z	ShackJack		SO I'm running a block check on my data partition with e2fsck -c .. It got up to block 1 million or so and is spatting out "exception emask" and Buffier I/O error on device at logical block 1[xxxxxx]  - is this just a process of finding the bad blocks and marking them, or is it unable to mark the blocks because of these errors?
+2007-09-22T16:57:00.000Z	bascule	ShackJack	sounds like a nasty drive read problem
+2007-09-22T16:58:00.000Z	ShackJack	bascule	dappermuis: Seems to work fine otherwise... (i.e. if I skip he forced fsck - which spat out those errors originally... everything seems to work)
+2007-09-22T16:59:00.000Z	bascule	ShackJack	I am glad about that

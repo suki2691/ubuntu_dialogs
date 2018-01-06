@@ -1,0 +1,4 @@
+2012-11-04T15:49:00.000Z	bond___		i am using this command for local port forwading: ssh -f amitsingh@10.22.254.75 -L *:9903:10.22.254.75:22 -N and getting following errors: bind: Address already in use;   channel_setup_fwd_listener: cannot listen to port: 9903;   Could not request local forwarding. Can anybody help me?
+2012-11-04T15:49:00.000Z	bekks	bond___	That named port is already in use.
+2012-11-04T15:50:00.000Z	bekks	bond___	Either find out why it is used (lsof -i) or use another port.
+2012-11-04T15:50:00.000Z	bond___	bekks	i changed it to many.. and i crosschecked it through netstat command also

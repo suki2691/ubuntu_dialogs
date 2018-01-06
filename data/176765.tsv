@@ -1,0 +1,4 @@
+2006-09-26T14:09:00.000Z	fulat2k		anyone knows why i'm not able to extend a volume group in ubuntu lvm?
+2006-09-26T14:10:00.000Z	fulat2k		i've done pvcreate, but vgextend rootvol /dev/hdd8 says that it can't determine that /dev/hdd8 is a physical partition.
+2006-09-26T14:12:00.000Z	ootput	fulat2k	it's been a while since i last used lvm(2), but shouldn't you be adding hdd8 to the physical volume, rather than the volume group?
+2006-09-26T14:15:00.000Z	fulat2k	ootput	from what i've read, u use pvcreate to create the physical volume and then assign the physical volume to a volume group.  then u redistribute the space to the logical volumes from there

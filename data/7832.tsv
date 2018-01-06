@@ -1,0 +1,4 @@
+2012-01-19T22:58:00.000Z	javier_faj		Hi! I installed in "ubuntu software center" a program called MrBayes. It uses a text file (.nxs) which in windows version must be placed in the folder where MrBayes files are. How can I do that in ubuntu? Where are my Mr.Bayes files and folders? Where can I place my text file so it can be used by the program? Thanks for any suggestion!
+2012-01-19T22:59:00.000Z	zykotick9	javier_faj	see if you have a ~/mrbayes or ~/.config/mrbayes folder(s) [i've never used the program/game so not sure, i'm only giving general suggestion]
+2012-01-19T23:01:00.000Z	javier_faj	zykotick9	thanks for your suggestion. There is no mrbayes folder in /home (I think there is where you meant), neither in .config. Hope someone else has another suggestion!
+2012-01-20T00:18:00.000Z	zykotick9	javier_faj	you could check "dpkg -S mrbayes" to see where it installed files to perhaps?

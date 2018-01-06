@@ -1,0 +1,4 @@
+2005-10-19T16:52:00.000Z	sally_		I am trying to add a cd source in "add applications" but it keeps saying unable to get exclusive lock, this is in breezy, has anyone seen this or know how I can fix it?
+2005-10-19T16:53:00.000Z	josh43	sally_	This means something else is using apt-get.. is aynaptic open?
+2005-10-19T16:53:00.000Z	sally_	josh43	ps fax |grep synaptic shows nothing
+2005-10-19T16:54:00.000Z	josh43	sally_	Not sure then.. if it cant lock it means something else locked it

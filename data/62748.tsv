@@ -1,0 +1,4 @@
+2009-04-02T10:40:00.000Z	keith		Does anyone know where I can find the source code for dumpe2fs?
+2009-04-02T10:41:00.000Z	iceroot	keith	if the deb is in the repos, you will find the source there also (maybe you have to enable the src repo)
+2009-04-02T10:46:00.000Z	keith	iceroot	all I can find is e2fslibs-dev which is not what I want, right?
+2009-04-02T10:47:00.000Z	iceroot	keith	enable src in repos (add to end of line) sudo apt-get update  and then you will find the source-code (imo)

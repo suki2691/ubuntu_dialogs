@@ -1,0 +1,4 @@
+2008-12-06T03:32:00.000Z	isleshocky77		I don't know if it was a bad mount, but I now have a remnent directory left where I normally mount an external drive.  I can't delete it or ls. I get this: "ls: cannot access SDO Large: Input/output error"  Any ideas on how to get rid of it?
+2008-12-06T03:32:00.000Z	isleshocky77		ls of it's parent directory returns a listing like this: "d?????????  ? ?    ?       ?                ? SDO Large"
+2008-12-06T03:33:00.000Z	gnutron	isleshocky77	you need to chmod 755 the-directory/  sudo may need to preceed the command.
+2008-12-06T03:34:00.000Z	isleshocky77	gnutron	"chmod: cannot access `SDO Large': Input/output error"

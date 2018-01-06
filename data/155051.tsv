@@ -1,0 +1,4 @@
+2010-07-06T23:57:00.000Z	drew212		is there a way to actively back up my home folder into a separate location on a different HDD in case my current drive fails?
+2010-07-06T23:58:00.000Z	Kyle__	drew212	Like Roasted said, lots of ways.  Either write yoruself a backup script, or use backula, or backuppc, or amanda, or any one of the other dozens of backup programs out there.
+2010-07-07T00:14:00.000Z	Kyle__	drew212	crontab for timed (every 12 hours), on startup... doesn't ubuntu have an /etc/rc.startup, or something like that.
+2010-07-07T00:16:00.000Z	Kyle__	drew212	/etc/rc.local :) put your on-start script in there.

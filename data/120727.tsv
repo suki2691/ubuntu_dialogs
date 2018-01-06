@@ -1,0 +1,4 @@
+2011-07-03T02:58:00.000Z	tigerplug292		I have purchased a new hard drive for my laptop and an external enclosure. Wondering the best way to transfer my current install onto this new drive via external enclosure before installing in laptop?
+2011-07-03T02:58:00.000Z	th0r	tigerplug292	if you can mount the external, dd can copy the internal to it
+2011-07-03T02:58:00.000Z	tigerplug292	th0r	dd ?
+2011-07-03T02:59:00.000Z	th0r	tigerplug292	assuming the internal is /dev/sda, and the external is /dev/sdb, I think it is simply 'dd if=/dev/sda of=/dev/sdb'. I hope someone else will chime in if that is wrong

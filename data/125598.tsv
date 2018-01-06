@@ -1,0 +1,4 @@
+2007-08-28T16:08:00.000Z	yamyogurt		quick question whats the command to mount an iso image?
+2007-08-28T16:08:00.000Z	cosmodad	yamyogurt	mount -o loop
+2007-08-28T16:08:00.000Z	cosmodad	yamyogurt	more specifically: mount -t iso9660 -o loop /dev/cdrom <mountpoint>
+2007-08-28T16:10:00.000Z	yamyogurt	cosmodad	thanks alot

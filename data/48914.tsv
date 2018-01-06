@@ -1,0 +1,4 @@
+2009-09-13T06:32:00.000Z	settntrenz		in debian/ubuntu I understand that update-rc.d is the redhat equivalent to chkconfig for adding and removing services within systemV. After scanning the man page it appears that it doesn't have something like chkconfig --list. What command can I use to achieve that?
+2009-09-13T06:34:00.000Z	kd8JHC	settntrenz	invoke-rc.d possibly?
+2009-09-13T06:36:00.000Z	settntrenz	kd8JHC	Just checked the man page, perhaps I'm missing something... would you be so kind as to provide an example to list which services are set to run at various runlevels?
+2009-09-13T06:41:00.000Z	kd8JHC	settntrenz	ls /etc/rc0.d will list procs running at rl 0

@@ -1,0 +1,4 @@
+2006-07-30T15:11:00.000Z	timalot		ok i dont know the "debian way" of doing it but... install scipts go in /etc/init.d/ ...
+2006-07-30T15:11:00.000Z	timalot		boot scripts
+2006-07-30T15:12:00.000Z	frogzoo	timalot	/etc/rc2.d/   is what's used be default - symlinked to /etc/init.d/
+2006-07-30T15:13:00.000Z	timalot	frogzoo	right... eLoC , then u link to the file in the init.d from /etc/rc2.d

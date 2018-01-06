@@ -1,0 +1,4 @@
+2012-04-27T04:46:00.000Z	krej		Hello. I just installed 12.04 amd64 on my desktop and it didn't automatically add Windows to grub. How can I fix that?
+2012-04-27T04:47:00.000Z	zykotick9	krej	from a terminal try "sudo update-grub" and see if it automatically adds it.
+2012-04-27T04:48:00.000Z	krej	zykotick9	I ran that and it said it found a linux, initrd, and memtest86+ image, but it doesn't look like it found Windows.
+2012-04-27T04:49:00.000Z	zykotick9	krej	sorry man, that's my only suggestion.  good luck.

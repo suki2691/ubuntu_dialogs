@@ -1,0 +1,4 @@
+2008-10-28T03:47:00.000Z	fsanlu		hey guys, quick question. where are the apps installed? i need to get the path for vlc.. and i cant find it
+2008-10-28T03:48:00.000Z	Jowi	fsanlu	"dpkg -L packagename" will tell you where everything in the package is installed. "which programname" will tell you where the executable is
+2008-10-28T03:49:00.000Z	fsanlu	Jowi	thanks!!!
+2008-10-28T03:49:00.000Z	Jowi	fsanlu	so "which vlc" should say /usr/bin/vlc and "dpkg -L vlc" will tell you more than you want to know.

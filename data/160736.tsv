@@ -1,0 +1,4 @@
+2011-08-16T03:59:00.000Z	dequeued		I wouldn't think so either, ActionParsnip
+2011-08-16T03:59:00.000Z	dequeued		but there it is..
+2011-08-16T04:01:00.000Z	Jordan_U	dequeued	ActionParsnip: EFI allows you to set the default OS from within the booted system, and this default is a specific EFI executable rather than just a drive. grub-install, when using grub-efi and efibootmgr is available, sets grub (using the supplying distribution's name) as the default.
+2011-08-16T04:02:00.000Z	Jordan_U	dequeued	Note though that that is all it does as far as firmware is converned, only the default preference is saved. GRUB itself (and all the rest of Ubuntu) still reside only on the hard drive.

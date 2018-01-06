@@ -1,0 +1,4 @@
+2010-08-31T15:15:00.000Z	Zikey		Hi, do you know how to stop the boot of a ubuntu server to drop to command line (without starting everything) ?
+2010-08-31T15:15:00.000Z	iceroot	Zikey	/sbin/start-stop-daemon  override the start-option, so no deamons are starting
+2010-08-31T15:16:00.000Z	Zikey	pLr	you mean boot from recovery cd ?
+2010-08-31T15:16:00.000Z	iceroot	Zikey	but make a backup first and remeber also ssh is not starting with that

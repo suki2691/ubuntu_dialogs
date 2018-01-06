@@ -1,0 +1,4 @@
+2006-12-03T11:36:00.000Z	magusknight		how do i uninstall nvidia drivers it keeps telling me that i need x sever
+2006-12-03T11:37:00.000Z	nolimitsoya	magusknight	sudo apt-get remove nvidia-glx
+2006-12-03T11:46:00.000Z	nolimitsoya	magusknight	edit your xorg.conf, or run nvidia-glx-config if youve recently installed nvidia-glx
+2006-12-03T11:55:00.000Z	nolimitsoya	magusknight	/etc/X11/xorg.conf

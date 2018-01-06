@@ -1,0 +1,4 @@
+2010-09-08T13:23:00.000Z	DIFTOW		Hey, I have a quick question. I have 8 GB of system ram. How much HDD partition space for Swap drive?
+2010-09-08T13:24:00.000Z	DIFTOW		Desktop, and yes.
+2010-09-08T13:25:00.000Z	rww	DIFTOW	if you want hibernation, you need as much contiguous swap space as memory you'll be using. so, to be on the safe side, 8GB or more.
+2010-09-08T13:25:00.000Z	rww	DIFTOW	assuming you're not tight on hard-disk space, I'd throw a little bit extra on there, just to avoid the partition creator rounding down and messing things up

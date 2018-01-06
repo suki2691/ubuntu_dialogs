@@ -1,0 +1,4 @@
+2007-02-22T08:21:00.000Z	jens		little question, when I want to remove some default packages like bittorrent, I cant do it because it shows me a dependency on ubuntu-desktop (which I believe is very important package)
+2007-02-22T08:22:00.000Z	shatrat	jens	ubuntu-desktop is a metapackage, if you remove any of the default programs you lose it, but you will still have all the other individual packages.
+2007-02-22T08:22:00.000Z	jens	shatrat	thx :-)
+2007-02-22T08:23:00.000Z	shatrat	jens	I think removing default packages can be a problem for upgrading distributions though, so I wouldnt remove it unless you really want to.  although I guess you can just reinstall ubuntu-desktop later

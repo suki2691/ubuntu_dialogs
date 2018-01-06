@@ -1,0 +1,4 @@
+2011-01-30T05:50:00.000Z	a3ther_	maciej_	'hdparm' will spin down the disks with either a -y or -Y check what they do with 'hdparm --help', you probably want to do 'sudo hdparm -y /dev/YOURDISK'
+2011-01-30T06:09:00.000Z	a3ther_	maciej_	'sudo hdparm -Y /dev/EXTERNALDRIVE' replace external drive with the correct sdX
+2011-01-30T06:13:00.000Z	a3ther_	maciej_	try with a lower case -y. how old is the drive? im reading that hdparm -y/-Y only works with newer USB drives
+2011-01-30T06:19:00.000Z	a3ther_	maciej_	http://www.nslu2-linux.org/wiki/FAQ/SpinDownUSBHarddisks

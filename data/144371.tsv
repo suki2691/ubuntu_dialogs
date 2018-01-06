@@ -1,0 +1,4 @@
+2008-08-20T00:18:00.000Z	minus198		Hi.. How do I install a new network card? I plugged it in and ran: "modprobe e1000" but then what?
+2008-08-20T00:19:00.000Z	Jowi	minus198	gksudo network-admin is the easiest way
+2008-08-20T00:20:00.000Z	minus198	Jowi	I'm not running a GUI, so non graphical stuff is the only thing I can run..
+2008-08-20T00:22:00.000Z	Jowi	minus198	conf file is /etc/network/interfaces - man interfaces for description

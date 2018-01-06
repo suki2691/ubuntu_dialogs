@@ -1,0 +1,4 @@
+2010-06-25T16:16:00.000Z	X-Raimo1		hello we have domain sfw.local and loca dns server. The client is ubuntu. If we put www.sfw.local in firefox it makes query to MDNS 244.0.0.1 instead of our local DNS (which authorative for sfw.local). Why?
+2010-06-25T16:17:00.000Z	ikonia	X-Raimo1	look in your network manager config to see what dns servers ubuntu is setup to use
+2010-06-25T16:19:00.000Z	X-Raimo1	ikonia	first - our local DNS, second - ISP's DNS
+2010-06-25T16:19:00.000Z	ikonia	X-Raimo1	ok - so it should only query those two servers

@@ -1,0 +1,4 @@
+2011-06-25T02:34:00.000Z	ubun		I need help... i was trying to do this command "cp -p ~/Desktop/easycap_dc60.x.y.tar.gz" but this was output "cp: missing destination file operand after `/home/tobe/Desktop/easycap_dc60.0.0.tar.gz' Try `cp --help' for more information. "
+2011-06-25T02:34:00.000Z	oCean	ubun	the desktoplocation is where you copy the file.x.y.tar.gz from. But where do you want it to copy to? (destination)
+2011-06-25T02:37:00.000Z	ubun	oCean	@Brandano @ZykotiK9: I want to copy it to a directory.  i did this "mkdir ~/EASYCAP"
+2011-06-25T02:37:00.000Z	oCean	ubun	so, use   cp -p ~/Desktop/easycap_dc60.x.y.tar.gz ~/EASYCAP

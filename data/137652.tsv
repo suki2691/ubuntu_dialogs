@@ -1,0 +1,4 @@
+2011-11-10T21:23:00.000Z	Laurenceb		ok, power cycling adaptor worked
+2011-11-10T21:23:00.000Z	Laurenceb		but now sudo rfcomm connect 3 --raw Can't connect RFCOMM socket: Device or resource busy
+2011-11-10T21:23:00.000Z	llutz	Laurenceb	rfcomm -a
+2011-11-10T21:24:00.000Z	llutz	Laurenceb	rfcomm release 3 && rfcomm connect 3

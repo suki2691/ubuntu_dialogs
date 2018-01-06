@@ -1,0 +1,4 @@
+2005-01-19T10:50:00.000Z	krischan		guys, a kernel question: in order to install a certain software, it is required to have those kernel-headers installed that match my kernel. 'uname -a' reveals that I'm using kernel 2.6.8.1-3-386 #1, but the most recent kernel-headers package I can find in Synaptic is 2.6.7-1. What do I do?
+2005-01-19T10:50:00.000Z	crimsun	krischan	install linux-headers-`uname -r`
+2005-01-19T10:50:00.000Z	crimsun	krischan	kernel-headers-foo is for Debian (and in 'universe'); linux-headers-foo is for Ubuntu
+2005-01-19T10:53:00.000Z	krischan	crimsun	Thanks for that hint! I wasn't aware of it. And of course I lov ya! :-)

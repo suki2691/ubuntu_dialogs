@@ -1,0 +1,4 @@
+2008-11-23T17:40:00.000Z	blackpearl		how can i remove folders in /media ?? i created one earlier with mkidir  BUT now i want to delete it
+2008-11-23T17:41:00.000Z	defrysk	blackpearl	sudo rm -rf /path/to/folder
+2008-11-23T17:42:00.000Z	blackpearl	jrib	: i created mkdir /media/usbdisk ...now i want to delete usbdisk folder
+2008-11-23T17:44:00.000Z	defrysk	blackpearl	usb stuff should mount automagically in /media as most stuff is automounted in /media , use /mnt for manually added stuff to mount

@@ -1,0 +1,4 @@
+2011-10-10T14:44:00.000Z	vsync_		Could someone point me in the right direction here... After an upgrade, my grub seems to fail... It displays a "no such device" + apparently an UUID -error, and goes into rescue prompt
+2011-10-10T14:45:00.000Z	vsync_		Getting sort of tired with having to manually set paths and images for boot =e
+2011-10-10T14:45:00.000Z	Atlantic777	vsync_	try withou UIDS, it can work.
+2011-10-10T14:47:00.000Z	vsync_	Atlantic777	yeah, but was wondering if there's a way to change the grub.cfg automatically to replace uuid's with /dev/sdxy?

@@ -1,0 +1,4 @@
+2005-01-02T06:57:00.000Z	Falc		I'm new to Ubuntu and I was trying to install vlc earlier. Now, while searching the web I found the actual directory of the repository, containing both 0.7.2 versions and 0.8 versions. However, when I added the repository to synaptic, only the 0.7.2 showup, any idea how I can get the other ones to show up?
+2005-01-02T06:58:00.000Z	andreasvc	Falc	just uncomment the universe line in /etc/apt/sources.list
+2005-01-02T07:00:00.000Z	Falc	andreasvc	I did, that's why I can see the 0.7.2 versions, but the others are in the exact same dir in the repository and don't show in synaptic...
+2005-01-02T07:15:00.000Z	andreasvc	Falc	deborphan

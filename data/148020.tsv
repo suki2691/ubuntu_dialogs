@@ -1,0 +1,4 @@
+2007-03-05T11:39:00.000Z	kelsin	kingcobr1	it's iwlist rausb0 scan
+2007-03-05T11:41:00.000Z	kelsin	kingcobr1	two steps: "iwconfig rausb1 essid <essid-name>", then "dhclient rausb0"
+2007-03-05T11:42:00.000Z	kelsin	kingcobr1	replace <essid-name> with the essid of the router you want to connect to
+2007-03-05T11:42:00.000Z	kelsin	kingcobr1	the first command connects your card to the router, the second requests an IP address

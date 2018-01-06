@@ -1,0 +1,4 @@
+2012-08-14T05:20:00.000Z	nina666		anyways this is my question: hi.. I want to find a pattern in a text file, and read all lines after the pattern untill the end of the file.. so far what I have is sed -n '/myPattern/ {n;p;}' file.txt but this will only print the next line, not all lines.. any better solution?
+2012-08-14T05:20:00.000Z	bobweaver	nina666	 look up {##;}
+2012-08-14T05:20:00.000Z	bobweaver	nina666	 for bash of cource
+2012-08-14T05:21:00.000Z	bobweaver	nina666	Parameter Expansion expands parameters: "$foo", "$1". You can use it to perform string or array operations: "${file%.mp3}", "${0##*/}", "${files[@]: -4}". They should *always* be quoted. See: http://mywiki.wooledge.org/BashFAQ/073

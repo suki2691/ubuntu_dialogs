@@ -1,0 +1,4 @@
+2007-10-13T11:00:00.000Z	zeddicus		Ok I have a question that I can't find an answer to. What does modprobe do?
+2007-10-13T11:02:00.000Z	zeddicus		Everytime my system boots I have to do modprobe bcm43xx, I'm trying to figure out how to make it so I don't have to do that so is there a utility or something I can run to add that command to boot sequence?
+2007-10-13T11:03:00.000Z	larson9999	zeddicus	if i'm not mistaken, that's blacklisted by default.
+2007-10-13T11:06:00.000Z	larson9999	zeddicus	oh, no it's not.  add it to /etc/modprobe.conf will make it start on booting.

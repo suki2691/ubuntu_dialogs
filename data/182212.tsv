@@ -1,0 +1,4 @@
+2006-06-02T10:30:00.000Z	stefg		Does anyone else experience an approx. 20 sec. delay at boottime, usplash saying 'mounting root fs...' (No, this is not dhcp related, happens much earlier in boot-sequence)
+2006-06-02T10:30:00.000Z	SeeHelpForDetail	stefg	what file sysetm i /
+2006-06-02T10:30:00.000Z	SeeHelpForDetail	stefg	ReiserFs takes quite a while
+2006-06-02T10:32:00.000Z	stefg	SeeHelpForDetail	Hmmm, 1.) That didn't happen with the 2.5.15-20-k7 kernel, or with breezy 2.) root is only 5GB, reiserfs won't take 20 sec. to mount that... no, must be something different

@@ -1,0 +1,4 @@
+2006-05-21T06:33:00.000Z	Rhine		When i add this to fstab /dev/hda1    /media/hda1    ntfs-fuse    auto,gid=1002,umask=0002    0    0 i get I/O errors on boot i think it is the umask?!
+2006-05-21T06:35:00.000Z	ompaul	Rhine	what is ntfs-fuse ? ntfs is a supported mount type
+2006-05-24T05:33:00.000Z	ompaul	Rhine	you include it in /etc/fstab
+2006-05-24T05:34:00.000Z	ompaul	Rhine	he gave you an "or" question maybe give more info :-)

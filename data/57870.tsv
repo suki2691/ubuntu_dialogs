@@ -1,0 +1,4 @@
+2009-06-03T01:02:00.000Z	jdu		I'm interested in advice regarding disabling e2fscks of / filesystem; is this ok?  Basically, I'm editing someone else's script that installs/clones ubuntu systems and this is something it does.
+2009-06-03T01:03:00.000Z	fccf	jdu	totally unreccommended - e2fscks is  a filesystem check - checking for errors on a partition... if you install on a bad partition and don't check it - you will lose data
+2009-06-03T01:04:00.000Z	jdu	fccf	that's along the lines I was thinking.  For that matter, would you suggest I edit the script to run e2fsck on each system that is installed?
+2009-06-03T01:05:00.000Z	fccf	jdu	Probably wise

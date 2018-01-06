@@ -1,0 +1,4 @@
+2011-05-16T18:58:00.000Z	GJohanns		Hello, I have a projector hooked to a Ubuntu box that I would like to do a "remote desktop in reverse" on. (The guest would connect to the Ubuntu box, and the Ubuntu box would display the clients desktop.) Anyone know of software to do this?
+2011-05-16T19:00:00.000Z	GJohanns		I have looked at VNC, they have a portion of there project that does this. but it requires the client to install the server version of VNC. I am looking for something more elegant if it is out there.
+2011-05-16T19:00:00.000Z	DasEi	GJohanns	other way around, establish a vnc (maybe teamview) from the projectors box to the client, there you are
+2011-05-16T19:02:00.000Z	DasEi	GJohanns	ssh -X also works, case not enough bandwith

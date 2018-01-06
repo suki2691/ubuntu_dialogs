@@ -1,0 +1,4 @@
+2006-03-23T13:42:00.000Z	sfar-ubu		when i do "apt-get update" it seems to work.. but in the end it says
+2006-03-23T13:42:00.000Z	sfar-ubu		W: Duplicate sources.list entry http://archive.ubuntu.com breezy/universe Packages (/var/lib/apt/lists/archive.ubuntu.com_ubuntu_dists_breezy_universe_binary-i386_Packages)
+2006-03-23T13:43:00.000Z	sfar-ubu		how to fix? :)
+2006-03-23T13:43:00.000Z	iXce	sfar-ubu	=> edit your /etc/apt/sources.list and remove duplicate entries

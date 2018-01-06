@@ -1,0 +1,4 @@
+2009-03-24T21:35:00.000Z	andypatches		orifice: after tagging all the files with chmod g+w and g+r, the icon that represents non-ownership of the files still remain
+2009-03-24T21:35:00.000Z	andypatches		and has been applied to all subfolders
+2009-03-24T21:36:00.000Z	mhall119	andypatches	g+w and g+r don't change the ownership of a file, just the access permissions for the group
+2009-03-24T21:42:00.000Z	mhall119	andypatches	chmod -R

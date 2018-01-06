@@ -1,0 +1,4 @@
+2009-07-13T02:55:00.000Z	rainwalker		trying to view the "processes" tab in System Monitor closes it...what should I do?
+2009-07-13T02:57:00.000Z	VCoolio	rainwalker	run gnome-system-monitor from a terminal, do the same and check if there is a comprehensible error message
+2009-07-13T03:07:00.000Z	rainwalker	VCoolio	when I launch it with the terminal, it says "SELinux was found was but is not enabled." and when I click the processes tab it tells me there was a segmentation fault
+2009-07-13T03:08:00.000Z	VCoolio	rainwalker	that's not really helping. Sorry. Use top or htop in terminal; you'll need to install the latter but that´s the easiest to use.

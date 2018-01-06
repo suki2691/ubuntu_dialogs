@@ -1,0 +1,4 @@
+2010-11-20T07:14:00.000Z	magicjoe		hi. i need a little help. my ubuntu starts to boot and then says, cannot display this video mode. i screwed up and turned it up too high and rebooted. problem is if i cant get back in, how do change it back?
+2010-11-20T07:15:00.000Z	magicjoe		i booted into recovery mode, and have a root shell prompt
+2010-11-20T07:16:00.000Z	magicjoe		in gnome
+2010-11-20T07:16:00.000Z	aarcane	magicjoe	try mv /etc/X11/xorg.conf /etc/X11/xorg.conf.bak and shutdown -r now

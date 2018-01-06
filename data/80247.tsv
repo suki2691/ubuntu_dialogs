@@ -1,0 +1,4 @@
+2010-06-20T14:18:00.000Z	wgwinn		Using kubuntu 10.04 , realtek 8169 gigabit nic, it registers as 'link down' in dmesg; ifup -a as root gives no response. where can i get better information on what it is/isnt doing? windows was connected finewhen i rebooted run the installer, swapped cables with a known good device, no change
+2010-06-20T14:19:00.000Z	Walex	wgwinn	'sudo /sbin/ethtool eth0'
+2010-06-20T14:20:00.000Z	wgwinn	Walex	ethtool not installed. apt-get.. not very useful w/o net.
+2010-06-20T14:21:00.000Z	wgwinn	Walex	i did in fact grab the ethtool source via thumbdrive, didnt see a compiled version on ubuntu's site, but.. no compiler.

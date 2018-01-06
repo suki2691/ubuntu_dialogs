@@ -1,0 +1,4 @@
+2009-12-26T00:43:00.000Z	Datz		Hi, I am having a problem with my graphics card driver.  I just installed my NVIDIA 6600 card, and the driver, restarted, but there is a message indicating that the card and the monitor could not be detected. Can someone help me with this?
+2009-12-26T00:44:00.000Z	Joe__	Datz	I normally have to install Nvidia drivers manually
+2009-12-26T00:45:00.000Z	Joe__	Datz	just go to nvidia's site, and find the right driver for your card and platform
+2009-12-26T00:46:00.000Z	Joe__	Datz	after that, hit ctrl-alt-f1 to get a console window (write this down, as you won't be able to come back), login and type "sudo service gdm stop" then browse to where you saved the driver (default is ~/Desktop) and type "sudo sh NVIDIA..." fill in the name, follow the prompts.  When done just type "sudo service gdm start" and you should be good

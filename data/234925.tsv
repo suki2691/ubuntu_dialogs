@@ -1,0 +1,4 @@
+2005-07-03T08:18:00.000Z	apollo2011	marcin_ant	the command is umount
+2005-07-03T08:18:00.000Z	apollo2011	marcin_ant	and you have to do it in sudo
+2005-07-03T08:19:00.000Z	apollo2011	marcin_ant	sounds like you attempted to start punmount, a script that requires root access when you really wanted to start umount
+2005-07-03T08:20:00.000Z	marcin_ant	apollo2011	well right but maybe I just should add something to /etc/fstab and enable this to users (not sudoers?)

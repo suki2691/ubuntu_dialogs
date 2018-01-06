@@ -1,0 +1,4 @@
+2009-05-07T02:44:00.000Z	jdu	sharperguy	only way I know would be to disable the screensaver.
+2009-05-07T02:45:00.000Z	sharperguy	jdu	:( is there not an automatic way to do it like with totem?
+2009-05-07T02:46:00.000Z	jdu	sharperguy	perhaps you could get firefox to run something like:  gconftool-2 --type bool --set /apps/gnome-screensaver/idle_activation_enabled "false"  when it enters full screen mode.
+2009-05-07T02:47:00.000Z	jdu	sharperguy	and then gconftool-2 --type bool --set /apps/gnome-screensaver/idle_activation_enabled "true"  when it exits full screen

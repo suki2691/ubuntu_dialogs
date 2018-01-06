@@ -1,0 +1,4 @@
+2008-02-13T11:16:00.000Z	Agent_bob		!wifi | emory
+2008-02-13T11:16:00.000Z	emory	Agent_bob	its not wireless... anywhere else I can look?
+2008-02-13T11:17:00.000Z	Agent_bob	emory	page still might help
+2008-02-13T11:18:00.000Z	Agent_bob	emory	lspci | grep -i network     or  lshw -C Network     either might reviel the card/chip

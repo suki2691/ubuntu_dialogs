@@ -1,0 +1,4 @@
+2006-08-05T16:26:00.000Z	bob_		Does anyone know how to mount multiple windows partitions? I use this command ( sudo mount /dev/hdd1 /media/windows/ -t ntfs -o nls=utf8,umask=0222 )but it only mounts one partition at a time. My two windows partitions show up as hdd1 and hdd5 when I do ( sudo fdisk ) command.
+2006-08-05T16:26:00.000Z	dooglus	bob_	you can separate shell commands with a semicolon
+2006-08-05T16:27:00.000Z	dooglus	bob_	use a different directory in /media for the 2nd one, or it will be mounted over the first one
+2006-08-05T16:27:00.000Z	dooglus	bob_	"sudo mkdir /media/windows2" or something to make the 2nd directory

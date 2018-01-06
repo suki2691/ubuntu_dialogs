@@ -1,0 +1,4 @@
+2006-11-12T11:15:00.000Z	dk0r		Can someone please discuss with me the following: 'sudo tar -C /opt -zxvf firefox-2.0.tar.gz'   I do not understand -C and -zxvf
+2006-11-12T11:15:00.000Z	roryy	dk0r	-C means that the archive will be extracted into /opt
+2006-11-12T11:16:00.000Z	roryy	dk0r	and -zxvf means, in order, decompress, extract, be verbose and use the following file
+2006-11-12T11:16:00.000Z	roryy	dk0r	indeed, reading 'man tar' is a good idea

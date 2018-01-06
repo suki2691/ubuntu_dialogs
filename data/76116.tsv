@@ -1,0 +1,4 @@
+2010-12-19T18:15:00.000Z	rizo		i would like to compile a GTK project, but i have a problem including the right libraries. >>g++ -o ./Debug/gladetest ./Debug/main.o  "-L." "-L." "-L/usr/lib/"  -lgtkmm-2.4<< returns >>/usr/bin/ld: cannot find -lgtkmm-2.4<<. But i am shure libgtkmm-2.4 is there, i can $locate it using search function. Any idea what is wrong?
+2010-12-19T18:17:00.000Z	cousteau	rizo	make sure you have a file called libgtkmm-2.4.a (or .so)
+2010-12-19T18:17:00.000Z	cousteau	rizo	you probably need something called libgtkmm-2.4-dev or similar
+2010-12-19T18:18:00.000Z	rizo	cousteau	it is callled /usr/lib/libgtkmm-2.4.so.1

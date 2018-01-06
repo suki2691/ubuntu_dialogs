@@ -1,0 +1,4 @@
+2007-07-21T15:51:00.000Z	abstrakt		how can i tell if the nvidia drivers have been successfully installed?
+2007-07-21T15:52:00.000Z	abstrakt		synaptic shows the glx driver as having been installed, but my screen is still way off to the left
+2007-07-21T15:52:00.000Z	stefg	abstrakt	glxinfo | grep direct ... gotta say yes
+2007-07-21T15:57:00.000Z	abstrakt	stefg	hey, any more ideas?

@@ -1,0 +1,4 @@
+2008-10-17T06:19:00.000Z	Randal1		I need help configuring my wireless internet can someone send me a PM?
+2008-10-17T06:21:00.000Z	Randal1		i have already made the wireless driver work but i was wondering how to configure it since my wireless has a WEP Key on it and the wifi doc told me to use some commands that i'm not sure of what they do
+2008-10-17T06:22:00.000Z	Randal1		sudo iwconfig wlan0 essid <AP NAME> ap <AP MAC ADDRESS> key <KEY IN HEX> sudo dhclient wlan0 so what does this mean?
+2008-10-17T06:22:00.000Z	lucax	Randal1	try nm-applet... its much easier

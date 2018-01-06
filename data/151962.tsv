@@ -1,0 +1,4 @@
+2007-01-24T13:18:00.000Z	Tsool		Hiya! What file should I edit to avoid loading the module usbhid at boot?
+2007-01-24T13:19:00.000Z	IntuitiveNipple	Tsool	/etc/modprobe.d/blacklist
+2007-01-24T13:21:00.000Z	IntuitiveNipple	Tsool	modprobe -l will list all the driver modules the kernel knows about, and that list is set by doing depmod -ae
+2007-01-24T13:21:00.000Z	IntuitiveNipple	Tsool	There are other files in /etc/modprobe.d/ such as 'whitelist' and 'aliases'

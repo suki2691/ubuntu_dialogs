@@ -1,0 +1,4 @@
+2006-03-11T11:55:00.000Z	allanh128		How do I install a floppy drive in ubuntu brezzy badger after the os has been installed?   We don't have an fd0 entry in /dev.
+2006-03-11T11:57:00.000Z	nailbiter	allanh128	If it's a USB floppy, just plug it in and it'll appear as /dev/sda (or whichever SCSI device is free next)
+2006-03-11T11:58:00.000Z	nailbiter	allanh128	Did you enable the floppy in the BIOS?
+2006-03-11T11:59:00.000Z	nailbiter	allanh128	Hm. Try a 'modprobe floppy'. Does /dev/fd0 appear after that?

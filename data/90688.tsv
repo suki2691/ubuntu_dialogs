@@ -1,0 +1,4 @@
+2008-05-14T01:03:00.000Z	maw_		with the openssl patch it is recommended to regenerate ssh_host keys. Typically just deleting the keys and rebooting will cause new ones to be generated, how can it be done without restarting?
+2008-05-14T01:05:00.000Z	jepler	maw_	remove keys and restart openssl-server?
+2008-05-14T01:17:00.000Z	maw_	jepler	I figured it out
+2008-05-14T01:18:00.000Z	maw_	jepler	delete the keys, then sudo ssh-keygen -t dsa/rsa -b 1024 -f /etc/ssh/ssh_host_dsa/rsa_key -N ''

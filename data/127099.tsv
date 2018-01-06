@@ -1,0 +1,4 @@
+2007-10-22T06:25:00.000Z	Pir8		where can I make changes to the default boot OS ?
+2007-10-22T06:25:00.000Z	Pir8		by default the boot screen shows with Ubuntu 7.10 Server, but I want it to boot into 7.10 Desktop
+2007-10-22T06:26:00.000Z	Pir8		jrid thanks!
+2007-10-22T06:26:00.000Z	vocx	Pir8	as jrib says, there is an option with "default 0"    you need to edit the file with root privileges, thus "gksudo gedit /boot/grub/menu.lst"

@@ -1,0 +1,4 @@
+2012-06-02T02:48:00.000Z	SNow		HI guys , Iahve ext4 and "Directory index is Full" what can I do to remove this error? I did fsck - did not help.
+2012-06-02T02:48:00.000Z	jagginess	SNow	try removing the journal ( http://fenidik.blogspot.ca/2010/03/ext4-disable-journal.html )
+2012-06-02T02:58:00.000Z	SNow	jagginess	did not help ...
+2012-06-02T02:59:00.000Z	jagginess	SNow	maybe it's a physical harddrive stalling.. you should check with dmesg

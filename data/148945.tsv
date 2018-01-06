@@ -1,0 +1,4 @@
+2009-05-11T05:56:00.000Z	mmcji		howdee
+2009-05-11T05:57:00.000Z	mmcji		is there a command I can run that will tell me the last applications that were installed?
+2009-05-11T05:58:00.000Z	unop	mmcji	 grep -i installed /var/log/dpkg.log | tail -n 50
+2009-05-11T06:07:00.000Z	mmcji	unop	great, thanks

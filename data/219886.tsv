@@ -1,0 +1,4 @@
+2010-10-04T03:59:00.000Z	bleck		i have an entry in crontab that was created by ubuntu upon installation, and it has the dow set to 7. I thought it only went from 0(sun) to 6(mon) ?
+2010-10-04T04:00:00.000Z	bleck		47 6    * * 7   root    test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.weekly )
+2010-10-04T04:02:00.000Z	Flannel	bleck	0 and 7 are both Sunday (`man 5 crontab` is the manpage that covers this) because it works out better that way (Sunday first and Monday first both make sense numerically)
+2010-10-04T04:02:00.000Z	bleck	Flannel	thanks for your help... must have missed that.

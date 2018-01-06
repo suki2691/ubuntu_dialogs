@@ -1,0 +1,4 @@
+2011-08-31T04:34:00.000Z	Jordan_U	happygolucky	Running echo as root won't change the fact that the shell, which is what is writing to the file when you use '>>', is running as a normal user.
+2011-08-31T04:35:00.000Z	happygolucky	Jordan_U	it's not a separate command such as && or | so i respectfully disagree
+2011-08-31T04:35:00.000Z	Jordan_U	happygolucky	echo foo | sudo tee -a /path/to/file
+2011-08-31T04:35:00.000Z	Jordan_U	happygolucky	Try it.

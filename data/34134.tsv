@@ -1,0 +1,4 @@
+2010-09-07T07:02:00.000Z	sontek		When I create a VPN connection, I have to allow it to send all traffic over the tunnel, if I select "Use this connection only for resources on its network" then I can't access any of the servers on the VPN network
+2010-09-07T07:04:00.000Z	sontek		The only difference between the routes is the destination / gateway with 0.0.0.0 is going to ppp0 instead of wlan0
+2010-09-07T07:05:00.000Z	sontek		but the higher orutes should pick up first shouldn't they?
+2010-09-07T07:05:00.000Z	Doyle	sontek	in cisco equipment the routing table priority is reversed, bottom = top prioritiy

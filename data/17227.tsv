@@ -1,0 +1,4 @@
+2011-10-12T20:56:00.000Z	panfist		is there a way to list PPAs on your system, find the stale ones and remove them?
+2011-10-12T20:57:00.000Z	Polah	panfist	/etc/apt/sources.list.d contains files for each installed/enabled PPA, there may be a command with apt to list them though
+2011-10-12T20:58:00.000Z	Polah	panfist	Of course, if you added them manually they'll be in /etc/apt/sources.list
+2011-10-12T20:58:00.000Z	Polah	panfist	You can use ppa-purge to remove/revert packages installed from PPAs

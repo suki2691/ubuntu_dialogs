@@ -1,0 +1,4 @@
+2011-01-07T04:18:00.000Z	M0nk3Ee		can someone tell me if i am running ubuntu 9.10 and am fully updated what kernel should i be running, whats the easiest way of finding out what the latest available is?
+2011-01-07T04:20:00.000Z	Weedy	M0nk3Ee	sudo apt-get update && lsb_release -a && uname -a && sudo apt-get upgrade
+2011-01-07T04:25:00.000Z	M0nk3Ee	Weedy	it says i'm running 2.6.31-22-386 which is the latest then for 9.10... will 2.6.35 make it to 9.10 or because 9.10 is the stable release it will freeze there?
+2011-01-07T04:27:00.000Z	M0nk3Ee	Weedy	/ rww thanks

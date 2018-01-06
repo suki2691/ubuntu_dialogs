@@ -1,0 +1,4 @@
+2010-10-11T01:33:00.000Z	slylias		How do I set a chrontab to update my system time every 5 minutes with NTP?
+2010-10-11T01:33:00.000Z	iceroot	slylias	*/5 * * * * yourcommand
+2010-10-11T01:34:00.000Z	iceroot	slylias	you can edit/create crons with "crontab -e"
+2010-10-11T01:36:00.000Z	iceroot	slylias	5 not 05  also dont use ntdate, use the complet path, because cron doesnt know the path to the binary by defaultr

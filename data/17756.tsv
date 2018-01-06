@@ -1,0 +1,4 @@
+2012-08-03T20:46:00.000Z	roasted_		Hello! I'm trying to get DHCP to auto start on Ubuntu (dhcp server that is). It's not auto starting... I have to manually issue sudo service isc-dhcp-server start each time. Is there a way to work around this BESIDES the gui "startup applications"?? I want it to run automatically as a startup service/daemon without needing to log in, etc.
+2012-08-03T20:47:00.000Z	roasted_		gah - lost connection. anybody have any idea on the DHCP issue?
+2012-08-03T20:49:00.000Z	NewWorld	roasted_	 It's not a secure workaround, nor is it the best way (I'm sure there's a proper way to add services on startup in Ubuntu), but you can whitelist programs from asking root password in /etc/sudoers (use `sudo visudo`)
+2012-08-03T20:51:00.000Z	roasted_	NewWorld	ehh, I'd hate to do that. I did a 10-12 upgrade and now it wont auto start, whcih is what makes me wonder what happened.

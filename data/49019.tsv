@@ -1,0 +1,4 @@
+2011-06-02T20:45:00.000Z	osse		Is there a nice way to search all buffers? :grep and :vimgrep seems to be tailored for files. :bufdo g// is a bit harsh since it changes the buffer your in etc and reports errors. Ditto for :bufdo /pattern
+2011-06-02T20:45:00.000Z	osse		s/your/you're/
+2011-06-02T20:47:00.000Z	SegFaultAX	osse	Normally I would suggest bufdo, but if you can't use them, what are you trying to do exactly?
+2011-06-02T20:48:00.000Z	osse	SegFaultAX	oh god. This was meant for the #vim channel :/ I would basically like to grep all buffers. :bufdo g// is ok, but if it doesn't find anything it prints errors, and it changes the buffer you're in when it's done

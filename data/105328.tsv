@@ -1,0 +1,4 @@
+2012-03-15T21:14:00.000Z	k-bopper		I want to run the same command 4 times with file1.txt file2.txt etc..  I know there is a way to do it in a loop, any suggestions?
+2012-03-15T21:15:00.000Z	ActionParsnip	k-bopper	i'd ask in #bash too :)
+2012-03-15T21:16:00.000Z	ActionParsnip	k-bopper	http://spiralbound.net/blog/2007/07/23/bash-for-loop-example    may help
+2012-03-15T21:16:00.000Z	ActionParsnip	k-bopper	for i in $(seq 1 100); do echo -n "file${i} "     etc

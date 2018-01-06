@@ -1,0 +1,4 @@
+2011-09-16T17:26:00.000Z	saml		hey, I want to mount a drive as current user when the user logs in
+2011-09-16T17:26:00.000Z	saml		how can I do that?
+2011-09-16T17:27:00.000Z	saml		not during the boot.. but when a user logs in
+2011-09-16T17:28:00.000Z	Dmole	saml	make sure it's in fstab but set to not auto mount then make a login script to un/mount it for that user

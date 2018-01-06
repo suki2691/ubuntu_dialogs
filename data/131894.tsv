@@ -1,0 +1,4 @@
+2007-06-06T07:18:00.000Z	jazzcat		hi. i am trying to install grub from an ubuntu livecd and i have to say i amb not able to do it. can someone tell me if i am doing well ?
+2007-06-06T07:19:00.000Z	BlueEagle	jazzcat	I am assuming you've installed linux then re-installed windows and thus lost grub that way. What you need to do is mount your linux partitions and chroot into them and then re-install grub from the chroot. I think that's the easiest way but I may be wrong.
+2007-06-06T07:21:00.000Z	jazzcat	BlueEagle	you almost assumed the right thing. I am trying to install a linux in a new hd to a machine with an old windows
+2007-06-06T07:22:00.000Z	BlueEagle	jazzcat	Are you using SATA, PATA or SCSI disks or a mix of them?

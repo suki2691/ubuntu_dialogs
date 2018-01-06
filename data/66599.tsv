@@ -1,0 +1,4 @@
+2009-02-27T01:57:00.000Z	j0nr		ok so i just reinnstalled ubuntu... i have a seperte /home part. how do i go about reinstating other users...when i try to add them and associate their old/existing /home directories, it won't let me as it says the destination (for /home/user) already exists?
+2009-02-27T01:58:00.000Z	bernz	j0nr	i'd probably recreate the accounts on the new separate /home partition, and then just copy the old user's home dirs over the newly created ones
+2009-02-27T01:59:00.000Z	j0nr	bernz	i have one partition for /home so all users have a home directory on there...i suppose i could rename the old one... create new users with desired names...then overwrite?
+2009-02-27T02:00:00.000Z	bernz	j0nr	yes, i'd do that -- rename is a good way to "temporarily delete" stuff :-)

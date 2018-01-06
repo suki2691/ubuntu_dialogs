@@ -1,0 +1,4 @@
+2008-10-30T15:47:00.000Z	wigren		Good morning. I've been following the instructions in this blog post (http://blogs.forever.sg/2008/06/15/lcd-brightness-andubuntu-804-hardy/) about how to set my laptop's brightness. I'm having trouble with /etc/init.d/rc.local. There is no line reading exit 0
+2008-10-30T15:47:00.000Z	wigren		this is my rc.local: http://pastebin.com/m523c34f3
+2008-10-30T15:48:00.000Z	jrib	wigren	that's not the default /etc/rc.local .  Make sure you are looking at the right file
+2008-10-30T15:49:00.000Z	jrib	wigren	it looks like you pasted /etc/init.d/rc.local which is *not* the right one.  You want /etc/rc.local

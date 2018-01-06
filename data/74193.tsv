@@ -1,0 +1,4 @@
+2009-01-27T13:11:00.000Z	mathijs		Hi all, I'm trying to connect to another X11 server (so I want client applications on my machine to display on a screen attached on another machine). I don't want to enable tcp on the remote server, so I need to connect to the unix-socket over there. How can I do this?
+2009-01-27T13:12:00.000Z	werdnum	mathijs	just use X forwarding :)
+2009-01-27T13:12:00.000Z	werdnum		ssh -X my_host
+2009-01-27T13:13:00.000Z	mathijs	werdnum	read again

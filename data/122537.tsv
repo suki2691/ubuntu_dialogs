@@ -1,0 +1,4 @@
+2007-09-27T13:40:00.000Z	WaxyFres1		how do i get read/write privs to my hd while on a livecd?
+2007-09-27T13:41:00.000Z	LjL	WaxyFres1	sudo mount /dev/drive /media/somewhere
+2007-09-27T13:47:00.000Z	WaxyFres1	LjL	it was already mounted whent it was saying i wasent the owner
+2007-09-27T13:48:00.000Z	LjL	WaxyFres1	then you need to use sudo. "gksudo nautilus" if you want a graphical interface, but be careful

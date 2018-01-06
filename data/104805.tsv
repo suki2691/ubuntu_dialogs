@@ -1,0 +1,4 @@
+2008-12-06T22:05:00.000Z	bork		When running 'apt-get dist-upgrade -s', (hardy -> intrepid) I get the error "E: Internal Error, Could not perform immediate configuration (2) on libsasl2-2". The update-manager graphical tool doesn't work either, possibly for the same reason. 'apt-get install libsasl2-2' fails with the same error. Ideas? (output of apt-get dist-upgrade -s @ http://paste.ubuntu.com/81448/)
+2008-12-06T22:06:00.000Z	ActionParsnip	bork	you could remove that package and try again, OR
+2008-12-06T22:06:00.000Z	ActionParsnip	bork	http://www.ubuntu.com/getubuntu/upgrading#Network%20Upgrade%20for%20Ubuntu%20Servers%20(Recommended)
+2009-08-24T04:23:00.000Z	ActionParsnip	bork	did you shutdown properly

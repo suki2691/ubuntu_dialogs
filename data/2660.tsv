@@ -1,0 +1,4 @@
+2012-06-05T07:31:00.000Z	Pinkamena_D		Hi, i am wondering if anyone has heard of some load smoothing tool for a home network. I will describe this the best i can: my sis likes to play an online game, warcraft 3. It does not take very much bandwidth but it is sensitive to ping. I have a web server which is connected to the modem directly with all the other network devices bridged behind it. (ubuntu server 11.10 on it)
+2012-06-05T07:31:00.000Z	aaron_samuel	Pinkamena_D	its called QOS
+2012-06-05T07:32:00.000Z	aaron_samuel	Pinkamena_D	you should run it on the router or gw device that controls traffic in and out
+2012-06-05T07:32:00.000Z	aaron_samuel	Pinkamena_D	its a little complicated on linux but it's called tc

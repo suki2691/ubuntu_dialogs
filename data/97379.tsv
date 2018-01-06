@@ -1,0 +1,4 @@
+2008-03-14T19:47:00.000Z	Dmole		I'm having trouble starting oracle ... where can i find error logs?
+2008-03-14T19:48:00.000Z	Toshio	Dmole	look for a file called alert.log
+2008-03-14T19:51:00.000Z	Toshio	Dmole	it may be called alertSID.log, I don't remember exactly, but look for alert without the .log part
+2008-03-14T19:54:00.000Z	Dmole	Toshio	thanks for the help, found it under $ORACLE_BASE/admin/<SID>/bdump/alert*

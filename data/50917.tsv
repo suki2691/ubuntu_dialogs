@@ -1,0 +1,4 @@
+2010-04-14T23:22:00.000Z	ghostlines		hi all, i mounted a ntfs partition with the -rw but can write to it even as root, any idea's?
+2010-04-14T23:23:00.000Z	darolu	ghostlines	did you use ntfs-3g filesystem?
+2010-04-14T23:25:00.000Z	ghostlines	darolu	i just did mount -t ntfs -rw so i guess no?
+2010-04-14T23:25:00.000Z	darolu	ghostlines	try with mount -t ntfs-3g ....

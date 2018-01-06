@@ -1,0 +1,4 @@
+2012-05-06T10:39:00.000Z	ZeloZelos		is there a disk tool for defragging?
+2012-05-06T10:40:00.000Z	ZeloZelos		ah ok
+2012-05-06T10:40:00.000Z	alankila	ZeloZelos	as it happens, there exist e4defrag and xfs_fsr for ext4 and xfs, and btrfs supports rebalancing and defragmenting, depending on need
+2012-05-06T10:44:00.000Z	alankila	ZeloZelos	you can probably use e4defrag to report you the fragmentation degree of your files. I run a fairly full linux partition in one VM and thought that would be fragmented for sure. Gave me fragmentation score of 1 out of 100

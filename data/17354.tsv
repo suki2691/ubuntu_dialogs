@@ -1,0 +1,4 @@
+2011-03-04T17:07:00.000Z	phoenixsampras		Help!! where i can set gnome resolution when i Login? i setup to 1900x1080, but when i reboot, it returns to 800x600, why? when i log in as root, the resolution is correct 1900x1080
+2011-03-04T17:09:00.000Z	phoenixsampras		help?
+2011-03-04T17:10:00.000Z	phoenixsampras		Help!! where i can set gnome resolution when i Login? i setup to 1900x1080, but when i reboot, it returns to 800x600, why? when i log in as root, the resolution is correct 1900x1080
+2011-03-04T17:10:00.000Z	HF_acid	phoenixsampras	depending on how your configuring your resolutions will entail different methods.  Specifically (this is the only way I'm familiar with) if you're using nvidia's software you must run it with gksudo in order to save the xorg.conf file which keeps your settings persistent

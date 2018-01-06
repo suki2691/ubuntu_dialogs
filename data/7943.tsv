@@ -1,0 +1,4 @@
+2011-11-07T02:35:00.000Z	hzilla		hi having a small problem. i have some environment variables eg. PATH set in /etc/environment but when i run some commands in rc.local on boot (presumably as root) the commands are logged as not found because i think the PATH is different for that user. How can i get the environment variables available on boot?
+2011-11-07T02:35:00.000Z	histo	hzilla	set them in rc.local then
+2011-11-07T02:35:00.000Z	hzilla	histo	would they then be available system wide?
+2011-11-07T02:36:00.000Z	histo	hzilla	i don't know

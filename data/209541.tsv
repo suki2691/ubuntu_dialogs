@@ -1,0 +1,4 @@
+2006-06-18T07:32:00.000Z	_david		how do i do the equivalent to CHKDSK - i have reason to believe my fs needs fixing
+2006-06-18T07:32:00.000Z	LjL	_david	man fsck
+2006-06-18T07:33:00.000Z	LjL	_david	you can still run it in read-only mode. it will detect but not correct errors, if any. otherwise, you should boot into recovery mode, and remount as read-only
+2006-06-18T07:34:00.000Z	LjL	_david	or perhaps just boot from a live cd. or, third option, set the filesystem's "dirty" flag, so that it'll be checked at next reboot. except i don't remember how to set that flag

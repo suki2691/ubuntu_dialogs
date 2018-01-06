@@ -1,0 +1,4 @@
+2010-05-26T08:06:00.000Z	tyce		anyone know how you view the progress of an fsck that started at boot and then was backgrounded?
+2010-05-26T08:08:00.000Z	DasEi	tyce	fg %1 will bring a job 1 from the  background  into  the foreground
+2010-05-26T08:08:00.000Z	DasEi	tyce	top or htop shows your running ones (for job id)
+2010-05-26T08:09:00.000Z	tyce	DasEi	thanks, hadn't thought about that approach... was thinking there should be some file in /proc I could watch, but haven't found it

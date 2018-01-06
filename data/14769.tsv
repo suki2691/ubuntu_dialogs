@@ -1,0 +1,4 @@
+2011-09-12T22:48:00.000Z	ichbinder	Onyx47	how could you use GRUB as bootloader without installing it in the MBR?
+2011-09-12T22:50:00.000Z	Onyx47	ichbinder	tbh, not sure how to do it but you COULD, in theory, set it so it chainloads GRUB, like what GRUB does with Windows
+2011-09-12T22:51:00.000Z	ichbinder	Onyx47	oh yeah, could be... but some bootloader needs to be loaded by MBR... you could use another bootloader and then chainload GRUB. But why would you want to do that, if you want to use GRUB anyway...
+2011-09-12T22:53:00.000Z	Onyx47	ichbinder	dunno, I personally always use GRUB and it works like a charm. Why you would do it and what the low-level implementation of it is is way over my head

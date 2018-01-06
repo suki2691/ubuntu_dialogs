@@ -1,0 +1,4 @@
+2008-08-09T09:50:00.000Z	yoyoman37		hello.  i dl ubuntu 8.04.1 and boot and it takes too much screen (only part of desktop fits on my monitor)
+2008-08-09T09:51:00.000Z	yoyoman37		when I try to adjust resolution, my display starts flipping badly.  Is there a way at boot to prevent it from using any video drivers other than some standard driver?
+2008-08-09T09:52:00.000Z	alraune	yoyoman37	sudo apt-get install displayconfig-gtk , the run it, choose your monitor, change resolution
+2008-08-09T09:52:00.000Z	alraune	yoyoman37	sudo apt-get install displayconfig-gtk , then run it, choose your monitor, change resolution

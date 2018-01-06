@@ -1,0 +1,4 @@
+2006-09-26T11:52:00.000Z	brendonjt		hey all a question, if i copy the .deb files from /etc/cache/apt to say a cd if i need to reinstall
+2006-09-26T11:52:00.000Z	brendonjt		 and do a apt-get dist-update will it grab  the files from there  or download them
+2006-09-26T11:53:00.000Z	ArrenLex	brendonjt	why would you do that? It's less hacky to just run dpkg -i <file> on the .deb
+2006-09-26T11:53:00.000Z	brendonjt	ArrenLex	:what if i copy the files back to the /etc/cache/apt folder  is what i mean

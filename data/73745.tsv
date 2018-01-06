@@ -1,0 +1,4 @@
+2010-01-31T21:03:00.000Z	devian		how do I get it to just say the codename or do I have to do some fancy coding to get it to only use the codename because I am making a script to automate the installation of packages from other repositories
+2010-01-31T21:03:00.000Z	devian		or do I have to change it after each release
+2010-01-31T21:05:00.000Z	blakkheim	devian	grep CODENAME /etc/lsb-release
+2010-01-31T21:06:00.000Z	blakkheim	devian	you may need some cut/awk/sed to get just the string, but that's not something i can be of much help with

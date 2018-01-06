@@ -1,0 +1,4 @@
+2009-07-27T16:04:00.000Z	snoopddrm		hello everyone. i've just installed unbuntu on my notebook. i've found the fix for the sound on my notebook but i don't know how to apply it. the fix is: Ubuntu 9.04 has the same sound problem as 8.10 and it can be fixed by creating a new file /etc/modprobe.d/options.conf containing the line options snd-hda-intel model=mobile
+2009-07-27T16:04:00.000Z	snoopddrm		can anyone tell me how to apply this?
+2009-07-27T16:05:00.000Z	ActionParsnip	snoopddrm	gksudo gedit /etc/modprobe.d/options.conf
+2009-07-27T16:05:00.000Z	ActionParsnip	snoopddrm	paste the line in, save and exit gedit

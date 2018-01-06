@@ -1,0 +1,4 @@
+2007-04-18T15:52:00.000Z	ajehuk	gordonjcp	- HObbES1 - before you start editing the resolv.conf - I would check if dhcp is being used to configure the connection and/or if the cable modem can issue dns servers via dhcp - saves hassle in the long run..
+2007-04-18T15:53:00.000Z	gordonjcp	ajehuk	ye
+2007-04-18T15:53:00.000Z	gordonjcp	ajehuk	actually I use DHCP on my PC at work, with /etc/resolv.conf manually tweaked to avoid the broken horrible dns forwarder our office has
+2007-04-18T15:54:00.000Z	ajehuk	gordonjcp	- same here but most people dont need to (or dont know they need to, ISP's are so 'good' when it comes to dns...)

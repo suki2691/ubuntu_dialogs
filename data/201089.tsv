@@ -1,0 +1,4 @@
+2010-01-11T04:28:00.000Z	Thijs`		if i dd a drive, wil that mean the output file will be the same size of the disk size, or will it just be the size of the actual data that is on that disk?
+2010-01-11T04:28:00.000Z	vlt	Thijs`	The whole disk
+2010-01-11T04:30:00.000Z	vlt	Thijs`	Because dd is used to dump the plain data. It doesn't care for what data it is. It could be a file system or an encrypted part of a raid array or a raw database storage device ...
+2010-01-11T05:18:00.000Z	vlt	Thijs`	When you dd a drive you also dd the mbr (as I said earlier)

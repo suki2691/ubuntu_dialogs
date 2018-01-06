@@ -1,0 +1,4 @@
+2009-11-03T09:30:00.000Z	PingFloyd	Ozzah	did you try du -hs
+2009-11-03T09:31:00.000Z	Ozzah	PingFloyd	Yes, that's what I used, but it gives the total for each folder... not the total for all folders that match the regex.
+2009-11-03T09:31:00.000Z	PingFloyd	Ozzah	throw in -c
+2009-11-03T09:33:00.000Z	Ozzah	PingFloyd	so something like scp -Rc * user@domain:/dest

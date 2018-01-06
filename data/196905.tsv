@@ -1,0 +1,4 @@
+2006-03-03T08:52:00.000Z	mickfuzz		hi there - newbie cp question here - i want to copy a list of 15 or so files and subdirectories to make a back up - but want to not include one directory as it contains very large files. When using cp  - How do i specify that I don't want this directory to be copied.
+2006-03-03T08:54:00.000Z	der_papst	mickfuzz	on the shell there is a whild card ``thingy'' [ ]  eg. [a-z]  = a, b, c, .... , z  the funny thing is : [^a]  means everything exept a
+2006-03-03T08:54:00.000Z	der_papst	mickfuzz	try it with ls, it's not an option of cp but its an feature of the shell (bash)
+2006-03-03T08:55:00.000Z	mickfuzz	der_papst	is there a page i with examples -

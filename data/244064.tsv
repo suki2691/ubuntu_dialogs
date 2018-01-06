@@ -1,0 +1,4 @@
+2005-04-02T08:15:00.000Z	sharp		how can i keep my laptop from sleeping when the lid is closed?
+2005-04-02T08:15:00.000Z	sharp		:)
+2005-04-02T08:17:00.000Z	akk	sharp	If it uses acpi, you might be able to edit one of the files in /etc/acpi to change what it does when it sees the lid button event.
+2005-04-02T08:17:00.000Z	akk	sharp	I see /etc/acpi/lid.sh -- that's probably the script that's being run when you close the lid.

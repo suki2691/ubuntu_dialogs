@@ -1,0 +1,4 @@
+2006-07-23T10:01:00.000Z	CrashProne		If my second hard drive I'm wanting to setup in grub is "HDB", with just one partition, would it be (hd1,0) in GRUB?
+2006-07-23T10:02:00.000Z	dr_willis	CrashProne	 i think so.. rember grub starts counting at 0, and it skips the cdrom drive. (I think)
+2006-07-23T10:02:00.000Z	dr_willis	CrashProne	 also you can edit the grub boot lines from the grub menus. :) makes it easy to change
+2006-07-23T10:03:00.000Z	dr_willis	CrashProne	 for one boot at least.

@@ -1,0 +1,4 @@
+2006-05-28T15:07:00.000Z	hyphenated	timfrost	or it's already dead and the parent process hasn't cleaned it up ye
+2006-05-28T15:07:00.000Z	timfrost	hyphenated	that shows as a zombie
+2006-05-28T15:08:00.000Z	hyphenated	timfrost	yes, has he confirmed it's not a zombie yet?
+2006-05-28T15:10:00.000Z	timfrost	hyphenated	rem hasn't said so, but the context indicates that the commands were run in a terminal window, and the bash shell will clean up a child that has exitted, so won't leave zombies

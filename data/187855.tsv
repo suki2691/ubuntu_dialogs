@@ -1,0 +1,4 @@
+2007-10-07T14:26:00.000Z	swarm		I just moved a bunch of files from 1 server to another, and now when I ftp in, I can't modify any of the files that are there... what do i need to chown them to?
+2007-10-07T14:26:00.000Z	ikonia	swarm	you don't modify files with ftp
+2007-10-07T14:27:00.000Z	ikonia	swarm	so the target dir's need write access from the user your ftp'ing as
+2007-11-21T21:35:00.000Z	ikonia	swarm	thats not an ubuntu problem

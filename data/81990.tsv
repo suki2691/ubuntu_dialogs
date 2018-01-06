@@ -1,0 +1,4 @@
+2009-11-20T22:38:00.000Z	jcrawford		guys if i want a command to run everytime i login to my system, or better yet system startup where would i put this command?
+2009-11-20T22:38:00.000Z	jcrawford		ssh -L 3306:localhost:3306 user@domain.com &
+2009-11-20T22:38:00.000Z	alokito	jcrawford	I guess in rc.d file :-/
+2009-11-20T22:39:00.000Z	alokito	jcrawford	u can do it graphically in gnome/kde

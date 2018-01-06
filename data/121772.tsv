@@ -1,0 +1,4 @@
+2007-09-14T15:30:00.000Z	Matthew_		what is the ssh command for restarting server?
+2007-09-14T15:31:00.000Z	jrib	Matthew_	sudo invoke-rc.d ssh restart
+2007-09-14T15:32:00.000Z	Matthew_	jrib	i want to restart the server over an ssh connection not restart the ssh server
+2007-09-14T15:32:00.000Z	jrib	Matthew_	sudo shutdown -r now

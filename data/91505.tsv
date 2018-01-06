@@ -1,0 +1,4 @@
+2008-11-23T10:15:00.000Z	molly		I just partitioned a new drive with gparted and I have (primary /sdb1, primary /sdb3, primary /sdb4, extension /sdb2, logical /sdb5 etc.) Is it a problem that the extension is on sdb2? I thought it would go on sbd4?
+2008-11-23T10:16:00.000Z	molly		how will windows see the partitions?
+2008-11-23T10:17:00.000Z	molly		well there's some fat32 partitions on the extension
+2008-11-23T10:17:00.000Z	bitmouse	molly	ext2fs WILL let windows see ext2/3 partitions

@@ -1,0 +1,4 @@
+2011-11-04T17:38:00.000Z	jasef		... chaospsychex, sudo ALWAYS uses the user password, even with root having a password, sudo would STILL use the user password
+2011-11-04T17:40:00.000Z	jasef		Curious for an opinion here, what's more secure about not having a root password and instead using a user password? I mean apart from if the user leaves the computer logged in.
+2011-11-04T17:41:00.000Z	velcroshooz	jasef	its more of a remote invasion issue than local - there is no user by default that has root privs you can login as. its low level secure, but still sound.
+2011-11-04T17:41:00.000Z	jasef	velcroshooz	llutz_, good point, but I have root access to my friend's ubuntu server through the builtin IRC account :P

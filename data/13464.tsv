@@ -1,0 +1,4 @@
+2011-06-09T11:46:00.000Z	Avi_		I am able to login through ssh into an ubuntu server locally. But, when I try to login from a different location, I cannot login. Connection is refused. "nmap <public ip> -p 22"shows the port as filtered. Please help.
+2011-06-09T11:46:00.000Z	celthunder	Avi_	put the server in a dmz
+2011-06-09T11:47:00.000Z	celthunder	Avi_	and make sure 22 goes to the server
+2011-06-09T11:47:00.000Z	Avi_	celthunder	that has already been done in the router dmz settings

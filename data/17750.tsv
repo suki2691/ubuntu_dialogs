@@ -1,0 +1,4 @@
+2011-03-08T23:03:00.000Z	km		how come apt-get doesn't have search feature?
+2011-03-08T23:04:00.000Z	bytesaber_work	km	it does.  apt-cache search "stufftosearchfor"
+2011-03-08T23:04:00.000Z	bytesaber_work	km	but you'll have to pipe it through grep as it's search feature is so loose it's almost useless
+2011-03-08T23:06:00.000Z	bytesaber_work	km	"dpkg -l | grep -i thingyouinstalled"

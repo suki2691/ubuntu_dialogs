@@ -1,0 +1,4 @@
+2011-06-10T20:29:00.000Z	AdvoWork		how do i find out my ati name, without opening the case?
+2011-06-10T20:29:00.000Z	edbian	AdvoWork	sudo lspci -k
+2011-06-10T20:29:00.000Z	edbian	AdvoWork	(-k not really needed)
+2011-06-10T20:29:00.000Z	edbian	AdvoWork	perhaps sudo lspci | grep ati    would be helpful

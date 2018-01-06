@@ -1,0 +1,4 @@
+2007-05-21T09:53:00.000Z	vikzx86		HELP. I was installing additional fonts with automatix when my system abruptly rebooted due to power failure. Now the desktop doesnt load and x windows in not properly configured..
+2007-05-21T09:54:00.000Z	mobutu	vikzx86	you could somehow figure out what package this mysterious 'extra fonts' thing was from automatix, and remove it with apt-get remove --purge packagename
+2007-05-21T09:55:00.000Z	vikzx86	mobutu	I cant get Ubuntu to boot properly, there is a x windows error..
+2007-05-21T09:56:00.000Z	mobutu	vikzx86	look at /var/log/Xorg.0.log

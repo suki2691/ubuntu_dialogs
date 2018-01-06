@@ -1,0 +1,4 @@
+2006-03-31T16:49:00.000Z	Ongo		hi. when I boot regulary I got "greeter application crashing..." error, and when I boot recovery mode and then run startx I got "Failed initializing HAL" error. Can someone please help me?
+2006-03-31T16:49:00.000Z	mwe	Ongo	I don't think hald is started in recovery mode
+2006-03-31T16:50:00.000Z	mwe	Ongo	you need to supply some log file info ( /var/log/gdm/* ) on pastebin
+2006-03-31T16:50:00.000Z	mwe	Ongo	and /var/log/Xorg.0.log

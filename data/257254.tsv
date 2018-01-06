@@ -1,0 +1,4 @@
+2009-11-29T11:18:00.000Z	NeoCicak		Hi all.. I've just installed ubuntu on my virtualbox... how can i ssh to it? when i tried to ssh to it, it says 'no route to host'
+2009-11-29T11:19:00.000Z	mark__	NeoCicak	: Is the VM in bridge mode? *within networking
+2009-11-29T11:20:00.000Z	mark__	NeoCicak	: the default is NAT, which is different to your main lan. Switch to "Bridged" power the VM on and take note of the new ip
+2009-11-29T11:20:00.000Z	mark__	NeoCicak	: Np. Good luck.

@@ -1,0 +1,4 @@
+2006-02-26T16:08:00.000Z	yggdrasil__		can omone help me out with this error  make[1] : *** No rule to make target `alsa/asoundlib.h', needed by `softdevice.o'.  Stop.
+2006-02-26T16:09:00.000Z	dooglus	yggdrasil__	sounds like you need to install package libasound2-dev
+2006-02-26T16:10:00.000Z	dooglus	yggdrasil__	check whether you have /usr/include/alsa/asoundlib.h
+2006-02-26T16:10:00.000Z	yggdrasil__	dooglus	yes its there

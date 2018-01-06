@@ -1,0 +1,4 @@
+2007-08-18T16:54:00.000Z	jbob286		I am trying to share folders with NFS through a wireless router, but the shared folder does not show up in the Network. Would someone help me with this?
+2007-08-18T16:55:00.000Z	hajhouse	jbob286	using nfs over wifi is a bad idea because the protocol does not gracefully handle disconnection. i suggest smb of sshfs instead
+2007-08-18T16:56:00.000Z	jbob286	hajhouse	thanks, I will look at sshfs
+2007-08-18T16:57:00.000Z	hajhouse	jbob286	make sure you enable SFTP in /etc/ssh/sshd_config on the server. that tripped me up once when i was trying to get sshfs to work

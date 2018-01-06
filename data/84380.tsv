@@ -1,0 +1,4 @@
+2011-08-25T13:08:00.000Z	szal	MK``	audio CDs aren't mounted; what's the problem?
+2011-08-25T13:16:00.000Z	szal	MK``	if you want to copy an audio CD, you rip the tracks to WAV
+2011-08-25T13:21:00.000Z	szal	MK``	you can make an audio CD image with cdrdao -> cdrdao read-cd --device ATAPI:/dev/sr0 --datafile CD.bin CD.cue
+2011-08-25T13:22:00.000Z	szal	MK``	that'll give you a .bin file containing the audio data, and a .cue file containing the track metrics

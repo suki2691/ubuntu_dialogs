@@ -1,0 +1,4 @@
+2009-10-17T07:22:00.000Z	davidma22		I'm manually doing my partition... what should the "mount point" be for a dual boot installation?
+2009-10-17T07:22:00.000Z	scunizi	davidma22	are you manually doing the partitions?
+2009-10-17T07:23:00.000Z	scunizi	davidma22	you're going to need a minimum of 2 partitions for the install.. preferably 3.. but 2 works.. for the OS and your data is root symbolized by "/" .. the other is /swap
+2009-10-17T07:24:00.000Z	scunizi	davidma22	if you want to create a seperate partition for all of your personal data then "/" should be 8-12 gigs.. /swap at 2x of your ram ... and the rest /home

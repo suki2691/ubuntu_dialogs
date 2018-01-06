@@ -1,0 +1,4 @@
+2008-06-20T09:02:00.000Z	Flannel	jc__	Windows doesn't pay attention to GRUB in your MBR and overwrites it.  The other way around, GRUB plays nice.  But you just have to reinstall GRUB to your MBR if you install windows later
+2008-06-20T09:03:00.000Z	jc__	Jack_Sparrow	danbhfive : Oh OK then thats what I'll do, There's a webpage in the ubuntu docs that will tell me how to reinstall grub right? should I back up the current grub before I do anything?
+2008-06-20T09:04:00.000Z	Flannel	jc__	Its only overwriting a small part of GRUB, so your menu config will be untouched, etc
+2008-06-20T09:04:00.000Z	Flannel	jc__	first link that Ubotu just gave will give you instructions on fixing it

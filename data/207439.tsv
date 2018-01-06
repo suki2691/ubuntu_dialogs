@@ -1,0 +1,4 @@
+2006-12-17T15:01:00.000Z	warlock		How to shutdown eth0, and turn it on again? (like rebooting the network) ?
+2006-12-17T15:02:00.000Z	oskude	warlock	sudo ifdown eth0
+2006-12-17T15:03:00.000Z	oskude	warlock	you mean sudo /etc/init.d/networking restart
+2006-12-17T15:05:00.000Z	oskude	warlock	guess ? sudo /etc/init.d/ssh restart

@@ -1,0 +1,4 @@
+2009-04-06T01:46:00.000Z	ma3x		is there a ssh timeout option somewhere in ubuntu? where
+2009-04-06T01:48:00.000Z	alaz	ma3x	probably a openssl thing. configure in /etc/ssh something
+2009-04-06T01:48:00.000Z	alaz	ma3x	wouldnt hurt reading man ssh either
+2009-04-06T01:50:00.000Z	alaz	ma3x	specify ConnectTimeout= in /etc/ssh/ssh_config

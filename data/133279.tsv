@@ -1,0 +1,4 @@
+2007-05-24T07:25:00.000Z	ceeg		if i SSH to a server, and start a program like ./dothis &, how do i make sure it KEEPS RUNNING when i close the terminal i started ssh in?
+2007-05-24T07:25:00.000Z	karlpinc	ceeg	 The lame way is to use the "nohup" command.  The slick way is to use the "screen" command.
+2007-05-24T07:28:00.000Z	ceeg	karlpinc	screen -s dothis?
+2007-05-24T07:29:00.000Z	karlpinc	ceeg	 I usually just type "screen".  Then do whatever.  Then something crashes and I have to figure out how to reconnect -- I think "screen -r".  I'm not a screen wiz.

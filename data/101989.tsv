@@ -1,0 +1,4 @@
+2008-04-10T11:04:00.000Z	dryeyes		Is there a program for syncing with iPod touch for ubuntu
+2008-04-10T11:05:00.000Z	unop_	dryeyes	sure, do you know how to edit /etc/apt/sources.list?
+2008-04-10T11:06:00.000Z	unop_	dryeyes	then add this line in.  deb http://ppa.launchpad.net/ipod-touch/ubuntu gutsy main
+2008-04-10T11:06:00.000Z	unop_	dryeyes	and run this command.  sudo aptitude update; sudo aptitude install gtkpod

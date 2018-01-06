@@ -1,0 +1,4 @@
+2012-05-27T13:07:00.000Z	rraj		howto mkdir and chmod in a ssingle command?
+2012-05-27T13:07:00.000Z	rraj		Nope @Abhijit.. i want something like sudo mkdir 777 /projects/
+2012-05-27T13:09:00.000Z	Darael	rraj	sudo mkdir -m a=rwx /projects
+2012-05-27T13:10:00.000Z	Darael	rraj	"man mkdir" isn't much help, but it does point to "info coreutils 'mkdir invocation'", which is where I got that, for future reference.

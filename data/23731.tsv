@@ -1,0 +1,4 @@
+2011-02-19T20:59:00.000Z	MrBlue_NL		I got a headless server running Ubuntu 10.04 and use xvnc to create a display to login to the server (using vncviewer). Now, when i plugin a usb stick, it says it is unable to mount it (no permission). I have Googled the problem, but did not came up with a solution, busting my head what I am doing wrong. Anyone has a solution?
+2011-02-19T21:00:00.000Z	juk	MrBlue_NL	how you mounting it?
+2011-02-19T21:01:00.000Z	MrBlue_NL	juk	I login to it using vncviewer and plugin a disk into my server. Then it gives an error that it is unable to mount (no permission)
+2011-02-19T21:03:00.000Z	juk	MrBlue_NL	not sure how mout is related to vncsession, but normally only root can do that

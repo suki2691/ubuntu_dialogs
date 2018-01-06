@@ -1,0 +1,4 @@
+2011-11-25T03:54:00.000Z	zykotick9	irule	you might want to check /etc/default/grub -- be sure timeout isn't set to 0 (wait forever)
+2011-11-25T03:55:00.000Z	irule	zykotick9	it is 10, should it be 1?  ..still, if it is 10, why is it acting like 0?
+2011-11-25T03:55:00.000Z	zykotick9	irule	10 would be fine.  Why it's behaving like 0 i have no idea.
+2011-11-25T03:56:00.000Z	irule	zykotick9	btw I just TESTED 0 and it started right away as I wanted, no waiting for imput :s whazap/fyi :s

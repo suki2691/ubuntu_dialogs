@@ -1,0 +1,4 @@
+2005-12-15T16:49:00.000Z	kittyfjun		what is the file that tells linux what to do on startup, for instance to start KDE?
+2005-12-15T16:51:00.000Z	kittyfjun		how do i make linux just start on the command lin and not load a desktop?
+2005-12-15T16:51:00.000Z	czr	kittyfjun	disable /etc/init.d/gdm service
+2005-12-16T17:16:00.000Z	czr	kittyfjun	/etc/init.d/* = services, /etc/init.d/service stop|start|status

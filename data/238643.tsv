@@ -1,0 +1,4 @@
+2006-10-14T13:44:00.000Z	bthornton		I'm trying to install a package in dapper, but it fails with "nxclient depends on libstdc++2.10-glibc2.2".... any ideas how I can go about finding "libstdc++2.10-glibc2.2"?
+2006-10-14T13:45:00.000Z	scott_	bthornton	I just installed that package yesterday for nxclient using dpkg -i ... googled for the debian package
+2006-10-14T13:46:00.000Z	bthornton	scott_	so did you have to manually download a *.deb file containing the missing dependency?  Or did it turn out to be a package already in the Ubuntu repos?
+2006-10-14T13:47:00.000Z	scott_	bthornton	I manually downloaded the .deb package

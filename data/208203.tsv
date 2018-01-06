@@ -1,0 +1,4 @@
+2006-12-17T11:13:00.000Z	nicholaspaul		is there a command to deactivate a wifi adapter?
+2006-12-17T11:15:00.000Z	frogzoo	nicholaspaul	iwconfig eth0 power off
+2006-12-17T11:15:00.000Z	nicholaspaul	frogzoo	and i imagine 'power on' would turn it on?
+2006-12-17T11:18:00.000Z	frogzoo	nicholaspaul	actually, my bad, that just turns off power management - you probly want 'sudo ifdown eth1 / sudo ifup eth1'

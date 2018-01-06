@@ -1,0 +1,4 @@
+2010-08-29T01:43:00.000Z	gabox		hi, i have mysql, and i don't want the service to start every time  i boot. The service doesn't appear in startup services, is the other place where i can disable it?
+2010-08-29T01:44:00.000Z	gabox		ok
+2010-08-29T01:44:00.000Z	abhinav	gabox	http://www.linux.com/archive/feature/114107 has the details
+2010-08-29T01:46:00.000Z	abhinav	gabox	basically you need to remove the S*mysql* link from runlevel 5 (/etc/rc5.d)

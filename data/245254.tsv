@@ -1,0 +1,4 @@
+2005-03-20T09:34:00.000Z	awtomlinson		can anyone help mount a second ide hard drive?
+2005-03-20T09:34:00.000Z	mark_	awtomlinson	--- what-for-setup do you have?
+2005-03-20T09:38:00.000Z	mark_	awtomlinson	-- then, in a terminal either sudo su - to become root - or sudo /mnt/hdb1 /mnt/backup -- that should mount your old / structure under the /mnt/backup directory
+2005-03-20T09:39:00.000Z	mark_	awtomlinson	- you may have seperate paritions on the old drive -- like hdb1 is root and hdb2 is home -- is so, replace the hdb_ with whatever you need ..

@@ -1,0 +1,4 @@
+2007-05-10T11:33:00.000Z	gordboy		am i right in thinking the S scripts in /etc/rcS.d/ are called one time at boot, and that the default runlevel is 2 ?
+2007-05-10T11:34:00.000Z	systest	gordboy	sort of
+2007-05-10T11:35:00.000Z	gordboy	systest	i'm more used to /etc/inittab and a rc.sysinit script, then the runlevels
+2007-05-10T11:35:00.000Z	systest	gordboy	the scripts for each runlevel are in /etc/rc<level#>.d

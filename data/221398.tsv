@@ -1,0 +1,4 @@
+2009-07-27T20:39:00.000Z	capneb		the gnome desktop for my colleague in the office is freezing. we tried to do a restore from sbackup to a new server a few days ago. we don't see any related processes running and the machine was rebooted an hour ago. now his Gnome env has frozen again. Samba users cannot save files to the server. I cannot save data to ANY files I create as ANY user except root. ideas?
+2009-07-27T20:40:00.000Z	capneb		the disk show 161GB free, but cannot write new data to it unless root.
+2009-07-27T20:40:00.000Z	tdn	capneb	how big is the disk?
+2009-07-27T20:41:00.000Z	tdn	capneb	what happens if you write "touch foo"?

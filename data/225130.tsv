@@ -1,0 +1,4 @@
+2005-12-27T14:43:00.000Z	hid3		Evening everyne. I run an ftp server with 2.6 kernel. Sometimes, when server is loaded, I see 'wa' using all my cpu power. However, this happens only sometimes. Is there any way to find out what causes it to use cpu so much?
+2005-12-27T14:45:00.000Z	trappist	hid3	'wa' is i/o wait.  that usually happens when there's a lot of i/o activity such as disk or network activity, and data's not moving as fast as an app expects it to.
+2005-12-27T14:46:00.000Z	hid3	trappist	the matter is that let's say today my server uploads @ 18 mB/s and wa usage is nearly 15 %, but yesterday it uploaded at about 17 mB/s and wa usage was ~90% (no download or other apps running). I'd say it is quite strange..
+2005-12-27T14:48:00.000Z	trappist	hid3	I'd say it's probably timing.  if a huge, fast upload is happening at the same time another app wants to access data, it'll exacerbate the situation.

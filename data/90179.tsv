@@ -1,0 +1,4 @@
+2012-01-11T07:19:00.000Z	chabie		still problem with ownership..
+2012-01-11T07:21:00.000Z	chabie		still wine: /home/chabie/.wine is not owned by you..
+2012-01-11T07:21:00.000Z	leprechau	chabie	cd ~/ && sudo chown -R YOURUSERNAME .wine
+2012-01-11T07:23:00.000Z	leprechau	chabie	chmod 0755 .wine

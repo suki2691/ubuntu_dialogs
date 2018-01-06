@@ -1,0 +1,4 @@
+2006-08-08T11:34:00.000Z	DocTomoe		I have a major dpkg issue ... Something got stuck during an apt-get dist-upgrade, and I do not seem to either install, reinstall, remove or purge libapache-mod-tsunami, which was selected as a dependency of something other. Keeps telling me apache is not installed (which is correct as I use apache2). dpkg -r libapache-mod-tsunami won't work, too. Ignoring is not an option, as this jams every activity with the package manager.  Any helpful i
+2006-08-08T11:36:00.000Z	modesto	DocTomoe	last line that I read: "manager.  Any helpful i"
+2006-08-08T11:37:00.000Z	DocTomoe	modesto	try http://pastebin.ca/122418 then , If you like :)
+2006-08-08T11:38:00.000Z	modesto	DocTomoe	ahhh, the rest of the story... thx... speaking of urls:

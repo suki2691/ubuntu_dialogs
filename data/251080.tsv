@@ -1,0 +1,4 @@
+2005-12-10T10:52:00.000Z	alekz		how can i see my partitions via terminal ?
+2005-12-10T10:53:00.000Z	alekz		thanks
+2005-12-10T10:53:00.000Z	levander	alekz	'fdisk -l <device file name>'
+2005-12-10T10:54:00.000Z	levander	alekz	'parted print <device file name' will show you the partitions

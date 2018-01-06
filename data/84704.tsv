@@ -1,0 +1,4 @@
+2009-06-19T06:36:00.000Z	cxo		If i know the name of a file that comes with a package, how do i find the name of that package and install it?
+2009-06-19T06:36:00.000Z	cxo		eg, on fedora you would do, yum provides blah.h
+2009-06-19T06:37:00.000Z	jtaji	cxo	dpkg -S file
+2009-06-19T06:38:00.000Z	jtaji	cxo	ah, apt-file then

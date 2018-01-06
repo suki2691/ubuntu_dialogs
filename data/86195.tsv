@@ -1,0 +1,4 @@
+2009-02-04T22:36:00.000Z	IntuitiveNipple	KenBW2	can you redo that so we see the device IDs as well?  lspci -nn
+2009-02-04T22:38:00.000Z	KenBW2	IntuitiveNipple	http://www.nomorepasting.com/getpaste.php?pasteid=24033
+2009-02-04T22:41:00.000Z	IntuitiveNipple	KenBW2	useful info... to determine what driver supports hardware, get the PCI vendor:device ID (in this case you'll see 109e:036e) and search the kernel's pcimap: "grep -i '109e.*036e' /lib/modules/`uname -r`/modules.pcimap"
+2009-02-04T22:41:00.000Z	KenBW2	IntuitiveNipple	that all means nothing to me

@@ -1,0 +1,4 @@
+2009-08-22T15:32:00.000Z	b3rz3rk3r		Just extracted a large archive with the default manager and noticed that the cpu usage was constantly 25%, so i checked it out and it seems that its using 100% of one core at a time of my quad-core. Can i make the archiver use all 4 cores?
+2009-08-22T15:33:00.000Z	j2daosh	b3rz3rk3r	i dont believe you can force a single-threaded app to run on multiple cores
+2009-08-22T15:33:00.000Z	b3rz3rk3r	j2daosh	doh! Thats what i thought the answer would be..  :(
+2009-08-22T16:03:00.000Z	b3rz3rk3r	j2daosh	making your own?

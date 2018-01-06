@@ -1,0 +1,4 @@
+2006-07-28T16:39:00.000Z	dooglus		I'm trying to set up knockd to listen for a sequence of udp packets, but it's not seeing any coming in.  any idea what I could be doing wrong?
+2006-07-28T16:40:00.000Z	longwave	dooglus	have you tried running tcpdump to see if that sees them?
+2006-07-28T16:40:00.000Z	dooglus	longwave	no, i've not.  I will, thanks
+2006-07-28T16:49:00.000Z	dooglus	longwave	tcpdump shows that the packet isn't arriving.  I'm using cygwin's 'nc -u' on a Windows box to send it.  should that work?

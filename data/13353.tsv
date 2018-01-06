@@ -1,0 +1,4 @@
+2011-07-03T23:38:00.000Z	aleph-2		what is the difference between "sudo apt-get upgrade" and "sudo apt-get dist upgrade?
+2011-07-03T23:39:00.000Z	ZykoticK9	aleph-2	dist-upgrade will install new version of packages (or new packages), while upgrade will not
+2011-07-03T23:40:00.000Z	aleph-2	ZykoticK9	ok, which one of them shoud i use to update my system?
+2011-07-03T23:41:00.000Z	ZykoticK9	aleph-2	honestly the "safest" would be to install aptitude and use the command "sudo aptitude safe-upgrade", BUT dist-upgrade is the same as the GUI update manager does.

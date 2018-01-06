@@ -1,0 +1,4 @@
+2011-06-26T11:22:00.000Z	proq		I'm trying to ssh to my ubuntu servers.  the first two or three attempts work ok but then the server seems to just ignore any new ssh requests for the next 24 hours and rebooting the server does not help.  how do I make it keep working?
+2011-06-26T11:23:00.000Z	wols	proq	fail2ban or similar installed?
+2011-06-26T11:27:00.000Z	proq	wols	no
+2011-06-26T11:27:00.000Z	wols	proq	check your logs why it doesn't let you log in

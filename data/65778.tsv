@@ -1,0 +1,4 @@
+2009-02-21T04:23:00.000Z	chaverma		hey if i had vi running on an ssh session that got disconnected when my client crashed, how can i reconnect to that vi session after i've reconnected?
+2009-02-21T04:24:00.000Z	guntbert	chaverma	only if you started a "screen" session before
+2009-02-21T04:25:00.000Z	chaverma	guntbert	i think i actually had been running that in screen
+2009-02-21T04:26:00.000Z	guntbert	chaverma	then you connect to the machine again and reattach the old session (screen -r I believe, but "man screen" tells you )

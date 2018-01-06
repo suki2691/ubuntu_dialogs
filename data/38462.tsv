@@ -1,0 +1,4 @@
+2010-01-24T02:09:00.000Z	nh2		how to prevent apt from upgrading firefox(-3.5) package while installing FF 3.6 (mozilla-ppa)?
+2010-01-24T02:11:00.000Z	DEbiansqueeze	nh2	would aptitude pinning work for you ?
+2010-01-24T02:19:00.000Z	nh2	DEbiansqueeze	seems a good try, it stops overrdining my old packages, but still wants to remove packages like firefox-3.0-branding and firefox-3.0-gnome-support. How to get around this?
+2010-01-24T02:34:00.000Z	nh2	DEbiansqueeze	works fine now, I pin-disallowed all packages from the mozilla-ppa with Pin: origin ppa.launchpad.net and set priority to -1000 and pin-allowed 300 the firefox-3.6 and firefox-3.6-gnome-support packages. Thanks for your hint!

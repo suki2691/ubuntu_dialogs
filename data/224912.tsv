@@ -1,0 +1,4 @@
+2005-08-07T14:33:00.000Z	kleggas		Im trying to share my internet to my laptop using 2 network cards in my server....eth0 connects to the net, and eth1 is supposed to share it....eth1 has ip 192.168.0.1, submask 255.255.255.0, gateway is the IP of eth0, and then I use on my laptop an IP 192.168.0.34 and submask 255.255.255.0 and gateway is 192.168.0.1 wich is the ip of servers eth1.....I can ssh to the server, ping it, but I can't get out on the net from the laptop...anyone h
+2005-08-07T14:33:00.000Z	cefx	kleggas	do you have a crossover cable to connect directly to the laptop?
+2005-08-07T14:34:00.000Z	kleggas	cefx	no, I use switch
+2005-08-07T14:36:00.000Z	kleggas	cefx	why did you ask about the crossover cable? does it make any difference if I use that instead of the switch? I mean, does it need to be setup different in the network settings?

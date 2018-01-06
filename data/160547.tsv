@@ -1,0 +1,4 @@
+2011-05-17T10:01:00.000Z	eman99		Hello , simple question. I enter the line “wget -q "http://deb.playonlinux.com/public.gpg" -O - | sudo apt-key add -” into terminal. What does the “-” char in this line do? I know the first “-” dumps the content of the file “ public.gpg” into the std out but why?
+2011-05-17T10:02:00.000Z	Jordan_U	eman99	In almost all commands that take a filename as an argument '-' stands for stdin.
+2011-05-17T10:03:00.000Z	Jordan_U	eman99	You're welcome.
+2011-05-17T10:05:00.000Z	Jordan_U	eman99	There is a general convention, just not a hard rule.

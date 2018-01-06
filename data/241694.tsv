@@ -1,0 +1,4 @@
+2005-04-25T08:47:00.000Z	Sauron21		Does anyone know why DMA is disabled in ubuntu???(and how I can enable it??:P)
+2005-04-25T08:48:00.000Z	membreya	Sauron21	sudo hdparm d1 /dev/hdx
+2005-04-25T08:49:00.000Z	membreya		hmmmm da_bon_bon has raised a good point..is there any damage to be done by enabling DRI in my xorg.conf with an nvidia card?
+2005-04-25T08:49:00.000Z	Sauron21	membreya	did work....got "d1: No such file or directory"

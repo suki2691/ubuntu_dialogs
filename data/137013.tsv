@@ -1,0 +1,4 @@
+2009-04-23T07:02:00.000Z	andrewkk		X11 is quitting immediately after it starts, but the Xorg log reports no errors. Where should I look to try to solve this?
+2009-04-23T07:03:00.000Z	kitche	andrewkk	most likely not an Xorg issue mroe of a gdm/gnome issue
+2009-04-23T07:03:00.000Z	andrewkk	kitche	thanks, I'll check around there.
+2009-04-23T07:17:00.000Z	andrewkk	kitche	fyi, apparently xinerama was to blame. I'm not sure why there weren't any error messages.

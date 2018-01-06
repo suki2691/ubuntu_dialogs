@@ -1,0 +1,4 @@
+2006-10-12T08:51:00.000Z	jesse__		hi folks, where does synaptic (or apt?) store downloaded, uninstalled packages? (hoary)
+2006-10-12T08:52:00.000Z	segfault_	jesse__	/var/cache/apt/archives/
+2006-10-12T08:52:00.000Z	segfault_	jesse__	all downloaded pkgs are stored there installed and uninstalled
+2006-10-12T08:53:00.000Z	segfault_	jesse__	that is the default loc, synaptic/apt/dpkg should all use it by default

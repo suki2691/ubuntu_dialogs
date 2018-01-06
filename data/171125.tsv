@@ -1,0 +1,4 @@
+2006-08-15T13:41:00.000Z	cowmilk		how can i search through my terminal commands history for all commands that have the word "cron" in them?
+2006-08-15T13:42:00.000Z	due	cowmilk	grep "cron" .bash_history
+2006-08-15T13:56:00.000Z	cowmilk	due	iter: what's the diffierence between  history | grep cron    and  grep "cron" .bash_history?
+2006-08-15T13:57:00.000Z	due	cowmilk	won't work if you don't have a ~/.bash_history file.

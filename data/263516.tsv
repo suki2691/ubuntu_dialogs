@@ -1,0 +1,4 @@
+2005-05-27T10:29:00.000Z	sgtkernel		hrm....what's the deal with cdrecord? -scanbus just warns me about the kernel version? I thought all that stuff with the non-scsi ide support was worked out...
+2005-05-27T10:30:00.000Z	sgtkernel		hrm
+2005-05-27T10:30:00.000Z	bob2_	sgtkernel	ignore -scanbus unless you actually have a scsi burner
+2005-05-27T10:30:00.000Z	bob2_	sgtkernel	if you have an ide one, cdrecord dev=/dev/hdc foo.iso

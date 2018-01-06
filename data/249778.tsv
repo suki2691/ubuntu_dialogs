@@ -1,0 +1,4 @@
+2007-10-11T10:33:00.000Z	cottagechz		I am trying to install grub from knoppix, but I cannot add deps to knoppix to compile grub, anyone?
+2007-10-11T10:33:00.000Z	Dr_willis	cottagechz	 compile grub? huh?
+2007-10-11T10:34:00.000Z	Dr_willis	cottagechz	 if you have an installed system - you can boot a live cd, chroot over to the installed system (mount it  and proc and /dev properly) and rerun update-grub
+2007-10-11T10:38:00.000Z	Dr_willis	cottagechz	 yes. You boot a live cd. and chroot over.  that url site mentioned how you need to set up (mount /proc and /dev also) http://ubuntuforums.org/showthread.php?t=210820 if you want to learn whats going on.

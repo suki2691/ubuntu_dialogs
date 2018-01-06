@@ -1,0 +1,4 @@
+2005-10-13T05:44:00.000Z	holden		I have a problem mounting my ntfs partition, it keeps telling me that: "You do not have the permissions necessary to view the contents of "windows"."
+2005-10-13T05:44:00.000Z	holden		could anyone help this poor soul?
+2005-10-13T05:45:00.000Z	mahangu	holden	mount it and then do sudo nautilus
+2005-10-13T05:53:00.000Z	mahangu	holden	like i said, add to fstab, /dev/hdaX /media/hdaX defaults,umask=0 0 0

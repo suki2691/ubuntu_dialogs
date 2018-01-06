@@ -1,0 +1,4 @@
+2005-06-08T09:32:00.000Z	kain		hi there, I know that ubuntu is UTF-8, but I've a problem with charsets in php, if I write some iso-8859-1/15 chars, they appears on web pags as '?', anyone knows how to change this behaviour?
+2005-06-08T09:33:00.000Z	thenuke	kain	try dpkg-reconfigure locales, and add support for those charsets and or make iso-8859 your default charset for whole system
+2005-06-08T09:33:00.000Z	kain		allright, thanks for suggestions
+2005-06-08T09:36:00.000Z	kain	thenuke	well, http://pastebin.com/293329

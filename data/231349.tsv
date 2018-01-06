@@ -1,0 +1,4 @@
+2006-08-10T06:36:00.000Z	bruenig		E: Could not get lock /var/lib/dpkg/lock - open (11 Resource temporarily unavailable) E: Unable to lock the administration directory (/var/lib/dpkg/), is another process using it? How do I fix that, I thin it is dpkg configure something or other but I forgot
+2006-08-10T06:37:00.000Z	compotatoj	bruenig	you have synaptic running or you are doing an apt-get
+2006-08-10T06:37:00.000Z	compotatoj	bruenig	close synaptic
+2006-08-10T06:39:00.000Z	compotatoj	bruenig	you could kill it using this (i know its really ugly put i don't know how to do it any other way): kill `ps aux | grep apt-get | grep -v grep | awk '{ print $2 }'`

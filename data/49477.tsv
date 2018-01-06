@@ -1,0 +1,4 @@
+2010-03-22T03:54:00.000Z	Appetite		What is the best way to add a script to startup?
+2010-03-22T03:56:00.000Z	soreau	Appetite	depends if the script needs root permissions or should be ran as user
+2010-03-22T03:56:00.000Z	Appetite	soreau	it doesn' NEED root permission, but i want it to start when the computer does (like apache2, mysqld, etc)
+2010-03-22T03:57:00.000Z	soreau	Appetite	If it does not need to be run as root, you can put it in your session startup in sys>prefs

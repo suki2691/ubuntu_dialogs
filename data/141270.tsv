@@ -1,0 +1,4 @@
+2007-04-01T13:45:00.000Z	dan20		Anyone know of a remote desktop server for Linux desktops that has a Windows client?  For example, my computer at work is Windows but I'd like to remote desktop to my Ubuntu desktop at home.  Is that possible (graphical, not ssh)
+2007-04-01T13:46:00.000Z	dan20		Or can I have OpenSSH server forward X sessions to PuTTY?
+2007-04-01T13:46:00.000Z	gordonjcp	dan20	yes, if you're running an X server on the machine running putty
+2007-04-01T13:46:00.000Z	dan20	gordonjcp	Okay, I wouldn't be, so I guess rdesktop is my answer.

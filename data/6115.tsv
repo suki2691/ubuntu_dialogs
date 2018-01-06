@@ -1,0 +1,4 @@
+2012-06-12T16:39:00.000Z	geneger		can anyone help me for wireless networking at ubuntu minimal with gnome-shell installed? it is working in command line but not in gnome, do i have to install any special package? i got error at the beginning as iwlwifi hardware error detected
+2012-06-12T16:41:00.000Z	geneger		i just installed gnome-shell over ubuntu minimal i don't know what it installed as dependency
+2012-06-12T16:42:00.000Z	Chuck_Norris	geneger	sudo rmmod iwlwifi ; sleep 5 ; sudo modprobe iwlwifi 11n_disable=1
+2012-06-12T16:45:00.000Z	Chuck_Norris	geneger	as a dirty but permanent solution you have to add in: /etc/rc.local  and above "exit 0"  http://paste.ubuntu.com/1037126/

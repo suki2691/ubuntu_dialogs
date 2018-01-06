@@ -1,0 +1,4 @@
+2011-01-04T17:06:00.000Z	www		Hi. I want to fire up nautilus, thunderbird and firefox using one command. I want them to be executed in the same order, so I 'nautilus && thunderbird && firefox-4.0'. The problem is the the first two parts (nau,tb) work as they should be and the ff opens as I close tb. What am I doing wrong?
+2011-01-04T17:08:00.000Z	www		I want to fire up nautilus, thunderbird and firefox using one command. I want them to be executed in the same order, so I 'nautilus && thunderbird && firefox-4.0'. The problem is the the first two parts (nau,tb) work as they should be and the ff opens as I close tb. What am I doing wrong?
+2011-01-04T17:08:00.000Z	gschwepp	www	maybe try & and not &&
+2011-01-04T17:09:00.000Z	www	gschwepp	Could you explain the difference?

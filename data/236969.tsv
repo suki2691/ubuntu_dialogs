@@ -1,0 +1,4 @@
+2006-05-27T14:05:00.000Z	heatxsink		has anyone upgraded debian to ubuntu?
+2006-05-27T14:06:00.000Z	CrippsFX	heatxsink	haven't done it, but based on apt-get, I would think that it can be done. just rebuild your /etc/apt/sources.list , run an "apt-get update" and do "apt-get dist upgrade"
+2006-05-27T14:07:00.000Z	heatxsink	CrippsFX	I did just that now I'm getting package conflicts
+2006-05-27T14:08:00.000Z	CrippsFX	heatxsink	could tell it to force installation, or remove the conflicting packages ... that might be worthy of some form of script ...

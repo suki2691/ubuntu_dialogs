@@ -1,0 +1,4 @@
+2009-01-20T08:34:00.000Z	Ent[R]opy		I've installed Ubuntu Server Edition and chose the LAMP installation at setup. I'm intending to use Python. However what i'm wondering is what interface Ubuntu has installed between Python and Apache. Is it mod_Python or FastCGI or...?
+2009-01-20T08:35:00.000Z	Ent[R]opy		Does anyone happen to know?
+2009-01-20T08:35:00.000Z	mindrape	Ent[R]opy	looks like modpython
+2009-01-20T08:36:00.000Z	mindrape	Ent[R]opy	based on googling            ubuntu LAMP python httpd.conf          the AddHandler mod_python .py comes up

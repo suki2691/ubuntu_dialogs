@@ -1,0 +1,4 @@
+2010-09-11T19:07:00.000Z	xandje		hi guys, so I just accidentally recursively deleted my homedir
+2010-09-11T19:07:00.000Z	erUSUL	xandje	o.0! with rm -r ?
+2010-09-11T19:08:00.000Z	erUSUL	xandje	copy again from /etc/skel/
+2010-09-11T19:18:00.000Z	erUSUL	xandje	shopt -s dotglob ; cp -r /etc/skel/* . ; shopt -u dotglob

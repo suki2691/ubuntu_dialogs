@@ -1,0 +1,4 @@
+2011-05-09T12:17:00.000Z	wip_		Hi, does the grub version in ubuntu support /boot with ext4 yet?
+2011-05-09T12:18:00.000Z	yagoo	wip_	should if its grub2
+2011-05-09T12:21:00.000Z	yagoo	wip_	dunno about this...but dont u need /boot partition for raid ?
+2011-05-09T12:22:00.000Z	wip_	yagoo	as it's raid1 i shouldn't need to. but i do need to pass /dev/md0 as kernel parameter for root.

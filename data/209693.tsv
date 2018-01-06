@@ -1,0 +1,4 @@
+2009-10-20T23:21:00.000Z	thiscomputer		is there a way to make all actions sudo in terminal?
+2009-10-20T23:23:00.000Z	thiscomputer		wanhouse would su - be indifinate
+2009-10-20T23:23:00.000Z	LjL	thiscomputer	"sudo -i" is recommended (in the context of doing everything via sudo being NOT recommended to begin with, of course)
+2009-10-20T23:24:00.000Z	LjL	thiscomputer	(being root all the time will have bad implications for your files' permissions - they may become unreadable by your user - aside from the obvious security issues)

@@ -1,0 +1,4 @@
+2010-11-04T23:43:00.000Z	captkirk		How can I change the permissions of the dev/pts pseudo-terminals?
+2010-11-04T23:43:00.000Z	erUSUL	captkirk	why would you want to do that?
+2010-11-04T23:44:00.000Z	erUSUL		!mta | trogdoro the mta was installled by default back then
+2010-11-04T23:44:00.000Z	captkirk	erUSUL	Because I'm using KVM and libvirt which sets up consoles in /dev/pts to the domU's and I don't like having to run as root to connect to the consoles

@@ -1,0 +1,4 @@
+2009-04-02T13:15:00.000Z	magnetron		fungin→ by putting the svn commands in the cron-launched script?
+2009-04-02T13:17:00.000Z	fungin	magnetron	but it won't launch svn command
+2009-04-02T13:18:00.000Z	fungin	magnetron	when I launch it manually it works ok, but cron stucks on svn command, what's more I have >> results of svn update to a file and though the script is launched the log file I have created is empty
+2009-04-02T15:00:00.000Z	fungin	magnetron	I did that with other scripts that weren't working and theywork with sudo in cron

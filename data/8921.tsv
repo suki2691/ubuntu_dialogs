@@ -1,0 +1,4 @@
+2012-08-10T04:08:00.000Z	jdanna		how do i figure otu what disk devices are connected via firewire on ubuntu?
+2012-08-10T04:08:00.000Z	jdanna		it sees the pci firewire card in dmesg
+2012-08-10T04:08:00.000Z	Jordan_U	jdanna	ls -l /dev/disk/by-path/
+2012-08-10T04:08:00.000Z	jdanna	Jordan_U	wow now thats quite clever isnt it

@@ -1,0 +1,4 @@
+2007-08-19T11:40:00.000Z	lloyd__		I need to find out the info of my NTFS partition to add it to the fstab, how would I do that?
+2007-08-19T11:40:00.000Z	Jack_Sparrow	lloyd__	sudo fdisk -l
+2007-08-19T11:41:00.000Z	lloyd__	Jack_Sparrow	Thank you
+2007-08-19T11:41:00.000Z	Jack_Sparrow	lloyd__	sudo fdisk -l > ~/Desktop/partition.layout.txt   will save a copy to your desktop

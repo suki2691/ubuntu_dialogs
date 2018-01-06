@@ -1,0 +1,4 @@
+2006-01-19T13:58:00.000Z	zztopd		hi, there. i've got a message from "apt-get install foobar"  -- "Origin Signature check failed.. This deb might not be signed."-- how can i resolve this error?
+2006-01-19T13:59:00.000Z	nalioth	zztopd	you don't. the packager has probably not signed his pkg
+2006-01-19T13:59:00.000Z	nalioth	zztopd	can you get the program in source form?
+2006-01-19T14:07:00.000Z	zztopd	nalioth	i use only "archive.ubuntu.com" repository. and some day ago "apt-get" wrote message  --debsig: Origin Signature check failed. This deb might not be signed.--

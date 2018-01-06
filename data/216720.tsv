@@ -1,0 +1,4 @@
+2006-07-10T07:38:00.000Z	Shizboom		How would i go about runing a shell script from shell? "sudo file.sh" isn't working
+2006-07-10T07:38:00.000Z	ardchoille	Shizboom	sudo sh file.sh
+2006-07-10T07:40:00.000Z	ardchoille	Shizboom	since that is a shell script, do: chmod u+x file.sh  (use sudo if needed)
+2006-07-10T08:01:00.000Z	ardchoille	Shizboom	my logs are full of those

@@ -1,0 +1,4 @@
+2011-08-29T21:38:00.000Z	andeeeuk_		hey everyone
+2011-08-29T21:38:00.000Z	andeeeuk_		does anyone know how to setup a network share on 11.04
+2011-08-29T21:38:00.000Z	andeeeuk_		having probs connecting to it
+2011-08-29T21:39:00.000Z	rhin0	andeeeuk_	 --- nfs -- load portmap and nfs-common and nfs-kernel-server on the server - portmap and nfs-common on the client .... set up the exports file /etc/exports then set the access so the client can go through the firewall

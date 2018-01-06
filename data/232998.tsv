@@ -1,0 +1,4 @@
+2009-11-10T23:03:00.000Z	slide		Does anyone know how to change the baud rate for a usb serial port?
+2009-11-10T23:04:00.000Z	erUSUL	slide	setserial ?
+2010-06-26T01:42:00.000Z	erUSUL	slide	dmesg | grep -i ata
+2010-06-26T01:43:00.000Z	erUSUL	slide	sudo hdparm -i /dev/sda

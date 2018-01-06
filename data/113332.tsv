@@ -1,0 +1,4 @@
+2008-07-21T05:15:00.000Z	admin_		hey guys, if anyone if good with kernel updating and grub, please see if you can answer my question, thanks. http://ubuntuforums.org/showthread.php?t=865545
+2008-07-21T05:16:00.000Z	yoyoned	admin_	run grub-install /dev/sda from the 32 bit to install on mbr
+2008-07-21T05:20:00.000Z	admin_	yoyoned	are you sure, will grub-install mess up stuff?
+2008-07-21T05:22:00.000Z	yoyoned	admin_	it will install grub from the 32 bit system that is getting updates onto the MBR.  The other sloution would be to mount the 64 bit systems / partition, and maunully copy the stanzas for your new kernel into it

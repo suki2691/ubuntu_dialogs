@@ -1,0 +1,4 @@
+2005-10-22T05:25:00.000Z	xuniluser		Help: After doing the 'apt-get dist-upgrade' and after extracting the templates and preconfiguring packages, 'dpkg' issued an error: "parse error in file /var/lib/dpkg/available near line 6331 package totem" Please help
+2005-10-22T05:26:00.000Z	sn9	xuniluser	that's not good. try apt-get update again
+2005-10-22T05:27:00.000Z	xuniluser	sn9	does that have something to do with my cdrom? i'm trying to upgrade from hoary to breezy
+2005-10-22T05:28:00.000Z	sn9	xuniluser	no, it's file corruption. apt-get update might fix it

@@ -1,0 +1,4 @@
+2007-01-27T15:22:00.000Z	section31		when i mount a partition to a particular directorya nd then i reboot...it goes away.  Anyone know what i'm doing wrong?
+2007-01-27T15:23:00.000Z	ineluki12	section31	if you want a partition to be there after rebooting, you need to make an entry in /etc/fstab
+2007-01-27T15:25:00.000Z	ineluki12	section31	open up a terminal and enter 'man fstab'; this will explain what you need to do; also, take a look at your current /etc/fstab file, and try to mimmick one of the other, similar entries
+2007-01-27T15:31:00.000Z	ineluki12	section31	enter 'sudo -i' then 'rmmod pcspkr' then 'echo "blacklist pcspkr" > /etc/modprobe.d/blacklist'

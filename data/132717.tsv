@@ -1,0 +1,4 @@
+2009-06-08T03:06:00.000Z	click		Afternoon - I'm poking around with trying to get paravirtualization (with kvm/qemu) working on Ubuntu 9.04 on an amd64 arch, installed from a standard live cd, however it does not seem to allow it. I've added the users to the libvirtd group as to allow them to manage virtualized machines, but there's no ability to select paravirtualized when using virt-manager - any ideas what this may be due to?
+2009-06-08T03:07:00.000Z	fryguy	click	http://www.howtoforge.com/virtualization-with-kvm-on-ubuntu-9.04
+2009-06-08T03:08:00.000Z	click	fryguy	already gone through it, it was one of the first things i looked at, but it still doesn't do PV for some odd reason
+2009-06-08T03:10:00.000Z	click	fryguy	essentially, it does not accept PV, just standard fully virtualized systems - hence the question here

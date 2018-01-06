@@ -1,0 +1,4 @@
+2007-06-30T15:31:00.000Z	Sasa		hi all, I'm trying to do a simple thing. I need to open a boot file in edit mode so I can add my windows entry as it was lost during update. What is the command for sudo open /boot/grub/menu.lst
+2007-06-30T15:31:00.000Z	Sasa		?
+2007-06-30T15:32:00.000Z	afief	Sasa	sudo apt-get /boot/grub/menu.lst or if you have kubuntu replace gedit with kate
+2007-06-30T15:33:00.000Z	afief	Sasa	oops sorry where did the apt-get come from? that should be "gedit"

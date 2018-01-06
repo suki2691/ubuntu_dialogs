@@ -1,0 +1,4 @@
+2010-10-04T18:25:00.000Z	latagore		I installed a new kernel version and is broken for my computer; it seems the old kernel version is still on my computer. How do I remove the new kernel version and hold the new one?
+2010-10-04T18:27:00.000Z	iflema	latagore	boot using an older kernel and edit /etc/default/grub and change the default boot and then in a terminal sudo update-grub, next kernel update ittl reset and try to use the new update effectivly skipping a kernel
+2010-10-04T18:28:00.000Z	latagore	iflema	The thing is that I don't want it to update at all. The support for my hardware is sketchy and doesn't work in the new version
+2010-10-04T18:30:00.000Z	iflema	latagore	it may be fixed in the next kernel release.... if not reapply and wait (cross finger) for the next kernel release

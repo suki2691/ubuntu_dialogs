@@ -1,0 +1,4 @@
+2009-10-01T18:53:00.000Z	g_		how do i determine the current connections my computer is making and receiving?
+2009-10-01T18:54:00.000Z	grawity	g_	netstat -et
+2009-10-01T18:54:00.000Z	grawity	g_	If you also want to see the process names, sudo netstat -etp
+2009-10-01T18:54:00.000Z	grawity	g_	And to see "listening" (waiting) sockets (instead of established connections", -l instead of -e

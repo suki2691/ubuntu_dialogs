@@ -1,0 +1,4 @@
+2007-09-11T16:30:00.000Z	ambrose_		hey wen i try to  ./configure a tar.gz file its says no zlib found  maybe its cuz i didnt download zlib?
+2007-09-11T16:31:00.000Z	ambrose_		any help on that fellow ubuntuers
+2007-09-11T16:31:00.000Z	gnutron	ambrose_	tar -zxf file.tar.gz
+2007-09-11T16:32:00.000Z	gnutron	ambrose_	try apt-get install build-essential first, possibly.

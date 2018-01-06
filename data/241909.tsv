@@ -1,0 +1,4 @@
+2007-08-05T13:37:00.000Z	MukiEX		http://lab.artlung.com/unix-batch-file-rename/
+2007-08-05T13:37:00.000Z	MukiEX		for file in *.mod ; do mv $file `echo $file | sed 's/\(.*\.\)html/\1mpg/'` ; done
+2007-08-05T13:37:00.000Z	MukiEX		Would that do it for you, TheCreationist ?
+2007-08-05T13:39:00.000Z	astro76	MukiEX	rename 's/\.mod$/.mpg/' *.mod ;)

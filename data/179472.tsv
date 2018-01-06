@@ -1,0 +1,4 @@
+2011-01-28T18:39:00.000Z	Kronusdark		is there a way to via SSH configure ubuntu to run in text mode only on reboot?
+2011-01-28T18:40:00.000Z	jrib	Kronusdark	you don't want gdm to startup?
+2011-01-28T18:41:00.000Z	jrib	Kronusdark	if you read /etc/init/gdm.conf it hints that you can add "text" to your kernel line in grub to have gdm not start
+2011-01-28T18:42:00.000Z	jrib	Kronusdark	edit /etc/default/grub and modify GRUB_CMDLINE_LINUX_DEFAULT, run update-grub, update the existing entries in /boot/grub/grub.cfg too

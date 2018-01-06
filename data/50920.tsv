@@ -1,0 +1,4 @@
+2010-03-24T03:39:00.000Z	jc		Hi.  Ubuntu 9.10- When I click places, I successfully connect to a server(SMB share), I get a folder on my desktop.  How do I reference where that mount point is in the terminal?  Thanks!
+2010-03-24T03:40:00.000Z	darolu	jc	generally it's mounted at /home/<user>/.gvfs
+2010-03-24T03:40:00.000Z	darolu	jc	in a terminal run "mount" it will list all of your mounted devices and their paths
+2010-03-24T03:40:00.000Z	jc	darolu	THANKS!  I've been wondering for ages. :)

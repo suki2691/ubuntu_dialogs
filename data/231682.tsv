@@ -1,0 +1,4 @@
+2005-07-09T05:25:00.000Z	zukalk		how do i 'chmod -r' my entire $HOME dir to other users, so that only i (and root..) can see what's in it?
+2005-07-09T05:26:00.000Z	soulfly	zukalk	i think it's chmod you want..   remove the x-flags from the directories as others... $ find /home/myself -type d | xargs chmod o-x
+2005-07-09T05:28:00.000Z	zukalk	soulfly	anto9us, thanks both. what are the x-flags?
+2005-07-09T05:37:00.000Z	zukalk	soulfly	i get an error about xargs

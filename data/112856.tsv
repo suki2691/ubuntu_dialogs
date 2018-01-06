@@ -1,0 +1,4 @@
+2008-06-03T19:11:00.000Z	Lachlan		Hi guys. How can I tell if Ubuntu is actually using the graphics hardware, and not software rendering? Does Ubuntu even do software rendering?
+2008-06-03T19:12:00.000Z	erUSUL	Lachlan	glxinfo | grep direct
+2008-06-03T19:12:00.000Z	Lachlan	erUSUL	I see, so direct rendering means that it's using the graphics hardware? Is this the "DRI" option in xorg.conf?
+2008-06-03T19:12:00.000Z	erUSUL	Lachlan	yep

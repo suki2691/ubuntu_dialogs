@@ -1,0 +1,4 @@
+2005-07-06T09:19:00.000Z	Travis|H		I'm trying to play a windows media encoder stream on my linux box, and i can not for the life of me get it to work. i have the w32codecs installed, i've tried mplayer, videolan, and totem-xine now and still have not had any luck. the stream does work on my other PCs (as well as this one when windows is installed on it)
+2005-07-06T09:19:00.000Z	stevef_	Travis|H	is the stream public? Post the URL and maybe we can test it
+2005-07-06T09:20:00.000Z	stevef_	Travis|H	bummer. wmv streams seem to work OK for me w/ totem-xine and the extra codecs
+2005-07-06T09:23:00.000Z	stevef_	Travis|H	in the preferences there is a button to install codecs... or they can be placed manually in /usr/lib/win32 (I think... I'm on a PPC now so I can't check)

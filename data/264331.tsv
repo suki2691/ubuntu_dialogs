@@ -1,0 +1,4 @@
+2005-11-08T16:52:00.000Z	ayyanarch		hello
+2005-11-08T16:53:00.000Z	ayyanarch		who knows how to get bash variables, like $PWD, to work inside a small sed script?
+2005-11-08T16:54:00.000Z	topyli	ayyanarch	write a bash script that sets variables and then executes a sed script in the same shell :)
+2005-11-08T16:55:00.000Z	topyli	ayyanarch	#!/bin/bash is the first line. on the next you set the variables you want. on the third you have the sed command :)

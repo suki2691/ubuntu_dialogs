@@ -1,0 +1,4 @@
+2009-06-08T11:41:00.000Z	ConfusedUser945		now my second question, I'm thinking of getting rid of my windows xp and its recovery partition with a live cd, making my acer aspire one fully linux, but how do I do that without messing up my grub bootloader? and should I get rid of the windows recovery partition, its only 4gb big so idc really
+2009-06-08T11:42:00.000Z	SPF	ConfusedUser945	use fdisk and remove the partitions you don't want
+2009-06-08T11:43:00.000Z	ConfusedUser945	SPF	one how? and two should I get rid of the recovery partition?
+2009-06-08T11:45:00.000Z	SPF	ConfusedUser945	1) find your drive ( sudo fdisk -l ) 2) make sure it's not mounted 3) use fdisk /dev/<drive> 4) use ? for commands

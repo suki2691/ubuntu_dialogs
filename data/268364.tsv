@@ -1,0 +1,4 @@
+2005-02-02T09:58:00.000Z	supertux_		hi i need to mount a drive but im not sure what type of file system is on the drive
+2005-02-02T09:59:00.000Z	supertux_		i thought it was fat32 or ntfs cant be sure
+2005-02-02T09:59:00.000Z	sladen	supertux_	sudo fdisk -l /dev/hda   will tell you what type each partition is
+2005-02-02T09:59:00.000Z	sladen	supertux_	and if you don't know, you can always try 'auto'

@@ -1,0 +1,4 @@
+2007-08-13T07:54:00.000Z	networkgamer		whats the command to move every file from one directory to another directory?
+2007-08-13T07:54:00.000Z	jrib	networkgamer	mv /some/place/* /some/place/.* /some/other/place
+2007-08-13T08:00:00.000Z	jrib	networkgamer	you can use find to search for files modified since a specified date, but ext3 doesn't retain information about when a file was created
+2007-08-13T08:18:00.000Z	jrib	networkgamer	no idea what extra data fat16 stores or how to access it

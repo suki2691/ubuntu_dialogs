@@ -1,0 +1,4 @@
+2007-02-18T07:05:00.000Z	unity		hey, anyone have a guide for disabling iptables in ubuntu 6.10?
+2007-02-18T07:05:00.000Z	LjL	unity	iptables is a command, it cannot be "disabled". it controls netfilter, which is part of the kernel -- but it doesn't make much sense to disable netfilter. as long as you don't have any rules active (and Ubuntu doesn't by default), it won't do anything
+2007-02-18T07:09:00.000Z	unity	LjL	okay, just wondering because i'm running into trouble while trying to leave an ssh tunnel
+2007-02-18T07:10:00.000Z	LjL	unity	"sudo iptables -F" will remove any iptables rules that you might have active

@@ -1,0 +1,4 @@
+2010-08-06T23:58:00.000Z	c3l		how do I see the sticky bit or whats it called when listing, it doesnt always show in the permission field (with ls -l) how do I know the exact permissions?
+2010-08-06T23:59:00.000Z	oCean_	c3l	ls -l should show, but there's also 'stat filename'
+2010-08-07T00:01:00.000Z	c3l	oCean_	I was trying it and setting first chmod 700 foo then cmod o+t the T is shown with ls -l, but then if I set chmod 707 the T is not visible, but the folder still has strange color when listing it
+2010-08-07T00:02:00.000Z	c3l	oCean_	but the stat command was nice, thanks

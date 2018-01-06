@@ -1,0 +1,4 @@
+2009-12-16T09:53:00.000Z	michael_		anyone know why my nvidia x server shows my current monitor as a CRT-0? and my second as Acer AL1916W (disabled)?
+2009-12-16T09:53:00.000Z	ctmjr	michael_	you need to enable it if you want the second monitor
+2009-12-16T09:54:00.000Z	michael_	ctmjr	I did enable it. but when I hit quit and start it back up it goes back to disabled.
+2009-12-16T09:56:00.000Z	ctmjr	michael_	try it with sudo nvidia-settings then enable the second monitor then save the configuration to xorg there are buttons for it in the nvidia-settings

@@ -1,0 +1,4 @@
+2011-11-07T03:20:00.000Z	Jordan_U	squires	Don't ever depend on the enumeration of devices like /dev/sda. Ubuntu doesn't depend on enumeration at all for MD by default. How did you setup the array?
+2011-11-07T03:21:00.000Z	squires	Jordan_U	I created the array with "mdadm --create /dev/md0 --level=10 --chunk=512 --layout=o2 --raid-devices=5 /dev/sd[b,c,d,e,f]1", if that's what you mean?
+2011-11-07T03:23:00.000Z	squires	Jordan_U	if I use the default mdadm.conf configuration file, on reboot I get an inactive array consisting of only /dev/sde1
+2011-11-07T03:23:00.000Z	squires	Jordan_U	by listing the devices in the conf file, the array works

@@ -1,0 +1,4 @@
+2010-07-15T01:04:00.000Z	MetalGeek_N00b		ok so Learn the terminal or Cli, Is there some way that i can see incoming and outgoing connections, open ports etc in the cli
+2010-07-15T01:04:00.000Z	guntbert	MetalGeek_N00b	start with lsof -i
+2010-07-15T01:07:00.000Z	guntbert	MetalGeek_N00b	for a first impression use lsof -i  -- shows all connections and all listening servers
+2010-07-15T01:22:00.000Z	guntbert	MetalGeek_N00b	use sudo iptables -L

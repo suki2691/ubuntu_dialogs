@@ -1,0 +1,4 @@
+2007-06-29T15:31:00.000Z	craigyjack		can you disable the harddrive being force checked?
+2007-06-29T15:31:00.000Z	jrib	craigyjack	forever?
+2007-06-29T15:33:00.000Z	craigyjack	jrib	well its kinda annoying that it checks each of my partitions once theyve been mounted 32 times. they have always worked fine, whats the point in it keep checking them, never had a problem mounting them
+2007-06-29T15:35:00.000Z	jrib	craigyjack	it's a good idea to let them get checked.  You can tell it not to check if you 'touch /fastboot' before you reboot.  You could also change settings in fstab or use tune2fs if you really want to.  But I recommend leaving them be

@@ -1,0 +1,4 @@
+2007-11-30T22:34:00.000Z	HalphaZ		Hi. I've a problem with usb devices (usb memorie, usb HD, usb bluetooth): when I insert a usb device with gutsy started, the devices doesn'ty work. If I restart the system, they works. But if I unplug and after I plug again the devices, they doesn't works... help!!! sorry for my poor english
+2007-11-30T22:35:00.000Z	erUSUL	HalphaZ	maybe hal is daiying for some reason? check if it's running 'ps ax | grep hal'
+2007-11-30T22:38:00.000Z	HalphaZ	erUSUL	http://pastebin.ubuntu.com/2388/
+2007-11-30T22:41:00.000Z	erUSUL	HalphaZ	so it seems that hal is not the problem...

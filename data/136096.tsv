@@ -1,0 +1,4 @@
+2010-09-18T15:50:00.000Z	dennis_		lol.. this is good.. I went to chmod 777 /var/run/file and accidentally typed chmod 777 / var/run/file  .. notice the space...  im not sure how many hundreds of files it changed before i aborted it but now I cannot SU ...
+2010-09-18T15:50:00.000Z	dennis_		is there a way to revert all system files back to their normal attributes?
+2010-09-18T15:51:00.000Z	Gnea	dennis_	livecd
+2010-09-18T15:51:00.000Z	Gnea	dennis_	and you technically only changed /, not any other files (you didn't use -r)

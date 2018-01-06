@@ -1,0 +1,4 @@
+2010-11-01T17:51:00.000Z	ha55an		hi, i have a question: i have a folder full of subfolders with pictures. many of the pics are dupplicates, i have used fslink to create hardlinks to dupplicates to save disk space. i now want to copy all the folder to a usb drive (for backup) how do i do that without it taking too much space and creating dupplicates all over again?
+2010-11-01T17:52:00.000Z	burhan	ha55an	what format is the USB drive?
+2010-11-01T17:52:00.000Z	ha55an	burhan	ext3
+2010-11-01T17:53:00.000Z	burhan	ha55an	try cp -pPr it should copy links and permissions.

@@ -1,0 +1,4 @@
+2008-08-25T05:41:00.000Z	AMDfanboy		SUPER SIMPLE - i made a directory /docs, but it won't let me write to it, because its at the root and owned by root, how do i change that?
+2008-08-25T05:41:00.000Z	unop	AMDfanboy	sudo chown $USER.$USER /docs
+2008-08-25T05:43:00.000Z	AMDfanboy	unop	USER in caps?
+2008-08-25T05:43:00.000Z	unop	AMDfanboy	$USER as is .. yes, in CAPS with the preceding $ too

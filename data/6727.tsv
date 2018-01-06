@@ -1,0 +1,4 @@
+2012-01-02T02:44:00.000Z	caffine		how do i find the /dev device to which a usb device has been bound? apparently, usbcore registered my device with snd-usb-audio, but i'm not sure where or how to find it to use on the command line with mplayer. i can see the video at /dev/video0 but don't know where to find the audio. here are the relevant entries from dmesg: http://paste.ubuntu.com/789239/ here's lsusb:  http://paste.ubuntu.com/789240/ here's what i'm trying t
+2012-01-02T02:45:00.000Z	Xyzzy_	caffine	try looking in /dev/disk/by-id/
+2012-01-02T02:49:00.000Z	caffine	Xyzzy_	 thanks! i don't see the device in there, though. the device isn't actually a disk. it's the audio device i want. i found /dev/v4l/by-* but it's not there either.
+2012-01-02T02:49:00.000Z	Xyzzy_	caffine	open ubuntu's active input dialog, alt+printscreen+k

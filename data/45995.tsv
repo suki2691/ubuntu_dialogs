@@ -1,0 +1,4 @@
+2010-08-26T00:00:00.000Z	OmniCitadel		Greetings, I am troubleshooting a freaky awesome network issue on a small soho network, using windows I can use softperfect network scanner which finds stuff out there chewing an ip addy up with out replying to most protocols such as ping, is there a simular competent program for linux? i see that they don't make one but wanted to know if there was a port / alternative
+2010-08-26T00:01:00.000Z	nibbler_	OmniCitadel	nmap
+2010-08-26T00:01:00.000Z	OmniCitadel	nibbler_	nmap does not find the same results.... using nmap -sP 192.168.1.1-254
+2010-08-26T00:02:00.000Z	nibbler_	OmniCitadel	i'd guess nmap is better :-) but read the manpage, use the scans you need to get the results you want, try -O - i like the -O ;-)

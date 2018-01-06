@@ -1,0 +1,4 @@
+2012-02-12T03:24:00.000Z	del_		right.  well, my brother is autistic - so i prefer not to ask him to choose.  prefer to have him turn on the computer and have it just go to windows 7 for him.
+2012-02-12T03:25:00.000Z	escott	del_	/etc/default/grub has a GRUB_DEFAULT=0 you can change that number to match the index of windows in the boot menu and then run sudo update-grub
+2012-02-12T03:26:00.000Z	escott	del_	use sudo grub-reboot # and it will take care of many of those details for you
+2012-02-12T03:27:00.000Z	del_	escott	 thanks. i'm going to try to read up a little on grub then change the options!

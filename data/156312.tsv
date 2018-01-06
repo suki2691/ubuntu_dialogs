@@ -1,0 +1,4 @@
+2008-06-10T05:19:00.000Z	ingo__		how can i delete my current default kernel and make the second one my default again? (grub ...)
+2008-06-10T05:21:00.000Z	genii	ingo__	just sudo aptitude/apt-get remove it, grub will adjust itself
+2008-06-10T05:24:00.000Z	genii	ingo__	Find the running version. eg:  uname -r      then: sudo apt-get remove linux-image-<whatever uname -r reported here>
+2008-06-10T05:25:00.000Z	genii	ingo__	When it cleans up grun and removes the entry, the previous one becomes first to be loaded again

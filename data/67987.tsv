@@ -1,0 +1,4 @@
+2009-08-30T10:03:00.000Z	timbojimbo_		my ethernet card is an intel corp 82801db pro/100. My main problem is it is not sending or receiving from the cable modem. i recently tried modprobe e100 then i restarted ~init.d/networking. worked the first time but after the computer went into hibernation the connection dropped and i tried again with no luck. i then tried ifup eth0 and it gave me this message: Ignoring unknown interface eth0=eth0. I have been scowering the web for any help to no avail.
+2009-08-30T10:03:00.000Z	timbojimbo_		 If any one can help me it would be greatly appreciated...
+2009-08-30T10:04:00.000Z	gartral	timbojimbo_	try sudo dhclient eth0
+2009-08-30T10:05:00.000Z	gartral	timbojimbo_	and your sure it's the networking card/software, not the cable?

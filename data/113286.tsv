@@ -1,0 +1,4 @@
+2007-11-21T06:47:00.000Z	santh		when i tried it only root can do that ? then what do plz help me i am new to ubuntu
+2007-11-21T06:47:00.000Z	JohnMM	santh	append sudo to beginning of command
+2007-11-21T06:54:00.000Z	JohnMM	santh	append sudo to beginning of command
+2007-11-21T07:06:00.000Z	JohnMM	santh	read this very carefully and follow the following step by step, this will solve your question... 1) type fdisk -l, match the /dev/name with the capacity of the drive 2) do a sudo mount /dev/name /mnt/something

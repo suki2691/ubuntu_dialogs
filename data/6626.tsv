@@ -1,0 +1,4 @@
+2012-01-07T20:32:00.000Z	chmac		How do I create a ramdisk as a partition, without mounting it? `mount -t tmpfs` doesn't work, because I don't want it mounted, I want it as a raw partition to extend an lvm onto.
+2012-01-07T20:34:00.000Z	limeage	chmac	probably  zram module will help you. This is not tmpfs  but   it will create block device in ram
+2012-01-07T20:34:00.000Z	limeage	chmac	moreover it will be compressed
+2012-01-07T20:35:00.000Z	chmac	limeage	Ok, sweet, compression probably isn't necessary in this case. I'm looking into zram now, thanks.

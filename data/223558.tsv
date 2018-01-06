@@ -1,0 +1,4 @@
+2007-01-18T07:43:00.000Z	kupesoft		I got disconnected
+2007-01-18T07:44:00.000Z	kupesoft		I have a multi-user environment on a server where I can't trust my users not to hog resources and spawn too many processes (re: fork bomb).  How can I limit resources and processes on a per-user basis?
+2007-01-18T07:44:00.000Z	zcat[1] 	kupesoft	ulimit ...
+2007-01-18T07:45:00.000Z	zcat[1] 	kupesoft	try help ulimit ... I think there's a systemwide file (/etc/ulimits or something) that applies limits to login shells too.

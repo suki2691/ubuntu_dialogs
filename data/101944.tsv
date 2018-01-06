@@ -1,0 +1,4 @@
+2008-03-27T01:23:00.000Z	weirderrors		I have a kind of weird error... I have some text files that got backed up in a .zip on a windows box.. they were unzipped with -a on the ubuntu box... pico reads them fine and saves them.. they show up as bright yellow background and black foreground on ls.. and the program that reads them jkeeps erroring invalid file format.
+2008-03-27T01:23:00.000Z	weirderrors		Hope that didn't trunc
+2008-03-27T01:24:00.000Z	weirderrors		dos2unix doesn't fix that problem.. did my last message cut off or go through it was long?
+2008-03-27T01:26:00.000Z	unop__	weirderrors	you probably want the file saved in the DOS file format -- so you need the equivalent of unix2dos rather than dos2unix -- but i'm assuming this is because the program you are running expects DOS files

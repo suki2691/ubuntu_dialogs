@@ -1,0 +1,4 @@
+2007-04-23T07:40:00.000Z	squee_		How do i install the source of the kernel and all of it's modules?  I have linux-image-`uname -r` installed but it is missing the mac80211 source
+2007-04-23T07:41:00.000Z	chernobylrpgfree	squee_	for source, install the *-dev package.  So, linux-image-`uname -r`-dev
+2007-04-23T07:41:00.000Z	squee_	chernobylrpgfree	that doesn't work with the kernel
+2007-04-23T07:42:00.000Z	chernobylrpgfree	squee_	oh, duh, running on autopilot, it's the -headers isn't it??

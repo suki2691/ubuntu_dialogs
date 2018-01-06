@@ -1,0 +1,4 @@
+2007-08-14T16:57:00.000Z	Davy_Jones	tech_	mount /dev/<partition> /media/<mountpoint>
+2007-08-14T16:58:00.000Z	tech_	Davy_Jones	Thanx but is it sudo at the start?
+2007-08-14T16:58:00.000Z	Davy_Jones	tech_	yeah, forgot that
+2007-08-14T16:59:00.000Z	Davy_Jones	tech_	you might have to add the "-o uid=1000" option after the mount command if the vfat partition is not writable

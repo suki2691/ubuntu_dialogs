@@ -1,0 +1,4 @@
+2011-09-05T20:05:00.000Z	knightstalker		Hello,any reason to use Propriety Graphic driver when nv driver(The default one) is running unity perfectly?
+2011-09-05T20:06:00.000Z	Polah	knightstalker	Better 3D support for some applications and perhaps better general performance.
+2011-09-05T20:09:00.000Z	Polah	knightstalker	To revert you could use modprobe to change it and edit your xorg or the easier way would be to disable/remove it in jockey-gtk. Installing it that way would be easier too.
+2011-09-05T20:10:00.000Z	Polah	knightstalker	just run Jockey, select the driver if it's there, click Enable and you'll have to download it then reboot, to disable it it's just the same except it'll say Disable instead of Enable

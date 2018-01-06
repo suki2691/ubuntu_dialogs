@@ -1,0 +1,4 @@
+2006-04-23T14:32:00.000Z	toejama		is it normal for a hardrive to have 9729 cylinders? fdisk says anything > 1024 could be problematic.
+2006-04-23T14:33:00.000Z	toejama		i want to make sure that no rootkit exists on this drive. i am going to shred it before i put anything back onto it. should that be sufficient?
+2006-04-23T14:34:00.000Z	AAA	toejama	 chkrootkit
+2006-04-23T14:35:00.000Z	AAA	toejama	 apt-get install chkrootkit

@@ -1,0 +1,4 @@
+2006-11-04T09:16:00.000Z	evilghost	zmm	 You're message got truncated, what happens after you resart?
+2006-11-04T09:21:00.000Z	zmm	evilghost	 I ran sudo apt-get install linux-686 as explained on https://wiki.ubuntu.com/BinaryDriverHowto/ATI, since I've celloron P4 processor. But after installing this when I restarted ubuntu it got stuck at mounting root system. Please help me
+2006-11-04T09:24:00.000Z	zmm	evilghost	 I ran sudo apt-get install linux-686 as explained on https://wiki.ubuntu.com/BinaryDriverHowto/ATI to enable ati driver, since I've celloron P4 processor. But after installing this when I restarted ubuntu it got stuck at mounting root system. Please help me
+2006-11-04T09:28:00.000Z	evilghost	zmm	 It could be doing an fsck because the mount count exceeded 30 or whatever is set it tune2fs, let it sit for a little bit.

@@ -1,0 +1,4 @@
+2008-12-10T12:35:00.000Z	Everett		Just confirming that there is no commandline upgrade to intrepid, not nagging, just using a horribly inaccessible IRC client and this room is busy, might have missed the answer.
+2008-12-10T12:36:00.000Z	gcbirzan	Everett	you can try aptitude update; aptitude dist-upgrade
+2008-12-10T12:37:00.000Z	Everett	gcbirzan	I tried apt-get update apt-get dist-upgrade with no luck.  is hat the same?
+2008-12-10T12:37:00.000Z	gcbirzan	Everett	Yeah. You must have intrepid in /etc/apt/sources.list, instead of what distribution you have now.

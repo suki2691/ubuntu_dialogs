@@ -1,0 +1,4 @@
+2006-09-07T16:19:00.000Z	mad_man		if i change this line:root ALL=(ALL) ALL to ALL=(ALL) NOPASSWD: ALL in the sudoers file will stop ubuntu from asking for the root passwd all the time ?
+2006-09-07T16:20:00.000Z	mwe	mad_man	no
+2006-09-07T16:21:00.000Z	mwe	mad_man	and please don't do what you're trying
+2006-09-07T16:21:00.000Z	mwe	mad_man	use sudo -i to get a root prompt if you need to do a lot as root

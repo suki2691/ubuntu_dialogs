@@ -1,0 +1,4 @@
+2005-05-28T10:50:00.000Z	drummer87		hey.. i've recently set up samba shares and can view the shares on my XP box... _but_... it looks as if the files are writable, but i'm sure that's not safe as they are on ntfs
+2005-05-28T10:51:00.000Z	dr_willis	drummer87	 you are accessing 'shares' on a xp machine?
+2005-05-28T10:51:00.000Z	dr_willis	drummer87	if they are on a XP box  - then they are written to by the XP os :P and thus should be safe.
+2005-05-28T10:52:00.000Z	dr_willis	drummer87	 if its a ntfs 'drive' that is shared by linux .. then Linux is doing the read/writing - and you do NOT want linux to be writing to them.

@@ -1,0 +1,4 @@
+2007-01-08T14:33:00.000Z	Rockj		anyone who could help me with mounting my sdcard? dmesg shows that it notices that I insert my sdcard into my laptop.
+2007-01-08T14:33:00.000Z	pike_	Rockj	you could do ls -t /dev | head   if it shows sda1 or sdb1 etc then sudo mount /dev/sda1 /media/usb
+2007-01-08T14:34:00.000Z	pike_		!nautilus | tomvduh
+2007-01-08T14:38:00.000Z	Rockj	pike_	doesn't show any sda device :/

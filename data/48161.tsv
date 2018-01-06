@@ -1,0 +1,4 @@
+2012-05-18T03:53:00.000Z	W1N9Zr0		how do i repair the ubuntu /boot partition+grub so it supports mdadm raid and lvm? do i follow this http://blog.mydream.com.hk/howto/linux/howto-reinstall-grub-in-rescue-mode-while-using-lvm-mdadm example B, but substitute grub>... stuff with grub-install and specific options? which options?
+2012-05-18T03:55:00.000Z	W1N9Zr0		do i need to give grub-install specific options so it can boot with raid and lvm properly? my root is on an lvm volume that's on an mdadm raid array
+2012-05-18T03:56:00.000Z	OerHeks	W1N9Zr0	all i can think of, is your BIOS setup to boot from your LVM?
+2012-05-18T03:57:00.000Z	OerHeks	W1N9Zr0	sorry, i misread you have a issue with it

@@ -1,0 +1,4 @@
+2012-05-05T14:45:00.000Z	deamosreapos_	mbroeker	sorry :) you said I had to disable drivers right?
+2012-05-05T14:46:00.000Z	mbroeker	deamosreapos_	the nouveau driver and modeset for the proprietary nvidia driver, yes
+2012-05-05T14:47:00.000Z	mbroeker	deamosreapos_	the nvidia driver should set it automatically: option nouveau nomodeset blacklist nouveau in /etc/modprobe.d/nvidia*
+2012-05-05T14:54:00.000Z	mbroeker	deamosreapos_	edit /etc/default/grub and add nomodeset after quiet splash, update-grub and reboot. should fix it

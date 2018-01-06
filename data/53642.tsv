@@ -1,0 +1,4 @@
+2009-06-26T02:32:00.000Z	hymx		Hello. How to list installed kernel versions?
+2009-06-26T02:32:00.000Z	ikonia	hymx	uname -a will show you your current running kernel
+2009-06-26T02:33:00.000Z	hymx	ikonia	 Yeah right, but I want to look at other kernel versions on my system. Before I upgrade my system to 9.04
+2009-06-26T02:33:00.000Z	ikonia	hymx	dpkg -l | grep -i kernel will show you

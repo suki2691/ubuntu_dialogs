@@ -1,0 +1,4 @@
+2012-07-03T19:31:00.000Z	AdvoWork		i have a command that works on redhat and centos: rpm -qa | grep -i test  is there an alternative for Ubuntu? that command gives: test-apache-7.2.0_GA_2669.RHEL5_64-20120410001942 for example
+2012-07-03T19:33:00.000Z	recon69_lap	AdvoWork	well, ubuntu uses apt-get and it's got a test only switch. should be able to replace rmp with apt-get
+2012-07-03T19:37:00.000Z	AdvoWork	recon69_lap	so apt-get -qa | grep -i test ?
+2012-07-03T19:43:00.000Z	recon69_lap	AdvoWork	: cant really say, use man apt-get , the flag is probably -simulate , but the rpm -qa command, not sure what it does

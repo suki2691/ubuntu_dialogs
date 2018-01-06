@@ -1,0 +1,4 @@
+2010-07-28T05:23:00.000Z	EruditeOgre		Question: I wish to stop Apache2 from starting when Ubuntu boots (10.04). Googling turned up chmodding the file /etc/init.d/apache2 however this is also the file used to control apache itself. Anyone know of a better way?
+2010-07-28T05:23:00.000Z	Spreadsheet_	EruditeOgre	you can disable it in startup services
+2010-07-28T05:24:00.000Z	EruditeOgre	Spreadsheet_	Not showing in there.
+2010-07-28T05:28:00.000Z	EruditeOgre	Spreadsheet_	Found it. update-rc.d -f apache2 remove

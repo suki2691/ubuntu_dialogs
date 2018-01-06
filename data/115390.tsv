@@ -1,0 +1,4 @@
+2008-11-10T12:47:00.000Z	gluonman	compu73rg33k	you can get the extra compiz plugins from gits.
+2008-11-10T12:47:00.000Z	gluonman	compu73rg33k	you can go to gitweb and find them.
+2008-11-10T12:51:00.000Z	gluonman	compu73rg33k	yes, compizconfig-settings-manager is needed to change the features. But also, you should make sure you have the latest version of compiz, in which case you can add deb http://ppa.launchpad.net/compiz/ubuntu intrepid main (or if you aren't using intrepid you can replace that with your version of Ubuntu) to your /etc/apt/sources.list file. Then sudo aptitude update && sudo aptitude safe-upgrade
+2008-11-10T12:51:00.000Z	gluonman	compu73rg33k	and if you want to install extra plugins not already included, I can help you with that as well.

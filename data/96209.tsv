@@ -1,0 +1,4 @@
+2008-03-29T19:30:00.000Z	danand	Edulix_	- you need to add and enable your users password in the samba password database. Run the command 'sudo smbpasswd -a USERNAME' - this will ask you to enter a password for your user. Then run 'sudo smbpasswd -e USERNAME' - this will enable the share for your user. After that you should be able to connect to the share.
+2008-03-29T19:31:00.000Z	Edulix_	danand	ok I'll try
+2008-03-29T19:31:00.000Z	Edulix_	danand	I wonder why ubuntu comes with a gui to enable smb shares but doesn't automatically do what you said
+2008-03-29T19:34:00.000Z	danand	Edulix_	- Never tried using the GUI so not sure :). Have you manually edited your /etc/samba/smb.conf file yet?

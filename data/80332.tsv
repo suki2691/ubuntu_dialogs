@@ -1,0 +1,4 @@
+2009-03-07T08:38:00.000Z	Naisenu		Argh a really quick question on Rhythmbox. It crashed itself playing a CD - I force quit the app. But the same 1 second section of sound is still playing. Can I restart the sound server/daemon (whatever it is) without logging off?
+2009-03-07T08:40:00.000Z	redvamp128	Naisenu	 sometimes my sound just stops and this fixes it up for me but should work to restart it ... sudo /etc/init.d/alsa-utils restart
+2009-03-07T08:40:00.000Z	Naisenu	redvamp128	tried and no-worky.
+2009-03-07T08:42:00.000Z	redvamp128	Naisenu	 unless you are not using -- alsa == but you could try a log off-- then hit the ctl-alt-backspace then log back in -- that should get it to reload the sound without a full reboot.

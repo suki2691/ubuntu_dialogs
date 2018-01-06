@@ -1,0 +1,4 @@
+2010-06-15T22:27:00.000Z	dotnetted		could apparmor have anything to do with the incorrect mysqld permissions after changing the datadir path on karmic? (mysql-server-5.1)
+2010-06-15T22:28:00.000Z	soreau	dotnetted	What is confusing to me is that it complains about somefile in ./mysql/balhblah. . means current working directory but where are you running this command that it's giving you this message?
+2010-06-15T22:29:00.000Z	dotnetted	soreau	what's the proper way to start mysqld 5.1 on karmic?
+2010-06-15T22:29:00.000Z	soreau	dotnetted	I have no idea

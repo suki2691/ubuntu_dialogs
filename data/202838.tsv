@@ -1,0 +1,4 @@
+2006-01-11T16:04:00.000Z	nmsa		someone using ubuntu as print server? I cant find the printer in Xp
+2006-01-11T16:05:00.000Z	nmsa		else, from Ubuntu how do you print photos?
+2006-01-11T16:06:00.000Z	timfrost	nmsa	Yes.  You have to change cupsd.copnf, so that it listens on the network (default is to only listen on 127.0.0.1 loopback interface)
+2006-01-11T16:06:00.000Z	nmsa	timfrost	I have it on 192.168.0.*

@@ -1,0 +1,4 @@
+2007-06-22T09:15:00.000Z	babik		ClientAliveInterval 30 ClientAliveCountMax 3 is the settings in the sshd_config file. I assumed when I opened up a new connection ie shut down the client and open a new one, if after 90 seconds of inactivity from the client the connection would timeout? ie the client would lose connection. this hasn't happened.
+2007-06-22T09:15:00.000Z	pha|con	babik	do you have TCPKeepAlive disabled in your ssh config?
+2007-06-22T09:16:00.000Z	pha|con	babik	also, some clients keep the connection alive
+2007-06-22T09:16:00.000Z	pha|con	babik	that should say no if you want it to drop an inactive connection after a period of time

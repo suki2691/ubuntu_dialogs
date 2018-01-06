@@ -1,0 +1,4 @@
+2008-06-15T23:02:00.000Z	grendal_prime		my understanding is that i bound that port on my local machine to the port on the remote machine through ssh. (wich by the way for some reason is much faster than running x remotely
+2008-06-15T23:02:00.000Z	grendal_prime		oops
+2008-06-15T23:03:00.000Z	grendal_prime		hey guys quesion..i just made a connection to anouther machine with ssh using the following method. ssh -L 2800:localhost:2800 'your.server' Question is..how do i now take that connection down?
+2008-06-15T23:05:00.000Z	velko	grendal_prime	type "exit"

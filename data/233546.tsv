@@ -1,0 +1,4 @@
+2005-06-26T08:28:00.000Z	tchmnky		Any VLC/Mplayer heads around? How would I go about viewing a WMV video in either of these apps? I have the essential codecs pkg extracted to /usr/lib/codecs but no go, even after restarting these apps.
+2005-06-26T08:29:00.000Z	Mez	tchmnky	sudo apt-get install w32codecs
+2005-06-26T08:29:00.000Z	tchmnky	Mez	Uh... "w32codecs is already the newest version." Oh dear.
+2005-06-26T08:31:00.000Z	tchmnky	Mez	if the codec isn't there, would mplayer/VLC not even try to load the file? Or would it load and bomb out, as it is doing in this case?

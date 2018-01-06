@@ -1,0 +1,4 @@
+2010-05-23T02:46:00.000Z	Bizzeh		hi, is there any way in ubuntu to remove grub and restore the windows 7 bootloader as the standard bootloader?
+2010-05-23T02:46:00.000Z	vlt	Bizzeh	Just write back the first 63*512 bytes from your backup disk ;-)
+2010-05-23T02:47:00.000Z	Bizzeh	xangua	im not asking can i boot from the windows bootloader... and... yes it can... it can chainload... i want to remove ubuntu from this system compleatly as im moving it to its own system rather than dual booting
+2010-05-23T02:48:00.000Z	vlt	Bizzeh	Windows CD -> rescue -> fixmbr  or something like that.

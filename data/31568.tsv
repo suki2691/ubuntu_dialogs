@@ -1,0 +1,4 @@
+2010-05-31T08:39:00.000Z	godricbrutus		i can't seem to get ubuntu to boot via easybcd. i tried doing sudo grub-intstall --force /dev/sda5, but it doesnt seem to be taking. http://pastebin.com/MB2kCHAT i tried everything i saw in https://wiki.ubuntu.com/Grub2 , but still no luck
+2010-05-31T08:40:00.000Z	wildbat	godricbrutus	you don't install grub in sda5 ~ but sda
+2010-05-31T08:41:00.000Z	godricbrutus	wildbat	wont that get rid of my windows boot?
+2010-05-31T08:41:00.000Z	wildbat	godricbrutus	yes it will but you can have grub2 boot windows

@@ -1,0 +1,4 @@
+2008-04-21T21:40:00.000Z	prashant____		hello
+2008-04-21T21:42:00.000Z	prashant____		i have tried this technique of backing up data . sudo dd if=/dev/sdb3 gzip > ......gz situation is the disk has only 5.6 GB installed content .. but the even the zip image which toke an hour to make is 11 GB .. does any one know a better way than this of backing up things :( please help :)
+2008-04-21T21:44:00.000Z	prashant____		i have tried this technique of backing up data . sudo dd if=/dev/sdb3 gzip > ......gz situation is the disk has only 5.6 GB installed content .. but even the zip image which toke an hour to make is 11 GB .. does any one know a better way than this of backing up things :( please help :)
+2008-04-21T21:44:00.000Z	sipior	prashant____	hmm...dd will work, but is terribly slow, as you found out. try partimage if you want to copy whole partitions

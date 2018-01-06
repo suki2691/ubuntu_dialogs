@@ -1,0 +1,4 @@
+2006-04-06T12:15:00.000Z	Tedd		Augh. _Jason, got a sec? I tried to copy my music files, but they're all locked up. They have a lock symbol over them, and I can't play them.
+2006-04-06T12:15:00.000Z	Tedd		Is this a chmod thing?
+2006-04-06T12:16:00.000Z	Tedd		777?
+2006-04-06T12:16:00.000Z	delire_away	Tedd	just a 'chown -R username /path/to/files/' should work. sure or a 'chmod -R ug+rw /path/to/files'

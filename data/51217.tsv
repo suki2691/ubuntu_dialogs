@@ -1,0 +1,4 @@
+2010-05-26T22:27:00.000Z	xomp		I'm getting this same error when trying to run a .sh in ubuntu > http://ubuntuforums.org/showthread.php?t=327108 however the suggested fix "dos2unix" doesn't seem to be a valid package with apt-get install dos2unix. Pleaes help?
+2010-05-26T22:28:00.000Z	trism	xomp	it has been moved to the tofrodos package, the commands are now todos and fromdos
+2010-05-26T22:29:00.000Z	xomp	trism	thanks, do you think I require to run those on my bash script?
+2010-05-26T22:30:00.000Z	trism	xomp	yes, just: fromdos script_name.sh should do it

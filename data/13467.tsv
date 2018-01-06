@@ -1,0 +1,4 @@
+2012-02-14T10:07:00.000Z	Jordan_U	Nicolas_Leonida2	meskarune: grub's boot sector should go in the mbr if it gors anywhere at all. Not to any Partition Boot Record.
+2012-03-26T04:56:00.000Z	Jordan_U	Nicolas_Leonida2	Yes.
+2012-03-26T04:57:00.000Z	Nicolas_Leonida2	Jordan_U	will the security releases be auto installed as well?
+2012-03-26T04:58:00.000Z	Jordan_U	Nicolas_Leonida2	There is basically no difference between "sudo aptidue install foo" and "sudo apt-get install foo" anymore (and in the past the main difference was knowing what was automatically installed vs manually installed so that when you *removed* a package you had an easier time clearing out the cruft it depended on as well).

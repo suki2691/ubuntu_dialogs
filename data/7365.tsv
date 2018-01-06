@@ -1,0 +1,4 @@
+2011-12-11T09:49:00.000Z	Vustom		When I type sudo mount /dev/sda3 /mnt && sudo grub-install --root-directory=/mnt /dev/sda it says "mount: you must specify the filesystem type", Ubuntu is on /dev/sda3 and I'm trying to reinstall grub on /dev/sda
+2011-12-11T09:51:00.000Z	Vustom		When I type sudo mount /dev/sda3 /mnt && sudo grub-install --root-directory=/mnt /dev/sda it says "mount: you must specify the filesystem type", Ubuntu is on /dev/sda3 and I'm trying to reinstall grub on /dev/sda, can anyone help me? :(
+2011-12-11T09:51:00.000Z	Hatori	Vustom	specify file system type
+2011-12-11T09:54:00.000Z	Vustom	Hatori	bucky: Is this correct? sudo mount -t ext3 /dev/sda5 /mnt && sudo grub-install --root-directory=/mnt /dev/sda

@@ -1,0 +1,4 @@
+2009-11-10T08:51:00.000Z	Arv3n		Hello. My system freezes for around 10-20 seconds at the start of bootup. Does anyone know why? It dramatically increases my boot time. I have an nForce 430 motherboard.
+2009-11-10T08:52:00.000Z	Ded1cated	Arv3n	check /var/log/messages and "dmesg" around the freeze
+2009-11-10T08:52:00.000Z	Arv3n	Ded1cated	its an acpi thing i think. i use the option acpi=off and it boots perfectly (no freeze).k
+2009-11-10T08:53:00.000Z	Ded1cated	Arv3n	would use google to find peops with same problem on same mainboard, or let it disabled

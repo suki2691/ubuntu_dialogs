@@ -1,0 +1,4 @@
+2010-09-12T13:05:00.000Z	preetam		my network manager is not appearing in the system tray in ubuntu 10.04
+2010-09-12T13:06:00.000Z	preetam		sudo /etc/init.d/networking restart gives following "up -a is disabled in favour of NetworkManager.  Set ifupdown:managed=false in /etc/NetworkManager/nm-system-settings.conf.
+2010-09-12T13:07:00.000Z	airtonix	preetam	sudo service network-manager restart && killall nm-applet && nm-applet
+2010-09-12T13:08:00.000Z	airtonix	preetam	first error message indicates that you've tried to manually edit /etc/network-manager/*.conf

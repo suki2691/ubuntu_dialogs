@@ -1,0 +1,4 @@
+2007-08-28T16:56:00.000Z	RoboticTao		How can you execute a command via ssh and have it continue to run after the ssh session has been closed?
+2007-08-28T05:31:00.000Z	RoboticTao		Is there any way to issue a command remotely that looks like it has been issued locally? I tried appending & to the end of my command but it still attaches the process to my login.
+2007-08-28T05:32:00.000Z	Pici	RoboticTao	`nohup commandname &` will not die when you close the terminal.
+2007-08-28T05:32:00.000Z	RoboticTao	Pici	Thank you

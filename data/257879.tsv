@@ -1,0 +1,4 @@
+2005-01-15T17:52:00.000Z	bonno		hello
+2005-01-15T17:52:00.000Z	bonno		does anyone know how to get java working with mozilla or firefox
+2005-01-15T17:53:00.000Z	JDahl	bonno	install the java binary package (http://java.sun.com) and symlink /usr/lib/mozilla/plugins/<plugin> to the java dir
+2005-01-15T17:58:00.000Z	JDahl	bonno	sudo ln -s /usr/local/jre1.5.0_01/plugin/i386/ns7/libjavaplugin_oji.so /usr/lib/mozilla-firefox/plugins/ (assuming you installed java the same place as me). That was in the installation guide I read... you must've read a different one

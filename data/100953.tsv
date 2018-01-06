@@ -1,0 +1,4 @@
+2008-02-14T23:02:00.000Z	adamb		Ok so I am using the restricted driver for my video card which has two monitor attached, only one monitor displays when I use restricted, when i dont I can see both monitor, but identical. not an extended.
+2008-02-14T23:02:00.000Z	adamb		Anyone point me in right direction of getting my second monitor working?
+2008-02-14T23:03:00.000Z	mjw-	adamb	what's the result of lspci | grep -i vga  ?
+2008-02-14T23:05:00.000Z	mjw-	adamb	weird that it says unknown device, but this might help: https://help.ubuntu.com/community/NvidiaMultiMonitors

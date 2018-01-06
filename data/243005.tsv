@@ -1,0 +1,4 @@
+2005-04-10T05:16:00.000Z	Mikee		hi, I have 4gb freespace and 512 mb of ram, how should i partition this space?
+2005-04-10T05:17:00.000Z	Fikrann	Mikee	one 4GB Reiserfs/XFS partition, plus swapfile on it if you really need that much vram.
+2005-04-10T05:19:00.000Z	Mikee	Fikrann	i heard , if i have different partition for my files and my system, my sys will be faster
+2005-04-10T05:20:00.000Z	Fikrann	Mikee	if you really have only 4GB for Linux, go for one partition. Any other setup will simply waste your disk space needlessly.

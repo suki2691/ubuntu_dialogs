@@ -1,0 +1,4 @@
+2011-02-05T10:31:00.000Z	tomoyuki28jp		On 10.04 server, sudo command does not require password. I've tried to put PASSWD:ALL in /etc/sudoers, but no difference. How can I check it to require sudo password?
+2011-02-05T10:32:00.000Z	tomoyuki28jp		s/check/change/
+2011-02-05T10:32:00.000Z	rww	tomoyuki28jp	by default, sudo doesn't ask for your password if you've supplied it within the last N minutes (I forget how many, maybe 10).
+2011-02-05T10:32:00.000Z	tomoyuki28jp	rww	Nisstyre: I see, thanks!

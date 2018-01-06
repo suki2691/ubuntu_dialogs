@@ -1,0 +1,4 @@
+2010-01-10T20:30:00.000Z	t0rc		is there a way to change the terminal so only a custom characters appear instead of user@computer:dir$ ?
+2010-01-10T20:31:00.000Z	askreet	t0rc	Yes, you want to set your PS1 variable.
+2010-01-10T20:31:00.000Z	askreet	t0rc	Try playing with PS1="Stuff" in a terminal.  When you get it the way you like, you'll want to add it to the end of ~/.bashrc
+2010-01-10T20:32:00.000Z	askreet	t0rc	Also check 'man bash' to see what special characters you can use.  For example \w is your currect directory, etc.

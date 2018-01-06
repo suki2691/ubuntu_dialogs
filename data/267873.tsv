@@ -1,0 +1,4 @@
+2004-12-31T07:19:00.000Z	mmpf		in which file can i tell ubuntu to modprobe nvidia at startup?
+2004-12-31T07:19:00.000Z	mmpf		i added a script in the rc5.d directory
+2004-12-31T07:21:00.000Z	crimsun	mmpf	dpkg -l nvidia-kernel-common|grep ^ii
+2004-12-31T07:57:00.000Z	crimsun	mmpf	sudo apt-get install libqt3-mt-dev libqt3-headers qt3-dev-tools

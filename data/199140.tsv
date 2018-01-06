@@ -1,0 +1,4 @@
+2007-05-07T16:57:00.000Z	BeepAU		i have a wifi card i wanna use. whats the command to tell it's inserted properly?
+2007-05-07T16:58:00.000Z	BeepAU		neither lspci or lsusb detects it
+2007-05-07T16:59:00.000Z	BeepAU		it's a netgear wg511t
+2007-05-07T05:00:00.000Z	Frogzoo	BeepAU	tail -f /var/log/messages & plug in your card & see what it says

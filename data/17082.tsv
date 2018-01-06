@@ -1,0 +1,4 @@
+2011-03-10T13:39:00.000Z	tycable		Hi, how to add DNS to /etc/resolv.conf to avoid being overwrite by network-manager?
+2011-03-10T13:40:00.000Z	jjp_	tycable	network-manager HAS TO control resolv.conf. Either you should not use network-manager or set in its config the relevant DNS parameters, I think. Otherwise, you may try to set resolv.conf immutable
+2011-03-10T13:44:00.000Z	tycable	jjp_	thanks, seems that if I have NM installed, but I don't use it to connect network, though I set the DNS to resolv.conf, I cannot ping6 ipv6.google.com
+2011-03-10T13:45:00.000Z	tycable	jjp_	I connect to an ipv6 network which donot support ipv4

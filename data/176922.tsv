@@ -1,0 +1,4 @@
+2008-06-14T01:08:00.000Z	Elda		I am curious.... anyone know offhand how it may be possible (or is it even possible) to make it so that Winblows and Ubuntu share a common hard drive for the installation of programs, file storing, etc?
+2008-06-14T01:09:00.000Z	coopster	Elda	if you format a partition as FAT32, windows and linux will both be able to read it.
+2008-06-14T01:13:00.000Z	coopster	Elda	I'd highly recommend FAT32 over ntfs, as ntfs support for linux is not as fully tested as FAT32
+2008-06-14T01:14:00.000Z	coopster	Elda	Well, NTFS seems to be the way to go, and Vista is definitely compatible with that one.

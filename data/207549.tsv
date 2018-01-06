@@ -1,0 +1,4 @@
+2008-04-25T19:08:00.000Z	usicow		When I apt-get something, it always goes to us.archive.ubuntu.com. How can I change that?
+2008-04-25T19:08:00.000Z	jburd	usicow	System > Administration > Software Sources
+2008-04-25T19:10:00.000Z	jburd	usicow	You can forward X requests through SSH.   Just ssh in using ssh -X foobar@blah
+2008-04-25T19:10:00.000Z	jburd	usicow	Or you'll need to manually edit: /etc/apt/sources.list

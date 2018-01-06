@@ -1,0 +1,4 @@
+2011-12-19T14:53:00.000Z	shal3r		Where to write commands to be executed at Ubuntu Server startup?
+2011-12-19T14:53:00.000Z	Kryczek	shal3r	/etc/rc.local
+2011-12-19T15:03:00.000Z	shal3r	Kryczek	isn't it executed at each runlevel?
+2011-12-19T15:13:00.000Z	Kryczek	shal3r	no no, it is executed towards the end of startup (runlevels 2, 3, 4 and 5, see http://en.wikipedia.org/wiki/Runlevel#Ubuntu )

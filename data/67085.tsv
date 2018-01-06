@@ -1,0 +1,4 @@
+2009-04-17T18:00:00.000Z	EQUIV		How do I split up a VPN connection using a VPN server?
+2009-04-17T18:01:00.000Z	Foor	EQUIV	you mean so diffrent users can vnc into a machine at the same time?
+2009-04-17T18:02:00.000Z	EQUIV	Foor	no, i have a vpn connection that only one can use. I want to split it so more users can connect
+2009-04-17T18:07:00.000Z	Foor	EQUIV	not sure how to do it with the app that comes installed on ubuntu but you can sudo apt-get install vnc4server and then su to each user type vncserver then put a password in for them then go to /home/username/.vnc/xstartup and remove the 2 comments they tell you to.

@@ -1,0 +1,4 @@
+2008-03-27T21:17:00.000Z	bigjohnto		What would be the best image to mirror a drive onto another server?  its a 400GB drive so DD is out of the question, any other method that uses open source?
+2008-03-27T21:18:00.000Z	bigjohnto		try using dd to image a 400gb drive, its darn slow
+2008-03-27T21:19:00.000Z	bigjohnto		again because its slow, i was wondering if there was some sort of way to dump just the data and partition info so that it could be a lot quicker then doing byte by byte copy
+2008-03-27T21:19:00.000Z	Lamego	bigjohnto	you just need to set dd options for whatever size you need, you will not get anything faster than dd, since it does raw I/O

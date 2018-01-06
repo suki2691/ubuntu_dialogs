@@ -1,0 +1,4 @@
+2012-05-28T00:42:00.000Z	escott	dejahmoi	please stop telling Afro_Samurai things that are incorrect
+2012-05-28T00:43:00.000Z	dejahmoi	escott	what I just said works prefectly well for moving /home which is what afro_samurai wanted to do
+2012-05-28T00:44:00.000Z	escott	dejahmoi	but he doesnt need to do all that. all he needs to do is perform the copy while logged in as somebody else so that the ecryptfs is not mounted on top of $HOME
+2012-05-28T00:45:00.000Z	escott	dejahmoi	the encrypted $HOME is designed to be a completely self-contained system on /home. its designed to allow migration of the /home partition by the system admin or a straight recovery from a livecd. it was built to do this

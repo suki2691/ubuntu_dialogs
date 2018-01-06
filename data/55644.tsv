@@ -1,0 +1,4 @@
+2009-06-03T03:06:00.000Z	ballzac		I need to install the snd-hda-intel driver in Ubuntu 9.04, how can I do this?
+2009-06-03T03:07:00.000Z	Mion	ballzac	you should have it, it's a part of the kernel, after all
+2009-06-03T03:07:00.000Z	ballzac	Mion	thanks.  I guess my sound problems sit elsewhere.
+2009-06-03T03:08:00.000Z	Mion	ballzac	lsmod, see if it's loaded, if not, modprobe it

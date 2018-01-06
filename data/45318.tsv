@@ -1,0 +1,4 @@
+2009-10-31T18:32:00.000Z	dAlfa89_		Hey, say I had two HDD's, and Ubuntu was on one, how would I enter the other in fstab?
+2009-10-31T18:32:00.000Z	usser	dAlfa89_	that depends on what /dev node that other hdd is and what filesystem is on it
+2009-10-31T18:41:00.000Z	dAlfa89_	usser	sorry to bother you, would it be safe to assume that the name of the drive (In /dev/disk/by-uuid) would be the name I put in fstab, before the mounting point?
+2009-10-31T18:44:00.000Z	usser	dAlfa89_	yes, also run blkid just to make sure

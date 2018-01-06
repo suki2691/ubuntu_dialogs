@@ -1,0 +1,4 @@
+2007-06-06T13:24:00.000Z	silvertip257		I'm trying to use the "dd" command to make a copy of a disk and then I'd like to pipe it to bzip2 to compress it; I need help generating a command
+2007-06-06T13:26:00.000Z	roryy	silvertip257	maybe "dd if=/dev/cdrom |bzip2 > img.bz2"  ?  you might want to change the device and blocksize
+2007-06-06T13:27:00.000Z	silvertip257	roryy	 sorry hard disk partition :(
+2007-06-06T13:27:00.000Z	roryy	silvertip257	if=/dev/hda1 or whatever

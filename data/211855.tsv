@@ -1,0 +1,4 @@
+2006-03-27T17:06:00.000Z	Kr4t05		Does anyone know I would properly add a line to fstab for an NFS directory?
+2006-03-27T17:06:00.000Z	Blippe	Kr4t05	yeah, wait a sec
+2006-03-27T17:08:00.000Z	Blippe	Kr4t05	servername:dir /mntpoint nfs rw,hard,intr 0 0
+2006-03-27T17:08:00.000Z	Blippe	Kr4t05	don't forget to export the nfs on the server too!

@@ -1,0 +1,4 @@
+2009-10-24T03:09:00.000Z	Mr_Orange		Does anyone see anything wrong with this crontab entry? @daily /etc/squeezer2.pl >> "/var/www/wordpress/squidlogs/`/bin/date +'%B %-d %Y'` - report.html" 2>&1
+2009-10-24T03:09:00.000Z	Mr_Orange		It doesnt even generate the file
+2009-10-24T03:10:00.000Z	ikonia	Mr_Orange	no space between ` and - neded
+2009-10-24T03:11:00.000Z	Mr_Orange	ikonia	i did that strictly for formatting purposes of tthe file name

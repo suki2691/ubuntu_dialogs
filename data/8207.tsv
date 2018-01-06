@@ -1,0 +1,4 @@
+2012-08-08T22:53:00.000Z	tech1		i understand that this resizes all images in a folder(convert -resize 750×500 *.jpg)....... another website says to use (find . -iname "*.jpg" | xargs -l -i convert -resize 800x600 {} ../small/{} ) which is obviously a lot longer.. whats the difference?
+2012-08-08T22:54:00.000Z	elgaton	tech1	the first command uses shell expansion, so the "*.jpg" gets replaced in place by the list of files before convert is invoked. The second gets the list of all files first and invokes convert one time for each file.
+2012-08-08T22:58:00.000Z	elgaton	tech1	in this case, no; in other cases, yes. It depends on the arguments accepted by the program.
+2012-08-08T22:59:00.000Z	elgaton	tech1	The second variant is definitely safer.

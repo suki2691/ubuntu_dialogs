@@ -1,0 +1,4 @@
+2008-04-19T22:53:00.000Z	Alives		how can i get iptables to run iptables-restore on boot?  Also, I have to keep echo "1" > ip_forward on boot as well.. how can I make that permanent?
+2008-04-19T22:54:00.000Z	erUSUL	Alives	make a "firewall" script and add it to startup
+2008-04-19T22:55:00.000Z	Alives	erUSUL	cool thanks...
+2008-04-19T22:56:00.000Z	erUSUL	Alives	sudo nano /etc/init.d/myfirewall (writte script with everything needed)  then sudo update-rc.d myfirewall defaults (after chmod +x it)

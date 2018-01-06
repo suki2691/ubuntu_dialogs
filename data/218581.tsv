@@ -1,0 +1,4 @@
+2011-07-27T20:43:00.000Z	dori922		dudes im trying to use the command "chmod g-s /usr/src/ -R" and it saying i dont have permission to change permissions, when i use SUDO beforehand it just goes to a new prompt without doing anything
+2011-07-27T20:43:00.000Z	dori922		any thoughts on whats wrong
+2011-07-27T20:44:00.000Z	dori922		it goes through the files without sudo(but doesnt change them) but when  i use sudo it doesnt appear to do anything
+2011-07-27T20:45:00.000Z	sipior	dori922	try putting the -R directly after chmod.

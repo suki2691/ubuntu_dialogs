@@ -1,0 +1,4 @@
+2009-04-03T14:05:00.000Z	zamba		i have made a mistake in the /etc/sudoers file.. so when i now try to issue 'sudo su' i'm given an error.. how can i fix this?
+2009-04-03T14:06:00.000Z	zagibu	zamba	you can always boot from a live cd, mount your disk and edit the file there
+2009-04-03T14:07:00.000Z	zagibu		if you can't boot from a live cd, you can try to hit esc at grub menu, hit e to edit boot entry and change init=bla to init=/bin/bash, then hit enter and b to boot into a shell
+2009-04-03T14:07:00.000Z	zamba	zagibu	aki

@@ -1,0 +1,4 @@
+2009-06-03T16:54:00.000Z	Voodo-		any idea, how can i remove this x.org driver tihngy from console?
+2009-06-03T16:54:00.000Z	Voodo-		i really wouldnt like to reinstall ubuntu
+2009-06-03T16:55:00.000Z	ActionParsnip1	Voodo-	sudo apt-get --purge remove <thingy's name>
+2009-06-03T16:56:00.000Z	ActionParsnip1	Voodo-	dpkg -l | grep xorg

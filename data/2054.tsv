@@ -1,0 +1,4 @@
+2012-07-10T21:10:00.000Z	joel135		what command do I use to monitor the output of a command? the result should be that of an infinite while loop with a sleep
+2012-07-10T21:10:00.000Z	_grawity	joel135	try `watch`
+2012-07-10T21:11:00.000Z	_grawity	joel135	or, well, `while sleep 1; do ...yourcommands...; done` – depending on what kind of output you need
+2012-07-10T21:11:00.000Z	joel135	_grawity	watch is what I was looking for :)

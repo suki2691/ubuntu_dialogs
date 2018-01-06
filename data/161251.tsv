@@ -1,0 +1,4 @@
+2007-04-07T11:33:00.000Z	coolness9		hello :) Quick Q.... how come when I'm in a directory and I type in a executable, such as "apache2 start" it doesnt work, but "./apache2 start" does work?
+2007-04-07T11:34:00.000Z	rickyfingers	coolness9	that's because the directory the executable is in is not in your PATH variable
+2007-04-07T11:34:00.000Z	rickyfingers	coolness9	the ./ is shorthand for the path to the current directory
+2007-04-07T11:35:00.000Z	rickyfingers	coolness9	you can append . to the PATH variable in your ~/.profile file but this is never done, so I assume it's a security thing

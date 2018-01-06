@@ -1,0 +1,4 @@
+2008-05-11T19:16:00.000Z	rhade		howdy, need some help if anyones up :), compiled a new kernel and booted into it, had a problem with loading the root partition i think because i forgot ext2 suppor t * no idea how*
+2008-05-11T19:17:00.000Z	rhade		however to fix this i tried loading my vmlinuz.old, but it gives the same error, which is odd because it worked fine before
+2008-05-11T19:17:00.000Z	rhade		anyway i tried every other kernel i have installed and it still gives the same error and now ive gone so far as to remove all vmlinuz files from /boot and yet it still loads a kernel and give same error
+2008-05-11T19:17:00.000Z	ak5	rhade	ahhh when screwing ith the kernel make a kernel backup!

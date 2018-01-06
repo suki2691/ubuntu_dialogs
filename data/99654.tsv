@@ -1,0 +1,4 @@
+2008-12-23T12:57:00.000Z	Bunson		any one know of a way to reload the sound system from terminal?
+2008-12-23T12:57:00.000Z	Bunson		ubuntu 8.10
+2008-12-23T12:57:00.000Z	jim_p	Bunson	sudo /etc/init.d/alsa-utils restart
+2008-12-23T12:58:00.000Z	jim_p	Bunson	pulseaudio is a needless extra layer for sound management. remove it

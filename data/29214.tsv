@@ -1,0 +1,4 @@
+2011-02-21T13:08:00.000Z	aroman		hello, i want to use rsync to make a copy of my entire linux partition (that is, my root folder), and put it on an external hard drive to use as a backup. My question is, if I run rsync as root, telling to copy / to /media/MyDrive, while running the OS installed at / (that is, tell rsync to backup my computer while I'm still using it/it's running inside of it), will I run into problems? Is there anything that could cause rsync to fail when
+2011-02-21T13:09:00.000Z	aroman		dd isn't good for backups, because rsync can checksum the files to know which to backup
+2011-02-21T13:09:00.000Z	[thor]	aroman	as long as it is copying and not moving, i can't see how it would have any effect at all
+2011-02-21T13:10:00.000Z	aroman	[thor]	that's what I was thinking

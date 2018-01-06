@@ -1,0 +1,4 @@
+2012-09-27T22:11:00.000Z	Elvano_		When I boot my system I get the error he can't find the file libc.so.6. I've already tried copying the file back from an old clone, but without result. Can anyone help me on this, please?
+2012-09-27T22:11:00.000Z	ActionParsnip	Elvano_	can you boot to root recovery mode
+2012-09-27T22:13:00.000Z	ActionParsnip	Elvano_	then you can boot to live CD and possibly chroot from that to help the system
+2012-09-27T22:15:00.000Z	ActionParsnip	Elvano_	http://www.omgubuntu.co.uk/2011/09/live-usb-sticking-grub-2-video   just replace 'bind' with '--bind' in the guide, once you run the chroot command the commands you run will be ran on the installed OS

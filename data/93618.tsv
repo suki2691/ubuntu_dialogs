@@ -1,0 +1,4 @@
+2008-04-25T03:35:00.000Z	Ovation13579		Hi RyanPrior - I've tried all three kernels that I have but they've made no difference. I get a login screen as expected, enter a correct username and password and then just get the default background with a cursor in all three cases... Failsafe makes no difference.
+2008-04-25T03:37:00.000Z	gnuskoo1	Ovation13579	what wm are you using? xfce once had that prob, related to swap mem if i recall, got swap?
+2008-04-25T03:38:00.000Z	Ovation13579		So far I've tried removing all the .gnome* directorys for my user, and have monitored /var/log/messages - All I see is gnome-keyring-daemon dying with segfault. The mouse moves and CTRL+ALT+BACKSPACE restarts to the loging screen. There's no hard disk activity and there's a few hundred megs free in /home
+2008-04-25T03:40:00.000Z	Ovation13579	gnuskoo1	I'm using the default WM (presumably GNOME??) it's the same I've used since first installing feisty

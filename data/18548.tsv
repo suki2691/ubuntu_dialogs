@@ -1,0 +1,4 @@
+2011-02-03T01:27:00.000Z	R4m0n3		hey all... can anyone tell me how to config ubuntu to boot straight into CLI mode?
+2011-02-03T01:28:00.000Z	genii-around	R4m0n3	Remove the display manager ( gdm usually )
+2011-02-03T01:28:00.000Z	R4m0n3	genii-around	apt-get remove gdm  ?
+2011-02-03T01:29:00.000Z	genii-around	R4m0n3	With sudo, but yeah. You wanted the system to always boot into commandline though?

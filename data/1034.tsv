@@ -1,0 +1,4 @@
+2012-09-23T04:04:00.000Z	ubuntoo10		hi, can someone please tell me if it's possible to set the colors of x-terminal-emulator in a file rather than with the gui, and where that file is located?
+2012-09-23T04:05:00.000Z	jrib	ubuntoo10	probably depends on the x-terminal-emulator you are using
+2012-09-23T04:05:00.000Z	ubuntoo10	jrib	how do i find out which one i am? i simply run x-terminal-emulator
+2012-09-23T04:05:00.000Z	jrib	ubuntoo10	readlink -f $(which x-terminal-emulator)

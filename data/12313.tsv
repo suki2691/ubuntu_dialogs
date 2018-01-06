@@ -1,0 +1,4 @@
+2011-10-27T18:24:00.000Z	zykotick9		!atemyram | sandstrom
+2011-10-27T18:25:00.000Z	sandstrom	zykotick9	It's not used as cache/buffer either (unless I'm completely misreading the free -m output): http://pastie.org/2767915
+2011-10-27T18:27:00.000Z	zykotick9	sandstrom	what is the problem exactly?  your physical memory isn't full (swap is barely being used in your paste)
+2011-10-27T18:32:00.000Z	sandstrom	zykotick9	I'm trying to figure out what's using my ram! Only running mongo database (0.12gb total data size) and nginx webserver (~1 visit / minute). I can't see how they can eat so much ram?

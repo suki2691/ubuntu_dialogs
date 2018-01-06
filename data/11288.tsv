@@ -1,0 +1,4 @@
+2012-09-05T19:34:00.000Z	gsker		I did an install of precise from an ISO image and the group 'admin' did not get created.  What creates it?
+2012-09-05T19:34:00.000Z	gsker		I've search through postinst in all the deb files and didn't find it.
+2012-09-05T19:35:00.000Z	auronandace	gsker	i think the group sudo replaces it
+2012-09-05T19:36:00.000Z	auronandace	gsker	yeah, when i do id it doesn't show admin but it shows sudo

@@ -1,0 +1,4 @@
+2011-03-30T19:50:00.000Z	jsebean		hello
+2011-03-30T19:52:00.000Z	jsebean		i installed ubuntu 10.10 after installing Windows 7. Ubuntu is on a different partiton. Now after I reboot, the computer goes dirctly to ubuntu and doesnt allow me to choose windows or ubuntu. i can access my windows partition on ubuntu but it wont boot. Any ideas?
+2011-03-30T19:52:00.000Z	switch10_	jsebean	sudo update-grub
+2011-03-30T19:53:00.000Z	switch10_	jsebean	what is the output of sudo fdisk -l

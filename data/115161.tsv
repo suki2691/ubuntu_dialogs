@@ -1,0 +1,4 @@
+2008-04-20T03:41:00.000Z	guja_nebeska		I've download a file and I dunno where Ubuntu placed it. How do I find path to that file? Thank You.
+2008-04-20T03:42:00.000Z	sjovan	guja_nebeska	downloaded what file and how did you download it?
+2008-04-20T03:42:00.000Z	guja_nebeska	zvacet	sjovan : sudo apt-get install libusb-0.1-4 libusb-dev linux-headers-$(uname -r)
+2008-04-20T03:43:00.000Z	sjovan	guja_nebeska	why do you want to locate it? any ways... ---> sudo slocate -u ---> locate filname will tell you

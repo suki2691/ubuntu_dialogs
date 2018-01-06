@@ -1,0 +1,4 @@
+2008-03-15T16:14:00.000Z	binaricalapp		could someone give my an idea on > running applications without a gui > for instance id like to set up firestarter on my server however havnt found much since most how tos require at least a minimalistic DE like X
+2008-03-15T16:15:00.000Z	Dr_willis	binaricalapp	 there are some consolebased firewall tools I recall.. but never used them.
+2008-03-15T16:15:00.000Z	Dr_willis	binaricalapp	 you could ssh to the box from a different linux machine that has X, and perhaps run firestarter and see the gui that way
+2008-03-15T16:17:00.000Z	Dr_willis	binaricalapp	 you can FOrward X apps  and guis over ssh. I do it all the time. ssh -X remotebox, run the app.

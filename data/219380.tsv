@@ -1,0 +1,4 @@
+2008-11-30T10:09:00.000Z	prakash_621		In grub, I need to select Microsoft Windows as Default Option. how to do that ?
+2008-11-30T10:11:00.000Z	prakash_621		Yes, but this system is used by children too. they dont know ubuntu ? how to select Microsoft Windows as Default Option in grub loader ?
+2008-11-30T10:12:00.000Z	Flannel	prakash_621	edit your menu.lst, near the top, set "default" to "saved", and under the windows entry (the line following, leave no blank lines, or put it inside) add "savedefault" on a line of its own
+2008-11-30T10:17:00.000Z	Flannel	prakash_621	alt-f2 then gksu gedit /boot/grub/menu.lst

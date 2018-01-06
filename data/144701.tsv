@@ -1,0 +1,4 @@
+2007-03-17T06:00:00.000Z	fannagoganna		hi, i am trying to install a very minimal Ubuntu system with debootstrap onto my linux machine
+2007-03-17T06:00:00.000Z	fannagoganna		however, i am installing onto a currently configured LVM2 system
+2007-03-17T06:01:00.000Z	fannagoganna		will the kernel and grub installed with debootstrap work -- will it have the kernel modules to recognize the LVM2 partitions?
+2007-03-17T06:01:00.000Z	userund	fannagoganna	unless you compile it yourself it should recognize it by default.  I don't know why you're bootstrapping though but anyway

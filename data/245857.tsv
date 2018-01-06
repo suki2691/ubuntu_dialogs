@@ -1,0 +1,4 @@
+2005-03-17T10:53:00.000Z	_phate_		how do I link to things? I have a partition (/stuff) how do I make a link to it in may home folder?
+2005-03-17T10:55:00.000Z	_phate_		now how do I set permissions for a partition?
+2005-03-17T10:56:00.000Z	johnnybezak	_phate_	chmod -R 755 /path/to/partition (owner read, write, execute group and other read and execute)
+2005-03-18T09:41:00.000Z	_phate_	johnnybezak	I use mv oldname newname

@@ -1,0 +1,4 @@
+2009-06-16T18:42:00.000Z	panzor		Hello, I'm using fgrep to match a string in "ps xa" and I just want the process that I'm matching, not the grep process finding that process. How do I exlude grep from my results without using `cut`?
+2009-06-16T18:43:00.000Z	grawity	panzor	| grep -v grep
+2009-06-16T18:43:00.000Z	panzor	grawity	ah, thanks. It must be early :P
+2009-06-16T18:43:00.000Z	grawity	panzor	Or use pgrep maybe? ps ax $(pgrep something)

@@ -1,0 +1,4 @@
+2012-03-08T21:20:00.000Z	PhantomOcelot		Is there a program similar to GPartEd that would allow me to copy a partition? Example:  I am buying a new hard drive, and have no intention of keeping this one, as it is old and less than 100GB.  Is there a way I can just copy this hard drive info to the new hard drive WITHOUT having to do a full install of Ubuntu and lose everything?
+2012-03-08T21:22:00.000Z	PhantomOcelot		So I could theoretically just copy the /home/ fold in it's entirety and drop it on the new hard drive, and all should work?
+2012-03-08T21:23:00.000Z	PhantomOcelot		Thanks, crashanddie.
+2012-03-08T21:24:00.000Z	sacarlson	PhantomOcelot	other than like cp -a /eachsource /eachdest  you will also need to install an mbr on the new disk and maybe do some changes of /etc/fstab of the new hdid or /dev/sdX

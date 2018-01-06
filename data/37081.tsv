@@ -1,0 +1,4 @@
+2010-03-20T21:46:00.000Z	tehbaut		what would cause a DD-copied partition to fail to boot on the destination disk?
+2010-03-20T21:47:00.000Z	Red_HamsterX	tehbaut	a different UUID, which would prevent the partition from being found by some boot-time tests and scripts. You may need to hack Grub's config files and fstab.
+2010-03-20T21:48:00.000Z	tehbaut	Red_HamsterX	great... hack jobs, lovely
+2010-03-20T21:49:00.000Z	Red_HamsterX	tehbaut	it's not really a hack-job. You've just circumvented the auto-detect/setup process that avoids the need to edit these files manually.

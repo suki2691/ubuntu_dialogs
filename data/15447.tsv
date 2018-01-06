@@ -1,0 +1,4 @@
+2012-05-03T04:25:00.000Z	Vuth		http://www.linuxbsdos.com/2011/05/04/manual-disk-partitioning-guide-for-ubuntu-11-04/  please why do they have 2 ext4 drives and 1 ext2 drives? why not make them all ext4? isnt ext4 better? but on the ubuntu help website it asks u to ext3 instead
+2012-05-03T04:26:00.000Z	escott	Vuth	ext4 is not necessary for small drives
+2012-05-03T04:27:00.000Z	escott	Vuth	in general terms ext3=ext3+journal and ext4=ext3+extents (efficient storage of large files)
+2012-05-03T04:27:00.000Z	escott	Vuth	so /boot has no real advantage to being ext3 or ext4 because you (a) cant recover it because you havent booted and (b) you have no large files

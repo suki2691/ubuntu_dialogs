@@ -1,0 +1,4 @@
+2011-11-21T14:15:00.000Z	proxx		hello, I scanned myself and found an open port, now how do i trail this back to the service ?
+2011-11-21T14:15:00.000Z	llutz	proxx	sudo lsof -i :portnumber
+2011-11-21T14:17:00.000Z	llutz	proxx	sudo netstat -tulpen |grep portnumber
+2011-11-21T14:19:00.000Z	proxx	llutz	thank you i found it, its vmware :)

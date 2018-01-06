@@ -1,0 +1,4 @@
+2011-12-05T18:52:00.000Z	bobweaver		Hello there, I am tring to install BURG onto my ubuntu box(11.10 ). I am using this link http://www.unixmen.com/linux-tutorials/linux-distributions/linux-distributions4-ubuntu/1679-how-to-install-burg-in-ubuntu- . I am stuck at this part: "Remember to substitute ‘hd0′ with the drive on which your MBR is installed." My question ius how to find out what drive my MBR is installed on ?
+2011-12-05T18:53:00.000Z	bobweaver		sda
+2011-12-05T18:53:00.000Z	bobweaver		sweet guys thanks
+2011-12-05T18:53:00.000Z	insmod	bobweaver	dmesg or du -f

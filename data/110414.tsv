@@ -1,0 +1,4 @@
+2008-02-28T01:13:00.000Z	protoloco		hello i would like to find in some directories the changes or the added file from some date to now... how can i find them ?
+2008-02-28T01:13:00.000Z	DRebellion	protoloco	try   ls -l  for last modified
+2008-02-28T01:15:00.000Z	protoloco	DRebellion	the thing is that they are thousands of files.. so.. i need just a few.. the new changes of today
+2008-02-28T01:16:00.000Z	DRebellion	protoloco	just pipe it to grep and search for today's date

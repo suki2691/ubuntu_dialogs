@@ -1,0 +1,4 @@
+2012-02-29T19:11:00.000Z	theadmin	sveinse	Just uninstall networkmanager?
+2012-02-29T19:11:00.000Z	theadmin	sveinse	(or stop it from starting)
+2012-02-29T19:12:00.000Z	sveinse	theadmin	How to stop it when it hasn't started yet?
+2012-02-29T19:12:00.000Z	theadmin	sveinse	Stop it from starting at boot, i.e: sudo mv /etc/init/network*manager.conf /etc/init/networkmanager.conf.DISABLED # I honestly don't remember whether it's "networkmanager" or "network-manager" so I put that * in there

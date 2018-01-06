@@ -1,0 +1,4 @@
+2008-06-11T23:39:00.000Z	dongo		Hey.. I'm resizing and moving partions(including my linux ones) using some 3rd party tools. So, does it effect my linux installation? if I commit the changes will my linux work as usual?
+2008-06-11T23:40:00.000Z	joaopinto	dongo	resizing should not affect, deleted/creating partitions may affect in case it changes the parts numbering
+2008-06-11T23:41:00.000Z	dongo	joaopinto	yeah, I'm merging few windows partitions as well. So, what is the solution?
+2008-06-11T23:42:00.000Z	joaopinto	dongo	you will need to reconfigure grub, but dont ask me, i am not a grub expert :P

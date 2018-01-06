@@ -1,0 +1,4 @@
+2007-06-02T16:45:00.000Z	wht1		ubuntu is no longer detecting my video card as it should. it's just starting up in 1024x768. xorg now only shows those resolutions. I would just change that manually, but i didn't change anything and it just stopped working properly and i need to know why
+2007-06-02T16:46:00.000Z	Pelo	wht1	 some ppl have had various issues after updating to the latest kernel,   you might need to reconfigure your video card,
+2007-06-02T16:47:00.000Z	Pelo	wht1	about 4 days ago
+2007-06-02T16:47:00.000Z	Pelo	wht1	sudo dpkg-reconfigure xserver-xorg

@@ -1,0 +1,4 @@
+2012-11-25T07:09:00.000Z	briankb		hey guys, how do I tell nfsd to only listen on 127.0.0.1?  I read nfsd(8) and found --host paramter. Is there a configuration file where I can set that parameter?
+2012-11-25T07:09:00.000Z	ActionParsnip	briankb	is there a config for it in /etc maybe
+2012-11-25T07:12:00.000Z	briankb	ActionParsnip	I'm not at all familiar with nfs. The only configuration files I found that appear to be related are /etc/default/nfs-common
+2012-11-25T09:14:00.000Z	briankb	ActionParsnip	btw I just ended up writing an iptables rule so nfs couldn't be reached externally

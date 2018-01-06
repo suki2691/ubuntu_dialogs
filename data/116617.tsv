@@ -1,0 +1,4 @@
+2008-04-22T17:14:00.000Z	vo		hey, is there an easy way to find out whether a disk (e.g. /dev/hdb) is PATA or SATA?
+2008-04-22T17:14:00.000Z	vo		from the command line
+2008-04-22T17:15:00.000Z	ikonia	vo	hd = pata
+2008-04-22T17:16:00.000Z	vo	ikonia	is that always the case? because i did lspci and this computer has a SATA controller in it, i was just thinking maybe it's one of those controllers that "fakes IDE"

@@ -1,0 +1,4 @@
+2007-05-15T10:21:00.000Z	puff		Evening... I'm on dapper.  I need php5-tidy.  php5-tidy appears to have been left out of dapper.  When I upgraded from warty to hoary to dapper, things got stuck at hoary, my network got hosed.  I eventually burned a live CD and continued the upgrade using the live CD as the source repository, but I'm under deadline pressure right now and I'd rather not deal with a mysterious upgrade problem.  How safe is the upgrade?
+2007-05-15T10:22:00.000Z	mister_roboto	puff	i upgraded 4 different computers from edgy to feisty with no issues, for what that's worth :)
+2007-05-15T10:22:00.000Z	puff	mister_roboto	Thanks, that's somewhat reassuring :-).
+2007-05-15T10:26:00.000Z	mister_roboto	puff	in all my cases, i used vi on sources.list and replaced all "edgy" with "feisty" and then did "sudo apt-get update && sudo apt-get dist-upgrade"

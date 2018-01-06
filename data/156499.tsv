@@ -1,0 +1,4 @@
+2008-05-07T05:48:00.000Z	r00723r0		Hi, is the current Ubuntu kernel supportive of ext4?
+2008-05-07T05:49:00.000Z	genii	r00723r0	ext4 has been temporarily removed from kernel tree due to problems. So no
+2008-05-07T05:49:00.000Z	r00723r0	genii	when will it be allowed, and when it is, how would I make a currently ext3 partition into an ext4 one?
+2008-05-07T05:51:00.000Z	genii	r00723r0	No idea when it will back in regular tree. You would convert however with same tool as before, tune2fs

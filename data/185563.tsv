@@ -1,0 +1,4 @@
+2007-02-22T13:16:00.000Z	igor	rb007	try to add this entry to /etc/network/interfaces:  dns-nameservers DNSIPHERE
+2007-02-22T13:16:00.000Z	igor	rb007	put somewhere in the interface declaration
+2007-02-22T13:18:00.000Z	igor	rb007	btw if you do: echo nameserver IPHERE > /etc/resolv.conf  will do the job.. but if resolvconf package is installed.. will reset your config on reboot. (the first solution is the right one to systems with resolvconf package, as ubuntu edgy)
+2007-02-22T13:18:00.000Z	igor	rb007	remeber only root can do it. If you aren't root. try su or sudo .

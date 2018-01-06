@@ -1,0 +1,4 @@
+2012-08-02T00:09:00.000Z	MCl0vin		!build
+2012-08-02T00:11:00.000Z	MCl0vin		ok lets say my laptop is running 12.04 64bits is it possible i can convert it to 32bit and visa versa without losing my pkgs and data?
+2012-08-02T00:12:00.000Z	MCl0vin		so no work arround
+2012-08-02T00:12:00.000Z	meganerd	MCl0vin	you can backup a list of installed packages to make it easier to install them all later (dpkg-get selections and dpkg-set-selections)

@@ -1,0 +1,4 @@
+2006-02-25T09:07:00.000Z	renewip		Hi, how can I remote my Ubuntu with Graphic mode. I mean I can remote my PC via SSH (Putty in windows) but it's text mode (just console).
+2006-02-25T09:07:00.000Z	soundray	renewip	look into vnc (apt-cache search vnc) and freenx
+2006-02-25T09:08:00.000Z	soundray	renewip	you can also do ssh -X remotehost and run X apps remotely with local graphical output. But it's slow.
+2006-02-25T09:11:00.000Z	renewip	soundray	but I want remote from Windows PC

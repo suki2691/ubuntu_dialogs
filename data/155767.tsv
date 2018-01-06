@@ -1,0 +1,4 @@
+2006-12-07T06:47:00.000Z	dreamer		every time I reboot my desktop forgets to turn on swap? what is this and how can I auto-activate it on startup (atm I do #swapon /dev/hda6 every timeI find out)
+2006-12-07T06:48:00.000Z	Randakar	dreamer	put a line in your fstab: /dev/hda6  none swap sw 0 0
+2006-12-07T06:48:00.000Z	Randakar	dreamer	that's /etc/fstab
+2006-12-07T06:48:00.000Z	dreamer	Randakar	thanks!

@@ -1,0 +1,4 @@
+2012-06-01T23:59:00.000Z	edlinde		hi all, I am connected to a Ubuntu box and I think one of the disks is "unmounted" because the machine was probably restarted
+2012-06-02T00:00:00.000Z	edlinde		I am wondering how I can look at unmounted disks as well
+2012-06-02T00:00:00.000Z	edlinde		and how I can mount it back?
+2012-06-02T00:01:00.000Z	guntbert	edlinde	you list all disks with sudo fdisk -l

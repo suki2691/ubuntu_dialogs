@@ -1,0 +1,4 @@
+2011-09-06T12:02:00.000Z	chris--		i all. i have a "small" problem with my backup. i have a backup using 500GB rdx cartridges. the cartridges are labeled with "e2label". i use 3 cartridges. 1 for MO/WED , 1 for TUE/THUR and 1 for FRI. i have a cronjob running on working days at 11pm. the backup works on all days except monday. the script does following: checking label -> mounting device -> copying files -> unmount device -> eject device. On monday he somehow fails mount the device with follo
+2011-09-06T12:03:00.000Z	chris--		fails mount the device with followin error "mount: special device /dev/sdb1 does not exist"
+2011-09-06T12:03:00.000Z	chris--		though, on wednesday it works using the same cartridge
+2011-09-06T12:03:00.000Z	ActionParsnip	chris--	run:   sudo fdisk -l   to see available partitions

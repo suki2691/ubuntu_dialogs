@@ -1,0 +1,4 @@
+2011-09-28T22:25:00.000Z	skegeek		Does updatedb just update a list of installed packages or is there more to it?
+2011-09-28T22:26:00.000Z	alkafoo	skegeek	it doesn't do that, it makes a database of file names/paths on your box
+2011-09-28T22:26:00.000Z	alkafoo	skegeek	if you want something that doesn't rely on a database, use find
+2011-09-28T22:26:00.000Z	alkafoo	skegeek	if you want package info, use dpkg or aptitude

@@ -1,0 +1,4 @@
+2006-07-28T16:17:00.000Z	sergiol_elsewher		what is the command to know which package a file came from?
+2006-07-28T16:17:00.000Z	Seveas	sergiol_elsewher	dpkg -S file
+2006-07-28T05:23:00.000Z	Seveas	sergiol_elsewher	pg_hba.conf lives in /etc/postgresql/8.1/main (if using pg 8.1)
+2006-07-28T05:26:00.000Z	Seveas	sergiol_elsewher	the file is created by the postinst, so it's not in any package list

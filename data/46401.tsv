@@ -1,0 +1,4 @@
+2009-12-13T08:57:00.000Z	mynickstaken		quick question ubuntu peeps
+2009-12-13T08:58:00.000Z	mynickstaken		how do i tell 9.10 to not start x on boot
+2009-12-13T08:58:00.000Z	mynickstaken		removed gdm from the runlevel, it still starts
+2009-12-13T08:59:00.000Z	losha	mynickstaken	I usually mv /usr/sbin/gdm to /usr/sbin/gdm.orig and I do the same with gdm-binary. I'd like to punch the gdm developer...

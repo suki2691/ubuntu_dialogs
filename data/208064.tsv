@@ -1,0 +1,4 @@
+2010-07-26T01:45:00.000Z	barfster		How can I make this not busy? # umount /dev/hdc1
+2010-07-26T01:45:00.000Z	barfster		umount: /var/www: device is busy
+2010-07-26T01:46:00.000Z	barfster		I did /etc/apache2 stop
+2010-07-26T01:46:00.000Z	hangfire	barfster	`lsof | grep <mountpoint>` - then stop whatever is using the mount point

@@ -1,0 +1,4 @@
+2005-03-05T12:05:00.000Z	cybane		this input --> sudo CFLAGS="-03" CXX=gcc CXXFLAGS="-03 -felide-constructors \ -fno-exceptions -fno-rtti" ./configure --prefix=/usr/local/mysql \ --enable-assembler --with-mysqld-ldflags=-all-static
+2005-03-05T12:05:00.000Z	cybane		gives this error --> sudo: CFLAGS=-03: command not found
+2005-03-05T12:05:00.000Z	cybane		what am I doing wrong?
+2005-03-05T12:06:00.000Z	|QuaD-	cybane	that looks like a makefile

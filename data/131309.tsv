@@ -1,0 +1,4 @@
+2008-06-26T17:26:00.000Z	dfOS_user__		Hey I'm using a custom OS and have a group user and pass etc. But I was never given the root password. Any way of getting it without contacting who made the os?
+2008-06-26T17:27:00.000Z	WalloO	dfOS_user__	which OS? Linux?
+2008-06-26T17:28:00.000Z	WalloO	dfOS_user__	there is no root password by default, =since root login is not allowed by default
+2008-06-26T17:29:00.000Z	WalloO	dfOS_user__	however, if you want to remove a password, run the live CD, mount the disk, then remove the password in /etc/shadow

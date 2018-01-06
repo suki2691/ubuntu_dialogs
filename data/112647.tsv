@@ -1,0 +1,4 @@
+2011-12-30T06:48:00.000Z	HaltingState		i need ubuntu server help; is there a channel
+2011-12-30T06:50:00.000Z	HaltingState		 help; during installation, it hit enter at the screen "install common servers" and did not select lamp/ssh; is there a tool i can run to have those installed or do i have to redo installation or
+2011-12-30T06:50:00.000Z	HaltingState		*I hit enter and skipped the screen (i thought enter selected option) *face palm*
+2011-12-30T06:51:00.000Z	greylurk	HaltingState	You can install each of the requisite packages using "apt-get".  I.e. ssh is "sudo apt-get install openssh-server".  Or look in Ubuntu SoftwareCenter.

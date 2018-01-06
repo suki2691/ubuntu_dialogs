@@ -1,0 +1,4 @@
+2007-06-26T06:07:00.000Z	DavidCraft		while partitioning my hard drive on my laptop, I got the following error message: "BOOTBCD.LOG is 9 k, but has 33 clusters(132k)."  what does this mean?
+2007-06-26T06:08:00.000Z	persica	DavidCraft	I think that means you have a filesystem corruption.  The file size and the space on disk are inconsistent.  Try checking your file system.
+2007-06-26T06:09:00.000Z	persica	DavidCraft	oh, hrm.  What filesystem?
+2007-06-26T06:13:00.000Z	persica	DavidCraft	if it's a recovery partition it is probably a bit weird.  Some vendors intentionally put errors in those file systems so they won't show up in windows.  It usually just contains a backup windows installation.

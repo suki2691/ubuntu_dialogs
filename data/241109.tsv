@@ -1,0 +1,4 @@
+2005-04-20T15:53:00.000Z	Quenyar		I'm trying to read mail from another linux host on my LAN but I get connection refused from evolution.  How do I allow the connection?
+2005-04-20T15:54:00.000Z	penguin42	Quenyar	connection refused is either  1) You have a firewall in the way    or   2) The other machine isn't running a suitable demon to let you read mail (e.g. pop or imap demon)
+2005-04-20T15:57:00.000Z	Quenyar	penguin42	how do I tell if there is a pop or impa daemon running on my fedora2 host?
+2005-04-20T15:58:00.000Z	penguin42	Quenyar	If you haven't installed one there probably isn't - do a ps and look what is installed or use netstat -p to see what ports things are listening on

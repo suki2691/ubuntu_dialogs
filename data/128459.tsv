@@ -1,0 +1,4 @@
+2007-07-13T05:16:00.000Z	IndyLucian		if i just want to download a package, what apt-get command would i use? the man page said i would use -d but it didn't tell me which command to use (i.e. apt-get install, apt-get download, etc)
+2007-07-13T05:17:00.000Z	Warbo	IndyLucian	sudo apt-get -d install packagename
+2007-07-13T05:17:00.000Z	IndyLucian	Warbo	thanks. . . now how can i specify a location to download? "use > location/name" at the end?
+2007-07-13T05:18:00.000Z	Warbo	IndyLucian	I don't think you can. The packages all get downloaded to /var/cache/apt/archives

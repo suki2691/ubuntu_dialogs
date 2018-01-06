@@ -1,0 +1,4 @@
+2007-07-30T08:03:00.000Z	Nutubuntu		I suddenly have a font problem. I was trying to cure a firefox issue, found a webpage that suggested maybe it was a permissions issue on fonts and chmod -R 644 /usr/share/fonts/* . I did that. If I open a graphical app now (eg, system monitor), its tabs and the process list, etc, are all displayed as little squares, as if the font doesn't exist, I'm a bit nervous about restarting X so have not done that yet. Did I mess up seriously?
+2007-07-30T08:05:00.000Z	genii	Nutubuntu	Well likely your X will still start.
+2007-07-30T08:06:00.000Z	genii	Nutubuntu	My /usr/share/fonts  dirs seem to be perms 755 BTW
+2007-07-30T08:09:00.000Z	genii	Nutubuntu	About that error i have not an idea

@@ -1,0 +1,4 @@
+2008-12-06T01:27:00.000Z	chupy		hi, i need help my webcam before i compile a driver works fine but now not how do i uninstall that driver i compile it but sudo make uninstall dont work... what can i do?
+2008-12-06T01:27:00.000Z	mgolisch	chupy	remove it manualy
+2008-12-06T01:30:00.000Z	mgolisch	chupy	delete the files it installed using rm
+2008-12-06T01:32:00.000Z	mgolisch	chupy	look at the messages from make install it will tell your where it put the files and blame the developer to not have included a proper uninstall make target

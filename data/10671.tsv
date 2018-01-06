@@ -1,0 +1,4 @@
+2011-10-18T14:13:00.000Z	uragano2		Hello, i would like to run this scipt http://pastebin.com/Psd0sfGG at start up, but i don't understand why it doesn't work...i am using sudo update-rc.d -f myscript start 98 2 3 4 5 . stop 80 0 1 6 .  to set it at start up. Ubuntu 11.04
+2011-10-18T14:14:00.000Z	arghx	uragano2	this is a bad script. for example, the mounting should be done via fstab
+2011-10-18T14:14:00.000Z	arghx	uragano2	and tomcat and this other thing you can start via rc.local
+2011-10-18T14:16:00.000Z	uragano2	arghx	ok, i'll do it. But how can i update the rpublic ipaddress? inadyn doesn't work there...

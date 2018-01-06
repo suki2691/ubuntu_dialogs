@@ -1,0 +1,4 @@
+2010-02-22T00:49:00.000Z	ka0tic		hi
+2010-02-22T00:50:00.000Z	ka0tic		i just installed ubuntu on my sata drive, and rebooted... but in my bios there is not sata drive being detected, so i can't boot from the drive .. what is wrong?
+2010-02-22T00:51:00.000Z	dj_segfault	ka0tic	Check boot order in the bios
+2010-02-22T00:56:00.000Z	dj_segfault	ka0tic	There are two issues: where the boot manager is, and where the root of the OS you're trying to boot is.  The BIOS is needed for the first but not the second

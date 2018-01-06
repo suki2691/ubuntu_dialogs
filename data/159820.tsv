@@ -1,0 +1,4 @@
+2010-11-10T02:06:00.000Z	Monotoko		Hiya, does anyone know of anything I can use to moniter server processes? So I know if they have crashed or gone down>
+2010-11-10T02:06:00.000Z	rooks	Monotoko	ps command?
+2010-11-10T02:08:00.000Z	rooks	Monotoko	put simple watcher script in cron, that asks sudo service XXX status, and if its other than alive then send mail
+2010-11-10T02:10:00.000Z	rooks	Monotoko	 ooh, havent knew about monit, looks like awesome tool :)

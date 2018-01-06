@@ -1,0 +1,4 @@
+2008-10-30T16:13:00.000Z	mcbane		hi
+2008-10-30T16:15:00.000Z	mcbane		I have a laptop with ubuntu. How do I tell Ubuntu to aquire a new dhcp lease every time I plug in a network cable? It does only work, If I have the cable plugged in at boot time.
+2008-10-30T16:16:00.000Z	bazhang	mcbane	sudo dhclient eth0
+2008-10-30T16:17:00.000Z	mcbane	bazhang	I know that. But it is a laptop that is used by many non sudoers too. And it is just plain iconvinient :)  Is there no flag that I can set, that he does that automagicly?

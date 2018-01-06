@@ -1,0 +1,4 @@
+2009-10-31T18:51:00.000Z	KiiK		run ./ -type d, it include ./ and /test , so how can i exclude ./
+2009-10-31T18:52:00.000Z	KiiK		run find ./ -type d, it include ./ and /test , so how can i exclude ./
+2009-10-31T18:52:00.000Z	Bodsda	KiiK	./ is just the current working directory
+2009-10-31T18:55:00.000Z	Bodsda	KiiK	Im no expert but it looks like that command will execute the rm -r command on the results of the find command

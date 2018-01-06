@@ -1,0 +1,4 @@
+2008-07-13T23:15:00.000Z	Steve^		Where does the ubuntu install of apache2 keep its config files?
+2008-07-13T23:16:00.000Z	Steve^		/etc/apache2/apache2.conf   looks promising, but its missing things like DocumentRoot
+2008-07-13T23:16:00.000Z	Flannel	Steve^	site specific things are in your virtualhost file.  /etc/apache2/sites-available/*  What are you looking for?
+2008-07-13T23:19:00.000Z	Flannel	Steve^	module specific configurations are in their respective .conf files in mods-available, virtual host specific things are in sites-available.  You use a2(en|dis)(site|mod) to enable/disable sites and modules

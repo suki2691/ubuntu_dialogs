@@ -1,0 +1,4 @@
+2007-04-29T11:12:00.000Z	gunny01		hi all. how can i make a shell script so it is run whenever the computer starts up?
+2007-04-29T11:13:00.000Z	spec	gunny01	make the script, put it in /etc/init.d/, and do update-rc.d scriptname defaults
+2007-04-29T11:14:00.000Z	gunny01	spec	so, like "update-rc.d foo.sh defaults"
+2007-04-29T11:14:00.000Z	spec	gunny01	yeap, if it's sitting in init.d

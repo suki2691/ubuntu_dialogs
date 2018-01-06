@@ -1,0 +1,4 @@
+2007-03-16T16:43:00.000Z	K-Rich		Slick sure is... that's how i have it set on my lan
+2007-03-16T16:43:00.000Z	Slick	K-Rich	do you know how I would go about setting that up?
+2007-03-16T16:44:00.000Z	K-Rich	Slick	unter the 'Authentication' heading in /etc/samba/smb.conf  change 'security = user' to 'security = share'
+2007-03-16T16:45:00.000Z	Slick	K-Rich	thanks very much, you're a legend

@@ -1,0 +1,4 @@
+2007-11-05T19:56:00.000Z	CaBa\		i am using ubuntu on a macbook and i want to define keys for the infraret remote control. but xev doesnt show keycodes for most of the buttons, but some kind of events. they work find with rhythmplayer, but i dont want to use them as media buttons... what app is responsible for that?
+2007-11-05T19:57:00.000Z	MasterShrek	CaBa\	i think if you type dmesg after hitting the key, it will give you a command for setkeycodes
+2007-11-05T19:58:00.000Z	CaBa\	MasterShrek	nope
+2007-11-05T20:02:00.000Z	CaBa\	MasterShrek	but the keycode business does the trick, thanks

@@ -1,0 +1,4 @@
+2009-08-08T07:01:00.000Z	sigjuice		I just added another hard disk to my system and it shows up as sdb, according to dmesg
+2009-08-08T07:01:00.000Z	sigjuice		how do I use my new hard disk?
+2009-08-08T07:02:00.000Z	Dr_Willis	sigjuice	 you partition it, format the filesystems, then mount it to where you want to access it at.
+2009-08-08T07:06:00.000Z	Dr_Willis	sigjuice	  you partition the drive to be one filesystem, sdb1, then you format it..  and then add a entry in /etc/fstab to mount it where you want.

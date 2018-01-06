@@ -1,0 +1,4 @@
+2012-11-24T22:43:00.000Z	rex		chriswere -- >The first solution for this issue can be by using the following command: sudo -s gksu gedit /etc/modprobe.d/ath9k.conf
+2012-11-24T22:44:00.000Z	rex		chriswre --> now add these lines at last -->options ath9k nohwcrypt=1
+2012-11-24T22:44:00.000Z	ChrisWere	rex	that opens up an empty file
+2012-11-24T22:47:00.000Z	ChrisWere	rex	and should that fix the problem?

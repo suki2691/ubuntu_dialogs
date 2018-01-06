@@ -1,0 +1,4 @@
+2006-03-31T17:14:00.000Z	Varanger		how can I install OpenOffice.org 2.0 in Ubuntu Breeze ?
+2006-03-31T17:16:00.000Z	whyami	Varanger	add this to your /etc/apt/sources.list: deb http://people.ubuntu.com/%7Edoko/OOo2 ./
+2006-03-31T17:16:00.000Z	Varanger	whyami	Then? just sudo apt-get upgrade / apt-get update ?
+2006-03-31T17:18:00.000Z	whyami	Varanger	then sudo apt-get update && sudo apt-get install openoffice.org2

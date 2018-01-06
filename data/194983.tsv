@@ -1,0 +1,4 @@
+2010-07-24T23:41:00.000Z	sander__		What password should I spesify when I mount an smb guest share?
+2010-07-24T23:42:00.000Z	Scunizi	sander__	samba keeps track of it's own guests.. you have to add them and their password
+2010-07-24T23:44:00.000Z	Scunizi	sander__	good luck.. my smb.conf on 9.10 worked fine unti I upgrade with errors then did a fresh install *and* reconfigured samba again... same smb.conf.. now I only have access with password & username.. still working on it.
+2010-07-24T23:49:00.000Z	sander__	Scunizi	ActionParsnip I get: mount error 5 = Input/output error

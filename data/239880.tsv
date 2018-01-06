@@ -1,0 +1,4 @@
+2005-05-26T14:19:00.000Z	bkw-laptop		When do I disable modules that are autoloaded during bootup, it can't be only /etc/modules   there're only a few listed?
+2005-05-26T14:21:00.000Z	nickrud	bkw-laptop	in /etc/blacklist and /etc/blacklist.d/
+2005-05-26T14:22:00.000Z	nickrud	bkw-laptop	um, put /etc/hotplug/blacklist blacklist.d, I mean :)
+2005-05-26T14:23:00.000Z	bkw-laptop	nickrud	shall I create /etc/hotplug/blacklist    and add the modulename I don't want autoloaded in that file?

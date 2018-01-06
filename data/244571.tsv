@@ -1,0 +1,4 @@
+2005-03-26T12:10:00.000Z	rossmacm		To block port 25, should I do iptables -A INPUT p tcp dport 25 j DROP?
+2005-03-26T12:12:00.000Z	mirage_	rossmacm	yes
+2005-03-26T12:12:00.000Z	rossmacm		marage_, thanks
+2005-03-26T12:15:00.000Z	rossmacm	mirage_	when I do sudo iptables -A INPUT p tcp dport 25 j DROP, it says bad argument '-p' What should I do?

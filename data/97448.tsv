@@ -1,0 +1,4 @@
+2009-08-01T17:01:00.000Z	awesomeguy		i have GCC installed but could anyone tell me how to run C programme thru terminal , i googled but i got GCC programme.c i ran that and got  ---
+2009-08-01T17:01:00.000Z	awesomeguy		gcc: newfile.c: No such file or directory
+2009-08-01T17:02:00.000Z	kindofabuzz	awesomeguy	gcc just compiles it, try gcc whatever.c -o whatever, that will give you an executable named whatever from whatever .c
+2009-08-01T17:04:00.000Z	kindofabuzz	awesomeguy	then once you have the whatever executable, just ./whatever

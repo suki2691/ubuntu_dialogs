@@ -1,0 +1,4 @@
+2009-02-15T00:44:00.000Z	mobo		Got an odd problem here... connected to my school's wireless network a while back, named wireless.txstate.edu. I am back at home now on my wireless network, and I am trying to communicate with another box on the same network. I can obviously get online, but I seem to have some intranet networking errors...when I try to ping my second client (mythbox) I get this "mobo@entropy:~$ ping mythbox
+2009-02-15T00:44:00.000Z	mobo		PING mythbox.wireless.txstate.edu (208.69.36.132) 56(84) bytes of data.
+2009-02-15T00:44:00.000Z	mobo		64 bytes from hit-nxdomain.opendns.com (208.69.36.132): icmp_seq=1 ttl=55 time=52.4 ms" ....so it looks like my PC (entropy) is tryiing to lookup the hostname mythbox using my router, using opendns, but I see the txstate wireless stuff in there, and I'm unsure why it is even appearing
+2009-02-15T00:44:00.000Z	FloodBot2	mobo	Please don't flood, use http://paste.ubuntu.com to paste, don't use Enter as punctuation.

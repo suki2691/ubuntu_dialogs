@@ -1,0 +1,4 @@
+2011-05-02T01:48:00.000Z	pindropper		i am trying to add an option to one of my functions i wrote into ~/.bashrc. I am trying to do this by comparing the first arg by using if [[ "$1"= "-browse"]]; then do so and so. but every time i run it, bash says [["-browse"="-browse"]] command not found. what am i doing wrong?
+2011-05-02T01:50:00.000Z	escott	pindropper	bash likes spaces in tests, i think that is the source of your problem, you may also try #bash
+2011-05-02T01:50:00.000Z	pindropper	escott	thanks. and thanks
+2011-05-02T01:52:00.000Z	pindropper	escott	it worked with the spaces ! i dint know bash was so sensitive. lol

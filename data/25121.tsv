@@ -1,0 +1,4 @@
+2011-04-26T19:52:00.000Z	zego	soyo	the log needs to be own or at least have write access to the log file.  the user is usually "www-data"
+2011-04-26T19:53:00.000Z	zego	soyo	 assuming apache2 is www-data, just do "chown www-data:www-data <file>" and "chmod 644 <file>"
+2011-04-26T19:54:00.000Z	soyo	zego	that could be it, testing
+2011-04-26T19:55:00.000Z	zego	soyo	other guess is that it can't find the file because of the path.  Make sure every directory is executable along its path

@@ -1,0 +1,4 @@
+2005-03-13T08:09:00.000Z	BockBilbo		hey
+2005-03-13T08:09:00.000Z	BockBilbo		Im trying to make  a program load everytime i start my x session with windomaker, but dont know which way i should follow..... a friend has told me to look for the .xinitrc file in my home directory but im missing that file. Im using ubuntu hoary. Anyone has an idea of how to do it?
+2005-03-13T08:11:00.000Z	NeoCicak	BockBilbo	the file should be in /etc/X11/xinit
+2005-03-13T08:12:00.000Z	NeoCicak	BockBilbo	have a read through it... i think you have to copy it to your ~, rename as .xinitrc or something like that...

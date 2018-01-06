@@ -1,0 +1,4 @@
+2005-03-28T13:13:00.000Z	robodex		hey, I'm having a REALLY weird problem when loading xmms...
+2005-03-28T13:14:00.000Z	robodex		Inconsistency detected by ld.so: ../sysdeps/generic/dl-tls.c: 72: _dl_next_tls_modid: Assertion `result <= _rtld_local._dl_tls_max_dtv_idx' failed!
+2005-03-28T13:15:00.000Z	crimsun	robodex	you need both libesd0 and libmikmod2 installed if you're using the binary-only Nvidia driver
+2005-03-28T13:15:00.000Z	robodex	crimsun	thanks, I'll try that

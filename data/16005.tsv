@@ -1,0 +1,4 @@
+2011-04-09T23:29:00.000Z	dusf_		at some point today, possibly after updates, i noticed that when i click on the ubuntu applications menu it highlights but no drop down panel appears, although places and system work fine. i have read that if i 'rm ~/.config/menus/applications.menu' may fix it, is this the correct action and would i then lose all entires for wine etc?
+2011-04-09T23:31:00.000Z	Cane	dusf_	 you can do mv ~/.config/menus/applications.menu ~/backup.applications.menu
+2011-04-09T23:31:00.000Z	Cane		that'll move it to your user directory and if it don't work, move it back... but if the system can't find your applcaitons.menu file it creates a default one
+2011-04-09T23:32:00.000Z	dusf_	Cane	magically fixed, ty :)

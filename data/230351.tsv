@@ -1,0 +1,4 @@
+2005-09-16T07:14:00.000Z	marty		I have intalled Breezy on an old Gateway and everything is working fine except the sound. I get this looping noise of the drumming from the GNOME startup and I can not get it to stop. Does anyone know how to get ALSA to stop doing that?
+2005-09-16T07:15:00.000Z	dabaR	marty	have you killall esd yet in a terminal?
+2005-09-16T07:16:00.000Z	marty	dabaR	how might that help? If I kill esd, then the GNOME desktop will not have sound, which would mean Firefox and other apps would not have accessablity to the sound card, right?
+2005-09-16T07:17:00.000Z	dabaR	marty	you are completely right. it would stop the noise.

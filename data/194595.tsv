@@ -1,0 +1,4 @@
+2006-03-19T06:43:00.000Z	wbarnes		can someone explain what purpose initrd serves
+2006-03-19T06:43:00.000Z	silvaran	wbarnes	It's a miniature filesystem-in-a-file to serve as a launchpad for booting the system.  abbreviation for "initial ramdisk"
+2006-03-19T06:45:00.000Z	wbarnes	silvaran	why can't the kernel just boot directly.  both kernel and initrd are pointing to same device .... so it seems both should be able to access?
+2006-03-19T06:46:00.000Z	silvaran	wbarnes	It can... but to make things as general as possible, core drivers (for scsi, ide, etc.) are put in the initrd.  Then it grabs that initrd on bootup (using very simple disk access code), and loads whatever it needs from the initrd to access the rest of the system.  It's a conservative approach to the chicken-and-egg problem of needing a hard disk driver off a hard disk to access a hard disk :)

@@ -1,0 +1,4 @@
+2009-01-13T08:09:00.000Z	canon247		Hi all, I am trying to mount my main harddrive using ubuntu 8.10 live dvd thru the File Browswer and it's not mounting. What is going wrong?
+2009-01-13T08:10:00.000Z	vocx	canon247	how is that? Does it give an error? Have you tried mounting from the command line?
+2009-01-13T08:12:00.000Z	vocx	canon247	type "sudo fdisk -l" to list your disks, then you can use a command such as "sudo mount /dev/sda1 /some/point"
+2009-01-13T08:14:00.000Z	vocx	canon247	I told you to do this is a terminal "sudo fdisk -l"

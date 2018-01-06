@@ -1,0 +1,4 @@
+2012-03-15T18:17:00.000Z	codazoda		I just reset my keyring password, then reset my system password, and I'll try a reboot to see if resetting them does any magic to fix this.
+2012-03-15T18:17:00.000Z	escott	codazoda	it is designed to handle all desktop passwords meaning passwords to instant messenger programs and email clients as well as being your ssh-agent
+2012-03-15T18:18:00.000Z	escott	codazoda	generally your gnome-keyring password is configured to be the same as your login password, if you changed your password with passwd on the cli then this might be the cause of your problems
+2012-03-15T18:20:00.000Z	codazoda	escott	I'm not sure what messed it up.  My password has been the same for well over a year.  Something I did, however, broke this somehow.  I was hoping that changing the keyring and login password might solve it.  I'm going to disconnect and restart to see if that did the trick.

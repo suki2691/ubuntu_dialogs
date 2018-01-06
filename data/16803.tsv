@@ -1,0 +1,4 @@
+2011-04-24T05:51:00.000Z	astory		is there a reason why dpkg doesn't install packages while downloading others?
+2011-04-24T05:52:00.000Z	maco	astory	probably related to packages needing to be installed in the right order
+2011-04-24T05:52:00.000Z	maco	astory	in the case of ones with circular dependencies, "right order" = "simultaneously"
+2011-04-24T05:53:00.000Z	astory	maco	but most packages don't have circular dependencies, it seems like a pretty easy optimization to make

@@ -1,0 +1,4 @@
+2011-03-02T21:05:00.000Z	aworkingpig		actionparsnips, i ran this command sudo "apt-get -y install linux-headers-`uname -r` libncursesw5-dev" but was told E: couldn't find  linux-headers-uname -r, any ideas. the 1st part seemed to install fine
+2011-03-02T21:06:00.000Z	aworkingpig		kk
+2011-03-02T21:06:00.000Z	Pumpkin-	aworkingpig	try again without the "'s. Your quoting of the string stops it doing what it should do with the backticks (which is exectute uname -r in a subshell and drop the output into where `uname -r` is.
+2011-03-02T21:08:00.000Z	Pumpkin-	aworkingpig	I mean do sudo apt-get -y install linux-headers-`uname -r` libncursesw5-dev. Don't have " anywhere.

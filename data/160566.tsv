@@ -1,0 +1,4 @@
+2007-06-30T10:36:00.000Z	Wyzard		Can anyone think of a reason why NetworkManager would fail to "see" eth0 on a system that was upgraded from edgy, given that eth0 itself exists and I can do DHCP on it manually?
+2007-06-30T10:37:00.000Z	Jordan_U	Wyzard	Is it set to roaming in network-admin? They can't both control an interface at the same time.
+2007-06-30T10:41:00.000Z	Wyzard	Jordan_U	On a box with a fresh install of feisty, I see that "roaming" checkbox in network-admin and it's unchecked, but on the upgraded box, that checkbox is labeled "enable this connection", not "enable roaming", and it's checked
+2007-06-30T10:42:00.000Z	Wyzard	Jordan_U	It's the same version of gnome-system-tools (2.18.1-0ubuntu1) on both systems, so why would that checkbox be different between the two?

@@ -1,0 +1,4 @@
+2011-06-04T20:02:00.000Z	computerx		Filesystem on an ever increasing pool of disks: XFS/ext and symlink, ZFS? Other suggestions? I won't JBOD raid them because I don't want to lose everything if one dies.
+2011-06-04T20:04:00.000Z	computerx		Is xfs as stable as ext? Is the journaliing as good? Is there any reason I should choose one over the other (avg filesize will be 200mb
+2011-06-04T20:05:00.000Z	ssokolow	computerx	I believe xfs is more likely to zero out files if your system unexpectedly loses power. (Pretty much any filesystem but ext2/3/4 will do that)
+2011-06-04T20:06:00.000Z	ssokolow	computerx	No, as in "The file was being modified when the power failed. It's not the old or the new version or even a mix of them... it's just zero-byte file now."

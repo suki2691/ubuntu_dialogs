@@ -1,0 +1,4 @@
+2009-06-22T05:21:00.000Z	nztal		anyone know if a command or package i can install that will tell me which specific ATI chipset my video card is using ?
+2009-06-22T05:22:00.000Z	coleys	nztal	lspci |grep -i ati
+2009-06-22T05:27:00.000Z	coleys	nztal	It should display your correct video card. =o
+2009-06-22T05:28:00.000Z	nztal	coleys	ooh.  oddly it isn't.  i'm using the envyng-gtk package to get ATI drivers up and running, i choose not to use the restricted hardware driver manager to do that, perhaps if i had, it might show the correct card ?  regardless, everything seems functional

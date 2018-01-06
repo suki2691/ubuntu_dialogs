@@ -1,0 +1,4 @@
+2009-11-01T21:04:00.000Z	_Narc_		I have a question about file permissions. I just booted on Karmic Live CD to access my home directory on its own partition and delete all the .something folders to start with fresh settings but keep my data. But I'm unable to do it. Any advices ? Thanks
+2009-11-01T21:04:00.000Z	frostburn	_Narc_	use sudo to delete
+2009-11-01T21:05:00.000Z	frostburn	_Narc_	alternatively, you can just move your home directory to a backup directory
+2009-11-01T21:06:00.000Z	_Narc_	frostburn	I already used sudo to chmod -R 777 on the folders, I thought it will be enough. I already have a backup but I put home on a separate partition to avoid hours of copying back.

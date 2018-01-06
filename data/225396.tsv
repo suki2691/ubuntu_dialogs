@@ -1,0 +1,4 @@
+2007-01-19T06:57:00.000Z	samalex		I guess this is a dumb question then, but how can I verify it's running with SMP enabled, just so I know it's using both processors?
+2007-01-19T06:57:00.000Z	samalex		actually n/m, I went to System MOnitor, and it does show both processors, so I guess that's a clue that it's working :)
+2007-01-19T06:57:00.000Z	Hobbsee	samalex	cat /proc/cpuinfo
+2007-01-19T06:58:00.000Z	Hobbsee	samalex	yay :)

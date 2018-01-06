@@ -1,0 +1,4 @@
+2007-03-11T12:52:00.000Z	S0crates		When I do the following command 'apt-get install libgnomevfs2-dev', Im getting this error 'libgnomevfs2-dev: Depends: libgnomevfs2-0 (= 2.16.1-0ubuntu2) but 2.16.1-0ubuntu7 is to be installed  E: Broken Packages'  How do I fix this?
+2007-03-11T12:52:00.000Z	S0crates		Is this a broken dependency in the ubuntu repository?
+2007-03-11T12:53:00.000Z	crimsun	S0crates	make sure -updates is enabled, and refresh the apt cache
+2007-03-11T12:55:00.000Z	S0crates	crimsun	sorry for being a debian noob, but how do I do those?

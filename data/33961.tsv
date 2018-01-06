@@ -1,0 +1,4 @@
+2010-04-16T01:01:00.000Z	ombra		has apt a cache of old packages?
+2010-04-16T01:03:00.000Z	danand	ombra	Do you mean a cache of packages you have installed on your system? If so under /var/cache/ apt ...
+2010-04-16T01:04:00.000Z	ombra	danand	when apt install new software then it keeps a package of the old software?
+2010-04-16T01:06:00.000Z	danand	ombra	kinda depends how you installed the new software. If from a repository then the old package should still be under /var/cache/apt

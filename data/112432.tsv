@@ -1,0 +1,4 @@
+2012-11-17T04:32:00.000Z	bjrohan		For some reason the audio on my 12.10 system is garbled.  When this happened before in 12.04, it had to do with conflicting drivers. How can I check this to solve it?
+2012-11-17T04:34:00.000Z	michealPW	bjrohan	It's the rm command, removing your config. Yes without those commands you'll have the same problem.
+2012-11-17T04:35:00.000Z	michealPW	bjrohan	The rm command removes your configuration for PulseAudio, restarting will have Pulse start again, notice no config file and make a new one for you ( This is probably what will fix the problem or at least will be a good start, as ActionParsnip said :P )
+2012-11-17T04:57:00.000Z	michealPW	bjrohan	Gamma rays from the sun?

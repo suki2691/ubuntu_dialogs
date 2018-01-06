@@ -1,0 +1,4 @@
+2010-04-10T02:08:00.000Z	jcsandima		hi, Id like add a static ip addr to eth0 in addition to dhcp
+2010-04-10T02:08:00.000Z	sp	jcsandima	ifconfig eth0:0 is the way to go
+2010-04-10T02:08:00.000Z	sp	jcsandima	ie: ifconfig eth0:0 x.x.x.x netmask y.y.y.y
+2010-04-10T02:09:00.000Z	sp	jcsandima	if you are using the eth0:0 way of doing things you can go ahead and edit /etc/network/interfaces

@@ -1,0 +1,4 @@
+2005-04-29T13:54:00.000Z	tobi_v		hi pplz
+2005-04-29T13:54:00.000Z	tobi_v		can someone tell me why grub-install tells me "The file /boot/grub/stage1 not read correctly."
+2005-04-29T13:54:00.000Z	tobi_v		?
+2005-04-29T13:55:00.000Z	drspin	tobi_v	because it can't read the file -- use chroot and MANUALLY reinstall Grub to the MBR

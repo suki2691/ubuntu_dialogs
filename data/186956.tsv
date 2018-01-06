@@ -1,0 +1,4 @@
+2012-02-20T03:00:00.000Z	y0om4		i recalll being able to be elevated to root for the whole shell session, maybe i need to edit my /etc/group to add my only one user?
+2012-02-20T03:01:00.000Z	y0om4		god, there is no wheel group. there is a root group though
+2012-02-20T03:02:00.000Z	y0om4		su -i gives me an error that it is not an option. -i is not an option
+2012-02-20T03:02:00.000Z	ikonia	y0om4	sudo -i not su -u

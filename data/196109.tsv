@@ -1,0 +1,4 @@
+2006-08-29T12:55:00.000Z	birdfish		Okay, I'm going to attempt to install my nvidia drivers.  But I need to know how to get out of x and then back into it first
+2006-08-29T12:55:00.000Z	birdfish		Anyone know the commands to jump from different runlevels off the top of their heads?
+2006-08-29T12:56:00.000Z	Spec	birdfish	ctrl+alt+backspace will kill X, and then probably restart it, if you want it to stay stopped you'll want to do: /etc/init.d/gdm stop, to start it back up when you're done installing the driver, do: /etc/init.d/gdm start
+2006-08-29T12:57:00.000Z	birdfish	Spec	Thanks man.  I thought there was something more than ctrl+alt+backspace

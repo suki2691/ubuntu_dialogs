@@ -1,0 +1,4 @@
+2008-09-17T17:55:00.000Z	SuperLag		I apologize if this question has been asked ad nauseum already... but the forum posts I'm finding are quite old. I'm trying to update, and dpkg is telling me that linux-libc-dev cannot be authenticated. I chose not to update, when I saw that. Has this package been compromised?
+2008-09-17T17:56:00.000Z	Ziroday	SuperLag	no it usually means that you have some unauthenticated repo in your sources.list
+2008-09-17T17:57:00.000Z	Ziroday	SuperLag	you should get rid of all externel repos before updating
+2008-09-17T18:09:00.000Z	SuperLag	Ziroday	I've removed all external repos. Same error.

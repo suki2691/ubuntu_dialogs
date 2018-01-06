@@ -1,0 +1,4 @@
+2010-07-21T01:06:00.000Z	ericthehax		Is there a way I can install i386 deb packages in amd64 Ubuntu? I tried to compile the source code but it cant compile for amd64
+2010-07-21T01:07:00.000Z	dajhorn	ericthehax	Yes, but you can badly break the packaging system by forcing a package.  What are you trying to install?
+2010-07-21T01:08:00.000Z	dajhorn	ericthehax	Run `dpkg --force-help` and notice the blurb about forcing architecture.
+2010-07-21T01:09:00.000Z	dajhorn	ericthehax	And you'll probably need a bunch of lib32* packages for the audio and video.  apt-cache search lib32 | grep ^lib32

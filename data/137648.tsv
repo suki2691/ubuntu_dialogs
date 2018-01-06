@@ -1,0 +1,4 @@
+2011-04-27T22:12:00.000Z	jnlsnl_		If i do: "netstat -antp" i get  "tcp        0      0 127.0.0.1:3306          0.0.0.0:*               LISTEN" ... so is port 3306 already in use? I need it for mysql !
+2011-04-27T22:12:00.000Z	llutz	jnlsnl_	sudo lsof -i :3306           to find whats listening there
+2011-04-27T22:13:00.000Z	llutz	jnlsnl_	mysql already uses that port
+2011-06-09T16:18:00.000Z	llutz	jnlsnl_	what filesystem?

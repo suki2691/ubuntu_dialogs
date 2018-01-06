@@ -1,0 +1,4 @@
+2012-02-08T09:43:00.000Z	Q_Continuum		Ubuntu 11.10 64-bit Desktop, Intel Atom/NM10 Chipset w/Intel GMA 3150.  System not detecting GPU, what driver do I need to install to get more than 1024x768 out of this thing? (Nettop barebones)
+2012-02-08T09:45:00.000Z	ActionParsnip	Q_Continuum	http://ubuntuforums.org/showthread.php?t=1693384   xorg edgers ppa is mentioned here, may help but its quite experimental
+2012-02-08T09:46:00.000Z	ActionParsnip	Q_Continuum	less hardcore is add the boot option: acpi_osi=Linux    may help
+2012-02-08T10:28:00.000Z	Q_Continuum	ActionParsnip	both the ppa and the boot option acpi_osi=linux didn't help with the Intel GMA 3150 on 11.10 x64 :-/

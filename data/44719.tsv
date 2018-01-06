@@ -1,0 +1,4 @@
+2010-10-07T05:22:00.000Z	cbsd		Hi, im trying to install C-BGP in ubuntu but i need LIBGS so i downloaded the .tar.gz and did a ./configure && make but i got a problem becouse i need to configure with memory-debug and XML so i add --with-xml & memory-debug but i get sintaxys error... can someone helpme with this please?
+2010-10-07T05:22:00.000Z	icarus-c	cbsd	./configure --with-xml --memory-debug    #maybe
+2010-10-07T05:24:00.000Z	cbsd	icarus-c	thanks, i'll check
+2010-10-07T05:25:00.000Z	icarus-c	cbsd	hope you have checked  ./configure --help  or documentation for those options

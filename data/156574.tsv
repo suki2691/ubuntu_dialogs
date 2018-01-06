@@ -1,0 +1,4 @@
+2007-01-15T12:22:00.000Z	darrell		would like to set my screen resolution to 1024x768.  I have a Dell Latitude LS with a Neomagic 256av device and its default settings in Ubuntu 6.10 is 800x600 any advice?
+2007-01-15T12:23:00.000Z	riotkittie	darrell	sudo cp /etc/X11/xorg.conf /etc/X11/xorg.conf.bak && dpkg-reconfigure xserver-xorg  ... or manually edit xorg.conf
+2007-01-18T15:17:00.000Z	riotkittie	darrell	 ... at a prompt, sudo dpkg-reconfigure xserver-xorg  ... then alt ctr bkspc to reload X
+2007-01-18T15:21:00.000Z	riotkittie	darrell	are you booting with a vga option in the kernel line? i have heard taht screws things up in X but am not sure. uhm when you reconfig'd x, did you do the simple monitor detection or opt for one of the more advanced modes? and have you deselected some of the lower resolutions ?

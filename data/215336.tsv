@@ -1,0 +1,4 @@
+2006-10-26T05:55:00.000Z	FlimFlamMan		i'm trying to use MS-Outlook and MS-Exchange as little as possible, but i still need to be able to confirm/decline meeting requests contained in e-mail messages.
+2006-10-26T05:55:00.000Z	FlimFlamMan		so, upon arrival, i want to move all messages out of my Exchange inbox into an IMAP inbox on another server, EXCEPT those with a "Content-class" header that contains "calendarmessage".
+2006-10-26T05:55:00.000Z	FlimFlamMan		unfortunately, in the message filter builder, there is no "doesn't contain" comparison operator for custom headers (like Content-class).  is there any other way to do this?
+2006-10-26T05:56:00.000Z	soundray	FlimFlamMan	procmail ?

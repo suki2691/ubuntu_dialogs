@@ -1,0 +1,4 @@
+2010-03-03T19:57:00.000Z	bgoldsmith		I think I have forgotten the semantics of the +w flag for the group when it comes to directories. If the +w flag is set for a directory, then any member belonging to the group should be able to write to the directory right?
+2010-03-03T19:57:00.000Z	bgoldsmith		However I find that any user of the group cannot write to the directory
+2010-03-03T19:57:00.000Z	anli_	bgoldsmith	if a directory has g+w, it also needs g+x
+2010-03-03T19:58:00.000Z	anli_	bgoldsmith	And if you belong to the same group as the group owner of a file, you can still be owner to the file, in which the group permissions are not encountered

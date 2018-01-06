@@ -1,0 +1,4 @@
+2007-02-17T10:45:00.000Z	bleanna_unux		i get th error msg: "cannot connect to x server" when i do "startkde"
+2007-02-17T10:46:00.000Z	LT1	bleanna_unux	- try 'startx'   no quotes.
+2007-02-17T10:47:00.000Z	bleanna_unux	LT1	i did but i get the errors "xauth: error locking authority file..." X: canot stat /etc/X11/X no such file or directory
+2007-02-17T10:51:00.000Z	LT1	bleanna_unux	- something is messed up. you might try sudo dpkg-reconfigure xserver-xorg

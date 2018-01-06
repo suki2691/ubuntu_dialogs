@@ -1,0 +1,4 @@
+2008-12-12T07:26:00.000Z	Samus_Aran		does apt have a way to check what package is providing a given file on the system ?
+2008-12-12T07:27:00.000Z	dmsuperman	Samus_Aran	You are able to do "dpkg -L package_name | grep file_name" and that can check if a file is served by a package
+2008-12-12T07:27:00.000Z	dmsuperman	Samus_Aran	I'm not sure how ot search _all_ packages though
+2008-12-12T07:28:00.000Z	Samus_Aran	dmsuperman	I am trying to search for the package that provides root certificates.  one of my systems has them, another does not.  I don't know what provides them

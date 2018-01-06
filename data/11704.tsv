@@ -1,0 +1,4 @@
+2012-10-28T13:09:00.000Z	fairuz_		Hi guys, in my fstab I don't have am mount point specifically for /home
+2012-10-28T13:09:00.000Z	fairuz_		 I just bought a new hdd, can I just add a new entry to the fstab to mount my /home there?
+2012-10-28T13:11:00.000Z	CQ_	fairuz_	yes, but you might want to move /home to /home_old and mkdir /home first so you can copy the existing home data over with rsync --archive --verbose /home_old/* /home
+2012-10-28T13:11:00.000Z	fairuz_	CQ_	Yes sure. Thanks

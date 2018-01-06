@@ -1,0 +1,4 @@
+2009-01-17T01:23:00.000Z	Bokenrosie		Is there a "task manager" equivalent in Linux?  I have Ekiga session that seems to have crashed and will not close.
+2009-01-17T01:24:00.000Z	pike_	Bokenrosie	pkill <name> or xkill will give you a nice killer cursor to click with
+2009-01-17T01:24:00.000Z	pike_	Bokenrosie	but yes there is a task manager gui under system options i think
+2009-01-17T01:25:00.000Z	pike_	Bokenrosie	ps -A | grep -i ekiga | awk "{print $ 1}" | xargs -i kill -9 {}    ;-p

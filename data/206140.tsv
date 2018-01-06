@@ -1,0 +1,4 @@
+2007-10-27T14:28:00.000Z	Nallep		Is there any backup/restore solution for ubuntu that can restore a system with all it's applications/configuration settings?  I'm looking for something for desktops/laptops that doesn't require disk imaging.  Any have any luck with anything in the past?
+2007-10-27T14:28:00.000Z	Wibble-	Nallep	you could always use dd ;)
+2007-10-27T14:29:00.000Z	Wibble-	Nallep	sorry - I skipped that bit of your question! My bad.
+2007-10-27T14:31:00.000Z	Wibble-	Nallep	you could get most of them by also copying across the /etc directory; but you'd still need to do configuration because some packages are really machine specific.  I suspect there isn't anything that'll guess which onesyouw ant to be system specific and which ones not!

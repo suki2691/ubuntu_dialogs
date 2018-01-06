@@ -1,0 +1,4 @@
+2008-10-03T00:33:00.000Z	feach		Hi, nvidia module doesn't want to load using a 7900gs,  first install,  I installed then did normal updates, rebooted, then install nvidia new driver and rebooted, didn't want to load nvidia.ko and bootedup using low res, I stoped gdm, reinstalled restricted kernel modules via command line, rebooted still won't load, edited xorg.conf to use nv driver,  used synaptic to uninstall all nvidia stuff, rebooted, reinstalled all nvidia s
+2008-10-03T00:33:00.000Z	feach		tuff, still no go, any idea's ?
+2008-10-03T00:34:00.000Z	IntuitiveNipple	feach	Usually, the clues are in the /var/log/Xorg.0.{log,old} and /var/log/kern.log
+2008-10-03T00:37:00.000Z	IntuitiveNipple	feach	There'll usually be additional clues as to why, in one or other of those log files

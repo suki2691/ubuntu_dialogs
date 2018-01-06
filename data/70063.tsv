@@ -1,0 +1,4 @@
+2009-01-03T12:16:00.000Z	Tony22		anyone know how to make a manual IP stick after reboots? and DNS entries?
+2009-01-03T12:16:00.000Z	raylu	Tony22	have you poked the NetworkManager applet?
+2009-01-03T12:17:00.000Z	Tony22	raylu	poked it? I've opened it and put it in, but then I rebooted (after using apt-get for updates) and the IP and DNS didn't stick
+2009-01-03T12:18:00.000Z	raylu	Tony22	oh. if you've already tried setting up the static ip in nm-applet, try doing it in /etc/network/interfaces instead

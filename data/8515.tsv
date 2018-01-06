@@ -1,0 +1,4 @@
+2011-11-22T07:20:00.000Z	bowo		hey , how to connect to ssh server on ubuntu ? using external program ?
+2011-11-22T07:21:00.000Z	fellayaboy	bowo	first i have to make sure you install ssh in both comptuers....sudo apt-get install openssh-server
+2011-11-22T07:24:00.000Z	fellayaboy	bowo	once ur ssh'ed into your remote machine...if i u want to execute program ON THE remote machine..u type in "DISPLAY=:0 firefox" for example...if u want to run a program on your machine u have to log in again using "ssh -X username@ipaddress
+2011-11-22T07:26:00.000Z	fellayaboy	bowo	once ur sshed with -X you can run a program via terminal "firefox" "transmission" and  the window will display as if your on that machine

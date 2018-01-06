@@ -1,0 +1,4 @@
+2006-02-26T06:56:00.000Z	zetard		how do i access my boot.ini to edit it for being able to boot into windows? (Adding right partitions)
+2006-02-26T06:57:00.000Z	pdc303	zetard	mount the drive. Unless it's ntfs...?
+2006-02-26T06:58:00.000Z	pdc303	zetard	then mount the ntfs drive and edit your boot.ini. You will not be able to save it back though. Get NTFSDOS or something to copy the file back across
+2006-02-26T06:59:00.000Z	pdc303	zetard	Linux can write to NTFS partitions too but it isn't considered safe

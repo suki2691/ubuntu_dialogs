@@ -1,0 +1,4 @@
+2008-05-13T14:17:00.000Z	erland		HELP! I'm trying to rescue data from a HDD and have followed steps at https://help.ubuntu.com/community/DataRecovery but got stuck trying to mount it...
+2008-05-13T14:19:00.000Z	adam7	erland	bad drive, corrupted filesystem, bad hardware?
+2008-05-13T14:20:00.000Z	erland	adam7	damaged superblock I think, but before I try to fix it, I want to backup, which I did with gddrescue. Now I want to know how to mount the generated image as a filesystem...? Thanks!
+2008-05-13T14:20:00.000Z	adam7	erland	sure -- what was the mount error? if you want to mount the file with the filesystem in it, then you'll need to use -o loop when you run mount

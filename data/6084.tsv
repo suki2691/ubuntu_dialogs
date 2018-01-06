@@ -1,0 +1,4 @@
+2012-03-12T08:34:00.000Z	xrfang		hi, where is the default system PATH set?  it seems nothing is set in /etc/profile or /etc/bash.bashrc?
+2012-03-12T08:36:00.000Z	hydrox24_	xrfang	just run "echo $PATH"
+2012-03-12T08:37:00.000Z	xrfang	hydrox24_	I know that... what I want is to find out where it is set, and I want to add another path to the list,
+2012-03-12T08:38:00.000Z	hydrox24_	xrfang	you have to edit your ~/.bashrc file and add an export command to the end of the file

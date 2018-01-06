@@ -1,0 +1,4 @@
+2007-01-26T10:38:00.000Z	Tonren		What'st he command line way to remove something from the boot process?  It has something to d owith init.d, right?
+2007-01-26T10:38:00.000Z	Tonren		I just installed lighttpd, but I don't want it to boot up because I already have Apache.
+2007-01-26T10:39:00.000Z	DBO	Tonren	the easiest way to mess with init.d stuff is to use sysv-rc-conf
+2007-01-26T10:39:00.000Z	DBO	Tonren	sudo apt-get install sysv-rc-conf then sudo sysv-rc-conf

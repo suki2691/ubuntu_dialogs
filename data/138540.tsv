@@ -1,0 +1,4 @@
+2008-06-06T19:37:00.000Z	shelbyscates		i have my new ubuntu desktop, and i want to configure some custom keyboard shortcuts, im using the tutorial at howtogeek and it explains on how to use gconf-editor to make custom keyboard commands, and for example, i wrote a simple script to stop ssh: "#!/bin/bash sudo e/tc/init.d/ssh stop" but when i configure it to say, run the script upon F1 it usually comes up and says it cant find the script, or dosent do anything at al
+2008-06-06T19:38:00.000Z	shelbyscates		i do?!
+2008-06-06T19:38:00.000Z	magnetron	shelbyscates	you can't put "sudo" inside a shell script that's going to be invoked graphically
+2008-06-06T19:39:00.000Z	magnetron	shelbyscates	you need to add a gksudo in there

@@ -1,0 +1,4 @@
+2006-11-04T07:37:00.000Z	utet3142		I tried to run ./autogen.sh to install the iTunes store plugin for Banshee, but it said it was missing the package mono, so I installed it to the newest version but it still says that I am missing the package.
+2006-11-04T07:37:00.000Z	OoberMick	utet3142	you might need the -dev packages also
+2006-11-04T07:38:00.000Z	OoberMick	utet3142	sudo apt-get install libmono-dev
+2006-11-04T07:41:00.000Z	OoberMick	utet3142	install mono-devel

@@ -1,0 +1,4 @@
+2007-05-02T14:43:00.000Z	Geoffrey2		is it possible to reinstall grub from the Feisty live CD?
+2007-05-02T14:44:00.000Z	andreas_	Geoffrey2	You mean rewriting the mbr?
+2007-05-02T14:47:00.000Z	andreas_	Geoffrey2	You can do that from the live CD, just startup grub, set root to wherever the menu.lst is, and setup (write the mbr). Check google, should find alot of info how to write the mbr from grub.
+2007-05-02T14:47:00.000Z	andreas_	Geoffrey2	Something like "root (hd0,1)" "setup (hd0)". I don't remember the exact commands.

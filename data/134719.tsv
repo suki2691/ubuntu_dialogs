@@ -1,0 +1,4 @@
+2008-06-21T09:01:00.000Z	Mo0oSaH		I have this weird problem, when Amarok is running, youtube does not play any sound and when I am playing a video on youtube, amarok doesn't play anything.  :(  What could be causing that?
+2008-06-21T09:02:00.000Z	genii	Mo0oSaH	The sound system can only use one device at a time. So two programs trying to use the sound system = first one wins
+2008-06-21T09:03:00.000Z	Mo0oSaH	genii	are you kidding me? that sucks!  there's no way around it?
+2008-06-21T09:04:00.000Z	genii	Mo0oSaH	Maybe use jackd to split off the sound. I haven't tried this myself

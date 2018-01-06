@@ -1,0 +1,4 @@
+2008-02-20T22:55:00.000Z	k4k		I just got an error saying " W: not using locking for read only lock file /var/lib/dpkg/lock" "E: Unable to write to /var/cache/apt/" "E:The package lists or status file could not be parsed or opened" wtf is that?
+2008-02-20T22:56:00.000Z	danand_	k4k	- are you root? if you are check you don't have any other instances of apt/synaptics etc running
+2008-02-20T22:58:00.000Z	danand_	k4k	- that usually happens when you are not root or you try to use more than one package to install software. Apt prevents this by using a lock file in /var/lib/apt i think.
+2008-02-20T23:01:00.000Z	k4k	danand_	I did sudo apt-get remove opera...so I should have been root

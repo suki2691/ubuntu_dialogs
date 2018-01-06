@@ -1,0 +1,4 @@
+2008-01-28T23:43:00.000Z	ubuntu_		ok, thks
+2008-01-28T23:43:00.000Z	adelie	ubuntu_	when you added the user, did you chroot to your system before adding the user, othwerwise you only added the user to the live session, which would be reset on restart'
+2008-01-28T23:44:00.000Z	ubuntu_	adelie	what I am doing is just work in within livecd.
+2008-01-28T23:46:00.000Z	adelie	ubuntu_	when you are in the live session, run `chroot` with the root directory of your normal system you want to fix as the argument. in my case that would mean, for example, mount -t ext3 /dev/hda1 /media/home, followed by chroot /media/home then adduser...

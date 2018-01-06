@@ -1,0 +1,4 @@
+2010-06-16T04:52:00.000Z	Zoffix		Hey, want the system to stop asking me to enter a password whenever I start Evolution (keyring access) or try to change CPU frequency. How do I do that, or what do I Google for? Also, in the same area: how to allow a regular user to use `nice`?
+2010-06-16T04:53:00.000Z	frmdstryr	Zoffix	that eliminates the purpose of passwords....
+2010-06-16T04:54:00.000Z	Zoffix	frmdstryr	no it doesn't. I don't want root access on this user to avoid oopsies like deleting root dir; but I don't want it to nag me about everything like Vista :)
+2010-06-16T05:02:00.000Z	Zoffix	frmdstryr	well, my solution was to crack open /etc/sudoers and uncomment the line that makes so sudoers don't have to enter password. That works idealy for me :) And from Google I gather that if you are to want more fine-tune control, you'd still have to mess around with /etc/sudoers so there :)

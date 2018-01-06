@@ -1,0 +1,4 @@
+2005-12-05T12:51:00.000Z	kane_		btw, those that were paying attention to my mounting freebsd drives on ubuntu problem, here's the solution: mount -r -t ufs -o ufstype=44bsd /dev/hde1 /mnt
+2005-12-05T12:51:00.000Z	kane_		the -o ufstype=44bsd is mandatory, ubuntu says it guesses correct, but doesn't
+2005-12-05T12:52:00.000Z	Seveas	kane_	thanks for the info
+2005-12-05T12:52:00.000Z	kane_	Seveas	is there a community place to save this for posterity?

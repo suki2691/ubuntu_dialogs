@@ -1,0 +1,4 @@
+2007-12-25T08:15:00.000Z	jing_		To Pelo, I use the "putty" to connect an UNIX(HPUX) from an PC(Ubuntu 7.10) via network, andnow i want to display the xterm in my PC, so ,i type "export DISPLAY=192.168.0.101:0" in the UNIX, type "xhost + " in my PC, and then type "xterm &" in UNIX(HPUX), however it can not work, My PC's IP is 192.168.0.101, and i am sure that i do not type the incorrect word, i don't know why it can't work in Ubuntu, it work very well in RedHat and Mandriva
+2007-12-25T08:16:00.000Z	crimsun	jing_	did you explicitly enable trusted X forwarding in putty?
+2007-12-25T08:18:00.000Z	crimsun	jing_	not just X forwarding.
+2007-12-25T08:18:00.000Z	crimsun	jing_	note: trusted X forwarding.

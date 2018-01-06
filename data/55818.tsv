@@ -1,0 +1,4 @@
+2009-06-01T17:23:00.000Z	wraith0x2b		ok I managed to install ubuntu. but it wrote over my already existing grub that picks it's files from a separate partition...how can I get that one back to use with ubuntu?
+2009-06-01T17:25:00.000Z	tiyowan	wraith0x2b	Could you please clarify your problem?
+2009-06-01T17:28:00.000Z	wraith0x2b	tiyowan	I already had a linux installed, whit it's own grub and menu.lst. I installed ubuntu and grub reinstalled over my old one, so it gets it's files from my new ubuntu partition. if I decide to remove ubuntu I won't be able to boot again. so I want the old grub back. easy task?
+2009-06-01T17:29:00.000Z	tiyowan	wraith0x2b	Sure. As long as you haven't done anything to your old partitions, it should be easy enough to setup grub to boot into the old partitions.

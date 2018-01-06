@@ -1,0 +1,4 @@
+2006-03-20T15:38:00.000Z	andre		hello again just a quick question how do you change the default os in grub
+2006-03-20T15:38:00.000Z	jjs01h	andre	edit /boot/grub/menu.lst ... the default line will probably say default 0... 0 for the first entry.. change it to 1 for the second entry, etc
+2006-03-20T16:16:00.000Z	jjs01h	andre	lst like short for list. menu.lst
+2006-03-20T16:20:00.000Z	jjs01h	andre	change the line: default 0 ... to something else

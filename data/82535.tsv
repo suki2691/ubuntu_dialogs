@@ -1,0 +1,4 @@
+2010-05-27T01:10:00.000Z	mw44118-work		I'm running 8.04 LTS and I want to upgrade to 10 LTS.  How to do that through the terminal ?
+2010-05-27T01:12:00.000Z	guntbert	mw44118-work	sudo aptitude update; sudo do-release-upgrade   should do it (maybe only after the first "point" release some time in june)
+2010-05-27T01:13:00.000Z	guntbert	mw44118-work	sudo aptitude update; sudo aptitude safe-upgrade; sudo do-release-upgrade   should do it (maybe only after the first "point" release some time in june)
+2010-05-27T01:32:00.000Z	guntbert	mw44118-work	stay helpful please - no place for irony here

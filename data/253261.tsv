@@ -1,0 +1,4 @@
+2005-01-21T11:06:00.000Z	ficusplanet		Hey everyone.  I just set up warty on my inspiron 1100 (dell notebook) and the screen has a black border about two inches thick on all sides.  How can I fix this?
+2005-01-21T11:07:00.000Z	trey3	ficusplanet	you've played with the monitors settings physically?
+2005-01-21T11:07:00.000Z	ficusplanet	trey3	I dont see a way to do that.  I won't let me change the resolution from 640x480.
+2005-01-21T11:09:00.000Z	trey3	ficusplanet	ahh... /etc/X11/XF86Config-4 ... remove all instances of "640x480"... I usually remove all below 1024x768 to give it a convincing prod  :)

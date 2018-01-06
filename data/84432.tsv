@@ -1,0 +1,4 @@
+2012-01-01T00:57:00.000Z	linxeh	Zopiac	iirc it is something to do with xauth, you might need to install an xauth proxy or something.
+2012-01-01T00:57:00.000Z	Zopiac	linxeh	hmm, don't remember doing that on this box, but it works fine... I'll look into it
+2012-01-01T00:58:00.000Z	linxeh	Zopiac	I know this is old, but I'm sure I had to do it on my 10.04LTS VMs - http://www.miscdebris.net/blog/2007/05/24/x11-forwarding-with-openssh-on-bare-ubuntu-server-edition/
+2012-01-01T01:00:00.000Z	Zopiac	linxeh	Aha, installing xorg-xauth made it work fine, thanks :D

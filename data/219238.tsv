@@ -1,0 +1,4 @@
+2010-04-12T08:48:00.000Z	qwertyjustin		i have more than 1 user on my computer. & these other users can  see my home folder files, using their seperate user accounts! how is this active by default?
+2010-04-12T08:50:00.000Z	qwertyjustin		how can i stop other users from being able to see my home files?
+2010-04-12T08:51:00.000Z	Flannel	qwertyjustin	chmod o-rx /home/yourusername
+2010-04-12T08:52:00.000Z	Flannel	qwertyjustin	note: this may prevent you from using userdir for apache

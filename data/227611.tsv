@@ -1,0 +1,4 @@
+2007-07-19T14:29:00.000Z	ale1		so i installed git-core and when i ran something sys 6 to reboot ruinit, but when it rebooted it gets 2 seconds into boot and my pc shuts off...anyone know what gives?
+2007-07-19T14:29:00.000Z	Jowi	ale1	runlevel 6 = shutdown
+2007-07-19T14:30:00.000Z	Jowi	ale1	that means that you told the system to shutdown as soon as it boots.
+2007-07-19T14:36:00.000Z	Jowi	ale1	why not boot into rescue/failsafe and type "runlevel 2"

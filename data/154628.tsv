@@ -1,0 +1,4 @@
+2009-01-11T18:20:00.000Z	cfd90		I've got an interesting problem.  My root harddrive partition is full due to also  having Windows on my laptop, I have broken packages I need to fix due to trying to install them without enough space, and I would like to start to remove packages to free up space.  Unfortunately, I have to dpkg --configure -a before I can do anything with apt, but it complains that I don't have the diskspace.  Any way I can get around it?
+2009-01-11T18:20:00.000Z	jrib	cfd90	sudo apt-get clean  doesn't work?
+2009-01-11T18:20:00.000Z	cfd90		No.
+2009-01-11T18:21:00.000Z	cfd90	jrib	It says I need to dpkg --config... first.

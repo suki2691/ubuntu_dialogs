@@ -1,0 +1,4 @@
+2010-01-09T06:43:00.000Z	pingu		Hi, how can I get all (hidden) (sub)directory names in full lengh saved as a file?
+2010-01-09T06:44:00.000Z	Jordan_U	pingu	find /path/to/directory/ -name '.*'
+2010-01-09T06:45:00.000Z	Jordan_U	pingu	Or rather: find /path/to/directory/ -name '.*' > /path/to/file.txt
+2010-01-09T06:49:00.000Z	pingu	Jordan_U	find /path/to/directory/ -name '.*' > /path/to/file.txt   brings "." in the file

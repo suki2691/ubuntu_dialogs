@@ -1,0 +1,4 @@
+2012-07-23T12:31:00.000Z	timfrost	HungryMan	You can change the order in which it is processed by changing the sequencing number in the name in /etc/rc2.d or /etc/rc3.d ( eg /etc/rc2.d/S12process becomes /etc/rc2.d/S98process).  I don't know if this will  affect the order of upstart jobs
+2012-07-23T12:34:00.000Z	timfrost	HungryMan	what is the issue with the interaction between the process and apparmor?
+2012-07-23T12:38:00.000Z	timfrost	HungryMan	 what is the issue that you hav?
+2012-07-23T12:46:00.000Z	timfrost	HungryMan	usr13_:  a symlink to /lib/init/upstart-job needs to be in /etc/rc2.d or /etc/rc3.d as Sxx..... to be processed by the traditional init process.  Symlinks in /etc/init.d won't have the same effect.  /etc/init.d is where a traditional script would be installed, with symlinks named Sxx... or Kxx.... to start (Sxx) or stop (Kxx) the job in given run levels (the x in RCx.d)

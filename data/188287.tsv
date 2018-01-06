@@ -1,0 +1,4 @@
+2006-08-05T08:54:00.000Z	dreamthief		hey guys, does anybody of you know how to combine two single gigabit-ethernet connections to a "trunk", so that I have a redundand 2-gigabit connection that is reachable by a single ip-address ?
+2006-08-05T08:55:00.000Z	dreamthief		yess, you need a switch which supports port-trunking ...
+2006-08-05T08:55:00.000Z	dreamthief		i have one
+2006-08-05T08:56:00.000Z	bbrazil	dreamthief	if you poke around in /proc/sys/net/ipv4/conf/ there's an option for it iirc

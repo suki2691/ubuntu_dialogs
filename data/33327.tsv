@@ -1,0 +1,4 @@
+2011-02-02T02:47:00.000Z	christoz		guys? any help to run ssh as a daemon during startup?
+2011-02-02T02:47:00.000Z	christoz		well, it failed
+2011-02-02T02:48:00.000Z	rumpe1	christoz	have you deactivated it manually? usually its started during startup after installation of openssh-server
+2011-02-02T02:51:00.000Z	rumpe1	christoz	check "sudo service ssh status" output

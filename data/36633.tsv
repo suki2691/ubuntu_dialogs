@@ -1,0 +1,4 @@
+2010-05-03T10:03:00.000Z	complexity		how do I make it go to console when I first boot in 10.0.4 right now it goes to gdm
+2010-05-03T10:04:00.000Z	Moral_	complexity	sudo mv /etc/init/gdm.conf /etc/init/gdm.conf-disabled
+2010-05-03T10:04:00.000Z	Moral_	complexity	or you can do ctrl-alt-f6
+2010-05-03T10:04:00.000Z	complexity	Moral_	I moved gdm to gdm-bak and gnome still starts after I reboot

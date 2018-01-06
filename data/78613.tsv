@@ -1,0 +1,4 @@
+2008-09-23T11:05:00.000Z	detrix		Hello all. I am setting Ubuntu up for programming in C/C++. I am getting this linking error:  undefined reference to `__gxx_personality_v0'   I am not sure what lib to link with???
+2008-09-23T11:06:00.000Z	|Steve|	detrix	You're trying to compile c++ with gcc. Use g++.
+2008-09-23T11:10:00.000Z	detrix	|Steve|	: thanx that was it.
+2008-09-23T11:10:00.000Z	|Steve|	detrix	np

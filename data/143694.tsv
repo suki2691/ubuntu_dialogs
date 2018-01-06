@@ -1,0 +1,4 @@
+2007-07-26T12:32:00.000Z	andruk		what does the /16 on the ip address mean in this command?  sudo iptables -t nat -A POSTROUTING -s 192.168.0.0/16 -o ppp0 -j MASQUERADE
+2007-07-26T12:33:00.000Z	m1r	andruk	i was also wondering that few days ago
+2007-07-26T13:59:00.000Z	m1r	andruk	, did u find out what /16 means ?
+2007-07-26T13:59:00.000Z	andruk	m1r	i did: section 5 of http://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing#Historical_background

@@ -1,0 +1,4 @@
+2008-08-18T19:18:00.000Z	wols		             dpkg assumes you deleted them on purpose, and that you want them to stay deleted.  You can also reinstall them
+2008-08-18T19:18:00.000Z	wols		             using the following apt-get line: apt-get -o DPkg::Options::="--force-confmiss" --reinstall install
+2008-08-18T19:18:00.000Z	wols		             <packagename>; or using aptitude, aptitude -o DPkg::Options::="--force-confmiss" reinstall <packagename>;
+2008-08-18T19:18:00.000Z	FloodBot1	wols	Please don't flood, use http://paste.ubuntu.com to paste, don't use Enter as punctuation.

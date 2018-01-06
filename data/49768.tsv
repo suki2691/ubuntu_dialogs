@@ -1,0 +1,4 @@
+2009-11-18T12:11:00.000Z	dajxd		I have a probably foolish question- whenever I try to compile something, I have to apt-get all the libraries and dependent stuff individually.  How can I make it do this automatically?
+2009-11-18T12:11:00.000Z	kisuke	dajxd	sudo apt-get build-dep
+2009-11-18T12:12:00.000Z	dajxd	kisuke	thanks so much.
+2009-11-18T12:12:00.000Z	kisuke	dajxd	sudo apt-get build-dep <package name> sorry i for got the package name wont do much good else wise

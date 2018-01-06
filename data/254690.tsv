@@ -1,0 +1,4 @@
+2006-09-11T11:09:00.000Z	Clodaus		Hey guys is there a linux command to clear the MBR? GRUB has somehow messed it up and now windows is unable to rewrite the MBR
+2006-09-11T11:09:00.000Z	Clodaus		or at least a way to get GRUB off the MBR
+2006-09-11T11:10:00.000Z	dr_willis_	Clodaus	 i dont think that can happen. windows should be able to write to the mbr.
+2006-09-11T11:10:00.000Z	dr_willis_	Clodaus	 you could use 'dd' to blank out the mbr.. but if used wrongly = blank out the hard drive

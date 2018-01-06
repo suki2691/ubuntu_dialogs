@@ -1,0 +1,4 @@
+2006-08-19T15:24:00.000Z	raf_		quick question..how do i apply kernel patch to a kernel im about to compile?
+2006-08-19T15:26:00.000Z	raf_		im doin 2.6.17.9 and want to add the 2.6.18 patch ..how do i do that?
+2006-08-19T15:26:00.000Z	lamego_	raf_	the current ubuntu kernel is not .17
+2006-08-19T15:27:00.000Z	lamego_	raf_	patch -p0 < file.patch

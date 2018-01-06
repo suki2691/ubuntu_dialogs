@@ -1,0 +1,4 @@
+2011-06-30T01:19:00.000Z	bsg_kwolf		  I'm trying to host a couple packages in a local repo, and I'm having trouble adding the repo to sources.list (via http).  Apache is configured and serving up the files fine, but I'm not sure if I can do this over http w/o some type of structure in the directory.
+2011-06-30T01:19:00.000Z	bsg_kwolf		  I added to sources.list with "deb http://slam.backstoptest/local  /.", but I'm getting an error when when I run aptitude update of "E: Malformed line 67 in source list /etc/apt/sources.list (dist parse)"
+2011-06-30T01:19:00.000Z	bsg_kwolf		  Do I need a specific directory structure to host it over http?
+2011-06-30T01:19:00.000Z	Jasonn	bsg_kwolf	Dont you think this is more of a #ubuntu-server question?

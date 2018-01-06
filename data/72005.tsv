@@ -1,0 +1,4 @@
+2011-09-01T06:34:00.000Z	Bentley_		hi all, Something on my box is sending out data on the network as fast as possible. Can someone help me determine what process is doing it?
+2011-09-01T06:34:00.000Z	qin	Bentley_	iftop
+2011-09-01T06:34:00.000Z	Bentley_	qin	installing...
+2011-09-01T06:35:00.000Z	qin	Bentley_	Also: sudo netstat -tuep or -tulp (for fisten only)

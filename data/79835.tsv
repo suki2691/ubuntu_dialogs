@@ -1,0 +1,4 @@
+2008-10-11T01:29:00.000Z	niche		What do I type to find out how many ordinary files, directories, and link files exist in my /usr/bin directory?
+2008-10-11T01:30:00.000Z	Simetrical	niche	ls /usr/bin | wc -l?
+2008-10-11T01:31:00.000Z	niche	Simetrical	thanks, I heard I also need a grep command, do you know if that's true?
+2008-10-11T01:32:00.000Z	Simetrical	niche	if you actually want to exclude device files and sockets and stuff, then yeah, you need grep or find or something.  If you just want to include all files, then what I said will work.

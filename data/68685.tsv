@@ -1,0 +1,4 @@
+2009-02-04T11:39:00.000Z	lyrae		How can i completely remove a package? --purge isnt working...because when i re-install, it doesnt re-download
+2009-02-04T11:40:00.000Z	kinja-sheep	lyrae	It didn't redownload because the package (.deb) is still on your system.
+2009-02-04T11:40:00.000Z	lyrae	kinja-sheep	id like it to be gone
+2009-02-04T11:40:00.000Z	kinja-sheep	lyrae	sudo aptitude autoclean / sudo aptitude clean

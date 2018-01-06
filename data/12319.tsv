@@ -1,0 +1,4 @@
+2012-09-14T02:08:00.000Z	tudrom		my 8gb mini-sd cannot be unmounted, i tried to format it with mkfs, but the feedback is unable to open /dev/sdc
+2012-09-14T02:09:00.000Z	zykotick9	tudrom	FYI! you format partitions (sdc1) not drives sdc
+2012-09-14T02:13:00.000Z	zykotick9	tudrom	from terminal "mount | grep -i sdc"
+2012-09-14T02:15:00.000Z	zykotick9	tudrom	from terminal "sudo umount /media/y"

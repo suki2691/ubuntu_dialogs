@@ -1,0 +1,4 @@
+2007-04-30T12:16:00.000Z	g0ow		i am trying to upgrade from Dapper -> Edgy...and im having problems... could somone help me out?
+2007-04-30T12:17:00.000Z	g0ow		how do i get the gpg edgy key?
+2007-04-30T12:19:00.000Z	clearzen	g0ow	gpg --keyserver hkp://subkeys.pgp.net --recv-keys KEY
+2007-04-30T12:19:00.000Z	clearzen	g0ow	Then gpg --export --armor KEY | sudo apt-key add -

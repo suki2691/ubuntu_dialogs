@@ -1,0 +1,4 @@
+2010-02-03T05:59:00.000Z	vadimanri		Hyperstream, when I go through the Nvidia X server settings window and activate the second display I get a message that says "Failed to parse existing X config file '/etc/X11/xorg.conf'!"
+2010-02-03T06:01:00.000Z	vadimanri		Hyperstream, I am using 9.1.0 and used the source drivers, not the ones from nvidia
+2010-02-03T06:03:00.000Z	vadimanri		Rahduke, I am trying to configure multiple displays, but when I change the settings and activate the second display and try saving the X config file, I get when I go through the Nvidia X server settings window and activate the second display I get a message that says "Failed to parse existing X config file '/etc/X11/xorg.conf'!"
+2010-02-03T06:04:00.000Z	genii	vadimanri	sudo touch /etc/X11/xorg.conf

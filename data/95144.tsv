@@ -1,0 +1,4 @@
+2008-10-20T08:06:00.000Z	TheZealot		hey folks, I am having a problem with ftp permissions using vsftpd. I want all the files I upload to have the permissions 755, and I have set the file_open_mode=0755 and local_umask=0755, but neither are functioning properly
+2008-10-20T08:06:00.000Z	TheZealot		any clues?
+2008-10-20T08:07:00.000Z	Orbixx	TheZealot	Restarted the ftpd?
+2008-10-20T08:07:00.000Z	TheZealot	Orbixx	yes, after every change I restar and reload

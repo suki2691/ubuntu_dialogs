@@ -1,0 +1,4 @@
+2010-08-28T15:01:00.000Z	sappel		question: I'm configuring my /etc/network/interfaces via cmd the first time, eth0 is properly configured from the install, now I added a second adapter. is "auto eth1" + address line + netmask enough? or do I have to set a gw?
+2010-08-28T15:02:00.000Z	cast	sappel	depends on your network setup, if its just one switch you won't need the gateway entry
+2010-08-28T15:03:00.000Z	cast	sappel	if it's going to be routing to say the internet you will though
+2010-08-28T15:03:00.000Z	cast	sappel	if you don't have the gateway entry it just means you can't escape your subnet

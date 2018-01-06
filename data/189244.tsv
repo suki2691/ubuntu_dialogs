@@ -1,0 +1,4 @@
+2009-05-27T00:00:00.000Z	Shaun2222		what package provides mkinitrd with 9.04?
+2009-05-27T00:00:00.000Z	erUSUL	Shaun2222	use mkinitramfs from initramfs-tools
+2009-05-27T00:01:00.000Z	Shaun2222	erUSUL	any docs on using that?
+2009-05-27T00:02:00.000Z	erUSUL	Shaun2222	its man page ? i use ti like i used mkinitrd just sudo mkinitramfs -o /boot/initrd.img-$kernel_version $kernel_version

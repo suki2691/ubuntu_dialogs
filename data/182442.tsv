@@ -1,0 +1,4 @@
+2007-01-05T07:52:00.000Z	clever		what drivers would i install for this pci card? 0000:02:09.0 Multimedia video controller: Brooktree Corporation Bt848 Video Capture (rev 12)
+2007-01-05T07:53:00.000Z	stefg	clever	check dmesg, might be already setup
+2007-01-05T07:55:00.000Z	stefg	clever	this is a v4l device, check dmesg in the treminal, probably it's already autoconfigured
+2007-01-05T07:56:00.000Z	stefg	clever	frigging' read dmesg !!

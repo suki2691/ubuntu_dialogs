@@ -1,0 +1,4 @@
+2009-03-08T00:18:00.000Z	Unkown2084-394		I cant seem to be able to add myself to allow me to modify the /var/www folder. I tried usermod -a -g www-data username but it doesnt add it to my user permissions
+2009-03-08T00:19:00.000Z	oskar-	Unkown2084-394	log out and in again
+2009-03-08T00:29:00.000Z	oskar-	Unkown2084-394	this will tell you: ls -ld /var/www
+2009-03-08T00:35:00.000Z	oskar-	Unkown2084-394	yes, seems so. you can simply change the group of that directory (recursively?) to another group with chgrp

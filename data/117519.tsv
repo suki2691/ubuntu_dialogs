@@ -1,0 +1,4 @@
+2007-10-27T05:52:00.000Z	kag		how can I find out what ports a program is using?
+2007-10-27T05:53:00.000Z	JimmyDee	kag	sudo apt-get install nmap, then nmap -v -A myhostname
+2007-10-27T05:55:00.000Z	kag	JimmyDee	thanks... what are the -v -A options for?
+2007-10-27T06:00:00.000Z	kag	JimmyDee	from what I understand, nmap scans for my open ports (like a running server).. however I'm trying to find out which port(s) my BitTorrent client is using

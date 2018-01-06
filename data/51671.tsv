@@ -1,0 +1,4 @@
+2009-07-30T03:03:00.000Z	adamonline45		hmm, apparently tar -zcvrf is invalid, as I can't mix 'c' and 'r'.  How do I compress an archive of a directory, recursively?  Or, am I operating under a false assumption somewhere?
+2009-07-30T03:05:00.000Z	gabisar	adamonline45	you can use just tar -zcvvf arquivo.tar.gz herethefolder
+2009-07-30T03:05:00.000Z	adamonline45		so then I really am getting a 3:1 compression ratio!  I'm hesitant to accept that as a valid archive >.< hehe
+2009-07-30T03:05:00.000Z	adamonline45	gabisar	With 2 v's?

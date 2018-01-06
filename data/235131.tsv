@@ -1,0 +1,4 @@
+2005-06-29T12:04:00.000Z	r0d	glyph	so some programs will randomly choose an audio device?
+2005-06-29T12:04:00.000Z	r0d		if you have two audio cards that is
+2005-06-29T12:05:00.000Z	glyph	r0d	what I mean is, if you are using ALSA in mplayer but OSS in xmms you will have to choose hw:1 for mplayer but /dev/dsp1 for xmms
+2005-06-29T12:05:00.000Z	glyph	r0d	the applications will always choose the card whose driver loaded first by default

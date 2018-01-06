@@ -1,0 +1,4 @@
+2007-10-19T20:21:00.000Z	shortnick		hey
+2007-10-19T20:23:00.000Z	shortnick		i have a problem : i can't use apt, it says 404 NOT FOUND on pt.archive.ubuntu.com ... That means i can't install anything or upgrade. What are the correct portuguese repositores ? or in other case, what is the main repository?
+2007-10-19T20:23:00.000Z	pike_	shortnick	gksu gedit /etc/apt/sources.list  then remove the pt. from each url and save then sudo apt-get update
+2007-10-19T20:23:00.000Z	pike_	shortnick	be carefule editing the file

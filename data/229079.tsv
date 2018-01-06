@@ -1,0 +1,4 @@
+2007-05-30T07:06:00.000Z	agn0stic		hey anyone got a good link to an explanation of how to make an installable ubuntu cd from your current installation? (live would be nice too). I know I probably just need to rip the live cd, mount it, chroot, and fiddle away - but i've got to wonder if someone has written a script, or if there's any ubuntu-specific gotchas to watch out for
+2007-05-30T07:08:00.000Z	agn0stic		dbrewer: sudo su - if you need it to login like root
+2007-05-30T07:09:00.000Z	agn0stic		i stand corrected
+2007-05-30T07:10:00.000Z	mwe	agn0stic	sudo su won't hurt, though. I've used it for years on system with sudo that doesn't support the -i switch

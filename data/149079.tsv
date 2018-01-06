@@ -1,0 +1,4 @@
+2008-04-21T00:52:00.000Z	prakriti		does ubuntu have the equivalent of redhat's "chkconfig" or gentoo's "rc-update" ?
+2008-04-21T00:52:00.000Z	unop	prakriti	update-rc.d
+2008-07-04T00:33:00.000Z	unop	prakriti	why do you want to do that? maybe there is a better way around this?
+2008-07-04T00:36:00.000Z	unop	prakriti	 maybe this?   df -iT | perl -0 -ple 's/\n+\s+/\t/g'

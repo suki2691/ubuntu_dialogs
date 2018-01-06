@@ -1,0 +1,4 @@
+2011-04-23T08:31:00.000Z	Millentree10		how would i change the order in grub to boot to windows by default?
+2011-04-23T08:32:00.000Z	ZykoticK9_	Millentree10	i think you need to change the line "GRUB_DEFAULT=0" in /etc/default/grub (then run "sudo grub-update") BUT my personal attempt at that failed the other day, so hopefully someone else answers ;)
+2011-04-23T08:33:00.000Z	ZykoticK9_	Millentree10	sorry/correction "sudo update-grub"
+2011-04-23T08:34:00.000Z	ZykoticK9_	Millentree10	or try nit-wit's suggestion - i've never tried it.

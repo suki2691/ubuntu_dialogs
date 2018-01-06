@@ -1,0 +1,4 @@
+2006-06-03T09:21:00.000Z	ajnewbold		how do you release/renew an ip address via dhcp?
+2006-06-03T09:22:00.000Z	joedj	ajnewbold	sudo ifdown eth0  # or whatever your interface is
+2006-06-03T09:22:00.000Z	joedj	ajnewbold	then sudo ifup eth0
+2006-06-03T09:22:00.000Z	ajnewbold	joedj	thanks :)

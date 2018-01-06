@@ -1,0 +1,4 @@
+2009-02-06T10:57:00.000Z	ramirand_	Quintok	you mean you want to find only files that are of a particular type?
+2009-02-06T10:57:00.000Z	ramirand_	Quintok	If you run "file" on one of them, does it know the type?
+2009-02-06T10:58:00.000Z	Quintok	ramirand_	yes
+2009-02-06T11:00:00.000Z	ramirand_	Quintok	If file tells you what they are, you could do something like "file * | grep filetype | cut -d: -f1

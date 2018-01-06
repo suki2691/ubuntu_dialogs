@@ -1,0 +1,4 @@
+2009-08-07T15:54:00.000Z	HenkdeVries		Is anyone else having mayor issues installing software on a hardy 64 bits system?  I get lots of bzip2 errors when updating. I've cleared the /var/cache/apt dir and also tried with aptitude. I've tried many combinations of sources list lines but it seems the update system is completely corrupt
+2009-08-07T15:55:00.000Z	ActionParsnip	HenkdeVries	can you use pastebin to provide the output of: sudo apt-get clean; sudo apt-get update; sudo apt-get upgrade
+2009-08-07T15:57:00.000Z	HenkdeVries	ActionParsnip	hang on
+2009-08-07T16:03:00.000Z	ActionParsnip	HenkdeVries	you could manually download the file and put it where it goes, the server is up

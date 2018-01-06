@@ -1,0 +1,4 @@
+2006-05-26T09:00:00.000Z	stianj		I need to pass "atapi_enabled=1" to the libata module... Since that module is in the initrd, it doesn't help to just update /etc/modprobe.d/options. Will it help to regenerate the initrd, and if so, is that only to do mkinitramfs -o /boot/initrd-blabla?
+2006-05-26T09:01:00.000Z	Frogzoo	stianj	I'm thinking pass it as a kernel option from grub's boot.menu
+2006-05-26T09:01:00.000Z	Frogzoo	stianj	I'm thinking pass it as a kernel option from grub's menu.lst
+2006-05-26T09:03:00.000Z	stianj	Frogzoo	hmm. thanks, but it doesn't work.

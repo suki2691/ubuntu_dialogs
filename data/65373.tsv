@@ -1,0 +1,4 @@
+2009-03-15T07:03:00.000Z	ebdrake		Hello
+2009-03-15T07:03:00.000Z	ebdrake		How come this... "unrar e *.rar" doesn't work?  Or more precisely what is the correct way to do this?
+2009-03-15T07:04:00.000Z	sprinkmeier	ebdrake	error message?
+2009-03-15T07:07:00.000Z	sprinkmeier	ebdrake	for X in *.rar ; do rar e $X ; done

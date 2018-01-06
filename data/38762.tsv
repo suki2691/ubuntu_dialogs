@@ -1,0 +1,4 @@
+2012-10-17T04:43:00.000Z	alg34		http://www.alsa-project.org/db/?f=02c9ae578f9f9b7a56540493eccef27009b1efb5
+2012-10-17T04:44:00.000Z	alg34		using sb24bit live. no sound
+2012-10-17T04:44:00.000Z	actionParsnip	alg34	Natty is EOL in a matter of weeks, I suggest you upgrade to a later release
+2012-10-17T04:44:00.000Z	actionParsnip	alg34	sudo add-apt-repository ppa:ubuntu-audio-dev/ppa; sudo apt-get update;sudo apt-get dist-upgrade; sudo apt-get install --reinstall pavucontrol linux-sound-base alsa-base alsa-utils; killall pulseaudio; rm -r ~/.pulse*     Wait 10 seconds and reboot

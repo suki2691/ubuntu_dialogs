@@ -1,0 +1,4 @@
+2006-06-15T08:12:00.000Z	GaiaX11		how can i boot ubuntu not in gui mode? Because when i boot ubuntu it leads me to gdm login
+2006-06-15T08:12:00.000Z	Concord_Dawn	GaiaX11	Just hit Ctrl+Alt+F1 to switch out of graphical mode.
+2006-06-15T08:14:00.000Z	GaiaX11	Concord_Dawn	that was what i meant. Thanks anyway!
+2006-06-15T08:17:00.000Z	Concord_Dawn	GaiaX11	To disable the X server from starting all together, you need to edit your xorg.conf. It's in /etc/X11

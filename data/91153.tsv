@@ -1,0 +1,4 @@
+2009-02-24T08:23:00.000Z	Sal__		i'm trying to do "mount --bind /var/www www" but I keep getting: mount: mount point www does not exist
+2009-02-24T08:23:00.000Z	Sal__		can anyone guide me here?
+2009-02-24T08:25:00.000Z	Izinucs	Sal__	perhaps if you mkdir /media/www then mount --bind /var/www /media/www it would make a difference.
+2009-02-24T08:26:00.000Z	Izinucs	Sal__	I"m not really sure what the --bind does.. so I have a hard time commenting on that.. what are you trying to accomplish with it?

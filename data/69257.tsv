@@ -1,0 +1,4 @@
+2010-01-24T18:34:00.000Z	oCean_	ukwiz	also, have a look at the ubuntupocketguide. It might be getting a little bit outdated, but it'll still walk you through basic setup options. Get free download at: http://www.ubuntupocketguide.com/index_main.html
+2010-01-24T18:48:00.000Z	oCean_	ukwiz	in /etc/ufw you'll find iptables rules. By default ufw (the uncomplicated firewall) is not active
+2010-01-24T18:53:00.000Z	ukwiz	oCean_	so, a newly installed ubuntu has no firewall protection?
+2010-01-24T18:55:00.000Z	oCean_	ukwiz	Indeed. There is hardly any need for that, since you'll start your system without network services started (that is, not listening for incoming connections) Besides that, chances are, desktop users are behind routers/firewalls etc

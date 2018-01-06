@@ -1,0 +1,4 @@
+2008-04-02T01:15:00.000Z	linuxmonger	SEJeff	What's wrong with NIS? I've been using it for years without issue, between half a dozen Linuxes, Solaris and SCO - I did get rid of the SCO box though.
+2008-04-02T01:16:00.000Z	SEJeff	linuxmonger	NIS uses the Domainname as a secret. Security through obscurity is proven insecure
+2008-04-02T01:16:00.000Z	SEJeff	linuxmonger	NIS+ is secure, but pita to setup. LDAP is secure, easy to setup, easy to manage, and supports Unix / Linux
+2008-04-02T01:17:00.000Z	SEJeff	linuxmonger	NIS is not secure by design

@@ -1,0 +1,4 @@
+2007-08-27T06:03:00.000Z	pilibeen		can somebody tell the command for allowing read/write permissions for group and others?
+2007-08-27T06:03:00.000Z	apropos	pilibeen	chmod go+rw <filename>
+2007-08-27T06:05:00.000Z	pilibeen	available	apropos , astro76 : it's saying permission denied, even though i'm doing sudo. trying to change permissions on my /media/network folder? any idea why i can't?
+2007-08-27T06:08:00.000Z	apropos	pilibeen	changing perms for mounted filesystems is different, IIRC. I believe you do that when you mount it.

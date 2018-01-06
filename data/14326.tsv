@@ -1,0 +1,4 @@
+2011-10-16T03:37:00.000Z	Nazosan		Well, I can't even figure out how to get it to start in "text mode"
+2011-10-16T03:38:00.000Z	Nazosan		in fact, apparently runlevel 2 is "graphical mode" now
+2011-10-16T03:38:00.000Z	danslo	Nazosan	sudo service lightdm stop
+2011-10-16T03:39:00.000Z	danslo	Nazosan	yeah.. had the same problem today :) then it struck me they changed from gdm to lightdm

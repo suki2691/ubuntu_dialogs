@@ -1,0 +1,4 @@
+2007-04-13T11:55:00.000Z	xtknight		what's the practical difference between killall and killall -HUP
+2007-04-13T11:56:00.000Z	czr	xtknight	the first sends the default signal (TERM), the second sends HUP signal (hangup)
+2007-04-13T11:56:00.000Z	czr		HUP is mostly used by daemons/services as a signal to reload their configuration (amongst other things)
+2007-04-13T11:56:00.000Z	xtknight	czr	i see

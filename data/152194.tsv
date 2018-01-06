@@ -1,0 +1,4 @@
+2007-04-17T09:32:00.000Z	MasterG		hi guys, could someone help me install the network admin tool again? it seems to have gone for some reason
+2007-04-17T09:33:00.000Z	xtknight	MasterG	sudo apt-get install network-manager
+2007-04-17T09:35:00.000Z	xtknight	MasterG	ah no it's not quite
+2007-04-17T09:36:00.000Z	xtknight	MasterG	sudo dpkg --purge --force-all gnome-system-tools && sudo apt-get install gnome-system-tools

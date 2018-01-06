@@ -1,0 +1,4 @@
+2006-08-28T12:31:00.000Z	jmworx		Does Ubuntu run on any target where an int is 16 bits?
+2006-08-28T12:32:00.000Z	jmworx		I.e. I discovered a few bugs in Speex when ints are 16 bits and I'd like to know if Ubuntu is affected.
+2006-08-28T12:34:00.000Z	ootput	jmworx	I use speex files on Debian Sarge, and they're fine. On which arch will the bug show it's ugly head?
+2006-08-28T12:39:00.000Z	jmworx	ootput	It would only show up on an arch where "int" is 16 bits (sizeof(int)==2 assuming 8-bit chars). The bug showed up on some TI DSPs, but maybe other chips as well.

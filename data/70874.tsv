@@ -1,0 +1,4 @@
+2012-02-25T17:47:00.000Z	dabbu		I have asus a43s system, touchpad stops working sometime and the only solution is to restart the system, any help ?
+2012-02-25T17:48:00.000Z	zorael	dabbu	When it stops working, try entering 'sudo modprobe -r psmouse && sudo modprobe psmouse resetafter=10' in a terminal
+2012-02-25T17:49:00.000Z	dabbu	zorael	any permanent solution
+2012-02-25T17:53:00.000Z	zorael	dabbu	If it works, create a file like '/etc/modprobe.d/touchpad-fix.conf' with the contents 'options psmouse resetafter=10'

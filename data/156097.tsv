@@ -1,0 +1,4 @@
+2010-09-09T16:34:00.000Z	stapel		Can I use lsof somehow to monitor the output from a process in a bash script?
+2010-09-09T16:36:00.000Z	sipior	stapel	what exactly do you want to do?
+2010-09-09T16:39:00.000Z	stapel	sipior	I want to count the number of lines from the output of clamscan, but I want to update it as it happens so that I can update a progress bar.
+2010-09-09T16:44:00.000Z	sipior	stapel	the output is being saved to a file? easiest perhaps to background the clamscan program, and run a while loop using "wc -l" or "nl" to count the lines, and a "sleep" directive to follow. you can test for an exit condition on the clamscan process to terminate the while loop.

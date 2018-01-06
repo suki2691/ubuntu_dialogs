@@ -1,0 +1,4 @@
+2008-02-05T00:32:00.000Z	heartsblood		what could cause a mounted device to say " cannot create directory `test': Read-only file system" if the file system has been mounted as 744 and I'm the owner
+2008-02-05T00:33:00.000Z	heartsblood		sutka: boot off the install cd and run the repair tool
+2008-02-05T00:34:00.000Z	heartsblood		sutka: mount your hd and run e2fsck.  although there is a big giant error that says running fsck on a mounted drive is a really bad idea.  I have no idea, maybe somebody can elaborate
+2008-02-05T00:35:00.000Z	Sutka	heartsblood	just going to boot into live CD, you gonna be about for when I do>

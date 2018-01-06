@@ -1,0 +1,4 @@
+2005-04-24T10:06:00.000Z	dcell		Running netstat -atnp shows master is listening on port 25.  How do I stop master?
+2005-04-24T10:07:00.000Z	DutchFish	dcell	kill PID
+2005-04-24T10:08:00.000Z	dcell	DutchFish	thanks, is master the same as inetd?  If so why does /etc/init.d/inetd stop not kill it?
+2005-04-24T10:10:00.000Z	DutchFish	dcell	read man inet.d ;) gl

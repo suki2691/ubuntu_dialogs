@@ -1,0 +1,4 @@
+2012-11-05T13:49:00.000Z	keanehsiao		Hi. everybody.. I'm facing a wired problem..  when I run the http request via browser with https://graph.facebook.com/me  , it works.  but if I use whenever ruby net/http or curl ,  it tell me ConnectionRefused..  How come?
+2012-11-05T13:50:00.000Z	aeon-ltd	keanehsiao	i'd guess because you are not authenticating as a user
+2012-11-05T13:50:00.000Z	aeon-ltd	keanehsiao	here http://pastebin.com/sMy72Vjk
+2012-11-05T13:51:00.000Z	keanehsiao	aeon-ltd	 I do provide the params with ?access_token=my_access_token , so it does retrieve back the data with browser..  but not curl

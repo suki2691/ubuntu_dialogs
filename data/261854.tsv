@@ -1,0 +1,4 @@
+2005-11-23T07:43:00.000Z	ReVarre		Hi, I wanted to try linux, so I downloaded Ubuntu. But here I am, sitting on the laptop, the fact is that internet do work at proper speed, if I am downloading addons etc. But using firefox it connects really slow to https:// and can't even find http:// ...Anyone who can help me?
+2005-11-23T07:43:00.000Z	ReVarre		ADSL
+2005-11-23T07:44:00.000Z	Seveas	ReVarre	Open firefox and go to about:config. Now search for network.dns.disableIPV6 and set that value to true. Restart Firefox to see the effect.
+2005-11-23T07:44:00.000Z	Seveas	ReVarre	also: poke your provider to support ipv6 :)

@@ -1,0 +1,4 @@
+2010-04-07T18:44:00.000Z	wactuary		Trying to install 9.10 on a new box, getting the following 2 errors on install:  "shpchp 0000:00:01.0: Cannot reserve MMIO region" and then "ACPI: I/O resource piix4_smbus [0xb00-0xb07] conflicts with ACPI region SOR1 [0xb00]-0xb0f]"  Any clue on what might be going wrong?
+2010-04-07T18:46:00.000Z	DasEi	wactuary	mmio i can't say, second looks like a irqmodul conflict, try to change onboard's chips irq in bios if possible, else disable acpi at boot for install and later analysis; does a live cd boot ?
+2010-04-07T18:48:00.000Z	wactuary	DasEi	 couldn't get live or install to work in either 9.10 or 10.04b1.  I'll retry with ACPI off.
+2010-04-07T18:48:00.000Z	wactuary	DasEi	 or what should I change in BIOS?  Which onboard chip?

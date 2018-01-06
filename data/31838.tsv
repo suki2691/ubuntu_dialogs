@@ -1,0 +1,4 @@
+2010-05-16T21:28:00.000Z	kourou		funkyHat:...but echo "blacklist nouveau" >> /etc/modprobe.d/blacklist.conf is refused even with sudo... maybe it can only be done out of X ?
+2010-05-16T21:29:00.000Z	bastid_raZor	kourou	echo "blacklist nouveau" | sudo tee -a /etc/modprobe.d/blacklist.conf  ..
+2010-05-16T21:32:00.000Z	bastid_raZor	kourou	when you redirect you lose sudo rights
+2010-05-16T21:35:00.000Z	kourou	bastid_raZor	Explanations very clear and welcome, this make sense, thanks

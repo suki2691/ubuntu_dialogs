@@ -1,0 +1,4 @@
+2012-11-05T12:32:00.000Z	osse		Hi, I've made a change to sshd_config and want to restart. How do I do that properly? I was hoping for something like '/etc/init.d/sshd restart' but I can't find anything sshd-related there
+2012-11-05T12:33:00.000Z	almoxarife	osse	tried 'sudo service ssh restart' ?
+2012-11-05T12:34:00.000Z	osse	almoxarife	I haven't but I think I found the answer: /etc/init./ssh actually controls sshd, not ssh
+2012-11-05T12:35:00.000Z	almoxarife	osse	alrighty then

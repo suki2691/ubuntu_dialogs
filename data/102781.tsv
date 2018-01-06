@@ -1,0 +1,4 @@
+2008-02-09T03:13:00.000Z	chaosrl		does anyone know how to find out the name of my swap partition, a la /dev/sdaX?
+2008-02-09T03:14:00.000Z	singlesun	chaosrl	fdisk should show you it... just use p to show partitions
+2008-02-09T03:15:00.000Z	chaosrl	singlesun	i'm not really sure how to use fdisk command in terminal, how would i use 'p'?
+2008-02-09T03:16:00.000Z	singlesun	chaosrl	go into terminal... and type "fdisk /dev/hda" for your drive maybe something besides hda though

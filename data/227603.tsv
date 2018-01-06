@@ -1,0 +1,4 @@
+2006-10-08T13:49:00.000Z	mipstien		im tryin to get multiple sounds working right now on dapper drake, i'd like to see someone else asound.conf file so i can confirm if mine is correct or not
+2006-10-08T13:50:00.000Z	mipstien		im tryin to get multiple sounds working right now on dapper drake, i'd like to see someone else asound.conf file so i can confirm if mine is correct or not
+2006-10-08T13:51:00.000Z	Jowi	mipstien	http://paste.ubuntu-nl.org/26005/
+2006-10-08T13:56:00.000Z	Jowi	mipstien	save that as .asoundrc in your /home/user dir. should work fine. also make sure you use alsa as default output sink. if you use esd, kill it (killall esd).

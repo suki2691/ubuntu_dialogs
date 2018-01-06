@@ -1,0 +1,4 @@
+2012-09-24T19:01:00.000Z	hay		hi all.. when I try to apt-get remove dovecot-core, I get messages like: "RTNETLINK answers: File exists", "invoke-rc.d: initscript dovecot, action "stop" failed." ... and then "E: Sub-process /usr/bin/dpkg returned an error code (1)"... how can I remove dovecot package? thx
+2012-09-24T19:03:00.000Z	genii-around	hay	sudo stop dovecot && sudo /etc/init.d/dovecot start          then try removing the package again
+2012-09-24T19:04:00.000Z	hay	genii-around	thx... that worked!
+2012-09-24T19:05:00.000Z	genii-around	hay	You're welcome.

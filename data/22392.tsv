@@ -1,0 +1,4 @@
+2012-11-12T18:37:00.000Z	andrea_		hello, i'm trying to write a script w/ bash that kills a process if hits a threshold of CPU use. Could somebody help me?
+2012-11-12T18:38:00.000Z	geekbri	andrea_	sounds like a usecase for something like monit/bluepill/god
+2012-11-12T18:39:00.000Z	andrea_	geekbri	does bluepill have smth to do with virtualization?
+2012-11-12T18:39:00.000Z	geekbri	andrea_	nah, its just a piece of software written in ruby that ensures a process is running and can also do process and memory checks on it.

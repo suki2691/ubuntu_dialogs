@@ -1,0 +1,4 @@
+2005-06-15T07:32:00.000Z	rayen		hi what program do i need to apt-get so I can mount a NTFS ?
+2005-06-15T07:32:00.000Z	Xabbu|	rayen	It is installed already
+2005-06-15T07:33:00.000Z	rayen	bob2	mount -t ntfs /dev/hda2 /mnt/d/ doesn't work: mount: wrong fs type, bad option, bad superblock on /dev/hda2,
+2005-06-15T07:33:00.000Z	Xabbu|	rayen	type sudo mount -t ntfs /dev/<partition> /folder1/folder2

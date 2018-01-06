@@ -1,0 +1,4 @@
+2009-03-08T20:54:00.000Z	benovic		I get the grub error 17: cannot mount selected partition when I try to mount another linux system I manually added to grub on hd0,1. 'sudo fdisk -l' even says its a fat32 filesystem, whereas gparted correctly labels it as ext3
+2009-03-08T20:55:00.000Z	benovic		its a pretty mess to run 2 debian systems from one hd :(
+2009-03-08T20:55:00.000Z	Huufarted	benovic	is it in your fstab?
+2009-03-08T20:55:00.000Z	Huufarted	benovic	ignore that.  Your'e talking about GRUB.

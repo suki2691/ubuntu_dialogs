@@ -1,0 +1,4 @@
+2008-03-18T17:36:00.000Z	icewaterman		hi how does ubuntu for amd64 handle mesa libraries for 32bit apps?
+2008-03-18T17:36:00.000Z	directhex|work	icewaterman	sensibly
+2008-03-18T17:36:00.000Z	icewaterman		thing is, 32-bit apps lack 3d acceleration while they work fine with 64-bit apps
+2008-03-18T17:36:00.000Z	icewaterman	directhex|work	the drivers for 32bit are installed and work, if i manually set the env variable: LIBGL_DRIVERS_PATH=/usr/lib32/dri

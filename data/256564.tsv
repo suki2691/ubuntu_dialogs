@@ -1,0 +1,4 @@
+2012-08-31T02:28:00.000Z	mcnellis		what happens if I cat file1 and file1 is written to while it's in the middle of running the cat command
+2012-08-31T02:29:00.000Z	mcnellis		Is cat guaranteed to give me the file at the end of *some* file write i.e. that the file will end with a newline or is it possible that cat will give me the last line in the middle of its writing i.e. the last line is only half written
+2012-08-31T02:31:00.000Z	mcnellis		Ok, so if I'm dealing with a file that's being constantly written to, I should use cp first and then gzip the cp'd file  instead of using cat file | gzip
+2012-08-31T02:31:00.000Z	dr_willis	mcnellis	 you should use fifo/pipes i belive....

@@ -1,0 +1,4 @@
+2011-01-15T01:08:00.000Z	Drainix		How would I "mirror" a file ? Example when wtf.txt in /home is edited it is also edited in /home/blah
+2011-01-15T01:08:00.000Z	Pici	Drainix	Do they need to be seperate files? or can you just use a symlink?
+2011-01-15T01:09:00.000Z	Pici	Drainix	ln -s /path/to/target /path/to/link
+2011-01-15T01:12:00.000Z	Pici	Drainix	I'd use absolute paths for the target, makes it easier in the long run.

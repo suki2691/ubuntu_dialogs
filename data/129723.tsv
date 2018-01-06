@@ -1,0 +1,4 @@
+2007-10-24T17:59:00.000Z	Mountaingod		Ok, I've got one more issue with Gutsy to resolve before it 'just works', and then I can get onto customising. It won't shut down. Restarts fine, but pretty much as soon as I click 'shut down', the screen turns off and it locks up.
+2007-10-24T17:59:00.000Z	stefg	Mountaingod	that looks like an acpi quirk
+2007-10-24T18:01:00.000Z	Mountaingod	stefg	whatever that is, how can I fix it? On the forums it appears to be a widespread issue
+2007-10-24T18:02:00.000Z	stefg	Mountaingod	that depends on your hardware. you might need to add bootparameters or edit some configfile to use e.g. apm for powerdown

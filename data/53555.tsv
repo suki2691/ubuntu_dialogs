@@ -1,0 +1,4 @@
+2009-06-28T00:48:00.000Z	JediMaster		hey guys, I've got a few ubuntu servers that are regularly under high load, then an rsync backup fires up and grinds both of the servers to a halt (just had 184 load), can anyone recommend a way of stopping the machine from grinding to a halt (I managed to ssh in this time, it took 10 minutes to connect before I could log in to kill off the rsync process)? I've tried nice -n 19 on rsync
+2009-06-28T00:49:00.000Z	JediMaster		the trouble is that rsync still threashes the hard drive around like crazy, so even nice'ed it still brings the machine to a halt, any ideas?
+2009-06-28T00:51:00.000Z	JediMaster		I guess what I'm asking is, is there a way to limit hard drive resources or even slow a program down like rsync?
+2009-06-28T00:53:00.000Z	farce	JediMaster	You can try a wrapped like Parallel Retriever to optimize the transfers.

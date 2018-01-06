@@ -1,0 +1,4 @@
+2009-11-29T13:08:00.000Z	GodfatherofEire		Is there any way to make an application persistent, so that if it gets closed out it starts up again (specifically gnome-do)
+2009-11-29T13:10:00.000Z	GodfatherofEire		Also: a) why do I get a kernel panic after killing something from the console, and switching back to X?, and b) anybody know why ctrl alt esc was cut?
+2009-11-29T13:11:00.000Z	moymoy	GodfatherofEire	make a script, in it, put "#!/bin/bash" and the next line "gnome-do; $0" save it, turn it into an executable and use that script to launch gnome-do
+2009-11-29T13:11:00.000Z	GodfatherofEire	moymoy	thanks

@@ -1,0 +1,4 @@
+2005-08-26T12:41:00.000Z	Madeye		guys, I have directory with about 500 tar.gz file, how to extract all of them at once>?
+2005-08-26T12:42:00.000Z	rhelmer	Madeye	for file in *.tar.gz; do tar zxf ${file}; done
+2005-08-26T12:43:00.000Z	Madeye	rhelmer	 thanks, works smoothly
+2005-08-26T12:45:00.000Z	rhelmer	Madeye	cool

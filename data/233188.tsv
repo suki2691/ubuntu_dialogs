@@ -1,0 +1,4 @@
+2005-07-01T13:28:00.000Z	roy		can someone help me get a broadcom chipset (belkin wireless card) working? i had the driver installed with ndiswrapper, but the card just won't light up for some reason
+2005-07-01T13:29:00.000Z	roy		driver present, hardware present
+2005-07-01T13:29:00.000Z	swarm	roy	have you changed kernel?
+2005-07-01T13:31:00.000Z	swarm	roy	you have to write ndiswrapper conf with ndiswrapper -m and to add ndiswrapper to /etc/modules. If you upgrade kernel you have to repeat almost all process for new kernel.

@@ -1,0 +1,4 @@
+2012-01-19T17:08:00.000Z	Faralla		Hi. I just compiled a custom kernel for oneiric, but in grub it shows up in the "Previous Linux versions" submenu. I can I make grub move it to top level?
+2012-01-19T17:09:00.000Z	theadmin	Faralla	Probably move the menuentry to another file in /etc/grub.d/
+2012-01-19T17:10:00.000Z	Faralla	theadmin	How?= From what i've seen, the entries in grub.d are quite complex
+2012-01-19T17:10:00.000Z	theadmin	Faralla	Just rip out the existing entry, create a new file (with proper naming syntax) and paste it there -- I'm no fan of grub2 so I can't tell it more precisely

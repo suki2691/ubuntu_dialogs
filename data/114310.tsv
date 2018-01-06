@@ -1,0 +1,4 @@
+2011-03-21T16:17:00.000Z	arizon		Created a "quickly ubuntu-cli" application and packaged it using "quickly package", got a deb out of it which installs fine with dpkg locally. However, I want to use it on a ubuntu server and suddenly it has a bunch of dependencies to other packages, which in turn, have dependencies. does anyone know if it's possible to package a quickly-application and include dependency stuff? I had this link describing that you can create a package for another distro. I hav
+2011-03-21T16:17:00.000Z	arizon		en't tried it though.
+2011-03-21T16:19:00.000Z	jrib	arizon	well if apt is the one complaining about dependencies when you try to install the package you created then it seems like it does contain dependency information.  Are you sure it's not an issue with differing ubuntu versions?
+2011-03-21T16:22:00.000Z	arizon	jrib	using dpkg, might be. I'm not sure. I think I will try to make it simpler by not using quickly

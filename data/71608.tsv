@@ -1,0 +1,4 @@
+2008-12-10T20:04:00.000Z	matic_		why would my Hardy refuse to mount drives like flash, cd/dvd and ntfs partition?
+2008-12-10T20:05:00.000Z	bullgard4	matic_	Because you played with Hardy and misconfigured it.
+2008-12-10T20:08:00.000Z	matic_	bullgard4	you are right, what might I have tampered with?
+2008-12-10T20:11:00.000Z	bullgard4	matic_	Please check first the output of 'sudo fdisk -l'. Secondly, check the output of 'mount'. May be you will find some abnormal lines there and get an idea why.

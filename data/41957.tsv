@@ -1,0 +1,4 @@
+2009-11-26T10:30:00.000Z	daurnimator		I just got a notice that one or more of my hdds are failing... how do I find out more
+2009-11-26T10:32:00.000Z	daurnimator		anyone?
+2009-11-26T10:32:00.000Z	forkcap	daurnimator	you could run "e2fsck" from a live cd. only works on unmounted partitions
+2009-11-26T10:34:00.000Z	forkcap	daurnimator	you can boot the live cd, make sure your hard drives are unmounted and run e2fsck to check/repair the partitions

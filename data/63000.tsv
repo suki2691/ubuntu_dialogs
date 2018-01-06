@@ -1,0 +1,4 @@
+2009-11-14T17:15:00.000Z	nexsja		Can anybody here help me with sendmail, please?
+2009-11-14T17:17:00.000Z	nexsja		I'm trying to send mail from php using the standart mail() function. The mail doesn't get delivered. It just winds up in a queue line. I've tried reconfiguring exim4 -> unsuccessful. Can anybody help with that?
+2009-11-14T17:18:00.000Z	frogzoo	nexsja	does it need a mail server running on the local machine?
+2009-11-14T17:18:00.000Z	nexsja	frogzoo	i don't think so. It uses the sendmail function with -t -i parameters, if i remember correctly

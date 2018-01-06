@@ -1,0 +1,4 @@
+2007-09-20T13:36:00.000Z	dwxreaper		I deleted my startup scripts for my ntp server (which I got from apt-get), now if i remove ntp and then install
+2007-09-20T13:36:00.000Z	dwxreaper		the startup scripts are still missing, what do i do!
+2007-09-20T13:36:00.000Z	Azzmodan	dwxreaper	try removing with purge, then reinstall?
+2007-09-20T13:38:00.000Z	Azzmodan	dwxreaper	dpkg-reconfigure should also work if you give it the right options, but the purge is easier most of the time :)

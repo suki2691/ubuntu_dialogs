@@ -1,0 +1,4 @@
+2010-07-13T03:42:00.000Z	CrayonOfDoom		Any way to turn an .iso into an .img usable by PXElinux?  I'm trying to avoid the netboot that downloads files and instead have an entire install img be the boot.
+2010-07-13T03:43:00.000Z	Jordan_U	CrayonOfDoom	If you setup a local apt mirror then the netboot CD at least won't need to go out to the internet.
+2010-07-13T03:44:00.000Z	CrayonOfDoom	Jordan_U	so then it'd still "retrieve" the install files, but from the local apt mirror which can have the strict version requirements I need?
+2010-07-13T03:44:00.000Z	Jordan_U	CrayonOfDoom	Yes.

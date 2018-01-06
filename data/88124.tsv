@@ -1,0 +1,4 @@
+2008-06-09T17:26:00.000Z	palmje		My /tmp directory has suddenly changed to a capacity of 1MB when it should be a part of the root partition.  When i us df -h I get the following for /tmp:
+2008-06-09T17:26:00.000Z	palmje		overflow              1.0M  800K  224K  79% /tmp
+2008-06-09T17:26:00.000Z	palmje		does anyone know how I can fix this problem?
+2008-06-09T17:26:00.000Z	chittoor	palmje	umount /tmp

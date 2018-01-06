@@ -1,0 +1,4 @@
+2011-11-05T21:10:00.000Z	meadhikari		I found this print pdf option when i right click a webpage in browser, how would i do it from the command line??
+2011-11-05T21:11:00.000Z	llutz	meadhikari	install cups-pdf, use "lpr -p <your-pdf-printername> file"
+2011-11-05T21:11:00.000Z	meadhikari	llutz	i means something like html to pdf
+2011-11-05T21:12:00.000Z	llutz	meadhikari	elinks -dump http://bla.foo | lpr -p PDF-Printer

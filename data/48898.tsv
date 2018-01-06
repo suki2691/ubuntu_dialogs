@@ -1,0 +1,4 @@
+2009-09-09T20:40:00.000Z	Ileden		I'm trying to set up a single LVM drive on my SD card. I have partitioned /dev/mmcblk0 to have Linux LVM (8e) partition, which is at /dev/mmcblk0p1. However, pvcreate /dev/mmcblk0p1 fails with "Device not found (or ignored by filtering)." My /etc/lvm/lvm.conf is set to scan from /dev, and should include all devices. What's going wrong here? Why can't I initialize /dev/mmcblk0p1 as a LVM physical volume?
+2009-09-09T20:40:00.000Z	psygate	Ileden	how many times do you want to copypasta that?
+2009-09-09T20:40:00.000Z	Ileden	psygate	trying to keep delays in between
+2009-09-09T20:41:00.000Z	Ileden	psygate	should increase the delay, I guess. :)

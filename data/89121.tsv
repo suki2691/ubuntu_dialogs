@@ -1,0 +1,4 @@
+2008-08-04T08:07:00.000Z	FlipFalcon		<bazhang> FlipFalcon, that driver does not support rotation for your machine.-------> how do i do it on my machine then??
+2008-08-04T08:08:00.000Z	FlipFalcon		its a tavlet pc
+2008-08-04T08:08:00.000Z	FlipFalcon		tablet pc
+2008-08-04T08:09:00.000Z	glitsj16	FlipFalcon	if 100% sure trident cards don't support randr then ignore .. if not, you might try adding --> Option "RandRRotation" "True" to the device section in your existing /etc/xorg.conf .. just a longshot

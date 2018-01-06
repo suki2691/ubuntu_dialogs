@@ -1,0 +1,4 @@
+2010-06-07T07:09:00.000Z	R3cur51v3		that's definitely a mistake
+2010-06-07T07:09:00.000Z	R3cur51v3		i.e. the drive will replace your entire filesystem
+2010-06-07T07:10:00.000Z	thune3	R3cur51v3	his transmission is already expecting a fixed mntpoint, he should use that
+2010-07-14T11:07:00.000Z	thune3	R3cur51v3	/var/lib/mlocate/mlocate.db is the location. You could add to PRUNEPATHS in /etc/updatedb.conf to disable indexing for you home dir.

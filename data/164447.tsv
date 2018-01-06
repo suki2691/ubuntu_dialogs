@@ -1,0 +1,4 @@
+2006-10-20T15:31:00.000Z	ekidu		how to unactivate apache2 for a long time, without having to remove it ?
+2006-10-20T15:32:00.000Z	hastesaver	ekidu	how long is a "long time"?
+2006-10-20T15:32:00.000Z	ekidu	hastesaver	for more than one session
+2006-10-20T15:32:00.000Z	hastesaver	ekidu	if you want to manually stop it, it is "sudo /etc/init.d/apache2 stop". It will start again the next time you reboot

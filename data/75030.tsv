@@ -1,0 +1,4 @@
+2008-11-22T04:29:00.000Z	iAreBaboon		hi all, i have a dualboot windows ntfs + ubuntu 8.04... my windows was corrupted so i reinstalled it... although it removed grub it doesn't seem to have reinstalled the MBR properly because i just get a hanging black screen on startup.... anyway how can i re-install grub from a liveCD ?
+2008-11-22T04:29:00.000Z	iAreBaboon		is it at all possible actually ?
+2008-11-22T04:30:00.000Z	zsquareplusc	iAreBaboon	i think this should work. terminal-> sudo chroot /media/<yourubuntuparthere>; update-grub
+2008-11-22T04:38:00.000Z	zsquareplusc	iAreBaboon	the commands i gave would install the grub as it was configured for your installed ubuntu. it would restore the menu you had

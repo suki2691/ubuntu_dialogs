@@ -1,0 +1,4 @@
+2009-08-20T15:40:00.000Z	nefa		hi! does anyone know why the update manager shows more updates than 'apt-get update && apt-get upgrade'? I thought both methods were equivalent, but apparently they're not. Update manager shows me 11 important security updates, whereas 'apt-get update && apt-get upgrade' gets me: '3 upgraded, 0 newly installed, 0 to remove and 4 not upgraded'. Any idea what's wrong here?
+2009-08-20T15:42:00.000Z	ActionParsnip	nefa	the not upgraded ones are held until their deps are met. I personally only use apt-get as I find it quicker than synaptic
+2009-08-20T15:50:00.000Z	nefa	ActionParsnip	I now did an update on the console, the 3 packages were installed, but the 4 other packages are still kept back. After it was finished, update manager popped up, offering me 8 updates.
+2009-08-20T15:57:00.000Z	nefa	ActionParsnip	...so the dependencies don't seem to explain the difference.

@@ -1,0 +1,4 @@
+2007-06-13T12:56:00.000Z	sebrock		GAAAAAAAAAAAAAh how do I boot in standard runlevel 3===??
+2007-06-13T12:56:00.000Z	mrobbert	sebrock	I'm not sure if there is an official Ubuntu way, but you can edit /etc/inittab
+2007-06-13T12:57:00.000Z	mrobbert	sebrock	look for a line similar to "id:2:initdefault:", should be near  the top
+2007-06-13T12:58:00.000Z	mrobbert	sebrock	That number is the runlevel that you'll boot to. Funny thing is that mine is set to 2 and I have gdm running on boot

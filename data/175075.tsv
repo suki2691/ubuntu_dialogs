@@ -1,0 +1,4 @@
+2006-07-21T09:35:00.000Z	jbower		could some one tell me how to install kernel source match running kernel, i'm now using linux-image-2.6.15-26-386 2.6.15-26.45. i'm looking for this so i can build rt2x00 drivers a get around a ndis ubuntu bug.
+2006-07-21T09:36:00.000Z	trappist	jbower	usually you just need kernel headers to build drivers - apt-get install linux-headers-$(uname -r)
+2006-07-21T09:37:00.000Z	jbower	trappist	the rt2x00 driver need per README, # Kernel source requirements:
+2006-07-21T09:38:00.000Z	trappist	jbower	whatever the docs say, kernel headers are almost always what you need.  but, to get the full source, apt-get source linux-image-$(uname -r)

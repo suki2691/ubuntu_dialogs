@@ -1,0 +1,4 @@
+2010-08-24T22:36:00.000Z	janisozaur		!synaptic | majeszko
+2010-08-24T22:38:00.000Z	janisozaur		!tab | PresuntoRJ
+2010-08-24T22:40:00.000Z	janisozaur		I've lost control over my desktop (I was watching a movie using vdpau and there seems to be a bug which corrupts screen and "hangs" the system). I can't move the cursor nor can I switch to console, I can ssh to this computer, though. I want to close an app in a safe manner, so as not to cause possible data corruption. If I 'kill -TERM' it, will it be the same as if I clicked on the 'x' button?
+2010-08-24T22:41:00.000Z	wyn	janisozaur	ps -fe kill the pid

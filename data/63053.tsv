@@ -1,0 +1,4 @@
+2011-02-22T13:50:00.000Z	haaga		Hello. I have a machine with 2 NICs with UFW enabled. When i look in kern.log my logs is full with Feb 22 08:41:19 www kernel: [1804669.103704] [UFW BLOCK] IN=eth1 OUT= MAC=XX:XX:XX:XX SRC=XX.XXX.XXX.XX DST=192.168.1.1 LEN=52 TOS=0x00 PREC=0x00 TTL=59 ID=19534 PROTO=TCP SPT=35564 DPT=80 WINDOW=1032 RES=0x00 ACK FIN URGP=0. This is my UFW status: http://pastebin.com/fkxXbd44
+2011-02-22T13:50:00.000Z	haaga		Is there a reason for this be blocked?
+2011-02-22T13:52:00.000Z	sacarlson	haaga	from what I see there,  you don't need a ufw running at all,  all you need do is turn off applications that listen on ports you don't need
+2011-02-22T13:53:00.000Z	haaga	sacarlson	Well, turning it of a always an option

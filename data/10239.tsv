@@ -1,0 +1,4 @@
+2011-11-08T16:46:00.000Z	silv3r_m00n		hi there , on a remote system I installed vsftpd via ssh , vsftp is up and running and telnet localhost 21 works , but I cannot connect to port 21 from outside (my computer) what could be the reason ?
+2011-11-08T16:47:00.000Z	silv3r_m00n		direct IP address
+2011-11-08T16:47:00.000Z	Thelmaria	silv3r_m00n	Firewall between you and the remote server? telnet's a pretty insecure protocol, it should be blocked by default.
+2011-11-08T16:47:00.000Z	silv3r_m00n	Thelmaria	but telnet IP 80 and 22 works

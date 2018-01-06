@@ -1,0 +1,4 @@
+2006-08-30T15:36:00.000Z	AsadR		is it possible to make the applications that require Administrative access save the root password for a certain duration, so that I don't have to enter it again and again?
+2006-08-30T15:37:00.000Z	lamego	AsadR	sudo already does that
+2006-08-30T15:38:00.000Z	lamego	AsadR	sudo has a default timeout, but yes you can nusdo sudoers to allow certain commands to be used without prompting for the password
+2006-08-30T15:42:00.000Z	lamego	AsadR	man sudo

@@ -1,0 +1,4 @@
+2008-08-18T15:05:00.000Z	A[D]minS		how i can reset MBR ?
+2008-08-18T15:06:00.000Z	A[D]minS		i want to format or delete the data on MBR
+2008-08-18T15:06:00.000Z	A[D]minS		how i can do it?
+2008-08-18T15:06:00.000Z	myconid	A[D]minS	dd if=/dev/zero of=/dev/sda

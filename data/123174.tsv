@@ -1,0 +1,4 @@
+2007-11-08T00:13:00.000Z	elliotjhug		Hi all, I realise that this is incredibly unsupported and all that. But what are the technical possibilities of moving my home directory onto a new partition without reinstalling ubuntu?
+2007-11-08T00:14:00.000Z	Calin24	elliotjhug	very easy... just mv /home /home2, mkdir /home, mount the new drive as /home and cp -R /home2/* /home
+2007-11-08T00:14:00.000Z	Calin24		I just did it this morning changing my /home from local to a raid 5 partition
+2007-11-08T00:15:00.000Z	elliotjhug	Calin24	Thanks alot :) - I'll keep a note of that.

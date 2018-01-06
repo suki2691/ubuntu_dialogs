@@ -1,0 +1,4 @@
+2007-04-20T11:36:00.000Z	danshtr		is there a way to refresh/rescan the wireless networks list?
+2007-04-20T11:37:00.000Z	eck	danshtr	from the command line you would do something like: iwlist eth1 scanning
+2007-04-20T11:38:00.000Z	danshtr	eck	thanks, is the a way to do it usning gui? each time i resume from suspend i cant find my network
+2007-04-20T11:39:00.000Z	eck	danshtr	is this with network manager? i would try stopping it and restarting it

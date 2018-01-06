@@ -1,0 +1,4 @@
+2009-02-04T07:37:00.000Z	vock		what can go wrong from changing the root password? (not a user password with root priveliges)
+2009-02-04T07:38:00.000Z	tritium	vock	there is no root password unless you explicitly unlock the root account
+2009-02-04T07:39:00.000Z	vock	tritium	what password are you changing with the command sudo passwd ?
+2009-02-04T07:39:00.000Z	tritium	vock	your user's.  sudo passwd root would change root's.

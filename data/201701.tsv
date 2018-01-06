@@ -1,0 +1,4 @@
+2006-01-10T10:39:00.000Z	stark-johan		Where do I find my kernel.config (I wan t to check if I have a certain module compiled in the kernel or not)
+2006-01-10T10:40:00.000Z	ccooke	stark-johan	/boot/config-$(uname -r)
+2006-01-10T10:43:00.000Z	stark-johan	ccooke	> what does the letters mean (y=yes I guess) m = manually? I'd like better parallell port support.
+2006-01-10T10:44:00.000Z	ccooke	stark-johan	y means it's built into the kernel directly, m means it's built as a module.

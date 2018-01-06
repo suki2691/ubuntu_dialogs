@@ -1,0 +1,4 @@
+2009-10-20T20:41:00.000Z	Otacon22Uni		Does enyone knows how to log ssh access on sshd?
+2009-10-20T20:41:00.000Z	grawity	Otacon22Uni	Connections are already logged to syslog
+2009-10-20T20:42:00.000Z	Otacon22Uni	grawity	where exactly?
+2009-10-20T20:43:00.000Z	grawity	Otacon22Uni	Depends on your syslog config, but usually /var/log/auth.log

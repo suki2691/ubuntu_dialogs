@@ -1,0 +1,4 @@
+2007-09-19T11:56:00.000Z	gargan-		i have a wireless card that ubuntu recognizes and network manager shows me the list of available networks. however, the signal strength is greyed out. i cannot connect to any networks. i do know for a fact that the networks are working and in range because im on one on this computer
+2007-09-19T11:57:00.000Z	gargan-		it's a cnet cwp-854 if you're asking me scratchy
+2007-09-19T11:57:00.000Z	gargan-		ralink 2561 chipset
+2007-09-19T11:58:00.000Z	stefg	gargan-	to put in short: you need to blacklist the Linux driver, get a fresh version of ndiswrapper and use the windows driver with it

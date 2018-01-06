@@ -1,0 +1,4 @@
+2008-10-20T18:16:00.000Z	opbit		hi, inside "Monitor resoultion settings" i see it say: "screen unknown and it set refresh rate to 50hz" how can i tell it what my screen is? (i am using dell xps 1330)
+2008-10-20T18:17:00.000Z	n8tuser	opbit	try xdpyinfo
+2008-10-20T18:18:00.000Z	n8tuser	opbit	the line  #screen or display
+2008-10-20T18:19:00.000Z	n8tuser	opbit	changes to what?  look in /etc/X11/xorg.conf ?

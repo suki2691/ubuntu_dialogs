@@ -1,0 +1,4 @@
+2006-12-16T17:15:00.000Z	eilker		what happens if i delete a script from etc/init.d,   i dont want no-ip script anymore
+2006-12-16T17:16:00.000Z	HuibertGill	eilker	look into "man update-rc.d" or "update-rc.d --help"
+2006-12-16T17:17:00.000Z	HuibertGill	eilker	if you just remove the script, you will get a lot of broken symlinks in /etc/rc**.d
+2006-12-16T17:18:00.000Z	eilker	HuibertGill	done, thank you, :)  sudo update-rc.d no-ip remove

@@ -1,0 +1,4 @@
+2007-12-25T10:03:00.000Z	TNDT		hey, i just installed windows xp onto the 3rd partition on my laptop (1st is ubuntu and 2nd is swap). now the computer boots only to windows, never to ubuntu. anybody able to help me with this problem?
+2007-12-25T10:04:00.000Z	thor	TNDT	when you install windows it overwrites the grub install...you need to reinstall grub. Give me a sec
+2007-12-25T10:07:00.000Z	thor	TNDT	http://paste.ubuntu-nl.org/49519/ .... pay attention and read it all first. I think the last part that starts with 'Boot from Ubuntu Live CD' will be what you want.
+2007-12-25T10:08:00.000Z	thor	TNDT	and pay particular attention to the lines that have (hd0,x) or hd(0,x)....that second number has to match the partition for windows or linux...and note that if you are using hda6 partition, it is 0,5 in the command....the count starts at 0

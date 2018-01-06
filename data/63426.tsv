@@ -1,0 +1,4 @@
+2010-04-01T04:28:00.000Z	sammy		so I see a note on the community docs that says ca-certificates I want to add globally go into /usr/share/ca-certificates. what is /usr/local/share/ca-certificates for, then?
+2010-04-01T04:29:00.000Z	acicula	sammy	/usr/local/ is typically for custom system wide installations outside the scope of the system package managers
+2010-04-01T04:29:00.000Z	acicula	sammy	or historically /usr could be distributed why /usr/local was always a local fs
+2010-10-15T01:30:00.000Z	acicula	sammy	yeah i believe so, not the files in there though. dont think it has to be listable either, so just read permissions may be enough, but im not enirely sure on that otherwise try +x

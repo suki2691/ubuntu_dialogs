@@ -1,0 +1,4 @@
+2010-08-30T14:15:00.000Z	AnxiousNut		how can i continue a stopped process from the command line? after using kill -STOP <pid>, is there something like -CONTINUE or -UNSTOP?
+2010-08-30T14:15:00.000Z	Araneidae	AnxiousNut	SIGCONT
+2010-08-30T14:15:00.000Z	Araneidae		See signal(7)
+2010-08-30T14:16:00.000Z	AnxiousNut	Araneidae	thanks just saw it! I really have to check twice before coming here!

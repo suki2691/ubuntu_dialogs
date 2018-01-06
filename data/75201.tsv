@@ -1,0 +1,4 @@
+2010-04-22T22:59:00.000Z	pyrophelia		is it possible to manipulate irqs?
+2010-04-22T22:59:00.000Z	h00k	pyrophelia	you can in your bios, although generally you shouldn't need to
+2010-04-22T23:00:00.000Z	pyrophelia	h00k	well I have 2 raid backplanes on the same irq (pci-e) and I believe I'm suffereing from irq conflicts because of it.  each backplane supports 10 disks.  20 disks on the same irq can't be good
+2010-04-22T23:01:00.000Z	h00k	pyrophelia	I'm not as intimately familiar with IRQ's as I was, perhaps check ##hardware

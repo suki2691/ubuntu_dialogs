@@ -1,0 +1,4 @@
+2012-11-30T16:13:00.000Z	andis		have a textfile full of text but i want to only grab out all the urls, how to do that?
+2012-11-30T16:15:00.000Z	MonkeyDust	andis	 with grep, like cat [text file] | grep [http] > some file
+2012-11-30T16:15:00.000Z	MonkeyDust	andis	 with grep, like cat [text file] | grep [http] > [some file]
+2012-11-30T16:16:00.000Z	andis	MonkeyDust	the urls are mixed with surrounded text, its rss i think

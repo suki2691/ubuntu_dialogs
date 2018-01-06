@@ -1,0 +1,4 @@
+2012-03-06T04:46:00.000Z	terran4000		Hey all. Random odd thing that more or less happened recently: my sound 'died'. Alsamixer, and lspci and aplay -l all show my card just fine, just that the Ubuntu sound settings show zero hardware, just a blank 'hardware' tab. Any ideas?
+2012-03-06T04:47:00.000Z	SaRSAeOL	terran4000	have you tried reloading alsa modules?
+2012-03-06T04:47:00.000Z	terran4000	SaRSAeOL	theory states that a reboot would have done that. Though I'll try reloading them manually
+2012-03-06T04:48:00.000Z	SaRSAeOL	terran4000	try a sudo alsa force-reload

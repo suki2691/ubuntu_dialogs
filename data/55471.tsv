@@ -1,0 +1,4 @@
+2010-07-31T19:26:00.000Z	cannonball		I seeking help with a /dev/sda1 does not exist error.. Please, Thanks
+2010-07-31T19:26:00.000Z	edbian	cannonball	What are you trying to do that is giving that error?
+2010-07-31T19:27:00.000Z	edbian	cannonball	does /dev/sda1 show up in the output of sudo fdisk -l
+2010-07-31T19:27:00.000Z	edbian	cannonball	Oh, you're moved your partitions around?  You probably need to boot a live CD and edit your /etc/fstab.

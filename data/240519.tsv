@@ -1,0 +1,4 @@
+2005-04-24T10:06:00.000Z	dcell		Running netstat -atnp shows master is listening on port 25.  How do I stop master?
+2005-04-24T10:08:00.000Z	Guy-	dcell	or fuser -k -n tcp 25
+2005-04-24T10:08:00.000Z	dcell	Guy-	fuser <-that is a new command for me
+2005-04-24T10:09:00.000Z	Guy-	dcell	it's useful, check it in man

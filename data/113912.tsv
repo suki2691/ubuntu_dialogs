@@ -1,0 +1,4 @@
+2009-10-25T03:27:00.000Z	vlt	mizipzor	`vol_id /dev/sdb1`
+2009-10-25T05:17:00.000Z	vlt	mizipzor	`find /sys -wholename "*eth"` then `find /sys -wholename "*<PCI:ID>*" | grep driver` works for me (maybe there's an easier way ;-)
+2009-10-25T05:18:00.000Z	mizipzor	vlt	i got that the "then" command wasnt found :p
+2009-10-25T05:20:00.000Z	vlt	mizipzor	these are two commands. And you have to edit the second one. Using "*eth*" in the first cmd is better

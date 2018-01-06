@@ -1,0 +1,4 @@
+2009-06-01T22:18:00.000Z	geirha	mcphail	solifugus: Why not just use shred?
+2009-06-01T22:19:00.000Z	mcphail	geirha	what mechanism does shred use? Can it do a whole disk/partition? I suggested dd because i know what that does
+2009-06-01T22:19:00.000Z	geirha	mcphail	solifugus: Yes. "man shred"
+2009-06-01T22:20:00.000Z	mcphail	geirha	i'd direct you to the caveats at the bottom of the man page. And the whole disk needs to be overwritten - not just visible files

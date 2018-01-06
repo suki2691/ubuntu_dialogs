@@ -1,0 +1,4 @@
+2011-10-18T12:41:00.000Z	maraujop		Q: Hi everyone. I'm installing Ubuntu Oneiric 11.10 in a laptop with a Nvidia graphic card GeForce 8400. I had to reinstall drivers from a shell to get lightdm working, but now I can only log in to guest session, I cannot use my user session? any clues why this happens? Thanks
+2011-10-18T12:42:00.000Z	sivik	maraujop	I cannot even get the lightdm to load right.
+2011-10-18T12:43:00.000Z	maraujop	sivik	I did, apt-get install --reinstall nvidia-current
+2011-10-18T12:43:00.000Z	maraujop	sivik	then nvidia-xconfig

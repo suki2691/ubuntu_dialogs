@@ -1,0 +1,4 @@
+2011-04-02T02:31:00.000Z	genii-around	subcool	change it to type called: 8e
+2011-04-02T02:33:00.000Z	subcool	genii-around	thats not an option
+2011-04-02T02:34:00.000Z	genii-around	subcool	I generally would do sudo fdisk /dev/whatever-drive-designation     then: t     then select the partition you want to change type of. Then put 8e    then w to write and quit
+2012-09-19T23:53:00.000Z	genii-around	subcool	Did you make fstab entries corresponding to the new locations? Also, when you copied the files did you preserve permissions,ownership, etc

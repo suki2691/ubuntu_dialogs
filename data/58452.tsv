@@ -1,0 +1,4 @@
+2009-05-04T23:28:00.000Z	raboof		when i run 'update-grub' it generates 'root (hd1,1)' entries, while i'm pretty sure that should be '(hd0,0)'. Based on what is it generating this?
+2009-05-04T23:28:00.000Z	KB1JWQ	raboof	Why do you think it should be hda(0,0)?
+2009-05-04T23:29:00.000Z	raboof	KB1JWQ	because my root partition is /dev/sda1
+2009-05-04T23:31:00.000Z	raboof	KB1JWQ	also, when i run the grub commandline 'hd<tab>' autocompletes to 'hd0,' - i only have one disk.

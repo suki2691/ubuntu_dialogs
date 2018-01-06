@@ -1,0 +1,4 @@
+2006-05-03T09:07:00.000Z	x1n933k		Can anyone point out how I can load ubuntu right into shell instead of loading X, i don't want to play with around /etc until I know more details
+2006-05-03T09:08:00.000Z	NickGarvey	x1n933k	what I do is chmod -x /etc/init.d/gdm
+2006-05-03T09:08:00.000Z	NickGarvey	x1n933k	makes it so gdm isn't executable anymore, and when booting it will just be skipped over
+2006-05-03T09:08:00.000Z	NickGarvey	x1n933k	to put it back is chmod +x /etc/init.d/gdm

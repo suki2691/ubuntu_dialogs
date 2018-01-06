@@ -1,0 +1,4 @@
+2006-05-15T14:45:00.000Z	Ayabara		is there a good reason to use ext3 instead of ext2?
+2006-05-15T14:46:00.000Z	Ayabara		will journaling do me good? it's safer to work with ext2 from windows than ext3 I think
+2006-05-15T14:46:00.000Z	Xenguy	Ayabara	avoids having to fsck on occasion, but AFAIK ext3 can't recover deleted files without a backup either
+2006-05-15T14:53:00.000Z	Ayabara	Xenguy	NoUse: so it is not unsafe to mount an ext3 as ext2 from windows? won't be more likely to lose data that way?

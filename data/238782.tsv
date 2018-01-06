@@ -1,0 +1,4 @@
+2006-04-02T07:40:00.000Z	Leotoothpick		W: Couldn't stat source package list http://us.archive.ubuntu.com breezy/universe Packages (/var/lib/apt/lists/us.archive.ubuntu.com_ubuntu_dists_breezy_universe_binary-i386_Packages) - stat (2 No such file or directory)
+2006-04-02T07:40:00.000Z	Leotoothpick		anybody know why i keep getting this warning
+2006-04-02T07:40:00.000Z	Leotoothpick		after i open synaptic
+2006-04-02T07:41:00.000Z	ifr	Leotoothpick	because the listing in /etc/apt/sources.list needs to be checked for typos then run sudo apt-get update

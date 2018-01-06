@@ -1,0 +1,4 @@
+2009-02-06T02:23:00.000Z	Davedan		can you recommend an app that I can use to backup my ubuntu computer? something like ghost
+2009-02-06T02:25:00.000Z	IntuitiveNipple	Davedan	Or the raw way, use "dd"
+2009-02-06T02:26:00.000Z	IntuitiveNipple	Davedan	yes... try "man dd" for more info... the power-pack for many data-moving jobs
+2009-02-06T02:27:00.000Z	IntuitiveNipple	Davedan	As a simple example (but please don't try this until you understand it) you could do "dd if=/dev/sdz1 | gzip drive-sdz1-compressed.gz" and compress the entire file-system from sdz1 into a file

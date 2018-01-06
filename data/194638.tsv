@@ -1,0 +1,4 @@
+2006-04-03T15:30:00.000Z	DJ_Tobias		anybody know the line to add in menu.lst that makes the text smaller on boot? is it /vesafs ?
+2006-04-03T15:32:00.000Z	oskude	DJ_Tobias	if you add "vga=791" to the end of the "kernel" line, your text modus will be 1024x768x32bit (or was it 800x600) ...
+2006-04-03T15:32:00.000Z	DJ_Tobias	oskude	isnt there something with vesafs ?
+2006-04-03T15:32:00.000Z	oskude	DJ_Tobias	dunno

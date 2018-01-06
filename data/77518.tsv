@@ -1,0 +1,4 @@
+2009-07-22T02:14:00.000Z	gletob		Is there a way to put a time option into an echo command?  For example: echo "Update completed at %s"
+2009-07-22T02:15:00.000Z	losher	gletob	how about echo "Update completed at `date`"  <--- note backticks inside double quotes
+2009-07-22T02:15:00.000Z	gletob	losher	that'll work, thank you so much.
+2009-07-22T02:16:00.000Z	losher	gletob	also see 'man date' for options to the date command with +format to make it look any way you like

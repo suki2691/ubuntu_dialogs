@@ -1,0 +1,4 @@
+2005-02-08T14:54:00.000Z	Peter		how would i boot into command line, so i can configure my xorg.conf file?
+2005-02-08T14:54:00.000Z	Peter		or is there an easier way?
+2005-02-08T14:54:00.000Z	wfx	Peter	you can stop the init.d/SCRIPT
+2005-02-08T14:57:00.000Z	wfx	Peter	i thing /etc/init.d/gdm stop and /etc/init.d/xfree86-common stop form a terminal ([ALT] +[CTRL] +[F1]  from x) should it do

@@ -1,0 +1,4 @@
+2009-03-12T09:04:00.000Z	siegey		anyone has any idea why i get this error when i am trying to build libtorrent?
+2009-03-12T09:04:00.000Z	siegey		make: *** No targets specified and no makefile found.  Stop.
+2009-03-12T09:04:00.000Z	aetheria	siegey	you'd need a target for make, such as "all" or "install" or whatever.  see the readme/install docs
+2009-03-12T09:06:00.000Z	siegey	aetheria	i read the readme docs and i followed the directions, first was to ./configure then make then make install

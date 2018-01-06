@@ -1,0 +1,4 @@
+2010-12-24T01:32:00.000Z	slide		Is there a way to mount a drive based on some ID instead of the /dev/sdX entry? Every time ive added a new drive, all my dev entries change
+2010-12-24T01:33:00.000Z	Dr_Willis_	slide	 you can mount via uuid, or even disk label. if you set up fstab right.
+2010-12-24T01:33:00.000Z	slide	ZykoticK9	do i just use that instead of the dev location in the fstab entry?
+2010-12-24T01:34:00.000Z	Dr_Willis_	slide	 or other ways i recall. but UUID is common

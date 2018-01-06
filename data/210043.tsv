@@ -1,0 +1,4 @@
+2010-08-12T06:17:00.000Z	Zvezda		ok n00b question - I just installed Xubuntu and I want to access my Windows PC's shared files, over the network.  how do I do this?  The Windows PC has been sharing files for quite a while to the other PCs on my home network
+2010-08-12T06:18:00.000Z	bofh80	Zvezda	click on Places > Network. you should be able to find them in the windows network
+2010-08-12T06:21:00.000Z	bofh80	Zvezda	System > Administration > Package Manager - search for smbclient   see if it's installed
+2010-08-12T06:24:00.000Z	bofh80	Zvezda	the other way is type into the address bar in nautilus smb:///servername/share   i think that's the right syntax

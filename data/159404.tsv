@@ -1,0 +1,4 @@
+2006-11-12T16:38:00.000Z	BrightEyes_		hello.how can i add installation sources on kubuntu?
+2006-11-12T16:39:00.000Z	minimec	BrightEyes_	 gksudo kedit /etc/apt/sources.list
+2006-11-12T16:42:00.000Z	BrightEyes_	minimec	which sources i may add for extra software\\?
+2006-11-12T16:45:00.000Z	minimec	BrightEyes_	If you only use the standard repositories, then open synaptic (gksudo synaptic), go to the sources in the menu and activate 'universe' and 'multiverse'. You can also '#' uncomment 'universe' and 'multiverse' in /etc/apt/sources.list.

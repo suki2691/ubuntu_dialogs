@@ -1,0 +1,4 @@
+2008-07-03T11:04:00.000Z	CroX		For some reason, aptitude is saying that "transmission" is unused and therefor scheduled to be removed, every time I'm installing something. But .. it's really not unused. How can I fix this?
+2008-07-03T11:06:00.000Z	unop	CroX	have aptitude remove transmission - then install is again using the .debs you downloaded
+2008-07-03T11:07:00.000Z	CroX	unop	I did that before too. Does that mean I have to reinstall transmission everytime I want to install anything? o_O
+2008-07-03T11:07:00.000Z	unop	CroX	certainly not.  maybe this helps.   aptitude why-not transmission

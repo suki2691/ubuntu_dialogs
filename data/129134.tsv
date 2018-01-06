@@ -1,0 +1,4 @@
+2007-09-24T11:10:00.000Z	gurkburk		im having such a headache with my ntfs partitions.. is there any way to, under linux ofcourse, rename a ntfs-partition? I just want the name to change..
+2007-09-24T11:10:00.000Z	gurkburk		its called "F: 300B" and another "E: 200GB" and the :'s and spaces makes newbie-fstab etc etc pain in the ass :-p
+2007-09-24T11:11:00.000Z	Dr_Willis_	gurkburk	the fstab can use /dev/whatever entries and you can set it to mount to whever ya want. changeign its name.
+2007-09-24T11:11:00.000Z	Dr_Willis_	gurkburk	its proberly using the disks lavel as the default name. Change the mountpoint in fstab.

@@ -1,0 +1,4 @@
+2011-04-22T03:41:00.000Z	rocketeerbkw		i tried `kill -9 28494` but  that process (apache2) is still running, how do I kill it?
+2011-04-22T03:42:00.000Z	erUSUL	rocketeerbkw	sudo service apache stop
+2011-04-22T03:42:00.000Z	erUSUL	rocketeerbkw	never use -9 unless absolutly neccesary
+2011-04-22T03:43:00.000Z	rocketeerbkw	erUSUL	I did that and it says apache is stopped, but there are still apache process runing

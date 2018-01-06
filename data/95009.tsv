@@ -1,0 +1,4 @@
+2008-04-10T03:19:00.000Z	miketosh		I really lost my TTY's, can anyone help me get them back????  GAH!  There is no /etc/inittab in ubuntu like other nix's, so I don't know where to find when they get destroyed during boot
+2008-04-10T03:21:00.000Z	nickrud__	miketosh	/etc/event.d for inittab replacement, but consider removing splash from kernel boot line, seems to fix it for many
+2008-04-10T03:21:00.000Z	miketosh		oh, thatnks a ton nickrud__  I'll check that out
+2008-04-10T03:22:00.000Z	miketosh	nickrud__	any way to edit boot strings after booted, or do I have to reboot into grub?

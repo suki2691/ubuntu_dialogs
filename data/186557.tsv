@@ -1,0 +1,4 @@
+2010-07-22T01:39:00.000Z	Lin		can I use ubuntu server instaler to configure LVM mirroring (instead raid)?
+2010-07-22T01:39:00.000Z	ikonia	Lin	you can, but I'd advise you to use linux software mirroring to mirror the raw devices, then use lvm on the mirroroed disks
+2010-07-22T01:40:00.000Z	ikonia	Lin	that's a personal stance as you are doing it at the block level, rather than the logical volume level
+2010-07-22T01:40:00.000Z	ikonia	Lin	no problem, it's just slightly different technique,

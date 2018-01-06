@@ -1,0 +1,4 @@
+2009-07-04T20:30:00.000Z	binbasti		hi
+2009-07-04T20:32:00.000Z	binbasti		i'm trying to find a file in a time machine backup from my ubuntu machine. i know there's the .HFS+ Private Directory dir, but it's too big for nautilus. can someone tell me how to search for a file name recursively from the shell?
+2009-07-04T20:33:00.000Z	joebodo	binbasti	find . -name FILENAME
+2009-07-04T20:34:00.000Z	joebodo	binbasti	first param is directory

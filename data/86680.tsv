@@ -1,0 +1,4 @@
+2008-06-30T12:28:00.000Z	lainy		Hello, can someone help me setup my wireless connection? I'm using a Broadcom b43 driver and I just installed ndiswrapper. I'm not sure what to do now.
+2008-06-30T12:29:00.000Z	OddishB	lainy	sudo rmmod bcm43xx && sudo rmmod ndiswrapper && sudo modprobe ndiswrapper
+2008-06-30T12:29:00.000Z	OddishB	lainy	That ought to be all if ndiswrapper is set up properly.
+2008-06-30T12:30:00.000Z	lainy	OddishB	Jester45: thanks i'll give those a try

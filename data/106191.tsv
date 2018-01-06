@@ -1,0 +1,4 @@
+2008-05-03T00:54:00.000Z	Teastro		on xubuntu 8.04, i have to install wireless dlink g132 for internet...i have downloaded ndiswrappers, installed,but when i install neta5agu driver: sudo ndiswrapper -i /Desktop/Driver/netA5AGU.inf
+2008-05-03T00:55:00.000Z	Teastro		couldn't open /desktop/driver/netA5AGU.inf: no such file or directory at /usr/sbin/ndiswrapper-1.9 line 181.
+2008-05-03T00:55:00.000Z	Teastro		someone can help me?
+2008-05-03T00:56:00.000Z	Lynet	Teastro	Sounds like the driver files are not in the place that ndiswrapper is expecting them to be.

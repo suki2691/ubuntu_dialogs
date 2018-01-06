@@ -1,0 +1,4 @@
+2011-06-24T06:29:00.000Z	bthornton		Running ubuntu 11.04/gnome classic... my windows don't have title bars and I can't move/resize them. I know compiz is still running b/c I can change workspaces... how do I get my window titles back?
+2011-06-24T06:30:00.000Z	cablop	bthornton	run in a console `compiz-decorator --replace &`
+2011-06-24T06:31:00.000Z	cablop	bthornton	then use the compiz config manager to change the default value of the now-tied-to-uniti gtk-window-decorator for the line i provided you
+2011-06-24T06:33:00.000Z	cablop	bthornton	anyone who tried to run 11.04 without unity regreted

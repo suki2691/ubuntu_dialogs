@@ -1,0 +1,4 @@
+2008-08-21T16:16:00.000Z	Totakeke		Can someone help me? I'm trying to install Hardy Heron to a flash drive with Live USB, but it says it can't format the disk, /dev/sdd1
+2008-08-21T16:17:00.000Z	wols_	Totakeke	sudo fdisk -l
+2008-08-21T16:21:00.000Z	wols_	Totakeke	one way is dd if=/dev/zero of=/dev/<flash device> bs=512 count=1
+2008-08-21T16:29:00.000Z	wols_	Totakeke	I asked you something

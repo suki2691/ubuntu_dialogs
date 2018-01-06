@@ -1,0 +1,4 @@
+2006-04-23T07:59:00.000Z	cquillen		can anyone tell me how to make tty1 load on start up instead of Xwindows?
+2006-04-23T08:00:00.000Z	cge	cquillen	Turn off gdm/kdm startup
+2006-04-23T08:00:00.000Z	cge	cquillen	with update-rc.d
+2006-04-23T08:03:00.000Z	cge	cquillen	Oh, you want X to start, but have tty1 open?

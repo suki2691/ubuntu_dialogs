@@ -1,0 +1,4 @@
+2009-12-25T17:21:00.000Z	muzy		Hello everyone, i have some troubles..I deleted /var/cache/apt/ and now apt does not work anymore (even aptitude does not work) how to fix this issue
+2009-12-25T17:22:00.000Z	dnivra	muzy	did you delete the folder /var/cache/apt or it's contents?
+2009-12-25T17:22:00.000Z	muzy	dnivra	both
+2009-12-25T17:23:00.000Z	dnivra	muzy	i'm not sure but just create a new /var/cache/apt folder. then open synaptic and click "Reload" on the top left corner. should work.

@@ -1,0 +1,4 @@
+2009-09-15T01:24:00.000Z	zvacet		bro :  kdesudo kate/path /to/file
+2009-09-15T01:25:00.000Z	bro	zvacet	sebsebseb, only kdesu seems to work on 6.06, but for some reason it won't get to my sda6 partition, even if i can browse it in file manager
+2009-09-15T01:28:00.000Z	bro	zvacet	it's blank, doesn't exist. i think, because i'm on live cd, i have to give the whole path /media/... but it doesn't get into my sda6 partition enev if it's already mounted
+2009-09-15T01:37:00.000Z	bro	zvacet	sebsebseb, i solved it. i mounted the partition on /linux, so the path was actually /linux/boot/grub/menu.lst. omg, i'm so happy right now....

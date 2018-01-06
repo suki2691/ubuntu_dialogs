@@ -1,0 +1,4 @@
+2009-09-13T04:45:00.000Z	moymoy		hey, does anyone know if the rc.local file runs before or after the init.d scripts?
+2009-09-13T04:45:00.000Z	kitche	moymoy	umm has to be run afterwards since it is a init.d script as well but it's teh last one to be run
+2009-09-13T04:49:00.000Z	moymoy	kitche	thanks for that info, but why is it that the command i put into /etc/rc.local to change the default cpu scaling governor not work? it's always on ondemand .. and i have to re-execute it after boot `sudo /etc/rc.local`
+2009-09-13T04:51:00.000Z	kitche	moymoy	think that can be changed using /etc/sysctl.conf nto sure though sicne I don't use linux that much anymore

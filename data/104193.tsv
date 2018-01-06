@@ -1,0 +1,4 @@
+2011-05-26T23:26:00.000Z	iskin		What is the setting to make bash auto complete commands again? Like if I wanted to 'apt-get install <package>' and I started to type 'blue' and hit tab I could see all packages that start with 'blue'?
+2011-05-26T23:27:00.000Z	iskin		Hm, bash-completion is already installed but it's not working.
+2011-05-26T23:28:00.000Z	ActionParsnip	iskin	in ~/.bashrc   you probably have the bash complete bit commented. Uncomment it, save the new file and run:  source ~/.bashrc
+2011-05-26T23:28:00.000Z	ActionParsnip	iskin	its at the bottom of the file if memory serves

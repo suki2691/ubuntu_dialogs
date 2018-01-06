@@ -1,0 +1,4 @@
+2010-08-27T04:17:00.000Z	neil_d		I am trying to use rdesktop to connect to a local server, I have xrdp installed on the server, but when I try to log in I get "connecting to 127.0.0.1 5910" "error - problem connecting" :(    this looks like a VNC port number.  what is wrong?
+2010-08-27T04:17:00.000Z	Te3-BloodyIron	neil_d	have you tried forcing 3389?
+2010-08-27T04:18:00.000Z	neil_d	Te3-BloodyIron	what do you mean?   I am using the command "rdesktop <host>" on the remote.
+2010-08-27T04:19:00.000Z	Te3-BloodyIron	neil_d	try rdestop host:3389

@@ -1,0 +1,4 @@
+2009-04-20T15:57:00.000Z	slim|		i can only use my headphones no sound from speakers
+2009-04-20T15:57:00.000Z	slim|		why ??????
+2009-04-20T15:58:00.000Z	Yetr2	slim|	there are different volume controls for your sound card. when you look at the gui volume control, you are probably only looking at a small selection of the volume mixers available.
+2009-04-20T15:59:00.000Z	Yetr2	slim|	you could try using `alsamixer` from command line which displays all by default, or you can change the settings on your gui volume settings app via properties

@@ -1,0 +1,4 @@
+2005-10-21T07:38:00.000Z	newbie_at_linux		I am getting an error when I try to run configure. I installed build-essential. I get these errors: checking for main in -lopenal... no
+2005-10-21T07:38:00.000Z	newbie_at_linux		checking for main in -lopenal32... no    checking for main in -lalut... no    checking OpenAL... no    configure: error: OpenAL is currently mandatory
+2005-10-21T07:38:00.000Z	cafuego_	newbie_at_linux	What are you compiling?
+2005-10-21T07:40:00.000Z	cafuego_	newbie_at_linux	Ok. You will need 'checkinstall'. See http://wiki.ubuntu.com/CheckInstall and the openal-dev package.

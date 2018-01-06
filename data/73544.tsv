@@ -1,0 +1,4 @@
+2012-09-15T02:49:00.000Z	|Anthony|		just want to know the command and syntax for launching a greeter. lightdm is a daemon iirc so it should be able to launch sessions at any time
+2012-09-15T02:51:00.000Z	pepee	|Anthony|	or log into the remote session over ssh and run some command
+2012-09-15T03:00:00.000Z	pepee	|Anthony|	you can try DISPLAY=:0    DISPLAY=:1 ... etc
+2012-09-15T03:03:00.000Z	pepee	|Anthony|	you can use kdm, xdm, gdm, ...

@@ -1,0 +1,4 @@
+2008-11-17T19:12:00.000Z	sledgeas		hello
+2008-11-17T19:12:00.000Z	sledgeas		I have instructions how to connect to my workplace VPN through windows network connections (asks for company namy->ip->user/pass). how do i connect to it through my linux? i edit /etc/openvpn/default.conf but i dont know group_id etc.. and it does not connect
+2008-11-17T19:13:00.000Z	soundray	sledgeas	have a look at the relevant network-manager packages (apt-cache search network manager vpn)
+2008-11-17T19:14:00.000Z	soundray	sledgeas	install the one that fits your need. Then you can configure it through a right-click on nm-applet

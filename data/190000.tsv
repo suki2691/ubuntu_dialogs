@@ -1,0 +1,4 @@
+2006-06-11T14:46:00.000Z	CompuCh|p		Hi
+2006-06-11T14:46:00.000Z	CompuCh|p		Forgot to identify :)
+2006-06-11T14:47:00.000Z	CompuCh|p		I had this question: I set up Postfix/Procmail so local users can send mail and it gets delivered correctly. But now I would like a program (fetchmail?) to fetch mail from my external catch-all POP-account and have it delivered to postfix to sort it out to the local users. Any idea how to do this?
+2006-06-11T14:48:00.000Z	Ohzie	CompuCh|p	Check the man for postfix and procmail and see if you can define files to send or whatever, and then see if you can tell it to use the stuff that fetchmail fetches?

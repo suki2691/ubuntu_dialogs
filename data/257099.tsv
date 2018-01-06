@@ -1,0 +1,4 @@
+2007-08-13T11:38:00.000Z	marti149		how do you get a list of all packages installed
+2007-08-13T11:38:00.000Z	marti149		to copy over to a new workstation
+2007-08-13T11:40:00.000Z	Falstius	marti149	I use dpkg -l | grep '^ii' | awk '{print $2}' > installed     but I think there are simpler ways
+2007-08-13T11:41:00.000Z	Falstius	marti149	what you really want though is a list of packages that were directly installed (instead of ones that were installed for dependencies)

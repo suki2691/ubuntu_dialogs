@@ -1,0 +1,4 @@
+2010-09-21T01:23:00.000Z	Dulak		Guest37232: aptitude does the best job of resolving dependencies of all the package tools, in my experience, please define 'sucky'
+2010-09-21T01:24:00.000Z	Guest75482	Dulak	sucky == no multithreading, still better for dependencies than cupt :)
+2010-09-21T01:28:00.000Z	Guest75482	Dulak	for example, you could be installing package A while downloading package B if A does not depends on anything you dont have already
+2010-09-21T01:28:00.000Z	Guest75482	Dulak	aptitude will first download (one file at a time) , then install (in a correct order) one package at a time

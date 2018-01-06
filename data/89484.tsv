@@ -1,0 +1,4 @@
+2009-05-28T00:40:00.000Z	iwo		hey, anyone know how i can get my local dns entries to be recognised by ubuntu 9.04?
+2009-05-28T00:40:00.000Z	iwo		i have a linksys nslu2 that has the dns name 'slug'... on my new ubuntu though, i can't use this hostname (only the ip works)
+2009-05-28T00:41:00.000Z	iwo		to be honest, i'm not quite sure how the dns entry is being created though :D
+2009-05-28T00:41:00.000Z	jpds	iwo	In /etc/hosts add a new line with: 192.168.1.X slug

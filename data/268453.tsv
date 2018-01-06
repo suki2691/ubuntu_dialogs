@@ -1,0 +1,4 @@
+2005-01-27T16:36:00.000Z	myster0n		little help? due to an extra ide controller, my boot drive is not the first disk, but the fifth disk, but the ubuntu installer insists on installing grub on the first disk, and when I reboot after that ... nothing. Can this be configured during boot?
+2005-01-27T16:36:00.000Z	myster0n		plz?
+2005-01-27T16:37:00.000Z	HrdwrBoB	myster0n	yes
+2005-01-27T16:40:00.000Z	HrdwrBoB	myster0n	you can use grub-install /dev/hdd (or whatever)

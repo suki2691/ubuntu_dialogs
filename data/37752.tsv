@@ -1,0 +1,4 @@
+2011-04-08T09:25:00.000Z	ohsix	stercor	do you need it to be in fstab? are you using a filesystem on it that doesn't support posix permissions?
+2011-04-08T09:26:00.000Z	stercor	ohsix	I'd like it to be in fstab so that it mounts when I plug it in.  After some research, it seems that the gid prevents chmod, chown files on the flash drive.
+2011-04-08T09:28:00.000Z	stercor	ohsix	gid=0 won't let me do anything about ownership or permissions.
+2011-04-08T09:29:00.000Z	ohsix	stercor	it should mount when you plug it in already, udisks/gio/nautilus handle that; gid doesn't prevent those things from happening, filesystems that don't support posix permissions have mount overrides to assign a static owner; and that's what gid does

@@ -1,0 +1,4 @@
+2011-10-18T08:56:00.000Z	vino		ATI's graphics drivers are crashing. Is there any alternative I can use?
+2011-10-18T08:56:00.000Z	arghx	vino	depends on your videocard. there is the radeon driver
+2011-10-18T08:57:00.000Z	arghx	vino	deinstall. then yes (at least if it's not buggy). you can test via glxinfo |grep renderer
+2011-10-18T09:15:00.000Z	arghx	vino	mesa support opengl 1.4 for a long time. I gave you a glxinfo command. what does it say when using mesa?

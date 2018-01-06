@@ -1,0 +1,4 @@
+2011-10-23T15:15:00.000Z	Houssem		can't login  using ubuntu after an upgrade to 11.10 : saned disabled edit /etc/default/saned ... and checking battery statut !  I tried to reinstall ati driver from the recovery but always I'm getting the same problem
+2011-10-23T15:16:00.000Z	dc5ala	Houssem	do you get a graphical login at least?
+2011-10-23T15:26:00.000Z	Houssem	dc5ala	: no I don't ! it's blocked before the graphical login
+2011-10-23T15:28:00.000Z	dc5ala	Houssem	have a look at /var/run, and /var/lock, they are now symlinks to /run and /run/lock

@@ -1,0 +1,4 @@
+2005-09-29T16:12:00.000Z	dePOLL	Jowi	exactly. i'd think twice before i remove this meta package just to have one app less on my hdd but maybe hamper future (dist-)upgrades
+2005-09-29T16:13:00.000Z	Jowi	dePOLL	is it possible to remove a package without removing the "meta-package" as well?
+2005-09-29T16:14:00.000Z	dePOLL	Jowi	I guess --force-depends would do exactly that
+2005-09-29T16:14:00.000Z	dePOLL	Jowi	however your package database is inconsistent then. so creating a dummy package might be a good idea

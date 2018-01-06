@@ -1,0 +1,4 @@
+2011-04-04T01:22:00.000Z	novitololo		say I have two disks in ReiserFS.  And I create a raid.  Can I change its filesystem to ext4 right?
+2011-04-04T01:22:00.000Z	novitololo		*raid 0
+2011-04-04T01:22:00.000Z	wonderworld	novitololo	you could reformat the mounted raid as ext4
+2011-04-04T01:25:00.000Z	wonderworld	novitololo	raid drives must be partitioned with a "Linux Raid" partition anyway. when mounted, you get a logical drive which can be formated any way you like

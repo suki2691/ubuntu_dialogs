@@ -1,0 +1,4 @@
+2009-08-11T11:33:00.000Z	crushyboi		i have multiple ip's on my server which i added using network script, now what i want is, whenever a users request sometihng from server using server ip for example 192.168.1.2 on port 6000 then the data should be returned from the same ip rather than tha main ip of server. is it possible anyway?
+2009-08-11T11:35:00.000Z	crushyboi		i have multiple ip's on my server which i added using network script, now what i want is, whenever a users request sometihng from server using server ip for example 192.168.1.2 on port 6000 then the data should be returned from the same ip rather than tha main ip of server. is it possible anyway?
+2009-08-11T11:35:00.000Z	grawity	crushyboi	Isn't that how it always works?
+2009-08-11T11:36:00.000Z	crushyboi	grawity	no, the service which i bind to an ip like 192.168.1.2 on port 6000 if i connect to it and check packets, packet comes from server ip like 192.168.1.1 rather than 192.168.1.2

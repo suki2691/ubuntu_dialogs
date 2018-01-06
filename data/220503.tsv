@@ -1,0 +1,4 @@
+2007-10-22T23:32:00.000Z	Oggu		I fucked my mysql installation by not setting any password. Then I deleted all conf files and removed mysql-server and mysql-server-5.0 packages. Now I cant install. What to do?
+2007-10-22T23:33:00.000Z	Oggu		I screwed my mysql installation by not setting any password. Then I deleted all conf files and removed mysql-server and mysql-server-5.0 packages. Now I cant install. What to do?
+2007-10-22T23:33:00.000Z	Flannel	Oggu	don't remove the files manually, remove the packages with --purge (or 'complete removal' in synaptic) then youll be abel to reinstall
+2007-10-22T23:33:00.000Z	Flannel	Oggu	or rather, then your package installs will also install the config files again

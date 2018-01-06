@@ -1,0 +1,4 @@
+2009-11-07T20:47:00.000Z	Guest90782		im having an issue mounting a windows share in 9.10. i've tried mounting as a cifs file system and a smbfs and both come back saying wrong fs type
+2009-11-07T20:48:00.000Z	grawity	Guest90782	Do you have samba installed? Does /sbin/mount.cifs exist?
+2009-11-07T20:50:00.000Z	grawity	Guest90782	Then install it. Also, window managers don't use smb/cifs/samba, they don't access any files.
+2009-11-07T20:53:00.000Z	grawity	Guest90782	Dolphin probably uses its own SMB/CIFS implementation... kio something.

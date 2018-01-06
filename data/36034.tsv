@@ -1,0 +1,4 @@
+2010-03-09T18:37:00.000Z	huntsville		Quick question re: Ubuntu Server 9.04, "apt-get upgrade" shows several packages being held back including kernel.  I'm assuming apt-get has a configuration file somewhere where its holding these files back.  Any idea where??
+2010-03-09T18:38:00.000Z	theadmin	huntsville	somewhere in /etc/apt/preferences.d
+2010-03-09T18:39:00.000Z	huntsville	theadmin	there is no preferences.d directory by default on 9.04 :)
+2010-03-09T18:39:00.000Z	theadmin	huntsville	Ah, sorry, i'm on Karmic

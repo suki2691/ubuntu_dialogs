@@ -1,0 +1,4 @@
+2007-04-21T11:11:00.000Z	darwin		I recently switched to dvorak but the gnome login is still using the qwerty layout
+2007-04-21T11:11:00.000Z	soundray	darwin	you'd have to run 'sudo dpkg-reconfigure xserver-xorg' to have dvorak in gdm, too.
+2007-04-21T11:12:00.000Z	soundray	darwin	I mean, run this and configure the keyboard appropriately
+2007-04-21T11:13:00.000Z	soundray	darwin	for layout, enter us and for XkbVariant enter dvorak

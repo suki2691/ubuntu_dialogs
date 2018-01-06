@@ -1,0 +1,4 @@
+2009-05-10T05:45:00.000Z	thadoood		is any one familiar with installing ardour 2.8 on ubuntu studio , i tryed to install the deb package with package installer and i get an error in the installer saying "Error:dependency is not satisfiable: libasound2" i have libasound2 installed
+2009-05-10T05:46:00.000Z	thadoood		what could be the problem
+2009-05-10T05:46:00.000Z	slestak	thadoood	maybe you need the -dev packages?
+2009-05-10T05:51:00.000Z	slestak	thadoood	i dunno man.  maybe purge the existing libqasound and reinstall?  is your deb lookingfor a newer libasound than your release offers?

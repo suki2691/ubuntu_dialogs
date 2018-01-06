@@ -1,0 +1,4 @@
+2008-12-07T02:24:00.000Z	w3rd__		anybody install eggdrop on ubuntu?
+2008-12-07T02:26:00.000Z	w3rd__		i getting an error when i try and run the make command for installing eggdrop, error while loading shared libraries : libtcl8.4 .... i have edited /etc/ld.so.conf to include /usr/local/lib but from some reason the application is still not seeing this in its lib directory?
+2008-12-07T02:27:00.000Z	sheep	w3rd__	I think you need to install the tcl8.4 package
+2008-12-07T02:27:00.000Z	w3rd__	sheep	i just did

@@ -1,0 +1,4 @@
+2006-10-17T14:47:00.000Z	Zerb_Riss		hmm why would going to my site by IP work but going by it's URL not work?
+2006-10-17T14:47:00.000Z	AWOSDev	Zerb_Riss	that's a DNS problem.
+2006-10-17T14:48:00.000Z	Zerb_Riss	AWOSDev	where would the DNS problem be, though? I pinged the site on my off-site machine and it gets back the right IP address but the browser will not bring it up
+2006-10-17T14:50:00.000Z	AWOSDev	Zerb_Riss	if you can ping it with the domain name but not bring up the Web site I suggest talking to #apache as it would be their problem.  You may not have the HostName set up correctly.

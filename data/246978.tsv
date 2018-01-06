@@ -1,0 +1,4 @@
+2005-03-18T10:26:00.000Z	coroner		is it possible to copy a / partition from one hdd to another and be used on the exact same system. for instance from a smaller hdd to a bigger one and keep the configuration ?
+2005-03-18T10:27:00.000Z	hawke_	coroner	Yes
+2005-03-18T10:28:00.000Z	hawke_	coroner	you might have to rerun lilo or grub-install
+2005-03-18T10:28:00.000Z	hawke_	coroner	and if you don't change where the drive is connected, change /etc fstab and /boot/grub/menu.lst

@@ -1,0 +1,4 @@
+2007-08-09T06:07:00.000Z	topfunky		I'm trying to downgrade to php 5.1 from 5.2. Can I do that with apt-get?
+2007-08-09T06:08:00.000Z	Xoris	topfunky	sudo apt-get install packagename=versionnumber - if the package is available either in the repositories or in your cache.
+2007-08-09T06:08:00.000Z	topfunky	Xoris	thanks!
+2007-08-09T06:08:00.000Z	Xoris	topfunky	next time you update, though, it'll revert to the newer version... if you don't want that, you'll have to use some trickery

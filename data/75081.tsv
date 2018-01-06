@@ -1,0 +1,4 @@
+2008-12-15T03:45:00.000Z	TJ-42		when Ubuntu is starting up, it shows a progress bar.  How do I make that disappear so that I can see the progress?
+2008-12-15T03:46:00.000Z	TJ-42		see the text itself, I mean
+2008-12-15T03:46:00.000Z	zsquareplusc	TJ-42	remove "splash" and "quiet" in the boot menu. if you need that just once, press "e" in the grub menu
+2008-12-15T03:48:00.000Z	zsquareplusc	TJ-42	if there is no "spash" write instead, "nosplash"

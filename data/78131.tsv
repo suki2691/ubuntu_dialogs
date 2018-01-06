@@ -1,0 +1,4 @@
+2008-10-03T13:18:00.000Z	jxander		does gnome-volume-manager have a configuration gui?
+2008-10-03T13:18:00.000Z	jim_p	jxander	i think not, its all in gconf-editor :(
+2008-10-03T13:20:00.000Z	jxander	jim_p	thanks... is there a way to set gnome-volume-manager to mount at boot and leave a certain ntfs partition mounted for like ever? :)
+2008-10-03T13:20:00.000Z	jim_p	jxander	use fstab for this, its the noauto option

@@ -1,0 +1,4 @@
+2008-12-08T21:01:00.000Z	jackd		hi. i have a little question about reverse ssh tunnel. the tunnel it self works very nice. but i want that the tunnel destination is not restricted to localhost. instead it should be accessable to all host in my local network. does someone know how to realize it?
+2008-12-08T21:03:00.000Z	zsquareplusc	jackd	see -g option, however that may be insecure if your network has untrusted users
+2008-12-08T21:03:00.000Z	jackd	zsquareplusc	testing right now. thank you very much
+2008-12-08T21:31:00.000Z	jackd	zsquareplusc	i fixed it. if you have the same problem like me one day, you should append in your /etc/ssh/sshd_config "GatewayPorts yes" :)

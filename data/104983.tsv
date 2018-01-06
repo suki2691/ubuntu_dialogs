@@ -1,0 +1,4 @@
+2010-12-20T08:27:00.000Z	killakowala		how can i use ubuntu server in a virtual machine? i just installed it in one, but when I go to http://localhost/ (not in the virtual machine) i dont get a website from it
+2010-12-20T08:28:00.000Z	ActionParsnip	killakowala	if you arent in the virtual machine, then localhost won't work
+2010-12-20T08:29:00.000Z	ActionParsnip	killakowala	if you set the network interface to be bridged, it will appear as a system on your network and can be accessed by its own IP
+2010-12-20T08:34:00.000Z	ActionParsnip	killakowala	in the virtualbox, you will see the IP of the virtual system in your routers dhcp client list, also in ifconfig in the system itself

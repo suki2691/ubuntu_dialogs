@@ -1,0 +1,4 @@
+2012-01-17T12:35:00.000Z	virtuaposta		I have centralised authentication via openldap, is there any way so that I can tell squid to consult with openldap groups and if the user exists in group then apply some conditions?
+2012-01-17T12:37:00.000Z	metaspike	virtuaposta	http://www.openldap.org/doc/admin24/access-control.html ?
+2012-01-31T18:39:00.000Z	metaspike	virtuaposta	they are on different subnets? maybe you could add the desired host to /etc/hosts or forward that ip with the router somehow
+2012-01-31T18:40:00.000Z	virtuaposta	metaspike	no i cant forward 22 port to all the machines in the network

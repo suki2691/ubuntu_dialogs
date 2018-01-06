@@ -1,0 +1,4 @@
+2009-04-02T22:31:00.000Z	l337ingDisorder		Hey can anyone help with an FTP question? In a web browser I can load ftp://user:pass@host to have it connect without prompting for login info... I'd like to do the same with the command-line client, so I can just create a bash script to immediately drop me into a specific FTP account connection. Does anyone know how to do that on the command line?
+2009-04-02T22:33:00.000Z	hbekel	l337ingDisorder	ncftp supports ftp:// url like that
+2009-04-02T22:34:00.000Z	l337ingDisorder	hbekel	thanks I'll look into it
+2009-04-02T22:36:00.000Z	hbekel	l337ingDisorder	sorry, not quite, but it has commandline options for user/pwd

@@ -1,0 +1,4 @@
+2012-10-02T01:25:00.000Z	timtimtim		Hey, I'm trying to install syslinux from an arch partition I've chrooted into, however, when I run the command syslinux-install_update -iam, I get the error that It cannot find /proc/self/mountinfo \n Are you running a kernel greater than 2.6.24? The answer is yes, but that has not stopped installing and updating syslinux before
+2012-10-02T01:27:00.000Z	timtimtim		The config file is in the boot folder of my Arch partition, and I believe it is being installed to the mbr
+2012-10-02T01:29:00.000Z	timtimtim		Because grub2 has been hell to configure, can't seem to find my other partitions, and personal preference
+2012-10-02T01:30:00.000Z	wilee-nilee	timtimtim	With some other OS's present they need to be mounted when you run a update-grub fedora 17 is one and I believe arch as well.

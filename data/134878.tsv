@@ -1,0 +1,4 @@
+2010-10-08T10:50:00.000Z	kwtm	simplexio	aha! i now identify you as the person most liklely to help me with my networking problem
+2010-10-08T10:51:00.000Z	kwtm	simplexio	what is the most likely software on lucid that will kep cutting off my ethernet connection a few minutes after successfully connect manually via sudo dhclient?
+2010-10-08T10:53:00.000Z	simplexio	kwtm	my best quess is networkmanager witch tries to reconfigure interface
+2010-10-08T10:54:00.000Z	simplexio	kwtm	also dmesg and cat /var/log/messages syslog etc may give some useful info

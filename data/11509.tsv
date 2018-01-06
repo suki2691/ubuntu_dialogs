@@ -1,0 +1,4 @@
+2011-11-16T07:52:00.000Z	elz89		I have just added a PPA, however I added the wrong distro version name and I have already run an update. What would be the proper way to remove this mistake and anything that might have been downloaded that is not required?
+2011-11-16T07:53:00.000Z	xangua	elz89	go to software center, edit, sources
+2011-11-16T07:54:00.000Z	xangua		remove it from there
+2011-11-16T07:55:00.000Z	elz89	xangua	would that not just been the same as removing the 'deb *' line in '/etc/apt/sources.list' ?

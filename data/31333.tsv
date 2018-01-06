@@ -1,0 +1,4 @@
+2011-05-07T18:11:00.000Z	jaes		hi, i'm trying to mount an nfs share over an ipv6 scope link addresse, and I'm dramatically failing
+2011-05-07T18:11:00.000Z	jaes		do you know if the nfs client on natty handle ipv6 ? or is that my config which is wrong
+2011-05-07T18:12:00.000Z	penguin42	jaes	I don't honestly know, but I'd try using showmount -e and rpcinfo to see if you can see the server with an IPv6 address
+2011-05-07T18:14:00.000Z	jaes	penguin42	i'm gonna look this way, thanks for the pointers

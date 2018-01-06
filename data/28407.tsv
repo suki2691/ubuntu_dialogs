@@ -1,0 +1,4 @@
+2010-07-24T17:18:00.000Z	thruxton_		hello, is it possible to install a package with wildcards? `apt-get install banshee*` for example?
+2010-07-24T17:19:00.000Z	llutz	thruxton_	aptitude understands wildcards, " aptitude install ~nbanshee' "
+2010-07-24T17:19:00.000Z	thruxton_	llutz	ahh ok, ive never used aptitude! thanks I will give that a go
+2010-07-24T17:20:00.000Z	llutz	thruxton_	that '~nbanshee'   stands for "all packages with banshee in name-field (~n)"

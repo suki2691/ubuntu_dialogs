@@ -1,0 +1,4 @@
+2010-06-12T10:44:00.000Z	mmfb		What command can you use to locate a file through terminal?
+2010-06-12T10:45:00.000Z	mmfb		How do you know what to call the file when you input the command "locate file.run" ?
+2010-06-12T10:46:00.000Z	niku	mmfb	are you trying to find a specific file, or contents in a file?
+2010-06-12T10:48:00.000Z	niku	mmfb	Ok, I doubt that's the name of the actual file, but locate, or find, will match parts of a file name. I'd do something like "find / -name '*olfen*' 2>/dev/null"

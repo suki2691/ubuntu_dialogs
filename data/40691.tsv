@@ -1,0 +1,4 @@
+2009-12-18T23:14:00.000Z	nbaca		hello everybody... how do I mess with the default gdm settings when nobody is logged in? I would like my laptop to not hibernate when I close the lid at the login screen
+2009-12-18T23:15:00.000Z	Dr_Willis	nbaca	 its possible those settings may be controlled by settings in the 'gdm' users home  - at least some settings are tweakable by running th eproper config tools as the gdm user
+2009-12-18T23:16:00.000Z	nbaca	Dr_Willis	I tried running gconf-editor as gdm but there were no settings available... tried as root too but no change
+2009-12-18T23:17:00.000Z	Dr_Willis	nbaca	 it wouldent be as root. it would be as gdm.  Other then that. Not sure how else to tweak them.

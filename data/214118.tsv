@@ -1,0 +1,4 @@
+2005-10-21T11:42:00.000Z	don-o		whats the command to swich versions of gcc?
+2005-10-21T11:42:00.000Z	don-o		i want to make gcc-3.4 the default compiler instead of gcc-3
+2005-10-21T11:42:00.000Z	don-o		err instead of gcc-4
+2005-10-21T11:44:00.000Z	Blejdfist	don-o	if you are compiling something from source you could just do "CC=gcc-3.4 ./configure" and then "make CC=gcc-3.4" etc

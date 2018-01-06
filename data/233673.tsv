@@ -1,0 +1,4 @@
+2005-06-29T11:30:00.000Z	uc50ic4more		does anyone here know how I can batch encode several .wav files to FLAC? In windows, FLAC had several "front end" GUI's that made batch encoding a drag & drop affair... From the command line in Ubuntu, however, I cannot figure out how to batch anything; only one file at a time
+2005-06-29T11:32:00.000Z	mjr	uc50ic4more	for file in *.wav ; do flacenc -o "`basename $file .wav`.flac" $file ; done , or something along those lines
+2005-06-29T11:33:00.000Z	uc50ic4more	mjr	- thanks!
+2005-06-29T11:34:00.000Z	mjr	uc50ic4more	anyway, as for gui software, I remembered this: http://soundconverter.berlios.de/

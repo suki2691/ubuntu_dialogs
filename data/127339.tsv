@@ -1,0 +1,4 @@
+2007-07-22T16:57:00.000Z	Shoopuf		Why can't every program be packaged in a .DEB? If I plan on using Ubuntu should I start getting used to constantly having to compile things?
+2007-07-22T16:58:00.000Z	tetonca	Shoopuf	only compile when no .deb available.
+2007-07-22T16:59:00.000Z	tetonca	Shoopuf	a .deb is an 'ar' archive, 'ar x file.deb' extracts to a few files including the payload:  data.tar.gz.
+2007-07-23T14:19:00.000Z	tetonca	Shoopuf	dmesg and lspci might shed some light on that.

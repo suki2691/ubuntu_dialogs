@@ -1,0 +1,4 @@
+2007-02-03T12:06:00.000Z	taliesin_		I'm trying to install audio codecs for Totem from the add/remove apps menu but when I apply the changes this is the message I get:  E: dpkg was interrupted, you must manually run 'dpkg --configure -a' to correct the problem.  When I run dpkg in the terminal I get this message:  dpkg: requested operation requires superuser privilege  Could some one help me configure dpkg so I can install these audio and video codecs?
+2007-02-03T12:07:00.000Z	taliesin_		yes
+2007-02-03T12:07:00.000Z	cablesm102	taliesin_	you need to close add/remove apps, open a terminal, and run sudo dpkg --configure -a
+2007-02-03T12:22:00.000Z	taliesin_	cablesm102	idid every thing you said and it's just stuck on this process: Setting up gnome-netstatus-applet (2.12.0-5ubuntu7) ...

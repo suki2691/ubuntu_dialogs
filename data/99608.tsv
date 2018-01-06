@@ -1,0 +1,4 @@
+2008-02-21T20:38:00.000Z	nDuff		initrd ordering in hardy is broken -- lvm is in init-premount, while dmraid is in local-top; consequently, LVM tries to come up before dmraid devices are available.
+2008-02-21T20:38:00.000Z	bazhang	nDuff	that would be better discussed in #ubuntu+1 ;]
+2008-02-21T20:38:00.000Z	nDuff		...there are some tickets basically marking the big picture (dmraid+lvm2) WONTFIX for a few releases -- but if I provide some patches to make it work, would they likely be accepted?
+2008-02-21T20:39:00.000Z	nDuff	bazhang	thanks for the pointer.

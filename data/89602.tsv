@@ -1,0 +1,4 @@
+2011-07-18T08:33:00.000Z	BryanWB		how can i disable multiple system services at once? i knew how to do this w/ sysv init scripts but no idea for upstart jobs
+2011-07-18T08:34:00.000Z	BryanWB		$ sudo update-rc.d -f service_name remove   # but how to do the same for upstart jobs?
+2011-07-18T08:35:00.000Z	rww	BryanWB	http://upstart.ubuntu.com/cookbook/#disabling-a-job-from-automatically-starting
+2011-07-18T08:36:00.000Z	BryanWB	rww	ouch that's pretty crude, tks

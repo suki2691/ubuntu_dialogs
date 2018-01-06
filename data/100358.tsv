@@ -1,0 +1,4 @@
+2009-08-27T17:50:00.000Z	Lord_Devi		sed question: "sed -i -e 's/ChangeThis/ToThisFoo' Bar.txt" is great for quickly searching and replacing within files, but what if "ChangeThis" occurs twice on the same line? Sed will only replace the first occurance on any given line, is there an easy way to make it replace all occurances found?
+2009-08-27T17:50:00.000Z	Dr_Willis	Lord_Devi	 i recall some sed faq/examples pages  mentioning that .. but  thats all i rember on teh topic. :()
+2009-08-27T17:56:00.000Z	Dr_Willis	Lord_Devi	 Hmm.. I use that all the time in vi. :)
+2009-08-27T17:57:00.000Z	Lord_Devi	Dr_Willis	I use s/foo/bar/ all the time in vi, but I've never bothered to figure out that global flag yet..

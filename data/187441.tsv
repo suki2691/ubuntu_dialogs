@@ -1,0 +1,4 @@
+2008-04-28T21:43:00.000Z	MrBill		I've just upgraded from Gutsy to Hardy via the update manager and am seeing what might be odd behaviour.... When I attempt to do anything with sudo from a terminal window I'm getting an error saying "unable to resolve host my-pc-name"
+2008-04-28T21:43:00.000Z	ikonia	MrBill	you need to map your hostname to a resolavable ip address in /etc/hosts
+2008-04-28T21:43:00.000Z	ikonia	MrBill	its a know bug
+2008-04-28T21:44:00.000Z	ikonia	MrBill	localhost would be fine

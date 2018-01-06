@@ -1,0 +1,4 @@
+2011-05-26T12:23:00.000Z	aar_on		Hi there, so my boot time is VERY long. Over three minutes! I have a paste of dmesg | less but I don't know what the problem is or how to fix it
+2011-05-26T12:23:00.000Z	aar_on		http://paste.ubuntu.com/613088/ for the log
+2011-05-26T12:23:00.000Z	popey	aar_on	almost certainly a disk check was running
+2011-05-26T12:24:00.000Z	popey	aar_on	see lines 711 and 712

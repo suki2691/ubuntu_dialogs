@@ -1,0 +1,4 @@
+2009-11-07T22:13:00.000Z	kux		I'm using Jaunty on a 20gb netbook. One of my partitions where I installed Jaunty only shows half the disk capacity that it actually has. How do I recover the rest???
+2009-11-07T22:15:00.000Z	duffydack	kux	sudo tune2fs -l /dev/sdaX | grep Reserved    (whatever your partition is)
+2009-11-07T22:15:00.000Z	duffydack	kux	what does it say is reserved
+2009-11-07T22:19:00.000Z	duffydack	kux	fdisk -l

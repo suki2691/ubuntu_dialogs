@@ -1,0 +1,4 @@
+2011-03-03T22:43:00.000Z	Rudi_C		I've installed openssh-server on my desktop pc and when I follow the steps on the ubuntu official docs where it says "sudo /etc/init.d/ssh restart" the pc says "command not found. pls could someone tell me where to find a good how to
+2011-03-03T22:45:00.000Z	Deveras	Rudi_C	cd /etc/init.d     ls -la         can you see the ssh command there?
+2011-03-03T22:46:00.000Z	Rudi_C	Deveras	I'll try that thanks
+2011-03-03T22:46:00.000Z	Deveras	Rudi_C	or ls -la /etc/init.d | grep ssh

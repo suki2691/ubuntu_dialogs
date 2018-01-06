@@ -1,0 +1,4 @@
+2009-10-16T19:48:00.000Z	acr0nym		hello, is it possible to split my current ubuntu partition in half without losing my distro/data
+2009-10-16T19:49:00.000Z	grawity	acr0nym	Yes, but you'll need to do that from a LiveCD (because you cannot edit partitions that are being used)
+2009-10-16T19:49:00.000Z	grawity	acr0nym	Also, resizing partitions is a little risky.
+2009-10-16T19:53:00.000Z	grawity	acr0nym	Resize the current /, create a new partition, move data from old /home to the new partition, edit the /etc/fstab apropriately. Note that using a single /home for two distros _may_ create some problems (if you use different versions of Firefox, for example) - but other than that, good.

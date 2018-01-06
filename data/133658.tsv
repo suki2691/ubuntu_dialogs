@@ -1,0 +1,4 @@
+2007-06-08T13:48:00.000Z	IRC		what can be the UMASK value for default executable permission
+2007-06-08T13:49:00.000Z	IRC		what can be the UMASK value for default executable permission?? anyone
+2007-06-08T13:50:00.000Z	yobrien	IRC	What do you  mean default executable permission?
+2007-06-08T13:52:00.000Z	yobrien	IRC	umask is a mask that is ANDed with the permissions a program tries to use so you cant set it to always have the x bit set

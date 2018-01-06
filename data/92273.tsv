@@ -1,0 +1,4 @@
+2009-02-01T13:21:00.000Z	Ketrel		Question, if I'm going to run a program from a terminal, say xcalc, and I want it to not output to the terminal, how would I do that?
+2009-02-01T13:21:00.000Z	Ketrel		xcalc >> /dev/null & didn't work
+2009-02-01T13:22:00.000Z	usser	Ketrel	xcalc > /dev/null &
+2009-02-01T13:22:00.000Z	Ketrel	usser	still outputs to terminal

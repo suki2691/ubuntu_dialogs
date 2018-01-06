@@ -1,0 +1,4 @@
+2010-10-13T03:28:00.000Z	Lantizia		anyone know of any basic utility (command line or graphical) that can play a loud (or any) noise when a ping fails? just something basic
+2010-10-13T03:29:00.000Z	ArtArfon	Lantizia	ping foo.org || echo beep
+2010-10-13T03:30:00.000Z	ArtArfon	Lantizia	ping foo.org || beep
+2010-10-13T03:30:00.000Z	ArtArfon	Lantizia	ping -c 1 foo.org || beep

@@ -1,0 +1,4 @@
+2007-11-25T08:54:00.000Z	ivx		hey i just set up a nfs server and i can mount it on a client but when i go to drag files over from my desktop they just dissapear from the desktop, and don't show up where i dragged them to. if i log off the client and back on the appear on my desktop again, does anyone know what is wrong
+2007-11-25T08:55:00.000Z	mssever	ivx	What happens when you move/copy them from the command line?
+2007-11-25T08:59:00.000Z	mssever	ivx	Dunno. I don't know if it's an issue with Nautilus (the file manager) or something at a lower level. You can use cp source/file destination to copy files from the command line and mv source dest to move or rename them
+2007-11-25T09:00:00.000Z	mssever	ivx	Without trying it from the command line, I don't know how to diagnose your problem

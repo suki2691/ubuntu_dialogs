@@ -1,0 +1,4 @@
+2010-03-15T18:54:00.000Z	pk__		my ip address 10.8.61.171 device eth0 netmask 255.255.255.0 gateway 10.8.61.11.......can someone give me an ifconfig command to do this??
+2010-03-15T18:55:00.000Z	ChosenOne	pk__	"ifconfig eth0 1.8.61.171 netmask 255.255.255.0 && route add default 10.8.61.11"
+2010-03-15T18:56:00.000Z	ChosenOne	pk__	my command is lacking a "gw" before the gateways-IP
+2010-03-15T18:56:00.000Z	ChosenOne	pk__	if you just want to set up temporarily, use my command. instead you will need a slightly different syntax in the interfaces-file

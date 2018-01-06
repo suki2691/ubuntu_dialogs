@@ -1,0 +1,4 @@
+2006-01-11T12:52:00.000Z	sorush21		how do I convert mp3's into wave files for writing on cd's
+2006-01-11T12:53:00.000Z	delire	sorush21	use audacity, or see if your burning software supports conversion.
+2006-01-11T13:08:00.000Z	delire	sorush21	try 'sox', or find some frontend.
+2006-01-11T13:12:00.000Z	delire	sorush21	come to think of it, with sox you could use a script like 'for i in $(ls /path/to/mp3s/); do sox $i $i.wav; done' make sure you're filenames don't have spaces though ;)

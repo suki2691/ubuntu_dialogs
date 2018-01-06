@@ -1,0 +1,4 @@
+2011-10-15T08:37:00.000Z	__machine		how do i make sure that dvbhdhomerun-utils service starts before tvheadend during boot?
+2011-10-15T08:38:00.000Z	qin	__machine	Upstart or cron?
+2011-10-15T08:39:00.000Z	__machine	qin	i enabled auto start with update-rc.d tvheadend defaults and update-rc.d dvbhdhomerun-utils defaults
+2011-10-15T08:42:00.000Z	qin	__machine	http://upstart.ubuntu.com/cookbook/#start-depends-on-another-service

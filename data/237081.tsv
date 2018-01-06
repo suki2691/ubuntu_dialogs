@@ -1,0 +1,4 @@
+2006-01-18T15:30:00.000Z	kestas		does anyone here know how I can delete all MS-DOS newlines from a file using a shell script? I know ^M is fine when you're in a console but I can't put ^M into a shell script
+2006-01-18T15:31:00.000Z	CarinArr	kestas	could tell you how to do it in vim.. not big on shell scripts tho;)
+2006-01-18T15:31:00.000Z	kestas	CarinArr	I'm hoping there's something line \n but for DOS newlines instead of UNIX ones
+2006-01-18T15:35:00.000Z	CarinArr	kestas	it's the same as vim.. ctrl+v then ctrl+m

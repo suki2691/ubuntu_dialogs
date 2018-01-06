@@ -1,0 +1,4 @@
+2010-10-21T03:15:00.000Z	ni1s	mulambo	add that line to /etc/modprobe.d/lirc.conf and reload the lirc module
+2010-10-21T03:15:00.000Z	mulambo		Ubuntu 9.10 -> I need this option for lirc_serial module: options lirc_serial irq=4 io=0x3f8 type=0 sense=1
+2010-10-21T03:19:00.000Z	mulambo	ni1s	it was /etc/modprobe.d/lirc-serial.conf , thanks for pointing me to right direction
+2010-10-21T03:19:00.000Z	ni1s	mulambo	np, also the name of the file in modprobe.d probably doesnt matter

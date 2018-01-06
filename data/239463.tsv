@@ -1,0 +1,4 @@
+2010-02-25T19:00:00.000Z	Guest28263		Is there any inherhit risk of doing a "chmod -R /var/www 0644" on my server? :S
+2010-02-25T19:01:00.000Z	Guest28263		chmod 0644 -R /var/www, sorry
+2010-02-25T19:02:00.000Z	Guest28263		not sure what +x does?
+2010-02-25T19:03:00.000Z	Kartagis	Guest28263	do a find /var/www -type d -print0 | xargs -0 chmod 0755 && find /var/www -type f -print0 | xargs -0 chmod 0644

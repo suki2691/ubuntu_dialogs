@@ -1,0 +1,4 @@
+2009-08-17T12:37:00.000Z	pepperphd		its really annoying when a program terminates using curses terminates with an unhandled exception. can i make python kill curses before doing this so it leaves me with a usable terminal?
+2009-08-17T12:38:00.000Z	Flannel	pepperphd	No, because what happens there is curses doesn't re-set the terminal to a "happy" state as far as echo/etc is concerned (so its usable by a human), killing it early still won't make it reset that, your best bet is to restart the program, close it and let it shutdown properly
+2009-08-18T08:38:00.000Z	Flannel	pepperphd	nikolaus: it's kdesu
+2009-08-18T08:42:00.000Z	pepperphd	Flannel	kdesudo worked for him. maybe kdesu has been replaced in kde 4.2 with kdesudo?

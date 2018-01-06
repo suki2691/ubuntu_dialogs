@@ -1,0 +1,4 @@
+2007-05-04T06:03:00.000Z	bmonkey		how do i exit the xserver to install nvidia drivers? crtl-alt-backspace just sends me to the gnome login screen?
+2007-05-04T06:03:00.000Z	preaction	bmonkey	ctrl+alt+f1; login, then "sudo /etc/init.d/?gm stop"
+2007-05-04T06:04:00.000Z	preaction	bmonkey	then when you're done, sudo /etc/init.d/gdm start
+2007-05-04T06:04:00.000Z	preaction	bmonkey	i mistyped, it should be /etc/init.d/?dm

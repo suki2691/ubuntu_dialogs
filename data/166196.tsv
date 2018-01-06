@@ -1,0 +1,4 @@
+2008-08-05T16:08:00.000Z	DukeDave		Hey team, my question: I'd like a command for apt/dpkg which when given a package will tell me all the files and their destinations, sound possible?
+2008-08-05T16:08:00.000Z	wols	DukeDave	dpkg -L <package>
+2008-08-05T16:08:00.000Z	wols	DukeDave	won't tell you config files
+2008-08-05T16:11:00.000Z	DukeDave	wols	Slart: Excellent, exactly what I needed,  thanks :D

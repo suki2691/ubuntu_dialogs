@@ -1,0 +1,4 @@
+2012-10-28T22:13:00.000Z	bondj		hi
+2012-10-28T22:13:00.000Z	bondj		i get the following problem: E:Encountered a section with no Package: header, E:Problem with MergeList /var/lib/apt/lists/de.archive.ubuntu.com_ubuntu_dists_precise-proposed_main_i18n_Translation-de, E:The package lists or status file could not be parsed or opened.
+2012-10-28T22:13:00.000Z	bondj		what can i do to fix this?
+2012-10-28T22:14:00.000Z	theadmin	bondj	run sudo apt-get clean followed by sudo apt-get update

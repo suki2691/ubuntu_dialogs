@@ -1,0 +1,4 @@
+2006-10-07T14:51:00.000Z	bsdfox		how can I disable firestarter/the firewall? I have it set to not load on boot but I always have to sudo /etc/init.d/firestarter stop   to get my internet working...
+2006-10-07T14:51:00.000Z	Samuli^	bsdfox	for one, you could remove it.
+2006-10-07T14:51:00.000Z	Samuli^		or just name the init.d/firestarter to _firestarter or something else.
+2006-10-07T14:58:00.000Z	bsdfox	Samuli^	it actually looks like iptables is a standard package.. it wants to remove ubuntu-standard

@@ -1,0 +1,4 @@
+2011-04-01T20:50:00.000Z	ruan	JeffJassky	one thing i do notice is that there is 0kb swap free
+2011-04-01T20:51:00.000Z	ruan	JeffJassky	i think the cause of this is out of memory
+2011-04-01T20:51:00.000Z	ruan	JeffJassky	kernel: [244918.862756] Out of memory: kill process 30421 (apache2) score 99154 or a child
+2011-04-01T20:52:00.000Z	ruan	JeffJassky	it attempted to kill apache, and then it crashed

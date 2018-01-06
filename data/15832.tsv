@@ -1,0 +1,4 @@
+2011-08-24T11:47:00.000Z	BarBlitz		yes, for f in *.ext;do f2="echo $f | sed \"s/_/ /g\"";mv -i "$f" "$f2";done
+2011-08-24T11:48:00.000Z	BarBlitz		erm, f2="`echo $f | sed \"s/_/ /g\"`"
+2011-08-24T11:48:00.000Z	BarBlitz		where is dhcpd.conf now ?
+2011-08-24T11:48:00.000Z	linuxrealm	BarBlitz	locate dhcpd.conf

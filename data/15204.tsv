@@ -1,0 +1,4 @@
+2011-10-28T22:48:00.000Z	Cong		What is the difference between AMD64 and i686?
+2011-10-28T22:49:00.000Z	escott	Cong	64bit vs 32bit processor types
+2011-10-28T22:52:00.000Z	escott	Cong	if "cat /proc/cpuinfo | grep flags | grep lm" prints out lines that begin with "flags " then it is a 64bit processor, and you might want to download the 64bit install disk
+2011-10-28T22:57:00.000Z	escott	Cong	yes. lm mode flag for the processors = 64bit

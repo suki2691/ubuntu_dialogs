@@ -1,0 +1,4 @@
+2007-08-04T14:37:00.000Z	jamiejcumbria		Any one help I am running a Internet cafe. Some of the children are using java games what are not written in the best way and use all cpu power slowing all everyone else down. Any one know how I can limit the resources given to java_vm permanently please rather than renice every time
+2007-08-04T14:38:00.000Z	howlingmadhowie	jamiejcumbria	that is a very interesting question. i'd try it by writing a script to replace the link in /usr/bin/java
+2007-08-04T14:41:00.000Z	jamiejcumbria	howlingmadhowie	Thanks I'll look in to that.
+2007-08-04T14:41:00.000Z	howlingmadhowie	jamiejcumbria	another possibility (though wasteful) would be to write a cronjob which checks for instances of the jvm once a minutes and then renices them.

@@ -1,0 +1,4 @@
+2006-11-16T12:56:00.000Z	nextstate		I am trying to install seamonkey, but whenever I runt ./seamonkey-installer I get the error './seamonkey-installer-bin: no such file or directory' and the file exists. I've never had this happen before. Any ideas?
+2006-11-16T12:56:00.000Z	nextstate		yes
+2006-11-16T12:58:00.000Z	wastrel	nextstate	 the installer is a sh script, you're in edgy, it needs bash
+2006-11-16T12:58:00.000Z	wastrel	nextstate	 fix the shebang line to point to bash instead of sh

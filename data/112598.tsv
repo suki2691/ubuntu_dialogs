@@ -1,0 +1,4 @@
+2008-02-04T19:09:00.000Z	dr_pressure		hey guys... i'm trying to write a bash script to rename all "front.jpg" files to "folder.jpg".... these files are in multiple sub-directories.... i've just about given up.. can anybody help me out?
+2008-02-04T19:10:00.000Z	jrib	dr_pressure	just use find with -exec
+2008-02-04T19:12:00.000Z	dr_pressure	jrib	okay this looks awesome... so exec will run the mv command from whatever directory find is currently in... is that right?
+2008-02-04T19:14:00.000Z	jrib	dr_pressure	find -name OLD -exec mv '{}' NEW \;      should recursively find all files named OLD in the current directory and execute 'mv old new' with appropriate paths.  (untested)

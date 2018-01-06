@@ -1,0 +1,4 @@
+2005-07-26T15:29:00.000Z	rking		so, i have an in-house apt repository, and all my hand-made packages get the "WARNING: The following packages cannot be authenticated!" warning - what tools do I need to use to eliminate this?
+2005-07-26T15:30:00.000Z	nalioth	rking	you need to sign the pkgs with a valid gpg key (that is available from a keyserver)
+2005-07-26T15:30:00.000Z	rking	nalioth	and that's it?  that's not too bad. =)
+2005-07-26T15:31:00.000Z	nalioth	rking	i'm sure it's more detailed, but in a nutshell, yes

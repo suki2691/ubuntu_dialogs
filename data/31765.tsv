@@ -1,0 +1,4 @@
+2012-09-25T17:49:00.000Z	jmtheron		Hello after a clean install of ubuntu server how do i get a ip  from the dhcp server(a different windows server)
+2012-09-25T17:50:00.000Z	jmtheron		tried dhclient eth0 but then when i do ifconfig there is no ip
+2012-09-25T17:50:00.000Z	jmtheron		...for  eth0
+2012-09-25T17:51:00.000Z	TJ-	jmtheron	check /var/log/syslog for clues as to whether dhclient is getting a DHCPOFFER

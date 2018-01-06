@@ -1,0 +1,4 @@
+2011-07-25T16:40:00.000Z	nudb2		I'm a sudoer on two servers and would like to compare the contents of every file in a direcotry /thisdirectory and subdirectories -- like an intensitve "diff".  I want to know if there is any difference in any of the files, or if there is a file that exists in one server but not the other.  Actually, one is an earlier snapshot made into a server, whereas the other continued... so, there should be absolutely no difference, I just want to make sure
+2011-07-25T16:40:00.000Z	nudb2		.  How would I do this?
+2011-07-25T16:42:00.000Z	Pici	nudb2	dirdiff might be applicable too
+2011-08-16T19:50:00.000Z	Pici	nudb2	There is no root password, the root account is locked.  Use sudo to do things as root. See https://help.ubuntu.com/community/RootSudo

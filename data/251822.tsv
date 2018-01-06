@@ -1,0 +1,4 @@
+2006-01-15T13:27:00.000Z	ubuntu		hello, i fubared my perfectly stable 5.10 installed with a dapper upgrade attempt. now i'm on a live dvd trying to access my previous home folder so i can recover my dcouments and do a clean reinstall, but it wont let me mount that partiona as file system 'linux' what am i supposed to use instead?
+2006-01-15T13:27:00.000Z	ubuntu		star: i THINK its in multiverse
+2006-01-15T13:27:00.000Z	shadowplay	ubuntu	it's either ext3 or reiserfs
+2006-01-15T13:27:00.000Z	shadowplay	ubuntu	mount -t ext3 /dev/hdx /mount

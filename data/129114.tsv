@@ -1,0 +1,4 @@
+2011-01-18T22:12:00.000Z	Guest55433		i am using ubuntu 10.10 but my boot menu comes with windows but i want 2 remove tat
+2011-01-18T22:12:00.000Z	Dr_Willis_	Guest55433	 you mean you wish to remove the windows entry on the GRUB menu listing?
+2011-01-18T22:14:00.000Z	Dr_Willis_	Guest55433	 the grub2 docs/guides detail the proper way to do it.  let me find the url.
+2011-01-18T22:15:00.000Z	Dr_Willis_	Guest55433	 basics -> 'sudo chmod -x /etc/grub.d/30_os-prober' then 'sudo update-grub' (i think)

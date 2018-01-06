@@ -1,0 +1,4 @@
+2012-09-30T13:31:00.000Z	decci		Need an AWK script that connects to an RS 232 device that will have to have a background thread constantly reading 2 com ports for data received and send them to 2 standard out files.I wanted to get this as done in awk because i know it works, has no dependency no rpm, no fiddle code script that works. I understand that awk is not multi thread and it does buffer, what i need is a real time simple port monitor that will deposit its out
+2012-09-30T13:31:00.000Z	nibbler	decci	what about two awk scripts? one for each port?
+2012-09-30T13:44:00.000Z	decci	nibbler	yes
+2012-09-30T13:45:00.000Z	decci	nibbler	what i need is a real time simple port monitor that will deposit its output to a standard out txt file. I want to run two instance of the script to monitor two ports since i need both feeds

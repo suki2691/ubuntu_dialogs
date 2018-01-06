@@ -1,0 +1,4 @@
+2012-04-14T18:49:00.000Z	L3top	pythonirc101	what happens if you type: echo > testfile         in a terminal?
+2012-04-14T18:59:00.000Z	pythonirc101	L3top	Read-only file system....It was fine a few days ago!
+2012-04-14T19:01:00.000Z	L3top	pythonirc101	boot to a live disk, and run fsck -f /dev/XXXX on the partition in question, as root. Do NOT mount the partition. Typically XXXX will be /dev/sda1  but use mount or df -T to be sure.
+2012-04-14T19:03:00.000Z	L3top	pythonirc101	 read llutz post, and execute that. Thanks llutz.

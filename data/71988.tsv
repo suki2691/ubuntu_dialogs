@@ -1,0 +1,4 @@
+2011-05-22T03:37:00.000Z	Stormx2		I'm trying to do data recovery on a corrupt ext3 partition. fsck complains of a bad superblock, but I know the file data is there (I can see it using foremost). Any tips on recovering a badly corrupted ext3 filesystem?
+2011-05-22T03:38:00.000Z	qin	Stormx2	make image first, try testdisk to recover partition, or photorec for data.
+2011-05-22T03:40:00.000Z	Stormx2	qin	done, but I'm not getting a great deal of useful output from carving (photorec/foremost/whatever)
+2011-05-22T03:40:00.000Z	qin	Stormx2	Did you try to mount it?

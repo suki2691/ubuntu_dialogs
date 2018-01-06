@@ -1,0 +1,4 @@
+2007-11-21T02:48:00.000Z	wefsw		ok, this is getting on my nerves, installed ubuntu, got my profile all setup nice, *sound works*, i added another user for my mom, mad the passwsord, logged out, logged in with her user/pass, and WHAM, no sound ,says no Gstreamers are avaible or something. i log out, and log in with my account, works perfect. wtf!?!? i even copied my entire /home directory to hers and changed ownership, everything changes, desktop settings,. etc but still no sound. why is i
+2007-11-21T02:48:00.000Z	wefsw		t doing this !?
+2007-11-21T02:50:00.000Z	wefsw		remove the user, whack the home dir, remove the line from /etc/passwd, and try it?
+2007-11-21T02:50:00.000Z	macd	wefsw	chances are she didnt get added to the proper groups, she should be in adm, dialout, cdrom, floppy, audio, dip, video, plugdev, scanner, lpadmin, admin, netdev, powerdev

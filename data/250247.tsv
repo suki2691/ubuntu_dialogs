@@ -1,0 +1,4 @@
+2005-10-23T06:56:00.000Z	Gabbo		how can i give me the rights to write ob a hdd? atm it has drwxr-xr-x
+2005-10-23T06:57:00.000Z	Gabbo		ists a partition on my second hdd (hdb5) and its formated with fat32
+2005-10-23T06:57:00.000Z	apokryphos	Gabbo	alter the umask in fstab
+2005-10-23T07:12:00.000Z	apokryphos	Gabbo	sudo mount -a

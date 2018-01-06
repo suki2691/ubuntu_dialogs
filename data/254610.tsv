@@ -1,0 +1,4 @@
+2005-07-05T10:46:00.000Z	stm_designer		how would one make a symbolic link in the plug in folder for mozilla to the java directory
+2005-07-05T10:47:00.000Z	stm_designer		I know ln -s actual-item-being-worked-on current but which is which
+2005-07-05T10:48:00.000Z	stm_designer		ok so linking java to mozilla plug in folder first name would be the java file and the second would be the plug in folder
+2005-07-05T10:49:00.000Z	tomchuk	stm_designer	ln -s /path/to/jre/plugin/i386/ns610-gcc32/libjavaplugin_oji.so /usr/lib/mozilla-firefox/plugins/libjavaplugin_oji.so

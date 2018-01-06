@@ -1,0 +1,4 @@
+2012-01-30T03:25:00.000Z	iarp		i'm trying to figure out how tbh, i can only ssh in via one account, so i'm trying to figure out how to launch in this one account but run as another
+2012-01-30T03:26:00.000Z	iarp		years ago i played in a ubuntu server box and had figured out there was a way to like, at a low level specify 'everything that goes in this folder is always xx group xx owner with ### permissions'
+2012-01-30T03:26:00.000Z	jrib	iarp	Access Control List
+2012-01-30T03:27:00.000Z	jrib	iarp	documentation-wise, you can read « man setfacl », « man getfacl », and « man mount » (you need to mount the partition with the "acl" option, so update your fstab)

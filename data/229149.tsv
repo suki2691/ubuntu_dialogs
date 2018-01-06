@@ -1,0 +1,4 @@
+2007-06-13T15:56:00.000Z	dts		I hosed my MySQL. Is there a way i can erase /var/lib/mysql and have the default files regenerated?
+2007-06-13T15:57:00.000Z	mwe	dts	to start over from scratch you could probably sudo aptidue purge mysql && sudo aptitude install mysql
+2007-06-13T15:58:00.000Z	mwe	dts	mysql-server, that is
+2007-07-01T16:49:00.000Z	mwe	dts	lsb_release -a

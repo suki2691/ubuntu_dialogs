@@ -1,0 +1,4 @@
+2006-12-28T11:00:00.000Z	gaten		is there anyway to unmount a budy ntfs volume w/o rebooting? ive tried umount -f, and -l won't do what I need it to do (unmount it now so i can use dd_rescue)
+2006-12-28T11:00:00.000Z	un_operateur	gaten	what's "budy NTFS"?
+2006-12-28T11:01:00.000Z	gaten	un_operateur	 woops. "busy"
+2006-12-28T11:01:00.000Z	un_operateur	gaten	ahh, you need to close all processes that have open files on that volume -- lsof | grep -i /volumename

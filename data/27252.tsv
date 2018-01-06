@@ -1,0 +1,4 @@
+2010-08-23T16:59:00.000Z	FastReading		My "locale" is configured to UTF-8. Concordingly, when I request output from a text file from the CLI (using cat, less, more, nano,...) it's interpreted as UTF-8. The problem arises when I want to "cat" an ISO-8859 txt file... it gets outputted as UTF-8 so many chars don't look okay. My question is: How can I get ISO-8859 files to be displayed as such from the CLI when my config is set to UTF-8?
+2010-08-23T17:01:00.000Z	magnetron	FastReading	try this: iconv --from-code=ISO-8859-1 --to-code=UTF-8 filename
+2010-08-23T17:02:00.000Z	FastReading	magnetron	I will try that ASAP
+2010-08-23T17:08:00.000Z	FastReading	magnetron	I have just tried iconv, it worked very well, thank you. So, if I am guessing correctly, the solution wouldn't be having two locales "active" at once, but converted all your files from ISO to UTF-8?

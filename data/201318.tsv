@@ -1,0 +1,4 @@
+2006-12-29T14:51:00.000Z	simonvc		Hi guys, i was wondering if you can help me with somthing. I want to create a minimal ubuntu to run under QEMU. Just console stuff, no X or anything, and i want to keep it under 800M. Is there an easy way to do this or what should i do?
+2006-12-29T14:52:00.000Z	Flannel	simonvc	get the alternate CD, install the "server" option, it'll install a minimal (GUI-less) installation
+2006-12-29T14:53:00.000Z	Flannel	simonvc	nope, I never checked.  The alternate iso is 700mb, so it can't be more than that (the CD includes the GUI and extra stuff on it).  If bandwidth is an issue, you can use the minimal iso, to just download the packages you'll ultimately need.
+2006-12-30T17:36:00.000Z	simonvc	Flannel	Hey thanks for your help before. The "command line install" was Exactly what i was looking for. 450Megs for the record.

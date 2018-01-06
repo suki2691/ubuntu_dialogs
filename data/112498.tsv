@@ -1,0 +1,4 @@
+2008-06-23T15:39:00.000Z	jegHegy		greetings. i would like to edit a text file on a remote ubuntu server using gedit on my local ubuntu. my remote user doesn't have write access to the file, but i have permissions to use sudo. how can i do this through gvfs?
+2008-06-23T15:40:00.000Z	dns53	jegHegy	ssh machine -X,   then sudo gedit
+2008-06-23T15:42:00.000Z	jegHegy	dns53	there's no X on the remote server. :(
+2008-06-23T15:42:00.000Z	jegHegy	dns53	thus no gedit

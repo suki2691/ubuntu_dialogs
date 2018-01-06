@@ -1,0 +1,4 @@
+2010-05-03T17:45:00.000Z	UnclaimedBaggage		Hi folks - just trying to get to grips with the linux terminal. Trying to open all php files in VIM that have text 'split(' inside them. Tried "grep -rsl 'split(' | grep .php | vim", but I get a "Vim: warning: input is not from a terminal" error. Any ideas?
+2010-05-03T17:45:00.000Z	penguin42	UnclaimedBaggage	That's not quite the right way to do it
+2010-05-03T17:46:00.000Z	penguin42	UnclaimedBaggage	Something like vim `grep .....`      and get the grep set up to just give the filenames
+2010-05-03T17:46:00.000Z	UnclaimedBaggage	penguin42	Cheers, will try. :-)

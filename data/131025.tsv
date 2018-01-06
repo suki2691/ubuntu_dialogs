@@ -1,0 +1,4 @@
+2008-01-13T02:47:00.000Z	Jowi	Konam	you set up default dhcp setting in /etc/dhcp3/dhclient.conf (DNS, IP etc), so if needed you can tailor it to your exact needs.
+2008-01-13T02:49:00.000Z	Konam	Jowi	I don't get you :/ can you explain it to me please
+2008-01-13T02:52:00.000Z	Jowi	Konam	/etc/dhcp3/dhclient.conf contain information on what to get from the dhcp server (your wifi router in this case). you can set your own name-servers instead of using the ones your router gives you. make a copy of the dhclient.conf file, then modify it to your needs (remove domain-name-servers request for example. read "man dhclient.conf" for a quite extensive list of options or just have a look at the file in question)
+2008-01-13T02:53:00.000Z	Jowi	Konam	I guess gnome has an app to set that up, but I don't have gnome installed atm.

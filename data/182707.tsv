@@ -1,0 +1,4 @@
+2007-05-30T06:24:00.000Z	aMMuNix		how do I delete a folder in /mnt/?
+2007-05-30T06:25:00.000Z	aMMuNix		thanks berent
+2007-05-30T06:25:00.000Z	AfterDeath	aMMuNix	sudo umount /mnt/folder_you_want_to_unmount; sudo rmdir /mnt/folder_you_want_to_unmount
+2007-05-30T06:25:00.000Z	AfterDeath	aMMuNix	rm -rf /mnt/* will remove *all* folders in /mnt

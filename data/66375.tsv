@@ -1,0 +1,4 @@
+2009-07-19T00:22:00.000Z	tzolkin		i have a problem, when i delete a folder from /opt, the space that this folder take does not return, what can i do?? is this a bug??
+2009-07-19T00:23:00.000Z	mzz	tzolkin	if the files you deleted are still opened by some process they won't actually be deleted until that process closes the file or exits
+2009-07-19T00:23:00.000Z	mzz	tzolkin	(I have a silly hack to check for that, but there's probably some sane command I don't know about to do that too)
+2009-07-19T00:24:00.000Z	mzz	tzolkin	that's a possibility, depending on what you deleted.

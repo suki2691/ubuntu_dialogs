@@ -1,0 +1,4 @@
+2009-10-17T14:02:00.000Z	Paulogram		Hey, I am trying to use the partitioner of ubuntu live CD to make place for a windows installation. What format should I use in gparted? XFS, JFS or ReiserFS ?
+2009-10-17T14:03:00.000Z	Dr_Willis	Paulogram	 none of those.. leave it unallocaated.. or vfat/ntfs for windows.
+2009-10-17T14:05:00.000Z	Paulogram	Dr_Willis	thereis no option vfat/ntfs, I am using 9.04 Live CD
+2009-10-17T14:06:00.000Z	Dr_Willis	Paulogram	 then leave it unallocated and let windoss format it.  - windows cant install to ext/xfs/whatever.. it has to format it to ntfs or fat.

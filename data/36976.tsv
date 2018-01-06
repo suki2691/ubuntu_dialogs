@@ -1,0 +1,4 @@
+2012-08-04T00:13:00.000Z	smokie		so i was thinking of adding a batch file that runs on startup to automatilcy add them
+2012-08-04T00:13:00.000Z	NewWorld	smokie	the commands in /etc/rc.local are executed when the computer boots up (before you even login), so you can put stuff there
+2012-08-04T00:16:00.000Z	smokie	NewWorld	so what? i just add the location of my bash file there and it will automaticly executed?
+2012-08-04T00:17:00.000Z	NewWorld	smokie	 You can put the contents of the bash file into rc.local , or add to rc.local: /path/to/bash/file .

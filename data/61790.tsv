@@ -1,0 +1,4 @@
+2009-12-02T02:37:00.000Z	nvme		is there any command line tool to get a md5 hash for a given string ?
+2009-12-02T02:37:00.000Z	grawity	nvme	echo "something" | md5sum -- the simplest way.
+2009-12-02T02:38:00.000Z	grawity	nvme	use echo -n "something" | md5sum, if you do not want to include the trailing newline.
+2009-12-02T02:38:00.000Z	grawity	nvme	Another way -- run python; import hashlib; print hashlib.md5("foo").hexdigest()

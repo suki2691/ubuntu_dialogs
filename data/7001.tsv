@@ -1,0 +1,4 @@
+2012-03-13T23:52:00.000Z	Skribe		anyone know a script for having a drive automount at start up?
+2012-03-13T23:53:00.000Z	yumbo	Skribe	just add the drive in /etc/fstab
+2012-03-13T23:53:00.000Z	yumbo	Skribe	find the UUID of the drive by doing "sudo blkid", then add the drive in the /etc/fstab file via "sudo nano /etc/fstab"
+2012-03-13T23:54:00.000Z	yumbo	Skribe	you usually want a line like: UUID=4a9c08ab-5a45-4235-8795-7d1fa280a16e /media/disk1/backup ext4 defaults 0 2

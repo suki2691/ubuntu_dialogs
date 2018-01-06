@@ -1,0 +1,4 @@
+2008-04-14T13:13:00.000Z	buzzsaw		how do i tell my eth1 to always have the address of     192.168.0.1 ?    it seems every time i restart i have to sudo ifconfig eth1 192.168.0.1
+2008-04-14T13:14:00.000Z	buzzsaw		no gui :-)
+2008-04-14T13:14:00.000Z	buzzsaw		i have ubuntu-server
+2008-04-14T13:14:00.000Z	ompaul	buzzsaw	system administration network -- you will need the gateway address  .1 or .254 are usually gateways I prefer to have the machines in the +50 range (and I don't use .1.*  ;-))

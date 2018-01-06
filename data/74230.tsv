@@ -1,0 +1,4 @@
+2008-12-28T03:34:00.000Z	sinan2		I have a problem with openssh, i edited the /etc/ssh/ssh_config file to change the port, restarted /etc/init.d/ssh, but it is still using port 22. Anyone can help?
+2008-12-28T03:35:00.000Z	biomass	sinan2	it's sshd_config
+2008-12-28T03:36:00.000Z	sinan2	biomass	thanks, perfect :)
+2008-12-28T03:37:00.000Z	biomass	sinan2	ssh_ without the D is for the ssh client

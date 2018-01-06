@@ -1,0 +1,4 @@
+2007-06-25T12:29:00.000Z	pixelation		How do you CD to desktop?
+2007-06-25T12:29:00.000Z	predaeus	pixelation	cd ~/Desktop
+2007-06-26T15:00:00.000Z	predaeus	pixelation	if you have an amd64 you can run 32bit applications fine. The problem is that you need the libs and apt-get does not support automatic installation for them. So you need to download and add to e.g. /lib32/ yourself. CAUTION: Do not overwrite the 64bit libs in the /lib64 or /lib folders.
+2007-06-26T15:00:00.000Z	predaeus	pixelation	you probably also need the linux32 application.

@@ -1,0 +1,4 @@
+2008-05-29T00:39:00.000Z	slim		how can I quit my X session?
+2008-05-29T00:40:00.000Z	slim		pkill xserver does nothing
+2008-05-29T00:40:00.000Z	jonaskoelker	slim	"pkill X"?
+2008-05-29T00:40:00.000Z	jonaskoelker	slim	try ps -Fe | grep X

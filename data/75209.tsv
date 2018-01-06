@@ -1,0 +1,4 @@
+2008-11-05T22:31:00.000Z	bjb1959		I have a problem with my web server. I have a port forward account to forward internal ip to my public ip through port 40. this worked fine in Hardy just by adding port 40 to the ports.conf file in apache2 folder. but doesn't work in Ibex any ideas?
+2008-11-05T22:32:00.000Z	carlsonwf	bjb1959	neither connecting on localhost:40 ?
+2008-11-05T22:33:00.000Z	bjb1959	carlsonwf	I can use my public ip and localhost from my machine fine but not outside. my router is set properly and using the public ip from my machine goes through that router as well and works but not from the outside
+2008-11-05T22:37:00.000Z	bjb1959	carlsonwf	I can ping both 72.196.6.129 and bartburroughs.hopto.org from my machine but it times out from outside. any ideas?

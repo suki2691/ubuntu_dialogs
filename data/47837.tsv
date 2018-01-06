@@ -1,0 +1,4 @@
+2011-08-20T13:21:00.000Z	t36		hi, i need help removing a bad package, anyone know how to do this
+2011-08-20T13:22:00.000Z	theadmin	t36	sudo apt-get remove <packagename>
+2011-08-20T13:23:00.000Z	theadmin	t36	sudo dpkg -P packagename
+2011-08-20T13:24:00.000Z	t36	theadmin	it says that the package is in an inconsistent state

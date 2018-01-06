@@ -1,0 +1,4 @@
+2007-10-04T08:39:00.000Z	kevinO		how do i make my windows partition (sda1) mount in my home folder instead of my desktop? It use to mount on the desktop automatically, then someone told me to change fstab from /dev/sda1 to mnt/sda1, and then they gave me a command to symlink it to my desktop. I need to know how to undo that symlink and redo it for my home folder.
+2007-10-04T08:39:00.000Z	pike_	kevinO	gksu gedit /etc/fstab   change the mount point in there
+2007-10-04T08:40:00.000Z	kevinO	pike_	 its currently set to mnt/sda1 which is what i need , i just need to know how to unlink the symlink from my desktop to my home folder
+2007-10-04T08:41:00.000Z	pike_	kevinO	you can just rm it maybe i dont understand the question

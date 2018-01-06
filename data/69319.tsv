@@ -1,0 +1,4 @@
+2009-02-19T02:47:00.000Z	istvan_		I am installing nvidia gelato, and it says i need to set the envirnment variable GELATOHOME="/opt/nvidia/gelato"  -- but if i do sudo gedit /etc/ld.so.conf and add it i get the error: sudo ldconfig
+2009-02-19T02:47:00.000Z	istvan_		/sbin/ldconfig.real: "/opt/nvidia/gelato" is not a known library type  -- what am i doing wrong?
+2009-02-19T02:47:00.000Z	epictetus	istvan_	ld.so.conf is NOT where you put environment variables
+2009-02-19T02:48:00.000Z	epictetus	istvan_	for one user, or for all users on the machine?

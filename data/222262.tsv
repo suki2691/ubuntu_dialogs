@@ -1,0 +1,4 @@
+2006-04-09T09:03:00.000Z	Sophant		hey, how do i change my resolution, i tried the screen resolution under System-Prefrences, but it only lists one resolution
+2006-04-09T09:05:00.000Z	Sophant		nothing happened
+2006-04-09T09:05:00.000Z	Sophant		Nothing at all
+2006-04-09T09:07:00.000Z	intelikey	Sophant	first goto http://monitorworld.com  and find your monitor, note the vertref and horzsync rates  then do a  sudo dpkg-reconfigure xserver-xorg    and setup xorg propperly.  answer all questions accurately; and be sure to select expert on the monitor and enter the correct hsync and vref rates.   that will give you what you want.

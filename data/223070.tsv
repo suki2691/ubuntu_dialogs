@@ -1,0 +1,4 @@
+2009-10-06T01:38:00.000Z	PMantis		Hello! What's the "correct" way to update the symlinks in /etc/rcS.d ? There's a command that looks at all the init scripts and dependencies and creates symlinks for upstart... forget what it is. :(
+2009-10-06T01:38:00.000Z	th0ger	PMantis	I like sysv-rc-conf but there are others
+2009-10-06T01:39:00.000Z	PMantis	th0ger	Ahh, I think that's it.
+2009-10-06T01:41:00.000Z	th0ger	PMantis	try apt-cache search sysv for others

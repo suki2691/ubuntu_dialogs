@@ -1,0 +1,4 @@
+2008-08-24T23:47:00.000Z	mr_daniel		how can I find out which processes are accessing my wireless card wlan0 ???
+2008-08-24T23:49:00.000Z	guntbert	mr_daniel	try "lsof -i", it gives you all open internet-files and the processes
+2011-11-13T02:48:00.000Z	guntbert	mr_daniel	if I read it correctly the server responds, but I have no idea what might be the matter - sorry
+2011-11-13T02:49:00.000Z	guntbert	mr_daniel	ah, I missed the 161 bytes, listen to pfifo ...

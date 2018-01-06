@@ -1,0 +1,4 @@
+2005-11-09T11:11:00.000Z	see		hey, i had to reinstall windows on a dualboot machine so grub has been overwritten, how do i reinstall it in the mbr? boot with a livecd and run"grub" or such (like one did for lilo)
+2005-11-09T11:13:00.000Z	see		drbair thnx
+2005-11-09T11:13:00.000Z	see		will it detect the different os:s or is there some grub.conf in etc for that?
+2005-11-09T11:14:00.000Z	medgno	see	you'll need to edit /boot/grub/menu.lst to tell it to look for the other oses

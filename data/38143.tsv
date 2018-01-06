@@ -1,0 +1,4 @@
+2010-01-30T00:37:00.000Z	dfrey		I've hosed myself slightly.  I tried to upgrade to grub2, but I think I installed grub to the wrong device, so now my computer won't boot.  I am currently running off an 8.10 install DVD.  I have my / mounted under /mnt.  I want to run grub-install, but I think in order to do that I need to chroot to /mnt, but then that makes it so that /dev/sdb doesn't exist.
+2010-01-30T00:39:00.000Z	ikonia	dfrey	bind mount /dev and /prot - or just use the grub shell
+2010-01-30T00:40:00.000Z	dfrey	ikonia	What do you mean by "bind mount /dev and /prot
+2010-01-30T00:41:00.000Z	ikonia	dfrey	mount -o bind /dev /mnt/chroot/dev for example - same for proc

@@ -1,0 +1,4 @@
+2007-08-23T11:30:00.000Z	brian__		quick question... I want to be able to delete files from my windows partition... but its read only, and i cant change it by right clicking on the drive... how do i do this?
+2007-08-23T11:30:00.000Z	brian__		let me try that sunsparc
+2007-08-23T11:32:00.000Z	brian__		damn, where is the fstab?
+2007-08-23T11:33:00.000Z	bulmer	brian__	try this   mount -o remount,rw /partition/you/want/remounted

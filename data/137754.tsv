@@ -1,0 +1,4 @@
+2012-10-14T19:19:00.000Z	alexis_		When trying to export an sql database using this command mysql -u username -p -h localhost database-name < database-backup.sql I am getting an error wrong password. The password is corect. Any ideas?
+2012-10-14T19:21:00.000Z	llutz	alexis_	except the <  for export...   try without "-h localhost"
+2012-10-14T19:21:00.000Z	alexis_		Gordonjcp: I am getting this error mysqldump: Got error: 1045: Access denied for user 'root'@'localhost' (using password: YES) when trying to connect
+2012-10-14T19:21:00.000Z	alexis_	llutz	I am getting this error : mysqldump: Got error: 1045: Access denied for user 'root'@'localhost' (using password: NO) when trying to connect

@@ -1,0 +1,4 @@
+2011-03-12T21:37:00.000Z	azizLIGHTS		there is some idiot keeps trying to connect to my ssh how do i stop him
+2011-03-12T21:39:00.000Z	azizLIGHTS		i isntalled fail2ban and denyhosts... how do i know if its working
+2011-03-12T21:39:00.000Z	azizLIGHTS		this chinese guy wont stop connecting i can see it in /var/log/auth.log: sshd[18763]: refused connect from 113.5.32.69 (113.5.32.69)
+2011-03-12T21:40:00.000Z	geirha	azizLIGHTS	They'll get a few tries, then it'll get silent.

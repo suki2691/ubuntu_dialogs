@@ -1,0 +1,4 @@
+2007-12-10T00:22:00.000Z	kevind23		How do I disable the graphical progress bar on system startup / shutdown
+2007-12-10T00:23:00.000Z	nickrud	kevind23	edit /boot/menu/grub.lst , look for lines with splash in it, remove the word splash
+2007-12-10T00:27:00.000Z	kevind23	nickrud	wouldn't sudo su be better?
+2007-12-10T00:28:00.000Z	nickrud	kevind23	no, sudo -i sets things up properly, (like making home /root) , sudo su leaves you with your own home, causing unexpected results sometimes. sudo su - would be better

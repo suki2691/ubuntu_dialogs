@@ -1,0 +1,4 @@
+2006-11-30T13:49:00.000Z	DARKGuy		Hey :), anybody here uses irssi and knows how to set it up for autoidenting me? it's kind of annoying to write /msg nickserv password at each login :/
+2006-11-30T13:51:00.000Z	mnepton	DARKGuy	/NETWORK ADD -autosendcmd "/^msg nickserv ident $YOURPASSWORD;wait 2000" Freenode
+2006-11-30T13:51:00.000Z	DARKGuy	mnepton	Thanks lots! :D
+2006-11-30T13:59:00.000Z	DARKGuy	mnepton	Eh, it didn't work actually :(

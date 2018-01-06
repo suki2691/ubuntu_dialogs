@@ -1,0 +1,4 @@
+2009-06-19T02:55:00.000Z	_Rha7_		Hi evry1, Does anybody know what to do to have dpkg-buildpackage generate a -all.deb package (that is, not i386, amd64, or anything)?
+2009-06-19T02:57:00.000Z	Bodsda	_Rha7_	in the control file, change architecture to 'all'
+2009-06-19T02:58:00.000Z	_Rha7_	Bodsda	U the man
+2009-06-19T02:59:00.000Z	Bodsda	_Rha7_	no problem, take a look at this for future reference: https://wiki.ubuntu.com/PackagingGuide/Complete

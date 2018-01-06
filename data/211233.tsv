@@ -1,0 +1,4 @@
+2009-05-09T04:25:00.000Z	welltb		hello...anybody for a quick question?
+2009-05-09T04:26:00.000Z	welltb		what is the purpose of putting /var on a separate partiton?  is it to store the /var.../archive packages?
+2009-05-09T04:27:00.000Z	welltb		hmmm...
+2009-05-09T04:27:00.000Z	pipegeek	welltb	var can occasionally grow unexpectedly (for instance, if something suddenly starts dumping loads of error output into /var/log).  Putting it in a separate partition prevents it from filling up your whole disk

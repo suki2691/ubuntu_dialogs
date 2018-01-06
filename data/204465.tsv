@@ -1,0 +1,4 @@
+2007-02-19T09:17:00.000Z	rbil		I just upadated my system from Dapper to Edgy. I see now that Edgy is using UUID to designate harddrives. I keep a cloned backup of my hd on another hd. Will I have problem booting if the UUID doesn't work on the different hd?
+2007-02-19T09:19:00.000Z	rbil		I can see maybe using UUIDs for removable drives, but this is a real step backwards to force it into Grub
+2007-02-19T09:20:00.000Z	rbil		anyone know if I'd break things using /dev/ instead of UUID in Grub?
+2007-02-19T09:21:00.000Z	HymnToLife	rbil	it wont break anything

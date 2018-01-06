@@ -1,0 +1,4 @@
+2009-08-13T23:46:00.000Z	mizerydearia		I just installed Ubuntu 9.04 Jaunty Jackalope and installed Ubuntuzilla 4.7.4-0ubuntu1 (amd64) which installed Mozilla Firefox 3.5.2.  The pc has Internet access since Konqueror can view google.com, however, Mozilla Firefox is not able to resolve domain names, but can access sites by ip.  How come dns resolution doesn't work?
+2009-08-13T23:47:00.000Z	mzz	mizerydearia	wild guess: there's an ipv6 disable option in about:config. Try toggling that.
+2009-08-13T23:48:00.000Z	mizerydearia	mzz	aha!  network.dns.disableIPv6 was false.  Setting it to true fix it.  Thanks!
+2009-08-13T23:49:00.000Z	mzz	mizerydearia	that *probably* means there's something odd about your networking configuration or the network you're on, but I don't know the specifics. Sorry.

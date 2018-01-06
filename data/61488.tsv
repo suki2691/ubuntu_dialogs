@@ -1,0 +1,4 @@
+2011-06-29T17:58:00.000Z	anev		gcc -o dmg2img dmg2img.o base64.o -L. -lz
+2011-06-29T17:58:00.000Z	anev		/usr/bin/ld: cannot find -lz
+2011-06-29T17:58:00.000Z	anev		-lz flag is for zlib, right?
+2011-06-29T18:00:00.000Z	tsimpson	anev	you need the -dev package zlib1g-dev

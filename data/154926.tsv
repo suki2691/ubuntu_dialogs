@@ -1,0 +1,4 @@
+2006-12-12T06:12:00.000Z	raintheory		okay so im writing a small sh script that alternates between 2 xorg.conf files...  works great but how can i get it to restart gdm without putting me at a command line login?
+2006-12-12T06:13:00.000Z	fatalcure	raintheory	invoke-rc.d gdm restart' (run as superuser)
+2006-12-12T06:13:00.000Z	fatalcure	raintheory	er, ignore the quote (')
+2006-12-12T06:19:00.000Z	fatalcure	raintheory	then it's not working.  It should bring up the login screen

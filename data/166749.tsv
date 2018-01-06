@@ -1,0 +1,4 @@
+2006-09-24T13:22:00.000Z	txoof		I want to enable something in /etc/apache/mods-enabled  is it as simple as making a symbolic link to mods-enabled?
+2006-09-24T13:23:00.000Z	txoof		and then restarting apache, of course...
+2006-09-24T13:23:00.000Z	fdoving	txoof	yes, or use the command 'a2enmod modulename'
+2006-09-24T13:23:00.000Z	txoof	fdoving	thanks. I'll read the man page.

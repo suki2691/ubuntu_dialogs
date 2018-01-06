@@ -1,0 +1,4 @@
+2005-11-27T13:01:00.000Z	EvilDin		hay need one simple answer, how can i search in all subdirs for file which have some specific words in it?
+2005-11-27T13:02:00.000Z	EvilDin		tnx
+2005-11-27T13:02:00.000Z	soundray	EvilDin	find / -print0 | xargs -0 grep searchstring
+2005-11-27T13:02:00.000Z	soundray	EvilDin	takes a long time, though.

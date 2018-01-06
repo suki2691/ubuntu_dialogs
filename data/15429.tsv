@@ -1,0 +1,4 @@
+2011-06-16T20:50:00.000Z	SkeGeek		I need assistance allowing my user account permissions to create/edit/delete files owned by www-data
+2011-06-16T20:50:00.000Z	escott	SkeGeek	add the user to the group shown in ls -l www-data
+2011-06-16T20:52:00.000Z	escott	SkeGeek	usermod -aG groupname username
+2011-06-16T20:52:00.000Z	escott	SkeGeek	thats what the a is for (append)

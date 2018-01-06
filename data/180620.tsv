@@ -1,0 +1,4 @@
+2007-08-08T15:48:00.000Z	KanRiNiN_		bah.  I tried to chmod /dev/hda1 but I'm still not privelidged fyrestrtr
+2007-08-08T15:48:00.000Z	fyrestrtr	KanRiNiN_	you can't chmod a device
+2007-08-08T15:49:00.000Z	fyrestrtr	KanRiNiN_	what is the problem you are trying to solve?
+2007-08-08T15:54:00.000Z	KanRiNiN_	fyrestrtr	Alright.  xfs_admin appears to have no control.  Once I took out the defaults option and added umask=000 it still throws the error

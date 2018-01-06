@@ -1,0 +1,4 @@
+2007-03-17T14:23:00.000Z	kalin		hi, i have an ubuntu installation completed on a hdd and i am trying to edit my existing windows xp bootloader boot.ini to add the ubuntu installation to the list. I used bootpart to create a boot file, but i think that requires lilo to be installed on the linux installation and i dont think it is. Is there some way I can setup grub for use from the xp bootloader?
+2007-03-17T14:24:00.000Z	kalin		yeah, that's what i thought also, but i'm not sure how to get the xp bootloader to load it
+2007-03-17T14:24:00.000Z	kalin		the ubuntu is not on the boot partition
+2007-03-17T14:24:00.000Z	Huffalump	kalin	the xp boot loader doesn't.  grub becomes the boot loader.

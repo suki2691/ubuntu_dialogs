@@ -1,0 +1,4 @@
+2011-05-25T01:40:00.000Z	erichammond		When the Update Manager starts an upgrade, it always gets stuck waiting for me to open the "Details" section, read the change log, and press "q".  Surely new users would have no idea it was waiting for that, so this is a bug.  What package or config setting did I add that is making it do this?
+2011-05-25T01:40:00.000Z	rww	erichammond	sounds like apt-listchanges
+2011-05-25T01:42:00.000Z	erichammond	rww	Thanks, apt-listchanges makes sense and I did add it.  I'll report this as new users could easily stumble into this if they click around installing insteresting looking packages.  I tend to prefer the command line but was trying out the Update Manager since it prompted me to upgrade.
+2011-05-25T02:10:00.000Z	erichammond	rww	Submitted bug #787802

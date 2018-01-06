@@ -1,0 +1,4 @@
+2011-01-25T02:46:00.000Z	IcarianHeights		i need some help with changing the datatype of a field in an existing mysql db
+2011-01-25T02:47:00.000Z	IcarianHeights		database name is "test".... table name is "urls" and i want to change the varchar(128) to carchar(256) for the 'uniqueid' field
+2011-01-25T02:48:00.000Z	IcarianHeights		ive tried                  update urls SET Type = VARCHAR(256) WHERE Field = 'uniqueid';
+2011-01-25T02:48:00.000Z	guntbert	IcarianHeights	ask in #mysql

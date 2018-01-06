@@ -1,0 +1,4 @@
+2007-06-28T12:55:00.000Z	taime1		how do you release and renew your ip when you are plugged directly into a cable modem?
+2007-06-28T12:56:00.000Z	preaction	taime1	dhclient eth0 (or whatever your network interface is)
+2007-06-28T12:57:00.000Z	preaction	taime1	looks like you'll need to do it as sudo as well. and just "sudo dhclient" seems to work
+2007-06-28T13:02:00.000Z	preaction	taime1	it will renew the lease on your IP, it might not change your IP address at all though. it all depends on the dhcp server that your ISP is running

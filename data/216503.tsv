@@ -1,0 +1,4 @@
+2006-08-06T12:00:00.000Z	selfharm		is there a way to log in as root?
+2006-08-06T12:01:00.000Z	ardchoille	selfharm	No, you use sudo for command line apps and gksudo for gui apps.
+2006-08-06T12:06:00.000Z	ardchoille	selfharm	You have to tell mount where to mount the device: example mount /dev/device /mount/mountpoint
+2006-08-06T12:13:00.000Z	ardchoille	selfharm	The "/media/fileshare" (mount point) must exist before you try mounting to it

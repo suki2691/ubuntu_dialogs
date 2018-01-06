@@ -1,0 +1,4 @@
+2008-07-27T02:15:00.000Z	trelayne		hi all, I want to change the source code for wget, so I did a apt-get -d source wget. The problem is  that a number of files were downloaded (source package + plus what look like a diff file). ANyone know how I can apply the patch?
+2008-07-27T02:16:00.000Z	trelayne		One of the files is wget_1.10.2-3ubuntu1.dsc while the other is wget_1.10.2-3ubuntu1.diff
+2008-07-27T02:17:00.000Z	linxeh	trelayne	man patch
+2008-07-27T02:17:00.000Z	linxeh	trelayne	typically something like    patch -p0 < patchfile.diff

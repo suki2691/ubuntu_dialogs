@@ -1,0 +1,4 @@
+2009-10-23T01:40:00.000Z	Joker_-_		is there a way of having multiple groups having access to a single directory, with different access (read/write/execute) as in ntfs shares?
+2009-10-23T01:42:00.000Z	Joker_-_		or admins vs devs...
+2009-10-23T01:43:00.000Z	ZykoticK9	Joker_-_	create the "super" group you want and give that group full permission, then set "other" to have read permission
+2009-10-23T01:43:00.000Z	Joker_-_	ZykoticK9	yeah thats what I was thinking.. I was just wondering if there was a "buildin" feature meant for that... I would call that a work around.

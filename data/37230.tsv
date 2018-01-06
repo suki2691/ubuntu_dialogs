@@ -1,0 +1,4 @@
+2010-03-14T23:59:00.000Z	mikelifeguard		Is there an easy way to remove any packages that came from no-longer-configured repos in /etc/apt/sources.list?
+2010-03-15T00:00:00.000Z	Flannel	mikelifeguard	Under synaptic those are collected under "local or obsolete" packages
+2010-03-15T00:00:00.000Z	mikelifeguard	Flannel	This is on a server, so cli-only :)
+2010-03-15T00:09:00.000Z	Flannel	mikelifeguard	Aptitude might be able to show you something similar in the UI.  Or you could search through all of your packages with apt-cache policy and grep out the ones that aren't available on a server

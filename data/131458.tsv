@@ -1,0 +1,4 @@
+2007-07-16T14:57:00.000Z	unagi		anyone have problems with coming out of hibernation to a black screen where u have to restart X?
+2007-07-16T14:59:00.000Z	toryl__	unagi	all the time.  I assume you've already made sure your swap file exceeds your ram?
+2007-07-16T15:01:00.000Z	toryl__	unagi	 the size of your swap partition -- /swap when you did your partitioning in the beginning--has to be larger than the amount of RAM you have, or hibernate fails.
+2007-07-16T15:02:00.000Z	toryl__	unagi	 assuming it's the right size, though, because lots of things foul up hibernation, maybe this might help you:  http://preview.tinyurl.com/32tn5e

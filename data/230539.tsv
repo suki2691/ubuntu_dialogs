@@ -1,0 +1,4 @@
+2005-07-15T08:58:00.000Z	dryad		Hello, I have installed Ubuntu Hoary earlier today, and now I am experiencing a minor problem with apt. I have added the backports sources etc., and run apt-get update, and yet I am not able to fetch e.g. libmono0
+2005-07-15T08:59:00.000Z	dabaR	dryad	I believe, that you should only have backports enabled/uncommented in your sources when you are getting something specifically from them. Otherwise, these errors happen.
+2005-07-15T09:00:00.000Z	dryad	dabaR	I was recommended to uncomment them, aswell as adding a couple of others, by several guides
+2005-07-15T09:29:00.000Z	dryad	dabaR	the amd64-version seems to cause too much troubles

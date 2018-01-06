@@ -1,0 +1,4 @@
+2011-12-20T22:07:00.000Z	nineteen67comet		Hello. I'm trying to add a music directory to fstab so the notebook I'm building a guy will see his windows music as if it's his /home/user/Music directory .. but there are spaces in the file names; can I use same syntax with fastab as cli? /media/Windows\ HD/Documents\ and\ settings/ etc etc?
+2011-12-20T22:08:00.000Z	yumbo	nineteen67comet	no you can't
+2011-12-20T22:08:00.000Z	yumbo		if the filename contains spaces you have to put quotes around the whole thing: ntfs "/some/path/with spaces"
+2011-12-20T22:09:00.000Z	nineteen67comet	yumbo	that's awesome easy .. thank you .. I'll get back to work on that .. :) .. thank you ..

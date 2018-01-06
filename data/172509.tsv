@@ -1,0 +1,4 @@
+2012-09-09T17:33:00.000Z	Keepbro		So I installed Ubuntu - fine - wiped everything - all cool - then I plugged in my ethernet cable to my laptop becase the driver for the network card wasnt installed. So it connected fine - downloaded the right driver - restarted and now it can detect every wireless network in a 50m radius EXCEPT the one I want. I'm guessing that something is not setup to detect my wireless network? I'm very...
+2012-09-09T17:33:00.000Z	Keepbro		...new to ubuntu so if someone can help I'd be very grateful . Possibility of cookies as a reward!!
+2012-09-09T17:35:00.000Z	napster	Keepbro	See if : sudo iwlist <your interface> scan lists the one you want to connect to
+2012-09-09T17:41:00.000Z	napster	Keepbro	Just execute BluesKaj's second command and see if your SSID is listed

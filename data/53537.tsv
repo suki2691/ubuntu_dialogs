@@ -1,0 +1,4 @@
+2009-08-04T16:24:00.000Z	innomen		Network manager is frequently becoming "uninterruptable" is there a way to kill this process without powering down? (even rebooting hangs, it must be forcibly powered off
+2009-08-04T16:25:00.000Z	kaini	innomen	kill -9
+2009-08-04T16:28:00.000Z	kaini	innomen	kill -9 will simply remove the process from the ram and stop executing it. everything is away if you kill for example openoffice with that
+2009-08-04T16:28:00.000Z	kaini	innomen	you have to call kill -9 pid while pid is the process id of the process

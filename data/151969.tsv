@@ -1,0 +1,4 @@
+2007-05-16T05:59:00.000Z	SasquatchNL		 I want to see what ssid I'm associated with, how can I return only the ssid? I tried "iwconfig eth1 | grep SSID" but I get the whole line with IEEE 802.11g, how can I get the ssid only?
+2007-05-16T05:59:00.000Z	IntuitiveNipple	SasquatchNL	You might want to use awk to extract just that bit
+2007-05-16T06:00:00.000Z	IntuitiveNipple	SasquatchNL	Yes, with awk you can match a regular expression and then print the match out simply using '{ print $1; }'
+2007-05-16T06:01:00.000Z	IntuitiveNipple	SasquatchNL	Awk can be a bit mind-numbing to start with, but there's plenty of simply tutorials with useful examples if you Google

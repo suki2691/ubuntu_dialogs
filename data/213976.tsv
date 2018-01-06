@@ -1,0 +1,4 @@
+2010-09-23T14:44:00.000Z	ibrahim-kasem		Hi, I have windows 7 installed on a VB, how can browse files on a usb flash disc on the VM?
+2010-09-23T14:46:00.000Z	airtonix	ibrahim-kasem	it involves creating a virtual proxy object as root (then requiring you to run VB as root)
+2010-09-23T14:48:00.000Z	airtonix	ibrahim-kasem	you also need to be using the non OS version of virtualbox.
+2010-09-23T14:52:00.000Z	airtonix	ibrahim-kasem	the other option (if your HOST is linux) is to simply created a VB shared folder for /media, then when you plug in your usb drive in the HOST machine that folder will contain the usb drive

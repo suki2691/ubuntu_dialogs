@@ -1,0 +1,4 @@
+2012-04-12T04:37:00.000Z	mukti		Are there commands to increase and decrease the volume (from the terminal)?
+2012-04-12T04:38:00.000Z	mukti		or, are there commands for alsamixer that will increase/decrease volume?
+2012-04-12T04:39:00.000Z	d-bugger	mukti	amixer set Master 70% unmute
+2012-04-12T04:40:00.000Z	d-bugger	mukti	Master is one of the devices. you'll have to find the names of them separately

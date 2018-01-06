@@ -1,0 +1,4 @@
+2005-09-23T05:30:00.000Z	alturigo		mmm, interesting... linux-image-2.6.12-8-386 (2.6.12-8.12) to 2.6.12-8.13  <-- if you use breezy avoid updating that, seems to be broken
+2005-09-23T05:31:00.000Z	[Chameleon] 	alturigo	can you give more detail of what is broken with it?
+2005-09-23T05:31:00.000Z	[Chameleon] 	alturigo	I updated to that and am having trouble.
+2005-09-23T05:33:00.000Z	[Chameleon] 	alturigo	the windows grub boot thing is a known issue and not related to the kernel itself, but to the script that modifies the /boot/grub/menu.list after installing.

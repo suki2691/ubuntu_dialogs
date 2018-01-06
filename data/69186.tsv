@@ -1,0 +1,4 @@
+2010-06-05T19:33:00.000Z	palki		I need help understanding the following iptables rules: ACCEPT     all  --  0.0.0.0/0            0.0.0.0/0
+2010-06-05T19:33:00.000Z	palki		REJECT     tcp  --  0.0.0.0/0            0.0.0.0/0           tcp dpt:51 reject-with icmp-port-unreachable
+2010-06-05T19:33:00.000Z	palki		What does ACCEPT all -- 0.0.0.0/0 0.0.0.0/0 mean?
+2010-06-05T19:34:00.000Z	oCean_	palki	maybe ask in #netfilter

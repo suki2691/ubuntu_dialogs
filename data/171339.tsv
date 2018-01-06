@@ -1,0 +1,4 @@
+2007-03-27T10:36:00.000Z	lattyware		I have two SATA hard drives and two IDE ones. I moved them around recently, and upon reboot, grub appeard to be gone. I booted a live CD, checked the partitions on the drives were all good (they were) then reinstalled grub. I can now boot ubuntu, but it gets a tiny way along, then bugs out after a couple of minutes stuck there, saying modprobe failed, and it can't find /dev/sda1 (my root drive).
+2007-03-27T10:36:00.000Z	lattyware		Any ideas?
+2007-03-27T10:38:00.000Z	kitche	lattyware	if you moved the devices around then your roo is not /dev/sda1 anymore most likely unless they are in the same spot as they were before
+2007-03-27T10:38:00.000Z	lattyware	kitche	Well, I've checked on the live CD, and it is still /dev/sda1

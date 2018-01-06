@@ -1,0 +1,4 @@
+2010-03-09T08:39:00.000Z	techzg		on the terminal, gcc filename.c -o filename -lm
+2010-03-09T08:41:00.000Z	techzg		is there a way I can installl math.h for gcc?
+2010-03-09T08:41:00.000Z	Flannel	techzg	`sudo apt-get install build-essential` should give you all those normal ones
+2010-03-09T08:46:00.000Z	Flannel	techzg	When you're debugging, you generally start with the first error.  You need to include stdlib.h to get exit.

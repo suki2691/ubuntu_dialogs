@@ -1,0 +1,4 @@
+2008-07-31T19:48:00.000Z	Otacon22		Hola, i found a guide to install my wireless card, it says to put a bin file into /lib/hotplug/firmware, but i don't have that folder, wich folder should i use?
+2008-07-31T19:49:00.000Z	unop	Otacon22	ideally, the source package that contains the driver and firmware should have a installer script that places everything in the right locations
+2008-07-31T19:49:00.000Z	Otacon22	unop	this don't have anything, is a .bin file inside the windows driver disk
+2008-07-31T19:50:00.000Z	unop	Otacon22	not really sure then .. create that directory and place your firmware in it

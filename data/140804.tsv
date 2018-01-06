@@ -1,0 +1,4 @@
+2007-04-20T05:05:00.000Z	ROnewbie		I have Feisty Beta on a partition and Edgy on another. I am now in Feisty, and I want to uninstall Edgy from here. How can I do it?
+2007-04-20T05:06:00.000Z	PirateHead	ROnewbie	you can use GParted to delete the parttion that Edgy is on.
+2007-04-20T05:07:00.000Z	ROnewbie	PirateHead	I want that partition to remain an empty FAT32 so that I can access it from both feisty and XP (yeah, I'm running a dual boot ... no linux printer drivers)
+2007-04-20T05:08:00.000Z	PirateHead	ROnewbie	That's easy to to with GParted. Just reformat the Edgy partition as fat32, and it'll do all the work.

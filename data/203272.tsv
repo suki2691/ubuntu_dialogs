@@ -1,0 +1,4 @@
+2008-06-19T21:55:00.000Z	Spender		hey guys should /boot partition be on primary or logical partition?
+2008-06-19T21:57:00.000Z	cjohnson	Spender	mine is logical and works fine
+2008-06-19T21:57:00.000Z	cjohnson	Spender	but I also put grub on my mbr
+2008-06-19T21:59:00.000Z	cjohnson	Spender	I made windows Primary, because I find it to be whiney when it's not, and the rest are logical. I installed grub to the MBR, and I have it chainload the windows bootloader or ubuntu

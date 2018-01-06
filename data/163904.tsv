@@ -1,0 +1,4 @@
+2011-07-18T01:36:00.000Z	barf		I try to put this: mv data-daily.xml data-$(date +%Y-%m-%d).xml in crontab
+2011-07-18T01:36:00.000Z	barf		But it does not work
+2011-07-18T01:37:00.000Z	dli	barf	make the script in a file, then, cron runs the file
+2011-07-18T01:47:00.000Z	barf	dli	Thanks that worked just fine, now I have to make sure noone deletes that script.

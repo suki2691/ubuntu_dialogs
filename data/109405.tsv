@@ -1,0 +1,4 @@
+2008-11-06T18:57:00.000Z	cdeszaq		Hi. I just installed 8.10 Server, and the machine will not shutdown. sudo shutdown now fails, bringing me to a "recover" screen. None of the options there seem to do any goos, and when I drop to the root user(from that screen) and run shutdown now, the crond and system log daemon have [FAIL] next to them, rather than OK as processes get ended. How can I shutdown the machine!
+2008-11-06T18:58:00.000Z	chadeldridge	cdeszaq	try sudo shutdown 0
+2008-11-06T18:59:00.000Z	chadeldridge		When my laptop goes into standby mode it appears that all the devices are not being put to sleep. For 1 i can still hear the HDD spinning.  Standby time should be at least 5 hours but i am getting a little more than an hour out of it.  Can someone help me figure out why not all devices are sleeping?
+2008-11-06T19:00:00.000Z	cdeszaq	chadeldridge	Same behavior

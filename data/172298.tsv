@@ -1,0 +1,4 @@
+2006-08-03T10:02:00.000Z	ManiacKY		My system has 4 gig of ram. Yet its only seeing 3 gig in ubuntu. It sees all 4 in Windows 2003. Do I have to do something special to the see the remaining gig of memory?!
+2006-08-03T10:03:00.000Z	trappist	ManiacKY	you need a kernel that supports that much ram.  not sure which one that would be.
+2006-08-03T10:03:00.000Z	ManiacKY	trappist	I'm running 686 smp now. Had to load that to get dual processors working
+2006-08-03T10:07:00.000Z	trappist	ManiacKY	grep CONFIG_HIGHMEM4G /boot/config-$(uname -r)

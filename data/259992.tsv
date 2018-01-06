@@ -1,0 +1,4 @@
+2004-11-15T15:57:00.000Z	nathanieldelaney		if I made a fat32 partition that I wanted linux and windows to both have access to, how can I make it so that the partition is mounted and accessible whenever I boot to linux?  If it already is mounted and accessible, how do I access it?
+2004-11-15T15:59:00.000Z	Matt|	nathanieldelaney	add the partition to /etc/fstab in order to have it mount when you boot. To access it just browse to it in nautilus
+2004-11-15T16:43:00.000Z	Matt|	nathanieldelaney	you need to be root
+2004-11-15T16:46:00.000Z	Matt|	nathanieldelaney	if you have used nano, to save and close you do CTRL + X and then answer yes when it asks you if you want to save it

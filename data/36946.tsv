@@ -1,0 +1,4 @@
+2010-03-14T00:27:00.000Z	seanbrystone		how do i mount my external hdd without rebooting? Ive tried sudo mount UUID 3AF8C757F8C70FD5 /media/BigExternal, says its not in fstab , it is too in fstab, heres the fstab line: UUID=3AF8C757F8C70FD5 /media/BigExternal ntfs-3g defaults,auto,locale=en_US.utf8 0 0
+2010-03-14T00:28:00.000Z	jastor	seanbrystone	sudo mount /dev/sd<n> /whatever/mount/dir/you/want
+2010-03-14T00:29:00.000Z	seanbrystone	jastor	there is no /dev/
+2010-03-14T00:29:00.000Z	jastor	seanbrystone	you dont have a /dev/ folder+?

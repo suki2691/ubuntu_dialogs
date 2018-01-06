@@ -1,0 +1,4 @@
+2005-07-08T09:40:00.000Z	_death		yo i installed nvidia-glx with kynaptic but its not working
+2005-07-08T09:41:00.000Z	gm78	_death	did u edit your x config file?
+2005-07-08T09:41:00.000Z	gm78	_death	: remove dri from the modules section and change device "nv" to device "nvidia" in /etc/X11/xorg.conf
+2005-07-08T09:42:00.000Z	gm78	_death	then log out, ctrl+alt+backspace, and it should be working

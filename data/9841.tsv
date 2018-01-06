@@ -1,0 +1,4 @@
+2012-01-23T13:48:00.000Z	glioros		is there any way to xgettext all my php files once and not xgettext each php file ?
+2012-01-23T13:49:00.000Z	theadmin	glioros	for i in file1 file2 file3 file4 file5 ; do xgettext $i ; done # Something like this, maybe?
+2012-01-23T13:51:00.000Z	glioros	theadmin	I just tried it in the terminal and it didnt work...
+2012-01-23T13:51:00.000Z	theadmin	glioros	I have no idea what the syntax of xgettext is, but something along those lines usually does the trick

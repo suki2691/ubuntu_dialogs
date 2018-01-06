@@ -1,0 +1,4 @@
+2010-08-12T22:06:00.000Z	Bytesunfish		If someone has some networking experience, I have a wireless card that is not being recognized. The card is a PCE-N13. I have installed the latest drivers and the device shows up under "lspci" What should be my next step. I'm running the latest Ubuntu Desktop x64. My /etc/network/interfaces only shows the loopback interface. Wired network is functional. I have run "apt-get update" and "apt-get upgrade" today.
+2010-08-12T22:06:00.000Z	Kwpolska	Bytesunfish	/etc/network/interfaces SHALL be empty.
+2010-08-12T22:07:00.000Z	Kwpolska	Bytesunfish	I don't see your card in the listing.
+2010-08-12T22:08:00.000Z	Kwpolska	Bytesunfish	http://wiki.debian.org/WiFi this one, it's helpful, but do not add any repositories from there.

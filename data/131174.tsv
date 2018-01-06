@@ -1,0 +1,4 @@
+2008-03-14T14:14:00.000Z	smokeyd		hey people. mv "somedir" "someotherdir" does that remove a file inside somedir as soon as it is copied to someotherdir or does it only start removing somedir after everything has been copied to someotherdir?
+2008-03-14T14:16:00.000Z	pajamian	smokeyd	if the two directories are on the same filesystem it simply changes the location of the directory entry and doesn't touch anything inside it.
+2008-03-14T14:16:00.000Z	smokeyd	pajamian	they are on different filesystems
+2008-03-14T14:19:00.000Z	pajamian	smokeyd	in that case I'm not sure.  I think it does one file at a time, but not sure.

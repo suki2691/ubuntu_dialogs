@@ -1,0 +1,4 @@
+2005-02-21T13:51:00.000Z	rodi		I'm having a hairy, hoary problem with an apt-get dist-upgrade on a machine that crashed mid-update (Hoary).  Has anyone ever seen this error: "(Reading database ... dpkg: error processing /var/cache/apt/archives/dbus-1-utils_0.23-1ubuntu3_i386.deb (--install): unable to open files list file for package `dbus-1-utils': Input/output error"
+2005-02-21T13:52:00.000Z	Guybrush|Numb	rodi	input output error seems a filesystem prob
+2005-02-21T13:53:00.000Z	rodi	Guybrush|Numb	just fsck it?
+2005-02-21T13:57:00.000Z	rodi	Guybrush|Numb	I'm rebooting into single-user to re-fsck, unmounted, thanks for the advice.  Hope it works!

@@ -1,0 +1,4 @@
+2012-03-16T23:51:00.000Z	GRMrGecko		Searching for this is not simple, so let me ask here. I need to sftp a file using terminal without user interaction meaning I have a automated script. The password contains an @ symbol which means I cannot use user:pass@server unless there is a way to allow the @.
+2012-03-16T23:51:00.000Z	pfifo	GRMrGecko	urlencode the url
+2012-03-16T23:52:00.000Z	GRMrGecko	pfifo	Your saying to do user:Pass%40@host?
+2012-03-16T23:52:00.000Z	pfifo	GRMrGecko	yes, if that doesnt work try to escape it with a \

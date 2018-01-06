@@ -1,0 +1,4 @@
+2011-10-03T00:25:00.000Z	ripdaddy		Hello Everyone!  I'm hoping someone could answer a quick question for me about migrating my wubi installation to a separate partition.  Does anyone here feel comfortable helping me with this?
+2011-10-03T00:25:00.000Z	escott	ripdaddy	jsut do a new install, and then copy your home directory
+2011-10-03T00:32:00.000Z	escott	ripdaddy	very few people here use wubi. but i wouldn't trust a script without looking at the contents of it. for the most part migrating a debian/ubuntu system is 3 things: 1) copy the home directory 2) copy the dpkg --get-selections 3) copy any modifications made to /etc
+2011-10-03T00:34:00.000Z	ripdaddy	escott	- Thanks for your help.  I am not familiar iwth dpkg --get-selections, I'll check that out.  However, I did a lot of setup because this is my work laptop (and I'm a developer)... so I have a lot of python packages and such that I need to migrate.  I agree about the script, i shoudl read through it first.

@@ -1,0 +1,4 @@
+2007-02-26T16:12:00.000Z	fxr		hi ihave a kernel patch for 2.4.28 wich adds support for my sis i2c controllers on my motherboard.. can i apply this patch to my current ubuntu kernel?
+2007-02-26T16:13:00.000Z	cafuego_	fxr	Hmm, I don't think Ubuntu sues 2.4.x kernels, unles you're running something scarily old.
+2007-02-26T16:16:00.000Z	fxr	cafuego_	no its a really new motherboard.. i cant get lmsensors working, no i2c conrollers found..  and during boot my syslog can idenify 3 i2c controllers on my MOBO.. i checked SIS's website and this is software available for them for linux.. but it *appears* to be for the 2.4.28 kernel.. im really struggling to understand ...
+2007-02-26T16:17:00.000Z	cafuego_	fxr	If it's for 2.4.28, it's in all likelyhood a backport from 2.6.x. I'd not worry about it and use Edgy, then go Feisty in april and sue 2.6.20.

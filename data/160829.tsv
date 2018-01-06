@@ -1,0 +1,4 @@
+2011-08-20T00:43:00.000Z	Jordan_U	edgy	Then make your own mountpoint wherever you want it, like '/windows' as rww or make your own '/non_removable_media/' with sudirectories. There generally shouldn't be any problems caused by having things mounted to "non standard" locations as long as you can keep track of them.
+2011-08-20T00:44:00.000Z	edgy	Jordan_U	I know but I just want to understand why fhs doens't cater for it
+2011-08-20T00:45:00.000Z	Jordan_U	edgy	My guess is that it's specifically because it doesn't tend to matter. Where you mount a given device tends to be less important to standardise than what the path is to given files, like /var/log/ or /etc/.
+2011-08-20T00:58:00.000Z	edgy	Jordan_U	this would be true if fhs didn't try to standardize it but they tried by mentioning /media, /mnt

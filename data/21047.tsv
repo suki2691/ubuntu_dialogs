@@ -1,0 +1,4 @@
+2011-01-13T09:04:00.000Z	cp2_4eva		i have another question. Actually i'llhave two, but i'll do one at a time. any reason why DVI wont work on this card but HDMI does?
+2011-01-13T09:06:00.000Z	sacarlson	cp2_4eva	 I see there is a setting in /etc/X11/xorg.conf to activate DVI Find the line that says Section "Screen" Insert a new line that says Option "UseDisplayDevice" "DFP".   as seen in https://help.ubuntu.com/community/BinaryDriverHowto/Nvidia
+2011-01-13T09:07:00.000Z	cp2_4eva	sacarlson	ok i;ll check it out thanks
+2011-01-13T09:12:00.000Z	cp2_4eva	sacarlson	should I reboot. And do I need to use " " because I saw some other lines that did have that

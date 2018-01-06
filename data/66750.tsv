@@ -1,0 +1,4 @@
+2009-02-08T01:24:00.000Z	AdamS42a		I am setting up a proxy server with Ubuntu 8.04 server. eth0 is on the LAN side, eth1 is connected to the router. Only eth1 can ping my router, thus nothing on the LAN can get past eth0. What should I be looking at to pass traffic between eth0 and eth1? Squid? Routing? What?
+2009-02-08T01:25:00.000Z	klasikahl	AdamS42a	nat
+2009-02-08T01:25:00.000Z	klasikahl	AdamS42a	iptables nat
+2009-02-08T01:25:00.000Z	AdamS42a	klasikahl	that's in squid, right?

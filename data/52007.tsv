@@ -1,0 +1,4 @@
+2012-05-18T01:31:00.000Z	Mischinka		E: Unable to lock the administration directory (/var/lib/dpkg/), is another process using it?
+2012-05-18T01:31:00.000Z	Mischinka		What is this?
+2012-05-18T01:32:00.000Z	Mischinka		same, i also have this error:  E: Could not get lock /var/lib/dpkg/lock - open (11: Resource temporarily unavailable)
+2012-05-18T01:34:00.000Z	DarwinSurvivor	Mischinka	what do you get if you run "sudo ps aux | grep dpkg" and "sudo ps aux | grep apt"?

@@ -1,0 +1,4 @@
+2008-05-12T23:34:00.000Z	LordMorgoth		hey guys, i have a bash question. i have a big folder containing several other sub folders containing many different file types. i want to copy only the .mp3 files to another location without having to go through that manually. is there a bash command to do that like cp ?
+2008-05-12T23:34:00.000Z	Goldfisch	LordMorgoth	find . -name '*.mp3' -exec cp {} /your/path \; -print
+2008-05-12T23:35:00.000Z	Goldfisch	LordMorgoth	Substitute your root path where I put in "."
+2008-05-12T23:36:00.000Z	Goldfisch	LordMorgoth	My usage of find will flatten everything. If you want to preserve the folder structure, it will take a little more.

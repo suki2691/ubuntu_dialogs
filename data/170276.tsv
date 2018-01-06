@@ -1,0 +1,4 @@
+2006-09-10T16:36:00.000Z	andyschmitz		So, I have a new Gateway laptop. I got the wireless working using bcm43xx, but the sound is having some problems. It's an ATI IXP (AC97) sound card, and I've tried the snd_atiixp and atiixp drivers, along with almost everything in the forum. It's not that I can't hear the sound, but it stutters whenever it plays. It will repeat a segment of audio a few times, move on to the next one, repeat,...
+2006-09-10T16:36:00.000Z	andyschmitz		...etc., but the program playing the audio freezes while playing. Anybody have any suggestions, or is it something for the form?
+2006-09-10T16:37:00.000Z	andyschmitz		jowi: How would I do that, just ps for the esd daemon and kill that?
+2006-09-10T16:37:00.000Z	lupine_85	andyschmitz	killall esd would also do the trick

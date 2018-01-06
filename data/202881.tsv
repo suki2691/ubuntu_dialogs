@@ -1,0 +1,4 @@
+2012-04-13T02:44:00.000Z	subrosa		Hey guys I'm trying to install from source but I get this error ./configure: error: C compiler gcc is not found
+2012-04-13T02:45:00.000Z	subrosa		anyone know what Im doing wrong?
+2012-04-13T02:46:00.000Z	squid	subrosa	try this... sudo apt-get update && sudo apt-get upgrade
+2012-04-13T02:47:00.000Z	squid	subrosa	then do this...sudo apt-get install gcc

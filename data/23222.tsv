@@ -1,0 +1,4 @@
+2010-11-03T08:50:00.000Z	jkazana	tunpim	have you tried disabling the firewall?
+2010-11-03T08:50:00.000Z	tunpim	jkazana	eyah, and it works when I disable it
+2010-11-03T08:56:00.000Z	jkazana	tunpim	and you allowed u67 and u68 in and out? maybe u also need to allow icmp but I'm not on that
+2010-11-03T08:59:00.000Z	tunpim	jkazana	well, I tried allowing 67/68 to the dhcp server that my isp owns, but it's not located in the same subnet as I am, so I couldn't add the rule... I guess I could allow everyone to talk udp 67/68, but that sounds like a security risk :/

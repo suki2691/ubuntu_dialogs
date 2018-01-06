@@ -1,0 +1,4 @@
+2008-09-12T19:24:00.000Z	khin		hey... i just did a fresh hardy install... but when i tried to install phpmyadmin and all its dependencies, it is not found ... i also noticed that mysqld fails to start because of a permissions issue ... i also found a post saying i should install mysqli, but thats not in the repos ... anyone know wtf is going on
+2008-09-12T19:25:00.000Z	danbh_intrepid	khin	do you want LAMP?  there is a way to install lampp directly
+2008-09-12T19:25:00.000Z	khin	danbh_intrepid	yes that is what I am after
+2008-09-12T19:29:00.000Z	danbh_intrepid	khin	sudo tasksel install lamp-server

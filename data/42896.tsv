@@ -1,0 +1,4 @@
+2009-11-17T08:10:00.000Z	gdiz		hello everyone.  I want to take my system as I have it configured with all the packages on it and so on and create a backup of it.  Is there a way to create an image of my system on a usb stick that I can boot from should I ever need to install it elsewhere?
+2009-11-17T08:11:00.000Z	inveratulo	gdiz	I believe you're looking for remastersys
+2009-11-17T08:12:00.000Z	gdiz	inveratulo	what does remastersys do?
+2009-11-17T08:14:00.000Z	inveratulo	gdiz	remastersys basically just takes your current ubuntu install and creates a liveCD from it.  If all you are wanting to do is backup particular filesystems, then I would go with partimage or dd

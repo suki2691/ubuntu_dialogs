@@ -1,0 +1,4 @@
+2005-12-07T10:29:00.000Z	vittommy		hi all
+2005-12-07T10:30:00.000Z	vittommy		i've an azalya on mobo soundcard that stop my hotplug! i block it from the bios and all work correctly...
+2005-12-07T10:30:00.000Z	vittommy		no ideas?
+2005-12-07T10:32:00.000Z	Jowi	vittommy	you can try to add pci=noacpi in /boot/grub/menu.list for the kernel you try to boot. that *might* be the cause.

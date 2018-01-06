@@ -1,0 +1,4 @@
+2011-11-28T10:09:00.000Z	mysticete		my headphone jack (audio out port) doesn't function, although my internal speakers do.  Is the problem in the ALSA configuration?
+2011-11-28T10:09:00.000Z	reisio	mysticete	possibly
+2011-11-28T10:11:00.000Z	reisio	mysticete	check for muted channels (MM) and those with volume at 0, hit tab for more
+2011-11-28T10:11:00.000Z	reisio	mysticete	if that doesn't help, checkout https://help.ubuntu.com/community/HdaIntelSoundHowto if you're using intel hda

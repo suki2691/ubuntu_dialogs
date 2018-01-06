@@ -1,0 +1,4 @@
+2004-10-14T14:39:00.000Z	Timamuk		I have a problem with Ubuntu, possiblly some one here can assist me.
+2004-10-14T14:40:00.000Z	Timamuk		I have seen this before with  the eepro100 drivers and this machine.  I need it to load the e100 driver instead.  I cannot find the option in module.conf, where can I set this?
+2004-10-14T14:41:00.000Z	topyli	Timamuk	can you load the module with modprobe?
+2004-10-14T14:45:00.000Z	topyli	Timamuk	well, rmmod the one you don't want and modprobe the one you do want. see if it works

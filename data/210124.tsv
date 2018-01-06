@@ -1,0 +1,4 @@
+2006-01-04T16:24:00.000Z	vbhanu		when i install kde i am getting this error kde: Depends: kde-core but it is not going to be installed, how can i solve this?
+2006-01-04T16:25:00.000Z	Seveas	vbhanu	apt-get install kde-core -o"Debug::PkgProblemSolver=true"
+2006-01-04T16:25:00.000Z	vbhanu	Seveas	: do you want  apt-get install kde-core -o"Debug::PkgProblemSolver=true" or  apt-get install kde -o"Debug::PkgProblemSolver=true"?
+2006-01-04T16:26:00.000Z	Seveas	vbhanu	either

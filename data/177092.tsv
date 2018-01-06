@@ -1,0 +1,4 @@
+2010-10-24T20:28:00.000Z	Chaos2358		hey guys i have a question. Does ubuntu "lucid" have something similar to windows disk defrag and disc cleanup?
+2010-10-24T20:28:00.000Z	id10t	Chaos2358	the ext[234] family of file systems really don't fragment
+2010-10-24T20:29:00.000Z	id10t	Chaos2358	and temp files would be in /tmp and handle themselves, adn temporary update files are dealt wtih via "apt-get clean"
+2010-10-24T20:30:00.000Z	id10t	Chaos2358	sudo apt-get clean

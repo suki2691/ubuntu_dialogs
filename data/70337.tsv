@@ -1,0 +1,4 @@
+2009-07-26T01:16:00.000Z	manja		I just did sudo update-manager -p but I'm not sure wether I shouldn't have used --dist-upgrade, how can I check my dist version number?
+2009-07-26T01:17:00.000Z	prince_jammys	manja	lsb_release -r
+2009-07-26T01:17:00.000Z	manja	prince_jammys	thx
+2009-07-26T01:18:00.000Z	manja	prince_jammys	it says 8.04 but when I do sudo update-manager --dist-upgrade it says I have the latest version, this isn't right

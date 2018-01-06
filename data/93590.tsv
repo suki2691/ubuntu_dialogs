@@ -1,0 +1,4 @@
+2008-04-29T21:43:00.000Z	Anonona_DC		Question: I installed Hardy w/ a 30GB WUBI install on a win2k box. It loaded fine, multiple times... yesterday. Today, bootup is stuck on a busybox/initramfs error: "/build/buildd/linux-2.6.24/drivers/hid/usbhid/hid-core.c: couldn't find an input interrupt endpoint"
+2008-04-29T21:43:00.000Z	Anonona_DC		Any idea what the problem is?
+2008-04-29T21:44:00.000Z	moveax	Anonona_DC	looks like a faulty usb device, maybe
+2008-04-29T21:45:00.000Z	Anonona_DC	moveax	the only USB devices I have attached are KB/M

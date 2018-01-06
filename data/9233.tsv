@@ -1,0 +1,4 @@
+2012-04-29T04:59:00.000Z	wookienz		guys, i am stumbling around trying to use NFS. I have a connection and all that but i am struggling with permissions. Specifically how do i map a NFS share from a NAS so that any user on the nix box can write to the share? im guessing it is some uid, gid options under fstab. Any takers?
+2012-04-29T05:00:00.000Z	henkye	wookienz	 for example mine RW config /home/henk/sharedone 10.0.0.1/24(rw,sync)
+2012-04-29T05:01:00.000Z	wookienz	henkye	do you have different owners of the underlying FS on the storage device than the computer you are mapping to?
+2012-04-29T05:01:00.000Z	henkye	wookienz	of courese, the folder must have filesystem permissions for anyone

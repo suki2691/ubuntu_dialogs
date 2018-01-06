@@ -1,0 +1,4 @@
+2008-04-27T15:22:00.000Z	Arkkis		hey, for some reason my apache serves php files as text, even tho I do have php5 installed according to tutorials, I tried googling, :/ what to do next?
+2008-04-27T15:22:00.000Z	richardprice	Arkkis	sounds like its apache
+2008-04-27T15:22:00.000Z	richardprice	Arkkis	you sure you apache conf file got the extra modules in there for php?
+2008-04-27T15:24:00.000Z	Arkkis	richardprice	I've gone trough the apache2.conf file, and yes, it seems to include php5 module (as it imports all modules from a certain folder, and php module is there, and if I try to manually add php5 module, it complains that it's already running)

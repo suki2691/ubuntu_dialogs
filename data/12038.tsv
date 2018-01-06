@@ -1,0 +1,4 @@
+2011-07-13T19:41:00.000Z	mikemol	llutz	Note that using scp, you may overwrite any existing entries in authorized_keys
+2011-07-13T19:42:00.000Z	llutz	mikemol	 "scp ~/.ssh/id_rsa.pub user@host:~/pubkey " then ssh into remote host, and "cat ~/pubkey >> ~/.ssh/authorized_keys && rm ~/pubkey"   wont overwrite anything important
+2011-07-13T19:42:00.000Z	llutz	mikemol	whyever preferrable ssh-copy-id fails with BluesKaj
+2011-11-05T22:52:00.000Z	llutz	mikemol	sudo dpkg-reconfigure <dm you want>

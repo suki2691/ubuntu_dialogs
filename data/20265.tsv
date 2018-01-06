@@ -1,0 +1,4 @@
+2011-04-28T00:34:00.000Z	m4xx		i'm trying to print a test page to my printer. the page comes out blank and i see the following in /var/log/messages http://paste2.org/p/1387772
+2011-04-28T00:34:00.000Z	m4xx		do i need to set permissions some where?
+2011-04-28T00:35:00.000Z	ayecee	m4xx	no, but you may have to disable the cups apparmor profile
+2011-04-28T00:36:00.000Z	ayecee	m4xx	I'm not sure, I've never had to do it

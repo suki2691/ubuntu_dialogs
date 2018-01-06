@@ -1,0 +1,4 @@
+2011-12-13T15:35:00.000Z	RaTTuS		Sling http://www.subvs.co.uk/ubuntu_change_hostname_computer_name
+2011-12-13T15:36:00.000Z	Sling	RaTTuS	using oneiric, it doesn't have hostname.sh
+2011-12-13T15:37:00.000Z	Sling	RaTTuS	/etc/hostname is symlinked to /lib/init/upstart-job
+2011-12-13T15:39:00.000Z	Sling	RaTTuS	ah, the upstart script just does hostname -b -F /etc/hostname

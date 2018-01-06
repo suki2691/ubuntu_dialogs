@@ -1,0 +1,4 @@
+2012-01-03T16:29:00.000Z	tim_		I compiled irssi (0.8.15) from source. synaptics has only 0.8.14. How can i tell synaptic that i installed 0.8.15?
+2012-01-03T16:30:00.000Z	tim_		is there no way of telling synaptic "hey i already installed a new version. Tell me when there is a newer than that i have installed."? :/
+2012-01-03T16:31:00.000Z	tim_		ok thank you a lot!
+2012-01-03T16:32:00.000Z	metaspikes	tim_	pif possible i would use... dpkg-buildpackage -rfakeroot . or at least - fakeroot checkinstal make install - to build the package after make, it's safter than sudo'ing it incase the build goes haywire.

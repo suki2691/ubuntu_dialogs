@@ -1,0 +1,4 @@
+2007-04-11T06:27:00.000Z	gesus		can someone please tell me how to start samba??? /etc/init.d/samba start works, but i still can't connect to this machine via xbox.. what am i missing?
+2007-04-11T06:28:00.000Z	ranf	gesus	have you created a samba user? man smbpasswd
+2007-04-11T06:30:00.000Z	gesus	ranf	yes i have :|
+2007-04-11T06:30:00.000Z	ranf	gesus	you can turn on some more detailed logging (in smb.conf I think).

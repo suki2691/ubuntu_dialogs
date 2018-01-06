@@ -1,0 +1,4 @@
+2009-12-16T15:28:00.000Z	Goliath		[12:27] <Goliath> I removed by mistake sudo with pacman. Whoever pacman saved /etc/sudoers as /etc/sudoers.pacsave, so when i installed again sudo i removed the new sudoers and used the old. But when i run a command using sudo i get this:
+2009-12-16T15:28:00.000Z	Goliath		[12:27] <Goliath> sudo: /etc/sudoers is mode 0644, should be 0440
+2009-12-16T15:28:00.000Z	Goliath		[12:27] <Goliath> sudo: no valid sudoers sources found, quitting
+2009-12-16T15:29:00.000Z	Slart	Goliath	have you been editing your sudoers file?

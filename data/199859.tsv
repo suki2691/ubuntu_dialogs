@@ -1,0 +1,4 @@
+2006-09-07T11:20:00.000Z	isodude		Hey. I would like some help with firefox obv. It won't simply start because of itself saying it's already running. So it says when I start it directly after a reboot.
+2006-09-07T11:21:00.000Z	sid	isodude	killall firefox-bin
+2006-09-07T11:21:00.000Z	isodude	sid	well, done that.
+2006-09-07T11:21:00.000Z	sid	isodude	lsof|grep -i firefox

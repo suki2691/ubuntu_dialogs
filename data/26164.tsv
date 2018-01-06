@@ -1,0 +1,4 @@
+2011-04-01T09:22:00.000Z	david430		Attempting to set firestarter in startup applications getting error user must have root access to enable program have set user to administrator ubuntu 10.10
+2011-04-01T09:23:00.000Z	david430		how do i set root access?
+2011-04-01T09:23:00.000Z	joshmc	david430	firewall rules would seem to require root access. use `gksudo firestarter` or w/e the name is.
+2011-04-01T09:24:00.000Z	joshmc	david430	as a rule of thumb, to start graphical apps as root prepend gksudo to the app. Just remember, with great power comes great responsibility.

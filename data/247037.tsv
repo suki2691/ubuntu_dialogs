@@ -1,0 +1,4 @@
+2008-03-19T07:14:00.000Z	tems		Hey guys - I have determined that under windows my display driver is an "Intel(R) 965 Express Chipset Family" and it appears that is not one of the types on the xserver-xorg configuration
+2008-03-19T07:15:00.000Z	tems		Any ideas on how to remedy that?  Some guy on the web had some joy typing :sudo apt-get install 915resolution xserver-xorg-video-intel
+2008-03-19T07:15:00.000Z	tems		but that doesn't work for me.
+2008-03-19T07:16:00.000Z	fr500	tems	you installed the packaged, but did you set the resolution accordingly?

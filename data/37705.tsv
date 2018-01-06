@@ -1,0 +1,4 @@
+2011-04-08T07:44:00.000Z	UkeofJersey		I had added a PPA source via terminal (pmcenery for iphone stuff) and after perusing the other stuff, decided to remove the source.  I removed it from Software Sources and no dice.  I then deleted the two pmcenery files from /etc/apt/sources.list.d and it STILL shows up in Software Center
+2011-04-08T07:45:00.000Z	UkeofJersey		I'm gonna guess no, flan
+2011-04-08T07:46:00.000Z	ohsix	UkeofJersey	reinstall the ppa, then use ppa-purge to remove it; it will pin the old versions and downgrade for you, by default no package manager will offer a downgrade
+2011-04-08T07:58:00.000Z	ohsix	UkeofJersey	it'd be in the same format as you'd use with apt-add-repository; which is listed on the launchpad ppa page

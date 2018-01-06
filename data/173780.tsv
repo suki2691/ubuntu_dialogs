@@ -1,0 +1,4 @@
+2006-09-17T08:41:00.000Z	Senesence		is there a way to create multiple sub-dirs through BASH without rewriting the absolute bath, but not being in the relative path either?
+2006-09-17T08:41:00.000Z	wastrel	Senesence	 you could export a variable that expands to the path
+2006-09-17T08:44:00.000Z	Senesence	wastrel	I was thinking something so I don't have to type 'mkdir dir/subdir/dir1 dir/subdir/dir2'. Is there a way to do just mkdir dir/subdir and then create both directories 1 and 2 under subdir without rewriting the path for dir 2??
+2006-09-17T08:45:00.000Z	wastrel	Senesence	 not that i know of.

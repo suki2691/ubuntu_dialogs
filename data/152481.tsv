@@ -1,0 +1,4 @@
+2007-02-09T14:38:00.000Z	mikejanssen		is 'sudo apt-get upgrade' the way to do an update check on installed apps? if not, what command is it?
+2007-02-09T14:38:00.000Z	mikejanssen		doesnt that just update repositories?
+2007-02-09T14:40:00.000Z	Ferret	mikejanssen	The usual way is apt-get update; apt-get dist-upgrade --dry-run
+2007-02-09T14:40:00.000Z	Ferret	mikejanssen	removing the --dry-run if you actually want to do ti

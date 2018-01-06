@@ -1,0 +1,4 @@
+2007-11-29T21:01:00.000Z	RobD		hiya, anybody know why the Network Manager insists on overirding my DNS settings on boot up? Not every time but often enough to be annoying
+2007-11-29T21:03:00.000Z	Pici	RobD	edit /etc/dhcp3/dhclient.conf and put a line that says 'prepend domain-name-servers xx.xx.xx.xx yyy.yy.yyy.yy'
+2007-11-29T21:03:00.000Z	Pici	RobD	where xx and yy are some dns servers
+2007-11-29T21:04:00.000Z	RobD	Pici	will give it a go

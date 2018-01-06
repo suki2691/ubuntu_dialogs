@@ -1,0 +1,4 @@
+2008-03-27T21:28:00.000Z	kditty_		i just set up a samba newtwork, when i try to connect from my xp machine it asks for a password, which would i use? my ubuntu pass or my router pass
+2008-03-27T21:29:00.000Z	kditty_		ok let me  try again
+2008-03-27T21:30:00.000Z	unop_	kditty_	you might need to setup a samba user for your system account
+2008-03-27T21:32:00.000Z	unop_	kditty_	on the ubuntu machine -- run this command - sudo smbpasswd $USER

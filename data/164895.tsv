@@ -1,0 +1,4 @@
+2006-10-10T05:38:00.000Z	MikeyMike		how can i ls to show the largest files first regardless of location?
+2006-10-10T05:38:00.000Z	MikeyMike		i want to search my entire root for the largest files first
+2006-10-10T05:39:00.000Z	Knuta	MikeyMike	use find with -printf and some size constraints, then pipe the whole thing into sort.
+2006-10-10T05:39:00.000Z	MikeyMike	Knuta	 thats sorta vague :( can you help a little more?

@@ -1,0 +1,4 @@
+2007-09-14T09:41:00.000Z	franky123		hey, i just did sudo apt-get install mysql-server php5 apache2 php5-mysql. but i still get the error "undefined call to function mysql_connect". how to fix?
+2007-09-14T09:42:00.000Z	UberGeekInc	franky123	configure mysql-server
+2007-09-14T09:45:00.000Z	UberGeekInc	franky123	install mysql-server, then go to /usr/share/doc/mysql-server/ (?) to read the readme to give you instructions - look for the debian readme
+2007-09-14T09:47:00.000Z	UberGeekInc	franky123	`zless /usr/share/doc/mysql-server-5.0/README.Debian.gz`

@@ -1,0 +1,4 @@
+2011-09-19T14:03:00.000Z	AttaBOY		Can I make a cronjob using sudo crontab +e that opens a gnome-terminal? Then runs shutdown 10. I want this to display the shutdown message in the recently open gnome-terminal. Since the users probably don't have a terminal open they would not see the shutdown message unless I do it like this?
+2011-09-19T14:04:00.000Z	ikonia	AttaBOY	that's not a good design as how would you force the terminal to the display
+2011-09-19T14:04:00.000Z	ikonia	AttaBOY	easier to look at gtk message popup tools,
+2011-09-19T14:04:00.000Z	AttaBOY	ikonia	Thank you.

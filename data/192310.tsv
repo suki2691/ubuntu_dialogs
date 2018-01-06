@@ -1,0 +1,4 @@
+2006-08-11T09:44:00.000Z	monkey13		What do I need to edit configwise to allow me to launch an xterm from a remote server to my localhost?
+2006-08-11T09:44:00.000Z	harisund	monkey13	are you planning on doing ti using SSH X forwards perhaps?
+2006-08-11T09:46:00.000Z	harisund	monkey13	you would conect to the remote server using "ssh -X user@remote-machine" ..
+2006-08-11T09:49:00.000Z	harisund	monkey13	make sure the remote machine has an ssh server with x forwarding enabled.

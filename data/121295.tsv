@@ -1,0 +1,4 @@
+2007-10-09T10:16:00.000Z	t3hub3rk1tten		Anyone know off the top of their heads where the gnome login screen pam config files are?
+2007-10-09T10:17:00.000Z	t3hub3rk1tten		allow it to use empty passwords
+2007-10-09T10:17:00.000Z	heguru	t3hub3rk1tten	/etc/pam.d/gdm
+2007-10-09T10:17:00.000Z	heguru	t3hub3rk1tten	add nullok to auth line

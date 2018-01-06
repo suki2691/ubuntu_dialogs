@@ -1,0 +1,4 @@
+2007-02-23T08:54:00.000Z	b0r15		where do I configure basic settings for vsftpd, such as home directory, user accounts, etc.?
+2007-02-23T08:54:00.000Z	cafuego_	b0r15	it uses /etc/passwod
+2007-02-23T08:54:00.000Z	cafuego_	b0r15	If they're supposed to be ftp-only, you set the shell to /bin/false
+2007-02-23T08:55:00.000Z	cafuego_	b0r15	home directories are created by the adduser script

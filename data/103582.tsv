@@ -1,0 +1,4 @@
+2008-09-18T11:22:00.000Z	desaints		how do i add deb http://flomertens.keo.in/ubuntu/ edgy main main-all to my sources list?
+2008-09-18T11:22:00.000Z	desaints		how do i add "deb http://flomertens.keo.in/ubuntu/ edgy main main-all" to my sources list?
+2008-09-18T11:23:00.000Z	desaints		hardy heron
+2008-09-18T11:25:00.000Z	ActionParsnip	desaints	gksu gedit /etc/apt/sources.lst and add the line at the bottom. make sure you press enter on the end of the line. you will need to run sudo apt-get update

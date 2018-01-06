@@ -1,0 +1,4 @@
+2011-05-16T08:48:00.000Z	afeijo		hey IOAPIC is off in my vbox! I need that on right?
+2011-05-16T08:48:00.000Z	cablop	afeijo	not really
+2011-05-16T08:49:00.000Z	cablop	afeijo	tntc afaik the necessary think is to expose the pae to the guest
+2011-05-16T08:52:00.000Z	cablop	afeijo	there's an option that says it exposes the memory or processor allocation of the host to the guest, dunno remember the exact words, you need to enable them in order to make 64 bit oses run inside the vm

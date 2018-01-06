@@ -1,0 +1,4 @@
+2011-02-23T14:50:00.000Z	oopepe		Hi, where is a good place to store my custom iptables script in ubuntu so that it gets loaded on server reboot? Im running ubuntu server 10.04. I dont want to use ufw.
+2011-02-23T14:51:00.000Z	Gnea	oopepe	I just save it somewhere like this:  iptables-save > /etc/network/firewall  then call it at boottime in /etc/network/interfaces like this:  post=up iptables-restore < /etc/network/firewall
+2011-02-23T14:51:00.000Z	Gnea	oopepe	er, post-up
+2011-02-23T14:51:00.000Z	oopepe	Gnea	Ok, thank you

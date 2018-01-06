@@ -1,0 +1,4 @@
+2007-12-31T22:19:00.000Z	Sncza		hey. i got 2 ftps, and i want to sync between them so i will able to do ftp mirror copy in cause of crash... is rsync good for me?
+2007-12-31T22:19:00.000Z	linxeh	Sncza	yes
+2007-12-31T22:20:00.000Z	linxeh	Sncza	no, you can do rsync over ssh quite easily
+2007-12-31T22:21:00.000Z	linxeh	Sncza	you will want to run rsync over ssh. really you should be using sftp or scp instead of normal ftp anyway (ftp sends passwords in plaintext generally)

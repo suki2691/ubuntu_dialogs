@@ -1,0 +1,4 @@
+2011-08-11T09:33:00.000Z	MarcelT3		hey there, is there a way to get info on how much memory all processes of a type together are using? some top/ps option or so...
+2011-08-11T09:33:00.000Z	SwedeMike	MarcelT3	what "type" is that?
+2011-08-11T09:34:00.000Z	MarcelT3	SwedeMike	like there are ten instances of mysqld running and i need to keep an eye on mem
+2011-08-11T09:36:00.000Z	SwedeMike	MarcelT3	well, I'd use ps then, and create a oneliner to add up all the memory usage.

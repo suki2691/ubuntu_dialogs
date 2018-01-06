@@ -1,0 +1,4 @@
+2008-08-15T02:18:00.000Z	awmcclain		How can I install an older version of a package using apt-get?
+2008-08-15T02:18:00.000Z	histo	awmcclain	check in /var/cache/apt/archives
+2008-08-15T02:19:00.000Z	histo	awmcclain	just use dpkg -i to install the specific deb.
+2008-08-15T02:20:00.000Z	awmcclain	histo	Hrm. I can't just do apt-get install <package>=<old-version>?

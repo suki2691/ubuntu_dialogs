@@ -1,0 +1,4 @@
+2010-12-23T01:14:00.000Z	alex88		hi, i've installed ubuntu on single partitoin, how can i make another one for /boot to put there some iso to boot and make things working? i just need idea in how to proceed..
+2010-12-23T01:16:00.000Z	balloooza	alex88	you can resize the ubuntu partition with the ubuntu live cd and then boot back into ubuntu, and make the new partition, get its uuid, copy over everything in boot with cp -p -r and then add it to your /etc/fstab
+2010-12-23T01:16:00.000Z	alex88	balloooza	ok i'll do that..thank you..btw, can't i do all on livecd, then chroot and update grub?
+2010-12-23T01:17:00.000Z	balloooza	alex88	I should restate that, since it could ruin your ubuntu if done wrong...

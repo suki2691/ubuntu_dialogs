@@ -1,0 +1,4 @@
+2008-11-17T23:16:00.000Z	LoRe		warning: alsa_setup( hw:0,0)-failed to open pcm device: device or resource busy
+2008-11-17T23:17:00.000Z	LoRe		how can i find out who is blocking my sound card?
+2008-11-17T23:18:00.000Z	erUSUL	LoRe	sudo lsof /dev/snd/*
+2008-11-17T23:25:00.000Z	LoRe	erUSUL	there's only  mixer_applet2 showing up

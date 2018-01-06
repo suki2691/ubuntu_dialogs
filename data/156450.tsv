@@ -1,0 +1,4 @@
+2009-03-19T02:59:00.000Z	iamthelostboy		hello.. I'm building a system running ubuntu 8.04, and when started / (on sda1) is mounted read only, and /var (on sda2) is read/write.. i cant see anything in the start up scripts on my working 8.04 machine that is very different to the non-working one, and cant see anything which is chaning the mounts around.. any ideas what might be causing / to not be remounted as read/write?
+2009-03-19T03:00:00.000Z	genii	iamthelostboy	/ mount options in fstab are usually set to remount in read-only if there is some error at first
+2009-03-19T03:01:00.000Z	genii	iamthelostboy	So you should probably boot to recovery kernel and fsck the drive
+2009-03-19T03:03:00.000Z	genii	iamthelostboy	"defaults" is: rw, suid, dev, exec, auto, nouser, and async   options.

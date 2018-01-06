@@ -1,0 +1,4 @@
+2008-10-01T13:04:00.000Z	fondor1		Hey all, quick question about Python and $PATH.  I want to be able to execute a python script no matter where I am when browsing in the file system.  I think this means I just need to make my script executable (done) and moved to /usr/local/bin (done), then use it by typing ./script.py  Unfortunately this doesn't work - bash says it can't find it.
+2008-10-01T13:06:00.000Z	favro	fondor1	the ./ part means look in this directory - try just script.py
+2008-10-01T13:07:00.000Z	fondor1	favro	well dahur, thanks so much favro.  I was so close minded I forgot to think about how I was executing it...!
+2008-10-01T13:07:00.000Z	favro	fondor1	been there done that :)

@@ -1,0 +1,4 @@
+2007-07-26T07:26:00.000Z	esteem		A file on my desktop is protected (permissions) as root because I made the file using sudo. How can I get the file to be writeable by all users?
+2007-07-26T07:26:00.000Z	kercyr	esteem	I'm not sure if you actually want to do this, but: chmod 777 filename
+2007-07-26T07:27:00.000Z	kercyr	esteem	sudo chmod 777 filename
+2007-07-26T07:27:00.000Z	esteem	kercyr	 see thing is, that doesn't work for some reason. there's still a large lock on the icon and when I go into permissions it just says root

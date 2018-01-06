@@ -1,0 +1,4 @@
+2010-12-20T08:20:00.000Z	ace007		Is it possible to transfer to windows mobile 7 phone? lsusb seems to detect it, but i cant mount it or see it in rhythmbox, any ideas?
+2010-12-20T08:21:00.000Z	ActionParsnip	ace007	does a partition show up in: sudo fdisk -l
+2010-12-20T08:23:00.000Z	ActionParsnip	ace007	ok, reboot and login without the device attached, then plug it in and run:  dmesg | tail -n 20    it may give clues
+2010-12-20T08:29:00.000Z	ActionParsnip	ace007	not hugely informative, all it says is "a usb device is attached" etc

@@ -1,0 +1,4 @@
+2009-07-25T03:17:00.000Z	burkmat		On Ubuntu Server, how would I most easily configure it to avoid certain processes gaining 100% CPU usage (effectively locking everyone out of the system)? Could this be done using limits? All I've found is limiting CPU time...
+2009-07-25T03:19:00.000Z	gartral	burkmat	you need to make some proccess have lower priority, linux servers aremeant too be able too have several proccess running at 100% cpu time, and not adversly affect the system
+2009-07-25T03:21:00.000Z	burkmat	gartral	Yeah, but adjusting priority for every single process that will ever run seems a tad... tedious. Or should I just set login & bash to a negative prio?
+2009-07-25T03:23:00.000Z	gartral	burkmat	you can easily set the priorities of a few proccesses, as its unlikely that they ALL will be taking 100% cpu all the time ;)

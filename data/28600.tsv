@@ -1,0 +1,4 @@
+2010-08-03T13:41:00.000Z	pea_brain		i have pasted my rules on the pastebin: http://ubuntu.pastebin.com/8DZwhjSG can anyone tell me why the server is not able to make any outgoing connections ?
+2010-08-03T13:42:00.000Z	ilovefairuz	pea_brain	"ports"? NAT/IP Masquerading forwards packets. Port forwarding is a different but related issue and by default, you'd have to manually specify what external ports are mapped to what internal ports (and to which machine.) Read on iptables.
+2010-08-03T13:47:00.000Z	ilovefairuz	pea_brain	that sounds very simple so why not use ufw?
+2010-08-03T13:50:00.000Z	ilovefairuz	pea_brain	ufw default deny outgoing; ufw allow out ssh

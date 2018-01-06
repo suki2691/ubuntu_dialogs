@@ -1,0 +1,4 @@
+2008-01-14T06:08:00.000Z	arthur37854		question? I installed a xtra hard drive into my computer, internal, to get permissions do I chmod 777 /dev/disk or should I use a different chmod?
+2008-01-14T06:09:00.000Z	arthur37854		yes
+2008-01-14T06:09:00.000Z	Yv12345vY	arthur37854	no, you'll have to mount it first
+2008-01-14T06:10:00.000Z	Yv12345vY	arthur37854	you can use whatever you want but not on /dev/disk, chmod the mount point

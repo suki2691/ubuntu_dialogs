@@ -1,0 +1,4 @@
+2011-08-15T21:41:00.000Z	hazz		hi guys i got a little problem setting a ssh -x from a backtrack pc to a ubuntu laptop, i'm not able to see the ubuntu remote desktop
+2011-08-15T21:41:00.000Z	hazz		any help will be appreciated
+2011-08-15T21:43:00.000Z	Dulak	hazz	you can setup a vnc, or nxserver, or xrdp on the remote side to get a desktop type interface
+2011-08-15T21:45:00.000Z	Dulak	hazz	ssh -X will let you do something like 'sudo wireshark -i eth0' on the remote side and see the wireshark window on your local machine.  to see a desktop you need a remote desktop daemon running on the remote side.

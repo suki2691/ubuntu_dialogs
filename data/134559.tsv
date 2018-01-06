@@ -1,0 +1,4 @@
+2009-04-27T06:40:00.000Z	jdu	m0u5e	I am not sure ubuntu caches dns by default, as it is not running nscd
+2009-04-27T06:40:00.000Z	m0u5e	jdu	hmm okay thx
+2009-04-27T06:41:00.000Z	jdu	m0u5e	If you have nscd running, you can restart that with:  sudo /etc/init.d/nscd restart
+2009-04-27T06:41:00.000Z	jdu	m0u5e	and that would flush it.

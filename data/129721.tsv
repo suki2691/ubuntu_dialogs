@@ -1,0 +1,4 @@
+2007-06-30T16:25:00.000Z	centaur5		my atheros as5050 card doesn't even show in ifconfig but it shows that the atheros driver is being used. What should I do?
+2007-06-30T12:33:00.000Z	centaur5		Feisty on my Acer says the Atheros card is an unknown device and when I try to use ndiswrapper it says that there isn't any hardware for the driver. What can I do?
+2007-06-30T12:33:00.000Z	pike__	centaur5	my atheros card only required me to sudo apt-get install linux-restricted-modules-$(uname -r)
+2007-06-30T12:34:00.000Z	centaur5	pike__	The restricted-manager already tells me the Atheros HAL driver is being used.

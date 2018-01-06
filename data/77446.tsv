@@ -1,0 +1,4 @@
+2008-11-27T22:27:00.000Z	nibsa1242b		is there a command like lspic or lsdvd that will allow me to know the make and model of a dvd drive?
+2008-11-27T22:27:00.000Z	LjjjL	nibsa1242b	hdparm -i /dev/whatever
+2008-11-27T22:28:00.000Z	nibsa1242b	LjjjL	tnx
+2008-11-27T22:29:00.000Z	LjjjL	nibsa1242b	or "sudo lshw -C disk"

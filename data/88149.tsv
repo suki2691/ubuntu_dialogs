@@ -1,0 +1,4 @@
+2008-06-09T08:56:00.000Z	elmer		what's the program that automatically mounts drives? gnome-volume-manager is apparently not it.
+2008-06-09T08:58:00.000Z	elmer		My thumb drive isn't automatically mounted and when I right click -> mount, it says it can't mount. When I mount it from the command line, it says "mount: can't find /media/sdb1/ in /etc/fstab or /etc/mtab"
+2008-06-09T08:59:00.000Z	quixote	elmer	you may need to manually put an entry into /etc/fstab
+2008-06-09T09:03:00.000Z	quixote	elmer	alternatively, make sure System / Prefs / Removable Drives has the option set to "mount when hotplugged"

@@ -1,0 +1,4 @@
+2011-05-01T20:29:00.000Z	escott	sakuramboo	check your glxinfo
+2011-05-01T20:31:00.000Z	sakuramboo	escott	i have direct rendering
+2011-05-01T20:31:00.000Z	escott	sakuramboo	does it look right for your hardware. its possible to install things that can break glx
+2011-05-01T20:35:00.000Z	sakuramboo	escott	i found out the problem, i have a separate partition for /tmp, when i upgraded, ubuntu put /tmp on the / partition, last night, i added /tmp to /etc/fstab, but in doing so, it now couldnt load unity, i commented out the line, rebooted and now it works

@@ -1,0 +1,4 @@
+2008-02-21T18:23:00.000Z	Christina18		How do I restore/fix X window from the terminal when i am unable to startx ?
+2008-02-21T18:23:00.000Z	macogw	Christina18	you can try "sudo dpkg-reconfigure xserver-xorg" or you can use "sudo nano /etc/X11/xorg.conf" to edit the file manually
+2008-02-21T18:24:00.000Z	macogw	Christina18	if you know how to use emacs (and have it installed) or vim, you can use those instead of nano, but nano has the lowest learning curve
+2008-02-21T18:24:00.000Z	macogw	Christina18	well, as long as you know that ^ means you press Ctrl with the letter and that "Write Out" means "Save"

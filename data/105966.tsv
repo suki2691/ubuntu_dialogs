@@ -1,0 +1,4 @@
+2010-06-16T04:59:00.000Z	Zoffix		oo-oohh... So.. what the heck do I do now:  zoffix@ZofMain:~$ sudo chmod 0440 /etc/sudoers    sudo: /etc/sudoers is mode 0666, should be 0440    Segmentation fault
+2010-06-16T05:01:00.000Z	Zoffix		Ahh. Never mind my last inquiry. I had to `su` to root first
+2010-06-16T05:03:00.000Z	Bodsda	Zoffix	that is insane. apt-url would then be able to install anything without asking! I suggest you comment that line back out
+2010-06-16T05:04:00.000Z	Zoffix	Bodsda	hmmmmm... good point.

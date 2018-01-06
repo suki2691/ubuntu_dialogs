@@ -1,0 +1,4 @@
+2007-08-07T16:40:00.000Z	jordan_		Hello, I have a web server with vsftpd and i use the FTP to upload junk into /var/www to go online - but its uploaded with no permissions (apache cannot read it, so it does not show up online).  How can I keep my /var/www directory open to all?
+2007-08-07T16:41:00.000Z	XLV	jordan_	chmod a+rw directory
+2007-08-07T16:41:00.000Z	jordan_	XLV	- but when i upload new stuff it has no permissions
+2007-08-07T16:42:00.000Z	XLV	jordan_	check umask if you want new files written in the dir to have certain permissions

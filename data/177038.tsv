@@ -1,0 +1,4 @@
+2007-06-06T12:51:00.000Z	allblacks_		hi i have a big question : why does my ubuntu can not see my external hdd on USB  but it can see a 2gb flash on USB i have tested the hdd on diffrent linux and it worked
+2007-06-06T12:52:00.000Z	allblacks_		teamwork could you help me on that?
+2007-06-06T12:52:00.000Z	finalbeta	allblacks_	see if you can see the drive with gparted (if not installed, install it from apt), if you don't see the usb disk. type dmesg and check if you see any usb related errors
+2007-06-06T12:52:00.000Z	finalbeta	allblacks_	if you get the errors, post them on the forums or something, but it probably would mean the drive is not supported.

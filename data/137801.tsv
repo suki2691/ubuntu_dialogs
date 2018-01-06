@@ -1,0 +1,4 @@
+2012-07-31T14:16:00.000Z	primefalcon		its like the lib32 folder doesn't exist, you could try creating it but, I doubt that would resolved the issue
+2012-07-31T14:17:00.000Z	primefalcon		just try it anyhow cant hurt sudo mkdir /usr/lib32; sudo ln -s /usr/lib32/libcrypto.so.0.9.8 /usr/lib32/libcrypto.so.4
+2012-07-31T14:18:00.000Z	primefalcon		the lib crypto does but the lib32 folder doesn't by the looks of it
+2012-07-31T14:18:00.000Z	llutz	primefalcon	how would he link a not existing file even if he creates the directory?

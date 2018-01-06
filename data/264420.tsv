@@ -1,0 +1,4 @@
+2004-10-14T14:01:00.000Z	mendel		I am have trouble with apt-get update. I keep getting a failed to fetch Packages.gz Sub-process gzip returned an error code (1). Is there a problem with the repo or do I need to do something to fix.
+2004-10-14T14:02:00.000Z	|trey|	mendel	check sources.list.. something is typed wrong
+2004-10-14T14:18:00.000Z	|trey|	mendel	what does the repo state? (copy paste line from sources.list)
+2004-10-14T14:23:00.000Z	|trey|	mendel	remove the word "restricted" from the line... they don't appear to distribute it...

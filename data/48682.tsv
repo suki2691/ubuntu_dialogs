@@ -1,0 +1,4 @@
+2010-09-19T20:41:00.000Z	SeaOrifice		My laptop uses  Ubuntu 10.04 LTS Desktop Edition and I have these questions : 1) I had seen an application which on every keystroke displays ascii value of it and some more information about it . I need to know its name 2) I am doubtful about the version i am using , my processor is 64 bit but gnome system manager displays only 2.96gb than 4gb of mine
+2010-09-19T20:42:00.000Z	aarcane	SeaOrifice	you can either use 64 bit ununtu, or you can install a "pae" kernel, if you run aptitude search pae you'll find the right kernel
+2010-09-19T20:43:00.000Z	SeaOrifice	aarcane	I would prefer changing to 64bit one, :)
+2010-09-19T20:44:00.000Z	aarcane	SeaOrifice	well, that's easy.  back up your install (tar, dd, scp, etc.), then download, burn, install the 64 bit ISO, and then restore such stuff as your home directory and use the logs to determine which packages to reinstal.

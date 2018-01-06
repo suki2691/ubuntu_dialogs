@@ -1,0 +1,4 @@
+2010-06-06T19:50:00.000Z	terry		How to install winrar?
+2010-06-06T19:51:00.000Z	theadmin	terry	You don't
+2010-06-06T19:51:00.000Z	theadmin	terry	do "sudo apt-get install rar unrar" to add RAR support to default archiver
+2010-06-06T20:00:00.000Z	theadmin	terry	sudo add-apt-repository "deb http://archive.canonical.com/ $(lsb_release -sc) partner" && sudo apt-get update && sudo apt-get install sun-java6-plugin

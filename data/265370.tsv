@@ -1,0 +1,4 @@
+2005-04-09T15:17:00.000Z	jnoreiko		what happens if I remove package lsb?
+2005-04-09T15:19:00.000Z	jnoreiko		how do I tell synaptic to get a package from the net and not ask me for the CD?
+2005-04-09T15:20:00.000Z	jnoreiko		... or how do I tell apt-get to force a reinstall?
+2005-04-09T15:20:00.000Z	Tomcat_	jnoreiko	Take the CD out of /etc/apt/sources.list, then apt-get update and install

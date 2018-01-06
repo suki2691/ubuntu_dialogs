@@ -1,0 +1,4 @@
+2007-03-08T08:03:00.000Z	root2		name/ needtoknow
+2007-03-08T08:05:00.000Z	root2		HOW DO I RESIZE MY UBUNTU PARTITION TO 15 GB AND give the rest to windows ( sorry about the caps )
+2007-03-08T08:05:00.000Z	bruenig	root2	gparted, you will need to use a live cd if you are trying to resize your root partition because you can't resize a mounted partition
+2007-03-08T08:07:00.000Z	bruenig	root2	a terminal, and cdrecord dev=/dev/whatever whatever.iso

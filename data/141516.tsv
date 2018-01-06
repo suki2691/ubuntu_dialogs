@@ -1,0 +1,4 @@
+2007-05-20T05:05:00.000Z	lupusbeta		on ubuntu release 5.10 i want to install tightvncviewer 1.3.9 it says "vncviewer: /lib/tls/i686/cmov/libc.so.6: version `GLIBC_2.4' not found (required by vncviewer)
+2007-05-20T05:05:00.000Z	lupusbeta		"
+2007-05-20T05:06:00.000Z	lupusbeta		is there a way ? maybe Java version?
+2007-05-20T05:07:00.000Z	SlimeyPete	lupusbeta	you need a different version of glibc. But don't install one - it'll probably break most of your system.

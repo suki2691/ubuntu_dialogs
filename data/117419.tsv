@@ -1,0 +1,4 @@
+2008-01-13T05:43:00.000Z	kubitz		Hello I've just changed form Debian (my first try at linux) to Ubuntu partly because I'd read it has better hardware support and sure enough it recognised my old soundcard, but I have a very curious problem. Ubuntu cannot shut my system down properly. It says it always fails to shut down the network, but i suspect the issue is down to my having two ethernet cards, only one of which is connected. Is there any easy way of trouble shooting 
+2008-01-13T05:43:00.000Z	desertc	kubitz	Have you looked at the error log?
+2008-01-13T05:44:00.000Z	kubitz	desertc	could you direct me
+2008-01-13T06:01:00.000Z	kubitz	desertc	Going back to my shutdown failure, I'm getting error messages like "eth0: link is not ready" which makes sense because that's the one with no lead, by why is it trying to close a connection that was never open? I suppose this is a problem I can put up with for a while.

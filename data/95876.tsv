@@ -1,0 +1,4 @@
+2009-04-01T10:58:00.000Z	bullgard4		"~$lsmod | sort" output includes a line: "snd_hda_intel 346136  3". What does mean the '3'?
+2009-04-01T10:59:00.000Z	mutew	bullgard4	it means that there are three other inserted modules dependent on it.
+2009-04-01T11:01:00.000Z	bullgard4	mutew	I am inclined to not believing you: There are other output lines where the depends are listed and there that number does not correspond to the number of modules listed.
+2009-04-01T11:03:00.000Z	bullgard4	mutew	Example: "snd_seq                54224  6 snd_seq_dummy,snd_seq_oss,snd_seq_midi,snd_seq_midi_event"

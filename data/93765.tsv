@@ -1,0 +1,4 @@
+2008-10-11T20:15:00.000Z	grindhold		hey guys i have a problem. i have a pc with 2 500 GB SATA harddisks. the ubuntu OS-installer does not recognize those disks. GParted, too and in /dev there is no "sda"-entry
+2008-10-11T20:15:00.000Z	grindhold		does anyone know what could cause this problem?
+2008-10-11T20:16:00.000Z	erUSUL	grindhold	check bios settings for tha sata controller enable ahci if aviable (intel chipsets)
+2008-10-11T20:24:00.000Z	grindhold	erUSUL	thx! it worked

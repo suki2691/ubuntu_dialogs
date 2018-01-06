@@ -1,0 +1,4 @@
+2009-07-28T09:00:00.000Z	pog		I also like to have a squence in gnome starter-menu - |killall firefox; firefox -p default --restart > /dev/null 2>&1& |
+2009-07-28T09:01:00.000Z	pog		why nothing is executed? All commands work on the commandline.
+2009-07-28T09:02:00.000Z	overclucker	pog	echo "killall firefox; firefox -p default --restart > /dev/null 2>&1&" > badfox.sh
+2009-07-28T09:18:00.000Z	pog	overclucker	o.k. thanks, I put "badfox" in a script now  and starting this worked. (I's strange anyway that there Alt-F2 and Gnome-Starters have these restrictions...)

@@ -1,0 +1,4 @@
+2006-11-28T08:43:00.000Z	macgyver_79		question, can grub load an os in an extended partition???
+2006-11-28T08:43:00.000Z	Flannel	macgyver_79	yep
+2006-11-28T08:54:00.000Z	Flannel	macgyver_79	uh, I'm not sure windows can be put on an extended partition, actually.  But, it's just editing the grub menu and adding the appropriate commands.
+2006-11-28T08:59:00.000Z	Flannel	macgyver_79	well, I don't know about the exact text... google returns this, which looks right: http://blog.firetree.net/2005/08/26/duel-boot-windows-with-grub/  (mapping is the key, since it makes windows think it's on hda)

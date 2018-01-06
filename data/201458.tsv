@@ -1,0 +1,4 @@
+2006-01-09T07:07:00.000Z	wasabi_		Hello. Trying to get my nvidia card working with a 1920x1200 monitor. No luck. Xorg says it's ignoring the modes because they are out of range.
+2006-01-09T07:09:00.000Z	wasabi_		ddcprobe also doesn't list 1920x1200
+2006-01-09T07:09:00.000Z	bodaciousbrian	wasabi_	have you tried editing your /etc/X11/xorg.conf file?
+2006-01-09T07:11:00.000Z	bodaciousbrian	wasabi_	 try edditing your xorg.conf file, look where it lists the resolutions tword the bottoms and add the resolution you want to the list,    restart x, then under System goto preferences, then screen resolution to select the new one you enterd

@@ -1,0 +1,4 @@
+2011-09-23T23:05:00.000Z	Tophan		hi
+2011-09-23T23:07:00.000Z	Tophan		whats the best way to make Ubuntu run this at boot? :
+2011-09-23T23:07:00.000Z	Tophan		# echo level 7 | sudo tee /proc/acpi/ibm/fan
+2011-09-23T23:09:00.000Z	ActionParsnip	Tophan	add it in /etc/rc.local   above exit 0. No need for sudo

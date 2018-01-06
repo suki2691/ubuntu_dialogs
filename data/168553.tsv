@@ -1,0 +1,4 @@
+2006-09-05T07:09:00.000Z	tjb891		does anyone here know how to configure ubuntus bittorent client so you can have outgoing connections (uploads)?
+2006-09-05T07:11:00.000Z	Gevaudan	tjb891	sounds like this is a firewall issue...open ports 6881 to 6999...if using iptables /sbin/iptables -I INPUT -p tcp --destination-port 6881:6999 -j ACCEPT
+2006-09-05T07:12:00.000Z	Gevaudan	tjb891	iptables is extremely robust, i haven't found a boiled down iptables tutorial in my searching...you can always use firestarter...but first if you are using a hardware firewall be sure to open up the ports i mentioned
+2006-09-05T07:14:00.000Z	Gevaudan	tjb891	if by nat you mean your hardware firewall/gateway/router then no

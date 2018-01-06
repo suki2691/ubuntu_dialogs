@@ -1,0 +1,4 @@
+2007-05-08T13:30:00.000Z	jpiccolo		why does my motd keep going back to the orginal version after i edited it?
+2007-05-08T13:30:00.000Z	timfrost	jpiccolo	because one of the init scripts re-creates it.
+2007-05-08T13:31:00.000Z	jpiccolo	timfrost	how would i be able to see what init script is doing that
+2007-05-08T13:33:00.000Z	timfrost	jpiccolo	on edgy, the script is /etc/rcS.d/S80bootmisc.sh.  Try 'grep motd /etc/rc?.d/S*'.

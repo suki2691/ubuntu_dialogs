@@ -1,0 +1,4 @@
+2006-09-10T11:32:00.000Z	geefrancis		make: *** [all]  Error 2
+2006-09-10T11:33:00.000Z	cafuego	geefrancis	You're missing the "linux-headers-$(uname -r)" package.
+2006-09-10T11:34:00.000Z	geefrancis	cafuego	or cynical. where would i then get that paclkage?
+2006-09-10T11:35:00.000Z	cafuego	geefrancis	sudo apt-get install linux-headers-$(uname -r)

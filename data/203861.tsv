@@ -1,0 +1,4 @@
+2006-12-02T11:18:00.000Z	jwise		hello,boys, what does the process "updatedb" do?
+2006-12-02T11:18:00.000Z	jwise		"updatedb" always take most of my cpu,memory resource...
+2006-12-02T11:18:00.000Z	deque	jwise	updatedb updates your locate database with new files. it gernerally considered a good thing
+2006-12-02T11:20:00.000Z	deque	jwise	it should only run once in awhile, usually daily. See about changin gthe cron entry to change it to be less frequent

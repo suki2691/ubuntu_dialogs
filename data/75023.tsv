@@ -1,0 +1,4 @@
+2008-12-28T06:08:00.000Z	CapaH		Does anyone here know why rndc will not start? I get: [fail] This may indicate that the remote server is using an older version of the command protocol, this host is not authorized to connect, the clocks are not syncronized, or the key is invalid <-- ?
+2008-12-28T06:10:00.000Z	zsquareplusc	CapaH	such an nice error message.. it basically tells you that anything can be wrong.. heh. it looks like it cant connect to the server at all. can you "ping" the server? (and i don't know what rndc is)
+2008-12-28T06:16:00.000Z	CapaH	zsquareplusc	It has something to do with bind/named - it appears rndc is simply not running and refuses to start.
+2008-12-28T06:19:00.000Z	zsquareplusc	CapaH	the error message indicates a failure to start. but are you talking of the server or client of you mention bind/named?

@@ -1,0 +1,4 @@
+2007-04-23T09:38:00.000Z	jcapote		can the non-root user run cron jobs? i put stuff in cron and its not running
+2007-04-23T09:40:00.000Z	jcapote		so noone knows why only root can run cron jobs?
+2007-04-23T09:42:00.000Z	velko	jcapote	crontab -e
+2007-04-23T09:43:00.000Z	jcapote	velko	i do crontab -e and i put some bullshit cron job like * * * * * echo 'test' > /tmp/test

@@ -1,0 +1,4 @@
+2006-11-23T09:15:00.000Z	Keyseir		I'm getting a core dump when I try to use apt-get or open certain programs: http://paste.ubuntu-nl.org/33475/ Please help, I don't know where to start looking for my problem.
+2006-11-23T09:16:00.000Z	teledyn	Keyseir	strace it
+2006-11-23T09:16:00.000Z	Keyseir	LjL	I haven't used automatix for weeks. Does it seem likely this is the kind of error automatix propogates? I didn't use it to install any of the offending applications.
+2006-11-23T09:16:00.000Z	teledyn	Keyseir	something like strace -s 128 -o /tmp/strace.out -f apt-get update

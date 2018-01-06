@@ -1,0 +1,4 @@
+2008-03-23T14:34:00.000Z	arke		aaaaarggh
+2008-03-23T14:34:00.000Z	arke		ok, all widescreen resolutions that I'm using work fine, EXCEPT the native resolution of my monitor (1680x1050). What that does is that the entire picture is bunched up in the left 2/3 of the screen. Other resolutions like 1440x900 etc. work correclty. Any idea what I can do?
+2008-03-23T14:35:00.000Z	damo22	arke	sudo nano /etc/X11/xorg.conf ... add 1680x1050 to the list
+2008-03-23T14:37:00.000Z	arke	damo22	already there

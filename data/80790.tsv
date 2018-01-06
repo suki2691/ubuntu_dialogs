@@ -1,0 +1,4 @@
+2008-11-14T10:52:00.000Z	ubd		i want to copy files from one usb to another. however i dont have write permission. the drive which i am going to wrıte on is auto mounted and itis ext3. what shall i do
+2008-11-14T10:53:00.000Z	ubd		cp?
+2008-11-14T10:54:00.000Z	Ferrenrock	ubd	you need to add the user to a group that allows it to copy from removable data
+2008-11-14T10:55:00.000Z	Ferrenrock	ubd	you can't write because your user doesn't have write permission. You have to add it to the user group that lets its members write to removable drives

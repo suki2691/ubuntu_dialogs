@@ -1,0 +1,4 @@
+2008-06-17T19:21:00.000Z	adac		how can I see which old kernels still are installed?
+2008-06-17T19:21:00.000Z	Kartagis	adac	vi /boot/grub/menu.lst
+2008-06-17T19:23:00.000Z	adac	Kartagis	and which packages I have to remove if I wanna "delete" an old kernel?
+2008-06-17T19:24:00.000Z	Kartagis	adac	use dpkg -L linux-image-whatever to find out

@@ -1,0 +1,4 @@
+2005-10-01T16:11:00.000Z	barongas		I'm having some issues mounting an iso, when I mount it it says wrong fs type, bad option, etc etc so I check dmesg | tail and it says VFS: Can't find ext3 filesystem on dev loop0. and Unable to identify CD-ROM format. I'm not sure where to start...
+2005-10-01T16:12:00.000Z	P229	barongas	you have to specify fs type
+2005-10-01T16:12:00.000Z	barongas	P229	I used mount -o loop -t iso9660 /iso /point
+2005-10-01T16:14:00.000Z	P229	barongas	did you try it without specifying fs type?

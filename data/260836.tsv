@@ -1,0 +1,4 @@
+2005-05-20T10:36:00.000Z	sjohnson		*test*
+2005-05-20T10:36:00.000Z	paulproteus	sjohnson	Did you restart ProFTPd?
+2005-05-20T10:38:00.000Z	paulproteus	sjohnson	If it's using inetd, then you must change inetd.conf.
+2005-05-20T10:38:00.000Z	paulproteus	sjohnson	/etc/inetd.conf  - change the port from "ftp" to some number you want.

@@ -1,0 +1,4 @@
+2012-01-20T13:56:00.000Z	triferema		hi
+2012-01-20T13:56:00.000Z	triferema		i have a folder that needs to owned by www-data but still allow a normal user to write to it
+2012-01-20T13:56:00.000Z	triferema		how do I go about it
+2012-01-20T13:58:00.000Z	gvaiou	triferema	chown www-data.users  MYFOLDER ; chmod 775 MYFOLDER

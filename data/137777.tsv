@@ -1,0 +1,4 @@
+2010-02-05T12:44:00.000Z	ldiamond		I am trying to compile a kernel, but I get an error No space left on device. There is still space left on my HDD, but its trying to put a file in /tmp, which is only 912KB in size!
+2010-02-05T12:45:00.000Z	llutz	ldiamond	move /tmp to another partition
+2010-02-05T12:45:00.000Z	ldiamond	llutz	how?
+2010-02-05T12:45:00.000Z	llutz	ldiamond	create partition, make ext3/4, edit /etc/fstab to mount it at /tmp

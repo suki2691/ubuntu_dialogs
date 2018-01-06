@@ -1,0 +1,4 @@
+2012-02-20T13:53:00.000Z	ryanyeah		goddamn it. trying to increase the resolution of a ubuntu box im accessing via vnc and nothing i can find on google works. not even sure if creating the file /etc/X11/xorg.conf made any difference
+2012-02-20T13:54:00.000Z	Ben64	ryanyeah	are you connecting to :0 or a screen made for vnc?
+2012-02-20T13:56:00.000Z	ryanyeah	terminhell	well i don't have a physical monitor attached to it. but i go into the ubuntu resolution settings and the max is only 800x600. i can change settings to 150% on tightvnc but that just zooms in, so it does increase resolution but it makes it blurry
+2012-02-20T13:57:00.000Z	Ben64	ryanyeah	you'd have to set resolution on the vncserver

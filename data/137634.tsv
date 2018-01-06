@@ -1,0 +1,4 @@
+2010-02-20T00:35:00.000Z	damjanzg		I understand basic of ssh -X forwarding ,but one thing I cant get to my head. When I X forward e.g. firefox, then it is executed on the host machine, and a screen can be seen on client machine. My question is, is it possible to get same thing with video, ?
+2010-02-20T00:36:00.000Z	llutz	damjanzg	try video option x11
+2010-02-20T00:37:00.000Z	llutz	damjanzg	vlc -V x11, mplayer -vo x11 etc
+2010-02-20T00:39:00.000Z	llutz	damjanzg	afaik yes

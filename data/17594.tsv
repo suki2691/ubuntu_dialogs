@@ -1,0 +1,4 @@
+2011-06-07T02:07:00.000Z	Metroshica		Is there anyway to pipe the output of a grep command into a tar command?
+2011-06-07T02:08:00.000Z	Metroshica		I don't want to have to name them specifically, or move them to a temporary directory
+2011-06-07T02:09:00.000Z	NictraSavios	Metroshica	Gimme a sec to type it out
+2011-06-07T02:10:00.000Z	NictraSavios	Metroshica	Tar -azf $(grep command)

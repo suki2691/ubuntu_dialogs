@@ -1,0 +1,4 @@
+2009-07-06T22:22:00.000Z	NemesisUK		does anyone know how I could block access to a website thru iptables or if not iptables another probgam
+2009-07-06T22:22:00.000Z	slayton	NemesisUK	you can add the url to /etc/hosts and redirect it to localhost
+2009-07-06T22:23:00.000Z	slayton	NemesisUK	yes
+2009-07-06T22:23:00.000Z	slayton	NemesisUK	the /etc/hosts file is checked before a DNS query is sent out

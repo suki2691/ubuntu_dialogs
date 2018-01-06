@@ -1,0 +1,4 @@
+2009-03-08T22:09:00.000Z	eseven73		when adding a external disk to fstab, do i add it's "*-disk" or "*-volume" logical name? lshw shows it as either *-disk /dev/sdb or *-volume /dev/sdb1
+2009-03-08T22:10:00.000Z	sanjud	eseven73	-> now adays its preferred with UUID, but using the old /dev/sdaX as standby works still
+2009-03-08T22:10:00.000Z	eseven73	sanjud	I cant see a UUID though
+2009-03-08T22:11:00.000Z	sanjud	eseven73	-> blkid

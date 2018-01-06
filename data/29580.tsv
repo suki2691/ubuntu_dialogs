@@ -1,0 +1,4 @@
+2010-09-11T02:52:00.000Z	bemis		apologies if this is covered in a FAQ somewhere - but I can't seem to find an answer -- 10.04 and 10.10 CDs on all of my systems (dual-head NVidia Quadro) result in screen in "power save mode" -- there is a kernel boot line option that disabled the frame buffer stuff which allowed me to install in the past, but I can't find the syntax - anyone have any ideas?
+2010-09-11T02:54:00.000Z	guntbert	bemis	see http://www.backports.ubuntuforums.org/showthread.php?t=1484385   does that help?
+2010-09-11T02:54:00.000Z	bemis	guntbert	not really - trying to do initial install - so no /etc/ to mangle files in
+2010-09-11T02:55:00.000Z	guntbert	bemis	I see - as is stated there fb=false seem to work no more .... then I cannot help, sorry

@@ -1,0 +1,4 @@
+2005-09-29T07:06:00.000Z	Entranced		Hello
+2005-09-29T07:07:00.000Z	Entranced		I just ran apt dist-upgrade and I'm getting this error.. E: /var/cache/apt/archives/x-common_1.08_all.deb: trying to overwrite `/usr/lib/X11/fonts', which is also in package xfonts-bas
+2005-09-29T07:07:00.000Z	cesarin	Entranced	 I'm getting the same too
+2005-09-29T07:13:00.000Z	Entranced	cesarin	try this to fix the problem...It worked for me: sudo dpkg -i --force-overwrite /var/cache/apt/archives/x-common_1.08_all.deb

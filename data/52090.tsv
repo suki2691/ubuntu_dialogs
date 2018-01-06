@@ -1,0 +1,4 @@
+2009-07-23T06:27:00.000Z	twig11		What's the proper procedure to create a user whose home directory already exists in /home?
+2009-07-23T06:28:00.000Z	Ghoti__	twig11	probably 'adduser'
+2009-07-23T06:31:00.000Z	Ghoti__	twig11	you'd want do chown -R user:user /home/user/
+2009-07-23T06:32:00.000Z	twig11	Ghoti__	lvlefisto: okay I think I can handle that. Flannel: what is the syntax for that?

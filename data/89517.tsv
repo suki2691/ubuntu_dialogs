@@ -1,0 +1,4 @@
+2012-03-04T23:05:00.000Z	donal		when I installed tomcat7, a tomcat7 user was created. When tomcat runs, this is the user account it runs under. However, the home dir for tomcat was created with these permissions drwxr-xr-x   4 root root  4096 Mar  4 15:10 tomcat7
+2012-03-04T23:05:00.000Z	donal		which means tomcat can't write to it's own home dir, why would the home dir be created with such odd permissions?
+2012-03-04T23:06:00.000Z	jpds	donal	Why would you want to write there?
+2012-03-04T23:06:00.000Z	donal	jpds	my application creates persistent files

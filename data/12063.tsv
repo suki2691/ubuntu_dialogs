@@ -1,0 +1,4 @@
+2011-07-12T15:58:00.000Z	mbenke		HAWK dd if=/dev/zero of=/dev/<disk> bs=2048 (put proper device instead of <disk>)
+2011-07-12T15:58:00.000Z	mbenke		HAWK careful tho, it will really really wipe it
+2011-07-12T15:59:00.000Z	SwedeMike	mbenke	why do you set 2048 as blocksize? I usually go for around 1 meg. 2048 sounds small.
+2011-07-12T15:59:00.000Z	mbenke	SwedeMike	try to fit actual blocksize, avoid unnecessary buffering

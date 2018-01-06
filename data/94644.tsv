@@ -1,0 +1,4 @@
+2008-10-10T05:51:00.000Z	jabagawee		i have a folder with a bunch of txt files (sans extensions) in various subdirectories. what would the easiest way to append '.txt' to their names be?
+2008-10-10T05:52:00.000Z	chmac	jabagawee	You can probably do something very clever with command line substitution
+2008-10-10T05:53:00.000Z	jabagawee	ykphuah	umm, i basically want every file, minus the directories to have .txt appended to it
+2008-10-10T05:54:00.000Z	chmac	jabagawee	I'd suggest find is probably the simplest option

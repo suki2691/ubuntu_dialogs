@@ -1,0 +1,4 @@
+2005-07-29T05:29:00.000Z	vmh		hey
+2005-07-29T05:29:00.000Z	vmh		I'm having some problems installing java.. can anyone help me?
+2005-07-29T05:29:00.000Z	Seveas	vmh	To install java on Ubuntu: download the .bin file from java.sun.com, sudo aptitude install fakeroot java-package, chmod +x [the .bin file] , fakeroot make-jpkg [the bin file] , sudo dpkg -i [the generated .deb file] 
+2005-07-29T05:30:00.000Z	Seveas	vmh	that is the bad way on Ubuntu....

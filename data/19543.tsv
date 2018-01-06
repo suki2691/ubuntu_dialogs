@@ -1,0 +1,4 @@
+2011-02-19T03:17:00.000Z	evident		hi everybody...
+2011-02-19T03:17:00.000Z	evident		can anybody tell me why I can't chown a symbolic link I made as root?
+2011-02-19T03:18:00.000Z	evident		I have a file in one of my user's home dir and I want to symlink it to a directory in my /var/www/.../httpdocs and make it accessible from the web, so chown it to my webservers username
+2011-02-19T03:18:00.000Z	Starminn	evident	Because root made it, maybe? Have you tried "sudo chown"?

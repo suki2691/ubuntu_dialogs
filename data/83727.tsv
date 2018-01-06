@@ -1,0 +1,4 @@
+2009-11-28T03:16:00.000Z	cerebral		Why does the package installer return "ERROR: Wrong architecture 'i386'" when I attempt to install "install_flash_player_10_linux.deb"?
+2009-11-28T03:16:00.000Z	lstarnes	cerebral	do you use the 64-bit version of ubuntu?
+2009-11-28T03:17:00.000Z	lstarnes	cerebral	that package was made for the 32-bit version of ubuntu
+2009-11-28T03:17:00.000Z	lstarnes	cerebral	you'll have to download the 64-bit .tar.gz and install the libflashplugin.so file in it to firefox's plugin directories

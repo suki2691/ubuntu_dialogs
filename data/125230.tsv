@@ -1,0 +1,4 @@
+2007-08-11T12:38:00.000Z	boleslo		hi all! i just installed ubuntu 7.04 on my inspiron 6400 with x1400 videocard. when i power on computer and ubuntu starst loading, it says: Failed to start the X server (your graphical interface). It is likely that it is not set up correctly. Would you like to view the X server output to diagnose the problem? Yes/No
+2007-08-11T12:38:00.000Z	erUSUL	boleslo	boot in recovery mode log in and use this command to reconfigure the X server 'sudo dpkg-reconfigure xserver-xorg'
+2007-08-11T12:38:00.000Z	boleslo	erUSUL	ok, i will try
+2007-08-11T12:38:00.000Z	boleslo	erUSUL	i did as you said, it's asking: attempt to autodetectd video hardware? yes/no

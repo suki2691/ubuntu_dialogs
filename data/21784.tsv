@@ -1,0 +1,4 @@
+2012-07-16T03:29:00.000Z	sakax		how can i kill an frozen application
+2012-07-16T03:29:00.000Z	sakax		?
+2012-07-16T03:29:00.000Z	sakax		like the ctrl+alt+del task manager for windows
+2012-07-16T03:30:00.000Z	fizyplankton	sakax	ps -ef | grep APP_NAME; kill -9 NUMBER_IN_SECOND_COLUMN_OF_OUTPUT

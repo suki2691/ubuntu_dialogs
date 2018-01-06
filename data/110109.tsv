@@ -1,0 +1,4 @@
+2012-01-26T14:26:00.000Z	milligan		I've got a machine here where top/uptime reports the average load to be ~26.00 ... However, looking at the process list in top, there is nothing hogging CPU or memory. Any ideas why the load average might be so high ?
+2012-01-26T14:27:00.000Z	edheldil	milligan	 processes are waiting for a device, perhaps? Slow disk, swap, ...
+2012-01-26T14:30:00.000Z	milligan	edheldil	any way to check? The machine acts as a mail relay amongst other, and it is indeed swapping .. but it's sitting stable at "144k used" on the swap..
+2012-01-26T14:32:00.000Z	edheldil	milligan	 ps axlw or something like that

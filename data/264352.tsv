@@ -1,0 +1,4 @@
+2006-01-21T16:04:00.000Z	Blippe		how do i kill and restart the soundserver? (ie which process is it?)
+2006-01-21T16:04:00.000Z	topyli	Blippe	by default, you're running esd
+2006-01-21T16:08:00.000Z	topyli	Blippe	just stop rebooting
+2006-01-21T16:08:00.000Z	topyli	Blippe	sudo /etc/init.d/alsa restart

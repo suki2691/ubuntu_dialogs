@@ -1,0 +1,4 @@
+2005-07-13T08:00:00.000Z	Xzallion		Does anyone know how to fix X server or whatever its called?  I just installed, and can't open a gui and can only do command line.  I need to download the Nvidia drivers or something to fix it cause thats what I did last time, but I can't remember how
+2005-07-13T08:01:00.000Z	nalioth	Xzallion	this should get you a functional gui
+2005-07-13T08:01:00.000Z	nalioth	Xzallion	open a terminal and type "sudo dpkg-reconfigure xserver-xorg" choose teh VESA driver
+2005-07-13T08:02:00.000Z	nalioth	Xzallion	its not a nvidia driver, but it should get you a gui

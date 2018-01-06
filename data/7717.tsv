@@ -1,0 +1,4 @@
+2012-06-19T03:10:00.000Z	Lunar_Lander		good evening, I got a cardreader in my PC and last week it accepted a SD card without problems, but now it won't read a Sony SDHC card
+2012-06-19T03:10:00.000Z	Lunar_Lander		any method to check the cardreader, i.e. if it is recognized by ubuntu?
+2012-06-19T03:12:00.000Z	Jordan_U	Lunar_Lander	First thing I would try would be "sudo parted -l" to see if the card is seen as a drive, if it's not then you can try "lsusb" or "lspci" to see to see if it's being detected at any level, and maybe look at "dmesg" before and after inserting a car / plugging in the reader itself (if it's removable).
+2012-06-19T03:14:00.000Z	Lunar_Lander	Jordan_U	Guest42157 I am afraid the card reader as such isn't recognized

@@ -1,0 +1,4 @@
+2007-02-17T12:19:00.000Z	andou		Anyone know a good guide for controlling desktop running ubuntu with a macbook through a wireless router?
+2007-02-17T12:19:00.000Z	andou		zcat[1] : Thanks :)
+2007-02-17T12:21:00.000Z	zcat[1] 	andou	basically you just want to pick System > Preferences > Remote Desktop on the desktop to share it, then Internet > Terminal Server Client on the lappy to access it... You'll need to know the IP address of the desktop machine.
+2007-02-17T12:22:00.000Z	zcat[1] 	andou	and make sure port 5900 isn't open to the outside world (If you're using NAT it probably won't be..)

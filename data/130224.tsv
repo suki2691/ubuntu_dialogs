@@ -1,0 +1,4 @@
+2007-07-01T07:26:00.000Z	Evil_Ethe1		I already have ubuntu installed on a linux raid setup and want to know if it is at all possible to install xp to a new hard drive with out reinstalling ubuntu? I just want to know if it is possible?
+2007-07-01T07:27:00.000Z	mongolai	Evil_Ethe1	yes it is possible, but you might need to re-install GRUB from the live-CD later
+2007-07-01T07:29:00.000Z	mongolai	Evil_Ethe1	then yes. Go ahead. Windows installation almost overwrites the MBR, so just use the live-CD and re-install GRUB with the appropriate changes to allow booting into XP
+2007-07-01T07:31:00.000Z	mongolai	Evil_Ethe1	no problem. Do you need help setting up grub.conf?

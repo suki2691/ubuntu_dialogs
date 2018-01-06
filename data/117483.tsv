@@ -1,0 +1,4 @@
+2008-02-04T01:44:00.000Z	lordmorgoth		guys i want to install the nvidia proprietary driver, however it must be done using the terminal and having Xorg killed, how do i kill X and log to the terminal
+2008-02-04T01:45:00.000Z	howlingmadhowie	lordmorgoth	i thought there were packages for the nvidia drivers?
+2008-02-04T01:45:00.000Z	lordmorgoth	howlingmadhowie	there are, but it's not working properly my screen blinks every now and then
+2008-02-04T01:45:00.000Z	howlingmadhowie	lordmorgoth	okay, then ctrl-alt-f2 and then "sudo /etc/init.d/gdm stop"

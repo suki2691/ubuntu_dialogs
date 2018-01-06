@@ -1,0 +1,4 @@
+2005-08-01T09:21:00.000Z	dmk2004		installed new kernel, 2.6.12...and on boot, it says kernel panic...it didnt make an initrd.img, which i assume is the problem..any help?
+2005-08-01T09:22:00.000Z	jbailey	dmk2004	You can run mkinitrd by hand, but it's usually better to package your own kernels with make-kpkg
+2005-08-01T09:22:00.000Z	jbailey	dmk2004	The best answer is really to not do your own kernel, and try to get the generic Ubuntu kernel working.
+2005-08-01T09:25:00.000Z	jbailey	dmk2004	If you can wait another week or two, breezy should start to settle down enough.

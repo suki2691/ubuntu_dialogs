@@ -1,0 +1,4 @@
+2007-10-27T21:44:00.000Z	MR-REznOr		hi, I have been running Ubuntu on my pc for 6 monthsish now and ive decided to remove my windows partition and move my home dir over to it to make some room. the machine was originally a win pc and fdisk says the windows partition is labelled boot. should i be worried about just formatting it to ext3 and dumping my home dir there and editing fstab?
+2007-10-27T21:45:00.000Z	timbobsteve	MR-REznOr	not sure if you will need to update the mbr, but your process sounds like it should be fine. I would make a backup of the MBR just in case.... and make sure you have a liveCD handy just in case
+2007-10-27T21:46:00.000Z	MR-REznOr	timbobsteve	ok cool, ill give it a go. cheers mate :)
+2007-10-27T21:49:00.000Z	timbobsteve	MR-REznOr	.... the session files are located in /usr/share/xsessions .... but you probably just want to get a hold of compiz-icon and add that to the gnome-session startup list

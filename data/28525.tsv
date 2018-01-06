@@ -1,0 +1,4 @@
+2010-12-31T23:15:00.000Z	mdpatrick		How do I know if my package manager is installing the amd64 build of any given package (like mplayer)???
+2010-12-31T23:17:00.000Z	mdpatrick		Is there a command to get info about a package before I install it via aptitude?
+2010-12-31T23:18:00.000Z	ilovefairuz	mdpatrick	apt-cache show packagename
+2010-12-31T23:26:00.000Z	ilovefairuz	mdpatrick	sudo gdebi packagename.deb

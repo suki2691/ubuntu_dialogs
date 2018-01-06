@@ -1,0 +1,4 @@
+2011-11-17T12:50:00.000Z	pvh_sa		does anyone know how to trace what is happening on desktop startup? the reason i ask is that i've got tracker and tracker-miner-fs in /etc/xdg/autostart but they don't start on login, wondering if there is a log somewhere
+2011-11-17T12:50:00.000Z	ActionParsnip	pvh_sa	look in /var/log maybe
+2011-11-17T12:51:00.000Z	pvh_sa	ActionParsnip	nothing there that i can see.
+2011-11-17T13:02:00.000Z	pvh_sa	ActionParsnip	ah found something. tracker was set to OnlyShowIn GNOME;KDE;XFCE; - so that's why it wasn't starting. still wish i understood the XDG stuff better.

@@ -1,0 +1,4 @@
+2011-03-01T21:34:00.000Z	jereanon		I want to accept all incoming connections with iptables between the ip 206.53.226.0 and 206.53.226.255.. will this command do that: /sbin/iptables -A INPUT -p tcp -s 206.53.226.0/206.53.226.255 --dport 22 -j ACCEPT
+2011-03-01T21:34:00.000Z	jereanon		on port 22, of course
+2011-03-01T21:35:00.000Z	[TK]D-Fender	jereanon	/sbin/iptables -A INPUT -p tcp -s 206.53.226.0/255.255.255.0 --dport 22 -j ACCEPT
+2011-03-01T21:35:00.000Z	[TK]D-Fender	jereanon	Bad mask

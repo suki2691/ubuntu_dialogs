@@ -1,0 +1,4 @@
+2009-09-29T02:43:00.000Z	christopheb		Hi guys, having some problems with installing ubuntu powerpc version (alternative) via usb stick on my ps3, the cd drive can't be mounted shows up on every installation
+2009-09-29T02:43:00.000Z	christopheb		I'm running of /dev/sda1 and mount /dev/sda1 /cdrom doesn't work: no such device
+2009-09-29T02:45:00.000Z	ActionParsnip	christopheb	you can view partitions with: sudo fdisk -l
+2009-09-29T02:46:00.000Z	ActionParsnip	christopheb	i dont believe you want it mounted to nistall to

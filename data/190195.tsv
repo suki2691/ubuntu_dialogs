@@ -1,0 +1,4 @@
+2006-04-27T07:24:00.000Z	pvd2006		what is the command to reset gnome?
+2006-04-27T07:24:00.000Z	Warbo	pvd2006	To restart or to get rid of it's settings?
+2006-04-27T07:25:00.000Z	pvd2006	Warbo	I just did an update and I want the changes to take place.
+2006-04-27T07:25:00.000Z	Warbo	pvd2006	Usually just log out. For a command try "sudo /etc/init.d/gdm restart" but this will NOT restart GNOME (as GNOME will exit before it can bring itself back up)

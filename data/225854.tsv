@@ -1,0 +1,4 @@
+2005-11-09T14:22:00.000Z	nagual		How can i change permissions on a directory to say all read write execute.
+2005-11-09T14:22:00.000Z	trappist	nagual	chmod a+rwx
+2005-11-09T14:24:00.000Z	nagual	trappist	will that change permissions on all subdirectories too?
+2005-11-09T14:24:00.000Z	trappist	nagual	chmod -R a+rwx

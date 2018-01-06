@@ -1,0 +1,4 @@
+2008-02-18T20:40:00.000Z	hmuller		other than writing a script to parse /var/log/apt/term.log, is there an easier way to identify packages the user has installed?
+2008-02-18T20:40:00.000Z	Slart	hmuller	dpkg -i . I think you can get a list using aptitude too
+2008-02-18T20:41:00.000Z	Slart	hmuller	sorry.. dpkg -l (lower case L)
+2008-02-18T20:46:00.000Z	hmuller	Slart	Thanks, but that gives a complete listing, and I don't see how I can reduce the list to those packages installed by the user

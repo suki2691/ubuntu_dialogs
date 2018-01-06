@@ -1,0 +1,4 @@
+2010-03-10T22:51:00.000Z	igggimin		Is it possible to connect via remote desktop to my Ubuntu box with an SSH tunnel? I have a relatively stable IP here
+2010-03-10T22:52:00.000Z	malifal	igggimin	yes
+2010-03-10T22:53:00.000Z	igggimin	Stargaze	malifal thank you
+2010-03-10T22:54:00.000Z	malifal	igggimin	create a tunnel and forward the port, 5900 or 5901, then on the other machine you connect localhost:0 or localhost:1

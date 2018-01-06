@@ -1,0 +1,4 @@
+2006-06-09T05:23:00.000Z	ApesMa		Question about find: how can I get -exec to run a pipe? I want to do something to every file for which file spits out "ASCII text file, with CRLF line terminators".
+2006-06-09T05:24:00.000Z	dooglus	ApesMa	find . -type f | while read x; do file "$x" | grep -q "ASCII text file" && do something "$x"; done
+2006-06-09T05:24:00.000Z	dooglus	ApesMa	I tend not to use -exec much
+2006-06-09T05:26:00.000Z	ApesMa	dooglus	thanks; that is clearer than what I was thinking of.

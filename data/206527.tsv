@@ -1,0 +1,4 @@
+2007-12-04T02:29:00.000Z	sn00zer		Hello, is anyone familiar with editing the boot line in grub to boot as root by adding single to the kernel line? how do i password protect this so other people can't reset my passwords?
+2007-12-04T02:30:00.000Z	sethk	sn00zer	there is an overall grub password, but no facility for passwords for a specific kernel entry
+2007-12-04T02:31:00.000Z	sethk	sn00zer	Jordan_U is correct, even the grub password is easy to hack for anyone who knows what they are doing
+2007-12-04T02:31:00.000Z	sethk	sn00zer	it will foil the casual hacker

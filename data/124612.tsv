@@ -1,0 +1,4 @@
+2007-09-08T06:42:00.000Z	neramos		Anyone has idea bout Iptables ? Can save the iptables-save to etc/iptables.up.rules with this command / Both wont work, "iptables-save > /etc/iptables.up.rules" and "sudo iptables-save > /etc/iptables.up.rules"; Why not ??
+2007-09-08T06:44:00.000Z	astro76	neramos	do this: sudo sh -c "sudo iptables-save > /etc/iptables.up.rule"
+2007-09-08T06:45:00.000Z	neramos	astro76	ill try and see what happens
+2007-09-08T06:47:00.000Z	neramos	astro76	cool thanks this worked

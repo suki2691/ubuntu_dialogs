@@ -1,0 +1,4 @@
+2008-02-04T20:01:00.000Z	Frogzoo	burkmat	try ifconfig -a - but the OS doesn't know about devices for which there's no usable driver
+2008-02-04T20:03:00.000Z	burkmat	Frogzoo	yeah, tried that, but ifconfig -a just tells me about "sit0", which I have no idea what it is, and nothing resembling a wireless connection. iwconfig doesn't just says everything lacks a wireless extension, and I'm actually beginning to doubt there's a wireless nic in this computer :P
+2008-02-04T20:04:00.000Z	Frogzoo	burkmat	is it a centrino? also check dmesg for devices without working drivers
+2008-02-04T20:07:00.000Z	burkmat	Frogzoo	Not very skilled with Linux, and not quite sure how I'd use dmesg to do that. :)  It's a Compaq nc8000.

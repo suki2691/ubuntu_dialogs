@@ -1,0 +1,4 @@
+2010-06-21T02:42:00.000Z	dstufft		how do i install a package from an installed ppa, the package is named the same as one in regular ubuntu, and the regular ubuntu is a newer version
+2010-06-21T02:42:00.000Z	dstufft		but i want the ppa version
+2010-06-21T02:43:00.000Z	VCoolio	dstufft	disable the default repo in sources, then apt-get update, then install the package and pin it to prevent updates, then re-enable default repos
+2010-06-21T02:44:00.000Z	VCoolio	dstufft	also intalling like this should work: apt-get install foobar=2.25.91-0ubuntu1

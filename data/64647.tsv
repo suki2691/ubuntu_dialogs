@@ -1,0 +1,4 @@
+2010-08-11T01:09:00.000Z	codazoda		Hi.  Recently I've had gedit lock up on me.  So, I kill it (with the x).  Then, I go to a terminal and gedit is still running (ps aux | grep gedit).  But, the process id is changing rapidly (it's starting over and over again).  "killall gedit" does nothing to help.  Any way to kill this thing, other than a reboot?
+2010-08-11T01:09:00.000Z	ZykoticK9	codazoda	try "killall -9 gedit" to 'really' kill something
+2010-08-11T01:10:00.000Z	codazoda	ZykoticK9	that doesn't do it.  It just starts again (new pid).
+2010-08-11T01:10:00.000Z	ZykoticK9	codazoda	umm, i gots nothin' then.  good luck man.

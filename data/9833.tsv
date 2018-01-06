@@ -1,0 +1,4 @@
+2012-06-04T18:01:00.000Z	no_gravity		Good Evening! The internet says to securely wipe an usbstick do "dd if=/dev/urandom of=/dev/sdb1" (if sdb is the stick). But isnt that missing anything except partition one on the stick? Would "dd if=/dev/urandom of=/dev/sdb" be better? But then how do i create a new partition on the stick?
+2012-06-04T18:03:00.000Z	no_gravity		ok. i will wipe sdb and then try to make is usable with gparted.
+2012-06-04T18:04:00.000Z	MonkeyDust	no_gravity	 tip: if you want more than one live iso on the stick, use the 3rd party app 'MultiSystem'
+2012-06-04T18:05:00.000Z	no_gravity	MonkeyDust	i only want to give the stick to a windows user. i dont know what she wants to do with it.

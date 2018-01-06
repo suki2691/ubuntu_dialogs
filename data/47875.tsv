@@ -1,0 +1,4 @@
+2012-02-17T20:42:00.000Z	eSoul		does anyone know something I can cat (something in /proc possibly?) that gives the motherboard model?
+2012-02-17T20:43:00.000Z	theadmin	eSoul	This isn't exactly cat'ing, but dmidecode can help you (gives hardware information as specified by BIOS)
+2012-02-17T20:44:00.000Z	theadmin	eSoul	"sudo dmidecode --baseboard-product-name" will give it to you :)
+2012-02-17T20:45:00.000Z	theadmin	eSoul	Pardon, got it wrong: "sudo dmidecode -s baseboard-product-name"

@@ -1,0 +1,4 @@
+2008-06-19T10:13:00.000Z	legend2440		my /etc/hosts file has permissions of    root:999   what is group 999? and should i change it to root:root? does it matter?
+2008-06-19T10:15:00.000Z	muerr	legend2440	/etc/hosts should be group root.
+2008-06-19T10:16:00.000Z	muerr	legend2440	you can find out what group 999 is by running "grep 999 /etc/group" in a terminal.
+2008-06-19T10:16:00.000Z	legend2440	muerr	ok thanks

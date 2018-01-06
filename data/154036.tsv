@@ -1,0 +1,4 @@
+2006-12-25T17:53:00.000Z	Cantankerous		I have seen IP conversations where a client was talking to interface A of the server but the server always replied from interface B (same IP address). This confused the switches because interface A was never a source MAC so every packet to the server was flooded as a multicast.
+2006-12-25T17:54:00.000Z	un_operateur	Cantankerous	yes, there's a high chance of a broadcast storm happening especially in a cascaded switched network
+2006-12-25T06:02:00.000Z	un_operateur	Cantankerous	yes, but if the source MAC address is constantly being changed for a source IP address, it puts an unecessary load on the intermediate switch and recepient host - because they have to keep changing and updating the arp table for every different frame
+2006-12-25T06:06:00.000Z	un_operateur	Cantankerous	ohh, the MAC addresses are always checked -- because thats how switches know the topology of a network, the states of links and build Spanning Trees with

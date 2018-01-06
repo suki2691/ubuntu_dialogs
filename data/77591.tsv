@@ -1,0 +1,4 @@
+2009-08-19T09:02:00.000Z	ntiy		is there anyone familiar with gdb?
+2009-08-19T09:03:00.000Z	losher	ntiy	I use it for debugging. What do you need to know?
+2009-08-19T09:07:00.000Z	losher	ntiy	if it only happens with some variables and not others, it may be that the optimizer has eliminated the variable. Try turning off optimization?
+2009-08-19T09:11:00.000Z	losher	ntiy	check the compiler documentation. I know with C code I used to work with, we just lived with it. Occasionally, I would resort to changing the source code to reference a variable in the code so the optimiser couldn't optimise it away. But it's a pain doing that. And when all else fails, the pros use print statements for debugging....

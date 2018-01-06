@@ -1,0 +1,4 @@
+2006-02-23T13:58:00.000Z	krz		ok i was unable to automatically configure eth0 (network card) during installation. how do i do it manually. i currently have the laptop connected to the network
+2006-02-23T14:00:00.000Z	mikex	krz	try ifup eth0 in terminal.
+2006-02-23T14:04:00.000Z	krz	mikex	ifup eth0 returns no such device. ifup lo, returns device already configured
+2006-02-23T14:09:00.000Z	mikex	krz	I am a bit of a noob, have you tried Sys/Admin/Device Manager.

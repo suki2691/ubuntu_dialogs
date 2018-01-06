@@ -1,0 +1,4 @@
+2009-04-26T06:42:00.000Z	b4sher		anyone know how can i send parameters in a function? im in bash. im trying with "function test(VAR) { }" var is a string, but don't work
+2009-04-26T06:43:00.000Z	Looce	b4sher	Functions don't have explicit parameters, you'll have to use "function test()" and $1 within the function
+2009-04-26T06:45:00.000Z	b4sher	Looce	but then how can i use a var set out of the function? for example VAR="string" function test() { "here, i need use VAR!" }, u understand?
+2009-04-26T06:46:00.000Z	Looce	b4sher	$VAR

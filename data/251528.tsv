@@ -1,0 +1,4 @@
+2007-05-20T08:18:00.000Z	KevinOman		how do I set a password on a mysql database
+2007-05-20T08:18:00.000Z	cafuego	KevinOman	'mysqladmin password'
+2007-05-20T08:19:00.000Z	cafuego	KevinOman	You set the password on a specific user with access rights to only that DB.
+2007-05-20T08:19:00.000Z	cafuego	KevinOman	As mysql root user, 'grant all on database.* to user@hostname identified by 'password'; flush privileges;

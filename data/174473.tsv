@@ -1,0 +1,4 @@
+2006-07-18T09:32:00.000Z	stefg		[1] astro: you could try to boot from live-CD, get a root shell there, mount the system and chroot into it. thenn passwd root will let you set a new one
+2006-07-18T09:33:00.000Z	stefg		[1] astro: the more dangerous option 2 would be to boot from CD, mount the locked system and delete the line starting with 'root' from /etc/shadow
+2006-07-18T09:34:00.000Z	stefg		!offtopic
+2006-07-18T09:36:00.000Z	_marshall	stefg	lol no, we're done

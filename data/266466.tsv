@@ -1,0 +1,4 @@
+2010-02-23T19:21:00.000Z	adifire		pls help Geoni with this one
+2010-02-23T19:21:00.000Z	adifire		I want to set a PC as a server. on the PC running Ubuntu 9.10 and samba. I want to set up samba, that smb.conf file so that if I have 2 Windows users accessing the data to be stored on this server one of them to have access both to his files and on the other, and the other only his own, without access to files belonging to the first. I want to make data access only with password. What should contain smb.c
+2010-02-23T19:22:00.000Z	Dr_Willis	adifire	 the 'samba-doc' package has several books on the topic. One book is samba by example (i think) that has such example/case  setups.
+2010-02-23T19:22:00.000Z	Dr_Willis	adifire	 you can make shares shared on a 'per user' basis  but i rarely do that

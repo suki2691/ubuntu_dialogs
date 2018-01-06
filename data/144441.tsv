@@ -1,0 +1,4 @@
+2008-08-17T10:32:00.000Z	evilbug		why isn't my display driver used when in "tty" mode?
+2008-08-17T10:33:00.000Z	evilbug		alistair- it'll have all the other stuff.
+2008-08-17T10:33:00.000Z	crdlb	evilbug	because your display driver is for X and the VTs are outside of it?
+2008-08-17T10:35:00.000Z	crdlb	evilbug	modesetting is being moved into the kernel, which will fix that, but for now, I have no idea

@@ -1,0 +1,4 @@
+2009-02-27T06:27:00.000Z	dadda		how do I disable iptables on a specific ethernet device? eth1 = my local network
+2009-02-27T06:27:00.000Z	jrib	dadda	iptables has no rules set by default so don't set any for eth1
+2009-02-27T06:29:00.000Z	jrib	dadda	check for yourself: sudo iptables -L
+2009-02-27T06:30:00.000Z	jrib	dadda	check for a firewall on your windows computer then...

@@ -1,0 +1,4 @@
+2012-11-30T16:02:00.000Z	pecc		hello all, have problem with sound card... tried to figure out which model I have but the default commands fail me
+2012-11-30T16:02:00.000Z	pecc		cat /proc/asound/card0/codec* | grep Codec
+2012-11-30T16:02:00.000Z	pecc		cat: /proc/asound/card0/codec*: No such file or directory
+2012-11-30T16:03:00.000Z	llutz	pecc	cat /proc/asound/cards

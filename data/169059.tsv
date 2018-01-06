@@ -1,0 +1,4 @@
+2006-09-25T08:42:00.000Z	TyggerBob		what's the apt command to remove a package without removing it's dependencies?
+2006-09-25T08:42:00.000Z	TyggerBob		apt-get --no-depends remove?
+2006-09-25T08:43:00.000Z	screechingcat	TyggerBob	: sudo apt-get remove
+2006-09-25T08:47:00.000Z	TyggerBob	screechingcat	root@ubuntest:/usr/include# apt-get remove libpcap0.8

@@ -1,0 +1,4 @@
+2007-10-13T10:15:00.000Z	sc0tch		In /var/cache/apt/archives I see multiple/older versions of packages I have installed, is it safe to delete those manually, or is there an automated tool to maintain that list?
+2007-10-13T10:16:00.000Z	yell0w	sc0tch	sudo aptitude clean/autoclean
+2007-10-13T10:20:00.000Z	yell0w	sc0tch	if you've used one for a while, stick to it
+2007-10-13T10:21:00.000Z	yell0w	sc0tch	np

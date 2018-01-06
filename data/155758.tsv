@@ -1,0 +1,4 @@
+2008-04-18T20:39:00.000Z	Skrot-		hi, does anyone know if it's possible to have multiple private/public key pairs on the client side of SSH and specify which host should use which?
+2008-04-18T20:40:00.000Z	sipior	Skrot-	sure, have a look at the -i option for ssh
+2008-04-18T20:41:00.000Z	sipior	Skrot-	or whip up a .ssh/config file and specify it on a per-host basis, and you needn't bother doing it on the command line
+2008-04-18T20:41:00.000Z	Skrot-	sipior	Thanks. Got a pointer on what to look for in the config?

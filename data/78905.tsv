@@ -1,0 +1,4 @@
+2009-10-08T21:03:00.000Z	kebomix		i have strange problem , gparted and ubuntu installer can't read my partitions and read my hard as unallocated , and i can easily access partitions through "Nautilus" , here is a screenshot http://img156.imageshack.us/img156/5143/screenshotlv.png any one can help because i can't install ubuntu !
+2009-10-08T21:03:00.000Z	fahadsadah	kebomix	/dev/sda is not a partition.
+2009-10-08T21:03:00.000Z	fahadsadah		You need /dev/sdaX, where X is the number of your partition.
+2009-10-08T21:03:00.000Z	kebomix	fahadsadah	what is it ?

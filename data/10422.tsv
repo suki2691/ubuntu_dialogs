@@ -1,0 +1,4 @@
+2012-06-05T21:32:00.000Z	wooy		Hello, I have installed a package that has version number 2.6 in ubuntu 12.04. In the meantime there is new version 2.7 available for installation from source file. How can i update the package with the new version?
+2012-06-05T21:33:00.000Z	olskolirc	wooy	what program would you like to uninstall sudo apt-get remove packagename and compile from source?
+2012-06-05T21:34:00.000Z	wooy	olskolirc	its ykclient. If I try to uninstall the package, other packages are uninstall with it
+2012-06-05T21:37:00.000Z	wooy	olskolirc	no its just yubikey client. The other dependant package is PAM module based on yubikey. I just need to make hot swap, i dont want all the other packages to be uninstalled with it.

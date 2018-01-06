@@ -1,0 +1,4 @@
+2006-10-30T15:53:00.000Z	statters		I have a 80GB hard drive 30 GB  is devided between hda1 and swap space,,, I have 50 GB free space but cannot seem to create afat32  partiton using qtparted ,some error about device busy and possible data corruption,,, I assumued it would be possible to create a partiton whilst logged......any ideas as to how I can create this partition?
+2006-10-30T15:55:00.000Z	statters		I even created a partiton using ranish partition manager from a boot cd but it wont show in qtparted just says the space is free :(
+2006-10-30T15:55:00.000Z	towsonu2003	statters	you shouldn't partition a mounted drive. you could use something like this http://gparted.sourceforge.net/livecd.php
+2006-10-30T15:57:00.000Z	statters	towsonu2003	 I used Ultimate boot disk to create partiton (live CD) but still it does not show in disk manager, just reports it as free space

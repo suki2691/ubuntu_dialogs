@@ -1,0 +1,4 @@
+2009-02-07T11:42:00.000Z	Guest59713		I downloaded a song on limewire and I just tried to play it and i don't hear anything out of my speakers.  what should i do?
+2009-02-07T11:42:00.000Z	cn28h	Guest59713	unmute your audio
+2009-02-07T11:54:00.000Z	cn28h	Guest59713	you're probably uswing pulseaudio, try alsamixer -c 0
+2009-02-07T11:56:00.000Z	cn28h	Guest59713	press m also and make sure they are not marked mute

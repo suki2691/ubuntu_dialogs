@@ -1,0 +1,4 @@
+2006-03-10T15:21:00.000Z	simulatio		how do i start up my computer in text-mode?
+2006-03-10T15:21:00.000Z	HappyFool	simulatio	disable the gdm service (you can also stop it once the machine has booted into graphical mode)
+2006-03-10T15:22:00.000Z	HappyFool	simulatio	there is also a recovery mode, which you can choose at boot time (press ESC at boot if you don't see the grub menu)
+2006-03-10T15:22:00.000Z	HappyFool	simulatio	disable gdm ? something like 'update-rc.d -f gdm remove'

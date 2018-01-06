@@ -1,0 +1,4 @@
+2011-03-29T17:45:00.000Z	ljsoftnet		im a bit confused on computertemp, which should i select "ACPI", "kernel i2c sensors" or "kernel i2c sensors (hwmon)" to monitor the processor?
+2011-03-29T17:45:00.000Z	ohsix	ljsoftnet	it depends on what one works, i've never seen cpu sensors on i2c, you want to use ACPI, but even with acpi depending on your computer, might not report them
+2011-03-29T17:46:00.000Z	ljsoftnet	ohsix	ah ok
+2011-03-29T17:47:00.000Z	ohsix	ljsoftnet	other useful sensors can be on i2c though

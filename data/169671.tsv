@@ -1,0 +1,4 @@
+2006-11-11T14:27:00.000Z	EmxBA		instead of having grub on root partition
+2006-11-11T14:29:00.000Z	EmxBA		that will install grub from boot partition to mbr, symium?
+2006-11-11T14:29:00.000Z	EmxBA		and which files do i need to have
+2006-11-11T14:31:00.000Z	ladydoor	EmxBA	if you do that, be sure to use sudo cp -a so as to preserve symlinks, be recursive, etc.

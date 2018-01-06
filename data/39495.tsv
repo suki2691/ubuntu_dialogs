@@ -1,0 +1,4 @@
+2010-03-25T02:43:00.000Z	DarthPuff		i'm pruning my eBook collection to only have iphone/ipad supported extensions
+2010-03-25T02:45:00.000Z	DarthPuff		here is another good questions. is there a command to remove empty folders?
+2010-03-25T02:47:00.000Z	Losha	DarthPuff	there is a cheat for this: find . -type d -exec rmdir '{}' \; will find all empty directories and remove them. It relies on the fact that rmdir fails on non-empty directories, so expect lots of spurious error messages...
+2010-03-25T02:48:00.000Z	DarthPuff	Losha	thanks

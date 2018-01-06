@@ -1,0 +1,4 @@
+2010-09-09T00:07:00.000Z	jrib	xiaclo	nafri: that won't do it recursively
+2010-09-09T00:07:00.000Z	xiaclo	jrib	nafri no, its very simple, it won't handle anything with spaces either ....
+2010-09-09T00:08:00.000Z	jrib	xiaclo	just « find -exec sed 's/A/B/g' '{}' \; »  should do
+2010-09-09T00:09:00.000Z	jrib	xiaclo	erm, with -i of course :)

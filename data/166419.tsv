@@ -1,0 +1,4 @@
+2008-07-17T07:22:00.000Z	nano_		How can I find out what is responsible for loading my ehci_hcd module???
+2008-07-17T07:22:00.000Z	wols	nano_	kernel. blacklist it if you don't want it loaded
+2008-07-17T07:22:00.000Z	wols		!blacklist | nano_
+2008-07-17T07:23:00.000Z	nano_	wols	I don't want to blacklist it, i just want to know how ehci_hcd is loaded

@@ -1,0 +1,4 @@
+2007-06-05T11:32:00.000Z	TMM		hi! I've got a question: I've got a system with evolution here, and the ~/.evolution/mail/local/Inbox file is exceeding 2Gb, evolution dumps core with a SIGXFSZ (File size limit exceeded)
+2007-06-05T11:32:00.000Z	TMM		I've tried to make a file with 'dd' and that just kept on going further than 2Gb
+2007-06-05T11:33:00.000Z	TMM		filesystem is XFS, has anyone ever seen that ?
+2007-06-05T11:35:00.000Z	clever	TMM	www.php.net/fopen

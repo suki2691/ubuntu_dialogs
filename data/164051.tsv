@@ -1,0 +1,4 @@
+2007-08-17T12:19:00.000Z	pants-wd		i'm running vmware on ubuntu and it seems to be hard crashing once a month.  i have no idea what the issue is, but i'd like to stop cron from doing stuff.  how do i remove cron?
+2007-08-17T12:21:00.000Z	pants-wd		how do i stop cron from running?
+2007-08-17T12:22:00.000Z	bulmer	pants-wd	crontab -e  and delete entries
+2007-08-17T12:25:00.000Z	bulmer	pants-wd	crontab -e  and delete entries so they dont run..is another way

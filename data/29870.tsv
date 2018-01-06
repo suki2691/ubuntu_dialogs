@@ -1,0 +1,4 @@
+2010-06-24T07:23:00.000Z	snarkster1		im trying to blast a hard drive.. i did dd if=/dev/random of=/dev/sdc and got response no dev/random
+2010-06-24T07:24:00.000Z	snarkster1		so no /dev/random anymore?
+2010-06-24T07:25:00.000Z	rww	snarkster1	you want /dev/urandom. /dev/random blocks when there isn't enough entropy (randomness) in the system, and there sure as heck isn't enough to dd onto a drive.
+2010-06-24T07:26:00.000Z	snarkster1	rww	thanx

@@ -1,0 +1,4 @@
+2009-10-01T01:51:00.000Z	axc		hello
+2009-10-01T01:52:00.000Z	axc		i need a little help getting my box to connect through the ethernet cable.
+2009-10-01T01:54:00.000Z	axc		what is the command to connect through eth0?
+2009-10-01T01:55:00.000Z	genii	axc	 Usually something like: sudo ifconfig eth0 up && sudo dhclient eth0

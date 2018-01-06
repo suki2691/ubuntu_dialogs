@@ -1,0 +1,4 @@
+2011-03-21T13:13:00.000Z	dns53	xarinatan	you can specify the uid and gid for the cifs share when you mount it
+2011-03-21T13:16:00.000Z	dns53	xarinatan	so what is your goal? have http/svn and also allow smb access on windows?
+2011-03-21T13:21:00.000Z	dns53	xarinatan	well what i have done is i have a directory on the file server that has my bzr repository and i use bzr+ssh to access it on all machines i have
+2011-03-21T13:37:00.000Z	dns53	xarinatan	nfs supports uid and other unix permissions and is ideal for unix to unix mounting

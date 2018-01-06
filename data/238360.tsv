@@ -1,0 +1,4 @@
+2008-01-26T04:14:00.000Z	dee_cz		hi, i have a problem with 7.10, fresh install, when booting i get grub, then 3 mins of black screen (hdd only works at the beginning), then login screen.. is there any way i can shorter the boot time?
+2008-01-26T04:15:00.000Z	nickrud	dee_cz	you can get an idea of what's holding you up if you edit /boot/grub/menu.lst and remove the quiet splash words from the kernel line
+2008-01-26T04:16:00.000Z	dee_cz	nickrud	thanks, i will try that
+2008-01-26T04:36:00.000Z	nickrud	dee_cz	check /etc/usplash.conf for the correct resolution, then run  sudo update-initramfs -u , and reenable the splash. Might fix that

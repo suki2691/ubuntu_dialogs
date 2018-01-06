@@ -1,0 +1,4 @@
+2008-07-22T01:19:00.000Z	vknet		Hi, does anybody know whether pulseaudio suppose to run in system mode or in a gnome-session?
+2008-07-22T01:20:00.000Z	funkyHat	vknet	the preferred way of doing things is to launch it using gnome. If you have the esound compatibility package installed you can get gnome to launch it by making sure 'system sounds' are turned on in system > Preferences > sound
+2008-07-22T01:24:00.000Z	vknet	funkyHat	the pulseaudio-esound-compat is installed and play system sound is ticked. nevertheless pulsaudio is not running: ps aux | grep pulse.
+2008-07-22T02:03:00.000Z	vknet	funkyHat	thanks for the help, I found my issue it was: https://bugs.launchpad.net/ubuntu/+source/pulseaudio/+bug/189060. Now it works!!!

@@ -1,0 +1,4 @@
+2009-11-18T15:12:00.000Z	cih997		hi, how to check what is turn on that causes http://localhost says "It works"? I can't find apache process and binary, lampp is stopped. What else could it be?
+2009-11-18T15:12:00.000Z	cwillu	cih997	lighthttp
+2009-11-18T15:12:00.000Z	cih997	cwillu	how to check if it lighthttp?
+2009-11-18T15:13:00.000Z	cwillu	cih997	netstat -pl|grep -i tcp

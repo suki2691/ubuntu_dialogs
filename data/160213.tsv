@@ -1,0 +1,4 @@
+2009-04-08T05:34:00.000Z	crazypoultry		sorry for what may seem a little silly, but hopefully a easily solved question.  I have an older desktop sitting beside my desk that i would like to use as a media server(ubuntu 8.10) and would like to know if it is possible to connect to it using vnc over an ethernet cable from my win xp desktop
+2009-04-08T05:35:00.000Z	Jordan_U	crazypoultry	It is
+2009-04-08T05:38:00.000Z	Jordan_U	crazypoultry	Install ubuntu, connect the two pc's, give them both static ip addresses on the same network ( but not on the same network as your connection to the modem you use to connect to the internet, different interfaces can't have overlapping networks ). Then go to System > Preferences > Remote Desktop and allow remote access via vnc
+2009-04-08T05:39:00.000Z	Jordan_U	crazypoultry	np, good luck :)

@@ -1,0 +1,4 @@
+2006-10-16T13:27:00.000Z	hid3		Hello everyone. I need some advice. Which filesystem would give the best performance for ide disk based ftp server, crowded with ~600 mB .iso files? I'm thinking about ext2 or ext3... Any ideas? Thanks.
+2006-10-16T13:27:00.000Z	Daemonik	hid3	If it's over FTP it doesn't matter. The files are large so it doesn't matter.
+2006-10-16T13:27:00.000Z	Daemonik	hid3	Use ext3 because it's journaled.
+2006-10-16T13:28:00.000Z	Daemonik	hid3	If you use ext2 and the system goes down for whatever reason, it'll take a while to bring it back up.

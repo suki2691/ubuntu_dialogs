@@ -1,0 +1,4 @@
+2012-02-04T16:40:00.000Z	frybye		hi - hwinfo is showing 2.7gb Memory while afaik I have 3gb installed.. does it no show memory shared with grafics or something?
+2012-02-04T16:41:00.000Z	gartral	frybye	you're coorect to a point, the system will reserve a chunk of memory at start for various things..
+2012-02-04T16:41:00.000Z	frybye	gartral	- and that reserved memory is now shown in the hwinfo report?
+2012-02-04T16:42:00.000Z	gartral	frybye	It might not be, as hwinfo only reports what's accessable in userspace.

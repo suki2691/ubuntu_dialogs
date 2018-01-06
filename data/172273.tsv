@@ -1,0 +1,4 @@
+2009-07-24T02:04:00.000Z	insomen4o_		newbie help: is there a way to join a wireless network via the terminal?
+2009-07-24T02:04:00.000Z	linux_manju	insomen4o_	Yes
+2009-07-24T02:05:00.000Z	linux_manju	insomen4o_	iwconfig wlan0 essid "SSID" key "WEP-KEY"
+2009-07-24T02:05:00.000Z	linux_manju	insomen4o_	ifconfig wlan0 up ; dhclient wlan0

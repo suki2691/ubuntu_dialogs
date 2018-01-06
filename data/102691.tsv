@@ -1,0 +1,4 @@
+2008-12-02T22:04:00.000Z	spiderzz		how do turn stop the os from asking for a password every time i try to install a program or change settigns
+2008-12-02T22:04:00.000Z	spiderzz		wow i speak good engrish
+2008-12-02T22:05:00.000Z	rww	spiderzz	I answered this yesterday, let me go find what I wrote
+2008-12-02T22:07:00.000Z	rww	spiderzz	1. Type sudo visudo, 2. Add this to the end of the file: yourusername ALL = NOPASSWD: ALL

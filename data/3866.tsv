@@ -1,0 +1,4 @@
+2012-05-04T21:05:00.000Z	ldiamond		For some reason, every single session now use Metacity. How do I get rid of it and use compiz instead?
+2012-05-04T21:07:00.000Z	MirkoKa	ldiamond	try to use gconf-editor and set the /desktop/gnome/session/required_components/windowmanager to "compiz" instead of "nautilus"
+2012-05-04T21:08:00.000Z	ldiamond	MirkoKa	I'm on 12.04, no such config
+2012-05-04T21:08:00.000Z	ldiamond	MirkoKa	/desktop/gnome/session doesn't exist

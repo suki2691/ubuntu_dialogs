@@ -1,0 +1,4 @@
+2009-12-17T06:25:00.000Z	arkanabar		I'm also in ubuntu 9.10 and it looks like PulseAudio has crashed.  How do I reset it?
+2009-12-17T06:26:00.000Z	ActionParsnip	arkanabar	killall pulseaudio; rm -rf ~/.pulse*    then press alt+f2   and type: pulseaudio   and press enter
+2010-11-09T00:33:00.000Z	arkanabar	ActionParsnip	rinku_kokiri has this issue:  http://forum.videolan.org/viewtopic.php?f=13&t=83736
+2010-11-09T01:00:00.000Z	ActionParsnip	arkanabar	grub legacy is in the ludic repo so isn't depreciated and is supported as it is in the official repo

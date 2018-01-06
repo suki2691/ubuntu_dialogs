@@ -1,0 +1,4 @@
+2010-06-26T04:47:00.000Z	cannonfodder		hey you guys ...i do  "sudo gedit /etc/ssh/sshd_config.txt"  but it opens an empty file ,...but when i do "sudo gedit /etc/ssh/sshd_config" it works?...and that file is a text file btw so why doesnt my first try work?
+2010-06-26T04:48:00.000Z	actionParsnip	cannonfodder	use gksudo with gedit dude, not sudo
+2010-06-26T04:48:00.000Z	actionParsnip	cannonfodder	its the right way to run gui based apps with elevated access. sudo is ONLY for terminal based commands like apt-get, cp, mv etc
+2010-06-26T04:50:00.000Z	actionParsnip	cannonfodder	if you just run gedit it runs as a user (you) which doesn't have write access to the file. using gksudo gives you write access as the process runs as root

@@ -1,0 +1,4 @@
+2009-11-01T03:53:00.000Z	overdub		i'm having trouble with my sound after upgrading from 9.4 to 9.10
+2009-11-01T03:54:00.000Z	overdub		alsamixer from terminal works, and i hear beeps, but nothing else
+2009-11-01T03:56:00.000Z	overdub		how can I change from pulse audio to alsa ? something to try at least
+2009-11-01T03:56:00.000Z	trampel	overdub	 remove all pulseaudio packages (except maybe libpulseaudio...) and install something like libsdl1.2debian-alsa instead

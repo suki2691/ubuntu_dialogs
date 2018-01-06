@@ -1,0 +1,4 @@
+2006-07-15T10:43:00.000Z	paied		are there drivers for ati cards ati refuses to support (older ones) to enable opengl?
+2006-07-15T10:43:00.000Z	paied		buddy of mine has a laptop with a 7200.
+2006-07-15T10:44:00.000Z	notamisfit	paied	try the in-kernel radeon driver
+2006-07-15T10:45:00.000Z	notamisfit	paied	modprobe radeon and switch the driver in /etc/X11/xorg.conf to radeon

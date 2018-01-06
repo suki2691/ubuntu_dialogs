@@ -1,0 +1,4 @@
+2008-02-11T03:20:00.000Z	yoluca		sudo echo server1.example.com > /etc/hostname   >>> bash: /etc/hostname: Permission denied
+2008-02-11T03:20:00.000Z	yoluca		why ?
+2008-02-11T03:21:00.000Z	soundray	yoluca	because sudo doesn't act on the redirection. try echo server1.example.com | sudo tee /etc/hostname
+2008-02-11T03:25:00.000Z	yoluca	soundray	thanks

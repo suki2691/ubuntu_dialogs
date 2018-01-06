@@ -1,0 +1,4 @@
+2009-05-08T21:15:00.000Z	matreya6		Using Ubuntu 9.04. My Gnome top panel got corrupted. I can re-add the Main menu, but how can I add the "Applications", "Locations" and "System" menus again?
+2009-05-08T21:17:00.000Z	chuck_	matreya6	rm -r ~/.gconf/apps/panel then restart gdm
+2009-05-08T21:19:00.000Z	matreya6	chuck_	thx, I'll try that
+2009-05-08T21:25:00.000Z	matreya6	chuck_	thanks a bunch! Your suggestion brought back my panel as it was before!

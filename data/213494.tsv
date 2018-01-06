@@ -1,0 +1,4 @@
+2008-03-24T17:36:00.000Z	Gary_inNYC		is there a tool to see the degree of file fragmentation on an ext3 filesystem?
+2008-03-24T17:38:00.000Z	Gary_inNYC		fsck prints non-contiguous, not fragmentation.  also, that percentage happens to be growing for me on my home partition.  How would I know if fragmentation is not occurring if there are no tests for it?
+2008-03-24T17:39:00.000Z	Gary_inNYC		like for instance, I have 11% non-contiguous for filesystem, which begs to question, what percentage (if any) is fragmented?
+2008-03-24T17:39:00.000Z	Lamego	Gary_inNYC	fragmentation does not have a major performance impact on linux filesystems

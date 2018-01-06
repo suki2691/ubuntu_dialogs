@@ -1,0 +1,4 @@
+2007-09-28T10:49:00.000Z	theb0re		anyone had a problem with Nvidia legacy driver in feisty that prevents window decorations from showing beryl/compiz ?
+2007-09-28T10:49:00.000Z	theb0re		aha
+2007-09-28T10:49:00.000Z	stefg	theb0re	most vintage nvidia cards just don't work with compiz, they need pixelshader 1.1
+2007-09-28T10:51:00.000Z	stefg	theb0re	#ubuntu-effects . ypu need option  "AddARGBGLXVisuals" "true" in your xorg.conf driver section

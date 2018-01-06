@@ -1,0 +1,4 @@
+2008-03-09T20:42:00.000Z	Avenger		and anyway, when i log in as root it doesn't let me enter anyway
+2008-03-09T20:44:00.000Z	geirha	Avenger	if you want write access to your disk, try: sudo chown $USER:$USER /media/disk
+2008-03-09T20:44:00.000Z	Avenger	geirha	even while as su it doesn't let me READ it
+2008-03-09T20:45:00.000Z	geirha	Avenger	you read it earlier with the ls -l /media/disk command ... it was an empty ext2/3 filesystem with only the standard lost+found directory

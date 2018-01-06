@@ -1,0 +1,4 @@
+2011-05-30T03:32:00.000Z	kozup		My dad upgraded to natty and not the computer won't boot and drops to grub. I booted using a liveCD to see if I could reconfigure it, but it looks like there's an LVM? I have no idea what that is there for considering nothing (that i know of) is RAIDed. Anyone have any debugging tips?
+2011-05-30T03:33:00.000Z	robrt`	kozup	mount the drive and have a peek at /var/log/dmesg
+2011-05-30T03:34:00.000Z	kozup	robrt`	I can't figure out how to mount it in Disk Utility. It's listed tiwce: once under the PATA host adapter and once under "Multi-disk devices" (which is weird cause it's a single drive). There's no mount disk option on either of them
+2011-05-30T03:50:00.000Z	kozup	robrt`	here's a screenshot http://i.imgur.com/Scd3O.png

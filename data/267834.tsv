@@ -1,0 +1,4 @@
+2005-09-26T14:09:00.000Z	kezza491		howdy i got wx installed but when i try and run any python scripts that have wx it says that it cant import it any help welcome
+2005-09-26T14:10:00.000Z	crimsun	kezza491	hoary or breezy, and which version of wxwindows/wxwidgets?
+2005-09-26T14:11:00.000Z	crimsun	kezza491	lsb_release -a|grep ^Release
+2005-09-26T14:13:00.000Z	crimsun	kezza491	then you need to install libwxgtk2.5.3-python

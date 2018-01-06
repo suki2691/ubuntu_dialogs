@@ -1,0 +1,4 @@
+2009-09-20T11:55:00.000Z	kannan01		is there any way to run apt-get and update manager at the same time..
+2009-09-20T11:55:00.000Z	lstarnes	kannan01	no
+2009-09-20T11:55:00.000Z	lstarnes	kannan01	in order to prevent race conditions and possible conflicts, the apt/dpkg system was designed to only allow one package manager to perform operations at once
+2009-09-20T11:56:00.000Z	kannan01	lstarnes	tnx

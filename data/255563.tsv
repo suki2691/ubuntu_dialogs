@@ -1,0 +1,4 @@
+2007-02-21T06:41:00.000Z	psykidellic		hi, I am new to Ubuntu and just installed Ubuntu 6.1. I am trying to install gpdf package by using: apt-get install gpdf (I got the package name from http://packages.ubuntu.com/cgi-bin//search_packages.pl?version=edgy&subword=1&exact=&arch=any&releases=all&case=insensitive&keywords=pdf&searchon=names), its giving me error that no package with name gpdf? Any ideas?
+2007-02-21T06:43:00.000Z	mcphail	psykidellic	make sure you have enabled the universe repo
+2007-02-21T06:43:00.000Z	psykidellic	foormea	OKIE, hold on.
+2007-02-21T06:44:00.000Z	mcphail	psykidellic	also, if you download a .deb file, you would usually install it with dpkg rather than apt-get

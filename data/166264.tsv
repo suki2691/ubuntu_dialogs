@@ -1,0 +1,4 @@
+2007-12-13T21:12:00.000Z	barongas		My ndiswrapper problems seem to arise from irq assignments, checked my acpi log and from what I read I think it might be colliding with a usb hub, as you notice I am a layman and don't know what the next step would be. I want to be able to help myself though but if anyone could give me a nudge in the right direction I'd be grateful.
+2007-12-13T21:13:00.000Z	wols	barongas	PCI devices can share IRQs just fine
+2007-12-13T21:15:00.000Z	barongas	wols	I first read that ndiswrapper could have some problems, when i checked kern.log I thought it seemed right, maybe it was just wishful thinking from my side to find the problem :(
+2007-12-20T21:21:00.000Z	wols	barongas	no umask set

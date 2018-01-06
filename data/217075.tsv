@@ -1,0 +1,4 @@
+2006-01-13T08:30:00.000Z	Carl		ok, I have a fat32 partition and I want to read/rite in linux as well as windows, windows recognizes it fine, linux it sees it and displays it as sd1, when I click on it it comes up with "the folder contents could not be displayed, you do not have the permissions necessary to vew the contents of "sda1" " everybody keeps pointing me to "diskmounter" I've found this file but do not know how 2 use it, please help
+2006-01-13T08:31:00.000Z	_jason	Carl	use the umask=000 option
+2006-01-13T08:31:00.000Z	_jason	Carl	umask=0000, four zeros i think
+2006-01-13T08:32:00.000Z	_jason	Carl	do you understand chmod permissions?

@@ -1,0 +1,4 @@
+2010-04-10T21:39:00.000Z	norbi905		I'm trying to mount a USB stick on ubuntu 9.10.  I create a directory in /media/usb .  I see device /dev/sdb which I think is my usb.  What arguments do I pass to mount /dev/sdb /media/usb?  For some reason it's not getting auto-mounted :(
+2010-04-10T21:41:00.000Z	LITESTER_	norbi905	check dmesg to see if there are messages about your usb when you plug it in
+2010-04-10T21:44:00.000Z	norbi905	LITESTER_	dmesg shows FAT:invalid media value(0x00) VFS: Can't find a valid FAT filesystem on dev sdb.
+2010-04-10T21:44:00.000Z	norbi905	LITESTER_	should I format?

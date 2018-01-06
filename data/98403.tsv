@@ -1,0 +1,4 @@
+2009-09-28T20:30:00.000Z	Dougal		i want to ssh into my computer from outside. How do i tell ubuntu to listen out and accept on port 333? That's the port my network administrator opened for me
+2009-09-28T20:31:00.000Z	Pici	Dougal	modify /etc/ssh/sshd_config to port 333 in addition to or instead of port 22
+2009-09-28T20:32:00.000Z	Dougal	Pici	thanks that's helpfull
+2009-09-28T20:54:00.000Z	Pici	Dougal	its sudo invoke-rc.d ssh restart (or the other command with ssh instead of sshd)

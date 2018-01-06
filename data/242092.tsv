@@ -1,0 +1,4 @@
+2008-02-16T06:04:00.000Z	billenium		for some reason i can't hard link /var/www/ to a folder on my desktop. Whats wrong?
+2008-02-16T06:04:00.000Z	astro76	billenium	is home a different partition?
+2008-02-16T06:04:00.000Z	astro76	billenium	what you want is a symbolic link
+2008-02-16T06:06:00.000Z	astro76	billenium	ln -s /var/www/ ~/Desktop/

@@ -1,0 +1,4 @@
+2009-12-21T05:54:00.000Z	SilverFox		I'm interested in building a mail server.  I'm moderately familiar with qmail, but it sounds like exim is the MTA of choice for ubuntu?  I need to be able to support SMTP Auth and SSL, and plan to set up webmail as well.  I only use ubuntu server, so should I stick with qmail, or take a try with Exim?  (This needs to be a toaster as well, multiple domains)
+2009-12-21T05:55:00.000Z	wgrant	SilverFox	The Dovecot/Postfix combination is favoured by the Ubuntu Server Guide, which contains full instructions on creating such a mail system.
+2009-12-21T05:56:00.000Z	SilverFox	wgrant	ok.  I'll take a look at that.
+2009-12-21T05:57:00.000Z	wgrant	SilverFox	On Ubuntu 9.04 and later, installing the 'dovecot-postfix' will get you a working mail system, which you could easily configure to your needs.

@@ -1,0 +1,4 @@
+2005-12-07T17:06:00.000Z	ompaul	germancito	did you set a root password?
+2005-12-07T17:07:00.000Z	ompaul	germancito	did you set a root password?   germancito germancito !!
+2005-12-07T17:08:00.000Z	germancito	ompaul	mi password is the root pasword but since i changed the hostname (like 5 minutes ago) i can't use sudo
+2005-12-07T17:10:00.000Z	ompaul	germancito	that is not what I asked, did you explicitly set a root password, if you did not then I would reboot the box and (A) see if the problem goes away in which case you did not do damage (B) boot a second time if it is all screwed up and press escape while grub is booting and use the rescue kernel which will safely drop you on a command line as root - you can then undo the error

@@ -1,0 +1,4 @@
+2008-08-15T01:55:00.000Z	wng-		I made a custom livecd, but what I wanted to do was change the default login shell for the livecd, any ideas?
+2008-08-15T01:55:00.000Z	ikonia	wng-	change the shell in /etc/passwd
+2008-08-15T01:55:00.000Z	wng-	ikonia	thanks!
+2008-08-15T01:57:00.000Z	wng-	ikonia	the livecd user is added on boot, and the details are not in the /etc/passwd file, i see they are added by a script later, which uses set passwd/user-* lines to set the details, any idea now?

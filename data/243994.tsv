@@ -1,0 +1,4 @@
+2005-04-05T10:52:00.000Z	orko		I've created an iptables script (and loaded the rules) but aren't sure where to put it so it loads it at boot? (does an iptables-save do that for you?)
+2005-04-05T10:52:00.000Z	orko		or do I need to save the script, and call it in network/interfaces when the network comes up/
+2005-04-05T10:53:00.000Z	nis	orko	/etc/init.d/ and link to it from /etc/rc2.d/
+2005-04-05T10:54:00.000Z	nis	orko	but you should copy an exiting script from /etc/init.d/ and model yours on that one.

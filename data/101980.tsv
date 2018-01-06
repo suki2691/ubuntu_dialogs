@@ -1,0 +1,4 @@
+2010-11-21T17:49:00.000Z	s0126h		what does this command do exactly?  mount -t xfs -o rtdev=/dev/sdb4 /dev/sdb3 /mnt/media  ;  when i try to mount using gui it didn't work but when i used that command it worked? why is that?
+2010-11-21T17:51:00.000Z	s0126h		what does this command do exactly?  mount -t xfs -o rtdev=/dev/sdb4 /dev/sdb3 /mnt/media  ;  when i try to mount using gui it didn't work but when i used that command it worked? why is that?
+2010-11-21T17:51:00.000Z	unop_	s0126h	a guess - it's a partition on a fixed drive that you didn't have the permissions to mount it
+2010-11-21T17:52:00.000Z	unop_	s0126h	as for what it does, it mounts the device /dev/sdb3 on  /mnt/media and places the journal on /dev/sdb4

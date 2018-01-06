@@ -1,0 +1,4 @@
+2009-10-14T21:16:00.000Z	sbaker48		this is probably a dumb question, but my ubuntu machine has two 150g hard drives, currently with / on one and /home on the other, both ext3. Now obviously this is a huge waste of space on the first drive which has under 5g used, so I want to partition most of it off and use it for the /home tree. Is there any way to do this so that I don't have to manage which directories go on which drive manually, and just let the filesystem fi
+2009-10-14T21:17:00.000Z	leaf-sheep	sbaker48	Look more into LVM.
+2009-10-14T21:17:00.000Z	leaf-sheep	sbaker48	With LVM, you can "treat" multiple hard drives as one gigantic partition or anything you desire.
+2009-10-14T21:19:00.000Z	leaf-sheep	sbaker48	http://www.redhat.com/docs/manuals/enterprise/RHEL-4-Manual/sysadmin-guide/ch-lvm-intro.html

@@ -1,0 +1,4 @@
+2007-04-02T08:46:00.000Z	Megaqwerty		My friend has an Ubuntu Server, and he would like to configure some of it himself, but he needs a GUI (he isn't that great with the command line yet) so I have installed ubuntu-desktop on his box, along with vncserver so that he can view his server in a GUI remotely. Now, this works fine, until the box is rebooted, in which case, he or I have to ssh in and start vncserver. Is there a way that I can have ubuntu automatically start vncse
+2007-04-02T08:48:00.000Z	KurtKraut	Megaqwerty	it is extremely unsafe running vncserver all the time.
+2007-04-02T08:48:00.000Z	Megaqwerty	KurtKraut	This is only until it is configured
+2007-04-02T08:48:00.000Z	KurtKraut	Megaqwerty	I recoment you only running SSH with ssh-keys to increase security and once you log in into SSH, you can manually run VNC when needed and close after that.

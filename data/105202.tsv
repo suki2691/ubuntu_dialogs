@@ -1,0 +1,4 @@
+2009-01-07T14:04:00.000Z	HenryH		Can someone give me a hand please? I have just installed U 8.10 and it seems to run fine but now I have put a SCSI card in the box and connected it to my scanner and trying to find the scanner using 'XSane Image Scanner' it says "Failed to open device 'v4l:/dev/video0': Invalid Argument. How do I determine what /dev/video0 is?  And how do I get a list of the hardware that U thinks is in the box to compare that with what I think is in the b
+2009-01-07T14:05:00.000Z	ActionParsnip	HenryH	run lspci to get the cards info then websearch from there, you may need packages or to compile drivers for the card
+2009-01-07T14:10:00.000Z	ActionParsnip	HenryH	it means its identifid itself, websearch forthat name and see how to config it in ubuntu
+2009-01-07T14:11:00.000Z	ActionParsnip	HenryH	there may be a guide in the hcl

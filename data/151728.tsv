@@ -1,0 +1,4 @@
+2007-01-04T09:46:00.000Z	JuJuBee		How do I use chgrp to change the perms for group to add w recursively to /var/www ?
+2007-01-04T09:47:00.000Z	JuJuBee		Thanks s1 I forgot the g...
+2007-01-04T09:47:00.000Z	GenNMX_	JuJuBee	chmod <owner><group><everyone>. Adding -R after chmod makes it do the act recursively.
+2007-01-04T09:49:00.000Z	GenNMX_	JuJuBee	You can just do chmod -R 775, which sets read, write, and execute support for owner and group.

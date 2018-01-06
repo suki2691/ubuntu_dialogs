@@ -1,0 +1,4 @@
+2007-09-15T05:01:00.000Z	norcalscubadiver		hey all. i am having a problem writing a dvd.iso to a dvd-/+R.  i think my command is messed up, can someone who knows better than me help me out please. thanks
+2007-09-15T05:02:00.000Z	bruenig	norcalscubadiver	growisofs -dvd-compat -Z /dev/whatever=dvd.iso
+2007-09-15T05:03:00.000Z	norcalscubadiver	bruenig	thanks will try that one
+2007-09-15T05:11:00.000Z	norcalscubadiver	bruenig	thank you, that worked great for me.

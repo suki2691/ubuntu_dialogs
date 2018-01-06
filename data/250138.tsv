@@ -1,0 +1,4 @@
+2007-09-30T05:52:00.000Z	timothyarnold85		I'm attempting to get MySQL up and running, so I installed it (sudo apt-get install mysql-client-5.0 ), but when I then try to run it (mysql), I get ERROR 2002 (HY000): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2007-09-30T05:52:00.000Z	timothyarnold85		can anyone help?
+2007-09-30T05:52:00.000Z	kbrooks	timothyarnold85	you installed a packagee for the mysql client, not the server.
+2007-09-30T05:53:00.000Z	timothyarnold85	kbrooks	ah, i see - do you happen to know the name of the server offhand for apt-get ?

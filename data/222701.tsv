@@ -1,0 +1,4 @@
+2006-08-31T16:15:00.000Z	simon__		I'd like to do my own live cd that works on as many configuration as the ubuntu live cd does. :) Now I have a problem in writing a good script for a matching xorg config. Ubuntu seems to have an awesome script for that. Just dexconf or xorg reconfigure don't seem to work very well.
+2006-08-31T16:15:00.000Z	simon__		Has anybody in here a good manual about that?
+2006-08-31T16:16:00.000Z	mneptok	simon__	xresprobe and the other X sniffybits are what you're after.
+2006-08-31T16:19:00.000Z	simon__	mneptok	yeah, thank you. But unfortunately I'm looking for a script that works also with non-ddc-compliant monitors, e.g. crts

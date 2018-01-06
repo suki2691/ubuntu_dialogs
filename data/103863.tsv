@@ -1,0 +1,4 @@
+2011-03-22T11:04:00.000Z	i4ba1_		the result is Model=SAMSUNG HD161G, FwRev=1AC01118, SerialNo=S14Dj585959
+2011-03-22T11:04:00.000Z	i4ba1_		and i just want get the number in serial no
+2011-03-22T11:05:00.000Z	i4ba1_		how can i do that?
+2011-03-22T11:06:00.000Z	ActionParsnip	i4ba1_	maybe:    sudo dmidecode | less     will show it, use cursors / pgup / pgdn to navigate and Q to exit

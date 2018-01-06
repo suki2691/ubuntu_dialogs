@@ -1,0 +1,4 @@
+2008-03-28T02:27:00.000Z	cogumel0		if I want to install ubuntu 7.10 in a disk with 30gbs unpartitioned space and 180gb of partitions with data, how do I do that?
+2008-03-28T02:28:00.000Z	cogumel0		I mean, do I have to take any special cautions to make sure I do not delete the data on the other partitions?
+2008-03-28T02:28:00.000Z	Lamego	cogumel0	during the partitioning you set create the 30gbs partition allocated to / and 180gb to /home
+2008-03-28T02:29:00.000Z	Lamego	cogumel0	just dont explicitely delete any of ther partitions

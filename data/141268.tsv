@@ -1,0 +1,4 @@
+2008-05-16T19:46:00.000Z	laika		﻿(16:42:13) laika: hi, i have a problem with sleep mode on my laptop. I can get it to sleep, but when it wakes up there is only a black sreen and it hangs up.. any thoughts? i googled as i could but im not much a linux guy... is amilo pi-1556 ( Nvidia 7600 Go , C2D )
+2008-05-16T19:47:00.000Z	laika		and im pretty desperate
+2008-05-16T19:47:00.000Z	Blu3	laika	you probably need to twiddle some acpi things like posting bios and double chvt
+2008-05-16T19:48:00.000Z	Blu3	laika	look at /etc/default/acpi-support

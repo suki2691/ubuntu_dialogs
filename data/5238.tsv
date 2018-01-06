@@ -1,0 +1,4 @@
+2012-04-08T06:23:00.000Z	JoeyA		I can use audio programs like Audacity to open a sound file and look at its meta data (Artist, Track Number, Year, etc.).  Is there a command line program I can use to dump this info so I won't have to do so much clicking?
+2012-04-08T06:24:00.000Z	CFHowlett	JoeyA	  ffmpeg
+2012-04-08T06:25:00.000Z	CFHowlett	JoeyA	  ffmpeg -i foo.mp3
+2012-04-08T06:26:00.000Z	JoeyA	CFHowlett	Thanks!

@@ -1,0 +1,4 @@
+2008-09-25T18:48:00.000Z	freedumMan		ive setup my machine so i can restart my apache without the root password using visudo....%jason ALL=/opt/lampp/lampp restart ....etc but it keeps asking me for sudo password?
+2008-09-25T18:48:00.000Z	freedumMan		anyone have experience with sudoers?
+2008-09-25T18:49:00.000Z	pihhan	freedumMan	you have prefix command with NOPASSWD: , dont remember exactly, see sudoers man page
+2008-09-25T18:49:00.000Z	freedumMan	pihhan	opps sorry i did do that i should've pasted but still not working %jason  ALL=NOPASSWD: /opt/lampp/lampp restart

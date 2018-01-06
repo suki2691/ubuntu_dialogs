@@ -1,0 +1,4 @@
+2008-09-19T09:20:00.000Z	Ninjara		Is there a way to see which processes are accessing what on the filesystem? (I need to track down the process that keeps spinning up the cd-rom).
+2008-09-19T09:20:00.000Z	harriseldon	Ninjara	use lsof
+2008-09-19T09:22:00.000Z	Ninjara	harriseldon	So.. 'lsof |grep /dev/cdrom' or something?
+2008-09-19T09:23:00.000Z	harriseldon	Ninjara	that would check if a process is accessing the raw cdrom device. If it is accessing a file that is mounted, you can use mount first to list mounted filesystems and replace /dev/cdrom with the mount point

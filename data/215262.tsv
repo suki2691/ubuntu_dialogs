@@ -1,0 +1,4 @@
+2006-02-19T14:35:00.000Z	hortian		hey folks... I think I might've made a pretty careless error in install ubuntu, and I'm wondering if there is a way to recover
+2006-02-19T14:36:00.000Z	hortian		basically, I had ubuntu installed on one partition, then installed windows on another partition (and the windows installer set the new partition as the default boot partition) ... I went back to the livecd to manually set the boot partition to the original ubuntu partition, but when I restart, it says that there is an error loading my OS
+2006-02-19T14:37:00.000Z	hortian		I'm sure that windows rewrote the boot records in a bad way, or something, but is there any way to fix it?
+2006-02-19T14:39:00.000Z	soundray	hortian	you can reinstall grub from a live CD.

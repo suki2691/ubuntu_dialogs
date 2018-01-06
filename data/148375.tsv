@@ -1,0 +1,4 @@
+2007-01-22T15:08:00.000Z	Skrit		hey there... I would need some advice about setting the virtual terminal's resolution, I tried editing grub kernel line to add vga = 791 but that dosen't help. I get: unsupported parameter at boot time and when prompted scan for the available configs, the highest thing I can get is 800 x 600. Any toughts on how I could get something better?
+2007-01-22T15:09:00.000Z	IntuitiveNipple	Skrit	The resolution will depend on which FrameBuffer driver you've got compiled into the kernel at boot-time
+2007-01-22T15:10:00.000Z	Skrit	IntuitiveNipple	that's a start, I'll search a little about it thanks.
+2007-01-22T15:11:00.000Z	IntuitiveNipple	Skrit	I had to do that for an Intel i810-based notebook, modules can't be configured from the kernel command-line

@@ -1,0 +1,4 @@
+2011-10-29T21:36:00.000Z	Friar		anybody else know about mounting a USB drive? I found it in /dev/by-id, so i know it is there, it just didn't show up in /media where I expected it.
+2011-10-29T21:38:00.000Z	pkkm	Friar	To manually mount a drive follow the steps: 1. create a directory in which you are going to mount the drive 2. execute in terminal: sudo mount /dev/<device> <directory>
+2011-10-29T21:40:00.000Z	Friar	EnD-Dolev	I think it does with fdisk -l.  I have one disk that shows up as NTFS.
+2011-10-29T22:28:00.000Z	pkkm	Friar	To manually mount a drive follow the steps: 1. create a directory in which you are going to mount the drive 2. execute in terminal: sudo mount /dev/<device> <directory>

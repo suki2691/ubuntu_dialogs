@@ -1,0 +1,4 @@
+2011-06-14T00:21:00.000Z	broc		ok, i ran nvidia-settings through terminal, and then i enabled the second display, and then  hit "save to X Configuration File". when i open nvidia settings again, the second display is disabled again
+2011-06-14T00:22:00.000Z	broc		how do i restart the x server?
+2011-06-14T00:23:00.000Z	celthunder	broc	you have to run nvidia-settings as root, for it to save to xorg.conf
+2011-06-14T00:23:00.000Z	celthunder	broc	nvm i'm reading backwards

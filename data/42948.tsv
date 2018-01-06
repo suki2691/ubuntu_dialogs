@@ -1,0 +1,4 @@
+2010-01-02T12:06:00.000Z	reactor		guys if I mount new hdd as /home, will the system delete the contents of it or of folder with my username?
+2010-01-02T12:07:00.000Z	Church	reactor	if you mount on non empty directory, then subcontent of it will still be there, just hidden untill umount.
+2010-01-02T12:07:00.000Z	reactor	Church	so need I backup to another hdd?
+2010-01-02T12:07:00.000Z	Church	reactor	if you want to transfer that content to new hdd first mount it somewhere else, then move over to new filesystem, then mount it on /home

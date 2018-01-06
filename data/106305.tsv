@@ -1,0 +1,4 @@
+2008-01-10T02:01:00.000Z	zhegao		so i get PCI bridge: Intel Coporation 82801 Mobile PCI bridge, is this my wireless card then?
+2008-01-10T02:03:00.000Z	qrsdhq	zhegao	Try  lspci -v | grep "Network". This should list the network controller
+2008-01-10T02:05:00.000Z	qrsdhq	zhegao	Maybe  lspci -v | grep "ethernet".
+2008-01-10T02:06:00.000Z	qrsdhq	zhegao	The text after grep is case sensenitive, so it should be Ethernet, not ethernet

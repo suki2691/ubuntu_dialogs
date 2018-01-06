@@ -1,0 +1,4 @@
+2008-11-23T03:49:00.000Z	Dvyjones		Sudo doesn't work for me... Upon trying to change my password, it works. Then, when I try to use something that requires sudo, it doesn't... I am part of the admin group, and haven't (intentionally) changed /etc/sudoers... It doesn't say I'm not in the sudoers file, only "Sorry, try again" as if my password was wrong... Any ideas?
+2008-11-23T03:49:00.000Z	Mecha25	Dvyjones	did you accidentally have caps-lock on when you changed your password?
+2008-11-23T03:50:00.000Z	Dvyjones	Mecha25	No. I've tried to copy-paste it also...
+2008-11-23T03:53:00.000Z	Mecha25	Dvyjones	I think you might have changed Root's password, not yours, which might cause a problem

@@ -1,0 +1,4 @@
+2007-10-09T06:26:00.000Z	sphaw		hey guys... having a problem. Whenever I change to a virtual terminal (CTRL-ALT-F1), my keyboard layout doesnt work (norwegian). How do I set the keyboard layout in a virtual terminal?
+2007-10-09T06:28:00.000Z	sphaw		so you can see that im kinda stomped here
+2007-10-09T06:28:00.000Z	jrib	sphaw	loadkeys
+2007-10-09T06:35:00.000Z	jrib	sphaw	loadkeys and console-data have both worked for me to get dvorak

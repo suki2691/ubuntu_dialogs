@@ -1,0 +1,4 @@
+2007-03-13T06:03:00.000Z	xamox		I am using 'sudo usermod -Gwww-data xamox' to add the user xamox to group www-data but when I do a 'groups www-data' it is only returning 'www-data' and not xamox a member of that group. If I do 'groups xamox' it doesn't list www-data as a group.
+2007-03-13T05:49:00.000Z	xamox		what is the command to give a tree like structure in linux at the prompt, something similiar to tree in DOS?
+2007-03-13T05:50:00.000Z	IdleOne	xamox	sudo aptitude install tree ( then you will be able to use the tree command)
+2007-04-16T08:53:00.000Z	xamox	IdleOne	thx

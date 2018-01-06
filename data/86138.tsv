@@ -1,0 +1,4 @@
+2008-07-08T10:11:00.000Z	ymanton		so noone knows about modprobe?
+2008-07-08T10:12:00.000Z	shockdiode	ymanton	do you just want the modules loaded automatically at boot?
+2008-07-08T10:13:00.000Z	ymanton	shockdiode	i want the modules loaded if im using that driver yes, the nvidia driver seems to load its module, i want the nouveau driver to load its modules if im using nouveau
+2008-07-08T10:14:00.000Z	shockdiode	ymanton	well you could just put the modules in /etc/modules and they will load at boot. Just put the module name without the '.ko' extension

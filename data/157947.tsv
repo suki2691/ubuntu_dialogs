@@ -1,0 +1,4 @@
+2008-01-17T04:14:00.000Z	x0rx0r		does anyone know how to optimize gutsy's battery consumption without messy kernel hacking ?
+2008-01-17T04:15:00.000Z	Slart	x0rx0r	tried powertop?
+2008-01-17T04:16:00.000Z	Slart	x0rx0r	the regular stuff always applies.. shut off wireless.. dim the display, shut off hard drives.. run cpu on lower frequency... shut off unneccesary programs.. trackerd for example
+2008-01-17T04:17:00.000Z	Slart	x0rx0r	make sure your acpi is recognized correctly.. check "dmesg | grep -i acpi"

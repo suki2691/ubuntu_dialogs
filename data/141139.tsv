@@ -1,0 +1,4 @@
+2007-10-09T09:23:00.000Z	Dean_Harryman		ok, i just tried to extract the files to /lib/firmware and it said I do not have permission....
+2007-10-09T09:24:00.000Z	frostburn	Dean_Harryman	you need to use sudo to access root folders/files
+2007-10-09T09:32:00.000Z	frostburn	Dean_Harryman	type dmesg|tail
+2007-10-09T09:33:00.000Z	frostburn	Dean_Harryman	that means the driver is loaded

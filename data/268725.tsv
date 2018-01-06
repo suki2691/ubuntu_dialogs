@@ -1,0 +1,4 @@
+2004-11-24T10:53:00.000Z	koko775		hey, i've managed to mount /dev/sda1 onto /mnt/SATA1 (ro,user,users), but only root can read it, and when ubuntu pops up a window, it says i don't have the permissions necessary
+2004-11-24T10:54:00.000Z	bob2	koko775	add umask=002 to the options field in fstab
+2004-11-24T10:56:00.000Z	bob2	koko775	it doesn't just work?
+2004-11-24T12:59:00.000Z	bob2	koko775	did your kernel oops?

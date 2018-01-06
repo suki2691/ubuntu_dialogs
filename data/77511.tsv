@@ -1,0 +1,4 @@
+2008-10-09T13:57:00.000Z	firestorm_		how can i check on the command line if a certain program is installed?
+2008-10-09T13:57:00.000Z	Slart	firestorm_	dpkg -l | grep -i progamname perhaps?
+2008-10-09T13:57:00.000Z	firestorm_	Slart	was thinkin something more apt-get related
+2008-10-09T13:59:00.000Z	Slart	firestorm_	apt-cache search --installed <packagename> might work too

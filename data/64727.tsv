@@ -1,0 +1,4 @@
+2010-07-31T05:40:00.000Z	Todd_		hi all.  Anyone know how to reinstall ethernet drivers from the command line?
+2010-07-31T05:41:00.000Z	ZykoticK9	Todd_	most "ethernet" drivers are in the kernel.  what are you trying to do?  you can use ifconfig to configure an ethernet card from cli.
+2010-07-31T05:44:00.000Z	ZykoticK9	Todd_	could you pastebin the output of "lspci | grep Ethernet"
+2010-07-31T05:49:00.000Z	ZykoticK9	Todd_	you might want to see if this applies (looks like you have an "odd" ethernet controller there) http://www.question-defense.com/2010/06/03/ubuntu-10-4-eth0-not-available-rtl-81398139c8139c-rev-10

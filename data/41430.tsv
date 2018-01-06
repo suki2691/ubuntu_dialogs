@@ -1,0 +1,4 @@
+2010-04-23T02:46:00.000Z	dmichel1		hi all
+2010-04-23T02:47:00.000Z	dmichel1		im editing grub and i'm trying to get a list of my disk drives in the format of ' rootnoverify (hd0,0)', because my 'other' is windows, and i'd like to switch which hard drive windows boots from, but i dont know which one it is
+2010-04-23T02:47:00.000Z	dmichel1		how do i list my disk drives in that format, and not the partitions
+2010-04-23T02:49:00.000Z	bondiblueos9	dmichel1	I'm not sure how you list them like that, but I think it follows the pattern that hda1 is (hd0,0), hda2 is (hd0,1), hdb1 is (hd1,0), hdb4 is (hd1,3) etc

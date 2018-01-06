@@ -1,0 +1,4 @@
+2008-10-23T09:13:00.000Z	mersault		I'm looking for some advice. I'm planning to use a spare disk I having lying around exclusively for my incoming torrent files (using torrentflux to feed a house full of nerds). What filesystem should I use on this disk? given the type of filesystem traffic BT generates, it can fragment even XFS partitions into an unholy mess. Is XFS still the best bet?
+2008-10-23T09:14:00.000Z	jim_p	mersault	do you use a ups? then xfs. it will be faster for multiple users ("multitasking").
+2008-10-23T09:15:00.000Z	mersault	jim_p	no UPS, but power is pretty stable where I am.
+2008-10-23T09:15:00.000Z	jim_p	mersault	ok then, go with xfs if you feel it

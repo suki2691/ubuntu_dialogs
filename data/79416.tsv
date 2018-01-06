@@ -1,0 +1,4 @@
+2009-09-09T07:49:00.000Z	llua		how do i list the "(hd0,0)" in my system?
+2009-09-09T07:49:00.000Z	DasEi	llua	sudo fdisk -l
+2009-09-09T07:51:00.000Z	DasEi	llua	sda = hd0  1= 0
+2009-09-09T07:52:00.000Z	DasEi	llua	realize sdxx counts from 1, while hd does from 0

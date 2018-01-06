@@ -1,0 +1,4 @@
+2005-09-28T11:49:00.000Z	Bad_Magic		can anyone tell me why my boot locks when it tries to initialize my network cards when eth0 isnt connected? (i can ctrl-d to get past it... but i have to modprobe ndiswrapper to get it up)
+2005-09-28T11:50:00.000Z	robzon	Bad_Magic	add ndiswrapper to /etc/modules maybe
+2005-09-28T11:51:00.000Z	Bad_Magic	robzon	it will come up if my eth0 is plugged in... the problem is bringing eth0 online w/o it plugged in makes me have to kill the network setup on boot
+2005-09-28T11:52:00.000Z	robzon	Bad_Magic	hmm it probably tries to auto-configure (DHCP) and it waits to time-out

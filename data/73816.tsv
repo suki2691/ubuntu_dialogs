@@ -1,0 +1,4 @@
+2010-02-21T06:01:00.000Z	jeeves_Moss		how can I move all of the contents (and maintain the directory structure) of /mnt/external/Sorted/ to /mnt/MP3/Sorted/ ??
+2010-02-21T06:02:00.000Z	blakkheim	jeeves_Moss	cd /mnt/external ; mv -v Sorted /mnt/MP3
+2010-02-21T06:02:00.000Z	jeeves_Moss	blakkheim	I think when I try that, I get an error.  one sec, I'll check
+2010-02-21T06:05:00.000Z	jeeves_Moss	blakkheim	mv: inter-device move failed: `Sorted' to `/mnt/MP3/Sorted'; unable to remove target: Is a directory

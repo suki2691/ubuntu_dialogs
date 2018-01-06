@@ -1,0 +1,4 @@
+2012-02-27T16:36:00.000Z	fAz4		is it means file descriptor 63 ?! /dev/fd/63
+2012-02-27T16:38:00.000Z	oCean	fAz4	there's not much detail in your question. Often file descriptor references the entries in /proc/<pid>/fd
+2012-02-27T16:39:00.000Z	fAz4	oCean	im just figuring out how  $file <(ps)  is working
+2012-05-12T12:00:00.000Z	oCean	fAz4	if you are looking for sources of the /usr/bin/systemsettings program, use  apt-get source systemsettings (this will download the source code)

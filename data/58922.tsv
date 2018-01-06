@@ -1,0 +1,4 @@
+2009-04-28T16:49:00.000Z	hbekel	Kahomono	you're question was not very specific, and you haven't given much information. try to narrow it down. does it happen with other browsers, too? is the problem on the client or server side? Can you see anything in the server error log (if available to you) etc...
+2009-04-28T16:51:00.000Z	Kahomono	hbekel	thanks I was just checking the log site to see if I was squelched.  The problem appears to be on the client side, since the Windows machines can connect the server would seem to be OK.  I tried both Nautilus and Firefox, neither can connect from the Jaunty box.  If you can tell me where to look I will check the server logs, I am more of a Windows jockey
+2009-04-28T16:53:00.000Z	hbekel	Kahomono	sorry, i don't know much about webdav. if it's provided by some apache server, check it's error logs (probably /var/log/httpd/error.log, but that depends on the server configuration)
+2009-04-28T16:54:00.000Z	Kahomono	hbekel	see my PM

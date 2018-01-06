@@ -1,0 +1,4 @@
+2007-11-24T11:04:00.000Z	sFEARs		every time i reboot i have to modprobe ndiswrapper.. how do i add that permenantly?
+2007-11-24T11:04:00.000Z	sFEARs		tussey.. "sudo fdisk -l"
+2007-11-24T11:05:00.000Z	sFEARs		find out what the "/dev/hda1" of your hard drive is.. then create a folder to mount it to and "sudo mount /dev/hda? /home/user/new folder"
+2007-11-24T11:06:00.000Z	velko	sFEARs	put the line "ndiswrapper" in the file /etc/modules

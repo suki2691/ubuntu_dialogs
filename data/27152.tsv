@@ -1,0 +1,4 @@
+2010-08-27T22:52:00.000Z	axisys		I have a laptop with intel core 2 duo 2.4Ghz and 8GB ram and 750GB disk .. I like to install ubuntu 64bit w/ LVM.. anyone know of a url w/ howto ? i want to put multiple VMs on it and use as my private cloud and use hadoop .. any suggestions on how should I go by doing it? i am thinking install ubuntu desktop and then virtualbox and go that path
+2010-08-27T22:54:00.000Z	mgt_90	axisys	KVM is a little harder to setup, but I'm reluctant to recommend installing a full GUI on a server.
+2010-08-27T22:56:00.000Z	axisys	mgt_90	it is my laptop.. so I can vbox is simplere then
+2010-08-27T22:57:00.000Z	mgt_90	axisys	Don't get me wrong, I love Vbox, it's just I'd be reluctant to tie up a bunch of system resources with Ubuntu's bloated default GUI. Use a window manager instead if you have to.

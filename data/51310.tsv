@@ -1,0 +1,4 @@
+2011-12-23T23:38:00.000Z	krisss117		hi, exist something like s/a+/a/g in sed ??
+2011-12-23T23:38:00.000Z	krisss117		i need reduct all aaaaaaa to one a
+2011-12-23T23:39:00.000Z	krisss117		have u any idea ?
+2011-12-23T23:41:00.000Z	trism	krisss117	sed 's/a\+/a/g' file.txt

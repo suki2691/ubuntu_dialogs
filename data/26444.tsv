@@ -1,0 +1,4 @@
+2011-12-27T12:13:00.000Z	avinashhm		Hi friends ,  i need to install libc6 .. when i do any apt-get install, it is giving "The package libc6 needs to be reinstalled, but I can't find an archive for it." ... since apt-get is broken, can i do it via dpkg -i OR what is the best way to install libc6
+2011-12-27T12:14:00.000Z	Flannel	avinashhm	dpkg -i would be the easiest method (assuming it works, it may not).  You can download the deb file from packages.ubuntu.com (find the package, then scroll down and pick your arch)
+2011-12-27T12:15:00.000Z	avinashhm	Flannel	just in case, if dpkg -i doesn't work ; is there any other way ? or its only option ?
+2011-12-27T12:16:00.000Z	Flannel	avinashhm	You can manually extract the files into your filesystem via a liveCD or whatnot.  This isn't pretty, but then again, getting rid of libc6 in the first place is bound to cause some grief :)

@@ -1,0 +1,4 @@
+2009-11-20T02:45:00.000Z	knoppies		with the compiz desktop wall, is there a way to get a different background on each desktop?
+2009-11-20T02:46:00.000Z	soreau	knoppies	There is a way, but you will lose your desktop icons
+2009-11-20T02:47:00.000Z	knoppies	soreau	Ive never really been a fan of desktop icons, so thats a small price to pay. Im listening.
+2009-11-20T02:48:00.000Z	soreau	knoppies	To set a wallpaper for each viewport using gnome, disable Nautilus from drawing the desktop by setting the gconf key /apps/nautilus/preferences/show_desktop to "false" with gconf-editor. Then, set the four wallpapers in ccsm>Wallpaper

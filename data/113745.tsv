@@ -1,0 +1,4 @@
+2009-06-15T21:03:00.000Z	axisys		how do I find out what files get installed with a pkg ?
+2009-06-15T21:05:00.000Z	dajhorn	axisys	After the package is installed, you can do `dpkg --listfiles MyPackage` at a prompt.
+2009-09-17T20:52:00.000Z	dajhorn	axisys	Also note that puppet is in the universe repository, so Ubuntu is unlikely to apply low priority security patches to it.
+2009-09-17T20:57:00.000Z	axisys	dajhorn	ok .. i checked the puppet as well .. and it looks ubuntu pkg'd it securely anyways

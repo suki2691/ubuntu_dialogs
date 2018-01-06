@@ -1,0 +1,4 @@
+2007-09-22T05:41:00.000Z	finalbeta	hmhowie	that doesn't sound right. You can be just logged in. ftp has a control connection used to control the data connections which upload or download.
+2007-09-22T05:43:00.000Z	hmhowie	finalbeta	really? i thought with ftp that every request started with checking if the user is allowed to do that or not...
+2007-09-22T05:43:00.000Z	finalbeta	hmhowie	yes, I must have missed something in the conversation.
+2007-09-22T05:44:00.000Z	hmhowie	finalbeta	however, my vsftpd.log does contain things like "OK LOGIN: Client xxx.xxx.xxx.xxx", so login is obviously supported. however there doesn't seem to be a logout

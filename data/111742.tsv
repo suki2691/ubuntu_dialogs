@@ -1,0 +1,4 @@
+2011-02-22T00:56:00.000Z	WRStone		I'm attempting to create my first package for inclusion in my PPA. It's quite simple: just a collection of Truetype fonts that I always install and would rather do it via a .deb than manually install every time I bring up a new box.
+2011-02-22T00:56:00.000Z	WRStone		This should be fairly straightforward: ultimately, all that happens is a bunch of .ttf files get copied to /usr/share/fonts/truetype/wrstone.com, and the font cache is rebuilt. However, I've been banging my head on the package creation for a couple of days without much success. I've built RPM packages for this before, but the Debian package is apparently an order of magnitude more complex.
+2011-02-22T00:56:00.000Z	WRStone		Any comments, suggestions, advice, assistance, or nasty remarks would be appreciated.
+2011-02-22T00:56:00.000Z	FloodBot1	WRStone	Please don't flood; use http://paste.ubuntu.com to paste; don't use Enter as punctuation.

@@ -1,0 +1,4 @@
+2005-10-11T06:46:00.000Z	goh		How do I set sypnatic such that it will look 4 my Hoary cd in my cdrw instead of my cdrom?
+2005-10-11T06:46:00.000Z	anivair	goh	you can always just temporarily alias cdrom
+2005-10-11T06:47:00.000Z	goh	anivair	Hmmm... how do i do that?
+2005-10-11T06:47:00.000Z	anivair	goh	well, i'd copy cdrom to cdrom_backup and then make cdrom a symbolic link to cdrw (assuming that cdrw exists)

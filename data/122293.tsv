@@ -1,0 +1,4 @@
+2011-12-24T00:34:00.000Z	enes		hi, i installed gentoo 11. then update-grub on ubuntu 11.10. there is "Found Gentoo Base System release 2.0.3 on /dev/sda1". but there isn't any information about gentoo on grub.cfg
+2011-12-24T00:34:00.000Z	enes		how can i add gentoo to ubuntu grub
+2011-12-24T00:36:00.000Z	dr_willis	enes	 add a entry to /etc/grub.d/40_custom would be one way
+2011-12-24T00:37:00.000Z	enes	dr_willis	i try it. but it doesnt work.

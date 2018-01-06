@@ -1,0 +1,4 @@
+2009-03-05T12:42:00.000Z	tsrk		I have two machines.  When I try to SSH from one to the other, the login is incredibly slow (takes about 5 seconds for the password prompt to appear).  When I SSH to any other machine it works fine.  When I ssh to the server from any other machine it works fine.  This problem only occurs with this combination of client and server.  What on earth could be causing this?
+2009-03-05T12:44:00.000Z	hechu	tsrk	refer to here may helpful: http://www.macosxhints.com/article.php?story=20050329185832952
+2009-03-05T12:44:00.000Z	hechu	tsrk	it's related with reverse DNS.
+2009-03-05T12:45:00.000Z	tsrk	hechu	Seveas, also i forgot to note that this used to work fine (immediately connect)

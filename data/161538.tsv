@@ -1,0 +1,4 @@
+2008-02-09T20:44:00.000Z	drarem		 I set up a cronjob to echo text into my gaming server, when I do ps -ef I see a whole bunch of those cron jobs in there.. what does that mean
+2008-02-09T20:46:00.000Z	Seveas	drarem	that your cronjob doesn't exit :)
+2008-02-09T20:54:00.000Z	drarem	Seveas	- are cronjobs supposed to exit?
+2008-02-09T20:55:00.000Z	Seveas	drarem	usually yes. Cronjobs are regularly occuring things, not daemons

@@ -1,0 +1,4 @@
+2007-01-28T13:05:00.000Z	pbureau		question : I am running ./configure on an install and I get this error message "No package 'hal' found" & "Consider adjusting the PKG_CONFIG_PATH environment variable" now I have Hal 0.5.7.1 installed I can see it with locate, how do I change the pkg_config_path variable ??
+2007-01-28T13:06:00.000Z	hbaigu	pbureau	you have to install libhal-dev
+2007-01-28T13:35:00.000Z	hbaigu	pbureau	libgtk2.0-dev
+2007-02-03T10:23:00.000Z	hbaigu	pbureau	maybe the configure script don't like wildcards

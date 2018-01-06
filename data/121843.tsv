@@ -1,0 +1,4 @@
+2008-11-20T09:35:00.000Z	andre_pl		I just built myself a custom kernel from upstream and it all went well, but now I'd like to patch in a driver, how can I do this without having to recompile EVERYTHING?
+2008-11-20T09:36:00.000Z	_2	andre_pl	you can build just the kernel  or you can build just the/a module/s
+2008-11-20T09:37:00.000Z	_2	andre_pl	it's in the "make" command.   make<what?>
+2008-11-20T09:44:00.000Z	andre_pl	_2	thanks, I think i need to do a total recompile though :( theres more than just the module apparently.

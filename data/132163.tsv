@@ -1,0 +1,4 @@
+2009-12-11T06:19:00.000Z	xandros		I have another question - I have a linux live cd which I wish to play around with, (i.e. edit it in ways I wish not to explain for it will take too long) however it only has basically 1 file, squashfs, I've done a small amount of research and I've concluded that a linux kernel is compiled into this single file...is there any way to "decompile" it and be able to edit the individual files of it?
+2009-12-11T06:19:00.000Z	Billiard	xandros	yes
+2009-12-11T06:21:00.000Z	Billiard	xandros	you should be able to just extract it do watever you want, such as chroot into it and install packages, then mksquashfs the directory and put it back in the iso, sorry i cant remember the command to extract it, other than mounting and copying
+2009-12-11T06:22:00.000Z	Billiard	xandros	well you can do whatever after you extract it, it looks like the command is unsquashfs

@@ -1,0 +1,4 @@
+2010-09-15T04:06:00.000Z	ugliefrog		does anyone here know how to delete files off a microsd card permanently?....i have tried for the last few days to remove them, however when I reload the card all files are back on it
+2010-09-15T04:07:00.000Z	sjm	ugliefrog	use dd to overwrite them?
+2010-09-15T04:07:00.000Z	ugliefrog	sjm	what do you mean dd to overwrite them
+2010-09-15T04:08:00.000Z	sjm	ugliefrog	as in "dd if=/dev/zero of=/dev/<your SD card>"

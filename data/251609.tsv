@@ -1,0 +1,4 @@
+2005-12-11T14:05:00.000Z	ubuntu2		when I'm enabling a 0x82 swap partition I need to mkswap then swapon and thats it?
+2005-12-11T14:05:00.000Z	cafuego	ubuntu2	Yep
+2005-12-11T14:05:00.000Z	cafuego	ubuntu2	To auomate it, add a swap entry in /etc/fstab
+2005-12-11T14:08:00.000Z	cafuego	ubuntu2	I believe it automatically uses it if it finds one at bootup

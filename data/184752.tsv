@@ -1,0 +1,4 @@
+2006-06-02T08:06:00.000Z	queuetue		I've removed and purged apache2-common and php4, mod php4, apache, etc.  I killed all apache2 processes, and confirmed /etc/apache and /var/www were gone.  Then I reinstalled apache2 and php, and did a2enable for php.   And it *still* sends me the .php file, without interpretation.  Can anyone explain how to get php working on ubuntu?
+2006-06-02T08:08:00.000Z	queuetue		I've removed and purged apache2-common and php4, mod php4, apache, etc.  I killed all apache2 processes, and confirmed /etc/apache and /var/www were gone.  Then I reinstalled apache2 and php, and did a2enable for php.   And it *still* sends me the .php file, without interpretation.  Can anyone explain how to get php working on ubuntu?
+2006-06-02T08:10:00.000Z	queuetue		Does the default install of apache2 and php just not work?
+2006-06-02T08:10:00.000Z	Sub	queuetue	no it does.

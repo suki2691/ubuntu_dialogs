@@ -1,0 +1,4 @@
+2007-09-13T11:11:00.000Z	Doitle		Hey does anyone know any funny tricks or things that might prevent simple C++ compiling in a new Ubuntu install? I have GCC installed and it shows up when I run gcc -v in the terminal...
+2007-09-13T11:12:00.000Z	Doitle		However when I try to compile it basically throws an error on everything, couts, cins, ints, it says they are all undeclared making me think theres something wrong library wise
+2007-09-13T11:12:00.000Z	Doitle		build-essential? Is that in the Synaptecs? I'll go check
+2007-09-13T11:12:00.000Z	Ahadiel	Doitle	sudo apt-get install build-essential

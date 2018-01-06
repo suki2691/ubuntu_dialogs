@@ -1,0 +1,4 @@
+2005-03-03T08:34:00.000Z	ogb		hi, I've tried to compile my own kernel on ubuntu. Do I have to creat an initrd?
+2005-03-03T08:35:00.000Z	snowblink	ogb	If you have things like ext3 as a module, yes.
+2005-03-03T08:36:00.000Z	ogb	snowblink	I have not, all FS are static compiled into the kernel.
+2005-03-03T08:37:00.000Z	ogb	snowblink	but GRUB won't load my kernel, it stops after the  uncompressing of the kernel :(

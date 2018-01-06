@@ -1,0 +1,4 @@
+2009-05-13T17:03:00.000Z	sekyourbox		I'm trying to setup sharing in ubuntu... When i try to set up a SMB user account, it wont allow me to setup a password for any made up user.. Should i use an existing account?
+2009-05-13T17:04:00.000Z	Kartagis	sekyourbox	you have to use a system user, then smbpasswd -a thatuser
+2009-05-13T17:05:00.000Z	sekyourbox	Kartagis	a system user? Im not sure what you mean
+2009-05-13T17:05:00.000Z	Kartagis	sekyourbox	the users with a home directory

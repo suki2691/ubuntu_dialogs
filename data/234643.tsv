@@ -1,0 +1,4 @@
+2011-06-01T15:01:00.000Z	dooglus	rhin0	use tune2fs to tell it the drive has been mounted lots of times without an fsck
+2011-06-01T15:01:00.000Z	dooglus	rhin0	then reboot
+2011-06-01T15:02:00.000Z	dooglus	rhin0	assuming it's an ext4 format
+2011-06-01T15:02:00.000Z	dooglus	rhin0	something like: "sudo tune2fs -C 100 /dev/sda"

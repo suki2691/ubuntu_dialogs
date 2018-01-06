@@ -1,0 +1,4 @@
+2005-10-22T08:18:00.000Z	lou_		Hey all, i'm trying to install realplayer, but am getting the following error: The following packages have unmet dependencies:
+2005-10-22T08:18:00.000Z	lou_		  realplayer: Depends: libc6 (>= 2.3.2.ds1-21) but 2.3.2.ds1-20ubuntu14 is to be installed
+2005-10-22T08:19:00.000Z	cafuego_	lou_	Yes, you're trying to sue a debian package on Ubuntu.
+2005-10-22T08:19:00.000Z	cafuego_	lou_	'sudo apt-get install helix-player'

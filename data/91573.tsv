@@ -1,0 +1,4 @@
+2008-10-28T20:10:00.000Z	Danskmand		Howdy :-) - I want to install capisuite with "sudo apt-get install capisuite". It then installs all the dependencies for it - also the courier mta (mail transfer agent). How can I install capisuite without the mta ? - I have my own which I want to use instead....
+2008-10-28T20:11:00.000Z	joaopinto	Danskmand	sudo apt-get install equivs, use equivs to fake the package installation
+2008-10-28T20:11:00.000Z	joaopinto		!codecs > debmukh50
+2008-10-28T20:13:00.000Z	Danskmand	joaopinto	So there is no option in apt-get....Thats why I didnt find it ;-)

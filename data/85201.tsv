@@ -1,0 +1,4 @@
+2009-09-19T16:35:00.000Z	DJCMay		ok, one last time. :)
+2009-09-19T16:35:00.000Z	DJCMay		i installed ubuntu on usb-device, started it and updated it. after reboot i get the message "missing operation system". is the problem the kernel update and how can i resolve this problem?
+2009-09-19T16:36:00.000Z	Dr_Willis	DJCMay	 when installed to a usb drive. some times the menu.lst (grub config) gets wrong and used hd1,0  when it should be using hd0,0..  You may want to heck the menu.lst   BUT it sounds like the pc isent even trying to boot from your hard drive...
+2009-09-19T16:39:00.000Z	DJCMay	Dr_Willis	thx

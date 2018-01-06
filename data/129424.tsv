@@ -1,0 +1,4 @@
+2007-06-29T06:57:00.000Z	brainiac		With what prog would I be able to mount iso files into a virtual cd drive?
+2007-06-29T06:58:00.000Z	brainiac		Will I find VirtualBox in the standard repositories?
+2007-06-29T06:59:00.000Z	brainiac		How would I do that in the terminal?
+2007-06-29T06:59:00.000Z	Shyde	brainiac	you can just use mount, e.g. sudo mount -o loop isofile.iso mountpath/

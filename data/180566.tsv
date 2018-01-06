@@ -1,0 +1,4 @@
+2006-08-04T13:31:00.000Z	RamiKassab		hey guys quick question, one of my servers had an error_log file that was HUGE so I deleted it because it took up all of the space on the partition and wasn't allowing any new emails to come in. When I run 'df' now, it still says that partition is 100% used up even though it's not, is there something I need to do to refresh that data?
+2006-08-04T13:32:00.000Z	uniq	RamiKassab	try 'sync'
+2006-08-04T13:33:00.000Z	RamiKassab	uniq	ok sync will update it all?
+2006-08-04T13:33:00.000Z	uniq	RamiKassab	maybe? it's worth a try.

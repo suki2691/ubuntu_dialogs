@@ -1,0 +1,4 @@
+2010-05-08T23:57:00.000Z	bdi		i am trying to use sshfs to mount a remote dir to /media/IMM, but i get this error: fusermount: user has no write access to mountpoint /media/IMM. I think i have to use chmod on /media/IMM but im not sure. Any ideas?
+2010-05-08T23:59:00.000Z	bdi		i am trying to use sshfs to mount a remote dir to /media/IMM, but i get this error: fusermount: user has no write access to mountpoint /media/IMM. I think i have to use chmod on /media/IMM but im not sure. Any ideas?
+2010-05-09T00:00:00.000Z	Dr_Willis	bdi	 you could just mount it to the users home dir somewhere.
+2010-05-09T00:00:00.000Z	bdi	Dr_Willis	well, i would kinda like to have it in media

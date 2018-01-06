@@ -1,0 +1,4 @@
+2008-07-09T06:01:00.000Z	Dre1		How do I extract .7z archives that are split into multiple parts?  I have p7zip installed and all that.  I just type in sudo 7za e /home/blah/blah/My Documents.7z.001 and it gives me an error that there is no such archive.  I don't know how to go about putting the entire thing back together.
+2008-07-09T06:03:00.000Z	linxeh	Dre1	replace the space with a "\
+2008-07-09T06:03:00.000Z	linxeh	Dre1	replace the space with a "\ " even, or put the whole filename in ""
+2008-07-09T06:04:00.000Z	linxeh	Dre1	ie 7za.... home/blah/blah/My\ Documents.7z.00   or    7za .... "home/blah/blah/My Documents.7z.001"

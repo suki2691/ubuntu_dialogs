@@ -1,0 +1,4 @@
+2011-07-09T23:20:00.000Z	XOXO1		whats the best way to back up entire hdd? using dd ? basically I'm running an ancient pc with ubuntu 5.04 live cd and I want to back up its 1.1GB hard drive to my primary PC's drive
+2011-07-09T23:21:00.000Z	vlt	XOXO1	ddrescue
+2011-07-09T23:22:00.000Z	vlt	XOXO1	It uses better default values, adapts reading block size to possible bad blocks and won't just die when it finds one.
+2011-07-09T23:23:00.000Z	vlt	XOXO1	There should be a startup menu even on Ubuntu 5.xx

@@ -1,0 +1,4 @@
+2008-01-20T13:50:00.000Z	cn28h		is there any guideline for partitions sizes that are recommended for ubuntu? most of what I find just discusses making one big / partition and putting everything there
+2008-01-20T13:51:00.000Z	ArthurArchnix	cn28h	Depends... what is your planned setup? Dual booting? Do you install often? Do you want to backup your system, do you want to encrypt it?
+2008-01-20T13:51:00.000Z	cn28h	ArthurArchnix	nothing out of the ordinary, and I use an external drive for backups
+2008-01-20T13:54:00.000Z	ArthurArchnix	cn28h	Then I would do this: 5GB set as root /, 1GB as swap, the rest as home /home.

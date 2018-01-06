@@ -1,0 +1,4 @@
+2012-08-10T19:24:00.000Z	masroor		Is there any way to disable some drivers in ubuntu :S
+2012-08-10T19:24:00.000Z	masroor		& there services
+2012-08-10T19:24:00.000Z	TJ-	masroor	Create a blacklist entry in /etc/modprobe.d/
+2012-08-10T19:25:00.000Z	TJ-	masroor	Or, for built-in drivers... add "<module_name>.blacklist=yes" to the kernel command line

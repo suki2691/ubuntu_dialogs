@@ -1,0 +1,4 @@
+2011-09-18T01:27:00.000Z	clifford		Hey guys, I need to download packages from a download script to a usb drive to install in an offline computer. What is the best way to achieve this?
+2011-09-18T01:28:00.000Z	ActionParsnip	clifford	you can tell apt-get to only download the deb files for you
+2011-09-18T01:29:00.000Z	clifford	ActionParsnip	i know. I'm thinking of a terminal code that only downloads the files "to me" and then redirect them to a folder on my computer. Since the script is bash, I thought it possible.
+2011-09-18T01:41:00.000Z	clifford	ActionParsnip	How can I tell apt-get to do that?

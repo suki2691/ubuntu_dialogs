@@ -1,0 +1,4 @@
+2008-08-19T05:41:00.000Z	vladdY		how can i open a port for postgresql
+2008-08-19T05:43:00.000Z	vladdY		how can i open up port for postgresql, im using ubuntu server
+2008-08-19T05:43:00.000Z	Flannel	vladdY	You don't need to open one, postgres will do that automatically
+2008-08-19T05:47:00.000Z	Flannel	vladdY	The only thing you might need to do is unbind it in the postgres config, so its not just listening at localhost

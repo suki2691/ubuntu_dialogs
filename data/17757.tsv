@@ -1,0 +1,4 @@
+2011-07-11T21:14:00.000Z	roasted_		Question - I've heard it said to make your swap partition the same size as your RAM. What if I have a server with 48gb of RAM? Does the same rule still apply, or wouldn't it because I wouldn't be utilizing hibernate mode on a server?
+2011-07-11T21:16:00.000Z	sipior	roasted_	if you're planning on using most of that ram, you'll certainly want a few GB of swap at least, to hold unallocated memory reservations.
+2011-07-11T21:17:00.000Z	roasted_	sipior	that's what I thought, but on a server with 76gb of space I had a hard time thinking 48 would be swap alone...
+2011-07-11T21:18:00.000Z	sipior	roasted_	the point is, if you don't have swap, some of that ram will be wasted for memory reservations which are never used. (the ram is wasted)

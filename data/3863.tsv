@@ -1,0 +1,4 @@
+2012-04-24T01:31:00.000Z	MrKeuner		hello, how do I mount a private home directory for my user? That was automatically done when the hard drive it is on was in my computer. Now it's an external disk connected via USB cable...
+2012-04-24T01:33:00.000Z	MirkoKa	MrKeuner	what do you mean with "private home directory", your home shouldn't be non-private anyway. however, you need to edit /etc/fstab. I suggest not to do this. your account might become unusable if it doesn't find any files when the disk isn't connectted. instead, only put your private files it it.
+2012-04-24T01:34:00.000Z	MrKeuner	MirkoKa	bkc_ by private I mean encrypted
+2012-04-24T01:37:00.000Z	MirkoKa	MrKeuner	I have never tried an encryped home partition, so let me suggest another method: use encfs and its gui front-end cryptkeeper to encrypt only those (data) directories with your sensitive files

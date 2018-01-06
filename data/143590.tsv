@@ -1,0 +1,4 @@
+2007-07-05T16:20:00.000Z	Loevborg		Guys, what's the canonical (pun intended) way to find out if there is a file, say rst2latex.py, in some package?
+2007-07-05T16:21:00.000Z	varka	Loevborg	sudo dpkg -L package.deb | grep "file.name"   perhaps
+2007-07-05T16:21:00.000Z	Loevborg	varka	_all_ packages, not just the ones installed
+2007-07-05T16:21:00.000Z	varka	Loevborg	or just look at http://packages.ubuntu.com

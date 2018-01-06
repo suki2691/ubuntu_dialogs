@@ -1,0 +1,4 @@
+2007-09-09T16:15:00.000Z	uptownben		I am using an IBM thinkpad x24 notebook.
+2007-09-09T09:37:00.000Z	uptownben		Hi all. I used Add/Remove to remove abiword, and now I get this error whenever I try to add/remove any other apps. dpkg: parse error, in file `/var/lib/dpkg/available' near line 2 package `abiword':
+2007-09-09T09:37:00.000Z	uptownben		 value for `status' field not allowed in this context,   ..  any help?
+2007-09-09T09:37:00.000Z	bruenig	uptownben	sudo sed '/abiword/d' -i /var/lib/dpkg/available

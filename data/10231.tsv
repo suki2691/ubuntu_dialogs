@@ -1,0 +1,4 @@
+2011-11-08T15:34:00.000Z	jon____		okay here's my question again. I have ubuntu11.10 server installed with webmin/virtualmin. It has proftpd set up. Each user is able to upload to their home directory. How do i allow userA to write to userB's home directory?
+2011-11-08T15:35:00.000Z	Thelmaria	jon____	Have you tried putting userA and userB into a group "usersGroup", chgrp'ing their home directories to "usersGroup", and then x7x'ing the dirs so groups have write access?
+2011-11-08T15:36:00.000Z	Thelmaria	jon____	Or, alterantivly, mkdir /home/users_shared, ln -s /home/users_shared /home/usera/shared etc, and chgrping the shared to write acces?
+2011-11-08T15:36:00.000Z	jon____	Thelmaria	What i actually want is an ftpadmin account that can access the /home directory

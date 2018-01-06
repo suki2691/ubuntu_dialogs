@@ -1,0 +1,4 @@
+2011-06-01T00:18:00.000Z	esaym153		when I log in through ssh I see the prompt as "user@name:" How do I change the "name" part? I have two machines that have the same name.. >_>
+2011-06-01T00:19:00.000Z	llutz	esaym153	thats the hostname
+2011-06-01T00:21:00.000Z	llutz	esaym153	so either change the hostname to  a unique one or the PS1 var in your .bashrc
+2011-06-01T00:21:00.000Z	esaym153	llutz	fixed it, ty

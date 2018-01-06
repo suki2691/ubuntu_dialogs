@@ -1,0 +1,4 @@
+2007-08-23T07:53:00.000Z	ezra1964		hello everyone, i have a quick question
+2007-08-23T07:54:00.000Z	ezra1964		I see scripts in /etc/cron.daily, but roots crontab is empty, anyone know how those scripts are getting run?
+2007-08-23T07:54:00.000Z	cellofellow	ezra1964	those are for anacron.
+2007-08-23T07:55:00.000Z	cellofellow	ezra1964	they aren't in the normal cron that sets things to run at an exact time(s), but instead are set to run once a day. Same with cron.hourly and cron.weekly and cron.monthly.

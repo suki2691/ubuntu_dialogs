@@ -1,0 +1,4 @@
+2005-09-26T15:59:00.000Z	dealt		hi! quick q: how to graphical grub?
+2005-09-26T16:00:00.000Z	onkarshinde	dealt	Quick questions won't get you quick answers. Ecplain in detail.
+2005-09-26T16:01:00.000Z	dealt	onkarshinde	i mean how can i use graphics/images/themes in grub?
+2005-09-26T16:02:00.000Z	onkarshinde	dealt	grub only supports 16 colour splash (xpm) images. for that you will need to add 'splashimages=pathtosomexpm.gz' to /boot/grub/menu.lst

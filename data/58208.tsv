@@ -1,0 +1,4 @@
+2009-05-05T12:29:00.000Z	Ast001		Hi I tried to upgrade from 8.10 to 9.04 (amd64) and it wrongly calculate volume id and made my grub boot loader unbootable
+2009-05-05T12:30:00.000Z	Ast001		I copied old menu.lst and I could boot in Ubuntu after that but it can not recognize my windows disk any more as well as my usb stick with fat32 filesystem
+2009-05-05T12:31:00.000Z	rumpel2	Ast001	do you know, how your disc(s) are partitioned?
+2009-05-05T12:36:00.000Z	rumpel2	Ast001	check gparted for renamed partitions and adapt menu.st

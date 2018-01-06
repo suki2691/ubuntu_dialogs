@@ -1,0 +1,4 @@
+2009-06-23T14:47:00.000Z	BenTM		hi @ all how can i disable mod_perl modul in apache? i try to install an twiki an have to disable mod_perl
+2009-06-23T14:48:00.000Z	iceroot	BenTM	a2dismod mod_perl   then restart apache
+2009-06-23T14:48:00.000Z	iceroot	BenTM	to enable a mod  a2enmod
+2009-06-23T14:50:00.000Z	iceroot	BenTM	ls /etc/apache2/mods-enabled/

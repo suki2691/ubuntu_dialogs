@@ -1,0 +1,4 @@
+2007-10-22T04:46:00.000Z	levander		I usually use aptitude, but just now I accidentally tried to remove something using apt-get.  I got a message saying "The following packages were automatically installed and are no longer required: libcompizconfig0 linux-headers-generic libdecoration0 libcompizconfig-backend-gconf compiz-plugins linux-headers-2.6.22-14-generic linux-headers-2.6.22-14 compiz-fusion-plugins-extra compiz compiz-core compiz-fusion-plugins-main compiz-gnome"
+2007-10-22T04:46:00.000Z	levander		Then it says I can use 'apt-get autoremove' to remove them.  Don't I want all those compiz packages?  Or, are they just leftover from Feisty, from before I dist-upgraded?
+2007-10-22T04:47:00.000Z	murkyMurk	levander	they are current not being used so you may as well
+2007-10-22T04:50:00.000Z	murkyMurk	levander	i didn't check but i do know that if apt-get says they are no longer being used then they are redundant on your system

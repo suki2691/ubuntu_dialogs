@@ -1,0 +1,4 @@
+2005-11-10T13:48:00.000Z	EasterSunshine		what is the command to completely remove a package? i did sudo apt-get remove pure-ftpd, but pure-ftpd configs and stuff still exist under /etc
+2005-11-10T13:49:00.000Z	hedonick	EasterSunshine	usually you do "apt-get --purge remove <package>" to remove all confs... you can remove confs after a package is removed is "dpkg --purge package" to remove conf files
+2005-11-10T13:50:00.000Z	EasterSunshine	hedonick	thx that it what i was looking for
+2005-11-10T14:34:00.000Z	hedonick	EasterSunshine	mmv could be something... looked at it once, never used it though

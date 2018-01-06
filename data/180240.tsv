@@ -1,0 +1,4 @@
+2006-09-01T08:52:00.000Z	cycom		Is there a way to set up a motd that displays before a user logs in via ssh? like right before the login prompt?
+2006-09-01T08:53:00.000Z	jrib	cycom	you can set a Banner in /etc/ssh/sshd_config, mine points to /etc/issue.net
+2006-09-01T08:54:00.000Z	cycom	jrib	thank you.
+2006-10-05T08:04:00.000Z	jrib	cycom	it's in edgy

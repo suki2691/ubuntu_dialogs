@@ -1,0 +1,4 @@
+2007-03-04T16:08:00.000Z	Flannel	z9999	Depends on how your partitioning is done.  Pastebin /etc/fstab
+2007-03-04T16:12:00.000Z	Flannel	z9999	you format during the install, and it all depends, but isn't too difficult anyway.  If you have a certain method of partitioning currently, you won't need to backup your home dir, as you can install the system "around" it.
+2007-12-01T12:35:00.000Z	Flannel	z9999	You'll need to make /home/ its own partition (not difficult), and then just share that.  You could run into configuration version issues though (versions for stuff in dapper vs gutsy have different config options/fomratms whatever)
+2007-12-01T12:36:00.000Z	Flannel	z9999	Or you can have a separate install entirely, and you just mount the old home to access stuff, yeah.  like astro76 said.

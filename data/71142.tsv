@@ -1,0 +1,4 @@
+2011-08-11T07:34:00.000Z	JWFoxJr		ok, on natty x64, did tasksel install lamp-server, a2enmod userdir, restarted apache, but still getting 403 error in the user's public_html directory - directory set to 777 - any ideas?
+2011-08-11T07:35:00.000Z	rww	JWFoxJr	is /home/username/ set to allow o+x?
+2011-08-11T07:35:00.000Z	JWFoxJr	rww	I don't believe so, just the public_html is. I'll give that a shot
+2011-08-11T07:37:00.000Z	JWFoxJr	rww	that did the trick - now I just have to fix it so that it'll run the php files

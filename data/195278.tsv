@@ -1,0 +1,4 @@
+2006-09-18T08:55:00.000Z	m_0_r_0_n		Is it possible to create a new fstab file by default? A friend of mine has overwritten his file with the fstab of my pc, but default mount points are completly different
+2006-09-18T08:56:00.000Z	SpComb	m_0_r_0_n	fstabs are usually simple enough that it's fairly painless to rewrite them by hand
+2006-09-18T08:57:00.000Z	SpComb	m_0_r_0_n	does he have the computer booted up off the old fstab? If so, df -h to list existing partitions
+2006-09-18T08:58:00.000Z	SpComb	m_0_r_0_n	if not, boot up a livecd and do a fdisk -l on his hard drive and see if you can find out what the partitions are from their sizes. You can also just mount them all and take a quick look inside

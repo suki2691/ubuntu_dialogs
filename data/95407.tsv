@@ -1,0 +1,4 @@
+2008-06-20T00:17:00.000Z	matte_		So I've got an extremely weird situation. I have configured my server with a static ip address, yet every couple of hours it reverts back to its dynamic addres. any ideas as to what i could have done wrong? Im 99.999% sure my interfaces file is setup correctly.
+2008-06-20T00:18:00.000Z	PeterFA	matte_	you've got a dhcp client still running.
+2008-06-20T00:18:00.000Z	PeterFA	matte_	type ps aux | grep dhcp
+2008-06-20T00:19:00.000Z	PeterFA	matte_	the best way to do this is to configure the start up scripts to assign static addresses instead of doing things manually. Then you restart the interfaces (so to speak) via /etc/init.d/interfacethingy restart

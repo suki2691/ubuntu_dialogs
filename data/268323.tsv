@@ -1,0 +1,4 @@
+2006-06-09T05:01:00.000Z	tempered		is there something special I have to do to get the LAMP install to alllow me to : sudo perl -MCPAN -e 'install something' ?
+2006-06-09T05:01:00.000Z	sladen	tempered	you'll find alot of perl modules already packaged directly
+2006-06-09T05:02:00.000Z	sladen	tempered	perl -mCPAN::Debian -e shell
+2006-06-09T05:03:00.000Z	sladen	tempered	actually, try   dh-make-perl --build --notest --cpan Tie::RDBM

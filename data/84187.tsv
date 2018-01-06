@@ -1,0 +1,4 @@
+2008-10-31T17:21:00.000Z	thomc		I have a 500gb drive formatted as ext3. Nautilus shows only 435gb free space (the drive is empty). Why is this?
+2008-10-31T17:22:00.000Z	thomc		Thank you dr_willis. How would I go about changing that?
+2008-10-31T17:23:00.000Z	jsquared	thomc	500 GB is 465 GiB (disk space is reported in GiB, not GB). then there's 5% on top of that reserved, which is another 25 GB, and then some is overhead for the file system. all together that puts you at about 435
+2008-10-31T17:23:00.000Z	thomc	jsquared	ok thanks

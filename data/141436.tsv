@@ -1,0 +1,4 @@
+2007-05-25T16:43:00.000Z	DavidCraft		hey, I swapped out my MB/CPU with a different one.  When I boot up ubuntu I get "X-Server was unable to start".   The vid card is the same
+2007-05-25T16:43:00.000Z	DavidCraft		what can I do to fix this?
+2007-05-25T16:43:00.000Z	SlimeyPete	DavidCraft	check your xorg.conf. Make sure that Bus ID still matches what you get when you run "lspci"
+2007-05-25T16:50:00.000Z	SlimeyPete	DavidCraft	it's the number at the beginning

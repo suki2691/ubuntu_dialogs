@@ -1,0 +1,4 @@
+2005-09-15T16:54:00.000Z	neuronlapse		Hey, I need some help with an initrd I'm building. Everything goes fine except it can't seem to find /dev/hda3, even tho it's correctly defined in /dev. 'fdisk -l' shows no data, as though no hard disk exists. The only possibility I can think of is if I accidentally compiled the hard disk support out of the kernel. I'm using a Toshiba Portege 7020ct laptop with a regular EIDE hard disk - what kernel option might it be? Th
+2005-09-15T16:54:00.000Z	neuronlapse		anks!
+2005-09-15T16:56:00.000Z	lsuactiafner	neuronlapse	: make the kernel options for your disk * not M and skip initrd usage
+2005-09-15T16:57:00.000Z	neuronlapse	lsuactiafner	I figured they'd need be compiled in rather than modules, but I can't find any unchecked option that might apply. Also, initrd is essential in this case (using dm-crypt for encrypted root)

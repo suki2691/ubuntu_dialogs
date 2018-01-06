@@ -1,0 +1,4 @@
+2006-10-04T09:32:00.000Z	asdfasdf		alright, so I chrooted to my mounted linux partition and mounted proc and tried to grub-install sda and I get /dev/sda: Not found or not a block device
+2006-10-04T09:32:00.000Z	asdfasdf		fdisk -l returns absolutely nothing
+2006-10-04T09:32:00.000Z	ArrenLex	asdfasdf	sudo fdisk -l
+2006-10-04T10:09:00.000Z	asdfasdf	ArrenLex	I have done everything on google, but I can't get the system to see /dev/sda once I've chrooted to my linux partition

@@ -1,0 +1,4 @@
+2007-01-28T16:52:00.000Z	ucordes		how can i make the system check my root file system which is a reiserfs on boot up?
+2007-01-28T16:54:00.000Z	shatrat	ucordes	make a file called "forcefsck" in / and it will scan it when you reboot
+2007-01-28T16:54:00.000Z	ucordes	shatrat	really that easy?
+2007-01-28T16:54:00.000Z	shatrat	ucordes	yep, just "touch /forcefsck"

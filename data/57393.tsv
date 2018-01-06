@@ -1,0 +1,4 @@
+2010-05-07T17:32:00.000Z	Cyclist2		Hello, there! Yesterday I [finally...] had rsync working with cron; it seemed to be a simple case of using the options required for the job [in the crontab file] instead of relying on the alias [of rsync] I had set up for use with the CLI; that was the reason, it seemed, I could use the short script with the terminal but with cron it always failed; I left it for a while; later, I decided to create a new user group and made i
+2010-05-07T17:32:00.000Z	Cyclist2		I almost forgot: I found an article a few minutes ago recomending us to copy the script to /root and then to create a root cronjob [all of which I did]; I was very disapointed to verify that not even that way is cron running the simple script...
+2010-05-07T17:33:00.000Z	pure_hate	Cyclist2	root should never run a cron job
+2010-05-07T17:34:00.000Z	Cyclist2	pure_hate	I ran out of ideas... [actually, the use of /root was not mine, but I am responsible for what I do]

@@ -1,0 +1,4 @@
+2009-10-31T12:40:00.000Z	mercury^		Hi. How can I disable pulseaudio this time?
+2009-10-31T12:40:00.000Z	joaopinto	mercury^	touch $HOME/.pulse_a11y_nostart ; echo autospawn = no|tee -a ~/.pulse/client.conf ; killall pulseaudio
+2009-10-31T12:41:00.000Z	joaopinto	mercury^	but the gnome mixer applet will stop working
+2009-10-31T12:41:00.000Z	mercury^	joaopinto	thanks!

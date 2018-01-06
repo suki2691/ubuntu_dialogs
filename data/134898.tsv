@@ -1,0 +1,4 @@
+2009-08-30T00:05:00.000Z	istvan		how can I count the total number of lines of files ending in .php that are all in a folder?
+2009-08-30T00:06:00.000Z	simplexio	istvan	ls -la | wc -l
+2009-08-30T00:06:00.000Z	simplexio	istvan	and yeh.. add that *.php after ls -la
+2009-08-30T00:07:00.000Z	simplexio	istvan	then one solution is find ./ | grep php | wc -l . which find all lines that have php in it

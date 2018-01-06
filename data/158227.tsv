@@ -1,0 +1,4 @@
+2009-12-09T20:36:00.000Z	Schoen|Attic		i need a .sh script i can put in crontab that detects if a program is running and if it isn't running it should launch the program
+2009-12-09T20:37:00.000Z	Schoen|Attic		will it work for windows program in wine?
+2009-12-09T20:38:00.000Z	Slart	Schoen|Attic	ps aux | grep program_process_name   and something after that
+2009-12-09T20:39:00.000Z	Slart	Schoen|Attic	here's a nice little tutorial http://www.anyexample.com/linux_bsd/bash/check_if_program_is_running_with_bash_shell_script.xml

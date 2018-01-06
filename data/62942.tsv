@@ -1,0 +1,4 @@
+2009-03-22T05:43:00.000Z	timc		Hello! here is a better question :D
+2009-03-22T05:43:00.000Z	timc		how can i get the -printf in this command to print with quotes around the path?    find "/path/with spaces/" -name \*.ape -printf "rm %p/../*.flac\n"
+2009-03-22T05:45:00.000Z	hmw	timc	just a guess, try escaping the " with a \ before it
+2009-03-22T05:49:00.000Z	timc	hmw	what do you mean?

@@ -1,0 +1,4 @@
+2009-10-06T14:36:00.000Z	yusa		and I have another problem, is anyone willing to help a first timer ?  i need to learn how to install programs from console ...
+2009-10-06T14:37:00.000Z	sthieme	yusa	sudo apt-get install <package-name>
+2009-10-06T14:37:00.000Z	yusa	sthieme	can it install tar.gz compressed package ?
+2009-10-06T14:38:00.000Z	sthieme	yusa	no tgz should be either decompressed using tar -xvzf and then use make; make install in the created directory. make sure you have the build-essentials package before.

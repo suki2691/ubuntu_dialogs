@@ -1,0 +1,4 @@
+2007-02-24T06:23:00.000Z	kILLusion		can any1 tell my why ubuntu 6.10 crashes on my athlon xp 2600+ directly after install on boot?
+2007-02-24T06:23:00.000Z	lufis	kILLusion	can you give us some more details? anything strange happen? non-standard hardware, maybe?
+2007-02-24T06:24:00.000Z	lufis	kILLusion	ok... try this: at boot, press esc to enter the grub menu. when it comes up, select the longest line and press "e", remove the words "splash" and press "b"
+2007-02-24T06:25:00.000Z	lufis	kILLusion	that will boot up without the progress bar

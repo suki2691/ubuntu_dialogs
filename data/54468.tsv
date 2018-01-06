@@ -1,0 +1,4 @@
+2010-01-13T10:17:00.000Z	mkauley		Hello all.  I'm having some trouble getting my external harddrive on my Ubuntu machine shared out to the windows machines on my network
+2010-01-13T10:19:00.000Z	mkauley		I share it out, but windows tells me I don't have permission to view files.  When I look at the permissions on the external hd, I see rwx------ and it looks like the external is not owned by root
+2010-01-13T10:19:00.000Z	Flare-Laptop	mkauley	chmod -R 777 the /media/<insert drive label/name>
+2010-01-13T10:29:00.000Z	Flare-Laptop	mkauley	haha Sorry here's the exact command: chmod -R 777 /media/<insert drive name here>

@@ -1,0 +1,4 @@
+2012-11-12T09:44:00.000Z	escott	kevin	it happens if you type "sudo service bind9 start" right now
+2012-11-12T09:46:00.000Z	kevin	almoxarife	it's bind9. i have no named service
+2012-11-12T09:49:00.000Z	kevin		ah, theres a couple of these: Nov 11 23:48:58 cerberus kernel: [ 1430.684349] type=1400 audit(1352695738.948:44): apparmor="DENIED" operation="open" parent=4187 profile="/usr/sbin/named" name="/etc/nsswitch.conf" pid=4203 comm="named" requested_mask="r" denied_mask="r" fsuid=0 ouid=0
+2012-11-12T09:51:00.000Z	escott	kevin	you may need to disable apparmor for named or update the apparmor profile

@@ -1,0 +1,4 @@
+2006-01-27T07:45:00.000Z	asaee		hello there, i have ubuntu 5.10 amd 64. how can i install kde on it ? the sources.list is on : http://paste.ubuntu-nl.org/7465
+2006-01-27T07:46:00.000Z	asaee		"apt-cache search kubuntu" doesn't return anything
+2006-01-27T07:47:00.000Z	asaee		then .. what dhoud i do ?
+2006-01-27T07:47:00.000Z	Kleggas	asaee	first uncomment all url's in /etc/apt/sources.list and then run "sudo apt-get update"

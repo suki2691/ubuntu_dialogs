@@ -1,0 +1,4 @@
+2009-12-07T15:34:00.000Z	saikatc		if i have a file called test.txt with permission 744 and try to do, at the shell, sudo echo "hi" > test.txt why do i get a permission denied?  does the write not happen under sudo?
+2009-12-07T15:35:00.000Z	ActionParsnip	saikatc	try: sudo chmod +w test.txt
+2009-12-07T15:36:00.000Z	saikatc	ActionParsnip	still gets permission denied
+2009-12-07T15:38:00.000Z	ActionParsnip	saikatc	is it on a read only file system?

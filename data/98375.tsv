@@ -1,0 +1,4 @@
+2008-03-05T13:34:00.000Z	xeer		im on a live cd right now,  7.10 and im trying to get this installed on my fakeraid. problem i'm having is that dmraid does not recognize my drives as a raid. i want to retrieve the raid meta info manually but fdisk (-u -l /dev/sda) says it can't open the device. the partition manage reads it fine though. what could be wrong?
+2008-03-05T13:36:00.000Z	xeer		great to hear you got some sleep, but why wont fdisk read my drive?
+2008-03-05T13:37:00.000Z	DaftPunk	xeer	i dunno, maybe its illiterate? ^_^
+2008-03-05T13:38:00.000Z	DaftPunk	xeer	make sure you are root (su root)

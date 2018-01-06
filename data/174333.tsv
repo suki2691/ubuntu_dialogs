@@ -1,0 +1,4 @@
+2012-10-15T03:11:00.000Z	Biomechd		so i installed blender from the "irie" ppa and now i can't open it. any ideas?
+2012-10-15T03:11:00.000Z	Biomechd		also, it might be worth saying that the application filename is blender-bin+svn#####
+2012-10-15T03:12:00.000Z	Biomechd		so where do i go for the guys who handle ppas?
+2012-10-15T03:13:00.000Z	creede	Biomechd	try running your app under strace (e.g. strace blender) to see if you get any coherent error messages about why it won't work. Warning: You'll get a LOT of messages.

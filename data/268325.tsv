@@ -1,0 +1,4 @@
+2005-01-21T06:32:00.000Z	ciber		hi guyz I'm trying to boot windows (/dev/hdc5), but I don't know how to add it to grub, I put root root (hd5,0) but nothing happens :( How have I to configure the root in grub?
+2005-01-21T06:33:00.000Z	sladen	ciber	that's for a Linux kernel
+2005-01-21T06:33:00.000Z	sladen	ciber	you want something lie:
+2005-01-21T06:34:00.000Z	sladen	ciber	sorry  (hd2,4)

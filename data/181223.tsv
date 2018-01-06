@@ -1,0 +1,4 @@
+2007-12-15T01:49:00.000Z	Pc_Dark		How do I make ubuntu auto-update (i.e. not ask me to update things)
+2007-12-15T01:49:00.000Z	Pc_Dark		I just want it to update everything automatically.
+2007-12-15T01:50:00.000Z	bruenig	Pc_Dark	that's a poor idea, but if you want to, you need to edit cron to run something like apt-get update ; apt-get upgrade -y
+2007-12-15T01:51:00.000Z	bruenig	Pc_Dark	well apt-get doesn't have a log, so if something screws up, you don't know what, whereas if you approve the updates, you will at least know the offending application

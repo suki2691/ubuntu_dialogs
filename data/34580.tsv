@@ -1,0 +1,4 @@
+2011-09-10T07:08:00.000Z	MaxHR		anybody know how to get unbutu to recognize swap?  I didn't have a swap partition when I installed, made one later, but it isn't being used at all
+2011-09-10T07:10:00.000Z	alpicola	MaxHR	To get swap right now:  sudo swapon /dev/your-swap-partition.  Longer term, add the swap partition to your /etc/fstab
+2011-09-10T07:19:00.000Z	MaxHR	alpicola	how do I add it to the fstab?
+2011-09-10T07:23:00.000Z	alpicola	MaxHR	Open /etc/fstab as root in your favorite text editor and add a new line to the bottom.  The new line should read:  /dev/your-swap-partition none swap sw 0 0

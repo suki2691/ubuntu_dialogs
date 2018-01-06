@@ -1,0 +1,4 @@
+2008-09-03T02:14:00.000Z	lifewithryan		gonzo: /etc/init.d/gdm restart
+2008-09-03T02:16:00.000Z	gonzojive_	lifewithryan	That command succeeded but it looks like the client is still frozen
+2008-09-03T02:19:00.000Z	lifewithryan	gonzojive_	you can always do an "init 6" from the ssh shell to restart the box, but again, you'll be logged out of ssh that way
+2008-09-03T02:20:00.000Z	gonzojive_	lifewithryan	yes, I'm just trying to avoid restarting because it's a live server

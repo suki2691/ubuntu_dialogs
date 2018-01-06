@@ -1,0 +1,4 @@
+2008-09-07T16:27:00.000Z	Dawson		Hi, I am trying to MOUNT my drive over the internet (two servers in two different locations entirely) but it just appears to hang without connecting, but for good measure I can connect via ssh no problem. Does mount try to connect via a specific port?
+2008-09-07T16:27:00.000Z	n3hima	Dawson	are you tryiing to sshfs?
+2008-09-07T16:28:00.000Z	n3hima	Dawson	you can if you want, I don't quite understand what you are trying to do
+2008-09-07T16:30:00.000Z	n3hima	Dawson	you cant just mount a partition on a remote machine, I would recommend sshfs

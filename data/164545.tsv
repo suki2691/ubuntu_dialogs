@@ -1,0 +1,4 @@
+2009-09-29T22:49:00.000Z	Guest76012		Hi all, I'm trying to findout if there is a way to disable configuring the sources.list to look at the CDROM as one of its sources in a preseed file?
+2009-09-29T22:49:00.000Z	Guest76012		I've managed to disable the rest of them so I'm only using my mirror
+2009-09-29T22:49:00.000Z	Blinny	Guest76012	Can just comment out the cd-rom entry in sources.list
+2009-09-29T22:49:00.000Z	Blinny	Guest76012	Then just sudo aptitude update

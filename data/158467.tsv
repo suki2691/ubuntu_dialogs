@@ -1,0 +1,4 @@
+2010-06-02T19:46:00.000Z	tau		hey, when i do man stdio i get the manpage reference for functions that are within stdio.h how can I do to see the manpages for all functions that are within /usr/include ? i get nothing when i do man ulimit etc.
+2010-06-02T19:47:00.000Z	Slart	tau	there are some packages with man pages.. have you installed those?
+2010-06-02T19:49:00.000Z	Slart	tau	apt-cache search -n manpages    should give you a list
+2010-06-02T19:49:00.000Z	Slart	tau	or search in synaptic

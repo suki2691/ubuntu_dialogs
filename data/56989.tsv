@@ -1,0 +1,4 @@
+2011-11-29T19:17:00.000Z	saju_m		i want to copy all files which are end with name "Manager",  i am using find command
+2011-11-29T19:18:00.000Z	saju_m		here is the command  $ find -name *Manager -exec cp ~/Desktop/yy/ '{}' \;
+2011-11-29T19:18:00.000Z	saju_m		but it not working,  showing message,   cp: omitting directory `/home/saju/Desktop/yy/'
+2011-11-29T19:19:00.000Z	aethelrick	saju_m	cp -r

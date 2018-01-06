@@ -1,0 +1,4 @@
+2009-12-05T04:34:00.000Z	mabus		how do I remove a service from starting on boot, like rc-update in gentoo? is there something better than chmod -x the init script?
+2009-12-05T04:36:00.000Z	ZykoticK9	mabus	if you're running 9.10 it's now controlled by Upstart (which doesn't seem to be too well documented at this point) - there was a GUI app for doing this in 9.04 and less
+2009-12-05T04:36:00.000Z	mabus	ZykoticK9	I'm using server 8.10
+2009-12-05T04:36:00.000Z	ZykoticK9	mabus	you might want to ask in #ubuntu-server then, good luck

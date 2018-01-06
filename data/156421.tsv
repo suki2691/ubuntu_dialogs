@@ -1,0 +1,4 @@
+2008-04-10T03:45:00.000Z	guish		sudo chmod -R 777 /var/www/*
+2008-04-10T03:45:00.000Z	genii	guish	Thats dangerous since it makes anything there world executable/writable
+2008-04-10T03:49:00.000Z	genii	guish	www-data group www-data is always the user which apache should be running and accessing files as
+2008-04-10T03:53:00.000Z	genii	guish	Yes, but likely also on your install you don't have some partition mounted under /var/www whereas he does

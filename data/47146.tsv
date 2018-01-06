@@ -1,0 +1,4 @@
+2011-11-15T19:09:00.000Z	llutz_	Finnish_	look for a newer package than yours already installed or get the firmware file from ralink and copy it to /lib/firmware (backup the old one before)
+2011-11-15T19:12:00.000Z	llutz_	Finnish_	sudo ifconfig wlan0 down ; sudo modprobe -r <your-wifi-driver and all related>
+2011-11-15T19:13:00.000Z	Finnish_	llutz_	Thanks!
+2011-11-15T19:13:00.000Z	llutz_	Finnish_	then "sudo modprobe <your-wifi-driver> && sudo service network-manager restart

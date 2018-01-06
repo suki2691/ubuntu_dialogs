@@ -1,0 +1,4 @@
+2005-10-04T15:31:00.000Z	Travis|H		I am trying to use Calc (Excel program of OpenOffice) for conditional formatting to "band" colors (every other line is a certain color) ....... I'm trying to use "=MOD(ROW(),2)=1" as "Formula Is" ....... but it isn't working
+2005-10-04T15:31:00.000Z	Travis|H		does Calc use a different method to achieve this?
+2005-10-04T15:32:00.000Z	sobersabre	Travis|H	have you tried: =MOD(ROW(),2)==1 ?
+2005-10-04T15:33:00.000Z	sobersabre	Travis|H	do a debug: 1. how can u set a color, 2. how can you make a condition true

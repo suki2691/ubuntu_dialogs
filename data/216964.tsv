@@ -1,0 +1,4 @@
+2006-03-19T08:12:00.000Z	ph1qt10n		How can i remove the Kubuntu splash screen and restore the original brown ubuntu splash screen?
+2006-03-19T08:12:00.000Z	_jason	ph1qt10n	first 'sudo update-alternatives --config usplash-artwork.so' let me know when you finish that
+2006-03-19T08:15:00.000Z	_jason	ph1qt10n	well after you finish updating alternatives, you have to do 'sudo dpkg-reconfigure linux-image-$(uname -r)'
+2006-03-19T08:24:00.000Z	_jason	ph1qt10n	I just told you :/

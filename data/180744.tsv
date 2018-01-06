@@ -1,0 +1,4 @@
+2007-01-27T06:05:00.000Z	gizmo_the_great1		Hi. I have just tried to do a backup using tar of my files stored at a mount point called 'ext3' to my external Firewire HDD using this command : 'tar -cfvzW Mounts/ext3 /media/LACIE/Ext3Backup07_01_26.tar'. After about half an hour I got warnings that root (/) was 95% full and running out of space? What have I done wrong? I cannot find the file it is supposed to have created?
+2007-01-27T06:06:00.000Z	erUSUL	gizmo_the_great1	it should have been tar -cfvzW /media/LACIE/Ext3Backup07_01_26.tar Mounts/ext3
+2007-01-27T06:07:00.000Z	gizmo_the_great1	erUSUL	so I got it the wrong way round?
+2007-01-27T06:08:00.000Z	erUSUL	gizmo_the_great1	yes basically you created a file colled Mounts/ext3 that is eating your space...

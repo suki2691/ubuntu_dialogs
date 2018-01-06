@@ -1,0 +1,4 @@
+2008-12-31T02:22:00.000Z	readygo		I'm a newbie to both RAID and LVM - I have 2 identical 600 GB drives and 2 identical 1 TB drives.  I want to create a mirrored 1.6 TB drive.  To do this, should I set up two volume groups first and then build a raid 1 set up on top of them?
+2008-12-31T02:23:00.000Z	fukazzz	readygo	hmm, I'm almost sure, that first you should build your RAID-5
+2008-12-31T02:24:00.000Z	fukazzz	readygo	and then install LVM to it
+2008-12-31T02:24:00.000Z	fukazzz	readygo	but... If I don't mistake, LVM supports mirroing. So you just can use LVM, if you need this feature only

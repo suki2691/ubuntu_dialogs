@@ -1,0 +1,4 @@
+2012-11-28T21:38:00.000Z	proka		Does anyone know why GParted won't start if there is an USB inserted? It spits out this error message when starting it from terminal: "Assertion (head_size <= 63) at ../../../libparted/labels/dos.c:659 in function probe_partition_for_geom() failed."
+2012-11-28T21:40:00.000Z	jrib	proka	sounds like a bug.  I'd check for open bugs and file one if it doesn't exist yet
+2012-11-28T21:41:00.000Z	proka	jrib	Could it be that this specific USB is causing trouble, or just a generic bug?
+2012-11-28T21:41:00.000Z	jrib	proka	I'd assume it's related to the way that particular usb is formatted

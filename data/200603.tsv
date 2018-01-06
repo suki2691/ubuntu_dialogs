@@ -1,0 +1,4 @@
+2006-01-18T11:33:00.000Z	jjosk		 I just compiled new kernel to .deb package and installed it. After reboot xorg couldn't find nvidia module? Splash screen won't either work.
+2006-01-18T11:34:00.000Z	Seveas	jjosk	recompile nvidia module, recreate your initrd
+2006-01-18T11:35:00.000Z	jjosk	Seveas	But I did maka-kpkg with --initrd
+2006-01-18T11:37:00.000Z	jjosk	Seveas	And isn't nvidia binary only because it's not open source driver

@@ -1,0 +1,4 @@
+2010-08-04T00:33:00.000Z	Shact		Guys, I'm only on day 3 of Ubuntu and my laptop says things like "[206.160005] [<c01033ec>] syscall_call+0x7/0xb" all over the screen. What should I do?
+2010-08-04T00:34:00.000Z	rhodan	Shact	Do a backtrace and post a bug on lkml.org
+2010-08-04T00:36:00.000Z	Shact	rhodan	I don't know what a backtrace is
+2010-08-04T00:38:00.000Z	rhodan	Shact	Than you can do nothing about it. Perhaps apt-get dist-upgrade and try a new kernel.

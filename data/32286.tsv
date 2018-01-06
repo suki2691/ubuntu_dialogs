@@ -1,0 +1,4 @@
+2010-06-12T13:01:00.000Z	Kane_Hart		is this the best compression method or is there better like I want to compress as good as possible tar cfzv mybins.tar.gz
+2010-06-12T13:02:00.000Z	Appl6	Kane_Hart	bzip2 generally compresses better than gzip, but it takes longer.  xz is usually better than both, but it takes even longer (and it's not as common as gzip or bzip2).
+2010-06-12T13:05:00.000Z	Appl6	Kane_Hart	Right, then "man xz" and look for the -0 ... -9 section.
+2010-06-12T13:05:00.000Z	Appl6	Kane_Hart	However, it can use pretty obscene amounts of memory, so you may not want maximum compression if the compression takes longer than the upload.

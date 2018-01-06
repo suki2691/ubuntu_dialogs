@@ -1,0 +1,4 @@
+2007-03-19T14:23:00.000Z	wims		how do i find out the UUID of my partitions ?
+2007-03-19T14:24:00.000Z	POVaddct	wims	if they are ext3 filesystem: sudo tune2fs -l /dev/<device>
+2007-03-19T14:25:00.000Z	POVaddct	wims	udev creates /dev/disk/by-uuid/*  try to look there
+2007-03-19T14:26:00.000Z	wims	POVaddct	thanks, found it

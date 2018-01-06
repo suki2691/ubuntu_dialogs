@@ -1,0 +1,4 @@
+2010-05-09T08:37:00.000Z	liam_		i just installed vmware player in ubuntu 10.04 and restarted my computer, and vmware has disappeared from the system tools menu? How can i open vmware from cli?
+2010-05-09T08:38:00.000Z	onetinsoldier	liam_	try the following... sudo updatedb
+2010-05-09T08:38:00.000Z	onetinsoldier	liam_	when that is done, then try... locate vmware
+2010-05-09T08:39:00.000Z	onetinsoldier	liam_	or maybe... locate vmware | grep bin

@@ -1,0 +1,4 @@
+2009-03-18T07:36:00.000Z	genii	W473D	kill the pid of their ssh session or so
+2009-03-18T07:37:00.000Z	genii	W473D	the pid of whatever the tty is then
+2009-03-18T07:43:00.000Z	genii	W473D	look for a line like: username      6106  0.0  0.3   6396  3796 pts/0    Ss   17:43   0:00 /bin/bash           except make sure it's not you on pts/0 or so. Then kill the pid
+2009-03-18T07:43:00.000Z	genii	W473D	I used ps aux   in that example

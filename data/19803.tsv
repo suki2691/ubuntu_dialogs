@@ -1,0 +1,4 @@
+2011-01-29T00:55:00.000Z	Ivan_the_Terribl		Hi guys! How to switch off the touchpad on a laptop? Fn+functional key doesn't work. Or I have to switch it off in BIOS setup?
+2011-01-29T00:56:00.000Z	Fuchs	Ivan_the_Terribl	synclient TouchpadOff=1
+2011-01-29T00:56:00.000Z	Fuchs	Ivan_the_Terribl	you can bind this to your Fn Key if it produces a keycode (look with xev)
+2011-01-29T00:57:00.000Z	Ivan_the_Terribl	Fuchs	thank you!

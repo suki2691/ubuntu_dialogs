@@ -1,0 +1,4 @@
+2011-01-28T14:23:00.000Z	poccha		what exactly is the rist when starting a teamspeak server as root ?
+2011-01-28T14:25:00.000Z	poccha		please anyone: i have a teamspeakserver which works perfectly fine with the root user but when trying to start it with another user it doesnt work any more ...
+2011-01-28T14:25:00.000Z	poccha		is it a problem to start it as root ?
+2011-01-28T14:26:00.000Z	krayon	poccha	If it was working as a user, and you have launched it as root, and now it doesn't, it's probably a file permission thing.

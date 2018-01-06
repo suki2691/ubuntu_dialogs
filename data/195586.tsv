@@ -1,0 +1,4 @@
+2006-12-08T14:59:00.000Z	MRabbit		does anybody know how to make the ubuntu 6.10 i386 cd use an existing swap partition
+2006-12-08T15:00:00.000Z	kitche	MRabbit	just swapon <device> and it should use it
+2006-12-08T15:02:00.000Z	kitche	MRabbit	no it's once your into the desktop part you just open up a console and do sudo swapon /dev/hdX where X is a or band the number of the partition
+2006-12-08T15:02:00.000Z	kitche	MRabbit	you might be able to do it on boot but it depends if the cd has the option for it

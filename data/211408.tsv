@@ -1,0 +1,4 @@
+2006-08-28T12:54:00.000Z	cbx33		guys
+2006-08-28T12:55:00.000Z	cbx33		what is the command to add a default gateway route for eth0
+2006-08-28T12:55:00.000Z	cbx33		with a speicifc ip?
+2006-08-28T12:56:00.000Z	SEJeff	cbx33	route add default gw 1.2.3.4 netmask 255.255.255.255 dev eth0

@@ -1,0 +1,4 @@
+2011-06-02T11:58:00.000Z	JayWalker_		hey, im trying to set up software raid on a comp. just need to know what filesystem /boot needs to be, or does it not matter?
+2011-06-02T11:59:00.000Z	wols_	JayWalker_	just don't put /boot on the raid. usually ext2 or ext3 is used
+2011-06-02T11:59:00.000Z	wols_	JayWalker_	sure. the bootloader ignores raid1 altogether.so making it raid1 is pointless
+2011-07-23T08:21:00.000Z	wols_	JayWalker_	yes. don't set a defaultroute

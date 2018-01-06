@@ -1,0 +1,4 @@
+2010-10-31T13:05:00.000Z	Tuplad		My extern hdd is acting up lately, I thought of fsck'ing it, but when I try to do it I get an error "fsck.ext2: Superblock invalid, trying backup blocks..." I have tried e2fsck -b 4096 and fsck -y and other things I've found on the internet, but I still can't get a scan. The disk works alright and is accessable but sometimes does weird stuff and reconnects by itself etc.
+2010-10-31T13:05:00.000Z	Tuplad		How can I fix it ?
+2010-10-31T13:06:00.000Z	Tuplad		fsck /dev/sdf doesn't work and I get that error, but fsck /dev/sdf1 works fine
+2010-10-31T13:06:00.000Z	SwedeMike	Tuplad	why not use sdf1 then? sdf is the device, sdf1 is the first partition on the device.

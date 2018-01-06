@@ -1,0 +1,4 @@
+2008-08-12T13:43:00.000Z	xnv	ari_stress	How is it possible?
+2008-08-12T13:44:00.000Z	ari_stress	xnv	we can 'pretend' that sda2 sda3 are different disk
+2008-08-12T13:44:00.000Z	ari_stress	xnv	then mdadm --create /dev/md0 --level 1 -n 2 /dev/sda2 /dev/sda3
+2008-08-12T13:46:00.000Z	xnv	ari_stress	Don't think that's even technically RAID

@@ -1,0 +1,4 @@
+2009-05-08T20:44:00.000Z	schummelpilz		hey, my gdm login has the wrong size. its like a 800x600 window on my 1440x900 screen. how can i fix this?
+2009-05-08T20:46:00.000Z	pucko-	schummelpilz	if X detects the resolution wrong, you will have to edit xorg.conf
+2009-05-08T20:47:00.000Z	schummelpilz	pucko-	the weird thing is. X detected the resolution correctly up to now, but i havent changed anything related to this (afaik). what do i have to change in the xorg.conf?
+2009-05-08T20:50:00.000Z	pucko-	schummelpilz	I'd look at the X log file to see what's up first. then edit xorg.conf (the display section) to set a specific resolution (look it up on the net or in the manpage)

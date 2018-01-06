@@ -1,0 +1,4 @@
+2008-05-13T10:05:00.000Z	Thanatos___		I'm a noob. I installed ubuntu 8.04 to my thinkpad's harddrive. When it goes to grub and I choose ubuntu, it gives me "error 21: device not found" I edit the command line and have it choose hd0, and not hd1, and it boots. How do I make this change permanent?
+2008-05-13T10:06:00.000Z	ackstorm	Thanatos___	you have to adjust it in the /boot/grub/grub.conf file
+2008-05-13T10:09:00.000Z	ackstorm	Thanatos___	nano is a simple editor, but when you want be really l33t learn vi
+2008-05-13T10:14:00.000Z	ackstorm	Thanatos___	it might be /boot/grub/menu.lst

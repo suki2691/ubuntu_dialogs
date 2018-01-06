@@ -1,0 +1,4 @@
+2007-10-11T14:06:00.000Z	Bo^Dick		hi
+2007-10-11T14:06:00.000Z	Bo^Dick		what do locate the path for a file i know exists in some subdirectory?
+2007-10-11T14:07:00.000Z	Bo^Dick		i tried ls -R |grep myfoofile but that didn't reveal path
+2007-10-11T14:07:00.000Z	gregorovius	Bo^Dick	you can use 'locate $file', 'whereis $file'...

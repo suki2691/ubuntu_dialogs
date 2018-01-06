@@ -1,0 +1,4 @@
+2004-11-12T10:52:00.000Z	altan		Once I dpkg libdvdcss, how can I load it without rebooting?
+2004-11-12T10:52:00.000Z	altan		http://ubuntuforums.org/showthread.php?t=1388&highlight=libdvdcss <--- "- reboot (there must be a better way to get the library loaded, but reboot orks!)"
+2004-11-12T10:53:00.000Z	altan		is it really necessary to reboot?
+2004-11-12T10:55:00.000Z	jind	altan	maybe you kan send kill -SIGHUP to the program that startet libdvdcss to make it reload its configuration files and maybe the lib

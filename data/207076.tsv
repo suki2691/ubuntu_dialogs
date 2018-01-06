@@ -1,0 +1,4 @@
+2007-05-08T09:38:00.000Z	ee99ee		I'm on a remote box, and I just noticed my fstab looks weird: "UUID=d8bdee75-489b-4043-8744-e6e4d028c836 /               xfs     defaults        0       1"
+2007-05-08T09:38:00.000Z	ee99ee		is that something screwed up, or is that normal
+2007-05-08T09:38:00.000Z	ee99ee		I'm afraid to reboot it to find out, b/c I'd have to drive 3 hours :)
+2007-05-08T09:39:00.000Z	void^	ee99ee	you can verify the uuid with 'blkid'

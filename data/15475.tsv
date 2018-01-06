@@ -1,0 +1,4 @@
+2011-08-09T08:42:00.000Z	needhelp1		is anyone willing to walk me through connecting to a wpa2 wifi connection via terminal
+2011-08-09T08:43:00.000Z	escott	needhelp1	if you have configured the connection via network manager it may be easier to start it using nmcli
+2011-08-09T08:45:00.000Z	needhelp1	escott	i dont, i want to assume i dont have access to a gui
+2011-08-09T08:46:00.000Z	escott	needhelp1	the iwconfig part is relatively easy. put it on the correct channel and set the essid. after that you have to configure and run wpa_supplicant.

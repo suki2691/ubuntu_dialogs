@@ -1,0 +1,4 @@
+2008-01-04T17:48:00.000Z	Ol1		Can't imagine this to be a common question: I installed a second HD in my laptop. As this means I can no longer have a CD, i set up VMWare to use the raw disk, booted from the iso, installed, booted onto the new disk (natively, not VMware). Everything works great, EXCEPT that my IDE disks for some reason shows up as /dev/sda and /dev/sdb! During the install, i presume VMware virtualized the disk as SCSI, so I was much surprised to find it worked wit
+2008-01-04T17:49:00.000Z	wols	Ol1	nothing to do with vmware
+2008-01-04T17:50:00.000Z	Ol1	wols	ok? Care to elaborate?
+2008-01-04T17:50:00.000Z	wols	Ol1	libata attached devices are now all using he scsi subsystem

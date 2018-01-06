@@ -1,0 +1,4 @@
+2011-11-04T02:01:00.000Z	dannnnn		i went into sshd_config and set enablerootlogin to no
+2011-11-04T02:01:00.000Z	dannnnn		then restarted sshd, but i can still login as root... why?
+2011-11-04T02:01:00.000Z	escott	dannnnn	do you mean you can sudo after logging in as your user
+2011-11-05T01:17:00.000Z	escott	dannnnn	do you mean you can ssh root@host or that you can sudo after ssh username@host

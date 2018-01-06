@@ -1,0 +1,4 @@
+2009-05-19T08:24:00.000Z	ptc		since i upgraded to Jaunty, i am having SLOW VIDEO (youtube, mplayer, everything...) When I watch the video at its normal size, it's faster. If I full-screen it, it's slow. I suspect that perhaps X is no longer using the 'xv' driver or using a poorly-chosen video driver. any ideas?
+2009-05-19T08:25:00.000Z	cast|lir	ptc	guessing, does mplayer -vo xv vid.avi exhibit that behavior? or does it whine that it can't use xv
+2009-05-19T08:29:00.000Z	ptc	cast|lir	http://pastie.org/482375
+2009-05-19T08:29:00.000Z	ptc	cast|lir	xv seems to be working fine

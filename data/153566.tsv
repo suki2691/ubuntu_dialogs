@@ -1,0 +1,4 @@
+2007-01-10T11:55:00.000Z	ezebe		hi, how can i find out what type of processor i have - i'm trying to speed things up, and think a friend installed a k7 kernel for me in the past... thanks
+2007-01-10T11:56:00.000Z	ezebe		thanks n2diy
+2007-01-10T11:56:00.000Z	juano	ezebe	dmesg | grep "proc*"
+2007-01-10T11:56:00.000Z	juano	ezebe	find the line refering to your processor

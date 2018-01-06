@@ -1,0 +1,4 @@
+2008-10-03T20:47:00.000Z	nachi_		hello all! hey, when i am doing apt-get install phpmyadmin its getting me the old ver of it, 1.2.. how can i make ubuntu know that there is newer version of it?... i tried apt-get update but its not helping so much... ... thanks!
+2008-10-03T20:48:00.000Z	nachi_		there is phpmyadmin v3
+2008-10-03T20:49:00.000Z	LjL	nachi_	Ubuntu doesn't just "know" about newer versions. people must package them. and packages are *never* updated in Ubuntu, except for security patches and bugfixes.
+2008-10-03T20:51:00.000Z	LjL	nachi_	anyway, don't bother with backports, since phpmyadmin 3 isn't even in Intrepid, so no chance it gets backported this semester

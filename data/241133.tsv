@@ -1,0 +1,4 @@
+2007-10-04T16:48:00.000Z	clouder		how do I turn tbz2 into tar.gz in one cli entry?
+2007-10-04T16:49:00.000Z	penguin42	clouder	gzip -d < blah.tgz | gzip -d > blah.tbz2
+2007-10-04T16:49:00.000Z	penguin42	clouder	Sorry, that's half wrong
+2007-10-04T16:49:00.000Z	penguin42	clouder	bzip2 -d < blah.tbz | gzip  > blah.tgz

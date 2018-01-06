@@ -1,0 +1,4 @@
+2008-10-01T05:55:00.000Z	|Porsche		hello, I made my partion readonly on fstab and now i cant change it how can i fix it?
+2008-10-01T05:56:00.000Z	bobertdos	|Porsche	Did you set write permissions in the fstab entry?
+2008-10-01T05:57:00.000Z	bobertdos	|Porsche	 Well if you didn't set write permissions in the fstab entry, it will always mount as read=-only
+2008-10-01T05:58:00.000Z	bobertdos	|Porsche	You can change permissions within the mountpoint using chmod. Also make sure that you (and not root) are the owner of the mountpoint.

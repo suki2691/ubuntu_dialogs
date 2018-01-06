@@ -1,0 +1,4 @@
+2012-02-07T17:58:00.000Z	acidflash		hi all, in ubuntu 10.04, if i want to add this line -> options ip_conntrack hashsize=32768 ; where do I put it (its supposed to go int /etc/modprobe.conf but i cant find it
+2012-02-07T17:58:00.000Z	acidflash		there is only modprobe.d, what should i put inside modprobe.d instead?
+2012-02-07T18:00:00.000Z	theadmin	acidflash	/etc/modprobe.d/anything_you_want_to_call_it.conf
+2012-02-07T18:00:00.000Z	acidflash	theadmin	thanks

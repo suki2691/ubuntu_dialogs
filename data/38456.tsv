@@ -1,0 +1,4 @@
+2010-01-24T13:17:00.000Z	nixjr		is there a command to move all the files from a series of sub-directories, into their parent directory?
+2010-01-24T13:18:00.000Z	SmartSsa	nixjr	while in the parent : mv /subdir/* .
+2010-01-24T13:20:00.000Z	nixjr	SmartSsa	there are multiple subdir, would this also work? mv /subdir*/* . ?
+2010-01-24T13:21:00.000Z	SmartSsa	nixjr	as long as you can match the subdir's with a wildcard, yes it should work.

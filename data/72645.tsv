@@ -1,0 +1,4 @@
+2009-01-19T06:48:00.000Z	dano_		hey all, I'm confused how to modify my X settings, I currently have intrepid ibex, and when i nano my xorg.conf file, I don't even see a driver being loaded, does X work differently now.
+2009-01-19T06:48:00.000Z	hansel	dano_	        lsmod | grep agp
+2009-01-19T06:49:00.000Z	hansel	dano_	then modprobe -r that intel_agp one to remove it   and modprobe i915  to load the i915 one
+2009-01-19T06:50:00.000Z	dano_	hansel	ok, is there anyway to tell it to use that one everytime

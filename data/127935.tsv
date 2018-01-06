@@ -1,0 +1,4 @@
+2008-01-12T01:10:00.000Z	vb		how can I check which instruction set my processor is using on ubuntu ? , I have Intel Pentium M-735A (1.7 GHz) 2 MB L2 Cache / 400 MHz FSB
+2008-01-12T01:12:00.000Z	Pici	vb	Assid: then do:  uname -a
+2008-01-12T01:12:00.000Z	vb	Pici	damn, it supports only SSE2 :(
+2008-01-12T01:11:00.000Z	Pici	vb	cat /proc/cpuinfo

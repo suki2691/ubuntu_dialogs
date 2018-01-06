@@ -1,0 +1,4 @@
+2007-10-14T09:21:00.000Z	underwatercow		Why is it that when my computer is starting and it lists the services and such it is starting, firestarter says "FAILED"?
+2007-10-14T09:23:00.000Z	underwatercow		How do I know if firestarter is running when I close the interface?
+2007-10-14T09:24:00.000Z	jotil	underwatercow	ps -el | grep -i firestarter
+2007-10-14T09:25:00.000Z	underwatercow	jotil	that's what I thought... any idea why the service isn't auto-starting?

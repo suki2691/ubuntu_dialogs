@@ -1,0 +1,4 @@
+2012-06-13T02:53:00.000Z	Jordan_U	proc_	ChTiPowA already has a webm file, they need to replace the audio track in that webm file without transcoding the video.
+2012-06-13T02:59:00.000Z	proc_	Jordan_U	easy, Just do this ffmpeg -i input.webm -codec:v copy -an output.webm. That will get rid of your sound. Now you need to encode your new sound and drop it in like this. ffmpeg -i input.webm -codec:v copy -acodec libvorbis -aq 50 output.webm output.webm.
+2012-06-13T03:00:00.000Z	proc_	Jordan_U	you are not re encoding your video. You are first stripping out the audio with -an . The you are encoding the sound using vorbis.
+2012-06-13T03:01:00.000Z	proc_	Jordan_U	watching

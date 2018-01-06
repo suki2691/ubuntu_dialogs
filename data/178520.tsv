@@ -1,0 +1,4 @@
+2010-03-02T22:27:00.000Z	Lxndr		Hello! I installed ubuntu successfully from http://www.ubuntu.com/getubuntu/download-wubi. Unfortunately, it set up a dual-boot situation, which defaults to windows. What's the best way to make this default to ubuntu (and/or remove windows)?
+2010-03-02T22:29:00.000Z	Jeruvy	Lxndr	since wubi is a windows installer, you'd not do well to remove windows.  Editing grub for boot sequence can be done however.  If you don't want windows you should do a normal install, not with wubi.
+2010-03-02T22:31:00.000Z	Lxndr	Lachance	Myrtti, Jeruvy: Are you saying I don't actually have a true version of Ubuntu? I only used wubi because I have no access to any kind of CD burner.
+2010-03-02T22:32:00.000Z	Jeruvy	Lxndr	wubi installs in a virtual disk inside your windows environment.

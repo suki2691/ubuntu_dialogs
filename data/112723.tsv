@@ -1,0 +1,4 @@
+2007-11-26T10:37:00.000Z	tarsin		i am trying to use make menuconfig with my kernel. it is failing with scripts/kconfig/lxdialog/dialog.h:32:20: error: curses.h: No such file or directory.  I've installed libncurses5.  any ideas why its failing?
+2007-11-26T10:37:00.000Z	cthulfuego	tarsin	You need libncurses5-dev
+2007-11-26T10:38:00.000Z	cthulfuego		slooow lazy kitty
+2007-11-26T10:38:00.000Z	tarsin	cthulfuego	riotkittie, thanks. not sure.. i will check now

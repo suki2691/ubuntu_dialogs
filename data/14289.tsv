@@ -1,0 +1,4 @@
+2011-05-17T09:31:00.000Z	ali1		Network Manager applet I've deleted and not add to panel. How to be fix?
+2011-05-17T09:31:00.000Z	angheloko	ali1	run from terminal nm-applet
+2011-05-17T09:35:00.000Z	ali1	angheloko	** (nm-applet:7710): WARNING **: <WARN>  applet_dbus_manager_start_service(): Could not acquire the NetworkManagerUserSettings service as it is already taken.  Return: 3
+2011-05-17T09:37:00.000Z	angheloko	ali1	then perhaps its already running... can you add "notification area" in your panel? (right-click panel -> add to panel -> search for notification area)

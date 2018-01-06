@@ -1,0 +1,4 @@
+2012-01-29T23:40:00.000Z	yitz_		Hi. Any clue where Ubuntu stores the mapping for ethernet device to name (eg eth0) stuff?
+2012-01-29T23:41:00.000Z	oCean	yitz_	see //etc/udev/rules.d/70-persistent-net.rules
+2012-01-29T23:43:00.000Z	oCean	yitz_	you can edit /etc/udev/rules.d/70-persistent-net.rules to map your nic's mac address to eth0
+2012-01-29T23:44:00.000Z	yitz_	oCean	I suppose. I was hoping I didn't have to manually shove MACs in on every node

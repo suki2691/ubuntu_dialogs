@@ -1,0 +1,4 @@
+2009-10-03T16:36:00.000Z	pukeko		mdadm - raid-1, does the array (/dev/md0) have a diff UUID than that of it members /dev/sd* ?
+2009-10-03T16:37:00.000Z	andguen1	pukeko	Yes, very likely. Every partition should have a unique UUID, even if it is a virtual partition in raid.
+2009-10-03T16:39:00.000Z	pukeko	andguen1	ta that helps ... so uuidgen /dev/md0 , or vol_id /dev/md0 , or blkid ?
+2009-10-03T16:42:00.000Z	andguen1	pukeko	To be perfectly honest, I don't use the UUIDs much, as I'm comfortable updating paths when I swap drives & partitions around. /dev/md0 should behave as a normal live partition as far as the OS is concerned, its just more complicated booting to it.

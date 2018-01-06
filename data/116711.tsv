@@ -1,0 +1,4 @@
+2007-10-23T06:32:00.000Z	sdre1		if glxinfo says that direct rendering is enabled, does that mean I can do 3D effects like run compiz or use AWN?
+2007-10-23T06:33:00.000Z	cellofellow	sdre1	you need the composite extension.
+2007-10-23T06:33:00.000Z	sdre1	cellofellow	is that something I need to install through the package manager? (I'm running 7.10)
+2007-10-23T06:36:00.000Z	cellofellow	sdre1	it's part of the Xorg X11 Server. If you have an AIGLX compatible video card, you got it.

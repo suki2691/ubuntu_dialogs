@@ -1,0 +1,4 @@
+2008-08-14T22:15:00.000Z	usersam		hi i re-installed my system
+2008-08-14T22:16:00.000Z	usersam		I have a home directory called xp which was copied from my old system. I need to set the /home/xp directory to be owned by the user xp. How do I do this please?
+2008-08-14T22:17:00.000Z	usersam		chmod?
+2008-08-14T22:17:00.000Z	starenka	usersam	chown -R xp /home/xp

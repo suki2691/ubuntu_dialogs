@@ -1,0 +1,4 @@
+2010-07-28T06:11:00.000Z	elegantchaos		cheers! does anyone know of an Acer support chat? im having start up issues
+2010-07-28T06:12:00.000Z	KE1HA	elegantchaos	what is the start up issue ?
+2010-07-28T06:15:00.000Z	KE1HA	elegantchaos	I doubt grub is the root problem, more likely a kernel / harware compatability issue. Are you getting any error messages during boot?
+2010-07-28T06:19:00.000Z	KE1HA	elegantchaos	you can enable an extended log funciton for boot errors: In /etc/default/bootlogd edit BOOTLOGD_ENABLE=No

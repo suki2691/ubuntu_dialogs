@@ -1,0 +1,4 @@
+2007-07-07T12:54:00.000Z	svrfrmfaith		what the heck does it mean when the terminal says E: Could not get lock /var/lib/dpkg/lock - open (11 Resource temporarily unavailable)
+2007-07-07T12:54:00.000Z	svrfrmfaith		E: Unable to lock the administration directory (/var/lib/dpkg/), is another process using it?
+2007-07-07T12:54:00.000Z	svrfrmfaith		haha got it
+2007-07-07T12:55:00.000Z	n2diy	svrfrmfaith	another package manager is using it, you need to close Synaptic, apt-get whatever, so the lock file goes away.

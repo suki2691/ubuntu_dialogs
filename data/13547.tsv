@@ -1,0 +1,4 @@
+2011-07-28T14:46:00.000Z	dorigentoo		hi guys
+2011-07-28T14:48:00.000Z	dorigentoo		What is the difference between a scp and a rsync ? I was trying to do rsync -a from a remote repository to a local one as recommanded in a tutorial, but it just created a bunch of links I guess, and got "too many levels of symbolic links" error. scp seems to work on the contrary
+2011-07-28T14:49:00.000Z	arfoll	dorigentoo	check your rsync options. rsync is able to synchronise two directories, scp simply does a stupid cp over ssh
+2011-07-28T14:49:00.000Z	dorigentoo	arfoll	ok

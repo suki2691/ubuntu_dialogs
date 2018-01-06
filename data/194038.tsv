@@ -1,0 +1,4 @@
+2007-01-25T14:31:00.000Z	krang		Hey all, what's a good repo to add to get a bunch of extra packages? I'm trying to install zabbix on ubuntu-server, and it wants libsnmp5
+2007-01-25T14:31:00.000Z	krang		would linsnmp9 be fine if I just ignore the "unmet dependency"?
+2007-01-25T14:33:00.000Z	Stormx2	krang	apt-cache search libsnmp - see which versions you have available.....
+2007-01-25T14:33:00.000Z	krang	Stormx2	it's generally safe to use things with higher version numbers thatn asked for, isn't it? I know it isn't always, but as a rule

@@ -1,0 +1,4 @@
+2005-12-28T12:23:00.000Z	vini		hey guys, quick question, i cant seem to find the right chmod tags to change the owner of a folder and all of the subfolders. can anyone help? thanks
+2005-12-28T12:24:00.000Z	bluefrog-10	vini	sudo chmod -R user file
+2005-12-28T12:24:00.000Z	bluefrog-10	vini	sudo chown -R user file
+2005-12-28T12:25:00.000Z	bluefrog-10	vini	sudo chown -R user folder will do a recursive change

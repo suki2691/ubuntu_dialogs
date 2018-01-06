@@ -1,0 +1,4 @@
+2011-02-08T13:56:00.000Z	JohnDoe234		Hello. Is there any way to tell bash to dump me to a specific directory when started? I am interested specifically in a command line option. Thank you
+2011-02-08T13:56:00.000Z	Gnea	JohnDoe234	just edit your .bashrc and put this at the end:  cd /the/dir/you/want/to/be/in
+2011-02-08T13:57:00.000Z	JohnDoe234	Gnea	It will not work because I want to use a script that launches a bash console, so It will be impractical to modify .bashrc everytime I launch a new bash
+2011-02-08T13:58:00.000Z	Gnea	JohnDoe234	so put it in the script instead

@@ -1,0 +1,4 @@
+2009-08-12T01:55:00.000Z	meekatron		hello i`m trying to decode some files from flac to wav, my command is [ for i in *.flac; do flac -d "$i"; done] but.. how can i do this recursivly down through folders?
+2009-08-12T01:57:00.000Z	unop	meekatron	 while read -r -d '' i; do flac -d "$i"; done < <(find . -type f -iname "*.flac")
+2009-08-12T01:57:00.000Z	unop	meekatron	or perhaps.  find . -type f -iname "*.flac" -exec bash -c 'for i; do flac -d "$i"; done' _ {} +
+2009-08-12T01:58:00.000Z	meekatron	unop	thanks i`ll give them a try..

@@ -1,0 +1,4 @@
+2006-07-19T16:12:00.000Z	Ackeubu_		my lapy is craching, It crashes emediately when i logg in to gnome, it crashes after some use in fluxbox. a couple of minutes of use... What could that be??
+2006-07-19T16:13:00.000Z	Ackeubu_		I mean it stops responding to keyboard and mouse events..
+2006-07-19T16:13:00.000Z	zcat[1] _	Ackeubu_	apt-get remove irda-utils
+2006-07-19T16:15:00.000Z	zcat[1] _	Ackeubu_	check /var/log/messages and /var/log/xorg.0.log  - one of those should tell you something anyhow.. in my case it was irda support, whick only gets loaded after gdm so it looked like gdm had a problem. took a while to figure out :)

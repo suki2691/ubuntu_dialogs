@@ -1,0 +1,4 @@
+2008-08-26T11:32:00.000Z	devnull		hello
+2008-08-26T11:33:00.000Z	devnull		i was wondering what to do if my /var partition doesnt have enough room for an upgrade to the latest release
+2008-08-26T11:34:00.000Z	kriebel	devnull	make a new partition/lv, boot single user or a live CD, copy your /var into it, delete the old /var contents, edit /etc/fstab, and reboot
+2008-08-26T11:35:00.000Z	devnull	kriebel	... thank you very much

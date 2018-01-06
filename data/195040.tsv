@@ -1,0 +1,4 @@
+2007-09-11T05:11:00.000Z	leftyrighty		hello
+2007-09-11T05:13:00.000Z	leftyrighty		anyone know how to set ubuntu for a higher resolution? I'm stuck at 1024X768
+2007-09-11T05:14:00.000Z	Scunizi	leftyrighty	sudo gedit /etc/X11/xorg.conf and set your perameters there.
+2007-09-11T05:14:00.000Z	Scunizi	leftyrighty	then you have to sudo /etc/init.d/gdm restart

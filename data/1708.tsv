@@ -1,0 +1,4 @@
+2012-11-11T06:33:00.000Z	lloowen1		I have ubuntu running on a USB stick. I want to copy it over to another USB. What command could I use that will make sure I get an exact copy with all hidden files and file permissions? Thanks..
+2012-11-11T06:34:00.000Z	escott	lloowen1	you would need to copy with "dd" to get a bit for bit copy that would be bootable
+2012-11-11T06:34:00.000Z	escott	lloowen1	that can only be done if stick2 is at least as large as stick1
+2012-11-11T06:34:00.000Z	lloowen1	escott	Thanks. I'll check out the 'dd' command

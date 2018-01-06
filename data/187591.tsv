@@ -1,0 +1,4 @@
+2007-02-13T13:02:00.000Z	technomancy		if i install with the boot parameter "acpi=off" will that only affect that boot, or will all future uses of that installation be unable to use acpi?
+2007-02-13T13:03:00.000Z	technomancy		(this is edgy 64-bit on a core 2 duo laptop)
+2007-02-13T13:04:00.000Z	ikonia	technomancy	that doesn't remove it from the kernel  - just disables it. Just remove the line from the boot parameters and it will use it
+2007-02-13T13:04:00.000Z	technomancy	ikonia	ok, cool. i can just edit the grub config files later then?

@@ -1,0 +1,4 @@
+2009-11-03T12:46:00.000Z	nuvan		just installed 9.10 on my laptop, now my ethernet/wireless (BCM5784M / AR928X) don't work.  lshw -C network says both are unclaimed.  anyone got any suggestions?
+2009-11-03T12:46:00.000Z	nuvan		both worked in 9.04
+2009-11-03T12:46:00.000Z	nuvan		there appears to be an atheros driver, ath9k, and i've modprobe'd that, but still nothing shows up in my network.  attempting "sudo service networking start" just spits out "networking stop/waiting"
+2009-11-03T12:46:00.000Z	FloodBot2	nuvan	Please don't flood, use http://paste.ubuntu.com to paste, don't use Enter as punctuation.

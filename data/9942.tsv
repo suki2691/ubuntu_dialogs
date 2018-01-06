@@ -1,0 +1,4 @@
+2011-10-26T06:32:00.000Z	otldoc		i'm trying to mount an ntfs drive and i'm getting "mount: unknown filesystem type 'ntfs'"
+2011-10-26T06:33:00.000Z	otldoc		anyone know what to do?
+2011-10-26T06:35:00.000Z	Stanley00	otldoc	you should try without the "-f" switch, I think mount will know the fs automatically...
+2011-10-26T06:38:00.000Z	Stanley00	otldoc	ooop, wrong switch, I mean "-t " switch

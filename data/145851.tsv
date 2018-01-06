@@ -1,0 +1,4 @@
+2007-02-22T11:35:00.000Z	delphiuk		apache won't start, and there doesn't seem to be anything in the log explaining why. where would the log be?
+2007-02-22T11:35:00.000Z	royel	delphiuk	should be /var/log/apache*
+2007-02-22T11:36:00.000Z	delphiuk	royel	yes, thought so, but nothing is in there?
+2007-02-22T11:38:00.000Z	royel	delphiuk	sudo /etc/init.d/apache start   <-- try that an you should see a message showing where logs are being stored

@@ -1,0 +1,4 @@
+2011-05-20T03:07:00.000Z	MrKeuner		hey all, what is the best way to give remote X access to an ubuntu box? neatx, vnc, x11, anything else?
+2011-05-20T03:08:00.000Z	MrKeuner		robustneess, security and speed is important
+2011-05-20T03:09:00.000Z	MrKeuner		ssh -Y is slow2
+2011-05-20T03:10:00.000Z	frostschutz	MrKeuner	also add -C for good measure, it really speeds things up

@@ -1,0 +1,4 @@
+2008-05-01T10:48:00.000Z	supersako		how do i remove eclipse?
+2008-05-01T10:48:00.000Z	supersako		how do u remove package using apt-get?
+2008-05-01T10:49:00.000Z	fde	supersako	apt-get remove --purge ... or just use aptitude purge
+2008-05-01T10:50:00.000Z	fde	supersako	If you don't use purge, it removes it, but doesn't remove its config files.

@@ -1,0 +1,4 @@
+2006-05-27T07:29:00.000Z	skript		should I run apt-get upgrade on my breezy system before I do dist-upgrade to dapper or can I just go with dist-upgrade ? I haven't done any upgrades to breezy ever since I installed it, so I'm wandering wether dist-upgrading straight away would be safe ?
+2006-05-27T07:30:00.000Z	skript		ok ok... i get the *point* ;) thanx !
+2006-05-27T07:31:00.000Z	gnomefreak	skript	run sudo apt-get update && sudo apt-get dist-upgrade  when thats done run gksudo "update-manager -d"
+2006-05-27T07:32:00.000Z	gnomefreak	skript	after that reboot adn poof your on dapper

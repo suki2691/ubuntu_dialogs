@@ -1,0 +1,4 @@
+2012-04-03T00:46:00.000Z	guntbert	wereHamster	apt-file search <yourfile>
+2012-04-03T00:46:00.000Z	guntbert		!info apt-file | wereHamster
+2012-04-03T00:48:00.000Z	wereHamster	guntbert	nope, not going to install apt-file. It deponds on build-essentials?!?
+2012-04-03T00:50:00.000Z	guntbert	wereHamster	I don't know about that, you can try with dpkg-query -S <yourfile>

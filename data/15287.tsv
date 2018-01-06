@@ -1,0 +1,4 @@
+2012-04-15T00:25:00.000Z	Helius		I need to install 64bit library on 32bit host for cross compiling is it possible ?
+2012-04-15T00:26:00.000Z	escott	Helius	no
+2012-04-15T00:26:00.000Z	escott	Helius	technically you could cross compile but you could not execute or link the binary
+2012-04-15T00:27:00.000Z	Helius	escott	 I'm trying to compile a 64 bit lib on travis-ci bit their vm should be 32 bit

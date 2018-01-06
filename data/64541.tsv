@@ -1,0 +1,4 @@
+2010-03-25T06:54:00.000Z	listedaswanted		How do i make my copy of windows as default boot when using grub? Because linux is at the top when i get into the grub boot selection after a couple of seconds linux will boot because its at the top
+2010-03-25T06:54:00.000Z	listedaswanted		im not sure it came with ubuntu 9.10
+2010-03-25T06:55:00.000Z	ZykoticK9	listedaswanted	fresh install of 9.10 or upgrade (it makes a difference)
+2010-03-25T06:56:00.000Z	ZykoticK9	listedaswanted	i think if you edit /etc/default/grub and switch GRUB_DEFAULT=0 to GRUB_DEFAULT=1 then run update-grub it should work

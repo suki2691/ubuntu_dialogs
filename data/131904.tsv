@@ -1,0 +1,4 @@
+2007-06-24T14:43:00.000Z	goochy		when trying to connect using the terminal server client I get this error ---- "vncviewer: error while loading shared libraries: libstdc++-libc6.2-2.so.3: cannot open shared object file: No such file or directory
+2007-06-24T14:43:00.000Z	goochy		"  can anybody help me resolve this issue?
+2007-06-24T14:43:00.000Z	mrsn0	goochy	install "build-essential" from apt/synaptic
+2007-06-24T14:44:00.000Z	mrsn0	goochy	you can open the terminal and type sudo aptitude install build-essential

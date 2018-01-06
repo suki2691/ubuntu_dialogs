@@ -1,0 +1,4 @@
+2009-05-05T09:02:00.000Z	Roasted		whos a genius with rsync??
+2009-05-05T09:03:00.000Z	KB1JWQ	Roasted	What's the desired end state?
+2009-05-05T09:05:00.000Z	Roasted	KB1JWQ	- Here's my dilemma in a quick sentence. Rsync -a does EXACTLY what I want, but running -a requires root priviledges to handle. The thing is, I do not want root to be involved because my rsync'd data goes to /media/storage. /media/storage, when mounted, is owned by me (jason), but if that drive dies, /media/storage is owned by root, wherefore my script would fail which is what I want. If the drive dies, I want the script to fa
+2009-05-05T09:05:00.000Z	KB1JWQ	Roasted	Let's take it to PM.

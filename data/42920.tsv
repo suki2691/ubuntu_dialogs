@@ -1,0 +1,4 @@
+2009-11-14T02:30:00.000Z	Metaphis		hi guys
+2009-11-14T02:31:00.000Z	Metaphis		i'm on Ubuntu 9.04 and i want to try kvm but "modprobe kvm-intel" doesn't work and "egrep '^flags.*(vmx|svm)' /proc/cpuinfo" return something but there is no kvm in this list
+2009-11-14T02:31:00.000Z	Metaphis		does it mean I can't use kvm?
+2009-11-14T02:32:00.000Z	TallJason	Metaphis	if anything is returned you can do virtualization VMX is 32 bit and SVM is 64 bit

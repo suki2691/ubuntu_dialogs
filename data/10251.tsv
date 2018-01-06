@@ -1,0 +1,4 @@
+2011-08-22T00:59:00.000Z	I_AM_IN_ROOT		I have an e-sata drive that will not be auto-recognized by linux unless it is connected prior to the computer being started, is there a command to force linux to check for new devices and register any changes as a result of that check?
+2011-08-22T01:00:00.000Z	zykotick9	I_AM_IN_ROOT	it all depends on your motherboard i'm afraid - mine doesn't support hot-plugging esata either :(  some do.
+2011-08-22T01:01:00.000Z	I_AM_IN_ROOT	zykotick9	it does support hot swapping sata but it does not register in linux
+2011-08-22T01:02:00.000Z	zykotick9	I_AM_IN_ROOT	run dmesg, plug the drive in/turn in on - then run dmesg again - do you see anything about sdX added?

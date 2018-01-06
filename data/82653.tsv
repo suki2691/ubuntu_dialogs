@@ -1,0 +1,4 @@
+2012-07-01T00:36:00.000Z	Elvano		I made an exact copy of my Ubuntu installation from partition sda1 to partition sda4. I changed the UUID of my sda4 partition with the "shell> tune2fs -U random /dev/sda4" command on the systemResqueCD-terminal. I updated the grub and it found a couple of new boots. Strangely the first boot, refering to sda4, was refering to the UUID of the sda1 partition. Just as strange is that the second boot, refering to the sda4 partition has the correct UUID, but after
+2012-07-01T00:36:00.000Z	Elvano		 a longer loading black screen it end up refering to the sda1 partition as well. Has anyone an idea of what I have done wrong?
+2012-07-01T00:38:00.000Z	Elvano		Ubuntu.com still not hacked =p
+2012-07-01T00:38:00.000Z	guntbert	Elvano	no need for that

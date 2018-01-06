@@ -1,0 +1,4 @@
+2011-06-16T01:03:00.000Z	traskers		So, I have figured out how to boot into my system from the "grub>" prompt screen, but I can't fix it, every time I reboot I have to do the same list of commands, I tried running "update-grub" to no success.
+2011-06-16T01:05:00.000Z	guntbert	traskers	what do you have to do to start ubuntu from grub?
+2011-06-16T01:06:00.000Z	traskers	guntbert	configfile (hd0,1)/boot/grub/grub.cfg >> set root=(hd0,1) >> linux /vmlinuz root=/dev/sda1 ro >> initrd /initrd.img >> boot
+2011-06-16T01:09:00.000Z	guntbert	traskers	sorry, thats too complex for me

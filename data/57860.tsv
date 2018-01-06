@@ -1,0 +1,4 @@
+2012-01-13T08:52:00.000Z	fermulator		Has anyone had problems with a lagging PC after a timeout? (monitors asleep) -- waking up with mouse, the screen is "hung", CTRL+ALT+F1, top, shows "apt-show-versions" using 100% CPU.  If I kill that process, the GUI is unblocked and usable again.  Thoughts/ideas?
+2012-01-13T08:52:00.000Z	fermulator		(ubuntu 11.04, 2.6.38-13-generic-pae)
+2012-01-13T08:53:00.000Z	jsoft	fermulator	hmmm. Perhaps apt-show-versions is some kind of update gizmotron
+2012-01-13T09:06:00.000Z	fermulator	jsoft	yeah it is; i'll take a core dump of it next time it's happening I guess

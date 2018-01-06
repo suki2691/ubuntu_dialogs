@@ -1,0 +1,4 @@
+2009-08-27T16:34:00.000Z	arisa		hello again! another quick question...how would i add a new user to a successive series of groups from the console?
+2009-08-27T16:34:00.000Z	grawity	arisa	usermod -G, probably
+2009-08-27T16:34:00.000Z	grawity		Or, for g in group othergroup yetanothergroup; do adduser joe $g; done
+2009-08-27T16:35:00.000Z	arisa	grawity	ahh, i was looking at the man page for it but maybe i missed it...i'll check that out thanks

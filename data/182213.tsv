@@ -1,0 +1,4 @@
+2008-04-14T02:09:00.000Z	lovehandles		Hello there, I've got a fresh Gutsy install here, and I've just added a second HD (/dev/hdb) to my system. I have partitioned and formatted it ext3 and i've added it to my fstab. When it's mounted it puts a "new volume" icon on the desktop. Is there a way to have it mounted and not showing on my desktop?
+2008-04-14T02:10:00.000Z	lovehandles		That might be good enough for now
+2008-04-14T02:12:00.000Z	stefg	lovehandles	everything in /media gets a desktop icon, because it's considered as a removable medium. put it somewhre else (/mnt) and write an /etc/fstab entry for it
+2008-04-14T02:13:00.000Z	stefg	lovehandles	try a reboot, if fstab is set up. hal/dbus might be confused

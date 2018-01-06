@@ -1,0 +1,4 @@
+2009-05-11T07:55:00.000Z	nJustin3k		does swap space have to be specified? like: can I delte my swap space to put a primary partition where it curently is to install anohter OS and then put swap space on an extened partition after that?
+2009-05-11T07:56:00.000Z	Jack_Sparrow	nJustin3k	yes, but it would take some fiddling with /etc/fstab
+2009-05-11T07:58:00.000Z	Jack_Sparrow	nJustin3k	look in your fstab and you will see   UUID=c4a69a44-f310-4e3b-afa3-354f61bef075 none            swap    sw              0       0
+2009-05-11T07:58:00.000Z	nJustin3k	Jack_Sparrow	ok, thanks

@@ -1,0 +1,4 @@
+2010-05-18T01:08:00.000Z	razass		Hi I had vista and ubuntu on a dual boot but when I upgraded vista to 7 it erased the bootloader.....do I need to re-install ubuntu or can I fix this some how?
+2010-05-18T01:09:00.000Z	razass		ok this iwas ubuntu 10.04
+2010-05-18T01:09:00.000Z	razass		does it stll use grub?
+2010-05-18T01:10:00.000Z	duffydack	razass	boot livecd/usb and do sudo grub-install /dev/sda (if its sda)

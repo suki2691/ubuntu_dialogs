@@ -1,0 +1,4 @@
+2007-03-02T17:01:00.000Z	eck	toas1	repair it how?
+2007-03-02T17:02:00.000Z	eck	toas1	ugh, if you read the dpkg man page you can probably figure out what to do
+2007-03-02T17:02:00.000Z	eck	toas1	ok, here is what you want to do
+2007-03-02T17:03:00.000Z	eck	toas1	boot the live cd, chroot into your old install, see if you can fix things with apt. if that doesn't work you can force it with dpkg (still inside the chroot)

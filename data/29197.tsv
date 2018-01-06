@@ -1,0 +1,4 @@
+2010-07-12T13:01:00.000Z	Slimp		I'm using ubuntu as an internet gate way/firewall.  How can I block internet hostnames - not just IPs - from computers on my lan?
+2010-07-12T13:01:00.000Z	ActionParsnip	Slimp	you could use firestarter and add a rule
+2010-07-12T13:01:00.000Z	Slimp	ActionParsnip	what kind of rule?
+2010-07-12T13:03:00.000Z	ActionParsnip	Slimp	like only allow traffic to the other services you have and deny evrything else, not sure if it can use names. You could set the systems you want access to use a different IP range, then just ban all IPs which dont fall into that range

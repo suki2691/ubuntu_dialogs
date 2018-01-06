@@ -1,0 +1,4 @@
+2009-04-22T18:06:00.000Z	rhsanborn		Silly SSH question. If my ssh connection drops, does it close my running applications? Or does it orphan an SSH user session somewhere?
+2009-04-22T18:07:00.000Z	corecode	rhsanborn	usually the kernel will send a SIGHUP to the processes associated with the terminal
+2009-04-22T18:07:00.000Z	corecode	rhsanborn	and usually that will kill the processes
+2009-04-22T18:29:00.000Z	rhsanborn	corecode	frostburn: joaopinto: belated thank you for your answers to my ssh question. I wanted it to close things out. I'd dropped a couple connections and wanted to make sure I didn't have things hanging open somewhere.

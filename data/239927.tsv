@@ -1,0 +1,4 @@
+2008-04-06T08:16:00.000Z	madagascar		hi again - how can i re-install or remove a package which "is in a very bad inconsistent state" ?
+2008-04-06T08:17:00.000Z	nickrud	madagascar	sudo dpkg -r --force-remove-reinstreq <pkgname>
+2008-04-06T08:18:00.000Z	nickrud	madagascar	mostly works, if it says reinstall required in the error message
+2008-04-06T08:19:00.000Z	nickrud	madagascar	I understand that, but the package you have problems with is hardy specific, it might very well be a known hardy issue

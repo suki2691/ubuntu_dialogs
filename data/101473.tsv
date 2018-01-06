@@ -1,0 +1,4 @@
+2008-02-18T02:53:00.000Z	dan_m		Good afternoon all.  Brand new user (yesterday).  I do not seem to have any system sounds.  Can anyone possibly tell me where to start looking for the problem? Using soundblaster USB external.  When I do the test, it works fine but not on system sounds.
+2008-02-18T02:55:00.000Z	dan_m		trying now.
+2008-02-18T02:57:00.000Z	danand_	dan_m	- type groups in a terminal to check if you are a member of the audio group
+2008-02-18T03:07:00.000Z	danand_	dan_m	- what is the output of ls -l /dev/dsp?

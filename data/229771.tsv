@@ -1,0 +1,4 @@
+2006-06-16T08:13:00.000Z	TheoMurpse		I just installed Dapper Drake, and have no internet. I went to the network settings in the default menu, and the eth0 card is recognized and set to active. I have tried both DHCP (which my router is set to), and have tried a static IP within the range allowed by my router's configuration, and I still have no network. Ping does not work either. I have opened a terminal window and tried "ifconfig eth0 down" to turn it off, but am told I don't have the pe
+2006-06-16T08:13:00.000Z	TheoMurpse		rmissions. How can I switch to root? I never was asked for a root password, so I don't know what it is.
+2006-06-16T08:14:00.000Z	TheoMurpse		krhis so I type "sudo -i" then the password?
+2006-06-16T08:15:00.000Z	bimberi	TheoMurpse	yep, with your userpassword

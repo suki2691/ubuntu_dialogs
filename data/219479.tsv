@@ -1,0 +1,4 @@
+2010-05-21T11:25:00.000Z	jav_		hello all, I want to know where is documentation to config  /etc/apache2/sites-enabled and  /etc/apache2/sites-available
+2010-05-21T11:27:00.000Z	Flannel	jav_	put your potential virtualhosts in -available, apache reads everything in -enabled (and loads it).  You use `a2ensite filename` (where filename is the filename in -available) to enable a site, and a2dissite to disable.  All those commands do is symlink from -available to -enabled
+2010-05-21T11:29:00.000Z	jav_	pat5star	Is it available online?
+2010-05-21T11:30:00.000Z	Flannel	jav_	https://help.ubuntu.com/community/LocalhostSubdomain and https://help.ubuntu.com/community/ApacheMySQLPHP

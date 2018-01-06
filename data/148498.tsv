@@ -1,0 +1,4 @@
+2008-12-22T08:04:00.000Z	qcjn		how can i know what's my chipset ?
+2008-12-22T08:06:00.000Z	crimsun	qcjn	lspci -v|grep -A2 040[13]
+2008-12-22T08:07:00.000Z	qcjn	crimsun	thanks
+2008-12-22T08:07:00.000Z	crimsun	qcjn	sorry, that needs to be -nv instead of -v

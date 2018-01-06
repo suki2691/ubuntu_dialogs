@@ -1,0 +1,4 @@
+2011-05-06T10:12:00.000Z	nitAI	ActionParsnip	ok thank you, I'll try
+2011-05-06T10:09:00.000Z	ActionParsnip	nitAI	you will need to upgrade to Maverick first, then upgrade to Natty
+2011-05-06T10:10:00.000Z	nitAI	ActionParsnip	thx ... and ubottu: thx 2
+2011-05-06T10:11:00.000Z	ActionParsnip	nitAI	sudo apt-get install update-manager-core     then run: gksudo gedit /etc/update-manager/release-upgrades      change: Prompt=lts   to: Prompt=normal     save the new file, close gedit, then run: sudo do-release-upgrade

@@ -1,0 +1,4 @@
+2011-03-05T10:49:00.000Z	softcoder		hmm is there a simple 'install grub' command or something
+2011-03-05T10:49:00.000Z	softcoder		this link gives too much info for a simple boot manager!
+2011-03-05T10:49:00.000Z	psusi	softcoder	grub isn't a simple boot manager; it is a good boot manager
+2011-03-05T10:50:00.000Z	psusi	softcoder	assuming you have ubuntu already installed to the first partition on the first hard disk, and you are currently booting from the livecd and have /dev/sda1 mounted in /mnt: sudo grub-install --root-directory=/mnt /dev/sda

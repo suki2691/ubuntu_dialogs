@@ -1,0 +1,4 @@
+2006-06-01T11:08:00.000Z	wasabi		Looking for a resource for CPU governing. I'd like to set a specific process to always preempt all other processes, and reserve 5% of the CPU at all times.  So a rogue process can be killed... etc
+2006-06-01T11:09:00.000Z	wasabi		I'd actually like to somehow reserve 5% CPU for root somehow, globally.
+2006-06-01T11:10:00.000Z	wasabi		So I can always SSH in, regardless of load.
+2006-06-01T11:10:00.000Z	DBO	wasabi	just renice your sshd to a lower value

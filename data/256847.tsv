@@ -1,0 +1,4 @@
+2006-03-16T08:54:00.000Z	hikenboot		hello all---it looks like my xen kernel doesnt recognized boot=/dev/sda1 as a valid partition or somthing because on boot it says to check the boot= line of my menu.lst.. my default kernel recognizes it fine ...does this indicate that somehow ide isnt supported in the kernel or the ext3 file system
+2006-03-16T08:54:00.000Z	hikenboot		or am i missing somthing simple?
+2006-03-16T08:55:00.000Z	hikenboot		my relavant boot line is module          /boot/vmlinuz-2.6.16-rc5 root=/dev/hda1 ro console=tty0
+2006-03-16T08:55:00.000Z	Managu	hikenboot	whoa, /dev/hda1 or /dev/sda1?

@@ -1,0 +1,4 @@
+2007-12-15T23:26:00.000Z	Xima1		does noone here know how to install the sl-modem-daemon or how to have ubuntu search for new hardware >?
+2007-12-15T23:27:00.000Z	stefg	Xima1	iirc all smp-enabled kernels have trouble with slmodem (ask google, i might confuse it with ltmodem) . so you'd need the -386 kernel or boot with the nosmp boot argument
+2007-12-15T23:28:00.000Z	stefg	Xima1	uhoh!
+2007-12-15T23:34:00.000Z	stefg	Xima1	Since there is restricted code involved the slmodem may just not be available for 64-bit. Crossreading over some forum postes there is no out of the box support on 64 bit, so you'd have to try to compile that yourself

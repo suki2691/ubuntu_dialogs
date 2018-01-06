@@ -1,0 +1,4 @@
+2010-11-26T10:09:00.000Z	chovynz		how do I create a ?..script..? so that a program will run from my desktop with the command line settings that I tell it to?
+2010-11-26T10:10:00.000Z	chovynz		thanks soreau
+2010-11-26T10:12:00.000Z	intrader	chovynz	you may create a .sh file that you can invoke from your .profile script. You write the script in bash with the first line containing '#!/bin/bash' (no quotes).
+2010-11-26T10:13:00.000Z	intrader	chovynz	in your profile simply add the line `/bin/bash yourfile.sh' (no quotes)

@@ -1,0 +1,4 @@
+2012-10-20T21:44:00.000Z	arunkumar413		the adobe flash player plugin  is freezing in chromium. the plugin want to access my cam and mic but i'm not able to allow. it's not responding
+2012-10-20T21:45:00.000Z	kpullen	arunkumar413	Are you running 12.10? A couple of other people mentioned an issue with flash in 12.10 last night.
+2012-10-20T21:46:00.000Z	arunkumar413	kpullen	yes i'm running 12.10
+2012-10-20T21:48:00.000Z	kpullen	arunkumar413	Well, this might not fix your issue, but others are having problems with flash due to compositing. Disabling it seems to resolve the issue: http://www.mail-archive.com/ubuntu-bugs@lists.ubuntu.com/msg3868614.html.

@@ -1,0 +1,4 @@
+2008-06-15T07:25:00.000Z	UbuntuLost		how do I uninstall my nvidia drivers from my hard drive (hardy heron) using the live cd gutsy gibon
+2008-06-15T07:26:00.000Z	nickrud	UbuntuLost	lost, you don't, the drivers are compiled against the running kernel. The ones in the live cd don't match (if that's what you're after)
+2008-06-15T07:28:00.000Z	nickrud	UbuntuLost	boot into recovery mode, and run   dpkg-reconfigure xserver-xorg
+2008-06-15T07:29:00.000Z	nickrud	UbuntuLost	but tech0007 's way will work if you're comfortable editing system files

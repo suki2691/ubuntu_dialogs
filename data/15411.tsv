@@ -1,0 +1,4 @@
+2011-07-01T23:06:00.000Z	sjbrown		can anyone point me in the right direction for this problem:  I want to make a "daemon" that runs in the context of a desktop session.
+2011-07-01T23:06:00.000Z	sjbrown		that is, it doesn't start running until a user is logged in, and it sleeps or turns off when a user logs out
+2011-07-01T23:06:00.000Z	escott	sjbrown	 just add it to gnome-session-properties
+2011-07-01T23:10:00.000Z	escott	sjbrown	each user controls their own session. but you can add stuff to start when your session starts and it will terminate when your session ends

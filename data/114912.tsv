@@ -1,0 +1,4 @@
+2008-04-22T05:59:00.000Z	Shpoo1		Is there a way to run "sudo iwconfig wlan0 essid "NETWORKx"" at startup? I'm trying to get my laptop to connect at startup. I also would like to set my network as the preferred network.
+2008-04-22T06:00:00.000Z	iclebyte	Shpoo1	it should really be specified in /etc/networking/
+2008-04-22T06:02:00.000Z	Shpoo1	iclebyte	un /etc/network/interfaces?
+2008-04-22T06:03:00.000Z	Shpoo1	iclebyte	Would I just put wlan0 essid "NETWORKx" in? or do I have to include iwconfig?

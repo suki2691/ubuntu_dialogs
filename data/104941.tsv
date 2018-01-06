@@ -1,0 +1,4 @@
+2010-11-16T12:43:00.000Z	dan86		Anyone know why gparted would report an entire disk as unallocated?
+2010-11-16T12:44:00.000Z	dan86		I did a little research, and found out my drive has a space conflict, gparted gives me an error about two partitions using the same space....
+2010-11-16T12:44:00.000Z	ActionParsnip	dan86	corrupted fat possibly
+2010-11-16T12:49:00.000Z	ActionParsnip	dan86	you could boot to live cd and resize to fix. I hope your backups are up to date

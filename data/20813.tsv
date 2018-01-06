@@ -1,0 +1,4 @@
+2012-01-19T23:59:00.000Z	level09		how do I kill some stuck upstart services ? kill doesn't seem to take effect
+2012-01-20T00:00:00.000Z	BarkingFish	level09	which kill signal are you using?
+2012-01-20T00:01:00.000Z	BarkingFish	level09	you could try using a kill that will force it to quit, try sudo kill -11 followed by the process ID's you want to nail
+2012-01-20T00:02:00.000Z	level09	BarkingFish	is that the effect of "respawn" ? seems like upstart is trying to keep it alive

@@ -1,0 +1,4 @@
+2007-10-29T09:22:00.000Z	spankdidly		I got a question
+2007-10-29T09:22:00.000Z	spankdidly		I need to install ubuntu on multiple laptops with the same software from the repos. Is there an easy way to do this?
+2007-10-29T09:24:00.000Z	spankdidly		Ah ok
+2007-10-29T09:24:00.000Z	Zippy2	spankdidly	tar everything, dd if=/dev/hda of=mbr count=1 bs=512b and untar and dd if=mbr

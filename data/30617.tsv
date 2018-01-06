@@ -1,0 +1,4 @@
+2010-06-26T04:57:00.000Z	aretrfre34		hi, i have list of makefiles, i have to change gcc to arm-linux-gcc in each of them how to patch them?
+2010-06-26T04:59:00.000Z	colk	aretrfre34	if the compiler isdefined by $CC youd just need to export CC=arm-linux-gcc
+2010-06-26T05:00:00.000Z	aretrfre34	colk	no there is CC = gcc and CXX = g++ in each file
+2010-06-26T05:13:00.000Z	aretrfre34	colk	if i export them configure fails with cannot run C tests error

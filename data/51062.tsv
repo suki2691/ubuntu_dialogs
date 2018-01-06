@@ -1,0 +1,4 @@
+2009-08-05T06:18:00.000Z	Mike_lifeguard		What should by fstab entry be for an NTFS Windows partition so all users can (un)mount it, and see everything inside it?
+2009-08-05T06:19:00.000Z	bankix	Mike_lifeguard	You'll have to add the mount option "user". Then every user may mount it, own it, and unmount it.
+2009-08-05T06:20:00.000Z	Mike_lifeguard	bankix	do I need "defaults" too?
+2009-08-05T06:21:00.000Z	bankix	Mike_lifeguard	Depends. "defaults" is short for a number of options, the manpage shows which. If you need them, keep "defaults". I would.

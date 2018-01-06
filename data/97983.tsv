@@ -1,0 +1,4 @@
+2009-08-24T16:15:00.000Z	Anarhist		i am having problems with anything which accesses PGP keys (that is the plugin for thunderbird, seahorse, and even 'gpg' terminal command), things just sit there and wait for some lock to be released. i was thinking of nuking my configuration files and then re-importing all the keys, but i don't know where all this stuff is stored. Can somebody please help with that?
+2009-08-24T16:15:00.000Z	fahadsadah	Anarhist	~/.gpg
+2009-08-24T16:16:00.000Z	fahadsadah		Sorry, ~/.gnupg
+2009-08-24T16:16:00.000Z	Anarhist	fahadsadah	thanks, it was .lock file in there

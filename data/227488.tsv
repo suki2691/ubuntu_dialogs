@@ -1,0 +1,4 @@
+2007-01-30T07:56:00.000Z	ott0		another n00b question: how can I get 1280x768 resolution? system > prefs > screen resolution doesn't show it as an option, I tried setting it in dpkg-reconfigure xserver-xorg ...        xorg.conf -> SubSection "Display" has    ->    Modes           "1280x768" "1024x768" "800x600" "640x480"
+2007-01-30T07:58:00.000Z	Jowi	ott0	what video card do you have?
+2007-01-30T08:01:00.000Z	Jowi	ott0	"cat /etc/X11/xorg.conf | grep Driver" should let you know which one the system thinks you have
+2007-01-30T08:01:00.000Z	Jowi	ott0	capital D in Driver

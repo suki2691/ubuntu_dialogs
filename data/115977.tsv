@@ -1,0 +1,4 @@
+2008-07-31T03:44:00.000Z	surlyduff		hi folks.  I'm having trouble booting my system.  when I just let it start up normally, it doesn't work.  I have to manually select an earlier kernel (2.6.24-19-generic instead of -20).  is there something I can do about this so that I don't have to manually select it every time?
+2008-07-31T03:44:00.000Z	kitche	surlyduff	you can make an older kernel your default kernel if you want
+2008-07-31T03:49:00.000Z	surlyduff	kitche	how do I do that? alternatively, how long until a new kernel comes out?
+2008-07-31T03:50:00.000Z	kitche	surlyduff	usually you won't see a new kernel unless a security update happens to the kernel but you need to edit /boot/grub/menu.lst and change the default number to the number of the kernel like default 0 make it say something like default 1 for the kernel you want to use

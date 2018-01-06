@@ -1,0 +1,4 @@
+2010-03-26T11:22:00.000Z	Curly_Q		If a sys admin uses SSH or tunneling what is all of the problems with logging as root with Secure Shell?
+2010-03-26T11:24:00.000Z	geoffmcc	Curly_Q	maybe this isnt exactly why but its one reason - check your auth log and see all the people trying to log into root.
+2010-03-26T11:30:00.000Z	geoffmcc	Curly_Q	maybe i misunderstand - your trying to move a file from one server to another using ssh right
+2010-03-26T11:33:00.000Z	geoffmcc	Curly_Q	What you need to do is login with a user in the admin group[

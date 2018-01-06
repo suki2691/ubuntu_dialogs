@@ -1,0 +1,4 @@
+2007-08-30T07:02:00.000Z	mneptok	UncleD	do Breezy>Dapper>Edgy>Feisty
+2007-08-30T07:02:00.000Z	UncleD	mneptok	How do I go from breezy to dapper, to start
+2007-08-30T07:02:00.000Z	UncleD		Is there a simple means to doing so.
+2007-08-30T07:03:00.000Z	mneptok	UncleD	replace all instances of "breezy" with "dapper" in /etc/apt/sources.lst then "sudo apt-get update && sudo apt-get dist-upgrade"

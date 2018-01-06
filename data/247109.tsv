@@ -1,0 +1,4 @@
+2005-09-25T09:17:00.000Z	digitalfox|sleep		how do I prevent services from starting?
+2005-09-25T09:18:00.000Z	digitalfox|sleep		I have apache installed, for instance, but I don't want it to start every time I boot up
+2005-09-25T09:18:00.000Z	tga	digitalfox|sleep	sudo update-rc.d -f apache remove for example
+2005-09-25T09:19:00.000Z	tga	digitalfox|sleep	the symlinks in /etc/rc*.d pointing at scripts in /etc/init.d do all the work

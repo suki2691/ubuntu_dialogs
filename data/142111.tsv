@@ -1,0 +1,4 @@
+2007-06-15T16:28:00.000Z	taime1		i am running feisty on a laptop with onboard intel sound device... but after a kernel upgrade, i have no sound, can someone please help me get it back?
+2007-06-15T16:29:00.000Z	PurpZeY	taime1	You could just run the old kernel
+2007-06-15T16:37:00.000Z	PurpZeY	taime1	You don't have to do that, just set grub to boot the old kernel in grub conf
+2007-06-15T16:39:00.000Z	PurpZeY	taime1	Backup grub conf, then change the order or take out the new kernel.

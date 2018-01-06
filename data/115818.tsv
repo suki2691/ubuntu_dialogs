@@ -1,0 +1,4 @@
+2008-02-17T09:37:00.000Z	nickrud	chrisb_	if you have to use the driver from the ati wesite (that is, if AtomicSpark's advice doesn't work because it's a really new card) http://wiki.cchtml.com/index.php/Ubuntu_Gutsy_Installation_Guide is good
+2008-02-17T09:37:00.000Z	chrisb_	nickrud	 thanks
+2008-02-17T09:41:00.000Z	nickrud	chrisb_	before you install the xserver-xgl, run   fglrxinfo  and make sure it's using the ati 8.37.6 driver , and run  glxinfo | grep direct to make sure you have direct rendering
+2008-02-17T09:42:00.000Z	chrisb_	nickrud	ok

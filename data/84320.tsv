@@ -1,0 +1,4 @@
+2012-10-06T04:24:00.000Z	Oscarete		Hello Everyone, I need a hand in a install I have made this evening.  I am trying to use a PCMCIA wireless card. If I do this on terminal: lspci | grep Network
+2012-10-06T04:24:00.000Z	Oscarete		02:00.0 Network controller: Texas Instruments ACX 111 54Mbps Wireless Interface
+2012-10-06T04:24:00.000Z	Oscarete		But if I do Iwconfig it pulls no Wlan0 at all. The Card is a trendnet tew-421. I have as well followed the instrucctions here: https://help.ubuntu.com/community/WifiDocs/Device/TRENDnet_TEW-421PC_H/W%3AB1_%28ndiswrapper%29
+2012-10-06T04:25:00.000Z	szal	Oscarete	do you have a driver loaded for that card? -> lspci -k

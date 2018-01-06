@@ -1,0 +1,4 @@
+2008-11-22T18:46:00.000Z	tdawgedogg		can someone help me with static ip setup in 8.10...i created a new connection and set the mac and ip address and all that stuff...It starts fine with that IP address but i cant access the internet....but i can access my linksys router settings fine
+2008-11-22T18:47:00.000Z	Bast	tdawgedogg	have you set your router as the gateway?
+2008-11-22T18:49:00.000Z	Bast	tdawgedogg	No. When you configured your static IP you needed to provide the IP address, network mask and a gateway address. The gateway is your Linksys, it is where all non-local domain IP requests get routed to
+2008-11-22T18:50:00.000Z	Bast	tdawgedogg	hold on - do you have your linksys on one network and your PC's on another?

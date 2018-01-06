@@ -1,0 +1,4 @@
+2007-05-29T12:01:00.000Z	ahmed		guys ,, when i try to access the login in the administration of gnome i get this message : GDM (The GNOME Display Manager) is not running.,,, its true because i installed kde but how to switch back to gnome login manager ??
+2007-05-29T12:02:00.000Z	wols_	ahmed	ctrl+alt+f1, log in, sudo /etc/init.d/kdm stop; sudo /etc/init.d/gdm start
+2007-05-29T12:03:00.000Z	wols_	ahmed	for permanence: sudo dpkg-reconfigure gdm
+2007-06-03T12:43:00.000Z	wols_	ahmed	you need kernel headers installed

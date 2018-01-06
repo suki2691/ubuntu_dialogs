@@ -1,0 +1,4 @@
+2006-04-23T12:16:00.000Z	damian_		when mounting a samba drive, it comes up with 'unknown filesystem type 'smb'' .. how can i make it understand the samba filesystem type?
+2006-04-23T12:17:00.000Z	mikael	damian_	try apt-get install smbfs (worked for me..)
+2006-04-23T12:20:00.000Z	mikael	damian_	try to add the extra repositories
+2006-04-23T12:21:00.000Z	mikael	damian_	http://ubuntuguide.org/#extrarepositories

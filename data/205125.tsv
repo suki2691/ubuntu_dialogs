@@ -1,0 +1,4 @@
+2011-08-04T23:54:00.000Z	antihero		I was wondering if anyone knows anything about alsa not picking up cards
+2011-08-04T23:54:00.000Z	antihero		welll it does when I do alsa reload (as it lists the relevant modules)
+2011-08-04T23:55:00.000Z	dli	antihero	do you see anything in: cat /proc/asound/cards ?
+2011-08-04T23:56:00.000Z	antihero	dli	Indeed, my card is there.

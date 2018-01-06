@@ -1,0 +1,4 @@
+2006-01-18T09:44:00.000Z	muszek		hi.  how do I make ssh server listen on non-default port?
+2006-01-18T09:44:00.000Z	butcherbird	muszek	sudo gedit /etc/ssh/sshd_config
+2006-01-18T09:45:00.000Z	muszek	butcherbird	thank you
+2006-01-18T09:46:00.000Z	butcherbird	muszek	after you change port sudo /etc/init.d/ssh restart

@@ -1,0 +1,4 @@
+2007-11-07T17:27:00.000Z	stippi		I have a problem with my new monitor and 7.10. In X, the screen is all garbled, in the textmode terminals, only a portion of the text is displayed and I can't fix the xorg.conf file for my new monitor. Is there any trick how I can tricker the autodetection again, possible get a clean xorg.conf file?
+2007-11-07T17:29:00.000Z	stippi		!xorg
+2007-11-07T17:29:00.000Z	erUSUL	stippi	try 'sudo dpkg-reconfigure -phigh xserver-xorg'
+2007-11-07T17:30:00.000Z	stippi	erUSUL	thanks

@@ -1,0 +1,4 @@
+2006-05-23T15:21:00.000Z	Dave-B		Hi, I'm trying to convert a wav to flac using soundconverter on 5.10 - but it produces an empty file. Any ideas how to fix this?
+2006-05-23T15:23:00.000Z	Anton__	Dave-B	make sure that the flac encoding library is installed.
+2006-05-23T15:24:00.000Z	Dave-B	Anton__	Yup, libflac7 and libflac++5c2 are present
+2006-05-23T15:26:00.000Z	Anton__	Dave-B	i've never used the soundconverter.. but i've had issues with converting stuff.. normally it is if the library is not present, or the app can't find the library's location.

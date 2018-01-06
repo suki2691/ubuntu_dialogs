@@ -1,0 +1,4 @@
+2009-01-19T09:04:00.000Z	runderwo	BlueEagle	On the other hand, user account passwords tend to be much weaker than root passwords.
+2009-01-19T09:05:00.000Z	BlueEagle	runderwo	Still a user account is not a set target as root is. Still I agree on the fact that servers by default disallow login as root.
+2009-01-19T09:06:00.000Z	BlueEagle	runderwo	However if you have the super user as something that is not a default (ie. root) and employ a strong password to every account that does have sudo access then your system is safer than if you have a known user with root privileges (ie. root) even with the same measures.
+2009-01-19T09:07:00.000Z	BlueEagle	runderwo	Think of the sudo-enabled users as salt in an encryption string. The salt itself does not provide any cryptographic advantage, but instead of just having the password you also need to have the salt. In this case a correct user name.

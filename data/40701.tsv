@@ -1,0 +1,4 @@
+2009-12-18T22:36:00.000Z	huggesanp		Right
+2009-12-18T22:37:00.000Z	huggesanp		Can somebody confirm for me that if I have a partition mounted on / and /mnt, rebooting will ensure that the partition gets safely unmounted?
+2009-12-18T22:38:00.000Z	LizardK|ng	huggesanp	yes, unless its in your fstab.  however, did you try sudo umount /mnt?
+2009-12-18T22:40:00.000Z	huggesanp	LizardK|ng	I tried umount /mnt

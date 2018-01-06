@@ -1,0 +1,4 @@
+2005-02-17T15:54:00.000Z	gazoombo		I'm on the phone with my friend who is trying to get ndiswrapper installed. how can I make synaptic or apt use a tarball?
+2005-02-17T15:55:00.000Z	topyli	gazoombo	apt can use debian sources but not plain tarballs
+2005-02-17T15:56:00.000Z	gazoombo	topyli	I believe it is a debian source package, but how can I point it to that file, or what does it need to be put in order to be indexed as a possible package to install?
+2005-02-17T15:58:00.000Z	topyli	gazoombo	dunno, i just put the debian src sources to sources.list and do 'apt-get build-dep foo' and 'apt-get -b source foo' or something. i forget because i use wajig :)

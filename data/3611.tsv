@@ -1,0 +1,4 @@
+2012-05-12T21:20:00.000Z	t0rx__		anyone know how I can drop to a busybox shell at boot / splash?
+2012-05-12T21:21:00.000Z	escott	t0rx__	break the root= argument to the kernel
+2012-05-12T21:22:00.000Z	t0rx__	escott	thanks where's that, grub conf somewhere?
+2012-05-12T21:23:00.000Z	escott	t0rx__	or just hit shift on boot and manually edit the grub entry (which is not permanent). i'm not clear why you would want to do such a thing

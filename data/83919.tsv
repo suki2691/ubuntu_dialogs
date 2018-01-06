@@ -1,0 +1,4 @@
+2009-09-03T19:01:00.000Z	JonJ		How do I make php work inside .html files on 9.04 server? It works when I make a .php file as an indexfile, but when I put "<?php print("Test"); ?>" in a static .html file it does not work. Any suggestions?
+2009-09-03T19:02:00.000Z	lstarnes	JonJ	it's only supposed to work inside .php
+2009-09-03T19:02:00.000Z	lstarnes	JonJ	I think it is possible to have php parse .html files in apache, but it generally isn't recommended
+2009-09-03T19:04:00.000Z	JonJ	lstarnes	I had it working yesterday in FreeBSD, this line did it: AddType application/x-httpd-php .php .htm .htm

@@ -1,0 +1,4 @@
+2009-06-07T00:56:00.000Z	Slade		Ok, i feel dumb asking this question, but how do i find out which config file my X server is using since i have multiple ones in /etc/X11
+2009-06-07T00:57:00.000Z	Slade		but i donbt have an xorg.conf
+2009-06-07T00:57:00.000Z	Slade		i have xorg.conf.1 .2, etc
+2009-06-07T00:57:00.000Z	guntbert	Slade	you should be able to tell by looking into /var/log/Xorg.0.log

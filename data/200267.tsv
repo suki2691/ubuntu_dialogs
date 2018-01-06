@@ -1,0 +1,4 @@
+2006-04-15T16:26:00.000Z	linux_user400354		im logged into a computer using ssh. how can i run a program on it that has a gui?
+2006-04-15T16:28:00.000Z	tkup	linux_user400354	ssh needs to be able to forward X messages. so , run ssh as such: ssh -X user@hostname
+2006-04-15T16:29:00.000Z	linux_user400354	tkup	i dont want to open the application on my computer. i want the gui app to run on the computer that im logged into.
+2006-04-15T16:31:00.000Z	tkup	linux_user400354	the application is technically launched from the remote computer but displayed locally. Thatis, it uses the resources of the remote computer. Otherwise,VNC might be what you're looking for

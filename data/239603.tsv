@@ -1,0 +1,4 @@
+2005-05-05T10:03:00.000Z	lc		How do you kill an application thats locked up in X?
+2005-05-05T10:05:00.000Z	lc		alt-ctrl-f doesnt do anything
+2005-05-05T10:05:00.000Z	NigelS	lc	if you press the close button for the app (this is in gnome) gnome will notice the app won't close and offer to kill it.  Alternatively you can load the system monitor and kill the process from there or from the command line type kill -9 <pid> or pkill -9 process name or killall -9 process name (not to be used on a bsd system) :)
+2005-05-05T10:07:00.000Z	NigelS	lc	when he said use ctrl-alt-f! the ! was in place of one char, e.g. the Function keys.  those shortcuts take you to virtual terminals. If X freezes completely you can always do that to be able to kill the offending processes.

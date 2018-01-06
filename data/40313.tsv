@@ -1,0 +1,4 @@
+2009-12-23T04:51:00.000Z	dath		how would i mount --bind another directory for a specific user so he has read only access?
+2009-12-23T04:52:00.000Z	Solorvox	dath	mount -o bind,ro /source /dest
+2009-12-23T04:53:00.000Z	dath	Solorvox	and then chmod the dest for the user?
+2009-12-23T05:15:00.000Z	Solorvox	dath	chmod 555 on the ro mount point

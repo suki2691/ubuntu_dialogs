@@ -1,0 +1,4 @@
+2011-09-12T18:44:00.000Z	oCean		!sudo | organiks
+2011-09-12T18:46:00.000Z	russellw	oCean	setting a root password is pointless? You mean you can arrange it so that when you need to use sudo, you don't get prompted for a password?
+2011-09-12T18:46:00.000Z	oCean	russellw	indeed
+2011-09-12T18:51:00.000Z	oCean	russellw	see the documentation on the /etc/sudoers configuration. You can use the NOPASSWD specification for certain groups not to require a passwd

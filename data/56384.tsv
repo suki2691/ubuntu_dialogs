@@ -1,0 +1,4 @@
+2011-04-21T11:25:00.000Z	siloxid		to be more specific, I am running ratpoison and not gnome-session.  ifup eth0 doesn't work like it did in older versions
+2011-04-21T11:26:00.000Z	meganerd	siloxid	ifup would work if you removed network-manager and set up eth0 in /etc/network/interfaces
+2011-04-21T11:27:00.000Z	meganerd	siloxid	for now, you should be able to test with "sudo ip link set eth0 up" and then "sudo dhclient eth0", assuming that your network is using dhcp
+2011-04-21T11:28:00.000Z	siloxid	meganerd	thanks, will give it a try

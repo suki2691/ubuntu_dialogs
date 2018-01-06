@@ -1,0 +1,4 @@
+2008-02-29T01:28:00.000Z	keito		how do I find out which device is my cd/dvd drive?
+2008-02-29T01:28:00.000Z	Slart	keito	or /dev/dvd  .. or /dev/scd
+2008-02-29T01:29:00.000Z	Slart	keito	do a "cat /etc/mtab" and see if anything in there uses a cd filesystem
+2008-02-29T01:29:00.000Z	keito	Slart	yaro: thank you

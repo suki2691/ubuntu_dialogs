@@ -1,0 +1,4 @@
+2010-07-24T22:56:00.000Z	HiddenKnowledge		Hello, I have a external HD formatted as ntfs. After a bad shutdown, ubuntu doesn't find the HD. Windows finds it perfectly though. How do I fix this?
+2010-07-24T22:57:00.000Z	hspaans	HiddenKnowledge	start gnome-terminal, put the drive in and see with "dmesg | tail" what is going wrong
+2010-07-24T23:01:00.000Z	HiddenKnowledge	hspaans	Was that supposed to fix the problem? Because it did.
+2010-07-24T23:02:00.000Z	hspaans	HiddenKnowledge	No, mostlikely the fs was broken and windows fixed it when you plugged in

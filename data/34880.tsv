@@ -1,0 +1,4 @@
+2010-06-15T23:12:00.000Z	mika_		hi, i'm trying to install ubuntu server... i'd like to crypt the partition... should i use the automatic tool to use the whole hd with lvm and crypt ? will it ask the passphrase at every boot or will it be automatic the decrypt?
+2010-06-15T23:12:00.000Z	red2kic	mika_	It'll ask for the passphrase at every boot. Why bother using encryption if you want it to perform automatic decryptions. :(
+2010-06-15T23:14:00.000Z	mika_	red2kic	i actually don't want that other people access the data... but as it's a server i don't want the passphrase because i'd have to write it... and with remote access it's quite hard, and not good (the server will stay down until i enter it)
+2010-06-15T23:15:00.000Z	red2kic	mika_	You can use guided partition options or do it manually -- It's really up to you. With scripts, you can have it decrypted automatically if you have USB with passphrase_key loaded in. You should keep the data exclusively to yourself.

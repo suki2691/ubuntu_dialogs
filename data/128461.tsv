@@ -1,0 +1,4 @@
+2007-11-28T22:22:00.000Z	pdm_		how can i see my RAMS and their capacity for every slot ????
+2007-11-28T22:22:00.000Z	MasterShrek	pdm_	cat /proc/meminfo
+2007-11-28T22:24:00.000Z	pdm_	MasterShrek	what is max capacity
+2007-11-28T22:25:00.000Z	MasterShrek	pdm_	for a 32 bit desktop install it think its limited to 3gb, the server kernel will allow for > 3gb, you can also custom compile a kernel for >3gb support

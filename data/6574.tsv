@@ -1,0 +1,4 @@
+2012-01-25T11:14:00.000Z	thrillERboy		Hi Guys, How do I login to a remote SSH with my SSH Keys, the remote server is set up with my keys.
+2012-01-25T11:16:00.000Z	kroonrs	thrillERboy	if your public key has been added to your user accounts' authorized_keys in .ssh , you should simply be able to ssh <username>@<host>
+2012-01-25T11:18:00.000Z	thrillERboy	kroonrs	My key is .ssh directory with id_rsa and id_rsa.pub. Should I manually add those keys to user accounts?
+2012-01-25T11:19:00.000Z	kroonrs	thrillERboy	I guess those keys are on your local PC, and you want to be able to ssh to a server.  In that case, you've got to put the contents of id_rsa.pub into .ssh/authorized_keys in the home dir of your account on the server

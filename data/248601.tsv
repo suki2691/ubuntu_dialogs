@@ -1,0 +1,4 @@
+2005-03-11T16:44:00.000Z	deusx_		i want to do some update with apt-get. i have all needed packs on the hard drive. how can i determine apt-get NOT to download from the web, but from my drive?
+2005-03-11T16:45:00.000Z	deusx_		allready there
+2005-03-11T16:45:00.000Z	membreya	deusx_	you need to make your own repo file..or if you want to install ALL the updates you have in a folder just do a sudo dpkg -i *.deb
+2005-03-11T16:51:00.000Z	membreya	deusx_	 as I said ...if you are sure you want to install them all

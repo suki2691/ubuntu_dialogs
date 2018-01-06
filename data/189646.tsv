@@ -1,0 +1,4 @@
+2009-10-20T16:00:00.000Z	Martin_vW		Hello, update-manager on my karmic notebooks hangs after having entered the password. I see in htop that update-manager has a subprocess gksu, and gksu has a sudo subprocess in turn. If I strace this sudo process, it prints only one line "restart_syscall" and hangs. Any ideas on what's going on here?
+2009-10-20T16:01:00.000Z	Martin_vW		*notebook
+2009-10-20T16:01:00.000Z	Martin_vW		My main karmic machine is not affected.
+2009-10-20T16:02:00.000Z	Ademan	Martin_vW	you may want to go to #ubuntu+1

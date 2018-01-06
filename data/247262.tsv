@@ -1,0 +1,4 @@
+2005-07-27T14:56:00.000Z	mike_		how do I use a diff file to apply patches to source?
+2005-07-27T14:57:00.000Z	edi	mike_	depends on the kind of diff, but may be something as "patch -p1 < file.diff" under the directory of the application
+2005-07-27T14:59:00.000Z	mike_	edi	how can I tell?
+2005-07-27T14:59:00.000Z	mike_	edi	starts like this  diff -X ignore -Nru clean/wine/dlls/d3d8/basetexture.c patch/wine/dlls/d3d8/bas$--- clean/wine/dlls/d3d8/basetexture.c  2005-06-03 19:08:48.000000000 +0100

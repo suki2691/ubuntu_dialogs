@@ -1,0 +1,4 @@
+2012-08-29T15:01:00.000Z	rax-		is it as easy as doing: sudo apt-get install linux-image-3.2.0-27-generic to downgrad to this kernel?
+2012-08-29T15:01:00.000Z	MonkeyDust	rax-	 downgrade may ruin your system
+2012-10-12T14:12:00.000Z	MonkeyDust	rax-	 12.04 uses 3.2
+2012-10-12T14:15:00.000Z	rax-	MonkeyDust	The issue isn't with the image number but the fact that updating the image version didn't touch /var/run/reboot-required

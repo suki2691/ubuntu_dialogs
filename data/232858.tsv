@@ -1,0 +1,4 @@
+2007-02-15T11:08:00.000Z	Ducimus		Ok, so i go and set up this computer in my office with Ubuntu and dedicate it as a server. set the group permissions, set all the people up as group members. that all worked fine but, the permissions aren't staing set. people will copy files onto the server and they become read-only for other users, so i have to go and re-apply all the permissions. any clue how to stop this from happening?
+2007-02-15T11:10:00.000Z	Ducimus		no
+2007-02-15T11:11:00.000Z	Ducimus		all the other machines in the network are windows based and are running through samba
+2007-02-15T11:12:00.000Z	erUSUL	Ducimus	maybe the umask's of the users are not apropiate?

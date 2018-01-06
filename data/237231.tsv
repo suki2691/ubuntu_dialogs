@@ -1,0 +1,4 @@
+2005-05-18T07:03:00.000Z	helio7		Any ideas on how to detect the location of a firewire attached Compact Flash card reader, so that I can mount it??
+2005-05-18T07:03:00.000Z	chiwawa_42	helio7	might be a scsi disk device
+2005-05-18T07:04:00.000Z	helio7	chiwawa_42	if it's a scsi disk device, where would I look for it?
+2005-05-18T07:04:00.000Z	chiwawa_42	helio7	/dev/sd[a-z] 

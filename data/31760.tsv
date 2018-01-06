@@ -1,0 +1,4 @@
+2012-09-22T01:24:00.000Z	techkid6		there a command to add people to sudoers?
+2012-09-22T01:24:00.000Z	techkid6		or do i have to do it manually
+2012-09-22T01:24:00.000Z	TJ-	techkid6	see "man visudo"
+2012-09-22T01:25:00.000Z	TJ-	techkid6	Ubuntu has a group "admin" and/or sometimes "adm" - one or both will/should be in /etc/group and in /etc/sudoers

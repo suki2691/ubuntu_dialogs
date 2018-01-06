@@ -1,0 +1,4 @@
+2008-08-21T02:21:00.000Z	sk33t0r		sudo insmod ipw2200.ko rtap_iface=1
+2008-08-21T02:21:00.000Z	sk33t0r		insmod: error inserting 'ipw2200.ko': -1 Unknown symbol in module
+2008-08-21T02:21:00.000Z	sk33t0r		anyone ever had such an issue before?
+2008-08-21T02:22:00.000Z	andax	sk33t0r	that module was most likely not compiled for your current kernel

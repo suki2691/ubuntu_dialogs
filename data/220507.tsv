@@ -1,0 +1,4 @@
+2007-01-28T06:54:00.000Z	eih		Lets say , for example, i open synaptic package Manager, and writing my root password to get acess for installing programs and such.. everything works fine.
+2007-01-28T06:54:00.000Z	eih		Then i just quit synaptic when im done installing my stuff. But when i want to go back to synaptic, it does'nt ask for root-password any more until i restart the computer.
+2007-01-28T06:54:00.000Z	eih		My question is: Am i still root-user after ive been to such program which i had to gain root-acess to? It dosent ask for the password again and im curious if thats normal?
+2007-01-28T06:55:00.000Z	Flannel	eih	no.  sudo has a 10 minute timeout for passwords, you can change that.  and, it's not your root password either

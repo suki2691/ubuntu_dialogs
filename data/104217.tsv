@@ -1,0 +1,4 @@
+2010-11-23T22:31:00.000Z	frego		I upgraded an Ubuntu 9.10 to 10.04 and then to 10.10.  All appeared to go well until I booted a live cd and converted the ext2 filesystem to ext4.  Now I get a grub prompt upon booting and trying to troubleshoot, I used the 'find /boot/grub/stage1 and get "unknown command 'find'".  Any thoughts on how to boot this computer?
+2010-11-23T22:33:00.000Z	frego		pankaj> sudo chmod +x myfile.exe
+2010-11-23T22:34:00.000Z	frego		pankaj> may not need to sudo it depending on ownership
+2010-11-23T22:34:00.000Z	ActionParsnip	frego	sudo isnt needed if the file is in $HOME

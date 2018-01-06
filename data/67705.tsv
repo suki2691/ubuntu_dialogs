@@ -1,0 +1,4 @@
+2009-01-26T20:53:00.000Z	noon		i have a 500gb external drive that is causing me permissions problems. it automatically mounts, but is there a way to automatically mount if with me set as the owner and full perms?
+2009-01-26T20:54:00.000Z	padhu	noon	You can use manual mounting. What is the file system type?
+2009-01-26T20:55:00.000Z	noon	padhu	i want it to apply each time i login/startup. the fs is ext3
+2009-01-26T20:56:00.000Z	padhu	noon	use " sudo mount -o rw /dev/sdaX /mnt"

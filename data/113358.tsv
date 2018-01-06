@@ -1,0 +1,4 @@
+2010-02-03T20:53:00.000Z	lunks		Hi, I have a linux server which is currently my firewall. I have a RDP server inside the network I want to get into. I'd like to do it through SSH port, redirect, but I'm not sure how to do this. How can I redirect 192.168.1.2:3389 to localhost:3389 on this server?
+2010-02-03T20:55:00.000Z	freakynl	lunks	don't quite get what you want. if you don't want to open port and firewall and bounce over linux box to terminal at home do something like: ssh -L 3389:<internal-ip-of-rdp>:3389 <external-ip-linux-box>; and then connect rdesktop to localhost:3389
+2010-02-03T20:56:00.000Z	lunks	freakynl	can I forward it to the ssh server instead of localhost?
+2010-02-03T20:57:00.000Z	freakynl	lunks	i don't understand. to initiate a session traffic initialy has to go from client to server, not vice versa

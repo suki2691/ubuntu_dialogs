@@ -1,0 +1,4 @@
+2008-05-08T08:40:00.000Z	lopin		Hey guys.  I just wrote a lovely script to start up a shoutcast server on startup, however, when it runs, it starts writing output to the screen, and stalls the rest of the startup, even though I configured it not to.  Any help?
+2008-05-08T08:41:00.000Z	lemsx1	lopin	how about using > /dev/null 2>&1 ?
+2008-05-08T08:42:00.000Z	lopin	lemsx1	Thanks...  I remember doing that at one point with something, and i figure there's some reason that I just wrote this script, but I don't quite remember. If it doesn't work, I'll be back.  Thanks!  ^.^
+2008-05-08T08:52:00.000Z	lopin	lemsx1	 Thanks.  That worked on the output, and putting a & at the end made sure that other programs could run too...

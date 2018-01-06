@@ -1,0 +1,4 @@
+2011-02-12T20:24:00.000Z	quidnunc		How would I backup my root directory with tar but directly into a filesystem hierarchy and not a tarball?
+2011-02-12T20:25:00.000Z	schnuffle	quidnunc	use cp for that
+2011-02-12T20:27:00.000Z	schnuffle	quidnunc	there's the -a option
+2011-02-12T20:28:00.000Z	schnuffle	quidnunc	if it's a one time copy, cp is alright, if you do it more often rsny is the way to go

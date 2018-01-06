@@ -1,0 +1,4 @@
+2008-02-14T17:18:00.000Z	fr1ul^h4ck		 but with sudo cp /root/index.html /var/www/ i will py index.html only in /var/www .. i want to copy index.html in all the subdirecotiries of /var/www
+2008-02-14T17:19:00.000Z	prince_jammys	fr1ul^h4ck	try #bash otherwise
+2008-02-14T17:21:00.000Z	prince_jammys	fr1ul^h4ck	for dir in $(find /var/www -type d); do sudo cp index.html $dir;done
+2008-02-14T17:22:00.000Z	prince_jammys	fr1ul^h4ck	i believe will copy index.html to any directories inside of /var/www

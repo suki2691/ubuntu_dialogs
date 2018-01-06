@@ -1,0 +1,4 @@
+2010-04-04T05:38:00.000Z	look		how do i view my drivers on ubuntu?
+2010-04-04T05:39:00.000Z	ctmjr	look	lsmod
+2010-04-04T05:40:00.000Z	look	ctmjr	thanx but is there a way to tell what hardware is useing what driver?
+2010-04-04T05:53:00.000Z	ctmjr	look	if it is installed run lshw -html > somename.html and it will show the driver and module name of all installed hardware you have to open the file with a webrowser (firefox somename.html

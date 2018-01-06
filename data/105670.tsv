@@ -1,0 +1,4 @@
+2008-01-31T22:31:00.000Z	thannoy	bod_	when grub propose to choose OS, you can  edit the command-line and add (or replace argument "2") by the runlevel you want (1,2,3,4,5). One of them should ba the single user mode
+2008-01-31T22:31:00.000Z	bod_	thannoy	i dont get a grub option because its only 1 os
+2008-01-31T22:33:00.000Z	thannoy	bod_	with /etc/inittab you could change default runlevel, you could try to find one corresponding to the single user mode
+2008-01-31T22:36:00.000Z	bod_	thannoy	any idea which run level is single mode?

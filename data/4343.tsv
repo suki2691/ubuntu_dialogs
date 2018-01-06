@@ -1,0 +1,4 @@
+2012-04-03T21:32:00.000Z	hubsinger	stevieman	that's because one should use the upstart jobs - atm "/etc/init.d/xxx start" and "service xxx start" do the same
+2012-04-03T21:38:00.000Z	stevieman	hubsinger	When I try /etc/init.d/dhclient restart/start/reload I get: Command not found. When I try sudo service dhclient start I get: unrecognized service
+2012-04-03T21:40:00.000Z	hubsinger	stevieman	yes , sry i missed that
+2012-04-03T21:41:00.000Z	stevieman	hubsinger	no problem

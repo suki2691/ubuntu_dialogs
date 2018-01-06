@@ -1,0 +1,4 @@
+2007-08-17T10:52:00.000Z	bulmer		does anyone know how to get a second ip address for an interface?..for example eth0:0 (an alias) needs an ip addres
+2007-08-17T10:53:00.000Z	ari_stress	bulmer	ip addr add 192.168.0.200/24 dev eth0
+2007-08-17T10:53:00.000Z	bulmer	ari_stress	thats setting it as static..i need a dhcp assigned
+2007-08-17T10:54:00.000Z	ari_stress	bulmer	i believe dhcp cannot offer 2nd ip addr

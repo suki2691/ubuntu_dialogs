@@ -1,0 +1,4 @@
+2008-01-02T21:12:00.000Z	ppatzt		hi ... i want to program a little in C and have gcc _and_ the build-essential installed ... after doin  "gcc -c file.c" it gives me a file.o output but the output is no executable file ... i dont have a clue!!
+2008-01-02T21:13:00.000Z	truna	ppatzt	gcc -o fileexecutable -c hello.c
+2008-01-02T21:14:00.000Z	ppatzt	truna	bash: ./hello.o: cannot execute binary file
+2008-01-02T21:14:00.000Z	truna	ppatzt	why hello.o  use a regular file name without extension

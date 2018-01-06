@@ -1,0 +1,4 @@
+2010-05-19T18:45:00.000Z	seatownrocks		i used DeVeDe to make an iso from an mp4 source. when i went to burn the iso it asked me if i wanted to burn the iso or its contents i chose burn the iso which put the iso on my dvd as a data file but now i dont get the option to burn the contents... anyone know how to burn the iso so that it works in a stand alone dvd player?
+2010-05-19T18:47:00.000Z	seatownrocks		what program do you guys use to burn .iso files to dvd?
+2010-05-19T18:48:00.000Z	llutz	seatownrocks	growisofs
+2010-05-19T18:52:00.000Z	llutz	seatownrocks	growisofs -dvd-compat -Z /dev/dvd=file.iso

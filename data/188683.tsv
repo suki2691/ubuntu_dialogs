@@ -1,0 +1,4 @@
+2006-08-14T08:05:00.000Z	paryl		hello... i'm trying to figure out how to run a python script all the time... so that when it dies for whatever reason, it's automatically restarted, etc.  i've been looking at inittab, but i honestly don't know what i'm looking at.  can anyone give me any pointers?
+2006-08-14T08:05:00.000Z	neutrinomass	paryl	Write a wrapper for it ...in bash, in a for loop
+2006-08-14T08:06:00.000Z	paryl	neutrinomass	i think i understand what you mean... thanks
+2006-08-14T08:14:00.000Z	neutrinomass	paryl	Take a glance at . I don't know bash scripting but that should serve fine (provided that the program doesn't run in the background ) http://paste.ubuntu-nl.org/20551

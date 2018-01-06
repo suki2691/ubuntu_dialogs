@@ -1,0 +1,4 @@
+2007-05-10T14:42:00.000Z	BrendanM		How do I give a user account access to /dev/mem?
+2007-05-10T14:42:00.000Z	strabes	BrendanM	chmod it...
+2007-05-10T14:42:00.000Z	BrendanM	strabes	I'd rather just give one user access, not all user accounts
+2007-05-10T14:43:00.000Z	strabes	BrendanM	you could create a group, add that user to the group, and chown it to that group...? just an idea

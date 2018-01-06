@@ -1,0 +1,4 @@
+2010-06-05T04:20:00.000Z	lewq		Hey. I'm having real trouble with a 10.04 server I've installed on /dev/sdb, with a data drive on /dev/sda. I told the installer to install grub2 on /dev/sdb and the BIOS to boot straight off that disk. Grub booted the first time, I installed some updates (possibly a new kernel / grub loader, not sure) and upon reboot, I get "error: out of disk"
+2010-06-05T04:20:00.000Z	lewq		following http://superuser.com/questions/89307/grub2-error-out-of-disk gives me "error: out of disk" when I try and do step 5, ls /boot/
+2010-06-05T04:20:00.000Z	lewq		Any ideas? It's gone midnight and I'm in the data centre tearing my hair out!
+2010-06-05T04:22:00.000Z	Appl6	lewq	Possibly https://bugs.launchpad.net/ubuntu/+source/grub2/+bug/477430 ?  It's the alternative option to the first solution given on your superuser link.

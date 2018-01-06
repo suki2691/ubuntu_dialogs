@@ -1,0 +1,4 @@
+2012-10-09T08:49:00.000Z	Respite212	LedHed	Im new to linux, but if you think about it logically, there has to be a reason the mount fails, are there any incompatibility issues with your device mapper?
+2012-10-09T08:49:00.000Z	Respite212	LedHed	This includes all your other mounts in fstab.
+2012-10-09T08:50:00.000Z	LedHed	Respite212	other mounts work fine. I think its because the DM-multipath runs and creates the device maps after fstab is processed
+2012-10-09T08:53:00.000Z	Respite212	LedHed	you might want to ask again then, because I am not 100% sure how fstab is processed or if it is even possible to get multipaths to run before fstab.

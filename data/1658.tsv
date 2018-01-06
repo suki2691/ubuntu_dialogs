@@ -1,0 +1,4 @@
+2012-08-08T00:40:00.000Z	bilel		With "telnet localhost 25", it works when I send an email, but with php mail's function it doesn't, even though I have localhost and port 25 configured in my php.ini, I don't get any error message, the mail is just not sent, why?
+2012-08-08T00:41:00.000Z	spirit3_	bilel	is it logged elsewhere?  web/apache error logs?
+2012-08-08T00:42:00.000Z	bilel	spirit3_	no it was just a script launched in cli to test if it works
+2012-08-08T00:47:00.000Z	bilel	spirit3_	it's strange because the mail function returns true, where is the mail if I don't receive it? Is there a queue or something?

@@ -1,0 +1,4 @@
+2006-04-19T09:01:00.000Z	slew		hi, is there a linux program that searches for and fixes hard drive errors? [bad sectors, etc..] 
+2006-04-19T09:01:00.000Z	harisund	slew	I think fsck does that
+2006-04-19T09:01:00.000Z	harisund	slew	You will have to make sure the driver you are testing is not mounted first.
+2006-04-19T09:02:00.000Z	harisund	slew	I think if you boot into recovery mode the disks don't get mounted. I generally use the LiveCD to boot into my system and do a fsck

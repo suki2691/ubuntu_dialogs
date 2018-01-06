@@ -1,0 +1,4 @@
+2006-01-03T07:35:00.000Z	afief		My windows partition, /dev/hda1 always get's mounted only with root permission, how can i change that default?
+2006-01-03T07:36:00.000Z	maskd	afief	chown -R $user:$user /media/hda1
+2006-01-03T07:36:00.000Z	maskd		or whatever you mount it to
+2006-01-03T07:36:00.000Z	afief	maskd	will that change the way it gets mounted everytime or just this time?

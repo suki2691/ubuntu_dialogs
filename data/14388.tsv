@@ -1,0 +1,4 @@
+2012-08-17T03:38:00.000Z	k1l	Frostbyte	just as a global hint: did you look in the older logs in the /var/log folder?
+2012-08-17T03:39:00.000Z	Frostbyte	k1l	is there a specific log I can look into? I can reproduce the issue right now if needed, (it mostly does that when it has a little uptime)
+2012-08-17T03:41:00.000Z	k1l	Frostbyte	dmesg and syslog. but the get rotated and renamed after the reboot. so its dmesg.0  or dmesg.1 etc
+2012-08-17T03:43:00.000Z	Frostbyte	k1l	dmesg only speaks about some mismatches, whereas I don't see anything specific on the syslog.. is there anything I can grep it with?

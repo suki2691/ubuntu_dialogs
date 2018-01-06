@@ -1,0 +1,4 @@
+2009-11-16T02:58:00.000Z	llutz	Kalisto_	ugly hack....
+2009-11-16T03:01:00.000Z	Kalisto_	llutz	also i have: libxpcom.so => not found but locate shows: /usr/lib/sunbird/libxpcom.so how do i get ldd to find it?
+2009-11-16T03:02:00.000Z	llutz	Kalisto_	add .../sunbird to your ld-library path
+2009-11-16T03:11:00.000Z	Kalisto_	llutz	you would not happen to know how i can prevent busybox from saying /bin/sh cant access tty at boot. i have raid1 installed and have to manually type in dmraid -ay for it to fully boot. i have tried update-initramfs already no luck

@@ -1,0 +1,4 @@
+2006-03-04T17:48:00.000Z	soundray	glacious	I don't think grep has an option that does this, so you have to do something like 'pattern=abcd ; grep $pattern files | tr -d "\n" ; echo $pattern'
+2006-03-04T17:49:00.000Z	glacious	soundray	ahh ok.  i was trying to just make a bash script that searched a directory of files for a certain pattern within the files, and display what files had which pattern
+2006-03-04T17:50:00.000Z	glacious	soundray	but the patters are stored in a separate file
+2006-03-04T17:51:00.000Z	soundray	glacious	sounds to me like a case for 'for pattern in $(cat patterns) ; do grep $pattern files | tr -d "\n" ; echo $pattern ; done

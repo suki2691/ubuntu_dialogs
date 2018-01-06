@@ -1,0 +1,4 @@
+2005-10-02T08:57:00.000Z	jack-		how can i find out the connection specs of my ethernet card? 10/100mbit, duplex and stuff? in bsd, ifconfig tells..cant find anything in ubuntu's ifconfig output
+2005-10-02T08:58:00.000Z	jack-		plz..any hint
+2005-10-02T08:59:00.000Z	sproingie	jack-	ifconfig eth0
+2005-10-02T08:59:00.000Z	sproingie	jack-	oddly enough, it doesnt tell me either.  what a bummer.  might be in dmesg

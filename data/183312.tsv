@@ -1,0 +1,4 @@
+2007-06-17T07:30:00.000Z	Whebeft		I currently have an ATI RADEON xpress 200 video card...i just reinstalled ubuntu (currently 6.06) and my resolutions are messed up. This has happened before and normally i just use "sudo dpkg-reconfigure xserver-xorg" but when i restart i get a "frequency out of range" error, what should i do?
+2007-06-17T07:31:00.000Z	Pelo	Whebeft	 open up xorg.conf,  find the horizsync  value range and change the end of the range value
+2007-06-17T07:32:00.000Z	Pelo	Whebeft	 gksu gedit /etc/X11/xorg.conf
+2007-06-17T07:35:00.000Z	Pelo	Whebeft	search for a line starting with horizsync =  ??????? ,   change the second value in that to 70 or something

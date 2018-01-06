@@ -1,0 +1,4 @@
+2006-05-27T05:56:00.000Z	Niah		Hey, people, I've got a problem... whenever I try any command in the terminal, for instance apt-get upgrade, I get this weird error message... sudo: unable to lookup 062016214253 via gethostbyname()
+2006-05-27T05:56:00.000Z	Niah		. I'm on a fresh install, and probably messed up something. Anyone know how to fix this?
+2006-05-27T05:58:00.000Z	mcphail	Niah	i think you may have messed up the sudoers file. It _can_ be fixed, but may be easier to reinstall...
+2006-05-27T05:58:00.000Z	mcphail	Niah	were you installing dapper?

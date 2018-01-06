@@ -1,0 +1,4 @@
+2009-02-01T17:54:00.000Z	pingpongpat		quick question... how can you in some way "map" a host name of another machine on the network to its IP address?  eg. i have another computer on my network with the hostname "patman-desktop2" and i want to be able to run "ssh patman-desktop2" ?
+2009-02-01T17:55:00.000Z	Rabbitbunny	pingpongpat	This is the job of dhcp. as a hack you can hand edit /etc/hosts
+2009-02-01T17:55:00.000Z	pingpongpat	Rabbitbunny	oh i see, thanks
+2009-02-01T17:56:00.000Z	Rabbitbunny	pingpongpat	np

@@ -1,0 +1,4 @@
+2008-02-26T23:33:00.000Z	battlesquid		i need to increase the verbosity of the /etc/init.d/apache2 script - the script is looking for $VERBOSE ("yes" or "no") - i tried to run $ export VERBOSE=on; before i called the initscript, but this didn't help (i suspect it belongs to the previous shell). so how can i set $VERBOSE for the shell's script?
+2008-02-26T23:34:00.000Z	DRebellion_	battlesquid	put it in ~/.bashrc ?
+2008-02-26T23:34:00.000Z	battlesquid	DRebellion_	good idea
+2008-02-26T23:36:00.000Z	DRebellion_	battlesquid	0_o

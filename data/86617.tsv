@@ -1,0 +1,4 @@
+2008-07-18T11:32:00.000Z	pbp		If I don't have a stable internet connection and wants to install packages manually, how can I ensure that the dependencies are taken care of
+2008-07-18T11:32:00.000Z	sniff	pbp	apt-get first downloads all and _then_ installs
+2008-07-18T11:33:00.000Z	pbp	sniff	but i want to know all the dependencies so tha it can be downloaded separately and installed
+2008-07-18T11:34:00.000Z	sniff	pbp	ah yes now i see. but doesn't dpkg command list the dependencies when you try to install a package file?

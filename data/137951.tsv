@@ -1,0 +1,4 @@
+2011-06-08T23:52:00.000Z	BioS-615		Hi, guys, scoured the internet looking for an answer and everything I have found failed, trying to get Ubuntu 11.04 to run in Virtualbox and every time I go to update it gives me something about headers, gimme a second I'll fetch the exact contents of the error.
+2011-06-08T23:52:00.000Z	BioS-615		How, sudo apt-get install kernel-headers?
+2011-06-08T23:53:00.000Z	llutz	BioS-615	sudo apt-get install linux-headers-$(uname -r)
+2011-06-08T23:54:00.000Z	llutz	BioS-615	sudo rm /var/lib/apt/lists/* && sudo apt-get update

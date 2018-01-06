@@ -1,0 +1,4 @@
+2007-07-04T06:14:00.000Z	spoop		I'm installing the nvidia drivers, where do i put NVIDIA-Linux-x86-100.14.11-pkg1.run
+2007-07-04T06:15:00.000Z	cafuego	spoop	Nowhere, just use the prepackaged drivers. 'sudo apt-get install nvidia-glx'
+2007-07-04T06:20:00.000Z	cafuego	spoop	the prebuilt ones will auto-update, less hassle from your end.
+2007-07-04T06:22:00.000Z	cafuego	spoop	After installing linux-restricted-modules-$(uname -r) and nvidia-glx, run 'sudo nvidia-glx-config enable', then logout, hit ctrl-alt-backspace to restart X, and log back in.

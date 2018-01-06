@@ -1,0 +1,4 @@
+2006-06-14T09:47:00.000Z	syllogism		I know this isn't the proper place to ask this, but the people in #mysql aren't being very helpful. . .   I need to compile mysql without curses support.. I don't need any of the tools or the server, I just need the libraries. . is there a package maintainer or someone here that could help me out in here?
+2006-06-14T09:47:00.000Z	DaSkreech	syllogism	You could do a apt-get build-dep mysql
+2006-06-14T09:50:00.000Z	syllogism	DaSkreech	I would try your method - but it doesn't match with what i'm doing. . . I need to cross-compile the mysql libraries so I can use them for windows development under linux
+2006-06-14T09:52:00.000Z	DaSkreech	syllogism	ok that fine

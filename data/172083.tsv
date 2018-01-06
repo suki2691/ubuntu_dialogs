@@ -1,0 +1,4 @@
+2006-11-03T06:04:00.000Z	tony		Hello. is firewall installed on ubuntu by default ???
+2006-11-03T06:04:00.000Z	VanessaE	tony	I believe so, but you'll need to fetch the user tools - package name "iptables"
+2006-11-03T06:05:00.000Z	VanessaE	tony	if you don't have the iptables package, the firewall is not "turned on" yet.
+2006-11-03T06:06:00.000Z	VanessaE	tony	sudo apt-get install iptables

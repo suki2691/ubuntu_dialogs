@@ -1,0 +1,4 @@
+2011-01-25T02:58:00.000Z	Drainix		Hey guys I don't know what that applet is but the little mailbox looking icon in the top right on the bar in ubuntu 10.10 is there a way to change the Empathy chat button to pidgin ?
+2011-01-25T03:00:00.000Z	Drainix		teamviewer 6 works :P
+2011-01-25T03:01:00.000Z	trism	Drainix	you can remove the empathy chat item, but you can't change pidgin to chat (well, not easily anyway, empathy is hardcoded in the indicator code). Just uninstall empathy or delete /usr/share/indicators/messages/applications/empathy (which is just a text file that has the path to the empathy .desktop file)
+2011-01-25T03:04:00.000Z	Drainix	trism	that works (: it also has a pidgin indicator I just didn't want the empathy one there

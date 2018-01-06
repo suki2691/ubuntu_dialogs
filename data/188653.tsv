@@ -1,0 +1,4 @@
+2008-06-22T03:04:00.000Z	eimajenthat		hello all, I was looking at the boot options in my grub menu.lst.  After the location of the kernel image, it says "ro quiet splash".  I'm guessing "quiet" suppresses some of the output, and "splash" throws up a splash screen, but doesn't "ro" usually stand for "read-only"?  What is it making read-only, and why?
+2008-06-22T03:05:00.000Z	nickrud	eimajenthat	that's the initial status, it gets remounted rw later in the boot
+2008-06-22T03:06:00.000Z	eimajenthat	nickrud	why does it start it read-only?  Not complaining or anything, just curious
+2008-06-22T03:07:00.000Z	nickrud	eimajenthat	I'd have to watch the boot sequence again to be sure

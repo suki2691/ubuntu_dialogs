@@ -1,0 +1,4 @@
+2006-08-01T15:59:00.000Z	tom3		I think it is possible that gnome waits for 'some' event; is there a way to know what it could be?
+2006-08-01T16:01:00.000Z	tom3		half-left: it's the same, only the terminal or consoles do work perfectly
+2006-08-01T16:03:00.000Z	tom3		half-left: nothing, I can not find anything weird in the logs either; it just hangs waiting for something; on the web, some people reported the same problem and said gnome starts after several minutes of waiting, but no solution there. I wonder if it could be a network timeout, do you know how I can disable the network interfaces from the console?
+2006-08-01T16:05:00.000Z	frosty_badfish	tom3	sudo ifdown eth0 (after you have seen which interface with ifconfig -a)

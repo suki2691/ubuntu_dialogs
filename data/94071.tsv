@@ -1,0 +1,4 @@
+2010-10-01T01:00:00.000Z	iAmTheDave		stupid question - trying to change the bash prompt for user. PS1 in ~/.bash_profile works great, but /root/.bashrc doesn't seem to run when i do "sudo -s" - am i missing something?
+2010-10-01T01:01:00.000Z	iAmTheDave		i can manually "source /root/.bashrc" and i get my settings set
+2010-10-01T01:01:00.000Z	undecim	iAmTheDave	I think you need to use sudo -i, otherwise you have environment variable problems.
+2010-10-01T01:03:00.000Z	iAmTheDave	undecim	thnks :)

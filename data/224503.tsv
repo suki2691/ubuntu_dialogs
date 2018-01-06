@@ -1,0 +1,4 @@
+2005-09-28T06:30:00.000Z	helpme		how do i unmount c & d drives? it says device is busy
+2005-09-28T06:30:00.000Z	helpme		how do i unmount C: & D: win drives? it says device is busy........
+2005-09-28T06:31:00.000Z	helpme		without rebooting??? anyway?
+2005-09-28T06:33:00.000Z	Toma-	helpme	try sudo fuser -K /dev/hdb

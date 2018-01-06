@@ -1,0 +1,4 @@
+2008-02-11T18:30:00.000Z	emma		how do you find a specific file on your computer from terminal?
+2008-02-11T18:31:00.000Z	emma		what if you don't know the path?
+2008-02-11T18:32:00.000Z	L3ttuc3	emma	you could use the 'find' command, and grep the output for the file you want. suppose the file you want is called 'foobar', and you're looking for it from root (/), you would do something like - find | grep -i foobar
+2008-02-11T18:32:00.000Z	L3ttuc3	emma	grep -i is for case insensitive search.

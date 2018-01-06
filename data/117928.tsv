@@ -1,0 +1,4 @@
+2007-10-08T13:04:00.000Z	frylock^		problem: don't have network. i can see only loopback in ifconfig -a, however i can see my network card (RTL8139) in lshw as network: UNCLAIMED. i wrote auto eth0\n iface eth0 inet dhcp in /etc/network/interfaces, when i go sudo ifup eth0 it says SIOCSIFADDR: no such device. i looked it up and it said to find the proper module. i found 8139too, i went sudo modprobe 8139too (passed with no output), but sudo ifup eth0 still gaves the same re
+2007-10-08T13:05:00.000Z	Stavros	frylock^	which distro?
+2007-10-08T13:05:00.000Z	frylock^	Stavros	ubuntu feisty
+2007-10-08T13:05:00.000Z	Stavros	frylock^	hmm, i don't know then :/

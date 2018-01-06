@@ -1,0 +1,4 @@
+2007-05-07T10:46:00.000Z	zucco		Hi, I made upgrade from kubuntu edgy to feisty, then my cdrom stops to work. What can I do to solve this issue ?
+2007-05-07T10:48:00.000Z	stefg	zucco	look in your /etc/fstab if it says /dev/hdc or similiar, and change that to /dev/scd0 ... check your correct /dev -names
+2007-05-07T10:49:00.000Z	stefg		!wifi | mrabbit
+2007-05-07T10:49:00.000Z	zucco	stefg	that's it, thank you :-)

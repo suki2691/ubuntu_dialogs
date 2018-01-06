@@ -1,0 +1,4 @@
+2010-09-23T12:39:00.000Z	deryl		got a bit of a problem here. I copied over my system from a rescue rsync i had. now when apparmor tries to start up it says that AppArmor not available as a kernel LSM. this is due to the check in /etc/init.d/apparmor for a mounted securityfs (done with test -d /sys/module/apparmor || exit 0   and with   cut -d" " -f2,3 /proc/mounts | grep -q "^${SECURITYFS} securityfs"'$' )
+2010-09-23T12:39:00.000Z	deryl		however, as shown by 'mount' I do in fact have a securityfs mounted (none on /sys/kernel/security type securityfs (rw)
+2010-09-23T12:39:00.000Z	deryl		)
+2010-09-23T12:41:00.000Z	andycc	deryl	is the securityfs in fstab?

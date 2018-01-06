@@ -1,0 +1,4 @@
+2010-02-20T15:43:00.000Z	matteo1990		if i launch sudo apt-get install i get "the following packages have unmet dep kdebase-runtime: Depends: kdebase-runtime-data (...) .Unmet dependencies. try to use -f. If i try with -f i get "lzma: Decoder error".How to install any package?
+2010-02-20T15:44:00.000Z	NewWorld	matteo1990	 It means you should install kdebase-runtime-data first.
+2010-02-20T15:46:00.000Z	matteo1990	NewWorld	I can't, i have no internet connection... If i tr to remove i can't too as i wrote...
+2010-02-20T15:47:00.000Z	NewWorld	matteo1990	 You can't install packages directly from the repos if you don't have an internet connection :S

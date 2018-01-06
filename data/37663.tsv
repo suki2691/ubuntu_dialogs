@@ -1,0 +1,4 @@
+2011-04-12T15:13:00.000Z	kubanc		how do I uncheck package in terminal, because synaptic package manager is not working, and i would like to uncheck installation for this package in terminal?
+2011-04-12T15:14:00.000Z	valium	kubanc	- if synaptic has hung it may still have lock on the package database.
+2011-04-12T15:15:00.000Z	valium	kubanc	- check to see if synaptic is still running via ps aux | grep -i synaptic
+2011-04-12T15:15:00.000Z	kubanc	valium	sudo apt-get remove did the work

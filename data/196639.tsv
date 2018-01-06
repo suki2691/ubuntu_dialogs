@@ -1,0 +1,4 @@
+2006-03-07T07:16:00.000Z	robertlee		how do get the rights for hdb1, i know with chmod, but dont know what to punch in after that
+2006-03-07T07:17:00.000Z	chuckyp	robertlee	what do you mean what rights do you need.
+2006-03-07T07:18:00.000Z	chuckyp	robertlee	what filesystem is it?
+2006-03-07T07:21:00.000Z	chuckyp	robertlee	okay well chown -R robertlee /dev/hdb1  or chown -R robertlee <directory>  that you want to own

@@ -1,0 +1,4 @@
+2009-01-05T00:16:00.000Z	DasEi		﻿a machine here doesn't boot up anymore but hanging at :  running local boot.scripts rc.local, what to check ?
+2009-01-05T00:18:00.000Z	dtolj	DasEi	can you go into trouble shoot mode and chekc /etc/rc.local
+2009-01-05T00:19:00.000Z	DasEi	dtolj	I can boot safe to root, checked rc.local (is empty as should), also syslog and kernel.log gives no hints
+2009-01-05T00:20:00.000Z	dtolj	DasEi	check your local conf files from your home dir such as .bash_rc

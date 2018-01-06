@@ -1,0 +1,4 @@
+2011-02-28T20:16:00.000Z	megamark16		hey everyone, I'm trying to write to a tape backup drive using a barebones tar script and I'm only getting about 5.0 KiB/s write speeds
+2011-02-28T20:16:00.000Z	megamark16		I'm reading from local disk, tried it with and without gzip
+2011-02-28T20:17:00.000Z	megamark16		not sure if it could be a driver issue with my scsi card, the drive, or what
+2011-02-28T20:18:00.000Z	sipior	megamark16	depending on the age of your equipment, you may want to make sure that your scsi bus is correctly terminated.

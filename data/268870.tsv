@@ -1,0 +1,4 @@
+2005-11-18T15:39:00.000Z	gupta		Quick question, where are the services status(disabled, running etc) stored?? For backup purposes
+2005-11-18T15:40:00.000Z	bob2	gupta	they're not
+2005-11-18T15:40:00.000Z	bob2	gupta	or, they are, in /etc/rc2.d/
+2005-11-18T15:41:00.000Z	bob2	gupta	the default is for everything to run on boot, so, by default, htere's not much to backup

@@ -1,0 +1,4 @@
+2011-10-29T10:07:00.000Z	ejv		here's a thought, change inittab :P
+2011-10-29T10:08:00.000Z	s0nee	ejv	hmm ubuntu uses upstart so inittab is not used
+2011-10-29T10:10:00.000Z	ejv	s0nee	http://upstart.ubuntu.com/cookbook/#runlevels
+2011-10-29T10:12:00.000Z	s0nee	ejv	i added DEFAUL_RUNLEVEL=3 to grub.cfg but runlevel still returns 2

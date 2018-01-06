@@ -1,0 +1,4 @@
+2010-09-30T10:34:00.000Z	LinXz		has anyone had this problem: When using apt-get autoremove, it removes other packages (like Wine, that I am installing again now, because it was removed...)
+2010-09-30T10:36:00.000Z	Dulak	LinXz	use deborphan and manually remove deps, apt-get is not good with autoremove, for just the reason you stated
+2010-09-30T10:37:00.000Z	LinXz	Dulak	Thanks! It's been a problem for me; installed programs are removed...
+2010-09-30T10:38:00.000Z	Dulak	LinXz	yeah it's aggressive, with deborphan you can decide what really isn't needed anymore instead of letting apt-get decide for you

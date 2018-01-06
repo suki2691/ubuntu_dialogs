@@ -1,0 +1,4 @@
+2009-11-01T03:07:00.000Z	ian_		hello guys
+2009-11-01T03:08:00.000Z	ian_		my nvidia video card was not detected in ubuntu koala but it was detected in live cd. any suggestion how to detect it?
+2009-11-01T03:09:00.000Z	Scunizi_	ian_	the best thing to do is ... sudo apt-get update && sudo apt-get upgrade && sudo apt-get dist-upgrade and then look in System>Admin>Hardware drivers and see if there is a driver there to activate.
+2009-11-01T03:12:00.000Z	ian_	Scunizi_	tried that already but no driver found

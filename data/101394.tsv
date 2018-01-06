@@ -1,0 +1,4 @@
+2008-02-04T04:24:00.000Z	gilda	BobboL	did you do any upgrades lately on your ubuntu - before it stopped detecting the sata drives ?
+2008-02-04T04:25:00.000Z	BobboL	gilda	I just put a pci sata/pata card in :)
+2008-02-04T04:25:00.000Z	gilda	BobboL	i had some issues with sata on my ubuntu gutsy install i had to append the grub loader with all_generic_ide for it to see my sata drives
+2008-02-04T04:32:00.000Z	gilda	BobboL	try changing ur /boot/grub/menu.lst so where it has the kernel line it has   all_generic_ide at the end - then reboot see if that works

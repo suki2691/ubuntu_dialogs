@@ -1,0 +1,4 @@
+2012-03-04T18:43:00.000Z	schmakk		hello. i have a netbook running ubuntu server and i'd like to give it a bigger disk. since it only fits 1 disk at a time, how do i go about it, using an external usb box under windows?
+2012-03-04T18:44:00.000Z	schmakk		can i just use something like ghost to move everything over and then resize partitions later?
+2012-03-04T18:45:00.000Z	SwedeMike	schmakk	boot from usb live image, dd the contents of the old drive to the new drive, replace old drive, boot off of it, then you can create new partitions of something.
+2012-03-04T18:46:00.000Z	schmakk	SwedeMike	nice, i was worried something would explode if i did that

@@ -1,0 +1,4 @@
+2009-02-13T06:48:00.000Z	mib_z0uxs4		Hello all, im starting in the computer security field and im trying to execute a buffer overflow in a program "i made the app my self" and i turned off stack randomization in the OS and compiled with gcc with the -fno-stack-protector flag but no matter what i do i cant overwrite the eip pointer
+2009-02-13T06:49:00.000Z	mib_z0uxs4		is there some other stack protection i need to disable?
+2009-02-13T06:49:00.000Z	n8tuser	mib_z0uxs4	-> perhaps get an older kernel that has a known issues, newer ones are patched
+2009-02-13T06:52:00.000Z	n8tuser	mib_z0uxs4	-> umm why not try it againts older kernels? you may have better luck with the older ones..like 2.6.11 perhaps..

@@ -1,0 +1,4 @@
+2008-01-04T02:26:00.000Z	Kyoukipichi		I'm trying to compile the newest version of DOSBox for i386 on an AMD64 machine. I set CC to gcc -m32, I installed the required libraries to compile them and run them, but I'm getting this error:
+2008-01-04T02:26:00.000Z	Kyoukipichi		core_dynrec/decoder_opcodes.h:1247: error: cast from ‘PhysPt*’ to ‘Bitu’ loses precision
+2008-01-04T02:27:00.000Z	Kyoukipichi		Is this error a result of missing a library or something?
+2008-01-04T02:28:00.000Z	PurpZeY	Kyoukipichi	I don't know what it means, but I don't think it is a library issue

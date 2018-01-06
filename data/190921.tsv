@@ -1,0 +1,4 @@
+2006-06-04T05:21:00.000Z	Mulder_		hmmm. my friend had his nic working in breezy but now he's dist-upgraded to dapper and its not working. i told him to add 'sundance' (nic driver) module to /etc/modules and now it autoloads the module on boot. i told him to add auto eth0 and iface eth0 inet dhcp to /etc/network/interfaces  but after boot, ifconfig reports that eth0 has a mac (driver working) but it has no ip . ie. the dhcp failed for some reason
+2006-06-04T05:23:00.000Z	neutrinomass	Mulder_	I'm not sure what your problem is, but just because the device shows under ifconfig, it doesn't mean it's using the correct driver. See https://wiki.ubuntu.com/DavicomEthernet
+2006-06-04T05:24:00.000Z	Mulder_	neutrinomass	it's the correct driver. custom recompiled for the dapper kernel. used the same driver in breezy fine (compiled for breezy kernel then though)
+2006-06-04T05:24:00.000Z	neutrinomass	Mulder_	Hm... ok then ...not sure ..

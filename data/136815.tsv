@@ -1,0 +1,4 @@
+2007-04-25T12:33:00.000Z	Fogge		Is there anyone who can help me get X server up and running after i installed Feisty?
+2007-04-25T12:34:00.000Z	dyrne	Fogge	alt-ctrl-f2 then login then sudo dpkg-reconfigure xserver-xorg then choose vesa driver then sudo /etc/init.d/gdm restart
+2007-04-25T12:39:00.000Z	Fogge	dyrne	it still fails to start the X server
+2007-04-25T12:41:00.000Z	Fogge	dyrne	It worked with a few slightly different settings, thanks for your help though!

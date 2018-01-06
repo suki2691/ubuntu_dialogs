@@ -1,0 +1,4 @@
+2010-09-28T20:22:00.000Z	kwtm		scp -P $OTHER_MACHINE_PORT ~/.ssh/id_rsa.pub ${OTHER_MACHINE}:/path/to/directory/.authorized_keys2 (or whatever the filename is)
+2010-09-28T20:22:00.000Z	jrib	kwtm	no '2' but you have to be careful about overwriting existing keys when you do it that way
+2010-09-28T20:23:00.000Z	kwtm		Question: How do I figure out why my root volume keeps shrinking in available space?  How do I find out what's taking up the space?  E.g. I suspect log files...
+2010-09-28T20:24:00.000Z	kwtm	jrib	I use 2 on mine.  I'm quoting from my installation script (well, I've replaced some directory names...)

@@ -1,0 +1,4 @@
+2007-09-10T15:17:00.000Z	kroiz		I got an exercise to Write a find command that will search in the home directory for file named core, that have not been accessed withen 2 weeks and remove them. Bonus: save the names of the files that were remove to a log file
+2007-09-10T15:18:00.000Z	kroiz		can you help me with the bonus part
+2007-09-10T15:20:00.000Z	erUSUL	kroiz	use tee
+2007-09-10T15:23:00.000Z	erUSUL	kroiz	i would use tee and xargs not the exec option of find....

@@ -1,0 +1,4 @@
+2007-03-29T13:20:00.000Z	AaronCampbell		How can I either: a) boot to a comamnd prompt *or* b) pass extra parameters to startx when booting (startx -- -logverbose 6)?
+2007-03-29T13:21:00.000Z	Azzkikr	AaronCampbell	man startx
+2007-03-29T13:21:00.000Z	Azzkikr	AaronCampbell	it will redirect you to the systemwide /etc/X11/xinitc file
+2007-03-29T13:30:00.000Z	AaronCampbell	Azzkikr	I see the xinitrc file, but how do I add the parameters in it.  Do I just append them to the Xsession line?

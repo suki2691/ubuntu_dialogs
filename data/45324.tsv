@@ -1,0 +1,4 @@
+2009-10-21T19:45:00.000Z	Antaranian4		how can I replace ^M with "/n" symbol in a text file using sed ?
+2009-10-21T19:46:00.000Z	grawity	Antaranian4	You use 'dos2unix' from the 'tofrodos' package.
+2009-10-21T19:46:00.000Z	Antaranian4		thanks, grawity
+2009-10-21T19:56:00.000Z	Antaranian4	grawity	I used it with "dos2unix -a cars.csv" and now there are spaces instead of "^M" , but used to be "/n"s

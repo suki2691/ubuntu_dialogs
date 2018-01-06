@@ -1,0 +1,4 @@
+2012-11-28T20:27:00.000Z	dv310p3r		so i'm trying to "watch" the /tmp directory. "sudo watch -n1 /tmp" and I get sh: 1: /tmp: Permission denied. I don't understand.
+2012-11-28T20:27:00.000Z	dv310p3r		So sorry, thank you,
+2012-11-28T20:28:00.000Z	jpds	dv310p3r	You're not doing, what you thinking you're doing.
+2012-11-28T20:28:00.000Z	jpds	dv310p3r	sudo watch -n1 ls /tmp

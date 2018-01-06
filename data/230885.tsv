@@ -1,0 +1,4 @@
+2006-01-18T11:23:00.000Z	varsendagger		hey here is a note on FAT for some reason if you format a partition FAT you can't have it be like a /home directory
+2006-01-18T11:23:00.000Z	varsendagger		i learned that hte hard wqay
+2006-01-18T09:15:00.000Z	varsendagger		hey if i run out of space on my disk for / what are my options?  as in i have other partitions can a mount it somewhere and link it together
+2006-01-18T09:16:00.000Z	Kyral	varsendagger	edit fstab to mount things like /usr and /var elsewhere (after copying the data to them)

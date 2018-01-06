@@ -1,0 +1,4 @@
+2010-05-22T23:27:00.000Z	chuy_max		can I set up ubuntu as so to start windows by default instead of ubuntu¿
+2010-05-22T23:28:00.000Z	eye-zak	chuy_max	it's grub's DEFAULT=N where N is the index of windows in grub's list (starting at 0) in /etc/default/grub i think
+2010-05-22T23:29:00.000Z	chuy_max	eye-zak	do you know if this  value will be overwritten when I do an upgrade?
+2010-05-22T23:29:00.000Z	eye-zak	chuy_max	no, if it's in /etc/default/grub it willbe saved

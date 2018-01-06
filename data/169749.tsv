@@ -1,0 +1,4 @@
+2006-08-28T13:56:00.000Z	g333k_work		automounted*
+2006-08-28T13:56:00.000Z	ladydoor	g333k_work	i think that just means at boot it won't be automounted
+2006-08-31T13:05:00.000Z	ladydoor	g333k_work	aptitude keeps better track of dependencies
+2006-08-31T13:06:00.000Z	ladydoor	g333k_work	so if you install a package that depends on 5 other packages, then later uninstall that program, apt-get will leave the dependencies. aptitude, on the other hand, will uninstall them if nothing else depends on them

@@ -1,0 +1,4 @@
+2008-10-11T01:46:00.000Z	cpbtklogic		Anyone know how I can uninstall the complete xubuntu meta-package (and everything it installed?)
+2008-10-11T01:47:00.000Z	cpbtklogic		I seem to be having a fight between xfce's gtk engine and ubuntu's
+2008-10-11T01:47:00.000Z	Kl4m	cpbtklogic	: apt-get remove xubuntu-desktop && apt-get autoremove
+2008-10-11T01:48:00.000Z	Kl4m	cpbtklogic	the line that removes the rest is apt-get autoremove

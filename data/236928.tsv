@@ -1,0 +1,4 @@
+2005-05-22T11:03:00.000Z	misieq		how can i make set resolution higher than 640x480 while using kdm?
+2005-05-22T11:04:00.000Z	thoreauputic	misieq	your resolution has nothing to do with kdm: try running ` sudo dpkg-reconfigure xserver-xorg `
+2005-05-22T11:05:00.000Z	misieq	thoreauputic	but when i used gdm i could set 1280x960
+2005-05-22T11:06:00.000Z	thoreauputic	misieq	as I said, it has nothing to do with gdm/kdm - it's an X issue

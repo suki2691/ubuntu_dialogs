@@ -1,0 +1,4 @@
+2011-07-27T21:08:00.000Z	ldr		hello can someone tell my what this kernel parameter is supposed to accomplish reserve=0xc0000000-0xd0000000, commenting it out seems to make no difference
+2011-07-27T21:09:00.000Z	ldr		Tomas: apt-add-repository ppa.. always worked fine for me
+2011-07-27T21:09:00.000Z	frostschutz	ldr	reserve=        [KNL,BUGS] Force the kernel to ignore some iomem area
+2011-07-27T21:09:00.000Z	frostschutz	ldr	might be a workaround against some bug on some systems, might not make any difference for you specifically

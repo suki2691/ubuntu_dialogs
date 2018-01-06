@@ -1,0 +1,4 @@
+2007-01-26T14:36:00.000Z	mzuverink		On my laptop I have the screensaver off and power management set to never activate(sleep mode etc) in battery mode and ac mode, though every  I close the lid and leave the machine running when I open the lid it shows that the cpu is at 100 %.  is there a log or a command or something that i can access to tell me what is going on at those times?
+2007-01-26T14:37:00.000Z	mneptok	mzuverink	dmesg and syslog
+2007-01-26T14:37:00.000Z	mneptok	mzuverink	i suspect you want to boot with the noacpi kernel parameter
+2007-01-26T14:37:00.000Z	mzuverink	mneptok	ok thanks

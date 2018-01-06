@@ -1,0 +1,4 @@
+2006-03-27T11:06:00.000Z	_6ix_		I'm trying to share a drive with an XP box right now.  I have a couple questions.  Do I have to "boot" SAMBA, or is it automatically running?
+2006-03-27T11:06:00.000Z	FliesLikeABrick	_6ix_	 samba starts at boot if it is installed
+2006-03-27T11:07:00.000Z	FliesLikeABrick	_6ix_	 /etc/samba/smb.conf
+2006-03-27T11:28:00.000Z	FliesLikeABrick	_6ix_	 no, just do sudo /etc/init.d/samba restart

@@ -1,0 +1,4 @@
+2007-10-23T02:31:00.000Z	medallied		hello all. i've accidentally changed sudoers permissions amongst other files on my server, so i obviously booted into single user mode. However, the system won't authenticate me! Any clues for this?
+2007-10-23T02:32:00.000Z	medallied		i did
+2007-10-23T02:33:00.000Z	medallied		i change the permissions, but they get wiped back to the original non-suitable perms
+2007-10-23T02:34:00.000Z	LjL-Temp	medallied	you can pass "init=/bin/sh" to the kernel, instead of using recovery mode, to just be brought into a root shell without authentication

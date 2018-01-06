@@ -1,0 +1,4 @@
+2006-11-25T11:44:00.000Z	sizzam		i have a folder called 'pictures' in my home folder.   what's the best way to share that folder with read/write access to multiple user accounts on this same machine?
+2006-11-25T11:45:00.000Z	jvolkman	sizzam	create a common group, and set group permissions on the directory and all of its files
+2006-11-25T11:46:00.000Z	sizzam	jvolkman	will i have to set permissions on every file added going forward?
+2006-11-25T11:49:00.000Z	jvolkman	sizzam	I believe you can set the sgid bit on your pictures directory to get each new file created in that directory to be under the same group

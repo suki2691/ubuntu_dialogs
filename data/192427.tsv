@@ -1,0 +1,4 @@
+2006-04-01T06:24:00.000Z	ened__		in freebsd i used to do hw.snd.pcm0.vchans=4 and the multiple sound problem was fixed... but i cant seem to find a way to do this in linux... i couldn't get the aoss stuff to work :s
+2006-04-01T06:25:00.000Z	crimsun	ened__	use plug:surround40
+2006-04-01T06:26:00.000Z	ened__	crimsun	i don't understand
+2006-04-01T06:29:00.000Z	crimsun	ened__	e.g., aplay -Dplug:surround40 /usr/share/sounds/startup.wav

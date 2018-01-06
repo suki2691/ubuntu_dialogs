@@ -1,0 +1,4 @@
+2012-08-03T02:03:00.000Z	Domovoi		it worked the answer to my problem was adding fbcon=map:1 to my kernel boot line,    how do i make it permanent ? ?
+2012-08-03T02:04:00.000Z	ActionParsnip	Domovoi	run:  gksudo gedit /etc/default/grub
+2012-08-03T02:05:00.000Z	ActionParsnip	Domovoi	add it in the quotes with:  quiet splash    (seperate with a space)
+2012-08-03T02:05:00.000Z	ActionParsnip	Domovoi	save the new file, close gedit then run: sudo update-grub

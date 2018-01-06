@@ -1,0 +1,4 @@
+2006-09-17T08:09:00.000Z	dekup		how can i check  kernel's "isapnp bios" value? 1 or 0?
+2006-09-17T08:11:00.000Z	dekup		how can i check  kernel's "isapnp bios" value? 1 or 0?    noone knows?
+2006-09-17T08:12:00.000Z	dekup		it doesnt install my soundcard. and i read "isapnp value should 0"
+2006-09-17T08:12:00.000Z	ootput	dekup	grep ISA /boot/config-`uname -r`

@@ -1,0 +1,4 @@
+2006-08-12T06:24:00.000Z	wasabi_		Trying to get 3d accel working with fglrx.
+2006-08-12T06:24:00.000Z	wasabi_		Says it's using mesa indirect.
+2006-08-12T06:24:00.000Z	paotzu	wasabi_	use aticonfig
+2006-08-12T06:27:00.000Z	paotzu	wasabi_	I had problems with that, I ran aticonfig and dpkg --reconfigure xserver-xorg and explicity selected "fglrx" but then my xorg.conf had the wrong entry for "Screen" in the "DefaultLayout" section so I had to change that

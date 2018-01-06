@@ -1,0 +1,4 @@
+2008-03-12T01:46:00.000Z	norty		Question: I am trying to ssh into a computer running ubuntu 7.10 from a computer running windows xp, I have openssh-server installed on the ubuntu computer and I am using putty on windows, I put in the ip address of the ubuntu computer and I get a network error from putty. Do I have to configure openssh-server at all? what is going wrong?
+2008-03-12T01:48:00.000Z	zcat[1]	norty	can you ping the linux box from windows? can you "ssh localhost" and connect to the linux box from the linux box?
+2008-03-12T01:49:00.000Z	zcat[1]	norty	did you forward port 22 "pinhole" through the router
+2008-03-12T01:53:00.000Z	zcat[1]	norty	you need fo forward port 22 from the router to the linux box

@@ -1,0 +1,4 @@
+2005-07-20T06:35:00.000Z	IT_Girl		guys im on a ubuntu i installed samba i made a folder with the following stanza in smb.conf [omega]  path = /home/web/omega available = yes browseable = yes public = yes writable = yes
+2005-07-20T06:35:00.000Z	IT_Girl		but i still cant access it from a windows machine thats on another domain
+2005-07-20T06:36:00.000Z	slept	IT_Girl	did you add a user and is the workgroup= right?
+2005-07-20T06:37:00.000Z	slept	IT_Girl	smbpasswd -a omega

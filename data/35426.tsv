@@ -1,0 +1,4 @@
+2010-03-24T06:21:00.000Z	cbx		I just updated ubuntu and now have 2.1mb left on /boot . Can I delete the older images and initrd's?
+2010-03-24T06:21:00.000Z	DagmarX	cbx	Yes
+2010-03-24T06:25:00.000Z	cbx	DagmarX	I'll be deleting all files that end in 2.6.28.13 (initrd, vmlinuz, system map, config, vmcoreinfo) . Am I right ? (i'm using 2.6.31.20) right now
+2010-03-24T06:25:00.000Z	DagmarX	cbx	SHould be safe.  Grub should even clue into the fact that you've removed them and take them out of the boot menu

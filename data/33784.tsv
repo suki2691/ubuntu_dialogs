@@ -1,0 +1,4 @@
+2010-04-22T20:22:00.000Z	dotnetted		yeah gparted/ntfsprogs apparently - whats the best way to check if they are on the live cd?
+2010-04-22T20:23:00.000Z	Gremnon	dotnetted	try booting to a command line from them, then grep the output of dpkg -l for ntfsprogs
+2010-04-22T20:24:00.000Z	Gremnon	dotnetted	cat /proc/cpuinfo, and if you see 'lm' in the flags, it's 64-bit
+2010-04-22T20:24:00.000Z	dotnetted	Gremnon	thanks - it was painful to even type that question ;)

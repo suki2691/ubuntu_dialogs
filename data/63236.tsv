@@ -1,0 +1,4 @@
+2009-03-17T03:59:00.000Z	vjacob2		hello all. How come when I make a new user they can read and open my files in my directory?
+2009-03-17T03:59:00.000Z	jrib1	vjacob2	because by default your home has 755 permissions
+2009-03-17T04:07:00.000Z	vjacob2	jrib1	thanks, although I still don't know what to do with the permissions without messing up everything permissions wise. Is it just to change the permission on the home directory it self (non-recursively) or is it changing my user's permissions?
+2009-03-17T04:16:00.000Z	vjacob2	jrib1	to avoid others being able to read my home dir, could I just make the directory "/home/userfolder" 750 ?

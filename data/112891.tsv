@@ -1,0 +1,4 @@
+2007-11-24T08:41:00.000Z	stoneman		Hi there, im having trouble with the login screen resolution, the Desktop resolution is fine, but where i have to type in my user name and pass, that screen is badly out of reso and quite hard to read, anyone know of a possible solution?
+2007-11-24T08:43:00.000Z	sFEARs	stoneman	mabey "sudo dpkg-reconfigure xserver-xorg" set the first option to vesa and choose low resolutions when it gets to the resolution options.. "warning: will proally chage your desktop resolution with your login resolution".. but that may set everything back to normal and you can keep retrying untill you get it all working
+2007-11-24T08:44:00.000Z	stoneman	sFEARs	ah ok ty, ill try that
+2007-11-24T08:45:00.000Z	stoneman	sFEARs	should i let the dpkg-reconfigure xserver-xorg auto detect my hardware settings?

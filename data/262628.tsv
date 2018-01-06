@@ -1,0 +1,4 @@
+2004-10-17T09:19:00.000Z	jaunty_		care to explain that?
+2004-10-17T09:20:00.000Z	perdix	jaunty_	in /etc/hotplug/blacklist.d create a new file, containing only the module that you dont want loaded
+2004-10-17T09:20:00.000Z	perdix	jaunty_	that module will be skipped on system startup
+2004-10-17T09:21:00.000Z	perdix	jaunty_	a new textfile, but not the path, only the name as lsmod shows it

@@ -1,0 +1,4 @@
+2008-05-27T05:04:00.000Z	FunkyHuge		I got this new ubuntu kernel on the bootup list, how do i delete the old one?
+2008-05-27T05:04:00.000Z	IndyGunFreak	FunkyHuge	don't delete it.. just remove it from your menu.lst with the # sign, you might need to boot it again some day
+2008-05-27T05:05:00.000Z	IndyGunFreak	FunkyHuge	gksudo gedit /boot/grub/menu.lst   then just put a # sign in front of the two titles you don't want in your menu.lst
+2008-05-27T05:07:00.000Z	IndyGunFreak	FunkyHuge	np, likewise

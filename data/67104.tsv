@@ -1,0 +1,4 @@
+2009-06-19T03:20:00.000Z	nellmathew		can someone try sudo apt-get update and upgrade, see if they get the message : "The following packages have been kept back: linux-generic linux-headers-generic linux-image-generic, linux-restricted-modules-generic"
+2009-06-19T03:20:00.000Z	nellmathew		can someone try sudo apt-get update and upgrade (IN JAUNTY), see if they get the message : "The following packages have been kept back: linux-generic linux-headers-generic linux-image-generic, linux-restricted-modules-generic"
+2009-06-19T03:21:00.000Z	hatter243	nellmathew	that happens every time there's a kernel upgrade. Relax. If you want to install them sudo apt-get install linux-generic.....
+2009-06-19T03:21:00.000Z	nellmathew	hatter243	thanks a lot!

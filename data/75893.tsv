@@ -1,0 +1,4 @@
+2008-11-01T07:49:00.000Z	gourdcaptain		How do I install the new beta NVIDIA proprietary drivers for my graphics card? VESA stinks, and NV doesn't want to pull its head out of 640x480 (or pretty much unusable with current applications).
+2008-11-01T07:50:00.000Z	gourdcaptain		Err, the 96.43.09 drivers.
+2008-11-01T07:50:00.000Z	Gnea	gourdcaptain	make sure you use the nvidia-glx-new
+2008-11-01T07:53:00.000Z	gourdcaptain	Gnea	I can't seem to find that package. The problem is that the current proprietary drivers in the repo (or at least earlier today) don't work with intrepid, they fail building. Nvidia released new beta drivers, but I hear I shouldn't use their installer as it could cause problems.

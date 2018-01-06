@@ -1,0 +1,4 @@
+2010-08-05T22:20:00.000Z	skrite		hey all
+2010-08-05T22:20:00.000Z	skrite		i have a ruby process running that is hogging all my processor, but cannot tell what script it is. top just says ruby1.8, any way i can find out what exactly is the hang up (literally)
+2010-08-05T22:22:00.000Z	dowxp	skrite	try lsof and grep for ruby
+2010-08-05T22:23:00.000Z	skrite	dowxp	thanks

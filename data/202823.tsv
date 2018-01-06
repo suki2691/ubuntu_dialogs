@@ -1,0 +1,4 @@
+2012-07-24T10:34:00.000Z	kroaken		Does anyone know the soluction for this ?
+2012-07-24T10:34:00.000Z	kroaken		root@root:~# glxinfo
+2012-07-24T10:34:00.000Z	kroaken		Error: unable to open display :0.0
+2012-07-24T10:36:00.000Z	timfrost	kroaken	how did you get the root shell? That error is usually because the XAUTHORITY environment variable isn't passed by su or sudo to the root shell

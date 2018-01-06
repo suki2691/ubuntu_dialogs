@@ -1,0 +1,4 @@
+2006-12-31T10:51:00.000Z	dusty		Hi, i am building apache with mod_perl from source and am getting this error: /usr/bin/ld: cannot find -lperl
+2006-12-31T10:51:00.000Z	dusty		I found a solution last night, but can't seem to google it back up again.
+2006-12-31T10:51:00.000Z	MarcN	dusty	sounds like you are missing libperl
+2006-12-31T10:52:00.000Z	MarcN	dusty	libperl-dev specifically

@@ -1,0 +1,4 @@
+2010-08-23T22:44:00.000Z	bsod1		hi guys, I'm looking for a program that allows me to upload files to my server with just one command from terminal, I tried lftp but I don't think it can upload my files with just one command
+2010-08-23T22:45:00.000Z	wyn	bsod1	just use scp  IE  scp somefile user@someserver:
+2010-08-23T22:46:00.000Z	bsod1	wyn	it looks good, let me try
+2010-08-23T22:48:00.000Z	wyn	bsod1	do remember the : on the end as that puts it in your home folder

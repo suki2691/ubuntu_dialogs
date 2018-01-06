@@ -1,0 +1,4 @@
+2010-06-26T07:05:00.000Z	hanlin		when you run ping in the commandline, is there a way to hide the output ping: unknown host ...? I've tried directing to /dev/null but it doesn't work
+2010-06-26T07:06:00.000Z	Random832	hanlin	2>/dev/null but why?
+2010-06-26T07:08:00.000Z	hanlin	Random832	i'm writing a script to run when internet has been established, but when it's not, it's spitting out a lot of ping: unknown host to xsession-errors, and i'm trying to avoid that
+2010-06-26T07:09:00.000Z	hanlin	Random832	2>/dev/null works well but then it spits stuff out when it is connected

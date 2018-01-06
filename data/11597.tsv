@@ -1,0 +1,4 @@
+2011-08-08T02:18:00.000Z	mlt-		is cpufreqd currently broken? I'm using 11.04, but I'm getting some errors that it can't open /sys/devices/LNXSYSTM:00/device:00/PNP0C0A:00/power_supply/BAT0/current_now
+2011-08-08T02:20:00.000Z	mlt-		any1 is using cpufreqd?
+2011-08-08T02:20:00.000Z	escott	mlt-	a bunch of those things moved around. you may just want to echo your desired scheduler value into the appropriate /sys/devices/cpu/.../power/ file
+2011-08-08T02:21:00.000Z	mlt-	escott	I want to lower freq when CPU gets too hot. Otherwise I'm find with ondemand scheduler

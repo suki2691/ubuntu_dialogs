@@ -1,0 +1,4 @@
+2008-03-12T01:58:00.000Z	quaal		is umask supposed to control the permissions of new files or not
+2008-03-12T02:00:00.000Z	quaal		is umask supposed to control the permissions of new files or not
+2008-03-12T02:00:00.000Z	zcat[1]	quaal	I thought so.. is it not working?
+2008-03-12T02:00:00.000Z	quaal	zcat[1]	no it doesnt seem to be working. i have umask 0002 when files are created with 644 permissions. they should be 775

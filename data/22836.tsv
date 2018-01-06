@@ -1,0 +1,4 @@
+2011-01-11T07:48:00.000Z	sacarlson	obfu	CSun: I think obfu: has a good point I don't see any dns on the other nets dns-nameservers 172.28.0.63
+2011-01-11T07:55:00.000Z	sacarlson	obfu	could he make all the gateways the same on all the nics?
+2011-01-11T07:58:00.000Z	obfu	sacarlson	I'm guessing that the NICs are going to different subnets based on what CSun posted, so the rest of the config should stay as is
+2011-01-11T08:06:00.000Z	sacarlson	obfu	CSun: it apears if you ping anything outside the mask of all your nets it will try eth1 to get to wan but maybe this net never needs to go outside?

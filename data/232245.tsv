@@ -1,0 +1,4 @@
+2008-05-20T14:12:00.000Z	patrik		Hi I would like to give a directory and all it's subdirectories +x permission (with chmod) but without touching the files in the directories. How do I do that?
+2008-05-20T14:13:00.000Z	erUSUL	patrik	find /dir/ -type d -print0 | xargs -0 chmod +x
+2008-05-20T14:14:00.000Z	patrik	erUSUL	vasi: Thanks!
+2011-04-10T19:03:00.000Z	erUSUL	patrik	gnome-display-properties  ?

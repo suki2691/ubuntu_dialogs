@@ -1,0 +1,4 @@
+2005-09-13T05:49:00.000Z	Zim		Hey does the fglrx package automaticly update my /etc/X11/xorgconfig or do I have to edit that myself?
+2005-09-13T05:49:00.000Z	Quinthius	Zim	you need te edit /etc/X11/xorg.conf or run: dpkg-reconfigure xserver-xorg
+2005-09-13T05:50:00.000Z	Quinthius	Zim	you will have to use "fglrx" as the driver, istead of the default of "ati"
+2005-09-13T05:52:00.000Z	Quinthius	Zim	https://wiki.ubuntu.com/BinaryDriverHowto/ATI

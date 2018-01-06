@@ -1,0 +1,4 @@
+2009-10-26T03:26:00.000Z	maco	thedude42	packages dont touch your ~/.gnome2
+2009-10-26T03:26:00.000Z	maco	thedude42	the program may on its first run, however
+2009-10-26T03:28:00.000Z	thedude42	maco	you're saying that there wouldn't ever be a postinstall script that parsed through the home directories looking for a specific file to update/add/edit under .gnome2, or some other ~/.* config file?
+2009-10-26T03:29:00.000Z	maco	thedude42	since those directories will vary by user, thatd be just a *bit* odd...and id be extremely surprised if it wasnt a violation of some debian maintainer rules

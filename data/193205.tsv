@@ -1,0 +1,4 @@
+2007-07-14T09:56:00.000Z	asc	devilsreject	Probably it wasn't me helping you with the taskbar.
+2007-07-14T09:58:00.000Z	asc	devilsreject	Just a second, I'll try and work out a command.
+2007-07-14T10:02:00.000Z	asc	devilsreject	This isn't perfect, but it should do the whole folder at once. The output should be filename.mp4.wav. I could try working something out with mencoder, but it'll take a few more minutes.
+2007-07-14T10:02:00.000Z	asc	devilsreject	" find  /home/devilsreject/Desktop/m4a -exec "mplayer -vo null -ao pcm:file={}.wav {} \;" "

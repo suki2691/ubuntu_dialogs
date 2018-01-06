@@ -1,0 +1,4 @@
+2012-07-15T06:15:00.000Z	excalibr		is it possible to peek into the content of a package that isn't yet installed?
+2012-07-15T06:16:00.000Z	arand	excalibr	yes, if it's a .deb just open it with the archive manager, or unpack it in-place using dpkg-deb.
+2012-07-15T06:17:00.000Z	excalibr	arand	uh no. i meant packages in apt-cache
+2012-07-15T06:17:00.000Z	arand	excalibr	apt-file can be used for that.

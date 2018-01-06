@@ -1,0 +1,4 @@
+2006-07-05T07:32:00.000Z	dash\		how can you set permissions [like making them not read-only]  for a folder and all its subfolders/files?
+2006-07-05T07:33:00.000Z	sladen	dash\	chmod -R a+w .
+2006-07-05T07:33:00.000Z	sladen	dash\	chmod -R o+w .    even
+2006-07-05T07:33:00.000Z	sladen	dash\	chmod -R u+w .    *sigh*, *sleepy*

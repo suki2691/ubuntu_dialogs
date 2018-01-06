@@ -1,0 +1,4 @@
+2005-12-04T14:16:00.000Z	blue-frog	TSWoodV	your netmask is wrong, it respects the ntmask...
+2005-12-04T14:16:00.000Z	TSWoodV	blue-frog	not for what I want.  I'm defining my netmask for a class C space out of the class A 10.
+2005-12-04T14:17:00.000Z	blue-frog	TSWoodV	then i ssume the brodcast is ok then
+2005-12-04T14:18:00.000Z	TSWoodV	blue-frog	nope.  Broadcast for my network is 10.1.1.255, not 10.255.255.255.  My netmask is 255.255.255.0, a /24 in CIDR notation, not the /8 class A.

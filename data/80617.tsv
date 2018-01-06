@@ -1,0 +1,4 @@
+2008-09-08T10:18:00.000Z	donny		greetings all. i have some questions about 802.11 device support. i've got a Linksys WUSB54G here, and I've built and installed the rt2500 module using module-assistant. i also have wireless-tools installed (apparently; the iwconfig command is available) but when i plug in my WUSB54G, although its lights turn on and dmesg shows some infos about a USB device, i have no new networking interfaces named /dev/ethN. can anyone help?
+2008-09-08T10:20:00.000Z	Dfcnvt	donny	perhap you're looking at the wrong interface.. maybe it's ath0 interface?
+2008-09-08T10:22:00.000Z	donny	Dfcnvt	i will check for "/dev/ath*" tj83: in my past experience, it was eth1 after my wired nic eth0 (it was wlan0 on mac os x 10.3 though)
+2008-09-08T10:23:00.000Z	Dfcnvt	donny	it's not on /dev directory.. only iwconfig or ifconfig would show the interface for that..

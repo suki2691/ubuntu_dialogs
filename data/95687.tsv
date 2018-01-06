@@ -1,0 +1,4 @@
+2011-10-01T10:47:00.000Z	stevecam		If I installed Windows on a separate partition, would I be able to virtualize my Ubuntu install "as is"
+2011-10-01T10:48:00.000Z	soreau	stevecam	Potentially.. but you could have several problems to work out
+2011-10-01T10:48:00.000Z	stevecam	soreau	a breif example?
+2011-10-01T10:49:00.000Z	soreau	stevecam	First you'd have to tell the filesystem to load correctly in /etc/fstab and mtab

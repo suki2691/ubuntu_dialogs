@@ -1,0 +1,4 @@
+2007-10-24T00:23:00.000Z	Lunz		how do i add xp on boot option?i have 2 partitions,c is my ubuntu and d is my xp in one hardisk,i cant boot on xp..
+2007-10-24T00:24:00.000Z	pike_	Lunz	gksu gedit /boot/grub/menu.lst  youll see an example entry commented out for xp just copy that to the bottom of the file and change the hda1 or whatever to your value. to get that just sudo fdisk -l and look for the ntfs partition
+2007-10-24T00:25:00.000Z	pike_	Lunz	sorry im not familiar with graphical way if there is one
+2007-11-28T18:43:00.000Z	pike_	Lunz	do a sudo fdisk -l  find the partition that says ntfs and tell us what it is called hdb1?

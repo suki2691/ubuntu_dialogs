@@ -1,0 +1,4 @@
+2006-01-27T08:06:00.000Z	senectus		For some reason When I bring my eth0 up I get no ip address even though I've setup a static IP on it :-( any idea's why??
+2006-01-27T08:07:00.000Z	decaf	senectus	may be some syntax errors at /etc/network/interfaces
+2006-01-27T08:07:00.000Z	senectus	decaf	It's a carbon copy of the interfaces file on this machine so it *should be* ok
+2006-01-27T08:09:00.000Z	decaf	senectus	you are using 'ifup', not ifconfig.

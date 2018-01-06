@@ -1,0 +1,4 @@
+2008-10-24T23:54:00.000Z	wardolb		if i starting installing xfce through an ssh connection can i close my ssh client in windows and the installation continue?
+2008-10-24T23:54:00.000Z	joaopinto	wardolb	use: nohup command&
+2008-10-24T23:55:00.000Z	joaopinto	wardolb	or screen, which allows to resume the terminal session
+2008-10-24T23:56:00.000Z	joaopinto	wardolb	if you stop it it will resume downloading from the point it was stopped (assuming it is still downloading)

@@ -1,0 +1,4 @@
+2011-07-14T21:14:00.000Z	hylian		is there a way to get the console to do one thing after another? i would like wget to download about 22 files, and it would take a while, and i was wondering if i could get a list of commands to follow, without creating a bash script file. (just a little lazy)
+2011-07-14T21:15:00.000Z	hylian		curl will do it? cool, ill look at the man page.
+2011-07-14T21:15:00.000Z	Incarus6	hylian	use "&&" after every command, that means: run the next command if the last one was running correctly
+2011-07-14T21:16:00.000Z	hylian	Incarus6	thanks, that's what i was looking for!

@@ -1,0 +1,4 @@
+2011-11-20T04:42:00.000Z	staykov		hey I am trying to compile libflashsupport-jack but it seems it needs videodev.h which is not part of the kernel headers on maverick
+2011-11-20T04:42:00.000Z	ActionParsnip	staykov	install libv4l-dev
+2011-11-20T05:13:00.000Z	staykov	ActionParsnip	i installed it, and I see the videodev.h file, however when I run make it still does not find it, is there a way to copy it somewhere to make it see? I see where it is included
+2011-11-20T05:13:00.000Z	ActionParsnip	staykov	that's all I know. I don't code?

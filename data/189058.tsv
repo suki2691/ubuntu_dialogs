@@ -1,0 +1,4 @@
+2006-09-02T13:49:00.000Z	Knio1		hi, i just downloaded the 6.06.1 ubuntu cd, and when it boots to X, i get a corrupted screen: http://sprintf.net/knio/ubuntu1.jpg
+2006-09-02T13:49:00.000Z	Knio1		and ideas on how i can fix this?
+2006-09-02T13:50:00.000Z	Sivik	Knio1	go into the /etc/X11/xorg.conf and change the driver to vesa
+2006-09-02T14:02:00.000Z	Knio1	Sivik	ive fixed my xorg, how to i tell X/gnome/whatever to start again?

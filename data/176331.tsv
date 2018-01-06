@@ -1,0 +1,4 @@
+2006-12-20T08:57:00.000Z	yacek19		hi
+2006-12-20T08:57:00.000Z	yacek19		I have some problem: I have 8 GB root partition, df shows that it has used 5,6 GB and 2,4 GB is free. But calculating the space of all folders, shows that it has 4,5 GB of used space, so where is 1,1 GB?
+2006-12-20T08:58:00.000Z	pike_	yacek19	du -ach /mountpoint | grep total  shows only 4.5 ?
+2006-12-20T08:59:00.000Z	yacek19	pike_	I check the space with konqueror

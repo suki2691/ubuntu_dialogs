@@ -1,0 +1,4 @@
+2007-11-01T18:27:00.000Z	bstock		so, has anyone else noticed a delay for dns queries when trying to ping? on gutsy, if I try to ping something that resolves to our internal dns server, there's like a 2-second delay. but if i try it from a non-gutsy computer (fiesty, or windows or mac) it's fine. also, if i ping the IP from the gutsy box it's also fine
+2007-11-01T18:28:00.000Z	bstock		and it didn't happen until i upgraded to gutsy
+2007-11-01T18:28:00.000Z	bstock		and it's happening on 3 or 4 gutsy machines
+2007-11-01T18:28:00.000Z	suemeee	bstock	I think the problem is in /etc/nsswitch.conf  compare it with other distro

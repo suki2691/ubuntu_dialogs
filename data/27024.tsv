@@ -1,0 +1,4 @@
+2011-04-14T00:08:00.000Z	jacobfogg		Hey there, anytime I try to ssh to my remote server, it takes FOREVER for the username/pw prompt to show up... any thoughts on how to speed this connection up? putty on my windows partition is almost instantaneous...
+2011-04-14T00:09:00.000Z	acicula	jacobfogg	you can connect using -v so ssh is more verbose about what its doing
+2011-04-14T00:32:00.000Z	acicula	jacobfogg	it tried some other form of authentication first?
+2011-04-14T00:35:00.000Z	jacobfogg	acicula	I think it tried gssapi first, then moved on after three attemps

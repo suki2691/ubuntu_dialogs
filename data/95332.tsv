@@ -1,0 +1,4 @@
+2008-04-06T19:04:00.000Z	Rotlaus		In Gnome or from gdm i can shut down my computer without giving a password. How can i do that from a command line or from a script?
+2008-04-06T19:05:00.000Z	TheFearsomeFufu	Rotlaus	You have to be root to shutdown/reboot the system. Type "man shutdown"
+2008-04-06T19:05:00.000Z	Rotlaus	TheFearsomeFufu	but ican just in gnome shut down my system, and i dont have to give my password
+2008-04-06T19:06:00.000Z	TheFearsomeFufu	Rotlaus	gnome must use sudo or some other privlidged-user to run the shutdown command

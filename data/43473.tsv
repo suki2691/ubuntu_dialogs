@@ -1,0 +1,4 @@
+2010-07-14T09:43:00.000Z	dpcd		I did try googling around for info but couldnt find what I'm looking for
+2010-07-14T09:44:00.000Z	dpcd		and since i'm uninstalling my wireless drivers I want to make sure i have the proper instructions before doing it.
+2010-07-14T09:46:00.000Z	greezmunkey	dpcd	what did you do to install the failed drivers?
+2010-07-14T09:55:00.000Z	greezmunkey	dpcd	there is always modprobe -r {module-name} (see the man page first as there are other options you may want to use with modprobe)

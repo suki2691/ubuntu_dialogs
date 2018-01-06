@@ -1,0 +1,4 @@
+2011-06-24T21:46:00.000Z	jacobfogg		I just upgraded my ram to 6gb... in cmos it is showing up... when I type free -m from the shell it's telling me 3274... any thoughts???
+2011-06-24T21:46:00.000Z	jacobfogg		Do I have to tweak a setting in linux or something?
+2011-06-24T21:46:00.000Z	ZykoticK9	jacobfogg	use 64bit or PAE
+2011-06-24T21:47:00.000Z	ZykoticK9	jacobfogg	uname -m

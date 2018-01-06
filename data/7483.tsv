@@ -1,0 +1,4 @@
+2012-02-22T00:35:00.000Z	ban123nana		Hey, all. I just created a new user account, set it as admin, and lowered the current user to "standard'. No password was set for the new admin, though, so now I can't do anything? How can I straighten this out? Thanks!
+2012-02-22T00:36:00.000Z	Scott_S	ban123nana	I would assume that the user you're on still has sudo priveleges, therefore, if you type 'sudo passwd [user]', you can restore a password to the new admin.
+2012-02-22T00:37:00.000Z	Scott_S	ban123nana	Log into the old account, assign a password with 'sudo passwd newAdminUser
+2012-02-22T00:39:00.000Z	Scott_S	ban123nana	No problem. I would suggest adding Sudo priveleges to the new Admin and removing sudo priveleges to the old one. otherwise, the old user can still do any root commands.

@@ -1,0 +1,4 @@
+2011-10-23T14:39:00.000Z	bhavesh		Now I get "dependency is not satisfiable g++ (>=4:4.43) when I install that .deb :(
+2011-10-23T14:40:00.000Z	saymoo	bhavesh	do an update of the respo´s
+2011-10-23T14:40:00.000Z	bhavesh	saymoo	I cannot.. without an Internet connection
+2011-10-23T14:42:00.000Z	saymoo	bhavesh	apt-get install checks your sources, and tries to fetch the packages from those repositories. And if those are on the internet, you NEED and internet connection on your machine, to be able to fetch the packages (and check those repo´s). :)

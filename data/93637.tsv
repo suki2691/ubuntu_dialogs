@@ -1,0 +1,4 @@
+2008-10-08T02:54:00.000Z	emorris		any idea why my system would go 100% cpu for about 7 seconds every minute or so, in which time no programs respond, including when typing?
+2008-10-08T02:55:00.000Z	vocx	emorris	maybe the video driver. It happens, it may be a bug.
+2008-10-08T02:57:00.000Z	emorris	vocx	I have top running in a terminal, and when it starts responding again, it shows 50% cpu on Xorg, so maybe it is.
+2008-10-08T02:59:00.000Z	vocx	emorris	yes, I've seen it too. For some reason Xorg sometimes sucks a lot of resources. It has to do with the drivers and 3D acceleration. For instance I don't use 3D, and even gedit lags pretty bad sometimes.  Don't use just "top", use "htop"

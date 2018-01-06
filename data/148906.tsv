@@ -1,0 +1,4 @@
+2008-07-29T13:47:00.000Z	apo		i have workgroup LAN with a Win 2003 Server, WinXPp and an ubuntu. I acn access the files of winxp. but couldnot the Server 2003. how can i access the files?
+2008-07-29T13:47:00.000Z	unop	apo	"could not" means what exactly?
+2008-07-29T13:51:00.000Z	unop	apo	what have you tried? where is it failing? do you get any error messages? is the server and share visible to your ubuntu client?  - the more you tell us the easier it is to help you
+2008-07-29T13:56:00.000Z	unop	apo	 at a terminal, issue this command.  smbclient //server/share -U username # can you connect to the share?

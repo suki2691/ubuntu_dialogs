@@ -1,0 +1,4 @@
+2006-08-11T16:53:00.000Z	lz1gjd		ok, i think i figured this out, seems like from time to time the modules for my usb webcam mic and my creative live! card are loaded in incorrect order. how do i make my sound card module load first ?
+2006-08-11T16:55:00.000Z	pstickne	lz1gjd	you can test that by using depmod -r to unload and depmod again to reload in the new order you think it should be.
+2006-08-11T16:56:00.000Z	lz1gjd	pstickne	ic, but how do i do that on boot ? i mean when the system initializes
+2006-08-11T16:57:00.000Z	pstickne	lz1gjd	no idea how ubuntu is setup, sorry, but easiest to test before. `man modprobe` or `man modules.conf` might provide insight. but then again, ubuntu most likely has its own setup.

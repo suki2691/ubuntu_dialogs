@@ -1,0 +1,4 @@
+2006-10-05T06:53:00.000Z	MrKeuner		hi, I am having problem with php. Warning: Unknown: failed to open stream: Permission denied in Unknown on line 0 what does this mean.
+2006-10-05T06:55:00.000Z	sethk	MrKeuner	line 0 in unknown means it doesn't know what file and it doesn't know what line
+2006-10-05T06:56:00.000Z	sethk	MrKeuner	failed to open stream probably means that it tried to create a pipe and didn't have the privileges, but that's just an educated guess.
+2006-10-05T06:56:00.000Z	sethk	MrKeuner	heavier on the guess side than the educated side

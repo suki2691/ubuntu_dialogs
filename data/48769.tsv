@@ -1,0 +1,4 @@
+2009-09-13T10:39:00.000Z	King2		Hi all, wonderful day, HELP!, ubuntu has stopped working and the screen just flickers after I boot and choose ubuntu (jaunty) in the menu, it's like it's trying to load the login screen but can't, what do I do?
+2009-09-13T10:40:00.000Z	RHorse	King2	drop to a console by pressing ctl-alt-F1 and reconfigure by typeing sudo dpkg-reconfigure xserver-xorg
+2009-09-13T10:44:00.000Z	King2	RHorse	what exactly do I reconfigure or do i just type that
+2009-09-13T10:46:00.000Z	RHorse	King2	looks like your video is broke. sudo dpkg-reconfigure xserver-xorg will reconfigure X for you. If it doesnt' work, try using a lower (different) resolution or use the generic (vga) driver. That's my best advice, but someone may have better advice concerning your particular video driver/card, etc.

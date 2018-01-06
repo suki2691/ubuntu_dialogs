@@ -1,0 +1,4 @@
+2010-12-18T08:51:00.000Z	hum		does anyone know what bitrate ffmpeg converts video to mp3
+2010-12-18T08:52:00.000Z	ZykoticK9	hum	i'm sure it's configurable
+2010-12-18T08:54:00.000Z	ZykoticK9	hum	looks like -b is bitrate (but i'm not sure if that applies to audio in the same way - i don't use ffmpeg much)
+2010-12-18T08:56:00.000Z	ZykoticK9	hum	i like mplayer to demux stuff, "mplayer -vo null -ao pcm FILE.VID" should dump to a way that you can encode to whatever you want.

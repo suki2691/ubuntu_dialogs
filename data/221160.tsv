@@ -1,0 +1,4 @@
+2009-11-28T14:06:00.000Z	fadeh		Hi, I just installed Ubuntu but after the reboot grub gives me an error: "unknown filesystem". After some try (checking device.map and stuff) I think the main problem is that the linux partition, where grub is installed in, is too far away from the mbr of that disk. Linux is actually installed in the last 30GB of a 1TB USB hard disk. If I use a pendrive to boot the system all works like a charm. What I need to know is: can I overwrite the mbr
+2009-11-28T14:07:00.000Z	fadeh		i'm actually using grub1
+2009-11-28T14:07:00.000Z	BlueEagle	fadeh	Yes, you can overwrite the MBR. I am not however sure that you want to do that.
+2009-11-28T14:08:00.000Z	BlueEagle	fadeh	Grub does not live inside a file system per say. It lives in the boot records. You may have trouble reading configuration files from ntfs partitions though.

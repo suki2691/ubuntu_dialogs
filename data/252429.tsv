@@ -1,0 +1,4 @@
+2007-05-02T14:56:00.000Z	Nvening		hi, i need to sort out the display driver for my ati pc with ubuntu feisty as the my native res isnt allowed, are there other open drivers available or do i have to use the ati closed ones??
+2007-05-02T14:57:00.000Z	Nvening		its an x800xt
+2007-05-02T14:58:00.000Z	drew	Nvening	i use ati x850xt, fglrx is the driver you want, after installing it through "Restricted Drivers Manager" you have to add your resolution
+2007-05-02T14:59:00.000Z	drew	Nvening	do "sudo dpkg-reconfigure xserver-xorg" follow prompts untill you get to resolutions, and just add your desired resolutions, then finish and restart X.

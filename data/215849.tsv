@@ -1,0 +1,4 @@
+2007-05-02T12:22:00.000Z	drobvice		Hello
+2007-05-02T12:23:00.000Z	drobvice		I'm having trouble installing a bash script can anyone help?
+2007-05-02T12:24:00.000Z	soundray	drobvice	assuming it's called 'script', run 'sudo cp -i script /usr/local/bin/ ; chmod 755 /usr/local/bin/script' You can then start it with 'script'
+2007-05-02T12:27:00.000Z	soundray	drobvice	does the script call a program called dialog? If so, install it: 'sudo apt-get install dialog'

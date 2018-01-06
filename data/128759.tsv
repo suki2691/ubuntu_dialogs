@@ -1,0 +1,4 @@
+2009-03-11T18:54:00.000Z	cheeser		how do I get ubunto to boot in to runlevel 3?  i don't want X running as i'm thinking of running this on a server.
+2009-03-11T18:54:00.000Z	cheeser		erm, ubuntu  8^)=
+2009-03-11T18:55:00.000Z	Pici	cheeser	runlevels on Ubuntu/debian do not work like other distributions. If you don't want X running, remove it from startup: sudo update-rc.d gdm remove
+2009-03-11T18:55:00.000Z	cheeser	Pici	oh, right.  i was going to try that yesterday and got sidetracked.  thanks.  i'll try that.

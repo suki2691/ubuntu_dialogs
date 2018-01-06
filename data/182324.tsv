@@ -1,0 +1,4 @@
+2007-06-29T12:04:00.000Z	oknowton		I have a very strange problem.  I installed a 7.04 amd64 server, and after the initial boot, it comes straight up to a root bash prompt instead of a login prompt.  I tried reinstalling, and have the same issue.  I tried installing under vmware from the same media, and it works just fine.  I wasn't able to come up with a good google search for this one, and was wondering if I am the only person who has had this problem or not.
+2007-06-29T12:06:00.000Z	oknowton		no x server installed
+2007-06-29T12:06:00.000Z	oknowton		i'm not even getting the console login.  it is as though it is booted to the recovery console, i suppose.
+2007-06-29T12:07:00.000Z	stefg	oknowton	the kernel seems not to find its root fs. so what you get is just the prompt from the initramfs-shell

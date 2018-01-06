@@ -1,0 +1,4 @@
+2007-01-10T12:49:00.000Z	Crescendo		How can I recursively copy all files within a directory of a certain filetype (jpg, jpeg, JPG, JPEG... x_x;)
+2007-01-10T12:50:00.000Z	Crescendo		It needs to be recursive
+2007-01-10T12:50:00.000Z	Crescendo		I use the -r, but it still doesn't
+2007-01-10T12:51:00.000Z	pike_	Crescendo	find /directory/name -name *.jpg | xargs cp -r {} /destination/path maybe

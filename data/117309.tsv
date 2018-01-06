@@ -1,0 +1,4 @@
+2009-10-12T11:52:00.000Z	Rakko		Which file in Ubuntu actually launches Xorg upon boot? I'm trying to find it so I can change the VT it attaches to.
+2009-10-12T11:52:00.000Z	geirha	Rakko	/etc/init.d/gdm (or xdm or kdm)
+2009-10-12T11:59:00.000Z	Rakko	geirha	I can't find anywhere in /etc/init.d/gdm where it actually calls X or Xorg
+2009-10-12T12:00:00.000Z	geirha	Rakko	It starts gdm, which in turn starts Xorg ... so you'll have to configure gdm.

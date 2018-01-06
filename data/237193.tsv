@@ -1,0 +1,4 @@
+2005-05-23T11:57:00.000Z	sugoruyo		when synaptic gets some packages or some updates what happens to the downloaded files?
+2005-05-23T11:58:00.000Z	goofrider	sugoruyo	they are saved in /var/cache/apt/archives
+2005-05-23T11:59:00.000Z	sugoruyo	goofrider	so if i tell it not to set a max cache size and not to delete any files that are old i should be able to find the files there right?
+2005-05-23T12:00:00.000Z	goofrider	sugoruyo	it should be there if you change the default to not to delete the cached packages

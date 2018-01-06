@@ -1,0 +1,4 @@
+2008-02-09T20:44:00.000Z	mgsmx		to make my wifi work, i have to enter "sudo modprobe ndiswrapper" in terminal after every boot, how can I make this automatic?
+2008-02-09T20:45:00.000Z	Seveas	mgsmx	echo ndiswrapper | sudo tee -a /etc/modules
+2008-02-09T20:46:00.000Z	mgsmx	Seveas	where?
+2008-02-09T20:46:00.000Z	Seveas	mgsmx	in a terminal

@@ -1,0 +1,4 @@
+2008-12-20T18:17:00.000Z	AidanPryde		hi, Quick Question: I installed a new 600GB harddisk and partioned it using GParted to ext3 (and NTFS) and there is gap in free space. Gparted says the ext3 has 302.11GB unused, but Ubuntu only says there are 282,6GB free. The NTFS partition is fine (equal numbers) why the gap?
+2008-12-20T18:19:00.000Z	AidanPryde		a single user?
+2008-12-20T18:19:00.000Z	AidanPryde		how can I free that space? There won't be a system installed to that partition
+2008-12-20T18:20:00.000Z	jtisme	AidanPryde	the single user root, you dont free it it is part of the ext3 partition

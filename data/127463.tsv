@@ -1,0 +1,4 @@
+2007-07-21T15:32:00.000Z	alsuren	riaal	mount --rbind olddir newdir (from man mount)
+2007-07-21T15:34:00.000Z	riaal	alsuren	 Don't understand? sounds good thow
+2007-07-21T15:38:00.000Z	alsuren	riaal	use "mount --bind <arguments>" where you would have used "ln -s <arguments>", and it will avoid your broken links problem
+2007-07-21T15:38:00.000Z	alsuren	riaal	read man mount for more information.

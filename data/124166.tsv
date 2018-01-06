@@ -1,0 +1,4 @@
+2007-08-25T10:00:00.000Z	engie		Hi. When I press shift-2 for speech marks (british keyboard) nothing happens, but then if I press e for example I get an e with two dots above it. How can I disable this behaviour, I will never need to do european characters
+2007-08-25T10:02:00.000Z	wanger	engie	sounds like you're using the wrong keyboard map, you can change it in your /etc/X11/xorg.conf file - best to make a copy of this file before editing it though
+2007-08-25T10:03:00.000Z	engie	wanger	There (there it goes again) nothing set in the xorg.conf. When I go to the gnome keyboard chooser applet it shows what keys I am pressing correctly
+2007-08-25T10:06:00.000Z	wanger	engie	sorry what do you mean by "not set"? is there no entry for a keyboard in your xorg.conf?

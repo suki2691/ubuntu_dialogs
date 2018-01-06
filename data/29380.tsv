@@ -1,0 +1,4 @@
+2010-07-13T17:43:00.000Z	p1l0t		!sshd
+2010-07-13T17:44:00.000Z	blain	p1l0t	sudo apt-get install openssh-server
+2010-07-13T17:44:00.000Z	blain		!esx
+2010-07-13T17:44:00.000Z	p1l0t	blain	If you change ssh_config and sshd_config to RSAuthentication yes and Password Authentication to no why would auth.log still be showing invalid user attempts? (My key is several thousand bits long and one week old I highly doubt its been brute forced yet)

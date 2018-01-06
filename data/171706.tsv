@@ -1,0 +1,4 @@
+2007-10-25T23:38:00.000Z	aaron_		what is the name of the file I need to edit for ssh options?
+2007-10-25T23:40:00.000Z	aaron_		i had it set up once where i could just type "ssh 10.10.1.25" and it would automatically know that it was supposed to connect to that host on port 98
+2007-10-25T23:40:00.000Z	Matir	aaron_	edit ~/.ssh/config
+2007-10-25T23:40:00.000Z	Matir	aaron_	you add a "Host 10.10.1.25" "Port 98" (2 lines)

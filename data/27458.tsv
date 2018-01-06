@@ -1,0 +1,4 @@
+2010-10-01T06:52:00.000Z	chrysanthemum		Ok... So here's another one... I now have a name.. And i want to cat a file that is name.txt ...
+2010-10-01T06:53:00.000Z	chrysanthemum		How can I get echo "name" | ??? equivalent to cat name.txt
+2010-10-01T06:54:00.000Z	rww	chrysanthemum	cat $(echo "name").txt
+2010-10-01T06:55:00.000Z	chrysanthemum	rww	 perfect thanks

@@ -1,0 +1,4 @@
+2007-11-02T03:53:00.000Z	redheat		hi everyone..how you all doing
+2007-11-02T03:54:00.000Z	redheat		just got a quick question..I'm trying to do a clean install of ubuntu, and this time I will format the harddisk, but I want it a clean format, because I still see the grub from a previous installation..is there a way to do that using ubuntu's live CD?
+2007-11-02T03:54:00.000Z	preaction_	redheat	grub isnt' part of a partition, it's part of the "Master Boot Record".
+2007-11-02T03:55:00.000Z	preaction_	redheat	you don't need to clean it out, just re-install grub over it

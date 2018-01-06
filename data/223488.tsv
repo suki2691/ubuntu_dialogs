@@ -1,0 +1,4 @@
+2005-08-24T12:42:00.000Z	Velox		Hullo, I'm having trouble getting Ubuntu to load after install...basically what I'm doing is dual-booting my system with two HDDs, a 120gb SATA drive which is Windows/NTFS which I don't touch. The other a 40gb IDE drive which I installed Ubuntu onto. When the install was complete I installed GRUB to the MBR, then in my bios I switched my primary drive to the 40gb drive so that it would use GRUB as the bootloader, however it just sits there with a blink
+2005-08-24T12:43:00.000Z	darkheart	Velox	Any text appear?
+2005-08-24T12:43:00.000Z	Velox	darkheart	No, just a blinking underscore.
+2005-08-24T12:44:00.000Z	darkheart	Velox	If you wrote GRUB to the MBR when you installed it, it's gonna be on the other HDD isn't it? Why did you change? Only other thing I can think of is check the jumper settings on your IDE drive.

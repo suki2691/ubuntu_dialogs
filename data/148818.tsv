@@ -1,0 +1,4 @@
+2009-02-09T04:14:00.000Z	Stefano		thank u so much. Why I should use crontab -e instead of vim directly?
+2009-02-09T04:15:00.000Z	unop	Stefano	crontab -e just opens up the file in your editor -- and that could be vim
+2009-02-09T04:16:00.000Z	Stefano	unop	I've tried with the line: * * * * * stefano /usr/bin/firefox but it doesn't start :-(
+2009-02-09T04:17:00.000Z	unop	Stefano	right, that's because like prince_jammys said sometime ago -- you need to set the DISPLAY variable for GUI apps to work from cron

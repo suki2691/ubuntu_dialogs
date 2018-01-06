@@ -1,0 +1,4 @@
+2009-03-18T08:20:00.000Z	jeeves		what would the syntax be for a shell script to grep out a string from a log file, then e-mail from the CLI?
+2009-03-18T08:21:00.000Z	DIFH-iceroot	jeeves	cat /var/log/mail.info | grep yourstring | mailx -s subject mailadress
+2009-03-18T08:23:00.000Z	jeeves	DIFH-iceroot	thanks, I'll try it
+2009-03-18T08:32:00.000Z	jeeves	DIFH-iceroot	thanks, again, that worked perfectly.

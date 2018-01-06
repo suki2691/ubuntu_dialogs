@@ -1,0 +1,4 @@
+2009-07-28T13:57:00.000Z	nottinman		anyone care to help me fix broken grphics driver install
+2009-07-28T13:57:00.000Z	ActionParsnip	nottinman	which driver
+2009-07-28T13:58:00.000Z	ActionParsnip	nottinman	if you run:  sudo apt-get --purge remove nvidia*; sudo apt-get --purge autoremove; sudo dpkg-reconfigure xserver-xorg        and reboot, you will get a failsasfe display
+2009-07-28T14:00:00.000Z	ActionParsnip	nottinman	you cn thn reconfigure video drivers from fesh, you may also have ~/.nvidia-settings-rc which you should also delete

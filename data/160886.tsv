@@ -1,0 +1,4 @@
+2008-01-01T06:10:00.000Z	Zarxrax		i got logged in but its at a command prompt. How can I tell it to start gnome?
+2008-01-01T06:11:00.000Z	Jordan_U	Zarxrax	"sudo invoke-rc.d gdm start" or to go strait to gnome without re-logging in just "startx" ( do not run startx as root! )
+2008-01-01T06:15:00.000Z	Zarxrax	Jordan_U	ok it says starting gnome display manager, but then nothing happens. If I do startx, then it says fatal server error: no screens found
+2008-01-01T06:16:00.000Z	Jordan_U	Zarxrax	What happened before you were thrown to a terminal?

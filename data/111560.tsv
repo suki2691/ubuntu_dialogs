@@ -1,0 +1,4 @@
+2011-12-30T20:05:00.000Z	helo1		Hey guys I'm having an nfs failure here. The following message shows up in dmesg after trying to list the contents of the export on a mac osx client:
+2011-12-30T20:05:00.000Z	helo1		"[79615.137072] rpcbind: server <client_hostname> not responding, timed out"
+2011-12-30T20:05:00.000Z	helo1		I am able to successfully mount the share and access everything fine in the command line, but as soon as I try to access the folder in finder, I get a disconnect message (and 2-6 iterations of that error in dmesg/syslog). Does anyone have any idea what might cause this?
+2011-12-30T20:05:00.000Z	FloodBot1	helo1	Please don't flood; use http://paste.ubuntu.com to paste; don't use Enter as punctuation.

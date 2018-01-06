@@ -1,0 +1,4 @@
+2008-09-28T02:26:00.000Z	leche		hey, how can i load the gnome environment variables without starting gnome? i want to use fluxbox, but i need the settings usually made by gnome-session, but gnome-session also starts gnome-panel and so on
+2008-09-28T02:27:00.000Z	unop	leche	what kind of variables?
+2008-09-28T02:28:00.000Z	leche	unop	things like keyboard layout, gtk theme..
+2008-09-28T02:28:00.000Z	unop	leche	you might be able to get away with most of this by simply launching gnome-settings-daemon (in your ~/.fluxbox/startup)

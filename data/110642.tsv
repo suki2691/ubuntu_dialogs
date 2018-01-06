@@ -1,0 +1,4 @@
+2007-12-07T00:00:00.000Z	unskilled		hi guys! can you tell me how to disable nvidia-drivers from root-shell? i enabled them and now gnome only shows a black display :(
+2007-12-07T00:01:00.000Z	MasterShrek_	unskilled	sudo apt-get install nvidia-glx-new
+2007-12-07T00:01:00.000Z	MasterShrek_	unskilled	oh, DISABLE
+2007-12-07T00:01:00.000Z	MasterShrek_	unskilled	edit your /etc/X11/xorg.conf and change the video driver to vesa (should be nvidia or nv right now)

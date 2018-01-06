@@ -1,0 +1,4 @@
+2009-09-13T07:10:00.000Z	rpk		hey, i asked above, but i'm looking for a way to get around a operation not permitted error, in /sys, when running a rm -r
+2009-09-13T07:11:00.000Z	unop	rpk	you shouldn't be deleting files in /sys anyway
+2009-09-13T07:14:00.000Z	unop	rpk	I think the better way is probably to unload the vmxnet module
+2009-09-13T07:14:00.000Z	unop	rpk	I think you want this instead.   sudo modprobe -r vmxnet

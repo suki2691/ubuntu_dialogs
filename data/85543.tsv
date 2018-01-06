@@ -1,0 +1,4 @@
+2008-07-13T23:15:00.000Z	Steve^		Where does the ubuntu install of apache2 keep its config files?
+2008-07-13T23:16:00.000Z	Steve^		/etc/apache2/apache2.conf   looks promising, but its missing things like DocumentRoot
+2008-07-13T23:17:00.000Z	trinux	Steve^	the directories in /etc/apache2 are also loaded. see the include lines in apache2.conf
+2008-07-13T23:17:00.000Z	trinux	Steve^	more like the files in those directories

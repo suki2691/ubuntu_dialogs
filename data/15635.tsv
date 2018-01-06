@@ -1,0 +1,4 @@
+2012-11-28T08:24:00.000Z	jbeatty		after a couple of hours of use, the filesystem dies and thinks it's read-only and will barely respond to anything (even bash completion doesn't work). Programs in RAM stay running though. Upon reboot, I have to fsck once or twice to even get it to boot... then the filesystem failed again after a few hours
+2012-11-28T08:24:00.000Z	jbeatty		is my drive dying or is there anything I can do to fix it?
+2012-11-28T08:25:00.000Z	DrManhattan	jbeatty	check your connections
+2012-11-28T08:28:00.000Z	jbeatty	DrManhattan	switching to a tty gives me a bunch of "error: attempting to write lower page", would that imply a bad connection?

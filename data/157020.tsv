@@ -1,0 +1,4 @@
+2006-11-30T17:58:00.000Z	tuna-fish-		Dumb scripting question: I want to have the name of every file in current dir and it's subdirs fed into the stdin, is there an easy way?
+2006-11-30T17:58:00.000Z	tuna-fish-		not possible with find, I think.
+2006-11-30T17:59:00.000Z	tuna-fish-		dumb me.  I meant every file but a file whose name does NOT match the regulart expression. perhaps i should go to sleep
+2006-11-30T06:00:00.000Z	i7ch	tuna-fish-	find the files that do match, then do a generic "find .", and pipe them to diff

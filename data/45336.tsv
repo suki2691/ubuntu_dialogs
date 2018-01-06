@@ -1,0 +1,4 @@
+2009-11-06T02:09:00.000Z	muri_one		I lost power in the middle of an apt-get upgrade. Now my default kernel in grub won't boot. The other ones still work. How do I fix this?
+2009-11-06T02:09:00.000Z	erUSUL	muri_one	finish the upgrade ?
+2009-11-06T02:11:00.000Z	muri_one	erUSUL	I did. let the upgrade finish. It was after I let it finish that these problem came up.
+2009-11-06T02:12:00.000Z	erUSUL	muri_one	sudo aptitude update && sudo aptitude safe-upgrade && sudo dpkg --reconfigure --pending

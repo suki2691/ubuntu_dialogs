@@ -1,0 +1,4 @@
+2006-04-10T07:49:00.000Z	ubuntu2		So does anyone know if there is a way to replace the kernal of an existing ubunt installation via a livecd?
+2006-04-10T07:50:00.000Z	amphi	ubuntu2	you could boot off the livecd, mount the hd / somewhere, chroot to it, and install a kernel
+2006-04-10T07:53:00.000Z	ubuntu2	amphi	ok how do I install a kernel?
+2006-04-10T07:54:00.000Z	amphi	ubuntu2	apt-get install some_kernel - or build one from source?

@@ -1,0 +1,4 @@
+2011-05-27T00:12:00.000Z	buttons		can anyone tell me how to determine if the filesystem of my computer is readonly?
+2011-05-27T00:13:00.000Z	oCean	buttons	type 'mount' in terminal, it shows all currently mounted filesystems with their options (rw would be read-write)
+2011-05-27T00:17:00.000Z	oCean	buttons	that your root filesystem is mounted read-write (but in case of errors it gets remounted read only)
+2011-05-27T00:17:00.000Z	oCean	buttons	yes

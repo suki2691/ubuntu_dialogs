@@ -1,0 +1,4 @@
+2007-03-12T12:13:00.000Z	chinny		Hi. Am a bit of a newbie and having trouble trying to mount an ntfs drive from using edgy live. Have created /media/hda folder - and added "/dev/hda  /media/hda  ntfs@ to fstab but get the following error when i try "sudo mount /media/hda" - mount: wrong fs type, bad option, bad superblock on /dev/hda, missing codepage or other error" Can anyone help please.
+2007-03-12T12:14:00.000Z	CarlFK	chinny	you mount partitions, not drives.  so probably hda1
+2007-03-12T12:17:00.000Z	chinny	CarlFK	- magic. Worked a treat - knew it was going to be something stupid like that. Thank-you
+2007-03-12T12:17:00.000Z	CarlFK	chinny	yay!

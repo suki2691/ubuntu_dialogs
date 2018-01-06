@@ -1,0 +1,4 @@
+2008-07-21T06:53:00.000Z	twb		On Hardy, totem (gstreamer) is playing an encrypted DVD in black and white, with a green bar along the bottom.  Mplayer works fine with the same DVD.  How can I "un-fuck" totem?
+2008-07-21T06:55:00.000Z	glitsj16	twb	you can try changing gstreamer's video output settings with gstreamer-properties (that command is part of the "gnome-media" package in the repo's)
+2008-07-21T06:59:00.000Z	twb	glitsj16	upon advice from #emacs, I tried totem-xine, and it works fine.  I've stopped caring about this issue for now.
+2008-07-21T07:00:00.000Z	glitsj16	twb	no problem :)

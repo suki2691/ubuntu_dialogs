@@ -1,0 +1,4 @@
+2009-09-13T13:11:00.000Z	frodon1		Hi. I want to install Ubuntu on another partition, together with Windows. However, I want that the machine automatically starts Windows, i.e. without user interaction; and only when I want to start ubuntu, it should go with user interaction. How can I do this? (Because by default it is Ubuntu that starts automatically). Thank you.
+2009-09-13T13:11:00.000Z	frodon1		BTw, I am using Ubuntu JJ
+2009-09-13T13:12:00.000Z	Slart	frodon1	first off.. you can't install ubuntu on the same partition as windows (unless you use wubi, I think).. second.. you can configure grub to automatically choose any of the systems it can boot... or even hide it unless you press escape (I think that's even default on a new install)
+2009-09-13T13:13:00.000Z	Slart	frodon1	not as far as I know. I would do it after the install is finished

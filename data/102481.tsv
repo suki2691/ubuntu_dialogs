@@ -1,0 +1,4 @@
+2009-01-25T08:31:00.000Z	Ketrel		why is it that 'sudo fortune' says command not found
+2009-01-25T08:33:00.000Z	Ketrel		ok, then I think I know what I should do here
+2009-01-25T08:35:00.000Z	rww	Ketrel	sudo /usr/games/fortune ? yeah.
+2009-01-25T08:32:00.000Z	rww	Ketrel	the root user doesn't have /usr/games/ (fortune's location) in its $PATH by default, whereas normal users do.

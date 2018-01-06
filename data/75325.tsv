@@ -1,0 +1,4 @@
+2011-11-16T21:36:00.000Z	aar		Hi, how can I stop someone from resetting my root password by booting in rescue mode (when they have physical access to the computer)?
+2011-11-16T21:37:00.000Z	genii-around	aar	Consider uncommenting #GRUB_DISABLE_LINUX_RECOVERY="true" in /etc/default/grub   and updating grub. Then you need to boot from livecd
+2011-11-16T21:37:00.000Z	aar	DJones	genii-around, thank you
+2011-11-16T21:38:00.000Z	genii-around	aar	You're welcome

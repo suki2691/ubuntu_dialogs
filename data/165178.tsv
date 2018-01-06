@@ -1,0 +1,4 @@
+2006-10-06T10:44:00.000Z	ikaruga2099		obotu: nvidia video out
+2006-10-06T10:44:00.000Z	ikaruga2099		does anyone know how to get video out working with an nvidia card?
+2006-10-06T10:46:00.000Z	ikaruga2099		thanks jrib!
+2006-10-06T10:46:00.000Z	n3kl	ikaruga2099	cat /var/log/Xorg.0.log to find the poer that you are detecting, then you should be able to find a twinview tutorial or something and edit you xor.confaccordingly

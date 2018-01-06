@@ -1,0 +1,4 @@
+2010-06-20T21:34:00.000Z	LucidGuy		I just noticed that my home directory had 755 for permissions.  Why would Ubuntu have that for default?  I changed to 750..  comments?
+2010-06-20T21:34:00.000Z	edbian	LucidGuy	What is the danger in allows others on the system to read / execute your files?
+2010-06-20T21:36:00.000Z	edbian	LucidGuy	It would not (assuming you're the owner).  It might annoy others
+2010-06-20T21:38:00.000Z	edbian	LucidGuy	Keep in mind that opening a folder means executing it.  Same is true with viewing a picture file or listening to a song.

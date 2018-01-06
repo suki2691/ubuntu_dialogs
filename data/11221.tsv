@@ -1,0 +1,4 @@
+2011-07-31T23:10:00.000Z	Teltaria1		Hello.  A while back, I added a Gnome 3 repo and upgraded to Gnome 3 to try it out, but it didn't work so well, so I had to attempt to revert back to the standard installation.  But any attempt to 'apt-get install --reinstall gnome-desktop-environment' returns a bunch of things with Apt insists 'is not going to be installed'
+2011-07-31T23:10:00.000Z	Teltaria1		What's the standard approach to a problem like this?
+2011-07-31T23:10:00.000Z	rww	Teltaria1	ppa-purge
+2011-07-31T23:11:00.000Z	Teltaria1	rww	thank you

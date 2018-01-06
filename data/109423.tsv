@@ -1,0 +1,4 @@
+2008-01-21T21:47:00.000Z	MichaelSammels		How do I add the cdrom deb line to /etc/apt/sources.list?
+2008-01-21T21:49:00.000Z	erUSUL	MichaelSammels	sudo apt-cdrom add /dev/cdrom
+2008-01-21T21:50:00.000Z	MichaelSammels	erUSUL	I'm trying to add the Ubuntu 6.06 Desktop CD deb to the Ubuntu 6.06 Server sources.lst
+2008-01-22T21:07:00.000Z	erUSUL	MichaelSammels	no; it is a meta-package it pulls packages in but it does not remove any (maybe if you use autoremove)

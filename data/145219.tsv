@@ -1,0 +1,4 @@
+2009-09-04T07:22:00.000Z	avidal		If I have a PPA that offers the same package as the regular Ubuntu repos, but a newer version, will using apt-get install <package> by default install the newer version from the PPA?
+2009-09-04T07:23:00.000Z	genii	avidal	Usually
+2009-09-04T07:23:00.000Z	avidal	genii	is there a way to be sure i'm getting the right package?
+2009-09-04T07:24:00.000Z	genii	avidal	apt-cache policy <packagename> shows the installed version, possible candidates and their repos

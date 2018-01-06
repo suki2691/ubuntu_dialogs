@@ -1,0 +1,4 @@
+2007-06-23T06:59:00.000Z	dissection		chmod u+w /etc/wvdial.conf <--- I typed this but it said operation not permitted.. What do I need to do to be able to edit /etc/wvdial.conf?
+2007-06-23T06:59:00.000Z	kitche	dissection	gksu gedit /etc/wvdial.conf for gui or sudo nano /etc/wvdial.conf for cli
+2007-06-23T07:03:00.000Z	kitche	dissection	I told you how to edit it alreadt
+2007-06-23T07:13:00.000Z	kitche	dissection	root is locked on ubuntu use sudo instead

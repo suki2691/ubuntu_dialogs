@@ -1,0 +1,4 @@
+2006-11-12T12:11:00.000Z	techNiKal		is there any way to make my ubunt dapper secure and allow only one service samba to be enabled ?
+2006-11-12T12:11:00.000Z	fyrestrtr	techNiKal	use can use update-rc.d or bum (boot up manager) to control what services start at startup. Some are needed though (like a cron process).
+2006-11-12T12:12:00.000Z	techNiKal	fyrestrtr	do you have any tutorial about ubuntu security or what you just said ?
+2006-11-12T12:13:00.000Z	fyrestrtr	techNiKal	no, I don't know of a tutorial (manage to secure it "manually") but I'm sure there is something at the ubuntu wiki -- have you tried there already?

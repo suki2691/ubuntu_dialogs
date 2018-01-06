@@ -1,0 +1,4 @@
+2010-06-06T02:06:00.000Z	AkifTariq		can somebody help . I need to install 3c509 module as my old system has 3c509 Etherlink III ISA lan card. When I do "sudo modprobe 3c509" I get error: "FATAL: Module 3c509 not found." How can I install this module?
+2010-06-06T02:07:00.000Z	AkifTariq		I do not exactly know what modules are and how to install them ...
+2010-06-06T02:08:00.000Z	AkifTariq		acicula:: I do not exactly know what modules are and how to install them ... Is it preinstalled in Lucid? or I need to compile it and add it to Kernel ... Please guide me
+2010-06-06T02:09:00.000Z	randomhelper	AkifTariq	i see the page you are following, try a "sudo find / -name 3c509" in terminal without the quotes to search your system for the module

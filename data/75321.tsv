@@ -1,0 +1,4 @@
+2012-06-22T22:34:00.000Z	Zaehlas		How do I override the network manager?  I have an /etc/interfaces file but it seems to ignore it
+2012-06-22T22:35:00.000Z	Zaehlas		is there something else new in 12 04 I need to change to force manual settings for my ethernet connections?
+2012-06-22T22:36:00.000Z	genii-around	Zaehlas	Perhaps try setting managed=false in /etc/NetworkManager/NetworkManager.conf
+2012-06-22T22:45:00.000Z	genii-around	Zaehlas	Probably whatever you networkmanager applet in your desktop environment is set to do

@@ -1,0 +1,4 @@
+2007-05-17T09:52:00.000Z	bunny1985		hi i have a small problem
+2007-05-17T09:54:00.000Z	bunny1985		i need to edit fstab to set automounting my samba files (ntfs and fat) do you know how to do these
+2007-05-17T09:55:00.000Z	soundray	bunny1985	this is what I do: //fsg/media /var/lib/media cifs credentials=/root/.creds,uid=1000,gid=1000  0 1
+2007-05-17T09:55:00.000Z	soundray	bunny1985	make sure the file where you place your credentials is owned by root with permissions set to 600

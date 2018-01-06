@@ -1,0 +1,4 @@
+2008-04-25T19:12:00.000Z	frieze		so is there a way to use a remote gui tool to set up a firewall on an ubuntu server install without actually installing x windows on the server itself?
+2008-04-25T19:13:00.000Z	Nith	frieze	yes, using ssh and +X you can run ayn gui program and the comp you're sshing into doesn't need an X server
+2008-04-25T19:13:00.000Z	Nith	frieze	if you want ot get more information, its alled "x forwarding"
+2008-04-25T19:15:00.000Z	frieze	Nith	thanks. I thought that when I ran ssh -Y it was doing forwarding but my understanding was that all teh gui stuff was happening on the remote machine using my local machine as a display. Since it seems like server and client are used interchangeably in x11 terminology I may have gotten that back-to-front

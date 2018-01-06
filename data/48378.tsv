@@ -1,0 +1,4 @@
+2010-08-28T12:50:00.000Z	trijntje		Hi all. I have a bootable usb-drive that I want to clone, but the new drive is not the exact same size, so dd is not an option. I already tried copying all files but it will not boot. What can I do to make this work?
+2010-08-28T12:50:00.000Z	SliMM	trijntje	Is it smaller?
+2010-08-28T12:51:00.000Z	trijntje	SliMM	the new drive is smaller, but the old drive has free space
+2010-08-28T12:52:00.000Z	SliMM	trijntje	I guess you have to follow ectospasm's advice or shrink the partition to match the size of the smaller stick and dd

@@ -1,0 +1,4 @@
+2008-04-29T05:59:00.000Z	Tyshalob		What the crap did upgrading to Hardy Heron do to my samba :(
+2008-04-29T06:00:00.000Z	Tyshalob		And what the hell did Hardy do to /etc/fstab? What is with all this UUID=OHGODNUMBERSANDLETTERS crap?
+2008-04-29T06:01:00.000Z	Wyzard	Tyshalob	That's to make the mounts independent of device name (e.g. /dev/hda1 vs. /dev/sda1 vs. /dev/sdb1)
+2008-04-29T06:01:00.000Z	Wyzard	Tyshalob	because the names can be different after a reboot in some cases due to drivers loading in a different order

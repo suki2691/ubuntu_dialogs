@@ -1,0 +1,4 @@
+2012-10-16T23:47:00.000Z	Jordan_U	tgm4883	Can you not fix the nexenta system?
+2012-10-16T23:48:00.000Z	tgm4883	Jordan_U	working on that
+2012-10-16T23:49:00.000Z	Jordan_U	tgm4883	That's because mount follows the symlink and displays the device name, if you "cat /proc/mounts" (which comes from the kernel) you will probably see that /dev/disk/by-uuid/foo is what was mounted.
+2012-10-16T23:51:00.000Z	Jordan_U	tgm4883	The /dev/disk/by-uuid/ namespace by its nature cannot handle one UUID symlink pointing to two different devices, and it's entirely possible for the symlink to change as devices come and go.

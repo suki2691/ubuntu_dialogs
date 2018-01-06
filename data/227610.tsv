@@ -1,0 +1,4 @@
+2008-01-07T00:43:00.000Z	hikenboot		anyone else in here know a  way to force a reinstall of Ubuntu without destroying home directory
+2008-01-07T00:43:00.000Z	hikenboot		I am using gutsy
+2008-01-07T00:44:00.000Z	Jowi	hikenboot	if you created a separate /home during install you can use the same /home partition in the next install. simply *do not format it*.
+2008-01-07T00:45:00.000Z	Jowi	hikenboot	but, if you do not have a separate home partition now you will need to backup /home. then in the fresh install create a /home partition and copy the backup to there.

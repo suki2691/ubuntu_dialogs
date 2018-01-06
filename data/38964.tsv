@@ -1,0 +1,4 @@
+2010-01-16T00:20:00.000Z	seana		I'm puzzled why it put stuff in /etc the first time...
+2010-01-16T00:20:00.000Z	trism	seana	postgresql doesn't seem to like to properly purge the files so you can recreate the defaults, I believe I managed to get it to work by purging both postgresql-8.4 and postgresql-common, then deleting the /etc/postgresql and /etc/postgresql-common and then reinstalling successfully recreated those /etc directories
+2010-01-16T00:21:00.000Z	seana	trism	I'll give that a try again
+2010-01-16T00:50:00.000Z	seana	trism	It works now. What had to be done was to manually delete any files and directories that remained after the purge. During a purge there are still directories that remain. If you don't delete them then apt or dpkg will not do a fully 100% fresh install.

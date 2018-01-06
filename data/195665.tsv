@@ -1,0 +1,4 @@
+2007-05-24T09:12:00.000Z	zDiogo		hi, i have a program running inside the wine, when I did netstat I received this: tcp        0      0 0.0.0.0:4747            0.0.0.0:*               LISTEN     20527/mwshost.exe
+2007-05-24T09:12:00.000Z	zDiogo		what this mean ?
+2007-05-24T09:13:00.000Z	zDiogo		what is the mean of that ?
+2007-05-24T09:14:00.000Z	kitche	zDiogo	0.0.0.0.0 means it's listening on every network interface

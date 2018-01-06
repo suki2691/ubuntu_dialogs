@@ -1,0 +1,4 @@
+2009-01-15T06:48:00.000Z	gunspoja		I followed some instructions on a forum that said to remove ubuntu from a dual-boot system you just get rid of its partitions.  turns out that doesn't work :P so now I have a grub error 22
+2009-01-15T06:49:00.000Z	h4mx0r	gunspoja	umm think you have to format the mbr (master boot record) then repair it with whatever other os or boot loader you use
+2009-01-15T06:50:00.000Z	gunspoja	h4mx0r	actually I'd be quite happy to use grub, I don't really mind
+2009-01-15T06:52:00.000Z	h4mx0r	gunspoja	did you just reinstall grub or make any boot changes with which systems you have? if so you might need to check the config files and make sure they are pointed at the right sections of the hard drive

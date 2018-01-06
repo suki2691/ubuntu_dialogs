@@ -1,0 +1,4 @@
+2009-12-05T04:33:00.000Z	nat2610		Is there an apt-get command that tells which repository is picked to install a certain package ?
+2009-12-05T04:34:00.000Z	ZykoticK9	nat2610	you can usually get a hint, of where a package is coming from by running "apt-cache policy PACKAGE_FOO"
+2009-12-09T04:06:00.000Z	ZykoticK9	nat2610	maco or if you're lazy you can save 2 letters and just use gksu instead of gksudo ;)
+2010-01-29T22:55:00.000Z	ZykoticK9	nat2610	once they are mounted you can use ~/.gvfs to get to them from console

@@ -1,0 +1,4 @@
+2012-11-26T02:44:00.000Z	Rask		Hello, channel.  In Ubuntu, is there anywhere else but /etc/init.d/ where the command line used to invoke a daemon might be stored?  I installed bitlbee a while back and changed the port it listens on, but I can't for the life of me find where I did it...
+2012-11-26T02:45:00.000Z	guntbert	Rask	if it is upstart enabled you will find it in /etc/init
+2012-11-26T02:46:00.000Z	Rask	guntbert	It doesn't seem to be.
+2012-11-26T02:48:00.000Z	guntbert	Rask	use dpkg -L bitlbee to find the files it installed

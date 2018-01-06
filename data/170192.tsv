@@ -1,0 +1,4 @@
+2007-04-12T07:56:00.000Z	exs		guys, is the 'sudo' (for my username) the same as 'root' ? .. because  I'm trying to edit the '/etc/apache2/sites-available/default' file in apache2, but it's not letting me.
+2007-04-12T07:57:00.000Z	trpr	exs	use sudo.. the root password isn't set by default; therefore no su
+2007-04-12T07:57:00.000Z	exs	trpr	 but sudo isn't allowing me to edit the default file in apache
+2007-04-12T07:57:00.000Z	trpr	exs	sudo -s

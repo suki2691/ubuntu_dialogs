@@ -1,0 +1,4 @@
+2009-07-26T15:33:00.000Z	stillwontwork		hi, i installed wrong graphics drivers, now my graphics dont work. how do i turn on generic drivers in root (recovery mode)?
+2009-07-26T15:34:00.000Z	moymoy	stillwontwork	if you delete your xorg.conf, your xserver should generate a generic one for you
+2009-07-26T15:35:00.000Z	moymoy	stillwontwork	but i generally don't like deleting stuff.. so you can try editting it and under the "Device" section, replace whatever driver is listed with "vesa"
+2009-07-26T15:44:00.000Z	stillwontwork	moymoy	thanks for the help i was afk, where do i delete the xorg.conf? i guess if it generates a generic one for me that would be like starting ubuntu for the first time and that worked just fine

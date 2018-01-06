@@ -1,0 +1,4 @@
+2009-05-19T06:38:00.000Z	pi-meson		X appears to (somewhat) randomly crash on me about once ever two days. Is there something I should be doing to get a better handle on this? Is there a log file that's written somewhere when X crashes that might provide a clue?
+2009-05-19T06:38:00.000Z	aaditya	pi-meson	what does the crash look like? does it freeze? which chipset?
+2009-05-19T06:39:00.000Z	pi-meson	aaditya	I get kicked back to the login screen; nvidia graphics, proprietary driver, jaunty
+2009-05-19T06:40:00.000Z	aaditya	pi-meson	could be the gdm crashing. as mzz said, let's start with Xorg.0.log...

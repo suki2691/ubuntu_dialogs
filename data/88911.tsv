@@ -1,0 +1,4 @@
+2008-05-31T23:42:00.000Z	Starnestommy	GurgehMorat	try "cat text | xargs -I '{}' rm"
+2008-05-31T23:43:00.000Z	GurgehMorat	Starnestommy	Ok, that one goes further, it does the loop for each line I guess, but each rm returns missing operand
+2008-05-31T23:44:00.000Z	Starnestommy	GurgehMorat	er, try "cat text | xargs -I '{}' rm '{}'"
+2008-05-31T23:47:00.000Z	GurgehMorat	Starnestommy	What do I need to be so cool as you :D Thanks, that worked!

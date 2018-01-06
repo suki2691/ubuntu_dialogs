@@ -1,0 +1,4 @@
+2008-01-14T00:29:00.000Z	Karti		Hi all having trouble with a script....its one line to tar and compress and another to reverse it. I can't get it to reverse..any ideas - http://paste.ubuntu-nl.org/51804/
+2008-01-14T00:30:00.000Z	th0r	Karti	can't use ~ in a script...put in the whole path
+2008-01-14T00:30:00.000Z	Karti	th0r	could I use $HOME ?
+2008-01-14T00:31:00.000Z	th0r	Karti	yes, I believe so....it is the ~ in the last line that is th eproblem...change it to $BACKUPDIR and I thnk it will work

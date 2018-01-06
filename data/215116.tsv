@@ -1,0 +1,4 @@
+2006-08-09T14:35:00.000Z	alienseer23		Q: please, how do I stop all x services?
+2006-08-09T14:35:00.000Z	alienseer23		and command from console only?
+2006-08-09T14:36:00.000Z	alienseer23		ctrl+alt+backspace is only restarting x, not stopping it
+2006-08-09T14:36:00.000Z	frenkel	alienseer23	sudo /etc/init.d/gdm stop

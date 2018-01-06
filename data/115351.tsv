@@ -1,0 +1,4 @@
+2007-10-24T18:12:00.000Z	DaanU		Hi, i added myself to the vboxusers group and i guess i deleted myself from the root group :/ The Users and Groups menu is gone, and i cant use sudo etc. Any change i can re-add myself in another way? Adduser wont work since i cant use sudo.
+2007-10-24T18:12:00.000Z	stefg	DaanU	you need to be mamaber of 'admin' not 'root'
+2007-10-24T18:14:00.000Z	DaanU	stefg	oya thats right thanks. But i still cant add myself, any way besides Adduser and the Users and Groups menu?
+2007-10-24T18:15:00.000Z	stefg	DaanU	you locked yoursel out, if you managed to drop admin rights on the only sudo-user (admin-member). you have to boot to recovery (will give you a root prompt) and procced from there

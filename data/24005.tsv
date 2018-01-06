@@ -1,0 +1,4 @@
+2011-05-31T23:05:00.000Z	Sean93		i need to copy my usb drive that has 3 partitions on it, one is encrypted. i need to remove everything on the drive for a few hours but then after that i want it back to normal
+2011-05-31T23:06:00.000Z	rpisharody	Sean93	Hmm... What I can think of is to image the entire USB Drive with the dd tool. Save the image. Copy it back after you are done.
+2011-05-31T23:09:00.000Z	Sean93	rpisharody	_felix, dd sounds good, exact command??
+2011-05-31T23:10:00.000Z	rpisharody	Sean93	dd if=/dev/usb of=imagefile(where /dev/usb is your USB Drive)

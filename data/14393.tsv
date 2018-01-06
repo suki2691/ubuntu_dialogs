@@ -1,0 +1,4 @@
+2011-05-11T14:26:00.000Z	coconutz		what is safe chmod code for directory and files for apache php scripts?
+2011-05-11T14:28:00.000Z	coconutz		is there a way i can do ls /myfile.ext and get the chmod code like 777 666 etc?
+2011-05-11T14:29:00.000Z	http\junky	coconutz	ls -l gives long form. man ls explains other flags. Personally i'd use ls -lhA
+2011-05-11T14:40:00.000Z	http\junky	coconutz	you'd need to write a lil script to do the conversion it looks like, i dont see a tool in place

@@ -1,0 +1,4 @@
+2006-10-14T06:58:00.000Z	jmspeex		I've got a 1920x1200 LCD, but Dapper and Edgy only do 1600x1200. Any idea?
+2006-10-14T06:59:00.000Z	justthisguy	jmspeex	try sudo dpkg-reconfigure xserver-xorg
+2006-10-14T07:01:00.000Z	jmspeex	justthisguy	The Intel 950 chipset is supported by the i810 driver, right?
+2006-10-14T07:10:00.000Z	jmspeex	justthisguy	still doesn't work. The Xorg.log file says the hsync range is not within the DDC hsync range. Any idea what that means?

@@ -1,0 +1,4 @@
+2007-06-04T12:53:00.000Z	craigbass1976		I'm trying to set up a web server, and I need it running on 8080.  I've gone into the apache conf file and typed in Listenip.add.ress:8080, but it still listens on 80.
+2007-06-04T12:54:00.000Z	craigbass1976		And now that I've looked further, I see that I needed to edit apache2's conf file, and that apaches wasn't even supposed to be running.  All set now.
+2007-06-04T12:55:00.000Z	craigbass1976		Does Ubuntu read ntfs by default?  I have a computer coming in tonight that's messed up and I don't know where Knopix went.
+2007-06-04T12:55:00.000Z	Hoxzer	craigbass1976	and the right syntax should be "Listen 8080"

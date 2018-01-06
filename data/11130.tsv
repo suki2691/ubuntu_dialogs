@@ -1,0 +1,4 @@
+2011-08-03T13:04:00.000Z	overrider_		I booted from my sda partition, and like to to clone it to sdb so i have it there as a bootable backup. Do i need to boot of a live system or of another disk or can i somehow clone my 'live' system on sda to sdb in a safe way?
+2011-08-03T13:04:00.000Z	SeeknDestroy2	overrider_	do it from the livecd
+2011-08-03T13:05:00.000Z	SeeknDestroy2	overrider_	command is --> sudo dd if=/dev/sda of=/dev/sdb bs=2048 <-- make sure to VERIFY THE DRIVES with "fdisk -l" so you don't clone the empty one over the top of the full one!
+2011-08-03T13:06:00.000Z	SeeknDestroy2	overrider_	the "bs=2048" option increases the blocksize that it copies to 2048 instead of the default 512, speeds up the cloning of bigger disks

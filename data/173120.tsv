@@ -1,0 +1,4 @@
+2007-10-03T14:24:00.000Z	sachac		I'm trying to upgrade dapper to feisty in preparation for moving to gutsy, but update-manager -c can't guess the meta-package and wants me to install ubuntu-desktop, edubuntu-desktop, or kubuntu-desktop. As I don't want to install a gazillion things, would it be kosher to make an equivalent package using equivs and trick my system?
+2007-10-03T14:25:00.000Z	Pelo	sachac	 you can't upgrade from dapper to fiesty,   upgrade won't skip a version,  so dapper > edgy > feisty,   but I recommend you just wait for gutsy and make a clean install
+2007-10-03T14:26:00.000Z	sachac	Pelo	Right. I guess that's the best, then. update-manager -c does offer to upgrade to 6.10 (edgy), but won't proceed without the meta package.
+2007-10-03T14:27:00.000Z	Pelo	sachac	  I recommend you move your /home to a seperate partition that way you can clean intall without messing your  data and settings or bacingup

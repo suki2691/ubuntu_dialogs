@@ -1,0 +1,4 @@
+2007-10-06T14:46:00.000Z	XomboX		hi
+2007-10-06T14:46:00.000Z	XomboX		can anyone tell me, how to run a console program on the background? I mean without seeking output of the program.
+2007-10-06T14:46:00.000Z	ikonia	XomboX	pipe the output to /dev/null eg: ./program >/dev/null
+2007-10-06T14:47:00.000Z	ikonia	XomboX	or background it with ./program &

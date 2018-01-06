@@ -1,0 +1,4 @@
+2012-09-06T14:23:00.000Z	j`ey_w		hi guys, if I ldd a file, it says it's using mesa/libGL, but I have a Nvidia card, how can I make it use the nvidia drivers?
+2012-09-06T14:24:00.000Z	ikonia	j`ey_w	what file ?
+2012-09-06T14:24:00.000Z	ikonia	j`ey_w	what are you actually trying to do
+2012-09-06T14:25:00.000Z	ikonia	j`ey_w	you'd need to link it against whatever the nvidia interface is, probably through/via X

@@ -1,0 +1,4 @@
+2008-04-28T04:44:00.000Z	Orbixx		Recently upgraded to Hardy, wireless now does not work. bcm43xx - any known issues?
+2008-04-28T04:44:00.000Z	Jordan_U	Orbixx	Have you tried System -> Administration -> Hardware Drivers?
+2008-04-28T04:45:00.000Z	Orbixx	Jordan_U	It says it's there, enabled and working. But it's not. wlan0 exists, but it finds no wireless access points.
+2008-04-28T04:47:00.000Z	Jordan_U	Orbixx	try "sudo apt-get install b43-fwcutter"

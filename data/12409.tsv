@@ -1,0 +1,4 @@
+2011-08-30T20:00:00.000Z	mdgro		If security is the primary concern would it be safer to use "apt-get upgrade" or "apt-get dist-upgrade." It is my understanding "upgrade" will update to the extent it can without changing dependencies. However, would this mean that it's potentially vulnerable to threats that would be patched with a "dist-upgrade" ?
+2011-08-30T20:01:00.000Z	zykotick9	mdgro	"security" doesn't affect upgrade vs dist-upgrade
+2011-08-30T20:04:00.000Z	zykotick9	mdgro	it is more "complete" yes, but both pull from the same repository - the security is the same for all Ubuntu packages
+2011-08-30T20:05:00.000Z	zykotick9	mdgro	feel free to PM me if you'd like my opinion on security

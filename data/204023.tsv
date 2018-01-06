@@ -1,0 +1,4 @@
+2006-07-23T07:14:00.000Z	Android`		how do i access my fat32 partition from ubuntu?
+2006-07-23T07:15:00.000Z	phreq	Android`	mout -t vfat <partitio ngoes here> /mnt
+2006-07-23T07:24:00.000Z	phreq	Android`	Try doing sudo fdisk /dev/hda but BE CAREFUL. :P Once in the program hit 'p', and it should should where your FAT partition is. Once that's done, hit q to get out of fdisk.
+2006-07-23T07:28:00.000Z	phreq	Android`	Don't know if it helps, but this is Linux names IDE PATA drives as /dev/hda, hdb, hdc and h... nevermind. :P

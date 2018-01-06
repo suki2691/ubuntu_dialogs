@@ -1,0 +1,4 @@
+2009-05-09T15:51:00.000Z	painted		hey guys, my nvidia x server settings says "VALIDATION ERROR:  Data incomplete in file /etc/X11/xorg.conf.
+2009-05-09T15:51:00.000Z	painted		At least one Device section is required."
+2009-05-09T15:51:00.000Z	painted		can anyone tell me what's wrong with this darn thing
+2009-05-09T15:53:00.000Z	Boohbah	painted	mv /etc/X11/xorg.conf /etc/X11/xorg.conf.old && restart X

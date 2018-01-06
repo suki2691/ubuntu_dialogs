@@ -1,0 +1,4 @@
+2008-03-05T04:12:00.000Z	benanzo		I have a script that I need to be run as root -- but I want a non-root user to be able to run it.  I want to give them permission to run *only* that one script as root
+2008-03-05T04:12:00.000Z	benanzo		is this possible?
+2008-03-05T04:14:00.000Z	soundray	benanzo	it's possible in principle. You have to write a specific rule for that user in /etc/sudoers . Can't help with the detail though -- start with man sudoers
+2008-03-05T04:14:00.000Z	soundray	benanzo	note: use 'sudo visudo' for editing sudoers in ubuntu.

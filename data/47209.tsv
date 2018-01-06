@@ -1,0 +1,4 @@
+2011-10-13T13:54:00.000Z	clarck		Hi :) i want to ask a question : when i make a #netstat -an   i get an established connection : 127.0.0.1:4316    127.0.0.1:43014
+2011-10-13T13:54:00.000Z	clarck		and 127.0.0.1:43014 127.0.0.1:4316
+2011-10-13T13:54:00.000Z	clarck		what does it mean ?
+2011-10-13T13:55:00.000Z	llutz_	clarck	sudo lsof -i :4313              to see what service listens there

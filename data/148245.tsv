@@ -1,0 +1,4 @@
+2007-04-19T10:31:00.000Z	psykidellic		hi...how do I get memory information from command line?
+2007-04-19T10:31:00.000Z	Terrasque	psykidellic	free -m
+2007-04-19T10:32:00.000Z	psykidellic	Terrasque	Not that. I want to know how much MB of RAM is there. e.g. 256 MB RAm
+2007-04-19T10:37:00.000Z	psykidellic	Terrasque	dmesg | grep Memory was what I was looking for :0

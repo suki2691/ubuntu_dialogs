@@ -1,0 +1,4 @@
+2005-09-13T07:12:00.000Z	meta		How do I stop hald polling my scratched DVD and let me unmount it?
+2005-09-13T07:13:00.000Z	meta		even a kill -9 as root doesn't work
+2005-09-13T07:15:00.000Z	nickrud	meta	try killall gam_server
+2005-09-13T07:16:00.000Z	meta	nickrud	- a umount -l and then an eject got it, after it chewed on it for a couple of mins, will prolly lock up again, so I will try gam_sever when it does. heh, ty

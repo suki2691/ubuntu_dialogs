@@ -1,0 +1,4 @@
+2008-08-13T18:15:00.000Z	hosk		if my current computer is running an X server, and the computer i'm SSH'd into is running an X server, how do I remotely start/forward an X server
+2008-08-13T18:17:00.000Z	xnv	hosk	Both client and server have to be configured for X11 forwarding
+2008-08-13T18:18:00.000Z	hosk	xnv	thanks
+2008-08-13T18:33:00.000Z	xnv	hosk	On the server, it should just have to be enabled. On the client, connecting with the -X option is usually sufficient.

@@ -1,0 +1,4 @@
+2011-06-09T02:01:00.000Z	manlymatt83		I have a question about the new unity.  When I hit <windows key> + 8, it launches terminal (that's #8).  But if there's a terminal already open, it just opens that one.  How do I make it launch a new one no matter what?
+2011-06-09T02:02:00.000Z	blargg	manlymatt83	can you specify a command to execute for one of the buttons?
+2011-06-09T02:03:00.000Z	manlymatt83	blargg	maybe I can, but figured there'd be an easier way
+2011-06-09T02:04:00.000Z	blargg	manlymatt83	if so, you could have it run gnome-terminal. If it still goes to the already-running instance, you could try adding a parameter like gnome-terminal --title="Terminal".

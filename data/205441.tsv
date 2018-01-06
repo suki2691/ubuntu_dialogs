@@ -1,0 +1,4 @@
+2005-12-12T17:53:00.000Z	kbrooks		and tee sends data to the file
+2005-12-12T17:54:00.000Z	kbrooks		and outputs it too
+2005-12-12T17:54:00.000Z	frogzo1	kbrooks	the point is that sudo tee can write files with root perm, whereas sudo echo > can't
+2005-12-12T17:55:00.000Z	kbrooks	frogzo1	all because of the magic of pipes

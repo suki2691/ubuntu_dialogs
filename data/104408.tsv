@@ -1,0 +1,4 @@
+2011-04-21T19:08:00.000Z	rootManuva		I am running 10.04 and want to hard code the mac address of my router i.e  arp -s 192.168.0.1 my:mac:add
+2011-04-21T19:08:00.000Z	rootManuva		but I dont want to run this cmd each time
+2011-04-21T19:09:00.000Z	rootManuva		is there a setting to achieve this or a quick script i could write
+2011-04-21T19:11:00.000Z	ActionParsnip	rootManuva	could add it in /etc/rc.local  and it will run as root each time you bootup

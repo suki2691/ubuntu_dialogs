@@ -1,0 +1,4 @@
+2009-02-01T02:03:00.000Z	beefcircuit		quick question.  when I use apt to try and install git-core it asks for the ubuntu disc, anyone know why that is?
+2009-02-01T02:03:00.000Z	unop	beefcircuit	because at some point you used the CD and APT still considers it to be a repository (that is chosen over other repositories)
+2009-02-01T02:06:00.000Z	beefcircuit	unop	would I look in etc/apt to change the ranking or would gnome have a settings area to do this?
+2009-02-01T02:06:00.000Z	unop	beefcircuit	i belieive you can use the "software sources" dialog ... somewhere in the admin/preferences gnome menu

@@ -1,0 +1,4 @@
+2009-02-12T22:59:00.000Z	whut		I was installing a package using sudo apt-get install <name>, but the downloading was interrupted. Now, every time I try to do sudo apt-get install <name>, it uses that faulty .deb package. How can I force apt-get to re-download the package?
+2009-02-12T23:01:00.000Z	absynth	whut	try #apt-get -f install     this should fix brocken packages and stuff
+2009-02-12T23:02:00.000Z	whut	absynth	Thanks.
+2009-02-12T23:40:00.000Z	absynth	whut	then apt-get remove apt-get :D

@@ -1,0 +1,4 @@
+2008-06-10T23:25:00.000Z	XXer		What is the extension of executables in Linux (In Windows it would be .exe) also how can I find where the executable file of a program icon that is in the application menu (In Windows I would right click on the icon and in the properties it would tell me where the the file is on the hard drive)
+2008-06-10T23:25:00.000Z	LogicalDash	XXer	we don't use filename extensions generally
+2008-06-10T23:26:00.000Z	LogicalDash	XXer	.deb is the extension for Debian packages, which contain software distributions; the actual executables generally have no extension
+2008-06-10T23:27:00.000Z	LogicalDash	XXer	instead, every Linux file has an "executable bit"; you can check whether it's set or not using the command "file <filename>"

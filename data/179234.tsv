@@ -1,0 +1,4 @@
+2009-08-03T01:03:00.000Z	g[r]eek		Hi how do I search apt-get to see if a particular package exists?
+2009-08-03T01:04:00.000Z	g[r]eek		I know it has the keyword mysql in it so I want to list all packages with 'mysql' in their name
+2009-08-03T01:04:00.000Z	jrib	g[r]eek	apt-cache search foo
+2009-08-03T01:04:00.000Z	jrib	g[r]eek	use -n to limit to names

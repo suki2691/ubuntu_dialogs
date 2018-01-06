@@ -1,0 +1,4 @@
+2011-01-13T01:45:00.000Z	Andycas		how do i move direcotry one level down? like "mv /dir/dir2 ../"
+2011-01-13T01:46:00.000Z	bastidrazor	Andycas	or be one down for dir.. mv dir .
+2011-01-13T01:46:00.000Z	Andycas	bastidrazor	I want to use relative path
+2011-01-13T01:46:00.000Z	bastidrazor	Andycas	you would need to NOT be in the directory to be moved.  mv /path/to/dir /new/path

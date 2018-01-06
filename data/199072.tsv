@@ -1,0 +1,4 @@
+2007-06-09T07:18:00.000Z	ub12		What is the best way to cleanup all the old unused kernels and free up some disk space?
+2007-06-09T07:19:00.000Z	ub12		ok rm and delete but what about the entries in the grub menu at bootup?
+2007-06-09T07:20:00.000Z	ub12		cool thanks bruenig Jimmey and Mr_Mirsal
+2007-06-09T07:20:00.000Z	Frogzoo	ub12	dpkg --purge linux-source-2.6.xx

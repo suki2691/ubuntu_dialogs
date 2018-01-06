@@ -1,0 +1,4 @@
+2007-11-15T01:25:00.000Z	noob69		hello everyone
+2007-11-15T01:27:00.000Z	noob69		what do i need to do to be able to see the mysql server (linux) from my Win XP client
+2007-11-15T01:27:00.000Z	noob69		i have installed the odbc driver for win xp
+2007-11-15T01:27:00.000Z	nareshov	noob69	edit /etc/mysql/my.cnf , replace 127.0.0.1 by your ip, restart mysql

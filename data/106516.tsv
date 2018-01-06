@@ -1,0 +1,4 @@
+2009-09-17T20:53:00.000Z	homy		KERNEL=="vboxdrv", NAME="vboxdrv", OWNER="root", GROUP="root", MODE="0600"
+2009-09-17T20:53:00.000Z	homy		SUBSYSTEM=="usb_device", GROUP="vboxusers", MODE="0664"
+2009-09-17T20:53:00.000Z	homy		SUBSYSTEM=="usb", ENV{DEVTYPE}=="usb_device", GROUP="vboxusers", MODE="0664"
+2009-09-17T20:53:00.000Z	FloodBot2	homy	Please don't flood, use http://paste.ubuntu.com to paste, don't use Enter as punctuation.

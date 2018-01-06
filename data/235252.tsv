@@ -1,0 +1,4 @@
+2006-03-17T06:15:00.000Z	CrackersKeenan		quick question for everyone: if i upgrade from hoary to breezy, will my home directory be overwritten?
+2006-03-17T06:15:00.000Z	Mosi	CrackersKeenan	no
+2006-03-17T06:16:00.000Z	Mosi	CrackersKeenan	if you're really worried about it, just tar -cf /.home_backup.tar ~$LOGNAME
+2006-03-17T06:17:00.000Z	Mosi	CrackersKeenan	er, no -f.  tar -c /.home_backup.tar ~$LOGNAME

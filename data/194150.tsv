@@ -1,0 +1,4 @@
+2007-09-16T08:18:00.000Z	eno__		hello, all.  My sound stopped working.  I tried killall esd and it did not work.  I know that restarting x would solve the problem, but is there something else I can try?
+2007-09-16T08:18:00.000Z	pike_	eno__	does sudo /etc/init.d/alsa-utils restart work?
+2007-09-16T08:19:00.000Z	eno__	pike_	that did not do it
+2007-09-16T08:21:00.000Z	pike_	eno__	open a terminal and run 'alsamixer'  you can hit tab to go throush setting but the ones your concerned about will be in the first playback tab anyway. just play an mp3 or something while you mess with the settings. use M to mute and  < and > to unmute and the arrow keys to adjust volume

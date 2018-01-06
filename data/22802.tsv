@@ -1,0 +1,4 @@
+2012-08-22T17:05:00.000Z	MatBoy		I'm building a loadbalanced Postfix cluster and I wonder with what kind of protocol I shall conect to my storag node, NFS or iSCSI
+2012-08-22T17:05:00.000Z	MatBoy		*storage
+2012-08-22T17:07:00.000Z	tehnef	MatBoy	if your storage and traffic are on the same network, NFS is your best choice
+2012-08-22T17:25:00.000Z	MatBoy	tehnef	thanks! Shall I connect the NFS servers to ISCSI storage direcly or store it "internally" ?

@@ -1,0 +1,4 @@
+2008-08-11T06:46:00.000Z	n1zjd_		a program im running needs to open a USB port....how do I do that?  /dev/??
+2008-08-11T06:46:00.000Z	Dr_willis	n1zjd_	 what program is this?
+2008-08-11T06:48:00.000Z	Dr_willis	n1zjd_	 a usb port is not a serial port.. unless you got some usb-> serial adaptor. and then in theory it shoudl appear as a /dev/ttys# i belive.
+2008-08-11T06:49:00.000Z	Dr_willis	n1zjd_	 you could look in /dev/ and see what ttys* ports there are. i guess

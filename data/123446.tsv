@@ -1,0 +1,4 @@
+2010-02-10T21:57:00.000Z	freckledp		I'm trying to find instructions on generating an AES (256) key.  There are lots of references online to generating them for filesystem encryption, but I just need a standalone key.  Anyone know of a site, etc. that talks about that?
+2010-02-10T21:57:00.000Z	edeca	freckledp	A key is just data.  If you want 256 blocks of random data, use /dev/urandom
+2010-02-10T21:57:00.000Z	edeca	freckledp	You could also use something like pwgen
+2010-02-10T21:58:00.000Z	freckledp	edeca	ty...I guess I was overthinking it ;)

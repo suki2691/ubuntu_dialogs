@@ -1,0 +1,4 @@
+2009-10-07T17:32:00.000Z	diesel1		hi all does anyone no a good app for joining avi files
+2009-10-07T17:32:00.000Z	ActionParsnip1	diesel1	you can cp them together
+2009-10-07T17:33:00.000Z	ActionParsnip1	diesel1	you will need a single mencoder command to realign the sound
+2009-10-07T17:33:00.000Z	ActionParsnip1	diesel1	cat firstfile.avi secondfile.avi > concatenatedfile.avi ; mencoder -o finalmovie.avi -noidx -oac copy -ovc copy concatenatedfile.avi

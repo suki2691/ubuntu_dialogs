@@ -1,0 +1,4 @@
+2008-01-26T18:44:00.000Z	kristjan_		I need to make sure that my usb flash drive is FAT32 file system in order to get bios update working - how do you check the filesystem of usb flash drive
+2008-01-26T18:44:00.000Z	Seveas	kristjan_	plug it in, it should automount, then run 'mount' in a terminal
+2008-01-26T18:45:00.000Z	kristjan_	Seveas	it says "/dev/sdb1 on /media/disk type vfat"
+2008-01-26T18:45:00.000Z	Seveas	kristjan_	then it's fat32

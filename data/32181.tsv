@@ -1,0 +1,4 @@
+2010-10-29T06:42:00.000Z	skumara		why when I update my lucid it say in need to do partial upgrade?
+2010-10-29T06:44:00.000Z	skumara		do i need to upgrade? i got no issue with lucid.
+2010-10-29T06:45:00.000Z	ZykoticK9_	skumara	the "sudo aptitude safe-upgrade" doesn't upgrade your system to new version!  it safely updates your current system.
+2010-10-29T06:43:00.000Z	ZykoticK9_	skumara	DON'T do partial upgrades!  Install and use "aptitude" and use the command "sudo aptitude safe-upgrade" to install what can be upgraded.  "partial upgrade" really means, 'it's going to break your system'

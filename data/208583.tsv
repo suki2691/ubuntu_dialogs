@@ -1,0 +1,4 @@
+2005-11-07T09:12:00.000Z	CarlF1		I just did "apt-get install hsftp" - how can I tell if it hung itself under a menu option?
+2005-11-07T09:13:00.000Z	farruinn	CarlF1	I would check under applications>internet, but since it's from universe it may not have a .desktop file included
+2005-11-07T09:14:00.000Z	CarlF1	farruinn	so if there is no menu if there is no .desktop here: http://packages.ubuntu.com/cgi-bin/search_contents.pl?searchmode=filelist&word=hsftp&version=breezy&arch=i386
+2005-11-07T09:16:00.000Z	farruinn	CarlF1	yes, you can also check your installed apps with 'dpkg -L <package> | grep .desktop'

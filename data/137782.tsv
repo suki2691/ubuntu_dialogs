@@ -1,0 +1,4 @@
+2011-02-16T22:58:00.000Z	bortreb		how does one get to the sources of utilities like ls, cd, ps and the like in ubuntu?
+2011-02-16T22:58:00.000Z	llutz	bortreb	apt-get source ...   (but not for shell-builtins like cd)
+2011-02-16T23:01:00.000Z	llutz	bortreb	apt-get source procps
+2011-02-16T23:01:00.000Z	llutz	bortreb	dpkg -S $(which ps)

@@ -1,0 +1,4 @@
+2010-05-12T01:14:00.000Z	mojitoking		how do i set an alias to use a parameter in bash?
+2010-05-12T01:15:00.000Z	Nitsuga	mojitoking	for that you have to use functions, nos aliases. They are created liek this:
+2010-05-12T01:16:00.000Z	Nitsuga	mojitoking	name() { command1 --option $1 ; command2 "$@" ; command3 } $1 - $9 is parmeter from 1 to 9, and "$@" (quote it!) is all the parameters
+2010-05-12T01:17:00.000Z	Nitsuga	mojitoking	welcome :D

@@ -1,0 +1,4 @@
+2008-02-01T07:19:00.000Z	compy		 so if i were using dd would i use this command dd if=/dev/cdrom of=/home/compy/Mr_Woodcock.iso
+2008-02-01T07:19:00.000Z	Jack_Sparrow	compy	if you invreease the bs= you can create it faster
+2008-02-01T07:20:00.000Z	compy	Jack_Sparrow	it takes about 10 second to do it... its only 368 MB so i have a feelign im not doing it right... does the dvd need to be unmounted before i run the dd command?
+2008-02-01T07:20:00.000Z	Jack_Sparrow	compy	dd if=/dev/cdrom of=/home/YourUserName/Desktop/file.iso bs=4k

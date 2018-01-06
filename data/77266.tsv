@@ -1,0 +1,4 @@
+2010-02-03T23:51:00.000Z	sivik		is there a way to add a very large range of ips, like over 200 without doing it per eth0:#?
+2010-02-03T23:52:00.000Z	tavish	sivik	try writing a bash script to generate the /etc/interfaces file
+2010-02-03T23:53:00.000Z	sivik	tavish	so there isn't a way like ifcfg-range# like in centos/redhat?
+2010-02-03T23:54:00.000Z	tavish	sivik	i dont know. but i think the script would be pretty easy to write. just use the hwaddr field only once.

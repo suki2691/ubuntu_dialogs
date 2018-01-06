@@ -1,0 +1,4 @@
+2009-09-30T18:40:00.000Z	Darck1		hi all - I put an "undelete" function in on my system but it's not working - I created a directory in /tmp to store my files that will be undeleted but /tmp gets cleaned out - I know I could just create a different directory for the files but I want to know how I can find out where /tmp gets cleaned out
+2009-09-30T18:41:00.000Z	Darck1		yeah thanks grawit - I already said that. I did a grep in /etc/init.d for tmp but didn't find anything
+2009-09-30T18:42:00.000Z	llutz	Darck1	/etc/default/rcS
+2009-09-30T18:44:00.000Z	llutz	Darck1	/etc/init.d/mountall-bootclean.sh

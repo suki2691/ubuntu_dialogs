@@ -1,0 +1,4 @@
+2012-11-21T14:49:00.000Z	hamidi		hi! i've a question please. i've a virtualbox server.  i've setup samba on it.  i changed the adapter from bridge to NAT.  i had to add an additional adapter with 'host only adapter' type so that Windows host may access the ubuntu 10.10 virtual server.  now samba can't access the shares i've setup on ubuntu.  what can i do?
+2012-11-21T14:50:00.000Z	hamidi		there must be a way, no?! :(
+2012-11-21T14:50:00.000Z	cookie1980	hamidi	you have to be on the same subnet
+2012-11-21T14:52:00.000Z	cookie1980	hamidi	why don´t you just put your virtual machine in your network? any security concerns?

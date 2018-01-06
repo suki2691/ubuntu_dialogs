@@ -1,0 +1,4 @@
+2007-05-20T13:42:00.000Z	ax		i installed the lowlatency kernel, i want that one to boot by default, how do i set it up so that when i upgrade grub will keep that as the default?
+2007-05-20T13:42:00.000Z	ax		i guess i could remove the generic kernel.. but do i have to?
+2007-05-20T13:42:00.000Z	Answer	ax	edit /boot/grub/menu.list for the default to lowlatency
+2007-05-20T13:43:00.000Z	ax	Answer	so when kerenel versions are upgraded that will stay the default?

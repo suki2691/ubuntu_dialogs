@@ -1,0 +1,4 @@
+2009-10-30T15:00:00.000Z	daleharvey		ok, got a bunch packages that are in dodgy states because ubuntu froze during install
+2009-10-30T15:01:00.000Z	daleharvey		apt-get remove doesnt work, it just errors
+2009-10-30T15:01:00.000Z	daleharvey		how can I get rid of them
+2009-10-30T15:02:00.000Z	ActionParsnip1	daleharvey	can you use http://pastebin.com   to provide the output of: sudo apt-get update; sudo apt-get -f install; sudo apt-get upgrade

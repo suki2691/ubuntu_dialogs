@@ -1,0 +1,4 @@
+2009-01-20T11:56:00.000Z	unomi		is there a way to restore my system to a previous state?
+2009-01-20T11:56:00.000Z	unomi		can i see which updates have been applied chronologically?
+2009-01-20T11:58:00.000Z	nickrud	unomi	grep installed /var/log/dpkg.log , and zgrep installed /var/log/dpkg.log.*.gz
+2009-01-20T11:58:00.000Z	nickrud	unomi	as you can gather, ubuntu doesn't use 'restore points'

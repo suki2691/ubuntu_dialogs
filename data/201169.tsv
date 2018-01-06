@@ -1,0 +1,4 @@
+2006-05-20T10:14:00.000Z	zaydana		does anybody know of a command that would let me chmod directories but not regular files?
+2006-05-20T10:14:00.000Z	zaydana		so I can chmod -R gu+x on something without putting the files as directories... ?
+2006-05-20T10:14:00.000Z	davidhouse	zaydana	a combination of find and xargs chmod will do
+2006-05-20T10:16:00.000Z	davidhouse	zaydana	something like find -type f | xargs chmod <permissions> might do it

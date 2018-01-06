@@ -1,0 +1,4 @@
+2009-11-05T22:50:00.000Z	qwas_		why is my /etc/modules file only have lp in it?
+2009-11-05T22:51:00.000Z	llutz	qwas_	why should it contain more?
+2009-11-05T22:53:00.000Z	qwas_	llutz	so there is no list of modules to load on boot?
+2009-11-05T22:53:00.000Z	llutz	qwas_	they were loaded on demand by hal/udev  etc. /etc/modules is to force the load of modules

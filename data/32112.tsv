@@ -1,0 +1,4 @@
+2010-05-12T00:00:00.000Z	falafell		finally managed to get my bootdisk encrypted (luks), told the guided manager to use 20 out of 80gb, now all is setup and i'm stuck with 20gb usable space, where can i find/mount the rest?
+2010-05-12T00:01:00.000Z	falafell		/dev/mapper shows only the /boot space  and root and full crypt_device
+2010-05-12T00:03:00.000Z	frostschutz	falafell	fdisk -l, make a partition?
+2010-05-12T00:39:00.000Z	falafell	frostschutz	it only shows the full disk there 80gb

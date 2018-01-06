@@ -1,0 +1,4 @@
+2011-05-04T03:50:00.000Z	Osmodivs		Hello. Ok, so I sudo chmod in a /usr/share/amsn folder so I could drag and drop some files to /amsn/skins folder, but nowm the /usr/share/amsn folder does not have a lock icon, but inside that folder, ALL of the files have a lock icon. Is there a way to undu this?
+2011-05-04T03:51:00.000Z	Osmodivs		I sudo chmod 7777
+2011-05-04T03:52:00.000Z	kevin_	Osmodivs	you need to use a -R to recurse subdirectories if you want everything under /amsn to take on the new properties
+2011-05-04T03:54:00.000Z	Osmodivs	kevin_	Like: sudo chmod 7777 -D /usr/share/amsn

@@ -1,0 +1,4 @@
+2012-06-26T23:17:00.000Z	theadmin	jeremiah__	BIOS' don't normally offer formatting tools (a BIOS won't even know what a filesystem is). Do you mean a full wipe?
+2012-06-26T23:18:00.000Z	jeremiah__	theadmin	sorry, yes. that is what i meant
+2012-06-26T23:19:00.000Z	theadmin	jeremiah__	sudo fdisk /dev/sda. From there, "o" and then "w" -- that will pretty much re-initialize the entire drive.
+2012-06-26T23:20:00.000Z	jeremiah__	theadmin	umm... WARNING: Re-reading the partition table failed with error 16: Device or resource busy.

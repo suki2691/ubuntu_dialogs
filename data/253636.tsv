@@ -1,0 +1,4 @@
+2005-04-28T07:06:00.000Z	xhypno		I have a problem with my new laptop, and I was wondering if someone could help. This is not an install problem, I am very experienced with Linux. The distro is working perfectly, the problem is with the LEDs on the System. Under XP the WiFi on/off light works perfectly, under Linux it does not. If I cat /sys/bus/pci/drivers/ipw2200/*/rf_kill it shows a value of 0 when the WiFi is active and 2 if it is inactive. I am trying to find out how windo
+2005-04-28T07:08:00.000Z	xhypno		Come on, someone has to have a suggestion?
+2005-04-28T07:10:00.000Z	bwlang	xhypno	i  think that led is probably controlled by a bit in nvram ... you could have a look at madwifi to see how they do it  - i don't now how to dump nvram from windows but you could compare a dump from windows to a dump in linux
+2005-04-28T07:11:00.000Z	xhypno	bwlang	thanks for the suggestion, I am going try now

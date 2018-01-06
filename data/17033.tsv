@@ -1,0 +1,4 @@
+2011-05-29T06:27:00.000Z	thraspic		Can anyone explain why this script fails to connect me to the internet the first time I run it, but succeeds when I run it a second time?  http://pastebin.com/Y1aY9NXz
+2011-05-29T06:29:00.000Z	ActionParsnip	thraspic	try a small sleep (about 5 should do) just before the dhclient, may help
+2011-05-29T06:30:00.000Z	thraspic	ActionParsnip	many thanks, will try
+2011-05-29T06:30:00.000Z	ActionParsnip	thraspic	or one just after wlan up, so it has time to settle

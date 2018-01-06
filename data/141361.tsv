@@ -1,0 +1,4 @@
+2009-02-14T15:43:00.000Z	Budtske		I cannot mount my raid array by UUID, sudo vol_id -u /dev/device gives me the correct one, but it is not listed in /dev/disk/by-uuid/.
+2009-02-14T15:43:00.000Z	Budtske		so if i add it to fstab i get mount: special device /dev/disk/by-uuid/48af03d8-d9bf-4d52-bab7-19dde43163d6 does not exist
+2009-02-14T15:45:00.000Z	jrib	Budtske	does « ls -l /dev/disk/by-uuid/ » not show it at all then?
+2009-02-14T15:45:00.000Z	Budtske	jrib	it shows all devices except my raid5 partition

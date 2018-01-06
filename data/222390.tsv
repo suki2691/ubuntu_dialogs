@@ -1,0 +1,4 @@
+2005-09-23T14:20:00.000Z	LoVeLyPeRVeRT		hi all
+2005-09-23T14:20:00.000Z	LoVeLyPeRVeRT		i need to know if i can update ubuntu hoary 5.04 to 5.10
+2005-09-23T14:21:00.000Z	LoVeLyPeRVeRT		can wisper me please, how repository can i use to upgrade ubuntu from 5.04 to 5.10?
+2005-09-23T14:22:00.000Z	eamonn	LoVeLyPeRVeRT	make sure you have ubuntu-desktop installed (or kubuntu-desktop): apt-get install ubuntu-desktop. Then change all instances of Hoary to Breezy in /etc/apt/sources.list, then "sudo apt-get update && sudo apt-get dist-upgrade" Repeat the second command until it completes successfully.

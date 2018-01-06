@@ -1,0 +1,4 @@
+2011-08-10T11:32:00.000Z	subone	llutz	Hey thanks that solves one problem, lemme check if everything else is working
+2011-08-10T11:41:00.000Z	subone	llutz	Ok now I have "nls=iso8859-1,exec,users,_netdev,umask=000,user,owner" but i still cant execute binaries on the drive
+2011-08-10T11:51:00.000Z	subone	llutz	got that fixed. had to add exec to the end after user
+2011-08-10T12:08:00.000Z	subone	llutz	looks like i've fixed all my issues mounting it in fstab under my uid rather than default root

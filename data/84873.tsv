@@ -1,0 +1,4 @@
+2008-09-15T17:51:00.000Z	eugman		does anyone know where rtorrent will normally save the files from a torrent?
+2008-09-15T17:51:00.000Z	TiredWolf	eugman	i don't use it, but if you don't find them easily, they might be in a hidden $HOME/.rtorrent directory
+2008-09-15T17:52:00.000Z	eugman	TiredWolf	I'll take a look. How can I search from the command line if I wnated to?
+2008-09-15T17:52:00.000Z	TiredWolf	eugman	"ls $HOME/.rtorrent" if it exists, or "find $HOME | grep torrent" to search

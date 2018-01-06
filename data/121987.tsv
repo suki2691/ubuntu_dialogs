@@ -1,0 +1,4 @@
+2007-10-21T09:27:00.000Z	pupster		anyone know much about changing PKG_CONFIG_PATH so i can get a program that needs glib2.0 to see I have it as libglib2.0?
+2007-10-21T09:27:00.000Z	crdlb	pupster	you need the -dev package
+2007-10-21T09:27:00.000Z	crdlb	pupster	if there's a version of it in the repos, run sudo apt-get build-dep <packagename>
+2007-10-21T09:30:00.000Z	pupster	crdlb	bruenig : thanks! .. got it to work ..

@@ -1,0 +1,4 @@
+2011-07-03T17:21:00.000Z	computerx		Hi, I need to recover a disk image I created with dd if=/dev/sdc. It's ext4 but got a bad sector 1.1mb in which seems to have broken the "superblock"? I can't even fsck it. Any suggestions?
+2011-07-03T17:22:00.000Z	histo	computerx	how'd you create the image with dd with bad sectors?
+2011-07-03T17:23:00.000Z	histo		!install | cordoval
+2011-07-03T17:24:00.000Z	computerx	histo	with noerror flag

@@ -1,0 +1,4 @@
+2007-12-05T05:30:00.000Z	alzamabar		I can't connect to MySQL. I installed it, set a new password when asked but now I can't connect
+2007-12-05T05:31:00.000Z	alzamabar		ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: NO)
+2007-12-05T05:31:00.000Z	kitche	alzamabar	it's not using the password you need to give mysql a password for the account when your trying to login
+2007-12-05T05:34:00.000Z	kitche	alzamabar	when you do mysql -u root -p hit enter it will ask you for the password like it did enter your password there since I bet foo is not your password

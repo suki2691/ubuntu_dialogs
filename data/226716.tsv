@@ -1,0 +1,4 @@
+2005-09-01T10:45:00.000Z	dabar	redguy	you would actually in debian systems.... invoke-rc.d serverName start
+2005-09-01T10:45:00.000Z	redguy	dabar	isn't /etc/init.d/script start easier? Is there a difference?
+2005-09-01T10:47:00.000Z	dabar	redguy	yes, they [prefer you use invoke-rc.d other than that, I dont have a clue w t difference is.
+2005-09-01T10:51:00.000Z	redguy	dabar	it seems that invoke-rc.d won't run initscripts that aren't configured be run in the current runlevel. Neat

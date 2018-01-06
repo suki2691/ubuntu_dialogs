@@ -1,0 +1,4 @@
+2012-06-03T05:17:00.000Z	EDawg878		What do i add to the grub to make it boot to text mode so far i changed GRUB_TERMINAL=console #GRUB_CMDLINE_LINUX_DEFAULT=""
+2012-06-03T05:18:00.000Z	EDawg878		I dont have a line that mentions text so i guess i do GRUB_CMDLINE_LINUX_DEFAULT=text ?
+2012-06-03T05:18:00.000Z	Jordan_U	EDawg878	By "text mode" do you mean "booting to a terminal prompt" or "using VGA-text output rather than a graphical mode"?
+2012-06-03T05:19:00.000Z	EDawg878	Jordan_U	to a terminal prompt with no gui

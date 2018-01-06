@@ -1,0 +1,4 @@
+2007-09-08T08:15:00.000Z	drock		My Gnome desktop and panels take forever to come up after a reboot or login.
+2007-09-08T08:16:00.000Z	howlingmadhowie	drock	is it waiting for something? try booting without the splash and quiet options
+2007-09-08T08:17:00.000Z	howlingmadhowie	drock	i think it would. you can also have a look at the boot messages. i just like watching it boot :) you can find messages in /var/log/messages for example (there are lots of messages in /var/log for all sorts of things)
+2007-09-08T08:21:00.000Z	howlingmadhowie	drock	do you find samba slow in general? i was forced to work on a windows network recently and the shares were really slow between computers. so samba may just be a lot slower than nfs in general

@@ -1,0 +1,4 @@
+2007-04-30T09:03:00.000Z	crackintosh		Is there any way that I can get computers on my internal network to access a computer via the lan address instead of the domain? i.e. My website is hosted on my office network and connected via cable modem. There are other computers located on this network. When they try to connect to the domain where my website is hosted, is there a way to tell them that it faster to connect via the internal network?
+2007-04-30T09:04:00.000Z	stefg	crackintosh	look at /etc/hosts
+2007-04-30T09:04:00.000Z	crackintosh	stefg	but can I do this network wide via a linksys router?
+2007-04-30T09:05:00.000Z	stefg	crackintosh	can't tell.. my understanding is that you have to tell every individual box to access <domainname> by a LAN-IP, not by DNS lookup

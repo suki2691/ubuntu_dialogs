@@ -1,0 +1,4 @@
+2010-01-24T21:51:00.000Z	catphish		so can anyone tell me what process is reponsible for automounting of inserted mass storage devices in 9.10
+2010-01-24T21:51:00.000Z	erUSUL	catphish	devicekit disks
+2010-01-24T21:52:00.000Z	catphish	erUSUL	does devicekit just send signals to something in gnome?
+2010-01-24T21:52:00.000Z	erUSUL	catphish	probably; over dbus

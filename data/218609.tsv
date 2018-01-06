@@ -1,0 +1,4 @@
+2011-03-24T21:32:00.000Z	sipior	candyban	psusi: i was hoping it hooked into the fsck determination made by the last column in /etc/fstab. ah well.
+2011-03-24T21:19:00.000Z	candyban	sipior	cool ... i always forced it by tune2fs ... but how does it know which drives to check?
+2011-03-24T21:20:00.000Z	sipior	candyban	it looks for a "forcefsck" file at the root of every volume in /etc/fstab.
+2011-03-24T21:21:00.000Z	candyban	sipior	k ... thanks for the info :)

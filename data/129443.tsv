@@ -1,0 +1,4 @@
+2009-07-24T03:32:00.000Z	eggenz7		i have a intrepid install that was working beautifully...then yesterday i powerdown to move it to its permanant living quarters...now when i power up it get "boot from (hd0,0) ext *UUID#'s*
+2009-07-24T03:32:00.000Z	eggenz7		then it says "Starting up ..." and it never loads
+2009-07-24T03:33:00.000Z	eggenz7		well i dont have any experiance with uuids..how do i check them?
+2009-07-24T03:33:00.000Z	adante	eggenz7	fire up a livecd, in a console type 'blkid', compare it with the entries in your grub.conf

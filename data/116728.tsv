@@ -1,0 +1,4 @@
+2009-08-14T13:44:00.000Z	soig		i'm having this error when updating: "W: GPG error: http://ppa.launchpad.net hardy Release: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 7C5BAD1320A0D1DA" how can i fix this, please?
+2009-08-14T13:46:00.000Z	Berzerker	soig	sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 20A0D1DA
+2009-08-14T13:46:00.000Z	Berzerker	soig	then try again.
+2009-08-14T13:52:00.000Z	Berzerker	soig	took you long enough ;)

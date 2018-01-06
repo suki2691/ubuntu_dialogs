@@ -1,0 +1,4 @@
+2008-02-12T02:01:00.000Z	unagi		so basically......if your pc is in low-graphics mode, you have to reinstall ubuntu to get it working again?
+2008-02-12T02:02:00.000Z	pepperjack	unagi	no i hate the new safe mode thing for xorg i like the idea i guess but..  the answer though is no
+2008-02-12T02:03:00.000Z	unagi	pepperjack	why cant i get my graphics running again no matter what i do
+2008-02-12T02:04:00.000Z	pepperjack	unagi	for some reason i had to manually kill X when i changed xorg for it to work restarting id alt-ctrl-f2 and login and ps -A and if you see anything x related sudo kill -9 pidnumber  then edit the xorg file appropriately and sudo /etc/init.d/gdm restart. you may be running into a diff problem though

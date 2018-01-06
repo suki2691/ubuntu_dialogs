@@ -1,0 +1,4 @@
+2010-08-09T21:12:00.000Z	n-iCe		hello, is there any thing I can do to make my wireless connection more stable? the computer and the router are not moving and the signal strenght is just going down and going up, any ideas?
+2010-08-09T21:13:00.000Z	oCean_	n-iCe	a combination of installing linux-backports-modules-wireless and updating my router firmware helped me fix such a problem
+2010-08-09T21:14:00.000Z	n-iCe	oCean_	E: Couldn't find package linux-backports-modules-wireless
+2010-08-09T21:17:00.000Z	oCean_	n-iCe	the package name has kernel-name extension. Try like this: linux-backports-modules-wireless-`uname -r`  I'm not sure if it has modules for your wireless adapter..

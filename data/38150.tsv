@@ -1,0 +1,4 @@
+2010-06-01T02:15:00.000Z	mrAZ		interesting. my eth0 sometimes disconnects, and can't get dhcp again until i reboot. 10.04
+2010-06-01T02:15:00.000Z	kop	mrAZ	dhclient eth0 ?
+2010-06-01T02:16:00.000Z	mrAZ	kop	exactly. "no working leases ..."
+2010-06-01T02:17:00.000Z	kop	mrAZ	dhclient eth0 ? AND is it possible that the lease it's asking for from cache is being used elsewhere

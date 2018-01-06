@@ -1,0 +1,4 @@
+2007-10-11T07:25:00.000Z	gotama		Hi! Is there any way how to collect information of the hardware of a pc without having to open it? A fllopy disk solution?
+2007-10-11T07:26:00.000Z	gotama		I have no hard disk.
+2007-10-11T07:26:00.000Z	bulmer	gotama	if you were using windows , WMI would allow access to those, in linux, you proly have to dig through /proc
+2007-10-11T07:28:00.000Z	bulmer	gotama	if your nic card supports pxe, thats what you need

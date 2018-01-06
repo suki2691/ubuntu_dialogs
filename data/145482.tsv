@@ -1,0 +1,4 @@
+2009-08-16T04:43:00.000Z	ericab		can someone tell me why "sudo shutdown -h now" has completley stopped working, BUT "sudi init 0" works properly in shuttung the computer down ??
+2009-08-16T04:44:00.000Z	Flare183	ericab	You turn your computer off like this: sudo shutdown -P now
+2009-08-16T04:45:00.000Z	ericab	Flare183	i will try that, but "sudo shutdown -h now" used to work correctly, do you know what could have changed it ?
+2009-08-16T04:45:00.000Z	Flare183	ericab	No, I don't. But I do know that sudo shutdown -P now works.

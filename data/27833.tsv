@@ -1,0 +1,4 @@
+2010-11-10T13:59:00.000Z	wechat		is there any sense in RoundCube Webmail on DCHP-Internet box?
+2010-11-10T14:01:00.000Z	llutz_	wechat	static ip would be preferred but if you hold your dns uptodate, dhcp shouldn't matter
+2010-11-10T14:03:00.000Z	wechat	llutz_	thanks , I have to install bind9? What to try for training dovecot+postfix+courier : Ubuntu Server or ubuntu Desktop with X?
+2010-11-10T14:04:00.000Z	llutz_	wechat	a dns-proxy like dnsmasq should be sufficient and is much easier to setup than bind9. server/desktop... its your choice, i only run debian-servers :)

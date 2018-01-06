@@ -1,0 +1,4 @@
+2010-10-28T22:26:00.000Z	cmyrland		trying to build a patched version of wine to get fallout: new vegas working. 64-bit maverick. I've followed instructions here: http://wiki.winehq.org/WineOn64bit#head-f6a7d1b561fe7ce26bb3a061d96d16380d90d618, but it doesn't work. ./configure fails with "checking whether gcc -m32 works... no. configure: error: Cannot build a 32-bit program, you need to install 32-bit development libraries." Any help?
+2010-10-28T22:28:00.000Z	gartral|p	cmyrland	you need to install the 32bit dev libs, or reinstall ubuntu with the 32bit iso
+2010-10-28T22:32:00.000Z	cmyrland	gartral|p	do you have experience with building 32 bit programs in a 64 bit env.?
+2010-10-28T22:34:00.000Z	gartral|p	cmyrland	yea.. needless to say its a pain. You're honestly better off just reinstalling with 32bit and going from there

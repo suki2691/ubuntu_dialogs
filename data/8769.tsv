@@ -1,0 +1,4 @@
+2011-10-15T02:38:00.000Z	mike9863		Can anyone else assist me? I just upgraded to 11.10 and when I try to login it gives me an error that states: "could not update .ICEauthority file /home/mike/.ICEauthority. Also the login screen is the old one from 11.04 instead of the new one.
+2011-10-15T02:39:00.000Z	escott	mike9863	to get the new login screen you would need to install lightdm, you are likely using gdm. check the permissions on your .ICEauthority file
+2011-10-15T02:41:00.000Z	mike9863	escott	I tried making the permissions 777 and I still get the error.
+2011-10-15T02:43:00.000Z	escott	mike9863	who owns the file?

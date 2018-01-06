@@ -1,0 +1,4 @@
+2010-09-10T19:30:00.000Z	dwayne		could http://ubuntu.pastebin.com/9zhfMvL7 be related to the cyclone process that I can't seem to kill?  'ps aux' output for cyclone is: dwayne    2753  0.7  0.0      0     0 ?        ZN   Sep09   4:55 [cyclone] <defunct>
+2010-09-10T19:32:00.000Z	quiescens	dwayne	a defunct process is just a process that has finished or died or exited in some way, which its parent hasn't reaped
+2010-09-10T19:33:00.000Z	quiescens	dwayne	there isn't technically anything wrong with processes showing up as defunct unless more of them keep appearing under the same parent without the old ones disappearing
+2010-09-10T19:33:00.000Z	dwayne	quiescens	any chance you can take a look at my dmesg output (http://ubuntu.pastebin.com/9zhfMvL7), this ubuntu system is locking up daily

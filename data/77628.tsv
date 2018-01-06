@@ -1,0 +1,4 @@
+2009-10-07T06:28:00.000Z	dirka		is there a way to directly control  a linux box aside from going through ssh?  i do not have a working keyboard on the box itself but need to use the display its connect to
+2009-10-07T06:29:00.000Z	dirka		but will vnc work on console level?  xterm isnt working due to ati driver issues
+2009-10-07T06:30:00.000Z	asonge_	dirka	you can start a screen session on the display
+2009-10-07T06:30:00.000Z	asonge_	dirka	screen is like a multi-workspace cli...you get normal cli and ctrl+a to start a new term... man screen for more

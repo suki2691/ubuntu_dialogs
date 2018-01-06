@@ -1,0 +1,4 @@
+2006-06-13T07:45:00.000Z	Guest298		Is there any way to restore the system to a previous state by undoing installed/updated/deleted packages in Synaptic ? Any script for it ?
+2006-06-13T07:47:00.000Z	Guest298		Anyone know where Synaptic keeps its history ?
+2006-06-13T07:48:00.000Z	jighead	Guest298	/var/cache/apt/archives is where packages get dowloaded, is that what you want?
+2006-06-13T07:49:00.000Z	Guest298	jighead	No, in Synaptic, you can have the history of what was made in the past (installed/updated/deleted packages). I know to know in which file it is stored... it should be one file only, but it could be one for each set of task also

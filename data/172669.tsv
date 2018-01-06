@@ -1,0 +1,4 @@
+2007-07-02T15:46:00.000Z	aboutblank		do Ubuntu *need* a swap partition to boot? I'm either going to make a RAID 1, or RAID 0 software array for swap OR I'm going to not use RAID and set multiple partitons with the same priority. If I use RAID 0 and one drive dies, will Ubuntu boot w/o a swap file?
+2007-07-02T15:47:00.000Z	pike_	aboutblank	you can boot without swap
+2007-07-02T15:47:00.000Z	pike_	aboutblank	you can either make a swap partition or a swap file if you want later
+2007-07-02T15:48:00.000Z	aboutblank	pike_	Okay... so in my case I might make multiple swap partions and have them the same priority instead of making a software raid device. Thanks :)

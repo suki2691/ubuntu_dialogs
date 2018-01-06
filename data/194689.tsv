@@ -1,0 +1,4 @@
+2006-07-12T11:23:00.000Z	yipe		how do I remove un-needed items from the boot sequence? Like PCMCIA (which fails anyways) and RAID
+2006-07-12T11:23:00.000Z	yipe		I think bluetooth was in there...
+2006-07-12T11:24:00.000Z	DBO	yipe	sudo apt-get install sysv-rc-conf
+2006-07-12T11:24:00.000Z	DBO	yipe	then sudo sysv-rc-conf, and uncheck whatever you dont use

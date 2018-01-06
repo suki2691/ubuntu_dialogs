@@ -1,0 +1,4 @@
+2010-05-22T22:43:00.000Z	fatalnix		is there a way I can tell maybe dpkg or apt to ignore a particular problematic dependency which I installed on my own?
+2010-05-22T22:44:00.000Z	eye-zak	fatalnix	not exactly, but you can force a version so it is locked and apt / synaptic will not upgrade it
+2010-05-22T22:44:00.000Z	eye-zak	fatalnix	if the package u installed does not satisfy the dependency by dpkg standards, you can also use equivs
+2010-05-22T22:46:00.000Z	eye-zak	fatalnix	for complex dependency issues i use aptitude, it has the best conflict resolution and shows you exactly what a package needs easily

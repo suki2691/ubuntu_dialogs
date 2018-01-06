@@ -1,0 +1,4 @@
+2008-08-14T05:24:00.000Z	moolcool		anyone?
+2008-08-14T05:25:00.000Z	_2	moolcool	it's a kernel update     try booting an older kernel
+2008-08-14T05:26:00.000Z	_2	moolcool	the busybox shell is within the initramfs and means that the root fs was not mounted... you can "if you know how" mount the root fs and continue to load the system from there.
+2008-08-14T05:27:00.000Z	_2	moolcool	i would love to explain all the whyfor's and hithertoo's about it.  but there are lots of docs already writen on the web.    select an older kernel at boot time   in the grub menu.

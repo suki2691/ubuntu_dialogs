@@ -1,0 +1,4 @@
+2006-11-24T17:21:00.000Z	Tomcat_	Enselic	Use egrep instead of grep... that should do it.
+2006-11-24T17:23:00.000Z	Enselic	Tomcat_	It appears as if the message was used as stderr,      cvs up 2>&1 | grep ^[^cP]     worked
+2006-11-24T17:23:00.000Z	Tomcat_	Enselic	Mh... regular grep should work. Maybe try: grep "^[^cP] "
+2006-11-24T17:23:00.000Z	Tomcat_	Enselic	Or that, alright. :D

@@ -1,0 +1,4 @@
+2008-12-13T12:14:00.000Z	chx		I am running Hardy and would like have the 27 kernel. i am wondering whether it'd be possible to add the intrepid repos to my sources list and somehow convince apt-get to use those repos for the necessary kernel packages. I presume this is possible, is there some docs I could read on this ? someone would please guide me?
+2008-12-13T12:15:00.000Z	onetinsoldier	chx	yeah, the kernel package probably has way to many dependencies to overcome, but you can always compile your own from source(non-package that way)
+2008-12-13T12:16:00.000Z	chx	nickrud	are you sure? It's not like the kernel woudl use anything from the system ... i just wonder. I know how to compile a kernel, thanks.
+2008-12-13T12:17:00.000Z	onetinsoldier	chx	i bet i can name a package right off the top of my head that's kernel package dep.. module-init-tools... that's just one example, of many i'm sure

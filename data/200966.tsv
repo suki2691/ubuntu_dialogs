@@ -1,0 +1,4 @@
+2006-02-24T10:22:00.000Z	Steven_M		ow can you run a program as a different user if kde is loged in as a non-admin account? (non-admin meaning an account with no sudo access) The "run as different user" option in Run Command only seems to want a sudo password, instead of the password for the user whom you're trying to run the program as.
+2006-02-24T10:24:00.000Z	wastrel	Steven_M	 su -c  ?
+2006-02-24T10:27:00.000Z	Steven_M	wastrel	when ever I use su it complains that it can't connct to xserver.
+2006-02-24T10:32:00.000Z	wastrel	Steven_M	 ahh yes, $DISPLAY and x server access... hmm i dunno :/

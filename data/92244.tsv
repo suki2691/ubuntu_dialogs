@@ -1,0 +1,4 @@
+2009-02-14T20:41:00.000Z	judgepg		Hi folks, I am trying to mount my USB external drive in fstab.  When I add the line, and run mount -a the drive is mounted for root, but as a non-root I cannot read, but cannot write to it.  Any thoughts?
+2009-02-14T20:42:00.000Z	notwist	judgepg	maybe use chmod to change the rights for your user
+2009-02-14T20:42:00.000Z	judgepg	notwist	I cannot chmod a mounted partition
+2009-02-14T20:42:00.000Z	notwist	judgepg	why? sudo?

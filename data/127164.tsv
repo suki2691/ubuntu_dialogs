@@ -1,0 +1,4 @@
+2010-01-24T04:22:00.000Z	joh6nn		i'm having some serious slowdown with my wireless connection, compared to the speeds that i had in both Hardy and Jaunty.  I've tried disabling ipv6 and a few other things, but nothing seems to help
+2010-01-24T04:24:00.000Z	ganymede	joh6nn	do you have a broadcom chipset? if so, try pinging your access point. if your pings are above 100 or 200 ms, then maybe it's because network-manager scans for APs every few seconds. in that case, try switching to wicd
+2010-01-24T04:24:00.000Z	joh6nn	ganymede	no, atheros
+2010-01-24T04:24:00.000Z	ganymede	joh6nn	oh, beats me... =/

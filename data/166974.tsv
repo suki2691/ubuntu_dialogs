@@ -1,0 +1,4 @@
+2006-09-22T10:51:00.000Z	ubunter		hi. what default number should i type in menu.lst to start windows on default?
+2006-09-22T10:52:00.000Z	cablesm102	ubunter	I think you need to move the Windows option to the top
+2006-09-22T10:55:00.000Z	cablesm102	ubunter	try gksudo gedit /boot/grub/menu.lst
+2006-09-22T10:56:00.000Z	ubunter	cablesm102	- works, thanks

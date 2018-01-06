@@ -1,0 +1,4 @@
+2010-05-08T01:20:00.000Z	dewman		how do i remove a package that has gone bad?
+2010-05-08T01:22:00.000Z	dewman		here it is.... http://paste.ubuntu.com/429699/
+2010-05-08T01:23:00.000Z	dewman		its software for a brother scanner.
+2010-05-08T01:24:00.000Z	Plugh	dewman	dpkg --purge. You may need --force depending on what problem you have with the package. Another option would be to force a reinstall of the bad package or do a reconfigure of it.

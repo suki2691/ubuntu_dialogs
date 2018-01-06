@@ -1,0 +1,4 @@
+2006-06-15T12:37:00.000Z	BearKnuckle		I added this line to /etc/apt/sources.list: deb http://repo.jahshaka.org/ubuntu/dapper/binary-i386 ./ and if I want to install something this happens: Failed to fetch http://repo.jahshaka.org/ubuntu/dapper/binary-i386/binary-i386//jahshaka_2.0rc3_i386.deb  404 Not Found
+2006-06-15T12:37:00.000Z	BearKnuckle		Is there a way to correct this error?
+2006-06-15T12:37:00.000Z	Cin	BearKnuckle	did you do 'sudo apt-get update' first?
+2006-06-15T12:38:00.000Z	BearKnuckle	Cin	Yes.

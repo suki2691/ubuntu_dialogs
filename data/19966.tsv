@@ -1,0 +1,4 @@
+2011-06-20T23:00:00.000Z	sgillet		hey all, I use "last [user] -a" command to check the last login/logouts of a user.. but it only shows me the history back to the 2nd of june
+2011-06-20T23:00:00.000Z	sgillet		do you know anything that can go earlier?
+2011-06-20T23:01:00.000Z	oCean	sgillet	see your wtmp.X files in /var/log. Use last -f /var/log/wtmp.1 for example
+2011-06-20T23:05:00.000Z	sgillet	oCean	thank you

@@ -1,0 +1,4 @@
+2010-11-27T01:48:00.000Z	jaraco|x		I'm reading about Upstart in ubuntu and comparing it against daemontools. We currently use daemontools for two purposes - to startup and monitor a process, and to log the process output to a centralized location (via multilog). I understand Upstart does the former. Does it also facilitate logging?
+2010-11-27T01:49:00.000Z	a_bug	jaraco|x	you can use rsyslogd for the remote logging I guess
+2010-11-27T01:52:00.000Z	a_bug		what kind of fs are you trying to mount ? mount -t that filesystem
+2010-11-27T01:52:00.000Z	jaraco|x	a_bug	Thanks for the tip.

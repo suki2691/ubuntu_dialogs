@@ -1,0 +1,4 @@
+2007-08-22T07:01:00.000Z	VitrinuS		Anyone knows how to delete every file found with locate ndiswrapper with the rm command?
+2007-08-22T07:02:00.000Z	Pici	VitrinuS	this should work: sudo find / -name "*ndiswrapper*" -delete     I really really really dont reccomend doing it though, you idealy should be purging out those config files using apt.
+2007-08-22T07:02:00.000Z	Pici	VitrinuS	then dont do that, use apt.
+2007-08-22T07:03:00.000Z	Pici	VitrinuS	sudo apt-get remove --purge ndiswrapper ; sudo apt-get install ndiswrapper

@@ -1,0 +1,4 @@
+2007-01-10T12:45:00.000Z	_jpierre		Hello. I have a problem. My network card says that there is no connection whereas when booting from the live CD it's working. How do I fix it? any clues?
+2007-01-10T12:47:00.000Z	_jpierre		Hello. I have a problem. My network card says that there is no connection whereas when booting from the live CD it's working. How do I fix it? any clues?
+2007-01-10T12:48:00.000Z	pike_	_jpierre	sudo apt-get install linux-restricted-modules-$(uname -r)      do that incase its not already installed
+2007-01-10T12:49:00.000Z	_jpierre	pike_	I can't do that as my network is not working any other ideas?

@@ -1,0 +1,4 @@
+2007-08-03T08:20:00.000Z	boris__		hello people
+2007-08-03T08:20:00.000Z	boris__		how can i change default login manager in dapper ?
+2007-08-03T08:21:00.000Z	boris__		i got both gnome and kde installed, im running gnome, and default login manager is kdm
+2007-08-03T08:22:00.000Z	ConstyXIV	boris__	sudo nano /etc/X11/default-display-manager, and change to ether /usr/sbin/gdm, /usr/bin/kdm, or some exotic login manager you know of

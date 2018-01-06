@@ -1,0 +1,4 @@
+2008-04-21T17:53:00.000Z	PodMan99a		hey all... using 7.10 installing php5 however /usr/lib/apache2/modules/libphp5.so is not installed?? any ideas?
+2008-04-21T17:54:00.000Z	xpoint	PodMan99a	revdep-rebuild
+2008-04-21T17:54:00.000Z	PodMan99a	Lamego	apt-get install apache2-mod-php5 does not exist
+2008-04-21T17:55:00.000Z	xpoint	PodMan99a	apt-cache search php5

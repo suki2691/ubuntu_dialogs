@@ -1,0 +1,4 @@
+2004-11-07T13:36:00.000Z	tmartin		hi all
+2004-11-07T13:37:00.000Z	tmartin		i just installed the essential build tools package for c/c++ development but it seems the libraries arent linked becuase im getting errors on cout when i already included iostream
+2004-11-07T13:38:00.000Z	HcE	tmartin	"#include <iostream>" at top?
+2004-11-07T13:38:00.000Z	HcE	tmartin	and use cout as: "std::cout << "Hello world!" << std::endl;" ?

@@ -1,0 +1,4 @@
+2006-04-19T10:16:00.000Z	illnor		hello, i installed ubuntu as a dual-boot on this older machine, and the screen flickers quite a bit in ubuntu, but not in xp. what needs to be done?
+2006-04-19T10:17:00.000Z	illnor		how do I change the frequency?
+2006-04-19T10:18:00.000Z	illnor		I can tell from this monitor what the settings are.. FH 67.5kHz, FV 74.98 Hz
+2006-04-19T10:19:00.000Z	intelikey	illnor	the   HorizSync  &  VertRefresh  in  /etc/X11/xorg.conf  need to be set for your monitor.   if you can find your monitor on  http://monitorworld.com  put the rates in the  /etc/X11/xorg.conf file

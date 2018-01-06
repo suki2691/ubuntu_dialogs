@@ -1,0 +1,4 @@
+2009-10-18T04:15:00.000Z	pccc		How do I sudo as user in Ubuntu? "sudo -i -u username" as stated in the documentation doesn't work.
+2009-10-18T04:16:00.000Z	trism	pccc	sudo -u username commands should work
+2009-10-18T04:17:00.000Z	pccc	trism	apparently I need to do 'sudo su' first
+2009-10-18T04:19:00.000Z	trism	pccc	strange, because sudo -u postgres works fine when I'm working with postgresql

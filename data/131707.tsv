@@ -1,0 +1,4 @@
+2011-01-19T05:35:00.000Z	julia_231		I have 24 gig unallocated at the beginning of my drive I want to use for /boot and for "/" I already created a new /home and copied my old profile. I have my old extended partition 50 gigs, and a swap 2 gig.  I can only create 1 more primary partition...
+2011-01-19T05:35:00.000Z	julia_231		so I am kind of stuck.  I don't want to delete my old extended partition just yet, in case I lose critical data
+2011-01-19T05:36:00.000Z	julia_231		can I delete my swap and still boot without having to tweak any settings?
+2011-01-19T05:38:00.000Z	bastidrazor	julia_231	you should put a comment, an # , in front of the line that contains swap in /etc/fstab.. gksudo gedit /etc/fstab   is the command to be able to edit it

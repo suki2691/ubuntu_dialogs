@@ -1,0 +1,4 @@
+2010-07-07T12:16:00.000Z	tlarson	rob_p	scripts in init have to repsond properly to "start" "stop" etc. Just add a line to /etc/rc.sysinit -- it only runs at startup and requires no real intelligence to edit
+2010-07-07T12:17:00.000Z	tlarson		sorry -- rc.local, not rc.sysinit
+2010-07-07T12:17:00.000Z	rob_p	tlarson	Yes.  That's why I said put it's init script in /etc/init.d.
+2010-07-07T12:17:00.000Z	rob_p	tlarson	It's trivial to create an init script for just about anything! :-)

@@ -1,0 +1,4 @@
+2009-04-10T02:59:00.000Z	Im_Toast		Hey, is there a way to use grep to like I want everything that includes ~ but I don't want anything that has cache
+2009-04-10T03:00:00.000Z	Im_Toast		so I can 'locate *~* | grep' but... what would make grep show everything but cache?
+2009-04-10T03:00:00.000Z	mgolisch	Im_Toast	add |grep -v cache ?
+2009-04-10T03:01:00.000Z	mgolisch	Im_Toast	-v reverses the match it only prints lines not matching that pattern

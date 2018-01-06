@@ -1,0 +1,4 @@
+2010-07-13T00:44:00.000Z	rallias		does anyone know a good dns lookup program?
+2010-07-13T00:46:00.000Z	rallias		how do i set my dns server to localhost?
+2010-07-13T00:48:00.000Z	vlt	rallias	You might need to set a rule in dhclient.conf if you get your DNS servers by DHCP
+2010-07-13T00:49:00.000Z	vlt	rallias	Look for "supersede" in the conf file's examples

@@ -1,0 +1,4 @@
+2008-01-27T06:06:00.000Z	BetaTest		It tells me that the sound device /dev/dsp is busy, so VMware can't play any sound, can I get some help please?
+2008-01-27T06:07:00.000Z	compwiz18	BetaTest	close all programs using sound
+2008-01-27T06:07:00.000Z	compwiz18	BetaTest	run lsof /dev/dsp to find the programs that are using it
+2008-01-27T06:08:00.000Z	BetaTest	compwiz18	last night I had sound working for both VM and the actual Ubuntu box

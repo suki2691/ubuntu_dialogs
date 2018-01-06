@@ -1,0 +1,4 @@
+2006-09-24T13:18:00.000Z	skeff		hi! I was wondering what options do I have for doing a thorough check of my harddrive which can detect even physical errors? I experienced a crash once in Ubuntu where the harddrive seemed to go bananas.  After this incident everything on my harddrive was lost, and for some reason windows xp fails to install onto the drive, but linux doesn't complain. I had windows on it before the crash.
+2006-09-24T13:18:00.000Z	sethk	skeff	badblocks
+2006-09-24T13:20:00.000Z	skeff	sethk	ok.. thanks
+2006-09-24T13:26:00.000Z	skeff	sethk	crap... it seems the badblocks program quickly triggered the error I was afraid of.  dmesg says "ata1: status=0x51 { DriveReady SeekComplete Error }" and "ata1: translated ATA stat/err 0x51/40 to SCSI SK/ASC/ASCQ 0x3/11/04"  ... anything useful? Or somone else I can ask about this?

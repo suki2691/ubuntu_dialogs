@@ -1,0 +1,4 @@
+2007-03-03T08:53:00.000Z	Lazergunz		Trying to install the Nvidia drivers still >.<, done everything so far apart from it sais ' No precompiled Kernal Inteface ' and it cant find a suitable. Any ideas?
+2007-03-03T08:55:00.000Z	linxeh	Lazergunz	check /etc/default/linux-restricted-modules-common etc
+2007-03-03T08:55:00.000Z	linxeh	Lazergunz	make sure "nv" doesnt appear in the list of modules
+2007-03-03T08:56:00.000Z	linxeh	Lazergunz	and make sure you have nvidia-glx etc installed

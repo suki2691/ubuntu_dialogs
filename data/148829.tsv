@@ -1,0 +1,4 @@
+2008-04-17T03:12:00.000Z	kristofernathan		when trying to install cabextract, i use sudo apt-get install cabextract  but it results in "E: Couldn't find package cabextract"  any ideas???
+2008-04-17T03:13:00.000Z	unop	kristofernathan	you have to have the universe repository enabled - see "software properties" in the system/admin menu
+2008-04-17T03:15:00.000Z	unop	kristofernathan	you might need to run apt-get update first
+2008-04-17T03:16:00.000Z	unop	kristofernathan	sudo apt-get update;  sudo apt-get install cabextract

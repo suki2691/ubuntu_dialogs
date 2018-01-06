@@ -1,0 +1,4 @@
+2005-12-19T13:35:00.000Z	czr	erick	System/Administration/Networking
+2005-12-19T13:36:00.000Z	czr	erick	are you using dhcp or static IP?
+2005-12-19T13:37:00.000Z	czr	erick	select eth0, then press properties, then switch out of dhcp there
+2005-12-19T13:37:00.000Z	czr	erick	man interfaces and edit /etc/network/interfaces and use ifdown eth0 and ifup eth0

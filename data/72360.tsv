@@ -1,0 +1,4 @@
+2008-12-10T12:43:00.000Z	Zeroedout		sushiX:try  "gnome-session-properties" in the terminal and see what errors it spits out
+2008-12-10T12:45:00.000Z	sushiX	Zeroedout	it says could not connect to the session manager
+2008-12-10T12:48:00.000Z	Zeroedout	sushiX	https://bugs.launchpad.net/ubuntu/+source/gnome-session/+bug/237872 seems to have the same problem
+2008-12-10T12:49:00.000Z	Zeroedout	sushiX	one solution was to delete the ~/.kde diretory, but I cna't figure out why that would work. Try it anyway, other wise kill X ctrl alt bkspc and see if it still happens

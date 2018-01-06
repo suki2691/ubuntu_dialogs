@@ -1,0 +1,4 @@
+2009-12-05T18:40:00.000Z	webus		hi to all.after installing updates on xubuntu, boot stops working keyboard and mouse. screen appears enter the name and password, but mouse and keyboard do not work. and the system itself does not hang. how to solve this problem?
+2009-12-05T18:41:00.000Z	MASARUwota	webus	something wrong with HAL
+2009-12-05T18:43:00.000Z	MASARUwota	webus	make sure HAL starts at boot by throwing it into /etc/init.d
+2009-12-05T18:44:00.000Z	MASARUwota	webus	input autodetect, like keyboards and mouse

@@ -1,0 +1,4 @@
+2006-01-01T13:28:00.000Z	antoni_NT		hello everybody, remember me. Now I cannot acces NTFS volumes on my system, what's wrong, why only root can do that
+2006-01-01T13:29:00.000Z	antoni_NT		it can only be read by root, i want to change it but it says it read only disk, what changes I need in fstab
+2006-01-01T13:31:00.000Z	linux_galore	antoni_NT	you need to install "captive" the NTFS module will only "read" not write or erase because Microsoft has released no or little information on NTFS and yes Microsoft changes NTFS with little or no warning
+2006-01-01T13:31:00.000Z	linux_galore	antoni_NT	captive uses your "windows dll files" so it can read write and erase files

@@ -1,0 +1,4 @@
+2005-02-18T13:34:00.000Z	gsuveg		how can i change fsck time ?
+2005-02-18T13:34:00.000Z	gsuveg		now run fsck every 30 boot, this is short to me
+2005-02-18T13:35:00.000Z	johns_	gsuveg	tune2fs -c max-mount-counts 50
+2005-02-18T13:37:00.000Z	johns_	gsuveg	i guess you could tel tune2fs to check every x days

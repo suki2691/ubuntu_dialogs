@@ -1,0 +1,4 @@
+2009-08-16T20:56:00.000Z	revygttam		how can i find out what port wakeonlan is listening on?
+2009-08-16T20:57:00.000Z	llutz	revygttam	 it's your NIC which has to listen
+2009-08-16T20:59:00.000Z	revygttam	grawity	yeah its actually working, but when i try to wake the computer with my router it doesnt wake, it said it sends on port 40000 so i didnt know if a port was the cause
+2009-08-16T21:00:00.000Z	llutz	revygttam	 use "sudo ethtool ethX" to find out, if your NIC has wol switched on

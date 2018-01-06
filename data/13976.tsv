@@ -1,0 +1,4 @@
+2011-10-28T02:37:00.000Z	ev_		when using scp -r to copy a whole folder does one have to cd into the folder to be moved, or can  the pathname be given? e.g. scp -r /media/hdd/home/user/ blah@ip:/home/backup doesnt seem to be working
+2011-10-28T02:38:00.000Z	lokus	ev_	no, you dont need to be in the dir. first glance that should work fine, whats the prob?
+2011-10-28T02:41:00.000Z	ev_	lokus	when i du -sh the folder to be moved is 21GB. Twice i have tried and everything copies fine...but it copies everything, from where i dunno. Maxes out my hdd, 100GB+
+2011-10-28T02:43:00.000Z	ev_	lokus	http://pastebin.com/LTnCRq8Q

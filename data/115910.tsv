@@ -1,0 +1,4 @@
+2009-09-10T22:47:00.000Z	dsfghadas		anyone tell me how to turn services of perminent at line command ?
+2009-09-10T22:47:00.000Z	dsfghadas		instead of /etc/init.d/<service> stop
+2009-09-10T22:49:00.000Z	dsfghadas		how do i know which rc.*.d it is ?
+2009-09-10T22:49:00.000Z	joeb3_	dsfghadas	look in /etc/rc2.d.  Remove the file that starts the service.

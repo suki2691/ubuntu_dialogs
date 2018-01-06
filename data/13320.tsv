@@ -1,0 +1,4 @@
+2011-11-17T05:10:00.000Z	marsfligth		How to close the 'sudo' lease. For instance, when finished an operation with 'sudo', the system keeps ''open'' the previous given password permit also if I start another sudo instance and keeps 'open' for 10 mins. So, how can I stop/close that 'open elevation' status? I tried with 'exit' and 'sync' unsuccesfully
+2011-11-17T05:11:00.000Z	Lasers	marsfligth	sudo -k
+2011-11-17T05:11:00.000Z	marsfligth	Lasers	Thanks
+2011-11-17T05:11:00.000Z	Lasers	marsfligth	Np

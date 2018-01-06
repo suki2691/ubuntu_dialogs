@@ -1,0 +1,4 @@
+2010-05-29T21:54:00.000Z	userone		i just formatted my 1tb hdd in ext4. ubuntu reads it perfectly but there is an automatically created file 'lost+found'. what is this and should i leave it or delete it?
+2010-05-29T21:55:00.000Z	cfedde	userone	lost+found is the directory where the fsck puts broken files
+2010-05-29T21:55:00.000Z	cfedde	userone	it is rarely used but is probably worth leaving.
+2010-05-29T21:55:00.000Z	userone	cfedde	thanks...so i should just leave it, right?

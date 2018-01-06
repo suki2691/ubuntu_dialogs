@@ -1,0 +1,4 @@
+2005-12-11T09:07:00.000Z	reagleBRKLN		When i copy a large file, my whole system crawls. Yes, dma is turned on. Any suggestions or is this normal for a cp or kio_file to dominate the resources?
+2005-12-11T09:08:00.000Z	trappist	reagleBRKLN	a) are you sure dma was successfully turned on?  sounds like your ide controller isn't (fully) supported
+2005-12-11T09:09:00.000Z	reagleBRKLN	trappist	hdparm thinks so, see http://rafb.net/paste/results/tCQk4V82.html
+2005-12-11T09:09:00.000Z	trappist	reagleBRKLN	I'm stuck in a console atm so I'll take your word for it.  you might check dmesg for anything unusual.

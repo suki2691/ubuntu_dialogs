@@ -1,0 +1,4 @@
+2006-08-19T10:45:00.000Z	rayston		I just added a new hard drive, but it says I dont have permissions when I try to add files to it
+2006-08-19T10:45:00.000Z	funkmaster	rayston	how did u moutn it?
+2006-08-19T10:47:00.000Z	funkmaster	rayston	try to chmod the directory where u mounted the harddrive
+2006-08-19T10:48:00.000Z	funkmaster	rayston	chown -R user:group /mounted/driectory

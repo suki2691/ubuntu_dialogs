@@ -1,0 +1,4 @@
+2011-01-31T00:34:00.000Z	drt39193		Hello, how can i manually resolve domain name on the local machine, without it querying a dns server?
+2011-01-31T00:34:00.000Z	izinucs	drt39193	put it in /etc/hosts  .. a line like 192.168.0.102   server ... then you can ssh with ssh server@server
+2011-01-31T00:35:00.000Z	drt39193	izinucs	ok, thank you
+2011-01-31T00:35:00.000Z	izinucs	drt39193	sure.. actually it'd be ssh <username on server>@server

@@ -1,0 +1,4 @@
+2012-09-09T06:09:00.000Z	elijah		Hey guys, accidentally removed myself from all groups, now I cannot sudo anything. How can run a command to fix it without logging out?
+2012-09-09T06:10:00.000Z	elijah		well, at least it isn't a server, lol
+2012-09-09T06:11:00.000Z	pepperjack	elijah	i usually boot into single user shell then mount -o remount,rw / to remount root writable
+2012-09-09T06:46:00.000Z	pepperjack	elijah	my /etc/sudoers file contains simply a like like:  %sudo  ALL=(ALL:ALL) ALL

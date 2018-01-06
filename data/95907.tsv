@@ -1,0 +1,4 @@
+2008-04-14T08:19:00.000Z	ani1		I have a Belkin 7050 using rt73 driver the device is recognized but it cannot scan for new networks the modules are loaded correctly as rebooting shows my wlan0 with correct iwconfig output and dmesg | grep rt73 along with lshw show that the driver is loaded. I have wifi-radar and kwifimanager both of which will not show new AP's. Kwifimanager is flaky and sometimes displays our neighbors...
+2008-04-14T08:19:00.000Z	ani1		...router but not often and its never displayed any of the 3 routers in our house that the windows machine finds :\. I have tried sudo iwlist wlan0 scan but it never pulls results any way to scan for wifi networks for the rt73 usb devices or wireless tricks to get this working?
+2008-04-14T08:21:00.000Z	ani1		its a gui prog for setting up wifi networks
+2008-04-14T08:21:00.000Z	Zelta	ani1	http://ubuntuforums.org/showthread.php?t=563547

@@ -1,0 +1,4 @@
+2007-08-04T06:17:00.000Z	j2daosh		how do i reopen a file i have "stopped"?
+2007-08-04T06:17:00.000Z	j2daosh		i hit ctrl+z to undo a change, but it "stopped" my vim
+2007-08-04T06:18:00.000Z	preaction	j2daosh	type "jobs" to figure out what job number vim is. then "fg #"
+2007-08-04T06:18:00.000Z	preaction	j2daosh	in the future: the "u" key in normal mode will undo changes. type :help undo

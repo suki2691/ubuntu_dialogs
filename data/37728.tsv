@@ -1,0 +1,4 @@
+2011-03-23T10:06:00.000Z	Andy-at-home		how do I compress everything in the current directory without taking the full filepath? when I extract the tar i get the structure from the old /var/www/currentdirectory/subdirectories instead of allfile/subdirectories
+2011-03-23T10:06:00.000Z	ohsix	Andy-at-home	cd /thatdirectory tar cf file.tar .
+2011-03-23T10:09:00.000Z	ohsix	Andy-at-home	that trailing dot is important, it's the directory to archive, and it means "this directory"
+2011-03-23T10:09:00.000Z	ohsix	Andy-at-home	you might want to make it cvf, so it shows progress

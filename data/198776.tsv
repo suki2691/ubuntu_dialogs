@@ -1,0 +1,4 @@
+2006-06-21T10:40:00.000Z	hou5ton		my laptop screen is 1440x900 ... so I went into etc/X11/xorg.conf and made the addition, but after restarting X it is still 1024x768, and that is the highest option offered by the screen resolution menu.  I changed it in Breezy ... what am I missing here?
+2006-06-21T10:41:00.000Z	farous	hou5ton	jsut a note you restarted X right after you made the change
+2006-06-21T10:43:00.000Z	hou5ton	farous	yes .. ahve restarted X
+2006-06-21T10:44:00.000Z	farous	hou5ton	backup your xorg.conf file then sudo  dpkg-reconfigure xserver-xorg

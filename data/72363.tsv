@@ -1,0 +1,4 @@
+2008-12-03T06:42:00.000Z	linux29684		anyone know how to lock the /etc/resolv.conf from changing upon reboot?
+2008-12-03T06:44:00.000Z	linux29684		anyone know how to lock the /etc/resolv.conf from changing upon reboot?
+2008-12-03T06:45:00.000Z	CutMeOwnThroat	linux29684	find out what changes it and configure that - normally it's dhclient
+2008-12-03T06:46:00.000Z	linux29684	CutMeOwnThroat	checked the dhclient.conf, and it was not that; it was a bug in kvpnc changing my dns /etc/resolv.conf

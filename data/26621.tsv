@@ -1,0 +1,4 @@
+2011-09-01T15:25:00.000Z	RamtinA		hey , i want remove openoffice.org
+2011-09-01T15:26:00.000Z	RamtinA		and write " sudo apt-get autoremove openoffice.org-* "in terminal
+2011-09-01T15:27:00.000Z	RamtinA		my system crashed ( cause of my low system ) and now when i type " sudo apt-get autoremove openoffice.org-* " , say : " E: dpkg was interrupted, you must manually run 'sudo dpkg --configure -a' to correct the problem."
+2011-09-01T15:27:00.000Z	glebihan	RamtinA	first it's not "autoremove" but "remove", second you should do as said an run "'sudo dpkg --configure -a"

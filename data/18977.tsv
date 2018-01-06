@@ -1,0 +1,4 @@
+2011-12-12T20:19:00.000Z	behelit		hi! is it possible to, somehow, redirect stderr to a file when starting a program with start-stop-daemon? (2>> /file.. does not seem to work)
+2011-12-12T20:19:00.000Z	MonkeyDust	behelit	 try 2>/dev/null
+2011-12-12T20:19:00.000Z	MonkeyDust	behelit	 or 2> /some/file
+2011-12-12T20:20:00.000Z	behelit	MonkeyDust	i need to append the errors :/

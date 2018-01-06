@@ -1,0 +1,4 @@
+2008-04-07T22:04:00.000Z	rsc___		hey guys, I used gparted to resize my swap partition from 1GB to 4GB, but "swapon -s" still reports it's 1GB (so does gnome-system-monitor). what should I do?
+2008-04-07T22:06:00.000Z	genii	rsc___	man mkswap
+2008-04-07T22:09:00.000Z	rsc___	genii	thanks! I did swapoff -a; mkswap /dev/sda6; swapon -a :)
+2008-04-07T22:09:00.000Z	genii	rsc___	np

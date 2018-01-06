@@ -1,0 +1,4 @@
+2012-01-03T04:19:00.000Z	nuex		anyone know why, if i can touch a file in a parent directory with the same dir permissions as the current directory, why can't i touch a file in the current directory?
+2012-01-03T04:20:00.000Z	nuex		both directories have 2775 permissions and i am a member of the group assigned to both the current directory and the parent directory
+2012-01-03T04:22:00.000Z	raldi	nuex	what's the command you're typing?
+2012-01-03T04:23:00.000Z	nuex	raldi	hah! thanks! i was typing "touch tmp" and there was a directory there by name. "touch test" worked.

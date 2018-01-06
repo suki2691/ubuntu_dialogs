@@ -1,0 +1,4 @@
+2008-09-18T07:35:00.000Z	sproctor		hi, I'm trying to debug a problem with nautilus using strace as per https://wiki.ubuntu.com/Strace My problem is that every time the log file is updated, nautilus reads it, which causes the log file to be updated again. and so on.
+2008-09-18T07:35:00.000Z	redvamp128	sproctor	you could try to change permissions to read only
+2008-09-18T07:35:00.000Z	redvamp128		that should stop that loop..
+2008-09-18T07:36:00.000Z	sproctor	redvamp128	but I want the log file to be updated... the whole point of this exercise is to create the log file.

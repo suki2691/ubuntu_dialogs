@@ -1,0 +1,4 @@
+2010-11-15T01:33:00.000Z	zongo		Hi Guys, just a qucik question on the script OpenVPN bridge-start / stop. I am a bit confused as to where I should put them. I have put them in /etc/init.d/bridge
+2010-11-15T01:33:00.000Z	zongo		would you say its right ?
+2010-11-15T01:34:00.000Z	Dr_Willis	zongo	  you added them to the proper runlevel as a service? If not you may just want to start them from /etc/rc.local
+2010-11-15T01:35:00.000Z	zongo	Dr_Willis	thanks for your reply.

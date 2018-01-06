@@ -1,0 +1,4 @@
+2011-04-16T23:50:00.000Z	KSHawkEye		Is there a way to remove all files within a directory that have a - in the file name? (from the terminal)
+2011-04-16T23:51:00.000Z	KSHawkEye		Woops, correction, Is there a way to remove all files within a directory that don't have a - in the file name? (from the terminal)
+2011-04-16T23:53:00.000Z	lfaraone	KSHawkEye	rm `ls | grep -v \-` should work.
+2011-04-16T23:54:00.000Z	lfaraone	KSHawkEye	assuming you're talking about the current directory.

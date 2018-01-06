@@ -1,0 +1,4 @@
+2009-05-27T12:29:00.000Z	ramontayag		need a bit of help. i installed vista first, then ubuntu. I get the grub dual boot menu. However, when I first choose vista, the next time I reboot it goes straight to vista. I have to go boot up the desktop with gparted and remove the "boot" flag from the vista partition. what should I do to keep the bootable partition the ubuntu one so grub shows up all the time?
+2009-05-27T12:31:00.000Z	Jordan_U	ramontayag	Multiple drives?
+2009-05-27T12:32:00.000Z	ramontayag	Jordan_U	- yes, however, both OSes are in 1 drive. the other is for storage.
+2009-05-27T12:34:00.000Z	Jordan_U	ramontayag	It might be that grub was installed to the MBR of the storage drive, try setting the storage drive to the first in the boot order, if that works you probably want to put grub on the main drive

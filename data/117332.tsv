@@ -1,0 +1,4 @@
+2009-06-15T02:26:00.000Z	shipitkthx		can someone answer a simple shell strip question for me? i have a bunch of folders that are named really horribly, like the directory name is "ph1992-04-06481.shnf" i want to strip off the .shnf at the end of each directory? whats the syntax for this?
+2009-06-15T02:26:00.000Z	shipitkthx		script*
+2009-06-15T02:27:00.000Z	geirha	shipitkthx	rename -n 's/.shnf$//' *.shnf    # the -n option will make it only print what it would've done. Replace -n with -v to have it actually rename
+2009-06-15T02:28:00.000Z	geirha	shipitkthx	rename -n 's/\.shnf$//' *.shnf  # forgot that backslash, but it will likely work fine without.

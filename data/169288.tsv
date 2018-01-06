@@ -1,0 +1,4 @@
+2007-09-21T08:03:00.000Z	greatauk		Hi all. I've got question. I've installed libmysql-java with apt-get but I have no idea where it is on my filesystem ... anyone know how I can find that out?
+2007-09-21T08:04:00.000Z	LjL	greatauk	dpkg -L libmysql-java
+2007-09-21T08:05:00.000Z	greatauk	LjL	excellent that worked. I need to know because I'm hooking netbeans up with mysql and I have to tell it where the mysql driver is :)
+2007-09-21T08:05:00.000Z	greatauk	LjL	Many thanks :)

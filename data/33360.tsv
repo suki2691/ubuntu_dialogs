@@ -1,0 +1,4 @@
+2011-08-13T20:36:00.000Z	raluca		secondly I would like to install it on a logical partition on my extended partition but from that wizzard I can't. On my primary partion I have Windows and my frist logical partion is for it, too. on my second logica partion I would like to install os x, and I created a logical ext3 for ubuntu and a swap partion. I would like to install ubuntu only on these last two partitions and not mix it...
+2011-08-13T20:36:00.000Z	raluca		...with the windows partition. when I try to choose the ext3 and hit INSTALL button it says  something that the selected partition doesn't contain boot information and don't let me to continue.
+2011-08-13T20:38:00.000Z	rumpe1	raluca	have you put the flag for / on the linux-partition?
+2011-08-13T20:39:00.000Z	rumpe1	raluca	no.. .you must specify, which partiton is for / (and maybe swap)

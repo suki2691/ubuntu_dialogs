@@ -1,0 +1,4 @@
+2007-01-25T14:10:00.000Z	tonyyarusso		!sudo | interfear
+2007-01-25T14:11:00.000Z	interfear	tonyyarusso	it wont let root do it.. i ran it as root
+2007-01-25T14:11:00.000Z	interfear		i need to change roots privilages for that command
+2007-01-25T14:12:00.000Z	tonyyarusso	interfear	Oh, right.  It's b/c the > essentially runs a second command, and isn't doing that one as root.  You can sudo -i to get a root shell, and use that.

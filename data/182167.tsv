@@ -1,0 +1,4 @@
+2006-06-02T12:13:00.000Z	ubu_fan		hello. i'm having some problems editing xorg.conf in /etc/X11, when i try to save the changes made, i get an error stating : permission denied. How can i overcome this ? thanks in advance for your reply
+2006-06-02T12:13:00.000Z	xanavim	ubu_fan	you need to edit it with sudo or gksudo
+2006-06-02T12:14:00.000Z	ubu_fan	xanavim	: i tried with nano :). so i do i use "sudo /etc/X11/xorg.conf" (without the quotes) ?
+2006-06-02T12:15:00.000Z	xanavim	ubu_fan	try: sudo nano /etc/X11/xorg.conf

@@ -1,0 +1,4 @@
+2006-06-03T09:24:00.000Z	samuel		 with the 6.06 beta is your moniter light suppose to flash while it loads?
+2006-06-03T09:25:00.000Z	gaud	samuel	you mean when you boot it ?
+2006-06-03T09:25:00.000Z	gaud	samuel	this is a problem with the framebuffer
+2006-06-03T09:26:00.000Z	gaud	samuel	just edit the /boot/grub/menu.lst and remove the option for "splash quiet"

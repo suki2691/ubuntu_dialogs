@@ -1,0 +1,4 @@
+2009-08-29T18:41:00.000Z	linduxed		i think ive managed to lock myself out with ecryptfs. i changed the login password to "bar" when it was "foo" (just an example) and naturally the ecryptfs password didnt update.
+2009-08-29T18:41:00.000Z	linduxed		so next boot i went to a failsafe terminal, did a ecryptfs-mount-private and entered "foo". After succesful mount i did an ecryptfs-wrap-passphrase, typed "foo" then "bar"
+2009-08-29T18:41:00.000Z	linduxed		this boot however it still doesnt log in, and in failsafe neither the "foo" or the "bar" pass works for mount-private
+2009-08-29T18:41:00.000Z	FloodBot2	linduxed	Please don't flood, use http://paste.ubuntu.com to paste, don't use Enter as punctuation.

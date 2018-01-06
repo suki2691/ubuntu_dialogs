@@ -1,0 +1,4 @@
+2009-09-28T00:00:00.000Z	ChrizC		I've just installed a LAMP stack through sudo apt-get. I installed the apache2 package, but my httpd.conf is empty? why is this and how do I fix?
+2009-09-28T00:02:00.000Z	ChrizC		how do I delete a file that gives me a "permission denied" error when trying to delete via file browser? (I'm on the only account on the OS)
+2009-09-28T00:02:00.000Z	Flannel	ChrizC	https://help.ubuntu.com/community/ApacheMySQLPHP  might help too
+2009-09-28T00:03:00.000Z	Flannel	ChrizC	You'll want to use sudo to edit the file, gksu gedit /path/to/file

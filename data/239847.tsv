@@ -1,0 +1,4 @@
+2006-03-20T16:21:00.000Z	jae_		wut does broken package mean in synaptic?
+2006-03-20T16:21:00.000Z	jae_		bin files are installable
+2006-03-20T16:21:00.000Z	nickrud	jae_	that usually means that package has something it needs to run, but synaptic or apt can't find it.
+2006-03-20T16:23:00.000Z	nickrud	jae_	and that's usually because you need to edit /etc/apt/sources.list

@@ -1,0 +1,4 @@
+2007-06-28T16:36:00.000Z	DavidCraft		when I installed ubuntu I had in my xorg.conf a synaptic driver.  I installed a patch for my video display (to get it to display in wide screen). Now all of a sudden, the synaptics driver is not there.  How do I fix this?
+2007-06-28T16:38:00.000Z	DavidCraft		did that anbd it screwed stuff up
+2007-06-28T05:47:00.000Z	DavidCraft		I installed a package to get my i830 intel video car drive to work in wide screen mode, now my synaptic driver is gone.  How do I get it back w/o using dpkg-reconfigure xserver-xorg as this screws alot of stuff up.  I tried inserting the symantic stuff into teh file directly but this crashes xserver.
+2007-06-28T05:49:00.000Z	Jordan_U	DavidCraft	Can you be more clear about what you did / what your problem is, from what I can tell you installed 915resolution but it no longer works

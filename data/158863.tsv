@@ -1,0 +1,4 @@
+2008-06-07T16:58:00.000Z	spiniker		hello
+2008-06-07T16:59:00.000Z	spiniker		i seem to have a problem with my ubuntu installation,everytime i do an update a new installation appears on my grub list
+2008-06-07T17:00:00.000Z	spiniker		and its taking too long for me to log-on to ubuntu..i already tried recovery mode but stiil the same
+2008-06-07T17:00:00.000Z	Esteth	spiniker	That's expected behaviour for a kernel update. You can edit /boot/grub/menu.lst to remove entries you don't want

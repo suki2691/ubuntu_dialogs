@@ -1,0 +1,4 @@
+2007-05-21T10:44:00.000Z	xopey		hey guys, looking for help resuming from suspend. I get a black screen with a cursor that functions properly. I can generally restart X to get it to work. How do I get suspend to function properly
+2007-05-21T10:46:00.000Z	xopey		thnx for responding PurpZeY, i've been doing my research, but none of the solutions seem to work suspending from resume
+2007-05-21T10:46:00.000Z	xopey		yes \x6e\x65\x72\x64
+2007-05-21T10:46:00.000Z	stefg	xopey	i don#t know details, but that's a sign o fyour video driver not liking to put to sleep. the solution is unloading the driver before suspend/hibernate and reloading it after. google for details, or anyone else help

@@ -1,0 +1,4 @@
+2011-02-08T20:08:00.000Z	superman12		Does anybody know if it is possible to append two remote files with ftp/sftp/scp ?
+2011-02-08T20:08:00.000Z	erUSUL	superman12	if you have scp/sftp you have ssh and you can run commands like cat in the remote system ?
+2011-02-08T20:10:00.000Z	erUSUL	superman12	ssh user@host 'cat file1 file2 > file_total'
+2011-02-08T20:10:00.000Z	superman12	erUSUL	thanks i will try

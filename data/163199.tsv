@@ -1,0 +1,4 @@
+2006-10-22T11:27:00.000Z	junky		if ive 2 sounds cards, how can i change which card will be used, without having to reboot? cause now, ive to run alsaconf, then to reboot, id like to avoid that step.
+2006-10-22T11:28:00.000Z	Warbo	junky	You shouldn't need to reboot. Try "sudo /etc/init.d/alsa-utils restart" (or whatever the ALSA startup script is called) instead of rebooting
+2006-10-22T11:31:00.000Z	Warbo	junky	Where did you get alsaconf from? I didn't think that was included anymore
+2006-10-22T11:34:00.000Z	junky	Warbo	how can i force the reload of /etc/modprobe.d/sound exactly? alsaconf restart isnt doing that?

@@ -1,0 +1,4 @@
+2009-07-02T02:38:00.000Z	stroyan	lonejack	 rsync is very efficient at mirroring  a directory that may have changed only partially.  It can use ssh as a secure transport.  But you may want to keep multiple versions to recover from making a backup of already corrupted files.
+2009-07-02T02:40:00.000Z	lonejack	stroyan	rsync, I'll have a look, I'll rsync the entire svn repository. Should I?
+2009-07-02T02:42:00.000Z	stroyan	lonejack	 Yes.  rsync -a will archive all the files.  It will also recognize and take advantages of unchanged parts of files.
+2009-07-02T02:45:00.000Z	lonejack	stroyan	good advice, thank you!!

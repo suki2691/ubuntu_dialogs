@@ -1,0 +1,4 @@
+2011-06-23T12:15:00.000Z	random123		Hi everyone!!.. I by mistake changed the File Owner for the file "/etc/sudoers" file from  root to <my username>. Now I am getting following error on running "sudo <command>"
+2011-06-23T12:15:00.000Z	random123		sudo: /etc/sudoers is owned by uid 1010, should be 0
+2011-06-23T12:15:00.000Z	random123		Any suggestions on how to resolve the issue
+2011-06-23T12:15:00.000Z	llutz_	random123	boot a live-cd, repair

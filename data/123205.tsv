@@ -1,0 +1,4 @@
+2007-09-08T09:26:00.000Z	tparcina		how to check, from CLI, is some service running?
+2007-09-08T09:27:00.000Z	bulmer	tparcina	ps -aux
+2007-09-08T09:29:00.000Z	tparcina	bulmer	yes, but I would like to check status of services. I need command that is similar to "service status ftpd" on RHEL
+2007-09-08T09:30:00.000Z	bulmer	tparcina	man update-rc.d

@@ -1,0 +1,4 @@
+2007-10-03T09:11:00.000Z	DigeratiX		here is the deal, sons puter at home, he is logged in, I am at work logged in via shell, when I added his account it was a simple desktopuser, but now I want him to be able to admin the puter, how do I change that from cli
+2007-10-03T09:11:00.000Z	soundray	DigeratiX	'sudo adduser son admin'
+2007-10-03T09:12:00.000Z	soundray	DigeratiX	after that, make him log out and in again
+2007-10-03T09:12:00.000Z	soundray	DigeratiX	you still need to add him to the admin group

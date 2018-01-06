@@ -1,0 +1,4 @@
+2008-04-28T06:17:00.000Z	adamsad1		Hey all... I'm new to Linux and jacked up my primary user account. I created a secondary user and want to get rid of my primary user & home. I deleted the user under "user settings", but how do I get rid of the home directory?
+2008-04-28T06:17:00.000Z	Pelo	adamsad1	sudo rm -rf /home/username
+2008-04-28T06:20:00.000Z	Pelo	adamsad1	your new user needs to have admin priviledges,   or try doing it by booting hte live cd maybe
+2008-04-28T06:21:00.000Z	adamsad1	Pelo	my secondary has admin priv. I'll try from the live cd. Thanks.

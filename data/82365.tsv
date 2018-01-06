@@ -1,0 +1,4 @@
+2008-12-20T20:55:00.000Z	score		i want an init.d script to ensure that another is run whenever it is started. is this possible using the INIT INFO section? i've tried things but it seems to be ignored
+2008-12-20T20:56:00.000Z	mahfiaz	score	you could export a variable in first
+2008-12-20T20:56:00.000Z	score	mahfiaz	i don't follow. what good would that do?
+2008-12-20T21:07:00.000Z	mahfiaz	score	you could check then, if the variable is set, if yes then your script has ran

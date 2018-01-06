@@ -1,0 +1,4 @@
+2008-10-13T14:05:00.000Z	kmg		I encounter this error whenever I try to do anything involving packages: 'E:Encountered a section with no Package: header, E:Problem with MergeList /var/lib/apt/lists/wine.budgetdedicated.com_apt_dists_hardy_main_binary-i386_Packages, E:The package lists or status file could not be parsed or opened.'
+2008-10-13T14:07:00.000Z	_2	kmg	sudo apt-get update   ?
+2008-10-13T14:13:00.000Z	kmg	_2	same error
+2008-10-13T14:14:00.000Z	_2	kmg	hmmm   sudo mv /var/lib/apt/lists/wine.budgetdedicated.com_apt_dists_hardy* /root ;sudo rm /var/lib/apt/lists/partial/* ;sudo apt-get update

@@ -1,0 +1,4 @@
+2008-09-28T07:59:00.000Z	arthur_		if i want to dhcp to make a wirless connection wich package do i get to install it?
+2008-09-28T08:00:00.000Z	arthur_		if i want to enable dhcp to make a wireless connection which package do i get to install it?
+2008-09-28T08:01:00.000Z	Jordan_U	arthur_	What do you mean? DHCP is separate from wireless, "sudo dhclient <interface>" works exactly the same for wired and wireless
+2008-09-28T08:08:00.000Z	Jordan_U	arthur_	Ahh, yes you need to install a DHCP server, for that install the package "dhcp3-server"

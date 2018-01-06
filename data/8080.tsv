@@ -1,0 +1,4 @@
+2012-08-15T22:28:00.000Z	_skpl		can someone help me? i installed ubuntu 12.04 to a usb drive and now when i remove the drive and try to boot into windows from my hard drive i ge an error and a grub rescue prompt.
+2012-08-15T22:29:00.000Z	morsnowski	_skpl	my guess is you installed grub to the usb drive
+2012-08-15T22:29:00.000Z	morsnowski	_skpl	and had grub change the mbr of the local disk
+2012-08-15T22:32:00.000Z	morsnowski	_skpl	yes it starts from the main HD but then looks for the boot dir on the usb drive

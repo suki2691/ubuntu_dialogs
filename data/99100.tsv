@@ -1,0 +1,4 @@
+2008-02-29T00:44:00.000Z	Estesark		I have a question which is only partly Ubuntu-related, but perhaps one of you has the technical knowledge to help me. I am trying to forward a specific port on my ADSL router/modem. However, despite having followed a tutorial at porforward.com, my BitTorrent client still thinks that it is closed. I've just installed Ubuntu and have mostly default settings, any advice?
+2008-02-29T00:45:00.000Z	Squawk	Estesark	try iptables -nL, and see if your have a firewall in ubuntu. (all will be Open if not). If not, then the problem is still router related
+2008-02-29T00:46:00.000Z	Estesark	Squawk	What am I looking for in the iptables -nL output exactly?
+2008-02-29T00:46:00.000Z	Squawk	Estesark	pm me the output if you want and il let you know what you have

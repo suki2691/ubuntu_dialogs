@@ -1,0 +1,4 @@
+2009-03-05T21:16:00.000Z	Omatic		Hi all, I have an mp3 player which has files which are refusing to be deleted claiming that the filesystem is Read-only, I can't even change permissions, the mp3 player was last used on windows, the filesystem is vfat, I have tried mount -o rw,remount /dev/sdc1 to mount it as read-write but what happens is that, yes I will be able to delete the files but when I eject and mount again,  I find the same files are still there! where am I missing the point
+2009-03-05T21:17:00.000Z	Jeruvy	Omatic	try forcing deletion.  read 'man rm' for summary and instructions for invoking the documentation.
+2009-03-05T21:20:00.000Z	Omatic	Jeruvy	what combination should I use?
+2009-03-05T21:20:00.000Z	Jeruvy	Omatic	what are you asking me?

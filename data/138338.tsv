@@ -1,0 +1,4 @@
+2009-02-19T06:22:00.000Z	allquixotic		Hi, I just recovered my server (over ssh) from a horrible failure: it was starting NetworkManager, which trampled on its static IP configuration. I only had a few seconds in the shell each boot, so I ran some diagnostics and rm'ed the NetworkManager binary. Now: How can I absolutely forbid the network-manager package from ever being installed again on the server?
+2009-02-19T06:23:00.000Z	savvas	allquixotic	sudo aptitude purge network-manager; sudo aptitude forbid-version network-manager
+2009-02-19T06:24:00.000Z	allquixotic	savvas	Thanks :)
+2009-02-19T06:24:00.000Z	savvas	allquixotic	if that doesn't work, use Synaptic, select your package, and from the menu Package > Lock version - it "pins" the version and doesn't allow it to show newer ones

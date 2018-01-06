@@ -1,0 +1,4 @@
+2005-07-25T14:57:00.000Z	frank_		anyone know how to figure out which ports are needed by an application. Is there a log of connections refused by the firewall for an application?
+2005-07-25T14:58:00.000Z	frank_		Dave I know usually, I can find it that way but not always
+2005-07-25T14:59:00.000Z	frank_		Dave I was used to firewalls in Windows which would pop up to tell me  a program wanted a connection
+2005-07-25T15:00:00.000Z	kyncani	frank_	if your program is listening, you can use lsof -i

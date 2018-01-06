@@ -1,0 +1,4 @@
+2011-07-13T19:12:00.000Z	MichaelDoe		Hello guys. Just having some serious trouble with my Ubuntu 11.04. Just updated my kernel - and now the new Kernel'd Linux won't start. When trying to start, it switches between a totally black (off) screen and a command prompt screen (just an underscore). Before that problem, Linux froze and showed a messy picture when starting blender in windowed mode. The current possibility for me is that I use under GRUB Earlier Versions or 
+2011-07-13T19:13:00.000Z	MichaelDoe		Looks like the kernel update + blender messed it up - but i dont know why.
+2011-07-13T19:13:00.000Z	MichaelDoe		...and neither how to restore it.
+2011-07-13T19:15:00.000Z	tjiggi_fo	MichaelDoe	you can use Startup-Manager (from Synaptic if not yet installed) to change the boot order of your kernels. You can use Synaptic to remove the faulty kernel

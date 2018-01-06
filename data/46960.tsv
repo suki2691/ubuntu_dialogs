@@ -1,0 +1,4 @@
+2012-09-05T21:52:00.000Z	dlam		if i do `dmesg`  is there a way to know what time the message was logged
+2012-09-05T21:52:00.000Z	dlam		is see some numbers to the left like....  [11470963.510217]
+2012-09-05T21:53:00.000Z	ChogyDan	dlam	I believe that is seconds since boot
+2012-09-05T21:53:00.000Z	ChogyDan	dlam	if you look at kern.log you may be able to see the whole boot process

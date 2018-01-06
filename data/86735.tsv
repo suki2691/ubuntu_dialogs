@@ -1,0 +1,4 @@
+2009-07-31T19:10:00.000Z	pwizard88		When I set environment variables  by running a script, they don't change in the terminal from which the script is run (probably because the script runs in a seperate child process). How do I change the env variable of the current shell then?
+2009-07-31T19:12:00.000Z	erUSUL	pwizard88	export VARIABLE=value
+2009-07-31T19:13:00.000Z	pwizard88	erUSUL	yeah but if I put that in a shell script and simply execute it the change doesn't show in the parent terminal...using source fixes it though
+2009-07-31T19:13:00.000Z	erUSUL	pwizard88	ok

@@ -1,0 +1,4 @@
+2012-02-26T00:26:00.000Z	as001		hi I could not boot from live cd until i changed mode to vesa. Why my ATI Radeon 4670 (which should be the best supported in foss drivers) can no enter in normal mode ?
+2012-02-26T00:28:00.000Z	as001		I saw that ubottu and blacnk screen has gone when i chose vesa but I think I should be able to boot in normal.... I tried to turn off everything on F6 but if I choose normal I get black screen
+2012-02-26T00:29:00.000Z	as001		IT also says on lspci it is kernel module: radeon but lsmod does not show radeon at all... I think it uses some other module..
+2012-02-26T00:29:00.000Z	urfr332gO	as001	you may need a driver try the nomodeset option.

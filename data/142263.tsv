@@ -1,0 +1,4 @@
+2008-05-01T06:36:00.000Z	Mrleb		hi
+2008-05-01T06:37:00.000Z	Mrleb		can somebody give me a hand?
+2008-05-01T06:38:00.000Z	Mrleb		Do I need to uninstall a Wubi installation before installing into a partition from a live cd
+2008-05-01T06:39:00.000Z	evand	Mrleb	no, you'll just have the Ubuntu bootloader (grub) and the Windows bootloader.  To get to your Wubi install you'll then have to select Windows in grub, then Ubuntu in the NT bootloader.

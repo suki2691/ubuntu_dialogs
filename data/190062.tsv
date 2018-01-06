@@ -1,0 +1,4 @@
+2006-05-28T13:51:00.000Z	kavefish		Suppose I have a single drive failure in a RAID5 array.  I can figure out the device label (e.g. /dev/sda) that's faulty, but how do I know which physical drive corresponds with that label?  In other words, how do I know which drive to replace?
+2006-05-28T13:53:00.000Z	nickrud	kavefish	not really up on raid, but sudo fdisk -l probably will tell you with some interpretation
+2006-05-28T13:53:00.000Z	nickrud	kavefish	erg, didn't read the question right, sorry
+2006-05-28T13:54:00.000Z	kavefish	nickrud	no worries

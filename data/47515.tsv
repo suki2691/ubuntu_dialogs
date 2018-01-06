@@ -1,0 +1,4 @@
+2012-05-26T15:28:00.000Z	drecute		one of my filesystem failed to mount and now i can't reach the login tty
+2012-05-26T15:29:00.000Z	drecute		at recovery mode, the filesystem is in read-only mode
+2012-05-26T15:29:00.000Z	drecute		how do I edit /etc/fstab in read-only mode?
+2012-05-26T15:30:00.000Z	theadmin	drecute	You don't... Remount it read-write: mount -o remount,rw /

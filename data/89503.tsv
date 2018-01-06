@@ -1,0 +1,4 @@
+2011-04-04T20:27:00.000Z	porg		Ok, so I have encountered 2 bugs: BT permanently re-enables on Toshiba for no clear reason + postfix writes to logfile for no known reason
+2011-04-04T20:29:00.000Z	porg		Can I see whether anything is dependent on postfix? Else I could simply uninstall it. Ok?
+2011-04-04T20:30:00.000Z	jpds	porg	apt-get remove <package>
+2011-04-04T20:30:00.000Z	jpds	porg	To see reverse dependencies: apt-cache rdepends <package>

@@ -1,0 +1,4 @@
+2007-01-29T11:26:00.000Z	hagabaka		when downloading and installing multiple packages, is it possible to let apt-get or aptitude pipeline the process and install packages already downloaded if possible?
+2007-01-29T11:28:00.000Z	hagabaka		pipelining means doing multiple jobs concurrently when possible, instead of sequentially
+2007-01-29T11:28:00.000Z	hagabaka		so i mean downloading a package, installing it while downloading others, and then install another downloaded package, etc
+2007-01-29T11:28:00.000Z	cablesm102	hagabaka	that would be smart, not sure why they don't do that

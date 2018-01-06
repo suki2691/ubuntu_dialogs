@@ -1,0 +1,4 @@
+2009-07-30T00:20:00.000Z	saml		what are packages I need to use vnc?  i did apt-get install tightvnc    then when I do startx, it says exec: 5: /usr/bin/X11/X: not found
+2009-07-30T00:22:00.000Z	saml		from windows machine
+2009-07-30T00:22:00.000Z	saml		but i see blank screen. that's why i tried startx on the server
+2009-07-30T00:23:00.000Z	jimcooncat	saml	if you're using vncserver, your display will be :1, not :0

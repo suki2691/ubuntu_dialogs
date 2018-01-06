@@ -1,0 +1,4 @@
+2006-03-17T17:16:00.000Z	quickblaine		hi all, thanks for the help, i now have wifi connection on linux. i ran the xorg command you gave me but it still didnt pick up the mouse
+2006-03-17T17:16:00.000Z	g0dchild	quickblaine	try setting it to /dev/input/mouse0
+2006-03-17T17:19:00.000Z	g0dchild	quickblaine	- if u are doing what I think you are doing, then you should be able to set it at /etc/X11/xorg.conf - just find the mouse section and change it
+2006-03-17T17:19:00.000Z	g0dchild	quickblaine	- yes, try changing the drivers too

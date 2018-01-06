@@ -1,0 +1,4 @@
+2007-09-04T13:48:00.000Z	Wyvern|		Simple question: How do I check what exact kernel version I'm running? (2.6.16-29 or 2.6.16-31)
+2007-09-04T13:48:00.000Z	Wyvern|		nop, does not show subversions.
+2007-09-04T13:49:00.000Z	godlygeek	Wyvern|	dpkg -l | grep linux-image
+2007-09-04T13:50:00.000Z	godlygeek	Wyvern|	though, that won't show what you're RUNNING, just which ones you have installed.

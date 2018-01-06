@@ -1,0 +1,4 @@
+2009-06-13T03:22:00.000Z	CSSnub		So I'm trying to lockdown rbash a bit for a user's home directory and I mistakenly type "rm -rf .bash_login .bashrc .profile .bash_profile .bash_logout" in the home directory rather than the /home/user directory. If I'm trying to delete those files for that specific user but I instead did it in the home directory I deleted them for all users? I'm a bit beyond my abilities here obviously. Did...
+2009-06-13T03:22:00.000Z	CSSnub		...I just break something?
+2009-06-13T03:23:00.000Z	raylu	CSSnub	that shouldn't have deleted anything at all
+2009-06-13T03:23:00.000Z	raylu	CSSnub	the default rcs and profiles are in /etc/.../skel/ somewhere

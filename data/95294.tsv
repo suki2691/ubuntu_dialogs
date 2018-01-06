@@ -1,0 +1,4 @@
+2008-08-06T23:14:00.000Z	truebosko		Hi there, looking for a string of text in a file I can do: cat * | grep 'blahblah' but how can I tell in my results what file the results are in? Need to modify this slightly
+2008-08-06T23:14:00.000Z	unop	truebosko	bad use of cat there.  grep -H blahblah *
+2008-08-06T23:15:00.000Z	truebosko	unop	That just gives me (standard input) at the start of each line
+2008-08-06T23:15:00.000Z	unop	truebosko	don't cat to it .. just grep

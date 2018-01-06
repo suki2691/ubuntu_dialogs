@@ -1,0 +1,4 @@
+2006-06-08T05:24:00.000Z	tomorrowlab		anyone know what this error means? "OpenGL GLX extension not supported by display ':0.0'"
+2006-06-08T05:24:00.000Z	tomorrowlab		I have a 3d graphics card driver
+2006-06-08T05:26:00.000Z	tomorrowlab		does noone know what my problem is?
+2006-06-08T05:26:00.000Z	Samus_Aran	tomorrowlab	it means that you are using a non-accellerated Xorg driver right now, but the app you are using wants OpenGL accellerated support

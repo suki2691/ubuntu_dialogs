@@ -1,0 +1,4 @@
+2008-11-19T22:04:00.000Z	tCzern_tux		hi, do you guys have eth1394 installed by default or is it an option in your package manager?
+2008-11-19T22:05:00.000Z	tCzern_tux		it's blacklisted? for what reason?
+2008-11-19T22:06:00.000Z	Dewni	tCzern_tux	Check whether you can see it in lspci | grep 1394 and lsmod | grep 1394
+2008-11-19T22:07:00.000Z	Dewni	tCzern_tux	my firewire was on by default (MSI 780G board)

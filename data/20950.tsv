@@ -1,0 +1,4 @@
+2011-01-03T18:45:00.000Z	forsetius		oh, It's ok when I ping from laptop to desktop but ping from laptop to Internet (Google's IP for example) yields "connect: Network is unreachable" msg. Why is that? Still fighting with Internet connection sharing
+2011-01-03T18:47:00.000Z	Dr_Willis	forsetius	 sounds like your dns setting is not correct on the laptop. try pinging the web site via its ip#
+2011-01-03T18:48:00.000Z	forsetius	Dr_Willis	did it - ping -c 4 209.85.229.99 (Google's IP) yields network is unreachable
+2011-01-03T18:49:00.000Z	Dr_Willis	forsetius	 then that points to your default route being incorrect I think.

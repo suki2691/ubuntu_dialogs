@@ -1,0 +1,4 @@
+2007-08-13T08:02:00.000Z	mcantor		I'm trying to get Ubuntu 7.04 working with a 3com 3c509 Etherlink III network adapter.  sudo modprobe 3c509 puts eth0 an eth0:avah in my ifconfig, but I keep getting 169.254.*.* IP addresses, which is a Windows Private IP address that happens when it can't find a DHCP server, which is confusing.  The PC connection light on my router isn't turning on, either.  sudo dhclient eth0 isn't working.  Can someone help me?
+2007-08-13T08:02:00.000Z	nonewmsgs	mcantor	if the pc connection light isnt on then check the cable
+2007-08-13T08:03:00.000Z	mcantor	nonewmsgs	I'm fairly certain that the cable isn't the problem.  It was working fine on Windows just five minutes ago.
+2007-08-13T08:03:00.000Z	mcantor	nonewmsgs	I've done some research, and it seems like one other person solved this by changing "boot from LAN ROM" in BIOS or something, but I don't have anything like that.

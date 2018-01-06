@@ -1,0 +1,4 @@
+2007-12-30T23:17:00.000Z	todd__		I have a audio/data/boot cd that I want to back up as a file... how do I do that???
+2007-12-30T23:18:00.000Z	todd__		I have a audio/data/boot cd that I want to back up as a file... how do I do that???
+2007-12-30T23:20:00.000Z	astro76	todd__	dd if=/dev/cdrom of=/tmp/cdimage.iso
+2007-12-30T23:24:00.000Z	astro76	todd__	hmm not sure, try unmounting, failing that maybe you need to use sudo?

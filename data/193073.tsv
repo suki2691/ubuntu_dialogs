@@ -1,0 +1,4 @@
+2006-03-27T14:10:00.000Z	jbritz22		what command is it to show me what applications are running, and whats the command to kill a certain application
+2006-03-27T14:12:00.000Z	KonphuzeD	jbritz22	  simply    ps    for all software running,  ps auxw|grep $partialname    will list just a few you are looking for and provide the PID needed to kill it
+2006-03-27T14:13:00.000Z	KonphuzeD	jbritz22	then     kill -9 $PID    will abruptly drop the process
+2006-03-27T14:14:00.000Z	jbritz22	KonphuzeD	thanks :D

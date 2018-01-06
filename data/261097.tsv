@@ -1,0 +1,4 @@
+2006-01-14T12:46:00.000Z	jawshoewah		i somehow got xawtv into my sound-media folder in desktop it crashes comptuer when I click it while testing tv in card i want to just us e tv time and get rid of it
+2006-01-14T06:36:00.000Z	jawshoewah		I am toying with an idea...is it possible to test a tar.gz for compatibility before unpacking?
+2006-01-14T06:36:00.000Z	Ng	jawshoewah	you could use "tar tzf foo.tgz" - that'll list the files in the tarball if it's valid
+2006-01-14T06:38:00.000Z	Ng	jawshoewah	only in that if tar doesn't understand the file it will fail to list them, it's not actually a test operation though

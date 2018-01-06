@@ -1,0 +1,4 @@
+2011-05-13T22:25:00.000Z	tommylommykins		can anyone remind me?
+2011-05-13T22:25:00.000Z	jrib	tommylommykins	/etc/update-motd.d/ I guess is what you are looking for
+2011-05-13T22:26:00.000Z	tommylommykins	jrib	Thanks :)
+2012-05-03T23:15:00.000Z	jrib	tommylommykins	rc.local is fine.  You could also just use @reboot in root's crontab or create a proper upstart script

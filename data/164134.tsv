@@ -1,0 +1,4 @@
+2007-06-14T10:22:00.000Z	gnychis		how do you check which video driver xorg is using?
+2007-06-14T10:23:00.000Z	tritium	gnychis	one way: grep Driver /etc/X11/xorg.conf
+2007-06-14T10:23:00.000Z	gnychis	tritium	great, thanks!
+2007-06-14T10:36:00.000Z	tritium	gnychis	do you just care about the gnome terminal?  There is a simple preference you can set.  Otherwise, you can set an option in ~/.inputrc, or system-wide in /etc/inputrc

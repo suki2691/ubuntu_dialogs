@@ -1,0 +1,4 @@
+2006-11-06T15:13:00.000Z	TLE		Hey I need a little advice with partitioning. I have a disc where there is a extended partition that contains 5 partitions, sdb5 sdb6 sdb8 sdb9 sdb7 in that order. Now I want to delete sdb8 and make 3 new partitions of it, but then it tell me to umount any partitions with a number higher than 8, now I can do that if I do it from a live cd. But I need to know if the partition with a higher number sdb9, will change name when I delete sdb8 and make 3 new ones sin
+2006-11-06T15:14:00.000Z	iwaterball	TLE	it will change name, since the names are derived from the partition order
+2006-11-06T15:14:00.000Z	iwaterball	TLE	if you need that many partitions you're better off using LVM
+2006-11-06T15:16:00.000Z	TLE	iwaterball	Crap. Thank you for the info :: I'll check out LVM

@@ -1,0 +1,4 @@
+2008-08-05T03:41:00.000Z	kponds		any easy way to expose block devices into chroots? ex: i have a device /dev/sda that i need to access from a chrooted environment
+2008-08-05T03:41:00.000Z	unop	kponds	you need to bind mount /dev and /proc  (and perhaps /sys too) into the chroot
+2008-08-05T03:42:00.000Z	unop	kponds	 the --bind option is documented in the mount manpage
+2008-08-05T03:42:00.000Z	kponds	unop	thanks!

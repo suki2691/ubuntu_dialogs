@@ -1,0 +1,4 @@
+2010-09-15T01:36:00.000Z	caldazar		what does "fuse-ext2: Can't read an inode bitmap while reading inode bitmap" mean? I am trying to mount a drive with ext2fuse
+2010-09-15T01:37:00.000Z	dajhorn	caldazar	Why are you using fuse?   ext2 is in the Ubuntu kernel.
+2010-09-15T01:37:00.000Z	caldazar	dajhorn	trying to get data out of a hd that was in a nas
+2010-09-15T01:41:00.000Z	dajhorn	caldazar	That isn't a good reason to avoid the kernel filesystem.  You're probably having an offset problem.  Make a `dd` of the disk and go read the man page on loopback mounts.

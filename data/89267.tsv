@@ -1,0 +1,4 @@
+2010-08-14T12:57:00.000Z	jagan185		hi everyone
+2010-08-14T12:57:00.000Z	jagan185		How can I block a non-admin user from accessing a particular folder in ubuntu
+2010-08-14T12:59:00.000Z	henkpoley	jagan185	a specific user, or any non-admin user ?
+2010-08-14T13:03:00.000Z	henkpoley	jagan185	 you could change the folder's group to his own, and then remove access rights: chgrp username the-folder; chown g-rwx the-folder;

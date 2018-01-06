@@ -1,0 +1,4 @@
+2006-05-27T14:36:00.000Z	oprime		If I'm using the amd64 distro of Breezy, how do I get wine to install? Synaptic and apt-get are pointing to a directory that doesn't exist at wine. (ala amd64--- error "Couldn't stat source package list http://wine.budgetdedicated.com breezy/main Packages (/var/lib/apt/lists/wine.budgetdedicated.com_apt_dists_breezy_main_binary-amd64_Packages) - stat (2 No such file or directory)"
+2006-05-27T14:38:00.000Z	NoUse	oprime	wine needs a chrooted environment to work in AMD64
+2006-05-27T14:39:00.000Z	NoUse		!tell oprime about chroot
+2006-05-27T14:40:00.000Z	oprime	NoUse	Thanx, I'll try that out.

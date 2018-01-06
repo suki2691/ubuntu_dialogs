@@ -1,0 +1,4 @@
+2006-07-19T13:08:00.000Z	Bergcube		romulo~  AFAIK edgy is in early stages f development.  As such is is subject to change without notice, and it's in it's nature not to work as a complete or finished system.  Saying "not finished" is the same as "broken" sounds as lack of insight to me.
+2006-07-19T06:54:00.000Z	Bergcube		My wife has completely forgotten her password on her laptop. And I didn't create any user for myself there. (Stoopid, yes I know.) I have halted the boot in grub. How sould I alter the "kernel /vmlinuz bla bla" line to start the machine in single user terminal? (And will that help me? Or will I still need her PWD?)
+2006-07-19T06:56:00.000Z	Bergcube		netventure~  ADD it.  Not remove aything of it?
+2006-07-19T06:56:00.000Z	stefg	Bergcube	boot in single mode, and enter a new password by passwd [username] 

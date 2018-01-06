@@ -1,0 +1,4 @@
+2008-02-08T14:31:00.000Z	hyde		Is anyone experiencing problems with dpkg. When installing/upgrading I get an error message:dpkg: parse error, in file `/var/lib/dpkg/status' near line 20394 package `libglu1-mesa-dev':
+2008-02-08T14:31:00.000Z	hyde		 field name `(Includes' must be followed by colon
+2008-02-08T14:32:00.000Z	Frogzoo	hyde	looks like the file is corrupt - did you lose power during dpkg?
+2008-02-08T14:34:00.000Z	Frogzoo	hyde	sadly, the apt status file is unique to your machines configuration, I'd be looking at reinstalling

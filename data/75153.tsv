@@ -1,0 +1,4 @@
+2008-11-12T03:32:00.000Z	natalisushka		hi, I have a problem running http://localhost when network wire isn't plugged or wireless connection not detected! Why should localhost depend on the connection? Is there a way to have that work without any kind of connection?
+2008-11-12T03:34:00.000Z	faryshta	natalisushka	what I do is to use the network manager to get a fixed IP on ethernet connection, then use that ip instead of localhost.
+2008-11-12T03:35:00.000Z	faryshta		By example the IP I have on ethernet connection is 123.213.132.231 then on the broswer place http://123.etc/
+2008-11-12T03:36:00.000Z	natalisushka	faryshta	ok, but that sucks! in my php scripts I have specified some configurations that detect localhost as the http_host! I don't want to change that, isn't there an other way?

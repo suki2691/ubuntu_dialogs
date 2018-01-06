@@ -1,0 +1,4 @@
+2010-09-14T15:27:00.000Z	zamba		i've set up apache as a proxy for an internal web site.. the problem is that i externally use a dir name to access the internal web page that is running on the root of the server.. how can i "rewrite" the hrefs in the web page so that it refers to the correct path internally?
+2010-09-14T15:28:00.000Z	zamba		www.example.com/test/ -> www.example2.internal/
+2010-09-14T15:29:00.000Z	glebihan	zamba	you should try asking on #apache2
+2010-09-26T19:01:00.000Z	glebihan	zamba	could you pastebin your custom.conf file ?

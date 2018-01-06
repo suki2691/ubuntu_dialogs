@@ -1,0 +1,4 @@
+2008-07-26T20:35:00.000Z	rbd		hi guys, I have asterisk installed normally, but I'd like to run a 2nd instance of it (isolated most likely over off of /usr/local or /opt/asterisk) ... I'd like to have the same version running as the deb of it I installed. is it possible to reinstall a deb to a different prefix, or make the src deb with a different prefix...or should I just look at building from the .tar.gz?
+2008-07-26T20:35:00.000Z	fyrestrtr	rbd	use a virtual machine for this.
+2008-07-26T20:36:00.000Z	rbd	fyrestrtr	yeah normally I would do that, but what if I couldn't in this case?
+2008-07-26T20:37:00.000Z	fyrestrtr	rbd	you cannot install the same deb again.

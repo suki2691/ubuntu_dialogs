@@ -1,0 +1,4 @@
+2010-06-27T05:26:00.000Z	mdg		How do I tell what video card I have via CLI?
+2010-06-27T05:26:00.000Z	Baba_b00ie	mdg	lspci -vvv | grep video
+2010-06-27T05:28:00.000Z	mdg	Baba_b00ie	thanks for responding, but the grep video part didn't work
+2010-06-27T05:29:00.000Z	Baba_b00ie	mdg	yeah i know, it's wrong command. i wanted to say lshw -C video

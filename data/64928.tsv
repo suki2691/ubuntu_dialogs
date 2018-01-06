@@ -1,0 +1,4 @@
+2010-03-23T21:36:00.000Z	shadeslayer		hi how do i get my vga info via lshw?
+2010-03-23T21:37:00.000Z	shadeslayer		i need to put a vga= line in grub2 to use a good display res
+2010-03-23T21:37:00.000Z	ZykoticK9	shadeslayer	not sure about lshw - but to find your video card you can use "lspci | grep -i vga"
+2010-03-23T21:37:00.000Z	shadeslayer	ZykoticK9	yeah i know about that

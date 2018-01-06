@@ -1,0 +1,4 @@
+2006-01-20T09:17:00.000Z	ficusplanet		Hey everyone.  I still can't get sound to play over my two Ubuntu boxes.  They both have an AC97 codec based device that is detected properly and all of the apps seem to interact properly with.  There is just no sound from the speakers except from line-in based source like TVTime.  What could this possibly be?
+2006-01-20T09:18:00.000Z	navarone	ficusplanet	run amixer in terminala nd see that all sources are not muted
+2006-01-20T09:21:00.000Z	navarone	ficusplanet	have you changed the output input thingys in System/Preferences/MultiMedia Selector?
+2006-01-20T09:21:00.000Z	ficusplanet	navarone	Nope.  And these aren't just gstreamer apps - it's also the xine version of totem.

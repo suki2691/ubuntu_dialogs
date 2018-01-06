@@ -1,0 +1,4 @@
+2007-07-31T10:50:00.000Z	noble		Why do IDE drives show up as /dev/sda  in Fiesty and not /dev/hda  ???
+2007-07-31T10:51:00.000Z	noble		ah ok thanks DShepherd
+2007-07-31T10:51:00.000Z	xtknight	noble	nowadays UUIDs are used in fstab to refer to a device though.  you can type "blkid" to get uuids
+2007-07-31T10:53:00.000Z	xtknight	noble	basically instead of "/dev/sda1" you will have "UUID=longUuidCode"

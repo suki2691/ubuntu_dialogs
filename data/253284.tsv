@@ -1,0 +1,4 @@
+2005-01-18T12:48:00.000Z	no0tic		anyone knows how to patch the kernel with the suspend to disk or software-suspend patch and if does it really work?
+2005-01-18T12:49:00.000Z	zerok	no0tic	the drivers for it shold already be in the newer sources on kernel.org so you shouldn't have to patch. I tried suspend to disc this summer but it didn't really work back then ;-)
+2005-01-18T12:50:00.000Z	no0tic	zerok	can I compile a 2.6.10 kernel with the 2.6.8.1 configuration?
+2005-01-18T12:51:00.000Z	zerok	no0tic	i have never tried to compile or install a normal kernel on debian before. but i think 2.6.10 includes many many changes, so i would write a new .config

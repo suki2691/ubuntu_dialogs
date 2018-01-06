@@ -1,0 +1,4 @@
+2007-05-28T11:19:00.000Z	aroo		I just compiled 2.6.21.3 kernel and everything works perfectly except my NIC. "lspci" shows the ethernet controller but no interfaces show in knetworkmanager
+2007-05-28T11:20:00.000Z	wols	aroo	check /sbin/ifconfig -a
+2007-05-28T11:20:00.000Z	aroo	wols	I checked and only the loopback shows which is the stem of my confusion
+2007-05-28T11:21:00.000Z	wols	aroo	then you haven't compiled in the needed driver. do you compile again

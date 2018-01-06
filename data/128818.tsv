@@ -1,0 +1,4 @@
+2009-07-28T22:52:00.000Z	ptn107	worm	you can use the user agent switcher to change 'shiretoko' to 'firefox' (https://addons.mozilla.org/en-US/firefox/addon/59)
+2009-07-28T23:00:00.000Z	worm	ptn107	great addon thanks, but how do i know the correct navigator.userAgent value ?
+2009-07-28T23:01:00.000Z	worm	ptn107	i got this : Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.1.1) Gecko/20090716 Ubuntu/9.04 (jaunty) Shiretoko/3.5.1
+2009-07-28T23:05:00.000Z	ptn107	worm	Tools -> Default user agent -> Edit user agents; then add a 'new' user agent, change all instances of shiretoko to firefox, click ok; now use the tools -> default user agent -> to change to the user agent you just created

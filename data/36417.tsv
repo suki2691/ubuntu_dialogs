@@ -1,0 +1,4 @@
+2010-03-01T10:54:00.000Z	soudesuka		I installed ubuntu using wubi and then tried to move the install using LVPM, but for some reason, ubuntu does not show up in the grub menu.  I get an UnknownOS which points to my Windows Bootloader and then the actual Windows Bootloader.  The ubuntu install is still associated with the windows bootloader.  any suggestions?
+2010-03-01T10:55:00.000Z	Blue1	soudesuka	becuase wubi runs as a task under windows
+2010-03-01T10:55:00.000Z	soudesuka	Blue1	LVPM is supposed to move Ubuntu to its own seperate partition
+2010-03-01T10:56:00.000Z	Blue1	soudesuka	i've not had good luck with that - - but YMMV (your mileage may vary)

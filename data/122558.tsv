@@ -1,0 +1,4 @@
+2009-06-01T10:41:00.000Z	Peddy		How could I list files by date in the terminal?
+2009-06-01T10:42:00.000Z	darlek	Peddy	ls -lat the t switch sorts by modification time, might that help?
+2009-06-01T10:44:00.000Z	darlek	Peddy	:: ls -la | sort -nr  means sort by numeric thus by date, and r for reverse.
+2009-06-01T10:44:00.000Z	darlek	Peddy	or maybe that's sort by size.. can't remember

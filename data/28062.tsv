@@ -1,0 +1,4 @@
+2010-08-15T02:07:00.000Z	g3d		hi, I chose to encrypt my home partition during installation of 10.04, now I'm noticing in my home soft links .ecryptfs and .Private, which point to themselves. mount says that ~/.Private is of type ecryptfs. Does it mean, that my ~ is not encrypted, just ~/.Private is?
+2010-08-15T02:09:00.000Z	headkase314	g3d	all your encrypted files are kept in .private I believe and ~ is mapped to point there when you enter your passphrase.  I'm pretty sure about that, read quite a bit back ago.
+2010-08-15T02:10:00.000Z	g3d	headkase314	ok, that's good. Thank you.
+2010-08-15T02:10:00.000Z	headkase314	g3d	you're welcome.

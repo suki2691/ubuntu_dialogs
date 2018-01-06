@@ -1,0 +1,4 @@
+2005-06-18T10:03:00.000Z	black13		how i install syslog-ng
+2005-06-18T10:03:00.000Z	black13		apt-get install syslog-ng?
+2005-06-18T10:04:00.000Z	black13		apt-cache search syslog-ng returns nada
+2005-06-18T10:05:00.000Z	nemik	black13	make sure you do sudo nano /etc/apt/sources.list and change to universe in case the basic default ones don't have your package

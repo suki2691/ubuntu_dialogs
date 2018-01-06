@@ -1,0 +1,4 @@
+2008-11-24T13:57:00.000Z	panas55s		Please: any body recognise this??? system-tools-backends
+2008-11-24T13:57:00.000Z	panas55s		E: Sub-process /usr/bin/dpkg returned an error code (1)
+2008-11-24T13:58:00.000Z	jonaskoelker	panas55s	yep, it means something went wrong :)
+2008-11-24T13:58:00.000Z	jonaskoelker	panas55s	try dpkg --reconfigure -a

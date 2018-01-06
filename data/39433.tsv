@@ -1,0 +1,4 @@
+2010-02-18T08:52:00.000Z	robbins62		I installed boxee from a .deb from boxee's website...how do i go about uninstalling that so i can install the newer beta version?
+2010-02-18T08:53:00.000Z	achiang	robbins62	dpkg -l | grep ^ii | grep boxee -- that will give you the name of the .deb you originally installed. then, dpkg -r <name of deb> to remove
+2010-02-18T08:54:00.000Z	robbins62	achiang	straight forward enough! thanks man.
+2010-02-18T08:54:00.000Z	achiang	robbins62	np

@@ -1,0 +1,4 @@
+2010-04-26T09:29:00.000Z	b0w		hello! i got a sftp server up and running but i cant see who is connected to it, when i do finger, w or who i can just see users connected locally, no on the sftp
+2010-04-26T09:31:00.000Z	pure_hate	b0w	ps aux | sed -n '/USER/!s/\([^ ]\) .*/\1/p' | sort -u
+2010-04-26T09:32:00.000Z	b0w	pure_hate	that gives connected users? i see a lot wich not ae users
+2010-04-26T09:33:00.000Z	pure_hate	b0w	shows every thing, dameon users, ssh users and sftp users

@@ -1,0 +1,4 @@
+2010-01-13T19:05:00.000Z	davertron		does anyone know how i change the default EDITOR on ubuntu so that when I "sudo <do something that uses an editor>" I can use what i want?
+2010-01-13T19:06:00.000Z	mcphail	davertron	set the $EDITOR and $VISUAL variables, and also run update-alternatives
+2010-01-13T19:08:00.000Z	mcphail	davertron	and do the "update-alternatives" thing as well
+2010-01-13T19:09:00.000Z	mcphail	davertron	sets default editor, for a start!

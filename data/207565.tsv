@@ -1,0 +1,4 @@
+2010-01-25T05:06:00.000Z	Abnix		quick question (google is failing me again)  how can I tell an already installed ubuntu 9.10 desktop to *stop* starting x  ?
+2010-01-25T05:08:00.000Z	Abnix		so unless someone has a howto for a 7 inch screen that works.....
+2010-01-25T05:09:00.000Z	Abnix		ok, ty
+2010-01-25T05:11:00.000Z	Gstar	Abnix	edit /etc/init/rc-sysinit.conf file and change the run level to 3

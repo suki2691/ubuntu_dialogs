@@ -1,0 +1,4 @@
+2008-01-11T17:15:00.000Z	jabrahamsen		hi where do i set silent startup again?
+2008-01-11T17:16:00.000Z	Slart	jabrahamsen	do you mean the grub switch?
+2008-01-11T17:17:00.000Z	Slart	jabrahamsen	look in /boot/grub/menu.lst add the option "quite" to default boot options
+2008-01-11T17:17:00.000Z	Slart	jabrahamsen	you'll have to run "sudo update-grub" to make it active

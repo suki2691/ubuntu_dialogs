@@ -1,0 +1,4 @@
+2010-08-31T13:35:00.000Z	Panic		Hi. After googling and asking friends, I've had to give up and come here to seek help: How is sshd started during reboot on 10.04 LTS? I can't find any symlinks in the rc directories, and all I've found online about the "new init" just tells you how to start and stop manually, not how it's determined if ssh will be brought up automagically on reboot... Any pointers would be most welcome :-)
+2010-08-31T13:36:00.000Z	mickster04	Panic	normally yes? sshd should be started everytime the computer starts up
+2010-08-31T13:37:00.000Z	mickster04	Panic	well short of rebooting it and finding out :P f you installed it and haven't changed much since it will automatically start up
+2010-08-31T13:38:00.000Z	mickster04	Panic	well now you know to look in etc/init.d/

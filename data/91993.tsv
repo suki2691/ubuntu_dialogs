@@ -1,0 +1,4 @@
+2008-05-09T21:03:00.000Z	crash91		hi, when i try to expand my ext3 partition, i get this error: "sh: nice: Input/output error" (im using gparted on a live 8.04)
+2008-05-09T21:03:00.000Z	donak	crash91	before you can grow a partition you must make room for it to grow into ... by shrinking another ... carefully!
+2008-05-09T21:04:00.000Z	donak		if you HD is full, that is
+2008-05-09T21:04:00.000Z	crash91	donak	i have 26GB of free space after it...

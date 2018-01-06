@@ -1,0 +1,4 @@
+2006-08-04T07:16:00.000Z	nousie		can someone please help me? i tried to add a group and now my user admin privelages are revoked. i am no longer part of the sudoers file... what can i do?
+2006-08-04T07:18:00.000Z	kazukisan	nousie	Maybe try usermod -G sudo USERNAME
+2006-08-04T07:19:00.000Z	kazukisan	nousie	if it says you dont have premission then you have to boot up in recovery mode
+2006-08-04T07:19:00.000Z	nousie	kazukisan	usermod: unable to lock password file

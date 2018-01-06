@@ -1,0 +1,4 @@
+2007-10-20T05:07:00.000Z	LifeSF		Hi everyone,... could someone please tell me how to copy a directory and or then delete it from and to /var/www ? it's the only way I've so far figured out where my html pages should go and cannot figure out how to configure Apache in any other way under linux with LAMP isntall, i'm running within the gui right now
+2007-10-20T05:08:00.000Z	Rob125	LifeSF	-- you can copy a directory using the command 'sudo cp' -- eg: 'sudo cp ~/Desktop/my_html_file /var/www/a_folder'.
+2007-10-20T05:08:00.000Z	Rob125	LifeSF	sudo cp -R, sorry
+2007-10-20T05:08:00.000Z	Rob125	LifeSF	sudo rm -r /path/to/directory

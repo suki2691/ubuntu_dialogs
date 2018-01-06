@@ -1,0 +1,4 @@
+2010-08-08T06:23:00.000Z	mlmg317-himts		Hello.  I am trying to connect my Western Digital My Book.  Ubuntu 9.10 won't detect it when I plug it into one of the USB ports.  Can I do something to command Ubuntu to read detect what is plugged into the USB port?
+2010-08-08T06:23:00.000Z	[jfcaron]	mlmg317-himts	try "lsusb"
+2010-08-08T06:24:00.000Z	[jfcaron]	mlmg317-himts	If you do it before and after plugging it in, the new entry should be your device.
+2010-08-08T06:29:00.000Z	[jfcaron]	mlmg317-himts	Hum, by the way I'm not an expert at all, I just happen to have remembered the "lsusb" command.  If it's a large hard drive, maybe it needs to spend some time reading the disk before it can respond?  I have no idea though, sorry. =\

@@ -1,0 +1,4 @@
+2005-09-14T13:27:00.000Z	Alex_BO		HeLLO! I don't know why (probably I removed it), but I can't find the file ~/.bash_profile. Where can I find it? In the installation CD? In a live CD?
+2005-09-14T13:28:00.000Z	trigg	Alex_BO	try /etc/skel
+2005-09-14T13:30:00.000Z	trigg	Alex_BO	the one in /etc/skel is the one used everytime you create a new user, so it should work if you copy it using a regular user account
+2005-09-14T13:31:00.000Z	Alex_BO	trigg	HappyFool: okey.tnks. I am gonna copy it and modify if it will necessary (like aliases or colors, but i think that, if they are already setted in .bashrc, i don't need to modify it)

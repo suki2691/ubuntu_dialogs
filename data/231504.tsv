@@ -1,0 +1,4 @@
+2007-11-05T00:29:00.000Z	johnation33		this is what I mean by full permissions on a mounted volume: http://ubuntuforums.org/showthread.php?p=2107144#post2107144 Only except, the mounted volume is not FAT32 but Ext3
+2007-11-05T00:29:00.000Z	johnation33		so how would I do it for Ext3?
+2007-11-05T00:30:00.000Z	Dr_willis_	johnation33	 as far as i know - you must set the permissions on the files/dirs In the mounted volume. You cant just mouunt it in such a way that  the OS overrides the existing filesystem permissions.
+2007-11-05T00:30:00.000Z	Dr_willis_	johnation33	 ive seen this asked befor.. If theres a way to 'override' them - ive never seen anyone mention it. I normally make a single dir on the volume and let the user i want  have full permission./ownership of that dir.

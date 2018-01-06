@@ -1,0 +1,4 @@
+2007-10-02T11:08:00.000Z	rav		Hey, does anyone know how i can enable rendering on 00:02.0 VGA compatible controller: Intel Corporation 82845G/GL[Brookdale-G] /GE Chipset Integrated Graphics Device (rev 03)
+2007-10-02T11:09:00.000Z	rav		yeah, i thought so too, but i did that glxinfo | grep direct
+2007-10-02T11:09:00.000Z	rav		 and i got a big fat no
+2007-10-02T11:09:00.000Z	magnetron	rav	the hardware rendering is quite slow on those cards, maybe you have it enabled without noticing

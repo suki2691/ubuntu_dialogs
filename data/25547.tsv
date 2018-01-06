@@ -1,0 +1,4 @@
+2012-04-23T20:31:00.000Z	jsebean		Hey all, How do I use date command to display a time in a certain timezone. I run: date +%r but it shows it in universal time?
+2012-04-23T20:33:00.000Z	trism	jsebean	it is right on the manpage, TZ='America/Los_Angeles' date
+2012-04-23T20:33:00.000Z	jsebean	trism	??
+2012-04-23T20:35:00.000Z	trism	jsebean	man date; then look at the Examples section at the end

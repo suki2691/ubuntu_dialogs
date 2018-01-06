@@ -1,0 +1,4 @@
+2009-07-25T19:15:00.000Z	richardcavell		I used an iptables rule to block his IP altogether
+2009-07-25T19:16:00.000Z	richardcavell		richard@richard-laptop:~$ sudo iptables -A INPUT -s 115.240.44.232 -j DROP
+2009-07-25T19:16:00.000Z	skullbox	richardcavell	did u actually give that nub ur IP?
+2009-07-25T19:16:00.000Z	richardcavell	skullbox	you can get it through whois

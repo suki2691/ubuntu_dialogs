@@ -1,0 +1,4 @@
+2012-02-20T12:48:00.000Z	betz1		Hi! I have a problem with my nvidia card. I had 10.04 running with 2.6.32 kernel i think. I upgraded kernel to 3.0.0-15-server. I had xbmc-standalone running on this box and all worked. when i try modprobe nvidia i get message that module nvidia is not found. What should i do?
+2012-02-20T12:50:00.000Z	theadmin	betz1	The module might be renamed (iirc it's "nvidia-current" now), but then again if you're using an unofficial kernel, some modules might fail to work with it
+2012-02-20T12:53:00.000Z	betz1	theadmin	nvidia-current is already the newest version
+2012-02-20T12:54:00.000Z	theadmin	betz1	Well, can you modprobe that?

@@ -1,0 +1,4 @@
+2011-01-12T17:04:00.000Z	JyZyXEL		are there any advantages in using JBOD instead of LVM?
+2011-01-12T17:04:00.000Z	JyZyXEL		or LVM on top of JBOD
+2011-01-12T17:06:00.000Z	rmxz	JyZyXEL	" any advantages in using JBOD instead of LVM" ; differences, yes - when it comes to write barrier support.  IIRC, lvm doesn't pass write barrier commands to the underlying disks, but jbod would
+2011-01-12T17:06:00.000Z	JyZyXEL	rmxz	is it because of dm?

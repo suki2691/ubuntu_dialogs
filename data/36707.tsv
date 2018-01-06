@@ -1,0 +1,4 @@
+2010-03-08T15:02:00.000Z	brjann	AdvoWork	if the filesystem is mounted, it may detect problems that don't actually exist, because the buffers haven't been flushed to disk, etc.
+2010-03-08T15:02:00.000Z	AdvoWork	brjann	 how will I tell then?
+2010-03-08T15:03:00.000Z	brjann	AdvoWork	either force an fsck at boot, before the filesystem is mounted, or boot from a livecd and test from there.
+2010-03-08T15:50:00.000Z	brjann	AdvoWork	from the e2fsck man page: it is safe if the -n option is specified, and -c, -l, or -L options are not specified. However, even if it is safe to do so, the results printed by e2fsck are not valid if the filesystem is mounted.

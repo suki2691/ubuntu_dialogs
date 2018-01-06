@@ -1,0 +1,4 @@
+2010-06-04T01:30:00.000Z	djrwolf		I updated Ubuntu and part of it was an update to grub. When it came up in the installation I told it to keep the old one and left everything as it was. Then when I tried to reboot into Windows it gave an error message. So I went back into Ubuntu and reinstalled grub and now when I select Windows it just loops back to grub.
+2010-06-04T01:31:00.000Z	Jordan_U	djrwolf	You probably accidentily installed grub to your windows bootsector, http://sourceforge.net/apps/mediawiki/bootinfoscript/index.php?title=Boot_Problems:Boot_Sector
+2010-06-04T01:32:00.000Z	djrwolf	Jordan_U	checking that link....
+2010-06-04T01:35:00.000Z	djrwolf	Jordan_U	finished those instructions, rebooting now, wish me luck :)

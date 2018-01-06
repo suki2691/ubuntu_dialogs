@@ -1,0 +1,4 @@
+2007-10-05T13:59:00.000Z	zoli2k		How can I blacklist a kernel driver?
+2007-10-05T14:00:00.000Z	zoli2k		Hi, can you help me? How can I blacklist a kernel driver?
+2007-10-05T14:00:00.000Z	nickrud	zoli2k	create a file in /etc/modprobe.d/ , use blacklist in that directory for the syntax (create a new file, so ubuntu won't mess with it)
+2007-10-05T14:01:00.000Z	zoli2k	nickrud	thank you. That is what I exactly need.

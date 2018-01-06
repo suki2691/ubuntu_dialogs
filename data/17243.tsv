@@ -1,0 +1,4 @@
+2011-09-27T21:23:00.000Z	tp43		I need help with mount command: mount /dev/cdrom /media/cdrom iso9660 ro,user,noauto,unhide
+2011-09-27T21:24:00.000Z	Polah	tp43	What error does it give you?
+2011-09-27T21:25:00.000Z	tp43	Polah	it returns usage help page
+2011-09-27T21:27:00.000Z	Polah	tp43	Oh, I see what you did. Wrong order. mount options device mountpoint.     sudo mount -t iso9660 -o ro,user,noauto,unhide /dev/cdrom /media/cdrom

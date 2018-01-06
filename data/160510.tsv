@@ -1,0 +1,4 @@
+2011-08-02T04:16:00.000Z	ZeZu		why does apt tell me packages are held back and i need to do a dist-upgrade to get them?   I thought dist-upgrade was meant to move to the next release?   ie:  when unstable is moved to stable ...
+2011-08-02T04:17:00.000Z	ZeZu		I was thinking that they were being held back because of incompatibilities w/ binary drivers,  but was surprised to see dist-upgrade lets me
+2011-08-02T04:19:00.000Z	Jordan_U	ZeZu	dist-upgrade is used when to update certain packages other packages must be installed or removed (rather than just updated). This normall means that something is somewhat broken if you're not using a development release (also common if you use poorly managed ppas)
+2011-08-02T04:19:00.000Z	ZeZu	Jordan_U	thanks

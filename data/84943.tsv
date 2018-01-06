@@ -1,0 +1,4 @@
+2012-03-15T05:23:00.000Z	thereindarkness		hey guys, I am using wordpress on ubunto server, when I connect with ftp it always put me in /root, but I installed my wordpress stuff in /var/www is this ok?
+2012-03-15T05:23:00.000Z	thereindarkness		is it supposed to be root/var/www or something?
+2012-03-15T05:24:00.000Z	nibbler_	thereindarkness	you should not login as root, via ftp. you should not log into ftp at all
+2012-03-15T05:25:00.000Z	nibbler_	thereindarkness	besides that, its fine. ftp (and lots of other services including ftps, sftp, ssh) put you in your homedirectory

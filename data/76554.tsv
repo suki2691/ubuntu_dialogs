@@ -1,0 +1,4 @@
+2008-10-31T20:43:00.000Z	Gnutoo		hello, i'm helping my brother and he didn't migrate yet to intrepid...but he's got a problem: apt-get was interupted while installing a package and it now says: dpkg was interrupted you must manually run dpkg configure a to correct the problem...but i must reconfigure which package...if i do a dpkg-reconfigure tilp2 it says that tilp2 is not installed...
+2008-10-31T20:44:00.000Z	Tom_Davis	Gnutoo	sudo dpkg --configure -a
+2008-10-31T20:45:00.000Z	Tom_Davis	Gnutoo	no that will make dpkg functional again
+2008-10-31T20:45:00.000Z	Gnutoo	Tom_Davis	ouch...there is no other solution?

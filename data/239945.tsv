@@ -1,0 +1,4 @@
+2006-04-29T10:11:00.000Z	noisy_1		how do I restart fstab to change my mounts?
+2006-04-29T10:12:00.000Z	noisy_1		ok
+2006-04-29T10:12:00.000Z	nickrud	noisy_1	try mount -a ; you may need to umount/mount specific points if you have changed /etc/fstab
+2006-04-29T10:14:00.000Z	nickrud	noisy_1	sudo umount /dev/<point> && sudo mount /dev/<point>

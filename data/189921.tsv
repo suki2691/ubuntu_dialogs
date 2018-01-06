@@ -1,0 +1,4 @@
+2006-05-11T16:30:00.000Z	jeff303		does anyone know of a way to determine which processes are getting HD access?  After a fresh boot I keep getting infrequent accesses on the light but can't figure out what's doing it (no journaling fs)
+2006-05-11T16:31:00.000Z	slackern	jeff303	lsof (short for list open files) might help you?
+2006-05-11T16:31:00.000Z	jeff303	slackern	thanks for the tip
+2006-05-11T16:32:00.000Z	slackern	jeff303	there might be tons and tons of output though, so you might want to do  pipe it to less or grep.

@@ -1,0 +1,4 @@
+2012-01-10T06:00:00.000Z	rdeschain		hey, i'm having difficulty with something.  anybody know a more correct way of encoding base64 than "echo foo | base64 -" ?
+2012-01-10T06:01:00.000Z	rdeschain		the issue with that command is that it's base64 encoding a newline after the foo string
+2012-01-10T06:03:00.000Z	overclucker	rdeschain	echo -n
+2012-01-10T06:03:00.000Z	rdeschain	overclucker	thanks, that is the solution =)

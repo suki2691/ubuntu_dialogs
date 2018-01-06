@@ -1,0 +1,4 @@
+2011-07-22T00:31:00.000Z	TheCyph3r		okay, thanks all :)
+2011-07-22T00:32:00.000Z	acicula	TheCyph3r	the trick to adding another os without messing with your current bootloader is to, surprise, not install it over your current bootloader. what you can do is just put the bootloader for the new os on the os's own partition instead of the mbr
+2011-07-22T00:33:00.000Z	TheCyph3r	acicula	that makes sense. so essentially, it would be a triple-boot until I remove whatever other OS I want to get rid of?
+2011-07-22T00:34:00.000Z	acicula	TheCyph3r	yeah, depending on the os you are adding you can also use the existing grub bootloader to boot a kernel directly

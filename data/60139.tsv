@@ -1,0 +1,4 @@
+2012-04-05T08:26:00.000Z	gulzar		 how to find out the files being used by a process? eg: I have 3 conky runnng but in the configuration I have added onky 1 setup... so there is some other file being run .. how to find its location with the running processes?
+2012-04-05T08:27:00.000Z	studentz	gulzar	use top or atop from cli
+2012-04-05T08:28:00.000Z	gulzar	studentz	I want the files being used... but I got it .. {ps aux | grep $pid}
+2012-04-05T08:30:00.000Z	studentz	gulzar	sorry I misunderstood your q? Do you want to know the pid of the subprocess?

@@ -1,0 +1,4 @@
+2010-05-15T16:44:00.000Z	nerxgas		how do i list connected bluetooth devices....is there something like lsusb?
+2010-05-15T16:45:00.000Z	rdz	nerxgas	hcitool scan
+2010-05-15T16:47:00.000Z	rdz	nerxgas	the command i posted scans for bluetooth devices in the air, such as phones and mice etc.. if you want to scan attached bluetooth adapter on your box, try: lsusb , or: lspci
+2010-05-15T16:48:00.000Z	nerxgas	rdz	thanks

@@ -1,0 +1,4 @@
+2008-01-04T19:01:00.000Z	AngryAnt		I just installed the ubuntu 7.04 server and it booted up. Last output on the display is "* Running local boot scripts (/etc/rc.local) [ OK ]" which I'm thinking is ... uh ... [ ok ] :) However I'm kinda missing a prompt.
+2008-01-04T19:02:00.000Z	iddo	AngryAnt	if you press enter you get a prompt ?
+2008-01-04T19:02:00.000Z	AngryAnt	iddo	Ah. Thanks. Had tried all other keys. DOH! :p
+2008-01-04T19:03:00.000Z	iddo	AngryAnt	in /etc/event.d/tty1 change 1st line to: start on stopped rc2

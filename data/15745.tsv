@@ -1,0 +1,4 @@
+2011-05-07T02:51:00.000Z	BenBE		Is there a log kept somewhere of the information dumped during a kernel panic?
+2011-05-07T02:52:00.000Z	BenBE		Since my update to latest Ubuntu with 2.6.38 kernel I keep getting kernel panics whenever wpa_wpa_supplicant tries to establish the network connection.
+2011-05-07T02:52:00.000Z	ayecee	BenBE	it's written to /var/log/syslog or /var/log/messages, if the panic still left the kernel in a state that it's able to do so.
+2011-05-07T02:59:00.000Z	BenBE	ayecee	Unfortunately it's in neither of those files ...

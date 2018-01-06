@@ -1,0 +1,4 @@
+2006-05-25T16:49:00.000Z	selinium	Coldfirex	It is better to uninstall the unused kernel
+2006-05-25T16:49:00.000Z	selinium	Coldfirex	otherwise whenever there is an update it will download both k7 and 386 kernels.
+2006-05-25T16:52:00.000Z	Coldfirex	selinium	Cool, would it be something along the lines of this? sudo dpkg -r kernel-i386 and then the headers?
+2006-05-25T16:53:00.000Z	selinium	Coldfirex	Yep or sudo apt-get remove <kernel> <headers>

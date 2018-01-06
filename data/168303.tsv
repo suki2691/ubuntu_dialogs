@@ -1,0 +1,4 @@
+2007-07-14T06:20:00.000Z	shadowhywind		Hi all, I am trying to use sshfs to mount a fat32 partition on a server. I can connect to it ok, but when i try to copy any files over, it comes up with Can't change file permissions. Anyone have any ideas?
+2007-07-14T06:20:00.000Z	Logi	shadowhywind	well, FAT doesn't have file permissions, so setting them fails...
+2007-07-14T06:21:00.000Z	shadowhywind	Logi	but when i go to the server i can change the file permissions
+2007-07-14T06:21:00.000Z	shadowhywind	Logi	but in anycase, any ideas on how to get rid of those messages then?

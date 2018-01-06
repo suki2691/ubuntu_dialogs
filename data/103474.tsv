@@ -1,0 +1,4 @@
+2009-03-21T00:12:00.000Z	tehhax		I want to make it so that an old laptop never blanks the screen (no power management, no screen saver)
+2009-03-21T00:13:00.000Z	tehhax		its running fluxbox, no screensaver is running, but it still blanks, how can I find out what process is doing this?
+2009-03-21T00:14:00.000Z	doleyb	tehhax	run xset q, and check if there's a blank timer
+2009-03-21T00:17:00.000Z	tehhax	doleyb	ah, got it, prefer blanking: yes

@@ -1,0 +1,4 @@
+2006-08-08T09:17:00.000Z	timothy		can anyone help me with a problem mounting a hard drive?
+2006-08-08T09:19:00.000Z	timothy		khamael: I added a physical drive to my computer, IDE, and everything is recognized fine. Then, in ubuntu, it is still recognized with its name and whatnot, but when I try to open it/mount it, I get "unable to mount the selected volume. error: device /dev/hdd3 is not removable error: could not execute pmount".
+2006-08-08T09:20:00.000Z	Dr_Willis	timothy	 add a fstab entry for it?
+2006-08-16T11:18:00.000Z	Dr_Willis	timothy	 lm-sensors

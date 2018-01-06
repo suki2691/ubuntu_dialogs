@@ -1,0 +1,4 @@
+2009-03-17T05:12:00.000Z	khmer42		I've exectued a program on the command line and when it load it doesn't give me the command line back it just sits there spitting out log messages (expected behaviour), how can I get the command line back without stopping the app?
+2009-03-17T05:12:00.000Z	unop	khmer42	 ctrl+z
+2009-03-17T05:13:00.000Z	unop	khmer42	that will suspend the job - to resume it you have to option.  use   bg    to send it in the background or   fg   to bring it into the foreground.
+2009-03-17T05:13:00.000Z	unop	khmer42	s/to/two/

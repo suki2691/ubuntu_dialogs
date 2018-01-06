@@ -1,0 +1,4 @@
+2010-01-31T07:57:00.000Z	Myke516		does anyone know how I can change all of the file permissions of a file in a folder?
+2010-01-31T07:58:00.000Z	Myke516		Yes onetin
+2010-01-31T07:58:00.000Z	trism	Myke516	find folder_name -type f -exec chmod permissions {} + (assuming you mean recursively)
+2010-01-31T07:59:00.000Z	trism	Myke516	replacing folder_name with the path to the folder and permissions with the permissions you want to apply

@@ -1,0 +1,4 @@
+2011-05-02T05:01:00.000Z	jukebox-zero		So I noticed today that ecryptfs appears to be eating half of my diskspace. Been reading the man pages to see why, and since it's on the fly encryption, it would seem this should not be. In the disk analyzer it appears in the home directory ecryptfs has duplicated my home directory, but it's copy is actually larger than the original. That seems strange. Am I just looking at this wrong?
+2011-05-02T05:01:00.000Z	escott	jukebox-zero	the encrypted filesystem is loop mounted back on top of /home/username
+2011-05-02T05:01:00.000Z	escott	jukebox-zero	so it may duplicate your du count, but its not double the disk usage
+2011-05-02T05:03:00.000Z	jukebox-zero	escott	that's what I was hoping to hear. Thanks.

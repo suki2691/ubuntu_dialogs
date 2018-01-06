@@ -1,0 +1,4 @@
+2009-05-21T04:26:00.000Z	dansku2		is there how to change the folder the "make install" installs the file, i want to install it on my home folder
+2009-05-21T04:27:00.000Z	mzz	dansku2	that depends heavily on the package, but you may have some luck with passing --prefix=$HOME (or $HOME/somedir) to configure
+2009-05-21T04:27:00.000Z	mzz	dansku2	definitely do not run "make install" as root if you're doing this.
+2009-05-21T04:28:00.000Z	dansku2	mzz	i cant, that why i want to install on other folder =)

@@ -1,0 +1,4 @@
+2006-12-16T15:19:00.000Z	ubul4		how do I install packages without an internet connection?
+2006-12-16T15:19:00.000Z	mats	ubul4	dpkg -i file.deb
+2006-12-16T15:21:00.000Z	ubul4	mats	and where can I get the .deb files?
+2006-12-16T15:22:00.000Z	mats	ubul4	on the internet, or from your ubuntu-cds. You can even do 'sudo rm /etc/apt/source-list ; sudo apt-setup'

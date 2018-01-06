@@ -1,0 +1,4 @@
+2012-10-03T13:48:00.000Z	TJ-	martell	You can use "apt-mark" to save a list of installed packages and dependencies, then once the new install is ready, use "apt-mark" again to load the list of packages and then install them
+2012-10-03T13:52:00.000Z	TJ-	martell	See the answer to this question for how to use it. http://askubuntu.com/questions/101931/restoring-all-data-from-backup-of-dpkg-set-selections
+2012-10-03T13:53:00.000Z	TJ-	martell	After installing the new system and running "apt-mark..." to select the packages, you do "sudo apt-get -f install" to have the selections installed
+2012-10-03T13:59:00.000Z	martell	TJ-	thanks mate, will try it

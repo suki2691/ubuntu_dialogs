@@ -1,0 +1,4 @@
+2009-04-03T04:20:00.000Z	SrEstroncio	ActionParsnip	I am talking to gaby, and It seems to me that the issue is that she cannot access her NTFS partition and she is getting a "not clean shutdown in windows" message even thought that is not the case.
+2009-04-03T04:20:00.000Z	ActionParsnip	SrEstroncio	you'll need to use -o uid=1000,force
+2009-04-03T04:21:00.000Z	SrEstroncio	ActionParsnip	Could you please post the whole command to forcefully mount an NTFS partition?
+2009-04-03T04:22:00.000Z	ActionParsnip	SrEstroncio	sudo mount /dev/<partition name> /mount/point -t ntfs-3g -o uid=1000,force

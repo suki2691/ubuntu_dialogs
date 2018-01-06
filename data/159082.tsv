@@ -1,0 +1,4 @@
+2007-02-03T11:11:00.000Z	wimpies		HI all, I am trying to install vmware server and it wants my kernel headers.  uname -a reports 2.6.20-5-generic so I make it point to linux-headers-2.6.20-5-generic but it says the files are not of the proper version ... What can I do about this ?
+2007-02-03T11:12:00.000Z	mzanfardino	wimpies	It's probably looking for just the path to /usr/src/linux-headers...
+2007-02-03T11:14:00.000Z	wimpies	mzanfardino	: i gave it that path but it claims they are not of the running kernel version
+2007-02-03T11:28:00.000Z	mzanfardino	wimpies	did you point to the /usr/shr/linux-headers-$(uname -r)?

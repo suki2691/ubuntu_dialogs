@@ -1,0 +1,4 @@
+2005-12-10T17:52:00.000Z	Talisker		Is there anyway to mount my hard drives from the livecd without editing fstab?
+2005-12-10T17:53:00.000Z	Xappe	Talisker	use the "mount" command
+2005-12-10T17:53:00.000Z	Talisker	Xappe	mount won't let me mount anything that's not in fstab
+2005-12-10T17:54:00.000Z	Xappe	Talisker	sudo mount -t <fileystem> -o <options> <drive> <mountpoint>

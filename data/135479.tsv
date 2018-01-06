@@ -1,0 +1,4 @@
+2007-05-04T09:41:00.000Z	NewG		yihaa.. I got it to work.. Grub is totally mixed with external usb drive.. I had to set root (hd0,0) and root folder from dev/sdb5 !! Also had to remove some unnecessary /boot/blaa blaa => /blaa blaa
+2007-05-04T09:42:00.000Z	NewG		how come hd0,0 can map to dev/sdb1 ?!
+2007-05-04T09:43:00.000Z	void^	NewG	well, "hd0" is always the bios boot drive
+2007-05-04T09:43:00.000Z	NewG	void^	that explains, I thought it is the internal HD

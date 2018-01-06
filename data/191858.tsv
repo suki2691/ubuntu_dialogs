@@ -1,0 +1,4 @@
+2006-04-16T12:14:00.000Z	iegary	stjepan	I'd recommend that you have a look at the structure of an existing debian package, and maybe make a few changes to see how the built package differs.
+2006-04-16T12:14:00.000Z	iegary	stjepan	You can get the sources with "apt-get source <packagename>"
+2006-04-16T12:14:00.000Z	iegary	stjepan	get the dependencies with "apt-get build-dep <packagename>"
+2006-04-16T12:15:00.000Z	iegary	stjepan	then when you've made your changes, run "dpkg-buildpackage -rfakeroot" (install dpkg-dev and fakeroot packages first)

@@ -1,0 +1,4 @@
+2007-11-26T11:35:00.000Z	LGNR		hi, somebody knows how to make aviable a network interface once the drivers of the card have been properly loaded?, i.e. they apper in lsmod, it is a wireless USB card, but when I issue ifconfig only appears the loopback interface
+2007-11-26T11:36:00.000Z	scguy318	LGNR	apparently no proper kernel module seems to suit the chipset of your USB device
+2007-11-26T11:36:00.000Z	scguy318	LGNR	I would use ndiswrapper
+2007-11-26T11:37:00.000Z	scguy318	LGNR	https://wiki.ubuntu.com/SetupNdiswrapperHowto

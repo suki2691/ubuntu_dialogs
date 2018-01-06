@@ -1,0 +1,4 @@
+2006-08-30T10:47:00.000Z	squeaks		i want my X server to start sometimes with my alternative ServerLayout in xorg.conf, i had been doing startx -- -layout Multihead, but I had to hack at the runlevel that gdm runs at, and telinit to a higher runlevel
+2006-08-30T10:48:00.000Z	sethk	squeaks	you can modify the config so that gdm doesn't auto-restart, but I don't think that's any better than the solution you are using
+2006-08-30T10:53:00.000Z	squeaks	sethk	which configuration file tells gdm whether or not to start?
+2006-08-30T10:54:00.000Z	sethk	squeaks	/etc/inittab

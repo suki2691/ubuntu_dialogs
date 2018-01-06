@@ -1,0 +1,4 @@
+2011-10-16T03:04:00.000Z	Takyoji[laptop]		Symptoms are: system boots/runs, then a kernel panic, then the VGA display slowly gets distorted for like 10 seconds, then it just completely shuts down.
+2011-10-16T03:04:00.000Z	yeats	Takyoji[laptop]	check /var/log/syslog for any messages preceding the panic
+2011-10-16T03:05:00.000Z	yeats	Takyoji[laptop]	then that's almost certainly a hardware problem, not OS-related
+2011-10-16T03:08:00.000Z	yeats	Takyoji[laptop]	definitely the wrong place to ask, but still almost certainly not OS-related anyway

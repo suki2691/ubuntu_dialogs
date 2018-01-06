@@ -1,0 +1,4 @@
+2008-12-11T05:27:00.000Z	CaMason_		is it possible to make files created in a folder to have a specific set of permissions, even if they are altered with chmod?
+2008-12-11T05:28:00.000Z	unop	CaMason_	you can set a umask value - but that affects all files created, not just those in a specific folder
+2008-12-11T05:29:00.000Z	unop	CaMason_	for files that already exist - you can use chmod again
+2008-12-11T05:30:00.000Z	CaMason_	unop	ok, thanks. I'll just hack this script

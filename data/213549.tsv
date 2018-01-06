@@ -1,0 +1,4 @@
+2006-11-11T08:27:00.000Z	tom_		when i change permissions to get HP scanjet 3970 using sudo chmod a+w /dev/bus/usb/005/002 it works fine until i reboot and permissions change back to root Anyon know why?
+2006-11-11T08:29:00.000Z	tom_		using Dapper.  when i change permissions to get HP scanjet 3970 to work using sudo chmod a+w /dev/bus/usb/005/002 it works fine until i reboot and permissions change back to root Anyone know why?
+2006-11-11T08:30:00.000Z	tom_		is there a way to fix it?
+2006-11-11T08:30:00.000Z	tonyyarusso	tom_	Stuff in /dev is auto-configured on boot I believe.  You should probably add yourself to a group I would think, but I don't know exactly how your printer is set up.

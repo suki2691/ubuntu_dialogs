@@ -1,0 +1,4 @@
+2008-02-08T02:50:00.000Z	Speedjunkie		alright people i need some help...i have an external hard drive, i mounted it and it is now /media/hdb1...i want to find out how to unmount and reformat that hard drive
+2008-02-08T02:51:00.000Z	rfitch	Speedjunkie	I think GNOME Partiton Manager might have something to help you out with this
+2008-02-08T02:55:00.000Z	rfitch	Speedjunkie	I'm thinking mkfs will do the trick, but I'm trying to find more info on this
+2008-02-08T02:56:00.000Z	rfitch	Speedjunkie	looks like fdisk /dev/hdb

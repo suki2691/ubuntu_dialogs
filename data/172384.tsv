@@ -1,0 +1,4 @@
+2006-08-09T09:40:00.000Z	nubious		hey newbie question - when I use mount to mount a ntfs filesystem on another partition, it doesn't show up as accessible - why is that?
+2006-08-09T09:40:00.000Z	scrappy_	nubious	you can mount -o umask=000 /dev/something /media/something
+2006-08-09T09:42:00.000Z	scrappy_	nubious	youll have to add that to /etc/fstab and under the options put defaults,umask=000
+2006-08-09T09:42:00.000Z	scrappy_	nubious	might not be the best way but thats how i do it

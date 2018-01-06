@@ -1,0 +1,4 @@
+2012-11-22T15:06:00.000Z	Ray2		Ubuntu-10.04..on sda1...I have a file that is on sda1 and also on sdb5...when I mount sdb5 and try to open file from /opt/filename it open file from sda1
+2012-11-22T15:07:00.000Z	dcherniv	Ray2	is the file on sdb5 a symlink?
+2012-11-22T15:07:00.000Z	dcherniv	Ray2	ls -l filename
+2012-11-22T15:09:00.000Z	Ray2	dcherniv	no both files are seperate but also both under /opt...The file name is Moneydance one is a .deb the other is a rpm

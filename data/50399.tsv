@@ -1,0 +1,4 @@
+2012-01-23T15:27:00.000Z	Ivoz		how can i get my server to execute update-locale when I can't get a pty through ssh, but I can sftp?
+2012-01-23T15:28:00.000Z	llutz	Ivoz	have you access to /etc/cron.d? put a cron-job running your command in
+2012-01-23T15:29:00.000Z	Ivoz	llutz	do you think @reboot update-locale would work on a default install of ubuntu server?
+2012-01-23T15:29:00.000Z	llutz	Ivoz	it should

@@ -1,0 +1,4 @@
+2005-07-29T09:28:00.000Z	BRKN_LDR		where is the ubuntu equivalent of rc.modules?
+2005-07-29T09:28:00.000Z	BRKN_LDR		i stupidly uninstalled the realtime-lsm module and now i can't get it back up.
+2005-07-29T09:28:00.000Z	thoreauputic	BRKN_LDR	put it in /etc/modules on its own line
+2005-07-29T09:29:00.000Z	thoreauputic	BRKN_LDR	and to get it temporarily you can do "sudo modprobe <modulename>"

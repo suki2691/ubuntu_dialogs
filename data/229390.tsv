@@ -1,0 +1,4 @@
+2011-03-29T19:39:00.000Z	DarsVaeda		I do "ssh -L -v -p 2525 8888:host.host.com:80 user@host.host.com", i get the shell but on the forwarding the connection times out, works on windows, how can i debug this?
+2011-03-29T19:39:00.000Z	Spec	DarsVaeda	turn on verbosity!
+2011-03-29T19:40:00.000Z	Spec	DarsVaeda	you can give it more -vvvv s:p
+2011-03-29T19:40:00.000Z	Spec	DarsVaeda	sure, it'll get you more and more messages. if it just ends up saying timeout though, you gotta try a different tactic ;)

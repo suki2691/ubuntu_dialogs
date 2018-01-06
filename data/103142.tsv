@@ -1,0 +1,4 @@
+2008-12-31T07:42:00.000Z	Azazel-AZ		had to kil lother account remove home directory versus changing permissions for each hidden folder one at a time
+2008-12-31T07:42:00.000Z	Azazel-AZ		chown .* bad
+2008-12-31T07:43:00.000Z	venger	Azazel-AZ	find <somehomedir> -exec chown them:theirgroup {} \; will work
+2008-12-31T07:45:00.000Z	venger	Azazel-AZ	its the shells fault really, shell expansion i think z or c shell actually avoids this behavior

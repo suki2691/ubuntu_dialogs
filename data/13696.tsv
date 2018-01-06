@@ -1,0 +1,4 @@
+2011-05-31T19:26:00.000Z	Fonzieftw		what user does samba normally run on? Need to grant write permission to a folder, so samba users can write to it.
+2011-05-31T19:26:00.000Z	LAcan_	Fonzieftw	u need to add a UID and GID line to fstab i think
+2011-05-31T19:27:00.000Z	Fonzieftw	LAcan_	I can just chmod 775 to the folder, and add the samba deamon user to the owner group, cant i?
+2011-05-31T19:27:00.000Z	LAcan_	Fonzieftw	thats  hack

@@ -1,0 +1,4 @@
+2008-03-27T17:52:00.000Z	new		hello, i need some help... i installed gutsy to a pc of a friend. all is working fine, except this: he needed emacs, i installed it, it works as expected, he saves his work as in windows with a .c extension, but when he treis to run it with "gcc <filename>" it doesn;t work as in windows. instead it displays some error message.
+2008-03-27T17:53:00.000Z	Pici	new	We'd need to know what the error message is
+2008-03-27T17:54:00.000Z	Pici	new	Linux does not use the same exact c++ headers that Windows does.  I suspect that something like this is happening.
+2008-03-27T17:55:00.000Z	Pici	new	No, it has to do that you are running Linux, not Windows.  Further help in ##C++

@@ -1,0 +1,4 @@
+2008-05-16T13:57:00.000Z	Ollie_		Hi. I'm trying to compile something, but it's not working because I'm missing "dlsym", "dlerror", "dlopen", and "dlclose". Any help?
+2008-05-16T13:57:00.000Z	rhydar__	Ollie_	| sudo apt-cache search dlsym ...
+2008-05-16T14:01:00.000Z	Ollie_	rhydar__	I just run that command. Found 6 packages that have some libraries, and I installed them. I'm still getting the same error though ... ?
+2008-05-16T14:12:00.000Z	rhydar__	Ollie_	| there should be a compiler option in the ./configure scripts ?

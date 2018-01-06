@@ -1,0 +1,4 @@
+2011-05-02T00:10:00.000Z	JoseeAntonioR_		Guys, I'm having a great trouble. I have an Intel 82845G/GL video card, and it seems it doesn't recognizes my monitor. As a consequence, I cannot use Unity 3D, or change my resolution (it's stuck in 1024x768). What can I do in this case?
+2011-05-02T00:11:00.000Z	deadpulse	JoseeAntonioR_	maybe you want to have a custom xorg.conf file to manually set the resolution. Or use a monitor settings app to change it.
+2011-05-02T00:13:00.000Z	JoseeAntonioR_	deadpulse	I have tried creating and editing xorg.conf with the specs of my monitor, and it just makes my monitor go blank. I cannot use the monitor settings because my monitor is recognized as Unknown.
+2011-05-02T00:15:00.000Z	deadpulse	JoseeAntonioR_	hum, the only way I see you get that resolution working is to keep tweaking the xorg.conf... read the xorg logs to see the errors and adjust it

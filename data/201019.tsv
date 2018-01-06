@@ -1,0 +1,4 @@
+2007-06-01T05:37:00.000Z	mehmetserif		i am trying to install ubuntu Feisty but i am locked at partitioning , i have also xp on my hard drive but there is no other partition for ubuntu but there is a space in c: like 8 gb. so i want to use that empty space. In partition window there is a selection "Guided: resize sda and use freed space" does that mean it will use that free space?
+2007-06-01T05:38:00.000Z	mehmetserif		_mikem, well i just want to know what does that mean?
+2007-06-01T05:39:00.000Z	__mikem	mehmetserif	wubi will install your linux filesystem in a file that resides in your windows partition, thereby bypassing the risks associated with partitioning
+2007-06-01T05:40:00.000Z	__mikem	mehmetserif	its DESIGNED for windows

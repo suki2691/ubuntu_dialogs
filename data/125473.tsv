@@ -1,0 +1,4 @@
+2007-08-09T15:21:00.000Z	wong__		useradd shows nothing about deleting users.
+2007-08-09T15:21:00.000Z	wong__		delete user 'guest' via terminal, it somehow didnt show up in users and groups
+2007-08-09T15:22:00.000Z	gcostello	wong__	man userdel
+2007-08-09T15:25:00.000Z	gcostello	wong__	what is the output of the command "cat /etc/passwd | grep guest"

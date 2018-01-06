@@ -1,0 +1,4 @@
+2007-06-28T16:36:00.000Z	DavidCraft		when I installed ubuntu I had in my xorg.conf a synaptic driver.  I installed a patch for my video display (to get it to display in wide screen). Now all of a sudden, the synaptics driver is not there.  How do I fix this?
+2007-06-28T16:37:00.000Z	andruk	DavidCraft	in a terminal type "sudo dpkg-reconfigure xserver-xorg" without the quotes, and go through the windows
+2007-06-28T16:38:00.000Z	DavidCraft	andruk	 uh yah...
+2007-06-28T16:39:00.000Z	andruk	DavidCraft	did you read it and answer the questions properly, or did you just use the defaults for everything

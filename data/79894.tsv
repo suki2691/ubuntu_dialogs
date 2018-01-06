@@ -1,0 +1,4 @@
+2008-12-08T22:03:00.000Z	tobor		hi, I have system (LTS 6.06) thats takingn 1:40 seconds to do the "mounting root file system" step at boot time.  IIRC this is much longer than it used to be.  Does any have an idea what it might be?
+2008-12-08T22:03:00.000Z	ikonia	tobor	slower response to dhcp, fsck,
+2008-12-08T22:04:00.000Z	tobor	ikonia	its got a static IP.  AFAIK its not doing any fsck.
+2008-12-08T22:04:00.000Z	ikonia	tobor	usb devices taking a moment or two to discover

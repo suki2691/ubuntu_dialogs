@@ -1,0 +1,4 @@
+2008-09-01T23:39:00.000Z	Zopiac		so im trying to upgrade opera to 9.52 from 9.51 from a .deb file, but when i click install package, it tells me another synaptics program is open, but it isnt!
+2008-09-01T23:40:00.000Z	Flannel	Zopiac	do you have update-manager running? or apt-get or aptitude or adept?
+2008-09-01T23:41:00.000Z	Flannel	Zopiac	That might be update-manager doing its thing.  If you do this: `sudo apt-get update` what error do you get?
+2008-09-01T23:46:00.000Z	Flannel	Zopiac	alright, that's not a "another instance is running" error.

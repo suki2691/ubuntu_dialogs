@@ -1,0 +1,4 @@
+2008-05-12T16:41:00.000Z	mtrierscheid		I've got some display lightness issues on my fujitsu-siemens notebook. There's a kernel module which can handle it: fujitsu-laptop. But when I set the brightness via console (echo 1 > /sys/class/backlight/fujitsu-laptop/brightness) the lightness doesn't change.
+2008-05-12T16:41:00.000Z	mtrierscheid		I mean brightness, not lightness :)
+2008-05-12T16:41:00.000Z	hwilde	mtrierscheid	you probably have to reboot for soemthing like that to take effect
+2008-05-12T16:43:00.000Z	mtrierscheid	hwilde	well, I hoped that I could somehow use the keys to control the brightness but if I have to reboot every time.. :(

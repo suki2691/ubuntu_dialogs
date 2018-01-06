@@ -1,0 +1,4 @@
+2006-06-17T13:22:00.000Z	lxIT		Is there someone who's been able to get DMA working on a SATA DVD-RW? I always get the error "HDIO_GETGEO failed: Inappropriate ioctl for device"
+2006-06-17T13:22:00.000Z	fyrestrtr	lxIT	DMA only works on IDE devices, not SATA.
+2006-06-17T13:23:00.000Z	lxIT	fyrestrtr	Mmmm... I've read some different things on www
+2006-06-17T13:24:00.000Z	fyrestrtr	lxIT	again, DMA *does not apply* to SATA drives.

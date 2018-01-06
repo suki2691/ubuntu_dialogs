@@ -1,0 +1,4 @@
+2005-09-24T09:28:00.000Z	fysa		boo.  Breezy doesn't come with JFS?
+2005-09-24T09:28:00.000Z	fysa		FATAL: Module jfs not found.
+2005-09-24T09:30:00.000Z	fysa		I'm stuck.  I installed Hoary and used JFS as the rootfs.  Now I upgraded to Breezy and JFS isn't part of the kernel.
+2005-09-24T09:31:00.000Z	disasm	fysa	i'd say your probly going to have to boot off a live cd, chroot, and either install a kernel with jfs in it, or compile one using kernel-package

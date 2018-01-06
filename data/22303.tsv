@@ -1,0 +1,4 @@
+2010-11-26T16:35:00.000Z	kedy	chalcedony	well how is the file compressed. there's always a command line way
+2010-11-26T16:36:00.000Z	chalcedony	kedy	varies depending on the file, i guess. but if i wanted to archive home and etc, scp them and get them back working, what are good ways to do that with command line?
+2010-11-26T16:39:00.000Z	kedy	chalcedony	he just told u...tar czf /path/to/home_backup_$(date +%F).tar.gz $HOME
+2010-11-26T17:03:00.000Z	chalcedony	kedy	^^

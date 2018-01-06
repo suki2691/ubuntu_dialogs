@@ -1,0 +1,4 @@
+2011-03-21T19:20:00.000Z	Squarism		can you do updates with dpkg using the package file? the .deb file that is
+2011-03-21T19:21:00.000Z	Fuchs	Squarism	you can use dpkg -i to install .deb files, but it is not recommended and it won't take care of any dependencies
+2011-03-21T19:22:00.000Z	Squarism	Fuchs	if i have one version installed.. will it "overwrite" that?
+2011-03-21T19:22:00.000Z	Fuchs	Squarism	if the version is newer: yes, it will. Chances are as well that it doesn't detect that it is an already existing application and only overwrites the files,

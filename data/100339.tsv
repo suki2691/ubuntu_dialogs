@@ -1,0 +1,4 @@
+2008-02-14T23:57:00.000Z	SteveJB		hi how can i give permissions to mysql for /var/run/mysqld/mysqld.sock
+2008-02-14T23:59:00.000Z	SteveJB		I keep receiving error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+2008-02-15T00:00:00.000Z	jappdev	SteveJB	make sure that your my.cnf file is set to have /var/run/mysqld/mydqld.sock as the socket
+2008-02-15T00:04:00.000Z	jappdev	SteveJB	you can either change it to /var/run in the config file, or update your app/client to use the /var/lib socket {sorry for the delay, i have an 85ms lag}

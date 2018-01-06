@@ -1,0 +1,4 @@
+2007-10-10T15:30:00.000Z	andy_33		How do I found out which window manager I'm running?
+2007-10-10T15:30:00.000Z	tonyyarusso	andy_33	well, if you have a guess you can grep the output of 'ps aux'
+2007-10-10T15:31:00.000Z	andy_33	tonyyarusso	 hmm? :x
+2007-10-10T15:32:00.000Z	tonyyarusso	andy_33	For instance, Gnome's window manager is metacity.  'ps aux' is a command that outputs all running processes, and 'grep' is a pattern matching tool.  'ps aux | grep metacity' would display a line with information about it if it is in fact running, and no output if not.

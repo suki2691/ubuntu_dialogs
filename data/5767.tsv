@@ -1,0 +1,4 @@
+2012-02-07T04:40:00.000Z	helgee		Hi!
+2012-02-07T04:41:00.000Z	helgee		im trying to build postler but i cant configure it cause of missing sqlite3. I added it via apt-get install sqlite3, but the buildscript say "cant find sqlite3. check pkg_config_path" I dont know what to do now
+2012-02-07T04:42:00.000Z	trism	helgee	you need the -dev package when building from source
+2012-02-07T04:49:00.000Z	helgee	trism	thanks, that did the trick :]

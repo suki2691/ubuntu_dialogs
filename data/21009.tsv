@@ -1,0 +1,4 @@
+2012-06-29T07:31:00.000Z	ActionPa1snip	jagginess	sudo mkdir /etc/adobe; echo "EnableLinuxHWVideoDecode=1" | sudo tee /etc/adobe/mms.cfg > /dev/null
+2012-06-29T07:40:00.000Z	ActionPa1snip	jagginess	prefix with sudo
+2012-06-29T07:41:00.000Z	ActionPa1snip	jagginess	you are running the command as user, so you need sudo (assuming your user is in the 'admin'group)
+2012-06-29T07:42:00.000Z	ActionPa1snip	jagginess	is software centre open?

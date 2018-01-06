@@ -1,0 +1,4 @@
+2008-03-22T08:54:00.000Z	Alives		i cant figure out how to get lm-sensors to load the right modules at boot... every boot i have to run sensors-detect to get the modules loaded.  lsmod lists lm90 loaded at boot, which is what sensors-detect says to modprobe, but it only works after i run sensors-detect... any ideas?
+2008-03-22T08:54:00.000Z	Alives		its in /etc/modules
+2008-03-22T08:55:00.000Z	Alives		the module gets loaded
+2008-03-22T08:55:00.000Z	JohnMM	Alives	put sensors-detect in /etc/rc5.d script

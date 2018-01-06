@@ -1,0 +1,4 @@
+2011-01-26T01:31:00.000Z	maestero		hi all, how do i rename the default user for ubuntu, now it is peter i want it to be patrick. but i also want that all the sudo right work with the new name.
+2011-01-26T01:31:00.000Z	maestero		i m not doing it for myself.
+2011-01-26T01:32:00.000Z	jrib	maestero	the easy way is to just create a new user and give him admin rights.
+2011-01-26T01:37:00.000Z	jrib	maestero	add it to "admin" group, you don't need to touch sudoers

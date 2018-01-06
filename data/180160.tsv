@@ -1,0 +1,4 @@
+2009-02-22T05:56:00.000Z	Zeneth		ok so i type cp /boot /media/fd and i get cp: omitting directory `boot/' any reason why this isnt working?
+2009-02-22T05:56:00.000Z	Zeneth		i am root via sudo bash
+2009-02-22T05:56:00.000Z	Zeneth		does that go before or after the /boot or /media...
+2009-02-22T05:56:00.000Z	jrib	Zeneth	use « sudo -i » instead of « sudo bash » if you need a root shell

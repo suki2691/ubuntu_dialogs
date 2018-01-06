@@ -1,0 +1,4 @@
+2007-08-15T09:37:00.000Z	thirst		the mplayer binary downloaded from medibuntu complains of dependencies when I try to install using "dpkg -i" How can I auto-resolve the deps. I have ubuntu-dvd-iso in apt-sources
+2007-08-15T09:38:00.000Z	thirst		how can I add a directory full of .debs to my apt sources list
+2007-08-15T09:39:00.000Z	Pici	thirst	you can install them all at once with dpkg -i *.deb if they are all dependencies of one another.
+2007-08-15T09:40:00.000Z	Pici	thirst	Do you have an internet connection on that computer?

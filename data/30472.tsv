@@ -1,0 +1,4 @@
+2010-10-21T23:32:00.000Z	jaysern		i installed redis-server using aptitude on Lucid Lynx. How do I check which version of redis this is ?
+2010-10-21T23:32:00.000Z	boxbeatsy	jaysern	not sure, but i installed redis yesterday nad it was 2.1 (i know through an traceback)
+2010-10-21T23:33:00.000Z	jaysern	boxbeatsy	i found out that certain commands don't work .. for instance, some operations involving sorted sets. i was wondering if it's because it's an older version of redis that aptitude installed
+2010-10-21T23:35:00.000Z	boxbeatsy	jaysern	hmm, yea not sure how to check version.  i had to build 2.0 from source for what im doing.

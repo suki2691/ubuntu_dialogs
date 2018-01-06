@@ -1,0 +1,4 @@
+2006-06-29T08:50:00.000Z	parker`		hey guys.. having a video problem here... I installed the nVidia drivers for my nVidia card, and it recognized my card and everything, but I can't use OpenGL at all... I already have a bunch of Mesa stuff installed by default, but I can't get OpenGL to work at all... not even the screen savers
+2006-06-29T08:52:00.000Z	parker`		anyone have any ideas on getting OpenGL to work?
+2006-06-29T08:52:00.000Z	sklav	parker`	nvidia-glx-config enable?
+2006-06-29T08:54:00.000Z	sklav	parker`	did you modify xorg.cong and change nv to nvidia?

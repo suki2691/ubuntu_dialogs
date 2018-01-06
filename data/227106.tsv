@@ -1,0 +1,4 @@
+2009-07-25T19:39:00.000Z	candrodor		may as well ask again now in case  :)  I'm can't get my CD drive working.  As things stand, I can't find any CD I put in.  fstab lists /dev/scd0 with mount point /media/cdrom0.  The drive physically works fine, I'm sure.  Any ideas?
+2009-07-25T19:39:00.000Z	candrodor		ls -la /dev/ | grep cd gives crw-rw-rw-   1 root   tty       2, 221 2009-07-25 10:55 ptycd and crw-rw-rw-   1 root   tty       3, 221 2009-07-25 10:55 ttycd
+2009-07-25T19:40:00.000Z	Boohbah	candrodor	is it an audio CD?
+2009-07-25T19:40:00.000Z	candrodor	Boohbah	I've tried a few sort of CDs, audio, data.

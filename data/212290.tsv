@@ -1,0 +1,4 @@
+2007-05-29T13:44:00.000Z	hinesd		hello, I first setup ubuntu from a live cd then installed xp, now xp made my linux grub disapear(inactive?) so  i tried to reinstall it using the commands from http://ubuntuforums.org/showthread.php?t=224351 and now it jsut sayes error 16 every time i boot up.
+2007-05-29T13:45:00.000Z	Ropechoborra	hinesd	yeap, its a problem of windows, it just destroys your mbr =/, reinstall grub
+2007-05-29T13:49:00.000Z	Ropechoborra	hinesd	Have you tryed grub-install --recheck --no-floppy --root-directory=/media/hdxx /dev/hda
+2007-05-29T13:50:00.000Z	Ropechoborra	hinesd	modify the hdxx with you hd partition

@@ -1,0 +1,4 @@
+2008-03-15T17:09:00.000Z	ibbuntu		I'm trying to install ubuntu on my gfs laptop as she's fed up of windows, and the Live CD won't boot, I've checked the integrity of the CD and its fine. What can I do to find out what's going wrong?
+2008-03-15T17:10:00.000Z	Jack_Sparrow	ibbuntu	At start or install press F6 and remove Quiet and Splash from the command line. If it still fails.. Repeat and after removing quiet and splash add noapic acpi=off before the "--"
+2008-03-15T17:10:00.000Z	ibbuntu	Jack_Sparrow	ok, I'll try that
+2008-03-15T17:13:00.000Z	Jack_Sparrow	ibbuntu	did you try the second option of adding those two commands

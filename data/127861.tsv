@@ -1,0 +1,4 @@
+2009-11-14T15:52:00.000Z	dgs		i'm having issues getting update-grub2 to pick up my windows xp installation. it's a brand new install of both (installed xp, then karmic). i suspect it might be because ubuntu is on /dev/sda1 and windows xp is on /dev/sdb1, but i'm not sure if that matters or not...
+2009-11-14T15:53:00.000Z	Jordan_U	dgs	Have you tried running "sudo update-grub" ?
+2009-11-14T15:54:00.000Z	Jordan_U		!offline | om26er
+2009-11-14T15:54:00.000Z	dgs	Jordan_U	yeah, both update-grub and update-grub2 both just list my linux partitions + memtest (which is all that gets written to /boot/grub/grub.cfg )

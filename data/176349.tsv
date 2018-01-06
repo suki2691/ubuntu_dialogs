@@ -1,0 +1,4 @@
+2007-03-07T11:16:00.000Z	Jimme1		How can I force an unmount? umount -f doesn't work
+2007-03-07T11:16:00.000Z	Jimme1		umount: /media/cdrom0: device is busy
+2007-03-07T11:17:00.000Z	soundray	Jimme1	terminate all processes that access the CD-ROM. Do a 'cd' in all shells that have a $PWD under the mountpoint.
+2007-03-07T11:18:00.000Z	Jimme1	soundray	I can't. I'm trying to install RTCW in wine, it's asking for the second CD, and I'm trying to mount an .iso file

@@ -1,0 +1,4 @@
+2012-02-15T17:05:00.000Z	Oli		Anybody know where Gedit 3's settings are stored? I'm trying to migrate settings from one account to another but I've now copied everything in $(find . -iname '*gedit*') and it's still using stock settings.
+2012-02-15T17:05:00.000Z	Muelli	Oli	gconf respective dconf
+2012-02-15T17:06:00.000Z	Oli	Muelli	& ActionParsnip: Any ideas how to extract the settings from one dconf and move them over?
+2012-02-15T17:07:00.000Z	Muelli	Oli	not right now, but there is gconftool-2 and I'm confident, that there is a dconf-tool (or the like). Google will know.

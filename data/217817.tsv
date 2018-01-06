@@ -1,0 +1,4 @@
+2006-01-04T09:41:00.000Z	sally_		using cfdisk I spliced off a small section of my swap partition (dont ask why - just an experiment) and that made my root partition change from /dev/sda6 to /dev/sda7  I updated menu.lst and /etc/fstab to reflect this, ran update-grub but when I boot I get grub error 17.  I am currently in the system via rescue disk, but how I do I restore my boot loader
+2006-01-04T09:43:00.000Z	psusi	sally_	reinstall grub
+2006-01-04T09:44:00.000Z	sally_	psusi	update-grub doesn't do that?
+2006-01-04T09:44:00.000Z	psusi	sally_	no... that just updates your menu.lst to present choices to boot into the kernels it finds

@@ -1,0 +1,4 @@
+2008-06-04T18:51:00.000Z	hccmb		hello all, update is offering users an new kernel, but that would break drivers that you compiled for the old kernel , right?
+2008-06-04T18:51:00.000Z	hccmb		np
+2008-06-04T18:52:00.000Z	Oli```	hccmb	yeah that's likely
+2008-06-04T18:56:00.000Z	Oli```	hccmb	there's a script that comes with virtualbox to recompile the module (takes about a minute) - just load it up, wait for it to bitch about the module and then copy and paste in the script address (with "sudo" prefixed onto it)

@@ -1,0 +1,4 @@
+2006-05-27T12:21:00.000Z	thetallest		how can I get terminal to kick out the results to a text file?
+2006-05-27T12:21:00.000Z	thetallest		I'm trying to install sommin and it keeps failing
+2006-05-27T12:22:00.000Z	dli	thetallest	try " blahblah &> foo.output "
+2006-05-27T12:22:00.000Z	dli	thetallest	or, " blahblah 2>&1 > foo.output ", " man bash " for more

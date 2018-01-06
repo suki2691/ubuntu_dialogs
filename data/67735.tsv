@@ -1,0 +1,4 @@
+2009-03-17T12:19:00.000Z	uncategorized		how can i figure out what modules are loaded at startup....i think i need to modprobe my sound card
+2009-03-17T12:20:00.000Z	ActionParsnip1	uncategorized	you can add its name to /etc/modules
+2009-03-17T12:20:00.000Z	uncategorized	ActionParsnip1	i want to find out what my computer loads currently, as i need to mimic those command snow
+2009-03-17T12:21:00.000Z	ActionParsnip1	uncategorized	you could run: lsmod to see what is loaded currently

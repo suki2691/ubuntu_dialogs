@@ -1,0 +1,4 @@
+2010-08-08T05:50:00.000Z	white		Anyone have any idea why a new 10.04 install would simply print the word GRUB and not boot?
+2010-08-08T05:51:00.000Z	ActionParsnip	white	boot to livecd, chroot to the install and upgrade the system
+2010-08-08T05:56:00.000Z	white	ActionParsnip	I booted into the server CD, used the real root (LVM lv) and used grub-install on it, but it still won't boot.
+2010-08-08T05:59:00.000Z	white	ActionParsnip	So a reinstall of GRUB did not fix it, any other guess?  Note I set up software RAID0 during the install then LVM on top of that.

@@ -1,0 +1,4 @@
+2005-06-20T07:48:00.000Z	ahal		howdy.. any iptables gurus here, i need to block *.prima.net.ar someone is messing with my server, how do i find out what iprange to block?
+2005-06-20T07:49:00.000Z	delire	ahal	i'd use nslookup
+2005-06-20T07:53:00.000Z	delire	ahal	i use 'watch -d netstat -tupa'
+2005-06-20T07:56:00.000Z	delire	ahal	if you have a firewall just build a rule. i use shorewall for this.

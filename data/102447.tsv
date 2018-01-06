@@ -1,0 +1,4 @@
+2010-07-26T11:57:00.000Z	etrask		Hello everyone. I was wondering what exactly is the difference between 32-bit and 64-bit versions of Ubuntu (or any OS, really, though I'll try to keep it on topic)
+2010-07-26T11:59:00.000Z	rww	etrask	64-bit processors use 64 bit registers, which allows 64-bit operating systems to access more memory, whereas 32-bit ones are limited to 4GB of system memory (unless they use hacks like PAE)
+2010-07-26T12:01:00.000Z	rww	etrask	wikipedia does a good job: "a small amount of storage available on the CPU whose contents can be accessed more quickly than storage available elsewhere". Notably, they're used to store memory locations.
+2010-07-26T12:03:00.000Z	rww	etrask	I'm not sure of the numbers, but yeah, 64-bit is the way to go. I've used it for a while on one of my computers, haven't had any problems

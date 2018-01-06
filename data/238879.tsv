@@ -1,0 +1,4 @@
+2008-11-28T23:34:00.000Z	usr13		A friend of mine just called and somehow she has set display settings that are not compatable for her monitor.  How can I tell her to set it via CLI?
+2008-11-28T23:34:00.000Z	usr13		Ctrl-ALt-F1  ....... ????
+2008-11-28T23:35:00.000Z	pawalls	usr13	If she boots into "failsafe" mode from grub, there should be an option for "xfix" she can choose that should set her X to some sane defaults.
+2008-11-28T23:36:00.000Z	pawalls	usr13	If you want her to fix her X manually from the command line.. you can either have her run 'dpkg-reconfigure xserver-xorg' and follow the prompts, or manually edit her xorg.conf

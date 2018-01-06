@@ -1,0 +1,4 @@
+2007-07-17T06:21:00.000Z	zolty		Hi there, I am a fairly new user.  I am using a pvr 150 tv capture card and I never seen video0 appear in the dev folder, I am using 7.04 64bit.  Everything I read says this card should be supported by the kernel, it is not a pvr1600.  Could someone please tell me what it means when i can see the device in the hardware manager but it does not show up in /dev/?
+2007-07-17T06:23:00.000Z	zolty		so instead of helping or just telling me what it means when it shows up in one spot but not the other, you insult my hardware choices?
+2007-07-17T06:24:00.000Z	BashBang	zolty	: did you look in /proc?
+2007-07-17T06:28:00.000Z	BashBang	zolty	: check   dmesg   /var/log/Xorg.0.log      see if any thing is seeing it

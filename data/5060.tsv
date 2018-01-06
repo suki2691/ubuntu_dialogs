@@ -1,0 +1,4 @@
+2012-02-29T14:26:00.000Z	daan4711_	pfifo	I am able to use "setxkbmap -device 10 us" to set my usb-keyboard to us (colemak is default), but the ID of my usb-key changes sometimes. Is it possible to run this action every time I plug-in my usb keyboard?
+2012-02-29T14:28:00.000Z	pfifo	daan4711_	You can write a udev rule to setup usb devices when you plug them in
+2012-02-29T14:29:00.000Z	daan4711_	pfifo	Ok, I'll find that out, does udev also work in the loginscreen and tty's?
+2012-02-29T14:31:00.000Z	pfifo	daan4711_	udev is a system service so it always works, I think you mean your keyboard, and that depends on how you set it up

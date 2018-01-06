@@ -1,0 +1,4 @@
+2009-05-17T18:55:00.000Z	SandGorgon		guys.. i have a SATA hdd from a computer whose motherboard just died - i need to access some data. If I connect the HDD on another computer (running ubuntu), will it simply show up on  like a volume ? it is a windows volume
+2009-05-17T18:56:00.000Z	nibsa1242b	SandGorgon	it should be there, however, you may have to mount it
+2009-05-17T18:59:00.000Z	SandGorgon	nibsa1242b	mounting simply meant clicking on it right - the same way my windows partitions are mounted on ubuntu... or should i explcitly 'mkdir mntpoint; mount -t vfat mntpoint /dev/something' ?
+2009-05-17T19:01:00.000Z	nibsa1242b	SandGorgon	I find if it doesn't mount automatically that it'll show up in Places->removable media and that clicking on it will mount it

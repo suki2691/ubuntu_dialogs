@@ -1,0 +1,4 @@
+2006-01-17T08:51:00.000Z	phrizer		Hey, i'm trying to get sun's java working on my system, i've downloaded 'j2eesdk-1_4_02_2005Q2-linux.bin' but am stuck there. I installed fakeroot, and java-package, java-common, and tried 'fakeroot make-jpkg j2eesdk-1_4_02_2005Q2-linux.bin' but i get a plugin not found error.
+2006-01-17T08:52:00.000Z	NigelS	phrizer	the .bin is designed to be run
+2006-01-17T08:52:00.000Z	NigelS	phrizer	if you have sun's java you prob won't be wanting gcj etc
+2006-01-17T08:53:00.000Z	NigelS	phrizer	personally I would go with sun until gcj is a bit better :) unless your list of java apps is limited

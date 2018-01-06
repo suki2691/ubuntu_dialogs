@@ -1,0 +1,4 @@
+2011-10-18T21:11:00.000Z	werever		I trying this "sudo mount -t smbfs //10.0.0.100/shared_folder/
+2011-10-18T21:11:00.000Z	werever		  /media/windows_share -o username=Guest,password=" and I getting "permission denieded" What do you think am I doing wrong??
+2011-10-18T21:13:00.000Z	crass	werever	try using cifs instead of smbfs, which being depreciated
+2011-10-18T21:18:00.000Z	crass	werever	yep

@@ -1,0 +1,4 @@
+2009-05-13T00:34:00.000Z	allowoverride		I think i may have hosed up Synaptic Package Manager / aptitude... i get this error when in the gui and loading it up --  E: dpkg was interrupted, you must manually run 'dpkg --configure -a' to correct the problem.  E: _cache->open() failed, please report.  After running as prescribe in error message, update-initramfs: failed for /boot/initrd.img-2.6.24.23-generic dpkg: subprocess post-install script returned error exit status
+2009-05-13T00:34:00.000Z	allowoverride		anyone? suggestions?
+2009-05-13T00:34:00.000Z	superdug2	allowoverride	in a terminal run ' sudo dpkg --configure -a '
+2009-05-13T00:35:00.000Z	allowoverride	superdug2	yep i did that, reread my post

@@ -1,0 +1,4 @@
+2012-07-10T20:31:00.000Z	PapaSierra		is there a way to receive an incoming request on a certain ip and then "reroute" that request off to another ip of a totally different server?
+2012-07-10T20:32:00.000Z	xlq	PapaSierra	Yes, look at socat
+2012-07-10T20:33:00.000Z	xlq	PapaSierra	You can use socat to reroute TCP connections, but note that all the traffic of that connections goes through socat.
+2012-07-10T20:42:00.000Z	PapaSierra	xlq	interesting, thanks will investigate...

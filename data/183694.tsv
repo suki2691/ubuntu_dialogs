@@ -1,0 +1,4 @@
+2007-06-14T15:46:00.000Z	wegstar		Hello all, I am currently volunteering for GreenCitizen, http://greencitizen.com/ We recycle old computers by taking them in, refurbishing them and installing linux.
+2007-06-14T15:47:00.000Z	wegstar		We plan on installing Ubuntu, but the problem is, how do we install it so that the user completes the last part of the installation.. i.e. creating users, password for root account, like the typical windows end user installation?
+2007-06-14T15:49:00.000Z	snoops	wegstar	this doesn't help you much but, you don't set a root password in ubuntu. It sets itself to a random password, and everyone part of the super user group does any admin work through sudo, using their own password to auth
+2007-06-14T15:50:00.000Z	snoops	wegstar	I'd take a look in the forums, since I'd be surprised if someone in there hasn't covered the way to setup for that type of install

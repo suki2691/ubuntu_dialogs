@@ -1,0 +1,4 @@
+2011-07-28T09:12:00.000Z	riddler		i have linux installed, but i wanna install other distro, but then I want the Grub2 to be on the main(first) distro, how do I do that?
+2011-07-28T09:14:00.000Z	riddler		does anybody know?  how I can make my first distro have grub2 so when I installed other distro and remove it, it wont mess up the boot stuff
+2011-07-28T09:16:00.000Z	nit-wit	riddler	you just need to understand how to reload the mbr with grub, and some OS will allow no grub install.
+2011-07-28T09:17:00.000Z	nit-wit	riddler	whatever distro is first in the grubmenu list is the controlling grub bootloader.

@@ -1,0 +1,4 @@
+2006-04-16T12:06:00.000Z	hildog		what's the best/easiest way to have a startup script enable DMA on my dvd drive ?
+2006-04-16T12:06:00.000Z	johanbr	hildog	Edit /etc/hdparm.conf .
+2006-04-16T12:09:00.000Z	johanbr	hildog	No.
+2006-04-16T12:11:00.000Z	johanbr	hildog	The DMA line alone should do it. What does "sudo hdparm -d 1 /dev/cdroms/cdrom0" tell you?

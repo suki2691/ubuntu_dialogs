@@ -1,0 +1,4 @@
+2008-05-29T18:12:00.000Z	rakan		y0, my hardy heron updated a couple of days ago and i started getting two copies of Ubuntu generic in my grub boot loader at startup? any one had this problem
+2008-05-29T18:13:00.000Z	Frogzoo	rakan	you need to uninstall the older kernel is all
+2008-05-29T18:14:00.000Z	rakan	Frogzoo	foldart: how do i delete the old kernel one?
+2008-05-29T18:18:00.000Z	Frogzoo	rakan	easiest way, do this "sudo dpkg --purge linux-ubuntu-modules-2.6.22-14-generic linux-restricted-modules-2.6.22-14-generic linux-image-2.6.22-14-generic"

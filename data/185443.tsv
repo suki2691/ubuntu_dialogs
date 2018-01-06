@@ -1,0 +1,4 @@
+2006-06-27T08:43:00.000Z	david__		how do i change the write attribute to make my windows partitions to writeable
+2006-06-27T08:44:00.000Z	gdb	david__	That is something you'll end up regretting.
+2006-06-27T08:45:00.000Z	gdb	david__	Immediately after the kernel writes to your NTFS partition, all the data on it will either be munged or gone entirely.  So I'm not sure that's what you want to do.
+2006-06-27T08:46:00.000Z	gdb	david__	Yes, absolutely.

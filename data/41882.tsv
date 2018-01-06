@@ -1,0 +1,4 @@
+2009-11-25T07:17:00.000Z	alifazel		I updated my vista dual-boot to win7 and it overwrote my bootloader
+2009-11-25T07:18:00.000Z	alifazel		so I booted up to a 9.10 live CD, mounted my file system, and ran grub-install --root-directory=/media/root /dev/sda, but now when I reboot, I just get a grub shell, any help?
+2009-11-25T07:20:00.000Z	cl0ne	alifazel	install easyBCD in windows and add the linux partition
+2009-11-25T07:21:00.000Z	alifazel	cl0ne	I've been using grub up until now, and imo it does a better job. not only that, but I can't get into Windows either :P

@@ -1,0 +1,4 @@
+2005-11-05T13:27:00.000Z	ari_		hey how do i get write permission on my windows folder thru ubuntu
+2005-11-05T13:27:00.000Z	mustard5	ari_	ntfs?
+2005-11-05T13:28:00.000Z	mustard5	ari_	you can set up a fat partition to swap stuff between ntfs and fat or use fat only
+2005-11-05T13:31:00.000Z	mustard5	ari_	basically you can't write to ntfs, but both linux and windows can read and write to fat, so if you want to move stuff between systems you have a seperate fat partition that you can plonk stuff in

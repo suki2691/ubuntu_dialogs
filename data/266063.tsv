@@ -1,0 +1,4 @@
+2006-10-12T09:48:00.000Z	amicrawle		how do i modprob my hardware what is the command
+2006-10-12T09:49:00.000Z	tritium	amicrawle	to use modprobe, you need to know the module name you want to load.
+2006-10-12T09:49:00.000Z	tritium	amicrawle	that should be auto-detected, _if_ it's supported
+2006-10-12T09:51:00.000Z	tritium	amicrawle	check the output of "dmesg" for messages to see if it's detected

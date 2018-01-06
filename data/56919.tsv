@@ -1,0 +1,4 @@
+2010-03-27T14:20:00.000Z	karthik_		hi i am freshly installing ubuntu on a new system and i want to install all software of current system to that system is there any command that can automate it
+2010-03-27T14:21:00.000Z	LinuxGuy2009	karthik_	on source system do "dpkg --get-selections > filename" on destination machine do "dpkg --set-selections < filename"
+2010-03-27T14:21:00.000Z	LinuxGuy2009	karthik_	It will just mark the same set of packages to be downloaded and installed.
+2010-03-27T14:23:00.000Z	LinuxGuy2009	karthik_	That answer your question?

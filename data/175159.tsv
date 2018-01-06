@@ -1,0 +1,4 @@
+2006-07-11T10:40:00.000Z	Brunno		the ubuntu installer crashes in the end, when its installing grub. tried with the alternate cd and it all goes well but when i reboot i dont have boot from the hdd, probably because grub didn't installed again... anyone can help me ?
+2006-07-11T10:41:00.000Z	nihilocrat	Brunno	: are you running any sort of nonstandard hardware?
+2006-07-11T10:42:00.000Z	nihilocrat	Brunno	: I ask this because sometimes you need to add kernel modules to your initrd so that at boot time your disks can be detected
+2006-07-11T10:43:00.000Z	Brunno	nihilocrat	no... i had ubuntu installed in this same computer untill last weekend... i made a backup of my data and changed the partitions with gparted and today tried to install and im having this problem...

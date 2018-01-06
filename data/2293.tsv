@@ -1,0 +1,4 @@
+2012-07-03T18:18:00.000Z	escott	uhausy	modify your cron job to start cron after networking
+2012-07-03T18:19:00.000Z	uhausy	escott	any pointers as to how?
+2012-07-03T18:20:00.000Z	escott	uhausy	look at /etc/init/* those files have fairly straightforward dependencies
+2012-07-03T18:21:00.000Z	escott	uhausy	anacron starts on runlevel so you might change it to depend on networking, or create your own job

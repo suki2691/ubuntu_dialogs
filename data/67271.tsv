@@ -1,0 +1,4 @@
+2011-03-16T05:23:00.000Z	gabe_		hello, I have a problem that I cannot find an answer for. Please help me... I have a desktop that has a wlan0 interface (192.168.1.0/24), which connects to my ISP's router and to the Internet. I also have an eth0 interface (10.0.0.0/28) that connects to a Cisco Terminal Access Server (I have a small rack of routers and switches). The problem is that when I use the wired connection, even though the wireless connection does not go do
+2011-03-16T05:23:00.000Z	gabe_		wn, I'm not able to browse the Internet and I can't understand why
+2011-03-16T05:24:00.000Z	natrixnatrix89	gabe_	have you set the right gateway for cable connection?
+2011-03-16T05:25:00.000Z	gabe_	natrixnatrix89	thanks for responding,. The configuration on wlan0 is 192.168.1.2/24 gw: 192.168.1.1 and for eth0 is 10.0.0.2/28 gw 10.0.0.1

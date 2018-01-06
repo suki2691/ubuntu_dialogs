@@ -1,0 +1,4 @@
+2006-08-22T09:07:00.000Z	Nanaki_Yamabushi		Hi I got a big problem with ubuntu. I can#t get the desktop running anymore. At start up it says no screen found on my laptop. any help to get the desktop back without reinstall?
+2006-08-22T09:08:00.000Z	Nanaki_Yamabushi		It did work 5 minutes ago
+2006-08-22T09:08:00.000Z	Ash-Fox	Nanaki_Yamabushi	you can type 'sudo apt-get update && apt-get install xserver-xorg-core=1.0.2-0ubuntu10.4' to upgrade to the correct version (provided the mirror is upto date, else wait), or 'sudo apt-get install xserver-xorg-core=1.0.2-0ubuntu10' to downgrade
+2006-08-22T09:09:00.000Z	Ash-Fox	Nanaki_Yamabushi	you can type 'sudo apt-get update && apt-get install xserver-xorg-core=1.0.2-0ubuntu10.4' to upgrade to the correct version (provided the mirror is upto date, else wait), or 'sudo apt-get install xserver-xorg-core=1.0.2-0ubuntu10' to downgrade

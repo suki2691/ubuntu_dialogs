@@ -1,0 +1,4 @@
+2008-08-17T01:31:00.000Z	Shadow6363		how do i properly replicate adding a new user with system/admin privileges via the terminal?
+2008-08-17T01:31:00.000Z	qr	Shadow6363	you mean like sudo permissions?
+2008-08-17T01:33:00.000Z	Shadow6363	qr	yes, similar to the checkbox in the gui for "Executing system administration tasks"
+2008-08-17T01:34:00.000Z	qr	Shadow6363	I have no idea what checkbox you're talking about.  But to give a user sudo rights do    usermod theusername -a -G admin   (do not mess up the -a -G admin part, doing so will cause innumerable problems)

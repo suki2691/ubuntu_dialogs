@@ -1,0 +1,4 @@
+2005-03-22T13:32:00.000Z	Fator_Dee		how can I make an iso image from cd?
+2005-03-22T13:33:00.000Z	xy77	Fator_Dee	use your burn program and tell it to write a copied CD to harddisk. Or you might use dd
+2005-03-22T13:34:00.000Z	Fator_Dee	xy77	maybe I should have specified that I'd like to know how to use the dd command :-|
+2005-03-22T13:38:00.000Z	xy77	Fator_Dee	see "man dd"; generally it should be: dd if=/dev/cdrom of=/home/user/my_cdrom_image.iso    but don't blame me if it doesn't work, but that's how I thought iso images worked :-)

@@ -1,0 +1,4 @@
+2012-08-19T07:51:00.000Z	JoeQuery		I'm getting "W: Failed to fetch http://ppa.launchpad.net/doctormo/wacom-plus/ubuntu/dists/precise/main/source/Sources  404  Not Found" on apt-get update.
+2012-08-19T07:51:00.000Z	JoeQuery		Anyone have a suggestion?
+2012-08-19T07:53:00.000Z	JoeQuery		I'm trying to diagnose a bigger problem that's preventing me from apt-get upgrade. If you could take a look at those, that would be great. https://gist.github.com/3365121 and part 2: https://gist.github.com/3390776
+2012-08-19T07:53:00.000Z	trism	JoeQuery	latest release supported by the ppa is natty (so not precise builds)

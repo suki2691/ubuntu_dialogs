@@ -1,0 +1,4 @@
+2007-04-15T15:31:00.000Z	derek_		Hi
+2007-04-15T15:31:00.000Z	derek_		How to upgrade to Feisty from Edgy?
+2007-04-15T15:31:00.000Z	derek_		I replaced edgy by feisty in /etc/apt/sources.list , and did apt-get update. What is the next step?
+2007-04-15T15:32:00.000Z	czr	derek_	apt-get -u dist-upgrade is more common in those cases, but you should normally reboot after that and cross fingers

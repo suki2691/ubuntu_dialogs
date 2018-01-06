@@ -1,0 +1,4 @@
+2007-06-15T09:10:00.000Z	Shaddox		Hi everyone. How do I run multiple commands in one line in a SSH terminal. I want to change to a directory inside my home and then run a file with parameters inside that folder. How do I do that? Assuming folder is named folder, and the program is named file.
+2007-06-15T09:12:00.000Z	Shaddox		How do I run multiple commands in one line in a SSH terminal. I want to change to a directory inside my home and then run a file with parameters inside that folder. How do I do that?
+2007-06-15T09:13:00.000Z	sbalneav	Shaddox	cmd1 ; cmd2 ; cmd3
+2007-06-15T09:13:00.000Z	sbalneav	Shaddox	Or, if you want the subsequent command to only execute if they're successful cmd1 && cmd2 && cmd3

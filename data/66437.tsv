@@ -1,0 +1,4 @@
+2009-04-27T20:09:00.000Z	Vlet		When I mount a smb share using cifs, symlinks on the remote share are treated as absolute on my system. For example if I navigate to //host/share/mnt (which on the remote system is a symlink to /mnt) directs my system to it's local /mnt. How can I make it work correctly?
+2009-04-27T20:10:00.000Z	mzz	Vlet	iirc there's a server-side switch to change that
+2009-04-27T20:11:00.000Z	Vlet	mzz	thanks - without knowing whether or not its a client or server issue, it's tough to know where to start :)
+2009-04-27T20:12:00.000Z	mzz	Vlet	can't find it offhand, so I might be wrong

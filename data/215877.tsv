@@ -1,0 +1,4 @@
+2007-02-18T08:50:00.000Z	Jonny0stars		hello
+2007-02-18T08:50:00.000Z	Jonny0stars		i have a remote ssh server with X forwarding enabled, yet when i run a program it says no display
+2007-02-18T08:51:00.000Z	soundray	Jonny0stars	use 'ssh -X host' to connect
+2007-02-18T09:00:00.000Z	soundray	Jonny0stars	you may have to restart sshd on the server after configuring X forwarding

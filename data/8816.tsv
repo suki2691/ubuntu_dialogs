@@ -1,0 +1,4 @@
+2011-10-30T16:21:00.000Z	rikutake		i want to make a script to run after a fresh install to remove and install some packages
+2011-10-30T16:22:00.000Z	rikutake		id like for it to require entering sudo password just once and not require me to answer yes and no to questinos
+2011-10-30T16:22:00.000Z	bluenemo	rikutake	thats quite simpel. use -y with apt-get and when the script starts, let it start with sudo su
+2011-10-30T16:23:00.000Z	rikutake	bluenemo	not all the packages require sudo

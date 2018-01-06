@@ -1,0 +1,4 @@
+2006-01-03T06:37:00.000Z	wizardjames		how do i um...mount a ext3 partion on a new hdd i just made?
+2006-01-03T06:39:00.000Z	wizardjames		mounting a ext3 partion..    how do i go about this?
+2006-01-03T06:39:00.000Z	apokryphos	wizardjames	permanently? Create an fstab entry
+2006-01-03T06:41:00.000Z	apokryphos	wizardjames	sudo mount /dev/hdaX /media/somefolder -t ext3 -o umask=000

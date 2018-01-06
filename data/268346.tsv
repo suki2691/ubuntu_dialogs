@@ -1,0 +1,4 @@
+2008-03-23T00:19:00.000Z	Bob_Dole		So, why does typing init 3 even when logged in as root not do anything? (same goes for init 2) and why doesn't init 1 not actually even let me type in my root password?
+2008-03-23T00:20:00.000Z	Bob_Dole		I tried telinit in place of init a few times too
+2008-03-23T00:20:00.000Z	sladen	Bob_Dole	what are you trying to do?  (remeber that Ubuntu uses 'upstart' for init)
+2008-03-23T00:21:00.000Z	sladen	Bob_Dole	sudo /etc/init.d/gdm stop

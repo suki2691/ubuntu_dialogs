@@ -1,0 +1,4 @@
+2009-07-19T11:28:00.000Z	richardcavell		I can ssh to other computers but they cannot ssh to me. Other computers ping my port 22 but it doesn't respond. I can ssh to myself at local-host. What's the problem?
+2009-07-19T11:29:00.000Z	mb_again_	richardcavell	check for firewall blocking port 22 and is the ssh service listening on port 22
+2009-07-19T11:31:00.000Z	mb_again_	richardcavell	open a term and ssh -l xxx localhost
+2009-07-19T11:32:00.000Z	richardcavell	mb_again_	yes, I'm in

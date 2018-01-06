@@ -1,0 +1,4 @@
+2004-10-01T07:19:00.000Z	Wsquared		nvidia driver doesn't seem to be working.  I installed nvidia-glx, ran dpkg-reconfigure xserver-xfree86 where I selected the nvidia driver, and deselected loading dri and glx.  But according to my careful, scientific graphics driver evaluation (run tuxracer), it didn't work.  What am I missing?
+2004-10-01T07:20:00.000Z	Wsquared		Oh, and I logged out and back in again after I reconfigured the X server.
+2004-10-01T07:21:00.000Z	MrPiddlz	Wsquared	Did you read your xfree86 log?
+2004-10-01T07:43:00.000Z	Wsquared	MrPiddlz	goatboy_ (and anyone else):  It still doesn't work.  You were correct about GLCore and glx.  These enable software OpenGL rendering.  (It says so right in the configure program.)  So I disabled GLCore and glx, and re-enable dri, but glxgears is still running at about 380 FPS, and tuxracer is seems jumpy and coarse compared to how I've seen it before on this computer.

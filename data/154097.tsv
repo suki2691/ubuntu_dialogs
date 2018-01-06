@@ -1,0 +1,4 @@
+2006-12-19T07:03:00.000Z	angel12		hey, how do i force umount?
+2006-12-19T07:04:00.000Z	neurosis__	angel12	There is a -f (force) option for umount, but it seems only to relate to NFS.
+2006-12-19T07:04:00.000Z	angel12	rapid	ive tried that, i get a device is busy
+2006-12-19T07:06:00.000Z	neurosis__	angel12	You can try lazy unmounting it (-l) ... I've run into that before too, and sadly enough, had to eventually reboot to get it unmounted

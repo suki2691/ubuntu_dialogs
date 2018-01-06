@@ -1,0 +1,4 @@
+2007-09-24T06:37:00.000Z	zenmonk		how do you run a gcc program you created?  I have already chmodded it.
+2007-09-24T06:37:00.000Z	soundray	zenmonk	if it's not on the path, enter the full pathname. Or try './yourprogram' if it's in the present working directory
+2007-09-24T06:38:00.000Z	zenmonk	soundray	thats it.  Do you know what a segmentation fault is?
+2007-09-24T06:39:00.000Z	soundray	zenmonk	it's what is called a general protection fault in Windows. A program trying to access memory ranges that it's not allowed to access.

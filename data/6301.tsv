@@ -1,0 +1,4 @@
+2012-05-06T00:24:00.000Z	sda		question: let's assume i have 3hd SATA of 3 different brand, how i reconize who is SDA SDB SDC from terminal?
+2012-05-06T00:25:00.000Z	zykotic10	sda	"sudo blkid" and/or "sudo fdisk -l"
+2012-05-06T00:35:00.000Z	sda	zykotic10	alankila none of your solution works well, with fdisk -l | grep "Disk /dev/sd" i can find out by size, but with same size, and maybe same brand and only different code it's impossible!
+2012-05-06T00:41:00.000Z	sda	zykotic10	alankila : hdparm -I /dev/sda and you know what HD we are talking about! with an easy script you can have it for each HD! thanks!

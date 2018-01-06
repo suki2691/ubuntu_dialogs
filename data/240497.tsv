@@ -1,0 +1,4 @@
+2006-04-14T14:31:00.000Z	Celerex		I'm trying to compile my kernel based on the config for the currently installed kernel. I build the kernel, i build the initrd using mkinitrd i run depmod for my version
+2006-04-14T14:32:00.000Z	Celerex		but whenever i restart i get a whole lot of : modprobe FATAL could not load /lib/modules/<version>/modules.dep no such file or directory
+2006-04-14T14:32:00.000Z	Celerex		am i missing something?
+2006-04-14T14:34:00.000Z	green_earz	Celerex	are you using make oldconfig with the .config and are you using the --initrd ?

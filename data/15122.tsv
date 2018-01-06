@@ -1,0 +1,4 @@
+2011-12-14T14:28:00.000Z	ruslan_osmanov		hi.  how do I instruct dpkg/apt to install latest available version of imagemagick? I tried to set Priority: 1001 for the package in /etc/apt/preferences . But no effect
+2011-12-14T14:30:00.000Z	MonkeyDust	ruslan_osmanov	 update first, before you upgrade, so you have the latest version
+2011-12-14T14:31:00.000Z	ruslan_osmanov	MonkeyDust	I made apt-get update && apt-get install imagemagick
+2011-12-14T14:31:00.000Z	MonkeyDust	ruslan_osmanov	 then you should have the latest version

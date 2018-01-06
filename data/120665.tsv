@@ -1,0 +1,4 @@
+2008-06-11T06:21:00.000Z	Ubuntu_ID10T		Can someone please help me make sense of my Grub install problem
+2008-06-11T06:22:00.000Z	Ubuntu_ID10T		I got a virus on my Windows XP partition (big surprise), so I re-installed XP fresh.  Unfortunately it overwrote the MBR with GRUB and now I can't get to my Ubuntu.
+2008-06-11T06:23:00.000Z	Ubuntu_ID10T		Trying the grub-install thing except with the live cd booted up, it doesn't recognize "hd(0,0)" or (/dev/sda) for a target.
+2008-06-11T06:25:00.000Z	danbhfive	Ubuntu_ID10T	i think its hd(0) for the first target

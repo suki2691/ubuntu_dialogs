@@ -1,0 +1,4 @@
+2009-05-24T02:09:00.000Z	sevenseeker		how do I use sudo along with redirection like '>>'?
+2009-05-24T02:09:00.000Z	sevenseeker		sudo spam >> /etc/eggs    does not work
+2009-05-24T02:10:00.000Z	funkyHat	sevenseeker	no, because you're running 'spam' as root, but not the shell, you need to do 'spam | sudo cat >> /etc/eggs'
+2009-05-24T02:11:00.000Z	funkyHat	sevenseeker	although my command may fail because I didn't really think about it :)

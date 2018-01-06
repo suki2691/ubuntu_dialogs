@@ -1,0 +1,4 @@
+2010-02-17T01:43:00.000Z	LuciusMare		hi, how do i unrar all files in directory, given password?
+2010-02-17T01:44:00.000Z	jrib	LuciusMare	are they actually separate archives or are they a single archive split into several files (r01, r02, etc)
+2010-02-17T01:44:00.000Z	LuciusMare	jrib	both, they are a lot of archives, split into even more
+2010-02-17T01:45:00.000Z	jrib	LuciusMare	just loop over the first rar file in each set.  You can pass the password to unrar with the -p switch according to « man unrar »

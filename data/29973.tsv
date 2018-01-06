@@ -1,0 +1,4 @@
+2010-06-21T21:52:00.000Z	Beleriton		Hello everyone, im trying to install ubuntu server 10.04 from a usb stick. A friend at work created the stick in windows with the universal usb installer v0.8. I have defined in Bios to boot from the USB stick and everything works like a charm. Im getting the install screen of ubuntu and starting the install. now i define my language and everything. BUT when the install is trying to get package content from "cd-rom" it fails. starts to get some of the
+2010-06-21T21:52:00.000Z	Beleriton		packages and then i get "there was a problem reading data from your cd-rom".  have anyone gotten this before ? i have also tried to manually define a boot disk from boot cmd line.
+2010-06-21T21:52:00.000Z	steffan	Beleriton	did you look at this?
+2010-06-21T21:53:00.000Z	Beleriton	steffan	yes and i did try write this "install cdrom-detect/try-usb=true" and hit enter.

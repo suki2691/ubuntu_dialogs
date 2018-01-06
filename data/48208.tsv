@@ -1,0 +1,4 @@
+2012-07-12T19:36:00.000Z	Mattias		So, why do I have a /media/floppy and a /media/floppy0 when I don't even have such a device? I removed /dev/fd0 from fstab now though...
+2012-07-12T19:37:00.000Z	OerHeks	Mattias	disable floppy controller in the bios.
+2012-07-12T19:38:00.000Z	Mattias		hm, I'll see if I have such an option, thanks
+2012-07-12T19:44:00.000Z	Mattias	OerHeks	thanks, that fixed it :) base ubuntu server system install finally finished without errors :D

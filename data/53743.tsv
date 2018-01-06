@@ -1,0 +1,4 @@
+2009-09-04T15:38:00.000Z	lb_		I have^H^Hd a problem with the shell (bash). :( I want to traverse a file in a for loop and execute it for every line. But "for LINE in $(cat $FILE);do foo;done" treats every `word' separated by any whitespace as one iteration - and I've found my answer! The variable $IFS holds the field separator. :)
+2009-09-04T15:38:00.000Z	unop	lb_	 cat file | while read line; do echo "$line"; done
+2009-09-04T15:39:00.000Z	unop	lb_	 or even better.  while read line; do echo "$line"; done < file
+2009-09-04T15:44:00.000Z	lb_	unop	thanks!

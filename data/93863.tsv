@@ -1,0 +1,4 @@
+2008-08-05T03:51:00.000Z	thehackman		is it possible to merge an empty ext3 partition with the current partition Ubuntu is on?
+2008-08-05T03:51:00.000Z	Mecha25	thehackman	have you checked if gparted can do it?
+2008-08-05T03:53:00.000Z	Mecha25	thehackman	wait a sec.  what you might be able to do is copy the files from the second partition onto another disk, delete it, extend the ubuntu partition into that space, then copy the files back
+2008-08-05T03:54:00.000Z	Mecha25	thehackman	you have to do it from a live CD, you can't resize or modify a partition that you're using at the time

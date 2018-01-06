@@ -1,0 +1,4 @@
+2012-03-13T02:27:00.000Z	tomvolek		how do I copy a directiry structure wihtout copying symlinks in it ?
+2012-03-13T02:28:00.000Z	Random832	tomvolek	what do you mean exactly 'without copying symlinks'?
+2012-03-13T02:30:00.000Z	Random832	tomvolek	so it's okay if it creates a symlink there, you just don't want to copy the directory and the files inside
+2012-03-13T02:31:00.000Z	Random832	tomvolek	cp doesn't normally copy stuff behind symlinks, but i don't know what svn does

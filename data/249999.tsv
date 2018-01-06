@@ -1,0 +1,4 @@
+2012-05-24T20:05:00.000Z	hairydog		ok so I used the guide to setting up a samba file server
+2012-05-24T20:06:00.000Z	hairydog		I can see my ubuntu virtual machine from my windows box, but I can't access the share folder on it
+2012-05-24T20:06:00.000Z	hairydog		windows keeps asking for username/password authentication
+2012-05-24T20:06:00.000Z	Dr_willis	hairydog	 you gave the samba user a samba password with the command 'sudo smbpasswd -a USERNAME' ?

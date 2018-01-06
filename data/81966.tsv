@@ -1,0 +1,4 @@
+2012-10-01T12:32:00.000Z	zidoh		my install broke somewhere during package installation, leaving me without either ssh or gdm.. is there an easy way to tell aptitude to simply install all the base install packages ?
+2012-10-01T12:32:00.000Z	fidel	zidoh	sudo apt-get install ubuntu-desktop (is some kind of meta-package for the desktop-collection)
+2012-10-01T12:33:00.000Z	zidoh	fidel	cheers
+2012-10-01T12:45:00.000Z	zidoh	fidel	that worked out nicely, thanks :)

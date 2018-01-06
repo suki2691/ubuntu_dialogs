@@ -1,0 +1,4 @@
+2011-08-23T05:11:00.000Z	Dogears		Hi! I am trying to setup a basic DHCP server on 10.10. I have installed the program and modified the dhcpd.conf file to subnet 192.168.1.10 netmask 255.255.255.0 which gives me a bad subnet number/mask combination? any ideas?
+2011-08-23T05:13:00.000Z	SIFTU	Dogears	does you file look similar to the examples in the man page?
+2011-08-23T05:13:00.000Z	SIFTU	Dogears	http://manpages.ubuntu.com/manpages/maverick/man5/dhcpd.conf.5.html
+2011-08-23T05:26:00.000Z	Dogears	SIFTU	It all looks OK -- subnet 192.168.1.10 netmask 255.255.255.0 { range 192.168.1.80 192.168.1.99;} This is the only line apart from the default lease info.

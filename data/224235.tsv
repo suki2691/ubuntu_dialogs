@@ -1,0 +1,4 @@
+2005-08-24T05:31:00.000Z	Peaker		Hmm.. the VESA driver makes X work, but VESA sucks ;-)  The autodetection detects "i815" but that doesn't work. Any idea what I can try to know why X fails to load?
+2005-08-24T05:32:00.000Z	iiiears	Peaker	- lspci is your friend getting x to work is the one big hurdle to a new user if you get x working you are home free
+2005-08-24T05:32:00.000Z	Peaker	iiiears	Thanks I'll try that
+2005-08-24T05:45:00.000Z	Peaker	iiiears	from lspci all I know is that it is an Intel Mobile Display adapter rev 03, but google'ing doesn't seem to find anything about that not working with ubunutu

@@ -1,0 +1,4 @@
+2008-06-04T14:34:00.000Z	__max		hi, I tried to resize my ext3 partition with parted. I removes the journal feature but parted still says theres an incompatible feature enabled
+2008-06-04T14:35:00.000Z	__max		Filesystem features:      has_journal resize_inode filetype needs_recovery sparse_super large_file
+2008-06-04T14:35:00.000Z	MadHag	__max	 use sysrescue and come at it from outside ubuntu
+2008-06-04T14:36:00.000Z	MadHag	__max	http://www.sysresccd.org is a great tool

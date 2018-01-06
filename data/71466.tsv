@@ -1,0 +1,4 @@
+2009-07-22T06:34:00.000Z	hector		i see
+2009-07-22T06:35:00.000Z	hector		question: i have a fully updated computer on my network, it's running jaunty.  can i use its local apt cache folder to update another computer?
+2009-07-22T06:37:00.000Z	shauno	hector	if it's just a one-time thing, copying the /var/cache/apt/archives/*deb from the updated computer to the other would take care of most of it.  not so elegant, but functional
+2009-07-22T06:37:00.000Z	hector	shauno	ok cool.  thanks.

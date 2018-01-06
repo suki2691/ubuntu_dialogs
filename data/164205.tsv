@@ -1,0 +1,4 @@
+2006-10-15T14:34:00.000Z	rosen37		I installed an ubuntu in my network but I have a prob of dns resolution with it. I can resolv only thing like name.domainname  How can I do to resolv only on the name?
+2006-10-15T14:34:00.000Z	mmp	rosen37	using 'domain' or 'search keywords iirc
+2006-10-15T14:34:00.000Z	mmp	rosen37	man resolv.conf should give you more details...
+2006-10-15T14:53:00.000Z	rosen37	mmp	Ok I found , I needed to add domain mydomain.com in the resolv.conf

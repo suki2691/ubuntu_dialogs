@@ -1,0 +1,4 @@
+2007-05-14T16:11:00.000Z	wimdows		how can I prevent fsck running on a device when I boot?
+2007-05-14T16:13:00.000Z	jrib	wimdows	you can use tune2fs to change the frequency (-1 or 0 make it not check) or edit your fstab
+2007-05-14T16:14:00.000Z	wimdows	jrib	- what do I put in fstab to make it not check?
+2007-05-14T16:15:00.000Z	jrib	wimdows	change the 6th field to 0 (see man fstab)

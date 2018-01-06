@@ -1,0 +1,4 @@
+2011-10-10T01:41:00.000Z	Guest60325		I was trying to prevent using wine by non-priveleged user. So I'we put this user's .wine folder and subfolders rights all to none (from root). But linux made something in addition. Now it can't even start GDM. Now the only who can log-in is root, even the other Sudouser cannot login (the non-priveleged sure can't) "Cannot access /home/(username) folder" How can I restore all rights to start al least GDM? I don't know where the l
+2011-10-10T01:41:00.000Z	Guest60325		inux put access to "none" in addition -(
+2011-10-10T01:42:00.000Z	arghx	Guest60325	what are the actual permissions of /home/username ?
+2011-10-10T01:43:00.000Z	arghx	Guest60325	ls -ld /home/username

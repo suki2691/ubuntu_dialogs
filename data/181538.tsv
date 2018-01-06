@@ -1,0 +1,4 @@
+2006-09-11T11:48:00.000Z	lilbit		I am trying to install vmware tools, and I am being asked to install GCC, but I dont know what version I need, I guess it depends on my kernel version?  what command console command tells me what kernel I am running?
+2006-09-11T11:50:00.000Z	redguy	lilbit	the command to know your kernel version is uname -r (uname -a will give you more info), but the package you want to install is most propably build-essential
+2006-09-11T11:58:00.000Z	redguy		isn't it?
+2006-09-11T12:06:00.000Z	lilbit	redguy	thanks

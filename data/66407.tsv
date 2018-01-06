@@ -1,0 +1,4 @@
+2009-07-22T00:01:00.000Z	gajop		how can i manage in which order applications/daemons start, or at least which daemons start?
+2009-07-22T00:02:00.000Z	mzz	gajop	try system -> administration -> services
+2009-07-22T00:03:00.000Z	gajop	mzz	not good enough, i can't seem to add anything
+2009-07-22T00:04:00.000Z	mzz	gajop	you'll probably have to write your own /etc/init.d/ scripts then, or add stuff to /etc/rc.local (I think)

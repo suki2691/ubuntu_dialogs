@@ -1,0 +1,4 @@
+2010-01-29T02:07:00.000Z	Scunizi	pfifo	that doesn't work.. have you looked at a xorg.conf in 9.10 ??  it's basically empty
+2010-01-29T02:08:00.000Z	pfifo	Scunizi	not mine, i have a gts250 and my /etc/X11/xorg.conf is a mile long grubnoob <
+2010-01-29T02:12:00.000Z	Scunizi	pfifo	did you install the binary driver for your nvidia?  there is a "write to xorg" option at the end of the install... when that happens xorg overrides xrandr and "other" stuff.
+2010-01-29T02:13:00.000Z	pfifo	Scunizi	yes Im using the latest binary. I used nvidia-settings to make my xorg.conf, and had to go in and edit a few things by hand to get dual head working.

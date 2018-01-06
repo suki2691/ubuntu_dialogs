@@ -1,0 +1,4 @@
+2009-02-13T23:43:00.000Z	bigbrovar		madmike:try this
+2009-02-13T23:43:00.000Z	bigbrovar		madmike:echo 'deb http://packages.medibuntu.org/ intrepid free non-free' | sudo tee -a /etc/apt/sources.list | sudo tee -a /etc/apt/sources.list ; wget -q http://packages.medibuntu.org/medibuntu-key.gpg -O- | sudo apt-key add - && sudo apt-get update ; sudo apt-get install libdvdcss2 libdvdread3 ; sudo apt-get install gstreamer0.10-plugins-ugly-multiverse gstreamer0.10-plugins-bad-multiverse gstreamer0.10-plugins-bad gstreamer0.10-plugins-ugly gstreamer0
+2009-02-13T23:45:00.000Z	bigbrovar		gksudo gedit /etc/apt/sources.list
+2009-02-13T23:45:00.000Z	tritium	bigbrovar	please leave it to prince_jammys

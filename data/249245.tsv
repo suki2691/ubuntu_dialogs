@@ -1,0 +1,4 @@
+2005-04-20T16:45:00.000Z	Ragg		Hmmh ok now is there an easy way to access my NTFS partitions?
+2005-04-20T16:45:00.000Z	Xappe	Ragg	mount them
+2005-04-20T16:48:00.000Z	Xappe	Ragg	just create a mountpoint, for example: /media/windows then issue a sudo mount -t ntfs -o user,umask=0222 /dev/hdx /media/windows
+2005-04-20T16:49:00.000Z	Xappe	Ragg	and hdx is, of course changed to the name of your ntfs partition for example hda1

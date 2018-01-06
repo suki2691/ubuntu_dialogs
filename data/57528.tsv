@@ -1,0 +1,4 @@
+2010-03-29T11:30:00.000Z	hassanakevazir		can anyone pm me a copy of their /etc/hosts ?
+2010-03-29T11:31:00.000Z	rww	hassanakevazir	http://paste.ubuntu.com/405850/
+2010-03-29T11:33:00.000Z	hassanakevazir	rww	Thanks a lot man, I was getting "Cannot resolve host" when executing a root, that fixed it
+2010-03-29T11:34:00.000Z	rww	hassanakevazir	yeah, you're supposed to add "127.0.0.1 hostnamehere" for the old and new hostname while switching, then remove the old one once it's switched over. Glad I could help :)

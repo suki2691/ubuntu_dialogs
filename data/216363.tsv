@@ -1,0 +1,4 @@
+2005-09-30T12:10:00.000Z	zachman123		I'm having trouble installing ubuntu(5.04 and 5.10, shipit cd's AND home-burnt) on my system.  When the install tries to load files from the cd, it's able to read some files, but then stops on a random one and says "Error reading cdrom media" or something similar.
+2005-09-30T12:10:00.000Z	zachman123		My drive is a BenQ DW 1640
+2005-09-30T12:11:00.000Z	Moopere	zachman123	I've seen this before on drives that don't properly support DMA transfers
+2005-09-30T12:11:00.000Z	Moopere	zachman123	turn off udma in your bios

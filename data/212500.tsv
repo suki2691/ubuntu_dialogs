@@ -1,0 +1,4 @@
+2005-10-19T13:34:00.000Z	ktogias		Hi again, After upgrading from hoary rebooting to breezy I find out that module tuner that I use for my bttv TVcard doesn't accept parameter 'type' : [4295361.480000]  tuner: Unknown parameter `type'
+2005-10-19T13:34:00.000Z	kYotiK	ktogias	try depmod and modprobe the card again
+2005-10-19T13:35:00.000Z	kYotiK	ktogias	you may have changed to a diff version of the kernel which caused a problem with those previously compiled modules
+2005-10-19T13:41:00.000Z	kYotiK	ktogias	 you need to set the tuner type.. and i really couldnt guide you through that, i never have messed with tv tuners on linux

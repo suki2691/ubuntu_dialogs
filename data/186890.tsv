@@ -1,0 +1,4 @@
+2008-12-29T20:43:00.000Z	crackintosh		I am having a problem with my file system. When I do 'df' in terminal, it lists an smb mount. How would I remove this auto mounting smb filesystem?
+2008-12-29T20:43:00.000Z	ikonia	crackintosh	if it's not mounted it won't list it
+2008-12-29T20:44:00.000Z	crackintosh	ikonia	it automounts at boot, I dont know where to tell it not to automount that filesystem
+2008-12-29T20:44:00.000Z	ikonia	crackintosh	remove it from /etc/fstab

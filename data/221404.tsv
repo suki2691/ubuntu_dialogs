@@ -1,0 +1,4 @@
+2008-08-20T12:17:00.000Z	Smegzor		My ISP doesn't charge for traffic after midnight.  Is there a way to schedule updates to only happen between midnight and 8am?
+2008-08-20T12:17:00.000Z	Kartagis	Smegzor	create a cron job
+2008-08-20T12:18:00.000Z	Kartagis		00 08 * * * apt-get update
+2008-08-20T12:18:00.000Z	Smegzor	Kartagis	hmm..  I've never done that before.  Are they easy to set up?

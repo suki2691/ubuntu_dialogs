@@ -1,0 +1,4 @@
+2009-01-02T09:50:00.000Z	Arenlor		Hi all, I'm wondering why ps ux | grep `word` shows the grep `word` process: http://arenlor.pastebin.com/d1102d900
+2009-01-02T09:51:00.000Z	stovicek	Arenlor	because when you ran grep, it became a process that is listed with ps, so it grep'd itself
+2009-01-02T10:01:00.000Z	stovicek	Arenlor	you can try...  ps ux > file.txt && grep word file.txt  ...not sure how that would work with whatever you're scripting
+2009-01-02T10:03:00.000Z	Arenlor	stovicek	I'm just going to write a bash script and add it to cron so that may work

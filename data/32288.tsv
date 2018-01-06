@@ -1,0 +1,4 @@
+2010-05-19T23:29:00.000Z	Cynthia	Appl6	killing X would restart it; MPX wants to freeze it
+2010-05-19T23:34:00.000Z	Appl6	Cynthia	It forcibly "pauses" the process.  kill -CONT resumes it.
+2010-05-19T23:34:00.000Z	Cynthia	Appl6	That wouldn't explain why MPX quit right after entering the STOP command, since XChat should have been unaffected
+2010-05-19T23:36:00.000Z	Appl6	Cynthia	I'm not sure how an application reliant upon X would be unaffected by X stopping completely.

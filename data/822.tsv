@@ -1,0 +1,4 @@
+2012-10-11T20:54:00.000Z	MonkeyDust	Galaxian3500	 or sudo -e /etc/fstab
+2012-10-11T20:55:00.000Z	Galaxian3500		thx ActionParsnip this is the partition  /dev/sda2                                  /media/sda2  ntfs  nls=iso8859-1,ro,umask=000  0  0
+2012-10-11T20:56:00.000Z	Galaxian3500	MonkeyDust	thx what should change ?
+2012-10-11T20:59:00.000Z	MonkeyDust	Galaxian3500	 replace "nls=....,ro,umask=000" with "defaults" (without the quotes)

@@ -1,0 +1,4 @@
+2011-06-24T00:50:00.000Z	plonker1		I'm trying to remove getmail, but sudo apt-get autoremove/remove doesn't work. I do know that it is installed but I forgot how I installed it.
+2011-06-24T00:51:00.000Z	llutz	plonker1	dpkg -l getmail*
+2011-06-24T00:53:00.000Z	plonker1	llutz	I get getmail and getmail4 but when running dpkg -r getmail/getmail4 I get - "Ignoring request to remove getmail which is not installed"
+2011-06-24T00:56:00.000Z	plonker1	llutz	That is weird.

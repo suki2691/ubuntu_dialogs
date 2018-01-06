@@ -1,0 +1,4 @@
+2008-02-23T04:08:00.000Z	nano__		what command can i use that will search for a specific string in a text file in a folder full of text files
+2008-02-23T04:08:00.000Z	Squawk	nano__	you wanna search all the text files for a given string, or one in particular?
+2008-02-23T04:11:00.000Z	Squawk	nano__	just run "grep string *" for all files, or if you want to be strict and not get directories "for i in *; do if [ ! -d $i ]; then grep string $i; fi; done
+2008-02-23T04:12:00.000Z	nano__	Squawk	thnx

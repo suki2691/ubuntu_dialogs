@@ -1,0 +1,4 @@
+2006-08-06T14:37:00.000Z	redcard		So is there a way to get a complete package listing of all the packages I have installed?
+2006-08-06T14:37:00.000Z	mgjs	redcard	 In Synaptic go to Settings > Filters and unmark all but "Installed", then push the "Custom" button in the lower left corner and choose "Search Filter". Then it should only show your installed packages
+2006-08-06T14:37:00.000Z	mgjs	redcard	You can also add a specific filter for installed packages by choosing "New" while in the Filters dialog and access it under the "Custom" button
+2006-08-06T14:38:00.000Z	redcard	mgjs	I'm looking more for something that'll export into a file.. dpkg -l will do what I need

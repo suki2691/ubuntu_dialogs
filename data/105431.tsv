@@ -1,0 +1,4 @@
+2009-02-27T14:51:00.000Z	Roxy		Oh ActionParsnip, I already modified the sources.list file with the altered old-release lines. My problem is that when I attempt to do the version upgrade the manager defaults to "http://archive.ubuntu.com/ubuntu feisty-backports main/debian-installer" which doesn't exist and the prerequists-sources.list will not accept the old-release address
+2009-02-27T14:52:00.000Z	ActionParsnip	Roxy	you could edit all the codenames of your release to the next one up in /etc/apt/sources.list
+2009-02-27T14:52:00.000Z	ActionParsnip	Roxy	if its that old, i'd recommend a clen in stall of intrepid / hardy (or wait a few weeks for Jaunty)
+2009-02-27T14:53:00.000Z	ActionParsnip	Roxy	there may be a more graceful way to do it but im not sure

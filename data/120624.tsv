@@ -1,0 +1,4 @@
+2009-08-04T01:01:00.000Z	zk		anyone can help with the kernel compiling with the same version of ubuntu? i need to have the exact same version .deb package compiled by me with my patches...  Same version so i can still use the restricted modules
+2009-08-04T01:02:00.000Z	danbhfive	zk	I think you can get the source from linux-source
+2009-08-04T01:03:00.000Z	zk	danbhfive	i got the right source from git but when i compile it with fakeroot make-kpkg --initrd --append-to-version=generic kernel_image kernel_headers     I always get the wrong version
+2009-08-04T01:04:00.000Z	danbhfive	zk	yeah, I dunno.  Maybe you need to get it from linux-source, and not git

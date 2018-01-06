@@ -1,0 +1,4 @@
+2007-05-30T09:56:00.000Z	fotoflo		hmmm ubuntu seems to have poor support for my video card (i cant even change my resolution higher then 1024x768)    should i change window mangers, or what?
+2007-05-30T09:57:00.000Z	mwhorn	fotoflo	what chipset does your video card have
+2007-05-30T09:58:00.000Z	fotoflo	mwhorn	intel 82845G/GL[Brookdale-G] /GE Chipset
+2007-05-30T10:09:00.000Z	mwhorn	fotoflo	make sure you have the packages "linux-restricted-modules-generic" (assuming you are running the generic kernel) and the linux drivers for you graphics card. srr http://www.intel.com/support/graphics/intel810/sb/cs-009118.htm

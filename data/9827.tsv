@@ -1,0 +1,4 @@
+2012-01-28T20:46:00.000Z	LjL	gentoofan	uhm $() should work according to the manual, weird
+2012-01-28T20:47:00.000Z	LjL	gentoofan	and actually it works for me, TEST="$(echo 1 && echo 2)       echo $TEST    1 2
+2012-01-28T20:47:00.000Z	LjL	gentoofan	add missing quote
+2012-01-28T20:49:00.000Z	gentoofan	LjL	I am right now writing my own initramfs and busybox uses the ash shell as far as I can tell. I switched from bash to dash to try to ensure compatibility.

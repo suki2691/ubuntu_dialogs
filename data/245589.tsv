@@ -1,0 +1,4 @@
+2008-09-26T15:28:00.000Z	TheBase		I'm running a ubuntu and since I last upgraded to 8.04 TLS I can't get the graphics to work. I reinstalled the drivers and everything but I still have a problem. Every time I start X it says runs in low resolution and even after I change to the right drivers and resolution it goes back to low-res after restart. /var/log/Xorg.0.log shows this error: Failed to initialize GLX extension (Compatible NVIDIA X driver not found)   and I have a Ge
+2008-09-26T15:28:00.000Z	TheBase		Force 8400 GS.
+2008-09-26T15:29:00.000Z	TheBase		One thing that I noticed it that lsmod and xorg.conf shows the nvidia driver. Shouldn't it be nvidia_new ? After all there is a nvidia_new.ko listed with modprobe -l
+2008-09-26T15:31:00.000Z	cwillu	TheBase	there's magic with nvidia_new, it'll show as nvidia in lsmod

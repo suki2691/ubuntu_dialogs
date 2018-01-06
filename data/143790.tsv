@@ -1,0 +1,4 @@
+2007-12-04T21:31:00.000Z	Terminus		nevermind, guess there's one way to find out. write huge file to /tmp
+2007-12-04T21:31:00.000Z	mrtimdog	Terminus	'mount' will tell you where yours is.
+2007-12-04T21:32:00.000Z	Terminus	mrtimdog	yeah, but i'm not really familiar with how tmpfs works. i just want to make sure i don't run out of space in /tmp because of some absurdly large file operation.
+2007-12-04T21:32:00.000Z	Terminus	mrtimdog	and i just tested it, mount still reports an increase in usage of /. guess i'll have to reformat and make more space.

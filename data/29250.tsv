@@ -1,0 +1,4 @@
+2010-07-10T22:01:00.000Z	aaronw		Hi everybody -- I've got an audio issue that's driving me nuts.  I'm running Lucid on my media pc, which boots into Gnome to run XBMC typically, but is for the moment without a monitor.  I want to SSH in and play audio from the CLI, but every time I reboot, the audio is muted.  However, alsamixer says it's not.  If I attach a monitor and go into Gnome, I can unmute in the graphical volume control, but I can't find any way to unmute from th
+2010-07-10T22:01:00.000Z	aaronw		e CLI.  Any suggestions?
+2010-07-10T22:03:00.000Z	sharplinux	aaronw	have you tried using alsamixer?
+2010-07-10T22:03:00.000Z	aaronw	sharplinux	yeah, alsamixer shows the master channel as open

@@ -1,0 +1,4 @@
+2010-06-27T09:36:00.000Z	UbuntuLily		HOw do I check for hard disk errors (Physical)?  (In Winblow it was chkdsk /f/r )
+2010-06-27T09:38:00.000Z	actionParsnip	UbuntuLily	fsck -a /dev/partitionname    (if you use -r for chkdsk)
+2010-06-27T09:38:00.000Z	actionParsnip	UbuntuLily	you can also use ultimate boot disk to test it with the manufacturers tools (will require CD / USB to boot from)
+2010-06-27T09:39:00.000Z	actionParsnip	UbuntuLily	sudo fdisk -l     will (L)ist the partitions

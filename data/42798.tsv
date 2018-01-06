@@ -1,0 +1,4 @@
+2010-10-10T17:26:00.000Z	mattcodes		newb question, how much does a default ubuntu 10 desktop install stick to a hardware profile, if I just took the partition from a HP desktop and dd it on to a Dell laptop (along with setting up grub) it should just work? or is it anal about hardware and the holds onto the intial probing to dear death
+2010-10-10T17:27:00.000Z	maurer_1	mattcodes	Should work.
+2010-10-10T17:27:00.000Z	maurer_1	mattcodes	All drivers other than vidcard are default installed into the module ramdisk
+2010-10-10T17:28:00.000Z	maurer_1	mattcodes	And there will be _something_ there for vidcard, just perhaps not the accelerated one

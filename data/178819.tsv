@@ -1,0 +1,4 @@
+2008-09-03T18:21:00.000Z	edmoore		quick question - how do I copy the *contents* of foo/blah/ into foo/blee/ , rather than copying the directory blah/ into foo/blee?
+2008-09-03T18:22:00.000Z	jrib	edmoore	cp -a foo/blah/{*,.*} foo/blee
+2008-09-03T18:22:00.000Z	jrib	edmoore	you'll miss files that begin with a '.' if you don't do it my way
+2008-09-03T18:24:00.000Z	jrib	edmoore	for the difference between -a and -r, see 'man cp' :)

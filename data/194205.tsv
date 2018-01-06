@@ -1,0 +1,4 @@
+2007-07-02T12:31:00.000Z	Saint_Belmont		HOw do I set my Superuser password?
+2007-07-02T12:31:00.000Z	Saint_Belmont		So I can delete some programs.
+2007-07-02T12:32:00.000Z	pike_	Saint_Belmont	basically you set a password for root though its not recommended. if you later decide to put it back to default do sudo passwd -l root   and itll disable it again
+2007-07-02T12:32:00.000Z	pike_	Saint_Belmont	dont enable root in that case use sudo apt-get remove packagename or synaptic (the package manager synaptic is simplest way)

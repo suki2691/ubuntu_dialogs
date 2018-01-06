@@ -1,0 +1,4 @@
+2006-09-23T11:14:00.000Z	jmitchj		when i try to access my internal drive I get a message that says Unable to mount the selected volume and error: device /dev/hda1 is not removable, error: could not execute pmount
+2006-09-23T11:14:00.000Z	cherubiel	jmitchj	add /dev/hda1 to /etc/pmount.allow
+2006-09-23T11:15:00.000Z	cherubiel	jmitchj	restart=retry :P
+2006-09-23T11:18:00.000Z	cherubiel	jmitchj	good! use only ubuntu :P

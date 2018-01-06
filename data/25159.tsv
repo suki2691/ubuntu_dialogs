@@ -1,0 +1,4 @@
+2011-11-26T19:25:00.000Z	pedro3005		well surely the quickest way was having it appear on /tmp
+2011-11-26T19:25:00.000Z	pedro3005		maybe firefox is using a different folder now?
+2011-11-26T19:27:00.000Z	pedro3005		those bastards
+2011-11-26T19:29:00.000Z	oCean	pedro3005	glebihan it's actually still downloading in /tmp, but the filehandle is immediately deleted. You can see that by running  lsof -n | grep -i deleted when playing a youtube vid

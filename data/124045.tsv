@@ -1,0 +1,4 @@
+2008-06-28T11:13:00.000Z	Flynsarmy		How do you mount a bunch of ntfs hdd's? they didn't mount on boot for some reason and ntfs-config isn't helping
+2008-06-28T11:14:00.000Z	dr_Willis	Flynsarmy	 try the proper mount command from the terminal. Its possible they are marked as 'unclean' and needing to be checked by windows ,  you may need to use the force option.
+2008-06-28T11:15:00.000Z	Flynsarmy	dr_Willis	how do you unmount something?
+2008-06-28T11:15:00.000Z	dr_Willis	Flynsarmy	 sudo umount   (note the lack of an N)

@@ -1,0 +1,4 @@
+2007-11-20T13:09:00.000Z	lucas		hey. I just added my first virtual host to apache2, and am trying to figure out why apache2 doesn't start anymore. error_log says "unable to open logs".  the virual host is in /home/myuser/public_html/   for testing, I've chmod 777'd that whole folder, to no avail.  Anybody got an idea what I'm missing?
+2007-11-20T13:10:00.000Z	HuibertGill	lucas	check your apache config, and look where the logfiles are supposed to go
+2007-11-20T13:11:00.000Z	HuibertGill	lucas	there is a general logfile, and you can configure logfiles per Vhost
+2007-11-20T13:11:00.000Z	HuibertGill	lucas	all of the directories should be writable to the user running the process (normaly www-data), you are not running apache as 'you' are you?

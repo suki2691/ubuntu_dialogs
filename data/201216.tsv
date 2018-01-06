@@ -1,0 +1,4 @@
+2007-09-13T09:09:00.000Z	_joe		hi all, i have a friend who accidentally deleted the NTFS partition that he *was* using to boot into ubuntu (using the nt loader)...he's in ubuntu at the moment. what's the easiest way to get grub installed and configured?
+2007-09-13T09:10:00.000Z	nickrud	_joe	sudo update-grub && sudo grub-install /dev/hda  or /dev/sda , depending
+2007-09-13T09:10:00.000Z	_joe	nickrud	thanks :)
+2007-09-13T09:10:00.000Z	nickrud	_joe	if he has windows on there, it may miss it. If so, ask again

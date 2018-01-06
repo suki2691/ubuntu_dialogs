@@ -1,0 +1,4 @@
+2006-04-29T06:34:00.000Z	hondadarrell		how do i add a public key for a custom repo?
+2006-04-29T06:35:00.000Z	theCore	hondadarrell	use apt-key
+2006-04-29T06:35:00.000Z	theCore	hondadarrell	np
+2006-04-29T06:37:00.000Z	theCore	hondadarrell	 gpg --export --armor SOMEKEY | sudo apt-key add -

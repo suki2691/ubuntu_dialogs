@@ -1,0 +1,4 @@
+2007-08-25T15:05:00.000Z	Ashfire908		is there a command to free up ram?
+2007-08-25T15:07:00.000Z	rexy	Ashfire908	no, but you dont need too, memory managment in linux is pretty good. It is a good thing if all your memory is being used, and if you look closely you see a lot of it is used for buffering to speed things up
+2007-08-25T15:07:00.000Z	Ashfire908	rexy	does program or cache get move to swap first
+2007-08-25T15:09:00.000Z	rexy	Ashfire908	your swap will only contained unused program code, cache is a buffer, that doesnt get swapped, if more ram is needed buffer space is freed and reallocate for program memory

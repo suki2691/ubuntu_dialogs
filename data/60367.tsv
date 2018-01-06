@@ -1,0 +1,4 @@
+2012-06-19T08:12:00.000Z	oconnore		ok, I just did "sudo apt-get remove zeitgeist" and it deleted unity. What do I reinstall to get it back?
+2012-06-19T08:12:00.000Z	celthunder	oconnore	apt-get install unity ?
+2012-06-19T08:14:00.000Z	oconnore	celthunder	it's already installed, I just can't enter a session
+2012-06-19T08:14:00.000Z	celthunder	oconnore	in you xinitrc add exec unity as the first line comment out whatever you have there then startx

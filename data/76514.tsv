@@ -1,0 +1,4 @@
+2011-09-09T10:05:00.000Z	photon		hi. while trying to install software with apt-get, apt-get also wants to remove software and I have no idea why. Also, the to-be-removed software packages have a {u} after their name. What's going on here and is it safe to proceed? Output: http://pastebin.com/UXCGaPeg
+2011-09-09T10:06:00.000Z	rww	photon	they're probably marked as automatically installed and have no packages that depend on them. since they're all library packages or similar, should be fine to remove
+2011-09-09T10:06:00.000Z	photon	rww	alright, thanks.
+2011-09-09T10:07:00.000Z	photon	rww	weird, just started that command again and now they don't show up, although I aborted the previous execution.

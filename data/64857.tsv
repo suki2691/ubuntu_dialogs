@@ -1,0 +1,4 @@
+2010-03-31T04:57:00.000Z	hcl2		how would a person go about creating a default xorg.conf file without using pastebin.com ?
+2010-03-31T04:57:00.000Z	ZykoticK9	hcl2	see the non-nvidia steps at http://sites.google.com/site/alucidfs/how-i-do/create-an-xorg-conf-file
+2010-03-31T20:36:00.000Z	ZykoticK9	hcl2	to disable GDM you can use "sudo mv /etc/init/gdm.conf /etc/init/gdm.conf-disabled"
+2010-03-31T20:39:00.000Z	ZykoticK9	hcl2	FYI if you changed the value to "stop on runlevel [0126]" it won't start either

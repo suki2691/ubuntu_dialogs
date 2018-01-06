@@ -1,0 +1,4 @@
+2009-05-10T21:16:00.000Z	digitalranger		In older versions of Ubuntu there used to be a system app that would show the list of installed hardware. I can't find it in 9.04. I need to find out the driver that ubuntu is using for my webcam.
+2009-05-10T21:18:00.000Z	gartral	digitalranger	lsusb will tell you what your webcam is reported as, you can use lsmod and a clever grep to find the module, or driver it uses
+2009-05-10T21:19:00.000Z	digitalranger	gartral	thank you, any hints on the grep?
+2009-05-10T21:20:00.000Z	gartral	digitalranger	i wouldd issue something resembleing lsmod | grep <name of camera>

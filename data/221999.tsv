@@ -1,0 +1,4 @@
+2007-07-06T16:43:00.000Z	Ltar		My external hard drive, formatted to NTFS, frequently encounters I/O errors while copying large amounts of data. the instructions in the error message tell me to run chkdsk /f in windows, and then reboot twice
+2007-07-06T16:43:00.000Z	Ltar		what is the function of rebooting twice? I've found that failing to do so leaves the drive broken to linux. also, is there any way I could increase the survivability of the drive, while writing to it from linux? It seems to encounter an I/O error after about 4 gigs have been transferred to it.
+2007-07-06T16:44:00.000Z	Stormx2	Ltar	The 2 reboots is to do with the ntfs log, I think. The first one fixes the errors, but doesn't write to the log that the drive is "clean". The second does that.
+2007-07-06T16:44:00.000Z	Stormx2	Ltar	Also, I'd imagine the I/O errors are a hardware problem.

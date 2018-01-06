@@ -1,0 +1,4 @@
+2008-09-18T16:30:00.000Z	CW		with root privileges, open the file /etc/init.d/mountdevsubfs.sh with a text editor and remove the following character #
+2008-09-18T16:30:00.000Z	CW		Save the file and open /etc/fstab (always while using root privileges).
+2008-09-18T16:31:00.000Z	CW		At the eof, add this line: none /proc/bus/usb usbfs devgid=1000,devmode=664 0 0 Now save, reboot your machine and you should be able to use your usb devices.
+2008-09-18T16:31:00.000Z	FloodBot2	CW	Please don't flood, use http://paste.ubuntu.com to paste, don't use Enter as punctuation.

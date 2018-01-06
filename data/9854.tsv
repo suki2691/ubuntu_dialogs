@@ -1,0 +1,4 @@
+2012-11-06T03:24:00.000Z	Jordan_U	GunArm	Indeed. You should change the UUID of the filesystem after copying, and make sure to update the fstab and grub.cfg. You also might need to update the initramfs to include USB drivers.
+2012-11-06T03:25:00.000Z	Jordan_U	GunArm	Having two filesystems with the same UUID is asking for trouble.
+2012-11-06T03:25:00.000Z	GunArm	Jordan_U	I figured even after I did the clone I would have to purge/reinstall grub
+2012-11-06T03:26:00.000Z	Jordan_U	GunArm	Yes.

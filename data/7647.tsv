@@ -1,0 +1,4 @@
+2012-08-31T11:11:00.000Z	somsip	rajumoh	If package ABC is installed and it depends on package DEF, when ABC is uninstalled, DEF is marked to be deleted by autoremove, AIUI
+2012-08-31T11:13:00.000Z	rajumoh	somsip	that's what i figured and hence i did not see the list of packages that were shown before auto remove configuration, and then it burned.. have fixed most of it though, could anyone tell me which package in kde is responsible making gnome dependent softwares kde(ish)
+2012-08-31T11:15:00.000Z	somsip	rajumoh	yeah - it maybe easy to confuse automremove if packages are installed from sources other than apt-get, but I've always been ok with autoremove. I tend to install stuff, and if I don't like it, I autoremove immediately to I don't have cruft hanging aroudn my syste, . Can't help on 2nd point about KDE
+2012-08-31T11:19:00.000Z	rajumoh	somsip	lidar gordonjcp : thanks all , will be a bit carefull with autoremove hence forth ..

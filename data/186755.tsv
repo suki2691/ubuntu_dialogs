@@ -1,0 +1,4 @@
+2011-12-20T00:31:00.000Z	bf4648		how do you pipe to a cd command ?  cd /var/www/test | find * -maxdepth ..etc. ?
+2011-12-20T00:31:00.000Z	ikonia	bf4648	you don't pipe a "cd" command
+2011-12-20T00:33:00.000Z	ikonia	bf4648	ok, so do find /var/www/test -maxdepth...blah
+2011-12-20T00:33:00.000Z	ikonia	bf4648	specify the path in the find command

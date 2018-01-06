@@ -1,0 +1,4 @@
+2010-06-14T19:26:00.000Z	megadeth		I have 80GB of unallocated space. Whenever I try to create a new partition with gparted, it says the kernel was unable to re-read the partition table on /dev/sda (device or resource busy)..
+2010-06-14T19:27:00.000Z	thesheff17	megadeth	I just use gparted
+2010-06-14T19:28:00.000Z	megadeth	thesheff17	uh yeah, that's what I said I'm using.
+2010-06-14T19:33:00.000Z	thesheff17	megadeth	I would try to use fdisk /dev/sda and create the new partition and use w to write it.   I have seen where it will say it is mounted but on the next reboot the new table will be picked up.

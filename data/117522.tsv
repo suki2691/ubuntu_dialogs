@@ -1,0 +1,4 @@
+2008-11-11T13:37:00.000Z	reqqit_		just fyi
+2008-11-11T13:39:00.000Z	reqqit_		Speaking of sound issues, I rarely notice but sometimes VLC won't play sound (an flv file) yet playing an flv in an embedded flash file does play the sound (in the same session)
+2008-11-11T13:39:00.000Z	reqqit_		I checked now, I have ALSA selected - is it a known issue that sound plays in browser but not in OS? It isn't continual, and might happen after vlc crashes sometimes.
+2008-11-11T13:39:00.000Z	JimmyDee	reqqit_	that would be that flash and vlc are using different sound handling routines

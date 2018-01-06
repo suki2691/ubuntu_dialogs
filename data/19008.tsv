@@ -1,0 +1,4 @@
+2011-06-03T02:11:00.000Z	tetsujin		And what might be a problem if I make a direct 1000mbit ethernet link between 2 ubuntu boxes, set up jumbo-frame (mtu 6000) and there is no speed up? Tried both small and large files, nfs and smb shares, etc.
+2011-06-03T02:13:00.000Z	MonkeyDust	tetsujin	mtu should be 1492, if higher, ethernet becomes unstable or unusable (1492 = 1500-8)
+2011-06-03T02:14:00.000Z	tetsujin	MonkeyDust	then what all that mess with jumbo-frames up to mtu=9000 is about?
+2011-06-03T02:14:00.000Z	MonkeyDust	tetsujin	never heard of jumbo-frames

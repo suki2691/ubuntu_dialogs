@@ -1,0 +1,4 @@
+2010-03-02T23:41:00.000Z	Trinity33		hi everyone i have question about gnome terminal  how to keep it open after executing script? from desktop launcher. when i type in terminal name of this application then it open when i make launcher with path to this app then terminal open and it closes after 0.5sec i could put in the script at the end read or sleep and it will stay open after exec. but matter is that when i use launcher and the termin opens then
+2010-03-02T23:41:00.000Z	Trinity33		  want to put new commands in it and thats not possible so i would like to know if there is some way to keep it open after executing script from launcher>? ubuntu 9.10
+2010-03-02T23:43:00.000Z	llutz	Trinity33	use xterm or other term, since gnome-terminal afaik has no "-hold" option, to keep it opened
+2010-03-02T23:51:00.000Z	llutz	Trinity33	sleep/read is a ugly hack. but sorry, i never tried what you want, so i cannot say

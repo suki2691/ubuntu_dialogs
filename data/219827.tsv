@@ -1,0 +1,4 @@
+2009-01-21T04:17:00.000Z	theczar		I was wondering where exactly I need to input my virtual host tags in my httpd.conf file for Apache (LAMPP setup)
+2009-01-21T04:19:00.000Z	theczar		I was wondering where exactly I need to input my virtual host tags in my httpd.conf file for Apache (LAMPP setup)
+2009-01-21T04:20:00.000Z	Flannel	theczar	In the debian method of configuration, they go in /etc/apache2/sites-available/ which then get symlinked to sites-enabled to enable them (via a2ensite)
+2009-01-21T04:22:00.000Z	Flannel	theczar	Well, /sitess-enabled/default has a virtualhost, so you can edit that, or add to it, or copy it orwhatnot

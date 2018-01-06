@@ -1,0 +1,4 @@
+2012-04-26T23:35:00.000Z	BrianH		Anyone know how to bring back the "Other user" option in LightDM?
+2012-04-26T23:35:00.000Z	BrianH		I'm on 12.04
+2012-04-26T23:37:00.000Z	trism	BrianH	in /etc/lightdm/lightdm.conf add: greeter-show-manual-login=true
+2012-04-26T23:39:00.000Z	BrianH	trism	awesome, thank you much! :)

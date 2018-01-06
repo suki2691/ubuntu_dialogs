@@ -1,0 +1,4 @@
+2011-03-10T19:54:00.000Z	Pumpkin-	gayle	you can put @reboot entries in cron, putting them in /etc/crontab would be a bit odd, but would I imagine work.
+2011-03-10T20:07:00.000Z	gayle	Pumpkin-	Yea, you can put them anywhere and then symlink to /etc/init.d/
+2011-03-10T20:08:00.000Z	gayle	Pumpkin-	Sorry, just now saw your comment
+2011-03-10T20:08:00.000Z	gayle	Pumpkin-	But the normal place to put them is in /etc/rc* directories

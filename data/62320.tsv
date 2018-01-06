@@ -1,0 +1,4 @@
+2011-03-12T03:15:00.000Z	homosaur		is there a way to force apt-get or aptitude to reinstall and force overwrites of existing files?
+2011-03-12T03:16:00.000Z	iceroot	homosaur	apt-get remove --purge foobar && apt-get install foobar
+2011-03-12T03:16:00.000Z	iceroot	homosaur	with sudo of course
+2011-03-12T03:22:00.000Z	homosaur	iceroot	thanks, i think it was just an aptiude problem. when i ran your apt-get command, it worked just fine. weird.

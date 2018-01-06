@@ -1,0 +1,4 @@
+2005-12-12T10:35:00.000Z	julo		hi
+2005-12-12T10:36:00.000Z	julo		I have a script that automatically creates users using adduser -p CRYPTED_PASSWORD. On Ubuntu, adduser doesn't seem to accept the -p otion. Is there another way to change a password in a bash script ?
+2005-12-12T10:38:00.000Z	bshumate	julo	useradd(8) accepts -p
+2005-12-12T10:40:00.000Z	julo	bshumate	thanks :)

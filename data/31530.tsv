@@ -1,0 +1,4 @@
+2010-09-28T21:14:00.000Z	tgywa		How can I change the system default login shell on Ubuntu?
+2010-09-28T21:15:00.000Z	dajhorn	tgywa	Don't do this unless you have a Real Good Reason.   Individual users can use the `chsh` program.
+2010-09-28T21:26:00.000Z	tgywa	dajhorn	neriukas, jrib ... the thing is related to a symbolic link. how can I remove a sym link ... sh -> dash ... and have instead ... sh -> bash
+2010-09-28T21:27:00.000Z	tgywa	dajhorn	neriukas, jrib ... cat /etc/adduser.conf | grep bash ... DSHELL=/bin/bash

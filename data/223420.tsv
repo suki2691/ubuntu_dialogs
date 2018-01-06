@@ -1,0 +1,4 @@
+2005-09-17T11:18:00.000Z	drapelyk		I don't understand
+2005-09-17T11:18:00.000Z	nerdy2	drapelyk	which side is the browser on?
+2005-09-17T11:19:00.000Z	nerdy2	drapelyk	if the browser is local, and you want to access remote_website (port 80) from it,  set up the tunnel as  ssh -L 6400:remote_website:80 remote_ssh_end
+2005-09-17T11:19:00.000Z	nerdy2	drapelyk	and then set your browser to localhost:6400

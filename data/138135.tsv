@@ -1,0 +1,4 @@
+2009-11-07T01:00:00.000Z	mnemo		why doesnt "chroot /home/user/myroot" work? it says "chroot: cannot change root directory to /home/mnemo/root: Operation not permitted" ??
+2009-11-07T01:00:00.000Z	usser	mnemo	you cant chroot as a regular user
+2009-11-07T01:00:00.000Z	usser	mnemo	needs root permissions
+2009-11-07T01:01:00.000Z	mnemo	usser	ok but "sudo chroot /home/mnemo/root" also doesnt work... that one says "chroot: cannot run command `/bin/bash': No such file or directory" even though I have /bin/bash available both inside and outside of the chroot?

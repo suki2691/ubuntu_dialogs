@@ -1,0 +1,4 @@
+2009-12-17T19:45:00.000Z	petrolman		Hi, how can I find out which packages include certian tools like ip, f, brctl etc?
+2009-12-17T19:45:00.000Z	joaopinto	petrolman	dpkg -S $(which command)
+2009-12-17T19:48:00.000Z	petrolman	joaopinto	and when tool/command isnt installed yet?
+2009-12-17T19:48:00.000Z	joaopinto	petrolman	for that you need apt-file

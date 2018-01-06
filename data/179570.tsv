@@ -1,0 +1,4 @@
+2011-01-17T02:08:00.000Z	stealthc_		just wondering here, is there a cat /proc command that can pull up information on disks, their UUID's and labels?
+2011-01-17T02:09:00.000Z	stealthc_		does that work in solaris too?
+2011-01-17T02:09:00.000Z	jrib	stealthc_	ask a solaris channel...
+2011-01-17T02:10:00.000Z	jrib	stealthc_	the other way you can do it on ubuntu is ls -l /dev/disk/by-uuid/ .  If you need help with solaris though, this isn't the place for it

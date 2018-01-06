@@ -1,0 +1,4 @@
+2010-02-10T03:51:00.000Z	m0n0		hello there, does anyone know how to tell apllications (which run in a console)  the size of the terminal screen? could i use an env var for that? or something like that?
+2010-02-10T03:51:00.000Z	clrg	m0n0	There's two env vars for that, I believe, but I don't recall how they're called. Try "resize"
+2010-02-10T03:53:00.000Z	m0n0		thanks for the info, I'll have to look at resize :)
+2010-02-10T04:14:00.000Z	m0n0	clrg	I just had to set COLUMNS=XX LINES=XX :)

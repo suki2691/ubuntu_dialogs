@@ -1,0 +1,4 @@
+2011-08-07T01:54:00.000Z	peepsalot		how do i quit X for a manual install of nvidia driver binary?  IIRC i have to set the runlevel to something?
+2011-08-07T01:55:00.000Z	Seveas	peepsalot	<ctrl><alt><f1>, log in, /etc/init.d/gdm stop
+2011-08-07T01:57:00.000Z	peepsalot	Seveas	nvidia binary still says i'm running X
+2011-08-07T01:58:00.000Z	Seveas	peepsalot	nasty trick to do in the terminal where you logged in (don't do this if you logged in as root!): kill -9 -1  (this kills all your processes except the current shell)

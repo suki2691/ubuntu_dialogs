@@ -1,0 +1,4 @@
+2006-09-29T06:28:00.000Z	Vekemi		How do I download the kernel-headers that match what's in /lib/modules versus the headers that it automatically gives me when I sudo apt-get install kernel-headers
+2006-09-29T06:28:00.000Z	gnomefreak	Vekemi	what kernel do you have?
+2006-09-29T06:30:00.000Z	gnomefreak	Vekemi	sudo apt-get install linux-headers-2.6.15-26-386  but iirc the kernel for dapper is -27 now
+2006-09-29T06:30:00.000Z	gnomefreak	Vekemi	uname -r will tell you what kernel you are running

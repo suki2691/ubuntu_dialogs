@@ -1,0 +1,4 @@
+2011-11-01T00:44:00.000Z	WLU		anyway to rotate screen with nvidia-settings on the fly without actually change Xorg and reloading x11
+2011-11-01T00:46:00.000Z	zykotick9	WLU	xorg.conf requires <<Option "RandRRotation" "on" >> then use "xrandr -o left" or "xrandr -o right" to rotate - then "xrandr -o normal" to switch back
+2011-11-01T00:49:00.000Z	WLU	zykotick9	So we now can use RandR with nvidia
+2011-11-01T00:50:00.000Z	zykotick9	WLU	always could?

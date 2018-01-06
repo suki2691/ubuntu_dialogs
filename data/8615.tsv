@@ -1,0 +1,4 @@
+2011-10-17T22:35:00.000Z	Lars--		Can someone help me? Got a ssh-rsa key that I need to ssh to another shell. How do I get this to work?/where do I put the key?
+2011-10-17T22:36:00.000Z	asteve	Lars--	when you create an rsa key you create the private and public key
+2011-10-17T22:36:00.000Z	asteve		you store the private key in ~/.ssh/id_rsa (by default) and you store the .pub key at the destination in ~/.authorized_keys
+2011-10-17T22:37:00.000Z	Lars--	asteve	what should I name the file with the key inside that folder then?

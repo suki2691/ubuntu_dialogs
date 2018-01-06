@@ -1,0 +1,4 @@
+2010-12-28T02:38:00.000Z	Frenk_		Hello. I have a web-server with 2 IPs and the current Apache2 running. I have a IDS-Frontend interface listening to post 3000 (BASE) | Is it possible to access the UI by using domain(dot)com:3000 but restrict that for another(dot)com:3000?
+2010-12-28T02:39:00.000Z	dotblank	Frenk_	yes it is possible with virtual hosts
+2010-12-28T02:40:00.000Z	Frenk_	dotblank	can you tell me how? I already have virtual hosts but if I put domain.com:3000 and another.com:3000 I have the same effect. I just need an explination or an example. I read about BIND and LISTEN but I don
+2010-12-28T02:41:00.000Z	dotblank	Frenk_	Im not super sharp on the config but there are many tutorials out there

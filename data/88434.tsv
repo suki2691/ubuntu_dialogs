@@ -1,0 +1,4 @@
+2009-10-21T19:58:00.000Z	Vock		I recently tried to do multiple monitors on my laptop, however, when I unplugged the external monitor, I'm stuck with 1024x768 resolution, and can't go higher. I have two black bars on the sides of my screen, indicating an improper aspect ratio? Any ideas how to fix this?
+2009-10-21T19:59:00.000Z	snowball	Vock	edit your xorg.conf file and remove the virtual section
+2009-10-21T20:00:00.000Z	Vock	snowball	it's enough to just restart X after that right, don't need to reboot?
+2009-10-21T20:01:00.000Z	snowball	Vock	reboot, just to be safe

@@ -1,0 +1,4 @@
+2006-11-06T11:17:00.000Z	gore_		how do I moutn a partition that allows all users to see it
+2006-11-06T11:17:00.000Z	Lathiat	gore_	what format partition?
+2006-11-06T11:19:00.000Z	Lathiat	gore_	see https://help.ubuntu.com/community/AutomaticallyMountPartitions
+2006-11-06T11:19:00.000Z	Lathiat	gore_	you want to add ro,auto,user,fmask=0111,dmask=0000 to the line in /etc/fstab

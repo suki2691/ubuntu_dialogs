@@ -1,0 +1,4 @@
+2012-06-02T04:26:00.000Z	HelloWorld321		After trying to upgrade to Precise Pangolin, now when I boot, I get this message "The system is rnning in low-graphics mode.  Your screen, graphics card, and input device settings could not be detected correctly.  You will need to configure these yourself"  I can ssh in just fine, but I have trouble seeing/using the desktop.
+2012-06-02T04:27:00.000Z	HelloWorld321		How do I configure my screen, video card, and input device from ssh?
+2012-06-02T04:28:00.000Z	Luceo	HelloWorld321	Which GPU is it?
+2012-06-02T04:28:00.000Z	Luceo	HelloWorld321	Should be able to use nvidias tool to auto gen xorg.conf

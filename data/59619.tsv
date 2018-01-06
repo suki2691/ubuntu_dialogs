@@ -1,0 +1,4 @@
+2009-04-29T23:55:00.000Z	ralmar		Hey guys, Im getting this errror  failed to bind to address 127.0.0.1[4500] with kvpnc. Is there a command i can use to see what process is using 127.0.0.1 port 500? Thanks
+2009-04-29T23:56:00.000Z	unop	ralmar	netstat
+2009-04-29T23:57:00.000Z	ralmar	unop	dont think thats what im lookfing for. what parameters do i need to use?
+2009-04-29T23:57:00.000Z	unop	ralmar	netstat -ant

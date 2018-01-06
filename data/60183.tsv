@@ -1,0 +1,4 @@
+2009-05-22T18:20:00.000Z	JPZ		Hello everyone. I accidently chmod'ed /var/log to 777 a few weeks back. I was told that I should set it to 640, but I think something is still not right as I've noticed that ubuntu's log viewier is no longer able to show me the logs unless I load it as root. syslogkd also seems to stop loggin to certain files sometimes and resumes loggin when I restart the service.
+2009-05-22T18:22:00.000Z	neil_d	JPZ	my /var/log directory is 755
+2009-05-22T18:22:00.000Z	JPZ	neil_d	and is that because you changed it, or came default with ubuntu ?
+2009-05-22T18:23:00.000Z	neil_d	JPZ	default

@@ -1,0 +1,4 @@
+2006-06-12T10:21:00.000Z	wsjunior		how do i forbid a mudule from loading?
+2006-06-12T10:21:00.000Z	wsjunior		i dont want that bcm4xx module to be loaded. how do i block it?
+2006-06-12T10:22:00.000Z	wsjunior		isnt there a blacklist to block that module?
+2006-06-12T10:23:00.000Z	NoUse	wsjunior	add "blacklist <modname>" to /etc/modprobe.d/blacklist

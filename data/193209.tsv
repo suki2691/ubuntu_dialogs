@@ -1,0 +1,4 @@
+2007-04-25T11:13:00.000Z	sonictwin		okay, i just changed back to my previous sources.list, ran apt-get update, then apt-get install -f. everything went fine.
+2007-04-25T11:13:00.000Z	sonictwin		now i'm running update manager
+2007-04-25T11:15:00.000Z	sonictwin		when upgrading to fiesty, will it replace my /etc/fstab or /boot/grub/menu.lst?
+2007-04-25T11:16:00.000Z	asc	sonictwin	It'll add a kernel to /boot/grub/*lst, but any previous kernels will still be there.

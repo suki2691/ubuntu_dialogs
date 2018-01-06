@@ -1,0 +1,4 @@
+2012-07-04T00:31:00.000Z	sw0rdfish		hey what does this mean? "_tkinter.TclError: no display name and no $DISPLAY environment variable"
+2012-07-04T00:32:00.000Z	diddledan	sw0rdfish	it means the DISPLAY environment variable doesn't exist, which is set when you're in the Graphical Environment
+2012-07-04T00:33:00.000Z	diddledan	sw0rdfish	you could try to fake it by typing `env DISPLAY=:0 /path/to/your/app`
+2012-07-04T00:34:00.000Z	sw0rdfish	diddledan	k thanks will give it a try.

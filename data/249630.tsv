@@ -1,0 +1,4 @@
+2010-01-25T21:29:00.000Z	phox_		I want to set chmod 0777 on a folder, who has a space in its name. This causes problems. I type "sudo chmod 077 /media/My external/" in terminal, and it says the folders or something. How can i get by this?
+2010-01-25T21:30:00.000Z	Boohbah	phox_	sudo chmod 0777 "/media/My external"
+2010-01-25T21:30:00.000Z	Boohbah	phox_	or escape with backslash as llutz says
+2010-01-25T21:31:00.000Z	Boohbah	phox_	yeah, read write for everyone is not good for most files

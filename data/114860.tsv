@@ -1,0 +1,4 @@
+2008-03-31T10:10:00.000Z	scragar		I'm using huge amount of ram, and I'm not running anything out of the ordinary, any tips on what I can kill to try and free up some of it?(free say's I'm using 911MB, which I can only hope is wrong)
+2008-03-31T10:11:00.000Z	scragar		system monitor says nothing is using more than 20MB of ram, so where is all my ram going?
+2008-03-31T10:11:00.000Z	unop	scragar	the kernel uses memory for the file cache too and that can take up some considerable space -- usually you dont want to tweak things, the kernel can automatically allocate or swap memory based on need
+2008-03-31T10:13:00.000Z	scragar	unop	it's not cache, 11MB is cache, the 911MB is unacounted for...

@@ -1,0 +1,4 @@
+2011-12-24T09:47:00.000Z	blackbandit1258		I have a problem here. Whenever I put a blank DVD in my DVD drive the drive locks up and wont respond. This only happens with blank DVDs not CDs.
+2011-12-24T09:48:00.000Z	usr13	blackbandit1258	The system completely locks up?
+2011-12-24T09:50:00.000Z	usr13	blackbandit1258	Can you ssh in from another pc?
+2011-12-24T09:53:00.000Z	usr13	blackbandit1258	You might run  tail -f /var/log/messages    and see what it says as it locks up.  Might give you a clue.

@@ -1,0 +1,4 @@
+2011-08-29T09:06:00.000Z	tarfart		Does X use xorg.conf anymore?  Is that how I save my nvidia-settings?
+2011-08-29T09:07:00.000Z	tarfart		I want my nvidia-settings persistant after I reboot.
+2011-08-29T09:07:00.000Z	ActionParsnip	tarfart	it can if one is present
+2011-08-29T09:07:00.000Z	ActionParsnip	tarfart	if you run:  sudo nvidia-xconfig; gksudo nvidia-settings     you can then setup the display ad click "Save to X config file" and the setting will stick

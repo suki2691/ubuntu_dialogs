@@ -1,0 +1,4 @@
+2006-05-27T11:14:00.000Z	yggdrasil		hello, my root filesystem is mounted in read only, how can i remount it in rw
+2006-05-27T11:15:00.000Z	mdeboer	yggdrasil	what is it mounted read only?
+2006-05-27T11:15:00.000Z	mdeboer	yggdrasil	sorry. i mean: WHY is it mounted read only?
+2006-05-27T11:16:00.000Z	mdeboer	yggdrasil	mount -o rw,remount /dev/hdXX /

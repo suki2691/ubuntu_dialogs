@@ -1,0 +1,4 @@
+2012-01-23T19:31:00.000Z	sipior	azariah4	you might have a look at the "Process Substitution" section of the bash manpage, if i understand your question correctly.
+2012-01-23T19:39:00.000Z	sipior	azariah4	why not simply use "cat f1 f2"?
+2012-01-23T19:40:00.000Z	azariah4	sipior	I wanted 'read -n 1' to terminate as soon as one of the two files changed
+2012-01-23T19:41:00.000Z	sipior	azariah4	use process substitution, with each file corresponding to a term like "<(cat file1 | read -n 1)"

@@ -1,0 +1,4 @@
+2006-08-19T16:51:00.000Z	poison		also when I added entries to fstab my mounts do not mount automatically I have to do a mount -a does this command need to go somewhere?
+2006-08-19T16:52:00.000Z	lamego	poison	make sure you have the "auto" option, or the "defaults" which includes it
+2006-08-19T16:54:00.000Z	lamego	poison	the /etc/fstab has a nice header naming each column :)
+2006-08-19T16:56:00.000Z	lamego	poison	as far as I know smbfs is enough to read windows/samba shares

@@ -1,0 +1,4 @@
+2010-09-02T16:01:00.000Z	Antonis		is there a way to use add-apt-repository with a repo like this: deb http://repo.fooname.org/apt lucid/
+2010-09-02T16:02:00.000Z	yeastwars	Antonis	according to -h, you can do something along the lines of add-apt-repository http://repo.fooname.org/apt lucid
+2010-09-02T16:02:00.000Z	yeastwars	Antonis	not sure about the exact syntax though
+2010-09-02T16:05:00.000Z	Antonis	yeastwars	I read the man and --help documentation but as it looks like it doesn't support repos other than on launchpad

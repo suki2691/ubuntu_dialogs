@@ -1,0 +1,4 @@
+2012-01-16T07:52:00.000Z	Osmodivs		Hello. I restored my files from a backup, now, all folders are owned by root, but the files inside are owned by me. So, How do I change the owner of a folder but not the files inside it, because they are already the correct owner.
+2012-01-16T07:54:00.000Z	Diamondcite	Osmodivs	You will have to use "sudo chown FolderNameHere" for each folder
+2012-01-16T07:55:00.000Z	Osmodivs	Diamondcite	Like, sudo chown Blender.  Just like that?
+2012-01-16T07:55:00.000Z	Osmodivs	Diamondcite	How do chown will know what type of owner is going to change?

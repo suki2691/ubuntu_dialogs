@@ -1,0 +1,4 @@
+2007-05-24T16:31:00.000Z	vsamel		How can user 'mail' run a script inside the home directory of another user?
+2007-05-24T16:32:00.000Z	PriceChild	vsamel	add the user mail to the user's group "user"
+2007-05-24T16:33:00.000Z	vsamel	PriceChild	Ya i added 'mail' to 'xuser's group in /etc/group . Do i need to restart something? just this doesnt work.
+2007-05-24T16:33:00.000Z	PriceChild	vsamel	should work if the group is allowed to edit files

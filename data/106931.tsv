@@ -1,0 +1,4 @@
+2009-04-16T21:11:00.000Z	Lartza_		But my windows box is not behind the linux bow(the one windows i want to track)
+2009-04-16T21:12:00.000Z	mheath	Lartza_	you're going to either HAVE to put all of the computers behind an appropriate gateway with parental controls, or install parental control software on all the computers your kids are going to be using.
+2009-04-16T21:12:00.000Z	Lartza_	mheath	I was thingking about setting dns server on windows pointing to the linux, which would then resolve the domains and track the requests
+2009-04-16T21:15:00.000Z	mheath	Lartza_	yeah, you could do that. You wouldn't even necessarily need DNS server software thats designed for parental controls; you'd just need to set its logging to be verbose enough that you see all requests. But, stroyan's idea is better anyway.

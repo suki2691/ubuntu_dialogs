@@ -1,0 +1,4 @@
+2009-09-04T15:38:00.000Z	jhattara	b3rz3rk3r	one thing you should also change in Shiretoko is to set it identify itself as Firefox, go to about:config with it, search for a string like Shiretoko/3.5.2 and change it to read Firefox/3.5.2
+2009-09-04T15:38:00.000Z	b3rz3rk3r	webfreakz	think iv found a way. If i edit /usr/bin/firefox with gedit and change the libdir to 3.52 rather than 3.01
+2009-09-04T15:39:00.000Z	b3rz3rk3r	webfreakz	that will launch it too right?
+2009-09-04T15:44:00.000Z	jhattara	b3rz3rk3r	/usr/bin/firefox is just a symbolic link to /usr/bin/firefox-3.0

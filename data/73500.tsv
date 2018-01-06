@@ -1,0 +1,4 @@
+2009-08-04T21:20:00.000Z	ernz		Hi - Does anyone know how I can stop automounting of external hard drives?
+2009-08-04T21:20:00.000Z	ernz		Or even stop automounting of specific partitions. That would be better.
+2009-08-04T21:20:00.000Z	mezquitale	ernz	check your "fstab" under "/etc" and delete the lines that automatically mount your external hard drive
+2009-08-04T21:22:00.000Z	mezquitale	ernz	you dont have to remove anyline, all you have to do is put a "#" in the line that mounts the hard drive you dont want to be mounted automatically

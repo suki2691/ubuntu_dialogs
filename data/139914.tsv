@@ -1,0 +1,4 @@
+2007-04-09T11:00:00.000Z	T0uCH		i just wanna know somethings that is very simple... :(... somebody anwser me please... i cant access my windows xp partition but i can see them in the gnome partitioner... im on the boot cd... if i install ubuntu will i be able to access my files or i need to do something???
+2007-04-09T11:00:00.000Z	cafuego_	T0uCH	You will need to add 'uid=1000,umask=002' in the fstab file.
+2007-04-09T11:01:00.000Z	cafuego_	T0uCH	By default, only root cna read NTFS. By adding those, user id 1000 can read 'em (no reinstalling required, thanks for nothing MmmPancakes)
+2007-04-09T11:10:00.000Z	T0uCH	cafuego_	T0uCH: You will need to add 'uid=1000,umask=002' in the fstab file.  WHERE IS IT?? IM A NEWBIE LOL

@@ -1,0 +1,4 @@
+2010-04-24T02:20:00.000Z	BrutusGosdric		hi all. i'm new to linux, so i dunno if i'm comfortable editing xorg just yet. can someone tell me how to setup twinview in metamodes, so that my screens are like one big screen?
+2010-04-24T02:21:00.000Z	BrutusGosdric		i want to do it from nvidia-settings. anyone think they can help me?
+2010-04-24T02:21:00.000Z	ActionParsnip	BrutusGosdric	easy. run: sudo nvidia-xconfig; gksudo nvidia-settings    setup the screen then click "save to x config file"
+2010-04-24T02:22:00.000Z	BrutusGosdric	ActionParsnip	but im not 100% sure how to setup the metamodes in nvidia-settings

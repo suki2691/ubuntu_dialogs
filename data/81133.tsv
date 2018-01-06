@@ -1,0 +1,4 @@
+2008-09-11T01:07:00.000Z	speedcore		how do I change the user umask
+2008-09-11T01:08:00.000Z	ckyle	speedcore	use the umask command in terminal
+2008-09-11T01:09:00.000Z	speedcore	ckyle	I edited .bash_profile  and added umask there. Is that correct. Do I need to restart anything?
+2008-09-11T01:12:00.000Z	ckyle	speedcore	that will work fine. I don't know the exact correct way (i'm new) but i know the umask command is correct and using .bashrc is a good place to put setup stuff for when you use bash - so i think that should work fine - test it ok?

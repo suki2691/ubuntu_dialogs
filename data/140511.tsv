@@ -1,0 +1,4 @@
+2007-08-05T08:09:00.000Z	barbie		hi, i want to run one of my script after all the services have started... how to do so?
+2007-08-05T08:09:00.000Z	Dr_willis	barbie	 thats what rc.local is for
+2007-08-05T08:10:00.000Z	barbie	Dr_willis	i never edited rc.local......... any special pattern or format?
+2007-08-05T08:11:00.000Z	Dr_willis	barbie	 its a shell script. be sure to keep exit 0 at the end. and dont start stuff that wont return. unless you spawn it to the bg. with &

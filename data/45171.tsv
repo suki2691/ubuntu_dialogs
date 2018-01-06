@@ -1,0 +1,4 @@
+2010-06-13T07:44:00.000Z	TheMoebius		hey I just got a new hard drive. How can I make sure it's mounted automatically at boot without defining the /dev/sdb1 kind of point? Other entries in /etc/fstab have UUID
+2010-06-13T07:45:00.000Z	thune3	TheMoebius	find uuid with : sudo blkid
+2010-06-13T07:47:00.000Z	TheMoebius	thune3	thanks. and what should the dump and pass values be?
+2010-06-13T07:50:00.000Z	thune3	TheMoebius	0 2 probably if it is not your root partition

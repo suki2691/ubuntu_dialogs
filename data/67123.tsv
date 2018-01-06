@@ -1,0 +1,4 @@
+2011-03-03T22:14:00.000Z	maco	Element9	only 6 ttys run by default. they are on ctrl+at+f[1-6]
+2011-03-03T22:16:00.000Z	Element9	maco	but when I go to tty with ctrl+alt+f1 and try ./HelloWorld   it says cannot connec to x server
+2011-03-03T22:17:00.000Z	maco	Element9	because once you stop gdm, X isn't running
+2011-03-03T22:17:00.000Z	Element9	maco	if I try startx -x ./HelloWord it says x server is already running

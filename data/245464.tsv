@@ -1,0 +1,4 @@
+2008-03-10T09:59:00.000Z	crshman		Hi all, is there a way to map a folder as a physical device in linux? say.... /home/crshman/data --> /dev/sdb?
+2008-03-10T09:59:00.000Z	travisat	crshman	yes
+2008-03-10T09:59:00.000Z	travisat	crshman	mount /dev/sdb /home/crshman/data
+2008-03-10T10:00:00.000Z	travisat	crshman	you would have to make the folder data first

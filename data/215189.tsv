@@ -1,0 +1,4 @@
+2005-11-02T11:35:00.000Z	jstrubberg		pluufsy: can you start it with just "mysql -u root -p" from a command line?
+2005-11-02T11:37:00.000Z	pluffsy	jstrubberg	that returns ERROR 2002: Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+2005-11-02T11:48:00.000Z	jstrubberg	pluffsy	it sounds to me like you have the mysql client, but not the server.  How did you upgrade, BTW?
+2005-11-02T11:48:00.000Z	pluffsy	jstrubberg	via the instructions in the wiki, in synaptic. changed all hoary to breezy.

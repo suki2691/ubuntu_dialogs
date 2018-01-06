@@ -1,0 +1,4 @@
+2009-08-05T18:43:00.000Z	usicow		The user I'm logged in with is a member of groups 'my_account_name' and 'mongrel', I'm trying to create a directory, but I'm getting permission denied. The directory I'm trying to create the subdir in is drwxr-xr-x 15 mongrel mongrel 4096 Aug  5 09:25 rails. What am I doing wrong?
+2009-08-05T18:44:00.000Z	grawity	usicow	The group 'mongrel' does not have write rights to the 'raills' directory...
+2009-08-05T18:45:00.000Z	usicow	grawity	is the mongrel group the owner of the directory?
+2009-08-05T18:45:00.000Z	grawity	usicow	As you can see yourself, the directory owner is user 'mongrel', and the directory group is group 'mongrel'.

@@ -1,0 +1,4 @@
+2008-05-24T19:15:00.000Z	stu		 I attempted to re-install alsa from source as my sound wasn't working very well... now I have no sound, can anyone help me out? the output of alsamixer is alsamixer: function snd_ctl_open failed for default: No such file or directory
+2008-05-24T19:15:00.000Z	stu		asoundconf list shows no output
+2008-05-24T19:15:00.000Z	odinsbane	stu	try sudo alsa
+2008-05-24T19:16:00.000Z	odinsbane	stu	I think the whole command is sudo alsa restart

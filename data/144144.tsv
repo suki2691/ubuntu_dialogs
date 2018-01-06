@@ -1,0 +1,4 @@
+2007-12-22T12:47:00.000Z	ciphercast		which wasn't that big a deal, just reinstalled the pkg
+2007-12-22T12:47:00.000Z	ciphercast		problem solved
+2007-12-22T12:49:00.000Z	ciphercast		but now bash doesn't recognize any arrow keys (history doesn't work) and every terminal for every user just displays a "$"
+2007-12-22T12:51:00.000Z	EADG	ciphercast	paste this into /etc/bash.bashrc... PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '   then source bash.bashrc to reload.

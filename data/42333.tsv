@@ -1,0 +1,4 @@
+2010-11-20T16:41:00.000Z	metallico		hi guys, I am trying to compile my sound driver and when I do "make" I get an error "/lib/modules/2.6.35-22-generic/build/include/linux/types.h:4: fatal error: asm/types.h: No such file or directory"
+2010-11-20T16:41:00.000Z	metallico		if I view the source code of types.h I see that on line 4 there is a #include #include <asm/types.h> if I change it to #include "/usr/include/asm/types.h" the process continues but I get a similar errror later on. Do you have any idea why the system can not include files from the asm
+2010-11-20T16:41:00.000Z	metallico		directory. I tried creating a symblink, but it doesnt help.
+2010-11-20T16:42:00.000Z	FloodBot4	metallico	Please don't flood, use http://paste.ubuntu.com to paste, don't use Enter as punctuation.

@@ -1,0 +1,4 @@
+2006-12-13T08:58:00.000Z	chrisjw		I want to share a folder across my network so my pda can map the network share, on windows I can do this easily, I've read up a little bit and seen that I'd have to use samba, isn't there many security vulnerabilities with this?
+2006-12-13T09:00:00.000Z	nothlit	chrisjw	samba should be safe if you keep it within your network, also, samba is safer than xp network sharing
+2006-12-13T09:03:00.000Z	nothlit	chrisjw	it runs on a few ports actually, just google iptables and samba
+2006-12-13T09:06:00.000Z	nothlit	chrisjw	sudo aptitude purge samba

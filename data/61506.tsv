@@ -1,0 +1,4 @@
+2010-12-28T15:14:00.000Z	bullgard		When I insert an audio CD in Maverick, VLC media player 1.06 will start and play the first song. The status line shows "Track 1.wav". Why does '~$ mount' no device /dev/sr0?
+2010-12-28T15:14:00.000Z	bullgard		When I insert an audio CD in Maverick, VLC media player 1.06 will start and play the first song. The status line shows "Track 1.wav". Why does '~$ mount' show no device /dev/sr0?
+2010-12-28T15:15:00.000Z	tsimpson	bullgard	because you don't mount an audio CD there are no files, it's read directly from the device (CD)
+2010-12-28T15:18:00.000Z	bullgard	tsimpson	rww: Thank you very much for your help.

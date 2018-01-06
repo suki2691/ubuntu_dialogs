@@ -1,0 +1,4 @@
+2010-04-14T00:41:00.000Z	d_dyer		When i try to upgrade to 10.04 I get "The NetworkManager applet could not find some required resources.  It cannot continue." Is there anything i can do to continue the update? Thanks.
+2010-04-14T00:41:00.000Z	ZykoticK9	d_dyer	in a terminal run "ps aux | grep pulseaudio" if you get results - you're using Pulse
+2010-04-14T00:42:00.000Z	ZykoticK9	d_dyer	also, re: network manager - reask in #ubuntu+1 (the lucid channel)
+2010-04-14T00:44:00.000Z	ZykoticK9	d_dyer	sorry the puseaudio thing was suppose to be directed to someone else... sorry

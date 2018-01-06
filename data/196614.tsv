@@ -1,0 +1,4 @@
+2006-10-13T07:30:00.000Z	IRC		how do i upgrade my ubuntu if i dont have show updates installed? i also removed ubuntu-desktop. what do i do to upgrade to edgy
+2006-10-13T07:30:00.000Z	chuckyp	IRC	edgy support is in #ubuntu+1
+2006-10-13T07:31:00.000Z	chuckyp	IRC	first I would make sure you have ubuntu-desktop meta package installed then
+2006-10-13T07:32:00.000Z	chuckyp	IRC	sudo sed -i s/dapper/edgy/ /etc/apt/sources.list  then sudo aptitude update && sudo aptitude dist-upgrade

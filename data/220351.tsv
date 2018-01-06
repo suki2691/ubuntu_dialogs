@@ -1,0 +1,4 @@
+2008-04-14T11:08:00.000Z	benanz1		When using sudo is there a way to pass the password on the command line rather than interactively?
+2008-04-14T11:09:00.000Z	Flannel	benanz1	No
+2008-04-14T11:11:00.000Z	Flannel	benanz1	You need to a) sudo the app, or b) tweak sudoers.  a is probably your better bet I guess.  It really depends on what you're doing.
+2008-04-14T11:11:00.000Z	Flannel	benanz1	Or, prompt the user.

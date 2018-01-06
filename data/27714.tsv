@@ -1,0 +1,4 @@
+2010-08-08T19:35:00.000Z	JanCBorchardt		so, I have a problem while compiling a package, it says I haven’t got gstreamer-0.10 installed – synaptic was of no help. the output is at http://paste.ubuntu.com/474972/ – any ideas?
+2010-08-08T19:37:00.000Z	Israfel	JanCBorchardt	Looks like that script is trying to download some things that depend on gtreamer-0.10 Can you manually install that one from somewhere else?
+2010-08-08T19:37:00.000Z	JanCBorchardt	Israfel	gstreamer-0.10? I don’t know, that’s basically the question ;)
+2010-08-08T19:38:00.000Z	Israfel	JanCBorchardt	Make sure the multiverse repository is selected. But I think that is regular universe, and go a search in synaptic.

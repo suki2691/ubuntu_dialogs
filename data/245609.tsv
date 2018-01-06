@@ -1,0 +1,4 @@
+2009-01-27T22:39:00.000Z	rainmanp7		Is there a way to turn on dma on a harddrive ? becasue bios says it's at udma 4 thank you
+2009-01-27T22:40:00.000Z	rainmanp7		hello
+2009-01-27T22:40:00.000Z	cwillu	rainmanp7	 sudo hdparm -i /dev/sda
+2009-01-27T22:41:00.000Z	cwillu	rainmanp7	to check, type man hdparm to read how to set it (be careful though, if it's not running in dma mode, there may be a reason for it)

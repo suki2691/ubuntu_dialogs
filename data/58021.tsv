@@ -1,0 +1,4 @@
+2010-02-04T20:10:00.000Z	crash82		Hello , is there anyway to know if the attached disk of the computer is of phisical size of 2.5 or 3.5 ? By model or something like that what tool can I use ?
+2010-02-04T20:12:00.000Z	michaeldobrovits	crash82	hdparm -i /dev
+2010-02-04T20:13:00.000Z	michaeldobrovits	crash82	hdparm -i /dev/sdf or sda or what ever (use it in terminal with sudo)
+2010-02-04T20:14:00.000Z	michaeldobrovits	crash82	you can see your diskd in terminal using sudo fdisk -l

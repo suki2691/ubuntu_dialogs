@@ -1,0 +1,4 @@
+2007-01-10T12:33:00.000Z	tom_		where are kernel modules stored, and how long should it take to load one?
+2007-01-10T12:35:00.000Z	sekio	tom_	use 'modprobe' to load kernel modules; they should be automatically loaded
+2007-01-10T12:36:00.000Z	tom_	sekio	thats what im trying to do
+2007-01-10T12:37:00.000Z	tom_	sekio	i broke my sound, and i'm tyring to fix it. im trying to load a kernel module, but modprobe just moves to the next line, and doesn't print any messages saying if its worked or not.

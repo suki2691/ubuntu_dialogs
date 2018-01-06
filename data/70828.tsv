@@ -1,0 +1,4 @@
+2008-12-23T08:05:00.000Z	deten1		how do I remove old linux boot options when I get updated kernel
+2008-12-23T08:05:00.000Z	rootsnatch	deten1	look in your /boot/grub/menu.list
+2008-12-23T08:06:00.000Z	deten1	rootsnatch	does that remove the old files or just the boot option?
+2008-12-23T08:06:00.000Z	rootsnatch	deten1	boot option, or ya you can use what Flannel said and apt-get remove the linux image

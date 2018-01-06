@@ -1,0 +1,4 @@
+2007-08-04T08:21:00.000Z	webmaren		hi i was wondering if there was a way to auto-modprobe ndiswrapper
+2007-08-04T08:21:00.000Z	webmaren		i have my wireless set up but i have to do a sudo modprobe each time i boot up, and its annoying
+2007-08-04T08:23:00.000Z	Montaro	webmaren	add ndiswrapper to /etc/modules?
+2007-08-04T08:23:00.000Z	Montaro	webmaren	echo "ndiswrapper" >> /etc/modules

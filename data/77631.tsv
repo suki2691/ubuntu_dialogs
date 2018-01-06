@@ -1,0 +1,4 @@
+2008-10-08T23:35:00.000Z	anabolix		i need to reinstall windows and im not sure if i should completely clean out ubuntu and windows or just format the part where windows is on... any thoughts or help on this?
+2008-10-08T23:35:00.000Z	rskumar_	anabolix	you can just install windows on the same drive it is.. and then reinstall grub to mbr
+2008-10-08T23:36:00.000Z	anabolix	rskumar_	how would i install grub back into mbr? sorry i R new
+2008-10-08T23:39:00.000Z	rskumar_	anabolix	after you cleaned the windows drive, you need to install windows on same,, dont touch the linux drive.. when windows isntalls, it will wipe the mbr and write only its entry.. then after installation is finished,. load the Ubuntu live cd, and in cmd do the grun install , read the  grub man pages and other resources on internet and copy down the commands... and also beware about the Disk numbering in Grub, it starts with 0 while in linux it start

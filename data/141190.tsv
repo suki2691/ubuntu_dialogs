@@ -1,0 +1,4 @@
+2007-03-30T10:37:00.000Z	matthew1429		is anyone good with mplayer?  is there a way to convert to mp3 on the fly?  this is the command I'm using to successfully grab a .rm
+2007-03-30T10:37:00.000Z	matthew1429		mplayer -playlist file.ram -ao pcm -aofile file.wav -vc dummy -vo null
+2007-03-30T10:38:00.000Z	matthew1429		how do I convert this to .mp3 on the fly?
+2007-03-30T10:38:00.000Z	pirea	matthew1429	That's just to dump the stream, have to convert the dumped wav with mencoder.

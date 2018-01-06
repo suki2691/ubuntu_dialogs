@@ -1,0 +1,4 @@
+2008-08-03T20:27:00.000Z	eugman		I need to change the extension of all the .chk files in a folder to jpg . How can I do that?
+2008-08-03T20:29:00.000Z	cratel	eugman	mv doesn't accept wildcards?
+2008-08-03T20:29:00.000Z	eugman	soundray	ok. Will do.
+2008-08-03T20:30:00.000Z	cratel	eugman	you could do something like "ls | xargs -i% mv %"

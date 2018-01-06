@@ -1,0 +1,4 @@
+2011-01-22T16:41:00.000Z	bicyclerepairman		I come from gentoo. for some reason su doesn't work in ubuntu so for now I use "sudo bash"
+2011-01-22T16:41:00.000Z	bicyclerepairman		is there any way to get that working?
+2011-01-22T16:41:00.000Z	llutz	bicyclerepairman	use "sudo -i"
+2011-01-22T16:42:00.000Z	llutz	bicyclerepairman	su would need root-password, which isnt available due to the disabled root-account. sudo works fine

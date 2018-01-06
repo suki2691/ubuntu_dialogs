@@ -1,0 +1,4 @@
+2010-12-28T06:05:00.000Z	wiiflow		why i cant run this from everywere /var/etc/newcs.x86
+2010-12-28T06:05:00.000Z	wiiflow		i must do it from folder itself
+2010-12-28T06:06:00.000Z	wiiflow		how to fix it?
+2010-12-28T06:06:00.000Z	dotblank	wiiflow	it may be that the program access files needed by it using relative paths, you may need to write a launcher script to handle this for you

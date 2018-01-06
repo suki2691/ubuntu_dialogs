@@ -1,0 +1,4 @@
+2010-06-27T05:36:00.000Z	thune3	_ath	i don't have experience, but the logs seem to complain that the xorg.conf is wrong. did try using "/usr/bin/aticonfig --initial" (not sure syntax) to get a basic xorg.conf?
+2010-06-27T05:36:00.000Z	_ath	thune3	that is using aticonfig --initiak
+2010-06-27T05:36:00.000Z	_ath		*initial
+2010-06-27T05:58:00.000Z	thune3	_ath	the only thing related i see is http://forums.opensuse.org/get-help-here/hardware/435380-ati-radeon-5670-fglrx-problem-opensuse-11-2-x64.html , where the problem ended up being a bios/on-board-graphics/pci-address issue. I might recommend commenting out the BusID line, and try to let fglrx try to find the device.

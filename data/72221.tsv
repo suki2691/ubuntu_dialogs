@@ -1,0 +1,4 @@
+2009-05-18T05:24:00.000Z	supersasho		hi.. i'm up to moving my ubuntu partition to another disk.. i'm not using dd but the cp -a command.. now i need to change /etc/fstab and /boot/grub/menu.lst.. i've changed the uuid in the fstab but the disk wont boot.. any ideas?
+2009-05-18T05:25:00.000Z	kitche	supersasho	you need to reinstall grub to the mbr
+2009-05-18T05:25:00.000Z	kitche		!grub > supersasho
+2009-05-18T05:30:00.000Z	supersasho	kitche	thanks :) i've totaly forgot about it

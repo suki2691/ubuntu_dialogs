@@ -1,0 +1,4 @@
+2010-05-30T21:18:00.000Z	IMTheNachoMan		anyone know how to set up public key auth from os x to ubuntu? openssh
+2010-05-30T21:19:00.000Z	llutz	IMTheNachoMan	generate a key, copy the public key to your ubuntu-accounts ~/.ssh/authorized_keys, login
+2010-05-30T21:28:00.000Z	llutz	IMTheNachoMan	use "ssh -vvv user@host" to connect and watch the output for errors
+2010-05-30T21:30:00.000Z	IMTheNachoMan	llutz	ty

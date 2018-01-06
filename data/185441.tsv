@@ -1,0 +1,4 @@
+2007-03-12T15:48:00.000Z	monsoon_king		hi
+2007-03-12T15:48:00.000Z	monsoon_king		in a dual boot with XP where should i be installing the grub to?
+2007-03-12T15:49:00.000Z	monsoon_king		is it MBR or the ubuntu partition
+2007-03-12T15:50:00.000Z	gdb	monsoon_king	The MBR or the boot sector of Ubuntu.  If you put it in the boot sector of Ubuntu, mark that partition as "active" using fdisk.

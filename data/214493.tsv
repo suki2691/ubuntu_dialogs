@@ -1,0 +1,4 @@
+2007-03-02T15:45:00.000Z	tezem		hi, sometimes when I boot my machine I get a message that a process with pid 1418 or similar could not be killed and the boot process will hang. This happens on two totally different machines, any idea what the problem might be?
+2007-03-02T15:46:00.000Z	eck	tezem	check your logs and find out what program that is
+2007-03-02T15:46:00.000Z	eck		it will probably be logged to syslog
+2007-03-02T15:47:00.000Z	tezem	eck	I already checked my logs including syslog but nothing about that message

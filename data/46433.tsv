@@ -1,0 +1,4 @@
+2009-12-16T08:24:00.000Z	JunTao		hey I got a textbook question here I can't figure out :P "Under what condition will a file created by 'root' be automatically owned by the user called 'nfsnobody'?" .....I can't find the answer, can someone helP?
+2009-12-16T08:25:00.000Z	losha	JunTao	depending on the nfs mount options, requests coming from remote systems as root are treated as though they came from user nfsnobody....
+2009-12-16T08:26:00.000Z	losha	JunTao	the idea is that you don't want root users on clients to have unrestriced access to your filesystem
+2009-12-16T08:32:00.000Z	JunTao	losha	yea I thiink ur right thanks

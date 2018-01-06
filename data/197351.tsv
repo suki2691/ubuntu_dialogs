@@ -1,0 +1,4 @@
+2006-04-15T07:40:00.000Z	AngryElf		everytime i try to open up a torrent, it times out, i've been testing this on files that have several hundred seeds.  I'm guessing the problem is on my end, what could it be?
+2006-04-15T07:41:00.000Z	carthik	AngryElf	a firewall on your router?
+2006-04-16T11:45:00.000Z	carthik	AngryElf	perhaps .etc.modules is what you are looking for
+2006-04-16T12:01:00.000Z	AngryElf	carthik	i dont think /etc/modules is what i'm looking for, in fedora /etc/modprobe.conf contains aliases etc, and i believe it gets checked everytime modprobe is run....../etc/modules says that it contains modules that should be loaded at boot

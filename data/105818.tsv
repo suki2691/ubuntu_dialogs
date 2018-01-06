@@ -1,0 +1,4 @@
+2008-04-24T18:57:00.000Z	harvey1		bit of a new question, I "think" I have a 64 bit amd, is there any way to verify which version i should download?
+2008-04-24T18:58:00.000Z	erUSUL	harvey1	if you have a 64 bit x86 chip "cat /proc/cpuinfo | grep lm" should return something
+2008-04-24T18:59:00.000Z	harvey1	erUSUL	it returns a long list of flags
+2008-04-24T18:59:00.000Z	erUSUL	harvey1	in which you can see the lm flag (long mode == lm == 64 bits)

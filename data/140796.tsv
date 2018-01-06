@@ -1,0 +1,4 @@
+2007-07-04T09:10:00.000Z	Frogzoo		 for i in *.zip; do unzip ${i}.zip ; done
+2007-07-04T09:11:00.000Z	Frogzoo		 for i in *.zip; do unzip $i ; done
+2007-07-04T09:13:00.000Z	jacksonL	Frogzoo	hm.. that appears to be somewhat working, but it has a problem because the filenames have some spaces in them and it won't parse them correctly, i.e. "unzip:  cannot find or open Zelda, Zelda.zip or Zelda.ZIP." when the file is called something like Zelda\ Ocarina\ Of\ Time.zip. is there some way around that?
+2007-07-04T09:15:00.000Z	jacksonL	Frogzoo	ah, thank you. that appears to be working wonderfully

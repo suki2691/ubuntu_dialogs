@@ -1,0 +1,4 @@
+2007-01-22T09:05:00.000Z	iain		How do I install ubuntu yet preserve my /home partition's data?
+2007-01-22T09:07:00.000Z	wastrel	iain	 iirc, the installer can let you select the partition to mount as home, and set it not to format that partition.
+2007-01-22T09:07:00.000Z	wastrel	iain	 alternatively, you could just let it make a /home under  / and fix fstab post install to mount your home partition
+2007-01-22T09:07:00.000Z	iain	wastrel	Alright, that sounds like what I want.  Thanks.

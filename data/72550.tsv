@@ -1,0 +1,4 @@
+2008-12-18T05:46:00.000Z	onetinsoldier		is root the only user that can ever use the mount command?
+2008-12-18T05:47:00.000Z	SlimeyPete	onetinsoldier	unless the right params are configured in /etc/fstab
+2008-12-18T05:49:00.000Z	onetinsoldier	SlimeyPete	i think i put the proper umask in fstab..  umask=0222
+2008-12-18T05:50:00.000Z	onetinsoldier	SlimeyPete	do i need to make it even more permissive than that?

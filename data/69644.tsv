@@ -1,0 +1,4 @@
+2012-06-01T19:08:00.000Z	jiffe98		why would mdadm --create give me the message 'mdadm: ADD_NEW_DISK for /dev/sdc failed: Device or resource busy' ?
+2012-06-01T19:10:00.000Z	sacarlson	jiffe98	sounds like maybe something on /dev/sdc is mounted
+2012-06-01T19:11:00.000Z	jiffe98	sacarlson	its not though
+2012-06-01T19:12:00.000Z	jiffe98	sacarlson	nothing mounted, I've run --zero-superblock on it, I've tried passing --assume-clean to mdadm --create but it won't add sdd to that raid device

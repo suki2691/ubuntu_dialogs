@@ -1,0 +1,4 @@
+2007-02-14T17:24:00.000Z	trainer_		I did some package upgrades and now my system won't get past an (initramfs) prompt at boot, I can't find anything on the forums about this, can someone help
+2007-02-14T06:01:00.000Z	trainer_		How do I mount a hdd partition from the live cd?
+2007-02-14T06:01:00.000Z	dyrne	trainer_	what format? ntfs? ext3?
+2007-02-14T06:02:00.000Z	dyrne	trainer_	well the livecd should automount it under /media but if not do a sudo fdisk -l to find it then sudo mkdir /media/hda1;sudo mount /dev/hda1 /media/hda1

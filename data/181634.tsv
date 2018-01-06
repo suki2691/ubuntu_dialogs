@@ -1,0 +1,4 @@
+2007-01-15T14:17:00.000Z	Oni-Dracula		anyone know a way of remapping the right side buttons of a razer diamondback?  xev detects the buttons as 4 and 5, however those buttons are also the scroll wheel up and down.
+2007-01-15T14:18:00.000Z	jpjacobs	Oni-Dracula	you prolly have to map them in /etc/X11/xorg.conf. google for it
+2007-01-15T14:34:00.000Z	jpjacobs	Oni-Dracula	i guess if you poke aroun in xorg.conf, it is possible
+2007-01-15T14:35:00.000Z	Oni-Dracula	jpjacobs	as far as I know, xorg.conf works with the number of the button as read from xev...when two distinctly different buttons on a mouse register as the same number it seems to me impossible to use xorg.conf to map the buttons

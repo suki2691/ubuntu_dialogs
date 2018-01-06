@@ -1,0 +1,4 @@
+2010-03-01T05:33:00.000Z	Guest14343		hi, i have a question, I have a intel integrated video card and i'm trying to fix the driver, but there is no xorg.conf!! where is it? or how can i generate one?
+2010-03-01T05:34:00.000Z	garhol	Guest14343	xorg.conf is no longet there in 9.10. create a blank one with sudo touch /etc/X11/xorg.conf
+2010-03-01T05:35:00.000Z	Guest14343	garhol	and can I add only a the lines with the stuff i want to get configured, or does it have a full configuration file?
+2010-03-01T05:36:00.000Z	garhol	Guest14343	try sudo Xorg -configure  that should make an initial config for you I think.

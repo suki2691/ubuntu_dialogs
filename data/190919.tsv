@@ -1,0 +1,4 @@
+2006-08-13T15:59:00.000Z	Zdra		hello, I administrate ~70 computers running ubuntu dapper here and I have a question for upgrades: If there is a new kernel version the old one isn't removed. For security reasons I don't want to allow users to boot an old kenrel. Is there a way to automatically remove old kernel when there is an upgrade of kernel-image ?
+2006-08-13T16:01:00.000Z	neutrinomass	Zdra	None that I know of, but you may be able to remove them all in one go using clusterssh
+2006-08-13T16:04:00.000Z	Zdra	neutrinomass	didn't know clusterssh, I'll try it. I currently use a home-made script to run commands on all machines at once
+2006-08-13T16:05:00.000Z	neutrinomass	Zdra	Ahh, it's a small little program that sort of broadcasts commands to several computers - I've never used it so I can't comment on it. Better try what Seveas suggests ...

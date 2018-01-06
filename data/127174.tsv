@@ -1,0 +1,4 @@
+2008-07-02T10:25:00.000Z	Metatron		trying to make a symlink with ln -s  but path has spaces in it on ntfs partition, trying " and ' but cant get it right
+2008-07-02T10:26:00.000Z	Fryguy--	Metatron	just use tab complete to complete it
+2008-07-02T11:04:00.000Z	Fryguy--	Metatron	you need to mount devfs before chrooting
+2008-07-02T11:11:00.000Z	Metatron	Fryguy--	 unknown filesystem type 'devfs'  but i got it with must mounted dev/ thnx, it was my fault i didnt realise exiting the root cleared the mounts

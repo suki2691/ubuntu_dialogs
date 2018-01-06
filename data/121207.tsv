@@ -1,0 +1,4 @@
+2007-09-24T15:30:00.000Z	kilonux		Hello m does "mount /home" has anything to do in the fstab ?
+2007-09-24T15:31:00.000Z	cosmodad	kilonux	it'll only mount that way if you have a corresponding entry in /etc/fstab.
+2007-09-24T15:32:00.000Z	kilonux	cosmodad	 so it is something one does in a shell, and not at all write into fstab?
+2007-09-24T15:33:00.000Z	cosmodad	kilonux	correct. The fstab line would be a little bit longer.

@@ -1,0 +1,4 @@
+2007-03-03T13:24:00.000Z	xreyye		How can I determine which partition/drive my windows partition is on for use with GRUB?
+2007-03-03T13:26:00.000Z	xreyye		I did sudo fdisk -l, which lists windows partition as hda5 but I just dont know how to add that to grub config
+2007-03-03T13:27:00.000Z	Flannel	xreyye	hda5 is hd0,4
+2007-03-03T13:29:00.000Z	xreyye	Flannel	thanks, I must have screwed up something then, when I tried hd(0,4) in grub it gave me an error, something to do with Nt...something not detected

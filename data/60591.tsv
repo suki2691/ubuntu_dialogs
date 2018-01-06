@@ -1,0 +1,4 @@
+2009-04-09T19:52:00.000Z	djtoast		Hi all,  I have a quick question on Shell scripting.  I know this is not 100% ubuntu related but figured since i cant find anwser with google id ask here.  Can you in a shell script do a CASE under another CASE.  Like you can do IF then, IF then Else, Else.  but cases seems to be reconising my ending esac for the second case for my first one.
+2009-04-09T19:53:00.000Z	djtoast		Nevermind i found my error its working now. :)
+2009-04-09T19:54:00.000Z	stodorovic	djtoast	have you tried it? have you read the man page for bash - it might have errata there about nested esac
+2009-04-09T19:57:00.000Z	stodorovic	djtoast	oh right. I foolishly assumed you were using bash. The ksh man page might have more info, but as you say, you fixed it :)

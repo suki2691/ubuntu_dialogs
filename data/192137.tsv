@@ -1,0 +1,4 @@
+2006-04-05T09:46:00.000Z	seraphire		Okay, silly question.  How do I run a graphical program so that it can have sudo privs to edit a system file? (Specifically I want to edit a config file that's owned by ROOT)
+2006-04-05T09:46:00.000Z	_jason	seraphire	gksudo gedit /path/to/file
+2006-04-05T09:47:00.000Z	_jason	seraphire	actually, it should be: gksudo 'gedit /path/to/file'
+2006-04-05T09:48:00.000Z	seraphire	_jason	thanks. reading the man on it now.

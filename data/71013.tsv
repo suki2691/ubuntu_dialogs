@@ -1,0 +1,4 @@
+2009-01-29T23:21:00.000Z	nogeek1		hi, I can format an external USB-drive with gparted. But since my root-password is required to launch the app, the permissions are root as well?! I need them for current user instead. Suggestions?
+2009-01-29T23:22:00.000Z	Light-	nogeek1	you need to be root to format drives. the permissions will be root if you mounted it as root
+2009-01-29T23:43:00.000Z	nogeek1	Light-	after formatting can I change the permission by mouse click somehow? Or do I need the terminal?
+2009-01-29T23:47:00.000Z	Light-	nogeek1	you usually need to change the permissions on the directory where your drive is mounted to be owned by your user, and rwx. go to a terminal and type "sudo chown -R username /media/mountpoint && sudo chmod -R 777 /media/mountpoint" where username is your username and /media/mountpoint is the place where the drive is mounted. ideally you'd add an entry to fstab, google for a howto

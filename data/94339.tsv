@@ -1,0 +1,4 @@
+2008-04-21T17:39:00.000Z	jeffimperial		I just put in my IDE HDD now, and it's not showing up in Computer or Media.. what to do?
+2008-04-21T17:40:00.000Z	Lamego	jeffimperial	check with: sudo fdisk -l
+2008-04-21T17:43:00.000Z	jeffimperial	Lamego	Slowlearner: I get a /dev/sda.... some sort of list. What do I make of this?
+2008-04-21T17:43:00.000Z	Lamego	jeffimperial	you need to understand how the partitions are named, if you added a new disk, you will need to add it to /etc/fstab

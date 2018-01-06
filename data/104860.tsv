@@ -1,0 +1,4 @@
+2009-09-03T11:29:00.000Z	nikre		hi, i can not execute a shell script as sudo in rc.local at startup, is there any way i can do that?
+2009-09-03T11:30:00.000Z	ActionParsnip	nikre	rc.local is owned by root, so any commands defined in there will run with that priveledge
+2009-09-03T11:30:00.000Z	ActionParsnip	nikre	just omit any sudos from the script
+2009-11-20T13:07:00.000Z	ActionParsnip	nikre	your system already has an X server running, you will need to make a virtual X server to run off of somehow (ive heard of it done buy i've not done it)

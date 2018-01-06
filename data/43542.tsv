@@ -1,0 +1,4 @@
+2009-11-06T12:34:00.000Z	Hasanibrahim		Hello i am trying to make a new partition to my oc. But when i try to use gpated, it's saying me check file system ob dev/sda1 for errors and fix them
+2009-11-06T12:34:00.000Z	Hasanibrahim		e2fsck -f -y -v /dev/sda1
+2009-11-06T12:34:00.000Z	Hasanibrahim		what's this ?
+2009-11-06T12:35:00.000Z	frostburn3	Hasanibrahim	is /dev/sda1 a ext file system, if so, use a fsck

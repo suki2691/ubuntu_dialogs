@@ -1,0 +1,4 @@
+2005-06-06T09:49:00.000Z	J35U5		anyone know a reason xmms would lock up whenever i try to play an mp3?
+2005-06-06T09:50:00.000Z	pfp	J35U5	wrong output device in preferences maybe
+2005-06-06T09:57:00.000Z	J35U5	pfp	that was it. i had to change it to alsa.
+2005-06-06T09:59:00.000Z	pfp	J35U5	good. Esound / ESD can be a good choice too, to let other apps share the card

@@ -1,0 +1,4 @@
+2010-05-29T12:51:00.000Z	ausnomer		sudo aptitude install grub-pc installed the package but didn't run the configuration prompt script
+2010-05-29T12:52:00.000Z	ausnomer		is there any way to get the grub-pc to do the config script again?
+2010-05-29T12:52:00.000Z	jayvee	ausnomer	sudo update-grub
+2010-05-29T12:54:00.000Z	ausnomer	jayvee	it just says "Generating grub.cfg ... Found linux image: /boot/vm" etc doesn't open up a prompt like https://help.ubuntu.com/community/Grub2#Upgrading to GRUB 2

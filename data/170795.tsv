@@ -1,0 +1,4 @@
+2006-11-10T08:12:00.000Z	iturk		hi there i would like to give permissions to user to a folder and all its content inclunding subdirectories !! which options should i give to chmod ??
+2006-11-10T08:12:00.000Z	variant	iturk	chown -R /path/to/directory/
+2006-11-10T08:12:00.000Z	variant	iturk	chown -R user:group /path/to/directory/
+2006-11-10T08:13:00.000Z	iturk	variant	thanks

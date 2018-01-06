@@ -1,0 +1,4 @@
+2010-04-20T03:14:00.000Z	Typos_King		allo forestbear
+2010-04-20T03:15:00.000Z	duffydack	Typos_King	thats a horrible way..  it doesnt backup just the mbr, it backups every part of the drive, even empty space.  Clonezilla is a much better solution with compression and excluding empty space..
+2010-04-20T03:17:00.000Z	Typos_King	duffydack	    ahemm.. true.... I meant to say -> dd if=/dev/sda of=sda_mbr.img bs=512 count=1;     :)
+2010-04-28T03:15:00.000Z	Typos_King	duffydack	   heheh, I recall to have done so.... I don't recall noticing the 'a lot' speed between either

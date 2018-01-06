@@ -1,0 +1,4 @@
+2012-07-13T23:19:00.000Z	usern4me		bind9 starts fine if i use 'service bind9 start' but it doesn't start when i reboot.  where do i change what services start at boot from CLI?
+2012-07-13T23:20:00.000Z	usern4me		i'm familar with gentoo rc-update command.  what is ubuntu's equivolent?
+2012-07-13T23:22:00.000Z	L3top	usern4me	update-rc.d scriptname defaults  or update-rc.d -lf scriptname remove are common uses to add a script in /etc/init.d to runlevels or remove them.
+2012-07-13T23:22:00.000Z	usern4me	L3top	thanks

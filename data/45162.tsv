@@ -1,0 +1,4 @@
+2010-07-25T09:28:00.000Z	jvm		hi. how do you create a new user from a live cd on a ubuntu 9.10 installation? i tried, but get "Authentication failed." when rebooting and trying to actually log in with the newly created user. forgot password for the old one.
+2010-07-25T09:29:00.000Z	thune3	jvm	you are trying to add a user on a system you do not have sudo permission for?
+2010-07-25T09:29:00.000Z	jvm	thune3	right.
+2010-07-25T09:35:00.000Z	jvm	thune3	is that...unrealistic? i mean, on an older system it would just ve worked with chrooting and a simple "adduser", on the livecd.

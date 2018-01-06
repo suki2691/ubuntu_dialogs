@@ -1,0 +1,4 @@
+2008-01-10T09:35:00.000Z	jwprox	KlrSp1	You need to GD library... I'm not sure but you might beable to do an 'apt-get php-gd'
+2008-01-10T09:40:00.000Z	KlrSp1	jwprox	yeah i have that.. apparently imagerotate() isn't included in that shared object htough... someone on the buglist mentioned a security issue, but have yet to state what it was
+2008-01-10T09:41:00.000Z	KlrSp1		and this is damn annoying.. i just wiped my gentoo install in favor for ubuntu, but i'm getting pissed thinking of going back
+2008-01-10T09:41:00.000Z	jwprox	KlrSp1	That sucks, might want to try a package like XAMPP if your just doing development.. Or roll your own build of PHP with the libraries compiled in.

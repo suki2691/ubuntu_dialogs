@@ -1,0 +1,4 @@
+2007-12-11T04:02:00.000Z	JuJuBee		I installed an SSL certificate for my web server.  Ever since, I need to enter the password during a reboot.  IS there a way to avoid having to enter the password?
+2007-12-11T04:03:00.000Z	edheldil	JuJuBee	you have to create unencrypted private key
+2007-12-11T04:04:00.000Z	JuJuBee	edheldil	: can you tell me or direct me as to how to do  that?
+2007-12-11T04:06:00.000Z	edheldil	JuJuBee	whe you generate your key pair before creating a CSR, you have to create it with a -nodes option. Possibly there's a way to decrypt the key, but I do not know. Look at openssl commands

@@ -1,0 +1,4 @@
+2010-08-15T23:05:00.000Z	synackfin		there's some rogue user-space code that's allocating huge memory (I noticed during strace some mmap calls for 500MB);  I want to breakpoint all "mmap" calls so I can get a stacktrace, is this possible?
+2010-08-15T23:05:00.000Z	Muelli	synackfin	yes.
+2010-08-15T23:09:00.000Z	synackfin	Muelli	?
+2010-08-15T23:10:00.000Z	Muelli	synackfin	just attach a debugger and break on your desired function. You could also ptrace it manually if you like.

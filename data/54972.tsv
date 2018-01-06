@@ -1,0 +1,4 @@
+2009-09-29T08:43:00.000Z	StupidWeasel		Humm
+2009-09-29T08:44:00.000Z	StupidWeasel		I'm used to the harddisc clicking for unknown reasons. But it's been quiter clicks then normal lately.
+2009-09-29T08:44:00.000Z	ctmjr	StupidWeasel	run it this way you will get more info it takes awhile it will let you know how long  sudo  smartctl -t long /dev/"drive"
+2009-09-29T08:46:00.000Z	ctmjr	StupidWeasel	when it is done run this to get the output smartctl -l selftest /dev/hda

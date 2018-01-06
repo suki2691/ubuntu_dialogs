@@ -1,0 +1,4 @@
+2007-07-09T11:14:00.000Z	Squalish		Anyone know how Dell sets up their ubuntu installs, partition-wise? I'm a win-techy finally installing it for the first time on a Dell box for dual boot, but they have a primary restore partition and a utility partition in addition to the WinXP partition, leaving me with the options of 1) of making a 4th primary partition and running everything off /, 2) trying to boot from a logical partition, 3) nuking the dell utility partition
+2007-07-09T11:15:00.000Z	Squalish		or 4) perhaps making the dell utility partition into a logical one
+2007-07-09T11:15:00.000Z	Squalish		Is that much more complicated than booting from a primary?
+2007-07-09T11:16:00.000Z	levander	Squalish	you can resize partitions if you need more space with parted.

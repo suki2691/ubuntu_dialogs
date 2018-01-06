@@ -1,0 +1,4 @@
+2010-05-07T08:17:00.000Z	roberto__	ridz16	you have 2 of the exact same drives?
+2010-05-07T08:18:00.000Z	ridz16	roberto__	yes two 320 Gb
+2010-05-07T08:21:00.000Z	roberto__	ridz16	from the livecd partition the new drive same as the old, then in terminal do "dd if=/dev/original_hdd of=/dev/new_hdd bs=512 conv=sync,noerror" and re-read that line 3 times to make sure you didnt get the drives backwards :) -- then run it and go grab a bite
+2010-05-07T08:27:00.000Z	ridz16	roberto__	thnx, would this clone all the data of the HDD to another one?

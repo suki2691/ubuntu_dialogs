@@ -1,0 +1,4 @@
+2012-08-03T14:22:00.000Z	trijntje		Hi all, a large copy operation (>200G) with nautilus got interrupted near the end. What is the best way to resume the copy without re-copying everything?
+2012-08-03T14:23:00.000Z	alankila	trijntje	shell, rsync
+2012-08-03T14:23:00.000Z	alankila		(if nautilus had any sense it would use rsync itself)
+2012-08-03T14:24:00.000Z	trijntje	alankila	thanks, should I just use rscync -P or should I use some other flags?

@@ -1,0 +1,4 @@
+2007-12-28T06:49:00.000Z	metropinko		Can anyone help me locate my admin username and password (7.04)?
+2007-12-28T06:49:00.000Z	Dr_willis_	metropinko	 use live cd, look in /etc/passwd and /etc/shadow
+2007-12-28T06:53:00.000Z	Dr_willis_	metropinko	 by default only the FIRST user you made has sudo rights. If you are trying to sudo as a differentuser. you might be getting that error.
+2007-12-28T06:55:00.000Z	Dr_willis_	metropinko	 look int he /etc/passwd file for the user with the id of 1000, hes normally the first user. as for the password.. No idea there. You can reset/set the password from a live cd

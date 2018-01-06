@@ -1,0 +1,4 @@
+2008-04-01T15:43:00.000Z	blanktheherewego		How do I kill a post installation script for apt, I went to install mscorefonts and then decided I didn't want it, which means now even a apt-get remove fails because it tries to download all the fonts again.
+2008-04-01T15:44:00.000Z	hischild	blanktheherewego	install it, then remove it.
+2008-04-01T15:45:00.000Z	hischild	blanktheherewego	it's the cleanest way to go around it.
+2008-04-01T15:46:00.000Z	hischild	blanktheherewego	if you just install it (like it wants) and then remove it, there won't be something left from it as it uninstalled properly.

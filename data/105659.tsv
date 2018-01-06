@@ -1,0 +1,4 @@
+2008-01-24T22:57:00.000Z	comicinker		how can I make a compare in a bash script?    if [ "$Var1" > "$Var2" ];then          is it correct?
+2008-01-24T22:58:00.000Z	un_op	comicinker	if comparing ascibetically,   if [ $var1 -gt $var2]; then ...
+2008-01-24T22:59:00.000Z	comicinker	Pici	un_op: I think they are strings, but I want to use them as ints
+2008-01-24T23:00:00.000Z	un_op	comicinker	either way -- -gt works

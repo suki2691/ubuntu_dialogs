@@ -1,0 +1,4 @@
+2010-06-26T04:47:00.000Z	cannonfodder		hey you guys ...i do  "sudo gedit /etc/ssh/sshd_config.txt"  but it opens an empty file ,...but when i do "sudo gedit /etc/ssh/sshd_config" it works?...and that file is a text file btw so why doesnt my first try work?
+2010-06-26T04:48:00.000Z	IConrad01	cannonfodder	That's because there's no ".txt" at the end of the file.
+2010-06-26T04:52:00.000Z	IConrad01	cannonfodder	Just use "man sudo"
+2010-06-26T04:54:00.000Z	IConrad01	cannonfodder	You can also often-times get more in-depth manuals with other options.

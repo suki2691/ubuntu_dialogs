@@ -1,0 +1,4 @@
+2009-11-19T10:21:00.000Z	Aegnuddel		Why would using su and typing my password give me an authentication failure when sudo works fine?
+2009-11-19T10:22:00.000Z	rww	Aegnuddel	because su is asking for the root account password, and the root account is disabled by default on Ubuntu
+2009-11-19T10:23:00.000Z	rww	Aegnuddel	enabling the root account is not supported in this channel.
+2009-11-19T10:23:00.000Z	rww	Aegnuddel	to get a terminal with root privilages, use sudo -i instead.

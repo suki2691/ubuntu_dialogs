@@ -1,0 +1,4 @@
+2008-06-10T08:37:00.000Z	sapph424		I'm getting the impression that the standard ubuntu install doesn't blast the drive, it just kinda overwrites.  I think that's the problem grub is having - there is already a grub on there - possibly a newer one.  Is there a command that will just kill every damned thing on the drive.  I don't need a secure wipe or anything like that.  I just don't need any installers getting confused about what may or may not have been installed previ
+2008-06-10T08:38:00.000Z	Bodsda	sapph424	boot live cd then use    gparted    to delete all partitions
+2008-06-10T08:52:00.000Z	Bodsda	sapph424	are you asking for the one command to delete everything which we are not allowed to say in this channel?
+2008-06-10T08:57:00.000Z	Bodsda	sapph424	you may need the alternate installer,.,or manual partition and have a seperate /boot partition

@@ -1,0 +1,4 @@
+2006-12-16T11:06:00.000Z	tengil		how do i check what process keeps one of my harddrives busy
+2006-12-16T11:08:00.000Z	slacker	tengil	fuser -c /dev/hdc1
+2006-12-16T11:10:00.000Z	tengil	slacker	dfcarney jpjacobs fuser didnt show anything either. its mounted as /movies
+2006-12-16T11:12:00.000Z	slacker	tengil	if you are sure nothing is using that mountpoint: umount -l

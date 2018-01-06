@@ -1,0 +1,4 @@
+2010-11-13T09:27:00.000Z	devilcode		Hi all .. remove my user from all groups except www-data now i cant sudo
+2010-11-13T09:27:00.000Z	devilcode		HELP
+2010-11-13T09:29:00.000Z	devilcode		no .... *looks down at the floor*
+2010-11-13T09:30:00.000Z	Cyrano_De	devilcode	boot into single user mode by adding a S to your kernel line in grub.  Once you are in single user mode you should be able to edit /etc/group and add your account back to the admin|adm (can

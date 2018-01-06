@@ -1,0 +1,4 @@
+2007-04-03T07:42:00.000Z	FordCapri		when i change settings in /etc/resolve.conf, something resets the file periodically. Where am i supposed to configure name resolution stuff?
+2007-04-03T07:44:00.000Z	bimberi	FordCapri	fixing your router config (if applicable).  Otherwise you can set up resolv.conf as you want then 'sudo chattr +i /etc/resolv/conf' which makes it immutable (even root can't change it - until 'chattr -i')
+2007-04-03T07:46:00.000Z	FordCapri	bimberi	thanks!
+2007-04-03T07:47:00.000Z	bimberi	FordCapri	yw :)

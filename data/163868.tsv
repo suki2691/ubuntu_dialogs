@@ -1,0 +1,4 @@
+2008-08-06T12:28:00.000Z	octavius		so if i have a bunch of .php files in a dir, and want to change them all to .bak
+2008-08-06T12:28:00.000Z	octavius		is there a way via console?
+2008-08-06T12:29:00.000Z	otwr	octavius	use rename (i think it's part of mysql)
+2008-08-06T12:33:00.000Z	otwr	octavius	something like rename 's/php/bak/g' *.php

@@ -1,0 +1,4 @@
+2011-07-25T10:56:00.000Z	Yaffa		what is the command that is issued before an executable is run to see what files it uses when it runs?
+2011-07-25T10:56:00.000Z	llutz_	Yaffa	libraries you mean? ldd <file>
+2011-07-25T10:57:00.000Z	Yaffa	llutz_	thanks
+2011-07-25T10:57:00.000Z	llutz_	Yaffa	or "strace -e open -f <appfile>" to see every file it calls

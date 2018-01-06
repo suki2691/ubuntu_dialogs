@@ -1,0 +1,4 @@
+2009-10-19T03:06:00.000Z	smackd		I have configured apache2 to use virtual hosts for domain1.com and domain2.com but it will not show the page i put in the home dir for each site.. what is the problem.. 1 IP fir 2 domains
+2009-10-19T03:07:00.000Z	Billiard	smackd	restarted apache?
+2009-10-19T03:10:00.000Z	smackd	Billiard	yes, i think its a problem with 'namevirtualhost' - what should i put the hostname or the ip in each hostfile?
+2009-10-19T03:11:00.000Z	Billiard	smackd	you want to pastebin your httpd.conf and sites-enabled files?

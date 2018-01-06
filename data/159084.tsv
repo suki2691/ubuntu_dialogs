@@ -1,0 +1,4 @@
+2006-11-16T14:00:00.000Z	mparrish		I want to install grub version 0.97-11ubuntu14 on my edgy system, but when I do "apt-get install grub=0.97-11ubuntu14" it says it cant find it.  How do I do what I want?
+2006-11-16T14:01:00.000Z	bimberi	mparrish	try downloading the deb and installing using 'sudo dpkg -i file.deb'
+2006-11-16T14:01:00.000Z	mparrish	bimberi	I trid that, but it has a libc dependency.
+2006-11-16T14:02:00.000Z	bimberi	mparrish	ah, so you'll need to compile from source

@@ -1,0 +1,4 @@
+2011-10-21T06:24:00.000Z	kanja		I have a softlink to a directory. The directory has permissions of 755, and the softlink has permission of 777. Why can't my http user cd into the softlink?
+2011-10-21T06:25:00.000Z	kanja		what do you need help with
+2011-10-21T06:25:00.000Z	s3gfault	kanja	is your webserver set to allow follow symlinks
+2011-10-21T06:26:00.000Z	kanja	s3gfault	klync: it's not the webserver - the user itself can't cd into the right place

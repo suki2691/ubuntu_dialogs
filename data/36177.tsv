@@ -1,0 +1,4 @@
+2010-05-01T21:45:00.000Z	Edmund		Hello- I want to back up the contents of my hard drive to a USB drive before upgrading- the process takes sevral hours and there are erros in the mddile that cause it to stop because of bad files. What command would I use to copy everything in my home directory, ignoring any erros and carrying on- only telling me the errors at the end, rather than stoppping halfway through?
+2010-05-01T21:46:00.000Z	Edmund		o- will rsync do that? I'f forgotton about that fro some strange reason
+2010-05-01T21:46:00.000Z	skyride	Edmund	sudo cp -R /home/<yourusername) /pen/drive/location
+2010-05-01T21:48:00.000Z	skyride	Edmund	as root theres no folder you can't touch, you haven't done like chmod 000 or something on a folder?

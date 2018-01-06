@@ -1,0 +1,4 @@
+2009-08-24T02:30:00.000Z	t0s		how can i resize my ubuntu partition to make it larger? right now its 15gb id like it be about 30gb... i have gparted installed just dont know how to use it :/
+2009-08-24T02:30:00.000Z	th1	t0s	you need to boot from the Live CD and do it with gparted from there, because you can't resize the partition with gparted when it's already in use
+2009-08-24T02:31:00.000Z	t0s	th1	how do i access gparted from the live cd? just go to install?
+2009-08-24T02:32:00.000Z	th1	t0s	no, System->Administration->Partition Editor

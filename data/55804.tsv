@@ -1,0 +1,4 @@
+2009-06-01T23:32:00.000Z	chun2		Anyone help? I've shrunk my windows partition, I'd now like to increase the size of my ubuntu partition, so I booted from the live disc and ran gparted - this is the window I get - http://bluesuncorp.co.uk/files/screenshot-dev-sda-gparted.jpg - but for some reason it won't let me extend sda5 into the free space on the left
+2009-06-01T23:33:00.000Z	mdm	chun2	you can extend a file system (sometimes) by adding to the END of it, not the beginning
+2009-06-01T23:33:00.000Z	chun2	mdm	I should be able to move it though, right? and gparted won't let me do that
+2009-06-01T23:34:00.000Z	mdm	chun2	ugly hack? create another partition, cpio from one to the other, reboot, delete the one at the end, then extend it

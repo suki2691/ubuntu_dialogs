@@ -1,0 +1,4 @@
+2007-03-18T16:45:00.000Z	kalin		trying to grub-install on my primary boot drive which has only a windows partition, and it says 'could not find device for /boot: Not found or not a block device', any ideas?
+2007-03-18T06:37:00.000Z	kalin		i've got grub trying to boot with 'root (hd3, 0)' and using kernel <image> root=/dev/sdb1, but it gives an error of Filesystem unknown: Type 0x7, which is NTFS. I suspect that grub is trying to use the wrong hdd and i need to setup some map() commands in the grub configuration, but i dont really understand it. Does this sound like the issue?
+2007-03-18T06:38:00.000Z	maddash	kalin	how sure are you that /dev/sdb1 is not NTFS?
+2007-03-18T06:39:00.000Z	kalin	maddash	i was fairly sure it was the partition that i installed ubuntu on, when it boots the live cd i will just double check with gparted

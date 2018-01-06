@@ -1,0 +1,4 @@
+2012-10-18T17:08:00.000Z	drag0nius		is there something extra i need to do to run /etc/cron.d/ folder?
+2012-10-18T17:09:00.000Z	drag0nius		i've file containing http://pastebin.com/BPmNLM7t but it never runs
+2012-10-18T17:09:00.000Z	iceroot	drag0nius	just install cron and cron will execute the files in /etc/cron.d/ when they have the correct syntax
+2012-10-18T17:10:00.000Z	iceroot	drag0nius	/var/log/syslog  should show the script (imo)

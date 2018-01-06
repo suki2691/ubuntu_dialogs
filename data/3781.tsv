@@ -1,0 +1,4 @@
+2012-07-05T11:33:00.000Z	jankud		Hi, I connected my desktop PC to my laptop via cable. The laptop gets the internet via Wi-Fi. Now I want to forward some ports to my desktop. I know I have to use iptables (maybe there is a simpler tool for this?), but with not much luck.
+2012-07-05T11:33:00.000Z	BlueEagle	jankud	I use shorewall for my firewall/routing needs. Perhaps that will work for you?
+2012-07-05T11:34:00.000Z	jankud	BlueEagle	I will definately check this, thank you.
+2012-07-05T11:35:00.000Z	BlueEagle	jankud	What you want is the two-interface setup. After installing shorewall it will be in /usr/share/doc/shorewall/examples/two-interfaces/ directory. You will need to change the interfaces file and the rules file and you should be good to go.

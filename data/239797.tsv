@@ -1,0 +1,4 @@
+2007-12-24T22:15:00.000Z	casey__		i have a quick ? ... can you do a normal upgrade from a 32bit ubuntu to a 64bit? i thought i installed the 64bit version but didnt and now i want to upgrade with out losing everything i have done
+2007-12-24T22:16:00.000Z	nickrud	casey__	no, it requires a reinstall
+2007-12-24T22:16:00.000Z	nickrud	casey__	and really, there's no reason to change to 64bit unless you're doing some real strong number crunching on software written for 64bits
+2007-12-24T22:19:00.000Z	nickrud	casey__	they are nuts.  add deb http://archive.canonical.com/ubuntu gutsy partner   /etc/apt/sources.list , then run sudo aptitude update && sudo aptitude install vmware-server

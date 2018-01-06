@@ -1,0 +1,4 @@
+2007-10-31T15:04:00.000Z	herbalise		i have my root partition installed on lvm i would like to reduce the size of the root partition, is this possible?
+2007-10-31T15:05:00.000Z	goodhabit	herbalise	how about backuping your root partition somwhere else, resize your prtition, then copy back?
+2007-10-31T15:06:00.000Z	goodhabit	herbalise	It is best way i think. You can do it with tar, or cp -ax, but after that you will need change UUIDS of your partitions @ /etc/fstab , /boot/grub/menu.lst etc.
+2007-10-31T15:07:00.000Z	goodhabit	herbalise	there are no problem to install win.

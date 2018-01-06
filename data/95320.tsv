@@ -1,0 +1,4 @@
+2008-05-11T07:58:00.000Z	ashbringer		Would anyone be able to tell me if moving my /boot partition above where my windows partition is would "corrupt" or otherwise damage my ability to boot into windows?
+2008-05-11T07:59:00.000Z	ripps	ashbringer	You shouldn't be moving your partitions around
+2008-05-11T08:00:00.000Z	ashbringer	ripps	I need to, grub is giving me error 18, so my /boot needs to be within a certain part of the drive. If I move it up past the windows partition, will that kill windows?
+2008-05-11T08:01:00.000Z	ripps	ashbringer	I woudn't know, but it would probably change your partition names. Instead of Windows being sda1, it'll be sda2. Best to ask someone else about it though

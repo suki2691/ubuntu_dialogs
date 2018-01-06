@@ -1,0 +1,4 @@
+2007-09-11T15:02:00.000Z	Scunizi		How do I use wget with a variable to download several files ending in .gif?  I've tried "wget http://www.foo.bar/*.gif" with no success.
+2007-09-11T15:03:00.000Z	kane77	Scunizi	I'd say put the filenames in a text file and serve it to wget...
+2007-09-11T15:04:00.000Z	Scunizi	kane77	unfortunatly I don't know the file names just that they end in .gif
+2007-09-11T15:04:00.000Z	kane77	Scunizi	there is an option to recursively download... you can try the gwget (if you don't need it for some kind of script)

@@ -1,0 +1,4 @@
+2009-03-11T01:46:00.000Z	Jeruvy		updated my nvidia drivers to 177, now I cannot get X to start.  To Fix, edit xorg.conf and add 'BusID "x:0:0" where x is the video card id'd by lspci.
+2009-03-11T01:46:00.000Z	demon_	Jeruvy	 why did you update them
+2009-03-11T01:46:00.000Z	demon_	Jeruvy	maybe 177 its not for your graphic card
+2009-03-11T01:47:00.000Z	Jeruvy	demon_	no it's just a buggy installer, not updated xorg.conf properly

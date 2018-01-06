@@ -1,0 +1,4 @@
+2011-09-29T03:05:00.000Z	RatBattle		I'm just trying to understand if the MBR is located in the /boot partition and if i need to use a different method from standard (one partition installation) in restoring grub as the boot loader after I install xp
+2011-09-29T03:06:00.000Z	SIFTU	RatBattle	no different method.. there is only 1 mbr per disk, same method to replace it
+2011-09-29T03:08:00.000Z	RatBattle	Jeruvy	awesome thanks. I've just read on tutorials that winxp overwrites the MBR when installed after linux causing my MBR to only point to XP
+2011-09-29T03:09:00.000Z	SIFTU	RatBattle	yes, then you need to reinstall grub after the win install

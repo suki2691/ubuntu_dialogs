@@ -1,0 +1,4 @@
+2006-10-03T16:31:00.000Z	georgy_	maccam94	 : try that : rmmod snd-intel8x0, then modprobe snd-intel8x0m, then rmmod snd-intel8x0 and last thing modprobe snd-intel 8x0. I have the same soundcard and sometimes i have to do this to get sound
+2006-10-03T16:31:00.000Z	maccam94	georgy_	k, i'll give it a try
+2006-10-03T16:32:00.000Z	georgy_	maccam94	: third command rmmod snd-intel8x0m
+2006-10-03T16:32:00.000Z	maccam94	georgy_	ERROR: Module snd_intel8x0 is in use

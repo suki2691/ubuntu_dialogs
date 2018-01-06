@@ -1,0 +1,4 @@
+2009-12-05T17:23:00.000Z	ashadocat		so I put a menubar on top of another menubar and told it to autohide, in gnome. now whenever I try to log in I crash. can anybody tell me what I have to delete (I only have xterm access) to set the ap bar thingies back to default? hopefully that will keep me from crashing on login
+2009-12-05T17:25:00.000Z	ashadocat		can someone at least tell me the gnome channel name? if I bring up the channel browser I can't minimize it again...
+2009-12-05T17:26:00.000Z	khensthoth	ashadocat	In the terminal: rm -r ~/.gconf/apps/panel
+2009-12-05T17:27:00.000Z	ashadocat	khensthoth	thanks. need to close irc to do it

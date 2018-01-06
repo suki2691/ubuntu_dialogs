@@ -1,0 +1,4 @@
+2008-05-31T04:29:00.000Z	Ben		i have run mkfs to make a ext3 disk but cannot seem to cp to it?? any ideas?
+2008-05-31T04:30:00.000Z	sharms	Ben	 Did you mount it after mkfs?
+2008-05-31T04:30:00.000Z	Ben	sharms	yes
+2008-05-31T04:31:00.000Z	sharms	Ben	to see filesystems mounted, type "mount".  To see write errors, type "dmesg" and tail -n 200 /var/log/messages

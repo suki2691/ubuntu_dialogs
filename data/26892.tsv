@@ -1,0 +1,4 @@
+2012-02-19T16:00:00.000Z	mbroeker	CharminTheMoose	edit /etc/default/grub and set GRUB_CMDLINE_LINUX_DEFAULT="quiet" followed by sudo update-initramfs -ck $(uname -r) && sudo update-grub
+2012-02-19T16:02:00.000Z	CharminTheMoose	mbroeker	well that doesn't answer my question, I'm not looking to disable it via the boot-options. I'm asking why it gets added to the initrd even if I remove the hooks in /usr/share/initramfs-tools/hooks
+2012-02-19T16:03:00.000Z	mbroeker	CharminTheMoose	have you at least recreated the initramfs with the -ck $(uname -r) option?
+2012-02-19T16:04:00.000Z	CharminTheMoose	mbroeker	Well, I also tacked on the -t command too.

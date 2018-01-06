@@ -1,0 +1,4 @@
+2008-09-10T09:16:00.000Z	greenman		How do you use apt-get to get a specific version?  I have php 5.1.2 and need 5.1.3
+2008-09-10T09:17:00.000Z	persia	greenman	apt-get install $(package)=$(version)
+2008-09-10T09:17:00.000Z	persia	greenman	Note that it's very likely that if 5.1.3 was available for your release, it would be updated by apt-get update; apt-get upgrade
+2008-09-10T09:18:00.000Z	greenman	persia	I did apt-get update and apt-get install php5

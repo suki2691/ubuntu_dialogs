@@ -1,0 +1,4 @@
+2009-04-30T00:58:00.000Z	somebodyelse		http://pastebin.com/d13448a93 I am trying to find the debian/changelog file on my system or determine where it is reading from so I can correct this error.  Any ideas?
+2009-04-30T01:00:00.000Z	joaopinto	somebodyelse	are you trying to build a package ? Are you executing the command from the source directory ?
+2009-04-30T01:03:00.000Z	somebodyelse	joaopinto	I am following http://is.gd/3AcO Step 1 where it says "sudo DEB_BUILD_OPTIONS=ssl dpkg-buildpackage -rfakeroot"
+2009-04-30T01:05:00.000Z	joaopinto	somebodyelse	please do not follow a tutorial with random sudo commands if you dont understand what you are doing, you may break your system doing so

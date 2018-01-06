@@ -1,0 +1,4 @@
+2008-02-29T19:07:00.000Z	J_P		hi all
+2008-02-29T19:08:00.000Z	J_P		people, what package I need instal to have file /etc/hosts.deny and hosts.allow ?
+2008-02-29T19:10:00.000Z	danand	J_P	- you should already have those files as part of a standard installation - try ls /etc/ | grep hosts
+2008-02-29T19:11:00.000Z	danand	J_P	- my understanding is that you just add the various host/network listings to those files as required.

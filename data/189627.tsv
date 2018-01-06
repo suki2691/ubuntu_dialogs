@@ -1,0 +1,4 @@
+2006-10-05T08:34:00.000Z	SpComb	baxter_kylie	the kernel raid driver keeps a RAID superblock on the disk/partition that you use, and it stores info about the raid array in it. So a raid array created with md should work with any md
+2006-10-05T08:35:00.000Z	baxter_kylie	SpComb	Excellent. So at that point I'd only need to have the raid config file and use a mkraid, right?
+2006-10-05T08:36:00.000Z	SpComb	baxter_kylie	you shouldn't even need the raid config file, although I think it does have some effect on detecting arrays on system startup
+2006-10-05T08:36:00.000Z	SpComb	baxter_kylie	and I've always used mdadm, I don't know if the classic raid tools do it differently

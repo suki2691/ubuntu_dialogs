@@ -1,0 +1,4 @@
+2008-04-24T21:57:00.000Z	murphyt		any know why the cd install gives "buffer i/o error" errors and "squashfs" errors? i'm trying to instal clean ver (not using wubi)
+2008-04-24T21:58:00.000Z	Jimdb	murphyt	 i think it has to do with acpi or something like that.
+2008-04-24T22:00:00.000Z	Jimdb	murphyt	 put this as a switch on the command line when booting:             ide=nodma
+2008-04-24T22:00:00.000Z	murphyt	Jimdb	thanks i'll try that

@@ -1,0 +1,4 @@
+2009-10-09T00:25:00.000Z	ploppyface		can someone please help me sort out how to get mysql listening over network so I can log in from other machine
+2009-10-09T00:25:00.000Z	ikonia	ploppyface	it's already listenining over the network, you need to grant the correct privileges
+2009-10-09T00:25:00.000Z	ikonia	ploppyface	the default setup is to have the privileges set to local host, if you grant it to a different hostname or % (all hosts) it will work
+2009-10-09T00:25:00.000Z	ikonia	ploppyface	mysql IS listening though on the network

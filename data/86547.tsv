@@ -1,0 +1,4 @@
+2008-07-02T20:52:00.000Z	pianohacker		dpkg had a problem installing some perl libxml bindings, and now trys to install them every time I run apt, and fails. How do I clear them out?
+2008-07-02T20:52:00.000Z	Jester45	pianohacker	have you tried sudo dpkg --configure -a
+2008-07-02T20:52:00.000Z	pianohacker	Jester45	Not yet, one sec
+2008-07-02T20:53:00.000Z	pianohacker	Jester45	It just pops up the same error

@@ -1,0 +1,4 @@
+2010-10-18T19:18:00.000Z	Bisu[Shield]		any reason why the upgrade from 10.4 to 10.10 is not in the update manager?
+2010-10-18T19:19:00.000Z	Dulak	Bisu[Shield]	run 'update-manager -d' to see the upgrade
+2011-06-01T22:28:00.000Z	Dulak	Bisu[Shield]	use the --preserve flag to tar
+2011-06-01T22:32:00.000Z	Dulak	Bisu[Shield]	--preserve combines --same-owner and --preserve-permissions into 1 flag, but yeah it has to do extra work on the extract, chowning and chmodding every file after it's extracted, which is a lot more work

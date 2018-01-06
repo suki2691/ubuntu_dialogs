@@ -1,0 +1,4 @@
+2006-05-14T05:25:00.000Z	capiCrimm		is there anyway I can redirect output to a file(like >), but still interact with it in the terminal?
+2006-05-14T05:26:00.000Z	zcat[1] 	capiCrimm	| tee file
+2006-05-14T06:21:00.000Z	zcat[1] 	capiCrimm	telnet somehost.tla | tee telnet.log
+2006-05-14T06:23:00.000Z	zcat[1] 	capiCrimm	just tried it now.. it's working for me.

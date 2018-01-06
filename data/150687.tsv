@@ -1,0 +1,4 @@
+2011-06-01T23:19:00.000Z	Steven_Lau		After the make install comand,ervery program can't executable.  I can't execute make uninstall or make clean command.  So I shutdown my computer.  And it can't bootable now.  Can anyone help me please! I dont whant to reinstall the OS.
+2011-06-01T23:20:00.000Z	Pici	Steven_Lau	Secondly, Ubuntu 9.10 is no longer supported, you should be using a newer release.
+2011-06-01T23:18:00.000Z	Pici	Steven_Lau	You shouln't install a different version of glibc that differs from the one that comes with it. Lots of things will break.
+2011-06-01T23:19:00.000Z	Pici	Steven_Lau	You'll likely need to reinstall. libc6 is an essential part of your operating system and trying to replace it wwill cause issues.

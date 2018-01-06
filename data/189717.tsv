@@ -1,0 +1,4 @@
+2010-09-03T03:00:00.000Z	clayd		how do i see what users are in the apache users group?
+2010-09-03T03:01:00.000Z	hiku	clayd	type less /etc/groups
+2010-09-03T04:08:00.000Z	hiku	clayd	ok.. the web server runs as apache...so chown apache "file/dir"
+2010-09-03T04:09:00.000Z	hiku	clayd	I believe undecim is right, the default is www-data

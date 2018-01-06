@@ -1,0 +1,4 @@
+2009-07-07T12:57:00.000Z	pirx		should i install something more than libapache2-mod-php5 to get PHP working in apache?
+2009-07-07T12:58:00.000Z	pirx		i reloaded the config, but the server wants me to download the .php files instead of running them. and the logs say that it has been restarted with php
+2009-07-07T12:58:00.000Z	geirha	pirx	See the troubleshooting section
+2009-07-07T13:00:00.000Z	geirha	pirx	Sorry, thought it linked to a different page. Anyway, you probably want to use the a2enmod command it mentions in the configuration section

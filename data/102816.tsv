@@ -1,0 +1,4 @@
+2011-06-24T01:13:00.000Z	aferla		I have install ubuntu 11.04 in D partition and i have win7 in C partition, can i reinstall it without affect ubuntu?
+2011-06-24T01:14:00.000Z	amorphous	aferla	you want to reinstall windows or ubuntu?
+2011-06-24T01:15:00.000Z	amorphous	aferla	then win7 will write to the MBR and grub won't work. you'll have to save the old mbr, reinstall windows and then reinstall grub or put back the mbr
+2011-06-24T01:17:00.000Z	amorphous	aferla	to save the current MBR, open a terminal in Ubuntu and do this: "sudo dd if=/dev/sda of=/home/username/mbr.dat bs=512 count=1"

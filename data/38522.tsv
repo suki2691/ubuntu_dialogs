@@ -1,0 +1,4 @@
+2010-05-19T22:33:00.000Z	noecc		I have aliases defined in .bash_aliases for me and other user.  They work for me but not  if I sudo su -s /bin/sh otheruser?
+2010-05-19T22:34:00.000Z	jrib	noecc	why are you using such a silly command?  By the way sh is not bash by default
+2010-05-19T22:36:00.000Z	jrib	noecc	just do « su - otheruser »
+2010-05-19T22:42:00.000Z	noecc	jrib	other user  is for application and has no pw.  In /etc/passwd for other user is /bin/bash

@@ -1,0 +1,4 @@
+2010-08-29T16:16:00.000Z	akssps011_		?
+2010-08-29T16:17:00.000Z	rww	akssps011_	In case ikonia hasn't made it clear enough: libc6 is an essential system library. If you upgrade it in a way that isn't tested and supported by Ubuntu's developers, you are very, very, very likely to horribly break your system.
+2010-08-29T16:18:00.000Z	akssps011_	rww	The version I have on my current system is probably up to date, so it must be approved. But the system where I just installed 10.04 has an older version..just wanted to upgrade that
+2010-08-29T16:20:00.000Z	akssps011_	rww	ikonia: would it be a good idea to remove libc6 using apt-get remove and then reinstall it using apt-get install (worked with other packages though but they weren't system packages)

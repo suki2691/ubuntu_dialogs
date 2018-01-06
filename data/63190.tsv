@@ -1,0 +1,4 @@
+2011-02-05T18:29:00.000Z	brobinson		i am having trouble recovering files from a failed disk, i am using ubuntu live cd in my efforts, it boots fine i just cant find my files.
+2011-02-05T18:30:00.000Z	kaddi	brobinson	if you have the space I'd suggest that you start by making an image of the failed disk
+2011-02-05T18:32:00.000Z	kaddi	brobinson	sudo fdisk -l will show you what partitions are on the disks in your system.
+2011-02-05T18:33:00.000Z	brobinson	kaddi	fdisk -l does not return anything on my system

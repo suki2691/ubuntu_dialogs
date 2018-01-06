@@ -1,0 +1,4 @@
+2010-02-16T01:58:00.000Z	sir_robert007		hey does anyone know how i can configure Ubuntu to use a different swap partition? I deleted the original swap partition that it was using, which was a primary partition and I want it to use a swap partition that I created in an extended partition
+2010-02-16T01:59:00.000Z	ikonia	sir_robert007	dead easy, just use fstab to point at the new partition
+2010-02-16T01:59:00.000Z	ikonia	sir_robert007	make sure you've done a mkswap on it first though
+2010-02-16T01:59:00.000Z	ikonia	sir_robert007	error 22 is a grub error, you must have done something to make that happen

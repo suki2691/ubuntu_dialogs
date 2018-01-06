@@ -1,0 +1,4 @@
+2009-02-02T02:38:00.000Z	helpme2		Hey guys, I switched to ubuntu about a year ago and have been very happy. However, the other day I had to format and reinstall windows and this deleted the Grub bootloader. I am currently running a live cd of 8.10 and trying to follow a tutorial to reinstall grub on my windows partition hd0,0.. However, when i type  setup (hd0) in terminal after writing sudo grub then root (hd0,0(, i get an errro that says Error 17: Cannot mount selected partition. how can
+2009-02-02T02:38:00.000Z	helpme2		i fix this . Thanks
+2009-02-02T02:39:00.000Z	gordonjcp	helpme2	that might not be the right partition to use
+2009-02-02T02:39:00.000Z	helpme2	gordonjcp	i think it is because i used gparted to see which my windows partition was, and it was the first partition of the first hdd..

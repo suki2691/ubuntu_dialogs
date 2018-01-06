@@ -1,0 +1,4 @@
+2011-04-10T02:01:00.000Z	necromancer		i'm having trouble getting multiple sites working with apache2. i have two sites i want to serve from the same box/same IP, psychedeli.ca and mahoganytales.com. the problem is, both domains are pointing to the site for psychedeli.ca instead of their own respective sites.
+2011-04-10T02:01:00.000Z	necromancer		psychedeli.ca is apache2's default domain because it's the vhost that's loaded first. i know for a fact that NameVirtualHost *:80 is being set before these included configs in sites-enabled/ are being loaded into apache2.conf
+2011-04-10T02:01:00.000Z	necromancer		(did you guys see my second message?)
+2011-04-10T02:01:00.000Z	erUSUL	necromancer	yes

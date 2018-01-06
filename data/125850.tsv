@@ -1,0 +1,4 @@
+2007-11-23T11:43:00.000Z	cardc26		I just got a Lenovo L3000 Y410 notebook, I loaded up Gutsy onto it and upon bootup have no sound. I have attempted all manner of troubleshooting and have been pulling my hair out over this, are there any suggestions that could help me?
+2007-11-23T11:44:00.000Z	RequinB4	cardc26	- what sound card do you have
+2007-11-23T11:46:00.000Z	RequinB4	cardc26	- do the following: go to terminal and type 'alsamixer' and unmute everything
+2007-11-23T11:48:00.000Z	RequinB4	cardc26	- 'lspci' in terminal w/o quotes

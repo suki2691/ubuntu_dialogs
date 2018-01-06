@@ -1,0 +1,4 @@
+2011-09-30T14:14:00.000Z	ajah	usr13	its not a router it`s ad hoc network on other ubuntu machine
+2011-09-30T14:14:00.000Z	usr13	ajah	What do you have it's essid set to?
+2011-09-30T14:14:00.000Z	ajah	usr13	$ sudo iwlist wlan0 scanning | grep wireless                    ESSID:"wireless-connection"
+2011-09-30T14:15:00.000Z	usr13	ajah	Ok well that should do it.  Do you have appropriate IP address settings for each?

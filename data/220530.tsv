@@ -1,0 +1,4 @@
+2008-02-19T06:50:00.000Z	TheZealot		Anyone know what might cuase .deb files not to open when i click on them?
+2008-02-19T06:50:00.000Z	Flannel	TheZealot	try dpkg -i [deb], see what errors it gives you
+2008-10-27T01:46:00.000Z	Flannel	TheZealot	you use update-rc.d et al
+2008-11-03T01:26:00.000Z	Flannel	TheZealot	its not a command, but . is your current directory, so ./ is equivalent of /whatever/directory/im/in/

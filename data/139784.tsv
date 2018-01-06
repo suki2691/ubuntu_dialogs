@@ -1,0 +1,4 @@
+2007-05-14T06:48:00.000Z	Neil-	stefg	There is now, pidgin has new stuff in the latest one
+2007-06-28T09:27:00.000Z	stefg	Neil-	did u use the Desktop Installer? That won't work, because your usb drive has a different device name if you boot from USB and not from hd
+2007-06-28T09:28:00.000Z	Neil-	stefg	Ah I see.. how does the name change??
+2007-06-28T09:30:00.000Z	stefg	Neil-	that depends on your bios, and how it manages to boot from usb. i think grub got installed to the MBR of your internal disk (which is wrong, cos the bios can't see that when booting from USB). you'd have to boot the live CD again and examne the situation from there

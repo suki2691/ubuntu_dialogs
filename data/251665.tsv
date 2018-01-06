@@ -1,0 +1,4 @@
+2008-01-30T14:10:00.000Z	bentob0x		Alright, I would like to share my /var/www/ folder for other people on my local network to go in there and work on the various projects that are in there, how can I do this the easiest way possible?
+2008-01-30T14:11:00.000Z	spdf	bentob0x	You could add people to the www-data group
+2008-01-30T14:12:00.000Z	spdf	bentob0x	How is it shared over the network?
+2008-01-30T14:13:00.000Z	spdf	bentob0x	/etc/samba/smb.conf, and add writeable=yes

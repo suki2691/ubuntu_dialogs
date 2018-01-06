@@ -1,0 +1,4 @@
+2011-09-26T02:44:00.000Z	GunClive		got a mount problem. this does not work: sudo mount -t ext3 -o rw sync /dev/sdc1 /media/0 why? thanks
+2011-09-26T02:45:00.000Z	jack^_	GunClive	do you get an error?
+2011-09-26T02:48:00.000Z	jack^_	GunClive	try removing the space between rw and sync. use a comma
+2011-09-26T02:50:00.000Z	GunClive	jack^_	i had a space at the end of the line that confused mount. lucky that i noticed..

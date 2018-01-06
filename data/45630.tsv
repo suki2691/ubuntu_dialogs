@@ -1,0 +1,4 @@
+2010-09-03T18:39:00.000Z	bloopletech		How do I tell apt-get that I have manually installed librrd, so that when I install collectd it doesn't automatically install librrd?
+2010-09-03T18:40:00.000Z	c3l	bloopletech	the solution is to not install manually :)
+2010-09-03T18:41:00.000Z	bloopletech	c3l	and how do I solve the problem that the packaged copy of librrd has bindings that are incompatible with ruby 1.9.2, which is the version of ruby I use?
+2010-09-03T18:43:00.000Z	c3l	bloopletech	not sure in your case. but you can always specify what version you want to install. if your repo doesnt have what you need, chanses are there is a repo with just what you need, or install deb files via dpkg (dont think apt does it(

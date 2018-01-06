@@ -1,0 +1,4 @@
+2007-07-03T08:43:00.000Z	peepsalot		anyone know how to install nvidia drivers from repos in feisty?
+2007-07-03T08:44:00.000Z	pike__	peepsalot	sudo apt-get install nvidia-glx; sudo nvidia-xconfig   <-- that is for cards that arent too old and not too new
+2007-07-03T08:47:00.000Z	pike__	peepsalot	did you use the nvidia.run installer?
+2007-07-03T08:47:00.000Z	pike__	peepsalot	might do sudo NV*.run --uninstall  first then reinstall nvidia-glx again. i dunno though

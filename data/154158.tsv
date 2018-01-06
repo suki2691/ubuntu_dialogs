@@ -1,0 +1,4 @@
+2007-01-19T07:09:00.000Z	avalon_		Can suomeone help me get vmware player off my system? I installed it, then I wanted to upgrade to server. I marked it for complete removal in synaptic and applied it. But whenever I go to run the server install script, it stops saying it found a previous vmware installation.
+2007-01-19T07:09:00.000Z	avalon_		err... someone that is
+2007-01-19T07:09:00.000Z	libshh	avalon_	apt-get install debfoster
+2007-01-19T07:10:00.000Z	libshh	avalon_	run debfoster.  it will go through installed packages, ask each if you want to keep it or remove it.  this way if there is any other package left, you'll see it.

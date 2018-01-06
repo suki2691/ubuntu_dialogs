@@ -1,0 +1,4 @@
+2009-09-04T23:05:00.000Z	Qvintvs		when editing /etc/network/interfaces to set up a static ip address in the inet family, how can I determine what to put for the network option?
+2009-09-04T23:06:00.000Z	Qvintvs		as in, there's the 'address' and 'netmask' options that I know values for, but what is the 'network' option looking for?
+2009-09-04T23:07:00.000Z	fccf	Qvintvs	I believe network is your gateway
+2009-09-04T23:08:00.000Z	fccf	Qvintvs	take a good look @ man interfaces

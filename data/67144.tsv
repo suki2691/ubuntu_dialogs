@@ -1,0 +1,4 @@
+2009-02-02T10:56:00.000Z	AbsZero		I recently went to compile a file (for simplicity's sake: file.c). The command was a standard compile command (gcc file.c). The c file itself has no flaws (copied and pasted from a textbook as an example). It failed to compile because it could not find <stdio.h> and <stdlib.h>. I was under the impression that ubuntu had gcc included in it by default. So i ran the command "sudo apt-get install gcc", and it said I had the latest version of 
+2009-02-02T10:58:00.000Z	jtaji	AbsZero	it's not installed by default... install build-essential will grab gcc and the c libraries
+2009-02-02T11:04:00.000Z	AbsZero	jtaji	Thanks for your response! I didn't know they weren't installed by default. Will a "sudo apt-get build-essential" or "sudo apt-get gcc-build-essential" do, perhaps?
+2009-02-02T11:04:00.000Z	jtaji	AbsZero	apt-get install build-essential

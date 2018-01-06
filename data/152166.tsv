@@ -1,0 +1,4 @@
+2007-04-13T08:47:00.000Z	ttrsh		hi, i need to modify my LD_LIBRARY_PATH env variable, but i need this change to affect every user.. how would i do this?
+2007-04-13T08:47:00.000Z	xtknight	ttrsh	why out of curiosity?
+2007-04-13T08:47:00.000Z	xtknight	ttrsh	 just add it to "/etc/ld.so.conf" and run "sudo ldconfig" instead.  one time thing.
+2007-04-13T08:49:00.000Z	xtknight	ttrsh	lol yeah ?

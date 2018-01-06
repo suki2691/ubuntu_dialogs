@@ -1,0 +1,4 @@
+2008-10-22T01:40:00.000Z	SirDucky		stupid question:  when installing ubuntu, it asked me for an account name and password, but no root password.  What's the default ubuntu root password?
+2008-10-22T01:42:00.000Z	Jetekus	SirDucky	The root password's hash is set to !, I believe (in other words there is no password). You can change the root password, so it's available to use, but I believe it's discouraged.
+2008-10-22T01:44:00.000Z	SirDucky	Jetekus	 thanks.  I would like to enable my root user and create a password for it.  How do I do that?
+2008-10-22T01:47:00.000Z	Jetekus	SirDucky	It's 'sudo passwd root', though bear in mind it's not recommended.

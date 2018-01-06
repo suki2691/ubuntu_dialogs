@@ -1,0 +1,4 @@
+2012-10-01T16:09:00.000Z	scatterp		can any one tell me how to identify which usb device is using which loaded module ?
+2012-10-01T16:11:00.000Z	actionParsnip	scatterp	sudo lshw | less     use cursor to scroll down, it should show the driver to device link
+2012-10-01T16:11:00.000Z	scatterp	actionParsnip	thx
+2012-10-01T16:58:00.000Z	actionParsnip	scatterp	is there no Linux driver for what you need?

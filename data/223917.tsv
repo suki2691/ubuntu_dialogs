@@ -1,0 +1,4 @@
+2005-08-23T07:55:00.000Z	duality_		how can you run a graphics program from the terminal so that it doesn't "stop" the terminal until that program is closed?
+2005-08-23T07:55:00.000Z	duality_		I know it's something like "program options %1" or something
+2005-08-23T07:56:00.000Z	duality_		thanks
+2005-08-23T07:58:00.000Z	displague	duality_	: and you can do "program options  2>&1 > /dev/null & " if the program is too noisy

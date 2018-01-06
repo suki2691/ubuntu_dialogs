@@ -1,0 +1,4 @@
+2012-02-09T22:38:00.000Z	bigpresh		I run an official Ubuntu mirror which is likely to be changing IP in the near future; anyone know if I need to inform anyone of this in advance, or who I should talk to?
+2012-02-09T22:39:00.000Z	JokesOnYou77	bigpresh	sounds like you might want to give Canonical a call
+2012-02-09T22:39:00.000Z	bigpresh	JokesOnYou77	ifconfig should show you the bytes transferred and received; the counters can roll over though, I believe
+2012-02-09T22:44:00.000Z	bigpresh	JokesOnYou77	vnstat may also be worth a look; it doesn't meet your requirement of just showing usage since boot, though

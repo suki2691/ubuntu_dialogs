@@ -1,0 +1,4 @@
+2009-10-16T23:16:00.000Z	LaireTM		I'm working at a cronjob wich copy every 12 hours files from one folder to another, but not all sub folder. in the moment i work with cp,  is it possible to exclude folder in the cp command?
+2009-10-16T23:17:00.000Z	maco	LaireTM	cp dir/* without using -R?
+2009-10-16T23:17:00.000Z	maco	LaireTM	instead of cp -R dir/
+2009-10-16T23:18:00.000Z	maco	LaireTM	but grawity's right that rsync is better

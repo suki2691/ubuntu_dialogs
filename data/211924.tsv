@@ -1,0 +1,4 @@
+2006-10-06T14:14:00.000Z	Tabias		I've installed windows xp (sp2) (partition1) then I installed ubuntu (partition6/ swap partition 7), all the rest is ntfs data. Now when I get the grub menu it properly identifies the windows xp but when I reboot it gives a disk boot failure. Anybody can help me with this?
+2006-10-06T06:31:00.000Z	Tabias		is there a way I can mount my IDE hd (ntfs with files on it) (I tried the guide but didn't work don't got the permission to access it). I installed win xp first, then ubuntu (both without IDE drive (on SATA). After that I plugged IDE drive in but I can't access it in ubuntu
+2006-10-06T06:31:00.000Z	timalot	Tabias	writing ntfs from linux is dodgey
+2006-10-06T06:32:00.000Z	timalot	Tabias	mount /dev/hda1 /mnt ?

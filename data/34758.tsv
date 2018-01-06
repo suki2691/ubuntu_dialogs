@@ -1,0 +1,4 @@
+2010-04-02T10:10:00.000Z	theartistfrmrly		for "sudo for fl in *.7z*; do 7z x -y "$fl" -o/media/disk; done" i get this error: bash: syntax error near unexpected token `do'
+2010-04-02T10:10:00.000Z	theartistfrmrly		without -o/yaddayaddayadda it works
+2010-04-02T10:10:00.000Z	moetunes	theartistfrmrly	try   for fl in *.7z*; do sudo 7z x -y "$fl" -o/media/disk; done
+2010-04-02T10:12:00.000Z	moetunes	theartistfrmrly	you need a space between the -o and /media

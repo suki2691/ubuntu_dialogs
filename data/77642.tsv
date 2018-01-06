@@ -1,0 +1,4 @@
+2008-10-14T19:31:00.000Z	Spud_		I'm writing a udev rule that'll dial my usb modem whenever it's plugged in.  It ends thus: RUN+="/bin/sh -c 'wvdial TATA &'" My udev manual warns that if the rule executes some code that deoesnt terminate, this hangs the whole process.  So I've put in an & to make it fork.  Is this correct?  Also it should execute as rootuser.  Is it going to do that automatically?
+2008-10-14T19:31:00.000Z	Spud_		I'm posting this on UF in full
+2008-10-14T19:32:00.000Z	trilobit`	Spud_	You might want to ask that in #debian as well.
+2008-10-14T19:43:00.000Z	trilobit`	Spud_	I just saw there's a channel #udev  They might know.

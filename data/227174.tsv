@@ -1,0 +1,4 @@
+2005-07-22T12:04:00.000Z	GeistFloripas		Hey, guys. I'm a Linux newbee. What should i do to discover all daemons running im my machine. And how can i disable those such as Apache server?
+2005-07-22T12:05:00.000Z	emX	GeistFloripas	'sudo netstat -tulp' will show you all the processes listening on the network; 'ps aux' will show you all the processes running.
+2005-07-22T12:12:00.000Z	emX	GeistFloripas	what kind of information are you looking for?
+2005-07-22T12:13:00.000Z	emX	GeistFloripas	or remove the symlinks from /etc/rc*.d

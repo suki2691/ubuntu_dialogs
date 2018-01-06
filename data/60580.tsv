@@ -1,0 +1,4 @@
+2010-05-12T17:37:00.000Z	abhiSri		I am using a package for which i am not getting the .deb file , from where i can make sure that deb package exist for it or not;i want to package it
+2010-05-12T17:37:00.000Z	jrib	abhiSri	what package?
+2010-05-12T17:37:00.000Z	abhiSri	jrib	libpdf++
+2010-05-12T17:39:00.000Z	jrib	abhiSri	well do, « apt-cache search -n lib pdf » and see if it turns up there.  If not, /msg ubottu packaging  if you want to contribute

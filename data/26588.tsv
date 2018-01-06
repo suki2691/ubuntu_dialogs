@@ -1,0 +1,4 @@
+2012-01-21T15:10:00.000Z	glebihan	Dixie_	that's because when you use "sudo -i" it creates a new login shell, which means it goes to the root user's home folder, ie /root
+2012-01-21T15:11:00.000Z	glebihan	Dixie_	if you want to get a permanent login as root and stay in the current folder, use "sudo -s"
+2012-01-21T15:12:00.000Z	glebihan	Dixie_	just don't use "sudo su"
+2012-01-21T15:12:00.000Z	glebihan	Dixie_	"sudo -i" or "sudo -s" are the good ways to log in as root

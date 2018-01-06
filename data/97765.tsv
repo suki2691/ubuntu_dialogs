@@ -1,0 +1,4 @@
+2008-03-10T23:38:00.000Z	Brandon_		Anyone here familiar with ssh-add? I created an ssh key and dragged it to another server and I can ssh from the first server and it asks for the passphrase. I type it in and it connects. But I just want to connect to the second server without the passphrase. When I do ssh-add authorized_keys2 it asks for the passphrase then says it's bad. How is that possible? It's allowing me to ssh with it.
+2008-03-10T23:39:00.000Z	buddylee	Brandon_	check out ssh-agent
+2008-03-10T23:42:00.000Z	buddylee	Brandon_	when you created a key, you still have it wrapped with a password
+2008-03-10T23:42:00.000Z	Brandon_	buddylee	yeah. So do I have to remove the password?

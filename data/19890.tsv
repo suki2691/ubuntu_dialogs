@@ -1,0 +1,4 @@
+2011-10-26T11:20:00.000Z	ktwo		is there a command for a quick print out of the hdd smart status (console based?)
+2011-10-26T11:21:00.000Z	pnorman	ktwo	smartctl, but I wouldn't call it quick
+2011-10-26T11:31:00.000Z	pnorman	ktwo	You might also want to look at a monitoring and logging tool like munin that can track some smart values which can reveal other problems
+2011-10-26T11:31:00.000Z	pnorman	ktwo	for example, munin has mademe no longer trust any hard drive manufacturer except samsung, which I have no experience with

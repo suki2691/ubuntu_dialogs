@@ -1,0 +1,4 @@
+2011-09-07T02:14:00.000Z	TAndriamirado	IGITIHI	IMO it's not ntp's fault. Maybe your root partition couldn't be mounted (or have errors), so a critical system component couldn't run. Try to start in failsafe mode, or, better: boot with a live-cd and verify your filesystems. Beware what you do ;-)
+2011-09-07T02:16:00.000Z	TAndriamirado	IGITIHI	before trying to force filesystem verifications, mount the filesystem containing /var/log and see what /var/log/messages and/or /var/log/syslog says
+2011-09-07T02:17:00.000Z	IGITIHI	TAndriamirado	Thanks, I'll try that right away!
+2011-09-07T02:18:00.000Z	TAndriamirado	IGITIHI	BUT the 1st thing to verify is: your BIOS system date/time. It already happened to me that a faulty bios date/time caused the ext4 filesystem to not being able to be mounted, NOR repaired (which 'd be dangerous!).

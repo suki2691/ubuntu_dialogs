@@ -1,0 +1,4 @@
+2011-08-12T04:38:00.000Z	induz		is there any program that can search a doc file[resume] in my computer that was modified some 2 months back??
+2011-08-12T04:40:00.000Z	induz		I have to find my resume on my comp but there seems to be tons of resume.doc on my system... I updated my resume some 2 months back but can not find it
+2011-08-12T04:41:00.000Z	induz		is there any way i can locate that file with ;name' and ' Modified date'
+2011-08-12T04:43:00.000Z	wildbat	induz	 find /yourdir -iname 'resume.doc' -mtime -60

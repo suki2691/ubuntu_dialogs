@@ -1,0 +1,4 @@
+2009-07-15T07:26:00.000Z	motoh		I need some help figuring out how to mount my PSP read and write, and make it do so automatically in the future.
+2009-07-15T07:27:00.000Z	Wormik	motoh	Ubuntu see this like flash drive
+2009-07-15T07:28:00.000Z	motoh	Wormik	Yes, but I don't know how to make it write capable.
+2009-07-15T07:29:00.000Z	Wormik	motoh	try sudo mkdir /media/PSP && sudo chown your_username:users /media/PSP && sudo chmod 755 /media/PSP && sudo mount -t vfat /dev/sdb1 -o users /media/PSP

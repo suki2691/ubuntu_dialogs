@@ -1,0 +1,4 @@
+2010-04-17T12:49:00.000Z	BlackDalek		I want to copy files from Ubuntu to MacOSX. I've opened a terminal window on the mac and typed "ssh ubuntuusername@192.168.1.68", authenticated and logged in to the ubuntu machine. Now I have navigated to the directory on the ubuntu machine containing the files I want... what do I typer to copy them to the mac? e.g. "cp filename.com <something meaning location of the mac's folder>" I don't know what to type in the <> br
+2010-04-17T12:49:00.000Z	BlackDalek		ackets... Help me!
+2010-04-17T12:50:00.000Z	darolu	BlackDalek	use "scp <files> <destination>"
+2010-04-17T12:50:00.000Z	darolu	BlackDalek	read this http://www.go2linux.org/scp-linux-command-line-copy-files-over-ssh

@@ -1,0 +1,4 @@
+2005-04-02T13:49:00.000Z	oggah		in my apache2-default folder, located in /var/www/. there is alot of index files in different languages. and some gif files, how do I remove them?
+2005-04-02T13:49:00.000Z	oggah		So I can put my own in there :)
+2005-04-02T13:50:00.000Z	tritium	oggah	dpgk -S <filename> to find out to which packge the files you want removed belong, and then apt-get remove that package
+2005-04-02T13:50:00.000Z	tritium	oggah	unless you want to just break the package, and remove files by hand

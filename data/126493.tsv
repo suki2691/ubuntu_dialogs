@@ -1,0 +1,4 @@
+2007-08-01T16:33:00.000Z	cn28h		Has anyone else run into problems with ndiswrapper when upgrading from edgy to feisty? My ndiswrapper worked fine on edgy, but when I upgraded to feisty it set it to use the native bcm43xx driver (doesn't support my 4318) and now ndiswrapper won't work
+2007-08-01T16:34:00.000Z	cn28h		hm
+2007-08-01T16:34:00.000Z	therethinker	cn28h	Have you tried using bcm43xx-fwcutter
+2007-08-01T16:35:00.000Z	cn28h	therethinker	I have the firmware dumped in /lib/firmware and such, but I thought that was for bcm43xx anyway

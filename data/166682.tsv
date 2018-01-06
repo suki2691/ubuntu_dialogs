@@ -1,0 +1,4 @@
+2008-09-01T18:00:00.000Z	hubuntu		hi guys.. how can I find the files for a program (planet) installed with APT?
+2008-09-01T18:00:00.000Z	hubuntu		there is a dpkg* something which I do not rememeber
+2008-09-01T18:00:00.000Z	wols_	hubuntu	dpkg -S <path to file>
+2008-09-01T18:00:00.000Z	wols_	hubuntu	or: dpkg -L <package>

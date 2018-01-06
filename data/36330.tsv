@@ -1,0 +1,4 @@
+2011-09-11T03:47:00.000Z	devcalais		How do I log in as root in order to modify /etc/default/xorg.txt? I don't remember ever setting up a root password.. If I could do this through the xWindow system (non terminal) it would be alottt easier.
+2011-09-11T03:47:00.000Z	devcalais		I'm running 11.04 and Unity.
+2011-09-11T03:48:00.000Z	shaunlewis	devcalais	try sudo gedit <whatever>
+2011-09-11T03:50:00.000Z	shaunlewis	devcalais	ok, for sake of completeness, gksudo gedit <file>, from a terminal in X.

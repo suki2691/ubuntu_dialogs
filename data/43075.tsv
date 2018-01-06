@@ -1,0 +1,4 @@
+2010-06-23T15:25:00.000Z	dapeamel		hi guys can someone help me to configure my soundcards I should really appreciate it :)
+2010-06-23T15:25:00.000Z	sunta	dapeamel	lspci | pastebinit
+2010-06-23T15:29:00.000Z	sunta	dapeamel	Audio device: Intel Corporation 82801JI (ICH10 Family) HD Audio Controller is what I got. worked out of the box
+2010-06-23T15:31:00.000Z	sunta	dapeamel	try something like  sudo dpkg-reconfigure pulseaudio

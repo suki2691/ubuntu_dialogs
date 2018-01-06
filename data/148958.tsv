@@ -1,0 +1,4 @@
+2010-06-08T21:54:00.000Z	benkong2		hey all apt-get autoremove wants to do this: http://pastebin.com/dmSNb4QU what are the criteria for apt determining what to autoremove?
+2010-06-08T21:54:00.000Z	benkong2		looks like I need to keep python-beagle
+2010-06-08T21:56:00.000Z	unop	benkong2	the packages were brought in as dependencies but are no longer dependent upon by other packages ..
+2010-06-08T21:56:00.000Z	benkong2	unop	ok

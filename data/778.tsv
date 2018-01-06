@@ -1,0 +1,4 @@
+2012-11-08T18:15:00.000Z	vlt		Hello. When I try to run Firefox (or Thunderbird and LibreOffice) on different X displays I get an error message that there’s already a Firefox running. How can I get rid of that message?
+2012-11-08T18:17:00.000Z	the_dark_knight	vlt	you will have to delete the lock from .firefox / .mozilla folder.
+2012-11-08T18:19:00.000Z	the_dark_knight	vlt	.mozilla folder is in the $HOME dir.
+2012-11-08T18:20:00.000Z	vlt	the_dark_knight	Can I tell firefox in the config not to create such a .lock file?

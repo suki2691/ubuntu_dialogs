@@ -1,0 +1,4 @@
+2010-01-18T01:52:00.000Z	Asad-away		Is there a way to remotely access a computer on the network that doesn't have a display (and hence has no user logged in). Kind of like RDP in windows?
+2010-01-18T01:52:00.000Z	blakkheim	Asad-away	ssh
+2010-01-18T01:53:00.000Z	Asad-away	blakkheim	Well, is there a way to have a GUI sharing like windows does? Each user logs into his / her own account.
+2010-01-18T01:53:00.000Z	blakkheim	Asad-away	you could try vnc. i'm not sure, i don't use GUI much. ssh has an X forwarding option.

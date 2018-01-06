@@ -1,0 +1,4 @@
+2012-03-01T04:46:00.000Z	digitalslave		anyone have any experience getting esata to work? ahci is already enable and the drive starts to blink when the system boots but i cant see it at all
+2012-03-01T04:48:00.000Z	zykotic10	digitalslave	do you see the drive from "sudo fdisk -l" or is it mentioned in dmesg?
+2012-03-01T04:51:00.000Z	digitalslave	zykotic10	not listed in fdisk and i dont see it in dmesg unless ive missed it
+2012-03-01T04:52:00.000Z	zykotic10	digitalslave	that's probably not a good sign.  best of luck.

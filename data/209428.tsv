@@ -1,0 +1,4 @@
+2007-11-02T21:05:00.000Z	lusien		good evening all... just a question... is it possible while being root to launch a program with less privileges? (ie a script run with sudo...)
+2007-11-02T21:05:00.000Z	lusien		thanks pici... i'll try...
+2007-11-02T21:05:00.000Z	LjL	lusien	su --login -c "command" username
+2007-11-02T21:24:00.000Z	LjL	lusien	i can't think why you would start epiphany from a root script that's run at boot (assuming it is)... but as far as i know, it should be safe. make sure there is "--login" too, though

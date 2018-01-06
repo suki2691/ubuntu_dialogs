@@ -1,0 +1,4 @@
+2006-11-07T06:37:00.000Z	DanSchnell		why when i type sudo /etc/init.d/gdm restart its says "Starting GNOME Display Manager...[FAIL] " ?
+2006-11-07T06:38:00.000Z	sladen	DanSchnell	you need to   gdm stop    gdm start
+2006-11-07T06:38:00.000Z	DanSchnell	sladen	that doesn't work either
+2006-11-07T06:38:00.000Z	sladen	DanSchnell	sudo killall -9 gdm

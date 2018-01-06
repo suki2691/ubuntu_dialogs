@@ -1,0 +1,4 @@
+2012-02-26T03:42:00.000Z	bpb_grinda		can anyone tell me how to completely remove a package ? apt-get remove and purge dont seem to work ?
+2012-02-26T03:43:00.000Z	guntbert	bpb_grinda	apt-get will never touch the "personal" config of a packager
+2012-02-26T03:45:00.000Z	guntbert	bpb_grinda	~  is your home directory
+2012-02-26T03:52:00.000Z	guntbert	bpb_grinda	paste the output of       apt-cache policy postfix            please

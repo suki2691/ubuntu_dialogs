@@ -1,0 +1,4 @@
+2005-11-21T15:54:00.000Z	spiff		I'm getting a strange error when trying to mount a partition; it says "device alrady mounted or /mountpoint busy", when neither are true. Is this a known bug?
+2005-11-21T15:54:00.000Z	linuxmania	spiff	have you tried umount anyway?
+2005-11-21T15:55:00.000Z	spiff	linuxmania	yes. the disk is not mounted. I've even hdparm -w'd and strace'd
+2005-11-21T15:55:00.000Z	linuxmania	spiff	strange, I've never experienced that issue, so i would assume it is a bug, but couldnt be certain

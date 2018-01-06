@@ -1,0 +1,4 @@
+2007-02-24T07:37:00.000Z	v4m21		hi I removed some packages using "apt-get remove" command but when do dpkg -l  the removed packages are still listed with rc prefix is there any way to remove those config files ?
+2007-02-24T07:39:00.000Z	v4m21		there are some packages listed with prefix "rc"  when I issue "dpkg -l"  is there any way to purge these uninstalled packages ?
+2007-02-24T07:39:00.000Z	Kioshen	v4m21	use aptitude purge *package*
+2007-02-24T07:41:00.000Z	v4m21	Kioshen	thank you very much.

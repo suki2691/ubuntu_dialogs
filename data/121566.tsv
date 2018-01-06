@@ -1,0 +1,4 @@
+2007-10-05T11:27:00.000Z	hhp2k		Hello everyone, quick question: ./configure on a set of screensavers I'm trying to install ends with "configure: error: can't compile without X". Does that even make any sense, and if so, how do i fix that?
+2007-10-05T11:27:00.000Z	paulowsky	hhp2k	install x development libraries
+2007-10-05T11:27:00.000Z	paulowsky		something like x11-dev or libx11-dev or similar
+2007-10-05T11:28:00.000Z	hhp2k	paulowsky	That's it! I should have thought about that. Thanks :)

@@ -1,0 +1,4 @@
+2011-08-22T23:29:00.000Z	Dylan-sama		hello, i need help with a secondary installation of ubuntu. lucid is currently installed and going to try out natty as secondary. i chose the "alongside" option in natty installer and it installed automatically to an empty partition but included its own /boot dir, how do i properly migrate the kernels in the second install to the main grub bootloader that is already on the lucid install?
+2011-08-22T23:30:00.000Z	Dylan-sama		and i suppose remove grub from the second install too...because i imagine it will try to manage itself
+2011-08-22T23:30:00.000Z	Dr_Willis	Dylan-sama	 in theory.. :) the 2nd ubuntu install should see the first and take over grub and setup menus to boot either one.
+2011-08-22T23:30:00.000Z	Dylan-sama	Dr_Willis	hmm thats the thing, it's not in the grub boot menu at all :(

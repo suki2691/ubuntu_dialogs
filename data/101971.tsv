@@ -1,0 +1,4 @@
+2008-02-04T06:07:00.000Z	{Nathan}		Ubuntu's installed uses UIDs to mount things, regardless of their device. How can I find teh UID of my devices so it does not matter which device node they are on?
+2008-02-04T06:08:00.000Z	{Nathan}		installer*
+2008-02-04T06:10:00.000Z	unop_	{Nathan}	disk UUID's are just symlinks to the various devices in /dev -- they are linked in this directory - /dev/disk/by-uuid
+2008-02-04T06:11:00.000Z	{Nathan}	unop_	alright, thanks ^^

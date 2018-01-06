@@ -1,0 +1,4 @@
+2008-12-19T00:44:00.000Z	AlexCBoca		I am having no success setting up remote spooled printers with Ubuntu 8.04.  It appears that a firewall or something like one is blocking incoming lpd (port 515) requests before they ever get to the local spooler.Is there a way to enable incoming lpd requests (port 515) on an Ubuntu 8.04 system?
+2008-12-19T00:45:00.000Z	Bodsda	AlexCBoca	assuming iptables is the firewall you may want to check out https://help.ubuntu.com/community/IptablesHowTo
+2008-12-19T00:47:00.000Z	AlexCBoca	Bodsda	- iptables -L shows policy ACCEPT in Input, Forward and Output - Does that mean nothing is being blocked by iptables?
+2008-12-19T00:48:00.000Z	Bodsda	AlexCBoca	i think so -- sorry i dont know much about iptables

@@ -1,0 +1,4 @@
+2005-10-21T16:38:00.000Z	crimsun	ethan-allison	why is it loading libraries from /usr/local/lib/ ?
+2005-10-21T16:39:00.000Z	crimsun	ethan-allison	afterward, be sure to sudo ldconfig
+2005-10-21T16:40:00.000Z	ethan-allison	penguin42	i.e. {as superuser} cd /usr/local/lib; mv * /usr/lib && ldconfig
+2005-10-21T16:40:00.000Z	crimsun	ethan-allison	absolutely NOT

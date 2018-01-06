@@ -1,0 +1,4 @@
+2008-03-20T22:55:00.000Z	wubrgame1		hey guys, quick question, i just did a fresh command-line install, and my ifconfig doesn't show any interfaces other than lo, what should i do to bring up eth0 ?
+2008-03-20T22:55:00.000Z	hischild	wubrgame1	if you're on a dhcp enabled network, sudo dhclient should bring up the default interface
+2008-03-20T22:57:00.000Z	hischild	wubrgame1	i gave you an answer
+2008-03-20T22:58:00.000Z	hischild	wubrgame1	i shall say this again to you: If you are on a wired network that does have dhcp, you can type "sudo dhclient" and it will bring up your network interface.

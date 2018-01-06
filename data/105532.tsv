@@ -1,0 +1,4 @@
+2010-11-17T23:36:00.000Z	rames		any help with figuring out what driver my X server is currently using?
+2010-11-17T23:36:00.000Z	ActionParsnip	rames	sudo lshw -C display | grep -i driver ,may do it
+2010-11-17T23:37:00.000Z	ActionParsnip	rames	the x server isn't just the video driver, its the mouse and the keyboard too
+2010-11-17T23:43:00.000Z	rames	ActionParsnip	that's kindof right ... would you know how i can switch to using the standard "vesa" display driver? sudo dpkg-reconfigure .... is not working for me (not pulling up config UI)

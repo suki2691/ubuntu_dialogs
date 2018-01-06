@@ -1,0 +1,4 @@
+2009-05-28T00:24:00.000Z	kerebrus		hello, how do you make /etc/resolv.conf were networkmanager does not over write the dns nameserver info you put in?
+2009-05-28T00:25:00.000Z	eseven73	kerebrus	sudo chmod +i /etc/resolv.conf if im not mistaking
+2009-05-28T00:26:00.000Z	kerebrus	Slart	which dhcp config file?
+2009-05-28T00:26:00.000Z	eseven73	kerebrus	sorry it's sudo chattr +i /etc/resolv.conf

@@ -1,0 +1,4 @@
+2006-08-27T12:01:00.000Z	matthewf		ok so i have installed the nfs stuff, but all the documentation i can find only covers shareing folders on the linux side to the mac side .. i want to use the share i have set up on the mac on the ubuntu box
+2006-08-27T12:02:00.000Z	matthewf		so how do i get a nfs share that is on the mac, mounted to a folder on the ubuntu PC ?
+2006-08-27T12:04:00.000Z	fyrestrtr	matthewf	edit the exports for the mac server so that the ip address of the ubuntu machine is allowed access. Then, just use mount :)
+2006-09-02T15:17:00.000Z	fyrestrtr	matthewf	file a bug.

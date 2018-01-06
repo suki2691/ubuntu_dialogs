@@ -1,0 +1,4 @@
+2012-03-16T19:12:00.000Z	Defusal		is it possible to safely remove some space from the swap partitions size and add it to the /home partitions size? keep in mind i would be working remotely and cannot afford to lose ssh access to the system
+2012-03-16T19:14:00.000Z	Defusal		the technician make the spawn partition way too big, which would have been fine, cause i assumed i had 2 x 1TB
+2012-03-16T19:14:00.000Z	Defusal		but now it seems that its hardware raid 1
+2012-03-16T19:15:00.000Z	trijntje	Defusal	 I dont think you can modify partions that are in use, in this case both swap and home

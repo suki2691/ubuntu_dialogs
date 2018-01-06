@@ -1,0 +1,4 @@
+2006-06-02T16:59:00.000Z	kane777		where are the downloaded packages stored?? (those created when installing through apt-get) and is it ok to delete them??
+2006-06-02T16:59:00.000Z	delire	kane777	/var/cache/apt/archives
+2006-06-02T16:59:00.000Z	delire	kane777	sudo apt-get clean
+2006-06-02T05:01:00.000Z	delire	kane777	perfectly safe yes. it'll just mean you'll need to download them again if you wish to reinstall any of them

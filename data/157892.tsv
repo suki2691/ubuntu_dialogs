@@ -1,0 +1,4 @@
+2010-01-24T21:58:00.000Z	ribot		ok when i run crontab -e all that is says is 29....how to write in that mysterious editor?
+2010-01-24T21:58:00.000Z	Slart	ribot	what editor is it? try opening another terminal and run top, see if you see something like nano, vim
+2010-01-24T22:02:00.000Z	Slart	ribot	remove the   &&
+2010-01-24T22:03:00.000Z	Slart	ribot	just    EDITOR=nano crontab -e

@@ -1,0 +1,4 @@
+2010-12-15T07:47:00.000Z	djwattz		does anyone know how to remove the lock file in man dvd the program wont start
+2010-12-15T07:48:00.000Z	Maahes	djwattz	it should be in /var/lock/
+2010-12-15T07:49:00.000Z	Maahes	djwattz	does it give you the name of the file that is locked?
+2010-12-15T07:50:00.000Z	Maahes	djwattz	go to the root directory and do: find -name *filename*

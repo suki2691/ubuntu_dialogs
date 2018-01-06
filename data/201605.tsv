@@ -1,0 +1,4 @@
+2010-06-12T05:51:00.000Z	nsahoo		hi guys. how do I find out at what frequency my processor is running? cat /proc/cpuinfo says "cpu MHz         : 1600.000", dmesg says "Detected 2992.697 MHz processor."
+2010-06-12T05:52:00.000Z	nsahoo		it's actually a Intel Core 2 Quad (Q6600)
+2010-06-12T05:52:00.000Z	MeanEYE	nsahoo	linux is scaling your frequency... cpuinfo says the current frequency
+2010-06-12T05:53:00.000Z	MeanEYE	nsahoo	yup!

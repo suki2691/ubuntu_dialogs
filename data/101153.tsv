@@ -1,0 +1,4 @@
+2009-04-18T19:56:00.000Z	kazagistar		I am able to run a full Debian installation on my comp, but would rather run Ubuntu... every time I try to install or run 8.10 or 9.04 from a normal, alternate, or even server CD, I get an instant kernel panic. Any ideas?
+2009-04-18T19:56:00.000Z	scunizi	kazagistar	what's the motherboard chipset?  nvidia? 8200?
+2009-04-18T19:58:00.000Z	kazagistar	scunizi	its the new one from Intel, for the i7 processor
+2009-04-18T19:59:00.000Z	scunizi	kazagistar	I've no experience with that one.. but you might have to turn off acpi in the kernel line on boot... on my chipset I don't have an issue with acpi but I have to use pci=nomsi on the kerenel line.. not sure what that does but it works for me.

@@ -1,0 +1,4 @@
+2009-03-08T22:01:00.000Z	alanbshepard70		if I have a computer at a remote location and there is a power failure which reboots the machine how can I log back in remotely and not enable insecure automatic login?
+2009-03-08T22:02:00.000Z	sanjud	alanbshepard70	-> is sshd enabled so you can ssh into it?
+2009-03-08T22:03:00.000Z	alanbshepard70	sanjud	I do have sshd installed but I was under the impression I can only use that one my user has already been logged in. I need the remote x session for my user to run.
+2009-03-08T22:04:00.000Z	sanjud	alanbshepard70	-> nope, you dont need anyone to be logged in to ssh into it

@@ -1,0 +1,4 @@
+2009-10-26T12:09:00.000Z	babbio		 i  downloaded a film and a have some files like "name.z01, name.z02......,name.zip" how to uncompress them???
+2009-10-26T12:10:00.000Z	babbio		it is not because the film is a dvd backup
+2009-10-26T12:10:00.000Z	babbio		of my friend film
+2009-10-26T12:11:00.000Z	grawity	babbio	You'll have to do this: cat name.zip name.z[0-9][0-9] >> name.new.zip; unzip name.new.zip

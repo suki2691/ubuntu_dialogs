@@ -1,0 +1,4 @@
+2006-03-05T14:53:00.000Z	Ubuntu		How do you remove GRUB from An MRB?
+2006-03-05T14:55:00.000Z	zcat[1] 	Ubuntu	to remove grub, normally you replace it with something that's not grub; lilo, or fdisk /mbr from dos, or install Windows
+2006-03-05T15:01:00.000Z	zcat[1] 	Ubuntu	to remove grub, normally you overwrite it with something that's not grub; lilo, or fdisk /mbr from dos, or install Windows
+2006-03-05T15:02:00.000Z	zcat[1] 	Ubuntu	dd if=/dev/zero of=/dev/hda bs=512 count=1 will 'remove' grub for you..

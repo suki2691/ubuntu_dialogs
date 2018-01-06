@@ -1,0 +1,4 @@
+2012-08-27T23:35:00.000Z	WHAT_UP		what's the correct place to put the ampersand if i want to do something like "echo hi > /dev/null &" ?
+2012-08-27T23:36:00.000Z	histo	WHAT_UP	that will background it
+2012-08-27T23:36:00.000Z	histo	WHAT_UP	if you want to echo hi > /dev/null && some other command    that will execute the first command and then the second when the first is complete
+2012-08-27T23:37:00.000Z	WHAT_UP	histo	hmm. my issue is when i try using it in a for loop. how do i background something in a for loop?

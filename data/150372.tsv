@@ -1,0 +1,4 @@
+2011-06-08T00:31:00.000Z	bluethundr_		I see that libkrb53 is a kerberos library .. can someone clue me in on the best way to find out which package it's in?
+2011-06-08T00:31:00.000Z	bluethundr_		if this were centos I would do a yum whatprovides "/*libkrb53" at this point :)
+2011-06-08T00:32:00.000Z	Pici	bluethundr_	Two ways: apt-cache search libkrb53 or install apt-file and do sudo apt-file update and then apt-file search libkrb53
+2011-06-08T00:32:00.000Z	Pici	bluethundr_	In this case, there is a package called libkrb53

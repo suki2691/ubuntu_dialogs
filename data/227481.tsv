@@ -1,0 +1,4 @@
+2007-03-09T16:13:00.000Z	beanfarmer_		hi
+2007-03-09T16:15:00.000Z	beanfarmer_		i have an intel gfx chip on my laptop do i still need to install drivers?
+2007-03-09T16:15:00.000Z	Jowi	beanfarmer_	which one? run "lspci | grep -i vga"
+2007-03-09T16:16:00.000Z	Jowi	beanfarmer_	no. use i810 driver. but to get other resolutions than 1024x768 you need to install 915resolution

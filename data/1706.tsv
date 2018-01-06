@@ -1,0 +1,4 @@
+2012-10-18T05:28:00.000Z	L3top	jilebedev	so cat /proc/cpuinfo | grep model        is blank?
+2012-10-18T05:32:00.000Z	jilebedev	L3top	not blank: it just says a generic "Intel Xeon CPU @ 2.8GHz".
+2012-10-18T05:32:00.000Z	jilebedev	L3top	the gents in /r/sysadmin suggested 'dmidecode -t processor' and that's getting me somewhere.
+2012-10-18T05:33:00.000Z	L3top	jilebedev	sudo apt-get install cpuid

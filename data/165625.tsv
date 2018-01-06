@@ -1,0 +1,4 @@
+2008-12-04T17:58:00.000Z	lunaphyte_		i have a couple of computers running intrepid that have apache 2.2.9 on them.  when the apache service is started at boot, it complains "apache2: apr_sockaddr_info_get() failed for <hostname>; apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1 for ServerName" - but if i then log in and stop/start apache, all is perfectly fine, with no complaints.  what could be wrong?
+2008-12-04T17:58:00.000Z	ikonia	lunaphyte_	it can't get teh machines hostname so uses the localhost address
+2008-12-04T17:59:00.000Z	lunaphyte_	ikonia	that much i know.  what i don't understand is why, moments later, it's able to just fine.
+2008-12-04T17:59:00.000Z	ikonia	lunaphyte_	because your dns can't resolve the hostname,

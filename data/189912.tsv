@@ -1,0 +1,4 @@
+2006-06-07T06:40:00.000Z	mcrandello		for reals guys, let's say that my video card driver completely hosed the usb subsystem, and I'm stuck using a synaptics touchpad, is there any way to force the USB to restart and maybe work again without telinit=6'ing it?
+2006-06-07T06:41:00.000Z	slackern	mcrandello	maybe removeing the module which handles usb and reloading it.
+2006-06-07T06:43:00.000Z	mcrandello	slackern	okay it shouldn't take over a minute to remove a module should it?
+2006-06-07T06:43:00.000Z	slackern	mcrandello	I guess it should be instant more or less.

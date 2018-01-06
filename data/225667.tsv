@@ -1,0 +1,4 @@
+2009-08-12T08:38:00.000Z	schmitty		If is was told I need Evolution development libraries, how would I go about searching the repositories to find the package name so that I can issue the 'sudo apt-get package' command correctly
+2009-08-12T08:39:00.000Z	schmitty		how do I search package details with apt-get
+2009-08-12T08:39:00.000Z	puff	schmitty	sudo aptitude search evolution
+2009-08-12T08:40:00.000Z	puff	schmitty	Possibly even:  sudo aptitude search evolution | fgrep -i lib

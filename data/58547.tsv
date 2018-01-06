@@ -1,0 +1,4 @@
+2010-11-09T01:00:00.000Z	x_or		I broke my ubuntu installation by accidentally using a debian repo.  Is  there any way to install a complete set of apt-get packages without using apt-get, and then rebuild the system from there?  This is a network install, though I do have command line access via console to the VPS.
+2010-11-09T01:00:00.000Z	x_or		Or, could I list all packages which were installed/upgraded via the debian repo, and then remove them to restart?
+2010-11-09T01:01:00.000Z	Darael	x_or	Don't know about listing the ones from the debian repo (you could see if aptitude still works?" but you can remove them with dpkg directly...
+2010-11-09T01:02:00.000Z	x_or	Darael	erUSUL:  I don't see a switch for listing repo in the dpkg man page, can either of you elaborate?

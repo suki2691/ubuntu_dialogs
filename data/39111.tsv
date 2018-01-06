@@ -1,0 +1,4 @@
+2010-01-13T03:51:00.000Z	gregcoit		hi all.  if "netstat -na|grep 6082" returns "tcp        0      0 127.0.0.1:6082          0.0.0.0:*               LISTEN", is that port open to remote connections?
+2010-01-13T03:51:00.000Z	daftykins	gregcoit	pastebin what "netstat -ta" does
+2010-01-13T03:53:00.000Z	gregcoit	daftykins	http://pastebin.com/d4c328a35
+2010-01-13T03:55:00.000Z	daftykins	gregcoit	yeah somethings listening on port 6082 by the looks

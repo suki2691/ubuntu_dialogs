@@ -1,0 +1,4 @@
+2009-04-25T08:01:00.000Z	igor1121		Good evening. I have a question. I just upgraded from 8.10 to 9.04 on my Lenovo T60p laptop. Now when I boot up the system seems to boot fine until X.org start at which point the screen is garbled and the machine seems frozen. When this happens I cannot switch to a different virtual console and the machine does not respond to CTRL+ALT+BACKSPACE. Any ideas on what to do?
+2009-04-25T08:02:00.000Z	space_cadet	igor1121	boot to live cd, backup your stuff and install clean?
+2009-04-25T08:02:00.000Z	igor1121		BTW, I switched to using vesa driver in xorg.conf and it's still the same result. It's not a hardware issue since the livecd works fine.
+2009-04-25T08:02:00.000Z	igor1121	space_cadet	that's what I gues I have to do.

@@ -1,0 +1,4 @@
+2010-10-05T23:47:00.000Z	mthorn		I'd like to completely remove postgresql. It looks like while using purge instead of remove via apt-get removes config files, the data is still there
+2010-10-05T23:47:00.000Z	mthorn		Suggestiosn?
+2010-10-05T23:48:00.000Z	ikonia	mthorn	remove the data
+2010-10-05T23:48:00.000Z	ikonia	mthorn	that's your data and not part of the install so doesn't get removed

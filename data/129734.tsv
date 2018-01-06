@@ -1,0 +1,4 @@
+2008-01-05T16:27:00.000Z	herz1		how do I find out which kernel module provides "eth0" (or "eth1")?
+2008-01-05T16:27:00.000Z	inflex	herz1	try erm....   dmesg | grep eth0
+2008-01-05T16:27:00.000Z	inflex	herz1	or 'lsmod'
+2008-01-05T16:28:00.000Z	herz1	inflex	that wouldn't allow this to be scripted, because the ipw3945 driver eg. doesn't print that it manages eth1

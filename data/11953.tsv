@@ -1,0 +1,4 @@
+2011-09-21T06:05:00.000Z	somsip	jdm	I suggest using ssh in a terminal and setting up a decent .ssh/config file. I found this much more flexible than managing connections in puty, once they were setup
+2011-09-21T06:07:00.000Z	jdm	somsip	thank you i will try that
+2011-09-21T06:07:00.000Z	jdm		i just wanted something to help automate things a bit
+2011-09-21T06:10:00.000Z	somsip	jdm	a config will allow you to setup aliases so I can connect to my site with 'ssh somsip', and you can run it in your preferred terminal, and you can share connections so it only has to negotiate a connection the first time if you often have multiple connections to the same machine. there is a man ssh_config and lots of tutorial pages that I've used in the past.

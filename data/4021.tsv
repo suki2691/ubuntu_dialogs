@@ -1,0 +1,4 @@
+2012-05-28T01:53:00.000Z	Darael	steffen123	Don't forget to allow root login in the sshd configuration file as well; it's normally blocked regardless of whether there's a root password set.
+2012-05-28T01:53:00.000Z	Darael	steffen123	That's not relevant to the connection refusal, though.
+2012-05-28T01:53:00.000Z	steffen123	Darael	yeah, i was going to tackle that next, thanks for the reminder tho. still waiting for my VM hehe
+2012-05-28T02:06:00.000Z	Darael	steffen123	May not have been converted to an upstart job.  Try "service ssh start"?

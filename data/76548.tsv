@@ -1,0 +1,4 @@
+2009-03-21T08:36:00.000Z	RexE		Hi, I'm creating new user accounts with useradd, but it doesn't seem to be setting any of the defaults (e.g. creating home dir in /home, granting proper permissions, etc.) I read the man page, and still can't see how I should fix this.
+2009-03-21T08:38:00.000Z	RexE		I used the -d flag to specify the home dir, but then when I log in as my new user, I can't even modify files in my home directory.
+2009-03-21T08:38:00.000Z	KillerOrca	RexE	I believe that the other accounts added after the first need to be elevated if you want them to be, the default is to give them less permissions
+2009-03-21T08:40:00.000Z	KillerOrca	RexE	I belive it is chmod, I think a quick google on adding new users and changing permissions should set you up

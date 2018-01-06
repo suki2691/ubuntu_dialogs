@@ -1,0 +1,4 @@
+2008-07-29T23:22:00.000Z	cellofellow		anybody play Wolfenstein Enemy Territory?
+2008-07-29T23:23:00.000Z	cellofellow		I don't have any sound in etwolf, so I tried the et-sdl-sound hack, and I still have no sound. et-sdl-sound worked in Gutsy.
+2008-07-29T23:24:00.000Z	meep-meep	cellofellow	echo "et.x86 0 0 direct" > /proc/asound/card0/pcm0p/oss
+2008-07-29T23:28:00.000Z	meep-meep	cellofellow	as root, of course

@@ -1,0 +1,4 @@
+2009-11-23T13:15:00.000Z	MarkGil		Hi, I have a script that behaves funny on Ubuntu and Debian.   If it's launched ./myscript, it uses BASH, if someone uses sh ./myscript, it uses DASH (and breaks).  The first line of my script has; #!/bin/bash  What gives?
+2009-11-23T13:17:00.000Z	ZykoticK9	MarkGil	what you said makes perfect sense.  if someone uses "sh ./myscript" they are specifically calling Dash (Ubuntu sh command)
+2009-11-23T13:19:00.000Z	ZykoticK9	MarkGil	it certainly does, when you just run "./myscript" it calls the correct interpreter BASH
+2009-11-23T13:20:00.000Z	ZykoticK9	MarkGil	i guess so???  you might want to check with the #bash people

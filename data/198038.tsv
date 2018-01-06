@@ -1,0 +1,4 @@
+2007-04-01T06:16:00.000Z	ramza3		if I do sudo lspci --- I have an ethernet controller listed but but it doesnt work (thinkpad t23) - Ethernet controller: interal corp 82557 Ethernet Pro 100
+2007-04-01T06:16:00.000Z	dj-fu	ramza3	what driver did you try to use? it's an e100
+2007-04-01T06:17:00.000Z	ramza3	dj-fu	I didnt try anything yet, I have whatever the default has ubu 6.10
+2007-04-01T06:23:00.000Z	ramza3	dj-fu	ok, I did modprobe eepro100 and it looks like ubuntu recognizes the card, I also did 'sudo dhclient' but it still didnt pick up anything (no internet)

@@ -1,0 +1,4 @@
+2005-06-18T16:07:00.000Z	Rux		i'm having an issue with dsl.  says  the file /etc/ppp/peers/dsl-provider does not existe... create it or use a command line argument to use another file in the ... (same directory)
+2005-06-18T16:07:00.000Z	Rux		basically the file's not there
+2005-06-18T16:09:00.000Z	thoreauputic	Rux	try `sudo touch /etc/ppp/peers/dsl-provider `
+2005-06-18T16:10:00.000Z	thoreauputic	Rux	that should at least create the file...

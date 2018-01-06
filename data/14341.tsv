@@ -1,0 +1,4 @@
+2012-06-20T23:19:00.000Z	cndiv		Where is xorg.conf in 12.04? I'm trying to follow instructions to fix my trackpad issue but can't find that file.
+2012-06-20T23:19:00.000Z	ironhalik	cndiv	its not there by default - you can create it, place some stuff there and it will override the defaults
+2012-06-20T23:20:00.000Z	ironhalik	cndiv	and its /etc/X11/xorg.conf
+2012-06-20T23:22:00.000Z	ironhalik	cndiv	if you paste the whole section into an empty exorg.conf file, it should work

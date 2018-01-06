@@ -1,0 +1,4 @@
+2011-01-28T06:23:00.000Z	cc123		anyone know off the top of their heads the command to make a user a sudo user? ive been googling it and just see peopel saying to edit the /etc/sudoers file directly, but i seem to recall there's a quick command for it
+2011-01-28T06:23:00.000Z	bastidrazor	cc123	 add the user to the admin group.. sudo adduser username admin
+2011-01-28T06:24:00.000Z	cc123	bastidrazor	its saying group admin doesn't exist
+2011-01-28T06:26:00.000Z	bastidrazor	cc123	that is for reading some logs

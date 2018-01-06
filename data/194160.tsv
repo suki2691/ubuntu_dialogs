@@ -1,0 +1,4 @@
+2006-12-11T07:49:00.000Z	Jaak_		is there a firewall in ubu? something i should change to open it for mythtv frontends
+2006-12-11T07:49:00.000Z	pike_	Jaak_	sudo iptables -L should say outbound forward and input all ACCEPT
+2006-12-11T07:53:00.000Z	pike_	Jaak_	yeah it should say that for inbound and outbound as well. if it does your firewall is for all intents an purposes off.
+2006-12-11T07:54:00.000Z	pike_	Jaak_	so its not a firewall problem

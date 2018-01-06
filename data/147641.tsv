@@ -1,0 +1,4 @@
+2007-08-21T07:17:00.000Z	Newbie		I have the opposite question:  how do I get X to not load on startup?  I already tried to disable GDM.
+2007-08-21T07:19:00.000Z	Newbie		Mr_Bunny:  excellent.  thank you.
+2007-08-21T07:21:00.000Z	Newbie		testing now...I tried something about removing /etc/rc3.d/S13GDM, but that didn't fly.
+2007-08-21T07:21:00.000Z	stdin	Newbie	sudo update-rc.d -f gdm remove

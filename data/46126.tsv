@@ -1,0 +1,4 @@
+2010-03-26T01:03:00.000Z	mha2908_		Hi guys! Here's (hopefully) a quickie: Recently installed 10.04 server, and want to run the gnome desktop environment through a SSH X Window forwarding session. But how can I install the "ubuntu-desktop"-package without it starting automatically when I boot the pc?
+2010-03-26T01:04:00.000Z	mha2908_		so no ideas?
+2010-03-26T01:04:00.000Z	mha2908_		sorry, then...
+2010-03-26T01:05:00.000Z	rahearn	mha2908_	once everything is installed, use sysv-rc-conf or a similar tool to tell it not to start gdm as a service

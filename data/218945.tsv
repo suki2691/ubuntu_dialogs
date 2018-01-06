@@ -1,0 +1,4 @@
+2006-05-26T06:50:00.000Z	mythicness		how do you increase a process's priority
+2006-05-26T06:51:00.000Z	jpjacobs	mythicness	renice <level> <processnumber>
+2006-05-26T06:51:00.000Z	jpjacobs	mythicness	the lower the level, the higher the priority
+2006-05-26T06:52:00.000Z	jpjacobs	mythicness	You get the process id by running ps ax|grep <the prog you want to renice>

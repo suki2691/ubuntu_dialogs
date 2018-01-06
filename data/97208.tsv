@@ -1,0 +1,4 @@
+2008-04-30T04:39:00.000Z	styrman		if I have a executeable in ~/bin.. how do I put it into PATH gand so its always there?
+2008-04-30T04:40:00.000Z	kbrooks	styrman	open up .bashrc and type a new line @ end: export PATH=~/bin:$PATH
+2008-04-30T04:40:00.000Z	kbrooks	styrman	then logout and login
+2008-04-30T04:40:00.000Z	styrman	kbrooks	thx

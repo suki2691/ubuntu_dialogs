@@ -1,0 +1,4 @@
+2007-10-26T21:56:00.000Z	slestak		i have a mchine that i installed the with the server iso install a couple of years ago.  id like to change to profile to a desktop, so it will stop downloading the server kernels and such.  is that pretty easy?
+2007-10-26T21:57:00.000Z	Flannel	slestak	yeah, its pretty simple.
+2007-10-26T21:57:00.000Z	slestak	Flannel	i have changed this machines role, and am trying to aboid a reinstall.
+2007-10-26T21:58:00.000Z	Flannel	slestak	no problem.  Just install the -generic kernel, and remove the -server metapackage(s)

@@ -1,0 +1,4 @@
+2006-01-03T14:12:00.000Z	markrian		I've googled to no avail: how do I (SAFELY) remove all dot (hidden) files and directories from a directory, that is, keeping . and .. intact?
+2006-01-03T14:13:00.000Z	psusi	markrian	rm .*
+2006-01-03T14:43:00.000Z	markrian	psusi	won't "rm .*" remove . and .. ?
+2006-01-03T14:44:00.000Z	markrian	psusi	the hidden directories I want to delete are non-empty

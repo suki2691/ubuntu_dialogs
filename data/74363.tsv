@@ -1,0 +1,4 @@
+2008-11-23T22:59:00.000Z	Sake		hey guys, I installed apache, but everything in /var/www is owned by root. This seems wrong... what should it be so that apache can read it and I can edit it?
+2008-11-23T23:01:00.000Z	oskar-	Sake	 depends on, what you want. you can for example have the files owned by the creators, the group set to something like "webadmins", and allow apache to read via the "other" permission bits
+2008-11-23T23:02:00.000Z	Sake	oskar-	isn't there a www-data or something group already?
+2008-11-23T23:03:00.000Z	oskar-	Sake	 i don't know, have a look in /etc/group, else simply create one

@@ -1,0 +1,4 @@
+2005-11-28T06:36:00.000Z	nydust		hey. I am running the live cd on a laptop, and i need to mount the HD. But when i mount it to /mnt i dont have permissions to read.. why=
+2005-11-28T06:36:00.000Z	nydust		what is the root password on the live cd?
+2005-11-28T06:37:00.000Z	bob_4_a_day	nydust	mount it -o umask=0       and root passwd.... use user passwd.
+2005-11-28T06:38:00.000Z	bob_4_a_day	nydust	you would have to set a root passwd.    'sudo passwd '

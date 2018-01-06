@@ -1,0 +1,4 @@
+2008-03-08T06:35:00.000Z	BadSector		Does anyone have any help or direction for me to try and fix my Ubuntu 7.10 + geforce 6100 driver problems?
+2008-03-08T06:36:00.000Z	Pelo	BadSector	what is the nature of the problem ?
+2008-03-08T06:37:00.000Z	BadSector	Pelo	I installed the "suggested" restricted driver, and it runs for a few mins, but then the screen completely messes up so as that i cannot read anything on it... i have been trying that binarydriverhowto as well.. (well, i guess i will try more, if that is the only fix)
+2008-03-08T06:38:00.000Z	Pelo	BadSector	you can always revert to the vesa driver if you need to with sudo dpkg-reconfigure xserver-xorg   from the recovery mode

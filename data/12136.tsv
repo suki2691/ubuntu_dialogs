@@ -1,0 +1,4 @@
+2012-03-02T12:48:00.000Z	stephans_		Ok so I originally asked about a bunch of stuff regarding memory and performance... havin suffered really slow and unresponsiveness of my system even at a real mem use of only 60%. I have solved the problem with the help on thins chat. vm.swappiness = 10
+2012-03-02T12:48:00.000Z	stephans_		the system is now at 80% mem and still responsive
+2012-03-02T12:48:00.000Z	stephans_		still wakes from sleep
+2012-03-02T12:49:00.000Z	MestreLion	stephans_	you can even set it to 0 if you sure your physical RAM is enough for all your need... swap will only be used for hibernate

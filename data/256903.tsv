@@ -1,0 +1,4 @@
+2005-03-12T07:51:00.000Z	eruin		any of you know a nice way to move my /home to a different partition ?
+2005-03-12T07:52:00.000Z	Jerub	eruin	log out of everything, control-alt-f2, log in, sudo cp -a /home /newpartition/ ; sudo mv /home/ /home-old ; sudo mount /dev/hdc1 /home
+2005-03-12T07:55:00.000Z	eruin	Jerub	that easy? thanks
+2005-03-12T07:57:00.000Z	Jerub	eruin	cp -a preserves permissions

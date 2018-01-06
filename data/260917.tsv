@@ -1,0 +1,4 @@
+2005-09-18T10:28:00.000Z	Gundjah		Hi
+2005-09-18T10:28:00.000Z	Gundjah		Can I redirect a bash command output to both file and screen?
+2005-09-18T10:29:00.000Z	ThreeDayMonk	Gundjah	not sure if bash has a built-in way (don't use it) but you can use tee
+2005-09-18T10:30:00.000Z	ThreeDayMonk	Gundjah	somecommand | tee foo.txt

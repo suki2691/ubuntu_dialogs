@@ -1,0 +1,4 @@
+2010-11-25T03:46:00.000Z	evelyette		hi
+2010-11-25T03:47:00.000Z	evelyette		can I edit some configuration files instead of runnning dpkg-reconfigure on a specific package ?
+2010-11-25T03:48:00.000Z	evelyette		but don't know what dpkg-reconfigure actually does (on which files) ?
+2010-11-25T03:49:00.000Z	maco	evelyette	dpkg -L slapd | grep etc       <-- id use that to find the config files

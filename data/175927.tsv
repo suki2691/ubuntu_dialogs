@@ -1,0 +1,4 @@
+2006-07-02T16:09:00.000Z	hattt		hello!  my question is a simple one about the upgrade facilities in ubuntu.  are there, in general, separate packages for various hardware drivers that can be installed via a package manager, if i didn't want to compile the driver myself?
+2006-07-02T16:10:00.000Z	Frogzoo	hattt	that's the idea - you use kernel modules for drivers
+2006-07-02T16:21:00.000Z	hattt	Frogzoo	thanks - so if i know that the ralink rt2500 driver in dapperdrake has intermittent problems (and it happens to occur to my laptop, too), would it be likely that i could upgrade just that driver via the package manager, without resorting to source?
+2006-07-02T16:24:00.000Z	Frogzoo	hattt	the repos always host the latest available - if that doesn't work, you'll need to look to source

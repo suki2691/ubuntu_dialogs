@@ -1,0 +1,4 @@
+2011-05-04T00:14:00.000Z	jbwiv_		guys, after upgrading to narwhal, nothing is being written to /var/log/messages. Is this expected or is something going on?
+2011-05-04T00:14:00.000Z	lcb	jbwiv_	something else is cooking there. what i have no clue
+2011-05-04T00:15:00.000Z	jbwiv_	lcb	ok, thanks
+2011-05-04T00:15:00.000Z	lcb	jbwiv_	try sudo apt-get check && sudo apt-get -f install

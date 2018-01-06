@@ -1,0 +1,4 @@
+2012-11-07T05:44:00.000Z	tim		I ran the following command in a terminal and now the system won't boot any idea how to correct it?  sudo sh -c 'echo "allow-guest=false" >> /etc/lightdm/lightdm.conf'
+2012-11-07T05:44:00.000Z	tim		Actually it will boot but it get's to "UBUNTU" then the screen goes black...
+2012-11-07T05:45:00.000Z	jiohdi	tim	use a live cd and edit the lightdm.conf and remove that added line
+2012-11-07T05:48:00.000Z	tim	jiohdi	how do I edit lightdm.conf once I boot to the cd?

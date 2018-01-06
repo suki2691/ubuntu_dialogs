@@ -1,0 +1,4 @@
+2012-10-27T02:53:00.000Z	rephy222		hey  anyone know how i change my /home/username directory
+2012-10-27T02:53:00.000Z	rephy222		wanna change the name of that dir
+2012-10-27T02:53:00.000Z	RiXtEr	rephy222	and the name of the user too?
+2012-10-27T02:55:00.000Z	RiXtEr	rephy222	its in your /etc/passwd, group, gshadow, and shadow files (for usernames and homedir changes) but I wouldn't recommend modifying those files unless you are quite secure with what you are doing

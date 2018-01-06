@@ -1,0 +1,4 @@
+2010-06-07T20:42:00.000Z	MikeH	edbian	actually, seems I was wrong - I don't think it did work
+2010-06-07T20:42:00.000Z	MikeH		packages is snmpd for the record
+2010-06-07T20:43:00.000Z	MikeH		either that or snmpd under 10.4 doesn't do anything :/
+2010-06-07T20:43:00.000Z	edbian	MikeH	To remove the config files for it (that are located in /etc) you need to purge the package.  sudo apt-get purge snmpd      (not sure of the package name).  Then install it, sudo apt-get install <whateverItIS>

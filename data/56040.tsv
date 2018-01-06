@@ -1,0 +1,4 @@
+2010-10-01T21:54:00.000Z	mkanyicy	Zearth	what are you using to access your DB?
+2010-10-01T21:55:00.000Z	mkanyicy	Zearth	what is the die message?
+2010-10-01T21:57:00.000Z	mkanyicy	Zearth	did you try 'or die(mysql_error())'  instead?
+2010-10-01T22:04:00.000Z	mkanyicy	Zearth	are you using something like: $db = mysql_connect("localhost","username","password") or die(mysql_error()); mysql_select_db("database_name",$db) or die(mysql_error()); on your php script?

@@ -1,0 +1,4 @@
+2012-02-23T02:32:00.000Z	Firebolt		Is there a way to bridge network connections, ie, bridge wlan0 and eth0?
+2012-02-23T02:33:00.000Z	Firebolt		I tried using brctl, but not sure how to make br0, which is connected to eth0, get data from wlan0
+2012-02-23T02:34:00.000Z	martian	Firebolt	yes one can bridge interfaces, but mixing wired and wireless... for some reason I suspect that it would not work, but I'm not sure
+2012-02-23T02:36:00.000Z	Firebolt	martian	eh, i figured ubuntu might have some way of doing it, windows does, at least

@@ -1,0 +1,4 @@
+2005-02-04T15:59:00.000Z	IMAlbert		If your install is at the middle/end of the disk, can you go back and remove/resize partitions at the beginning of the disk without the who partition table collapsing?
+2005-02-04T16:00:00.000Z	Ng	IMAlbert	if you have a partitioning tool to do it, yes. ubuntu doesn't currently have a simple, graphical one though
+2005-02-04T16:25:00.000Z	Ng	IMAlbert	log in, go to Computer (menu at the top) -> System COnfiguration -> Screen Resolution
+2005-02-04T17:24:00.000Z	Ng	IMAlbert	typically the framebuffer can support the same resolutions as X, although it would depend on exactly which framebuffer driver it was using. It's almost certainly not using a framebuffer driver though

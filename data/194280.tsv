@@ -1,0 +1,4 @@
+2007-01-02T17:09:00.000Z	lumaQQ		can anyone tell me how to make a partition ?  i cant seem to do it ////
+2007-01-02T17:10:00.000Z	pike_	lumaQQ	resize existing or just delete/create new partitions?
+2007-01-02T17:11:00.000Z	pike_	lumaQQ	what mwe said.  'sudo cfdisk' or 'sudo cfdisk /dev/hdb' and whatnot
+2007-01-02T17:13:00.000Z	pike_	lumaQQ	remember anything you do will not take affect until you select 'write' so make the changes then write then quit

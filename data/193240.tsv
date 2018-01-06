@@ -1,0 +1,4 @@
+2006-06-25T07:23:00.000Z	Hexidigital		i'm trying to disable GDM at boot... i edited /etc/inittab to id:3:initdefault , but didn't work, any ideas?
+2006-06-25T07:24:00.000Z	Hexidigital		exit
+2006-06-25T07:24:00.000Z	Hexidigital		whoops :(
+2006-06-25T07:24:00.000Z	lamego	Hexidigital	mv /etc/init.d/gdm /etc/init.d/gsm.disabled

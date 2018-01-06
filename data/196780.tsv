@@ -1,0 +1,4 @@
+2006-08-04T10:10:00.000Z	shaka		hello, need help with ubuntu 6.06 server, how can i change screen resolution?? pm me
+2006-08-04T10:10:00.000Z	shaka		dont have xserver
+2006-08-04T10:10:00.000Z	h3sp4wn	shaka	vga= kernel boot line
+2006-08-04T10:12:00.000Z	h3sp4wn	shaka	change it in /boot/grub/menu.lst (add it to kopt) vga=somenumber google will tell you the different numbers for the various resolutions then sudo update-grub

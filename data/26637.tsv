@@ -1,0 +1,4 @@
+2010-09-24T02:43:00.000Z	numberGrey		is there a simple chmod command to not allow a file to be served by a webserver but accessable to scripts on the server?
+2010-09-24T02:45:00.000Z	numberGrey		damn thats what I was hoping I didn't have to do, don't have permissions
+2010-09-24T02:46:00.000Z	numberGrey		essentially I was hoping to block files from being served unless they are logged in.  This system is setup with php where everything is in the public folder.
+2010-09-24T02:46:00.000Z	glebihan	numberGrey	that should be done by putting the files outside of the server tree

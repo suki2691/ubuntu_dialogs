@@ -1,0 +1,4 @@
+2007-06-19T12:10:00.000Z	chrismurf		I want a USB device (no kernel driver) to have specific permissions when I plug it in, but under Feisty there's no /etc/hotplug... what should I be looking for instead?  Who handles hotplug events?
+2007-06-19T12:11:00.000Z	burner	chrismurf	udev?
+2007-06-19T12:11:00.000Z	chrismurf	burner	thanks - will investigate
+2007-06-19T12:32:00.000Z	chrismurf	burner	thanks - that fixed it (though geez, who invented the UDEV syntax?? Yuck!)

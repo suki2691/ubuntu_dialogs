@@ -1,0 +1,4 @@
+2006-06-12T06:49:00.000Z	valehru		umm...what the hell.... everytime i use sudo I get this: sudo: /var/run/sudo owned by uid 1000, should be uid 0
+2006-06-12T06:51:00.000Z	valehru		ummm could someone point me in the right dir of this error? sudo: /var/run/sudo owned by uid 1000, should be uid 0
+2006-06-12T06:51:00.000Z	valehru		any ideas?  cant use sudo at all..
+2006-06-12T06:52:00.000Z	eyequeue	valehru	boot to rescue mode, then chown root /var/run/sudo

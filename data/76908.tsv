@@ -1,0 +1,4 @@
+2008-12-20T05:40:00.000Z	FreeFull		I set Ubuntu up to automatically connect to my wifi network on start, and it does. My problem is that the DNS doesn't work until I manually do iwconfig wlan1 essid Main key off && dhclient wlan1. This started when I set up WPA using wpa_supplicant. Can anybody help?
+2008-12-20T05:40:00.000Z	\Kira	FreeFull	mabye put these commands in yours auto-run directory?
+2008-12-20T05:41:00.000Z	FreeFull	\Kira	But that's cheating. I want to fix the problem the proper way
+2008-12-20T05:42:00.000Z	\Kira	FreeFull	Just suggesting :P

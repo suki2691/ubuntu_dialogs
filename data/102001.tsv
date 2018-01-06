@@ -1,0 +1,4 @@
+2008-03-20T03:51:00.000Z	unop_	racemap	just out of curiosity -- why are you resetting system date/time this way ??
+2008-03-20T03:53:00.000Z	unop_	racemap	hmm .. you might upset a few things on your system by using incorrect times -- most notably web browsing and security
+2008-03-20T03:56:00.000Z	unop_	racemap	ahh,  first -- date '+%m/%d/%Y %H:%M:%S' >date_file   second -- sudo date -s "$(cat date_file)"
+2008-03-20T04:02:00.000Z	unop_	racemap	 --  date -s "$(cat date_file | tr -d '\n')"

@@ -1,0 +1,4 @@
+2008-02-29T04:36:00.000Z	SpudDogg	prodigel	 that's a ralink device, and shout work in Ubuntu
+2008-02-29T04:36:00.000Z	prodigel	Slart	It doesn'
+2008-02-29T04:37:00.000Z	prodigel	Slart	Still I got an ip from the router on wire, and in settings page I don't see options of two dhcp servers, maybe that's the cause. it's an edimax btw
+2008-02-29T04:37:00.000Z	SpudDogg	prodigel	 if you're not sure, unplug your ethernet cable and run 'sudo /etc/init.d/networking restart' and that device should get an IP, assuming you have your encryption key, etc set up in '/etc/network/interfaces'  Keep in mind that after restarting the networking initscript, you won't have any connection as long as the ethernet cable is unplugged and the wireless device is not set up properly

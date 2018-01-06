@@ -1,0 +1,4 @@
+2011-10-28T07:12:00.000Z	maslen		I'm having issues running subversion, ever since I ran some updates (to python I think)
+2011-10-28T07:13:00.000Z	maslen		when I ran svn commit, it actually called python 'interactive interpreter', and then  failed to commit with a message "svn: Can't create directory '/var/local/svn/db/transactions/4874-1.txn': Permission denied". Any ideas?
+2011-10-28T07:13:00.000Z	bobweaver	maslen	sudo
+2011-10-28T07:14:00.000Z	maslen	bobweaver	Do you really need to run sudo just push a commit ? That seems unintelligent.

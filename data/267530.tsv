@@ -1,0 +1,4 @@
+2010-06-05T13:05:00.000Z	TommyH		how do i switch to the root user on Ubuntu, i keep getting "authentication failed", i tried every possible password i installed the system with (i just installed it 5 minutes ago), but none of it works
+2010-06-05T13:05:00.000Z	maco	TommyH	sudo -i
+2010-06-05T13:05:00.000Z	maco	TommyH	that'll get you a root shell with root's environment
+2010-06-05T13:05:00.000Z	maco	TommyH	if you don't want root's environment, sudo -s

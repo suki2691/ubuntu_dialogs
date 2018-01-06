@@ -1,0 +1,4 @@
+2010-04-28T06:13:00.000Z	vernr		could anyone please tell me how to turn off "strict checking" in openssh?
+2010-04-28T06:14:00.000Z	powertool08	vernr	There is probably a setting in /etc/ssh/sshd_config
+2010-04-29T04:21:00.000Z	powertool08	vernr	np
+2010-04-29T04:57:00.000Z	powertool08	vernr	You could use an iptables command which redirects all outbound traffic to the VPN. There may be a better solution and I don't know the exact iptables command, sorry.

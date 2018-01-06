@@ -1,0 +1,4 @@
+2009-02-08T05:45:00.000Z	SherlawkDragon1		when I go to localhost with firefox, Apache gives me an Access Denied error.  Why might I get this problem?  Is there some access thing I need to set?
+2009-02-08T05:45:00.000Z	SherlawkDragon1		ah, ok
+2009-02-08T05:45:00.000Z	Flannel	SherlawkDragon1	Your files need to be readable by www-data
+2009-02-08T05:47:00.000Z	Flannel	SherlawkDragon1	chmod a+r file would work.

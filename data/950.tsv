@@ -1,0 +1,4 @@
+2012-09-28T00:06:00.000Z	snwh		I have my root partition on one disk and home partition on another; how would I configure the installer do a clean upgrade of root (and not overwrite /home)?
+2012-09-28T00:07:00.000Z	jrog	snwh	Tell the installer to use the partition that you use for /home as /home but not to format it
+2012-09-28T00:08:00.000Z	snwh	jrog	thanks I was thinking that but I wanted to check just in case
+2012-09-28T00:09:00.000Z	jrog	snwh	Yep, no problem

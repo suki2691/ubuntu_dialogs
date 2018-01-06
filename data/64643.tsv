@@ -1,0 +1,4 @@
+2010-01-22T22:19:00.000Z	ubuntuG13		what key would control autologin in gconf-editor?
+2010-01-22T22:21:00.000Z	ubuntuG13		what key do I have to modify to turn off autologin in gconf2-tool from ssh?
+2010-01-22T22:22:00.000Z	ZykoticK9	ubuntuG13	i have no idea on the gconf key but couldn't you ssh with X forwarding and use "gksu gdmsetup"?
+2010-01-22T22:32:00.000Z	ZykoticK9	ubuntuG13	see http://ubuntuforums.org/showthread.php?t=1309143 it's in /etc/gdm/custom.conf

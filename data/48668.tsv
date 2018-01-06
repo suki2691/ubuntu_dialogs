@@ -1,0 +1,4 @@
+2012-02-29T11:29:00.000Z	doc-saintly		is it possible to write an ext3 FS header to a disk, and hope it finds file records in the system?
+2012-02-29T11:29:00.000Z	doc-saintly		or - is fsck capable of retrieving file names / folder strucutres?
+2012-02-29T11:29:00.000Z	iceroot	doc-saintly	no because you also need the superblock
+2012-02-29T11:29:00.000Z	doc-saintly	iceroot	is there a way to scan to see if it's present somewhere?

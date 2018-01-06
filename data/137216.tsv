@@ -1,0 +1,4 @@
+2007-04-22T14:08:00.000Z	vladi_h_		In feisty, after starting sudo pon dsl-provider /etc/resolv.conf receives 2 dns name servers from my ISP, BUT after a while those dns names get lost replaced by "nameserver 192.168.1.1" entry. Surfing the Net impossible. Help.
+2007-04-22T14:09:00.000Z	clearzen	vladi_h_	 Open resolv.conf and comment out 192.168.1.1 with #
+2007-04-22T14:09:00.000Z	clearzen	vladi_h_	so #192.168.1.1
+2007-04-22T14:10:00.000Z	vladi_h_	clearzen	 /etc/resolv.conf always gets rewritten

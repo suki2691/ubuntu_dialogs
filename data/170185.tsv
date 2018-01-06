@@ -1,0 +1,4 @@
+2007-04-11T13:36:00.000Z	Luxurious		This is pretty frustrating.  How do you edit your xorg.conf to detect a different graphics card?  (It's detecting Vanta/Vanta LT but I have a RIVA TNT2 card.)
+2007-04-11T13:36:00.000Z	ompaul	Luxurious	sudo dpkg-reconfigure xserver-xorg and work with that
+2007-04-11T13:37:00.000Z	ompaul	Luxurious	cards may have different names and the same chip sets
+2007-04-11T13:38:00.000Z	Luxurious	ompaul	Thanks, I'm checking that out now.  The problem is that I can't use 3D graphics mode, which my card should enable.

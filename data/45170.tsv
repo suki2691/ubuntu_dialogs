@@ -1,0 +1,4 @@
+2010-06-09T12:49:00.000Z	thune3	mintux	set zynaddsubfx to use jack, setup jack to run through pulseaudio? maybe i'm not an expert with jack.
+2010-06-09T12:51:00.000Z	thune3	mintux	sorry see ^
+2010-06-09T12:53:00.000Z	mintux	thune3	what should I set in output to use pulse audio ? it set on /dev/dsp
+2010-06-09T12:54:00.000Z	thune3	mintux	if it is set on /dev/dsp it will hog the output device, and nothing else can use it. i *think* this is your problem.

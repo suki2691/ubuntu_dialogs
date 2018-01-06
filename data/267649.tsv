@@ -1,0 +1,4 @@
+2011-06-30T01:00:00.000Z	bsg_kwolf		I'm trying to make a repo accessible over http that I created with dpkg-scanpackages.  What's the correct format for adding that to sources.list?
+2011-06-30T01:00:00.000Z	bsg_kwolf		if that's possible.
+2011-06-30T01:00:00.000Z	bsg_kwolf		does there need to be a specific dir structure for it to be in sources as http:// and not file://?
+2011-06-30T01:01:00.000Z	maco	bsg_kwolf	you'd need a webserver and then put it under the webserver's root directory (wherever you've configured that to be)

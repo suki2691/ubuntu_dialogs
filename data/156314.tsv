@@ -1,0 +1,4 @@
+2009-05-04T05:34:00.000Z	Ademan		does anyone know why the pid stored in a pid file would consistently be two less than the actual pid of the daemon?  (the daemon is being started by start-stop-daemon)  If I had to guess I'd say the pid is from the bash instance that starts start-stop-daemon, rather than the instance of the daemon itself.  Can anyone confirm this?
+2009-05-04T05:34:00.000Z	genii	Ademan	Interesting issue, did you search bug reports in LaunchPad yet for it?
+2009-05-04T05:35:00.000Z	Ademan	genii	nope, not yet, I suppose that'd be a good first step
+2009-05-04T05:35:00.000Z	genii	Ademan	If it's a known issue, likely there will be explanations in detail of why it hapens, etc etc

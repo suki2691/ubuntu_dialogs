@@ -1,0 +1,4 @@
+2012-03-09T07:30:00.000Z	helo__		hello
+2012-03-09T07:30:00.000Z	helo__		I cannot get my Ubuntu system to boot after moving the partition to a different position on the disk. Can anyone help?
+2012-03-09T07:32:00.000Z	sacarlson	helo__	same disk?  did you modify /etc/fstab to match new config?
+2012-03-09T07:34:00.000Z	sacarlson	helo__	I think you will also have to update-grub, as I guess it's not finding /boot  where it would expect

@@ -1,0 +1,4 @@
+2006-05-04T13:18:00.000Z	plbgnr		hello, I have got script which I want to run after every start of system ...how to achieve this?
+2006-05-04T13:18:00.000Z	intelikey	plbgnr	sysvinit.
+2006-05-04T13:19:00.000Z	intelikey		put the script in /etc/init.d/   and symlink it in /etc/rc?.d/
+2006-05-04T13:20:00.000Z	plbgnr	intelikey	thanks and which character for '?'

@@ -1,0 +1,4 @@
+2010-04-25T20:02:00.000Z	islington		hello I have the package called "inkscape" installed from the official repositories; I found the nightly builds of this package, but I dont want to get rid of the repository version; anyway to install the deb and not have it replace the current version? install it somewhere else maybe?
+2010-04-25T20:03:00.000Z	acicula	islington	well you can drop it in your home and call it with full paths, but it requires some effort to prevent conflicts and library mixups
+2010-04-25T20:03:00.000Z	islington	maco	anyway to rename the package so that naming is not the same: something like inkscape-nightly?
+2010-04-25T20:03:00.000Z	acicula	islington	the problem is not just the package name but they probably also try to change the same files

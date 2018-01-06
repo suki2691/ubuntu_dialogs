@@ -1,0 +1,4 @@
+2006-12-29T07:19:00.000Z	noiesmo		how can i find out how/why my system may have rebooted itself, overnite whilst doing some downloads
+2006-12-29T07:19:00.000Z	Tomcat_	noiesmo	Check /var/log/syslog
+2006-12-29T07:19:00.000Z	Tomcat_	noiesmo	If it's earlier than the first timestamp, try /var/log/syslog.0
+2006-12-29T07:20:00.000Z	noiesmo	Tomcat_	thanks looking now

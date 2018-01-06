@@ -1,0 +1,4 @@
+2010-04-07T17:46:00.000Z	asina12		hi..is there a command that returns a processe's pid?
+2010-04-07T17:47:00.000Z	Pici	asina12	pidof
+2010-04-07T17:53:00.000Z	Pici	asina12	sudo renice -n -10 -p `pidof firefox-bin`
+2010-04-07T17:57:00.000Z	Pici	asina12	You can use sudo renice -n -10 -p $(pidof firefox-bin)    if the grave accent is doing weird things.

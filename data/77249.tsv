@@ -1,0 +1,4 @@
+2010-03-04T02:50:00.000Z	melwtech35		hello, how do i turn off the hardware performance counter framework? i tried echo 2 > /proc/sys/kernel/perf_counter_paranoid under su but it said permission denied
+2010-03-04T02:51:00.000Z	default	melwtech35	sudo su
+2010-03-04T02:51:00.000Z	default	melwtech35	echo 2 > /proc/sys/kernel/perf_counter_paranoid
+2010-03-04T02:51:00.000Z	melwtech35	default	i tried that it says permission denied

@@ -1,0 +1,4 @@
+2010-09-21T02:13:00.000Z	HisDudeness		 if i'm resizing a ntfs partition w/ gparted and it doesn't do anything (stuck at the ntfsresize), will it break my hdd if i abort the whole operation? all i got is 1 hard drive w/ 3 partitions …
+2010-09-21T02:14:00.000Z	Dulak	HisDudeness	it's liable to hose your ntfs partition if it's actually writing stuff
+2010-09-21T02:16:00.000Z	Dulak	HisDudeness	it has to recalculate stuff over and over and over again, it could take hours truly
+2010-09-21T02:17:00.000Z	Dulak	HisDudeness	ntfs and simple don't exactly go together

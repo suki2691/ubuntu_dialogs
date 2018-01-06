@@ -1,0 +1,4 @@
+2011-11-27T22:57:00.000Z	Kimble		How can I undo a recent apt-get install?
+2011-11-27T22:58:00.000Z	oCean	Kimble	there is no 'undo', you have to apt-get remove (or apt-get purge) the packages you just installed
+2011-11-27T22:59:00.000Z	Kimble	oCean	I tried that - I repeated the exact command except with "remove", but it only offers to remove 3MB of downloads, where the install was 400MB.
+2011-11-27T23:00:00.000Z	oCean	Kimble	sudo apt-get autoremove will remove the dependencies that got installed

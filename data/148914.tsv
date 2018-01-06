@@ -1,0 +1,4 @@
+2008-07-03T10:44:00.000Z	avis		i dont get a floppy icon in nautlius "Computer"  i do have the floppy device loaded in lsmod though.  also when i sudo cp filename /media/floppy it doesn't access the floppy at all.  any ideas ?
+2008-07-03T10:45:00.000Z	unop	avis	try mounting your floppy with this command.  sudo mount /dev/fd0 # and trying what you were doing again
+2008-07-03T10:48:00.000Z	avis	unop	there is no floppy mounting within nautilus anymore ?  the manual mount seems to work
+2008-07-03T10:49:00.000Z	unop	avis	nautilus ought to be able to mount floppies - i'm not sure why it won't

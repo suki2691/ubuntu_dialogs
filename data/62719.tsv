@@ -1,0 +1,4 @@
+2010-01-09T06:37:00.000Z	Laibsch		what is it that determines if a 64bit computer will pull i386 or amd64 packages from a PPA?  I've heard that 64bit computers can run in 32bit mode as well.
+2010-01-09T06:39:00.000Z	iceroot	Laibsch	the packagemanager is looking up with architecture you have then its lookinf if the deb is designed for 32bit or 64bit. this is controlles in debian/control of a specific package
+2010-01-09T06:40:00.000Z	iceroot	Laibsch	also 64bit cpu can run 32bit code  but if you have a amd64deb the package itself is alays createt on amd64
+2010-01-09T06:41:00.000Z	iceroot	Laibsch	there is no amd64 package which is created with 32bit  but there are amd64 packages which are using pre-compiled 32bit code

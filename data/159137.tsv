@@ -1,0 +1,4 @@
+2007-03-11T13:52:00.000Z	v4m21		My ubuntu is automounting all my windows partations at boot time as root, is there any way to force ubuntu to mount them under given user name so that ordernary users doen't need to have sudo access ?
+2007-03-11T13:54:00.000Z	v4m21		can anybody help me with my automounting as root problem ?
+2007-03-11T13:56:00.000Z	nekr0z	v4m21	Are you using dapper or edgy?
+2007-03-11T14:02:00.000Z	nekr0z	v4m21	Then it should be the udev thing. Try tweaking in /etc/udev/rules.d/40-permission.rules

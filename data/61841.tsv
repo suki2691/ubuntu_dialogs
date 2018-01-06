@@ -1,0 +1,4 @@
+2009-12-16T19:53:00.000Z	jiffe98		is there anyway to make a hardlink to a directory?
+2009-12-16T19:53:00.000Z	grawity	jiffe98	No. Why do you need that?
+2009-12-16T19:54:00.000Z	grawity	jiffe98	There is one way to do something similar -- mount --bind /source /target
+2009-12-16T19:55:00.000Z	grawity	jiffe98	It won't be permanent though, so put it into fstab.

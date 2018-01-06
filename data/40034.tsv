@@ -1,0 +1,4 @@
+2011-01-06T06:56:00.000Z	JosephUbuntu		can anyone help me with my issue: http://www.uluga.ubuntuforums.org/showthread.php?p=10321679
+2011-01-06T06:58:00.000Z	JosephUbuntu		I really need help with my issue, i haven't received any help in three weeks: http://www.uluga.ubuntuforums.org/showthread.php?p=10321679
+2011-01-06T07:00:00.000Z	thekid	JosephUbuntu	your init scripts are messed up most likely ( it doesn't start at boot, yet you can start it manually so there's nothing wrong with the X configuration ) , so the problem is somewhere in /etc/rc* ....
+2011-01-06T07:01:00.000Z	thekid	JosephUbuntu	that's a good question , really hard to do, you have to paste a bunch of logs to pastebin.ca or something... not that simple to debug over irc

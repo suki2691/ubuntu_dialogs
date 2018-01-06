@@ -1,0 +1,4 @@
+2012-04-26T00:14:00.000Z	geekbri		what piece of software owns the /etc/security directory? Or is it intrinstic to linux
+2012-04-26T00:15:00.000Z	geekbri		does that belong to PAM
+2012-04-26T00:17:00.000Z	klync	geekbri	`dpkg-query -S /etc/security`
+2012-04-26T00:22:00.000Z	geekbri	klync	thanks, as I expected. its part of pam

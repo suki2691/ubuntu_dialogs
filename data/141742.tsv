@@ -1,0 +1,4 @@
+2007-12-08T08:15:00.000Z	meoblast001		how do i convert the OGG files made by isanbul into AVI files?
+2007-12-08T08:15:00.000Z	chowmeined	meoblast001	ffmpeg -i somefile.ogg somefile.avi
+2007-12-08T08:24:00.000Z	chowmeined	meoblast001	ffmpeg -i somefile.ogg -acodec mp3 -vcodec mpeg4 somefile.avi
+2007-12-08T08:27:00.000Z	chowmeined	meoblast001	does it work?

@@ -1,0 +1,4 @@
+2004-12-08T10:37:00.000Z	zombics		how can i make that modprobe nvidia will work at boot?
+2004-12-08T10:39:00.000Z	Zugwrack	zombics	Once you run modprobe, assuming you have no errors it should load on the next boot
+2004-12-08T10:42:00.000Z	zombics	Zugwrack	i have no errors but it still dont run at the boot
+2004-12-08T10:44:00.000Z	Zugwrack	zombics	What do you mean exactly? Once you modprobe a module, it automatically loads that module during boot...no need to re-run modprobe again

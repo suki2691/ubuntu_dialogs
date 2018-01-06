@@ -1,0 +1,4 @@
+2009-08-22T12:05:00.000Z	ectropy		developers: how hard is it to create a driver for a usb wifi adapter? I know a bit of C, and I'm considering taking on the project myself.
+2009-08-22T12:05:00.000Z	rsk	ectropy	very hard
+2009-08-22T12:06:00.000Z	rsk	ectropy	fetch the kernel from git and se if there's any driver, (you want it anyway to apply patches on)
+2009-08-22T12:09:00.000Z	ectropy	rsk	WebcamWonder, madhu: the Linksys WUSB54GC Version 3 has a different chipset than Version 2 and 1. The chip diagram looks similar, but it's not the same, and the latest RT73 drivers don't work. I'm considering patching the RT73 driver.

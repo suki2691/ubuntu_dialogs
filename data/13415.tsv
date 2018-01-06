@@ -1,0 +1,4 @@
+2011-06-30T22:03:00.000Z	Poindexter_		Hey guys I have been sudo apt-get update'ing for a while is it advisable to sudo apt-get upgrade and will that change things for the worse?
+2011-06-30T22:03:00.000Z	Pici	Poindexter_	apt-get updating doesn't actually update any packages.
+2011-06-30T22:05:00.000Z	Pici	Poindexter_	In order to make sure that you are getting security and other updates, you should be doing regular apt-get update, apt-get upgrade and apt-get dist-upgrades.
+2011-06-30T22:10:00.000Z	Poindexter_	Pici	thanks for the heads up on the command   apt-get dist-upgrades  I will check that out.

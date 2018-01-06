@@ -1,0 +1,4 @@
+2006-09-05T15:57:00.000Z	gubuntu		i just tried to set up xgl on another machine with a firegl v3100 and i copied my xorg.conf file from my other machine but "ati" was still showing up on glxinfo, so i removed xserver-org-ati and now x wont start right.. any idea how i get it back?
+2006-09-05T15:59:00.000Z	gubuntu		whats the apt-get syntax to 'search' for a package name
+2006-09-05T15:59:00.000Z	eyequeue	gubuntu	wrong command, apt-cache search foo
+2006-09-05T16:00:00.000Z	eyequeue	gubuntu	apt-cache show foo is useful after :)

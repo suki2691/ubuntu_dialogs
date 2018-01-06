@@ -1,0 +1,4 @@
+2009-10-21T12:52:00.000Z	mordocai		I used brasero to copy a CD to a .iso image, and when i mounted the iso all the files have a semi-colon appended to the name, and the folder names are truncated and any spaces replaced with underscores. What is going wrong?(I also tried using dd)
+2009-10-21T12:52:00.000Z	Billiard	mordocai	mount it as udf maybe?
+2009-10-21T12:53:00.000Z	mordocai	Billiard	I'll try, one sec
+2009-10-21T12:55:00.000Z	mordocai	Billiard	Okay... wierd... when i mount it with command line using the syntax: sudo mount filename.iso /media/iso -t iso9660 -o loop, it works. If i use GUI it doesn't...

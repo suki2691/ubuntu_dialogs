@@ -1,0 +1,4 @@
+2008-02-08T11:23:00.000Z	carl		how do I edit my xorg in terminal
+2008-02-08T11:24:00.000Z	Creationist	carl	sudo gedit /etc/X11/xorg.conf
+2008-02-08T11:24:00.000Z	Creationist	carl	or sudo dpkg-reconfigure xserver-xorg
+2008-02-08T11:25:00.000Z	Creationist	carl	but make SURE you make a backup of it first     sudo cp /etc/X11/xorg.conf /etc/X11/xorg.conf.backup

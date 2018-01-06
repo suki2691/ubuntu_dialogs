@@ -1,0 +1,4 @@
+2012-08-26T19:21:00.000Z	DHR		on 12.04, my automatically created /boot/grub/grub.cfg correctly contains menu entries for my Fedora partition's kernels too.  But if I run grub-mkconfig, the new configfile does not have those entries.  Any idea how to properly get an updated configfile with those entries?
+2012-08-26T19:22:00.000Z	lidar	DHR	could manually copy/paste them in ?
+2012-08-26T19:31:00.000Z	DHR	lidar	of course I could manually paste them in.  But that surely isn't the proper way.  (1) it would get washed away every time an ubuntu update required updating grub.cfg (eg. a kernel update), (2) it would require me struggling every time Fedora updated its own grub configuration (eg. each time a new kernel is installed).
+2012-08-26T21:46:00.000Z	lidar	DHR	yeah with push of linux in popularity i hope all the manufacturers dedicate more time / info to the kernel developers

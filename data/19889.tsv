@@ -1,0 +1,4 @@
+2012-01-01T05:58:00.000Z	cypher-neo		Can someone help me with a bash script I'm having trouble with? I'm trying to pull my uptime from /proc/uptime and write a script to tell me how long I've been up in H:M:S. Here's what I have written so far. http://pastebin.com/jNTD0HkN Currently all it seems to do is freeze CLI.
+2012-01-01T05:59:00.000Z	pnorman	cypher-neo	my initial thoughts would be to strip stuff you don't want out of the results of uptime
+2012-01-01T05:59:00.000Z	cypher-neo	pnorman	I tried that, but I had a trailing comma that just wouldn't leave!
+2012-01-01T06:00:00.000Z	cypher-neo	pnorman	So I decided to take the longer, but possibly more satisfying route (once it's complete that is) of writing a H:M:S calculation

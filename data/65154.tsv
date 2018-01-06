@@ -1,0 +1,4 @@
+2009-09-12T16:37:00.000Z	ZOO0828		actually, I am looking for the detail documents to explain how the ubuntu boot up process, especially how GDM/KDM taking over the control and load up the X.  also taking user selected WM into consideration
+2009-09-12T16:39:00.000Z	ZOO0828		anyone can point me the right direction?   for the detail documents to explain how the ubuntu boot up process, especially how GDM/KDM taking over the control and load up the X. also taking user selected WM into consideration
+2009-09-12T16:40:00.000Z	Dr_Willis_Arch	ZOO0828	 gdm/kdm just launch as one of the last services - nothing really special about that,
+2009-09-12T16:41:00.000Z	Dr_Willis_Arch	ZOO0828	 gdm/kdm look for various 'Whatever.desktop' files to define what 'sessions' they show in their session menu - look for gnome.desktop for an example of such a file.

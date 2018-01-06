@@ -1,0 +1,4 @@
+2007-05-30T16:25:00.000Z	purpzey	victory747	I am just following your discussion....Is there some update I need to be aware of and stay away from?
+2007-05-30T16:27:00.000Z	victory747	purpzey	 over on ubuntu-kernel he says as long as you use UUID it will be no problem
+2007-05-30T16:29:00.000Z	purpzey	victory747	Not going to lie...what's UUID?
+2007-05-30T16:38:00.000Z	victory747	purpzey	if you look in /etc/fstab by default it will not use /dev/sda1 or /dev/hda1 (the device node names) but use UUID instead.

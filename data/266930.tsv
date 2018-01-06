@@ -1,0 +1,4 @@
+2010-03-07T22:59:00.000Z	spexi		Hi! I have Windows 7 and Ubuntu 9.10 side by side. All my media etc are in ntfs disk, so I have to mount those disks if I want to access all the media. Is it possible then create a network share with that mounted media?
+2010-03-07T23:00:00.000Z	spexi		I went to system-administration-shared folders and created a share, but my roommate with also ubuntu 9.10 cannot access it
+2010-03-07T23:00:00.000Z	spexi		he sees it, but mounting is not possible
+2010-03-07T23:00:00.000Z	Dr_Willis	spexi	 you can share ntfs filesysems - but i Think you must first have them mounted via fstab so you can set up proper permissions. and/or link the mountpoints to a shared location

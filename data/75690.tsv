@@ -1,0 +1,4 @@
+2010-04-19T16:59:00.000Z	Promille		Hey. I've mounted a ISO(Game) with Kiso. The game contains of 4 ISO's and after installing from first ISO it expect second ISO. So I mount it with Kiso. But how can I point installer to where its located. Where is the ISO mounted too? Thanks!
+2010-04-19T17:01:00.000Z	Dr_Willis	Promille	 you can use teh proper mount commands and mount all 4 iso's if you wanted. I rarely use kiso. so no idea where it puts things, /media/Somthing proberly
+2010-04-19T17:04:00.000Z	Dr_Willis	Promille	 the 'mount' command shows mountpoints normally. Unless the thing is mounted via fuse.
+2010-04-19T17:05:00.000Z	Promille	Dr_Willis	iceroot df did the trick. thanks :)

@@ -1,0 +1,4 @@
+2012-03-24T03:34:00.000Z	yumyum		hey how do i set up my no-ip.com on my ssh server im real confused
+2012-03-24T03:36:00.000Z	yumyum		hey how do i set up my no-ip.com for my ssh server im on the site but dont know how to add my public ip address so that i can use a hostname even when the ip changes on my ssh server
+2012-03-24T03:37:00.000Z	mirko1	yumyum	 your ssh server is most probably behind a router so you have to configure the dynamic IP there (please do not set up a public accessible server on your own if you don't know what you're doing)
+2012-03-24T03:44:00.000Z	mirko1	yumyum	what is your exact network structure? do you have a router or just a plain modem? if you have a router, then your router has the public IP and needs to be configured for dynamic IP services.

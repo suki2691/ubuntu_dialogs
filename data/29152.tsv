@@ -1,0 +1,4 @@
+2011-02-12T02:23:00.000Z	figure002		hello. i want to create a passwordless ssh, so i ran "ssh-keygen -t dsa", then left the passphrase blank. but now whenever i login using ssh, i still can't login without a password. did i miss somthing?
+2011-02-12T02:23:00.000Z	maco	figure002	forget to copy the public key to the server's authorized_hosts file
+2011-02-12T02:23:00.000Z	maco	figure002	?
+2011-02-12T02:24:00.000Z	figure002	maco	no, i did that

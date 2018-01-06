@@ -1,0 +1,4 @@
+2006-09-26T15:22:00.000Z	Ackeubu_		hey i did  ' sudo dpkg-reconfigure usplash' but it wasnt able to complete. is there some way to replace /boot/initrd.**** with a working one?
+2006-09-26T15:23:00.000Z	fallingdutch	Ackeubu_	have a look at update-initramfs
+2006-09-26T15:49:00.000Z	Ackeubu_	fallingdutch	i tried  sudo  update-initramfs -u /boot/initrd.img-2.6.17-9-386. but i get an error: /usr/share/initramfs-tools/scripts/functions: line 84: [: /Program: binary operator expected
+2006-09-26T15:50:00.000Z	Ackeubu_	fallingdutch	its the same error that i got from  ' sudo dpkg-reconfigure usplash'

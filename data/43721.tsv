@@ -1,0 +1,4 @@
+2009-11-04T11:07:00.000Z	Viking667		right. I need to ask something. How the heck do I connect from one machine to another machine using X forwarding? (i.e. XDMCP)
+2009-11-04T11:08:00.000Z	Viking667		Because as of Karmic, I can't connect to my X server from any other machines in the network.
+2009-11-04T11:08:00.000Z	Viking667		I can't even connect to my OWN X server using the network address.
+2009-11-04T11:10:00.000Z	technicallyrite	Viking667	Try nxclient/server from nomachine.com. It's x forwarding without the hassle, and it tunnels over ssh.

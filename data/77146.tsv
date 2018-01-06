@@ -1,0 +1,4 @@
+2008-12-11T19:35:00.000Z	Casperov		hey...im trying to delete my boot partion with this command: dd if=/dev/zero of=/dev/hda  bs=512  count=1 ive done it before, but terminal is saying permision denied...how to i make it so that i do have permision
+2008-12-11T19:36:00.000Z	telexl	Casperov	are you logged in as root?
+2008-12-11T19:37:00.000Z	telexl	Casperov	I always do 'sudo su -'
+2008-12-11T19:38:00.000Z	telexl	Casperov	that kinda ties in what I was talking with the others about, here

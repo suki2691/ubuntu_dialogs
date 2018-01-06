@@ -1,0 +1,4 @@
+2005-06-09T07:23:00.000Z	abarbaccia2		i have all the filenames in a textfile
+2005-06-09T07:24:00.000Z	abarbaccia2		any way i can write a script to take them one at a time and move them
+2005-06-09T07:24:00.000Z	ablyss	abarbaccia2	i tried that once and used locate but ended doing something like echo `locate foobar` >> /tmp/blah ; mv "$(cat /tmp/blah)" "/foobar/new\ directory/"
+2005-06-09T07:27:00.000Z	abarbaccia2	ablyss	its saying the filename is too long

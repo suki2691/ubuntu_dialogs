@@ -1,0 +1,4 @@
+2007-07-10T13:21:00.000Z	craigbass1976		/etc/init.d/apache2 start does NOT work.  Stop does though, and /usr/sbin/apache2/apache2ctl start works too.  Why won't the init.d apache starting work; the script appears to be pointing in the right direction
+2007-07-10T13:22:00.000Z	mhz`	craigbass1976	are you putting sudo in front?
+2007-07-10T13:22:00.000Z	mhz`		sudo /etc/init.d/apache2 start
+2007-07-10T13:22:00.000Z	craigbass1976	mhz`	yes.  I've even done it as root

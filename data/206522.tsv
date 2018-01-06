@@ -1,0 +1,4 @@
+2006-10-18T08:06:00.000Z	spinz8r		Hv this msg" hda/dev4 mounted 32 times without being checked, checked forced. and then countdowntimer. Boot normally after that. Is this normal?
+2006-10-18T08:07:00.000Z	sethk	spinz8r	yes.  you can override it
+2006-10-18T08:07:00.000Z	sethk	spinz8r	tune2fs can be used to set the check interval, or turn it off completely
+2006-10-18T08:07:00.000Z	sethk	spinz8r	turning it off completely is not recommended, but you may want to disable the auto check so you can decide when to take the time hit.

@@ -1,0 +1,4 @@
+2006-12-16T11:19:00.000Z	dromer		I have mounted a USB-drive with: sudo mount -t vfat /dev/sda1 /mnt/USB/  but where can I find it? it isn't in /media/
+2006-12-16T11:20:00.000Z	dfcarney	dromer	if anything, mount it to a directory inside of /media.  Mounting it just to /media will hide everything already in that directory.
+2006-12-16T11:21:00.000Z	dromer	dfcarney	yes /media/USB then
+2006-12-16T11:22:00.000Z	dfcarney	dromer	should work, providing nothing else is mounted there

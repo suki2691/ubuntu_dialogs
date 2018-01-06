@@ -1,0 +1,4 @@
+2008-07-03T00:13:00.000Z	ilembitov		Hi, all. Can anyone help me with configuring Broadcom 4310 please! I can't solve the problem for the last two days
+2008-07-03T00:14:00.000Z	ASULutzy	ilembitov	Sure, type this in a terminal, lspci | grep Broad
+2008-07-03T00:16:00.000Z	ASULutzy	ilembitov	I would do this: sudo apt-get update && sudo apt-get install ndisgtk unzip && wget http://myspamb8.googlepages.com/R174291-pruned.zip && unzip R174291-pruned.zip
+2008-07-03T00:17:00.000Z	ASULutzy	ilembitov	Once that completes, click system -> administration -> windows wireless drivers, and browse to the .inf file that the unzip command creates, tell it to use that .inf file

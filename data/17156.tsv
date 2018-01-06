@@ -1,0 +1,4 @@
+2011-09-11T16:06:00.000Z	heisenberg		a deb package says: "Error: Dependency is not satisfiable: libgdk-pixbuf2.0-0 (>= 2.22.0)" but I can't find libgdk
+2011-09-11T16:08:00.000Z	heisenberg		why can't I find the gdk-pixbuf package in my default sources? the package seems to be in the ubuntu repo: http://packages.ubuntu.com/source/natty/gdk-pixbuf
+2011-09-11T16:10:00.000Z	Polah	heisenberg	that's the source package.
+2011-09-11T16:12:00.000Z	Polah	heisenberg	sudo apt-get source gdk-pixbuf and then configure/build/install it

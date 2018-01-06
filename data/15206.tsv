@@ -1,0 +1,4 @@
+2012-10-25T21:24:00.000Z	tejas		after upgrade I am unable to remove old kernal help me this is the error E: linux-image-2.6.32-33-generic: subprocess installed post-removal script returned error exit status 1
+2012-10-25T21:26:00.000Z	tejas		after upgrade I am unable to remove old kernal help me this is the error E: linux-image-2.6.32-33-generic: subprocess installed post-removal script returned error exit status 1
+2012-10-25T21:28:00.000Z	escott	tejas	so thats just the image, you could remove the file directly from /boot, but a better way is to find in /var/lib/dpkg/info/linux-image....postrm script and modify it to not exit on an error by commenting out the "set -e" on the second line
+2012-10-25T21:29:00.000Z	escott	tejas	update-grub will adjust the entries to reflect what is and is not present in /boot

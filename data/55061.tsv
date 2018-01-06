@@ -1,0 +1,4 @@
+2011-05-22T23:02:00.000Z	Ascavasaion		HOw do I mount a USB memory stick in lubuntu?  In Ubuntu I just pop it in and it automatically mounts it.  Lubuntu does not.  Nothing on Desktop, in file manager, nor in /mnt or /media.
+2011-05-22T23:03:00.000Z	edbian	Ascavasaion	You have to manually mount it.  sudo mount /dev/usb /path/to/folder    to figure out the correct /dev name look at the output of sudo fdisk -l
+2011-05-22T23:08:00.000Z	Ascavasaion	edbian	You rock, works perfectly... thank you :)
+2011-05-22T23:08:00.000Z	edbian	Ascavasaion	sure :D

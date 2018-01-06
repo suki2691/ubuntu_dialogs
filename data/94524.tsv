@@ -1,0 +1,4 @@
+2008-07-11T04:10:00.000Z	muibe		does anyone if there's a sensor or an application that would tell the admin if the hardware has been torn down somehow?
+2008-07-11T04:11:00.000Z	unop	muibe	if the admin used syslog effectively, he'd know
+2008-07-11T04:13:00.000Z	muibe	unop	so, such a thing could be revealed by reading a log file, right?
+2008-07-11T04:13:00.000Z	unop	muibe	right,  these three files ought to have info -  /var/log/{dmesg,kern.log,debug}

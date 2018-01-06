@@ -1,0 +1,4 @@
+2008-02-02T02:14:00.000Z	Xtrato		I have disabled the floppy drive (even though i dont have one) from the boot priority list in BIOS and im still getting the "Buffer I/O error on device fd0, logical block 0" Error.
+2008-02-02T02:15:00.000Z	soundray	Xtrato	look through the BIOS setup again and see if you can disable it from the device list as well
+2008-02-02T02:30:00.000Z	soundray	Xtrato	there is normally an option for disabling the floppy controller under Integrated Peripherals or similar
+2008-02-02T02:30:00.000Z	soundray	Xtrato	if it's not there, I don't know what to suggest -- definitely a weird problem

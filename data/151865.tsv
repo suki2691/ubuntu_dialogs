@@ -1,0 +1,4 @@
+2007-01-04T15:37:00.000Z	svish		how can I find out if I have ATI Mobility Radeon 9600 or 9700?
+2007-01-04T15:38:00.000Z	pike_	svish	lspci -v | grep -4 ATI or just lspci -v
+2007-01-04T15:38:00.000Z	pike_	svish	not sure about the ATI never had one so i dont know how it will show up
+2007-01-04T15:39:00.000Z	svish	pike_	hm.. it says ATI Tecnologies Inc Radeon R250 Lf [FireGL 9000]  (rev 01)... ??

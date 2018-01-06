@@ -1,0 +1,4 @@
+2011-04-07T03:07:00.000Z	Spoog		Still having problems with my realtek driver --> anyone had problems with the r8169/8168
+2011-04-07T03:08:00.000Z	Spoog		If I blacklist a driver in the /etc/modprobe.d/blacklist.config ..should it still show up when I do the lspci -v?
+2011-04-07T03:10:00.000Z	Spoog		I followed this (http://ubuntuforums.org/showthread.php?t=1022411) 80% as I had problems with the last 2 commands.
+2011-04-07T03:11:00.000Z	YankDownUnder	Spoog	Check to see if the card is blacklisted => as well, try running "sudo jockey-gtk" and see if a driver is available.

@@ -1,0 +1,4 @@
+2008-12-15T01:23:00.000Z	caveman26		I have 1024Mb of ram and ubuntu only sees 1011. I have no shared video so why is it doing that?
+2008-12-15T01:24:00.000Z	caveman26		gnome system monitor, gkrellm
+2008-12-15T01:24:00.000Z	onetinsoldier	caveman26	kernel probably reserves some LOWMEM area
+2008-12-15T01:29:00.000Z	onetinsoldier	caveman26	compile a custom kernel sometime and you'll probably get the idea about the LOWMEM area.. i'm about to compile my own kernel-2.6.28-rc8-git2

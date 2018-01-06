@@ -1,0 +1,4 @@
+2009-12-08T09:36:00.000Z	gerzel_		How do I log out of gnome w/o using the panel?
+2009-12-08T09:36:00.000Z	gerzel_		What is the command to type into an xterm to log out of my gnome session?
+2009-12-08T09:36:00.000Z	bastid_raZor	gerzel_	you could ctrl+SysRq+K  .. but that isn't really a way to log out properly
+2009-12-08T09:37:00.000Z	bastid_raZor	gerzel_	you could sudo /etc/init.d/gdm stop/restart .. which will log you out.. but still not the most appropiate way.

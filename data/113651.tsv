@@ -1,0 +1,4 @@
+2008-07-28T01:25:00.000Z	ere4si		I set up one dapper box and used dd to set up 2 others - I've now upgraded one box to hardy and want to use its' /var/cache/apt/archives to upgrade the other two boxes - is this possible?
+2008-07-28T01:25:00.000Z	Flannel	ere4si	Yes, although in the future you might want to look into apt-proxy
+2008-07-28T01:26:00.000Z	Flannel	ere4si	Either do it manually, or take the easy route, and use AptOnCD
+2008-07-28T01:26:00.000Z	ere4si	Flannel	thnx - is it a matter of copying the folder to the other boxes and sudo update & upgrade?

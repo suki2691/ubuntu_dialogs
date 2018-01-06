@@ -1,0 +1,4 @@
+2010-07-07T13:40:00.000Z	tlarson		whats the command to show the file open by a given process (besides `ls -l /proc/<pid>/fd` of course)
+2010-07-07T13:40:00.000Z	geirha	tlarson	lsof(1)
+2010-07-07T13:41:00.000Z	tlarson	geirha	thanks. I kept getting hung up on fuser
+2010-07-07T13:41:00.000Z	geirha	tlarson	Yeah, that's mostly useful for the other way around :)

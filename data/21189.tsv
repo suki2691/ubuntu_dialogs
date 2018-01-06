@@ -1,0 +1,4 @@
+2010-12-29T21:09:00.000Z	langvann		Hello. I am trying to get a DiskLess Ubuntu up and running, (using the official guide). Everything works as a charm, until i get to the point "cp -ax /. /mnt/." - Then I get the error "Cannot preserve ownership of file: 'blablabla': Invalid argument, on every single file i try to copy. anyone know how I can fix this? no_root_squash in /etc/exports, and i am logged in as root on the client side of the nfsshare i'm trying to copy to.
+2010-12-29T21:11:00.000Z	langvann		https://help.ubuntu.com/community/DisklessUbuntuHowto
+2010-12-29T21:12:00.000Z	Ryu_Kurisu	langvann	you should create a user and put it in the sudo'ers list
+2010-12-29T21:12:00.000Z	langvann	Ryu_Kurisu	I have.

@@ -1,0 +1,4 @@
+2007-02-02T17:51:00.000Z	WonderWal		hi, i installed ubuntu, im interested in seeing which kernel config has been used in my kernel.. where can i find it?
+2007-02-02T17:53:00.000Z	WonderWal		?
+2007-02-02T17:55:00.000Z	WonderWal		:(
+2007-02-02T17:56:00.000Z	variant	WonderWal	cd /usr/src/ && tar -zxvf 'uname -r' && cd thedirectorycreated && make oldconfig && make config

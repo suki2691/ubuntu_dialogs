@@ -1,0 +1,4 @@
+2012-02-02T20:08:00.000Z	toddWork		in a shell command, i'm trying to say "remove all files except for MYFILE in /var/foo" something like: rm !(FILE) /var/foo
+2012-02-02T20:09:00.000Z	toddWork		what should that syntax look like? ^^
+2012-02-02T20:09:00.000Z	llutz	toddWork	find /var/foo -type f -not -name MYFILE -delete
+2012-02-02T20:10:00.000Z	toddWork	llutz	thanks.

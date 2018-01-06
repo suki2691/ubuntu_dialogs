@@ -1,0 +1,4 @@
+2009-01-03T19:48:00.000Z	leachim6		her...I want to run a script at 3 am everyday
+2009-01-03T19:49:00.000Z	leachim6		will * 3 * * * /script/script.sh do the trick ?
+2009-01-03T19:49:00.000Z	ortsvorsteher	leachim6	what says the manpage? i think it will work. but dont forget to set error channel setting lige: 2>&1
+2009-01-03T19:50:00.000Z	ortsvorsteher	leachim6	* 3 * * * /script/script.sh 2>&1

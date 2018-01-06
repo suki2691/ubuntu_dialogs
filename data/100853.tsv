@@ -1,0 +1,4 @@
+2009-04-19T01:13:00.000Z	MitchyNuts		hi everyone I'm trying to disable bluetooth at bootup and I've blacklisted hci_usb in /etc/modprobe.d/blacklist with no effect, I've googled it a bit and eems to be a common problem I just can't seem to find a work around
+2009-04-19T01:14:00.000Z	MitchyNuts		anyone have any ideas, I'm using 8.10
+2009-04-19T01:16:00.000Z	MitchyNuts		could someone explain to me how to disable the bluetooth kernel module in 8.10?
+2009-04-19T01:17:00.000Z	darkpixel	MitchyNuts	you need to add the name of the module to /etc/modprobe.d/blacklist

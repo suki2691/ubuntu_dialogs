@@ -1,0 +1,4 @@
+2011-05-03T14:28:00.000Z	kaie		I have an internal disk, and an external backup disk (cloned with dd). I must restore one lvm logical volume. When having both disks connected, lvm says, it detects a duplicate, only allows one of them to be active. Is there a trick to rename one of them, so I can have both volume groups / logical volumes active at the same time?
+2011-05-03T14:29:00.000Z	kaie		(for some reason, after a machine went to sleep yesterday, when it woke up again, the contents of the / partition were corrupted afterwards, just fyi)
+2011-05-03T14:30:00.000Z	Herbs	kaie	did you try an fsck
+2011-05-03T14:30:00.000Z	kaie	Herbs	yes. a large initial portion of the disk now contains garbage data. no repair possible. I need to restore my backup

@@ -1,0 +1,4 @@
+2011-02-18T08:55:00.000Z	klj613-		how can i get a list of all my possible mounts? sd1, sd2 etc and saying what they are.
+2011-02-18T08:56:00.000Z	klj613-		ty
+2011-02-18T08:56:00.000Z	J_C	klj613-	you could look at /etc/fstab to see what the system is directly aware of
+2011-02-18T08:58:00.000Z	J_C	klj613-	is the stick mounted now? if so, just run mount in  a command lin to show what is mounted, then run remount with the appropriate switches "man mount"

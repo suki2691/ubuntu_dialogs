@@ -1,0 +1,4 @@
+2006-06-27T06:42:00.000Z	MrHappy123		i want to format my HD, i have a number of partions on 1 HD, so i just execute this command in my terminal? "dd if=/dev/zero of=/dev/hda" Im running linux Desktop edition btw
+2006-06-27T06:42:00.000Z	Ng	MrHappy123	that will erase the entire hard disk with zeros. all partitions, all data, boot blocks, partition tables, everything.
+2006-06-27T06:43:00.000Z	MrHappy123	Ng	what about 'bad sectors' ?
+2006-06-27T06:44:00.000Z	Ng	MrHappy123	in theory bad sectors are disabled by the drive itself, but there's also a "badblocks" tool that can scan for them

@@ -1,0 +1,4 @@
+2007-10-19T02:02:00.000Z	Haz		i just installed gutsy and when it got to the USplash an error came up on my monitor saying "OUT of Range" with some info about my monitor
+2007-10-19T02:03:00.000Z	Haz		any ideas?
+2007-10-19T02:03:00.000Z	sebastes	Haz	It might be trying to use a refresh rate that's too high
+2007-10-19T02:03:00.000Z	sebastes	Haz	You might need to boot into recovery and edit your xorg.conf with your monitor's proper refresh/res

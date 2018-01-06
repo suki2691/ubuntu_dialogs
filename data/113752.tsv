@@ -1,0 +1,4 @@
+2010-09-10T19:18:00.000Z	DragonKeeper		hello i got a script to mount my iso files easily  but when  i right click  mount  it   attempts to mount iso tells me the file about to mount  then says unable ... script im using   http://tinyurl.com/32yqv6       and its in this folder   ~/.gnome2/nautilus-scripts/    .. script appears in right click menu   and script has permissions     any ideas why wont mount ?
+2010-09-10T19:19:00.000Z	dajhorn	DragonKeeper	You are reimplementing something that is already in Ubuntu.  Investigate the "Archive Mounter" and gvfs.
+2010-09-10T19:21:00.000Z	dajhorn	DragonKeeper	The script is probably failing because your $NAUTILUS_SCRIPT_SELECTED_FILE_PATHS variable is unquoted, and because you are very likely stacking your mount points.  Think about using `mktmp` or something like it.
+2010-09-10T19:22:00.000Z	dajhorn	DragonKeeper	The mounter can be confused by ISO files that have more than one filesystem.  What is in the ISO?

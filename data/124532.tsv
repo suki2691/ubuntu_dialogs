@@ -1,0 +1,4 @@
+2010-04-30T20:57:00.000Z	bman		Hey, im trying to install the Ubuntu 9.1 minimal CD image on my dedicated server. When the cli setup starts it sets my resolution to 648x481 and my IP KVM cant display that. Can I set a resultion while im at the boot: prompt?
+2010-04-30T20:58:00.000Z	hatake_kakashi	bman	try appending vga=ask at kernel/boot line
+2010-04-30T20:58:00.000Z	bman	hatake_kakashi	Thanks, ill try that
+2010-04-30T20:59:00.000Z	hatake_kakashi	bman	make sure to press space when it asks you

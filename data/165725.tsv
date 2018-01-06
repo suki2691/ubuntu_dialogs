@@ -1,0 +1,4 @@
+2010-08-01T22:23:00.000Z	craigbass1976		I've got a DELL Vostro 1000 that won't boot.  Googling brings me old stuff (2007-ish)  I'm on Lucid and at an initramfs prompt
+2010-08-01T22:24:00.000Z	tntc	craigbass1976	where does the boot process fail?
+2010-08-01T22:24:00.000Z	craigbass1976	tntc	hang on, booting again.
+2010-08-01T22:26:00.000Z	craigbass1976	tntc	erUSUL nothing seems to mount.  /dev, /sys, /proc  no such file or directory in any of those cases.  Target filesystem doesn't have /sbin/init  No init found.  ry passing init=bootarg

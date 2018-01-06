@@ -1,0 +1,4 @@
+2010-06-11T00:48:00.000Z	shishire		what's a good tool to run a full diagnostic on an unknown external hard drive?  I have a drive that I don't know the history of, and I want to know if it's in good condition.
+2010-06-11T00:48:00.000Z	edbian	shishire	sudo fdisk -l is a start
+2010-06-11T00:49:00.000Z	shishire	edbian	it's got a functioning file system, with stuff on it, mounts fine and everything.  I basically want to give it a quick stress test, to see if it's failing.
+2010-06-11T00:49:00.000Z	edbian	shishire	gparted has a check function

@@ -1,0 +1,4 @@
+2009-08-04T07:15:00.000Z	AvonGenesis		Hi, I just installed a bunch of ubuntu updates and it told me to restart, then it won't boot up. This is the error I get: http://pastebin.com/m45ca1657 I am able to log into my netbook with other kernels but not the one that updated. Anyone know why?
+2009-08-04T07:17:00.000Z	Jeremy23	AvonGenesis	check the boot parameters for each kernel, and make sure they're the same
+2009-08-04T07:17:00.000Z	Jeremy23	AvonGenesis	if the disk UUID is specified the same, that suggests there is a bug in the new kernel's SATA or IDE driver
+2009-08-04T07:18:00.000Z	AvonGenesis	Jeremy23	If that is the case, what do you suggest I do?

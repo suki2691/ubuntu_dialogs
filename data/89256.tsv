@@ -1,0 +1,4 @@
+2011-07-08T23:47:00.000Z	rockenrola		How can I tell which network interface a service is listening to?
+2011-07-08T23:49:00.000Z	dajhorn	rockenrola	 Try `netstat -lntp` and `netstat -lnup`
+2011-07-08T23:50:00.000Z	rockenrola	dajhorn	is shows:  tcp        0      0 0.0.0.0:8651            0.0.0.0:*               LISTEN      867/gmetad
+2011-07-08T23:51:00.000Z	dajhorn	rockenrola	The 0.0.0.0 means that gmetad is listening on all interfaces, port 8651.

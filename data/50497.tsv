@@ -1,0 +1,4 @@
+2009-08-21T11:21:00.000Z	vitek_		?can i set terminal as a log viewer? something like console on macs?
+2009-08-21T11:22:00.000Z	majuk	vitek_	You can monitor files, such as longs, with tail -f /path/to/file. It'll keep montioring that file and output any changes
+2009-08-21T11:25:00.000Z	majuk	vitek_	Are you saying tail -f is not what you want?
+2009-08-21T11:27:00.000Z	majuk	vitek_	Well try it, that's what you're looking for I'm pretty sure. You can even monitor multiple log files in the same terminal with &.

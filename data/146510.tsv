@@ -1,0 +1,4 @@
+2012-06-29T19:56:00.000Z	jiffe98		anyone have experience with mdadm?  I've got a software raid10, I pulled a drive and reinserted it to see what would happen and the drive came back as /dev/sdf instead of /dev/sdb
+2012-06-29T19:57:00.000Z	jiffe98		is there a way to find a physical device to a virtual device so it comes back on the same device?
+2012-06-29T19:57:00.000Z	jiffe98		I'm not sure how to deal with it being on a different device, mdadm is still looking for sdb
+2012-06-29T19:58:00.000Z	BluesKaj	jiffe98	interesting , but i think if you reboot with drive still connected it will revert to sdb

@@ -1,0 +1,4 @@
+2012-04-22T03:31:00.000Z	boxbeatsy		hi, i have a database of 11 million records, each record having 4 columns of data.  i want to create an api that allows you to search the database of records by a varchar column.  does anyone know if there's a more effective way to store the data than in mysql and querying with a fulltext index?
+2012-04-22T03:32:00.000Z	aggrav8d	boxbeatsy	- what are you searching for?
+2012-04-22T03:33:00.000Z	boxbeatsy	aggrav8d	each row has a 'keyword' column and i'ms earching for the ten closest matches to the keyword along with the corresponding data
+2012-04-22T03:33:00.000Z	aggrav8d	boxbeatsy	- I'd sort them alphabetically.

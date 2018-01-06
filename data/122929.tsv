@@ -1,0 +1,4 @@
+2007-09-17T10:31:00.000Z	xsteelwolf		I just installed kubuntu gutsy,but grub boot loader doesn't show up windows vista,what should i do in order to boot up back to windows?
+2007-09-17T10:32:00.000Z	mindrape	xsteelwolf	- /boot/grub/menu.lst  <-- edit that
+2007-09-17T10:33:00.000Z	mindrape	xsteelwolf	- it should have a listing for Windows in there.  Just uncomment it.  If its not listed at all you will need to probably do some googling.
+2007-09-17T10:34:00.000Z	mindrape	xsteelwolf	- yup... erase the leading # to make it a non-comment.  :)

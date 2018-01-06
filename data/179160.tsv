@@ -1,0 +1,4 @@
+2006-09-21T13:03:00.000Z	armand		hi, i just installed ubuntu 6.06.1...whenever i try to do something in the gui that requires root it says "wrong password" when i type in my password into the password dialog... this is a fresh install, not sure what happened
+2006-09-21T13:04:00.000Z	armand		i can su to root fine in a terminal window
+2006-09-21T13:04:00.000Z	jrib	armand	go to applications > accessories > terminal and type 'sudo echo hi' without quotes.  What does it return?
+2006-09-21T13:05:00.000Z	jrib	armand	no, you shouldn't need to set a root password.  It is asking for your user password.  What does the command 'groups' return?

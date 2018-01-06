@@ -1,0 +1,4 @@
+2011-04-21T20:04:00.000Z	itilious		is it ok to make a user with its home directory as "/var/www" for ftp use with webserver?
+2011-04-21T20:04:00.000Z	itilious		is this a security risk to make the ftp user home folder that directory?
+2011-04-21T20:06:00.000Z	itilious		does chroot give a user "part ownership" or something a of a directory?
+2011-04-21T20:06:00.000Z	ZykoticK9	itilious	chroot = change root - the location of root directory "/" it keeps users confined to a set directory

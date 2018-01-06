@@ -1,0 +1,4 @@
+2011-10-21T06:06:00.000Z	ssn767	shawnboy	2 host keys w/ the same IP may depend on the connection.  I have a *nix server with a floating IP.  Using cygwin SSH works fine but tonight, after a fail over, SFTP connection failed.
+2011-10-21T06:08:00.000Z	shawnboy	ssn767	I run Jaunty & Lucid on one machine and I always get the host key error when sshing into one, then the other.
+2011-10-21T06:28:00.000Z	ssn767	shawnboy	Solution may also depend on the client your using to SSH.  I.e. where and how the keys are stored.  Also, if your using the same IP's can you use the same hostnames?
+2011-10-21T07:34:00.000Z	shawnboy	ssn767	sorry I was absent. supper. About ssh and same ip & hostnames... I use same LAN IP for this machine, but I use ubuntu-jaunty for one hostname and ubuntu-lucid for the other.

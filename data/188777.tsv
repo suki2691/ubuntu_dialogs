@@ -1,0 +1,4 @@
+2006-07-08T11:44:00.000Z	cwillu		how to I write a floppy image?
+2006-07-08T11:45:00.000Z	cwillu		aptitude
+2006-07-08T11:46:00.000Z	cwillu		is there a nice clean gui for writing floppy images?
+2006-07-08T11:47:00.000Z	erpo	cwillu	Not to my knowledge. Use dd if=/path/to/image of=/dev/fd0 from the command line.

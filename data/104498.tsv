@@ -1,0 +1,4 @@
+2012-05-01T18:24:00.000Z	grnt		Ubuntu starts openbox session through xsession file, after login manager. If I build my patched openbox with custom prefix and symlink executables to /usr/local/bin, will it start my patched openbox (from /usr/local/bin)?
+2012-05-01T18:24:00.000Z	ActionParsnip	grnt	you could modify the system to run your binary
+2012-05-01T18:25:00.000Z	ActionParsnip	grnt	seems it does, if $PATH is read left to right
+2012-05-01T18:26:00.000Z	ActionParsnip	grnt	if memory serves, yes

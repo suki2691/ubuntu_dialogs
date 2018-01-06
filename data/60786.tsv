@@ -1,0 +1,4 @@
+2009-06-11T20:14:00.000Z	sky_1		why i cant create NTFS partition with gparted ?
+2009-06-11T20:15:00.000Z	Mike_lifeguard	sky_1	you need ntfstools (I think that's what the package is called, I could be wrong)
+2009-06-11T20:15:00.000Z	Mike_lifeguard	sky_1	Gparted is a graphical frontend to parted, a commandline tool. Parted uses a bunch of other tools to actually do it's work.
+2009-06-11T20:17:00.000Z	Mike_lifeguard	sky_1	oh, roobly_roo may be right -- I only had to /change/ an ntfs partition, not create one

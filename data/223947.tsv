@@ -1,0 +1,4 @@
+2005-09-08T12:22:00.000Z	tommi^		really, is it really so that I can read other user's directories in ubuntu by default or have I done something stupid? Isn't that like very insecure?
+2005-09-08T12:22:00.000Z	dalamar	tommi^	your main user is a superuser, it should be able to read anything and write any with a sudo command
+2005-09-08T12:24:00.000Z	tommi^	dalamar	nou.. If I su [otheruser]  I can still read other users' directories and files. Home directories seem to be 755
+2005-09-08T12:24:00.000Z	tommi^	dalamar	all directories under /home are drwxr-xr-x

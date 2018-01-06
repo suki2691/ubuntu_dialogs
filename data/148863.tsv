@@ -1,0 +1,4 @@
+2007-02-05T17:56:00.000Z	GigaClon		how do I mount a drive so that it is shows up being owned by me and not root
+2007-02-05T06:00:00.000Z	unop	GigaClon	 well, the mount manpage has an option named "owner" that allows the owner of a device to mount it .. which effectively gives you what you want
+2007-02-05T06:01:00.000Z	unop	GigaClon	 you can edit /etc/fstab in your editor -- sudo gedit /etc/fstab
+2007-02-05T06:03:00.000Z	unop	GigaClon	 you can use either or .. device names or UUIDs

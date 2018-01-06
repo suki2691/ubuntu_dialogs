@@ -1,0 +1,4 @@
+2010-01-04T00:53:00.000Z	marco		hi. in my ubuntu 9.10, how can i see where is my audio device? (/dev/blabla). i tried "lspci" but nothing. thanks
+2010-01-04T00:54:00.000Z	mezquitale	marco	try lspci -v
+2010-01-04T00:59:00.000Z	mezquitale	marco	why do you want to know this information though?  in 9.10 everytying is straight forward, what you need to know is the index in aplay -l, the sound card with 0 is the default, if you want to change the default card use "sound" applet in "preferences"
+2010-01-04T01:04:00.000Z	mezquitale	marco	 try #alsa

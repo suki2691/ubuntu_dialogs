@@ -1,0 +1,4 @@
+2010-03-18T20:29:00.000Z	alias7		If I call /opt/Wakfu/Wakfu when I'm in / it fails. If I call it in the /opt/Wakfu directory it works. Any way to set up the path for a specific command so I can call from '/' but have it read from /opt/Wakfu as local?
+2010-03-18T20:30:00.000Z	DopeGhoti	alias7	is Wakfu a script, or a binary?
+2010-03-18T20:30:00.000Z	DopeGhoti	alias7	then you can add a couple lines at the start of the script to go to the correct directory.
+2010-03-18T20:32:00.000Z	DopeGhoti	alias7	well, you could add a script in ~/bin/ to go to the right place, effectively doing the same thing

@@ -1,0 +1,4 @@
+2010-05-08T09:05:00.000Z	carl_		how do i fix this  E: Type 'n' is not known on line 1 in source list /etc/apt/sources.list.d/nilarimogard-webupd8-lucid.list
+2010-05-08T09:05:00.000Z	theadmin	carl_	Something's wrong with this repo... I'd delete that list: "sudo rm /etc/apt/sources.list.d/nilarimogard-webupd8-lucid.list && sudo apt-get update"
+2011-07-27T15:23:00.000Z	theadmin	carl_	All it does is decreasing read speed
+2011-07-27T15:25:00.000Z	theadmin	carl_	Normally yes, unless you need to worry about compatibility with old Linux systems

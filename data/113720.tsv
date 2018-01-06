@@ -1,0 +1,4 @@
+2009-10-22T02:31:00.000Z	FoolishOwl		Is there something like a /dev pathname for stdout?
+2009-10-22T02:32:00.000Z	dajhorn	FoolishOwl	Many utilities will take a single - dash character for stdin or stdout.  Mainly gnu programs, like tar and dd.
+2009-10-22T02:33:00.000Z	dajhorn	FoolishOwl	Some systems map it to things like /dev/fd/0 and /dev/fd/1.
+2010-04-14T22:12:00.000Z	dajhorn	FoolishOwl	Look in the *.d directories in the /etc/apache2 folder, especially the conf.d directory.  Ubuntu breaks-out the Apache configuration.

@@ -1,0 +1,4 @@
+2011-02-09T01:29:00.000Z	blinki		Is there a way to make nomodeset in grub persistant across not only reboots, but the have it set automagically when new kernels are made available?
+2011-02-09T01:31:00.000Z	Jordan_U	blinki	Add it to GRUB_CMDLINE_LINUX in /etc/default/grub.
+2011-02-09T01:31:00.000Z	blinki	Jordan_U	thanks! exactly what I was looking for
+2011-02-09T01:38:00.000Z	Jordan_U	blinki	You're welcome.

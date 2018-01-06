@@ -1,0 +1,4 @@
+2010-11-01T12:36:00.000Z	xharx		in xubuntu how can I configure the powersaving such, that the screen doesnt switch off when i watch a video
+2010-11-01T12:37:00.000Z	domcod	xharx	xset s off
+2010-11-01T12:41:00.000Z	xharx	domcod	this disables the function generally ?! So I assume, there is no way to have it automatically switched off when a player is running?
+2010-11-01T12:43:00.000Z	domcod	xharx	that's the player's responsibility. try some automation, like  xset s off; player; xset s on

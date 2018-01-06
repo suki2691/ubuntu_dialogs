@@ -1,0 +1,4 @@
+2012-03-04T00:44:00.000Z	mrFrog		I'm running a web server and I've got a question about security. If I have a folder at /var/www/examplea.com and a folder at /var/www/exampleb.com, how do i make sure that php files in exampleb.com can't access files in examplea.com via "include ../" or such?
+2012-03-04T00:46:00.000Z	pfifo	mrFrog	enable safemode
+2012-03-04T00:47:00.000Z	mrFrog	pfifo	looks like safe mode is deprecated in recent php versions - anything at a different level?
+2012-03-04T00:48:00.000Z	pfifo	mrFrog	Nothing I know of at the OS level, I believe there are some PHP settings that can alter behavior like that.

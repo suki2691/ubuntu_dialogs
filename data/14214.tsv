@@ -1,0 +1,4 @@
+2011-12-22T22:55:00.000Z	widewake		hey, am trying to apt get install pulse audio, i run command and im getting a permission denied. unable to lock the admin directory, una ble to open lock file /var/lib/dpgk/lock, are you root? anyone can be of help?
+2011-12-22T22:55:00.000Z	widewake		im using the command apt-get install libasound2-plugins libao-pulse libpulse-browse0 libpulse-mainloop-glib0 libpulse0 pulseaudio pulseaudio-esound-compat
+2011-12-22T22:56:00.000Z	geoffmcc	widewake	either you didnt sudo or maybe there is another apt proccess currently running
+2011-12-22T22:58:00.000Z	widewake	geoffmcc	 your right, though now it says i have wrong package

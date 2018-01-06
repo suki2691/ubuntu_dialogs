@@ -1,0 +1,4 @@
+2012-11-11T16:01:00.000Z	beta4		rebooted, drivers 'almost' work, thanks for the tip on /etc/modules, always forget which file does what
+2012-11-11T16:02:00.000Z	beta4		last issue, brightness is stuck at 100%, can't reduce it
+2012-11-11T16:02:00.000Z	Calinou	beta4	echo "0" > /sys/class/backlight/acpi_video0/brightness
+2012-11-11T16:08:00.000Z	Calinou	beta4	you can edit /etc/rc.local, yes

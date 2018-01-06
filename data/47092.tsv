@@ -1,0 +1,4 @@
+2009-09-22T21:12:00.000Z	impy^		Hi I'm trying to get my ntfs partition to automount at start up but i also want normal user to be able to unmount it. I've tried in fstab and the combinations i've tried don't seem to work anyone have any ideas where im going wrong? rw,suid,dev,exec,auto,user,async,locale=en_GB.UTF-8 0 0
+2009-09-22T21:13:00.000Z	soreau	impy^	I dont think you can umount partitions as user
+2009-09-22T21:13:00.000Z	impy^	soreau	i'm pretty sure you can i had it doing it before :o
+2009-09-22T21:18:00.000Z	soreau	impy^	http://ubuntuforums.org/showthread.php?t=369222

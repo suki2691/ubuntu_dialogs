@@ -1,0 +1,4 @@
+2009-09-06T09:15:00.000Z	RadarG		hello guys I think that I have a strange problem and I could use some help. I'm running ubuntu in virtialbox for some time and now I cant save anything I tried to cp a file to another directory and it gave me a file system is read only error I did a chmod on the folder and got the same error. I tried to create a file on my desktop and once again got the filesystem is read only.
+2009-09-06T09:17:00.000Z	musikgoat	RadarG	check your "mount" command for your file systems as read only (ro)
+2009-09-06T09:25:00.000Z	RadarG	musikgoat	a reboot fixed it
+2009-09-06T09:25:00.000Z	musikgoat	RadarG	yeah, sounds like your filesystem went read only, i'm guessing there was an fsck run on boot

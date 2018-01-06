@@ -1,0 +1,4 @@
+2010-01-06T02:56:00.000Z	NeoBlaster		hi, i would like to know why my server is crashing : is there any log for the lastest things that my server's did before the crash?
+2010-01-06T02:57:00.000Z	epinky	NeoBlaster	/var/log/messages
+2010-01-06T03:04:00.000Z	NeoBlaster	epinky	is there another log (except messages) ? because i don't see anything during the crashtime period
+2010-01-06T03:06:00.000Z	epinky	NeoBlaster	dmesg command can be helpful, however it depends on which app  crashes the system

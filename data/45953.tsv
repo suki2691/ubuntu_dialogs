@@ -1,0 +1,4 @@
+2010-05-19T23:59:00.000Z	Leftmost		On Lucid, I've done `update-rc.d -f gdm remove'. It says that it's removed it from all of the /etc/rc?.d directories, but gdm still starts on boot. Why?
+2010-05-20T00:00:00.000Z	thedude42	Leftmost	did you check the /etc/init/gdm.conf ?
+2010-05-20T00:02:00.000Z	Leftmost	thedude42	no... though how am I supposed to get services to not start on boot, if update-rc.d doesn't work?
+2010-05-20T00:14:00.000Z	thedude42	Leftmost	no CLI that I have seen, but I'm sure something is in the works.... you can comment out the stanza that says 'start on' to prevent one of the services from starting automatically

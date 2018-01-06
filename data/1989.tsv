@@ -1,0 +1,4 @@
+2012-08-12T00:14:00.000Z	rwb		I'm trying to set up an epson wf-7010 printer with Ubuntu 12.04.  I can "add" the printer fine, when I click "print test page" I get a notification saying printed... but no action on the printer...  Any ideas?
+2012-08-12T00:15:00.000Z	rwb		yes, printing works fine on a different lazer jet
+2012-08-12T00:15:00.000Z	W4sp	rwb	I would check within CUPS (localhost:631) what your print queue stays. Also, there are CLI lpstat, lpc.
+2012-08-12T00:16:00.000Z	W4sp	rwb	You job may be in the queue. IF you are on trouble shooting try to avoid GUI as the easily lie.

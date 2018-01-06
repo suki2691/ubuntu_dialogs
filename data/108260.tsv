@@ -1,0 +1,4 @@
+2009-09-07T16:30:00.000Z	DefineByte		Ok, I guess this question was inevitable: how do you set it so that a user can start/stop a service/daemon? It seems I'm the only person on the internet trying to do this. Maybe there's a reason for that. >.>
+2009-09-07T16:30:00.000Z	ikonia	DefineByte	create a sudo rule for that user/group
+2009-09-07T16:31:00.000Z	DefineByte	ikonia	i seem to remember doing somthing like that for halt. thanks, i'll have to look it up.
+2009-09-07T16:31:00.000Z	ikonia	DefineByte	that's it, set it to a specific command and it will work fine, like halt

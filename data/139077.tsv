@@ -1,0 +1,4 @@
+2010-01-26T22:10:00.000Z	sebdah		Hi guys! I have a set up much like this one http://people.apache.org/~mturk/docs/article/fig3.gif. And the applications running on the Tomcats can _not_ run in parallell. So I would like to have some kind of master/slave functionality in Apache. Suggestions?
+2010-01-26T22:10:00.000Z	sebdah		I have been looking at mod_proxy_balancer, which I am using for other real load balancing purposes, but I can't really see a way to totally disable one Tomcat while the first one is up and running.
+2010-01-26T22:11:00.000Z	Pici	sebdah	This might be more appropriate for #httpd, which is the Apache support channel.
+2010-01-26T22:11:00.000Z	sebdah	Pici	thanks

@@ -1,0 +1,4 @@
+2007-07-16T08:04:00.000Z	jake_		hi guys, i'm trying to install libgtk2.0-dev package but synaptic gives me a message saying that libgtk needs few packages which are unresolvable!? any ideas how to fix it
+2007-07-16T08:05:00.000Z	jake_		ok holdon
+2007-07-16T08:05:00.000Z	mrsno	jake_	can you try the following and paste the text for us on pastebin, sudo aptitude update && sudo aptitude install libgtk2.0-dev
+2007-07-16T08:08:00.000Z	mrsno	jake_	maybe you did not click 'reload' in synaptic recently? that runs aptitude update

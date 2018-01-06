@@ -1,0 +1,4 @@
+2008-10-12T10:20:00.000Z	amenado		FLeiXiuS--> using network manager with the correct key -- you can not connect?
+2008-10-12T10:21:00.000Z	amenado		FLeiXiuS--> is the interfaces file correct? all the necessary entries for WPA is there? or is it missing?
+2008-10-12T10:23:00.000Z	amenado		FLeiXiuS--> try and do an strace of the nm and see if you can follow through where it fails
+2008-10-12T10:23:00.000Z	IntuitiveNipple	amenado	there are no entries in /etc/network/interfaces when NetworkManager (<0.7) is managing an interface

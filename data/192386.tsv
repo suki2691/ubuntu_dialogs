@@ -1,0 +1,4 @@
+2006-04-03T10:03:00.000Z	Kritical		Anyone know the command to reset network interfaces?
+2006-04-03T10:03:00.000Z	Kritical		sudo invoke-rc.d network reset? something like that?
+2006-04-03T10:03:00.000Z	slavik	Kritical	ifconfig eth0 down and then ifconfig eth0 up
+2006-04-03T10:04:00.000Z	Kritical	slavik	I'm doing it remotely, know a way that wont knock me offline?

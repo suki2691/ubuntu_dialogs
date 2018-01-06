@@ -1,0 +1,4 @@
+2009-04-25T14:53:00.000Z	danlii		Is there a fix to the problem with IDE disks getting recognized as SCSI disks and thus won't work with hdparm?
+2009-04-25T14:55:00.000Z	Flannel	danlii	They should still work with hdparm.  The move from hda to sda is intentional.
+2009-04-25T14:56:00.000Z	danlii	Flannel	I get "Inappropriate ioctl for device" when trying to set 32 bit io flag and dma flag on the disk.
+2009-04-25T14:58:00.000Z	Flannel	danlii	If you don't mind, file a bug on launchpad.  Since, that obviously should work.

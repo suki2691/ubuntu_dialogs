@@ -1,0 +1,4 @@
+2011-04-26T00:52:00.000Z	Haraken		how do I disable cloudinit from startup without uninstalling it?
+2011-04-26T00:52:00.000Z	jrib	Haraken	how does it startup now?
+2011-04-26T00:53:00.000Z	Haraken	jrib	I'm not sure.  I don't see it in /etc/init.d but it seems to be causing the system to hang on startup.  "DataSourceEc2.py[WARNING]: 19:53:23 [30/100]: url error [timed out]"
+2011-04-26T00:54:00.000Z	jrib	Haraken	in /etc/init?  Was this installed through a package?

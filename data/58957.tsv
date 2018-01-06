@@ -1,0 +1,4 @@
+2009-04-28T02:10:00.000Z	neweeepc		got a new EeePC and put Easy-Peasy on it. Put in `gconftool-2 --set /desktop/gnome/sound/default_mixer_tracks --type list --list-type string "[PCM]"` to "fix" the mute key but i want to undo that. What do i type to undo that command?
+2009-04-28T02:11:00.000Z	dr_willis	neweeepc	 fire up the gconf-editor and look under the key of that name perhaps.
+2009-04-28T02:16:00.000Z	dr_willis	neweeepc	 just delete it perhaps?
+2009-04-28T02:17:00.000Z	neweeepc	dr_willis	ok, i unset it. will i need to reboot for it to take effect?

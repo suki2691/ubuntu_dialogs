@@ -1,0 +1,4 @@
+2007-06-27T11:14:00.000Z	jfkldsjfdklsfjkd		hi i've just installed ftpd on my ubuntu server and i can access it within my network but it's really really slow / not letting me connect through from the internet
+2007-06-27T11:14:00.000Z	jfkldsjfdklsfjkd		ideas?
+2007-06-27T11:14:00.000Z	Flannel	jfkldsjfdklsfjkd	Make sure you forward the appropriate ports.
+2007-06-27T11:16:00.000Z	Flannel	jfkldsjfdklsfjkd	UDP packets never make it out of your LAN

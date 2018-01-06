@@ -1,0 +1,4 @@
+2011-05-21T13:50:00.000Z	uni4dfx		can someone tell me if the month names in command "last" are translated in non-english ubuntu?
+2011-05-21T13:50:00.000Z	theadmin	uni4dfx	If you have another language installed, you can check yourself, something like this: LANG=ru_RU.UTF8 last
+2011-05-21T13:51:00.000Z	uni4dfx	theadmin	must say i didn't know this, but unfortunately i don't have any other language installed other than english
+2012-03-13T16:44:00.000Z	theadmin	uni4dfx	Please note that for root you may not use "sudo crontab -e" or anything. You have to edit /etc/crontab, it should not need any password set or anything

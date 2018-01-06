@@ -1,0 +1,4 @@
+2011-05-29T16:29:00.000Z	nuhm		Can someone help me uninstall Java on 11.04?
+2011-05-29T16:30:00.000Z	Lekensteyn	nuhm	How did you install it? Through apt? sudo apt-get purge sun-java6
+2011-05-29T16:32:00.000Z	Lekensteyn	nuhm	what does `which java` say?
+2011-05-29T16:33:00.000Z	Lekensteyn	nuhm	please run `dpkg -S /usr/bin/java`

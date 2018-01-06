@@ -1,0 +1,4 @@
+2006-02-21T17:28:00.000Z	Witigonen		Hey all.  I'm trying to downgrade from Dapper to Breezy.  I've pinned all the packages to the Breezy build, but I'm getting an error that libc is trying to overwrite something that is also in the locales packages.  Can anyone help?
+2006-02-21T17:28:00.000Z	amphi	Witigonen	you can use dpkg-divert to resolve that I believe
+2006-02-21T17:30:00.000Z	Witigonen	amphi	can you please elaborate?
+2006-02-21T17:30:00.000Z	amphi	Witigonen	see man dpkg-divert - I've never had to use it, so I have nothing to add to the manpage

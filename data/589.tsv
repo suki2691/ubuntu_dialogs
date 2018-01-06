@@ -1,0 +1,4 @@
+2012-10-28T22:47:00.000Z	allquixotic		All known programming environments depend on glibc... Java, Ruby, bash, Python, Vala, C++, Mono, etc... they all use the C library eventually
+2012-10-28T22:47:00.000Z	allquixotic		without glibc they'd have to bang on the kernel syscalls directly, which are too platform dependent
+2012-10-28T22:47:00.000Z	tapee	allquixotic	certainly not _g_libc
+2012-10-28T22:48:00.000Z	allquixotic	tapee	any C library that's compatible, is what it comes down to. Is tiny libc compatible? uclibc? eglibc? bionic? It depends on the application. Chances are, if it's compiled for glibc/eglibc, it probably uses symbols or functionality that won't work without porting to other C libraries.

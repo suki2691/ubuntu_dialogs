@@ -1,0 +1,4 @@
+2009-02-06T05:58:00.000Z	aseeon		could someone help me with my RAM problem ? (i have 4gb ram install, but system shows me only 2.44)
+2009-02-06T05:58:00.000Z	aseeon		dmidecode shows everything correctly but /proc/meminfo does not
+2009-02-06T05:59:00.000Z	aseeon		but 32bit still should show 3.6GB
+2009-02-06T06:00:00.000Z	IntuitiveNipple	aseeon	That will be correct... the space from 3GB-4GB is used for PCI IOMEM addresses

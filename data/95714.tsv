@@ -1,0 +1,4 @@
+2008-04-03T04:11:00.000Z	RiotGeek		I'm trying to help an ubuntu user in #apache. Can someone please tell me the def documentroot in ubuntu?
+2008-04-03T04:12:00.000Z	nikrud	RiotGeek	/var/www . If you haven't played with debian based apache configs, you will be confused ;)
+2008-04-03T04:12:00.000Z	RiotGeek	nikrud	 Indeed. No /var/www/{html,cgi-bin}  and so forth. Huh...
+2008-04-03T04:13:00.000Z	nikrud	RiotGeek	http.conf is all broken up into /etc/apache2.conf, mods-enabled and sites-enabled, and conf.d,

@@ -1,0 +1,4 @@
+2011-02-15T22:58:00.000Z	TuGa		hi i have a 10.10 maverick and by mistake i went to the Additional Drivers and Deactivate the nvidia-current driver, it stated that it was not using that especific driver. After reboot i get the shell to login, i have tried removing nvidia-current and installing it again no prob with that but still cant startx
+2011-02-15T22:58:00.000Z	TuGa		how can i go to /do the Additional Drivers Activation step true the shell?
+2011-02-15T22:59:00.000Z	ikonia	TuGa	first thing, remove /etc/X111/xorg.conf , then reboot, you should get X back, you can then re-activate the nvidia driver through the gui
+2011-02-15T22:59:00.000Z	TuGa	ikonia	ok will do

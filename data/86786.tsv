@@ -1,0 +1,4 @@
+2008-07-07T17:20:00.000Z	potato		if i install ubuntu on my XP system, is it stil posibleto make it dual-boot, but have XP as the main os?
+2008-07-07T17:21:00.000Z	potato		im afraid if i install ubuntu, it will always boot to ubuntu.
+2008-07-07T17:22:00.000Z	potato		can i make the menu choose xp by default?
+2008-07-07T17:23:00.000Z	xubuntuuser	potato	edit /boot/grub/menu.lst if you are using grub. Edit default=* line (*: number of xp)

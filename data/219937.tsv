@@ -1,0 +1,4 @@
+2007-04-27T14:37:00.000Z	xSUSHix		how do i make the updater disregard a certain package?   i never want to update it.
+2007-04-27T14:38:00.000Z	xSUSHix		demortes : well maybe i am - can i tell dpkg not to update this package tho ?
+2007-04-27T14:40:00.000Z	Flannel	xSUSHix	commenting out the repository will only disable updates form the software, the stuff you already have will stick around
+2007-04-27T14:41:00.000Z	Flannel	xSUSHix	apt-cache policy [package] 

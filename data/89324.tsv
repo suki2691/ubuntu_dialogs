@@ -1,0 +1,4 @@
+2009-10-31T19:08:00.000Z	jo_		Hey, In the company we have a firewall and NAT-server and I want to SSH into a box behind the firewall. This is not possible because the of the adress translation. But it is possible to acces the windows machines with teamvieuwer. How can I acces my linux box? I can't find a thing on goolge
+2009-10-31T19:09:00.000Z	artcore	jo_	NAT usually allow to connect to any ports outside
+2009-10-31T19:10:00.000Z	jo_	artcore	I mean that I want to connect from outside to my ubuntubox. :)
+2009-10-31T19:11:00.000Z	artcore	jo_	then open port on your box but first You must sure that dst-nat is configured for You box ip

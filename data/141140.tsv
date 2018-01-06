@@ -1,0 +1,4 @@
+2009-06-12T22:37:00.000Z	Hajuu		Hi guys, I am trying to run an application and capture any and all console output generated. I have tried just piping it to a file, and i've tried running it in a shell and piping the output of the shell instance, but neither way has been able to capture any and all command output.. Anyone got any ideas how I can capture everything into a file?
+2009-06-12T22:38:00.000Z	frostburn	Hajuu	it's most likely being outputted as stderr instead of stdout, you'll need to redirect that as well
+2009-06-12T22:39:00.000Z	Hajuu	frostburn	sure, how do I do that in a similar style to pipe
+2009-06-12T22:39:00.000Z	frostburn	Hajuu	http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-3.html

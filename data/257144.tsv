@@ -1,0 +1,4 @@
+2005-02-25T13:33:00.000Z	bluefoxicy		The 64-bit architectures PPC64, s390x, sparc64 and AMD64 must place 64-bit libraries in /lib64, and 32-bit (or 31-bit on s390) libraries in /lib
+2005-02-25T13:33:00.000Z	bluefoxicy		http://www.pathname.com/fhs/pub/fhs-2.3.html#LIB64
+2005-02-25T13:34:00.000Z	bluefoxicy		yeah well
+2005-02-25T13:35:00.000Z	farruinn	bluefoxicy	if it makes you happier, mv /lib64 /lib ; ln -s /lib64 /lib

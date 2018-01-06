@@ -1,0 +1,4 @@
+2007-06-27T09:43:00.000Z	newbuntu		OK guys, it's either pretty bad or something very comon, but I've just completed a brand new install of Feisty 32bits (on an AMD64 proc), and when I rebooted after install, I get a full gribbish window, with the error msg that X-Window could not start and I get in command line  :(
+2007-06-27T09:44:00.000Z	newbuntu		one msg I get in bootup is MP-BIOS bug:  8254 timer not connected to IO-APIC
+2007-06-27T09:44:00.000Z	newbuntu		any clues please ?
+2007-06-27T09:45:00.000Z	enviouz	newbuntu	 at boot edit the boot line and add linux noapic

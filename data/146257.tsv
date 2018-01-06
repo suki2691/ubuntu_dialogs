@@ -1,0 +1,4 @@
+2007-02-18T13:28:00.000Z	mlalkaka		when i installed kubuntu-desktop (and all its dependencies), i was prompted with a dialog box that asked to specify which display manager (gdm or kdm) i wanted to use. is there any way to get that dialog box again so i can change the display manager again?
+2007-02-18T13:29:00.000Z	colutti	mlalkaka	dpkg-reconfigure gdm
+2007-02-18T13:29:00.000Z	mlalkaka	jrib	arrenlex, colutti: so if i want gdm, i do sudo dpkg-reconfigure gdm; and if i want kdm, i do sudo dpkg-reconfigure kdm?
+2007-02-18T13:30:00.000Z	colutti	mlalkaka	yes

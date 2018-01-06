@@ -1,0 +1,4 @@
+2007-08-04T10:30:00.000Z	PF|Ubuntu		What's the command to start and stop X?
+2007-08-04T10:31:00.000Z	maccam94	PF|Ubuntu	/etc/init.d/gdm start|stop|restart
+2007-08-04T10:54:00.000Z	maccam94	PF|Ubuntu	have you tried doing ctrl + alt + f1 after stopping X?
+2007-08-04T10:55:00.000Z	maccam94	PF|Ubuntu	ctrl + alt + F1. login. run sudo /etc/init.d/gdm stop. do whatever. then do /etc/init.d/gdm start to start X again

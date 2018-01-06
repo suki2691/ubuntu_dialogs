@@ -1,0 +1,4 @@
+2009-07-16T18:51:00.000Z	Ozzah		Hi... I have kind of an odd problem. I need to erase ALL data on a hard drive - I mean literally everything, right down to the partition tables themselves. Any idea on how I can do this?
+2009-07-16T18:51:00.000Z	Ozzah		I basically want to "initialize" the drive so that it's in the "as new" condition come out of the factory
+2009-07-16T18:52:00.000Z	erisol	Ozzah	use something like dd if=/dev/null of=/dev/sda1
+2009-07-16T18:52:00.000Z	erisol	Ozzah	but be very careful with that

@@ -1,0 +1,4 @@
+2012-04-04T00:21:00.000Z	andrunix		in this command 'apt-get install linux-alsa-driver-modules-$(uname -r)', what does the uname part do?
+2012-04-04T00:23:00.000Z	andrunix		it's going to find a module with that specific version?
+2012-04-04T00:24:00.000Z	andrunix		and so my problem is that there is not a module that matches the numbers that uname -r returns.
+2012-04-04T00:25:00.000Z	obelus	andrunix	To be specific, $(uname -r) inserts your kernel version into the command line

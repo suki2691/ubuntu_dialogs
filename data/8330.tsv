@@ -1,0 +1,4 @@
+2011-10-30T07:55:00.000Z	s0nee	KyeRussell	if .bashrc isnt read, then check .bash_profile in your home folder ?
+2011-10-30T08:00:00.000Z	KyeRussell	s0nee	it isn't read because it can't be accessed when I first SSH in, I have to mount my home directory each time I log in
+2011-10-30T08:02:00.000Z	s0nee	KyeRussell	hmmm then you should check the ssh configuration files in /etc
+2011-10-30T08:05:00.000Z	s0nee	KyeRussell	check this http://superuser.com/questions/204787/how-can-i-mount-an-encrypted-home-directory-upon-ssh-login-using-private-public

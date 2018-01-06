@@ -1,0 +1,4 @@
+2012-03-15T20:47:00.000Z	\bMike\b		My server reports "X packages can be updated, Y are security update" - how can I see what packages those security updates are?
+2012-03-15T20:47:00.000Z	\bMike\b		Or, how can I upgrade only the security updates
+2012-03-15T20:48:00.000Z	welinux	\bMike\b	sudo aptitude -s upgrade <<< for "simulate"
+2012-03-15T20:49:00.000Z	\bMike\b	welinux	Yes, but I don't think that separates out the security updates

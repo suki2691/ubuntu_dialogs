@@ -1,0 +1,4 @@
+2010-06-20T20:44:00.000Z	Cobalt		Hi, I've got a script that runs and occasionally outputs a string to stdout (Python script). I want to put that script in the background and disown it from the terminal I ran it from, and redirect the output to a file. I'm trying with this command but it's not working, can anyone tell me why? pythonscript.py & disown > "`date`".log
+2010-06-20T20:45:00.000Z	Cobalt		I just get a zero-length file.
+2010-06-20T20:45:00.000Z	bastid_raZor	Cobalt	possibly put & disown at the end
+2010-06-20T20:46:00.000Z	Cobalt	bastid_raZor	Same thing.

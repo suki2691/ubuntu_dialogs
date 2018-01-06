@@ -1,0 +1,4 @@
+2009-06-13T21:14:00.000Z	Eloff		what's the command line thingy that prints the n most recent lines of a log file? (if only I could ask google that)
+2009-06-13T21:14:00.000Z	sbasuita	Eloff	tail
+2009-06-13T21:14:00.000Z	sbasuita	Eloff	tail -n # file
+2009-06-13T21:14:00.000Z	sbasuita	Eloff	or you can pipe it input like: cat /var/log/auth.log | tail -n 5

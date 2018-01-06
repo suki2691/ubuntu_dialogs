@@ -1,0 +1,4 @@
+2005-06-23T09:48:00.000Z	milky		i need help giving read permission to mounted ntfs partition:root@car:/home/tinc # chmod a+r /mnt/win
+2005-06-23T09:48:00.000Z	milky		chmod: changing permissions of `/mnt/win': Read-only file system
+2005-06-23T09:48:00.000Z	bob2	milky	that won't help, you can't set permissions on a vfat filesystem
+2005-06-23T09:49:00.000Z	bob2	milky	use the umask=002 mount option in /etc/fstab

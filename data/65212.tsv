@@ -1,0 +1,4 @@
+2009-03-02T09:12:00.000Z	fallore_	sprinkmeier_	i just need to create a folder that is shared throughout the network/domain that the pc is already on that is as low into root as possible (so that there isn't a long address path).
+2009-03-02T09:13:00.000Z	fallore_	sprinkmeier_	knowing how to edit the smb.conf through ssh would be helpful as well
+2009-03-02T09:14:00.000Z	fallore_	sprinkmeier_	can't fire up an editor, i'm connected through SSH
+2009-03-02T09:24:00.000Z	sprinkmeier_	fallore_	graphics in unix/linux are based on the X protocol. This can be sent through a socket, even a network socket, so the computer that runs the program does not have to do the graphical display. SSH offers a way to securely tunnel this X traffic (ssh -X)

@@ -1,0 +1,4 @@
+2006-03-19T10:33:00.000Z	tatters		 If two different online port scanners give me the all green no pen ports, yet ppl can connect to my server port 443 from outside my network basically is this setup correctly or am I getting an erroneous reults possibly ?
+2006-03-19T10:33:00.000Z	tatters		ssl
+2006-03-19T10:34:00.000Z	rasputnik	tatters	what does 'netstat -pant|grep 443' say?
+2006-03-19T10:36:00.000Z	rasputnik	tatters	are you using some kind of proxy? maybe that runs https and you don't

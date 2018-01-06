@@ -1,0 +1,4 @@
+2006-06-02T11:37:00.000Z	mlalkaka		I followed the instructions to get suspend-to-ram working with my nvidia card from https://wiki.ubuntu.com/NvidiaLaptopBinaryDriverSuspend, but i can't find a button anywhere that allows me to do a suspend-to-ram. how to i actually suspend-to-ram now?
+2006-06-02T11:37:00.000Z	amphi	mlalkaka	echo mem | sudo tee /sys/power/state might do it
+2006-06-02T11:44:00.000Z	amphi	mlalkaka	with the command I suggested above?
+2006-06-02T11:50:00.000Z	mlalkaka	amphi	yes

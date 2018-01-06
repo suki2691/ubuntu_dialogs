@@ -1,0 +1,4 @@
+2008-04-23T02:50:00.000Z	pinksoviet		Sorry if I'm repeating my question too much, but does anybody have a way to make sysfsutils start at boot? It's for my trackpoint configuration, and I really don't want to type sudo /etc/init.d/sysfsutils start in terminal every time I start Ubuntu.
+2008-04-23T02:51:00.000Z	Speedy	pinksoviet	 yes
+2008-04-23T02:51:00.000Z	Speedy	pinksoviet	you can use a small bash script and tell the sessions manager to run it at boot
+2008-04-23T02:54:00.000Z	Speedy	pinksoviet	 you might wanna make the file your executing executable by your user rather than just root aswell

@@ -1,0 +1,4 @@
+2009-09-14T04:09:00.000Z	steven_		How do I not reply to ping requests?
+2009-09-14T04:10:00.000Z	steven_		Why would I not? Isn't it good for your computer to not be located?
+2009-09-14T04:11:00.000Z	tilt	steven_	echo 1 > /proc/sys/net/ipv4/icmp_echo_ignore_all
+2009-09-14T04:13:00.000Z	tilt	steven_	regular users may not make this setting

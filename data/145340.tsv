@@ -1,0 +1,4 @@
+2008-01-14T23:54:00.000Z	Brandon__		Is it a security feature or something to not be able to sudo su from certain users? I have to change to administrator before it recognizes my password on version 7.04
+2008-01-14T23:55:00.000Z	jrib	Brandon__	well, you shouldn't 'sudo su' anyway.  Use 'sudo -i' if you need to.  But, only users in the "admin" group can use sudo
+2008-01-14T23:56:00.000Z	Brandon__	jrib	ah that makes more sense. I got scared thinking it lost my password before I realized the pattern
+2008-01-15T00:06:00.000Z	jrib	Brandon__	you can't.  You can reset it though

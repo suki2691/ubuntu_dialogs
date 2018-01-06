@@ -1,0 +1,4 @@
+2010-09-29T00:35:00.000Z	Dynetrekk		hi. I've got a xubuntu box behind my adsl modem. how can I give the xubuntu box a fixed ip? (typically 10.0.0.4)
+2010-09-29T00:36:00.000Z	agentgasmask	Dynetrekk	Fixed as in static for the LAN?
+2010-09-29T00:37:00.000Z	Dynetrekk	agentgasmask	static for the LAN sounds right
+2010-09-29T00:38:00.000Z	agentgasmask	Dynetrekk	you need to edit the /etc/network/interfaces file to use a static ip, ie. not request one from the DHCP server on your router/modem. I'll see if I can find an easy how-to real quick...

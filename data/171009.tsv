@@ -1,0 +1,4 @@
+2008-11-04T18:42:00.000Z	junaid		how to uninstall kubuntu from ubuntu
+2008-11-04T18:43:00.000Z	slacker_nl	junaid	aptitude purge *kde* iirc
+2008-11-04T18:44:00.000Z	slacker_nl	junaid	run aptitude -s purge *kde* to see what you will remove/purge
+2008-11-04T18:50:00.000Z	slacker_nl	junaid	aptitude -s purge "~name(kde)" this is what you want

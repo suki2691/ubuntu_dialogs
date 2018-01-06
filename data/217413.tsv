@@ -1,0 +1,4 @@
+2005-10-09T15:31:00.000Z	selinium_		Hi guys, how do I change the (i think this is right) init level to switch off all GDM stuff and leave me with command line?
+2005-10-09T15:32:00.000Z	Kimahri	selinium_	init 3
+2005-10-09T15:36:00.000Z	Kimahri	selinium_	i believe that debian distros use level 2 as CLI
+2005-10-09T15:38:00.000Z	Kimahri	selinium_	just /etc/init.d/gdm stop will kill X

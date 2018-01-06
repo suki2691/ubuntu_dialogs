@@ -1,0 +1,4 @@
+2012-04-22T18:50:00.000Z	uzf		Does anyone know why I am not able to select a DVB device number (I.e., 0 or 1) in mythtv-setup?  It appears that kernel modules are loaded, but I don't have anything but "saa7146: register extension 'dvb'" when my system boots.
+2012-04-22T18:51:00.000Z	zykotick9	uzf	i'd check "dmesg | grep firmware" do you get any messages about missing?
+2012-04-22T18:53:00.000Z	uzf	zykotick9	nothing is there
+2012-04-22T18:53:00.000Z	zykotick9	uzf	ok, just checking.  best of luck.

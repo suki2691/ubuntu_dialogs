@@ -1,0 +1,4 @@
+2006-06-18T11:20:00.000Z	zquirm		hi. I'm installing a package, and it has various dependencies. How can I save that list of dependencies so that they can all be removed if I wish?
+2006-06-18T11:20:00.000Z	zquirm		without keeping the list by hand
+2006-06-18T11:21:00.000Z	[Ex0r] 	zquirm	when you remove the package it will remove the dependencies for it as well
+2006-06-18T11:30:00.000Z	[Ex0r] 	zquirm	your question was answered earlier. sudo nano /etc/apt/sources.list Comment out the line that says deb: cdrom (use a #)

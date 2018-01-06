@@ -1,0 +1,4 @@
+2005-01-30T07:45:00.000Z	skyrider		Hi guys. I'm using Warty and right now I try to build psycopg-1.1.18 from sources (because I need PostgreSQL database adapter for Zope) and I have a little problem: when I run configure it ends up with error message "checking for mxDateTime.h... configure: error: can't build without mx headers". It's obvious that there is some kind of development package not installed but I can't find what exactly. In Warty's repository there is only one package python2
+2005-01-30T07:46:00.000Z	jdub	skyrider	psycopg is in universe
+2005-01-30T07:48:00.000Z	skyrider	jdub	I know that, but actually I need zope-psycopgda which is part of psycopg source package.
+2005-01-30T07:50:00.000Z	skyrider	jdub	I can't use packages from universe because I use Zope that I built from source by myself ('cause I want to use newer version that is available for Warty)

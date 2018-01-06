@@ -1,0 +1,4 @@
+2006-09-10T12:45:00.000Z	Raul654		dmesg | grep 'eth0' -> VIA Rhine II at 0x1b000, and MII PHY found at address 1
+2006-09-10T12:45:00.000Z	Raul654		which one should I modprobe? And how do I force it to load that module every time at boot?
+2006-09-10T12:46:00.000Z	vasi	Raul654	you can put it in /etc/modules to load at boot
+2006-09-10T12:46:00.000Z	Raul654	vasi	- ok, thanks

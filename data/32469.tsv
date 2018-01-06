@@ -1,0 +1,4 @@
+2010-05-05T17:29:00.000Z	SandGorgon		is there a upstart service manager that lets me choose services (like mysql.etc.) that should be started/not-started on boot ?
+2010-05-05T17:29:00.000Z	BobMarley	SandGorgon	No, unfortunately not
+2010-05-05T17:30:00.000Z	BobMarley	SandGorgon	Sysv-rc-conf is for SysV services, not upstart jobs.  It has no effect on upstart.
+2010-05-05T17:31:00.000Z	SandGorgon	BobMarley	what I meant was that _earlier_ I used sysv-rc-conf

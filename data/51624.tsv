@@ -1,0 +1,4 @@
+2010-01-10T01:26:00.000Z	unapiedra		kpackagekit (GUI to aptitude) tells me I have 61 blocked updates. What are blocked updates and where could they come from?
+2010-01-10T01:27:00.000Z	DasEi1	unapiedra	it's often from packages currently in use, can try sudo init 1 , then netroot, then dpk..  to avoid this
+2010-01-10T01:27:00.000Z	unapiedra	DasEi1	would just closing the corresponding programms not help?
+2010-01-10T01:28:00.000Z	DasEi1	unapiedra	not always, if you think of the desktop itself f.e.

@@ -1,0 +1,4 @@
+2008-10-27T04:50:00.000Z	okidogi		Hi,all. I'm new to fetchmail, but where it stores my mail on my local machine?
+2008-10-27T04:50:00.000Z	Flannel	okidogi	Whereever you tell it to.
+2008-10-27T04:52:00.000Z	okidogi	Flannel	I use this command fetchmail -d0 -vk pop.gmail.com And I just configure the ~/.fetchmailrc withourt telling where to store.
+2008-10-27T04:52:00.000Z	Flannel	okidogi	It's in the default storage location then.  Either in your mail spool, or somewhere in your homedir (perhaps ~/Maildir)

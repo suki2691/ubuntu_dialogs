@@ -1,0 +1,4 @@
+2012-04-15T11:03:00.000Z	zykotick9	rdw200169	s/RAID is/backups are/
+2012-04-15T11:04:00.000Z	rdw200169	zykotick9	very true; not all of us have the luxury of remote site backups and SAN ;)
+2012-04-15T11:07:00.000Z	zykotick9	rdw200169	i agree RAID is good for uptime for servers, for desktops it makes no sense to me personally
+2012-04-15T11:11:00.000Z	rdw200169	zykotick9	ide_task RAID isn't the problem here; its stable, secure, reliable, especially in its (expensive) harware variants; the problem is when over-zealous admins have several arrays on one server, ea. with their own LVM volume group, and lots of huge over-extended ext3 partitions that can't be fsck'd... now THAT's a problem of overcomplication ;)

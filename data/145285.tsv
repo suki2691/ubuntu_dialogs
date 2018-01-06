@@ -1,0 +1,4 @@
+2007-02-19T12:21:00.000Z	h0g		hi all, I've having some issues with disk initialization order... I have two SATA disks in software RAID1, and I've added an adaptec SCSI card to the system and plugged in a RAID set.  the issue now is that the kernel is giving the SCSI card first crack at disk initialization and messing up the software raid so the system won't boot.  any ideas?
+2007-02-19T12:22:00.000Z	mage	h0g	you sure thats not a bios issue before the kernel?
+2007-02-19T12:26:00.000Z	h0g	mage	I disabled the SCSI BIOS on the adaptec card.. still no luck there
+2007-02-19T12:26:00.000Z	h0g	mage	looking at the disk ordering in the dell bios (it's a PE850) it should come up proper... but it doesn't

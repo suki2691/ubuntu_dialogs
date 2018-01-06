@@ -1,0 +1,4 @@
+2009-12-11T23:22:00.000Z	daf_		I have a dual monitor (different sizes) on Karmic with Nvidia card and after I login just before the desktop comes up the splash screen is chopped up into pieces. You can see the split on one monitor with panel bar going 3/4 of the way across the screen. Anyone know where the settings for that are?
+2009-12-11T23:23:00.000Z	Dr_Willis_	daf_	 the xplash stuff is a little dumb. You could just remove xsplash
+2009-12-11T23:24:00.000Z	Dr_Willis_	daf_	 i also always enable twinview in the nvidia-settings tool. That makes it work slightly better
+2009-12-11T23:25:00.000Z	Dr_Willis_	daf_	 you could just apt-get remove xsplash

@@ -1,0 +1,4 @@
+2012-04-06T08:51:00.000Z	Jasonxx		guys how to setup contab to start someone on reboot .. lets say i want to perform " screen -d -m rtorrent " on reboot .. how would i do it
+2012-04-06T08:52:00.000Z	Jasonxx		will something like @rboot screen -d -m rtorrent .. work?
+2012-04-06T08:52:00.000Z	accipter	Jasonxx	crontab executes commands regularly and isn't the right place for that
+2012-04-06T08:53:00.000Z	accipter	Jasonxx	did you try to google? this comes up as the first hit and looks pretty good. http://rpatterson.net/blog/screen-sessions-at-boot

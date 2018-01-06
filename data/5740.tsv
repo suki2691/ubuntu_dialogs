@@ -1,0 +1,4 @@
+2012-02-09T01:04:00.000Z	bananenkampf-de		hey, when i run netstat -tulpen and it's listening on a port and it has the foreign adress 0.0.0.0:*  what does it mean? is it only avaible from my device?
+2012-02-09T01:04:00.000Z	damo22	bananenkampf-de	it means it is listening on that port for anyone
+2012-02-09T01:05:00.000Z	bananenkampf-de	damo22	okay,. what can i do for detect the program? i want to know what it is
+2012-02-09T01:05:00.000Z	damo22	bananenkampf-de	lsof|grep TCP

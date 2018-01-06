@@ -1,0 +1,4 @@
+2005-10-23T16:18:00.000Z	dazvid		Does samba share internet between computers or only files?
+2005-10-23T16:18:00.000Z	dazvid		ah ok, whats a program that shares the internet over the network?
+2005-10-23T16:18:00.000Z	Ng	dazvid	it's done by a part of the kernel called "netfilter", which you can control with iptables.
+2005-10-23T16:19:00.000Z	Ng	dazvid	it's the main linux firewalling tool and the internet sharing is called "IP Masquerading" usually

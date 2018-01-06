@@ -1,0 +1,4 @@
+2011-03-02T02:00:00.000Z	GringoStar		I can't remove a nvidia broken package with apt-get install -f can someone tell me how to do it?  http://paste.ubuntu.com/574148/
+2011-03-02T02:01:00.000Z	geoffmcc	GringoStar	maybe sudo dpkg --remove --force-remove-reinstreq <package name>
+2011-03-02T02:02:00.000Z	GringoStar	geoffmcc	Thank you will try
+2011-03-02T02:09:00.000Z	GringoStar	geoffmcc	How can I know the exact name of the package?

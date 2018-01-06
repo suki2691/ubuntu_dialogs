@@ -1,0 +1,4 @@
+2010-08-02T16:18:00.000Z	Taev		I have an older version of ClamAV i installed on my Ubuntu 8.04 install, it doesn't offer the new version via synaptic. I installed Clamav and Klamav the front end from Synaptic, my question is, if I compile the new version of ClamAV from a source tarball in my home directory, can I also install Klamav in my home directory so it only works with the home directory clamav, and not the clamav installed system wide?
+2010-08-02T16:19:00.000Z	Taev		also if i "make install" a source tar ball, is there any tracking of where all of its packages were installed to if I want to remove it?
+2010-08-02T16:19:00.000Z	Taev		if I make install the newest version of ClamAV on my system and it turns out it doesn't work, do I have to track down every directory it created and delete them, or will simply reinstalling the older version via Synaptic Package Manager do the trick?
+2010-08-02T16:20:00.000Z	koshari1	Taev	use checkinstall

@@ -1,0 +1,4 @@
+2012-07-29T00:34:00.000Z	cronos2000	bekks	i will try that tnx
+2012-07-29T00:29:00.000Z	bekks	cronos2000	Whats the output of ifconfig -a? Put it into a pastebin please.
+2012-07-29T00:32:00.000Z	cronos2000	bekks	 i cant is on fried's machine his motherboard ethernet card died, but i remember ifconfig was showing a ipv6 network for that card
+2012-07-29T00:33:00.000Z	bekks	cronos2000	Then just run sudo dhclient ethX (replace X with the valid number)

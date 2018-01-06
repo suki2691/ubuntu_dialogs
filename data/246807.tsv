@@ -1,0 +1,4 @@
+2006-06-24T13:18:00.000Z	skavenge		Anyone dealt with a Dell 1350 wireless nic? Worked with ndiswrapper for days, says driver and hardware is present yet in device manager it still says its using a broadcom 43xx driver? how do i tell HAL or whatever to use the ndiswrapper driver instead of what it thinks it is?
+2006-06-24T13:20:00.000Z	spades	skavenge	find out whats loading the bad driver (lsmod) and modprobe -r it
+2006-07-04T06:43:00.000Z	spades	skavenge	if im not mistaken, it will only go as fast as the slowest thing which is your cdrom, maybe put that on secondary and it will be hdc and it wont slow down your harddrive
+2006-07-04T06:49:00.000Z	spades	skavenge	im not referring to errors, just general usage to keep them on different channels

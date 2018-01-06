@@ -1,0 +1,4 @@
+2012-11-12T12:22:00.000Z	AcidRain2012		hmmm... if bash doesnt have a goto function, how to i get back to the beginning of a script without having to rerun it manually?
+2012-11-12T12:23:00.000Z	AcidRain2012		i need to know this because im waiting on a device to be plugged in
+2012-11-12T12:25:00.000Z	AcidRain2012		what is adb? man adb gives nothing
+2012-11-12T12:25:00.000Z	timfrost	AcidRain2012	wrap the activity in a loop with a test to detect that the device is now plugged in?

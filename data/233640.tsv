@@ -1,0 +1,4 @@
+2005-08-03T07:56:00.000Z	se7enone		Why sometimes am I not able to open my cdroms either with the button or software eject?
+2005-08-03T07:57:00.000Z	ethics	se7enone	use lsof or fuser to see whats got hold of the device when it happens
+2005-08-03T07:58:00.000Z	ethics	se7enone	also see if umount works...if it fails then the error may elude info...
+2005-08-03T07:59:00.000Z	ethics	se7enone	theres a lazy unmount they say not to use for hard disks etc but dvds and cds shouldnt hurt too much....i think its umount -l  which will kill regardless of use\

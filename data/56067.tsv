@@ -1,0 +1,4 @@
+2009-05-30T03:35:00.000Z	Artelus		Hey guys.
+2009-05-30T03:35:00.000Z	Artelus		I have a question. Right now I am dual-booting both windows and ubuntu. If i were to go into windows system recovery and reset windows that way, would it touch my ubuntu installation? and more importantly, would GRUB still work?
+2009-05-30T03:37:00.000Z	Artelus		Alright, thanks guys. :)
+2009-05-30T03:37:00.000Z	pedrinhobrito	Artelus	it will consider the MBR is corrupted and will overwrite it, but the ubuntu instalation won't be touched. you can start from a livecd and reconfig grub

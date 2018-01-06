@@ -1,0 +1,4 @@
+2010-05-14T02:31:00.000Z	gridbag		what's the best way to do "su someuser -c /home/someuser/bin/onboot.sh" upon system startup? I want to do that in /etc/rc.local.
+2010-05-14T02:32:00.000Z	BlueEagle	gridbag	You are attempting to run a shell script as a given user at system startup?
+2010-05-14T02:32:00.000Z	gridbag	BlueEagle	exactly.
+2010-05-14T02:33:00.000Z	BlueEagle	gridbag	Well rc.local would be the place to call it I guess.

@@ -1,0 +1,4 @@
+2008-12-05T22:18:00.000Z	Mohero		hi all
+2008-12-05T22:19:00.000Z	Mohero		firefox has just stopped loading after a system lockup, it tells me it is already running, anyone know how to sort this/where it keeps its PID file ?
+2008-12-05T22:19:00.000Z	bor1	Mohero	~/.mozilla/firefox/[something].default/.parentlock
+2008-12-05T22:30:00.000Z	Mohero	bor1	thanks, that fixed my issue,  turnes out it had mounted /home in read only mode too.

@@ -1,0 +1,4 @@
+2008-05-02T02:57:00.000Z	aleatorio		 
+2008-05-02T02:57:00.000Z	aleatorio		Following this tutorial "http://www.vivaolinux.com.br/artigos/verArtigo.php?codigo=7115&pagina=2" I compiled the Apache, postgresql and configured, the two work. Php Compilei the only can'tI load the module in the php apache. Changed the Apache httpd.conf of adding "LoadModule php5_module modules/libphp5.so" but to try reinciar apache with the command apachectl restart it returns this error "httpd: Syntax error on line 54 of / etc/apache
+2008-05-02T02:57:00.000Z	aleatorio		2/conf/httpd . conf: Can not load / etc/apache2/modules/libphp5.so into server: / etc/apache2/modules/libphp5.so: can not open shared object file: No such file or directory. "
+2008-05-02T02:57:00.000Z	FloodBot1	aleatorio	Please don't flood, use http://paste.ubuntu.com to paste, don't use Enter as punctuation.

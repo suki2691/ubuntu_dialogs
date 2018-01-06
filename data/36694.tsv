@@ -1,0 +1,4 @@
+2010-03-04T09:50:00.000Z	DiploCat		what does it mean in a cron entry when it begins with [ -x command.sh ] ?
+2010-03-04T09:50:00.000Z	DiploCat		what is the -x ?
+2010-03-04T09:51:00.000Z	brjann	DiploCat	that's a test to exist that command.sh exists
+2010-03-04T09:53:00.000Z	brjann	DiploCat	no, that would in fact work in a shell. and no, it wouldn't necessarily report an error, it depends on what the rest of the cron command is

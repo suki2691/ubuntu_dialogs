@@ -1,0 +1,4 @@
+2010-06-28T16:40:00.000Z	steffan		in /etc/sudoers there is this line '%admins ALL=(ALL) ALL' - how do I make it so this group does not require a password to use sudo?
+2010-06-28T16:40:00.000Z	Kartagis	steffan	add PASSWD=ALL
+2010-06-28T16:41:00.000Z	steffan	Kartagis	in't ALL=(ALL) ALL enough for that?
+2010-06-28T16:42:00.000Z	Kartagis	steffan	I don't think so, sorry replace PASSWD with NOPASSWD

@@ -1,0 +1,4 @@
+2009-03-29T01:40:00.000Z	bluenzo^nix		i have a .tar file, how do I create a .tar.gz
+2009-03-29T01:41:00.000Z	erUSUL	bluenzo^nix	gzip file.tar
+2009-03-29T01:41:00.000Z	erUSUL	bluenzo^nix	tar can create that directly if you pass it the z option
+2009-03-29T01:42:00.000Z	erUSUL	bluenzo^nix	e.g. tar czf file.tar.gz dir_to_tar_up/

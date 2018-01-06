@@ -1,0 +1,4 @@
+2006-06-30T13:23:00.000Z	cwillu	arapehl	services generally won't do that automatically, unless they're for intended for that
+2006-06-30T13:24:00.000Z	arapehl		Hmmm, okay, thanks.
+2006-06-30T13:25:00.000Z	arapehl	trappist	ompaul, cwillu: cool, I think I understand now. so long as I don't have any services listening to the 'net, there's no real need for a firewall.
+2006-06-30T13:26:00.000Z	cwillu	arapehl	windows needs a firewall, because by default it has many things listening for instructions on any device capable of accepting a connection, and there isn't a thing you can do about it.  Also, any program that gets started on your machine can do the same, (including junk that ie makes available), and those programs all have root on your machine (unless you're one of the few who don't run under administrator)

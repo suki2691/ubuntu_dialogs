@@ -1,0 +1,4 @@
+2010-08-28T02:37:00.000Z	scooter		New to linux is there a way to make a memory stick part of the memory with the 512 in the computer
+2010-08-28T02:37:00.000Z	ActionParsnip	scooter	you can use as swap space
+2010-08-28T02:38:00.000Z	ActionParsnip	scooter	ram is ridiculously cheap now, why not grab some, you can get a 1Gb stick for the price of a pack of smokes
+2010-08-28T02:40:00.000Z	ActionParsnip	scooter	you will need to make a partition on the device and format it to swapfs. You can then run: sudo blkid   and get its UUID. You can then add the device in /etc/fstab and the OS will use it as swap

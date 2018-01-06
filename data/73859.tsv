@@ -1,0 +1,4 @@
+2010-03-25T23:31:00.000Z	blakkheim		what would i use to format and use the 2TB WD20EADS hard drive? it's not showing up in fdisk -l
+2010-03-25T23:32:00.000Z	tuxuser	blakkheim	is it an usb disk or internal sata disk ?
+2010-03-25T23:33:00.000Z	blakkheim	tuxuser	it's an internal sata disk  in a usb dock
+2010-03-25T23:34:00.000Z	tuxuser	blakkheim	thus it's connected through usb, right ? Then unplug and plug it back typing dmesg in a terminal a few times in the meantime. It should show what device it's identified as.

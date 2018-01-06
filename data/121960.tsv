@@ -1,0 +1,4 @@
+2007-09-13T06:04:00.000Z	Marduk		Hello, I need to delete a file everytime the system starts. I put it in sessions but it doesn't work. Whats another way of doing it?
+2007-09-13T06:05:00.000Z	fermatstheorem	Marduk	/etc/init.d
+2007-09-13T06:05:00.000Z	fermatstheorem	Marduk	or somewhere in xinetd
+2007-09-13T06:06:00.000Z	Marduk	fermatstheorem	so just copy the shell script to /etc/init.d and it'll automatically do it on startup, or do I need to do anything else?

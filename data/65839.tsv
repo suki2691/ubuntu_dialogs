@@ -1,0 +1,4 @@
+2009-03-02T09:38:00.000Z	^paradox^		i need a textual list of the files in a certain folder with full file names including extensions and in alphabetical order. is there a terminal command that will do this for me?
+2009-03-02T09:40:00.000Z	^paradox^		anyone know?
+2009-03-02T09:41:00.000Z	mikewu	^paradox^	find `pwd` | sort
+2009-03-02T09:41:00.000Z	mikewu	^paradox^	if you don't want it to be recursive change it to find `pwd` -maxdepth 1 | sort

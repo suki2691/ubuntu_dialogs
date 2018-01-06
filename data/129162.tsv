@@ -1,0 +1,4 @@
+2007-10-23T21:50:00.000Z	benno2		hi, I installed ubuntu on a HD but now I am using the HD on a different PC but X11 does not come up, even though in xorg.conf driver is set to vesa. any idea if I can run some hardware autodetect again ? (the new pc's config is a bit different) thanks
+2007-10-23T21:50:00.000Z	benno2		using feisty fawn
+2007-10-23T21:51:00.000Z	benno2		any idea if ubuntu has some sort of x86setup ?
+2007-10-23T21:52:00.000Z	teratoma	benno2	have you tried sudo dpkg-reconfigure xserver-xorg

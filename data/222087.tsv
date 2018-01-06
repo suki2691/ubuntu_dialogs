@@ -1,0 +1,4 @@
+2010-11-04T09:13:00.000Z	gqz		Anyone have any advice for me?
+2010-11-04T09:14:00.000Z	gqz		I'm planning to update from 10.04 to 10.10 and have a seperate /home partition.  Last time I did this I had to reinstall many of my programs (I'm assuming they were installed in /usr).  Anyway I can avoid this during this update?  Or should I just move /usr to a seperate partition, or just count it as a loss and reinstall?
+2010-11-04T09:14:00.000Z	Stormx2	gqz	Upgrading shouldn't remove any of your programs, and your home partition being on a different partition makes no difference
+2010-11-04T09:15:00.000Z	Stormx2	gqz	if you're referring to installing 10.10 on top of 10.04, it'd be better to simply make a list of the programs you installed and then reinstall them when you boot back up. The behaviour of just backing up /usr is undefined

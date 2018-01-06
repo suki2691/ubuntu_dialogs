@@ -1,0 +1,4 @@
+2008-08-02T06:04:00.000Z	flats		I umounted a partition that a created out of free space but had a mountpoint of /.  I did a umount -l and noe Gparted does not find any devices at all.  No hard drive at all listed.  Is that normal or did I just hose myself and can never reboot again?
+2008-08-02T06:04:00.000Z	Sylphid	flats	you did not hose yourself
+2008-08-02T06:07:00.000Z	Sylphid	flats	you should be able to re open gparted and manually tell it to scan /dev/sda
+2008-08-02T06:10:00.000Z	Sylphid	flats	i agree with Baby_Shambl3s

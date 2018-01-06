@@ -1,0 +1,4 @@
+2005-09-17T11:42:00.000Z	kwolf		damn.  still lookinf for a little NetworkManager help
+2005-09-17T11:43:00.000Z	bob2	kwolf	you don't seem to have explained the problem yet
+2005-09-17T11:45:00.000Z	kwolf	bob2	network-manager is installed.  It keeps setting my resolv.conf to my local dns server.  I want to use my existing settings, or DNS provided by DHCP.  Also NM seems to be a pretty current CVS build, is the VPN support working?
+2005-09-17T11:46:00.000Z	bob2	kwolf	er...it should be pointing /etc/resolv.conf at bind9 running on the same machine, afaik

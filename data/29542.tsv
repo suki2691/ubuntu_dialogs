@@ -1,0 +1,4 @@
+2010-07-31T15:07:00.000Z	chrislabeard		It keeps saying --- chown: www-data: Invalid argument
+2010-07-31T15:08:00.000Z	NeverCast	chrislabeard	what are you trying to do?
+2010-07-31T15:08:00.000Z	chrislabeard	NeverCast	I'm trying to use this for a test server so I need to be able to upload directories and allow my server to write to them.
+2010-07-31T15:08:00.000Z	NeverCast	chrislabeard	try chown -R www-data; chown -R wwmcd

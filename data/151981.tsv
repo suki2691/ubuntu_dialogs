@@ -1,0 +1,4 @@
+2007-05-16T10:27:00.000Z	Henica		Morning guys. I was wondering -- is there a built in FTP program for ubuntu? Or is there another way that I can interact with the files on my server? Or would you suggest a program that I can do this with?
+2007-05-16T10:28:00.000Z	Henica		*giggles* Can I get those by doing sudo apt-get?
+2007-05-16T10:28:00.000Z	IntuitiveNipple	Henica	sshfs is good - it uses the existing ssh server
+2007-05-16T10:28:00.000Z	IntuitiveNipple	Henica	With sshfs you can mount your remote server directories in your local file system

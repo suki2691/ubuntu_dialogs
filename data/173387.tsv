@@ -1,0 +1,4 @@
+2009-12-16T06:48:00.000Z	feifongwong		Question: new to ubuntu, - 9.10 amd64 advanced install: I have a 750GB HD. want to set up 1 system partition: got 25GB "/" main system drive, 10GB "swap". question is I want to set the rest of the drive as just storage, unsure on what mount point to use for this? I come from the windows world. thx
+2009-12-16T06:48:00.000Z	feifongwong		Flannel ok thanks, will try it out
+2009-12-16T06:50:00.000Z	sebsebseb	feifongwong	by default home goes in /  seperate home partitions can be rather useful.   if you have a big seperate /home  you only need like 10GB for /   also SWAP space depends on how much RAM you have and if you want to hibernate the computer or not
+2009-12-16T07:00:00.000Z	sebsebseb	feifongwong	ok,  and by the way you can move  home to a seperate partition after install

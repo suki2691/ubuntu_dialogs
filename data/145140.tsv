@@ -1,0 +1,4 @@
+2007-02-22T08:32:00.000Z	lumination		hey.  What can I do to stop fsck from complaining on boot and throwing me into a maintenance prompt after changing partitions?  I can boot as normal by exiting the maintenance prompt with ^d but I don't want to have to do that every time I reboot
+2007-02-22T08:33:00.000Z	dyrne	lumination	there is a checkfs.sh or somesuch in /etc/init.d/  you can either sudo chmod -x /etc/init.d/whatever or sudo update-rc.d -f whatever remove
+2007-02-22T08:34:00.000Z	lumination	dyrne	I really want to be able to have the filesystem checked tho
+2007-02-22T08:35:00.000Z	dyrne	lumination	/ should still be checked

@@ -1,0 +1,4 @@
+2011-09-16T18:34:00.000Z	prod_		Hi guys, Im having trouble with gparted and resizing a NTFS partition. I saved the error message and i have "ERROR: 2930 clusters are referenced multiply times." In the error report it says to go to windows and do chkdsk /f but my windows OS just flakes out when i try to use the hdd in any way. I ran chkdsk /f  on installation disc and it completed but the problem is not solved .Any help would be hugely appreciated
+2011-09-16T18:35:00.000Z	prod_		linux is the only thing that doesnt flake out when i connect the hdd
+2011-09-16T18:36:00.000Z	magentar	prod_	i would copy the files to another drive and simply delete the partition
+2011-09-16T18:37:00.000Z	magentar	prod_	sounds like the drive might be damaged

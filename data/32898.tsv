@@ -1,0 +1,4 @@
+2010-05-01T13:27:00.000Z	Ranakah		hi all.. how to check what graphic driver is used in ubuntu 10.04?
+2010-05-01T13:29:00.000Z	nazgul_	Ranakah	Check your /var/log/Xorg.0.log
+2010-05-01T13:33:00.000Z	nazgul_	Ranakah	line 122: RADEON: Driver for ATI Radeon chipsets => you are using the open source raden driver
+2010-05-01T13:34:00.000Z	Ranakah	nazgul_	tnx :) cause in 10.04 is my 3d very slow

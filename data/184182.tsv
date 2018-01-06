@@ -1,0 +1,4 @@
+2006-05-29T05:43:00.000Z	Lordthund		guys, what does dpkg --get-selecitons really tell me?
+2006-05-29T05:43:00.000Z	Lordthund		--get-selections *
+2006-05-29T05:43:00.000Z	nickrud	Lordthund	it tells you what packages you have installed, in a format you can use with --set-selections
+2006-05-29T05:44:00.000Z	Lordthund	nickrud	ah.. not really.. it seems.. installting mysql-server-4.1 still fails, but dpkg --get-selections says it's installed

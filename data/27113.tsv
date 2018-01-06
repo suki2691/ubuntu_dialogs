@@ -1,0 +1,4 @@
+2011-06-25T08:55:00.000Z	yardleydobon		In nautilus in the Places sidepane I have a link to an old mount that isn't there any more. Is there a way to delete this link?
+2011-06-25T08:56:00.000Z	qin	yardleydobon	Does it exist in /media/ directory?
+2011-06-25T08:59:00.000Z	yardleydobon	qin	It is a link to mount windows. I installed a new harddrive and moved some partitions around. Now I have a link called 53 GB Filesystem and one called windows. The 53 GB link mounts to /media/windows.
+2011-06-25T09:01:00.000Z	qin	yardleydobon	sudo rm /media/windows (you can try sudo umount /media/windows prior to rm)

@@ -1,0 +1,4 @@
+2009-02-09T04:18:00.000Z	gorgapor		I am having a very serious and wierd problem: the file /etc/resolv.conf cannot be accessed or removed, giving the error message "Stale NFS file handle". Because of this, I have no DNS capability. How do I fix this? Why would /etc/resolv.conf even be on a networked file system?
+2009-02-09T04:19:00.000Z	n8tuser	gorgapor	-> without resolv.conf you can not resolve names to ip address
+2009-02-09T04:19:00.000Z	gorgapor	n8tuser	yes, i am aware that i can't resolve names, and it's very annoying :)
+2009-02-09T04:20:00.000Z	n8tuser	gorgapor	-> cant you relate?  network file system  -- to resolve those network addresses you require resolv.conf

@@ -1,0 +1,4 @@
+2010-05-24T01:11:00.000Z	Barridus		the command "service crond status" spits out "unrecognized service".  same with service cron start.  the command "/etc/init.d/crond start" spits back "no such file or directory".  how can i have the Cron package installed but not have hte service?  none of my jobs will run.  anyone know what's going on here?
+2010-05-24T01:12:00.000Z	maco	Barridus	ls /etc/init.d/ and see whats there? i thin its actually anacron
+2010-05-24T01:12:00.000Z	maco		*think
+2010-05-24T01:13:00.000Z	Barridus	maco	"cron" is there and not an "atacron"

@@ -1,0 +1,4 @@
+2007-05-17T15:16:00.000Z	SkaKri		hi, can someone please help me to find a solution - how to add my default user back to admin group? i installed VirtualBox, and i misunderstood: added default user to group vbxusers. so, i cannot use sudo anymore. only thing i got thru - i set up the root pasword (thru GRUB screen). i don't know any solution and google remains silent... :/
+2007-05-17T15:17:00.000Z	SkaKri		can you tell me the line? i'm new to console and stuff
+2007-05-17T15:17:00.000Z	Flannel	SkaKri	you don't set the root password, just use the recovery mode.  usermod -G admin -a [usrname] 
+2007-05-17T15:18:00.000Z	Flannel	SkaKri	usermod -G [groups]  by default replaces the auxilliary groups, thats why you need to remember the -a for append.

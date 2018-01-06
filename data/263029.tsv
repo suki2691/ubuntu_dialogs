@@ -1,0 +1,4 @@
+2006-12-20T17:06:00.000Z	naelphin		how do i see if dma is beign used?
+2006-12-20T08:34:00.000Z	naelphin		how can i test if xorg is using 2d acceleration?
+2006-12-20T08:35:00.000Z	mjr	naelphin	grep -i driver /etc/X11/xorg.conf and if it doesn't say vesa or fbsomething there you're highly likely to have _some_ 2d acceleration
+2006-12-20T08:38:00.000Z	mjr	naelphin	yes it is

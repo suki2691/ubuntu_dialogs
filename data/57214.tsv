@@ -1,0 +1,4 @@
+2011-01-22T10:14:00.000Z	mintux		how can I find my usb path. suppose I connect a device to usb port. how can I know what is path of my that usb ? forexample /dev/tty.. what ?
+2011-01-22T10:14:00.000Z	bastidrazor	mintux	look in dmesg, it will tell you.
+2011-01-22T10:15:00.000Z	mintux	bastidrazor	dmesg | grep usb ?
+2011-01-22T10:17:00.000Z	bastidrazor	mintux	more than likely you'll want to use the mount point it is using instead of the /dev

@@ -1,0 +1,4 @@
+2006-03-26T10:34:00.000Z	zF^2		If uname -a reports I'm using the 686 kernel why did apt-get dist-upgrade also download the 386 kernel?
+2006-03-26T10:35:00.000Z	khermans	zF^2	because you have not purged the old copy
+2006-03-26T10:35:00.000Z	zF^2	khermans	that's right. Makes perfect sense, thanks.
+2006-03-26T10:35:00.000Z	khermans	zF^2	aptitude purge linux-386

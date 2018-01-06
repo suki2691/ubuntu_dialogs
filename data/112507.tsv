@@ -1,0 +1,4 @@
+2010-06-20T11:05:00.000Z	oddtod		hey guys I am having an issue with ubuntu 10.4 connecting to a windows share. I have the share setup correctly and can access from other windows boxes but cannot connect from Ubuntu 64 bit OS. It asks like i am putting in the incorrect password when i try to access the machine
+2010-06-20T11:05:00.000Z	Dr_Willis	oddtod	 some times i have to enter the proper path to the share competely the first time and enter the password..  could also be your workgroup setting.
+2010-06-20T11:07:00.000Z	oddtod	Dr_Willis	the workgroups are the same and i added wins and that actually allowed me to see the windows names. What do you mean the full path the share is names shares so //TOMCAT/SHARES?
+2010-06-20T11:07:00.000Z	Dr_Willis	oddtod	 ive had issues befor with wins,  i normally have to enter in nauitlus the full path like   smb://server/sharename/    and it then prompts for the pass/user  and i tell it to rember. (i normally bookmark it also)

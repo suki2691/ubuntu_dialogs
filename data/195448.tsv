@@ -1,0 +1,4 @@
+2007-08-18T07:52:00.000Z	mtx1		hey im trying to restore a backup from split files i use this command  sudo cat part.tar.gz* | tar xzvf-                         what am i missing i get error  sudo cat part.tar.gz* | tar xzvf-
+2007-08-18T07:52:00.000Z	kitche	mtx1	it's becuase your using the wrong commands
+2007-08-18T07:53:00.000Z	kitche	mtx1	no cat will show you the binary stuff of the tar.gz
+2007-08-18T07:55:00.000Z	kitche	mtx1	you don't tar should have a extract one tar file and the rest should follow or you will have to extract each one seperately

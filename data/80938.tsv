@@ -1,0 +1,4 @@
+2008-10-17T11:11:00.000Z	serene		hi , i am using the command sudo alien -k test-1.0.0-1.i386.rpm,sudo dpkg -i --instdir=/tmp/test test_1.0.0-1_i386.deb in a shell script but i am getting the error dpkg: error processing test_1.0.0-1.i386.deb (--install): cannot access archive: No such file or directory ( i am new to ubuntu pls can any one help me) i can run a single command sudo alien -i test-1.0.0-1.i386.rpm but i wanna...
+2008-10-17T11:11:00.000Z	serene		...change the install directory ...so wat can i do for this
+2008-10-17T11:12:00.000Z	outbackwifi	serene	cd /to/the/directory/that/contains/the/deb/or/rpm/file and then run the command
+2008-10-17T11:13:00.000Z	outbackwifi	serene	if you are new to ubuntu, the last thing you should try is to install rpms using alien

@@ -1,0 +1,4 @@
+2007-02-25T17:53:00.000Z	ompaul	tenco	sudo apt-get remove --purge package-name   then remove any local config file in the users home directories
+2007-02-25T17:54:00.000Z	tenco	ompaul	jep. but i dont know all packagenames yet. are there any ways to find them automagically?
+2007-02-25T17:54:00.000Z	ompaul	tenco	ls /var/cache/apt/archives <<<  in there - but it still does not remove the packages you have config files in your home dir
+2007-02-25T17:55:00.000Z	ompaul	tenco	apt-get or that cut down version aptitude is magic - just not a miracle worker :)

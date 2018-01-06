@@ -1,0 +1,4 @@
+2009-08-03T02:53:00.000Z	benno_fra_dk		Please help - Deleted files in /etc/bluetooth/*. How to restore. Reinstalling packages did not bring back configuration files.
+2009-08-03T02:55:00.000Z	ctmjr	benno_fra_dk	did you just reinstall the package or remove it then install
+2009-08-03T02:55:00.000Z	benno_fra_dk	ctmjr	apt-get remove and apt-get install
+2009-08-03T02:57:00.000Z	ctmjr	benno_fra_dk	try sudo apt-get --purge remove "package" then sudo apt-get install "package"  (2 different commands)

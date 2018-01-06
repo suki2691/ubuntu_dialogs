@@ -1,0 +1,4 @@
+2005-10-21T16:31:00.000Z	bunoc		hi. anybody please tell me how to install OpenOffice2 in Breezy?
+2005-10-21T16:32:00.000Z	bunoc		i found some packages like openoffice.org2, but dont see the binary to run it ?
+2005-10-21T16:32:00.000Z	robotgeek	bunoc	find complete path to new openoffice, and execute.
+2005-10-21T16:33:00.000Z	robotgeek	bunoc	dpkg -L <package> | less see where the new one is

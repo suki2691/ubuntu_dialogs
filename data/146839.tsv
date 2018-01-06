@@ -1,0 +1,4 @@
+2007-06-17T16:01:00.000Z	JC_Denton_		Is there a non graphical login manager to speed up booting? (I still want to load the GUI)
+2007-06-17T16:02:00.000Z	cables	JC_Denton_	the time spent loading the login screen is the time spent loading the GUI, so if you disable that, it'll take just as long to start up.
+2007-06-17T16:04:00.000Z	cables	JC_Denton_	if you disable it from starting GDM (I forget how though) it'll just kick you to a commandline login. After you log in, you'll have to start the GUI manually with "startx" though.
+2007-06-17T16:04:00.000Z	cables	JC_Denton_	and that's what'll take just as long as starting GDM.

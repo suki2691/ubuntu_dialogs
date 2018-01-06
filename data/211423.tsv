@@ -1,0 +1,4 @@
+2005-12-31T10:24:00.000Z	UbuntuNewbie		I am Using the latest Ubuntu Live CD.  I am following instructions at https://wiki.ubuntu.com/RealplayerInstallationMethods?highlight=%28player%29%7C%28real%29 to install real player directly from REal.  The .bin file is on my desktop, but if I type "sudo ./RealPlayerGold.bin"  it says "Command Not Found"  Why and how do I fix it?
+2005-12-31T10:25:00.000Z	SEJeff	UbuntuNewbie	And make sure that ~/Desktop is your working directory
+2005-12-31T10:27:00.000Z	SEJeff	UbuntuNewbie	do "cd ~/Desktop" then do "sh ./RealPlayerGold.bin"
+2005-12-31T10:28:00.000Z	SEJeff	UbuntuNewbie	If you use sh RealPlayerGold.bin, you don't have to make it executable and that saves you 1 step

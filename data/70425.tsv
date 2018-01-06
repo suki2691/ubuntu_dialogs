@@ -1,0 +1,4 @@
+2010-05-03T12:36:00.000Z	Chetic		my wlan card is listed as supported by kernel 2.6.32 and later. I have 2.6.32. why does wifi not work for me on my fresh install?
+2010-05-03T12:37:00.000Z	grandrew	Chetic	your card may have not yet been added to hotplug, so you'll have to enable the driver manually
+2010-05-03T12:38:00.000Z	Chetic	grandrew	I've figured out the driver is b43 and I've done modprobe b43 but nothing happens. do I need to do something more?
+2010-05-03T12:41:00.000Z	grandrew	Chetic	I dont know anything about b43 but I'd recommend you to log out and log in without rebooting as a final check. You may consult 'dmesg' and 'iwconfig' to get more info from the driver

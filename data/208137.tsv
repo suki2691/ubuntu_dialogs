@@ -1,0 +1,4 @@
+2005-11-08T15:26:00.000Z	morphine		my runlevel 6 is broken, it doenst reboot the machine and gives me a prompt, and the reboot comand doesnt load the runlevel 6 script anymore, someone knows how to restore it?
+2005-11-08T15:26:00.000Z	penguinbrat	morphine	does "telinit 6" work from the command line?
+2005-11-08T15:27:00.000Z	morphine	penguinbrat	i'll have to check
+2005-11-08T15:28:00.000Z	penguinbrat	morphine	I think the reboot command is just a short cut to telinit 6 (changing runlvls) so be prepared if it works ;-)

@@ -1,0 +1,4 @@
+2009-06-12T17:40:00.000Z	m1chael		i have a new ubuntu server.. (never used ubuntu before. coming from freebsd..)  .. im trying to get postfix running.. (i guess there is no MTA enabled by default?) i see this article. https://help.ubuntu.com/community/Postfix # is this the way i should install it? "sudo aptitude install postfix" ??/
+2009-06-12T17:42:00.000Z	m1chael		i chose 'no configuration' with postfix.. was that bad?
+2009-06-12T17:43:00.000Z	sipior	m1chael	depends on whether you wanted to use your machine as a mail server or not, i imagine :-)
+2009-06-12T17:47:00.000Z	sipior	m1chael	you can always try "sudo dpkg-reconfigure postfix", if you want a do-over.

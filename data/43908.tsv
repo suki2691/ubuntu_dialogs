@@ -1,0 +1,4 @@
+2010-05-18T03:10:00.000Z	kjele	dunas	The one that you install from rep is 32bit with ndiswrapper
+2010-05-18T03:10:00.000Z	dunas	kjele	yeah
+2010-05-18T03:10:00.000Z	dunas		It doesn't recognize mouseclicks as it is right now, and keeps dropping audio (although so does DivX web plugin, which is making me wonder if there's not a better way of handling that)
+2010-05-18T03:11:00.000Z	kjele	dunas	sudo add-apt-repository ppa:sevenmachines/flash && sudo apt-get update && sudo apt-get install flashplugin64-installer

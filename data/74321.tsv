@@ -1,0 +1,4 @@
+2009-07-20T16:38:00.000Z	MyWay		I've installed Ubuntu 9.04 from the Alternate CD, because i wanted to install fake raid0, the problem is that, when i reboot at the end of the installation, i get: Missing operating system, before Grub's menu, somebody klnow what could be?
+2009-07-20T16:39:00.000Z	oskar-	MyWay	 but grub loads anyway?
+2009-07-20T16:41:00.000Z	oskar-	MyWay	 is your root file system on a raid 0?
+2009-07-20T16:45:00.000Z	oskar-	MyWay	 hm, have you followed a guide? because this seems strange to me. grub would perhaps load, but would not be able to read a kernel image from a filesystem inside a raid0, except if the bios knows to handle it

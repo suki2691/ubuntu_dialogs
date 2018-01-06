@@ -1,0 +1,4 @@
+2006-07-06T08:55:00.000Z	LastExyle		hello, can anyone spare a moment for a (porbably) quick question?
+2006-07-06T08:57:00.000Z	LastExyle		I installed pure-ftpd, and it works fine, but I need to set it up to accept passive connections, right now it starts with the command "/usr/sbin/pure-ftpd -l pam -u 1000 -E -O clf:/var/log/pure-ftpd/transfer.log -B", but I need to add -p 50000:50500 to that somehow
+2006-07-06T08:59:00.000Z	LastExyle		anyone?
+2006-07-06T09:00:00.000Z	StriderZ	LastExyle	man pure-ftpd

@@ -1,0 +1,4 @@
+2006-03-25T10:43:00.000Z	WoC		what would be a good way to find a packages related to apt-get ? such as packages for verifying package signature
+2006-03-25T10:43:00.000Z	WoC		oops, a packages = all packages
+2006-03-25T10:44:00.000Z	pestilence	WoC	apt uses gnupg to verify signatures
+2006-03-25T10:45:00.000Z	pestilence	WoC	apt-get install --reinstall ubuntu-keyring

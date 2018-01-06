@@ -1,0 +1,4 @@
+2010-09-29T09:42:00.000Z	logankoester		If I remove my primary drive while installing windows to a 2nd drive and then add it to grub later, will that prevent windows from nuking the bootloader?
+2010-09-29T09:44:00.000Z	icarus-c	logankoester	Windows will nuke MBR on 2nd drive. which shouldn't matter if BIOS detect the grub one as 1st drive
+2010-09-29T09:44:00.000Z	logankoester	icarus-c	that's fine, 2nd drive is just a mounted extra
+2010-09-29T09:44:00.000Z	logankoester	icarus-c	so I should be fine right?

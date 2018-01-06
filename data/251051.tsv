@@ -1,0 +1,4 @@
+2008-02-20T06:05:00.000Z	WhiteNerd		Does anyone know of a good tutorial of how to deploy a file server and have desktop machines connect to it to transfer file to and from. I also need Remote Desktop to be able to run. I'm setting up a computer lab
+2008-02-20T06:07:00.000Z	levander	WhiteNerd	You need samba for the file server.  And, Applications -> Internet -> Terminal Server Client for the remote access into Windows boxes.
+2008-02-20T06:09:00.000Z	levander	WhiteNerd	ssh, vnc, xdmcp are UNIX to UNIX options for remote access
+2008-02-20T06:10:00.000Z	levander	WhiteNerd	I think ssh is the easiest to set up, but having Samba setup is going to be the easiest for users to use.

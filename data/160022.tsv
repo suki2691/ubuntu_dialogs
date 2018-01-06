@@ -1,0 +1,4 @@
+2007-11-04T04:38:00.000Z	Curley_Sue		hi all. I have accidently chosen the wrong keyboard layout during the installation. I can get it right for X session but not for the tty... any ideas (need to switch from GB to US)
+2007-11-04T04:40:00.000Z	jrib	Curley_Sue	sudo dpkg-reconfigure console-data  (though there may be another way I am unaware of)
+2007-11-04T04:42:00.000Z	Curley_Sue	jrib	I'll try that!
+2007-11-04T04:47:00.000Z	Curley_Sue	jrib	I'll see after reboot if that has done the trick. thanx a lot!

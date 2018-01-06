@@ -1,0 +1,4 @@
+2007-12-02T19:39:00.000Z	Guest16155		how i can change the name of the file with wget command ? (http://www.demo.com/demo.zip - i would like this file to be file01.txt) ?
+2007-12-02T19:40:00.000Z	Guest16155		does i can use ">" for exm.... : wget http://www.demo.com/demo.zip > file01.txt ?
+2007-12-02T19:41:00.000Z	soundray	Guest16155	no, use the -O option (explanation in man wget)
+2007-12-02T19:41:00.000Z	soundray	Guest16155	what you're trying to do doesn't really make sense, btw

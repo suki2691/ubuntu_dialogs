@@ -1,0 +1,4 @@
+2011-11-18T07:14:00.000Z	MestreLion		so no sudo needed... ill try with "--download-only
+2011-11-18T07:15:00.000Z	szal	MestreLion	building from source is an entirely different beast than handling binary pkgs
+2011-11-18T07:20:00.000Z	szal	MestreLion	as said previously.. -> 'apt-get install --download-only $package1 $package2 [...]'
+2011-11-18T07:21:00.000Z	MestreLion	szal	this only works as root/sudo ... and only downloads to /var/apt/cache ... i needed a non-root version of that, that downloads to current dur, just like apt-get souce does

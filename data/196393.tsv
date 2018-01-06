@@ -1,0 +1,4 @@
+2009-01-18T11:44:00.000Z	P4C0		hello guys
+2009-01-18T11:44:00.000Z	P4C0		guys one question, is it possible to install swat on ubuntu server?
+2009-01-18T11:46:00.000Z	P4C0		i did a sudo apt-get install swat but it didn't start, the line got included in inetd.conf but I don't know how to start it... it seems not to have inetd.conf... since its the only line
+2009-01-18T11:46:00.000Z	dr_Willis	P4C0	 ubuntu dont use inetd.conf by default i think. you can start swat manually or rom rc.local if you wanted. I dont like swat much

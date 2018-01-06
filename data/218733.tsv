@@ -1,0 +1,4 @@
+2012-03-06T21:39:00.000Z	blaxbb		I managed to break postfix's config while installing it (invalid character in the server name.)  Any way to force the configuration options again on install?
+2012-03-06T21:39:00.000Z	sipior	blaxbb	"sudo dpkg-reconfigure postfix", if i follow you correctly.
+2012-03-06T21:41:00.000Z	sipior	blaxbb	then install it.
+2012-03-06T21:42:00.000Z	sipior	blaxbb	that's an amusing error. can you remove/purge the package, and try again?

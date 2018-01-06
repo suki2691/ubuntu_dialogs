@@ -1,0 +1,4 @@
+2007-09-20T11:46:00.000Z	Frogzoo_	Takagami	depends really how your isp is authenticating - chap is pretty straightforward - update your /etc/ppp/chap-secrets & make sure in /etc/ppp/peers/dsl-provider you see a line "user youruser@blah"
+2007-09-20T11:54:00.000Z	Takagami	Frogzoo_	Would I be using the peers/dsl-provider for dialup? Yes it's ubuntu/gusty/2.6.22-10-generic using Linuxant drivers on a Conexant HSF (should have mentioned that)...
+2007-09-20T11:54:00.000Z	Frogzoo_	Takagami	for gutsy support -> #ubuntu+1
+2007-09-20T11:55:00.000Z	Frogzoo_	Takagami	but yes, dsl-provider is the default ppp config, and /etc/ppp/chap-secrets is where chap gets authentication details

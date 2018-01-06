@@ -1,0 +1,4 @@
+2010-01-12T11:06:00.000Z	NFischer		ive just installed nmap manually.. it works, but i cant deinstall it via dpkg -r it says, its not installed Oo
+2010-01-12T11:07:00.000Z	powertool08	NFischer	If you install from source it won't show up in apt unless you used checkinstall
+2010-01-12T11:07:00.000Z	NFischer	powertool08	shoots.. how can i deinstall then?
+2010-01-12T11:07:00.000Z	powertool08	NFischer	You have to uninstall with 'make uninstall' in the same directory you ran 'make install'

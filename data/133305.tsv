@@ -1,0 +1,4 @@
+2007-05-26T11:54:00.000Z	RobbieCrash		I'm trying to add smb shares remotely, so all I have is an ssh session, how can I share folders without using the gui? Do I just need to edit /etc/samba/smb.conf and add in the folders and basically use the cd rom sample but change [cdrom]  to the name of the share, and the path to whatever the folder is?
+2007-05-26T11:54:00.000Z	Sh3r1ff	RobbieCrash	just put the folders in your samba config fule restart samva and you're done
+2007-05-26T11:55:00.000Z	RobbieCrash	Sh3r1ff	just anywhere in there?
+2007-05-26T11:56:00.000Z	Sh3r1ff	RobbieCrash	of course you habe to follow the syntax of the samba config file ;)

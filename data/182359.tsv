@@ -1,0 +1,4 @@
+2006-08-06T09:40:00.000Z	it1957		only locks up.
+2006-08-06T09:41:00.000Z	stefg	it1957	so this happens when you try to boot without any additional parameters?
+2006-08-06T09:43:00.000Z	stefg	it1957	what hardware is that?
+2006-08-06T09:46:00.000Z	stefg	it1957	compaq sometimes has a strange way of setting the master/slave things up with cable select. Might be that the Bios and the kernel cannot agree on the IDE handling. Testing with switched of DMA might also help

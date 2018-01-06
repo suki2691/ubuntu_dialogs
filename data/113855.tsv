@@ -1,0 +1,4 @@
+2007-11-16T00:53:00.000Z	davidstillson		does anybody here use vmware server to host a windows OS?
+2007-11-16T00:54:00.000Z	davidstillson		I am trying to get my thumb drive to be reckognised my the windows machine, and I am having issues with it
+2007-11-16T00:55:00.000Z	wdowning	davidstillson	Your USB pendrive needs to have a FAT32 partition as the first partition in order for Windows to recognize it -- it will recognize multiple partitions on a USB drive, but only if the first is FAT32 or NTFS, and it will only recognize that drive ..
+2007-11-16T00:59:00.000Z	wdowning	davidstillson	I've had similar issues trying to get qemu to recognize a USB drive. What I wound up having to do was set up a network interface and share my USB drive via samba, and connect to it from within the virtual machine :(

@@ -1,0 +1,4 @@
+2010-01-28T06:46:00.000Z	almostsix		I'm trying to get openssh-server to run on my desktop (xubuntu 9.10), and I get this message, which I don't understand: "sshd re-exec requires execution with an absolute path." What does this mean?
+2010-01-28T06:46:00.000Z	blakkheim	almostsix	run /usr/sbin/sshd
+2010-01-28T06:49:00.000Z	almostsix	blakkheim	Ah, okay, that makes sense. Now I get this error though: could not load host key: /etc/ssh/ssh_host_rsa_key
+2010-01-28T06:49:00.000Z	blakkheim	almostsix	sounds like you need to find a tutorial on how to setup an ssh server :/

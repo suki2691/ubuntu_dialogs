@@ -1,0 +1,4 @@
+2012-08-04T23:07:00.000Z	zachP		Anyone, when I try to install something for example "apt-get install ntp ntpdate" it just says unable to write & the package lists or status file could not be parsed or opened.
+2012-08-04T23:07:00.000Z	zachP		on Ubuntu Server 12.04
+2012-08-04T23:07:00.000Z	zachP		I can't get anything to install or update
+2012-08-04T23:08:00.000Z	ThinkT510	zachP	sudo apt-get install -f

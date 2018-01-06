@@ -1,0 +1,4 @@
+2006-06-15T07:54:00.000Z	N9URK		How could I determine what Network Card I have?  THe CompUSSR page says only that it is "Network Support: Ethernet (10/100 Mbps)"
+2006-06-15T07:56:00.000Z	inono	N9URK	sudo lspci | grep Ethernet
+2006-06-15T07:58:00.000Z	inono	N9URK	dude that's the SATA controller
+2006-06-15T07:59:00.000Z	inono	N9URK	err never mind, thats correct... mcp51 is an onboard lan

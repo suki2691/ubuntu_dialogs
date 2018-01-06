@@ -1,0 +1,4 @@
+2007-06-03T11:13:00.000Z	lunixman		im really confused, heres the deal. I have one physical harddrive with a partition i'd like to mount, which is /dev/hda5. i used sudo mount and fstab to mount the drive. It's mounted but i cant access it even as root. What do i do now? it's NTFS.
+2007-06-03T11:14:00.000Z	bulmer	lunixman	what does the command mount tells you? what is mounted?
+2007-06-03T11:14:00.000Z	bulmer	lunixman	 whats the permission? parameters of the mounted /dev/hda5
+2007-06-03T11:17:00.000Z	bulmer	lunixman	reboot for now to get rid of that busy

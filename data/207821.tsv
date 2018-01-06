@@ -1,0 +1,4 @@
+2007-07-04T09:33:00.000Z	felix		hi! i m trying to get wpa2 running on feisty with a pcmcia orinoco cs on thinkpad t22. i get the error "ioctl[IPW_IOCTL_WPA_SUPPLICANT] : Operation not supported". does that mean that this card cant do wpa?
+2007-07-04T09:35:00.000Z	dystopianray	felix	the driver doesn't support wpa
+2007-07-04T09:36:00.000Z	dystopianray	felix	I don't know, the hardware may be too old to support wpa2 at all
+2007-07-04T09:37:00.000Z	dystopianray	felix	the card itself may be too old, as far as I know orinoco is fairly old wifi hardware

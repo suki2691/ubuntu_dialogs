@@ -1,0 +1,4 @@
+2009-04-02T08:11:00.000Z	the10nitro		on Ubuntu mv keeps the same timestamp, but does it do this on all *nix systems
+2009-04-02T08:12:00.000Z	genii	the10nitro	mv doesn't update timestamps. This only happens if you create or touch a file
+2009-04-02T08:13:00.000Z	the10nitro	genii	Thank you.  I wasn't sure if it would suddenly decide to touch them if I went to BSD or Fedora or something.
+2009-04-02T08:14:00.000Z	genii	the10nitro	If you cp them it will... if you mv them it won't

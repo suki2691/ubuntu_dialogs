@@ -1,0 +1,4 @@
+2009-09-06T16:04:00.000Z	osotogari		I have just transferred some files using samba from comp A to comp B on my network. When I look in nautilus on comp B there is a padlock icon associated with the transferred files. What does this mean?
+2009-09-06T16:05:00.000Z	ihtarlik	osotogari	it means you don't have permission to access the files.
+2009-09-06T16:05:00.000Z	ihtarlik	osotogari	when you copied the files (as root), did you use the -a parameter?
+2009-09-06T16:08:00.000Z	ihtarlik	osotogari	"chmod -R yourusername.yourusername" on the directory should help

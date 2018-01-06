@@ -1,0 +1,4 @@
+2007-03-21T14:19:00.000Z	ddodo		i have a question, i have ubuntu running off the iso disk, tried making partitions with gparted, but it froze while resizing the ntfs and creating the 2 linux partitions.
+2007-03-21T14:20:00.000Z	ddodo		Now, windows thinks the c drive is 22G, 6G free, whichi is what gparted was going to resize it to, but now gparted thinks its 30 G, 6 G free, and its a 40G HD
+2007-03-21T14:21:00.000Z	ddodo		i go into g parted now, but its reading the wrong partition size
+2007-03-21T14:22:00.000Z	genii	ddodo	You may want to do Start..Run...type in cmd   then chkdsk c:\           it may adjust it's reasoning

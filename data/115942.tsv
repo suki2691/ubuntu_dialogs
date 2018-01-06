@@ -1,0 +1,4 @@
+2008-12-18T00:17:00.000Z	bobber205		I installed nagios with apt-get
+2008-12-18T00:18:00.000Z	bobber205		I installed nagios-nrpe wiht apt-get but I cannot find the binary
+2008-12-18T00:18:00.000Z	bobber205		does anyone where it is or what I did wrong?
+2008-12-18T00:19:00.000Z	joeb3_	bobber205	dpkg -L nagios-nrpe | less

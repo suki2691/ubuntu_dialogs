@@ -1,0 +1,4 @@
+2006-10-24T05:20:00.000Z	AsheD		is there a commandline way to count the number of folders in a dir?
+2006-10-24T05:20:00.000Z	soundray	AsheD	ls | wc
+2006-10-24T05:21:00.000Z	soundray	AsheD	oops, you said folders. 'find . -maxdepth 1 -type d | wc'
+2006-11-27T12:38:00.000Z	soundray	AsheD	you can run rsync in Cygwin

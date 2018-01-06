@@ -1,0 +1,4 @@
+2008-12-29T14:21:00.000Z	dangit		does anyone have any experience with random gdm crashes that are caused by: "gdm_slave_xioerror_handler: Fatal X error - Restarting :0" ?
+2008-12-29T14:23:00.000Z	codecowboy	dangit	not specifically but I had that in my syslog yesterday. It wasnt a random gdm crash, it was a consistent gdm crash at boot after either installing virtualbox or the machine not shutting down correctly. fsck -y resolved it for me. see here - http://ubuntuforums.org/showthread.php?p=6454592#post6454592.
+2008-12-29T14:24:00.000Z	dangit	codecowboy	for me it just randomly happens when i'm working
+2008-12-29T14:25:00.000Z	codecowboy	dangit	my best advice would be to look into how to log the gdm process (or locate its logs) and post to ubuntuforums.org with the contents of those logs with a description of the problem (if you haven't done so already).

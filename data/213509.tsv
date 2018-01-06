@@ -1,0 +1,4 @@
+2008-03-28T03:27:00.000Z	E1337		got a ? im trying to make it to where under my nic card i change my dns server but every time i do it like auto updates in 15 mins and changes it back? can someone tell me how to turn that off?
+2008-03-28T03:28:00.000Z	Lamego	E1337	that is because you are using dchp
+2008-03-28T03:28:00.000Z	Lamego	E1337	because you set it up to do it, dchp
+2008-03-28T03:30:00.000Z	Lamego	E1337	edit /etc/dhcp3/dhclient.conf, remove domain-name-servers from the request list; then sudo /etc/init.d/networking restart

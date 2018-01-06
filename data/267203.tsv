@@ -1,0 +1,4 @@
+2009-08-16T01:47:00.000Z	[lan3y]		hello i am about to install ubuntu 9.04 64bit, i want to have separate partitions for: /home /usr /var /boot and /tmp what size should i make these partitions? i have a 160gb sata drive.
+2009-08-16T01:47:00.000Z	Dr_Willis	[lan3y]	 other then a /home  seperate parttions for the rest are proberly not worth the effort.
+2009-08-16T01:48:00.000Z	Dr_Willis	[lan3y]	 perhaps a /boot (100mb) /home / and swap. (4 primary partitions)
+2009-08-16T01:50:00.000Z	Dr_Willis	[lan3y]	  I just use ext4 for everything now a days.   Do what you want. You might want to check out the lvm stuff  - but with that small a hard drive. its not hardly worth the effort.

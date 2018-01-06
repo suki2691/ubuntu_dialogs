@@ -1,0 +1,4 @@
+2010-11-12T17:58:00.000Z	aurilliance		Ok, I've written the following one liner that toggles a dimmed screen, and bound it to F9, but when I try it it spits an error. Executing it from a terminal doesn't give any error... Why's that?
+2010-11-12T17:58:00.000Z	aurilliance		if [ "$screendimtoggle" -eq "1" ]; then export screendimtoggle=0; xcalib -co 40 -a; else export screendimtoggle=1; xcalib -c; fi;
+2010-11-12T17:59:00.000Z	crashanddie_	aurilliance	no need for quotes around 1
+2010-11-12T17:59:00.000Z	crashanddie_	aurilliance	just add an echo to see which branch it's taking

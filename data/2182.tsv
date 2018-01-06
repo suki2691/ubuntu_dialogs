@@ -1,0 +1,4 @@
+2012-07-19T01:27:00.000Z	__jpmorgan		any suggestions as to where empathy is being autolaunched on my 12.04 machine? its running on my desktop and i'd prefer it didnt. i'd rather not have to unintstall the program tho
+2012-07-19T01:29:00.000Z	__jpmorgan		snake - only thing in startup apps is screensaver
+2012-07-19T01:31:00.000Z	ghostchick	__jpmorgan	 sudo sed -i 's/NoDisplay=true/NoDisplay=false/g' /etc/xdg/autostart/*.desktop
+2012-07-19T01:33:00.000Z	ghostchick	__jpmorgan	 in the same program you opened before

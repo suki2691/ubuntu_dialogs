@@ -1,0 +1,4 @@
+2007-02-06T11:05:00.000Z	kiratik		Is there any way of checking the integrity of the disk without unmounting it - i need to keep this server up but i suspect the file_system may be going bad - i just need to diagnose - if its bad i'll be able to take it offline and treat it - but is there any way to tell without takign everything offline ?
+2007-02-06T11:05:00.000Z	Quintin	kiratik	Anyway to check a filesystem without going offline?  Maybe, don't know.  If you want to know physical drive health, use SMART tools.  apt-get install smartmontools
+2007-02-06T11:06:00.000Z	kiratik	Quintin	those are not GUI based are they? I don't want the overhead of installing X on the server
+2007-02-06T11:06:00.000Z	Quintin	kiratik	No, they are not.

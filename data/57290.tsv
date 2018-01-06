@@ -1,0 +1,4 @@
+2009-05-19T22:16:00.000Z	mzz	arthurh	see the lvcreate -l option, but I'm pretty sure that gets rounded (hopefully always up) to the nearest whole number of extents.
+2009-05-19T22:18:00.000Z	arthurh	mzz	That's what I was going for, but extents are measured in what units? blocks? when I specified number of blocks via -l it was way larger than the target VG could create, so I'm guessing my idea of an "extent" is really flawed
+2009-05-19T22:20:00.000Z	mzz	arthurh	the extent size is a property of the volume group (see "PE size" in vgdisplay). They're usually several MB.
+2009-05-19T22:20:00.000Z	mzz	arthurh	and I typoed, I meant the -L option to lvcreate earlier.

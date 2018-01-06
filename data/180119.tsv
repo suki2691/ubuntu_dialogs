@@ -1,0 +1,4 @@
+2012-05-11T22:41:00.000Z	zsolt		how to reinstall init.d script,if it was deleted by root?
+2012-05-11T22:41:00.000Z	jrib	zsolt	apt-get -o DPkg::Options::="--force-confmiss" --reinstall install <packagename>
+2012-05-11T22:44:00.000Z	jrib	zsolt	too vague.  What did you do?
+2012-05-11T22:46:00.000Z	jrib	zsolt	ok, and what did you do to try to restore it?

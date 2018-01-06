@@ -1,0 +1,4 @@
+2011-01-08T22:12:00.000Z	jkg		hi folks. I've just set up a Dovecot IMAP server on Ubuntu 10.04 (migrating from a host running old-ish Debian), I can connect to port 993 locally (e.g. with telnet) but not from other hosts. is there some obvious thing I should be checking, like a default firewal?
+2011-01-08T22:12:00.000Z	jkg		it's fairly stock Ubuntu 10.04, although I have already moved some mysql/apache based stuff to it, which is all working fine.
+2011-01-08T22:13:00.000Z	erUSUL	jkg	no default fw in ubuntu but maybe davecot is configured to only listen in localhost. check its configuration
+2011-01-08T22:13:00.000Z	erUSUL	jkg	 #ubuntu-server

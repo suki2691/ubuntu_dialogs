@@ -1,0 +1,4 @@
+2006-06-07T12:12:00.000Z	sergiol		how can i force that when i apt-get install gcc it is not 4.0?
+2006-06-07T12:12:00.000Z	LjL	sergiol	install gcc-x.x instead
+2006-06-07T12:13:00.000Z	LjL	sergiol	then type "export CC=gcc-3.4" (or whatever version) before compiling stuff. also "export CXX=gcc-3.4" if you need to compile c++
+2006-06-07T12:13:00.000Z	LjL	sergiol	that's because it's installed under /usr/bin/gcc-x.x rather than just /usr/bin/gcc

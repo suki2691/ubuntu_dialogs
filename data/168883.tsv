@@ -1,0 +1,4 @@
+2006-09-02T08:07:00.000Z	Andre4s		resolution problem. I got a 19" flat screen. I need to set the resolution to 1280x1024. When I look at System->settings->screen resolution I have some diffrent modes. But the higest is 1024x768. I tried to edit xorg.conf and added my prefered resolution in the "Screen" section. Still the same resolution. What can I do now?
+2006-09-02T08:08:00.000Z	ScribbleJ	Andre4s	did you restart X11 afer making the changes to Xorg.conf?
+2006-09-02T08:08:00.000Z	Andre4s	ScribbleJ	yes
+2006-09-02T08:08:00.000Z	ScribbleJ	Andre4s	I'd start by looking for information pertianing to that resolution in your x log

@@ -1,0 +1,4 @@
+2007-07-30T11:11:00.000Z	Ta1		Anybody know how to fix a broken icon?  In Apps/sound & video/Amarok ... amarok doesn't show any icon.. when I add it to the panel it shows a blank icon with a red x
+2007-07-30T11:11:00.000Z	bruenig	Ta1	you have to point it to the icon when you add the launcher
+2007-07-30T11:12:00.000Z	Ta1	bruenig	I know how to do that... that isn't the issue... the icon was there, now it isn't..
+2007-07-30T11:12:00.000Z	bruenig	Ta1	dpkg -L amarok | grep png

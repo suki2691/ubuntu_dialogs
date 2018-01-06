@@ -1,0 +1,4 @@
+2011-10-15T07:52:00.000Z	boxbeatsy		hi, is there any way to upload a set of files to multiple ftp servers at the same time?
+2011-10-15T07:53:00.000Z	arghx	boxbeatsy	only with several ftp clients. you could write a script for ncftpput which does this
+2011-10-15T07:55:00.000Z	boxbeatsy	arghx	ah i see, i was trying to write a script that automates ncftp, but it just pauses fater the initial login when promnpted for the username.  do you know how i can write a shell script that can take standard input?
+2011-10-15T07:56:00.000Z	arghx	boxbeatsy	expect I guess. but: you can put the password on the commandline. if you want to that is. or use a scripting language like python/perl/ruby for your script where getting passwords typed in is even easier

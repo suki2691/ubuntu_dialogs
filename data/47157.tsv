@@ -1,0 +1,4 @@
+2011-12-07T21:57:00.000Z	Arney		Hello, I have an open book x86 masm test in half an hour and I need to print all main.asm files in subfolders of a folder.
+2011-12-07T21:57:00.000Z	Arney		Anyideas on how I can batch print all text files in subfolders?
+2011-12-07T21:57:00.000Z	llutz_	Arney	find path/ -name main.asm |xargs lpr
+2011-12-07T22:03:00.000Z	llutz_	Arney	find path/ -name main.asm -print0 |xargs -0 lpr

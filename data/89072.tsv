@@ -1,0 +1,4 @@
+2008-05-29T20:44:00.000Z	skiptree		ping/nslookup works, but i gen connection refused on everything else.  can anyone please help me debug?
+2008-05-29T20:45:00.000Z	skiptree		i recently upgraded feisty if that helps.  everything was working before update
+2008-05-29T20:46:00.000Z	gnuskool	skiptree	look in /etc/resolve.conf, is your name server there
+2008-05-29T20:47:00.000Z	skiptree	gnuskool	yes, and nslookup works

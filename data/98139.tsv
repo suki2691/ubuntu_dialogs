@@ -1,0 +1,4 @@
+2009-05-24T06:42:00.000Z	decio		helo! I have ubuntu 8.10 installed in a VPS and the web console provided by the hosting company is showing a disk usage of 80% but im sure im not using all that. is there a app i can use to manage my disk usage trough shell
+2009-05-24T06:43:00.000Z	ghindo	decio	df?
+2009-05-24T06:44:00.000Z	ghindo	decio	df is a terminal command which tells how much disk space you have free.  Try "df -h" in the command line.
+2009-05-24T06:47:00.000Z	ghindo	decio	It looks like you have two gigs of space left...

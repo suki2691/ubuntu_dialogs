@@ -1,0 +1,4 @@
+2009-11-21T05:08:00.000Z	forcemount		I am sure /dev/sdf3 is correct, I have 2 other partitons mounted from /dev/sdf1 and /dev/sdf2
+2009-11-21T05:09:00.000Z	Billiard	forcemount	did you try without specifing the fstype?
+2009-11-21T05:11:00.000Z	Billiard	forcemount	sudo fdisk -l     tells you it is a fat32 partition?
+2009-11-21T05:16:00.000Z	Billiard	forcemount	are you able to mount this partition in another OS, like windows, you know the partition is formatted fat32?

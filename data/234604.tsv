@@ -1,0 +1,4 @@
+2005-06-09T06:13:00.000Z	dooglus	Darkhoof	did you find your windows files?
+2005-06-09T06:18:00.000Z	dooglus	Darkhoof	if you're still there, this is what you probably want to do to get your NTFS partition available:
+2005-06-09T06:18:00.000Z	dooglus	Darkhoof	sudo mkdir -p /mnt/c; sudo mount -t ntfs -o umask=0 /dev/hda1 /mnt/c
+2005-06-09T06:18:00.000Z	dooglus	Darkhoof	(then the files should appear in /mnt/c)

@@ -1,0 +1,4 @@
+2006-06-22T07:11:00.000Z	smtkr		Has anyone heard of this? I upgraded from breezy to dapper and suddenly, Serpentine Audio CD creator can't burn a cd of mp3s.
+2006-06-22T07:12:00.000Z	thomas	smtkr	install all of the gstreamer 0.8 stuff
+2006-06-22T07:21:00.000Z	smtkr	thomas	I had the question about Serpentine not burning mp3s anymore. It turns out that on my breezy install I was using gstreamer0.8-lame. For dapper, I needed to install a package called gstreamer0.10-fluendo-mp3. I guess serpentine is using the newer version that can't utilize the .8 plugins. Thanks for the help.
+2006-06-22T07:22:00.000Z	thomas	smtkr	no probs :D

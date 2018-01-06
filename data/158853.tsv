@@ -1,0 +1,4 @@
+2009-05-08T23:44:00.000Z	ac3		I have an ext3 partition on an lvm2 disk (hardware raid5 arrray) which is running out of free space, when i add another disk array to the lvm and grow the ext3 partition. Will lvm first use the first array untill it is completely filled and then the second?
+2009-05-08T23:44:00.000Z	ac3		Or will lvm start striping between the 2 arrays?
+2009-05-08T23:45:00.000Z	Kevin`	ac3	likely the first. you can tell it to do either, but it's a bit of a pain vs just letting it do whatever it wants for expanding
+2009-05-08T23:46:00.000Z	ac3	Kevin`	thx

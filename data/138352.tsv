@@ -1,0 +1,4 @@
+2009-02-19T23:10:00.000Z	Cotowar		where might this directory be "../../lib/firefox-3.0.6/icons"
+2009-02-19T23:11:00.000Z	Cotowar		thats it
+2009-02-19T23:11:00.000Z	allquixotic	Cotowar	That's a relative path so it's impossible to infer its absolute path without knowledge of the current working directory; however, there is a /usr/lib/firefox-3.0.6 directory, so /usr/lib/firefox-3.0.6/../../lib/firefox-3.0.6/icons would be equivalent to the absolute path /usr/lib/firefox-3.0.6/icons
+2009-02-19T23:16:00.000Z	allquixotic	Cotowar	`man mv`. But very simply stated, mv is a combination of a 'rename' and a 'move' command in one, and all arguments except for the last one are moved into the last argument, if it's a folder. Careful, though; if the last argument is an existing file, it gets overwritten.

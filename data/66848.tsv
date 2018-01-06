@@ -1,0 +1,4 @@
+2009-04-26T00:52:00.000Z	abstortedminds1		I have 2 hard drives, one has ubuntu and windows with an MBR partition (grub) and it works fine, the other harddrive is a storage drive...my question is when installing gentoo on the storage drive, do I simply add an entry manually to grub for the location of my gentoo installation?  or  how does this work?
+2009-04-26T00:53:00.000Z	hbekel	abstortedminds1	yes, you can do that
+2009-04-26T00:54:00.000Z	abstortedminds1	hbekel	so the partition right now looks like    HD1-250gb/250gb  HD2-500gb, would grub--install do this automatically? or should I do this by hand?
+2009-04-26T00:54:00.000Z	hbekel	abstortedminds1	no idea, i'd edit the menu.lst manually

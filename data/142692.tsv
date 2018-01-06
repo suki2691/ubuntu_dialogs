@@ -1,0 +1,4 @@
+2010-02-13T00:16:00.000Z	davidisko		hi guys, i'm trying to install ubuntu-8.04.4-server-amd64.iso, but i'm stucked on step "Install the base system" - it fails and in console says "unable to fetch some archives, maybe run apt-get update".. but can't apt-get update it cause there's no apt-get..
+2010-02-13T00:18:00.000Z	genii	davidisko	Usually happens when you have no working internet to the box (not connected or the ethernet adapter is not know and no driver)
+2010-02-13T00:19:00.000Z	davidisko	genii	ethernet is working 100% correctly. detected 4 broadcom ethernets and internet connectivity is working otherwise i would not be here..
+2010-02-13T00:22:00.000Z	genii	davidisko	if it has 4 adapters, likely internet is connected to eth1 or eth2 or eth3 and not eth0 which is the default gateway

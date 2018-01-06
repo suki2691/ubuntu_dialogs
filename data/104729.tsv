@@ -1,0 +1,4 @@
+2008-10-13T07:57:00.000Z	fr500		is there an apt command to remove old unused kernels?
+2008-10-13T07:58:00.000Z	fr500		ok thanks!
+2008-10-13T07:58:00.000Z	ActionParsnip	fr500	dpkg -l | grep linux
+2008-10-13T07:58:00.000Z	ActionParsnip	fr500	then you can uninstall the old kernels and fluff from that list

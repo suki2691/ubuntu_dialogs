@@ -1,0 +1,4 @@
+2008-03-08T11:39:00.000Z	eatatjoes2		does anyone know if there is a way for GRUB when it gives u 10 seconds to select an OS choice for it not to automatically boot into Ubuntu if u don't selet it after 10seconds, but instead have it boot into a different one?
+2008-03-08T11:40:00.000Z	vocx	eatatjoes2	there is the "default" option. Change it from "0" to something like "3" depending on your list.
+2008-03-08T11:41:00.000Z	eatatjoes2	vocx	do that in edit /boot/grub/menu.lst?
+2008-03-08T11:41:00.000Z	vocx	eatatjoes2	yes

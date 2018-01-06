@@ -1,0 +1,4 @@
+2010-09-21T19:40:00.000Z	LucidGuy		Anyone off hand know how I can enable my sendmail to log host/ip of source email ...  I have a number or entries in my /var/log/maillog that I would like to find out who on my end relayed it to my maillserver.
+2010-09-21T19:41:00.000Z	andycc	LucidGuy	isn't that specified in the mail headers?
+2010-09-21T19:41:00.000Z	LucidGuy	andycc	yes .. but I don't have the emails.  Just maillogs.
+2010-09-21T19:43:00.000Z	andycc	LucidGuy	oh, you're running a mailserver. Sorry, I have no experience with that. But I don't think you can get the sender IP without checking through the headers.

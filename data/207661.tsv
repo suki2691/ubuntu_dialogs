@@ -1,0 +1,4 @@
+2008-09-17T09:42:00.000Z	arooni		i have two identical boxes with a geforce  8600 GTS and i can't get ubuntu to work with it.  box 1: boots up and says "Ubuntu is running in low graphics mode: your screen and graphics card could not be detected correctly." ... box #2: box has a white box frozen on the screen that follows the mouse, and i cant get into text console.  nvidia-glx-new is installed on both boxes, and xorg config was made with nvidia-xconfig
+2008-09-17T09:43:00.000Z	gord_	arooni	try installing the nvidia drivers
+2008-09-17T09:43:00.000Z	arooni	|thunder	yes its 'nvidia' not 'nv'
+2008-09-17T09:43:00.000Z	gord_	arooni	alternatively you can try using nv or use vesa as a backup while you fix the driver issue... just edit the "Driver" property in xorg.conf

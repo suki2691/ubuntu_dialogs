@@ -1,0 +1,4 @@
+2008-08-26T22:27:00.000Z	triggerhapp		Ok, interesting problem... my intel card's direct rendering isnt playing nice with composite
+2008-08-26T22:27:00.000Z	triggerhapp		When a window uses 3d direct rendering, the render covers all windows that should be above it
+2008-08-26T22:28:00.000Z	fde	triggerhapp	known issue with intel 915 or whatever it is... no work-around, it's blacklisted because the card won't function correctly with compiz.
+2008-08-26T22:28:00.000Z	triggerhapp	fde	i have 945, not blacklisted and doesnt play nice. only messes up on direct render

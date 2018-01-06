@@ -1,0 +1,4 @@
+2009-09-23T22:43:00.000Z	jwormy		hello friends...
+2009-09-23T22:45:00.000Z	jwormy		after rebuilding a machine, i'm trying to ssh into it and getting 'host key verification failed.' -- 'Offending key in /home/jeremy/.ssh/known_hosts:3'   --  does the 3 part mean it's the 3rd key listed in the known hosts file?  afaik there is no way to identify the host in the known host file other than guessing..
+2009-09-23T22:45:00.000Z	G_A_C	jwormy	yes, it means the key on line 3
+2009-09-23T22:45:00.000Z	jwormy	G_A_C	thanks, just double checking

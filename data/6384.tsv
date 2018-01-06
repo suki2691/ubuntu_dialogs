@@ -1,0 +1,4 @@
+2012-07-10T23:03:00.000Z	ses1984		ok, so i'm having trouble booting after upgrading to 12.04, it seems some grub stuff got messed up. previous versions of ubuntu were booting with the root=UUID=foo instead of root=/dev/sda1. apparently my drive is not coming up as /dev/sda1. but if i replace /dev/sda1 with UUID=foo, it still won't boot
+2012-07-10T23:05:00.000Z	escott	ses1984	i cant remember if the initrd has blkid, but it probably should. if not you can check that the uuid'ed device appears in /dev/disk/by-uuid
+2012-07-10T23:08:00.000Z	ses1984	escott	i'm not sure how to get a shell on initrd i only get as far as grub, or i can get farther with older versions of ubuntu. the uuid i tried to add to my new grub config is definitely there
+2012-11-16T10:06:00.000Z	escott	ses1984	you could modify the iso to include your url

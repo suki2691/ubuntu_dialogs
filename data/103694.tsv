@@ -1,0 +1,4 @@
+2009-05-04T00:49:00.000Z	kay		hey guys I cant mount my volumes...what to do?
+2009-05-04T00:50:00.000Z	ActionParsnip	kay	use the mount command, you will need sudo too as users cannot mount stuff, you will also need an empty folder to mount to
+2009-05-04T00:50:00.000Z	ActionParsnip	kay	sudo fdisk -l   will show you the available partitions to mount
+2009-05-04T00:52:00.000Z	ActionParsnip	kay	then make a folder some place and use: sudo mount /dev/<partition name> /mount/point

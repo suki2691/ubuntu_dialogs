@@ -1,0 +1,4 @@
+2007-03-04T17:15:00.000Z	Alarm		hello
+2007-03-04T17:15:00.000Z	Alarm		is there any danger writing from windows to linux partition while linux kernel is not running ? i searched for some articles but couldnt find something about it
+2007-03-04T17:16:00.000Z	kenthomson	Alarm	i do it all the time
+2007-03-04T17:20:00.000Z	kenthomson	Alarm	you need a EXT3 driver (fs-driver.org), and it works like a charm, but all your linux partition config files are openly visible in windows so anyone can change them without knowing the root password, if that is what you consider a security risk

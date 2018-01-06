@@ -1,0 +1,4 @@
+2006-08-12T10:23:00.000Z	munsa		Can anyone please tell me how I can uninstall Mplayer ??? It was installed from source and sudo apt-get remove mplayer dosent work
+2006-08-12T10:24:00.000Z	Pupeno_	munsa	if you install it from source, that's it, there's no way to uninstall. Installing from source is like coping files from one place to another. Maybe you are lucky and you can run make uninstall. There's a strong reason to use packages.
+2006-08-12T10:27:00.000Z	Pupeno_	munsa	the tarball has to be uncompressed to compile it, that's the directory where you 'might' be able to run make uninstall.
+2006-08-12T10:32:00.000Z	Pupeno_	munsa	synaptic.

@@ -1,0 +1,4 @@
+2009-03-05T20:42:00.000Z	_polto_		hi all
+2009-03-05T20:43:00.000Z	_polto_		I have a filesystem (ext3) in a strange state... I have less and less  free space without any service started. How can I see what process is writing and in what file ?
+2009-03-05T20:44:00.000Z	n8tuserf	_polto_	-> use lsof, i dont remember the exact options, lsof -i /dev/sda1 ?
+2009-03-05T20:44:00.000Z	_polto_	n8tuserf	thanks

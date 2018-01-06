@@ -1,0 +1,4 @@
+2010-08-20T01:25:00.000Z	agib		is something going on with openjdk-6-jre?
+2010-08-20T01:26:00.000Z	agib		http://packages.ubuntu.com/hardy/openjdk-6-jre => is up/down
+2010-08-20T01:28:00.000Z	thune3	agib	can you clarify the issue you are seeing?
+2010-08-20T01:29:00.000Z	agib	thune3	`apt-get -q -y install openjdk-6-jre=6b18-1.8.1-0ubuntu1~8.04.2` => openjdk-6-jre: Depends: openjdk-6-jre-headless (>= 6b18-1.8.1-0ubuntu1~8.04.2) but it is not going to be installed

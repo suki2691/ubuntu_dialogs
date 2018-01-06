@@ -1,0 +1,4 @@
+2009-02-09T14:10:00.000Z	Flynsarmy		Where is hte apt cache stored?
+2009-02-09T14:10:00.000Z	blizzle	Flynsarmy	/var/cache/apt
+2009-02-09T14:11:00.000Z	blizzle	Flynsarmy	rm -fv /var/cache/apt/*.bin if you need to remove it.
+2009-02-09T14:11:00.000Z	blizzle	Flynsarmy	You'd then need to follow through with an apt-get update

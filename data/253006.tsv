@@ -1,0 +1,4 @@
+2011-12-30T06:34:00.000Z	Tommy34		when I install Ubuntu, what exactly does Grub do, and where exactly does Grub write data?  to MBR and FAT? Or somewhere else?
+2011-12-30T06:36:00.000Z	reisio	Tommy34	GRUB tells the computer where the kernel/OSes are
+2011-12-30T06:36:00.000Z	reisio	Tommy34	it's install to the MBR typically, which is just the very beginning of the disk that the OS doesn't use
+2011-12-30T06:37:00.000Z	reisio	Tommy34	though userspace utils and configurations are also required

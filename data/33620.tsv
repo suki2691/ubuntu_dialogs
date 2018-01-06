@@ -1,0 +1,4 @@
+2011-04-16T06:40:00.000Z	quuxman		so there's this app called "Make USB Startup Disk" in the menus. What package is it in, and what's the command name?
+2011-04-16T06:41:00.000Z	ohsix	quuxman	usb-creator
+2011-04-16T06:41:00.000Z	ohsix	quuxman	you can grep /usr/share/applications and use dpkg -S to see what package it's in
+2011-04-16T06:43:00.000Z	quuxman	ohsix	yeah, dpkg -S is very useful. As well as apt-file search

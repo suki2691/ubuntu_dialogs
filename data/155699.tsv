@@ -1,0 +1,4 @@
+2012-07-06T19:41:00.000Z	luzil		Hi
+2012-07-06T19:41:00.000Z	luzil		is there a folder like program files in windows in ubuntu where i can see which software was installed, update to 12 lts broke my system "no filessystem could mount root", i can access the old partitions via ubuntu live cd and want to note down my installed programs for new 12 lts clean install. Anyone has a tip to get that list?
+2012-07-06T19:42:00.000Z	wylde	luzil	chroot in and use 'dpkg -get-selections
+2012-07-06T19:51:00.000Z	wylde	luzil	you chroot into the old filesystem from the live usb, then use the dpkg --get-selections to list all the installed applications.

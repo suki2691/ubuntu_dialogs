@@ -1,0 +1,4 @@
+2011-06-18T08:15:00.000Z	nardev		hello how can i list only files with permission 614?
+2011-06-18T08:16:00.000Z	rypervenche	nardev	You can use "find" to do the trick. I'm not sure the exact command though.
+2011-06-18T08:17:00.000Z	rypervenche	nardev	find / -perm 614
+2011-06-18T08:17:00.000Z	rypervenche	nardev	If you only want files and not folders add "-type f"

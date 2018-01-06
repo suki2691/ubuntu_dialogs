@@ -1,0 +1,4 @@
+2009-06-30T11:19:00.000Z	wildc4rd		is there any way to get the normal text based startup and shutdown in ubuntu?
+2009-06-30T11:20:00.000Z	YankDownUnder	wildc4rd	Change the settings in grub => /boot/grub/menu.lst => add "textonly" or remove the bit that says "silent"
+2009-06-30T11:25:00.000Z	YankDownUnder	wildc4rd	If you read through the info in the beginning of the "menu.lst" you'll see what I mean - otherwise, remove the "silent" bit at the end of the kernel boot towards the bottom of the file
+2009-06-30T11:29:00.000Z	YankDownUnder	wildc4rd	Yeah. Remove

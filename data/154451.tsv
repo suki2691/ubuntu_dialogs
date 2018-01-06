@@ -1,0 +1,4 @@
+2006-12-16T09:04:00.000Z	FernandoCordes		i need to compile a piece of code on a box that is not connected to the internet. how can i get build-essential and all stuff onto it maintaining all dependencies?
+2006-12-16T09:05:00.000Z	levander	FernandoCordes	build-essential and its dependencies are "probably" on the edgy distribution cd, change /etc/apt/source.list to point to the CD and install from there
+2006-12-16T09:08:00.000Z	FernandoCordes	levander	will i find aircrack-ng on the edgy discs?
+2006-12-16T09:08:00.000Z	levander	FernandoCordes	probably not, i believe aircrack-ng is in the universe repository, which won't be on the CD

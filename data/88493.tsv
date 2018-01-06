@@ -1,0 +1,4 @@
+2009-01-07T01:31:00.000Z	maestrojed		usermod -d will change a user's home directory. Is there a way I can print what the current home directory is set to for particular user?
+2009-01-07T01:32:00.000Z	ASULutzy	maestrojed	echo $HOME ?
+2009-01-07T01:34:00.000Z	maestrojed	ASULutzy	I don't think that worked and If I have to su to that user each time I can just look at the directory I am in. I was hoping to print that info without switching to the user. Just because I need to do it for a number of users
+2009-01-07T01:34:00.000Z	maestrojed	ASULutzy	thank you for the suggestion

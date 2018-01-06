@@ -1,0 +1,4 @@
+2007-04-13T06:38:00.000Z	sogen		mount: you must specify the filesystem type
+2007-04-13T06:38:00.000Z	velko	sogen	try udf instead of iso9660
+2007-04-13T06:39:00.000Z	sogen	velko	how ?
+2007-04-13T06:39:00.000Z	velko	sogen	mount -t udf /dev/cdrom /media /cdrom

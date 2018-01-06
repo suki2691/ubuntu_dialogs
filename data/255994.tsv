@@ -1,0 +1,4 @@
+2004-12-06T09:49:00.000Z	bigtony		can someone help me with mounting a network drive thats on a windows system i have tried the following 1) mkdir /home/bigtony/laptopdrive 2) chmod 777 /home/bigtony/laptopdrive 3) mount -t smbfs -o UID=guest,rw //192.168.1.102/documents /home/bigtony/laptopdrive  now when i go to the directory ONLY ROOT has permission to delete a file if i type rm <file> normal user permission denied but if i type sudo rm <file> it deletes it from th
+2004-12-06T09:49:00.000Z	bigtony		e wndows share. any way to make this normal user?
+2004-12-06T09:51:00.000Z	Cloudchaser	bigtony	here's a link that tells how to do what you want
+2004-12-06T09:52:00.000Z	Cloudchaser	bigtony	let me know how you make out

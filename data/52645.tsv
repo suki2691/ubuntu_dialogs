@@ -1,0 +1,4 @@
+2009-12-19T02:13:00.000Z	bstmi		when I uninstall a program using sudo apt-get remove very less memory is freed as compared the memory it uses while installation( ubuntu 9.04 )..what's the reason?
+2009-12-19T02:14:00.000Z	switch10_	bstmi	it is not installing the dependant packages
+2009-12-19T02:15:00.000Z	switch10_	bstmi	aptitude should do it.  Havent found a good way to get apt-get to do it properly
+2009-12-19T02:15:00.000Z	switch10_	bstmi	which is kind of annoying

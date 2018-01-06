@@ -1,0 +1,4 @@
+2007-04-08T08:56:00.000Z	WaxyFresh		This upgrade requires that the /usr/X11R6/bin directory be removed and replaced with a symlink. An attempt was made to do so, but it failed,   most likely because the directory is not yet empty. You must move the    files that are currently in the directory out of the way so that the    installation can complete.
+2007-04-08T08:56:00.000Z	WaxyFresh		how do i do this ^
+2007-04-08T08:57:00.000Z	nothlit	WaxyFresh	sudo mv /usr/X11R6/bin /this/is/the/new/place
+2007-04-08T08:57:00.000Z	WaxyFresh	nothlit	wheres a good place to temporaly move this stuff

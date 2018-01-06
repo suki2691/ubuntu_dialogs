@@ -1,0 +1,4 @@
+2012-04-01T23:27:00.000Z	jwilkes99999		I'm trying to give read/write permissions to a folder and the owner can read and write but I want the group and other to be set to read only but when I do it it keeps reverting back to none
+2012-04-01T23:27:00.000Z	zykotick9	jwilkes99999	is this a NTFS/FAT parition?
+2012-04-01T23:28:00.000Z	jwilkes99999	zykotick9	yes
+2012-04-01T23:28:00.000Z	zykotick9	jwilkes99999	NTFS/FAT doesn't accept POSIX permissions.  I can't help you.

@@ -1,0 +1,4 @@
+2006-06-25T08:45:00.000Z	ParaSiteX		I must have screwed up something in my /etc/X11/xorg.conf cause it's telling me "no screen found" when I startx. I have tried to follow the steps on https://help.ubuntu.com/community/i915Driver to install the 915resolution. But I undo all changes I did to my xorg.conf and still get the "no screen found" message
+2006-06-25T08:46:00.000Z	nickrud	ParaSiteX	sudo dpkg-reconfigure -phigh xserver-xorg will return you to the original default X config
+2006-06-25T08:51:00.000Z	ParaSiteX	nickrud	thanx a lot =) it works again now, and even better: I am in the right resolution (1400x1050)
+2006-06-25T08:52:00.000Z	nickrud	ParaSiteX	heh, that was the packaging guys, not me. They've fixed a bit more it looks like

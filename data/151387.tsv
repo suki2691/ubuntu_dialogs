@@ -1,0 +1,4 @@
+2007-01-08T09:32:00.000Z	Grindar		I have a question. I'm pretty sure I goofed up my edgy install. I partitioned off a chunk of my external drive and installed edgy there. however, I forgot to switch the drive grub installed to. Now, I can't boot without the external drive attached, Grub throws seemingly random errors sometimes even with it attached, and when I try to boot Ubuntu from Grub, it hangs.
+2007-01-08T09:32:00.000Z	Grindar		Any suggestions on how to fix this?
+2007-01-08T09:33:00.000Z	sdgr406	Grindar	sounds like you'd need to reinstall GRUB to the internal drive... have a look at the GRUB manual for grub-install
+2007-01-08T09:33:00.000Z	sdgr406	Grindar	would be something like grub-install hd0, dunno the exact syntax though

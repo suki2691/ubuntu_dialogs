@@ -1,0 +1,4 @@
+2005-12-07T12:06:00.000Z	SCMark		how do I mount something so that it is writeable to my logged in user?  Is there an option for the mount command?
+2005-12-07T12:06:00.000Z	SCMark		If I mount something using sudo to my /mnt directory it becomes owned by root:root and I can't write to it
+2005-12-07T12:07:00.000Z	carthik	SCMark	try mounting it with pmount without the sudo
+2005-12-07T12:12:00.000Z	SCMark	carthik	how do I get pmount to mount a smbfs type network drive?

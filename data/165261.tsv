@@ -1,0 +1,4 @@
+2007-10-27T14:55:00.000Z	Phobos		Hi. Could you tell me what to do to make fortune show up an entry automatically upon opening a terminal ?
+2007-10-27T14:55:00.000Z	ifireball	Phobos	add a command to your .bashrc file
+2007-10-27T14:56:00.000Z	Phobos	Nallep	Thanks a lot :)
+2007-10-27T14:56:00.000Z	ifireball	Phobos	thers sould be an "if" statment in that file that runs stuff only if it's an interactive shell put it in there otherwise you'll break your system

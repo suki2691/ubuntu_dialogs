@@ -1,0 +1,4 @@
+2007-04-20T14:36:00.000Z	blazemonger		the live cd detected my ide pata drives as scsi devices
+2007-04-20T14:36:00.000Z	stefg	blazemonger	see my comment above
+2007-08-22T16:28:00.000Z	stefg	blazemonger	you don't 'disable' it. you can just call the partitions by their /dev/ nodes again if you like (but you might get surprises)
+2007-08-22T16:53:00.000Z	stefg	blazemonger	you don't. lowlevel formatting requires a tool from the hd manufacturer (and if you don't have bad blocks it's rarely sensible to do it)

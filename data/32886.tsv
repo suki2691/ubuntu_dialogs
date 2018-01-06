@@ -1,0 +1,4 @@
+2010-11-07T15:55:00.000Z	Slartibart		Is there a way to somehow check as much of the installation(packages?) as possible for missing/damaged files? My harddrive had a hickup, fsck solved it but now it seems some of the entries in the menu are in english, f.ex..
+2010-11-07T15:56:00.000Z	iceroot	Slartibart	debsums should do the jobs
+2010-11-07T15:56:00.000Z	iceroot	Slartibart	also "dpkg -l | grep -v ii"
+2010-11-07T15:57:00.000Z	Slartibart	iceroot	Ok? Will do. Thanks :)

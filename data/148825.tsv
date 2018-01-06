@@ -1,0 +1,4 @@
+2008-07-04T13:37:00.000Z	unop	bartonello	how exactly are you creating your files or directories there?
+2008-07-04T13:27:00.000Z	unop	bartonello	declare umask at the top of your script
+2008-07-04T13:29:00.000Z	unop	bartonello	did you see what i said to you?
+2008-07-04T13:41:00.000Z	unop	bartonello	my guess is that whatever process that is creating directories is requesting that new directories be opened with 711 permissions -- you might like to clarify this with the guys in #bash

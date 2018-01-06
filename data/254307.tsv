@@ -1,0 +1,4 @@
+2005-02-03T10:23:00.000Z	F0CUS		hi
+2005-02-03T10:24:00.000Z	F0CUS		can anyone help me, I am trying to map my windows drive under Ubuntu
+2005-02-03T10:24:00.000Z	pw	F0CUS	Here's a clue: /dev/hda5               /mnt/music              vfat    defaults,uid=1000,gid=1000,umask=002    0       0
+2005-02-03T10:25:00.000Z	pw	F0CUS	Cut'n'paste that, fix up for your partition and mount point.

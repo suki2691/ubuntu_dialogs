@@ -1,0 +1,4 @@
+2007-09-21T14:06:00.000Z	dbruns		when i try to /etc/init.d/lighttpd stop    it doesn't actually stop anything   and its writing to the correct .pid file and able to access it when i stop.. but nothing happens.. any ideas?
+2007-09-21T14:07:00.000Z	wastrel	dbruns	 is it cleaning up existing open connections ?  or are you still able to initiate connections
+2007-09-21T14:07:00.000Z	dbruns	wastrel	still able to initiate connections
+2007-09-21T14:07:00.000Z	dbruns	wastrel	its cleaning upt he pid file it created though..

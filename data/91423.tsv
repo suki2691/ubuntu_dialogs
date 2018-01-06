@@ -1,0 +1,4 @@
+2008-05-08T02:22:00.000Z	Sloloem		Ok...changing my mind...is there ANY way to get the date a package was installed?
+2008-05-08T02:23:00.000Z	ejer	Sloloem	sudo cat /var/log/apt/term.log ?
+2008-05-08T02:23:00.000Z	Sloloem	ejer	How far back does that go?
+2008-05-08T02:25:00.000Z	Sloloem	ejer	yeah that's 2 days.  There's no program or spiffy way to manipulate dpkg/apt to just get a simple answer?  I see zipped older logs, but that's a hell of a lot of parsing.

@@ -1,0 +1,4 @@
+2011-01-13T02:04:00.000Z	janisozaur		how can I 'duplicate' /dev/tty* serial device, so that I could attach two separate process that would be able to read the same data simultaneously (ie. without 'stealing' the data from each other)?
+2011-01-13T02:04:00.000Z	WaltherFI	janisozaur	cat
+2011-01-13T02:05:00.000Z	WaltherFI	janisozaur	cat reads the contents realtime
+2011-01-13T02:06:00.000Z	janisozaur	WaltherFI	yes, but it also removes it from the device. once a one instance of cat reads the data, no other instance of cat can read the very same data the first instance just read

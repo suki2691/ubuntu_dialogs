@@ -1,0 +1,4 @@
+2008-09-04T07:59:00.000Z	ejer	Odditie	is it correct res when you login?
+2008-09-04T08:00:00.000Z	Odditie	ejer	no, desktop is correct resolution, login is not. I have went and removed all the higher resolutions from the xorg. I can set the login style as Plain and it will be correct, but the Themed is set as a larger resolution.
+2008-09-04T08:00:00.000Z	ejer	Odditie	you may have to sudo dpkg-reconfigure xserver-xorg
+2008-09-04T08:03:00.000Z	Odditie	ejer	Ok, login is fixed, but now I have to figure out how I ended up getting xorg to detect my vid card and monitor

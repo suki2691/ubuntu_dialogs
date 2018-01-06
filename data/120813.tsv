@@ -1,0 +1,4 @@
+2008-01-25T21:35:00.000Z	kenan		hi, how can i have only the tray icon for a program load on startup? i cant find the function in the application settings but im wondering if there is a way
+2008-01-25T21:36:00.000Z	noodlesgc	kenan	open System->Preferences->Sessions
+2008-01-25T21:37:00.000Z	kenan	noodlesgc	i know how to get it on startup but the thing is everytime i log in i get the program open but i just want the tray icon, i dont want the window to actually open on startup
+2008-01-25T21:38:00.000Z	noodlesgc	kenan	look in the man page for a option (like --hidden) if not you might be able to hack something together with alltray

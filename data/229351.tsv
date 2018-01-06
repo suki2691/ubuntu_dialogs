@@ -1,0 +1,4 @@
+2005-07-10T16:42:00.000Z	ymee		hi all, I have two drives in my system. one has the OS on it,the other is also formatted and partitioned, I want to reformat it with only one partition, how do i do that?
+2005-07-10T16:42:00.000Z	ymee		is there any graphical utility for Ubuntu that lets you view drives and partitions and lets you format drives?
+2005-07-10T16:43:00.000Z	rasputnik	ymee	you want a parted frontend,  try 'sudo apt-cache search parted'
+2005-07-10T16:44:00.000Z	rasputnik	ymee	but I don't think they'll let you merge two partitions without losing the data on them

@@ -1,0 +1,4 @@
+2006-07-15T16:29:00.000Z	poje		Does _anyone_ know what would make my wlan0 disappear while ndiswrapper still says hw is present - I removed the acx drivers and put in ndiswrapper, looked all right, then rebooted; now wlan0 is gone
+2006-07-15T16:31:00.000Z	ic56	poje	did you set it up so that ndiswrapper would get loaded everytime you boot?  If not, that's probably the cause of your problem
+2006-07-15T16:32:00.000Z	poje	ic56	I did do ndiswrapper -m which should have put it in, and I see stuff in lsmod about ndiswrapper, but /etc/modules is blank of any reference
+2006-07-15T16:35:00.000Z	ic56	poje	sorry, I can't provide more specific advice in that area.  Your question sounded like you had missed the obvious... :-(

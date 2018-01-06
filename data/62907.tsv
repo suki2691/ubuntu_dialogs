@@ -1,0 +1,4 @@
+2012-05-05T04:01:00.000Z	Paulo39		hello guys. i have a simple question: i want to install ubuntu. i already have a linux distro installed in the computer (arch) with separated /swap /home / and /boot partitions. when installing ubuntu, may i point /swap and /boot to the same partitions? (i know i can do it with /home and i will do it)
+2012-05-05T04:03:00.000Z	IntuitiveNipple	Paulo39	Last time I did that /boot was NOT reformatted, the new installation used an existing /boot/ partition
+2012-05-05T04:05:00.000Z	Paulo39	IntuitiveNipple	and did it work with the other /boot not formatted??
+2012-05-05T04:07:00.000Z	IntuitiveNipple	Paulo39	I've never had the Ubuntu installer insist on formatting /boot/ - I always have multiple OSes installed in parallel using LVM LVs too

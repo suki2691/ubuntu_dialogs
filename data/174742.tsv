@@ -1,0 +1,4 @@
+2006-07-16T13:45:00.000Z	DrShade		Anybody can help me with loadlin and installing Ubuntu 6.06?  I get a kernel-panic about unable to mount root fs on unknown-block.  I have root=/dev/rd/0
+2006-07-16T13:46:00.000Z	timbobsteve	DrShade	It seems that the device you are pointing to with boot= doesn't exist... make sure you have the correct device name
+2006-07-16T13:47:00.000Z	DrShade	timbobsteve	what is /dev/rd/0 ?  I am trying to use a ramdisk.
+2006-07-16T13:48:00.000Z	timbobsteve	DrShade	Not sure about ramdisks, but it seems that /dev/rd/0 doesn't exist.. or atleast the ramdisk doesn't contain a kernel

@@ -1,0 +1,4 @@
+2009-09-08T01:32:00.000Z	dumont		how do I run fsck in rescue mode? when i type "fsck" i just get the fsck version number
+2009-09-08T01:33:00.000Z	dumont		how do I run fsck in rescue mode? when i type "fsck" i just get the fsck version number
+2009-09-08T01:34:00.000Z	arand	dumont	fsck --help
+2009-09-08T01:35:00.000Z	arand	dumont	you probably want to do something like "fsck -p /dev/sda#"

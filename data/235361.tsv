@@ -1,0 +1,4 @@
+2009-11-24T07:49:00.000Z	quinten		hey, my gnome-panel is unresponsive and has graphic artifacts
+2009-11-24T07:50:00.000Z	quinten		stays in the same state when i reboot
+2009-11-24T07:50:00.000Z	quinten		is this a known bug? i'm using the intel video drivers
+2009-11-24T07:51:00.000Z	Madpilot	quinten	open a terminal and type "killall gnome-panel" to force it to restart, see what that does

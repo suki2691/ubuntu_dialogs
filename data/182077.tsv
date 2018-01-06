@@ -1,0 +1,4 @@
+2006-08-08T12:13:00.000Z	fyrestrtr	scast	after you have got it installed, head over to #postgres for your questions. Installing is very straight forward.
+2006-08-08T12:14:00.000Z	scast	fyrestrtr	i think I didn't express myself well. I mean after installing do I need to run something or just sudo su; su - postgres;createuser myname... ?
+2006-08-08T12:16:00.000Z	fyrestrtr	scast	you do need to su postgres then create users (use sudo -i not sudo su). But other than that, no. To control the server, use the init scripts (like any other daemon process). sudo /etc/init.d/postgresql -- will give you all options.
+2006-08-08T12:22:00.000Z	scast	fyrestrtr	thanks, it works perfect.

@@ -1,0 +1,4 @@
+2012-01-19T20:45:00.000Z	bambino__		well im a new ubuntu user i've installed in my netbook a week ago i was able to open a online game called tibia but now i try and it don't open i've readed that i would be my graphic aceleration but i dont know how to check if i have a graphic card installed in my pc and how to activate the graphic aceleration can anyone help me please?
+2012-01-19T20:46:00.000Z	auronandace	bambino__	lspci | grep vga
+2012-01-19T20:57:00.000Z	auronandace	bambino__	lspci | grep vga
+2012-01-19T20:58:00.000Z	auronandace	bambino__	there you go, you have intel graphics so you don't need to install any drivers

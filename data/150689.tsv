@@ -1,0 +1,4 @@
+2008-02-13T00:42:00.000Z	shortcircuit		OK, I'm getting pissed.  I need to get resolv.conf to point to my local bind9 installation, and *not* get rewritten on reboot.  Apparently, resolv.conf is being rewritten by resolvconf, which works through Avahi.  But Avahi doesn't have the appropriate settings.  What am I missing?
+2008-02-13T00:44:00.000Z	Pici	shortcircuit	add a line to /etc/dhcp3/dhclient.conf that says:  prepend domain-name-servers ip.ad.dd.r, ip.ad.d.r;
+2008-02-13T00:45:00.000Z	shortcircuit	Pici	I already added "prepend domain-name-servers 127.0.0.1" yesterday, to try to get it to point to my localhost bind.
+2008-02-13T00:46:00.000Z	shortcircuit	Pici	The problem is that I've set up a VPN for work, and I need bind9 to get access to the work hostnames.

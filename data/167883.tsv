@@ -1,0 +1,4 @@
+2007-09-22T08:10:00.000Z	SAM_theman		how do I format my usb ?
+2007-09-22T08:10:00.000Z	SAM_theman		format it to ntfs
+2007-09-22T08:11:00.000Z	SAM_theman		they gotten dx8 on vmware
+2007-09-22T08:12:00.000Z	ShackJack	SAM_theman	fdisk /dev/sda && mkfs -t ntfs /dev/sda1  (though change sda* depending on where usb is mounted

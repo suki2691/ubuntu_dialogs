@@ -1,0 +1,4 @@
+2007-04-25T16:06:00.000Z	mad_goldfish		How can I keep my belkin rt2750 driver from 6.10 instead of the rt73usb installed in 7.10? According to dmesg, rt73usb is the default at boot. :-(
+2007-04-25T16:08:00.000Z	orbin	mad_goldfish	you could try blacklisting it if it's a module.
+2007-04-25T16:10:00.000Z	mad_goldfish	orbin	I tried that, using the instructions at https://answers.launchpad.net/ubuntu/+question/5290 but dmesg is still listing it as the driver running the network interface
+2007-04-25T13:44:00.000Z	mad_goldfish	orbin	Thanks for the help last night. Turned out it was the blacklist after all.

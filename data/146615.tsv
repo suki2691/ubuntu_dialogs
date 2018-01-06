@@ -1,0 +1,4 @@
+2012-07-17T15:46:00.000Z	m3ga		i'm on precise, with dnsmasq being managed by network-manager. how do i force add a hostname -> ip address lookup?
+2012-07-17T15:47:00.000Z	BluesKaj	m3ga	 a nameserver ?
+2012-07-17T15:51:00.000Z	m3ga	susundbe1g	weird, 'ping $name' works, 'host $name' doesn't.
+2012-07-17T15:51:00.000Z	BluesKaj	m3ga	you could add it to the /etc/network/interfaces file , /etc/resolv.conf is over written by resolvconf and network manager

@@ -1,0 +1,4 @@
+2010-06-12T22:45:00.000Z	thewoolleyman		how can I tell upstart to call a stop script which is different than a start script?  e.g. start is /bin/start-myservice and stop is /bin/stop-myservice?
+2010-06-12T22:46:00.000Z	thewoolleyman		I want to write an upstart script for a service which has different scripts/params to start and stop it
+2010-06-12T22:47:00.000Z	muep`	thewoolleyman	I do not believe this is necessarily the correct solution, but you could write a wrapper script that can both start and stop it
+2010-06-12T22:48:00.000Z	thewoolleyman	muep`	I don't think that is correct either, I'm trying to find the right solution.  What does upstart do by default to stop a service?

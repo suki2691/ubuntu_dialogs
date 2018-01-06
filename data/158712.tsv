@@ -1,0 +1,4 @@
+2007-12-19T20:13:00.000Z	lumpy^		hey. i got a folder witch it /var/www/ , and i want that once i go to /home/user12/www it will follow to the /var/www/ ... i think the command is ln -s somthing.. anyone can tell me what is the correct syntax?
+2007-12-19T20:14:00.000Z	lumpy^		im now in the shell at /
+2007-12-19T20:14:00.000Z	Slart	lumpy^	you want to create a symbolic link.. ln -s is the right command.. "cd ~" then "ln -s /var/www www"
+2007-12-19T20:14:00.000Z	Slart	lumpy^	oh.. sorry.. cd ~/user12/

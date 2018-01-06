@@ -1,0 +1,4 @@
+2006-10-01T05:01:00.000Z	caimex		I setup gnump3d perfectly, but when I reset my computer it says the port is in use, so I change the port. If I reset again it'll say its in  use again, so I have to switch it every time I reset, help :)
+2006-10-01T05:03:00.000Z	caimex		I setup gnump3d perfectly, but when I reset my computer it says the port is in use, so I change the port. If I reset again it'll say its in  use again, so I have to switch it every time I reset, help :)
+2006-10-01T05:04:00.000Z	fdoving	caimex	check what is using the port with 'sudo fuser -v portnumber/tcp' where portnumber is the number of the port.
+2006-10-01T05:18:00.000Z	fdoving	caimex	'sudo fuser -vki *port*/tcp'

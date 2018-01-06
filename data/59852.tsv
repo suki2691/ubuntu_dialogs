@@ -1,0 +1,4 @@
+2009-04-21T18:37:00.000Z	Todor		Hi all. Can somebody tell me how do I download a package (i.e. openssh-server) with apt-get if I have ALREADY installed it?
+2009-04-21T18:38:00.000Z	JackWat|work	Todor	http://packages.ubuntu.com/hardy/openssh-server
+2009-04-21T18:41:00.000Z	JackWat|work	Todor	try sudo apt-get install -d openssh-server
+2009-04-21T18:43:00.000Z	JackWat|work	Todor	wget http://security.ubuntu.com/ubuntu/pool/main/o/openssh/openssh-server_4.7p1-8ubuntu1.2_i386.deb

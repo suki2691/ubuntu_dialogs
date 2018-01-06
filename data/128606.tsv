@@ -1,0 +1,4 @@
+2007-08-09T09:04:00.000Z	aaronm		you know how CTRL + Z suspends a job in bash? is there a way to just force a program to run in the background and then bring it to the foreground using fg or something?
+2007-08-09T09:05:00.000Z	jrib	aaronm	I don't really understand your question, if you put a job in the background and then hit 'fg' it will bring it to the foreground.  Is that what you wanted to know?
+2007-08-09T09:06:00.000Z	aaronm	jrib	no i mean im running an app like irssi right now, if i wanted to get to bash without opening another terminal and im not running screen is there a way to have it run in the background. note it's already open and CTRL Z suspends it meaning its not actually running is it? like if it was suspended and someone typed in IRC i wouldnt recieve that data since the job was suspended if that makes sense
+2007-08-09T09:07:00.000Z	jrib	aaronm	'bg' :)  google for "bash job control"

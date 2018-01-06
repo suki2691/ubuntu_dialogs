@@ -1,0 +1,4 @@
+2011-05-11T17:10:00.000Z	DeadEnd		I want to copy a file using the symlink name not the original file name, any ideas what the cp command should be
+2011-05-11T17:10:00.000Z	jrib	DeadEnd	hint: readlink
+2011-05-11T17:11:00.000Z	jrib	DeadEnd	actually, there's likely a dereference option to cp you can use, check its man page
+2011-05-11T17:12:00.000Z	jrib	DeadEnd	yes, it's -L and it seems to happen by default

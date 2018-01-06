@@ -1,0 +1,4 @@
+2006-05-04T13:09:00.000Z	william__		is there any way I can make a bash script input my password? i have a script that needs to be run in root but I don't want to type in my password everytime
+2006-05-04T13:10:00.000Z	oblib	william__	have you ever worked with your sudoers file?
+2006-05-04T13:13:00.000Z	oblib	william__	the sudoers file allows you to execute a file without typing your password everytime
+2006-05-04T13:14:00.000Z	oblib	william__	if your script is "/usr/bin/hello" than putting this line in /etc/sudoers will let you run it without a password:   [yourusername]  ALL= PASSWD:ALL, NOPASSWD:/usr/bin/hello

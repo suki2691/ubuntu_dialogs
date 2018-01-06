@@ -1,0 +1,4 @@
+2006-08-19T12:31:00.000Z	tambu		I know someone will shoot me but I'm a bit concerned... I see there is no root user login  and that ubuntu uses sudu to give root privledges... atleast that asks for a password but if you do sudo su it just makes you root without asking for password? am I missing something this seems far less secure then a separate root acct/passwd?
+2006-08-19T12:32:00.000Z	fangorious	tambu	you would have to have already used a sudo command recently to not be prompted (there's a timeout so you don't have to keep authenticating every time)
+2006-08-19T12:35:00.000Z	fangorious	tambu	or a system with selinux
+2006-08-19T12:45:00.000Z	fangorious	tambu	unless they exploit a remote root vulnerability

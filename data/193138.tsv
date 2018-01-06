@@ -1,0 +1,4 @@
+2006-07-02T13:07:00.000Z	EdLin		"lndir" doesn't make sense, ln -s will make a symbolic link from a directory to another place, and regular ln won't do it because making a hard link to a directory is a good way to foul up your  filesystem
+2006-07-02T13:09:00.000Z	ic56	EdLin	lndir is what one uses to foul up that filesystem ;-)
+2006-07-02T13:12:00.000Z	ic56	EdLin	bulltitan.  I'd forgotten about that. Just checked the manpage: lndir doesn't make hardlinks.  It makes parallel symlink trees -- like for setting up a build hierarchy from a source hierarchy
+2006-07-02T13:13:00.000Z	EdLin	ic56	metrol sounds like a neat feature.

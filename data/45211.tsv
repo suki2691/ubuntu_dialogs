@@ -1,0 +1,4 @@
+2010-08-28T08:15:00.000Z	rpcesar		hello. I am using the latest version of ubuntu and trying to create a seperate wine prefix without using playonlinux
+2010-08-28T08:16:00.000Z	rpcesar		if i type wineprefixcreate, it tells me that i need to install 1.2, I currently have 1.3.1 build from them
+2010-08-28T08:16:00.000Z	rpcesar		if i do an apt get of 1.2 it will revert me, however, the command then still fails
+2010-08-28T08:17:00.000Z	thune3	rpcesar	you don't need wineprefix create anymore, you just export WINEPREFIX="whatever" and any following wine command will create the internals if they don't exist.

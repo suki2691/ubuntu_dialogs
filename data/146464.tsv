@@ -1,0 +1,4 @@
+2011-12-31T00:59:00.000Z	mrk		Hi everyone, I am trying to connect to a scanner that is attached to my network. the IP address is 192.168.1.22 but i cannot add it to xsane backend please help
+2011-12-31T01:00:00.000Z	BluesKaj	mrk	add it to /etc/hosts.allow as root
+2011-12-31T01:13:00.000Z	BluesKaj	mrk	, alt+F2 , gksudo gedit /etc/hosts.allow , add the pormap then below that, ALL: 192.168.1.22
+2011-12-31T01:13:00.000Z	BluesKaj	mrk	pormap=portmap

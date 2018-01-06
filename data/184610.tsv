@@ -1,0 +1,4 @@
+2008-10-15T01:33:00.000Z	johntramp		hey how can i remove all thumbs.db files on my pc?  something like `locate thumbs.db | xargs rm -` ?
+2008-10-15T01:33:00.000Z	johntramp		hey how can i remove all thumbs.db files on my pc?  something like `locate thumbs.db | xargs rm -` ?
+2008-10-15T01:34:00.000Z	ejer	johntramp	find / -name "Thumbs.db" -exec rm {} \;
+2008-10-15T01:34:00.000Z	johntramp	ejer	thanks

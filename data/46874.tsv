@@ -1,0 +1,4 @@
+2010-09-11T19:15:00.000Z	xandje		how do I make cp also copy hidden files etc?
+2010-09-11T19:16:00.000Z	xandje		ie if I'll do ls -A /etc/skel it'll show .bashrc etc but when I cp -R /etc/skel/* . it won't copy it over somehow
+2010-09-11T19:17:00.000Z	ChogyDan	xandje	try -a too
+2010-09-11T19:17:00.000Z	ChogyDan	xandje	ya, or i think rsync -aS

@@ -1,0 +1,4 @@
+2011-07-30T11:15:00.000Z	kyansaa		With Ubuntu 11.04 plymoth is weird, when I power up my computer I have an purple screen without ubuntu logo with somthing appears to be artefacts but at the shutdown I have a clean plymouth with ubuntu logo
+2011-07-30T11:16:00.000Z	ActionParsnip	kyansaa	do you use proprietary video drivers?
+2011-07-30T11:18:00.000Z	ActionParsnip	kyansaa	strange. Not sure personnally then, maybe others can contribute
+2011-07-30T11:21:00.000Z	ActionParsnip	kyansaa	there is a guide to force the boot to use the fb driver during boot. The nouveau driver will load when x starts

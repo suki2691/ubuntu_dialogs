@@ -1,0 +1,4 @@
+2009-08-11T12:41:00.000Z	dAnon		I typed fdisk -ls and it says cannot open /dev/sda
+2009-08-11T12:42:00.000Z	vagothcpp	dAnon	Is it a SATAII disk or SCSI?
+2009-08-11T12:43:00.000Z	vagothcpp	dAnon	Then you may need a SCSI driver installed for it to be recognized
+2009-08-11T12:49:00.000Z	vagothcpp	dAnon	sudo unmount /dev/sda1

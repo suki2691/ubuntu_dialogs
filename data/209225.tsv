@@ -1,0 +1,4 @@
+2008-02-19T22:41:00.000Z	theseus		all: nope -- tcp port forward to 6667 doesn't work -- i still can't irc unless i disable my firewall -- any thoughts?
+2008-02-19T22:43:00.000Z	theseus		o.k. -- anyone know how to see what port i am connected to irc with??
+2008-02-19T22:43:00.000Z	LjL	theseus	netstat -l | grep irc
+2008-02-19T22:43:00.000Z	LjL	theseus	netstat -l -a | grep irc

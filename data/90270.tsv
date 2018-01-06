@@ -1,0 +1,4 @@
+2008-05-18T13:55:00.000Z	Sprax567		anyone know how to chance which soundcard ubuntu uses to output sound? i've tried changing in system -> preferences -> sound and in alsamixer but nope
+2008-05-18T13:55:00.000Z	Sprax567		change
+2008-05-18T13:57:00.000Z	jussi01	Sprax567	do in terminal: "asoundconf list" find out what card you want, then: "asoundconf set-default-card <default-card-here>"
+2008-05-18T14:00:00.000Z	Sprax567	jussi01	didn't work :( it's still using the wrong card

@@ -1,0 +1,4 @@
+2006-10-25T06:04:00.000Z	teledyn	Ornedan	launch it from a command line and watch for error output.  run strace
+2006-10-25T06:09:00.000Z	Ornedan	teledyn	Any instructions as to what parameters I should give strace? Also, Eclipse does get as far as producing it's own crash log
+2006-10-25T06:10:00.000Z	teledyn	Ornedan	strace -s 128 -o /tmp/strace.out -f </path/to/app>
+2006-10-25T06:16:00.000Z	Ornedan	teledyn	Created an strace log. What then? Also, the issue doesn't seem dependent on jvm used (botg gcj and sun fail the same way)

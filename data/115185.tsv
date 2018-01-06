@@ -1,0 +1,4 @@
+2007-10-26T11:42:00.000Z	clever[rev]	zcat[1]	sda would be the first 'scsi' drive(usb and sata drives also show up as scsi)
+2007-10-26T11:43:00.000Z	clever[rev]	zcat[1]	also my ubuntu started to treat pata drives as scsi for a short while a few months ago(hda turned into sda)
+2007-10-26T11:43:00.000Z	zcat[1]	bullgard4	by usually, I think he means the installer / boot process dynamically decides where to point that link. ls -l /dev/sr0 will show you where your one is pointing, because it will likely be a link to the 'real' device name
+2007-10-26T11:43:00.000Z	clever[rev]	zcat[1]	the symlink under /dev/ is made by udev(which has a flexible set of rules to addjust it)

@@ -1,0 +1,4 @@
+2005-09-28T08:24:00.000Z	maint		How do I change the different available screen resolutions? (I only selected 640x480 during the ubuntu setup, but now I would like to have more available) ?
+2005-09-28T08:26:00.000Z	alisher	maint	sudo dpkg-reconfigure xserver-xorg
+2005-09-28T08:26:00.000Z	alisher	maint	or   sudo gedit /etc/X11/xorg.conf
+2005-09-28T08:46:00.000Z	alisher	maint	is xserver-xorg really not installed w you?

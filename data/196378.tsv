@@ -1,0 +1,4 @@
+2009-01-18T10:01:00.000Z	Guest60113		hi
+2009-01-18T10:03:00.000Z	Guest60113		if i want to be able to run a executable without going to the folder...i need to set the PATH in the .profile right? I tried that but it still doesn't work, and when I tryp echo $PATH....i don't see the path that i entered on .profile nor do i see any of the other paths that exist already from before. Am i doing something wrong?
+2009-01-18T10:05:00.000Z	dr_Willis	Guest60113	 you must set and EXPORT the new PATH in .bashrc normally to get it set for all shells
+2009-01-18T10:05:00.000Z	dr_Willis	Guest60113	 i dont reacall using .profile

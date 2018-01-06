@@ -1,0 +1,4 @@
+2009-05-14T09:09:00.000Z	voxadam		I just installed 9.04 on an old box I dug out of the closet but every time I boot the kernel crashes, usually before hitting KDM and always before reaching the desktop. How do I keep X from starting and go text only so I can poke around?
+2009-05-14T09:10:00.000Z	burner	voxadam	you can boot the "recovery" kernel via grub by pressing esc in the beginning of the boot process
+2009-05-14T09:18:00.000Z	voxadam	burner	I did what you said and have a root shell now. Now how do I keep X from starting when I reboot?
+2009-05-14T09:18:00.000Z	burner	voxadam	remove kdm and gdm? :)

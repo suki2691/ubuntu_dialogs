@@ -1,0 +1,4 @@
+2011-05-25T03:13:00.000Z	andantino		hi could someone help me to change my mouse speed settings permanently in Ubuntu.  I am using the LXDE desktop and the only way I can change it is with xset in the terminal.  But I have to do that each team I log in.
+2011-05-25T03:14:00.000Z	ActionParsnip	andantino	add it to the startup
+2011-05-25T03:16:00.000Z	ActionParsnip	andantino	the only way I know how is to make a script, then make a .desktop file to run it in ~/.config/autostart
+2011-05-25T03:17:00.000Z	ActionParsnip	andantino	if there is a script which gets ran when LXDE or openbox runs, add it there

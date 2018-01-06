@@ -1,0 +1,4 @@
+2010-10-28T02:46:00.000Z	brandon_		Okay i had php working one day and today when i went to go to my website it won't work, and if i type in my domainname/index.php it ask's me if i wan't to save the PHP file, for  some reason it does not wan't to read the PHP File.
+2010-10-28T02:48:00.000Z	brandon_		Okay i had php working one day and today when i went to go to my website it won't work, and if i type in my domainname/index.php it ask's me if i wan't to save the PHP file, for  some reason it does not wan't to read the PHP File, i think this started when i had to force reboot my OS.
+2010-10-28T02:49:00.000Z	warflyr	brandon_	look for the 'DirectoryIndex' directive in your apache configuration
+2010-10-28T02:51:00.000Z	warflyr	brandon_	try to execute php from the command line

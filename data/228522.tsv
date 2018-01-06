@@ -1,0 +1,4 @@
+2006-04-24T12:18:00.000Z	stjepan		how can I see what versions of checkinstall are available for apt-getting?
+2006-04-24T12:18:00.000Z	johanbr	stjepan	apt-cache policy checkinstall
+2006-04-24T12:41:00.000Z	johanbr	stjepan	Remove that file before you run the checkinstall. Or, if you're feeling brave, do "dpkg --force all blah.deb". In general, the latter is a bad idea.
+2006-04-24T13:06:00.000Z	johanbr	stjepan	It's an ar archive with tar.gz files inside.

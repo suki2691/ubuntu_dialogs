@@ -1,0 +1,4 @@
+2008-03-15T20:53:00.000Z	rjeffries		maybe my question was unclear. I sucessfuly downloaded and installed a program. it was not put in the menu anywhere (under Applications).
+2008-03-15T20:54:00.000Z	rjeffries		is there a program to search all filenames on my system looking for "chandler"
+2008-03-15T20:54:00.000Z	rjeffries		no it was gdebi
+2008-03-15T20:54:00.000Z	nickrud	rjeffries	  dpkg -L <packagename> | grep /bin/ , will show the commands available

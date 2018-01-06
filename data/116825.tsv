@@ -1,0 +1,4 @@
+2007-12-29T03:32:00.000Z	kyleBAKED		if i remove usplash using apt, will my boot screen revert to whats in /boot/grub/menu.lst?
+2007-12-29T03:33:00.000Z	g2g591	kyleBAKED	nope, if you remove usplash, you get to see verbose output from the kernel as it boots,
+2007-12-29T03:33:00.000Z	g2g591	kyleBAKED	any image defined by /boot/grub/menu.lst is just for the boot menu
+2007-12-29T03:34:00.000Z	kyleBAKED	g2g591	oh, is there a way to have a background image and / or edit the display the verbose text?

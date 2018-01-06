@@ -1,0 +1,4 @@
+2008-05-26T06:48:00.000Z	Smegzor		I have a small lan with linux servers, my ubuntu pc and XP boxes on it.  I have a shared folder on a linux server which XP can read/write, but my Ubuntu pc only gets read access.  I can't figure out why I don't have write access.  The user/pass is the same on my pc and the file server.  Where might the problem lie?
+2008-05-26T06:49:00.000Z	Nitricacid	Smegzor	chmod
+2008-05-26T06:51:00.000Z	Nitricacid	Smegzor	try 755
+2008-05-26T06:51:00.000Z	Nitricacid	Smegzor	if that doesnt work try 777

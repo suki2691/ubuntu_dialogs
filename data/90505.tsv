@@ -1,0 +1,4 @@
+2010-12-27T10:54:00.000Z	zosky		im using rsync in a BASH script & piping its output to $log (rsync -avr $1 $2  1>$log)... each rsync command still outputs "Ubuntu 10.04.1 LTS" when i run the script. how to make that stop ?
+2010-12-27T10:55:00.000Z	shingen	zosky	>& $log for stdout and errors
+2010-12-27T10:55:00.000Z	shingen		ls
+2010-12-27T10:56:00.000Z	zosky	shingen	you da man!!! thnx

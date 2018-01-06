@@ -1,0 +1,4 @@
+2006-01-01T09:07:00.000Z	ardchoille		I put the updatedb command into a cronjob. Was this necessary or does Ubuntu run updatedb on its own?
+2006-01-01T09:09:00.000Z	rob_p	ardchoille	 If you have slocate (you probably do), then it's already got a symlink in /etc/cron.daily which will take care of daily updates.
+2006-01-01T09:10:00.000Z	rob_p	ardchoille	 correction... not a symlink... an actual script!
+2006-01-01T09:16:00.000Z	ardchoille	rob_p	Thank you :)

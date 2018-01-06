@@ -1,0 +1,4 @@
+2008-02-03T16:01:00.000Z	mutable		hello, i've recently installed nvidia driver 100.14.19 from binary package downloaded from nvidia site. i could not switch to another console, everytime i got random color mess on screen. so i wanted to install nvidia-glx package from ubuntu repos (old nvidia driver i think), but now i get "API mismatch: the client has version 1.0-9639, but this kernel module has the version 100.14.19". I can start Xorg, but only in low graphic mode. please help
+2008-02-03T16:02:00.000Z	mutable		output is from dmesg|grep NVRM
+2008-02-03T16:03:00.000Z	aseeon	mutable	You could always delete what you installed and install in using envy
+2008-02-03T16:04:00.000Z	mutable	aseeon	I have not envy :(

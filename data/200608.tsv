@@ -1,0 +1,4 @@
+2006-08-25T07:23:00.000Z	jamesstansell	sethk	does he need to be in single-user mode for a systems directory like /usr?
+2006-08-25T07:23:00.000Z	sethk	jamesstansell	in this direction, no, because he isn't unmounting anything.
+2006-08-25T07:24:00.000Z	sethk	jamesstansell	during the period between the cp and the mount, yes, there is a bit of exposure, but if nothing else is running he's ok
+2006-08-25T07:25:00.000Z	sethk	jamesstansell	that's true, I was using /usr as an example, but the concept is general

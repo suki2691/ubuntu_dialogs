@@ -1,0 +1,4 @@
+2007-05-06T08:22:00.000Z	kaptnemo		Hey Willis is it possible to use chmod to change the access permissions of my drives? if so how exactly would I go about doing so?
+2007-05-06T08:23:00.000Z	kaptnemo		is it possible to use chmod to change the access permissions of my drives? if so how exactly would I go about doing so?
+2007-05-06T08:24:00.000Z	jrib	kaptnemo	what filesystem?
+2007-05-06T08:25:00.000Z	jrib	kaptnemo	yeah, you use chmod/chown as usual on ext3 parititons that you have mounted (don't change permissions on your system files though).

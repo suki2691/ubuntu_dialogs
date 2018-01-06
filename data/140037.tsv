@@ -1,0 +1,4 @@
+2011-07-22T19:12:00.000Z	kantor		Hello I have an ftp server (vsftpd) And I want to share two directories from two separate paths. I tried to do this with symbolic links but is not working. Is there any possibility to share directories from separate sources, paths?
+2011-07-22T19:13:00.000Z	wols	kantor	hard link?
+2011-07-22T19:13:00.000Z	kantor	wols	I wanted to create hard links, but the ln command tells me that hard links are not possible for directories
+2011-07-22T19:15:00.000Z	wols	kantor	check vsftpd config file if you can enable symlinks. tho they have been security holes in the past for ftp. do you REALLY need a ftp server? if so, what for?

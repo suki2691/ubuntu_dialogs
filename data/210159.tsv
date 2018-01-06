@@ -1,0 +1,4 @@
+2006-03-31T06:29:00.000Z	dpm		I've installed ubuntu on my laptop, but although it has an S3 savage graphics card, the "vesa" driver is loaded in xorg.conf. What I want to do is to modify xorg.conf to load the s3 driver instead. Does anyone know the name of the s3 driver (is it "savage")?
+2006-03-31T06:30:00.000Z	Toma-	dpm	running "sudo dpkg-reconfigure xserver-xorg" will let you select any driver you want
+2006-03-31T06:31:00.000Z	dpm	Toma-	void^ Thanks
+2006-03-31T06:31:00.000Z	Toma-	dpm	np

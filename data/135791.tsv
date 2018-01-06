@@ -1,0 +1,4 @@
+2008-11-13T00:14:00.000Z	tlacuache		hey, i'm helping a coworker who was trying to install ubuntu on an external hard drive. he did everything right, except he accidentally put the bootloader on his laptop's hard drive instead. i got him fixed up with a super grub disk, restoring the windows bootloader. what i'm wondering now is if there's a way to just install grub on the external disk without having to re-do the entire isntallation
+2008-11-13T00:15:00.000Z	Winkie	tlacuache	yes, typically you would run 'sudo grub', set the root drive and run 'setup'
+2008-11-13T00:15:00.000Z	Winkie	tlacuache	there will be guides online for it
+2008-11-13T00:16:00.000Z	tlacuache	Winkie	thanks

@@ -1,0 +1,4 @@
+2011-08-27T02:21:00.000Z	nick__________		if my boot drive is /dev/sdc  and the main partition is on sdc1, what should the line in fstab look like?
+2011-08-27T02:22:00.000Z	Polah	nick__________	/dev/sda1 /               ext4    errors=remount-ro 0       1      although I've use the UUID instead of /dev/sda1
+2011-08-27T02:23:00.000Z	Polah	nick__________	sudo blkid
+2011-08-27T02:27:00.000Z	Polah	nick__________	grub-install from a LiveCD

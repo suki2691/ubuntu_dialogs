@@ -1,0 +1,4 @@
+2007-05-25T05:13:00.000Z	jbernhardt		hey my apt-get has been screwed up ever since feisty, whenever i try to apt-get install something or even try to run updates the connection gets refused
+2007-05-25T05:15:00.000Z	jbernhardt		hey my apt-get has been screwed up ever since feisty, whenever i try to apt-get install something or even try to run updates the connection gets refused. what is wrong
+2007-05-25T05:16:00.000Z	Slart	jbernhardt	hmm... perhaps your source list is messed up
+2007-05-25T05:18:00.000Z	Slart	jbernhardt	you could try this... remove the sources.list file .. (sudo mv /etc/apt/sources.list /etc/apt/backuplist.list) and then go into system menu, administration, software sources and click in the stuff you need, it shoudl create a new one for you

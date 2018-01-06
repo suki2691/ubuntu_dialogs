@@ -1,0 +1,4 @@
+2009-02-17T15:48:00.000Z	moniker127		this sounds like a terribly noobish question - and it is - but how can i tell whether i'm running 8.04 or 8.10? I used a cd from a while ago, and i never mark my cds
+2009-02-17T15:49:00.000Z	moniker127		ah thanks
+2009-02-17T15:49:00.000Z	prince_jammys	moniker127	lsb_release -a . uname tells you about the kernel
+2009-02-17T15:50:00.000Z	prince_jammys	moniker127	often -a means 'all', but there's no rule about it

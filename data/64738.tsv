@@ -1,0 +1,4 @@
+2010-01-21T21:47:00.000Z	CVirus		How can I allow a user to mount a device using the mount command without being a sudoer ?
+2010-01-21T21:49:00.000Z	ZykoticK9	CVirus	typically you'd put a mount point in fstab with a "user" option -- DON'T give all users MOUNT access < unless you want too
+2010-01-21T21:50:00.000Z	CVirus	ZykoticK9	thanks
+2010-03-24T22:44:00.000Z	ZykoticK9	CVirus	grub2 is only default if you clean installed - if you upgraded it's still grub1

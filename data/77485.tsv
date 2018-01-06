@@ -1,0 +1,4 @@
+2009-02-20T02:09:00.000Z	makito249		Does anyone know how to find out what driver X is using on a running system? I have no xorg.conf
+2009-02-20T02:09:00.000Z	_dbd_l12	makito249	i'd search in the output of lsmod
+2009-02-20T02:12:00.000Z	_dbd_l12	makito249	lsmod | grep intel gives nothing. Hmm, let me think for a while
+2009-02-20T02:15:00.000Z	makito249	_dbd_l12	nothing in proc drivers except sound card stuff

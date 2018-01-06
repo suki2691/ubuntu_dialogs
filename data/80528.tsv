@@ -1,0 +1,4 @@
+2009-08-25T17:40:00.000Z	jiohdi		I have a partition in ext3, called data, but it does not always show up in the file system... where do I find it? under what folder?
+2009-08-25T17:42:00.000Z	C-S-B	jiohdi	you can then add it to fstab
+2009-08-25T17:43:00.000Z	C-S-B	jiohdi	if it's mounted in ubuntu, it will be in /media, but you can check with cat /etc/mtab
+2009-08-25T17:44:00.000Z	C-S-B	jiohdi	like i said, add it fstab

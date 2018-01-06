@@ -1,0 +1,4 @@
+2009-05-29T03:17:00.000Z	zek		i try to boot a live cd and i get the error "IO APIC resources could be not be allocated " "kernel panic - not syncing : Attempted to kill init!" ideas?
+2009-05-29T03:18:00.000Z	thegve	zek	Do a media check, if it turns out ok, reboot, press f6, and then check nolapic.
+2009-05-29T03:20:00.000Z	zek	thegve	where does the noapic (or is it nolapic) go in the boot options?
+2009-05-29T03:20:00.000Z	thegve	zek	You can enable it using f6 for "extra options" I think

@@ -1,0 +1,4 @@
+2009-01-21T17:04:00.000Z	lamba		what would be the correct way to apt-pin a repository which is local (given as deb file:/dir/path in sources file), i want any debs in that dir to override any other source
+2009-01-21T17:05:00.000Z	jrib	lamba	it's probably easier to just list them first in your sources.list and use sane versioning
+2009-01-21T17:08:00.000Z	lamba	jrib	unfortunately its really not. as this is all scripted.
+2009-01-21T17:11:00.000Z	jrib	lamba	I don't understand.  What exactly is all scripted?

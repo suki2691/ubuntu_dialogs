@@ -1,0 +1,4 @@
+2005-03-18T14:48:00.000Z	_bryan		I keep getting "mount: /dev/hdb already mounted or /mnt/hdb busy
+2005-03-18T14:48:00.000Z	_bryan		"
+2005-03-18T14:48:00.000Z	_bryan		but a 'mount' doesn't show hdb being mounted
+2005-03-18T14:48:00.000Z	azriel0184	_bryan	cat /etc/mtab | grep /dev/hdb

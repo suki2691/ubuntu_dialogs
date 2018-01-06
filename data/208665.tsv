@@ -1,0 +1,4 @@
+2005-11-05T13:04:00.000Z	sverre		I want to edit the "sources.list". How do I get the rights to do that? I am the sysadmin...
+2005-11-05T13:05:00.000Z	bimberi	sverre	sudo gedit /etc/apt/sources.list    (use sudo to get superuser privs)
+2005-11-05T13:08:00.000Z	sverre	bimberi	It says in root in terminal: Warning: Cannot open display. When I tried in my account nothing happened at all.
+2005-11-05T13:09:00.000Z	bimberi	sverre	you tried "sudo gedit /etc/apt/sources.list" in a normal terminal? (it won't work in root terminal)

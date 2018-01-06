@@ -1,0 +1,4 @@
+2009-08-17T19:08:00.000Z	JACKSU		can anyone recommend a modeline generator please
+2009-08-17T19:09:00.000Z	JACKSU		it allows my monitor to use custom refresh rates kickAss
+2009-08-17T19:09:00.000Z	genii	JACKSU	I usually do something like install read-edid then you can get modeline output suitable for inclusion in an xorg file from results of: sudo get-edid |  parse-edid
+2009-08-17T19:13:00.000Z	genii	JACKSU	Please do not private-message me, I assist only in public channels. The package read-edid installs some utilities which query the video card and attached monitor(s). When you sun the: sudo get-edid   that pulls raw info off the video card and interrogates the monitor attached to it for what capabilities it has. Then the: | parse-edid  part filters that raw info to produce something usable in a config file.

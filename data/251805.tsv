@@ -1,0 +1,4 @@
+2005-03-18T07:55:00.000Z	StoffBox-Steve		is there a why to extract more than one .zip file at once ? --- or it going to be a long long day ..^^
+2005-03-18T07:56:00.000Z	snowblink	StoffBox-Steve	unzip *.zip ?
+2005-03-18T08:06:00.000Z	snowblink	StoffBox-Steve	believe thaytan
+2005-03-18T08:07:00.000Z	snowblink	StoffBox-Steve	for file in *.zip; do unzip $file; done

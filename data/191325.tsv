@@ -1,0 +1,4 @@
+2007-02-26T15:20:00.000Z	docta_v		i had some problems with my mysql init script so i deleted it and reinstalled the package
+2007-02-26T15:21:00.000Z	docta_v		but it didn't re-install /etc/init.d/mysql
+2007-02-26T15:21:00.000Z	docta_v		can someone tell me what package provides /etc/init.d/mysql?
+2007-02-26T15:21:00.000Z	AlexC_	docta_v	sudo apt-get install --reinstall mysql (or what ever package it is )

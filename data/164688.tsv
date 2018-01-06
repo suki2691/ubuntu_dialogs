@@ -1,0 +1,4 @@
+2008-07-08T00:29:00.000Z	matthew__		anyone know of backup software that will only copy what has changed? Because I really don't want to have to copy over 30GB of files every time I backup my home dir.
+2008-07-08T00:31:00.000Z	darrend	matthew__	rsnapshot (it's based on rsync and gives you nice time-series backups using hard-links)
+2008-07-08T00:33:00.000Z	matthew__	darrend	will rsnapshot work properly with the NFTS support thing that comes with ubuntu? or will I have to reformat my drive?
+2008-07-08T00:35:00.000Z	darrend	matthew__	pretty sure that shouldn't matter, but depends on how rsync figures out file deltas

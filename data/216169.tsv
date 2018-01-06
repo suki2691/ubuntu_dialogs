@@ -1,0 +1,4 @@
+2005-10-15T12:14:00.000Z	DShepherd	pbutter	 /dev/hda5 /mnt/winhda5 ntfs auto,users,exec,ro,umask=000,uid=1000,gid=1000 0 0
+2005-10-15T12:14:00.000Z	DShepherd	pbutter	put that in your fstab and try again
+2005-10-15T12:15:00.000Z	DShepherd	pbutter	make the relevant changes
+2005-10-15T12:18:00.000Z	DShepherd	pbutter	uid and guid does the trick. man mount for more info

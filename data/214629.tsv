@@ -1,0 +1,4 @@
+2009-02-24T17:50:00.000Z	g16		how to install msttcorefonts manually withaout connected to internet?
+2009-02-24T17:52:00.000Z	ezerhoden	g16	that package pulls all the fonts from the net, do you have all the packages on CD??
+2009-02-24T17:53:00.000Z	ezerhoden	g16	they will not be on the cd
+2009-02-24T17:55:00.000Z	ezerhoden	g16	but the general idea is that if you get all the packages i think you can put them in /var/cache/apt/archives/ and then apt-get install msttcorefonts

@@ -1,0 +1,4 @@
+2006-03-30T15:10:00.000Z	jb0nd38372		I have a secondary drive that was used when I used windows to store downloads, I have it mounted under ubuntu as read only, is there a way I can fix it so that when I pull it up I don't have to use root privs every time?
+2006-03-30T15:12:00.000Z	str8edge	jb0nd38372	you need to specify which user or group you want to give access to in /etc/fstab
+2006-03-30T15:17:00.000Z	str8edge	jb0nd38372	If you use partition magic, backup first!
+2006-03-30T15:20:00.000Z	str8edge	jb0nd38372	its still "dangerous"

@@ -1,0 +1,4 @@
+2009-02-11T10:01:00.000Z	Clearzen		so I just bought a 1.5tb drive but my server refuses to boot with it connected. Any suggestions?
+2009-02-11T10:01:00.000Z	Scunizi	Clearzen	It's an SATA drive right.. try adding pci=nomsi to the kernel line in /boot/grub/menu.list
+2009-02-11T10:02:00.000Z	Scunizi	Clearzen	or /boot/grub/menu.lst
+2009-02-11T10:02:00.000Z	Clearzen	Scunizi	thanks. will try it out

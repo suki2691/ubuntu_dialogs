@@ -1,0 +1,4 @@
+2009-02-18T03:26:00.000Z	newmember		is there a ftpfs package for ubuntu?
+2009-02-18T03:26:00.000Z	skel	newmember	you can search by doing apt-cache search ftpfs
+2009-02-18T03:26:00.000Z	skel	newmember	you may have to modify the repositories you're searching by uncommenting what you want in /etc/apt/sources.list
+2009-02-18T03:27:00.000Z	newmember	skel	doh, I did apt-get install ftpfs.  I guess its not inthe cache either, I'll try the other repos

@@ -1,0 +1,4 @@
+2005-10-06T06:47:00.000Z	Gorlist		hmmm slight problem: - /usr/local/winetools/Xdialog: error while loading shared libraries: libgtk-1.2.so.0: cannot open shared object file: No such file or directory
+2005-10-06T06:48:00.000Z	Gorlist		i believe they are wrongly named, ?
+2005-10-06T06:48:00.000Z	Gorlist		or how would I find the apt libgtk files
+2005-10-06T06:49:00.000Z	TiMiDo	Gorlist	apt-cache search libgtk

@@ -1,0 +1,4 @@
+2012-10-26T16:43:00.000Z	nessi_-		my upgrade vim 12.04 to 12.10 is messed up. I was asked to restart at some point during the upgrade, ever since I don't have any X working nor network working. When I run apt-get upgrade I get many packets listed which are not yet installed. "-f" does not work either, when I do that it tries to download some more packets which it cannot due to lack of network connectivity. Can I boot from USB/CD and resume the upgrade from the USB/CD medi
+2012-10-26T16:43:00.000Z	nessi_-		instead?
+2012-10-26T16:45:00.000Z	ex0a	nessi_-	boot with livecd then chroot into the install and upgrade that way
+2012-10-26T16:45:00.000Z	nessi_-	ex0a	I'll try that, Thanks

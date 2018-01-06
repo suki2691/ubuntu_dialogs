@@ -1,0 +1,4 @@
+2011-05-09T22:43:00.000Z	photon		hi. what command can I use two concatenate two audio files (namely .ogg files) and create a new .ogg audio file out of them?
+2011-05-09T22:44:00.000Z	Dr_Willis	photon	 ffmpeg, mencoder, can proberly do it. :) they can do most everything else.
+2011-05-09T22:50:00.000Z	photon	Dr_Willis	tensorpudding: In case you're interested, something like this works: sox --norm --combine concatenate `ls -x in_*.wav` out.wav
+2011-09-06T05:11:00.000Z	Dr_Willis	photon	 its a work in progress.. in the 11.10 release - its gaining some nice features.

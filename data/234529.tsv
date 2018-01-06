@@ -1,0 +1,4 @@
+2008-09-24T01:36:00.000Z	Awsoonn		in the ls output, where it lists teh file permissions, what does a + at the end indicate?
+2008-09-24T01:38:00.000Z	dooglus	Awsoonn	"     For a file with an extended access control list, a `+' character is listed"
+2008-09-24T01:41:00.000Z	dooglus	Awsoonn	see package 'acl' for more about what the '+' means in ls
+2008-09-24T01:42:00.000Z	dooglus	Awsoonn	the commands are: /usr/bin/getfacl /usr/bin/setfacl /usr/bin/chacl

@@ -1,0 +1,4 @@
+2008-01-02T05:10:00.000Z	mtraven		My ubuntu got horribly broken after attempting to upgrade to Gutsy, it won't boot up properly, and apt-get won't work...what are my options other than reinstalling from scratch?
+2008-01-02T05:10:00.000Z	mtraven		Here's what apt-get is telling me: http://paste.ubuntu-nl.org/50441/
+2008-01-02T05:12:00.000Z	FrostRat	mtraven	if you load up Synaptic, it'll have an option to "fix broken packages"... or you can do it from the command line
+2008-01-02T05:19:00.000Z	FrostRat	mtraven	I'm going to read it now, but have you tried "sudo apt-get install -f" to try fixing it?

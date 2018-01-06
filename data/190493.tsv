@@ -1,0 +1,4 @@
+2007-08-15T13:00:00.000Z	Superkuh		feisty 64bit; I am having issues with DNS not resolving on the aformentioned box and have no idea where to start troubleshooting. It can ping the gateway and do everything fine on the intranet, Is there a config file somewhere I should look at? Maybe just a few keywords to search for?
+2007-08-15T13:00:00.000Z	Rubin	Superkuh	dns is configured in /etc/resolv.conf which is often overwritten by DHCP
+2007-08-15T13:02:00.000Z	Superkuh	Rubin	That did it, thanks! I recently moved (a few hours ago) and the DNS/gateway was different.
+2007-08-15T13:03:00.000Z	Rubin	Superkuh	cheers :)

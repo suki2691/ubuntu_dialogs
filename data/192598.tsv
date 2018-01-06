@@ -1,0 +1,4 @@
+2006-04-24T13:38:00.000Z	sfar		how do i run a perl script? with "perl filename.pl" ?
+2006-04-24T13:39:00.000Z	hartz	sfar	>  If the perl script contains #!/usr/bin/perl  then you can just run it with ./scriptname
+2006-04-24T13:40:00.000Z	sfar	hartz	and redguy: will that be true for ALL perl-scripts? Or is there any scripts that's not really runable?
+2006-04-24T13:41:00.000Z	hartz	sfar	> If the first line of the script is #!/usr/bin/perl, then your shell will use that as interpreter. Otherwise, use "perl script.pl"

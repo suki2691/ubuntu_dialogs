@@ -1,0 +1,4 @@
+2005-11-20T12:29:00.000Z	lingoist		hm, how can i log in as root? I never set a password before and its asking me for one
+2005-11-20T12:29:00.000Z	lingoist		su root ?
+2005-11-20T12:29:00.000Z	trappist	lingoist	you don't log in as root.  you use sudo
+2005-11-20T12:31:00.000Z	trappist	lingoist	you need to mount it with the right permissions, like with uid=1000

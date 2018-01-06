@@ -1,0 +1,4 @@
+2005-10-20T12:10:00.000Z	benkong2		anyway for me to see "again" the recommended packages that kubuntu-desktop did not install but flashed a message by quickly?
+2005-10-20T12:11:00.000Z	antgel	benkong2	apt-cache show kubuntu-desktop
+2005-10-20T12:14:00.000Z	antgel	benkong2	you mean the recommended packages?
+2005-10-20T12:16:00.000Z	antgel	benkong2	as you see from the apt-cache command, kubuntu-desktop only has Depends: packages. the recommended bust have been recommended by some of those dependencies. not sure how you could retrieve those

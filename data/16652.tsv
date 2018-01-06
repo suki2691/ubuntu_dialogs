@@ -1,0 +1,4 @@
+2011-05-09T01:17:00.000Z	joeyr		How do you fix No gui at boot? I have an external hard drive that I am moving to my laptop. My laptop has an ATI Mobility Radeon 4250.
+2011-05-09T01:18:00.000Z	BlueEagle	joeyr	In the grub menu you can press "e" to edit an entry and remove the -splash flag. To make a permanent removal check /etc/grub.d/
+2011-05-09T01:19:00.000Z	BlueEagle		!ot | Epic_fail
+2011-05-09T01:19:00.000Z	joeyr	BlueEagle	i've tried the "nomodset" trick and that doesn't work.

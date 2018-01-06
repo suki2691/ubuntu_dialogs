@@ -1,0 +1,4 @@
+2007-02-16T17:46:00.000Z	whadar		any idea why i have to do "modprobe fuse" after every boot?
+2007-02-16T17:46:00.000Z	whadar		can it be done automatically?
+2007-02-16T17:48:00.000Z	erUSUL	whadar	add a line to /etc/modules  'sudo sh -c "echo fuse >> /etc/modules"'
+2007-02-16T17:53:00.000Z	whadar	erUSUL	all ubuntu releases need the fuse line in /etc/modules?

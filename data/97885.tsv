@@ -1,0 +1,4 @@
+2010-02-06T15:32:00.000Z	charles__		hey folks, how do i go about starting a program from the terminal and have it return me directly to a prompt? maybe with the ability to close that terminal with the program still running?
+2010-02-06T15:33:00.000Z	chelz	charles__	if you close the terminal &, it will close the program. to keep it running you need to use something like gnu screen or dtach. you might try pressing alt+f2 and running stuff that way
+2010-02-06T15:36:00.000Z	chelz	charles__	Dr_Willis is correct about "exit". closing the terminal will kill any background programs though
+2010-02-06T15:50:00.000Z	chelz	charles__	better safe than sorry

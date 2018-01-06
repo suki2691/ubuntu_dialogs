@@ -1,0 +1,4 @@
+2012-06-16T07:25:00.000Z	Kelsie		Is there a list of active environment variables other than what the 'env' command displays? If I echo things that env does not show as set, sometimes they are showing up anyway. For instance if I run 'env -i /bin/bash', $PS1 is still populated, even though 'env' doesn't show it as set.
+2012-06-16T07:27:00.000Z	escott	Kelsie	because bash will set ps1
+2012-06-16T07:27:00.000Z	Kelsie	escott	Is there a list of variables that are automatically set in that manner? $PATH seems to get set too
+2012-06-16T07:28:00.000Z	escott	Kelsie	trace the bash startup scripts /etc/profile and so on

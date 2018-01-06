@@ -1,0 +1,4 @@
+2005-12-02T10:14:00.000Z	N6pfk		I ran "mkinitrd -o image.img 2.6.12" and it finished with no errors but didn't produce image.img?
+2005-12-02T10:14:00.000Z	psusi	N6pfk	ubuntu does not use initrds, it uses initramfs... use mkinitramfs
+2006-01-03T13:00:00.000Z	psusi	N6pfk	just don't use it to format the drive when you install... don't choose that option
+2006-01-03T13:02:00.000Z	psusi	N6pfk	why?  it doesn't hurt anything

@@ -1,0 +1,4 @@
+2011-01-03T23:25:00.000Z	lifestream		Okay.. I asked yesterday and the day before... I don't understand networking at all...! I installed SSH server on my other computer, ... now how do I access it from this computer? (behind same router, not through the internet) o_o
+2011-01-03T23:25:00.000Z	milamber	lifestream	what os are you running on the computer you are using now?
+2011-01-03T23:27:00.000Z	milamber	lifestream	all that should be required is: from the terminal: ssh -l<loginname> <ipaddressofsshserver>
+2011-01-03T23:29:00.000Z	milamber	lifestream	the login name is the username on the other computer. to get the ip go to the other computer and at the terminal type: ifconfig

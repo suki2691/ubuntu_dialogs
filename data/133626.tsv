@@ -1,0 +1,4 @@
+2007-10-19T00:23:00.000Z	gspr		What file specifies what version I'm running? My Gutsy upgrade ALMOST completed, then hung. Gutsy boots fine, but adept_manager still reports an upgraded version available. Trying to upgrade gives me that I already have the latest version. Is there some file specifying which version I'm at?
+2007-10-19T00:23:00.000Z	wastedfluid	gspr	lsb_release -a
+2007-10-19T00:25:00.000Z	gspr	wastedfluid	lsb_release -a says Gutsy. Do you have any idea why adept still has a "Version upgrade" button?
+2007-10-19T00:26:00.000Z	wastedfluid	gspr	I installed Gutsy with the CD this mornin.  When I FIRST "apt-get update --fix-missing" - and went to adept package manager, it said i had a distro upgrade too.. just do what you're doing, and ignore it.. because mine no longer says that.

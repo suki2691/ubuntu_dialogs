@@ -1,0 +1,4 @@
+2008-03-10T01:59:00.000Z	mib_ksx8ggnk		ok when i tried to install a new server everything was fine until it couldnt find a kernel so that step was skipped but how do i install a kernel for it?!?!?
+2008-03-10T02:00:00.000Z	beautifulsnow	mib_ksx8ggnk	your ubuntu server doesnt have a kernel installed?
+2008-03-10T02:01:00.000Z	beautifulsnow	mib_ksx8ggnk	pop the live cd, go into rescue mode, once you're in, type apt-get install linux-386 ... wait for it to install. type exit, select reboot.  (this is asuming you're using a Intel based processor)
+2008-03-10T02:01:00.000Z	beautifulsnow	mib_ksx8ggnk	 let me know if theres anything else

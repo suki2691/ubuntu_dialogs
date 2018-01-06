@@ -1,0 +1,4 @@
+2008-08-07T12:56:00.000Z	pulse00		hi all. i've a virtual server running ubuntu 8.04. when i first logged in, there was only a root user account, so i tried to add a new user using useradd. for some reason though, i don't get prompted for the user info, shouldn't it do this normally ?
+2008-08-07T12:56:00.000Z	Flannel	pulse00	useradd is low level, adduser is higher level
+2008-08-07T12:57:00.000Z	pulse00	Flannel	sorry, i meant adduser. i tried both
+2008-08-07T12:57:00.000Z	Flannel	pulse00	As far as I know, add user should prompt for finger information unless you specified --gecos

@@ -1,0 +1,4 @@
+2008-02-11T08:36:00.000Z	dover		i just rebooted and now for some reason my monitor cant display my resolution
+2008-02-11T08:37:00.000Z	dover		how can i go and change the resolution without being able to actually load ubuntu?
+2008-02-11T08:38:00.000Z	Brenny	dover	you can edit the xorg.conf from terminal, or from an editor on a LiveCD if it's that bad. Edit out all the resolutions you don't want, keeping the one you do.
+2008-02-11T08:40:00.000Z	Brenny	dover	yeah. Basically. You could also try running 'dpkg-reconfigure xserver-xorg' in  terminal. That's a bit more straightforward.

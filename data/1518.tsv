@@ -1,0 +1,4 @@
+2012-09-07T23:29:00.000Z	Ihsan_		Hello, I'm trying to encrypt my crypted partition (With bitlocker from Windows 7) with dislocker. Im now trying to execute the command: sudo dislocker-file -V encrypted bitlocker -p563200-557084-108284-218900-019151-415437-694144-239976 --decrypted.ntfs, but it says that 'dislocker-file: command not found.. What do I need to do?
+2012-09-07T23:30:00.000Z	Moonlightning	Ihsan_	you're probably missing a package.
+2012-09-07T23:42:00.000Z	Moonlightning	Ihsan_	that means that the `dislocker` program isn't in any directory that's in your $PATH, which probably means `dislocker` isn't installed on your machine.
+2012-09-07T23:42:00.000Z	Moonlightning	Ihsan_	did you see my earlier post?

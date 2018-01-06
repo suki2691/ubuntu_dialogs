@@ -1,0 +1,4 @@
+2008-01-22T21:10:00.000Z	napnap_notused		hi all
+2008-01-22T21:12:00.000Z	napnap_notused		I installing Xubuntu on my USB harddrive, I'm at the install time. I would like to install Grub on my usb drive and not on my internal drive. Actually it will be installed on (hd0), how can I know the equivalent of /media/sdb ?
+2008-01-22T21:14:00.000Z	napnap_notused		(hd0)=sda             ???=/media/sdb   how can I know the ???
+2008-01-22T21:15:00.000Z	riotkittie	napnap_notused	with grub, 0 is the first drive and first partition (0,0 in grub == sda1 or hda1). so if your usb drive is say, sdc, it'd be 2,0 in grub

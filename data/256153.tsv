@@ -1,0 +1,4 @@
+2012-02-02T21:43:00.000Z	Psychoshield		when someone has a chance still waiting :)
+2012-02-02T21:44:00.000Z	Psychoshield		since dev/sda2 is mounted on /var wouldnt the symlink just be /var part? so like ln -s /var/path/to/folder/to/write/in /home/psycho/new
+2012-02-02T21:45:00.000Z	dr_willis	Psychoshield	 try it and see?
+2012-02-02T21:46:00.000Z	dr_willis	Psychoshield	 you could just move your home dir to /var/  the /var/whatever dir - should have the same permissions as your users home if you want the user to have full access to it.

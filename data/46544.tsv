@@ -1,0 +1,4 @@
+2010-01-30T23:45:00.000Z	mkanyicy	pfifo	ppaulhus changing .bashrc of the skel directory will only affect users that are created afterwards not already existing ones
+2010-01-30T23:45:00.000Z	pfifo	mkanyicy	well he said 'when created'
+2010-01-30T23:46:00.000Z	mkanyicy	pfifo	i know
+2010-01-31T00:12:00.000Z	mkanyicy	pfifo	sebsebseb, FYI: its not required to specified the group with chown if the group is the primary group of the user but a colon is necessary like 'sudo chown -R mkanyicy: /home/mkanyicy'

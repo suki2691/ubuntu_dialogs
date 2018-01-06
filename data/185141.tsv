@@ -1,0 +1,4 @@
+2006-06-02T12:13:00.000Z	graphyx		ok I downloaded a .deb file to install hping2 on unbuntu. What command do I use to get the command line package manager to install it?
+2006-06-02T12:14:00.000Z	carthik	graphyx	double click on the .deb
+2006-06-02T12:15:00.000Z	graphyx	carthik	it appears to be linked to the archiver.  and the archiver failes to execute it.
+2006-06-02T12:16:00.000Z	carthik	graphyx	then try opening it with gdebi. If that fails dpkg -i name-ofdeb.deb will install it from the terminal

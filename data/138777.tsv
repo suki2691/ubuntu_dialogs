@@ -1,0 +1,4 @@
+2007-07-28T08:52:00.000Z	CMCDragonkai		Hello, I'm very new to ubuntu, could someone tell me step by step to how to change the ownership and permissions of a directory and all of the subdirectories and all of their subdirectories and files
+2007-07-28T08:53:00.000Z	myself_	CMCDragonkai	chmod -R dir
+2007-07-28T08:54:00.000Z	myself_	CMCDragonkai	chown -R user dir/ is correct
+2007-07-28T08:58:00.000Z	myself_	CMCDragonkai	note: i don't recommend chown -R CMCDragonkai /etc

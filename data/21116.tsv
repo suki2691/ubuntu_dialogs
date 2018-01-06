@@ -1,0 +1,4 @@
+2011-01-10T17:17:00.000Z	pavankumarl		hello guys I have a problem here. In terminal When I gain root access for the first time I'll be prompted for the password. But if I reopen terminal and type "sudo ..." I wont be prompted to enter password. Same problem with other applications requiring root access. How to disable this
+2011-01-10T17:18:00.000Z	erUSUL	pavankumarl	sudo will cache password for 15 min by default
+2011-01-10T17:19:00.000Z	pavankumarl	erUSUL	I want to disable that feature, how to disable that
+2011-01-10T17:19:00.000Z	erUSUL	pavankumarl	proebaly tweaking /etc/sudoers. check man page « man sudoers »

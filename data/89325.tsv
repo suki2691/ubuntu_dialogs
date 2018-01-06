@@ -1,0 +1,4 @@
+2009-10-31T18:55:00.000Z	binrapt		I installed Ubuntu 64-bit 9.10 in Virtual Box on a Windows 7 host system. I forgot to increase the number of CPUs to 8 right when I was installing it - it was still set to 1. Now that I increased it to 8 and rebooted the VM g++ no longer works: "g++: Internal error: Bus Error." Any ideas?
+2009-10-31T18:56:00.000Z	artcore	binrapt	your ubuntu will use smp mode
+2009-10-31T18:57:00.000Z	binrapt	artcore	anything I can do to fix it? :(
+2009-10-31T18:57:00.000Z	artcore	binrapt	you must reinstall it

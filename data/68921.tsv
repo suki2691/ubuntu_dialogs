@@ -1,0 +1,4 @@
+2009-02-24T21:56:00.000Z	Bashiii		How can I get rid of mouse1+mouse2 being paste?
+2009-02-24T21:57:00.000Z	Titan8990	Bashiii	just a guess, emulate 3buttons in xorg.conf
+2009-02-24T21:59:00.000Z	Titan8990	Bashiii	there is a file: /etc/X11/xorg.conf   check it to see if contains a line that looks like: Option     "Emulate3Buttons"
+2009-02-24T21:59:00.000Z	Titan8990	Bashiii	if its there comment it out and reboot

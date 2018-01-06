@@ -1,0 +1,4 @@
+2010-04-10T21:34:00.000Z	bullgard5		My computer 3 does not repond to normal keypresses (eg Ctrl+Alt+F1). Using Touchpad I can move the mouse pointer. On computer 2 in my LAN I did '~$ ssh <username@3>' and '~$ sudo kill 1056'. But this did not kill X on 3. Is my only option to restart 3?
+2010-04-10T21:34:00.000Z	ZykoticK9	bullgard5	"sudo service gdm restart" will restart Xorg for you
+2010-04-10T21:35:00.000Z	ZykoticK9	bullgard5	assuming karmic
+2010-04-10T21:37:00.000Z	bullgard5	ZykoticK9	It is Karmic. But it responds: "restart: Unknown instance: ."

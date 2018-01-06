@@ -1,0 +1,4 @@
+2008-03-15T16:36:00.000Z	angah		i have put sudo mount -t ntfs-3g /dev/sda2 /media/disk -o force in my /etc/rc/.local .. i not sure it really work or not..
+2008-03-15T16:36:00.000Z	angah		so..each time i restart or start my pc..it will load that script
+2008-03-15T16:37:00.000Z	prince_jammys	angah	why not just create an fstab entry?
+2008-03-15T16:38:00.000Z	prince_jammys	angah	/dev/sda2 /media/disk ntfs-3g defaults 0 0

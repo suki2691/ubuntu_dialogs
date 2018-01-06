@@ -1,0 +1,4 @@
+2007-10-27T04:29:00.000Z	riddlebox		I have an avi file that will not play in any player, when I try to open it with oggconvert it says The file format "None" is not supported?
+2007-10-27T04:30:00.000Z	ghoti	riddlebox	try running this --> mencoder -forceidx -oac copy -ovc copy infile.avi -o outfile.avi
+2007-10-27T04:31:00.000Z	ghoti		where infile.avi is the one with the problem and outfile is anything
+2007-10-27T04:36:00.000Z	riddlebox	ghoti	this is supposed to be a divx file, but that command said this file format is not recognized?

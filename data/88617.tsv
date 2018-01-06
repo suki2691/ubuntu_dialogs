@@ -1,0 +1,4 @@
+2008-07-04T20:36:00.000Z	Arnos		Hi, how do I do a search for a file with a certain name name, then one of several numbers, then a certain extension? Please help.
+2008-07-04T20:38:00.000Z	ne2k__	Arnos	find -name filename*.jpg ?
+2008-07-04T20:46:00.000Z	ne2k__	Arnos	find -regex filname[2345].jpg
+2008-07-04T20:48:00.000Z	ne2k__	Arnos	one searches for a literal string, allowing * as a wildcard (any number of characters); the other searches for a full regex

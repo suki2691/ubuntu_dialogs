@@ -1,0 +1,4 @@
+2006-11-27T16:29:00.000Z	cyber_brain_mfkg		ok that means i shoul install opensshd first???
+2006-11-27T16:29:00.000Z	cyber_brain_mfkg		*should
+2006-11-27T16:30:00.000Z	cyber_brain_mfkg		should i run ssh at home before i access from work?
+2006-11-27T16:32:00.000Z	monkeric	cyber_brain_mfkg	it's a bit involved.  You need to have the openssh (sshd) server daemon running, and you need to install the public half of your key (from work) in your sshd list of remote hosts.  you can generate a key pair from your ssh client at work.

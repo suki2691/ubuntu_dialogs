@@ -1,0 +1,4 @@
+2012-11-17T19:29:00.000Z	plunky		After re-installing my PC ~10 times these last days I really need help now. Is it possible to get the proprietary ATI driver working with a HD 6870 and Ubuntu 12.10?
+2012-11-17T19:30:00.000Z	ActionParsnip	plunky	sudo apt-get install fglrx fglrx-amdcccle; sudo aticonfig --initial
+2012-11-17T19:30:00.000Z	plunky	ActionParsnip	So the linux-source/header part. Should I skip that?
+2012-11-17T19:31:00.000Z	ActionParsnip	plunky	it should be pulled in as a dep

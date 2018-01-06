@@ -1,0 +1,4 @@
+2011-02-15T12:27:00.000Z	jaywalker		Howdy. Got a little issue with SSH on ubuntu server
+2011-02-15T12:28:00.000Z	jaywalker		im trying to change the port it listens on to something else, and even tho I've changed the config file (and removed port 22) and restarted ssh, it still lets me connect on port 22
+2011-02-15T12:29:00.000Z	sacarlson	jaywalker	you say removed port 22,  you do need to assign some port number, if so what file did you modify?
+2011-02-15T12:31:00.000Z	sacarlson	jaywalker	that's the wrong file to edit,  you want to change /etc/ssh/sshd_config

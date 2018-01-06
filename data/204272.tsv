@@ -1,0 +1,4 @@
+2008-02-10T03:56:00.000Z	matt_		hi all can anyone help with renaming some files on mass, the trouble is they have special characters in them, i have tried all sorts of searches on google but it doesn't seem to help
+2008-02-10T03:56:00.000Z	matt_		the code snippet i have tried using is the following
+2008-02-10T03:56:00.000Z	matt_		for i in *\[*\]*; do j=`echo $i |sed -e 's/"[2006]"//g'`; mv "$i" "$j"; done
+2008-02-10T03:57:00.000Z	chull	matt_	try in #sed ?

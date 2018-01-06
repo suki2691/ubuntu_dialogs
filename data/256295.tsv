@@ -1,0 +1,4 @@
+2008-12-29T17:15:00.000Z	claus		how do i edit fstab to automount usb devices? i'm using 8.10.
+2008-12-29T17:16:00.000Z	dr_willis	claus	 using fstab would disable automounting - except at boot time... the fstab gets read and all decvic es set to automount at boot are mounted..
+2008-12-29T17:18:00.000Z	dr_willis	claus	 i had issues with the installer making  2 entries in the fstab for the cdrom drive.. the first usb thumb drive would NOT mount properly. but the 2nd would.. :)
+2008-12-29T17:19:00.000Z	dr_willis	claus	 try mounting them manually. see if you can do it that way.

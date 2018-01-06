@@ -1,0 +1,4 @@
+2006-08-21T07:02:00.000Z	Windy		*sigh* another hour, another newbie question...can someone tell me how to stop a drive from being shown on desktop? even better to stop linux from even bothering to acknowledge the drive's existence?
+2006-08-21T07:04:00.000Z	orbin	Windy	run gconf-editor ... then navigate to /apps/nautilus/desktop/volumes_visible and disable it
+2006-08-21T07:17:00.000Z	orbin	Windy	if it's just a particular partition, you can stop it automounting by removing the relevant line in /etc/fstab
+2006-08-21T07:18:00.000Z	Windy	orbin	err...sorry i'm a linux nublet, explain please?

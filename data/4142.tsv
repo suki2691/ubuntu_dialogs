@@ -1,0 +1,4 @@
+2012-04-05T19:45:00.000Z	bse__-		hello. i was wondering: i have a 1tb harddisk in my ubuntu box. i know that they calculate that in GB, not GiB. so actually that should be equal to 931 GiB. but then there's a large discrepency when i do "df -h". it tells me the actual size of the drive is 917 GiB, it says 131 GiB are used, and 740 GiB are free (131 GiB + 740 GiB = 871 GiB, actually). i only have large files (a few hundred megabytes each) on it. it's formatted as ext 4. i was wondering ...
+2012-04-05T19:45:00.000Z	bse__-		... where the differences originate from
+2012-04-05T19:46:00.000Z	LjL	bse__-	ext4 allocates 5% of the drive to root-only use, it might be that
+2012-04-05T19:47:00.000Z	bse__-	LjL	Dr_willis: gmi: thanks :)

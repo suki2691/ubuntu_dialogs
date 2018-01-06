@@ -1,0 +1,4 @@
+2004-12-17T14:14:00.000Z	brion_busy		I just installed clamav on warty; when I update its virus definitions database (freshclam) it complains that the clamav version is too old (it's 0.73; JPEG 'virus' detection was added in 0.80). Is there a clean way to get a more up to date clamav package, or should I just remove the package and install it from source?
+2004-12-17T14:15:00.000Z	wood1	brion_busy	is the virus thing a real threat to Ubuntu ?
+2004-12-17T14:16:00.000Z	brion_busy	wood1	the primary usefulness would be for scanning files on a server before they go out to silly Windows clients. My Ubuntu box isn't actually a server, but I do test on it.
+2004-12-17T14:25:00.000Z	brion_busy	wood1	the only reason to use an antivirus program on Linux/Unix is to scan files that your Linux/Unix server is going to send to Windows-based clients.

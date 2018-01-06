@@ -1,0 +1,4 @@
+2009-11-30T07:35:00.000Z	Guest85919		my /var/log is having 25 gb... how do i clean it?
+2009-11-30T07:36:00.000Z	decora	Guest85919	run a du -a /var/log | sort -n | tail -20 and see what is taking the most space. then less it and see why its logging so much
+2009-11-30T07:39:00.000Z	decora	Guest85919	look at those files see why they are taking so much. tail -100 /var/log/syslog | less
+2009-11-30T07:39:00.000Z	decora	Guest85919	or even tail -f /var/log/syslog

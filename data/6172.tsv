@@ -1,0 +1,4 @@
+2012-02-07T10:06:00.000Z	T_H_X	North	ls -l /disk/mount/point   wherever that is
+2012-02-07T10:06:00.000Z	North	OctoByte	how can I edit the fstab?
+2012-02-07T10:08:00.000Z	T_H_X	North	mount the disk then use sudo chmod to change perms, dont force them through fstab
+2012-02-07T10:08:00.000Z	T_H_X	North	also make sure the disk is healthy, fsck -p /dev/sdb1

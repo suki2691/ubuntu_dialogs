@@ -1,0 +1,4 @@
+2008-02-23T08:10:00.000Z	doctor_thunder		if I backup my home directory, and install ubuntu 64, and then unzip my home directory on the new ubuntu's home dir, what can I expect to happen?
+2008-02-23T08:11:00.000Z	nickrud	doctor_thunder	you will have the same personal desktop you had to begin with
+2008-02-23T08:11:00.000Z	doctor_thunder	nickrud	Do I need to keep the same username?
+2008-02-23T08:13:00.000Z	nickrud	doctor_thunder	the user id (1000 by default for the first) is what is stored, not the name. If you user id is 1000 ( grep <yourusername> /etc/passwd will tell you) whatever username you chose will be the new one

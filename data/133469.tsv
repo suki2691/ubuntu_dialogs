@@ -1,0 +1,4 @@
+2008-06-25T01:50:00.000Z	chosig		I'm trying to install from a Live CD, but Ubiquity halts on me (/after/ formatting) complaining about "Installation program needs to remove operative system files from the installation target, but can't do it. Installation can not proceed (rough translation).
+2008-06-25T01:51:00.000Z	Scunizi	chosig	if you haven't already use gparted or partition editor under System/Admin to delete your partitions then run the installer again and have it create new partitions
+2008-06-25T01:53:00.000Z	chosig	Scunizi	I have, I've formatted the drive with gparted - so it's empy, ubi still complains about the same, i checked the logs it's partman that can't clean... perhaps root privs is lost along the way?
+2008-06-25T01:53:00.000Z	Scunizi	chosig	not sure... never had that issue and haven't heard of anyone else having it either.

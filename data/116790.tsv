@@ -1,0 +1,4 @@
+2007-10-13T15:31:00.000Z	juanElaw		anyone know the command to re/configure a new NIC in an ubuntu server?
+2007-10-13T15:33:00.000Z	hwilde	juanElaw	run "ifconfig -a"  find the interfacve name, add it to /etc/network/interfaces
+2007-10-13T15:34:00.000Z	juanElaw	hwilde	thanks.  don't know why I was thinking it was going to be some 'dpkg' type of command
+2007-10-13T15:34:00.000Z	juanElaw	hwilde	I'll go try the 'ifconfig -a'  thanks.

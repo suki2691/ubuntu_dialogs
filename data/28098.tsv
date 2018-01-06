@@ -1,0 +1,4 @@
+2010-07-31T02:13:00.000Z	Loshki	thinkingabout	for scrubbing disk drives, most people seem to use DBAN (http://www.dban.org)
+2010-07-31T02:13:00.000Z	thinkingabout		why is it so slow if I define bs to be 1 byte?
+2010-07-31T02:14:00.000Z	thinkingabout	Loshki	I was trying to understand what DBAN does, kind of like getting my hands into the whys and hows
+2010-07-31T02:15:00.000Z	Loshki	thinkingabout	disk drives are block devices and work best when you use a block size that matches the disk and operating system. A bs of 1 is definitely suboptimal. I would recommend a blocksize of 1024...

@@ -1,0 +1,4 @@
+2006-07-07T12:33:00.000Z	zspada15		is there any way that i can install ubuntu without the gui?
+2006-07-07T12:33:00.000Z	twb	zspada15	yes, "server" at the "boot:" prompt.
+2006-07-07T12:34:00.000Z	twb	zspada15	do a normal install, then run "update-rc.d gdm --remove" as root.
+2006-07-07T12:35:00.000Z	twb	zspada15	ah, then all you need is the "alternate" cd.

@@ -1,0 +1,4 @@
+2011-09-02T00:47:00.000Z	blup		how do you normally start processes in the background? i tried with '/usr/bin/redis-server start &', but it keeps logging on the current screen, which makes it hard to keep using it.
+2011-09-02T00:48:00.000Z	jrib	blup	redirect output somewhere else, or use nohup, or use screen or tmux
+2011-09-02T00:49:00.000Z	blup	jrib	i'm using screen, but that leaves that terminal in use.. how would you redirect output somewhere else/use nohup?
+2011-09-02T00:49:00.000Z	jrib	blup	you don't want to just create a new window in screen?

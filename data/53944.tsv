@@ -1,0 +1,4 @@
+2010-12-24T08:29:00.000Z	alazyworkaholic		I'm trying to image a disk across a network using nc (netcat) & dd. It's not working. I think the problem is that the port I'm trying to use isn't open. I get "nc: connect to 192.168.1.100 port 1010 (tcp) failed: Connection refused" after running "sudo dd if=/dev/sda1 | nc 192.168.1.100 1010 -v". Help?
+2010-12-24T08:30:00.000Z	Maahes	alazyworkaholic	do you have something listening on 1010?
+2010-12-24T08:31:00.000Z	alazyworkaholic	Maahes	yes I ran "sudo nc | p 1010 | dd of=/home/alan/chuckbackup.dd" on the receiving computer that's @ 192.168.1.100.
+2010-12-24T08:33:00.000Z	Maahes	alazyworkaholic	proably nc -L

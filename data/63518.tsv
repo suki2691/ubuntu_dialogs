@@ -1,0 +1,4 @@
+2009-08-25T19:23:00.000Z	Ozzah		Help, I  ran firefox with sudo to see if that was the reason "Check for updates" was greyed out, but now my history/bookmarks has died. I assume because sudo changed firefox's profile owner/permissions (?) does anybody know how to fix this?
+2009-08-25T19:24:00.000Z	Ubersoldat	Ozzah	check if what you're saying is true
+2009-08-25T19:24:00.000Z	Ubersoldat	Ozzah	$ls -lRa ~/.mozilla | grep root
+2009-08-25T19:25:00.000Z	Ozzah	Ubersoldat	I have 5 files that are owned by root

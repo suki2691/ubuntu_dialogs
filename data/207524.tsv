@@ -1,0 +1,4 @@
+2005-12-23T07:46:00.000Z	Goshawk_		is there a way to use dpkg to search a package from one of it's files? for example dpkg -option /usr/bin/gcc-4.0 returns gcc-4.0
+2005-12-23T07:46:00.000Z	Goshawk_		?
+2005-12-23T07:48:00.000Z	_jason	Goshawk_	dpkg -S will work as well but apt-file let's you search packages that aren't installed too
+2005-12-23T07:48:00.000Z	Goshawk_	_jason	mwe thanks

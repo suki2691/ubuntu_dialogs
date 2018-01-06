@@ -1,0 +1,4 @@
+2006-10-22T09:15:00.000Z	gyoffi		guys, what package should I "dpkg-reconfigure" to set the nice value for the X server??
+2006-10-22T09:16:00.000Z	hondje	gyoffi	that's something you'll have to put in the startup scripts for X by hand
+2006-10-22T09:17:00.000Z	gyoffi	hondje	in debian (sid) there was an option in reconfigure
+2006-10-22T09:28:00.000Z	hondje	gyoffi	renice VALUE -p `pgrep X` ?

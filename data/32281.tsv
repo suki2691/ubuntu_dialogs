@@ -1,0 +1,4 @@
+2010-06-12T08:52:00.000Z	Dmole		anyone know why "df -h" would say 5.4T when "df" said "5768567312"?
+2010-06-12T08:53:00.000Z	Dmole		right but I would expect 5.8 not 5.4
+2010-06-12T08:53:00.000Z	Appl6	Dmole	Because 1TB = 2^40.
+2010-06-12T08:54:00.000Z	Dmole	Appl6	ah yes it's counting them differently

@@ -1,0 +1,4 @@
+2010-02-17T07:42:00.000Z	melfy		is there a way to disable a all/majority of ubuntu logging?
+2010-02-17T07:44:00.000Z	DaemonFC	melfy	You can stop it, but it can make it difficult to track down where a problem started later. It also means the firewall won't log an attack. Apparmor profile actions are not logged, etc.
+2010-02-17T07:44:00.000Z	DaemonFC	melfy	logrotate should tar and archive them every so often, so they shouldn't ever take up too much space
+2010-02-17T07:46:00.000Z	DaemonFC	melfy	I just delete them when they get really old. Logging from 2006 to a few weeks ago only took up a few hundred megs though, that's nothing for a modern hard drive

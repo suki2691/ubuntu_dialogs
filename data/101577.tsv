@@ -1,0 +1,4 @@
+2008-10-16T00:02:00.000Z	Tankado		I try to convert an .rpm file to .deb file using fakeroot alien --scripts VMware-workstation-6.0.*.rpm    but i get /usr/bin/fakeroot: 166: alien: not found
+2008-10-16T00:02:00.000Z	Tankado		what should i do?
+2008-10-16T00:04:00.000Z	misteralexander	Tankado	 Stupid question, I know, but you have alien installed, right?
+2008-10-16T00:05:00.000Z	misteralexander	Tankado	 alien '/location/of/your/rpm/file.rpm' 'place/you/want/deb/dropped.deb'

@@ -1,0 +1,4 @@
+2006-10-10T08:34:00.000Z	haploid_		I have the following usb device issue:  under fedora core, I am able to read from /dev/hiddev0 ( a shipping scale ), whereas under ubuntu 6.06.1, reading from /dev/hiddev0 (the device IS recognized just fine in /var/log/messages ) using cat does NOT return data like it does under fedora
+2006-10-10T08:35:00.000Z	chuckyp	haploid_	are you using sudo?
+2006-10-10T08:37:00.000Z	haploid_	chuckyp	yes
+2006-10-10T08:37:00.000Z	haploid_	chuckyp	this isn't a read permissions issue

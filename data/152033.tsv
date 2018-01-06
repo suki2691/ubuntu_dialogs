@@ -1,0 +1,4 @@
+2008-07-13T20:37:00.000Z	ubum		I just installed UbuntuStudio a few days ago. But it installed at a resolution of 640x480, and   doesn seem to givve me any other choices
+2008-07-13T20:38:00.000Z	ubum		This is a 64 bit processor with a lot of nvidia stuff in it
+2008-07-13T20:39:00.000Z	ubum		Any ideas?
+2008-07-13T20:39:00.000Z	Ahadiel	ubum	Install any restricted drivers in System => Admin => Restricted Drivers, then sudo nvidia-xconfig, and finally, reboot.

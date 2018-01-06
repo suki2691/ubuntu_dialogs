@@ -1,0 +1,4 @@
+2004-11-15T16:48:00.000Z	kasperbn		Hi, I'm having a little problem with my vsftpd. When I make a new directory I wish to set the permissions to 777 by default. I've tried the local_umask = 077, but it has no effect.
+2004-11-15T16:48:00.000Z	kasperbn		any suggestions?
+2004-11-15T16:49:00.000Z	trukulo	kasperbn	mask is inversed
+2004-11-15T16:49:00.000Z	kasperbn	trukulo	which means I have to do what? Set local_mask = 000 or?

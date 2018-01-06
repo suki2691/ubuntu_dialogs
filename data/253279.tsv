@@ -1,0 +1,4 @@
+2005-02-03T08:20:00.000Z	juan		hi guyz, I installed xcompmgr, and I did: xcompmgr -c   but nothing happens and says: No composite extension, how can I fix that?? :D
+2005-02-03T08:20:00.000Z	no0tic	juan	you have to enable composite extension
+2005-02-03T08:20:00.000Z	no0tic	juan	edit your /etc/X11/xorg.conf file
+2005-02-03T08:21:00.000Z	no0tic	juan	add Section "Extensions"

@@ -1,0 +1,4 @@
+2005-09-27T08:41:00.000Z	shtron		I blacklisted 8139cp and added 8139too to /etc/modules. but 8139cp still loads on boot and I still get error messege about it...
+2005-09-27T08:41:00.000Z	Tomcat_	shtron	In /etc/modules? Afaik you need to blacklist it in the hotplug config
+2005-09-27T08:42:00.000Z	Tomcat_	shtron	I'm not sure how exactly you blacklist something in /etc/modules, but there's a file and directory /etc/hotplug/blacklist*
+2005-09-27T08:42:00.000Z	Tomcat_	shtron	Yes but how did you blacklist it?

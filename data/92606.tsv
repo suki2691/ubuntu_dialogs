@@ -1,0 +1,4 @@
+2008-05-12T08:45:00.000Z	dmsuperman		I'm trying to install Hardy, but both the Live and Alternate install CDs aren't picking up my current partition table. I have 2 SATA hard drives, one 400GB with a single ntfs partition, and the other with 4 partitions (ntfs, ext3, swap, ntfs) and it won't pick up the other drive
+2008-05-12T08:46:00.000Z	babolat	dmsuperman	ntfs is not natively supported by Ubuntu
+2008-05-12T08:46:00.000Z	dmsuperman	babolat	I'm not trying to install to NTFS, I'm trying to install to that first ext3 partition
+2008-05-12T08:48:00.000Z	dmsuperman	babolat	fde, I don't need NTFS at all, it's my second hard drive's partition table I'm having issues with (I just need to install over an existing ext3 partition

@@ -1,0 +1,4 @@
+2006-10-19T05:08:00.000Z	wubrgamer		how do i say to bash include this folder /home/me/* but NOT /home/me/music ?
+2006-10-19T05:10:00.000Z	wubrgamer		I would like to back up my homefolder....but NOT a VERY large music folder inside it...
+2006-10-19T05:10:00.000Z	wubrgamer		how do i say /home/me/everything that isn't /home/me/music ?
+2006-10-19T05:10:00.000Z	Xenguy	wubrgamer	if you are using 'tar', then try the '--exclude' option

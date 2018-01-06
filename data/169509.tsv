@@ -1,0 +1,4 @@
+2008-08-11T22:00:00.000Z	bobbob1016	helpermonkey	Did you search on the forums?  Try "sudo apt-get install system-config-samba" then running "sudo system-config-samba"  Or are you running server-edition without a gui?
+2008-08-11T22:03:00.000Z	bobbob1016	helpermonkey	I'd try freenas, not Ubuntu, it's a very lightweight, 32meg, install.  Has a webgui to configure it, never had samba issues.  It won't work well with ext3 though, they use ufs...
+2008-08-11T22:05:00.000Z	bobbob1016	helpermonkey	Yes, you can map a drive.  It is something in your samba config.  If you fixed the issue it'd work, but FreeNAS is easy for me.
+2008-08-11T22:07:00.000Z	bobbob1016	helpermonkey	FreeNAS might be easier since it is meant just for fileserving.

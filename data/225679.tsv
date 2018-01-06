@@ -1,0 +1,4 @@
+2006-11-28T15:54:00.000Z	tuna-fish-		what is the best way to compare two huge directories (with hundreds of subdirs) to find files that exist in the other but dont in the other?
+2006-11-28T15:55:00.000Z	tuna-fish-		I've been trying to ls -R > .txt and diff them but it doesn't seem to work very well
+2006-11-28T15:56:00.000Z	puff	tuna-fish-	Also check out meld diff viewer.
+2006-11-28T16:00:00.000Z	puff	tuna-fish-	I'm quite fond of it for some kinds of tasks... I generally shun such GUI toys, but for complex file diffs, it's a godsend.

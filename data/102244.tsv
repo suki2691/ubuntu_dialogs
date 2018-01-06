@@ -1,0 +1,4 @@
+2009-03-07T07:14:00.000Z	Philo06		For some reason su is not accepting my password, is there a way to change it?
+2009-03-07T07:15:00.000Z	Philo06		Haha, damn.
+2009-03-07T07:15:00.000Z	Philo06		Thanks.
+2009-03-07T07:15:00.000Z	rww	Philo06	su is asking for the root/administrator password, which doesn't exist because the root account is disabled by default. Use sudo, which asks for your password, instead.

@@ -1,0 +1,4 @@
+2009-02-24T05:09:00.000Z	tuxtox		does any one know the command to list the devices?  I specifically need to know what the wireless device is called.
+2009-02-24T05:10:00.000Z	Slart	tuxtox	lsusb for usb stuff.. lspci for other stuff
+2009-02-24T05:10:00.000Z	Slart	tuxtox	lshw will give you a long long long list
+2009-02-24T05:11:00.000Z	Slart	tuxtox	I usually use "lshw | grep -i network" .. change "network" for whatever you want to search for

@@ -1,0 +1,4 @@
+2009-07-31T17:09:00.000Z	erUSUL	Lord-Readman	tar --lzma cvf backup.tar.lzma /var/www/vhosts/
+2009-12-07T16:21:00.000Z	Lord-Readman	erUSUL	it says to add to the fstab ... //servername/sharename  /media/mountname  cifs  username=myusername,password=mypassword  0  0 but I want to mount manually
+2009-12-07T16:21:00.000Z	erUSUL	Lord-Readman	sudo mount -t cifs -o username=myusername,password=mypassword //servername/sharename /media/mountname
+2010-03-22T15:00:00.000Z	erUSUL	Lord-Readman	use readahead profiling http://ubuntuforums.org/showthread.php?t=254263 http://wiki.archlinux.org/index.php/Readahead

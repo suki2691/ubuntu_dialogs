@@ -1,0 +1,4 @@
+2009-08-14T20:03:00.000Z	GPL		Installing phpmyadmin for LAMP on Ubuntu :-- which option should i choose : Configure database for phpmyadmin with dbconfig-common?  Yes or No ? --
+2009-08-14T20:04:00.000Z	GPL		Michell : hmm, okay :)
+2009-08-14T20:05:00.000Z	GPL		oh good Michell : only extraction will do ??
+2009-08-14T20:05:00.000Z	mazda01	GPL	i used dbconfig-common. there's an issue where the phpmyadmin symlink doesn't get created though I think and you'll have to create it in /var/www/.  just install phpmyadmin and then see if you can access it through web browser, if not then do sudo ln -s /usr/share/phpmyadmin /var/www/phpmyadmin

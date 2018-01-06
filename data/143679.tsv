@@ -1,0 +1,4 @@
+2007-10-31T23:45:00.000Z	src	jessd	doesnt that delete all symlinks?
+2007-10-31T23:45:00.000Z	jessd	src	Dang!
+2007-10-31T23:46:00.000Z	src		how about find <dir> -type l|grep <expression of target link>|xargs -i rm {}
+2007-10-31T23:46:00.000Z	jessd	src	Yep, that'll do it

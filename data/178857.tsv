@@ -1,0 +1,4 @@
+2007-04-30T05:08:00.000Z	snottlebocket		Hey folks, does anyone have any experience getting a wacom running in "mousemode", I just installed ubuntu for the first time and I want to read up on how to work with it, but my tablet is killing my wrist like this so I figured I'd look for a quick fix on that first
+2007-04-30T05:10:00.000Z	snottlebocket		I found this but I don't know where he's doing step 3, http://ubuntuforums.org/showthread.php?t=25151
+2007-04-30T05:10:00.000Z	jrib	snottlebocket	looks like /etc/X11/xorg.conf
+2007-04-30T05:12:00.000Z	jrib	snottlebocket	gksudo gedit /etc/X11/xorg.conf, you should make a backup first:  sudo cp /etc/X11/xorg.conf /etc/X11/xorg.conf.backup .  And, you should familiarize yourself with what to do in case X stops working (in case you make a mistake or the guide doesn't work for you)

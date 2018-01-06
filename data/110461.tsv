@@ -1,0 +1,4 @@
+2007-12-08T17:46:00.000Z	matmax		hi, I've installed ubuntu and have two issues now - first, that the solution given to my problem here - http://ubuntuforums.org/showthread.php?t=522139&page=2 is actually that after every reboot i have to another time write "sudo modprobe ndiswrapper", because it doesn't start with boot, and that the connection still doesn't work, just the pings to IP's, not to google.com, ubuntu.com, etc, IM's and so on
+2007-12-08T17:47:00.000Z	Zta	matmax	adding ndiswrapper to /etc/modules should load it automatically
+2007-12-08T17:50:00.000Z	matmax	Zta	thank you for help with ndiswrapper
+2007-12-08T17:50:00.000Z	Zta	matmax	=)

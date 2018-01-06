@@ -1,0 +1,4 @@
+2009-07-04T08:52:00.000Z	k_graham		new to Ubuntu, went dual boot XP pro on drive 0, Linux drive 2, redid XP (not pro) install and now GRUB still shows XPpro and won't load XP. Must boot with Ultimate Boot CD to access Windows - how does one configure GRUB on hard disk to regain dual boot? Also is it possible to have 2 linuxes on 2nd drive and perhaps a 3 way boot? I'ld delete Windows but have a 8mm camcorder tape converter to USB and only Windows drivers.
+2009-07-04T08:52:00.000Z	k_graham		Should say Linux drive 1 not 2 sorry
+2009-07-04T08:54:00.000Z	Dr_Willis	k_graham	 you could confiure your menu.lst however you want to boot whatever you want. but you may need to learn a bit about grub and how to edit the menu.lst to do so.
+2009-07-04T08:54:00.000Z	Dr_Willis	k_graham	 the default menu.lst has example entries for booting windows on different hard drives.

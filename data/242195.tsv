@@ -1,0 +1,4 @@
+2008-05-31T10:13:00.000Z	swedekid		so basically after I install xp in virtualbox its exactly the same as xp except i have ubuntu with me too and don't have to reboot?
+2008-05-31T10:14:00.000Z	swedekid		ok i have another question how would I go about removing a xp partiton on a computer im dual booting xp and ubuntu?
+2008-05-31T10:15:00.000Z	elninja	swedekid	any software you run in your virtualized XP setup won't have direct access to the video hardware either. So, you may notget the best performance in graphic intensive games, but other than that, yes.
+2008-05-31T10:17:00.000Z	elninja	swedekid	to remove an XP partition you just use any software for editing your partition table. gparted, fdisk, etc.

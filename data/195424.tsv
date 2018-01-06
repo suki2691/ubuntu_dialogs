@@ -1,0 +1,4 @@
+2007-02-03T09:30:00.000Z	stormy|		What does it mean when you apt-get install something and ubuntu asks you to insert some version of the ubuntu setup disk... I inserted the one that I used and aparently it's the wrong one
+2007-02-03T09:31:00.000Z	kitche	stormy|	you have the cdrom in your source.list
+2007-02-03T09:31:00.000Z	stormy|	kitche	what do you mean?
+2007-02-03T09:32:00.000Z	kitche	stormy|	you need to edit /etc/apt/source.list and remove the cdrom line from it

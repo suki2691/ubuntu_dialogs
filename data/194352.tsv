@@ -1,0 +1,4 @@
+2007-03-25T10:37:00.000Z	evolipel		guys -- does anyone know why my wireless card might not be "associating"?
+2007-03-25T10:38:00.000Z	pike_	evolipel	you can see access points but not obtain an ip?
+2007-03-25T10:40:00.000Z	pike_	evolipel	yeah make sure the switch is on so you can transmit.   what does 'sudo iwconfig eth1 essid whateverAPname; sudo dhclient eth1' say?   where eth1 is whatever your device name is.
+2007-03-25T11:04:00.000Z	pike_	evolipel	sudo apt-get install linux-restricted-modules-$(uname -r)   just incase you havent installled it yet

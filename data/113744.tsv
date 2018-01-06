@@ -1,0 +1,4 @@
+2010-07-21T00:59:00.000Z	pepito		What program could I use in order to get a list with all the files that a given process modifies/creates/deletes ?¿
+2010-07-21T01:00:00.000Z	dajhorn	pepito	strace
+2010-07-21T01:00:00.000Z	pepito	dajhorn	thank you, I am going to take a look
+2010-07-21T01:01:00.000Z	dajhorn	pepito	Welcome.   strace is more powerful than just tracing file handles.   Read `man strace` too.

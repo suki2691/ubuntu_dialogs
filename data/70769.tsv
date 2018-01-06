@@ -1,0 +1,4 @@
+2010-04-07T06:31:00.000Z	RFXCasey		My wireless wasn't showing up so I followed a thread that said to go into nm-system-settings.conf and change where it said "managed=" to true, the in console do a "sudo killall nm-system-settings" and then do a "sudo nm-system settings". Now my wired connection isn't showing up either. I tried changing "managed=" back to false but both my wired and wireless connection are still broken.
+2010-04-07T06:32:00.000Z	hmw	RFXCasey	restarting the network and/or NetworkManager might help.  sudo /etc/init.d/network restart (might be networking restart) and /etc/init.d/NetworkManager restart
+2010-04-07T07:03:00.000Z	RFXCasey	hmw	it's still not working
+2010-04-07T07:21:00.000Z	hmw	RFXCasey	it is possible to exchange NM with wicd, which sometimes helps with wifi cards. I would google tutorials on how to do this, because I remember ,they also contain instructions on how to re-install NM, too.

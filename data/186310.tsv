@@ -1,0 +1,4 @@
+2009-10-29T01:17:00.000Z	natascha1		hi
+2009-10-29T01:18:00.000Z	natascha1		can anyone help me with installing my wireless windows driver with ndiswrapper?
+2009-10-29T01:20:00.000Z	natascha1		can anyone help me with ndiswrapper? I think I installed it with ubuntu 8.10, but I don't konw where to find it an how to use it.
+2009-10-29T01:21:00.000Z	ebb	natascha1	search for an INF file then type 'sudo ndiswrapper -i /path/windriver.inf' then 'sudo modprobe ndiswrapper'

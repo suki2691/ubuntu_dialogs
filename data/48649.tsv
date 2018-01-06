@@ -1,0 +1,4 @@
+2011-03-24T03:30:00.000Z	norstrom		Where is the best place to install binaries so that they are available to all users (assuming proper permissions)? /bin? /usr/bin? /usr/share? Is there a guide to what, where and why?
+2011-03-24T03:31:00.000Z	s3r3n1t7	norstrom	/usr/bin in my opinion, it's a user binary.
+2011-03-24T03:33:00.000Z	norstrom	s3r3n1t7	Thanks, do you know if there is a sort of rule as to what the /usr/share is vs. some of the other folders? My biggest learning curve with linux has been understanding the folder structure.
+2011-03-24T03:34:00.000Z	s3r3n1t7	norstrom	there is, it's called the FHS. => http://www.pathname.com/fhs/pub/fhs-2.3.html

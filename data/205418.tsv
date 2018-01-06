@@ -1,0 +1,4 @@
+2006-03-13T06:37:00.000Z	danboid		healot- tried both umask on its own and with ro. I'm not bothered about unmounting it or writing to it, just want it to open on double click and copy files from it
+2006-03-13T06:38:00.000Z	danboid		so as far as fstab is concerned doing a mount -a is exactl;y the same as rebooting?
+2006-03-13T06:39:00.000Z	thegladiator	danboid	not sure for me it worked after a restart when i fstabed for ntfs
+2006-03-13T06:41:00.000Z	thegladiator	danboid	I did something like this r,auto,user,fmask=0111,dmask=0000 , I refered !ntfs

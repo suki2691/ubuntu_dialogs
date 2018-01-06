@@ -1,0 +1,4 @@
+2011-01-10T19:45:00.000Z	dewdrop_world		sorry i had to come back -- situation again -- i was convinced to "sudo apt-get remove network-manager" which killed all networking in ubuntu -- rebooted and "sudo ifconfig eth0 up" did nothing -- how do I get the wired connection going again so I can install wicd?
+2011-01-10T19:46:00.000Z	dewdrop_world		thanks dr. willis -- assume i'm an idiot about networking :)
+2011-01-10T19:47:00.000Z	sam-_-	dewdrop_world	try sudo restart networking && sudo ifup eth0
+2011-01-10T19:48:00.000Z	sam-_-	dewdrop_world	try sudo /etc/init.d/networking restart && sudo ifup eth0

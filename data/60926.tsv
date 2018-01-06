@@ -1,0 +1,4 @@
+2011-04-02T09:03:00.000Z	izinucs	shcherbak	he should probably just chown www-data:www-data and permissions might be better at 644
+2011-04-02T09:05:00.000Z	shcherbak	izinucs	yes, but he have to get to wordpress themes and we started from 604 (wordpress owned to user)
+2011-04-02T09:06:00.000Z	izinucs	shcherbak	isn't it easier to make all the files owned by apache (www-data) and have the user just belong to that group?
+2011-04-02T09:08:00.000Z	shcherbak	izinucs	we do not have problem with files, just directories. But you right.

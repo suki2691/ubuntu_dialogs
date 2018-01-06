@@ -1,0 +1,4 @@
+2008-01-11T05:46:00.000Z	sfears		while compiling a new kernel i read that i could add modules (ndiswrapper, nvidia) to be included in the compile, what files & where do i need to put them to make sure they're included in the kpkg
+2008-01-11T05:46:00.000Z	sfears		??
+2008-01-11T05:47:00.000Z	peabody	sfears	I don't honestly know, I recompile ndiswrapper from source myself.  I set the KBUILD environment varible to the headres for the custom kernel
+2008-01-11T05:49:00.000Z	peabody	sfears	It might be possible, only thing I can think of though is to patch your kernel source tree so it carries the ndiswrapper module.

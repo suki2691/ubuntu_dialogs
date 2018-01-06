@@ -1,0 +1,4 @@
+2010-09-18T17:33:00.000Z	yuvateja		my pendrive is detected when using command SUDO FDISK -L but not display on desktop .
+2010-09-18T17:35:00.000Z	BlueEagle	yuvateja	Are you a member of the group plugdev?
+2010-09-18T17:37:00.000Z	BlueEagle	yuvateja	Well if you ´ls -l /dev/sd*` you may find that the drive is in the plugdev group. You would then have to add yourself to that group to be able to use it.
+2010-09-18T17:39:00.000Z	BlueEagle	yuvateja	Please note that you may need to log off and back in for the changes to take effect.

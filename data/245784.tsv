@@ -1,0 +1,4 @@
+2011-01-18T21:56:00.000Z	Julia_23		Partition Question: SDA1 = Old windows 7 100MB system reserved)   SDA2 = 100 gig ntfs, emtpy. SDA3 extended with SDA5 = 50 gig ext4 Ubuntu, SDA4 = 2gig swap.  I want to replace the 100 GIG ntfs with ext4 for Ubuntu home folder....
+2011-01-18T21:56:00.000Z	Julia_23		and transfer my current /home to the new 100 gig home partition
+2011-01-18T21:57:00.000Z	pro	Julia_23	sudo mkfs.ext4 /dev/sda2
+2011-01-18T21:58:00.000Z	pro	Julia_23	if i pm you, you wont try cyber me will you?

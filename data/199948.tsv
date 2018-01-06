@@ -1,0 +1,4 @@
+2006-08-07T13:34:00.000Z	smacnay_		Hello, I have a debian system with lots of partitions for /usr, /var, /home, etc... - would a ubuntu install work over this without affecting my /home partition?
+2006-08-07T13:35:00.000Z	burhan	smacnay_	it should, if you setup the drive mapping properly -- although, make sure you mark everything for formatting except your /home
+2006-08-07T13:35:00.000Z	smacnay_	sivik	thanks - I might try an install over this working Deb system or just get another hd and put ubuntu on that and dual boot.
+2006-08-07T13:35:00.000Z	burhan	smacnay_	and for sanity, don't create a new user with the same username as the one in debain

@@ -1,0 +1,4 @@
+2008-01-04T00:45:00.000Z	juan		is there a way to renice a process as i start it?
+2008-01-04T00:46:00.000Z	v3ctor	juan	you can `nice` when you start it or `renice` if it already running
+2008-01-04T00:48:00.000Z	juan	v3ctor	and how would i nice a command as i launch it? because as soon as i launch it my computer lags up so much i wouldnt be able to nice it
+2008-01-04T00:48:00.000Z	v3ctor	juan	nice -n <value> <command>

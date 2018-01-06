@@ -1,0 +1,4 @@
+2010-11-23T03:51:00.000Z	dajhorn	tobis87	Ubuntu does these mounts in the /etc/init/mount* files, but you shouldn't change these files.  Like ilovefairuz said, /etc/fstab is the right place to create new mounts on an Ubuntu system.  Doing things the BSD-way can break the system.
+2010-11-23T03:57:00.000Z	dajhorn	tobis87	Use the mounted-varrun file as a template.  Try not to change existing files.  If you don't understand this file, then you need to read the "upstart" documentation.
+2010-11-23T04:26:00.000Z	tobis87	dajhorn	Allmost done, http://pastebin.com/HefbCPqg I only need to change the mount options.
+2010-11-23T04:32:00.000Z	tobis87	dajhorn	man mounted, did the job :-D

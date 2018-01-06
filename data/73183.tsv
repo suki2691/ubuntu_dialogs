@@ -1,0 +1,4 @@
+2009-04-11T18:02:00.000Z	tunnuz		Ok, I'm trying to put on a backup system for my home server (Ubuntu Server 8.04). I created my own configuration file /etc/rsyncd.conf but it looks like Ubuntu has already a rsync configuration somewhere, because the instructions of my configuration file are ignored.
+2009-04-11T18:02:00.000Z	mrwes	tunnuz	why not just run rsync from a cron ?
+2009-04-11T18:03:00.000Z	tunnuz		so, in my rsyncd.conf I have "auth users = a_user_name" but I can access with every username of the system
+2009-04-11T18:03:00.000Z	tunnuz	mrwes	I'm trying to make it scalable, so that if someday I want to backup something from another location I can do it via the home server.

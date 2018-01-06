@@ -1,0 +1,4 @@
+2010-08-05T21:05:00.000Z	Aaron2		hey guys , I have installed ubuntu (fresh 10.04) from USB (after it wont boot from CD or USB , usb boots only with nomodeset parm) now screen goes black after choosing ubuntu from grub and system seems to be up (can hear startup audio playing) yet screen is blacked out. (with "nomodeset" on from grub I get CAPSLOCK and SCROLLLCOK leds blinking and system hang black screened) what can I do to fix that ?
+2010-08-05T21:06:00.000Z	ActionParsnip	Aaron2	http://www.linuxquestions.org/questions/linux-general-1/caps-lock-and-scroll-lock-flashing-47433/
+2010-08-05T21:09:00.000Z	Aaron2	ActionParsnip	the system wont even finish booting will stuck right after "..sensors limit [OK]"  and its a clean install .. what actions should I take ?
+2010-08-05T21:11:00.000Z	ActionParsnip	Aaron2	hold down shift before grub loads and select root recovery, you can do stuff there

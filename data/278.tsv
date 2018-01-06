@@ -1,0 +1,4 @@
+2012-11-28T20:44:00.000Z	Virunga_		Hi guys, could you help me with this regular expression/command ls | grep *\.h$ ? i'd like listed all the files with .h extension.
+2012-11-28T20:44:00.000Z	Virunga_		But it doesn't work.
+2012-11-28T20:45:00.000Z	llutz	Virunga_	ls | grep -E '*\.h$'
+2012-11-28T20:47:00.000Z	Virunga_	llutz	chisholm thank you.

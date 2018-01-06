@@ -1,0 +1,4 @@
+2011-02-13T00:20:00.000Z	kevdog		rc.local -- Is that only with a login shell?
+2011-02-13T00:22:00.000Z	kevdog		meaning are the commands in /etc/rc.local only ran when logging in, or doing a boot.  Are the commands in this file run with all login levels?  I believe the default level is 4??? I'm just guessing
+2011-02-13T00:23:00.000Z	kevdog		lshw
+2011-02-13T00:24:00.000Z	exutux	kevdog	cat /etc/rc.local and read comments it explains what it does

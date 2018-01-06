@@ -1,0 +1,4 @@
+2012-06-15T10:19:00.000Z	nerdistmonk		so how does one go about replacing a package thats installed with one i want to install from source
+2012-06-15T10:20:00.000Z	nerdistmonk		ok, so when i run checkinstall (i got it) it will replace the old packages already in from the repo?
+2012-06-15T10:21:00.000Z	wylde_	nerdistmonk	no ,it will create .debs that you can use to install
+2012-06-15T10:40:00.000Z	wylde_	nerdistmonk	sudo make install

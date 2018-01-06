@@ -1,0 +1,4 @@
+2006-12-10T11:22:00.000Z	redcentre		anybody know anything about getting the Master Volume Control to actually act as a master volume control?
+2006-12-10T11:23:00.000Z	akk	redcentre	The trick would be to keep apps from changing the PCM volume. Some apps seem to do that.
+2006-12-10T11:26:00.000Z	akk	redcentre	You can use either master or PCM, but all your apps have to agree
+2006-12-10T11:26:00.000Z	akk	redcentre	I ended up writing my own python volume control script that always sets pcm to 100% then adjusts master.

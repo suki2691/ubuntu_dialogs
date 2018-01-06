@@ -1,0 +1,4 @@
+2008-05-14T17:49:00.000Z	clusty		my server accepts SSH auth  with keys only. if I update the SSH now will i lock myself out?
+2008-05-14T17:49:00.000Z	clusty		since old keys are unacceptable by new ssh
+2008-05-14T17:50:00.000Z	LimCore	clusty	install fixed version on CLIENT, generate 2nd key,   add 2nd key to authorized keys on server, and after testing it works, delete the old key form servers authorized.   best way to ssh using given key is probably:  eval `ssh-agent` && ssh-add /home/you/newkey.pub
+2008-05-14T17:51:00.000Z	clusty	LimCore	thanks

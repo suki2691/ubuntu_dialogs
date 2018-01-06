@@ -1,0 +1,4 @@
+2008-02-22T19:36:00.000Z	[chr0n0s]		hi, i am getting this error --> fuse: failed to open /dev/fuse: Permission denied
+2008-02-22T19:36:00.000Z	[chr0n0s]		how do i give a user permission to use the sshfs command ?
+2008-02-22T19:36:00.000Z	Dr_willis	[chr0n0s]	 the user MUST bein the fuse group for one thing.
+2008-02-22T19:37:00.000Z	Dr_willis	[chr0n0s]	 https://help.ubuntu.com/community/FuseSmb mention this - yes thats for smbfuse.. but the fuse group  thing applys to most allfuse tools.

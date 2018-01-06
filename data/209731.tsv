@@ -1,0 +1,4 @@
+2006-07-10T07:45:00.000Z	lopzided		are there advantages to compiling an application rather than instaling it with a binary?
+2006-07-10T07:46:00.000Z	LjL	lopzided	no, unless it's a newer version with features or fixes that you really need
+2006-07-10T07:46:00.000Z	LjL	lopzided	the program's performance. very marginally.
+2006-07-10T07:47:00.000Z	LjL	lopzided	oh yes, it *is* a bit difference to worry about: without a package, dependencies won't be managed automatically, which means the program will break sooner or later when one of its dependencies will get removed for some reason. not to mention the time taken to find and install the right compile deps, and the space they take up.

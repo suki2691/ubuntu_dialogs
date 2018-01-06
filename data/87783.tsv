@@ -1,0 +1,4 @@
+2008-06-13T06:35:00.000Z	Brian88_		hi, I installed ubuntu via wubi, and my harddisk has 2 partition, labeled [Data] and [System], but only [System] appearing in [Computer] window, how to display the [Data] partition also?
+2008-06-13T06:35:00.000Z	dmsuperman_	Brian88_	have you mounted the data partition?
+2008-06-13T06:36:00.000Z	Brian88_	dmsuperman_	although I havent mount it, the System one appears, not the Data one,
+2008-06-13T06:37:00.000Z	dmsuperman_	Brian88_	it may have just guessed as far as the System one. Try "sudo fdisk -l"

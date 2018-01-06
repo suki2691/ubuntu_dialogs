@@ -1,0 +1,4 @@
+2010-05-31T09:04:00.000Z	davidov009		Anybody know how to create launchers that will execute terminal programs in sequential order?
+2010-05-31T09:06:00.000Z	edbian	davidov009	You can only write a launcher that can run one command.  Make a script that runs all the commands for you and then a launcher to run the script.
+2010-05-31T09:06:00.000Z	edbian	davidov009	Need help?
+2010-05-31T09:09:00.000Z	edbian	davidov009	All you have to do to write a script is create a normal text file, start is with #!/bin/sh and mark it executable.  Any more questions?

@@ -1,0 +1,4 @@
+2008-02-24T09:12:00.000Z	cycom		ok, so I have ubuntu 7.04 livecd, and right now, my fn-keys work fine on my toshiba a100.  my remote works fine as well.  They will continue to work fine after I install and update.  As soon as I go to 7.10, they stop working.  the keys don't show up in xev. what on earth could be handling them?
+2008-02-24T09:13:00.000Z	mage__	cycom	X might be ignoring them?
+2008-02-24T09:14:00.000Z	cycom	mage__	they may not. but how would they be handled otherwise?
+2008-02-24T09:15:00.000Z	mage__	cycom	kernel could be ignoring them, kernel could be sticking those buttons as a fancy /dev/ file, or they need to be assigned,

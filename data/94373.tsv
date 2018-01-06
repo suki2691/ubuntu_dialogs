@@ -1,0 +1,4 @@
+2008-05-20T15:06:00.000Z	Lanlost		hi, I made a partition (/boot) as ext3. Two questions. 1) Is ext3 ok for this? and 2 It's asking me where I want to install the boot loader and is defaulting at hd0.. should I use the one that is /boot? Or is /boot a seperate thing?
+2008-05-20T15:06:00.000Z	Lanlost		I read a page about partitioning.. I've partitioned before, I was just trying to be more flexible
+2008-05-20T15:07:00.000Z	zvacet	Lanlost	: do you really need boot partition?
+2008-05-20T15:08:00.000Z	zvacet	Lanlost	: I mean you can make jusr root and home (and swap of course)

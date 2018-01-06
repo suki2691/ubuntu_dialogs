@@ -1,0 +1,4 @@
+2009-07-24T21:14:00.000Z	Mike_lifeguard	nduthoit	Is there a utility for making incremental backups?
+2009-07-24T21:16:00.000Z	nduthoit	Mike_lifeguard	(using tar, look at the documentation, there's a command line argument to make it incremental)
+2009-07-24T21:16:00.000Z	Mike_lifeguard		thanks
+2009-07-24T21:17:00.000Z	nduthoit	Mike_lifeguard	it's the -u option (update: only append files that are newer than copy in archive)

@@ -1,0 +1,4 @@
+2011-12-07T07:14:00.000Z	xrandr		so for GRUB_CMDLINE_LINUX_DEFAULT="quiet splash" just remove the ""
+2011-12-07T07:14:00.000Z	xrandr		?
+2011-12-07T07:14:00.000Z	ActionParsnip	xrandr	no, keep the quotes
+2011-12-07T07:14:00.000Z	ActionParsnip	xrandr	just add the bootoptin in the quotes, save the new file, close gedit and run:  sudo update-grub

@@ -1,0 +1,4 @@
+2009-12-13T04:24:00.000Z	mac9416		What command should I use to recursively search for a word in a hierarchy of text files?
+2009-12-13T04:26:00.000Z	usser_	mac9416	find -iname "*.txt" -exec grep pattern {} \l
+2009-12-13T04:27:00.000Z	usser_	mac9416	sigh, sorry trying to type too fast. find /directory/to/search -iname "*.txt" -exec grep pattern {} \;
+2009-12-13T04:27:00.000Z	mac9416	usser_	np, thanks. :-)

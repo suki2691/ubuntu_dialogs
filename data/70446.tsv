@@ -1,0 +1,4 @@
+2009-06-24T01:35:00.000Z	animuson		how can i enable the Rewrite commands for a directory?
+2009-06-24T01:35:00.000Z	usr13	animuson	chomd -w /dir/name/here
+2009-06-24T01:36:00.000Z	usr13	animuson	Correction:  chomd +w /dir/name/here
+2009-06-24T01:40:00.000Z	animuson	usr13	the chmod didnt do anything, error log says this: "/var/www/animsuon/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration"

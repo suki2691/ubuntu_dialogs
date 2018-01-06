@@ -1,0 +1,4 @@
+2011-11-04T02:51:00.000Z	windparadise		hello, pls I am trying to turn php_safe mode off, in /etc/php5/apache2 it shows safe_mode is off, but in http://www.berylhost.com/estates/info.php  I am seeing safe_mode being on, where else can I check ?
+2011-11-04T02:52:00.000Z	glebihan	windparadise	did you restart apache after modifying the configuration ?
+2011-11-04T02:53:00.000Z	windparadise	glebihan	in fact, safe mode is turned off lonng ago, I didn't do any setting
+2011-11-04T02:57:00.000Z	glebihan	windparadise	in that case, you may want to have a look at the other ini files parsed (also mentioned on the info page)

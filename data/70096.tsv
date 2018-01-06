@@ -1,0 +1,4 @@
+2009-01-04T21:42:00.000Z	amitprakash_		hi.. the cpufreqd isn't working on by intrepid install.. how do i fix it? even though I set the governer to powersaver the clock speed remains running at max
+2009-01-04T21:44:00.000Z	smerz	amitprakash_	 check powernowd. that service amends clock speed too
+2009-01-04T21:50:00.000Z	amitprakash_	smerz	powernowd fails to change it too
+2009-01-04T21:51:00.000Z	amitprakash_	smerz	as in both cpufreqd and powernowd accept commands successfully but the clock speed remains at 1.8G[max]

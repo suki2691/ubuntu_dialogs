@@ -1,0 +1,4 @@
+2006-08-11T13:20:00.000Z	Roberto_		Good afternoon. My name is Roberto, and I think my Ethernet card is running like two or three times slower than it should. I am running Ubuntu 6, and the card is D-Link DFE-520TX. It should download at 120kbps, but it is only performing at 40kbps. I think it might be because the speed_duplex is not set to 2. Any help?
+2006-08-11T13:21:00.000Z	fyrestrtr	Roberto_	use mii-tool to see what its conencted as.
+2006-08-11T13:25:00.000Z	fyrestrtr	Roberto_	means its not connected at 100Base-T not 10Base-T, which would explain the slowness.
+2006-08-11T13:26:00.000Z	fyrestrtr	Roberto_	whoops, got those two reversed, but you know what I mean. Its connected at 10Base-T not 100Base-T, which is why its slow.

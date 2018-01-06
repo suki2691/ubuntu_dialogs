@@ -1,0 +1,4 @@
+2007-05-11T13:59:00.000Z	dc2448		I have justed added a soundblaster pci card but it isn't getting picked up in fiesty - what module do I need to load?
+2007-05-11T13:59:00.000Z	dc2448		Multimedia audio controller: Ensoniq Unknown device 5080
+2007-05-11T14:00:00.000Z	linxeh	dc2448	probably the e10k1 or somesuch - depends what card it is
+2007-05-11T14:00:00.000Z	linxeh	dc2448	you might need to look at the creative pcb number printed on the card itself and look it up on the alsa website

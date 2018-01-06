@@ -1,0 +1,4 @@
+2012-03-18T15:52:00.000Z	MACscr		i got a crazy question. Is it possible to rsync or copy all folders within a directory to another folder, but not copy any of the actual files or subfolders within them?
+2012-03-18T15:54:00.000Z	Rug	MACscr	rsync -d
+2012-03-18T15:54:00.000Z	Rug	MACscr	have you tried rsync -n   (dry run doesn't do anything)
+2012-03-18T15:54:00.000Z	Rug	MACscr	nm

@@ -1,0 +1,4 @@
+2006-10-26T11:42:00.000Z	b33j0r		b33j0r: can anyone help me? if I have started a process on a remote machine via ssh, how can I make the process continue after I close the ssh session? thanks
+2006-10-26T11:44:00.000Z	dabaR__	b33j0r	you can run the process with nohup <command>&
+2006-10-26T11:45:00.000Z	dabaR__	b33j0r	I don't know whether they will stop, but it is possible.
+2006-10-26T11:45:00.000Z	dabaR__	b33j0r	nohup means dont hang up the process after I hang up

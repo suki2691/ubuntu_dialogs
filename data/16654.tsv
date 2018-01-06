@@ -1,0 +1,4 @@
+2011-07-29T19:14:00.000Z	NotreDev		i performed sudo apt-get upgrade -y, but ran out of space on my disk. now that i've freed some space, i tried again, but it doesn't seem to believe there are any upgrades available. how can i make apt more aware of what packages are currently installed?
+2011-07-29T19:15:00.000Z	wols	NotreDev	apt-get -f install
+2011-07-29T19:16:00.000Z	NotreDev	wols	did nothing different (0 upgraded, 0 newly installed, 0 to remove and 2 not upgraded)
+2011-07-29T19:16:00.000Z	wols	NotreDev	apt-get update;apt-get dist-upgrade

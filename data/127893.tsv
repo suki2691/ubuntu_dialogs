@@ -1,0 +1,4 @@
+2007-07-16T06:56:00.000Z	conorkirkpatrick		How do you mount a hard drive from the LiveCD?
+2007-07-16T06:57:00.000Z	conorkirkpatrick		How do you mount a hard drive from the LiveCD?
+2007-07-16T06:57:00.000Z	breakerfall	conorkirkpatrick	mount -t <type goes here> /dev/XXX /path/to/mount
+2007-07-16T06:58:00.000Z	conorkirkpatrick	breakerfall	I know the command, I was jsut wondering how to get it to recognize the HD from the Live CD. I tried dmesg | grep hd and it found a device of 20GB (my hd) but I have no idea how to mount it as it isn't in mtab or fstab

@@ -1,0 +1,4 @@
+2006-09-01T10:41:00.000Z	ic56	BHSPitMonkey	your /dev/loop# error from mount(8) is probably caused by the absense of sufficient loop devices.  There's a limited number of them.  Each active mount consumes one.  There may be a way to increase them.
+2006-09-01T10:42:00.000Z	BHSPitMonkey	ic56	look like there's 9 mounts that -aren't- hard disks.
+2006-09-01T10:43:00.000Z	BHSPitMonkey		/var/log
+2006-09-01T10:43:00.000Z	ic56	BHSPitMonkey	makes sense.  Maybe the loop(6x) manpage will shed some light on how to solve the problem

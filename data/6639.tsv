@@ -1,0 +1,4 @@
+2012-01-03T16:59:00.000Z	metaspikes	jiltdil	use mencoder instead.
+2012-01-03T16:59:00.000Z	jiltdil	metaspikes	 please tell how to i have no idea about mencoder?
+2012-01-03T17:04:00.000Z	metaspikes	jiltdil	mencoder -tv driver=v4l2:width=1600:height=900:device=/dev/video0 -oac mp3lame -ovc lavc -lavcopts vcodec=mpeg4 -ffourcc XVID -vf pp=lb -o output.avi tv://   - you will have to specify a capture device with alsamixer (or such) and you might have to use :adevice=/dev/<somethin> also
+2012-01-03T17:05:00.000Z	jiltdil	metaspikes	 thanks a lot :)

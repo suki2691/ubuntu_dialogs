@@ -1,0 +1,4 @@
+2007-09-13T11:50:00.000Z	jah		hurmm, ive got a question, Im wondering why I can use sudo with my pass ( only one user created since installation ) but su doesnt work, why is that?
+2007-09-13T11:50:00.000Z	tomm1	jah	su requies the root password
+2007-09-13T11:51:00.000Z	tomm1	jah	use sudo -s instead to get a shell
+2007-09-13T11:51:00.000Z	tomm1	jah	yeah, youve got to use sudo [-s] , thats the ubuntu security ;)

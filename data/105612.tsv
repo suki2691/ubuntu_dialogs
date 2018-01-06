@@ -1,0 +1,4 @@
+2008-11-01T20:21:00.000Z	snowman		Hi. I try to setup an ssh client, but I can't connect from outside the local network. tcpdump shows that the is action on port 22, but i get no answer
+2008-11-01T20:22:00.000Z	wassy121	snowman	do you have any IPTables rules?
+2008-11-01T20:24:00.000Z	wassy121	snowman	this sounds like a firewall problem.  Check '/sbin/iptables -L -n'
+2008-11-01T20:26:00.000Z	snowman	wassy121	all 3 chains ACCEPT Policy

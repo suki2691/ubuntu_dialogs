@@ -1,0 +1,4 @@
+2006-12-29T09:41:00.000Z	vinylgirl		Hm, my WiFi adapter always shows as eth1 and not wlan0. I already changed things in vi /etc/modprobe.d/aliases
+2006-12-29T09:41:00.000Z	vinylgirl		but it doens't help... How the fuck can I fix this ?
+2006-12-29T09:42:00.000Z	bulmer	vinylgirl	whats so wrong with having an interface name eth1 instead of wlan1 ?
+2006-12-29T09:43:00.000Z	vinylgirl	bulmer	well it's a pain in the ass. And the same device shows as wlan0 in Debian, after editing the udev configuration

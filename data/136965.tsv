@@ -1,0 +1,4 @@
+2007-12-29T05:19:00.000Z	sint		how to remove ssh from starting at boot time?? rcconf doesn't shot ssh and update-rd.d just don't do nothing
+2007-12-29T05:19:00.000Z	sint		is there a config file anywhere?
+2007-12-29T05:20:00.000Z	hatter	sint	you can change /etc/init.d/ssh to /etc/init.d/ssh.off then update-rc.d ssh remove
+2007-12-29T05:21:00.000Z	hatter	sint	you can add a root password and not use the sudo thing

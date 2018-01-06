@@ -1,0 +1,4 @@
+2007-10-01T05:53:00.000Z	Creationist225		How do I completely remove GRUB from my drive?
+2007-10-01T05:54:00.000Z	hjmills	Creationist225	you are going to need to reinstall grub as vista will have overwritten the mbr - you need a live cd and instructions are on help.ubuntu.com
+2007-10-01T05:55:00.000Z	Creationist225	hjmills	I'm running a live CD right now.  Tried running "grub-install sda1" but it said that the device isn't recognized.
+2007-10-01T05:56:00.000Z	hjmills	Creationist225	hmm, you might need to do it from the grub shell itself rather than using the automated grub-install program maybe

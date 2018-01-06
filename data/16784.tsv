@@ -1,0 +1,4 @@
+2011-06-30T22:20:00.000Z	SkiOne		can anyone explain why apache start up scripts are being nuked after updating the OS? I have had this several times now. I end up with 4 apache startup scripts in init.d 2->2.4 all empty. I restore from another machine and it works
+2011-06-30T22:21:00.000Z	ZykoticK9	SkiOne	i'd "guess" that apache has been converted to an Upstart job vs. init.d
+2011-06-30T22:22:00.000Z	SkiOne	ZykoticK9	I've tried that and no it hasn't
+2011-06-30T22:22:00.000Z	ZykoticK9	SkiOne	sorry - just ignore me then :)

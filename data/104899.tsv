@@ -1,0 +1,4 @@
+2010-05-19T17:03:00.000Z	bartolomax		hi all!! anyone able to help with a nvidia problem...
+2010-05-19T17:05:00.000Z	bartolomax		nvidia card is not detected when hardware drivers looks for drivers
+2010-05-19T17:05:00.000Z	ActionParsnip	bartolomax	what is the output of: lspci | grep -i vga
+2010-05-19T17:07:00.000Z	ActionParsnip	bartolomax	sudo add-apt-repository ppa:nvidia-vdpau/ppa;  sudo apt-get update; sudo apt-get install nvidia-glx-185     works on my 6150 onboard :)

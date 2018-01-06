@@ -1,0 +1,4 @@
+2010-03-19T14:22:00.000Z	fr3nzy		I don't have NetworkManager installed, but can anyone confirm that 'sudo killall NetworkManager' works and disables NetworkManager?
+2010-03-19T14:23:00.000Z	theadmin	fr3nzy	Yes, but only until the next reboot
+2010-03-19T14:25:00.000Z	fr3nzy	theadmin	thanks, that's what I figured. Now, the second part of the question comes here. After killing NetworkManager will 'sudo apt-get remove network-manager network-manager-gnome' get rid of it?
+2010-03-19T14:25:00.000Z	theadmin	fr3nzy	Yes.

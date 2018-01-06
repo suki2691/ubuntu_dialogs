@@ -1,0 +1,4 @@
+2012-05-08T04:58:00.000Z	pakattack		Guys what is the terminal command for flashing an iso to a cd?
+2012-05-08T04:59:00.000Z	littlebearz1	pakattack	dd
+2012-05-08T05:00:00.000Z	littlebearz1	pakattack	dd if=location/to/iso.iso of=output/location/
+2012-05-08T05:04:00.000Z	littlebearz1	pakattack	use fdisk -l to figure that out or df -h

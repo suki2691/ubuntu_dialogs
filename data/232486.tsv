@@ -1,0 +1,4 @@
+2009-02-18T21:31:00.000Z	NeoDragon		I am upgrading from a 160GB HD to a 500GB HD, is it possible to simply rsync my hardy /root partition from one HD to the other and have it still be able to boot from the new HD?
+2009-02-18T21:33:00.000Z	erUSUL	NeoDragon	if you then set up grub it should... (nmake sure you instruct rsync to skip "volatile" dirs like /dev/ /proc /sys...)
+2009-02-18T21:35:00.000Z	erUSUL	NeoDragon	may be easier using partimage from a livecd (but i've done what you describe 2-3 times using tar and worked)
+2009-02-18T21:35:00.000Z	erUSUL	NeoDragon	allways from a livecd

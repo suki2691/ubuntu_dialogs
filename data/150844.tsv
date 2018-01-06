@@ -1,0 +1,4 @@
+2009-08-06T21:34:00.000Z	LastExyle		on a somewhat related note, what would be the best way to have the machine reboot an hour after a specific user logs in?
+2009-08-06T21:35:00.000Z	firecrotch	LastExyle	A script that runs at login that runs the following command: at now + 1 hour /sbin/shutdown
+2009-08-06T21:36:00.000Z	firecrotch	LastExyle	or /sbin/reboot
+2009-08-06T21:36:00.000Z	LastExyle	firecrotch	thanks. pardon the newbie question, but where would I put such a script?

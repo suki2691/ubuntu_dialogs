@@ -1,0 +1,4 @@
+2010-07-25T03:21:00.000Z	hh77		hi, i have just installed ubuntu 10.04 and have problems playing video. I think its due to the used intel video driver. can somebody please help?
+2010-07-25T03:22:00.000Z	hh77		is there an alternative? only vesa?
+2010-07-25T03:23:00.000Z	hh77		i have a thinkpad
+2010-07-25T03:25:00.000Z	thune3	hh77	check what card you have (lspci | grep VGA), you may be affected by 8xx problems: https://wiki.ubuntu.com/X/Bugs/Lucidi8xxFreezes

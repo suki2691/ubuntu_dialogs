@@ -1,0 +1,4 @@
+2010-07-08T15:34:00.000Z	matteo1990		In my last ubuntu update my pc turned of during the installation of new geeforce drivers. Now if i turn on the pc i get in low graphic mode and if i log in i can see only  a blanck screen. This happens also if i press ctrl F1 to go to the terminal. What can i do to recover the system?
+2010-07-08T15:35:00.000Z	magicianlord	matteo1990	go into terminal, and nano /etc/modprobe.d/blacklist.conf, then add 'blacklist nouveau
+2010-07-08T15:35:00.000Z	magicianlord		blacklist nouveau
+2010-07-08T15:39:00.000Z	matteo1990	magicianlord	how to get in terminal? If i press ctrl F1 i get blank screen

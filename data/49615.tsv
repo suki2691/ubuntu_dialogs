@@ -1,0 +1,4 @@
+2009-08-27T03:13:00.000Z	loop8		is using nautilus' standard file moving functionality via copy & paste reliable (meaning that the destination file is guaranteed to be an exact copy of the source file, before the source file is deleted)? If not, what tool should I use instead? rsync?
+2009-08-27T03:14:00.000Z	bruce89	loop8	nautilus would be rather useless if it didn't guarantee copies to be exact
+2009-08-27T03:14:00.000Z	loop8	bruce89	agreed, but does it check via some hash or does it just assume that the underlying hardware does its job?
+2009-08-27T03:15:00.000Z	bruce89	loop8	no, it won't do anything very exciting, I'm not sure if even rsync does

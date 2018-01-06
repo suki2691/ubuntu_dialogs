@@ -1,0 +1,4 @@
+2009-11-13T18:27:00.000Z	jcrawford		hey guys if i want to search several files/directories for a string why will grep -ir "string" not work for me?  It just hangs there forever
+2009-11-13T18:28:00.000Z	llutz	jcrawford	fgrep -ri string *file
+2009-11-13T18:29:00.000Z	jcrawford	llutz	i tried * and *.* and *.php
+2010-01-07T22:16:00.000Z	llutz	jcrawford	ripperx, grip

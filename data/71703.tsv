@@ -1,0 +1,4 @@
+2009-05-03T18:14:00.000Z	Dreamglider		my alsa stopped working, i tried to restart it with sudo /etc/init.d/alsa restart but it does not work, im running 8.10. How can i see what caused it to stop ?
+2009-05-03T18:15:00.000Z	Uuu	Dreamglider	/etc/init.d/alsa-utils maybe? (in my 8.04 there is such file)
+2009-05-03T18:15:00.000Z	Dreamglider	Uuu	i meant alsa-utils sry
+2009-05-03T18:16:00.000Z	Uuu	Dreamglider	sudo alsa force-reload or so ;]

@@ -1,0 +1,4 @@
+2011-02-24T11:18:00.000Z	westy		whats the cmd to give permission to a certain file/folder for a folder inside root for root?
+2011-02-24T11:19:00.000Z	usr13_	westy	chown
+2011-02-24T11:20:00.000Z	usr13_	westy	sh start.sh
+2011-02-24T11:20:00.000Z	usr13_	westy	ls -l  # see if the executible bit is set.  If not do chmod +x file.sh

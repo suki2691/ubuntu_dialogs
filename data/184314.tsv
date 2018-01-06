@@ -1,0 +1,4 @@
+2006-11-07T15:20:00.000Z	Steggy		Would anyone have any idea why this entry in crontab doesn't work: (*/15 * * * * /usr/bin/xfdesktop -reload) while this entry does: (*/15 * * * * echo "It works" > ~/readme)?
+2006-11-07T15:21:00.000Z	variant	Steggy	odd, try oputting it in quotes
+2006-11-07T15:24:00.000Z	Steggy	variant	I'd tried that, but it doesn't seem to be working, Juhaz: does that means it's impossible to do with cron, do that I need to set that variable?
+2006-11-07T15:25:00.000Z	variant	Steggy	yeah, sorry.. just realised that you were running a graphical app :P

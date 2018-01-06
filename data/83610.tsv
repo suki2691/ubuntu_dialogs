@@ -1,0 +1,4 @@
+2008-08-03T23:01:00.000Z	kudak		can someone please explain to me why in /etc/resolv.conf theres a line 'search lan' befor the nameservers, why that line is needed ?
+2008-08-03T23:01:00.000Z	roe_	kudak	it isn't you at some point defined 'lan' as your domain
+2008-08-03T23:01:00.000Z	roe_		so when you type in something like host servername it will try servername.lan first
+2008-08-03T23:02:00.000Z	kudak	roe_	so basicly i use the 'search <domain>' only when i have my own domain ?

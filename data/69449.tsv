@@ -1,0 +1,4 @@
+2009-01-09T02:12:00.000Z	alex-82		I've read some docs that talk about using gnome-session-properties to disable nautilus from starting, but they refer to a "current session" tab that is absent from my version, (I have ubuntu 8.10). What the new way to configure gnome sessions?
+2009-01-09T02:13:00.000Z	LtL	alex-82	in system/prefs/sessions find the tab that says save session apps.
+2009-01-09T02:16:00.000Z	alex-82	LtL	oh I see a button that says "Remember currently running applications", so I just open applications that I want and click that? But if I do killall nautilus, nautilus starts again straight away
+2009-01-09T02:20:00.000Z	LtL	alex-82	you'll need to play with that, i would have all apps closed then hit that button, its up to you.

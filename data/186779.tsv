@@ -1,0 +1,4 @@
+2008-11-12T19:41:00.000Z	demos		Hey, I'm having a problem with lampp on hardy. I can't access mysql from the terminal. When I type “mysql” I get the following response “The program 'mysql' is currently not installed.  You can install it by typing: sudo apt-get install mysql-client-5.0”.  I installed  mysql-client-5.0 and now get the error “ERROR 2002 (HY000): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)”. Does an
+2008-11-12T19:41:00.000Z	demos		yone know how to fix this? Thank you.
+2008-11-12T19:42:00.000Z	ikonia	demos	use sudo
+2008-11-12T19:42:00.000Z	ikonia	demos	sudo apt-get install mysql client

@@ -1,0 +1,4 @@
+2006-07-31T12:32:00.000Z	detien		hi guys, I just installed ubuntu but I couldn't connect to the internet through my router. it detected my NIC card but it doesn't connect
+2006-07-31T12:33:00.000Z	detien		when I check the connection , it say "Name: eth0, Status: Idle
+2006-07-31T12:34:00.000Z	kimo	detien	open a terminal, type 'sudo -i', then type 'ifconfig'. Does the output contain an IP address?
+2006-07-31T12:36:00.000Z	kimo	detien	that would be 'dhclient eth0'

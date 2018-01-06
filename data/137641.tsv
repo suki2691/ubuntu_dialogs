@@ -1,0 +1,4 @@
+2009-12-23T22:06:00.000Z	x_kid		is it possible to change mac address permanently?after poweroff the new mac remains or changes back to factory default?    /etc/init.d/networking stop   ifconfig eth0 hw ether 02:01:02:03:04:08    /etc/init.d/networking star
+2009-12-23T22:07:00.000Z	x_kid		is there anyway to change permanently?
+2009-12-23T22:07:00.000Z	llutz	x_kid	use a script in /etc/network/if-pre-up.d/ to set it
+2009-12-23T22:09:00.000Z	llutz	x_kid	usually you cannot

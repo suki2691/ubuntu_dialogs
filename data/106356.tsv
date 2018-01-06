@@ -1,0 +1,4 @@
+2008-01-09T00:20:00.000Z	VoksD		Is there some software I can use to retrieve data from a USB stick that wasn't cleanly unmounted?  I know a lot of data was written to it, but it was removed from it's slot before the unmount completed (some r/w was apparently still in process).
+2008-01-09T00:21:00.000Z	Dr_willis	VoksD	 you can try fscking the filesystem. - may be safer to dd the stick to a file, then try to fsck the file by mounting it.
+2008-01-09T00:34:00.000Z	Dr_willis	VoksD	 weeee :) hope they are not currupted
+2008-01-09T00:36:00.000Z	VoksD	Dr_willis	Of the ones that really did get written, only a few seem to have ended up as garbage, but..  I'm just glad I could salvage anything at all ;oP

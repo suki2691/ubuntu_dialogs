@@ -1,0 +1,4 @@
+2011-04-03T23:10:00.000Z	Space_Cadet		Hello room :)
+2011-04-03T23:12:00.000Z	Space_Cadet		I am having an issue installing Ubuntu 10.10 on one of my desktops......the live cd loads fine, the install also goes fine. Upon the 1st boot my monitor goes to sleep every time. I am guessing it is a video card issue that prob requires restricted drivers. Thoughts? Nvidia 9500 1gb ram.
+2011-04-03T23:13:00.000Z	Dr_Willis	Space_Cadet	 try the 'nomodeset' option untoll  You get the nvidia-drivers installed.
+2011-04-03T23:13:00.000Z	Dr_Willis	Space_Cadet	 grub has a option to 'edit' its boot line. replace 'quiet splash' with 'quiet splash nomodeset'

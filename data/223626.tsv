@@ -1,0 +1,4 @@
+2006-06-16T15:07:00.000Z	jenda-lappy		How is it possible that my Travelmate 240 laptop doesn't detect the ethernet connection when I plug in the cable, and requires me to reactivate it? Is there a way to run a script that would reactivate the eth0 connection when the cable is plugged in?
+2006-06-16T15:08:00.000Z	zcat[1] 	jenda-lappy	'sudo dhclient'
+2006-06-16T15:49:00.000Z	zcat[1] 	jenda-lappy	there was talk of a daemon that would detect the network being plugged in and configure it, but I'm not sure if it really exists yet...
+2006-06-16T15:56:00.000Z	zcat[1] 	jenda-lappy	unfortunately yes, ubuntu doesn't yet handle networks being unplugged and restored as well as it could... :(

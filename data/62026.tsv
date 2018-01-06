@@ -1,0 +1,4 @@
+2009-08-11T20:31:00.000Z	enthdegree		To clarify: With this line added in my fstab: "/dev/sda3 /home/enthdegree/Share vfat rw,user,auto,umask=0,iocharset=utf8 0 0" I can mount /dev/sda3 in /home/enthdegree/Share with no privileges. ('user' option) I defined it explicitly as rw, but I can only write to it a couple of times and then it reverts to read only again. :P ( Or at least I think that's what's happening...)
+2009-08-11T20:32:00.000Z	enthdegree		No, I haven't
+2009-08-11T20:32:00.000Z	grawity	enthdegree	Sometimes filesystems get remounted readonly by kernel when there are problems with them... check dmesg, or /var/log/syslog.
+2009-08-11T20:33:00.000Z	grawity	enthdegree	fsck /dev/sda3, then? (I don't remember which package has fsck.vfat... it's probably included by default.)

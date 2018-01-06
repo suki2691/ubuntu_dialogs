@@ -1,0 +1,4 @@
+2006-02-24T09:37:00.000Z	rukuartic_		Does anyone know how to drop out of a gnome session while logged in and just end up with a terminal?
+2006-02-24T09:37:00.000Z	amphi	rukuartic_	alt-ctrl-f1 ?
+2006-02-24T09:38:00.000Z	amphi	rukuartic_	perhaps sudo /etc/init.d/gdm stop
+2006-02-24T09:39:00.000Z	amphi	rukuartic_	to permanently remove gui login, update-rc.d -f gdm remove

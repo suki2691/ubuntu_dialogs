@@ -1,0 +1,4 @@
+2008-02-07T07:17:00.000Z	meoblast001		hello.... im trying to copy the contents of the Ubuntu 7.10 disk onto a flash drive and i get a permissions error, how do i fix this, ive had this problem on Ubuntu and Fedora
+2008-02-07T07:19:00.000Z	meoblast001		Error "Operation not permitted" while copying "/media/Ubu...86/ubuntu".
+2008-02-07T07:19:00.000Z	meoblast001		what does that mean?
+2008-02-07T07:21:00.000Z	nepbabu	meoblast001	mount -t -o rw vfat /dev/<fat_device> /mediat/whatever;

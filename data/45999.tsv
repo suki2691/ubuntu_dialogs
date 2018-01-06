@@ -1,0 +1,4 @@
+2009-10-27T10:29:00.000Z	MrPiracy		i am having problems with my NVIDIA drivers ... somehow i installed it and i had to add it to /etc/rc.local (chmod 666 /dev/nvidia*). isn't there a way to make it permanent without the use in this file?
+2009-10-27T10:29:00.000Z	Termana	MrPiracy	theres your problem right there
+2009-10-27T10:30:00.000Z	Termana	MrPiracy	You set it to 666 - nothings bound to work with those numbers :P j/k
+2009-10-27T10:30:00.000Z	MrPiracy	Termana	it acctually works, but some random times i will have to reboot because this file wasn't read/processed

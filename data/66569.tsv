@@ -1,0 +1,4 @@
+2012-05-12T06:05:00.000Z	zymaster		hey does anyone know what the deal with "locked" files is. I insert a usb device  I check it's permissions and I have full permissions to read and write to it. When I do something to it as root it works but when I do something to it as me it does not work. Also when I look at it in files it shows up with a little lock on its icon so i dont know what this means. Also when I plugin it in it usually ends up being something like /dev/b
+2012-05-12T06:05:00.000Z	zymaster		us/usb/005/something or other
+2012-05-12T06:06:00.000Z	bpcomp	zymaster	your system is mounting the usb as readonly
+2012-05-12T06:10:00.000Z	bpcomp	zymaster	http://ubuntuforums.org/archive/index.php/t-1448092.html

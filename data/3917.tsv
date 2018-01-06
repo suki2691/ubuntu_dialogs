@@ -1,0 +1,4 @@
+2012-05-05T05:54:00.000Z	Optichip		is there a way to rebuild the apt-get database or remove it since it's seeing packages that have been removed and no longer there?
+2012-05-05T05:54:00.000Z	wylde	Optichip	sudo apt-get clean
+2012-05-05T05:55:00.000Z	Optichip	wylde	:> doesn't work, says all packages are there when I know there are some that aren't
+2012-05-05T05:58:00.000Z	wylde	Optichip	I suppose you could try sudo apt-get autoclean if you haven't already

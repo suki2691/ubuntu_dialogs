@@ -1,0 +1,4 @@
+2009-09-16T05:49:00.000Z	treyh		I would like my ubuntu server, to have a virtual interface setup with a static ip, that when it receives any traffic it redirects/routes traffic to a random ip (ip1, ip2, or ip3)
+2009-09-16T05:51:00.000Z	phix	treyh	do it! sudo ifconfig eth0:1 10.0.0.1 netmask 255.255.255.0 (for example)
+2009-09-16T05:51:00.000Z	phix	treyh	then use iptables to set a redirect rule
+2009-09-16T05:59:00.000Z	treyh	phix	but i want it randomly to select an ip

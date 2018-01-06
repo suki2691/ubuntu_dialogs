@@ -1,0 +1,4 @@
+2010-07-13T10:02:00.000Z	DSSA		Could someone help me with a frozen 10.04 install that I had to manually shut down?  When I'm at the command line and type sudo dpkg --configure -a it says "dpkg: parse error, in file 'var/lib/dpkg/updates/0000' near line 0: newline in field name '#padding' "
+2010-07-13T10:03:00.000Z	snuxoll	DSSA	erm....heh
+2010-07-13T10:03:00.000Z	snuxoll	DSSA	you are probably hosed
+2010-07-13T10:03:00.000Z	snuxoll	DSSA	your dpkg database is corrupt

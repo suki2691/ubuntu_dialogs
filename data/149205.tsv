@@ -1,0 +1,4 @@
+2010-11-03T22:48:00.000Z	joesuffceren		I need a little help with NTP. I am trying to get my ubuntu box to sync with my Windows domain controller. (I have also tried using us.pool.ntp.org servers with the same results described below). I can use ntpdate -u to sync the time just fine, but when I set them up as server entries in ntp.conf, they don't work
+2010-11-03T22:49:00.000Z	joesuffceren		ntpq -p shows my servers that I configure in ntp.conf, but none of them ever has an asterisk beside it, which, if I understand, means it's not actually syncing with them
+2010-11-03T22:50:00.000Z	joesuffceren		If there's a better channel for this question, I apologize, and please point me in the right direction. I couldn't find an NTP specific channel, though, so I thought the distro channel was my next best bet
+2010-11-03T22:51:00.000Z	Pici	joesuffceren	You may want to try to ask in #ubuntu-server

@@ -1,0 +1,4 @@
+2008-09-11T00:39:00.000Z	Ob1Kn00b		between boots, my partitions were renamed from sda1 sda 2 to sde1 sde2, how  do I stop this from happening?
+2008-09-11T00:40:00.000Z	Ob1Kn00b		sorry, can you clarify?
+2008-09-11T00:40:00.000Z	danbhfive	Ob1Kn00b	well, I think that happens because of different devices being connected, get it?  It will rename the devices if you change the order of them, connect them different, etc.
+2008-09-11T00:41:00.000Z	danbhfive	Ob1Kn00b	thats where UUIDs come in.  They are supposed to stay the same, regardless of how the device is connected.  So just mount the drives in fstab using UUIDs

@@ -1,0 +1,4 @@
+2012-02-13T05:51:00.000Z	chaos_zero		i have a web server and i have to -R 777 the website folder every time i add a page or something or clients cant access those pages. How can i make it so everything in the folder is automatically of the correct permission?
+2012-02-13T05:52:00.000Z	muelli	chaos_zero	well. 777 are never the right permissions. You probably want to add those files as group "www-data". Make sure you are in that group (using gpasswd or smth similar) and then you can do smth like "newgrp www-data" before adding the files.
+2012-02-13T05:58:00.000Z	muelli	chaos_zero	well. several strategies. One would be to have a sticky bit on the folder people are writing to, so that all created files are automatically in the proper group. The other strategy would be to make the user have the www-data group and maybe default to it.
+2012-02-13T06:00:00.000Z	muelli	chaos_zero	man chmod. Probably smth like chmod g+s directory/

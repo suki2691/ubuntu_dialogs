@@ -1,0 +1,4 @@
+2010-01-20T08:34:00.000Z	onetinsoldier	ryanCH	yes. well, it could depend. what driver are you using? do you have a /etc/X11/xorg.conf file? if so, it might have your video cards chipset as an entry in that file and X reads that when it starts up.
+2010-01-20T08:35:00.000Z	onetinsoldier	ryanCH	if you don't have that file, then X just runs at some defaults using a generic driver i think
+2010-01-20T08:35:00.000Z	ryanCH	onetinsoldier	well ubuntu configured it all automatically .. so what do i need to do to install the new video card
+2010-01-20T08:37:00.000Z	onetinsoldier	ryanCH	i'm not sure. it used to be a command like 'dpkg-reconfigure -plow xserver-xorg' - but i'm not sure if that command is it anymore

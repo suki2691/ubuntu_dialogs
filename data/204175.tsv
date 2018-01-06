@@ -1,0 +1,4 @@
+2010-01-30T03:19:00.000Z	Plugh	Dravekx	If you want users to be able to have web pages on the server, the usual thing is to allow them to use ~/public_html
+2010-01-30T03:21:00.000Z	Plugh	Dravekx	The usual procedure to allow each user of a machine to have their own web pages is to configure apache to access a public_html directory in each users account.
+2010-01-30T03:21:00.000Z	Plugh	Dravekx	The pages are then access by http://url-for-server/~username/
+2010-01-30T03:26:00.000Z	Plugh	Dravekx	Any directory can be made the default for use with apache. Just set the entry for "Directory /" in /etc/apache2/sites-available/default

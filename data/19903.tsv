@@ -1,0 +1,4 @@
+2011-11-05T05:17:00.000Z	Ruzu		<-- spent weeks trying to install ubuntu, until a random google result gave me the secret sauce: residual raid information was on my disks, and the installer went bonkers because of it (there wasn't a raid any more)
+2011-11-05T05:19:00.000Z	Ruzu		where in the filesystem does apt-get put things when you use install?
+2011-11-05T05:20:00.000Z	pnorman	Ruzu	I had weird problems on my install until I made a gparted boot drive and wiped out all my raid volumes
+2011-11-06T08:40:00.000Z	pnorman	Ruzu	You want to look at logs for what happened before you hard-restarted it. try in /var/log

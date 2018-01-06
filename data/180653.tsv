@@ -1,0 +1,4 @@
+2006-06-10T13:33:00.000Z	ormin		hi, I am having problem installing ndiswrapper in dapper. I installed ndiswrapper-source along with ndiswrapper-utils both with version number 1.8-0ubuntu2 . module-assistant created the deb package without problems. However when I try to install, dpkg exits with dependency error (ndiswrapper-utils (>= 1.8-1). What can I do?
+2006-06-10T13:34:00.000Z	bullrage	ormin	don't use the ones in the repo, compile ndiswrapper from source.
+2006-06-10T13:37:00.000Z	ormin	bullrage	do I just do dh_make && dpkg-buildpackage ?
+2006-06-10T13:40:00.000Z	bullrage	ormin	download (http://sourceforge.net/projects/ndiswrapper/) and read the INSTALL file in the tar file. Then read http://ndiswrapper.sourceforge.net/mediawiki/index.php/Installation

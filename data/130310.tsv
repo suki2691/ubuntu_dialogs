@@ -1,0 +1,4 @@
+2007-06-27T12:12:00.000Z	newtubuntu		Feisty Fawn 7.04 32bits
+2007-06-27T12:12:00.000Z	leagris	newtubuntu	using the proprietary driver manager in the System menu or installing nvidia-glx package that drag all required dependencies.
+2007-06-27T12:41:00.000Z	leagris	newtubuntu	what you could do is boot your installed ubnuto without gfx. Login on console, do a sudo dpkg-reconfigure xserver-xorg and select the nv (free nvidia gfx driver) then it will be able to load the gfx desktop. Doe a sudo /etc/init.d/gdm restart. Then while in the gfx mode again it will be easier for you to go to the restricted driver manager.
+2007-06-27T13:43:00.000Z	newtubuntu	leagris	; wols ; Jordan_U :  THANK YOU!

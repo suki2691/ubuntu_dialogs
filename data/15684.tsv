@@ -1,0 +1,4 @@
+2011-11-22T08:45:00.000Z	DeviceZer0		anyone here using brtfs? Fresh install and chose to use brtfs for / ...is it more or is it almost painfully slow? Using apt to install stuff takes SOOOOO long.
+2011-11-22T08:46:00.000Z	reisio	DeviceZer0	btrfs performs well, but unfortunately the fsck isn't quite ready yet
+2011-11-22T08:46:00.000Z	reisio	DeviceZer0	so if your filesystem becomes corrupted, you will be in for some waiting
+2011-11-22T08:47:00.000Z	DeviceZer0	reisio	ah. Well..i may just reinstall tomorrow with ext4 then. I thought I'd give brtfs a shot since it seems to be all the rage now..but this is getting annoying. Install a few dependencies for compiling xbmc has taken around 30-35 mins so far...like 15 seconds to dl the debs and now its SLOWLY installing them all.

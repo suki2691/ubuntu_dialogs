@@ -1,0 +1,4 @@
+2007-10-05T07:41:00.000Z	Jumbalia		How do I know if I have the most updated NVIDIA drivers? I installed the ones that were in the restricted driver manager
+2007-10-05T07:42:00.000Z	Jumbalia		also, how do I get more resolutions? I only have a max of 1024x768, but I have widescreen monitor
+2007-10-05T07:43:00.000Z	scguy318	Jumbalia	backup xorg.conf, then do gksudo gedit /etc/X11/xorg.conf, find the horiz/vert sections, edit to your monitor's specs
+2007-10-05T07:43:00.000Z	scguy318	Jumbalia	if you didn't, you would get some nice updates

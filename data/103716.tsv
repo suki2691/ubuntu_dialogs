@@ -1,0 +1,4 @@
+2010-06-06T01:06:00.000Z	hyperhacker		hey, anyone know how many chickens I need to sacrifice to get nVidia drivers working in 10.04? I'm getting "no drivers available" error from X
+2010-06-06T01:07:00.000Z	ActionParsnip	hyperhacker	i use the nvidia vdpau ppa then install nvidia-glx-185
+2010-06-06T01:07:00.000Z	ActionParsnip	hyperhacker	you may need: sudo nvidia-xconfig
+2010-06-06T01:08:00.000Z	ActionParsnip	hyperhacker	did the dkms run? you can try: sudo apt-get --reinstall dkms     may help

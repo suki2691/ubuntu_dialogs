@@ -1,0 +1,4 @@
+2009-12-15T00:14:00.000Z	Subby		is there an easy way, to go over ssh and start a programm (e.g. mplayer) so that it shows up on a logged in xsession of he host?
+2009-12-15T00:15:00.000Z	Emanon	Subby	might consider su'ing in as the user and starting the program then
+2009-12-15T00:15:00.000Z	Emanon		that might start it in their session
+2009-12-15T00:18:00.000Z	Subby	Emanon	I'am the same user on that host, but if i start something that needs x: display cannot be open

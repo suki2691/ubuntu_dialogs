@@ -1,0 +1,4 @@
+2007-12-05T06:49:00.000Z	richee		how do I set the value of date in a enviroment variable?
+2007-12-05T06:49:00.000Z	richee		can anyone suggest me something ?
+2007-12-05T06:50:00.000Z	kelsin	richee	"VAR=value", to make it available out of the script you have to "export VAR" after or "export VAR=value"
+2007-12-05T06:50:00.000Z	kelsin	richee	"export DATE=`date`"

@@ -1,0 +1,4 @@
+2010-03-20T03:48:00.000Z	Typos_King	saurion	  ctrl-x   boots from a line, but doesn't save it, if you want it saved I'd usually do it at /boot/grub/grub.cfg   though it many here will say use /etc/defaults/grub    since whenever, I don't see it on my end, it can get changed by some process running update-grub and use that template to override grub.cfg
+2010-03-20T03:49:00.000Z	saurion	Typos_King	but is it possible to add quiet splash there and boot normally?
+2010-03-20T03:50:00.000Z	Typos_King	saurion	 sure, I do that :)
+2010-03-20T03:50:00.000Z	Typos_King	saurion	  I do it on grub.cfg and then back it up, if it gets overwritten, I can either put it back or recall my changes :)

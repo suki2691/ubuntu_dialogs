@@ -1,0 +1,4 @@
+2012-11-09T17:02:00.000Z	_cronus_	savio	it's the port mapper
+2012-11-09T17:10:00.000Z	savio	_cronus_	thanks
+2012-11-09T17:24:00.000Z	_cronus_	savio	if i remember correctly servers register with rpc bind with the address they are listening and then when a client wants to communicate with the server, it asks rpcbind for its address
+2012-11-09T17:25:00.000Z	_cronus_	savio	so servers don't have to listen to well know ports

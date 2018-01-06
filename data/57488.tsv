@@ -1,0 +1,4 @@
+2009-05-22T20:53:00.000Z	flintwingel	oshua86	it may be because the server is doing reverse dns - try adding "UseDNS no" to the sshd_config file on the server & restart sshd
+2009-05-22T20:56:00.000Z	oshua86	flintwingel	that did it, its fast now. Do you think there is a security risk in not using reverse DNS?
+2009-05-22T20:58:00.000Z	flintwingel	oshua86	I can't think of any risks - if anything its probably safer - you can spoof DNS requests, its harder to spoof IP addresses
+2009-05-22T20:58:00.000Z	oshua86	flintwingel	ok, thank you so much

@@ -1,0 +1,4 @@
+2011-05-24T23:45:00.000Z	tjsoda141_		if I need to add a boot option . . do I add it in recovery mode of the boot?
+2011-05-24T23:47:00.000Z	genii-around	tjsoda141_	If it's a boot option you want to be persistent over kernel upgrades, edit the /etc/default/grub file and do an sudo update-grub
+2011-05-24T23:48:00.000Z	tjsoda141_	genii-around	thanks
+2011-05-24T23:48:00.000Z	genii-around	tjsoda141_	You're welcome

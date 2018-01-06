@@ -1,0 +1,4 @@
+2005-03-29T08:16:00.000Z	goxy		i make intel536.ko module insert it make links to dev.modem but modem not works any sugestions
+2005-03-29T08:17:00.000Z	goxy		i make intel536.ko module insert it make links to dev.modem but modem not works any sugestions
+2005-03-29T08:18:00.000Z	thoreauputic	goxy	/dev/modem probably doesn't exist - you might need a symlink from /dev/ttyS0 or similar
+2005-03-29T08:19:00.000Z	thoreauputic	goxy	like  sudo ln -s /dev/ttyS0 /dev/modem

@@ -1,0 +1,4 @@
+2012-04-03T21:29:00.000Z	LinuxApprentice		can someone help me? i think i have the wrong firmware/drivers loaded for my b43 because a wifi network that i know is present (can connect to it on win xp) is not showing up but other ones are???/
+2012-04-03T21:30:00.000Z	ActionPa1snip	LinuxApprentice	can you give the output of: sudo lshw -C network; lsb_release -a; uname -a; dmesg | grep -i firm
+2012-04-03T21:32:00.000Z	LinuxApprentice	ActionPa1snip	http://pastie.org/3722068
+2012-04-03T21:42:00.000Z	LinuxApprentice	ActionPa1snip	any ideas?

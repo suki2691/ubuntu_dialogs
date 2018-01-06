@@ -1,0 +1,4 @@
+2006-06-04T16:05:00.000Z	stenzer		hey all... this is getting scary. looking for help. attached a new, higher-res monitor, and now i can't log in. everything looks ok until the login screen.
+2006-06-04T16:06:00.000Z	stenzer		so i put the old mon. back, no luck. hangs on login as soon as i enter username/pw
+2006-06-04T16:06:00.000Z	troy_s	stenzer	 you need to reconfigure your xorg-server
+2006-06-04T16:06:00.000Z	troy_s	stenzer	 dpkg-reconfigure xorg-server

@@ -1,0 +1,4 @@
+2008-02-06T15:14:00.000Z	Makuseru		hi, whenever i try to start VisualBoyAdvance-gtk it says "bash: visualboyadvance-gtk: command not found" but i know i have it installed because when i try to install it again i get visualboyadvance-gtk is already the newest version." what could stop this from opening?
+2008-02-06T15:15:00.000Z	popey	Makuseru	dpkg -L visualboyadvance-gtk
+2008-02-06T15:15:00.000Z	popey	Makuseru	that will tell you the names of files in that package, then look for the name of the file in the /usr/bin folder
+2008-02-06T15:15:00.000Z	Makuseru	popey	thanks

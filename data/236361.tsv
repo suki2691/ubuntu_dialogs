@@ -1,0 +1,4 @@
+2005-09-11T07:16:00.000Z	c0rrupt_		whats the dpkg command to convert tar.gz to .deb
+2005-09-11T07:17:00.000Z	nalioth	c0rrupt_	there is more to it than that
+2005-09-11T07:19:00.000Z	nalioth	c0rrupt_	you can do that, sequence, but i recommand you use "checkinstall" instead of "make install"
+2005-09-11T07:20:00.000Z	nalioth	c0rrupt_	checkinstall is available in the repos, and makes simple debs for system maintenance (not to debian standard, but enough for system maintenance)

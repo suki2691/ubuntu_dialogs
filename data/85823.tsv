@@ -1,0 +1,4 @@
+2008-07-11T22:20:00.000Z	alex_c		Just installed ubuntu 8.04 on a dell optiplex.  Install was error-free, but grub errors out with "error 5" during the reboot sequence.  Any suggestions?
+2008-07-11T22:21:00.000Z	atlef	alex_c	This error is returned when a read is attempted at a linear block address beyond the end of the BIOS translated area. This generally happens if your disk is larger than the BIOS can handle
+2008-07-11T22:23:00.000Z	alex_c	atlef	it's a 250 Gb hard drive, and a recent dell optiplex 740.
+2008-07-11T22:24:00.000Z	atlef	alex_c	ok, it was the first hit on google

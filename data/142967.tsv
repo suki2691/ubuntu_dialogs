@@ -1,0 +1,4 @@
+2007-04-25T09:03:00.000Z	denis		HI all , I have a nviea Ge force 6200 with turbo cache video card, I only seem to be able to go up to 1024*768 res. and 54hz refresh, could get much higher in windows, is there another driver, have installed the glx driver.
+2007-04-25T09:04:00.000Z	Pelo	denis	 edit the xorg.conf file to manualy add the higher rez you need,    gksu gedit /etc/X11/xorg.conf
+2007-04-25T09:10:00.000Z	Pelo	denis	 for each depths,   add the resolution you want to add and know you can ( whaever it is  like  1280 x 1024)   use the same syntax
+2007-04-25T09:11:00.000Z	denis	Pelo	ok I'll try it

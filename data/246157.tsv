@@ -1,0 +1,4 @@
+2007-06-29T16:57:00.000Z	Ayabara		Qsvn needs libapr0 to build, but that package is obsolete and replaced by libapr1. When I build I get "/usr/bin/ld: warning: libapr-0.so.0, needed by /home/anr/Desktop/tmp/trunk/build/bin/libsvnqt-qt4.so, not found (try using -rpath or -rpath-link)"
+2007-06-29T16:57:00.000Z	Ayabara		anyone know how I can work around this?
+2007-06-29T16:59:00.000Z	Ayabara		anyone know? can I install the obsolete libapr0 package on my system, or patch the sources to it looks for libapr1 instead?
+2007-06-29T16:59:00.000Z	Myrtti	Ayabara	make a symlink?

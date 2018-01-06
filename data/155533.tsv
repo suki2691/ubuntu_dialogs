@@ -1,0 +1,4 @@
+2006-12-20T07:52:00.000Z	skunkworks		hmm - my battery went dead when I running the update manager.  now I get "Only one software management tool is allowed to run at the same time"
+2006-12-20T07:53:00.000Z	arrenlex	skunkworks	rm -f /var/lib/dpkg/lock
+2006-12-20T07:53:00.000Z	arrenlex	skunkworks	sudo on that, actually
+2006-12-20T07:58:00.000Z	arrenlex	skunkworks	sudo rm /var/lib/dpkg/lock

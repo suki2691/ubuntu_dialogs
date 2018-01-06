@@ -1,0 +1,4 @@
+2005-07-09T10:36:00.000Z	cafuego	rkulagow_	if you want to run an nfsroot system, you need to not use the pxe installer, but run a local debootstrap install (install diskless) and then set up NFS and pxe.
+2005-07-09T10:37:00.000Z	cafuego	rkulagow_	The pxe installer will NOT allow you to set up a netbootable system, it's intended to boot up systems without floppy/cd and THEN to install to local harddisk.
+2005-07-09T10:38:00.000Z	rkulagow_	cafuego	thanks.
+2005-07-09T10:42:00.000Z	rkulagow_	cafuego	i'm trying to parse "run a local debootstrap install"; so, on my NFS / TFTP server (debian woody), are you saying that i need to apt-get install the diskless package?

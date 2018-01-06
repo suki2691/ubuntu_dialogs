@@ -1,0 +1,4 @@
+2007-03-11T09:19:00.000Z	kaz		how can i find out what device 'hdc' refers to?
+2007-03-11T09:21:00.000Z	xtknight	kaz	it is the third IDE disk.  HD means hard disk and the a-z after it indicates your ide disk (hda=primary,hdb=slave is channel 1, hdc=primary,hdd=slave is channel 2)
+2007-03-11T09:21:00.000Z	kaz	xtknight	is it used to refer to cd-rom drives too?
+2007-03-11T09:22:00.000Z	xtknight	kaz	yup, whatever is on the IDE channel.  SATA (serial ATA) and SCSI devices appear as /dev/sdx

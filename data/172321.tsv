@@ -1,0 +1,4 @@
+2006-08-01T11:07:00.000Z	lhds		i have just installed cannot login as root how to change root pss?
+2006-08-01T11:07:00.000Z	lhds		i know wont work
+2006-08-01T11:07:00.000Z	Albatorsk	lhds	Interactive logins for the root user is disabled by default, and unless you have a good reason to change that, don't. Use sudo instead
+2006-08-01T11:08:00.000Z	Albatorsk	lhds	To enable it, run "sudo passwd" and set a password for root

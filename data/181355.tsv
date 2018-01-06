@@ -1,0 +1,4 @@
+2006-12-20T10:31:00.000Z	ThePub		Anyone know how to change the mime association of a file?  It appears to be an issue with the underlying system and not nautilus directly.
+2006-12-20T10:31:00.000Z	bruenig	ThePub	right click, properties, change the open with
+2006-12-20T10:32:00.000Z	ThePub	bruenig	no, that is not the issue.  The issue is that *.java is mapped to text/x-csrc
+2006-12-20T10:33:00.000Z	ThePub	bruenig	What that means is that when Nautilus goes to muck around with java files it prevents anything from happening automatically (like opening them with a text editor) because the contents and the mime type do not match.

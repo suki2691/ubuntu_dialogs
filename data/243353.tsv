@@ -1,0 +1,4 @@
+2007-08-25T12:36:00.000Z	alexin		im having an error "configure: error: C compiler cannot create executable" gawk, and gcc are installed. this happens with the ./configure (so im not even able to procede with make) im actually trying to install FUSE, but this error is happening on other packages too.  is anyone familiar with this?  i'm new to ubuntu
+2007-08-25T12:37:00.000Z	narg	alexin	Have you installed build-essential?
+2007-08-25T12:38:00.000Z	narg	alexin	open a terminal and do: 'sudo apt-get install build-essential'
+2007-08-25T12:40:00.000Z	narg	alexin	compiling anything without it is annoying

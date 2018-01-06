@@ -1,0 +1,4 @@
+2010-06-04T02:22:00.000Z	jd805		Would anyone care for a virtual high five...and tell me how to unmount er delete iso folders that i can seem to gain access to?
+2010-06-04T02:22:00.000Z	j2daosh	jd805	type df, see if it is mounted
+2010-06-04T02:28:00.000Z	j2daosh	jd805	do a 'lsof | grep {filename}'
+2010-06-04T02:31:00.000Z	j2daosh	jd805	you might want to try a restart and then removing. they seem to be locked and no way to unlock them (to my knowledge)

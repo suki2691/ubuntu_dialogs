@@ -1,0 +1,4 @@
+2009-09-01T17:58:00.000Z	tigsworth		does anyone know what file /boot/grub/menu.lst is about please?
+2009-09-01T17:59:00.000Z	tigsworth		i was told to add acpi=force irqpoll to that file to help with mouse problems, does that sound about right?
+2009-09-01T18:00:00.000Z	Dr_Willis	tigsworth	 grub is VERy well documented :) you need to change one  line in that file then rerun 'sudo update-grub' if you want that option for all your kernels.
+2009-09-01T18:00:00.000Z	Dr_Willis	tigsworth	 what Radtoo  suggests is good for a 'test' befor you edit the file to make it permenet.

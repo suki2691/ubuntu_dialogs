@@ -1,0 +1,4 @@
+2009-05-09T18:32:00.000Z	Dday		I have installed Ubuntu inside windows (wubi) which allows me to access all the data on the windows drive. Songbird allows me to import this media and it will play fine, but if i restart or shutdown the computer. When i turn it back on Songbird says it cannot access the media
+2009-05-09T18:33:00.000Z	ziroday	Dday	you probably have to automount the windows drive
+2009-05-09T18:37:00.000Z	ziroday	Dday	yes, you need to add it to /etc/fstab
+2009-05-09T18:40:00.000Z	Dday	ziroday	i want to mount /media/disk/Music

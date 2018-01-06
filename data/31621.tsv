@@ -1,0 +1,4 @@
+2010-05-20T01:43:00.000Z	SARO		hey i finally managed to make my wlan card work with an ndiswrapper and a windows driver, now i have to run "sudo modprobe ndiswrapper" everytime before it works, where could i put that so that it happens on every startup?!
+2010-05-20T01:43:00.000Z	SARO		cool thx trism
+2010-05-20T01:43:00.000Z	anodesni	SARO	I know of a file /etc/rc.local where you can put commands that are tun on boot
+2010-05-20T01:44:00.000Z	SARO	anodesni	ok thanks i think /etc/modules sounds good

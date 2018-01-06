@@ -1,0 +1,4 @@
+2007-05-10T16:40:00.000Z	Juan		how do i check the dsl status - time connected?
+2007-05-10T16:41:00.000Z	dyrne	Juan	ps aux might tell you for the process
+2007-05-10T16:42:00.000Z	Juan	dyrne	i want to know how long has the dsl connection been active
+2007-05-10T16:44:00.000Z	dyrne	Juan	dunno maybe something in /var/log .. maybe cat /var/log/wvdialconf.log or something

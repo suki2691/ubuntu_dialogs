@@ -1,0 +1,4 @@
+2007-03-07T12:57:00.000Z	Geoffrey2		when I download a tarball that has the necesarry files for a make and make install....is there an application in Ubuntu that can pull all that together into a deb that synaptic will recognize?
+2007-03-07T12:58:00.000Z	SilentDis	Geoffrey2	I've yet to see a tool that converts .tar.gz > .deb.  the process is a bit more complex than that (dependancy info and all)
+2007-03-07T13:00:00.000Z	Geoffrey2	SilentDis	wouldn't downloading the source from Mozilla work?
+2007-03-07T13:01:00.000Z	SilentDis	Geoffrey2	yes and no.  wouldn't 'overwrite' the package already installed.  he'd end up basically uninstalling the firefox package in apt, then manually installing the newest version, and be on his own for support/upgrades/integration/etc

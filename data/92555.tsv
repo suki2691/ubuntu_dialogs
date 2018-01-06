@@ -1,0 +1,4 @@
+2012-05-16T17:05:00.000Z	trond-		probably a faq on this: Is there a way to stop network-manager to overwrite resolv.conf, or to set the values that I want in some config-file. Ubuntu 10.04.
+2012-05-16T17:05:00.000Z	llutz	trond-	edit your nm-connection and set dns there
+2012-05-16T17:06:00.000Z	trond-	llutz	except that it then also get some other dns servers and domain-search parameters. I can't see where those are coming from though.
+2012-05-16T17:07:00.000Z	llutz	trond-	check /etc/resolvconf/resolv.conf.d/*  and maybe your dhclient.conf

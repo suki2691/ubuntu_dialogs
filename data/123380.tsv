@@ -1,0 +1,4 @@
+2010-10-22T13:19:00.000Z	SadHero		umm when i log into ssh through putty and log out my IP gets added to the hosts.deny list in my server.. any idea?
+2010-10-22T13:19:00.000Z	llutz	SadHero	you have denyhosts running, check its config
+2010-10-22T13:20:00.000Z	SadHero	llutz	where can i check its config?
+2010-10-22T13:21:00.000Z	llutz	SadHero	/etc/denyhosts.conf

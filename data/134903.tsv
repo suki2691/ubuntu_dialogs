@@ -1,0 +1,4 @@
+2010-05-28T17:41:00.000Z	allquixotic		Hi -- my Mac Mini 3,1 gets stuck trying to boot kernel 2.6.32-22. I tried generic and preempt flavors; I tried passing `noapic' and `noacpi' (separately and together); I took a picture of the screen when disabling the splash screen. It hangs very early in the kernel. This is vanilla Lucid + post-install update-manager, no proprietary drivers. http://tiyukquellmalz.org/ubuntu_hang.jpg
+2010-05-28T17:42:00.000Z	simplexio	allquixotic	did you allready tried remove "quiet" option in grub boo options, t would help to see where problem is
+2010-05-28T17:43:00.000Z	allquixotic	simplexio	If you even read my post you'd see that I posted a screenshot with that removed.
+2010-05-28T17:44:00.000Z	simplexio	allquixotic	seems to hang when enabling second core. i have seen that bug before

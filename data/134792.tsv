@@ -1,0 +1,4 @@
+2008-01-02T08:57:00.000Z	ponty		i'm trying tunnel vncviewer through ssh and need some help at the command line
+2008-01-02T08:58:00.000Z	dings	ponty	ssh -D 8080 and tsocks?
+2008-01-02T08:59:00.000Z	dings	ponty	or just -X is I missunderstood what you where saying :)
+2008-01-02T09:00:00.000Z	ponty	dings	ssh -L 5900:remoteserver:5900 user@remoteserver

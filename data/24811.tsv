@@ -1,0 +1,4 @@
+2010-10-13T07:50:00.000Z	jjman6_		I have partition that claims its full (i did a du -h ) but there should be nearly 15Gb free. Trash is empty. i can't figure out why its full reporting its full but its not. It is also being shared via NFS & i was deleting/copying files remotely i think it has to do with this...
+2010-10-13T07:51:00.000Z	KB1JWQ	jjman6_	Stale file handles, if you deleted something that's a process is hoding open.
+2010-10-13T07:52:00.000Z	jjman6_	KB1JWQ	how can i clear that out!
+2010-10-13T07:52:00.000Z	KB1JWQ	jjman6_	Figure out what's being held open via LSOF? :-)

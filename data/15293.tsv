@@ -1,0 +1,4 @@
+2012-10-06T21:30:00.000Z	ramprasadgk		my grub loader is not recognizing  windows xp installed
+2012-10-06T21:30:00.000Z	escott	ramprasadgk	does os-prober see windows?
+2012-10-06T21:32:00.000Z	escott	ramprasadgk	"sudo os-prober" will list the other windows os'es it finds. if it lists windows there but not in the boot menu run "sudo update-grub"
+2012-10-07T08:41:00.000Z	escott	ramprasadgk	it runs scripts in /etc/grub.d

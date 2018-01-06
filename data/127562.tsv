@@ -1,0 +1,4 @@
+2007-09-06T15:50:00.000Z	logan_		My prefered resolution isn't one of the options, how do I add it?
+2007-09-06T15:50:00.000Z	Creed	logan_	either manually edit xorg.con or reconfigure X to enable extra resolutions.
+2007-09-06T15:51:00.000Z	Creed	logan_	sudo dpkg-reconfigure xserver-xorg I believe
+2007-09-06T15:54:00.000Z	Creed	logan_	it would be easier to reconfigure X as messing with xorg.conf is a last resort.

@@ -1,0 +1,4 @@
+2008-08-04T20:19:00.000Z	percyraw		Hi!  I installed gparted and I would like to get a new 100 GB partition from my ext3 partition, but the options are off... how can I do it?
+2008-08-04T20:20:00.000Z	fde	percyraw	gksudo gparted
+2008-08-04T20:20:00.000Z	fde	percyraw	I'd advice using it in the Ubuntu Live CD though... uhhh as soundray points out
+2008-08-04T20:20:00.000Z	fde	percyraw	it is dangerous to change partition tables while the file system is mounted.

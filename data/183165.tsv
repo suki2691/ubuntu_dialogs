@@ -1,0 +1,4 @@
+2007-10-29T04:48:00.000Z	shekhar		hello can someone tell me the correct chmod number to take ownership of /home after a new install (migrated my home directory)?
+2007-10-29T04:49:00.000Z	Pelo	shekhar	 I think you want chown for ownership,  man chown for details, I'm not familiar with it
+2007-10-29T04:49:00.000Z	shekhar	Pelo	 i need to chown but also chmod...
+2007-10-29T04:50:00.000Z	Pelo	shekhar	 chmod 777 will give you complete and ablosute acess for everyone

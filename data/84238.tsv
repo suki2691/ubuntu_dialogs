@@ -1,0 +1,4 @@
+2011-03-23T02:33:00.000Z	bstarek		hello guys, i am trying to kill a connection on my localhost established on port 55553, how can i do that??
+2011-03-23T02:34:00.000Z	bstarek		i have tried tcpkill but didnt do the job
+2011-03-23T02:35:00.000Z	bstarek		anyone on how to close a tcp connection on specific port??
+2011-03-23T02:37:00.000Z	raido	bstarek	you could add an ipfilter rule to block all TCP on that port, but localhost connectiosn are usually inter process working on you system and you would likely cuse something to stop working by stoppinp the connections.

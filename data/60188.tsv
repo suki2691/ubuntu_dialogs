@@ -1,0 +1,4 @@
+2011-02-08T01:43:00.000Z	genii-around	Kingsy	You may want also: sudo smbpasswd -e name                     to enable that account after creating a password for it
+2011-10-15T00:17:00.000Z	genii-around	Kingsy	You probably shouldn't be manually deleting anything in there. Remove obsolete kernels through the package manager and it will automatically clean that directory out
+2011-10-15T00:17:00.000Z	Kingsy	genii-around	you can do that through the package manager? how?
+2011-10-15T00:20:00.000Z	genii-around	Kingsy	If you see in boot for instance an old kernel version with a file like: vmlinuz-2.6.22-2-generic   then remove the package linux-image-2.6.22-2-generic, possibly also linux-headers-2.6.22-2-generic

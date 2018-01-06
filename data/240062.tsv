@@ -1,0 +1,4 @@
+2005-04-30T07:58:00.000Z	chase		i need to remove it from a run level
+2005-04-30T08:00:00.000Z	chase		it wouldnt stop X from starting everytime i restart
+2005-04-30T08:01:00.000Z	chase		i jsut removed it from all startip files sudo update-rc.d -f xorg-common remove
+2005-04-30T08:02:00.000Z	nickrud	chase	what your looking for is updat-rc.d gdm

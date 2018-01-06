@@ -1,0 +1,4 @@
+2009-11-12T12:36:00.000Z	indus	krackpot	yes follow what DasEi says, or go to aystem>admin>system logs> kern.log
+2009-11-12T12:38:00.000Z	krackpot	indus	I've poured over the logs for a while. At first I thought it was pulseaudio, because the log files around the time of crashes was ending with numerous pulse errors. Now, there are no pulse errors, but it still panics
+2009-11-12T12:38:00.000Z	indus	krackpot	hm\
+2009-11-12T12:40:00.000Z	krackpot	indus	I posted a reply under this: https://bugs.launchpad.net/ubuntu/+bug/479296 , and followed the instructions to install "linux-backports-modules-alsa-karmic-generic". The errors in the launchpad were pretty much exactly what my logs were saying 3 days ago

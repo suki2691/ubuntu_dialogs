@@ -1,0 +1,4 @@
+2011-06-12T04:20:00.000Z	Goliath		hey
+2011-06-12T04:21:00.000Z	Goliath		if i get a 64bit version of ubuntu and try to run it at a 32bit processor pc, does it freeze?
+2011-06-12T04:21:00.000Z	escott	Goliath	it wont boot
+2011-08-10T18:35:00.000Z	escott	Goliath	/etc/default/grub contains options for setting video modes try those (you will need to chroot in and rerun update-grub after modifying this file)

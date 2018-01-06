@@ -1,0 +1,4 @@
+2011-04-08T18:03:00.000Z	hsuh		i'm trying to setup upstart, the service works when i do "sudo start servicename" etc, but doesnt get started on reboot.. any ideas?
+2011-04-08T18:04:00.000Z	ActionParsnip	hsuh	could call it in /etc/rc.local
+2011-04-08T18:08:00.000Z	ActionParsnip	hsuh	/etc/rc.local is ran just before the login screen. If you add commands in there it will be executed (add them ABOVE the exit 0 line)
+2011-04-08T18:08:00.000Z	hsuh	ActionParsnip	i'm using upstart, thats what i wanted to get working :)

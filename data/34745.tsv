@@ -1,0 +1,4 @@
+2010-04-23T14:59:00.000Z	abdul		i am having a directory named "example" in that i am having lots of files and other directories,i want to copy all files except few to other destination.can you help me with the command
+2010-04-23T15:01:00.000Z	moetunes	abdul	I would use a for loop in bash for that
+2010-04-23T15:02:00.000Z	abdul	moetunes	can u make it clear
+2010-04-23T15:04:00.000Z	moetunes	abdul	for f in `ls /example | grep -v first-file-not-wanted | grep -v second-file-not-wanted`; do [ -f $f ] && cp -v $f /path/to/move/to; done

@@ -1,0 +1,4 @@
+2012-09-21T13:21:00.000Z	patc		I don't understand is the way the updates are applied. As I understand your answer, for updates requiring reboot, the update is a totally new version of the lib that is replaced. Right? The updates don't somehow "patch" older files, so if 3 updates of the same lib are applied, the pacakge is simply replaced completely with every newer version? Correct? So in my example, the 2 first updates just get "smashed out" by the 3rd at the reboot, yes?
+2012-09-21T13:23:00.000Z	minixvbox	patc	updates don't neccesarily stack, just the latest would be required
+2012-09-21T13:25:00.000Z	patc	minixvbox	yes, but in the eventuality that one or more updates are already "pending" (applied, but requiring reboot). What happens when a newer get applied, that also asks for reboot? Sorry if my question is maybe difficult to understand...
+2012-09-21T13:26:00.000Z	minixvbox	patc	ah, i see, i'd assume it would simply replace the previous one

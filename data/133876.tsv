@@ -1,0 +1,4 @@
+2007-05-17T13:38:00.000Z	netjitsu		heres my situation: I have been testing out Ubuntu on an old box with a very small hard drive (4 gigs) after adding alot of the utilities I commonly use it became apparent I would need more space, so I tossed in another small drive (3 gigs). I figured I would just copy my /usr partition to the new drive, make an fstab entry and thats it..
+2007-05-17T13:39:00.000Z	Flannel	netjitsu	yep.  Well, partition the new drive ext3, then copy the files, then fstab.  But yeah
+2007-05-17T13:39:00.000Z	netjitsu		unfortunately this doesnt seem to be working, even after setting up my /etc/fstab with the asnine UUID format
+2007-05-17T13:39:00.000Z	netjitsu	Flannel	been there done that

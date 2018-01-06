@@ -1,0 +1,4 @@
+2007-10-07T13:59:00.000Z	abelabel		is there a way to change permissions of a folder that is owned by root without using the terminal?
+2007-10-07T13:59:00.000Z	Flannel	abelabel	`gksu nautilus` will get you a root nautilus window.  Close it as soon as you're finished, and be extremely careful.
+2007-10-07T14:00:00.000Z	abelabel	Flannel	thanks; in that case I think I might as well use the terminal
+2007-10-07T14:01:00.000Z	Flannel	abelabel	You just shouldn't keep it open, andneed to be careful that you don't accidentally drag stuff places.  Simple mistakes like those are more common in a GUI (because chmod is hard to type as mv)

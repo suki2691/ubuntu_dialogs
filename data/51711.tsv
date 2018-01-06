@@ -1,0 +1,4 @@
+2011-01-17T05:57:00.000Z	Nexxus		if i put a program in /etc/init.d/ will it run every time i execute the programs name in a shell?
+2011-01-17T05:58:00.000Z	yeats	Nexxus	it will execute every time the computer starts
+2011-01-17T06:00:00.000Z	Nexxus	yeats	where do i put my program if i just want to be able to run it like program_name in a shell instead of having to navigate to a directory and ./program_name
+2011-01-17T06:00:00.000Z	yeats	Nexxus	in your $PATH - you can create a directory in your /home called 'bin' and put the program there

@@ -1,0 +1,4 @@
+2009-03-01T01:54:00.000Z	wizard23		how do i role back a kernel-image?
+2009-03-01T01:54:00.000Z	wizard23		the newest kernel has a bug apparently with my soundcard and i want to use the older generic image
+2009-03-01T01:55:00.000Z	redvamp128	wizard23	 if you haven't removed them = you sudo gedit /boot/grub/menu.lst and comment out the lines the of the non working kernel
+2009-03-01T01:56:00.000Z	redvamp128	wizard23	 also you may want to coment out the recovery for that kernel as well

@@ -1,0 +1,4 @@
+2009-09-11T09:13:00.000Z	scoates		hi
+2009-09-11T09:13:00.000Z	scoates		for whatever reason, when I connect to 127.0.0.1, it's not connecting FROM 127.0.0.1 but from my default public IP. Can someone point me in the right direction to fix this?
+2009-09-11T09:14:00.000Z	biovore	scoates	127.0.0.1 is you local machine local loopback adapter.. thats what it should do..
+2009-09-11T09:15:00.000Z	scoates	biovore	before I did whatever I did today, when I connected to 127.0.0.1, the connections would come from 127.0.0.1, not 64.x.y.z

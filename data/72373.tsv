@@ -1,0 +1,4 @@
+2008-12-01T23:57:00.000Z	nothing12345		Offtopic:  Does anyone knows,how a HTTP Download works?
+2008-12-01T23:57:00.000Z	nothing12345		no
+2008-12-01T23:58:00.000Z	funkycoder	nothing12345	you can try using telnet, it's easy...
+2008-12-02T00:01:00.000Z	funkycoder	nothing12345	well they communicate via a TCP stream. the client opens it, your apache holds the other end, the client sends its request, the server answers etc, and the TCP stack makes IP packets of it that get send.

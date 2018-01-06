@@ -1,0 +1,4 @@
+2009-05-29T13:41:00.000Z	Elive_user33_en		Hi All.. I have a Active Directory ( Win 2003 ) and a NIS server (Ubuntu ) is there a way where I can synchronize Windows AD password with NIS.. so that user needs to have only one password..Rather than two different passwords?
+2009-05-29T13:43:00.000Z	Elive_user33_en		n0u, Looks like.. apache2.1 is already using the ports ( 80/443 ..etc ).. second one fails because of that.. Whats the error message you are getting
+2009-05-29T13:43:00.000Z	n0yd	Elive_user33_en	no error. and the 2.1 one isnt starting a boot anyway
+2009-05-29T13:45:00.000Z	Elive_user33_en	n0yd	update-rc.d apache2 remove and update-rc.d apache-2.1 defaults

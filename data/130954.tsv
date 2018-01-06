@@ -1,0 +1,4 @@
+2008-03-17T00:51:00.000Z	stroyan	n9nu	 You diagram looks like one PC connected to another rather than both connected to a hub.
+2008-03-17T00:52:00.000Z	stroyan	n9nu	 Did you set the static IP in the same way on both PCs?  Can one ping the other?
+2008-03-17T00:55:00.000Z	stroyan	n9nu	 I would be suspicious that the hub is really more complicated and preventing access to the 208.71.147.195 address.  Are you sure you have a simple hub there?
+2008-03-17T01:04:00.000Z	stroyan	n9nu	 Can you configure the first system as 208.71.147.195 and the non-working system as 208.71.147.194 and see that which works through the hub?  That would confirm that the problem is with an address or with one system's configuration.

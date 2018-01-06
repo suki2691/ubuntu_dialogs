@@ -1,0 +1,4 @@
+2008-03-08T01:27:00.000Z	BillyJoe		how do I list the partitions not at /dev/hda1 but as (hd1,0)
+2008-03-08T01:29:00.000Z	BillyJoe		What command would I use to list the hd's as (hd0,1) instead of /dev/hda2?
+2008-03-08T01:30:00.000Z	Flannel	BillyJoe	You don't.  Just subtract 1 from each
+2008-03-08T01:30:00.000Z	Flannel	BillyJoe	(convert a,b,c,etc to 1,2,3,4) then subtract 1, since GRUB uses 0 instead of 1 as a base

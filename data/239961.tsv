@@ -1,0 +1,4 @@
+2008-01-01T11:30:00.000Z	wam_		I figured I'd upgrade to Gutsy tonight, and have run into issues... X isn't coming up. Failing on load of module Type1. On a feisty system, I see that libtype1.so is provided by xserver-xorg-core, but it doesn't seem to be in that package on Gutsy. Any suggestions?
+2008-01-01T11:31:00.000Z	nickrud	wam_	try running sudo apt-get -f install && apt-get dist-upgrade   , sounds like your upgrade didn't complete
+2008-01-01T11:32:00.000Z	nickrud	wam_	sudo on the second command also, of course ;0
+2008-01-01T11:33:00.000Z	nickrud	wam_	if cabrioleur 's works, it would be faster. And don't forget the apt-get -f install

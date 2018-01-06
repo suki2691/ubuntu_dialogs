@@ -1,0 +1,4 @@
+2007-09-06T07:33:00.000Z	RickH		I have a situation.  One PC upgraded the kernel from 2.6.20-16.29 to 2.6.20-16.31.  It broke the sound card.  2.6.20-15.27 still works, but 16.31 does not.  I have another PC with 16.29 image and headers.  How can I get them from other PC to broken one?
+2007-09-06T07:33:00.000Z	RickH		What folders and/or files need to be copied over?
+2007-09-06T07:34:00.000Z	Gnea	RickH	look for the .deb files in /var/cache/apt/archives/
+2007-09-06T07:34:00.000Z	RickH	Gnea	 Thanks.

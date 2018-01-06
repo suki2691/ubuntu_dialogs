@@ -1,0 +1,4 @@
+2011-01-23T23:14:00.000Z	tISL		Hey there, I'm running latest Ubuntu version on my netbook. However, I need to acces 'Software Sources', how can I get there?
+2011-01-23T23:15:00.000Z	coz_	tISL	  gksu --desktop /usr/share/applications/software-properties-gtk.desktop /usr/bin/software-properties-gtk
+2011-01-23T23:15:00.000Z	coz_	tISL	 thats the long way :)
+2011-01-23T23:16:00.000Z	coz_	tISL	  actually  gksudo   /usr/bin/software-properties-gtk

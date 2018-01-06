@@ -1,0 +1,4 @@
+2006-07-16T10:49:00.000Z	scabootssca		how do i add my windows harddrive to grub? i've seen the wiki posting cause when i try to change the path to it hdb dosnt work does anyone know why?
+2006-07-16T10:50:00.000Z	Warbo	scabootssca	GRUB uses a different system for labelling harddrives. It calls them (hd0,0) (hd0,1) (hd1,0) like that
+2006-07-16T10:53:00.000Z	Warbo	scabootssca	Probably (hd1,0)
+2006-07-16T11:08:00.000Z	Warbo	scabootssca	In Ubuntu do this "gksudo gedit /boot/grub/menu.lst"

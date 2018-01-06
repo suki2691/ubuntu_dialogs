@@ -1,0 +1,4 @@
+2012-05-20T21:44:00.000Z	master0010		im trying to change the JAVA_HOME variable to java7oracle but its always on java6 :S
+2012-05-20T21:44:00.000Z	master0010		can some one help me?
+2012-05-20T21:45:00.000Z	theadmin	master0010	sudo update-alternatives --set java /path/to/java7/
+2012-05-20T21:45:00.000Z	theadmin	master0010	Or something along the lines. Not sure if it's "java" or "jre" or even "jvm", though

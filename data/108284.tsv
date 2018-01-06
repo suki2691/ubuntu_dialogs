@@ -1,0 +1,4 @@
+2007-12-27T18:29:00.000Z	bryan		i think i found fix to my problem ... (in ubuntu forums i found i should press f6 on the start and add this line : "noapic nolapic pci=noacpi acpi=off" but should i add it in the start of the line or at the end ?
+2007-12-27T18:30:00.000Z	uzerzero_	bryan	add this line to the end of the boot options. if on a permanent install, you'll have to edit the grub menu listing
+2007-12-27T18:35:00.000Z	uzerzero_	bryan	try using less of the options. try booting it with "noapic acpi=off pnpbios=off --" and make sure you include those last two dashes at the end, if that doesn't work try removing each option from the end
+2007-12-27T18:38:00.000Z	uzerzero_	bryan	remove the last two dashes at the end of the line, add the commands followed by -- then hit enter

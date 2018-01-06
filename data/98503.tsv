@@ -1,0 +1,4 @@
+2008-03-04T01:17:00.000Z	boggystudios		I am trying to create an alias for the sshfs command but don't know how to handle the "@" symbol in the username of my ftp account.  How do I deal with this?
+2008-03-04T01:19:00.000Z	willm_	boggystudios	just alias somecommand="sshfs user@host:/dir /dir" ?
+2008-03-04T01:20:00.000Z	boggystudios	willm_	gizbot: my username has a @ in it so it thinks that when it gets to that symbol the host name begins
+2008-03-04T01:25:00.000Z	willm_	boggystudios	second I'm trying something...

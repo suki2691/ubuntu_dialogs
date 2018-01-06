@@ -1,0 +1,4 @@
+2012-06-11T07:21:00.000Z	upgrayeddd		Hi, I have two a partition for /home at /dev/sda3 and the rest of my system at /dev/sda1. I want to format /dev/sda1 and overwrite it from Ubuntu 10.04 to 12.04. I am currently in a live session of Ubuntu 12.04 from a USB flashdrive. What should I select for "Device for boot loader installation" ? /dev/sda? /dev/sda1? Should I select "Format" for /dev/sda1, and where should I select a mount point?
+2012-06-11T07:22:00.000Z	sacarlson	upgrayeddd	/dev/sda
+2012-06-11T07:24:00.000Z	sacarlson	upgrayeddd	the mount point for root should be /dev/sda1   and for home I guess /dev/sda3,  select not to format /dev/sda3
+2012-06-11T07:25:00.000Z	sacarlson	upgrayeddd	might want to sybolic link the /dev/sda3 for your home after you install, that way if one disk is removed it will still boot

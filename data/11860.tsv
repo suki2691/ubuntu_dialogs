@@ -1,0 +1,4 @@
+2011-07-17T20:46:00.000Z	szrfph		I'm running Ubuntu 10.4 LTS with a Realtek RTL8111/8168B PCI Network card using the r8169 kernel driver. I hibernated the system, rebooted into windows and then went back to ubuntu, but it failed to come out of hibernation, instead just booting up from scratch. Since then I can't get access to the 'net. Anyone know what's happening?
+2011-07-17T20:47:00.000Z	ActionParsnip	szrfph	you may need to rmmod r8169   then modprobe r8169
+2011-07-17T20:47:00.000Z	ActionParsnip		!eol | rugnur
+2011-07-17T20:49:00.000Z	szrfph	ActionParsnip	rmmodding and then modprobe the driver doesn't work, as in, there's no change.

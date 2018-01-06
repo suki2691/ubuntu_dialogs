@@ -1,0 +1,4 @@
+2009-04-25T22:24:00.000Z	attila_		how do I find out, which graphics driver is used? (jaunty)
+2009-04-25T22:25:00.000Z	crdlb	attila_	'glxinfo | grep renderer' will give a hint
+2009-04-25T22:27:00.000Z	attila_	crdlb	"OpenGL renderer string: Mesa DRI R300 20060815 AGP 8x TCL". Cant see the driver in this string :)
+2009-04-25T22:27:00.000Z	crdlb	attila_	you're using the radeon driver

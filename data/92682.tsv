@@ -1,0 +1,4 @@
+2008-11-17T23:51:00.000Z	blcknight		So, in 8.10, there's no sun-java6-plugin package? i can't seem to get java workign in firefox
+2008-11-17T23:52:00.000Z	blcknight		E: Package sun-java6-plugin has no installation candidate
+2008-11-17T23:53:00.000Z	fde	blcknight	sun-java6-plugin is in intrepid... could be your mirror doesn't want to ship it due to licensing issues or something though?
+2008-11-17T23:53:00.000Z	fde	blcknight	also, make sure you don't have openjdk around, it'll conflict (see in 'about:plugins' in firefox to see what it sees)

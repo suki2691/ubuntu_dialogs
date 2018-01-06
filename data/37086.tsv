@@ -1,0 +1,4 @@
+2010-02-18T23:53:00.000Z	mgaffney		hey, I'm running ubuntu server in a vm. I added a network adapter. How do I make ubuntu discover and use it?
+2010-02-18T23:54:00.000Z	nibbler	mgaffney	find it with ifconfig -a and configure it via /etc/network/interfaces
+2010-02-18T23:56:00.000Z	mgaffney	nibbler	how do I bring that interface up now that I've configure it?
+2010-02-18T23:57:00.000Z	mgaffney	nibbler	nm, ifup eth1

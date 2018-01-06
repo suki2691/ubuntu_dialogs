@@ -1,0 +1,4 @@
+2009-09-04T21:38:00.000Z	Terabyte		hi
+2009-09-04T21:39:00.000Z	Terabyte		Hi, i have a single 2tb hard drive partitioned with (swap space) + 20gb ext3, the remaining space is ntfs. ntfs is empty no files, but i need to extend ext3 by 40gb. is that possible from linux?
+2009-09-04T21:40:00.000Z	Terabyte		essentially i want to grow the ext3 by 20gb, and shrink the ntfs by 20gb
+2009-09-04T21:40:00.000Z	grawity	Terabyte	You'll need to boot from Ubuntu LiveCD, and use gparted to do that.

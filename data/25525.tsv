@@ -1,0 +1,4 @@
+2010-11-06T01:26:00.000Z	x0rs		When I installed ubuntu on my machine, I only used 65% of my hard-drive with main and swap partitions. Today I used gparted to partition the rest of the drive, but it doesn't appear mounted. How can I mount that new partition permanently?
+2010-11-06T01:26:00.000Z	bzrk	x0rs	put it in fstab
+2010-11-06T01:26:00.000Z	x0rs	bzrk	prakriti, Jordan_U: thanks
+2010-11-06T01:31:00.000Z	x0rs	bzrk	prakriti, Jordan_U: thanks again, made the edit and issued: sudo mount -a, and now it is working

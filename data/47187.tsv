@@ -1,0 +1,4 @@
+2011-10-09T11:05:00.000Z	RobbieCrash		should this work as a cron job, it's in the crontab for root? "@reboot sleep 60; zfs mount ZFS"
+2011-10-09T11:05:00.000Z	llutz_	RobbieCrash	cron-syntax sound right, so if your zfs.. works it should. you should consider using full pathes in cronjobs
+2011-10-09T11:06:00.000Z	RobbieCrash	llutz	so do @reboot sleep 60; /sbin/zfs mount ZFS?
+2011-10-09T11:07:00.000Z	llutz_	RobbieCrash	to be on the safe side, yes. cron runs in a limited environment, so you have to make sure binaries were found

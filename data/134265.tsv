@@ -1,0 +1,4 @@
+2010-11-14T03:39:00.000Z	Neillithan		I'm trying to install ubuntu in a virtual box.  I have created 3 different storage drives.  I want to assign one of them to be the swap, but apparently it has been so long that I can't remember how.  I tried manually typing /swap as the mount point but the installation still complains that I haven't configured a swap drive.  What should I do?
+2010-11-14T03:40:00.000Z	Dr_Willis	Neillithan	 swap partitions dont have a mount point. the filesystem on them is swap.
+2010-11-14T03:40:00.000Z	Neillithan	Dr_Willis	o.
+2010-11-14T03:42:00.000Z	Neillithan	Dr_Willis	thank you I was able to figure it out :)

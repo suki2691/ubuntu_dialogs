@@ -1,0 +1,4 @@
+2011-10-04T02:13:00.000Z	dangertux	ruub	- under the Ubuntu you can get to, mount the partition that the other install is on (e.g:  sudo mount /dev/sda1 /mnt) then do (sudo update-grub) it should add the original one to the bootloader , make sure you change your partition as necessary for the correct installation.
+2011-10-04T02:20:00.000Z	dangertux	ruub	: make sure you know what partition your other install is on otherwise grub will not be able to detect it.  sudo fdisk -l can list your partitions if you don't know.
+2011-10-04T02:21:00.000Z	dangertux	ruub	- if you did side by side, more partitions were still created, they were just created automatically.
+2011-10-04T02:22:00.000Z	dangertux	ruub	- I am not understanding what you're asking.

@@ -1,0 +1,4 @@
+2008-04-17T10:28:00.000Z	benanzo		what makes it so when my regular user creates directories in their home those directories are owned by root and not the user that created it?
+2008-04-17T10:30:00.000Z	nickrud	benanzo	that would only make sense if the user did sudo mkdir
+2008-04-17T10:31:00.000Z	nickrud	benanzo	umask only affects what permissions are given, not owner
+2008-04-23T10:17:00.000Z	nickrud	benanzo	apt-cache policy

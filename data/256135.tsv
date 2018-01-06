@@ -1,0 +1,4 @@
+2011-09-24T21:43:00.000Z	Headcase_Fargone		These 3TB partitions seem to be showing up properly now, but I'm still unable to create files or folders on them.  Someone suggested a permissions issue, but ls -l shows root root for both, which is identical to the two drives I AM able to successfully access fully
+2011-09-24T21:44:00.000Z	Headcase_Fargone		I'm using the GUI and the options are simply greyed out
+2011-09-24T21:45:00.000Z	dr_willis	Headcase_Fargone	 what fs type are they?
+2011-09-24T21:46:00.000Z	dr_willis	Headcase_Fargone	 make a dir on the fs via sudo mkdir then sudo chown the dir to be owned by.your user and try writing to it

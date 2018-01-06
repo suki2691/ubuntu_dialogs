@@ -1,0 +1,4 @@
+2011-10-27T16:29:00.000Z	AdhamSabry		hi, I don't like the new grub gnome 3 installed for me, I can return back to ubuntu 11.10's grub loader?
+2011-10-27T16:31:00.000Z	Polah	AdhamSabry	yeah, just  reinstall GRUB without the GNOME configuration for how it looks added on
+2011-10-27T16:33:00.000Z	Polah	AdhamSabry	install-grub /device/name  will reinstall it on the device you specify, but that might not remove the GNOME style on it. Try it with just that and then run update-grub and reboot, see if it goes to the default look. If not, back up and remove your /boot/ directory then re-run install-grub /dev/name and update-grub
+2011-10-27T16:33:00.000Z	Polah	AdhamSabry	oh, my bad. That should be grub-install, not install-grub

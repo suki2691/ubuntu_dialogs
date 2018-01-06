@@ -1,0 +1,4 @@
+2008-04-01T21:40:00.000Z	wildman		hello, I want to transfer all my Ubuntu OS to another disk AND make that disk bootable, so, besides the 'copy' operation how do I make the 2nd disk bootable? (that is, how do I reinstall grub on it)
+2008-04-01T21:42:00.000Z	soundray	wildman	you will need the --root-directory option to point to the new root. man grub-install
+2008-04-01T21:42:00.000Z	wildman	soundray	ok, thx.
+2008-04-01T21:46:00.000Z	wildman	soundray	sipior: thx again! I'll try now, wish me luck ;)

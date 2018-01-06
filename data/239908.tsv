@@ -1,0 +1,4 @@
+2008-11-08T08:56:00.000Z	tca		anyone here a grub pro? the auto grub config didnt work for me (trying to boot windows on a diff hdd) and ive tried every config that makes sense with no luck
+2008-11-08T08:58:00.000Z	nickrud	tca	you probably need to map the drives back and forth: http://www.gnu.org/software/grub/manual/html_node/DOS_002fWindows.html
+2008-11-08T09:00:00.000Z	nickrud	tca	ah, well that's worked for me, but I don't have mixed sata and pata drives. If that's your case, I'm not familiar with how it's done. You might try #grub
+2008-11-08T09:01:00.000Z	nickrud	tca	try asking in the #grub channel, /j #grub (I hope I'm not insulting you with this command ;)

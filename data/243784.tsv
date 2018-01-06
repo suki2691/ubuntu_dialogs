@@ -1,0 +1,4 @@
+2005-04-13T05:12:00.000Z	n4cht		ok....  has anyone had a problem with the most recent hoary update?  apparently the upgrade on nvidia-glx messed up my xorg.  It won't load the nvidia kernel modules because it says version numbers don't match or somesuch.
+2005-04-13T05:14:00.000Z	n4cht		anyone, anyone...  bueller...  bueller...
+2005-04-13T05:14:00.000Z	delire	n4cht	you need to recompile the nvidia module (re-run the installer). this hoary upgrade is a bit of a mess where x.org is concerned
+2005-04-13T05:15:00.000Z	n4cht	delire	thanks.   i haven't actually used the installer.  i just install the nvidia-glx package and nvidia-glx-config enable, but now it's obvious that i'm going to have to actually use the installer.

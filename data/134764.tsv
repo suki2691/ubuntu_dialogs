@@ -1,0 +1,4 @@
+2010-03-26T13:28:00.000Z	MarkProffitt		obiwan, it restarted but I still have the same problem.  I can hear audio from Audacity but not from Rythmbox or anything else
+2010-03-26T13:30:00.000Z	MarkProffitt		obiwan, sound is working from hw:0,0     I think the system in general is not using that
+2010-03-26T13:30:00.000Z	obiwan_	MarkProffitt	then you need help from another guy, i'm know little about it
+2010-03-26T14:10:00.000Z	obiwan_	MarkProffitt	if nothing worked, try reinstalling alsa . sudo apt-get install --reinstall alsa-utils && sudo apt-get install --reinstall pulseaudio it won't hurt

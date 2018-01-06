@@ -1,0 +1,4 @@
+2007-04-13T16:19:00.000Z	blackest		how do i extract an archive keeping the original owner and group
+2007-04-13T16:20:00.000Z	hamlet	blackest	extract as root or (depending on the archive) use -o
+2007-04-13T16:21:00.000Z	hamlet	blackest	sorry (--same-owner)
+2007-04-13T16:22:00.000Z	hamlet	blackest	tar xvjf --same-owner --same-permissions file.tar.bz

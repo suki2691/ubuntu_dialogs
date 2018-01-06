@@ -1,0 +1,4 @@
+2007-04-09T06:43:00.000Z	hackle577		I am trying to install Legends on my Ubuntu 6.10 system, but everytime I run the .deb file it seems to take forever. Well, I clicked the "Terminal" text and it's asking me for a directory to install it to. I looked online a bit and the Legends wiki just said to hit enter here (it defaults to /usr/games/legends), so I did, but the install failed because it says it cannot access /root//usr/games/legends
+2007-04-09T06:43:00.000Z	doomster	hackle577	use dpkg -i legends.deb and complain to the authors that they should not require interaction.
+2007-04-09T06:44:00.000Z	hackle577	doomster	in terminal? (slight noob here)
+2007-04-09T06:44:00.000Z	doomster	hackle577	yes. but maybe I misunderstood you, I was assuming it was hanging there forever and that you couldn't hit enter in synaptic.

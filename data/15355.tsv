@@ -1,0 +1,4 @@
+2011-10-03T00:23:00.000Z	george__		hello guys. I'm wondering if it's possible to convert a directory into a file. It is?
+2011-10-03T00:24:00.000Z	george__		An empty directory, by the way.
+2011-10-03T00:24:00.000Z	escott	george__	remove it and "touch filename"
+2011-10-03T00:47:00.000Z	escott	george__	you can try to just fsck /dev/sdX# and hope fsck can figure out what kind of partition it is, but if its not being identified in the disk utility that probably won't work

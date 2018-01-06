@@ -1,0 +1,4 @@
+2010-02-06T22:22:00.000Z	funickser		where can i change my xorg.conf file on ubuntu karmic koala????
+2010-02-06T22:22:00.000Z	ZykoticK9	funickser	it's typically not there by default but it's located at /etc/X11/xorg.conf -- if you use nvidia "sudo nvidia-xconfig" to generate one
+2010-02-06T22:23:00.000Z	ZykoticK9	funickser	no
+2010-02-06T22:24:00.000Z	ZykoticK9	funickser	stop gdm "sudo service gdm stop" then use "sudo Xorg -configure" and it will put on the /root that you can rename/copy

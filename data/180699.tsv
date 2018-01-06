@@ -1,0 +1,4 @@
+2007-05-06T12:28:00.000Z	aleka		I just switched my webserver port from 68 to 80 and within two days I have gotten so many IIS buffer overflow attacks...which are filling my apache log with Junk.. anyone dealt with this?
+2007-05-06T12:28:00.000Z	ikonia	aleka	configure apache logging
+2007-05-06T12:29:00.000Z	aleka	ikonia	more info if you will please,  I have already put up a redirect on a mod_rewrite..
+2007-05-06T12:29:00.000Z	ikonia	aleka	there are a couple of tricks for dropping the iis attackes, I'm sure the guys in apache will know them better than me, I'd have to look them up

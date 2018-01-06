@@ -1,0 +1,4 @@
+2008-11-20T19:22:00.000Z	Chaostos		Hi, in NVIDIA X Server settings I set 1152*864....but it resets to 1024*768 like in Screen resolution settings each time I restart\boot my PC...wtf?...bug maybe..?
+2008-11-20T19:23:00.000Z	ActionParsnip1	Chaostos	yu could set it in /etc/X11/xorg.conf
+2008-11-20T19:23:00.000Z	Chaostos	ActionParsnip1	I got error trying to save the config
+2008-11-20T19:24:00.000Z	ActionParsnip1	Chaostos	you need gksudo gedit /etc/X11/xorg.conf

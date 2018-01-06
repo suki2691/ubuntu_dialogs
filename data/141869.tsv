@@ -1,0 +1,4 @@
+2008-04-13T23:10:00.000Z	goldsniper		i need help with wireless, i cannot  connect. My Intel Corporation PRO/Wireless 3945ABG Network Connection (rev 02) can detect the network but fail to connect, setting static ip also dont work.
+2008-04-13T23:10:00.000Z	goldsniper		I can connect wifi at my workp[lace and home...
+2008-04-13T23:10:00.000Z	SeveredCross	goldsniper	Open a terminal and type "tail -f /var/log/daemon.log > daemon.txt", then try to connect to the AP via NetworkManager.
+2008-04-13T23:11:00.000Z	SeveredCross	goldsniper	After you've done that and once NetworkManager fails to connect, hit Ctrl-C on the terminal and pastebin the output in daemon.txt.

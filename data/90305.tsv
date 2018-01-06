@@ -1,0 +1,4 @@
+2008-05-17T12:10:00.000Z	mogunus		Is there any solution for an empty /proc/acpi/fan? also, when I try to echo an appropriate line to trip_points (which has only two entires, one at 95C and one at 100C) I get "permission denied" error, even though I am sudo'ing the command.
+2008-05-17T12:11:00.000Z	Starnestommy	mogunus	what is the command that you're using?
+2008-05-17T12:12:00.000Z	Starnestommy	mogunus	try echo -n "xx : xx : xx : xx : xx" | sudo tee trip_points
+2008-05-17T12:38:00.000Z	mogunus	Starnestommy	hi, I tried the commands you gave me, and I get xx:xx:xx:xx:xxtee trip_points: input/output error

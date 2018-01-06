@@ -1,0 +1,4 @@
+2010-06-03T17:37:00.000Z	sander_m		Hi all. I have an aptitude question. When I run aptitude, it wants to remove a bunch of packages marked as {u}. I assume that aptitude thinks they are unused. But I want to keep them. How do I tell aptitude to stop thinking of these packages as automatically installed dependencies?
+2010-06-03T17:38:00.000Z	rocket16	sander_m	Those packages might be unused, and they only pollute it. So, better to remove them.
+2010-06-03T17:39:00.000Z	sander_m	rocket16	Those packages are not unused. I need them for my development work.
+2010-06-03T17:49:00.000Z	rocket16	sander_m	Alternatively, you can start Computer Janitor from System-Administration. There are the list will be there, (Just do not proceed to delete)

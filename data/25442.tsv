@@ -1,0 +1,4 @@
+2011-05-25T23:37:00.000Z	MagePsycho		hi guys
+2011-05-25T23:38:00.000Z	MagePsycho		can you help me in grep command to find the word 'Mager' recursively in files
+2011-05-25T23:38:00.000Z	MagePsycho		?
+2011-05-25T23:39:00.000Z	oCean	MagePsycho	if you want to search all files from you current directory, try:  find . -type f | xargs grep Mager

@@ -1,0 +1,4 @@
+2010-03-19T14:33:00.000Z	rayb0t		this might be sorta offtopic for this channel, but i recently restored a directory of backed up media from an external drive. a simple copy operation, however for a variety of small reasons i suspect the copy may not be perfect. which program could i use to generate a hash from a directory of files? md5sum seems to be confused by doing that
+2010-03-19T14:34:00.000Z	rayb0t		(or i'm doing it wrong)
+2010-03-19T14:34:00.000Z	theadmin	rayb0t	Try "md5sum /yourdirectory/*"
+2010-03-19T14:36:00.000Z	theadmin	rayb0t	Um, you forgot the star. Do "md5sum ./Music/*"

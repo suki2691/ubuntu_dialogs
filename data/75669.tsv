@@ -1,0 +1,4 @@
+2008-11-09T22:36:00.000Z	mikebeecham		hi there...someone suggested that I backup my xorg.conf file.  Should I...and why?
+2008-11-09T22:37:00.000Z	pangloss	mikebeecham	in case you bork your x, you can revert to the old xorg.conf
+2008-11-09T22:37:00.000Z	mikebeecham	pangloss	how would I go about doing that?
+2008-11-09T22:38:00.000Z	pangloss	mikebeecham	cp /etc/X11/xorg.conf /etc/X11/xorg.conf_old

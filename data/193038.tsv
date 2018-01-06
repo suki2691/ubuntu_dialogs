@@ -1,0 +1,4 @@
+2006-03-26T13:17:00.000Z	DarthLappy		I've just done a LiveCD install, and X isn't running at the right res (monitor says input not supported), where does the X config live?
+2006-03-26T13:18:00.000Z	nathanj	DarthLappy	trying running X11config?
+2006-03-26T13:18:00.000Z	DarthLappy	nathanj	Nope
+2006-03-26T13:19:00.000Z	nathanj	DarthLappy	`sudo dpkg-reconfigure xserver-xorg` will fix it

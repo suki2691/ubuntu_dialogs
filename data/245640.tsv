@@ -1,0 +1,4 @@
+2008-02-23T11:23:00.000Z	CVD-PR		how to remove a non-empty directory?
+2008-02-23T11:23:00.000Z	cwillu	CVD-PR	rm -r /dir/name
+2008-02-23T11:23:00.000Z	cwillu	CVD-PR	but be careful with that
+2008-02-23T11:24:00.000Z	cwillu	CVD-PR	or just use nautilus, although currently that won't help much if it's a system folder (in which case, be super careful with anything resembling sudo rm -r /path/to/folder)

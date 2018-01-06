@@ -1,0 +1,4 @@
+2006-06-04T10:21:00.000Z	gizmo_the_great		can anyone tell me how to list all the files on my drive in size order so I can determine where all my disk space has gone?
+2006-06-04T10:23:00.000Z	gizmo_the_great		can anyone tell me how to list all the files on my drive in size order so I can determine where all my disk space has gone? I assume I'd need to use ls in some way?
+2006-06-04T10:24:00.000Z	Frogzoo	gizmo_the_great	find / -size +100M -exec ls -l {} \;
+2006-06-04T10:29:00.000Z	gizmo_the_great	Frogzoo	thanks mate - that has worked. I've now freed up about 50Gb. tunrs out it was the content of my wastbasket from a pprevious install of Breezy.

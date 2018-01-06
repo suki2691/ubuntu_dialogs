@@ -1,0 +1,4 @@
+2006-04-07T09:24:00.000Z	Cooner750_		Ubuntu won't allow me to write to my FAT32 hard drive. It states since I'm not the owner I can't change the permissions
+2006-04-07T09:24:00.000Z	Cooner750_		hda1
+2006-04-07T09:24:00.000Z	Codename_V	Cooner750_	root could probably write to it.
+2006-04-07T09:25:00.000Z	Codename_V	Cooner750_	but if you want a normal user to be able to, youd pass umask=777 or something like that as an option when you mount it.

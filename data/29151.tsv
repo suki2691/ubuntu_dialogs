@@ -1,0 +1,4 @@
+2011-02-12T02:23:00.000Z	figure002		hello. i want to create a passwordless ssh, so i ran "ssh-keygen -t dsa", then left the passphrase blank. but now whenever i login using ssh, i still can't login without a password. did i miss somthing?
+2011-02-12T02:23:00.000Z	guntbert	figure002	use ssh-add to add that key to the ssh-agent
+2011-02-12T02:24:00.000Z	figure002	guntbert	alright, will try that
+2011-02-12T02:27:00.000Z	figure002	guntbert	when i run 'ssh-add', i get: "Could not open a connection to your authentication agent."

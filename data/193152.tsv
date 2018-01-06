@@ -1,0 +1,4 @@
+2006-07-15T14:20:00.000Z	dupondje		hi guys :) i've got a problem, i just bought me a new pc :)) and AMD AM2 with nForce 590 SLI chipset, now i have 2x320gb in RAID0 for OS, but when i try to install ubuntu, the RAID0 is seen as 2 hdd's :s how can i make its seen as a array ?
+2006-07-15T14:22:00.000Z	dupondje		the chip bios gives array info @ boot, and says its Healty :)
+2006-07-15T14:22:00.000Z	ic56	dupondje	if the diskarray is being seen as individual disks, then its BIOS must be configured to disable teh RAID functionality.
+2006-07-15T14:23:00.000Z	ic56	dupondje	you must either figure out how to change the hw configuration (perhaps a jumper?) or else you'll have to forget about hw raid and do it in sw

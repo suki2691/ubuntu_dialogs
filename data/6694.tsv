@@ -1,0 +1,4 @@
+2012-04-03T17:44:00.000Z	surial		Can you connect a SATA-300 harddrive to SATA-150 sata card?
+2012-04-03T17:44:00.000Z	surial		i.e. will the disk and the controller handshake the lowest common denominator, or does that just not work?
+2012-04-03T17:45:00.000Z	surial		Also, if there's a more appropriate channel for that, by all means :)
+2012-04-03T17:45:00.000Z	dlentz	surial	theoretically, it should, but some older SATA controllers need to have the drive jumpered to SATA150 mode

@@ -1,0 +1,4 @@
+2006-04-10T08:57:00.000Z	thegve		Hi ya'll. Just installed Ubuntu Dapper and had a few problems. After installing, it didn't boot. The directory /boot didn't exist. Created the directory and made a symlink in it to /grub and everything works again. After apt-getting smbfs there is one bad formatted commentline starting with +####Domain. Removed the + and it works again.
+2006-04-10T08:58:00.000Z	thegve		Few small probs in the packages
+2006-04-10T08:58:00.000Z	carthik	thegve	hope you have filed bugs, or added to existing ones :)
+2006-04-10T08:59:00.000Z	carthik	thegve	thanks :) http://launchpad.net/malone/ for bug list and https://launchpad.net/malone/bugs/+package to file bugs

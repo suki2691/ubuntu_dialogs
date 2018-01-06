@@ -1,0 +1,4 @@
+2007-06-06T05:25:00.000Z	ScottLand		When installing ubuntu on a partitioned drive to share with windows .... Do i make the ubuntu partion a primary as well as declare the root as only  /   ???
+2007-06-06T05:25:00.000Z	kitche	ScottLand	well the root has to be /
+2007-06-06T05:26:00.000Z	kitche	ScottLand	and might as well choose primary since /boot can not be on a logical partition anyways
+2007-06-06T05:27:00.000Z	kitche	ScottLand	grub handles that very well

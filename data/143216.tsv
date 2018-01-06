@@ -1,0 +1,4 @@
+2007-03-12T05:35:00.000Z	garrettkajmowicz		How do I tell an Ubuntu system to use a different version of gcc when compiling Ubuntu packages?
+2007-03-12T05:36:00.000Z	Ademan_kitchen	garrettkajmowicz	i believe /bin/gcc is a symbolic link to a specific version of gcc, though you SHOULD be building packages with pbuilder, in which case the debian directory tells what versions of utilities you'll be using
+2007-03-12T05:39:00.000Z	garrettkajmowicz	Ademan_kitchen	The problem I have is that though I've installed g++3.3 and g++ 3.4, there is no "g++" executible, and the version of gcc being used is 4.0.3.  I don't know how the system could be allowed to get into such a state, but it's a fresh install.
+2007-03-12T05:40:00.000Z	garrettkajmowicz	Ademan_kitchen	n/m - I seem to have found the problem.

@@ -1,0 +1,4 @@
+2007-01-21T09:48:00.000Z	flathm		hey everyone... just installed ubuntu here and I'm trying to do some development.  When I compile a project (that compiles on several other linuxes and oses) I get a strange libtool error: "libtool: link: CURRENT `Debug.lo' must be a nonnegative integer" anyone know what might be going on?
+2007-01-21T09:50:00.000Z	buena_swerte	flathm	does it tell you which Makefile that error is created from? check that Makefile
+2007-01-21T09:51:00.000Z	flathm	buena_swerte	yeah I know where it's coming from but I really don't think it's a problem with the makefile... I can compile this project on a bunch of other machines just fine
+2007-01-21T09:52:00.000Z	buena_swerte	flathm	its beyong me now then, am still studying the autoconfig, maketools book

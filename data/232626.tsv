@@ -1,0 +1,4 @@
+2010-04-16T03:08:00.000Z	dougm		Hi.  I just tried to grow a 20gig partition to 30gig.  Gparted resized the partition but has also increased the used space by 10gig.  Any ideas?
+2010-04-16T03:09:00.000Z	erUSUL	dougm	pass a fsck to the partition and you will get the space back
+2010-04-16T03:10:00.000Z	erUSUL	dougm	if it is the root partition just « sudo touch /forcefsck » and reboot
+2010-04-16T03:10:00.000Z	erUSUL	dougm	if it is not the easiest way is to use a livecd (gparted can be used)

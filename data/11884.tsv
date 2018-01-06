@@ -1,0 +1,4 @@
+2012-01-10T01:19:00.000Z	Boreeas		Does crontab allow me to use multiple commands? E.g. */10 * * * * cd xy/z;./foo
+2012-01-10T01:20:00.000Z	glebihan	Boreeas	no and for what you're trying to do, you should just directly provide the full path to the script
+2012-01-10T01:21:00.000Z	Boreeas	glebihan	Doesn't work, because else the files will be created in the wrong folder
+2012-01-10T01:21:00.000Z	glebihan	Boreeas	then you'll have to write a script that'll handle changing directory and running your actual script

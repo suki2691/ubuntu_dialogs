@@ -1,0 +1,4 @@
+2008-01-25T17:25:00.000Z	ssscotty6		Good day. I was hoping someone knows how to start a service at boot as a particular user? I have it working through rc.d, et al., but it starts up as root, and I need it to start up as www-data. Any thoughts as to how to do this?
+2008-01-25T17:26:00.000Z	ssscotty6		I'll give sudo -u a try then, thanks :-)
+2008-01-25T17:26:00.000Z	ssscotty6		32 bits.
+2008-01-25T17:26:00.000Z	Lsi	ssscotty6	/etc/rc.local and su username -c "command" also goes

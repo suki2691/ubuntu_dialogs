@@ -1,0 +1,4 @@
+2009-06-16T00:06:00.000Z	balloooza		dose anyone know how to make a module NOT load on startup
+2009-06-16T00:06:00.000Z	Slart	balloooza	put it in the blacklist in /etc/modprobe.d/
+2009-06-16T00:07:00.000Z	Slart	balloooza	yup
+2009-06-16T00:07:00.000Z	Slart	balloooza	there are probably lots of modules there already.. so just add a line at the end.. make a comment why you did it and todays date.. makes it easier when you've forgotten who blacklisted it later on

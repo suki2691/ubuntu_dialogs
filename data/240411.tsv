@@ -1,0 +1,4 @@
+2006-04-06T11:04:00.000Z	nickrud	Steven_M	you get your issue sorted out?
+2006-04-06T11:06:00.000Z	nickrud	Steven_M	ok, I can see that. So your issue is....?
+2006-04-06T11:12:00.000Z	nickrud	Steven_M	assuming that your useradd commands were good, you've copied the backups into the correct dirs, sudo chown <usr>:<usr> /home/<usr> should get you a long way towards where yu want to be
+2006-04-06T11:12:00.000Z	nickrud	Steven_M	hm, I forgot the recursive part: sudo chown -R <usr>:<usr> /home/<usr>

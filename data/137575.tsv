@@ -1,0 +1,4 @@
+2007-04-20T12:00:00.000Z	Sputnik		ata2.01: failed to set xfermode (err_mask=0x4) How do I fix this error?
+2007-04-20T12:02:00.000Z	janpo	Sputnik	have you tried with "ide=nodma" at boot ?
+2007-04-20T12:03:00.000Z	Sputnik	janpo	what does it do?
+2007-04-20T12:04:00.000Z	janpo	Sputnik	switches off kernels dma on ide channels. Your error could be unsupported drive controller. Just a qualified guess

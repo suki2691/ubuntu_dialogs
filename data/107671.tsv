@@ -1,0 +1,4 @@
+2008-01-08T04:18:00.000Z	functionofxy		help please: is it possible to use (k)qemu or vmware-server to load an existing winxp installation?
+2008-01-08T04:18:00.000Z	functionofxy		starnestommy, how?
+2008-01-08T04:19:00.000Z	thann0y	functionofxy	qemu -hda /dev/hda   for example
+2008-01-08T04:20:00.000Z	thann0y	functionofxy	I guess your computer has a double boot, you will boot the brub so will have to select Windows in the qemu window.

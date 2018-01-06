@@ -1,0 +1,4 @@
+2008-07-08T12:26:00.000Z	jisatsu		is it possible to fsck a drive while it's mounted?
+2008-07-08T12:27:00.000Z	genii	jisatsu	Not safely
+2008-07-08T12:27:00.000Z	genii	jisatsu	Safer than rw mount, yes
+2008-07-08T12:28:00.000Z	genii	jisatsu	Best to boot into single user mode for fsck operation of root partition for example, or even to scan it from a livecd boot

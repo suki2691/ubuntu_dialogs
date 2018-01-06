@@ -1,0 +1,4 @@
+2010-12-27T22:46:00.000Z	St4cn1r		hello: im having a trouble with setting hostname of my Ubuntu server... in /etc/hostname i wrote this row: "192.168.1.12 klara" without " and in /etc/hosts i have "127.0.0.1 localhost klara" and if command "$ sudo hostname klara" returns
+2010-12-27T22:46:00.000Z	St4cn1r		hostname: the specified hostname is invalid
+2010-12-27T22:47:00.000Z	gobbe	St4cn1r	/etc/hostname contains only hostname, no IP
+2010-12-27T22:51:00.000Z	St4cn1r	gobbe	thank you very much, it works ok now:)

@@ -1,0 +1,4 @@
+2010-05-04T17:31:00.000Z	darrend		trying to update an LTS server using "sudo do-release-upgrade" and get "No new release found".  Is this because I have a local mirror (apt-proxy)?
+2010-05-04T17:31:00.000Z	jken146	darrend	Shouldn't be.
+2010-05-04T17:32:00.000Z	darrend	jken146	any idea why I would get that?
+2010-05-04T17:32:00.000Z	jken146	darrend	Oh, a *local* mirror you say? Yes, that could easily be the problem. Try using a mirror that you know serves lucid.

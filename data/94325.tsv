@@ -1,0 +1,4 @@
+2008-04-19T03:58:00.000Z	JakeMon		what does it mean when i get this message from apt-get when i'm trying to run "apt-get install php5-pear"? Package php5-pear is not available, but is referred to by another package.
+2008-04-19T03:59:00.000Z	kindofabuzz	JakeMon	that means there is no pck called php5-pear
+2008-04-19T04:00:00.000Z	kindofabuzz		pelo, oh ok, so delete home while offline then?
+2008-04-19T04:00:00.000Z	JakeMon	kindofabuzz	if i do... apt-cache dump | grep ^Package | grep -i pear... i do see it listed... why is it listed and i get that message when trying to install it?

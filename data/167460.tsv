@@ -1,0 +1,4 @@
+2007-04-08T13:46:00.000Z	stroogle		trying to use 'apt-get install' and it wants a cd.  i need it to download.  anyone tell me how to do that?
+2007-04-08T13:47:00.000Z	chuckf	stroogle	edit your /etc/apt/sources.list and remove the cdrom from the choices
+2007-04-08T13:48:00.000Z	chuckf	stroogle	then run sudo apt-get update
+2007-04-08T13:48:00.000Z	chuckf	stroogle	oh, and make sure that the http sources are enabled

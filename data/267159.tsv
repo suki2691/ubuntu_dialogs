@@ -1,0 +1,4 @@
+2010-10-05T18:31:00.000Z	alin_		hey ... how can I print one row from a command something like         ps aux  and pipe only the pid to a kill ?
+2010-10-05T18:32:00.000Z	alin_		ps aux | grep -i xchat | kill $1 ?
+2010-10-05T18:32:00.000Z	alin_		smth like this
+2010-10-05T18:32:00.000Z	Dr_Willis	alin_	 with some extra commands to  alter the data. such as awk  or cut,  depedning on what  is needed to be done.

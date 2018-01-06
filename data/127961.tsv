@@ -1,0 +1,4 @@
+2009-02-15T09:06:00.000Z	IntuitiveNipple	MaxRide	I'm just wondering if looking at the raw data we can determine *what* over-wrote the MBR
+2009-02-15T09:07:00.000Z	MaxRide	IntuitiveNipple	Doesn't really matter at this point...you can rewrite the MBR all you want, but it looks as though the partition table MAY be messed up as well.
+2009-02-15T09:09:00.000Z	IntuitiveNipple	MaxRide	The MBR/partition table are in sector 0... if something over-writes them it is sometimes possible to know what... and knowing that, you can make a judgement as to whether the partition table can be rebuilt.
+2009-02-15T09:10:00.000Z	MaxRide	IntuitiveNipple	 Yea....But looking at his other dump, things don't look so well when it comes to the partitions....MBR is easy to fix, but the partition table could be a real problem.

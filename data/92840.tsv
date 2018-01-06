@@ -1,0 +1,4 @@
+2008-04-30T05:14:00.000Z	ldz420		Hey i used env to see the different environmental variables but I am not finding them in /etc/profile or ~/.profile so where are the environmental variables being pulled from?
+2008-04-30T05:14:00.000Z	richard____	ldz420	/etc/profile.d/
+2008-04-30T05:16:00.000Z	richard____	ldz420	can you read shell scripts?
+2008-04-30T05:24:00.000Z	richard____	ldz420	a statement (line) beginning with a dot includes the following file in the current script. the variables are probably being set in these other referenced files

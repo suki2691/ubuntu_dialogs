@@ -1,0 +1,4 @@
+2011-05-17T21:36:00.000Z	llutz	immesys	since it is /etc/rc.local it needs root-fs to be mounted when being run
+2011-05-17T21:37:00.000Z	immesys	llutz	I need to kludge in a btrfs scan before it tries to mount my filesystems. Trying to find the appropriate place to stick it. Otherwise it complains about not finding the filesystem.
+2011-05-17T21:37:00.000Z	llutz	immesys	/etc/init.d/mountall maybe
+2011-05-17T21:38:00.000Z	immesys	llutz	ok, will try that. Thanks

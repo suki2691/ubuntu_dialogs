@@ -1,0 +1,4 @@
+2005-04-17T05:39:00.000Z	Wyld		Hey all .. quick question .. just did an install on a system, and the initial apt-get to grab the updates fail.  I'm now sitting in a nice little shell, with core system only.  I did alter sources to shift it to hoary, and did a "apt-get update" and "apt-get dist-upgrade" ... but I was sure there was a script I could call to reinitialise the install process so i can get xorg, gnome, etc ..
+2005-04-17T05:39:00.000Z	Wyld		whats the name of that script?
+2005-04-17T05:40:00.000Z	thoreauputic	Wyld	no, sudo apt-get install ubuntu-desktop
+2005-04-17T05:40:00.000Z	thoreauputic	Wyld	or run base-config

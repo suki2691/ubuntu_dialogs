@@ -1,0 +1,4 @@
+2010-03-03T23:19:00.000Z	tim__b		Hi. Need help with regexp/sed. I'd like to "grep" a part of a filename ("video Tc0 L2 2ch 48 192 DELAY 0ms.mp2"). I'd like to catch the 0 in front of ms and after DELAY. It's always an number but might be positive or negative.
+2010-03-03T23:21:00.000Z	Stargaze	tim__b	look here, on page 6 => http://dl.dropbox.com/u/4653463/issue21-eng.pdf
+2010-03-03T23:22:00.000Z	tim__b		Thanks, Stargaze, will look into it now
+2010-03-03T23:46:00.000Z	tim__b	Stargaze	tried to figure it out with the posted articel + some more tutorials, but havent get past ls | grep -e '/DELAY/,/ms/' which leaves me with a blank line :(

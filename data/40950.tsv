@@ -1,0 +1,4 @@
+2010-06-03T03:50:00.000Z	Akiraa		How do you locate a file on a hard drive using the grub2 CLI? I'm not sure what (hd0), (hd0,1), (hd1,5) mean nor how I would navigate the folder structure if that were even possible
+2010-06-03T03:50:00.000Z	vlt	Akiraa	(hd0,1) is first partition now.
+2010-06-03T03:51:00.000Z	vlt	Akiraa	formerly known as (hd0,0). You should be able to acces files using the (hd0,1):/boot/... syntax
+2010-06-03T03:54:00.000Z	Akiraa	vlt	the command 'ls' outputs: "(hd0) (hd0,5) (hd0,1)" on a default ubuntu install box

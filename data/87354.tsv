@@ -1,0 +1,4 @@
+2008-06-22T09:49:00.000Z	afallenhope		Is there a way of backing up things that I've installed? so for next installation I won't have to reinstall them?
+2008-06-22T09:50:00.000Z	Kelen	afallenhope	just need backup the *.log
+2008-06-22T09:51:00.000Z	afallenhope	Kelen	and where would that be
+2008-06-22T09:55:00.000Z	Kelen	afallenhope	dpkg --get-selections > installed-software.log

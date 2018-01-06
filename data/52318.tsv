@@ -1,0 +1,4 @@
+2009-07-31T04:54:00.000Z	rrva		Hi! I have a amd64 box and a i686 box which I both want to use for distcc to make-kpkg a new kernel. How to make sure the i686 generates x86_64 code (ie cross-compile) ?
+2009-07-31T04:54:00.000Z	rrva		I have tried: CC="gcc -m64" AS="as --64" make-kpkg --rootcmd fakeroot --cross-compile - --arch=amd64 --initrd --revision=dejsi.3.0 kernel_image
+2009-07-31T04:56:00.000Z	nawk	rrva	what's the the diff between amd64 and i686?
+2009-07-31T04:57:00.000Z	rrva	nawk	one is 32bit and the other is 64 ?

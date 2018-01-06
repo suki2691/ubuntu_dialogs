@@ -1,0 +1,4 @@
+2011-12-27T14:25:00.000Z	plouffe		"sudo ifconfig wlan1 up" will enable the wlan1 interface. How do I know which interfaces (such as wlan1) are available, if they're previously not listed under "sudo ifconfig"?
+2011-12-27T14:26:00.000Z	plouffe		Can I list available network interfaces that are not yet enabled?
+2011-12-27T14:28:00.000Z	oCean	plouffe	iwconfig
+2011-12-27T14:29:00.000Z	plouffe	oCean	perfect, thanks

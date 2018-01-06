@@ -1,0 +1,4 @@
+2008-07-27T09:59:00.000Z	The_Gopher		Hi again, I tried doing things with the command line interfact (ctrl-alt-f1), but it doesnt kill x, when I tried killing it manually it just restarted the x interface
+2008-07-27T10:00:00.000Z	The_Gopher		is there a way I can change a runlevel to start with all my processes without x?
+2008-07-27T10:00:00.000Z	ankit_	The_Gopher	sudo /etc/init.d/gdm stop
+2008-07-27T10:00:00.000Z	ankit_	The_Gopher	yes, that just stops it until you reboot or restart it manually

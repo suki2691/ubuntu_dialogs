@@ -1,0 +1,4 @@
+2004-09-28T09:23:00.000Z	housetier		where do I find the logs from ppp? I installed ubuntu on a friends laptop yesterday and couldn't get pppoe to work. There were no logs in /var/log/{syslog,messages} and "plog" didnt show anything either 
+2004-09-28T09:24:00.000Z	Mithrandir	housetier	/var/log/daemon.log or syslog
+2004-09-28T09:24:00.000Z	housetier	Mithrandir	I must admit I didnt check daemon.log, I shall do so later
+2004-09-28T09:25:00.000Z	Mithrandir	housetier	/var/log/syslog should have _all_ logs, so it should certainly have it.

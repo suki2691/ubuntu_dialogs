@@ -1,0 +1,4 @@
+2012-09-24T20:14:00.000Z	genii-around	TiZ	Might want to disable autosuspend of the USB in sysctl.conf
+2012-09-24T20:18:00.000Z	TiZ	genii-around	Is there anyway I can do that on boot?
+2012-09-24T21:10:00.000Z	genii-around	TiZ	Apologies on lag. It seems the module responsible (usbcore) is now compiled into the kernel and it nis not possible to reload it on the fly with new parameters. You can however still set it not to suspend by adding module/usbcore/parameters/autosuspend = -1   into the /etc/sysctl.conf where it will take effect next boot.
+2012-09-24T21:15:00.000Z	TiZ	genii-around	I added usbcore.autosuspend=0 to the boot command line, and... it seemed to work for a bit, but when my boss really dug his finger into the touchscreen, it stopped working. Darn my tiny hands and his giant hands.

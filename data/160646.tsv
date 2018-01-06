@@ -1,0 +1,4 @@
+2008-05-10T04:55:00.000Z	sylvar		Hi y'all.  I'm running Wubi 8.04 and I'm trying to load the b43 drivers.  Can someone point me to a .deb file that I can download and put on a USB drive so that when I reboot to Ubuntu, I can just install it with dpkg?
+2008-05-10T04:57:00.000Z	Jordan_U	sylvar	I think that the b43 drivers come installed with Ubuntu, I can give you a link to the firmware files which you can just copy to /lib/firmware which should get things working
+2008-05-10T04:57:00.000Z	sylvar	Jordan_U	thanks, I'd appreciate that
+2008-05-10T05:01:00.000Z	Jordan_U	sylvar	http://trogdoor.googlepages.com/b43.tar.gz unpack that to /lib/firmware ( when you are done you should have a directory /lib/firmware/b43 containing a bunch of firmware *.fw files )

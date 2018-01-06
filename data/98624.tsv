@@ -1,0 +1,4 @@
+2009-06-05T18:38:00.000Z	[T]ank		im having some trouble with dns on a machine... I can ping ips, but not names... I have the resolv.conf pointed at my router which all of the windows machines are pointed at as well. The windows machines resolve just fine. Its just my ubuntu box. What else besides resolv.conf can I check?
+2009-06-05T18:39:00.000Z	Boohbah	[T]ank	does the machine get its IP from the router with DHCP?
+2009-06-05T18:39:00.000Z	[T]ank	Boohbah	static
+2009-06-05T18:40:00.000Z	Boohbah	[T]ank	you could try using 4.2.2.1 and 4.2.2.4 nameservers

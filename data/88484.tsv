@@ -1,0 +1,4 @@
+2008-07-11T03:03:00.000Z	beaupa		hey everyone, installed the desktop for the first time today. Can someone help explain how to auto mount my partitions? Is there a filemanager that does this automatically? (I am using gnome.
+2008-07-11T03:03:00.000Z	ASULutzy	beaupa	edit your fstab to get that going
+2008-07-11T03:04:00.000Z	ASULutzy	beaupa	No problem :)
+2008-07-11T03:06:00.000Z	ASULutzy	beaupa	Just incase you don't know how to tell which partitions are which, you can use sudo fdisk -l (that's a lowercase 'L') to figure out which partitions are which and then edit your fstab file accordingly

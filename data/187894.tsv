@@ -1,0 +1,4 @@
+2006-06-22T05:20:00.000Z	dsas	F0LL0W3R	F0LL0W3R: the problem is though that you need to have an account on your machine to access the shares. This preference can be set in the samba configuration file
+2006-06-22T05:20:00.000Z	F0LL0W3R		<dsas> how can i make such like these accounts ?
+2006-06-22T05:21:00.000Z	dsas	F0LL0W3R	To remove the need for accounts you need to look for security=share, and change it to security=user. You could also just add new accounts in system->admin->users and groups I think.
+2006-06-22T05:22:00.000Z	F0LL0W3R	dsas	aha thx i will try now

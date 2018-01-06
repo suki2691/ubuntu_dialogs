@@ -1,0 +1,4 @@
+2005-03-03T16:41:00.000Z	helio7		If mplayer crashes when I try and play a DVD would you think it's possible an error ocurred during the compiling process?  Could I have caused that by multi-tasking while it was compiling?  (I quit stuff soon after compiler started but maybe not soon enough?) To fix it I can apt-get install on top of the original installation or do I have to uninstall first?
+2005-03-03T16:42:00.000Z	jnk	helio7	 better uninstall (go to the compilation directory and type "sudo make uninstall") although it was certainly installed in /usr/local so no big deal
+2005-03-03T16:44:00.000Z	helio7	jnk	I followed the directions http://ubuntuforums.org/showthread.php?t=94 do you think i need to unintall the libs and the codecs or just the mplayer itself?
+2005-03-03T16:47:00.000Z	jnk	helio7	no, what you installed  with apt-get should not be a problem

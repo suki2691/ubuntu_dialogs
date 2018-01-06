@@ -1,0 +1,4 @@
+2011-07-07T18:24:00.000Z	pppZero	Broseph	that will work, and its about as quickly/efficiently as you can bring up 3 interfaces afaik
+2011-07-07T18:24:00.000Z	Broseph	pppZero	it's just one interface with a shared gateway and netmask, do I need to use the auto eth0:n notation?
+2011-07-07T18:28:00.000Z	Broseph		say I have a block of 100 IPs, do I need 500 lines in my etc/network/interfaces
+2011-07-07T18:29:00.000Z	pppZero	Broseph	only if you want all of those IPs to go to one machine / physical nic

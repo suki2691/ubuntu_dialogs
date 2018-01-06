@@ -1,0 +1,4 @@
+2008-07-30T16:08:00.000Z	Kate_Mins		Hello, I need help please , does it possible to use wget as a website crawler (offline browser) ? if the answer is yes , can i limit wget to download just htm or html files (without saving the pictures , movies etc.. ) ?
+2008-07-30T16:08:00.000Z	negge	Kate_Mins	yes you can use it for that, read the man pages to get a grip of what options to use (there are quite many)
+2008-07-30T16:10:00.000Z	Kate_Mins	negge	i already looked at the man pages , but i cant understand how its can be done . (i am new to linux/ubuntu) do u know where i can find examples of using wget as a crawler ?
+2008-07-30T16:10:00.000Z	negge	Kate_Mins	I don't have any direct links, usually it's about using "wget -r http://website" plus some extra options if you want to omit pictures and stuff

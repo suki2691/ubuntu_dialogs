@@ -1,0 +1,4 @@
+2007-06-29T05:22:00.000Z	rustalot		I'm having problems with fstab and automounting an ntfs partition on boot: I got it to mount fine, but it's only readable by root. The fstab entry is "/dev/sda1       /media/WinXP   ntfs    auto,dev,noexec,ro,async,nosuid,nodev,user  0       0"
+2007-06-29T05:23:00.000Z	lgc	rustalot	It should be read-only. Otherwise you wreck it if you try to write it.
+2007-06-29T05:23:00.000Z	rustalot	lgc	I want it to be ro, but readable by non-root users
+2007-06-29T05:29:00.000Z	lgc	rustalot	here's my fstab line: '/dev/sda1       /windows        ntfs    ro,auto,user,fmask=0111,dmask=0000'.

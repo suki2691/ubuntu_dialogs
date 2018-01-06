@@ -1,0 +1,4 @@
+2008-10-02T01:09:00.000Z	vallhalla81		hi there i have just reformatted a hard drive on my system i can mount it but cant write to it can any advise please
+2008-10-02T01:11:00.000Z	vallhalla81		﻿hi there i have just reformatted a hard drive on my system i can mount it but cant write to it can any advise please
+2008-10-02T01:12:00.000Z	bobertdos	vallhalla81	Be sure it is mounted with read and write permissions and that you are the owner of the drive.
+2008-10-02T01:14:00.000Z	bobertdos	vallhalla81	aha! Well, for now, you can fix that by going into the directory where the drive is mounted and in the terminal: sudo chown -R <your username>:<your username> <drive directory>

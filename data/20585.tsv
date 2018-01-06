@@ -1,0 +1,4 @@
+2011-01-22T20:42:00.000Z	zs1otb_		I have upgraded to 10.04 using upgrade manager. It crashed, but now the machine is running. However there is an X instead of the mouse pointer and there is only one desktop... Any ideas why this is so?
+2011-01-22T20:43:00.000Z	schnuffle	zs1otb_	sudo aptitude dist-upgrade to see if all packages got upgraded
+2011-01-22T20:48:00.000Z	schnuffle	zs1otb_	 then sudo aptitude install ubuntu-desktop
+2011-01-22T20:48:00.000Z	schnuffle	zs1otb_	if that is okay as well you need to reconfigure Xorg

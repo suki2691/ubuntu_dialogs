@@ -1,0 +1,4 @@
+2005-11-05T08:39:00.000Z	lamb		anyone can help me to change my GDM resolution?
+2005-11-05T08:39:00.000Z	Amaranth	lamb	gdm uses the max resolution X thinks it can use
+2005-11-05T08:39:00.000Z	Amaranth	lamb	sudo dpkg-reconfigure xserver-xorg and set what resolutions you want to be able to use
+2005-11-05T08:40:00.000Z	Amaranth	lamb	the highest one you set will be the one that gdm uses

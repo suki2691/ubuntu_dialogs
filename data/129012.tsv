@@ -1,0 +1,4 @@
+2007-07-04T11:46:00.000Z	RobDude		I've got Ubuntu 6.10 installed, but I'm having trouble getting online.  I have a Linksys WUSB300N and a NetGear WPN111.  The WPN111 has an over-heating problem and locks up XP and Vista after a few hours of downloading, so I'd rather not use it.  Anyway, Ubuntu doesn't show either listed as a wireless device in the Network settings.  I've installed ndiswrapper and the XP driver for the WUSB300N, and rebooted - but still, it shows no wirele
+2007-07-04T11:47:00.000Z	dystopianray	RobDude	did you run this? $ sudo modprobe ndiswrapper
+2007-07-04T11:49:00.000Z	RobDude	dystopianray	 No.  I ran 'sudo ndiswrapper -i filename.inf' then 'sudo ndiswrapper -m' then added 'ndiswrapper' on a new line in '/etc/modules' and rebooted.  When I do 'sudo ndiswrapper -l' it lists the driver
+2007-07-04T12:40:00.000Z	dystopianray	RobDude	Anything with a Zydas chipset should work great

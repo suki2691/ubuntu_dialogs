@@ -1,0 +1,4 @@
+2005-10-16T12:01:00.000Z	kYotiK		im trying to compile xgdipc, and it depends on GTK >=1.0.2, I already have a newer version installed of course, but i keep getting build errors saying: "configure: error: Cannot find GTK+: Is gtk-config in executable path?"     can anyone help me out?
+2005-10-16T12:01:00.000Z	cafuego_	kYotiK	you need the gtk -dev package too.
+2005-10-16T12:03:00.000Z	kYotiK	cafuego_	 what is the gtk-devel package? whats it called do you know?
+2005-10-16T12:04:00.000Z	cafuego_	kYotiK	'apt-cache search gtk dev' is your friend.

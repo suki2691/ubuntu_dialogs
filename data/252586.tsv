@@ -1,0 +1,4 @@
+2005-06-23T12:44:00.000Z	karamazof		hi
+2005-06-23T12:45:00.000Z	karamazof		I have mounted my ntfs partition using /etc/fstab, but only root can get acces, $
+2005-06-23T12:46:00.000Z	karamazof		and once it is mounted, I can't change permissions on it.
+2005-06-23T12:46:00.000Z	HappyFool	karamazof	i think you just need a 'umask=000' (or maybe 'umask=222' or something) in the fourth field (i.e., <options>)

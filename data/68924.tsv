@@ -1,0 +1,4 @@
+2009-04-09T03:21:00.000Z	riegersn		im trying to fix my mother-in-law's old ubuntu laptop i set up a long time ago, no one remembers the password for their account. is there a way i could somehow get into a desktop ?
+2009-04-09T03:23:00.000Z	Titan8990	riegersn	log in to recovery mode -> drop root shell -> type: passwd USERNAME
+2009-04-09T03:23:00.000Z	Titan8990	riegersn	and then fill in the new password
+2009-04-09T03:24:00.000Z	Titan8990	riegersn	or you can just add a new user account:  adduser USERNAME

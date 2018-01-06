@@ -1,0 +1,4 @@
+2009-12-28T02:28:00.000Z	sixtila		how do i make the www folder readable and writable by me
+2009-12-28T02:29:00.000Z	sixtila		thanks guys
+2009-12-28T02:30:00.000Z	sixtila		is that bad, can someone over the network change it
+2009-12-28T02:30:00.000Z	LjL	sixtila	if /var/www is owned by www-data, make yourself a member of that. if it's owned by root, i'd consider changing that ownership

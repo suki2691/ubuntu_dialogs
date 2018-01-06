@@ -1,0 +1,4 @@
+2009-06-12T04:06:00.000Z	bdizzle		hi, having a slight error with the package manager. it was doing an auto update and it froze in the middle of it
+2009-06-12T04:07:00.000Z	bdizzle		I tried switching to command line, but it won't let me use "sudo apt-get install <package name>" stating that there is an administrative lock on it. Anyonek know how to get out of that lock?
+2009-06-12T04:08:00.000Z	texasjack	bdizzle	synaptic or Update Manger, or some kind of this, is running in background.  You have to stop and kill that process...
+2009-06-12T04:09:00.000Z	texasjack	bdizzle	a single log out may resolve if you can't catch the right process.

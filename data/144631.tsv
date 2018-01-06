@@ -1,0 +1,4 @@
+2007-04-26T10:03:00.000Z	sam_kaay		Is there a ubuntu command which displays the system specs, like RAM and processor power?
+2007-04-26T10:04:00.000Z	crdlb	sam_kaay	cat /proc/cpuinfo does part of that
+2007-04-26T10:04:00.000Z	crdlb	sam_kaay	free gives your ram
+2007-04-26T10:19:00.000Z	crdlb	sam_kaay	lspci|grep VGA

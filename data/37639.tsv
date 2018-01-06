@@ -1,0 +1,4 @@
+2011-08-12T22:11:00.000Z	ke1ha	Pici	aren't the conf files in /etc/init and the actual scripts in /etc/init.d  ..?
+2011-08-12T22:11:00.000Z	Pici	ke1ha	It depends if the package has been migrated to upstart or not.
+2011-08-12T22:11:00.000Z	Pici		!upstart | Onepamopa This might be helpful if you're planning on writing the config file yourself.
+2011-08-12T22:12:00.000Z	ke1ha	Pici	Undrtstand that upstart would put the conf in /etc/init   and anythign in the locaiton would upstart but the control scripts I think, Im gonna go look, are in /init.d

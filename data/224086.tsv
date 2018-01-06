@@ -1,0 +1,4 @@
+2011-02-22T18:49:00.000Z	gsfai		Is there a way to setup my computer so when i start it up, it will automatically log in my account, start up startup programs, then lock screen ?
+2011-02-22T18:50:00.000Z	gsfai		I probably have to put the "gnome-screensaver" thingy in the startup applications, but it will run everytime i login, not only when i start the PC up
+2011-02-22T18:50:00.000Z	Klaus_Dieter	gsfai	 configure your display manager to autologin, then setup your .xinitrc
+2011-02-22T18:51:00.000Z	Klaus_Dieter	gsfai	in your xinitrc you want to run xlock or something like that

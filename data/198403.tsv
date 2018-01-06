@@ -1,0 +1,4 @@
+2006-02-26T15:02:00.000Z	vlauzums		quick question: every time i switch wifi networks i have to restart to get it to work, is there a terminal command that refreshes my net settings or something like that?
+2006-02-26T15:03:00.000Z	soundray	vlauzums	sudo /etc/init.d/networking restart
+2006-02-26T15:03:00.000Z	soundray	vlauzums	and consider the ifplug package
+2006-02-26T15:03:00.000Z	vlauzums	soundray	thank you

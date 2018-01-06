@@ -1,0 +1,4 @@
+2010-06-15T13:53:00.000Z	wereHamster		how can I list all installed packages?
+2010-06-15T13:54:00.000Z	unop	wereHamster	 dpkg -l
+2010-06-15T13:54:00.000Z	wereHamster	unop	will that work even if I installed the pacakges with apt-get?
+2010-06-15T13:55:00.000Z	unop	wereHamster	apt-get, aptitude, synaptic, dselect all use dpkg to track dependencies - so yes

@@ -1,0 +1,4 @@
+2011-04-28T11:06:00.000Z	^Phantom^		how do i open 'modules' ?
+2011-04-28T11:06:00.000Z	histo	^Phantom^	what are you trying to do exactly?
+2011-04-28T11:07:00.000Z	histo	^Phantom^	well you can lsmod | grep snd-pcm  to see if it's running. If not try locate snd-pcm-oss
+2011-04-28T11:08:00.000Z	histo	^Phantom^	and I believe it's snd_pcm_oss

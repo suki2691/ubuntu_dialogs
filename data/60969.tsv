@@ -1,0 +1,4 @@
+2009-09-06T13:31:00.000Z	[domon]		hi guys, i've setup an sshkey pair between my computer and my server...i'm able to successfully authenticate to my server with the ssh key for one user, but not for a second. my ssh pub key is in the /home/<user>/.ssh dir for both users, but only works with one (it prompts for a password with the other). any ideas on how to fix this?
+2009-09-06T13:32:00.000Z	grawity	[domon]	Have you checked /var/log/syslog and /var/log/auth.log?
+2009-09-06T13:33:00.000Z	[domon]	grawity	nope, will check now .. thanks :)
+2009-09-06T13:33:00.000Z	grawity	[domon]	Also, permissions if ~/.ssh and ~/.ssh/authorized_keys

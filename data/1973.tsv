@@ -1,0 +1,4 @@
+2012-09-23T04:05:00.000Z	ywonuwerk		Hanvon Artmaster AM1209 not recognised in 12.04lts any ideas?
+2012-09-23T04:06:00.000Z	Meris	ywonuwerk	do you know which chipset it uses? What does lspci say about it?
+2012-09-23T04:16:00.000Z	Meris	ywonuwerk	did you look up that controller on the linux hardware DB? Hang on, that is probably the USB hub that your AMT device connects to, not the Hardware ID of the device itself.
+2012-09-23T04:33:00.000Z	Meris	ywonuwerk	hint: try sudo tail -f /var/log/kern.log

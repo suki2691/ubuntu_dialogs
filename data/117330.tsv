@@ -1,0 +1,4 @@
+2012-07-19T14:08:00.000Z	ales543634		it's messed up
+2012-07-19T14:08:00.000Z	geirha	ales543634	Ah, so you have to create a custom .desktop file for it
+2012-07-19T14:10:00.000Z	geirha	ales543634	copy /usr/share/applications/transmission-gtk.desktop to your desktop, rename it to utorrent.desktop, then open it in an editor (e.g gedit)
+2012-07-19T14:10:00.000Z	geirha	ales543634	Modify it to run wine 'c:\...\utorrent.exe' and such, then copy it to  ~/.local/share/applications

@@ -1,0 +1,4 @@
+2008-04-09T16:19:00.000Z	iliya_		hi, I acidently deleted content of folders /etc/network and etc/networkmanager how to reinstall, as kubuntu now does not detect wireless card
+2008-04-09T16:21:00.000Z	un0p	iliya_	perhaps this works.. sudo apt-get install --reinstall network-manager knetworkmanager
+2008-04-09T16:25:00.000Z	iliya_	un0p	tried that dont work
+2008-04-09T16:27:00.000Z	un0p	iliya_	try this, if it doesn't work, i'm out of ideas.  sudo apt-get install --reinstall $(dpkg -l | grep -i net | cut -c 3-30)

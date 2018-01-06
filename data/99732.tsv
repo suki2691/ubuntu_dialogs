@@ -1,0 +1,4 @@
+2008-12-17T19:15:00.000Z	sidd		how do i edit network settings in ubuntu 8.10? which files?
+2008-12-17T19:16:00.000Z	sidd		and how do i permanently disable network manager and do the network configuration myself?
+2008-12-17T19:17:00.000Z	jim_p	sidd	sudo apt-get autoremove network-manager && sudo apt-get install gnome-network-admin
+2008-12-17T19:45:00.000Z	jim_p	sidd	with sysvconf          google it

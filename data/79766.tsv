@@ -1,0 +1,4 @@
+2011-08-09T22:20:00.000Z	xmagixx		Hello i need to apply a fix to alsa-utils, where to i find that file in ubuntu 11.04 ? it should be at /etc/init.d/alsa-utils but it's not, i even tried purge and reinstall but still not there... several sites says that the file is there in previors versions of ubuntu
+2011-08-09T22:21:00.000Z	gadgetdevil	xmagixx	to find files installed by a package you can run "dpkg-query -L <package name>"
+2011-08-09T22:22:00.000Z	xmagixx		dr.willis bash: !locate: event not found
+2011-08-09T22:23:00.000Z	xmagixx	gadgetdevil	hmm still no sign of alsa-utils

@@ -1,0 +1,4 @@
+2006-05-18T14:03:00.000Z	djrandom		morning all
+2006-05-18T14:03:00.000Z	djrandom		ive managed to mess up my install of open swan via apt-get... in that i didnt complete the configuration wizard. now my system thinks its not installed so i cant remove and start again, but i also cant reinstall over the top of it to fix it. cant anyone help me please?
+2006-05-18T14:03:00.000Z	zcat[1] 	djrandom	dpkg-reconfigure foo
+2006-05-18T14:14:00.000Z	zcat[1] 	djrandom	apt-get install --reinstall --force perhaps?

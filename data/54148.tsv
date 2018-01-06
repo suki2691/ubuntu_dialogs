@@ -1,0 +1,4 @@
+2009-06-17T16:32:00.000Z	enriq		how do I sudo respect my path? sudo -E won´t work... I also tried removing env_reset from sudoers
+2009-06-17T16:33:00.000Z	cwillu	enriq	if you need a custom binary to be available to sudo (or really, all users), put it in /usr/local/bin
+2009-06-17T16:33:00.000Z	cwillu	enriq	putting a binary to be executed by root in a place that's writable as an unprivileged user (i.e., your account) is dangerous
+2009-06-17T16:33:00.000Z	enriq	cwillu	ok

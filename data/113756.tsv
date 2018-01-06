@@ -1,0 +1,4 @@
+2010-06-24T00:57:00.000Z	cannonfodder		hey you guys...wats the command to remove dependencies...liek if i install program A  and it takes up 10 MB  then i purge it, only 5mb's are purged....how do i remove the other 5 mbs?
+2010-06-24T00:57:00.000Z	cannonfodder		hey you guys...wats the command to remove dependencies...liek if i install program A  and it takes up 10 MB  then i purge it, only 5mb's are purged....how do i remove the other 5 mbs?
+2010-06-24T00:58:00.000Z	dajhorn	cannonfodder	Try `apt-get autoremove --purge`.
+2010-09-17T22:37:00.000Z	dajhorn	cannonfodder	Use a `for` loop.

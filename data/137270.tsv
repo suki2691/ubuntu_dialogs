@@ -1,0 +1,4 @@
+2008-08-17T08:43:00.000Z	AeronTS		when i type in "ls /" it shows a directory for WindowsXP
+2008-08-17T08:43:00.000Z	AeronTS		is there a way to just install XP on taht directory and make it bootable?
+2008-08-17T08:45:00.000Z	nibsa1242b	AeronTS	XP needs to be installed to its own drive or partition. If you install it to a partition, it will overwrite the MBR  and you will need to reinstall grub.
+2008-08-17T08:45:00.000Z	nibsa1242b	AeronTS	depending on what you need to use XP for, you may be able to use WINE or run ex in a virtual machine instead.

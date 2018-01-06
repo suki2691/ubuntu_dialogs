@@ -1,0 +1,4 @@
+2010-11-21T06:55:00.000Z	KeyBoardx86		Hello everyone
+2010-11-21T06:56:00.000Z	KeyBoardx86		can anyone let me know which one will be the command to find out what wireless chipset card do I have on my laptop?
+2010-11-21T06:56:00.000Z	psycho_oreos	KeyBoardx86	lspci -nnk
+2010-11-21T06:57:00.000Z	psycho_oreos	KeyBoardx86	makes lspci output both numeric forms and resolved ID along with any loaded kernel modules along with available kernel modules

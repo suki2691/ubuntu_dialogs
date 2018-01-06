@@ -1,0 +1,4 @@
+2008-04-14T13:23:00.000Z	tocmo0nlord		if my x gets frozen ive gone in tty1 remove lock and start x again on tty1 but its still running on tty7 how could would i go on about this issue ?
+2008-04-14T13:24:00.000Z	tocmo0nlord		i want to fix or restart x on tty7 not start a new one on tty1
+2008-04-14T13:25:00.000Z	simplexio	tocmo0nlord	kill X and then you go tty7, in ubuntu X restarts automatically if its killed
+2008-04-14T13:25:00.000Z	simplexio	tocmo0nlord	but if you dont wat it to respawn you /etc/init.d/gdm stop

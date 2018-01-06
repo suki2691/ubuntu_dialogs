@@ -1,0 +1,4 @@
+2007-09-05T11:34:00.000Z	rockets		Is there any type of automatic update notification for ubuntu server?
+2007-09-05T11:35:00.000Z	amias	rockets	you could run 'apt-get update && apt-get upgrade' in roots cron on a daily basis , but are you realy sure you want it to auto update a server , things might break
+2007-09-05T11:36:00.000Z	rockets	amias	i dont want auto update i want auto update notifications.
+2007-09-05T11:37:00.000Z	amias	rockets	then just don't do the apt-get updgrade bit and look files being downloaded in the output of apt-get update

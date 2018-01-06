@@ -1,0 +1,4 @@
+2009-05-05T13:33:00.000Z	petrolman		Hi, my terminal is set to charset utf-8 by default. When connecting to a server which charset is set to ISO-8859-15 I cant see the german umlauts. I do have to set my terminal to ISO-8859-15. Why? I thought utf-8 can interpret all chars?
+2009-05-05T13:34:00.000Z	aspidites	petrolman	you need a unicode capable terminal
+2009-05-05T13:34:00.000Z	aspidites	petrolman	off the top of my head, that includes urxvt, roxterm, sakura, and a couple of others. not sure if gnome-terminal is unicode.
+2009-05-05T13:35:00.000Z	aspidites	petrolman	also make sure your locale is set correctly

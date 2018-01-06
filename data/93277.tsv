@@ -1,0 +1,4 @@
+2008-04-27T00:19:00.000Z	karaluh		after upgrade to hardy 2.6.24 gives kernel panic unable to mount root, 2.6.22 gives busybox without any disk devices
+2008-04-27T00:20:00.000Z	tech0007	karaluh	reboot to your old kernel, then check your modules.conf
+2008-04-27T00:23:00.000Z	karaluh	tech0007	i couldn't boot with old kernel, i had to use rescue cd to revert initramfs to the one generated on gutsy. i was able to boot 2.6.22 then
+2008-04-27T00:25:00.000Z	karaluh	tech0007	my /etc/modules is: loop, lp, fuse

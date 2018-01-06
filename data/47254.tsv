@@ -1,0 +1,4 @@
+2011-10-28T16:48:00.000Z	katronixserf		hey all, I've finished installing ubuntu 11.1 on a small portion of my drive, and due to various reasons now want it to be on a large part of my drive. Is there a easy and safe way to move what I have to the larger drive? or do I have to install from dvd again?
+2011-10-28T16:49:00.000Z	llutz_	katronixserf	you can copy it using "cp -ax" or "rsync" to the new partition. better to do that from live-cd
+2011-10-28T16:49:00.000Z	llutz_	katronixserf	after it, you have to fix /etc/fstab and rewrite grub
+2011-10-28T16:51:00.000Z	llutz_	katronixserf	it also takes some time. no idea whats faster, if you haven't done anything except isntallation now, it probably would be easier for you just to reinstall

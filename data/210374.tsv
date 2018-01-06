@@ -1,0 +1,4 @@
+2009-02-24T15:46:00.000Z	TecR0c		how do i use tar to unzip a file and extract it in a folder?
+2009-02-24T15:47:00.000Z	TecR0c		i looked in man tar but couldn't work it out
+2009-02-24T15:47:00.000Z	TecR0c		tar.gz
+2009-02-24T15:48:00.000Z	linxeh	TecR0c	tar xf file.tar.gz (modern tar automatically detects compression and adds j / z as appropriate)

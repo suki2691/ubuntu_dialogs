@@ -1,0 +1,4 @@
+2007-02-22T13:35:00.000Z	oritemis		I had a directory inside my home dir. how do I put it into path variable?
+2007-02-22T13:35:00.000Z	unop	oritemis	 add a line like this to your ~/.bashrc  export PATH=$PATH:/path/to/dir
+2007-02-22T13:36:00.000Z	oritemis	unop	thank you.
+2007-02-22T13:37:00.000Z	unop	oritemis	 this'll probably only work for your bash shell/scripts that use bash -- but you should be able to use the same in other rc files

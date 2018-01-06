@@ -1,0 +1,4 @@
+2005-02-17T11:55:00.000Z	Riddell	Timbo	apt-get remove kcontrol
+2005-02-17T11:56:00.000Z	Timbo	Riddell	but k3b depends on it
+2005-02-17T11:56:00.000Z	Timbo		it needs to stay installed, i just don't want it in the menu
+2005-02-17T11:58:00.000Z	Riddell	Timbo	interesting, didn't know that.  you could try adding X-OnlyShowIn=KDE to the .desktop file

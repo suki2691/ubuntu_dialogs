@@ -1,0 +1,4 @@
+2008-04-16T02:28:00.000Z	lopin		I'm a bit worried about my desktop.  Yesterday, while my computer was outside of my routers firewall, I recieved a request for a VNC session, and I denied it.  Today, linux is running slowly, and crashing quite frequently.  What can I do?
+2008-04-16T02:29:00.000Z	tuna	lopin	first, see what software you have running. use "sudo top"
+2008-04-16T02:29:00.000Z	tuna	lopin	look for the ones using most cpu
+2008-04-16T02:32:00.000Z	tuna	lopin	look their process number, then look around in /proc/<number>

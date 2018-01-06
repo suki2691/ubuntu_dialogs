@@ -1,0 +1,4 @@
+2011-03-15T01:40:00.000Z	seme		hi guys... can anyone give me a hand.. for some reason ubuntu won't boot and just drops me into busybox... looks like my xfs partition has been unmounted wrong and the fs needs to be fsck'd but I can't figure out how to do it since I don't have any xfs fsck utils
+2011-03-15T01:40:00.000Z	PastorEd	seme	have you tried rebooting, and selecting the "failsafe" option?
+2011-03-15T01:41:00.000Z	PastorEd	seme	hmm. Do you have a LiveCD handy? You could boot using that, and then fsck the unmounted drive.
+2011-03-15T01:42:00.000Z	PastorEd	seme	no problem. Just make sure that the partition you want to fsck is not mounted, and you should be able to check it, no problem, using the LiveCD.

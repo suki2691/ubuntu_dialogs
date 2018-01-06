@@ -1,0 +1,4 @@
+2008-06-30T22:58:00.000Z	d0wn		Hi, I need help with securing some accounts on my Ubuntu installation. I need to make it so that another account cannot view files in someone elses /home/ folder. Would chmod be what I need to use?
+2008-06-30T22:59:00.000Z	ASULutzy	d0wn	First off, are the other users in the admin group? if so they could just use sudo and access them anyway, so obviously have to take care of that first
+2008-06-30T23:01:00.000Z	ASULutzy	d0wn	Check what groups they're in, you can check via the GUI I'm sure, the non admins should not be in the admin group
+2008-06-30T23:02:00.000Z	d0wn	ASULutzy	they are under the group ircd, which is also the account name

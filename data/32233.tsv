@@ -1,0 +1,4 @@
+2011-04-05T02:04:00.000Z	Jon--		Is it a bad idea to mix package updating through apt-get, aptitude and/or synaptic package manager, or will they each know which packages the other(s) have installed?
+2011-04-05T02:05:00.000Z	th0r	Jon--	they all use the same database, so you can use them all without worry
+2011-04-05T02:05:00.000Z	Jon--	th0r	Thanks. Saw some forum posts from 2005 that said that mixing was a bad idea. I infer from this that once it WAS a bad thing to do?
+2011-04-05T02:06:00.000Z	th0r	Jon--	to my knowledge there has never been any issue with using them all on the same machine, but you can only use one at a time since they all access the same database

@@ -1,0 +1,4 @@
+2011-06-09T00:03:00.000Z	undecim		If I have a hard drive that will not always be in the computer, what line should I use in fstab?
+2011-06-09T00:04:00.000Z	celthunder	undecim	make a udev rule ?  you can add it to fstab as well and then it just wont automount unless it's there
+2011-06-09T00:04:00.000Z	undecim	celthunder	So there's no way to add it to fstab and allow the mount to fail?
+2011-06-09T00:05:00.000Z	undecim	celthunder	Actually, in wording that question, I found the search that lead me to find the answer in the mount manual....

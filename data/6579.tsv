@@ -1,0 +1,4 @@
+2012-01-07T01:07:00.000Z	Negat1ve-Zer0		Is there a way to do an unblocked read from the bash shell? let's say I'm writing a game and I want to get a keypress but I don't want to hang my game up waiting for the read to complete, anyone know how to do that?
+2012-01-07T01:09:00.000Z	zipace	Negat1ve-Zer0	not possible in bash, as every bash "command" is essentially a process (unless the command is declared as function, but still, a function may, and likely will, start subprocesses)
+2012-01-07T01:11:00.000Z	Negat1ve-Zer0	zipace	there's no way to do an unblocked read?? that screws me on writing this game
+2012-01-07T01:13:00.000Z	Negat1ve-Zer0	zipace	thanks, anywho :)

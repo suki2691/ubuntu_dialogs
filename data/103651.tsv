@@ -1,0 +1,4 @@
+2011-03-12T04:05:00.000Z	onur__		hello, i have a problem with my ethernet connection. dmesg returning : "  ADDRCONF(NETDEV_UP): eth0: link is not ready"  and "r8169 0000:03:00.0: eth0: link down" repeatedly like million times.
+2011-03-12T04:05:00.000Z	ActionParsnip	onur__	have you tried disabling ipv6?
+2011-03-12T04:08:00.000Z	ActionParsnip	onur__	in /etc/default/grub   change: GRUB_CMDLINE_LINUX_DEFAULT="quiet splash"     to GRUB_CMDLINE_LINUX_DEFAULT="quiet splash ipv6.disable=1"
+2011-03-12T04:08:00.000Z	ActionParsnip	onur__	save the new file and run: sudo update-grub

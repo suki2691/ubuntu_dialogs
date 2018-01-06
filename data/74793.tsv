@@ -1,0 +1,4 @@
+2011-11-04T05:09:00.000Z	robin0800	nixxo	it should just be sda the root of the drive not a partition
+2011-11-04T05:16:00.000Z	robin0800	nixxo	yes sda sdb sdc etc
+2011-11-04T05:22:00.000Z	robin0800	nixxo	I have never specified the root directory if you have no boot partition it is not needed
+2011-11-04T05:24:00.000Z	robin0800	nixxo	sudo grub-install /dev/sda ......... is all you need

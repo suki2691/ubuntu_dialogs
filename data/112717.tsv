@@ -1,0 +1,4 @@
+2007-11-26T07:03:00.000Z	excoder		Hello. I'm trying to install ubuntu on my desktop and upon loading the live CD I'm getting an error of "Frequency Over Ragne". So I went to the CLI and changed the HorizSync and VertRefresh. But as I did startx again, I'm now getting this error: AIGLX: Screen 0 is not DRI capable. Can anyone help?
+2007-11-26T07:04:00.000Z	kitche	excoder	that'st not really an error just make it so dri doesn't load in your xorg.conf
+2007-11-26T07:06:00.000Z	excoder	kitche	I'm not seeing any "load dri" on my xorg.conf
+2007-11-26T07:07:00.000Z	excoder	kitche	I'm not seeing any "load dri" on my xorg.conf how do I disable it?

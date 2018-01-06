@@ -1,0 +1,4 @@
+2008-08-04T21:32:00.000Z	tharvey		whats a quick cmdline that will tell someone if they are using dash or bash as sh?
+2008-08-04T21:33:00.000Z	unop	tharvey	ls -l $(which sh)
+2008-08-04T21:33:00.000Z	tharvey	unop	- thanks
+2008-08-04T21:34:00.000Z	unop	tharvey	or better.  readlink -f $(which sh)

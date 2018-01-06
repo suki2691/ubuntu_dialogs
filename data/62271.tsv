@@ -1,0 +1,4 @@
+2010-07-10T11:27:00.000Z	giampiero		I get an errror message at startup which says that the system fails to start daemon winbind. Can anyody help?
+2010-07-10T11:29:00.000Z	giampiero		I get an errror message at startup which says that the system fails to start daemon winbind. Can anyody help?
+2010-07-10T11:30:00.000Z	iceroot	giampiero	/var/log/samba/log.winbind  or /var/log/daemon.log
+2010-07-10T11:38:00.000Z	iceroot	giampiero	ps aux | grep winbind   should show winbind

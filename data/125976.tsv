@@ -1,0 +1,4 @@
+2007-08-07T13:14:00.000Z	NeVerSafe		i been playing with iwconfig and ifconfig (removed networkmanager for the time being) i can connect to my wireless server but i dont really know how to disconnect from it anyone know the command for it ?
+2007-08-07T13:15:00.000Z	needhelp	NeVerSafe	maybe sudo ifdown <dev>
+2007-08-07T13:16:00.000Z	NeVerSafe	needhelp	 i wanna disconnect give it new info for another network and connect but bringing the device down the up again will just connect to the old one again :(
+2007-08-07T13:17:00.000Z	needhelp	NeVerSafe	perhaps ifdown dev, iwconfig dev mode managed, iwconfig dev channel ch, iwconfig essid id, ifconfig dev up or ifup dev

@@ -1,0 +1,4 @@
+2007-07-07T16:37:00.000Z	magnetron		g[r] eek: depends on what application will need to access it
+2007-07-07T16:38:00.000Z	g[r] eek	magnetron	i am launching jboss (application server) as a startup-service, which has its own start script in init.d, but its not loading properly because it cannot find the "java" path. so i want to set the JAVA_HOME path somewhere before jboss is started.
+2007-07-07T16:38:00.000Z	g[r] eek	magnetron	are you referring to the jboss script?
+2007-07-07T16:39:00.000Z	g[r] eek	magnetron	ok thanks. i was just wondering if i should be looking for some kind of global script like window's autoexec.bat

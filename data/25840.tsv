@@ -1,0 +1,4 @@
+2012-11-08T14:01:00.000Z	belgianguy		is there a dedicated tool to wipe/bleach a HDD before getting rid of it?
+2012-11-08T14:01:00.000Z	iceroot	belgianguy	dd
+2012-11-08T14:01:00.000Z	belgianguy	iceroot	thanks, I'll take a look
+2012-11-08T14:02:00.000Z	iceroot	belgianguy	DANGER this command will clean the complete hdd, sudo dd if=/dev/null of=/dev/sdX   where X is your drive letter

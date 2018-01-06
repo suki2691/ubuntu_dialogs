@@ -1,0 +1,4 @@
+2005-05-22T11:29:00.000Z	karljp		anyone i sntalled imgseek from the repos?
+2005-05-22T11:29:00.000Z	karljp		ImportError: No module named imgSeekLib
+2005-05-22T11:29:00.000Z	Juhaz	karljp	yes, it's broken
+2005-05-22T11:30:00.000Z	Juhaz	karljp	it installs to wrong dir, that in itself would be easy to fix, but even if you move it, there's some kind of pyqt version incompability

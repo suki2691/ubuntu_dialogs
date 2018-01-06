@@ -1,0 +1,4 @@
+2011-03-02T04:05:00.000Z	dborba		hey fellas - having a weird problem. so i just set up a new box & when i tried to login authentication failed. i thought it was rather weird since it's a password i use by muscle memory & chances of me mistyping it twice during installation were minimal. anyways - started a root shell in recovery mode & ran passwd. got the warning password unchanged... what is going on?
+2011-03-02T04:06:00.000Z	dborba		running login from the root shell & trying my user gives me same issue
+2011-03-02T04:07:00.000Z	dborba		bizzarre - changing to a new password & changing it back fixed it
+2011-03-02T04:08:00.000Z	raido	dborba	did you give your user login privelages? Check /etc/passwd

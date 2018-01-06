@@ -1,0 +1,4 @@
+2006-05-19T08:30:00.000Z	julian		Hello, I had a quick question and was wondering if anyone had some ideas. I was installing ubuntucenter, and had all the dependencies installed, but apt claimed I needed libgd2-dev libgd2-noxpm libgd2-noxpm-dev
+2006-05-19T08:30:00.000Z	julian		, which conflicted with ubuntucenter and php-5, so I managed to ignore those and force the install of ubuntucenter, but now I can't do anything with apt at all. It says I need libgd2-dev libgd2-noxpm libgd2-noxpm-dev
+2006-05-19T08:30:00.000Z	julian		 Does anyone know how I can make apt ignore those?
+2006-05-19T08:31:00.000Z	linux_galore	julian	forcing stuff will break the install

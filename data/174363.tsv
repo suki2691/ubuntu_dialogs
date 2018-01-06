@@ -1,0 +1,4 @@
+2006-08-16T07:19:00.000Z	tRSS		sorry if this a n00b question, but I would like to compile (k)ubuntu on my pocket pc phone. is it possible?
+2006-08-16T07:20:00.000Z	jatt	tRSS	I doubt it. Which are the hardware specifications of your "pocket pc phone"?
+2006-08-16T07:22:00.000Z	jatt	tRSS	ubuntu doesn't support such processor so I doubt it will always compile ubuntu source packages.
+2006-08-16T07:23:00.000Z	jatt	tRSS	*maybe* gcc (and the toolchain) can be configured to crosscompile to that processor, so you can compile your packages on your pc and upload them to your pc phone

@@ -1,0 +1,4 @@
+2010-06-14T18:08:00.000Z	zulgaban		i have installed ubuntu-desktop (apt-get install ubuntu-desktop) on top of ubuntu-server (10.04). how do i disable the GUI from auto-booting everytime i reboot the server?
+2010-06-14T18:09:00.000Z	zulgaban		thank you Dr_Willis
+2010-06-14T18:09:00.000Z	erUSUL	zulgaban	edit /etc/init/gdm.conf comment out from the line that begins "start on ..." to " ... or stopped udevtrigger)) "
+2010-06-14T18:13:00.000Z	erUSUL	zulgaban	or this http://serverfault.com/questions/137776/disable-gdm-in-ubuntu-10-04

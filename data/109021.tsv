@@ -1,0 +1,4 @@
+2008-03-24T16:53:00.000Z	sourcemaker		I have read that Kubuntu 8.04 Beta has been released... one of the new feature is to use an encrypted file system... Can I also encrypt only my home directory ? I think using a encrypted file system slows down the system.... right?
+2008-03-24T16:54:00.000Z	stefg	sourcemaker	you' re right, and running only /home encrypted is the reasonable route to take. There's not much secret about thesystem files on an opensource OS anyway
+2008-03-24T16:57:00.000Z	sourcemaker	stefg	ok... should I also encrypt /var and /tmp?
+2008-03-24T17:00:00.000Z	stefg	sourcemaker	encrypted /tmp would be bad from perfomace point of view ... rather use a tmpfs for /tmp (although /tmp will still be unencrypted if the box wakes up from suspend/hibernate) . /var in general doesnt need encryption. maybe put /var/log and other files to the encrypted partition and symlink them over.

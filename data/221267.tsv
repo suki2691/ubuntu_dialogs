@@ -1,0 +1,4 @@
+2008-10-10T17:29:00.000Z	AdvoWork		how can i upgrade firefox from the terminal? is it even possible?
+2008-10-10T17:30:00.000Z	BlueEagle	AdvoWork	sudo apt-get update && sudo apt-get upgrade
+2008-10-10T17:30:00.000Z	BlueEagle	AdvoWork	That will upgrade all availible packages.
+2012-07-02T12:54:00.000Z	BlueEagle	AdvoWork	I would assume the configuration file of wine would be a good place to look. If 1024 is not enough then I would ask what you are doing in Wine that spawns so many open files. :/

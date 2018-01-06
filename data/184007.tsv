@@ -1,0 +1,4 @@
+2007-12-25T11:28:00.000Z	ThePub		x is starting in 1600x1200 resolution when it should be starting at 1280x1024 as it's setup in xorg.conf.  if I run xrandr after X starts up I can fix it, but how do I solve it w/o this since that isn't a solution?
+2007-12-25T11:29:00.000Z	nickrud	ThePub	system->prefs->screen resolution, that should remember your choice
+2007-12-25T11:29:00.000Z	ThePub	nickrud	that's not a solution :)  I'm not using gnome.  xorg should startup to the resolution specified in the configuration file.
+2007-12-25T11:30:00.000Z	nickrud	ThePub	oh, true. But I haven't really looked into this new smarter than us X yet, so I tell people about that workaround :)

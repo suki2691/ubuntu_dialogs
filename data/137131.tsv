@@ -1,0 +1,4 @@
+2008-06-06T21:55:00.000Z	Sweetandy		When I did a dist-upgrade to 8.04, I was asked about the grub bootloader and the menu.lst file, because it wanted to update it so I could boot the newest kernel. Naive as I am, I said yes. Now I've lost the Windows XP portion of my menu.lst file. I've tried to replace it, with no luck. I get something about needing an absolute filename. Windows is at /dev/sda1. http://pastebin.com/d6a555955
+2008-06-06T21:56:00.000Z	soundray	Sweetandy	try removing line 165.
+2008-06-06T21:56:00.000Z	Sweetandy	soundray	will try.
+2008-06-06T21:57:00.000Z	soundray	Sweetandy	and remove the space between + and 1 in line 167

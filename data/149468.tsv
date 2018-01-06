@@ -1,0 +1,4 @@
+2010-06-02T00:49:00.000Z	vsMS		hi. I need a little support with reverse sorting a textfile. can someone help please?
+2010-06-02T00:51:00.000Z	vsMS		look here: http://pastebin.com/download.php?i=Gtnj02s3
+2010-06-02T00:52:00.000Z	vsMS		the file has entries sorted by year but it should be reverse sorted. Each year has at least one entry but can have up to three
+2010-06-02T00:54:00.000Z	Pici	vsMS	I would use sort -r, use the -k switch to determine what field you should sort on, #bash would be a good place to ask further questions.

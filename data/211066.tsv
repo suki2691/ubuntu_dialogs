@@ -1,0 +1,4 @@
+2008-12-11T22:01:00.000Z	Maveas		When I try to run "sudo gedit filename &" nothing happens and that's because you have to enter a password for the sudo - but how do I include the password in the sudo command?
+2008-12-11T22:02:00.000Z	MenZa	Maveas	You don't. You don't want the password to be in ~/.bash_history
+2008-12-11T22:02:00.000Z	MenZa	Maveas	And you should use gksu instead of sudo when executing GNOME applications.
+2008-12-11T22:03:00.000Z	MenZa	Maveas	g(t)ksu(do) :)

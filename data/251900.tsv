@@ -1,0 +1,4 @@
+2005-12-20T12:59:00.000Z	SpikeyLozenge		I hate to ask again, but I'll post it one more time... When Selecting OSS From the Multimedia Systems Selector and Testing, I get an error: Failed to construct test pipeline for 'OSS - Open Sound System'  Any Ideas? Sorry to Pest...
+2005-12-20T12:59:00.000Z	pipeline	SpikeyLozenge	What that most likely means is that your sound card is simply not working out with linux.  Have you tried selecting Alsa?
+2005-12-20T13:05:00.000Z	pipeline	SpikeyLozenge	There's also a kernel driver that emulates OSS using Alsa
+2005-12-20T13:05:00.000Z	pipeline	SpikeyLozenge	try loading snd-pcm-oss and snd-mixer-oss

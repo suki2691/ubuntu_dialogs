@@ -1,0 +1,4 @@
+2011-03-09T00:11:00.000Z	ahammond		I have a xen guest. I upgraded it's kernel, which looked like it worked. Now it's booting the old kernel again... how do I cause it to boot the new kernel?
+2011-03-09T00:13:00.000Z	ActionParsnip	ahammond	edit /etc/default/grub to set the default.
+2011-03-09T00:13:00.000Z	ahammond	ActionParsnip	thanks
+2011-03-09T00:14:00.000Z	ActionParsnip	ahammond	run: sudo update-grub  to apply the cha

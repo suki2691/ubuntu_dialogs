@@ -1,0 +1,4 @@
+2010-02-23T12:46:00.000Z	babbio		hi to all
+2010-02-23T12:48:00.000Z	babbio		i have a problem....at office I'm behind a proxy server, so i need to setup all the program to authenticate via the proxy and when i come back to home I have to remove the proxy configuration and I have to do this every single days....so i would like to know if there is a configuration file in wich I could insert the proxy configuration so that i could make a script to do it automatically....is this possible?
+2010-02-23T12:50:00.000Z	babbio		and it will work also for apt and so on?
+2010-02-23T12:50:00.000Z	Jordan_U	babbio	You can do it with network manager ( setup the proxy to be used when connected to one network but not the other )

@@ -1,0 +1,4 @@
+2007-02-09T14:45:00.000Z	corevette		what does this error mean from apache:
+2007-02-09T14:45:00.000Z	corevette		Fatal error: Call to undefined function get_header() in /var/www/index.php on line 2
+2007-02-09T14:46:00.000Z	guisolo	corevette	in your php file you are making a call to a function it can't find
+2007-02-09T14:46:00.000Z	guisolo	corevette	not apache

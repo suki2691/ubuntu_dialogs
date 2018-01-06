@@ -1,0 +1,4 @@
+2007-11-07T10:13:00.000Z	KNY		is there a way to get `ssh` (the OpenSSH client) to prompt for username? (instead of having to use -l or user@host)
+2007-11-07T10:13:00.000Z	kelsin	KNY	don't know, but you can create a .ssh/config file to set a username for each host so you don' thave to type it at all
+2007-11-07T10:13:00.000Z	KNY	kelsin	hmm. I'll look into it
+2007-11-07T10:14:00.000Z	kelsin	KNY	you can set up lots of options on a per host basis, and shorten names (sort of like a ssh smart alias) it's worth doing if you ssh around a lot

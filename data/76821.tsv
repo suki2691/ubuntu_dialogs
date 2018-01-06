@@ -1,0 +1,4 @@
+2009-05-04T04:12:00.000Z	TopRamen		guys, I need a mail server strictly for sending mail for an application we have running on an ubuntu server. we don't need it for receiving and delivering mail to users. for this use case, which is better, sendmail or postfix?
+2009-05-04T04:12:00.000Z	TopRamen		I need something lightweight that wont consume to much of the server's resources
+2009-05-04T04:13:00.000Z	TopRamen		too much
+2009-05-04T04:14:00.000Z	jken146	TopRamen	If you only want to send mail, why not just configure your app to send mail via e.g. smtp.googlemail.com ?

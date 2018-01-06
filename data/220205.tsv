@@ -1,0 +1,4 @@
+2011-05-22T02:44:00.000Z	antaranian		Guys, I owned a vps server with Ubuntu, and connected with root (only available) account via ssh
+2011-05-22T02:44:00.000Z	antaranian		then I accidentally used "sudo passwd -l root" so disabled root, and now I can't login via ssh, what will I do ?
+2011-05-22T02:44:00.000Z	Flannel	antaranian	Call the VPS people to fix it
+2011-05-22T02:44:00.000Z	Flannel	antaranian	and next time, create a new user with admin rights before disabling root :)

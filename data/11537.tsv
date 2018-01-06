@@ -1,0 +1,4 @@
+2012-02-29T14:10:00.000Z	daan4711		Hi, I have got a question: How can I set up my usb-keyboard to have another keyboard-layout than my laptop-built-in-keyboard. I figured something out using xorg.conf, but this does only work when I start u with my usb-keyboard plugged in, after replugging, it reverts back to the original keyboard-layout.
+2012-02-29T14:12:00.000Z	pfifo	daan4711	https://help.ubuntu.com/community/LocaleConf
+2012-02-29T14:14:00.000Z	daan4711	pfifo	Hi, thanx for the link. But this wiki doesn't seem to say anything about multiple layouts and keyboards, or am I wrong?
+2012-02-29T14:23:00.000Z	pfifo	daan4711	I use "setxkbmap dvorak" myself and switch back and forth as needed, perhaps that is what you need

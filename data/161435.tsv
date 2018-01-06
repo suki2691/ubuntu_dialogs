@@ -1,0 +1,4 @@
+2008-07-20T11:45:00.000Z	juancarlos		alright, basically i want to tar all files of certain type that are in certain folder (and also all those in its subfolders). i collected the files using find, but i am not sure how to tar them... how could I pass all the filenames to tar?
+2008-07-20T11:47:00.000Z	juancarlos		someone pls help with tar... how can i pass a list of filenames to tar?? the filenames are within a textfile
+2008-07-20T11:48:00.000Z	Kernel	juancarlos	look at cat
+2008-07-20T11:48:00.000Z	Kernel	juancarlos	cat file | tar

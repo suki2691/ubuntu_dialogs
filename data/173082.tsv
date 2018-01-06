@@ -1,0 +1,4 @@
+2007-06-29T06:41:00.000Z	AaronShaf		I have a VPS account with 512mb dedicated to me, and when I start the server fresh (no apps like apache or mysql running) and run "top" I see this: Mem: 8300032k total, 8273032k used, 27000k free, 514436k buffers ... what does this mean? What is "buffers"?
+2007-06-29T06:42:00.000Z	MarcN	AaronShaf	disk cache typically
+2007-06-29T06:42:00.000Z	AaronShaf	MarcN	What is disk cache?
+2007-06-29T06:43:00.000Z	MarcN	AaronShaf	frequently used information is kept in memory incase it is needed in the future.  A good and common thing for operating systems to do.

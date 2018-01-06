@@ -1,0 +1,4 @@
+2005-03-11T12:24:00.000Z	bzbb		where can I get java for hoary?
+2005-03-11T12:24:00.000Z	darksatanic	bzbb	Install java-package, and run make-jpkg
+2005-03-11T12:26:00.000Z	darksatanic	bzbb	It creates a package, which has root-owned files in it, so if you try to create the package as a user, the files can't be created with the right uids.
+2005-03-11T12:30:00.000Z	bzbb	darksatanic	what is the path I feed make-jpkg?

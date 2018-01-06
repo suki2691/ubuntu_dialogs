@@ -1,0 +1,4 @@
+2009-01-27T01:54:00.000Z	diffred		hi! how do I use grep to find a line of code within a bunch of directories with a lot of filesrecursively
+2009-01-27T01:55:00.000Z	lstarnes	diffred	in the root directory of that program's source, try this (including the . at the end): grep -nHR "line of code" .
+2009-01-27T01:55:00.000Z	diffred	lstarnes	thanks!
+2009-04-05T13:44:00.000Z	lstarnes	diffred	or just php filename.php

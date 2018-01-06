@@ -1,0 +1,4 @@
+2009-03-07T00:25:00.000Z	psyk		hey guy's, have anyone a idea why i get 'audiotestsrc wave=sine freq=512 ! audioconvert ! audioresample ! gconfaudiosink: Could not open audio device for playback.' when i want to test my usb soundcard with alsa..but when i swap to oss it works fine?
+2009-03-07T00:26:00.000Z	_Garfield_	psyk	yes
+2009-03-07T00:26:00.000Z	_Garfield_	psyk	the audio is already in use
+2009-03-07T00:27:00.000Z	psyk	_Garfield_	i have also an onboard card but ubuntu does not record from its mic input, thats why i got the usb one...could the onboard be the problem? (im relativ new to ubuntu)

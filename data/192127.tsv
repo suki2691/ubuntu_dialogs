@@ -1,0 +1,4 @@
+2009-12-06T02:31:00.000Z	al_		if in the man pages of a command, it has something like "-e, --delete" how do you impliment the --delete, ie COMMAND --delete, or COMMAND -e--delete???
+2009-12-06T02:31:00.000Z	heroin	al_	either OR -e = shortcut for --delete
+2009-12-06T02:33:00.000Z	al_	heroin	but -e then has about five different options, so it has -e then --delete, --delete-before, --delete-during - so -e on its own gives you which of the sub options?
+2009-12-06T02:34:00.000Z	heroin	al_	i am unsure, it depends per program

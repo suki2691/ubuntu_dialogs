@@ -1,0 +1,4 @@
+2009-05-06T16:07:00.000Z	penigma_		hi, how to remove all subdirs named .svn from command line [recursively ] ?
+2009-05-06T16:09:00.000Z	ActionParsnip	penigma_	find -type d .svn -exec rm -rf {} \;
+2009-05-06T16:16:00.000Z	penigma_	ActionParsnip	your code also doen't work
+2009-05-06T16:22:00.000Z	ActionParsnip	penigma_	its gonna involve find -type d to make sure the thing deleted is a folder

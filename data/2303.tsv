@@ -1,0 +1,4 @@
+2012-06-23T19:39:00.000Z	stdd		any ideas where to start fixing a broken lvm partition? when I try to mount the lvm directly I get following error: wrong fs type, bad superblock on <partition>.. try dmesg
+2012-06-23T19:40:00.000Z	stdd		dmesg just gives me an i/O error at the end
+2012-06-23T19:40:00.000Z	Mandalord	stdd	try this http://www.tcpdump.com/kb/os/linux/configuring-lvm/intro.html
+2012-06-23T19:42:00.000Z	stdd	Mandalord	thanks, running fdisk, then n says default partition number is 3.. should I still use one as described on the website or 3?

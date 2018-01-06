@@ -1,0 +1,4 @@
+2011-07-25T16:40:00.000Z	nudb2		I'm a sudoer on two servers and would like to compare the contents of every file in a direcotry /thisdirectory and subdirectories -- like an intensitve "diff".  I want to know if there is any difference in any of the files, or if there is a file that exists in one server but not the other.  Actually, one is an earlier snapshot made into a server, whereas the other continued... so, there should be absolutely no difference, I just want to make sure
+2011-07-25T16:40:00.000Z	nudb2		.  How would I do this?
+2011-07-25T16:41:00.000Z	Slart	nudb2	you could do a recursive md5sum, or crc32
+2011-07-25T16:43:00.000Z	Slart	nudb2	there's also a utility that's called cfv.. its in the repos

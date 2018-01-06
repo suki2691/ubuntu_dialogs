@@ -1,0 +1,4 @@
+2009-08-28T09:46:00.000Z	caddy		hello can someone please help me with blacklist removal?
+2009-08-28T09:47:00.000Z	caddy		is there anyone here that knows much about removing stuff from blacklist?
+2009-08-28T09:48:00.000Z	histo	caddy	edit /etc/modprobe.d/blacklist.conf
+2009-08-28T09:48:00.000Z	histo	caddy	then you can sudo update-initramfs -y

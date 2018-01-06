@@ -1,0 +1,4 @@
+2009-05-12T20:34:00.000Z	VCoolio	borisstrajnar	alt+sysrq(printscrn)+k = back to login;  ctrl+alt+F1-6 = console;  ctrl+alt+F7 = back to x
+2009-05-12T20:37:00.000Z	borisstrajnar	VCoolio	yeah that's it..... now let us see if it works:) Many thanks
+2009-05-12T20:58:00.000Z	borisstrajnar		anyone knows how to kill a process which ocuppies full screen. (warzone 2100 on exit) I'we tried with console Alt-F1 and command 'top'...but warzone stays alive and makes black screen eventualy..... when you press Alt-F7. Any idea???
+2009-05-12T21:02:00.000Z	VCoolio	borisstrajnar	you can try "kill -9 process" to force kill, or "sudo /etc/init.d/gdm restart" to get back to login

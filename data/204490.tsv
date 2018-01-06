@@ -1,0 +1,4 @@
+2008-09-13T07:00:00.000Z	LinuxGhost		basti,what? i didnt understand
+2008-09-13T07:01:00.000Z	HymnToLife	LinuxGhost	it's normal, you have to give yourself the permission to write to it
+2008-09-13T07:01:00.000Z	HymnToLife	LinuxGhost	sudo chown :`whoami` /var/www && sudo chmod 775 /var/www
+2008-09-13T07:02:00.000Z	HymnToLife	LinuxGhost	if you're the only user who needs to write to /var/www

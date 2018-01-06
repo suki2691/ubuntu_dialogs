@@ -1,0 +1,4 @@
+2009-02-18T04:44:00.000Z	RusBoy		you should add the script to /etc/init.d/
+2009-02-18T04:45:00.000Z	RusBoy		chmod 755 /etc/init.d/script
+2009-02-18T04:47:00.000Z	devon	RusBoy	if hsi script doesn't obey standard init script behavior (liek restart, stop, etc) it really is better for it to go into rc.local
+2009-02-18T04:47:00.000Z	devon	RusBoy	that's what it's for

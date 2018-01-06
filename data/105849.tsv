@@ -1,0 +1,4 @@
+2008-03-29T19:44:00.000Z	foo-nix		when playing audio using xine, xine always notifys that the audio device is busy/used by a different program. is there some way to check which proccess locks my soundcard. Are there programs known for doing this?
+2008-03-29T19:46:00.000Z	foo-nix		Secondly, I found out my kernel only loads these modules at boot: fuse, lp and sbp2. Should it not also load a module for my soundcard, and isn't this very poor (in number). I found this information form /etc/modules.
+2008-03-29T19:48:00.000Z	sinbox	foo-nix	lsof | grep /dev/snd
+2008-03-29T19:49:00.000Z	foo-nix	sinbox	lsof | grep snd   gave me nothing

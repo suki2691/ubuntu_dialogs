@@ -1,0 +1,4 @@
+2009-10-28T18:24:00.000Z	cxo		How do you get to runlevel 3 on Ubuntu?
+2009-10-28T18:25:00.000Z	cxo		network + multi-user + no gui
+2009-10-28T18:27:00.000Z	ks3	cxo	You could stop gdm? invoke-rc.d gdm stop
+2009-10-28T18:30:00.000Z	ks3	cxo	I believe you can install a standard sysv init package and use it instead of upstart, but I've never tried

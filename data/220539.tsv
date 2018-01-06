@@ -1,0 +1,4 @@
+2008-02-04T05:09:00.000Z	cheesypieces		guys, any idea on how i can change my loading screen to ubuntu rather than kubuntu?
+2008-02-04T05:09:00.000Z	Flannel	cheesypieces	The login? or before the login?
+2008-02-04T05:10:00.000Z	Flannel	cheesypieces	sudo update-alternatives --config usplash-artwork.so
+2008-02-04T05:11:00.000Z	Flannel	cheesypieces	then once you've done that, to make it happen immediately: sudo dpkg-reconfigure linux-image-$(uname -r)

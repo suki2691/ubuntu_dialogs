@@ -1,0 +1,4 @@
+2009-08-21T09:21:00.000Z	SnakDoc		dd if=image.img of=/dev/sda would that work to make system image ?
+2009-08-21T09:22:00.000Z	SnakDoc		i did that in reverse then i am wanting to pull hd to image
+2009-08-21T09:22:00.000Z	SnakDoc		dd if=/dev/sda of=image.img that look better
+2009-08-21T09:24:00.000Z	stew	SnakDoc	if it makes it easier to remember, you can skip dd and just use "cp /dev/sda /some/image.img" to make an image and "cp /some/image.img /dev/sda" to restore it

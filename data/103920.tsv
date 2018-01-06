@@ -1,0 +1,4 @@
+2011-10-05T22:03:00.000Z	flashnotworking		Hi, flash is not working on this laptop. I went to youtube, said I need to install a plugin. I don't get it, flash used to work on this laptop
+2011-10-05T22:04:00.000Z	ActionParsnip	flashnotworking	can you give the output of:  lsb_release -a; uname -a; dpkg -l | egrep 'flash|gnash|swf'        use a pastebin to hold the outpupt
+2011-10-05T22:06:00.000Z	ActionParsnip	flashnotworking	ok so the dpkg command outputted nothing?
+2011-10-05T22:07:00.000Z	ActionParsnip	flashnotworking	sudo add-apt-repository ppa:sevenmachines/flash; sudo apt-get update; sudo apt-get install flashplugin64-installer

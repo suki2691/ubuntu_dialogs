@@ -1,0 +1,4 @@
+2012-08-20T02:51:00.000Z	dj_segfault		Hi. I'm trying to start my 10.04 (Lucid) computer in text mode.  I found http://fooninja.net/2010/07/29/text-boot-in-ubuntu-lucid-lynx-10-04-disabling-gdm/ which says to put  'GRUB_CMDLINE_LINUX="text"' in /etc/default/grub, but that file doesn't exist on my system, and when I created it and rebooted, it didn't change anything.  Is that file somewhere else?
+2012-08-20T02:52:00.000Z	Scell	dj_segfault	try /boot/grub/menu.lst
+2012-08-20T02:52:00.000Z	Scell		I know, hes on ubuntu 10.04
+2012-08-20T02:52:00.000Z	dj_segfault	Scell	That line should work in there?  Thanks.

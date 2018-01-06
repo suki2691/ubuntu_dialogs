@@ -1,0 +1,4 @@
+2011-06-28T19:03:00.000Z	DMKitsch		 Hi, at the moment a user called user 'dave' has no permission to write to the folder /Var/WWW I wish to give him this so he can make a website but i do not know how to, can anybody help?
+2011-06-28T19:03:00.000Z	DMKitsch		i am logged in as root
+2011-06-28T19:05:00.000Z	Joupi	DMKitsch	You create a new group in which you add the users you want to have write permissions and then allocate the WWW (or whatever folder) new group's name so people in this group will be able to write providing the chmod correspond to for the group users
+2011-06-28T19:06:00.000Z	DMKitsch	Joupi	dr_Willis thank you for the help

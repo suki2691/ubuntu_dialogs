@@ -1,0 +1,4 @@
+2007-07-23T14:35:00.000Z	smassh		hello eveyone. I am using ndiswrapper to install my wireless ethernet card. After booting up i can't ping to other systems
+2007-07-23T14:36:00.000Z	tetonca	smassh	ifconfig, route are commands helpful. also netstat.
+2007-07-23T14:37:00.000Z	smassh	tetonca	after installing ndiswrapper and setting ndiswrapper -m. Is it needed to do all those things?
+2007-07-23T14:38:00.000Z	tetonca	smassh	you have to investigate.  start with 'ifconfig' by itself to see if the device is there and assigned an IP address.

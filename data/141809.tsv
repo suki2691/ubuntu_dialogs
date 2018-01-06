@@ -1,0 +1,4 @@
+2007-05-02T15:38:00.000Z	derrin		I need to convert a dir full of .avi files to .mpg files using mencoder.    Is this also doable using -R ??  Anyone know?
+2007-05-02T15:39:00.000Z	erUSUL	derrin	for f in `ls *.avi` do mencoder f; done  or something to that efect...
+2007-05-02T15:40:00.000Z	derrin		sorry ... rather than change each and every file, I wondered if I could convert a dir full of .avi files into .mpg files with a single command?
+2007-05-02T15:41:00.000Z	derrin	erUSUL	 sorry I didn't follow  (Sorry I'm a noobie (less than a week on Linux))

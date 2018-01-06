@@ -1,0 +1,4 @@
+2005-06-11T07:16:00.000Z	PhantomFreak		Does anyone have an idea how to cut down initrd.gz to around 300k
+2005-06-11T07:17:00.000Z	pusling	PhantomFreak	remove some modules
+2005-06-11T07:19:00.000Z	pusling	PhantomFreak	rm ?
+2005-06-11T07:21:00.000Z	pusling	PhantomFreak	the iintrdimage is a kind of zip-file. You can remove contents of it. unzip it, use rm, mkinitrd

@@ -1,0 +1,4 @@
+2007-07-31T15:28:00.000Z	tschaub		postgresql question - I don't understand why "psql -U postgres ..." reports "could not connect to server" but "sudo su postgres -c psql" does connect to the server
+2007-07-31T15:28:00.000Z	kitche	tschaub	probably because it needs root perms to connet but anyways sudo su is sorta of redunant
+2007-07-31T15:29:00.000Z	tschaub	kitche	thanks - thought "sudo su postgres -c psql" ran that command as the postgres user - which would be different than "sudo psql"
+2007-07-31T15:30:00.000Z	kitche	tschaub	nah it just makes it run as root sudo su - postgres would though

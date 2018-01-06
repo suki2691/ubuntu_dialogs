@@ -1,0 +1,4 @@
+2006-05-25T14:08:00.000Z	chip42		how can i identify what package a file belongs to?
+2006-05-25T14:09:00.000Z	soundray	chip42	dpkg -S filename
+2006-05-25T14:10:00.000Z	chip42	soundray	thanks.
+2006-05-25T14:11:00.000Z	soundray	chip42	also check out apt-file -- it does the same thing for files in packages that aren't even installed.

@@ -1,0 +1,4 @@
+2007-02-07T10:22:00.000Z	Myrt2		hi, when I'm trying to open php file from local apache it shows download dialog with PTHML file - what do I need to change in default ubuntu apache2 pkg config to make it work?
+2007-02-07T10:24:00.000Z	farruinn	Myrt2	in your httpd.conf, search for an AddType line that includes .php and .phtml
+2007-02-07T10:24:00.000Z	farruinn	Myrt2	You should have something like "AddType  application/x-httpd-php .php .phtml"
+2007-02-07T10:26:00.000Z	farruinn	Myrt2	looking at mine, (/etc/apache/httpd.conf) it's commented out and only includes .php, not .phtml

@@ -1,0 +1,4 @@
+2009-06-23T18:43:00.000Z	tuntun		Hi. Is it possible to use an NTFS partition for linux swap?
+2009-06-23T18:44:00.000Z	tuntun		bugger.
+2009-06-23T18:44:00.000Z	mdm	tuntun	contrary to CI, yes you can make swap on a nfs partition.  I would ask why you want to do it however
+2009-06-23T18:49:00.000Z	mdm	tuntun	just shrink the ntfs partition and make a swap partition in the cleared spacve

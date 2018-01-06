@@ -1,0 +1,4 @@
+2011-07-14T09:03:00.000Z	infinigod		what do i put in the sudoers file to allow a user ALL access except for "su"
+2011-07-14T09:04:00.000Z	ActionParsnip	infinigod	su isn't a user
+2011-07-14T09:05:00.000Z	ActionParsnip	infinigod	then you will need to chmod the file so the user cannot execute it
+2011-07-14T09:07:00.000Z	ActionParsnip	infinigod	you may need to make a new group, add the users whom can use su to the group then change the ownership of the su binary to the group, then chmod o-x /bin/su   the users outside the group wil not be able to run the command

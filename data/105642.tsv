@@ -1,0 +1,4 @@
+2008-01-19T09:02:00.000Z	rapiddemon		Hey guys, I am trying to write a bash script and I need to remove the last character from a string
+2008-01-19T09:02:00.000Z	rapiddemon		does anyone know how to do that?
+2008-01-19T09:03:00.000Z	Starnestommy	rapiddemon	echo "string" | sed 's/.$//'
+2008-01-19T09:03:00.000Z	rapiddemon	Starnestommy	thanks!

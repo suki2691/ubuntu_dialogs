@@ -1,0 +1,4 @@
+2009-08-13T15:41:00.000Z	uhok		hi dome412
+2009-08-13T15:41:00.000Z	uhok		If I mount two partitions to the same folder in /media (and I make a file in that folder), will it write it to both of the partitions?
+2009-08-13T15:42:00.000Z	ActionParsnip	uhok	not possible, you can only mount one device to on foilder
+2009-08-13T15:43:00.000Z	ActionParsnip	uhok	you will need to use rsync to replicate the changes across

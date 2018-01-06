@@ -1,0 +1,4 @@
+2005-03-13T11:30:00.000Z	Lysit		how do you launch gnone from the terminal, just installed Ubuntu and it launched straight into terminal after updating
+2005-03-13T11:31:00.000Z	karsten	Lysit	terminal == console?
+2005-03-13T11:32:00.000Z	karsten	Lysit	OK.  "terminal" usually means "terminal window" within an X session.  "console" == text-mode, nongraphical display.
+2005-03-13T11:34:00.000Z	karsten	Lysit	Anyhow, 'startx' should spew a bunch of stuff onto console, particularly if X ("GNOME") doesn't start.  The last few lines should be error messages of some sort.

@@ -1,0 +1,4 @@
+2011-12-05T11:08:00.000Z	randomusr		Just installed Apache2 and Perl though .pl files don't display. When clicking from a web browser I get a save dialogue box. What gives?
+2011-12-05T11:10:00.000Z	idlemind324	randomusr	i can't give you the exact steps but it sounds like you need to tell apache to process .pl files w/one of the cgi modules
+2011-12-05T11:12:00.000Z	randomusr	idlemind324	using mod_perl but I think I need to configure cgi to somehow recognize/process the files. I've looked on the web but can't seem to figure it out
+2011-12-05T11:14:00.000Z	idlemind324	randomusr	are you using the ubuntu server guide? that should get .pl files up and running out of the box for you

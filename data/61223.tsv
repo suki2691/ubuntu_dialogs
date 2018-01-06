@@ -1,0 +1,4 @@
+2009-05-19T17:03:00.000Z	Svish		when I do "mount -t ntfs /dev/sda1 /mnt/windows -o ro", I get that mount point /mnt/windows does not exist. How do I create a mount point?
+2009-05-19T17:04:00.000Z	mobi-sheep	Svish	cd /mnt && mkdir windows
+2009-05-19T17:05:00.000Z	Svish	mobi-sheep	aha... thanks :D
+2009-05-19T17:05:00.000Z	mobi-sheep	Svish	Add sudo too.

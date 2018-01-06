@@ -1,0 +1,4 @@
+2007-04-22T16:25:00.000Z	sid		How can I tar/bzip2 a directory to maximum compression?
+2007-04-22T16:26:00.000Z	randomwalker	sid	if youre on the command line pass the -9 option to bzip2
+2007-04-22T16:26:00.000Z	sid	randomwalker	tar -c directory|bzip -9 > dir.tar.bz2?
+2007-04-22T16:27:00.000Z	randomwalker	sid	bzip2 instad of bzip

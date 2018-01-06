@@ -1,0 +1,4 @@
+2010-02-04T20:34:00.000Z	Proton23		Hi! my laptop was powered off by not plugin in current. No I can't access my crypted partition :(
+2010-02-04T20:34:00.000Z	Proton23		Error mounting: mount exited with exit code 1: helper failed with:
+2010-02-04T20:34:00.000Z	Proton23		mount: only root can mount /dev/mapper/sda7_crypt on /media/stuff
+2010-02-04T20:35:00.000Z	freakynl	Proton23	try running: sudo mkdir /media/stuff; sudo mount /dev/mapper/sda7_crypt /media/stuff

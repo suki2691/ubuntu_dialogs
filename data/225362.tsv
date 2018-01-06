@@ -1,0 +1,4 @@
+2005-12-24T17:36:00.000Z	ssstormy		is it possible to write to a ntfs partition in ubuntu?
+2005-12-24T17:36:00.000Z	ssstormy		also, how do I make an ntfs partition readable by non-root users?
+2005-12-24T17:36:00.000Z	Hobbsee	ssstormy	it's known to be buggy
+2005-12-24T17:37:00.000Z	Hobbsee	ssstormy	follow the second guide, and use a umask of 000, and stick "ro" in there

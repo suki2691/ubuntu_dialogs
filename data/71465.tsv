@@ -1,0 +1,4 @@
+2010-07-05T10:52:00.000Z	shauno	Roasted	xorg.conf used to be mandatory (it's the config file afterall).  it isn't anymore.  xorg will use it if it's there, or default to autodetect if it's not
+2010-07-05T10:56:00.000Z	Roasted	shauno	how can I generate a xorg file
+2010-07-05T10:57:00.000Z	shauno	Roasted	not entirely sure. it's been a while since I've used linux on a desktop.  personally, I'd start by looking to see if there's an example under /usr/share/doc somewhere
+2010-07-05T10:58:00.000Z	shauno	Roasted	apparently xorg takes a -configure option that'll spit on out based on what it's autodetected so far

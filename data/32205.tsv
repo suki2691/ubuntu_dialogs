@@ -1,0 +1,4 @@
+2010-05-23T19:22:00.000Z	euthymos		hi I've messed up my "mysql-server" installation and I would like to reinstall it from scratch. I deleted config files and /var/lib/mysql data directory, but when I reinstall it, if I start the daemon it keeps on complaining there's something wrong
+2010-05-23T19:22:00.000Z	euthymos		can someone help me?
+2010-05-23T19:22:00.000Z	sr_rules	euthymos	, sudo apt-get purge mysql-server ; sudo apt-get install mysql-server
+2010-05-23T19:23:00.000Z	euthymos	sr_rules	already done it :(

@@ -1,0 +1,4 @@
+2006-06-02T16:21:00.000Z	wubrgamer		hey guys, i want to remove my NTFS partition from my desktop, better yet i don't want it mounted
+2006-06-02T16:21:00.000Z	wubrgamer		how so ?
+2006-06-02T16:21:00.000Z	wubrgamer		automatically during startup
+2006-06-02T16:21:00.000Z	pike__	wubrgamer	sudo gedit /etc/fstab   remove or comment out entry for that drive

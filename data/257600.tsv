@@ -1,0 +1,4 @@
+2005-06-13T09:17:00.000Z	odie5533_		Is there a linux program debugger?
+2005-06-13T09:17:00.000Z	Amaranth	odie5533_	gdb
+2005-06-13T09:18:00.000Z	Amaranth	odie5533_	possibly with a CVS version, but they probably stripped debugging symbols out of the shipped version
+2005-06-13T09:20:00.000Z	Amaranth	odie5533_	In order for gdb to give you a stack trace (showing you what called what from where you started until where you died, sort of) the program and libraries need to have the debugging symbols still. Everything you get from apt has these stripped (except -dbg packages) and I'm willing to bet cedega does too.

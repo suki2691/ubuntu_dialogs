@@ -1,0 +1,4 @@
+2005-07-13T15:14:00.000Z	derf		I'm getting this error on a system I recently installed ubuntu 5.04 on with two packages, zip and dpkg-dev:  Failed to fetch http://us.archive.ubuntu.com/ubuntu/pool/main/z/zip/zip_2.30-8_i386.deb  MD5Sum mismatch
+2005-07-13T15:14:00.000Z	nalioth	derf	the repos are wonky today
+2005-07-13T15:14:00.000Z	derf	nalioth	ah, ok, so it's not just me
+2005-07-13T15:15:00.000Z	nalioth	derf	you can edit off the us. part of the URL and that should fix you up

@@ -1,0 +1,4 @@
+2007-01-08T13:39:00.000Z	Sergemine		is there a way to recover the windows install on a fat partition if the EXT3 partition where Ubuntu and GRUB files were istalled was deleted or formated. The windows system doestn't boot any more though it is there. Guys, pls! Is there a way to recover my PC?
+2007-01-08T13:40:00.000Z	EddyDean	Sergemine	Some files might be able to be saved, but Windows is definately not going to work properly anymore
+2007-01-08T13:42:00.000Z	Sergemine	EddyDean	but it's just the boot loader or master boot record, what ever which doesn't refer to the windows loader! how can i install GRUB or something else to MBR to have windows booting again? !!!!!! PLSSSSSS
+2007-01-08T13:43:00.000Z	EddyDean	Sergemine	Windows wants to be on the "master" hd (hda), else you need to map the harddisks

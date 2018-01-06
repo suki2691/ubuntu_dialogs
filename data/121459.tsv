@@ -1,0 +1,4 @@
+2007-09-30T10:02:00.000Z	pramur		I have installed ePSXe, but how do I create an ISO file from the PSX's CD?
+2007-09-30T10:03:00.000Z	MasterShrek	pramur	dd if=/dev/hdc of=/path/to/file.iso
+2007-09-30T10:08:00.000Z	pramur	MasterShrek	oke. I will try it. Hontou ni doumo arigatou gozaimasu (thank you very much)
+2007-09-30T10:28:00.000Z	pramur	MasterShrek	THanks. I cdrdao read-cd --read-raw --datafile <filename>.bin --driver generic-mmc-raw <filename>.toc

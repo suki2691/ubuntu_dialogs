@@ -1,0 +1,4 @@
+2008-12-07T02:34:00.000Z	Serengeti		how can I make Intrepid start in safe graphics mode? My lcd displays an "out of range" message at the gdm prompt
+2008-12-07T02:35:00.000Z	c0p3rn1c	Serengeti	sudo X -configure generates a xorg.conf script that should work
+2008-12-07T02:36:00.000Z	c0p3rn1c	Serengeti	you just have to copy it to /etc/X11/xorg.conf
+2008-12-07T02:36:00.000Z	Serengeti	c0p3rn1c	gonna try that, but my xorg is just the default one (almost nothing there, no modelines etc.)

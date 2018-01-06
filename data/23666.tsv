@@ -1,0 +1,4 @@
+2010-10-22T22:08:00.000Z	no_mind		is there any api/command by which an app can restart/stop services on ubuntu ?
+2010-10-22T22:09:00.000Z	griff67	no_mind	service <command> and /etc/init.d/service name
+2010-10-22T22:10:00.000Z	no_mind	griff67	I want to do this from an app, which might be running as a non-root user
+2010-10-22T22:11:00.000Z	griff67	no_mind	 yeah I reread the qustion, not that I no of you could write it to call gksudo and it will give the person root access

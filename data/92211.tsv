@@ -1,0 +1,4 @@
+2009-03-28T04:34:00.000Z	silvertip257		I'm writing a shell script (bash is my shell) that is to change directory before its termination (and it does with embedded pwd to debug), but it does not remain at that location.  I realize it is a problem with my script running in a subshell, but I'm SSH-ing to the box and when my script runs with either 'source' or the 'dot operator' (. ./myscript) my SSH session is terminated.  Can anyone offer advice on how to complete this without
+2009-03-28T04:34:00.000Z	silvertip257		 terminating my SSH session?
+2009-03-28T04:35:00.000Z	remoteCTRL	silvertip257	please ask your question in #bash
+2009-03-28T04:36:00.000Z	silvertip257	remoteCTRL	will do

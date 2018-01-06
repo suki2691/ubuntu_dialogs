@@ -1,0 +1,4 @@
+2011-02-13T03:57:00.000Z	iuri		How do i remove all the files and directory of a directory but except one?
+2011-02-13T03:57:00.000Z	iuri		is there any --delete-exclude option in the rm command?
+2011-02-13T03:59:00.000Z	kevdog	iuri	short way is to just move what you want to save to another directory and then delete everything.  The long way would to use either a combination of a find or grep command and then pipe the result into rm
+2011-02-13T03:59:00.000Z	iuri	kevdog	Thanks

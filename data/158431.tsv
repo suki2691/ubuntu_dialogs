@@ -1,0 +1,4 @@
+2010-06-07T01:19:00.000Z	kodemunki		trying to install a package with dpkg, and its erroring because i dont have a certain lib installed, but i do actually have it installed
+2010-06-07T01:19:00.000Z	Slart	kodemunki	I don't think dpkg checks the actual file.. it wants to see a package installed that has a certain keyword in it
+2010-06-07T01:20:00.000Z	Slart	kodemunki	you can always use the --force feature..
+2010-06-07T01:20:00.000Z	Slart	kodemunki	although I would recommend trying to fix the issue instead of just ignoring it =)

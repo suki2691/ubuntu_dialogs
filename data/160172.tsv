@@ -1,0 +1,4 @@
+2010-05-05T08:52:00.000Z	Guest54869		Anyone know of a nice document that explains where synaptic package manager installs the files for programs on ubuntu?
+2010-05-05T08:53:00.000Z	Guest54869		I used it to install apache httpd, and would like to know where things ended up...
+2010-05-05T08:53:00.000Z	Guest54869		Would the ubuntu directory structure be identical to debian for installs like apache2 httpd?
+2010-05-05T08:54:00.000Z	Jordan_U	Guest54869	dpkg -L apache2.2-bin apache2.2-common

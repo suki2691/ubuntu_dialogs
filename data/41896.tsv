@@ -1,0 +1,4 @@
+2010-02-19T03:23:00.000Z	wasutton3		is there a way to make a raw copy of a dvd with multiple partitions, like from start to finish?
+2010-02-19T03:25:00.000Z	SpaceGhostC2C	wasutton3	you need the /dev/whatever of the disc. Do you have that?
+2010-02-19T03:25:00.000Z	wasutton3	SpaceGhostC2C	 yep
+2010-02-19T03:25:00.000Z	SpaceGhostC2C	wasutton3	if it's /dev/sr0, the command would be dd if=/dev/sr0 of=Disc.img

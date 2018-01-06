@@ -1,0 +1,4 @@
+2009-01-12T23:45:00.000Z	hAtOrY		Hi... when i try to install ubuntu, after the kernel load, the instalation stops. it seems that cd drive stop working. when a try boot whith all_generic_ide it stopts like this:  http://paste.ubuntu.com/104058/plain/ what can i do ???
+2009-01-12T23:45:00.000Z	hAtOrY		i think so..
+2009-01-12T23:46:00.000Z	Jack_Sparrow	hAtOrY	To get live cd to run this often helps..At start or install press F6 and remove Quiet and Splash from the command line. If it still fails.. Repeat and after removing quiet and splash add noapic acpi=off before the "--"
+2009-01-12T23:47:00.000Z	hAtOrY	Jack_Sparrow	i will try...

@@ -1,0 +1,4 @@
+2011-10-10T16:04:00.000Z	joesepp		Hi! I have a usb 3g modem. It has flash storage, that mounts automatically. I was wondering if I could make my system completely ignore this part of the device.
+2011-10-10T16:05:00.000Z	ActionParsnip	joesepp	run:  lsusb   one line will ientify the device, use the 8 character hex ID to find guides
+2011-10-10T16:11:00.000Z	joesepp	ActionParsnip	the modeswitch works, but is there a way to ignore the storage part altogether? sometimes i need to eject this part to speed up modeswitch(i guess)
+2011-10-10T16:12:00.000Z	ActionParsnip	joesepp	no it will always be storage until usb_modeswitch happens. The storage is to install the driver automagically as, apparently, using an installdriver media is too hard for windows users (annoying)

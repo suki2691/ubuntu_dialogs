@@ -1,0 +1,4 @@
+2010-01-10T11:20:00.000Z	Bilaw		Hey there to all: I have an original problem. When I type ifconfig -a, there is no eth* listed ! Is that to say that the driver to eth0 was not found when I installed Jaunty on this Lenovo Y550P??
+2010-01-10T11:22:00.000Z	bizarrefish	Bilaw	it sounds like it. have a look in lspci -vv. it will say what driver is controlling the ethernet adapter
+2010-01-10T11:30:00.000Z	Bilaw	bizarrefish	cheers! RE this absence of eth0, I found this. Ethernet controller: Broadcom Corporation Device 1692 (rev 01). Errr. Is there a specific site where I should locate the driver, or… ?
+2010-01-10T11:33:00.000Z	Bilaw	bizarrefish	ouch, was that smiley addressed to me (suggesting : “good luck, mate, youre in for a tough one“)??

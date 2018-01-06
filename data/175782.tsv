@@ -1,0 +1,4 @@
+2007-09-05T12:45:00.000Z	Blazeix		Is it possible to change the nice priority level of an already running process?
+2007-09-05T12:45:00.000Z	ikonia	Blazeix	man nice
+2007-09-05T12:46:00.000Z	Blazeix	ikonia	I already read the man page for nice, and it says it runs the program as the specified level. The program is already running.
+2007-09-05T12:46:00.000Z	ikonia	Blazeix	so you do "nice $level $pid"

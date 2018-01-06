@@ -1,0 +1,4 @@
+2007-12-12T03:21:00.000Z	kantor		hi, I have two user accounts for instance john and peter.  If I'm logged in as john and I'm in gnome and I want to run a GUI program (like xchat) as peter from the terminal I get the following error:  Xlib: connection to ":0.0" refused by server, Xlib: No protocol specified, (xchat:30838): Gtk-WARNING **: cannot open display, why is this ?
+2007-12-12T03:22:00.000Z	erUSUL	kantor	you have to enable "oreing" conection to your Xserver (xhost +peter)
+2007-12-12T03:23:00.000Z	kantor	erUSUL	"oreing" connection ? how can I do that ?
+2007-12-12T03:24:00.000Z	erUSUL	kantor	i mean "foreing" "external" from other user or host computer

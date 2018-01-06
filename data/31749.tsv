@@ -1,0 +1,4 @@
+2012-09-19T00:53:00.000Z	agrestringere		Question: how can I ignore updates from a PPA - so it doesn't always pop up with the update manager - but install only select packages from that PPA?
+2012-09-19T00:54:00.000Z	TJ-	agrestringere	The usual way to control package versions is using "pinning" but that's sometimes impractical for whole repositories
+2012-09-19T00:59:00.000Z	TJ-	agrestringere	You would pin an entire repo with something like this in "/etc/apt/preferences.d/ppa-name" : "Package: *\nPin: release o=LP-PPA-<ppa-name>\nPin-Priority: 400" (\n is a line-feed)
+2012-09-19T01:00:00.000Z	TJ-	agrestringere	there's an example in the Ubuntu Wiki: https://help.ubuntu.com/community/PinningHowto#Examples

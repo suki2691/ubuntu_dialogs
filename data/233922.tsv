@@ -1,0 +1,4 @@
+2005-06-08T10:19:00.000Z	tiglionabbit		is there a log file where it stores the messages printed as ubuntu boots up?
+2005-06-08T10:19:00.000Z	humbraro	tiglionabbit	try dmsg | less
+2005-06-08T10:20:00.000Z	tiglionabbit	humbraro	no, I said that's not the log I'm looking for
+2005-06-08T10:26:00.000Z	humbraro	tiglionabbit	obviously, dmesg prints the kernel messages; if its the init messages you're looking for, you might need to edit the rc files to log somewhere

@@ -1,0 +1,4 @@
+2008-12-28T22:38:00.000Z	cylux		What is the name of the gnome application that starts at startup and connects me to my wifi connection?
+2008-12-28T22:38:00.000Z	unop_	cylux	nm-applet and network-manager
+2008-12-28T22:38:00.000Z	cylux	unop_	So if I was switching to openbox and in my startup file did  nm-applet &    network-manager &   - it would work just fine?
+2008-12-28T22:39:00.000Z	unop_	cylux	 nm-applet yes .. network-manager is a service - you have to make sure it is enabled for your runlevel (/etc/init.d/network-manager)

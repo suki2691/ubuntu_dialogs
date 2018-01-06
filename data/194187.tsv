@@ -1,0 +1,4 @@
+2007-10-20T01:55:00.000Z	Vesuro		Hi all, I'm paranoid about what I'm trying to do, so if anyone could help me out I'd *really* appreciate it - I'm looking for the easiest way to shrink my Linux partition, create an NTFS partition and install XP on the NTFS partition. I want to know how to keep my Linux partition bootable after this since Windows likes to overwrite the MBR. Any ideas?
+2007-10-20T01:56:00.000Z	pike_	Vesuro	you wont keep it bootable. xp will overwrite mbr all you can do is recover after
+2007-10-20T01:59:00.000Z	pike_	Vesuro	boot from livecd and run gparted
+2007-10-20T01:59:00.000Z	pike_	Vesuro	you cant resize a partition you are booting from so need livecd

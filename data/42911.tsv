@@ -1,0 +1,4 @@
+2010-04-03T06:50:00.000Z	acovrig		can I login as user1 (normally, X:0.0), and open xterm and 'become' user2?
+2010-04-03T06:50:00.000Z	knoppies	acovrig	I may be wrong, but I think you can do something like that with su
+2010-04-03T06:52:00.000Z	acovrig	knoppies	I don't mean in the terminal, but In X, I am running normally (on the physical computer, display :0.0) I want to open xterm, or something to login as a different user without switching users (have both users running at the same time, user2 inside user1)
+2010-04-03T06:53:00.000Z	knoppies	acovrig	not sure, If you ran two different X servers (each on a different TTY), but then I know nothing about that at all.

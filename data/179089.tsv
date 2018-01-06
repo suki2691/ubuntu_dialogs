@@ -1,0 +1,4 @@
+2008-03-09T23:21:00.000Z	Haz		let's say i've totally borked my apache2 installation, and i want to revive the default .conf's and stuff, what would be the best way using apt or such to do this? i've tried removing and installing apache2 again but that fails to bring back the .conf's
+2008-03-09T23:22:00.000Z	jrib	Haz	apache2.2-common is what you want to purge
+2008-03-09T23:22:00.000Z	Haz	jrib	purge? :)
+2008-03-09T23:23:00.000Z	jrib	Haz	yeah, 'aptitude purge', otherwise it won't touch conf files

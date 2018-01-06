@@ -1,0 +1,4 @@
+2009-07-11T03:52:00.000Z	erxin1		i want to forward my port for vnc , I have a Modem/Router and Router, do i need to forward from MODEM/ROUTER to ROUTER then from Router to PC, or from Modem/Router to pc, and from Router the same to pc ?
+2009-07-11T03:53:00.000Z	rickest	erxin1	whatever serial path the network follows. sounds like router/modem -> router -> pc
+2009-07-11T03:54:00.000Z	erxin1	rickest	Modem/Router ---> 10.0.0.1:5900 Router ---> 10.0.0.2:5900 PC , like this ?
+2009-07-11T03:55:00.000Z	rickest	erxin1	both sides of the middle router can't have the same subnet.  so more like:  ---> ISP IP <router/modem> 10.0.0.2 -----> <router> ----> 10.0.1.2 <pc>

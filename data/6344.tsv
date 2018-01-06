@@ -1,0 +1,4 @@
+2012-03-06T15:57:00.000Z	Doxin		I've got a server with 3 NICs in it, but only one shows when doing ifconfig, what gives?
+2012-03-06T15:59:00.000Z	plouffe	Doxin	try iwconfig
+2012-03-06T16:01:00.000Z	plouffe	Doxin	then "ifconfig <NIC>  up" to activate it
+2012-03-06T16:02:00.000Z	Doxin	plouffe	thanks

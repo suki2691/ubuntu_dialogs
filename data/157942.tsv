@@ -1,0 +1,4 @@
+2008-01-04T15:03:00.000Z	Hairufr		Hey all, how do I force mount a drive that has been locked by windows? Cheers
+2008-01-04T15:05:00.000Z	Slart	Hairufr	locked?
+2008-01-04T15:05:00.000Z	Slart	Hairufr	how did you try mounting it? you can add "-f" to the mount command if you're using the command line
+2008-01-04T15:07:00.000Z	Slart	Hairufr	ok, try sudo mount -f -t ntfs-3g /dev/sda1 /media/sda1    change sda1 to whatever is correct in your case

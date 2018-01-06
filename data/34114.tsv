@@ -1,0 +1,4 @@
+2012-07-05T23:45:00.000Z	thozethingz		when using mdadm to build a raid1 disk  ... what partition table type and format style should I format the 2 disks?
+2012-07-05T23:46:00.000Z	bekks	thozethingz	You dont need to partition or format at all.
+2012-07-05T23:46:00.000Z	thozethingz	bekks	... so I leave them unformatted?
+2012-07-05T23:46:00.000Z	bekks	thozethingz	You can build the raid without partitions, but with plain disks. And it doesnt matter which filesystem you create afterwards.

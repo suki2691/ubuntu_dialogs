@@ -1,0 +1,4 @@
+2006-01-28T11:30:00.000Z	borisattva		i did a succesfull mount of a network drive, but when i browse it via the point at /mnt/sharedfolder all files that are named with accented characters become converted to regular and inaccessible. while if i browse the same folder via network there are no problems... is there something i have to specify in the fstab for it to mount with full character support?
+2006-01-28T11:32:00.000Z	borisattva		maximum pc an many othe rpublications did article son them so they are flooded with newbs
+2006-01-28T11:33:00.000Z	sethk	borisattva	that isn't quite true, at least for PCI devices.  PCI devices are scanned sequentially and the IRQs assigned automatically.  So moving to a different slot can indeed change the IRQ
+2006-01-28T11:33:00.000Z	sethk	borisattva	plus, there is no other way to change it, other than using the BIOS if it has those features

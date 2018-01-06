@@ -1,0 +1,4 @@
+2009-08-16T00:20:00.000Z	JEEB		Ok, alright. If you don't want to answer it's ok. I'm going to build NTFS-3G then. But _at least_ tell me if it's ok to do the default configure , make , make install magic to it or does Ubuntu need something specific?
+2009-08-16T00:21:00.000Z	grawity	JEEB	I just noticed your question, so ... Ubuntu includes ntfs-3g compiled in, AFAIK.(If nobody answers, it means either a) nobody knows, b) nobody noticed.)
+2009-08-16T00:22:00.000Z	grawity	JEEB	So you should not have to build anything - just mount -t ntfs-3g etc.
+2009-08-16T00:22:00.000Z	JEEB	grawity	don't NTFS partitions go by ntfs-3g by default? Also, I talked about building because the current version I use for mounting gives me No space left on device

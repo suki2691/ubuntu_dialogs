@@ -1,0 +1,4 @@
+2009-08-10T07:14:00.000Z	dumont		question: is running a cron job every 5 seconds resource efficient, the cron job would run a script to check whether there are any new files in an empty folder?
+2009-08-10T07:15:00.000Z	jtaji	dumont	cron only runs every minute
+2009-08-10T07:16:00.000Z	dumont	jtaji	how can I check a folder whether or not any new files were added to it? i'm coding in php and wanted to know if there were any pathways on linux that would make my life easier
+2009-08-10T07:18:00.000Z	jtaji	dumont	if you need it done more than every 60 seconds, you'll need some other daemon or program running to do it...

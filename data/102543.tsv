@@ -1,0 +1,4 @@
+2008-12-31T10:35:00.000Z	xav_		my live cd wouldnt load, or install like normal( put in disk, and boot) so i installed my ubuntu through windows into a disc partition. Will grub appear when i restart my computer or can i not boot ubuntu now?
+2008-12-31T10:36:00.000Z	rww	xav_	by "installed through windows" do you mean you used Wubi (the Windows program where you pick an install size, username, and password in Windows, then reboot into an Ubuntu setup)?
+2008-12-31T10:38:00.000Z	rww	xav_	ah. So you started Wubi but never rebooted to continue installation? Theoretically, when you reboot, it's going to start up the Ubuntu installer, then...
+2008-12-31T10:39:00.000Z	rww	xav_	Wubi sets up Grub for you =/

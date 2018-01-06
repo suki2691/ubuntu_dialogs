@@ -1,0 +1,4 @@
+2012-02-29T16:57:00.000Z	patrunjel		Hi. I have some files with names in the format : Whatever_name.flac, and I want to change then into The_same_name.mp3 . I tried piping ls to mv, a for statement, and piping ls to a variable and then renaming the files after the variable. Everything failed :D . Could you please help me out?
+2012-02-29T16:58:00.000Z	pfifo	patrunjel	ls *.falc | sed 's/flac/mp3/'  THEN copy and paste its ouput
+2012-02-29T16:59:00.000Z	pfifo	patrunjel	notice i misspelled the first flac
+2012-02-29T17:02:00.000Z	pfifo	patrunjel	sorry, i didnt give you enough command there, run 'ls *.flac | sed 's/\(.*\)flac/mv "\1flac" "\1mp3"/'

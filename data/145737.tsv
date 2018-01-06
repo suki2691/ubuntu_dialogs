@@ -1,0 +1,4 @@
+2007-09-10T08:48:00.000Z	anut		Does anyone have any idea why Windows machines no longer see my Linux box on the network workgroup?  So far as I can tell nothing on the Linux machine has changed, and everything in the SMB settings looks to be okay.
+2007-09-10T08:49:00.000Z	Rubin	anut	is smbd running and nmbd?
+2007-09-10T08:51:00.000Z	anut	Rubin	how would I check?  Pingjockey, I checked, the windows firewall has the file and print sharing open.  Mzuverink, lemme try that. :-)
+2007-09-10T08:51:00.000Z	Rubin	anut	ps xa|grep mbd

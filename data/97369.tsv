@@ -1,0 +1,4 @@
+2008-04-19T07:37:00.000Z	brrybnds		I've been trying to add a new hard drive to an existing ubuntu 7.04 install, and can't seem to get write permissions for it, I have it mounted - its ext3 format - but I get the message "you do not hvae permissions to write to this folder" the fourms and google results have given me incomplete guides on how to add a disk.  Any idea's on what i'm need to do to get it to work?
+2008-04-19T07:38:00.000Z	nickrud	brrybnds	with the disk mounted, sudo chown <youruser>:<youruser> /mount/point
+2008-04-19T07:38:00.000Z	nickrud	brrybnds	that give only you write perms
+2008-04-19T07:41:00.000Z	brrybnds	nickrud	I did, as per the guide I was following;    cliff@cliff-ubuntu:~$ sudo chown -R cliff:cliff /media/bigger   didn't seem to change anything though

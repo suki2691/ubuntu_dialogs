@@ -1,0 +1,4 @@
+2011-08-23T16:03:00.000Z	bbbbbbbb		my laptop has a little touch key designed to switch the touchpad on and off. how can i: 1. find out which input this key generates 2. map it to "gconftool-2 --set /desktop/gnome/peripherals/touchpad/touchpad_enabled --type=bool false" resp. "... true"?
+2011-08-23T16:05:00.000Z	theadmin	bbbbbbbb	xev can tell you waht key-code the key generates, if any
+2011-08-23T16:07:00.000Z	bbbbbbbb	theadmin	okay, so the windows driver simply maps the top left corner of the touchpad to this action. is there a way to copy this behaviour with gsynaptics?
+2011-08-23T16:08:00.000Z	theadmin	bbbbbbbb	Sorry, not sure

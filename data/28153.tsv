@@ -1,0 +1,4 @@
+2010-12-17T06:09:00.000Z	fmigpaulo		kernel experts, i need help: http://ohioloco.ubuntuforums.org/showthread.php?p=10243985#post10243985
+2010-12-17T06:11:00.000Z	guampa	fmigpaulo	looks like a broken hdd
+2010-12-17T06:17:00.000Z	guampa	fmigpaulo	try running smartcl -a /dev/sda and see what it throws, it'll give you more info on the disk health. OTOH i had once a similar problem and was kernel related, i only got rid of it upgrading to a newer kernel from the kernel devs ppa
+2010-12-17T06:19:00.000Z	guampa	fmigpaulo	then prolly it's the disk. and yes you may be able to use it semi normally for a while before it kicks

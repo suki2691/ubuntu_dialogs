@@ -1,0 +1,4 @@
+2011-03-16T07:47:00.000Z	A|i3N		Hey guys trying to figure out if something is possible. Got ubuntu installed on a second computer. I want the same packages installed on it that are on my other computer. Is there any way to move the package files over via CD to prevent having to download a buncha stuff again? I already tried moving what was in /var/cache/apt/archives but i'm guessing there's more somewhere
+2011-03-16T07:48:00.000Z	rooly	A|i3N	yeah there is. let me go look up the package
+2011-03-16T07:48:00.000Z	rooly	A|i3N	check out aptoncd
+2011-03-16T07:51:00.000Z	rooly	A|i3N	yes. it creates an apt-readable database. when you put the burned disc into the destination computer, it should automatically pop up with an 'available packages' dialogue

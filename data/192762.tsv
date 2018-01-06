@@ -1,0 +1,4 @@
+2006-03-29T17:51:00.000Z	ywwg2		I'm having major gnome-session / profile issues.  When I log in on my regular account, the splash screen comes up but the disk churns and churns and it never logs in.  This started happening spontaneously.  Other accounts are unaffected.  I tried clearing out .gnome2, .gconf, the works, but it still hangs and hangs on login.  any ideas?
+2006-03-29T17:52:00.000Z	duckblur	ywwg2	Most likely the file it needs to log in is on a bad sector on the harddrive.
+2006-03-29T17:52:00.000Z	ywwg2	duckblur	I just did an fsck, but it's all looking good.  I also don't see any errors in the logs about seek errors
+2006-03-29T17:53:00.000Z	duckblur	ywwg2	Hmm, then I'm clueless.

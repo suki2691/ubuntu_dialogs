@@ -1,0 +1,4 @@
+2011-08-03T16:45:00.000Z	Gaming4JC		Hey all, quick question. How can I make a tar.lzma from a massive text file via linux terminal?
+2011-08-03T16:45:00.000Z	Gaming4JC		Need to upload a bug report 4.4GB worth of text errors :O
+2011-08-03T16:46:00.000Z	llutz	Gaming4JC	tar --lzma -cf foo.tar.lzma /path/*
+2011-08-03T16:46:00.000Z	Gaming4JC	llutz	Thanks much, I googled a bit before coming here but didn't see the --lzma option. :)

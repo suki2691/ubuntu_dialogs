@@ -1,0 +1,4 @@
+2008-02-20T23:29:00.000Z	kwajstabo		I would like to install octave-3. The ./configure returns " WARNING: I need GNU Readline 4.2 or later". I installed the Readline 5.2, but i still receive the same error. Any idea what could be wrong?
+2008-02-20T23:30:00.000Z	kostkon	kwajstabo	you mean the libreadline-dev?
+2008-02-20T23:31:00.000Z	kostkon	kwajstabo	you need to install libreadline5-dev and not libreadline5 to compile octave
+2008-02-20T23:33:00.000Z	kwajstabo	kostkon	will try that, thank you

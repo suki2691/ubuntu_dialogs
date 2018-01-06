@@ -1,0 +1,4 @@
+2006-07-28T16:53:00.000Z	NineTeen67Comet		Hi all .. little question about apt ... Is there a way I can make my server (Ubuntu too) hold all the files my other computers download when they apt-get install something? Then each computer can just get it off the server? It seems like a waste getting all the files (many the same on all machines) from the www when I could store them locally. (I did this with Portage on another Distro).
+2006-07-28T16:54:00.000Z	dli	NineTeen67Comet	have a look at apt-proxy, easy to setup
+2006-07-28T05:14:00.000Z	NineTeen67Comet	dli	I will look at apt-proxy .. thank you ..
+2006-07-28T05:14:00.000Z	dli	NineTeen67Comet	squid can do the job, but apt-proxy looks like the right way to me

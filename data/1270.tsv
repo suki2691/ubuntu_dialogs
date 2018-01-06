@@ -1,0 +1,4 @@
+2012-09-05T22:34:00.000Z	jilebedev		Hi - can someone point me to an article on how ubuntu synchronizes its system time in a networked environment?
+2012-09-05T22:35:00.000Z	jilebedev		How do I force re-synchronization with the Windows master time server? I noticed one of my ubuntu servers is off by a few minutes and that concerns me.
+2012-09-05T22:35:00.000Z	sokel	jilebedev	It has something to do with the ntp service. Look about restarting it, perhaps, assuming the windows master is in the configurations.
+2012-09-05T22:35:00.000Z	jilebedev	sokel	thanks, I'll read up on ntp.

@@ -1,0 +1,4 @@
+2009-02-06T22:38:00.000Z	Pici	MalakInc	What were you doing that 'broke' bash?
+2009-02-06T22:41:00.000Z	MalakInc	Pici	It was for this reason i was trying to link sh to Bash instead of dash that caused this strange issue
+2009-02-06T22:43:00.000Z	Pici	MalakInc	Sounds like you accidentally replaced bash with a link to something that doesnt exist. You can try booting from a live-cd and replacing bash with a different file.
+2009-02-06T22:43:00.000Z	Pici	MalakInc	I'd suggest reinstalling bash after doing that though

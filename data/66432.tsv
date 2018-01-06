@@ -1,0 +1,4 @@
+2009-05-12T22:00:00.000Z	str	mzz	the others should work though... this seems like the classic "my USB drive moved after reboot" thing
+2009-05-12T22:00:00.000Z	mzz	str	yes, but he's not passing /dev/sdb8 explicitly, see his pasted menu.lst
+2009-05-12T22:03:00.000Z	str	mzz	you're right, sorry i didnt see the pastebin...
+2009-05-12T22:04:00.000Z	mzz	str	I'm not too familiar with ubuntu's kernel, but I'd expect it to fail later than it does if the initramfs is loaded

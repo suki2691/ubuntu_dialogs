@@ -1,0 +1,4 @@
+2010-01-13T09:04:00.000Z	kinja-sheep	Gumby	"alsamixer" -- Make sure everything is toggled on.
+2010-01-13T09:06:00.000Z	Gumby	kinja-sheep	that wasnt the problem
+2010-01-13T09:07:00.000Z	Gumby	kinja-sheep	when using hdmi there was loud pops and really weird sound coming out of the speakers in both 9.04 and 9.10 when using hdmi out.  I stopped using hdmi out in 9.04 and moved to just regular jack.  Installed 9.10 and there was a horrid squeel coming out of the speakers and regardless of what was muted or on it didnt change.
+2010-01-13T09:08:00.000Z	Gumby	kinja-sheep	the fix was to comment out options snd-hda-intel power_save=10 in /etc/modprobe.d/alsa-base.conf; reboot; done

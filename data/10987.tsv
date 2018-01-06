@@ -1,0 +1,4 @@
+2011-08-25T00:16:00.000Z	Combatjuan		I built a new kernel using the wiki and the "old fashioned debian way".  When I boot with the new kernel it fails after a minute or so with "Gave up waiting for root device" claiming that /dev/disk/by-uuid/THE-UUID-OF-THE-DISK doesn't exist.  I don't think it's either of the usual suspects because the root and root_delay match working kernels.
+2011-08-25T00:17:00.000Z	Combatjuan		If I cd to /dev/, there is no "disk" entry.  I've never understood what causes something to appear in /dev/ but that definitely seems like a bad sign.
+2011-08-25T00:17:00.000Z	urlin2u	Combatjuan	we can't help outside of the standard kernels in ubuntu.
+2011-08-25T00:18:00.000Z	Combatjuan	urlin2u	If it helps, it's build from linux-source with no modifications.

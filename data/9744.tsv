@@ -1,0 +1,4 @@
+2011-11-14T18:16:00.000Z	random123		Q) 10.04 Server tasksel install lamp-server all works fine except netstat -antp show no 443. Q) how do i get https working ? thanks...
+2011-11-14T18:18:00.000Z	random123		ping
+2011-11-14T18:19:00.000Z	jasef	random123	type 'sudo a2ensite default-ssl', then 'sudo nano /etc/apache2/ports.conf' and add a NameVirtualHost and Listen directive for 443, then type 'sudo service apache2 reload'
+2011-11-14T18:34:00.000Z	random123	jasef	thanks will give that a try!

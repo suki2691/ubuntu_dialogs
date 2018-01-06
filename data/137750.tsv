@@ -1,0 +1,4 @@
+2010-10-23T16:17:00.000Z	cousteau		how do I install ubuntu-desktop _without_ all packages marked as "recommended"?
+2010-10-23T16:18:00.000Z	cousteau		tried "sudo aptitude install -R ubuntu-desktop", but it seems to also try to install the recommends
+2010-10-23T16:18:00.000Z	llutz	cousteau	sudo aptitude -R install ...
+2010-10-23T16:21:00.000Z	llutz	cousteau	add " Apt::Install-Recommends "false""  to your .aptitude/config             but -R should have done the job

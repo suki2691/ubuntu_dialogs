@@ -1,0 +1,4 @@
+2005-05-08T13:51:00.000Z	davegahan		anyone who knows how i can retrieve my files ? ubuntu crashes while booting gnome
+2005-05-08T13:51:00.000Z	blueyed	davegahan	have you tried another window manager? or plain console (tty1)?
+2005-05-08T14:04:00.000Z	blueyed	davegahan	you could just do "sudo apt-get install kubuntu-desktop" which would install all KDE relevant packages, then from the login window (gdm) choose KDE and hope that it does not lockup.
+2005-05-08T14:15:00.000Z	blueyed	davegahan	You'd have to remove all the packages again, that you do not want/need (quite a lot then actually). It would probably better to "sudo apt-get install xfce4" then. It gets also installed as an alternative desktop environment.

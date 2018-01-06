@@ -1,0 +1,4 @@
+2010-08-23T08:11:00.000Z	thune3	Bynw	specifically for ntpdate, i think you need to run with sudo for that error
+2010-08-23T08:11:00.000Z	Bynw	thune3	i'll try that and see ....
+2010-08-23T08:13:00.000Z	Bynw	thune3	that gives me:  22 Aug 22:12:04 ntpdate[2437]: the NTP socket is in use, exiting
+2010-08-23T08:14:00.000Z	thune3	Bynw	i would guess ntpd is already running. you can check "ps aux | grep ntp"

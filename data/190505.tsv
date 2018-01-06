@@ -1,0 +1,4 @@
+2006-04-27T05:22:00.000Z	AngryElf		hey all, i'm trying to determine if LVM is using /dev/sda or sdb, anyone know a way?
+2006-04-27T05:22:00.000Z	Mathman	AngryElf	pvdisplay, lvdisplay, that sorta thing
+2006-04-27T05:32:00.000Z	AngryElf	Mathman	thanx for the pvdisplay info
+2006-04-27T05:33:00.000Z	Mathman	AngryElf	ah, yeah, one other one I forgot to mention I think.  vgdisplay.

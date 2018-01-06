@@ -1,0 +1,4 @@
+2007-05-08T13:28:00.000Z	sotzing		has anyone heard of a problem logging into Ubuntu 6.10 as root after a fresh install?  i can use sudo (it accepts the password) but when I run su, or try to login from the X login dialogue is says password incorrect
+2007-05-08T13:29:00.000Z	sotzing		=/
+2007-05-08T13:30:00.000Z	predaeus	sotzing	by default there is no root password set I think, or maybe some placeholder. you need to set one first with sudo if you really want to use the root account itself which is not recommended by Ubuntu as far as I know
+2007-05-08T13:31:00.000Z	predaeus	sotzing	yea if you really need it set a password for root   like   "sudo passwd"

@@ -1,0 +1,4 @@
+2012-10-18T11:44:00.000Z	Elesa		Hi, I used dist-upgrade and after the packages were downloaded, I accidentally aborted in the part where it asks you if you want to install new packages. How can I install them without downloading them again?
+2012-10-18T11:44:00.000Z	llutz	Elesa	sudo apt-get dist-upgrade    it won't download again
+2012-10-18T11:48:00.000Z	llutz	Elesa	sudo apt-get dist-upgrade    if the packages are downloaded already, they will be used
+2012-10-18T11:53:00.000Z	llutz	Elesa	thats how apt is supposed to work

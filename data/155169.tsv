@@ -1,0 +1,4 @@
+2007-01-18T10:16:00.000Z	kcinna_		When i try to start the X server, i get error messages saying the glx module can't be loaded and theres also an API mismatch, how can i correct this?
+2007-01-18T10:18:00.000Z	kcinna_		at the very least, how can i get X running again, without the nvidia drivers working
+2007-01-18T10:18:00.000Z	kcinna_		id prefer that though
+2007-01-18T10:19:00.000Z	adaptr	kcinna_	dpkg-reconfigure xserver-xorg

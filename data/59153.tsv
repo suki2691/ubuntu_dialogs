@@ -1,0 +1,4 @@
+2011-02-04T17:37:00.000Z	doohan		Hi, nautilius is acting kind of wierd, it seems to have become the default program for opening just about everything when for example xdg-open or when chrome tries to open it. Nautilus then says "Location is Not a Folder"
+2011-02-04T17:37:00.000Z	doohan		Is there a way to make it open the file as though it where double clicked?.
+2011-02-04T17:37:00.000Z	doohan		Im using ubuntu 10.10 btw
+2011-02-04T17:39:00.000Z	VCoolio	doohan	if you double-click it uses gnome-open, xdg-open is different; use 'alternatives' to configure, or install 'galternatives' for a gui, don't know why it would use nautilus for everything

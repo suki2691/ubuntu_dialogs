@@ -1,0 +1,4 @@
+2010-03-21T08:15:00.000Z	bettsp		Is there any way via something in /proc or /sys that I can use to figure out what kind of RAM i need to buy for my desktop?
+2010-03-21T08:16:00.000Z	ActionParsnip	bettsp	sudo lshw | less    should show you the ram speeds etc
+2010-03-21T08:17:00.000Z	ActionParsnip	bettsp	the top part of lshw will give your motherboard make and model so you can consult the manufacturers site
+2010-03-21T08:18:00.000Z	bettsp	ActionParsnip	gustin: Nice, thanks

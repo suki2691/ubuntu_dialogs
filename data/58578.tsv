@@ -1,0 +1,4 @@
+2011-02-27T02:58:00.000Z	irchatter		How do I backup my home folder's contents to my external hard drive with rysnc?
+2011-02-27T02:59:00.000Z	Darael	irchatter	"rsync -rav ~/ /media/drive/backup-folder" is a good start, but be aware that you'll have problems with permissions later if the drive is formatted NTFS or FAT.
+2011-02-27T03:00:00.000Z	Darael	irchatter	...and most of them are, out of the box.
+2011-02-27T03:06:00.000Z	Darael	irchatter	use --chmod=go= to remove all perms from other users.

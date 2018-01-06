@@ -1,0 +1,4 @@
+2011-11-26T02:22:00.000Z	vvompy		hi, I encrypted via GUI half a year ago my external partition and wrote down the generated passphrase, but forgot the password that I had to type in every time when I opened the encrypted filesystem via the GUI. I thought the password is not necessary, do I still have a possibility to reopen my hdd?
+2011-11-26T02:24:00.000Z	escott	vvompy	it depends on what kind of encryption this is, but usually you have a short password 8-16 characters that you can remember which unlocks a longer file with a full length key of some kind. so if you have that original unencrypted file
+2011-11-26T02:26:00.000Z	vvompy	escott	i guess it was ecryptfs..do you know how to test my passphrase ?
+2011-11-26T02:30:00.000Z	escott	vvompy	https://help.ubuntu.com/community/EncryptedPrivateDirectory

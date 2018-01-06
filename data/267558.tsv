@@ -1,0 +1,4 @@
+2010-10-11T04:47:00.000Z	squigle		I was wondering are there source versions of packages? I need to fix a bug and deploy and update to my systems here
+2010-10-11T04:48:00.000Z	maco	squigle	apt-get source packagename
+2010-10-11T04:48:00.000Z	maco	squigle	to get the build dependencies:   apt-get build-dep packagename
+2010-10-11T04:48:00.000Z	maco	squigle	the build-dep one needs sudo. the other doesn't

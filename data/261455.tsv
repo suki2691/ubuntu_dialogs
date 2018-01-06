@@ -1,0 +1,4 @@
+2005-06-01T07:54:00.000Z	kanzen		Hi all. I was in here yesterday asking about trouble I was having installing ubuntu. I think I may have narrowed down the problem. Disk I/O (including the CDrom drive that I'm trying to install ubuntu from) seems to go crazy when I have a kernel that can see all 16GB of memory in the system. If I use a 32 bit kernel (this is a dual opteron) then everything works fine, unless I enable PAE. If I use a 64 bit kernel, then I can't insta
+2005-06-01T07:55:00.000Z	kanzen		Are there any guides for kernal tunables on a system with large memory?
+2005-06-01T07:55:00.000Z	Seveas	kanzen	no ubuntu specific ones i'm afraid
+2005-06-01T07:56:00.000Z	Seveas	kanzen	you might have a bit more luck finding a debian guide

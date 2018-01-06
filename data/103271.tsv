@@ -1,0 +1,4 @@
+2008-03-24T04:54:00.000Z	jedi-alex		hello, im a newbie and im tring for over 4 hours to install ubuntu 7.10 (stable) but without results... im booting with cd and choosing installation but it always freezes (same with v8 beta)
+2008-03-24T04:55:00.000Z	jedi-alex		it seems that there is an incompatibility issue but how can i know the reason?
+2008-03-24T04:55:00.000Z	jedi-alex		it doesnt give any message, just freezing at the logo and the progress bar
+2008-03-24T04:57:00.000Z	danand	jedi-alex	- try editing the kernel options at the boot screen - press f6 and remove "quiet splash" - then boot. You should see where and what is causing the install or boot to hang

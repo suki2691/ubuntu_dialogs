@@ -1,0 +1,4 @@
+2011-05-16T18:57:00.000Z	helo		i have three identical drives in this machine, and im getting errors on ata3.01... how do i know which drive it is?
+2011-05-16T18:58:00.000Z	helo		dmesg lists ata3 and ata4, so is ata3.00 sata0, ata3.01 sata1, ata4.00 sata2, etc?
+2011-05-16T19:00:00.000Z	Walex	helo	'grep' into 'dmesg' or install 'lsscsi'
+2011-05-16T19:04:00.000Z	helo	Walex	there is no mention of ata4 in lsscsi, and there is no mention of /dev/... along with ata? in dmesg

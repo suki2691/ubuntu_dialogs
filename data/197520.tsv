@@ -1,0 +1,4 @@
+2008-09-18T18:05:00.000Z	scarface		I'd like to run a search for files in a certain directory which do NOT contain a certain string.  What's the best way to do that?
+2008-09-18T18:07:00.000Z	Ktron	scarface	you might be able to do it with grep
+2008-09-18T18:08:00.000Z	Ktron	scarface	like grep -r -v [string] [dir]/*
+2008-09-18T18:08:00.000Z	Ktron	scarface	with whatever flag makes grep only show matching filenames

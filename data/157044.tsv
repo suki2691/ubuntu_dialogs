@@ -1,0 +1,4 @@
+2006-11-26T16:53:00.000Z	stork		how come if i have this line in /etc/fstab: `//192.168.0.3/Group /media/debsrv      smbfs   username=alex,password=XXXX,user,auto,rw,noexec 0 0` i can't log into ubuntu.. it says 'unable to initialize HAL!' when i try and log in, and the rest of gdm doesn't load... i can't log into ubuntu at all.. i need to comment it out of /etc/fstab and reboot. is the string malformed? it works if i do `sudo mount -a` and mount manually..
+2006-11-26T16:05:00.000Z	stork		how does one delete a note with tomboy ?
+2006-11-26T16:06:00.000Z	cafuego	stork	Open the note and click "Delete".
+2006-11-26T16:06:00.000Z	stork	cafuego	the delete button is blocked

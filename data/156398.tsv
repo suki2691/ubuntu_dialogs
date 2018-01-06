@@ -1,0 +1,4 @@
+2009-10-13T21:15:00.000Z	iDangerMouse		Hi guys I need a big time help.... stuck really bad  I inserted my USB flash in my laptop and how do I detect it and format it ?
+2009-10-13T21:17:00.000Z	iDangerMouse		anyone :( ?
+2009-10-13T21:17:00.000Z	iDangerMouse		Yes uberspaced ?
+2009-10-13T21:17:00.000Z	genii	iDangerMouse	If it was the last thing you plugged into the USB... dmesg|tail       should tell you the drive designation (like sdb sdc or so). Then you can partition it with fdisk or gparted and then format it with mkfs.ext3  (or ext4 or whatever)

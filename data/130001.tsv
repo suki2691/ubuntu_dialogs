@@ -1,0 +1,4 @@
+2007-06-22T11:08:00.000Z	metbsd		how do i change resolution to 1280x800
+2007-06-22T11:08:00.000Z	metbsd		it's always at 1024x800
+2007-06-22T11:08:00.000Z	metbsd		which is not right
+2007-06-22T11:09:00.000Z	vzduch	metbsd	sudo dpkg-reconfigure xserver-xorg <- in the screen section go to Medium and choose the resolution(s) you want your screen to use.. or even better, choose Advanced and enter the horizontal and vertical frequency ranges of your display

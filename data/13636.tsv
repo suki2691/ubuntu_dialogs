@@ -1,0 +1,4 @@
+2012-04-10T01:48:00.000Z	markss		Anyone know if Ubuntu 10.04 Lucid will upgrade from Thunderbird 3.1 to 11 ?  (Without a PPA)
+2012-04-10T01:49:00.000Z	ActionParsnip	markss	you can use the comressed archive from the thunderbird site
+2012-04-10T01:50:00.000Z	markss	ActionParsnip	Right. I guess I mean does anyone know if Ubuntu will update Thunderbird to 11 in their 10.04 Lucid repository.
+2012-04-10T01:50:00.000Z	ActionParsnip	markss	extract the folder to /opt and then symlink the binary to run thunderbird into /usr/bin  you will then need to manually make a .desktop file in /usr/share/applications to run it, or you can just use the ppa

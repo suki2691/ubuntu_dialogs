@@ -1,0 +1,4 @@
+2007-05-23T12:31:00.000Z	lommes		hi
+2007-05-23T12:32:00.000Z	lommes		i'm having a problem with apache2 ... i can only access the server with localhost or 127.0.0.1 and with the lan-ip of the server (but only from the server itself)
+2007-05-23T12:34:00.000Z	ianm_	lommes	try:   netstat -napt     and look what 'local address' apache is listening on.  it's a setting in the config file
+2007-05-23T12:37:00.000Z	lommes	ianm_	it says tcp6 :::80 is that an ipv6 problem?

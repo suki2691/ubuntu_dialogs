@@ -1,0 +1,4 @@
+2006-04-20T15:43:00.000Z	beta_m		hey, does anybody know how to install wine, i added the repository the way it says on their website, and yet there's no wine in the list after i search for it... q;-(
+2006-04-20T15:44:00.000Z	mwe	beta_m	sudo apt-get update && sudo apt-get install wine
+2006-04-20T15:44:00.000Z	mwe	beta_m	that should work unless you fscked your sources.list
+2006-04-21T06:11:00.000Z	mwe	beta_m	grep -rl foobar /path

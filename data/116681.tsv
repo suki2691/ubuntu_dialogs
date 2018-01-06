@@ -1,0 +1,4 @@
+2007-10-25T17:30:00.000Z	kromcuich		gibbons has installed the ethernet and wireless as eth0 and eth1. how do i rename the wifi card as ath0?
+2007-10-25T17:31:00.000Z	lloeki	kromcuich	use udev rules
+2007-10-25T17:32:00.000Z	lloeki	kromcuich	see /etc/udev/rules.d/70-persistent-net.rules
+2007-10-25T17:33:00.000Z	kromcuich	lloeki	thanks, looking now

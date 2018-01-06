@@ -1,0 +1,4 @@
+2007-12-08T05:08:00.000Z	fabio_		hi i just compiled the hardy 2.6.24 kernel with some patches on my gutsy amd64 system. all went fine. but problem is, it only built a linux-headers-2.6.24-1 package and not also a linux-headers-2.6.24 which is needed to install the first one
+2007-12-08T05:08:00.000Z	fabio_		any help?
+2007-12-08T05:09:00.000Z	fabio_		i followed the steps on https://help.ubuntu.com/community/Kernel/Compile to compile
+2007-12-08T05:09:00.000Z	soundray_	fabio_	you don't really need headers if you have the complete source

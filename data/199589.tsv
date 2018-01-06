@@ -1,0 +1,4 @@
+2006-03-15T14:43:00.000Z	SpComb		hmm, will the normal 5.10 AMD64 installer work on a dualcore 3800+ ? The installer loads up fine, and partitions (and unset the bootable flag on my windows partition too), but it doesn't get past 0% on the "Installing base system", says it can't get the packages off the CD, and no apt mirror configured
+2006-03-15T14:44:00.000Z	SpComb		or do I need to get one with a SMP kernel?
+2006-03-15T14:44:00.000Z	GTX	SpComb	You'll have to get SMP kernel man, like me
+2006-03-15T14:45:00.000Z	GTX	SpComb	It will work without smp just wont use the 2 cpus only 1

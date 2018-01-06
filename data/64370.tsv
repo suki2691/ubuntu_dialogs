@@ -1,0 +1,4 @@
+2010-03-11T07:52:00.000Z	hmw		I would like Totem to display a video correctly transformed in Compiz Cube while it rotates. Totem seems to use some Overlay mode. How can I make it display the video in "frame buffer mode"?
+2010-03-11T07:54:00.000Z	xangua	hmw	gstreamer-properties ; in the Video tab select X window system(X11/XShm/Xv
+2010-03-11T07:57:00.000Z	hmw	xangua	thanks, i had to use the other X option: "X Window System (No Xv)" though.
+2010-03-11T08:00:00.000Z	hmw	xangua	omg it's full of slow! any ideas? (my pc is old) or do i have to live with it

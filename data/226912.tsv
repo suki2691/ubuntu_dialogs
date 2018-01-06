@@ -1,0 +1,4 @@
+2007-02-03T08:15:00.000Z	neo_		Hey guys, can you please tell me how I can see if my nvidia driver is isntalled correctly?
+2007-02-03T08:15:00.000Z	variant	neo_	glxinfo | grep direct will tell you if you hae 3d acceleration
+2007-02-03T08:19:00.000Z	variant	neo_	if you have an nvidia card and you want 3d acceleration then you need the nvidia drivers
+2007-02-03T08:20:00.000Z	variant	neo_	do sudo -i && update-pciids && lspci | grep VGA

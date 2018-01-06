@@ -1,0 +1,4 @@
+2009-09-24T04:35:00.000Z	MsG		when I have ubuntu now on /dev/sdb and when I physically reorder the things so that the windows/ubuntu hdd will be /dev/sda instead of sdb, will my current install be broken?
+2009-09-24T04:36:00.000Z	Flannel	MsG	Why do you want to reorder them?
+2009-09-24T04:39:00.000Z	Flannel	MsG	You can simply reorder them via GRUB if you want, software can take care of it, no need for the hardware to change.
+2009-09-24T04:41:00.000Z	Flannel	MsG	right, you can remap them in software so that sda looks like sdb and vice versa

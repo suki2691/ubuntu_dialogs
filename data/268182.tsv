@@ -1,0 +1,4 @@
+2004-09-26T11:44:00.000Z	carlos		/usr/bin/make -C build-tree/xc WORLDOPTS="" IMAKE_DEFINES="-DXFree86CustomVersion='\"Ubuntu 4.3.0.dfsg.1-6ubuntu17 20040915051945 root@localhost.localdomain\"' -DBuildSpecsDocs=NO -DBuildFonts=NO" World > logs/make_world.build.log 2>&1
+2004-09-26T11:44:00.000Z	lamont	carlos	> logs/make_world.build.log 2>&1
+2004-09-26T11:45:00.000Z	carlos	lamont	hmm, true, I thought it was only a small portion of the compilation redirected...
+2004-09-26T11:46:00.000Z	lamont	carlos	it's everything, effectively

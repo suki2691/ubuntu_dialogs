@@ -1,0 +1,4 @@
+2008-04-12T15:40:00.000Z	srodden		Greetings! I've created a simple script (3 lines, exports a var then does a sudo modprobe and a sudo to run KVM). I've created a launcher but it doesn't work. If I double click in Nautilus and choose Run in Terminal when it prompts, it works but there's an ugly term in the bg. Any ideas how to make this smooth?
+2008-04-12T15:41:00.000Z	DistroJockey	srodden	can you pastebin the script for us?
+2008-04-12T15:51:00.000Z	DistroJockey	srodden	#!/bin/bash   maybe it should be   #!/bin/sh   ?
+2008-04-12T15:53:00.000Z	DistroJockey	srodden	maybe you need  gksudo  ?

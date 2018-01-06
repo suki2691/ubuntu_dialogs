@@ -1,0 +1,4 @@
+2009-01-01T01:33:00.000Z	sinbox		hi, just added a 2nd drive, mounted it and added it to fstab as well, CDed in there via cli and am trying to create a playlist using find but I get a permission denied, any ideas what is wrong?
+2009-01-01T01:34:00.000Z	gravity1187	sinbox	did you remember to set the permissions
+2009-01-01T01:34:00.000Z	sinbox		find -name *.mp3 -print >playlist.txt  << ikonia
+2009-01-01T01:35:00.000Z	sinbox	gravity1187	when I try to change ownership to current user via chown I get p[ermission denied as well, I'll try chmod now what should it be 755 or 775?

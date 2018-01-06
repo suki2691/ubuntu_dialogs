@@ -1,0 +1,4 @@
+2011-05-04T00:45:00.000Z	Geoffrey2		I'm trying to disable monitor hotplug polling..but even with sudo, I'm getting permission denied....
+2011-05-04T00:47:00.000Z	Geoffrey2		the command I'm trying is 'echo 0 > /sys/module/drm_kms_helper/parameters/poll' ... even with sudo in front, permission denied
+2011-05-04T00:48:00.000Z	trism	Geoffrey2	echo 0 | sudo tee /sys/module/drm_kms_helper/parameters/poll; > is captured by the shell and is run as your user, not root
+2011-05-04T00:50:00.000Z	Geoffrey2	trism	thanks :)

@@ -1,0 +1,4 @@
+2007-10-21T00:51:00.000Z	tharvey		I just installed 7.10 desktop and am having some troubles - I'm evaluating it over Fedora which I've used for years - my first issue is with dual-screen support.  Where are the settings stored that the gui changes so I can understand whats going on?
+2007-10-21T00:52:00.000Z	tharvey		the dual screen gui seems a bit schitzo about what it calls Screen1 and Screen2
+2007-10-21T00:52:00.000Z	tritium	tharvey	should be in /etc/X11/xorg.conf
+2007-10-21T00:53:00.000Z	tritium	tharvey	bullet-proof-X should get you to an xconfig screen.  Otherwise, switch to a v.c.

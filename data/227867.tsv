@@ -1,0 +1,4 @@
+2006-08-29T06:33:00.000Z	domster		I've got an xmodmap command that I'd like run every time X/gdm starts up. Where can I put it? (I don't know about ~/.xprofile because it's per-user, no?)
+2006-08-29T06:35:00.000Z	apokryphos	domster	maybe put in the command in /etc/profile
+2006-08-29T06:34:00.000Z	apokryphos	domster	make an .Xmodmap file in your ~
+2006-08-29T06:34:00.000Z	domster	apokryphos	is there a system-wide way to do it. won't the modmap only be run once I log in that way?

@@ -1,0 +1,4 @@
+2012-10-23T11:32:00.000Z	doomlord		is it possible to create a startup disk on one partition of a usb stick. desired state: usb stick with a bootable linux install, and a sepearte parttion for data. I'd already used gparted to make 2 such partitions..but "startup disk creator " is asking me to format it again
+2012-10-23T11:33:00.000Z	gabkdlly	doomlord	I believe you can just make the whole stick one partition, and then just keep your own data in a seperate folder
+2012-10-23T11:35:00.000Z	gabkdlly	doomlord	it should not disturb any install process as long as you do not muck around in any of the installers files or folders
+2012-10-23T11:41:00.000Z	gabkdlly	doomlord	I believe that when you make a bootable stick, it sets some special bytes somewhere, so just moving all the files from a bootable stick won't work. But I could be wrong.

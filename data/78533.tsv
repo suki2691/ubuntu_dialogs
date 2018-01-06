@@ -1,0 +1,4 @@
+2009-08-12T21:51:00.000Z	TooAngel		Hi
+2009-08-12T21:52:00.000Z	TooAngel		is it possible to prepare a directory in that way, that each file which is created, have a special owner? I know for groups their is the setgid bit, but for the owner?
+2009-08-12T21:53:00.000Z	ks3	TooAngel	Nope, just setgid combined with user groups and umask settings
+2009-08-12T21:53:00.000Z	TooAngel	ks3	@jrib thx

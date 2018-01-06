@@ -1,0 +1,4 @@
+2008-06-13T20:54:00.000Z	blue_wolf		hey , trying to install nvidia driver and its telling me to closi xserver, whats that?
+2008-06-13T20:55:00.000Z	blue_wolf		how to close xserver on ubuntu?
+2008-06-13T20:55:00.000Z	Dr_Willis	blue_wolf	 stop the gdm or kdm service. is one way
+2008-06-13T20:56:00.000Z	Dr_Willis	blue_wolf	 'sudo /etc/init.d/gdm stop' will stop X instantly.

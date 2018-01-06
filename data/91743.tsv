@@ -1,0 +1,4 @@
+2008-06-09T12:14:00.000Z	h2		I'm getting an error when trying to dpkg-reconfigure -phigh xserver-xorg, (xserver-xorg postinst warning: overwriting possibly-customised configuration
+2008-06-09T12:14:00.000Z	h2		   file; backup in /etc/X11/xorg.conf.) any ideas?
+2008-06-09T12:15:00.000Z	joaopinto	h2	that's a a warning, you should ignore it...
+2008-06-09T12:16:00.000Z	joaopinto	h2	that is not related to the warning, the dpkg-reconfigure seems to be running sucesffull

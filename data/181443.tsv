@@ -1,0 +1,4 @@
+2007-03-18T08:04:00.000Z	DWRZ		Hello. I mounted a partition I made in windows, in fstab I have this /dev/hda4 /media/hda4 vfat users,rw 0 0. But for some reason I do not have permissions to read-write on the partition...any place I can find good documentation on how to mount a partition?
+2007-03-18T08:05:00.000Z	DWRZ		?
+2007-03-18T08:05:00.000Z	bruenig	DWRZ	/dev/hda4 /media/hd4 vfat user,auto.fmask=0111,dmask=0000 0 0
+2007-03-18T08:06:00.000Z	bruenig	DWRZ	change the fstab and remount it

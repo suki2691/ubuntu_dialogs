@@ -1,0 +1,4 @@
+2008-01-15T21:38:00.000Z	juannicolas		Hello, I have a PIII dual processor server with 2G ram, should I install the SMP kernel for ubuntu 6.06 LTS?
+2008-01-15T21:39:00.000Z	MasterShrek	juannicolas	it doesnt matter, smp will run fine on a single cpu machine
+2008-01-15T21:40:00.000Z	juannicolas	MasterShrek	thank you, another question, right now i had to edit the startup for it in order to make ubuntu to boot I added 'noapic' command, how can i make the dual processor work or find out if is already working?
+2008-01-15T21:41:00.000Z	MasterShrek	juannicolas	cat /proc/cpuinfo    and see if it lists both cpu's should be cpu0 and cpu1

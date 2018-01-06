@@ -1,0 +1,4 @@
+2007-03-25T12:27:00.000Z	x387		I have /usr/include/string.h
+2007-03-25T12:29:00.000Z	x387		The string.h is being searched in "/usr/local/include/linux/string.h"
+2007-03-25T12:29:00.000Z	jrib	x387	add /usr/local/include  to CPATH maybe
+2007-03-25T12:32:00.000Z	x387	jrib	Thanks, that helped (export CPATH=/usr/src/linux-headers-2.6.17-11/include)!

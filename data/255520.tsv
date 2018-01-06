@@ -1,0 +1,4 @@
+2006-06-18T10:21:00.000Z	jajaja-		how can I edit a txt string in the filesystem? im not sure how to use the chown command
+2006-06-18T10:22:00.000Z	jajaja-		so how can I edit this file since when opened it is read only
+2006-06-18T10:23:00.000Z	jajaja-		ok thanks lastnode let me give it a try
+2006-06-18T10:23:00.000Z	nanomad	jajaja-	if it is a configuration file under /etc, use gtksudo gedit /path/to/file

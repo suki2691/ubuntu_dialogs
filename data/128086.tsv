@@ -1,0 +1,4 @@
+2011-01-25T19:46:00.000Z	ugarit		how does one reset a remote terminal?  I have mumbo jumbo on it.
+2011-01-25T19:46:00.000Z	mbeierl	ugarit	"reset" ?
+2011-01-25T19:46:00.000Z	mbeierl	ugarit	what I mean is there is a bash command called "reset" that should do it
+2011-01-25T19:49:00.000Z	mbeierl	ugarit	sorry - coming in late to this conversation.  is it that remote ssh logins take a long time to complete?  I had a similar issue where it takes a long time to complete the login because sshd wanted to do a dns lookup of the ip address that I was coming in from and that took a long time.  could this be the case?

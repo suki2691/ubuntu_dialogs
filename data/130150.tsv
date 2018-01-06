@@ -1,0 +1,4 @@
+2007-06-21T15:32:00.000Z	carlosbarbosachi		hello, i have been reading the ubuntu guide and wanting to configure a lamp server in ubuntu desktop, ii have seen the order sudo aptitude install lamp-server, but it doesn't wprk, those that package exists, any good and proven lamp installation method?
+2007-06-21T15:33:00.000Z	persica	carlosbarbosachi	you coudl install the components individually.
+2007-06-21T15:34:00.000Z	persica	carlosbarbosachi	apt-get install apache2 libapache2-mod-php5 mysql-server
+2007-06-21T15:37:00.000Z	persica	carlosbarbosachi	not on my 6.06.  Just search for the various parts of LAMP (minus the Linux).

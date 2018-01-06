@@ -1,0 +1,4 @@
+2012-03-25T03:10:00.000Z	hm_		hi! I'm getting segmentation fault for synaptic and linuxdcpp. Upon bt in gdb, I found it to be a problem in libc-2.11.1.so This started occurring only recently and I think it could be because of one of the packages I tried installing (may be vtk, llvm)
+2012-03-25T03:11:00.000Z	ActionParsnip	hm_	what is the output of:  lsb_release -sc
+2012-03-25T03:14:00.000Z	hm_	ActionParsnip	sorry for double posting but i'm on ubuntu lucid lynx.
+2012-03-25T03:21:00.000Z	hm_	ActionParsnip	or somebody: could you help me with the libc error on lucid? What else would be needed to figure out what's wrong

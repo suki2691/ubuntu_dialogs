@@ -1,0 +1,4 @@
+2007-07-05T12:24:00.000Z	Thunderhit		want to copy some directories into the /usr directory, but I dont have the rights for it. thought sudo cp.. might work, but it didnt... anyone able to tell me how I can copy those directories into /usr?
+2007-07-05T12:25:00.000Z	Flannel	Thunderhit	sudo cp should work.
+2007-07-21T11:52:00.000Z	Flannel	Thunderhit	removing ubuntu-desktop is no big deal, it's a metapackage, and that's expected.
+2007-07-21T11:53:00.000Z	Flannel	Thunderhit	however, removing firefox will cause some documentation stuff to have problems (that's the ubuntu-doc bit), so you might want to just add opera, and leave firefox

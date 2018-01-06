@@ -1,0 +1,4 @@
+2008-04-23T13:59:00.000Z	JRRD		should .ko files typically reside somewhere under /lib/modules?
+2008-04-23T14:00:00.000Z	timfrost	JRRD	the ko file needs to go into the directory /lib/modules/$(uname -r)/misc
+2008-04-23T14:01:00.000Z	timfrost		!compile | ﻿zerlneo
+2008-04-23T14:01:00.000Z	JRRD	timfrost	thx!

@@ -1,0 +1,4 @@
+2007-12-10T09:01:00.000Z	soma2		how to uninstall netbeans in gutsy, i install it from other source (not from repository)
+2007-12-10T09:02:00.000Z	uhci_	soma2	do you installed it fron source?
+2007-12-10T09:03:00.000Z	soma2	uhci_	yes, i install it from source not from synaptic
+2007-12-10T09:06:00.000Z	uhci_	soma2	go to sources folder and type "sudo make remove" it should work, else you will need to inspect a file named "configure" and search named path's in it and erase files manually

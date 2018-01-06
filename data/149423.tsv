@@ -1,0 +1,4 @@
+2009-05-15T22:12:00.000Z	elli222		if [ "$@" = *--help* -o "$@" = *-h* ] ; then <<< why dosent this work?
+2009-05-15T22:14:00.000Z	elli222		im not using test... im using bash's builtin if
+2009-05-15T22:15:00.000Z	Pici	elli222	I didn't think that string equality in test would properly evaluate wildcards.  #bash would know better than I know.
+2009-05-15T22:16:00.000Z	Pici	elli222	er, s/know/though/

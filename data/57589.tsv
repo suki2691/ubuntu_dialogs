@@ -1,0 +1,4 @@
+2009-05-28T04:36:00.000Z	pik}		hey guys im having a problem with one of my usb hd's on my ubuntu server. i removed the usb cabel from the server and then i put it back and mount the disk with sudo mount -a. now suddenly i cant remove files with rm -r.  getting a message like 'rm cannot remove, read only file system"
+2009-05-28T04:37:00.000Z	blackest_knight	pik}	 yeah you fubared the file sys it needs to be fscked for consistancy
+2009-05-28T04:38:00.000Z	pik}	blackest_knight	and how do i do that? :)
+2009-05-28T04:41:00.000Z	blackest_knight	pik}	 probably the easiest thing is to sudo gparted and get it to check the disk theres a command line tool but i can't be arsed checkin what it'd be

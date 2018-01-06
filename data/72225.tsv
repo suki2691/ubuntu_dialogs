@@ -1,0 +1,4 @@
+2009-10-31T19:53:00.000Z	supersasho		Hi, i need help. I've got problem with proftpd, it wont restart. when i type "sudo /etc/init.d/proftpd restart" it says "ProFTPd is started from inetd/xinetd." (new installation of karmic, in intrepid it was just fine)
+2009-10-31T19:55:00.000Z	Dmole	supersasho	did you try sudo /etc/init.d/xinetd restart ?
+2009-10-31T19:56:00.000Z	supersasho	Dmole	yes i tried
+2009-10-31T19:57:00.000Z	Dmole	supersasho	I would read "man xinetd" and "man proftpd"

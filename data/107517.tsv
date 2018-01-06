@@ -1,0 +1,4 @@
+2009-03-25T00:16:00.000Z	jurism		Hi! I have problems with restarting apache2. It says something about unable to open logs. I am 90% sure it is php5-ffmpeg problem, but I need this extension very much. Can You tell me where should I add 'pkill -9 apache2' in /etc/init.d/apache2 so server could restart with no problems? Thank You!
+2009-03-25T00:18:00.000Z	jurism		(98)Address already in use: make_sock: could not bind to address 0.0.0.0:80 no listening sockets available, shutting down Unable to open logs
+2009-03-25T00:18:00.000Z	blip	jurism	sounds like you have another server running
+2009-03-25T00:19:00.000Z	blip	jurism	stop the server first then

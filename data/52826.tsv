@@ -1,0 +1,4 @@
+2010-08-26T17:54:00.000Z	ilmenite		what runs on port 34008 ? i just opened http://localhost:34008/ (one of the two only open ports my system has) and it prompts for a username and password, root's credentials doesnt work
+2010-08-26T17:55:00.000Z	ilmenite		is there a gui to chkconfig?
+2010-08-26T17:55:00.000Z	sipior	ilmenite	try "sudo netstat -antup | grep 34008"
+2010-08-26T17:57:00.000Z	ilmenite	sipior	weird, i have python there as well as something called beam.smp

@@ -1,0 +1,4 @@
+2009-02-09T06:42:00.000Z	zcat[1]	freazer	so sudo dpkg --configure -a isn't fixing the problem?
+2009-02-09T06:44:00.000Z	zcat[1]	freazer	have got myself into situations like that before.. can't remember how I found my way out though
+2009-02-09T06:45:00.000Z	freazer	zcat[1]	thanks for the assurance ^^ it's a known bug with dpkg and update-initramfs with a partially functioning raid array - there's no way to pass the -H parameter that it insists on to continue the installation. I'm slowly muddling through
+2009-02-09T06:47:00.000Z	zcat[1]	freazer	ctrl-R

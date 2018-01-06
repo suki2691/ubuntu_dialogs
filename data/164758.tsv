@@ -1,0 +1,4 @@
+2007-03-20T11:15:00.000Z	EdgEy		how can i get ubuntu to scan my hdd for partitions to mount ?
+2007-03-20T11:15:00.000Z	EdgEy		i made a partition with gksudo and i'd like to get it auto mounting
+2007-03-20T11:15:00.000Z	EdgEy		err, gparted*
+2007-03-20T11:17:00.000Z	preaction	EdgEy	the /dev/hd?? node should be created automatically by the kernel. just add the appropriate conf to /etc/fstab (i think it's System > Administration > Disks Manager)

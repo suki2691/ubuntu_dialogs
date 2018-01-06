@@ -1,0 +1,4 @@
+2005-11-23T08:38:00.000Z	fukngruv		trying to use terminal for ftp using command line: wget ftp://ftp3.mplayerhq.hu/MPlayer/releases/codecs/all-20050412.tar.bz2   Just sits their and never connects
+2005-11-23T08:39:00.000Z	infowolfe	fukngruv	use --passive
+2005-11-23T08:39:00.000Z	infowolfe	fukngruv	wget --help | grep passive
+2005-11-23T08:40:00.000Z	infowolfe	fukngruv	wget http is probably easier ;-)

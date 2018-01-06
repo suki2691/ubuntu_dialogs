@@ -1,0 +1,4 @@
+2005-12-09T16:29:00.000Z	bob832		reading up on iptables...if i wanted to block port 113, would this command do it?
+2005-12-09T16:29:00.000Z	bob832		iptables -A INPUT -p tcp --dport 113 -i eth0 -j REJECT
+2005-12-09T16:30:00.000Z	pbransford	bob832	do DROP instead of REJECT if you don't want to respond to that port at all.
+2005-12-09T16:30:00.000Z	bob832	pbransford	ok, thanks

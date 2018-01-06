@@ -1,0 +1,4 @@
+2008-01-29T22:40:00.000Z	rodietze		HOW can I find out where is my cdrom driver?
+2008-01-29T22:41:00.000Z	rodietze		there is no /dev/cdrom
+2008-01-29T22:42:00.000Z	_Kheldar^	rodietze	dmesg | grep cd <- should show you what device its on, and then mount it manually
+2008-01-29T22:42:00.000Z	rodietze	_Kheldar^	 thank you!

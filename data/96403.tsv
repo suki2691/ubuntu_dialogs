@@ -1,0 +1,4 @@
+2008-12-08T01:17:00.000Z	cesurasean		How do I check which directory apache is using?
+2008-12-08T01:17:00.000Z	Flannel	cesurasean	It's using /var/www by default.  Theres a DocumentRoot directive in /etc/apache2/sites-available/*
+2008-12-08T01:19:00.000Z	cesurasean	Flannel	I needed to compile apache for /home for suexec because of Webmin,
+2008-12-08T01:19:00.000Z	Flannel	cesurasean	Webmin isn't supported, for a variety of reasons.  Are you sure you need it?

@@ -1,0 +1,4 @@
+2011-04-02T02:14:00.000Z	Ampelbein	ndxtg	you can add it manually to /boot/grub/grub.cfg
+2011-04-02T02:15:00.000Z	ndxtg	Ampelbein	if there are ubuntu updates (such as kernel changes), it will run update-grub and the grub.cfg is rewritten so info is lost
+2011-04-02T02:16:00.000Z	ndxtg	Ampelbein	never mind, update-grub has found the new os, thank you
+2011-04-02T02:17:00.000Z	Ampelbein	ndxtg	you can also use /etc/grub.d/ and put your info there so it's preserved (incase you need it)

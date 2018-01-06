@@ -1,0 +1,4 @@
+2005-09-25T11:30:00.000Z	CountDown		Hi all.  How can I find out to which package a system file belongs?  For example, I'm interested in knowing which package is responsible for installing the /usr/include/usb.h file.
+2005-09-25T11:31:00.000Z	bob2	CountDown	dpkg -S file
+2005-09-25T11:31:00.000Z	CountDown	bob2	Thanks... exactly what I was looking for.  Cheers.
+2005-09-25T11:32:00.000Z	bob2	CountDown	dlocate is anoter package that works more quickly by indexing the db daily

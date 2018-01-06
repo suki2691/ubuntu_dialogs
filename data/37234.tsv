@@ -1,0 +1,4 @@
+2010-03-22T01:25:00.000Z	mikelifeguard		is there a way to kill a screen without first re-attaching it? screen -k pid.tty.host or something?
+2010-03-22T01:27:00.000Z	cherwin	mikelifeguard	just use kill
+2010-03-22T01:27:00.000Z	mikelifeguard	cherwin	I ask if screen can do it because then you can refer to it by the name you set with -S
+2010-03-22T01:29:00.000Z	cherwin	mikelifeguard	you could write a small script to fix that for you, screen doesn't have such an option

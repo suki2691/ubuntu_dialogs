@@ -1,0 +1,4 @@
+2006-03-12T07:15:00.000Z	imagemaker		i wonder if anyone can help... I have allocated too much space to partition dev/hda5 and swap, and wish to resize to increase the size of my home partition... can this be done easily?
+2006-03-12T07:16:00.000Z	Frogzoo	imagemaker	does home abut hda5?
+2006-03-12T07:21:00.000Z	Frogzoo	imagemaker	ok, yes this can be done easily if you know what you're doing - boot single mode - remove the swap partition (swapoff) & unmount home - run gparted to resize partitions & reboot
+2006-03-12T07:23:00.000Z	Frogzoo	imagemaker	gl - just be careful you get it right & don't touch any other file systems

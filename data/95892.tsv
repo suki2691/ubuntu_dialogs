@@ -1,0 +1,4 @@
+2009-11-17T08:20:00.000Z	inveratulo	binrapt	not irrelevant per se, but it is probably just informational, and
+2009-11-17T08:19:00.000Z	inveratulo	binrapt	your system is probably configured to let network-manager handle your connections.
+2009-11-17T08:19:00.000Z	binrapt	inveratulo	err so the ifconfig output is irrelevant?
+2009-11-17T08:22:00.000Z	inveratulo	binrapt	cat /etc/NetworkManager/nm-system-settings.conf and you'll probably see something like [ifupdown] managed=true

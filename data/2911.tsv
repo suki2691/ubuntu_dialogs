@@ -1,0 +1,4 @@
+2012-05-23T01:33:00.000Z	beonmaui		I'm getting constant repeating errors while I try to fsck my media drive in root/safe mode. Every 50 seconds... "sd 5:0:0:0 [sdc] Asking for cache data failed", then "sd 5:0:0:0 [sdc] Assuming drive cache: write through".  12.01LTS system will no longer boot due to this error.  Any clues?
+2012-05-23T01:34:00.000Z	beonmaui		BTW:  sdc is not plugges in
+2012-05-23T01:34:00.000Z	escott	beonmaui	if the drive cache is failing you might be able to use hdparm to force it to bypass the cache
+2012-05-23T01:34:00.000Z	beonmaui	escott	not plugged in

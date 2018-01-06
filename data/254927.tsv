@@ -1,0 +1,4 @@
+2005-01-16T07:05:00.000Z	zombics		how can i make my windows partition readable with my normal user?
+2005-01-16T07:05:00.000Z	zAo^	zombics	edit /etc/fstab as root. In the parameter collum, use umask=007,gid=1000
+2005-01-16T07:06:00.000Z	zAo^		remount afterwards
+2005-01-16T07:07:00.000Z	zombics	zAo^	thx man :)

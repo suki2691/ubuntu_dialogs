@@ -1,0 +1,4 @@
+2009-11-21T23:40:00.000Z	Confuzius		anyone have any suggestions for dualbooting Karmic/Mint7? I've already got karmic installed and a blank partition reserved for mint.  Do I just install it to that partition and uncheck all of the boot manager stuff when setting up manual partitions in the mint install?  Will grub2 detect the newly installed mint?
+2009-11-21T23:41:00.000Z	ikonia	Confuzius	make sure you share /boot partitions to make it easy
+2009-11-21T23:42:00.000Z	Confuzius	ikonia	I'm not sure that I have a dedicated /boot parition will that be a problem?
+2009-11-21T23:42:00.000Z	ikonia	Confuzius	won't cause a problem, just makes it very hard to manage

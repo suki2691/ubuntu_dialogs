@@ -1,0 +1,4 @@
+2007-03-26T07:56:00.000Z	simonsays		hey i downloaded a java jre5 thing (recommened from here) and the flash from repo, but youtube doesnt work, do i download the flash thing through the firefox browser or by some other means?
+2007-03-26T07:56:00.000Z	Spliffster	simonsays	$ sudo apt-get install flash-nonfree
+2007-03-26T07:59:00.000Z	Spliffster	simonsays	add the following line to your /etc/apt/sources.list:
+2007-03-26T08:00:00.000Z	Spliffster	simonsays	then run $sudo apt-get update; and from then one .. backports packages are available

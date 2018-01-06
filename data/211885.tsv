@@ -1,0 +1,4 @@
+2006-08-23T08:28:00.000Z	goldenflaw		Hello, I was wondering how to add periodic tasks that requires sudo privelege?
+2006-08-23T08:28:00.000Z	goldenflaw		is there a way to do that with crontab?
+2006-08-23T08:29:00.000Z	FliesLikeALap	goldenflaw	you can add them to root's crontab
+2006-08-23T08:29:00.000Z	FliesLikeALap	goldenflaw	if you do sudo crontab -e, they will be executed with root permissions

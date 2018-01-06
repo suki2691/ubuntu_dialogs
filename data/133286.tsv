@@ -1,0 +1,4 @@
+2007-06-06T11:58:00.000Z	klobster		when a cd or flash disk is automounted how does it know where to mount to?
+2007-06-06T11:59:00.000Z	cafuego	klobster	/media/volumenanem
+2007-06-06T11:59:00.000Z	cafuego	klobster	and it can check /etc/fstab for matching info.
+2007-06-06T12:00:00.000Z	klobster	cafuego	how does it know to do it in /media, and not /mnt?  if I change it in fstabs to be /mnt will the automount follow suit?

@@ -1,0 +1,4 @@
+2010-08-17T21:33:00.000Z	R\Peaceman		I've set up an samba share, and added a directory to share. The directory also includes 2 hard drives that is running on a another computer that I've mounted. The problem is that when I try to create a folder och upload a file from my computer, I get a message "no permissions" but when I am in putty and dir into the directory, I am allowed to create a folder and so on.
+2010-08-17T21:34:00.000Z	hiku	R\Peaceman	does samba have permissions to write to the mounted disks? who owns the mount point?
+2010-08-17T21:36:00.000Z	hiku	R\Peaceman	when you try to write over the samba mount, are you logging in? is it prompting you for username/password, or did you set the default permissions so that anyone can write to it?
+2010-08-17T21:37:00.000Z	hiku	R\Peaceman	can you pastebin your smb.conf for me

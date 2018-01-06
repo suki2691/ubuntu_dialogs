@@ -1,0 +1,4 @@
+2011-04-18T07:59:00.000Z	seaoftea		any here dual boot ubuntu and another linux flavor with grub2? I'm dual booting ubuntu 10.10 and fedora 15 but I have to into ubuntu and run grub-mkconfig to get it to recognize new fedora kernels
+2011-04-18T07:59:00.000Z	seaoftea		also the fedora splash screen doesn't show up nor does it properly label fedora kernels
+2011-04-18T08:00:00.000Z	MaRk-I	seaoftea	ubuntu uses grub2 and fedora grub afaik... maybe is better if you chainload fedoras grub instead of adding the stanzas directly into grub2
+2011-04-18T08:08:00.000Z	MaRk-I	seaoftea	you can make it work if you add the correct uuids for the kernels the problem is when you update fedora your grub2 won't change and have to do basically 2 grub updates

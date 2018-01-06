@@ -1,0 +1,4 @@
+2005-07-16T10:45:00.000Z	elshadii		I tried to install muine, it installed but i'm getting a seg fault when trying to import my folder, is there any way I can uninstall it and all of the stuff that was installed along with it?
+2005-07-16T10:46:00.000Z	jewel	elshadii	 You can type apt-cache show muine and it'll tell you all of the programs that muine depends on
+2005-07-16T10:46:00.000Z	jewel	elshadii	 You can then go and try and remove them in synaptic and see if they try and remove other packages
+2005-07-16T10:47:00.000Z	jewel	elshadii	 If it tries to remove a bunch of stuff that you use, then click on edit->unmark all

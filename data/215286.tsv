@@ -1,0 +1,4 @@
+2007-02-03T17:53:00.000Z	nodegamra		kernel - panic not syncing: VFS: Unable to mount root fs on unkown-block(0,0) anyone help?
+2007-02-03T17:54:00.000Z	soundray	nodegamra	this can happen with a wrong or missing root= kernel option
+2007-02-03T17:55:00.000Z	soundray	nodegamra	edit /boot/grub/menu.lst and check the kernel options and whether they point to your root partition
+2007-02-03T17:57:00.000Z	soundray	nodegamra	how did you get into this situation?

@@ -1,0 +1,4 @@
+2007-10-18T14:53:00.000Z	arno-t		can I make synaptic ignore a dependency? I need to ignore libc6, but can't figure out how. synaptic just want to "fix" the problem uninstalling the package I need...
+2007-10-18T14:53:00.000Z	WaltzingAlong	arno-t	coulde use --force
+2007-10-18T15:15:00.000Z	arno-t	WaltzingAlong	Yippee I found a way: googled on how to repack then extracted the original imagick deb, changed the control file to not include libc6 dependency, built and installed the new package. APT now actually has super cow powers! :D thanks
+2007-10-18T15:16:00.000Z	WaltzingAlong	arno-t	:D

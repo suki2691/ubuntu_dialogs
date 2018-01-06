@@ -1,0 +1,4 @@
+2008-03-04T21:40:00.000Z	openros		while using  scp iam getting the error msg as "Host key verification failed."
+2008-03-04T21:41:00.000Z	mavi-	openros	you have a key-file in ssh/ in your home
+2008-03-04T21:42:00.000Z	mavi-	openros	you need to delete the entry for that host
+2008-03-04T21:42:00.000Z	mavi-	openros	and then you will be able to store the new key

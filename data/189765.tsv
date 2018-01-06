@@ -1,0 +1,4 @@
+2006-06-20T08:51:00.000Z	alth		Hey guys, having a bit of an interesting problem here...my / partition has 1.9 gb of space on it, but my home partition is full. Is there any way I can use some of the space in my / to store files?
+2006-06-20T08:53:00.000Z	dooglus	alth	you can use symlinks to make parts of / appear to be inside /home/<you>/
+2006-06-20T08:54:00.000Z	dooglus	alth	"sudo mkdir /spare; sudo chown alth:alth /spare; ln -s /spare /home/spare" or some such
+2006-06-20T08:55:00.000Z	alth	dooglus	Thanks, but I think I solved my problem using a root -nautilus script and creating a folder writable by my normal user...just didn't think of doing that before is all ^^

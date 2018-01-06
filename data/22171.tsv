@@ -1,0 +1,4 @@
+2011-07-03T03:06:00.000Z	BernardV	sw0rdfish	-c
+2011-07-03T03:10:00.000Z	BernardV	sw0rdfish	Maybe create a backup of the downloaded part, so when it goes wrong your not stuck downloading it completely
+2011-07-03T03:11:00.000Z	BernardV	sw0rdfish	sftp is ssh.. then use rsync
+2011-07-03T03:13:00.000Z	BernardV	sw0rdfish	alias scpresume="rsync --partial --progress --rsh=ssh"

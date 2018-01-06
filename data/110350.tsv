@@ -1,0 +1,4 @@
+2008-07-22T16:20:00.000Z	ogzy		i have already downloaded a package source via apt-get source and edited it and now i want to create a deb package from it how can i do it?
+2008-07-22T16:21:00.000Z	DRebellion	ogzy	use debuild to make a source package and then build it with pbuilder
+2008-07-22T16:23:00.000Z	ogzy	DRebellion	how about this, dpkg-buildpackage -rfakeroot -b
+2008-07-22T16:24:00.000Z	DRebellion	ogzy	that looks okay, but it really depends on what you are planning to do with the package. For example, are you building with a dev version of ubuntu; are you submitting it to the archive, etc etc

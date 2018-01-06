@@ -1,0 +1,4 @@
+2007-01-16T06:12:00.000Z	Dalebuntu		How do I save my edits to the menu.lst file for Grub? Help!
+2007-01-16T06:13:00.000Z	unop	Dalebuntu	if you can't save changes, you probably didnt invoke the editor as superuser -- gksu gedit /boot/grub/menu.lst
+2007-01-16T06:17:00.000Z	Dalebuntu	unop	that worked for my menu.lst file. Thanx, again!
+2007-01-16T06:18:00.000Z	unop	Dalebuntu	no problem .. remember that you need to 'sudo' things that affect the system as a whole

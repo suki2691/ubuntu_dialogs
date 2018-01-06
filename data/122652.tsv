@@ -1,0 +1,4 @@
+2008-06-06T09:37:00.000Z	Bridge1		Hmm... can anyone explain to me why I get an error when trying to start a virtual machine on VirtualBox?
+2008-06-06T09:37:00.000Z	Bridge1		It tells me that I have two different drivers running, and it only needs one.  It also tells me to uninstall both versions, and install only one version... but I can only find one installed.
+2008-06-06T09:38:00.000Z	Bridge1		The error reads as such:  "The VirtualBox support driver which is running is from a different version of VirtualBox. You can correct this by stopping all running instances of VirtualBox and reinstalling the software.."
+2008-06-06T09:40:00.000Z	BobCFC	Bridge1	I think it is because of the new .18 kernel in the updates.. they haven't released the virtualbox-modules for .18 yet, reboot into .17 from the menu

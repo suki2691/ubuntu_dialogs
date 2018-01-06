@@ -1,0 +1,4 @@
+2008-10-17T16:02:00.000Z	dns53	^synax	 install paman paprefs pavucontrol pavucontrol, once you have the volume control you can select the default output device, you should also set pulse audio to use simultanious output so it will go to all sound cards
+2008-10-17T16:03:00.000Z	^synax	dns53	 Thanks, I've got them all installed, where would I select the output device with PulseAudio?
+2008-10-17T16:06:00.000Z	dns53	^synax	run pulse audio device chooser, select configure local sound server, simultanious output > enable then go to pulse volume control, under output, right click and select simultanious
+2008-10-17T16:13:00.000Z	^synax	dns53	Thanks, it worked perfectly. :)

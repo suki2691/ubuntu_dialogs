@@ -1,0 +1,4 @@
+2005-06-15T05:27:00.000Z	rosemary		when I try to run ipconf eth0 192.167.1.2 it tells me permission denied
+2005-06-15T05:27:00.000Z	Seveas	rosemary	it's ifconfig, and you need to run it with sudo
+2005-06-15T05:28:00.000Z	Seveas	rosemary	so it would be: sudo ifconfig eth0 address 192.168.1.2
+2005-06-15T05:28:00.000Z	Seveas	rosemary	as normal user

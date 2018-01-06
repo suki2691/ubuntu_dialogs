@@ -1,0 +1,4 @@
+2008-05-07T01:16:00.000Z	sarah2		If I cat /dev/video0 with my webcam plugged in I get garbage.  When I cat /dev/video0 with webcam not plugged in I get file not found.  When I turn on Camorama it says it cannot find video.  I have an old logitech webcam.  Help!
+2008-05-07T01:17:00.000Z	Vlet	sarah2	well, if you cat it, you should get garbage - by doing so, you're taking data from your camera and sending it to the terminal, at least that's my understanding of what you're doing
+2008-05-07T01:19:00.000Z	Vlet	sarah2	man camorama? :)
+2008-05-07T01:20:00.000Z	Vlet	sarah2	there must be some setting somewhere for camorama... it's probably looking for /dev/somethingwacky0 and you have to change it

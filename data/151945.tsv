@@ -1,0 +1,4 @@
+2009-02-06T02:30:00.000Z	_lumm		could anyone give me a hint on how to create more then 7-8 loop-aes devices.?
+2009-02-06T02:31:00.000Z	_lumm		How to Mount more than 8 loopback devices??
+2009-02-06T02:32:00.000Z	IntuitiveNipple	_lumm	tell the loop device module how many you want when it starts: see "modinfo loop"
+2009-02-06T02:32:00.000Z	IntuitiveNipple	_lumm	You can add the option to the /etc/modprobe.d/options file to take effect on every boot

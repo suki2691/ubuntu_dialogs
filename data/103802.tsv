@@ -1,0 +1,4 @@
+2009-02-17T15:02:00.000Z	Pegasos989		Hello. Where do I put a .so file I want to add to Firefox? I downloaded 64 bit version of Adobe Flash, got .so file and don't know what to do next with it
+2009-02-17T15:02:00.000Z	ActionParsnip	Pegasos989	mkdir ~/.mozilla/plugins
+2009-02-17T15:02:00.000Z	ActionParsnip	Pegasos989	cp <file.so> ~/.mozilla/plugins; killall firefox; firefox &
+2009-02-17T15:03:00.000Z	Pegasos989	ActionParsnip	Thanks

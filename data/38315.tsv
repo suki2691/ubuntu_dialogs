@@ -1,0 +1,4 @@
+2010-05-04T08:35:00.000Z	phillipsjk		The problem is the autorun.exe is not set executable, neither is setup.exe  DOS/Windows9x used extensions to determine if a file was executable.
+2010-05-04T08:36:00.000Z	un214	phillipsjk	remount with umask=022
+2010-05-04T08:50:00.000Z	phillipsjk	un214	umask does not apply to iso9660 filesystems according to the mount man page. umask applies to "msdos, umsdos and vfat "
+2010-05-12T06:49:00.000Z	phillipsjk	un214	fat 32 doesn't support a lot of permissions.

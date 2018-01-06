@@ -1,0 +1,4 @@
+2012-09-04T11:05:00.000Z	muindor		hey all, i have a virtual ubuntu server machine in our test pool, over weekend something happened to our data store, so i saw the filesystem was mounted as read only. later i had to shut down the machine and when i start it now it sais "error: unknown filesystem" and i get grub rescue console
+2012-09-04T11:06:00.000Z	ikonia	muindor	sounds like it's been corrupted
+2012-09-04T11:07:00.000Z	muindor	ikonia	is there any way to restore it ?
+2012-09-04T11:07:00.000Z	ikonia	muindor	depends how/why it's been corrupted

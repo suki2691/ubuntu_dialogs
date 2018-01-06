@@ -1,0 +1,4 @@
+2007-09-20T08:55:00.000Z	nickpierpoint		Hi - anyone know how to turn off desktop effects without using the front end? System crashes whenever I try to turn them off using the front end.
+2007-09-20T08:55:00.000Z	fermatstheorem	nickpierpoint	terminal -> ps -ef  |grep compiz
+2007-09-20T08:56:00.000Z	fermatstheorem	nickpierpoint	find out the pid of the compiz and compiz.process
+2007-09-20T08:56:00.000Z	fermatstheorem	nickpierpoint	kill -9 <pid> <pid>

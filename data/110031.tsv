@@ -1,0 +1,4 @@
+2011-01-17T01:18:00.000Z	Marchitos		how do i set ip and dns statically without connection manager?
+2011-01-17T01:18:00.000Z	Marchitos		i mean fro terminal
+2011-01-17T01:18:00.000Z	soreau	Marchitos	ifconfig $iface $ip
+2011-01-17T01:18:00.000Z	soreau	Marchitos	nameserver is set in /etc/resolv.conf

@@ -1,0 +1,4 @@
+2009-09-12T18:07:00.000Z	mefiiik		hello i have simple question.. i have on my HDD 2 ubuntu... one si broken.. nobody know how to repair it.. so i install new ubuntu... is here any way how to copy all updates from old ubuntu to new ubuntu? and all configuration? i dont want to download everything again.. thx for help:)
+2009-09-12T18:09:00.000Z	Blizzerand_	mefiiik	: copy everything from /var/cache/apt/archives and replace it with that of the new installation
+2009-09-12T18:19:00.000Z	Blizzerand_	mefiiik	: k , if you trust me copy that packages into your home and from the terminal paste them all into your /var/cache/apt/archives directory . No download required and just update
+2009-09-12T18:20:00.000Z	mefiiik	Blizzerand_	ok i will copy it.. because that guide which they send me... i really dont understand it:D i am begginer and there is lot of stuff which i dont understand

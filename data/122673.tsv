@@ -1,0 +1,4 @@
+2010-10-09T15:05:00.000Z	rlp10		Can I re-phrase my question: how do you run a remote application using ssh so that it is displayed on the remote machine?
+2010-10-09T15:07:00.000Z	jrib	rlp10	set the DISPLAY variable appropriately and run the app
+2010-10-09T15:08:00.000Z	jrib	rlp10	erm sorry, I read that as "on the server" somehow.  For remote, just use "ssh -X" when connecting
+2010-10-09T15:09:00.000Z	rlp10	jrib	thanks for your help, I did mean the first, and changing the DISPLAY is working

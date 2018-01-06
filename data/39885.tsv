@@ -1,0 +1,4 @@
+2010-02-09T05:35:00.000Z	Ricoshady		how do I find out what time /etc/cron.daily runs?
+2010-02-09T05:36:00.000Z	pfifo	Ricoshady	'cat /etc/crontab' its probbally at 00:00
+2010-02-09T05:38:00.000Z	Ricoshady	pfifo	it says 25 3    * * *   root    test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily )
+2010-02-09T05:38:00.000Z	pfifo	Ricoshady	your cron.daily runs at 3:25am local time

@@ -1,0 +1,4 @@
+2007-06-21T12:02:00.000Z	cgannon		anybody willing to give me a hand with setting up a working samba share? I'm running feisty and I've set up the share to a directory in my home dir. It's set to rw. When I try to mount the share in windows at //myip/Media (the name of the share, right?) I cannot authenticate. The dialog comes up, but I can't get past it despite using my correct username and password.
+2007-06-21T12:03:00.000Z	stefg	cgannon	samba authentication by deafault is separate from login authentication. read man smbpasswd, and the !samba factoid
+2007-06-21T12:06:00.000Z	stefg	cgannon	rumour has ist that *ubuntu* is an ancient african saying for /tired of compiling gentoo/ :-)
+2007-06-21T12:07:00.000Z	cgannon	stefg	haha. I think that might be it.

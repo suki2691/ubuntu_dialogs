@@ -1,0 +1,4 @@
+2011-05-19T01:21:00.000Z	bfig		so should i nuke all those folders ? just to be sure: ~/.compiz, ~/.config/compiz, ~./config/compiz-1, ~./gconf, ~./gconfd
+2011-05-19T01:22:00.000Z	bfig		ok... i'll leave the gconf ones out of it then. what will hapen when i reboot and it doesn't find any conf files?
+2011-05-19T01:23:00.000Z	bfig		but for example, which gui will it boot me into?
+2011-05-19T01:23:00.000Z	TheRedOctober	bfig	/etc/skel contains a skeleton of those files, and copies them over if it fails to find them

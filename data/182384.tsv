@@ -1,0 +1,4 @@
+2007-04-27T06:02:00.000Z	lodxcol		ok, I'm having a large issue. I've upgraded to Feisty, by changing all the 'edgy' entries in my sources.list file to 'feisty'. I then do 'sudo aptitude update' 'sudo aptitude upgrade' and 'sudo aptitude dist-upgrade'. All seems to install well, but when I reboot, nothing happens. It just sits there. I press 'control alt f1' and I see a strange error. I cannot see the entire thing because the text is very large.
+2007-04-27T06:03:00.000Z	lodxcol		yes, I've tried that.
+2007-04-27T06:03:00.000Z	lodxcol		oh wait, nevermind.
+2007-04-27T06:03:00.000Z	stefg	lodxcol	so there were probably too many third party entries in your sources.list ... see !upgrade on how to do it right

@@ -1,0 +1,4 @@
+2011-09-04T21:39:00.000Z	xaphir		how do I tell apt-get to show all installed .deb packages?
+2011-09-04T21:39:00.000Z	jrib	xaphir	dpkg -l | grep '^ii'
+2011-09-04T21:39:00.000Z	xaphir	jrib	thank you
+2011-09-04T21:40:00.000Z	xaphir	jrib	the grep grabs installed packages?

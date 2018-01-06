@@ -1,0 +1,4 @@
+2007-07-04T08:50:00.000Z	jscinoz		I have two smbshares listed in /etc/fstab but no matter what i do i cant get write access on any user besides root, I've made a group entitled smbusers(gid=1003) added all 3 users to it and mentioned it in /etc/fstab but still no luck, what should i do now? I've tried chowning the mountpoints to root:smbusers, and chmod 755, but it reset to 755 straight away my /etc/fstab is here: http://paste.ubuntu-nl.org/28430/
+2007-07-04T08:52:00.000Z	jscinoz		thanks
+2007-07-04T08:54:00.000Z	jscinoz		whats the command to check the current owner and permissions of a file?
+2007-07-04T08:54:00.000Z	dm	jscinoz	ls or stat

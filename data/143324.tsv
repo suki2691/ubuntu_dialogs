@@ -1,0 +1,4 @@
+2012-01-16T11:46:00.000Z	spexi		Hi! How can I set root rights for my user account permanently, or is it possible? I do "sudo su" on the command line, but if I would like to access the server for example with WinSCP and transfer files from some directory I don't have rights to, there comes warning with "Access denied". How could that be done the easiest way?
+2012-01-16T11:46:00.000Z	spexi		Using ubuntu 10.04.
+2012-01-16T11:48:00.000Z	vegas	spexi	one should not set root rights permanently - unless you know what you are doing .....
+2012-01-16T11:48:00.000Z	vegas	spexi	usually the files I want to download / upload to the server/linux desktop - I copy it to /tmp directory and move it work from there

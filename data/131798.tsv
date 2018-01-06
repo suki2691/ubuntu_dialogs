@@ -1,0 +1,4 @@
+2009-08-05T01:36:00.000Z	Drained		does anyone know how to shutdown "X" server so i can install the latest nividia drivers?
+2009-08-05T01:36:00.000Z	Drained		nah bucky they disabled that lol.
+2009-08-05T01:37:00.000Z	bastidrazor	Drained	in tty1 login then sudo /etc/init.d/gdm stop
+2009-08-05T01:38:00.000Z	bastidrazor	Drained	also from that tty1 install your drivers. once done replace stop with start and gnome will start back

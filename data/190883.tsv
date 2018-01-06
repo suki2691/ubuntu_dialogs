@@ -1,0 +1,4 @@
+2009-01-06T16:05:00.000Z	CetiEel		I am trying to use wine to start a game that irequires a command in the windows shortcut to the game ... in windows it is started by "dt.exe -nologin" .... How should I do this in wine? Is it ok with wine dt.exe -nologin ?
+2009-01-06T16:06:00.000Z	nonix4	CetiEel	should be
+2009-01-06T16:08:00.000Z	nonix4	CetiEel	I'd recommend googling for others who've tried it... or check winehq
+2009-01-06T16:10:00.000Z	nonix4	CetiEel	path has to be mapped to a drive accessible by wine as well; afaik (or rather, have heard) by default everything is but if you have changed the setup, it may be missing access to the directory as well

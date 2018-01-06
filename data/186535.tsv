@@ -1,0 +1,4 @@
+2008-11-18T01:45:00.000Z	buu		So.. I'm trying to make dual monitors work under ubuntu, I'm modifying my xorg.conf with some information I found in a ubuntu bug ticket. Unfortunately when I startx now I get "drmOpenDevice: Open failed" and then I get a Backtrace
+2008-11-18T01:45:00.000Z	buu		It's trying to open /dev/dri/card0
+2008-11-18T01:45:00.000Z	ikonia	buu	what card is that ?
+2008-11-18T01:47:00.000Z	buu	ikonia	radeon9200

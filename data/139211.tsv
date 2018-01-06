@@ -1,0 +1,4 @@
+2007-04-15T16:45:00.000Z	joonr		hello. I added a command alias to the .bash_config file in my home directory, and that command is not available in my terminal sessions. Am I going about this the wrong way?
+2007-04-15T16:47:00.000Z	roryy	joonr	I don't think bash looks at ~/.bash_config
+2007-04-15T16:48:00.000Z	roryy	joonr	try editing ~/.bashrc or maybe ~/.bash_profile
+2007-04-15T16:50:00.000Z	joonr	roryy	thanks very much, editing .bashrc did the trick.

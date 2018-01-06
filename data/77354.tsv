@@ -1,0 +1,4 @@
+2008-10-19T06:26:00.000Z	renegade420		how can i mount and write to a removable fat32 disk
+2008-10-19T06:26:00.000Z	renegade420		?
+2008-10-19T06:28:00.000Z	renegade420		how can i mount and write to a removable fat32 disk?
+2008-10-19T06:29:00.000Z	Helminthe	renegade420	this should be handled automagically by ubuntu. if not, mount -tvfat /dev/xxx somefolder -o rw,umask=0000

@@ -1,0 +1,4 @@
+2011-03-23T17:21:00.000Z	user1_		can we use a remote computer processor to run a native application?
+2011-03-23T17:22:00.000Z	edbian	user1_	You can x forward which would only appear to make that happen, or a NFS, or yes, clustering
+2011-03-23T17:24:00.000Z	edbian	user1_	IDK, never done it before.  I suggest network filesystem for only 2 machines though.  Clustering is more for high performance computing with many machines
+2011-03-23T17:26:00.000Z	edbian	user1_	Clustering is not a simple thing to set up:  https://help.ubuntu.com/community/MpichCluster

@@ -1,0 +1,4 @@
+2005-12-10T07:20:00.000Z	kpm		Hi, I have a portable USB hard drive hooked up, and I can brwose to it with Nautilus, however, I would like to get Rhthymbox (or any other music player) to use the Music directory on it as the library for the player's default, without having to copy all my music files over to the local hard drive... but the music applications I have tried so far (Rhtymbox and amaraok) don't list the portable hard drive in the directory tree... during initi
+2005-12-10T07:20:00.000Z	kpm		al start up, and the only other options I can find in RhythmBox is an import... which I assume will copy all my music files to the RhythmBox's default location...
+2005-12-10T07:21:00.000Z	macd	kpm	you need to create a symlink from your mount point to say /usbdrive
+2005-12-10T07:23:00.000Z	macd	kpm	 of you can 'df' on shell

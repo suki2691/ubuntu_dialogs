@@ -1,0 +1,4 @@
+2010-07-15T01:47:00.000Z	alexander_		roger thanks I'll get on it racethesunlive
+2010-07-15T01:47:00.000Z	Monty	alexander_	alternatively you could setup a samba share for mounting a netdrive in windows
+2010-07-15T01:50:00.000Z	Monty	alexander_	sudo apt-get samba, then edit /etc/samba/smb.conf and see the sample entries... after a restart your share will be available in windows \\ip of host\share
+2010-07-15T01:51:00.000Z	Monty	alexander_	i guess, there are many simple howtos on the web for ubuntu samba shares

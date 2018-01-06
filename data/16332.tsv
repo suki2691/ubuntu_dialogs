@@ -1,0 +1,4 @@
+2011-05-23T13:55:00.000Z	Jordan_U	ferengee	update-grub doesn't install grub, grub-install does and /sys/ is required for os-prober to find fedora.
+2011-05-23T13:58:00.000Z	Jordan_U	ferengee	grub-install doesn't have anything to do with detecting fedora, it installs grub (boot sector, core.img, modules).
+2011-05-23T13:59:00.000Z	ferengee	Jordan_U	we had a sys mounted in the chroot, so why didn't os-prober find the fedora
+2011-05-23T13:59:00.000Z	Jordan_U	ferengee	I don't know.

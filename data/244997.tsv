@@ -1,0 +1,4 @@
+2005-03-26T12:50:00.000Z	LordGrunt		hello
+2005-03-26T12:51:00.000Z	LordGrunt		is it possible to create user with password made not needed? or at least space as pwd
+2005-03-26T12:52:00.000Z	DarthFrog	LordGrunt	Yes.  But you won't be able to login as that user.
+2005-03-26T12:54:00.000Z	DarthFrog	LordGrunt	Edit /etc/shadow and delete the encrypted password between the first two : marks.

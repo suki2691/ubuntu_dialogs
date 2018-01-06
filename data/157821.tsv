@@ -1,0 +1,4 @@
+2008-09-25T21:40:00.000Z	ja1		Hi! Question: Whenever I sudo a command from the terminal and want it run as a separate process, say "sudo gvim textfile.txt &", the program doesnt start up properly. I get it in the processes list (ps ax), marked with a T. I suspect that the terminal is waiting for me to enter the password for sudo'ing. Now, how should I avoid that, except by removing the & ?
+2008-09-25T21:40:00.000Z	comicinker	ja1	gksu command
+2008-09-25T21:40:00.000Z	comicinker		maybe
+2008-09-25T21:41:00.000Z	ja1	comicinker	Ok, thanks.

@@ -1,0 +1,4 @@
+2010-04-22T04:59:00.000Z	rafaelsoaresbr		quick question: how change recursively the ower and group of a directory?
+2010-04-22T05:01:00.000Z	ikthus	rafaelsoaresbr	chow -r user@group /your/path
+2010-04-22T05:01:00.000Z	rafaelsoaresbr	bastid_raZor	nsadmin, Typos_King: I want to change the owner of /var/spool/squid to "squid:squid"
+2010-04-22T05:01:00.000Z	ikthus	rafaelsoaresbr	chow -r user@group /var/spool/squid

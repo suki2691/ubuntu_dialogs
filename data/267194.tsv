@@ -1,0 +1,4 @@
+2009-12-19T23:06:00.000Z	hlfshell		i have a command that accesses hardware that is requiring sudo (it used to not before i updated to 9.10). How do I make it so that the command no longer requirees sudo?
+2009-12-19T23:06:00.000Z	Dr_Willis	hlfshell	 edit the sudoers file properly where the command wont need a sudo password (best way) or.. (bad way)  set the suid bit on the program.
+2009-12-19T23:07:00.000Z	Dr_Willis	hlfshell	 very very very carefully. :)
+2009-12-19T23:08:00.000Z	Dr_Willis	hlfshell	 thers web sites/docs that detail the syntax.  they should give examples you can modify

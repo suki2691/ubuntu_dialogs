@@ -1,0 +1,4 @@
+2007-03-12T16:55:00.000Z	matkix0s		"What is the location of the directory of C header files that match your running
+2007-03-12T16:55:00.000Z	matkix0s		kernel?" anyone got an answer? I installed a compiler
+2007-03-12T16:56:00.000Z	matkix0s		I'm installing vmware and thats what it asked
+2007-03-12T16:58:00.000Z	bimberi	matkix0s	in another terminal 'sudo apt-get install linux-headers-$(uname -r)'.   Once complete the answer to that question will be found by typing 'echo /usr/src/linux-headers-$(uname -r)' in a terminal

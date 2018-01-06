@@ -1,0 +1,4 @@
+2007-02-28T07:19:00.000Z	TheManiacKY		HELP: A What IF question. I have an External USB Hard drive. I would like to put a Linux LIVE CD on it so whenever I plug the drive into a computer I can have it boot from the USB drive and since its a live cd it would automagicly detect the hardware and just work on pretty much any computer.  So instead of carrying a live cd and my external drive. Is there a way I can put the CD on the Drive?
+2007-02-28T07:20:00.000Z	tonyyarusso	TheManiacKY	I haven't tried this yet, but I've had the same question.  Let me look for the answers I got.
+2007-02-28T07:21:00.000Z	tonyyarusso	TheManiacKY	One person suggested "If your .iso image file is located in /foo and you have a mount
+2007-02-28T07:21:00.000Z	tonyyarusso	TheManiacKY	point /mnt/bar, do this:, 'sudo mount /foo/file.iso /mnt/bar -t iso9660 -o loop=/dev/loop1' The extracted image is in /mnt/bar

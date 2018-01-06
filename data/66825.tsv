@@ -1,0 +1,4 @@
+2009-04-22T18:53:00.000Z	rrowell		 I'm trying to start firefox and it keeps saying "Firefox is already running", but that isn't true, ps -aux | grep -i fire and ps -aux | grep -i moz both report nothing... I even restarted X just to make sure, nothing... How do I convince firefox it is OK to start?
+2009-04-22T18:55:00.000Z	hbekel	rrowell	try rm .mozilla/firefox/<whatever>.default/lock if it exists
+2009-04-22T18:57:00.000Z	rrowell	hbekel	TY, the lock file was the issue
+2009-04-22T18:58:00.000Z	hbekel	rrowell	these types of errors often involve a stale lockfile

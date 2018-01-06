@@ -1,0 +1,4 @@
+2006-09-12T16:15:00.000Z	helloworld		if you're have a multi core cpu is it possible to assign processes to a specific core?
+2006-09-12T16:16:00.000Z	mjr	helloworld	I don't think that's possible with the stock kernel; if you really need it, I believe there are processor affinity patches to do that
+2006-09-12T16:17:00.000Z	mjr	helloworld	generally though, the scheduler does try not to swap processes around the cores too much anyways
+2006-09-12T16:17:00.000Z	helloworld	mjr	I see

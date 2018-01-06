@@ -1,0 +1,4 @@
+2010-05-24T23:18:00.000Z	ngomes		hi got a permission denied when writing this file > sudo /bin/echo "1737 0078" > /sys/bus/usb/drivers/rt2870/new_id
+2010-05-24T23:18:00.000Z	ngomes		any workaround ?
+2010-05-24T23:19:00.000Z	Docteh	ngomes	the sudo covers the echo, but not the >, echo something | sudo tee
+2010-05-24T23:19:00.000Z	Docteh	ngomes	i actually dont know the proper command, hopefully someone here does

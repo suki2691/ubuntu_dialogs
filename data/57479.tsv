@@ -1,0 +1,4 @@
+2009-05-21T23:47:00.000Z	maniel		hi
+2009-05-21T23:47:00.000Z	maniel		how to change vt resolution in  jaunty?
+2009-05-21T23:48:00.000Z	Dr_Willis	maniel	 if you mean the 'console' you would have to proberly edit the /boot/grub/menu.lst and enable the proper framebuffer modes..
+2009-05-22T00:38:00.000Z	maniel	Dr_Willis	back with my console resolution problem, the fault was my custom kernel, i mean, update-initramfs isn't adding vesafb, fbcon, softcursor etc modules to its initrd, but it is adding those modules to stock kernels

@@ -1,0 +1,4 @@
+2009-06-01T01:03:00.000Z	unop_	racecar56	 sudo aptitude purge $(dpkg -l | awk '{print $2}')
+2009-06-01T01:04:00.000Z	racecar56	Slart	oh i tried it with apt-get purge $(blah) and it got better
+2009-06-01T01:04:00.000Z	unop_		errm, my bad
+2009-06-01T01:04:00.000Z	unop_	racecar56	 sudo aptitude purge $(dpkg -l | awk '/^rc/{print $2}')

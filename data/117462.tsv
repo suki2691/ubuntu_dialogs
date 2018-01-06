@@ -1,0 +1,4 @@
+2012-07-30T03:13:00.000Z	kevin___	Dr_Willis	so i am now on the live cd. it has this outputs: https://gist.github.com/3202470 but there is no xorg.conf file ... any ideas?
+2012-07-30T04:02:00.000Z	Dr_Willis	kevin___	 the nvidia driver blacklisted the nouveau driver when it got installed.. and never unblacklisted them.. so its in fact using the vga/framebuffer drivers or somthing.
+2012-07-30T04:05:00.000Z	kevin___	Dr_Willis	ah, i see an "nvidia-current_hybrid.conf" that has "This file was installed by nvidia-current" and blacklists nouveau and lbm-nouveau... looks like it wasn't removed when i removed the pkg. i'll remove that file and reboot and see what happens
+2012-07-30T04:05:00.000Z	Dr_Willis	kevin___	 the PURGE option might have remioved it. :)

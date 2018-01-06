@@ -1,0 +1,4 @@
+2007-10-25T09:28:00.000Z	c0Ld		Is "Allow local system administrator login" disabled be default in the security tab of the login window's manager? Isn't that what controls whether or not the root account is locked?
+2007-10-25T09:28:00.000Z	Dr_Willis	c0Ld	that keeps root from loging into the kdm/gdm X session. thats just ONE place root is disabled.
+2007-10-25T09:29:00.000Z	Dr_Willis	c0Ld	if root had a password - that setting would keep Root from Loging into X directly
+2007-10-25T09:30:00.000Z	c0Ld	Dr_Willis	It's enabled on my computer, but I have no reason for root access outside of sudo. Is it safe to disable that option, or will it lock ALL admin accounts out?

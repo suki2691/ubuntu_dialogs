@@ -1,0 +1,4 @@
+2011-08-24T12:47:00.000Z	sweener		Can someone tell me what the difference is when mounting an iso image with the the command "mount -o loop foo.iso /media" compared to "mount -ro loop foo.iso /media"?
+2011-08-24T12:48:00.000Z	Moshanator	sweener	the r in -ro means read-only
+2011-08-24T12:50:00.000Z	sweener	Moshanator	thanks. I assume the -ro option would be the correct way then
+2011-08-24T13:06:00.000Z	Moshanator	sweener	no, you still have to use -o. It stands for "option" and means that anything following will be an option, in your case, loop.

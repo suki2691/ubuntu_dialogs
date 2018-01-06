@@ -1,0 +1,4 @@
+2008-08-01T23:53:00.000Z	Arnos		Whats an easy way to make a zombie process?
+2008-08-01T23:55:00.000Z	ifireball	Arnos	run a process, have it run a child process, then kill the parent while having the child ignore the sighup and sigterm signals
+2008-08-01T23:55:00.000Z	Arnos	ifireball	Thanks
+2008-08-01T23:56:00.000Z	ifireball	Arnos	hmm... I think you also need to kill the child afterwards, not sure

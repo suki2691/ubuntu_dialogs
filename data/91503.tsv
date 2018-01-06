@@ -1,0 +1,4 @@
+2012-03-04T12:20:00.000Z	churchill		Is there a way to get the fingerprint of a GPG public key without using the stupid gui?
+2012-03-04T12:21:00.000Z	Flannel	churchill	gpg --list-keys will list all your keys, --list-key email, or name, or whatever, will filter out just those keys.
+2012-03-04T12:23:00.000Z	Flannel	churchill	email? or just --list-keys and then peruse them.  If you just added it, it'll have todays date, it also may be the only one :)
+2012-03-04T12:24:00.000Z	churchill	Flannel	date is a good indication! ty

@@ -1,0 +1,4 @@
+2011-04-08T04:39:00.000Z	derek_		i installed apache on ubuntu 10.10, and test page on 127.0.0.1 ('it's worked') are successfully run on ubuntu machine, but this page not reachable form other local network computer. Any ideas how to fix that?
+2011-04-08T04:39:00.000Z	muelli	derek_	you probably have to configure your server ;-) i.e. to listen on external interfaces.
+2011-04-08T04:40:00.000Z	derek_	muelli	can you be more specific about that, please?
+2011-04-08T04:41:00.000Z	muelli	derek_	nope. Since that is Apache related and not general Ubuntu stuff. Google will know though :-) Plus I don't know whether listening on loopback only is actually the issue in your case.

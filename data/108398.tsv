@@ -1,0 +1,4 @@
+2007-12-25T14:55:00.000Z	drunkard		ok now i'm getting the message "couldn't find linux-restricted-modules"   does anyone know how to resove this   its from this command  sudo apt-get install linux-restricted-modules-lowlatency linux-restricted-modules-2.6.22-14-rt
+2007-12-25T14:55:00.000Z	wols_	drunkard	run depmod -a once
+2007-12-25T14:57:00.000Z	drunkard	wols_	it said "bash: run: command not found" when i typed that in
+2007-12-25T14:57:00.000Z	wols_	drunkard	only root can runt it...

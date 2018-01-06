@@ -1,0 +1,4 @@
+2009-10-10T13:04:00.000Z	Qayos		https://help.ubuntu.com/community/EOLUpgrades/Feisty   <--- says to do "upgrade" and not "dist-upgrade" but then talks about kernels... which are kept-back for non dist-upgrade, right?
+2009-10-10T13:04:00.000Z	Qayos		or am i missing something?
+2009-10-10T13:06:00.000Z	Flannel	Qayos	sudo apt-get update && sudo apt-get dist-upgrade will work just fine
+2009-10-10T13:07:00.000Z	Flannel	Qayos	right, someone got confused apparently

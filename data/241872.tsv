@@ -1,0 +1,4 @@
+2008-01-27T03:19:00.000Z	Nikos		why when i give 'sudo some command' it ask me for niks password and not for root password?
+2008-01-27T03:19:00.000Z	astro76	Nikos	that's how sudo works
+2008-01-27T03:22:00.000Z	astro76	Nikos	by default only the first user is in the admin group, you'll have to add new users explicitly
+2008-01-27T03:26:00.000Z	astro76	Nikos	sudo -i

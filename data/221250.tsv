@@ -1,0 +1,4 @@
+2008-10-08T20:34:00.000Z	mib_b4blih		While using OpenSSH there are two private key locations: one at /etc/ssh/ssh_host_rsa_key and the other at ~/.ssh/id_rsa Which one is being used?
+2008-10-08T20:34:00.000Z	BlueEagle	mib_b4blih	Both. ssh_host is the host key while id_rsa is the client key.
+2008-10-08T20:35:00.000Z	mib_b4blih	ikonia	So there are two sshds running: one for me and one for the host machine?
+2008-10-08T20:35:00.000Z	BlueEagle	mib_b4blih	ie. the client key is what you provide when accessing other ssh servers and the server key is what is used when others connect to your server.

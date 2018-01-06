@@ -1,0 +1,4 @@
+2006-12-24T09:47:00.000Z	andoh		Hey.. I need some help. Heh heh. I'm trying to install the nVidia drivers that they give on the nvidia website and I can't because it's complaining about X11 running. How do I shut off X11 so I can run the damn install script?
+2006-12-24T09:49:00.000Z	andoh		Hurm.
+2006-12-24T09:50:00.000Z	andoh		Can anyone tell me how to turn off X11 and keep it off? I can kill the process, but it just pops back up.
+2006-12-24T09:50:00.000Z	Zoffix	andoh	I'm pretty knew to this stuff, however click "System->Administration->Services" and you can select there that the box will not start X automatically "Graphic Logons" or something is what you need. However might try to just press ALT+CTRL+F2 and login there in the shell and try to run your script (and then ALT+F7 to go back to X)

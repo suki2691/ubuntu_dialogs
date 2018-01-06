@@ -1,0 +1,4 @@
+2009-08-17T22:25:00.000Z	xlq		I have an MPEG-1 stream in a RIFF file (from a VideoCD) - anyone know how I could re-wrap the stream in an MPEG container, without transcoding the stream?
+2009-08-17T22:25:00.000Z	cellofellow	xlq	sure, that should be easy with ffmpeg or mencoder. Just a sec...
+2009-08-17T22:26:00.000Z	cellofellow	xlq	ffmpeg -i riff_file -vcodec copy -acodec copy mpegfile.mpg should do the trick.
+2009-08-17T22:26:00.000Z	xlq	cellofellow	whoa, I wasn't expecting the actual command :D thanks

@@ -1,0 +1,4 @@
+2011-10-30T16:39:00.000Z	Adamantus		I'm trying to change the default option for the grub manager.  I found some instructions which say to go to boot/grub/grub.conf but it's not there.
+2011-10-30T16:40:00.000Z	llutz_	Adamantus	/etc/default/grub is to be changed
+2011-10-30T16:41:00.000Z	Adamantus	llutz	Thanks got it
+2011-10-30T16:41:00.000Z	llutz_	Adamantus	run "sudo update-grub" after changing the file to make changes active

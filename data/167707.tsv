@@ -1,0 +1,4 @@
+2007-03-20T09:55:00.000Z	shuffle2		hi all i just installed ubuntu server in a VM to play around with phpBB3....my problem is that i need some directories in /var/www/apache-default/ to be writable. how can i do this via command line?
+2007-03-20T09:56:00.000Z	Flannel	shuffle2	/var/www is your DocumentRoot
+2007-03-20T09:56:00.000Z	shuffle2		hehe yeah i was trying chmod last night, and i couldn't get the syntax right....ended up banning all users except root somehow
+2007-03-20T09:57:00.000Z	shuffle2	Flannel	should i just apply the changes to /var/www/*?

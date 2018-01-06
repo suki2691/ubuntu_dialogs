@@ -1,0 +1,4 @@
+2011-03-17T17:10:00.000Z	fixx		if i scp something to a remote dir, like scp -r /etc/* blah.... is it common for the remote version and the local one to differ by a few bytes?
+2011-03-17T17:10:00.000Z	red2kic	fixx	Use rsync.
+2011-03-17T17:11:00.000Z	fixx	red2kic	rsync -avuz -e ssh?
+2011-03-17T17:13:00.000Z	red2kic	fixx	rsync -avz (should be fine). '-e ssh' is already configured to be default

@@ -1,0 +1,4 @@
+2011-07-18T19:02:00.000Z	iVictor		I updated ubuntu 2.6.32.32 to 2.6.32.33 and rebooted today. Since then, the system is not booting up. It throws error & drops to BusyBox.
+2011-07-18T19:02:00.000Z	ActionParsnip	iVictor	if you hold shift at boot, can you boot to the older kernel?
+2011-07-18T19:03:00.000Z	ActionParsnip	iVictor	if it boots to the older version then run:   sudo update-grub
+2011-07-18T19:04:00.000Z	iVictor	ActionParsnip	Before I could boot normally to 2.6.32.32 (recovery), I've had to do a update-grub. So essentially, I've already done update-grub.

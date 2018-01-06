@@ -1,0 +1,4 @@
+2007-01-18T14:55:00.000Z	bbird		I am a new ubuntu (edgy) user: someone knows if it is possible to watch the services at startup in redhat/fedora/suse style ?
+2007-01-18T14:55:00.000Z	Flannel	bbird	sure, temporarily? (one boot)? or for good?
+2007-01-18T14:56:00.000Z	Flannel	bbird	do you want to watch it all startup just once? or forever?
+2007-01-18T14:57:00.000Z	Flannel	bbird	ah, ok.  at grub (right after your POST screen, hit escape to go to the grub menu), then pick the kernel you want (should be on top), hit "e" to edit it, remove the "quiet" and "splash" options, then hit 'b'

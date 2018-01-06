@@ -1,0 +1,4 @@
+2010-04-08T17:50:00.000Z	minimec	elegos	That shoul be possible... 1. create a partition... I would use about 8GB, then create a bootable stick on that partition with the provided ubuntu tool, then run 'initramfs' in a console to reconfigure the brub2 menu.
+2010-04-08T17:51:00.000Z	elegos	minimec	can't I use the tool directly from the LiveCD and make a bootable stick on that partition? I don't have Ubuntu installed yet on that laptop
+2010-04-08T17:52:00.000Z	elegos	minimec	I should install grub too, and then launch initramfs
+2010-04-08T17:52:00.000Z	minimec	elegos	You could try that, but how would you start that one if you don't have the master boot sector set to grub2?

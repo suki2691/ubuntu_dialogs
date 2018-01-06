@@ -1,0 +1,4 @@
+2008-10-01T02:46:00.000Z	techsupport		hey all for some reason when i do 'shutdown now' my system doesnt shutdown but goes into "Recovery Menu" after stopping services, and its asking me to either resume normal boot, or repair brocken packages, or try to fix X server, which i dont even have installed X
+2008-10-01T02:47:00.000Z	BCM34	techsupport	from command line?
+2008-10-01T02:47:00.000Z	techsupport	BCM34	yeah i only have command line, no X
+2008-10-01T02:48:00.000Z	BCM34	techsupport	append "-h" for halt. for more info go to man suhutdown

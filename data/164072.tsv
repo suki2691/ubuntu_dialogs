@@ -1,0 +1,4 @@
+2007-03-17T08:10:00.000Z	Tominator		hi! my prism 2.5 card doesn't work any more after I installed the newer kernel from the repos (2.6.17-11-generic)
+2007-03-17T08:11:00.000Z	Tominator		does anybody know why? and how can i solve my problem?
+2007-03-17T08:12:00.000Z	Tominator		oh i don't know... one moment please...
+2007-03-17T08:12:00.000Z	bulmer	Tominator	you have your old kernel around? boot off of the old and look in /lib/firmware/`uname -r`/  see if there are differences?

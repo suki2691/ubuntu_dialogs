@@ -1,0 +1,4 @@
+2008-04-29T23:01:00.000Z	_lando_		hi, anyone know if a quick way to identify what kind of processor I have via command line?
+2008-04-29T23:02:00.000Z	_lando_		nevermind. dmesg told me :)
+2008-04-29T23:03:00.000Z	_lando_		thanks !
+2008-04-29T23:03:00.000Z	ompaul	_lando_	 cat /proc/cpuinfo  | grep model\ name

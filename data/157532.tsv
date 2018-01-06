@@ -1,0 +1,4 @@
+2007-01-31T12:07:00.000Z	Otter		With "virtual" aliases on ethernet interfaces, can you change the alias mac address without changing the mac of the physical interface  it is bonded too?
+2007-01-31T12:09:00.000Z	Otter		deenjoe: Or even create a vritual loopback, other than lo, that I can bind a mac too
+2007-01-31T12:09:00.000Z	deejoe	Otter	I don't know.  Can tun devices do that?
+2007-01-31T12:10:00.000Z	Otter	deejoe	Tun is a a virtual Tunnel interface, don't think you can use it for anything but that

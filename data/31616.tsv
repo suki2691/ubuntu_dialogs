@@ -1,0 +1,4 @@
+2010-05-19T21:03:00.000Z	Rogzilla		Please help. I am running Ubuntu 9.04 server. I have written a script to open a vlc stream, then a startup script that starts the stream script in a new screen session. However, I want to be able to pass the sudo privalegs from the start.sh to the video.sh in screen. So that I can enter my password outside of screen. Any ideas??
+2010-05-19T21:04:00.000Z	Glacer	Rogzilla	isnt it bad to run things under root as far as server wise if it's public?
+2010-05-19T21:05:00.000Z	Rogzilla	Glacer	here are my scripts. http://pastie.org/967843 I have to use sudo to open the firewire input.
+2010-05-19T21:06:00.000Z	Rogzilla	Glacer	they are actually super simple, in reality there are only two commands.

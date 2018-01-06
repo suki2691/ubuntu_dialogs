@@ -1,0 +1,4 @@
+2009-11-16T21:20:00.000Z	ziesemer		How can I disable NetworkManager in karmic?  I ran "update-rc.d -f NetworkManager remove", but something is still relaunching it.  I need to configure my interfaces manually.
+2009-11-16T21:22:00.000Z	tritium	ziesemer	network manager ignores manually-configured interfaces
+2009-11-16T21:23:00.000Z	ziesemer	tritium	what counts as "manually configured"?  Anything in /etc/network/interfaces?
+2009-11-16T21:23:00.000Z	tritium	ziesemer	yes

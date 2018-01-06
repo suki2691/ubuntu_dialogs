@@ -1,0 +1,4 @@
+2010-08-22T09:41:00.000Z	thune3	dublisk	that should work, could you pastebin the file? If a variable is getting set at a later stage (and not appended) it could overwrite what is in there. You can boot a termianl (ctrl-alt-f1) to check setting instead of reboot.
+2010-08-22T09:46:00.000Z	thune3	dublisk	i added that line and it worked fine (logged into tty to check), it must be getting reset somehwere else
+2010-08-22T09:59:00.000Z	thune3	dublisk	ldconfig man page does not indicate that LD_LIBRARY_PATH is used for cache. I assume a uncached library just has to be linked at runtime without the benifit of the cache. Did you get the LD_LIBARAY_PATH variable sorted. These are the files that affect environment for my login (plus any you call): http://paste.ubuntu.com/481748/
+2010-09-23T10:48:00.000Z	thune3	dublisk	i only get that error dialong when my filesystem encounters errors and is remounted read-only. Just pointing it out.

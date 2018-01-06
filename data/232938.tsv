@@ -1,0 +1,4 @@
+2010-03-19T14:33:00.000Z	rayb0t		this might be sorta offtopic for this channel, but i recently restored a directory of backed up media from an external drive. a simple copy operation, however for a variety of small reasons i suspect the copy may not be perfect. which program could i use to generate a hash from a directory of files? md5sum seems to be confused by doing that
+2010-03-19T14:34:00.000Z	rayb0t		(or i'm doing it wrong)
+2010-03-19T14:34:00.000Z	erUSUL	rayb0t	use rsync to update the copy ?
+2010-03-19T14:35:00.000Z	erUSUL	rayb0t	also; what problems are you seeing with the copy? maybe you messed up permissions copying to ntfs/fat filesystem or by not usng "cp -a"

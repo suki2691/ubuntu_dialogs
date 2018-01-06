@@ -1,0 +1,4 @@
+2005-08-02T08:32:00.000Z	tahorg		looks like 8139too is broken in 2.6.12-4-686 breezy
+2005-08-02T08:32:00.000Z	cafuego	tahorg	Is it, or do you need 8139cp ?
+2005-08-02T08:32:00.000Z	tahorg	cafuego	both are loaded, and it worked fine till 2.6.12-3
+2005-08-02T08:33:00.000Z	cafuego	tahorg	Odd... it should pick one OR the other, not both (unless you have two different NICs)

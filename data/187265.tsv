@@ -1,0 +1,4 @@
+2012-02-27T16:38:00.000Z	lohness		so, skype cant start because libXss.so not found, so reinstall ia32-libs but that failes with /ia32-libs.postinst: 40: /usr/lib32/gdk-pixbuf-2.0/gdk-pixbuf-query-loaders: not found
+2012-02-27T16:39:00.000Z	lohness		so I checked in ia32-libs.postinst and it tries to execute /usr/lib32/gdk-pixbuf-2.0/gdk-pixbuf-query-loaders /usr/lib32/gdk-pixbuf-2.0/2.10.0/loaders/*.so > /usr/lib32/gdk-pixbuf-2.0/2.10.0/loaders.cache || true # and that one also fails
+2012-02-27T16:39:00.000Z	lohness		if I try to execute the same line, but prefixed with /lib32/ld-linux.so.2 /usr/lib32/gdk-pixbuf,..... it works... wtf is this shit
+2012-02-27T16:39:00.000Z	ikonia	lohness	tone down the language please.

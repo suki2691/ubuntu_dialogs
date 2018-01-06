@@ -1,0 +1,4 @@
+2007-04-11T11:23:00.000Z	am6		anyone know the path to find your windows partition?
+2007-04-11T11:24:00.000Z	fugore	am6	it should be /dev/hda1
+2007-04-11T11:25:00.000Z	fugore	am6	you can mount it  to /mnt/windows (mkdir windows before)
+2007-04-11T11:25:00.000Z	fugore	am6	mount /dev/hda1 /mnt/windows

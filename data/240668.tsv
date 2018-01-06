@@ -1,0 +1,4 @@
+2006-07-23T08:31:00.000Z	phoibos		is somebody having troubles with archive.ubuntu.org
+2006-07-23T08:31:00.000Z	phoibos		i cannot even ping it ?
+2006-07-23T08:31:00.000Z	enyc	phoibos	 archive.ubuntu.com only has A records in  82.211.80.0/20 and hence down
+2006-07-23T08:32:00.000Z	enyc	phoibos	it means that the BGP router that advertises '82.211.80.0/20' to the world has become disconnected or stopped working or under a crazy DoS attack that stops that router talking to its BGP peers

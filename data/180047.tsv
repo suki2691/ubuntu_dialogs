@@ -1,0 +1,4 @@
+2011-02-25T04:07:00.000Z	cache_surplus		question about backup.  i am trying to find what is the best backup solution for my home dir to a USB drive 1 terabyte.  what i would like is for a cron like job backup daily while i am using this laptop. I would also like a solution for backup to a remote server in my network. could someone with experience doing so, help me for a bit?  i have used backup simple backup prior, but i am a bit confused about how the data is store
+2011-02-25T04:07:00.000Z	jrib	cache_surplus	do you want incremental backups or just a single copy?
+2011-02-25T04:08:00.000Z	jrib	cache_surplus	I'd recommend rsnapshot.  Another good option is rdiff-backup.  See ubottu for more choices
+2011-02-25T04:14:00.000Z	jrib	cache_surplus	paste your fstab line

@@ -1,0 +1,4 @@
+2012-03-04T19:16:00.000Z	spitzi		Hiya. I wonder: is env "PATH" used anywhere but the shell when it needs to autocomplete a file name ?
+2012-03-04T19:18:00.000Z	geirha	spitzi	It's used by most programs that run other programs
+2012-03-04T19:20:00.000Z	geirha	spitzi	If you hit Alt+F2 in gnome and type in  uxterm, gnome will look through all directories in PATH for a file named uxterm, and run the first one it finds.
+2012-03-04T19:24:00.000Z	spitzi	geirha	I see, thanks.

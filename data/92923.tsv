@@ -1,0 +1,4 @@
+2008-04-29T09:37:00.000Z	Ephesius		hey could someone tell me how to replace every space in a file with a period using the command line
+2008-04-29T09:38:00.000Z	reikon	Ephesius	cat file | sed -s 's/\s/\./g' > file.no-periods
+2008-04-29T09:39:00.000Z	Ephesius	reikon	that worked thanks...i could only get it to replace the first one
+2008-04-29T09:40:00.000Z	reikon	Ephesius	np

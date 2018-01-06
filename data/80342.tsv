@@ -1,0 +1,4 @@
+2009-01-18T09:07:00.000Z	brad_		I have some alsa problems to
+2009-01-18T09:07:00.000Z	brad_		I need to append ac97_quirk=swap_hd to my module line, but I don't know how, I've added it to /etc/modprob/alsa-base
+2009-01-18T09:09:00.000Z	brad_		I did a modprov -vr snd-intel8x0, then a modprob -v snd-intel8x0 ac97_quirk=swap_hp and it does work, but i need it at boot
+2009-01-18T09:10:00.000Z	redvamp128	brad_	 can't you do the alsa restart?

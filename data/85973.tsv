@@ -1,0 +1,4 @@
+2008-07-10T11:14:00.000Z	ansichart		Hello, I am having a problem changing my MAC address on my Atheros wifi card.  When I change it with ifconfig, it shows that it has changed... however my card will ignore anything addressed to the spoofed MAC address.
+2008-07-10T11:14:00.000Z	ansichart		I think my chipset restricts me from doing it, but I am trying to find a work-around solution for this.
+2008-07-10T11:15:00.000Z	magnetron	ansichart	you are doing it wrong. don't use ifconfig, use the madwifi tool to create a new VAP with the desired MAC adress
+2008-07-10T11:17:00.000Z	ansichart	magnetron	I'll also look into that.

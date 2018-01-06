@@ -1,0 +1,4 @@
+2006-08-17T16:46:00.000Z	izm99		hey all... how do i change the runlevel of pcmcia services on my desktop (which it does not apply to).  I figure it might make the bootup time a bit faster, and I wouldn't have to see a "failed" each time. ^.^
+2006-08-17T05:40:00.000Z	izm99		how do i prevent the orinoco module from loading when I insert my wireless card?
+2006-08-17T05:41:00.000Z	erUSUL	izm99	/etc/modprobe.d/blacklist
+2006-08-17T05:42:00.000Z	izm99	erUSUL	Thanks, I'll try that!

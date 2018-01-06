@@ -1,0 +1,4 @@
+2006-04-03T14:44:00.000Z	llukax		hey can someone tell me whats wrong with this fstab line? : /dev/sda3       /mnt/Secondary  ext3    defaults,rw,exec,sync,umask=0000 0       0
+2006-04-03T14:45:00.000Z	Frogzoo	llukax	does /mnt/Secondary exist?
+2006-04-03T14:46:00.000Z	Frogzoo	llukax	as far as I can see - there's nothing wrong there
+2006-04-03T14:47:00.000Z	Frogzoo	llukax	ext3 doesn't take umask as an option -> man page

@@ -1,0 +1,4 @@
+2009-04-02T00:42:00.000Z	maginot		anyone knows how to remove a package and only that pa
+2009-04-02T00:42:00.000Z	maginot		anyone knows how to remove a package and only that package without it dependencies ?
+2009-04-02T00:43:00.000Z	danbhfive	maginot	dpkg --remove --force-depends package            something like that
+2009-04-02T00:44:00.000Z	maginot	danbhfive	hehe I was just looking for that on #debian and they just said about --force-depends

@@ -1,0 +1,4 @@
+2007-01-22T06:57:00.000Z	Toran		ok, so I'm having some serious hard drive problems- I/O errors, switching fs to read-only mode, and such. So I'm trying to fix this drive, and i run fsck on it. Now when I mount it to get to the data all that on it, all that i see on it  is a lost+found directory with maybe 100 files, and maybe a few other things (not directories) in the top level. This drive had over 180gb of stuff on it. Is there any way to recover any of this stuff? Note that when I l
+2007-01-22T06:58:00.000Z	ikonia	Toran	its moved into lost and found after a crash  - recover it
+2007-01-22T06:58:00.000Z	Toran	ikonia	Dude, there aren't that many files in lost+found, and my _entire_ directory structure is gone
+2007-01-22T06:59:00.000Z	ikonia	Toran	looks like its been corrupted

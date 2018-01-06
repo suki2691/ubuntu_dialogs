@@ -1,0 +1,4 @@
+2008-07-07T23:58:00.000Z	Eric7		ok im getting t his but i dont use kde O.o :No KDE development package installed!                To disable the KDE gui,                reconfigure using --enable-gui=<list-of-guis>                and omit kde from the list.                When the option --enable-gui=... is omitted,                the default is the same of --enable-gui=kde,gtk                To be able to build the kde gui,                install the KDE d
+2008-07-07T23:59:00.000Z	Eric7		how would i disable ./configure not to use kde
+2008-07-08T00:00:00.000Z	Eric7		disable the KDE gui, reconfigure using --enable-gui=<list-of-guis> i put kde in the list to disable or do the stuff i want enabled go  there?
+2008-07-08T00:00:00.000Z	offset	Eric7	./configure --enable-gui=gtk

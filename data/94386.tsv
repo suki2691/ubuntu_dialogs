@@ -1,0 +1,4 @@
+2011-04-29T23:03:00.000Z	Aer		Hi, just have a quick question if no one minds :) I dual boot Ubuntu 10.4 with Windows XP and from all the updates my grub menu has got quite long now lol
+2011-04-29T23:03:00.000Z	Aer		is there an easy way to clean up my grub menu and remove old kernels I no longer need to save space and shorten the grub list ?
+2011-04-29T23:04:00.000Z	zvacet	Aer	in synaptic search box type linux-image and remove these with lower number it is good to have 2 kernels just in case
+2011-04-29T23:06:00.000Z	zvacet	Aer	if you removed kernels it must be change in grub command is sudo update-grub

@@ -1,0 +1,4 @@
+2010-06-15T11:48:00.000Z	Hammer		<tgywa>: try not to become an open-relay
+2010-06-15T11:49:00.000Z	tgywa	Hammer	thanks ... I think u mean that do relay for only known hosts right ? If so which paremeter can I use for that ?
+2010-06-15T11:50:00.000Z	Hammer	tgywa	http://www.postfix.org/SMTPD_ACCESS_README.html
+2010-06-15T11:50:00.000Z	Hammer	tgywa	yes, do not accept to route mail for domains that don't belong to you

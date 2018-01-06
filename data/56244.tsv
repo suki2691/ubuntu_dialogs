@@ -1,0 +1,4 @@
+2010-07-18T16:51:00.000Z	nexus6__		i would like to have something without an graphic interface so i can automate it
+2010-07-18T16:52:00.000Z	J11	nexus6__	or you can do something like:  ssh user@host -R21:127.0.0.1:21 -R34000:127.0.0.1:34000 where 34000 is your passive port
+2010-07-18T16:52:00.000Z	J11	nexus6__	that would make your remote ftp local
+2010-07-18T16:54:00.000Z	J11	nexus6__	wait, maybe -L is better in that case

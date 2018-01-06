@@ -1,0 +1,4 @@
+2011-06-02T09:34:00.000Z	albino		need advice.  Trying to install 10.4.2 from a usb drive created with usb-creator-gtk.  I want to use the cli install, but when I type cli at the grub boot prompt I get 'Could not find kernel image: cli'
+2011-06-02T09:35:00.000Z	celthunder	albino	pass 3 along after kernel in grub to get to cli
+2011-06-02T09:36:00.000Z	albino	celthunder	so at the grub boot prompt: install 3    ?
+2011-06-02T09:37:00.000Z	celthunder	albino	no...enter a kernel and then add a 3 to it so kernel <kernel image> 3

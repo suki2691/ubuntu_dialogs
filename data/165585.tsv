@@ -1,0 +1,4 @@
+2007-06-01T10:44:00.000Z	fuffal0		so if i have a /etc/rc.local file and it's not running at startup - what am i doing wrong?  The only thing I can think of are permissions but it's green when i do an ls, so I assume those are ok
+2007-06-01T10:44:00.000Z	stefg	fuffal0	is it executable  (chmod +x) ?
+2007-06-01T10:45:00.000Z	fuffal0	stefg	- to make them executable can't i chmod them to 644?
+2007-06-01T10:47:00.000Z	stefg	fuffal0	yeah, but a simply sudo chmd +x /etc/init.d/rc.local will do it as well

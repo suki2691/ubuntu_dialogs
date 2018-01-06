@@ -1,0 +1,4 @@
+2010-07-28T11:21:00.000Z	nio		i am trying to make a custom kernel based on ubuntu10.04lts for diskless thinclient I am getting a problem unable to mount /proc and /sys on tmpfs and cannot find init..... trying to kill init. i checked several time and provided boot=initrd to the boot option. any help is deeply appriciated
+2010-07-28T11:22:00.000Z	nio		sudo gedit fstab
+2010-07-28T11:22:00.000Z	nio		sorry sudo gedit /etc/fstab
+2010-07-28T11:23:00.000Z	Flannel	nio	Should always use gksu or gksudo with graphical programs

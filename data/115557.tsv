@@ -1,0 +1,4 @@
+2007-10-22T14:17:00.000Z	gvag		hello to everyone... I have a question regarding the network-manager in the Ubuntu 7.10. I need to configure a br0 and put the eth0 to promisc mode, but i need to do it with profiles... That means, when i choose profile OFFICE to have the br0 to get 10.5.2.10 and eth0 to be in promisc, and when i choose profile Home to have br0 192.168.1.112 and eth0 promisc... Any idea?
+2007-10-22T14:18:00.000Z	trogdor	gvag	when you say br0 what does that normally mean?
+2007-10-22T14:18:00.000Z	trogdor		ohh okay
+2007-10-22T14:18:00.000Z	gvag	trogdor	sorry i mean the bridge interface br0 (created with brctl addbr br0

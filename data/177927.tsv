@@ -1,0 +1,4 @@
+2008-01-30T05:49:00.000Z	f00fbug		I tried to install a new version of libasound2, but it needed a dep that I didn't want to install, so the install failed
+2008-01-30T05:49:00.000Z	f00fbug		but now whenever I try to install a package it tells me that I need to run apt-get -f install...
+2008-01-30T05:49:00.000Z	f00fbug		but! apt-get -f install wants to remove nearly ALL OF MY PACKAGES
+2008-01-30T05:50:00.000Z	Jack_Sparrow	f00fbug	I would suggest you run apt-get -f

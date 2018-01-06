@@ -1,0 +1,4 @@
+2011-12-11T02:17:00.000Z	NeoCicak		hi ...i'm having a problem with sudo su - command....  i need to be able to sudo su - to a specific account, then execute a few command as that account. How can I do it in one command?
+2011-12-11T02:18:00.000Z	Bodsda	NeoCicak	I didn't think you could do a non-interactive su on an account that had a password
+2011-12-11T02:19:00.000Z	NeoCicak	Bodsda	i can do sudo su - to that account without being prompted for password
+2011-12-11T02:20:00.000Z	Bodsda	NeoCicak	only because you have entered your sudo password in the last 5 minutes, try   sudo -k; sudo su - user

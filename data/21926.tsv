@@ -1,0 +1,4 @@
+2011-06-04T20:42:00.000Z	patrunjel		Hi guys, I'm trying to install Ubuntu 10.04 on a Acer Aspire One netbook (it worked before), but I get this: " SYSLINUX 4.02 debian-20101016 EDD Copyright (C) 1004-2010 H. Peter Anvin et al      Unknown keyword in configuration file : gfxboot" And this happens at boot time, it doesn't even load anything. Can someone please help me out?
+2011-06-04T20:43:00.000Z	willis1	patrunjel	 theres been a bug in the tools that makebootable flash drives. I recall fixing that once by editing one of the files in syslinux  and commenting out the gfxboot line. You are boot5ing from a flash drive?
+2011-06-04T20:43:00.000Z	willis1	patrunjel	 not a com32r - sounbds like the iso/disk is currupted.
+2011-06-04T20:45:00.000Z	patrunjel	willis1	yes, I am booting from a flash drive (forgot to mention that I made the bootable drive in safe mode, on Ubuntu 11.04 )

@@ -1,0 +1,4 @@
+2009-07-07T20:12:00.000Z	Kangarooo		 https://bugs.launchpad.net/ubuntu/+source/file-roller/+bug/370535 im having same problem. can't unzip tar.gz even in console and archive manager says this            This is what it says if I double-click on this tar.gz file or try to extract or try to extrac in console: tar: This does not look like a tar archive tar: Skipping to next header tar: Error exit delayed from previous errors        what should I do?
+2009-07-07T20:14:00.000Z	ohir	Kangarooo	do tar -ztf file.tar.gz
+2009-07-07T20:14:00.000Z	ohir	Kangarooo	-t is for test/list
+2009-07-07T20:16:00.000Z	ohir	Kangarooo	if tar -ztf will choke on it, your last chance is to gunzip file.tar.gz then use tar without -z. Otherwise it would be bad archive, download it again.

@@ -1,0 +1,4 @@
+2008-06-30T21:36:00.000Z	moshe_		hi, the networkmanager service leaks memory, so i have to restart it once in a while, but i didn't find specific service in /etc/init.d for networkmanager, so have to restart dbus, but then it restarts guidance/power, and it breaks the systray icon
+2008-06-30T21:36:00.000Z	moshe_		how to restart just networkmanager service?
+2008-06-30T21:37:00.000Z	tvrtko	moshe_	sudo etc/init.d/networking restart
+2008-06-30T21:37:00.000Z	moshe_	tvrtko	this restarts only interfaces, not networkmanager

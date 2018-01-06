@@ -1,0 +1,4 @@
+2009-09-12T22:34:00.000Z	causasui		I have a process that I need to kill that I cant kill. $ sudo kill -kill <PID> didn't work. sudo killall didnt work. any other ideas?
+2009-09-12T22:34:00.000Z	Shujah	causasui	try via system monitor - though if sudo kill is not working i doubt it will
+2009-09-12T22:37:00.000Z	causasui	Shujah	System monitor did the trick. that's annoying since sometimes I cant get into the system monitor. What does the system monitor do that I wasnt doing from the command line?
+2009-09-12T22:38:00.000Z	Shujah	causasui	maybe you got the pid wrong?

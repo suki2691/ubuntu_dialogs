@@ -1,0 +1,4 @@
+2012-10-14T01:10:00.000Z	i3luefire		so i want to downsize my ext4 /home partition but i cant take it offline because there are many programs using it. how do i stop all the programs using it at once?
+2012-10-14T01:11:00.000Z	Church	i3luefire	there is option to boot from other media, eg. usb or cdrom, and then work on that partition
+2012-10-14T01:11:00.000Z	Church	i3luefire	there is comand fuser -kcu /dir .. but are your sure you want to kill all processes using that fs?
+2012-10-14T01:12:00.000Z	i3luefire	Church	i am pretty sure i do

@@ -1,0 +1,4 @@
+2012-11-10T18:41:00.000Z	Seus		Question: I've set AllowRootLogin to no in the /etc/ssh/sshd_config file on my host computer, yet when I do ssh root@mydomain.com from my client system, it still asks for the password for the root user. Is this the normal behavior?
+2012-11-10T18:42:00.000Z	Seus		Shouldn't it say that the user doesn't exist or something?
+2012-11-10T18:42:00.000Z	bekks	Seus	The root user exists. NEVER use root for ssh.
+2012-11-10T18:43:00.000Z	bekks	Seus	It IS disabled, since root has no password set at all.

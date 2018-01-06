@@ -1,0 +1,4 @@
+2008-10-24T10:13:00.000Z	t1n0m3n		I want the firestarter applet to start automatically, however when I follow the instructions at "http://www.fs-security.com/docs/faq.php#reboot" I cannot get sudoers to allow /etc/sbin/firestarter to start up without a password
+2008-10-24T10:15:00.000Z	pajamian	t1n0m3n	paste your sudoers file to the pastebin.
+2008-10-24T10:24:00.000Z	pajamian	t1n0m3n	yes, create a shell script with your commands and put "sleep 30" on a line to pause for 30 seconds.
+2008-10-24T10:31:00.000Z	pajamian	t1n0m3n	:-)

@@ -1,0 +1,4 @@
+2008-05-07T23:16:00.000Z	Cobra2150		how do i disable the quiet boot at startup in grub
+2008-05-07T23:16:00.000Z	Cobra2150		i tried that, but it says i don't have access even though i am logged in as root
+2008-05-07T23:18:00.000Z	Cobra2150		when i remove ro quiet splash and then try to save it says i do not have the permissions for it
+2008-05-07T23:18:00.000Z	Pelo	Cobra2150	you need to edit the file as root ,   sudo gedit /boot/grub/menu.lst

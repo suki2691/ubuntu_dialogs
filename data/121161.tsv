@@ -1,0 +1,4 @@
+2008-06-01T20:19:00.000Z	cognatus		i wish "sudo exit" woudl work
+2008-06-01T20:20:00.000Z	cognatus		just to see what would happen, i guess
+2008-06-01T20:20:00.000Z	alexbobp	cognatus	when would "sudo exit" ever be more useful than "exit"?
+2008-06-01T20:20:00.000Z	alexbobp	cognatus	btw, the reason it doesn't work is because "sudo" creates it's own shell to execute the command in.  But exit always works!

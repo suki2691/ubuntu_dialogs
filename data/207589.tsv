@@ -1,0 +1,4 @@
+2005-11-17T09:42:00.000Z	Tank-		Is there a known problem with breazy's xserver-xorg-core_6.8.2-77_i386 package ? i keep getting  unable to create `./usr/X11R6/lib/modules/extensions/libGLcore.a': No such file or directory
+2005-11-17T09:43:00.000Z	adriyel	Tank-	why are you installing the pkg? did you remove it or something?
+2005-11-17T09:50:00.000Z	Tank-	adriyel	upgrading from hoary to breazy
+2005-11-17T09:51:00.000Z	adriyel	Tank-	doing a dist-upgrade is problematic in my experience, you'd be better off backing up data and doing a CD install

@@ -1,0 +1,4 @@
+2005-07-06T13:06:00.000Z	jasoncohen		other than installing grub, what do i have to do to replace lilo with grub?
+2005-07-06T13:07:00.000Z	robitaille	jasoncohen	 install hrub, make sure /boot/grub/menu.lst is correct, then run grub-install
+2005-07-06T13:11:00.000Z	jasoncohen	robitaille	do i need to create menu.lst as there currently isn't one
+2005-07-06T13:12:00.000Z	robitaille	jasoncohen	I guess.  I have never installed grub after the fact manually.  I would have assumed some sane defaults would have been created for you.

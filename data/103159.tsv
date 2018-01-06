@@ -1,0 +1,4 @@
+2008-05-28T02:17:00.000Z	matisse		Hi, need some help with ssh. I'd like to remove a host from known_host, which seems to be given with a ipv6 adress or something like that. Anyway, how can i find out the right on ?
+2008-05-28T02:18:00.000Z	gnutron	matisse	rm or modify ~/.ssh/known_hosts
+2008-05-28T02:46:00.000Z	gnutron	matisse	known_hosts is re-created whenconnecting and accepting any key
+2008-05-28T02:47:00.000Z	matisse	gnutron	there was only 1 connection

@@ -1,0 +1,4 @@
+2010-07-13T18:46:00.000Z	Tricia		Hey, when I set gnome-terminal to a shortcut, it doesn't use gnome keyring. But when I click the icon in gnome-panel it works fine
+2010-07-13T18:46:00.000Z	Tricia		how do I make the shortcut have the proper env variables?
+2010-07-13T18:47:00.000Z	Slart	Tricia	you can set enviroment variables before the actual command, I think it works even in shortcuts..
+2010-07-13T18:47:00.000Z	Slart	Tricia	something like    SOMEVARIABLE=SOMEVALUE myawesomeprogram   should work

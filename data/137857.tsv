@@ -1,0 +1,4 @@
+2012-06-04T23:56:00.000Z	brasidas		eth0 and eth1 both have valid connections to the outside world. If I turn off eth0 via 'ifdown eth0', eth1 does not automatically take over as the primary interface.
+2012-06-04T23:56:00.000Z	brasidas		Is there a command I can run or a setting in /etc/network/interfaces I can add to make eth1 automatically take over?
+2012-06-04T23:58:00.000Z	llutz	brasidas	add "down route add default eth1"  to the eth0-part of your /etc/network/interfaces
+2012-06-04T23:58:00.000Z	llutz	brasidas	you might have to remove default-route before, try it

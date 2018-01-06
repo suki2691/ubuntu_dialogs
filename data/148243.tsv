@@ -1,0 +1,4 @@
+2007-09-19T10:06:00.000Z	psykidellic		hi..is there any way to find what filesystem was used to format the a USB disk? or more specifically what filesystem an external USB disk is using?
+2007-09-19T10:07:00.000Z	genii	psykidellic	sudo fdisk -l   result should say what partition type anyhow
+2007-09-19T10:10:00.000Z	psykidellic	genii	it shows Linux as system. That means ext3?
+2007-09-19T10:11:00.000Z	genii	psykidellic	Odds are ext3 then, if you used default install values

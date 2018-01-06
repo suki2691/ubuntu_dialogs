@@ -1,0 +1,4 @@
+2009-11-18T05:35:00.000Z	LM9		can someone test this command for me? sudo apt-cache pkgnames
+2009-11-18T05:36:00.000Z	ZykoticK9	LM9	it works like "apt-cache search PKGYOURLOOKINGFOR"
+2009-11-18T05:39:00.000Z	ZykoticK9	LM9	FYI apt-cache does NOT require sudo to work
+2009-11-18T05:40:00.000Z	ZykoticK9	LM9	"aptitude  --display-format '%p' search '?installed!?automatic' > ~/my-packages" will give you a list in the file my-packges

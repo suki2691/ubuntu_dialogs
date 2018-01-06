@@ -1,0 +1,4 @@
+2012-08-15T12:03:00.000Z	qualia		IS IT OKAY to modify the /boot/grub/grub.cfg file or would you suggest another way to update the boot list ?
+2012-08-15T12:04:00.000Z	auronandace	qualia	you are meant to edit the files in /etc/grub.d/
+2012-08-15T12:04:00.000Z	auronandace	qualia	then issue sudo update-grub
+2012-08-15T12:05:00.000Z	auronandace	qualia	if you only want to change boot order then /etc/default/grub

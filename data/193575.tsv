@@ -1,0 +1,4 @@
+2006-10-10T15:14:00.000Z	LazyAngel		ok. so far, so good. i have a dir where all group members can store files. The directory has +s so all files stored in there will have the same group as the dir. But most users in the folder has umask set so when they create files, it will be 600. I don't want to change all user accounts. (and i don't want to) But i need the files to have permission 660.
+2006-10-10T14:41:00.000Z	LazyAngel		how can i direct stuff to stdin when you use sudo? eg. "cat file | sudo myprog" will send file to sudo, not myprog :(
+2006-10-10T14:42:00.000Z	fyrestrtr	LazyAngel	sudo myprog < file
+2006-10-10T14:42:00.000Z	LazyAngel	fyrestrtr	thanks

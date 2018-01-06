@@ -1,0 +1,4 @@
+2010-08-22T23:15:00.000Z	ghostknife		I'm using the 9.10 live disc and installing some software. I might need a few reboots to fix this problem and don't wnat to keep redownloading the package lists and the package's .debs. I know the .debs are in /var/cache/apt/archive, but where is the package lists?
+2010-08-22T23:16:00.000Z	ghostknife		Where does apt store the package lists?
+2010-08-22T23:17:00.000Z	LibertyZero	ghostknife	/var/lib/apt/lists
+2010-08-22T23:21:00.000Z	LibertyZero	ghostknife	the package lists are stored in /var/lib/apt/lists as I mentioned above

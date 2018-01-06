@@ -1,0 +1,4 @@
+2011-04-03T21:10:00.000Z	bugo		hi. i get kernel: [ 2960.903240] npviewer.bin[4121]: segfault at f57ad004 ip 00000000f6464c4c sp 00000000ffcf9530 error 4 in libflashplayer.so[f5dfb000+b5f000] and then X.org freezes.
+2011-04-03T21:10:00.000Z	bugo		Why crash of one program brings down entire X server?
+2011-04-03T21:10:00.000Z	bugo		any solutions?
+2011-04-03T21:10:00.000Z	erUSUL	bugo	a segfault of npviewer shouldn't freeze X; i have my fair share of those and it never takes X with it

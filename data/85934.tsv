@@ -1,0 +1,4 @@
+2008-07-27T13:58:00.000Z	ynotest		hey, does anyone have experience with dual booting vista and ubuntu? i have already tried easybcd but it doesnt work
+2008-07-27T13:59:00.000Z	ynotest		yeah grub didnt load
+2008-07-27T13:59:00.000Z	ynotest		after i install ubuntu, it just boots into vista if i dont do anything
+2008-07-27T14:00:00.000Z	hateball	ynotest	edit /boot/grub/menu.lst and set whichever you want to be booting as default. Might want to remove the savedefault for vista perhaps.

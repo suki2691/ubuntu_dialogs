@@ -1,0 +1,4 @@
+2007-01-30T16:46:00.000Z	citybird		hi all. this is my first ubuntu server install. I would like to configure virus scanning on incoming emails and then forward the clean emails to another server. is there documentation on how to set something like this up?
+2007-01-30T09:26:00.000Z	citybird		can anyone tell me where i can find a list of packages available for ubuntu? i am looking for libmail-spf-query-perl which is suggested in an install script that i am trying to use.
+2007-01-30T09:27:00.000Z	Pici	citybird	: packages.ubuntu.com
+2007-01-30T10:42:00.000Z	Pici	citybird	: try dpkg-query -s postfix

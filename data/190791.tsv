@@ -1,0 +1,4 @@
+2008-03-21T23:25:00.000Z	Noah0504		Okay, I feel like a noob because I've somewhat done what I want to do a million time, but I'm having a little trouble with Apache and Ubuntu.
+2008-03-21T23:26:00.000Z	Noah0504		I want to use SFTP to upload files to my Ubuntu box, but I'm not able to upload to /var/www for obvious reasons.
+2008-03-21T23:26:00.000Z	Noah0504		What's the easiest way to fix the problem?  Configure Apache to use /home?
+2008-03-21T23:27:00.000Z	waylandbill	Noah0504	make a symbolic link in /var/www to a writable location

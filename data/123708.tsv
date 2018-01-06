@@ -1,0 +1,4 @@
+2008-03-10T17:25:00.000Z	foxray		hi, i just upgraded to a new kernel and it changed by grub file back to booting root (hd0,0), my root prtition is root (hd0,2), how do i make ubuntu know this in future kernel upgrades?
+2008-03-10T17:25:00.000Z	ElTimo	foxray	easy
+2008-03-10T17:26:00.000Z	ElTimo		just hit alt+f2 and type gksudo gedit /boot/grub/menu.lst and look for the new kernel entry, then edit it from (hd0,0) to (hd0,2)
+2008-03-10T17:26:00.000Z	foxray	ElTimo	i did that

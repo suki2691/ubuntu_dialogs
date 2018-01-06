@@ -1,0 +1,4 @@
+2010-09-28T02:27:00.000Z	mattish		daft question, ive added my ssh public key to both root and a unpriv user on a box, now i can ssh in as root with my priv key but as the user it still asks for a password
+2010-09-28T02:28:00.000Z	mattish		what am i overlooking ?
+2010-09-28T02:29:00.000Z	mattish		the authorized_keys file is 600, owned by the user, ill try with verbose
+2010-09-28T02:30:00.000Z	bobstro	mattish	 wups - - you beat me to it.

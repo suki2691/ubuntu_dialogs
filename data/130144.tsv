@@ -1,0 +1,4 @@
+2007-06-26T12:59:00.000Z	omeg1		how do you set an app to run as sudo ?
+2007-06-26T13:00:00.000Z	omeg1		wireshark
+2007-06-26T13:00:00.000Z	omeg1		has to run as root or you cant select the interface for some reason
+2007-06-26T13:01:00.000Z	persica	omeg1	That's right.  You can't open an interface in promiscuous mode unless you're root.  Change the command to something like 'gksu wireshark'

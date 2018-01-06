@@ -1,0 +1,4 @@
+2009-05-01T21:03:00.000Z	pepperjack	remu	you can use X -configure to generate an x config file and then ah add the resolution to that i guess and move it to /etc/X11/xorg.conf.
+2009-05-01T21:03:00.000Z	pepperjack	remu	x must be stoped first using sudo /etc/init.d/gdm stop
+2009-05-01T21:03:00.000Z	remu	pepperjack	how can i add the resolution to that file?
+2009-05-01T21:05:00.000Z	pepperjack	remu	bear in mind that this is kinda the manual solution. there may be a better graphical tool solution.  so you would open then file using a text editor but you need admin rights to move it to /etc/X11/ and then edit it so like sudo mv /home/remu/xorg.conf /etc/X11/xorg.conf   then sudo nano /etc/X11/xorg.conf  and near the bottom should be a Section 'Screen'  with resolutions listed

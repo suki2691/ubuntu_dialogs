@@ -1,0 +1,4 @@
+2010-04-23T22:20:00.000Z	kaf		Hi, how can easily  copy (to clipboard) a large chunk of text (multiple pages) through a SSH-connected terminal?
+2010-04-23T22:22:00.000Z	goez	kaf	cat it to a file and scp that file
+2010-04-23T22:30:00.000Z	kaf	goez	when i do scp file host:/location, nothing happens, the terminal remains engaged though (I can't do anything, besides forcing to quit the process)
+2010-04-23T22:31:00.000Z	kaf	goez	I did "scp log 192.168.1.108:/home/cafaro"

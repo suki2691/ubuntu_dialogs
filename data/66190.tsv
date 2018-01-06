@@ -1,0 +1,4 @@
+2009-11-22T18:27:00.000Z	d4non		I screwed up a ntfs partition in ubuntu installating program, I picked the ntfs partition with most free space on it and I thought it's gonna make a new partition in the free space, but it removed the partition and formatted the amount of free space into ext3 and the rest became regular unalocated space, any hope to recover the data? Did not Write anything in there yet!
+2009-11-22T18:28:00.000Z	d4non		tried testdisk, parted, gpart and no success so far :/
+2009-11-22T18:29:00.000Z	ha1331	d4non	I'm no expert, but I would try looking into file recovery tools
+2009-11-22T18:32:00.000Z	ha1331	d4non	didn't the partitioner warn you about you losing your data and so on? Usually those things warn about that sort of things.

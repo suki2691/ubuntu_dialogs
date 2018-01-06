@@ -1,0 +1,4 @@
+2010-10-12T19:12:00.000Z	karmic-koala		Hi all, I am trying to setup a ticketing system (user support) on ubuntu server. The system needs to be able to read email from Gmail (either real time or thru a pull using a cron job), will I need to setup a Mail Delivery Agent or a Mail Transfer Agent to do what I want?
+2010-10-12T19:13:00.000Z	foxjazz	karmic-koala	unless you have a paid gmail account, I don't think gmail will allow you to use pop3 services
+2010-10-12T19:14:00.000Z	karmic-koala	foxjazz	gmail imap is free but yes i am on enterprise gmail :)
+2010-10-12T19:15:00.000Z	foxjazz	karmic-koala	I don't see a problem, write it in c# it's probably easiest. otherwise use php and mysql for your db

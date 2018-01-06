@@ -1,0 +1,4 @@
+2011-08-20T22:25:00.000Z	Mankool		does anyone know where this message is logged --> "The selected configuration for displays could not be applied. requested position/size for CRTC ..."  ?
+2011-08-20T22:25:00.000Z	Mankool		doesn't seem to be in /var/log/Xorg.*
+2011-08-20T22:26:00.000Z	airtonix	Mankool	grep -R CRTC /var/log
+2011-08-20T22:26:00.000Z	Mankool	airtonix	thanks... dunno why i didn't think of that

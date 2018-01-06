@@ -1,0 +1,4 @@
+2011-08-01T23:15:00.000Z	SkiOne		when scheduling crons, I know I can pipe stout to a log file by doing script.sh >> log, how do I also pipe the error out?
+2011-08-01T23:15:00.000Z	oCean	SkiOne	/path/to/script >> /path/to/log 2>&1   (2 = STDERR)
+2011-08-01T23:17:00.000Z	SkiOne	oCean	so if I did script >>run.log 2>>error.log that would be correct? In that it would append each log accordingly?
+2011-08-01T23:18:00.000Z	oCean	SkiOne	yes, STDOUT to runlog, STDERR to error.log

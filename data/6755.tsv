@@ -1,0 +1,4 @@
+2012-01-06T01:53:00.000Z	reapingwo		hey I'm having trouble shutting down without a hard reset, how do I begin finding the culprit?
+2012-01-06T01:53:00.000Z	robbbie	reapingwo	check the logs
+2012-01-06T01:55:00.000Z	robbbie	reapingwo	tail -f /var/log/syslog and then try your shutdown
+2012-01-06T01:57:00.000Z	robbbie	reapingwo	tail prints the "tail" of a file, but tail -f outputs data written to the file to stdout

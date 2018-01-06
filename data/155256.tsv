@@ -1,0 +1,4 @@
+2007-05-28T05:38:00.000Z	robdeman		hello all... my dmesg says '**WARNING** I2C adapter driver [NVIDIA i2c adapter 2 at 0:05.0]  forgot to specify physical device; fix it!' --> what does it mean?
+2007-05-28T05:39:00.000Z	stefg	robdeman	that means you have to pay one more kernel developer for ubuntu if you don#t want to see the message, it's a nag :-)
+2007-05-28T05:40:00.000Z	robdeman	stefg	ehrm ok?
+2007-12-02T21:10:00.000Z	stefg	robdeman	you need to edit /etc/init.d/rc.local

@@ -1,0 +1,4 @@
+2005-12-07T13:23:00.000Z	Maniqui		sorry for insist: is it recommended to have different partitions (one for Ubuntu OS and one for "linux" documents, audio, volatile stuff)? I do that for my MS Windows system: one partition for the OS and various partitions for docs, audio, downlaods, etc.
+2005-12-07T13:24:00.000Z	trappist	Maniqui	I just keep one separate partition for 'data' so I don't have to worry about it when reinstalling
+2005-12-07T13:29:00.000Z	trappist	Maniqui	linux lacks ntfs write support
+2005-12-07T13:30:00.000Z	trappist	Maniqui	oh, then you just need to mount with the 'uid=1000' option or 'umask=000'

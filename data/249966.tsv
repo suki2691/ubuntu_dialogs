@@ -1,0 +1,4 @@
+2007-11-06T23:33:00.000Z	jeremybell		My HP Laptop, dv65xx series, is not playing sound on 7.10. I've done the entire sound troubleshooting checklist, and the module is loaded, alsamixer sees it and isn't muting, but the sound simply won't play. The mute button on the keyboard is orange (for muted) but the software mute says it is on. Anyone have any ideas?
+2007-11-06T23:34:00.000Z	jeremybell		it shows up in alsamixer as "HDA Intel", Chip: "Realtek ID 268"
+2007-11-06T23:34:00.000Z	Dr_willis	jeremybell	 ive seen some laptops that have  newer chipsets. (realtek) that seem to Play - but make no noise.    Must be some driver issue/alsa issue.
+2007-11-06T23:35:00.000Z	Dr_willis	jeremybell	 friend at work has identical problem

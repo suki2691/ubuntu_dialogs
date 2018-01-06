@@ -1,0 +1,4 @@
+2005-04-18T06:10:00.000Z	merlin__		does anyone know how auto-apt search really works?
+2005-04-18T06:10:00.000Z	libben	merlin__	apt-cache search PROGRAMNAME
+2005-04-18T06:10:00.000Z	merlin__	libben	yeah, but that doesn't work for many files. Try this: auto-apt search autofs-ldap-auto-master
+2005-04-18T06:11:00.000Z	merlin__	libben	autofs-ldap-auto-master ended up being in autofs-ldap, but I had to grep for it in /var/lib/apt/lists/* because auto-apt didn't work

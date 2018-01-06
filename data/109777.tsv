@@ -1,0 +1,4 @@
+2007-12-12T02:47:00.000Z	magnetron		hi, how do i compile apps so they end up in a .deb package?
+2007-12-12T02:47:00.000Z	MASTERjeff	magnetron	 install checkinstall
+2007-12-12T02:48:00.000Z	magnetron	MasterShrek	ty
+2007-12-12T02:48:00.000Z	MASTERjeff	magnetron	what you do is run ./configure && make as normal, then sudo checkinstall to create and install the .deb

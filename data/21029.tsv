@@ -1,0 +1,4 @@
+2012-07-18T05:30:00.000Z	Harris	ActionPa1snip	 i have to type the code modprobe b43 for my wifi to work how do i make it automatic
+2012-07-18T05:31:00.000Z	Harris		!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+2012-07-18T05:32:00.000Z	ActionPa1snip	Harris	run:  echo "b43" | sudo tee -a /etc/modules > /dev/null
+2012-07-18T05:32:00.000Z	ActionPa1snip	Harris	it will load at boot automagically

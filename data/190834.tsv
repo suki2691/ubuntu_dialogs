@@ -1,0 +1,4 @@
+2006-08-03T14:23:00.000Z	Muiop		Hi. I'm a newbie. Just a simple question. How to close the graphic system ( x ) for a better performance?
+2006-08-03T14:23:00.000Z	Muiop		THANKS!
+2006-08-03T14:24:00.000Z	AAA	Muiop	 <alt><ctrl> F1 <--puts you in a virtual terminal but lets X run /etc/init.d/xdm|gdm|kdm stop kills your manager
+2006-08-03T14:25:00.000Z	AAA	Muiop	 if you don't want X to start at boot do this (assuming gdm) update-rc.d -f gdm remove

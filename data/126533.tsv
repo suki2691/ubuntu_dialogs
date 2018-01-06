@@ -1,0 +1,4 @@
+2007-07-31T10:08:00.000Z	reflous		if I always want to mount a second drive to ubuntu, do I just hack out the fstab with a texteditors, or is there a GUI or something to do it for me?
+2007-07-31T06:17:00.000Z	reflous		how do I check if ubuntu picked up my nvidia video card?
+2007-07-31T06:18:00.000Z	martyyyr	reflous	type  lspci in a console, and  "dmesg | grep nvidia"
+2007-07-31T06:19:00.000Z	reflous	martyyyr	ok so lspci showed the nvidia card, but dmesg | grep nvidia didn't show anything

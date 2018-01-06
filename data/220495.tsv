@@ -1,0 +1,4 @@
+2006-09-29T11:08:00.000Z	flipfone		question. after upgrading my kernel lik 18 times grub has grown rather large. before i edit it, should i uninstall some of the older kernels?
+2006-09-29T11:09:00.000Z	Flannel	flipfone	yeah, just uninstall them with apt (or whatever frontend), their grub entries will go away
+2006-09-29T11:28:00.000Z	Flannel	flipfone	it's linux-image-version-version-etc-etc
+2006-09-29T11:28:00.000Z	Flannel	flipfone	and, make sure you include the --purge

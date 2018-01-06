@@ -1,0 +1,4 @@
+2006-02-24T06:40:00.000Z	tbaa		How do I install mplayer with xvid/divx support?
+2006-02-24T06:41:00.000Z	hatake_kakashi	tbaa	if the version of mplayer you got from the repos does not support it, you will have to compile it from the source
+2006-02-24T06:42:00.000Z	tbaa	hatake_kakashi	do you have any idea of ./configure options to support xvid?
+2006-02-24T06:44:00.000Z	hatake_kakashi	tbaa	I presume you need to get the dev packages for those respectively before doing so and then let configure detect it. The output of configure script at the end will tell you what it can and can't support

@@ -1,0 +1,4 @@
+2008-09-04T23:20:00.000Z	hanif		does anyone know a simple command line script to take pix out of subfolders and put them in a folder by themselves. I have over 5000 pix in subfolders that I want in one place
+2008-09-04T23:20:00.000Z	Gnea	hanif	yes.
+2008-09-04T23:21:00.000Z	Gnea	hanif	or  find it] has joined #ubuntu
+2008-09-04T23:22:00.000Z	Gnea	hanif	or find /TOP/DIRECTORY/OF/IMAGES -name "*.[Jj][Pp][Gg]" -exec mv {} /DESTINATION/DIRECTORY \;

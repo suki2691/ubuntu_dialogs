@@ -1,0 +1,4 @@
+2011-12-30T02:08:00.000Z	Crupu		umm, i'm trying to do "su root" and it asks me the password. It's the same as when i do any "sudo" command, right ?
+2011-12-30T02:08:00.000Z	Crupu		AH, well it doesn't work lol. "Authentification failure" - any idea why?
+2011-12-30T02:09:00.000Z	kj4	Crupu	you need the root passwd to su
+2011-12-30T02:10:00.000Z	kj4	Crupu	specify a username with ssh using the '-l' option

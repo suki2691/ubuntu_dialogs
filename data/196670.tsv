@@ -1,0 +1,4 @@
+2006-03-06T09:44:00.000Z	fatbrain		Hello, when I install the latest drivers from nvidia hopepage (for my nvidia GPU) do I have to remove nvidia-glx prior to installation?
+2006-03-06T09:44:00.000Z	trpr42	fatbrain	i think so too.. lots of problems later on if you don't
+2006-03-06T09:45:00.000Z	fatbrain	trpr42	thanks
+2006-03-06T09:47:00.000Z	trpr42	fatbrain	uhm.. after i installed it on my system, the nifty boot splash / framebuffer console would corrupt when i switched between them with ctrl+alt+f1, etc.. i solved it by disabling the splash in the /boot/grub/menu.lst file

@@ -1,0 +1,4 @@
+2009-10-21T00:01:00.000Z	Kirsch		hey all, i'm running ubuntu hardy server and i ran updates, now when i try and use certain programs, /dev/null is chmodded to 600, so a non-root user trying to access anything that needs it dies, i saw a launchpad bug about it but no real solution except to add an init script to change it to 666, is there a real solution yet?
+2009-10-21T00:02:00.000Z	FCalderon	Kirsch	what's wrong with having it chmoded to 666 every time you boot up?
+2009-10-21T00:02:00.000Z	Kirsch	FCalderon	its a hack fix, why isn't it creating it on boot as 666?
+2009-10-21T00:02:00.000Z	Kirsch	FCalderon	i'm concerned something ELSE is wrong...

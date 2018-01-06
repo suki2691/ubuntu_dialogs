@@ -1,0 +1,4 @@
+2005-04-21T12:15:00.000Z	moquist		anybody else here run several Ubuntu boxes and have a common NFS-mounted /var/cache/apt/archives?  or does anybody have a better idea about how to minimize external bandwidth usage in a similar way?
+2005-04-21T12:16:00.000Z	Zugot	moquist	i just rsync /var/cache/apt/archives between my boxes
+2005-04-21T12:16:00.000Z	moquist	Zugot	via cron, or manually?
+2005-04-21T12:16:00.000Z	Zugot	moquist	manually

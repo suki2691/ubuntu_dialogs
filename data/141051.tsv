@@ -1,0 +1,4 @@
+2009-05-27T03:17:00.000Z	billybigrigger_		anyone here good with bash? im trying to convert 90 .mts videos with ffmpeg to .mp4's...here is my command...for file in $(ls *.mts);do ffmpeg -i 00081.MTS -acodec libfaac -ab 128k -vcodec libx264 -vpre default -crf 25 -threads 0 -deinterlace $file.mp4;done
+2009-05-27T03:17:00.000Z	billybigrigger_		but i end up with the error ls: cannot access *.mts: No such file or directory
+2009-05-27T03:17:00.000Z	raylu	billybigrigger_	the ls is uneeded, i believe
+2009-05-27T03:18:00.000Z	raylu	billybigrigger_	http://pastie.org/490685

@@ -1,0 +1,4 @@
+2007-01-02T15:47:00.000Z	screemo		hi there
+2007-01-02T15:48:00.000Z	screemo		can anyone help me with sed ? I need to filter just the version number out of this string: "audit4.12.16nordic3"
+2007-01-02T15:49:00.000Z	screemo		thats 4.12.16
+2007-01-02T15:51:00.000Z	dooglus	screemo	"sed 's/audit4[.] 12[.] 16nordic3/auditnordic3/g'" will remove the version

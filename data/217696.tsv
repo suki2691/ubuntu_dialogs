@@ -1,0 +1,4 @@
+2009-12-30T18:59:00.000Z	Co0Ps		i accidently closed apt-get update, now it's locked, how do i unlock?
+2009-12-30T18:59:00.000Z	Co0Ps		resource temporarly unavailible
+2009-12-30T19:00:00.000Z	Co0Ps		rm /var/lib/apt/lists/lock ?
+2009-12-30T19:02:00.000Z	usr13	Co0Ps	pkill update-manager

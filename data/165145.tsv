@@ -1,0 +1,4 @@
+2006-11-01T06:07:00.000Z	floyd2		How can I scan my drive for bad sectors?
+2006-11-01T06:08:00.000Z	aoupi	floyd2	fsck --help
+2006-11-01T06:11:00.000Z	floyd2	aoupi	thanks. Does fsck just fix partition errors or can fix detect and fix physical errors also? I don't see anything in manpage about fixing physical errors.
+2006-11-01T06:12:00.000Z	aoupi	floyd2	I don't think you can fix physical errors, it can just detect them and then not use thoose sectors of the disk

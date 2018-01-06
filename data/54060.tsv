@@ -1,0 +1,4 @@
+2009-06-19T09:49:00.000Z	SHADOW_V		hello i tried to install the newest nvidia driver and now it says failed to intialize the nvidia kernel module
+2009-06-19T09:51:00.000Z	mezquitale	SHADOW_V	can you log in to your machine with GUI?
+2009-06-19T09:53:00.000Z	mezquitale	SHADOW_V	 first back up your /etc/X11/xorg.conf  file then edit and place a "#" in the lines that start with "Driver" and "option" under the section "Device" , save the file then hit control-backspace
+2009-06-19T10:00:00.000Z	SHADOW_V	mezquitale	ok now what how do i get the new driver installed

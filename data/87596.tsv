@@ -1,0 +1,4 @@
+2008-06-16T05:37:00.000Z	Doodle77		I have a really odd problem. In /usr/local/dslinux-toolchain-2008-01-24-i686/bin I have several binaries. One is called ndstool. This works fine, it runs and everything. all of the other ones (e.g. arm-linux-elf-gcc), if i try to run them in a terminal it says something like  "bash: /usr/local/dslinux-toolchain-2008-01-24-i686/bin/arm-linux-elf-gcc: No such file or directory" even though it definitely exists.
+2008-06-16T05:37:00.000Z	Doodle77		tab completes and everything
+2008-06-16T05:37:00.000Z	Doodle77		but bash claims it doesn't exist
+2008-06-16T05:38:00.000Z	anon98sz	Doodle77	type "file <path to binary>", it is probably compiled for a different architecture

@@ -1,0 +1,4 @@
+2007-05-20T16:41:00.000Z	PrimoTurbo		I have a better question how do I make it so a root owned directory becomes a user based directory
+2007-05-20T16:42:00.000Z	Frogzoo	PrimoTurbo	sudo chown user:user /path/to/folder
+2007-05-20T16:43:00.000Z	PrimoTurbo	Frogzoo	that worked but how about doing not only to the directory but all the files in the directory
+2007-05-20T16:44:00.000Z	Frogzoo	PrimoTurbo	sudo chown -R user:user /path/to/folder

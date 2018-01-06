@@ -1,0 +1,4 @@
+2006-03-01T14:52:00.000Z	evan_d		How do I purge the configuration files while using --reinstall in apt?  I'd like to completely remove pam and everything related to it then put it back with the default configuration.
+2006-03-01T14:53:00.000Z	evan_d		I'll keep poking around the man pages though
+2006-03-01T14:54:00.000Z	trappist	evan_d	try apt-get remove --purge then apt-get install
+2006-03-01T14:54:00.000Z	evan_d	trappist	LinuxJones I don't know if that will work with something as critical as pam

@@ -1,0 +1,4 @@
+2009-04-06T04:46:00.000Z	Tr0pW3N		Question - What is the MAX RAM that I can have running Umbuntu 8.10 ?
+2009-04-06T04:47:00.000Z	Flannel	Tr0pW3N	32 or 64 bits?
+2009-04-06T04:48:00.000Z	Flannel	Tr0pW3N	32bit OSes can address up to 4GB of memory at a time.  You'll get around 3.2GB of usable RAM for normal circumstances.  If you really, really want more, and can't move to 64bit, you can use PAE, which does a paging type thing to give you more than that total (but still only that much at a time)
+2009-04-06T04:50:00.000Z	Flannel	Tr0pW3N	Thats not a windows or linux thing, but a property of the hardware.

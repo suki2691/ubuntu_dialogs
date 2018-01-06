@@ -1,0 +1,4 @@
+2009-06-30T18:43:00.000Z	allquixotic		Hello! On a minimal Ubuntu 9.04 x86_64, I am seeing a high CPU Load of 1.00 (pegging one of my four cores) on an otherwise-idle system, and the only processes that occasionally appear on top are md2_raid5 and md2_resync. Is it a bug that these processes are so busy on a completely idle system that is only running core services and SSH?
+2009-06-30T18:45:00.000Z	mhall119	allquixotic	you're running raid5?
+2009-06-30T18:45:00.000Z	allquixotic	mhall119	correct
+2009-06-30T18:46:00.000Z	allquixotic	mhall119	I'm a bit puzzled as to why the software RAID should be doing _any_ kind of disk I/O when there aren't any files being written to or read from. `lsof` shows only a few idle daemon sockets.

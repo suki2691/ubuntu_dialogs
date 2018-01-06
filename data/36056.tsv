@@ -1,0 +1,4 @@
+2011-04-29T18:32:00.000Z	roeland		hey fellas, i got an ubuntu box (through Linode) and it keeps randomly getting stuck at 100% cpu usage (400% actually?). i am unable to pull up the site , or access the console (via putty) the only way to fix it is to log into the linode web manager and reboot it.
+2011-04-29T18:33:00.000Z	roeland		what are some things i could do to diagnose this
+2011-04-29T18:34:00.000Z	sinistrad	roeland	you can try the 'top' command to see which process is consuming your resources
+2011-04-29T18:35:00.000Z	sinistrad	roeland	I see your dilemma

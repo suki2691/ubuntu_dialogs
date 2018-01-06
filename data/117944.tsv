@@ -1,0 +1,4 @@
+2007-10-02T09:24:00.000Z	soundray		I'm trying to run third-party software that fails with "error while loading shared libraries: libGLw.so.1". I can't find this library with apt-file -- how can I install it in feisty?
+2007-10-02T09:24:00.000Z	soundray		!repos | Grundoko
+2007-10-02T09:24:00.000Z	iarwain1	soundray	i'm not on ubuntu, but perhaps you can search the forums for that file (it will be a libgl package i think)
+2007-10-02T09:30:00.000Z	soundray	iarwain1	try the scp command locally (scp somefile sanrag@localhost:) -- see if it "arrives". If it does, the problem is with the sending machine.

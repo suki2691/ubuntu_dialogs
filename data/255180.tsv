@@ -1,0 +1,4 @@
+2005-10-13T07:42:00.000Z	rubem		can I unpack a .iso?
+2005-10-13T07:43:00.000Z	kbrooks	rubem	mount -o loop /path/to/iso /mount/point
+2005-10-13T07:44:00.000Z	kbrooks	rubem	then cp -ar /mount/point /other/path
+2005-10-13T07:45:00.000Z	kbrooks	rubem	then umount (if done using it) with either umount /path/to/iso or umount /mount/point

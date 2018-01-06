@@ -1,0 +1,4 @@
+2008-12-22T09:53:00.000Z	anvesh_agx		Hi all,I have installed ubuntu successfully and now i want to install windows in another partition.So do i folllow the normal procedures or do i have to config anything else
+2008-12-22T09:54:00.000Z	anvesh_agx		I have installed ubuntu successfully and now i want to install windows in another partition.So do i folllow the normal procedures or do i have to config anything else
+2008-12-22T09:54:00.000Z	dr_willis	anvesh_agx	 windows will overwrite the MBR/GRUB menu so you wull have tor estore that.. and add an entry for windows In the grub menu/config file.
+2008-12-22T09:55:00.000Z	dr_willis	anvesh_agx	 theres an example grub entry int he menu.lst that boots windows on the first partition/hd.

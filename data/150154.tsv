@@ -1,0 +1,4 @@
+2009-10-22T23:51:00.000Z	enrtes		in gthe previsious ubuntu i have to remove it to use usb
+2009-10-22T23:51:00.000Z	enrtes		now i have some problems with usb
+2009-10-22T23:52:00.000Z	enrtes		how can i do this command automaticaly at start up?modprobe -r ehci_hcd
+2009-10-22T23:53:00.000Z	Pici	enrtes	Blacklist that module. add a line that says: blacklist ehci_hcd in /etc/modprobe.d/blacklist.conf

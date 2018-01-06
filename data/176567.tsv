@@ -1,0 +1,4 @@
+2010-01-23T00:36:00.000Z	cptmorgan		im running ubuntu 8.04 server and i setup a bind server. Thing is the name server im putting in /etc/resolv.conf which is 127.0.0.1 is being ignored. its like my dns settings are still being retrieved through dhcp and storing them somewhere else. im using /etc/network/interfaces and specifying static ips. where are the dns numbers getting set from?
+2010-01-23T00:38:00.000Z	hwilde	cptmorgan	/etc/dhcp3/dhclient.conf   request domain-name-servers
+2010-01-23T00:40:00.000Z	cptmorgan	hwilde	your the man... thx
+2010-01-23T00:47:00.000Z	cptmorgan	hwilde	actually wouldnt dhclient only be used if i was retrieving a ip adress from dhcp? im setting the interfaces statically. Ive never used dhcp and the server i put in /etc/resolv.conf gets ignored.

@@ -1,0 +1,4 @@
+2011-07-06T21:18:00.000Z	Middle		I am having issues trying to restore my graphics basically. If i boot up in Ubuntu (or safe Ubuntu) i get a black screen, and i have booted up a live USB and chrooted into the linux partition, but no matter what configuration of drivers and removals i do i can't seem to get any life out of it! I have a couple of ideas as to why it might not work, but i woudl really appreciate a second opinion! Thanks : )
+2011-07-06T21:19:00.000Z	ActionParsnip	Middle	add the bootoption: nomodeset
+2011-07-06T21:33:00.000Z	Middle	ActionParsnip	Oh yeah forgot about nomodeset XD Anyways it allowed me to boot into safe mdoe whcih was nice, however i tried to start X and it just stopped outputting :/
+2011-07-06T21:34:00.000Z	Middle	ActionParsnip	Also can i mkake nomodeset permamnent?

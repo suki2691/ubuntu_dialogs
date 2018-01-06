@@ -1,0 +1,4 @@
+2011-02-15T22:44:00.000Z	Zoffix_		Hey, is there a way for me to select all the packages I want installed and instead of downloading them to get just the LINKS to them so I could download them on another box?
+2011-02-15T22:46:00.000Z	Zoffix_		Basically, I can't use more than a few megs of bandwidth on this location AND I can't remove this computer (it's work). I'm trying to install some software on it...
+2011-02-15T22:47:00.000Z	maco	Zoffix_	use --simulate on the apt-get command, and save the list of packages. they're all available at packages.ubuntu.com, and then you can use aptoncd to create a repository-on-a-cd
+2011-02-15T22:48:00.000Z	Zoffix_	maco	magnificent. Thanks!

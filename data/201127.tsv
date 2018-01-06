@@ -1,0 +1,4 @@
+2010-03-25T16:32:00.000Z	mikem		hi, i'd like to install rsnapshot, but I notice it pulls in sshd (openssh-server) as a dependency. is it possible to prevent Ubuntu from installing this? I'm on a laptop and I don't want openssh-server installed
+2010-03-25T16:33:00.000Z	erUSUL	mikem	sudo aptitude install -R rsnapshot
+2010-03-25T16:34:00.000Z	mikem	erUSUL	I'll give -R a shot... thanks
+2010-03-25T16:35:00.000Z	mikem	erUSUL	that did it, thanks :)

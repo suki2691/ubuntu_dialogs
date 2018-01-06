@@ -1,0 +1,4 @@
+2012-03-13T07:05:00.000Z	signpost		would anyone mind helping me with pam and ssh?  I just set up google two factor authentication, and it asks for the 2-factor code when I try password auth, but I'd like it to prompt when using a pre-shared key too.  is that possible?
+2012-03-13T07:05:00.000Z	signpost		presumably openssh isn't even hitting pam if there's a shared key.  that's at least what it seems like.
+2012-03-13T07:06:00.000Z	soaringsky	signpost	not possible I think. Pam doesnt get hit for keys
+2012-03-13T07:06:00.000Z	signpost	soaringsky	thanks very much.  that's what I suspected.

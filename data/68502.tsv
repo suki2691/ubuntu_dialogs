@@ -1,0 +1,4 @@
+2009-01-19T06:53:00.000Z	jorvis		how do you list the files installed by a package?
+2009-01-19T06:55:00.000Z	jorvis		help. how do you list the files in a package installed by a apt-get?
+2009-01-19T06:56:00.000Z	runderwo	jorvis	dpkg -S <package>
+2009-01-19T06:56:00.000Z	runderwo	jorvis	or dpkg -L <package> for the file list

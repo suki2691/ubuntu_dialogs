@@ -1,0 +1,4 @@
+2006-03-01T09:47:00.000Z	morphius		I am trying to put linux on my fat32 USB key and am having trouble with dpkg. I want it to not create symlinks, but rather make a second copy of the file (instead of linking), like copy does when you do -L or --deference. Is there a way to do this with dpkg/apt?
+2006-03-01T09:49:00.000Z	intelikey	morphius	you can't run linux natively on fat32,   no permissions.   use an extfs
+2006-03-01T09:53:00.000Z	morphius	intelikey	I don't care about permissions. I CAN do it, I just have to work arround the symlinking. I want FULL access to my os from ANY computer (I do a lot of recovery work).
+2006-03-01T09:54:00.000Z	intelikey	morphius	what ever....

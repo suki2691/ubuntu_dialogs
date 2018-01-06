@@ -1,0 +1,4 @@
+2007-12-30T04:11:00.000Z	BrOSs		is there a option to reboot your system and login as root by default?
+2007-12-30T04:13:00.000Z	ithicine	BrOSs	or you could edit the kernel line in grub and put the number 2 at the end of the line (after a space of course), then press b to boot
+2007-12-30T04:14:00.000Z	BrOSs	cdm10	do u mean failsafe?
+2007-12-30T04:14:00.000Z	ithicine	BrOSs	or put "init=/bin/bash rw" at the end of the kernel line and press b to boot.  That'll drop you directly to a prompt

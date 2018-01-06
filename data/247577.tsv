@@ -1,0 +1,4 @@
+2005-04-23T07:53:00.000Z	tat		hello me and my friend have experienced a strange behavior on a ubuntu, it's whenn you login as the nowmal user and do a "sudo su" to get root, exit to the normal user back, when i now do a sudo su again it dont prombts me for a password, anybody aware of that ?
+2005-04-23T07:54:00.000Z	H0lyD4wg	tat	sudo only asks for a password if it's been a while since you last typed it.
+2005-04-23T07:54:00.000Z	H0lyD4wg	tat	in the same shell, that is.
+2005-04-23T08:00:00.000Z	H0lyD4wg	tat	you also disable it permanently and system-wide by setting timestamp_timeout in /etc/sudoers to 0

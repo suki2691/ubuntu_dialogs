@@ -1,0 +1,4 @@
+2012-10-16T21:26:00.000Z	john_doe_jr		What does the following command do? sudo sed -i 's/apache2\/mod_mono.conf/apache2\/mods-enabled\/mod_mono.conf/g'
+2012-10-16T21:28:00.000Z	john_doe_jr		alright I know that the -i (from the man pages) stands for in place substitution....
+2012-10-16T21:28:00.000Z	john_doe_jr		is the brackets like /apache2/ the things we are looking for ?
+2012-10-16T21:28:00.000Z	crizis	john_doe_jr	correct way for to do what that command likely is trying to do: sudo a2enmod mod_mono

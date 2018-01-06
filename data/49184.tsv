@@ -1,0 +1,4 @@
+2009-09-11T11:27:00.000Z	ionut_		Hey guys! I have a qustion about RAID1 vs RAID0 in Ubuntu. I have two Hitachi 500 GB SATA II drives. In RAID0 the the READ speed is 173 MB/s and WRITE performance is 156 MB/s; in RAID1 READ and WRITE performance is about the same : 80 MB/s
+2009-09-11T11:27:00.000Z	ionut_		I tested the speeds with dd; I thought the READ performance should pretty much be the same with RAID0 and RAID1
+2009-09-11T11:28:00.000Z	kermit	ionut_	only if raid0 is striped
+2009-09-11T11:29:00.000Z	ionut_	kermit	can you gice a little more details? I thought RAID0 meant stripping...

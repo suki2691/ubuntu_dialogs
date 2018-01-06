@@ -1,0 +1,4 @@
+2012-01-24T01:56:00.000Z	al_nz1		could anyone please help with a tftp install (removal) error? http://pastebin.com/cCZZQ1dG
+2012-01-24T01:58:00.000Z	LjL	al_nz1	it works for me. a quick and dirty (and possibly damaging) solution would be to put "exit 0" on the second line of the file /var/lib/dpkg/info/tftpd-hpa.postrm - a better solution would be running the commands in that file manually, and seeing what goes wrong.
+2012-01-24T02:12:00.000Z	al_nz1	LjL	nice - that installs now
+2012-01-24T02:21:00.000Z	al_nz1	LjL	u still here

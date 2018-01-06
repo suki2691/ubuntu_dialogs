@@ -1,0 +1,4 @@
+2006-12-01T09:07:00.000Z	Barry		Greetings. I've just tried to upgrade my Firefox on a Hedgehog laptop and it gave me an error. I've tried rebooting, but now it tells me 'I cannot start the X server (your graphical interface). It is likely that it is not set up correctly. Would you like to view the X server output to diagnose the problem?' But before I can select Yes it gives three instances of Error -110 setting multicast list. and then falls out into tty2 in terminal mode. Ctrl
+2006-12-01T09:08:00.000Z	Lukian	Barry	/var/log/Xorg* have any useful information?
+2006-12-01T09:10:00.000Z	Barry	Lukian	It might if I knew what I was looking for.
+2006-12-01T09:18:00.000Z	Barry	Lukian	One of the logs suggested apt-get install x-window-system, and that has in turn suggested apt-get -f install. So I'm trying that.

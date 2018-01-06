@@ -1,0 +1,4 @@
+2008-11-04T13:07:00.000Z	pogztimz		i am currently installing a server(ubuntu 8.04) in our school laboratory. i need help on how to access the server so i can work at home?
+2008-11-04T13:09:00.000Z	pogztimz		i am currently installing a server(ubuntu 8.04) in our school laboratory. i need help on how to access the server so i can work at home?
+2008-11-04T13:10:00.000Z	clearzen	pogztimz	you need the public ip of the network. An open port for ssh on nat(I assume there is a firewall) and ssh on a pc at your house. That's one way to do it.
+2008-11-04T13:11:00.000Z	clearzen	pogztimz	you would also have to forward all connections from port 22 or whatever to the local ip of your machine

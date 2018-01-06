@@ -1,0 +1,4 @@
+2007-11-02T02:06:00.000Z	episodic		hey guys, I've shared a folder via samba between two ubuntu boxes. I can copy from one of the boxes, but not the other direction. I have 'read only' unchecked on both boxes. What am I doing wrong?
+2007-11-02T02:08:00.000Z	episodic		hey guys, I've shared a folder via samba between two ubuntu boxes. I can copy from one of the boxes, but not the other direction. I have 'read only' unchecked on both boxes. What am I doing wrong?
+2007-11-02T02:10:00.000Z	blubb	episodic	Check the samba configuration on the computer you want the files to copy to. you may need "chmod 777" or something like that for the folder
+2007-11-02T02:15:00.000Z	blubb	episodic	Or... 666 should be enough, chmod 666 means that everybody can read from and write to that folder, but is not able to execute something... you gotta know what exacly is necessary

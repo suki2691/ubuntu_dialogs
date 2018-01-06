@@ -1,0 +1,4 @@
+2007-12-20T01:28:00.000Z	OldSpice		jack_sparrow: i think i got a problem, where should i place my swap?
+2007-12-20T01:29:00.000Z	Desolator	OldSpice	anywhere, I personally make it a logical partition
+2007-12-20T01:30:00.000Z	Desolator	OldSpice	sort of. there are primary partitions from which you can boot (there's a workaround, but I won't go into details) and logical ones, which are stored in an EXTENDED partition (that takes a primary slot)
+2007-12-20T01:31:00.000Z	Desolator	OldSpice	so as swap isn't used for installnig an OS on it, you should make it extended, it'll be at the end of the hard-disk, leaving room to resize partitions

@@ -1,0 +1,4 @@
+2011-03-09T03:34:00.000Z	flowbee		my servers file system filled up; how do i figure out where to go to find out where the big files are?
+2011-03-09T03:35:00.000Z	CardinalFang	flowbee	I use "cd /; sudo du -s * |sort -n"
+2011-03-09T03:35:00.000Z	CardinalFang	flowbee	then cd to largest, repeat "du|sort"
+2011-03-09T03:36:00.000Z	CardinalFang	flowbee	OR, a new GUI tool for the kids.  Accessories > Disk Usage Analyzer.

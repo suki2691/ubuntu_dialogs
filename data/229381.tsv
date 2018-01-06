@@ -1,0 +1,4 @@
+2006-09-08T10:27:00.000Z	nataraj_		hi. is there any way to bypass the file-system check while booting?
+2006-09-08T10:28:00.000Z	Spec	nataraj_	you can edit /etc/fstab
+2006-09-08T10:28:00.000Z	Spec	nataraj_	and one of those numbers at the end will tell fsck whether to check the filesystem on boot or not
+2006-09-08T10:28:00.000Z	Spec	nataraj_	'man fstab', it's pretty easy

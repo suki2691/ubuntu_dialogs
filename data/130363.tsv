@@ -1,0 +1,4 @@
+2007-06-18T12:54:00.000Z	jschmidt		Hello. Can someone point me to some documentation about how to 'teach' APT that a dependency is available when you install it from a non debian package?
+2007-06-18T12:55:00.000Z	soundray	jschmidt	you'd have to repackage it to achieve that. Normally it's easier to bypass apt and install with dpkg --force-depends
+2007-06-18T12:58:00.000Z	jschmidt	soundray	is there an easy way to create an empty dummy package that just provides a list of dependencies that it provides?
+2007-06-18T12:59:00.000Z	soundray	jschmidt	I seem to remember that building an empty package is not difficult, but I can't remember how off the top of my head

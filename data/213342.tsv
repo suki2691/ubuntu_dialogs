@@ -1,0 +1,4 @@
+2005-10-14T09:55:00.000Z	RockyBurt		hrm, i need wxPython2.6 for python2.3 on ubuntu :(
+2005-10-14T09:56:00.000Z	pfalcone	RockyBurt	why not just grab the source debs and recompile it on your setup?
+2005-10-14T10:01:00.000Z	RockyBurt	pfalcone	i'm not familiar enough with dealing with source debs at this piont ... any pointers on getting started?
+2005-10-14T10:02:00.000Z	pfalcone	RockyBurt	use the dpkg-buildpackage command when you fetch the source via apt-get source packagename. it would notify you what you'd need to install when you try to build the package

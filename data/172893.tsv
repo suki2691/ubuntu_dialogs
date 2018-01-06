@@ -1,0 +1,4 @@
+2008-02-04T14:21:00.000Z	neeto		ok so I have two ethernet ports on my desktop, one is connected to the wall, the other is connected to my laptop. I've added eth1 and eth0 to br0 and enabled routing. Now my laptop gets internet through my desktop, but my desktop gets no connection at all. In theory, I think the way to fix this would be to bridge a local loopback with eth1 and a local loopback to eth0 and then forward eth0...
+2008-02-04T14:21:00.000Z	neeto		...to my laptop (since that is the port it's using to connect) however, I can't bind lo to bridges... anyone know of a way around this predicament?
+2008-02-04T14:23:00.000Z	neeto		alright
+2008-02-04T14:23:00.000Z	howlingmadhowie	neeto	when i do kernel level routing, i switch off all networking first and make sure that any and all demons are switched off

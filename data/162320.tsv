@@ -1,0 +1,4 @@
+2007-07-25T15:18:00.000Z	CraZy675		hi
+2007-07-25T15:19:00.000Z	CraZy675		I need some shell scripting advice
+2007-07-25T15:19:00.000Z	CraZy675		I want to remove all the Thumbs.db on all my drives
+2007-07-25T15:21:00.000Z	rausb0	CraZy675	find / -name Thumbs.db -exec rm {} \;    (untested)

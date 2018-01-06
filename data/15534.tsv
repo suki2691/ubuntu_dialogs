@@ -1,0 +1,4 @@
+2011-05-12T07:50:00.000Z	lifesf		does anyone know how to set up wireless through gui? i would like to do this on a server install
+2011-05-12T07:50:00.000Z	lifesf		through terminal i mean
+2011-05-12T07:51:00.000Z	escott	lifesf	iwconfig to associated the essid, but you still have to do all the ifconfig stuff. there is also apparently a networkmanager command line utility (or you could ssh -X and use the gui)
+2011-05-12T07:52:00.000Z	lifesf	escott	ifconfig seems to work completely fine while connected on eth1, i tho need it on wlan... thing is i don't even see it appear at all in ifconfig when i check... this is a server install so no gui

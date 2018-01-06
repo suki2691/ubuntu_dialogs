@@ -1,0 +1,4 @@
+2005-11-23T16:09:00.000Z	grace		m
+2005-11-23T13:09:00.000Z	grace		eh there, for some reason when I restart or coldboot I cant pull up web pages until I do ifdown wth0 then ifup eth0
+2005-11-23T13:09:00.000Z	grace		ive got a gateway router here and oddly enough I can still ping the gateway but not public ips
+2005-11-23T13:10:00.000Z	Amaranth	grace	You have two network interfaces (wireless and regular, from the look of it) and it's defaulting to the wireless one.

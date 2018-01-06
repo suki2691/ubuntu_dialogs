@@ -1,0 +1,4 @@
+2010-09-07T01:03:00.000Z	mcc		Would there be a simple way to get a quick answer to "how much RAM is currently being taken up by all http processes"?
+2010-09-07T01:03:00.000Z	buntunub	mcc	ps aux | grep http
+2010-09-07T01:06:00.000Z	buntunub	mcc	not sure what exactly your trying to do.. try - apropos http - or apropos (whatever it is your tyring to accomplish) to get the command
+2010-09-07T01:06:00.000Z	buntunub	mcc	then read some of the man pages for those commands that look like what you want

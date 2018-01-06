@@ -1,0 +1,4 @@
+2009-02-04T18:30:00.000Z	IntuitiveNipple	denniss	You can do that using "extended attributes", by enabling the "acl" file-system option for ext3 and similar when mounting. I believe XFS supports them natively. Use the {set,get}facl utilities to control them. (see man {set,get}facl)
+2009-02-04T18:36:00.000Z	denniss	IntuitiveNipple	ah so you mean that rather than having subgroups, I set my files to have multiple groups?
+2009-02-04T18:38:00.000Z	IntuitiveNipple	denniss	Yes... the same end result, it's the POSIX way
+2009-02-04T18:39:00.000Z	denniss	IntuitiveNipple	thanx a bunch man, this solves my problem and will give me a convenient structure! bye

@@ -1,0 +1,4 @@
+2008-07-01T13:23:00.000Z	alexei		Hi, anybody has an idea how to make SSHD accept also the network accounts from NIS. I can log in as a local user (when listed in /etc/passwd) but not as a NIS-user?
+2008-07-01T13:25:00.000Z	amrik	alexei	NIS isn't particularly secure, you might want to consider LDAP
+2008-07-01T13:27:00.000Z	alexei	amrik	that setup has been for years, I have to adapt myself.
+2008-07-01T13:30:00.000Z	amrik	alexei	sorry to hear that :( i found this while googling: http://www.linuxhomenetworking.com/wiki/index.php/Quick_HOWTO_:_Ch30_:_Configuring_NIS

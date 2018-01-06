@@ -1,0 +1,4 @@
+2010-09-17T03:24:00.000Z	maxwellscott		anybody know what the syntax error is in following .bashrc code: "if [[ -n "$PS1" ]]; then fi" ? (just upgraded to 10.04)
+2010-09-17T03:24:00.000Z	MashTomato	maxwellscott	missing expression after 'then'
+2010-09-17T03:25:00.000Z	MashTomato	maxwellscott	if [[ -n "$PS1" ]]; then true; fi
+2010-09-17T03:25:00.000Z	MashTomato	maxwellscott	yes, 'true'

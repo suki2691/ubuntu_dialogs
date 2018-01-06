@@ -1,0 +1,4 @@
+2008-03-24T00:30:00.000Z	HorizonXP		hey, using Hardy, but I presume it's the same on Gutsy; I have an external that is not mounting, because it was apparently shutdown improperly. The details say to either mount in Windows, or use the force option; Is there any downside to using the force option? Or should I suck it up and restart into windows?
+2008-03-24T00:30:00.000Z	hischild	HorizonXP	you can just force mount it.
+2008-03-24T00:31:00.000Z	HorizonXP	hischild	what does force mount do anyway?
+2008-03-24T00:31:00.000Z	hischild	HorizonXP	it'll reset the logfile where it states that it wasn't cleanly unmounted. For me i've done it multiple times and i haven't experienced trouble with it. Just add -o force to the mount line.

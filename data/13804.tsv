@@ -1,0 +1,4 @@
+2012-11-05T18:17:00.000Z	gnnr		BluesKaj's example works too, hope that helps
+2012-11-05T18:18:00.000Z	BluesKaj	gnnr	in  /etc/resolvconf/resolv.conf.d/head , yes it will , /etc/resolv.conf gets over written by the herad file
+2012-11-05T18:40:00.000Z	gnnr	BluesKaj	how does it change in 12.04?
+2012-11-05T18:41:00.000Z	BluesKaj	gnnr	it goes to the  /etc/resolvconf/resolv.conf.d/head file which writes the /etc/resolv.conf ...convoluted I know but that's what the devs decided

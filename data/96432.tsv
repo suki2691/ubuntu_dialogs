@@ -1,0 +1,4 @@
+2008-05-05T19:47:00.000Z	jaffarkelshac		i am trying to rename some files eg. 1, 2, 3 into in 1.a 2.a 3.a how do i do this?
+2008-05-05T19:47:00.000Z	hydrogen	jaffarkelshac	for i in *; do mv "$i" "$i".a; done
+2008-05-05T19:51:00.000Z	jaffarkelshac	hydrogen	﻿for i in *; do mv "$i" "$i".a; done worked like a charm
+2008-05-05T19:51:00.000Z	hydrogen	jaffarkelshac	yay :)

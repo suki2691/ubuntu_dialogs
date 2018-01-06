@@ -1,0 +1,4 @@
+2008-04-25T05:46:00.000Z	_alf_		is there a way to take an xubuntu install and turn it into a regular install of ubuntu (GNOME)? I tried removing xubuntu-desktop but all it did was drop a little 33K package.
+2008-04-25T05:48:00.000Z	sammy	_alf_	also there's an apt-get command that cleans out unused packages. it's possible you have an unbelievable amount of dependencies that aren't needed. try apt-get autoclean
+2008-04-25T05:48:00.000Z	_alf_	sammy	thanks... i'll try that too.
+2008-04-25T05:48:00.000Z	sammy	_alf_	I mean autoremove. autoclean deletes package files

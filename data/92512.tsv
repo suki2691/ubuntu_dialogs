@@ -1,0 +1,4 @@
+2008-05-10T10:10:00.000Z	lyzium		how do i find out which video driver is loaded on an ubuntu system?
+2008-05-10T10:12:00.000Z	wolfjb	lyzium	you can get hints from /etc/X11/xorg.conf, it should have a Driver option for the video card, then you can lsmod and search for something that looks like that name in xorg.conf
+2008-05-10T10:12:00.000Z	wolfjb	lyzium	you can also use dpkg -l and search xserver to see what might be installed (synaptic might be easier for that task)
+2008-05-10T10:15:00.000Z	lyzium	wolfjb	most of my trouble is that i can have lots of video driver packages on the system that arent running, but in xorg.conf it only says "device"    Driver  "default device"

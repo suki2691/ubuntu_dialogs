@@ -1,0 +1,4 @@
+2010-06-11T02:21:00.000Z	hardwired		'llo. How can I check (in the console) whether my nic is transmitting with 1000 or 100 mbit?
+2010-06-11T02:22:00.000Z	Loshki	hardwired	sudo ethtool eth0
+2010-06-11T02:23:00.000Z	hardwired	Loshki	I don't have ethtool. Doesn't ifconfig tell me somehow?
+2010-06-11T02:25:00.000Z	Loshki	hardwired	ifconfig tells you *some* stuff but not everything....

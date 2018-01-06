@@ -1,0 +1,4 @@
+2007-12-05T20:34:00.000Z	ubernewb		hello, need some help with /etc/dhcp3/dhclient.conf  anybody know how to push a nameserver to resolv.conf when ever you get a new ip pushed?
+2007-12-05T20:35:00.000Z	ubernewb		require...
+2007-12-05T20:36:00.000Z	_nix_	ubernewb	append the following line: prepend domain-name-servers <nameserver>
+2007-12-05T20:36:00.000Z	_nix_	ubernewb	that's it

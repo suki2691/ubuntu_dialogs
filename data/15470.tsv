@@ -1,0 +1,4 @@
+2011-08-10T17:07:00.000Z	LPhas		hello, i've a question. i don't really need gdm and gnome on my pandaboard, so i would like to be able to run startx as a user on boot, instead of getting gdm start. how can i do that?
+2011-08-10T17:08:00.000Z	escott	LPhas	you could create your own script in /etc/init.d to replace the gdm scripts and start your session
+2011-08-10T17:09:00.000Z	LPhas	escott	i don't want to use a daemon
+2011-08-10T17:10:00.000Z	LPhas	escott	btw *REPLACING* /etc/init.d/gdm sounds quite a mess

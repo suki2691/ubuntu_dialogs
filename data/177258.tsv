@@ -1,0 +1,4 @@
+2006-12-27T16:16:00.000Z	Asc	sime	 is dma enabled for hdd and the cd drive?
+2006-12-27T16:18:00.000Z	Asc	sime	it probably won't help much, but you *can* change the priority of X.  'pgrep xorg', then 'renice -5' the resulting process number.
+2006-12-27T16:18:00.000Z	Asc	sime	And there's probably a better way to do that.  Maybe somebody here knows what it is.
+2006-12-27T16:21:00.000Z	Asc	sime	Interesting.  I've not had the mouse slow down even on old hardware, except when dma was off.

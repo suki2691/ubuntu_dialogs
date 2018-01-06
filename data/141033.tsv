@@ -1,0 +1,4 @@
+2008-12-16T09:57:00.000Z	XenutH		ANYONE KNOW PULSE AUDIO FOR PCI CARDS
+2008-12-16T09:58:00.000Z	XenutH		ok well i have conflicts with HDA intel and pci sound
+2008-12-16T10:00:00.000Z	XenutH		The issue is with the Pulse Audio and it keeps looking to my on-board sound card even though i've disabled it in the BIOS, when i use the on-board sound it seems to Chirp away
+2008-12-16T10:01:00.000Z	raylu	XenutH	try poking indexes in /etc/modprobe.d/alsa-base

@@ -1,0 +1,4 @@
+2006-05-17T10:18:00.000Z	lkj1		Why isn't my internet connection working? I have run dhclient several times, but it won't reveive an IP.
+2006-05-17T10:19:00.000Z	harisund	lkj1	What sort of a connection are you on?
+2006-05-17T10:20:00.000Z	harisund	lkj1	Typically on reboot Ubuntu should automatically pick up an IP. Are you sure the other end of the cable is plugged in properly to a working DHCP server, like a router for example?
+2006-05-17T10:21:00.000Z	harisund	lkj1	Actually DHCPD is not what you want . dhclient is what you want. anyway .. that apart..

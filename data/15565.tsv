@@ -1,0 +1,4 @@
+2011-04-23T18:40:00.000Z	kellnola	peeq	keep in mind the new home directory may need its ownership changed when moved to a different pc, unless the UID is the same
+2011-04-23T18:42:00.000Z	peeq	kellnola	So sifferent username on new pc with same uid should not be a problem?
+2011-04-23T18:42:00.000Z	kellnola	peeq	correct. "id -a username" will tell you the UID
+2011-04-23T18:53:00.000Z	kellnola	peeq	not sure why you'd clone a linux system ... everything will be a mess

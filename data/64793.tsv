@@ -1,0 +1,4 @@
+2010-11-05T17:16:00.000Z	ozfalcon		I have created a new user on a headless server. But can't login as new user. Auth.log says PAM: user unknown.... how do I fix this?
+2010-11-05T17:17:00.000Z	ZykoticK9	ozfalcon	you can verify the user exists or doesn't by using "cat /etc/password | grep YOURNEWUSERNAME" - and yes, using "sudo passwd NEWUSERNAME" will set a password.
+2010-11-05T17:18:00.000Z	ozfalcon	ZykoticK9	User exists in /etc/passwd
+2010-11-05T17:18:00.000Z	ZykoticK9	ozfalcon	using adduser instead of useradd is a lot easier BTW

@@ -1,0 +1,4 @@
+2010-05-08T00:25:00.000Z	bodom		Let's suppose I do: echo 'test' > file1; cp -al file1 file2; echo 'test2' > file2. Now both file1 and file2 will contain 'test2', I am right? If yes, how can I use hard links to make snapshot backups with rsync?
+2010-05-08T00:26:00.000Z	Pici	bodom	then file1 and file2 are referencing the same file.
+2010-05-08T00:27:00.000Z	Pici		!tr | mms
+2010-05-08T00:28:00.000Z	bodom	Pici	so, when I rsync file3 over file1 both file1 and file2 will change... but many tutorials says I should use hard links to take rsync snaphshots... I'm goin' mad :)

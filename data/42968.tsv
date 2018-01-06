@@ -1,0 +1,4 @@
+2010-08-19T06:52:00.000Z	yuehai		Does anyone ever use the asynchronous mode for samba? I tried it but failed.
+2010-08-19T06:52:00.000Z	yuehai		I rebuilt the samba with "--with-aio-support" and add "aio read size=1" the smb.conf, but the requests seems still synchronous.
+2010-08-19T06:53:00.000Z	Blue1	yuehai	the article pointed to here:  http://pkill-9.com/wordpress/?p=309  might help - YMMV applies
+2010-08-19T06:54:00.000Z	yuehai	Blue1	thanks!

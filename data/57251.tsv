@@ -1,0 +1,4 @@
+2009-10-29T23:58:00.000Z	MadnessRed		how do I stop if from requesting a password when I mount a partition?
+2009-10-29T23:59:00.000Z	ejv	MadnessRed	several ways, place it in fstab, or use sudo and add yourself to a nopass wheel
+2009-10-30T00:01:00.000Z	ejv	MadnessRed	that I can't answer, this is your environment, not mine. If you would like the device always available, put it in fstab, that easiest. If the device is NOT going to be always available, I'd use sudo with a proper configuration so it doesn't prompt you. But be careful with that, because if someone uses your account, they would have administrative control.
+2009-10-30T00:02:00.000Z	ejv	MadnessRed	google automount as well

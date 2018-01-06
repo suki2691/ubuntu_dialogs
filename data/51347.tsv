@@ -1,0 +1,4 @@
+2009-12-16T04:40:00.000Z	CyL		well, I'm still having problems with grub... I lists an Ubuntu based OS as being Ubuntu n the menu list... I've changed the grub.cfg file, but after running update-grub2, it rewrote the file and relisted the other OS as being Ubuntu...
+2009-12-16T04:41:00.000Z	trism	CyL	yeah, don't edit grub.cfg, because update-grub overwrites it...if you want manual entries, put them into /etc/grub.d/40_custom
+2010-06-01T07:28:00.000Z	trism	CyL	add it to System/Preferences/Startup Applications
+2010-06-01T07:30:00.000Z	CyL	trism	thanks for your advice also

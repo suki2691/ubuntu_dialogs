@@ -1,0 +1,4 @@
+2012-02-17T07:44:00.000Z	ssshvb		Hello guys i am trying to convert rpm to dep   and ive got this   $ for i in *.rpm; do sudo alien -cv $i; done
+2012-02-17T07:44:00.000Z	ssshvb		 LANG=C rpm -qp --queryformat %{NAME} 'adlmapps4-4.0.35-0.x86_64.rpm' sh: rpm: not found
+2012-02-17T07:44:00.000Z	ssshvb		Error executing "LANG=C rpm -qp --queryformat %{NAME} 'adlmapps4-4.0.35-0.x86_64.rpm'":  at /usr/share/perl5/Alien/Package.pm line 489.
+2012-02-17T07:44:00.000Z	OerHeks	ssshvb	why convert rpm to deb, is there no source available ?

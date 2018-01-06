@@ -1,0 +1,4 @@
+2009-07-06T23:25:00.000Z	cjae		I need to bulk rename files and compare doubles any suggestions
+2009-07-06T23:25:00.000Z	cjae		I see meld, but I am mainly in in kde environment
+2009-07-06T23:25:00.000Z	PapaChub	cjae	  /bin/ls *.old | while read i; do mv -i "$i" "`echo $i | sed -e 's/new/old/'`"; done
+2009-07-07T00:01:00.000Z	cjae	PapaChub	Jeruvy sorry that seem a little over my head ;)

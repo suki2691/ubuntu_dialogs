@@ -1,0 +1,4 @@
+2008-08-01T07:05:00.000Z	dglkn		ok, my wireless network seems to be running at only 1Mb. How do I change that to 54Mb?
+2008-08-01T07:05:00.000Z	adam7	dglkn	get closer to the router?
+2008-08-01T07:06:00.000Z	adam7	dglkn	sudo iwconfig INTERFACE_NAME rate 54M where INTERFACE_NAME is the name of your interface
+2008-08-01T07:09:00.000Z	adam7	dglkn	shouldn't bee

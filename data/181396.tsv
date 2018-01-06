@@ -1,0 +1,4 @@
+2007-01-09T08:25:00.000Z	Tree		Excuse me, i need some help on ubuntu.When i login with my account it says $home cannot be written and is not owned by me and should be.Anyone know how i can fix it?
+2007-01-09T08:26:00.000Z	Tree		Excuse me, i need some help on ubuntu.When i login with my account it says $home cannot be written and is not owned by me and should be.Anyone know how i can fix it?
+2007-01-09T08:26:00.000Z	Tree		thanks
+2007-01-09T08:26:00.000Z	bruenig	Tree	when you get into the login screen press ctrl + alt + f1, then run sudo chown -R username:username /home/username

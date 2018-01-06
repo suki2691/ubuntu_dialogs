@@ -1,0 +1,4 @@
+2009-02-26T23:14:00.000Z	static07		Hi, I've just installed 8.10, but I have no network, when I change eth0 to manual, it resets to auto on reboot, /etc/network/interfaces has no eth0 settings in it. When I manually ad the settings in interfaces, nothing changes
+2009-02-26T23:14:00.000Z	static07		hard
+2009-02-26T23:15:00.000Z	bernz	static07	i guess you are using "network manager"?
+2009-02-26T23:16:00.000Z	bernz	static07	i know it's not the "easy" answer, but: http://projects.gnome.org/NetworkManager/

@@ -1,0 +1,4 @@
+2011-11-27T23:55:00.000Z	_pr0t0type_		Hey guys, is there any way to determine how much HDD space is alloted for a user (non-root)?  If there is no quota set, are we to assume that all of the diskspace is available to that particular user?
+2011-11-27T23:55:00.000Z	escott	_pr0t0type_	yes without a quote everything is available
+2011-11-27T23:56:00.000Z	_pr0t0type_	escott	ahh, I see, thanks.
+2011-11-27T23:57:00.000Z	_pr0t0type_	escott	yeah, df -H gives me 96G on /home, which is more than I need.  Thanks buddy

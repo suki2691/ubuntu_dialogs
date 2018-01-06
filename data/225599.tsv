@@ -1,0 +1,4 @@
+2005-08-09T16:28:00.000Z	elsha		hi guys, im just trying to boot into ubuntu, but it's not liking the GUI. I previously had a nvidia video card, which had no problems and was working fine. I've since changed it to an ATI radeon 9600 card. I've followed the instructions on the wiki for this video card, but i'm coming up with (EE) No devices detected     Fatal server error: no screens found. Any ideas/suggestions?
+2005-08-09T16:29:00.000Z	guillem	elsha	make sure the "driver" is correct at your /etc/X11/xorg.conf
+2005-08-09T16:30:00.000Z	elsha	guillem	hmm ok
+2005-08-09T16:31:00.000Z	guillem	elsha	under Section "Device", Driver "nvidia" should be changed to Driver "ati" or something like that. Check the web pages you looked up.

@@ -1,0 +1,4 @@
+2007-12-05T07:57:00.000Z	Dankchild		hey i just created a new partition, if i install windows to it, will it interfere with GRUB?
+2007-12-05T07:57:00.000Z	cabrioleur	Dankchild	if grub is in mbr. It will not if grub is in the first partition :-)
+2007-12-05T07:58:00.000Z	Dankchild	cabrioleur	yeah, its on the second partition..
+2007-12-05T07:59:00.000Z	cabrioleur	Dankchild	if grub is on the second partition then it will not. However, if you did not modify anything from ubuntu install it's in mbr and it will destroy it :-)

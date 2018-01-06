@@ -1,0 +1,4 @@
+2011-03-06T07:26:00.000Z	KatronixSerf		Hi all, I know this is more of a Grub q, I'm in there as well. My Q is: I just added a second drive to my system which has Windows 7 on it, how do I tell grub to see it and show it on the boot menu?
+2011-03-06T07:27:00.000Z	edbian	KatronixSerf	sudo update-grub2   (looks for operating systems on all partitions and makes menu entries for them)
+2011-03-06T07:27:00.000Z	KatronixSerf	edbian	thanks!
+2011-03-06T07:27:00.000Z	edbian	KatronixSerf	no problem

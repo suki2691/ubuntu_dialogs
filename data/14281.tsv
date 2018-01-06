@@ -1,0 +1,4 @@
+2012-04-23T20:43:00.000Z	mcc		is there a way, in Ubuntu, to query the system and find out what version of a particular package I have installed?
+2012-04-23T20:44:00.000Z	mcc		like, libogg0. i want to know if the version i have approximately corresponds to 1.2.0 from the website or 1.2.1 or what
+2012-04-23T20:45:00.000Z	dniMretsaM	mcc	I think this might do it: apt-cache showpkg <pkgname>
+2012-04-23T21:01:00.000Z	mcc	dniMretsaM	/ wylde: thanks also

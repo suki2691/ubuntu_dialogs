@@ -1,0 +1,4 @@
+2006-12-13T12:20:00.000Z	ToHellWithGA		Failed to fetch http://us.archive.ubuntu.com/ubuntu/dists/feisty/universe/source/Sources.bz2  MD5Sum mismatch
+2006-12-13T12:20:00.000Z	ToHellWithGA		does that mean it's out of sync?
+2006-12-13T12:21:00.000Z	ToHellWithGA		it's happened before in dapper and edgy and usually resolved itself.  today i'd like to better understand why sometimes there are MD5Sum mismatches
+2006-12-13T12:21:00.000Z	avis	ToHellWithGA	it means that its checking the file against some hash and its not giving you the correct hash in response for parity reasons ?  i can't explain

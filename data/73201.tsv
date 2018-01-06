@@ -1,0 +1,4 @@
+2010-10-18T19:01:00.000Z	phretor		I'm getting "Sorry, user root is not allowed to execute '/usr/bin/Xvfb :99' as worker:worker on host" although sudo -l says "(ALL) ALL". Any idea?
+2010-10-18T19:02:00.000Z	suigeneris	phretor	why do you have a root user?
+2010-10-18T19:24:00.000Z	phretor	suigeneris	that's actually an Upstart job and I need to run Xvfb as a foo:bar user:grup
+2010-10-18T19:28:00.000Z	phretor	suigeneris	maybe theere are better ways to run Xvfb as a different user.

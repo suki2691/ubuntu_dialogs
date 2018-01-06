@@ -1,0 +1,4 @@
+2010-08-31T18:36:00.000Z	j2daosh		how can i convert output from date to a TZ of my chosing? I use GMT right now on my system, but some log files print out in Central time. I have to check my logs but the sys time doesn't match the logtime (different timezones). is there a flag i can use to force date output into central? (without changing the actual datetime clock)
+2010-08-31T18:37:00.000Z	j2daosh		anyone?
+2010-08-31T18:38:00.000Z	j2daosh		nevermind
+2010-08-31T18:39:00.000Z	jk_	j2daosh	I don't know of a systemwide flag but I have the same situation with my FTP logs. There's supposed to be a TZ environment variable that proftpd checks but I've not tried it to see if it works.

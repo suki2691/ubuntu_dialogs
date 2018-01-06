@@ -1,0 +1,4 @@
+2008-09-13T17:12:00.000Z	Marcus		Ubuntu 8.04. I have a broken package. I try to fix the problem with Synaptic, but I can't.
+2008-09-13T17:14:00.000Z	Marcus		The error message is 'BrokenCount > 0'. I try the command 'apt-get -f install', but it failed too.
+2008-09-13T17:15:00.000Z	alkaliv2	Marcus	I think the command is "apt-get install -f"
+2008-09-13T17:20:00.000Z	alkaliv2	Marcus	you could launch synaptic, click the button on the left side that says "Custom Filters" select broken and then try to re-install the package that way

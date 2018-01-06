@@ -1,0 +1,4 @@
+2012-03-19T00:16:00.000Z	MadsRC		Does anyone know any easy way of having an ubuntu system automatically send an email (Cronjob can automate it i know, but need someway to actually send the mails. Commandline)
+2012-03-19T00:18:00.000Z	llutz	MadsRC	install mail-utils and a simple mta like ssmtp/msmtp/nullmailer. then send your mails using "mail" via cli
+2012-06-12T20:05:00.000Z	llutz	MadsRC	set hosts default route to the firewall-vm-IP
+2012-06-12T20:06:00.000Z	llutz	MadsRC	should be, just make sure networking for the VM is set to "bridged" not NAT

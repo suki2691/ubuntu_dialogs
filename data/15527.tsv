@@ -1,0 +1,4 @@
+2011-08-17T09:15:00.000Z	harry_		but when i do 'su' command i can asssess the "env | grep GDM_LANG" but when i do 'sudo su -' i am not able to assess it.
+2011-08-17T09:16:00.000Z	harry_		ActionParsnip:its a GUI application launch on Double click.
+2011-08-17T09:16:00.000Z	harry_		i am usng installerjammer which has no such fasility for it.
+2011-08-17T09:17:00.000Z	escott	harry_	launching gui apps from su can break your gui config for non-root users

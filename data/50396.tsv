@@ -1,0 +1,4 @@
+2009-08-15T09:38:00.000Z	GavinMcG		Quick question: I need to delete files whose names match a pattern (specifically, starting with ._) from all subdirectories of a specified directory. Is there a quick way to do that?
+2009-08-15T09:38:00.000Z	Dr_Willis	GavinMcG	 use of the 'find' command and its -exec option normally.
+2009-08-15T09:38:00.000Z	GavinMcG	Dr_Willis	Thanks, I'll take a look
+2009-08-15T09:55:00.000Z	GavinMcG	Dr_Willis	Thanks, it worked. Used `sudo find [path] -depth -name [pattern] -delete`

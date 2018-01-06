@@ -1,0 +1,4 @@
+2007-09-26T09:05:00.000Z	whileimhere		Hi When I go to install Ubuntu I see that gparted reports 41 gig drive but when I actully format it and look at the drive from inside of an installed system it reports that I have a 37 gig drive any idea why?
+2007-09-26T09:06:00.000Z	whileimhere		Well a 4 gig diff seems to be a lot
+2007-09-26T09:06:00.000Z	xangelo	whileimhere	are you talking aobut when you boot in from a different OS?
+2007-09-26T09:09:00.000Z	xangelo	whileimhere	it's possible depending how early the program starts. For example, if it counts from kb as 1000kb = 1mb instead of 1024kb = 1mb then as the numbers get larger (IE move to GB) then they will be further apart

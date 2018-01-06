@@ -1,0 +1,4 @@
+2010-12-29T23:57:00.000Z	leello		 how can i get my video card info with terminal
+2010-12-29T23:58:00.000Z	BluesKaj	leello	lspci | grep VGA
+2010-12-30T00:02:00.000Z	leello	BluesKaj	how can i get more detail?
+2010-12-30T00:05:00.000Z	BluesKaj	leello	sudo lshw -C video

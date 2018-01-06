@@ -1,0 +1,4 @@
+2007-08-06T12:58:00.000Z	marti149		how can I force remove a package with errors?
+2007-08-06T12:59:00.000Z	marti149		tried apt-get remove vmware-player but keep getting errors
+2007-08-06T12:59:00.000Z	hwilde	marti149	remove --purge
+2007-08-06T13:01:00.000Z	hwilde	marti149	apt-get remove --purge -y -f --force-yes vmware-player

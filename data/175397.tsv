@@ -1,0 +1,4 @@
+2008-02-22T22:26:00.000Z	benanz1		I am trying to install GNUpod on a remote server but I only have write permission to my home directory.  Thankfully all the dependencies are satisfied.  I do './configure=/home/me/LocalGnupod' but when I run 'make install' it fails because it tries to make /etc/perl/GNUpod
+2008-02-22T22:27:00.000Z	aoupi	benanz1	hrm? that's an add looking configure line
+2008-02-22T22:27:00.000Z	aoupi	benanz1	odd*
+2008-02-22T22:28:00.000Z	aoupi	benanz1	see ./configure --help, if there is an option you will probably find it there

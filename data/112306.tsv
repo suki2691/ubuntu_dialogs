@@ -1,0 +1,4 @@
+2008-08-28T10:01:00.000Z	arrrghhh		so i can send a magic packet to have WOL turn a computer on... can i send a similar "magic packet" or something to remotely shut the computer down?
+2008-08-28T10:01:00.000Z	croddy	arrrghhh	log in and run 'shutdown -h now'?
+2008-08-28T10:02:00.000Z	arrrghhh	croddy	i'd like to have something that i can schedule with cron on a remote machine... i guess i could schedule it on the local machine, but obviously the script to send the magic packet to wake the computer up would be on a remote machine.
+2008-08-28T10:03:00.000Z	croddy	arrrghhh	i'd go with shutdown in cron locally for the shutdown.

@@ -1,0 +1,4 @@
+2005-10-19T09:13:00.000Z	dooglus	chmuri	to set it up to let you run GNOME as root, run this:    sudo sed -i s/AllowRoot=false/AllowRoot=true/ /etc/gdm/gdm.conf
+2005-10-19T09:14:00.000Z	dooglus	chmuri	but it's a really bad idea
+2005-10-19T09:14:00.000Z	dooglus	chmuri	what?  you asked "chmuri> ok THX but how to login as root to snome??" - I answered
+2005-10-19T09:16:00.000Z	dooglus	chmuri	say reason it's a bad idea to run windows as 'administrator'.  if your windows session gets taken over, they've got root straight away.  and if you type something stupid by mistake your whole system's dead instead of just your user account

@@ -1,0 +1,4 @@
+2006-10-29T11:13:00.000Z	jcorgan		schreechingcat: haven't tried, but I'd bet it would work
+2006-10-29T11:15:00.000Z	jcorgan		scheechingcat: yeah, and running edgy "unstable" was working so well until the release candidate :( Guess I'll use the Knoppix CD to mount the drives, run ssh-server, and backup up everythign to another machine, then do a fresh install
+2006-10-29T11:17:00.000Z	jcorgan		schreechingcat: one last issue, though--why would an edgy kernel have problems even accessing SATA drivers at the hardware level (lots of handling errors), when a 2.6.10 kernel from Knoppix works fine?
+2006-10-29T11:19:00.000Z	pwnguin	jcorgan	well, its possible, and they're called "regressions". regressions shouldn't happen, but often do anyways

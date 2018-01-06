@@ -1,0 +1,4 @@
+2007-09-12T13:46:00.000Z	Some_ux		How do i enable amd coolnquiet on ubuntu feisty ?
+2007-09-12T13:47:00.000Z	Snaury[home] 	Some_ux	try `sudo modprobe acpi-cpufreq` in console
+2007-09-12T13:52:00.000Z	Snaury[home] 	Some_ux	that module allows you to set frequency. Then daemons actually change it. In Gnome "CPU Frequency Scaling Monitor" does that, just add it to your panel.
+2007-09-12T13:54:00.000Z	Snaury[home] 	Some_ux	then install powernowd

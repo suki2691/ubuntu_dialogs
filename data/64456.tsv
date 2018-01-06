@@ -1,0 +1,4 @@
+2011-05-26T15:57:00.000Z	szal	liminal	if you want a different splash screen, you have gotten instructions..  if you want no splash screen at all, find in /boot/grub/grub.cfg the section titled "/etc/grub.d/10_linux" (or an other section if *buntu is not your first boot menu entry) and in there the line starting with "linux", remove from this line the word "splash" (and, if you like, also "quiet" (makes for more elaborate output))..  to make this persistent (i.e.
+2011-05-26T16:00:00.000Z	liminal	szal	ive already changed it /etc/default/grub  accordingly.. it didn't remove the splash
+2011-05-26T16:15:00.000Z	liminal	szal	do you have a splash screen for your grub boot?
+2011-05-26T16:15:00.000Z	szal	liminal	no, I tend to turn it off

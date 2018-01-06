@@ -1,0 +1,4 @@
+2010-05-16T19:20:00.000Z	jamil_1		Hi, I wget is behaving oddly. If I do wget google.com, I get the response 403 forbidden however if do sudo -i and then do the same it downloads the html. Any explanation ?
+2010-05-16T19:22:00.000Z	joe_	jamil_1	try wget -Epkk <URL>
+2010-05-16T19:22:00.000Z	jamil_1	joe_	nope, again getting 403
+2010-05-16T19:26:00.000Z	jamil_1	joe_	I am behind a proxy may be that is causing the problem ? but then why it fetches the html when using root account

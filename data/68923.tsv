@@ -1,0 +1,4 @@
+2009-02-03T06:39:00.000Z	jero		i installed the latests 9.1 ati drivers and now am not getting any acceleration (glxgears etc dont work). what is the command to setup the whole graphics properly after installing an ati driver?
+2009-02-03T06:40:00.000Z	Titan8990	jero	I'm not sure if it is different in Ubuntu but when the drivers are aquired from ATI the command is: aticonfig --initial
+2009-02-03T06:40:00.000Z	Titan8990	jero	then you will need to copy xorg.conf.new in root's homedir to /etc/X11/xorg.conf
+2009-02-03T06:40:00.000Z	Titan8990	jero	backup your current xorg first

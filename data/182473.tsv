@@ -1,0 +1,4 @@
+2006-08-07T16:17:00.000Z	Wheelybin		Hello there. I'm trying to install nvidia graphics drivers, but in order to do that, I need to get out of xwindows/server. How can I do that on Ubuntu?
+2006-08-07T16:17:00.000Z	stefg	Wheelybin	don't do the installer from nvidia, use the ones provided by ubuntu
+2006-08-07T16:21:00.000Z	stefg	Wheelybin	sudo apt-get install linux-restricted-modules-`uname -r` nvidia-glx && sudo nvidia-glx-config enable ... paste this line to a terminal, and press ctrl-alt-backspace and you should have 3D nvidia working
+2006-08-07T16:23:00.000Z	stefg	Wheelybin	so you get the extar-points for paying attention :-)

@@ -1,0 +1,4 @@
+2006-01-21T09:45:00.000Z	trygve		any java programmers around?
+2006-01-21T09:46:00.000Z	trygve		true, but my question is (I think) ubuntu specific
+2006-01-21T09:47:00.000Z	trygve		well, I followed the ubuntu starter guide instructions for installing the jdk, and that appears to have worked.  my first hello world type program compiled and ran fine.  but then I found wasn't able to import other classes.  I think I just need to set a CLASSPATH environment variable, but I can't find the directory I should be setting it to
+2006-01-21T09:48:00.000Z	brasko	trygve	If you used dpkg, you  could try dpkg -L javapackagename, to look for the path to the installed files.

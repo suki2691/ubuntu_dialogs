@@ -1,0 +1,4 @@
+2010-09-12T11:03:00.000Z	dr0id		sudo cd /var/log/apache2/
+2010-09-12T11:03:00.000Z	dr0id		doesnt works, y ?
+2010-09-12T11:04:00.000Z	Izinucs	dr0id	you don't need sudo to change directories.
+2010-09-12T11:08:00.000Z	Izinucs	dr0id	you want to read the log file called apache2?  sudo cat /var/log/apache2 or gksudo gedit /var/log/apache2

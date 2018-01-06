@@ -1,0 +1,4 @@
+2009-12-16T11:35:00.000Z	speme		which memory use data is right? I have some trouble with the system monitor told me used 449MB ram, but the 'free' command told me I use 931MB ram.
+2009-12-16T11:37:00.000Z	alankila	speme	the answer is complicated, thus there is no one right answer. I suggest using the 2nd line in free as your guide, the value i free column
+2009-12-16T11:38:00.000Z	speme	alankila	thanks
+2009-12-16T11:39:00.000Z	alankila	speme	one way to view the value in the 2nd row of "free" output is that it is the amount of memory linux could easily free if it wanted to. However, it's a fact that if it did so, all applications would probably grind to halt

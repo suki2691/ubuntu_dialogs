@@ -1,0 +1,4 @@
+2006-11-18T12:18:00.000Z	jamesrose		Anyone know how to boot into the live cd? in qemu?
+2006-11-18T12:18:00.000Z	LjL	jamesrose	i guess "qemu -cdrom /path/to/the/cd", where the path is either /dev/hd? (whatever your CD drive is), or an ISO image
+2006-11-18T12:19:00.000Z	LjL	jamesrose	you need the device, not the place where it's mounted. /dev/cdrom, or something
+2006-11-18T12:21:00.000Z	LjL	jamesrose	uhm, sure? /dev/hda is usually your *hard drive*

@@ -1,0 +1,4 @@
+2004-09-28T09:52:00.000Z	punkass		so is there any trick to geting the nvidia drivers to wokr
+2004-09-28T09:52:00.000Z	punkass		er work
+2004-09-28T09:52:00.000Z	punkass		i change nv to nvidia in XF86config-4 but that just ended up with an error
+2004-09-28T09:53:00.000Z	jsubl2	punkass	apt-get install nvidia.  ediit XF86Config-4, add nvidia /etc/modules, modprobe nvidia or reboot 

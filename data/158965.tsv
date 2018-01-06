@@ -1,0 +1,4 @@
+2007-05-16T05:08:00.000Z	stefg	kmarius	interestig question, i don't think that 's *easy*. you'd need a script which checks which time of day it is to enable or disable the user account... look at crontab. another option would be to let her log in, but if it's not the right time to log her out again immediatly. that would involve a script sourced by .bashrc. Nay pros with an opinion on that?
+2007-05-16T05:33:00.000Z	kmarius	stefg	i think i've found the simple/complicated solution ... PAM: i've added the following line to /etc/security/time.conf : blank;tty* & !ttyp*;sister;!Al1600-2100
+2007-05-16T05:34:00.000Z	stefg	kmarius	clever
+2007-05-16T05:35:00.000Z	kmarius	stefg	but thanks for the hint about the script, was thinking about that, too, but i think it's too hard to program

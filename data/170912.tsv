@@ -1,0 +1,4 @@
+2006-10-10T09:42:00.000Z	skroll		sometimes I install a package that is just a .deb package and not in the repos that is a newer version then whats in the repos, and afterwards dont need it, is there a way to downgrade back to the repo version without it removing all sorts of other packages?
+2006-10-10T09:43:00.000Z	chuckyp	skroll	hrm... removing a package without removing the dependancies?
+2006-10-10T09:44:00.000Z	skroll	chuckyp	well, how about just downgrading the package back to the one in the repo
+2006-10-10T09:45:00.000Z	chuckyp	skroll	yeah there is no way to remove it without removing the dependancies.  But if you do remove it the config files will remain

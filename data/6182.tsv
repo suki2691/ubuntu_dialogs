@@ -1,0 +1,4 @@
+2012-01-27T10:18:00.000Z	Israfel		I have my id_dsa.pub key on the computer I want to connect to my server.. To add it all I need is "cat id_dsa.pub >> authorized_keys" right? I'm still getting a Permission denied (publickey) error.
+2012-01-27T10:18:00.000Z	Israfel		ll
+2012-01-27T10:18:00.000Z	Israfel		oops
+2012-01-27T10:18:00.000Z	randomuser`	Israfel	use ssh-copy-id for that

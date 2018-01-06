@@ -1,0 +1,4 @@
+2012-03-16T05:49:00.000Z	Onixs		which folder  is more appropriate to install a zip file , /usr/home or /root ?
+2012-03-16T05:49:00.000Z	dj_segfault	Onixs	That depends what's in it.
+2012-03-16T05:52:00.000Z	dj_segfault	Onixs	If it's just one script, you can put it in /usr/local/bin.  If it's a bunch of files that make up an application, I like creating a directory under /opt
+2012-03-16T06:00:00.000Z	dj_segfault	Onixs	If there's one script that starts the program, you can create a directory under /opt then make a symbolic link to that script in your path, like "ln -s /opt/foo/foo.py /usr/local/bin/foo"

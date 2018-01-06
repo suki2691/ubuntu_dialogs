@@ -1,0 +1,4 @@
+2008-11-05T03:42:00.000Z	korogiannos		Hi.  I'd like to have my tv cards remote control NOT do default things (Ie volume up down, power switch etc)  I want to remap those keys for use with lirc and lirc only.  can I stop gnome/X from reading /dev/input/event6?  (if I'm barking up the right tree)
+2008-11-05T03:43:00.000Z	fryguy	korogiannos	just edit your pointers in /etc/X11/xorg.conf, and look into  use xmodmap to remap keys, which may be helpful to you
+2008-11-05T03:44:00.000Z	fryguy	korogiannos	no idea
+2008-11-05T03:45:00.000Z	korogiannos	fryguy	thanks for pointing me in (some) direction.  I was stuck and didn't know what else to google.  I have plenty of reading up now.

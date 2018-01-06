@@ -1,0 +1,4 @@
+2008-01-31T12:48:00.000Z	power788		Why does  this:     for i in `ls *`; do echo "$i"; done;   on the command line not print out each filename properly?
+2008-01-31T12:50:00.000Z	soneil	power788	are there spaces in any of the filenames?   "for I in *" will probably get you further
+2008-01-31T12:52:00.000Z	power788	soneil	yes there are, but once I do for I in *; how do I use each filename, $i?
+2008-01-31T12:53:00.000Z	soneil	power788	yes, exactly the same $I.   problem with "for I in ls ..." is that "a file with spaces in it" appears as 6 different matches.   for I in * works as expected

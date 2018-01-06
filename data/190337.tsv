@@ -1,0 +1,4 @@
+2006-04-20T13:05:00.000Z	akonkwa		Hi everyone.   I have problem. I'm installing eclipse, and I downloaded a tar.gz form eclipse.org. I want to exctract it to /opt/Eclipse (I am not sure if this is the right thing to do) but the peemission to do so is denied , using the GUI. So is there a way I can do it in command line?
+2006-04-20T13:06:00.000Z	SenorY	akonkwa	sudo
+2006-04-20T13:09:00.000Z	SenorY	akonkwa	sudo tar xcf yourtarfile.tgz /opt/wherever
+2006-04-20T13:09:00.000Z	SenorY	akonkwa	sorry... sudo tar xzf yourtarfile.tgz /opt/wherever

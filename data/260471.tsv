@@ -1,0 +1,4 @@
+2009-09-13T00:00:00.000Z	mrfroggs		Hi. Trying to ./configure an application, but im getting an error "configure: error: --enable-pthreads specified, but pthreads not found." I have build-essential installed, as well as libc6 and glibc
+2009-09-13T00:01:00.000Z	jmarsden	mrfroggs	sudo apt-get install libpthread-stubs0-dev     may help.
+2009-09-13T00:05:00.000Z	jmarsden	mrfroggs	Can you configure it to use a different threading library instead?
+2009-09-13T00:06:00.000Z	jmarsden	mrfroggs	./configure --help and read what it says

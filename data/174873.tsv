@@ -1,0 +1,4 @@
+2007-09-13T05:07:00.000Z	MikeyMike		hey guys i have a simple command line question
+2007-09-13T05:07:00.000Z	MikeyMike		i'm trying to figure out why /usr is so full.... what command would show me which directories in /usr are the largest?
+2007-09-13T05:08:00.000Z	dennda	MikeyMike	du or df (not sure)
+2007-09-13T05:09:00.000Z	MikeyMike	dennda	 du -s -k * | sort -n

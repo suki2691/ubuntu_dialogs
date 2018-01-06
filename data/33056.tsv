@@ -1,0 +1,4 @@
+2010-07-02T09:07:00.000Z	synth		Is it possible to configure a WPA2 wireless interface in /etc/network/interfaces? Network Manager refuses to reconnect to my wireless. It did the first time.. ever since then it wont reconnect. even if I delete the entry and readd it.. so I want to go around networkmanager unless there's a fix. anyone?
+2010-07-02T09:08:00.000Z	synth		or does someone know a fix for networkmanager.. cause I cant find jack on google
+2010-07-02T09:09:00.000Z	sweetpi	synth	you can use wpasupplicant in combination with the wpa-conf option in your interfaces file
+2010-07-02T09:09:00.000Z	synth	sweetpi	I will google that thanks

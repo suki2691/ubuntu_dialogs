@@ -1,0 +1,4 @@
+2008-09-05T16:08:00.000Z	techno		i tried to connect to internet using sudo pppoeconf  but it disconnects after few minutes !!!! please help
+2008-09-05T16:09:00.000Z	soundray	techno	try to find out from the log files why it disconnects
+2008-09-05T16:10:00.000Z	soundray	techno	'less /var/log/syslog'
+2008-09-05T16:10:00.000Z	soundray	techno	there may also be a separate ppp log, I'm not sure. Look in /var/log

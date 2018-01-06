@@ -1,0 +1,4 @@
+2008-06-11T21:05:00.000Z	Kille1		im having a problerm, im trying to install wine 32 bit on my ubuntu 8,04 64 bit, as per the guide here http://wiki.winehq.org/WineOn64bit#head-15ce773b2453307f593a3045e558b30a0e8ed64d
+2008-06-11T21:06:00.000Z	Kille1		when i get to CC="gcc-4.2 -m32" LDFLAGS="-L/lib32 -L/usr/lib32 -L`pwd`/lib32 -Wl,-rpath,/lib32 -Wl,-rpath,/usr/lib32" ./configure -v it tells me bash: ./configure: No such file or directory
+2008-06-11T21:06:00.000Z	Kille1		im a newb and dont really understand what im doing, just following the instructions
+2008-06-11T21:07:00.000Z	genii	Kille1	I would suggest instead to just download the .deb package file from the wine website

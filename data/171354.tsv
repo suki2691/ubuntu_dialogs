@@ -1,0 +1,4 @@
+2008-01-04T06:10:00.000Z	Crazy181		i would like to be able to telnet into my machine over my lan anyone know how to set this up
+2008-01-04T06:11:00.000Z	Crazy181		Celarnor:ssh would be fine
+2008-01-04T06:11:00.000Z	Celarnor	Crazy181	apt-get install openssh-server
+2008-01-04T06:11:00.000Z	Celarnor	Crazy181	Then you can just ssh into it with "ssh -l username remoteserverip"

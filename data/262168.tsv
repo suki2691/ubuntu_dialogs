@@ -1,0 +1,4 @@
+2005-10-01T16:23:00.000Z	AR_Media		Hello, I just tried to su - and it gave me this error, setgid: Operation no permitted.  ummm, what?
+2005-10-01T16:23:00.000Z	Seveas	AR_Media	sudo
+2005-10-01T16:24:00.000Z	Seveas	AR_Media	then you messed something up badly
+2005-10-01T16:25:00.000Z	Seveas	AR_Media	ls -al $(which sudo)

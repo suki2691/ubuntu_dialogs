@@ -1,0 +1,4 @@
+2010-02-27T05:35:00.000Z	zanberdo		I'm running ubuntu 9.04. I have up until just now been able to mount my IPod and work with it via amarok 1.4. However, all of the sudden when I attach the IPod I get an error "Unable to mount the volume 'FOO'. Details show: mount /dev/sdb2 already mounted or /media/FOO busy. Now, I've gone ahead and attached this same IPod to another machine running ubuntu 9.04 and it's recognized without any issues. I've also verified that ther
+2010-02-27T05:35:00.000Z	zanberdo		e is nothing on /media/FOO. I'm stumped. What might be the source of my problem?
+2010-02-27T05:36:00.000Z	Quan-Time	zanberdo	is some process still taking it ?
+2010-02-27T05:38:00.000Z	zanberdo	Quan-Time	I'm not sure how to find that out. I can eject the device from command line, but I don't know how to get hal to probe for it again without unplugging and plugging in USB

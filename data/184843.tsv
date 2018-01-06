@@ -1,0 +1,4 @@
+2006-05-27T11:42:00.000Z	Warbo	Newbify2	Actually, that seems to stay as the same user, but with root priviledges. 0s 0H seems to be root proper
+2006-05-27T11:43:00.000Z	Warbo	Newbify2	I mean -s -H
+2006-05-27T11:43:00.000Z	Newbify2	Warbo	cool thanks for the info
+2006-05-27T11:44:00.000Z	Warbo	Newbify2	I found that out through using graphical apps from such a shell and ending up with config files in my home which I didn't have permission to access. Using sudo -s -H it made config files in /root

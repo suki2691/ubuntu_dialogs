@@ -1,0 +1,4 @@
+2008-06-21T08:55:00.000Z	Bruce1		speaking of which, how can I get fedora to read an ubuntu partition, does anyone know
+2008-06-21T08:56:00.000Z	genii	Bruce1	It should by default since they bothe use ext based filesystem
+2008-06-21T08:57:00.000Z	genii	Bruce1	Since wubi, the ubuntu part is not in a regular partition
+2008-06-21T09:00:00.000Z	genii	Bruce1	Basic methodology here would be to first mount the windows partition the ubuntu file is in, then loopmount the ubuntu file

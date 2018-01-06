@@ -1,0 +1,4 @@
+2007-05-23T07:52:00.000Z	amorphous_		could someone help me out with a bash quotes problem please??? I'm trying to set a variable using date, but having a nightmare with the quotes being eaten away... I have this: start_of_week=`date -d 1970-01-01 "$(( todays_epoch - ( seconds_in_day * ( day_number - 1 ) ) ))" sec +"%d %m %y" but it keeps giving me the 1970 date :( - anyone...?
+2007-05-23T07:53:00.000Z	Pelo	amorphous_	  in week=`date   try week='date instead
+2007-05-23T07:54:00.000Z	Pelo	amorphous_	I'm not a coder but on my keyboard  ` is an accent for french spelling and it can't generaly be used on it's own so that line looked wierd to me , that 's why I suggest you try ' instead
+2008-01-04T00:19:00.000Z	Pelo	amorphous_	reconfigure x again and use the vesa driver, then try for the restricted driver from the gui

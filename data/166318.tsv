@@ -1,0 +1,4 @@
+2008-06-24T16:05:00.000Z	Werdna		hello, I'm using the alternate cd, and I'm trying to use a different source for the packages (My computer has trouble reading the discs, so I've got a USB drive attached) I've got two problems. The first, mounting the drive. The second, telling setup to use that drive.
+2008-06-24T16:06:00.000Z	Werdna		I don't object to getting my hands dirty with a command line if somebody points me in the right direction.
+2008-06-24T16:07:00.000Z	wols	Werdna	edit your sources.list
+2008-06-24T16:07:00.000Z	Werdna	wols	okay. And to mount it myself, I have an annoying problem - partition editor says it's sdb, but mount -t fat /dev/sdb1 /usbdisk tells me there's no such device/

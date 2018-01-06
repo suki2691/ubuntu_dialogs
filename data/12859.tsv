@@ -1,0 +1,4 @@
+2011-06-27T21:36:00.000Z	pobri19		what would make a bash script behave differently when being called by a cron opposed to manually on the command line?
+2011-06-27T21:36:00.000Z	dr_willis	pobri19	 cron does not use the same default path, or alias's or other things in  the bash configs perhaps?
+2011-06-27T21:36:00.000Z	dr_willis	pobri19	 also the user may differ.
+2011-06-27T21:37:00.000Z	pobri19	dr_willis	the user is the same, and the bash path is the same as the one on my dev box which works

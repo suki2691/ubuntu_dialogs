@@ -1,0 +1,4 @@
+2010-04-05T06:05:00.000Z	camel_		hey i'm having a problem w/ updates ... my g/f accidently unplugged my machine while updates were running ... tried to complete update and it says this::  E: dpkg was interrupted, you must manually run 'sudo dpkg --configure -a' to correct the problem.
+2010-04-05T06:06:00.000Z	camel_		I ran that command an nothing happens
+2010-04-05T06:06:00.000Z	camel_		still no updates
+2010-04-05T06:07:00.000Z	Pirate_Hunter	camel_	try apt-get -f install/update and see if that helps

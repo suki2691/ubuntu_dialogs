@@ -1,0 +1,4 @@
+2009-12-02T20:40:00.000Z	AndyGraybeal		hey guys, my friend owns an inspiron 1720, he had ubuntu 9.04 and just upgraded to 9.10 yesterday;  the installation ended saying things may have been partially upgraded.  he kept using it the rest of the day, and his wireless worked just fine.  today though when he tries to use his wireless; it doesn't work at all - it shows up in 'lshw' but not in network manager; any help is appreciated.
+2009-12-02T20:41:00.000Z	lfaraone	AndyGraybeal	did he notice which packages weren't fully installed?
+2009-12-02T20:44:00.000Z	AndyGraybeal	lfaraone	no; it was towards the end of the install we think; why what are you thinking?
+2009-12-02T20:46:00.000Z	lfaraone	AndyGraybeal	well, try "sudo dpkg --configure -a" and tell me if/when you get an error

@@ -1,0 +1,4 @@
+2006-09-24T13:30:00.000Z	MikeHawk		are you supposed to lose all of your settings, customizations, and installed apps when you upgrade to a new version of ubuntu?
+2006-09-24T13:32:00.000Z	Warbo	MikeHawk	If you upgrade using a package manager then no, if you reinstall then yes (unless you keep /home on a seperate partition)
+2006-09-24T13:33:00.000Z	Warbo	MikeHawk	Ubuntu uses "dpkg" to handle Debian packages, and "APT" as the main package manager. There are loads of GUIs for APT (update-manager, synaptic, adept, aptitude,etc.)
+2006-09-24T13:35:00.000Z	Warbo	MikeHawk	Maybe it was incompatible for some reason (using an  older, conflicting library or something?)

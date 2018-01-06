@@ -1,0 +1,4 @@
+2012-11-10T21:10:00.000Z	Sietse_		Hey, I have a question. I have 8GiB RAM installed in my machine, but Ubuntu says in the system monitor 7.7GiB. Where did my 0.3GiB go to? I don't use my integrated graphics. (It is not really a problem, but more a question)
+2012-11-10T21:12:00.000Z	Sietse_		I thought that ram was already base 2 numbers? And not 0-rounded
+2012-11-10T21:13:00.000Z	Sietse_		http://pastebin.com/vwsAKWru
+2012-11-10T21:13:00.000Z	zykotick9	Sietse_	try just "free" vs "free -m" as well.  mine 4GB show 4061016 with free, and 3965 with the -m.

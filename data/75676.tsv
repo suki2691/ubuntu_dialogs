@@ -1,0 +1,4 @@
+2009-02-26T03:24:00.000Z	DVA5912		I have created a user called webmaster on my machine i have proftpd installed and the users home direcoty is /var/www/ the user can login and get a listing but can not create a file or directory. anyone know why?
+2009-02-26T03:24:00.000Z	Sjimmie	DVA5912	that must be because of permissions, check which group is the owner of that /var/www directory and subdirs and put your webmaster user in that group aswell
+2009-02-26T03:25:00.000Z	Sjimmie		then set your group perms to +w for that dir
+2009-02-26T03:25:00.000Z	DVA5912	Sjimmie	i dont think so because i can create diretorises with sudo

@@ -1,0 +1,4 @@
+2010-06-17T11:52:00.000Z	zio		isnt there a command to run in terminal from ubuntu live session to get rid of grub?
+2010-06-17T11:52:00.000Z	llutz	zio	if you don't have a backup of the original MBR, no
+2010-06-17T12:06:00.000Z	llutz	zio	sfdisk or just "sudo dd if=/dev/sdX of=mbr.img count=1"
+2010-06-17T12:06:00.000Z	zio	llutz	thanks

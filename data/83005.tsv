@@ -1,0 +1,4 @@
+2008-08-25T04:45:00.000Z	Rhodetrem	carandraug	can I install *only* Pidgin from the intrepid packages
+2008-08-25T04:47:00.000Z	carandraug	Rhodetrem	looking for the 2.5 version, aren't we? MSNP15 support? You can download the deb file. It should work fine
+2008-08-25T04:48:00.000Z	Rhodetrem	carandraug	that's right ;) can I update it via apt-get?
+2008-08-25T04:51:00.000Z	carandraug	Rhodetrem	I never tried it but in theory, you should be able to add the intrepid repositories to your list, update pidgin, and then remove it from the list. This would make taking care of dependencies easier than just downloading the deb file. Also, I've heard you can get msnp15 support with previous versions if you compile it yourself and make a small changes. The code for has been there for quite soem time but had some bugs

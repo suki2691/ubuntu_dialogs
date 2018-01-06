@@ -1,0 +1,4 @@
+2004-10-13T16:21:00.000Z	akra		lol
+2004-10-13T12:16:00.000Z	akra		anyone know how to talk fstab into allowing normal users read only access to an ntfs partition?
+2004-10-13T12:16:00.000Z	fred87	akra	add umask mount options
+2004-10-13T12:17:00.000Z	fred87	akra	umask=022

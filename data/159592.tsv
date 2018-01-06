@@ -1,0 +1,4 @@
+2006-11-10T14:55:00.000Z	al00		g'day -- kubuntu newbie here -- booting up from the Edgy DVD and getting dropped off at /Desktop. Tried in to install in "graphics safe" mode -- same result. Any suggestions?
+2006-11-10T14:55:00.000Z	al00		I slap in a freshly burned Edgy DVD. Boot. I am prompted with the Menu. I select install, the status bar looks strange and incomplete. The boot image seems to load... I expect to see a GUI for install of the OS but I end up at a command prompt in the /Desktop folder.
+2006-11-10T14:56:00.000Z	al00		Vid card is:  Ati Radeon 800XT GTO (PCIe)
+2006-11-10T14:58:00.000Z	angryfirelord	al00	Sounds like a video driver issue to me. What is happening is Ubuntu is trying to load an ati driver, but they never really work. I don't know if this is possible, but try running a sudo dpkg-reconfigure xserver-xorg at the prompt and select vesa.

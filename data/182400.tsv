@@ -1,0 +1,4 @@
+2007-05-08T09:49:00.000Z	V15		hi, when i installed ubuntu earlier, the partition manager didnt give the option to resize my partitions, or create a new one, but just to install on /hdc, which i thought at the time was just the 10gb ext2 partition automounted. but now i have lost all of my other partitions, is there anyway i can recover this data?
+2007-05-08T09:51:00.000Z	V15		it would also be useful to know whether it did a quick or full format
+2007-05-08T09:51:00.000Z	stefg	V15	looks bad, because it's not only deleted, but overwritten. you could try if testdisk can still find something but chances are the installer did what you told him to do.... overwrite the disk
+2007-05-08T09:53:00.000Z	stefg	V15	so if the disk was partitoned before it might be that only the first 2-3 Gigs were deleted... i'd give testdisk a try

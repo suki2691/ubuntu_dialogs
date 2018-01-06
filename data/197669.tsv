@@ -1,0 +1,4 @@
+2006-10-01T10:43:00.000Z	Sktfeelsdapper		how do you command line and get rid of a program you installed?
+2006-10-01T10:44:00.000Z	Sktfeelsdapper		isn't there like an uninstall?
+2006-10-01T10:44:00.000Z	Sktfeelsdapper		I just installed audacity, and I want to remove it, I installed it from the command line.
+2006-10-01T10:45:00.000Z	kdean06	Sktfeelsdapper	dpkg remove (--purge) or apt-get remove (--purge) works. Add the --purge to either if you want to remove that apps config files. You can also do the same in Synaptic

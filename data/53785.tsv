@@ -1,0 +1,4 @@
+2011-03-15T02:29:00.000Z	cesurasean		is there another way to edit grub2?
+2011-03-15T02:29:00.000Z	cesurasean		can i install grubed from apt-get?
+2011-03-15T02:30:00.000Z	iflema	cesurasean	to remove safe mode andmemtest entries use   /etc/default/grub   to change order use user the files in   /etc/grub.d/    like 40_custom  (after ubuntu entries) and even create a similar fuile to 40_custom but numbered lower e.g. 06_custom (before ubuntu entires) and possibly knock out os_prober
+2011-03-15T02:31:00.000Z	iflema	cesurasean	or unisntall grub2 and install grub and pin the version

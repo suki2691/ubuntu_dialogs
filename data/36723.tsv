@@ -1,0 +1,4 @@
+2010-02-25T06:06:00.000Z	rocketeerbkw		I'm trying to install a public key for a user to login to my server. It has BEGIN SSH2 PUBLIC KEY and I'm not sure if this goes in .ssh/authorized_keys or .ssh2/authorization
+2010-02-25T06:06:00.000Z	powertool08	rocketeerbkw	.ssh/authorized_keys, at least thats how mine is setup.
+2010-02-25T06:07:00.000Z	rocketeerbkw	powertool08	thx, should I reformat it so it's all on one line? The key I generated doesn't look anything like that
+2010-02-25T06:08:00.000Z	powertool08	rocketeerbkw	Its up to you, it might work. I think whitespace is ignored but returns might trip it up.

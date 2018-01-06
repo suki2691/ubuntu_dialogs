@@ -1,0 +1,4 @@
+2006-03-20T16:09:00.000Z	mac^		hi
+2006-03-20T16:10:00.000Z	mac^		I am running ubuntu stock kernel - 2.6.15-18-386 .. I need the full headers so I can compile kernel modules.. tried the available modules.. Anything I can do?
+2006-03-20T16:12:00.000Z	cafuego	mac^	sudo apt-get install linux-headers-$(uname -r)
+2006-03-20T16:13:00.000Z	mac^	cafuego	I tried that, I have the headers installed. however, the kernel module I am trying to install complains about a missing /lib/modules/<uname -r>/build for some reason

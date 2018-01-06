@@ -1,0 +1,4 @@
+2010-03-17T23:41:00.000Z	t_corr2		okay, shorter now: in Ubuntu Server 9.10, what is responsible for updating the /etc/motd file? Is there a cron script? Daemon? I can't find it.
+2010-03-17T23:41:00.000Z	Pici	t_corr2	Take a look at the manpage for motd.tail, it explains the process.
+2010-03-17T23:42:00.000Z	t_corr2	Pici	Oh boy. thanks.
+2010-03-17T23:44:00.000Z	t_corr2	Pici	it seems like it is running more frequently than just on boot. for instance, the available updates keeps updating. i see there are scripts under /etc/update-motd.d/ but i don't know what runs them

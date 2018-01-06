@@ -1,0 +1,4 @@
+2009-10-19T00:55:00.000Z	yohan__		nobody has any advice on how i can install Grub without affecting my windows partitioN ??
+2009-10-19T00:56:00.000Z	Scunizi	yohan__	grub by definition will overwrite the MBR of the boot drive.. if you don't want to do that then you might consider running ubuntu in virtualbox inside of windows until you feel more confidant
+2009-10-19T00:57:00.000Z	yohan__	Scunizi	im ok with overwirting the MBR, can be fixed with windows fdisk /mbr however i should still be able to read tis, i have re-installed grub before with the same configuratio nbut now for some reasons its corrupting the file system and i dont know why
+2009-10-19T00:58:00.000Z	Scunizi	yohan__	that's really strange.. never experienced that.. check out the link n8tuser gave..

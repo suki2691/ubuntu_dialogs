@@ -1,0 +1,4 @@
+2012-05-28T19:25:00.000Z	georgewell		where do I have to install the boot loader? on /boot?
+2012-05-28T19:27:00.000Z	EliahKagan	georgewell	normally you would install the boot loader to the Master Boot Record (MBR), which you would specify by telling it (GRUB2, that is) to install to the disk itself rather than any partition, for example /dev/sda instead of /dev/sda1 or /dev/sda2
+2012-05-28T19:27:00.000Z	EliahKagan	georgewell	see https://help.ubuntu.com/community/Grub2 for details
+2012-05-28T19:28:00.000Z	georgewell	EliahKagan	thx!

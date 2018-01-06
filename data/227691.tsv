@@ -1,0 +1,4 @@
+2007-09-24T13:12:00.000Z	probulus		I've got my nic working but I can't get it to work without having to tell modprobe to add it to the kernel every time I reboot. How do I get it to do this automatically?
+2007-09-24T13:13:00.000Z	Jowi	probulus	you add it to /etc/modules
+2007-09-24T13:22:00.000Z	Jowi	probulus	if it is in /etc/modules then it should be loaded at boot.
+2007-09-24T13:23:00.000Z	Jowi	probulus	you're welcome.

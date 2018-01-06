@@ -1,0 +1,4 @@
+2008-02-14T13:24:00.000Z	keoni		i am working with something like this for the boot records " sudo dd if=/dev/sda1 bs=512 count=1 | nc ip port" on the side i want to copy and " nc -l -p 777 | dd bs=512 count=1 of=boot.img
+2008-02-14T13:24:00.000Z	keoni		i am trying to make an image over network
+2008-02-14T13:24:00.000Z	keoni		is this on the right track
+2008-02-14T13:26:00.000Z	neil_d	keoni	I think you will need something like    "sudo mount -t auto /dev/sr0 <mount point>"

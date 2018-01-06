@@ -1,0 +1,4 @@
+2005-03-27T14:09:00.000Z	ian__		looking for a .deb that provides module include files
+2005-03-27T14:09:00.000Z	crimsun	ian__	linux-headers-$(uname -r)
+2005-03-27T14:10:00.000Z	ian__	crimsun	does that include /lib/modules/`uname -r`/build/include ?
+2005-03-27T14:10:00.000Z	crimsun	ian__	it creates the valid symlink /lib/modules/$(uname -r)/build, yes

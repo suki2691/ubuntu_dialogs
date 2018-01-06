@@ -1,0 +1,4 @@
+2007-10-23T22:32:00.000Z	snkmad		how do i know what sdaX my hdds are?
+2007-10-23T22:32:00.000Z	funkyFlash	snkmad	i use mount to display what partitions are mounted where
+2007-10-23T22:38:00.000Z	funkyFlash	snkmad	look at the commented values in your menu.lst, it has values for where it thinks ubuntu is.  then once you fix those, run sudo grub-install from a chroot into your ubuntu install
+2007-10-23T22:38:00.000Z	snkmad	funkyFlash	wow too fast

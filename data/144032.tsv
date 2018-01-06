@@ -1,0 +1,4 @@
+2007-07-28T11:35:00.000Z	IanLiu		Hello
+2007-07-28T11:36:00.000Z	IanLiu		Why my Ubuntu keeps reading the CD-ROM? It never stops, even if I am not accessing it... any solution?
+2007-07-28T11:36:00.000Z	reanjr	IanLiu	maybe your package manager is looking for updates?
+2007-07-28T11:37:00.000Z	reanjr	IanLiu	if you have anything in your /etc/apt/sources.list that has "cdrom" in it, try commenting it out and running "sudo apt-get update"

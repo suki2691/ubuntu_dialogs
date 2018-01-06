@@ -1,0 +1,4 @@
+2006-12-14T10:08:00.000Z	buzzy		how do i mount a floppy in fat mode?
+2006-12-14T10:08:00.000Z	zyth	buzzy	mount -t fat /dev/fd0 /mountpoint
+2006-12-14T10:10:00.000Z	zyth	buzzy	huh? read from windows?
+2006-12-14T10:10:00.000Z	zyth	buzzy	if the disk is already FAT formatted, writing to it from linux won't change that.

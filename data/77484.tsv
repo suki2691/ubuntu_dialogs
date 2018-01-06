@@ -1,0 +1,4 @@
+2008-10-10T01:33:00.000Z	Mists		Everytime I try to mkdir it says I do not have the premission.
+2008-10-10T01:33:00.000Z	_dbd_l12	Mists	depends on the rights on that particular directory - try sudo mkdir
+2008-10-10T01:45:00.000Z	_dbd_l12	Mists	you're (temporary) root when you use sudo
+2008-10-10T01:56:00.000Z	_dbd_l12	Mists	did you name the directory flash_(space)_drive ? Then you should do sudo mount /dev/sdb1 /mnt/flash\ drive

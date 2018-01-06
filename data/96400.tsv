@@ -1,0 +1,4 @@
+2008-09-26T14:30:00.000Z	prabu		any 1 know how to set default OS ?
+2008-09-26T14:30:00.000Z	negge	prabu	you mean in the bootloader?
+2008-09-26T14:31:00.000Z	negge	prabu	you have to edit your /boot/grub/menu.lst file
+2008-09-26T14:35:00.000Z	negge	prabu	open up a terminal and write "gksu gedit /boot/grub/menu.lst", then enter your password and it will open in a notepad-like program. Then you just make the changes and save the file

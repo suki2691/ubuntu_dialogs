@@ -1,0 +1,4 @@
+2009-04-30T04:46:00.000Z	arash_		how do i do a quick restart of X? alt-ctrl-delete don't work
+2009-04-30T04:47:00.000Z	arash_		alt-ctrl-backspace
+2009-04-30T04:47:00.000Z	arash_		i mean
+2009-04-30T04:47:00.000Z	piroko	arash_	X disables that by default now. You can either run sudo killall Xorg or re-enable the c-a-backspace in your xorg.conf

@@ -1,0 +1,4 @@
+2012-04-12T06:14:00.000Z	LTB_		Hey guys! Is there a way to make the "chmod 777" command affect everything in an entire file? I'd have to have to do the command 700 times...
+2012-04-12T06:15:00.000Z	escott	LTB_	you should be asking why you want to do that. is 777 really correct?
+2012-04-12T06:16:00.000Z	escott	LTB_	for anyone and everyone who has any form of access to that computer yes
+2012-04-12T06:18:00.000Z	escott	LTB_	even if its just you, you should be prepared in case at some point in the future you do need to give someone else access. for your files you want 750 for directories and 640 for files (or something along those lines)

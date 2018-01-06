@@ -1,0 +1,4 @@
+2007-01-29T07:19:00.000Z	mithro		whats the "correct" way to detect if a deb is installed?
+2007-01-29T07:20:00.000Z	wrox	mithro	look into synaptic
+2007-01-29T07:20:00.000Z	mithro	wrox	i mean in a shell script
+2007-01-29T07:20:00.000Z	wrox	mithro	/var/log/dpkg or smt similar - there's a file that lists your installed stuff

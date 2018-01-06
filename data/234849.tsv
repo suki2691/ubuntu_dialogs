@@ -1,0 +1,4 @@
+2006-01-12T08:34:00.000Z	punkass		on boot up where would the ipw2200 module be called from?
+2006-01-12T08:35:00.000Z	robotgeek	punkass	/lib/modules/$(uname -r)/kernel/drivers/net/wireless/
+2006-01-12T08:35:00.000Z	punkass	robotgeek	yes that is the module but what calls it to load?
+2006-01-12T08:36:00.000Z	robotgeek	punkass	modprobe ipw2200

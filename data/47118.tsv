@@ -1,0 +1,4 @@
+2011-12-01T21:06:00.000Z	afeijo		how can I create an user named adm when the system already has a group with that name? :)
+2011-12-01T21:06:00.000Z	llutz_	afeijo	you shouldn't. if you insist, create the user with a different group (man adduser)
+2011-12-01T21:07:00.000Z	llutz_	afeijo	because USERGROUPS=yes in adduser.conf
+2011-12-01T21:19:00.000Z	llutz_	afeijo	you just could have use useradd -g group

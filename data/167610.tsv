@@ -1,0 +1,4 @@
+2006-10-19T15:50:00.000Z	Vapour		if I have a hd with NTFS and I want to install Linux on it, will it change the FS to FAT32 or something automatically?
+2006-10-19T15:51:00.000Z	waylandbill	Vapour	you can resize the NTFS smaller to make room for linux
+2006-10-19T15:52:00.000Z	Vapour	waylandbill	what does resize mean? is it what fnf says: NTFS on one partition and another FS on another?
+2006-10-19T15:53:00.000Z	waylandbill	Vapour	you will have to manually set up the partitions. You will make the NTFS smaller and then create a Linux one (plus a swap one) in the freed space.

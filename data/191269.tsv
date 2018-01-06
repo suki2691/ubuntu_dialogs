@@ -1,0 +1,4 @@
+2008-06-11T22:12:00.000Z	osotogari		How can I change my fstab so that this drive # /dev/sdb1 UUID=35826132-6e87-450f-88b3-9d6e6369072b /media/data     ext3    relatime        0       2 is writeable by me?
+2008-06-11T22:13:00.000Z	Terrasque	osotogari	that is ext3, thats file system rights and not mount option rights
+2008-06-11T22:14:00.000Z	osotogari		@ Terrasque: Thanks for the pointer :)
+2008-06-11T22:27:00.000Z	osotogari	Terrasque	thanks for the help, changing the permissions on /dev/sdb1 worked perfectly

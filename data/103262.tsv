@@ -1,0 +1,4 @@
+2008-01-26T23:13:00.000Z	tetzke9		my resolution wont change it's now 1600x1200 and i want it 1280x1024 but it just wont apply
+2008-01-26T23:15:00.000Z	danand	tetzke9	- try and see if your screen res options are in file /etc/X11/xorg.conf - you may be able to apply from there - then reboot
+2008-01-26T23:19:00.000Z	danand	tetzke9	- you need to edit file as super user - ie sudo nano /etc/X11/xorg.conf
+2008-01-26T23:19:00.000Z	danand	tetzke9	- after the file has been changed you can CTRL-ALT-BACKSPACE to restart X

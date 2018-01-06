@@ -1,0 +1,4 @@
+2005-11-04T17:50:00.000Z	joost		hello :) I got a startup problem, can anybody help me? At first i couldnt install 5.10 cuz of my laptop cddrive not reading burned cd's, so i installed 5.04, and upgraded that. Now when i boot it either fails loaden (IRQ problem) but if i choose the right kernell (?? i think) in the grub menu it does boot properly, how do i make that kernell default to boot?
+2005-11-04T17:52:00.000Z	joost		thanks, gonna try
+2005-11-04T17:53:00.000Z	El_Che	joost	put the kerel block as the first on the list in /boot/grub/menu.lst
+2005-11-04T17:58:00.000Z	El_Che	joost	gedit is fine!

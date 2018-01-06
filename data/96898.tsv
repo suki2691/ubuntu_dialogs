@@ -1,0 +1,4 @@
+2009-09-13T20:24:00.000Z	need_help		hey i need help i want to search for everything expect *.gz how i can do it with find command or other? Thx
+2009-09-13T20:24:00.000Z	Araneidae	need_help	`find -name \*.gz -o -print`, I think
+2009-09-13T20:25:00.000Z	Araneidae		or mayb `find \! -name \*.gz`
+2009-09-13T20:25:00.000Z	need_help	Araneidae	thx both work =)

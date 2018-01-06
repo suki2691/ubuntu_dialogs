@@ -1,0 +1,4 @@
+2005-06-06T12:19:00.000Z	tg_		I want to chang the permission to a fat32 partition where my mail data resides. from root to user. "chmod 777 <dir>" is not changing any thing. i have he same permission as before. what i do??
+2005-06-06T12:21:00.000Z	tg_		I want to chang the permission to a fat32 partition where my mail data resides. from root to user. "chmod 777 <dir>" is not changing any thing. i have he same permission as before. what i do??
+2005-06-06T12:22:00.000Z	sysrq	tg_	you need to use the uid=youruserid mount option, vfat doesn't have file attributes like ext*
+2005-06-06T12:23:00.000Z	tg_	sysrq	thanx

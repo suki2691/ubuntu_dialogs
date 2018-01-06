@@ -1,0 +1,4 @@
+2010-06-30T05:37:00.000Z	mj8741		Earlier I asked about this error: error probing SMB1 while booting in ubuntu 10.04.  I resolved it by editing grub adding this line: GRUB_CMDLINE_LINUX="acpi_enforce_resources=lax" also had to update-grub - just an fyi if anyone has this issue.
+2010-06-30T05:39:00.000Z	naibed	mj8741	good to kniw
+2010-06-30T05:39:00.000Z	mj8741	naibed	welcome
+2010-06-30T05:47:00.000Z	mj8741	naibed	yes, that's correct - can get from package manager

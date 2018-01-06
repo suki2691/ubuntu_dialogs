@@ -1,0 +1,4 @@
+2008-05-07T20:52:00.000Z	xintron		I can't write to the file "/proc/acpi/acer/wireless". Does anyone have any clue why?
+2008-05-07T20:53:00.000Z	xintron		I get this error:  write error: Invalid argument
+2008-05-07T20:55:00.000Z	genii	xintron	echo "enabled:1" | sudo tee -a /proc/acpi/acer/wireless
+2008-05-07T20:56:00.000Z	xintron	genii	gave the same error

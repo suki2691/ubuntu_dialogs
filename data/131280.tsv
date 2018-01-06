@@ -1,0 +1,4 @@
+2012-05-05T18:14:00.000Z	lousygarua		Is there a way in linux to exit a hung application in fullscreen? e.g. when I develop an SDL app and forget to add a way to... well... quit :)
+2012-05-05T18:15:00.000Z	stefg	lousygarua	ctrl-alt-F1 , login, killall <process>
+2012-05-05T18:19:00.000Z	lousygarua	stefg	i know about this method, not sure why i haven't used it before. maybe i didn't manage to get to the tty?
+2012-05-05T18:21:00.000Z	stefg	lousygarua	in previous versions the nvidia-driver tended to break the tty's with plymouth. As far as i can tell it works now with 12.04

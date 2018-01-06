@@ -1,0 +1,4 @@
+2008-02-04T01:44:00.000Z	lordmorgoth		guys i want to install the nvidia proprietary driver, however it must be done using the terminal and having Xorg killed, how do i kill X and log to the terminal
+2008-02-04T01:44:00.000Z	ampex	lordmorgoth	ctrl+alt+f1
+2008-02-04T01:45:00.000Z	ampex	lordmorgoth	will bring you to a console
+2008-02-04T01:46:00.000Z	ampex	lordmorgoth	ctrl+alt+f1, then /etc/init.d/gdm stop, then install nvidia driver then /etc/init.d/gdm start

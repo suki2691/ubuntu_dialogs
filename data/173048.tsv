@@ -1,0 +1,4 @@
+2006-08-13T06:26:00.000Z	marinelli59		yes simsalabin, thats the import java.sql.*; statement, but for connection purposes you need an url (I supose jdbc:mysql://localhost:3305/database) but i don;t know the driver
+2006-08-13T06:26:00.000Z	marinelli59		the driver is specific for each database vendor
+2006-08-13T06:27:00.000Z	marinelli59		other question: how do you make a rlogin (I tried, but "connection refused" error message appears)
+2006-08-13T06:28:00.000Z	longwave	marinelli59	you need to look in the documentation for the specific jdbc driver you are trying to use

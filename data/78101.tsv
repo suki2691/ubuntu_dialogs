@@ -1,0 +1,4 @@
+2008-10-01T15:27:00.000Z	trilobiti		ok, I just figured out I needed the libdb4.6-dev package to get on with the compile process. Solved.
+2008-10-01T15:28:00.000Z	jrib	trilobiti	sudo apt-get build-dep exim
+2008-10-01T15:32:00.000Z	trilobiti	jrib	I just got the libdb4.6-dev and that was what was missing for me.
+2008-10-01T15:33:00.000Z	jrib	trilobiti	right, the command I gave will give you all the dependencies need to compile the package in the repositories

@@ -1,0 +1,4 @@
+2007-07-12T12:05:00.000Z	chrisjs169		how can i remount my usb drive as read only?
+2007-07-12T12:06:00.000Z	Maximander	chrisjs169	umount /<mountpoint> && mount -o ro /dev/sd<number> /<mountpoint>
+2007-07-12T12:07:00.000Z	Maximander	chrisjs169	or try the properties in whatever desktop enviornment you use
+2007-07-12T12:09:00.000Z	chrisjs169	Maximander	it worked - thank you very much

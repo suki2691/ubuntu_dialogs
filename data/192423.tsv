@@ -1,0 +1,4 @@
+2006-04-28T12:58:00.000Z	MrPockets		anyway i can send a message to a windows box over my LAN with an Ubuntu command?
+2006-04-28T12:59:00.000Z	MrPockets		anyway i can send a message to windows box over my LAN with a ubuntu command?
+2006-04-28T12:59:00.000Z	chip42	MrPockets	smbclient -M will do it, provided the service is turned on in windows... its off by default
+2006-05-03T08:04:00.000Z	chip42	MrPockets	i think __mikem mentioned it earlier.. sudo dpkg-reconfigure gdm ... or something to that effect

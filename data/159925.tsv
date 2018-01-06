@@ -1,0 +1,4 @@
+2006-11-08T15:01:00.000Z	grzelsyn		Hi. I add new user to ubuntu dapper system, but this new user could not open/initialize sound device, therefore he can't play music. What should I do to let him to use this device?
+2006-11-08T15:02:00.000Z	gyaresu	grzelsyn	try gpasswd
+2006-11-08T15:03:00.000Z	gyaresu	grzelsyn	Shouldn't need to but... 'su newuser' then 'groups' they should be in the audio group.
+2006-11-08T15:05:00.000Z	grzelsyn	gyaresu	I don't exactly understand what should I do... I think to log to this new user and what next? What does it mean 'groups'? Do you mean some command or file or something?

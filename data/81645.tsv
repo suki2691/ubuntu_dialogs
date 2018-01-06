@@ -1,0 +1,4 @@
+2009-08-31T14:38:00.000Z	dr4g		How can i see if i have a JDK installed on my system ?
+2009-08-31T14:39:00.000Z	ActionParsnip1	dr4g	spkg -l | grep -i jdk
+2009-08-31T14:40:00.000Z	ActionParsnip1	dr4g	yes thats why we implement grep
+2009-08-31T14:42:00.000Z	ActionParsnip1	dr4g	you can see its value using: echo $JAVA_HOME

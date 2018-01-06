@@ -1,0 +1,4 @@
+2006-07-23T10:30:00.000Z	lt		just installed 6.06... trying do do a apt-get update, but it can't connect to us.archive.ubuntu.com... is it me or is somethign wrong with the site?  I can't get to it from my browser either.
+2006-07-23T10:30:00.000Z	gdb	lt	Apparently the US archives are down for the time being.
+2006-07-23T10:32:00.000Z	gdb	lt	It's not really an issue with the Ubuntu operating system, but yes, it's frustrating when you can't apt-get things easily.  You can, however, delete the "us." part from each line in /etc/apt/sources.list to get on your way.
+2006-07-23T10:32:00.000Z	gdb	lt	you may choose to replace them later.

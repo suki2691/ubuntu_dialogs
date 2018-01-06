@@ -1,0 +1,4 @@
+2006-12-28T10:17:00.000Z	xiko		is there a way to copy my entire installation of ubuntu from one hd to another? Both are plugged in and im running this from livecd.
+2006-12-28T10:18:00.000Z	pike_	xiko	well you could dd if=/dev/hda1 of=/dev/hdb1  or something mayeb
+2006-12-28T10:19:00.000Z	xiko	pike_	 hmm I have the sda one that should be copied to the hdb. Is there  a program or something? I tried Gpart but the hd doesnt boot and I have set the flag to boot.
+2006-12-28T10:20:00.000Z	pike_	xiko	there are a number of solutions really. im not too familiar with making backup images and tar.gz of whole hd but either dd or cat /dev/hda1 > /dev/hdb1 you might google for exact syntax

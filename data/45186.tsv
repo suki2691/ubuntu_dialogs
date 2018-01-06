@@ -1,0 +1,4 @@
+2010-07-09T09:22:00.000Z	thune3	upgrdman	are you using apcupds, and can you look at /var/log/apcupsd.events to see what event triggered the shutdown?
+2010-07-09T09:28:00.000Z	upgrdman	thune3	it wasnt a shutdown. the pc turns off, as if it lost power. i could turn it back on, and it would work off of the battery power from the ups
+2010-07-09T09:29:00.000Z	upgrdman	thune3	and i do not have any ups software installed except for gnome's monitor
+2010-07-09T09:33:00.000Z	thune3	upgrdman	oh. i assumed you had some hookup to tell the os to shutdown when the ups battery got low. If the only connection from the UPS is the power to the computer, then is sound like there is enough of a power interruption (or low enough voltage) that your computer turns off.

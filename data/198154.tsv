@@ -1,0 +1,4 @@
+2011-09-01T19:49:00.000Z	user__		jrib>please can you say  how can i install packages from folder
+2011-09-01T19:50:00.000Z	user__		<jrib> i want to install deb packages from folder
+2011-09-01T19:50:00.000Z	Combatjuan	user__	Like "dpkg -i *.deb" from that folder?
+2011-09-01T19:51:00.000Z	Combatjuan	user__	As an aside, It's always best to run "dpkg --simulate -i" first just to make sure things make sense.

@@ -1,0 +1,4 @@
+2011-06-02T07:58:00.000Z	jv_		how to take ownership of this kcore file? chown and chmod and sudo and su does not allow to delete it
+2011-06-02T07:59:00.000Z	rww	jv_	/proc is a virtual file system. The files inside it are representations of system state and not actual files on your hard disk. They thus do not take up space (and as you're seeing, can't be deleted).
+2011-06-02T08:00:00.000Z	jv_	rww	I think this was crash data of the KDE that I removed...The space is over 1 gig and I am almost with no space left after I removed KDE and installed xfce
+2011-06-02T08:01:00.000Z	rww	jv_	No, it isn't crash data. /proc/kcore is a file representation of the RAM in your computer. Again, it is not actually a file.

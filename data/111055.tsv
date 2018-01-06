@@ -1,0 +1,4 @@
+2007-12-07T00:35:00.000Z	yoblin		how can I share my custom compiled kernel image with someone, do I just package up what's in /boot?????
+2007-12-07T00:36:00.000Z	yoblin		thanks, will try that
+2007-12-07T00:36:00.000Z	soundray	yoblin	normally /lib/modules/$(uname -r) is essential as well. Didn't you use a ubuntu or debian method to compile? That would give you a .deb in /usr/src
+2007-12-07T00:37:00.000Z	yoblin	soundray	thanks! much easier.. I'm an idiot

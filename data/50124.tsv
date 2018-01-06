@@ -1,0 +1,4 @@
+2009-08-18T19:27:00.000Z	savid		This is really weird.  I can't restart compiz using "compiz --replace" because I get an error,   but I can restart compiz by going through the appearance preferences tool.   I looked at the source code for how the appearance prefs dlg does it,  and all it does is call "compiz --replace"  :-P
+2009-08-18T19:28:00.000Z	Snake23	savid	"killall compiz && nohup compiz &" should work
+2009-08-18T19:30:00.000Z	savid	Snake23	 should... but I get the same error when I even run compiz by itself:  http://dpaste.com/82146/
+2009-08-18T19:32:00.000Z	savid	Snake23	 so for whatever reason, I can't restart compiz via cmdline,  but the appearance prefs can restart compiz just fine...   I'm trying to be able to restart from cmdline because I need compiz to reload my xmodmap from time to time

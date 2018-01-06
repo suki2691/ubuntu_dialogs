@@ -1,0 +1,4 @@
+2008-12-10T11:20:00.000Z	balrog		why is gtk-window-decorator taking up 4.0 GiB of memory?  http://img392.imageshack.us/my.php?image=screenshotsystemmonitorkn7.png
+2008-12-10T11:20:00.000Z	gcbirzan	balrog	Because on 32bit machines, that's the maximum amout of memory a process can use? :-P
+2008-12-10T11:21:00.000Z	balrog	gcbirzan	so, youre telling me that gtk=window-decorator has one hell of a memory leak problem?
+2008-12-10T11:21:00.000Z	balrog	gcbirzan	*gtk-window-decorator

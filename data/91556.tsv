@@ -1,0 +1,4 @@
+2008-06-12T23:33:00.000Z	eshat		Hi all ,... how can i make mutt use a remote smtp server when sending mails ?
+2008-06-12T23:34:00.000Z	joaopinto	eshat	you could configure that at the system level, to make all your mails sent to a remote smtp relay
+2008-06-12T23:34:00.000Z	eshat	joaopinto	but where ? i use postfix,...
+2008-06-12T23:35:00.000Z	joaopinto	eshat	sudo dpkg-reconfigure postfix

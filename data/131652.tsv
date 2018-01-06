@@ -1,0 +1,4 @@
+2007-12-31T22:35:00.000Z	blueskiesokie		Does anyone know an easy way to setup a script to check for process, kill it if it is stuck, and then run the new process?
+2007-12-31T22:35:00.000Z	cabrioleur	blueskiesokie	stuck? meaning like zombie.
+2007-12-31T22:40:00.000Z	cabrioleur	blueskiesokie	"kill -HUP `ps -A -ostat,ppid,pid,cmd | grep -e '^[Zz]' | awk '{print $2}'`"
+2007-12-31T23:12:00.000Z	blueskiesokie	cabrioleur	thanks, think a combination of that will work for me

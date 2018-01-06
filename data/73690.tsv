@@ -1,0 +1,4 @@
+2009-01-08T19:39:00.000Z	salmonix		hi there, how to edit sudoers to allow to run the following command as root? xterm -e sh /path/to/script
+2009-01-08T19:39:00.000Z	Tekno	salmonix	%admin ALL=NOPASSWD: ALL
+2009-01-08T19:40:00.000Z	salmonix	Tekno	I want only this script to make it executable as described.
+2009-01-08T19:40:00.000Z	salmonix	Tekno	Also, it is a shell script with terminal outputs.

@@ -1,0 +1,4 @@
+2010-01-19T23:27:00.000Z	paulus68		Hi I have this script http://ubuntu.pastebin.com/m4e0d3929 which is sending me each hour a mail, however I don't want it to sent mails to me when there is nothing in the file how do I do this?
+2010-01-19T23:28:00.000Z	clrg	paulus68	When invoking the script, add ">/dev/null 2>&1" to the end of the command.
+2010-01-19T23:30:00.000Z	paulus68	clrg	is this line comming between line 18 and 19? or am I wrong?
+2010-01-19T23:32:00.000Z	paulus68	clrg	is this line comming between line 18 and 19? or am I wrong?

@@ -1,0 +1,4 @@
+2009-07-06T04:40:00.000Z	Heller_Barde		what do i have to be careful about to reinstall grub? should grub-install /dev/sda do the trick ( no i don't care about data-loss, everything is safely backupped )
+2009-07-06T04:41:00.000Z	tiyowan	Heller_Barde	To install it in the correct location.
+2009-07-06T04:41:00.000Z	Heller_Barde	tiyowan	what can i do wrong as long as i get the right drive
+2009-07-06T04:42:00.000Z	tiyowan	Heller_Barde	Besides from installing it in a partition's boot record instead of the MBR, not much.

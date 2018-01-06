@@ -1,0 +1,4 @@
+2008-07-21T08:49:00.000Z	Blonde_Ambition		ok so why then does my Realtek 8185 show up when i lspci scan, but i cant get it to notice it as a network interface after i load the drivers with ndiswrapper
+2008-07-21T08:49:00.000Z	kmyst	Blonde_Ambition	is that the realtek that's wireless but usb based even though it's internal?
+2008-07-21T08:50:00.000Z	kmyst	Blonde_Ambition	ah...well i ran into one of those, forget the model, but lspci would show it and it wound up working with a win98 only driver
+2008-07-21T08:51:00.000Z	kmyst	Blonde_Ambition	yep, had to use the 32 bit driver and os

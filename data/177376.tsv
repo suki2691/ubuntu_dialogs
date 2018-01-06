@@ -1,0 +1,4 @@
+2012-07-12T02:00:00.000Z	jd2		i am having an issue with my hostname i have to use .local appended to the hostname or use the IP address how can I use just the host name is this an ubuntu issue or router problem? i type hostname and it feeds me back my hostname without the .local extension i don't know why i have to add this thanks
+2012-07-12T02:02:00.000Z	tgm	jd2	domainname
+2012-07-12T02:03:00.000Z	tgm	jd2	 see man hostname
+2012-07-12T02:05:00.000Z	tgm	jd2	But some routers will automatically resolve local IP addresses to respective domain names, some also provide the option to set a static IP and domain name of your choice to any of your PCs, (which is a pretty cool feature that not all routers have) ( yours may very well have it.).

@@ -1,0 +1,4 @@
+2012-04-27T12:36:00.000Z	veleno		hello. how do I modify /etc/sudoers on a batch of 60 machines without logging into each one and 'sudo visudo'ing for all of them ?
+2012-04-27T12:37:00.000Z	ikonia	veleno	get a known working sudoers file and just copy it into place on the other machines
+2012-04-27T12:38:00.000Z	veleno	ikonia	i tried that, but i got a permission denied, despite the user doing it is a sudoer
+2012-04-27T12:38:00.000Z	ikonia	veleno	then that user doesn't have permissions

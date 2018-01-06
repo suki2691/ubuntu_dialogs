@@ -1,0 +1,4 @@
+2005-12-24T11:27:00.000Z	_peter_		hello, peter here.  has anyone had an issue with compiling source code after a fresh install? I am getting this error when i run any configure:
+2005-12-24T11:27:00.000Z	_peter_		checking for C compiler default output file name... configure: error: C compiler cannot create executables
+2005-12-24T11:27:00.000Z	tritium	_peter_	sudo apt-get install build-essential
+2005-12-24T11:29:00.000Z	tritium	_peter_	not at all, it's just that the decision was made to not include standard build tools by default

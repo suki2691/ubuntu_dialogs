@@ -1,0 +1,4 @@
+2007-08-29T13:02:00.000Z	Calix		sudo: /etc/sudoers is mode 0640, should be 0440 how do i fix this? undoing what i did to get it like that doesnt seem to be working :(
+2007-08-29T13:04:00.000Z	Calix		i believe, not totally sure for xfce
+2007-08-29T13:06:00.000Z	Calix		how do i fix this error? sudo: /etc/sudoers is mode 0640, should be 0440
+2007-08-29T13:08:00.000Z	troubled	Calix	chmod 440 /etc/sudoers

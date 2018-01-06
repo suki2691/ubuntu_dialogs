@@ -1,0 +1,4 @@
+2010-02-05T15:48:00.000Z	turddumpling		The upgrade needs a total of 15.7M free space on disk '/boot'. Please free at least an additional 3,077k of disk space on '/boot'. Empty your trash and remove temporary packages of former installations using 'sudo apt-get clean'. I've emptied my trash, preformed that command and have more than 6 GB of free space in my filesystem and it still isnt working.
+2010-02-05T15:48:00.000Z	Myrtti	turddumpling	have you removed the old versions of the kernel?
+2010-02-05T15:49:00.000Z	turddumpling	Myrtti	how do you do that?
+2010-02-05T15:51:00.000Z	Myrtti	turddumpling	first check which kernel version you are using now in terminal with uname -r, then open up synaptic, and uninstall linux-image-<number> that do *not* match the output of the first command

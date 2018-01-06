@@ -1,0 +1,4 @@
+2008-11-07T19:59:00.000Z	_seraphim_	juannicolas	the ouner of /var should be user: root group: root
+2008-11-07T20:02:00.000Z	juannicolas	_seraphim_	I changed it to rrot:root But I more corncern about the folders inside
+2008-11-07T20:04:00.000Z	_seraphim_	juannicolas	if you changed the ouner only for root there is no problem.. you can fix that ..for other .. user root has access to everything but changing the owner to something else might give others access also
+2008-11-07T20:08:00.000Z	juannicolas	_seraphim_	thx for the imput, for now I only needed to change /lib/php5 and php4 owner for the apache2 owner/group

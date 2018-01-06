@@ -1,0 +1,4 @@
+2008-11-14T03:22:00.000Z	gavagai		Gnome Terminal seems to do something nonstandard.  when i am ssh'ed into another server and then suspend my laptop, when i bring it back online the terminal window is just frozen.  it doesn't realize that it has lost the connection.  in other terminals it has always noticed that the connection is lost.  how can i change this behavior?  it is annoying to have to close the terminal and start another
+2008-11-14T03:23:00.000Z	oskar-	gavagai	press "~" and then "."
+2008-11-14T03:24:00.000Z	gavagai	oskar-	thanks.  i just tried that.  it didn't do anything.
+2008-11-14T03:25:00.000Z	oskar-	gavagai	it should tell the ssh client to terminate the connection

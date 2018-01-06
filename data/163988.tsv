@@ -1,0 +1,4 @@
+2007-09-03T15:05:00.000Z	MrMist		Hi guys
+2007-09-03T15:06:00.000Z	MrMist		I'm trying to compile a source package from the ubuntu repositories... is there a command that builds the source AND installs it ?
+2007-09-03T15:07:00.000Z	MrMist		Right now I'm doing: "apt-get source qmail-src --compile" and it seems the process makes a .deb file
+2007-09-03T15:07:00.000Z	bulmer	MrMist	look on its Makefile

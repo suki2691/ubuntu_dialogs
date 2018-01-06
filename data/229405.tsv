@@ -1,0 +1,4 @@
+2006-06-16T12:11:00.000Z	DarkRaven		i got a problem, i got the new kernel via autoupdate but now x is unable to start, saiyng that "cannot load kernel module nvidia" , i used module-assistant but the situation is the same... help me plz
+2006-06-16T12:12:00.000Z	DarkRaven		how to check if a module is effectively running under the kernel?
+2006-06-16T12:12:00.000Z	Spec	DarkRaven	lsmod
+2006-06-16T12:12:00.000Z	Spec	DarkRaven	and then check the output of "dmesg"

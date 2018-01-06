@@ -1,0 +1,4 @@
+2010-08-04T02:39:00.000Z	nomike		I have 2 computers which have the same level of hardware (CPU speed, RAM size, etc.) but different models of hardware (mainboard chipset, HDD size, etc.). One machine is set up with Ubuntu 10.04 and is well configured to our needs. The second one should be equally configured. Is it a good idea to boot up the second machine with an USB drive and rsync the whole filesystem of the first computer to the second one?
+2010-08-04T02:39:00.000Z	nomike		I was thinking of modifying the UUID's in fstab, changing the hostname, regenerating the ssh-host-keys and that's it. Anything else I need to be aware of or just "BAD IDEA"?
+2010-08-04T02:40:00.000Z	aeon-ltd	nomike	do you really have that many configs and setups that a fresh install will be that much of a problem?
+2010-08-04T02:41:00.000Z	nomike	aeon-ltd	^peanut^: well its a relatively complex setup with kerberos and some PAM modules where users home directories lie on an openAFS share

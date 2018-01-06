@@ -1,0 +1,4 @@
+2005-04-07T10:48:00.000Z	pe7er		hm. this is strange: "python-qt3: Depends: python2.4-qt3 but it is not going to be installed" ==> depends python2.4-sip4-qt3 >= 4.01, python2.4-sip4-qt3 < 4.2. available in hoary is 4.2.1-ubuntu2. there is a logic but it is broken. any ideas? should i submit this somewhere? (where?) and there still is python2.4-sip-qt3, can i force usage of that package by pthon-qt3 somehow?
+2005-04-07T10:50:00.000Z	Seveas	pe7er	are you trying to install/upgrade or dist-upgrade?
+2005-04-07T10:50:00.000Z	pe7er	Seveas	plain install haven't had it installed before
+2005-04-07T10:57:00.000Z	pe7er	Seveas	no idea about python-qt3? do you have any clue where i could go with it? (sorry for bad grammar, am not a native speaker)

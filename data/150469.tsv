@@ -1,0 +1,4 @@
+2007-09-11T10:38:00.000Z	minerale		how do I make GDM automatically login when I turn computer on?
+2007-09-11T07:41:00.000Z	minerale		I need for this one program to run automatically when ubuntu boots up: vmware-user
+2007-09-11T07:41:00.000Z	minerale		what's the easiest way to have it run?
+2007-09-11T07:43:00.000Z	Pici	minerale	To add/remove startup services, you can use the package 'bum', or update-rc.d - To add your own startup scripts, use /etc/rc.local

@@ -1,0 +1,4 @@
+2012-07-03T21:02:00.000Z	glitsj16	tx_pelli	looks like you can try a force option in your hfsplus mount command https://bugs.launchpad.net/ubuntu/+source/linux/+bug/49052/comments/9 ..
+2012-07-03T21:12:00.000Z	tx_pelli	glitsj16	thanks but that didn't work. I still get "error while copying to "diskname". destination is read only"
+2012-07-03T21:17:00.000Z	glitsj16	tx_pelli	i have no personal experience with hfsplus, but the bug report also has a link to source code from the developer that is recent (#36) .. seems like your only option i'm afraid
+2012-07-03T22:40:00.000Z	glitsj16	tx_pelli	i guess for a similar reason why if you type 'bank put some more money in my account' it won't happen .. file permissions and filesystem support are separate worlds

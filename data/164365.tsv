@@ -1,0 +1,4 @@
+2008-03-20T05:32:00.000Z	velius		hello, i have recompiled my kernel several times. I cant get my ethernet card to work. even though i chose the right drivers.
+2008-03-20T05:33:00.000Z	velius		should i compile ethernet driver as a module or built in?
+2008-03-20T05:33:00.000Z	Fryguy--	velius	you almost certainly don't need to be compiling an ethernet driver
+2008-03-20T05:33:00.000Z	Fryguy--	velius	well, since you pretty much use ethernet 100% of the time the machine is on, it should be compiled in

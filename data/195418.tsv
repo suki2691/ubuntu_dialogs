@@ -1,0 +1,4 @@
+2007-01-24T11:31:00.000Z	ydnar		Can somebody tell me why Edgy recognizes my IPW2200BG as eth1 instead of wlan0? It makes it difficult for me to connect to wireless networks.
+2007-01-24T11:32:00.000Z	kitche	ydnar	becuase that's what linux devices are called think wlan0 is only used by ndiswrapper
+2007-01-24T11:32:00.000Z	ydnar	kitche	is there a way for me to fix this?
+2007-01-24T11:32:00.000Z	kitche	ydnar	you can make a udev rule to have it be named wlan0

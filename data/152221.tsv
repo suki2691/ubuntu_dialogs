@@ -1,0 +1,4 @@
+2011-05-19T13:29:00.000Z	Gump		can anyone help me determine what architecture my hardware is from outside of linux? i thought it was i386 but debian install says it is amd64
+2011-05-19T13:29:00.000Z	Gump		#windows and #linux are dead. you guys are my last hope D:
+2011-05-19T13:29:00.000Z	xtknight	Gump	you can do the command llutz said,  grep " lm " /proc/cpuinfo
+2011-05-19T13:42:00.000Z	xtknight	Gump	with linux 64bit is really a flawless transition for the most part unless we're talking about some extremely bizarre legacy app, even these are usually ok with a little tweaking. i think most of the world should have to do absolutely nothing to get amd64 working perfectly

@@ -1,0 +1,4 @@
+2007-02-02T17:42:00.000Z	anon_		dear lovely people: a question
+2007-02-02T17:43:00.000Z	anon_		what's the best way to force xorg to use a USB mouse and ignore my built-in laptop touchpad?
+2007-02-02T17:43:00.000Z	variant	anon_	you can edit xorg.conf to specify your exact mouse that you want to use instead of /dev/input/mice
+2007-02-02T17:44:00.000Z	variant	anon_	you would set /dev/input/mouse0 or soemthing instead. also take out the touchpad driver lines

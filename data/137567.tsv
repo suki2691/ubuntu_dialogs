@@ -1,0 +1,4 @@
+2008-11-09T19:05:00.000Z	nwarrenfl		hi
+2008-11-09T19:05:00.000Z	nwarrenfl		i am on ubuntu intrepid livecd with a nvidia geforce 9800GT and my screen res is 800x600 and i can't set it higher, what can i do?
+2008-11-09T19:06:00.000Z	jvm_	nwarrenfl	changes are pretty high this is caused by wrong modelines, if your monitor is connected via vga.
+2008-11-09T19:07:00.000Z	jvm_	nwarrenfl	try to search a modelines for your monitor via google (by typing in 'modeline <monitor>' and add them to the xorg.conf; after restarting the xserver you might have the possibility to choose other resolutions.

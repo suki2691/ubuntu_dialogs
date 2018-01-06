@@ -1,0 +1,4 @@
+2006-08-13T05:41:00.000Z	tuv		ok.. let me start again. the latest kernel that can boot my system is 2.6.15-23. recent kernels won't boot. they stop after "scsi subsystem initialized". my root filesystem is on sata disk. is there a known problem with recent kernels and sata?
+2006-08-13T05:43:00.000Z	mwe	tuv	I've heard quite a few people having problems with the -26 kernel
+2006-08-13T06:01:00.000Z	mwe	tuv	/var/log/dmesg I think
+2006-08-13T06:03:00.000Z	tuv	mwe	i want to see only messages produced at boot time

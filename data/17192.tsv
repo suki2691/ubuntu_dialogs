@@ -1,0 +1,4 @@
+2011-05-31T06:05:00.000Z	meow27		problem, i did a 'mount -t tmpfs none /var/tmp' and my system is gonna get screwed if i reboot
+2011-05-31T06:05:00.000Z	meow27		how do i copy the contents back to the main drive?
+2011-05-31T06:06:00.000Z	Polah	meow27	In Nautilus, select it all, copy it and then paste it or drag/drop it onto another Nautilus window on the other drive. Alternately do cp <source file> <destination>
+2011-05-31T06:12:00.000Z	Polah	meow27	just cp -Rp should preserve ownership and permissions and whatnot

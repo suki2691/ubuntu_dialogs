@@ -1,0 +1,4 @@
+2007-11-04T20:41:00.000Z	Alp-		question to bash-scripting: how can i make an echo that writes its output to the screen AND to a logfile?
+2007-11-04T20:42:00.000Z	bob__	Alp-	OUT=`echo hello" ; echo $OUT ; echo $OUT >> logfile
+2007-11-04T20:43:00.000Z	Alp-	bob__	good idea, thanks
+2007-11-04T20:47:00.000Z	Alp-	bob__	but there is a problem. if for example svn add * produces output.. can i use this? OUT = "svn add *"; echo $OUT; echo $OUT >> logfile

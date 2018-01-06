@@ -1,0 +1,4 @@
+2006-10-23T15:23:00.000Z	stephans		I can't get ubuntu to recognize the proper 1920X rezolution of my monitor
+2006-10-23T15:24:00.000Z	stephans		How can you force a resolution?
+2006-10-23T15:25:00.000Z	stephans		Is there anyone who knows how to force a resolution in ubuntu?
+2006-10-23T15:26:00.000Z	chuckyp	stephans	you can dpkg-reconfigure xserver-xorg or edit the /etc/X11/xorg.conf and add the resolutions you want.

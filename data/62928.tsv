@@ -1,0 +1,4 @@
+2009-03-22T17:50:00.000Z	bin1010		last ntfs question.  I am doing a lot of movie manipulations with huge files 1-19GB....would NTFS be suited for this type of work or would it be a bad idea.  Right now I have a disk that is formated ext3...ntfs would be nice if I needed to move it to Windows which is true only if ubuntu wont boot.....but if changing to NTFS would cause problems in dealing with and serving movie files, I will leave it as is.
+2009-03-22T17:50:00.000Z	halfie	bin1010	use ext3 .. and then on windows use ext2fsd utility ...
+2009-03-22T17:52:00.000Z	halfie	bin1010	same answer :)
+2009-03-22T17:53:00.000Z	halfie	bin1010	movies -> large data. ntfs-3g is slow (fuse). so if you do most of the work on linux, using ext3 makes sense

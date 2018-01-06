@@ -1,0 +1,4 @@
+2010-10-22T23:11:00.000Z	Araneidae		Anybody know anything about NetworkManager overwriting resolv.conf?  It's happening to me on every reboot :(
+2010-10-22T23:12:00.000Z	Araneidae		I'd rather fix the problem.  Going to trying uninstalling network-manager altogether
+2010-10-22T23:13:00.000Z	Dulak	Araneidae	System->Preferences->Network Connections, edit your connection, on the ipv4 settings change it from DHCP to DHCP (addresses only)
+2010-10-22T23:14:00.000Z	Dulak	Araneidae	That will stop it from using dhcp dns info to overwrite resolv.conf

@@ -1,0 +1,4 @@
+2009-08-19T00:54:00.000Z	lanzelloth	guntbert	ic
+2009-08-20T02:13:00.000Z	guntbert	lanzelloth	are you asking what that command does?
+2009-08-20T02:14:00.000Z	lanzelloth	guntbert	sort of, it gives multiline output on terminal but on conky it gives your ip address
+2009-08-20T02:23:00.000Z	guntbert	lanzelloth	try wget -O - http://ip.tupeux.com | less, you will see thats the only line going to stdout, the rest goes to stderr and hence not through the "pipe"

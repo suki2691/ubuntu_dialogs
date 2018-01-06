@@ -1,0 +1,4 @@
+2008-12-10T04:31:00.000Z	almark		Is there anyway to keep ubuntu from overwriting my gentoo grub  loader? That is what this is all about, I don't want it to overwrite my Gentoo grub MBR.
+2008-12-10T04:33:00.000Z	onetinsoldier	almark	you could just edit the menu.lst file in your gentoo system
+2008-12-10T04:36:00.000Z	onetinsoldier	almark	it's ok that the tow are different. i did this same type of thing recently. have a linux on one drive, went and purchased another drive and installed linux on it. i did not want the grub that was already installed in my mbr to be overwritten. so i just edited my menu.lst file to add the new linux installation
+2008-12-10T04:39:00.000Z	onetinsoldier	almark	i can't give you the exact lines you will need to edit into your current gentoo menu.lst. i could perhaps give you examples from mine own menu.lst to give you and idea tho

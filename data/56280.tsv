@@ -1,0 +1,4 @@
+2009-06-03T06:57:00.000Z	maek		where has /etc/iftab gone in 9.04 please?
+2009-06-03T06:57:00.000Z	Kalmi_	maek	what is iftab for?
+2009-06-03T06:58:00.000Z	maek	Kalmi_	I just cloned an ubuntu vm and eth0 isnt showing up, I assume its tied to the old mac somewhere and /etc/iftab used to list the device and its mac address
+2009-06-03T07:00:00.000Z	maek	Kalmi_	fyi, its being held by /etc/udev/rules.d/*net.rules

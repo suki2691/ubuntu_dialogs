@@ -1,0 +1,4 @@
+2008-08-05T11:52:00.000Z	maek0		um why is update manager offering me an update for an Intel graphics card when I have a NVIDIA card ??
+2008-08-05T11:53:00.000Z	wols	maek0	xserver-xorg-video-* are all part of X
+2008-08-05T11:53:00.000Z	wols	maek0	you have drivers for S3 cards, Via cards, even 3dfx, all installed
+2008-08-05T11:55:00.000Z	wols	maek0	it won't. dpkg -l | grep xserver-xorg-video   see what you have installed

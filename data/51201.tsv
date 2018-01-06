@@ -1,0 +1,4 @@
+2011-08-11T03:54:00.000Z	spacefish		how do i build a ubuntu package locally?
+2011-08-11T03:54:00.000Z	spacefish		it always complains about not existing signing key if i just use debuild
+2011-08-11T03:55:00.000Z	spacefish		but i don´t want to sign it
+2011-08-11T03:55:00.000Z	trism	spacefish	debuild -uc -us -b

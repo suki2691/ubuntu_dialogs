@@ -1,0 +1,4 @@
+2007-10-27T06:34:00.000Z	reya276		quick question, looking at my mail.info log I get this warning "postfix/smtpd[29416]: warning: database /etc/postfix/vmaps.db is older than source file /etc/postfix/vmaps". How can I fix this?
+2007-10-27T06:35:00.000Z	cafuego	reya276	postmap hash:/etc/postfix/vmap
+2007-10-27T06:37:00.000Z	reya276	cafuego	postmap: fatal: open /etc/postfix/vmap: No such file or directory
+2007-10-27T06:37:00.000Z	cafuego	reya276	postmap hash:/etc/postfix/vmaps

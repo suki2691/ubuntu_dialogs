@@ -1,0 +1,4 @@
+2012-01-04T07:32:00.000Z	bigtom21485		I'm encoding mp3's with rhythmbox.  in editing my "mp3" profile, what do i change?  it encoded at 48kbps, i want 128kbps
+2012-01-04T07:33:00.000Z	bigtom21485		gstreamer pipeline: audio/x-raw-int,rate=44100,channels=2 ! lamemp3enc name=enc target=0 quality=6 ! xingmux ! id3v2mux
+2012-01-04T07:34:00.000Z	bigtom21485		matt040804: that would be cool to change that :-)
+2012-01-04T07:35:00.000Z	Matt040804	bigtom21485	so...is that a "no"

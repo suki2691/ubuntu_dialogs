@@ -1,0 +1,4 @@
+2009-01-20T21:36:00.000Z	cdavis		can someone tell me how to rename a lot of directories that contain colons and replace with underscores?
+2009-01-20T21:36:00.000Z	Dr_willis	cdavis	 or a bash script
+2009-01-20T21:37:00.000Z	Dr_willis	cdavis	 get       sudo apt-get install renameutils     and use  the 'qmv' command.
+2009-01-20T21:38:00.000Z	Dr_willis	cdavis	 watch out for files with spaces in the names also.. that can mess things up

@@ -1,0 +1,4 @@
+2009-08-11T07:35:00.000Z	Qu4R0w		how to connect to wireless using command line in terminal?
+2009-08-11T07:36:00.000Z	maco	Qu4R0w	first stop network manager ("sudo service NetworkManager stop") then "sudo iwconfig <interface> essid 'linksys'" replacing linksys with your AP and <interface> with whatever "iwconfig" says is your wireless interface
+2009-08-11T07:36:00.000Z	maco	Qu4R0w	if you need wep, iwconfig's manpage will explain. if you need wpa, i can explain that one
+2009-08-11T07:36:00.000Z	Qu4R0w	maco	tq..really tq

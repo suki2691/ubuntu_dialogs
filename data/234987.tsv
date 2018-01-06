@@ -1,0 +1,4 @@
+2011-05-30T01:04:00.000Z	kingsley		Why would a web browser be able to visit a web site, but not the web site's IP address?
+2011-05-30T01:05:00.000Z	kingsley		Pointing the web browser at the IP address returns "There is no webpage configured at the URL you are trying to reach".
+2011-05-30T01:06:00.000Z	CarlFK	kingsley	server gets the host name and can act on that.  lets you have many sites on the same IP
+2011-05-30T01:11:00.000Z	CarlFK	kingsley	sounds like apache vhosts need a host name.   so exactly what you describe.

@@ -1,0 +1,4 @@
+2010-12-28T22:58:00.000Z	Vic10		What happened to root in Ubuntu 10+? Why does it now ask for the user password vs. the root password when performing tasks?
+2010-12-28T22:59:00.000Z	Pici	Vic10	Thats nothing new.
+2010-12-28T23:00:00.000Z	Pici	Vic10	Ubuntu's install has never asked you for a root password, only for a password for your first user.
+2010-12-28T23:09:00.000Z	Pici	Vic10	By default its only users who are in the 'admin' group, which your first user is.  You can tweak it by modifying your sudoers file or adding people to that group.

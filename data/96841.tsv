@@ -1,0 +1,4 @@
+2008-11-03T03:26:00.000Z	bobbycheetah		dell latitude d600 with intel proset wireless 8200bg.  was using ubuntu 8.04  wireless was working fine on Sat. then on Sun it is not connecting and trying to pull down bogus ip.  tried reinstall of 8.04, (in case i inadvertantly did something)  no help.  just now installed 8.10 and have updated.  still no good.
+2008-11-03T03:27:00.000Z	echinos	bobbycheetah	if you iwconfig, do you see the card, or "no wireless extensions" for all interfaces?
+2008-11-03T03:28:00.000Z	echinos	bobbycheetah	I had same problem, module was complaining about firmware (check dmesg). Installed linux-firmware, reboot (or reload wireless module(s)), fixed for me
+2008-11-03T03:29:00.000Z	echinos	bobbycheetah	doesn't sound like what I had

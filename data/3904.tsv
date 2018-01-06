@@ -1,0 +1,4 @@
+2012-04-20T09:23:00.000Z	superlinux-hp		hi. my network wireless card on my laptop times out the connection after a long uptime. if i reboot everything goes back to normal. what should I do in this regard?
+2012-04-20T09:24:00.000Z	onoez_omg	superlinux-hp	could u please show ur `dmesg` ?
+2012-04-20T09:27:00.000Z	superlinux-hp	onoez_omg	http://pastebin.com/JidTZpve
+2012-04-20T09:30:00.000Z	onoez_omg	superlinux-hp	please, try to save one after the problem appears, also u could probably try to make `rmmod iwlwifi` and `modprobe iwlwifi` after that, it will make things more clear

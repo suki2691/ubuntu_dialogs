@@ -1,0 +1,4 @@
+2012-06-18T17:38:00.000Z	betinho		anyone can help me to configure fstab to alllow a non superuser to mount a USB?
+2012-06-18T17:39:00.000Z	norbert79	betinho	Normally that should come out of box, but you are looking forward probably to the setting "users" in the settings column
+2012-06-18T17:41:00.000Z	betinho	norbert79	i've inserted the line to the /etc/fstab: /dev/sdb1 /media/pendrive /dev/sdb1 /media/pendrive auto rw,noauto,user 0 0 but did not work
+2012-06-18T17:42:00.000Z	norbert79	betinho	Fstab lists the mounts you can mount with the mount /dev/sdb1... It will work. The question is more, that why does automount not work? It should work out-of-the-box

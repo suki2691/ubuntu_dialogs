@@ -1,0 +1,4 @@
+2008-12-16T21:07:00.000Z	py_		hello
+2008-12-16T21:09:00.000Z	py_		I've a feisty box installed, which hasn't been update for a while. Now when I try "apt-get update" it fails with several 404. Looking at the repositories, it looks like there is no "feisty" directory anymore (eg look there: http://be.archive.ubuntu.com/ubuntu/dists/). What am I supposed to do to be able to install stuff on the box?
+2008-12-16T21:11:00.000Z	hwilde	py_	change be.archive.ubuntu.com to  old-releases.ubuntu.com
+2008-12-16T21:14:00.000Z	py_	hwilde	thanks, exactly what I was looking for

@@ -1,0 +1,4 @@
+2009-08-21T19:22:00.000Z	ryanakca		What's wrong with this command? for i in `/bin/grep -rin "'/'.\$html->webroot" * | cut -d':' -f 1 | uniq`; do sed -e "s@'/'.@@g' $i; done
+2009-08-21T19:23:00.000Z	ryanakca		(I'm trying to get rid of all "'/'." in front of "$html->webroot"
+2009-08-21T19:23:00.000Z	ziroday	ryanakca	#bash might be more fruitful
+2009-08-21T19:23:00.000Z	ryanakca	ziroday	I don't use #bash ;)

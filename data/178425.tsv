@@ -1,0 +1,4 @@
+2007-11-26T02:36:00.000Z	Jvalldom		asuvin: i do speak english. sorry i have the spanish channel open either
+2007-11-26T02:37:00.000Z	Jvalldom		sure
+2007-11-26T02:39:00.000Z	Jvalldom		i have installed ubuntu 7.10. Everything went find except the integrated webcam that was not and still is recognized. So i read on the web about gspca, did instalation, but still have problem with /dev/video0. seems that it is not created
+2007-11-26T02:40:00.000Z	Rudd-O	Jvalldom	if /dev/video0 is not created automatically, then thev ideo card driver does not support the card.  test using dmesg to see if when you plug the card, the deriver picks it up

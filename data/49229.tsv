@@ -1,0 +1,4 @@
+2009-09-04T07:11:00.000Z	_ala		apt-get install build-essential, it says it has been the latest version, but compiling c++ program, it outputs some include header files can not find
+2009-09-04T07:13:00.000Z	kahen	_ala	build-essentials is just that. essentials. more esoteric c++ libraries are not included
+2009-09-04T07:17:00.000Z	_ala	kahen	but how to install  esoteric c++ libraries, it is related to the iostream header file, it can find iostream, but some file included in the iostream can not be found, such as bits/xxx.h
+2009-09-04T07:18:00.000Z	kahen	_ala	sounds like you're missing some other library to me. read the README and other documentation that came with the source to see what libraries you need

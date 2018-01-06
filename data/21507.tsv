@@ -1,0 +1,4 @@
+2011-01-03T01:11:00.000Z	em		hi folks, I've been trying to build and install the racket source code on my Linux machine (ubuntu 10.10). I created a directory called 'build' in racket-5.0.2/src/ and ran a successful configure --prefix=/usr/local/racket --enable-shared and a successful make. But when I do sudo checkinstall it is failing with an error that says mkdir cannot create paths like /usr/local/racket/lib  etc..
+2011-01-03T01:12:00.000Z	gobbe	em	sudo -s, and then run it again
+2011-01-03T01:12:00.000Z	em	gobbe	okay i'll try but I did use sudo checkinstall.
+2011-01-03T01:13:00.000Z	em	gobbe	same error with that.

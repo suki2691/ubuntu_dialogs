@@ -1,0 +1,4 @@
+2005-08-08T07:00:00.000Z	__fabrice__		hi everybody i'm running ubuntu 2.6.10-5-686-smp kernel and i can't activate DMA on cdrom.I googled but nothing unless recompiling kernel ... does somebody may help me thanks
+2005-08-08T07:00:00.000Z	jowi	__fabrice__	hdparm -d1 /dev/cdrom
+2005-08-08T07:04:00.000Z	jowi	__fabrice__	did you try to umount the cdrom; change /etc/hdparm.conf and add "/dev/cdrom { dma = on }"
+2005-08-08T07:04:00.000Z	jowi	__fabrice__	that will add dma at boottime

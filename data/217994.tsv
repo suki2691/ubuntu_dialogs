@@ -1,0 +1,4 @@
+2008-11-23T20:33:00.000Z	diegorodriguezv		Hello.I have a weird problem. I installed a new hard drive. Connected it at IDE-0. The other drive at IDE-1 has 2 NTFS partitions for windows. When I boot 8.04 LiveCD I can see both /dev/sda and /dev/sdb with the partition editor. I Installed Ubuntu to the first hard drive but when I boot it doesn't seem to recognize /dev/sdb (I can't see it with partition editor). How can I diagnose this?
+2008-11-23T20:34:00.000Z	nibbler	diegorodriguezv	so dows your linux start then?
+2008-11-23T20:35:00.000Z	nibbler	diegorodriguezv	start linux and run fdisk -l
+2008-11-23T20:37:00.000Z	nibbler	diegorodriguezv	strange, could be an non-supported controller

@@ -1,0 +1,4 @@
+2010-01-08T22:15:00.000Z	vaporub		will aptitude detect dependencies that were install with apt-get?
+2010-01-08T22:17:00.000Z	vaporub		better yet... I want to do some upgrades on a web server, but need to *freeze* some packages and their dependencies (ruby, rubyonrails, etc)... will 'aptitude hole ruby' do this for me (even if I installed using 'apt-get install ruby'
+2010-01-08T22:17:00.000Z	vaporub		s/hole/hold
+2010-01-08T22:19:00.000Z	shawn_	vaporub	apt-get and aptitude are both front ends for APT... Its best to stick to one or the other mixing causes a lot of problems

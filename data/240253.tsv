@@ -1,0 +1,4 @@
+2008-04-19T20:45:00.000Z	sirjulio		amendo, no the wireless option is greyed out
+2008-04-19T20:45:00.000Z	nickrud	sirjulio	not gonna claim I can talk you all the way through wireless, but   lspci | grep -i wlan will tell you if the pci card has been recognized by the kernel. The info from that command is useful in setting up wireless, anyway
+2008-04-19T20:47:00.000Z	nickrud	sirjulio	you need to read up on mad-wifi , I have never set up atheros. And I've heard about some error about recognizing the card. See the next factoid
+2008-04-19T20:47:00.000Z	nickrud	sirjulio	sadly, that my not be the best info anymore, not sure if its been updated. Also try searching on ubuntuforums.org and comparing info

@@ -1,0 +1,4 @@
+2010-04-28T14:55:00.000Z	ubuntu-usr		hi all
+2010-04-28T14:56:00.000Z	ubuntu-usr		i have olways give password when my ubuntu is shutdown. i wan't do it. what i should do?
+2010-04-28T14:57:00.000Z	ubuntu-usr		sorry olways=always
+2010-04-28T14:58:00.000Z	red2kic	ubuntu-usr	You want "sudo visudo" -- You're looking to append /sbin/halt and /sbin/shutdown to your username.

@@ -1,0 +1,4 @@
+2007-12-16T03:17:00.000Z	greenpenguin		hi, my friend is trying to install ubuntu on an old pc, but ubuntu doesn't pick up any harddrives (no /dev/hd* or /dev/sd*), can anyone help?
+2007-12-16T03:18:00.000Z	barrett9h	greenpenguin	nothing on `cat /proc/partitions`?
+2007-12-16T03:25:00.000Z	barrett9h	greenpenguin	that's really bad.  /proc/partitions should exist.  is /proc mounted at all?
+2007-12-16T03:35:00.000Z	greenpenguin	barrett9h	yeah /proc exists, and lspci is on there after all, the friend was being stupid :)

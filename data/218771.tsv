@@ -1,0 +1,4 @@
+2012-06-25T19:21:00.000Z	xreal		I hate this ... "Can't find the Boost unit test libraryIs it bad, if LD_LIBRARY_PATH starts with a : ?; install libboost-test-dev." ... but it's installed...
+2012-06-25T19:21:00.000Z	xreal		sorry, messed up post.
+2012-06-25T19:21:00.000Z	xreal		Is it bad, if LD_LIBRARY_PATH starts with a : ?
+2012-06-25T19:23:00.000Z	sipior	xreal	setting LD_LIBRARY_PATH is considered poor practise in general. you might have a go unsetting the variable and see if that improves the situation.

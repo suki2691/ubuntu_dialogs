@@ -1,0 +1,4 @@
+2007-03-23T06:55:00.000Z	cwmajors		I have an Athlon 64 3500+ with dual nvidia 6600 video cards in sli mode. The Feisty Herd 5 disk will get me to a terminal prompt. How do I start gnome from there?
+2007-03-23T06:56:00.000Z	jetscreamer	cwmajors	startx maybe
+2007-03-23T07:02:00.000Z	jetscreamer	cwmajors	try /etc/init.d/gdm stop or something like that
+2007-03-23T07:10:00.000Z	jetscreamer	cwmajors	grep EE /var/log/X*.0.log

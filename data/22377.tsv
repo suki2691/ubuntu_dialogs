@@ -1,0 +1,4 @@
+2010-11-25T16:54:00.000Z	stix_		Hi guys. I am trying to troubleshoot a vpn-connection. Which log-file is written when the message about about vpn fails is shown?
+2010-11-25T16:54:00.000Z	lmontrie	stix_	/var/log/daemon if it's an openvpn connection
+2010-11-25T16:55:00.000Z	stix_	lmontrie	I have installed the vpnc plugin for the network manager
+2010-11-25T16:56:00.000Z	lmontrie	stix_	then it's not openvpn, but the logs might be in the same place, just have a look :)

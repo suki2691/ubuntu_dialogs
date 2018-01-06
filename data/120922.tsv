@@ -1,0 +1,4 @@
+2007-10-02T11:47:00.000Z	maestrojed		I am running apache2 on my unbuntu fiesty box.  I don't believe apache is reading my .htaccess files.  I am not sure how to fix this.  I have asked in #apache but had no success, I was hoping someone in here might know the answer.
+2007-10-02T11:49:00.000Z	drgath	maestrojed	look into how debian uses apache sites.  google "a2ensite".  /etc/apache2/sites-available/default is the default profile, and that has script-override off
+2007-10-02T11:50:00.000Z	maestrojed	drgath	ty
+2007-10-02T11:51:00.000Z	drgath	maestrojed	no problem, that issue drove me crazy for literally weeks.  I had no idea the configuration was in sites-available.

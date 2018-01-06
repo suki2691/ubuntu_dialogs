@@ -1,0 +1,4 @@
+2005-07-08T07:54:00.000Z	penguin42	HappyFool	Yeh but I can't see why GAIM would use that?!
+2005-07-08T08:30:00.000Z	HappyFool	penguin42	is it not maybe /dev/lp0 ?
+2005-07-08T08:31:00.000Z	penguin42	HappyFool	Well I don't seem to have that either, but lp is built on parport as I understand it - and the raw devices (/.dev) has a /dev/parport0 that references major device 99 and thats what AlexB0's scanner docs would have wanted - but I can't get one of those to exist in /dev
+2005-07-08T08:31:00.000Z	penguin42	HappyFool	But I guess until I can get it to show /proc/devices I won't get udev to see it

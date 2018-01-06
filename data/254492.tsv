@@ -1,0 +1,4 @@
+2006-03-16T10:38:00.000Z	bjornkri		hey hey
+2006-03-16T10:40:00.000Z	bjornkri		I've got some questions about crontab... does 'root' have a special crontab file somewhere? I want to run, say, updatedb every once in a while but I'm not sure how to add it...
+2006-03-16T10:40:00.000Z	mgedmin	bjornkri	look at /etc/cron.d
+2006-03-16T10:41:00.000Z	mgedmin	bjornkri	updatedb runs automatically every night without any special configuration

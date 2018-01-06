@@ -1,0 +1,4 @@
+2008-03-09T17:04:00.000Z	gaE4		where can i find a list of all installed applications? if i go Applications -> Add/Remove... there isnt everything
+2008-03-09T17:05:00.000Z	DRebellion	gaE4	apt-cache pkgnames
+2008-03-09T16:42:00.000Z	DRebellion	gaE4	normal removal will keep configs and other such files in case you reinstall later
+2008-03-09T17:48:00.000Z	DRebellion	gaE4	rm -r folder/*

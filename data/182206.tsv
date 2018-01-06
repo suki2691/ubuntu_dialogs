@@ -1,0 +1,4 @@
+2008-12-14T17:30:00.000Z	perlmonkey		﻿I'm having a curious problem with apache2 (running under Ubuntu 8.04).. for some reason apache stops logging and log files are overwritten to zero bytes. My thought on this is that perhaps that apache2 might be crashing and restarting, perhaps as a different user. any suggestions?
+2008-12-14T17:30:00.000Z	RAk	perlmonkey	or logfile size is set to 0 ?
+2008-12-14T17:31:00.000Z	RAk	perlmonkey	or logrotate makes a booboo
+2008-12-14T17:31:00.000Z	RAk	perlmonkey	or no space left on the device

@@ -1,0 +1,4 @@
+2012-11-30T18:35:00.000Z	deffrag		Hi! I'm using IDE/SATA to USB adapter which uses external power supply like - http://www.ebay.com/itm/USB-TO-IDE-SATA-S-SATA-Converter-CABLE-Adaptor-w-POWER-/220764567409? - I've connected 750GB HDD to the adapter but I'm not able to get it working on Ubuntu 12.04. dmesg, lsusb, fdisk -l logs: http://paste.ubuntu.com/1399099/ . How can I fix it please?
+2012-11-30T18:36:00.000Z	llutz_	deffrag	according to your logs, it is detected. sudo mount /dev/sdb1 /mnt
+2012-11-30T18:37:00.000Z	deffrag	llutz	Hi, I can see its detected and I tried that command but it asked for proper filesystem. I ran blkid and then gparted to get proper filesystem but it didn't help
+2012-11-30T18:38:00.000Z	llutz_	deffrag	sudo fsck /dev/sdb1

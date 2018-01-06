@@ -1,0 +1,4 @@
+2012-05-05T22:10:00.000Z	Khmerog		Can i put 2 OS on 1 disc to start up/boot up install, example Ubuntu 12.04 and Xubuntu 12.04.
+2012-05-05T22:12:00.000Z	Khmerog		oppz
+2012-05-05T22:12:00.000Z	Khmerog		did i spam that?
+2012-05-05T22:14:00.000Z	escott	Khmerog	yes and no. the traditional way to do this is to share a home partition. an expiremental method would be to use btrfs subvolumes, the biggest problem is that they will fight over the bootloader and who controls the boot

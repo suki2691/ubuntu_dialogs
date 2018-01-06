@@ -1,0 +1,4 @@
+2011-06-05T14:35:00.000Z	gentoo_drummer		hello everyone.. not familiar with grub 2, can someone tell me how to load ubuntu using grub through the menu.lst?
+2011-06-05T14:36:00.000Z	pfifo	gentoo_drummer	it should be as simple as running 'update-grub' and letting it auto probe
+2011-06-05T14:37:00.000Z	gentoo_drummer	pfifo	i dont want to do tht.. i am using grub on gentoo and using menu.lst
+2011-06-05T14:39:00.000Z	pfifo	gentoo_drummer	edit /boot/grub/grub.cfg

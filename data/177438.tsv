@@ -1,0 +1,4 @@
+2006-06-17T15:22:00.000Z	lindztr		My X server wont start and i get some errors: (WW) NV: No matching Device selection for instance (BUS ID PCI:some numbers) found, then (EE) No device detected, then Fatal server error: no screens found: X10: fatal 10 error 104 (connection reset by peer on X server ":0.0" after request (0 known processed) with 0 events remaning, is there anyway to fix my x server or do i have to reinstall ubuntu?
+2006-06-17T15:22:00.000Z	shirow	lindztr	what graphics card do you have
+2006-06-17T15:22:00.000Z	lindztr	shirow	an nvidia 6600GT
+2006-06-17T15:23:00.000Z	shirow	lindztr	do lspci and check the bus ID of your card

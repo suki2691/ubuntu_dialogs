@@ -1,0 +1,4 @@
+2006-03-08T15:16:00.000Z	eb_		Just installed breezy on on a machine with a 16M voodoo graphics card.  Only resolution I have available is 640x480.  Tried making sense of xorg.conf man page but no luck.
+2006-03-08T15:17:00.000Z	liable	eb_	try setting the bit depth to 16 or 8, read your xorg.log and see what it says about the other resolutions (prolly not enough memory)
+2006-03-08T15:18:00.000Z	eb_	liable	I doubt it's a memory issue, I've had 1024x768 with badger.  Depth is set to 16 and xorg.conf has all modes from 1280 down in each of the colour modes.
+2006-03-08T15:19:00.000Z	liable	eb_	well, you can doubt, and then you can know.. so check the log..

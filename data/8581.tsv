@@ -1,0 +1,4 @@
+2011-10-19T00:21:00.000Z	Shellfishgene		Hi al! I'm trying to configure vsftp so that all virtual users go to the same directory. However, on login I get a message 'cannot change to directory /home/ftp/ftp'. I never configured it to use that directory, I have a different on in the 'local_root' config option. Do I have to set that somewhere else, too?
+2011-10-19T00:22:00.000Z	ActionParsnip	Shellfishgene	could just make a symlink to the folder you want to use from the folder in the error
+2011-10-19T00:22:00.000Z	Shellfishgene	ActionParsnip	hmm, I guess that's a workaround
+2011-10-19T00:35:00.000Z	ActionParsnip	Shellfishgene	sometimes cheats work ;)

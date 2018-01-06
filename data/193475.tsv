@@ -1,0 +1,4 @@
+2007-07-30T16:40:00.000Z	jcooper		Okay, got Ubuntu installed on a dual boot WinXP/Ubuntu setup using the 'noapic' option (hitting F6 at the menu). Now I have it installed, dual boot works, but loading Ubuntu gives me a kernel panic and tells me to load with 'noapic' again. I tried editing the grub menu 'e', including 'noapic' in the command line, but it doesn't save the new command once I go back to the menu 'ESC' and try loading Ubuntu. Always gives me the same APIC kern
+2007-07-30T16:41:00.000Z	fyrestrtr	jcooper	edit /boot/grub/menu.lst and add the option there.
+2007-07-30T16:42:00.000Z	fyrestrtr	jcooper	whatever you have to do in the prompt menu, you can make it permanent by editing the grub menu; so boot into ubuntu and set it from there.
+2007-07-30T16:43:00.000Z	jcooper	fyrestrtr	Problem is, booting into Ubuntu doesn't work. It gives me a kernel panic way before it loads. I'll try it with the LiveCD though.

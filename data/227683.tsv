@@ -1,0 +1,4 @@
+2007-09-07T11:25:00.000Z	benkong2		hey all why can I not stop KDM and all gui stuff by typing init 3 in a console logged in as root?
+2007-09-07T11:26:00.000Z	Jowi	benkong2	because all runlevels start g/k/xdm
+2007-09-07T11:27:00.000Z	Jowi	benkong2	simply remove it in /etc/init.d/rc3.d
+2007-09-07T11:27:00.000Z	Jowi	benkong2	/etc/rc3.d i meant

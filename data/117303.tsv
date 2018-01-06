@@ -1,0 +1,4 @@
+2008-02-18T23:58:00.000Z	lapisdecor		How do I deny shell access to a user in shfs?
+2008-02-18T23:59:00.000Z	geirha	lapisdecor	change the user's shell to /bin/false
+2008-02-19T00:02:00.000Z	geirha	lapisdecor	you can't really ... you can achieve something similar by running the ssh-server in a chroot
+2008-02-19T00:05:00.000Z	geirha	lapisdecor	read about chroot. Wikipedia has a page on it.

@@ -1,0 +1,4 @@
+2008-08-27T03:42:00.000Z	hiptobecubic^		i need network manager to run a startup script with root privileges, can i do this?
+2008-08-27T03:42:00.000Z	qr_	hiptobecubic^	you can call scripts on startup from /etc/rc.local and they will run with root privaleges
+2008-08-27T03:43:00.000Z	hiptobecubic^	qr_	that's not really helpful. It's a script that has to run at network up, not startup. I can make the script run using networkmanager, but i need it to be able to change my routing tables, which it cannot
+2008-08-27T03:45:00.000Z	qr_	hiptobecubic^	ahh, I misunderstood, I thought you meant machine startup.  I generally just have a script I call manually to set up my network/routing tables (not helpful I know).

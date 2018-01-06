@@ -1,0 +1,4 @@
+2011-02-14T13:33:00.000Z	ale_		hi, I have a secondary disk in my PC, and it is not mounted. How can I figure out how to mount it?
+2011-02-14T13:34:00.000Z	moth_woman	ale_	how is it formated?
+2011-02-14T13:36:00.000Z	moth_woman	ale_	use fdisk -l to find out the device name, then sudo mount /dev/sdx -t ext3 /mnt/sdx x being the drive info you got from fdisk -l
+2011-02-14T13:37:00.000Z	moth_woman	ale_	the directory /mnt/sdx must already exist for this to work.

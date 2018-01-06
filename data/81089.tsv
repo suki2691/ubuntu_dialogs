@@ -1,0 +1,4 @@
+2009-02-09T00:00:00.000Z	blip-		hi, i have ssh access to an ubuntu machine with sudo superpowers.   I need to remove admin privs from a user,  I ran "sudo visudo" which opened up a file... but that file doesn't contain that user's name... where is he defined as admin ?
+2009-02-09T00:01:00.000Z	klasikahl	blip-	the user can sudo because they're in the admin (or wheel) group
+2009-02-09T00:01:00.000Z	klasikahl	blip-	sounds like your sudo powers are defined by group
+2009-02-09T00:01:00.000Z	klasikahl	blip-	`man usermod` to see how to remove him from the group

@@ -1,0 +1,4 @@
+2008-08-24T05:08:00.000Z	discombobulated		anyone know a way for ubuntu to auto mount and configure all my drives like it did when i first installed? it won't see them all since i hooked them up after install
+2008-08-24T05:08:00.000Z	qr	discombobulated	you need to add them to /etc/fstab
+2008-08-24T05:09:00.000Z	discombobulated	qr	i tried, no luck. my fstab is all messed up
+2008-08-24T05:10:00.000Z	qr	discombobulated	well then you need to fix it... /etc/fstab is the thing that controlls what drives are mounted on boot.

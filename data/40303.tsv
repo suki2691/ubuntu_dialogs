@@ -1,0 +1,4 @@
+2010-08-23T05:53:00.000Z	ESTALE		try umount -f ?
+2010-08-23T05:54:00.000Z	Maletor	ESTALE	-f gives /:device is busy.
+2010-08-23T05:56:00.000Z	Maletor	ESTALE	anything else I can try?
+2010-08-23T05:57:00.000Z	Maletor	ESTALE	fuser -m /dev/md1 gives me a bunch of unumbers 1900rce starting 2467re ending

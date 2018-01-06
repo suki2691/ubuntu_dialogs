@@ -1,0 +1,4 @@
+2008-11-18T03:47:00.000Z	Guest50508		hay do uuids change on reboot?  cause in my fstab the devs keep changing on restart and i dont understand why
+2008-11-18T03:48:00.000Z	LjL	Guest50508	UUIDs shouldn't change, they're actually made to be as long-lived as possible
+2008-11-18T03:52:00.000Z	Guest50508	LjL	/dev's should be changing either unless i change the position of my drives....but everytime i restart all the drives are being mounted to wrong locations cause the devs slightly change....any ideas?  should i use the uuid instead of the /dev/sda1 stuff?
+2008-11-18T03:52:00.000Z	LjL	Guest50508	yes, of course you should use the UUIDs, they exist to avoid that sort of problems to begin with. but i wouldn't know why your /dev/ files would change like that

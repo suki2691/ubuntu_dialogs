@@ -1,0 +1,4 @@
+2009-10-31T20:39:00.000Z	_Maximus		hello, anyone could suggest a file comparision tool like total commander's "Synchronize directory" ? so that I can easily see if the files on my dvd are 100% identical to the ones on my hard drive?
+2009-10-31T20:39:00.000Z	usser	_Maximus	md5sum
+2009-10-31T20:40:00.000Z	_Maximus	usser	do you know any tool that calculates the md5sum for all the files on the cd and then of all the files on the hdd and then compares them? :)
+2009-10-31T20:43:00.000Z	usser	_Maximus	hm, of the top of my head no, something like this might work find . -name "*" -exec md5sum {} \; | md5sum

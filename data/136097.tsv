@@ -1,0 +1,4 @@
+2009-06-26T21:55:00.000Z	edoceo		On my laptop if I mute the audio card on the Windows side and reboot the Linux side has no audio - have to unmute in Windows to get sound
+2009-06-26T21:55:00.000Z	edoceo		What gives?  Is there a way to force alsa to "force reset" the audio device?
+2009-06-26T21:55:00.000Z	edoceo		What gives?  Is there a way to force alsa to "force reset" the audio device?
+2009-06-26T21:56:00.000Z	Gnea	edoceo	sudo alsa force-reload

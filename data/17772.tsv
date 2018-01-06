@@ -1,0 +1,4 @@
+2011-02-24T17:00:00.000Z	Satauros		hi ya'll, quick question, how do I verify that my ubuntu server is correctly sync'ing with my time server, using ntpd?
+2011-02-24T17:01:00.000Z	pfifo	Satauros	check and see if it has a log
+2011-02-24T17:02:00.000Z	Satauros	pfifo	this log, should it be in /var/log/ntpstats ?
+2011-02-24T17:03:00.000Z	pfifo	Satauros	Im not sure if it makes a log, but if it does it will be in /var/log... it may also log to syslogd

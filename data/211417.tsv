@@ -1,0 +1,4 @@
+2006-01-26T08:24:00.000Z	ubuntu		anyone know the default ssh port
+2006-01-26T08:25:00.000Z	ubuntu		i forgot it
+2006-01-26T08:25:00.000Z	ubuntu		thanks
+2006-01-26T08:25:00.000Z	SEJeff	ubuntu	if you want to know a default port of a common service, grep the name in /etc/services. Try "grep ssh /etc/services" and it will tell you 22

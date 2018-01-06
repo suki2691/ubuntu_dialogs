@@ -1,0 +1,4 @@
+2010-01-17T14:40:00.000Z	mRmiSta		how to fix -> bash: /dev/null: Permission denied <- for non root users?
+2010-01-17T14:41:00.000Z	infid	mRmiSta	what are you doing to get that error
+2010-01-17T14:43:00.000Z	infid	mRmiSta	oh weird. not sure. my /dev/null is 0666, which allows non root users to use it
+2010-01-17T14:48:00.000Z	infid	mRmiSta	man pages are also good. from what i can tell in man mknod, you need to use '-m' or '--mode' to set the umask

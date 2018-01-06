@@ -1,0 +1,4 @@
+2006-11-10T17:46:00.000Z	Paulio-at_work		Hi, does anyone know about logical partitions and devices greater than sdb10?
+2006-11-10T17:46:00.000Z	sobersabre	Paulio-at_work	... que passo ? what do you mean ?
+2006-11-10T17:50:00.000Z	sobersabre	Paulio-at_work	it doesn't matter how many partitions you have on sdb. it also matters how many device files you have in /dev
+2006-11-10T17:50:00.000Z	sobersabre	Paulio-at_work	 maybe you need to add more block devices sdb11 etc.

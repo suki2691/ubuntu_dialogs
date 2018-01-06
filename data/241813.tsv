@@ -1,0 +1,4 @@
+2005-10-22T15:41:00.000Z	Jedrick		i did enable the repos..
+2005-10-22T15:41:00.000Z	Jedrick		dunno
+2005-10-22T15:41:00.000Z	ptlo	Jedrick	apt-cache search ncurses will show the available packages related to it. then apt-get install <package_name> ... note, if you need to compile software that *uses* ncurses, you'll probably need -dev packages (which aren't installed by default)
+2005-10-22T15:46:00.000Z	ptlo	Jedrick	install 'libncurses5-dev' package. you can do it with: "sudo apt-get install libncurses-5" (apt-get install -> installs a package). after that, try to rebuild psybnc

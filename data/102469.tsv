@@ -1,0 +1,4 @@
+2011-10-13T00:56:00.000Z	steel_		hi,just want to ask what size should i give to my /usr ,given that i have given 128 mb to /boot, 30 gb to /,and rest to /home.how much size should i cut from /home to give it to /usr?
+2011-10-13T00:57:00.000Z	rww	steel_	You do realize you can just use one partition for everything, right? Splitting it up like that is a headache and runs the risk of you running out on room (especially on /boot, 128MB is tiny).
+2011-10-13T00:59:00.000Z	steel_	rww	and reisio , it's just that whenever i switch my distro i loose all my softwares.so i was just thinking creating a separate /usr will save me the trouble
+2011-10-13T00:59:00.000Z	rww	steel_	No, it'll cause you a lot of pain and package management issues.

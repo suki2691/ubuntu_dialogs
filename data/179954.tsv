@@ -1,0 +1,4 @@
+2011-04-03T05:34:00.000Z	Francis		is there a way to make it so new files added to a folder automatically get chmod 777?
+2011-04-03T05:35:00.000Z	jrib	Francis	yes, but that sounds like a bad idea.  Why don't you tell us what you actually want to accomplish?
+2011-04-03T05:36:00.000Z	jrib	Francis	that's likely something you need to configure on the ftpd you are using
+2011-04-03T05:37:00.000Z	jrib	Francis	read about all the options involving "umask" at http://vsftpd.beasts.org/vsftpd_conf.html

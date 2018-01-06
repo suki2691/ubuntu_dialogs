@@ -1,0 +1,4 @@
+2006-06-15T10:38:00.000Z	magenet		does anyone know where to obtain " What is the location of the directory of C header files that match your running
+2006-06-15T10:38:00.000Z	magenet		kernel? [/usr/src/linux/include] 
+2006-06-15T10:38:00.000Z	magenet		 " this? im trying to install vmware player
+2006-06-15T10:39:00.000Z	nickrud	magenet	sudo apt-get install linux-headers-$(uname -r)

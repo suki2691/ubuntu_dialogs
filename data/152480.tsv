@@ -1,0 +1,4 @@
+2007-02-22T06:21:00.000Z	foxiness		"This filesystem will be automatically checked every 22 mounts or 180 days, whichever comes first.  Use tune2fs -c or -i to override.", what is this "Use tune2fs -c or -i to override." and did i need to do it? or not anything will help
+2007-02-22T06:21:00.000Z	foxiness		the last message its result of "mkfs -t ext3 -L backup2 /dev/hda2"
+2007-02-22T06:22:00.000Z	Ferret	foxiness	It's a program that retunes the disk, you can do it any time, no you don't need to, if you're interested in what it does read 'man tune2fs'
+2007-02-22T06:22:00.000Z	Ferret	foxiness	I'd leave it as it is

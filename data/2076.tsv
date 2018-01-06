@@ -1,0 +1,4 @@
+2012-07-15T16:21:00.000Z	zixxy	db_loco	what eactly are you trying to do?
+2012-07-15T16:22:00.000Z	zixxy	db_loco	exactly*
+2012-07-15T16:24:00.000Z	zixxy		!enter | hellyeah
+2012-07-15T16:26:00.000Z	db_loco	zixxy	i found the file i need to change.  its etc/ld.so.preload  This file only has one line, which is the directory where v4l1compat.so lives.  But its the wrong directory, so all i want to do is point it to the right place.  I can;t do it thru the GUI as no permissions even when logged in as ADMIN, and dunno how to od it thru terminal.

@@ -1,0 +1,4 @@
+2007-08-27T16:44:00.000Z	ZaZall		I have a problem with a ntfs disk that i whant read/write permission on. i've got ntfsprogs, ntfs-3g, ntfs-config. ive also added /dev/hdb1   /media/hdb1   ntfs-3g   defaults,locale=en_US.utf8   0   0 to my /etc/fstab file. but it just won't work. any ideas ?
+2007-08-27T16:45:00.000Z	stefg	ZaZall	the filesystem might be unclean. If so then ntfs-3g switches to readonly to not damage the filesystem further
+2007-08-27T16:46:00.000Z	ZaZall	stefg	so a chkdsk then i guess.
+2007-08-27T16:46:00.000Z	stefg	ZaZall	right, but from windows. There is no ntfs checking util in Linux

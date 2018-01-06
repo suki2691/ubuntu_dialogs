@@ -1,0 +1,4 @@
+2008-05-15T17:34:00.000Z	Terrasque		something strange have happened with my file server's raid array after upgrading from 6.06 to 8.04. When I write large amounts of data to it (seems to be 2gb or more), the transfer stops, the raid does not store any more data, and load goes way up, slowly rising, and peaking around 30-40.. XFS filesystem, if I try to reboot, it just says "umount2: device or resource busy" and hangs
+2008-05-15T17:36:00.000Z	dthacker	Terrasque	/var/log/messages says what?
+2008-05-15T17:37:00.000Z	Terrasque	dthacker	it's completely silent, and top / ps does not show anything unusual
+2008-05-15T17:37:00.000Z	dthacker	Terrasque	darn, I hate that.   I suppose you'll have to go googling with your kernel version

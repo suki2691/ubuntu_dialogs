@@ -1,0 +1,4 @@
+2010-02-25T20:52:00.000Z	roblem		hey everyone.  trying to make a custom distro cd of karmic, and trying to leave off a lot of packages.  when I blow packages away, the no longer show up in the Packages file,  and aren't on the CD, but the 'ubuntu-desktop' task still selects them, and they download instead.  how can I make the installer forget about them?
+2010-02-25T20:54:00.000Z	llutz	roblem	rebuild "ubuntu-desktop" with changed dependencies
+2010-02-25T20:55:00.000Z	roblem	llutz	thanks... how do I rebuild ubuntu desktop?  doesn't seem to be anything in the docs for that --
+2010-02-25T20:56:00.000Z	llutz	roblem	look at forums about building packages

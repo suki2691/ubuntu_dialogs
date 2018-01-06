@@ -1,0 +1,4 @@
+2010-01-15T02:26:00.000Z	FireCrotch		I'm logged into a machine via SSH, and there is a user on the machine running a full desktop (KDE in this instance). Is there any way I can send this user a message from the command line?
+2010-01-15T02:28:00.000Z	oCean_	FireCrotch	xmessage
+2010-01-15T02:28:00.000Z	FireCrotch	oCean_	I think that'll do the trick. Thank you very much!
+2010-01-15T02:29:00.000Z	oCean_	FireCrotch	not really "like" netsend, but set DISPLAY to the user using KDE DISPLAY (e.g. export DISPLAY=:0.0) then xmessage "hi there"

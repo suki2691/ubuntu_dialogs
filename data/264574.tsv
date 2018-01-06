@@ -1,0 +1,4 @@
+2005-01-16T17:35:00.000Z	RavingIdiot		I have a quick question regarding updating Ubuntu. Now, in the FAQ, it mentions adding extra sources to the apt sources. If you actually add those, then do a upgrade, could that potentially break Ubuntu because none Ubuntu supported packages get installed in place of the Ubuntu ones?
+2005-01-16T17:35:00.000Z	RavingIdiot		none=non
+2005-01-16T17:37:00.000Z	rsacherer	RavingIdiot	it's a bit for advanced users, you need to know if the package you intend to install, and it's dependencies, could harm (overwrite) ubuntu packages or not ...
+2005-01-16T17:40:00.000Z	rsacherer	RavingIdiot	be sure to activate the universe apt source (and multiverse if you use hoary), then there should be more or less all packages you need, just for some really specially needs you need additional package sources!

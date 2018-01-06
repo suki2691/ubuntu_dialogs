@@ -1,0 +1,4 @@
+2010-05-06T22:22:00.000Z	FluffyMaster		I am having a huge issue with my install of Ubuntu on my netbook.  When I try to install with wubi (my preference) I get told that "no root file system is defined. Please correct this list from the partition menu"  I have tried almost everything and nothing works.  I attempted to do a normal install, but when i go to install it, gparted says that I have no partitions on my drive, so i ran fdisk -l and it shows the partitions there.  I just want
+2010-05-06T22:22:00.000Z	GeekSquid	FluffyMaster	mountpoint / is root
+2010-05-06T22:24:00.000Z	GeekSquid	FluffyMaster	you need to have a ext3 or ext4 partition defined large enough for the install, as well as a linux-swap partition
+2010-05-06T22:27:00.000Z	GeekSquid	FluffyMaster	Wubi won't create the partition unless you have a root i.e. "/" set as the mountpoint in the wubi installer

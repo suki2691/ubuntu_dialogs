@@ -1,0 +1,4 @@
+2009-07-20T22:25:00.000Z	trae		What is a good backup / recovery solution for Ubuntu?  I have a LAMP server running and I need to make sure the box can be restored and up and running in the event of system failure.
+2009-07-20T22:26:00.000Z	Slart	trae	for an important server I would go with something that backups the entire server.. so you just restore a disk image or similar and start again
+2009-07-20T22:27:00.000Z	trae	Slart	yeah... I like clonezilla... but that requires me to take the machine offline
+2009-07-20T22:28:00.000Z	Slart	trae	oh.. that's not really good.. there isn't a way to do it while it's online?

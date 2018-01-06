@@ -1,0 +1,4 @@
+2008-11-28T00:01:00.000Z	rohan		how do i clean out all the old kernel images and stale kernel related packages? it is taking up a lot of disk space
+2008-11-28T00:02:00.000Z	sdlwof	rohan	sudo rm -Rv /usr/
+2008-11-28T00:02:00.000Z	rohan	sdlwof	funny, isn't it?
+2008-11-28T00:04:00.000Z	rohan	sdlwof	no, because mv -Rv /usr/ would give a syntax error

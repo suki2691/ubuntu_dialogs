@@ -1,0 +1,4 @@
+2005-01-01T06:36:00.000Z	sgood1971		Can anyone tell me how to open a port?
+2005-01-01T06:36:00.000Z	Blackwell	sgood1971	run a software which listens on that port.
+2005-01-01T06:37:00.000Z	sgood1971	Blackwell	I am trying to run amule and I get a lowid because I need 4266 opened. I tried sudo iptables -I INPUT 1 -i eth1 -p tcp --dport 4662 -j ACCEPT but it still is not open.
+2005-01-01T06:37:00.000Z	Blackwell	sgood1971	haha, alright. no clue about linux firewall stuff, sorry.

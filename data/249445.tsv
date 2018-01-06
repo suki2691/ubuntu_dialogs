@@ -1,0 +1,4 @@
+2011-02-26T22:49:00.000Z	s7r		and this rc.local is executed whenever ubuntu boots without any additional settings from me
+2011-02-26T22:49:00.000Z	s7r		i don't have to tell ubuntu to boot rc.local everytime at startup right ?
+2011-02-26T22:50:00.000Z	terry	s7r	As long as the executable bit is set for it, it will run.
+2011-02-26T22:52:00.000Z	terry	s7r	no.  chmod +x /etc/rc.local  #Or to just see:  ls -l /etc/rc.local  #should look like this;  -rwxr-xr-x

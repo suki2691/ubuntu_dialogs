@@ -1,0 +1,4 @@
+2012-02-04T00:59:00.000Z	grubbyone_		ok, I'm in a livecd, how do I copy the entire filesystem from /dev/sda?
+2012-02-04T01:00:00.000Z	heinz	grubbyone_	dd if=/def/sda of=youroutput.file
+2012-02-04T01:00:00.000Z	grubbyone_	heinz	that will copy the entire drive, I don't have that kind of space
+2012-02-04T01:00:00.000Z	heinz	grubbyone_	more likely you need sda1, though

@@ -1,0 +1,4 @@
+2012-02-01T00:39:00.000Z	Scopeuk		Hi All, can any one help with an issue getting a device and its associated kernel module to bind, I am running 11.10 and a kernal of 3.0.0.12 to match the modules (they are binary provided by the device manufacturer against that kernal
+2012-02-01T00:40:00.000Z	Scopeuk		device is a bgt 3630 I can see in lspci -k that no kernel module has bound to it
+2012-02-01T00:41:00.000Z	Scopeuk		modinfo apears to show that the id pairs for the kernel module match those that lspic outputs but i cant get the device to come up, the module apears to load however
+2012-02-01T00:43:00.000Z	urlin2u	Scopeuk	I can't help other then to say naming the device would seem prudent

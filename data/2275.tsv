@@ -1,0 +1,4 @@
+2012-06-25T04:39:00.000Z	ceti331		hi
+2012-06-25T04:40:00.000Z	ceti331		is there debug in ubuntu that can reveal if the trackpad supports 3 fingers (e.g commandline debug..)
+2012-06-25T04:41:00.000Z	wifiman	ceti331	/var/log/Xorg.0.log should have it
+2012-06-25T04:43:00.000Z	wifiman	ceti331	there should be a line like  (--) synaptics: SynPS/2 Synaptics TouchPad: buttons: left right double triple

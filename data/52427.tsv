@@ -1,0 +1,4 @@
+2009-11-12T09:35:00.000Z	mezquitale		anybody knows how to shutdown ssh on port 22?  I have openssh installed and configured in a nonstandard port however port 22 is still open locally, how can I disable port 22??
+2009-11-12T09:36:00.000Z	feyner	mezquitale	have you restarted ssh?
+2009-11-12T09:36:00.000Z	mezquitale	feyner	no, I havent restarted ssh
+2009-11-12T09:37:00.000Z	feyner	mezquitale	sudo service ssh restart

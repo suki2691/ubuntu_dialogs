@@ -1,0 +1,4 @@
+2009-08-08T04:03:00.000Z	spO		when i create a new user  , user2,  do i have to add user2 to user2 group in /etc/group , or does it implicitly add itself to its own group?
+2009-08-08T04:05:00.000Z	hatake_kakashi	spO	if using useradd, it may save all that wokr
+2009-08-08T04:09:00.000Z	hatake_kakashi	spO	I think it gets added automatically, do try
+2009-08-08T04:10:00.000Z	hatake_kakashi	spO	just checked, adduser is better

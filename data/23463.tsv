@@ -1,0 +1,4 @@
+2011-04-11T22:59:00.000Z	NerwenGreen		Hi, I just installed ubuntu onto a computer that was running Windows XP in Korean. For that reason, ubuntu apparently assumed I wanted it to be in Korean too - but i don't. How do I get it back to English?
+2011-04-11T23:01:00.000Z	erUSUL	NerwenGreen	system>admin>language support
+2011-04-11T23:02:00.000Z	NerwenGreen	erUSUL	okay, I didn't see "language support" in there but there was one entry entirely in Korean, so I clicked that. The window that popped open is entirely in Korean. Please tell me exactly what buttons to press. T.T
+2011-04-11T23:03:00.000Z	erUSUL	NerwenGreen	launch it from terminal like this « LC_ALL=C gksudo gnome-language-selector & »

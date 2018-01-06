@@ -1,0 +1,4 @@
+2011-08-12T01:22:00.000Z	hugo___		Hello! Im trying to access a usb device connected through my router. In nautlius i can access it by location smb://rt-n56u/aidisk_a1/backup/2011 but why cant i cd in to it via the terminal? Any suggestions?
+2011-08-12T01:23:00.000Z	ActionParsnip	hugo___	run:     ln -s ~/.gvfs ~/Mounted\ Shares
+2011-08-12T01:24:00.000Z	ActionParsnip	hugo___	creating the link will allow you access via terminal easily
+2011-08-12T01:26:00.000Z	hugo___	ActionParsnip	Cool! thanks

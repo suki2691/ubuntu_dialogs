@@ -1,0 +1,4 @@
+2009-11-25T17:22:00.000Z	lat		New problem. top shows that Xorg is taking up 60% to 90% of my CPU power. What could be causing this?
+2009-11-25T17:22:00.000Z	kling0n	lat	graphical effects typically ... you might want to check /var/log/Xorg.0.log
+2009-11-25T17:30:00.000Z	kling0n	lat	check output from " glxinfo | grep -A 2 rendering"
+2009-11-25T17:33:00.000Z	lat	kling0n	X Error of failed request:  BadRequest (invalid request code or no such operation)

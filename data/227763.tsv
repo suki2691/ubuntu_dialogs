@@ -1,0 +1,4 @@
+2011-03-12T22:59:00.000Z	Katronix		Trying to reset my MySQL password, following the directions here: https://help.ubuntu.com/community/MysqlPasswordReset but seems the newest version of mysql works a little differently, are there updated directions anywhere?
+2011-03-12T22:59:00.000Z	Katronix		It replies to  SET PASSWORD FOR root@'localhost' = PASSWORD('password'); with ERROR 1290 (HY000): The MySQL server is running with the --skip-grant-tables option so it cannot execute this statement
+2011-03-12T23:00:00.000Z	reval	Katronix	if you used the method I used, try using the password you gave as root instead of the mysql account too
+2011-03-12T23:31:00.000Z	reval	Katronix	it is also a bad practice to really have mysql enabled for the root account. having it's own separate account allows people to utilize the mysql capability without having too much power over the system.

@@ -1,0 +1,4 @@
+2008-06-30T21:47:00.000Z	greenfishx3		Im reading the book right now, he claims if you delete a hard link+original file both files gets deleted? example test a (source) test b (hard link) I tried removing test b, and guess what a is still there
+2008-06-30T21:49:00.000Z	greenfishx3		then whats the diff between a hard link vs symbolic? I thought the main diff was that a hard link deletes both files, while a symbolic link retains the source?
+2008-06-30T21:51:00.000Z	greenfishx3		then whats the diff between a hard link vs symbolic? I thought the main diff was that a hard link deletes both files, while a symbolic link retains the source?
+2008-06-30T21:52:00.000Z	SwedeMike	greenfishx3	the hard link increases a counter in the fs and points directly to the file, a symbolic link points to another filesystem pointer

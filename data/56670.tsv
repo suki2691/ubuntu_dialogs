@@ -1,0 +1,4 @@
+2009-05-23T11:21:00.000Z	omorth		is there a way to have `make` take advantage of multiple cores during compile?
+2009-05-23T11:22:00.000Z	DaZ	omorth	yes
+2009-05-23T11:22:00.000Z	omorth	DaZ	well, at least it gives me more hope :)
+2009-05-23T11:24:00.000Z	omorth	DaZ	figured it out, you can specifiy how many worker threads with `make -j #`

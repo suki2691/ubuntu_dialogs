@@ -1,0 +1,4 @@
+2005-06-17T06:14:00.000Z	chombee		Hey - how do I find out the mount point of /dev/hdb ?
+2005-06-17T06:16:00.000Z	chombee		I don't see the device listed from mount or in fstab, but when I tried to mount it it said the dev was already mounted
+2005-06-17T06:16:00.000Z	chombee		it's a windows filesystem, fresh install of ubuntu
+2005-06-17T06:17:00.000Z	anto9us	chombee	type mount | grep hdb

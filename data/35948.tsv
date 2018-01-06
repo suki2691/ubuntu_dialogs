@@ -1,0 +1,4 @@
+2010-10-14T01:49:00.000Z	etyui		i m following a tutorial where they ask to do : chown -R asterisk:asterisk /var/lib/asterisk/sounds/ but when do this thing i got a error like that : "         chown: user non valid: «asterisk:asterisk»            " what i have to do ?
+2010-10-14T01:49:00.000Z	etyui		how ?
+2010-10-14T01:49:00.000Z	dugger5688	etyui	replace the * with the correct username.
+2010-10-14T01:52:00.000Z	dugger5688	etyui	The tutorial probably means replace is you $USER:$USER where you replace $USER with whatever your user name is.

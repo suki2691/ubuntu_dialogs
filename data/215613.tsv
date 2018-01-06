@@ -1,0 +1,4 @@
+2006-03-29T10:46:00.000Z	GNU_Style		i compiled a custom kernel and installed it, is it safe to delete the /usr/src/linux-source-2.6.12 directory? and the linux-source-2.6.12.tar.bz2 file?
+2006-03-29T10:46:00.000Z	soundray	GNU_Style	it should be, unless you later want to compile extra modules.
+2006-03-29T10:49:00.000Z	soundray	GNU_Style	I wouldn't disable ALSA unless there was a very good reason.
+2006-03-29T10:52:00.000Z	soundray	GNU_Style	ALSA is more than a driver module.

@@ -1,0 +1,4 @@
+2012-09-27T15:32:00.000Z	bibi23		hi, I've added 'MYVAR=VALUE' at the end of my ~/.bashrc file and logged out / logged in, but it's not taken in account when I run commands, but when I do 'MYVAR=VALUE mycommand' it's taken in account, do you know why?
+2012-09-27T15:33:00.000Z	gry	bibi23	use `export MYVAR='value'`
+2012-09-27T15:35:00.000Z	bibi23		fry: thx, it worked!
+2012-09-27T15:35:00.000Z	bibi23	gry	thx, it worked!

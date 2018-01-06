@@ -1,0 +1,4 @@
+2009-03-31T21:42:00.000Z	sotec_prod		Here's an issue you may not see all the time: I had a triple boot scenario: XP then Ubuntu on 1 disk, and Vista on another. It all loaded through GRUB. Pretty standard setup? Here's the weird part: XP's MBR for some reason installed onto the Vista disk (before it had Vista) so when I installed Vista, its bootloader recognized and chainloaded XP. HERE's the problem: I decided to wipe Vista and reinstall Ubuntu. Ubuntu is wo
+2009-03-31T21:42:00.000Z	sotec_prod		<sotec_prod> rking perfect, Vista is gone, and in doing so, XP's MBR is no more. What do I need to do to restore XP's boot.ini or MBR or whatever and have it chainloaded into GRUB? I would just wipe XP, but it has a couple uses still...like a game I have many hours invested in.
+2009-03-31T21:42:00.000Z	sotec_prod		I really need help with this guys
+2009-03-31T21:43:00.000Z	sky_1	sotec_prod	boot windows xp CD and there can be repair console just type there fixmbr

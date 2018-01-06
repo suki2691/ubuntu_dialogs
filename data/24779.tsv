@@ -1,0 +1,4 @@
+2012-10-03T22:09:00.000Z	dlebauer		is there a way to compress a directory but convert symlinks into actual files?
+2012-10-03T22:10:00.000Z	dlebauer		tar -zcvf does not work
+2012-10-03T22:10:00.000Z	tsimpson	dlebauer	add the -h flag
+2012-10-03T22:12:00.000Z	dlebauer	tsimpson	tar -zcvfh mydir.tar.gz mydir does gave an error

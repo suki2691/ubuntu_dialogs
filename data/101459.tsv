@@ -1,0 +1,4 @@
+2008-02-18T03:47:00.000Z	Cusoon959		How do I see a log of uninstalled packages?
+2008-02-18T03:47:00.000Z	Cusoon959		aptitude packages
+2008-02-18T03:49:00.000Z	Cusoon959		How do I see a log of uninstalled aptitude packages? I uninstalled the login window XD
+2008-02-18T03:51:00.000Z	danand_	Cusoon959	- /var/log/apt/term.log may help you out - if you want to reinstall the login screen try apt-get -s install gdm

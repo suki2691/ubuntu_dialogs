@@ -1,0 +1,4 @@
+2010-02-11T16:42:00.000Z	philsturgeon		anyone know what could stop postgresql from starting? http://pastie.org/819782
+2010-02-11T16:42:00.000Z	jpds	philsturgeon	What's listening on port 5432 ?
+2010-02-11T16:43:00.000Z	philsturgeon	jpds	netstat -anp|grep 5432 shows nothing
+2010-02-11T17:03:00.000Z	philsturgeon	jpds	any ideas dude?

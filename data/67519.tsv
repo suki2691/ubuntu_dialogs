@@ -1,0 +1,4 @@
+2009-06-25T20:23:00.000Z	mdm	ghaleb	when you told it to do count=10000 bs=1024K you were saying make 10000M (10000x1024x1024) x 1024K (1024x1024)blocks
+2009-06-25T20:25:00.000Z	ghaleb	mdm	oh thanks, but why shouldn't it be  10000x1024x1024   x   1024k ?
+2009-06-25T20:27:00.000Z	mdm	ghaleb	M means 1024x1024, you asked it for 10,000 of them.  And k means 1024, so you asked for 1024 of them
+2009-06-25T20:28:00.000Z	ghaleb	mdm	oh I missunderstood you at the previous message, thank you yes make sense :)

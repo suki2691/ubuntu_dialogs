@@ -1,0 +1,4 @@
+2010-07-23T13:42:00.000Z	abhinav_singh		i am making a cron job in unubtu...i have a file called abh.php in /home/abhinav/work/abh.php ....i want to run that file on every 2 hours.....i have searched on net and i have the following line ... 0 */2 * * * /home/abhinav/work/abh.php   now i want to know how to add this line to crontab ....please help me
+2010-07-23T13:43:00.000Z	phlak_user	abhinav_singh	crontab -e
+2010-07-23T13:44:00.000Z	abhinav_singh	phlak_user	after adding this line in crontab -e will it run my file after every 2 hours?
+2010-07-23T13:45:00.000Z	phlak_user	abhinav_singh	if you have the php cli interpreter then it should

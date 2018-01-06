@@ -1,0 +1,4 @@
+2008-08-27T04:08:00.000Z	erUSUL	FuRom	"sudo nano /etc/apt/sources.list.d/pessenger.list" copy paste this line on the empty file "deb http://apt.brightbox.net hardy main" save the file Crtl + O and exit the editor Crtl + X then use synaptic to install the libapache2-mod-passenger package
+2009-09-23T02:25:00.000Z	erUSUL	FuRom	only make install needs sudo
+2009-09-23T02:27:00.000Z	FuRom	erUSUL	making it gives me an error regardless though. It says "make: *** [config.status] Error 2" and I'm unsure what I should do in the process of fixing the issue.
+2009-09-23T02:29:00.000Z	erUSUL	FuRom	sudo apt-get build-dep e2fsprogs

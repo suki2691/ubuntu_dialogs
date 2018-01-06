@@ -1,0 +1,4 @@
+2011-10-02T19:03:00.000Z	KommaH{s}		Hey everyone. I am currently trying to run some software on my server that does not yet support threading. My server surpasses the minimum requirements; however, when it starts getting heavy use, it slams a CPU and begins to lag.
+2011-10-02T19:03:00.000Z	KommaH{s}		Any thoughts?
+2011-10-02T19:04:00.000Z	Polah	KommaH{s}	you could set a higher nice value for it so that other processes will have a higher priority than it.
+2011-10-02T19:06:00.000Z	KommaH{s}	Polah	The process slamming the CPU is lagging, which is causing issues for the people who are all using it at once.

@@ -1,0 +1,4 @@
+2011-07-06T15:18:00.000Z	engrxyz		hi, i have a hostname in /etc/hostname on ubuntu named as blah, and i wanted it to be changed to blahblah. is there a way for me to implement this changes without restarting the machine?
+2011-07-06T15:19:00.000Z	geirha	engrxyz	It'll take effect immediately, but you *must* make the same change in /etc/hosts, or sudo breaks.
+2011-07-06T15:20:00.000Z	engrxyz	geirha	how to do dhta
+2011-07-06T15:21:00.000Z	geirha	engrxyz	Hm? You open them both in a text editor and do the change.

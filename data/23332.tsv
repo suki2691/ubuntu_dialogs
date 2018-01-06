@@ -1,0 +1,4 @@
+2010-10-30T15:56:00.000Z	Vamp898		Hi, i reproduced the following case on 3 machines (GeForce GTX 240, GeForce 8600 M GT, GeForce 8400 GS) and all had the same problem. You have a fresh install of ubuntu. you do updates, restart, install nVidia current and get a black scren at boot
+2010-10-30T15:56:00.000Z	Vamp898		with 10.04 it works, with 10.10 not
+2010-10-30T15:58:00.000Z	jonnix	Vamp898	noted. Thought it might just be a Toshiba Satellite thing. ref. https://answers.launchpad.net/ubuntu/+question/23735
+2010-10-30T16:13:00.000Z	jonnix	Vamp898	it's true /etc/X11/xorg.conf doesn't exist. ref. Solution 3 here http://www.ubuntugeek.com/how-to-fix-ubuntu-10-04-lts-lucid-blank-screen-at-startup.html

@@ -1,0 +1,4 @@
+2005-10-18T05:25:00.000Z	timalot		for name in [list of files that needed to be changed]  ; do cat $name |sed s/hoary/breezy/g > tmp; mv tmp $name ; done
+2005-10-18T05:26:00.000Z	Seveas	timalot	sed -i :)
+2006-07-07T05:54:00.000Z	Seveas	timalot	you've put it on hold, that's why it's on rH - try purging it (dpkg -p)
+2006-07-07T05:59:00.000Z	timalot	Seveas	thanx i manged to get rid off it

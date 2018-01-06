@@ -1,0 +1,4 @@
+2007-05-04T13:43:00.000Z	aubade		Does Windows actually store its bootloader on the same partition as Winodws or hd0?
+2007-05-04T13:45:00.000Z	psusi	aubade	where else would it put it if not on the hard disk?
+2007-05-04T13:46:00.000Z	aubade	psusi	Well, I wasn't sure it it would use the MBR (hd0) or the same partition as Windows.
+2007-05-04T13:47:00.000Z	psusi	aubade	the windows mbr just loads the partition boot sector from whichever one is marked as active

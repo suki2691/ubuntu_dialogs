@@ -1,0 +1,4 @@
+2008-11-03T01:12:00.000Z	tato97		﻿Is there a way in Ubuntu 8.04 to view installed hardware? i.e. like device manager in Windows.  I need to view info on my video card before I upgrade.
+2008-11-03T01:12:00.000Z	LjL	tato97	yes, "sudo lshw"
+2008-11-03T01:12:00.000Z	LjL	tato97	for the graphics card specifically, you may do "sudo lshw -C display"
+2008-11-03T01:13:00.000Z	LjL	tato97	there's also a graphical interface to lshw installed by default, i believe, but i don't quite remember where it is

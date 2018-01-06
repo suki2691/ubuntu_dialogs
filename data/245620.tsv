@@ -1,0 +1,4 @@
+2009-02-17T20:11:00.000Z	svensko1		how do i exit X and run Xorg -configure? ctrl+alt+del doesn't seem to do anything
+2009-02-17T20:12:00.000Z	cwillu	svensko1	why do you want to run Xorg -configure?  (xorg is almost completely autodetected these days, and for the things that aren't, dpkg-reconfigure xserver-xorg is the debian/ubuntu way of generating an xorg.conf
+2009-02-17T20:19:00.000Z	cwillu	svensko1	you missed about 5 people telling you useful stuff right after you disconnected :p
+2009-02-17T20:21:00.000Z	cwillu	svensko1	probably the virtual size that got set is bigger than the max texture size of the chipset.  Running metacity instead of compiz (basically, turning off effects) will probably restore 3d performance in any particular app, otherwise, you'll have to shuffle the screens around so that they'll fit in the max size (4096x4096 if memory serves)

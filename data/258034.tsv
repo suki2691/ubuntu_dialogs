@@ -1,0 +1,4 @@
+2004-11-15T12:46:00.000Z	thoreauputic	BrittBS	actually I noticed on my system that one does not *have* to use vi to edit /etc/sudoers - nano as root works fine here: any reason not to do it that way?
+2004-11-15T12:50:00.000Z	BrittBS	thoreauputic	from the man page, visudo edits the sudoers file in a safe fashion, analogous to vipw(8). visudo locks the sudoers file against multiple simultaneous edits, provides basic sanity checks, and checks for parse errors. If the sudoers file is currently being edited you will receive a message to try again later.
+2004-11-15T12:51:00.000Z	BrittBS	thoreauputic	so you can get away with other editors, but visudo is the safe/proper way to do it
+2004-11-15T12:51:00.000Z	thoreauputic	BrittBS	OK - I get it now ;) Thanks for the info :)

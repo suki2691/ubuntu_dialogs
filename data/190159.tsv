@@ -1,0 +1,4 @@
+2007-03-30T09:51:00.000Z	MarkCh		help! i need a guide on how to network ubuntu to windows directly i.e. ubuntu -> cable -> windows xp
+2007-03-30T09:52:00.000Z	MarkCh		windows xp says it cannot get an ip from a host, what does it mean? ubuntu doesnt report any problems.
+2007-03-30T09:52:00.000Z	MarkCh		i think the cat-5 cable i have is a crossover cable enough already.
+2007-03-30T09:53:00.000Z	Warbo	MarkCh	Windows won't be sent an IP unless you run a DHCP server on Ubuntu. It is easier just to give WIndows a static address

@@ -1,0 +1,4 @@
+2008-04-04T17:59:00.000Z	TheMafia		I want to switch to a non-graphical runlevel so I cna figure out why X won't start, where do I change this in gutsy?
+2008-04-04T17:59:00.000Z	soundray	TheMafia	'sudo invoke-rc.d gdm stop' or just go to a text console with Ctrl-Alt-F1
+2008-04-04T18:02:00.000Z	TheMafia	soundray	I can't get to a txt console, my system hangs
+2008-04-04T18:03:00.000Z	soundray	TheMafia	then you should do a MagicSysRq reboot (Ctrl-Alt-PrintScreen R E I S U B) and boot in recovery mode (second entry in the grub menu)

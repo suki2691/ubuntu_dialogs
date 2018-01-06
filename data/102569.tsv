@@ -1,0 +1,4 @@
+2008-12-24T03:43:00.000Z	devilbad		hey can anyone guide me to configure wireless connection in ubuntu
+2008-12-24T03:44:00.000Z	rww	devilbad	paste the output from lspci and lsusb to paste.ubuntu.com, please. We need to know exactly which wifi card chipset you have.
+2008-12-24T03:46:00.000Z	rww	devilbad	output of lspci and lsusb to paste.ubuntu.com. Motherboard type doesn't tell us what wifi chipset you're using.
+2008-12-25T06:08:00.000Z	rww	devilbad	dunno if there's a graphical tool for it, but the command-line one is ufw (see man ufw)

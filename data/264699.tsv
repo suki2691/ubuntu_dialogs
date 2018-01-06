@@ -1,0 +1,4 @@
+2004-10-01T10:24:00.000Z	Roxim		I have recently installed the Ubuntu packaged nvidia drivers, and changed my Xconfig file to use them, but when I try to change resolutions, there is only 640x480 and 800x600.  I have a GForce 4 MX 440, so it should go higher.  Anyone know how to bump up the res.?
+2004-10-01T10:25:00.000Z	punkass	Roxim	check your XF86config file
+2004-10-01T10:27:00.000Z	Roxim	punkass	I have read through the file, and it lists from 1280x1024 to 640x480
+2004-10-01T11:01:00.000Z	Roxim	punkass	I ran "modprobe nvidia", rebooted for safety, and the Xserver was broken.  I switched to vesa.  the log complained about the module not being loaded when it broke.  How would I go about loading the module?

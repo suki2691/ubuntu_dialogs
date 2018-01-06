@@ -1,0 +1,4 @@
+2011-12-01T15:24:00.000Z	arlo		someone can help me with af problem
+2011-12-01T15:24:00.000Z	arlo		i have a webserver but is not comming on my ip
+2011-12-01T15:25:00.000Z	arlo		someone can help me with a teameiwer?
+2011-12-01T15:26:00.000Z	llutz	arlo	check /etc/apache2/ports.conf  (Listen xxxx)  what does "sudo netstat -tulpen |grep :80" say

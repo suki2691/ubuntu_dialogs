@@ -1,0 +1,4 @@
+2009-02-23T03:12:00.000Z	Tommasa		I'm trying to cp -a my /home directory to a USB drive with pv so that I know it's working properly, but I can't seem to figure out how to make it work. It copies properly, but pv just sits there.   Can someone tell what the right syntax would be to do that?
+2009-02-23T03:13:00.000Z	erUSUL	Tommasa	pv works on pipes cp -a does not create a pipe... how are you invoquing the two programs ?
+2009-02-23T03:16:00.000Z	erUSUL	Tommasa	use two tar commands... something like « tar cf - /home/$USER | pv | (cd /media/disk && tar xBf -)
+2009-02-23T03:16:00.000Z	Tommasa	erUSUL	Thanks

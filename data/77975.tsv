@@ -1,0 +1,4 @@
+2008-10-04T01:20:00.000Z	usser	deph	use dd for that
+2008-10-04T01:21:00.000Z	deph	usser	i already heard of dd but i don't know which options to use
+2008-10-04T01:21:00.000Z	usser	deph	all you really need to know is your partition /dev name
+2008-10-04T01:22:00.000Z	usser	deph	then to erase it sudo dd if=/dev/zero of=/dev/[part or disk name]

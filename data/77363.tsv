@@ -1,0 +1,4 @@
+2008-10-17T19:55:00.000Z	cpu_temp	n8tuser	after running emule in wine I get "too many open files", so /proc isnt thrustworthy
+2008-10-17T19:57:00.000Z	cpu_temp	n8tuser	dont know about file descriptors anithing. I just know that "ulimit -n" gives still 1024 after writing "* hard nofiles 65535" in limits.conf and using sysctl method and that I get "too many open files" message
+2008-10-17T20:01:00.000Z	cpu_temp	n8tuser	it looks it can be done on Linux, but on Ubuntu just doesnt work [http://www.cyberciti.biz/faq/linux-increase-the-maximum-number-of-open-files/ ]
+2008-10-17T20:03:00.000Z	cpu_temp	n8tuser	well obviously we`re talking about ubuntu not about some other system. I tryied the sysctl method and wrote in limits.conf and it still doesnt change the ulimit -n. I goes on RHEL, gentoo etc. So I`m just asking what must I do in ubuntu different to change ulimits -n permanentely?

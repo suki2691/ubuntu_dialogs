@@ -1,0 +1,4 @@
+2010-04-03T16:19:00.000Z	emghazal	jrib	I read those pages, there is nothing about backing up to a samba share
+2010-04-03T16:20:00.000Z	jrib	emghazal	well, for example you can just tar the directory up and place the tarball in a samba share.  It depends on what you want to do
+2010-04-03T16:21:00.000Z	jrib	emghazal	and several of the other backup solutions given there, if you read their documentation, will tell you if they support backing up to samba or not
+2010-04-03T16:26:00.000Z	jrib	emghazal	I imagine most will work fine.  The only issues I could possibly foresee is it not retaing attributes like permissions and ownership (I don't know if samba does this), but if you are backing up your own files, it shouldn't matter

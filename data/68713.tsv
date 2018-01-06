@@ -1,0 +1,4 @@
+2009-06-28T08:58:00.000Z	Xantor		Hey, I'm trying to start the SSH server on Ubuntu 9.04, but i get the error "sudo: /etc/init.d/ssh: command not found" from the command "sudo /etc/init.d/ssh start".  Both the SSH client and SSH server are installed, as well as autossh
+2009-06-28T08:59:00.000Z	kinja-sheep	Xantor	What packages did you install?
+2009-06-28T09:01:00.000Z	kinja-sheep	Xantor	Meh. I don't know.  openssh-server is usually sufficient.
+2009-06-28T09:02:00.000Z	kinja-sheep	Xantor	Run "sudo /etc/init.d/ssh restart"  -- Copy and paste.

@@ -1,0 +1,4 @@
+2012-05-22T07:53:00.000Z	asahi		when I run top, I can see that there are 6 ruby processes. However, when I run ps auxw | grep ruby, only one shows up. why is that?
+2012-05-22T07:54:00.000Z	zykotick9	asahi	top or htop?
+2012-05-22T07:54:00.000Z	asahi	zykotick9	top
+2012-05-22T07:54:00.000Z	zykotick9	asahi	ok, checking if you where seeing threads (didn't think top showed those by default, and i know htop does)

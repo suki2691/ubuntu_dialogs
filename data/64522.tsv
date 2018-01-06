@@ -1,0 +1,4 @@
+2009-11-27T15:26:00.000Z	dr4g		So should i just do... * * * * * /command/here/ 2>&1 > mycron_file_output
+2009-11-27T15:27:00.000Z	dr4g		Is that right ?
+2009-11-27T15:27:00.000Z	dr4g		to forward STDERR to STDOUT and then output to file.
+2009-11-27T15:28:00.000Z	skyl	dr4g	you could just make a bash script that does all of the particulars and have cron execute that

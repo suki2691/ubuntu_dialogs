@@ -1,0 +1,4 @@
+2007-09-28T07:16:00.000Z	BrianV		** question ** Hi all - I just mounted an external ext3 drive on my system. However, it only mounts as root, and 'sudo chown' tells me I don't have the permissions to chabg it to my user. How do I make it writable by non-root users?
+2007-09-28T07:17:00.000Z	MasterShrek	BrianV	sudo chmod -R 777 /mount/point
+2007-09-28T07:18:00.000Z	BrianV	MasterShrek	thank you, but I tried it. The command executes, but doesn't affect the permissions at all - they remain 755 or whatever
+2007-09-28T07:18:00.000Z	MasterShrek	BrianV	mount it as kitche said

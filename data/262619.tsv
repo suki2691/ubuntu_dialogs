@@ -1,0 +1,4 @@
+2004-11-20T17:08:00.000Z	ljb	lml	because fedora core probably enables X forwarding by default
+2004-11-20T17:08:00.000Z	ljb	lml	see /etc/ssh/sshd_config
+2004-11-20T17:09:00.000Z	lml	ljb	Thx - just a bit confused that it is also something that can be set on the server side.
+2004-11-20T17:10:00.000Z	ljb	lml	/etc/ssh/ssh_config will modify the default client settings so that you wouldn't need a -X

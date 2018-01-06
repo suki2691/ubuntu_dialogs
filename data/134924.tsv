@@ -1,0 +1,4 @@
+2009-11-19T00:12:00.000Z	comforteagle		hi, running top on my ubuntu maching I'm seeing waitio of up to 40% and load avg of of up to 4% & all memory eaten up. ideas for hunting down culprit?
+2009-11-19T00:13:00.000Z	simplexio	comforteagle	waitio means that proces has to to wait io to get something done, like there is lots of read/writes in disk, if using top, M sorts by memoery, and p by process time
+2009-11-19T00:17:00.000Z	comforteagle	simplexio	ok, so does one diagnose where an disk wait problem is happening?
+2009-11-19T00:21:00.000Z	simplexio	comforteagle	i suspect that your systems swaps for somereason, if not then dmesg may tell you that hard disk is failing

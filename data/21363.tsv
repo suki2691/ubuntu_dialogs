@@ -1,0 +1,4 @@
+2012-07-03T16:41:00.000Z	bhearsum		where does dns resolver information live these days? my /etc/resolv.conf is empty, /etc/resolvconf/resolv.conf.d has 'head' and 'base, both of which are empty, /run/resolvconf/resolv.conf is empty, and /var/run/dnsmasq doesn't exist --- yet dns resolution works for the most part (except this one host, which i'm trying to debug)
+2012-07-03T16:42:00.000Z	compdoc	bhearsum	you can create a file named 'tail' in /etc/resolvconf/resolv.conf.d/
+2012-07-03T16:42:00.000Z	compdoc		theres another way too, but I dont remember
+2012-07-03T16:43:00.000Z	bhearsum	compdoc	just did that

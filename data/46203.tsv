@@ -1,0 +1,4 @@
+2009-10-11T10:01:00.000Z	eboyjr		How can I make Network Manager applet connect automatically without having me enter the password to unlock the default keyring?
+2009-10-11T10:03:00.000Z	stebalien	eboyjr	 Check the 'Available to all users' box.  This will store the key in a configuration file, not the keyring.
+2009-10-11T10:04:00.000Z	stebalien	eboyjr	 you can also have the keyring unlocked when you login. (ubuntuforums.org will have instructions).
+2009-10-11T10:05:00.000Z	eboyjr	stebalien	Thanks I checked the box under Connection Information, then selecting Edit and it was at the bottom.

@@ -1,0 +1,4 @@
+2009-07-20T23:13:00.000Z	darkblue_B		Q. I want to allow a new person to ssh in to my computer.. I have ssh setup to allow login only with a publickey.. I placed an "authorized keys" file in the .ssh fldr of the new account, but the person cannot login.. do I have to enable something else somehwere?
+2009-07-20T23:14:00.000Z	ortsvorsteher	darkblue_B	did you put the key in an authorized_key file?
+2009-07-20T23:15:00.000Z	ortsvorsteher	darkblue_B	and he comes as user "guest" ?
+2009-07-20T23:16:00.000Z	ortsvorsteher	darkblue_B	check directory and file permissions on /home/guest/.ssh and whats in .ssh...

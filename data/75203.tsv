@@ -1,0 +1,4 @@
+2010-06-02T02:44:00.000Z	mikel		Hey all - I'm having some difficulty with sudo-ldap. Most LDAP functionality is working fine, users can login and so on, but they can't sudo at all - auth.log reports '3 incorrect password attempts' rather than 'you're not allowed sucka', but the passwords work just fine for the purpose of logging in via ssh in the first place.
+2010-06-02T02:45:00.000Z	mikel		btrfs is getting close to viable as a replacement for xfs. I wouldn't use it in a production environment yet but it's rock-solid at home so far
+2010-06-02T02:47:00.000Z	pyrophelia	mikel	how is the speed?
+2010-06-02T02:51:00.000Z	mikel	pyrophelia	I haven't been putting it under particularly heavy load but it's performance seems pretty comparable to reiserfs which I was using before

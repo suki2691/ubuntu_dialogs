@@ -1,0 +1,4 @@
+2009-06-23T02:01:00.000Z	igneousquill		I'm working through a bash tutorial and it is asking me to add an alias to .bash_profile . I finally found the file and was able to open it, but I can't save the file.  It says I don't have the necessary permissions.
+2009-06-23T02:02:00.000Z	igneousquill		so, how can I do it?
+2009-06-23T02:03:00.000Z	mbeierl	igneousquill	the .bash_profile should be owned by you and in your home directory
+2009-06-23T02:04:00.000Z	mbeierl	igneousquill	if you're getting permission denied, it's probably not the right file you're trying to edit

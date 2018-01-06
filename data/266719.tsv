@@ -1,0 +1,4 @@
+2006-06-18T10:12:00.000Z	rjian		y is this when i try to edit the smb.conf it says bash: /etc/samba/smb.conf: Permission denied
+2006-06-18T10:12:00.000Z	rjian		?
+2006-06-18T10:12:00.000Z	Dr_Willis	rjian	 you need root permission, so use 'sudo'
+2006-06-18T10:31:00.000Z	Dr_Willis	rjian	 like smbpasswd -a username    - So they can access their  samba/home share?

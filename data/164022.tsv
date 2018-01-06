@@ -1,0 +1,4 @@
+2008-01-08T12:50:00.000Z	some_dude		hey, I've made a program, and now I have to do a make install, but I don't want to clutter the file system. Iwold prefer to make package I can remove later
+2008-01-08T12:50:00.000Z	some_dude		does make remove work ?
+2008-01-08T12:51:00.000Z	some_dude		what's the prefix do ?
+2008-01-08T12:51:00.000Z	bulmer	some_dude	you create the target on the Makefile to uninstall, it does not happen magically

@@ -1,0 +1,4 @@
+2007-03-07T08:02:00.000Z	n0rus		How do I create a directory that will not be accessible by root? I have created a regular account. Created a directory. Set the permisions to 700 but it's still accessible by root
+2007-03-07T08:02:00.000Z	n0rus		how come it works in debian then?
+2007-03-07T08:03:00.000Z	cwill1	n0rus	yes :)
+2007-03-07T08:04:00.000Z	cwill1	n0rus	make sure it's actually user 0, not just a normal user called root

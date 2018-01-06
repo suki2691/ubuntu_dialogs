@@ -1,0 +1,4 @@
+2006-11-24T17:13:00.000Z	CoRnJuLiOx		hey all, im new to ubuntu and i was wondering how do i access my windows drive? i've got two drives right now, windows isn't loading (on the first drive) so i installed ubuntu on the second drive and now i'm trying to get crap off of it.
+2006-11-24T17:14:00.000Z	huibert	CoRnJuLiOx	ubuntu should be able to mount the windows partitions, read only, should work per default.
+2006-11-24T17:19:00.000Z	huibert	CoRnJuLiOx	yes, moving is a WRITE opperation, which is not supported on NTFS(windows) partitions
+2006-11-24T17:21:00.000Z	huibert	CoRnJuLiOx	you can assign a key to open your HOME. I assigned the left "windows" key for it.

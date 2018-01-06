@@ -1,0 +1,4 @@
+2011-11-30T16:27:00.000Z	Braden2		I am trying to get truecrypt to mount a volume on my ubuntu box, but when I try to mount it I get:  "Error: fuse: failed to open /dev/fuse: Permission denied"; however, /dev/fuse exists.
+2011-11-30T16:27:00.000Z	llutz	Braden2	"id" does it show you as member of group fuse?
+2011-11-30T16:31:00.000Z	Braden2	llutz	 Yes, I am a member of group fuse
+2011-11-30T16:31:00.000Z	llutz	Braden2	and you logged in new after adding you to that group?

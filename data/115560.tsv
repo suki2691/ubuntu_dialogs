@@ -1,0 +1,4 @@
+2008-09-15T10:30:00.000Z	Emmett		Does anyone know how to limit sudo by IP?
+2008-09-15T10:30:00.000Z	Emmett		for example, 'allow this user to run commands as root, but only from this IP?'
+2008-09-15T10:31:00.000Z	jdd	Emmett	I don't know if you can or not but it should be in "man sudoers" if you can. You can definately limit it by user.
+2008-09-15T10:32:00.000Z	jdd	Emmett	Could you just make a user for use with that IP?

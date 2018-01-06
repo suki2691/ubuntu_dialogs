@@ -1,0 +1,4 @@
+2006-12-15T10:56:00.000Z	abarbaccia		hello all, how would i write a stream from STDIN to a file on the command line if i need su privileges to edit the file?
+2006-12-15T10:57:00.000Z	abarbaccia		I can't just use the >
+2006-12-15T10:57:00.000Z	jrib	abarbaccia	pipe to sudo tee
+2006-12-15T10:57:00.000Z	abarbaccia	jrib	thanks

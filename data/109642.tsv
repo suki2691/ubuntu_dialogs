@@ -1,0 +1,4 @@
+2007-12-13T22:15:00.000Z	chd176		when trying to install a program I get an error saying "Only one software management tool is allowed to run at the same time" I have tried to restart and not opening anything except firefox to download the file again. Can anyone help me please?
+2007-12-13T22:15:00.000Z	loke_	chd176	Are you upgrading with apt-get or have synaptic open?
+2007-12-13T22:16:00.000Z	loke_	chd176	type "top" in the terminal to see if anyone's holding up the process
+2007-12-13T22:17:00.000Z	loke_	chd176	aptitude, synaptic, gdebi, anything that might be using the process, even though it appears dead

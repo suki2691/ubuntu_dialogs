@@ -1,0 +1,4 @@
+2006-09-28T09:07:00.000Z	agents		i need help learning something.  I'm completely new to linux.  A week ago I discovered the |, which is about the most badass thing I've ever seen in my life.  So, i've been reading the man pages for everything in /usr/bin/ and making notes (on my local drupal site, for notes) about what each app does.  I'm trying to come up with a list of 'puzzle peice' applications so i can start playing around with stringing apps together.l
+2006-09-28T09:07:00.000Z	agents		So I'm lookin' for commandline apps and tools that'll help me do this.
+2006-09-28T09:09:00.000Z	agents		``?
+2006-09-28T09:09:00.000Z	jrib	agents	checkout the stuff that coreutils package installs (dpkg -L coreutils | grep bin).  sed and awak are nice to learn too

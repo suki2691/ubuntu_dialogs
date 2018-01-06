@@ -1,0 +1,4 @@
+2009-12-14T11:34:00.000Z	jtaby		hey, i'm trying to count the number of lines in all my javascript files. I got find ./ -name "*.js" | cat | wc -l
+2009-12-14T11:34:00.000Z	jtaby		but thats' not working, since cat isn't doing what I thought it should do
+2009-12-14T11:36:00.000Z	geirha	jtaby	find ./ -name "*.js" -exec wc -l {} +
+2009-12-14T11:37:00.000Z	jtaby	geirha	thanks

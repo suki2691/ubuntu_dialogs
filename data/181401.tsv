@@ -1,0 +1,4 @@
+2006-11-08T06:52:00.000Z	RPO		hello?
+2006-11-08T06:53:00.000Z	RPO		I'm trying to ensure my Edgy release is the final version and I type $sudo opt-get update and it says sudo: opt-get: command not found
+2006-11-08T06:53:00.000Z	bruenig	RPO	it is apt-get not opt-get
+2006-11-08T07:27:00.000Z	bruenig	RPO	do sudo dpkg-reconfigure xserver-xorg. Go through all the options until you get to screen resolution and change it.

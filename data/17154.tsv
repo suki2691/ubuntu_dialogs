@@ -1,0 +1,4 @@
+2011-08-30T20:23:00.000Z	GortiZ		Hello to everybody! I've a question about iptables NAT and speed slowdown. I've upgrade a server to natty 11.04 and since then the internet connection is become slower. I've cleared all the iptables rules and now the only roule is the POSTROUTE on the NAT table and one ACCEPT into the INPUT table for the RELATED,ESTABLISHED (I've also tryied setting all (INPUT/OUTPUT/FORWARDING) default policies to ACCEPT.
+2011-08-30T20:23:00.000Z	GortiZ		any idea on what to test to address the issue? the internet speed of the server si 10Mb/s but the clients just goes at 1-2Mb/s
+2011-08-30T20:24:00.000Z	Polah	GortiZ	are you sure the clients are measuring and Mb and not MB?
+2011-08-30T20:24:00.000Z	GortiZ	Polah	yes, I've done both measurements from speedtest.net so it's not a matter of units of measure

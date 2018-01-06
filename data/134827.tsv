@@ -1,0 +1,4 @@
+2007-05-11T05:27:00.000Z	TriGz_		Hey hey - was wondering if anyone can help me mount a windows hard-drive so i can listen to the music that's on it?
+2007-05-11T05:28:00.000Z	dyrne	TriGz_	sudo fdisk -l then whatever drive is ntfs: sudo mkdir /media/windows; sudo chmown $USER:USER /media/windows; sudo mount -o umask=000 /dev/hda1 /media/windows   <--or something
+2007-05-11T05:30:00.000Z	dyrne	TriGz_	i left the $ off second user but you get the idea
+2007-05-11T05:31:00.000Z	TriGz_	dyrne	yah

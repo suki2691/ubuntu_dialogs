@@ -1,0 +1,4 @@
+2010-03-28T22:34:00.000Z	Alxandr		Yes. Also, how can I determine if there is hw-raid on the server?
+2010-03-28T22:34:00.000Z	Alxandr		I know it used to have raid1, but I don't know if its software or hardware.
+2010-03-28T22:35:00.000Z	Igramul	Alxandr	if it's hardware raid, it should appear as ordinary scsi drive to linux. If it's software raid, Linux will see the single disks until told otherwise.
+2010-03-28T22:37:00.000Z	Igramul	Alxandr	yes (see also DasEi's answer - /dev/md... is software raid).

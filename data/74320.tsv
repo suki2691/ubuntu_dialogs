@@ -1,0 +1,4 @@
+2008-11-23T17:05:00.000Z	jimmysparkle		hey i've just changed /etc/timezone on my ubuntu server - how do i make the change take effect?
+2008-11-23T17:06:00.000Z	jimmysparkle		i've just changed /etc/timezone on my ubuntu server - how do i make the change take effect?
+2008-11-23T17:07:00.000Z	oskar-	jimmysparkle	 i think the timezone information is process specific and resides in the environment variables. if you "source /etc/profile" the shell and its new child processes should adopt it
+2008-11-23T17:10:00.000Z	oskar-	jimmysparkle	 sorry, i am not sure about it

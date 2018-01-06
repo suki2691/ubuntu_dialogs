@@ -1,0 +1,4 @@
+2010-10-23T21:10:00.000Z	LDC		guys, i am on Ubuntu 10.10 with a 'normal' install which means the /home is in the same physical partiton as my OS install. I just formated a windows NTFS partition into ETX4. How do that I turn that whole EXT4 new partition into the /home/Downloads partition?
+2010-10-23T21:11:00.000Z	Dr_Willis	LDC	 mount it to /home/yourusername/downloads or whever.  and chown it to be owned by the user. sudo chown username:username /home/whatever/downloads
+2010-10-23T21:14:00.000Z	Dr_Willis	LDC	 its 'better' to use the UUID type entry in the fstab. instead of the /dev/sdXX type entry. but either can work.
+2010-10-23T21:14:00.000Z	Dr_Willis	LDC	 check the existing fstab and see the regular lines. yours should be similer.

@@ -1,0 +1,4 @@
+2009-05-26T14:18:00.000Z	thosch		what is the command to find out in what format a disk is formatted?
+2009-05-26T14:19:00.000Z	bullgard4	thosch	sudo df -h?
+2009-05-26T14:21:00.000Z	bullgard4	thosch	err. sudo cfdisk /dev/sda
+2009-05-26T14:26:00.000Z	thosch	bullgard4	b3ta - thx, though i didn't the file system type wtih these commands. df -T did the trick.

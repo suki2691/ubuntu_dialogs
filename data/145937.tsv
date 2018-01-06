@@ -1,0 +1,4 @@
+2012-06-20T20:37:00.000Z	kaje1		I was trying to install a package using apt-get and it failed during the install. Now, whenever I install or update, it tries to complete that install and fails. Is there some way to cancel all pending installs for apt?
+2012-06-20T20:39:00.000Z	usr13	kaje1	sudo apt-get -f install
+2012-06-20T20:40:00.000Z	kaje1	usr13	That causes the error to show up again. It is still trying to complete the install of this damn package
+2012-06-20T20:42:00.000Z	usr13	kaje1	What package?

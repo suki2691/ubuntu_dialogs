@@ -1,0 +1,4 @@
+2010-08-23T02:28:00.000Z	panfist		i have my computer configured to log in automatically on boot, so that i can still VNC into it if i have to reboot it remotely, but i still can't because it prompts for a password to "unlock login keyring" and i can't connect via VNC until this is dismissed
+2010-08-23T02:28:00.000Z	maco	panfist	change the keyring password to an empty string
+2010-11-22T08:04:00.000Z	maco	panfist	yes if you use  dpkg  --get-selections > file   and then on the other dpkg --set-selections < file  && sudo aptitude dselect-upgrade  it'll make the install list match
+2010-11-22T08:04:00.000Z	maco	panfist	and yes youd get updates

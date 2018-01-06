@@ -1,0 +1,4 @@
+2012-09-10T17:41:00.000Z	hashpuppy		what's the ubuntu equivalence of this command:  chkconfig --list ntpd
+2012-09-10T17:43:00.000Z	hashpuppy		sudo: chkconfig: command not found
+2012-09-10T17:45:00.000Z	Pici	hashpuppy	it would be something like: initctl list | grep ntpd
+2012-09-10T17:46:00.000Z	hashpuppy	Pici	that just tells me what services are running, as opposed to what runlevels they are configured to run at on start

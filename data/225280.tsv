@@ -1,0 +1,4 @@
+2006-04-13T08:22:00.000Z	Cin		Hm. Coming from a FBSD perspective on getting packages as source that you compile, is there a way I can get the source of a particular program (like Konsole) in that sense? So I can basically check out the source, edit something and do make install?
+2006-04-13T08:23:00.000Z	smo	Cin	apt-get source <package> .. change what you need, then within the source root, 'debian/rules binary' will chew for a while, then spit out a .deb you can install like normal
+2006-04-13T08:24:00.000Z	Cin	smo	thanks man. :D
+2006-04-13T08:24:00.000Z	Cin	smo	it's getting to the point where I want a feature on a prog. but if I request it, you know it's gunna take a long time for it to be added to the main proj.

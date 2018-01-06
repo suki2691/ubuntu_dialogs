@@ -1,0 +1,4 @@
+2007-12-16T01:31:00.000Z	wz		I just upgraded Feisty -> Gutsy. The new .22 kernel fails to boot b/c fsck can't find /dev/hda* - which became /dev/sda* with the new kernel.
+2007-12-16T01:32:00.000Z	loke_	wz	Boot up a livecd and mount your / partition.  Modify /etc/fstab to change /dev/hda to /dev/sda
+2007-12-16T01:32:00.000Z	wz	loke_	I'm fine running the old kernel. That should fix it?
+2007-12-16T01:38:00.000Z	wz	loke_	Thanks, that indeed fixed it

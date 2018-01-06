@@ -1,0 +1,4 @@
+2011-08-07T02:44:00.000Z	synapse		Anyone know why sudo keeps asking for my password when I have "synapse ALL=(ALL) ALL" in /etc/sudoers?
+2011-08-07T02:46:00.000Z	wildbat	synapse	coz you didn't set NOPASSWD
+2011-08-07T02:46:00.000Z	wildbat	synapse	and it is not recommended to set ALL to NOPASSWD ...
+2011-08-07T02:50:00.000Z	wildbat	synapse	not secure , any sudo from any script that you not aware of may cause damage viruses/format/disk erase/file erase you name it .

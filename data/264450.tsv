@@ -1,0 +1,4 @@
+2004-10-23T10:21:00.000Z	darkersatanic		The D state is where the task is waiting for the kernel to do something, such as read from a device or write to one.
+2004-10-23T10:22:00.000Z	darkersatanic		Tasks should spend small amounts of time in D state.
+2004-10-23T10:22:00.000Z	darkersatanic		They can't be interrupted in D state, and if they end up getting stuck in it, you can't kill them.
+2004-10-23T10:23:00.000Z	|trey|	darkersatanic	thank you  :)

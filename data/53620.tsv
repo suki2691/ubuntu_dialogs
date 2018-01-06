@@ -1,0 +1,4 @@
+2009-08-20T16:53:00.000Z	dvz-		heya, is it possible to install fedora (from livecd) on a 2nd external hd from within ubuntu? (rather than restarting into the livecd)
+2009-08-20T16:54:00.000Z	ActionParsnip	dvz-	you'll need to install fedora in the standard fedora way and keep your internal drive as the bootable disk
+2009-08-20T16:55:00.000Z	dvz-	ActionParsnip	my internal drive is dying, and i'm trying to set it up so that it has grub info and menu.lst on sdb1, a swap primary (sdb2), and LVM (sdb3)...but fedora insists on overriding my preformatted/partitioned disk and it's frustrating. meh.
+2009-08-20T16:56:00.000Z	ActionParsnip	dvz-	ask in #fedora they may be able to tell you how to beat their installer into submission

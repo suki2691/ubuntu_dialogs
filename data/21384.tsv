@@ -1,0 +1,4 @@
+2011-02-21T19:48:00.000Z	tdn		I experience extremely low I/O performance with 10.10 and LUKS even though I am on an SSD. What gives? I figure this is some kind of scheduling problem as it is not a problem for non encrypted partitions.
+2011-02-21T19:48:00.000Z	compdoc	tdn	if you didnt create the partition correctly, you will kill performace, and kill the ssd
+2011-02-21T19:53:00.000Z	tdn	compdoc	I guess it is created correctly. If not, there is a serious bug in the Ubuntu alternate installer -- I created the partition with the guided installer.
+2011-02-21T19:54:00.000Z	compdoc	tdn	gparted does it correctly now - what you do is leave 1 meg of free space before the partition. this causes the first partition to start at secotr 2048

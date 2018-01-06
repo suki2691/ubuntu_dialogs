@@ -1,0 +1,4 @@
+2007-09-13T11:06:00.000Z	seme		hi guys... can anyone tell me how I restart the config phase of an install... for some reason tomcat installed without depending on a jre and the post install failed... I've installed the jdk now so I want to restart the config phase
+2007-09-13T11:07:00.000Z	nickrud	seme	sudo dpkg-reconfigure tomcat (or whatever the exact package name is)
+2007-09-13T11:08:00.000Z	nickrud	seme	if it's an ubuntu server, run that command on the server
+2007-09-13T11:09:00.000Z	seme	nickrud	thanks... dpkg --configure worked

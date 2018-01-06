@@ -1,0 +1,4 @@
+2004-12-07T12:18:00.000Z	sparehead1		ok I'm tryin to get acroread to work, would /usr/bin/Acrobat5/bin count as the install directory?
+2004-12-07T12:19:00.000Z	MobyTurbo	sparehead1	if you're installing it outside of the packaging system, use /usr/local as the stem name then make symlinks of the executable to /usr/local/bin
+2004-12-07T12:23:00.000Z	MobyTurbo	sparehead1	well, since that is *within* the packaging system disregard my /usr/local advice. It should have put acroread somewhere in your path.
+2004-12-07T12:31:00.000Z	MobyTurbo	sparehead1	well, add multiverse and you can install a lot of non-free stuff without leaving ubuntu repos.

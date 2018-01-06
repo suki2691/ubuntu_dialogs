@@ -1,0 +1,4 @@
+2007-12-04T16:57:00.000Z	epifanio		hi, i've installed for the first time an ubuntu7.10 (server) wiyhout gui, can you suggest me the right command to mount and explore an usb-pen-drive using the shall ?
+2007-12-04T16:58:00.000Z	erUSUL	epifanio	not sure if the server edition has hal hotplug etc.... but you can try pmount /dev/xxxx replacing xxxx with the correct device
+2007-12-04T16:59:00.000Z	erUSUL	epifanio	if the server does not have pmount uso mount -t auto/dev/xxxx  /mount/point
+2010-04-13T00:26:00.000Z	erUSUL	epifanio	#ubuntu+1

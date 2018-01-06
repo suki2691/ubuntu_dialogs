@@ -1,0 +1,4 @@
+2010-11-26T18:08:00.000Z	nV		hey guys, can someone please explain to me how do I set the permissions for var/www to all users?
+2010-11-26T18:08:00.000Z	nV		this is, if I understand correctly, the default directory for my localhost files correct?
+2010-11-26T18:09:00.000Z	pure_hate	nV	You dont set permissions for all users, generally if its a web app you give it permisions of the web-user
+2010-11-26T18:26:00.000Z	pure_hate	nV	To change ownership of the file: chown -R www-data:www-data  /var/www

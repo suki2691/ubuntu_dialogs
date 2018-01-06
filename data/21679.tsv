@@ -1,0 +1,4 @@
+2011-12-10T05:07:00.000Z	L3d		so whats the cmd to instaal the updates and stuf ??
+2011-12-10T05:07:00.000Z	L3d		dam i confused
+2011-12-10T05:07:00.000Z	L3d		and this keyboard isnt helping
+2011-12-10T05:07:00.000Z	mongy	L3d	 forget ssl, just use ssh locally.  sudo apt-get install ssh,  ssh youruser@localhost -D 1234  then in browser set proxy to SOCKS5  localhost 1234 (replace 1234 with whatever you like)

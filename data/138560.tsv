@@ -1,0 +1,4 @@
+2007-06-30T15:19:00.000Z	stefg	magnetron	slightly slowm but within reasonable range
+2007-07-07T06:42:00.000Z	magnetron	stefg	zylche: any ext2 undelete software will not work with ext3, because ext3 zeros out the block pointers
+2007-07-07T06:43:00.000Z	stefg	magnetron	i pointed him already to the ext3 faq stating that. i just had some google hits (in german) where users report partial success with mc's undelete
+2007-07-07T06:45:00.000Z	magnetron	stefg	zylche, kbrooks: the reason that ext2 undelete won't work is that ext3 removes the traces of where the file used to be. it would have no idea where to look for the file.

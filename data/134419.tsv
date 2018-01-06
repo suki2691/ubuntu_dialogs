@@ -1,0 +1,4 @@
+2007-06-02T16:12:00.000Z	gif89apro		anyone know how to modify /etc/hosts to include a host file from another machine on my network?
+2007-06-02T16:13:00.000Z	Falstius	gif89apro	yeah, you can with nis+.
+2007-06-02T16:16:00.000Z	Falstius	gif89apro	you set up one machine on the network as an nis server.  The others as clients.  they can share almost any configuration file, but primarly it is used for hostnames, ssh keys, and logins.  You'll have to google for detailed instructions.  It isn't terribly complicated, but you should be very comfortable with the command line.
+2007-06-02T16:16:00.000Z	gif89apro	Falstius	oh yes, i prefer command line to anything else... i'll look it up

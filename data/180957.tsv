@@ -1,0 +1,4 @@
+2006-06-08T05:48:00.000Z	phreakaz		hi everybody, where can I set the essid for my wlan?
+2006-06-08T05:49:00.000Z	skonks	phreakaz	sudo iwconfig wlan0 ESSID 'name'
+2006-06-08T05:50:00.000Z	phreakaz	skonks	is this than configured permanently or until next reboot?
+2006-06-08T05:51:00.000Z	skonks	phreakaz	not permanently.. to do that configure /etc/network/interfaces

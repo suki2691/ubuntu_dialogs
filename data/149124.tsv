@@ -1,0 +1,4 @@
+2008-08-13T13:49:00.000Z	`brooks		how do i edit how a command works?  ie: execute ' echo "List of " + [PWD] ' before ls command executes?
+2008-08-13T13:51:00.000Z	`brooks		.cmon, one of you knows :000
+2008-08-13T13:51:00.000Z	unop	`brooks	dunno why you would want to do that
+2008-08-13T13:51:00.000Z	unop	`brooks	 alias ls='echo list of $PWD; ls'

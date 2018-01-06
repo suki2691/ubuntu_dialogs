@@ -1,0 +1,4 @@
+2005-04-21T09:37:00.000Z	Cicada		ok I have installed nvidia drivefrs for my fx5200...   and played with nvidia-settings... how do I configure my card to mirror image on both outputs (or even better to send the output of mplayer to the second monitor only)?
+2005-04-21T09:39:00.000Z	membreya	Cicada	if you want it to do a mirror, just use Option   "TwinViewOrientation" "Clone" in  your xorg.conf
+2005-04-21T09:40:00.000Z	Cicada	membreya	cheers will do... any idea how i can format the video out of my dvi connector to be standard analogue xvga rather than dvi
+2005-04-21T09:45:00.000Z	membreya	Cicada	/etc/X11/xorg.conf

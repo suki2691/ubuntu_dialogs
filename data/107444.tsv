@@ -1,0 +1,4 @@
+2008-01-22T21:02:00.000Z	OmegaCenti		Oy, this is a hassle trying to run vpnc as a member of the group vpnc. vpnc is located in /usr/sbin/vpnc. My path doesn't have /usr/sbin in it, and even if I try /usr/sbin/vpnc default.conf it gives me an error of binding to 0.0.0.0:500: Permission denied. Any suggestions?
+2008-01-22T21:04:00.000Z	erawfish	OmegaCenti	you need to be root to be able to bind to ports <1024
+2008-01-22T21:04:00.000Z	erawfish	OmegaCenti	also that it is in /usr/sbin is a STRONG hint that only under root this program is runnable
+2008-01-22T21:05:00.000Z	OmegaCenti	erawfish	so I should only run it as root?

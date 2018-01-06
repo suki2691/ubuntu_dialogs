@@ -1,0 +1,4 @@
+2009-07-26T18:31:00.000Z	xero		Hey all, is there something similar to the shutdown command on the system menu in bash which can be run as a non-root user?
+2009-07-26T18:32:00.000Z	Trijntje	xero	try googling visudo shutdown
+2009-07-26T18:35:00.000Z	xero	Trijntje	I understand visudo allows commands that are standardly root to be run all the time by regular users, so what's the command that is run by the shutdown launcher that bypasses this?
+2009-07-26T18:37:00.000Z	Trijntje	xero	when you allow SHUTDOWN_CMDS in visudo, you can shut down using sudo shutdown -h now and it wont ask for your password. But read what actionparsnip says about security issues

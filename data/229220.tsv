@@ -1,0 +1,4 @@
+2005-10-24T13:50:00.000Z	dazzlindan		hello. i have kopete installed.  i can't start it unless using sudo because it doesn't have permission to wrote to the directories it requires to save config files (ie.  ~/.kde/Shared).  How can i solve this?  How would i give kopete permission to do so?
+2005-10-24T13:51:00.000Z	mwe	dazzlindan	that directory is not owned by you, since you get access errors?
+2005-10-24T13:52:00.000Z	mwe	dazzlindan	ls -l ~/.kde/share confirms that?
+2005-10-24T13:52:00.000Z	mwe	dazzlindan	ls -ld that should be

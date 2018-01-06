@@ -1,0 +1,4 @@
+2011-05-15T08:22:00.000Z	paintchip		does anyone have the time to help me get windows 7 to boot from grub? I have tried a bunch of things and can't get it
+2011-05-15T08:23:00.000Z	paintchip		thanks
+2011-05-15T08:23:00.000Z	paintchip		i just installed windows 7 and its a bit different than vista in terms of partitioning
+2011-05-15T08:24:00.000Z	Jimmio	paintchip	You have to put the Windows 7 disk back in, and repair the boot process..? I don't quite remember. It's because you overwrote the bootloader with GRUB and you need to put it back in the Windows partition. Then if GRUB doesn't see Win7, there's a grub-update I believe.

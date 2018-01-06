@@ -1,0 +1,4 @@
+2008-01-25T05:37:00.000Z	puneypunk		hi ive just installed mysql and when i try and log in as root with `mysql -u root -p mypassword` it then asks again for a password and when i re-enter it says `Enter password:
+2008-01-25T05:37:00.000Z	puneypunk		ERROR 1049 (42000): Unknown database 'mypassword'
+2008-01-25T05:38:00.000Z	kitche	puneypunk	you want to do mysql -u root -p
+2008-01-25T05:39:00.000Z	kitche	puneypunk	just remove the mypassword part from that line since it's for the database that you want to connect to after the -p really

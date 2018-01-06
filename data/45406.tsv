@@ -1,0 +1,4 @@
+2009-10-20T14:38:00.000Z	arand		I have a wireless network which only leases for ~300 seconds, meaning that network manager drops the connection constantly (I presume this is the reason). Currently I'm forced to use ifupdown (+wpa_client) and "watch -n 200 sudo dhclient wlan0" To access the network, which works just as it should. Any way to get this working in NM?
+2009-10-20T14:40:00.000Z	|DarkStar|	arand	are you using a wireless router connected to your cable? adsl? and if so, can you connect to it directly and access it's web config page?
+2009-10-20T14:41:00.000Z	arand		Clarification: I have no possibility configure the network/DHCP, this is a wireless access point at a university.
+2009-10-20T14:43:00.000Z	arand	|DarkStar|	I can't configure it see^

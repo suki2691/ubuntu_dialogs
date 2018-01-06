@@ -1,0 +1,4 @@
+2009-03-09T06:15:00.000Z	skel	maxagaz	there might be state files laying around in your .mozilla dir, you could try mv ~/.mozilla ~/.mozaill-bak
+2009-03-09T06:16:00.000Z	skel	maxagaz	I'm not sure, what I'd do is move it back, then from command line, run strace firefox
+2009-03-09T06:17:00.000Z	skel	maxagaz	you should be able to see what file its reading to determine its running
+2009-03-09T06:17:00.000Z	skel	maxagaz	and remove that

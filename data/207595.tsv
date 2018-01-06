@@ -1,0 +1,4 @@
+2005-11-28T14:38:00.000Z	recon0		does anyone know how to run sshd?
+2005-11-28T14:38:00.000Z	zdennis	recon0	when you install the ssh server, it starts sshd up at boot time
+2005-11-28T14:39:00.000Z	recon0	zdennis	is there any way to start it manually?
+2005-11-28T14:39:00.000Z	zdennis	recon0	if you want to start manually or restart then from a terminal you can do "sudo /etc/init.d/ssh start"

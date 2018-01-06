@@ -1,0 +1,4 @@
+2006-12-24T06:28:00.000Z	Slart		How do I get the UUID of a partition?
+2006-12-24T06:29:00.000Z	un_operateur	Slart	you can do this -- ls -l /dev/disk/by-uuid/
+2006-12-24T06:29:00.000Z	Slart	un_operateur	sweet, thanks
+2007-01-07T07:24:00.000Z	un_operateur	Slart	sudo su is redundant -- use sudo -s or sudo -i instead

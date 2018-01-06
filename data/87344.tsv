@@ -1,0 +1,4 @@
+2008-10-16T07:33:00.000Z	omnomnOMINOUS		Hi all! I'm using Firefox 3.0.3 on Ubuntu Hardy Heron, and I'm getting random crashes with Flash. Sometimes Firefox crashes when I load a page with Flash; sometimes it crashes when I start playing a video. Sometimes it crashes the first time I try to load a page with Flash, and then works fine the second time I try to load it. Sometimes it crashes over and over. Why is this happening? How can I fix it? Thanks in advance! :)
+2008-10-16T07:34:00.000Z	PMT	omnomnOMINOUS	- have you filed a bug using apport?
+2008-10-16T07:34:00.000Z	omnomnOMINOUS	PMT	no, how do I do that?
+2008-10-16T07:35:00.000Z	PMT	omnomnOMINOUS	I'm not sure of the nice way to enable apport using the GUI, but edit /etc/default/apport, change enabled=0 to enabled=1, then run /etc/init.d/apport start

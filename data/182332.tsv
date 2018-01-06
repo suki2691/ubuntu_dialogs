@@ -1,0 +1,4 @@
+2007-01-14T14:00:00.000Z	moocowmoocowmoo		hello, i'm trying to make a shell script to do automated backups of a windows file share, i used the smbmount command in the terminal and it worked, but is there a way to bypass entering a password so the script can run by itself?
+2007-01-14T14:00:00.000Z	moocowmoocowmoo		moo
+2007-01-14T14:01:00.000Z	moocowmoocowmoo		no i'd rather its just mounted when the backup runs
+2007-01-14T14:02:00.000Z	stefg	moocowmoocowmoo	read about credential-files in samba and the mount syntax for smb-shares

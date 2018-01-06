@@ -1,0 +1,4 @@
+2004-10-28T15:30:00.000Z	enabl		how do i set dma on for my dvd/rw drives?
+2004-10-28T15:30:00.000Z	Zindar	enabl	hdparm -d1 /dev/blaha
+2004-10-28T15:31:00.000Z	Zindar	enabl	then edit /etc/hdparm.conf
+2004-10-28T15:31:00.000Z	Zindar	enabl	run it with "sudo " before

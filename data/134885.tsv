@@ -1,0 +1,4 @@
+2009-09-06T00:50:00.000Z	fiber		hello.... i was doing an scp transfer of a folder with a BUNCH of data in it (~150GB) and the connection cut midway... is there any way I can resume the transfer without restarting everything? something like a `cp -u` parameter?
+2009-09-06T00:51:00.000Z	simplexio	fiber	not that i know using only scp (but with little scrip yes), try use rsync instead
+2009-09-06T00:52:00.000Z	fiber	simplexio	does rsync use ssh to tunnel the data through?
+2009-09-06T00:52:00.000Z	simplexio	fiber	rsync -avz -e ssh remoteuser@remotehost:/remote/dir /this/dir/   google gives me that line

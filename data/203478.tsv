@@ -1,0 +1,4 @@
+2006-06-12T08:17:00.000Z	Dyegov		I'm trying to install xampp in mi ubuntu, and the instalation guide says that I gotta log in in the terminal as root. I've already done it, but then it says i gotta move that to the "opt" directory typing "tar xvfz xampp-linux-1.5.3a.tar.gz -C /opt" but it says the file doesn't exist. The file is in the desktop, where should I put it to work?
+2006-06-12T08:17:00.000Z	Dyegov		what's that?
+2006-06-12T08:18:00.000Z	Ignite	Dyegov	open up a terminal and do, "sudo tar xvzf <file name> -C /opt/
+2006-06-12T08:18:00.000Z	Ignite	Dyegov	then when you want to start it run "sudo /opt/lampp/lampp start" :)

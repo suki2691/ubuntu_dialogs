@@ -1,0 +1,4 @@
+2009-05-15T03:13:00.000Z	raving		Greetings, I'm having trouble installing 9.04 server on a PowerEdge 6450 with a SCSI CD-ROM (TEAC CD-224e). The CD can boot alrighty, but the installer can't mount the CD afterwards. I've tried booting off of a USB key, to no avail (BIOS is porbably too old)
+2009-05-15T03:14:00.000Z	jdu	raving	sounds like cd drive is too old too, or bad.
+2009-05-15T03:14:00.000Z	raving	jdu	perhaps, dmesg is reporting a lot of CRC errors
+2009-05-15T03:18:00.000Z	jdu	raving	one solution might be to use a bootfloppy.

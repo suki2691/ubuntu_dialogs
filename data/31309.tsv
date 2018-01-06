@@ -1,0 +1,4 @@
+2010-07-23T00:52:00.000Z	CbIP		Guys, I have a problem: all browsers work much slower (min. 2 times) in Ubuntu 10.04 than in Windows. The pages are loaded fast, but it looks like the browser cannot resolve DNS for 5-30 sec. before loading. I have disabled ipv6 support. How to fix it?
+2010-07-23T00:53:00.000Z	Barnabas	CbIP	you use the same dns server on ubuntu as on windows?
+2010-07-23T00:53:00.000Z	CbIP	Barnabas	yes, I do. The same DNS, the same connection
+2010-07-23T00:55:00.000Z	Barnabas	CbIP	perhaps it is worth trying to see directly how the speed is on a dns lookup

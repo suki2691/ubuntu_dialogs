@@ -1,0 +1,4 @@
+2011-12-11T20:15:00.000Z	Tetracomm		Hello. Why is it that I am unable to set the permissions for a folder in the /host directory in such a way that I can access them with my normal user account?
+2011-12-11T20:16:00.000Z	dr_willis	Tetracomm	 what filesystem is in use for /host/ ?
+2011-12-11T20:17:00.000Z	Tetracomm	dr_willis	I think it is NTFS. It is the partition that came with this Windows 7 computer.
+2011-12-11T20:17:00.000Z	dr_willis	Tetracomm	 thats why then, you dont chown/chmod ntfs or vfat on a file.folder basis,. you set the options when you mount them

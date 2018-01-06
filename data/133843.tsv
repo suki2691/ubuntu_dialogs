@@ -1,0 +1,4 @@
+2010-06-21T04:18:00.000Z	purpzey		How do specify tar to create a file to a specific path, is it just tar /path/to/file b/c that doesn't seem to be working. . .
+2010-06-21T04:19:00.000Z	pflanze	purpzey	man tar, "tar c path/to/file" writes to stdout
+2010-06-21T04:21:00.000Z	purpzey	pflanze	How do I get it to create the tar to specified path?
+2010-06-21T04:21:00.000Z	pflanze	purpzey	man tar, or use shell redirection.

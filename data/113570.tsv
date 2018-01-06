@@ -1,0 +1,4 @@
+2008-08-29T23:35:00.000Z	mnemo		how can I list all the .SO files currently loaded into a process?
+2008-08-29T23:36:00.000Z	Daisuke_Ido	mnemo	lsof
+2008-08-29T23:38:00.000Z	Daisuke_Ido	mnemo	to make it a little easier, use lsof | grep <processname or pid>
+2008-08-29T23:40:00.000Z	mnemo	Daisuke_Ido	I tried "lsof | grep `pidof X`" but that only prints 4 files in /proc and I know X has loaded many .so files?

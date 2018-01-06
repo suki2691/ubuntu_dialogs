@@ -1,0 +1,4 @@
+2007-11-15T00:15:00.000Z	tomd		hi, I've noticed my hard drive is very slow on ubuntu gutsy. I also noticed that my hdd's device name is /dev/sda but it is not a scsi drive. Is scsi emulation supposed to be faster? When I do hdparm /dev/sda, it does not print using_dma=1. Can you use dma while using scsi emulation? Thanks for any help in advance... I wanna convert some files.. its not going very fast this way
+2007-11-15T00:17:00.000Z	YeTr2	tomd	the /dev/ entries have been known to change from kernel version to kernel version
+2007-11-15T00:18:00.000Z	tomd	YeTr2	i had the impression that sda was for a scsi drive and hda was for an ide drive? am I mistaken? are you saying that it makes no difference whether my drive is called hda or sda?
+2007-11-15T00:18:00.000Z	YeTr2	tomd	none what so ever.

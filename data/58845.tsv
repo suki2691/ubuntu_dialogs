@@ -1,0 +1,4 @@
+2009-04-29T12:50:00.000Z	carmony		Question: I have an enormous tgz file (64GB) that I need to decompress and untar. When I do tar -xzf it works, but it tanks my server's CPU and I/O causing the rest of the server to grind to a halt. Is there a way I can throttle or limit it so it won't consume all the server's resources?
+2009-04-29T12:52:00.000Z	ismarc	carmony	you can try zcat > output.tar
+2009-04-29T12:54:00.000Z	ismarc	carmony	it's like cat, but for gzipped files, is incremental, meaning it extracts data as it determines it needs to
+2009-04-29T12:54:00.000Z	ismarc	carmony	typically nicer than gunzip or tar -xf

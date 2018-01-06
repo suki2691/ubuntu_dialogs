@@ -1,0 +1,4 @@
+2009-01-10T04:31:00.000Z	ryanakca		At boot, how can I have my swap be decrypted *after* my home partition? (the key is a file on /home, both partitions are in my crypttab, LUKS)
+2009-01-10T04:31:00.000Z	usser	ryanakca	why do u encrypt swap in the first place?
+2009-01-10T04:31:00.000Z	usser	ryanakca	how do you decrypt /home if the key is on /home?
+2009-01-10T04:35:00.000Z	ryanakca	usser	Because, well, if the power goes out, and I'm not there to restart the computer / safely turn it off, the passphrase to the encrypted devices remains, in plaintext, on the swap partition. And, the *swap* key is on /home. The home key is a passphrase.

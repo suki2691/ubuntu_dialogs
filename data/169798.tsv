@@ -1,0 +1,4 @@
+2006-08-25T08:22:00.000Z	doomik		What kernel ubuntu desktop 6.06.1 LTS uses ?
+2006-08-25T08:23:00.000Z	phiber_optic	doomik	dpkg -l linux-image-$(uname -r) |grep ^ii |awk '{ print $3 }'
+2006-08-25T08:26:00.000Z	doomik	phiber_optic	Sorry but I don't have  ubuntu installed on my computer yet, I'm trying to find out what kernel ubuntu uses because it important to my modem driver...I read that he have some troubles with new kernels...
+2006-08-25T08:27:00.000Z	phiber_optic	doomik	2.6.15-26.46

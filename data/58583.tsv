@@ -1,0 +1,4 @@
+2012-05-28T00:34:00.000Z	VDZ		escott; it didn't work, but manually running the file gives the output "start: Unknown job: on" "Script started, file is typescript", dumps me in a root prompt, and on CTRL+D-ing it goes "Script done, file is typescript", "tightvncserver: Wrong type or access mode of /home/vdz/.vnc", "/etc/init/startvnc.conf: 4: /etc/init/startvnc.conf: end: not found". At least I have something to work with
+2012-05-28T00:34:00.000Z	VDZ		now
+2012-05-28T00:35:00.000Z	VDZ		escott; but I don't want to run tightvncserver as root. Wouldn't that give me a complete root session? That'd defeat the entire point of requiring sudo and the like
+2012-05-28T00:36:00.000Z	Darael	VDZ	Put whatever it is in root's crontab and use "sudo -u vdz" in the command to run it as you?

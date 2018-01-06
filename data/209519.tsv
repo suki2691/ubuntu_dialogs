@@ -1,0 +1,4 @@
+2007-03-27T08:17:00.000Z	jbhaney		Hi folks, I was wondering if anybody knows how to switch to runlevel 3 in 7.04.
+2007-03-27T08:18:00.000Z	LjL	jbhaney	"telinit 3", but it won't be much use i think, as runlevels aren't very stressed upon in ubuntu really
+2007-03-27T08:23:00.000Z	LjL	jbhaney	define "works"... i'm not even really sure the concept of runlevels is present anymore with upstart, except as very basic compatibility with sysvinit
+2007-03-27T08:24:00.000Z	LjL	jbhaney	for instance, /etc/inittab is only parsed ("parsed" being too big a word) to check for the default runlevel. but i'm not really sure how much that's actually employed to start or not start things...

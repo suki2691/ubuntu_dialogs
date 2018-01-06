@@ -1,0 +1,4 @@
+2008-12-01T02:10:00.000Z	alex_21		I have a desperate network problem I must fix. Here is what I get from /tc/init.d/networking restart * reconfiguring network interfaces... rtnetlink no such process. What can I do about it
+2008-12-01T02:10:00.000Z	alex_21		I have a desperate network problem I must fix. Here is what I get from /tc/init.d/networking restart * reconfiguring network interfaces... rtnetlink no such process. What can I do about it
+2008-12-01T02:11:00.000Z	ziesemer_	alex_21	does the networking still come up, or does it actually fail?
+2008-12-01T02:11:00.000Z	ziesemer_	alex_21	- Otherwise, there may just be items in the if-up and if-down scripts that are failing, but not causing the restart to actually "fail".

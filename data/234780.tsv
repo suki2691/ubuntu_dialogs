@@ -1,0 +1,4 @@
+2005-11-27T11:05:00.000Z	pztak		i dont understand.. how is it that ext3 is a module with the default ubuntu kernel and not built-in if the filesystem for the boot (root partition) is ext3? and then if i build-in ext3 it complains on boot about not being able to find the ext3 module (and the modules.dep file not existing) ?
+2005-11-27T11:05:00.000Z	robotgeek	pztak	maybe the initrd has something to do with it
+2005-11-27T11:06:00.000Z	pztak	robotgeek	any suggestions on how to figure that out?
+2005-11-27T11:07:00.000Z	robotgeek	pztak	no, i was just guessing. sorry

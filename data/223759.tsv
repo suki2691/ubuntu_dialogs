@@ -1,0 +1,4 @@
+2011-08-15T03:18:00.000Z	triplc		hi all
+2011-08-15T03:19:00.000Z	triplc		how to get a "basic" dev environment? i run "apt-get --no-install-recommends install build-essential".. how i ever i still cannot compile dwm (a basic window manager)
+2011-08-15T03:21:00.000Z	triplc		oops
+2011-08-15T03:21:00.000Z	th0r	triplc	you will need the -dev packages for whatever libs are required by the package you are trying to compile...it isn't just a matter of installing build-essential

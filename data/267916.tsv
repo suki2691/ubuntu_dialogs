@@ -1,0 +1,4 @@
+2005-09-28T05:38:00.000Z	Trilobite		hi guys, i've just installed ubuntu as a dual boot with winxp, transferred my files across from the windows to the linux partition, and then to free up space i wanted to shrink my windows partition, which i did, but qtparted won't let me expand the linux partition to fill the space, leaving a big useless gap on my hard disk. any ideas?
+2005-09-28T05:38:00.000Z	crimsun	Trilobite	you can't expand the beginning of an ext[23]  partition backward
+2005-09-28T05:39:00.000Z	crimsun	Trilobite	using parted-based tools, that is
+2005-09-28T05:39:00.000Z	crimsun	Trilobite	if you want to do that, you need to use Partition Magic

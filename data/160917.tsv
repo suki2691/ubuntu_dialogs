@@ -1,0 +1,4 @@
+2012-06-11T21:50:00.000Z	semarjt		hey guys i just spun up a new ubuntu linode, can anyone tell me why anything i install gets me Hash Sum mismatch? even after apt-get-update, fix-missing, etc
+2012-06-11T21:50:00.000Z	semarjt		tried 12.04 and 10.04
+2012-06-11T21:50:00.000Z	semarjt		is that possibly linode's problem?
+2012-06-11T21:51:00.000Z	Jordan_U	semarjt	Maybe you're behind some sort of http proxy. Try "wget google.com" and look at the result to see if it looks like google or like something else.

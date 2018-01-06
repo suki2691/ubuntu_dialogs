@@ -1,0 +1,4 @@
+2007-12-23T17:00:00.000Z	eshat		is there a way to blacklist a module in kernel paramter
+2007-12-23T17:02:00.000Z	Fujitsu	eshat	Can you not just remove it once you've booted?
+2007-12-23T17:03:00.000Z	eshat	Fujitsu	i just don't want to turn acpi off,... cause my machine won't boot if a specific moduel is loaded,.. so there must be a way for to blacklist one in kernelparamaters
+2007-12-23T17:04:00.000Z	Fujitsu	eshat	Try modulename.blacklist=yes

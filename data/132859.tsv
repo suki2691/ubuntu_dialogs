@@ -1,0 +1,4 @@
+2007-06-25T14:55:00.000Z	cwgannon		I'm trying to run: " $find . -depth -print0 | cpio null sparse -pvd /mnt/newhome/" but I'm receiving an error message in Terminal.  The message is "cpio: You must specify one of -oipt options."  Any suggestions?
+2007-06-25T14:56:00.000Z	lockdown	cwgannon	you have to specify what you want cpio to do,  create, extract, print, etc
+2007-06-25T14:57:00.000Z	cwgannon	lockdown	I'm following the guide found here: http://ubuntu.wordpress.com/2006/01/29/move-home-to-its-own-partition, but it doesn't tell me how or that I need to.
+2007-06-25T14:59:00.000Z	cwgannon	lockdown	it turns out i needed a double-dash rather than single for the options -- it's all fixed now, thanks

@@ -1,0 +1,4 @@
+2009-04-24T18:07:00.000Z	gabbler		hi does anyone know how i can disable ipv6, as i understand it is now in the kernel
+2009-04-24T18:09:00.000Z	vigo	gabbler	There are or is a package that reverts to ipv4 when ipv6 is overkill or unrecognized
+2009-04-24T18:10:00.000Z	gabbler	vigo	i just want to disable it but the modprobe.d/aliases is no longer there due to it moving into the kernel, i am not sure that blacklisting will work or whether i even want to do that
+2009-04-24T18:12:00.000Z	vigo	gabbler	Understand, I would use the ip4 thing, but yes, kill,suspend  or someshuch command can terminate the process. I just use the one that reverts to ip4

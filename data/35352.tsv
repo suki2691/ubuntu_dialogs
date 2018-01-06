@@ -1,0 +1,4 @@
+2010-03-25T22:32:00.000Z	Ichat		hi -  can someone plz help me to figure this one out:  i installed package  transmission-daemon    - the problem seems that   it doesn't read  from  /etc/transmission-daemon/settings.json   but rather from a file somewhere in  <my?    >    home folder    however it want it to act the same  regardless of whom-ever is logged in ...
+2010-03-25T22:32:00.000Z	Ichat		so i want it to read the 'orriginal file from /etc/tr....-daemon/   rahter than from  /home/user/.config/
+2010-03-25T22:34:00.000Z	lind_	Ichat	try to start it with option '--config-dir directory'
+2010-03-25T22:36:00.000Z	Ichat	lind_	 its a server install,   and i think i know enought about linux to 'figure' that there probably is a config file  that  starts the daemon  at boot ... the problem for me is . i have NO idea where to find it and how to change it

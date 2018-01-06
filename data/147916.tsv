@@ -1,0 +1,4 @@
+2007-02-12T11:33:00.000Z	rogier		i would like to find out if i have the right video card and driver. How can i check this?
+2007-02-12T11:34:00.000Z	shatrat	rogier	well, lspci|grep VGA will tell you your card
+2007-02-12T11:34:00.000Z	shatrat	rogier	and looking in your xorg.conf at the Device section will tell you the driver youre using, or at least the one youre trying to use if its failing
+2007-02-12T11:37:00.000Z	shatrat	rogier	ask someone? basically if its not really old, or a relatively new ATI, it should be good

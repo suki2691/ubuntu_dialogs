@@ -1,0 +1,4 @@
+2007-02-19T15:59:00.000Z	grayscale		can someone help me out with my nvidia driver woes?  I'm getting this error after running a synaptic update but none of the update packages had to do with my display drivers
+2007-02-19T15:59:00.000Z	grayscale		*Failed to initialize GLX extensions (compatible NVIDIA X driver not found)
+2007-02-19T15:59:00.000Z	grayscale		and xorg.conf is set to "nvidia"
+2007-02-19T16:00:00.000Z	erUSUL	grayscale	maybe sudo apt-get install linux-restricted-modules-generic

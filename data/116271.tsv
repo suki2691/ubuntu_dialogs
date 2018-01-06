@@ -1,0 +1,4 @@
+2008-01-25T21:37:00.000Z	musashi		is there a terminal command to output data on network traffic? I know the system monitor tool will but that's a gui. i need something i can use in a terminal from a remote connection
+2008-01-25T21:38:00.000Z	KaiForce	musashi	"ip -s link show" will give you some info
+2008-01-25T21:38:00.000Z	KaiForce		you'll have to run it multiple times and do some math to get a picture over time
+2008-01-25T21:39:00.000Z	musashi	KaiForce	thanks. that did give some info but what i'm really looking for is a running output of up and down traffic

@@ -1,0 +1,4 @@
+2011-02-26T03:41:00.000Z	MACscr		hmm, how do i get the correct key for this? W: GPG error: http://ppa.launchpad.net maverick Release: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 4DEF31B9A9E345C0
+2011-02-26T03:43:00.000Z	MACscr		nvm, i got the key issue resolved. Had a typo when trying ot update it earlier
+2011-02-26T03:43:00.000Z	Ampelbein	MACscr	if you add the ppa via the add-apt-repository command it will automatically download the key, if you want to do it manually you need to go the ppa's mainpage and import the key ID listed there
+2011-02-26T03:43:00.000Z	MACscr	Ampelbein	thanks

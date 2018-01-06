@@ -1,0 +1,4 @@
+2011-11-12T20:38:00.000Z	SeeIt		If I have a virtual machine with root ssh access and a desktop enviroment, is it possible to execute commands on the users desktop? I want to type in xclock from the outside via ssh and the physical user of the system should see that.
+2011-11-12T20:40:00.000Z	bekks	SeeIt	Then you have to do something like su - username; set DISPLAY=asneeded_lookitup, and then the user should see th xclock.
+2011-11-12T20:41:00.000Z	bekks	SeeIt	No. It just forwards X request to the clients X server.
+2011-11-12T20:43:00.000Z	bekks	SeeIt	Thats different from "it creates its own display".

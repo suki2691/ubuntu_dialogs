@@ -1,0 +1,4 @@
+2007-10-20T22:24:00.000Z	charles		E: ggzd: subprocess post-installation script returned error exit status 134, know what this means?
+2007-10-20T22:25:00.000Z	bruenig	charles	the script that runs after the files in the package have been moved into the filesystem failed
+2007-10-20T22:26:00.000Z	bruenig	charles	depending on what the script was supposed to do, it may not even matter, you would want to take a look at the script, should be in /var/apt somewhere iirc, and go from there. There is no "you do this for sure" kind of answer to this, it depends on the package.
+2007-10-20T22:28:00.000Z	bruenig	charles	yes

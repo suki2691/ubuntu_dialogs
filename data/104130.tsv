@@ -1,0 +1,4 @@
+2009-03-04T00:54:00.000Z	iowershtfj		how do you force i386 architecture onto a 64 bit system?
+2009-03-04T00:55:00.000Z	iowershtfj		spree no there's a faster way
+2009-03-04T00:55:00.000Z	ActionParsnip	iowershtfj	dpkg --force-all -i <deb file>
+2009-03-04T00:55:00.000Z	ActionParsnip	iowershtfj	you will need ia32libs

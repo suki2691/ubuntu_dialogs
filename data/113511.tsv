@@ -1,0 +1,4 @@
+2009-02-22T09:16:00.000Z	finer_recliner		anyone know how to tell which video driver my computer is running?
+2009-02-22T09:16:00.000Z	Sylphid	finer_recliner	look in /etc/X11/xorg.conf
+2009-02-22T09:17:00.000Z	finer_recliner	Sylphid	i already tried looking at my xorg.conf, but its more or less empty, all it has is an "identifier" line in the "device" section
+2009-02-22T09:18:00.000Z	Sylphid	finer_recliner	you are probably using the vesa driver then

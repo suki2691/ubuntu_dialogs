@@ -1,0 +1,4 @@
+2009-08-15T18:58:00.000Z	_mnemonic76		I am trying to understand the details of what happens when I plug a usb drive in in Ubuntu... the details of what makes it appear automatically for me to mount.
+2009-08-15T18:59:00.000Z	_mnemonic76		I have a minimal ubuntu install on an old laptop using fluxbox instead of gnome... and I don't know what I need to add to make it function MORE like the gnome (basically the automounting)
+2009-08-15T19:00:00.000Z	grawity	_mnemonic76	Start with udev, I think. (And hal, though it's getting slowly removed.) In GNOME, the mounting itself is handled by Nautilus and gnome-volume-manager, but I think it is possible to make udev do it.
+2009-08-15T19:00:00.000Z	_mnemonic76	grawity	thanks for the tip

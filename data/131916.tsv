@@ -1,0 +1,4 @@
+2007-06-14T15:12:00.000Z	sharkbrainguy		how do i remove a driver module? the module name is 0v511 so i typed "modprobe -l | grep ov511" and it tells me "/lib/modules/2.6.20-16-lowlatency/kernel/ubuntu/media/ov511/ov511.ko" so I sez to it I sez "modprobe -r ov511.ko" then it says " FATAL: Module ov511.ko not found." what do I do?
+2007-06-14T15:13:00.000Z	erUSUL	sharkbrainguy	modprobe -r ov511
+2007-06-14T15:17:00.000Z	sharkbrainguy	erUSUL	 thanks
+2007-06-14T15:18:00.000Z	erUSUL	sharkbrainguy	no problem

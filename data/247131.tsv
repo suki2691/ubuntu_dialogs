@@ -1,0 +1,4 @@
+2005-05-29T06:17:00.000Z	niklin		Can some of you give me som advise on activating (?) software raid devices (/dev/mdx) at startup?
+2005-05-29T06:18:00.000Z	niklin		I have 4 raid's, but only the two I configured at installation will get activated and mounted at boot
+2005-05-29T06:20:00.000Z	niklin		I can manually run "mdrun" and then mount the raid devices, but what decides which partitions that is initialized at boot?
+2005-05-29T06:20:00.000Z	tga	niklin	use mdadm, config is in /etc/mdadm/mdadm.conf

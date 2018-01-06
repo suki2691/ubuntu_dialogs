@@ -1,0 +1,4 @@
+2008-10-14T15:41:00.000Z	zherlock		How do I make rsync create the directory structure when rsyncing i.e. /folder/subfolder/file to / and wanted result is rsync creating /folder/subfolder at dest ?
+2008-10-14T15:42:00.000Z	zherlock		How do I make rsync create the directory structure when rsyncing i.e. /folder/subfolder/file to / and wanted result is rsync creating /folder/subfolder at dest ?
+2008-10-14T15:42:00.000Z	zherlock		sory for repeat.
+2008-10-14T15:43:00.000Z	beli	zherlock	foo and foo/   are both directories for rsync, but the handling is different...read the manual and take care about the trailing slash

@@ -1,0 +1,4 @@
+2010-09-18T19:56:00.000Z	Etherael		Hi all, I've just done a full clone of my old computer's filesystem on a completely new computer, the restore went fine, I'm just wanting to know what I need to change with regards to grub to tell the mbr that there's now a linux partition that it needs to boot.
+2010-09-18T19:58:00.000Z	lubun2	Etherael	you need to edit /etc/fstab for the new UUIDs, might need to regenerate initrd's, etc
+2010-09-18T19:58:00.000Z	Etherael	lubun2	How do I know what the new uuids are, and how do i redo initrd's?
+2010-09-18T19:59:00.000Z	lubun2	Etherael	sorry but you would have been better of with a new install

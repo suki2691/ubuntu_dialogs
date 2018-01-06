@@ -1,0 +1,4 @@
+2006-11-03T17:31:00.000Z	luisbg		when apt finds an unmet dependency and then gives error in all apt-get installs after that asking for -f install, how can it be fixed?
+2006-11-03T09:29:00.000Z	luisbg		I'm going to buy a new monitor today... should I change the hsync vsync info at xorg.conf or will ubuntu handle that for me? will I need to reboot
+2006-11-03T09:30:00.000Z	ifireball	luisbg	most new monitors give out DMPS info so you don't need any hsync/vsync lines
+2006-11-03T09:32:00.000Z	ifireball	luisbg	you should try commenting out the lins 1st and see if it works for you, you should already have an 'Option "DPMS"' line there

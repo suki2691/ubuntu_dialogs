@@ -1,0 +1,4 @@
+2006-03-23T16:32:00.000Z	neo911		what do you mean statically? where can i do this? my /etc/resolv.conf already has the entries... it;'s the entries in the network monitor DNS tab thats get replaced by my router ip addr that messes things up
+2006-03-23T16:32:00.000Z	jjs0ah	neo911	i mean in /etc/network/interfaces .. i changed the interface to have static settings.. dhcp is no longer run, resolv.conf is no longer getting overwritten
+2006-03-23T16:33:00.000Z	neo911	jjs0ah	so the post my bimberi in  http://paste.ubuntu-nl.org/10444 should fix my problem\?
+2006-03-23T16:34:00.000Z	jjs0ah	neo911	at a glance, that configuration looks fine

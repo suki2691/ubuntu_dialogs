@@ -1,0 +1,4 @@
+2012-11-30T14:52:00.000Z	joobie		hey guys.. im running a windows OS virtualized on linux, which uses an iscsi block device for the windows box's disk. Under average load i see slower performance of the windows box - i'm guessing this is because the iscsi is slowing or hitting threashold issues
+2012-11-30T14:53:00.000Z	joobie		any tips?  ive setup 2 x gigabit in a bonded mode 0 to the iscsi san
+2012-11-30T14:54:00.000Z	MonkeyDust	joobie	 vbox?
+2012-11-30T14:55:00.000Z	MonkeyDust	joobie	 in a terminal, try rdesktop -u [user] [windows IP] <-- see if that is slow too

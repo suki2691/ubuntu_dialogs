@@ -1,0 +1,4 @@
+2007-02-06T11:41:00.000Z	eidolon		hi folks.  i'm having all sorts of problems workin with Edgy Eft (6.10).  i'm following hte instructions in the add/remove applications for running the nvidia driver, but it fails to actually load anything
+2007-02-06T11:42:00.000Z	eidolon		it specifically says "sudo nvidia-glx-config enable" - which I do, and I get "Error: unable to load nvidia kernel driver!  be sure to have installed the nvidia driver for your running kernel."
+2007-02-06T11:42:00.000Z	eidolon		nowhere in the installer does it say waht that is.
+2007-02-06T11:42:00.000Z	dyrne	eidolon	sudo apt-get install nvidia-glx  does that show the package already installed?

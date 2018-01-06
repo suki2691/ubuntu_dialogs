@@ -1,0 +1,4 @@
+2008-05-28T20:06:00.000Z	gracedman		Hello, all.  I'm trying to use NoMachine's NX client to connect to Hardy and share a local printer however it gives an error: lpadmin Bad device-uri nx://<name>.  nx is in /usr/lib/cups/backend.  Any idea why this doesn't work on Hardy while it does work on other distros?
+2008-05-28T20:07:00.000Z	gracedman		Hi, tempest.  I've got the same problem.  It appears to be a problem with the fglrx driver for my ATI card.  Is that what you are using?
+2008-05-28T20:07:00.000Z	tempest_	gracedman	mine is an nvidia card
+2008-05-28T20:09:00.000Z	tempest_	gracedman	i found several fixes for the ati but none for nvidia.  It worked until i had to switch to legacy drivers

@@ -1,0 +1,4 @@
+2009-08-20T20:18:00.000Z	paulnickerson		gcc fails with the following error: as: error while loading shared libraries: libopcodes-2.19.1.so: cannot open shared object file: No such file or directory. i tried apt-get build-deps for gcc and binutils. and nothing worked. can anybody help me please?
+2009-08-20T20:19:00.000Z	mgedmin	paulnickerson	you might want to do a filename-based search on packages.ubuntu.com to see which package ships libopcodes-2.19.1.so
+2009-08-20T20:21:00.000Z	paulnickerson	mgedmin	looks like it's binutils, but i have the latest version and i already apt-get build-deps on it
+2009-08-20T20:23:00.000Z	mgedmin	paulnickerson	mg@platonas:~ $ ls -l /usr/lib/libopcodes-2.19.1.so

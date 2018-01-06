@@ -1,0 +1,4 @@
+2009-02-15T06:17:00.000Z	enoksrd		anyone know how to make udev repopulate /dev/disk/by-label without a reboot?
+2009-02-15T06:17:00.000Z	n8tuser	enoksrd	-> try  sudo /etc/init.d/udev restart  or hald restart on same dir
+2009-02-15T06:19:00.000Z	enoksrd	n8tuser	sudo /etc/init.d/udev restart worked, thanks!
+2009-02-15T06:19:00.000Z	n8tuser	enoksrd	-> you're welcome

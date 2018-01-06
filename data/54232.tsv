@@ -1,0 +1,4 @@
+2009-06-16T01:12:00.000Z	dyier		how do I tell what make/model modem this presariou v2000 laptop has?
+2009-06-16T01:12:00.000Z	dajhorn	dyier	`sudo lspci -v` will give you a list of the hardware in your computer.
+2009-06-16T01:16:00.000Z	dajhorn	dyier	You probably need the sl-modem package for an AC97 winmodem.
+2009-06-16T01:23:00.000Z	dyier	dajhorn	is that something I can get through synaptic?

@@ -1,0 +1,4 @@
+2006-09-21T13:57:00.000Z	mixelogj		perhaps the problem is the same for compiling any kernel in a SATA hdd.
+2006-09-21T06:27:00.000Z	mixelogj		has anyone compiled 2.6.16.28 on a sata hdd? Specifically on a thinkpad t43
+2006-09-21T06:28:00.000Z	mixelogj		mkinitrd returns that module sd_mod and sg which are needed for sata are not found. any ideas?
+2006-09-21T06:30:00.000Z	stefg	mixelogj	ubuntu uses initramfs-tools, not mkinitrd... (tho it might be symlinked)

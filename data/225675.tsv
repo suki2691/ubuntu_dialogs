@@ -1,0 +1,4 @@
+2005-10-02T11:16:00.000Z	jkrogh		The system fails to bring up the network after hibernation (breezy), which package should the bug be filed against?
+2005-10-02T11:16:00.000Z	puff	jkrogh	swsusp, maybe?  I've had similar issues, specifically with 802.11, not with wired.
+2005-10-02T11:16:00.000Z	puff	jkrogh	I've found that modprobe -r ipw2200, modprobe ipw2200, typically brings it back.
+2005-10-02T11:19:00.000Z	puff	jkrogh	I'm pretty sure that swsusp is the package that does this stuff.

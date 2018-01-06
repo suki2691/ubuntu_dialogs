@@ -1,0 +1,4 @@
+2009-01-17T02:20:00.000Z	fumanchu182		is there a way to import system users into samba, i see that it did it when the package was installed but since then i have added more users and don't want to have to type them in manually with smbpass
+2009-01-17T02:20:00.000Z	DasEI	fumanchu182	smbconf
+2009-01-17T02:22:00.000Z	DasEI	fumanchu182	if the users already exist as you described, samba will use their authenification
+2009-01-17T02:23:00.000Z	DasEI	fumanchu182	etc/samba/smb.conf

@@ -1,0 +1,4 @@
+2011-08-21T13:09:00.000Z	Taos		Does it make sence to have root, home, boot on sepearate partitions?
+2011-08-21T13:09:00.000Z	whoppergator	Taos	Yes!
+2011-08-21T13:09:00.000Z	Taos	whoppergator	which of those are logical?
+2011-08-21T13:12:00.000Z	whoppergator	Taos	all of them? root is obviously on a partition. next, home could be on a separate partition so keep your data separate from your system and applications (you could also use a different filesystem here for performance). finally, boot should be separate for security; you don't even have to mount it unless you are updating your kernel

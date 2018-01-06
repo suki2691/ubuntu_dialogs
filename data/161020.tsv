@@ -1,0 +1,4 @@
+2007-07-13T12:52:00.000Z	SpiderDan		this machine is not going to have keyb/mouse/video connected, and I need a way to be able to remotely log in to x/gnome
+2007-07-13T12:52:00.000Z	Jordan_U	SpiderDan	ssh -X then "gnome-session"
+2007-07-13T12:53:00.000Z	Jordan_U	SpiderDan	That can be a little confusing if you are already using Gnome at the time though
+2007-07-13T12:54:00.000Z	Jordan_U	SpiderDan	No, sudo apt-get install openssh-server

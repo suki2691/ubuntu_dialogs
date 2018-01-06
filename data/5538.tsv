@@ -1,0 +1,4 @@
+2012-02-17T02:25:00.000Z	okibi		My fresh (but fully updated) install of 11.10 is mounting all external drives (tried three drives, one ext2 and two NTFS) as read-only. Even manual mounting through sudo with a -w option mounts them read-only. I'm having a hard time searching for solutions because of google noise with those keywords.
+2012-02-17T02:26:00.000Z	terminhell	okibi	you may have to add your user to the usb group, and make sure dbus-launch is in your .xinitrc exec-session line
+2012-02-17T02:27:00.000Z	terminhell	okibi	*storage* group
+2012-02-17T02:27:00.000Z	okibi	terminhell	These drives were previously mounting just fine. Changed after a reboot. I will check that, though, - thanks

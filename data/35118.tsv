@@ -1,0 +1,4 @@
+2012-05-15T11:03:00.000Z	wdd		what it means in c code when some thing saqys like
+2012-05-15T11:03:00.000Z	wdd		150.F
+2012-05-15T11:04:00.000Z	Keshi	wdd	It means 150 as a floating point number.
+2012-05-15T11:05:00.000Z	Keshi	wdd	That is a typecast.  That would probably result in the same in a lot of cases.  Doing something like (int) 150f would have surprising results though.

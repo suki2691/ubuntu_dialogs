@@ -1,0 +1,4 @@
+2007-01-24T12:28:00.000Z	jobo		I have a strange problem. I'm trying to setup my internet connection from my ubuntu machine. I want it to use my public static ip. I used /etc/network/interfaces to configure my device. I have checked the configurations over and over again and everything is correctly configured. When I do a ifup eth0 I get: "SIOCSIFNETMASK invalid argument" and it fails. Then I do a ifconfig and sees that the netmask is completly wrong: 255.0.0.0. Any ideas?
+2007-01-24T12:29:00.000Z	kelsin	jobo	have you typed "sudo /etc/init.d/networking restart" to reload those configs?
+2007-01-24T12:30:00.000Z	kelsin	jobo	nevermind, you just stated you called ifup eth0
+2007-01-24T12:31:00.000Z	jobo	kelsin	yeah, networking restart gives me as expected the same error

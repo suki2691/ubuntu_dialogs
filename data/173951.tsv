@@ -1,0 +1,4 @@
+2010-05-11T15:07:00.000Z	SmokeyD		hey everyone. I have a samba share mounted on my ubuntu box through fstab and smbfs. But when I edit a file on it with vim, sometimes I get "warning the file has been modified since opening it", which definately is not the case. I am the only one who has access to it.
+2010-05-11T15:07:00.000Z	SmokeyD		any ideas what causes this?
+2010-05-11T15:07:00.000Z	kale	SmokeyD	try running "watch" in another terminal
+2010-05-11T15:10:00.000Z	SmokeyD	kale	what command should I watch then? Watch executes a command periodically and displays the output. What command should I execute on my file?

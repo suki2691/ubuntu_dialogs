@@ -1,0 +1,4 @@
+2010-06-04T18:20:00.000Z	blue_anna		trying to build and install Xorg nouveau driver -- I'm getting this error: checking for LIBDRM_NOUVEAU... configure: error: Package requirements (libdrm_nouveau) were not met:
+2010-06-04T18:20:00.000Z	blue_anna		but I have libdrm-nouveau1 installed
+2010-06-04T18:22:00.000Z	loewi	blue_anna	you are probably missing the development files. try sudo apt-get install libdrm-dev
+2010-06-04T18:28:00.000Z	loewi	blue_anna	apt-get build-dep libdrm-nouveau1 might install all packages you need to build it in one go

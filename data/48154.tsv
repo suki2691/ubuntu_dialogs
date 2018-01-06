@@ -1,0 +1,4 @@
+2012-04-28T03:11:00.000Z	zylith-away		Looking for help.. today is my first day using ubuntu. I am trying to install ia32-libs please point me in the right direction
+2012-04-28T03:11:00.000Z	zylith-away		zylith is logged in to ubuntu
+2012-04-28T03:13:00.000Z	OerHeks	zylith-away	The ia32-libs package was a hack to get 32-bit packages installed on a 64-bit installation. Since Oneiric, Multi Arch has been added
+2012-04-28T03:13:00.000Z	OerHeks	zylith-away	use  sudo apt-get install package-name:i386

@@ -1,0 +1,4 @@
+2007-05-05T08:38:00.000Z	weswh-work		I am trying to make sure that I am running ktorrent 2.1.4, when I click 'about ktorrent', it just says 2.1 (running Feisty). I downloaded the 2.1.4 .deb for Feistyt from the KTorrent site, and when I installed it, it said it was downgrading, and the update manager popped up and said it had a more recent version of ktorrent
+2007-05-05T08:38:00.000Z	weswh-work		yet, I can't even tell which version is in the ubuntu repo, aside from "2.1" - any ideas?
+2007-05-05T08:39:00.000Z	bimberi	weswh-work	'apt-cache policy ktorrent'
+2007-05-05T08:47:00.000Z	weswh-work	bimberi	So looking at this Ktorrent install, it says version: 2.1-0ubuntu2, that would seem to me to be less than 2.1.4 - but why would the system think it's a downgrade?

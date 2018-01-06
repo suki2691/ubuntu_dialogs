@@ -1,0 +1,4 @@
+2007-04-25T13:51:00.000Z	mcp_		I installed the original nivida driver (from nvidia.com). After restart a wrong nvidia-kernel module is loaded (one from ubuntu i guess). What is the package to remove?#
+2007-04-25T13:52:00.000Z	Slart	mcp_	something like nvidia-glx  or nvidia-glx-new.. do an "apt-search nvidia" to be sure
+2007-04-25T13:53:00.000Z	mcp_	Slart	just nvidia-kernel-common left. I'll try this one.
+2007-04-25T13:53:00.000Z	Slart	mcp_	that sounds about right

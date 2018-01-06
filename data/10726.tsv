@@ -1,0 +1,4 @@
+2012-03-06T13:42:00.000Z	hoshi411		how do i change my swap directory in ubuntu? i accidentaly made it a partition /dev/sda4 when i wanted it to be /dev/sda3/swap
+2012-03-06T13:43:00.000Z	hoshi411		the partition was ext3 and now it wont mount T_T
+2012-03-06T13:43:00.000Z	hoshi411		i changed my fstab to say it is ext3 but ubuntu still thinks it is a swap drive
+2012-03-06T13:44:00.000Z	anandjeyahar	hoshi411	swapon /dev/sda3 ??

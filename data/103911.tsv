@@ -1,0 +1,4 @@
+2009-01-04T03:13:00.000Z	SJrX		I have an Intel 3945 abg Card built into my notebook. The module is installed and loaded, and I see it referenced in the messages, however for some reason it never gets assigned a device name. In dmesg for instance I see, that the WiFi switch is off, and that it has 11 b and 13 a channels available.
+2009-01-04T03:13:00.000Z	ActionParsnip	SJrX	does it show up in ifconfig ?
+2009-01-04T03:14:00.000Z	ActionParsnip	SJrX	does sudo iwlist scan show SSIDs?
+2009-01-04T03:15:00.000Z	ActionParsnip	SJrX	then its working

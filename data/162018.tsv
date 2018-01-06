@@ -1,0 +1,4 @@
+2007-01-05T13:07:00.000Z	PPAAUULL		How would I change the permission of the contents of a folder?
+2007-01-05T13:07:00.000Z	alecjw	PPAAUULL	use chmod and chown
+2007-01-05T13:08:00.000Z	alecjw	PPAAUULL	chmod is hard to explain. type "man chmod" in a teminal and it will tell you how to use it. chowin is just "chown <user> <file>"
+2007-01-05T13:09:00.000Z	alecjw	PPAAUULL	it's very unwise to give people write access outside their /home directories. just run it as root

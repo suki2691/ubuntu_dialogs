@@ -1,0 +1,4 @@
+2011-01-01T22:08:00.000Z	sda1986		salve! I have a question, I started a program on terminal with & at the end, now if i close the terminal my program die, how can I de-attach the son process from father process?
+2011-01-01T22:10:00.000Z	rs0832	sda1986	:) it is called a child process and parent process.. you can run the program by pressing alt-f2 and running the command from there..
+2011-01-01T22:11:00.000Z	sda1986	rs0832	but if the process you have to start is gnome-panel you cannot, so i start it from terminal with & at the end and then i do "disown"
+2011-01-01T22:11:00.000Z	sda1986	rs0832	 so i can close the terminal without kill the son

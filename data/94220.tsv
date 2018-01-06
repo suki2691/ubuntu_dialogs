@@ -1,0 +1,4 @@
+2008-04-20T23:13:00.000Z	steven		When I boot my Ubuntu Gutsy server, a few error/warning message scroll on by.....  where would those be logged?
+2008-04-20T23:14:00.000Z	stder1	steven	try /var/log/messages
+2008-04-20T23:16:00.000Z	steven	stder1	the message i am looking for is not in this file... it had to do with mounting some file system and was complaining about the uuid
+2008-04-20T23:18:00.000Z	stder1	steven	you could also try /var/log/kernel, normally most things are in messages though

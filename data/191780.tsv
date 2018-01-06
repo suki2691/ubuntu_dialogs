@@ -1,0 +1,4 @@
+2006-05-04T05:59:00.000Z	Hattori		hello, i have just made a sudo apt-get update/upgrade.. after reboot it loads the main drivers and it hangs at mounting root system. if i choose recovery mode in grub, i see that the last line says: Kernel panic - not syncing: Attempted to kill init. is there anyhting i can do? or i have to format all? =(
+2006-05-04T06:00:00.000Z	roryy	Hattori	did you upgrade to dapper, or was it just a normal breezy system update (or something else) ?
+2006-05-04T06:04:00.000Z	Hattori	roryy	was dapper, and upgraded with new updates
+2006-05-04T06:05:00.000Z	roryy	Hattori	if it was a breezy to dapper upgrade, did you use 'dist-upgrade' or just 'upgrade' ? Also, I suggest #ubuntu+1 for dapper support

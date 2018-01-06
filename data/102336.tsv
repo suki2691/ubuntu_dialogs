@@ -1,0 +1,4 @@
+2011-05-23T07:09:00.000Z	retf		cause itt used to be that everyone's first drive was called /dev/hda but then they switched it to /dev/sda for some reason
+2011-05-23T07:10:00.000Z	retf		so i think all the stuff showing hd0 is from back then
+2011-05-23T07:11:00.000Z	rww	retf	Most disk modules in the Linux kernel use SCSI emulation these days, hence the naming convention.
+2011-05-23T07:14:00.000Z	rww	retf	probably if you plugged in a really old hard disk, but I've never seen any modern stuff use it

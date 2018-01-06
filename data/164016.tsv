@@ -1,0 +1,4 @@
+2007-07-22T06:46:00.000Z	crackerbox		is there a way for me to output the serial number of my USB stick to a file or environment vairiable??
+2007-07-22T06:46:00.000Z	crackerbox		cat /proc/scsi/usb-storage/*  will show me the serial number but i want to out put that to a text file
+2007-07-22T06:47:00.000Z	bulmer	crackerbox	then pipe it or redirect to a file
+2007-07-22T06:51:00.000Z	bulmer	crackerbox	you probably need to awk it and pick up $2  after that sed as suggested

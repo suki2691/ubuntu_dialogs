@@ -1,0 +1,4 @@
+2007-09-10T12:46:00.000Z	ambrose_		mount : /dev/sdc1 is not a valid block device
+2007-09-10T12:46:00.000Z	ambrose_		wat does this mean?
+2007-09-10T12:46:00.000Z	Frogzoo	ambrose_	means there's no disk there
+2007-09-10T12:46:00.000Z	Frogzoo	ambrose_	you maybe meant to do 'sudo fdisk -l /dev/sdc' ?

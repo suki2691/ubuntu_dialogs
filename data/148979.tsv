@@ -1,0 +1,4 @@
+2007-02-16T09:49:00.000Z	aliasd		how do i work around all this UUID stuff when i want to clone a box?
+2007-02-16T09:50:00.000Z	unop	aliasd	 i believe the UUIDs are just symlinks to various devices, they're in the /dev/disks/by-UUID/ directory
+2007-02-16T09:52:00.000Z	unop	aliasd	 to this day, nothing practical really -- except that say your disk crashes, you can replace the physical disk and maintain the same UUID
+2007-02-16T09:54:00.000Z	unop	aliasd	 yes and no -- yes because you can keep the same UUID, no because if the device number changes the UUID symlink points nowhere and linux fails to boot :-s

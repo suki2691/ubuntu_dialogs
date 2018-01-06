@@ -1,0 +1,4 @@
+2008-05-07T21:02:00.000Z	meeper		hmm, proftpd requires mysql? that's kind of insane
+2008-05-07T21:02:00.000Z	fahadsadah	meeper	No it isn't really. Where do you want the accounts to be stored?
+2008-05-07T21:04:00.000Z	meeper	fahadsadah	well it's too late now, proftpd already went through all the trouble of installing a bunch of mysql packages
+2008-05-07T21:05:00.000Z	fahadsadah	meeper	You could get rid of them, but apt would remove proftpd too due to unmet dependencies

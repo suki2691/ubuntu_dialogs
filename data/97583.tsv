@@ -1,0 +1,4 @@
+2008-09-04T18:56:00.000Z	Nutzebahn		Hello. I am looking for a hard disk surface scanner to see how physically healthy the drive is?
+2008-09-04T18:56:00.000Z	LjL	Nutzebahn	i don't know of such, but can't you use SMART? surely your drive supports it
+2008-09-04T19:25:00.000Z	Nutzebahn	LjL	how do I run the smart thing?
+2008-09-04T19:26:00.000Z	LjL	Nutzebahn	smartctl -A /dev/whatever, or for just a short summary, smartctl -H /dev/whatever

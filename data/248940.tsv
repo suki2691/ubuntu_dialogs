@@ -1,0 +1,4 @@
+2005-09-11T16:49:00.000Z	HiddenFly		how can i make ubuntu to automatically mount my usb stick whenever it is plugged in?
+2005-09-11T16:49:00.000Z	HiddenFly		well, i didnt see anything to happen when i just plugged in mine
+2005-09-11T16:50:00.000Z	hyphenated	HiddenFly	you should get a pretty icon on your desktop, and clicking it should mount it
+2005-09-11T16:57:00.000Z	hyphenated	HiddenFly	once /dev/sda1 exists, you mount it with something like 'mount -t vfat /dev/sda1 $HOME/usbkey'

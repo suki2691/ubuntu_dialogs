@@ -1,0 +1,4 @@
+2011-05-13T17:22:00.000Z	biombo		Hi! does anyone know which folders (/boot, /bin /lib ...) are necessary for booting up the kernel and modules (and, for instance be able to mount other filesystems on usb containing the remaining)?
+2011-05-13T17:24:00.000Z	llutz_	biombo	/boot, make sure all drivers needed for booting are contained in initrd
+2011-05-13T17:24:00.000Z	biombo	vlt	isn't /etc necessary? and do you know a wiki where I can learn more about this?
+2011-05-13T17:24:00.000Z	llutz_	biombo	*booting until mounting /

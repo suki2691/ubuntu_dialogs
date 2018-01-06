@@ -1,0 +1,4 @@
+2009-04-26T22:19:00.000Z	jsn		non-googlable issue upgrading to jaunty from hardy. package linux-firmware dies with this "trying to overwrite `/lib/firmware/iwlwifi-3945-1.ucode', which is also in package firmware-iwlwifi"
+2009-04-26T22:20:00.000Z	scunizi	jsn	you need to go from hardy to intrepid then to Jaunty.. the only time you can skip is from one LTS to another
+2009-04-26T22:20:00.000Z	jsn	scunizi	omg, i skipped!
+2009-04-26T22:21:00.000Z	scunizi	jsn	the only exception to that is if you have a seperate /home and just install fresh without formatting the /home partition

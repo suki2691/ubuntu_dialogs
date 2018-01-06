@@ -1,0 +1,4 @@
+2008-05-08T10:07:00.000Z	jameswf-home		Does Ubuntu 8.04 use /boot/grub/menu.list and if so why does mine show the right stuff for 8.04 but at boot it tries to load 7.10 though there is no 7.10 stuff in menu.lst... yes I have run update-grub
+2008-05-08T10:09:00.000Z	dessnr	jameswf-home	edit your /boot/grub menu.1st file and change the default number.  count down from 0 to where your 8.04 is on the list and then make the default value equal to that value.
+2008-05-08T10:10:00.000Z	jameswf-home	dessnr	none of the 8.04 options show at boot
+2008-05-08T10:10:00.000Z	dessnr	jameswf-home	have a look if they exist at all in your boot/grub/menu.1st file///

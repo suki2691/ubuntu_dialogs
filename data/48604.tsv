@@ -1,0 +1,4 @@
+2009-09-15T00:02:00.000Z	edoceo		Like a dummy I moved my Ubuntu from /dev/sda5 to /dev/sda2 (making room for others) I updated the root UUID in /etc/fstab and in the grub configs but when I boot all I get is a grub prompt
+2009-09-15T00:03:00.000Z	edoceo		If I manually `linux ... root=/dev/sda2` && `initrd ... boot` it's OK, how to configure grub to look for boot in /dev/sda2 not /dev/sda5?
+2009-09-15T00:04:00.000Z	conjurer	edoceo	edit the /boot/grub/menu.lst
+2009-09-15T00:06:00.000Z	edoceo	conjurer	Flannel: oops, I'm in wrong channel - this is using "grub2" from Karmic  - but yes, was unable to find /boot/grub/grub.cfg;  and when I "regrubbed" from a boot CD (sysresccd) that was Grub1

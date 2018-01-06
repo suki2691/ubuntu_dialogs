@@ -1,0 +1,4 @@
+2006-07-13T05:53:00.000Z	Lord-ChewY		anyone know what i have to put in fstab to browse an ntfs drive?
+2006-07-13T05:54:00.000Z	Lord-ChewY		anyone? what command do i use with mount to read an ntfs partition?
+2006-07-13T05:55:00.000Z	Lord-ChewY		mount -t ntfs /dev/hda1 /blabla/bla doesn't work
+2006-07-13T05:55:00.000Z	chris08	Lord-ChewY	/dev/hda5       /media/data     ntfs    defaults,nls=utf8,umask=007,gid=46 0

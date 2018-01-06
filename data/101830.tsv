@@ -1,0 +1,4 @@
+2008-01-29T12:27:00.000Z	sluggo	goudkov	are you sure the filename is right? try ls filename instead of . filename to be sure
+2008-01-29T12:28:00.000Z	goudkov	sluggo	yes. it works if i'm in bash, but if i run bash through /bin/sh which should still be bash, sourcing doesn't work any more
+2008-01-29T12:29:00.000Z	sluggo	goudkov	/bin/sh is symlinked to dash
+2008-01-29T12:29:00.000Z	goudkov	sluggo	yep, now that makes sense.

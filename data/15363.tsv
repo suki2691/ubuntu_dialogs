@@ -1,0 +1,4 @@
+2012-07-25T05:13:00.000Z	b0nghitter		should i have selected "host a virtual machine" during the ubuntu server 12.04 install if im going to be using Qemu? if so, what do i need to install other than qemu-kvm?
+2012-07-25T05:15:00.000Z	b0nghitter		my cpu does not support VT-x
+2012-07-25T05:15:00.000Z	escott	b0nghitter	then you can only have 32bit guests
+2012-07-25T05:17:00.000Z	b0nghitter	escott	that's fine, im only emulating a cisco asa.. but its telling me i have an unpatched version of qemu, i just used apt-get install qemu-kvm.. im hopijng i dont need something else that "host a vm" during the os install would install

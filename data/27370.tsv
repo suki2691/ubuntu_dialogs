@@ -1,0 +1,4 @@
+2010-09-03T22:44:00.000Z	Travis_42		I'm trying to use wget to put all of the files in a web directory into a local directory, but it creates a bunch of unnecessary folders (e.g. domainname/folder/folder/folder/images.jpg instead of just images.jpg into the local directory). Which command line option am I missing?
+2010-09-03T22:45:00.000Z	gregbair	Travis_42	it's -nd or --no-directories
+2010-09-03T22:46:00.000Z	Travis_42	gregbair	ah, thank you :-)
+2010-09-03T22:46:00.000Z	gregbair	Travis_42	np

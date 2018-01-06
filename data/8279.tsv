@@ -1,0 +1,4 @@
+2011-10-31T19:46:00.000Z	Tricen		Two graphics cards: Intel onboard 3100 and GeForce FX 5600 PCI.  I want to stretch my desktop across them, but the Intel does not show up in "displays".  It DOES show the "Ubuntu" logo on startup, but that's all.  When I remove the PCI card, the Intel works great.  Any ideas all?
+2011-10-31T19:48:00.000Z	amee2k	Tricen	virtually all mainboards disable the onboard cards when they detect a second card plugged into an expansion slot. you'll have to get two PCI cards then
+2011-10-31T19:48:00.000Z	Tricen	amee2k	funny part is, both work fine in the windows partition.  There are no entry in bios to both with the onboard card.  So I doubt that's the issue.
+2011-10-31T19:49:00.000Z	amee2k	Tricen	maybe some driver has a trick to enable both, i've seen that on some boards. chances are its not documented and some reverse engineered driver didn't copy it

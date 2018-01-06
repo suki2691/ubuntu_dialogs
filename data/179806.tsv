@@ -1,0 +1,4 @@
+2007-09-26T11:53:00.000Z	CharlieS1		how do you make apt-get reinstall config files from scratch?
+2007-09-26T11:54:00.000Z	jrib	CharlieS1	purge the package and then install it again (or look up some dpkg configuration option...)
+2007-09-26T11:54:00.000Z	CharlieS1	jrib	how do you purge?? just remove?
+2007-09-26T11:55:00.000Z	jrib	CharlieS1	aptitude purge package

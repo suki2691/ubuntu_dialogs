@@ -1,0 +1,4 @@
+2005-05-23T12:13:00.000Z	Chamlap`		hi guys, started running Ubuntu last night and everything is going great.  Quick question though, I want to install the citrix ica client and all citrix.com has is the rpm, is there any way for debian to still install it?
+2005-05-23T12:13:00.000Z	Seveas	Chamlap`	alien -i <rpmfile>
+2005-05-23T12:16:00.000Z	Chamlap`	Seveas	so where do I know where it installed it to?  It just went back to the console
+2005-05-23T12:17:00.000Z	Seveas	Chamlap`	dunno, try dpkg -l and look for the name of the package. Then run dpkg -L <packagename>

@@ -1,0 +1,4 @@
+2010-02-13T00:45:00.000Z	abumaia		when I start up my computer after upgrading to the .19 kernel, I get the error "could not update ICEauthority file /var/lib/gdm/.ICEauthority".  I found out why: I don't have a /var/lib/gdm directory.  I do have .ICEauthority in my home directory, and I have owner read-write and group read permissions.  Can I copy the .ICEauthority file to where the error said it was looking for it?
+2010-02-13T00:46:00.000Z	abumaia		thanks Kohar, I'll give that a try
+2010-02-13T00:47:00.000Z	abumaia		by the way, which is better to use, apt-get or aptitude?
+2010-02-13T00:47:00.000Z	mneptok	abumaia	apt-get was always encouraged by the distro team

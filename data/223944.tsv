@@ -1,0 +1,4 @@
+2010-08-01T01:26:00.000Z	jimbo_		When I use "Preferences -> Monitors" to activate and rotate my monitors, how can I find out what commands Gnome is using to do that?  It's xrandr I assume, but I need the full commands.
+2010-08-01T01:27:00.000Z	phaer	jimbo_	Read the source code. But the easy solution would be to read man xrandr for everything you'll need.
+2010-08-01T01:28:00.000Z	jimbo_	phaer	I know enough about xrandr, just want to cheat and use gnome's computed values, which are ideal.
+2010-08-01T01:30:00.000Z	jimbo_	phaer	actually I suppose `xrandr -q` shopuld give me everything I need after gnome sets things up, huh?

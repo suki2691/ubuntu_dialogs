@@ -1,0 +1,4 @@
+2007-06-25T13:08:00.000Z	Dutchy		so is there anyone who can help me? what i have is a share on my server (be it smb or ftp), and i want to mount it on ~/myshare/ and i want my user to be able to write it, is there anyone who knows how to do that?
+2007-06-25T13:10:00.000Z	dyrne	Dutchy	smbfs as the type in fstab should work. ive never dont it but i think  a line like \\computername\share  /mnt/point  smbfs  users,defaults  0  0   though im not sure and i dunno about read/write access. never used samba
+2007-06-25T13:11:00.000Z	dyrne	Dutchy	why am i talking to you?
+2007-06-25T13:11:00.000Z	Dutchy	dyrne	that mounts as root

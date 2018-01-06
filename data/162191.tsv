@@ -1,0 +1,4 @@
+2006-10-28T05:14:00.000Z	Belping		can anyone tell me how i can use the time since last login from ssh server? i need to search for newer files...
+2006-10-28T05:14:00.000Z	nikodll	Belping	"find $HOME -newer /var/log/wtmp"  will find files since last login
+2006-10-28T05:15:00.000Z	nikodll	Belping	...in your home dir
+2006-10-28T05:17:00.000Z	nikodll	Belping	you can use --mmin <MINUTESAGO> option also.. see the man fo find

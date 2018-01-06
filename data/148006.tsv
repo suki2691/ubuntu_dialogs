@@ -1,0 +1,4 @@
+2007-12-05T01:01:00.000Z	sanguisdex		how do I give my my user permissions over files created by apachee?
+2007-12-05T01:02:00.000Z	kelsin	sanguisdex	make sure apache writes them group writable (maybe change umask to 002) then add yourselve to the www-data group
+2007-12-05T01:02:00.000Z	kelsin	sanguisdex	obviously there are security things to consider here if you need to
+2007-12-05T01:06:00.000Z	kelsin	sanguisdex	you need to get read permissions (and probably write) on the files, so either add yourself to the group or look in apache configs at having it output the files and chown them to a new user

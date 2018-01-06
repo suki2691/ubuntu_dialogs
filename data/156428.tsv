@@ -1,0 +1,4 @@
+2008-01-22T06:40:00.000Z	Smegzor		I'm setting up samba shares using fusesmb and I'm concerned about the security of having username and password in the config file.  The problem is that there is only one user set up on the file server and that user can issue sudo commands.  Should I create a less privileged user just for smb shares?
+2008-01-22T06:41:00.000Z	genii	Smegzor	Yes
+2008-01-22T06:44:00.000Z	Smegzor	genii	Does the user need to be a desktop user or will unprivileged work?
+2008-01-22T06:45:00.000Z	genii	Smegzor	unpriveleged is fine

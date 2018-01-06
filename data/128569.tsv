@@ -1,0 +1,4 @@
+2007-09-20T11:09:00.000Z	hid3		Hello everyone. There are 3 partitions on my server: / as ext3, /var and /home as xfs. Yesterday my server hang up due to hardware problems. The problem is now solve, however, I can't boot my system. It starts to load linux (grub loader) then prints something like 'mounted ext3 filesystem, blah blah, internal journal, commit interval 5secs..' and that's all-the system freezes. What can be wrong? any ideas how to solve this problem?
+2007-09-20T11:11:00.000Z	teKnofreak	hid3	try reinstalling grub
+2007-09-20T11:11:00.000Z	hid3	teKnofreak	using 'grub-install', yes?
+2007-09-20T11:12:00.000Z	teKnofreak	hid3	yes :)

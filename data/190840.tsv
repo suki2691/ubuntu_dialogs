@@ -1,0 +1,4 @@
+2006-04-20T09:39:00.000Z	Scott_the_ubuntu		question:  Does Ubuntu easily see external USB driveS?
+2006-04-20T09:40:00.000Z	AAA	Scott_the_ubuntu	 as long as you have the driver for the usb device and the fs which is _usually_ vfat
+2006-04-20T09:40:00.000Z	AAA	Scott_the_ubuntu	 is it NTFS? you may have to use mount -t ntfs
+2006-04-20T09:43:00.000Z	AAA	Scott_the_ubuntu	 that is generally where usb drives will show up, you can check dmesg <-- type that in a term after you plug in the usb drive, it will show you where it lives

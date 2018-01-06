@@ -1,0 +1,4 @@
+2009-02-27T03:16:00.000Z	loras		Heeeey... in xorg.conf, when it says "configured video device", where exactly is it configured? I need to change its config
+2009-02-27T03:16:00.000Z	rww	loras	xorg does autodetection by default, now. If you need to add manual configuration stuff, just add it to the file.
+2009-02-27T03:17:00.000Z	loras	rww	so it won't try to "reconfigure" it, every boot? Well, thank you :) :) :) Will try it
+2009-02-27T03:17:00.000Z	rww	loras	correct, settings you put in there override any autodetected ones.

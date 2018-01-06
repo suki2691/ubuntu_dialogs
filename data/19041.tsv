@@ -1,0 +1,4 @@
+2011-12-12T18:51:00.000Z	Yanch0		guys anyone can help me set up a wifi pci card. the drivers have been installed using: https://help.ubuntu.com/community/WifiDocs/Device/Netgear_WG311_v3 .. using wifiradar i can see the WEP connection im trying to connect to. however when i try to connect it keeps on connecting and no error yet it doesnt connect . all im seeing in dmesg | tail is : [  737.468271] ndiswrapper (iw_set_auth:1602): invalid cmd 12
+2011-12-12T18:52:00.000Z	MonkeyDust	Yanch0	 NYPR-1 explore the terminal commands iwlist and iwconfig
+2011-12-14T18:41:00.000Z	MonkeyDust	Yanch0	 windows treats the client differently
+2011-12-15T21:44:00.000Z	MonkeyDust	Yanch0	 several people confirmed that wpa_supplicant is not for WEP, it seems that what you want is simply not possible

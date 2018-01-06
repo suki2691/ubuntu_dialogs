@@ -1,0 +1,4 @@
+2005-09-20T08:06:00.000Z	anthony		I've been having trouble changing the permissions and owner of files.  I have an interchange partition for working with things in both Linux and windows, but I've found that when I make a file in Windows, put it in that partition, and boot Linux, it will only allow root to access the file with write permissions.  I've tried actually logging in as root (beyond just sudo and su -), and when I try to change permissions from the command
+2005-09-20T08:06:00.000Z	anthony		line, it seems to work, but does not actually, and chown replies that it is unable to do that.
+2005-09-20T08:06:00.000Z	anthony		Any ideas?
+2005-09-20T08:07:00.000Z	alek	anthony	is this on an NTFS?

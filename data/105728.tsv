@@ -1,0 +1,4 @@
+2008-09-23T02:33:00.000Z	Blaenk		how do I solve the 'Could not get lock /var/lib/dpkg/lock - open (11 Resource temporarily unavailable)' problem again?
+2008-09-23T02:33:00.000Z	LordC	Blaenk	close synaptic before trying to use apt
+2008-09-23T02:34:00.000Z	Blaenk	LordC	I'm doing everything through ssh, synaptic isn't running
+2008-09-23T02:35:00.000Z	LordC	Blaenk	you checked 'ps aux' to see if apt is already being used?

@@ -1,0 +1,4 @@
+2005-10-11T14:44:00.000Z	zblach		is there any way to add write access to Fat32 partitions?
+2005-10-11T14:45:00.000Z	carthik	zblach	you can change permissions after mounting too : chmod 777 /mnt/windows ?
+2005-10-11T14:45:00.000Z	zblach	carthik	that doesn't seem to work
+2005-10-11T14:46:00.000Z	carthik	zblach	tried this? http://ubuntuguide.org/#automountfat : after you make the changes, remount the drive once

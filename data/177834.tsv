@@ -1,0 +1,4 @@
+2008-07-17T18:38:00.000Z	einnar		Hi, I have a new xubuntu64 install, and it freezes at the login screen. I've let it sit for an hour, and it didn't change, so I don't believe it's processing anything. If I reboot a few times, it finally lets me log in. Any thoughts?
+2008-07-17T18:39:00.000Z	Jack_Sparrow	einnar	we generally suggest 32 bit for newer users.  and there are a few tricks you can try..
+2008-07-17T18:40:00.000Z	Jack_Sparrow	einnar	To get live cd to run this often helps..At start or install press F6 and remove Quiet and Splash from the command line. If it still fails.. Repeat and after removing quiet and splash add noapic acpi=off before the "--"
+2008-07-17T19:03:00.000Z	Jack_Sparrow	einnar	Is this a regular install or some vm or wubi thing

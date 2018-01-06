@@ -1,0 +1,4 @@
+2005-05-16T05:49:00.000Z	brenton		how do i add something to my shell's classpath in ubuntu??
+2005-05-16T05:49:00.000Z	brenton		it's not liking setenv
+2005-05-16T05:49:00.000Z	crimsun	brenton	add it (export it) to ~/.bashrc
+2005-05-16T05:50:00.000Z	crimsun	brenton	Ubuntu uses bash, which honours export, not csh's setenv

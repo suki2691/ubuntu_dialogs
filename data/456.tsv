@@ -1,0 +1,4 @@
+2012-11-10T17:49:00.000Z	goskydiving		good morning everyone :-)
+2012-11-10T17:50:00.000Z	goskydiving		how do i permanently enable "nomodeset" after installing 12.04.1?
+2012-11-10T17:50:00.000Z	dr_willis	goskydiving	 edit /etc/default/grub and add it to the options line. like -> 'quiet splash nomodeset'
+2012-11-10T17:51:00.000Z	goskydiving	dr_willis	I can't get it to boot because the graphics aren't working properly.  is there a keyboard shortcut I can use to edit it without booting?

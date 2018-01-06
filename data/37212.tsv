@@ -1,0 +1,4 @@
+2010-02-15T13:41:00.000Z	opensanta		is there a guide for setting up bridged networking using virt-manager?  I have virt-install working already, but virt-manager won't let me use the bridge
+2010-02-15T13:42:00.000Z	ZykoticK9	opensanta	that's probably the biggest advantage VirtualBox has over KVM right now - Bridge networking is just a click away in VBox -- and a big pain under KVM.  I did it a couple years ago - don't remember the steps at all sorry
+2010-02-15T13:45:00.000Z	opensanta	ZykoticK9	I have the bridge working on the command line, but virt-manager the last leg in my setup
+2010-02-15T13:46:00.000Z	ZykoticK9	opensanta	as i said it's been years i really don't remember (haven't had KVM or Qemu installed since VBox took me over)

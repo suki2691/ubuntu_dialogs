@@ -1,0 +1,4 @@
+2009-11-18T05:35:00.000Z	LM9		can someone test this command for me? sudo apt-cache pkgnames
+2009-11-18T05:37:00.000Z	LM9		I don't want to search the package I'm looking for. I want apt-cache to list a comprehensive list of packages currently installed
+2009-11-18T05:38:00.000Z	LM9		can someone test this for me: sudo apt-cache --get-selections
+2009-11-18T05:39:00.000Z	trism	LM9	you're looking for something more like dpkg -l, apt-cache pkgnames appears to print every package in the repos

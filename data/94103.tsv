@@ -1,0 +1,4 @@
+2010-09-04T05:41:00.000Z	undecim	histo	is the nvidia driver a DKMS module? if not, reinstalling shouldn't do anything, and even then, it should rebuild on booting the new kernel, right?
+2010-09-04T05:41:00.000Z	undecim	histo	Or is it nVidias own build script or something like that?
+2010-09-04T05:43:00.000Z	histo	undecim	They've had it building for only the current running kernel for ever now.
+2010-10-11T18:40:00.000Z	histo	undecim	you'd need to unmount the /home, move the file then mount the /home as far as I know.

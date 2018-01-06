@@ -1,0 +1,4 @@
+2012-06-24T12:00:00.000Z	xendras		hi... my pc has only ubuntu installed. when i boot my pc, it directly starts ubuntu, without showing grub. i am unable to find /boot/grub/menu.lst. what shall i do to get the grub to be shown while booting ?
+2012-06-24T12:01:00.000Z	genii-around	xendras	menu.lst is for the previous grub version. /etc/default/grub  is now used, then to sudo update-grub
+2012-06-24T12:02:00.000Z	xendras	ikonia	ok got it thanks :)
+2012-06-24T12:02:00.000Z	genii-around	xendras	https://help.ubuntu.com/community/Grub2#Hidden

@@ -1,0 +1,4 @@
+2011-05-18T02:00:00.000Z	Darael	nicovl	I would suggest that you check the fstab line.  If it involves a /dev/disk/by-uuid path, you could try replacing it with a UUID= line.  If it already has one, you could try replacing it with a /dev/sdXY path?
+2011-05-18T02:02:00.000Z	nicovl	Darael	It is using UUID="" would like to solve the problem though instead of reverting to /dev/sdb1 etc...
+2011-05-18T02:03:00.000Z	Darael	nicovl	I agree that would be preferable, but reverting might be a temporary workaround at least.  Just a suggestion.
+2011-05-18T02:04:00.000Z	nicovl	Darael	the strange thing is it mounting the root and swap filesystems which are on an SSD and then it messes up when it tries to mount the filesystems on the HDD

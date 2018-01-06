@@ -1,0 +1,4 @@
+2012-10-31T18:58:00.000Z	b00b00		hi
+2012-10-31T18:58:00.000Z	b00b00		i have running dd command that takes too long, any command i can see the status of dd?
+2012-10-31T18:59:00.000Z	llutz	b00b00	in a 2nd terminal: killall -USR1 dd
+2012-10-31T18:59:00.000Z	llutz	b00b00	should force dd to give a status

@@ -1,0 +1,4 @@
+2012-04-16T23:37:00.000Z	osse		If I ssh to a machine and start a shell like so 'ssh -t hostname bash' I cannot type any of the characters æøå and probably many others. Why is that? Obviously starting bash that way is pointless; what I'm actually doing is starting tmux, but I guess this rules tmux out.
+2012-04-16T23:37:00.000Z	Boohbah	osse	probably due to the locale settings of your remote host
+2012-04-16T23:38:00.000Z	osse	Boohbah	indeed.
+2012-04-16T23:41:00.000Z	osse	Boohbah	when I log in regularly I get 'LANG=en_US.UTF-8' and all the others except LC_ALL. When I log in with -t LANG also is empty the the remaining ones are POSIX. Do you know how I fix this?

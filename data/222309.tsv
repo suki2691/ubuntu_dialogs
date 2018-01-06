@@ -1,0 +1,4 @@
+2005-11-23T11:38:00.000Z	herni		is there any way i can enable a swap partition after having already installed?
+2005-11-23T11:39:00.000Z	herni		msg shawn arigatoo gozaimasu
+2005-11-23T11:40:00.000Z	intelikey	herni	yessir,  make the swap space run 'sudo mkswap <on the swap space> ' and swapon <the same swapspace>     you can add a line to /etc/fstab  that will enable it at boot also.
+2005-11-23T11:59:00.000Z	intelikey	herni	np

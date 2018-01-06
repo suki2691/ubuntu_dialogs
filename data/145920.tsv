@@ -1,0 +1,4 @@
+2008-09-16T02:01:00.000Z	emma		how does one find what videodriver they are using. (not video card, but video driver)
+2008-09-16T02:01:00.000Z	faemir	emma	look at the line in xorg.conf
+2008-09-16T02:02:00.000Z	faemir	emma	ah, dunno then
+2008-09-16T02:16:00.000Z	emma	faemir	I figured it out, here's how you find your video driver: grep _drv /var/log/Xorg.0.log

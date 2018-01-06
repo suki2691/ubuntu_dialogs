@@ -1,0 +1,4 @@
+2012-06-19T18:18:00.000Z	arussel		is there a way to create volume with lvm while the disk is being used ?
+2012-06-19T18:19:00.000Z	arussel		or on a disk that was used and still keeping the data on it
+2012-06-19T18:20:00.000Z	agc93	arussel	i wish but since it needs to change the partition type I don't think it can be done
+2012-06-19T18:25:00.000Z	agc93	arussel	if your partition is already of type lvm, you can do it, but otherwise you need to change partition type which involves a reformat

@@ -1,0 +1,4 @@
+2012-01-11T00:28:00.000Z	retrorex		 I am trying to install install a package from source forge called k-map-minimizer ...it contains http://paste.ubuntu.com/799717/ ...tried  ./configure sudo: ./configure: command not found tried sudo make make: *** No rule to make target `blam.d', needed by `kmm'.  make install :make: *** No rule to make target `install'.  Stop ..Any help on compiling from tar.gz .
+2012-01-11T00:30:00.000Z	israel	retrorex	you have to make a bin sudo make main.cpp
+2012-01-11T00:34:00.000Z	retrorex	israel	sudo make main.cpp make: *** No rule to make target `main.cpp'.  Stop. no good ..what do you mena by "make a bin"...I think file kmm is the GUY there
+2012-01-11T00:35:00.000Z	israel	retrorex	u need to find the main file to do it

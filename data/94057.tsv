@@ -1,0 +1,4 @@
+2010-01-14T09:35:00.000Z	LtHummus		is there a way to allow certain users to SSH in to my machine from the local network in my house and allow other users to SSH in to my machine from the internet?
+2010-01-14T09:37:00.000Z	undecim	LtHummus	I'm pretty sure it's possible to set options in sshd on a per-user basis.
+2010-01-14T10:10:00.000Z	undecim	LtHummus	Set the password while root
+2010-01-14T10:10:00.000Z	undecim	LtHummus	for example "sudo passwd lthummus"

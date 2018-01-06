@@ -1,0 +1,4 @@
+2011-05-12T22:54:00.000Z	joris_		there's a remote network -- with a lot of computers on the network -- configured with their computer name (so if I'm on the network, I can connect with eg. ssh myname@computer1 ) -- how do I find out all the computer names?
+2011-05-12T22:54:00.000Z	joris_		anyone an idea?
+2011-05-12T22:56:00.000Z	joris_		campee; ajmak; durrell ok thanks, I'll look into nmap!:)
+2011-05-12T22:56:00.000Z	llutz	joris_	sudo nmap -sP 192.168.1.1/24            or whatever network/mask

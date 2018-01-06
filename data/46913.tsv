@@ -1,0 +1,4 @@
+2010-01-16T06:01:00.000Z	mazda01		ne1, please help me figure out how to make my usb install completely persistent. changes like /etc/fstab and /etc/network/interfaces and /etc/hostname are not being saved.
+2010-01-16T06:02:00.000Z	mazda01		using a casper-rw image versus doing a full install so that I can save the usb stick from all the read/writes
+2010-01-16T06:02:00.000Z	ChogyDan	mazda01	did you try pendrivelinux.com?
+2010-01-16T06:03:00.000Z	mazda01	ChogyDan	yeap. that's what I am using. my changes to fstab, interfaces, and hostname are not saved. i know that its probably because the /  filesystem is mounted to ram and it must not get saved back into the casper-rw image

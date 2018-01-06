@@ -1,0 +1,4 @@
+2009-04-25T20:51:00.000Z	gmorphis		needing help with sound on clean install of 9.04. In PulseAudio Volume Control Output Device I have "Null Output" as the device. Input Device is okay. I have no sound what-so-ever. When I play an MP3 I see the volume bars moving as if it should have sound but I hear nothing. I've googled all this morning and can't resolve it. And I'm fairly new to linux. Any ideas to try to look at?
+2009-04-25T20:52:00.000Z	[4-tea-2]	gmorphis	a null device is usually a dummy accepting data and discarding it. a null audio device would appear to play sound to the software using it, but would never output anything to any hardware.
+2009-04-25T20:52:00.000Z	[4-tea-2]	gmorphis	does that help in any way? ;)
+2009-04-25T20:57:00.000Z	[4-tea-2]	gmorphis	you could start by using "lspci" to identify your real audio device and google for its name and ubuntu. That's how I usually fix my hardware trouble. :D

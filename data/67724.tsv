@@ -1,0 +1,4 @@
+2009-05-01T06:34:00.000Z	eseven73		any dd guru's around? I'm dd copying my HD, is there a way to pick out a file from the img file, lets say like .vimrc gets corrupted and i only need that file  Or do I have to restore the entire img?
+2009-05-01T06:35:00.000Z	CoJaBo-Aztec	eseven73	You can mount partition images.
+2009-05-01T06:36:00.000Z	eseven73	CoJaBo-Aztec	ok so I can just mount that file as a partition then?
+2009-05-01T06:36:00.000Z	CoJaBo-Aztec	eseven73	mount -o loop somefile.bin /somewhere

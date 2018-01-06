@@ -1,0 +1,4 @@
+2012-11-04T09:52:00.000Z	Ali_nz^1		the manual suggests chown -R 65534:0 /mnt/MxData - does that give everyone access to the directory?
+2012-11-04T09:54:00.000Z	Ali_nz^1		the user I created (MxCamera) is 1000:1000 who why not chown -R 1000:1000
+2012-11-04T09:55:00.000Z	Random833	Ali_nz^1	no you need to chmod
+2012-11-04T09:56:00.000Z	Ali_nz^1	Random833	nah - the next line says chmod 755 /mnt/mxData

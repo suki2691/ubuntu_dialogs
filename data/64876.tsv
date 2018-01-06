@@ -1,0 +1,4 @@
+2010-02-13T23:09:00.000Z	Lusule		hi guys :) i created a bash shell script in ~/bin to launch a wine program without having to type the whole command, and it works fine from terminal, but not from the alt-f2 run box - how do i make that run box also look in ~/bin?
+2010-02-13T23:10:00.000Z	ZykoticK9	Lusule	from a menu/alt+f2 you'd have to add "gnome-terminal -e $REST_OF_COMMAND"
+2010-02-13T23:10:00.000Z	Lusule	Sh3r1ff	not sure i understand you there I'm afraid :(
+2010-02-13T23:10:00.000Z	ZykoticK9	Lusule	Sh3r1ff's idea is easier

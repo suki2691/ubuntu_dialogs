@@ -1,0 +1,4 @@
+2006-11-28T12:52:00.000Z	LaserLine		When I try to enable the nvidia-glx-config I get the following error: Error: unable to load nvidia kernel driver! Be sure to have installed
+2006-11-28T12:52:00.000Z	LaserLine		the nvidia driver for your running kernel.
+2006-11-28T12:52:00.000Z	ArrenLex	LaserLine	apt-get install linux-restricted-modules-$(uname -r)
+2006-11-28T12:54:00.000Z	LaserLine	ArrenLex	and dabaR: I did that and it said apt-get install linux-restricted-modules-$(uname -r) and tried it agian and got the same error

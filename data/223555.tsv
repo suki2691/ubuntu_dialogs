@@ -1,0 +1,4 @@
+2005-11-30T10:03:00.000Z	zcat[1] 	N6REJ	you probably want /dev/hdb5 rather than /dev/hdb2
+2005-11-30T10:08:00.000Z	zcat[1] 	N6REJ	can you paste "fdisk -l /dev/hda" for me.. or just change /dev/hda2 to /dev/hda5 and I bet it'll work :)
+2005-11-30T10:21:00.000Z	zcat[1] 	N6REJ	yes, there's no filesystem on /dev/hda4, it's a partition that only holds other partitions..
+2007-01-14T07:38:00.000Z	zcat[1] 	N6REJ	leave the GUI running all the time. When nobody's logged in gdm is pretty small and even that gets swapped out too...

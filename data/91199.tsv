@@ -1,0 +1,4 @@
+2010-07-17T08:00:00.000Z	olu		hey, is it possible to use mkdir to make more than 1 directory? i need to make directories with the name 001 up to 200
+2010-07-17T08:01:00.000Z	wgrant	olu	for n in $(seq -w 3 1 200); do mkdir $n; done
+2010-07-17T08:01:00.000Z	wgrant	olu	mkdir can't do it directly, but it's easy with shell scripting :)
+2010-07-17T08:02:00.000Z	olu	wgrant	thanks :D

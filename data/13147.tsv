@@ -1,0 +1,4 @@
+2012-10-26T05:32:00.000Z	Dragonster82		Anyone knows of a way to stop Ubuntu 12.10 from resetting my brightness level?
+2012-10-26T05:34:00.000Z	escott	Dragonster82	resetting when
+2012-10-26T05:41:00.000Z	Dragonster82	escott	When I restart my computer
+2012-10-26T05:41:00.000Z	escott	Dragonster82	you can echo the appropriate value to /sys/class/power/...../backlight in /etc/rc.local

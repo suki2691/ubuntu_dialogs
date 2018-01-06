@@ -1,0 +1,4 @@
+2007-12-10T22:27:00.000Z	Pici	TBotNik_u	/proc is not a real filesystem, you aren't meant to create files there.
+2007-12-10T22:28:00.000Z	TBotNik_u	RedHeron	Also have tons of numbered folders in "/proc".  Wonder if there is a directory number limit?
+2007-12-10T22:28:00.000Z	Pici	TBotNik_u	from the manpage: The  proc filesystem is a pseudo-filesystem which is used as an interface to kernel data structures.  It is commonly mounted at /proc.  Most of it is  read-only,but some files allow kernel variables to be changed.
+2007-12-10T22:28:00.000Z	Pici	TBotNik_u	I highly advise not touching it.

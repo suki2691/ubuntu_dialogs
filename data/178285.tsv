@@ -1,0 +1,4 @@
+2007-12-21T03:35:00.000Z	infinital		i just recently installed ubuntu, and booted into it. when i booted in i installed everything in the synaptics packages, and the nvidia drivers. now I can't boot.  everytime i boot, it goes thru the loading screen, to a black screen, no login screen etc. the monitor gives me no signal. when i hit ctrl alt delete nothing happens, and when i hit the power button i temporarily see what it is doing. i see a couple messages with OK's next to them, then a ton of
+2007-12-21T03:35:00.000Z	infinital		what did I do wrong, and how do I fix it?
+2007-12-21T03:36:00.000Z	Jack_Sparrow	infinital	sudo dpkg-reconfigure xserver-xorg    set it to vesa mode 1024 max res to get to the gui
+2007-12-21T03:38:00.000Z	Jack_Sparrow	infinital	when you boot.. non-live you should be able to hit escape and get to recovery mode from a grub menu which is the cli

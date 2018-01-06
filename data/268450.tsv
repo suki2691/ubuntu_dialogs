@@ -1,0 +1,4 @@
+2004-09-29T08:20:00.000Z	kc		anyone down for a quick question?
+2004-09-29T08:20:00.000Z	kc		I am trying to mount an iso via loop and it keeps giving me the error cannot find /dev/loop
+2004-09-29T08:21:00.000Z	kc		and I did an slocate and and found the loop devs in the /.dev/
+2004-09-29T08:22:00.000Z	HrdwrBoB	kc	 modprobe loop

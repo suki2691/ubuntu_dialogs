@@ -1,0 +1,4 @@
+2011-03-15T17:16:00.000Z	secretary_linux		Hi all. A system fell the way of rm -r on hardlinks the other day. I restored files from a backup, but it just so happens the backup was from before the last kernel update. Now the system is kernel panicing when I try to boot it. How can I reinstall just the kernel and relevant packages from a bootable install USB stick with the server install iso on it?
+2011-03-15T17:16:00.000Z	soreau	secretary_linux	Probably need to chroot into the filesystem
+2011-03-15T17:17:00.000Z	secretary_linux	soreau	yes that sounds right to me. the thing is, I haven't done this without some kind of documentation or safety net
+2011-03-15T17:18:00.000Z	soreau	secretary_linux	Try reading how to chroot when repairing grub

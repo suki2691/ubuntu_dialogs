@@ -1,0 +1,4 @@
+2008-12-03T20:17:00.000Z	snek	IceWind	/ AlexMax: i prefer putting the module in mods-available and then using a2enmod to enabled it.. although i guess that's just a symlink to mods-enabled?
+2008-12-03T20:18:00.000Z	IceWind	snek	That is correct, the a2enmod creates the symlink
+2008-12-03T20:18:00.000Z	snek	IceWind	aha ok, i just have a tendency to make the symlink wrong the first time systematically, so i taught myself to use a2enmod instead hahaha
+2008-12-03T20:23:00.000Z	IceWind	snek	AlexMax: but you are correct, the proper way to do it should be create the .conf and .load in mods-available and them activate them using a2enmod

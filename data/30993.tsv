@@ -1,0 +1,4 @@
+2010-05-31T17:46:00.000Z	comag		df -h shows 224GB / 231GB = 100% usage. whats wrong there?
+2010-05-31T17:46:00.000Z	jrib	comag	some space is reserved for root
+2010-05-31T17:46:00.000Z	jrib	comag	you can change the amount with tune2fs, it's definitely too much
+2010-05-31T17:47:00.000Z	comag	jrib	thanks jrib

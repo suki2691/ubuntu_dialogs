@@ -1,0 +1,4 @@
+2009-12-06T14:28:00.000Z	craig_		how can i get ubuntu to mount a hdd without me needing to type in sudo password? the drive is listed on "Places" menu. but i cant access it without typing a password.
+2009-12-06T14:29:00.000Z	Dr_Willis	craig_	 try installing/running the ntfs-config command/tool if its a ntfs filesystem
+2009-12-06T14:29:00.000Z	craig_	Dr_Willis	its ext4
+2009-12-06T14:30:00.000Z	Dr_Willis	craig_	 fstab entry and set the permissions propelry. on a sub dir for a user to access.. or on the whole mountpoint

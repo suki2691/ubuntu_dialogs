@@ -1,0 +1,4 @@
+2009-12-18T15:12:00.000Z	deviL_NighT		how to change setting nvidia to Intel Corporation 82945G/GZ Integrated Graphics Controller??
+2009-12-18T15:13:00.000Z	ActionParsnip	deviL_NighT	uninstall all nvidia packages then reboot
+2009-12-18T15:13:00.000Z	ActionParsnip	deviL_NighT	sudo apt-get --purge remove nvidia*; sudo apt-get --purge utoremove; sudo dpkg-reconfigure xserver-xorg
+2009-12-18T15:16:00.000Z	deviL_NighT	ActionParsnip	: thank's...

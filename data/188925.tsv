@@ -1,0 +1,4 @@
+2006-12-09T11:12:00.000Z	Baxter_Kylie		Hi. Is there a way to get a list of installed packages and/or modules output to a text file?
+2006-12-09T11:13:00.000Z	Lynoure	Baxter_Kylie	dpkg-query -W --showformat='${status} ${Package}\n'  does something like that
+2006-12-09T11:14:00.000Z	Lynoure	Baxter_Kylie	Then you can modify it further with  sed to get just the package names
+2006-12-09T11:17:00.000Z	Lynoure	Baxter_Kylie	Good luck and have fun with it.

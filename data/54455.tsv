@@ -1,0 +1,4 @@
+2009-06-29T02:17:00.000Z	mubu		Hey guys, Im having trouble connecting to a cisco vpn with ubuntu 9.04. Everytime i try to connect with the network manager it fails. Is there any way I can see an output or log somewhere so I can see exactly what fails? Thanks
+2009-06-29T02:19:00.000Z	unop	mubu	it does use syslog .. so you'll probably find something in /var/log/syslog
+2009-06-29T02:20:00.000Z	unop	mubu	or one of the other files in that directory.  I'd use something like this to find out.   sudo tail -f /var/log/*
+2009-06-29T02:20:00.000Z	mubu	unop	thanks., ill look in the sys log file viewer

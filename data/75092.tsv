@@ -1,0 +1,4 @@
+2009-04-24T02:59:00.000Z	zsquareplusc	myk_robinson	the routing table may point to the wrong gateway. that is if oyu need the VPN to reach the internet, the default route should be some machine within that VPN
+2009-04-24T03:01:00.000Z	myk_robinson	zsquareplusc	May have found something. There is an option under Routers for "Use this connection only for its internal resources"
+2009-04-24T03:02:00.000Z	myk_robinson		nope, that didnt work
+2009-04-24T03:03:00.000Z	zsquareplusc	myk_robinson	if you know the gatweay IP numbers etc, you can have a look at the output of the "route" command to check the current settings

@@ -1,0 +1,4 @@
+2006-06-30T11:24:00.000Z	Stormx2		AutoLoad failed for: /home/barney/.xchat2/audacious-show-1.2.0.so libaudacious.so.3.0.0: cannot open shared object file: No such file or directory <-- When trying to run an xchat plugin. The file is located here: /usr/local/lib/libaudacious.so.3.0.0 <-- how do I make it look for it there?
+2006-06-30T11:26:00.000Z	Stormx2		AutoLoad failed for: /home/barney/.xchat2/audacious-show-1.2.0.so libaudacious.so.3.0.0: cannot open shared object file: No such file or directory <-- When trying to run an xchat plugin. The file is located here: /usr/local/lib/libaudacious.so.3.0.0 <-- how do I make it look for it there?
+2006-06-30T11:27:00.000Z	Kibou	Stormx2	you have to add /usr/local/lib to /etc/ld.so.conf and then sudo ldconfig
+2006-06-30T11:27:00.000Z	Stormx2	Kibou	Thanks!!

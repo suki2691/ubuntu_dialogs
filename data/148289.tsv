@@ -1,0 +1,4 @@
+2007-09-04T10:25:00.000Z	NoVARaif		Good day all.  I just installed ubuntu 7.04 server on my Dell PowerEdge SC420 server here at home.  I cannot remember for the life of me, how to start a GUI with *nix.  I have not worked with a *nix distro in a couple of years... any pointers?  I've been googling, but not had much luck as yet... I'm still sitting at a bash prompt :)
+2007-09-04T10:26:00.000Z	nixnoob	NoVARaif	the server version doesnt have a GUI built in you need to install it
+2007-09-04T10:27:00.000Z	nixnoob	NoVARaif	sudo apt-get install ubuntu-desktop
+2007-09-04T10:27:00.000Z	nixnoob	NoVARaif	then once installed you can do startx

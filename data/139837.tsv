@@ -1,0 +1,4 @@
+2007-04-10T07:19:00.000Z	Dreamglider		rm: cannot remove `USBSystemLock.exe': Read-only file system
+2007-04-10T07:19:00.000Z	Dreamglider		, How do i make it writable ?
+2007-04-10T07:20:00.000Z	aubade_	Dreamglider	Add a line to fstab or mount it manually and define what options you want (rw-user in your case).
+2007-04-10T07:21:00.000Z	aubade_	Dreamglider	/etc/fstab

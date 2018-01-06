@@ -1,0 +1,4 @@
+2005-04-20T07:38:00.000Z	sls		I installed KDE  and now it is set up with kdm instead of gdm
+2005-04-20T07:38:00.000Z	sls		how do I switch it back?
+2005-04-20T07:39:00.000Z	sls		where does X decide what login manager to use
+2005-04-20T07:39:00.000Z	daniels	sls	sudo dpkg-reconfigure -plow gdm

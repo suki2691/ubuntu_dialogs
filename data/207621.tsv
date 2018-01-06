@@ -1,0 +1,4 @@
+2005-11-19T11:48:00.000Z	veloct		Is there any way to change a partition from ext3 to reiserfs without data loss?
+2005-11-19T11:49:00.000Z	|rt|	veloct	there is a way but it's risky convertfs...it uses a loopback device to convert the filesystem in place
+2005-11-19T11:52:00.000Z	|rt|	veloct	I would backup your important data before you try convertfs if possible
+2005-11-19T11:52:00.000Z	|rt|	veloct	only use convertfs if there are no other options

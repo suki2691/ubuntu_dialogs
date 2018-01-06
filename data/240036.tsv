@@ -1,0 +1,4 @@
+2007-06-11T14:24:00.000Z	shedman		does anyone know about manually configuring the xorg.conf file?
+2007-06-11T14:26:00.000Z	shedman		thanks, I wrote a new xorg.conf but it wouldn't work
+2007-06-11T14:26:00.000Z	nickrud	shedman	man xorg.conf. There's also a bunch of man pages referenced at the bottom of that one, for vid cards, input devices, etc
+2007-06-11T14:27:00.000Z	nickrud	shedman	do the dpkg-reconfigure thing and then edit to taste, it's much less painful

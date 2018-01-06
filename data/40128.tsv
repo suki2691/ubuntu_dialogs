@@ -1,0 +1,4 @@
+2010-02-15T11:32:00.000Z	Colloguy	Real_Ubot	why not. If you don't want to poll, though, inotify will probably work
+2010-02-15T11:33:00.000Z	Real_Ubot	Colloguy	Ok.
+2010-02-15T11:34:00.000Z	Colloguy	Real_Ubot	Or just: while true ; do [ -e <file> ] && break ; sleep 60 ; done
+2010-02-15T11:36:00.000Z	Real_Ubot	Colloguy	Ok, thanks.

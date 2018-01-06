@@ -1,0 +1,4 @@
+2009-09-19T06:28:00.000Z	najevi		How do you query the on/off state of a wireless NIC when there is no hardware LED and the switch is a Fn+F2 keyboard shortcut (i.e. soft-switch) rather than a two position physical switch?
+2009-09-19T06:29:00.000Z	Jordan_U	najevi	There may be a better way but often there is an entry in /proc
+2009-09-19T06:33:00.000Z	najevi	Jordan_U	- thanks. I just grep'd /proc looking for "wireless" - several hits but none that also mention switch - I did find /pproc/kallsyms has ipw2100_switch_mode
+2009-09-19T06:34:00.000Z	Jordan_U	najevi	Look for "rfkill"

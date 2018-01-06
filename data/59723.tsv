@@ -1,0 +1,4 @@
+2010-04-13T13:22:00.000Z	eni23		noone knows about mdadm
+2010-04-13T13:23:00.000Z	eni23		got a problem with a mdam raid5 with 3disk and 1 spare. it seems to crashed, and now there is only on 1 disk a valid superblock. on the other 3 seems to be no correct filesystem. is it possible to rebuild the filesystems on the other 3?here is my fdisk-output: http://pastebin.com/UCqM8gXK
+2010-04-13T13:24:00.000Z	laclasse	eni23	on a raid 5, you can fail only one drive
+2010-04-13T13:25:00.000Z	laclasse	eni23	if you have 2 drives failed out of 3, your arrays is dead

@@ -1,0 +1,4 @@
+2010-01-29T12:31:00.000Z	DexterLB		hi. This may be a little off-topic, but there's no one at #parted, so I'll ask here
+2010-01-29T12:31:00.000Z	DexterLB		I'm on a console only system (damn small linux without X). It has a 8GB hard drive at /dev/hda. I want to make a single 8GB partition on it, so I start parted with sudo parted, and I'm in the parted console. So I type: mkpartfs primary ext3 0% 100%, but it returns error: Unable to open /dev/hda - unrecognized disk label. Why is that?
+2010-01-29T12:32:00.000Z	PingFloyd	DexterLB	why not use fdisk and mkfs?
+2010-01-29T12:33:00.000Z	DexterLB	PingFloyd	well, I'll try

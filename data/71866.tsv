@@ -1,0 +1,4 @@
+2008-12-07T08:45:00.000Z	linux29694		anyone know how to make the /etc/resolv.conf static upon reboot?
+2008-12-07T08:45:00.000Z	temppy	linux29694	you could try chattr -i I think
+2008-12-07T08:45:00.000Z	linux29694		tried that temppy
+2008-12-07T08:46:00.000Z	linux29694	temppy	i get the error: chattr: Operation not supported while reading flags on /etc/resolv.conf

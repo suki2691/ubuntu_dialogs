@@ -1,0 +1,4 @@
+2007-12-27T06:39:00.000Z	ng0n		how do i probe to find firewire card ?
+2007-12-27T06:40:00.000Z	wols_	ng0n	lspci should tell you about the firewire if it exists
+2007-12-27T06:43:00.000Z	wols_	ng0n	when you attached it the kernel should have issued it it a /devicenode. try "sudo fdisk -l" and see if it shows up
+2007-12-27T07:01:00.000Z	wols_	ng0n	yes there is a need when you abuse the channel

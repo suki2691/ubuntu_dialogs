@@ -1,0 +1,4 @@
+2010-06-27T13:30:00.000Z	Carsten^		I need to remove a ppa via command line as there is no gui available. the program ppa-purge did not work for me, are there any other options, or files I can edit? There is no ppa's in sources.list
+2010-06-27T13:31:00.000Z	airtonix	Carsten^	its a separate file in /etc/apt/sources.list.d/*
+2010-06-27T13:32:00.000Z	airtonix	Carsten^	depending on what you installed you could just "apt-get remove" the package and remove the source.list file with System > Administration > Software Sources
+2010-06-27T13:33:00.000Z	airtonix	Carsten^	what did you install ?

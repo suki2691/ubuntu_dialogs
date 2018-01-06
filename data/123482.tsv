@@ -1,0 +1,4 @@
+2008-04-22T17:33:00.000Z	zzz_zzz		**something really simple people....:i want to recover my root password _but_ before that i want to save the system log files (if any) to check if someone logged in before me... i am sure this is possible but how? any link i should consider
+2008-04-22T17:33:00.000Z	Exteris	zzz_zzz	/var/log/auth.log
+2008-04-22T17:37:00.000Z	Exteris	zzz_zzz	mount the directory your ubuntu is on, and copy the entire directory /var/log
+2008-04-22T17:38:00.000Z	Exteris	zzz_zzz	you can just mount the disk in nautilus (pick the right one) and go to 'var' and then copy the dir 'log'

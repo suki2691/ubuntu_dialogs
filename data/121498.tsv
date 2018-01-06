@@ -1,0 +1,4 @@
+2008-07-18T03:19:00.000Z	Reaby		we got major problem in loco channel, one person has updated his computer and now everythign else in usb is lost than hid devices- also he got apic error on cpu0 - any ideas to fix, since we got none.
+2008-07-18T03:19:00.000Z	Reaby		modprobing other modules causes error
+2008-07-18T03:20:00.000Z	nickrud	Reaby	first thing, I'd do   sudo apt-get install --reinstall linux-image-$(uname -r)
+2008-07-18T03:20:00.000Z	Reaby	nickrud	ok, let's try that.

@@ -1,0 +1,4 @@
+2012-10-21T19:03:00.000Z	nina666		hi... I have a text file of list of some URLs, is it possible that I send the list somehow from command line to any browser to open them all in tabs or separate window? Instead of manually copy and paste one by one...?
+2012-10-21T19:03:00.000Z	theadmin	nina666	for i in $(cat your_file) ; do xdg-open $i ; done
+2012-10-21T19:03:00.000Z	nina666	theadmin	thx
+2012-10-21T19:06:00.000Z	theadmin	nina666	Hm... Odd. Then again I'm not too sure.

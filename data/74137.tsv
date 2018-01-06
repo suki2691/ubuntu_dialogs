@@ -1,0 +1,4 @@
+2009-11-22T21:46:00.000Z	jabalsad		hi all, i'm having some trouble getting a DNS server running in ubuntu. When i execute '/etc/init.d/bind9 start' it just says "starting domain name service... bind" and then a "fail" message... where can i start looking to fix this?
+2009-11-22T21:47:00.000Z	Ziber	jabalsad	syslog.
+2009-11-22T21:48:00.000Z	jabalsad	Ziber	ah... i see a message stating that named is trying to open /etc/named.conf but permission is denied. what should the permissions of named.conf be?
+2009-11-22T21:49:00.000Z	Ziber	jabalsad	probably "bind:bind"

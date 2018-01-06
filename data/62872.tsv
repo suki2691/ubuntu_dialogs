@@ -1,0 +1,4 @@
+2010-03-22T12:05:00.000Z	tehbaut	Losha	hot dang, it turns out I got taken by a longstanding ubuntu installer bug :/
+2010-03-22T12:07:00.000Z	tehbaut	Losha	apparently, ubuntu installs grub to the first connected disk... I installed ubuntu to a disk via usb, though... so my main disk's MBR got fudged
+2010-03-22T12:10:00.000Z	tehbaut	Losha	that explains why I thought the MBR from one disk got magically copied to another disk, when actually I only cloned two partitions via DD ...it just so happens that I had only recently installed ubuntu, so I didn't boot back into the fudged disk until after I both: installed ubuntu, and cloned those partitions
+2010-03-22T12:10:00.000Z	tehbaut	Losha	I just thought I'd fill you in ;)

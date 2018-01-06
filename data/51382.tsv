@@ -1,0 +1,4 @@
+2011-08-11T21:03:00.000Z	trism	Dulak	/var/log/messages has been disabled by default in ubuntu since 11.04
+2011-08-11T21:03:00.000Z	Dulak	trism	sweet, what file gets the logs that used to go there?
+2011-08-11T21:04:00.000Z	trism		nearly everything that would have been in /var/log/messages should be in either /var/log/kern.log or /var/log/syslog (I don't know if anything is missing, although syslog is *.* so it should catch everything else now)
+2011-08-11T21:05:00.000Z	Dulak	trism	thanks for the catch, I am still on lucid

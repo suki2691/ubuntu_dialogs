@@ -1,0 +1,4 @@
+2006-10-22T10:00:00.000Z	_goofy_		anyone know of a program to mount a image file to a virtual cd drive
+2006-10-22T10:02:00.000Z	_goofy_		i have an immage file that is a game and i want to get arround burning i to a disk
+2006-10-22T10:04:00.000Z	Em3rald	_goofy_	or like this:  sudo mount file.iso /media/iso/ -t iso9660 -o loop
+2006-10-22T10:06:00.000Z	Em3rald	_goofy_	 Just a note, I believe the target directory must be /empty/ before you can use it for mount.

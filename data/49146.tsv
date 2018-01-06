@@ -1,0 +1,4 @@
+2011-01-14T08:14:00.000Z	zaery		say i want to put "sudo adduser your-username fuse" in a shell script, how would i get the user's name, rather than manually changing it for each user i want to use the script on?
+2011-01-14T08:15:00.000Z	rsouthard	zaery	user the read command. http://linuxhelp.blogspot.com/2005/10/10-seconds-guide-to-bash-shell.html
+2011-01-14T08:18:00.000Z	zaery	jrib	I guess i was asking how to use a name variable(it's my first shell script!), but rsouthard's link is better, thanks!
+2011-01-14T08:18:00.000Z	rsouthard	zaery	you could also use a variable, like 'sudo adduser $1 fuse' then when you execute your script you could do 'useradd.sh newusername'

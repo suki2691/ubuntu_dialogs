@@ -1,0 +1,4 @@
+2012-02-04T09:01:00.000Z	bw_		Alright, I'm trying to disable cups from starting at boot, I have added a cups.override file, removed run levels, and it's still managing to start?
+2012-02-04T09:02:00.000Z	zykotick9	bw_	runlevels aren't really used in the normal way in ubuntu.  Plus ubuntu uses Upstart these days.  I don't know the official way to disable services anymore though.
+2012-02-04T09:04:00.000Z	bw_	zykotick9	Upstart way should be a file "service.override" in /etc/init with the contents of manual
+2012-02-04T09:09:00.000Z	zykotick9	bw_	have to tried just moving the file in /etc/init/ to foo_cups.disabled?

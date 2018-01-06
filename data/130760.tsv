@@ -1,0 +1,4 @@
+2007-06-15T12:16:00.000Z	ivanneto		How can I turn down eth1? Tried 'sudo ifdown eth1' and '/etc/init.d/networking restart' (excluding eth1 config from the /etc/network/interfaces file), but no success.
+2007-06-15T12:17:00.000Z	TheShocker	ivanneto	ifconfig eth1 down
+2007-06-15T12:18:00.000Z	ivanneto	TheShocker	That worked! Thank tou very much!
+2007-06-15T12:18:00.000Z	TheShocker	ivanneto	np :)

@@ -1,0 +1,4 @@
+2011-07-13T18:22:00.000Z	roasted		Question - if I'm running DHCP Server on Ubuntu and I have 2 NICs, will both NICs (with static IP, dns, gateway, subnet, etc) BOTH hand out IP addresses? Or would the DHCP Server service be assigned to one in specific?
+2011-07-13T18:23:00.000Z	sipior	roasted	the dhcp server can be assigned to listen to a single interface, if desired.
+2011-07-13T18:24:00.000Z	roasted	sipior	by default does it fire out addresses from all NICs?
+2011-07-13T18:24:00.000Z	sipior	roasted	i imagine it would, yes.

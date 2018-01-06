@@ -1,0 +1,4 @@
+2006-06-27T11:08:00.000Z	ToHellWithGA		i'd like to convert a partition from ext2 ot ext3.  would it be best to just make a new ext3 partition and move the old stuff bit-by-bit, resizing as i go?
+2006-06-27T11:09:00.000Z	gdb	ToHellWithGA	You can just add a journal and continue using it as ext3.
+2006-06-27T11:09:00.000Z	gdb	ToHellWithGA	There is no difference between ext2 and ext3 other than the existance of a journal in ext3.
+2006-06-27T11:10:00.000Z	gdb	ToHellWithGA	Yes, it is. :-)

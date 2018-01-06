@@ -1,0 +1,4 @@
+2009-11-08T01:44:00.000Z	trism	foo	it would probably be DISPLAY=:0.0, but they moved the .Xauthority in karmic so you'll probably won't have permission unless set the XAUTHORITY environment variable too, or copy it back to .Xauthority
+2009-11-08T01:47:00.000Z	trism	foo	yeah that won't get set until after you have a logged in session, but again, with the changes to karmic, you'll have a bit more work to do if you're trying to launch those on another display from a remote machine
+2009-11-08T01:48:00.000Z	trism	foo	although this may only be if you use the new gdm
+2009-11-08T01:48:00.000Z	foo	trism	yeah, I'm not on the new gdm (on xdm atm). hm, any way to login via xdm or force login over ssh that you know of? I have root, hm

@@ -1,0 +1,4 @@
+2010-02-04T20:46:00.000Z	deinspanjer		I managed to get myself into a rough circular dependency spot with apt-get.  I've got a package "openoffice.org-hyphenation-en-us" that wants to be removed, but the remove relies on the script "update-openoffice-dicts" which was previously removed.
+2010-02-04T20:47:00.000Z	deinspanjer		The problem is I can't install anything to help fix the problem because it tries to remove that thing first.  I tried specifying —no-remove, but that just causes apt-get install to exit immediately saying that it must remove.
+2010-02-04T20:47:00.000Z	freakynl	deinspanjer	try reinstalling update-openoffice-dicts
+2010-02-04T20:47:00.000Z	freakynl	deinspanjer	hmm

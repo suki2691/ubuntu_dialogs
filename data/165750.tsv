@@ -1,0 +1,4 @@
+2006-09-30T15:51:00.000Z	DingoK		is there a way to tell dpkg or apt to uninstall/rm everything thta has to do with a pakcage? configs and all? so that I can reinstall from scratch?
+2006-09-30T15:53:00.000Z	bleaked	DingoK	the purge option.  if you use aptitude, it's sudo aptitude purge <pkg>
+2006-09-30T15:54:00.000Z	DingoK	bleaked	is there a way to do it with apt-get ?
+2006-09-30T15:55:00.000Z	bleaked	DingoK	well yea.. but you should really use aptitude.. the commands are almost identical.. i think apt-get uses, apt-get remove --purge or something.. check the manual, man apt-get

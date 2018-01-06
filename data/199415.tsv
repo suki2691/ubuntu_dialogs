@@ -1,0 +1,4 @@
+2007-05-25T07:54:00.000Z	cwebber		morning all
+2007-05-25T07:55:00.000Z	cwebber		how are services managed in ubuntu server?
+2007-05-25T07:55:00.000Z	cwebber		is there a system or do you just move arround scripts in the rc directories
+2007-05-25T07:57:00.000Z	dyrne	cwebber	update-rc.d  there are some front ends i think but basically: put a script /etc/init.d/  then sudo update-rc.d -f scripname defaults  or soemthing. to remove it sudo update-rc.d -f scriptname remove  thems the basics

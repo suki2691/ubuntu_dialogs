@@ -1,0 +1,4 @@
+2008-04-22T15:31:00.000Z	pengo		i want to do a fresh install when upgrading to hardy... how do i get apt to give me all installed programs, and then to install them again?
+2008-04-22T15:32:00.000Z	arvind_khadri	pengo	you can do that but with a shell script
+2008-04-22T15:33:00.000Z	pengo	arvind_khadri	a ready available one or one i write myself?
+2008-04-22T15:35:00.000Z	arvind_khadri	pengo	search the google,you might have to write one...well one way to go about is copy the /var/cache/apt/ to some file and put in a drive which wont be affected by the upgrade and then feed it back using re-direction

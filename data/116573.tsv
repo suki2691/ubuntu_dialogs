@@ -1,0 +1,4 @@
+2009-07-27T04:47:00.000Z	volk		can anyone tell me why 'ls -lsaR > test.txt' has different input than 'ls -lsaR' when i check in the .txt file?
+2009-07-27T04:49:00.000Z	geirha	volk	&> text2.txt redirects both stdout and stderr to the file
+2009-07-27T04:52:00.000Z	geirha	volk	prepend the command with time. "time command"
+2009-07-27T04:52:00.000Z	volk	geirha	thank you

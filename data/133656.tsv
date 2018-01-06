@@ -1,0 +1,4 @@
+2007-05-23T05:10:00.000Z	LJHarb		ok Flannel: im trying to back up my system state so i can quickly restore it when i upgrade. i saved my crontab, and my package selection, and ive backed up the files i need, now im looking at the config files ive modified. i have symlinks to them all in a directory, if i copy the dir, does it copy the symlinks, or the orig files?
+2007-05-23T05:11:00.000Z	yobrien	LJHarb	-d to copy symlinks
+2007-05-23T05:11:00.000Z	LJHarb	yobrien	without -d, it copies the original contents?
+2007-05-23T05:13:00.000Z	yobrien	LJHarb	with -d it copies  them as symlinks ... other wise it copies them as directories/files containing the file/directories the link points to

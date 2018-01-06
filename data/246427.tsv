@@ -1,0 +1,4 @@
+2009-09-12T01:35:00.000Z	mauro_		hello, does someone know how to batch resize and rename with imagemagick?
+2009-09-12T01:37:00.000Z	mauro_		this is what i'm doing ------> convert -resize 160x120 *.jpg *-small.jpg <------ but it renames them with the * instead of the original name plus "-small", what am I doing wrong?
+2009-09-12T01:39:00.000Z	Myrtti	mauro_	for file in *.jpg;do conver -resize 160x120 $file $file-small.jpg;done
+2009-09-12T01:42:00.000Z	Myrtti	mauro_	"${file}"-output.jpg then, or somehting

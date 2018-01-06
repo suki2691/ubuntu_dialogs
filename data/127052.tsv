@@ -1,0 +1,4 @@
+2008-10-05T04:57:00.000Z	vocx	koshari	I have 80 GB of backups, they are multiple files in folders and stuff. Do you know if there is a way to list all files, and check for duplicates, before synchronizing?
+2008-10-05T04:58:00.000Z	koshari	vocx	unfortinately i dont know how to detect multiple files with rsync, i basically use this line rsync -r --del -u /bigmutha/music /sdc1/removable --progress
+2008-10-05T05:00:00.000Z	vocx	koshari	which does what? Only copy the differences, or erases the old ones? Care to explain a little?
+2008-10-05T05:01:00.000Z	koshari	vocx	it will copy new files across or if a file has been modified ie corrected a tag ect it will copy the newer file and delete the old file in the backup.

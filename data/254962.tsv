@@ -1,0 +1,4 @@
+2005-02-05T13:57:00.000Z	bassinboy		 relocation error: /usr/local/bin/sc3u: symbol _dl_global_scope, version GLIBC_2.0 not defined in file ld-linux.so.2 with link time reference
+2005-02-05T13:58:00.000Z	jbailey	bassinboy	Eh?  Losing GLIBC_2.0 is a seriously fubar glibc...
+2005-02-05T13:59:00.000Z	jbailey		Oh, _dl_global_scope, lemme double check that one.
+2005-02-05T13:59:00.000Z	bassinboy	jbailey	trying to run a game and it says that

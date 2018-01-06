@@ -1,0 +1,4 @@
+2006-04-07T16:07:00.000Z	Jan__		Hi I had a quick question and was wondering if anybody knew the answer. I need a kernel to work without initrd image. Therefore need to have everything compiled directly in the kernel without modules. Is it possible to use a compile option so that all the modules from the config automatically get changed from module to directly compile into the kernel?
+2006-04-07T16:07:00.000Z	RQ	Jan__	you don't need everything in the kernel
+2006-04-07T16:09:00.000Z	RQ	Jan__	well as i said, i think just a few drivers are enough, not all of them. However, if you want it so much, you can just run a magic command that alters your .config file
+2006-04-07T16:13:00.000Z	RQ	Jan__	`magic` is not a command ;D

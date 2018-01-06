@@ -1,0 +1,4 @@
+2011-06-13T10:53:00.000Z	Ichigo		I'm getting audio out of my laptop's speakers, but nothing out of my headphone jack. Any idea what may cause this?
+2011-06-13T10:55:00.000Z	ActionPa1snip	Ichigo	what make and model laptop?
+2011-06-13T10:59:00.000Z	Ichigo	ActionPa1snip	It's a Prescario CQ60-421NR.
+2011-06-13T11:02:00.000Z	ActionPa1snip	Ichigo	you may need to add: options snd_hda_intel posfix=1         to /etc/modprobe.d/alsa-base.conf

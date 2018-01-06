@@ -1,0 +1,4 @@
+2009-01-12T21:37:00.000Z	student022		Hi! I have installed Ubuntu8.04 on server B and run the gnome desktop on B, accessing it with nxclient from A. When I open a gnome-terminal from within the desktop on B, I get an error "There was an error creating the child process for this terminal". How to avoid this?
+2009-01-12T21:37:00.000Z	student022		I found reports on /etc/fstab or udev errors that prevent the /dev/pts directory from having the right settings. But /dev/pts/0 exits, so its probably something else.
+2009-01-12T21:37:00.000Z	student022		When logging in to B from A using ssh -X, I can open gnome-terminal without problems. It only happens under Gnome (or KDE with konsole, respectively.)
+2009-01-12T21:37:00.000Z	FloodBot3	student022	Please don't flood, use http://paste.ubuntu.com to paste, don't use Enter as punctuation.

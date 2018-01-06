@@ -1,0 +1,4 @@
+2007-07-10T09:23:00.000Z	darwin81		How will the installer set up my partition table if I have three hard drives and choose "Guided - use largest continuous free space"?
+2007-07-10T09:24:00.000Z	darwin81		With LVM can I have two hard drives and have them show up as one big partition?
+2007-07-10T09:24:00.000Z	Jordan_U	darwin81	It will add two partitions in the currently unpartitioned space, one large one ext3 and a smaller one as swap
+2007-07-10T09:24:00.000Z	Jordan_U	darwin81	Yes

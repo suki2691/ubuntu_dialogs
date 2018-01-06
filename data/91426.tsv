@@ -1,0 +1,4 @@
+2008-05-07T23:22:00.000Z	KL4RT		i was wondering if anyone knows a way to mount as NOT root? ive got a user called Gem who has sudo access but it keeps mounting as root? anyone know why
+2008-05-07T23:22:00.000Z	andb	KL4RT	-o uid=$UID
+2008-05-07T23:22:00.000Z	KL4RT	andb	thanks so i just have to add that to mount command thank you
+2008-05-07T23:26:00.000Z	KL4RT	andb	thank you that worked like a charm

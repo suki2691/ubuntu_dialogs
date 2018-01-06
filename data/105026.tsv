@@ -1,0 +1,4 @@
+2012-08-23T13:07:00.000Z	loome		cat foo | sed '/^\s*$/d' <- what's the sed command doing?
+2012-08-23T13:08:00.000Z	loome		I get that ^ stands for start of line, $ is end of line... and * is a glob that matches 'everything'. Take it from here
+2012-08-23T13:08:00.000Z	ActionParsnip	loome	i'd ask in #bash too
+2012-08-23T13:13:00.000Z	ActionParsnip	loome	afaik, it looks like it deletes empty lines in a file, make a test file with different stuff in it and see what happens

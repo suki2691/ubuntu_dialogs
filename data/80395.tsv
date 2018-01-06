@@ -1,0 +1,4 @@
+2008-09-10T15:39:00.000Z	Kattollikisd		HI for everybody, I have a lot of .deb that I want to install... but I really don't like to install all that one by one....  anyway of you have a command that I can install then all in the terminal ( I knos that I have to go to  "cd <that folder that I has been talking about" ) :P But I don't know what to do next :S
+2008-09-10T15:40:00.000Z	unop	Kattollikisd	sudo dpkg -i /path/to/*.deb
+2008-09-10T15:40:00.000Z	unop	Kattollikisd	though, you must ensure that all dependencies are satisfied
+2008-09-10T15:42:00.000Z	Kattollikisd	unop	thanks

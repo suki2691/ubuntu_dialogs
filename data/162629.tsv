@@ -1,0 +1,4 @@
+2007-10-30T16:01:00.000Z	Nokao		hi... I need a little support with apt: I have to install both libmysqlclient for amd64 and i386. I have both the .deb files but apt installs one and remove the other every time I try to do the trick.
+2007-10-30T16:01:00.000Z	Nokao		I'm using the command: dpkg -i --force-architecture packagename
+2007-10-30T16:01:00.000Z	Nokao		what can I do?
+2007-10-30T16:03:00.000Z	PriceChild	Nokao	don't install i386 packages on 64bit ubuntu and vica verca

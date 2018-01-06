@@ -1,0 +1,4 @@
+2010-06-14T02:06:00.000Z	bahaa		guys can any body help with this: http://ubuntuforums.org/showthread.php?t=1507339
+2010-06-14T02:07:00.000Z	almien	bahaa	search for "com" in about:config and one of the results will be the list of url-autocompletion suffixes
+2010-06-14T02:09:00.000Z	bahaa	almien	thanks for replying but I want to make it just change one site by another like the auto correction in word for example.
+2010-06-14T02:11:00.000Z	almien	bahaa	nslookup somedomain.org, then add whatever ip address is found to /etc/hosts as somedomain.com.  Only works if they never change IP though

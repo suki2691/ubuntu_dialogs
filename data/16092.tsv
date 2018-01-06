@@ -1,0 +1,4 @@
+2011-04-07T01:02:00.000Z	Spoog		Hi, .. I'm running 10.10 x64. I'm having issues getting ub to recognize my network card (mobo nic). Any suggestions? lshal > shows my nic though?
+2011-04-07T01:02:00.000Z	erUSUL	Spoog	what model is your nic?
+2011-04-07T01:03:00.000Z	Spoog	erUSUL	Realtek (RTL8111/81688
+2011-04-07T01:04:00.000Z	erUSUL	Spoog	should work with the r8169 driver do « sudo modprobe r8169 »

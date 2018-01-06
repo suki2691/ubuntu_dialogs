@@ -1,0 +1,4 @@
+2008-07-21T03:43:00.000Z	dude__		whoah
+2008-07-21T03:44:00.000Z	dude__		I just typed in nvidia-xconfig and it says "VALIDATION ERROR: Data incomplete in file /etc/X11/xorg.conf. Device section "Configured Video Device" must have a Driver line.  ERROR: Unable to write to directory '/etc/X11'.  ??
+2008-07-21T03:45:00.000Z	soundray	dude__	'gksudo nvidia-xconfig'
+2008-07-21T03:47:00.000Z	soundray	dude__	use gksudo for graphical programs, sudo ONLY for cli ones (not sure if nvidia-xconfig is graphical or not, so gksudo was the safe choice)

@@ -1,0 +1,4 @@
+2008-03-13T18:56:00.000Z	m3gach33zy		Can anyone tell me why I cant install ubuntu on a desktop that uses a DVI converter?  I can get the install going but the video cuts off
+2008-03-13T18:57:00.000Z	m3gach33zy		idk I cant remove the converter because I need the converter to see video...
+2008-03-13T18:57:00.000Z	m3gach33zy		my vid card is dvi only and my monitor is vga
+2008-03-13T18:58:00.000Z	Jack_Sparrow	m3gach33zy	At start or install press F6 and remove Quiet and Splash from the command line. If it still fails repeat and add noapic acpi=off before the --

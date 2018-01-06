@@ -1,0 +1,4 @@
+2012-04-13T21:51:00.000Z	trism	david-goodger	check out config.log and search for "no openGL found", if you scroll up a little bit you will see the error, for me it was "cannot find -lXmu", so I needed libxmu-dev as well (so, their configure script is kind of broken)
+2012-04-13T21:52:00.000Z	david-goodger	trism	thanks, will do!
+2012-04-13T22:05:00.000Z	david-goodger	trism	success with BurrTools, thanks!
+2012-04-13T22:06:00.000Z	trism	david-goodger	excellent, you're welcome

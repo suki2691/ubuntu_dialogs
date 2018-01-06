@@ -1,0 +1,4 @@
+2007-04-17T15:00:00.000Z	Crazytom		what the command to search through a text file and show duplicate entries?
+2007-04-17T15:00:00.000Z	Crazytom		or delete them
+2007-04-17T15:01:00.000Z	velko	Crazytom	if you mean duplicate lines try something like this: sort myfile | uniq > outfile (typing out of my head, so you may need to tweak it a bit)
+2007-04-17T15:54:00.000Z	velko	Crazytom	iptables replaced ipchains

@@ -1,0 +1,4 @@
+2012-10-24T02:35:00.000Z	Svetlana_		like i said, upstart doesn't start vsftpd.
+2012-10-24T02:35:00.000Z	wastrel	Svetlana_	is it inetd?  maybe what about /etc/init.d/
+2012-10-24T02:36:00.000Z	Svetlana_	wastrel	ubuntu 12.10, upstart replaces init.d
+2012-10-24T02:42:00.000Z	Svetlana_	wastrel	lrwxrwxrwx 1 root root 21 May 23 18:11 /etc/init.d/vsftpd -> /lib/init/upstart-job

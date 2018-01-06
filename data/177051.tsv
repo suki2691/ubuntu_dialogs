@@ -1,0 +1,4 @@
+2007-03-24T14:47:00.000Z	h-bomb		got a question, i have a heavily moddified 6.06 installation (mysql, cacti, php, apache, smokeping, munin, monit) if i upgrade to 6.10 will my system survive? i of course will make a backup first. any thoughts?
+2007-03-24T14:49:00.000Z	finalbeta	h-bomb	it should survice, but if you made custom edits to config files, there are likely to be overwritten or not, the upgrader should ask you. If you used packages not from the official repositories, problem can occur, and parts wont upgrade.
+2007-03-24T14:49:00.000Z	finalbeta	h-bomb	the upgrade from 6.06 can be troublesome, I wouldn't do it again myself. Upgrading to Feisty is much much smoother
+2007-03-24T14:49:00.000Z	h-bomb	finalbeta	i have made lots of custom edits

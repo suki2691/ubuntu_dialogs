@@ -1,0 +1,4 @@
+2009-06-17T12:25:00.000Z	milligan_		/usr/local/lib/libfreeradius-radius-2.2.0.so: ELF 32-bit LSB shared object, Intel 80386, version 1 (SYSV), not stripped | --- | export PATH=$PATH:/usr/local:/usr/local/lib | --- | radiusd: error while loading shared libraries: libfreeradius-radius-2.2.0.so: cannot open shared object file: No such file or directory <- Why ?
+2009-06-17T12:26:00.000Z	lstarnes	milligan_	/usr/local/lib and /usr/local shouldn't be in $PATH although /usr/local/bin should be
+2009-06-17T12:26:00.000Z	lstarnes	milligan_	you might need to rerun sudo ldconfig
+2009-06-17T12:27:00.000Z	milligan_	lstarnes	thanks .. ldconfig did the job.

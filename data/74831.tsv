@@ -1,0 +1,4 @@
+2009-11-10T23:13:00.000Z	vMCubun		i am connected to the internet now, how do i update etc? i have chagned software sources to autoupdate n stuff, but how do i know if its done it or not?
+2009-11-10T23:14:00.000Z	fosco__	vMCubun	if you see no error it is ok
+2009-11-10T23:15:00.000Z	fosco__	vMCubun	sudo aptitude update && sudo aptitude dust-upgrade && sudo aptitude install gufw (but mostly sure you do not need a firewall)
+2009-11-10T23:25:00.000Z	fosco__	vMCubun	linux is a very secure kernel, and ubuntu is secure also, don't be so paranoid, you do not need a firewall

@@ -1,0 +1,4 @@
+2011-07-25T04:05:00.000Z	deven_		i want to right click on file and change its permission to open as program but it saying i can not do it bcoz i m not owner, is there graphical way to fix this?
+2011-07-25T04:07:00.000Z	deven_		i went to folder where my file is, i right click on folder and opened terminal and typed sudo apt-get install <> file name will that do the trick
+2011-07-25T04:09:00.000Z	th0r	deven_	if you want to change the owner of the file, you need chown. If you want to make it executable, the command is chmod
+2011-07-25T04:11:00.000Z	th0r	deven_	if you read the man page for chmod, compose a proposed command line in a text editor I will be glad to explain where you went wrong

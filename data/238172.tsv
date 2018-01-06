@@ -1,0 +1,4 @@
+2009-02-22T03:31:00.000Z	Kagee		iptables: http://blogs.techrepublic.com.com/10things/?p=539 <<== will changes like that save themself, and reappear after reboot?
+2009-02-22T03:32:00.000Z	imachine	Kagee	I think you need to do iptables save or smth.
+2009-02-22T03:32:00.000Z	imachine	Kagee	so it will get launched by an init script during your bootup process.
+2009-02-22T03:32:00.000Z	imachine	Kagee	dunno the magic behind that in ubuntu.

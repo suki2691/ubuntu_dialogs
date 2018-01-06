@@ -1,0 +1,4 @@
+2010-05-24T02:19:00.000Z	Cosmo`		does anyone know how to configure ubuntu to stop holding up boot if a drive isn't available for mounting?
+2010-05-24T02:19:00.000Z	maco	Cosmo`	change your /etc/fstab to have "noauto" on the drive that might not be there
+2010-05-24T02:20:00.000Z	maco	Cosmo`	oh.
+2010-05-24T02:22:00.000Z	maco	Cosmo`	sounds like something to do with mountall but im not knowledgeable about the boot process

@@ -1,0 +1,4 @@
+2007-12-05T07:12:00.000Z	gaminggeek		hello
+2007-12-05T07:12:00.000Z	gaminggeek		can someone remind me how to update my path?
+2007-12-05T07:13:00.000Z	gaminggeek		because I have installed something manually and its not seeing the new libary it installed
+2007-12-05T07:14:00.000Z	kelsin	gaminggeek	the system path is defined in /etc/environment, if you just want to set it yourself you can add "export PATH=/usr/local/bin;$PATH" in your .bashrc, obviously replace /usr/local/bin whith what you need

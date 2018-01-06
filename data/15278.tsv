@@ -1,0 +1,4 @@
+2011-08-10T20:10:00.000Z	grillermo		is there a way to grep the list thats comes out when you hit tab two times on bash, i'm looking for a particular command
+2011-08-10T20:12:00.000Z	grillermo		oh
+2011-08-10T20:12:00.000Z	grillermo		thanks guys
+2011-08-10T20:12:00.000Z	escott	grillermo	or echo $PATH | sed -e "s/:/ /g" | xargs ls | grep gnome

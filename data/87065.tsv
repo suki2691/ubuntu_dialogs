@@ -1,0 +1,4 @@
+2008-07-15T07:19:00.000Z	banisterfiend		hey guys, sometimes when i run my ruby/gosu game that plays .ogg music...it says 'error something run-time device, something slave, can't play music' or something along those lines. almost like it can't play music in two places at once...i.e from a program on my desktop AND in the game. if i close the program on my desktop (usually something like firefox) the music usually runs fine in my game. what's going on ?
+2008-07-15T07:19:00.000Z	banisterfiend		 sorry the exact error is 'error initializing output device'
+2008-07-15T07:19:00.000Z	Blaqlight	banisterfiend	your using OSS try switching to ALSA instead
+2008-07-15T07:20:00.000Z	Blaqlight	banisterfiend	use ALSA as your default sound rendering device.

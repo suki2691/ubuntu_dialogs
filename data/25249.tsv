@@ -1,0 +1,4 @@
+2012-02-19T17:04:00.000Z	Guinness2702		I just found something on google about prerouting
+2012-02-19T17:04:00.000Z	Guinness2702		found a page which says "iptables -t mangle -A PREROUTING -i eth0 -p tcp -m tcp --dport 22 -j MARK --set-mark 1"
+2012-02-19T17:04:00.000Z	Guinness2702		but wtf is "MARK"
+2012-02-19T17:05:00.000Z	oCean	Guinness2702	please don't use acronyms such as wtf here, thanks

@@ -1,0 +1,4 @@
+2006-05-03T11:58:00.000Z	shizzz		does anyone know what file i need to edit so that during boot up i can skip two of my ntfs mountings?
+2006-05-03T11:58:00.000Z	bimberi	shizzz	/etc/fstab
+2006-05-03T11:59:00.000Z	bimberi	shizzz	yw :)
+2006-05-03T12:06:00.000Z	bimberi	shizzz	yes, better to use sudo (eg. 'sudo gedit /etc/fstab') then you're only superuser for the duration of the edit

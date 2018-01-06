@@ -1,0 +1,4 @@
+2009-04-27T06:14:00.000Z	blbrown		anyone have an nvidia graphics card and use the nvidia settings.  What is "Configured Video Device" in the xorg.conf file?
+2009-04-27T06:16:00.000Z	druke	blbrown	the driver is "nvidia"
+2009-04-27T06:16:00.000Z	blbrown	druke	that is the driver but not the device
+2009-04-27T06:17:00.000Z	druke	blbrown	under section "device, it defines the identifier ("config'd video device"), the driver and teh no logo option, that is all

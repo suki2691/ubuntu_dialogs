@@ -1,0 +1,4 @@
+2005-12-26T06:27:00.000Z	eSPete		how do i reconfigure the network interface without reboot?
+2005-12-26T06:28:00.000Z	apokryphos	eSPete	ifdown eth0 ; ifup eth0
+2005-12-26T06:29:00.000Z	eSPete	apokryphos	is that the same as ifconfig eth0 down/up?
+2005-12-26T06:32:00.000Z	apokryphos	eSPete	probably

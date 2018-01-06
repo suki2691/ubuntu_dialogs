@@ -1,0 +1,4 @@
+2009-10-03T23:45:00.000Z	vtec_		Hello can anyone help me with my sound? When I boot Ubuntu I hear the system sounds when I log on and when the logon screen shows up BUT now for some reason when I open my Music Player or watch a video my sound doesn't work... I'm using ALSA..I've tried this command sudo /etc/init.d/alsa-utils restart
+2009-10-03T23:45:00.000Z	vtec_		 and it doesn't really work for me the sound doesn't get restored. Under my volume control I have HDA NVidia (Alsa mixer) and I have Realtek ALC662 rec1 (OSS Mixer), can anyone help? Thanks
+2009-10-03T23:46:00.000Z	Growlithe	vtec_	Have you tried the OSS Mixer?
+2009-10-03T23:47:00.000Z	vtec_	Growlithe	Yes I have tried to use the OSS Mixer as device and it doesn't work, I removed PulseAudio before becasue I was suggested to, and it worked fine without PA..that was a few weeks ago

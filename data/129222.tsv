@@ -1,0 +1,4 @@
+2008-04-09T10:46:00.000Z	gokee2_		I just installed crossover office and all its programs seem to be in /opt/cxoffice/bin/ but bash does not know to look in this path..  How do I tell it to look there?
+2008-04-09T10:47:00.000Z	unop	gokee2_	edit your ~/.bashrc .. and add this line in.  export PATH=$PATH:/opt/cxoffice/bin
+2008-04-09T10:47:00.000Z	unop	gokee2_	you might need to log out and log back in for changes to take effect
+2008-04-09T10:47:00.000Z	gokee2_	unop	Ah great, thanks :)

@@ -1,0 +1,4 @@
+2007-12-02T09:59:00.000Z	Nematocyst	pg	you'll want to update uuid for the partitions in /etc/fstab too
+2007-12-02T10:01:00.000Z	pg	Nematocyst	kitche: strangely, the UUIDs match both in menu.lst and fstab
+2007-12-02T10:17:00.000Z	Nematocyst	pg	i can't believe i'm not getting LOTS of hits on this, but here's one: http://encodable.com/tech/blog/2006/10/30/Ubuntu_Linux_Hard_Drive_Upgrade
+2007-12-02T10:18:00.000Z	Nematocyst	pg	essentially, you copy all the partitions, put grub on the MBR of the new drive, and update /etc/fstab on it using the new partition uuids

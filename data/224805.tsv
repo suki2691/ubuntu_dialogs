@@ -1,0 +1,4 @@
+2010-03-17T00:34:00.000Z	uniscript		I have a running process and I want to time it without restarting. Any suggestions?
+2010-03-17T00:34:00.000Z	arathald	uniscript	time the whole execution, or the execution from here on?
+2010-03-17T00:35:00.000Z	uniscript	arathald	either
+2010-03-17T00:36:00.000Z	arathald	uniscript	well, timing the whole execution would be nearly impossible at this point; the execution from here on would probably have to be done via a script that somehow hooked into the pid of the running process and waited for it to terminate

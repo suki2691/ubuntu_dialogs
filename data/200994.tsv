@@ -1,0 +1,4 @@
+2006-06-25T08:21:00.000Z	searunner		hey there Ive just done another Dapper install on an MSI NForce motherboard and teh MCP51 ehternet controller is not behaving
+2006-06-25T08:23:00.000Z	searunner		the new dapper looked after the onboard nvidia graphics fine
+2006-06-25T08:24:00.000Z	searunner		when I run the downloaded NFORCE drivers from nvidia and run it as root the script first complains of cant find ld so I did a ln -s ld-static ld and then ran the nvidia installler again and it got past that error to only complain of not being able to find objcopy from bin utils
+2006-06-25T08:25:00.000Z	__mikem	searunner	generally ntfs is mounted readonly by default

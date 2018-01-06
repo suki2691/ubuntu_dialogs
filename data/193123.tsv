@@ -1,0 +1,4 @@
+2006-06-18T09:33:00.000Z	jjack		question... i'm trying to install to a hard disk, its the last chunk of free/unformatted/unpartitioned space on my machine.. how would i do this?
+2006-06-18T09:33:00.000Z	ic56	jjack	how many primary partitions already in use on that disk?
+2006-06-18T09:35:00.000Z	ic56	jjack	good.  Make the 4th partition an "extended" partition occupying the rest of the disk.  Then create as many logical partitions as you want, inside the extended partition.
+2006-06-18T09:38:00.000Z	ic56	jjack	/dev/sda4 will not be usable -- it's teh extended partition.  You will create logical partitions (in Linux, these are numbered starting at number 5) and for these you will get devices starting with /dev/hda5

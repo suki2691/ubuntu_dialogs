@@ -1,0 +1,4 @@
+2010-08-04T23:26:00.000Z	rmrfslash		Is there a command to check which partitions are encrypted for an lvm managed disk?
+2010-08-04T23:28:00.000Z	rallias	rmrfslash	i personally like "unmount *spesific partition*" then "mount *spesific partition*", then opening natulus. It has worked for me. If it gives a read error, you know its encrypted, and all you have to do to restore it is reboot.
+2010-08-04T23:28:00.000Z	rmrfslash	rallias	yeeeah, I'm gunna go ahead and say there's a better way
+2010-08-04T23:29:00.000Z	rallias	rmrfslash	it works, wether or not its good is a different matter.

@@ -1,0 +1,4 @@
+2008-08-24T00:46:00.000Z	Crazytom		can someone give me a hand with a bcm4306 wireless card?  I've installed fwcutter and ran it with the bcm driver, the card shows up in the network manager but it doesn't show
+2008-08-24T00:46:00.000Z	Seveas	Crazytom	did you reboot after runing fwcutter?
+2008-08-24T00:47:00.000Z	Crazytom	Seveas	two or 3 times
+2008-08-24T00:47:00.000Z	Seveas	Crazytom	run the command 'dmesg' and search for output from the b43 driver. That'll tell you whether it sees the firmware

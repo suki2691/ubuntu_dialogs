@@ -1,0 +1,4 @@
+2006-11-24T15:31:00.000Z	spacebear		same do i wonder...how to reconf xorg and shut it down
+2006-11-24T15:33:00.000Z	spacebear		in dmesg i find early in log -- Console colour VGA+ 80x25  <---- how do i change that
+2006-11-24T15:33:00.000Z	sethk	spacebear	change it to what?
+2006-11-24T15:34:00.000Z	sethk	spacebear	try adding     vga=ask        to your kernel command line in menu.lst

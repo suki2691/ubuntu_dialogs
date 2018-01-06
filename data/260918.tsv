@@ -1,0 +1,4 @@
+2005-09-06T08:51:00.000Z	lunitik		ThreeDayMonk: what exactly is the issue?
+2005-09-06T08:51:00.000Z	ThreeDayMonk	lunitik	strxfrm and Japanese kana
+2005-09-06T08:52:00.000Z	lunitik	arachnion	type this into your irc client: /exec -o lspci | grep audio
+2005-09-06T08:52:00.000Z	ThreeDayMonk	lunitik	en_US.UTF-8 (and en_GB) transform all kana to the same token, so comparison and sorting is broken

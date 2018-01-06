@@ -1,0 +1,4 @@
+2009-11-02T01:50:00.000Z	pankey		im having a problem getting a windows7 raid0 machine to use grub and boot ubuntu. i've tried installing it to the active partition but it refuses to work :/
+2009-11-02T01:51:00.000Z	jcdutton	pankey	grub does not install to a partition, it installed to the embedded area.
+2009-11-02T01:53:00.000Z	pankey		well i install unbuntu 9.10 and click advanced to set where to put grub but it does not install to where i set it. and when the system restarts it boots right into windows
+2009-11-02T01:54:00.000Z	pankey	jcdutton	it can be installed to the enbedded partition of the area tho correct? because i've used a bootloader to load another bootloader before

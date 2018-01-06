@@ -1,0 +1,4 @@
+2011-05-24T00:12:00.000Z	improveupon		my gui keeps crashing after being in hibernate (on a laptop) when a flash video was playing in firefox. only the mouse pointer still moves. sound keeps coming in, and you can still pull up a f1-f6 terminal. is there anything i should try from the terminal? should i restart x? is that what crashed? any ideas welcomome. thankyou
+2011-05-24T00:13:00.000Z	butter_fs	improveupon	the video driver in xorg, yeah.  It crashes every time you hibernate with a flash video playing?
+2011-05-24T00:14:00.000Z	butter_fs	improveupon	if so, try this:  switch to vt1, and then hibernate (I can look up the command if you don't have it set to a button or whatever)
+2011-05-24T00:14:00.000Z	butter_fs	improveupon	if that "fixes" it, there's a quirk option you can turn on which will tell the system to do that automatically everytime

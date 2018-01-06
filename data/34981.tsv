@@ -1,0 +1,4 @@
+2012-03-12T18:27:00.000Z	Aufwind		Hello dear nice guys, I need some help to set up a ssh-server (default would be sufficient for me) on my ubuntu machine (fresh installed Ubuntu 10.11). I can ssh to a machine let's call it B but I can not connect back per ssh from machine B to my machine. It always tells me: "host blubb port 22: Connection timed out" where blubb is the hostname of my machine.
+2012-03-12T18:29:00.000Z	dr_willis	Aufwind	 yes
+2012-03-12T18:29:00.000Z	dr_willis	Aufwind	 try ssh localhost
+2012-03-12T18:30:00.000Z	Aufwind	dr_willis	ssh localhost works fine.

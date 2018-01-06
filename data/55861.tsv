@@ -1,0 +1,4 @@
+2009-06-02T14:18:00.000Z	ms_		Hello, I was wondered about mount.ntfs, when rw access to that disk is big it eats all my cpu. Suppose it is nothing to do about that. Can I somehow move my partition from ntfs to eht2, without copying all data to another disk?
+2009-06-02T14:19:00.000Z	G_A_C	ms_	No, you would need to backup your data, reformat the disk you want to use as ext3, and then restore your data to it
+2009-06-02T14:19:00.000Z	G_A_C	ms_	there's no "inplace" migration from NTFS to ext3
+2009-06-02T14:23:00.000Z	ms_	G_A_C	tanks

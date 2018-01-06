@@ -1,0 +1,4 @@
+2012-03-20T15:45:00.000Z	Kk2		hello, after changing my kernel to 3.2.12 all boot logos, for starting, and shutdown/reboot, are just gone how i restore that?
+2012-03-20T15:47:00.000Z	Kk2		lol, why anudaasa? everyting is working, less the ubuntu logo from booting :P
+2012-03-20T15:47:00.000Z	[Si]	Kk2	sounds like your framebuffer driver is missing from your 3.2 kernel
+2012-03-20T15:55:00.000Z	[Si]	Kk2	edit /etc/default/grub. Change the "GRUB_CMDLINE_LINUX_DEFAULT" to have "nomodeset" then add "GRUB_GFXPAYLOAD_LINUX=text" to the end of the file. Then run Update grub

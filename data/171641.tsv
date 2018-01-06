@@ -1,0 +1,4 @@
+2006-09-05T10:17:00.000Z	cajun		how can I figure out which directory my linux source files are in?  i tried a search and couldn't find it.  I'm trying to install Cisco's VPN CLient.  It's asking me for the directory containing linux kernel source code
+2006-09-05T10:17:00.000Z	cajun		i'm a newbie
+2006-09-05T10:17:00.000Z	cry0gen	cajun	/usr/include if you want linux src, /usr/src/linux-$(uname -r)
+2006-09-05T10:19:00.000Z	cry0gen	cajun	/usr/include :)

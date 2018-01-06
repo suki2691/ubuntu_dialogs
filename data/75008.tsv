@@ -1,0 +1,4 @@
+2008-12-09T00:25:00.000Z	redrebel		is this the command I would use to delete all directories older then 3 days??     find . -mtime +3 -type d -exec -fr {} \
+2008-12-09T00:26:00.000Z	redrebel		want to make sure I don't delete anything else
+2008-12-09T00:26:00.000Z	zsquareplusc	redrebel	no, you missed the rm command. and for testing use echo instead of rm :-)
+2008-12-09T00:27:00.000Z	redrebel	zsquareplusc	 thanx

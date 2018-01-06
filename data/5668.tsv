@@ -1,0 +1,4 @@
+2012-02-24T12:36:00.000Z	doc-saintly		I have a 3tb external drive i'm trying to use as the backup for a DD operation, but it keeps saying permission denied even though I'm using sudo
+2012-02-24T12:36:00.000Z	doc-saintly		Any ideas?
+2012-02-24T12:37:00.000Z	kriskropd	doc-saintly	you did mount it first right?
+2012-02-24T12:38:00.000Z	kriskropd	doc-saintly	dd converts adn copies files within a filesystem, meaning it has to be mounted first :)

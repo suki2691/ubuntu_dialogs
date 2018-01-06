@@ -1,0 +1,4 @@
+2009-08-21T04:48:00.000Z	khermans		ive got 5 minutes -- i want to solve 5 people's problems ... LETS GO -- shoot me your most difficult issues now :-)
+2009-08-21T04:49:00.000Z	khermans		done...
+2009-08-21T04:49:00.000Z	sumo_su	khermans	i want to downgrade from ext4 to ext3
+2009-08-21T04:50:00.000Z	khermans	sumo_su	sudo aptitude install gparted; then resize your partition down to smallest it can be, create ext3 in slack space, migrate your data, delete your ext4, expand ext3, done

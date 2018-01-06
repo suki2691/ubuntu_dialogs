@@ -1,0 +1,4 @@
+2008-05-09T22:08:00.000Z	jtsigma		how can i find out what brand/model SCSI drive in my linux box without removing drive or restarting?
+2008-05-09T22:09:00.000Z	soundray	jtsigma	you may find something underneath /proc/scsi
+2008-05-09T22:09:00.000Z	jtsigma	soundray	ya, i tried that but since i have logical raid through md, it shows up all as logical disk
+2008-05-09T22:10:00.000Z	soundray	jtsigma	have you looked with hal-device-manager? (Or gnome-device-manager if you're on hardy)

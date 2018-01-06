@@ -1,0 +1,4 @@
+2010-10-04T20:41:00.000Z	dfcnvt_		hello
+2010-10-04T20:42:00.000Z	dfcnvt_		How do I find which program is it running on port 5900? I'm aware it is VNC.. but I need a quick way to find it through 'ps aux'
+2010-10-04T20:42:00.000Z	acicula	dfcnvt_	ps aux doesnt see ports, netstat does
+2010-10-04T20:55:00.000Z	acicula	dfcnvt_	well aside from netstat you can use fuser but you'll still have to kill the process to (eventually) kill the port

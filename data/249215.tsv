@@ -1,0 +1,4 @@
+2009-10-30T12:47:00.000Z	DaveHope		Hi all. Great work on Karmic! (other than it broke my tty customisation). When you run 'aptitude update' it prints a status message, for example 'Current status: 4 updates [+4], 3623 new [+14]'. Is there a way to get this information without doing an aptitude update ?
+2009-10-30T12:48:00.000Z	filgy	DaveHope	apt-get update should print all updates available without having to download them
+2009-10-30T12:48:00.000Z	DaveHope	filgy	Thanks, But I just want to display a count of the pending updates to be installed.
+2009-10-30T12:49:00.000Z	filgy	DaveHope	that will list all pending updates

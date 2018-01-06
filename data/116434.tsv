@@ -1,0 +1,4 @@
+2010-11-05T18:35:00.000Z	Jovaro		how can I stop ubuntu from autostarting X on startup?
+2010-11-05T18:36:00.000Z	erUSUL	Jovaro	add text to boot options in /etc/default/grub ? run « sudo update-grub »
+2010-11-05T18:38:00.000Z	erUSUL	Jovaro	kdm xdm or whatever you use
+2010-11-05T18:45:00.000Z	Jovaro	erUSUL	just adding text at bootup didn't make a difference... I used nosplash instead of splash but I still get the splash screen after a while and it switched to tty7 instead of sticking to tty1...

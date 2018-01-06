@@ -1,0 +1,4 @@
+2012-01-05T09:12:00.000Z	Chipzzz	dj_segfault	apache should start at boot but if you have to start it manually, it's "gksudo /usr/sbin/apache2ctl graceful"
+2012-01-05T09:12:00.000Z	dj_segfault	Chipzzz	I'm not trying to start it.  I'm trying to debug virtual host problem with -S parameter
+2012-01-05T09:13:00.000Z	dj_segfault		-S     Show the settings as parsed from the config file (currently only shows the virtualhost settings).
+2012-01-05T09:17:00.000Z	Chipzzz	dj_segfault	 "sudo /usr/sbin/apache2ctl -S"

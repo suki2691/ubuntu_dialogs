@@ -1,0 +1,4 @@
+2011-12-09T23:38:00.000Z	Rushing		how do i run an app without locking the terminal?
+2011-12-09T23:38:00.000Z	Rushing		just sits there with the cursor and i can't type run any commands...
+2011-12-09T23:38:00.000Z	escott	Rushing	"command &" runs in the background, you can then fg the job to bring it to the foreground. you can ctrl-z suspend a running job and then bg it
+2011-12-09T23:42:00.000Z	escott	Rushing	this feature of the shell is called job control so see the bash manual for "job control" for some of the other features (like selecting which job to bring to the foreground)

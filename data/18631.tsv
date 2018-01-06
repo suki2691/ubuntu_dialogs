@@ -1,0 +1,4 @@
+2012-09-06T23:32:00.000Z	hlpme		is there a way to reinstall 12.04 from the command line to skip the grub stage, which seems to always mess up my system
+2012-09-06T23:33:00.000Z	MonkeyDust	hlpme	 start from the beginning, where do things go wrong
+2012-09-06T23:38:00.000Z	MonkeyDust	hlpme	 i don't like/use unity, but there's the command unity --reset
+2012-09-06T23:41:00.000Z	MonkeyDust	hlpme	 there's also this, but it's more drastic gconftool-2 --recursive-unset /apps/compiz && compiz --replace <enter>

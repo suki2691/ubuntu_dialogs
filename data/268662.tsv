@@ -1,0 +1,4 @@
+2004-12-08T09:14:00.000Z	cody_		I have a problem.
+2004-12-08T09:15:00.000Z	cody_		I didn't set a root password in install (it didn't ask me to, I dont' think) and doing sudo passwd root as the website suggests just asks me for my root password
+2004-12-08T09:17:00.000Z	Kamion	cody_	no, it's asking for *your* password
+2004-12-08T09:18:00.000Z	Kamion	cody_	you don't need to set a root password if you don't want to; you can just leave it unset and use sudo to gain root privileges

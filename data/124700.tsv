@@ -1,0 +1,4 @@
+2007-09-06T09:46:00.000Z	afuchs		ok, im in the feisty 64 bit live cd, and i have to remove grub as the bootloader, so i can get back in and shrink vista's partition
+2007-09-06T09:48:00.000Z	afuchs		i need to clear the master boot record for /dev/sda, so my bios will use /dev/sda2 (which has the bootable flag set on it)
+2007-09-06T09:50:00.000Z	afuchs		or just make windows boot from the live cd, bypassing grub
+2007-09-06T09:52:00.000Z	slavik`lap	afuchs	first try to select 800x600 in vga mode

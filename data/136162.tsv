@@ -1,0 +1,4 @@
+2007-06-29T08:32:00.000Z	mkeesey		I am working on a regular expression for awk to find files that end in .torrent, but I have not been able to prevent it from getting greedy and allowing stuff beyond that. (ie: blahblah.torrent.png). Any ideas?
+2007-06-29T08:33:00.000Z	Gnea	mkeesey	find /dir -name "*.torrent"
+2007-06-29T08:35:00.000Z	Gnea	mkeesey	ah, just do a reverse grep for .png files :)
+2007-06-29T08:35:00.000Z	Gnea	mkeesey	grep -v .png

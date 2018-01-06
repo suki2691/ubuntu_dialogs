@@ -1,0 +1,4 @@
+2009-06-09T16:20:00.000Z	pkkm		how to kill hung up X on virtual console accesible from Ctrl+Alt+F9 ?
+2009-06-09T16:21:00.000Z	carpii	pkkm	find the pid from 'ps aux' then kill -9 <pid>
+2009-06-09T16:24:00.000Z	carpii	pkkm	i dont know. it should be obvious though. try passing -H to ps aux and itll show a hierarchy tree
+2009-06-09T16:27:00.000Z	pkkm	carpii	This: 'pawel     4217  0.0  0.2 191456  9808 ?        Ssl  13:16   0:00       x-session-manager' ?

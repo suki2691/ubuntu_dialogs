@@ -1,0 +1,4 @@
+2005-09-11T16:00:00.000Z	Akrame		i have the 8000 port open on my server , one of mah ex friends might has installed a http proxy , how can i know the software that uses the 8 000 port and remove it ? thanks
+2005-09-11T16:00:00.000Z	cafuego	Akrame	sudo netsat -nap | grep :8000
+2005-09-11T16:01:00.000Z	cafuego	Akrame	That will give you  aprocess id and a process name.
+2005-09-11T16:01:00.000Z	cafuego	Akrame	netstat

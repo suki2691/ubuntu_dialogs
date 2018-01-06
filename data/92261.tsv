@@ -1,0 +1,4 @@
+2009-06-11T16:20:00.000Z	logankoester		What's a fast way to generate a few gigs of garbage data?
+2009-06-11T16:20:00.000Z	FrozenFire	logankoester	/dev/zero or /dev/urandom
+2009-06-11T16:21:00.000Z	FrozenFire	logankoester	dd
+2009-06-11T16:23:00.000Z	FrozenFire	logankoester	Be sure to keep in mind that bs is the block size, which should be set so that you aren't copying a single byte at a time.

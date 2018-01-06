@@ -1,0 +1,4 @@
+2010-10-09T06:42:00.000Z	ndugan		hi I have used fsdisk and dd to copy the partition table & data to a new disk... I then used dd to copy the first 512 bytes of /dev/sda to /dev/sdb ... why doesn't the new disk boot?  I only get a GRUB prompt!
+2010-10-09T06:44:00.000Z	Sterist	ndugan	make sure the new disk's partition(s) are checked as "bootable"
+2010-10-09T06:45:00.000Z	Sterist	ndugan	that property might not be handled by either of those tools in those operations
+2010-10-09T06:46:00.000Z	ndugan	Sterist	the same partition on both disks are marked bootable.. (i.e. the first)

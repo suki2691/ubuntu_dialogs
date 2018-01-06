@@ -1,0 +1,4 @@
+2011-12-09T22:32:00.000Z	kripton		Hi there. I'm on a ssh-session to an ubuntu (11.10) host right now and I want to add "nodmodeset" to the default kernel boot parameters. How can I do this?
+2011-12-09T22:33:00.000Z	escott	kripton	/etc/default/grub then run update-grub
+2011-12-09T22:33:00.000Z	kripton	escott	thanks :)
+2011-12-09T22:36:00.000Z	kripton	escott	worked. perfect. Now let's find out why the X-server doesnt work ...

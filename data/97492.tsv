@@ -1,0 +1,4 @@
+2008-05-30T20:07:00.000Z	melch		how do i unload a module before i suspend to ram?
+2008-05-30T20:08:00.000Z	tritium	melch	list it in /etc/default/acpi-support, in the appropriate place
+2008-05-30T20:08:00.000Z	melch	tritium	i did it still doesn't unload it is ath_pci. i placed it in the MODULES spot
+2008-05-30T20:09:00.000Z	melch	tritium	i was following https://help.ubuntu.com/community/MacBookPro#head-688700b3e0e48847a28daba8bc557d4439a30927

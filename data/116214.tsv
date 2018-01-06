@@ -1,0 +1,4 @@
+2008-04-29T14:50:00.000Z	quentusrex		Is there a reasonable way to record the total data transfer of a file over a port? I'm going to be sharing a movie library with friends, and I'd like to know which file is the most popular.
+2008-04-29T14:50:00.000Z	zcat[1]	quentusrex	shared how? set up apache and then run something like webalizer
+2008-04-29T14:51:00.000Z	zcat[1]	quentusrex	there's probably a package or plugin to generate stats for that, I don't know tho
+2008-04-29T14:53:00.000Z	quentusrex	zcat[1]	vlc uses the http interface and you can access the files like this: 192.168.1.100:8080/movie1.avi

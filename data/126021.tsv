@@ -1,0 +1,4 @@
+2007-08-24T08:44:00.000Z	IamEthos		so, do I have to do something specific to use the configurations in /etc/network/interfaces?
+2007-08-24T08:45:00.000Z	IamEthos		or just ifconfig iface up?
+2007-08-24T08:47:00.000Z	IamEthos		is there a special network configuration script I should use to bring an interface up other than ifconfig iface up?
+2007-08-24T08:48:00.000Z	serenityUK	IamEthos	  sudo ifdown eth0   &&  sudo ifup eth0        or   sudo /etc/init.d/networking restart

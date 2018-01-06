@@ -1,0 +1,4 @@
+2007-09-16T14:32:00.000Z	BFrank		is there anyway to speedup a dd diskbackup?
+2007-09-16T14:33:00.000Z	jebblue	BFrank	do you compress your dd backup? I tried that thinking I might get size and speed results like with trueimage but the thing just kept on churning
+2007-09-16T14:35:00.000Z	jebblue	BFrank	dunno sounds like it's worth a try
+2007-09-16T14:38:00.000Z	jebblue	BFrank	type "how to speed up dd" in Google and check out that first link, maybe dump is better than dd since it skips null sectors at the moment of copy rather than defer until it gets to the RLE in the compressor

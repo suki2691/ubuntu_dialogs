@@ -1,0 +1,4 @@
+2008-12-07T04:05:00.000Z	herrmess		Yikes! CD drive is locked, no way to open it (eject cdrom won't work, frigging HW BUTTON won't work).
+2008-12-07T04:05:00.000Z	dmsuperman	herrmess	Unmount it
+2008-12-07T04:05:00.000Z	dmsuperman	herrmess	"sudo umount -f /media/cdrom" where /media/cdrom is actually whatever it's mounted as
+2008-12-07T04:05:00.000Z	dmsuperman	herrmess	Make sure nothing is using it though

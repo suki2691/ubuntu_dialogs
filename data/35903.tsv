@@ -1,0 +1,4 @@
+2010-03-12T18:28:00.000Z	POGBDOM\regmtim0		hi im having some trouble mounting a floppy, when I try mount /dev/fd/0 i get mount: /dev/pts/1 is not a block device
+2010-03-12T18:29:00.000Z	POGBDOM\regmtim0		mount dev/fd0 gives mount: /dev/fd0 is not a valid block device.  Can i add it to block devices
+2010-03-12T18:31:00.000Z	fabio333	POGBDOM\regmtim0	is it there?
+2010-03-12T18:39:00.000Z	POGBDOM\regmtim0	fabio333	fd is listed as a block device in /proc/devices but 'mount /dev/fd someDir' gives mount: /proc/5618/fd is not a block device

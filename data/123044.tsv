@@ -1,0 +1,4 @@
+2007-09-01T09:00:00.000Z	dug_		anyone know how to turn off the system beep (from motherboard)? I turned it off in system preferences and terminal preferences and /etc/bash.bashrc, but it still beeps
+2007-09-01T09:02:00.000Z	MasterOfDisaster	dug_	modprobe -r pcspkr
+2007-09-01T09:04:00.000Z	MasterOfDisaster	dug_	this is until the next reboot
+2007-09-01T09:06:00.000Z	dug_	MasterOfDisaster	right, I'm adding pcspkr to the blacklist too: http://www.thinkwiki.org/wiki/How_to_disable_the_pc_speaker_(beep!)

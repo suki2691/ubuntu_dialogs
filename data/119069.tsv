@@ -1,0 +1,4 @@
+2008-03-25T07:41:00.000Z	yn		Hi. I am having difficulty using dpkg-divert to resolve a conflict. I am using Envy to install the latest ati catalyst drivers on 64-bit Ubuntu. When I run envy, it tries to install the package that it just built, and can't install it because there is a conflict with /usr/lib32/libGL.so.1, which is also provided by ia32-libs
+2008-03-25T07:43:00.000Z	yn		ok, forget about the fact that I am using envy. Can someone explain just how to use dpkg-divert in my situation?
+2008-03-25T07:43:00.000Z	bazhang	yn	hard to forget it when you just said it and this channel does not support it
+2008-03-25T07:58:00.000Z	bazhang	yn	may as well uninstall the envy and the ati drivers and get them from the restricted drivers manager

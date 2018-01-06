@@ -1,0 +1,4 @@
+2006-06-04T12:51:00.000Z	Masqy		a tidy question: suppose I don't have a graphical interface, i.e. neither x/k/ubuntu-desktop, how can I upgrade  a server installation?
+2006-06-04T12:51:00.000Z	sladen	Masqy	sudo perl -p -i -e 's/breezy/dapper/' /etc/apt/sources.lists && sudo apt-get update && sudo apt-get dist-upgrade
+2006-06-04T12:53:00.000Z	sladen	Masqy	not unless they are owned by a package
+2006-06-04T12:53:00.000Z	sladen	Masqy	the debian system is very careful about leaving modified config files alone

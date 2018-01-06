@@ -1,0 +1,4 @@
+2010-09-21T06:45:00.000Z	derklempner		How can I start a program/service from the command line and NOT have it take control of the session?
+2010-09-21T06:46:00.000Z	Mortchek	derklempner	if you mean get back to the prompt after starting it: foo &
+2010-09-21T06:47:00.000Z	derklempner	Mortchek	that isn't working for me when trying to start x11vnc on a remote machine (via SSH).
+2010-09-21T06:48:00.000Z	derklempner	Mortchek	never mind, I did it again and hit enter after it started x11vnc and got my command prompt back and the service is still running.

@@ -1,0 +1,4 @@
+2007-04-21T14:08:00.000Z	Prognatus		Ok, I'll try the question to everyone again: Problem is default screen resolution when booting up with the monitor cable out. I've reconfigured xserver with "sudo dpkg-reconfigure xserver-xorg" and deselected all resolutions than 1280x1024, but it reboots in 1024x768 anyway... how do I change this behavior?
+2007-04-21T14:09:00.000Z	deserteagle	Prognatus	check the settings thingie under applications menu, system tools or something
+2007-04-21T14:10:00.000Z	deserteagle	Prognatus	gnome settings or something (you might have to add it to the menu to access it)
+2007-04-21T14:10:00.000Z	deserteagle	Prognatus	and then goto desktop>gnome>0 or something and make sure the res is the one you want

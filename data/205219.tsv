@@ -1,0 +1,4 @@
+2006-03-11T16:50:00.000Z	adam_		I have a slow connection -- and I'm trying to update something fairly large in the package manager -- is it possible to somehow "restart" downloads in the package manager if my connection is dropped?
+2006-03-11T16:51:00.000Z	dli	adam_	apt should continue from the point
+2006-03-11T16:51:00.000Z	adam_	nickrud	ah, okay -- and if I needed to cancel the download -- and start it up later, it'll still save the old download?
+2006-03-11T16:51:00.000Z	dli	adam_	in apt/archieves, just make sure you don't "apt-get clean"

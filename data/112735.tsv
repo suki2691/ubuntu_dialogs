@@ -1,0 +1,4 @@
+2007-11-26T04:10:00.000Z	amason		hi guys, i've broken my samba install accidentally by removing the /etc/samba dir, but neither sudo apt-get install --reinstall samba or dpkg-reconfigure seem to restore the directory and it's contents back to the default
+2007-11-26T04:11:00.000Z	infinitycircuit	amason	what if you try apt-get remove --purge samba smbclient and then apt-get install samba smbclient
+2007-11-26T04:12:00.000Z	amason		infi\
+2007-11-26T04:12:00.000Z	amason	infinitycircuit	juano__ andi5i will try that thanks

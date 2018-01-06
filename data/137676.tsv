@@ -1,0 +1,4 @@
+2011-06-06T18:55:00.000Z	phrearch		hm, /boot/grub/menu.lst is empty?
+2011-06-06T18:57:00.000Z	llutz	phrearch	/boot/grub/grub.cfg it is
+2011-06-06T18:57:00.000Z	phrearch	llutz	seems like its advised not to edit that one directly?
+2011-06-06T18:58:00.000Z	llutz	phrearch	to modify, edit /etc/default/grub or the stuff in /etc/grub.d/   and run sudo update-grub after

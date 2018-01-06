@@ -1,0 +1,4 @@
+2007-03-08T10:11:00.000Z	matthewgroulx		matt@matt-dekstop:`/Desktop$ sudo sh NVIDIA-Linux-x86-9755.pkg1.run , I am typing that in and it says no such file or diectory, I know that is the name of the file and I know its on my desktop, any suggestions of what I am doing wrong
+2007-03-08T10:11:00.000Z	Toma-	matthewgroulx	you want the 9xxx drivers?
+2007-03-08T10:12:00.000Z	Toma-	matthewgroulx	dont install the nvidia drivers from nvidia :D its crazy hard to do. use easyubuntu or even just run 'sudo apt-get install nvidia-glx'
+2007-03-08T10:15:00.000Z	Toma-	matthewgroulx	'sudo /etc/init.d/kdm restart'

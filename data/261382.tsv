@@ -1,0 +1,4 @@
+2005-01-29T15:49:00.000Z	tolle	lamont	yeah, remove the ip before smtp in it...
+2005-01-29T15:50:00.000Z	tolle	lamont	Still doesnt do it for me.
+2005-01-29T15:50:00.000Z	lamont	tolle	there are 2 lines, you need to remove it from one, comment the other out, and then postfix restart
+2005-01-29T15:51:00.000Z	tolle	lamont	ah, i had just forgotten to specify what hosts to accept it as.

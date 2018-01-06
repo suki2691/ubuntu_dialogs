@@ -1,0 +1,4 @@
+2012-05-24T15:41:00.000Z	WaqarAzeem		hello! firewall is disable, ssh is installed but still unbale to access the machine using Putty ... Network error: software caused network abort ... from where should i start to investigate
+2012-05-24T15:42:00.000Z	dr_willis	WaqarAzeem	 on server try ssh localhost,  to see  ssh is working.
+2012-05-24T15:43:00.000Z	WaqarAzeem	dr_willis	read from socket fail. connection reset by peer
+2012-05-24T15:44:00.000Z	dr_willis	WaqarAzeem	 sounds like ssh server is not running or mssconfigured

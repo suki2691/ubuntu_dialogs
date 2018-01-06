@@ -1,0 +1,4 @@
+2009-12-25T03:04:00.000Z	ovnandan		Well this time I have a question, I am using Ubuntu 8.04 LTS alongside with Windows XP, now can I change it to totall ubuntu without any data loss?
+2009-12-25T03:05:00.000Z	ovnandan		﻿I am using Ubuntu 8.04 LTS alongside with Windows XP, now can I change it to totall ubuntu without any data loss?
+2009-12-25T03:05:00.000Z	Izinucs	ovnandan	you could simply delete the xp partition and reformat it for ext3 to use as a data drive
+2009-12-25T03:07:00.000Z	Izinucs	ovnandan	the other method would be to use clonezilla or partimage to save your partitions in ubuntu.. redo the entire harddrive and then restore the saved partitions one at a time.. /home being last so you can then use gparted to make it take the remaining part of the drive.

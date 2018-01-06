@@ -1,0 +1,4 @@
+2007-05-26T10:11:00.000Z	FuzzBall		How do i use a .diff file to apply a patch? I'm trying to apply linux-source-2.6.20_2.6.20-16.28.diff, but when i use 'patch -p1' It doesnt seem to do anything
+2007-05-26T10:12:00.000Z	yosumiru	FuzzBall	patch -p1 < patch-file
+2007-05-26T10:15:00.000Z	FuzzBall	yosumiru	Thanks again, I kept overlooking that < symbol.
+2007-05-26T10:15:00.000Z	yosumiru	FuzzBall	:) np

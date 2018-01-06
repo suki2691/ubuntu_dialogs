@@ -1,0 +1,4 @@
+2010-06-14T20:19:00.000Z	ActionParsnip	Guest16829	try i8024.reset   as a boot option in /etc/default/grub
+2010-06-14T20:19:00.000Z	ActionParsnip	Guest16829	or try: i8024.nomux=1   instead, or try bot together
+2010-06-14T20:22:00.000Z	ActionParsnip	Guest16829	This line: GRUB_CMDLINE_LINUX_DEFAULT="quiet splash"   defies the boot options in /etc/default/grub   add the options, save the file then run: sudo update-grub
+2010-06-14T20:23:00.000Z	ActionParsnip	Guest16829	try each option on that line, see if those 2 make it work

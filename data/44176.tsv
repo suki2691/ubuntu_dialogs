@@ -1,0 +1,4 @@
+2009-10-31T14:43:00.000Z	an0therb0x		new user question ... i download virtualbox-3.0_3.0.8-53138_Ubuntu_jaunty_i386.deb and i have version 2 already install , how do i upgrade packages in ubuntu ?
+2009-10-31T14:43:00.000Z	BlouBlou	an0therb0x	if you have got old version, with new .deb packet it will update automatically
+2009-10-31T14:46:00.000Z	an0therb0x	BlouBlou	i am getting an error "virtualbox-3.0 conflicts with virtualbox virtualbox-2.2 provides virtualbox and is present and installed"
+2009-10-31T14:46:00.000Z	BlouBlou	an0therb0x	sudo apt-get purge virtualbox   | sudo apt-get autoremove virtualbox    | and then install .deb

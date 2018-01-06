@@ -1,0 +1,4 @@
+2005-06-28T15:50:00.000Z	Crasp		did you perhaps delete a file while a process had a pipe to that file?
+2005-06-28T15:50:00.000Z	Crasp		(lsof |grep filename)
+2005-06-28T15:51:00.000Z	Crasp		cause if a process has a pipe to a file you should stop it first before deleting the file
+2005-06-28T15:51:00.000Z	misaka	Crasp	- Ah, is that for joda? I think he just initialised that fs, but good point ...

@@ -1,0 +1,4 @@
+2007-05-19T12:01:00.000Z	linux_kid		How do I install packages on a PC with no net connection (dependencies take forever to download individually)
+2007-05-19T12:02:00.000Z	Ali_ix	linux_kid	check needed packages via synaptic and from menu use Generate package download script
+2007-05-19T12:03:00.000Z	linux_kid	Ali_ix	thanks
+2007-05-19T12:04:00.000Z	Ali_ix	linux_kid	u will get package url list (with dependency list) once you get downloaded them on another pc, you may copy packages to /var/cache/apt/archives and run synaptic again, it will find downloaded packages and install in curerct order

@@ -1,0 +1,4 @@
+2009-05-31T02:07:00.000Z	phaidros		any chance to get compiz with the xorg ati radeon driver running? obviously since 9.04 fglrx unsupports the ati card in my t41p :/
+2009-05-31T02:08:00.000Z	phaidros		how to check if 3d acceleration is working? (glxinfo show direct rendering on, this should usually be sufficient, right?)
+2009-05-31T02:09:00.000Z	usser	phaidros	glxinfo | grep "OpenGL vendor string"
+2009-05-31T02:09:00.000Z	usser	phaidros	that too is important

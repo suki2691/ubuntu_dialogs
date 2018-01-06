@@ -1,0 +1,4 @@
+2006-06-17T09:56:00.000Z	qos		is there anyone that can help me with me PATH variable?
+2006-06-17T09:57:00.000Z	Samus_Aran	qos	what seems to be the problem ?
+2006-06-17T09:58:00.000Z	qos	Samus_Aran	look at http://paste.ubuntu-nl.org/15860 ... i try to set it in this file. but if i exec the file via "/root/.profile" nothing happens ...
+2006-06-17T10:16:00.000Z	Samus_Aran	qos	your path on that pastebin seems backward.  you don't generally ever want to put other directories before /bin and /sbin in the path, as that can end up making your system unusable if anything is set wrong

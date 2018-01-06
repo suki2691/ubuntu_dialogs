@@ -1,0 +1,4 @@
+2009-11-14T17:41:00.000Z	sumaiya		Use dpkg --info (= dpkg-deb --info) to examine archive files,
+2009-11-14T17:41:00.000Z	sumaiya		and dpkg --contents (= dpkg-deb --contents) to list their contents.
+2009-11-14T17:41:00.000Z	sumaiya		/usr/sbin/dpkg-reconfigure: mysql-server-5-1 is not installed
+2009-11-14T17:41:00.000Z	lstarnes	sumaiya	try -5.1 instead of -5-1 on the end of that

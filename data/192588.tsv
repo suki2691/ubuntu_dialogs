@@ -1,0 +1,4 @@
+2006-03-30T13:08:00.000Z	d3v11		when trying: sudo apt-get install linux-tree$(uname -r) i get the message that it can't find the package: linux-tree2.6.12-10-686-smp
+2006-03-30T13:08:00.000Z	d3v11		ne1 knows what to do=
+2006-03-30T13:08:00.000Z	d3v11		?
+2006-03-30T13:09:00.000Z	roast	d3v11	apt-cache search linux-tree, look for the package you want, and then install that.

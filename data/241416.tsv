@@ -1,0 +1,4 @@
+2005-04-21T10:58:00.000Z	epicenter		I tried to resize my NTFS partition and Windows XP was entirely destroyed. The partition is also unmountable. Is there any way to FORCE linux to mount it and get at my data? I don't give two shits if Windows is recoverable.
+2005-04-21T10:59:00.000Z	FreezerX	epicenter	/dev/hda1       /mnt/winxp      ntfs    ro,auto,uid=1000,gid=1000 0 0 is the entry in /etc/fstab to mount a winxp partition
+2005-04-21T11:00:00.000Z	epicenter	FreezerX	I've just been usig mount -t ntfs /dev/hda1 /mnt
+2005-04-21T11:05:00.000Z	FreezerX	epicenter	http://www.ubuntulinux.org/wiki/AutomaticallyMountMSWindowsPartitions

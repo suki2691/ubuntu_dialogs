@@ -1,0 +1,4 @@
+2009-01-19T05:48:00.000Z	Ward1983_		i have this script in which i use ddclient, i want to make a cron job out of it but ddclient must be run with sudo
+2009-01-19T05:48:00.000Z	Ward1983_		so whats the best way to do this?
+2009-01-19T05:50:00.000Z	runderwo	Ward1983_	sudo crontab -e should put it in root's crontab.
+2009-01-19T05:50:00.000Z	Ward1983_	runderwo	ah thanx man :)

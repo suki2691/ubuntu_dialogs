@@ -1,0 +1,4 @@
+2009-12-28T03:30:00.000Z	colemickens		How would I make a symlink that would let me take the contents of /x/*.* and symlink them into /x/y/z/*.*
+2009-12-28T03:31:00.000Z	cabaro	colemickens	ln -s /x /x/y/z
+2009-12-28T03:32:00.000Z	cabaro	colemickens	ln -s /x/y/z /x
+2009-12-28T03:32:00.000Z	cabaro	colemickens	bredoto got it

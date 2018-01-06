@@ -1,0 +1,4 @@
+2011-08-05T22:40:00.000Z	FrozenFire		Is it possible to set up a group, or even just individual user permissions, such that a particular user has complete file access to everything in /home, but not the rest of the system?
+2011-08-05T22:41:00.000Z	escott	FrozenFire	not really. the other uses of the system could chown their own folders to a different group
+2011-08-05T22:55:00.000Z	FrozenFire	escott	They're all my users. I just put different services in different users on my home system for security purposes. I just want to be able to perform tasks on the various service data without having to log into each user.
+2011-08-05T22:56:00.000Z	escott	FrozenFire	then sure just make sure they are all part of the same group, and make sure that is there default group

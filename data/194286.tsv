@@ -1,0 +1,4 @@
+2007-11-30T01:13:00.000Z	xp_prg		hi all I have no swap at all :(
+2007-11-30T01:13:00.000Z	xp_prg		can someone help me to make my swap turn on?
+2007-11-30T01:14:00.000Z	pike_	xp_prg	sudo swapon /dev/hda3  swapoff /dev/hda3   <-- example
+2007-11-30T01:14:00.000Z	pike_	xp_prg	course youll want it in fstab so it is there at reboot

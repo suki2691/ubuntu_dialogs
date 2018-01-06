@@ -1,0 +1,4 @@
+2011-11-12T21:40:00.000Z	pushpop		how do I found out whats locking this file.  I can't apt-get install Could not get lock /var/lib/dpkg/lock - open (11: Resource temporarily unavailable)
+2011-11-12T21:42:00.000Z	pfifo	pushpop	`lsof /var/lib/dpkg/lock`
+2011-11-12T21:42:00.000Z	pushpop	pfifo	didnt work
+2011-11-12T21:43:00.000Z	pfifo	pushpop	it may be a stale lock, try deleting the file

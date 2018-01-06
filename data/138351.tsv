@@ -1,0 +1,4 @@
+2009-02-19T22:53:00.000Z	dgetsman		anybody know if I can run ubuntu 8.04LTS server on a machine w/IBM 00P2731 2 Way 1.2Ghz Power4+ Processor for 7028-6C4 6E4 RS/600 PSERIES 630 and whether that'd be a 32 or 64 bit version?
+2009-02-19T22:54:00.000Z	allquixotic	dgetsman	IBM has invested a lot of resources into supporting their hardware on Linux, so I would wager that it would probably boot... as for the 32/64... I really have no idea. Let me do some googling? Maybe you can help me?
+2009-02-19T22:56:00.000Z	allquixotic	dgetsman	My initial investigation indicates that your "Power4+" processor is of the PowerPC genre. That means it's neither x86 nor x86_64; its architecture on Linux is called ppc
+2009-02-19T22:56:00.000Z	allquixotic	dgetsman	I don't know if ppc even _has_ 32 vs. 64-bit.

@@ -1,0 +1,4 @@
+2009-01-24T02:46:00.000Z	innovate2000		stumped! -> "mount: block device /dev/scd0 is write-protected, mounting read only  mount: mount point /media/cdrom0 is not a directory"
+2009-01-24T02:46:00.000Z	drash	innovate2000	Did you check your /etc/fstab entree for your cdrom drive ? You might have it mounted there as read-only
+2009-01-24T02:49:00.000Z	innovate2000	drash	no fstab is good: /dev/scd0   /media/cdrom0   user,noauto,exec,utf8 0 0
+2009-01-24T02:50:00.000Z	innovate2000	drash	I even added rw options to see if that would help - but I saw online that many people do not have rw for the CDROM options so I removed it - either way, adding rw dd not help

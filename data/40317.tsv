@@ -1,0 +1,4 @@
+2009-12-23T02:46:00.000Z	Elite_		hi guys i just installed a 2nd hard drive i formatted to ext3 i set it to auto mount but it says i am not the owner the owner is set to root how can i change it to me ?
+2009-12-23T02:47:00.000Z	kfizz	Elite_	have you tried chown? I've never used it on a whole HDD but I figure it should work?
+2009-12-23T02:47:00.000Z	Elite_	kfizz	yes i did sudo chown -R username:username /media/mountpointofthedrive
+2009-12-23T02:47:00.000Z	kfizz	Elite_	what output did you get when you ran that?

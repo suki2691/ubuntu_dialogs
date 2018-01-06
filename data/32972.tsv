@@ -1,0 +1,4 @@
+2010-04-30T21:59:00.000Z	MarkusH		hello guys
+2010-04-30T22:01:00.000Z	MarkusH		is there a possibility to fetch all updates for update 9.10 -> 10.04 and distribute the files in a local network
+2010-04-30T22:03:00.000Z	Loshki	MarkusH	yes, though the only way to gather them is to take a 9.10 machine and upgrade it. If you do that, all downloaded .debs will be cached in /var/cache/apt/archive and you can share (or copy) this directory between lots of machines
+2010-04-30T22:03:00.000Z	MarkusH	Loshki	thank you, I think that'll help

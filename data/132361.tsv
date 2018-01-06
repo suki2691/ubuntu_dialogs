@@ -1,0 +1,4 @@
+2009-07-18T11:16:00.000Z	slacker		I'm considering reinstalling with i386-desktop. Jockey will NOT let me reinstall the nvidia blobs for my system. Elevating to root and activating them through jockey-gtk does absolutely nothing.
+2009-07-18T11:18:00.000Z	slacker		Screw it. I'm just going to try nouveau
+2009-07-18T11:19:00.000Z	jander99	slacker	sudo aptitude install nvidia-glx-180
+2009-07-18T11:21:00.000Z	slacker	jander99	Fluffles, they are in my apt-cache and there seems to be dependency issues. i'm aware of that method but I thought jockey used nvidia-common to detect issues ahhh nm let me try this

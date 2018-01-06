@@ -1,0 +1,4 @@
+2005-10-17T13:20:00.000Z	ahmad		when i use apt-get to install packages like mysql or php4-gd i get the following error:The following packages have unmet dependencies
+2005-10-17T13:21:00.000Z	flonejek	ahmad	try running "apt-get -f install"
+2005-10-17T13:22:00.000Z	flonejek	ahmad	sounds like your repos are conflicting, um try "apt-get update" then "apt-get -f install"
+2005-10-17T13:25:00.000Z	flonejek	ahmad	its tricky but each time it says that you gotta try instaling that package i.e. apt-get install libgd2-xpm would be your first step

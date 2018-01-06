@@ -1,0 +1,4 @@
+2012-03-07T00:10:00.000Z	jenders		What is the difference between the lines, ... lucid and ... lucid-updates in /etc/apt/sources.list
+2012-03-07T00:11:00.000Z	jrib	jenders	one is for the "lucid" repository and the other is for "lucid-updates"
+2012-03-07T00:17:00.000Z	jenders	jrib	so if I remove lucid-updates I will never move past the release I've installed from?
+2012-03-07T00:18:00.000Z	jrib	jenders	whether or not you remove it, you will never end up on a different release unless you tell ubuntu you want to upgrade your release.  lucid-updates provides updates to fix software issues

@@ -1,0 +1,4 @@
+2008-08-31T03:10:00.000Z	divinegod		Hello, does anyone know how to fix python2.5 version problems? I can't install python2.5-dev because the version of python2.5 is higher than the one of python2.5-dev
+2008-08-31T03:10:00.000Z	divinegod		and python2.5 can't be forced to lower version
+2008-08-31T03:11:00.000Z	unop	divinegod	sudo aptitude install -f; sudo aptitude update; sudo aptitude install  python2.5{,-dev}
+2008-08-31T03:14:00.000Z	divinegod	unop	thanks

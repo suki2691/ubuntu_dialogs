@@ -1,0 +1,4 @@
+2007-10-01T05:13:00.000Z	Smegzor		I have two servers running ubuntu.  This one has a monitor, keyboard, and mouse but the other one on my network has none of that.  I can login to its desktop via Cygwin on Windows, but I want to be able to do that same thing from this Linux box.  How do I get a remote gui login from here?
+2007-10-01T05:14:00.000Z	geo-rge	Smegzor	as root try this: X :1 vt8 -query (the machine ip)
+2007-10-01T05:15:00.000Z	geo-rge	Smegzor	and man X makes good reading too..
+2007-10-01T05:21:00.000Z	geo-rge	Smegzor	you can also try xnest

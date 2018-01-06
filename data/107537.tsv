@@ -1,0 +1,4 @@
+2008-03-28T06:14:00.000Z	skone		can anyone help with this:
+2008-03-28T06:14:00.000Z	skone		[Thu Mar 27 21:02:34 2008] [warn] The ScriptAlias directive in /etc/apache2/conf.d/nagios.conf at line 9 will probably never match because it overlaps an earlier ScriptAlias.
+2008-03-28T06:15:00.000Z	nerdygirl_ellie	skone	  You have two scriptalias  entries that duplicate each other.  If nagios works, you can ign0re it.
+2008-03-28T06:18:00.000Z	skone	nerdygirl_ellie	any other ideas?

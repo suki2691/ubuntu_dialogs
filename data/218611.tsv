@@ -1,0 +1,4 @@
+2011-08-29T17:27:00.000Z	zertyui		i try to ssh to my server without asking password each time ssh on it
+2011-08-29T17:27:00.000Z	zertyui		when i run this script it asks for password
+2011-08-29T17:27:00.000Z	zertyui		how to call to the password and put  the password on the script ?
+2011-08-29T17:29:00.000Z	sipior	zertyui	have a look at setting up rsa authentication keys: https://help.ubuntu.com/community/SSH/OpenSSH/Keys . also consider using Keychain: http://www.funtoo.org/wiki/Keychain .

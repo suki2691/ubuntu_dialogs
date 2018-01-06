@@ -1,0 +1,4 @@
+2011-01-23T03:00:00.000Z	sgillet		sudo wget --output-document=/etc/apt/sources.list.d/medibuntu.list http://www.medibuntu.org/sources.list.d/$(lsb_release -cs).list && sudo apt-get --quiet update && sudo apt-get --yes --quiet --allow-unauthenticated install medibuntu-keyring && sudo apt-get --quiet update
+2011-01-23T03:00:00.000Z	sgillet		then
+2011-01-23T03:00:00.000Z	sgillet		sudo apt-get --yes install app-install-data-medibuntu apport-hooks-medibuntu
+2011-01-23T03:00:00.000Z	FloodBot2	sgillet	Please don't flood; use http://paste.ubuntu.com to paste; don't use Enter as punctuation.

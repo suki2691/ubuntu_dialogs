@@ -1,0 +1,4 @@
+2006-06-13T10:44:00.000Z	FriendlySoviet		I'm unable to find the fstab command to mount an "ext3" partition at the beginning of boot, making it writable and readable users other than root. Can anyone help me out?
+2006-06-13T10:44:00.000Z	Dr_Willis	FriendlySoviet	 make a dir on the partition owned by the users.. so they can write to it. is what i did.
+2006-06-13T10:45:00.000Z	Dr_Willis	FriendlySoviet	  safer that way as well.
+2006-06-13T10:48:00.000Z	FriendlySoviet	Dr_Willis	: Thank you very much. Works like a charm :)

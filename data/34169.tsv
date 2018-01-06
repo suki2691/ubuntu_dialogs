@@ -1,0 +1,4 @@
+2010-09-05T01:07:00.000Z	jsemar		so Ive just ubgraded to 10.04 on a VM, and when i boot I get an error like 'drive on UUID=<a uuid not even close to my /dev/sda1/> does not exist or is not ready>, it looks like it is trying to mount a drive that no longer exists, however, the boot menu is trying to boot the correct uuid
+2010-09-05T01:08:00.000Z	ipatrol	jsemar	try creating a new vm and have the old VDI as a second drive for recovery?
+2010-09-05T01:09:00.000Z	jsemar	ipatrol	no, just trying to update to 10.04.. I dont know what a VDI is
+2010-09-05T01:09:00.000Z	ipatrol	jsemar	the hard disc file on the host

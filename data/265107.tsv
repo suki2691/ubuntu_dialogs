@@ -1,0 +1,4 @@
+2007-05-21T08:09:00.000Z	imbecile		hey guys, I am trying to add a image to my grub boot screen specifically this one.. i have followed instructions to no avail.. help please!!!
+2007-05-21T08:09:00.000Z	imbecile		hey guys, I am trying to add a image to my grub boot screen specifically this one.. http://www.gnome-look.org/content/show.php/Grub+Image%3A+Freedom%3DLinux%2Bgnu2?content=35703 i have followed instructions to no avail.. help please!!!
+2007-05-21T08:11:00.000Z	kevin__	imbecile	the image needs to be 800x600 using < 15 indexed colors, and should be a gzipped xpm
+2007-05-21T09:36:00.000Z	kevin__	imbecile	just open a terminal and type "cp ~/Desktop/whatever.xpm.gz /boot/grub"

@@ -1,0 +1,4 @@
+2006-12-17T15:04:00.000Z	m12		when I open "localhost"  in Firefox, then click on phpmyadmin, it loads the "save file" screen.  what is my problem?
+2006-12-17T15:04:00.000Z	oskude	m12	php not installed/configured/running right, maybe...
+2006-12-17T15:06:00.000Z	oskude	m12	i did sudo apt-get install php5
+2006-12-17T15:06:00.000Z	oskude	m12	ps. you may gotta "sudo /etc/init.d/apache2 restart" after installing php5

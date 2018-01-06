@@ -1,0 +1,4 @@
+2008-01-10T00:03:00.000Z	cal-mac		hey again.  i am still trying to get my seagate freeagent working with ubuntu 7.1.  it is formatted with ntfs, ntfs3g is installed, and i am only trying to read from the drive.  the drive still mounts only on boot, and if it is allowed to idle for even two minutes it will cause an "unsafe removal error" when i attempt to access it.  so far i have tried downloading sdparm and entering the commands found on post #6 on this forum post, but my issu
+2008-01-10T00:04:00.000Z	KlrSpz	cal-mac	did you mount it with windows at any time?
+2008-01-10T00:04:00.000Z	KlrSpz	cal-mac	sounds like the file lock is still in place... only real way to fix that is to boot into windows and do a reboot/shutdown, or reformat the drive
+2008-01-10T00:26:00.000Z	KlrSpz	cal-mac	have you done any tests on the drive? sounds like a smart failure

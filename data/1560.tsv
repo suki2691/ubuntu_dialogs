@@ -1,0 +1,4 @@
+2012-08-15T18:16:00.000Z	LewisJG		Hello, I am unable to unlock my administration directory for an install using apt-get. I cannot kill the PID that has a lock on it either  "kill:(5134) - Operation not permitted"
+2012-08-15T18:17:00.000Z	bobweaver	LewisJG	 what is 5134 ?    ps aux | grep [5]144
+2012-08-15T18:18:00.000Z	bobweaver	LewisJG	 we wrap th 5 in the [] to tell grep not to give us back the color thingy
+2012-08-15T18:20:00.000Z	LewisJG	bobweaver	your solution worked, the ubot's did not. Thank you

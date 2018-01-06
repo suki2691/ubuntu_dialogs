@@ -1,0 +1,4 @@
+2008-11-11T07:45:00.000Z	dave_		anyone have tftp knowledge?
+2008-11-11T07:45:00.000Z	dave_		i got dhcp server working fine, but tftp keeps giving me errors,  pxe-e11 and pxe-e38 on the client end
+2008-11-11T07:46:00.000Z	dave_		and on this end daemon.log is giving me in.tftpd[9340]: cannot bind to local socket: Address already in use
+2008-11-11T07:47:00.000Z	zsquareplusc	dave_	address already in use is more like there is already an application running

@@ -1,0 +1,4 @@
+2010-05-07T15:47:00.000Z	michalxo		hello all
+2010-05-07T15:48:00.000Z	michalxo		any advices of how to implement "sudo" into startup script?
+2010-05-07T15:49:00.000Z	michalxo		it just has pulseaudio -k; sudo alsa force-reload; pulseaudio &;
+2010-05-07T15:49:00.000Z	llutz	michalxo	what startup? systemstartup? use rc.local, no need for sudo

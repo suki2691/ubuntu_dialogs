@@ -1,0 +1,4 @@
+2008-04-16T17:22:00.000Z	ggrunt		Hey guys im trying to make an app start on startup tutorial suggest I put it in a file /etc/rc.d/rc.local but that doesnt exist would you know of an alternative file I could put it in..
+2008-04-16T17:23:00.000Z	unop	ggrunt	it's /etc/rc.local - but first, do you want to start this app as root or as the user?
+2008-04-16T17:24:00.000Z	ggrunt	unop	as root I would assume.
+2008-04-16T17:25:00.000Z	unop	ggrunt	well, be sure -- if it's an application that needs your interaction (a GUI app for e.g.) then it shouldnt go in there, if it's a one-off command that start a system service, then sure

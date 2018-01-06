@@ -1,0 +1,4 @@
+2009-05-14T01:26:00.000Z	Bodsda		Hi guys, im trying to help someone on the forums who is having problems, he tried to install flashplugin-nonfree but he crashed, now apt says that he needs to reinstall it, but when he tries to reinstall it says he must first remove, but trying to remove/purge tells him to reinstall!! Damn loops, anyone got a suggestion?
+2009-05-14T01:27:00.000Z	Kalmi	Bodsda	he should force it
+2009-05-14T01:27:00.000Z	Kalmi	Bodsda	i think...
+2009-05-14T01:28:00.000Z	Bodsda	Kalmi	sudo apt-get purge --force flashplugin-nonfree?

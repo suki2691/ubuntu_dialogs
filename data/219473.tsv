@@ -1,0 +1,4 @@
+2011-01-14T01:24:00.000Z	as3noob		Hi, When I install a Ubuntu Server... the install process ask me for a new user... I fill the data... after the instal... I login in to my server using this user... and execute all commands with "sudo"
+2011-01-14T01:24:00.000Z	as3noob		now... how I can create other user like this?
+2011-01-14T01:24:00.000Z	as3noob		adduser newuser admin ?
+2011-01-14T01:25:00.000Z	Flannel	as3noob	Create a new user (sudo adduser username) then add them to the admin group (sudo adduser username admin)

@@ -1,0 +1,4 @@
+2008-03-25T22:52:00.000Z	Kyn		Hello, can anyone help me with an installation? Im new to ubuntu, and my harddrive is partitioned into two drives, C and D and each one is 40gb, is there any way for me to have ubuntu use all of D drive, rather then spliting C?
+2008-03-25T22:54:00.000Z	snmpee	Kyn	Unfortunately, your question did not make sense because you are not aware of how linux treats partitions. Your windows partitions (C and D) will be mounted on a directory under root, denoted as a /
+2008-03-25T22:55:00.000Z	snmpee	Kyn	If C and D fill up your entire drive, you need to either resize your windows partitions using gparted or Partition Magic (a windows program which I recommend for you because you are a very newbie).
+2008-03-25T22:55:00.000Z	snmpee	Kyn	You will then need to make partitions for ext3 and swap.

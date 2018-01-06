@@ -1,0 +1,4 @@
+2012-06-01T22:14:00.000Z	halakar		hey guise
+2012-06-01T22:14:00.000Z	halakar		hey guise.  I want to slap Windows 8 on my rig, but I already have ubuntu installed.  Anything I need to do?  I heard Windows 8 plays nicely with other OSes and that it'll have an entry in the boot loader for Ubuntu.
+2012-06-01T22:15:00.000Z	Pici	halakar	You'll need to reinstall grub after installing windows.  Normally Windows will overwrite the bootloader, and grub will not automatically detect it until you do the reinstall anyway.
+2012-06-01T22:15:00.000Z	Pici	halakar	see http://help.ubuntu.com/community/RecoveringUbuntuAfterInstallingWindows

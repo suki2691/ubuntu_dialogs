@@ -1,0 +1,4 @@
+2010-03-15T01:41:00.000Z	jenda_		[sudo] password for jenda:
+2010-03-15T01:41:00.000Z	jenda_		E: Nemohu získat zámek /var/lib/dpkg/lock - open (11: Resource temporarily unavailable)
+2010-03-15T01:41:00.000Z	jenda_		E: Unable to lock the administration directory (/var/lib/dpkg/), is another process using it?
+2010-03-15T01:42:00.000Z	Losha	jenda_	either that, or apt-get died unexpectedly and left the lock file lying around...

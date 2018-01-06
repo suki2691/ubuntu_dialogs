@@ -1,0 +1,4 @@
+2011-03-14T22:07:00.000Z	skulltip		hi, need some advise. i'm setting an ubuntu 10.10 32bit pc up for my mom, her old pc has bit the dust. she lives alone and has bad vision - uses glasses and resolution as low as 800x600. do i need to give her a complicated password, she only uses it to play games, pay bills, and email.
+2011-03-14T22:08:00.000Z	skulltip		in other words is it good idea to give root some password?
+2011-03-14T22:09:00.000Z	skulltip		and can i set up automatic updates without her intervention of typing in the password, so they are automatic. only using the default repos.
+2011-03-14T22:10:00.000Z	jpds	skulltip	You can set up autoupdates with the /etc/apt/apt.conf.d/10periodic file.

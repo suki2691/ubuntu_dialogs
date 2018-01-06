@@ -1,0 +1,4 @@
+2009-07-27T04:41:00.000Z	stefg	joh	your bios might swap drives around to enable booting from usb... run sudo fdisk -l or cat /proc/partitions and see if your harddrive is on sdb now
+2009-07-27T04:43:00.000Z	joh	stefg	My hard-drive is /dev/sda1
+2009-07-27T04:43:00.000Z	joh	stefg	The usb stick is /dev/sdb1
+2009-07-27T04:43:00.000Z	joh	stefg	/dev/sda1 on /cdrom type ext4 (ro,noatime,barrier=1,data=ordered)

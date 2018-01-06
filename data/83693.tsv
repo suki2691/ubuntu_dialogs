@@ -1,0 +1,4 @@
+2009-07-26T08:07:00.000Z	StrangeCharm		why am i not able to log in via ssh with key-based authentication using putty (the key is refused)
+2009-07-26T08:09:00.000Z	StrangeCharm		cast- a novel and ingenious idea!
+2009-07-26T08:10:00.000Z	StrangeCharm		cast- know where sshd keeps its logs?
+2009-07-26T08:10:00.000Z	lstarnes	StrangeCharm	cat /var/log/auth.log | grep sshd

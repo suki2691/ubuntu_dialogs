@@ -1,0 +1,4 @@
+2009-03-15T23:25:00.000Z	WalkTheLine		ok, after I download a program, such as Ipcop or wireshark, where do I go to download it?
+2009-03-15T23:26:00.000Z	Bodsda	WalkTheLine	after you download it, where do you download it> that does not make sense
+2009-03-15T23:26:00.000Z	Bodsda	WalkTheLine	did you download the .deb, the source or from the repos?
+2009-03-15T23:28:00.000Z	Bodsda	WalkTheLine	you need to make sure you have the package build-essential installed >> sudo apt-get install build-essential >> Then cd into the extracted directory >> cd /path/to/directory >> Then run these commands >> ./configure >> make >> sudo make install

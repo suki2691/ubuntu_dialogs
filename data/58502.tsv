@@ -1,0 +1,4 @@
+2010-10-18T11:48:00.000Z	shai__		Hi :) I've running Ubuntu on VirtualBox and some of the VMs keep hanging ... now while this could be related to VB, I would like to investigate what the last things the OS saw before it hung. For example, if a kernel panic occurred due to memory issues etc. I'm trying to review /var/log but can't find anything that sticks out... any recommendations?
+2010-10-18T11:48:00.000Z	KB1JWQ	shai__	Take a look at dmesg as well.
+2010-10-18T11:48:00.000Z	shai__	KB1JWQ	Is there no way to have kernel panics reported?
+2010-10-18T11:50:00.000Z	KB1JWQ	shai__	man core might be useful at some point.

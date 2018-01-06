@@ -1,0 +1,4 @@
+2005-03-30T13:39:00.000Z	CraZy675		I have a ubuntu live cd here, would i be able to access my ntfs partition with it?
+2005-03-30T13:39:00.000Z	sabmoc	CraZy675	yup
+2005-03-30T13:40:00.000Z	sabmoc	CraZy675	read, but no write
+2005-03-30T13:51:00.000Z	sabmoc	CraZy675	`sudo mkdir /windows; mount -t ntfs /dev/hda /windows;` that should work I think.

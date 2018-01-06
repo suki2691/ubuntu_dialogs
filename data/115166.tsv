@@ -1,0 +1,4 @@
+2007-10-31T23:42:00.000Z	harveyd		does anyone know how to selectively rm symlinks in a directory
+2007-10-31T23:42:00.000Z	harveyd		http://pastebin.com/m1160d4f1
+2007-10-31T23:43:00.000Z	harveyd		i want to delete all symlinks that point to anything under /opt/SVN/spriki/trunk/dep/flex
+2007-10-31T23:43:00.000Z	sjovan	harveyd	no, but why can't you just ls -l and rm all the links?

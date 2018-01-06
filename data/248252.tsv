@@ -1,0 +1,4 @@
+2005-03-13T11:11:00.000Z	jono		I am trying to remove apache2-mpm-prefork and it keeps failing saying invoke-rc.d cannot stop apache2 - it is not running, and I am unable to start it - how can I fix this?
+2005-03-13T11:13:00.000Z	meuserj|work	jono	you could modify the rc script to exit true when stop is invoked...
+2005-03-13T11:15:00.000Z	jono	meuserj|work	good idea
+2005-03-13T11:18:00.000Z	meuserj|work	jono	you're jono from lugradio aren't you?

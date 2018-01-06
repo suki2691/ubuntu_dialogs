@@ -1,0 +1,4 @@
+2008-07-01T14:49:00.000Z	christine_		Does anyone have any experience installing firefly media server on ubuntu?  Downloaded the source code and attempting to run "sudo ./configure" as suggested by the documentation, but getting the following error: http://pastebin.com/m61e170dc (included output and contents of config.log)
+2008-07-01T14:49:00.000Z	joaopinto	christine_	configure should not be run with sudo
+2008-07-01T14:50:00.000Z	joaopinto	christine_	that is because configure is not set to executable
+2008-07-01T14:52:00.000Z	joaopinto	christine_	 sudo chown -R christine:christine ~/mt-daapd-0.2.4.2

@@ -1,0 +1,4 @@
+2007-02-06T07:31:00.000Z	DEinspanjer		I'm trying to mount my second HD which has my windows NTFS partition.  Following the instructions on the wiki, I can successfully mount it, but the permissions of the directory to which I am mounting it change from the 777 to which the wiki told me to chmod it into 500 permission mask.  Does this sound normal?
+2007-02-06T07:31:00.000Z	variant	DEinspanjer	do not use 777, besides ntfs does not support permissions at all
+2007-02-06T07:32:00.000Z	DEinspanjer	variant	The wiki suggested that I sudo mkdir /media/NTFS then chmod 777 it.
+2007-02-06T07:33:00.000Z	DEinspanjer	variant	If that part of the wiki is wrong, that's fine, but is there a way I can make the RO mount visible to my normal user instead of just root?

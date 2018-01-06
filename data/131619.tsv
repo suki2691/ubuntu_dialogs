@@ -1,0 +1,4 @@
+2008-01-02T01:55:00.000Z	chimp		I had set up a new install of ubuntu on my familys puter, and had created an account for my little bro, i had sort of set up my account upwith stuff he needed, so i figured that i would delete his account, and change my username and home directory. to his. This has now made it impossible to log in as it says the home folder has the wrong attributes. How can i fix this considering i cant log in as root?
+2008-01-02T01:57:00.000Z	chimp		I have the root password, but ubuntu doesnt allow by default logins from root, how would that help truna?
+2008-01-02T01:58:00.000Z	chimp		ahh great
+2008-01-02T01:58:00.000Z	cabrioleur	chimp	press alt+ctrl+f1, log in as root, and chown -Rfv yourbrouser /home/yourbrouser

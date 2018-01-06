@@ -1,0 +1,4 @@
+2008-09-02T17:39:00.000Z	swilky		dose any one know how to do a bash sql querry
+2008-09-02T17:40:00.000Z	swilky		i have a sql DB and i want to sort data as var'sin a bashscript
+2008-09-02T17:41:00.000Z	mo7	swilky	QUERYSTRING="select BLA from BLA where BLA='bla'; select NEXT from NEXT;"
+2008-09-02T17:41:00.000Z	mo7	swilky	MYSQLQUERY=`echo $QUERYSTRING | $MySQLBIN -D $MySQLDB -u $MySQLUSER --password=$MySQLPASS`

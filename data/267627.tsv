@@ -1,0 +1,4 @@
+2010-08-30T02:08:00.000Z	jrenner		PeterT': there's a partitioner on the cd
+2010-08-30T02:10:00.000Z	jrenner		hey guys I'm having an issue I'm not sure if its pulseaudio but that's my suspicion. my headphones go mute at about 34% volume
+2010-08-30T02:12:00.000Z	jrenner		hey guys I'm having an issue I'm not sure if its pulseaudio but that's my suspicion. my headphones go mute at about 34% volume. any ideas?
+2010-08-30T02:13:00.000Z	maco	jrenner	yeah thats a bug. i think its a bug in a sound driver reporting incorrect volume ranges which then results in pulseaudio's flat volume getting things wrong. please file it:  ubuntu-bug -s audio

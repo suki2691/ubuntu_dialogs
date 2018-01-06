@@ -1,0 +1,4 @@
+2011-02-20T16:31:00.000Z	lunavorax_nb		Hi everyone !
+2011-02-20T16:32:00.000Z	lunavorax_nb		Is there a way to put my laptop on powersave mode automatically from the startup ?
+2011-02-20T16:33:00.000Z	rumpe1	lunavorax_nb	put "dbus-send --print-reply --system --dest=org.freedesktop.UPower /org/freedesktop/UPower org.freedesktop.UPower.Suspend" into gnome-autostart
+2011-02-20T16:33:00.000Z	rumpe1	lunavorax_nb	if powersave=suspend

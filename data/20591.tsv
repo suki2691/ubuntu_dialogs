@@ -1,0 +1,4 @@
+2011-08-03T19:10:00.000Z	osmosis_paul		Hi somebodsy know how can i change the permisions only for file and for folder with separate commans
+2011-08-03T19:10:00.000Z	osmosis_paul		commands?
+2011-08-03T19:10:00.000Z	osmosis_paul		i change all files and folders with x permisions and now i only want let this permisions for folders of course
+2011-08-03T19:12:00.000Z	schnuffle	osmosis_paul	 find /path -type f -exec chmod 755 {} \; for files and -type d for dirs

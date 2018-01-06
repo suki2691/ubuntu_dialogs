@@ -1,0 +1,4 @@
+2010-08-01T00:15:00.000Z	ilovefairuz	czr_	deja-dup
+2010-08-01T00:16:00.000Z	czr_	ilovefairuz	can it be automated via cron without requiring a graphical login or X at all?
+2010-08-01T00:17:00.000Z	ilovefairuz	czr_	it's a GUI application, if you want something scriptable, try rsync or scp
+2010-08-01T00:18:00.000Z	czr_	ilovefairuz	neither rsync nor scp work for this, but I foudn out that deja-dup uses duplicity under the hoods and it looks like more what I'm looking for. thanks for the hint.

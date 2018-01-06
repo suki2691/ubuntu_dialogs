@@ -1,0 +1,4 @@
+2011-07-26T21:17:00.000Z	TheEmpath		so I installed webmin via a deb package, its in /etc/services, its taking up port 10000, it doesn't work, and i want to uninstall it, but dpkg --remove, apt-get remove, or anything else doesn't work.  there is no /etc/webmin/uninstall.sh and webmin doesn't even appear to be running in ps -A.  wtf?
+2011-07-26T21:17:00.000Z	TheEmpath		vunderbar
+2011-07-26T21:17:00.000Z	TheEmpath		so its just magically in my system with no way of removing it now?
+2011-07-26T21:19:00.000Z	Pici	TheEmpath	Stop/kill the service and attempt to remove the package.

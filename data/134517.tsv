@@ -1,0 +1,4 @@
+2008-06-03T16:58:00.000Z	jetsaredim		anyone know how to determine if a given cpu can support 64-bit (em64t)?
+2008-06-03T16:59:00.000Z	XLV	jetsaredim	cat /proc/cpuinfo
+2008-06-03T16:59:00.000Z	jetsaredim	XLV	and look for what?
+2008-06-03T17:00:00.000Z	XLV	jetsaredim	no, my bad, on 32bit installation it wont show anything.. well, try lshw, maybe it shows more info on cpu

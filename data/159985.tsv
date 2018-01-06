@@ -1,0 +1,4 @@
+2007-12-09T07:58:00.000Z	worthawholebean		My resolution is doing weird things... Every time I log in, I have to use aticonfig -f --initial --resolution=0,1440x900 to reconfigure xorg.conf and then kill x-session-manager. It will then go to 1152x768 and I have to change it in displayconfig-gtk to get it to 1440x900, my desired res. It then works fine, but I have to repeat that every time I reboot. I'm using a 20" Intel iMac with an ATI Radeon x1600.
+2007-12-09T07:58:00.000Z	cellofellow	worthawholebean	is this a new thing, or always?
+2007-12-09T07:58:00.000Z	worthawholebean	cellofellow	always
+2007-12-09T07:59:00.000Z	cellofellow	worthawholebean	ok, I was gonna suggest using the backup xorg.conf files (they worked for me.)

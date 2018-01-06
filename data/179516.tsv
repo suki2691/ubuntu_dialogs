@@ -1,0 +1,4 @@
+2011-08-08T17:56:00.000Z	AnxiousNut		Can the CLI tool: split be used to split a file only once, the first chunk having the specified size and the remaining in another chunk?
+2011-08-08T17:57:00.000Z	jrib	AnxiousNut	I suppose one stupid way to do it would be to split by that size then join the remaining parts back together
+2011-08-08T17:58:00.000Z	AnxiousNut	coz_	No, I need something general
+2011-08-08T17:58:00.000Z	jrib	AnxiousNut	otherwise, use dd I guess

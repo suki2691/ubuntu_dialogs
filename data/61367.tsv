@@ -1,0 +1,4 @@
+2011-05-22T20:35:00.000Z	vistaswitch		I've read in several locations that it's possible to install grub to a partition, not your mbr. None of them provided clear instructions how to do so. Has anyone here tried this and did it work?
+2011-05-22T20:36:00.000Z	tones	vistaswitch	yes, to the pbr
+2011-05-22T20:36:00.000Z	tones	vistaswitch	but you still need a bootloader capable of chainloading
+2011-05-22T20:37:00.000Z	tones	vistaswitch	I don't know, i don't use ubuntu, but you would still need to install grub to the mbr anyway

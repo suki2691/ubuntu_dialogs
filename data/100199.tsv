@@ -1,0 +1,4 @@
+2008-02-16T06:51:00.000Z	Jorophose		For some reason xubuntu's leeching up tons of space on my HDD. I started off wiht a ~10GB partition, it's now down to 4GB free even though I haven't installed many packages. Somebody reccomended I do "sudo rm /var/cache/apt/archives/*.deb" to remove cached .debs, but what's causing all this bloat?
+2008-02-16T06:52:00.000Z	hobbs	Jorophose	du -x /wherever | sort -n
+2008-02-16T06:54:00.000Z	Jorophose	hobbs	will the command I was given still be useful? or will it mess up my install somehow?
+2008-02-16T06:54:00.000Z	hobbs	Jorophose	it's a useful enough thing to do, but you shouldn't do it that way. Do "sudo apt-get clean" instead

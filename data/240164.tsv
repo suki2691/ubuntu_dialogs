@@ -1,0 +1,4 @@
+2008-03-03T09:50:00.000Z	powda		Quick question - Is it apt-get that creates files in /etc/init.d/ and /etc/<package> when installing something?
+2008-03-03T09:51:00.000Z	nickrud	powda	yes
+2008-03-03T09:52:00.000Z	nickrud	powda	  sudo apt-get install --reinstall -o Dpkg::Option:="--force-confmis" <package> iirc
+2008-03-03T09:52:00.000Z	nickrud	powda	that's confmiss , I missed an s

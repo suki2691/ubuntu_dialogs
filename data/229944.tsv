@@ -1,0 +1,4 @@
+2005-10-18T11:59:00.000Z	mustafu		Just a quick question....my monitor does a lot of flickering at high resolutions (1280 x 1024, namely)...is this a sign that the monitor is possibly going bad?
+2005-10-18T12:01:00.000Z	mustafu		ok, great, thanks for the help
+2005-10-18T12:01:00.000Z	tristanmike	mustafu	perhaps your refresh rate is off..? maybe
+2005-10-18T12:03:00.000Z	tristanmike	mustafu	try "sudo ddcprobe | grep monitor range" this should give you some ranges to work with

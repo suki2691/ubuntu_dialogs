@@ -1,0 +1,4 @@
+2007-10-19T01:10:00.000Z	ouroborous		ever since uninstalling xgl, i have to manually startx to get gnome to run for my user account.  i'm a noob... what did I break?  it works when I manually run startx (although user switcher dies), but if i don't run startx the ui startup just dumps back to console
+2007-10-19T01:11:00.000Z	pramz	ouroborous	afaik with Xgl you have to run a secondary X server, in gdmsetup you should be able to set what default X server comes up. At least thats what I had to do when I used XGL last which was nearly a year ago
+2007-10-19T01:12:00.000Z	ouroborous	pramz	 okay I'm retarded, because gdmsetup says i'm not running gnome.  yet i'm in gnome.  hmm...
+2007-10-19T01:13:00.000Z	pramz	ouroborous	under security tab, click on configure X server

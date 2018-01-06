@@ -1,0 +1,4 @@
+2007-03-04T11:41:00.000Z	reanjr		Is there a way to make it so that files created in directory are owned by the owner of the directory?
+2007-03-04T11:41:00.000Z	lufis	reanjr	sudo chown owner directory
+2007-03-04T11:43:00.000Z	lufis	reanjr	and you may need to make it recursive ... sudo chown -R owner directory
+2007-03-04T11:44:00.000Z	reanjr	lufis	what I mean is I have a directory with owner dirguy:dirguys and a user userguy who belongs to dirguys group.  When userguy creates a file in dirguys I want the owner of that file to be dirguy:dirguys

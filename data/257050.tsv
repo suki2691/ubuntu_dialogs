@@ -1,0 +1,4 @@
+2005-02-07T12:21:00.000Z	stuNNed		chmod 000 /sbin/iwconfig && chattr +i or -i /sbin/iwconfig i forget
+2005-02-07T12:23:00.000Z	smurfix	stuNNed	chattr is evil, that breaks your update instead. Not what you want either.
+2005-02-07T12:23:00.000Z	stuNNed	smurfix	k
+2005-02-07T12:24:00.000Z	stuNNed	smurfix	but you'd get a verbose error at least saying file can't be updated, chattr -i then back to +i?

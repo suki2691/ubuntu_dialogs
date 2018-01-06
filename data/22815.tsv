@@ -1,0 +1,4 @@
+2011-02-18T14:59:00.000Z	osmosis_paul		well if i use date in the command line i receive this "Fri Feb 18 09:54:51 UTC 2011" somebody know how can i get from the system only this "Fri Feb 18 09:54:51 " and use as variable in a shell script
+2011-02-18T15:00:00.000Z	VCoolio	osmosis_paul	man date, play with the options, like date "+%D %d" etc
+2011-02-18T15:02:00.000Z	VCoolio	osmosis_paul	date "+%a %b %d %T"
+2011-02-18T15:03:00.000Z	osmosis_paul	VCoolio	thanks a lot

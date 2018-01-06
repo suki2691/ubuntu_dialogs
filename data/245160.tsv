@@ -1,0 +1,4 @@
+2005-09-25T10:59:00.000Z	jakelo		I'm having an issue with upgrading a system from debian to ubuntu breezy, apt-get attempts and fails at removing x-common.  Anyone know how I can fix this?
+2005-09-25T10:59:00.000Z	jakelo		debian sarge that is.
+2005-09-25T11:00:00.000Z	cafuego_	jakelo	Yes, don't "upgrade"
+2005-09-25T11:00:00.000Z	cafuego_	jakelo	Alternatuively, remove any packages that are causing issues, then cross-upgrade, then reinstall them.

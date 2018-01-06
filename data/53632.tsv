@@ -1,0 +1,4 @@
+2010-01-27T09:35:00.000Z	Neilrobau		hello folks. having a problem sharing a folder in ubuntu on a windows network. in Folder Sharing I tick Allow Other people to Write, logout, and the folder is not even shared any more. turn on Share This Folder, Allo, Guest - get error 255:net usershare add failed - operation not permitted
+2010-01-27T09:37:00.000Z	din7	Neilrobau	Check permissions on the shared folder.
+2010-01-27T09:38:00.000Z	Neilrobau	din7	- create and delete permitted on owner, group and others
+2010-01-27T09:55:00.000Z	Neilrobau	din7	- " python -m SimpleHTTPServer will share the current directory" - that only shares while it is running?

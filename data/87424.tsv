@@ -1,0 +1,4 @@
+2009-05-19T02:01:00.000Z	eseven73		What would be the permissions settings if I wanted to set a directory (recursively) to only allow me to read/write? like for example /var/www/eseven73/uploads/
+2009-05-19T02:01:00.000Z	dayo	eseven73	chmod -R 711 /var/www/eseven73/uploads
+2009-05-19T02:02:00.000Z	dayo	eseven73	that let's u readWriteExec, and others only Exec
+2009-05-19T02:02:00.000Z	dayo	eseven73	change 711 to 600 if u strictly want just readWrite for yourself, and nothing for anyone else

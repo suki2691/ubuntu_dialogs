@@ -1,0 +1,4 @@
+2009-11-09T19:22:00.000Z	babyshambles		hi. i have a problem when saving nvidia X conf. i got an error msg like this " Failed to parse existing X config file '/etc/X11/xorg.conf'! ". i already try with gksudo nvidia-settings and gksu nvidia-settings, but it doesn't fix the problem. how can i overwrite this file? thank you ;)
+2009-11-09T19:24:00.000Z	babyshambles		hi. i have a problem when saving nvidia X conf. i got an error msg like this " Failed to parse existing X config file '/etc/X11/xorg.conf'! ". i already try with gksudo nvidia-settings and gksu nvidia-settings, but it doesn't fix the problem. how can i overwrite this file? thank you ;)
+2009-11-09T19:25:00.000Z	llutz	babyshambles	since xorg.conf won't exist, write the new one to different location and copy it later by hand
+2009-11-09T19:33:00.000Z	babyshambles	llutz	: how can i create xorg.conf ?

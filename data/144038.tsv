@@ -1,0 +1,4 @@
+2007-12-11T20:49:00.000Z	andrews		hi, my ubuntu 7.10 is no loading the graphical interface just as command line, how can i get my gui back??
+2007-12-11T20:50:00.000Z	wols	andrews	try sudo /etc/init.d/gdm restart. if that doesn't work: pastbein your /var/log/Xorg.0.log
+2007-12-11T21:07:00.000Z	andrews	wols	i pastebin the Xorg log file http://pastebin.com/m5aa75c9b
+2007-12-11T21:10:00.000Z	wols	andrews	looks fine. the problem is?

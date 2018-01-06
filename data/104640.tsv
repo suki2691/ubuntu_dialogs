@@ -1,0 +1,4 @@
+2009-08-21T11:34:00.000Z	wiggywo0t		question: how do i determine what driver is being used with my wireless card?
+2009-08-21T11:34:00.000Z	ActionParsnip	wiggywo0t	sudo lshw -C network | grep -i driver
+2009-08-21T11:35:00.000Z	ActionParsnip	wiggywo0t	if you want more info, omit the pipe and grep
+2009-08-21T11:43:00.000Z	ActionParsnip	wiggywo0t	install the backport modules may help, or you can compile the driver from ralink

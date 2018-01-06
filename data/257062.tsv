@@ -1,0 +1,4 @@
+2006-12-19T07:37:00.000Z	ivx		hey i am trying to do chmod to read and write all to a dir an all the contence, what is that command for that?
+2006-12-19T07:38:00.000Z	Falstius	ivx	 chmod a+rw
+2006-12-19T07:39:00.000Z	Falstius	ivx	to get a directory and all its contents, chmod -R a+rw <directory name>
+2006-12-19T07:43:00.000Z	Falstius	ivx	to fix that you need chown.  Try, "sudo chown -R `whoami`:`whoami` <directory>"

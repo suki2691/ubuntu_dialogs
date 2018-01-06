@@ -1,0 +1,4 @@
+2007-03-20T14:05:00.000Z	dv5237_		A long time ago i made a textfile whit nano but now i would like to give it root 'permisions' (only root is able to read or edit it) is this possible?
+2007-03-20T14:05:00.000Z	PriceChild	dv5237_	sudo chown root:root /path/to/file
+2007-03-20T14:06:00.000Z	PriceChild	dv5237_	then you have to chmod it to only root by...
+2007-03-20T14:06:00.000Z	dv5237_	PriceChild	thanks

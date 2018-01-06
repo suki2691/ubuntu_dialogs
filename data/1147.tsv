@@ -1,0 +1,4 @@
+2012-09-13T20:57:00.000Z	R_Macy		Hey guys how do you get the browser information out of this '08:26:52.737609 IP 199.59.149.232.80 > 10.0.2.15.1338: Flags [.], seq 2159:3579, ack 3363, win 65535, length 1420'
+2012-09-13T20:57:00.000Z	R_Macy		Im doing a CTF
+2012-09-13T20:58:00.000Z	tsimpson	R_Macy	you don't, that's the TCP header, the User-Agent header is in the message itself
+2012-09-13T21:00:00.000Z	R_Macy	tsimpson	it's a pcap file

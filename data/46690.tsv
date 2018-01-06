@@ -1,0 +1,4 @@
+2009-10-14T23:17:00.000Z	incentifit		tomcat and hudson are failing to startup when my system starts up even though they have scripts in /etc/init.d.  I can execute those scripts manually and each will start.  How can I learn why they are failing to start or is there some other requirement to make those scripts run?
+2009-10-14T23:18:00.000Z	mneptok	incentifit	did you update init.d after adding the scripts?
+2009-10-14T23:18:00.000Z	incentifit		apt-get install'd tomcat6 and hudson
+2009-10-14T23:21:00.000Z	incentifit	mneptok	apt-get install'd tomcat6 and hudson so I didn't add the scripts manually.  I'm inexperienced enough to wonder if something else besides just having scripts in the init.d folder is required.

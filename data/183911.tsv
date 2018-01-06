@@ -1,0 +1,4 @@
+2009-03-20T05:47:00.000Z	zamba		why am i unable to run the following command in cron: /home/marius/bin/pisg-gen total yearly monthly weekly daily -d $(date --date="yesterday" +"%Y-%m-%d")
+2009-03-20T05:47:00.000Z	zamba		it says unexpected EOF while looking for matching `"'
+2009-03-20T05:47:00.000Z	bruce89	zamba	that's not a crontab entry
+2009-03-20T05:48:00.000Z	zamba	bruce89	i of course have "30 0 * * *" first

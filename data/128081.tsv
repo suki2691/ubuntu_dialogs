@@ -1,0 +1,4 @@
+2009-07-03T18:00:00.000Z	arthur_		in hardy when the update manager looks 4 updates there use to be a little icon in the task bar letting me know there available now in jaunty there is not... i use to like the icon in the task bar....
+2009-07-03T18:01:00.000Z	mbeierl	arthur_	it's there, but the default behaviour has been changed not to notify all the time.  it waits to collect updates for 1 week by default, unless it's a critical security update
+2009-07-03T18:04:00.000Z	mbeierl	arthur_	forcing the updates is always allowed.  there is a gconf setting (which I forget - but there was quite a lot of questions about it back in April) to change it back to intrepid behaviour.  for the ctrl-alt-backspace... gimme a sec - it's "don't zap" but I don't remember where
+2009-07-03T18:05:00.000Z	mbeierl	arthur_	here's one wiki on this: https://wiki.ubuntu.com/X/Config/DontZap

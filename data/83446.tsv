@@ -1,0 +1,4 @@
+2009-04-29T08:48:00.000Z	billybigrigger		how do i get a UUID from a device block? i swapped out a dvd rw for a blu-ray drive on my buddies laptop, and now it won't mount, but its recognized, this is because the new drive has a new UUID so i need to change the UUID in /etc/fstab correct? but i can't find the UUID for /dev/scd0
+2009-04-29T08:49:00.000Z	timob	billybigrigger	sudo dumpe2fs -h /dev/sdb1 |grep UUI
+2009-04-29T08:49:00.000Z	timob		D
+2009-04-29T08:49:00.000Z	billybigrigger	timob	thanks

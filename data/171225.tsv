@@ -1,0 +1,4 @@
+2010-12-31T21:21:00.000Z	madsj		I have symlinks to the libjava-plugins under /usr/lib/firefox, but they're not working (they're pointing to Sun's version)
+2010-12-31T21:21:00.000Z	madsj		and the links in /etc/alternatives are not broken
+2010-12-31T21:22:00.000Z	IdleOne	madsj	update-alternatives --config java
+2010-12-31T21:23:00.000Z	madsj	IdleOne	already pointing to sun

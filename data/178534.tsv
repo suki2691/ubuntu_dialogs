@@ -1,0 +1,4 @@
+2011-03-23T18:47:00.000Z	trelayne		Hey all, let's say that I  want to install a PPA version of something to get security patches as they come out but that I want to revert to the non PPA version, is there a site that would explain how I can do that?
+2011-03-23T18:48:00.000Z	trelayne		I mean I want to revert when the non-PPA is patched..
+2011-03-23T18:49:00.000Z	trelayne		dagni,  s3r3n1t7  thanks.. but how do I know when a security patch for the non-PPA is out if I am using the PPA version ? Won't I only get notices for the PPA version?
+2011-03-23T18:49:00.000Z	Jeruvy	trelayne	assuming you didn't pin any official packages, simply remove the apps from the ppa normally, then remove the ppa from your sources, then install the official packages.

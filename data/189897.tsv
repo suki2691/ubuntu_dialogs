@@ -1,0 +1,4 @@
+2006-05-02T05:55:00.000Z	waylandbill		If I added a 540mb drive to this older machine to serve as a swap drive, all I have to do is cfdisk it to a swap type partition and modify my fstab to use it?
+2006-05-02T05:57:00.000Z	slackern	waylandbill	You need to create a swap filesystem on it too
+2006-05-02T05:57:00.000Z	slackern	waylandbill	mkswap /dev/newswap
+2006-05-02T05:58:00.000Z	waylandbill	slackern	do I reboot after that to use the new swap immediately?

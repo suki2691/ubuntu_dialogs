@@ -1,0 +1,4 @@
+2004-09-27T14:07:00.000Z	jomohke_	emk	"You simply have to load the "Users and Groups" application as a sudoer user, and then click to see "all users", and then select a new password for root user, and then voila, you can use the root user normally."
+2004-09-27T14:08:00.000Z	emk	jomohke_	or i could sudo ... then useradd? right?
+2004-09-27T14:10:00.000Z	jomohke_	emk	Nah, it's already there you just need to change the pass. As Keybuk said "sudo passwd" would be the alternative
+2004-09-27T14:11:00.000Z	emk	jomohke_	so whats the rationale behind it? In any machine that I've had to admin I like keeping my user account and admin as separate/distinct as possible.

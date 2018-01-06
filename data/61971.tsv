@@ -1,0 +1,4 @@
+2009-12-23T22:51:00.000Z	Slapfish		hello everybody... I'm trying to build my first python scripts and I want to know if there is a fast way to take the string "name_etc_etc2.dat" and cut everything after the first _ so finally I can get "name", thanks in advance and sorry for my ignorance...I can't find anything in google
+2009-12-23T22:52:00.000Z	grawity	Slapfish	somestring.find("_") to find the first _
+2009-12-23T22:52:00.000Z	grawity	Slapfish	And somestring[:somestring.find("_")] to get everything from the beginning to that _
+2009-12-23T22:52:00.000Z	grawity	Slapfish	And ##python for more help

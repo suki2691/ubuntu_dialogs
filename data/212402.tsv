@@ -1,0 +1,4 @@
+2007-07-23T16:13:00.000Z	vermoos		can anyone help with this problem i have had for a while:
+2007-07-23T16:13:00.000Z	vermoos		i install a package using apt-get, say 'postgresql', and i need to use it, only 'which postgresql' gives no reply. How do i find out how to invoke it?
+2007-07-23T16:14:00.000Z	vermoos		<window><tab> gives me 2002 possibilities! none which start with 'postgresql'
+2007-07-23T16:16:00.000Z	CardinalFang	vermoos	$ dpkg -L ${packagename}

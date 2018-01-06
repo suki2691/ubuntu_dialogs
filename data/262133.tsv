@@ -1,0 +1,4 @@
+2009-10-05T03:36:00.000Z	lloowen		Hello all. I've set up most of the usual servers for a friend. i.e. web, mysql, sftp, ssh, samba. I connect to this server using putty and a web address created using the dynamic IP service on dyndns.com. The last thing I did was setting up configuring vnc4server. Now I have lost all connection to this remote server. No ssh, web, sftp. This server is running on a LAN and the owner of the LAN says he can connect to the server using a vnc c
+2009-10-05T03:38:00.000Z	lloowen		what command shows all services running on a linux?
+2009-10-05T03:39:00.000Z	Seveas	lloowen	ps
+2009-10-05T03:40:00.000Z	Seveas	lloowen	or in karmic, 'initctl list' would be an approximation of a list of all processes that are services

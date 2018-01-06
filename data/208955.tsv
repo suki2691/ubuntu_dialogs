@@ -1,0 +1,4 @@
+2005-11-28T08:14:00.000Z	wickedpuppy		you want to give read/write access to your web dir to everyone ? ...
+2005-11-28T08:16:00.000Z	wickedpuppy		[Jonne] , did you explained to him what does chmod 666 do ?
+2005-11-28T08:18:00.000Z	wickedpuppy		[Jonne] , wouldn't it be safer to mkdir /var/www/dir_name and chown it ? instead of chmod the whole dir ?
+2005-11-28T08:19:00.000Z	Kamping_Kaise1	wickedpuppy	it would be eaiser to make a symlink from /var/www/username to /home/username/public_html

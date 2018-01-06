@@ -1,0 +1,4 @@
+2006-09-22T12:36:00.000Z	asidjazz		why wont ubuntu run /etc/bashrc or /etc/profile or /etc/bash.bashrc upon login? im tring to add some sysvars and none of those files are running when you login... ?
+2006-09-22T12:37:00.000Z	jrib	asidjazz	login to where?
+2006-09-22T12:39:00.000Z	jrib	asidjazz	I mean, are you logging into gnome?
+2006-09-22T12:45:00.000Z	jrib	asidjazz	if you are logging into gnome, then none of those files should be sourced.  ~/.gnomerc is sourced though.  And /etc/bash.bashrc as well as ~/.bashrc get sourced when you open a terminal

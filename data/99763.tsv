@@ -1,0 +1,4 @@
+2008-04-06T22:54:00.000Z	Randocal		I've shutdown an NFS server on my network without unmounting the exports on my Ubuntu box first, anyone know how I can unmount now that the NFS server is down? I can't access my filemanager I think because the NFS server is missing in action and has confused ubuntu
+2008-04-06T22:54:00.000Z	iositd	Randocal	sudo umount -lf <mounted location>
+2008-04-06T23:01:00.000Z	iositd	Randocal	it's probably still stuck at opening from before. Try this ==> ps aux | grep -i nautilus
+2008-04-06T23:01:00.000Z	iositd	Randocal	if it gives you output, kill those processes

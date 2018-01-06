@@ -1,0 +1,4 @@
+2007-10-19T16:44:00.000Z	lax		how to remove the ubuntu splash from boot??
+2007-10-19T16:45:00.000Z	jrib	lax	edit /boot/grub/menu.lst and get rid of "quiet" and "splash" for your kernel
+2007-10-19T16:50:00.000Z	lax	jrib	dont i have to rebuild grub after changing that file?
+2007-10-19T16:51:00.000Z	jrib	lax	the top of the file should tell you

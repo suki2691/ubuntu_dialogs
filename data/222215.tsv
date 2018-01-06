@@ -1,0 +1,4 @@
+2005-11-04T08:14:00.000Z	josh43		Anyone know what package "xf86Version.h" is in?
+2005-11-04T08:14:00.000Z	josh43		I've tried google and synaptic search, no luck
+2005-11-04T08:16:00.000Z	intelikey	josh43	"apt-cache show `apt-cache search xorg | cut -d' ' -f1` "  might give you something on that.....
+2005-11-04T08:18:00.000Z	josh43	intelikey	Nothing at all about that file

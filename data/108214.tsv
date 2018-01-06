@@ -1,0 +1,4 @@
+2007-12-28T14:27:00.000Z	TanisWolfbane		okay so I am trying to restore the following file: /lib/modules/2.6.22-14-generic/kernel/drivers/net/wireless/iwl3945.ko but no package seems to contain it!!!!! Any ideas
+2007-12-28T14:28:00.000Z	Wander_w	TanisWolfbane	it is probably in package linux-2.6.22-14-modules or something
+2007-12-28T14:30:00.000Z	Wander_w	TanisWolfbane	try apt-cache search linux module and then apt-get --reinstall install <thepackage>
+2007-12-28T14:33:00.000Z	TanisWolfbane	Wander_w	no it returns nothing, dkpg -S returns nothing and I've manually looked through all the kernel packages in Synaptic and non of them seem to list it

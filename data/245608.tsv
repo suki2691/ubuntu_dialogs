@@ -1,0 +1,4 @@
+2009-01-27T21:06:00.000Z	jpcooper		hello
+2009-01-27T21:07:00.000Z	jpcooper		is it possible to reset a user's gnome settings without logging on as that user? It seems that one of my user's gnome settings are beyond recovery
+2009-01-27T21:08:00.000Z	cwillu	jpcooper	moving .gconf and .gnome* elsewhere (so you can restore them if necessary) will do it
+2009-01-27T21:08:00.000Z	cwillu	jpcooper	you'll need to use sudo to do it though

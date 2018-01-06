@@ -1,0 +1,4 @@
+2007-10-27T20:01:00.000Z	LJAnanrdan		even after running  backup /etc/X11/xorg.conf it is giving backup: Unrecognized operation '/etc/X11/xorg.conf'; type 'backup help' for list
+2007-10-27T20:02:00.000Z	JebJoya	LJAnanrdan	do something like "sudo cp /etc/X11/xorg.conf /etc/X11/xorg.conf.backup1"
+2007-10-27T20:06:00.000Z	JebJoya	LJAnanrdan	if you look in the directory, there should be a new file called xorg.conf.backup1 which is a backup of your old one
+2007-10-27T20:14:00.000Z	JebJoya	LJAnanrdan	oh, is that what you're wanting to do?  you could use sudo dpkg-reconfigure xserver-xorg and use the menu system?

@@ -1,0 +1,4 @@
+2010-02-26T00:38:00.000Z	Darwin4Ever		Hi, I'm using eeebuntu and would like to scp/putty into that machine, but always get an network error. Any ideas ?
+2010-02-26T00:40:00.000Z	fccf	Darwin4Ever	sftp://user@host  in nautilus is the easy way... also install openssh-server on the server you are connecting to
+2010-02-26T00:40:00.000Z	fccf	Darwin4Ever	the client is .. the server is not
+2010-02-26T00:44:00.000Z	fccf	Darwin4Ever	run "sudo apt-get install openssh-server" on the server and you are good to go

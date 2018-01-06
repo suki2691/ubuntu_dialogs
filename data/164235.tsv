@@ -1,0 +1,4 @@
+2008-07-06T12:12:00.000Z	kushalsejwal		I created a wrong mountpoint named "music" in /media now when I delete it its gives me error "you dont have privilage" how can I delete that !!!
+2008-07-06T12:12:00.000Z	kushalsejwal		?
+2008-07-06T12:12:00.000Z	Fryguy--	kushalsejwal	use sudo
+2008-07-06T12:13:00.000Z	Fryguy--	kushalsejwal	make sure whatever you have there is unmounted, then sudo rm -rf /media/music/

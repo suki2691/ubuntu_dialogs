@@ -1,0 +1,4 @@
+2008-04-15T22:27:00.000Z	anthony__		Hi!, don't know if here is appropriate but why wouldn't the following work:  echo "/home/anthony/" | xargs cd
+2008-04-15T22:28:00.000Z	unop__	anthony__	well, for one its a really pointless way to do this .. cd "/home/anthony"
+2008-04-15T22:29:00.000Z	anthony__	unop_	: okay i was playing around.  I wanted to go to a directory where a particular file was.. sort of find . -name myfile | xargs cd
+2008-04-15T22:31:00.000Z	unop__	anthony__	well, that won't work because xargs requires a real command not a bash builtin like cd .. you could rewrite that as .   cd $(find /path ... )

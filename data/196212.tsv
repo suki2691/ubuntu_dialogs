@@ -1,0 +1,4 @@
+2006-07-19T14:10:00.000Z	drunken-wallaby		hi everyone.
+2006-07-19T14:12:00.000Z	drunken-wallaby		i've got a question. i created a small partition (ext3) for which i want that every user on my system can write or read files (just to transfer files quick and easy from one to another account) to this partition. the problem is, that when user A copies a file to the partition, other users can't read this file since it belongs to user A. question: do i need to play with samba to solve this or is there a quick way as well?
+2006-07-19T14:14:00.000Z	hyperstream	drunken-wallaby	 you could set it to like security = share
+2006-07-19T14:15:00.000Z	drunken-wallaby	hyperstream	where could i set this parameter (security = share)?

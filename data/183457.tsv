@@ -1,0 +1,4 @@
+2007-04-13T14:35:00.000Z	pieter_		I got something very strange here. I want to install a package with apt-get and for some reason it is telling me that a bunch of packages need to be installed / removed / etc.. Including "apt" needs to be installed??? Somebody any idea how to fix this?
+2007-04-13T14:36:00.000Z	Pelo	pieter_	 it's normal,  some packaged have dependencies that need install,  have other package that they conflict or replace that need to be removed
+2007-04-13T14:37:00.000Z	pieter_	Pelo	yes that I know. But the packages that its saying dont have anything to do with the package I want to install. Why is it saying I need to install apt while im executing with apt.
+2007-04-13T14:37:00.000Z	Pelo	pieter_	 apt is probably missing something in it

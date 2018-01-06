@@ -1,0 +1,4 @@
+2009-12-20T16:07:00.000Z	lsdluna		i get this when I try to cp the conf for backup : cp: cannot stat `/etc/X11/xorg.conf': No such file or directory ??
+2009-12-20T16:08:00.000Z	soreau	lsdluna	What are you trying to do?
+2009-12-20T16:09:00.000Z	soreau	lsdluna	Newer versions of X dont need a conf file. It is good enough at guessing what driver and options you need by default
+2009-12-20T16:10:00.000Z	soreau	lsdluna	It is likely you have ati or intel graphics unless you are using nvidia without their driver installed

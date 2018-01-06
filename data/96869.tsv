@@ -1,0 +1,4 @@
+2008-03-21T07:00:00.000Z	Zarius		Howdy, I'm having trouble restarting compiz from a remote ssh connection, can anyone help?
+2008-03-21T07:00:00.000Z	Fryguy--	Zarius	compiz runs in a graphical environment, you'll need to forward or export your X display via the ssh connection to run it
+2008-03-21T07:02:00.000Z	Zarius	Fryguy--	I've used ssh -X & ssh -Y, also used xhost +<ip> to add authority... I get "invalid MIT-MAGIC-COOKIE-1 key"... am I starting compiz right with "DISPLAY=":0" compiz --replace"?
+2008-03-21T07:03:00.000Z	Fryguy--	Zarius	dunno

@@ -1,0 +1,4 @@
+2009-02-13T07:20:00.000Z	izinucs		I've got an ssh question.. I just changed /etc/hosts to reflect a 192.xxx address of my server on the lan so I can just ssh <servername> and then connect.. I say yes to the RSA key fingerprint and then try to enter a password.. It doesn't like the password.. if I use <server>@<ip_address> it uses the same password with no problem.. How do I remedy this?
+2009-02-13T07:21:00.000Z	leo_rockway	izinucs	try ssh <username>@<servername>
+2009-02-13T07:25:00.000Z	leo_rockway	izinucs	I'm glad that worked :)
+2009-02-13T07:27:00.000Z	leo_rockway	izinucs	I don't think that would be a conflict, just call it ssh <whatever>@<whatever>

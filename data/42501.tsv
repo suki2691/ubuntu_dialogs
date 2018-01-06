@@ -1,0 +1,4 @@
+2012-01-10T22:01:00.000Z	kupo_		how would I remove 11.10 Ubuntu and keep 10.04?
+2012-01-10T22:02:00.000Z	aeon-ltd	kupo_	is this dual boot?
+2012-01-10T22:06:00.000Z	aeon-ltd	kupo_	if grub is separate or on the 10.04 then you can just delete the 11.10 partition(s), then it should work as normal as long as grub is intact
+2012-01-10T22:25:00.000Z	aeon-ltd	kupo_	you don't use the ms bootloader, use grub for anything linux + x

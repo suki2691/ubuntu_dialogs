@@ -1,0 +1,4 @@
+2010-06-01T08:17:00.000Z	inktri		how can i kill processes that don't show up with "ps" or under the System Monitor?
+2010-06-01T08:17:00.000Z	edbian	inktri	ps -e    will list all of the processes
+2010-06-01T08:17:00.000Z	edbian	inktri	That will give you their names / numbers
+2010-06-06T09:39:00.000Z	edbian	inktri	well you could kill arimon-ng's pid  or you can killall arimon-ng

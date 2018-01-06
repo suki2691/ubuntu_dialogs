@@ -1,0 +1,4 @@
+2010-12-28T14:36:00.000Z	Jordan_U	R1ck	Do you / did you have a separate /boot/ partition that isn't mounted?
+2010-12-28T14:40:00.000Z	R1ck	Jordan_U	I do have a seperate /boot, but it is mounted
+2010-12-28T14:41:00.000Z	Jordan_U	R1ck	Then it may be that it wasn't mounted when you upgraded the kernel. Try unmounting it temporarily, if after unmounting /boot/ is not empty then at some point /boot/ wasn't properly mounted during an upgrade.
+2010-12-28T14:43:00.000Z	Jordan_U	R1ck	If you unmount /boot/, is the /boot/ directory empty?

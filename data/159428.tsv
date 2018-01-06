@@ -1,0 +1,4 @@
+2008-02-05T01:45:00.000Z	Aquahallic		trying to install phpmyadmin from synaptics... looks like it goes through fine.. but when I look there's no reference to it in /var/www...
+2008-02-05T01:46:00.000Z	Cpudan80	Aquahallic	Yea, there is an error in the package - you gotta make one
+2008-02-05T01:46:00.000Z	Cpudan80	Aquahallic	Don't move anything! Just create a link
+2008-02-05T01:47:00.000Z	Cpudan80	Aquahallic	cd to /var/www and do ---- sudo ln -s /usr/share/phpmyadmin phpmyadmin

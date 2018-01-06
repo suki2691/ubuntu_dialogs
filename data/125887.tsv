@@ -1,0 +1,4 @@
+2008-05-10T11:49:00.000Z	userlol		i done apt-get remove exim4, and apparently its not installed, but the bloody thing is listening on port 25 and everytime i reboot, wtf??
+2008-05-10T11:50:00.000Z	userlol		its in /etc/init.d but wtf is it still there after i ran apt-get remove exim4?
+2008-05-10T11:51:00.000Z	userlol		and i dont want sendmail, i use evolution
+2008-05-10T11:51:00.000Z	opop	userlol	do an apt-get autoclean

@@ -1,0 +1,4 @@
+2009-06-01T07:51:00.000Z	chez		 how do i use chmod to stop users from accessing certain folders?
+2009-06-01T07:52:00.000Z	dhendrix	chez	 remove execute permission from the directory
+2009-06-01T07:52:00.000Z	chez	dhendrix	WIll i still be able to access it?
+2009-06-01T07:54:00.000Z	dhendrix	chez	 Yeah. Just remove execute permission for "group" and "other" permissions. Try "chmod go-x foo"

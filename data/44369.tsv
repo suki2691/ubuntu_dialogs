@@ -1,0 +1,4 @@
+2010-07-28T17:04:00.000Z	Hedron		I was wandering, is there a way to actually stop using sudo, kdesudo, gksudo for every single admin task in ubuntu?  I tried setting rootpw in sudoers, but for some tasks it continues to ask for user password instead root's one.
+2010-07-28T17:05:00.000Z	KrisDouglas	Hedron	sudo -i puts you in a permanent root shell for that session
+2010-07-28T17:06:00.000Z	KrisDouglas	Hedron	if you were to launch any apps from that shell they would be running as root, and work as root.
+2010-07-28T17:07:00.000Z	KrisDouglas	Hedron	"su -" does the same thing and puts you in an admin shell, the idea of running in an environment like that is security, you can do "sudo passwd root" and login as root, but you open yourself up to any person being able to do anyting with your pc

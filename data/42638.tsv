@@ -1,0 +1,4 @@
+2011-01-20T19:56:00.000Z	Combatjuan		Sometimes when I wake my netbook up from sleep (in Jaunty), my konsole window no longer accepts right clicks.  The rest of the desktop does.  And if I close and reopen konsole, right click works again?  Anyone else?  Ideas?
+2011-01-20T19:57:00.000Z	aeon-ltd	Combatjuan	sounds like a bug, report it
+2011-01-20T19:58:00.000Z	Combatjuan	aeon-ltd	I suppose it probably is, but I'm not sure whose bug it is.  Another thing that seems to correlate is that holding down a key no longer repeats.  If I type "$xset r on", then that comes back.
+2011-01-20T20:00:00.000Z	aeon-ltd	Combatjuan	hmm, you may aswell report it under konsole, then test the others, if other terminals follow, then its probably X or udev not redetecting hardware inputs

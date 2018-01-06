@@ -1,0 +1,4 @@
+2007-07-13T11:45:00.000Z	_Codeman_		Technical question: How does the "clipboard" work in Kubuntu?
+2007-07-13T11:45:00.000Z	shiester_miester	_Codeman_	data gets copied into a little spot in ram
+2007-07-13T11:46:00.000Z	shiester_miester	_Codeman_	when you press "copy" the application probably tells the kernel to put some data into a shared area in ram that other apps can look at
+2007-07-13T11:47:00.000Z	shiester_miester	_Codeman_	download the source of some program that has copy/paste functionality and take a look

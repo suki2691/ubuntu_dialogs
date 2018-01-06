@@ -1,0 +1,4 @@
+2006-06-04T14:35:00.000Z	hajuu		When using the Breezy kernel in a Hoary install, I get errors on startup... Something along the lines of "sed - Unsupported Command I".. I get it several times, and then everything appears to boot normally, but if I try to start something, I get wierd forking errors.. Anyone got any ideas?
+2006-06-04T14:35:00.000Z	hajuu		Whats sed?
+2006-06-04T14:37:00.000Z	hajuu		Ok well there MUST be a way to get the legacy nvidia drivers onto my hoary kernel surely surely
+2006-06-04T14:39:00.000Z	ic56	hajuu	sed is the Stream EDitor.  it's used to modify text on the fly, sometimes to generate scripts.  Are you sure the kernel is the only thing that got modified?  Because the error sounds more like some script files became corrupt

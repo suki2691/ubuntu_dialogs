@@ -1,0 +1,4 @@
+2006-11-07T15:20:00.000Z	Steggy		Would anyone have any idea why this entry in crontab doesn't work: (*/15 * * * * /usr/bin/xfdesktop -reload) while this entry does: (*/15 * * * * echo "It works" > ~/readme)?
+2006-11-07T15:22:00.000Z	Juhaz	Steggy	DISPLAY environment variable is not set for cron
+2006-11-07T15:26:00.000Z	Juhaz	Steggy	you need to set it, and maybe something more, don't know about xfce
+2006-11-07T15:30:00.000Z	Steggy	Juhaz	Thanks :) Searched the forums and found how to set it, etc. It's working great now :)

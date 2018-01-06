@@ -1,0 +1,4 @@
+2011-02-19T00:11:00.000Z	dmradford		hello, so, I'm having trouble getting VirtualBox working.... I'm getting "Please install the virtualbox-ose-dkms package and execute 'modprobe vboxdrv' as root." .... that package is installed, but when I try running modprobe vboxdrv as root, it says it cant find vboxdrv.... any thoughts?
+2011-02-19T00:11:00.000Z	stianhj	dmradford	how did you install VirtualBox?
+2011-02-19T00:12:00.000Z	stianhj	dmradford	if you didn't.. use the .deb file from the virtualbox site
+2011-02-19T00:13:00.000Z	dmradford	stianhj	I didn't, I used sudo apt-get install.... I'll try it with the .deb file.

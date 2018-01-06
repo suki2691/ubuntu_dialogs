@@ -1,0 +1,4 @@
+2011-05-20T21:26:00.000Z	mithran		hi all i just installed kde on ubuntu server, how do i make it start the gui on a reboot?
+2011-05-20T21:27:00.000Z	mithran		i looked for the /etc/inittab, but could not find it
+2011-05-20T21:27:00.000Z	mithran		i installed kde-minimal and xserver-xorg-core
+2011-05-20T21:28:00.000Z	angheloko	mithran	install a login manager or create script to startx via cron (@reboot) or initd

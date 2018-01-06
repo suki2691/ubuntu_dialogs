@@ -1,0 +1,4 @@
+2010-05-20T10:49:00.000Z	optical		Hello all, quick question if there are any SSH experts.  I have my home machine that I need someone to SSH into but don't want to give him my public IP address.  I also have an external monthly VPS that I have root on.  Can I make some kind of port forward on my VPS to point to my home IP, but let the person connect through VPS address instead?  Sounds confusing but basically like a bounce ?
+2010-05-20T10:50:00.000Z	optical		like at dyndns.org ?  but then they just ping that address and get my public IP that way
+2010-05-20T10:51:00.000Z	optical		bummer
+2010-05-20T10:51:00.000Z	red2kic	optical	Why do you not want him to know your public IP? Make a new account (for him to ssh into). Different password.  Even if he get in, he could run lynx (and whatismyip.com) such.

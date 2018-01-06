@@ -1,0 +1,4 @@
+2006-10-11T07:01:00.000Z	sethk	O2	that can be misleading
+2006-10-11T07:02:00.000Z	sethk	O2	linux does not recover memory released by an app until the kernel needs to give that memory to some other process.  So the amount of memory in use for a given process if often much higher than the real value.
+2006-10-11T07:02:00.000Z	sethk	O2	so what it means is that most of your memory has been used, not that most of your memory is unavailable.
+2006-10-11T07:04:00.000Z	O2	sethk	I think you are right! user-ram must be how much ram we used

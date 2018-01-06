@@ -1,0 +1,4 @@
+2010-11-09T01:27:00.000Z	kxsteve		is there something int apt that does what `yum provides */bin/sendmail` would do?
+2010-11-09T01:29:00.000Z	Darael	kxsteve	dpkg --search (I don' know yum, so that may not be right, but it seems likely)
+2010-11-09T01:29:00.000Z	kxsteve	Darael	 `yum provides */bin/sendmail` will show which package contains */bin/sendmail
+2010-11-09T01:30:00.000Z	Darael	kxsteve	Then you either want dpkg --search or apt-file (you'll need to install the latter) - the latter will give the package even if it's not installed.

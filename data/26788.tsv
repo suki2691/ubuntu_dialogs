@@ -1,0 +1,4 @@
+2010-10-06T05:04:00.000Z	dev001		Ok, I'm stumped.  I _removed_ all *ssh* from /etc/{init.d,rc*.d}/, and rebooted.  sshd is *STILL* starting up on boot. Short of removing sshd from the box, how do I turn start-on-boot OFF?
+2010-10-06T05:05:00.000Z	neil_d	dev001	have you tried "update-rc.d"
+2010-10-06T05:05:00.000Z	dev001	neil_d	 yep. that was the first thing i tried.
+2010-10-06T05:06:00.000Z	neil_d	dev001	just a guess here.. may inetd is starting it.

@@ -1,0 +1,4 @@
+2007-03-05T08:43:00.000Z	TeePOG		help please? i'm getting: "SIOCSIFADDR: No such device" when attempting to run "dhclient eth0" or "ifup eth0"
+2007-03-05T08:45:00.000Z	erUSUL	TeePOG	and ifconfig -a shows eth0 ??
+2007-03-05T08:45:00.000Z	TeePOG		yes erUSUL, and lsmod | grep e100 shows the card ... and lspci shows the card as well
+2007-03-05T08:47:00.000Z	TeePOG	erUSUL	what bothers me is that this installation was cloned from an identical machine, on which this did work.

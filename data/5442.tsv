@@ -1,0 +1,4 @@
+2012-08-20T17:29:00.000Z	danpsy		Why can't I append the unallocated space into my /dev/sda4 partition?  http://i.imgur.com/KVWOL.png
+2012-08-20T17:30:00.000Z	theadmin	danpsy	Because /dev/sda4 is not directly near the unallocated space.
+2012-08-20T17:31:00.000Z	theadmin	danpsy	Get rid of swap for a while. Then resize /dev/sda4 and recreate swap.
+2012-08-20T17:34:00.000Z	danpsy	theadmin	MonkeyDust, BluesKaj: Thanks!

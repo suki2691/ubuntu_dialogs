@@ -1,0 +1,4 @@
+2007-08-21T10:34:00.000Z	Woofcat		Quick question, i got a new 400 gb sata (/dev/sda1) all formated and such, copied over my current /home and i wish to make /dev/sda1 my new /home. Is the line "/dev/sda1       /home   ext3 defaults 0 1" correct in my fstab, i would like to know before i reboot. :)
+2007-08-21T10:36:00.000Z	dariuskane	Woofcat	the 1 at the end should be a 2... so its loaded last.. after the / partition
+2007-08-21T10:36:00.000Z	Woofcat	dariuskane	would my current /home come into conflict with it?
+2007-08-21T10:37:00.000Z	dariuskane	Woofcat	it will load on top of it actually.. your old files will be hidden and innaccessible underneath it... old linux hidden file trick

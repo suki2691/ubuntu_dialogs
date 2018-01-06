@@ -1,0 +1,4 @@
+2006-04-08T08:43:00.000Z	seicherlbob		hi there! my laptop wants to configure all network devices on startup. the dhcp-request takes quite a lot of time and i'd like to stop the system from auto-bring-up the interfaces to save time at startup. any ideas?
+2006-04-08T08:44:00.000Z	Frogzoo	seicherlbob	comment the 'auto interface' lines in /etc/network/interfaces
+2006-04-08T08:45:00.000Z	seicherlbob	Frogzoo	thats what i thought aswell. but there is only "auto lo" the others are not set to auto
+2006-04-08T08:47:00.000Z	Frogzoo	seicherlbob	I suspect the gnome network manager - if you don't start the applet - the interfaces file may cooperate

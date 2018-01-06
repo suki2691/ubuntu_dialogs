@@ -1,0 +1,4 @@
+2009-02-12T15:31:00.000Z	oCean_	nagyv	use "source <filename_with_variable_definitions>" in any script to read the values exported in that script
+2009-02-12T15:32:00.000Z	nagyv	oCean_	cool, and can't I set global variables? like $HOME is?
+2009-02-12T15:35:00.000Z	oCean_	nagyv	you, as a user, cannot define a variable value for all other users (e.g. 'global') to use. Your own could be specified in .bashrc indeed. Exporting is just a way to let 'children' 'inherit' the values set in the parent shell
+2009-02-12T15:36:00.000Z	oCean_	nagyv	prince_jammys... twice the explanation :)

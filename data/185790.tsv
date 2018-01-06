@@ -1,0 +1,4 @@
+2006-05-27T15:11:00.000Z	f00f_bug		i'm trying to mount a windows drive, and i'd like to know how to mount it readable for all users without changing permssions on the files on the drive..
+2006-05-27T15:12:00.000Z	pike__	f00f_bug	well this will work: sudo mount -o umask=000 /dev/hda1 /media/hda1
+2006-05-27T15:12:00.000Z	f00f_bug	pike__	thanks man
+2006-05-27T15:13:00.000Z	pike__	f00f_bug	np, of course umount it first before remounting

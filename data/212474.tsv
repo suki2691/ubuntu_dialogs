@@ -1,0 +1,4 @@
+2005-11-09T17:35:00.000Z	dbug		I've got a strange problem: I want to compile psybnc with ssl support. so I did "apt-get install openssl libssl-dev" but make gives me the error 'SSL-Support: Yes, but no openssl binary found in "/usr/bin/"' even though the binary is definitely in there
+2005-11-09T17:35:00.000Z	dbug		what am I doing wrong here?
+2005-11-09T17:37:00.000Z	lsuactiafner	dbug	: run which ssh
+2005-11-09T17:37:00.000Z	dbug	lsuactiafner	gives me /usr/bin/ssh

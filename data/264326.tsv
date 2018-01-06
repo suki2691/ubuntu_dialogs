@@ -1,0 +1,4 @@
+2005-04-17T14:52:00.000Z	nasboy		Can I just upgrade to hoary using APT or should I reinstall
+2005-04-17T14:53:00.000Z	nasboy		yes
+2005-04-17T14:53:00.000Z	nasboy		that's what I figured...I just wanted to make sure it wasn't going to mess up my system
+2005-04-17T14:55:00.000Z	topyli	nasboy	you'll have to apt-get upgrade, then dist-upgrade perhaps a few times before you're through. maybe even apt-get -f install (without arguments ) in the middle. this is the worst-case scenario

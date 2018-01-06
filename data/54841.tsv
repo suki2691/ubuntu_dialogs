@@ -1,0 +1,4 @@
+2010-11-03T13:17:00.000Z	ElSevilla		how do I forward packets on a particular local port to another port on another host?
+2010-11-03T13:17:00.000Z	ElSevilla		using iptables
+2010-11-03T13:19:00.000Z	e-DIO-t	ElSevilla	after enabling ipfowarding, sudo iptables -t nat -p $PROTO -s $SOURCE --sport $SOURCEPORT -j DNAT --to:$DESTIP:$DESTPORT, if i'm not wrong.
+2010-11-03T13:20:00.000Z	e-DIO-t	ElSevilla	[well, and perhaps "lock" FORWARD chain on what you want to forward.

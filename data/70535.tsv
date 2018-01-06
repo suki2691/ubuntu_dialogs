@@ -1,0 +1,4 @@
+2009-12-29T01:55:00.000Z	StupidandUgly		Does anyone know how I can archive a iso file and split it into two parts, it has to be in a format that like .zip or .rar
+2009-12-29T01:57:00.000Z	StupidandUgly		what do I put in the some options?
+2009-12-29T01:58:00.000Z	duffydack	StupidandUgly	rar a -v300000k isofile.rar isofile.iso      (creates 300meg parts)
+2009-12-29T01:59:00.000Z	duffydack	StupidandUgly	add -m0 if you want no compression

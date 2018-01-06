@@ -1,0 +1,4 @@
+2007-08-25T05:37:00.000Z	goodhabit		Hello. Help me please. I wanna to make Kubuntu from my ubuntu. I made sudo aptitude install kubuntu-desktop, but how to deinstall ubuntu-packages? Or there is another way to "clean" change?
+2007-08-25T05:37:00.000Z	bruenig	goodhabit	not a great idea to use aptitude to install meta packages
+2007-08-25T05:38:00.000Z	bruenig	goodhabit	there is no explicit way to do it
+2007-08-25T05:40:00.000Z	bruenig	goodhabit	I wrote a script once that compared the two meta packages and determined the difference in packages and removed those packages which were different, it should still work, it is buried in the forums somewhere though

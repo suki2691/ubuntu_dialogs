@@ -1,0 +1,4 @@
+2010-01-13T01:00:00.000Z	Viliny		i can not wrap my head around /etc/network/interfaces atm, i want to get an interface that takes an ip from the dhcp server of my isp from a bridgeing adsl modem, essentially totally exposing eth0 to wan, but i can not get it to work with auto eth0 -brake- iface eth0 inet dhcp
+2010-01-13T01:01:00.000Z	Viliny		never mind ppl, network cable out
+2010-01-13T01:01:00.000Z	vlt	Viliny	Should work. What does `ifconfig -a` tell you about the interface?
+2010-01-13T01:03:00.000Z	vlt	Viliny	hehe ;-)  I just wanted to recommend `ethtool eth0` to see if there's a connection at all

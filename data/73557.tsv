@@ -1,0 +1,4 @@
+2012-05-29T05:35:00.000Z	hellhammer		I'm running ubuntu 10.04 and I can't get flash games to load in firefox or chrome I am running up to date flash whats going on and how do i fix this?
+2012-05-29T05:35:00.000Z	pepee	hellhammer	you need to reinstall flash
+2012-05-29T05:42:00.000Z	pepee	hellhammer	remove swfdec-gnome
+2012-05-29T05:47:00.000Z	pepee	hellhammer	dpkg -l | egrep 'flash|gnash|swf|spark'

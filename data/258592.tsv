@@ -1,0 +1,4 @@
+2005-11-01T10:58:00.000Z	johnsie2k		Hi.. when I stalled ubuntu I told it that I was in GMT time zone.... I'm actually in BST. How do I chnage that?
+2005-11-01T10:59:00.000Z	dougsk	johnsie2k	tzconfig
+2005-11-01T11:05:00.000Z	dougsk	johnsie2k	you might try this kb article: http://support.microsoft.com/default.aspx?scid=kb;en-us;314054
+2005-11-01T11:11:00.000Z	dougsk	johnsie2k	youmight try hwclock --show to verify what the cmos clock states

@@ -1,0 +1,4 @@
+2008-01-25T17:06:00.000Z	aquo		so is apt-get update; apitude safe-upgrade the same as aptitude update; apt-get upgrade?
+2008-01-25T17:07:00.000Z	aquo		i don't think so.
+2008-01-25T17:08:00.000Z	un_op	aquo	it looks like the available file is used with dselect more than with any other APT utility -- if you delete the available file and run `deselect update` it is regenerated
+2008-01-25T17:11:00.000Z	aquo	un_op	so if i don't use dselect i don't need the available file?

@@ -1,0 +1,4 @@
+2007-04-25T12:26:00.000Z	CharlieS1		i have a file that is a .ISO movie file.. DVD i believe.. how can i mount the ISO file so that i can watch with VLC or something??  do i need to?
+2007-04-25T12:27:00.000Z	nevermind	CharlieS1	mount -t udf
+2007-04-25T12:27:00.000Z	CharlieS1	gordonjcp	the .iso??
+2007-04-25T12:27:00.000Z	nevermind	CharlieS1	sudo mount -t udf file.iso /mount_point

@@ -1,0 +1,4 @@
+2012-06-19T15:56:00.000Z	wer_		Hi, I am trying to compile linux2.6.34. I am logged in as guest. I have successfully performed make menuconfig and make. But while doing make modules_install, I get permission denied error. Even sudo is not working
+2012-06-19T15:57:00.000Z	wer_		Hi, I am trying to compile linux2.6.34. I am logged in as guest. I have successfully performed make menuconfig and make. But while doing make modules_install, I get permission denied error. Even sudo is not working. Even I am not able to copy the make file to /usr/share
+2012-06-19T15:58:00.000Z	sacarlson	wer_	you should use the fakeroot method and create a deb file so you can uninstall the kernel you create
+2012-06-19T15:59:00.000Z	sacarlson	wer_	https://help.ubuntu.com/community/Kernel/Compile

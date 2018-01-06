@@ -1,0 +1,4 @@
+2006-05-24T09:43:00.000Z	trappist		if I'm funning a java app that requires a particular java lib, where do I put that lib (.jar) so I don't get a java.lang.NoClassDefFoundError?
+2006-05-24T09:45:00.000Z	trappist		s/funning/running/
+2006-05-24T09:45:00.000Z	andersbr	trappist	You should be able to add any path to your $CLASSPATH variable, and it will pick up the new jar.
+2006-05-24T09:45:00.000Z	trappist	andersbr	great, thanks

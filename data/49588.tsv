@@ -1,0 +1,4 @@
+2009-09-13T17:16:00.000Z	citrix		what is the permission of umask 0022 (777 666 655 644)?
+2009-09-13T17:16:00.000Z	grawity	citrix	Calculate it. For files, 0666 & ~022 = 0644
+2009-09-13T17:17:00.000Z	citrix	grawity	thanks
+2009-09-13T17:17:00.000Z	grawity	citrix	And for directories it's 0755. (All the numbers here are in octal.)

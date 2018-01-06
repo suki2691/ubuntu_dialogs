@@ -1,0 +1,4 @@
+2008-06-06T20:10:00.000Z	amen51		hi, is there a channel with command-line experts
+2008-06-06T20:10:00.000Z	Pici	amen51	For shell scripting? #bash
+2008-06-06T20:18:00.000Z	Pici	amen51	I have not.
+2008-06-06T20:36:00.000Z	Pici	amen51	Each part of the io redierction feature of the shell needs to be done with sudo privleges. IE: it treats things after the > as a separate command. you'll need to do: echo "something" | sudo tee somewhere

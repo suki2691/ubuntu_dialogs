@@ -1,0 +1,4 @@
+2011-08-15T02:13:00.000Z	infohigh		I installed ubuntu-server on a 500G drive, with a "guided" LVM install.
+2011-08-15T02:13:00.000Z	infohigh		It chose to give me 440G for /home and only 300M for /
+2011-08-15T02:14:00.000Z	infohigh		so a dist-upgrade couldn't even succeed because / ran out of space from kernel modules LoL
+2011-08-15T02:14:00.000Z	escott	infohigh	the point of lvm is to leave free space, and allocate more as you need it. not to preallocate everything

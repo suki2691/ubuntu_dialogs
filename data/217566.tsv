@@ -1,0 +1,4 @@
+2007-10-10T07:34:00.000Z	gautada		How do I determine which package provided a specific file
+2007-10-10T07:35:00.000Z	usr13	gautada	apt-cache search
+2007-10-10T07:41:00.000Z	gautada	usr13	No not working I am trying to figure out which package provided "/usr/bin/gnome-keyboard-properties" and %>apt-cache search /usr/bin/gnome-keyboard-properties turned up nothing.
+2007-10-10T07:44:00.000Z	usr13	gautada	 apt-cache search keyboard |grep gnome

@@ -1,0 +1,4 @@
+2009-05-15T05:01:00.000Z	raving		Is there a way to bounce off the CD into a USB-Key based installation?
+2009-05-15T05:03:00.000Z	mzz	raving	it's quite possible to get a linux kernel + initramfs from the cd and everything else off the usb stick, but that doesn't help if most of the installer is in initramfs, which it might be.
+2009-05-15T05:04:00.000Z	mzz	raving	I don't know how possible it is to get the kernel + initramfs from usb through the cd's bootloader (before booting a linux kernel)
+2009-05-15T05:04:00.000Z	raving	mzz	if it doesn't work, it doesn't work, but if it does, that'll be great

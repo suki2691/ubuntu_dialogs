@@ -1,0 +1,4 @@
+2011-04-22T07:59:00.000Z	Usipeus		guys, I have grub installed on the mbr and accidentally also on my windows 7 partition, how would I go about removing the windows 7 one?
+2011-04-22T08:00:00.000Z	Ben64	Usipeus	it wouldn't hurt anything to leave it on a partition
+2011-04-22T08:00:00.000Z	Ben64	Usipeus	oh...
+2011-04-22T08:01:00.000Z	Ben64	Usipeus	you'd have to fixmbr in windows, then re-install grub onto the mbr

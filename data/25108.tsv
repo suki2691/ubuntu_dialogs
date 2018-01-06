@@ -1,0 +1,4 @@
+2011-04-06T20:00:00.000Z	jink	d3vic3	Erhm, what?
+2011-04-06T20:02:00.000Z	d3vic3	jink	it's just for ~/public_html and set for www-data group unless you are an advanced user so you may use ACLs :)
+2011-04-06T20:04:00.000Z	jink	d3vic3	chmod -R 775 will make all your files executable, too.  And why do they need to be owned by the www-data group?  Apache can read them just fine if you have o+r ... ?
+2011-04-06T20:05:00.000Z	d3vic3	jink	got the same problem and solved it with enabling user_dir and ACL things :)

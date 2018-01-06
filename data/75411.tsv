@@ -1,0 +1,4 @@
+2009-09-13T08:06:00.000Z	tarnold		I need some permissions help. I am trying to install iStat Server on an member:Ubuntu distro. I think I've done it right, and when I run the daemon (the executable), it needs to access /var/run/istat/ to write some files. I read from a tutorial online that the executable, istatd, runs as user istat, so per the instructions I created this directory (using sudo) and chown'd it to istat.istat. When I run istatd, it says "Could not create pid f
+2009-09-13T08:06:00.000Z	tarnold		/var/run/istat/istatd.pid: Permission denied". Any ideas?
+2009-09-13T08:07:00.000Z	Out_Cold	tarnold	use your command with sudo
+2009-09-13T08:08:00.000Z	tarnold	Out_Cold	well yes, but I think the idea was that that folder should be able to be written to by the user 'istat' which doesn't seem to be the case.. I don't want to have root running this daemon all the time

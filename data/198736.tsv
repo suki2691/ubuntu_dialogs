@@ -1,0 +1,4 @@
+2010-10-07T15:46:00.000Z	Zoffix		Hey, I had 96GB disappear overnight (that was all the remaining space I had). Recently the same happened, but I was able to find the case - it was in ~/.xsession-errors.log. However, I see now that the file is not there. My suspect is Eye of Gnome that was running all night. How can I find what ate up those 96GB?
+2010-10-07T15:46:00.000Z	tntc	Zoffix	look for files with a modification time since last night, I'd say
+2010-10-07T15:46:00.000Z	tntc	Zoffix	I think the search function can do that, and then you can sort by size and stuff
+2010-10-07T15:46:00.000Z	tntc	Zoffix	Jordan_U had a better idea than me!

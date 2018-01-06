@@ -1,0 +1,4 @@
+2012-02-09T07:31:00.000Z	Nach0z		hey guys, need some help :/ I seem to have ROYALLY JACKED UP my ~ folder :/
+2012-02-09T07:31:00.000Z	Nach0z		it's got me as the owner when I do ll, but I can't even cd into it unless I'm root
+2012-02-09T07:32:00.000Z	Dr_willis	Nach0z	 check the ownership  of /home/yourusername  also
+2012-02-11T19:52:00.000Z	Dr_willis	Nach0z	 its moved away from the sysv system, so runlevels are not really needed any more. check the upstart docs.

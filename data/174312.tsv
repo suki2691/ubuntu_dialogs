@@ -1,0 +1,4 @@
+2007-11-02T03:59:00.000Z	JamesG		Is there a webpage or wiki entry somewhere that will explain sensible auto-update configuration? ie, so I can have my box do an apt-get upgrade every night that will pick up any critical security flaws etc.?
+2007-11-02T04:00:00.000Z	eternalswd	JamesG	set a cron task?  but installing updates requires sudo, and bypassing the passwd for installation is not very safe
+2007-11-02T04:01:00.000Z	JamesG	eternalswd	I was under the impression apt had a facility for this.
+2007-11-02T04:04:00.000Z	eternalswd	JamesG	looks like maybe aptitude has something http://www.ambienteto.arti.beniculturali.it/cgi-bin/dwww?type=file&location=/usr/share/doc/aptitude/README look for Aptitude::Auto-Upgrade

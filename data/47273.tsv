@@ -1,0 +1,4 @@
+2011-11-09T14:20:00.000Z	ubuntu		Hi. How does update-initramfs decide what img to generate? For some reason it wants to build 2.6.something, and I need 3.0.. So does anyone here know if this version can be given somehow as an argument?
+2011-11-09T14:22:00.000Z	llutz_	ubuntu	man update-initramfs (-k)
+2011-11-09T14:23:00.000Z	ubuntu	BlackDex	yes, sort of. Do you hav a link or anything about how to do this, in more detail. If possible I'd like to read up on that.
+2011-11-09T14:24:00.000Z	llutz_	ubuntu	just read "man update-initramfs" about -k parameter

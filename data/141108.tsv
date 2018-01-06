@@ -1,0 +1,4 @@
+2009-06-30T08:21:00.000Z	everton137		Hi, I'm with a problema on my notebook wifi card. I bouth a compaq presario yesterday and I configured wifi connection this morning. After upgrade Ubuntu, the system cannot find th wifi signal anymore. I'm very worried if my wifi broke... ifconfig cannot detec wlan anymore. I tried livecd and it didnt detected wifi also. How can I know if I have to back to the store (until tomorrou) and change the laptop? (on #ubuntu-br a wifi card
+2009-06-30T08:21:00.000Z	everton137		from a guy just stoped working on a HP pavillion this week after upgradeing ubuntu)
+2009-06-30T08:22:00.000Z	raylu	everton137	lspci, ifconfig -a
+2009-06-30T08:24:00.000Z	everton137	raylu	lspci is not detecting  wifi card. ifconfig -a returns only eth0, lo and pan0

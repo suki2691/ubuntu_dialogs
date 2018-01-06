@@ -1,0 +1,4 @@
+2009-01-07T22:44:00.000Z	gfather		hello guys
+2009-01-07T22:44:00.000Z	gfather		i reinstalled ubuntu on my secound drive , but now grub cant detect my windows , how do i fix that ?
+2009-01-07T22:45:00.000Z	ohzie	gfather	You know what partition and drive it's on?
+2009-01-07T22:47:00.000Z	ohzie	gfather	The important part is knowing what grub calls it, and then adding it manually with the grub config. You have to add the entry I'll PM you in a second, and then run the grub-update or update-grub command.

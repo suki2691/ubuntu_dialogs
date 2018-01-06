@@ -1,0 +1,4 @@
+2010-01-06T20:24:00.000Z	dajohn		Hi All , why : grep -r "text" *.php  searches only in current dir ? ?
+2010-01-06T20:25:00.000Z	jrib	dajohn	because *.php expands to files that end in .php in the current directory
+2010-01-06T20:25:00.000Z	jrib	dajohn	just do: grep text **/*.php
+2010-01-06T20:26:00.000Z	dajohn	jrib	thanks you are a genious rabbi !!

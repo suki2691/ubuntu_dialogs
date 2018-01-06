@@ -1,0 +1,4 @@
+2007-10-31T19:14:00.000Z	Biju		hello I have finally managed to get my Ubuntu 64 running . but I have a few more doubts. The main one is how do I change the initial root (hd0,0) in grub to root (hd1,0) without having to edit each time when I boot
+2007-10-31T19:15:00.000Z	riotkittie	Biju	you can edit /boot/grub/menu.lst   [sudo nano or gksu gedit]
+2007-11-01T03:09:00.000Z	riotkittie	Biju	you can install windows, you'll just need a live disc on hand to recover GRUB as win will overwrite it. i'm not sure your card would work in a vm
+2007-11-01T03:11:00.000Z	riotkittie	Biju	you may try asking in the forums, under the hardware section ... to see what people are having luck with , also the hw compatibility list

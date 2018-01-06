@@ -1,0 +1,4 @@
+2010-03-11T19:56:00.000Z	Martijn		Hi, I try to open the sudoersfile with sudo gedit /etc/sudoers
+2010-03-11T19:57:00.000Z	Martijn		but i get the mesaage mode is 0660, should be 0440
+2010-03-11T19:57:00.000Z	Halitech	Martijn	use visudo
+2010-03-11T20:00:00.000Z	Halitech	Martijn	run groups and see if you are in the admin and sudo groups

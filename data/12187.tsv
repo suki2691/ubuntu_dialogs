@@ -1,0 +1,4 @@
+2011-08-09T01:01:00.000Z	sieson		does anyone know what does this command mean "sudo su - releaseuser"? specifically what is the dash ?
+2011-08-09T01:02:00.000Z	zykotick9	sieson	"su -" means switch user the - means, fake a login
+2011-08-09T01:04:00.000Z	zykotick9	sieson	as an example (don't do this) "su -" would log in as root, with root environment and into root home folder.  Using "su" would just switch to root user in current directly with the origional user's environment.
+2011-08-09T01:05:00.000Z	sieson	zykotick9	ah right, thanks for the clarification

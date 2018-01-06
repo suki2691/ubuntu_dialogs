@@ -1,0 +1,4 @@
+2010-12-14T19:53:00.000Z	avinash_hm		hi guys, in my ubuntu internet is working fine ... i can go to google, medibuntu ... but when i do ping from cmd line it isn't working .. more logs @ http://paste.ubuntu.com/543628/ ... is there anythingi have to install .. any help ??
+2010-12-14T19:54:00.000Z	shingen	avinash_hm	your dns isn't setup correctly.  check /etc/resolv.conf to see what you have set for your dns servers
+2010-12-14T19:55:00.000Z	shingen	avinash_hm	you can also try pinging something locally by it's IP address, e.g. your gateway router or your next hop out, to verify if network connectivity is working.
+2010-12-14T20:05:00.000Z	avinash_hm	shingen	i think n/w is proper coz i can connect to any website .. i am using mozilla with which i can browse to google, medibuntu ... checked /etc/resolv.conf .... looks good .. they are @ http://paste.ubuntu.com/543636/ ...

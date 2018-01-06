@@ -1,0 +1,4 @@
+2005-12-22T11:10:00.000Z	lukas		In Ubuntu, if I do a source installation of a package and install it to /usr/local, how can I get binaries to look in /usr/local/lib for libraries?
+2005-12-22T11:11:00.000Z	Toma-	lukas	add /usr/local/lib to your ld.so.conf
+2005-12-22T11:12:00.000Z	lukas	Toma-	I don't have an /etc/ld.so.conf file on my system
+2005-12-22T11:12:00.000Z	Toma-	lukas	weird.... i do...

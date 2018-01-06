@@ -1,0 +1,4 @@
+2009-03-11T05:12:00.000Z	Unislash		Hmmm, when i type "sudo iptables-save > /etc/iptables.test.rules" i get "bash: /etc/iptables.test.rules: Permission denied"
+2009-03-11T05:13:00.000Z	cbane	Unislash	with that command, iptables-save gets run as root, but the file operation happens as your normal user
+2009-03-11T05:13:00.000Z	Unislash	cbane	how would i log in as root?
+2009-03-11T05:13:00.000Z	cbane	Unislash	the easiest way to get a root shell is "sudo -s", and type your password

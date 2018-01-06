@@ -1,0 +1,4 @@
+2008-11-29T01:41:00.000Z	Skky		anyone familar with IP Tables?
+2008-11-29T01:43:00.000Z	oskar-	Skky	a bit, what do you want to know?
+2008-11-29T01:50:00.000Z	Skky	oskar-	I need to block FTP from 192.168.20.*.  My command "iptables -a INPUT -s 192.168.20.0/24 -p tcp -j REJECT" does not work
+2008-11-29T01:52:00.000Z	oskar-	Skky	try a big A: iptables -A ....

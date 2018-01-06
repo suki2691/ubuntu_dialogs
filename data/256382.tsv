@@ -1,0 +1,4 @@
+2008-12-24T18:27:00.000Z	RFXCasey		Ok the whole story is I had Ubuntu on the first disk and I installed Windows on the second disk, I then resetup Grub and now I need Grub to tell windows to start
+2008-12-24T18:27:00.000Z	RFXCasey		It is possible to install Windows after Ubuntu
+2008-12-24T18:28:00.000Z	dr_willis	RFXCasey	 theres a example entry in the menu.lst to boot windows off the first hd.. you may be able to set it to boot the 2nd.. use the bios features to boot the 2nd hd and bypass grub.. or install grub to the windows hd.. and swap them out.. so windows becomes the first hd..
+2008-12-24T18:28:00.000Z	dr_willis	RFXCasey	  Its very possible.. it alsy pays to understand how machines boot and grub works.. not too hard. if you learn  grub :)

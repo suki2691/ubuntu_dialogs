@@ -1,0 +1,4 @@
+2008-07-03T05:11:00.000Z	^Ocean^		I can no longer mount my Windows Harddrive.   if I run qtparted, I see the drive as /dev/sda and the partition I want too mount /dev/sda1,  Yet when I goto mount the drive,  /dev/sda1 does not exsist
+2008-07-03T05:12:00.000Z	tech0007	^Ocean^	did u shutdown from windows properly? try mounting it from terminal
+2008-07-03T05:13:00.000Z	^Ocean^	tech0007	Windows was shut down properly,   problem didnt happen till i upgraded from Gutsy.  And thats how i was mounting it,  if i do a ls of /dev   sda1 is not there.... how ever qtparded shows it just  fine.  and /dev/sda is there
+2008-07-03T05:14:00.000Z	tech0007	^Ocean^	paste the output of 'sudo fdisk -l /dev/sda' and 'cat /etc/fstab'

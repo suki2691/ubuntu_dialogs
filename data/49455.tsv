@@ -1,0 +1,4 @@
+2009-09-18T23:51:00.000Z	dwatkins		perl scripts are just textfiles with #!/usr/bin/perl in the first line, assuming they're exectuable you can call them by name, seidos
+2009-09-18T23:52:00.000Z	seidos	dwatkins	I will try
+2009-09-18T23:52:00.000Z	dwatkins	seidos	if you're in the same directory, you'll need to call the script using ./scriptname, since the current working directory is unlikely to be in the path
+2009-09-18T23:55:00.000Z	seidos	dwatkins	perl scriptname seems to have worked, ./scriptname, not so much

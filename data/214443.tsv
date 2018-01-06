@@ -1,0 +1,4 @@
+2007-04-21T10:03:00.000Z	Linux_		Okay can someone help me with vnc problem. I am connecting to friend ubuntu box. I can't get cause there  a password on it. He doesn't remeber the password what do we do?
+2007-04-21T10:04:00.000Z	eck	Linux_	you can't fix it over vnc without a password, for obvious security reasons
+2007-04-21T10:04:00.000Z	eck	Linux_	you can use the recovery mod eoption to boot into single user mode and then run passwd
+2007-04-21T10:05:00.000Z	eck	Linux_	tell him to reboot, use the recovery option in the grub menu, and then type 'passwd the_username_here' when a shell comes up

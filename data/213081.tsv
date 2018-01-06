@@ -1,0 +1,4 @@
+2006-05-03T15:59:00.000Z	netgeek60		I installed Dapper beta 1 last week... How can I now upgrade to Dapper Beta 2?
+2006-05-03T15:59:00.000Z	gnomefreak	netgeek60	sudo apt-get update && sudo apt-get upgrade
+2006-05-04T16:00:00.000Z	gnomefreak	netgeek60	you can use dist-upgrade the difference between upgrade and dist-upgrade is dist-upgrade will grap kernel updates along with everything else apt-get upgrade doesnt get kernels and some other stuff
+2006-05-04T16:01:00.000Z	gnomefreak	netgeek60	that above is if you leave your sources.list aloone

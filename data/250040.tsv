@@ -1,0 +1,4 @@
+2008-04-30T06:05:00.000Z	jackal		how do i uhow do i use the framebuffer?
+2008-04-30T06:05:00.000Z	jackal		how do i use framebuffer?
+2008-04-30T06:06:00.000Z	jackal		Dr... how do i use the framebuffer?
+2008-04-30T06:07:00.000Z	Dr_willis	jackal	 the menu.lst has kernel options to enable various modes for the framebuffer, ## e.g. defoptions=vga=791 resume=/dev/hda5         The vga= sets the default res. I think the framebuffer may be disabled by default under hardy. Once you have the framebuffer enabled you can use the fbset and other commands to tweak it on the fly

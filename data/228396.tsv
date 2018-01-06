@@ -1,0 +1,4 @@
+2007-03-19T13:04:00.000Z	zen		How do I fix this?  "tar: linux-source-2.6.20/include/linux/hil.h: Cannot open: No such file or directory" "tar: Skipping to next header"
+2007-03-19T13:04:00.000Z	zen		I got it when trying to extract the source
+2007-03-19T13:05:00.000Z	AzMoo	zen	sounds like the file is corrupt. Try downloading it again or testing it with the md5sum
+2007-03-19T13:06:00.000Z	zen	AzMoo	nah...was a superuser problem...I had no write permission in that dir

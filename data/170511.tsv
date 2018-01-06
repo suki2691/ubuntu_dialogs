@@ -1,0 +1,4 @@
+2006-08-20T16:40:00.000Z	Herbal		when i try to load tor i get this http://paste.ubuntu-nl.org/d21142   how can i fix it?
+2006-08-20T16:41:00.000Z	lamego_	Herbal	sudo chown 1000 /var/lib/tor
+2006-08-20T16:43:00.000Z	Herbal	lamego_	k now it just says its experimental etc....how do i know its running?
+2006-08-20T16:43:00.000Z	lamego_	Herbal	ps -ef | grep -i tor

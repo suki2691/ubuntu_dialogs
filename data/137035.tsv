@@ -1,0 +1,4 @@
+2008-02-14T13:28:00.000Z	sarthor	neil_d	 sudo mount -t auto /dev/sdb /media/hd1
+2008-02-14T13:28:00.000Z	sarthor		mount: special device /dev/sdb does not exist
+2008-02-14T13:28:00.000Z	sarthor		I want to identify what is my CD Drive, hda, sdb, or what??
+2008-02-14T13:29:00.000Z	neil_d	sarthor	 I think you will need something like    "sudo mount -t auto /dev/sr0 <mount point>"   note not sdb use sr0

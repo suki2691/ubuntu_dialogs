@@ -1,0 +1,4 @@
+2011-11-13T18:55:00.000Z	zxiest		Hello everyone
+2011-11-13T18:55:00.000Z	zxiest		Assuming I attached /dev/sdf to my Ubuntu, how can I access the files on it/
+2011-11-13T18:56:00.000Z	Fuchs	zxiest	/mount (-t filesystem) /dev/sdfn /media/someexistingfolder
+2011-11-13T18:56:00.000Z	Fuchs	zxiest	mount without an argument should show you where it is mounted

@@ -1,0 +1,4 @@
+2007-10-16T09:40:00.000Z	kyleBAKED		how can i change the home directory for a user?
+2007-10-16T09:41:00.000Z	kyleBAKED		i have my home directory on a seperatly mounted partition, will usermod still work?
+2007-10-16T08:39:00.000Z	kyleBAKED		i have a partition currently mounted to /home and i need to unmount it, but home is always busy, what could i do?
+2007-10-16T08:39:00.000Z	nrdb	kyleBAKED	change your /etc/fstab and reboot

@@ -1,0 +1,4 @@
+2010-11-24T22:25:00.000Z	JohnoP		quick question. I have a folder filled with files. I wanr to tar all of the files. however I want to tar the files seperatly. So I get a tar file for each file that was in the folder. What is the commends? I assume it has something to do with find?
+2010-11-24T22:26:00.000Z	JohnoP		no
+2010-11-24T22:28:00.000Z	JohnoP		 I have a folder filled with files. I wanr to tar all of the files. however I want to tar the files seperatly. So I get a tar file for each file that was in the folder. What is the commends? I assume it has something to do with find?
+2010-11-24T22:28:00.000Z	ActionParsnip	JohnoP	create a test folder to play with first, i'll be something like: find /path/to/folder -type f "*" -exec tar czvf "{}.tar.gz" {} \;    i'd ask in #bash to make sure

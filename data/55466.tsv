@@ -1,0 +1,4 @@
+2010-06-12T21:07:00.000Z	droidmanic		hey guys, if I connect a usb mouse after system boots up, the mouse does not work, If I attach it before the boot, it works perfectly on Lucid. I can actually see in the system logs that the mouse is detected. Any ideas?
+2010-06-12T21:07:00.000Z	edbian	droidmanic	That is exactly what is supposed to happen.
+2010-06-12T21:07:00.000Z	edbian	droidmanic	Linux probes all the hardware and loads modules for the HW it finds.  Everytime on boot.  It's actually quite impressive.
+2010-06-12T21:08:00.000Z	edbian	droidmanic	How does a mouse "not work" if it isn't even plugged into the computer?

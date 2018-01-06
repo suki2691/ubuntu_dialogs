@@ -1,0 +1,4 @@
+2006-03-10T14:56:00.000Z	kyevan		Can apt be told to get packages off the internet when they are on the CD?
+2006-03-10T14:57:00.000Z	LjL	kyevan	yeah just comment out the cd-rom line in your sources.list. or do you want something different?
+2006-03-10T14:57:00.000Z	kyevan	LjL	Nope, that's what I need. thanks!
+2006-03-10T14:58:00.000Z	LjL	kyevan	you'll want to "sudo apt-get update" afterwards

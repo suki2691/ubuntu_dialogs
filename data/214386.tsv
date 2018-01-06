@@ -1,0 +1,4 @@
+2006-07-05T10:04:00.000Z	Ares		Hello. I have, yet, another Terminal question which I don't understand from LinuxCommand. How do I go about giving everything in a directory r/w/e access to owner? Including all of its sub-directories and files? Would it be the recursive command? If so, I don't get how to use it. =( [Pleaase?] 
+2006-07-05T10:05:00.000Z	ljlolel	Ares	note, that gives everybody rwe access
+2006-07-05T10:05:00.000Z	ljlolel	Ares	to only give the owner rwe access, use 700
+2006-07-05T10:06:00.000Z	ljlolel	Ares	another tip, in case you forget and aren't connected to the internet,`man chmod` will give you  more innfo

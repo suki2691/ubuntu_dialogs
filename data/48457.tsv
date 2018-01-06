@@ -1,0 +1,4 @@
+2009-10-15T14:26:00.000Z	glick		how do i remove packages and all the packages that they depend on using apt?
+2009-10-15T14:28:00.000Z	glick		does anyone know to intelligently remove a package and all the packaes that were intalled when i installed it
+2009-10-15T14:28:00.000Z	glick		?
+2009-10-15T14:29:00.000Z	mo0nykit	glick	sudo apt-get purge <package>

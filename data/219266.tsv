@@ -1,0 +1,4 @@
+2009-09-11T05:25:00.000Z	djanatyn_		sorry about that
+2009-09-11T05:26:00.000Z	djanatyn_		leaf-green: I currently have WinXP and xubuntu dual booting using GRUB. Will simply deleting the xubuntu partition using the live CD cause WinXP to boot on default?
+2009-09-11T05:27:00.000Z	Flannel	djanatyn_	Probably not.  (It might though, under certain configurations, you likely aren't configured that way though))
+2009-09-11T05:29:00.000Z	Flannel	djanatyn_	You need to replace the windows bootloader (ideally).  You should ask in ##windows if there's any easy way to do that.  If there isn't, there's some more options we have (we can always use GRUB by itself, without a full linux install, that just requires some manual things)

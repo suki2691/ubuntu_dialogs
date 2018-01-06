@@ -1,0 +1,4 @@
+2007-08-27T07:26:00.000Z	Sau2		ok im telling my story from the beggining
+2007-08-27T07:26:00.000Z	Sau2		ia have 2 hd's
+2007-08-27T07:28:00.000Z	Sau2		master has an installation of windows and old data which i dont want any more. slave disk has xubuntu instaled and valueble data and time spent configurating. I want to format the master disk to ext3 so i can use it easily as storage unit. The problem is that the ntfs partition has a BOOT flag. I think there will be a problem if i just give format. Can some one give some advice on this??
+2007-08-27T07:28:00.000Z	Menth	Sau2	restart the machine, enter the bios, change the boot order to slave, remove master from the boot order, save and exit if the machine boots you should be ok to make sure you can removed the master drive this will just be like formating it

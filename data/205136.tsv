@@ -1,0 +1,4 @@
+2010-11-24T23:22:00.000Z	Daniel_Rollt		Can anyone lead me in the right direction of where to get help with the "No Screens Error" . I recently dual-booted Ubuntu with Windows 7 and its giving me headaches...
+2010-11-24T23:23:00.000Z	dli	Daniel_Rollt	what video card? lspci|grep VGA
+2010-11-24T23:27:00.000Z	dli	Daniel_Rollt	it should be supported auto. do you have problem startx?
+2010-11-24T23:28:00.000Z	dli	Daniel_Rollt	what about sudo X -configure

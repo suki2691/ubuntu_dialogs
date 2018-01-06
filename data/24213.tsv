@@ -1,0 +1,4 @@
+2012-09-03T17:22:00.000Z	smartmobili		ok : trying again to ask my question : it seems my /lib/init/upstart-job script is empty. Is is normal ?
+2012-09-03T17:23:00.000Z	smartmobili		so when I try something like /etc/init.d/vsftpd stop nothing happens (since vsftpd is just a link to upstart-job)
+2012-09-03T17:23:00.000Z	KM0201	smartmobili	try "sudo service vsftpd stop"
+2012-09-03T17:24:00.000Z	KM0201	smartmobili	although i think that command you listed should work as well... just make sure you're using "sudo" with it.

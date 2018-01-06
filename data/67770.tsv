@@ -1,0 +1,4 @@
+2009-01-30T08:21:00.000Z	mrpinky		hi, i accidentally removed my "admin" group membership, so i booted into recovery mode and root console, then i used "adduser nbingham admin" to get my admin back, and i check that it is correcly applied with "id nbingham". but when i restart, i have different group memberships (not including admin). any clues? :(
+2009-01-30T08:22:00.000Z	mrpinky		cmon i don't want to reinstall ubuntu just because i can't get my admin membership back :( please help me :)
+2009-01-30T08:24:00.000Z	zumz	mrpinky	live cd and edit it?
+2009-01-30T08:25:00.000Z	mrpinky	zumz	but edit what...? i checked my /etc/group and "admin:x:115:nbingham" is in there :( it just doesn't appear when i "id" myself :(

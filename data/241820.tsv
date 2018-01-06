@@ -1,0 +1,4 @@
+2006-01-14T16:53:00.000Z	dsonc		my problem with garnome2.13.4: cairosimple.o: In function `main':
+2006-01-14T16:53:00.000Z	dsonc		/home/dsonc/garnome-2.13.4/platform/pango/work/main.d/pango-1.11.1/examples/cair osimple.c:82: undefined reference to `cairo_surface_write_to_png'
+2006-01-14T16:54:00.000Z	dsonc		Thank you Seveas
+2006-01-14T16:55:00.000Z	ptlo	dsonc	you don't have png support compiled in in cairo - no problem, only that test example actually tries to *use it*, the rest of the system will work without it

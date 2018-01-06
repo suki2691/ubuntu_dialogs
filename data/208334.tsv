@@ -1,0 +1,4 @@
+2006-12-22T17:36:00.000Z	k_vv		hello...how can I install .deb package when i have it in /var/cache/apt/archives/ ?
+2006-12-22T17:37:00.000Z	k_vv		I try : apt-get --no-download --ignore-missing install <package_name>
+2006-12-22T17:37:00.000Z	k_vv		but nothing happends
+2006-12-22T17:38:00.000Z	frogzoo	k_vv	best to move it somewhere else, then dpkg -i

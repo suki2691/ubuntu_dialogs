@@ -1,0 +1,4 @@
+2006-07-31T08:39:00.000Z	roostishaw		how do i test if a command i ran in a python script was successful?
+2006-07-31T08:41:00.000Z	madewokherd	roostishaw	it depends on how you invoked it
+2006-07-31T08:41:00.000Z	madewokherd		if you have a process id, you can do os.wait
+2006-07-31T08:41:00.000Z	roostishaw	madewokherd	print "test"

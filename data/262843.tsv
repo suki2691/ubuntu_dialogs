@@ -1,0 +1,4 @@
+2006-03-16T14:05:00.000Z	zielony		Hello I have libstdc++6 package broken, and apt want to remove half of my system, what can I do, to repair it without deleting 1/2 of my system ?
+2006-03-16T14:05:00.000Z	bwlang	zielony	when you get a wedged apt-get system like that sometimes you can rescue it by installing the package manually (dpkg -i)
+2006-03-16T14:06:00.000Z	bwlang	zielony	if that's the broken package you could try that...
+2006-03-16T14:10:00.000Z	bwlang	zielony	that was easy - sometimes those problems are a real PITA

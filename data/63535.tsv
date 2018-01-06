@@ -1,0 +1,4 @@
+2010-04-13T09:58:00.000Z	skrite		anyone know how to change ubuntu to boot to a command line instead of gdm or X ?
+2010-04-13T09:58:00.000Z	swoody	skrite	sudo apt-get purge gdm && sudo apt-get install xinit xorg
+2010-04-13T09:59:00.000Z	swoody	skrite	you can still start your GUI with: startx after you login at the CLI
+2010-04-13T10:02:00.000Z	skrite	swoody	you too, thanks

@@ -1,0 +1,4 @@
+2012-01-27T12:15:00.000Z	silv3r_m00n		no the program terminates , in a terminal if I type sudo app , and then while the app is running if I Ctrl+X the terminal then sudo terminates and the app also terminates , but if I do a gksudo app , and do Ctrl+X then gksudo terminates but app continues to run , I guess a similar thing is happening when I try to launch the command from within another app
+2012-01-27T12:16:00.000Z	silv3r_m00n		how can I execute a command in the terminal , such that after launching the command , the terminal returns ?
+2012-01-27T12:16:00.000Z	aeon-ltd	silv3r_m00n	detaching the term, or backgrounding i think is what you're after
+2012-01-27T12:16:00.000Z	silv3r_m00n	aeon-ltd	yup

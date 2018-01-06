@@ -1,0 +1,4 @@
+2007-07-30T09:47:00.000Z	Wulfie_alien		hey folks - I am trying to mount quake4 disc 2 but for some reason however i mount it only root can read it - anyone have any thoughts?
+2007-07-30T09:49:00.000Z	DShepherd	Wulfie_alien	sudo mount -t iso9660 /dev/cdrom /place/you/want/to/mount -o umask=0022 #this might help
+2007-07-30T09:50:00.000Z	Wulfie_alien	DShepherd	that did not seem to help - the strange thing is disc 1 mounts just fine
+2007-07-30T09:51:00.000Z	DShepherd	Wulfie_alien	i dont know then..

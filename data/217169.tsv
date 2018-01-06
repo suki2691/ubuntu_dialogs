@@ -1,0 +1,4 @@
+2006-01-25T07:13:00.000Z	Gordy3		hey guys, I made some changes to my xorg.conf and stuffed it up. gdm is auto-loading on startup...how do i kill it as i need to get to terminal? thanks in advance
+2006-01-25T07:14:00.000Z	Gordy3		ohh before some one says ctrl+alt+backspace....no good. gdm launches afain....i even made a xorg backup...
+2006-01-25T07:15:00.000Z	_jason	Gordy3	you can get to a terminal with ctrl+alt+f1, you can kill gdm (if you still need to) with /etc/init.d/gdm stop, iirc
+2006-01-25T07:17:00.000Z	_jason	Gordy3	np

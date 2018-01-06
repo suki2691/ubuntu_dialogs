@@ -1,0 +1,4 @@
+2009-10-22T08:12:00.000Z	andresj		is ubuntu supposed to forward packats between two netowkr interfaces if the firewall is disabled?
+2009-10-22T08:13:00.000Z	lstarnes	andresj	it doesn't need a firewall for that
+2009-10-22T08:13:00.000Z	lstarnes	andresj	that uses the kernel's routing table
+2009-10-22T08:22:00.000Z	andresj	lstarnes	should I set a bridge interface? because it doesn't seem to be working with the firewall disabled (or enabled :P)

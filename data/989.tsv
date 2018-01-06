@@ -1,0 +1,4 @@
+2012-10-28T01:38:00.000Z	Bilange		i've come up with an oddity i can't figure the right search keywords to use on google: it seems that after some time (days) of sustained TCP connection to a server (say, ssh or VPN), my connection drops but also refuses to ping, or connect to any services for  that same host, until I reboot the PC. anyone has any clues (or known similar issues to mine)? Running 12.04 here
+2012-10-28T01:39:00.000Z	gimpy38	Bilange	What do logs say?  What does 'netstat -an' say when this happens?
+2012-10-28T01:40:00.000Z	Bilange	gimpy38	i just rebooted, since i needed SSH (which dropped) to get on my remote irssi client, sorry :X
+2012-10-28T01:40:00.000Z	Bilange	gimpy38	i'll definitely check that next time though

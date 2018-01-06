@@ -1,0 +1,4 @@
+2007-07-08T14:17:00.000Z	drafael		could someone help me get GRUB to point to /dev/sda3 instead of /dev/sda2 to boot linux [as I have moved the partition where ubuntu was installed] ? ;-;
+2007-07-08T14:19:00.000Z	drafael		ok, thanks - but how do I actually edit it if I can't get into ubuntu ? I have the livecd, and I tried mounting /dev/sda3 but it said it wasn't in the fstab/mtab... =/
+2007-07-08T14:19:00.000Z	drafael		yeah
+2007-07-08T14:20:00.000Z	Frogzoo	drafael	change groot in /boot/grub/menu.lst then run 'sudo grub-install'

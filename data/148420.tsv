@@ -1,0 +1,4 @@
+2007-10-30T23:47:00.000Z	Gizmo_the_Great		anyone know why, when I try to open more than one Bittorrent at a time using the standard Ubuntu BitTorrent app, I get the error : "Couldn't listen - (98, 'Address already in use)"
+2007-10-30T23:47:00.000Z	thoreauputic	Gizmo_the_Great	because the first instance is already listening on your bit torrent port
+2007-10-30T23:48:00.000Z	Gizmo_the_Great	thoreauputic	desertc thanks guys. Also found it here just after asking! http://ubuntuforums.org/showthread.php?p=2195260
+2007-10-30T23:51:00.000Z	Gizmo_the_Great	thoreauputic	desertc thanks guys. It has worked. U sed gconf-editor to increase the port range :-)

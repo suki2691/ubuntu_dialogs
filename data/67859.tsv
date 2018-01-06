@@ -1,0 +1,4 @@
+2009-02-08T00:32:00.000Z	mustangg		does anacron poll for changes to anacrontab? or must it be restarted...?
+2009-02-08T00:32:00.000Z	ikonia	mustangg	real time changes
+2009-02-08T00:35:00.000Z	mustangg	ikonia	- thanks. And might you know how I can check if job/jobs listed there are running?
+2009-02-08T00:36:00.000Z	ikonia	mustangg	not sure if there is an interface into anacron but you can look in /etc/jobs.daily jobs.weekly jobs.monthly to see what gets run

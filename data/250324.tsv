@@ -1,0 +1,4 @@
+2005-09-24T07:00:00.000Z	zburns		getting an error compiling MPlayer under Breezy - can anybody help moi?
+2005-09-24T07:02:00.000Z	apokryphos	zburns	you have to enable the Multiverse repository
+2005-09-24T07:02:00.000Z	zburns	khermans	ah, let me check multiverse
+2005-09-24T07:03:00.000Z	apokryphos	zburns	add "multiverse" to any line that has "universe", then sudo apt-get update && sudo aptitude install mplayer-386

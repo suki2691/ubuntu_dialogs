@@ -1,0 +1,4 @@
+2011-07-07T19:50:00.000Z	mangomake		hi, im running ubuntu on joggler - it is a low powered embedded platform - i've installed xfce and trying to get rid of gnome - its too heavy  - but for some reason whenever i try to remove aload of the gnome stuff synaptic insist on installing KDE !!! why? how do i stop it??
+2011-07-07T19:51:00.000Z	ChogyDan	mangomake	how did you install xfce?
+2011-07-07T19:51:00.000Z	mangomake	ChogyDan	apt-get install xfce4
+2011-07-07T19:53:00.000Z	ChogyDan	mangomake	it is probably doing dependency resolution, you are probably still using gnome packages and it is trying to replace needed depends with kde stuff.  I think it would be better to install all the xfce stuff by installing either xubuntu-desktop or xubuntu-desktop^

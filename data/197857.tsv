@@ -1,0 +1,4 @@
+2006-05-13T16:31:00.000Z	Ummmmm		Hi. Filesystem mounting question. I have a second hard drive, vfat filesys, it doesn't want to mount at boot time and I need to use Disk Manager to remount it each boot. I think the problem is my mount point - /mnt/media is a directory owned by root with attribs rwxr-xr-x .... is this right? fstab looks right to me
+2006-05-13T16:31:00.000Z	Ummmmm		when I mount the drive using Disk Manager, the partition is read only :(
+2006-05-13T16:33:00.000Z	Agent_bob	Ummmmm	do mount       and show us the ONE line that lists that partition.
+2006-05-13T16:38:00.000Z	Agent_bob	Ummmmm	add umask.

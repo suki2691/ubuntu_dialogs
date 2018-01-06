@@ -1,0 +1,4 @@
+2005-12-17T09:31:00.000Z	basti		is it safe to delete files in /var/log ?
+2005-12-17T09:32:00.000Z	intelikey	basti	files yes  dirs no.
+2005-12-17T09:32:00.000Z	basti	intelikey	 hmm ok :(
+2005-12-17T09:34:00.000Z	intelikey	basti	if you did blank /var/log  and things start erroring out on you watch the error messages for 'can not write to or creat <blah>'   and make the dirs in /var/log that it is trying to make files in.

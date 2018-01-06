@@ -1,0 +1,4 @@
+2005-03-23T08:38:00.000Z	blizah		is it ok in ubuntu to download the ati drivers and install them in warty?  (not going through synaptic)
+2005-03-23T08:40:00.000Z	JDahl	blizah	it's generally better to use the package manager. Otherwise you break automatic updates and configuration
+2005-03-23T08:48:00.000Z	JDahl	blizah	you can update your sources.list with the hoary repository, and install specific packages from hoary by writing something like "apt-get install xxx:hoary" (I dont remember the details, though, so I may be wrong). maybe read the apt-get man-page?
+2005-03-23T08:48:00.000Z	JDahl	blizah	but I wouldnt mix hoary and warty... escpecially since Hoary will be released soon

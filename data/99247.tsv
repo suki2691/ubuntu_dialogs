@@ -1,0 +1,4 @@
+2008-02-24T20:30:00.000Z	osotogari		hi im looking for a little help with my xorg.conf file please. ubuntu wont display at a resolution i wasnt it to
+2008-02-24T20:31:00.000Z	osotogari		how do i find out what graphics card i have installed?
+2008-02-24T20:32:00.000Z	gangadjinn	osotogari	check the dmesg??
+2008-02-24T20:34:00.000Z	gangadjinn	osotogari	terminal sudo dmesg | grep AGP could reveal your video

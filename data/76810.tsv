@@ -1,0 +1,4 @@
+2009-02-02T05:30:00.000Z	Krstnsn		ok so why does gnome do website tell me to put "deb http://ppa.launchpad.net/do-core/ppa/ubuntu intrepid main" into the terminal, but i get a return that "deb" isnt a command
+2009-02-02T05:30:00.000Z	Krstnsn		wtf
+2009-02-02T05:30:00.000Z	jken146	Krstnsn	you put that in /etc/apt/sources.list not the terminal
+2009-02-02T05:32:00.000Z	jken146	Krstnsn	type: sudo gedit /etc/apt/sources.list and copy-paste that line at the bottom of the file

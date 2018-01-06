@@ -1,0 +1,4 @@
+2011-05-02T20:23:00.000Z	nick87720z		Just tried update-initramfs -u -k all, and got line: "grep: /boot/config-2.6.32-26-generic: No such file or directory". Usually i remove old kernels, for now i have 2.6.32-31 for generic and preempt. Of course, initramfs file is created. I removed item in /lib/modules, but it is helpless. I have nothing installed with version 2.6.32-26*
+2011-05-02T20:23:00.000Z	nick87720z		Can't find help in web search
+2011-05-02T20:25:00.000Z	sipior	nick87720z	why not simply omit the "-k all" switch?
+2011-05-02T20:27:00.000Z	nick87720z	sipior	it just seems, that something gone wrong for that version. I would like to find source. As for me it is not blocking thing

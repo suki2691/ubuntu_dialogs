@@ -1,0 +1,4 @@
+2007-04-12T08:37:00.000Z	tommus		How do i add windows to my grub? Windows is on Sda3.
+2007-04-12T08:38:00.000Z	tommus		How do i add windows to my grub? Windows is on Sda3.
+2007-04-12T08:39:00.000Z	dyrne	tommus	sudo gedit /boot/grub/menu.lst   there is an example windows entry # commented out. copy that to bottom of file and change the partition info
+2007-04-12T08:44:00.000Z	dyrne	tommus	just sudo fdisk -l

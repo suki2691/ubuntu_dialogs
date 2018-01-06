@@ -1,0 +1,4 @@
+2009-03-10T16:43:00.000Z	alphakamp		I got the tzdate update yesterday, it corrected DST, but today the time is off by an hr and a half (ubuntu server 8.04) anyone else exp this?
+2009-03-10T16:45:00.000Z	Pici	alphakamp	I believe  so
+2009-03-10T16:44:00.000Z	Pici	alphakamp	That tzdata update was actually from about a week ago, likely your server is not set to the correct timezone.
+2009-03-10T16:45:00.000Z	alphakamp	Pici	dpk-reconfigure tzdata? should do it?

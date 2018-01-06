@@ -1,0 +1,4 @@
+2012-03-28T01:25:00.000Z	[Si]	gnuskool	does the router know how to route back?
+2012-03-28T01:26:00.000Z	[Si]	gnuskool	that's why it won't respond to ping it doesn't know how to get back to 192.168.1.0/24
+2012-03-28T01:36:00.000Z	[Si]	gnuskool	for what you want to do you'll need the wireless clients to use ETH1s ip as their gateway, you need ip forwarding enabled on the linux box, and you need a route on the external router back to 192.168.1.0/24 via eth0s IP
+2012-03-28T01:42:00.000Z	[Si]	gnuskool	good luck :)

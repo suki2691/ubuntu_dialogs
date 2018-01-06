@@ -1,0 +1,4 @@
+2008-11-02T09:00:00.000Z	ffej2ffej		Why is my UBUNTU server giving me a "Permission denied" message?  I am the administrator of the machine, I put most everything on there, and all of a sudden, everything I try to send returns that error message!
+2008-11-02T09:01:00.000Z	ffej2ffej		Invalid command
+2008-11-02T09:01:00.000Z	ffej2ffej		BTW, I'm trying to send stuff via FTP.  I'm using the ftp client on my Macbook and vsftpd on the UBUNTU server.
+2008-11-02T09:01:00.000Z	billygalbreath	ffej2ffej	your regular username is not root - you must type sudo before a command in order to get root privledges - if you want to login as root then use su but before running that for the first time you must set a root password by running sudo passwd but the best practice is to never use su and instead use sudo

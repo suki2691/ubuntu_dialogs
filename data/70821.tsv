@@ -1,0 +1,4 @@
+2008-12-27T06:07:00.000Z	hashbrowns		hey does anyone know if there is a way to force the wubi installer to use 150GB of space instead of just 30GB?
+2008-12-27T06:08:00.000Z	white-sheep	hashbrowns	Why don't you install Ubuntu on it? ;)
+2008-12-27T06:10:00.000Z	hashbrowns	white-sheep	well the wubi installer makes a file inside of windows to use instead of having a regular partiiton.  I chose to do it this way cause nobody could help me with my dualbooting problems but I could get it to install/dualboot correctly via wubi but there is a 30GB cap in the drop down box during the install process.  Do you know how to change/override this value?
+2008-12-27T06:15:00.000Z	white-sheep	hashbrowns	Check this guide out -- Look for resize virtual disk -- https://wiki.ubuntu.com/WubiGuide

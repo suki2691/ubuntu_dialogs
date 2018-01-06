@@ -1,0 +1,4 @@
+2012-04-24T09:50:00.000Z	blendedbychris		I have precise running and for some reason when i do apt-get install nginx or nginx-full it says the package doesn't exist… it worked on 32bit but not 64bit for me… ideas?
+2012-04-24T09:50:00.000Z	blendedbychris		E: Unable to locate package nginx-full
+2012-04-24T09:51:00.000Z	Striking7	blendedbychris	they may not have a port or a maintainer for the 64-bit version. I'm not sure. Try "apt-cache search ngin" and see if it finds anything
+2012-04-24T09:52:00.000Z	blendedbychris	Striking7	looking at http://packages.ubuntu.com/precise/nginx-full it has an amd64 version?

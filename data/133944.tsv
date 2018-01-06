@@ -1,0 +1,4 @@
+2007-05-28T14:07:00.000Z	irishman2020		oi... so I've got myself stuck now.  I've tried installing the nvidia graphics restricted driver, and it crashes xorg,. I've tried installing the binaries from Nvidia's site, but they wont install (says x is running, so I reboot in terminal and then it asks me to be in run lvl 3, which brings me back to x)
+2007-05-28T14:08:00.000Z	erUSUL	irishman2020	'sudo /etc/init.d/gdm stop' to install nvidia.com *run package
+2007-05-28T14:08:00.000Z	erUSUL	irishman2020	but the packages from the repo shouldn't crash X
+2007-05-28T14:09:00.000Z	irishman2020	erUSUL	the repo package crashes x every time

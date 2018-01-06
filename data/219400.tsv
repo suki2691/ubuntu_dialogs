@@ -1,0 +1,4 @@
+2007-10-13T14:32:00.000Z	asenec4		:FallenHilokiri  I tried using passwd, all it does is offer to type in a new password.???
+2007-10-13T14:34:00.000Z	asenec4		:mmkassem I changed the home directory of my administrator account by error with the gnome menu now I can't login with that account. Luckily I have another user account and would like to reset  the administrators home directory through the command line
+2007-10-13T14:35:00.000Z	Flannel	asenec4	use 'usermod' to re-set the homedir
+2007-10-13T14:36:00.000Z	Flannel	asenec4	At a command line.  usermod -d /path/to/homedir user

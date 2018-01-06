@@ -1,0 +1,4 @@
+2006-09-10T05:36:00.000Z	hikenboot		hello all --there is a package called ubuntu-desktop...it says its unnecessary but removing it will prevent packages from being installed....is this correct?
+2006-09-10T05:37:00.000Z	baconbacon	hikenboot	yes, ubuntu-desktop is a meta-package, it only provides dependencies
+2006-09-10T05:39:00.000Z	baconbacon	hikenboot	problems can arise when you upgrade to edgy
+2006-09-10T05:40:00.000Z	baconbacon	hikenboot	as :  you wont get new packages which are "guaranteed" to be installed because ubuntu-desktop depends on them (like ... i dont know... xgl maybe)

@@ -1,0 +1,4 @@
+2008-12-25T03:46:00.000Z	onetinsoldier	cdavis	i don't know much about dovecot, but is the script in /etc/init.d there?   ls /etc/init.d/dovecot
+2008-12-25T03:47:00.000Z	onetinsoldier	cdavis	ok. i see you got it
+2008-12-25T03:48:00.000Z	cdavis	nickrud	yes it is there, that means it failed to start for some reason, I will check my logs. thanks
+2008-12-25T03:49:00.000Z	onetinsoldier	cdavis	the 'update-rc.d' command might help you out. look at the man page for it

@@ -1,0 +1,4 @@
+2011-04-18T01:31:00.000Z	zerd_		Hi,  I'm trying to mount an ext3-formatted usb drive which I usually serve through samba. When I mount it directly to my laptop the special characters (umlauts) in filenames become question marks and the kde complains it can't find the file (although it is there). Anyone know how to resolve this issue?
+2011-04-18T01:31:00.000Z	zerd_		my smb.conf charset parameters are: unix charset = CP850 and dos charset = CP850; it would seem ubuntu uses utf8 by default, so this might be the problem?
+2011-04-18T01:33:00.000Z	DrArkaneX	zerd_	http://ubuntuforums.org/archive/index.php/t-1259776.html
+2011-04-18T01:34:00.000Z	zerd_	DrArkaneX	many thanks, precisely what I needed!

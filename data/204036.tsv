@@ -1,0 +1,4 @@
+2011-10-24T16:13:00.000Z	rhin0		I am in "recoverty console" shows user is root ... but cannot touch anything "read only file system" I can get nano editor up I need to repair a file --- how do I get to write it?
+2011-10-24T16:13:00.000Z	rhin0		I wrecked my system accidentally
+2011-10-24T16:13:00.000Z	tomodachi	rhin0	if its mounted read only its because it's corrupted. Did it try to repair the filesystem with fschk?
+2011-10-24T16:14:00.000Z	tomodachi	rhin0	you can use remount it with rw permissions. But its best to know what you are doing at this point. How important is your data?

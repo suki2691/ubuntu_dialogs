@@ -1,0 +1,4 @@
+2006-11-11T08:37:00.000Z	daxxar		Hm. Upstart seems to run things in paralell, is that correct? Can I stop it?
+2006-11-11T08:38:00.000Z	daxxar		After I upgraded from Dapper to Edgy, X doesn't work. I do 'startx', and it says "xauth: creating new authority file ..", then waits almost a minute, and says "xinit: connection refused (errno 111): unable to connect to X server", "xinit: No such process (errno 3): Server error".
+2006-11-11T08:38:00.000Z	daxxar		Any suggestions as to what I should look at, or what could be wrong?
+2006-11-11T08:39:00.000Z	roryy	daxxar	maybe the auth file (~/.ICEauthority, I think) has funny ownership or permissions

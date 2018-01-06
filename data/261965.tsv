@@ -1,0 +1,4 @@
+2005-05-26T08:29:00.000Z	tng_hayden		is it possible to make a .deb from a .rpm, if so how/
+2005-05-26T08:29:00.000Z	Seveas	tng_hayden	yes, with alien
+2005-05-26T09:18:00.000Z	Seveas	tng_hayden	dpkg -l
+2005-05-26T09:19:00.000Z	Seveas	tng_hayden	dpkg --get-selections gives vomplete names but without version numbers

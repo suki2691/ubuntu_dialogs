@@ -1,0 +1,4 @@
+2007-09-25T07:56:00.000Z	rodg		I have two internet connections in separate locations. One is a comcast connection and the other is a wireless connection that is not routable, 10.x....
+2007-09-25T07:56:00.000Z	rodg		I know some of those "gotomypc" programs don't require any ports to be forwarded. Is there any way to tunnel back through say an ssh connection to access my computer that is not routable?
+2007-09-25T07:56:00.000Z	JeremyToo	rodg	ssh -R
+2007-09-25T07:56:00.000Z	JeremyToo	rodg	for remote port forwarding

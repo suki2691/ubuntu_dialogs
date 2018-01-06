@@ -1,0 +1,4 @@
+2010-02-12T19:40:00.000Z	dwessell		Running Ubuntu server. I have apache pointing to /var/www/eachdomain. How can I give individual users access to /var/www/specific domain so that they can ftp in and write files?
+2010-02-12T19:42:00.000Z	netman1	dwessell	does "chown username /var/www/specific " help?
+2010-02-12T19:43:00.000Z	dwessell	netman1	Wouldn't that screw up apache, as var/www needs to be owned by www:data?
+2010-02-12T19:44:00.000Z	netman1	dwessell	yes, unless you make www member of a group that has write permissions on all directories.

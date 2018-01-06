@@ -1,0 +1,4 @@
+2006-03-08T14:05:00.000Z	jdl		FATAL: Error inserting nvidia (/lib/modules/2.6.12-10-686/volatile/nvidia.ko): No such device
+2006-03-08T14:05:00.000Z	jdl		Which /dev is it really looking for?
+2006-03-08T14:05:00.000Z	jdl		I've got a bunch of /dev/nvidia<n> and nvidiactl
+2006-03-08T14:07:00.000Z	trappist	jdl	if you've got those, maybe you already have the driver loaded? lsmod | grep nvidia

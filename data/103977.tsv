@@ -1,0 +1,4 @@
+2011-02-16T23:54:00.000Z	fbsrosa		Please, may someone help on how to change my "computer name"
+2011-02-16T23:55:00.000Z	fbsrosa		I installed with the default offered name and is too long on command
+2011-02-16T23:56:00.000Z	ActionParsnip	fbsrosa	run:  gksudo gedit /etc/hostname    then run: gksudo gedit /etc/hosts     so BOTH files are open, then change the hostname file and then all the occurences in the osts file, make them EXACTLY the same, save the new files and reboot
+2011-02-17T00:14:00.000Z	ActionParsnip	fbsrosa	try  /quit

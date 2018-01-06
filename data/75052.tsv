@@ -1,0 +1,4 @@
+2009-04-18T05:07:00.000Z	MarkJones		If i install a deb for a program and then later decide i dont want that app so I go into synaptic package manager and remove the package.How do i get rid of all the programs dependencies that were installed, if I know there not needed by anything else? Do you have to go and uninstall them all by hand or is there a faster way?
+2009-04-18T05:09:00.000Z	zsquareplusc	MarkJones	like apt-get autoremove ? :-)
+2009-04-18T05:11:00.000Z	MarkJones	zsquareplusc	it didnt remove anything from the looks of it.
+2009-04-18T05:14:00.000Z	zsquareplusc	MarkJones	maybe the packages are now used by other software you also installed? alternatively deborphan might help

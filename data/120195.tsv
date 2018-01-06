@@ -1,0 +1,4 @@
+2008-06-27T12:25:00.000Z	Hercules		this is weird
+2008-06-27T12:25:00.000Z	Hercules		it still says it couldnt find package, but i installed it on the live version, now its installed onto the hdd, what is wrong?
+2008-06-27T12:26:00.000Z	bazhang	Hercules	installing it on the live version will be lost once you reboot
+2008-06-27T12:34:00.000Z	bazhang	Hercules	cat /etc/apt/sources.list and take a look if there are # marks in front of it

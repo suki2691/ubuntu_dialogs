@@ -1,0 +1,4 @@
+2006-05-02T05:27:00.000Z	CrashProne		So umm... I have a stuck setup thing in apt-get, and no matter how long I leave it running, it won't finish, and if I cancel it, it tries to do it again (unsuccessfully) with dpkg --configure -a ... How do I make it give up installing a package?
+2006-05-02T05:28:00.000Z	kingspawn	CrashProne	kill the process :)
+2006-05-02T05:28:00.000Z	CrashProne	kingspawn	apt-get just retries to finish it, and refuses to work until it finishes which it won't.
+2006-05-02T05:29:00.000Z	kingspawn	CrashProne	apt-get wont retry if you kill it good

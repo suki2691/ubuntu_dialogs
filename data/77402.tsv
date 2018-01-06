@@ -1,0 +1,4 @@
+2008-10-27T09:09:00.000Z	dgandhi		Is there any way to block an apt-get depenancy, specifically I want to install links2 on a console only system, but links2 has a dependency to an X11 library which depends on X, so installing links2 installs a full X-windows system, any way around this?
+2008-10-27T09:09:00.000Z	maco	dgandhi	you can get the deb then in dpkg there's a flag to force it and ignore the dependencies
+2008-10-27T09:10:00.000Z	dgandhi	maco	so I have to go manually download packages and then use dpkg?
+2008-10-27T09:10:00.000Z	maco	dgandhi	yeah

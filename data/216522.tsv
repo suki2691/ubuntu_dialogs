@@ -1,0 +1,4 @@
+2008-12-24T02:50:00.000Z	patrik		HI, just tried to install some software with Synaptic and It tells me the software is not authenticated. Do I need to worry? The software should be in the standard repositories.
+2008-12-24T02:51:00.000Z	ardchoille	patrik	have you added 3rd party repos?
+2008-12-24T02:52:00.000Z	ardchoille	patrik	 sudo apt-get install medibuntu-keyring
+2008-12-24T02:52:00.000Z	ardchoille	patrik	and that should be the last time you see that unauthenticated message

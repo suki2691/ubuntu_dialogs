@@ -1,0 +1,4 @@
+2008-05-17T20:33:00.000Z	saltedlight		hi. i have a problem with inkscape on ubuntu 8.04. after i have instaled it with add/remove, like usual, it was started only once by another user on this system. now the problem is that _no one_ can start inkscape again on this system, even with root privileges (had to try to be sure). what may be the reason? any sugestions to get it working? please...
+2008-05-17T20:34:00.000Z	amrik	saltedlight	can you type ls -al `which inkscape`
+2008-05-17T20:36:00.000Z	saltedlight	amrik	-rwxr-xr-x 1 root root 8234216 2008-04-08 00:42 /usr/bin/inkscape
+2008-05-17T20:39:00.000Z	amrik	saltedlight	try running strace inkscape and see if anything tell-tale shows up; also check the directory that inkscape is installed in (usually /usr/share/inkscape) and make sure it has the right permissions. Also you can try moving your ~/.inkscape  settings folder to ~/.inkscape.backup to see if that is the problem

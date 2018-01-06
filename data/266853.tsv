@@ -1,0 +1,4 @@
+2010-05-31T14:09:00.000Z	zeer		I want to shutdown the PC with a normal user. I have put this line into visudo 'zeer        ALL=NOPASSWD:/sbin/shutdown -h now', but he says only root can do that or if I place sudo before, he wants the root pw.
+2010-05-31T14:10:00.000Z	Dr_Willis	zeer	 sudo normally wants the users password.
+2010-05-31T14:10:00.000Z	Dr_Willis	zeer	 as a cheap/dirty way to get  where any user can 'shutdown' you can set the 'suid' bit on the shutdown binary. (a very bad security practice) :)
+2010-05-31T14:12:00.000Z	Dr_Willis	zeer	 you seem to have the options In the  sudoers file. thats not correct. :)

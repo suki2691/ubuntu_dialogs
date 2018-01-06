@@ -1,0 +1,4 @@
+2006-08-14T08:18:00.000Z	NickVolt		anyone know the format for the interfaces file to get the machine to listen on multiple ips?
+2006-08-14T08:19:00.000Z	erUSUL	NickVolt	use eth0:1...n as iface names iirc
+2006-08-14T08:22:00.000Z	NickVolt	erUSUL	so in my interfaces file just add line eth0:X static..... address....?
+2006-08-14T08:22:00.000Z	erUSUL	NickVolt	i'm not really sure but afaik that's the way

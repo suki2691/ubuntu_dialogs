@@ -1,0 +1,4 @@
+2006-03-31T16:51:00.000Z	nlogax	tobi-wan	shouldn't dpkg-reconfigure xserver-xorg allow him to choose driver?
+2006-03-31T16:52:00.000Z	nlogax	tobi-wan	- hmm, there's a way to get it to prompt
+2006-03-31T16:56:00.000Z	nlogax	tobi-wan	- might pay to confirm that the nvidia drivers were installed from pkg, not by d/l from Nivida site
+2006-03-31T16:57:00.000Z	nlogax	tobi-wan	or simply grep 'EE' /var/log/Xorg.0.log

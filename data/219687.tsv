@@ -1,0 +1,4 @@
+2008-06-14T04:34:00.000Z	esj1234		I need to upgrade an hp proliant server from 7.04 to 8.04.  problem is that 7.10 didn't support the raid controller so going from 7.04 -> 7.10 -> 8.04 is a bit problematic.  is my only option scrubbing the disk and starting over?
+2008-06-14T04:36:00.000Z	Flannel	esj1234	If you'd like to try 7.04 straight to 8.04, realising its unsupported, you could try it.  Its a server, so assuming you have ubuntu-minimal, ubuntu-standard, and your kernel metapackage installed, there's a good chance that it'll work relatively issue free
+2008-06-14T04:36:00.000Z	Flannel	esj1234	Also any metapackages for whatever server software you have (the 'apache2' package, for instance)
+2008-06-14T04:38:00.000Z	Flannel	esj1234	You mean the upgrade path?  I think you've got a good shot at it working

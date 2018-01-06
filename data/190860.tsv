@@ -1,0 +1,4 @@
+2010-01-22T23:04:00.000Z	Ziber		A box that I have has 22mb free of physical RAM, but has ~2G of swap. if physical RAM runs out, will I notice?
+2010-01-22T23:05:00.000Z	Ziber		noticably slower?
+2010-01-22T23:05:00.000Z	Ziber		okay.
+2010-01-22T23:05:00.000Z	muep__	Ziber	often Linux uses all the available RAM for caching the hard disks, to make file reads faster. It can instantly free this cache memory for applications, though, when the require it

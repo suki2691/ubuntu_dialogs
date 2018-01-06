@@ -1,0 +1,4 @@
+2011-07-23T03:41:00.000Z	ciss		how can i get upstart to log to a file during boot?
+2011-07-23T03:42:00.000Z	dougsko	ciss	http://upstart.ubuntu.com/wiki/Debugging
+2011-07-23T03:46:00.000Z	dougsko	ciss	the link i gave you shows how to do exactly that. the short answer is you add --verbose to your kernel options where upstart is called
+2011-07-23T03:53:00.000Z	ciss	dougsko	did that already, but the messages were flashing by. i'm currently trying the init=/bin/bash strategy to debug my boot problems

@@ -1,0 +1,4 @@
+2009-12-30T22:29:00.000Z	erUSUL	gmachine_24	find / -type f -size +100M -printf "%k\t%p\n" | sort -rn | head -n25
+2009-12-30T22:29:00.000Z	erUSUL	gmachine_24	that will give you the 25 bigger files from the list of the ones greater than 100M
+2009-12-30T22:30:00.000Z	erUSUL	gmachine_24	you can remove -size +100M if you want to chack all files
+2009-12-30T22:30:00.000Z	erUSUL	gmachine_24	but it will take a while

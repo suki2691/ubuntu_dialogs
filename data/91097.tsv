@@ -1,0 +1,4 @@
+2008-11-30T02:10:00.000Z	makario		Hey. How can I assign an alias to a host? I want to say ssh hostname instead of ssh 192.168.1.14
+2008-11-30T02:11:00.000Z	gnutron	makario	/etc/hosts  add line 192.168.1.14 hostname   ...ought work
+2008-11-30T02:12:00.000Z	makario	gnutron	zsquareplusc: Thanks. Now, what if I want the same host to have two IP's? (One on a local network, and one using an external IP?)
+2008-11-30T02:14:00.000Z	gnutron	makario	two nics and some fancy iptables rules. possibly other ways. try googling that.

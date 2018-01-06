@@ -1,0 +1,4 @@
+2011-06-22T10:51:00.000Z	op_amp		when I am trying to run output file of cpp source code I am getting bash: ./a.out: Permission denied error. I have set the permission of *.cpp file by using chmod a+x filename.cpp
+2011-06-22T10:51:00.000Z	op_amp		The cpp file is in another drive, ntfs partition.
+2011-06-22T10:53:00.000Z	wildbat	op_amp	cpp is't the executable file , you need to change a.out. but it is ntfs ~ you can't use chmod ~ remount it with executable mask or cp to /home then chmod and run it
+2011-06-22T11:11:00.000Z	op_amp	wildbat	not sure where should I add it. Can you please see my edited fstab file http://paste.ubuntu.com/630670

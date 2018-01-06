@@ -1,0 +1,4 @@
+2012-09-20T01:51:00.000Z	jilebedev		test
+2012-09-20T01:52:00.000Z	jilebedev		Hello: `parted -l` lists my hard drive as /dev/sdb and its filesystem type as ext2. When I try to `sudo mount /dev/sdb /media/foobar` I get a "wrong file system type" error?
+2012-09-20T01:53:00.000Z	dr_willis	jilebedev	you sure its /dev/sdb and not /dev/sdb1 or some other # ?
+2012-10-18T20:18:00.000Z	dr_willis	jilebedev	 mount command in rc.local or an autofs service

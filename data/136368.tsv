@@ -1,0 +1,4 @@
+2007-05-01T10:06:00.000Z	demonspork		How do I increase the available resolutions in the resolution switcher?
+2007-05-01T10:08:00.000Z	kenthomson	demonspork	sudo dkpg-reconfigure xserver-xorg, and select most of the defaults but in the monitor section go to Advanced and manually key in your Horizontal and Vertical frequency ranges (check on google or your monitor manual) and maybe that should do the trick or you are in for some research
+2007-05-01T10:11:00.000Z	demonspork	kenthomson	Did you mistype anything in that because it is saying that it can't find the dkpg-reconfigure command
+2007-05-01T10:13:00.000Z	kenthomson	demonspork	sudo dpkg reconfigure-xserver xorg

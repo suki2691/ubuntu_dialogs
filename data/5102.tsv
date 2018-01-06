@@ -1,0 +1,4 @@
+2012-07-31T22:14:00.000Z	Jon--		Attempting to use a generic Linux Makefile to install some src code. The file is here http://pastie.org/private/foeipcsyatq81qcahqpsa  my issue is that I do not have a 'build' sub-dir in /lib/modules/*kernelver*/ is this because the Makefile is incorrect for Ubuntu, or because there is something lacking from my system?
+2012-07-31T22:15:00.000Z	toafan	Jon--	doesn't answer your question, but why not just make one?  (I may be missing something)
+2012-07-31T22:17:00.000Z	Jon--	toafan	the Makefile expects to load things from there doesn't it? Maybe I misunderstood
+2012-07-31T22:18:00.000Z	toafan	Jon--	ah, that would do it.  so I'm clueless there.  Sorry :/

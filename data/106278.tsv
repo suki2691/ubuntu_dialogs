@@ -1,0 +1,4 @@
+2009-01-04T08:52:00.000Z	codeshah		hey guys, how do I check where a package installed all its files? i.e. I am trying to see java6 installation files
+2009-01-04T08:54:00.000Z	codeshah		hey guys, how do I check where a package installed all its files? i.e. I am trying to see java6 installation files
+2009-01-04T08:55:00.000Z	zionpsyfer	codeshah	dpkg -l <PACKAGE NAME>
+2009-01-04T08:56:00.000Z	zionpsyfer	codeshah	scratch that, it's dpkg -L

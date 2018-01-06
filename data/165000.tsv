@@ -1,0 +1,4 @@
+2012-02-24T16:53:00.000Z	Zoffix		Hey. Does google have some kind of spyware in Ubuntu? Weird question, but I just noticed 4kb/s going up, not knowing what it was. I ran `netstat -tunawep` and there were a bunch of `sh` processes apparently connected to 74.125.226.88 and other IP addresses, all owned by Google (according to whois, at least). I killed all those, and I even restarted my network, but I still get a bunch of entries to google with "LAST_ACK" as status. I closed my browser an
+2012-02-24T16:53:00.000Z	Zoffix		d I have no idea where else these could be coming from.
+2012-02-24T16:54:00.000Z	fidel	Zoffix	just a wild guess: i.e. gnome 3s sys-prefs allow you to define a google account
+2012-02-24T16:56:00.000Z	Zoffix	fidel	I'm using gnome 2.30.2, and I don't remember seting any google accounts anywhere.

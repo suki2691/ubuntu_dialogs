@@ -1,0 +1,4 @@
+2007-09-03T16:37:00.000Z	stormfrog		Where do I configure apach2/mod_rewrite under Ubuntu? Anyone knows this? its driving me mad.
+2007-09-03T16:37:00.000Z	cafuego	stormfrog	sudo a2enmod rewrite; then add rules in either the host definition (/etc/apache2/hosts-available) on .htaccess files.
+2007-09-03T16:38:00.000Z	cafuego		s/on/or/
+2007-09-03T16:39:00.000Z	stormfrog	cafuego	Thanks a bunch!

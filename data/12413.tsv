@@ -1,0 +1,4 @@
+2012-04-13T21:16:00.000Z	wad		I need to run a command when I shutdown my machine. Is there a way to set up a shellscript that will be run when I press the power button? I've got my laptop configured so that pressing the power button shuts down.
+2012-04-13T21:17:00.000Z	wad		(I've got a headless VirtualBox linux image that sometimes runs, and I'd like it to cleanly exit when I tell my laptop to power down.)
+2012-04-13T21:17:00.000Z	zykotick9	wad	MAN i wish VBox had better integration for that!
+2012-04-13T21:18:00.000Z	wad	zykotick9	yeah. I've got a little script that I run, "vmoff", that just ssh's in and does "sudo init 0". I figure I can just run that, sleep for a few seconds, and it will be good.

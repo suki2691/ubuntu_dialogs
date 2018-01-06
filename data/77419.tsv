@@ -1,0 +1,4 @@
+2009-12-16T20:18:00.000Z	c0p3rn1c		pff I'm having trouble mounting my usb disk with root:root rights, I need it to make a chroot jail there :s
+2009-12-16T20:18:00.000Z	c0p3rn1c		I expected that the following command would mount the dir with root permissions, but it's still my default user: sudo mkdir /media/USBHDD;sudo chown root:root /media/USBHDD;sudo mount /dev/sdb1 /media/USBHDD -o uid=root,gid=root
+2009-12-16T20:19:00.000Z	llutz	c0p3rn1c	what filesystem?
+2009-12-16T20:19:00.000Z	c0p3rn1c	llutz	ntfs

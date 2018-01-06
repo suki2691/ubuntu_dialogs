@@ -1,0 +1,4 @@
+2011-11-22T01:37:00.000Z	Varazir		I have removed grub from my system ( PXE booting) used the purge command but still dose a dist-upgrade install it
+2011-11-22T01:38:00.000Z	zykotick9	Varazir	grub is going to be installed as part of the ubuntu-desktop metapackage i'm sure - thus it'll always want to be installed when you do updates/upgrades
+2011-11-22T01:39:00.000Z	Varazir	zykotick9	I guess the same with server installation, but I don't want grub as it can't be confed when you PXE boot
+2011-11-22T01:40:00.000Z	zykotick9	Varazir	it's in SOME metapackage for sure ;)

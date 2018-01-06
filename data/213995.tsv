@@ -1,0 +1,4 @@
+2010-05-09T14:13:00.000Z	kawa		hi, just put xubuntu 10 on a IBM X31 and wanna know if the wifi card could be easily configured?
+2010-05-09T14:15:00.000Z	airtonix	kawa	wifi cards are not identified by their box name. you need to provide outputs of lspci, lsusb, lshw -c | grep Network to pastebin
+2010-05-09T14:17:00.000Z	airtonix	kawa	give output of : lspci -nn | grep Network
+2010-05-09T14:19:00.000Z	airtonix	kawa	that number combo at the end there is how you wifi card is indentified.

@@ -1,0 +1,4 @@
+2006-05-12T06:23:00.000Z	pingveno		I just installed gcc, I'm getting a lot of problems with "blah has not been declared." What am I doing wrong?
+2006-05-12T06:23:00.000Z	dooglus	pingveno	you're probably missing some -dev packages.  use "sudo apt-get build-dep <package>" to get the -dev packages.
+2006-05-12T06:24:00.000Z	dooglus	pingveno	install 'build-essential' too if you didn't already
+2006-05-12T06:26:00.000Z	dooglus	pingveno	are you using gcc to compile C++ code?  you should use g++ for that

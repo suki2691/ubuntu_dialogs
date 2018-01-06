@@ -1,0 +1,4 @@
+2008-01-21T03:26:00.000Z	ThipThip		Here's a pretty simple question:  If one is sitting at the terminal in a directory with an executable, how does one execute it?
+2008-01-21T03:27:00.000Z	ThipThip		I see - what does the ,/ do?  In other words, why can't I just type it like I might in DOS?
+2008-01-21T03:28:00.000Z	ThipThip		ok.
+2008-01-21T03:28:00.000Z	un_op	ThipThip	because the current directory (./) is not in $PATH -- for security reasons

@@ -1,0 +1,4 @@
+2009-07-24T04:55:00.000Z	faryshta		Hi, just installed Ubuntu on a different partition from where I had a Fedora installation, now the grub only recognize the Ubuntu partition. What can I do?
+2009-07-24T04:56:00.000Z	akSeya	faryshta	boot into Ubuntu, mount your fedora partition, take a look at the menu.lst from fedora and copy the entry to your ubuntu menu.lst
+2009-07-24T04:58:00.000Z	akSeya		any idea on my problem? ps.: i dont have an awai card
+2009-07-24T05:00:00.000Z	faryshta	akSeya	sebsebseb thanks I will try to edit the /boot/grub/menu.lst and I have not any Windows install here ;-)

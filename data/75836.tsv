@@ -1,0 +1,4 @@
+2010-10-16T12:41:00.000Z	hardwired		'llo. Is there something like screen for X? I have a headless system on which I want to start an X app. I have a remote X server that can display the X app, but then I want to put the X app in background and shut down the remote system.
+2010-10-16T12:41:00.000Z	airtonix	hardwired	i usually use ssh with the -Y paramter
+2010-10-16T12:46:00.000Z	hardwired	airtonix	good idea, I never thought about SSH
+2010-10-16T12:48:00.000Z	airtonix	hardwired	just remember though that if you run an application that is normally launched with parameters to give you sane defaults (like nautilus) then you will need to provide those parameters...(ie without --no-desktop nautilus will render a desktop plane for itself)

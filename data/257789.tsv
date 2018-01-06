@@ -1,0 +1,4 @@
+2006-07-07T13:05:00.000Z	Moocasso		Okay, so I'm having trouble compiling a program.  The instructions in the INSTALL file is to us 'su -' first to become root, then type 'make install' which yields and error message, 'checking for C compiler default output... configure: error: C compiler cannot create executables
+2006-07-07T13:05:00.000Z	Moocasso		See `config.log' for more details.
+2006-07-07T13:05:00.000Z	Moocasso		make: *** No rule to make target `install.sh'.  Stop.'  Any ideas?
+2006-07-07T13:06:00.000Z	Amaranth	Moocasso	sudo apt-get install build-essential

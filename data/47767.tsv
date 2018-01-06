@@ -1,0 +1,4 @@
+2010-03-09T19:15:00.000Z	sluxor		how do I stop a user from logging into KDE?
+2010-03-09T19:16:00.000Z	sluxor		Well I just want them to not be able to log in via KDM
+2010-03-09T19:16:00.000Z	theadmin	sluxor	Try "sudo usermod -L username" to lock the account
+2010-03-09T19:17:00.000Z	theadmin	sluxor	If you want to disable KDE login only, i think you can do so via KDE's control tools... kuser, to be specifically

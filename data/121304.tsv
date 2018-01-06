@@ -1,0 +1,4 @@
+2007-09-22T13:01:00.000Z	evilgeek		some combination of this ubuntu feisty machine and its monitor are unable to display resolutions higher than 800x600.  the video card is happy to set 1024x768, but the monitor won't display anything.  the video card is an "Intel Corporation 82915G/GV/910GL Integrated Graphics Controller (rev 04)" and the monitor is an IBM E74.  (when it ran windows, it was capable of running in modes up to 1280x1024, i believe.)
+2007-09-22T13:01:00.000Z	evilgeek		(i'm using the i810 X driver, of course.)
+2007-09-22T13:02:00.000Z	heguru	evilgeek	you need to fix the refresh rates, if you can find the refresh rate range for this monitor i will tell you how to configure it
+2007-09-22T13:02:00.000Z	evilgeek	heguru	oh god, i have to write modelines?

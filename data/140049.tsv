@@ -1,0 +1,4 @@
+2010-11-19T17:51:00.000Z	DavidJonas		Hi ppl!!
+2010-11-19T17:53:00.000Z	DavidJonas		I have a pipe question, How can I, for example run "cat" on all the results for a "find" statement, I tried: find -name *.txt | cat
+2010-11-19T17:53:00.000Z	DavidJonas		obviously didn't work :)
+2010-11-19T17:53:00.000Z	DamienCassou	DavidJonas	find ... -exec cat '{}' \;

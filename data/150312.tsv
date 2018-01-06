@@ -1,0 +1,4 @@
+2008-09-19T04:26:00.000Z	learning22		hello, how do I search a whole directory tree for a certain type of file? like say /desktop/ then what ls /s mydoc*.*?
+2008-09-19T04:27:00.000Z	Pici	learning22	find /desktop/ iname "mydoc*.*"
+2008-09-19T04:27:00.000Z	Pici	learning22	oops, forgot a dash: find /desktop/ -iname "mydoc*.*"
+2008-09-19T04:28:00.000Z	Pici	learning22	man find   has more information in my opinion

@@ -1,0 +1,4 @@
+2009-12-08T09:51:00.000Z	ten80p		how do i set the sources to the main server instead of the local server through the terminal?
+2009-12-08T09:51:00.000Z	furuno	ten80p	edit the /etc/apt/sources.list
+2009-12-08T09:52:00.000Z	furuno	ten80p	uncomment (delete the "#") from the server you want, make sure to do it in root mode (use gksudo gedit /etc/apt/sources.list)
+2009-12-08T09:53:00.000Z	furuno	ten80p	oh by the terminal then sudo nano /etc/apt/sources.list then :D

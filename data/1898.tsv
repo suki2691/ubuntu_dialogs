@@ -1,0 +1,4 @@
+2012-07-23T23:02:00.000Z	AlanTryingToInst		Is anyone going to help me?
+2012-07-23T23:03:00.000Z	\Jan	AlanTryingToInst	you can try to rfkill or ifconfig down your wireless
+2012-07-23T23:08:00.000Z	\Jan	AlanTryingToInst	that was a work around; all it does it turn off the wireless on your machine
+2012-07-23T23:18:00.000Z	\Jan	AlanTryingToInst	`sudo rfkill block 0` typically, but you'll have to try `rfkill list` to see if it might be another number or not

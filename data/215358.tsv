@@ -1,0 +1,4 @@
+2005-11-27T10:32:00.000Z	MagicFab		hello - q: how will Ubuntu react if a hard disk is removed from a machine and put into another (different hardware) ? How automatic/ manual is the hardware detection and config ?
+2005-11-27T10:33:00.000Z	soundray	MagicFab	it definitely won't barf all over itself, like a certain other OS.
+2005-11-27T10:35:00.000Z	soundray	MagicFab	look at /boot/grub/menu.lst for kernel boot parameters that look machine-specific.
+2005-11-27T10:36:00.000Z	soundray	MagicFab	probably a good idea to add acpi=off and noapic to the # kopt line and rerun update-grub.

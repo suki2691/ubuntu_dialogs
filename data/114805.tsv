@@ -1,0 +1,4 @@
+2007-11-15T02:49:00.000Z	stefg	WindowSmasher	badblocks only writes a list of bad blocks. you still need the filesystem specific tool to mark them as unusable in the filesystem (tune2fs, reiserfstune or whatever)
+2007-11-15T02:50:00.000Z	WindowSmasher	stefg	thanks
+2007-11-15T02:50:00.000Z	WindowSmasher		THinking about using spinrite
+2007-11-15T02:54:00.000Z	stefg	WindowSmasher	if i run into bad blocks i backup everything, do a low level format. If this still doesn't fix it i repartition around the (usual) cluster of bad blocks and replace the drive asap

@@ -1,0 +1,4 @@
+2011-11-30T15:52:00.000Z	cvam		will  "grub-install" command install legacy grub or grub 2 ?
+2011-11-30T15:53:00.000Z	dr_willis	cvam	 if grub2 is installed the grub-install command is actually calling grub2-install i think.
+2011-11-30T16:26:00.000Z	dr_willis	cvam	 the mbr of the hd you are going to boot normally.
+2011-11-30T16:27:00.000Z	dr_willis	cvam	 if you have 2 hard drives.  You could put on the 2nd hd. and tell the bios to boot that hd. and thus leave the first hd untouched

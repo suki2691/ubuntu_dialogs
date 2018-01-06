@@ -1,0 +1,4 @@
+2012-07-30T22:48:00.000Z	andrew_		i ran sudo stop lightdm then sudo Xorg -configure and got the following: "number of created screens does not match number of detected devices. Server terminated with error 2
+2012-07-30T22:48:00.000Z	andrew_		anyone know why?
+2012-07-30T22:48:00.000Z	luftikuss	andrew_	sudo service stop lightdm
+2012-07-30T22:51:00.000Z	luftikuss	andrew_	Excuse me: sudo service lightdm stop

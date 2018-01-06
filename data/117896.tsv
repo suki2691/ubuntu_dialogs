@@ -1,0 +1,4 @@
+2007-10-03T06:03:00.000Z	redguy_work		Hi, I want to change the default firefox settings (the home page, some bookmarks) for all new users. Is /usr/share/firefox the right place to do it? Won't a firefox upgrade overwrite my changes in there?
+2007-10-03T06:04:00.000Z	redguy_work		or should I create a default profile in /etc/skel ?
+2007-10-03T06:05:00.000Z	redguy_work		AFAIR there's a --force-all option to dpkg...
+2007-10-03T06:05:00.000Z	de45784	redguy_work	yeah, but before using that, it's a good idea to look which depenency is the problem

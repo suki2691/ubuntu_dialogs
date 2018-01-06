@@ -1,0 +1,4 @@
+2008-11-20T14:55:00.000Z	redrebel		i'm writting a script in bash, and i'm not sure how to check if $var is greater than 0
+2008-11-20T14:55:00.000Z	redrebel		i tried if [ $ppid >= 0 ]; then
+2008-11-20T14:55:00.000Z	redrebel		doesn't like it
+2008-11-20T14:56:00.000Z	erUSUL	redrebel	afaik it is → if [ [$ppid >= 0] ]; then

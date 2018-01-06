@@ -1,0 +1,4 @@
+2010-05-23T01:14:00.000Z	phillyj		anyonw know how to get log files created? I want to run this  "find . -name "*" -mtime -3 "
+2010-05-23T01:15:00.000Z	WillDeed	phillyj	if you want to write to the system log, use /usr/bin/logger
+2010-05-23T01:16:00.000Z	phillyj	WillDeed	can i create a log and save it to the desktop?
+2010-05-23T01:18:00.000Z	WillDeed	phillyj	try something like "find . -name "*" -mtime -3 2>/dev/null 1>~/Desktop/mylog.log"

@@ -1,0 +1,4 @@
+2009-12-30T20:36:00.000Z	Ween-		I have a shell script that uses "==" however it is not working in 9.10 any clues?
+2009-12-30T20:37:00.000Z	erUSUL	Ween-	probably becouse dash does not support it ? in ubuntu sh is dash not bash
+2009-12-30T20:37:00.000Z	erUSUL	Ween-	so change the script to use bash
+2009-12-30T20:38:00.000Z	erUSUL	Ween-	yes but if the script uses the #!/bin/sh sheebang then it is interpereted by dash

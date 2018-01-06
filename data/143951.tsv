@@ -1,0 +1,4 @@
+2008-07-29T18:23:00.000Z	AdvoWork		if im doing cp /dir/dir/file.txt /dir/dir/  do i have to specify a filename to end up in? asin can i do cp /dir/dir/file.txt /dir/dir2/ instead of specifying the end location as /dir/dir2/file.txt?
+2008-07-29T18:23:00.000Z	XiXaQ	AdvoWork	yes.
+2008-07-29T18:24:00.000Z	XiXaQ	AdvoWork	if the last portion of the to-parameter is a directory, then the file will be copied there using the original name. If it's not a directory, then it will be named that.
+2008-07-29T18:28:00.000Z	AdvoWork	XiXaQ	ahh ok i see, :)

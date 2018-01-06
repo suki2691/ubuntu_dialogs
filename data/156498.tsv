@@ -1,0 +1,4 @@
+2009-05-27T21:58:00.000Z	caodagua		I have a doubt :       if I make a copy of  the   MBR  in a disk with dd , recording the first 512 kb to a file , when I restore the file MBR back to the pc will it generate the partitions again ?
+2009-05-27T21:58:00.000Z	genii	caodagua	No.
+2009-05-27T22:01:00.000Z	genii	caodagua	You calculate the offsett from the beginning of the disk, then again use dd to get it. I do not know the exact math involved for the computing of the individual partitions or their length however.
+2009-05-27T22:02:00.000Z	genii	caodagua	I found originally an article on this subject when trying to find how to mount specific partition in a dd'd entire disk image. you might be able to find the info in the same way

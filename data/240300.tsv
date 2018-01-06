@@ -1,0 +1,4 @@
+2008-06-04T07:06:00.000Z	Arky44		Is there a way to remove usplash without removing ubuntu-desktop (which I'm sure would wreak dependency havok)?
+2008-06-04T07:07:00.000Z	Arky44		anirdh0: Really? I was worried I'd start a nasty dependency chain all the way to hell :P
+2008-06-04T07:09:00.000Z	Arky44		ah
+2008-06-04T07:10:00.000Z	nickrud	Arky44	remove splash quiet from the line in /boot/grub/menu.list  # defoptions , then run sudo update-grub

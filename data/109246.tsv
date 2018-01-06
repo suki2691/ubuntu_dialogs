@@ -1,0 +1,4 @@
+2007-12-19T13:01:00.000Z	|Dylan|		Morning all.  I have a question regarding disk partitioning.  I have the following partitions: primary NTFS, 2xExtended NTFS, linux-swap, primary ext3, linux-swap (which i just made) and about 40GB on which I'm trying to create a primary ext3 to install Kubuntu (currently running Ubuntu on the first ext3).  Both Kubuntu's installer and GParted report that there are already 4 primary partitions - they both say I can't create more than 
+2007-12-19T13:03:00.000Z	ere4si	|Dylan|	you only need one swap - kubuntu will use the one for ubuntu - you can't boot both at once :)
+2007-12-19T13:04:00.000Z	|Dylan|	ere4si	if ubuntu crashes for some reason, or kubuntu for that matter, there will be junk left over and ill have to reboot to that before i can reboot to the other, or at least thats my understanding
+2007-12-19T13:04:00.000Z	|Dylan|	ere4si	also, that wont solve the problem :-/

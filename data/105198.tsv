@@ -1,0 +1,4 @@
+2012-01-25T21:53:00.000Z	nc_		Hi!
+2012-01-25T21:55:00.000Z	nc_		I was just wondering, if I were to ssh to a machine in my network from a machine outside my network (i have a static ip adress) would i then "ssh user@my.static.ip.adress"? I mean if I check my ip adress online all the computers have the same one :o (Sorry for being a noob)
+2012-01-25T21:56:00.000Z	ActionParsnip	nc_	you will need to configure port forwarding on the router to push the request on the WAN IP to the internal IP ofthe system itself
+2012-01-25T21:56:00.000Z	ActionParsnip	nc_	you can connect to all your PCs if you want, you just need a different port for each system. Or you can just use one and use it to access the others (more secure)

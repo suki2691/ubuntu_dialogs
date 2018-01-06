@@ -1,0 +1,4 @@
+2006-12-04T17:18:00.000Z	miika_		what is wpa_supplicant ?
+2006-12-04T17:20:00.000Z	achandra	miika_	a utility that allows you to connect to a WPA protected wireless network. It allows you to pass directives within the wpasupplicant.conf file to connect in different ways (ie based on encryption methods)
+2006-12-04T17:22:00.000Z	miika_	achandra	well, what lines i have to add to that conf file to get my network wokring ? following parameters are required: SSID=TAMK, network authentication = wpa, data encryption = tkip, eap type = peap
+2006-12-04T17:23:00.000Z	achandra	miika_	I could be dead wrong...but i believe there is a sample file in the docs that come with wpasupplicant..so id start there first..its pretty extensive

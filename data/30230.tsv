@@ -1,0 +1,4 @@
+2011-09-16T13:49:00.000Z	recon69_lap		networkmanager unable to connect untill reboot http://pastebin.com/NgNKbxWn , any suggestions . this happening regularly
+2011-09-16T13:50:00.000Z	sven^	recon69_lap	I had that, too. Problem was wpa_supplicant crashing after suspend. Dunno if it's the same for you
+2011-09-16T13:56:00.000Z	sven^	recon69_lap	next time it does not work, check dmesg
+2011-09-16T13:57:00.000Z	sven^	recon69_lap	still, I do not know how to fix it. Killing the process didn't work for me so reboot is the only option to get wifi again

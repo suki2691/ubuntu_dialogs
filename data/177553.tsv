@@ -1,0 +1,4 @@
+2007-12-18T06:13:00.000Z	JimGrey		I have a windows PE cd that only lets root read it???   is there a root file browser (ie:nautilus)?
+2007-12-18T06:14:00.000Z	JimGrey		I want to make an .iso out of it
+2007-12-18T06:14:00.000Z	Jack_Sparrow	JimGrey	use the dd command
+2007-12-18T06:15:00.000Z	Jack_Sparrow	JimGrey	Turn a CD/DVD into an .iso  sudo umount /dev/cdrom  dd if=/dev/cdrom of=file.iso bs=1024

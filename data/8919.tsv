@@ -1,0 +1,4 @@
+2011-10-19T12:35:00.000Z	jesse2		hello.  im sure this question has been asked a million and one times -- how can i get my close/maximize/minimize buttons on the left side of the screen? in 11.10.
+2011-10-19T12:36:00.000Z	jesse2		oops, i mean on the RIGHT side of the screen
+2011-10-19T12:37:00.000Z	nnfx	jesse2	sudo -u your_login /usr/bin/gconftool-2 -s -t string /apps/metacity/general/button_layout "menu:minimize,maximize,close"
+2011-10-19T12:39:00.000Z	jesse2	nnfx	not noticing a difference after i executed the command; should I logout/log in?

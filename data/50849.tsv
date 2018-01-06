@@ -1,0 +1,4 @@
+2009-10-16T04:51:00.000Z	a_		i'm trying to change the ownership of an external drive. any takers?
+2009-10-16T04:52:00.000Z	mnaines	a_	sudo chown username:usergroup /dev/harddrivedesignation
+2009-10-16T04:59:00.000Z	mnaines	a_	Did you unmount the drive first?
+2009-10-16T04:59:00.000Z	mnaines	a_	The drive has to be mounted or else it won't work

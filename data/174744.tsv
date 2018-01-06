@@ -1,0 +1,4 @@
+2007-10-27T21:57:00.000Z	rootytooty		Anybody know if there's a problem with the 7.04->7.10 do_release_upgrade? I tried it several times, it seems to copy a LOT of stuff then fails on http://archive.ubuntu.com gutsy/main packages .. it says its a network problem.. pretty sure its not on my end.. been going on since the release of 7.10...
+2007-10-27T21:58:00.000Z	timbobsteve	rootytooty	have you tried a different mirror?
+2007-10-27T21:59:00.000Z	timbobsteve	rootytooty	go to System -> Administration -> Software Properties and select a different mirror... somewhere close, but make sure it isn't the same mirror as the one you are currently using
+2007-10-27T22:00:00.000Z	timbobsteve	rootytooty	then sudo nano /etc/apt/sources.lst .... change the deb http://yourmirrorhere/gutsy main to something else. Get a list of mirrors from ubuntu.com

@@ -1,0 +1,4 @@
+2008-08-24T00:18:00.000Z	gkrnours		hello, I've an other problem my old 13GB's .xsession-errors
+2008-08-24T00:20:00.000Z	gkrnours		«locate» tell me "/home/gkr/.xsession-errors", but «less /home/gkr/.xsession-errors» answer no file
+2008-08-24T00:20:00.000Z	gkrnours		where locate search to find removed file ?
+2008-08-24T00:21:00.000Z	geirha	gkrnours	locate searches through a database that is updated once a day, so if that file is deleted, it may still show it.

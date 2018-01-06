@@ -1,0 +1,4 @@
+2007-08-24T06:49:00.000Z	yellowbugs		how do i keep eth0 from binding to a specific network card? whenever i swap cards, it increments from eth0 to eth1, but i always want it to redetect the first one as eth0
+2007-08-24T06:50:00.000Z	mcrandello	yellowbugs	check out /etc/modprobe.d/aliases
+2007-08-24T06:51:00.000Z	mcrandello	yellowbugs	I'm not sure exactly what you do in that file but I'm pretty sure that's where you need to be
+2007-08-24T06:51:00.000Z	yellowbugs	mcrandello	thanks, i'll poke around

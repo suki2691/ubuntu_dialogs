@@ -1,0 +1,4 @@
+2007-08-30T16:37:00.000Z	|neon|		how can i determine what speed the network card is connected at i.e. 100 or 1000 under kubuntu 7.04 thx
+2007-08-30T16:37:00.000Z	rockets	|neon|	sudo mii-tool
+2007-08-30T16:39:00.000Z	rockets	|neon|	 I don't think mii-tool is capable of higher then 100, but also its not enough to just have a 1000 card you need a compatible switch
+2007-08-30T16:39:00.000Z	rockets	|neon|	i think ethtool or something like that can do it

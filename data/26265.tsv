@@ -1,0 +1,4 @@
+2011-07-14T13:24:00.000Z	buggyer		whats a good method to create a container file to host a separate filesystem on an already used filesystem? like this /DATA (ext3); /DATA/container mounted on /DATA2 (ext3)
+2011-07-14T13:26:00.000Z	unop	buggyer	you can use a loop device on pretty much any of the standard filesystems..  I'd think this might do.     mount -o loop -t ext3 your_ext3_file /path/to/directory
+2011-07-14T13:27:00.000Z	buggyer	unop	is it possible to give the loopback device a specific size? if i crate a 500GB big file, would the loopback device then also have 500gb of size?
+2011-07-14T13:42:00.000Z	unop	buggyer	the loopback device doesn't really take up space -- it's your file that does

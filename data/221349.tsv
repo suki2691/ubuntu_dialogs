@@ -1,0 +1,4 @@
+2005-09-14T11:17:00.000Z	Hoxzer		how I can check my IDE devices?
+2005-09-14T11:17:00.000Z	Hoxzer		what is what
+2005-09-14T11:19:00.000Z	lakcaj	Hoxzer	dmesg | grep hda && cat /etc/fstab
+2005-09-14T11:20:00.000Z	lakcaj	Hoxzer	dmesg | grep hd && cat /etc/fstab

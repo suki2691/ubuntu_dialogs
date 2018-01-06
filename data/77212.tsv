@@ -1,0 +1,4 @@
+2008-12-10T22:30:00.000Z	kai		Heya there, Everytime i try to do dd if=./boot1h of=/dev/rdisk0 bs-=512 count =1 i get an error saying" resource busy" any way to fix this? (Trying to reinstall mac bootloader)
+2008-12-10T22:30:00.000Z	kai		and i dont know how to unmount, :(
+2008-12-10T22:31:00.000Z	kai		i was trying unmount -f /dev/diskXsY and it says unmount not a command
+2008-12-10T22:31:00.000Z	afallenhope|work	kai	umount MOUNTPOINT

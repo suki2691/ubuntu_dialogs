@@ -1,0 +1,4 @@
+2006-08-29T13:37:00.000Z	seby57		can I install ubuntu AND Windows at the same time??
+2006-08-29T13:37:00.000Z	NickRivers	seby57	at the same time? no... on the same box? yes
+2006-08-29T13:56:00.000Z	NickRivers	seby57	use the most current version of grub... which os loads first is determined by the default setting in your /boot/grub/menu.lst file
+2006-08-29T13:59:00.000Z	NickRivers	seby57	when you install ubuntu, it will check for other OS on your hdd when it installs the grub bootloader and make an entry for windows in the grub menu list

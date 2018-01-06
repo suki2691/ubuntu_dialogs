@@ -1,0 +1,4 @@
+2005-03-31T15:53:00.000Z	Sonium_		apt-get install linux-source-2.6.10 just made a bz2 file in /usr/src
+2005-03-31T15:54:00.000Z	Sonium_		should't it be unpacked automaticaly?
+2005-03-31T15:54:00.000Z	nis	Sonium_	I don't believe so.  You would just bzcat source.bz2 | tar -xvf -
+2005-03-31T15:55:00.000Z	nis	Sonium_	Probably bunzip or bzip

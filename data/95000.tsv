@@ -1,0 +1,4 @@
+2008-08-11T23:00:00.000Z	dmsuperm1n		nevermind, it was Thumbs.db in the other directories
+2008-08-11T23:00:00.000Z	dmsuperm1n		how can I make the -name case insensitive? -i ?
+2008-08-11T23:00:00.000Z	ScorpKing	dmsuperm1n	find ./ -iname 'thumbs.db' | xargs mv /somedir/ ;) i never like to use rm like that
+2008-08-11T23:01:00.000Z	dmsuperm1n	ScorpKing	yeah, me either but that's why I just read the output before actually running it

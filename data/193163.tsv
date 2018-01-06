@@ -1,0 +1,4 @@
+2009-08-28T04:21:00.000Z	zebrafusion		hi friends. I accidently rm'd my Desktop folder. Now my home folder symlinks to the desktop and the desktop mirrors the file structure. Can anyone help me get back to the default Desktop folder?
+2009-08-28T04:22:00.000Z	erUSUL	zebrafusion	mkdir ~/Desktop then edit ~/.config/user-dirs.dirs and point the DESKTOP var to the correct folder
+2009-08-28T04:22:00.000Z	zebrafusion	erUSUL	LIFE SAVER
+2009-08-28T04:22:00.000Z	zebrafusion	erUSUL	thank you so much

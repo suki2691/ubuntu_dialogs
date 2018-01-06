@@ -1,0 +1,4 @@
+2011-03-23T03:11:00.000Z	gil		Can anyone help me with grub? I have borked my grub setup, but I can access /boot through a live CD. Basically grub appears to be installed in the mbr but I cannot recreate grub.cfg - running sudo grub-install on the drive just gives me an 'Installation finished. No error reported' message but doesn't actually set anything up
+2011-03-23T03:12:00.000Z	arand	gil	Did you use the --root-directory= option?
+2011-03-23T03:13:00.000Z	arand	gil	zvacet: To run that yuo'll need to chroot.
+2011-03-23T03:13:00.000Z	gil	arand	yes - the command I used was sudo grub-install --root-directory=/media/boot2 /dev/sda

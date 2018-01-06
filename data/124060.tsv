@@ -1,0 +1,4 @@
+2008-05-03T03:20:00.000Z	thor^^		hi
+2008-05-03T03:20:00.000Z	thor^^		is it possible to force a i386 package into x86_64 system?
+2008-05-03T03:20:00.000Z	Scrounch	thor^^	 dpkg -i --force-all your.deb
+2008-05-03T03:22:00.000Z	Scrounch	thor^^	  dpkg -i --force-architecture it's too good

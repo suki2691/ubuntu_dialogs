@@ -1,0 +1,4 @@
+2011-08-15T07:53:00.000Z	MagicJ	mcbtay	are you going to use the FILE type from a web page to upload - if so the issue is what permissins does your script thatreceives the file need
+2011-08-15T07:53:00.000Z	mcbtay	MagicJ	i'm using an HTML input of type file if that's what you mean? not too experienced here sorry :)
+2011-08-15T07:54:00.000Z	MagicJ	mcbtay	 then the issuoes is merely to set the permissions for the img directory sich that your script has write access.  To some degree this will depend what user the script runs as
+2011-08-15T07:55:00.000Z	MagicJ	mcbtay	if the script runs as a specific user then you will need to make sure that user has permots

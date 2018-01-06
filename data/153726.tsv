@@ -1,0 +1,4 @@
+2007-04-10T15:47:00.000Z	CorpseFeeder		What is the easiest way for me to fix this "System timer resolution is too low - Rosegarden was unable to find a high-resolution timing source for MIDI performance." Can anyone help?
+2007-04-10T15:48:00.000Z	CorpseFeeder		What is the easiest way to change my system timer resolution?
+2007-04-10T15:49:00.000Z	vox754	CorpseFeeder	that doesn't seem to be a common problem, please look at the documentation for rosegarden thoroughly
+2007-04-10T15:50:00.000Z	CorpseFeeder	vox754	It's a very common problem. It's because old linux kernels used 1000Mhz timer or something and the newer kernels use 250Mhz timer... I am looking for an easy way to fix this

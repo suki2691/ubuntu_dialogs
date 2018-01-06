@@ -1,0 +1,4 @@
+2006-12-30T06:53:00.000Z	klick_		edit /etc/fstab
+2006-12-30T06:54:00.000Z	pixelmonkey	klick_	wrong, that's not the answer I'm looking for.  /dev/sd* names can change, fstab doesn't always work
+2006-12-30T06:54:00.000Z	pixelmonkey	klick_	looking for a way in which my actual hardware is uniquely identified
+2006-12-30T06:54:00.000Z	klick_	pixelmonkey	run a grep on dmesg for the id of your drive and then run a bash script telling it where to mount

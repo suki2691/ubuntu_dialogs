@@ -1,0 +1,4 @@
+2010-03-21T08:37:00.000Z	albech		will a tunnel span over two wan connections to allow failsafe or will the tunnel only run over one of the wan connections?
+2010-03-21T08:39:00.000Z	gustin	albech	it depends on how you set up networking
+2010-03-21T08:40:00.000Z	albech	gustin	but it is possible? i have a dual wan router configured, but was just wondering if a host behind the router creating a tunnel to another one outside the router would utilize both connections
+2010-03-21T08:42:00.000Z	gustin	albech	the host behind the router does not utilise anything, the router needs to do the work

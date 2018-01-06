@@ -1,0 +1,4 @@
+2009-12-30T04:40:00.000Z	scyx		hi. can anyone point me to a place in the boot process on karmic where i can insert a command BEFORE the networking interfaces have been upped? i'm trying to do a ifconfig... command on wlan0 without having to down the device first
+2009-12-30T04:41:00.000Z	llutz	scyx	/etc/network/if-pre-up.d   too late?
+2009-12-30T04:43:00.000Z	scyx	llutz	that looks good, i'll give it a try. can i just create a new script file in there or do i need to symlink it somewhere?
+2009-12-30T04:43:00.000Z	llutz	scyx	both should work, i prefer scripts

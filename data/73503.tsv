@@ -1,0 +1,4 @@
+2010-01-04T09:46:00.000Z	vegombrei		i have 3x1 tb hdds sda-ext3 sdb-fat32 sdc-ext3 .. been using ubuntu since a few months now .. however i need to install win7 for the gf, if i installed it on sdb, will win7 sort out the mbr and gimme somekinda bootloading options???
+2010-01-04T09:46:00.000Z	mezquitale	vegombrei	seriously doubt it
+2010-01-04T09:49:00.000Z	vegombrei	mezquitale	then how do i install this succesfully
+2010-01-04T09:50:00.000Z	mezquitale	vegombrei	i have never installed windows last, generally windows wants to be in the master drive in the MBR, it will erase grub and youll only be able to boot up to windows, youll have to reinstall grub2

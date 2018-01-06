@@ -1,0 +1,4 @@
+2012-02-25T05:29:00.000Z	nibbler	humungulous	adam__, what is the connection between a internet superserver and a startup/rc-control mechanism?
+2012-02-25T05:31:00.000Z	nibbler	humungulous	xinetd/inetd offer lots of options you won't get with just starting a service (hosts.{allow,deny} etc)
+2012-02-25T05:31:00.000Z	humungulous	nibbler	so what do you believe the correct answer to adam__'s question is then
+2012-02-25T05:32:00.000Z	nibbler	humungulous	ubuntu has xinetd in its repo aswell, but prefers to start daemons directly

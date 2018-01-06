@@ -1,0 +1,4 @@
+2006-05-02T13:59:00.000Z	LazyMukke		is there a diferent version of ubuntu for dual core prossesors ?
+2006-05-02T13:59:00.000Z	Warbo	LazyMukke	Just use the "smp" kernel (I think it does it by default)
+2006-05-02T14:00:00.000Z	LazyMukke	Warbo	: is there a setting i have to change then cause at system monitor he only shows 1 cpu
+2006-05-02T14:02:00.000Z	Warbo	LazyMukke	I don't know (as I've never tried it), but running "uname -r" will tell you your kernel's name. If it says smp then you should be using however many processors you have (as long as it isn't over 255)

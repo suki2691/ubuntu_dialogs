@@ -1,0 +1,4 @@
+2006-11-19T10:58:00.000Z	dorto		how to check if a port in edgy is open or not for incoming tcp connections?
+2006-11-19T10:58:00.000Z	Kingsqueak	dorto	'netstat -an' will show you listening ports
+2006-11-19T10:58:00.000Z	Kingsqueak	dorto	also  'lsof -i tcp'  and 'lsof -i udp'
+2006-11-19T10:59:00.000Z	Kingsqueak	dorto	that shows you the application that is on the port

@@ -1,0 +1,4 @@
+2008-08-14T15:20:00.000Z	acp_		hi, I have config my dad phone to be use as modem by his ubuntu using wvdial. its working fine except that I have to run sudo wvdial on the terminal which my dad dont want that I plan to create a luncher but how will I pass the password in my command?
+2008-08-14T15:21:00.000Z	Slart	acp_	you can make sudo use a file for input and put the password in that file.. (NB!.. cleartext password in a file isn't a good thing)
+2008-11-19T18:39:00.000Z	Slart	acp_	seems like you'll have to compile vloopback yourself
+2008-11-19T18:40:00.000Z	Slart	acp_	if the ubuntu forum threads I've found are accurate

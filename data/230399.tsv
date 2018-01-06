@@ -1,0 +1,4 @@
+2010-05-02T07:24:00.000Z	felon		will this command work with lynx : grep "deb http://ppa.launchpad.net/wii.sceners.linux/wiithon-1.1/ubuntu  karmic main" /etc/apt/sources.list || echo deb http://ppa.launchpad.net/wii.sceners.linux/wiithon-1.1/ubuntu  karmic main | sudo tee -a /etc/apt/sources.list && sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 1F882273 && sudo apt-get update && sudo apt-get install wiithon && sudo gpasswd -a $USER disk
+2010-05-02T07:25:00.000Z	dabaR	felon	looks like it might, why do you ask and not try?
+2010-05-02T07:28:00.000Z	dabaR	felon	do you know what that is supposed to do?
+2010-05-02T07:29:00.000Z	dabaR	felon	do you know what it is for?

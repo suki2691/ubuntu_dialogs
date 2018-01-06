@@ -1,0 +1,4 @@
+2011-08-07T14:34:00.000Z	simonf_		Morning, got a problem trying to change apache2.conf file. Says I don't have permissions. I built server, am only user, and set up as administrator.
+2011-08-07T14:35:00.000Z	wols	simonf_	ls -l <path to file you want to change>
+2011-08-07T14:35:00.000Z	simonf_	wols	thanks, I'll give that a go
+2011-08-07T14:40:00.000Z	wols	simonf_	sudo nano /etc/apache2/apache2.conf

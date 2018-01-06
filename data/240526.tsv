@@ -1,0 +1,4 @@
+2005-08-03T05:39:00.000Z	liz4rd		ok i installed a game called flightgear, but running the command flightgear doesnt work, how do i search for things? (in xfce) or in a term
+2005-08-03T05:39:00.000Z	liz4rd		$ whereis flightgear
+2005-08-03T05:39:00.000Z	liz4rd		flightgear:
+2005-08-03T05:40:00.000Z	procrastinator	liz4rd	dpkg -L flightgear | grep bin

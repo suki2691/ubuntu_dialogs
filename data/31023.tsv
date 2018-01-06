@@ -1,0 +1,4 @@
+2010-05-30T19:30:00.000Z	Dr_Willis	azolap	 try a live cd and see what you can rescue
+2010-05-30T19:31:00.000Z	Dr_Willis	azolap	 theres numerous 'hacks/tricks' that MIGHT restore a drive to functionality for a limited time...    :)
+2010-05-30T19:32:00.000Z	azolap	Dr_Willis	i was in the livecd environment just now.. i couldn't mount my windows partition (even though it appeared in filemanager) .. after running e2fsck on the linux partition it doesn't even detect the drive and i got this SMART failure prediction msg. arcade i want to retreive my windows7 user files
+2010-05-30T19:33:00.000Z	Dr_Willis	azolap	 you could try to 'ddrescue' the whold drive to another drive as a file image. then recover from that. IF it can even do that.

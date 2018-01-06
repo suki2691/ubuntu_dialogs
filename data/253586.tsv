@@ -1,0 +1,4 @@
+2005-08-27T08:37:00.000Z	kameron		when i try to 'sudo cd folder' it says 'sudo: cd: command not found'.. but sudo works with every other command..?
+2005-08-27T08:38:00.000Z	kameron		'bash: cd: /mnt/win: Permission denied'
+2005-08-27T08:38:00.000Z	codecaine	kameron	it must be ntfs file system
+2005-08-27T08:39:00.000Z	codecaine	kameron	you're going to need umask=0222 i believe in fstab

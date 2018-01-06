@@ -1,0 +1,4 @@
+2007-11-17T06:40:00.000Z	tomasso		hey guys my ubuntu doesnt start anymore :S , when the load  screen appears and finished loading it gets black, and keyboard is unresponsive, I cant do ctrl+alt+F1 or F2 ... Im using ubuntu 7.10, I upgraded it using the update manager and it worked good for about a week, any clues on that?
+2007-11-17T06:41:00.000Z	sfears	tomasso	when the screen goes black hit ctrl+alt+f1 and login. then run sudo dpkg-reconfigure xserver-xorg.  then go thru the menus choosing vesa & 800x600.  that should get you in
+2007-11-17T06:42:00.000Z	sfears		johndoe the alternate version is all command line.. live cd give you a gui so you can click your way thru
+2007-11-17T06:42:00.000Z	tomasso	sfears	the screen is still black when I press ctrl+alt+F1

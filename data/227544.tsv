@@ -1,0 +1,4 @@
+2007-03-25T06:33:00.000Z	Obidose		If, I want to install ubuntu on a second hard drive and leave windows intact, is this easy?
+2007-03-25T06:35:00.000Z	Jowi	Obidose	yes. but if windows is on the primary disk you will need a way to boot linux. that means installing a bootloader on MBR (Master Boot Record) that overwrites windows bootloader. the windows install will be intact but its bootloader will be overwritten.
+2007-03-25T06:36:00.000Z	Jowi	Obidose	if your linux disk is primary then you have no problem.
+2007-03-25T06:37:00.000Z	Jowi	Obidose	yes. you will get options on where to install linux.

@@ -1,0 +1,4 @@
+2007-04-27T09:36:00.000Z	AlbinoTux		Sooo, I added a user to a group and now I cannot sudo into root, how do I fix this?
+2007-04-27T09:37:00.000Z	eck	AlbinoTux	if you can't sudo at all you would have to use a live cd or the grub "recovery" option to boot into single user mode
+2007-04-27T09:39:00.000Z	AlbinoTux	eck	booting to the live cd isn't an option. What if another user can sudo in, how do I give the user I hosed the ability to sudo again?
+2007-04-27T09:40:00.000Z	eck	AlbinoTux	if you look at the /etc/sudoers file it will show the sudo policy, i think you need to be a member of the admin group to sudo. so you would just add your user to the admin group

@@ -1,0 +1,4 @@
+2009-05-22T02:35:00.000Z	alfacat_		I have jaunty running on a dual core, with a old RCT display, and using an integrated graphics board, and I cant get it to show reolutions bigger than 800x600. I've read that jaunty uses RandR for xorg configuration, but how can I change resolution
+2009-05-22T02:36:00.000Z	alfacat_		?
+2009-05-22T02:36:00.000Z	Slart	alfacat_	check the file /var/log/Xorg.0.log .. it will tell you why it isn't using a higher resolution
+2009-05-22T02:36:00.000Z	Slart	alfacat_	you can also pastebin it and give us the link.. we might be able to find something you might miss

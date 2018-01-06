@@ -1,0 +1,4 @@
+2009-02-26T21:28:00.000Z	klystik		Hi, I edited the cron.deny file, removed the user "nobody" and added "nobody" in cron.allow. I can now create a cron command like "crontab /path/to/command.txt", how would I edit this cron in the future from command line though? Without editing the file where crons are listed?
+2009-02-26T21:28:00.000Z	Seveas	klystik	crontab -e
+2009-02-26T21:34:00.000Z	klystik	Seveas	how do I exit from crontab -e? (ssh n00b)
+2009-02-26T21:35:00.000Z	Seveas	klystik	depends on your editor. I think you're using nano, so ctrl+O and then ctrl+X

@@ -1,0 +1,4 @@
+2007-12-21T22:40:00.000Z	Lun4t1c		Does any body know how to open ports for SSH?
+2007-12-21T22:41:00.000Z	bascule	Lun4t1c	iptables -A INPUT -p 22 -j ACCEPT
+2007-12-21T22:41:00.000Z	bascule	Lun4t1c	assuming you use 22
+2007-12-21T22:42:00.000Z	bascule	Lun4t1c	maybe change A to I

@@ -1,0 +1,4 @@
+2007-01-15T14:42:00.000Z	jadacyrus		everytime i gksudo nautilus, my background changes to the "root" background and things get all wierd, like im completely logged in with root. ??
+2007-01-15T14:42:00.000Z	AlexC_	jadacyrus	that's because it's using Roots theme preferences
+2007-01-15T14:42:00.000Z	jadacyrus	AlexC_	is there a way to get rid of that
+2007-01-15T14:43:00.000Z	AlexC_	jadacyrus	if you do "sudo ln -s ~/.themes /root/.themes" and "sudo ln -s ~/.icons /root/.icons" and "sudo ln -s ~/.fonts /root/.fonts" that should work

@@ -1,0 +1,4 @@
+2012-09-09T10:18:00.000Z	niranjan		Hi there, trying to use find command to find executable in my project. Using find . -executable -name "whatIamLooking" but it includes directories. How do I exclude directories
+2012-09-09T10:19:00.000Z	smw	niranjan	-type f ?
+2012-09-09T10:19:00.000Z	smw	niranjan	that is what comes off the top of my head.
+2012-09-09T10:19:00.000Z	niranjan	smw	Thanks it works, feel so stuipd, I knew about -f

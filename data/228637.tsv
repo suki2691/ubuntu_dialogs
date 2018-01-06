@@ -1,0 +1,4 @@
+2006-04-13T12:06:00.000Z	k31th		I should be safe to upgrade to dapper when im in kde ?
+2006-04-13T12:08:00.000Z	k31th		wats the easy'st way to gloablly change the word brezzy to dapper in /etc/apt/sources.list ? can i use sed?
+2006-04-13T12:10:00.000Z	Jhair	k31th	sed 's/breezy/dapper/g' sources.list > x; mv x sources.list
+2006-04-13T12:11:00.000Z	k31th	Jhair	thanks

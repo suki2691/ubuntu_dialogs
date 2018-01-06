@@ -1,0 +1,4 @@
+2009-11-02T14:22:00.000Z	nelson8874		i'm trying to install sun java. First i should remove openjDK, right? But sommething's wrong, i get: E:I wasn't able to locate a file for the sun-java6-jre package. This might mean you need to manually fix this package. (due to missing arch):
+2009-11-02T14:23:00.000Z	nelson8874		i'm trying to install sun java. First i should remove openjDK, right? But sommething's wrong, i get: E:I wasn't able to locate a file for the sun-java6-jre package. This might mean you need to manually fix this package. (due to missing arch):
+2009-11-02T14:23:00.000Z	nelson8874		i'm using 9.10
+2009-11-02T14:23:00.000Z	TheKro	nelson8874	i don't think you need to remove openJDK.  You can install sun java, and then switch between them with update-alternatives, I think

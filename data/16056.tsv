@@ -1,0 +1,4 @@
+2011-04-08T08:56:00.000Z	genii-around	sgb77	Perhaps see https://help.ubuntu.com/community/MountWindowsSharesPermanently
+2011-04-08T09:00:00.000Z	sgb77	genii-around	I would really prefer to mount shared folders on demand, I connect to different drives in different machines, and If I connect them permanently I am afraid that would slow down my computer, wouldn't it?
+2011-04-08T09:00:00.000Z	genii-around	sgb77	You can put an option then for "noauto"
+2011-04-08T09:01:00.000Z	genii-around	sgb77	Then if you want to mount one in fstab that gets mounted locally to for instance /media/winbox1  you just issue: sudo mount /media/winbox1

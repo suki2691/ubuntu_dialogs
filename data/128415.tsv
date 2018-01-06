@@ -1,0 +1,4 @@
+2009-01-23T01:24:00.000Z	Pirate_Hunter		im currently trying to change permission to a newly created partition that is mounted following guidelines in ubuntu help, at the moment it is root root ive tried command chmod g+xwr sdb1/ which wont work cause as a normal user i dont have permission and i tried adding sudo but that will only add root back to partition so how am i supposed to use the syntax to give myself normal user permission?
+2009-01-23T01:25:00.000Z	zorrolero	Pirate_Hunter	man chown
+2009-01-23T01:33:00.000Z	Pirate_Hunter	zorrolero	yup thanx that did the trick and wasnt all that scary much easier than the guidelines for chmod in ubuntuhelp
+2009-01-23T01:34:00.000Z	zorrolero	Pirate_Hunter	no problem.)

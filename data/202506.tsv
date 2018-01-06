@@ -1,0 +1,4 @@
+2006-03-29T10:39:00.000Z	yohan		i just compiled the kernel 2.6.16 and followed this guide:http://www.falkotimme.com/howtos/debian_kernel2.6_compile/ and when i boot i get somekindof devfs error, is there anything i missed in my config file maybe?
+2006-03-29T10:41:00.000Z	graft	yohan	did you build devfs support into your kernel?
+2006-03-29T10:41:00.000Z	yohan	graft	i cant find the option in gconfig...is it there?
+2006-03-29T10:42:00.000Z	graft	yohan	um. it's usually in file systems/pseudo fs

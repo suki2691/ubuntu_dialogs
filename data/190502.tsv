@@ -1,0 +1,4 @@
+2008-04-08T04:37:00.000Z	Alangara		I need help GRUB went on the fritz after reinstalling linux and its blocking me out (get an error 15 from grub and cant advance
+2008-04-08T04:37:00.000Z	Mathman	Alangara	boot to rescue mode and reinstall grub
+2008-04-08T04:38:00.000Z	Mathman	Alangara	yeah, that would work
+2008-04-08T04:39:00.000Z	Mathman	Alangara	you'll probably need to mount /proc in your ubuntu install.  chroot to it, then run grub.  something along those lines

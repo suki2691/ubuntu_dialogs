@@ -1,0 +1,4 @@
+2010-10-24T01:18:00.000Z	acyc		hi. hard disc operations are getting increasingly slower and sometimes the system hangs for several seconds as it tries to write/read something to/from the hard disk. how can I figure out what the problem is?
+2010-10-24T01:18:00.000Z	ilovefairuz	acyc	iotop -oPa
+2010-10-24T01:19:00.000Z	acyc	ilovefairuz	installed and started. what should I watch for, specifically?
+2010-10-24T01:20:00.000Z	ilovefairuz	acyc	should tell you what processes are writing to the disk and which ones are the most active

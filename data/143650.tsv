@@ -1,0 +1,4 @@
+2010-12-22T17:15:00.000Z	guillaume_		hi all, does anyone know how to write into a file the string "#!/bin/sh" with echo command ? echo seems to bug when i tell it to write "#!"
+2010-12-22T17:16:00.000Z	c0nv1ct	guillaume_	echo '#!/bin/sh'
+2010-12-22T17:17:00.000Z	c0nv1ct	guillaume_	using single quotes makes it escape special characters
+2010-12-22T17:17:00.000Z	guillaume_	c0nv1ct	rhaaa it was so easy... thanks !

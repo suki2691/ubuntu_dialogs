@@ -1,0 +1,4 @@
+2008-12-07T17:47:00.000Z	Ohmu		I'm editing my menu.lst to make grub boot XP.  I need something like (hd0,0) but fdisk -l is only giving /dev/sda1.  how do i get it in the right form?
+2008-12-07T17:48:00.000Z	nonix4	Ohmu	(hd0,0) == /dev/sda1 for single-hd.
+2008-12-07T17:49:00.000Z	Ohmu	nonix4	whats the command for showing how they connect?
+2008-12-07T17:49:00.000Z	nonix4	Ohmu	not sure whether there is one, as it depends on the bios - which isn't reliably accessible from a running OS.

@@ -1,0 +1,4 @@
+2006-09-17T10:39:00.000Z	tokenbad		if you use ftp ip port to get into a ftp..how would you get a whole dir?
+2006-09-17T10:40:00.000Z	silvaran	tokenbad	That's a weird question..... usually you'd use an FTP client, and hopefully it would support all the usual commands (ls, cd, etc...)
+2006-09-17T10:41:00.000Z	tokenbad	silvaran	a friend is setting up apache...but he can't ftp into the box and upload the files cause it has it setup wrong
+2006-09-17T10:41:00.000Z	silvaran	tokenbad	Your friend might FTP into the box, but he needs access to the /var/www dir...  It's a basic UNIX permission problem, from the sounds of it.

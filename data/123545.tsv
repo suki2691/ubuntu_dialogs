@@ -1,0 +1,4 @@
+2008-09-29T02:46:00.000Z	maestrojed		Am I correct that the only way to achieve root level access in ubuntu is sudo.  I can not log in as root, right?
+2008-09-29T02:46:00.000Z	jrib	maestrojed	not by default, that is correct.  And you can do everything you need to with sudo
+2009-11-04T02:32:00.000Z	jrib	maestrojed	use crontab -e...
+2009-11-04T02:38:00.000Z	maestrojed	jrib	isn't that executed with user privileges, I wanted root to be executing this. Maybe I miss understood the difference between crontab -e and editing /etc/crontab.

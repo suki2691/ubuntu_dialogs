@@ -1,0 +1,4 @@
+2011-01-29T04:36:00.000Z	jetboyjetgirl		any ideas of where to start if a USB device (sansa fuze mp3 player) is not showing up/being detected in Ubuntu 10.10?
+2011-01-29T04:36:00.000Z	jetboyjetgirl		supported USB device*
+2011-01-29T04:37:00.000Z	murchadh	jetboyjetgirl	ls /dev/sd and tab to list devices. Should see like /dev/sda1, /dev/sda2, etc. You could be /dev/sdb1 or some such.
+2011-01-29T04:38:00.000Z	murchadh	jetboyjetgirl	lsusb also useful.

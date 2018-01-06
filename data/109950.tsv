@@ -1,0 +1,4 @@
+2010-07-26T02:30:00.000Z	iskin		I just got a new monitor, native resolution '1920 x 1080', but my max available resolution is '1680x1050'. Using 10.04, and I can't find xorg.conf. How do I get '1920 x 1080'?
+2010-07-26T02:31:00.000Z	soreau	iskin	Which graphics driver are you using?
+2010-07-26T02:32:00.000Z	iskin	soreau	I'm using a HD4850 with the ATI drivers.
+2010-07-26T02:33:00.000Z	soreau	iskin	Since fglrx supports xrandr1.2 at least, you may be able to add the new mode with xrandr, though it would only be active for that session. If it works, then you can put a mode line in your xorg.conf

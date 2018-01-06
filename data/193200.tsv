@@ -1,0 +1,4 @@
+2006-11-20T07:08:00.000Z	kud0s		I have a question about SSH, Is it possible to login run a program and disconnect from the session and then at a later time reconnect to the session?
+2006-11-20T07:09:00.000Z	kud0s		!ssh
+2006-11-20T07:10:00.000Z	asc	kud0s	I suppose the answer is, probably not.  When the ssh session is closed, the user logs out - which should close all the user's running programs.
+2006-11-20T07:11:00.000Z	asc	kud0s	unless somebody knows better than I do. ;p

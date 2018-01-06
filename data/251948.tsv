@@ -1,0 +1,4 @@
+2006-09-19T13:22:00.000Z	scarabatwork		yes, that what i tried... it won't resolve any dns while i'm ssh'd box.  i can't use elinks to browse the web either
+2006-09-19T13:22:00.000Z	scarabatwork		no error message other than termp fail resolving 'us.archive.ubuntu.com' ... etc
+2006-09-19T13:23:00.000Z	eyequeue	scarabatwork	sounds like /etc/resolv.conf
+2006-09-19T13:23:00.000Z	eyequeue	scarabatwork	sudo nano that and add some known-wrking resolvers, you're at work, use theirs :)

@@ -1,0 +1,4 @@
+2012-06-24T23:06:00.000Z	POVaddct	guntbert	you won't find anything in syslog if someone started a forkbomb
+2012-06-24T23:07:00.000Z	guntbert	POVaddct	not even a oom kill?
+2012-06-24T23:08:00.000Z	POVaddct	guntbert	if the syslog daemon manages to write it, then it will show up. but that is not guaranteed in a oom situation.
+2012-06-24T23:08:00.000Z	guntbert	POVaddct	and I try not to jump to conclusions

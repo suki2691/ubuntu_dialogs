@@ -1,0 +1,4 @@
+2009-02-23T01:32:00.000Z	Ethosser		guys how can I take a complete image of ubuntu server without a) affecting anything on the system b) paying for software :D
+2009-02-23T01:32:00.000Z	Ethosser		Need it so if the hdd fails I can just re-image it
+2009-02-23T01:33:00.000Z	usser	Ethosser	boot into live cd find out the name of your harddrive, and do sudo dd if=/dev/sourcehdd of=/dev/target
+2009-02-23T01:34:00.000Z	usser	Ethosser	where source and target are harddrive names ie sda or sdb, target have to be at least the same size as source

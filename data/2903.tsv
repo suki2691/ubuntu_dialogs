@@ -1,0 +1,4 @@
+2012-05-23T17:42:00.000Z	DarkLobster		I've moved my harddisks to another computer, and done some partition changes, so obviously the uuid numbers have changed. I'm now trying to make hibernation work again, but when I run update-initramfs I get 'cryptsetup: WARNING: found more than one resume device candidate: <2 uuid's>'. Blkid shows one of those numbers, but where to look for the other one?? I can't find it anywhere whatsoever!
+2012-05-23T17:42:00.000Z	DarkLobster		(disk utility, config files)
+2012-05-23T17:43:00.000Z	vlt	DarkLobster	`grep -r UUID /etc`?
+2012-05-23T17:45:00.000Z	DarkLobster	vlt	Good old bruteforce. I'll try that.

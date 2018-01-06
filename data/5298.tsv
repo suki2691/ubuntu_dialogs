@@ -1,0 +1,4 @@
+2012-07-09T13:13:00.000Z	L3top	geirha	the problem is... that a proxy has been set, somewhere... and I am trying to get it unset so he can do what he needs to do with regards to a gpg add... then try and figure out what is setting it... and stop it.
+2012-07-09T13:15:00.000Z	L3top	geirha	<__Hayes__> ?: invalid HTTP proxy (http://localhost:4001 ): bad URI      <L3top>__Hayes__: can you please type env | grep -i proxy           and tell me if there is an htttp proxy there? <__Hayes__>  http_proxy=http://localhost:4001
+2012-07-09T13:18:00.000Z	L3top	geirha	ok __Hayes__: unset http_proxy       so I would expect it to be gone now...
+2012-07-19T12:57:00.000Z	L3top	geirha	if it is opening the aplication (mplayer) then is this an X issue?

@@ -1,0 +1,4 @@
+2006-08-11T06:14:00.000Z	Perkins		So, I can't seem to find where the bloody thing is mounting my SMB shares...  Which is a problem when you have a program that needs a path...
+2006-08-11T06:15:00.000Z	sethk	Perkins	mount (with no arguments) shows you what is currently mounted
+2006-08-11T06:16:00.000Z	Perkins	sethk	 I tried that, it doesn't show up.  Does Ubuntu perchance fake the mounting somehow?
+2006-08-11T06:17:00.000Z	sethk	Perkins	no, if it is mounted it will show up in the mount output, type smbfs

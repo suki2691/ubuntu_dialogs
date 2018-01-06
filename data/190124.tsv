@@ -1,0 +1,4 @@
+2006-06-08T05:41:00.000Z	Fuelbottle		what is the simplest way to switch to 32bit when I'm already running 64bit, is there a command for downloading and installing 32bit packages for everything?
+2006-06-08T05:42:00.000Z	Warbo	Fuelbottle	You can install a 32bit system in a "chroot jail" which lets you switch to 32bit to run specific apps (like firefox with Flash plugin)
+2006-06-08T05:43:00.000Z	Warbo	Fuelbottle	To get in it just do "sudo chroot /whereveryourchrootjailis"
+2006-06-08T05:44:00.000Z	Warbo	Fuelbottle	You can install Qemu and emulate/virtualise, or do the smae thing with vmwareplayer

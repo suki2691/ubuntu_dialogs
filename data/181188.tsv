@@ -1,0 +1,4 @@
+2008-01-20T05:16:00.000Z	robeph		is there a way to set like a package checkpoint,  ie say i have the system at a good point,  and I wanna try installing some stuff that may be problemaTIC but what I'd like is to have a checkpoint that I can revert to to remove all the extra packages brought in from the set I have to install
+2008-01-20T05:16:00.000Z	bruenig	robeph	remember which ones you installed afterwards
+2008-01-20T05:16:00.000Z	bruenig	robeph	each time you do it, add that package to a text file
+2008-01-20T05:17:00.000Z	bruenig	robeph	unneeded dependencies will remove when you remove the parent applications

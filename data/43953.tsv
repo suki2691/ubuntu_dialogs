@@ -1,0 +1,4 @@
+2009-11-01T20:06:00.000Z	DiscoDave		Hi everyone, I've got a problem with my Atheros wireless card with ubuntu 9.10. I've followed the guideo on the forums, its no longer stated as disabled, its now using ath_pci driver but its still not scanning for networks, anyone got any ideas?
+2009-11-01T20:06:00.000Z	panopticon	DiscoDave	try to blacklist the driver module?
+2009-11-01T20:07:00.000Z	DiscoDave	panopticon	: I'm pretty sure I've already done that, do you know which command it is?
+2009-11-01T20:07:00.000Z	panopticon	DiscoDave	add the module name at the bottom of /etc/modprobe.d/blacklist.conf

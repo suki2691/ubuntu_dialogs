@@ -1,0 +1,4 @@
+2009-06-07T17:07:00.000Z	exco		is there a way to check an USB drive for defects (not the filesystem)
+2009-06-07T17:09:00.000Z	anto9us	exco	typing dmesg and examine the last few lines, it changes when you connect/disconnect a device
+2009-06-07T17:10:00.000Z	exco	anto9us	I know what device it is ... I just think the usb stick has defective "sectors" and I want to check to make sure
+2009-06-07T17:11:00.000Z	anto9us	exco	gparted can check the partition for errors

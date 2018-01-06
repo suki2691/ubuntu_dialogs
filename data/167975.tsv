@@ -1,0 +1,4 @@
+2010-06-15T23:06:00.000Z	lwizardl		ok well this is what 10.04 is doing on my laptop. when i boot the livecd i get like 10 error pop ups, and it hangs during the install (using livecd) at like 48%, and if i use the alternate text installer it will install completely but when rebooted the gui crashes and only stays at bash login
+2010-06-15T23:06:00.000Z	jkamp	lwizardl	what kind of graphics card?
+2010-06-15T23:07:00.000Z	lwizardl	jkamp	not sure what ever dell used on the inpirion 2500 laptop
+2010-06-15T23:07:00.000Z	jkamp	lwizardl	try dpkg --reconfigure xorg-server  and use vesa driver to get something up and running.

@@ -1,0 +1,4 @@
+2012-06-28T12:53:00.000Z	CatsBacon[F][10]		why does removing isc-dhcp-client also ask to remove ubuntu-minimal
+2012-06-28T12:53:00.000Z	CatsBacon[F][10]		and would that break anything
+2012-06-28T12:54:00.000Z	gaelfx	CatsBacon[F][10]	because ubuntu-minimal is a meta-package, and isc-dhcp-client is one of the packages that it installs (and therefore depends on)
+2012-06-28T12:55:00.000Z	gaelfx	CatsBacon[F][10]	it's shouldn't break anything, no

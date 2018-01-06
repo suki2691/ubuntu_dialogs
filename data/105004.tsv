@@ -1,0 +1,4 @@
+2009-07-26T07:23:00.000Z	straddlethefence		i have a tonne of files whose permissions are root for everything, what command for terminal would i use to change all permissions to user aj
+2009-07-26T07:24:00.000Z	ActionParsnip	straddlethefence	sudo chown -R $USER:$USER /path/to/stuff
+2009-07-26T07:24:00.000Z	ActionParsnip	straddlethefence	is it all of your home directory by any chance?
+2009-07-26T07:25:00.000Z	ActionParsnip	straddlethefence	been running gui apps with sudo by any chance

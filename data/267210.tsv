@@ -1,0 +1,4 @@
+2010-05-13T19:55:00.000Z	saliak		Has anyone had any experience getting a USB device to work over an IP network?  for example, i have a program i've written that allows me to control my robot via usb joystick, but when I use my robot, I'd rather not have to rely on the wired usb connection to control it.  ideally i could run my program on the robot, but use something that makes the usb driver detect the joystick connected to another computer on the network
+2010-05-13T19:55:00.000Z	Dr_Willis	saliak	 ive seen mention of some usb-over ip drivers.
+2010-05-13T19:55:00.000Z	Dr_Willis	saliak	 but never used them
+2011-07-13T23:50:00.000Z	Dr_Willis	saliak	 you may want to use a Upstart type script,     in /etc/init/  and not use the sysv method.

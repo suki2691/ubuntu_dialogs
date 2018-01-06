@@ -1,0 +1,4 @@
+2010-06-18T01:18:00.000Z	xguru		do you do fdisk support in here?
+2010-06-18T01:20:00.000Z	xguru		with "ls /dev/sd*" it shows sda and sda1.  with "fdisk /dev/sda/" i get this error "unable to seek on /dev/sda"
+2010-06-18T01:21:00.000Z	xguru		ok  sda1 lets me view it with no partitions.  so i add some, but i get errors on writing it.  "re-reading the partition table failed with error 22:
+2010-06-18T01:22:00.000Z	AAA	xguru	 do you see errors in dmesg about SEEK COMPLETE or the like?

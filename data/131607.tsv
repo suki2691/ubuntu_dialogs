@@ -1,0 +1,4 @@
+2007-06-07T06:14:00.000Z	defjux		i want to launch xscreensaver on login but when i put xscreensaver-command -lock it doesnt work!! how can i put a few seconds before the command.. i think it is running before xscreensaver starts!!
+2007-06-07T06:14:00.000Z	defjux		i put it as a command in sessions i mean
+2007-06-07T06:15:00.000Z	defjux		can i put commas before it?
+2007-06-07T06:15:00.000Z	keith1234	defjux	sleep 5; xscreensaver-command -lock

@@ -1,0 +1,4 @@
+2006-11-21T14:55:00.000Z	savvas		$ gcc hello.cpp -o hello
+2006-11-21T14:55:00.000Z	savvas		gcc: error trying to exec 'cc1plus': execvp: No such file or directory
+2006-11-21T14:55:00.000Z	crimsun	savvas	apt-get --reinstall install build-essential
+2006-11-21T14:56:00.000Z	crimsun	savvas	and use g++ for C++ files

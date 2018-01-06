@@ -1,0 +1,4 @@
+2011-01-03T05:15:00.000Z	av_oc		I was wondering if someone could help me with postfix.  I am running postfix with courier and have successfully been able to send and receive mail to and from my domain to the outside.  The problem is when I try to connect to the server from outside the domain, I can receive mail via pop3 but the server is not authenticating on the outgoing side SMTP.  any ideas?
+2011-01-03T05:16:00.000Z	bucky	av_oc	will your isp let you.. most block those ports
+2011-01-03T05:17:00.000Z	av_oc	bucky	- isp isn't the issue, i am using a mailhop service through dyndns.  clients from within the domain can send mail out to external addresses fine
+2011-01-03T05:18:00.000Z	av_oc	bucky	- also what is strange is that i can connect to the server from the outside and receive, i just cant connect to send.  it is an authentication issue

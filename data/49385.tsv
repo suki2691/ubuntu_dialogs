@@ -1,0 +1,4 @@
+2012-08-08T15:48:00.000Z	Asad2005		I have installed ubuntu-zfs and moved my /home to myzfs/home, the only problem i have is that the myzfs/home doesnot automatically mount during boot. Do i need to put a startup script for sudo zfs mount -a . Is there a better solution?
+2012-08-08T15:50:00.000Z	ceil	Asad2005	can't put it in /etc/fstab?
+2012-08-08T15:53:00.000Z	Asad2005	ceil	its a zfs how can i put in fstab ?
+2012-08-08T15:54:00.000Z	ceil	Asad2005	i've never used zfs, i just didn't know it was all that special

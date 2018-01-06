@@ -1,0 +1,4 @@
+2007-03-13T12:35:00.000Z	Tangee		ok...grub problem...
+2007-03-13T12:37:00.000Z	Tangee		i rejigged some partitions which caused my root partition to change from /dev/hda3 to hda2 and now grub wont work
+2007-03-13T12:37:00.000Z	Tangee		it goes straight to command line
+2007-03-13T12:37:00.000Z	bruenig	Tangee	just change the hd (0,2) to hd (0,1) right

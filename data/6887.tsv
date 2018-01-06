@@ -1,0 +1,4 @@
+2011-12-26T04:33:00.000Z	dianarc		 I installed SUN JDK and then removed OpenJDK... after this, Google Chrome doesn't find anymore the Java plugin... any idea?
+2011-12-26T04:34:00.000Z	dianarc		 tried to add a directory and symbolic link as suggested in some guides but, no good results
+2011-12-26T04:35:00.000Z	dianarc		A link to /usr/lib/jvm/java-6-sun/jre/plugin/i386/ns7/libjavaplugin_oji.so
+2011-12-26T04:36:00.000Z	metaspike	dianarc	rm your symbolic link, install java6-sun-plugin

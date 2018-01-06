@@ -1,0 +1,4 @@
+2010-05-29T17:54:00.000Z	vijayv		The install downloaded all the packages (approx 2 GB) but during install it failed during teh end stage while contacting the net to download additional packages e.g flash etc. It kept on retrying the connection for hours on end without success. I did a reboot and now while most of teh stuff seems to be fine some of the applications are not working.
+2010-05-29T17:55:00.000Z	vijayv		e.g. I am able to browse using epiphany but not using firefox.  wget google .com results in "resolving 1.0.0.0'
+2010-05-29T17:57:00.000Z	stefg	vijayv	you should run 'sudo apt-get -f install' to make sure you have no broken dependencies and 'sudo dpkg --configure -a' to make sure that all installed packages are in a consitent state
+2010-05-29T18:00:00.000Z	vijayv	stefg	that did not help. Nothing new  was installed :( searching for this issue on www resulted in suggestions to disable ipv6 but I am not seeing any of the config files listed to do this

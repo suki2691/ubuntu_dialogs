@@ -1,0 +1,4 @@
+2006-10-23T07:29:00.000Z	lucaferr		why can't I see links to synaptic from the desktop/menus?  I'm running as a nis user.. do I need to belong to a certain group?
+2006-10-23T07:30:00.000Z	JosefK	lucaferr	you could add your username to the 'wheel' group (locally), and enable wheel in /etc/sudoers
+2006-10-23T07:31:00.000Z	JosefK	lucaferr	killall gnome-panel
+2006-10-23T07:31:00.000Z	JosefK	lucaferr	you may have to logout/login again, if killing gnome-panel doesn't work

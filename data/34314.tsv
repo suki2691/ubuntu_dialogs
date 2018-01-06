@@ -1,0 +1,4 @@
+2011-02-13T01:03:00.000Z	mbutubuntu		hello folks, I've discovered that CONFIG_NFS_CACHE is not set into the official Ubuntu kernel, is there any way to get fscache working for NFS without compiling any kernel? thanks
+2011-02-13T01:04:00.000Z	kevdog	mbutubuntu	Usually if an external module was compiled against the kernel source its possible to load the external module
+2011-02-13T01:06:00.000Z	mbutubuntu	kevdog	it's possible to load fscache but it doesn't work, read this link to understand http://ubuntuforums.org/showthread.php?t=1497132, it was for an old Ubuntu version but I can't find any other stuff on this argument
+2011-02-13T01:07:00.000Z	mbutubuntu	kevdog	configuring cachefilesd and giving the fsc option to mount, I discover that NFS volumes are not using FSC (/proc/fs/nfsfs/volumes)

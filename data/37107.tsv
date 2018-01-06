@@ -1,0 +1,4 @@
+2011-01-13T13:12:00.000Z	agris		hi there! on ubuntu 10.04 lts  server - what problems can there be for pptpd not to respond for lan connections? I mean, on test virtual pc, everything is ok, on production server - netstat says port 1723 is listening and it can be connected locally
+2011-01-13T13:12:00.000Z	agris		and from other lan stations - do not work
+2011-01-13T13:13:00.000Z	thiefy	agris	on the router make sure to allow UDP to be pushed through port 1723  - not tcp
+2011-01-13T13:14:00.000Z	agris	thiefy	ok i'll try, thanks

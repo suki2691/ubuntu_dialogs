@@ -1,0 +1,4 @@
+2009-09-13T00:08:00.000Z	puff		hm, how do you find the /dev/whatever for an umounted usb device?
+2009-09-13T00:08:00.000Z	jmarsden	puff	mount     outputs a list of mounted devices...
+2009-09-13T00:09:00.000Z	puff	jmarsden	And  unmounted devices/
+2009-09-13T00:10:00.000Z	jmarsden	puff	You might be able to insert the USB device and grep through your logs for what was done to it when it was detected...?

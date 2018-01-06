@@ -1,0 +1,4 @@
+2011-10-30T06:15:00.000Z	smellydog		hi, I am using Ubuntu 11.10 Desktop edition, is there a way to temporary disable GUI? tried GRUB_CMDLINE_LINUX_DEFAULT="text" in /etc/default/grub, not work...
+2011-10-30T06:16:00.000Z	zykotick9	smellydog	if you just want to stop X for a specific purpose i think "sudo service lightdm stop" should work (if the service is actually called lightdm, which i'm not sure)
+2011-10-30T06:21:00.000Z	zykotick9	smellydog	with or without sudo?
+2011-10-30T06:21:00.000Z	zykotick9	smellydog	ok, just checkin'

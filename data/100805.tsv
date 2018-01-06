@@ -1,0 +1,4 @@
+2009-08-20T10:46:00.000Z	Karhuton		question: how can i see the package update descriptions from command line? the "bugs fixed" info that is shown in the graphical updater
+2009-08-20T10:46:00.000Z	Karhuton		i've tried googling for this but seems impossible because the terms are too vague
+2009-08-20T10:47:00.000Z	canthony	Karhuton	apt-cache show <pkg> might provide that info
+2009-08-20T10:49:00.000Z	Karhuton	canthony	i now have apache2 as upgradable package but apt-cache didn't show anything extra

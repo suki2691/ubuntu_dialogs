@@ -1,0 +1,4 @@
+2005-10-17T06:33:00.000Z	nemopaice		I have windows on first HD and Ubuntu on second. Before I can get rid of windows I need to fid a way to transfer fy files. ......How can I access my other HD with windows on it from Linux?
+2005-10-17T06:33:00.000Z	budluva	nemopaice	mount the windows drive via linux
+2005-10-17T06:34:00.000Z	budluva	nemopaice	boot to ubuntu, then mount -t iso9660 /dev/hdcX /mount/whereever/you/want
+2005-10-17T06:34:00.000Z	budluva	nemopaice	/dev/hdcX is your windows drive

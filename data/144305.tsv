@@ -1,0 +1,4 @@
+2007-03-14T16:13:00.000Z	Evil_`		how can I make a file "non world writable"
+2007-03-14T16:14:00.000Z	bruenig	Evil_`	you don't want anyone writing to it or just "others"
+2007-03-14T16:14:00.000Z	Evil_`	bruenig	when I try to run phpmyadmin with lampp, it says "Wrong permissions on configuration file, should not be world writable!"
+2007-03-14T16:15:00.000Z	bruenig	Evil_`	hmmm, I would sudo chmod go-w it

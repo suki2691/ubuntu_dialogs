@@ -1,0 +1,4 @@
+2011-10-09T00:49:00.000Z	hexacode		hey you guys  i cant install mysql ...apt-get cant even find the file  .... heres my /etc/apt/sources.list http://74.207.251.218/sources.list     and on the bottom is the error i get when i do a "sudo apt-get install mysql"
+2011-10-09T00:51:00.000Z	hexacode		i believe 10.01 lts
+2011-10-09T00:51:00.000Z	guntbert	hexacode	you need mysql-server (or see !lamp)
+2011-10-09T00:52:00.000Z	guntbert	hexacode	no, you are not, you might want mysql-client too :-))

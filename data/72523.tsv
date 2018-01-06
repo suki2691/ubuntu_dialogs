@@ -1,0 +1,4 @@
+2010-05-08T04:56:00.000Z	short		Hi all, since Ubuntu 10.04 when I start the system MySQL hangs. I know it has been upgraded to an upstart job. I'm trying to stop it but can't do anything. What shall I do?
+2010-05-08T04:58:00.000Z	onetinsoldier	short	have you tried purging MySQL from your system with the package manager. then say, doing an 'updatedb' and then using 'locate' to try and find if there's still leftover myswl stuff on your system that needs to be deleted, and then finally reinstalling mysql?
+2010-05-08T04:59:00.000Z	short	onetinsoldier	no I haven't. I'm going to give it a try
+2010-05-08T05:00:00.000Z	onetinsoldier	short	ok, roger.. good luck

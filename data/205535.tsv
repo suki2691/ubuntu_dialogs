@@ -1,0 +1,4 @@
+2006-01-28T12:48:00.000Z	mojo_		I have a multi-boot question... hda = 30G, hdb=60G; GRUB on MBR of hda boots Ubuntu, which lives on hdb.  I want to install WinXP Pro on hda.  What is the best way to go about this?  BTW hdb has one active ubuntu and one for testing, so i can re-install ubuntu on the alt part. on hdb if needed for this to all work
+2006-01-28T12:50:00.000Z	mitrovarr	mojo_	 Before you start, you might want to install grub on a floppy so you can boot if something goes horribly wrong
+2006-01-28T12:51:00.000Z	mojo_	mitrovarr	horribly wrong = livecd or techie's boot cd ;)
+2006-01-28T12:52:00.000Z	mitrovarr	mojo_	yeah but with a grub floppy you can get your own personal grub setup, not have to muck around booting things manually

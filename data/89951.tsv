@@ -1,0 +1,4 @@
+2008-08-03T01:44:00.000Z	youknowme		I need to change permissions on my media drive, but nautilus is fail. Is there a CLI command to do the job?
+2008-08-03T01:44:00.000Z	anirudh0	youknowme	change permissions on drive or folder?
+2008-08-03T01:51:00.000Z	anirudh0	youknowme	 sudo chmod 777 <folder>/*
+2008-08-03T01:54:00.000Z	anirudh0	youknowme	check output of ls -l ...it should show a string of xxxxxxxxx

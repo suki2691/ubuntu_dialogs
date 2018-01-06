@@ -1,0 +1,4 @@
+2012-10-20T20:45:00.000Z	Optichip	akls	you can do a sudo apt-get -s install package >> package.txt
+2012-10-20T20:49:00.000Z	akls	Optichip	yep. is there any way to get more clear output?
+2012-10-20T20:51:00.000Z	Optichip	akls	you'd have to use sed to clean it up with what you want.
+2012-10-20T20:56:00.000Z	akls	Optichip	apt-show-versions -u -b

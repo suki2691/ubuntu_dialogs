@@ -1,0 +1,4 @@
+2012-08-08T03:53:00.000Z	dae44		I have remote desktop set up on an Ubuntu 12.04 box, but after reboot I can't log in - I can get in via SSH. Does logging in with TIghtVNC require a full X session to already be open? If so, how do I do that remotely?
+2012-08-08T03:54:00.000Z	Dr_Willis	dae44	 you can ssh and run the vncserver then connect via a vnc client to the hidden vnc desktop.
+2012-08-08T03:55:00.000Z	Dr_Willis	dae44	 t TightVNC does NOT share the current visible desktop. It can have its own custom 'hidden' desktop
+2012-08-08T03:57:00.000Z	dae44	Dr_Willis	gotcha, thank you!

@@ -1,0 +1,4 @@
+2009-01-07T01:21:00.000Z	gnurph69		I'm running Ubuntu 8.10 trying to access Windows server shares - do I need SAMBA, or is there a better way?  I'm trying not to have to install the whole SAMBA package....
+2009-01-07T01:22:00.000Z	Slart	gnurph69	you really just need the samba client, not the server part
+2009-01-07T01:22:00.000Z	Slart	gnurph69	I think the client is installed by default
+2009-01-07T01:28:00.000Z	Slart	gnurph69	I'm not really sure.. you can go to windows network locations in nautilus by using smb://bla bla bla in the address field I think.. but check the ubuntu samba docs for more info, type !samba here in the channel for some bot info

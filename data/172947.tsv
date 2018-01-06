@@ -1,0 +1,4 @@
+2007-10-31T23:11:00.000Z	XiXaQ		I write something to a textfile using echo. How can I add a newline, like this? echo "Log $(date) \n $(some_command)" >> mylogfile.log
+2007-10-31T23:11:00.000Z	aninhumer	XiXaQ	backslash enter
+2007-10-31T23:12:00.000Z	aninhumer	XiXaQ	the backslash escapes the newline
+2007-10-31T23:14:00.000Z	XiXaQ	aninhumer	echo -e "test1\ntest2" writes test1 and test2 on one line each :)

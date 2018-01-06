@@ -1,0 +1,4 @@
+2006-11-06T13:46:00.000Z	recon0		I just compiled a perfectly good c "hello world" program with gcc, and when I try to run it, I get "Segmentation Fault (core dumped)". I'm pretty sure that's not supposed to happen.
+2006-11-06T13:47:00.000Z	quintin	recon0	pastebin the source
+2006-11-06T13:48:00.000Z	recon0	quintin	after including stdio.h, the source is "void main(){printf("\nHello World\n");}".
+2006-11-06T13:55:00.000Z	recon0	quintin	forget about it. I recompiled it, and it worked. weird.

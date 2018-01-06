@@ -1,0 +1,4 @@
+2009-09-06T00:50:00.000Z	fiber		hello.... i was doing an scp transfer of a folder with a BUNCH of data in it (~150GB) and the connection cut midway... is there any way I can resume the transfer without restarting everything? something like a `cp -u` parameter?
+2009-09-06T00:51:00.000Z	grawity	fiber	You could use sshfs to mount it as a local system, and then use cp -u or whatever.
+2009-09-06T00:52:00.000Z	fiber	grawity	hrm, that is an idea
+2009-09-06T00:52:00.000Z	grawity	fiber	yes, rsync usually goes over SSH.

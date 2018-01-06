@@ -1,0 +1,4 @@
+2007-10-12T05:34:00.000Z	f0rtune		Hi, Im using gproftpd, is there a way to let a user access all folders and files, without having to list every folder in the 'users' tab?
+2007-10-12T05:36:00.000Z	f0rtune		how do i allow a user to access all files and folders with gproftpd?
+2007-10-12T05:37:00.000Z	pike_	f0rtune	i assume there is a config file in /etc/ but youd need to check man page 'man gproftpd' or google or whatever sorry i dunno if many here will be familiar with that ftp server
+2007-10-12T05:38:00.000Z	pike_	f0rtune	consider openssh-server as an alternative you can then use sftp and scp  winscp is a popular windows client for it

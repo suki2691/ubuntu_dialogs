@@ -1,0 +1,4 @@
+2006-03-26T06:27:00.000Z	Toma-		I just ran memtest and found out my first 512kb of my ram is damaged. system loads fine, but i get some nasty system locks when using the ram extensively. Is there a way to let the kernel know to not use that first 1mb? maybe make a 1mb ramdisk?
+2006-03-26T06:27:00.000Z	beardy	Toma-	google badram patch
+2006-03-26T06:28:00.000Z	Toma-	beardy	i saw that, but its only for 2.6.9 kernel...
+2006-03-26T06:28:00.000Z	beardy	Toma-	So? Use that then if you don't want to patch. It's a matter of choosing if you want to be able to use your box or not.

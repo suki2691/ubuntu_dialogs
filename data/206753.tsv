@@ -1,0 +1,4 @@
+2006-08-22T10:04:00.000Z	jackie		hi, i am following https://help.ubuntu.com/community/BinaryDriverHowto/Nvidia#head-20c0b7106f06055eed889efe3946f560c34a8b1a      to install 3d of geforce 5200, but  when i sudo nvidia-glx-config enable, it tells me "error: your x configuration has been altered. this script cannot automatically. if you bellieve that this not correct, you can update the md5sum entry executing the following command: md5sum /etc/X11/xorg.conf | sudo tee /var/lib/x11xorg.cong .
+2006-08-22T10:04:00.000Z	jackie		md5sum otherwise edit manually /etc/X11/xorg.conf to change the driver section from nv to nvidia." what should i do???
+2006-08-22T10:06:00.000Z	sethk	jackie	you have to have left out part of that message
+2006-08-22T10:06:00.000Z	sethk	jackie	paste it into a pastebot if you can

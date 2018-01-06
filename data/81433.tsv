@@ -1,0 +1,4 @@
+2008-08-23T05:35:00.000Z	wanderingii		i want to install an application that requires glibc 2.3.6 and python 2.5. how do i find out if these are installed?
+2008-08-23T05:36:00.000Z	P041NX	wanderingii	dpkg -l '*glibc*'
+2008-08-23T05:43:00.000Z	P041NX	wanderingii	:normaly that's in the /usr/lib/libpython2.4.so.1.0 for ubuntu. check if it's there?
+2008-08-23T05:47:00.000Z	P041NX	wanderingii	might be easyer if you reinstall the python, as oviously something is missing, may it be the lib, the link, or whatever. apt-get remove python ; apt-get install python

@@ -1,0 +1,4 @@
+2006-11-14T14:14:00.000Z	dcordes		what is the key combination to close a running process while in command line mode?
+2006-11-14T14:16:00.000Z	ifireball	dcordes	is the program is taking up your foreground, you can try ctrl+C or ctrl+z to freez it and go to the shell
+2006-11-14T14:16:00.000Z	dcordes	ifireball	nice. that's what i was looking for. thanks a lot
+2006-11-14T14:17:00.000Z	ifireball	dcordes	note that after ctrl+z the process stays in memory, you can see the list of thos processes with "jobs"

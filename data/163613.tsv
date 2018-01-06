@@ -1,0 +1,4 @@
+2009-08-19T12:43:00.000Z	paul68		I run a 9.04 ubuntu server edition in virtual box I want to install the dhcp server package however I get the following error after entering sudo apt-get install dhcp3-server  Couldn't find the package what do I need to do to be able to install the dhcp server in virtualbox
+2009-08-19T12:43:00.000Z	Daviey	paul68	try sudo apt-get update
+2009-08-19T12:44:00.000Z	Daviey	paul68	then sudo apt-get install dhcp3-server
+2009-08-19T12:44:00.000Z	Daviey	paul68	I assume you have a working net connection inside your virtual machine

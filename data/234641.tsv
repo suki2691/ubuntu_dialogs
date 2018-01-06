@@ -1,0 +1,4 @@
+2008-09-08T17:42:00.000Z	JackTop		hmm i think i really have problems.  parted shows / as sda5, but grub need it as (hd0,6)
+2008-09-08T17:42:00.000Z	JackTop		i'm pretty sure that sda6 used to be my root...
+2008-09-08T17:43:00.000Z	dooglus	JackTop	sda6 is (hd0,5) I think
+2008-09-08T17:44:00.000Z	dooglus	JackTop	I have "root (hd0,1)" and "root=/dev/hda2"

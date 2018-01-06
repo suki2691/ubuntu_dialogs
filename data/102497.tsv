@@ -1,0 +1,4 @@
+2011-05-15T04:09:00.000Z	nikhgupta		hey.. can someone tell me why "gnome-terminal --tab -e 'source ~/.bashrc'" give: cant create child process.. no file or directory: source
+2011-05-15T04:10:00.000Z	nikhgupta		seems like gnome-terminal needs to run a user-shell first? and -e option is overriding that shell... if so, can someone tell me how I can run my user-shell
+2011-05-15T04:11:00.000Z	rww	nikhgupta	'source' is a bash builtin, not an actual command. gnome-terminal is not bash, so it doesn't know what 'source' means.
+2011-05-15T04:11:00.000Z	rww	nikhgupta	oh, escott beat me to it :)

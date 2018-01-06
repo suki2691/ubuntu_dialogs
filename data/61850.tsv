@@ -1,0 +1,4 @@
+2009-10-03T14:52:00.000Z	woble		hey there, how to set global proxy settings in Ubuntu? Had privoxy installed.. removed it and still everything loops through 127.0.0.0:8118
+2009-10-03T14:53:00.000Z	grawity	woble	If you just removed it (without logging out and in again), then your apps might have $HTTP_PROXY set.
+2009-10-03T14:53:00.000Z	grawity	woble	Hmm. Then browse the Settings menu... I think it's under 'Preferences'
+2009-10-03T14:54:00.000Z	grawity	woble	And, echo $HTTP_PROXY

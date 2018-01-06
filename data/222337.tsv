@@ -1,0 +1,4 @@
+2006-04-28T10:14:00.000Z	intelikey		ok i finally got the thing booted....  now all i need is an initrd that will work.      2.6.15-20-386     sujestions ?
+2006-04-28T10:15:00.000Z	intelikey		here's my issue,  at boot time it always drops me into a busybox shell in the ramfs   no device nodes in /dev but console and root    /  is on scsi sda1  ext2fs  but it cant mount /       i need a working initrd.img-2.6.15-20-386    i've rebuilt this one but it didn't help a thing.
+2006-04-28T10:16:00.000Z	hollywoodb	intelikey	check /boot/grub/grub.conf ? default breezy install for sata left me with a broken 'root=' option
+2006-04-28T10:17:00.000Z	intelikey	hollywoodb	 i've re done lilo.conf and it's not the boot loader.

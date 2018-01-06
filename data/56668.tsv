@@ -1,0 +1,4 @@
+2009-07-23T03:31:00.000Z	vr_mex		i screwd up and need to re-generate the system wide rsa and dsa keys again, I can see they are at /etc/ssh/ssh_host_dsa_key... how can i do it?
+2009-07-23T03:32:00.000Z	Teknoenie	vr_mex	you can move the original keys out of the way, then re-run /etc/init.d/sshd if for global keys
+2009-07-23T03:34:00.000Z	vr_mex	Teknoenie	ok, and how do i re run etc/init.d/sshd ?
+2009-07-23T03:44:00.000Z	vr_mex	Teknoenie	ok, and how do i re run etc/init.d/sshd restart i get a command not found but i do have /usr/sbin/sshd what am i doing wrong to re-generate the system wide keys?

@@ -1,0 +1,4 @@
+2008-02-05T02:59:00.000Z	niowe		hi. My sata drive keeps giving me problems. It is ext3. I am running fsck /dev/sda2 -y . is this ok? I see that some people run fsck.ext3.. Am I doing this wrong???
+2008-02-05T03:00:00.000Z	niowe		is it safe to 'fsck /drive' on ext3 ?
+2008-02-05T03:00:00.000Z	savvas	niowe	I think there's no -y argument, try fsck /dev/sda2
+2008-02-05T03:01:00.000Z	niowe	savvas	thanks...   -y that means 'answer yes to all questions'

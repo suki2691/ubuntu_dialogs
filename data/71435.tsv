@@ -1,0 +1,4 @@
+2009-05-30T08:43:00.000Z	ericdb		Ligatures ("fi", "ff", "fl") don't render correctly on my 8.10 install (they look a little smaller and lighter than the surrounding text). It happens with Deja Vu Sans, which is used in a lot of places on my desktop, and a few other fonts...but not in OpenOffice with the same fonts, oddly.  Any suggestions on how to troubleshoot this?
+2009-05-30T08:45:00.000Z	Jordan_U_	ericdb	System > Preferences > Appearance > fonts > advanced, make sure if you have an LCD it is set for LCD, and opposite for CRT
+2009-05-30T08:47:00.000Z	ericdb	Jordan_U_	It is set for LCD, not CRT and subpixel hinting is working properly.
+2009-05-30T08:48:00.000Z	ericdb	Jordan_U_	It's actually drawing some pairs of letters a bit too small.  I type "f", and it looks normal, but then I type "i", and I actually see it shrink.

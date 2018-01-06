@@ -1,0 +1,4 @@
+2011-05-08T00:47:00.000Z	darkorical		I have a folder that is shared via samba and has new folders created in it by other applications (mostly Transmission) is there a way to set it to force all new folders/files created in it to 0777 ?
+2011-05-08T00:48:00.000Z	llutz	darkorical	"create mask = 0777" in smb.conf
+2011-05-08T00:49:00.000Z	llutz	darkorical	err* "create mask = 0000" in smb.conf
+2011-05-08T01:00:00.000Z	darkorical	llutz	I tried create mask  ="0000" and 0777 as well as both for direcotry mask and new folders created by transmission still come up 0755

@@ -1,0 +1,4 @@
+2009-03-28T00:46:00.000Z	fool_		hey guys i happen to delete /etc/mysql
+2009-03-28T00:47:00.000Z	fool_		how can i get it back ?
+2009-03-28T00:47:00.000Z	fool_		purging mysql-server and install doesn't work
+2009-03-28T00:47:00.000Z	cj	fool_	dpkg -S /etc/mysql

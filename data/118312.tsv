@@ -1,0 +1,4 @@
+2009-12-20T02:29:00.000Z	rob_p	Hilikus	"sed -n '8,12p' < somefile.txt" will print lines 8 through 12 of somefile.txt.  Is that what you are looking for?
+2009-12-20T02:29:00.000Z	Hilikus	rob_p	yes, thanks
+2009-12-20T02:29:00.000Z	rob_p	Hilikus	welcome
+2009-12-20T02:32:00.000Z	rob_p	Hilikus	You could use awk as well.  Just replace with, "awk 'NR==8,NR==12'" and it should yield the same result.

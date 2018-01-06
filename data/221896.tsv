@@ -1,0 +1,4 @@
+2005-10-22T13:30:00.000Z	_native_		The  Gnome networking applet should write its setttings to resolv.conf right?
+2005-10-22T13:32:00.000Z	_native_		because when changing the gateway address it does not take effect i have to edit resolv.conf manually. this started today.
+2005-10-22T13:33:00.000Z	_native_		or i mean the nameserver address in resolv.conf does not get updated when using the gnome networking applet
+2005-10-22T13:34:00.000Z	aftertaf	_native_	 try : sudo /etc/init.d/networking restart

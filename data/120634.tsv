@@ -1,0 +1,4 @@
+2009-08-13T17:06:00.000Z	kippy		Guys, how can I make ubuntu forget the applications that it has remembered? ( I checked and now unchecked the Remember running applications when logging out, but even now the applications open up)
+2009-08-13T17:06:00.000Z	danbhfive	kippy	thats a bug, I know the command to clobber/fix, one sec
+2009-08-13T17:06:00.000Z	kippy	jaunty09	click on set system time and then unlock using your password, you should be able to do it
+2009-08-13T17:07:00.000Z	danbhfive	kippy	I think you can just: rm -R ~/.config/gnome-session

@@ -1,0 +1,4 @@
+2007-10-24T04:10:00.000Z	SuicideSalmon		I want to create a guest account for ssh that has no password, and has access only to /home/guest/* - how do I do this? Firstly it won't let me miss out a password, and secondly I'm not sure how to restrict access
+2007-10-24T04:10:00.000Z	gerro	SuicideSalmon	edit your password section remove it
+2007-10-24T04:12:00.000Z	SuicideSalmon	gerro	so in /etc/passwd I change it from guest:x:1001etc to guest::1001etc?
+2007-10-24T04:12:00.000Z	gerro	SuicideSalmon	yep

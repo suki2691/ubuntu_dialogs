@@ -1,0 +1,4 @@
+2010-06-30T00:20:00.000Z	jamesanelay		Hello people, I just installed ubuntu desktop and my resonlution is being capped at 800x600 I used to be gettin much bigger than this on widows. Anyone know how i can change it ?
+2010-06-30T00:20:00.000Z	ActionParsnip	jamesanelay	run: lspci | grep -i vga    websearch for the output
+2010-06-30T00:41:00.000Z	ActionParsnip	jamesanelay	you have the driver installed and configured in windows, but not in Ubuntu
+2010-06-30T00:42:00.000Z	ActionParsnip	jamesanelay	run: lspci | grep -i vga      websearch for the output to find guides

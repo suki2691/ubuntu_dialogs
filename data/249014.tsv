@@ -1,0 +1,4 @@
+2005-03-04T16:29:00.000Z	morchuboo		i can ping my ubuntu box, it connects to the local network on eth0 but the internet on my other network card eth1 - do i need to bridge them so local network can see eth1?
+2005-03-04T16:29:00.000Z	GammaRay	morchuboo	I'm not really sure how cable works but check /etc/resolv.conf for any dns entries your laptop can use
+2005-03-04T16:29:00.000Z	morchuboo	GammaRay	thnx - ill try
+2005-03-04T16:33:00.000Z	morchuboo	GammaRay	That worked a charm! thank you - guess i should have used DHCP, would have done it for me - thank you very much

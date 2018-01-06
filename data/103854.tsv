@@ -1,0 +1,4 @@
+2011-02-06T00:50:00.000Z	morphles		what hell.. how i dissable frickin nouveaou driver in 10.04.... rmmod does not let me remove that, since it is in use, by god knows what, i blacklisted it, and some other modules that people suggested in forums, rebuild initramfs, even booted to recovery mode, its still there... what a f....
+2011-02-06T00:51:00.000Z	ActionParsnip	morphles	you can run:  echo "blacklist nouveau" | sudo tell /etc/modprobe.d/nouveau.conf   and it wil blacklist the driver
+2011-02-06T00:51:00.000Z	ActionParsnip	morphles	or you can uninstall the package which provides it in apt-get / software centre / whatever
+2011-02-06T00:52:00.000Z	ActionParsnip	morphles	no, but the command won't impact on any other of the conf files ;)

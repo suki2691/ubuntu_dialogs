@@ -1,0 +1,4 @@
+2007-06-11T16:49:00.000Z	slippyr4		hi all, what is the shell equivalent of that software updator applet? i want to be able to update all out-of-date packages at the type of a command...
+2007-06-11T16:50:00.000Z	zipper	slippyr4	'apt-get update && apt-get upgrade'
+2007-06-11T16:51:00.000Z	zipper	slippyr4	the '&&' means that 'apt-get upgrade' will be run, only if 'apt-get update' ends succesfully
+2007-06-11T16:52:00.000Z	zipper	slippyr4	not sure. I *think* you'll have to build that module again.

@@ -1,0 +1,4 @@
+2008-11-13T13:54:00.000Z	mddd		can any one help me : my ntfs drives of windows and data drive are not being displayed in ubuntu
+2008-11-13T13:56:00.000Z	mddd		why are my other partitions of my drive not being displayed ,they are in ntfs format
+2008-11-13T13:56:00.000Z	BulBulRed	mddd	you need to install a package for this: ntfs-config. Install this by (sudo apt-get install ntfs-config) and then run it (sudo ntfs-config OR menu): enable read and write support
+2008-11-13T13:57:00.000Z	BulBulRed	mddd	by checking the checkboxes for this in the ntfs-config dialog

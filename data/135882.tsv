@@ -1,0 +1,4 @@
+2007-05-16T12:53:00.000Z	Luke9511		how do i reinstall xserver?
+2007-05-16T12:54:00.000Z	Luke9511		cry0x:i cant boot into windows cause it doesnt seem to detect my screen or something and i have tryed kde and reconfigureing the xorg.conf with no luck
+2007-05-16T12:54:00.000Z	_Ahti	Luke9511	i guess... You change your session to "Failsafe Terminal" on GDM, run "sudo apt-get remove --purge xserver" and then "sudo apt-get install xserver" 0_0'
+2007-05-16T12:55:00.000Z	_Ahti	Luke9511	depending on the issue, of course...

@@ -1,0 +1,4 @@
+2008-11-17T12:49:00.000Z	toastedmilk		Quick question:  I need the terminal command to find the model of my wired NIC.  Anyone?
+2008-11-17T12:51:00.000Z	toastedmilk		Quick question:  I need the terminal command to find the model of my wired NIC.  Anyone?
+2008-11-17T12:52:00.000Z	DIFH-iceroot	toastedmilk	dmesg | grep eth   that is what i would do
+2008-11-17T12:57:00.000Z	toastedmilk	DIFH-iceroot	I found it, but this is my real problem:  I ping 82.211.81.158(myself?  the router?) and get 0% successful packet transfer, as appossed to entirely not finding the address.  I have already tested my ethernet cords, and they are working fine.  I have also tested other computers on my network, and they work fine, but mine won't work even when they aren't using bandwidth.

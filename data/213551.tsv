@@ -1,0 +1,4 @@
+2010-07-30T14:07:00.000Z	Carsten-		hey guys I did something kinda dumb... I modified a home folders permissions with chmod when logged in as root.. is there anyway to return control of that folder the the relevant user?
+2010-07-30T14:07:00.000Z	Carsten-		So as that user can modify all the permissions in the folder
+2010-07-30T14:07:00.000Z	tonyyarusso	Carsten-	sure - are you in as root right now?
+2010-07-30T14:08:00.000Z	tonyyarusso	Carsten-	chown -R fred:fred /home/fred

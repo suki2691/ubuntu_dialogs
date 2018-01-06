@@ -1,0 +1,4 @@
+2009-06-26T22:42:00.000Z	ctmjr	the1corrupted	try sudo  dpkg-reconfigure -phigh xserver-xorg in a terminal then reboot
+2009-06-26T22:43:00.000Z	the1corrupted	ctmjr	I even tried that after reading xorg.conf comments.  Boot still fails.
+2009-06-26T22:44:00.000Z	the1corrupted		This is not the first time this has happened to me...
+2009-06-26T22:46:00.000Z	ctmjr	the1corrupted	try sudo  Xorg -configure it will not change anything but will give you a new xorg.conf file you can play with. it will tell you the name and  location of the file

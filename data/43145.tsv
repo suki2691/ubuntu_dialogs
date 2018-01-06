@@ -1,0 +1,4 @@
+2010-08-13T01:00:00.000Z	thune3	husimon	your question was so fragmented and incomplete it is hard to understand your problem. could you try it all on one line?
+2010-08-13T01:01:00.000Z	husimon	thune3	so it looks like somehow i've deleted part of the file but the space hasn't been freed up yet.  So I need to figure out how to get linux to release that inode.
+2010-08-13T01:06:00.000Z	thune3	husimon	you could also try "lsof | grep somefilenamepattern"
+2010-08-13T01:06:00.000Z	husimon	thune3	tried that first, didn't show up

@@ -1,0 +1,4 @@
+2007-09-13T14:03:00.000Z	holotone		how do I add a new admin user from bash while still making sure that it behaves just as if I had created it from the gui?
+2007-09-13T14:04:00.000Z	velko	holotone	use the command "adduser" or "useradd", add this user to the desired groups (/etc/groups) and give him sudo privileges (visudo)
+2007-09-13T14:06:00.000Z	holotone	velko	not sure how to add a user to a group, or the correct syntax for visudo
+2007-09-13T14:09:00.000Z	holotone	velko	Thanks!

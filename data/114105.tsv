@@ -1,0 +1,4 @@
+2007-12-23T00:33:00.000Z	magne_		I just ran the command sudo chown user /*/*    I tried to fix it by making everything owned by root and changing /home back. But I guess that's not all good either. Anyone know a way I can set everything back to default (hopefully not by reinstalling)
+2007-12-23T00:35:00.000Z	tony_math	magne_	I don't know if you can change the default permissions back to what they were before. What are the permissions now on the root directory? Who is the owner of the folders in the root directory?
+2007-12-23T00:37:00.000Z	magne_	tony_math	root is the owner. anyone else can only access files
+2007-12-23T00:39:00.000Z	tony_math	magne_	on my system, /etc/sudoers is owned by root. Only root has read access as well as members of the root group.

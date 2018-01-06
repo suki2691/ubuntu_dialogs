@@ -1,0 +1,4 @@
+2012-01-17T06:54:00.000Z	jimisrvrox1		hey guys trying to figure out how to backup my /dev/sda3 partition which is an extended partition with multiple partitions under it because I need to repartition my drive. I tried dd if=/dev/sda3 /media/LinuxBackup.img and did not work at all. Any help would be appreciated.
+2012-01-17T06:55:00.000Z	urlin2u	jimisrvrox1	clonzilla.org
+2012-01-17T07:02:00.000Z	jimisrvrox1	urlin2u	ok so with clonezilla I can put my sda3 partition into an image and then repartition it and then put all the fs and whatever partitions are there into the repartitioned sda3? essentially I need to make my home dir or maybe the root dir bigger because ive run out of space...
+2012-01-17T07:03:00.000Z	urlin2u	jimisrvrox1	clonezilla will save partitions and whole HD's, so set up the extended first then the ext the larger size and reload it back in. If your partition # is different that can be dealt with.

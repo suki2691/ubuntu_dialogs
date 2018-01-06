@@ -1,0 +1,4 @@
+2012-07-24T21:08:00.000Z	MrKronecker		I've just tried to perform a dist-upgrade on a fairly standard Ubuntu server, and I seem to have hit a snag. Note lines 30-32: http://paste.debian.net/hidden/94e7d20b/
+2012-07-24T21:08:00.000Z	MrKronecker		I have 2.1 available gigabytes on my drive, but
+2012-07-24T21:08:00.000Z	MrKronecker		it seems to be complaining about having no available disk space
+2012-07-24T21:09:00.000Z	Seveas	MrKronecker	kernels get installed into /boot, I'm guessing it's on a separate filesystem and now full. Try removing a few old kernels

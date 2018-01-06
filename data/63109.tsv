@@ -1,0 +1,4 @@
+2009-04-03T00:25:00.000Z	baz		whats the proper way to share folder between ubuntu machines? When I go to sharing options it wants to install a windows service but there are no windows boxes...
+2009-04-03T00:27:00.000Z	s3r3n1t7	baz	samba isn't a windows option. It can use the windows way of sharing, but it's not the same.
+2009-04-03T00:28:00.000Z	baz	s3r3n1t7	oh so its acceptable/effeicient to use it between linux boxes?
+2009-04-03T00:28:00.000Z	s3r3n1t7	baz	it's acceptable and easy to use in my opinion. However, i'd recommend going for SSHFS. A bit more setup, much more secure, and much easier to integrate for a longer period of time.

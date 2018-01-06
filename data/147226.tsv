@@ -1,0 +1,4 @@
+2007-02-12T10:46:00.000Z	LiENUS		is there a way to force a user to change their password next time they login to the console?
+2007-02-12T10:47:00.000Z	Agrajag	LiENUS	"passwd -f <username>" should do it
+2007-02-12T10:48:00.000Z	LiENUS	Agrajag	 -e expires the password
+2007-02-12T10:48:00.000Z	Agrajag	LiENUS	it's -f, (f)orce password change. do "man passwd" for more info

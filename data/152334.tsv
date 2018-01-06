@@ -1,0 +1,4 @@
+2006-12-31T12:04:00.000Z	rchf		Hi, got a screen resolution problem with my ATI card on my Dell Inspiron 9400.  Its displaying 1024x768 instead of the max 1440x900.  I have read and done most of what is in FixVideoResolutionHowTo and also >read only< the guidance on http://wiki.cchtml.com/index.php/Ubuntu_Dapper_Installation_Guide.  They all ask that I use the command 'aticonfig' which is not defined on my system nor can I find it in a repository.  Anyone knowledgeable abou
+2006-12-31T12:04:00.000Z	Stormx2	rchf	One moment
+2006-12-31T12:06:00.000Z	Stormx2	rchf	sudo dpkg-reconfigure xserver-xorg <-- hit enter until you get to the resolution seciton. Put a check in the resolutions you know your monitor can support
+2006-12-31T12:17:00.000Z	rchf	Stormx2	looks like my card is an ATI Graphics Card but Ubuntu reports the device as "Unknown (0x7145)"

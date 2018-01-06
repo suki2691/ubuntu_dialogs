@@ -1,0 +1,4 @@
+2009-02-14T07:37:00.000Z	zayn		if anyone can offer a newbie to ubuntu some grub menu help, please pm me
+2009-02-14T07:39:00.000Z	zayn		does /dev /sada7 mean I have 7 partitions?
+2009-02-14T07:40:00.000Z	WebcamWonder	zayn	sudo fdisk -l, to see a list of all partitions
+2009-02-14T07:40:00.000Z	WebcamWonder	zayn	Assuming you haven't overwritten the vista partition, you need to add a chainloader to your grub

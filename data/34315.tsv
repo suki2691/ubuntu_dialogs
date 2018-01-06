@@ -1,0 +1,4 @@
+2011-10-03T17:39:00.000Z	mbutubuntu		hello folks, I've discovered that in every shell I open the http_proxy enviroment variable is automatically set with an IP:PORT... I've never added that variable neither configured a main proxy for the OS... is there any conffile in /etc to disable this enviroment variable? thanks
+2011-10-03T17:40:00.000Z	mbutubuntu		[Is it possible ti could be a BUG, or a malicious software?]
+2011-10-03T17:40:00.000Z	jrib	mbutubuntu	you probably installed a package that set it.  Check /etc/environment maybe
+2011-10-03T17:41:00.000Z	mbutubuntu	jrib	no, it /etc/enviroment only PATH: is setted up

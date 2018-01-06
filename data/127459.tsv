@@ -1,0 +1,4 @@
+2007-09-17T06:55:00.000Z	mikubuntu		on the composite ubuntu support page refers to this repository; how do i obtain it? 'deb http://javadesktop.org/lg3d/debian stable contrib'
+2007-09-17T06:56:00.000Z	XiXaQ	mikubuntu	you can add repositories by using System > Administration > Software Sources or by adding them manually to /etc/apt/sources.list
+2007-09-17T07:00:00.000Z	mikubuntu	XiXaQ	deb http://javadesktop.org/lg3d/debian stable contrib  <----so does this look like the correct line to add to software sources, ezackly as you see it here?
+2007-09-17T07:01:00.000Z	XiXaQ	mikubuntu	it looks correct, but you should make certain it won't cause problems with Ubuntu before you use it.

@@ -1,0 +1,4 @@
+2007-05-07T08:11:00.000Z	LjL	HOT	/dev/null is a printer that prints on invisible paper :)
+2007-05-07T08:11:00.000Z	HOT		it all makes sense....
+2007-05-07T08:12:00.000Z	HOT	Jowi	i presume you use it when you need to see if something hits a "target" inode but dont actually want the results
+2007-05-07T08:12:00.000Z	LjL	HOT	when you use /dev/null, you want your program to believe that its writes are succeeding. at the same time, you don't care about whatever it's writing, so you're basically just telling your program "yes, yes, don't worry, you're actually writing to a file". but you're lying.

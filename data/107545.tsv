@@ -1,0 +1,4 @@
+2008-01-22T13:19:00.000Z	creature		Hello. I have recently installed Ubuntu. Ubuntu has decided it wants to use my onboard soundcard rather than my actual soundcard (a PCI card). How do I convince ALSA to forget about the motherboard and use the PCI card instead?
+2008-01-22T13:20:00.000Z	duvnel1	creature	either disable in bios or do a blacklist of your onboard in /etc/modules
+2008-01-22T13:20:00.000Z	creature	Junkee	I don't think so. But I'm not sure I'd want to. I don't mind the soundcard being there, and I may want to use it in future, but it's not the primary card.
+2008-01-22T13:21:00.000Z	duvnel1	creature	there are also sound prefs under the system menu

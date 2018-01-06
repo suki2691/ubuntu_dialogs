@@ -1,0 +1,4 @@
+2011-04-07T07:28:00.000Z	vhd		when you ctrl+z something in the terminal, does it get killed? or is it suspended? also what is the [1]+ for  when you use ctrl+z?
+2011-04-07T07:30:00.000Z	Aginor	vhd	you stop the process and you're returned to the shell. you can type bg to run it as a background process or fg to return it as a foreground process
+2011-04-07T07:32:00.000Z	Aginor	vhd	processes can chose to capture and ignore the kill, in which case you have to send them a SIGTERM (kill -9 <pid>)
+2011-04-07T07:33:00.000Z	Aginor	vhd	I can reccomend having a look at the jobs manpage

@@ -1,0 +1,4 @@
+2005-12-23T08:59:00.000Z	limaunion		Hi, I've a second harddrive with an ntfs filesystem, i can't access it because of 'permission denied'. I tried with chmod 555 /media/hdc2 but it didn't help. any tip ?
+2005-12-23T09:00:00.000Z	tiglionabbit	limaunion	you can't chmod it.  You have to mount it for a particular user, using gid=1000,pid=1000 for the first user, or the particular user number
+2005-12-23T09:00:00.000Z	tiglionabbit	limaunion	you can add these to the options in your fstab file.  Alternatively, you could become root while browsing it using the "sudo -s" command
+2005-12-23T09:01:00.000Z	limaunion	tiglionabbit	yes, but that's not what i want, I'll try the umask setting, thanks

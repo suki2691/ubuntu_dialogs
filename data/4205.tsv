@@ -1,0 +1,4 @@
+2012-04-02T11:48:00.000Z	sasori_		hi
+2012-04-02T11:49:00.000Z	sasori_		what command to execute in order to rename all the .txt files into .dat in just one blow ?
+2012-04-02T11:51:00.000Z	Oxygen02	sasori_	for f in *.txt ; do mv $f.dat; done;
+2012-04-02T11:53:00.000Z	sasori_	Oxygen02	is that a bash script?

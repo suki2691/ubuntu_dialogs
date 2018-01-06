@@ -1,0 +1,4 @@
+2009-12-16T02:07:00.000Z	azanoth		Hi everyone: When I run ruby from the bash shell, it uses the ruby found in /usr/bin. I want it to use a different ruby - the path name of which is also in my PATH variable - how do I do that?
+2009-12-16T02:08:00.000Z	guntbert	azanoth	call it with the full path
+2009-12-16T02:09:00.000Z	azanoth	guntbert	That works, but I'm looking for something more efficient. Is there any way to indicate that I'd like one PATH member to be used before another?
+2009-12-16T02:10:00.000Z	guntbert	azanoth	you can change your PATH variable (look into .bashrc or .profile for that)

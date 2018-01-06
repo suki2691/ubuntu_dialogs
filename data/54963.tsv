@@ -1,0 +1,4 @@
+2009-06-07T23:27:00.000Z	flea		ok how to create a new working xorg.conf?
+2009-06-07T23:28:00.000Z	flea		tried dpkg-reconf.. xserver-xorg, no input devices added.  rm'd /etc/X11/xorg.conf, tried restarting gdm... still only get X with no input device
+2009-06-07T23:28:00.000Z	flea		i've tried multiple variations of the steps above
+2009-06-07T23:28:00.000Z	ctmjr	flea	try this sudo dpkg-reconfigure -phigh xserver-xorg

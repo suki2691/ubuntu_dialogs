@@ -1,0 +1,4 @@
+2007-10-20T08:09:00.000Z	zeeeee		is there a utility that lets me run a program in a sandbox? eg, i just downloaded poweriso and need it to extract a daa file, but i don't trust it to be crapware-free. i know i can create a user and run it as that, but that's a hassle to do per app per run
+2007-10-20T08:10:00.000Z	IntuitiveNipple	zeeeee	 You could do it in a virtual machine guest using QEMU
+2007-10-20T08:12:00.000Z	zeeeee	IntuitiveNipple	i'll give that a shot
+2007-10-20T08:14:00.000Z	IntuitiveNipple	zeeeee	that's it... using qemu-launcher (an apt-get install) you'll get a nice GUI dialog front-end. With that you can quickly mount the ISO installer CD image as a CD, and boot the QEMU guest from it, install, and off you go

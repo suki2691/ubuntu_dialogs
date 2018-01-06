@@ -1,0 +1,4 @@
+2010-09-07T13:05:00.000Z	sts193		where does one put a web server to be able to access it outside of one's local network?
+2010-09-07T13:06:00.000Z	sts193		i can access it through localhost:8080
+2010-09-07T13:06:00.000Z	pfifo	sts193	closet #2 rack #7
+2010-09-07T13:09:00.000Z	pfifo	sts193	you probbally have it listening to only localhost, you have to specifically tell it to listen on other addresses, use 'netstat -l' to check if your listening to what you think your listening on

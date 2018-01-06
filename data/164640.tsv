@@ -1,0 +1,4 @@
+2009-10-16T05:53:00.000Z	hsarci		im trying to put "echo -n 230 > /sys/devices/platform/i8042/serio1/serio2/sensitivity" into /etc/rc.local. I have it in there, and rc.local is +x. However, the command doens't work; it won't execute at boot. But the command DOES work from the console after boot.
+2009-10-16T05:53:00.000Z	hsarci		any ideas?
+2009-10-16T05:54:00.000Z	dsnyders	hsarci	does it work if you execute it manually?
+2009-10-16T05:55:00.000Z	dsnyders	hsarci	I think bastidrazor  has it.  Put the full path in.

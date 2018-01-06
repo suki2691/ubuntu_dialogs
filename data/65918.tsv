@@ -1,0 +1,4 @@
+2011-12-20T01:01:00.000Z	dood		Hi.  I'm having a HECK of a time getting my LTSP server going.   I have gotten DCHP working and the ltsp server installed.   On my clients when they connect they get a dhcp ip address from the server, and start loading pxelinux.0 .  On the clients I see the UBUNTU loader logo come up for about 10 seconds, then it drops to a busybox!!!  Arg.  So frustrated.  Any pointers?  I'm wondering if it is a permission issue to allow client
+2011-12-20T01:01:00.000Z	dood		s to connect somewhere on the server.    Thanks in advance.
+2011-12-20T01:02:00.000Z	bean	dood	it probably can't find the correct file that it's looking for. I'd check the logs on the server.
+2011-12-20T01:03:00.000Z	dood	bean	where are the logs kept in 11.10?  (Just converted to Ubuntu from another flavor)

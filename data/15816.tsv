@@ -1,0 +1,4 @@
+2012-11-20T23:41:00.000Z	bkfitz		anyone know how to block a range of ip addresses with ufw
+2012-11-20T23:42:00.000Z	dtigue	bkfitz	http://www.guyrutenberg.com/2009/11/07/blocking-ip-range-using-ufw/
+2012-11-20T23:47:00.000Z	bkfitz	dtigue	so this will allow from what range of ip addreses: sudo ufw allow from 192.168.1.0/24 - 192.168.1.0 to 192.168.1.24?
+2012-11-20T23:47:00.000Z	bkfitz	dtigue	what if I want to ban 192.168.0.0 to 192.168.255.255

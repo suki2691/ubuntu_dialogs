@@ -1,0 +1,4 @@
+2007-06-20T08:40:00.000Z	Reed_		I am having a lot of problems with installing ubuntu 7.04. When I use the live CD, I get to the 1st load screen, everything goes fine and it just stops at a blank screen. When I use the alternate CD everything will load up until it asks me to select a Screen Resolution. After that it freezes at 6%
+2007-06-20T08:40:00.000Z	wolfeySI	Reed_	it could be your monitor (or video card) doesnt like default resolution
+2007-06-20T08:42:00.000Z	wolfeySI	Reed_	at boot you'd edit boot line and add vga=some_number like listed here http://wiki.antlinux.com/pmwiki.php?n=HowTos.VgaModes
+2007-06-20T08:42:00.000Z	wolfeySI	Reed_	dunno if that's problem, but it could be.

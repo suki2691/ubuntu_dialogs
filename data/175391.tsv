@@ -1,0 +1,4 @@
+2008-11-20T22:25:00.000Z	harvey		Hi all, I recently upgraded to 8.10 from 8.04 and now VLC and movieplayer doesnt work even though it worked before. I've added every codec there is, been in every tutorial there is and still nothing? What is going on does anyone know ?   And more importantly can anyone point me in the right direction?
+2008-11-20T22:26:00.000Z	aoupi	harvey	have you installed ubuntu-restricted-extras?
+2008-11-20T22:27:00.000Z	aoupi	harvey	try deleting your vlc config files, they are in ~/.config/vlc
+2008-11-20T22:28:00.000Z	aoupi	harvey	if that doesn't work, run vlc from the terminal, you should get some output that might tell what's wrong

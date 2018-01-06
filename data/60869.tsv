@@ -1,0 +1,4 @@
+2011-01-24T18:57:00.000Z	shadow98		what is command to start and stop remote desktop from command line
+2011-01-24T18:59:00.000Z	shcherbak	shadow98	vino-preferences is gtk application
+2011-01-24T19:01:00.000Z	shadow98	shcherbak	i want to stop and start it..or at least check if it is running..i can connect via ssh just not vnc
+2011-01-24T19:03:00.000Z	shcherbak	shadow98	netstat -tulp to check is it runs, iftop to monitor, to stop and kill - check init.d and maybe upstart

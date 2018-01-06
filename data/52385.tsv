@@ -1,0 +1,4 @@
+2012-09-24T00:18:00.000Z	bonno		hi.. why when i complete remove a program (terminal or synaptic)  some directories and some files in those directories keep staying there after the removal?
+2012-09-24T00:20:00.000Z	bonno		purge is only for terminal..what is the alt on synaptic?
+2012-09-24T00:20:00.000Z	kunji	bonno	It's because configuration is left in case you wanted to install it again latter, as jrib says, try using purge (sudo apt-get purge [package name])
+2012-09-24T00:23:00.000Z	kunji	bonno	umm, hmm, yeah that happens sometimes, you're probably fine to just manually delete them, but I couldn't say for sure without knowing more.  They were probably created by the package/program when it ran, rather than installed by apt.

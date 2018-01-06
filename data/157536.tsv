@@ -1,0 +1,4 @@
+2007-04-19T09:33:00.000Z	maxb_		Is there documentation about what weird magic goes on inside update-manager?
+2007-04-19T09:33:00.000Z	maxb_		I'd rather like to know what it's going to do, other than "apt-get dist-upgrade"
+2007-04-19T09:33:00.000Z	mjunx	maxb_	I believe it updates your sources.list and does a dist-upgrade basically
+2007-04-19T09:34:00.000Z	mjunx	maxb_	and automates some of the tasks needed after the upgrade (like updating /etc/kernel-img.conf I hope)

@@ -1,0 +1,4 @@
+2006-09-08T07:36:00.000Z	der0b		is there some way to find out what app is holding /dev/dsp open?
+2006-09-08T07:36:00.000Z	harisund	der0b	do fuser /dev/dsp
+2006-09-08T07:37:00.000Z	der0b	harisund	didn't seem to help
+2006-09-08T07:38:00.000Z	harisund	der0b	I hope you are using fuser the right way.... I'm not sure, but the last time I wanted to know what was taking over my /dev/dsp somebody said fuser and that worked fine for me :)

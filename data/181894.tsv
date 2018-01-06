@@ -1,0 +1,4 @@
+2006-06-07T15:45:00.000Z	gizmo_the_great		can anyone tell me how to search of the files in root (/) for a specific text string?
+2006-06-07T15:45:00.000Z	gizmo_the_great		i think I need to use GREP but unsure how
+2006-06-07T15:45:00.000Z	luke	gizmo_the_great	find / -name "string here" 2> /dev/null
+2006-06-07T15:47:00.000Z	gizmo_the_great	luke	its the text within the files I am after, not looking for the actual files.

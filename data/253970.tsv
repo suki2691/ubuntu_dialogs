@@ -1,0 +1,4 @@
+2009-03-03T10:18:00.000Z	opera		what command can dispaly the ruing program's id code?
+2009-03-03T10:19:00.000Z	opera		o .thank you TIAN8990
+2009-03-03T10:20:00.000Z	aperson	opera	I like to use: xprop | awk '/PID/ {print $3}' | xargs ps -p
+2009-03-03T10:20:00.000Z	aperson	opera	click on a window of a running program and it gives you the pid

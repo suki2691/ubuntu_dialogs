@@ -1,0 +1,4 @@
+2012-03-03T00:31:00.000Z	_Marcus		How do I mount a partition I made? I know what the label is.
+2012-03-03T00:32:00.000Z	genii-around	_Marcus	Did you put some filesystem on it yet?
+2012-03-03T00:33:00.000Z	_Marcus	genii-around	ext3
+2012-03-03T00:34:00.000Z	genii-around	_Marcus	For a one-time command: sudo mount /dev/sdX# /mnt    then you can see it under /mnt  ( substitute sdX# with your real drive and partition) . For mounting every boot, use the fstab file

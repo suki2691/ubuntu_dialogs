@@ -1,0 +1,4 @@
+2008-05-21T22:46:00.000Z	mnemo		I have an .OGG video (with sound) and I would like to remove the sound from it so it's all silent (no audio)... how can I do that??
+2008-05-21T22:48:00.000Z	frinkahedron	mnemo	ffmpeg -i input.ogg -acodec copy -sameq -vn output.ogg
+2008-05-21T22:48:00.000Z	mnemo	frinkahedron	thanks, I will try this
+2008-05-21T22:53:00.000Z	frinkahedron	mnemo	you can drop the -sameq from the example I gave you since that only applies to video

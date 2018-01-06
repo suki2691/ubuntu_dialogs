@@ -1,0 +1,4 @@
+2010-08-09T18:20:00.000Z	kubanc		is there any command to see disk specifications in terminal?
+2010-08-09T18:21:00.000Z	jpds	kubanc	sudo lshw -C storage
+2010-08-09T18:25:00.000Z	kubanc	jpds	and how do se disk size, not partitions...
+2010-08-09T18:25:00.000Z	jpds	kubanc	df -h

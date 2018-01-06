@@ -1,0 +1,4 @@
+2007-03-10T12:34:00.000Z	BigMac		Hey all. I have a dell 1501 with a broadcom chipset in ubuntu edgy eft. I Have ndiswrapper'd the driver, set it up and my wifi light is lit, but I can't find eth 1 under right clicking the networking icon in the task pane.
+2007-03-10T12:35:00.000Z	bluefox83	BigMac	wireless doesn't use eth1 it uses wlan
+2007-03-10T12:35:00.000Z	BigMac	bluefox83	I have never seen that as an option
+2007-03-10T12:38:00.000Z	BigMac	bluefox83	my light is on but lo, eth 0 , eth1 and sit0 all return nothing when I "iwlist scanning"

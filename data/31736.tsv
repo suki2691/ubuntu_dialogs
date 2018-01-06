@@ -1,0 +1,4 @@
+2010-05-18T11:05:00.000Z	Jon--		I am trying to access a directory I made before (specifically gnome-terminal, to backup my terminal profile, etc.). Now when I try to cd, do anything, I get "Permission denied.". How can I fix this?
+2010-05-18T11:06:00.000Z	a3ist	Jon--	chmod if the owner is you, otherwise chown to make it yours then set privs
+2010-05-18T11:07:00.000Z	Jon--	a3ist	I have tried both "sudo chmod -R dirpathhere    sudo chown -R dirpathhere", still have issue?
+2010-05-18T11:08:00.000Z	Jon--	a3ist	nevermind, I didn't chown properly

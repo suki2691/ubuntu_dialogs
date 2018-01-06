@@ -1,0 +1,4 @@
+2006-08-21T05:33:00.000Z	Jamo		how do I get ImageCreateFromJPEG() to work in php 5
+2006-08-21T05:34:00.000Z	Jamo		& it restarted apache2, is there more I need to do? like enable it?
+2006-08-21T05:35:00.000Z	SanketMedhi	Jamo	edit /etc/php5/apache2/php.ini
+2006-08-21T05:35:00.000Z	SanketMedhi	Jamo	search for gd.so and uncomment the line

@@ -1,0 +1,4 @@
+2005-06-30T06:06:00.000Z	_dw		Hi guys. On trying to do dpkg-reconfigure of  x, I'm getting debconf: DbDriver "config": /var/cache/debconf/config.dat is locked by another process
+2005-06-30T06:06:00.000Z	_dw		What could I do?
+2005-06-30T06:08:00.000Z	thoreauputic	_dw	close synaptic and anything using apt or dpkg
+2005-06-30T06:09:00.000Z	_dw	thoreauputic	I'm pretty sure none of that stuff is running; I get it even when logging into a failsafe terminal

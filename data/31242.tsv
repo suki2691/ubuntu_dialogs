@@ -1,0 +1,4 @@
+2010-06-01T07:51:00.000Z	shane2peru_lapto		I need to find a pid of a process in a script and get the number so I can kill that particular process, I tried kill $! and that didn't work, any ideas??
+2010-06-01T07:52:00.000Z	Stevethepirate	shane2peru_lapto	ps -ax <process name>
+2010-06-01T07:52:00.000Z	Stevethepirate		To get PID, then kill -9 <PID> to kill it.
+2010-06-01T07:53:00.000Z	shane2peru_lapto	Stevethepirate	ok, thanks!

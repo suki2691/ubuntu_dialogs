@@ -1,0 +1,4 @@
+2010-10-14T03:01:00.000Z	kenaj		how do I find internet missing firmware?
+2010-10-14T03:01:00.000Z	ilovefairuz	kenaj	firmware of what ?
+2010-10-14T03:06:00.000Z	ilovefairuz	kenaj	what make you think the firmware is missing?
+2010-10-14T03:07:00.000Z	ilovefairuz	kenaj	paste the output of: sudo lshw -C network; rfkill list; sudo ifconfig wlan0 up; iwlist scan

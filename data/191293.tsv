@@ -1,0 +1,4 @@
+2006-04-23T09:03:00.000Z	mrspeck		hello all-- how do i stop a demon once i've started it?  (i've started svnserver but i don't know how to stop it)
+2006-04-23T09:05:00.000Z	mrspeck		uhhh-- doesn't that kill all?  all processes?  i just want to kill a specific demon-- gracefully if possible
+2006-04-23T09:05:00.000Z	nickgarvey	mrspeck	killall kills everything with the name you say, so killall apache2 will kill apache2, killall firefox-bin kills firefox
+2006-04-23T09:07:00.000Z	nickgarvey	mrspeck	it should expect to get that signal.. but yeah asking it first is usually better than telling it ;)

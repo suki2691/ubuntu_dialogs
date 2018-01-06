@@ -1,0 +1,4 @@
+2010-03-03T05:36:00.000Z	bitsmart		hi folks, does anyone know where/when the host drive is mounted under /host? I want to add the noatime option to that mount command
+2010-03-03T05:37:00.000Z	ActionParsnip	bitsmart	maybe in /etc/fstab
+2010-03-03T05:37:00.000Z	bitsmart	ActionParsnip	nope, tried that. the root fs is mounted there (/) but not /host
+2010-03-03T05:38:00.000Z	ActionParsnip	bitsmart	thats all i can imagine, i dont use wubi

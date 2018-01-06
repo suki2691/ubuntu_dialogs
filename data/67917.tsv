@@ -1,0 +1,4 @@
+2009-08-06T15:51:00.000Z	c4pt		need some help to change the amount of video ram that nvidia-xconfig uses i want to allow ubuntu to use 512mb of video ram instead of the full 1024mb
+2009-08-06T15:52:00.000Z	c4pt		because i am also using xen dom0 kernel
+2009-08-06T15:52:00.000Z	gartral	c4pt	just curious, why would you want to limit it?
+2009-08-06T15:54:00.000Z	gartral	c4pt	umm.. I havn't messed with Xen in a very long time, but if the functionality hasn't changed any: you can't assign more because xen is designer for _SERVERS_ not PCs.. and it's impossible too use a GFX card's accelleration feature while running under Xen

@@ -1,0 +1,4 @@
+2010-05-27T01:27:00.000Z	[AWE]		nope can't find it
+2010-05-27T01:27:00.000Z	[AWE]		anyone know how to remove mod_vhost_alias
+2010-05-27T01:27:00.000Z	[AWE]		?
+2010-05-27T01:27:00.000Z	dlyneswork	[AWE]	find / -type f -name mod_vhost_alias.so -exec 'rm' '{}' ';'

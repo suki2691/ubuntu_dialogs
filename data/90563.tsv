@@ -1,0 +1,4 @@
+2008-10-06T00:06:00.000Z	xomp		how can I tell if my CPU is 64-bit?
+2008-10-06T00:08:00.000Z	geremy	xomp	cat /proc/cpuinfo
+2008-10-06T00:09:00.000Z	xomp	geremy	here's my output of cat /proc/cpuinfo http://pastebin.com/d4f446115
+2008-10-06T00:19:00.000Z	geremy	xomp	that would depend on the optimizations applied to your dbms, but most likely you're not going to see a huge diff

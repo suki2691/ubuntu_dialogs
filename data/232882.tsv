@@ -1,0 +1,4 @@
+2011-01-24T21:57:00.000Z	c0ld		I have a question: How do I take a file and on each line in the text file add a "A" in the beginning or at the end using grep or awk?
+2011-01-24T21:58:00.000Z	erUSUL	c0ld	i would use sed; sed 's/^/A/' file > newfile ( ate the beggining ) sed 's/$/A/' file > newfile (at the end )
+2011-01-24T21:59:00.000Z	erUSUL	c0ld	doing it with awk?
+2011-01-24T21:59:00.000Z	erUSUL	c0ld	awk '{printf "%s%s\n" $0,"A" }'

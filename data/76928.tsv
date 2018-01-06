@@ -1,0 +1,4 @@
+2008-10-27T12:21:00.000Z	spazm		I am trying to upgrade from Gutsy to Hardy... and it says I need to use the *.14 kernel instead of *.15 kernel to avoid it hanging... how do I choose which kernel to boot in grub and when/where?
+2008-10-27T12:21:00.000Z	outbackwifi	spazm	/boot/grub//menu.lst
+2008-10-27T12:23:00.000Z	spazm	outbackwifi	thanks... but how do I know which one to edit... there are many similar ones in there at the bottom
+2008-10-27T12:43:00.000Z	outbackwifi	spazm	sudo vi /boot/grub/menu.lst

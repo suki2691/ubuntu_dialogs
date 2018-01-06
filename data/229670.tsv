@@ -1,0 +1,4 @@
+2006-01-13T16:36:00.000Z	iKernel		Guys, I've got a big problem. I can't use sudo. >>> sudoers file: syntax error, line 19 <<<
+2006-01-13T16:36:00.000Z	iKernel		sudo: parse error in /etc/sudoers near line 19
+2006-01-13T16:37:00.000Z	iKernel		So I need to edit the sudoers file, but I can't get into root. Anyway to fix this apart from reinstalling?
+2006-01-13T16:37:00.000Z	bimberi	iKernel	boot into recovery mode and use the visudo command to edit the file

@@ -1,0 +1,4 @@
+2006-10-18T08:09:00.000Z	Elohimus		It says no matching device section for instance (BusID PCI:1:10:0) found
+2006-10-18T08:11:00.000Z	timfrost	Elohimus	what id does lspci give for the video card?  You should be using that
+2006-10-18T08:12:00.000Z	Elohimus	timfrost	0000:01:0a.0
+2006-10-18T08:14:00.000Z	timfrost	Elohimus	have you tried 'PCI:1:a:0' rather than 1:10:0?  And have you tried letting it be auto-detected (in 'sudo dpkg-reconfigure xserver-xorg')?

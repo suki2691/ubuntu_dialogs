@@ -1,0 +1,4 @@
+2006-11-27T12:29:00.000Z	RebornDV		hello... i am trying to open gsynaptics for my trackpad... "you have to set 'shmconfig' 'true' in xorg.conf or xf86config to use gsynaptics... any idea how to do so?
+2006-11-27T12:29:00.000Z	RebornDV		i opened xorg.conf and found no reference to shmconfig
+2006-11-27T12:29:00.000Z	RebornDV		any ideas?
+2006-11-27T12:30:00.000Z	stalefries	RebornDV	that needs to be  added to your /etc/X11/xorg.conf file

@@ -1,0 +1,4 @@
+2010-09-18T04:10:00.000Z	Morg0th		Hello, I installed Ubuntu on a friend's computer and he did some updates but after that the system can't boot. It says that a file named with hex codes (like 818ac32...) doesn't exist and I get a ash shell. I had a look at the /etc/fstab file with chroot etc and the partition name changed from "/dev/sda4" to the hex name. do you know what could have caused this problem? I changed this line...
+2010-09-18T04:10:00.000Z	Morg0th		...but I still get this error
+2010-09-18T04:11:00.000Z	ChogyDan	Morg0th	probably a UUID
+2010-09-18T04:12:00.000Z	ChogyDan	Morg0th	if you pastebin the errors and fstab, Im sure someone could help out

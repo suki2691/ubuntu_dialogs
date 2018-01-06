@@ -1,0 +1,4 @@
+2009-01-11T01:39:00.000Z	perillux1		Is there any way that I can host files through this old laptop, like a file server?  Do I have to use ftp of could I use http for easier use?
+2009-01-11T01:39:00.000Z	xinel	perillux1	ssh is pretty good
+2009-01-11T01:40:00.000Z	perillux1	Flannel	ok thanks, do you know of any good sftp tutorials?
+2009-01-11T01:41:00.000Z	xinel	perillux1	do a sudo apt-get install openssh-server, then give each user an account on your machine sudo adduser username, give your server a static ip then they can connect using filezilla of gftp

@@ -1,0 +1,4 @@
+2011-12-20T00:24:00.000Z	Ampelbein	ManDay	Did you find http://bazaar.launchpad.net/~ubuntu-branches/ubuntu/precise/gcc-4.6/precise/view/head:/debian/patches/gcc-multiarch.diff ? It's the actual multiarch patch applied in ubuntu.
+2011-12-20T00:58:00.000Z	Ampelbein	ManDay	Like I said, multiarch is applied as a patch to the gcc archive. You can get inspriation by looking at the 4.6 one and (given you have experience working with gcc) may be able to adapt it for 4.3. But surely it's easier to just fix the application to compile with 4.6?
+2011-12-20T00:59:00.000Z	ManDay	Ampelbein	I did not read you say that. Sorry. However, it surely explains why I can't find any wrapper or config scripts, nor configure options.
+2011-12-20T02:05:00.000Z	Ampelbein	ManDay	The locations of the libs standard on debian/ubuntu systems, the FHS currently does not recognize those directory paths.

@@ -1,0 +1,4 @@
+2011-01-13T00:25:00.000Z	SamuelD		hi, how do I enable numlock automatically when I'm in the bootmenu? Numlock is on in the BIOS but Grub turns it off when loading any OS
+2011-01-13T00:26:00.000Z	WaltherFI	SamuelD	sudo gedit /etc/default/grub
+2011-01-13T00:27:00.000Z	WaltherFI	SamuelD	there should be a part saying something about numlock state
+2011-01-13T00:28:00.000Z	WaltherFI	SamuelD	then you have old version of grub, can't hep

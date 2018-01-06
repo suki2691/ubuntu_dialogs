@@ -1,0 +1,4 @@
+2012-10-23T09:48:00.000Z	blacksunseven		my samba has completely stopped working. i get a cryptic error similar to this http://ubuntuforums.org/showpost.php?p=10057491&postcount=1
+2012-10-23T09:49:00.000Z	blacksunseven		i've had zero luck fixing it, i'm assuming it's some screwed permissions somewhere
+2012-10-23T09:50:00.000Z	wastrel	blacksunseven	does /etc/samba/smb.conf exist, is it readable, does /etc/samba/ have reasonable looking perms as well?
+2012-10-23T09:50:00.000Z	blacksunseven	wastrel	it didnt, i copied the sample from my /usr, relogged, and now its gone again apparently

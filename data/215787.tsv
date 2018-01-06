@@ -1,0 +1,4 @@
+2008-02-20T03:53:00.000Z	darwich		Can anyone help me with my ATI radeon 1950Pro GFX plz ?.. when i activate the driver from ubuntu.. my cooler begins to spin and my GFX begins to get warm .. what can i do to fix it ?
+2008-02-20T03:55:00.000Z	darwich		Can anyone help me with my ATI radeon 1950Pro GFX plz ?.. when i activate the driver from ubuntu.. my cooler begins to spin and my GFX begins to get warm .. what can i do to fix it ?
+2008-02-20T03:56:00.000Z	darwich		dyyl: dunno .. checking by putting finger on it
+2008-02-20T03:58:00.000Z	soundray	darwich	graphics cards are notoriously bad at saving power. As soon as you enter 3D mode (by loading the driver), it powers the GPU for 3D mode, even if you only use 2D. There is no load-dependent voltage or frequency stepping for the GPU like there is for CPUs.

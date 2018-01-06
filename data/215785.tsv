@@ -1,0 +1,4 @@
+2007-03-26T09:58:00.000Z	ubernewb		hey all, i'm trying to add a harddrive and i'm using ubuntu edgy.. when i look at fstab it has the /dev/dsa remarked and there is a uuid=some long number
+2007-03-26T09:58:00.000Z	ubernewb		can i just add a line /dev/sdb /home/user/backup ext3 0 0
+2007-03-26T09:59:00.000Z	soundray	ubernewb	yes
+2007-03-26T09:59:00.000Z	soundray	ubernewb	should be 0 1 and the end, though (explained in man fstab)

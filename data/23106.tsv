@@ -1,0 +1,4 @@
+2010-11-06T03:55:00.000Z	Core_UK		How do I move my PGP key from one ubuntu install to another?
+2010-11-06T03:56:00.000Z	Muscovy	Core_UK	There's a few ways. Easiest is to copy /home/you/.gnupg to the new install (warning, will remove keys on the new account)
+2010-11-06T04:00:00.000Z	Core_UK	Muscovy	I tried sudo cp and it said: cp omitting directory
+2010-11-06T04:00:00.000Z	Muscovy	Core_UK	use the GUI or cp -R.

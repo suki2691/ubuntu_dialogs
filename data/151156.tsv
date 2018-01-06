@@ -1,0 +1,4 @@
+2007-02-26T11:50:00.000Z	Lynx-		Hi. I use Gnome. I've noticed that starting any GUI app in Gnome takes about 1-2 minutes (compared to 2-4 seconds normal) if the network is switched off or not working. I also get "Failed to initialize HAL!" error, when logging on to Gnome without working network. How can I fix these problems (I'm sure they're closely related to each other)?
+2007-02-26T11:51:00.000Z	dyrne	Lynx-	maybe a stupid question but is the loopback still up when you get that error?
+2007-02-26T11:52:00.000Z	Lynx-	dyrne	it seems to be
+2007-02-26T11:55:00.000Z	dyrne	Lynx-	does sudo /etc/init.d/dbus restart still give the error?

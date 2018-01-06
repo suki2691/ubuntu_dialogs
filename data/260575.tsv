@@ -1,0 +1,4 @@
+2010-05-13T22:31:00.000Z	jcrawford		hey guys is it hard to setup an ubuntu repository that will be used rather than the ubuntu repo?  I mean package wise.  If i have a package in a local repo it should be used instead of the ubuntu repo etc.
+2010-05-13T22:31:00.000Z	jcrawford		thinking about setting up a repo here at work that will house all of the apps we need for development such as apache, etc. all the proper versions and let new hires use the repo to install the dev environment
+2010-05-13T22:33:00.000Z	bipolar	jcrawford	check out reprepro for your own packages, and apt-cacher-ng for standard ubuntu packages.
+2010-05-13T22:34:00.000Z	bipolar	jcrawford	np

@@ -1,0 +1,4 @@
+2008-11-18T21:08:00.000Z	dvyjones		Should the sound server appear in "ps aux | grep alsa"?
+2008-11-18T21:08:00.000Z	fde	dvyjones	no
+2008-11-18T21:09:00.000Z	fde	dvyjones	grep pulse
+2008-11-18T21:10:00.000Z	fde	dvyjones	its hackish, but you can do 'pulseaudio --stop ** pulseaudio --start' (ignore errors) to get it back...

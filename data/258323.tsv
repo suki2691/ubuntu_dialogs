@@ -1,0 +1,4 @@
+2004-11-22T11:19:00.000Z	sect2k		hi, i'm having some problems with nautilus-burn (or rather system as a whole) not detecting blank CDs, any insights?
+2004-11-22T11:19:00.000Z	shaver	sect2k	check the /etc/cdrecord.conf file, perhaps?
+2004-11-22T11:29:00.000Z	sect2k	shaver	i'm kind of lost here, but CDR_DEVICE=yamaha, i don't have that a yamaha recorder
+2004-11-22T11:30:00.000Z	shaver	sect2k	yeah, I think you want to put your recorder info in there, and set CDR_DEVICE to the name you use for your recorder

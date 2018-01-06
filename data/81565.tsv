@@ -1,0 +1,4 @@
+2009-03-20T13:12:00.000Z	MrAlexandro		if i isntalled ubuntu and want to use slackwares boot loader as main boot loader(lilo). should i reinstall ubuntu now. selecting grub to install in root. or is it a way i can install grub on the ubuntu partition after installing ubuntu?
+2009-03-20T13:13:00.000Z	ActionParsnip1	MrAlexandro	if you have slackwares boot loader nstalled, add an entry to the lilo conf to boot ubuntu
+2009-03-20T13:17:00.000Z	ActionParsnip1	MrAlexandro	as long as there is grub / lilo on a disk and it is congured right you can use any disk
+2009-03-20T13:21:00.000Z	ActionParsnip1	MrAlexandro	the will be in /boot/lilo/<whatever>   or for grub its /boot/grub/menu.lst

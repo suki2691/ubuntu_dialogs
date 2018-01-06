@@ -1,0 +1,4 @@
+2012-08-26T23:52:00.000Z	bttf		when i have just installed a package with aptitude, how can i find out where it has installed to?
+2012-08-26T23:53:00.000Z	bttf		i just dl'ed a documentation package and i have no idea where it is
+2012-08-26T23:53:00.000Z	gordonjcp	bttf	dpkg -L <name of package>
+2012-08-26T23:53:00.000Z	gordonjcp	bttf	most likely /usr/share/doc/<whatever>

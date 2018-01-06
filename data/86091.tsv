@@ -1,0 +1,4 @@
+2008-07-09T02:04:00.000Z	links32		is there a way to determine the destination of a symbolic links without getting other junk with it (ls -l display more than just the destination and i didn't see anythig in the man on it..). my need is to determine what the drive is that i am booting.
+2008-07-09T02:04:00.000Z	unop	links32	readlink perhaps
+2008-07-09T02:05:00.000Z	unop	links32	readlink -f /path/to/symlink
+2008-07-09T02:06:00.000Z	links32	unop	thanks i knew a simpler means must exist to do this...

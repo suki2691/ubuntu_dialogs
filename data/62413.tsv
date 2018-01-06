@@ -1,0 +1,4 @@
+2012-07-09T23:35:00.000Z	tewlz		hey ya i have a serious prob can anyone please help me.  How do i set read write permissions to my home folder?
+2012-07-09T23:35:00.000Z	iceroot	tewlz	to yourself (the owner)?
+2012-07-09T23:36:00.000Z	iceroot	tewlz	that should be the default
+2012-07-09T23:37:00.000Z	iceroot	tewlz	sudo chmod -R u+r /home/username/

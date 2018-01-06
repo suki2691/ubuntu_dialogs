@@ -1,0 +1,4 @@
+2007-02-03T16:26:00.000Z	DaRkNeSS|		what's the syntax to send cron output to null?
+2007-02-03T16:26:00.000Z	DaRkNeSS|		which is right a) /scripts/cron_inactivity.sh 1>/dev/null 2>&1  or b) /scripts/cron_inactivity.sh 1>/dev/null 2>/dev/null
+2007-02-03T16:27:00.000Z	aoupi	DaRkNeSS|	both are good
+2007-02-03T16:28:00.000Z	aoupi	DaRkNeSS|	2>&1 means send error to the same plase as stdout

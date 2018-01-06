@@ -1,0 +1,4 @@
+2007-12-21T20:51:00.000Z	brobostigon		torren2: add your swap to fstab, so that when you reboot its activated.
+2007-12-21T20:52:00.000Z	Torren2	brobostigon	It's already there in fstab.. i didn't chaneg anything..  It was working till an hour ago
+2007-12-21T20:53:00.000Z	Torren2	brobostigon	It's not there.. that's what I'm saying.. It was working before but now it's not there when I boot.. I never changed anything in my fstab
+2007-12-21T20:57:00.000Z	Torren2	brobostigon	I installed uswsusp to try to get my hibernate to work... And then I did s2disk -resume_device /dev/sda4 .. that's when the swap started disappearing after boot

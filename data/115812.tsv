@@ -1,0 +1,4 @@
+2007-10-22T11:25:00.000Z	rzimek78		I'm connected with a remote computer through SSH and I want to start Kopete on that remote computer. How to do that?
+2007-10-22T11:25:00.000Z	Zippy2	rzimek78	ssh -XC
+2007-10-22T11:31:00.000Z	Zippy2	rzimek78	i know, exactly what i said
+2007-10-22T11:33:00.000Z	Zippy2	rzimek78	-X and x11 forwarding, C is compression. you need to man ssh and find the option for background and then you type kopete after the user@host and it will ask for password, run and background

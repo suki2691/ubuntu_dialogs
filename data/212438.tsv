@@ -1,0 +1,4 @@
+2007-04-03T13:36:00.000Z	jshriver		how can you unzip multiple files? when I try unzip *.zip it doesnt work
+2007-04-03T13:37:00.000Z	dougsko	jshriver	ls *.zip|xargs -0 unzip
+2007-04-03T13:37:00.000Z	dougsko	jshriver	you might not need the -0
+2007-04-03T13:38:00.000Z	dougsko	jshriver	i dont know, i didnt write it. most stuff is for linux is tarballed anyway

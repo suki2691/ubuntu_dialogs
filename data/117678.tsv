@@ -1,0 +1,4 @@
+2008-09-29T03:29:00.000Z	sg1cat		using dd to make an iso of a DVD, but it doesn't seem to work (dd if=/dev/dvd of=file.iso).  I can mount the resulting file (or load it in VMware on a virtual host) - while the file structure is visible, files cannot be opened.  The DVD is a burned disk that I made via iTunes' library backup.
+2008-09-29T03:29:00.000Z	sg1cat		help?
+2008-09-29T03:30:00.000Z	dr_willis	sg1cat	 ive copied dvd's that way.. for the future you should rember to give a bs=1024 or similer option.. it will make the dd operation MUCH (like 2x) faster.
+2008-09-29T03:30:00.000Z	sg1cat	dr_willis	faster, perhaps, but it results in the same iso file?

@@ -1,0 +1,4 @@
+2006-07-10T10:06:00.000Z	firebird619		What repository to I need to have to install MythTV and all of its dependencies? I added deb http://www.debian-multimedia.org sarge main to the sources.list file, but I get messages that other certain packages are dependencies but they won't be installed or aren't installable.
+2006-07-10T10:08:00.000Z	firebird619		I have the multiverse repo in the sources.list file and it isn't commented out. What could the problem be?
+2006-07-10T10:09:00.000Z	Warbo	firebird619	You sure it isn't backports multiverse?
+2006-07-10T10:12:00.000Z	Warbo	firebird619	The line about "universe" (with the "not supported" bit)

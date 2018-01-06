@@ -1,0 +1,4 @@
+2006-06-15T08:42:00.000Z	fiveiron		ugh.. so lets say i was trying to get Xgl working and it didnt and now my regular X only does 640x480... what are my options for getting back to the default config?  can I just do X -configure? or is there a different way ubuntu comes up with the default xorg.conf?
+2006-06-15T08:43:00.000Z	fiveiron		ugh.. so lets say i was trying to get Xgl working and it didnt and now my regular X only does 640x480... what are my options for getting back to the default config?  can I just do X -configure? or is there a different way ubuntu comes up with the default xorg.conf?
+2006-06-15T08:44:00.000Z	pppoe_dude	fiveiron	do 'dpkg-reconfigure x-server'
+2006-06-15T08:46:00.000Z	pppoe_dude	fiveiron	sudo dpkg-reconfigure xserver-xorg

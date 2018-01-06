@@ -1,0 +1,4 @@
+2012-02-04T18:19:00.000Z	kwtm2		Is there a deadline beyond which version upgrades to common software packages are no longer backported to LTS versions?  I'm trying to figure out how to get Vim 7.3 to the current LTS Ubuntu (current is Vim 7.2)
+2012-02-04T18:21:00.000Z	LjL	kwtm2	normally, you don't get updates in the first place. only those for security fixes or fixes to serious bugs (until End Of Life). there is the "backports" repository, but it doesn't contain all packages, only those that people request.
+2012-02-04T18:22:00.000Z	LjL		i've just used it for some years, there's many more things i don't know than ones i know about it, FCR2012
+2012-02-04T18:22:00.000Z	kwtm2	LjL	Thx for info.  Backports is something that is not installed by default, and that I would have to enable myself?  Could you point me to where I could find backports?  I'm sure someone has requested vim 7.3

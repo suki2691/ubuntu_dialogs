@@ -1,0 +1,4 @@
+2010-07-17T15:14:00.000Z	ifancho		what is the difference between fsck and e2fsck ? is the second one just for ext2 ?
+2010-07-17T15:15:00.000Z	ifancho		what is the difference between fsck and e2fsck ? is the second one just for ext2 ?
+2010-07-17T15:15:00.000Z	erUSUL	ifancho	yes; fsck is the generic name. there is fsck.jfs e2fsck fsck.xfs etc ...
+2010-07-17T15:41:00.000Z	erUSUL	ifancho	see the e2fsck man page... i think that passing -cc toi it will check for badblocks ... but double check docs to not loose data

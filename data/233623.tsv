@@ -1,0 +1,4 @@
+2006-08-27T07:15:00.000Z	frog_racer		when i do sudo i get: unable to lookup localhost via gethostbyname()
+2006-08-27T07:15:00.000Z	shawarma	frog_racer	your /etc/hosts is messed up.
+2006-08-27T07:16:00.000Z	shawarma	frog_racer	add '127.0.0.1 localhost' to it
+2006-08-27T07:16:00.000Z	shawarma	frog_racer	either that or your loopback interface it b0rken.

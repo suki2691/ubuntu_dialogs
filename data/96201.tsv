@@ -1,0 +1,4 @@
+2008-04-02T23:26:00.000Z	ryanhull76		I installed Ubuntu onto an external USB drive. This was for dual-booting XP and Ubuntu. However, the XP system resides on a Promise RAID controller. When I installed Ubuntu, it wrote GRUB over top of my XP RAID and I can no longer boot to XP. How do I fix/remove GRUB
+2008-04-02T23:27:00.000Z	trey__	ryanhull76	| !grub
+2008-04-02T23:28:00.000Z	ryanhull76	IndyGunFreak	esteth: I've tried that, but XP setup disc requires drivers for the raid card. When I install them (F6 - then s to add device) it won't show the array. However, I can see the 3 drives in Ubuntu. (i'm in LIVE CD right now) can I just edit/wipe GRUB and go from there?
+2008-04-02T23:29:00.000Z	trey__	ryanhull76	i think if you remove grub you cant boot ubuntu... hmmm... oh! you mean... (slaps himself) LOL never mind

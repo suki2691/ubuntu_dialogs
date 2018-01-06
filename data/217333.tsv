@@ -1,0 +1,4 @@
+2005-09-27T10:30:00.000Z	jblack		Has anyone had a problem with recent updates in breezy eating their ipw2200 and breaking xfree? (It seems to be causing a udev problem)
+2005-09-27T10:31:00.000Z	robbkidd	jblack	The breezy upgrade broke my X because of new font locations. A "sudo dpkg-reconfigure xserver-xorg" will fix this.
+2005-09-27T10:31:00.000Z	jblack	robbkidd	My problem is it ate the device files for X.
+2005-09-27T10:32:00.000Z	robbkidd	jblack	I don't quite follow what you mean by eaten device files?  You've lost entries in /dev? Or lost the drivers in /usr?

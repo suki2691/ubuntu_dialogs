@@ -1,0 +1,4 @@
+2009-10-10T19:50:00.000Z	dj_		I'm kinda new to this all and I installed ubuntu server edition and it came with grub 1.5 preinstalled and I was wondering how to change the boot order?
+2009-10-10T19:52:00.000Z	dj_		can someone help?
+2009-10-10T19:52:00.000Z	Boohbah	dj_	edit /boot/grub/menu.lst
+2009-10-10T19:53:00.000Z	Boohbah	dj_	you will want to replace edit with your editor of choice. 'gksudo gedit /boot/grub/menu.lst'

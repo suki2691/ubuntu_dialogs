@@ -1,0 +1,4 @@
+2009-10-11T04:50:00.000Z	yuri__		need some help with chmod. how do i make a read only file writable?
+2009-10-11T04:51:00.000Z	iceroot	yuri__	r=4,w=2,x=1  so if you want read, write and execute use the 7 (4+2+1), if you want only read use 4 (4+0+0) and that for you,group and others, so chmod 755 would be rwx,r-x,r-x
+2009-10-11T04:52:00.000Z	yuri__	iceroot	thanks
+2009-10-11T04:52:00.000Z	iceroot	yuri__	so chmod 755 file  will put rwx,r-x,r-x file

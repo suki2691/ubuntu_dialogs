@@ -1,0 +1,4 @@
+2009-01-05T15:22:00.000Z	Trenter		I'm a migrating windows user and I am trying to find the Linux equivilant of Task Manager, mainly because I am trying to force stop a program in wine
+2009-01-05T15:24:00.000Z	Trenter		I have a window titled "Untitled Window" but it does not show up in the list of processes
+2009-01-05T15:26:00.000Z	raylu	Trenter	the equivalent of task manager is the command line tool "top". otherwise, ctrl+esc may give you a gui version. "ps -e" is useful too.
+2009-01-05T15:26:00.000Z	raylu	Trenter	but what you probably want is wineserver -k

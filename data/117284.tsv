@@ -1,0 +1,4 @@
+2012-02-22T14:36:00.000Z	RawProduce		I have a git repo owned by whoever:git with drwxrwsr-x permissions on the objects directory, yet whenever a commit is made, the setgid flag seems to be ignored and the written files/dirs end up with drwxr-sr-x permissions - what am I missing?
+2012-02-22T14:38:00.000Z	geirha	RawProduce	The setgid bit on a directory only affects the ownership of files created within, not the permission bits.
+2012-02-22T14:38:00.000Z	geirha	RawProduce	You'll either have to enable acl and set some default acls on the dir, or just make sure your umask is set to 0002
+2012-02-22T14:39:00.000Z	geirha	RawProduce	access control lists. Gives you more fine grained control of file permissions.

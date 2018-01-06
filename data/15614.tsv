@@ -1,0 +1,4 @@
+2011-05-16T04:41:00.000Z	DennyNY		I have Sony ux280p. It's UMPC with touch screen. To get touch screen work I need create xorg.conf. But after I create automatically and run it for test nothing happen just black screen. What can I do to fix this?
+2011-05-16T04:43:00.000Z	pfifo	DennyNY	it sounds like you Xorg of misconfigured, revisit your config and see if you got all the settings right
+2011-05-16T04:45:00.000Z	DennyNY	pfifo	Is there a way to look log file? For X server.
+2011-05-16T04:46:00.000Z	pfifo	DennyNY	the xorg log can be found at /var/log/Xorg.0.log

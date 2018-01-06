@@ -1,0 +1,4 @@
+2006-06-11T05:43:00.000Z	ScislaC		so I'm trying to set something up with ndiswrapper, but I need to find out the "PCIID"... anyone know how to determine this?
+2006-06-11T05:43:00.000Z	cafuego	ScislaC	'lspci' will tell you.
+2006-06-11T05:43:00.000Z	ScislaC	cafuego	thank you!
+2006-06-11T05:44:00.000Z	cafuego	ScislaC	'lspci' shows devices, you cna get the pciid by running 'lspci -n' (The pciid is the set of XXXX:XXXX hex numbers

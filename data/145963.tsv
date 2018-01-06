@@ -1,0 +1,4 @@
+2007-02-12T16:38:00.000Z	jojoman02_		how do i find out what sound module my kernel has loaded for my sound card?
+2007-02-12T16:39:00.000Z	LjL	jojoman02_	try  lshw -class sound  and/or  lsmod | grep snd 
+2007-02-12T16:39:00.000Z	jojoman02_	LjL	Gracias, Thankz
+2007-02-12T16:46:00.000Z	jojoman02_	LjL	how do i get the name i use in the alsa config? is there an easier way to get it (i'm trying to make a guide to help with a problem) like "snd-via82xx" directly after a command (with the current sound card)

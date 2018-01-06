@@ -1,0 +1,4 @@
+2008-12-15T03:23:00.000Z	pk		hello, I can not get my usb drive to be visible in ubuntu. I am not sure it is recognized and I can not mount it (I am completely new to ubuntu); the result of sudo fdisk -l http://paste.ubuntu.com/85328/
+2008-12-15T03:24:00.000Z	pk		1GB
+2008-12-15T03:26:00.000Z	ActionParsnip	pk	sudo mkdir /media/sdb1 && sudo mount /dev/sdb1 /media/sdb1 -t vfat
+2008-12-15T03:27:00.000Z	ActionParsnip	pk	that'll give you access to the first partition on the usb drive (/dev/sdb)

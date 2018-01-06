@@ -1,0 +1,4 @@
+2008-10-31T23:57:00.000Z	phyphor		hi, just tried to upgrade a desktop system from 8.04 to 8.10 and on reboot /dev/null is now being reset with permissions 600, but udev is set up correctly. I'd rather try and fix it properly than rely on an rc.local fix as a workaround - any ideas?
+2008-10-31T23:58:00.000Z	Flannel	phyphor	Check bugreports about it.  If there isn't one, file one.
+2008-10-31T23:58:00.000Z	phyphor	Flannel	there are various bug reports about similar symptoms for previous upgrades but I'm not sure if it's a new bug or not
+2008-10-31T23:59:00.000Z	Flannel	phyphor	well, report it, if its not new, it'll be marked as such.

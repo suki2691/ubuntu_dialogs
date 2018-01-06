@@ -1,0 +1,4 @@
+2008-03-26T05:10:00.000Z	tumidian		I have a quick iptables question, if anyone has time
+2008-03-26T05:11:00.000Z	tumidian		can someone explain what an 'all else fails deny' rule is?
+2008-03-26T05:12:00.000Z	tumidian		so, if a packet from a certain protocol isn't stated, it'll be dropped?
+2008-03-26T05:12:00.000Z	unop_	tumidian	if by chance a packet gets through all the rules in a table, this one is a catch-all that denies the packet from passing through

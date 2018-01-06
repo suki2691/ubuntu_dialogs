@@ -1,0 +1,4 @@
+2008-02-04T17:33:00.000Z	nives1		hi, im installing ubuntu on an intel notebook , when i boot from live CD it uses intel experimental driver (and 3d effects work) but after install it says only VESA generic, and whatever i change it changes it back
+2008-02-04T17:33:00.000Z	nives1		note: i installed with safe-vga because of another issue during install
+2008-02-04T17:33:00.000Z	nives1		any solutions for this pls?
+2008-02-04T17:35:00.000Z	Frogzoo	nives1	the driver used is set in /etc/X11/xorg.conf - but you might just run "sudo dpkg-reconfigure xserver-xorg"

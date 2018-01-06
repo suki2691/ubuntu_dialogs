@@ -1,0 +1,4 @@
+2010-08-27T18:53:00.000Z	ilovefairuz	kaushik	the root filesystems for live cds are now usually created of squashfs image files, so by adding the squashfs images for all the distros you want to boot and adding entries for them in the bootloader config file (syslinux or grub) you can boot mutiple OSes off the same CD or USB pendrive
+2010-08-27T18:57:00.000Z	kaushik	ilovefairuz	is there any place where an example is set up?
+2010-08-27T19:00:00.000Z	ilovefairuz	kaushik	It's pretty simple if you understand how a linux system is initially booted (a kernel +and initrd file) Look at the files comprising ubuntu livecd, especially the bootloader config
+2010-08-27T19:01:00.000Z	kaushik	ilovefairuz	thank you

@@ -1,0 +1,4 @@
+2008-08-21T23:27:00.000Z	sk33t0r		 if I see this: Read 1903 packets (got 27 ARP requests and 0 ACKs), sent 17768 packets...(499 pp/s) in aireplay does that mean my packet injection is working properly
+2008-08-21T23:27:00.000Z	znh	sk33t0r	yes
+2008-08-21T23:27:00.000Z	sk33t0r	znh	why is the number of packets read so small if Im sending such a large amount of packets?
+2008-08-21T23:28:00.000Z	znh	sk33t0r	cuz the packets read are not so important. you need airodump to capture

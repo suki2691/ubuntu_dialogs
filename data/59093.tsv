@@ -1,0 +1,4 @@
+2009-04-26T08:34:00.000Z	wrektjet		id like to access my "root" folder via the gui to access my files from xp but im getting denied. dio u have to sudo into it from terminal?
+2009-04-26T08:34:00.000Z	xfurious	wrektjet	you need to have a certain option set let me find it for you
+2009-04-26T08:35:00.000Z	xfurious	wrektjet	add the 'uid=1000' option, where 1000 is your uid number to the optiosn for your ntfs mount
+2009-04-26T08:35:00.000Z	xfurious	wrektjet	and also the 'user' option

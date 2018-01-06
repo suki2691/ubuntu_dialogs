@@ -1,0 +1,4 @@
+2009-08-31T23:59:00.000Z	badserii		Hi! I did a mv /var/log/messages /var/log/messages.1 and now rsyslogd writes to the new file. Why is that? Thank you in advance.
+2009-08-31T23:59:00.000Z	fbianconi	badserii	the file was still open
+2009-09-01T00:00:00.000Z	fbianconi		the inode didn't change
+2009-09-01T00:00:00.000Z	badserii	fbianconi	thank you very much!!!

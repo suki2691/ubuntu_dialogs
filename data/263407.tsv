@@ -1,0 +1,4 @@
+2006-03-03T16:13:00.000Z	Scott31337		okay guys - i back - Im reading the log file - Im not in the same room though - drmopen fails, and xaainit (i believe) does too.. it does pick up my video card in the beginning (ati radeon xpress 200)
+2006-03-03T16:14:00.000Z	Scott31337		how can I set it to a generic vesa driver and try that way
+2006-03-03T16:14:00.000Z	adam_	Scott31337	in your xorg.conf / xfree86 file set driver = vesa
+2006-03-03T16:17:00.000Z	adam_	Scott31337	edit /etc/X11/xorg.conf under "Device"  change Driver "whaterver Prob ATI" to Driver "vesa"

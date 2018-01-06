@@ -1,0 +1,4 @@
+2010-07-23T10:46:00.000Z	talcite		can someone help me out with my softraid setup? I have an old superblock from a previous raid on my /dev/sdd drive. The current superblock is at /dev/sdd1. I need to remove the old one, but mdadm --zero-superblock /dev/sdd says it doesn't have access to the drive
+2010-07-23T10:46:00.000Z	talcite		it's not mounted and the raid isn't active
+2010-07-23T10:47:00.000Z	DasEi	talcite	sudo it
+2010-07-23T10:47:00.000Z	talcite	DasEi	already done

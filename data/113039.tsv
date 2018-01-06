@@ -1,0 +1,4 @@
+2007-11-22T01:25:00.000Z	SaintRock		When I do apt-get install ... how can I view the list of all the packages.  Where is this listing located on an installed machine. When the server connects to the repository it gets the list, I jsut wanna know where its located so I KNOW what to type when I want to pick my packages ....
+2007-11-22T01:26:00.000Z	jdong	SaintRock	apt-cache dumpavail will print out all 25,000 packages, but is probably not useful for a human
+2007-11-22T01:26:00.000Z	jdong	SaintRock	as suggested use aptitude or Synaptic to more effectively browser/search
+2007-11-22T01:26:00.000Z	SaintRock	jdong	Thanks!

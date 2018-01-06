@@ -1,0 +1,4 @@
+2011-08-04T05:20:00.000Z	FerretWithASpork		Hi all. I'm having some partitioning troubles. I resized a parition and there was some sort of error in the process. Now when I try to mount it I get "Error mounting: Failed to read last sector". Is there a possible fix that doesn't involve data loss?
+2011-08-04T05:21:00.000Z	DeviceZer0	FerretWithASpork	eeek...doesnt look good. You can try a fsck maybe...but not sure that will work without data loss
+2011-08-04T05:24:00.000Z	FerretWithASpork	DeviceZer0	It's actually an NTFS system.. is that worse?
+2011-08-04T05:24:00.000Z	DeviceZer0	FerretWithASpork	im not sure....wouldnt you do all that stuff locally?

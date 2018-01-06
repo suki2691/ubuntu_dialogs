@@ -1,0 +1,4 @@
+2006-08-21T14:14:00.000Z	milwark		hey all... i have a question.... i'm trying to et freenet working, but it's having some java issues... i've tried installing java "manually," but i guess i didn't do something right... i've tried doing it through synaptic package manager, but i can't find it (even though i've added all of the repositories that it comes with and have clicked "reload")... any ideas as to why java isn't showing up on the list?
+2006-08-21T14:14:00.000Z	Ratzilla	milwark	check /etc/apt/sources.list is there anythign comented out?
+2006-08-21T14:20:00.000Z	Ratzilla	milwark	try sudo apt-get install java-common
+2006-08-21T14:21:00.000Z	Ratzilla	milwark	if that doesnt work, have you checked out this page? https://help.ubuntu.com/community/Java?highlight=%28java%29

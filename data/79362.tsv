@@ -1,0 +1,4 @@
+2011-05-14T06:53:00.000Z	Crash1hd		ok so after upgrading to natty and removing nvidia drivers cause the nvidia96 has not been upgraded.  Running x11vnc causes the main screen to only run at 1024*768 instead of its normal 1280*1024
+2011-05-14T06:54:00.000Z	Crash1hd		i noticed that vnc says  Xinerama is present and active and then says Xinerama: sub-screen[0]  1024x768+0+0 Xinerama: sub-screen[1]  1280x1024+1024+0
+2011-05-14T06:54:00.000Z	Crash1hd		how can I set the first sub-screen to be 1280?
+2011-05-14T06:55:00.000Z	DasEi	Crash1hd	sudo nvidia-settings

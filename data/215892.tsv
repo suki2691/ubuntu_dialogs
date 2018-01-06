@@ -1,0 +1,4 @@
+2008-05-17T00:48:00.000Z	cq		I'm trying to compile an X11 app, and it's telling me it can't find -lXext ... all the devel libs and headers are installed, libXext.so.6 is in /usr/lib/ and if I give the compile line a -L/usr/bin it still cmoplains... any ideas?
+2008-05-17T00:50:00.000Z	soundray	cq	/usr/lib/libXext.so.6 is normally a symlink. Check if the link target is present and world-readable.
+2008-06-10T17:53:00.000Z	soundray	cq	rsync is fine for backing up. Databases should be backed up separately IMO
+2008-06-10T17:54:00.000Z	soundray	cq	have a look at rsync docs -- very useful. unison is interesting, too

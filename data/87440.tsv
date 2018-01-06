@@ -1,0 +1,4 @@
+2009-03-29T12:36:00.000Z	bonez46		I have several folders on a drive I can mount and access. and I want to move them to another healthier driver.. what's the best way. to move folders? two drives in one machine?
+2009-03-29T12:37:00.000Z	dayo	bonez46	man rsync
+2009-03-29T12:43:00.000Z	dayo	bonez46	adapt this for your purposes: http://paste.ubuntu.com/140006/
+2009-03-29T12:52:00.000Z	dayo	bonez46	on 32 it would be: sudo aptitude install ubuntu-restricted-extras. not sure if it's the same for 64

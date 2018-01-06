@@ -1,0 +1,4 @@
+2008-02-07T02:17:00.000Z	Invisible_Ubunti		if I'm not using any bluetooth/wireless I can safely remove all BlueTooth packages and Cups if I won't ever print from this machine right?
+2008-02-07T02:18:00.000Z	Schiz0	Invisible_Ubunti	Yes. However the ubuntu-desktop virtual package (it's a fake package that depends on all stuff for a desktop) depends on those things. So you'll have to remove that desktop virtual package too
+2008-02-07T02:18:00.000Z	Invisible_Ubunti	Schiz0	what does the desktop virtual package do?
+2008-02-07T02:19:00.000Z	Schiz0	Invisible_Ubunti	Nothing. It depends on all the desktop packages though (gnome, xserver, etc). So instead of installing all them manually, you can just install the desktop package and it does it all automatically

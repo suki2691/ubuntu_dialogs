@@ -1,0 +1,4 @@
+2008-03-20T09:28:00.000Z	geektasticgirl		hi
+2008-03-20T09:30:00.000Z	geektasticgirl		new to ubuntu, love it.. anyways.. when I installed it, it recognized my nvida 7950gt fine (in my PC).. it set me up at 1920x1200 resolution no problems.  But for some reason after a recent reboot I stuck at max resolution of 1600x1200.  I go to screen resolution and dont' see 1920 option. sigh
+2008-03-20T09:31:00.000Z	geektasticgirl		i can't get 1920x200 any longer.. max is 1600x1200 why?
+2008-03-20T09:32:00.000Z	jester45	geektasticgirl	try running this in a terminal cat /etc/X11/xorg.conf | grep 1920

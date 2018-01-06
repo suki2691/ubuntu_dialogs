@@ -1,0 +1,4 @@
+2008-12-24T18:31:00.000Z	meermanr		How do I find what version of X I have installed and running? /var/log/xorg.0.log says the X server is 1.5.2, aptitude says 7.4 and nvidia's readme talks of X11R6.9.0 ...
+2008-12-24T18:32:00.000Z	meermanr		O, and X --version doesn't show anything helpful
+2008-12-24T18:32:00.000Z	meermanr		Ah, hold on.
+2008-12-24T18:32:00.000Z	ushimitsudoki	meermanr	head /var/log/Xorg.0.log

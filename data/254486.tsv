@@ -1,0 +1,4 @@
+2005-07-02T16:01:00.000Z	queuetue		I've got a box (debian sarge upgraded to ubuntu) that ssh locks up (or hangs up, more likely) on me if I leave it too long - measured in minutes.  Keepalive appears to be set in /etc/ssh/sshd_config ... what else shoud I check?
+2005-07-02T16:02:00.000Z	tsw	queuetue	where are you doing the connection? on the same net or through internet?
+2005-07-02T16:03:00.000Z	queuetue	tsw	Through the INternet, but on a reliable connection. (No other ssh is going down in the same cluster (all RHEL boxes.)
+2005-07-02T16:04:00.000Z	tsw	queuetue	ok, Ive had lots of ssh problems with adsl-modems not keeping ssh up when idle

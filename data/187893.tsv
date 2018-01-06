@@ -1,0 +1,4 @@
+2006-06-25T05:09:00.000Z	malachi		 How can I create a link to a directory so all the files in that directory will be in the current directory?
+2006-06-25T05:09:00.000Z	malachi		For example, after upgrading Democracy, I have a ~/Movies/Democracy  and a   ~/.democracy/Movies directory. How can I link them so all in ./democracy are in Movies/Democracy, or vice versa?
+2006-06-25T05:09:00.000Z	mwe	malachi	ln -s
+2006-06-25T05:18:00.000Z	malachi	mwe	I tried ln -s ~/.democracy ~/Movies/Democracy but files exist.

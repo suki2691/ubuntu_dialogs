@@ -1,0 +1,4 @@
+2012-03-19T10:15:00.000Z	lawltoad		any one ever use apt-get build-deps ?
+2012-03-19T10:16:00.000Z	lawltoad		any advice on how to keep my system clean after the fact? a way to get rid of them all
+2012-03-19T10:16:00.000Z	lawltoad		?
+2012-03-19T10:18:00.000Z	hydrox24	lawltoad	if you type "apt-cache showsrc *package*" and then look under the build-deps line, that should be a good list of stuff to remove. Not the best solution, but it may be helpful.

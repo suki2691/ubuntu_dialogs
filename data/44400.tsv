@@ -1,0 +1,4 @@
+2011-03-24T19:58:00.000Z	cba123		I can remotely VNC to my PC over SSH, but only after running "x11vnc &" in a terminal.  I've tried to do it with the native "enable remote connections" but no luck.  Any ideas?
+2011-03-24T19:59:00.000Z	ruan	cba123	i don't get the trouble of running x11vnc &, but you can make a bash script that does that on startup
+2011-03-24T20:00:00.000Z	cba123	ruan	I figured as much, I just get worried because it seems to crash a bit, and when I run it it gives me a very stern warning, not sure what about.  Is there a way to set it up to only allow connections over ssh, as in only coming from the machine itself?
+2011-03-24T20:01:00.000Z	ruan	cba123	not sure

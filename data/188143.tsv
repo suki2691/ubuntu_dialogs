@@ -1,0 +1,4 @@
+2006-05-13T09:03:00.000Z	HIGH-FREQ	xored	might check your /etc/resolv.conf
+2006-05-13T09:03:00.000Z	xored	HIGH-FREQ	as i can resolf the DNS with the "host", nameservers are ok. But i exchnaged them allrey,m no help
+2006-05-13T09:04:00.000Z	HIGH-FREQ		hmm
+2006-05-13T09:06:00.000Z	HIGH-FREQ	xored	that is a DNS issue...u have to put in DNS sometimes....u can either put them in the  System > Administration > Network   or  u can edit the /etc/resolv.conf  and put your dns's in there as    nameserver x.x.x.x  'replacying the x with numbers ofcourse'

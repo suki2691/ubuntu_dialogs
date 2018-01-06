@@ -1,0 +1,4 @@
+2009-02-03T20:14:00.000Z	DragonLord-		how do I check active processes and how the RAM is spent with command line (Ubuntu Server)?
+2009-02-03T20:16:00.000Z	LukaszJ	DragonLord-	Well, I'd start by typing "top" for the procesess, and "free -m " for memory, "top" will show it up too but in another, less readable form.
+2009-02-03T20:18:00.000Z	DragonLord-	LukaszJ	okey, thanks
+2009-02-03T20:19:00.000Z	LukaszJ	DragonLord-	Check "man top" and "man free", they provide some really useful options, like "free -ms 2", will show you memory usage with 2 sec interval, and so on.

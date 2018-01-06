@@ -1,0 +1,4 @@
+2009-05-28T03:55:00.000Z	scholli		can anybody help me with a udev problem?
+2009-05-28T03:57:00.000Z	scholli		thanks, folowing problem: I want to mount an external ntfs drive when i plug it in - but the "mount" command (in "run") does not work
+2009-05-28T03:58:00.000Z	scholli		ATTRS{vendor}=="0x1002", ATTRS{device}=="0x4390",SYMLINK+="extern%n", RUN+="/bin/mount /media/Mobil"
+2009-05-28T03:58:00.000Z	ZykoticK9	scholli	use a terminal and don't forget sudo

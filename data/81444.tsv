@@ -1,0 +1,4 @@
+2008-08-22T22:41:00.000Z	stat_cs		How do you do updates in Ubuntu Server 8.04. In the GUI version you can just go to the Update Manager and click install - but whats the command for doing it in the command line version of Ubuntu?
+2008-08-22T22:41:00.000Z	Flannel	stat_cs	sudo apt-get update && sudo apt-get dist-upgrade
+2008-08-22T22:42:00.000Z	stat_cs	Flannel	macd, IdleOne, ScheissDroge2, danbhfive, thanks a lot!
+2008-08-22T22:43:00.000Z	Flannel	stat_cs	no, sudo apt-get update && sudo apt-get dist-upgrade, apt-get doesn't have safe-upgrade, that's an aptitude thing

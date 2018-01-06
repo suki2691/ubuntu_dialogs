@@ -1,0 +1,4 @@
+2009-04-25T11:22:00.000Z	ized		hey! i want to install a fresh jaunty-system - is it possible to make a list of programms that i probably use & that 'apt' can use to install ??
+2009-04-25T11:23:00.000Z	viqas	ized	 dpkg -l would list all installed applications
+2009-04-25T11:26:00.000Z	viqas	ized	 it might not work out for you as it will install packages taht you dont need anymore.  my recommendation is just start clean and install as you go
+2009-04-25T11:26:00.000Z	viqas	ized	  i would backup your /etc for sure though.

@@ -1,0 +1,4 @@
+2006-12-19T15:16:00.000Z	x-r00t-x		!cgi
+2006-12-19T15:16:00.000Z	ThePub	x-r00t-x	venturing a guess here, but with the old debian installations there was a directory in /etc/apache/modules-available
+2006-12-19T15:16:00.000Z	x-r00t-x	jrib	i am not sure
+2006-12-19T15:17:00.000Z	ThePub	x-r00t-x	what you do is go to /etc/apache/modules-enabled and make a link from /etc/apache/modules-availble to there with the module you want.  which is cgi in this case.

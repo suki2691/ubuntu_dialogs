@@ -1,0 +1,4 @@
+2008-09-07T01:00:00.000Z	brutus		why doesn't pinging hosts outside my LAN work?
+2008-09-07T01:02:00.000Z	brutus		my LAN is 10.94.*.* and pinging any machine inside it works, but pinging google.com for example just hangs..what should i do?
+2008-09-07T01:03:00.000Z	schmick_	brutus	your router might be blocking ICMP packages (such as ping)
+2008-09-07T01:03:00.000Z	schmick_	brutus	it's a normal security procedure in some companies or a santadrd on some routers.

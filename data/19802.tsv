@@ -1,0 +1,4 @@
+2011-08-09T23:40:00.000Z	mattalexx		I'm getting a hang on startup. What could be the problem? http://i.imgur.com/KVtUB.jpg
+2011-08-09T23:41:00.000Z	Fuchs	mattalexx	it goes for a reboot, so it doesn't look like a hang
+2011-08-09T23:41:00.000Z	Fuchs	mattalexx	possible reasons are a filesystem check, something in the autostart which does a reboot or an init script which does that
+2011-08-09T23:43:00.000Z	Fuchs	mattalexx	in that case it might be a filesystem which takes long to unmount   (e.g. NFS or CIFS which lost it's connection), or simply an ACPI issue. Is this reproducible?

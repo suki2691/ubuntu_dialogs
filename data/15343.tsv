@@ -1,0 +1,4 @@
+2011-09-17T05:08:00.000Z	gx		hey guys, i'm having an issue with apache/php5 .. is there some way to reinstall both of them over top without losing my config?
+2011-09-17T05:08:00.000Z	escott	gx	just dont purge
+2011-09-17T05:33:00.000Z	escott	gx	your system should still boot, but anything needing that library may break
+2011-09-17T05:34:00.000Z	gx	escott	i had zend server installed, and it was conflicting with apache2... i've removed zend server, as well as apache2+php and reinstalled them... yet i'm still getting the same error.

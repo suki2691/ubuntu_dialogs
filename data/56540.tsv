@@ -1,0 +1,4 @@
+2012-11-30T00:19:00.000Z	SolarisBoy	Draco_	dpkg -l '*libssl*' would list the proper name if it's installed
+2012-11-30T00:21:00.000Z	SolarisBoy	Draco_	whats the error?
+2012-11-30T00:22:00.000Z	SolarisBoy	Draco_	can you do 'apt-cache depends libssl-dev'?
+2012-11-30T00:24:00.000Z	Draco_	SolarisBoy	It says: Requires "libssl1.0.0" and "zlib1g-dev". And it recommends "libssl-doc" and it is in conflict with "libssl-dev:i386"

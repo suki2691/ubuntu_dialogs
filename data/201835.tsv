@@ -1,0 +1,4 @@
+2007-11-20T08:46:00.000Z	caligarn1037		hi guys
+2007-11-20T08:46:00.000Z	caligarn1037		can anyone tell me the difference between sudo apt-get and sudo apitutde?
+2007-11-20T08:46:00.000Z	IdleOne	caligarn1037	aptitude tends ti remember dependencies a little better
+2007-11-20T08:48:00.000Z	IdleOne	caligarn1037	packages that other packages depend on. so lets say you want to install package A but it needs package BCD then aptitude remembers that and also installas it but for some reason you decide you dont like package A anymore and want to remove it aptitude will also remove package BCD as long as they are not needed by any other packages

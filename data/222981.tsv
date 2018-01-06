@@ -1,0 +1,4 @@
+2006-05-26T13:34:00.000Z	hedrek		how can i test fps after install nvidia-glx? glxgears doesn't report it
+2006-05-26T13:34:00.000Z	hedrek		good lord
+2006-05-26T13:35:00.000Z	hedrek		thanks
+2006-05-26T13:37:00.000Z	Rug	hedrek	the "best" test to see if OpenGL is installed and working type this:   glxinfo |grep direct      if it says YES then the answer is 'Yes'

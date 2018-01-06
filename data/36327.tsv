@@ -1,0 +1,4 @@
+2011-11-08T23:00:00.000Z	AbuMaia		I have a text file with three lines. First line is blank, second and third lines only have a two-digit number. I need to get the second line and third line read into a script variable as a time, with a ":" between each number. How can I do this?
+2011-11-08T23:02:00.000Z	AbuMaia		I have tried sed -n '2p' file ":" sed -n '3p' file but the script didn't like that
+2011-11-08T23:04:00.000Z	trism	AbuMaia	TIMEVAR="$(sed -n 2p file):$(sed -n 3p file)"; seems to work here
+2011-11-08T23:05:00.000Z	AbuMaia	trism	thanks, that should do it. I was trying to get the two seds into one $

@@ -1,0 +1,4 @@
+2012-05-30T16:12:00.000Z	cellfun		hello!
+2012-05-30T16:13:00.000Z	cellfun		I am trying to sed this rss from my terminal, but it shows 10 lines , I only need 5 of them, any suggestions ? the top 5 . wget -q -O - http://www.makeuseof.com/service/linux/feed | sed -n '1,/<title>/d; s/.*<title>\(.*\)<\/title>.*/\1/p
+2012-05-30T16:13:00.000Z	cellfun		I am trying to sed this rss from my terminal, but it shows 10 lines , I only need 5 of them, any suggestions ? the top 5 . wget -q -O - http://www.makeuseof.com/service/linux/feed | sed -n '1,/<title>/d; s/.*<title>\(.*\)<\/title>.*/\1/p'
+2012-05-30T16:14:00.000Z	Pici	cellfun	head -n5

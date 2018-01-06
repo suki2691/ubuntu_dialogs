@@ -1,0 +1,4 @@
+2005-03-05T10:31:00.000Z	jason^		so if I upgrade my kernel do I need to modify my menu.lst?
+2005-03-05T10:31:00.000Z	jason^		I'm moving to hoary
+2005-03-05T10:32:00.000Z	tritium	jason^	it should be done for you by the package's postinst scripts
+2005-03-05T10:33:00.000Z	tritium	jason^	i.e., it runs update-grub

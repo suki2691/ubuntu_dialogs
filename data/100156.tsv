@@ -1,0 +1,4 @@
+2008-03-12T06:31:00.000Z	Flannel	juank_prada	brandonc503, LAMP is configured to accept connections by default
+2008-03-12T06:33:00.000Z	juank_prada	Flannel	brandonc503, then whats needed is to configure the routing or set dreamweaver to look for the static ip from the lamp server or domain if any
+2008-03-12T06:34:00.000Z	Flannel	juank_prada	Dreamweaver talks to servers in the form of FTP.  So you need to setup an FTP server.  Different ends of the webserver.  LAMP does nothing but serve content, Dreamweaver wants to upload to the server, usually done via FTP (although, if DW supports SCP, I'd definately go with that, you should look into it.  It's much easier to configure as well)
+2008-03-12T06:35:00.000Z	juank_prada	Flannel	well ive never used dreamweaver so i assumed it worked with http instead

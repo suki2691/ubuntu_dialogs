@@ -1,0 +1,4 @@
+2012-09-29T08:43:00.000Z	jhonnyboy		hey all, trying to restart my networking interfaces thru terminal. Tried using /etc/init.d/networking restart however it just seems to freeze and doesn't do anything…so does stop. Any other ideas?
+2012-09-29T08:43:00.000Z	chris92	jhonnyboy	that command is deprecated. rather use "sudo services network-manager restart"
+2012-09-29T08:44:00.000Z	jhonnyboy	chris92	Thanks! tried that but still nothing, terminal just blinks after i enter the command like it's not responding
+2012-09-29T08:47:00.000Z	jhonnyboy	chris92	seems to be gnome 2.0

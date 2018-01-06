@@ -1,0 +1,4 @@
+2011-05-01T18:54:00.000Z	Fragy		hi. After upgrading to 11.4 I get: error out of disk on hd0. Press any key.     Why is that? After I press enter it boots up normal.
+2011-05-01T18:55:00.000Z	escott	Fragy	do you have two disks
+2011-05-01T18:58:00.000Z	escott	Fragy	one change from 10.10 to 11.04 was in the grub.conf to change `set root(hd0,msdos1)` to `set root(sda,msdos1)` it could be your grub.conf didn't get updated, but your mbr did and grub is warning about the syntax change
+2011-05-01T19:01:00.000Z	Fragy	escott	no. Only sda's in the config file.

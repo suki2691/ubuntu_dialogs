@@ -1,0 +1,4 @@
+2011-11-23T00:14:00.000Z	e_t		hello on my lan both computers are 11.10 even though i can ssh into one box i cant scp a file to it because i get host key auth error. any ideas?
+2011-11-23T00:14:00.000Z	e_t		ohh okay ...
+2011-11-23T00:15:00.000Z	zykotick9	e_t	are you using scp from command line?  as both ssh and scp should check the same keys?
+2011-11-23T00:16:00.000Z	zykotick9	e_t	i don't get that either - you can clear/edit your keys in ~/.ssh/known_hosts

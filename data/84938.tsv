@@ -1,0 +1,4 @@
+2012-05-29T13:27:00.000Z	nibbler_	oober	you can use string and/or strace -eopen on the binary, to see where it opens files from
+2012-05-29T13:27:00.000Z	nibbler_	oober	strings, not string, sorry.
+2012-05-29T13:28:00.000Z	oober	nibbler_	great idea but it's a system service, so it's started by init or whatever ubuntu uses, so i can't directly do that without really ripping things apart
+2012-05-29T13:29:00.000Z	nibbler_	oober	well, then you know where stuff gets started, just use strings on the binary then. or stop the service and start it manually with strings. the init scripts might contain the config directory/file as well.

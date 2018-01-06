@@ -1,0 +1,4 @@
+2009-07-16T20:35:00.000Z	sid1monu		hey somebody help
+2009-07-16T20:35:00.000Z	sid1monu		this is my error wen i try to mount my 500 gb hard drive :http://pastebin.com/m31241c30
+2009-07-16T20:37:00.000Z	firecrotch	sid1monu	if it's actually an NTFS formatted drive, it's possible that it was not unmounted cleanly from Windows or something along those lines
+2009-07-16T20:39:00.000Z	firecrotch	sid1monu	have you tried to force it to mount with "mount /dev/sdx# /mount/point -o force" ?

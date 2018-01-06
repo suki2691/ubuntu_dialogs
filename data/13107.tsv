@@ -1,0 +1,4 @@
+2011-07-05T12:20:00.000Z	madmn		does anyone know how to tell how much space you have left on a account from putty
+2011-07-05T12:21:00.000Z	madmn		talking about in any account
+2011-07-05T12:21:00.000Z	madmn		i want to see how much space a folder is taking up
+2011-07-05T12:23:00.000Z	astraljava	madmn	`du -hs <directory>` will tell you how much a directory has eaten, `df -h` will tell you how much space left you got.

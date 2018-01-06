@@ -1,0 +1,4 @@
+2007-02-25T06:09:00.000Z	ericrost		hmm.. okay, just wget the debs to the stick, then whats the apt-get command to use a local deb?
+2007-02-25T06:09:00.000Z	ericrost		(I'm most familiar with gentoo/portage, sorry)
+2007-02-25T06:11:00.000Z	ericrost		where can i put the deb so apt-get sees it? that's what you do with portage anyhow.. its smart enough to look in its cache and see the package there
+2007-02-25T06:12:00.000Z	erUSUL	ericrost	try in /var/cache/apt/archives/

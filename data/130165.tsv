@@ -1,0 +1,4 @@
+2008-11-03T18:38:00.000Z	frybye		different ? - in a large peer 2 peer network (70+ clients and no server..!) I was able to use the dchp to get a dynamic ip which worked fine for an hour .. then it broke.. so i set up a manual ip that also worked for an hour and that broke..the netmask keeps changin to "24"
+2008-11-03T18:39:00.000Z	frybye		and the net connection is dropped.. chage it back and it instantly gets broken again - and again...
+2008-11-03T18:39:00.000Z	chadeldridge	frybye	24 = 255.255.255.0
+2008-11-03T18:41:00.000Z	chadeldridge	frybye	lots of things could cause that issue, sounds like a network cascade failure or a broadcast flood killing your hub ... may want to check the cards to make sure they are all installed correctly and none are set to the wrong mode (all should be on the same duplex)

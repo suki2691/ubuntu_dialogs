@@ -1,0 +1,4 @@
+2008-06-11T05:53:00.000Z	ChunkyKs		never use apach restart
+2008-06-11T05:53:00.000Z	ChunkyKs		apache graceful is your friend
+2008-06-11T05:54:00.000Z	tzon1	ChunkyKs	what's wrong with init.d?
+2008-06-11T05:56:00.000Z	ChunkyKs	tzon1	you can use init.d for it, but you should still restart apache using "graceful" instead of "restart"

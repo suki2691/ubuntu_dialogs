@@ -1,0 +1,4 @@
+2008-11-12T00:22:00.000Z	mker_		I have two harddrives, one is / and the other one /dev/sdb1 is mounted as /media/disk but why is it in the places menu in Nautilus as if it was a usb drive? I mean the little unmount symbol next to it. Haven't i mounted it the "correct" way?
+2008-11-12T00:23:00.000Z	Slart	mker_	I think ubuntu considers all hard drives to be removable unless you put them in /etc/fstab.. it won't really be a problem
+2008-11-12T00:24:00.000Z	mker_	Slart	joebodo: It is a small problem since it doesn't mount automatically at startup, I have to do it manually every time. I checked fstab and it isn't there.
+2008-11-12T00:25:00.000Z	Slart	mker_	well.. sounds like putting it in the fstab file would solve that.. it isn't that hard.. man fstab for details

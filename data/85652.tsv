@@ -1,0 +1,4 @@
+2011-04-16T07:50:00.000Z	_Neytiri_		E: Could not get lock /var/lib/dpkg/lock - open (11: Resource temporarily unavailable)  E: Unable to lock the administration directory (/var/lib/dpkg/), is another process using it?  i am getting this error every time i try to install something
+2011-04-16T07:51:00.000Z	gaelfx	_Neytiri_	it sounds like you have a package manager open or running
+2011-04-16T07:51:00.000Z	gaelfx	_Neytiri_	check in system monitor under processes
+2011-04-16T07:53:00.000Z	gaelfx	_Neytiri_	do you know how to use ps?

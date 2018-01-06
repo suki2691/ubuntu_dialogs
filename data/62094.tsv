@@ -1,0 +1,4 @@
+2011-04-15T20:01:00.000Z	meganerd	barberan	"wpa_passphrase netwrk pasword > wpa.conf"
+2011-04-15T20:02:00.000Z	meganerd	barberan	then the next step depends on your wireless device, what type is it, and what is the interface name (eg.eth1, wlan0, etc.)
+2011-04-15T20:06:00.000Z	meganerd	barberan	what I do next is "sudo wpa_supplicant -Dwext -i wlan0 -c ./wpa.conf"
+2011-04-15T20:06:00.000Z	meganerd	barberan	then you should see some messages, it should be obvious if everything is ok or not.  If it is ok, switch to another console and do "sudo dhclient wlan0"

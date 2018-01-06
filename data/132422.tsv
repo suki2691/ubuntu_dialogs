@@ -1,0 +1,4 @@
+2008-03-09T23:24:00.000Z	b0lland		Hi #ubuntu, I'm trying to downgrade a package (libapache2-mod-python), but ubuntu just won't let me. Can anyone advice on the proper way to do such a thing? My failed attempt is shown here: http://paste.ubuntu-nl.org/59040/
+2008-03-09T23:25:00.000Z	soundray	b0lland	there is no "proper" way to downgrade -- only a forced one: use --force-downgrade (as per man dpkg)
+2008-03-09T23:27:00.000Z	b0lland	soundray	thanks for your response, I tried --force-downgrade, but the output is similar: http://paste.ubuntu-nl.org/59041/
+2008-03-09T23:28:00.000Z	b0lland	soundray	it still does this "unpacking replacement libapache2-mod-python" which is a newer package that I don't want

@@ -1,0 +1,4 @@
+2007-08-22T06:42:00.000Z	kornits		how do i remove packages?
+2007-08-22T06:43:00.000Z	kornits		apt-get remove?
+2007-08-22T06:43:00.000Z	wanger	kornits	sudo apt-get remove <package> , yeah
+2007-08-22T06:44:00.000Z	wanger	kornits	sudo apt-get autoremove - will remove anything that was automatically installed that is no longer necessary

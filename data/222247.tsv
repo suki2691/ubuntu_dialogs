@@ -1,0 +1,4 @@
+2005-11-20T09:36:00.000Z	mr-russ		is there a iptables init script?
+2005-11-20T09:37:00.000Z	intelikey	mr-russ	web search for 'quicktables'  it will help you set up one.
+2005-11-20T09:38:00.000Z	mr-russ	intelikey	I don't want a ruleset, I want an init script that starts and stops my script.
+2005-11-20T09:40:00.000Z	intelikey	mr-russ	write one.      if you use 'sh ~/myscript-for-iptables.sh '   then put that line in /etc/init.d/bootmisc.sh

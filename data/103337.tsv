@@ -1,0 +1,4 @@
+2009-09-11T02:21:00.000Z	Dulak		tla: ssh?
+2009-09-11T02:21:00.000Z	[tla]	Dulak	only have term serv access - ie copy / paste
+2009-09-11T02:23:00.000Z	[tla]	Dulak	have RDP from local to TS then ssh from TS to target server.  cant xfer files to/from TS.  Can only copy/paste text
+2009-09-11T03:02:00.000Z	[tla]	Dulak	just figured out gpg is installed by default in ubuntu so using that the create an ascii armored file "gpg -a -c -o <outfile> <infile>" lets me paste it and the decrypt the other end with "gpg -d -o <outfile> <infile>".  works a treat ;)

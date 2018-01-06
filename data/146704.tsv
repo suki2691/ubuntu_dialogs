@@ -1,0 +1,4 @@
+2008-05-13T12:35:00.000Z	jaffarkelshac		i am trying to make some cron schedules, i put in 36 9 * * * /usr/bin/firefox to test if firefox will run at 9:36am but it does not, what am i doing wrong
+2008-05-13T12:37:00.000Z	jaffarkelshac		i am trying to make some cron schedules, i put in 36 9 * * * /usr/bin/firefox to test if firefox will run at 9:36am but it does not, what am i doing wrong
+2008-05-13T12:39:00.000Z	jaffarkelshac		so it cant launch any gui apps? simplexio but can it launch a script that launches a gui app?
+2008-05-13T12:39:00.000Z	blippe	jaffarkelshac	you need to pass the "DISPLAY" to it, and it works in cron

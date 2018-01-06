@@ -1,0 +1,4 @@
+2011-12-12T17:40:00.000Z	dmorfin	yogg	I had bind running like that for 10+ years, so I don't see the problem.  Just make sure you keep your forwarders in line with the wan network if possible.
+2011-12-12T17:42:00.000Z	yogg	dmorfin	the problem was to get the dns servers from the dhcp server and do not change any interface configuration. But with dhclient.conf i can manage it
+2011-12-12T17:45:00.000Z	dmorfin	yogg	I had my dhcp server set to send dns as just my local dns server.  everything worked fine, even when I switched wan networks.
+2011-12-12T17:45:00.000Z	dmorfin	yogg	and yes, as ActionParsnip says, 8.8.8.8 and 8.8.4.4 are decent forwarders, assuming your different wan networks have different dns, and you can't switch easily

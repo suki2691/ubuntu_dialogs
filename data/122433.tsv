@@ -1,0 +1,4 @@
+2007-09-20T11:35:00.000Z	weezy	weezy	no need to mess around and find codecs, most are built in
+2007-09-20T11:58:00.000Z	weezy	weezy	you only need to start it up once...try moving the startup script out of init.d
+2007-09-20T12:06:00.000Z	weezy	weezy	the runlevels (rc*d) should just be symlinks to the one in init.d
+2007-09-20T12:16:00.000Z	weezy	weezy	after that you may also need build-essential

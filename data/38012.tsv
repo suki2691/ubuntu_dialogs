@@ -1,0 +1,4 @@
+2010-02-04T05:30:00.000Z	m3rc		If my nic is using the wrong driver, how do I get it to use a different one afer I modprobe the driver?
+2010-02-04T05:30:00.000Z	Oli``	m3rc	rmmod the wrong one first, then modprobe the right one
+2010-02-04T05:31:00.000Z	Oli``	m3rc	then blacklist the wrong one to stop it loading on boot
+2010-02-04T05:31:00.000Z	m3rc	Oli``	did those but it's not associating the new driver with the nic

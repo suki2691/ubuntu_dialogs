@@ -1,0 +1,4 @@
+2010-01-24T21:46:00.000Z	goose_		what's the command to create a tarball from terminal? I want to tar a 3 GiB dir on my server so I can wget back it up onto my local machine
+2010-01-24T21:48:00.000Z	jpds	goose_	steffan: Or just do: tar cvzf [name].tar.gz dir/ directly
+2010-01-24T21:49:00.000Z	goose_	jpds	tar -cvzf webstuff.tar.gz /home/goose/www
+2010-01-24T21:49:00.000Z	jpds	goose_	You can omit the - entirely.

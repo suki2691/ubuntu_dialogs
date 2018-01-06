@@ -1,0 +1,4 @@
+2008-07-07T00:52:00.000Z	]RandoM[		i finally got myself connecting to my company's openvpn.. but i can only access  network resources by ip, hostnames don't seem to resolve ??
+2008-07-07T00:52:00.000Z	]RandoM[		anybody familiar with that problem?
+2008-07-07T00:53:00.000Z	Fryguy--	]RandoM[	make sure you are using a dns server that has your local hostnames
+2008-07-07T00:53:00.000Z	Fryguy--	]RandoM[	probably need to add it to /etc/resolv.conf

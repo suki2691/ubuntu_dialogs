@@ -1,0 +1,4 @@
+2010-06-30T05:39:00.000Z	Alonea		ok, so I am trying to get Mobipocket Creator to work in Wine and on their page it says that it works with ies4linux...however I am unable to get ies4linux to work because it wants wineprefixcreate which is deprecated
+2010-06-30T05:39:00.000Z	Alonea		is there an alternative?
+2010-06-30T05:40:00.000Z	naibed	Alonea	of course; search and copy It in $PATH
+2010-06-30T05:42:00.000Z	naibed	Alonea	download wine from an older distro package (i.e. https://launchpad.net/ubuntu/jaunty/+package/wine), unpack the deb with "ar x package.deb; tar zxvf data*; find -name wineprefixcreate -exec cp {} /usr/bin/ \;"

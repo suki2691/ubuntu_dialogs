@@ -1,0 +1,4 @@
+2008-12-23T18:15:00.000Z	krishnan		what is wrong with this command "sudo cp -R ./upload/ /var/www/forums"
+2008-12-23T18:17:00.000Z	ortsvorsteher	krishnan	i would try 'sudo cp -rp upload /var/www/forums/
+2008-12-23T18:19:00.000Z	krishnan	ortsvorsteher	iam geting this error "cp: cannot stat `upload': No such file or directory"
+2008-12-23T18:20:00.000Z	ortsvorsteher	krishnan	try at first to change to directory where directory upload is. or you take the full pathname like /tmp/upload

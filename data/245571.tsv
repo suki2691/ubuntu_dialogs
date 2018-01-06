@@ -1,0 +1,4 @@
+2006-06-25T16:15:00.000Z	morphius_		I am trying to set up a dhcp server. It looks like: WAN --------- Ubuntu box ------------- LAN. What will keep DHCP from broadcasting on the WAN side?
+2006-06-25T16:16:00.000Z	cwillu	morphius_	should be able to tell it to only bind to the lan adapter
+2006-06-25T16:17:00.000Z	cwillu	morphius_	dhcpd.conf probably
+2006-06-25T16:17:00.000Z	cwillu	morphius_	interfaces is the client side, and iptables is the wrong approach (run the service, but block it)

@@ -1,0 +1,4 @@
+2011-04-06T03:52:00.000Z	kidko		Hey all, anybody know a thing or two about troubleshooting drives that won't mount?
+2011-04-06T03:52:00.000Z	mickster04	kidko	if you give us error messages and other details, maybe
+2011-04-06T03:54:00.000Z	kidko	mickster04	I've had this external harddrive for a few years. It just started giving me trouble this afternoon... trying to open a file on it froze Thunar, and I couldn't unmount the drive (despite there being nothing using it, according to lsof). I tried restarting, and now I can't re-mount it. http://pastebin.com/dk78srTu
+2011-04-06T03:55:00.000Z	kidko	mickster04	A couple googles for "Unhandled sense code" suggests that my harddrive is failing, but only the EXT3 partition is having problems. There's a FAT32 on it that mounts just fine.

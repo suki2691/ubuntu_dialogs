@@ -1,0 +1,4 @@
+2007-10-21T22:36:00.000Z	atouk		it seems like if root login is enabled, sudo doesn't work for users.    is there a fix?
+2007-10-21T22:37:00.000Z	troxor	atouk	sudo visudo
+2007-10-21T22:37:00.000Z	troxor	atouk	in there, you can specify exactly who gets to use sudo
+2007-10-21T22:39:00.000Z	troxor	atouk	sudo -i to get to the root user's account, make up a really long random password, set it, and then forget it :)

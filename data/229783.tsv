@@ -1,0 +1,4 @@
+2005-08-13T10:10:00.000Z	Miks		 how can i make the "floppy" drive unit to dissapear from the "Computer", like unmounting it forever...i disconnected it but it still appears in the system
+2005-08-13T10:12:00.000Z	bimberi	Miks	Try editing /etc/fstab and commenting out the relevant line (ie. with /dev/fd0 or floppy or the like)
+2005-08-13T10:13:00.000Z	bimberi	Miks	yw :) did it work?
+2005-08-13T10:15:00.000Z	bimberi	Miks	thanks - I'll lock that one into the personal knowledgebase then :)

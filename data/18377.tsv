@@ -1,0 +1,4 @@
+2011-08-15T14:35:00.000Z	paszo2008		hallo - where is now the system -> administration -> services menu ?
+2011-08-15T14:35:00.000Z	jrib	paszo2008	why?
+2011-08-15T14:36:00.000Z	paszo2008	jrib	- how to control what services start on startup ?
+2011-08-15T14:38:00.000Z	jrib	paszo2008	if it uses a sys-v-init-style script, install and use sysv-rc-conf.  If instead it is an upstart script, see: http://upstart.ubuntu.com/cookbook/#disabling-a-job-from-automatically-starting

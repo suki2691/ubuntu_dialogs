@@ -1,0 +1,4 @@
+2010-02-27T07:56:00.000Z	jpitts		long install question (repeat) http://paste.ubuntu.com/384822/
+2010-02-27T07:57:00.000Z	GeekSquid	jpitts	use LVM ... Logical Volume Managment ... it is a true raid0 .. so ubuntu needs to see it as that
+2010-02-27T08:00:00.000Z	jpitts	GeekSquid	i am not sure it really is a true hardware raid after reading some things - i get the impression it is some weird driver-assisted 'thing'. in any case, it is a large, NTFS-formatted media storage volume, and i am unwilling to break the mirror. i am quite nervous about LVM.
+2010-02-27T08:12:00.000Z	jpitts	GeekSquid	well. plan b. install Win7 long enough to retrieve data off the mirror. disable RAID, reinstall ubuntu and use mdraid.

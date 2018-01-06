@@ -1,0 +1,4 @@
+2010-03-03T17:51:00.000Z	chimp		If you know what program you want to use but don't know what package it is installed in and its not in the package description, how can I from the CLI work out what package to install with apt
+2010-03-03T17:52:00.000Z	ActionParsnip	chimp	apt-cache search somethinghere
+2010-03-03T17:53:00.000Z	chimp	ActionParsnip	Ahh, interestingly i've been using aptitude search, however by default it doesn't seem to find things. Ie aptitude search hexdump and apt-cache search hexdump
+2010-03-03T17:54:00.000Z	ActionParsnip	chimp	they are pretty much the same deal. you can use apt-file if you want more detail, takes a while to setup on its own but allows you to find what packaes contain a certain file name

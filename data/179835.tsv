@@ -1,0 +1,4 @@
+2012-08-13T19:46:00.000Z	ero-jiji		have an issue with free space, my i have a 3.1tb partition mounted as /home. i copied 1.1tb to a single folder, and now its saying im using 100% of the 3,1tb
+2012-08-13T19:46:00.000Z	jrib	ero-jiji	try baobab (Disk Usage Analyzer in the menu) to determine what is using the space
+2012-08-13T19:58:00.000Z	jrib	ero-jiji	may I ask what this 1.1 TB file is?
+2012-08-13T20:06:00.000Z	jrib	ero-jiji	lsof | grep deleted   turn up anything?

@@ -1,0 +1,4 @@
+2012-10-05T01:45:00.000Z	jaxdahl		can you construct a package and make it have a dependency that a certain user exists?
+2012-10-05T01:46:00.000Z	iceroot	jaxdahl	not directly
+2012-10-05T01:46:00.000Z	iceroot	jaxdahl	not with dpkg but with a preinst-script
+2012-10-05T01:49:00.000Z	iceroot	jaxdahl	and of course you can use every bash command in the pre/postscripts so you can add a user while installing the package

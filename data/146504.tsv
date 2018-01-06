@@ -1,0 +1,4 @@
+2010-05-12T01:28:00.000Z	Rev84		Hi, I wish to install Ubuntu on my computer however I'm having trouble. I have 3 hard-drives 2 in raid0 and one 500gb sata drive. I wish to install to a partition on the 500gb drive however when I try I get the message "ubuntu no root file system is defined, please check this at the partitioning menu" Can somebody please help, as I don't know what to do?
+2010-05-12T01:30:00.000Z	BluesKaj	Rev84	have you formatted the 50G drive to ext for linux ?
+2010-05-12T01:34:00.000Z	BluesKaj	Rev84	 so it sees the drive as unformatted or unallocated , did you install a swap ?
+2010-05-12T01:37:00.000Z	BluesKaj	Rev84	perhaps if you use gparted live cd to label the partition as / , then the kubuntu cd may see it as ext4.

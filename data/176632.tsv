@@ -1,0 +1,4 @@
+2006-06-26T06:21:00.000Z	aviation		is anyone using a nvidia card here on dapper? specifically a geforce fx 5200... i have some questions
+2006-06-26T06:22:00.000Z	LjL	aviation	i am, but it's not like i actually use the 3D
+2006-06-26T06:24:00.000Z	aviation	LjL	can you tell me what you did to install it properly, im not sure what i did wrong... my highest resolution offered is 1024x768
+2006-06-26T06:25:00.000Z	LjL	aviation	i just did "sudo aptitude install nvidia-glx", then "sudo dpkg-reconfigure xserver-xorg" and set it up to use then "nvidia" driver rather than "nv", then went through all the questions, then choose my resolutions and refreshrates

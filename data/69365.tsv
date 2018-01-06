@@ -1,0 +1,4 @@
+2010-09-29T17:51:00.000Z	silv3r_m00n		is it possible to create an image of a folder , in some other location such that it appears to be a copy of the original folder but they both are actually the same thing ?
+2010-09-29T17:52:00.000Z	silv3r_m00n		making changes in either of them reflects in both
+2010-09-29T17:52:00.000Z	ppq	silv3r_m00n	maybe you want a symbolic link. see 'man ln'
+2010-09-29T17:57:00.000Z	ppq	silv3r_m00n	you can simply delete the link with rm. but be sure not to delete the link-target-folder

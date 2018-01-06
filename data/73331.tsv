@@ -1,0 +1,4 @@
+2010-03-12T18:22:00.000Z	Slyboots		Anyone here had any luck installing GRUB on disks that are 2tb or larger?
+2010-03-12T18:22:00.000Z	Slyboots		The auto-installer keeps formatting the disk as GPT which.. stops GRUB from working
+2010-03-12T18:23:00.000Z	dj_segfault	Slyboots	I've never tried that, but I assume you would run into similar problems as with the old 1024-sector limit, with a similar workaround: Create a boot partition near the beginning of the disk and everything should work.
+2010-03-12T18:24:00.000Z	Slyboots	dj_segfault	Wont help, Im setting up a server so i has to be in a RAID array

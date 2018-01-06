@@ -1,0 +1,4 @@
+2010-12-19T15:53:00.000Z	Ileden		Hi! I just upgraded my laptop from 10.04 to 10.10, and my WLAN broke. It can see my network, but connecting to it fails. Weirdly enough, I did manage to connect once, but there was about 50% packet loss with ping. My network is ok, verified via another computer, and the WLAN did work perfectly in 10.04. The problem disappears when starting with an earlier kernel via grub. Any ideas what to do here?
+2010-12-19T15:55:00.000Z	Ileden		That is, after upgrade to 10.10 my WLAN fails with latest kernel 2.6.35-23-generic but works with 2.6.32-26-generic. Is there anything I can do to fix this?
+2010-12-19T15:57:00.000Z	WinstonSmith	Ileden	try installing linux-backports-modules-compat-wireless
+2010-12-19T15:58:00.000Z	WinstonSmith	Ileden	that would be  linux-backports-modules-compat-wireless-2.6.35-23-generic

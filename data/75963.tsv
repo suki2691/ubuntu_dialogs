@@ -1,0 +1,4 @@
+2008-10-31T23:41:00.000Z	Skyper		Hello guys...well, when i was installing i put my winxp partition to be mount on /winxp but for sure its not been mounted..so anyone know how can i resolve this?
+2008-10-31T23:42:00.000Z	z0d14k	Skyper	have you tried `sudo mount /winxp` ?
+2008-10-31T23:44:00.000Z	Skyper	z0d14k	works but this way will mount automatically everytime?
+2008-10-31T23:46:00.000Z	z0d14k	Skyper	If that worked, it should be in /etc/fstab.  If you edit /etc/fstab make sure that there isn't an option that says noauto for your XP partition.  Other than that it should "Just work(tm)"

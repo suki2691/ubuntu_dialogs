@@ -1,0 +1,4 @@
+2006-09-05T07:20:00.000Z	musti		Hello, Does anybofy know how to switch a Kubuntu installation to normal Ubuntu without reinstalling ?
+2006-09-05T07:21:00.000Z	Mortice	musti	sudo apt-get install ubuntu-desktop, and make sure to choose gdm as the default display manager
+2006-09-05T07:22:00.000Z	musti	Mortice	Do i set it default in xorg.conf or just when i log out
+2006-09-05T07:23:00.000Z	Mortice	musti	neither. you'll get a debconf prompt asking you to choose the default display manager during the installation of ubuntu-desktop

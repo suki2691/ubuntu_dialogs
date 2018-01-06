@@ -1,0 +1,4 @@
+2009-12-30T19:53:00.000Z	jtaji	gabbah	your default gateway is used to route traffic to any IP not on your subnet.. since your are using your ISPs public IP and gateway...
+2009-12-30T19:53:00.000Z	jtaji	gabbah	traffic to 192.168.* will go to the ISP gateway, and then won't know where to go
+2009-12-30T19:54:00.000Z	jtaji	gabbah	you need some device on your network to act properly as your gateway
+2009-12-30T19:55:00.000Z	gabbah	jtaji	aha ok i see

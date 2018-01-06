@@ -1,0 +1,4 @@
+2005-12-16T12:09:00.000Z	mettallicat		how can i solv this /etc/init.d/adsl-init: line 32: echo_success: command not found ?
+2005-12-16T12:10:00.000Z	amias	mettallicat	open /etc/init.d/adsl-init  in a text editor , go to line 32 , look at whats being done , sound likes its just telling you it was ok , in which case you could chop of the offending bit of code
+2005-12-16T12:10:00.000Z	amias	mettallicat	that probably won't do your installation much good
+2005-12-16T12:11:00.000Z	mettallicat	amias	adsl is up but that command do not exist

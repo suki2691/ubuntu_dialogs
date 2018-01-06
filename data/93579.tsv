@@ -1,0 +1,4 @@
+2008-08-09T00:32:00.000Z	Arnos		what command can I use to find if a machine is on my LAN?
+2008-08-09T00:33:00.000Z	justin__	Arnos	use nmap
+2008-08-09T00:33:00.000Z	Arnos	justin__	thanks
+2008-08-09T00:34:00.000Z	justin__	Arnos	you have to apt-get install nmap, then in a terminal do    sudo nmap -sP 192.168.1.254/24 and that will tell you all the up and running machines on your local lan

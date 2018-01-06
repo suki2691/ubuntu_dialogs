@@ -1,0 +1,4 @@
+2011-05-13T16:52:00.000Z	mrluksom		blip: can you pastebin the following: 1. lshw- c network 2. lsmod 3. ifconfig 4. iwconfig
+2011-05-13T16:54:00.000Z	blip-	mrluksom	yes give me few mins please, I have to copy and paste the text to another machine so I can upload
+2011-05-13T16:57:00.000Z	blip-	mrluksom	do you want lshw after I do 'ifconfig wlan0 up' and the wifi light turns on ? or before ?
+2011-05-13T17:06:00.000Z	blip-	mrluksom	After ifconfig wlan0 up, the wifi light turns on. If I try to iwlist scan with sudo (or if I click enable wireless in the distro's scanning tool) then kernel panic.  iwconfig/ifconfig --> http://pastie.org/private/noxedtsceqlykuygszngbq     lsmod -> http://pastie.org/private/syy1mklsgeac7yol4gwqg    lshw ->   http://pastie.org/private/qqsku4eankkgjgtzs6thg

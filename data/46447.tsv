@@ -1,0 +1,4 @@
+2009-10-03T01:02:00.000Z	alazyworkaholic		Does anyone understand "dd" well enough to tell it to send 0's to sda, ignoring any errors? I can't make much sense of the man page. Does "sudo dd if=0 of=/dev/sda" approach being correct?
+2009-10-03T01:03:00.000Z	ciderpunx	alazyworkaholic	/dev/zero
+2009-10-03T01:06:00.000Z	alazyworkaholic	ciderpunx	no, I think my (new) ssd's toast, even though badblocks gave an all clear. the dd command gave: dd: opening `/dev/sda': Read-only file system
+2009-10-03T01:06:00.000Z	ciderpunx	alazyworkaholic	yuk.

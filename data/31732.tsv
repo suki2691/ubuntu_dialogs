@@ -1,0 +1,4 @@
+2010-05-21T23:34:00.000Z	eee		Hi :-) I upgraded to 10.04 a couple of hours ago, and since then my keyboard and/or my touchpad mouse has simply stopped. I did not have this problem before, it works perfect in GDM, I found nothing in logs, xorg.conf is no longer than 16 lines (is that normal? not a few years ago)
+2010-05-21T23:34:00.000Z	eee		I mean, they simply stops randomly
+2010-05-21T23:35:00.000Z	eee		they can work for an hour and then suddenly, no idea what triggers it
+2010-05-21T23:36:00.000Z	a3ist	eee	 Run this and pastebin the results so we can see what drivers you have installed:  "dpkg -l | grep "xserver-xorg-input"

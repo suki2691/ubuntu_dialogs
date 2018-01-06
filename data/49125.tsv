@@ -1,0 +1,4 @@
+2009-09-05T23:33:00.000Z	Carnival		Hey guys, I've got a weird problem I have no clue how to solve...  can anyone help?  I've got a few VMs, using VirtualBox bridged networking for all of them.  one of them works just fine without any configuration, it's a ubuntu desktop distro.  the problem one is ubuntu server which seems to report... "error fetching interface information: Device not found" to ifconfig \all
+2009-09-05T23:34:00.000Z	Carnival		dmesg | grep eth0 reports: registered as PCnet Fast III, udev renamed eth0 to eth1
+2009-09-05T23:34:00.000Z	fccf	Carnival	I'd point you @ #vbox -- they likely will have a solution for you
+2009-09-05T23:35:00.000Z	Carnival	fccf	thanks, I'll check there too

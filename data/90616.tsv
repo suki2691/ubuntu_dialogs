@@ -1,0 +1,4 @@
+2008-06-01T13:31:00.000Z	insertable		hey all. my mouse loses control every now and then and my screen goes crazy. when i do a dmesg i get this error in there: [208774.789472] psmouse.c: Wheel Mouse at isa0060/serio1/input0 lost synchronization, throwing 2 bytes away. <-- does anyone know what this is and how to fix it? thanks
+2008-06-01T13:32:00.000Z	Slart	insertable	disconnect and reconnect the mouse.. should work again
+2008-06-01T13:32:00.000Z	insertable	Slart	that stops it from having a seizure momentarily, until next time
+2008-06-01T13:33:00.000Z	Slart	insertable	I don't really know what's causing it.. perhaps try playing with what driver you use

@@ -1,0 +1,4 @@
+2008-03-10T21:32:00.000Z	sfears		i'm trying to compile a driver and i get an error that there's no Makefile.conf.. there's a Makefile.conf.in in the directory.. is there a way to make that the Makefile.conf??
+2008-03-10T21:32:00.000Z	infbliss	sfears	is there a configure file in that directory
+2008-03-10T21:32:00.000Z	infbliss	sfears	then do ./configure && make
+2008-03-10T21:35:00.000Z	infbliss	sfears	no "&&" ensures that configure runs successfully before make

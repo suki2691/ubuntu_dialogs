@@ -1,0 +1,4 @@
+2007-03-22T12:38:00.000Z	macpo3		I added my second hd (hdc1) in fstab, and created a directory /dev/hd2 as a mount point, but the drive doesn't mount when the system boots - I have to open a terminal and "sudo mount /dev/hdc1" ... anyone know how I can make the system mount it on bootup?
+2007-03-22T12:38:00.000Z	clearzen	macpo3	/dev/hd2 is not a valid mount point
+2007-03-22T12:38:00.000Z	clearzen	macpo3	try /media/hd2
+2007-03-22T12:39:00.000Z	clearzen	macpo3	so it would look like /dev/hdb1 /media/hd2

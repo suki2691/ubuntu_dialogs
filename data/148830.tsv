@@ -1,0 +1,4 @@
+2008-11-22T08:08:00.000Z	dutch		does anyone know the official way to change video settings from a command line in intrepid? gdm is having trouble starting...
+2008-11-22T08:10:00.000Z	unop	dutch	i believe the GDM resolution is set by xorg - and that means editing /etc/X11/xorg.conf
+2008-11-22T08:10:00.000Z	dutch	unop	true. i need to change my video driver back to basic "nv", since it stopped working when i used proprietary drivers
+2008-11-22T08:11:00.000Z	unop	dutch	again, that's something to be done in xorg.conf

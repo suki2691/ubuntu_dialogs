@@ -1,0 +1,4 @@
+2010-04-03T17:22:00.000Z	benni123		Is it possible to login to a mounted ubuntu drive, something like ssh style?
+2010-04-03T17:24:00.000Z	thechef	benni123	you mean you have another ubuntu-installation mounted to /mnt/other-ubuntu-root for example? In that case use: sudo chroot /mnt/other-ubuntu-root
+2010-04-03T17:24:00.000Z	benni123	thechef	exactly
+2010-04-03T17:25:00.000Z	benni123	thechef	I get chroot: cannot run command `/bin/bash': Exec format error

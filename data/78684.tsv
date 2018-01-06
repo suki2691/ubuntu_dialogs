@@ -1,0 +1,4 @@
+2010-02-12T23:29:00.000Z	jage		how do I mount a CDrom as executable?  sudo mount -o exec /dev/cdrom /media gives mount: block device /dev/sr0 is write-protected, mounting read-only
+2010-02-12T23:30:00.000Z	lfaraone	jage	mount file.iso /cdrom -t iso9660 -o loop
+2010-02-12T23:30:00.000Z	lfaraone	jage	oh, sorry, I misunderstood
+2010-02-12T23:30:00.000Z	lfaraone	jage	it should automagically be executable, and read-only is normal.

@@ -1,0 +1,4 @@
+2011-10-23T20:33:00.000Z	Broseph		I want to setup a raid 10 on 5 drives in ubuntu 11.10. As far as I can tell, this can't be done at the install screen and my only other options are: booting to a shell and preparing the raid beforehand, or doing it after having installed the system. Have I got the right idea?
+2011-10-23T20:35:00.000Z	yagoo	Broseph	i thought raid10 is 4 drives
+2011-10-23T20:35:00.000Z	Broseph	yagoo	isn't 4 drives just the minimum?
+2011-10-23T20:40:00.000Z	Broseph	yagoo	you're right to some extent as an odd number won't work (can't have more than 2 in raid 1), but having one disk as a hot spare is still possible

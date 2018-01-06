@@ -1,0 +1,4 @@
+2006-07-28T08:57:00.000Z	syock		Has anyone here succeeded in compiling wine from CVS for AMD64?
+2006-07-28T08:59:00.000Z	syock		What does it mean when I get a segment violation while compiling something?
+2006-07-28T09:00:00.000Z	fintler	syock	it's an annoying error...it probably means that some pointer math is off...try doing a 'make distclean&&make all'
+2006-07-28T09:00:00.000Z	fintler	syock	: just hope it's a problem with linking..otherwise you need to break out gdb

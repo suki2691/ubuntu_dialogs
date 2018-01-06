@@ -1,0 +1,4 @@
+2005-12-22T09:30:00.000Z	gum67		did someone mention my nick ?
+2005-12-22T09:32:00.000Z	gum67		okay the second problem, i found the answer after a bit of a search on the web, but i need to make sure that SB16 module is loaded, THEN i can mess with Alsa/whatever.
+2005-12-22T09:34:00.000Z	gum67		i'll check back later when it's not so busy.
+2005-12-22T09:34:00.000Z	nickrud	gum67	check on the alsa-project.org site for which alsa module supports the SB16, then lsmod | grep snd to see if it's loaded

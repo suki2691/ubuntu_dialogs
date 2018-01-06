@@ -1,0 +1,4 @@
+2008-10-28T06:19:00.000Z	kansan__		i'm trying to figure out why i can't ssh into my box.  i can ssh into 192.168.0.3 (my IP address)... but i cant ssh into 97.113.54.66.... a QWEST assigned IP address.  (i've even tryied telnet 97.113.54.66 22 and gotten =< Unable to connect; connection timed out).  i'm plugged directly from qwest modem into my computer.  questions: 1) isn't this qwest's fault?  2) how do i view the log of the sshd server?  thanks
+2008-10-28T06:19:00.000Z	spragie	kansan__	port forwading for your router, or set you 0.3 as DMZ
+2008-10-28T06:20:00.000Z	kansan__	spragie	huh?  there is no router i'm plugged directly into their dsl modem
+2008-10-28T06:20:00.000Z	kansan__	spragie	i didnt get to set the ip address

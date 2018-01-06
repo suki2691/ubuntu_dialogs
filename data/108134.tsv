@@ -1,0 +1,4 @@
+2008-01-27T04:47:00.000Z	BetaTest		How do I make sure that /dev/dsp is not being used?
+2008-01-27T04:47:00.000Z	loke	BetaTest	lsof /dev/dsp
+2008-01-27T04:48:00.000Z	BetaTest	loke	then would I lson /dev/dsp to enable?
+2008-01-27T04:48:00.000Z	loke	BetaTest	no.  lsof /dev/dsp tells you if anything's using /dev/dsp

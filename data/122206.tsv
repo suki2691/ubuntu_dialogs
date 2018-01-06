@@ -1,0 +1,4 @@
+2009-01-13T02:14:00.000Z	compubomb		I'm trying to have ubuntu reconfigure unconfigured packages, what do i have to do ?
+2009-01-13T02:14:00.000Z	compubomb		i had to kill a process which died on me, because i left it too long and it was probably pushed into swap and was written over.
+2009-01-13T02:16:00.000Z	gnutron	compubomb	dpkg-reconfigure <package>
+2009-01-13T03:27:00.000Z	gnutron	compubomb	dpkg -l in a terminal or dpkg -l |less  will show ALL packages installed.

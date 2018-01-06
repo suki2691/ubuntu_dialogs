@@ -1,0 +1,4 @@
+2009-05-12T22:46:00.000Z	bullgard4		My Ubuntu 9.04 does not Resume after Hibernate (nor after Suspend to RAM). /var/log/syslog: "kernel: Inspecting /boot/System.map-2.6.28.11-generic; kernel: Cannot find map file." But I can read the file /boot/System.map-2.6.28-11-generic using mc. What goes wrong here?
+2009-05-12T22:48:00.000Z	bullgard4		My Ubuntu 9.04 laptop computer does not resume from Hibernate nor Suspend to RAM. I cannot find any hints in dmesg. In /var/log/pm-suspend.log the last line is: "Tue May 12 14:38:59 CEST 2009: performing hibernate". Where should I start looking for an error message?
+2009-05-12T22:50:00.000Z	linux888	bullgard4	do you have any usb devices or sd cards plugs in when you hibernate?
+2009-05-12T22:51:00.000Z	bullgard4	linux888	No.

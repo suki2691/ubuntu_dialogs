@@ -1,0 +1,4 @@
+2009-09-09T01:38:00.000Z	adac		Does anyone know if on a live usb stick the xorg.conf is generated on every reboot?
+2009-09-09T01:39:00.000Z	durt	adac	if the stick is not persistent any changes you make will be lost
+2009-09-09T01:44:00.000Z	durt	adac	xorg.conf does not get written to at all at boot, ever.
+2009-09-09T01:45:00.000Z	adac	durt	"The livecd uses /usr/bin/dexconf to generate xorg.conf"

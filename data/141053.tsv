@@ -1,0 +1,4 @@
+2009-05-09T13:53:00.000Z	ferdul		hello all. I have a problem when opening a new session with another user in ubuntu. The screen goes black... linux keeps on working (i can go to my first sessino using ctrl+alt+f*) but i can't see anything in the new terminal but the mouse. Any ideas?
+2009-05-09T13:55:00.000Z	ferdul		is there a log i could check anywhere to see what kind of error may be happening?
+2009-05-09T13:56:00.000Z	raylu	ferdul	/var/log/Xorg.0.log. there also might be a gdm log in there
+2009-05-09T13:56:00.000Z	raylu	ferdul	"there" being /var/log/

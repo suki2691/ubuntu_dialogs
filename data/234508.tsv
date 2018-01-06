@@ -1,0 +1,4 @@
+2007-05-10T05:34:00.000Z	NekoKun		is it possible to grant mount permission to a user?
+2007-05-10T05:34:00.000Z	dooglus	NekoKun	/etc/fstab can do that, with the 'user' flag
+2007-05-10T05:35:00.000Z	dooglus	NekoKun	where 'user' is a fixed string
+2007-05-10T05:35:00.000Z	dooglus	NekoKun	it allows all users to mount that partition.  you can set up sudo to allow specific users to run 'mount' as root, otherwise

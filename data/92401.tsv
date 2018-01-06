@@ -1,0 +1,4 @@
+2008-11-06T06:16:00.000Z	snowveil		Does anyone know how I can set js0 to be a specific device located in dev/input/by-id ?
+2008-11-06T06:16:00.000Z	karsten	snowveil	udev has some hooks for coding that.
+2008-11-06T06:19:00.000Z	snowveil	karsten	, can udev be used as a terminal command or will I have to edit udef.conf?
+2008-11-06T06:20:00.000Z	karsten	snowveil	udev is the overall system used to manage device files.  It's configured mostly through some stuff under /etc/udev/

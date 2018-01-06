@@ -1,0 +1,4 @@
+2007-12-23T06:12:00.000Z	windsor510		Hi, anyone know anything about tunneling X-windows apps through an ssh session?
+2007-12-23T06:13:00.000Z	Dr_willis	windsor510	 ssh and that feature is documented all over the place. :) in short.. ssh -X you.remote.machine   , then run the app.
+2007-12-23T06:13:00.000Z	Dr_willis	windsor510	 or ssh -Y,  assuming the enable x forearding is allowed for the server.
+2007-12-23T06:27:00.000Z	windsor510	Dr_willis	Thanks, I got xming server working using putty (plink) to ssh to my home machine and get me back an xterm

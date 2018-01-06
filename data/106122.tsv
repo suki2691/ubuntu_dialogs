@@ -1,0 +1,4 @@
+2008-09-18T02:47:00.000Z	hewhocutsdown		well, I've been through the SoundTroubleshooting wiki article, and my sound is still dead. was working a week ago. I found my alsa driver and "sudo modprobe snd-intel8x0" just drops me back to a command prompt, it doesn't print anything
+2008-09-18T02:48:00.000Z	hewhocutsdown		I also uninstalled/reinstalled all the alsa drivers applications using "sudo apt-get --purge remove linux-sound-base alsa-base alsa-utils"
+2008-09-18T02:49:00.000Z	hewhocutsdown		so far...nothing. any other ideas for troubleshooting a no sound issue?
+2008-09-18T02:49:00.000Z	ThipThip	hewhocutsdown	- you've done what I would normally suggest - nothing on the forums?

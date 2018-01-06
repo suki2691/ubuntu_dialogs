@@ -1,0 +1,4 @@
+2009-09-25T07:08:00.000Z	brand0con		while attempting to make a dual boot system with 2 hard drives apparently the live cd didnt recognize the windows disk and now grub isn't working and the windows drive also displays a grub error when booting
+2009-09-25T07:08:00.000Z	brand0con		options?
+2009-09-25T07:10:00.000Z	brand0con		how can i boot a windows drive that displays a grub error?  can i reinstall grub and hope that it sees windows
+2009-09-25T07:12:00.000Z	Cyrano_De	brand0con	If you have a Windows Vista entry in your menu.lst fill grub should be able to boot it once you reload the MBR

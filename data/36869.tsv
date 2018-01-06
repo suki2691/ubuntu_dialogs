@@ -1,0 +1,4 @@
+2010-07-02T05:41:00.000Z	dotben_		what is the best way to discover what process is responsible for a connection in netstat
+2010-07-02T05:41:00.000Z	dotben_		my box has started to make connections that I don't recognize but there is no pid in netstat :(
+2010-07-02T05:43:00.000Z	Typos_King	dotben_	   try with netstat -p
+2010-07-02T05:44:00.000Z	Typos_King	dotben_	  it gives the pid and app name for most, not all, but pid for all

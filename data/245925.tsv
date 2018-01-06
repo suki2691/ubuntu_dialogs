@@ -1,0 +1,4 @@
+2005-04-16T10:04:00.000Z	moquist		anybody know why when I create an innodb mysql table, the resulting table is myisam?  do I need to install another package to get innodb table type support?
+2005-04-16T10:05:00.000Z	airox	moquist	When you do CREATE TABLE there is an option to specify it.
+2005-04-16T10:05:00.000Z	moquist	airox	right.  and I specify "innodb", but when I dump the DB the type is "myisam".
+2005-04-16T10:06:00.000Z	moquist	airox	there's probably a better way to look at the table metadata than dumping the DB; I'll find it.

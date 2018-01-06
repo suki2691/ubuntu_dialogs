@@ -1,0 +1,4 @@
+2008-05-06T02:03:00.000Z	[DMC]		Anyone get the "only allow local connections" working in the advanced pane of remote desktop on ubuntu 8.04? It refuses my connections when checked. This is doing "vncviewer localhost:0" when sshed into the box. It works without the check.
+2008-05-06T02:03:00.000Z	ejer	[DMC]	you need to forward port with ssh if doing this
+2008-05-06T02:04:00.000Z	[DMC]	ejer	why? shouldn't it work on the local consol also? witch it doesn't
+2008-05-06T02:05:00.000Z	ejer	[DMC]	localhost only means you can only connect from 127.0.0.1

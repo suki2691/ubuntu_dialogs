@@ -1,0 +1,4 @@
+2010-01-03T02:23:00.000Z	noob		can someone please tell me why when I try to save my nVidia x-server settings to xorg.conf it says "unable to make xorg.conf.backup".  I need to change permissions for this file I think, since it's owned by root.  I just don't know how to use chmod and I have tried to research it.  Even "man chmod" isn't clear to me.
+2010-01-03T02:24:00.000Z	_2	noob	save it in your home dir and sudo cp ... it to the etc place
+2010-01-03T02:26:00.000Z	_2	noob	reverse.    passwd root
+2010-01-03T02:27:00.000Z	_2	noob	you can run anything from the command line

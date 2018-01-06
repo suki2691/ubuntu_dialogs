@@ -1,0 +1,4 @@
+2012-10-19T06:29:00.000Z	jilebedev		If I write a script (foo.sh) that contains a whole lotta root-only commands, and each command takes ages to complete - is it safe to simply sudo ./foo.sh and be certain that each command in the script will be ran with superuser privileges?
+2012-10-19T06:30:00.000Z	blackshirt	jilebedev	commonly, yes
+2012-10-19T06:31:00.000Z	jilebedev	blackshirt	ah, commonly's not gonna cut it here. guess man sudo it is for me :)
+2012-10-19T06:32:00.000Z	blackshirt	jilebedev	if you config sudo for some limit command, you can't do it for your script

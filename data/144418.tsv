@@ -1,0 +1,4 @@
+2007-05-24T13:07:00.000Z	tunganet		How do i set my color depth to 16bit?
+2007-05-24T13:07:00.000Z	rausb0	tunganet	change the DefaultDepth value in /etc/X11/xorg.conf
+2007-05-24T13:08:00.000Z	tunganet	rausb0	so right now its at 24, if i want 16bit, i just put in 16?
+2007-05-24T13:09:00.000Z	rausb0	tunganet	yes. and make sure you have the same modes listed in the SubSection "Display" for Depth 16

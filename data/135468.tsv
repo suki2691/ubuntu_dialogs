@@ -1,0 +1,4 @@
+2008-01-22T03:55:00.000Z	kgx		hey is if i need http://localhost/* to point to http://www.xya.com/* in apache, how can i do this? i don't want to use hosts file because that will spoil other stuff (like mysql, etc)
+2008-01-22T03:56:00.000Z	redguy	kgx	use apaches redirect directive?
+2008-01-22T04:02:00.000Z	kgx	redguy	well i don't really want it to redirect. there's some propriety software on the server that can't use ssl, so i have to make the software request http://localhost and apache should retrieve https://xyz.com when it http://localhost is requested. is it possible?
+2008-01-22T04:08:00.000Z	redguy	kgx	not sure. Perhaps look at mod_proxy_http ?

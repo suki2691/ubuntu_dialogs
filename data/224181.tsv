@@ -1,0 +1,4 @@
+2006-06-06T12:15:00.000Z	CrippsFX		does anybody know how to get rid of a *seemingly* random "resource busy" for ALSA? I want to listen to music, but for some strange reason, it appears that alsa is busy ...
+2006-06-06T12:17:00.000Z	CrippsFX		woah ... in FC there is a command "service" that I can use as so to restart a service: service <servicename> restart;  ... is there an ubuntu equivalent?
+2006-06-06T12:18:00.000Z	jak	CrippsFX	/etc/init.d/servicename stop/start/restart
+2006-06-06T12:18:00.000Z	CrippsFX	jak	thanks.

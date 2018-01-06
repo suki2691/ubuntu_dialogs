@@ -1,0 +1,4 @@
+2012-02-22T14:18:00.000Z	fairuz		Hi, can I add a command that needs sudo at startup?
+2012-02-22T14:20:00.000Z	RawProduce	fairuz	add "[your user] ALL=(ALL) NOPASSWD: ALL" to /etc/sudoers
+2012-02-22T14:20:00.000Z	RawProduce		you'll be able to use sudo without a password prompt
+2012-02-22T14:21:00.000Z	fairuz	RawProduce	yea but i just need it for that particular command

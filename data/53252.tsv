@@ -1,0 +1,4 @@
+2012-11-07T02:35:00.000Z	joaojeronimo		for ufw (uncomplicated firewall) to work, do I have to disable iptables ?
+2012-11-07T02:36:00.000Z	guntbert	joaojeronimo	no, ufw uses iptables
+2012-11-07T02:37:00.000Z	joaojeronimo	guntbert	that I know, the thing is my friend just enabled iptables and wrote some rules in /etc/iptables.firewall.rules, and now every rule I set with ufw does not work
+2012-11-07T02:37:00.000Z	joaojeronimo	guntbert	should I remove the /etc/iptables.firewall.rules file ?

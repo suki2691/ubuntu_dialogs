@@ -1,0 +1,4 @@
+2010-11-27T13:39:00.000Z	_jesse_	bucknasty	sudo /etc/init.d/nginx start to start nginx
+2010-11-27T13:47:00.000Z	bucknasty	_jesse_	starting nginx is not the problem, but with low privileges (security reasons)
+2010-11-27T13:48:00.000Z	_jesse_	bucknasty	hmm? People warn against making the webserver run as the root user, you need to use sudo to start it up though
+2010-11-27T13:48:00.000Z	_jesse_	bucknasty	it will run under it's own user though

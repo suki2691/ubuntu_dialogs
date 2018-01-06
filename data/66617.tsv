@@ -1,0 +1,4 @@
+2009-02-20T17:37:00.000Z	Frantic		anyone knows why my sys only shows 3.2 of 4GB ram on 64bit version? (dmidecode correctly shows 2x2GB)
+2009-02-20T17:38:00.000Z	tealson	Frantic	additionaly check your BIOS setting if some space is reserved, i have 4GB and "only" 3,5 are accessable
+2009-02-20T17:39:00.000Z	tealson	Frantic	not if you reserve ram in the bios, e.g. for the grafic card
+2009-02-20T17:44:00.000Z	Frantic	tealson	IntuitiveNipple: thanks guys, that was it, enabled remapping from the bios :)

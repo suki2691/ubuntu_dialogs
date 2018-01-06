@@ -1,0 +1,4 @@
+2007-08-30T16:16:00.000Z	rendo		Anyone know what I need to exactly do, or have a FAQ on how to set up ssh access to be limited to specific IP address?
+2007-08-30T16:17:00.000Z	PriceChild	rendo	you need to edit /etc/hosts.deny and /etc/hosts.allow appropriately I'd guess...
+2007-08-30T16:18:00.000Z	rendo	PriceChild	let's say I do that, and I only allow X IP where X isn't my IP, would it still allow me to use ssh with my user account or should it not deny me?
+2007-08-30T16:18:00.000Z	PriceChild	rendo	it shouldn't accept the connection unless its from the allowed ip

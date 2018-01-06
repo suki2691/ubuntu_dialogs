@@ -1,0 +1,4 @@
+2007-07-14T14:56:00.000Z	towlieban		how do i do apt-get in a way to get an older version of the beryl package (0.2.0 instead of 0.2.1) ?
+2007-07-14T14:56:00.000Z	gnomefreak	towlieban	sudo apt-get install beryl=fullversion you want
+2007-07-14T14:56:00.000Z	gnomefreak	towlieban	that is assuming its still in cache
+2007-07-14T14:57:00.000Z	gnomefreak	towlieban	if apt-cache show packagename shows the older version you want you can use the command i gave you. if not you cant

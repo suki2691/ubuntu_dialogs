@@ -1,0 +1,4 @@
+2012-01-27T17:45:00.000Z	stephans		OK ++ so I get the part about the cache. But, I experience a large amount of swapping occuring, sapping IO. Does linux really swap the cache to disk? What would be the point in that?
+2012-01-27T17:47:00.000Z	theorem	stephans	there is a way to tweak that.  modify the /etc/sysctl.conf  add a value for vm.swappiness     it will improve swapping and avoid it if you set the value low -- I suggest '10'\
+2012-01-27T17:49:00.000Z	stephans	theorem	thank you.
+2012-01-27T17:50:00.000Z	theorem	stephans	just don't set it to 0, because you want to be able to swap when you need to.

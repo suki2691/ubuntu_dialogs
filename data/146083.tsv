@@ -1,0 +1,4 @@
+2007-02-18T13:01:00.000Z	silya		Hi all! Howto get access trough vnc to my desktop? When I launch tighvncserver he creates session on host:1, but I need direct access to current X session
+2007-02-18T13:02:00.000Z	Muzik83	silya	try x11vnc -passwd $1 -display :0
+2007-02-18T13:02:00.000Z	Muzik83	silya	try x11vnc -passwd APasswordHere -display :0
+2007-02-18T13:04:00.000Z	Muzik83	silya	you need to do that as the same user who is logged into the desktop, is that whats wrong?

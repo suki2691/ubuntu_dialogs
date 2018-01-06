@@ -1,0 +1,4 @@
+2008-11-07T03:52:00.000Z	emma		Anyone have any insight into why gparted doesn't see the correct number of GB on my hard drive?
+2008-11-07T03:53:00.000Z	emma		The partitioner on the install disk sees the correct number of GB but in gparted it's missing 20 GBs
+2008-11-07T03:53:00.000Z	dmitriyv	emma	you have to account for all bad sectors and stuff the the HDs cut out, so if its a 160 gig HDD you usually see it at maybe 145 or something
+2008-11-07T03:54:00.000Z	emma	dmitriyv	bad sectors?

@@ -1,0 +1,4 @@
+2008-12-16T17:47:00.000Z	dalfz		what apt package contains glib 2.171.3 in ubuntu 8.04 lts server?
+2008-12-16T17:49:00.000Z	r3dux	dalfz	do this: sudo apt-get install apt-file             then, once you have it do: apt-file search <name of file>          --- job done
+2008-12-16T17:54:00.000Z	r3dux	dalfz	I don't know of any - could grab src and build..
+2008-12-16T17:57:00.000Z	dalfz	r3dux	yes, guess i have to

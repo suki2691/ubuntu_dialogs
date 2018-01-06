@@ -1,0 +1,4 @@
+2009-03-15T10:12:00.000Z	stewart_		if i am on my server do i need to know the ip address of my localmachine to pull files from it? Is there a way for the command to pickup that its the machine that has the incoming ssh command?
+2009-03-15T10:12:00.000Z	stewart_		all via scp
+2009-03-15T10:13:00.000Z	dreamnid	stewart_	I think the answer is no
+2009-03-15T10:14:00.000Z	dreamnid	stewart_	I usually just scp from the machine itself... otherwise you can do a reverse tunnel

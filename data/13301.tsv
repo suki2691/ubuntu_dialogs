@@ -1,0 +1,4 @@
+2011-06-15T12:25:00.000Z	tpeter		Hello everyone, I got my file server set up. I have installed samba and have successfully gotten a public share to a winxp client. The problem I'm having now is that I can't seem to be able to configure home directories properly. After having commented out the [homes] section in smb.conf, I'm still getting access denied errors from winxp when trying to open \\fileserver\username. Any ideas?
+2011-06-15T12:26:00.000Z	Corey	tpeter	Are you exporting home directories via samba?
+2011-06-15T12:27:00.000Z	tpeter	Corey	One sec, lemme run testparm to give you a better idea of what I've got in [homes]. It's valid users = %S, read only = No, create mask = 0700, and directory mask = 0700
+2011-06-15T12:32:00.000Z	tpeter	Corey	my username share shows up when I run smbclient -L hostname

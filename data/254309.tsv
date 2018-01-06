@@ -1,0 +1,4 @@
+2005-01-27T12:15:00.000Z	pw		I'm getting an MD5 mismatch on http://archive.ubuntu.com/ubuntu/dists/hoary/main/binary-i386/Packages.gz
+2005-01-27T12:15:00.000Z	pw		is there a mirror that carries hoary?
+2005-01-27T12:17:00.000Z	kent	pw	well, it seems to me, that a mirror of a file that gives you md5 mismatch wont help, since its a mirror of that file? :)
+2005-01-27T12:18:00.000Z	pw	kent	Well, switching to mirrorservice.org fixed it :)

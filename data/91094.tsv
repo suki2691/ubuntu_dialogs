@@ -1,0 +1,4 @@
+2008-09-12T16:21:00.000Z	maxx_		i just did an update and now i can't fscking load nvidia kernel modules
+2008-09-12T16:22:00.000Z	mgolisch	maxx_	mostlikely the restricted-modules package matching your current kernel is not installed
+2008-09-12T16:23:00.000Z	maxx_	mgolisch	i tried a few past kernels tho. i'm wondering if my invidia chipset just kicked it like everoyne else's recently :|
+2008-09-12T16:23:00.000Z	mgolisch	maxx_	or you installed the nvidia drivers manualy which means you need to recompile its kernel module again after each kernel update

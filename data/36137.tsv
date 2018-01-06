@@ -1,0 +1,4 @@
+2010-12-20T20:38:00.000Z	bencc		in what file in a .deb package I  can create a system user?
+2010-12-20T20:40:00.000Z	sacarlson	bencc	you want to create a deb file that creates a user?  I think there is a script that is ran in the deb file
+2010-12-20T20:42:00.000Z	bencc	sacarlson	thanks
+2010-12-20T20:48:00.000Z	sacarlson	bencc	this is the deb file broken down, what I found is scripts preinst and postinst in the control file http://www.debian.org/doc/FAQ/ch-pkg_basics.en.html

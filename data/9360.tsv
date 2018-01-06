@@ -1,0 +1,4 @@
+2011-09-24T19:47:00.000Z	Benkinooby		hi, my friend uses a mac and wants to back up his data for reinstall. i borrowed his hdd and now have to return it. the problem is that i formated it etx3 and mac doesn'T work with ext3. is there a way to format it back to the mac fs or do i have to use fat32?
+2011-09-24T19:48:00.000Z	hextasy	Benkinooby	it's hfs_plus
+2011-09-24T19:48:00.000Z	Benkinooby	hextasy	tahnk you!
+2011-09-24T19:50:00.000Z	hextasy	Benkinooby	you can use disk util on the mac - or just mkfs.hfs_plus it

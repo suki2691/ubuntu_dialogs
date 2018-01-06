@@ -1,0 +1,4 @@
+2009-01-19T16:45:00.000Z	Peleus		Hello all
+2009-01-19T16:46:00.000Z	Peleus		Linux newbie - I'm playing with c compiling and to run my programs I need to put "./" at the start of each execution. This is apparently because it is not part of the "PATH" at the moment, can someone please tell me how I can add it to the "PATH" variable so I don't need to type ./ all the time? Thank you
+2009-01-19T16:48:00.000Z	Peleus		"export PATH=$PATH:/home/yourdir/bin" something I simply type into the terminal? Chousuke, any particular downside to doing it?
+2009-01-19T16:48:00.000Z	simplexio	Peleus	export PATH=$PATH:./ or something like that.. and and usually its considered bad way to do it

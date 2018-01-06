@@ -1,0 +1,4 @@
+2005-09-05T07:54:00.000Z	rouven		hey. how do i tell breezy's hotplug to link the proprietary nvidia modules into a proper .ko and put in volatile?
+2005-09-05T07:54:00.000Z	rouven		is that supposed to happen automagically?
+2005-09-05T07:55:00.000Z	persia	rouven	`module-assistant` then `dpkg-reconfigure linux-image-`uname -r``
+2005-09-05T07:55:00.000Z	rouven	persia	thanks, i'll try that.

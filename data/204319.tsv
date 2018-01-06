@@ -1,0 +1,4 @@
+2006-10-16T09:47:00.000Z	cfm		I'm afraid I think I'm confusing matters by mentioning Windows!  I'll try and restate my problem.
+2006-10-16T09:48:00.000Z	cfm		My 6.10 box needs to pick up DHCP from my LinkSys router, but needs to be pingable by name from other machines on the network.  Is that even possible?
+2006-10-16T09:48:00.000Z	Subhuman	cfm	yes
+2006-10-16T09:49:00.000Z	Subhuman	cfm	on your routers config, you can set "reserved ips." in your dhcp conf, jus enter an ip and the mac adress of your machine, then your router will always assign the pc with that mac address, the same ip.

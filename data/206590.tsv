@@ -1,0 +1,4 @@
+2007-12-17T12:10:00.000Z	mattbot		I just formatted the unbuntu drive in my dual boot machine not realizing that grub was on that drive. Is there an easy way for me to go back to the windows boot loader?
+2007-12-17T12:10:00.000Z	sethk	mattbot	fdisk /mbr
+2007-12-17T12:10:00.000Z	sethk	mattbot	or fixmbr in windows recovery
+2007-12-17T12:10:00.000Z	sethk	mattbot	or add windows to the grub config file.

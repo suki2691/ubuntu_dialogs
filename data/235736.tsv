@@ -1,0 +1,4 @@
+2005-12-18T12:59:00.000Z	z0rz		Is it wise to chown -R z0rz /var/www ?
+2005-12-18T12:59:00.000Z	z0rz		or should I just leave /var/www owned by root and when I want to edit something in /var/www just sudo vi it?
+2005-12-18T13:00:00.000Z	Madpilot	z0rz	I left /var/www owned by root, but all the sub-directories in it - that actually have stuff in them - are owned by my user - but this is NOT a live server, just a dev/testing install...
+2006-09-18T09:20:00.000Z	Madpilot	z0rz	it should be - depends on how old & slow your slower machine is, though

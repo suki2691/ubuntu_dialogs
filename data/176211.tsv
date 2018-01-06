@@ -1,0 +1,4 @@
+2006-06-29T10:12:00.000Z	fbinho		hi ppl, does anyone knows how to verify a .tar file with its md5 key like: b73fb9e365d2edcd031d65b16e965a18 ?
+2006-06-29T10:13:00.000Z	thoreauputic	fbinho	md5sum <filename>
+2006-06-29T10:22:00.000Z	thoreauputic	fbinho	md5sum <filename> gives you a string to compare to the one you got for the file
+2006-06-29T10:24:00.000Z	fbinho	thoreauputic	thanks! they should have this line at man! :) now it's clear.

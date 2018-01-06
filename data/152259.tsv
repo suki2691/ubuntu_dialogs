@@ -1,0 +1,4 @@
+2008-07-12T00:52:00.000Z	Boricua		im trying to install something (./configure) and i get this
+2008-07-12T00:52:00.000Z	Boricua		checking tk build dir... configure: error: Unable to find Tk directory or Tk package is not tk-dev
+2008-07-12T00:53:00.000Z	xtknight	Boricua	sudo apt-get install tk-dev   or sudo apt-get install tk8.3-dev through tk8.5-dev, whatever your version is
+2008-07-12T01:26:00.000Z	xtknight	Boricua	try sudo make install

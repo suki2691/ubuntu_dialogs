@@ -1,0 +1,4 @@
+2005-10-29T08:42:00.000Z	vnpaven		Do you need to add "sudo" before a command when you use root user?
+2005-10-29T08:44:00.000Z	Orborde	vnpaven	No. Sudo runs stuff as root. If you're at a root terminal, you're already running as root.
+2005-10-29T08:51:00.000Z	vnpaven	Orborde	What advantages when I use user with the root role instead of user with the admin role?
+2005-10-29T08:55:00.000Z	Orborde	vnpaven	Running as a user with admin powers is better, because then you only "power up" to root for specific tasks, so it's less likely that errant software will fraggle your whole system.

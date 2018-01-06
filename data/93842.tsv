@@ -1,0 +1,4 @@
+2009-11-16T20:19:00.000Z	zash	Oli``	sudo swapoff -a; sudo swapon -a
+2009-11-16T20:21:00.000Z	Oli``	zash	it's (really) slowly chugging through the swap and chucking it into RAM. Thanks!
+2009-11-16T20:22:00.000Z	zash	Oli``	you can also do sync; sleep 3;echo 3 | sudo tee /proc/sys/vm/drop_caches
+2009-11-16T20:22:00.000Z	zash	Oli``	which lets go of cached files and stuff

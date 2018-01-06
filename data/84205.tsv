@@ -1,0 +1,4 @@
+2009-08-05T23:23:00.000Z	tavi		Hey all: I would like to create a symlink that automatically expands to the original path: in other words, I want to go to ~/folder and have that automatically direct me to /dev/blah/blah/blah/folder -- can I do that with symlinks? if not, how can I do that?
+2009-08-05T23:23:00.000Z	Charles	tavi	use vi.. ln -s <source> <destination>
+2009-08-05T23:29:00.000Z	tavi	Charles	that wont function as a redirect, though
+2009-08-05T23:30:00.000Z	Charles	tavi	ah.. must have misunderstood your question..

@@ -1,0 +1,4 @@
+2007-04-23T06:06:00.000Z	mapez		how do I mount an ext3 hard drive on the ubuntu live cd?
+2007-04-23T06:07:00.000Z	chernobylrpgfree	mapez	mkdir /media/hdd; mount -t ext3 /dev/sda1 /media/hdd  (assuming sda1 is the hard drive to mount)
+2007-04-23T06:09:00.000Z	mapez	chernobylrpgfree	im just trying to help a friend so mkdir /media/hdd; mount -t ext3 /dev/sdb1 /media/hdd will put his hdd in /media/hdd correct?
+2007-04-23T06:09:00.000Z	chernobylrpgfree	mapez	yea, if sdb1 is the hard drive

@@ -1,0 +1,4 @@
+2011-10-30T18:52:00.000Z	tziOm		How do I check what version of a package apt-get will eventually install?
+2011-10-30T18:53:00.000Z	DasEi	tziOm	apt-cache show gedit, f.i.
+2011-10-30T19:09:00.000Z	DasEi	tziOm	sudo apt-get install --reinstall
+2011-10-30T19:10:00.000Z	DasEi	tziOm	but if you want config deleted, need to purge it, either apt (dry-run before to see what else (might)get lost) or manually purge config

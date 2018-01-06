@@ -1,0 +1,4 @@
+2009-09-06T15:42:00.000Z	etbl		hi, i'm currently installing a piece of software, and the instructions tell me to run the commands: cd dir-to-software; ./configure --prefix=/instdir --sysconfdir=/instdir/conf;  make; # but it said to run the commands as a specific user (it told me to create the user earlier in the install instructions).  i accidentally ran these commands as root instead.  my questions are a) what do these commands actually do?  does ./configure do
+2009-09-06T15:43:00.000Z	etbl		from which its run?
+2009-09-06T15:44:00.000Z	tonii	etbl	the software got installed with root priveliges instead of user priveliges.
+2009-09-06T15:45:00.000Z	tonii	etbl	./configure just creates a config for make to use.

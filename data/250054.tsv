@@ -1,0 +1,4 @@
+2007-06-26T09:43:00.000Z	trend		hey, I need to auto mount /dev/hdc1 /hd2 upon bootup.. but fstab is confusing me in this distro.. is there a simple command line tool to add this?
+2007-06-26T09:44:00.000Z	trend		it using the UUID=0dcee61f-f4ec-48b8-9659-....
+2007-06-26T09:45:00.000Z	Dr_willis	trend	 try 'ls -l /dev/disk/by-uuid'  :) shows what disks are what uuids
+2007-06-26T09:46:00.000Z	Dr_willis	trend	 i set up mine to mount by label. :) which is cool.

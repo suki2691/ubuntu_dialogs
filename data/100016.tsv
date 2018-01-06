@@ -1,0 +1,4 @@
+2010-04-01T18:57:00.000Z	Rafael		can anybody help me with this: rsync: recv_generator: mkdir "/home/rgotten/Prueba/Myplasticare/Charts/charts.documents" failed: Permission denied (13)
+2010-04-01T18:59:00.000Z	Ghost|BTFH	Rafael	Check permissions on /Charts
+2010-04-01T19:00:00.000Z	Ghost|BTFH	Rafael	If you copied the files over from say, a backup drive or something, sometimes it won't deliver your permissions to you, and it winds up being something necessary for sudo to chown/chmod to fix.
+2010-04-01T19:02:00.000Z	Rafael	Ghost|BTFH	it is a windows folder that is share, mounted on the server and i want to make backups to the server?

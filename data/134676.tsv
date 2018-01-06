@@ -1,0 +1,4 @@
+2007-05-30T12:55:00.000Z	djzn		hi... in a case like sharing WINDOWS and LINUX on a single hard disk, with a separate partition with data files... what is the best file-system type to use in this data partition so that both systems can share the files without any hassle?
+2007-05-30T12:56:00.000Z	soneil	djzn	I believe fat32 is still the best choice for a partition that has to be read by both OSes.  but not the best choice for a partition to run an OS from
+2007-05-30T12:57:00.000Z	djzn	soneil	isn't NTFS support in ubuntu now fully stable with reading and writing?
+2007-05-30T12:58:00.000Z	soneil	djzn	I couldn't tell you .. I'm still using the LTS release.  I just trust fat32 across many platforms.  basically simple enough that it'll work anywhere

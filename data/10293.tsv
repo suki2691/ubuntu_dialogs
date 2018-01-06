@@ -1,0 +1,4 @@
+2011-08-29T11:53:00.000Z	mukti		I found it: sun-java6-jdk
+2011-08-29T11:55:00.000Z	soreau	mukti	You must not be on natty
+2011-09-09T07:41:00.000Z	soreau	mukti	Technically, you're not supposed to edit that file though. The recommended way is to edit /etc/default/grub and/or /etc/grub/* then run update-grub2 as root so it takes those options and builds a grub.conf file and installs it in /boot/grub/ for you
+2011-09-09T07:42:00.000Z	mukti	soreau	okay, thanks I'll edit that

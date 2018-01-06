@@ -1,0 +1,4 @@
+2008-05-10T10:14:00.000Z	vocx		actually, to see which video driver is loaded you would probably check "lsmod"  or go through the /var/log/Xorg.0.log  or do "lshw" many options really.
+2008-05-10T10:14:00.000Z	StevenTyler	vocx	and how do I change it?
+2008-05-10T10:15:00.000Z	vocx	StevenTyler	if you open /etc/X11/xorg.conf it gives you a command at the top to change the video drivers, but if you have Ati or Nvidia there is a proper method for that.
+2008-05-10T11:30:00.000Z	vocx	StevenTyler	install the correct drives, use the restricted package, check the forums, there is a Dell subforum in ubuntuforums.org

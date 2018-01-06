@@ -1,0 +1,4 @@
+2011-02-01T22:09:00.000Z	djindy		Ok, huge screw up, I tried rewriting a particular small partition on an external hard drive, and it destroyed my entire partition table, including a large HFS+ partition with lots of information on it. Before I use testdisk to recover the filesystem, will I be able to recover the data if I recover the filesystem that way?
+2011-02-01T22:11:00.000Z	NixGeek	djindy	yep, I completly wiped a harddrive with a bad fedora install disk and got everything back with testdisk.  it's a great program
+2011-02-01T22:25:00.000Z	djindy	NixGeek	thanks for the help, its looking like, even though gparted can't see a partition map, I can still read all the data just fine without testdisk or anything. I'm just going to see if I can pull all the data off first just to be safe, but looks like things will be good whether testdisk helps or not.
+2011-02-01T22:26:00.000Z	NixGeek	djindy	glad to help

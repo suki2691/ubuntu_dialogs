@@ -1,0 +1,4 @@
+2011-04-09T00:37:00.000Z	meganerd	DraZoro	when you type "date" from the command line, does it have your timezone correct?
+2011-04-09T00:38:00.000Z	DraZoro	meganerd	That might be it it gives me EDT instead of SAST +6
+2011-04-09T00:41:00.000Z	meganerd	DraZoro	to fix it, try "sudo dpkg-reconfigure tzdata"
+2011-04-09T00:46:00.000Z	DraZoro	meganerd	Sorry for taking long. You saved the day the reconfiguration worked. Thanks !!! I did not know about that trick.

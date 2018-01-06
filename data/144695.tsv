@@ -1,0 +1,4 @@
+2010-06-28T19:19:00.000Z	Andy-at-home		guys, i cant write to the directory /var/www/html/mydirectory, whats the chmod command so i can ftp file to it?
+2010-06-28T19:21:00.000Z	rubbs	Andy-at-home	do you want anyone to be able to write to it or just you?
+2010-06-28T19:23:00.000Z	rubbs	Andy-at-home	then I would suggest you change the ownership like this chown username:username /var/www/html/mydirectory
+2010-06-28T19:24:00.000Z	rubbs	Andy-at-home	ls -l will do it

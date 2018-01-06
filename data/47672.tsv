@@ -1,0 +1,4 @@
+2010-03-13T19:39:00.000Z	tiina		hi
+2010-03-13T19:39:00.000Z	tiina		hej anyone who konws how to reinstall firefox in ubuntu
+2010-03-13T19:41:00.000Z	theadmin	tiina	You can just delete the .mozilla folder in your home folder. It will likely have quite the same effect.
+2010-03-13T19:41:00.000Z	theadmin	tiina	If you need to reinstall, however, try this: "sudo apt-get remove firefox && sudo rm -rf $HOME/.mozilla && sudo apt-get install firefox"

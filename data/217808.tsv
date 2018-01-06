@@ -1,0 +1,4 @@
+2006-01-05T14:03:00.000Z	levander		how do I pass this whole command to sudo?  So that the shell doesn't try to open /etc/fstab with my user's permissions, but with root's permissions? 'sudo grep Music /mnt/etc/fstab >> /etc/fstab'
+2006-01-05T14:04:00.000Z	psusi	levander	sudo bash -c 'foo >> /bar'
+2006-01-05T14:04:00.000Z	levander	psusi	yeah, i'll try your
+2006-01-05T14:07:00.000Z	levander	psusi	thanks, yours worked!

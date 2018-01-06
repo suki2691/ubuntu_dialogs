@@ -1,0 +1,4 @@
+2012-05-03T06:17:00.000Z	Jordan_U	Chris6692	Don't cancel the upgrade yet. First I would check what specific command is hung, hopefully determine why, and either fix it or kill that command and hope that the rest of the upgrade continues afterward.
+2012-05-03T06:20:00.000Z	Jordan_U	Chris6692	You're welcome.
+2012-05-03T06:22:00.000Z	Jordan_U	Chris6692	L3top: I would avoid killing dpkg itself also, I would first simply look for the command using the most CPU (infinite loops tend to do that) and kill it. Don't kill it until you've checked with us here though.
+2012-05-03T06:29:00.000Z	Chris6692	Jordan_U	I can't open terminal or any other applications

@@ -1,0 +1,4 @@
+2006-04-26T09:39:00.000Z	gnaunited		So, I need some help here. I have an ntfs partition, It is on block device /dev/hda1. It needs to mount automatically when the computer starts. I need Read/Write access from a user account (alex). I can edit the fstab with no problems, but when it mounts it says I do not have permission to access it.
+2006-04-26T09:40:00.000Z	fyrestrtr	gnaunited	only read support is available in ubuntu, unless you go for captive drivers, which aren't that reliable.
+2006-04-26T09:40:00.000Z	fyrestrtr	gnaunited	what is your fstab line?
+2006-04-26T09:41:00.000Z	fyrestrtr	gnaunited	uid=youruserid -- that should give you read access.

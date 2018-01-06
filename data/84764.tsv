@@ -1,0 +1,4 @@
+2009-05-30T04:00:00.000Z	custom_		I'm right there (In partition editing) but I cannot figure out what to do. It does not allow me to create an extended partition. In edit->use as... I see list of filesystems but I do not see the "extended partition" option. So how can I create it?
+2009-05-30T04:01:00.000Z	jtaji	custom_	you would just make a logical, which by definition is placed in an extended partition
+2009-05-30T04:01:00.000Z	jtaji	custom_	unless of course you already have an extended partition and that and your new space are physically separated
+2009-05-30T04:02:00.000Z	jtaji	custom_	should be  a selection for primary versus logical, separate from filesystem

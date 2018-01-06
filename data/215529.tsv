@@ -1,0 +1,4 @@
+2008-02-17T20:58:00.000Z	Syxx		!flash
+2008-02-17T20:59:00.000Z	Syxx		how do i uninstall the flashplugin
+2008-02-17T21:00:00.000Z	Syxx		i installed with with sudo apt-get install flashplugin-nonfree
+2008-02-17T21:00:00.000Z	soundray	Syxx	'sudo apt-get --purge remove flashplugin-nonfree', then do a 'locate libflashplayer.so', and if that still finds files, delete them with 'sudo rm'

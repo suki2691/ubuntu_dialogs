@@ -1,0 +1,4 @@
+2010-07-02T06:32:00.000Z	GrazzMan		Question, Trying to access a windows workgroup, saying it can not retrieve share list from server... ??
+2010-07-02T06:33:00.000Z	Dr_Willis	GrazzMan	double check with the 'findsmb' and 'smbtree' commands. I also somdeiomts have to enter the whole URL to the share.  ie: smb://server/sharename
+2010-07-02T06:34:00.000Z	GrazzMan	Dr_Willis	End goal is to see Upnp servers, would I do that the same way?
+2010-07-02T06:34:00.000Z	Dr_Willis	GrazzMan	 Upnp is handled totally different then samba/smb

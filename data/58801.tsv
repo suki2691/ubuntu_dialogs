@@ -1,0 +1,4 @@
+2009-05-11T16:20:00.000Z	leOn	ja660k	but you still want to be able to access the document without the trailing /index.html ?
+2009-05-11T16:21:00.000Z	leOn	ja660k	you can use a redirect ...
+2009-05-11T16:22:00.000Z	leOn	ja660k	or RedirectMatch would be even better
+2009-05-11T16:23:00.000Z	leOn	ja660k	something like RedirectMatch ^/$ http://www.x.com/index.html

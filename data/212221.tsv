@@ -1,0 +1,4 @@
+2006-11-20T13:02:00.000Z	kathy		hello I have a question about doing an upgrade from Breezy to Dapper... can I just add the CD to the sources list, delete all the http entries, do an update/dist-upgrade ... i want to avoid everything that's on the CD from downloading from the net.
+2006-11-20T13:03:00.000Z	carpediem	kathy	when you insert the CD, it may ask you if you want to upgrade.
+2006-11-20T13:04:00.000Z	carpediem	kathy	yeah, I don't think that it always works.
+2006-11-20T13:07:00.000Z	carpediem	kathy	honestly, I don't know.  But, it shouldn't hurt to try.  Comment out the dapper entries, don't remove them.  You eventually need to change the word dapper to edgy in all your sources.list entries.

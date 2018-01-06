@@ -1,0 +1,4 @@
+2007-11-19T19:54:00.000Z	Codenut		On the $ prompt I am typing su, hitting return and then my normal password to log onto the system. In the past that has been enough to log on.
+2007-11-19T19:54:00.000Z	Codenut		somtimes it is sudo
+2007-11-19T19:55:00.000Z	mcummings	Codenut	sudo su would work - su would expect you to give root's password, not yours....
+2007-11-19T19:57:00.000Z	mcummings	Codenut	in a nutshell, su expects you to know the password of the user you are su'ing to (it's old school, so to speak, elevation); sudo lets you do the same things, but is based on your password/permissions, so su - expects root's password, but sudo su - expects yours; similar but slightly different approaches

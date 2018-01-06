@@ -1,0 +1,4 @@
+2012-09-02T23:51:00.000Z	terafl0ps	TheLordOfTime	Did you already try using lsof to see what files that PID has open?
+2012-09-02T23:52:00.000Z	TheLordOfTime	terafl0ps	 there is no PID.  it autoterminates
+2012-09-02T23:52:00.000Z	TheLordOfTime	terafl0ps	 the PID stops working immediately after activation via start
+2012-09-02T23:54:00.000Z	terafl0ps	TheLordOfTime	You still may be able to use lsof to look for anything accessing /run/rpc_pipefs

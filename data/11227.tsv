@@ -1,0 +1,4 @@
+2012-05-04T06:41:00.000Z	hilikus		how can i change the permission on a drive that is automounted. it is in /media/foo and its owned by my user but i need to either change the owner or give go+r. just doing chmod or chown doesn't work for some reason
+2012-05-04T06:42:00.000Z	aaas	hilikus	i think you need to change the options in /etc/fstab
+2012-05-04T06:42:00.000Z	hilikus	aaas	its not in fstab, its a removable drive that's automounted
+2012-05-04T06:43:00.000Z	aaas	hilikus	ok then you have to check the udev stuff...umm /etc/defaults/udev.... i cant remember where the file is

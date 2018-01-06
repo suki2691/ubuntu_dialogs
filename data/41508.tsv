@@ -1,0 +1,4 @@
+2009-12-01T15:23:00.000Z	khelvan_a		Hi, I'm trying to use dpkg -r to remove a .deb that I installed, but it is telling me that the package hasn't been installed. Are there individual packages inside of one .deb, and if so, is there a way to list them?
+2009-12-01T15:23:00.000Z	jpds	khelvan_a	Try: dpkg -r <packagename>
+2009-12-01T15:24:00.000Z	khelvan_a	jpds	- I get this: dpkg: you must specify packages by their own names, not by quoting the names of the files they come in
+2009-12-01T15:26:00.000Z	jpds	khelvan_a	Not the file name of the .deb, just the package name like "ubuntu-desktop"

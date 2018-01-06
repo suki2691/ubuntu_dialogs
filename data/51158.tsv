@@ -1,0 +1,4 @@
+2012-04-11T21:50:00.000Z	jtrucks		erm. how do I figure out what package contains a library or file I am hunting down?
+2012-04-11T21:50:00.000Z	trism	jtrucks	if it is installed, dpkg -S file; if not, you can install apt-file, apt-file update then apt-file search file;
+2012-07-08T21:28:00.000Z	trism	jtrucks	you can do either (apt-get dist-upgrade; or apt-get install linux-image-virtual linux-virtual;) the second is mostly if you have other upgrades that you don't currently want to install
+2012-07-08T21:29:00.000Z	jtrucks	trism	cool, thanks for verifying that

@@ -1,0 +1,4 @@
+2012-03-25T00:40:00.000Z	TheCyberShocker		Hey, was wondering if someone can help me, trying to mount my NTFS external hard drive to my Ubuntu Server, I get this message when I type sudo mount -a :)
+2012-03-25T00:40:00.000Z	TheCyberShocker		http://pastebin.com/1bFeGdVZ
+2012-03-25T00:41:00.000Z	mirko1	TheCyberShocker	/dev/sdb is the whole physical disk, you need to give the partition number like /dev/sdb1
+2012-03-25T00:46:00.000Z	mirko1	TheCyberShocker	so sdb into sdb5 in fstab,a nd make sure /media/external exists

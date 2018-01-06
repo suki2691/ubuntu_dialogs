@@ -1,0 +1,4 @@
+2007-08-14T11:37:00.000Z	lokkilololo		hi ppl. I have a problem with the acx111 driver in ubuntu 7.04. It's supposed to be working by default if u disable networkmanager. But my problem is with the firmware loading, when i try modprobe acx in dmesg aoutput says: [  216.632000]  requesting firmware image 'tiacx111cFF' [  216.744000]  acx: firmware image 'tiacx111cFF' was not provided. Check your hotplug scripts [  216.744000]  requesting firmware image 'tiacx111' [  216.748000]  acx
+2007-08-14T11:37:00.000Z	lokkilololo		am i spamming? sry for that...
+2007-08-14T11:37:00.000Z	Jordan_U	lokkilololo	If it is like broadcom cards you need to get the firmware and put it in /lib/firmware
+2007-08-14T11:39:00.000Z	Jordan_U	lokkilololo	Are you sure that the firmware is included in linux-restricted-modules?

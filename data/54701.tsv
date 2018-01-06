@@ -1,0 +1,4 @@
+2010-01-31T13:05:00.000Z	error404notfound		i see a lot of dos-IP-ADD-RESS-HERE files in /tmp, does that mean that i am getting DOS attacks from those IPs?
+2010-01-31T13:06:00.000Z	ascheel	error404notfound	no.  the tmp directory is a place where programs just store temporary files.
+2010-01-31T13:08:00.000Z	error404notfound	ascheel	yes but dos-random-global-ips -here , thats makes it suspected
+2010-01-31T13:08:00.000Z	ascheel	error404notfound	you need to find out what program is writing them out.  use the 'file' and 'cat' commands on those files to see what's in them perhaps?  Do a google search on some of the file names.

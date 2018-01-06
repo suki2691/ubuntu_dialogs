@@ -1,0 +1,4 @@
+2007-08-07T12:16:00.000Z	Webspot		Hi. I'm having a problem with klogd. From top, I can see that it's using 100% of my cpu constantly. Where should I look for the problem?
+2007-08-07T12:16:00.000Z	stefg	Webspot	check that /var/log is writable
+2007-08-07T12:18:00.000Z	Webspot	stefg	Who should be able to write to it? root can
+2007-08-07T12:19:00.000Z	stefg	Webspot	so that's fine. just to rule out a corrupt /var fs or running out of space

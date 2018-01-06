@@ -1,0 +1,4 @@
+2012-04-22T00:45:00.000Z	mirko2	escott	a file with immutable set cannot be modified or deleted, not even as root. there may be other reasons (filesystem doesn't support extended attributes or such)
+2012-04-22T00:47:00.000Z	escott	mirko2	try it. i absolutely can delete an immutable file. i can't modify it in place, but i can delete it
+2012-04-22T00:48:00.000Z	escott	mirko2	unless i typoed somewhere
+2012-04-22T00:49:00.000Z	escott	mirko2	nevermind, must have put a -i when i meant a +i when i was testing

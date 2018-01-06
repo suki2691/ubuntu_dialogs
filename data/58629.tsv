@@ -1,0 +1,4 @@
+2009-05-04T05:28:00.000Z	TX-Dan		New question! You guys are awesome. =)    --   If I'm logged into my SSH server remotely... as an admin, what would the syntax be to suspend another user, or reactivate another user?
+2009-05-04T05:29:00.000Z	muellisoft	TX-Dan	what does "suspend" mean? You mean deactivating her account so that she can't login anymore?
+2009-05-04T05:30:00.000Z	TX-Dan	muellisoft	yes, temporarily not allow them access, but i need to be able to do it from a command line
+2009-05-04T05:31:00.000Z	muellisoft	TX-Dan	well, a hacky solutiuon would be to edit /etc/passwd to make the shell point to /bin/false. But I feel there are better solution. Look at useradd(1)

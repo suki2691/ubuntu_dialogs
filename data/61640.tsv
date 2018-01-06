@@ -1,0 +1,4 @@
+2012-06-21T17:29:00.000Z	CMIU898		Hi all
+2012-06-21T17:30:00.000Z	CMIU898		How can I move and copy TO the current directory, this doesn't work : mv /remote/directory/file   or cp /remote/directory/file
+2012-06-21T17:31:00.000Z	CMIU898		I don't want to do cd to the directory where the file is in order to copy in the directory she I am
+2012-06-21T17:32:00.000Z	nailora	CMIU898	you need source and target. a dot "." refers ti the current directory and can be used as either source or target

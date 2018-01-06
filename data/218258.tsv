@@ -1,0 +1,4 @@
+2008-08-18T02:59:00.000Z	TheK_		hello. I'm killing myself trying to figure out how to make this command: mount -o tcp my.computer:/my/share /mnt/bla   ... mount a NFS share so that all users can read it.
+2008-08-18T03:00:00.000Z	TheK_		Eternal glory to the person who can help me. Surly this must be something you can do on the _client_ side?
+2008-08-18T03:01:00.000Z	insta	TheK_	part of what you need is the 'umask'.  check the man pages for mount
+2008-08-18T03:01:00.000Z	insta	TheK_	also make sure you have portmap installed and running

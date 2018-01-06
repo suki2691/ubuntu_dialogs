@@ -1,0 +1,4 @@
+2011-01-28T05:26:00.000Z	_vladt		I have an ubuntu box that I use to do various functions that is connected to an intranet without being connected to the internet. I want to install certain packages on it, is there an easy way to download all the packages I need and the dependencies for them? Does apt-get -d download them to the local directory or will I have to wade through the pkg directory to find them?
+2011-01-28T05:27:00.000Z	_vladt		I want to download a good number of pakcages, so I want to avoid having to wade through the pkg directory
+2011-01-28T05:27:00.000Z	bazhang	_vladt	set up an apt-mirror? aptoncd? /msg ubottu offline as well
+2011-01-28T05:28:00.000Z	_vladt	bazhang	aptoncd sounds like that's it. Thanks!

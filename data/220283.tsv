@@ -1,0 +1,4 @@
+2009-12-16T06:21:00.000Z	CEO		hello all, im very new to linux and i installed the latest ubuntu server but also i insatlled the xubuntu dekstop, i read in the ubuntu webpage that the ubuntu desktop version  have different kernel configuration than the server one, so if  i installed the xubuntu desktop im i gonna keep the server kernel?
+2009-12-16T06:22:00.000Z	Flannel	CEO	Correct, but you can switch your kernel (from -server to -generic) if you want as well
+2009-12-16T06:24:00.000Z	Flannel	CEO	Yeah, build-essential is on the CDrom
+2009-12-16T06:24:00.000Z	Flannel	CEO	Afer you install, put the CD back in, and then add it to your repositories (Ubuntu will do this automatically, I don't know if xubuntu does, but you can use `apt-cdrom add -`) then apt-get update, and apt-get install build-essential

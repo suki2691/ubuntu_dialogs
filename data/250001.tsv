@@ -1,0 +1,4 @@
+2007-10-19T09:17:00.000Z	siriusnova		Ok so I got my external hd formatted to ext3 mounted, now is there any way i can write to it as a user?
+2007-10-19T09:17:00.000Z	siriusnova		because when it gets mounted i cant write to it
+2007-10-19T09:17:00.000Z	siriusnova		as a regular user
+2007-10-19T09:17:00.000Z	Dr_willis	siriusnova	 make a directory On the hd..  chown that dir to be owned by the user you want to have access to the drive.

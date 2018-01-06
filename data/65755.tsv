@@ -1,0 +1,4 @@
+2009-11-21T22:43:00.000Z	pieces		could someone help me fix Grub Error 15, I find instructions on the forms but they dont work
+2009-11-21T22:44:00.000Z	sshc	pieces	see warning in https://wiki.ubuntu.com/Grub2 ; you need to use supergrub (not a live session) to boot into your normal installation and purge grub-pc with "apt-get purge grub-pc" (or purge grub2 if that's what you installed) and then "apt-get install grub2", even if you previously installed grub2.  Don't run any upgrade-grub commands after the reinstallation.
+2009-11-21T22:45:00.000Z	pieces	sshc	k ill give it a try thanks
+2009-11-21T22:58:00.000Z	pieces	sshc	in those directions you showed me it says "Tell grub what drive it should install itself to (press space bar to select a drive and don't continue without selecting one)" what exactly is it talking about?

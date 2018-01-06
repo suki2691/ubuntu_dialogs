@@ -1,0 +1,4 @@
+2009-04-17T20:54:00.000Z	jumbers		Okay, so I've installed AWStats, but it doesn't have permission to /var/log/apache2/access.log What could be the problem here? These are both out of the box setups
+2009-04-17T20:54:00.000Z	Pici	jumbers	Add your user to the adm group.
+2009-04-17T20:55:00.000Z	jumbers	Pici	Which user? My www-data user?
+2009-04-17T20:56:00.000Z	Pici	jumbers	Whichever user that needs to be able to access the logs.

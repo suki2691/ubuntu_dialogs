@@ -1,0 +1,4 @@
+2005-11-04T16:18:00.000Z	ph8		Hey all, I switched from Kde to gnome yesterday, finally got xine working instead of the totem (:s) and now I've installed amarok, I've just watched a movie with sound - no problems but now i want to listen to some music and I can't get any sound? Is it something simple?
+2005-11-04T16:19:00.000Z	deFrysk	ph8	set the engine of amarok to esd
+2005-11-04T16:22:00.000Z	deFrysk	ph8	 open gnome-volume-control and see if you need to open/unmute some channels
+2005-11-04T16:26:00.000Z	deFrysk	ph8	test your sound on gstreamer-properties and see if its all set properly

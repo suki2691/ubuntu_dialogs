@@ -1,0 +1,4 @@
+2006-04-02T07:48:00.000Z	soundmaster80		my apologies for bothering everyone. could someone help me with my question again?
+2006-04-02T07:48:00.000Z	soundmaster80		i have dual nics on my motherboard, both are enabled with dhcp...can this cause problems browsing the internet?
+2006-04-02T07:48:00.000Z	liable	soundmaster80	yes, why are both configured? your kernel will be trying to route through both.
+2006-04-02T07:49:00.000Z	liable	soundmaster80	check the output of 'route' if you see to UG then thats your problem

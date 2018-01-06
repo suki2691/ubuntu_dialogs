@@ -1,0 +1,4 @@
+2010-10-09T06:35:00.000Z	Shishire		Is there a good way to trace the network connections/file openings of a single app?  I'm looking for some kind of wrapper which replaces fopen, socket, and connect, dumps the connection data to a file, and then passes them through.
+2010-10-09T06:35:00.000Z	Muelli	Shishire	sounds like strace and tsocks.
+2010-10-09T06:35:00.000Z	Muelli	Shishire	probably strace only.
+2010-10-09T06:36:00.000Z	Shishire	Muelli	aha! Awesome!

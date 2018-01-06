@@ -1,0 +1,4 @@
+2004-11-08T12:10:00.000Z	Acridien		hey are you sure we need to md5sum /etc/X11/XF86Config-4 >/var/lib/xfree86/XF86Config-4.md5sum
+2004-11-08T12:10:00.000Z	Acridien		before dpkg-reconfigure xserver-xfree86 ? won't dpkg md5sum later ?
+2004-11-08T12:12:00.000Z	spiv	Acridien	See the comment at the top of XF86Config-4 :)
+2004-11-08T12:13:00.000Z	Acridien	spiv	yeah i read but i was curious to understand how dpgk acted

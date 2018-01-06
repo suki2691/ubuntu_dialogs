@@ -1,0 +1,4 @@
+2011-01-12T13:48:00.000Z	Grav		Hi, what do i need to use so Ubuntu will remember screen resolution?
+2011-01-12T13:49:00.000Z	soreau	Grav	Sys>Prefs>Monitors
+2011-01-12T14:01:00.000Z	soreau	Grav	Could be a permissions issue. Try running this as your normal user: sudo chown -R $USER $HOME
+2011-01-12T14:01:00.000Z	soreau	Grav	Then reload the applet and resave the settings

@@ -1,0 +1,4 @@
+2012-05-15T17:49:00.000Z	gucko		hi guys, I'm trying to mount an ext4 hard to Ubuntu but I'm getting: you must specify the filesystem type. This hard had ubuntu installed and I plug it, Ubuntu only mount the GRUP section of the hard. What to do please?
+2012-05-15T17:49:00.000Z	gucko		*when I plug it
+2012-05-15T17:50:00.000Z	zykotick9	gucko	"sudo fdisk -l" with the drive attached to see all paritions on it
+2012-05-15T17:52:00.000Z	zykotick9	gucko	not directly related, but using sudo then ~ "might" cause issues

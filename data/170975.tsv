@@ -1,0 +1,4 @@
+2007-04-19T09:50:00.000Z	teb		hi, i have this line: /dev/hda7        /media/shared     hfsplus defaults,user,noauto 0   0 in my /etc/fstab but it doesn't mount when i boot, i have to type in mount /media/shared manually anyone know what i'm doing wrong?
+2007-04-19T09:51:00.000Z	micahcowan	teb	remove the noauto option (that's what it means)
+2007-04-19T09:51:00.000Z	teb	micahcowan	thanks! i just copied it from a website, probably should've man 8 mount first rtfm and all
+2007-04-19T09:52:00.000Z	micahcowan	teb	np :)

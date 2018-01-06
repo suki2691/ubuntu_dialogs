@@ -1,0 +1,4 @@
+2011-11-19T05:36:00.000Z	machiolate		how do I move every file in the current directory with a particular string into a certain folder using the terminal?
+2011-11-19T05:37:00.000Z	ActionParsnip	machiolate	fine /path/to/folder | grep -i string -exec mv {} /path/to/desk \;
+2011-11-19T05:38:00.000Z	ActionParsnip	machiolate	duplicated names will overwrite the old one. Could alos use cp instead of mv
+2011-11-19T05:40:00.000Z	ActionParsnip	machiolate	then you can omit the path, I just added it for completeness

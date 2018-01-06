@@ -1,0 +1,4 @@
+2012-11-09T01:12:00.000Z	|MS|DjFlyBy		how does one find out all the users on the system (I'm trying to figure out what user apache 2 is running under)
+2012-11-09T01:13:00.000Z	Pici	|MS|DjFlyBy	getent passwd , but ps aux | grep apache   might show you the answer directly.
+2012-11-09T01:13:00.000Z	Pici		EEEEEEEEEEE: Please stop that
+2012-11-09T01:15:00.000Z	|MS|DjFlyBy	Pici	that was perfect. Thanks a bunch

@@ -1,0 +1,4 @@
+2012-06-14T06:11:00.000Z	free_js		Hi all, I have a school windows environment and am running a pilot Ubuntu program. I am still using Windows DNS. My Ubuntu machines are not showing any entries in the DNS. Strangely, my windows machines can ping them via hostname, but Ubuntu machines cannot (except where the ubuntu machine being pinged has a fixed IP). I'd be really grateful for any help. Ping will not resolve either the simple host name or the fqdn. Thanks
+2012-06-14T06:12:00.000Z	ActionParsnip	free_js	if you run:  cat /etc/resolv.conf    are your DNS servers listed?
+2012-06-14T06:15:00.000Z	ActionParsnip	free_js	how about if you run:  nslookup name    where name is another ubuntu system?
+2012-06-14T06:32:00.000Z	ActionParsnip	free_js	use nslookup and you will see the method used :)

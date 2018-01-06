@@ -1,0 +1,4 @@
+2011-10-30T22:31:00.000Z	rawfodog		I had 2 OS's on my computer. I delete the other OS and I want ubuntu to be my primary. That went fine, except for that I still have grub when I boot my computer. How do I delete or hide grub ?
+2011-10-30T22:32:00.000Z	TheEvilPhoenix	rawfodog	 you need to have grub.  Boot into Ubuntu, run `sudo update-grub2`
+2011-10-30T22:32:00.000Z	TheEvilPhoenix	rawfodog	 Grub doesnt autoupdate after you change things on the partitions
+2011-10-30T22:32:00.000Z	TheEvilPhoenix	rawfodog	 you need to manually update grub - once it detects only Ubuntu, it will probably skip the prompts

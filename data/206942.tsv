@@ -1,0 +1,4 @@
+2008-05-01T01:07:00.000Z	shadowpool		Quick question:  Someone had a bad ram stick and repeatedly crashed his Ubuntu box.  The ext3 filesystem is all sorts of messed up.  Is it better to run fsck first, then back up data?  Or back up data then run fsck, then back up again (in case some corruption is fixed?)
+2008-05-01T01:08:00.000Z	soundray	shadowpool	it's probably best to image the partition in question with partimage or similar, then to run fsck on it.
+2008-05-01T01:10:00.000Z	soundray	shadowpool	it's definitely safest to image it first. Then you're not lost, even if fsck fails
+2008-05-01T01:11:00.000Z	shadowpool	soundray	 Thanks!

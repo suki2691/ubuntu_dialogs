@@ -1,0 +1,4 @@
+2005-12-12T06:40:00.000Z	meriad		what package contains all the of C's standard headers?
+2005-12-12T06:41:00.000Z	meriad		how?
+2005-12-12T06:42:00.000Z	bimberi	meriad	build-essential depends on (amongst other things) libc6-dev
+2005-12-12T06:49:00.000Z	bimberi	meriad	sudo aptitude install build-essential

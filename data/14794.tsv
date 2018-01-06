@@ -1,0 +1,4 @@
+2011-08-06T05:56:00.000Z	RenaKunisaki		is there something I need to do to make changes in hosts.allow take effect?
+2011-08-06T05:56:00.000Z	RenaKunisaki		besides rebooting? >.>
+2011-08-06T05:57:00.000Z	jenkinSear	RenaKunisaki	What service are you allowing? Ssh?
+2011-08-06T06:00:00.000Z	jenkinSear	RenaKunisaki	I'd do something like sudo /etc/init.d/nfs-kernel-server restart

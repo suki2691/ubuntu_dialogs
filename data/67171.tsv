@@ -1,0 +1,4 @@
+2009-05-19T02:18:00.000Z	helper		hello brothers by mistake i change user id kad to 1001 it was before 1000 but i can't access /home/kad i try to change /etc/passwd id back to 1000 but in /home/kad files still 1001 is there any command i can change the id of them to 1000 better then enter everyfile and chown ? thx
+2009-05-19T02:19:00.000Z	dotblank	helper	yes the chown <name> <file> file command can change the owner of the file(s)
+2009-05-19T06:24:00.000Z	dotblank	helper	did you recursivly apply it to everything in the folder?
+2009-05-19T06:24:00.000Z	helper	dotblank	 actually the user i didn't give it read permission, i only give permissions to group

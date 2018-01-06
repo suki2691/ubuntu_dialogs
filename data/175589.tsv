@@ -1,0 +1,4 @@
+2006-07-27T15:48:00.000Z	brotakul		hi. i have 4 broken packages in synaptic[alien and 3 of it's libraries] . if i try to remove them, synaptic wants to also remove all my software, even gnome-panel. what can i do? i can't install/uninstall anything at the moment.
+2006-07-27T15:48:00.000Z	Seveas	brotakul	sudo apt-get -f install
+2006-07-27T15:49:00.000Z	brotakul	Seveas	it doesn't work. unable to correct dependencies
+2006-07-27T15:49:00.000Z	Seveas	brotakul	output of apt-get -f install on the pastebin please

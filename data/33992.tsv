@@ -1,0 +1,4 @@
+2010-04-15T08:07:00.000Z	Terjefant		I installed ardour/jack on ubuntu 10.04b2, now jack has taken over/stops pulseaudio from starting, any advice on what to do ?
+2010-04-15T08:09:00.000Z	kostkon	Terjefant	you can't have them both, because each of them needs to have exclusive access to the hardware
+2010-04-15T08:09:00.000Z	Terjefant	kostkon	I guess so, I don't want jackd to load at boot, I have no idea on how to stop it from doing so though
+2010-04-15T08:10:00.000Z	kostkon	Terjefant	hmm, can't help you there sorry

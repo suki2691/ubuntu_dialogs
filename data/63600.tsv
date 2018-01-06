@@ -1,0 +1,4 @@
+2009-08-04T06:42:00.000Z	epaphus		Hey guys, how can I stop iptables from command line?
+2009-08-04T06:44:00.000Z	chuckmoney	epaphus	I'm pretty sure that without iptables you have no default route for packets and you can't get any traffic through, so you don't want to shut it down.  however, you may want to clear a block rule in it.  check "man iptables" or "man ipchains"
+2009-08-04T06:45:00.000Z	chuckmoney	epaphus	you might also want to try firestarter, it's a nice GUI to iptables
+2009-08-04T06:45:00.000Z	epaphus	chuckmoney	thanks

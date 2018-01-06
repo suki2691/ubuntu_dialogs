@@ -1,0 +1,4 @@
+2008-08-18T00:40:00.000Z	dvs_		dd if=/dev/sda2 of=/dev/sdb2 bs=4096 conv=notrunc,noerror   <------ does the block size always = 4096 ?
+2008-08-18T00:41:00.000Z	dvs_		dd if=/dev/sda2 of=/dev/sdb2 bs=4096 conv=notrunc,noerror   <------ does the block size always = 4096 ?
+2008-08-18T00:42:00.000Z	_2	dvs_	no.   default is 512
+2008-08-18T00:42:00.000Z	_2	dvs_	if you set the bs to your hardware's actual bs you get best preformance.

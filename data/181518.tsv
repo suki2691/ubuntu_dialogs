@@ -1,0 +1,4 @@
+2008-11-03T02:06:00.000Z	Cyberia		I can't isntall a .tar.gz can anyone help?
+2008-11-03T02:07:00.000Z	neeto	Cyberia	you gotta untar it... tar xzf filename.tar.gz, then you can deal with the files inside the archive.
+2008-11-03T02:08:00.000Z	neeto	Cyberia	there should be a configure file or a make file
+2008-11-03T02:09:00.000Z	neeto	Cyberia	run it as root using ./configure or ./executable-name. If you get an error, use sh instead... or follow the advice of these guys in here because .deb packages are easier to deal with.

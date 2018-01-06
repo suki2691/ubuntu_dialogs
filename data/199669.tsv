@@ -1,0 +1,4 @@
+2006-08-14T14:46:00.000Z	bob007		i've downloaded "build-essential_11.3_i386.deb". how can i install it now?
+2006-08-14T14:47:00.000Z	bob007		i've downloaded "build-essential_11.3_i386.deb". how can i install it now?
+2006-08-14T14:48:00.000Z	mcdonaldsguy	bob007	"sudo dpkg -i build-essential_11.3_i386.deb"
+2006-08-14T14:49:00.000Z	mcdonaldsguy	bob007	but that might not do what you expect, since build-essential is basically just something that pulls in a bunch of other packages

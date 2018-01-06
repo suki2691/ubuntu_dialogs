@@ -1,0 +1,4 @@
+2007-03-09T08:19:00.000Z	Joboo		Need Help - anytime I try and do anything in terminal - I am getting this error:  "E: dpkg was interrupted, you must manually run 'dpkg --configure -a' to correct the problem.
+2007-03-09T08:19:00.000Z	Joboo		" - then when I try and run "dkpg --configure -a"  I get am error like this:  "dpkg: requested operation requires superuser privilege:.. I am system admin so no idea what that means.
+2007-03-09T08:19:00.000Z	bruenig	Joboo	sudo dpkg --configure -a
+2007-03-10T14:21:00.000Z	bruenig	Joboo	sudo dpkg -i *.deb

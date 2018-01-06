@@ -1,0 +1,4 @@
+2012-08-19T11:10:00.000Z	BrenRS_		Why is it that when I enter "sudo modprobe ndiswrapper" it returns "FATAL: Module ndiswrapper not found."?
+2012-08-19T11:10:00.000Z	timfrost	BrenRS_	have you installed  ndiswrapper-dkms ("sudo apt-get install  ndiswrapper-dkms")?
+2012-08-19T11:11:00.000Z	timfrost	BrenRS_	you need to enable universe to find that package on precise
+2012-08-19T11:12:00.000Z	timfrost	BrenRS_	in software sources, it is a tick box

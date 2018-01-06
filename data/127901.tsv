@@ -1,0 +1,4 @@
+2008-10-29T10:40:00.000Z	philsf		how can I make nautilus unmount a fuse virtual fs I created? I can umount it manually with fusermount -u mnt, but nautilus complains I'm not root, and the mount point isn't in fstab. I'd like nautilus to handle this mount similarly to how it handles removable media
+2008-10-29T10:41:00.000Z	dr_willis	philsf	 i was thinking the fuse tools/docs discussed this..  some sort of group/permissions  to allow users to unmount all fuse type mounts.
+2008-10-29T10:43:00.000Z	philsf	dr_willis	I was thinking I needed to do something with nautilus itself, since the fuse part is solved, am I missing somehting?
+2008-10-29T10:44:00.000Z	dr_willis	philsf	 no idea ont hat - i perfer to use rox-filer. :) i tend to mount/unmount fuse things from terminal/scripts

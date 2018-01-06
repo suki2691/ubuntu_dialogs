@@ -1,0 +1,4 @@
+2006-12-25T06:44:00.000Z	Olathe_		How do I mount a samba share so that the owner of the files on it appears to be something other than root ?
+2006-12-25T06:44:00.000Z	cafuego_	Olathe_	the uid and gid options as per man page.
+2006-12-25T06:45:00.000Z	Olathe_	cafuego_	Thanks :)
+2006-12-25T06:45:00.000Z	cafuego_	Olathe_	you may also wan to use fmask and dmask

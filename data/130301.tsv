@@ -1,0 +1,4 @@
+2007-06-22T06:16:00.000Z	modpl		hi guys... i have a usb disk connected with 1 ntfs and 1 fat32 partition... i want to install ubuntu to the fat32 partition but it doesnt show up in gparted
+2007-06-22T06:17:00.000Z	Imitation	modpl	forget ibstalling linux on fat32
+2007-06-22T06:24:00.000Z	Imitation	modpl	your exrernal hard drive probably is sda, so try "sudo mount /dev/sda1 /your/mountpoint"
+2007-06-22T06:30:00.000Z	Imitation	modpl	if you don't like sudo, you can set the root password with "sudp passwd"

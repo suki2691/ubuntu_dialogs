@@ -1,0 +1,4 @@
+2005-11-29T16:03:00.000Z	snadge		how come the latest breezy "security update" for the kernel, also gave me a working boot splash screen and also fixed a message log storm after resume from hibernation?? :P
+2005-11-29T16:04:00.000Z	pitti	snadge	we did not actually change any code for that
+2005-11-29T16:04:00.000Z	pitti	snadge	I suppose that the kernel upgrade triggered an initramfs rebuild, which was missing in your previous install
+2005-11-29T16:05:00.000Z	pitti	snadge	we will fix this in dapper (automatic initramfs rebuild)

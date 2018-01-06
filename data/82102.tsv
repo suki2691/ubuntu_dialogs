@@ -1,0 +1,4 @@
+2008-11-13T16:53:00.000Z	JonathanEllis		﻿rdw200169_: Thanks. That works. Now I dont have to stare at the screen constantly in case I miss someone answering my questions :-D
+2008-11-13T16:53:00.000Z	JonathanEllis		Can anyone tell me what the nosuid flag is for when I mount filesystems in fstab?
+2008-11-13T16:54:00.000Z	[mbm]	JonathanEllis	means that chmod +s doesn't work on the filesystem, which means applications can't run as root unless you're logged in as root
+2008-11-13T16:56:00.000Z	[mbm]	JonathanEllis	it's a security thing, but some programs need root permissions or they won't work, so you can't do it on your main filesystem

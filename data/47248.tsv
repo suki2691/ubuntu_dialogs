@@ -1,0 +1,4 @@
+2011-05-14T16:52:00.000Z	moes		How do I check to assure grub2 is installed to MBR of Ubuntu 10.04
+2011-05-14T16:54:00.000Z	llutz_	moes	while using 10.04: sudo update-grub && sudo grub-install /dev/sda
+2011-05-14T16:55:00.000Z	llutz_	moes	theres no real working check-method, maybe just rebooting and comparing the menu with 10.04s grub.cfg
+2011-05-14T16:56:00.000Z	llutz_	moes	you could dump the mbr and check using "strings" for "Grub" but that won't tell you WHAT grub it contains.

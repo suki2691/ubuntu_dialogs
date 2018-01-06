@@ -1,0 +1,4 @@
+2006-02-20T15:20:00.000Z	meepy		I do a portscan on myself and find that port 631, 1025, 1026 is open. I tried lsof -i :port - but it comes with an error
+2006-02-20T15:21:00.000Z	wastrel	meepy	 grep 631 /etc/services
+2006-02-20T15:22:00.000Z	wastrel	meepy	 631 is CUPS i'm guessing
+2006-02-20T15:24:00.000Z	wastrel	meepy	 dunno...

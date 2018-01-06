@@ -1,0 +1,4 @@
+2009-04-06T10:44:00.000Z	stephenjudkins		I am trying to start apache2 and it keeps saying "port already in use".  other programs (running as root) also say that port 80 is in use.  however, there are no httpd processes and netstat and lsof report nothing is using port 80
+2009-04-06T10:44:00.000Z	Flannel	stephenjudkins	How are you trying to start it?
+2009-04-06T10:44:00.000Z	stephenjudkins	Flannel	sudo /etc/init.d/apache2 start
+2009-04-06T10:45:00.000Z	stephenjudkins	Flannel	however, other programs (notable python web server) also can't serve from port 80 when run as root

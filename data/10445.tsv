@@ -1,0 +1,4 @@
+2011-08-14T22:57:00.000Z	SoloGaijin		hey guys - posted this in #linux but its just as appropriate here I suppose:
+2011-08-14T22:57:00.000Z	SoloGaijin		I am getting an error starting radvd: IPv6 forwarding seems to be disabled. - however I added the line: net.ipv6.conf.default.forwarding=1 in /etc/sysctl.conf as the tutorial stated
+2011-08-14T22:58:00.000Z	SoloGaijin		setting up radvd and doing radvd restart
+2011-08-14T23:00:00.000Z	quatrox	SoloGaijin	try echo "1" >/proc/sys/net/ipv6/ip_forwarding

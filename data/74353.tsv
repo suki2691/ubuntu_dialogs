@@ -1,0 +1,4 @@
+2009-02-24T01:33:00.000Z	Reformer81		I just installed kubuntu-kde4-desktop.  Now, when I rebooted, the startup halts with errors that fsck could not check /dev/sdb6 (which is my /home/ partition).  I need to press Ctrl-D to continue booting.  Also, when logging into Gnome, now the "User Switcher" applet crashes immediately.  What happened and how do I fix this?
+2009-02-24T01:35:00.000Z	oskar-	Reformer81	 press ctrl+1 to get into the vt1, log in as normal user and try to fix the problem manually, with something like: sudo fsck /dev/sdb6; sudo mount -a
+2009-02-24T01:36:00.000Z	Reformer81	oskar-	I'll give it a shot.  Thanks
+2009-02-24T01:36:00.000Z	oskar-	Reformer81	 you should have a look, if the partition is yet in place, if it is already mounted and so on

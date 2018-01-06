@@ -1,0 +1,4 @@
+2006-04-29T06:06:00.000Z	facugaich		I need to install linux-686 and its dependencies, but I have to download 20+ Mb. Is there a way pause and resume download like with wget?
+2006-04-29T06:06:00.000Z	Buntun00b	facugaich	it should cache it automatically as it downloads.
+2006-04-29T06:07:00.000Z	Buntun00b	facugaich	look in /var/cache/apt/archives  it puts the cached stuff there.
+2006-04-29T06:07:00.000Z	Buntun00b	facugaich	yes even if you crtl-c them.

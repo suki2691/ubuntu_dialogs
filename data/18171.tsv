@@ -1,0 +1,4 @@
+2011-03-15T19:10:00.000Z	Pumpkin-	ruan	different revisions of the x86 instruction set. i386 stuff will run on 386's, i686's will run on P2's (I think). i686 has some more optimal instructions, and so stuff will run better in general with it (unless you want to run it on a P1 or 486 or 386, when it won't run at all)
+2011-03-21T18:03:00.000Z	Pumpkin-	ruan	change Port in /etc/ssh/sshd_config and reload sshd
+2011-03-21T18:03:00.000Z	ruan	Pumpkin-	thanks, needed path
+2011-03-24T20:09:00.000Z	Pumpkin-	ruan	just doing a naked /list with no paramaters will show you every single (visible) channel. It is highly likely to send you so much data you blow your buffer on the server and get kicked off IRC :)

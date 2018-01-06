@@ -1,0 +1,4 @@
+2008-03-20T23:07:00.000Z	jake2point0		i finally got my wireless card to list under ndiswrapper -l but how do i connect to my unsecured wireless network?
+2008-03-20T23:07:00.000Z	MasterShrak	jake2point0	do: sudo iwconfig wlan0 essid <network name>
+2008-03-20T23:07:00.000Z	MasterShrak	jake2point0	then grab an ip by: sudo dhclient3 wlan0   (this is all assumming that your interface name is wlan0)
+2008-03-20T23:11:00.000Z	MasterShrak	jake2point0	make sure you grab an ip address too with the dhclient3 command

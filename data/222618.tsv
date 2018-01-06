@@ -1,0 +1,4 @@
+2011-04-09T20:39:00.000Z	DavidJonas		ho.... i'm in big trouble. I've been setting up a server (which took multiple reinstalls and LOTs of configuring)  and now I get a warning for no swap space. I checked and I noticed the last time I partitioned the disk I forgot to add the swap partition (idiot!!). I didn't notice till now because I have 16Gb memory but I can't go live without swap and I can't reinstall because we're supposed to go live tomorrow...
+2011-04-09T20:39:00.000Z	DavidJonas		is there a way to set up a swap space without having to format?
+2011-04-09T20:40:00.000Z	mneptok	DavidJonas	you could use a swap file instead of swap partition
+2011-04-09T20:41:00.000Z	mneptok	DavidJonas	the biggest thing is remembering to track where that file lives, and exclude it from backup and such

@@ -1,0 +1,4 @@
+2008-06-01T16:51:00.000Z	poopuser		i moved home on separate partition and now xface is whining about .dmrc need to have 644 permission (or something) and it says that home should be owned only by user and only user can have privilages.so what do i need to do with .dmrc and what 'options' i need to set in fstab for home partition?
+2008-06-01T16:52:00.000Z	poopuser		i try kbthx
+2008-06-01T16:54:00.000Z	renegade444	poopuser	The command to set ownership is: $ "sudo chown user:user FILENAME" the one for permissions is:  $ "chmod 644 FILENAME"
+2008-06-01T16:58:00.000Z	poopuser	renegade444	thx...i did so and i keep reciving same error fstab maybe?

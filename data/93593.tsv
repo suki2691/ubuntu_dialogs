@@ -1,0 +1,4 @@
+2010-03-29T06:19:00.000Z	denis123		so what do I do? Is there an option to reapair?
+2010-03-29T06:21:00.000Z	denis123		ok. thanks. I'll reboot with livecd and have a look. Just what do I do to make it use default vesa video drivers?
+2010-03-29T06:22:00.000Z	Gummi	denis123	in grub (before you enter ubuntu when you boot up your computer) pick command line or what ever it is called. or use live cd... find /etc/X11/xorg.conf and change driver to vesa, you will ned to google how to
+2010-03-29T06:24:00.000Z	Gummi	denis123	I dont know. you might be able to log in with the older kernel if there was a kernel update and your ati drivers arent......... just... try anything.

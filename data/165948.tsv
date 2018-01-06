@@ -1,0 +1,4 @@
+2006-09-27T14:28:00.000Z	samir85		yeah i know how to ask questions. Here's my issue: My microphone isnt working (intel-hda ich7 familiy soundcard). Thus i tried to manually compile the new alsa-drivers 1.0.13rc3, but when i type  cat /proc/asound/version i still get alsa version 1.0.10 @ wols_
+2006-09-27T14:29:00.000Z	samir85		hopefully i described my issue this time precicly enough ;)
+2006-09-27T14:30:00.000Z	segfault_	samir85	alsa drivers are in the kernel, ull need to replace the kernel module with ur new compiled driver
+2006-09-27T14:34:00.000Z	segfault_	samir85	not sure where make install installs those ull have to read and find out, if they are put int he right /lib/modules dir then u prolly have to modprobe -r ur existing modules then modprobe the new modules, use lsmod to make sure they get removed

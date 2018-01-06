@@ -1,0 +1,4 @@
+2006-10-24T16:58:00.000Z	psycode		hehe!
+2006-10-24T05:02:00.000Z	psycode		ahhh i can't eject my cdrom :(  -- is "lsof | grep cdrom" supposed to find the source of the problem?
+2006-10-24T05:03:00.000Z	soundray	psycode	look if /dev/cdrom is a soft link to a real device and grep for that instead
+2006-10-24T05:04:00.000Z	psycode	soundray	i'm trying that, thx

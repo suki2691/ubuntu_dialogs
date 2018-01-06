@@ -1,0 +1,4 @@
+2010-12-27T17:26:00.000Z	Jemt		Hi. Can someone tell me why "tunefs -U <guid> /dev/sdc1" works for EXT4 partitions, but not FAT partitions ? I get the following error: "Bad magic number in super block whyle trying to open /dev/sdc2" and "Couldn't find valid filesystem super block"
+2010-12-27T17:26:00.000Z	Jemt		tune2fs*
+2010-12-27T17:28:00.000Z	RobotCow	Jemt	if you read the man page "tune2fs allows the system administrator to adjust various tunable filesystem parameters on  Linux  ext2,  ext3,  or ext4  filesystems."
+2010-12-27T17:28:00.000Z	Jemt	RobotCow	Ah, I see. Thank you

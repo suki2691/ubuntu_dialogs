@@ -1,0 +1,4 @@
+2005-10-18T16:28:00.000Z	NotHere	brownie17	I mean
+2005-10-18T16:28:00.000Z	brownie17	NotHere	i am on ubuntu livecd now
+2005-10-18T16:29:00.000Z	NotHere	brownie17	boot in some rescue mode, mount your ubuntu partitions under /somedir and then do chroot /somedir/. After that you run grub-install /dev/hda (or whatever your disk is) and you are ok
+2005-10-18T16:29:00.000Z	NotHere	brownie17	you can do that with the live cd too...

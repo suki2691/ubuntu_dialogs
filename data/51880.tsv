@@ -1,0 +1,4 @@
+2011-03-19T00:13:00.000Z	neohashi		hello.. question: is it possible to copy a a file which is currently being downloaded? say downloading an iso to my ubuntu box and then relay the file as it comes in over my lan/ftp to another box?
+2011-03-19T00:14:00.000Z	Gartral	neohashi	i played around with that a long time ago.. i found that the only effective way is too rate-filter the server so that the download too the final target is slower than the download coming off the source
+2011-03-19T00:16:00.000Z	neohashi	Gartral	ok so as long as my local ftp dosen't get to the end of the file I am good? or did I misunderstand
+2011-03-19T00:16:00.000Z	Gartral	neohashi	you got it

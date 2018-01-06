@@ -1,0 +1,4 @@
+2006-03-03T16:42:00.000Z	soundray	Xirzon	maybe your module gets loaded before the boot process reads /etc/modules.
+2006-03-03T16:42:00.000Z	soundray	Xirzon	if that is so, you may be able to parameterize your module via a kernel boot option.
+2006-03-03T16:43:00.000Z	Xirzon	soundray	hmz, I don't think it does; I blacklisted it in hotplug. I'll try adding the parameter to /etc/modutils/alsa-base (it's an alsa driver)
+2006-03-03T16:44:00.000Z	soundray	Xirzon	sounds like a reasonable thing to try out.

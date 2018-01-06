@@ -1,0 +1,4 @@
+2006-12-26T11:24:00.000Z	timothy		does anyone know how to add the user group for apache?
+2006-12-26T11:24:00.000Z	po0f	timothy	Add the actual 'apache' group, or add a user to the apache group?
+2006-12-26T11:26:00.000Z	timothy	po0f	well, I have a install script that fails with "chown 'root:apache' : invalid group"
+2006-12-26T11:26:00.000Z	po0f	timothy	I use lighttpd; it's not apache but the user and group for it are 'www-data', if that helps.

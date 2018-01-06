@@ -1,0 +1,4 @@
+2011-08-20T01:42:00.000Z	daavis		i try to format usb flash with gparted. now i have to create partition for usb drive. which filesystem i should use for usb?
+2011-08-20T01:43:00.000Z	daavis		i try to format usb flash with gparted. now i have to create partition for usb drive. which filesystem i should use for usb?
+2011-08-20T01:43:00.000Z	daavis		used fat32, could not open
+2011-08-20T01:45:00.000Z	llutz	daavis	use vfat/ntfs if you have any windows-machines accessing the drive. both need some mount-options for user-access in linux

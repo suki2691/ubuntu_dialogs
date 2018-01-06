@@ -1,0 +1,4 @@
+2010-01-16T16:55:00.000Z	Pure		What do most bioses mean by network boot?
+2010-01-16T16:56:00.000Z	vlt	Pure	PXE I think
+2010-01-16T16:57:00.000Z	vlt	Pure	You can also install a tiny PXE boot image to another bootable medium like floppy, usb or even the network card's ROM. See www.etherboot.org for example
+2010-01-16T16:59:00.000Z	vlt	Pure	PXE is a collection of protocols. First the client does DHCP, then TFTP for the kernel

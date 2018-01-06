@@ -1,0 +1,4 @@
+2010-10-12T01:20:00.000Z	rxs	sridatta	can you use top or gnome-system-monitor and see what process is peaking you CPU ? May be that will tell you something ...
+2010-10-12T01:25:00.000Z	sridatta	rxs	CPU usage is only at 2.2% on all cores
+2010-10-12T01:28:00.000Z	rxs	sridatta	hmm .. can you try cat /proc/acpi/thermal_zone/THM0/* and look at your temps and also cat /proc/acpi/ibm/fan
+2010-10-12T01:32:00.000Z	sridatta	rxs	I ran those commands and put the outputs in this paste. http://paste.ubuntu.com/511127/

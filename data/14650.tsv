@@ -1,0 +1,4 @@
+2011-05-05T12:55:00.000Z	Ymer-work-		If i have 2 cron jobs, that are executed on the same minute, and the second job (slave) is depending on the first(master) to finish, does cron have any way to determine which job to be run first? In ps aux, I can see the (master) job first, and with a lower PID.
+2011-05-05T12:57:00.000Z	susundberg	Ymer-work-	at least one solution is to make single perl / etc script that does fork() and handles the waiting of previous
+2011-05-05T12:59:00.000Z	susundberg	Ymer-work-	if they need to be runned at same time that is. if not, just run them one after another: make run_scripts.sh that contains the commands one after another.
+2011-05-05T13:01:00.000Z	Ymer-work-	susundberg	well the cron jobs is actually configured, (master) */1 and slave */2, but the result will be that they will run "at the same time" every minute. The jobs are actually working as intended, was just curious if the PIDs had anything to do with the running order of the jobs.

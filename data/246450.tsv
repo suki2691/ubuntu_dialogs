@@ -1,0 +1,4 @@
+2005-03-07T14:49:00.000Z	bodhi		how can i change the default kernel in grub?
+2005-03-07T14:49:00.000Z	CountDown	bodhi	You can edit your /boot/grub/menu.lst file.
+2005-03-07T14:50:00.000Z	CountDown	bodhi	I think the order of the kernels in that file determines the order grub uses them.  I'm just guessing, though.
+2005-03-07T14:51:00.000Z	CountDown	bodhi	In particular, I would look into it further before changing anything.

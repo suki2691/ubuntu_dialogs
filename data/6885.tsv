@@ -1,0 +1,4 @@
+2012-01-25T13:56:00.000Z	FluxiFlax2022		hi all I am compiling a maptile for a GPS app and it creates hundres of thousands of files in a partition, the partition is 20GB at 6.xGB usage I get an error no more space on disk, I remove a tile image and was able to replace it with a 5GB file, which makes me assume tha the problem is with the nubmer of files created rather than the size of the files, I am running this as root on 11.10 ... the max number files I could reach was 1308648
+2012-01-25T13:57:00.000Z	FluxiFlax2022		filesystem is ext4
+2012-01-25T13:57:00.000Z	metaspike	FluxiFlax2022	have a look at btrfs on wikipedia it has higher limits but some disadvantages also..
+2012-01-25T13:58:00.000Z	metaspike	FluxiFlax2022	also, the limits of ext4 are probably tunable- not sure how though.

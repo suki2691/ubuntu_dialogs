@@ -1,0 +1,4 @@
+2006-12-08T08:37:00.000Z	refnumzx		when i replace my NIC dmesg says it is eth0 but when i do ifupeth0 which is also defined in /etc/network/interfaces it says device not found  i also know about modprobe and have tried that and then ifup eth0 and it still says device not found.
+2006-12-08T08:38:00.000Z	refnumzx		i have tried that
+2006-12-08T08:38:00.000Z	prh	refnumzx	look at /etc/udevd/rules.d/Z25*net* - it keeps a memory of which MAC eth0 should have so a new card would get eth1
+2006-12-08T08:39:00.000Z	prh	refnumzx	you can probably just delete that file - thre is a z45... which creates it I think

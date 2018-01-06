@@ -1,0 +1,4 @@
+2007-09-29T14:38:00.000Z	jaypro		quick question!  i forgot the root & superuser password, so i followed directions to change the root password.  now i need to know how to change the superuser password
+2007-09-29T14:38:00.000Z	ckrough	jaypro	root is superuser
+2007-09-29T14:40:00.000Z	ckrough	jaypro	ah, that would be your normal user. try 'su -' and enter the root password, if that works you can then 'passwd _username_' where _username_ is the normal/default account
+2007-09-29T14:41:00.000Z	ckrough	jaypro	I am not sure if 'su -' will work, havent used it on ubumtu, but it's the only thing I can think of. good luck

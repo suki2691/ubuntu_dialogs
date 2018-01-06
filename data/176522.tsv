@@ -1,0 +1,4 @@
+2010-03-02T09:06:00.000Z	rage		Hello, I need a USB device to magically chown its location in /dev/bus/usb/.. to root:nut . Can someone point me in the right direct on how to write a rule to do so?
+2010-03-02T09:07:00.000Z	hwilde	rage	/etc/udev/rules.d   then look for either usb or storage type stuff
+2010-03-02T09:08:00.000Z	hwilde		!ot | cyberbluntz
+2010-03-02T09:08:00.000Z	rage	hwilde	flaarg: Thanks, that should be enough to get me going again

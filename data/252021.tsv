@@ -1,0 +1,4 @@
+2006-04-23T08:29:00.000Z	danl		whats the easy way, or a link/tutorial on going from 5.10 to dapper
+2006-04-23T08:29:00.000Z	danl		thank you hyphenated
+2006-04-23T08:30:00.000Z	eyequeue	danl	you change the file and run two commands /etc/apt/sources.list, change "breezy" to "dapper" anywhere
+2006-04-23T08:30:00.000Z	eyequeue	danl	then sudo apt-get update && sudo apt-get dist-upgrade

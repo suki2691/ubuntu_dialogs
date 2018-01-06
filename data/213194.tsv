@@ -1,0 +1,4 @@
+2006-05-02T10:16:00.000Z	blind		how can i chmod every file in a directory, and all the children directories?
+2006-05-02T10:16:00.000Z	blind		I tried "find -name '*' -print0 | xargs -0 chmod 766" but everything it tried to chmod, it gave me "operation not permitted"
+2006-05-02T10:17:00.000Z	blind		why?
+2006-05-02T10:18:00.000Z	mustard5	blind	cause it will destry things if you are not careful :)

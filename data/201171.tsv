@@ -1,0 +1,4 @@
+2006-01-19T11:36:00.000Z	mike100		all -- does anyone know the Linux command (I have Ubuntu 5.10) to type to find the amount of system onboard RAM I have?
+2006-01-19T11:37:00.000Z	mike100		cat /proc/<what?>
+2006-01-19T11:37:00.000Z	mike100		thanks, guys! :)
+2006-01-19T11:38:00.000Z	cleo	mike100	cat /proc/meminfo

@@ -1,0 +1,4 @@
+2011-02-13T18:01:00.000Z	dagnytaggart		Greetings. I am looking for some assistance in writing inputs from the command line. In particular, I can run '"gpg" [Press Enter]. Program then responds with "Enter input", I enter input, then press "Ctrl-D" - program then closes and outputs the result I want to stdout. This is the behavior I am looking for, just without the human input - need to condense it down to one statement entered on the command line. Thoughts?
+2011-02-13T18:03:00.000Z	Lint1	dagnytaggart	pipes, <, <<<
+2011-02-13T18:03:00.000Z	dagnytaggart	Lint1	Example of command? 'some string text here' | gpg, doesn't do it.
+2011-02-13T18:04:00.000Z	Lint1	dagnytaggart	why?

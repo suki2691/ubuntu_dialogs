@@ -1,0 +1,4 @@
+2006-12-09T17:14:00.000Z	fredrich		there seems to be something screwy with prism2_cs, when i try to modprobe it it just "isnt there", anyone have any ideas?
+2006-12-09T17:16:00.000Z	fredrich		FATAL: Module prism2_cs not found. :(
+2006-12-09T17:17:00.000Z	bat0	fredrich	try find /lib/modules -name "prism*"
+2006-12-09T17:18:00.000Z	fredrich	bat0	theres a heap of prism2_cs modules for the different kernels

@@ -1,0 +1,4 @@
+2006-05-27T09:06:00.000Z	gteppel		Is it possible to tunnel PPTP VPN over SSH? I have a laptop that is sometimes in a wireless network that only allows Port 80 & 443 outbound so I setup my sshd server on my debian box to run over 443. I've been able to ssh to my box like this and I've been able to forward ports over this tunnel (3389 RDP, 5222 Jabber, etc...) but I'm not sure how to tunnel VPN over SSH, what ports does it use?. The reason I need to VPN is so I can vpn i
+2006-05-27T09:08:00.000Z	bintrue	gteppel	pptp runs on 1723
+2006-05-27T09:08:00.000Z	gteppel	bintrue	ok thanks
+2006-05-27T09:08:00.000Z	bintrue	gteppel	google knows all!

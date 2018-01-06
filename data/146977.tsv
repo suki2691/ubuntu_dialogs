@@ -1,0 +1,4 @@
+2007-02-11T15:48:00.000Z	mytruehero		I'm having some trouble mounting my secondary harddrive. It's NTFS formatted, and when I type "sudo mount -t ntfs /dev/sdb1 /media/mountpoint" I don't get any errors, but when I try to access /media/mountpoint, I get an error window saying "You do not have the permissions necessary to view the contents of "mountpoint."" Any idea why that might be happening?
+2007-02-11T15:48:00.000Z	EdgEy	mytruehero	only root will be able to access the mounted drive if you mount using sudo
+2007-02-11T15:49:00.000Z	mytruehero	EdgEy	Ah, interesting. I will take a look - thanks!
+2007-02-11T15:53:00.000Z	mytruehero	EdgEy	I put "/dev/sdb1       /media/320_internal     ntfs    rw,user,auto" in my fstab, then did "sudo mount -a", but I'm getting the same error message when I try to access the folder

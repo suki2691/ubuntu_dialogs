@@ -1,0 +1,4 @@
+2006-07-07T06:36:00.000Z	gnomefreak		warning --force-all is not normally a good command to run
+2006-07-07T06:37:00.000Z	ccooke	gnomefreak	Correct. However, in this case he's installed a broken non-ubuntu package for the wrong kernel.
+2006-07-07T06:37:00.000Z	gnomefreak	ccooke	apt-get -f install did fix it?
+2006-07-07T06:39:00.000Z	ccooke	gnomefreak	dpkjg can't uninstall the package. This is a lower-level problem to apt-get

@@ -1,0 +1,4 @@
+2012-10-19T23:19:00.000Z	layke_		Okay. Not that I don't trust you ;) But can anyone else confirm as well?
+2012-10-19T23:19:00.000Z	layke_		I'll try with /etc/init.d/ now anyway carlisle_
+2012-10-19T23:19:00.000Z	layke_		The funny thing is though, is that the service command does work.
+2012-10-19T23:20:00.000Z	genii-around	layke_	http://packages.ubuntu.com/precise/amd64/memcached/filelist indicates no /etc/init  entry, only /etc/init.d which means it still hasn't been converted to upstart yet ( at least not in Precise )

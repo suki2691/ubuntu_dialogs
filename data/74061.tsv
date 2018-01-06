@@ -1,0 +1,4 @@
+2008-11-18T08:53:00.000Z	Tetracomm		Hello.
+2008-11-18T08:54:00.000Z	Tetracomm		After I use make install to install a program, how do I register it so that I can remove it with apt-get remove?
+2008-11-18T08:55:00.000Z	eliasp_	Tetracomm	no way, 'make install' doesn't work together with the package management... make install just puts the files 'randomly' on your disk...
+2008-11-18T08:56:00.000Z	eliasp_	Tetracomm	don't install packages using 'make install' unless you really know what you do... else you risk the consistency of your package management

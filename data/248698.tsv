@@ -1,0 +1,4 @@
+2005-03-22T13:44:00.000Z	MrKeuner		hi, I edit the resolv.conf and add some more DNS servers. However, whenever I reboot DNS servers got lost. Is there another config file for this?
+2005-03-22T13:46:00.000Z	Levander	MrKeuner	the Computer->System Configuration->Networking dialog contains settings that overwrite /etc/hosts and /etc/resolv.conf on booting
+2005-03-22T13:48:00.000Z	Levander	MrKeuner	that's where I had to change the settings so that my custom settings didn't get overwritten on reboot
+2005-03-22T13:49:00.000Z	Levander	MrKeuner	dhcp

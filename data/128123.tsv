@@ -1,0 +1,4 @@
+2008-02-12T19:22:00.000Z	ADHDYoshi		Can I simply copy the files in the root partition to another partition then reinstall grub and edit fstab? Or is it more complicated?
+2008-02-12T19:24:00.000Z	HEP85	ADHDYoshi	You can but be aware when you change the filesystem type
+2008-02-12T19:25:00.000Z	HEP85	ADHDYoshi	You should use cp with the option -a This will preserve all permissions and file attributes
+2008-02-12T19:27:00.000Z	HEP85	ADHDYoshi	I just copied my whole system drive to an external HD and copied it back as jfs filesystem two weeks ago

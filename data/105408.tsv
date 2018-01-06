@@ -1,0 +1,4 @@
+2010-07-12T19:33:00.000Z	malcolmci		Hey guys, what's the most-supported, most-stable method of installing flash on AMD64?
+2010-07-12T19:33:00.000Z	ActionParsnip	malcolmci	flashplugin-nonfree or you can get 10.0 with the 64bit flash PPA
+2010-07-12T19:34:00.000Z	ActionParsnip	malcolmci	sudo add-apt-repository ppa:sevenmachines/flash && sudo apt-get update && sudo apt-get install flashplugin64-installer
+2010-07-12T19:35:00.000Z	ActionParsnip	malcolmci	flashplugin-nonfree is 10.1 32bit running through a 64bit wrapper

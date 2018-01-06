@@ -1,0 +1,4 @@
+2008-06-06T20:49:00.000Z	MystaMax		no
+2008-06-06T20:50:00.000Z	MystaMax		﻿hi, I'd like to add an existing user to multiple existing groups using adduser command, is that possible?
+2008-06-06T20:51:00.000Z	Kl4m	MystaMax	usermod -a -G group1,group2 user
+2008-06-06T20:52:00.000Z	Kl4m	MystaMax	if you don't put -a , it replaces group membership instead of adding

@@ -1,0 +1,4 @@
+2009-11-28T20:55:00.000Z	moonlite		I'm trying to debug a sound problem. My first course of action is trying to stop pulseaudio to see if the problem might be there (or in its dependencies). How do i do it? killall pulseaudio or killall -9 pulseaudio doesn't work. Are there some process around that automatically respawns it?
+2009-11-28T20:56:00.000Z	moonlite		pulseaudio -k doesn't work either, neither does /etc/init.d/pulseaudio force-quit
+2009-11-28T20:56:00.000Z	usr13	moonlite	Use the pid
+2009-11-28T20:56:00.000Z	usr13	moonlite	ps aux |grep pulseaudio

@@ -1,0 +1,4 @@
+2009-11-08T05:55:00.000Z	Jabadahut		I did something stupid. I gotta rely less on google :( | how do I reverse the command: sudo ln -s /usr/bin/make /usr/bin/gmake
+2009-11-08T05:56:00.000Z	dajhorn	Jabadahut	Did you accidentally delete or overwrite /usr/bin/make?  -- sudo apt-get install --reinstall make
+2009-11-08T05:58:00.000Z	Jabadahut	dajhorn	I just now put that into my terminal - everything seems to be working fine
+2009-11-08T05:58:00.000Z	dajhorn	Jabadahut	 Ubuntu doesn't have `gmake`.  Systems that aren't based on the GNU toolchain usually install GNU make as gmake.

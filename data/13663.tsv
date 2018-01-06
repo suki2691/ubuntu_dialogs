@@ -1,0 +1,4 @@
+2011-06-05T10:35:00.000Z	rinkukokiri		so. someone told me to make a startup to do "compiz --replace" to fix this other problem and it didn't   How can I make it so I don't have to open compiz-fusion-icon and reload my window manager every login?  I have a problem with my second monitor windows not having titlebars
+2011-06-05T10:36:00.000Z	IdleOne	rinkukokiri	sudo nano /etc/X11/default-display-manager   you will see /usr/bin/kdm change it to /usr/bin/gdm save the file and reboot
+2011-06-05T10:36:00.000Z	rinkukokiri	IdleOne	it already says gdm
+2011-06-05T10:38:00.000Z	IdleOne	rinkukokiri	you got me now. that should just work. tmg right sometimes I forget :)

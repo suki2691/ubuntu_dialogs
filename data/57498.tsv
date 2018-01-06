@@ -1,0 +1,4 @@
+2012-02-24T12:45:00.000Z	Kartagis		hi
+2012-02-24T12:46:00.000Z	Kartagis		why doesn't 'sudo echo "nameserver x.x.x.x" > /etc/resolv.conf work as a user?
+2012-02-24T12:48:00.000Z	flintwingel	Kartagis	teh redirect > is setup by the shell before the sudo is run so it has the perms of teh user
+2012-02-24T12:50:00.000Z	flintwingel	Kartagis	sudo bash -c "echo x.x.x.x > /etc/resolv.conf"

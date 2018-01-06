@@ -1,0 +1,4 @@
+2007-05-08T06:21:00.000Z	stiv		hey everyone ... i'm trying to build my own distro based on ubuntu. i have a working apt-mirror where all packets are signed with my own gpg-key. now i'm trying to netboot using that server to install everything - only the installer won't accept my mirror, because he doesn't like the keys. i already added my key to "/usr/share/keyrings/ubunt-keyring.gpg" in the initrd of the installer, but it's still not working. does anyone know what i can do to
+2007-05-08T06:21:00.000Z	stiv		make it accept my key?
+2007-05-08T06:22:00.000Z	mooky	stiv	we don't support "build you own distro" if you are building your own distro you should know what your doing
+2007-05-08T06:24:00.000Z	mooky	stiv	this is ubuntu support though not stivbutu support

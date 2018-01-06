@@ -1,0 +1,4 @@
+2006-01-24T11:23:00.000Z	MeWhOeLsE		Hi. I'm having network setup problems. Firefox and its extensions get on the internet fine. But when I sue any other program e.g. Synaptic it gets very slow acces... and then jsut stops and all teh packages fail... One thing I've noted is that when I use apt-get update. All the IPs of teh sites its accessing are just 1.0.0.0 This is also the case if I use XChat IRC all the server IPs come up...
+2006-01-24T11:23:00.000Z	MeWhOeLsE		...as 1.0.0.0 I'm really confused now. can anyone help me at all???
+2006-01-24T11:24:00.000Z	dooglus	MeWhOeLsE	run a terminal, and run "env | grep -F 1.0.0.0" in it.  does it show anything?
+2006-01-24T11:25:00.000Z	dooglus	MeWhOeLsE	what if you run "env | grep -i proxy"?

@@ -1,0 +1,4 @@
+2007-09-18T12:58:00.000Z	av3ng3r		okay, I feel kinda silly... I just setup a new computer running a RAID5 with 3 drives, BIOS knows it's a raid and "Intel Matrix Manager" says the 3 drives are all configured as part of the raid, but when I use the installer to begin partitioning the raid it's showing me sda sdb and sdc (all at 0,0,0). Is there something I'm doing wrong?
+2007-09-18T12:59:00.000Z	Evanlec_	av3ng3r	take a look at this, in particular the first two topics https://help.ubuntu.com/community/FakeRaidHowto
+2007-09-18T13:01:00.000Z	Evanlec_	av3ng3r	i was trying to get ubuntu installed on a raid0 configuration using intel raid
+2007-09-18T13:03:00.000Z	Evanlec_	av3ng3r	lol, yep...i know what ya mean, software raid that looks like hardware raid ;p

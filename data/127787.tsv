@@ -1,0 +1,4 @@
+2007-07-21T07:38:00.000Z	Meyvn		 i have a dual-boot system, and after a crash last night, GRUB is no longer responding to the arrow down key (arrow up strangely works), i looked at /boot/menu.lst but couldn't find anything out of the ordinary
+2007-07-21T07:38:00.000Z	Meyvn		 here's the menu.lst pastebin: http://paste.ubuntu-nl.org/30688/
+2007-07-21T07:39:00.000Z	stefg	Meyvn	seems more like the mbr portion of grub got damaged. Try to install a fresh copy to MBR
+2007-07-21T07:39:00.000Z	Meyvn	stefg	thanks will try that

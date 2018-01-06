@@ -1,0 +1,4 @@
+2010-08-07T12:41:00.000Z	tuxsbro_		should I add a 32 big repo for installing 32 big dependencies (on a 64 bit install)
+2010-08-07T12:41:00.000Z	tuxsbro_		bit
+2010-08-07T12:41:00.000Z	rww	tuxsbro_	nope. Ubuntu's package manager doesn't support mixing multiple architectures like that
+2010-08-07T12:44:00.000Z	rww	tuxsbro_	perhaps you mean "dependencies" in a different way from me, but all packages in the 64-bit repository depend on other 64-bit packages. the vast, vast majority of the Ubuntu archive is built for both 64-bit and 32-bit.

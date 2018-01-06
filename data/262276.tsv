@@ -1,0 +1,4 @@
+2012-09-13T02:33:00.000Z	TML	hosoka	Most likely, the wrong UUID got written to /etc/fstab during install. Get a rescue CD, boot to it, and run "fdisk -l". That should give you a list of partitions. Mount those until you find the partition that has /etc/fstab in it, then you can update that file to change the UUID=xxxx to /dev/sda1 (or whatever partition you found /etc/fstab in)
+2012-09-13T02:36:00.000Z	TML	hosoka	Hm - well, that's what you need to do. Is there a particular part of the response that you didn't understand?
+2012-09-13T02:42:00.000Z	TML	hosoka	You boot from the CD, it should give you an option called something like "Rescue"
+2012-09-13T02:48:00.000Z	TML	hosoka	http://opensource-sidh.blogspot.com/2011/06/recover-grub-live-ubuntu-cd.html might help you

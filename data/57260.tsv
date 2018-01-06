@@ -1,0 +1,4 @@
+2009-05-15T09:14:00.000Z	ejv		greetings, I have a tmpfs filesystem that I made too small, how can I give it more space on the fly? can it be done?
+2009-05-15T09:15:00.000Z	c0mp13371331337	ejv	You'll have to unmount that disk, and the disk that you want to take space from.  It can easily be done using the standard Ubuntu LiveCD.
+2009-05-15T09:16:00.000Z	ejv	c0mp13371331337	thanks
+2009-05-15T09:23:00.000Z	ejv	c0mp13371331337	my way worked, simply edited fstab, then did mount -o remount <mountpoint>, badda bing :)

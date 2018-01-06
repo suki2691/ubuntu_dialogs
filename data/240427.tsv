@@ -1,0 +1,4 @@
+2008-01-18T11:14:00.000Z	danonura		is there any difference between install via synaptic or apt-get method?
+2008-01-18T11:15:00.000Z	nickrud	danonura	for all practical purposes, none
+2008-01-26T04:23:00.000Z	nickrud	danonura	if it didn't make it into the menu,  dpkg -L <pkgname> grep /bin    will give the executables
+2008-01-26T04:23:00.000Z	nickrud	danonura	urm  dpkg -L <pkgname>  | grep /bin

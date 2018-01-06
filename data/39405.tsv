@@ -1,0 +1,4 @@
+2011-08-16T08:48:00.000Z	jukebox-zero		So, I guess this might be a little odd. I'm compiling mplayer from source for the second time, doing it this time because I didn't like how the installation done by make install doesn't show up on either aptitude or apt-get, synaptic, etc. This time I'll be using checkinstall. My question is, I could pass something like --pkgversion="1:$(date +%Y%m%d%H%M)-git" to check install, but do I have to? And since aptitude and apt-
+2011-08-16T08:48:00.000Z	jukebox-zero		get, etc will recognize the package, do I have to worry about it being a candidate for upgrades, or in this case downgrades? Also will aptitude recognize it as satisfying dependancies?
+2011-08-16T08:49:00.000Z	ActionParsnip	jukebox-zero	you can use apt-pin to prevent it updating
+2011-08-16T08:50:00.000Z	jukebox-zero	ActionParsnip	Thanks

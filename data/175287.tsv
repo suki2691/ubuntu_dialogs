@@ -1,0 +1,4 @@
+2007-01-17T06:42:00.000Z	Daemonic		Quick question guys.. how do I start dhcp on eth0 without having to download gnone-network-manager packages and such? I used to be able to "dhcpcd eth0" in another distro but I lack that in ubuntu.. anyone?
+2007-01-17T06:42:00.000Z	TheDebugger	Daemonic	dhclient3 eth0
+2007-01-17T06:42:00.000Z	TheDebugger		iirc
+2007-01-17T06:43:00.000Z	Daemonic	TheDebugger	I tried that.. it just sits there with DHCPDISCOVER B.S. over and over.. it doesn't set the routes or anything.

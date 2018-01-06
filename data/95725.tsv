@@ -1,0 +1,4 @@
+2008-04-21T13:27:00.000Z	woodwizzle		I have to run a very complicated command to get a game to run, how can I encapsulate it into a shell script so I can run a short command instead of always copy and pasting "__GL_DOOM3=1 LD_LIBRARY_PATH="${LD_LIBRARY_PATH}:/usr/local/games/etqw" /usr/local/games/etqw/etqw-rthread.x86 -f"
+2008-04-21T13:29:00.000Z	plurt	woodwizzle	make an alias?
+2008-04-21T13:30:00.000Z	plurt	woodwizzle	add the alias to your .bashrc or .bash_aliases if you have that
+2008-04-21T13:33:00.000Z	woodwizzle	plurt	I need to put it in a bash script or something though so that I can then call that script from a launcher and add the game to my menus

@@ -1,0 +1,4 @@
+2009-03-02T18:15:00.000Z	sasalu		I have to install a bunch of 32 bit debian pakcages on a 64 bit ubuntu , is there a way I can specify the --force-architecture option at a single place , like sources.lst ?
+2009-03-02T18:16:00.000Z	xavieran	sasalu	You could alias apt-get or dpkg aptitude &c. to prog --force-arch=blah
+2009-03-02T18:16:00.000Z	xavieran	sasalu	That would be cool
+2009-03-02T18:18:00.000Z	xavieran	sasalu	Looks like apt doesn't understand --force-arch<...> but dpkg I think does.

@@ -1,0 +1,4 @@
+2008-04-19T05:53:00.000Z	TRC2908		Hi, anyone got any tips on how i might get my maxtor mini III external hard drive (usb) working on ubuntu (I've just loaded 7.04). it had worked fine on windows and ive checked i'd shut the ehd properly
+2008-04-19T05:54:00.000Z	Dr_willis	TRC2908	 try mounting it manyally from the terminal,   see if any error messages show up.
+2008-04-19T05:56:00.000Z	Dr_willis	TRC2908	 check google for 'mount drives linux'  how to mount things manually id well worth learning.
+2008-04-19T05:57:00.000Z	Dr_willis	TRC2908	 im leaving for work soon so cant walk ya throuhg it.  in short. 'sudo mount /dev/Devicename /media/DIRECTORYNAMETHATMUSTEXIST  options_here'

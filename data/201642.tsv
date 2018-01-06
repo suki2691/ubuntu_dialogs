@@ -1,0 +1,4 @@
+2010-11-14T23:43:00.000Z	JoppeLapt		Could nayone help me get my eth0 device working? I'm kinda new to linux and due to some reason my eth0 don't work. It don't automaticly detect my network as I havn't managed to get it to work with manual settings, and it say "device not managed".
+2010-11-14T23:44:00.000Z	tortoise	JoppeLapt	do you haev a static ip?
+2010-11-14T23:46:00.000Z	tortoise	JoppeLapt	Try editing /etc/NetworkManager/nm-system-settings.conf and change ifupdown to true
+2010-11-14T23:47:00.000Z	tortoise	JoppeLapt	yes

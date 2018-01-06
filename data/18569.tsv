@@ -1,0 +1,4 @@
+2011-02-02T12:11:00.000Z	SCooper		My VM is showing the haddrive I allocated it as hdb, but it doesn't seem to have liked the optical drive, even though it's loaded the iso.  How can I find out what the cd-rom is mounted as?
+2011-02-02T12:13:00.000Z	ActionParsnip	SCooper	mount    will show all mounted devices
+2011-02-02T12:14:00.000Z	SCooper	ActionParsnip	There are about a million things mounted anyway I can make that list line by line?
+2011-02-02T12:15:00.000Z	ActionParsnip	SCooper	mount | less

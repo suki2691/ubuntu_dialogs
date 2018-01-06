@@ -1,0 +1,4 @@
+2006-12-04T16:04:00.000Z	the_Grinch		what command would I use to tell apache to start when the computer boots?
+2006-12-04T16:04:00.000Z	achandra	the_Grinch	the rc.d daemon must invoke /etc/init.d/apache2 or apache
+2006-12-04T16:05:00.000Z	the_Grinch	achandra	 sysv-rc-conf apache2 on <---I tried this command, but it says it doesn't exist
+2006-12-04T16:06:00.000Z	achandra	the_Grinch	by defualt "i think" this is already done when you install it..i believe there is a link in rc.d..

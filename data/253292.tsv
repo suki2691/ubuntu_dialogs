@@ -1,0 +1,4 @@
+2005-03-28T08:14:00.000Z	no0tic		if I save a file in the desktop it doesn't appear on it, I have to open the desktop directory via nautilus, and, as it reread he directory, the file shows up on Desktop too
+2005-03-28T08:16:00.000Z	kalis	no0tic	that is a "feature" ;) it has to do with the fact that the stock hoary kernel lacks inotify support which is needed by gamin for reading the filesystem for changed files.
+2005-03-28T08:17:00.000Z	no0tic	kalis	what a cool feature! :)
+2005-03-28T08:18:00.000Z	no0tic	kalis	I noticed inotify was removed some days ago, it produced problems with hotplug, if I remember...

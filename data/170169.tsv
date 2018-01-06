@@ -1,0 +1,4 @@
+2006-08-22T13:10:00.000Z	SKossu		Im trying to patch my wireless driver but it gives this error make: *** /lib/modules/2.6.15-26-386/build: No such file or directory.  Stop. rt2500.ko failed to build! I tried installing Linux Source but same error comes. Anyone got any tips?
+2006-08-22T13:11:00.000Z	Warbo	SKossu	Is that RaLink?
+2006-08-22T13:11:00.000Z	SKossu	Warbo	yes
+2006-08-22T14:16:00.000Z	Warbo	SKossu	start with "make oldconfig" to set it up like your current setup, then use "make xconfig" or "make menuconfig" to tweak the settings

@@ -1,0 +1,4 @@
+2006-03-17T16:57:00.000Z	quickblaine69		hi... i have a laptop with ubuntu on, it wont recognise my 2 button Ps/2 no scroll mouse. howdo i make it recognise it?
+2006-03-17T16:57:00.000Z	Frogzoo	quickblaine69	did you run 'sudo dpkg-reconfigure xserver-xorg'   ?
+2006-03-17T16:58:00.000Z	Frogzoo	quickblaine69	yeh, just in the terminal - it will rewrite your xorg - & will set your mouse settings also
+2006-03-17T16:59:00.000Z	Frogzoo	quickblaine69	/etc/X11/xorg.conf - it's the settings for your X server

@@ -1,0 +1,4 @@
+2010-04-04T21:21:00.000Z	GhostFreeman		How do I add a public key to SSH's authorized-keys file?
+2010-04-04T21:22:00.000Z	llutz	GhostFreeman	ssh-copy-id user@host
+2010-04-04T21:22:00.000Z	GhostFreeman	llutz	What if i'm connected using a Windows SSH client?
+2010-04-04T21:22:00.000Z	llutz	GhostFreeman	scp it to the host, add it with "cat yourkey >>~/.ssh/authorized_keys

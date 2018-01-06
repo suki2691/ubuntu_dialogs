@@ -1,0 +1,4 @@
+2010-09-24T07:19:00.000Z	MattTheComputerG		Is it easy to install Ubuntu server over gentoo, my gento installation has teo drives "Drive 0 is the O.S." "drive 2 is the home Dir"
+2010-09-24T07:20:00.000Z	slooksterpsv	MattTheComputerG	- be sure to backup drive 2 or not delete it when reformatting, I'm not sure if you can install Ubuntu server over gentoo without it reformatting the partition, but drive 2 sounds like it's your home directory which is its own drive which you shouldn't delete/format that partition/drive
+2010-09-24T07:23:00.000Z	slooksterpsv	MattTheComputerG	- then backup what data you need to either cds,dvds,another drive, etc. as well as configuration files (e.g. apache2 virtual host files) and then reformat, you will have to setup the services and that again though on Ubuntu Server as it will need to reinstall the programs
+2010-09-24T07:56:00.000Z	slooksterpsv	MattTheComputerG	- 32-bit, it would say x86_64 or that if it were 64-bit

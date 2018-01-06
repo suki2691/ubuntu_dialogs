@@ -1,0 +1,4 @@
+2006-09-16T13:07:00.000Z	pilsun		installing ubuntu on a system with no CD/Disk drive, I switched the harddrive out into a system with CD drive, installed, worked fine, but when replacing the HD to its orig system X won't start
+2006-09-16T13:08:00.000Z	pilsun		the vid card is different, is there a way to get ubuntu to auto-detect the new card?
+2006-09-16T13:09:00.000Z	Flannel	pilsun	probably because your X configuration is set up for the old one.  dpkg-reconfigure xserver-xorg   You can also install over the network,etc directly on that computer
+2006-09-16T13:09:00.000Z	pilsun	Flannel	thanks

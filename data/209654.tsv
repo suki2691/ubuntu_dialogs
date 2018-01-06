@@ -1,0 +1,4 @@
+2006-11-11T15:19:00.000Z	James		I'm completely lost trying to get my monitor/ubuntu to display 1600x1200.  It's listed in xorg.conf but not in the drop down under Screen Resolutions.  Anyone have an idea of what I can try?
+2006-11-11T15:19:00.000Z	LjL	James	try setting the correct sync ranges for your monitor in xorg.conf
+2006-11-11T15:21:00.000Z	James	LjL	I ran sudo dpkg-reconfigure -phigh xserver-xorg and it reset everything to "generic"...is that going to cause a problem?
+2006-11-11T15:22:00.000Z	LjL	James	nope, those are just names, the system doesn't care about them. the important thing is that you select the correct settings for driver, resolution and sync ranges

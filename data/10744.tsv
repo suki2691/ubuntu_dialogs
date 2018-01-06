@@ -1,0 +1,4 @@
+2012-02-25T01:19:00.000Z	astro5		my laptop was running at 90-95 degrees Celsius. I installed battery-status applet and set it to "normal" instead of "performance" and it drops down to 75 degrees Celsius, which is great. However, every time i reboot it defaults to "performance"...anyone know a way to set it to "normal" by default?
+2012-02-25T01:20:00.000Z	escott	astro5	you can add to rc.local a command to echo "something" /sys/something/something/cpu-freq/governor
+2012-02-25T01:29:00.000Z	escott	astro5	nothing ever seems to be in the same place anymore but see if any of this matches http://www.pantz.org/software/cpufreq/usingcpufreqonlinux.html
+2012-02-25T01:29:00.000Z	astro5	escott	ok, thanks

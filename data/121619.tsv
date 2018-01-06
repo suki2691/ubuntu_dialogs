@@ -1,0 +1,4 @@
+2007-12-15T05:40:00.000Z	alevine		i'm trying to rsync a bunch of backup sets that are mostly hard links to the same file. problem is rsync gets oom errors and dies when building the file list. anybody have a suggestion?
+2007-12-15T05:41:00.000Z	vocx	alevine	how big are the files you want to backup?
+2007-12-15T05:41:00.000Z	alevine	vocx	relatively small, it's my home directory
+2007-12-15T05:41:00.000Z	alevine	vocx	but all the backup sets combined are about70GB

@@ -1,0 +1,4 @@
+2005-07-12T09:15:00.000Z	dave123		hi there i have a basic question regarding modules, how come when i do lsmod i see so many modules loaded, but when i do "cat /etc/modules" it shows only like 3 modules?
+2005-07-12T09:16:00.000Z	ketiko	dave123	Some of the modules are loaded as dependencies of those modules
+2005-07-12T09:16:00.000Z	ketiko	dave123	and some are loaded by hotplug
+2005-07-12T09:16:00.000Z	ketiko	dave123	for instance, if it detects a USB device

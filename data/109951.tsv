@@ -1,0 +1,4 @@
+2011-01-20T00:38:00.000Z	neiln		HI
+2011-01-20T00:39:00.000Z	neiln		i used this command to enable the right click in my mini and now I want to undo this command "echo options psmouse proto=exps > /etc/modprobe.d/psmouse.modprobe"
+2011-01-20T00:39:00.000Z	neiln		can anyone plz help me
+2011-01-20T00:41:00.000Z	soreau	neiln	When you ran that command, it put the text into the file. Removing the file should undo it /etc/modprobe.d/psmouse.modprobe

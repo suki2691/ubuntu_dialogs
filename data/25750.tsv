@@ -1,0 +1,4 @@
+2010-09-25T01:41:00.000Z	Medusa		Hi all. I'm running 10.04 with two disks in Raid-1 with mdadm. Works great. I've just added a new raid-5 with 3 disks. In /etc/mdadm/mdadm.conf only the raid-1 is stated. I guess both should be there to automatically bring both raids up after rebooting? Any pointers would be great. Thanks!!!
+2010-09-25T01:42:00.000Z	andycc	Medusa	I guess both have to be there. I only used mdadm briefly and I actually hate it, so can't really help you with that.
+2010-09-25T01:44:00.000Z	andycc	Medusa	I've used dmraid to manage a RAID0.
+2010-09-25T01:44:00.000Z	Medusa	andycc	thanks.

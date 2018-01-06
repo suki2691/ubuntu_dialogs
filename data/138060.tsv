@@ -1,0 +1,4 @@
+2009-05-29T05:02:00.000Z	dgh1973	usser	from a quote from him... " I have a media folder (pictures, music, etc..) that I want to share between two users, so I created a group added them both to the group. Then when either users adds files to the folder they are both the owner and the group I'd like to automate it so that when files/folders are added the joint group is used by default not the users group..."
+2009-05-29T05:03:00.000Z	usser	dgh1973	yea whoever suggested gsuid, thats the way
+2009-05-29T05:03:00.000Z	usser	dgh1973	i'd also change umask on the directory so group has writeable
+2009-05-29T05:03:00.000Z	dgh1973	usser	yeah he had that himself, just wasn't sure how to implement I think

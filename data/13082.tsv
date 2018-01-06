@@ -1,0 +1,4 @@
+2012-03-22T03:47:00.000Z	quiescens		zram is an in-memory compressed block device thingy
+2012-03-22T03:48:00.000Z	haz3lnut	quiescens	yes it is, I'm trying to figure out where it came from and why it;s installed.
+2012-03-22T04:10:00.000Z	haz3lnut	quiescens	it's in /etc/blkid.tab
+2012-03-22T04:14:00.000Z	quiescens	haz3lnut	if it really is because of your backports thing then it is likely in /etc/init/zram-config.conf but if it isn't, then i don't know where you got it

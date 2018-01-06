@@ -1,0 +1,4 @@
+2011-07-20T06:14:00.000Z	SumoJim		Ok, I think I'm retarded here... from /var I tried "cd www" and got the message "bash: cd: www: Permission denied" so, I tried "sudo !!" and got the message "sudo: cd: command not found" ... I know I missing something obvious here. Any hints?
+2011-07-20T06:15:00.000Z	SumoJim		Which sudo returns "/usr/bin/sudo"
+2011-07-20T06:16:00.000Z	Northernen	SumoJim	can't use cd with sudo.
+2011-07-20T06:17:00.000Z	Northernen	SumoJim	need execute permissions to browse a directory.

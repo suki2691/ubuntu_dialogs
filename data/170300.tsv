@@ -1,0 +1,4 @@
+2006-12-30T10:37:00.000Z	fm		hi
+2006-12-30T10:39:00.000Z	fm		I've just bought an extern usb hard disk, I formatted it to reiserfs, I put in fstab "/dev/sda1  /media/externe reiserfs defaults",  it gets mounted, but I cannot write to it. Help!
+2006-12-30T10:40:00.000Z	lupine_85	fm	add uid=1000 to the options line in fstab
+2006-12-30T10:41:00.000Z	fm	lupine_85	uid=1000 --> mount: wrong fs type, bad option, bad superblock on /dev/sda1,

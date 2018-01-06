@@ -1,0 +1,4 @@
+2010-02-28T00:58:00.000Z	kla	dandaman	Seanehawk : that's probably a broken grub.cfg file, if you can pastebin the contents of that file..
+2010-02-28T01:00:00.000Z	dandaman	kla	how do you load it without the grub menu?
+2010-02-28T01:15:00.000Z	kla	dandaman	when you type ls you get a bunch of partitions, use 'set root=(hdX,Y)' then 'linux /boot/<kernel file you have>' then 'initrd /boot/<corresponding initrd.img file>' then 'boot'
+2010-02-28T01:16:00.000Z	dandaman	kla	but the problem is i cant find which one is my ext3 filesystem

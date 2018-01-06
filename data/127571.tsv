@@ -1,0 +1,4 @@
+2008-01-20T12:22:00.000Z	dirkg3nt1y		hey guys, I just copied some files off my vfat drive so they lost their timestamps, anyway I can restamp these with a date I already know?
+2008-01-20T12:23:00.000Z	Creed	dirkg3nt1y	use the touch command.
+2008-01-20T12:24:00.000Z	Creed	dirkg3nt1y	I think it can be used to stamp any date you pick, I'll have to read the man page to confirm though.
+2008-01-20T12:24:00.000Z	Creed	dirkg3nt1y	yep, as lordprofit said, touch -t. the man page has the format to use.

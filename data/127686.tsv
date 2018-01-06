@@ -1,0 +1,4 @@
+2007-11-20T07:48:00.000Z	MTecknology		what am I doing wrong here? root@eaglei:/sys/class/backlight# ln -s sony acpi_video0                        ln: creating symbolic link `acpi_video0/sony' to `sony': Operation not permitted
+2007-11-20T07:50:00.000Z	MilitantPotato	MTecknology	try sudo infront
+2007-11-20T07:51:00.000Z	MilitantPotato	MTecknology	you sure those paths are correct?
+2007-11-20T07:51:00.000Z	MTecknology	MilitantPotato	I can't even do sudo mkdir sony

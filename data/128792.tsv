@@ -1,0 +1,4 @@
+2008-11-22T21:11:00.000Z	netyire	yabuk	mencoder -oac mp3lame -ovc lavc -lavcopts vcodec=h263:bitrate=400 -vf scale=320:240 <in> -o <out>.3gp
+2008-11-22T21:11:00.000Z	netyire	yabuk	or ffmpeg -i <in> <new>.3gp
+2008-11-22T21:12:00.000Z	yabuk	netyire	thanks
+2008-11-22T21:12:00.000Z	netyire	yabuk	fenerli7's right, use pytube! :-)

@@ -1,0 +1,4 @@
+2010-04-28T00:17:00.000Z	Italian_Plumber		I have a number of directories contiaining zips. http://pastebin.com/TEU8iPBp ... From the parent, I want to unzip all of them.  "unzip \*/\*.zip" doesn't work.  Any ideas?
+2010-04-28T00:17:00.000Z	Italian_Plumber		I'm sorry I posted that twice.
+2010-04-28T00:18:00.000Z	ohir	Italian_Plumber	man find
+2010-04-28T00:19:00.000Z	ohir	Italian_Plumber	find /parentdir -type f -name "*.zip" -exec unzip {} \;

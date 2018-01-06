@@ -1,0 +1,4 @@
+2006-11-27T12:07:00.000Z	dcordes		i would look it up in the wiki but i can't see the link since i have no command line browser i can't do this
+2006-11-27T12:08:00.000Z	dcordes		gedit
+2006-11-27T12:09:00.000Z	dcordes		how can i run the upgrade-manager without xserver?
+2006-11-27T12:10:00.000Z	PMantis	dcordes	ecit /etc/apt/sources.list (change all to "edgy"), then run apt-get update; apt-get dist-upgrade

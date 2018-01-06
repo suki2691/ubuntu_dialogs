@@ -1,0 +1,4 @@
+2008-04-23T11:02:00.000Z	Samus_Aran		anyone know why /etc/init.d/pulseaudio does nothing at all ?  it just returns me to the command line, no errors
+2008-04-23T11:02:00.000Z	Samus_Aran		I mean, stop, start, restart
+2008-04-23T11:02:00.000Z	h00k	Samus_Aran	because you are actually starting, stopping, and restarting the service
+2008-04-23T11:36:00.000Z	Samus_Aran	h00k	it does not say "starting blah" like with all the other services, and it does not start anything

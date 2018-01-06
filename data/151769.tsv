@@ -1,0 +1,4 @@
+2007-11-25T16:24:00.000Z	whabo		help here is teh thing . how can i get 2 linux distributions working together on 2 diffrent patitions ...i installed PClos and ubuntu .. but the grub only showed PClos .. i had to rewrite the grub MBR installation for ubuntu to be able to boot it... is there a way i can show both distros on grub when i boot my pc? THX
+2007-11-25T16:25:00.000Z	damaltor	whabo	edit /etc/grub/menu.conf
+2007-11-25T16:25:00.000Z	damaltor	whabo	np
+2007-11-25T16:33:00.000Z	damaltor	whabo	edit /etc/grub/menu.lst

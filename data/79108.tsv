@@ -1,0 +1,4 @@
+2009-02-06T03:17:00.000Z	Raylz		how many logical volumes can i create on an extended partition?
+2009-02-06T03:17:00.000Z	Raylz		S-ATA
+2009-02-06T03:19:00.000Z	IntuitiveNipple	Raylz	Usually each extended partition has 4 entries. The Linux kernel code can cope with extended partitions to a depth of 2 (in other words: sector-0 -> extended -> extended ->logicals)
+2009-02-06T03:19:00.000Z	Raylz	IntuitiveNipple	ah ok ty

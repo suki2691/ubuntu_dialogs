@@ -1,0 +1,4 @@
+2007-05-17T11:10:00.000Z	gubluntu		can i pass variables in an alias?     i.e.   alias acs='apt-cache search $1'                     where  "acs gnome"   will work?
+2007-05-17T11:12:00.000Z	seraphim	gubluntu	just do alias acs='sudo apt-cache search'
+2007-05-17T11:12:00.000Z	gubluntu	seraphim	not a good example.. i want to pass something in the command
+2007-05-17T11:13:00.000Z	seraphim	gubluntu	that's not an alias anymore ;) try writing a small bash-script

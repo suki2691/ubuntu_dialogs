@@ -1,0 +1,4 @@
+2006-08-13T12:14:00.000Z	M06w		could someone explain how i uninstall samba if it screwed up when it installed
+2006-08-13T12:15:00.000Z	TheGateKeeper	M06w	use the same apt-get command substituting install for remove
+2006-08-13T12:19:00.000Z	TheGateKeeper	M06w	use either adept (or synaptic) to remove it open a terminal and type: apt-get remove --purge samba
+2006-08-13T12:21:00.000Z	TheGateKeeper	M06w	you can't use apt-get in the cli and have adept or synaptic open at the same time

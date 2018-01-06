@@ -1,0 +1,4 @@
+2009-10-03T23:54:00.000Z	HazeFaze		hi, if I copy some files via a cp -rvp /myFiles* /destination, how can I see the Mbit/s of this copy command? is there a tool I can pipe the command through?
+2009-10-03T23:55:00.000Z	erUSUL	HazeFaze	pv can measure the data through a pipe. but you will have to use a more convoluted command
+2009-10-03T23:56:00.000Z	HazeFaze	erUSUL	thank you I look through the man page, thx mlissner and jrib too
+2009-10-03T23:56:00.000Z	erUSUL	HazeFaze	something like tar cpf - /myFiles* | pv | tar xf - -C /destination

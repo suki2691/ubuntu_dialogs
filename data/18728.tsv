@@ -1,0 +1,4 @@
+2012-02-24T17:56:00.000Z	cga		hi all, ubuntu oneiric up to date. alsa installed, audio working (realtek alc262) but I neither can control it with the volume widget nor see it listed in sound (system settings) hardware
+2012-02-24T17:57:00.000Z	cga		any idea? already did the "trick" to add options snd-hda-intel model=ALC262 to /etc/modprobe.d/alsa-base.conf
+2012-02-24T17:59:00.000Z	MonkeyDust	cga	 open a terminal and type alsamixer
+2012-02-24T18:00:00.000Z	cga	MonkeyDust	then what? I want to use the volume in the bar.

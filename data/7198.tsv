@@ -1,0 +1,4 @@
+2012-02-15T02:36:00.000Z	mkjackson_mobile		anyone see what's wrong with this command: "service --status-all | grep network-manager" ? (yes, I know I should be using pastebin but it's just a syntax question
+2012-02-15T02:37:00.000Z	theadmin	mkjackson_mobile	Seems correct to me
+2012-02-15T02:37:00.000Z	mkjackson_mobile	theadmin	strangely enough, it returns all the lines as if I didn't grep at all
+2012-02-15T02:38:00.000Z	theadmin	mkjackson_mobile	Hm. Maybe "service --status-all" doesn't print to stdout? Try something like... this: service --status-all 2>&1 | grep network-manager

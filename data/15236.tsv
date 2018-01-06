@@ -1,0 +1,4 @@
+2011-09-16T19:53:00.000Z	antiphysicist		s there a simple solution to make a seperate partition for home directory which is accessible in windows? I was about to try using a fat32 but apparently links not supported leads to serious problems?
+2011-09-16T19:54:00.000Z	escott	antiphysicist	you don't want your /home on ntfs. the permission models are different
+2011-09-16T19:55:00.000Z	antiphysicist	graingert	how would I disable journaling and what are the drawbacks? dr_willis so you're suggesting to use ntfs for my home partition and then windows will be able to access it?
+2011-09-16T19:55:00.000Z	escott	antiphysicist	and you dont want it on fat32 because there are no permissions. you want to mount an NTFS partition to a folder ~/windows and put files you need in both there

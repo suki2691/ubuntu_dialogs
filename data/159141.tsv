@@ -1,0 +1,4 @@
+2006-11-15T13:02:00.000Z	Zambezi		Anybody know how to build a debfile from source?
+2006-11-15T13:03:00.000Z	seraphim_	Zambezi	you can do it easyly with checkinstall. but that won't take care about dependecies
+2006-11-15T13:03:00.000Z	Zambezi	seraphim_	I know the dependecies.
+2006-11-15T13:04:00.000Z	seraphim_	Zambezi	with checkinstall you have to have all dependencies, ./configure and make and then use checkinstall instead of make install

@@ -1,0 +1,4 @@
+2010-03-18T01:08:00.000Z	teage		i am trying to install a game called egoboo 2.7.4 and the instructions tell me to run this command ( make -f Makefile.unix) yet it does not work. I have noticed the makefile and its called (makefile) without the .unix . Do you think that maybe the instructions are wrong?
+2010-03-18T01:09:00.000Z	meganerd	teage	possibly.  You will need to install the package "build-essential".  Of course, the error you get might be useful, use pastebin.
+2010-03-18T01:20:00.000Z	meganerd	teage	there may be a config file with screen resolution set in it somewhere.
+2010-03-18T01:23:00.000Z	meganerd	teage	if it happens after you launch the game, chances are there is something the game is doing.  Of course it is still possible that your nvidia driver is the issue

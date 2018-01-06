@@ -1,0 +1,4 @@
+2009-09-25T20:35:00.000Z	kyja		ok I will let in on the joke. I am trying to do free |awk '/^-/ { print $3 }'    and it works but I want to add right after than number "BASIC BYTES FREE."
+2009-09-25T20:35:00.000Z	kyja		free |awk '/^-/ { print $3 }' && echo BASIC BYTES FREE.    does not seem to work
+2009-09-25T20:35:00.000Z	llutz	kyja	echo $(free |awk '/^-/ { print $3 }') BYtes free
+2009-09-25T20:29:00.000Z	llutz	kyja	free |awk '/^-/ { print $3 }'

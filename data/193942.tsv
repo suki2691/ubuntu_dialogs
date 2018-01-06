@@ -1,0 +1,4 @@
+2006-03-22T16:11:00.000Z	dan__		i got my windows partition mounted
+2006-03-22T16:11:00.000Z	dan__		but only root can access it
+2006-03-22T16:12:00.000Z	kingspawn	dan__	you could mount it umask=0222
+2006-03-22T16:13:00.000Z	kingspawn	dan__	with -o in front of umask that looks good

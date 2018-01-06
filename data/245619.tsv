@@ -1,0 +1,4 @@
+2008-12-19T23:52:00.000Z	_patko_		Hello, I'm trying to repair ubuntu, on tty (no graphic server), ifconfig and iwconfig detects my network cards, and I see the ip of my router, but no internet
+2008-12-19T23:52:00.000Z	_patko_		I don't know what to do to retrieve internet
+2008-12-19T23:53:00.000Z	cwillu	_patko_	use dhclient <device name>
+2008-12-19T23:55:00.000Z	cwillu	_patko_	if there were no errors, then you should now be connected

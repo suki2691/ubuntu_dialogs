@@ -1,0 +1,4 @@
+2009-01-31T13:05:00.000Z	baz		I am being given the following instruction "make sure that the following directories (and the files within) are writable for the webserver"... How can I determine this (thru command-line)?
+2009-01-31T13:06:00.000Z	DigitalKiwi	baz	ls -ahl lists permissions
+2009-01-31T13:07:00.000Z	DigitalKiwi		don't forget --color=auto -F
+2009-01-31T13:07:00.000Z	baz	DigitalKiwi	so now how can I know what *user* the webservers uses

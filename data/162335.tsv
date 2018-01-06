@@ -1,0 +1,4 @@
+2007-08-19T06:19:00.000Z	ben_		aMSN is started and running (I've set it o every time I log on), but the icon hasn't appeared in the system tray. How can I either a) reload the system tray to try and get it to appear, or b) find the process to terminate and restart it?
+2007-08-19T06:20:00.000Z	ben_		amsn: no process killed
+2007-08-19T06:22:00.000Z	ben_		once I've found amsn's process, or do I not need to with xkill?
+2007-08-19T06:23:00.000Z	rausb0	ben_	if you know the process id of amsn, you can also kill it on the console with: kill PID

@@ -1,0 +1,4 @@
+2006-01-25T07:03:00.000Z	boodle		anyone getting xorg-server to work in dapper right now (font problems it looks like)
+2006-01-25T07:04:00.000Z	crimsun	boodle	check the /usr/X11R6/bin/X and /usr/bin/X11/X symlinks
+2006-01-25T07:04:00.000Z	boodle	crimsun	tyvm!
+2006-01-25T07:04:00.000Z	crimsun	boodle	they need to be valid, i.e., point to /usr/bin/Xorg

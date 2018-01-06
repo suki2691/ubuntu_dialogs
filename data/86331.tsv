@@ -1,0 +1,4 @@
+2008-07-05T06:32:00.000Z	unop	WhyACow	this needs to be done offline tho - from within a live CD session or similar. mount your partitions (the old / and the new /) and run this command.   rsync -av /path/to/old /path/to/new
+2008-07-05T06:33:00.000Z	unop	WhyACow	then what you'll need  to do is edit your /etc/fstab file and change the partition for /
+2008-07-05T06:34:00.000Z	unop	WhyACow	/etc/fstab would be something like /path/to/old/etc/fstab (from within your live CD session)
+2008-07-05T08:32:00.000Z	WhyACow	unop	how do i get into a liveCD session?

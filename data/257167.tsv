@@ -1,0 +1,4 @@
+2007-04-12T11:10:00.000Z	somafm		does anyone know how to hide mounted folder icons from showing on the desktop?
+2007-04-12T11:12:00.000Z	farruinn	somafm	open gconf-editor, go to /apps/nautilus/desktop/and deselect volumes_visible
+2007-04-12T11:13:00.000Z	farruinn	somafm	gconf-editor may not be in the applications menu, you may have to open it with ctrl+f2
+2007-04-12T11:13:00.000Z	farruinn	somafm	The option might also be configurable from within Nautilus preferences

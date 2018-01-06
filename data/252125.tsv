@@ -1,0 +1,4 @@
+2006-08-14T12:24:00.000Z	Geoffrey2		is there any easy way to get rid of all the associated files from earlier kernel versions....the ubuntu team has updated it several times, and it seems a waste of hard drive space to keep all the older and no longer used files....
+2006-08-14T12:24:00.000Z	eyequeue	Geoffrey2	dpkg --purge packagenamehere
+2006-08-14T13:03:00.000Z	eyequeue	Geoffrey2	"dmesg" perhaps?
+2006-08-14T13:04:00.000Z	eyequeue	Geoffrey2	/var/log/* might also be what you had in mind

@@ -1,0 +1,4 @@
+2006-03-17T13:16:00.000Z	gnu2it2		where is gdm or xdm started from on boot? i need to stop it till i get my video figgured out
+2006-03-17T13:16:00.000Z	gnu2it2		thanks
+2006-03-17T13:17:00.000Z	tritium	gnu2it2	all the initscripts are in /etc/init.d, and symlinked in the /etc/rc*.d directories
+2006-03-17T13:17:00.000Z	tritium	gnu2it2	use update-rc.d

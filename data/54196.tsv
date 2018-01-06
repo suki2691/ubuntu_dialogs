@@ -1,0 +1,4 @@
+2010-04-02T16:49:00.000Z	gregg		really complicated question here: I have a desktop computer I use as a media server - holds all my mp3's and whatnot - I do all my "work" on my laptop, access files from the server via samba. Problem is, if i want to move a file on the server from dirA to dirB it goes through the laptop, meaning it takes FOREVER - any other ways to connect to my server where i could manipulate files directly?
+2010-04-02T16:49:00.000Z	Draglor	gregg	sftp
+2010-04-02T16:51:00.000Z	Draglor	gregg	or sshfs maybe even more usefull ... another way, but atm more insecure would be nfs
+2010-04-02T16:52:00.000Z	Draglor	gregg	just type "sudo /etc/init.d/ssh start" on the server to start ssh and connect by typing "ssh user@server:/path/to/whatever" .. no config needed

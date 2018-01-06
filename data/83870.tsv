@@ -1,0 +1,4 @@
+2009-05-11T10:41:00.000Z	jumbers		Why would Apache serve PHP files fine to one of my domains and then serve me a PHP file as plain text to the other domain?
+2009-05-11T10:41:00.000Z	lstarnes	jumbers	the broken domain might not be configured properly
+2009-05-11T10:42:00.000Z	jumbers	lstarnes	It's using the same config file as the working one. Only differences are the server root, server name, and the server aliases
+2009-07-23T17:08:00.000Z	jumbers	lstarnes	In most cases he doesn't even need to do that. Apache starts up with /etc/init.d scripts

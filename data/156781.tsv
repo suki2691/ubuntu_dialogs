@@ -1,0 +1,4 @@
+2006-11-28T09:05:00.000Z	eltese		Hi. Im thinking about installing and running Ubuntu on my computer with the purpose of getting rid of my windows partition. But in my previous installs Ive encountered some probs when actually running and trying to get optimized drivers for my graphics card as well getting my NTFS partition to work properly when in linux. I cant reach the files. So I wonder if anyone knows why it is so?
+2006-11-28T09:07:00.000Z	soundray	eltese	NTFS is a closed filesystem. It is fairly difficult to develop free drivers for it. However, with recent versions of fuse, even NTFS read&write works reasonably well.
+2006-11-28T09:07:00.000Z	eltese	soundray	okay. And what is fuse? :)
+2006-11-28T09:08:00.000Z	soundray	eltese	regarding video drivers, the big names NVidia and ATI are kind of half-heartedly supporting free OSs.

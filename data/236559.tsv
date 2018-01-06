@@ -1,0 +1,4 @@
+2005-11-29T15:15:00.000Z	anton_		hmm I did that and it still doesnt work for some reason
+2005-11-29T15:16:00.000Z	anton_		W: GPG error: ftp://cipherfunk.org breezy Release: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 4CF19C3233BAC1B3
+2005-11-29T15:16:00.000Z	anton_		still get that error
+2005-11-29T15:17:00.000Z	nalioth	anton_	wget ftp://cipherfunk.org/pub/packages/release.keys  && sudo apt-key add release.keys

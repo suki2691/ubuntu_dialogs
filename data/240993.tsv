@@ -1,0 +1,4 @@
+2005-05-29T11:46:00.000Z	retiarius		using Multimedia Systems Selector the only sink that will "test" is custom with sdlvideosink
+2005-05-29T11:48:00.000Z	retiarius		for default source only "custom" will test that has the pipeline v4lmjpegsrc and it generates the error failed to construct test pipeline
+2005-05-29T11:49:00.000Z	retiarius		xine says i have no /dev/dvd
+2005-05-29T11:50:00.000Z	hondje	retiarius	sudo mkdir /dev/dvd, ln -s /dev/hd? /dev/dvd perhaps

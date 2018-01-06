@@ -1,0 +1,4 @@
+2010-02-13T08:00:00.000Z	drumhed		anyone know how to stop gdm from starting?  i've tried update-rc.d -f gdm remove, but it still launches
+2010-02-13T08:00:00.000Z	drumhed		lol i guess that would work
+2010-02-13T08:01:00.000Z	ZykoticK9	drumhed	"sudo mv /etc/init/gdm.conf  /etc/init/gdm.conf-disabled" will work
+2010-02-13T08:02:00.000Z	ZykoticK9	drumhed	you are on karmic aren't you?

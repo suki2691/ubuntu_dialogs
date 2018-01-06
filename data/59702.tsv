@@ -1,0 +1,4 @@
+2011-01-05T09:37:00.000Z	schambers		how can i re-run 10.10 server setup to get back into network setup. iwconfig isn't installed and i need it to connect to a wireless network
+2011-01-05T09:38:00.000Z	ActionParsnip	schambers	is wicd available on the server cd?
+2011-01-05T09:39:00.000Z	schambers	ActionParsnip	hmm. not sure. is that the server config app?
+2011-01-05T09:43:00.000Z	ActionParsnip	schambers	you can use iwconfig to configure wifi at cli, wicd has wicd-curses which will give an ncurses gui to wicd

@@ -1,0 +1,4 @@
+2009-05-27T10:37:00.000Z	mib_6r91rk3o		my root ext3 file system is mounting read-only on boot and screwing up the boot. Any suggestios?
+2009-05-27T10:38:00.000Z	mib_6r91rk3o		I ran fsck -pv and it checked out fine (exit code 0)
+2009-05-27T10:39:00.000Z	bc	mib_6r91rk3o	no abnormalities in dmesg?
+2009-05-27T10:38:00.000Z	bc	mib_6r91rk3o	investigate fsck

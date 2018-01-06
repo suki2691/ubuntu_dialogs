@@ -1,0 +1,4 @@
+2010-11-01T05:36:00.000Z	vdubhack		whats the proper way to set extra kernel args in grub for 10.10? there is no menu.lst on grub2
+2010-11-01T05:36:00.000Z	ActionParsnip	vdubhack	add them in /etc/default/grub  in the quotes next to: quiet splash   save the new file and run: sudo update-grub
+2010-11-01T05:37:00.000Z	ActionParsnip		!visudo | ray2
+2010-11-01T05:37:00.000Z	vdubhack	ActionParsnip	Thanks :)

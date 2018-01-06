@@ -1,0 +1,4 @@
+2006-03-24T16:12:00.000Z	fiveiron		why would I not be able to change the ownership of a file mounted on a fat32 volume?
+2006-03-24T16:12:00.000Z	frank__	fiveiron	because fat32 has no concept of ownership
+2006-03-24T16:12:00.000Z	frank__	fiveiron	the filesystem doesn't support it
+2006-03-24T16:13:00.000Z	fiveiron	frank__	would there be a way to trick it into using a user other than root as the owner/group?

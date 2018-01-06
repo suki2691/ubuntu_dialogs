@@ -1,0 +1,4 @@
+2009-08-24T23:05:00.000Z	raylu	carrie_555	you could mess with your sudoers, but at this point i think you should reconsider your solution
+2009-08-24T23:07:00.000Z	carrie_555	raylu	there is no way to write a command like this: sudo program -pass=open_the_door        ?
+2009-08-24T23:08:00.000Z	raylu	carrie_555	yes, but it's a very very bad idea, obviously. if you want to do that, i'd suggest editing /etc/sudoers instead
+2009-08-24T23:08:00.000Z	carrie_555	raylu	ok, I'll try to figure what are those 'sudoers'

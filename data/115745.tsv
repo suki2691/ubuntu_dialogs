@@ -1,0 +1,4 @@
+2010-07-30T01:31:00.000Z	opij		could anyone tell me how to ssh into serverA on port 30 ?
+2010-07-30T01:32:00.000Z	profxavier	opij	on serverA, you configure sshd_config to use that port, rather than the standard [but I have to ask, why port 30?]
+2010-07-30T01:32:00.000Z	profxavier	opij	sshd_config is in /etc/ssh/sshd_config
+2010-07-30T01:35:00.000Z	profxavier	opij	I think tucemiux more accurately answered your question, I hope we helped

@@ -1,0 +1,4 @@
+2010-05-21T20:58:00.000Z	pacific-blue		php -r 'echo "HOME: " . $_ENV["HOME"] . "\n";' gives a result of: PHP Notice:  Undefined index: HOME in Command line code on line
+2010-05-21T20:58:00.000Z	pacific-blue		php -r 'echo "HOME: " . $_ENV["HOME"] . "\n";' gives a result of: "PHP Notice:  Undefined index: HOME in Command line code on line". Any idea why?
+2010-05-21T20:59:00.000Z	yanick_	pacific-blue	var_dump($_ENV) and see what's set
+2010-05-21T21:00:00.000Z	pacific-blue	yanick_	wildbat: Ok, I'll try both.

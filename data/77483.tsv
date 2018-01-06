@@ -1,0 +1,4 @@
+2009-02-18T02:33:00.000Z	pluma		I want to change my user account's locale (LC_*=en_GB, but LC_CTYPE and some others to de_DE). How do I do that in Intrepid (what files do I have to edit)? Exporting the envs in .bashrc doesn't seem to do anything for GNOME.
+2009-02-18T02:35:00.000Z	_dbd_l12	pluma	maybe dpkg-reconfigure localeconf
+2009-02-18T02:37:00.000Z	pluma	_dbd_l12	That doesn't seem to do ANYTHING. I need something that lets me set the envs individually.
+2009-02-18T02:37:00.000Z	_dbd_l12	pluma	sorry, no experience as how to do exactly that...

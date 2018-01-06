@@ -1,0 +1,4 @@
+2011-04-01T17:34:00.000Z	mih1406		I have a file with a big list and I want to separate it into more than one file
+2011-04-01T17:34:00.000Z	mih1406		is it possible with grep?
+2011-04-01T17:35:00.000Z	mih1406		separate it in any possible way because it is more than 25 MB and want it to be 5 MB each
+2011-04-01T17:37:00.000Z	amgarchIn9	mih1406	man split; split -l NLINES input

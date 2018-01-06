@@ -1,0 +1,4 @@
+2011-01-19T14:50:00.000Z	neonised		Can anyone help me with a problem? apt-get upgrade won't run, says I need to run dpkg --configure -a. When I do that dpkg reports 'Setting up udev (151-12.2) and hangs... any ideas?
+2011-01-19T14:52:00.000Z	q_a_z_steve	neonised	define hangs?
+2011-01-19T14:52:00.000Z	neonised	q_a_z_steve	sits there for 12 hours appearing to do nothing. Nothing in logs. When killed and restarted, smae thing...
+2011-01-19T14:53:00.000Z	q_a_z_steve	neonised	man dpkg | grep broken

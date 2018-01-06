@@ -1,0 +1,4 @@
+2008-01-10T23:18:00.000Z	enterneo_		> I am unable to ping 192.168.1.1 <gateway> , because the request is getting directed via eth1 which is unwired , I wish to connect to internet via eth0 and not eth1, eth0 is wired directly to the router, I can assure you this, because I just connected another cable to eth1 and connected to router and it started pinging, so inorder to achieve this I assume I have to edit my routing table
+2008-01-10T23:19:00.000Z	Pici	enterneo_	Whats connected to eth1 usually?
+2008-01-10T23:20:00.000Z	enterneo_	Pici	eth1 is usually connected to another ubuntu pc for home lan
+2008-01-10T23:20:00.000Z	Pici	enterneo_	Then you need to do `sudo ifdown eth1`

@@ -1,0 +1,4 @@
+2005-09-17T12:29:00.000Z	cevizoglu		how do I re-enable eth0's internet connection when I've booted without the eth cable plugged in?
+2005-09-17T12:30:00.000Z	hyphenated	cevizoglu	sudo ifdown eth0 && sudo ifup eth0
+2005-09-17T12:30:00.000Z	cevizoglu	ubotu	does
+2005-09-17T12:31:00.000Z	hyphenated	cevizoglu	or use the network-admin frontend.

@@ -1,0 +1,4 @@
+2007-05-11T14:59:00.000Z	root___		ok i really need some help, i was just upgrading from 6.06 to 6.10, and the installer crashed( i think) cus i got back to the puter and it was nolonger running. so i thought it had finnished, and i rebooted. now when i try to restart it says VFS cant mount the root files system...  so i'm now in safemode using an old kernal version... any suggestions?
+2007-05-11T14:59:00.000Z	PriceChild	root___	start off with a sudo apt-get -f install
+2007-05-11T14:59:00.000Z	PriceChild	root___	see what that does
+2007-05-11T14:59:00.000Z	PriceChild	root___	then apt-get update, upgrade, dist-upgrade

@@ -1,0 +1,4 @@
+2007-02-27T14:42:00.000Z	Matic`Makovec		Okay now. I have this AGP Graphics card (Nvidia 6600 GT) and so I downloaded some nvidia drivers and all that and did nvidia-xconfig. After that I rebooted the computer and X server couldn't start because of Fatal error: no screens found. Does anyone know the most common reason for that issue?
+2007-02-27T14:43:00.000Z	marx2k	Matic`Makovec	check the output of 'cat /var/log/Xorg.0.log | grep EE'
+2007-02-27T14:44:00.000Z	Matic`Makovec	marx2k	I know :)
+2007-02-27T14:52:00.000Z	marx2k	Matic`Makovec	most agp cards have that address

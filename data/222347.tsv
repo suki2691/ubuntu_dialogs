@@ -1,0 +1,4 @@
+2006-04-03T16:59:00.000Z	LinuxNoob		tnx
+2006-04-03T05:08:00.000Z	LinuxNoob		How come I always get a don't have permission to write and so on every time I try to copy files to a folder?
+2006-04-03T05:08:00.000Z	LinuxNoob		to the opt/ folder
+2006-04-03T05:10:00.000Z	intelikey	LinuxNoob	because it is owned by root and set  755    you could  sudo cp file /opt/  or chown /opt  (bad idea)    or chmod /opt (another bad idea)

@@ -1,0 +1,4 @@
+2004-12-09T17:58:00.000Z	kent		is there a way to check what module eth0 is using? Im trying to figure out what module one of the networkcards on my brothers computer is using, but i cant figure out which.. :(
+2004-12-09T17:58:00.000Z	paper	kent	lspci
+2004-12-09T17:58:00.000Z	kent	paper	according to lspci its a realtek, and lsmod says that atleast 8139too and 8139cp. So i guess its those modules then. Thanks
+2004-12-09T17:58:00.000Z	paper	kent	glad to see that worked for you

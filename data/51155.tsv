@@ -1,0 +1,4 @@
+2010-04-26T18:59:00.000Z	DeathMetalDean		Does anyone know why whenever I try to start Jack Audio it says 14:59:25.270 Post-shutdown script terminated with exit status=256. ?
+2010-04-26T19:01:00.000Z	switch10_	DeathMetalDean	are you using the RT kernel?
+2010-04-26T19:04:00.000Z	switch10_	DeathMetalDean	if you do a uname -a and it tells you you are on the generic kernel, try disabling real time in jacks preferences.  this may cause latency issues depending on what you are doing...
+2010-04-26T19:10:00.000Z	DeathMetalDean	switch10_	I disabled the real time and it still doesn't work

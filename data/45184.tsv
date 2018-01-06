@@ -1,0 +1,4 @@
+2010-07-17T08:10:00.000Z	thune3	drew1	you are saying that doing http://www.liberiangeek.net/2010/06/addrestore-popular-desktop-icons-ubuntu-10-04-lucid-lynx/ doesn't work for you?
+2010-07-17T08:12:00.000Z	drew1	thune3	it does not work at all.
+2010-07-17T08:16:00.000Z	drew1	thune3	I suddenly realized my problem. I was running gksudo gconf-editor. That was editing GNOME for all users but not my current user, I guess. Just doing gconf-editor let me edit my current user's desktop and everything is working now. Thanks.
+2010-07-17T08:16:00.000Z	thune3	drew1	i was about to ask about sudo ;)

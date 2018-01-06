@@ -1,0 +1,4 @@
+2009-01-29T02:16:00.000Z	Blinkiz		Am trying to build kvm-83 with "debuild -S -sa". Problem is that it complains about not having any rules to setup config-host.mak. That file is created when running configure on the program manually. How can I make debuild build it? What have I missed?
+2009-01-29T02:17:00.000Z	macd	Blinkiz	just us chkconfig, if the source tree has no debian rules debuild isnt very effective.
+2009-01-29T02:17:00.000Z	macd	Blinkiz	for further help, visiting #ubuntu-motu can be helpful for packaging questions.
+2009-01-29T02:18:00.000Z	Blinkiz	macd	thank you

@@ -1,0 +1,4 @@
+2007-04-15T07:50:00.000Z	kryddturken		Hi everyone, I am having some issues with setting and changing the current charset. Basically, I am telnetting to a server which sends strings as ISO 8859-1. I assume the standard Xterm in Ubuntu does not conform to this since I can not see those characters. However, if I use charset G0 8859-1, I get the proper data from the server but my local characters are all messy. Any pointers to documentation I should read? Been googling lik
+2007-04-15T07:50:00.000Z	kryddturken		e crazy for a while.
+2007-04-15T07:52:00.000Z	sphynx	kryddturken	have you tried to run telnet with different LANG ?
+2007-04-15T07:52:00.000Z	kryddturken	sphynx	hm. I will look into that :L)

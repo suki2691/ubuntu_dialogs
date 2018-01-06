@@ -1,0 +1,4 @@
+2008-06-20T04:30:00.000Z	Conundrum_		whats the package for wmv codec on ubuntu?
+2008-06-20T04:31:00.000Z	jcole	Conundrum_	echo "deb http://packages.medibuntu.org/ gutsy free non-free" > /etc/apt/sources.list.d/medibuntu.list
+2008-06-20T04:32:00.000Z	jcole	Conundrum_	apt-get install non-free-codecs
+2008-06-20T04:32:00.000Z	jcole	Conundrum_	errr s/gutsy/hardy

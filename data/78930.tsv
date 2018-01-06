@@ -1,0 +1,4 @@
+2009-04-01T03:06:00.000Z	caimlas		I've got a problem with my audio in ubuntu 8.10. It was working, and now for whatever reason, it is not working. I don't know what might have caused it; I don't think I changed anything (appears to have stopped working upon a reboot). when I try and reload alsa ('alsa reload') I'm told "Loading ALSA sound driver modules: (none to reload)." this is an ibm thinkpad x30 with i830 chipset (ac97 audio, I think)
+2009-04-01T03:07:00.000Z	Rabbitbunny	caimlas	I've got the same issure, it's "won't fix", revert to 8.04 or wait for the next LTS.
+2009-04-01T03:08:00.000Z	caimlas	Rabbitbunny	it 'won't fix'? did your problem spontaneously occur recently, or did it happen when you upgraded to 8.10? because I've been running 8.10 since 8.12.
+2009-04-01T03:10:00.000Z	Rabbitbunny	caimlas	it's spontaneous, I ran 8.10 since RC playing with it, and the bug is listed as "won't fix", meaning it's not going to get fixed upstream. affects all intel i8x0

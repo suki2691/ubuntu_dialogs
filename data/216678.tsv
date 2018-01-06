@@ -1,0 +1,4 @@
+2009-12-08T09:36:00.000Z	gerzel_		How do I log out of gnome w/o using the panel?
+2009-12-08T09:36:00.000Z	gerzel_		What is the command to type into an xterm to log out of my gnome session?
+2009-12-08T09:37:00.000Z	ardchoille	gerzel_	open a terminal and run: gnome-session-save --logout-dialog
+2009-12-08T09:42:00.000Z	ardchoille	gerzel_	killing the panel will usually respawn it. If it's broken now restarting will usually restart a broken panel

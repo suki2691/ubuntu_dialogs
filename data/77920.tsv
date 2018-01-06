@@ -1,0 +1,4 @@
+2009-04-29T10:36:00.000Z	paul68	elenita	try to connect to the internet with cable see if in the repos ndiswrapper is installed if not install it reboot and check if you see in system => preferences=> hardware drivers
+2009-04-29T10:38:00.000Z	paul68		!ask|DivxcluB
+2009-04-29T10:39:00.000Z	elenita	paul68	I am, when I instaled it prompted for ubuntu to auto install the BCM4311 drivers for the card. I then had to apt get the b43-fwcutter firmware before iwlist would even see the card, it now does, but still no joy...
+2009-04-29T10:42:00.000Z	paul68	elenita	I personally don't use the fwcutter, just installed ndiswrapper under 9.04. on my laptop I found the restricted driver for bcm directly and was happy to have internet connection instantly on my desktop ndiswrapper was not installed after installation it was under hardware drivers and then it was working correctly

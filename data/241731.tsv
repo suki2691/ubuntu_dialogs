@@ -1,0 +1,4 @@
+2008-03-10T01:02:00.000Z	da_duke		i need help with converting fat32 in ext3. is it possible?
+2008-03-10T01:03:00.000Z	moreati	da_duke	converting it to what?
+2008-03-10T01:04:00.000Z	moreati	da_duke	copy the data somewhere else, then format the partition as ext3, direct conversion isn't possible
+2008-03-10T01:22:00.000Z	moreati	da_duke	for the second time, you can't. copy the data elsewhere, then format as ext3, use mke2fs on the command line or there's probably also a gui way

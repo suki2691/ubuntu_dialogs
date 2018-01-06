@@ -1,0 +1,4 @@
+2009-10-19T05:35:00.000Z	zopiac		how do i check what a volume is in /dev/ ?
+2009-10-19T05:35:00.000Z	zopiac		i have a flash drive connected but have no idea what its /dev/ name is
+2009-10-19T05:37:00.000Z	Billiard	zopiac	if you have given your flash drive a name you can use `ls /dev/disk/by-id -l`
+2009-10-19T05:37:00.000Z	Billiard	zopiac	sorry by-label i meant

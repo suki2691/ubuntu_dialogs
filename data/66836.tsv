@@ -1,0 +1,4 @@
+2009-04-29T22:05:00.000Z	Chopper		Anyone know how to fix this? i run nautilus in terminal and get this "nautilus: error while loading shared libraries: libgnome-desktop-2.so.7: cannot open shared object file: No such file or directory"
+2009-04-29T22:07:00.000Z	hbekel	Chopper	see which libgnome-desktop-2.so your system provides, upgrade the package that contains it or rebuild nautilus against you current libs
+2009-04-29T22:08:00.000Z	Chopper	vocx	i have no idea, in the ubuntu manager it said that the new version was out so i updated, about 1hour and a half later it had finished and i had 9.04
+2009-04-29T22:09:00.000Z	hbekel	Chopper	try sudo ldconfig first

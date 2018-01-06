@@ -1,0 +1,4 @@
+2010-09-11T04:03:00.000Z	jsidhu		is there anyway i can disable gnome? I want my system to start as a vanilla X server, with a black background? I want to start a slideshow application and dont want to run anything else, dont want popups or other "updates available" type messages ever coming up
+2010-09-11T04:04:00.000Z	jsidhu		yeah, then im left with figuring out how to auto login from the console
+2010-09-11T04:04:00.000Z	aeon-ltd	jsidhu	yeah, just don't load gdm at boot, or get gdm to just start x. but just on the side - kinda a waste don't you think?, if you can run gnome yet you just want a photo viewer
+2010-09-11T04:06:00.000Z	aeon-ltd	jsidhu	not sure what X's default window manager is called but it should be a choice, if not just log into cli/tty1 then just startx with no xinitrc file

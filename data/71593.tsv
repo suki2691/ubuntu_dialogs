@@ -1,0 +1,4 @@
+2008-12-14T21:07:00.000Z	brokenbyzero		Quick question, I have a port open in my router, and it says it's open when on windows..but on ubuntu it says it's closed.  Any ideas?
+2008-12-14T21:09:00.000Z	brokenbyzero		I have port forwarding set up correctly, the problem seems to be isolated in Ubuntu.
+2008-12-14T21:09:00.000Z	allsystemsarego	brokenbyzero	netstat -antp
+2008-12-14T21:09:00.000Z	allsystemsarego	brokenbyzero	will show you which app has opened which port

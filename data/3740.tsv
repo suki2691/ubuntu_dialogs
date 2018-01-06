@@ -1,0 +1,4 @@
+2012-06-17T12:26:00.000Z	balrog-k2n		hi, how do you stop X?  i tried init 3 but it does nothing much and there's nothing in /etc/init.d that seems to be related to the whole graphical interface
+2012-06-17T12:26:00.000Z	theadmin	balrog-k2n	sudo service lightdm stop || sudo service gdm stop
+2012-06-17T12:27:00.000Z	balrog-k2n	theadmin	cheers, service lightdm stop worked
+2012-06-17T12:28:00.000Z	theadmin	balrog-k2n	You can disable X entirely by either a) appending "text" to GRUB menu entry (then you can start it manually) or b) renaming /etc/init/lightdm.conf to something which does not end in conf (then you can't start it at all, well, not with lightdm anyway)

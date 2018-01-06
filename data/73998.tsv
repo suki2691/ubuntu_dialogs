@@ -1,0 +1,4 @@
+2010-04-01T15:28:00.000Z	gosh		hello! I installed Ubuntu 9.10 recently, but the XServer doesn't seem to work. It says "/dev/fb0: no such file or directory". The LiveCD worked perfectly though, and I've been using Ubuntu Hardy for years without any problems. What can I do?
+2010-04-01T15:30:00.000Z	gosh		what's the log file called exactly, moetunes?
+2010-04-01T15:31:00.000Z	gosh		thanks!
+2010-04-01T15:31:00.000Z	hmw	gosh	grep EE /var/log/Xorg.0.log

@@ -1,0 +1,4 @@
+2010-07-20T19:32:00.000Z	otswim		hi, i'm running a kubuntu live usb stick; and i'm trying to mount an external hdd to backup my files but i don't know how, i've tried almost every /dev/sdXY with X from a to c and Y from nothing to 3
+2010-07-20T19:34:00.000Z	otswim		i think i don't see my external disk in the output of fdisk -l
+2010-07-20T19:36:00.000Z	otswim		usb, yes
+2010-07-20T19:36:00.000Z	ikonia	otswim	if you look in /var/log/syslog you'll probably see the usb bus resetting

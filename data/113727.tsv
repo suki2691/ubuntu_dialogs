@@ -1,0 +1,4 @@
+2009-06-11T19:03:00.000Z	dajhorn	Dink	Run `dpkg --force-help` at a prompt.
+2009-06-11T19:04:00.000Z	Dink	dajhorn	I tried the --force-overwrite-dir but got same error
+2009-06-11T19:04:00.000Z	Dink		nvm got it needed it without -dir
+2009-06-11T19:04:00.000Z	dajhorn	Dink	sudo dpkg --install --force-all badpackage.deb might do it.  Note that forcing dpkg can destroy the packaging system.

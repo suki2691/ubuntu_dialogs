@@ -1,0 +1,4 @@
+2010-02-26T20:44:00.000Z	vpathak_		hello - anyone knows why a soft link always has a permission of lrwxrwxrwx ? Even a chmod -w does not seem to make it readonly.
+2010-02-26T20:44:00.000Z	vpathak_		is the link (created by ln -s ) really writeable by anyone?
+2010-02-26T20:44:00.000Z	stdisease	vpathak_	because setting permissions on the symlink itself is meaningless, the actual permissions will be of the target file
+2010-02-26T20:46:00.000Z	stdisease	vpathak_	again it's 'writable' only if the destination is writable, or if by writable you mean someone able to modify it, then you need to check the permissions of the directory it is in.

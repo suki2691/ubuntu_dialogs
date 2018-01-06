@@ -1,0 +1,4 @@
+2012-10-02T01:25:00.000Z	timtimtim		Hey, I'm trying to install syslinux from an arch partition I've chrooted into, however, when I run the command syslinux-install_update -iam, I get the error that It cannot find /proc/self/mountinfo \n Are you running a kernel greater than 2.6.24? The answer is yes, but that has not stopped installing and updating syslinux before
+2012-10-02T01:26:00.000Z	dr_willis	timtimtim	 what are you installing syslinux to exactly?
+2012-10-02T01:28:00.000Z	dr_willis	timtimtim	 what/why  are you installing syslinux to somthing exactly?
+2012-10-02T01:29:00.000Z	dr_willis	timtimtim	 i dont think syslinux will work well as a replacement for grub2,  im not even sure it will work properly with any updates and auto configureing of the kernel.

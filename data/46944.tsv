@@ -1,0 +1,4 @@
+2010-03-01T10:36:00.000Z	sensae		Can anyone explain this to me? My mdadm raid automatically builds on boot, on /dev/md_d0, and I have it in fstab. When my system boots it hangs complaining /home won't mount (the raid), but all I have to do is drop to recovery console, type 'mount -a' and hit ctrl D to continue booting, and it works
+2010-03-01T10:37:00.000Z	ChogyDan	sensae	it might be an ordering thing.  It is trying to boot before the raid comes online
+2010-03-01T10:37:00.000Z	ChogyDan	sensae	don't know anything about fixing that though...
+2010-03-01T10:37:00.000Z	sensae	ChogyDan	Well that's lame :/

@@ -1,0 +1,4 @@
+2008-07-01T01:28:00.000Z	arooni		is there anyway of getting the serial number for my segate 300gb hard drive from the command line?  or do i phsycially have to take out the drive
+2008-07-01T01:30:00.000Z	ASULutzy	arooni	I think smartmontools might work... sudo apt-get install smartmontools && sudo smartctl -a /dev/sda
+2008-07-01T01:32:00.000Z	arooni	ASULutzy	you're right@!
+2008-07-01T01:32:00.000Z	ASULutzy	arooni	go me ;)

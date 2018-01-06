@@ -1,0 +1,4 @@
+2006-10-05T08:44:00.000Z	humbolt		This one thing is not perfectly clear to me yet: If I have an external USB drive with an ext3 partition which gets mounted by gnome-volume-manager on hotplug, will this ext3 partition be fsck-ed after the so and so manyest mount? Or does that just apply to partitions which are mentioned in fstab?
+2006-10-05T08:45:00.000Z	trappist	humbolt	I've never seen removable media get auto-fscked, but then again I've never had a usb drive formatted ext3
+2006-10-05T08:46:00.000Z	humbolt	trappist	so which FS do you use?
+2006-10-05T08:46:00.000Z	trappist	humbolt	reiserfs on my hard drives, fat32 on most removable media

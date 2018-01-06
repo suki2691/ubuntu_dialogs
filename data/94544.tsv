@@ -1,0 +1,4 @@
+2011-12-13T19:26:00.000Z	Rushing		i'm running an ubuntu server in a virtualbox VM and would like to access the VM's drive from the windows 7 host
+2011-12-13T19:26:00.000Z	Rushing		i can't use shared folders because it has to live on the unix filesys, to support symlinks
+2011-12-13T19:27:00.000Z	Rushing		i think this is more just basic file sharing/network access
+2011-12-13T19:29:00.000Z	kohvihoor	Rushing	you could always just connect to your guest via ssh with winscp or filezilla, for instance

@@ -1,0 +1,4 @@
+2007-01-10T16:50:00.000Z	n2diy_		Let me rephrase that, when I activate eth0, that becomes the default gateway, and the modem is ignored, how can I set the modem as the default gateway?
+2007-01-10T16:50:00.000Z	adaptr	n2diy_	if your own network interface "becomes" a default gateway then something is wrong...
+2007-01-10T16:52:00.000Z	n2diy_	adaptr	it is the only option in the networkings settings dialog?
+2007-01-10T16:52:00.000Z	adaptr	n2diy_	oh, ahum... please run "route -n" from a console prompt and look at the last line

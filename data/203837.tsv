@@ -1,0 +1,4 @@
+2005-12-21T08:46:00.000Z	secureboot		i'm trying to debootstrap an ubuntu system on my debian box - is there a debootstrap source for ubuntu i can build and run?
+2005-12-21T08:46:00.000Z	secureboot		i tried to grab one, and it only had debian targets
+2005-12-21T08:47:00.000Z	M_Cheevy	secureboot	you'll need to change your /etc/apt/sources.list to point at ubuntu repositories
+2005-12-21T08:48:00.000Z	M_Cheevy	secureboot	or "debootstrap breezy <target partition> <ubuntu repository>"

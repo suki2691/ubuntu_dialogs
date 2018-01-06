@@ -1,0 +1,4 @@
+2011-10-26T19:05:00.000Z	Shatters		what's the command for killing a running application qt killtask something?
+2011-10-26T19:07:00.000Z	Shatters		the problem is that I'm trying to run an app and ubuntu tells me the app is running, but it isn't anywhere to be found, so I wanted to kill it.
+2011-10-26T19:08:00.000Z	Shatters		I don't see the app running under 'processes' in system monitor either..
+2011-10-26T19:09:00.000Z	saxin	Shatters	ps aux | grep nameofapp

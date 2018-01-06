@@ -1,0 +1,4 @@
+2005-11-18T10:58:00.000Z	_null		Hello, is it possible to resize partitions without loosing all the data on it? (They're reiserfs & ext3)
+2005-11-18T10:58:00.000Z	mjr	_null	yes
+2005-11-18T10:58:00.000Z	_null	mjr	how?
+2005-11-18T10:59:00.000Z	mjr	_null	(g)parted can do that, plus there are separate tools also (wasit e2resize and something for reiser)

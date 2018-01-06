@@ -1,0 +1,4 @@
+2012-10-25T16:48:00.000Z	Rallias		Would it be possible to use 2 100mbit ethernet cards with the same IP address to be able to pull 200 mbit/s?
+2012-10-25T16:49:00.000Z	bindi	Rallias	no
+2012-10-25T16:50:00.000Z	bindi	Rallias	you need LACP/trunk/teaming/802.3ad (whatever it's called, same thing) support from two machines and the switch (in your router or your external switch) to gain from it.
+2012-10-25T16:51:00.000Z	bindi	Rallias	a single TCP connection can still only get max 100 Mbps, so you'd want that only if you need two 100 Mbps transfers at the same time

@@ -1,0 +1,4 @@
+2006-07-25T12:13:00.000Z	Skooj		erm, how do i upgrade from breezy to dapper?
+2006-07-25T12:14:00.000Z	cvp	Skooj	http://www.ubuntu.com
+2006-07-25T12:18:00.000Z	cvp	Skooj	sudo gedit /etc/apt/sources.list, and remove every "#" you see before the repository entries
+2006-07-25T12:20:00.000Z	cvp	Skooj	after that, make sure to do sudo apt-get update before you try apt-getting again

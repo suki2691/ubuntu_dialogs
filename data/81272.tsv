@@ -1,0 +1,4 @@
+2008-08-25T16:28:00.000Z	g0r8y		Hi there, Ive managed to bugger up my networking somehow - it seems as  if some wierd route is being added when ever dhcp gets an address (for wired or wireless interfaces) could some one  give me a hand
+2008-08-25T16:29:00.000Z	bcochofel	g0r8y	I guess that route comes from DHCP server
+2008-08-25T16:29:00.000Z	g0r8y	bcochofel	problem not affecting other clients  on same network
+2008-08-25T16:33:00.000Z	g0r8y	bcochofel	if I run /etc/init.d/networking start (and interfaces file  is configured fine) i get a dhcp'ed address but then the next part of the script hangs. Then if I just run route that hangs until I do route del (net) (net mask)

@@ -1,0 +1,4 @@
+2010-12-19T15:34:00.000Z	dalbelo		How do I refresh network setting in /etc/network/interfaces without rebooting the computer?
+2010-12-19T15:35:00.000Z	ohir	dalbelo	ifup / ifdown will do the trick
+2010-12-19T15:35:00.000Z	ohir	dalbelo	ifdown eth0 then ifup eth0
+2010-12-19T15:36:00.000Z	ohir	dalbelo	its better to do ifdown before you fiddle with interfaces file

@@ -1,0 +1,4 @@
+2010-08-20T05:15:00.000Z	Felix00		then move your new xorg.conf to /etc/X
+2010-08-20T05:16:00.000Z	Felix00		hi. im using eclipse 3.5 for linux. im trying to install RIM Blackberry API, a popup window is expected to prompt for user and password but instead of that a error says "Unable to read repository at https://www.blackberry.com/Downloads/auth/contactFormPreload.do?code=DC727151E5D55DDE1E950767CF861CA5&dl=C9731C89FBE87985618D78406AE1A89B". It cannot retrieve because it needs authentication. PLEASE help
+2010-08-20T05:16:00.000Z	Jordan_U	Felix00	I doubt that the problem is with X trying to use the wrong driver.
+2010-08-20T05:17:00.000Z	Jordan_U	Felix00	I doubt that anything in the xorg.conf will help, Xorg is pretty good at self configuration these days.

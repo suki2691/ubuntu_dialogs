@@ -1,0 +1,4 @@
+2007-07-18T07:01:00.000Z	lousygarua		on apache, i'm trying to set some options for several dirs at once but it won't work, i tried <Directory ~ "/var/www/drupal(.*)"> and also DirectoryMatch but without success... what am i doing wrong?
+2007-07-18T07:03:00.000Z	Stormx2	lousygarua	I think apache runs as its own user. You want to use a full path to your home dir, instead of ~.... I think.
+2007-07-18T07:03:00.000Z	Stormx2		!restricted > Nyle
+2007-07-18T07:04:00.000Z	lousygarua	Stormx2	on the Directory directive ~ means regex instead of unix dir name (notice the space between the actual folder expression and the ~, but thanks anyway

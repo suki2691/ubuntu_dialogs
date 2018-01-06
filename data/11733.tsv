@@ -1,0 +1,4 @@
+2011-07-23T20:24:00.000Z	tdrusk		hi guys. working with ssh. Any way to force it to prompt me with Are you sure you want to continue connecting (yes/no)? every time?
+2011-07-23T20:24:00.000Z	idlemind324	tdrusk	that is a client side thing
+2011-07-23T20:25:00.000Z	idlemind324	tdrusk	i think the file is /etc/ssh/ssh_known_hosts ... if you selected yes already you would need to delete the entry from that file
+2011-07-23T20:26:00.000Z	tdrusk	idlemind324	i understand this. is there anyway for me to ssh $IP -(some argument) to get that?

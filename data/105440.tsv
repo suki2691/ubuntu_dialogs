@@ -1,0 +1,4 @@
+2011-03-09T05:51:00.000Z	Wintergr		Good evening everyone. I'm trying to install Ubuntu x64 and I'm having some display issues, can anyone here help me with that?
+2011-03-09T05:53:00.000Z	Wintergr		The installation ends succesfully and the pc reboots, but when it loads for the first time, I can't change my resolution to anything but 60 Hz. My gfx card is an ATI 2600 HD and when I install the proprietary driver ant reboot, the computer shifts to some resolution/refresh rate my monitor doesn't support and goes blank. Dont know how to deal with that.
+2011-03-09T05:54:00.000Z	Wintergr		Also, thanks in advance for any help/advice/condolences. :p
+2011-03-09T05:54:00.000Z	ActionParsnip	Wintergr	remove the boot option: quiet splash    and add: nomodeset

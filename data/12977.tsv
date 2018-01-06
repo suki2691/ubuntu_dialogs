@@ -1,0 +1,4 @@
+2012-02-06T15:56:00.000Z	clockwize		hey guys, I'm trying to set up a cron job that runs every month on the 11th at 2am, I've used an online helper to generate the syntax for this, but when I validate it, it says bad day-of-week... My expression is: 0 0 2 11 1/1 ? *
+2012-02-06T15:57:00.000Z	mcb_2	clockwize	00 02 11 * * <command>
+2012-02-06T16:00:00.000Z	clockwize	mcb_2	I was using http://www.cronmaker.com/ why isn't this giving me the correct result?
+2012-02-06T16:02:00.000Z	mcb_2	clockwize	I dont know the site, but cron sintaxe is as follow: minutes  hour   day_of_month month day_of_the_week   <command>.

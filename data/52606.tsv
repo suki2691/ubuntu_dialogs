@@ -1,0 +1,4 @@
+2009-07-14T00:19:00.000Z	myth10		hi folks!  does anyone know if is it possible to move openvpn CA and client certificates from ipcop to a ubuntu openvpn server?
+2009-07-14T00:19:00.000Z	frostburn	myth10	yes, they are the same x509 certificates
+2009-07-14T00:21:00.000Z	myth10	frostburn	 great thanks for the info!
+2009-07-14T00:21:00.000Z	frostburn	myth10	you may need to convert them to a different form, but that's not too hard... iirc ipcop has both the CA and cert in one file

@@ -1,0 +1,4 @@
+2008-08-12T17:11:00.000Z	luke___		man i still cant find the eggdrop.conf file on my system?
+2008-08-12T17:12:00.000Z	jrib	luke___	that is because you create it
+2008-08-12T17:12:00.000Z	jrib	luke___	it doesn't matter, but 'dpkg -L eggdrop' will tell you
+2008-08-12T17:24:00.000Z	jrib	luke___	edit your /etc/ssh/sshd_config and set a Banner.  Then edit the banner file (/etc/issue.net usually).  Or edit /etc/motd if that's what you are looking for.  I think that's what you see

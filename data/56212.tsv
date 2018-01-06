@@ -1,0 +1,4 @@
+2009-07-28T23:20:00.000Z	lomez		forgive my stupidity if this is obvious, but i just booted into an ubuntu live cd and it just takes me to a bash shell, not the gui-iffic live environment. how do i start x/gnome?
+2009-07-28T23:21:00.000Z	knitt1	lomez	sure it's a live cd and not an alternate one?
+2009-07-28T23:21:00.000Z	lomez	knitt1	yes, ive used it before (to install the system)
+2009-07-28T23:21:00.000Z	knitt1	lomez	try sudo /etc/init.d/gdm start

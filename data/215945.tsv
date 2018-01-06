@@ -1,0 +1,4 @@
+2007-09-27T07:50:00.000Z	nynyx		eh nub question but is there a big performance changes if i take amd64 or I386
+2007-09-27T07:51:00.000Z	ccooke	nynyx	There can be.
+2007-09-27T07:52:00.000Z	ccooke	nynyx	In general, going from 32 to 64 bits (or from any lower to higher bitcount) would actually *decrease* speed due to the extra data that needs to be shunted around
+2007-09-27T07:53:00.000Z	ccooke	nynyx	but the x86 architecture has always had very few registers. AMD took the opportunity to add more registers in their x86_64 instruction set, so while IO and memory are about the same speed or slower, anything heavily CPU based will often be faster

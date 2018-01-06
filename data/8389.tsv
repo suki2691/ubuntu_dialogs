@@ -1,0 +1,4 @@
+2011-11-16T10:10:00.000Z	pipalo		How can I upgrade libraries ? say babl.
+2011-11-16T10:11:00.000Z	escott	pipalo	apt will upgrade them when the newer versions are required/released for your ubuntu version
+2011-11-16T10:13:00.000Z	escott	pipalo	then you should manually install it to /usr/local, and recompile any programs that reference the library or do library path things to have two versions
+2011-11-16T10:16:00.000Z	pipalo	escott	aight, cheers.

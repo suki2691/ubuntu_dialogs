@@ -1,0 +1,4 @@
+2007-09-26T14:58:00.000Z	l0kiII		How do I make it to where I don't have to type export LD_LIBRARY_PATH=/usr/local/lib anymore when I reboot the computer?
+2007-09-26T14:59:00.000Z	l0kiII		I have a certain program I have to type "export LD_LIBRARY_PATH=/usr/local/lib" before I run it, how do I make it to where I don't have to do this anymore?
+2007-09-26T15:00:00.000Z	skar	l0kiII	to set this env variable, you can have a script with "env LD..; actual_command" and that's it
+2007-09-26T15:01:00.000Z	skar	l0kiII	nope, name isn't relevant, but execute permission is

@@ -1,0 +1,4 @@
+2007-05-07T09:59:00.000Z	craigbass1976		If you mount up a samba share, where is that logged?
+2007-05-07T09:59:00.000Z	Supaplex	craigbass1976	/var/log/ - see /etc/samba/ config files.
+2007-05-07T10:01:00.000Z	craigbass1976	Supaplex	I did, but I didn't see anything.  I'm looking for details on a failed mount.
+2007-05-07T10:02:00.000Z	Supaplex	craigbass1976	oh, if you're mounting a remote share, then it'll be in dmesg or /var/log/syslog (or the remote logs)

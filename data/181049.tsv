@@ -1,0 +1,4 @@
+2006-06-07T13:12:00.000Z	diazepam		guys i have debian installed and an iso image of ubuntu dapper on my hard drive.  How can i mount this image so that i can install ubuntu over my existing debian installation ???
+2006-06-07T13:13:00.000Z	Matthewv	diazepam	mount using mount command and set the -t option to lo
+2006-06-07T13:18:00.000Z	diazepam	Matthewv	- so one the image is mounted with the 'lo' option then what?
+2006-06-07T13:19:00.000Z	diazepam	Matthewv	- and would it need to be on a seperate partition so that it didnt overwrite itself during installation?

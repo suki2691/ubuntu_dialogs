@@ -1,0 +1,4 @@
+2007-05-01T10:52:00.000Z	Kogs		hey guys, just installed Feisty on my laptop. But everytime i try to install anything through synaptic it tells me the dependencies "are not installable"
+2007-05-01T10:54:00.000Z	Kogs		Does the fact that I installed the Alternate Feisty ISO have anything to do with the fact that I can't install anything through synaptic?
+2007-05-01T10:55:00.000Z	stefg	Kogs	no... your sources.list might be faulty. waht do you get when you sudo apt-get update?
+2007-05-01T10:57:00.000Z	Kogs	stefg	oh I see what happened, i installed it over the network and now it's trying to find the updates on the computer I installed it on instead of the Ubuntu repositories

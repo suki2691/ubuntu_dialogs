@@ -1,0 +1,4 @@
+2008-11-11T18:59:00.000Z	paul68		this is my current network setup isp => router => server with 2 nics  since I want to learn how iptables work I'm buying  a new router to get connected on the second nic of  my server, can I change my current dhcp and bind config files without causing problems with current setup?
+2008-11-11T18:59:00.000Z	kicco	paul68	for a similar setup i gave server's network interfaces a static address, everything is working
+2008-11-11T19:00:00.000Z	paul68	kicco	and make sure that in the new config files the eth0 keeps the current ip?
+2008-11-11T19:01:00.000Z	kicco	paul68	i configured dhcpd.conf to reserve a static address for server's macs

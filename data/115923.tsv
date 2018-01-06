@@ -1,0 +1,4 @@
+2008-12-17T06:47:00.000Z	orudie		how can i check what the dns server is set to ?
+2008-12-17T06:47:00.000Z	joeb3_	orudie	cat /etc/resolv.conf
+2008-12-17T06:50:00.000Z	orudie	joeb3_	what about gateway ?
+2008-12-17T06:50:00.000Z	joeb3_	orudie	ip route show or netstat -rn

@@ -1,0 +1,4 @@
+2012-04-19T21:30:00.000Z	ppseafield		Hey, I'm trying to install oracle sqldeveloper, but the make-sqldeveloper-package script when building just spits out "chmod: missing operand after `755" and quits
+2012-04-19T21:31:00.000Z	ppseafield		Any idea how I might get it to work?
+2012-04-19T21:31:00.000Z	meganerd	ppseafield	change the first line from bin/sh to /bin/bash
+2012-04-19T21:33:00.000Z	ppseafield	meganerd	Changed to #!/bin/bash, and the problem persists

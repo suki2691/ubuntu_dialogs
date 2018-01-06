@@ -1,0 +1,4 @@
+2009-05-16T04:28:00.000Z	coolkourt		is there any way to partition my unbuntu to take a few gigs from my Hard Drive?
+2009-05-16T04:29:00.000Z	Jack_Sparrow	coolkourt	gparted, but it will mess with fstab and grb and depending on how you do it.. mbr etc.
+2009-05-16T04:30:00.000Z	Jack_Sparrow	coolkourt	yes. best to make that messed up partition a sep /home
+2009-05-16T04:31:00.000Z	Jack_Sparrow	coolkourt	no, it will knock out your mbr and need to have grub repaired/

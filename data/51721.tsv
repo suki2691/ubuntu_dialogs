@@ -1,0 +1,4 @@
+2010-04-07T01:41:00.000Z	bendt		??? Time is corrected a while after doing "sudo /etc/init.d/ntp restart". ntp is linked to /etc/rc2.d/S50ntp. Is it possible, that it is still not executed at start? How to check?
+2010-04-07T01:42:00.000Z	guntbert	bendt	you need to call ntpdate on start (ntpd can be configured to do that )
+2010-04-07T01:43:00.000Z	bendt	guntbert	how?
+2010-04-07T01:43:00.000Z	guntbert	bendt	I don't know by heart - but man ntpd should tell you

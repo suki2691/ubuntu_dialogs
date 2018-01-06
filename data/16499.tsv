@@ -1,0 +1,4 @@
+2011-03-26T18:06:00.000Z	ecnabil		Hey a little help, I have ssh-ed into my server and tried to change my password (sudo passwd) it asked me for a new one I type it in. I restart init.d/ssh and logout. But the password I ssh in with stays the same as the old password!!
+2011-03-26T18:07:00.000Z	ecnabil		ahhh....
+2011-03-26T18:07:00.000Z	ecnabil		no, that is not what I wanted to do
+2011-03-26T18:07:00.000Z	bornpilot	ecnabil	: don't use password auth. for ssh use key based auth. for ssh.

@@ -1,0 +1,4 @@
+2009-02-14T15:14:00.000Z	doc`		when i set the default soundcard to my usb-speakers and restart they stop working, and i have to do pkill -9 pulseaudio and pulseaudio --daemon to get them to work again, any ideas?
+2009-02-14T15:16:00.000Z	Bodsda	doc`	happened to me, there is a way to configure pulseaudio properly, but, sudo apt-get remove --purge pulseaudio    works just as well
+2009-02-14T15:19:00.000Z	doc`	Bodsda	do i need to reboot to make it change default speakers with asoundconf set-default-card
+2009-02-14T15:20:00.000Z	Bodsda	doc`	no, its instant, but after doing it, kill pulseaudio  then restart your music, if that fixes it then you may want to think about removing pulseaudio

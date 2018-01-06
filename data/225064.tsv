@@ -1,0 +1,4 @@
+2006-05-16T16:17:00.000Z	screevo		Can anyone give me any help on how to fix the ATI/Mesa problem?
+2006-05-16T16:17:00.000Z	paradizelost	screevo	you use Xgl?
+2006-05-16T16:18:00.000Z	paradizelost	screevo	and it's using the mesa driver so no DRI
+2006-05-16T16:19:00.000Z	paradizelost	screevo	the /etc/modules loads the driver on boot, before the mesa module can get loaded

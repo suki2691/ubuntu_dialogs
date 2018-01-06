@@ -1,0 +1,4 @@
+2006-07-07T08:51:00.000Z	pm2		second question:  I need to have at least a 2.6.18 kernel for some driver support.  Is there an easy way to upgrade via a binary package, or will I have to compile on my own.  Is there are "ubuntu-way" for kernel config and compiling?
+2006-07-07T07:26:00.000Z	pm2		I'm using a kernel module that needs to hotplug load some firmware files.  Is there a special location I need to store the firmware, or package I need to install to load it?  Eg, in Gentoo, the files were stored in /lib/firmware, and I had to install "hotplug"
+2006-07-07T07:27:00.000Z	POVaddct	pm2	it's /lib/firmware/<your_kernel_version>
+2006-07-07T07:27:00.000Z	pm2	POVaddct	ok, and there's no additional software I need to install to have it loaded?

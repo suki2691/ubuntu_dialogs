@@ -1,0 +1,4 @@
+2012-10-11T20:43:00.000Z	kurohyou		Hi, i want to do an ubuntu upgrade form ssh, how can i do this without touching my kernel?
+2012-10-11T20:44:00.000Z	jrib	kurohyou	umm, why don't you want to touch your kernel?
+2012-10-11T20:44:00.000Z	kurohyou	jrib	it's a custom kernel and i'm afraid off breaking my raid
+2012-10-11T20:45:00.000Z	jrib	kurohyou	well the upgrade shouldn't remove it but you still have to ensure that grub is setup to boot the one you want

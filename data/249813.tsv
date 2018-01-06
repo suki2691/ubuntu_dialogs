@@ -1,0 +1,4 @@
+2008-03-11T17:07:00.000Z	romulobr		hi, i have 150MB of free space on my / partition and I need more, is there anything I can do?
+2008-03-11T17:07:00.000Z	Dr_willis	romulobr	 check /var/cache/apt  and remove old packages there.
+2008-03-11T17:09:00.000Z	Dr_willis	romulobr	 that dir keeps a copy of all the packages you have downloaded/isntalled - it can get quite big with old unneeded .deb files
+2008-03-11T17:11:00.000Z	Dr_willis	romulobr	 remove junk :)

@@ -1,0 +1,4 @@
+2011-09-09T14:17:00.000Z	shai28		Hello, I've installed Ubuntu 11.04 on my computer, during the updates (using the update manager) the window of the update manager got stuck so I pressed on the cancel button and now every time I would like to make update I getting this error : E:Unable to parse package file /var/lib/apt/lists/partial/il.archive.ubuntu.com_ubuntu_dists_natty_universe_i18n_Index (1) any idea how to solve this ?
+2011-09-09T14:17:00.000Z	ActionParsnip	shai28	http://pastie.org/2507666
+2011-09-09T14:28:00.000Z	shai28	ActionParsnip	now when I doing update I getting the next errors - W: Failed to fetch http://il.archive.ubuntu.com/ubuntu/dists/natty/restricted/binary-amd64/Packages  404  Not Found , W: Failed to fetch http://il.archive.ubuntu.com/ubuntu/dists/natty/multiverse/binary-amd64/Packages  404  Not Found etc..
+2011-09-09T14:29:00.000Z	ActionParsnip	shai28	try changing server to the main server, or an alternate server

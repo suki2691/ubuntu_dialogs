@@ -1,0 +1,4 @@
+2011-05-12T13:32:00.000Z	dkannan		can i exec a arbitrary string, it is not a file but a command being constructed
+2011-05-12T13:32:00.000Z	Kamilion	dkannan	$(echo "tada!") | grep "tada" | tee ~/tada.txt
+2011-05-12T13:37:00.000Z	dkannan	Kamilion	does $() create a new subshell or it is like exec. $(echo "tada") does  not work for me
+2011-05-12T13:39:00.000Z	Kamilion	dkannan	http://tldp.org/LDP/abs/html/commandsub.html   That should help

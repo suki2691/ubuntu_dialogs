@@ -1,0 +1,4 @@
+2007-01-10T11:15:00.000Z	Xecho		An upgrade requires I enter my Xubuntu CD. I put it in and it mounts to .../cdrecorder, but the app asks for it in .../cdrom and won't see it. How can I fix this?
+2007-01-10T11:17:00.000Z	gdb	Xecho	sudo umount cdrecorder
+2007-01-10T11:17:00.000Z	gdb	Xecho	sudo mount /media/cdrom
+2007-01-10T11:17:00.000Z	gdb	Xecho	that *might* work

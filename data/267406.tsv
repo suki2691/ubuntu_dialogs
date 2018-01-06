@@ -1,0 +1,4 @@
+2010-04-17T20:15:00.000Z	fk91		Hello, I have a minimal linux system: how can look at the ip settings? ifdown and ifconfig are not available
+2010-04-17T20:15:00.000Z	maco	fk91	ip a
+2010-04-17T20:18:00.000Z	maco	fk91	the interfaces file is for use with ifup and ifdown but if you lack those thats not very helpful
+2010-04-17T20:18:00.000Z	maco	fk91	just stick to the "ip" command

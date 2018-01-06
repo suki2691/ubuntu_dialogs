@@ -1,0 +1,4 @@
+2006-05-29T06:02:00.000Z	Charles21		Can someone help me out with file permissions I have figured out that i need to do umask 000    for my /var/www/ to get it how i want it the problem is you have to set this on each computer (i dont mind that) The problem is when i connect to the ssh file sharing the umask is ignored is there  a way to do umask with filesharing with ssh
+2006-05-29T06:03:00.000Z	Sub	Charles21	well in ftp you can seta default umask
+2006-05-29T06:03:00.000Z	Sub	Charles21	ill find the value for ssh
+2006-05-29T06:03:00.000Z	Charles21	Sub	I guess I will have to do ftp until I learn more about unix filesharing as a quick fix

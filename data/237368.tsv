@@ -1,0 +1,4 @@
+2006-04-22T10:30:00.000Z	whyz		 hey..i'm in a bit of pickle. i've just installed linux, but the grub installation has failed. I would like some help setting grub up properly. The boot device is a sata disk on /dev/sda, the drive with linux is /dev/hda
+2006-04-22T10:32:00.000Z	ompaul	whyz	its does not like that, do one or the other but don't try to combine them, I hear it does not work out well
+2006-04-22T10:33:00.000Z	whyz	ompaul	you meani should have the pata drive set up with grub on it?(/dev/hda)
+2006-04-22T10:34:00.000Z	ompaul	whyz	it seems to abhor the mixing of them - it might be possible after you get one drive set up to add the other using the instructions from >>/msg ubotu grub<<

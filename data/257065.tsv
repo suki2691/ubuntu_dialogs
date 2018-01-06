@@ -1,0 +1,4 @@
+2007-07-16T12:01:00.000Z	tonsofpcs		anyone know how to get mail working between two machines on my network?  Local [Ubuntu Feisty Fawn]  won't send to my server because the domain isn't found, server [debian sarge]  won't send to local because "mailing to remote domains not supported".  Any ideas?
+2007-07-16T12:02:00.000Z	Falstius	tonsofpcs	you probably need to configure postfix, that's a book in itself.
+2007-07-16T12:07:00.000Z	Falstius	tonsofpcs	I set up a gmail account for my servers to email errors to.  Safer than running my own mail servers.
+2007-07-16T12:13:00.000Z	Falstius	tonsofpcs	people used to use something called talk or xtalk for that.

@@ -1,0 +1,4 @@
+2008-11-07T10:03:00.000Z	palomer		how do I mount my windows vista partition?
+2008-11-07T10:03:00.000Z	palomer		is there an automatic way to do it?
+2008-11-07T10:04:00.000Z	limecat	palomer	yes, with fstab
+2008-11-07T10:05:00.000Z	limecat	palomer	there may be, but generally its automatic--so if its not automatically mounting, either A) something messed up, and editing /etc/fstab is a good place to start looking, or B) youre not shutting down properly

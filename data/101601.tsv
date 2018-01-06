@@ -1,0 +1,4 @@
+2008-02-01T09:06:00.000Z	lunaphyte		i have a machine that is making a ton of dns queries.  how can i determine which process(es) are causing this?
+2008-02-01T09:07:00.000Z	gmcastil	lunaphyte	are they "whohas" queries?
+2008-02-01T09:08:00.000Z	lunaphyte	gmcastil	whohas?  i don't think so.  they're primarily queries for ptr records.
+2008-02-01T09:09:00.000Z	gmcastil	lunaphyte	try 'netstat -pv'

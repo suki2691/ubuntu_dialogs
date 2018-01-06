@@ -1,0 +1,4 @@
+2010-07-12T23:17:00.000Z	kat_serf		Hi all, I'm in the process of setting up a web server running Ubuntu, its physically at another location, is there anyway I can use the graphical tools on my ubuntu local install to configure it?
+2010-07-12T23:18:00.000Z	guntbert	kat_serf	no, but you can ssh -X into the remote server
+2010-07-12T23:18:00.000Z	kat_serf	guntbert	what does -X do?
+2010-07-12T23:19:00.000Z	guntbert	kat_serf	it forwards any X windows of the remote server to your machine

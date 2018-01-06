@@ -1,0 +1,4 @@
+2010-07-06T04:23:00.000Z	skreet	bigleon	Did you install Ubuntu before or after windows on the disk?  (i.e. what is the windows partition #)
+2010-07-06T04:24:00.000Z	bigleon	skreet	after windows parition. Windows is part C, My storage part is D and then ubuntu got E
+2010-07-06T04:24:00.000Z	skreet	bigleon	Windows drive letters arn't the same as partition numbers.  Could you do an `fdisk -l /dev/sda` as root and pastebin the results?
+2010-07-06T04:24:00.000Z	skreet	bigleon	To be clear, Windows will perserve itself as "C" even if it's sda8 or higher :)

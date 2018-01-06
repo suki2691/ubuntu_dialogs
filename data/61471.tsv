@@ -1,0 +1,4 @@
+2009-05-29T07:45:00.000Z	scales11		hi all.  i am trying to blacklist a driver, i tried
+2009-05-29T07:45:00.000Z	scales11		sudo echo zd1211rw >> /etc/modprobe.d/blacklist
+2009-05-29T07:45:00.000Z	scales11		but it didnt seem to work?
+2009-05-29T07:46:00.000Z	tsimpson	scales11	user "echo zd1211rw | sudo tee -a /etc/modprobe.d/blacklist"

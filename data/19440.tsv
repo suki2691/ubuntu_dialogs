@@ -1,0 +1,4 @@
+2011-04-22T11:45:00.000Z	YankDownUnder	tripelbb	In your /etc/fstab, you might want to double check the drive mount options and r/w options...
+2011-04-22T11:50:00.000Z	tripelbb	YankDownUnder	I havent a clue what that file means. (I can look at it but not understand it.) I see nothing that would be rw options... 2 lines might have your clue:# swap was on /dev/sdb6 during installation --and second--  UUID=3f072c3c-c6a7-40ac-950c-df4b6e8b1a7a none            swap    sw              0       0  --and last--  /dev/fd0        /media/floppy0  auto    rw,user,noauto,exec,utf8 0       0
+2011-04-22T11:50:00.000Z	YankDownUnder	tripelbb	Um...have you googled on fstab for Ubuntu?
+2011-04-22T11:55:00.000Z	YankDownUnder	tripelbb	Right oh mate

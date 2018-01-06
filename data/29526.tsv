@@ -1,0 +1,4 @@
+2010-07-02T20:15:00.000Z	Blazento		hello i am trying to compile php from source files. I initially got it with apt-get, but i needed an older version. I configured PHP with mysql, ran make, then ran make install, restarted apache, and I'm still being prompted to download any PHP files in my localhost. Any help?
+2010-07-02T20:16:00.000Z	Pici	Blazento	Did you enable the php module in apache?
+2010-07-02T20:17:00.000Z	Pici	Blazento	With the php in the repositories its: sudo a2enmod php5
+2010-07-02T20:18:00.000Z	Blazento	Pici	no i don't believe i did. Do I need to open httpd.conf to enable it?

@@ -1,0 +1,4 @@
+2011-01-23T14:40:00.000Z	sdrs		hi all, i would like to open a file on my ubuntu, i am trying nano file and it doesn't work, i try vi file.conf but i don't seem to be able to edit the file, what is another command to open and edit a file please like for example services.conf
+2011-01-23T14:41:00.000Z	SwedeMike	sdrs	"doesn't work" is a worthless error report, if you don't specify the output from it "doesn't work", nobody can help you.
+2011-01-23T14:42:00.000Z	sdrs	SwedeMike	and the rest when i do nano file.conf it says command not found, or even when i do sudo nano file.conf again it says command not found
+2011-01-23T14:42:00.000Z	SwedeMike	sdrs	then you need to install nano. sudo apt-get install nano

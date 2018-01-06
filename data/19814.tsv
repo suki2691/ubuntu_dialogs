@@ -1,0 +1,4 @@
+2011-04-16T23:36:00.000Z	KSHawkEye		Is there a way to remove all files with numbers in them, such as "filename-3" (only the files with -numbers.extension) in a single command? (Sorry if thats a little confusing, I can explain better if needed)
+2011-04-16T23:36:00.000Z	pfifo	KSHawkEye	dont blame me if you get hurt but with what you said `rm filename-[0-9]`
+2011-04-16T23:37:00.000Z	KSHawkEye	pfifo	Thanks, I did it with a "rm /path/*-*.lib"
+2011-04-17T02:14:00.000Z	pfifo	KSHawkEye	unset i think

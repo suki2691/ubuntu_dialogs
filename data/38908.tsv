@@ -1,0 +1,4 @@
+2011-05-03T07:12:00.000Z	jep		hey guys, my ubuntu boot isn't detecting my pcix ethernet card. when i do 'lshw -C network', it as well as the board's nic show up as 'DISABLED'. I do a 'sudo ifconfig eth1 up' (eth1 is the pcix nic), but still nothing and rebooting makes it disabled again. /etc/network/interfaces only contained the two 'lo' entries so i added ones for eth0 and eth1 (before reboot). Any ideas? I've been out
+2011-05-03T07:12:00.000Z	jep		for like a week now.
+2011-05-03T07:14:00.000Z	Omega	jep	I don't know the answer myself, but maybe that helps.
+2011-05-03T07:15:00.000Z	jep	Omega	it's not wifi

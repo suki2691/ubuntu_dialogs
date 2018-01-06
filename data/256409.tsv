@@ -1,0 +1,4 @@
+2012-05-04T10:04:00.000Z	saju		how find filesystem type of /dev/sda2  ?
+2012-05-04T10:04:00.000Z	dr_willis	saju	 sudo blkid     may give a clue,,   or sudo fdisk -l
+2012-05-04T10:07:00.000Z	dr_willis	saju	 sda2 is an extended partition..you dontmount it.. it holds OTHER partions..  see the fdisk output.
+2012-05-04T10:08:00.000Z	dr_willis	saju	 sda1 and sda6 are the only linux partions you have.

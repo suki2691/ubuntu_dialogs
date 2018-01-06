@@ -1,0 +1,4 @@
+2007-10-25T16:25:00.000Z	Joth		I'm having problems upgrading - it freezes trying to download files, and I get a long list of error messages.
+2007-10-25T16:25:00.000Z	Joth		E.g. Failed to fetch http://gb.archive.ubuntu.com/ubuntu/dists/gutsy/main/i18n/Translation-en_US.bz2
+2007-10-25T16:27:00.000Z	Joth		http://gb.archive.ubuntu.com/ubuntu/dists/gutsy/main/i18n/Translation-en_US.bz2  gives a 404
+2007-10-25T16:28:00.000Z	mctavish	Joth	you might try changing your mirrors to use the main ubuntu repos - ie take the .gb away from the lines in the sources.list. Probably configurable in synaptic somewhere.

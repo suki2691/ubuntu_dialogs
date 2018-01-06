@@ -1,0 +1,4 @@
+2009-12-13T05:21:00.000Z	HamptonSam		E: dpkb was interrupted, you must manually run "sudo dpkg --configure -a' to corrent the problem
+2009-12-13T05:22:00.000Z	IdleOne	HamptonSam	sudo dpkg --configure -a
+2009-12-13T05:23:00.000Z	HamptonSam	rCX	dpkg: failed to write status record about 'jfsutils' to '/var/lib/dpkg/status': NO space left on device
+2009-12-13T05:24:00.000Z	IdleOne	HamptonSam	sudo apt-get autoremove will clear up a little space

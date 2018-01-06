@@ -1,0 +1,4 @@
+2008-02-22T04:56:00.000Z	JasonWard		Hi :) a Linux noob here, I want to add an IP route on my laptop, which I've been able to do, BUT, how do I make it permanent?
+2008-02-22T04:57:00.000Z	mjw-	JasonWard	look at /etc/rc.local
+2008-02-22T04:57:00.000Z	mjw-	JasonWard	not sure if that's THE best way, but it will probably work ;)
+2008-02-22T04:58:00.000Z	mjw-	JasonWard	/etc/rc.local is a file that executes automatically after everything else has started automatically

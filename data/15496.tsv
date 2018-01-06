@@ -1,0 +1,4 @@
+2012-05-26T06:47:00.000Z	Gaybar2000		i got a problem
+2012-05-26T06:47:00.000Z	Gaybar2000		how can i chose the kernel i want to boot from command line?
+2012-05-26T06:48:00.000Z	escott	Gaybar2000	hold down shift when grub starts
+2012-05-26T06:49:00.000Z	escott	Gaybar2000	change the default index in /etc/default/grub and rerun update-grub. be careful though as you dont want to end up not being bootable

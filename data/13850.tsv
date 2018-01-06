@@ -1,0 +1,4 @@
+2011-05-26T23:34:00.000Z	bannaN-		When i logg inn with my newly created user my bash profile seems kind of wierd, i cannot press the up arrow to access bash history, and the terminal symbol is only $, if i try to set $PS1 to \u@\h, \u@\h is actually displayed, not <user>@<host> but the actual signs\letters \u@\h... Anybody has an idea of whats wrong? Its ubuntu server btw...
+2011-05-26T23:35:00.000Z	Pici	bannaN-	It sounds like you created your user with useradd rather than adduser.
+2011-05-26T23:36:00.000Z	bannaN-	Pici	hm, could be
+2011-05-26T23:36:00.000Z	Pici	bannaN-	Either re-create it, or copy the stuff from /etc/skel/ into your user's home directory.  Thats usually the cause of these sort of issues for new users.

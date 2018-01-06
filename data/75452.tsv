@@ -1,0 +1,4 @@
+2012-03-05T03:37:00.000Z	tomvolek		 yes, i do . there are two devices nsadmin
+2012-03-05T03:39:00.000Z	mrintegr1ty	tomvolek	networking initscript doesn't always clear up existing interfaces correctly. run ifconfig eth0 down and then init.d/networking restart
+2012-03-05T03:40:00.000Z	mrintegr1ty	tomvolek	the error u got means the config is stilla ctive
+2012-03-05T03:42:00.000Z	mrintegr1ty	tomvolek	not really, it just means the interface already has some configuration applied. you need to clear the active config first. if your "interfaces" file is correctly configured then it should work after restarting the interface

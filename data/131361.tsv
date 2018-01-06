@@ -1,0 +1,4 @@
+2007-06-09T08:49:00.000Z	asdfddfsa		Hey guys, what would be the linux equivalent of 'fixmbr'? Would installing Grub help?
+2007-06-09T08:49:00.000Z	AposteRiori	asdfddfsa	is one option but very dangerous
+2007-06-09T08:51:00.000Z	asdfddfsa	AposteRiori	what would be the best way to wipe the MBR.. all data on the drive can be erased without worry
+2007-06-09T08:52:00.000Z	AposteRiori	asdfddfsa	dd if=/dev/zero of=/dev/(letter example hda) bs=32k count=1, it absolutely cleaning mbr

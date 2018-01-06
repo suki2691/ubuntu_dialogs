@@ -1,0 +1,4 @@
+2007-02-14T15:49:00.000Z	yopad_		hi guys...how do i get my mouse to work...i have extra buttons...is there a program for this?
+2007-02-14T15:49:00.000Z	yopad_		i want to be able to use my back/forward buttons like in windows xp
+2007-02-14T15:49:00.000Z	dyrne	yopad_	you need to edit /etc/X11/xorg.conf file. you can do this like sudo gedit /etc/X11/xorg.conf or sudo sudo dpkg-reconfigure xserver-xorg  if you edit the file just google for the right mouse settings
+2007-02-14T15:50:00.000Z	dyrne	yopad_	choose vesa driver if you do dpkg so you dont mess up your gui

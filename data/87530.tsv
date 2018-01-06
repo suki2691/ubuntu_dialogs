@@ -1,0 +1,4 @@
+2012-01-23T18:14:00.000Z	MrGando		Hey guys, how can I set the default permissions for files created inside  /var/www to be 775 ?
+2012-01-23T18:14:00.000Z	jrib	MrGando	use ACLs
+2012-01-23T18:15:00.000Z	MrGando	jrib	ACLs ? :), could you enlighten me ?
+2012-01-23T18:15:00.000Z	jrib	MrGando	« man setfacl », « man getfacl », « man mount » (you need to mount partitions with "acl" option)

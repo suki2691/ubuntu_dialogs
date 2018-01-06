@@ -1,0 +1,4 @@
+2009-09-21T02:10:00.000Z	rocknblogger		I have a Windows 7 set up in Raid 0, I want to install Ubuntu but don't care if it's in Raid, can I install it to a 3rd drive without loss of any Windows files and still be able to dual boot both?
+2009-09-21T02:11:00.000Z	usser	rocknblogger	yes that should be possible
+2009-09-21T02:12:00.000Z	usser	rocknblogger	you can remove your raided drives and plug in that 3rd one and install ubuntu as if theres only drive in the system, then plug windows drives back in and use bios to choose which hdd to boot
+2009-09-21T02:13:00.000Z	usser	rocknblogger	yea its a little awkward solution but it works, otherwise to boot windows you'd have to install grub to the windows hdd and i dont know how your raid is going to like it

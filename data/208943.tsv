@@ -1,0 +1,4 @@
+2005-12-07T16:07:00.000Z	Otis		why does gcc -v show version 4.0 even after I've done apt-get install gcc-3.4 ?
+2005-12-07T16:08:00.000Z	Otis		do I have to uninstall gcc-4.0 altogether ?
+2005-12-07T16:08:00.000Z	trappist	Otis	export CC=/usr/bin/gcc-3.4 or use update-alternatives
+2005-12-07T16:08:00.000Z	Otis	trappist	thx for the tip

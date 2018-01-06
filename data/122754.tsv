@@ -1,0 +1,4 @@
+2008-01-28T06:29:00.000Z	benanz1		I run my SSH daemon on port 9998 instead of 22 -- when I connect I do: "ssh -p 9998 user@host" -- how do I use scp with this?  "scp -P 9998 FILE user@host:DIR" doesn't work
+2008-01-28T06:30:00.000Z	nemilar	benanz1	I'm pretty sure that's the correct format
+2008-01-28T06:35:00.000Z	nemilar	benanz1	just have strong passwords, you'll be fine
+2008-01-28T06:36:00.000Z	nemilar	benanz1	http://www.techthrob.com/tech/sshfshowto.php <-- sshfs tutorial if you are interested

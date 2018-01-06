@@ -1,0 +1,4 @@
+2010-11-02T19:19:00.000Z	Routers		how to kill this processes.. 10598 pts/1    Ds+    0:00 /usr/bin/dpkg --status-fd 24 --unpack --auto-deconfigure /var/cache/apt/archives/libnet-ssleay-perl_1.35-2ubuntu1_amd64.deb /var/cache/apt/archives/lib
+2010-11-02T19:20:00.000Z	n3rV3	Routers	try sudo pkill -9 dpkg
+2010-11-02T19:21:00.000Z	Routers	n3rV3	: its still there
+2010-11-02T19:23:00.000Z	n3rV3	Routers	reboot is your only option

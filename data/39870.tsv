@@ -1,0 +1,4 @@
+2010-09-10T09:48:00.000Z	brandoney		I'm trying to setup private DHCP net and public static net on the same ethernet.
+2010-09-10T09:48:00.000Z	brandoney		uverse route won't accept 2 IPs on same mac,
+2010-09-10T09:48:00.000Z	brandoney		how do I use a different mac for virtual interface eth0:1 ?
+2010-09-10T09:49:00.000Z	jellow	brandoney	look at macchanger , sudo macchanger -r eth0

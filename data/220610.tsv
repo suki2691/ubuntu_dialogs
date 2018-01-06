@@ -1,0 +1,4 @@
+2008-06-20T19:47:00.000Z	sirlark		hi all, still trying to set up software RAID1 for a fresh ubuntu installation, and can't get the resulting system to boot. I have two identical SATA Hdd's, partitioned identically {32Mb: boot, 195Gb: root (raid md0), 5Gb: swap (raid md1)}. On reboot I simply get DISK BOOT FAILURE from bios, and I've tried force re-grubbing /dev/sda1 (the 32Mb boot). I've checked that /boot/grub/menu.lst is pointing to the right stugg, but the fact that I'm
+2008-06-20T19:48:00.000Z	roger	sirlark	are you set properly in the BIOS?
+2008-06-20T19:51:00.000Z	sirlark	roger	I think so... do I need to set up RAID in the bios to?
+2008-06-20T19:52:00.000Z	roger	sirlark	i had a similar problem when booting from a SCSI drive.... my scsi adaptor didn't understand LBA mode

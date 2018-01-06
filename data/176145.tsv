@@ -1,0 +1,4 @@
+2006-07-01T08:00:00.000Z	matttail		so I have hda partitioned into 4 pieces.  hda1 is linux, hda2 is swap, hda3 is windoze, and hda4 is a fat32 drive for sharing between linux and windoze.  I have hda4 in my fstab set to mount rw.  I have two problems, I have to umount and mount the drive with my user everytime I reboot so I (not only root) has write access to it.  The second problem is that it will randomly change to read only, at which point I'm basically fo
+2006-07-01T08:00:00.000Z	matttail		rced to reboot my system becuase I can't umount it becuase "the device is busy"  How can I go about fixing these issues?
+2006-07-01T08:01:00.000Z	wastrel	matttail	 have you set your user flag in /etc/fstab ?
+2006-07-01T08:02:00.000Z	matttail	wastrel	yes, it's users

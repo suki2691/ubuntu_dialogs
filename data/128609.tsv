@@ -1,0 +1,4 @@
+2007-07-08T07:37:00.000Z	john		Hi, I have Breezy Badger installed on a laptop and want to upgrade to Fiesty - but I don't want to lose my email and documents etc - IS THERE AN UPGRADE that doesn't overwrite and cause me to start again with everything on my desktop?
+2007-07-08T07:37:00.000Z	TrisMcC	john	Are you using GUI or commandline?
+2007-07-08T07:38:00.000Z	TrisMcC	john	Or you can edit /etc/apt/sources.list, replace breezy with feisty, apt-get update, apt-get dist-upgrade, and cross your fingers. :)
+2007-07-08T07:39:00.000Z	TrisMcC	john	update-manager -c

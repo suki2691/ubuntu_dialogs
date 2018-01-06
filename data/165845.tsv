@@ -1,0 +1,4 @@
+2006-10-10T08:00:00.000Z	adrakoa		hi i have a problem with fstab in edgy, with root=/dev/hdax, i remove the line UID=xxxx, and in the boot crash with xd out of memory and kernel panic...
+2006-10-10T08:00:00.000Z	stribb	adrakoa	put noauto into the options (where default is, perhaps)
+2006-10-10T08:01:00.000Z	adrakoa	stribb	ok, but how to write that UID what i remove??
+2006-10-10T08:01:00.000Z	stribb	adrakoa	it just won't mount it at boot-time

@@ -1,0 +1,4 @@
+2010-07-13T23:54:00.000Z	Godfather8850		does anyone know if the VGA out of the computer works on VirtualBox? I have a problem with my VGA out in Ubuntu and I was thinking to give it a try through VirtualBox
+2010-07-13T23:56:00.000Z	luanlmd	Godfather8850	it might work, since virtualbox use the host OS at all.. so the guest SO should run ok too
+2010-07-13T23:57:00.000Z	Godfather8850	luanlmd	so you think I should install the ATI drivers on the virtual box and then connect it with the VGA out inside Ubuntu? will this work?
+2010-07-13T23:58:00.000Z	luanlmd	Godfather8850	the SO inside virtualbox wont recnize your hardware and its drivers, you can install virtualbox guest addtions to get a better graphics into the guest SO

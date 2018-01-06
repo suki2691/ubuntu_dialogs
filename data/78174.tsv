@@ -1,0 +1,4 @@
+2009-02-19T03:47:00.000Z	Royall		I have a folder in my Trash and apparently I don't have the permissions to delete it. Is there a way to empty the trash for a specific user in ternimal under sudo?
+2009-02-19T03:47:00.000Z	rww	Royall	sudo rm -rf /home/username/.local/share/Trash
+2009-02-19T03:48:00.000Z	Royall	rww	thanks!
+2009-03-04T04:54:00.000Z	rww	Royall	aptitude search ~i > ~/filename.txt

@@ -1,0 +1,4 @@
+2008-08-19T03:06:00.000Z	cxo_		How do you get a list of currently install debs?
+2008-08-19T03:06:00.000Z	cxo_		yes
+2008-08-19T03:08:00.000Z	erichj_	cxo_	sudo dpkg --get-selections | tee ~/Desktop/packages.txt will give you a file with all installed debs
+2008-08-19T03:08:00.000Z	erichj_	cxo_	welcome

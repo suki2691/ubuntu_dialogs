@@ -1,0 +1,4 @@
+2007-03-29T14:48:00.000Z	trond		I do not get any sound with OSS in wine? Do I have to do any adjustments in order to get it to work? I have setup OSS as the soundriver in winecfg
+2007-03-29T14:49:00.000Z	Jowi	trond	you might need to modprobe snd_seq and/or snd_seq_oss
+2007-03-29T14:52:00.000Z	trond	Jowi	Sorry for being a newbie, but how do I do that? :)
+2007-03-29T14:52:00.000Z	Jowi	trond	in a terminal type "sudo modprobe snd_seq" repeat for snd_seq_oss. it might work, it might not. for me it worked

@@ -1,0 +1,4 @@
+2011-07-22T22:04:00.000Z	a-new-user		hi, how do i find out whats causing this error? "failed to enumerate usb device on port 2"
+2011-07-22T22:04:00.000Z	a-new-user		actually its "unable to enumerate...."
+2011-07-22T22:05:00.000Z	ohzie	a-new-user	unplug your usb devices and slowly plug them in until you get that error in dmesg
+2011-07-22T22:05:00.000Z	ohzie	a-new-user	when you get it, the last thing you plugged in is probably what's causing that error.

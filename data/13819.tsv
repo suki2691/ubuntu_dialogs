@@ -1,0 +1,4 @@
+2011-05-27T19:03:00.000Z	Dazzled		hmm anyone knows how I can make a bash script "wait" until the computer has an internet connection?
+2011-05-27T19:03:00.000Z	Dazzled		or should I implement that in my main application
+2011-05-27T19:04:00.000Z	bif001	Dazzled	you could loop over pinging, say, google, then get out of the loop on success ...
+2011-05-27T19:07:00.000Z	Dazzled	bif001	ah, k, yeah I found something like that http://blog.loftninjas.org/2010/11/30/script-hacks-waiting-for-the-internet/

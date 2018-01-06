@@ -1,0 +1,4 @@
+2010-01-01T03:13:00.000Z	jMyles		I want to apache to serve files from some place other than /var/www - need i create a symbolic link?
+2010-01-01T03:15:00.000Z	mister_roboto	jMyles	you can change DocumentRoot in /etc/apache2/sites-available/default (if you're using just the default setup)
+2010-01-01T03:16:00.000Z	mister_roboto	jMyles	but leaving it alone and putting some symlinks in that dir works just fine too
+2010-01-01T03:18:00.000Z	jMyles	mister_roboto	grawity: Thanks.  :-)

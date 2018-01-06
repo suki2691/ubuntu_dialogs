@@ -1,0 +1,4 @@
+2008-06-26T18:08:00.000Z	ChrissyW		Hey everyone, having a bit of a problem. I'm following instructions I got from ubuntugeek.com on getting hotmail working through Evolution. It wants me to reset my inetd server using" sudo /etc/init.d/inetutils-inetd restart" but when I do that I get the message "sudo: /etc/init.d/inetutils-inetd: command not found" Any ideas why this is happening?
+2008-06-26T18:10:00.000Z	RAdams	ChrissyW	apt-cache search inetutils. take a look at those packages. if those aren't installed, that command won't work
+2008-06-26T18:10:00.000Z	ChrissyW	RAdams	okay I'll check that
+2008-06-26T18:12:00.000Z	ChrissyW	RAdams	I see packages there when i type that command.

@@ -1,0 +1,4 @@
+2009-01-26T23:57:00.000Z	kao		oCean_:This same thing happens to me also, with the Firefox crashing on Flash. How do I find out what flashplugin I am using?
+2009-01-26T23:58:00.000Z	oCean_	kao	chumbo: see "ls -al /etc/alternatives/firefox-flashplugin" It's a link
+2009-01-26T23:59:00.000Z	oCean_	kao	chumbo: so, mine is a link to /usr/lib/flashplugin-nonfree/libflashplayer.so
+2009-01-27T00:00:00.000Z	oCean_	kao	Ah, I see... well, that plugin was for me the solution to work with all flash pages

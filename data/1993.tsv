@@ -1,0 +1,4 @@
+2012-08-06T13:16:00.000Z	Anomie21		Is there a way to get updates to install automatically at a set time? I know this could be achieved via a cron job (2008 post on ubuntu forums) but I'm wondering if there's a setting I'm overlooking in 12.04
+2012-08-06T13:18:00.000Z	W4sp	Anomie21	There is no daemon for unattended-upgrades, hence you will need crond for it.
+2012-08-06T13:19:00.000Z	Anomie21	W4sp	just used 'apt-get install gnome-schedule'
+2012-08-06T13:25:00.000Z	W4sp	Anomie21	gnome-schedule uses crond as stated. It will use the crontabs to read and write the entries, AFAIK. It will make crond as stated on the page you posted.

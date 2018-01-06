@@ -1,0 +1,4 @@
+2006-10-27T09:12:00.000Z	Syrra		:/
+2006-10-27T09:14:00.000Z	Syrra		Hey, I've been trying to update via gksu "update-manager -c" and it seems to get hung downloading the 21st file when it first starts downloading and then it displays "Failed to fetch http://packages.freecontrib.org/ubuntu/plf/dists/dapper/Release.gpg Temporary failure resolving 'packages.freecontrib.org'"
+2006-10-27T09:16:00.000Z	Syrra		So... do I just try again tomarrow?
+2006-10-27T09:16:00.000Z	dabaR	Syrra	no, just remove the plf repo from your sources.list and then try again. or remove the plf repo through synaptic.

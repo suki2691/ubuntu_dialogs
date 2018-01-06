@@ -1,0 +1,4 @@
+2006-10-24T14:21:00.000Z	crochat		I have upgraded my system to Edgy, and I saw that now, the partitions are named with UUID in fstab ! That's great... but how to deal with UUID ? If I change my partitions, how can I know which new UUID I must write in the fstab ?
+2006-10-24T14:22:00.000Z	POVaddct	crochat	tune2fs -l /dev/<partition>   should tell you the uuid
+2006-10-24T14:23:00.000Z	crochat	POVaddct	And for the filesystems other than ext2/ext3/ext4 ?
+2006-10-24T14:24:00.000Z	POVaddct	crochat	i don't know

@@ -1,0 +1,4 @@
+2008-06-30T03:34:00.000Z	john_		hey, i installed php5 and apache2, but apache isn't recognising php files
+2008-06-30T03:35:00.000Z	john_		do i have to add something to the default site conf?
+2008-06-30T03:37:00.000Z	unop	john_	you need to setup apache to handle .php files with the php interpreter - in the site that you want php enabled (not necessarily the default site)
+2008-06-30T03:47:00.000Z	unop	john_	sudo a2enmod php5 # after making sure php5 is installed -- that should get you started -- have a look at the php documentation for apache for further configuration

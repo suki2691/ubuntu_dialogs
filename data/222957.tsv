@@ -1,0 +1,4 @@
+2005-12-04T12:12:00.000Z	B_166-ER-X		https://wiki.ubuntu.com/BinaryDriverHowto/Nvidia , at the number 11, its telling me to install the 686 package... but what if everything else i have is 386 ??
+2005-12-04T12:13:00.000Z	TheRaginAsian	B_166-ER-X	either change completely over to 686 kernel or just continue to use 383-restricted
+2005-12-04T12:25:00.000Z	TheRaginAsian	B_166-ER-X	well, if you apply those two packages I told you, they always depend on the latest of the K7 Kernel and Modules, so they will update when updates come around
+2005-12-04T12:29:00.000Z	TheRaginAsian	B_166-ER-X	by applying the generic "linux-image-k7" package it will apply the latest kernel

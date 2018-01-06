@@ -1,0 +1,4 @@
+2004-12-26T13:48:00.000Z	Stuttergart		Anyone running VMWare on Hoary?
+2004-12-26T13:48:00.000Z	Stuttergart		I'm getting kernel-headers mismatches when trying to compile the VMWare modules against the latest linux-image package.
+2004-12-26T13:48:00.000Z	sladen	Stuttergart	why are you using kernel-headers?
+2004-12-26T13:49:00.000Z	Stuttergart	sladen	You need the kernel-headers packages so that the VMWare install process can compile against them.

@@ -1,0 +1,4 @@
+2008-04-18T14:39:00.000Z	explore1		Hi everybody. Problem:  downloaded jdk-6u6-linux-i586.bin from sun site. copied the file to /usr/sbin. Ran the binary as root. A new dir tree is created /usr/sbin/jdk1.6.0_06/*. I added /usr/sbin/jdk1.6.0_06/bin to $PATH. I am able to run javac. I also added *jdk1.6.0_06/jre/bin so that I can use JRE. But when I type java --version I get :
+2008-04-18T14:39:00.000Z	explore1		java version "1.5.0"
+2008-04-18T14:41:00.000Z	explore1		 java version "1.5.0"
+2008-04-18T14:42:00.000Z	slowlearner	explore1	sudo update-alternatives --config java

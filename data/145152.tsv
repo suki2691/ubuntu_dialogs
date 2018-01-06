@@ -1,0 +1,4 @@
+2012-02-28T21:25:00.000Z	SubjectOne		is there an extension , for an terminal to automaticly stay on-top ?
+2012-02-28T21:26:00.000Z	martian	SubjectOne	you can right click the right corner of the window and select that option
+2012-02-28T21:27:00.000Z	martian	SubjectOne	true. Check out the last reply to http://www.linuxquestions.org/questions/linux-newbie-8/is-there-a-always-on-top-option-for-gnome-terminal-809611/
+2012-02-28T21:29:00.000Z	martian	SubjectOne	so you could create a gnome-terminal session with a fixed window title, and then modify the shortcut and add "& wmctrl -r TitleName -b add,above" to the command

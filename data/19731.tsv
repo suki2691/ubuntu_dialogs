@@ -1,0 +1,4 @@
+2012-03-25T18:48:00.000Z	ivivi		hi friends, I have a problem. I write: "sudo bash" in the console but it says to me that ivan is not in the sudoers file.  This incident will be reported.
+2012-03-25T18:48:00.000Z	ivivi		how I fix it?
+2012-03-25T18:50:00.000Z	ivivi		aaaammm
+2012-03-25T18:51:00.000Z	__Alex_	ivivi	It doesn't work because on ubuntu, the developers think it's a good idea not to enable root by default, not even give them an option in the installer, to confuse them. You can enable root by setting his password: "sudo passwd"

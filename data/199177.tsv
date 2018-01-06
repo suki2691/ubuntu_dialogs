@@ -1,0 +1,4 @@
+2007-06-16T06:17:00.000Z	utop|away		hey guys, i've an unusual way of connecting to the internet.. i've a modem that sends and recieves signals by antenna,how would i go about configuring this on ubuntu?
+2007-06-16T06:18:00.000Z	Frogzoo	utop|away	chances are, you need to run pppoeconf
+2007-06-16T06:18:00.000Z	Frogzoo	utop|away	then you start your connection with 'pon dsl-provider' & turn it off with 'poff'
+2007-06-16T06:19:00.000Z	Frogzoo	utop|away	is this ethernet between pc & modem?

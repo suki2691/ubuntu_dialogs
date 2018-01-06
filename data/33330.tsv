@@ -1,0 +1,4 @@
+2011-01-07T19:58:00.000Z	aeon-ltd		hi i've got a memory card reader (internal) is there a 'ls' type command or similar to poll all the memory cards plugged in
+2011-01-07T19:59:00.000Z	rumpe1	aeon-ltd	lsusb
+2011-01-07T20:03:00.000Z	rumpe1	aeon-ltd	try "tail -f /var/log/messages" and plugoff/plugin the reader/card
+2011-06-22T19:45:00.000Z	rumpe1	aeon-ltd	that won't work

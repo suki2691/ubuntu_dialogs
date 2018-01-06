@@ -1,0 +1,4 @@
+2008-08-29T00:40:00.000Z	Tarandus		is it safe to use hibernate with hardware fakeraid (dmraid)?
+2008-08-29T00:41:00.000Z	`Matir	Tarandus	so long as /boot and your swap aren't on the fakeraid, I would think so... I use dm-crypt filesystem with no problem, and it's a fairly similar implementation.
+2008-08-29T00:43:00.000Z	`Matir	Tarandus	I'd think you'd be fine then
+2008-08-29T00:44:00.000Z	`Matir	Tarandus	basically hibernate is just a boot + saved state in swap

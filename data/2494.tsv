@@ -1,0 +1,4 @@
+2012-06-13T12:57:00.000Z	sneakza		Hi
+2012-06-13T12:58:00.000Z	sneakza		I'm using pressed  with an installation, it seems the whole install goes well until i try boot the new system, where i end up with a grub error which says out of disk, http://paste.ubuntu.com/1038693/ id my preseed config and the install log which says grub install successful… any ideas
+2012-06-13T12:59:00.000Z	Dr_Willis	sneakza	 erlier today some one mentioned how grub 'out of disk' means the boot files are to far 'back' on the hard drive like in the old lili 1023 cylinder limit. putting a /boot/ partition at the start of the drive might fix the issue
+2012-06-13T13:02:00.000Z	sneakza	Dr_Willis	i'll check that but I think /boot is my first partition /sda1

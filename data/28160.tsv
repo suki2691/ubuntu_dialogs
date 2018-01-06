@@ -1,0 +1,4 @@
+2010-08-01T10:29:00.000Z	Hilikus		i have a server and a laptop. the server uses dynip and the laptop can access it when outside the LAN by using the dynip name, but once the laptop is in the same network it can not access the server using the same name. i have to use the server's hostname directly. this breaks all my bookmarks and apps configs cause sometimes the server is called one thing, and when outside the network another thing
+2010-08-01T10:29:00.000Z	Hilikus		how can i fix this?
+2010-08-01T10:31:00.000Z	guampa	Hilikus	you can modify your /etc/hosts to force a name resolution
+2010-08-01T10:31:00.000Z	Hilikus	guampa	i know, but i cant resolve to 1 thing since it depends wether i'm in or outside the network

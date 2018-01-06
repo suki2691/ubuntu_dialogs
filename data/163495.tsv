@@ -1,0 +1,4 @@
+2007-04-27T08:07:00.000Z	craigbass1976		I'm trying to log in to a firewall, but get an error message "You have received an invalid certificate..."  I'm guessing because this address I'm aiming for had another https server at one time and I might have that cert still saved somewhere.  What do you all think?
+2007-04-27T08:07:00.000Z	Gropi	craigbass1976	perhaps you need to present a cert yourself to authenticate YOU to the server.
+2007-04-27T08:08:00.000Z	craigbass1976	Gropi	how do I do that?  I can log into it when I'm behind it, and it's set to receive https from both the LAN and WAN.
+2007-04-27T08:14:00.000Z	craigbass1976	Gropi	Found the issue.  I removed a prior cert I had from that site.

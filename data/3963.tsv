@@ -1,0 +1,4 @@
+2012-04-19T02:10:00.000Z	JPeterso2		how do i symlink on ntfs?
+2012-04-19T02:11:00.000Z	JPeterso2		yes
+2012-04-19T02:12:00.000Z	JPeterso2		ln -s fails on ntfs, ln: creating symbolic link `link': Operation not supported
+2012-04-19T02:14:00.000Z	ReXHaviK	JPeterso2	look at 'how to vfs a ntfs partition' , once the ntfs is seen as a local (vfs) you can symlink to your hearts content

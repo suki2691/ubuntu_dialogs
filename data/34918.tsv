@@ -1,0 +1,4 @@
+2011-10-31T02:19:00.000Z	NerdsMG		Hey guys, I'm having a bit of a problem trying to boot the 11.04 LiveCD on my MacBookPro. Has anyone been able to do so? It looks like it's a bug in the kernel. :(
+2011-10-31T02:20:00.000Z	Jordan_U	NerdsMG	What happens when you try to boot it? Why 11.04 rather than 11.10?
+2011-10-31T02:21:00.000Z	NerdsMG	Jordan_U	I'm sorry, I've tried both. They load grub fine, but I get an error saying that it's unable to load a rootfs
+2011-10-31T02:23:00.000Z	Jordan_U	NerdsMG	Somehow the kernel isn't able to access your CDROM drive, this can be worked around by using the minimal install CD (the entire installer is loaded into memory by the bootloader, before the kernel even starts).

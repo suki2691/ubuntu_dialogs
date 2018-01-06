@@ -1,0 +1,4 @@
+2007-09-29T08:00:00.000Z	baabaablacksheep		er, can guide me through how to set the noapci mode in grub?
+2007-09-29T08:02:00.000Z	baabaablacksheep		i'm getting a kernel panic, so can't boot into the system at all
+2007-09-29T08:02:00.000Z	baabaablacksheep		yup, at that.
+2007-09-29T08:03:00.000Z	warbler	baabaablacksheep	in terminal - sudo gedit /etc/fstab - scroll to the line that starts kernel after the line "end defaults" - go to end of the line and type - noapic nolapic - save and reboot

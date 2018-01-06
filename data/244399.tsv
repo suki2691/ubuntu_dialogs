@@ -1,0 +1,4 @@
+2005-06-10T12:05:00.000Z	johan_		i wanna host with nfs on my ubuntu box
+2005-06-10T12:06:00.000Z	johan_		on private network
+2005-06-10T12:07:00.000Z	slept	johan_	you know how to do that or do you need help ?
+2005-06-10T12:12:00.000Z	slept	johan_	if you have installed the nfs server you just have to add:  /path (ro) or (rw) in /etc/exports , then you can mount from the other machine IP:/path

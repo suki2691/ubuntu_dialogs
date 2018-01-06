@@ -1,0 +1,4 @@
+2005-04-02T10:47:00.000Z	padlefot		how do i mount an ntfs disk and make i readable from my user??
+2005-04-02T10:48:00.000Z	padlefot		can somebody please help me?
+2005-04-02T10:49:00.000Z	nmoore	padlefot	off the top of my head: mount -t ntfs /dev/hdX /mnt/ntfs
+2005-04-02T10:51:00.000Z	nmoore	padlefot	add a line to /etc/fstab for the disk with an option "user"

@@ -1,0 +1,4 @@
+2009-02-01T04:09:00.000Z	bmorris		Does anybody know how to restore /etc/apache2
+2009-02-01T04:10:00.000Z	momomo	bmorris	aptitude reinstall $package, or download the package and hand pick the files you need
+2009-02-01T04:16:00.000Z	bmorris	momomo	that doesn't regenerate my config files though..
+2009-02-01T04:20:00.000Z	momomo	bmorris	aptitude purge foo deletes static and config files

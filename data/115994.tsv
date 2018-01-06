@@ -1,0 +1,4 @@
+2008-01-24T05:30:00.000Z	Jangari		hey, i finally got the mount command working and connecting me perfectly to the server, but now i want to do it automatically from startup, is that possible?
+2008-01-24T05:31:00.000Z	Jangari		don't tell me to use fstab, it doesn't work
+2008-01-24T05:31:00.000Z	ArthurArchnix	Jangari	Fstab is loaded before network... I think, so I wouldn't think it would work.
+2008-01-24T05:32:00.000Z	ArthurArchnix	Jangari	I think pam-mount is the answer you're looking for.

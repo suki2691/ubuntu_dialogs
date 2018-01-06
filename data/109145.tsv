@@ -1,0 +1,4 @@
+2007-12-20T22:51:00.000Z	bmw330i		hello, I have a question: Ubuntu 7.10, T43 laptop, accesspoint has no encryption/security but every time I wake or boot I have to open Network Prefs, select an encryption type, type junk into the password field, delete it, then click ok for the Network to work. If I don't it shows enabled but I can't connect to anything.
+2007-12-20T22:53:00.000Z	MilhousePunkRock	bmw330i	The network manager is far from being perfect, I suggest you just configure you network manually with the /etc/network/interfaces
+2007-12-20T22:55:00.000Z	bmw330i	MilhousePunkRock	Ah, just edit that? Good idea. I thought the GUI did that.
+2007-12-20T22:55:00.000Z	MilhousePunkRock	bmw330i	It does, but manual is probably better... Maybe you need to stop or even uninstall network manager... Another thing you could try is wicd, wireless internet connection demon, in my taste way better than nm

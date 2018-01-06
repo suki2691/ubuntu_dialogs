@@ -1,0 +1,4 @@
+2012-08-25T04:52:00.000Z	Silur		Q: is it possible to combine these two in one line:  sed -i 's/sha1/sha/g' file  and   sed -i 's/SHA1/SHA/g' file   ?
+2012-08-25T04:53:00.000Z	Dr_Willis	Silur	 you mean into a single call of sed? not 'command1 && command2' ?
+2012-08-25T04:53:00.000Z	Silur	Dr_Willis	yes, i guess create a regex play not just &&
+2012-08-25T04:54:00.000Z	Dr_Willis	Silur	  i recall some 'ignore case' in my "mastering regular expressions' but it May depend on  the exact regexp options sed's regexp engine takes.

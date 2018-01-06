@@ -1,0 +1,4 @@
+2008-10-24T22:42:00.000Z	blip-		hi all,  i'm using a linux server that has apache2 installed,  ubuntu 8.04....  after deleting old website files and uploading new ones,  i still get the old website.  i have restarted apache2 with "apache2ctl graceful" as well as with the stop/start.     I'm still seeing the old site.  hell i tried accessing from a different machine.  what's happening ?    thanks
+2008-10-24T22:44:00.000Z	Codedrunk_work	blip-	It sounds like you may be using another directory for your web files. What directory fo you have configured in httpd.conf?
+2008-10-24T22:45:00.000Z	blip-	Codedrunk_work	 do you know where this file is on ubuntu so i can check  ?   Ubuntu 8.04
+2008-10-24T22:47:00.000Z	Codedrunk_work	blip-	It should be /etc/httpd/httpd.conf. This is the main config file for Apache.

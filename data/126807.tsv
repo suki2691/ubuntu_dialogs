@@ -1,0 +1,4 @@
+2010-02-14T20:36:00.000Z	Blindsite		... Fine.    I shall repeat my situation on one line.   I had my net working.   I did the updates.  I restarted.  Now my network keeps blanking my DHCP ID and it won't let me save it.   In addition i have an unmodifiable ifupdown (eth0) how do i get rid of it and input my DHCP ID into eth1 so i can connect to the internet?
+2010-02-14T20:37:00.000Z	Noble	Blindsite	dhcpd eth1
+2010-02-14T20:37:00.000Z	Noble	Blindsite	or rather dhcplient eth1
+2010-02-14T20:38:00.000Z	Noble	Blindsite	Check /etc/network/interfaces

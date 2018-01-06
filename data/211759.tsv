@@ -1,0 +1,4 @@
+2005-10-26T10:01:00.000Z	anatole		a strange question: can i set the gtk theme used by apps launched with gksudo?
+2005-10-26T10:01:00.000Z	kaschei	anatole	I don't know for sure but have you tried making a gtkrc in /root?
+2005-10-26T10:01:00.000Z	anatole	kaschei	will try
+2005-10-26T10:02:00.000Z	kaschei	anatole	try sudo cp ~/.gtkrc /root/gtkrc && chown root /root/gtkrc

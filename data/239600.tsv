@@ -1,0 +1,4 @@
+2007-07-15T16:03:00.000Z	chris__		how can i stop it from asking for my password when i run commands as root???
+2007-07-15T16:03:00.000Z	chris__		yes i do :)
+2007-07-15T16:04:00.000Z	NigelS	chris__	you prob don't really want to - if you want a terminal with root privs use sudo -s
+2007-07-15T16:24:00.000Z	NigelS	chris__	if you really want to make sudo not time you out you need to edit the /etc/sudoers file and use the timestamp_timeout option - set it to a negative number in order for the to never time out.  you have to use visudo to edit it; I really wouldn't recommend doing this though

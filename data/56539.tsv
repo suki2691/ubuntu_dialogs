@@ -1,0 +1,4 @@
+2010-03-06T02:09:00.000Z	evident		hi everybody... can anybody tell me how I can copy a local file to a directory on a server over ssh?
+2010-03-06T02:10:00.000Z	SolarisBoy	evident	with scp its more difficult using plain ssh
+2010-03-06T02:10:00.000Z	SolarisBoy	evident	scp file user@host:/place/ihave/permissions/to
+2010-03-06T02:11:00.000Z	SolarisBoy	evident	FYI you can "pull" files doing it the reverse scp user@host:/file/i/want /tmp

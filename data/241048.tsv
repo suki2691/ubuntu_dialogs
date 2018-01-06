@@ -1,0 +1,4 @@
+2006-09-07T16:09:00.000Z	dash|Kye		I am trying to mount a second hard drive that I have [formatted in ext3 atm] , but can't get it to work
+2006-09-07T16:09:00.000Z	dash|Kye		d@sh-main:/dev$ sudo mount -t ext3 /dev/hdc /media/Media/
+2006-09-07T16:09:00.000Z	dash|Kye		mount: No medium found
+2006-09-07T16:10:00.000Z	hondje	dash|Kye	You can't mount the whole drive, you need a partition, so /dev/hdc1 for example

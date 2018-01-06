@@ -1,0 +1,4 @@
+2010-06-09T11:37:00.000Z	mandi		i'm trying to access a folder in the var/lib section, but the terminal is saying permission denied and the GUI says i'm not the owner and can't access the folder - any suggestions?
+2010-06-09T11:37:00.000Z	vishaltelangre	mandi	sudo cd /var/lib
+2010-06-09T11:38:00.000Z	mandi	vishaltelangre	i did that, but when i try to access the specific file i'm looking for, it says permission denied
+2010-06-09T11:39:00.000Z	vishaltelangre	mandi	sudo -i or su root (for su you need UNIX passwd)

@@ -1,0 +1,4 @@
+2011-08-29T19:34:00.000Z	DaSpawn		anyone have any ideas on the strange config caching effect in php?  I am changing the correct php.ini file but the changes will not take effect untill I completely restart the entire server, restarting the web server the change will not take, what am I missing?
+2011-08-29T19:35:00.000Z	f00f	DaSpawn	did yopu do /etc/init.d/apache restart
+2011-08-29T19:36:00.000Z	f00f		sry im not sure that is location of scrip in ubuntu
+2011-08-29T19:37:00.000Z	DaSpawn	f00f	yes I restarted the webs, it may be related to fastcgi not closing processes, I killed everything and it works..  wonder why web server does not kill fastcgi processes on restart...  oh well, guess I answered my own question..  thanks though..

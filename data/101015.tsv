@@ -1,0 +1,4 @@
+2009-07-09T12:34:00.000Z	S_A		Hi! I want to make my application pam aware. e.g. various apps e.g. system-config-date asks for root password before taking user to actual functionality. I need to know how it is done. Any hints ?
+2009-07-09T12:35:00.000Z	l0C0	S_A	are you referring to gksudo?
+2009-07-09T12:37:00.000Z	S_A	l0C0	is it the one called by apps everytime an application is supposed to called with root authentication ?
+2009-07-09T12:38:00.000Z	l0C0	S_A	yes, just try starting an app with gksudo and have a look, eg. gksudo gedit

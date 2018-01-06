@@ -1,0 +1,4 @@
+2010-05-19T20:06:00.000Z	Soyo		If cron was having an error where would it show up? (Is there a cron error log or if not which log should I look at?)
+2010-05-19T20:07:00.000Z	llutz	Soyo	cron mails if possible and logs to /var/log/messages (syslog)
+2010-05-19T20:08:00.000Z	llutz	Soyo	needs  a working mta locally
+2010-05-19T20:54:00.000Z	llutz	Soyo	you can define external mail-addresses in /etc/aliases

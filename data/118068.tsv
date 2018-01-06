@@ -1,0 +1,4 @@
+2011-09-05T18:30:00.000Z	mdmkolbe		I am running natty, but want to run a version of a package from oneric.  Is there a way to use the oneric repository for just one package?  (I checked the dependancies, it should be fine.)
+2011-09-05T18:31:00.000Z	yeats	mdmkolbe	you can try downloading and installing from packages.ubuntu.com - but I would caution against it ;-)
+2011-09-05T18:35:00.000Z	mdmkolbe	yeats	once I downoad the .deb file, do I use "dpkg -i" to install it?  Do I need to inform apt that the old version isn't used any more and I have a new version?
+2011-09-05T18:36:00.000Z	yeats	mdmkolbe	yes - 'sudo dpkg -i' - and APT uses dpkg to determine which version is newest

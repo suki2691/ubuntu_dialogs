@@ -1,0 +1,4 @@
+2012-05-15T16:42:00.000Z	Frantic		guys, any idea if it's possible to make supervisord restart one of it's managed processes when a file is touched? i.e. `touch /tmp/.restart_my_service` leads to supervisord restarting a service ?
+2012-05-15T16:43:00.000Z	jrib	Frantic	if supervisord doesn't support that functionality directly, you could use inotify (or incron) to do it yourself
+2012-05-15T16:44:00.000Z	Frantic	jrib	I'm not sure if it does support it or not, I'm pretty new to supervisord, google hasn't helped me so far :(
+2012-05-15T16:44:00.000Z	jrib	Frantic	well I'd start at http://supervisord.org/ and its man page

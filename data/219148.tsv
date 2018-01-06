@@ -1,0 +1,4 @@
+2005-10-11T16:00:00.000Z	Cryptid		k thanx
+2005-10-11T16:01:00.000Z	dooglus	Cryptid	for one, you shouldn't untar as root - tar files can overwrite important system files
+2005-10-11T16:01:00.000Z	Cryptid	dooglus	what does that error mean that i got
+2005-10-11T16:02:00.000Z	dooglus	Cryptid	I think it means that your tar isn't clever enough to realise that it's a gzipped archive, and that you need to use the 'z' flag, like:  tar xfz archive.tar.gz

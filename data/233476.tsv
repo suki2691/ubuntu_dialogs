@@ -1,0 +1,4 @@
+2007-12-04T00:48:00.000Z	bthornton		If I'm booting multiple Linux distros on the same machine (say, Fedora 6, Ubuntu Feisty, and Ubuntu Gutsy), is it necessary to have separate /boot partitions for each?  Or can the boot files all coexist peacefully on the same /boot partition?
+2007-12-04T00:49:00.000Z	moot	bthornton	check the contents of /boot in each distro, and i think you'll find an answer for yourself
+2007-12-04T00:50:00.000Z	bthornton	moot	I'd say that, yes, they can coexist--since the kernel names are all unique.  I guess the question is: will the installers let me do this?  For example, say the next version of Ubuntu comes out and I want ot do a fresh install of that, will it let me use the same /boot ?
+2007-12-04T00:53:00.000Z	moot	bthornton	backup, and try it

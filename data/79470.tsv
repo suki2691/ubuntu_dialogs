@@ -1,0 +1,4 @@
+2011-10-04T06:16:00.000Z	HedgeMage		Hey, all.  I'm an experienced Linux user, and I'm trying to teach a total newbie some Ubuntu basics via VNC as he's not quite 100% CLI-ready yet (we're getting there).  He doesn't control the NAT he's behind.  Port 22 is forwarded to his machine, but nothing else.  AFAIK vino can't be made to listen on anything other than 5900 (if it can please correct me).  I'm considering trying to help him
+2011-10-04T06:17:00.000Z	HedgeMage		configure it so I can connect via an SSH tunnel, but that's so far over his head it would be an onerous undertaking.  We could use IPtables to locally forward port 22 to port 5900, but that sounds equally hard to talk him through. Is there an easier-for-newbies way to solve this problem (I don't care if it's easy for me, I know what I'm doing and control my own network)?
+2011-10-04T06:18:00.000Z	DasEi	HedgeMage	google teamspeak
+2011-10-04T06:20:00.000Z	DasEi	HedgeMage	or ssh -X, iff 22 is already free

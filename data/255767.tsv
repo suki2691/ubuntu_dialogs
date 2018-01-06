@@ -1,0 +1,4 @@
+2004-12-17T12:16:00.000Z	calamari		does kill -9 free memory and etc?
+2004-12-17T12:17:00.000Z	moquist	calamari	yeah, but it doesn't let the process clean up.  i.e., the process is simply stopped cold.  it doesn't have any chance to flush data, etc.
+2004-12-17T12:17:00.000Z	moquist	calamari	that's why some processes catch the regular kill signal - so they can clean up and exit gracefully.
+2004-12-17T12:19:00.000Z	calamari	moquist	oic thanks, that makes sense

@@ -1,0 +1,4 @@
+2009-01-06T04:29:00.000Z	ubuntu_noob		which module on the 8.10 livecd is for ext4? I need to mount a partition... ext4dev doesn't work :/
+2009-01-06T04:29:00.000Z	ubuntu_noob		hi :)
+2009-01-06T04:30:00.000Z	kitche	ubuntu_noob	why not just mount the partition as ext3?
+2009-01-06T04:32:00.000Z	kitche	ubuntu_noob	should work considering ext4 is backwards compatible but I believe ubuntu doesn't support ext4 yet but if you do mount -t ext4 it should auto load th ext4 module

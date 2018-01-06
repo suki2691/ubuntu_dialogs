@@ -1,0 +1,4 @@
+2004-12-09T16:05:00.000Z	anders_		alsa stops working after each reboot, only way I figured out to fix it is to apt-get --purge remove hotplug and apt-get install hotpug plus the deps it removed. Alsa is always broken on reboot, and this method always fixes it.
+2004-12-09T16:06:00.000Z	melazyboy	anders_	why not just apt-get --reinstall install hotplug ?
+2004-12-09T16:07:00.000Z	anders_	melazyboy	will that purge configuration files?
+2004-12-09T16:07:00.000Z	anders_	melazyboy	ok, I'll reboot and try it

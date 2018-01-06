@@ -1,0 +1,4 @@
+2011-10-05T01:48:00.000Z	ptt		what tool do you guys use to merge 2 existing file system. my root  directory under /dev/sda6 is full so i want to merge my /dev/sda7 to expand /dev/sda6. any idea?
+2011-10-05T01:49:00.000Z	Gnea	ptt	put sda7 as /home
+2011-10-05T01:50:00.000Z	ptt	Gnea	i have another dev as home. my home seems to have lot of space but not the root directory
+2011-10-05T01:51:00.000Z	Gnea	ptt	gparted can do that. ah, so figure out subdir in / is taking up the most room and put that on sda7

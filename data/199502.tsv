@@ -1,0 +1,4 @@
+2007-05-02T08:49:00.000Z	ydo		hi, I've trouble with my sd card on my newly installed ubuntu feisty. card is only found after rebooting with card in slot, not after insert, what to do?
+2007-05-02T08:50:00.000Z	dyrne	ydo	is that just for automount or does removing readding the card and doing dmesg | tail not show a sda1 or whatever?
+2007-05-02T08:52:00.000Z	ydo	dyrne	insert does show anything in dmesg. modprobe tifm_sd doesnt show anything
+2007-05-02T09:00:00.000Z	ydo	dyrne	no further clues?

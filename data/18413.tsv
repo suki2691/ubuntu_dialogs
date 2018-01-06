@@ -1,0 +1,4 @@
+2011-07-14T22:26:00.000Z	kwvarga		Hey, I am having an issue with my computer crashing about every 2 hours. I have reinstalled video card drivers (nvidia), and have now went back to default drivers (horrible res), but it is still happening
+2011-07-14T22:26:00.000Z	kwvarga		Can anyone give me some guidance into what files to look into to figure out what is going on ?
+2011-07-14T22:27:00.000Z	Incarus6	kwvarga	that highly depends on what you want to debugg
+2011-07-14T22:30:00.000Z	Incarus6	kwvarga	you can exclude the graphic card driver by looking into "/var/log/Xorg.0.log"

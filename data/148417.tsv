@@ -1,0 +1,4 @@
+2007-01-19T14:44:00.000Z	Linuxkrn|wrk		ok, I've tried three versions of ubuntu, two different boxes and both are flaky with network connections.  Ping works, ifconfig shows up but many system apps like update/firefox/etc cannot connect.  I've checked and the computer is not even trying to get out (tcpdump on firewall)  this only happens on ubuntu
+2007-01-19T14:44:00.000Z	Judicata	Linuxkrn|wrk	what distro works?
+2007-01-19T14:45:00.000Z	Linuxkrn|wrk	Judicata	gentoo, centos, and suse all worked fine
+2007-01-19T14:46:00.000Z	Judicata	Linuxkrn|wrk	you might try disabling ipv6, but it could have to do with the driver ubuntu uses for your card. Honestly, i'm not sure though.

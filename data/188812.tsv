@@ -1,0 +1,4 @@
+2009-06-20T05:50:00.000Z	xim_		is there a quick terminal command to move all the files in a recursive directory tree to the root of that tree?
+2009-06-20T05:51:00.000Z	xim_		something like # mv -r . .
+2009-06-20T05:51:00.000Z	xim_		but theres no -r option
+2009-06-20T05:52:00.000Z	jdu	xim_	find . -type f -exec mv {} + .             or something like that

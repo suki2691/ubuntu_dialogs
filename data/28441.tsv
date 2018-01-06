@@ -1,0 +1,4 @@
+2011-01-17T05:35:00.000Z	jayd3e		how do i change which python interpreter is called.  I have added `/opt/Python-2.6.4/bin` to the front of my PATH, and done a source ~/.profile, but it is still calling the python located at /usr/bin
+2011-01-17T05:37:00.000Z	jayd3e		how do i change which python interpreter is called.  I have added `/opt/Python-2.6.4/bin` to the front of my PATH, and done a source ~/.profile, but it is still calling the python located at /usr/bin
+2011-01-17T05:38:00.000Z	jayd3e		enabled*
+2011-01-17T05:40:00.000Z	ilovefairuz	jayd3e	in your  entry point script, you can change the very first line that starts with #!  (the "shebang") to your interpreter of choice

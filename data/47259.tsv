@@ -1,0 +1,4 @@
+2012-09-19T12:29:00.000Z	alba-andy		im thinking a java web interface that will let me visit http://myvpsipaddress/browser.php from my laptop that will browse as if from that machine
+2012-09-19T12:29:00.000Z	llutz_	alba-andy	ssh -D7070 user@your-vps , then configure your browser to use "SOCKS-proxy on localhost:7070"
+2012-09-19T12:32:00.000Z	llutz_	alba-andy	"ssh -D7070 user@your-vps" on your local machine
+2012-09-19T12:33:00.000Z	llutz_	alba-andy	putty has an option to create dynamic-tunnels or however they call it. check the config-dialogs

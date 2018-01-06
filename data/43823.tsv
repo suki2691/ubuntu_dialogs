@@ -1,0 +1,4 @@
+2009-11-23T05:22:00.000Z	Vesayth		Does anyone know how I can connect to a samba share from a computer that uses a different domain than my home network? On this computer, I'm VPN'ing in to my home network. I can access the shares by IP address just fine, but I get an access denied error when I try the host name (but I am able to ping the host name). Server is Ubuntu 9.10 64-bit and client is Windows Vista 32-bit
+2009-11-23T05:24:00.000Z	billiard_junkee	Vesayth	maybe you need to add the username of the remote machine you are connecting from to /etc/samba/smbusers.conf   (I think thats the file)  Just a guess
+2009-11-23T05:25:00.000Z	Vesayth	billiard_junkee	The username is definitely added. Is there a special way to add a user from a different domain?
+2009-11-23T05:27:00.000Z	billiard_junkee	Vesayth	that was more than I could have come up with.

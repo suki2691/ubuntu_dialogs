@@ -1,0 +1,4 @@
+2007-12-30T00:17:00.000Z	louisianna		how can I add  the network manager icon in my deskbar? it does not appear in the add to panel area
+2007-12-30T00:18:00.000Z	nickrud	louisianna	it should show up automatically;  ps -A | grep -i network , do you get back NetworkManger ?
+2007-12-30T00:22:00.000Z	louisianna	nickrud	thanks I finally found what I was looking for at http://ubuntuforums.org/archive/index.php/t-479157.html
+2007-12-30T01:11:00.000Z	nickrud	louisianna	you would change the execution bit on the file,  like:   chmod +x <file> to let anyone execute it, or chmod u+x to allow only you to execute ti

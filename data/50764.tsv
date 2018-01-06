@@ -1,0 +1,4 @@
+2009-08-09T20:03:00.000Z	ed1t		i have mysql server running on my home server....but im trying to access it from my laptop but it says Can't connect to MySQL server on '10.0.1.8' (61)
+2009-08-09T20:04:00.000Z	ed1t		when i do a netstat on my server this is what i get: tcp        0      0 127.0.0.1:3306          0.0.0.0:*               LISTEN
+2009-08-09T20:05:00.000Z	ed1t		is it because its running on 127.0.0.1 interface and not on 0.0.0.0 ?
+2009-08-09T20:06:00.000Z	__mNotIntelligen	ed1t	i guess you dont have permission to acces the db from that machien

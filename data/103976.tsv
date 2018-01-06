@@ -1,0 +1,4 @@
+2010-12-15T02:45:00.000Z	gimix_		Hi, I want  to search process by user follow this command  ps -ax -u=apache | grep -i httpd | awk '{print $1 $2 $11}'
+2010-12-15T02:45:00.000Z	gimix_		but it did not run
+2010-12-15T02:46:00.000Z	gimix_		any help?
+2010-12-15T02:47:00.000Z	ActionParsnip	gimix_	i suggest you only use up to the grep part (remove the awk), see if it outputs something

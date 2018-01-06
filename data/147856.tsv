@@ -1,0 +1,4 @@
+2007-01-24T14:33:00.000Z	AWOSDev7360		Okay I read the RootSudo thing on the Wiki.  So I make a root password.  and the want to make it back the way it was...I just do "sudo passwd -l root"?  and then it's back to the default Ubuntu freaky root thingy?
+2007-01-24T14:34:00.000Z	blue-frog	AWOSDev7360	sudp passwd -d will make it the way it was
+2007-01-24T14:35:00.000Z	AWOSDev7360	blue-frog	okay...so I think you need to change the wiki
+2007-01-24T14:35:00.000Z	blue-frog	AWOSDev7360	passwd -l disable it -d delete the pwd.. man passwd

@@ -1,0 +1,4 @@
+2005-06-30T14:32:00.000Z	morchuboo		Hi all, can anyone tell me how to set the default sound device in hoary if you have two sound cards?
+2005-06-30T14:33:00.000Z	delire	morchuboo	you need to give priority in a file called ~/.asoundrc, if you are using ALSA that is
+2005-06-30T14:35:00.000Z	morchuboo	delire	 - I have done that - and ALSA has changed fine, but selecting ALSA as the default sound sink didnt change what was used for system sounds
+2005-06-30T14:35:00.000Z	delire	morchuboo	ahah, the good old not-so-enlightened-sound-daemon

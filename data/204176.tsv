@@ -1,0 +1,4 @@
+2005-12-28T15:21:00.000Z	vodnik		good, i hoped it would be like that, have some experience with grub already...
+2005-12-28T15:23:00.000Z	vodnik		one question to the grub though - where is it installed on a disk with more partitions? i would guess it will be somewhere at the beggining of harddrive, but I think I have once already maanged to delete it somehow when doing something with completely different partitions:-/
+2005-12-28T15:24:00.000Z	mrkoje	vodnik	 wouldn't the bootloader be intalled in the hda0 (/boot) partition?
+2005-12-28T15:27:00.000Z	vodnik	mrkoje	- yes, it says it installs itself there... but it keeps data about the installed os on the partitions they are installed in, doesnot it? since there is a boot directory with lot of grub stuff

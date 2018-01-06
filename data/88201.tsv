@@ -1,0 +1,4 @@
+2008-11-03T22:06:00.000Z	lyhana8		hi, i've a problem: my desktop display the content of my ~/ instead of ~/Desktop, how i change this ?
+2008-11-03T22:08:00.000Z	erUSUL	lyhana8	edit  ~/.config/user-dirs.dirs and make sure XDG_DESKTOP_DIR="$HOME/Desktop"
+2008-11-03T22:09:00.000Z	lyhana8	erUSUL	is this tips working on kubuntu too ?
+2008-11-03T22:10:00.000Z	erUSUL	lyhana8	i spect so?

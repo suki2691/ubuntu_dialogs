@@ -1,0 +1,4 @@
+2011-07-04T23:22:00.000Z	bcessa		hi there, question, how can I run a md5 or shasum on the contents of a directory recursively?
+2011-07-04T23:23:00.000Z	trism	bcessa	find /path/to/directory -type f -exec md5sum "{}" \;
+2011-07-04T23:24:00.000Z	trism	bcessa	and of course you can sub md5sum for sha256sum or whatever
+2011-07-04T23:24:00.000Z	bcessa	trism	thnx a lot

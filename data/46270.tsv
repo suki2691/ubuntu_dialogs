@@ -1,0 +1,4 @@
+2010-05-04T13:45:00.000Z	egtux		Hi , i upgrade my system to ubuntu 10.4 from 9.10 , all things is ok but only firefox can't open i don't know why any help
+2010-05-04T13:47:00.000Z	markatto	egtux	run firefox from the terminal and pastebin the output
+2010-05-04T13:49:00.000Z	markatto	egtux	can you pastebin the actual output?
+2010-05-04T13:54:00.000Z	markatto	egtux	I think that the problem is that you don't have moonlight installed but firefox is configured to use it. Your problem will likely be solved by either installing the moonlight package or removing/renaming your firefox config files (~/.mozilla)

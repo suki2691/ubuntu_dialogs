@@ -1,0 +1,4 @@
+2006-03-23T17:18:00.000Z	Xe		hi guys. today the day came... I deleted windows. Now I'm trying to turn the free space into ext3 and merge it with the existing ext3 on the HD. When I use gparted to resize the partition it says that the max size cannot be more than what it already is... so its not picking up the free space. how do i fix this?
+2006-03-23T17:19:00.000Z	h36sa	Xe	are they both logical or primary partitions?
+2006-03-23T17:19:00.000Z	h36sa	Xe	you might have the extended partition in the way
+2006-03-23T17:21:00.000Z	h36sa	Xe	fdisk /dev/hda and look at it

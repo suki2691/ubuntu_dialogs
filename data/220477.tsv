@@ -1,0 +1,4 @@
+2008-02-12T08:50:00.000Z	roshan		according to the book i'm reading, it says that if u use dh -h . in a directory it will tell u the partition. however, with the directory /sys it shows the partition as /sys. However that does not exits, can someone explain why it shows that.
+2008-02-12T08:51:00.000Z	Flannel	roshan	if you type "mount" you'll see all sorts of non-physical partitions that are mounted.  Theyre various things used by the OS (ones a ramdisk for the kernel, etc)
+2009-08-27T14:07:00.000Z	Flannel	roshan	all of the packages?  You want to look into setting up a mirror
+2009-08-27T14:09:00.000Z	roshan	Flannel	You're right, that is what I want to do.

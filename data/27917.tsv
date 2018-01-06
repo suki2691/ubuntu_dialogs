@@ -1,0 +1,4 @@
+2010-08-03T20:55:00.000Z	Jibe		Goodmorning! So I used this computer to install ubuntu onto another hard drive via usb (this hard drive was to go in another computer so it could boot Ubuntu), I figured I could just unplug the external hard drive then choose my Windows 7 main hard drive from the boot loader, but apparently thats not the case because not my computer is constantly looking for Ubuntu's boot loader on startup. Is there a way I can switch it back to the windows boot loader?
+2010-08-03T20:56:00.000Z	benkevan	Jibe	depends how you installed the boot loader.. did you install into MBR? also, you can still chainload your grub to point and boot your windows installation
+2010-08-03T20:57:00.000Z	Jibe	benkevan	The boot loader was installed with Ubuntu 10.04 Netbook, I don't know if that makes a difference
+2010-08-03T21:02:00.000Z	Jibe	benkevan	so how would I go about chainloading grub to point and boot the windows installation

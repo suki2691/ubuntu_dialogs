@@ -1,0 +1,4 @@
+2007-04-01T07:56:00.000Z	jaypro		i installed ubuntu on the master drive (80 gig), but now i want to install windows on another drive (40 gig).  since windows cant install on the slave drive without being able to write to the master, im thinking about switching harddrives so that the 80 gig drive is now the slave, and the 40 gig is the master drive.  in doing so, would i have to reinstall ubuntu after installing windows on the master drive (40gig), or is there a way to cha
+2007-04-01T07:56:00.000Z	jaypro		nge the settings in the grub loader??
+2007-04-01T07:57:00.000Z	djm62	jaypro	you can change it, I did a similar thing a while ago.  I think a liveCD and chroot might be needed so that you can edit the settings and re-run grub
+2007-04-01T08:00:00.000Z	jaypro	djm62	you'll have to be more specific... i dont know what i would need to do

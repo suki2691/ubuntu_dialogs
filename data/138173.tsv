@@ -1,0 +1,4 @@
+2009-12-05T12:02:00.000Z	ubunoob		"checking for boostlib >= 1.20.0... configure: error: We could not detect the boost libraries (version 1.20 or higher). If you have a staged boost library (still not installed) please specify $BOOST_ROOT in your environment and do not give a PATH to --with-boost option.  If you are sure you have boost installed, then check your version number looking in <boost/version.hpp>. See http://randspringer.de/boost for more documentation.
+2009-12-05T12:03:00.000Z	ubunoob		Any idea how to solve that error?
+2009-12-05T12:03:00.000Z	usser	ubunoob	sudo apt-get install libboost
+2009-12-05T12:04:00.000Z	usser	ubunoob	libboost-dev sorry

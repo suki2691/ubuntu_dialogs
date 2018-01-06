@@ -1,0 +1,4 @@
+2006-06-26T14:56:00.000Z	seamoon		Is there a way to convert my old windowsfiles, like movies etc to ext3 filesystem?
+2006-06-26T14:56:00.000Z	dli	seamoon	easier way, backup them, mkfs, and cp them back
+2006-06-26T14:59:00.000Z	dli	seamoon	if it's an internal hdd, put it in /etc/fstab
+2006-06-26T15:01:00.000Z	dli	seamoon	you can follow what's in your fstab file to make a new entry. also, " man fstab " for more

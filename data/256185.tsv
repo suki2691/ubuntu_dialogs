@@ -1,0 +1,4 @@
+2006-07-08T14:59:00.000Z	dionnow		How do I completely close xserver and have a prompt, I'm attempting to install my display drivers
+2006-07-08T15:01:00.000Z	dionnow		How do I completely close xserver and have a prompt?
+2006-07-08T15:02:00.000Z	dr_willis	dionnow	 sudo /etc/init.d/gdm stop          (shhould totally kill off X)
+2006-07-08T15:03:00.000Z	dr_willis	dionnow	 kill the gdm service. will kill off X for a while. :P till y reboot or startx - i think the !nvidia faq tell sya more

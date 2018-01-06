@@ -1,0 +1,4 @@
+2006-07-16T07:07:00.000Z	AlvaroX		hi everyone, i have my HD splited in half, one for Linux and one for Win, i just got rid of win and formated to ext3, the problem is that when i mount the new ext3 partition i cant write on it, how can i mount it and allow read/write for users? since i can only write as root...
+2006-07-16T07:08:00.000Z	spades	AlvaroX	chown it to your user
+2006-07-16T07:09:00.000Z	AlvaroX	spades	can u guide me through it, i think its obvious that im a total newbie ... :p
+2006-07-16T07:09:00.000Z	spades	AlvaroX	do a 'sudo chown user:user /path -R'

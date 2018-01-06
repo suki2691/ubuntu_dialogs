@@ -1,0 +1,4 @@
+2008-02-06T15:28:00.000Z	pluffsy		is it possible to search through a directory recursively for a string in the content of all text files (not just the filenames) on a standard server without beagle and that sort of modern stuff? it's okey if the search is slow.
+2008-02-06T15:29:00.000Z	Frogzoo	pluffsy	find . -exec grep "blah blah" {} \; -print  should do
+2008-02-06T15:29:00.000Z	pluffsy	Frogzoo	thanks a lot. may I ask what the {} \; does if you have time to answer that.
+2008-02-06T15:29:00.000Z	pluffsy	Frogzoo	is that a regex?

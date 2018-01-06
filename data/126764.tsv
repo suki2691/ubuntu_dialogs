@@ -1,0 +1,4 @@
+2007-07-28T06:38:00.000Z	twofclubs		probably a noob question for you all...but i wanna know how to copy a file from say my cd rom to my home folder...without actually copying and pasting...i wanna do it through the terminal...the folder in the cd rom is called source... is the command $ cp /cdrom/source/ /home/twofclubs/?
+2007-07-28T06:38:00.000Z	kitche	twofclubs	cp -r /cdrom/source /home/twoofclubs/
+2007-07-28T06:39:00.000Z	twofclubs	kitche	what does the -r do?
+2007-07-28T06:39:00.000Z	kitche	twofclubs	recursive it's needed to copy directories

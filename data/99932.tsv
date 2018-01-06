@@ -1,0 +1,4 @@
+2008-02-18T16:21:00.000Z	AckerMANn		how i can set IP manually for eth0, and when I reboot the server that keeps it. ?
+2008-02-18T16:21:00.000Z	vlt	AckerMANn	/etc/network/interfaces
+2008-02-18T16:21:00.000Z	AckerMANn	vlt	after that ?
+2008-02-18T16:34:00.000Z	vlt	AckerMANn	You could set it from "dhcp" to "static" and add an "address", a "netmask", a "gateway" and what else you need ...

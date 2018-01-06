@@ -1,0 +1,4 @@
+2011-02-04T21:57:00.000Z	gabeh		hello, I'm using Ubuntu 10.10.  It has erlang installed, I see it in /usr/lib/erlang.  I can use the command 'erl' everywhere leading me to believe it is in a path variable somewhere. Unfortunately I'm too noob to know where it could be other than $Path, which it isn't in of course.  Do you have any ideas how I can tell where the /usr/lib/erlang directory is referred to?
+2011-02-04T21:57:00.000Z	schnuffle	gabeh	which erl
+2011-02-04T21:58:00.000Z	gabeh	schnuffle	13b03
+2011-02-04T21:59:00.000Z	gabeh	schnuffle	gives me /usr/bin/erl  So that path, /usr/bin is in $PATH.  Brilliant, thanks!

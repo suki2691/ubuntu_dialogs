@@ -1,0 +1,4 @@
+2009-09-02T21:32:00.000Z	Crash1hd		how do you see the owner I know chown changes the owner but if I just want to view it?
+2009-09-02T21:32:00.000Z	grawity	Crash1hd	ls -l
+2009-09-02T21:33:00.000Z	Crash1hd	grawity	ahh yes thanks :)
+2009-09-02T21:33:00.000Z	grawity	Crash1hd	Or stat -c %U somefile

@@ -1,0 +1,4 @@
+2009-11-17T04:26:00.000Z	DisguisedAngel		The permissions on a file keep getting set back to no access minutes after I have done a "sudo chmod -R 777 Folder Name" does anyone know what would cause this and how to fix it?
+2009-11-17T04:28:00.000Z	DisguisedAngel		it's a folder under .wine/c_drive/Program\ Files/World\ of\ Warcraft/
+2009-11-17T04:28:00.000Z	Scunizi	DisguisedAngel	could be you need to sudo chown -R <username>:<username> <path>
+2009-11-17T04:29:00.000Z	DisguisedAngel	Scunizi	I will try that, thansk

@@ -1,0 +1,4 @@
+2005-12-20T07:15:00.000Z	Jowi	raid	if the disk/partition is locked in gparted you have to unmount it first. if it is not locked and nothing seem to happen after you apply the changes, try to reboot the pc (the partition table might have been changed)
+2005-12-20T07:16:00.000Z	raid	irvin	if i unmount it it disappears from gparted list of devices
+2005-12-20T07:16:00.000Z	Jowi	raid	then you should add it to fstab, but add the option "noauto"
+2005-12-20T07:17:00.000Z	Jowi	raid	example: /dev/hda1      /media/windows  vfat    defaults,user,noauto,umask=000  0       0

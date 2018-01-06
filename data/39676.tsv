@@ -1,0 +1,4 @@
+2010-02-11T09:59:00.000Z	ki4cgp	Shazam	your log files should be in /var/log/
+2010-02-11T10:01:00.000Z	Shazam	ki4cgp	yeah, I know. it seems silly, since I actually know the location, but there was some small shell program that just listed out (current?) log files.
+2010-02-11T10:03:00.000Z	ki4cgp	Shazam	Ahh.  I'm not familiar with it. normally logrotate will zip up old ones and put .1, .2, etc behind them. Perhaps this program is just listing your normal uncompressed log files, or perhaps it is reading something from /proc
+2010-02-11T10:05:00.000Z	Shazam	ki4cgp	ah -- found what I was thinking of syslogd-logfiles

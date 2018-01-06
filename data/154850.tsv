@@ -1,0 +1,4 @@
+2008-12-23T14:23:00.000Z	alfatau		hello, is there a scriptable way to test if a device is connected and working on ttyS1? i've a serial 56k modem and i should detect if it's turned on or off. thank you
+2008-12-23T14:24:00.000Z	n2diy	alfatau	setserial would be your friend for that
+2008-12-23T14:26:00.000Z	alfatau	n2diy	ok, i'm taking a look to that
+2008-12-23T14:52:00.000Z	alfatau	n2diy	about setserial, i tried -a option, but the output is the same both with modem off/on and for a ttySX with nothing connected... is there a way to get some better info with setserial?

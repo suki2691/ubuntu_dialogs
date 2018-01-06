@@ -1,0 +1,4 @@
+2008-01-04T06:19:00.000Z	otto_		anyone know why I might get an "X: user not authorized to run the X server, aborting" error when I try to start x from a startup script
+2008-01-04T06:19:00.000Z	LetterRip	otto_	x has to run as root?
+2008-01-04T06:20:00.000Z	LetterRip	otto_	i just vaguely recall that x has to run as at a higher than typical privelege level
+2008-01-04T06:21:00.000Z	otto_	LetterRip	I can run it as any user on my system if I su to that user and "startx" but the script gives an error

@@ -1,0 +1,4 @@
+2011-11-08T03:49:00.000Z	red_		Hi, I'm trying to extract the files from 1862 .7z files, and I am trying to figure out 1 command that will do all the work, so I don't have to painstakingly extract each file with archive manager.  The archives are fine, but when I try 7z e *.7z  I just get a message that says there are no files in the source archive
+2011-11-08T03:49:00.000Z	jrib	red_	use a for loop.  Here is an example: for x in 1 2 3; do echo $x; done
+2011-11-08T03:51:00.000Z	jrib	red_	well how are you "unzipping one single archive from command line"?
+2011-11-08T03:55:00.000Z	jrib	red_	press ctrl-c

@@ -1,0 +1,4 @@
+2011-06-15T13:28:00.000Z	nikolam	whytehorse	use mdadm to set up linux software RAID. Most controllers on boards that claim "RAID" are actually fake raid and request windows drivers to work with, so basically the same thing like md* devices in linux software RAID
+2011-06-15T13:31:00.000Z	nikolam	whytehorse	well, regular raid should have utility for its own for making raid levels. and then represent to any OS disk(s) representing RAID. See card documentation.
+2011-06-15T13:33:00.000Z	nikolam	whytehorse	see BIOS settings about access to disks, maybe soem change there should be done. Also check linux compatibility for controller.
+2011-06-15T13:34:00.000Z	nikolam	whytehorse	I might just also add. (and this is blasphemy ;) consider ZFS

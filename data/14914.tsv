@@ -1,0 +1,4 @@
+2012-01-25T22:15:00.000Z	lupzz		I have a problem on a Intel i915 based laptop, xorg recognizes 1024x768 or 800x600.. but the screen native resolution is 1366x768... tried with the xrandr/cvt commands as described in X/Config/Resolution and even getting parameters from "sudo get-edid | parse-edid" but with no luck... any hint?
+2012-01-25T22:16:00.000Z	theadmin	lupzz	Have you tried specifying "Driver 'intel'" in xorg.conf?
+2012-01-25T22:17:00.000Z	lupzz	theadmin	btw in Xorg.0.log I see that it uses that driver
+2012-01-25T22:23:00.000Z	theadmin	lupzz	This is the basic idea: https://pzt.me/204y

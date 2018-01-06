@@ -1,0 +1,4 @@
+2006-03-13T08:41:00.000Z	powerj		I have wireless working on my laptop, but every reboot I have to disable eth0 (my ethernet) and enable ath0 which is my wireless device, is there a way to make ath0 enabled by default and eth0 disabled by default?
+2006-03-13T08:41:00.000Z	pestilence	powerj	yes, edit /etc/network/interfaces
+2006-03-13T08:41:00.000Z	powerj	pestilence	thanks
+2006-03-13T08:41:00.000Z	pestilence	powerj	change auto eth0 to auto ath0

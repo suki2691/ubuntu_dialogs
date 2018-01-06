@@ -1,0 +1,4 @@
+2012-07-23T06:55:00.000Z	xu34		i'm trying to figure out the size of a disk that has no partition table; i think i can get it with the udevadm command and the USEC_INITIALIZED line although i have no idea how to calculate it.  does anybody have any idea. this is the size of one disk (i think):  E: USEC_INITIALIZED=5087245
+2012-07-23T06:56:00.000Z	escott	xu34	why not just use "sudo parted -l"?
+2012-07-23T06:57:00.000Z	xu34	escott	i was and because there is no label it gives an error instead of the size
+2012-07-23T07:01:00.000Z	xu34	escott	solved it... little bit of extra work. have to suppress the error message and then my code works

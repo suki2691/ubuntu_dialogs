@@ -1,0 +1,4 @@
+2010-01-18T16:58:00.000Z	GG19		anyone know how to see whats on your virtual c: drive without going through wine?
+2010-01-18T16:59:00.000Z	jami	GG19	look in the config winecfg
+2010-01-18T16:59:00.000Z	jami	GG19	~/.wine/drive_c is standard mount for wine's c:
+2010-01-18T17:01:00.000Z	jami	GG19	ls -l and get sure that you are the owner of this dir

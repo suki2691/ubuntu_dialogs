@@ -1,0 +1,4 @@
+2010-09-27T19:53:00.000Z	Petskull		hey- how do I allow user access to my partition in ubuntu?
+2010-09-27T19:54:00.000Z	Petskull		right now only root can write to it
+2010-09-27T19:55:00.000Z	Weust`	Petskull	what filesystem u use ?
+2010-09-27T19:56:00.000Z	Weust`	Petskull	you could use uid=<userid>,gid=<groupid>  to mount it

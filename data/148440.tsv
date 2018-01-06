@@ -1,0 +1,4 @@
+2007-05-25T14:31:00.000Z	soyporti		i have a problem! i bought a new LCD monitor FLATRON 19'' and the resolution is wrong!
+2007-05-25T14:32:00.000Z	soyporti		how can i install drivers for a monitor without having to reinstall feisty??
+2007-05-25T14:34:00.000Z	ubotwo	soyporti	The X Window System is the part of your system that's responsible for graphical output. To restart your X, type  sudo /etc/init.d/?dm restart  in a console - To fix screen resolution or other X problems: http://help.ubuntu.com/community/FixVideoResolutionHowto
+2007-05-25T14:34:00.000Z	ubotwo	soyporti	To reconfigure your X server, open a console and type  sudo dpkg-reconfigure xserver-xorg  - To configure only the driver and resolution, type  sudo dpkg-reconfigure xserver-xorg -phigh  - See also !FixRes

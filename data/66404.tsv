@@ -1,0 +1,4 @@
+2009-05-05T12:32:00.000Z	spacechicken		G'Day.  I am trying to run a perl script.  It gets to about 400Mb of memory before dying with the message "Killed".  Is there a setting I can change in Ubuntu to allow it to continue?
+2009-05-05T12:34:00.000Z	mzz	spacechicken	might want to check "ulimit -a", just in case
+2009-05-05T12:34:00.000Z	mzz	spacechicken	I'd expect the limits to be higher than that, but I could be wrong.
+2009-05-05T12:35:00.000Z	spacechicken	mzz	- max memory size is unlimited

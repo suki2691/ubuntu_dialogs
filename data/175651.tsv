@@ -1,0 +1,4 @@
+2010-12-30T05:08:00.000Z	steiner		what do i do if my windows 7 computer does not reconize my ubuntu shared folder?
+2010-12-30T05:09:00.000Z	Dr_Willis	steiner	 you could always use winscp and ssh to transfer files around.
+2010-12-30T05:28:00.000Z	Dr_Willis	steiner	 with ubuntu accessing windows 7 shares. thers some known bugs. You may also want to try entering the share path manually, and dont forget to add a samba password for the linux user. 'sudo smbpasswd -a username'
+2010-12-30T05:30:00.000Z	steiner	Dr_Willis	what is the sharepath? could you give me an example? i already added a samba password

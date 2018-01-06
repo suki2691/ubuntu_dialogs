@@ -1,0 +1,4 @@
+2007-07-12T12:58:00.000Z	mvsn		im wondering if someone could help me out... my sound was working just fine.. then suddenly it stopped (Feisty) if i goto sound preferences, I get "audiotestsrc wave=sine freq=512 ! audioconvert ! audioresample ! gconfaudiosink: Could not open resource for writing."... haven't been successfull with google..
+2007-07-12T12:59:00.000Z	nikin	mvsn	? ALSA or OSS<
+2007-07-12T13:03:00.000Z	nikin	mvsn	does the integrated sound work?
+2007-07-12T13:05:00.000Z	nikin	mvsn	hmm... try the integrated one so that we see that it is a HW/driver problem... no other iodeas yet

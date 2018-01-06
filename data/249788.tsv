@@ -1,0 +1,4 @@
+2008-04-06T04:54:00.000Z	yuri__		hey guys, is there a way to output the result of "ls" to a text file? solmething like $ ls | textoutput text.txt
+2008-04-06T04:55:00.000Z	Dr_willis	yuri__	 bash basics man.. command > file.txt
+2008-04-06T04:55:00.000Z	Dr_willis	yuri__	 the | goes from one Process/command to another ie: ls | sort
+2008-04-06T04:55:00.000Z	Dr_willis	yuri__	 if you want to see and pipe the  output use the tee command. ls | tee > foo.txt

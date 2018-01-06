@@ -1,0 +1,4 @@
+2007-07-04T07:47:00.000Z	the_padawan		hi all. I am trying to enable midi playback. I have installed timidity, and ps -ef shows it running as "/usr/bin/timidity -B2,8 -Os -iAD". I have enabled all of the modules listed on ubuntuguide.org and they show up in lsmod. Kmid opens a file and "plays" it, but no sound comes from the speakers. Any ideas what may be wrong?
+2007-07-04T07:48:00.000Z	mongolai	the_padawan	Ugh. I gave up on Timidity years ago. Do you still need to d/l and the sound-file pack?
+2007-07-04T07:51:00.000Z	the_padawan	mongolai	I am looking at alsamixer. Many of the volumes were turned way down, i turned them up but still same problem. It says Card: CA0106, unsure if that's the info you were looking for
+2007-07-04T07:52:00.000Z	mongolai	the_padawan	Like I said, I've been un-successful in ever getting timidity to work, but, at least when I tried, I needed to d/l a large (105 MB) sound translation file ...

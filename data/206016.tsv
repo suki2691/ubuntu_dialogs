@@ -1,0 +1,4 @@
+2006-09-24T05:39:00.000Z	markc		is anyone aware of some kind of program that watches port  22 and blocks the IP of anyone with 3 bad login attempts within 60 secs, or some such ?
+2006-09-24T05:41:00.000Z	bighil	markc	it may be possible to do something like this with iptables rules or with pam rules
+2006-09-24T05:42:00.000Z	bighil	markc	i know that its possible to use iptables rules to limit login tries for port 22
+2006-09-24T05:43:00.000Z	markc	bighil	cool, thanks... more googling, here is one link fwiw http://www.ducea.com/2006/07/03/using-fail2ban-to-block-brute-force-attacks/

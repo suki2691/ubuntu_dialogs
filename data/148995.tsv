@@ -1,0 +1,4 @@
+2007-02-13T10:16:00.000Z	unop	Wimpog	 there shouldnt be a need to change the runlevel anyway because runlevels 2-5 remain identical in debian/ubuntu
+2007-02-13T10:16:00.000Z	Wimpog	unop	yeah, but I stil want to know how to do it
+2007-02-13T10:18:00.000Z	unop	Wimpog	 hrrm, i have no idea really -- except of a workaround - create the last script in /etc/rc2.d that sends you to another runlevel using init/telinit :)
+2007-02-13T10:21:00.000Z	unop	Wimpog	 probably one of the files in -- dpkg -L upstart

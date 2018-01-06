@@ -1,0 +1,4 @@
+2011-07-05T23:35:00.000Z	BrianOfTacoma		What is the command to delete all files of a certain type from a folder and all recursive folders within?  I tried : rm -R *.mp3
+2011-07-05T23:36:00.000Z	llutz	BrianOfTacoma	find path/ -iname *.mp3 -delete
+2011-07-05T23:38:00.000Z	BrianOfTacoma	llutz	... do I need -iname ... everyone else used -name
+2011-07-05T23:38:00.000Z	llutz	BrianOfTacoma	iname won't care about mp3/MP3  uppper-/lowercase etc

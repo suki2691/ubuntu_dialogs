@@ -1,0 +1,4 @@
+2006-10-01T11:08:00.000Z	Polygon89		Hello, im using a thing called IFS Drives in windows, which allows windows to read and write to ext3 partitions, but recently when i boot up ubuntu it checks one of the ext3 partitons that windows writes to and says that it contains errors, and something about the LARGE_FILE flag not on the super block and it contains large files. Question is, how do i fix it and is it still safe to use ifs drives between windows and ubuntu?
+2006-10-01T11:09:00.000Z	Szef666	Polygon89	check fsck.ext3
+2006-10-01T11:11:00.000Z	Szef666	Polygon89	I'm wondering right now about the same, which is better to share files between windows and linux... ext3 partition and IFS drivers or ntfs partition and ntfs-ng3 [or something ntfs rw] 
+2006-10-01T11:14:00.000Z	Szef666	Polygon89	fsck-ing should fix errors, in worst case few files will disappear and appear in /lost+found as inodes numbered files

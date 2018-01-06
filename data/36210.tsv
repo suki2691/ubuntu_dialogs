@@ -1,0 +1,4 @@
+2010-05-24T17:35:00.000Z	collink		Hey everyone.  A coworker of mine built a server running lucid server, but when I shell in and try to execute a command that's not in my path as root (i.e.: ./mycommand) it tells me the file doesn't exist. I can see it in ls and I can open it with vim though.  Anyone have any suggestions?
+2010-05-24T17:37:00.000Z	acicula	collink	if its not in your path use a full (relative) path
+2010-05-24T17:37:00.000Z	collink	acicula	I just put it in my path and it's still not working
+2010-05-24T17:37:00.000Z	collink	acicula	absolute path didn't work eitgher

@@ -1,0 +1,4 @@
+2007-04-04T06:53:00.000Z	yunhual		a specific  version of kernel will try to find corresponding driver under /lib/modules directory, in order to distinguish, so ubuntu, fedora add a number after the kerner versio like this 2.6.15-28-686, the 28-686 be add to, when i try compile kernel by myself, how can i add a string like 28-686 to the end of the kernel version ?
+2007-04-04T06:53:00.000Z	yunhual		any body can help me ?
+2007-04-04T06:54:00.000Z	Seveas	yunhual	look for EXTRAVERSION in your .config
+2007-04-04T06:55:00.000Z	yunhual	Seveas	thank you

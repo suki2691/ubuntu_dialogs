@@ -1,0 +1,4 @@
+2008-09-29T19:39:00.000Z	bofh80	tarelerulz	can you double check compiz has not magically enabled itself? it does appear to affect video play back under ubuntu with this card. can you check System > Preferences > Appearence, then the Visual Effects tab, and make sure it is on NONE ?
+2008-09-29T19:41:00.000Z	bofh80	tarelerulz	is it only when  you hit full screen that the movie goes mad?
+2008-09-29T19:43:00.000Z	bofh80	tarelerulz	i spose we could check what driver X is uusing. in a terminal type     cat /etc/X11/xorg.conf | grep Driver
+2008-09-29T19:43:00.000Z	bofh80	tarelerulz	hopefully that says Intel on at least 1 line ?

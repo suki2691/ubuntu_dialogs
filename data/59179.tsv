@@ -1,0 +1,4 @@
+2011-10-14T02:16:00.000Z	qmanjr5		what would be the mount path to the new partition?
+2011-10-14T02:17:00.000Z	VCoolio	qmanjr5	find partitions with sudo fdisk -l
+2011-10-14T02:17:00.000Z	VCoolio	qmanjr5	or sudo blkid
+2011-10-14T02:23:00.000Z	VCoolio	qmanjr5	hit 'mount' to check which are in use as what, so you can rule out / and /home and swap

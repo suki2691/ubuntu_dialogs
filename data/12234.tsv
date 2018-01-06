@@ -1,0 +1,4 @@
+2012-06-29T19:14:00.000Z	whitenoise		gparted did not give the option to resize from the main part, we had to drag with the outline of it in the top section
+2012-06-29T19:14:00.000Z	whitenoise		bug in gparted, perhaps?
+2012-06-29T19:14:00.000Z	whitenoise		gparted live cd.
+2012-06-29T19:16:00.000Z	zykotick9	whitenoise	while i personally think resizing/combining partitions is insanity - IF swap is being used, it can stop gparted in it's tracks.  In terminal try "free" is swap listed?  if so, use "sudo swapoff -a" then confirm with "free" again.  after swap is disabled gparted might be able to do more for you.

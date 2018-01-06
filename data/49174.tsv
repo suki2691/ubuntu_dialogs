@@ -1,0 +1,4 @@
+2009-09-11T10:08:00.000Z	zykotic-k9		while using vi accidentally saved a ":wq" into the /etc/sudoers file, when when I try to run anything sudo (including "sudo shutdown -r now") I get a "sudoers file: syntax error, line X" -- anyone have a suggestion to restart other then simply holding the button?
+2009-09-11T10:10:00.000Z	kermit	zykotic-k9	restarting isnt going to fix your sudoers file anyway
+2009-09-11T10:10:00.000Z	zykotic-k9	kermit	single user mode will :)
+2009-09-11T10:11:00.000Z	kermit	zykotic-k9	i think ctrl-alt-del on a console (hit cntrl-alt-f1 to get to a console) should get it rebooted

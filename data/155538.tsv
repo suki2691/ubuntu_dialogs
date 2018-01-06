@@ -1,0 +1,4 @@
+2006-12-16T14:40:00.000Z	xipietotec		what I would like is someone to take a look at my laptop and tell me why I can only access my flicker virtual file system in "true root" (Sudo su, sudo -i)
+2006-12-16T14:41:00.000Z	xipietotec		no matter how I chown stuff or whatnot
+2006-12-16T14:41:00.000Z	arrenlex	xipietotec	fstab permissions.
+2006-12-16T14:41:00.000Z	arrenlex	xipietotec	If you mount in fstab, pass umask=000 in the options.

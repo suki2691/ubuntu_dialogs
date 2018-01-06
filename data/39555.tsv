@@ -1,0 +1,4 @@
+2010-11-23T16:59:00.000Z	bahamas		hello. i have a file in a directory, and i'm trying to execute it with ./file, but i get "Permission denied". then, i try to do sudo ./file, but I get "command not found". can anyone explain the reason?
+2010-11-23T17:00:00.000Z	Jordan_U	bahamas	First, sudo is not a catch all solution for permissions problems. You should only use sudo when you are sure it's needed.
+2010-11-23T17:00:00.000Z	Jordan_U	bahamas	ls -l
+2010-11-23T17:00:00.000Z	bahamas	Jordan_U	I'll keep that in mind

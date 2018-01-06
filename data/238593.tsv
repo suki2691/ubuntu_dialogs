@@ -1,0 +1,4 @@
+2007-12-02T05:17:00.000Z	john-mike		Hey there, I was wondering.  Is it safe to update Feisty's video driver to the new ATI one?  My computer has the ATI x1400 video card and I know that's always had issues with Ubuntu.
+2007-12-02T05:17:00.000Z	john-mike		No :(
+2007-12-02T05:17:00.000Z	Q_Continuum	john-mike	back up your /etc/X11/xorg.conf file and give it a try.  (backing up that file means you can restore to your existing setup)
+2007-12-02T05:18:00.000Z	Q_Continuum	john-mike	sudo cp /etc/X11/xorg.conf /etc/X11/xorg.conf.backupYYYYMMDD

@@ -1,0 +1,4 @@
+2006-08-30T07:05:00.000Z	soundgate		I get this message "make: ***No rule specified and no makefile found" when I typed this "make DESTDIR=/usr/local". any idea?
+2006-08-30T07:05:00.000Z	longwave	soundgate	presumably there is no Makefile in the current directory
+2006-08-30T07:08:00.000Z	soundgate	longwave	but there's a Makefile.in in my current directory
+2006-08-30T07:08:00.000Z	longwave	soundgate	no, Makefiles are just called Makefile. have you run ./configure yet? that usually creates a Makefile for you

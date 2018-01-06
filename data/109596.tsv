@@ -1,0 +1,4 @@
+2008-01-11T17:15:00.000Z	jabrahamsen		hi where do i set silent startup again?
+2008-01-11T17:15:00.000Z	etfb	jabrahamsen	You mean: switching off all the messages at boot time?  Or something else?
+2008-01-11T17:16:00.000Z	etfb	jabrahamsen	in /boot/grub/menu.lst - remove any mention of splash and quiet
+2008-01-11T17:18:00.000Z	etfb	jabrahamsen	Yep - that's the condensed version.  Do you need further explanation of how to do that?

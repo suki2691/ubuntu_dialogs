@@ -1,0 +1,4 @@
+2009-07-13T21:57:00.000Z	jfernandez		is there a command to ouput to the terminal a specific line from a file?
+2009-07-13T21:57:00.000Z	jfernandez		like print line 1030 from this text file
+2009-07-13T21:58:00.000Z	jrib	jfernandez	you can use sed...
+2009-07-13T21:59:00.000Z	jrib	jfernandez	for example: sed -n '2p' FILE   will print line 2 of FILE

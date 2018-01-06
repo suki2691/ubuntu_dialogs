@@ -1,0 +1,4 @@
+2006-08-12T06:21:00.000Z	melchezedik		nutrinomass thank you but that fix is only for a toshiba satellite laptop an isnt a genral fix for screen resolution options
+2006-08-12T06:22:00.000Z	melchezedik		i need more options than just 640 400
+2006-08-12T06:22:00.000Z	neutrinomass	melchezedik	Are you sure ?
+2006-08-12T06:23:00.000Z	neutrinomass	melchezedik	It's a general guide form what I see ... https://help.ubuntu.com/community/FixVideoResolutionHowto . Again, in short all you need is 'sudo dpkg-reconfigure xserver-xorg' . Before that, make sure you backup your /etc/X11/xorg.conf file somewhere (if you mess up the configuration you might end up with a graphical display )

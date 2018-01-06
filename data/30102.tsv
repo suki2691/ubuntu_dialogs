@@ -1,0 +1,4 @@
+2010-07-10T22:34:00.000Z	vladimirm		I cannot connect to the internet through terminal. Selecting network through NetworkManager Applet does the job, but when I'm in say recovery console, I can't.
+2010-07-10T22:35:00.000Z	greezmunkey	vladimirm	open a terminal and run: tail -f /var/log/syslog. Then in another terminal re-run your connect script and look for clues as to where it is failing in the syslog
+2010-07-10T22:37:00.000Z	vladimirm	greezmunkey	thanks, I will try that
+2010-07-10T22:52:00.000Z	vladimirm	greezmunkey	when the script completed, I could go to the given ip address which showed what my apache served, but nothing else

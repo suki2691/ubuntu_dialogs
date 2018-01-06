@@ -1,0 +1,4 @@
+2005-09-05T16:56:00.000Z	NeoFax		How do I set 1.5.0 java as the default instead of 1.4.2?
+2005-09-05T05:04:00.000Z	NeoFax		Where does ubuntu put its rc.local or /etc/modules.conf files?
+2005-09-05T05:05:00.000Z	Ng	NeoFax	there's no rc.local by default and /etc/modprobe.d/local
+2005-09-05T05:06:00.000Z	Ng	NeoFax	(the other files in modprobe.d are read too, but they are from packages and so changing/adding to them is worth avoiding if possible)

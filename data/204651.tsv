@@ -1,0 +1,4 @@
+2008-09-01T21:53:00.000Z	Dave88LX		OK I tried running the disk checker on it and lots of xxx.xxxxx usb 3-4 device descriptor read/64 error -110 etc messages
+2008-09-01T21:54:00.000Z	Dave88LX		Then went to a (initramfs) prompt
+2008-09-01T21:54:00.000Z	Dave88LX		typed 'exit' and it started checking disc integrity, with lots of buffer i/o errors
+2008-09-01T21:54:00.000Z	yacc	Dave88LX	sounds like cabling/general USB problems. <= but it can happen also when a disc goes bad, usually the USB controllers are quite bad at coping with faulty discs.

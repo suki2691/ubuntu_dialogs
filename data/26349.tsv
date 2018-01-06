@@ -1,0 +1,4 @@
+2010-09-11T13:18:00.000Z	sexcopter		hi, i'm trying to change permissions of my mountpoint for a USB harddrive so that all users can read and write to it. Can anyone see what I'm doing wrong? http://pastebin.com/M4xmy3ic
+2010-09-11T13:20:00.000Z	DagoRed	sexcopter	change it in fstab, or go to /media and type "sudo chmod 777 <usb drive mount>
+2010-09-11T13:22:00.000Z	sexcopter	DagoRed	hmm, interesting... it doesn't appear in fstab! tried cd'ing to the directory first and didn't make a difference...
+2010-09-11T13:23:00.000Z	DagoRed	sexcopter	fstab is for mounting on boot up

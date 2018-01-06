@@ -1,0 +1,4 @@
+2011-09-26T08:08:00.000Z	tomvolek		HI ,  I have a dual boot system, I have a data parition which is writeable by both windows and ubuntu.  This parition'sowner is plugdev.  Why is that ?
+2011-09-26T08:09:00.000Z	tomvolek		heh :)
+2011-09-26T08:09:00.000Z	escott	tomvolek	because linux and windows permissions are different so it uses plugdev to control access to windows format drives
+2011-09-26T08:10:00.000Z	escott	tomvolek	put someone in plugdev and they will be granted automatic access to plugable devices, remove them from plugdev and they won't. if the plugable device has linux permissions they will be correct, if not they may be owned by plugdev

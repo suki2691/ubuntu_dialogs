@@ -1,0 +1,4 @@
+2007-03-23T09:51:00.000Z	Lars_G		Hi all. question is there a dpkg-reconfigure based configurator for xorg?
+2007-03-23T09:51:00.000Z	Lars_G		if not, what dialog/ncurses xorg quick configurator package do you recommend me?
+2007-03-23T09:52:00.000Z	Lars_G		Last question, for older ATI cards (non flgxl afaik) where is the OSS DRI driver included?
+2007-03-23T09:52:00.000Z	clearzen	Lars_G	if you use sudo dpkg-reconfigure -phigh xserver-xorg it chooses some defaults for you

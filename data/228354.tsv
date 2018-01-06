@@ -1,0 +1,4 @@
+2005-10-15T08:25:00.000Z	dazzlindan		how do you mount a floppy disk?
+2005-10-15T08:27:00.000Z	dazzlindan		how do i mount a floppy disk?  i tried mount /media/floppy but it says i need to specify the filesystem.  i used "man" to find out it was the -t option, but what filesystem should it be?
+2005-10-15T08:28:00.000Z	The_Vox	dazzlindan	mount -t auto /dev/floppy
+2005-10-15T08:28:00.000Z	The_Vox	dazzlindan	or try -t vfat

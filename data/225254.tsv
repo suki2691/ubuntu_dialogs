@@ -1,0 +1,4 @@
+2010-08-28T20:57:00.000Z	lunavorax		Ok gotcha, wodim is running in zombie mode I just can't kill it
+2010-08-28T20:57:00.000Z	lunavorax		sudo kill -9 have no effec
+2010-08-28T20:57:00.000Z	lunavorax		+t
+2010-08-28T20:59:00.000Z	jk_	lunavorax	the only way I've managed to kill zombie processes is to kill their parent. not good if the parent is "init" or some other critical process!

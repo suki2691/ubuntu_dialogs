@@ -1,0 +1,4 @@
+2008-10-03T04:24:00.000Z	h2i		supposedly python-2play is installed, how can i tell where?
+2008-10-03T04:24:00.000Z	h2i		i mean, how can i tell what program is using it?
+2008-10-03T04:26:00.000Z	bobertdos	h2i	Well, dpkg -L <package> will list everywhere the package installed something. apt-cache rdepends will show you what programs depend on a given package.
+2008-10-03T04:27:00.000Z	h2i	bobertdos	thank you much mr.

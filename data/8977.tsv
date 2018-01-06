@@ -1,0 +1,4 @@
+2012-05-07T01:52:00.000Z	ClientAlive		what is a command I can run (apt-get <some flags/flags ? >  to find out what apps are installed but exclude anything that's part of the core system ?
+2012-05-07T01:53:00.000Z	iceroot	ClientAlive	not possible with one dpkg-command
+2012-05-07T01:54:00.000Z	iceroot	ClientAlive	use "dpkg -l | grep ^ii" and then get all packagenames from the core-system and diff the two results
+2012-05-07T01:55:00.000Z	ClientAlive	iceroot	right on, but, what does ^ii stand for (some kind of posix I'm guessing) - and - how to I "get all packagenames from the core-system" ?

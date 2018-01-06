@@ -1,0 +1,4 @@
+2009-05-29T22:13:00.000Z	mathijs175		when im installing ubuntu  i had 2 times the error: the following file did not match it source on the cd/dvd with the files /target/usr/bin/gbd and /target/usr/lib/libdb-4.6.so and ar 32% of the installation i got an errno 4 input/output error. what should i do?
+2009-05-29T22:14:00.000Z	ZykoticK9	mathijs175	you need to check you CD (via MD5), I/O error means it can't copy the file - either from the CD or onto you HD
+2009-05-29T22:38:00.000Z	ZykoticK9	mathijs175	the I/O error could be coming from your HD?  Hopefully not though.
+2009-05-31T00:17:00.000Z	ZykoticK9	mathijs175	run "sudo nvidia-settings" then save the settings in the GUI

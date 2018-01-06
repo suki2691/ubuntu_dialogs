@@ -1,0 +1,4 @@
+2009-01-25T21:44:00.000Z	zigzag71		hello can anyone tell me if when setting apache up is it safe to leave the user and group as root?
+2009-01-25T21:45:00.000Z	DIFH-iceroot	zigzag71	apache always started the main thread as root, all other prozesses are wwwdata or wwwrun
+2009-01-25T21:47:00.000Z	zigzag71	DIFH-iceroot	so when I uplaod my web-pages should I set the permissions on them as root or as the account I am creating them in?
+2009-01-25T21:48:00.000Z	DIFH-iceroot	zigzag71	ah you mean /var/www/ i normaly dont use this, i am using mod_userdir so i can use ~/public_html as the user

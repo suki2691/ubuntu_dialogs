@@ -1,0 +1,4 @@
+2012-07-14T17:57:00.000Z	ryl		hi having a problem, just installed 12.04 and the additional drivers page is empty, there is stuff that should be there wifi bluetooth et all but nada
+2012-07-14T17:58:00.000Z	ghostchick	ryl	are the wifi and bluetooth  out of the box working?
+2012-07-14T18:01:00.000Z	ghostchick	ryl	lets see sh -c "test -e /var/cache/jockey/check || exec jockey-gtk --check"
+2012-07-14T18:03:00.000Z	ghostchick	ryl	 verify is jokey is installed

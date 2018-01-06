@@ -1,0 +1,4 @@
+2007-01-11T09:56:00.000Z	saturisation		hello
+2007-01-11T09:57:00.000Z	saturisation		does anyone know how to upgrade from a clean breezy install to dapper?
+2007-01-11T09:57:00.000Z	saturisation		thanks pike
+2007-01-11T09:59:00.000Z	pike_	saturisation	in short "sudo sed -i 's/dapper/edgy/' /etc/apt/sources.list" then sudo apt-get update then sudo apt-get dist-upgrade

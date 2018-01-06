@@ -1,0 +1,4 @@
+2012-05-28T00:07:00.000Z	ghaering		How do I reload network interfaces on 12.04?
+2012-05-28T00:08:00.000Z	guntbert	ghaering	sudo service network-interface restart
+2012-05-28T00:09:00.000Z	ghaering	guntbert	that's what I tried. All I get is "stop: Unknown parameter: INTERFACE"
+2012-05-28T00:11:00.000Z	guntbert	ghaering	try adding eth0 (or so) before restart

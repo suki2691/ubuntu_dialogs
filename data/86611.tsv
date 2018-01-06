@@ -1,0 +1,4 @@
+2009-11-29T18:54:00.000Z	Julia_		how can I remove ip address using ifconfig?
+2009-11-29T18:55:00.000Z	stanley	Julia_	try sudo ifconfig del eth0 172.23.1.1
+2009-11-29T19:00:00.000Z	Julia_	stanley	Halitech no, it won't work. ifconfig del is not working and ifconfig eth1 down disables it
+2009-11-29T19:00:00.000Z	stanley	Julia_	ifconfig eth0 del ... tried ?

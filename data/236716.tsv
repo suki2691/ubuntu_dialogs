@@ -1,0 +1,4 @@
+2005-07-08T06:14:00.000Z	mopflite		my questions is, I have lost my original installation cd and I would as a result like to reconfigure apt so that all software is now obtained from the net, and yet the cd-rom drive doesn't appear as a source in /etc/apt/sources.list - any idea how I can tell the system that the net should be used for all software installations from now on?
+2005-07-08T06:14:00.000Z	nalioth	mopflite	the cd-rom is not listed at the top?
+2005-07-08T06:14:00.000Z	mopflite	nalioth	no
+2005-07-08T06:17:00.000Z	nalioth	mopflite	make sure your sources.list resembles that one

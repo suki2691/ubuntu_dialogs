@@ -1,0 +1,4 @@
+2011-09-06T00:24:00.000Z	Scunizi		How do I restart my network services?  sudo service network(ing) restart and sudo /init.d/network(ing) restart don't seem to be doing it.
+2011-09-06T00:24:00.000Z	nessonic	Scunizi	I believe it should be sudo /etc/init.d/etc.
+2011-09-06T00:24:00.000Z	nessonic		I guess etc. is a bad shortener there, "sudo /etc/init.d/network(ing) restart"
+2011-09-06T00:25:00.000Z	Scunizi	nessonic	yes.. /etc is needed.. network and networking still not doing anything.

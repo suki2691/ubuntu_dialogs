@@ -1,0 +1,4 @@
+2005-06-09T08:44:00.000Z	kimo		how can I stop postfix from starting with every boot
+2005-06-09T08:44:00.000Z	bob2	kimo	sudo rm /etc/rc2.d/S*postfix
+2005-06-09T08:45:00.000Z	kimo	bob2	I noticed it defaults to runlevel 2, but I couldnt beleive it :)
+2005-06-09T08:45:00.000Z	bob2	kimo	this isn't redhat

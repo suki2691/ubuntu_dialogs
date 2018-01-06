@@ -1,0 +1,4 @@
+2011-07-22T23:02:00.000Z	george_		hey guys i close the lid so the netbook suspends right? but i see random colors on the screen and my caps lock key goes crazy
+2011-07-22T23:03:00.000Z	aetas	george_	not necessarily no, only if ACPI is setup for it
+2011-07-22T23:04:00.000Z	george_	aetas	what do u mean??
+2011-07-22T23:04:00.000Z	aetas	george_	when you close your netbook the computer sends an ACPI event to the kernel notifying it that it needs to suspend, which the computer can ignore or isnt even setup to receive it

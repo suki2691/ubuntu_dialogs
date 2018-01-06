@@ -1,0 +1,4 @@
+2007-09-28T13:07:00.000Z	doktoreas		how can i check the kernel configuration of latest ubuntu?
+2007-09-28T13:08:00.000Z	LjL	doktoreas	by "kernel configuration", you mean the full list of config options for your kernel?
+2007-09-28T13:08:00.000Z	doktoreas	LjL	yes
+2007-09-28T13:08:00.000Z	LjL	doktoreas	gksudo gedit cat /boot/config-$(uname -r)

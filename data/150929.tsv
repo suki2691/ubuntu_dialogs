@@ -1,0 +1,4 @@
+2008-01-18T21:37:00.000Z	tomasso		is there any way to know how different are two files using diff ?
+2008-01-18T21:38:00.000Z	tomasso		for example file1 and file2 match in a 35%
+2008-01-18T21:40:00.000Z	LjL	tomasso	diff doesn't have such a feature. you could probably script it. something like « expr $(diff --minimal file1 file2 | wc -l) / $(expr $(cat file1 file2 | wc -l) / 2) »
+2008-01-18T21:42:00.000Z	tomasso	LjL	hmhmhm thank you ! sounds good

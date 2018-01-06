@@ -1,0 +1,4 @@
+2012-07-20T19:46:00.000Z	Joelixny		L3top~ Well, it found some errors in /, but I fixed those, and that didn't change the booting, and they came back after when I checked again, so I'm guessing it has to do with the fact that I have to forcefully powerdown each time it hangs.
+2012-07-20T19:47:00.000Z	dcullen_	Joelixny	Can you add rootdelay=3 (or whatever number makes sense) to your kernel command line arguments? http://oreilly.com/linux/excerpts/9780596100797/kernel-boot-command-line-parameter-reference.html
+2012-07-20T19:49:00.000Z	dcullen_	Joelixny	That link says seconds, so I doubt you waited an hour
+2012-07-20T19:50:00.000Z	dcullen_	Joelixny	Wouldn't be the first time the docs were wrong. Lesse what the LXR says

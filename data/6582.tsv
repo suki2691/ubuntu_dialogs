@@ -1,0 +1,4 @@
+2012-08-10T13:08:00.000Z	Kvaks		A couple of years ago, using a 2TB "green" HDD in linux required that it'd be partitioned in a particular way to avoid extremely bad performance. Is this still the case?
+2012-08-10T13:09:00.000Z	theadmin	Kvaks	I don't think so... Partitioning shouldn't affect performance whatsoever.
+2012-08-10T13:10:00.000Z	Kvaks	theadmin	These new (as of a couple of years ago, anyway) used a new block size that meant that (at the time) perfomance DID depend on partitioning details.
+2012-08-10T13:13:00.000Z	Kvaks	theadmin	Found an answer: "The Linux kernel has had specific support for the alternate sector sizes and offsets used by WD Advanced Format disk drives since version 2.6.31". So I guess it's no longer necessary to partition in a particular way.

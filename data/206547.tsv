@@ -1,0 +1,4 @@
+2006-01-26T14:35:00.000Z	chrisss		i've mounted my windows partitions but i can't see the files...because the it says the owner is "root"
+2006-01-26T14:36:00.000Z	sethk	chrisss	that's because the owner is root
+2006-01-26T14:36:00.000Z	sethk	chrisss	you have to use the mount options uid= and gid=
+2006-01-26T14:36:00.000Z	sethk	chrisss	do   man mount    search for ntfs options

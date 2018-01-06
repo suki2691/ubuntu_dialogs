@@ -1,0 +1,4 @@
+2011-06-02T07:45:00.000Z	tanath		can anyone help me with samba?
+2011-06-02T07:47:00.000Z	tanath		need help with samba. before upgrading to 11.04 i was able to mount/access my shares, but now it fails to mount shares. and running smbclient asks for a password
+2011-06-02T07:49:00.000Z	sabiancrash_cgx	tanath	if you have anonymous access enabled on your smb share, then just hitting return on the password prompt should work
+2011-06-02T07:50:00.000Z	tanath	sabiancrash_cgx	that helped. thanks. new error: tree connect failed: NT_STATUS_BAD_NETWORK_NAME

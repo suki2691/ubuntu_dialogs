@@ -1,0 +1,4 @@
+2011-03-12T02:33:00.000Z	[segfault]	shiftingcontrol	can you clarify that?
+2011-03-12T02:38:00.000Z	[segfault]	shiftingcontrol	try using the -P parameter and specify a directory like: wget -P x www.c.com/read.html
+2011-03-12T02:41:00.000Z	[segfault]	shiftingcontrol	so you want wget to send whatever it downloads to a directory on another networked machine?
+2011-03-12T02:43:00.000Z	[segfault]	shiftingcontrol	well, I don't think wget was really designed for that.. wouldn't moving files around be a task more suited to a ssh or telnet session?

@@ -1,0 +1,4 @@
+2012-04-30T18:30:00.000Z	twoten		I upgraded to 12.04 and lost my wireless, anyone up on wireless repair?
+2012-04-30T18:31:00.000Z	twoten		I tried running ifconfig up but it says unknown device for ever variation of wlan, wlan0 etc, How can I find out my device name?
+2012-04-30T18:32:00.000Z	Darael	twoten	Try ifconfig -a to get it to list interfaces that aren't up.
+2012-04-30T18:35:00.000Z	Darael	twoten	I was going to ask about lspci.  Wouldst thou pastebin the relevant bit of dmesg (and a few lines either side, just in case) for us?

@@ -1,0 +1,4 @@
+2010-09-03T23:27:00.000Z	kenthree		I want to start a php-cli script on boot, I added the command to autostarted apps and it works. But I want it to run in a terminal rather than in the background- help
+2010-09-03T23:28:00.000Z	kenthree		and i'll try thanks ersu
+2010-09-03T23:29:00.000Z	shirtless	kenthree	why don't you just start it on boot and log all stdout/stderr to a file.
+2010-09-03T23:29:00.000Z	shirtless	kenthree	that way you can just do tail -f logfile

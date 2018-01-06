@@ -1,0 +1,4 @@
+2011-01-24T00:15:00.000Z	NET||abuse		hmm, in my ~/.profile it has the      if [-d "$HOME/bin"]; then    PATH = "$HOME/bin:$PATH"     fi
+2011-01-24T00:15:00.000Z	NET||abuse		but i can't run stuff i put in there
+2011-01-24T00:15:00.000Z	NET||abuse		i chmod +x it,, but is the .profile  being executed?
+2011-01-24T00:15:00.000Z	danub	NET||abuse	you could always add it to the global path if you want all users to have access to run the stuff (/etc/environment)

@@ -1,0 +1,4 @@
+2006-02-27T10:13:00.000Z	mark_		is anyone familiar with file permissoins?
+2006-02-27T10:14:00.000Z	mark_		I have my hardrive partitioned so 3 way "/" "sda3" and "sda4"
+2006-02-27T10:15:00.000Z	mark_		"sda3" and "sda4" are owned by root and I have been trying to change it so that I don't have to be logged in as root to make changes
+2006-02-27T10:15:00.000Z	nm	mark_	add 'user' as an option in /etc/fstab

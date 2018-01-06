@@ -1,0 +1,4 @@
+2012-11-13T00:51:00.000Z	episteme		morning everyone! quick vsftpd question (already tried in #vsftpd, but no response). I'm getting a critical error when trying to connect with a local_user. What causes this and how can i change it? This is a fresh install and the only changes i made to the .conf file are turning off anonymous and turning on local enable. TIA
+2012-11-13T00:52:00.000Z	jCuber	episteme	What kind of error are you getting? If it's along one, use http://paste.ubuntu.com
+2012-11-13T00:53:00.000Z	episteme	jCuber	simply getting Critical error. Could not connect
+2012-11-13T00:54:00.000Z	episteme	jCuber	so i switch anonymous back on and logged in and it worked find. I'm only getting this with local enable set to yes and anonymous set to no

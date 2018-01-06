@@ -1,0 +1,4 @@
+2010-04-05T19:46:00.000Z	jpam		Hi ! Why Jdownloader uses more than 230 mb on my Ubuntu 9.1 but on Windows 7 max 100 mb ? :( Both of OS are 64 bit ?
+2010-04-05T19:48:00.000Z	Ahlee	jpam	different JVMs between Win7 and Ubuntu 9.10 - are you using Sun's JVM under Windows, and whatever implementation ubuntu drops in their repos now-a-days
+2010-04-05T19:49:00.000Z	Ahlee	jpam	then I'm going to say that it's likely not using more memory, it's reporting different memory usage due to the difference Linux displays managed memory and how Windwos displays managed memory
+2010-04-05T19:50:00.000Z	Ahlee	jpam	No, I said it's reporting different values, not that the differences is necessarily better or worse.  Linux memory management and how it's displayed is a muddy, murky thing, especially when you start diving into linked libraries

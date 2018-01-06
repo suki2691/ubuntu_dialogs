@@ -1,0 +1,4 @@
+2005-11-26T15:08:00.000Z	mostrodibiscotti		I have Ubuntu 5.10, and I have a printer on my network tat has a built in print server with a static IP.  From a windows xp machine, I connect to it either by the share name on a server, or I can just create an LPR port to the printer's ip address.  In ubuntu can I do that?  Can I just conecct through an LPR or TCP port so as to avoid SAMBA?
+2005-11-26T15:09:00.000Z	MagicFab	mostrodibiscotti	sure, port 9100
+2005-11-26T15:09:00.000Z	MagicFab	mostrodibiscotti	if it's through an Apple Airport, try port 9101
+2005-11-26T15:09:00.000Z	MagicFab	mostrodibiscotti	if using the Printer setup admin tool in Ubuntu, specify it's a "JetDirect" printer

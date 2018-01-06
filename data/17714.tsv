@@ -1,0 +1,4 @@
+2011-04-06T23:47:00.000Z	Adom		QUESTION: ubuntu keeps kicking me off ssh sessions with "Write failed: Broken pipe". i've googled hardcore and found many people with this problem only with ubuntu, but ive tried each possible fix and no improvement. is there a fix i havent found? seems like a popular problem.
+2011-04-06T23:48:00.000Z	maco	Adom	that happens when there's a network hiccup (or for me, frequently when ive remotely rebooted the machine im ssh'd into). could also be that youve not typed anything in ssh in so long that it's timed out, in which case you can raise the timeout limit
+2011-04-06T23:49:00.000Z	Adom	maco	i thought it was timing out as well but i've tried adding "TCPKeepAlive yes" and "ServerAliveInterval 200" to ssh_config and still does it
+2011-04-06T23:49:00.000Z	Adom	maco	also, it happens with any ssh server, so i konw its my desktop ubuntu, not the server

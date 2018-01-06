@@ -1,0 +1,4 @@
+2009-06-09T20:52:00.000Z	anupamsps		i am getting a wired problem when i try to transfer 5gb+ movie file from my ubuntu workstation to my ext HDD, i am getting file size is too big error. any work around this error
+2009-06-09T20:53:00.000Z	sipior	anupamsps	what's the filesystem used on the target volume?
+2009-06-09T20:54:00.000Z	sipior	anupamsps	the maximum file size on fat32 is 4gb. so, use a different filesystem :-)
+2009-06-09T20:55:00.000Z	sipior	anupamsps	ntfs would work, for example.

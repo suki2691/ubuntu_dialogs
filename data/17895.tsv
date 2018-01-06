@@ -1,0 +1,4 @@
+2011-04-25T00:40:00.000Z	usr_		is there any way to flush ram memory?
+2011-04-25T00:41:00.000Z	passthru	usr_	i dunno if it will properly flush but, try: sudo sync ; sudo sysctl vm.drop_caches=3 ; sudo sysctl vm.drop_caches=0 ; sudo sync
+2011-04-25T00:42:00.000Z	usr_	passthru	thanks
+2011-04-25T00:43:00.000Z	passthru	usr_	n/p :]

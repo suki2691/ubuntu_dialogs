@@ -1,0 +1,4 @@
+2011-01-03T03:21:00.000Z	Nazaryn		Anyone know the quick terminal command to query all processes (process-list) ?
+2011-01-03T03:21:00.000Z	ActionPa1snip	Nazaryn	ps -ef | less
+2011-01-03T03:24:00.000Z	ActionPa1snip	Nazaryn	killall name    or if you know the PID,   kill PID
+2011-01-03T03:24:00.000Z	ActionPa1snip	Nazaryn	if it refuses to die, use:  kill -9 PID

@@ -1,0 +1,4 @@
+2007-08-20T11:22:00.000Z	Furre		Hello everyone. If anyone have time, Id really appreciate some help. The problem I get is that after installing Ubuntu to the harddrive and trying to load it, my screen turns blank, not sure if this is caused either by the resolution or frequency, but Ive tried to reconfigure xserver, but after rebooting, the same thing happens again, can anyone help? Im on an ATI card if that helps any
+2007-08-20T11:24:00.000Z	Jack_Sparrow	Furre	go back and sudo dpkg-reconfigure again.... this time select vesa for the card and 1024 for the res.. That should get you back to a desktop where you can work on the right settings
+2007-08-20T11:29:00.000Z	Furre	Jack_Sparrow	same thing happens agian when selecting vesa :/, also, three resoltions were selected with * but im not sure howto unselect the others than 1024
+2007-08-20T11:29:00.000Z	Jack_Sparrow	Furre	space bar toggles the selection

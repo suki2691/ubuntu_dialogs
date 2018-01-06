@@ -1,0 +1,4 @@
+2009-03-16T20:32:00.000Z	drostie		Is there a way to generically allocate a segment of the disk without caring what it contains? Or am I stuck with [sudo dd if=/dev/zero of=/path/to/myfile bs=filesize count=1]...?
+2009-03-16T20:32:00.000Z	drostie		(This is for dynamic swapfile creation at bootup.)
+2009-03-16T20:32:00.000Z	roue	drostie	maybe look at LVM?
+2009-03-16T20:33:00.000Z	drostie	roue	Well, it's all on an LVM partition. I'm just thinking that the swapfile can reside in /tmp and be deleted and recreated at boot.

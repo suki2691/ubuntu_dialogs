@@ -1,0 +1,4 @@
+2008-01-23T00:20:00.000Z	Blinkiz		Have installed ubuntu in "cli" and have installed build-essential. I also need linux-headers to be able to build Virtualbox's guest additions. What linux-headers should I install?
+2008-01-23T00:21:00.000Z	pike_	Blinkiz	sudo apt-get install linux-headers-$(uname -r)
+2008-01-23T00:21:00.000Z	Blinkiz	pike_	Nice, thanks!
+2008-01-23T00:24:00.000Z	Blinkiz	pike_	What is linux-headers-2.6.22-14-virtual and linux-headers-2.6.22-14-server? What is the different from linux-headers-2.6.22-14?

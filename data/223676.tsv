@@ -1,0 +1,4 @@
+2009-10-06T09:44:00.000Z	Blackbird		I'm configuring a wired connection manually, and regardless of what I change the netmask to, it always auto-changes it to 192.0.0.0 as soon as I go back to the config window
+2009-10-06T09:44:00.000Z	Blackbird		Why is it doing this?
+2009-10-06T09:45:00.000Z	cfedde	Blackbird	probably NetworkManager.
+2009-10-06T09:47:00.000Z	cfedde	Blackbird	you can read through the NetworkManager man page and try to piece it together.

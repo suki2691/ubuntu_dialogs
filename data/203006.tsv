@@ -1,0 +1,4 @@
+2008-09-05T09:36:00.000Z	celia_tux		heyyy prince?!
+2008-09-05T09:38:00.000Z	celia_tux		how can this script tell me that just 'lala' has been found (not lal or la or al...) --- command: if grep -q 'lala' /var/log/auth.log; then echo "It's there"; fi
+2008-09-05T09:38:00.000Z	Kurt	celia_tux	That script should do it as is...does it not?
+2008-09-05T09:43:00.000Z	Kurt	celia_tux	I think the -q will cause the if statement to always return false

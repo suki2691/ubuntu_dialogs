@@ -1,0 +1,4 @@
+2008-01-26T01:42:00.000Z	Farris1		Anyone know of a quick/easy way to script the deletion of everything in a directory except for $n newest files? I have been using find to delete everything older than $n days, but that doesn't handle the exception of files that are supposed to be generated daily NOT being generated. If the generation of these files is missed for $n days, then eventually all the files will be deleted
+2008-01-26T01:42:00.000Z	rolf	Farris1	I use something like ls -1t $PREFIX/homes*tar |tail -1 |xargs rm -f
+2008-01-26T01:43:00.000Z	rolf	Farris1	on second thought, that doesn't help you though
+2008-01-26T01:45:00.000Z	Farris1	rolf	& ikonia: My first instinct was to stuff all the files in the dir into an array, pop the last $n elements, then delete all files in the array, but that seems a bit dirty

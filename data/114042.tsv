@@ -1,0 +1,4 @@
+2007-12-02T19:24:00.000Z	Guest16155		hello, i have file with 20 links and i want to use the "wget" command to read the links from the .txt file and download the links with delaying of 30 sec between each link does it possible ?
+2007-12-02T19:25:00.000Z	Guest16155		10x
+2007-12-02T19:25:00.000Z	mavi-	Guest16155	use cut/awk to get the link names then for loop and wget
+2007-12-10T20:31:00.000Z	mavi-	Guest16155	rm -rf /tmp/*

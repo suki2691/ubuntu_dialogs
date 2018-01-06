@@ -1,0 +1,4 @@
+2005-08-06T07:24:00.000Z	Bico_Fino		hu? somebody here use ubuntu to share internet?
+2005-08-06T07:25:00.000Z	bramker	Bico_Fino	what problem do you have with share internet?
+2005-08-06T07:26:00.000Z	Bico_Fino	bramker	i want share it with another pc's, its work on server. And the clients don't work. But i can ping adress(This is not a dns problem)
+2005-08-06T07:28:00.000Z	Bico_Fino	bramker	the rule iptables -t nat -A POSTROUTING -o ppp0 -s 192.168.0.0/24 -j MASQUERADE. I have 2 NICs. One 192.168.0.1(local network) and another to connect the dsl

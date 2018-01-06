@@ -1,0 +1,4 @@
+2008-11-22T01:06:00.000Z	craigbass1976		I have a web server, and am trying to display a bunch of images.  They're not showing up, and I get a message about them being corrupt.  If I open up in GIMP, save (make no changes) and close, then they will display in the browser.  ANy idea why this is, and how to avoid opening/saving all 800 of them?
+2008-11-22T01:08:00.000Z	jimcooncat	craigbass1976	gthumb could help you automate it, especially if they're all in one directory. If you need a robust command line tool, maybe imagemajick.
+2008-11-22T01:09:00.000Z	craigbass1976	jimcooncat	just read somewhere that they might be CMYK encoded, instead of rgb.  FF has issues with that I guess; I have not tested on IE.  I'm guessing imagemajick could switch them in one fell swoop...
+2008-11-22T01:11:00.000Z	jimcooncat	craigbass1976	that's a good guess, and worth a try. good luck!

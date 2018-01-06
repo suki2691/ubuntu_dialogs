@@ -1,0 +1,4 @@
+2012-02-20T21:14:00.000Z	vivekimsit		How can I know that which command I ran on a particular day in my bash shell?
+2012-02-20T21:15:00.000Z	oCean	vivekimsit	by default there is no timestamp in bash history file
+2012-02-20T21:16:00.000Z	oCean	vivekimsit	when you type the  history  command in shell, you will see your recent commands, by default last 1000 I think.
+2012-02-20T21:18:00.000Z	oCean	vivekimsit	there is. Add this line  export HISTTIMEFORMAT='%F %T '  to your ~/.bashrc, then source the bashrc again

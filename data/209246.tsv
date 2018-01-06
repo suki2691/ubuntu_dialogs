@@ -1,0 +1,4 @@
+2005-11-27T17:16:00.000Z	kreatine		how can i get apt-get to give me a list of say packages with a*
+2005-11-27T17:16:00.000Z	kreatine		?
+2005-11-27T17:16:00.000Z	LjL	kreatine	of *installed* packages or *available* packages? and you mean packages starting with "a", anyway?
+2005-11-27T17:17:00.000Z	LjL	kreatine	apt-cache search a | grep "^a"

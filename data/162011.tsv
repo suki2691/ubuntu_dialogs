@@ -1,0 +1,4 @@
+2006-11-15T11:59:00.000Z	alecjw		can anyone explain how i can configure a wireless connaction in the terminal please?
+2006-11-15T11:59:00.000Z	lsproc	alecjw	iwconfig
+2006-11-15T12:02:00.000Z	alecjw	lsproc	it detected it but didnt configure it, waht do i do?
+2006-11-15T12:03:00.000Z	lsproc	alecjw	Well, for example, to set the essid, as root do: iwconfig wlan0 essid ESSID (replace wlan0 and ESSID with respective options)

@@ -1,0 +1,4 @@
+2010-04-28T10:00:00.000Z	fatboy-ubuntu-re		i'm having trouble mounting my windows partition on ubuntu remix 9.10
+2010-04-28T10:00:00.000Z	fatboy-ubuntu-re		how do i mount?
+2010-04-28T10:01:00.000Z	fatboy-ubuntu-re		i can mount anything else, just not the windows partition
+2010-04-28T10:03:00.000Z	alkisg	fatboy-ubuntu-re	try this command from a terminal, and see if it produces any error output. Replace sda1 with your windows partition number: sudo udisks --mount /dev/sda1

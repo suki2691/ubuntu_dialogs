@@ -1,0 +1,4 @@
+2005-04-01T13:26:00.000Z	CarinArr		right.. i have an alps touchpad, and it automatically uses the synaptics driver, however, i can't seem to disable it. When looking through the docs it mentions that alps hardware doesn't work properly without applying a kernel patch.. it gives me the patch file to run but i'm not sure how to run it.. have never done kernel patching before
+2005-04-01T13:26:00.000Z	CarinArr		so could anyone possibly help me or give me a hint of where to find more info about it
+2005-04-01T13:26:00.000Z	Nermal	CarinArr	install the kernel source
+2005-04-01T13:28:00.000Z	Nermal	CarinArr	the -p value is the number of lines to skip at the beginning of the patch file.. usually 0

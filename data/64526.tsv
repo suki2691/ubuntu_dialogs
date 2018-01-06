@@ -1,0 +1,4 @@
+2009-03-07T14:42:00.000Z	paulSterio		ok so I have these settings loaded, I've reloaded apache, here is a copy of my configuration for the apache site I'm trying to load up. http://dpaste.com/8603/ I'm trying to get a django project up and running - how do I now tell the browser to point to http://vacorps.com like one would do on windows system32/drivers/etc/host
+2009-03-07T14:42:00.000Z	daftykins	paulSterio	/etc/hosts for Linux
+2009-03-07T14:45:00.000Z	paulSterio	daftykins	how do I write to the hosts file? it's read only
+2009-03-07T14:46:00.000Z	daftykins	paulSterio	"sudo nano /etc/hosts" in terminal for command line, or "sudo gedit /etc/hosts" for a GUI editor

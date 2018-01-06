@@ -1,0 +1,4 @@
+2012-01-07T00:28:00.000Z	grunk		i want to upgrade thunderbird from 8 - > 9, can i just delete the old thunderbird dir and unpack from new archive (thunderbird-9.0.1.tar.bz2) to the same dir?
+2012-01-07T00:29:00.000Z	syddraf	grunk	I'd use a ppa and let the package manager handle it.
+2012-01-07T00:29:00.000Z	syddraf	grunk	https://launchpad.net/~mozillateam/+archive/thunderbird-stable
+2012-01-07T00:32:00.000Z	syddraf	grunk	No problem. It should just be "sudo add-apt-repository ppa:mozillateam/thunderbird-stable && sudo apt-get update && sudo apt-get install thunderbird"

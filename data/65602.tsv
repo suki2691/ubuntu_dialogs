@@ -1,0 +1,4 @@
+2011-02-20T05:46:00.000Z	mufasis		just another quick question, i have two packages in the form of .deb files that i need to install, they are already on my server, how do i install them with all their dependencies etc?
+2011-02-20T05:46:00.000Z	Lint01	mufasis	manually, dpkg do not track dependencies
+2011-02-20T05:47:00.000Z	Lint01	mufasis	no
+2011-02-20T05:49:00.000Z	Lint01	mufasis	that will just ignore dependencies, not INSTALL them

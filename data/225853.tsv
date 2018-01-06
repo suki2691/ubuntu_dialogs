@@ -1,0 +1,4 @@
+2006-01-17T09:25:00.000Z	FaTaL-XP		done that,  am still getting now nvidia logo :(
+2006-01-17T09:26:00.000Z	trappist	FaTaL-XP	in /etc/X11/xorg.conf, in the "Device" section, put this:  Option "NoLogo" "True"
+2006-01-17T09:29:00.000Z	trappist	FaTaL-XP	you can tell if they're working if this gives you a 'yes': glxinfo | grep rendering
+2006-01-17T09:30:00.000Z	trappist	FaTaL-XP	did you get a yes?

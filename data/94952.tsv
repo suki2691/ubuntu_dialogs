@@ -1,0 +1,4 @@
+2008-04-23T00:52:00.000Z	MrBill		If I delete a user, can I then immediately aftewards create a new user with the same UID/GID or are they somehow reserved or something for a certain time after they are "freed" up by the deleting of a user?
+2008-04-23T00:53:00.000Z	Guillem	MrBill	open shells may not know about this change
+2008-04-23T00:54:00.000Z	MrBill	Guillem	So, if i delete, then log out completely, log back in, and then create the new user I would have 1003 available as my GID/UID?
+2008-04-23T00:55:00.000Z	Guillem	MrBill	 I guess so. I suppose 1003 is a large enough ID so no problems arise....

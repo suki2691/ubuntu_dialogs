@@ -1,0 +1,4 @@
+2009-02-28T18:44:00.000Z	shadowhywind		does anyone have any ideas on how to change the desktop picture from the console?
+2009-02-28T18:45:00.000Z	rakudave	shadowhywind	gconftool -t string -s /desktop/gnome/background/picture_filename the_picture.jpeg
+2009-02-28T18:46:00.000Z	rakudave		:-)
+2009-02-28T18:47:00.000Z	shadowhywind	rakudave	thanks will look into that

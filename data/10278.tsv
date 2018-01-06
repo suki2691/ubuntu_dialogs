@@ -1,0 +1,4 @@
+2012-09-20T07:01:00.000Z	pyrokinetic		hi everyone. recently removed my windows 7 partition and am now running ubuntu 12.04 full time, unfortunately I now have a TON of unallocated space that I can't seem to use, tried running gparted from liveCD and disabled swap so I could expand my extended partition, which worked, but now I just have unallocated space (along with my 'normal' partitions) within my extended partition...a little help would be super.
+2012-09-20T07:01:00.000Z	crimsonmane	pyrokinetic	you need to boot to a LiveCD in order to resize the partition. the drive cannot be mounted when you resize it, which means you can't be using it as your operating system at the time you resize it.
+2012-09-20T07:02:00.000Z	pyrokinetic	crimsonmane	I did do it from livecd but couldn't move the sliders across.
+2012-09-20T07:02:00.000Z	crimsonmane	pyrokinetic	the drive might have been mounted.

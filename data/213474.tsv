@@ -1,0 +1,4 @@
+2006-11-18T08:09:00.000Z	Staz		in ubunto how can I release my ip and then request a new one from teh dhcp server?
+2006-11-18T08:10:00.000Z	tklich	Staz	ifconfig yourwirelessadapter down
+2006-11-18T08:11:00.000Z	tklich	Staz	iwconfig your wirelessadapter yourssid key yourkey
+2006-11-18T08:11:00.000Z	tklich	Staz	dhclient yourwireless adapter

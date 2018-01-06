@@ -1,0 +1,4 @@
+2012-02-12T10:44:00.000Z	escott	soulf_	unlike gconf it seems that options dont exist until they are changed. in gconf you always had the schema to fall back on but in dconf you dont. but often you can just set the gconf key and it seems to work
+2012-02-12T10:56:00.000Z	soulf_	escott	what do you mean "just set the gconf key"? How would I do that?
+2012-02-12T11:02:00.000Z	escott	soulf_	i would (a) try using gconf-editor it might still work. if it doesnt then use dconf-editor but create the key and directory based on what you see in gconf-editor schemas (alternately use gsettings cli to create and set the value)
+2012-02-12T11:03:00.000Z	soulf_	escott	alright thanks, (b) it is :)

@@ -1,0 +1,4 @@
+2009-01-17T05:52:00.000Z	Billy		does anyone know how to change ownership from root to the user
+2009-01-17T05:52:00.000Z	henri	Billy	chown user.group file1 file2
+2009-01-17T05:53:00.000Z	henri	Billy	yes, yoiu can also do it recursively (chown -R ...)
+2009-01-17T05:56:00.000Z	henri	Billy	You'll have to use sudo if you're not aleady root..

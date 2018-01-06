@@ -1,0 +1,4 @@
+2007-10-25T11:55:00.000Z	kaiou		hello everyone.. after a few hours of trying, I was able to get ubuntu to recognize my atheros card.  Now everytime i restart I have to enter the command "sudo iwconfig wlan0 key open".  How can I do it so iconfig save that command?  I've tried "sudo iwconfig wlan0 commit" but i get the same problem at restart.  can i run this command as soon as the system start?
+2007-10-25T11:57:00.000Z	kaiou		JimmyDee.. where is the file rc.local... under /usr?
+2007-10-25T11:57:00.000Z	hwilde	kaiou	/etc
+2007-10-25T11:57:00.000Z	hwilde	kaiou	type in "locate rc.local" and it will show you the location

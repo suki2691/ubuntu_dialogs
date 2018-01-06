@@ -1,0 +1,4 @@
+2012-09-21T19:57:00.000Z	zak_		what mplayer command shall i use to extract a 356kbps mp3 file  from an .mp4 video ?
+2012-09-21T19:58:00.000Z	zykotick9	zak_	you can use mplayer to dump to WAV (then encode the WAV) with "mplayer -vo null -ao pcm foo"
+2012-10-15T01:27:00.000Z	zykotick9	zak_	if you compiling outside software, then check with that software if logs are created (i've never seen a compile log before, but they might be possible)
+2012-10-15T01:47:00.000Z	zykotick9	zak_	don't expect a huge reply.  compiling outside drivers is OT in #ubuntu, does realtek have a support channel?  (PS don't reply to me, i won't see it)

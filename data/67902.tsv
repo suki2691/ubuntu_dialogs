@@ -1,0 +1,4 @@
+2012-01-02T23:39:00.000Z	Phrogz		I'm trying to get a new server working with email (postfix/dovecot) and I've clearly flubbed it. How can I nuke the configs and get to a clean spot to start over?
+2012-01-02T23:40:00.000Z	Phrogz		Using apt-get remove dovecot postfix etc. did not remove old .conf files e.g. /etc/dovecot/dovecot.conf
+2012-01-02T23:40:00.000Z	Phrogz		So I tried nuking that directory and re-installing the package, but now I don't even have default .conf
+2012-01-02T23:40:00.000Z	debian_noob	Phrogz	apt-get purge

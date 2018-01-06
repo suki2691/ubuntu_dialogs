@@ -1,0 +1,4 @@
+2012-05-31T02:05:00.000Z	cryptotheslow	designbybeck	replug one of the usb drives then "tail /var/log/syslog" to see where it mounted - should work
+2012-05-31T02:06:00.000Z	cryptotheslow	designbybeck	or just touch a small file onto either oen and see which light flashes :D
+2012-05-31T02:10:00.000Z	cryptotheslow	designbybeck	hmmph. Out of suggestions then, I just use syslog
+2012-05-31T02:15:00.000Z	cryptotheslow	designbybeck	thinking about it - if you labelled the partitions on the usbs you could use blkid to see where they are mounted

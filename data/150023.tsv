@@ -1,0 +1,4 @@
+2009-10-27T16:57:00.000Z	psypherman		Hi all! Where would I find the log files that show who has connected to my server?
+2009-10-27T16:57:00.000Z	Pici	psypherman	Connected in what way? ssh?
+2009-10-27T16:58:00.000Z	Pici	psypherman	/var/log/apache2/access.log
+2009-10-27T16:59:00.000Z	Pici	psypherman	If you have different vhosts defined you may need to look into /var/log/apache2/other_vhosts_access.log

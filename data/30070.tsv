@@ -1,0 +1,4 @@
+2010-06-18T21:21:00.000Z	webroasters		hey guys, a few weeks ago I switched a wordpress install to another folder and repointed the sites-enabled entry to the new folder. Everything works right, except when I upload new media, it re-creates the old folder and puts it there. Therefore, I get a broken image.. Does anyone know what may have happened? I've checked the database for answers, but there are none
+2010-06-18T21:21:00.000Z	webroasters		can someone help?
+2010-06-18T21:22:00.000Z	sectorb	webroasters	grep -r <old_path> /path/to/wordpress/install
+2010-06-18T21:23:00.000Z	webroasters	sectorb	ok, ill try that

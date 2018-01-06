@@ -1,0 +1,4 @@
+2009-02-04T01:50:00.000Z	dixon		i have a question, trying to get my cam to wrok, i did a dmesg and heres the link http://pastebin.com/d16f7b736
+2009-02-04T01:52:00.000Z	user_	dixon	just curious, are you using a selfcompiled kernel?
+2009-02-04T01:56:00.000Z	user_	dixon	hmm, what if try to remove usbdev2.5_ep81 and 82 before pluggin in the cam, does that make sense?
+2009-02-04T01:57:00.000Z	user_	dixon	also you seem to have a tainted kernel (at least the regexp shows up in the log)

@@ -1,0 +1,4 @@
+2011-08-22T22:33:00.000Z	hildegard		hi all.  i have an openvpn connection that is not connecting (TLS error).  I think maybe I have the wrong cert on my server (someone might've changed the remote key??).  is there a way i can get it to 'just connect' so i can ssh into this thing?
+2011-08-22T22:34:00.000Z	schnuffle	hildegard	No way, as you need to change the server config. Can you connect with ssh to your VPN-server?
+2011-08-22T22:36:00.000Z	schnuffle	hildegard	hzave you checked if your certs are eventually expired?
+2011-08-22T22:36:00.000Z	schnuffle	hildegard	so you're on the server but you need to check the client?

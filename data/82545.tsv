@@ -1,0 +1,4 @@
+2010-01-07T21:02:00.000Z	fist		hey guys, if i start wireshark as a normal user, i cant see the devices .. can i add the user to some group to work with wireshark as a normal use
+2010-01-07T21:04:00.000Z	fist		im just asking because of the "damanger message", when i startup as root
+2010-01-07T21:04:00.000Z	guntbert	fist	use gksudo wireshark
+2010-01-07T21:05:00.000Z	guntbert	fist	only root may set the interfaces the way it is needed for wireshark

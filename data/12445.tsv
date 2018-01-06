@@ -1,0 +1,4 @@
+2011-08-09T06:26:00.000Z	astro5		when i try to sudo gedit /etc/grub.d/10_linux it is all in code, not easy to configure
+2011-08-09T06:28:00.000Z	zykotick9	astro5	i'd guess you need to use a 40_custom to rename entries with, I rename mine to 06_custom - to get them listed before 10 and 30.  Not exactly trivial, but not impossible either.
+2011-08-09T06:31:00.000Z	zykotick9	astro5	yes - but to you have something to replace it with?  will you still be able to boot?
+2011-08-09T06:32:00.000Z	zykotick9	astro5	you 40_custom needs to have the proper info, then you can make the others non-executable

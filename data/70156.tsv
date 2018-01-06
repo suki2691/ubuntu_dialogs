@@ -1,0 +1,4 @@
+2009-01-02T00:14:00.000Z	polemon		tinyirc package, who maintains it?
+2009-01-02T00:15:00.000Z	nickrud	polemon	you can usually find that out with apt-cache show <packagename>
+2009-01-02T00:16:00.000Z	polemon	nickrud	seems it's ubuntu itself
+2009-01-02T00:17:00.000Z	nickrud	polemon	no, look for the Maintainer field. Some of those will say ubuntu-motu, or ubuntu-core-devs, or the like

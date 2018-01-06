@@ -1,0 +1,4 @@
+2010-06-12T23:15:00.000Z	banker247		can someone explain to me this.. i have a directory set at www-data:root and everything works fine my permisions are 777. even when i set the directory to root:root since I have 777 why does the program not function correctly and display chmod errors?
+2010-06-12T23:16:00.000Z	mneptok	banker247	the httpd may complain that the permissions are *too* permissive.
+2010-06-12T23:16:00.000Z	mneptok	banker247	and is your httpd actually running as www-data?
+2010-06-12T23:18:00.000Z	mneptok	banker247	is the dir 777? or is everything inside it 777 also?

@@ -1,0 +1,4 @@
+2005-08-13T08:53:00.000Z	hubsi		how can i search a file over console!?
+2005-08-13T08:54:00.000Z	bimberi	hubsi	sudo find / -name <filename>
+2005-08-13T08:56:00.000Z	bimberi	hubsi	alternatively - find / -name "*<part-of-filename>*"
+2005-08-13T08:56:00.000Z	bimberi	hubsi	oops - forgot the "sudo" in front (otherwise lots of permission errors)

@@ -1,0 +1,4 @@
+2007-06-09T09:16:00.000Z	ShackJack		Odd ubuntu question - how come synaptic doesn't pickup the system fonts I have defined (located in .fonts) - but uses the default sans fonts.. All the other apps use the right fonts (for menus, display, etc...)
+2007-06-09T09:17:00.000Z	iMayKnow	ShackJack	when you gksudo something it uses whatever the root user has defined for fonts and colors, so it won't use your themes or fonts
+2007-06-09T09:18:00.000Z	ShackJack	iMayKnow	Ah, of course, thanks...
+2007-06-09T09:18:00.000Z	ShackJack	iMayKnow	I can of course just make a symbolic link in root to my user fonts which should solve it :)

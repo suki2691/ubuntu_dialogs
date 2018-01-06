@@ -1,0 +1,4 @@
+2007-12-09T16:03:00.000Z	velko	intrepidlytrite	you need also a driver for the device to work
+2007-12-09T16:04:00.000Z	intrepidlytrite		egs, it's a microdia, in the list of supported cams for skype that's in the ubuntu wiki, it is marked as working
+2007-12-09T16:04:00.000Z	intrepidlytrite	velko	my dmesg output tells me it's been initialized, using a certain driver...shouldn't that be enough?
+2007-12-09T16:06:00.000Z	velko	intrepidlytrite	i was able to see my webcam trough "sudo lsusb" and in dmesg but wasn't able to use it until i loaded the kernel module "gspca" (it's a logitech webcam)

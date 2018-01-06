@@ -1,0 +1,4 @@
+2009-11-21T00:36:00.000Z	CountDown		Resume from suspend works before I login to my laptop, but not after.  I'm guessing some hardware driver isn't resuming correctly.  I'd like to figure out which hardware drivers are loaded before login and which are loaded after so I can compare the two lists and come up with a list of suspect drivers.  What's the best way of doing this?
+2009-11-21T00:38:00.000Z	CountDown		I suppose I could run an init script that dumps lsmod to a file.
+2009-11-21T00:38:00.000Z	Funzo	CountDown	/var/log/syslog
+2009-11-21T00:58:00.000Z	CountDown	Funzo	Thanks, I'll check out /var/log/syslog.

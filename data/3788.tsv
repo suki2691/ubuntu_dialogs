@@ -1,0 +1,4 @@
+2012-04-24T04:38:00.000Z	anoninux		I'm trying to build a somewhat old program and I'm getting this error: /usr/bin/ld: cannot find -lm \n collect2: ld returned 1 exit status
+2012-04-24T04:38:00.000Z	anoninux		all I could find on Google was to install glibc-static, which I don't have in my Ubuntu 10 repos
+2012-04-24T04:39:00.000Z	dr_willis	anoninux	 you may need to compile the libcollect2 or whatever its called firt
+2012-04-24T04:40:00.000Z	anoninux	dr_willis	I'll look on it, thanks

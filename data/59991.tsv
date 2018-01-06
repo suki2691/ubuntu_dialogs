@@ -1,0 +1,4 @@
+2009-04-24T05:03:00.000Z	Genolo		Hi i have a small problem; i am re installing windows xp in order to set a dual boot, which will wipe ubuntu's data. Therefore, i need to copy all the files in my filesystem to a portable hardrive. But, it doesn't simply let me drag and drop. How do i do this?
+2009-04-24T05:04:00.000Z	Jordan_U	Genolo	Why not just resize your Ubuntu partition and re-install grub after you install windows?
+2009-04-24T05:04:00.000Z	Genolo	Jordan_U	i don't know how
+2009-04-24T05:08:00.000Z	Jordan_U	Genolo	Boot an Ubuntu liveCD, go to System > Administration > Partition Editor, resize your ubuntu partition so that there is room for windows at the *begginning* of the drive ( windows will freak out if it's not the first partition IIRC ), then *carefully* install windows to the free space, don't let it reformat the whole drive, then re-install grub from the link you are about to get from ubottu

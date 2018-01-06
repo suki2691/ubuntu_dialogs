@@ -1,0 +1,4 @@
+2006-09-17T08:32:00.000Z	weswh-		is there any way to sort of "rake" over system memory - and see if any can be reclaimed that was in use before and the app was exited or whatever...or should i just trust the system to clean itself up? My memory usage (on 512) running xfce and a few apps keeps climbing higher (up to 380 currently). The thing of it is, I am using Azureus and seeding several torrents, so maybe that's what is doing it.
+2006-09-17T08:32:00.000Z	weswh-		just seeing if there is any admin work I can do to examine things. or even to see which apps are using how much memory
+2006-09-17T08:33:00.000Z	keescook	weswh-	when I'm curious about memory, I use "top" and hit "M" to sort by memory.
+2006-09-17T08:34:00.000Z	keescook	weswh-	but, I'd agree with [NP] Tangent, it's likely azureus.  :)

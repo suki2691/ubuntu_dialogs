@@ -1,0 +1,4 @@
+2011-07-11T10:44:00.000Z	ktwo		hi, im looking for an application to easily share files via the internet (e.g. i select the file or folder i want to share) and get a link with it , however i dont want to use an http server with directory listing, im more looking for a webapp. is there something like that?
+2011-07-11T10:45:00.000Z	ktwo		via the internet? im already using samba internally, i dont want to open up security holes or something
+2011-07-11T10:47:00.000Z	ktwo		yes but if i open the samba ports there would be possibly a method to access other samba folders i dont want to be public.. sounds quite unsafe to be honest i dont know.. i was rather looking for something like http://myserver/files/Filetoken  etc
+2011-07-11T10:48:00.000Z	pfifo	ktwo	http is easy to setup secure and you can turn off directory listings

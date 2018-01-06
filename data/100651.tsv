@@ -1,0 +1,4 @@
+2008-02-26T04:13:00.000Z	Johnson		anyone know where i would go to find out what version of gtk i had installed
+2008-02-26T04:14:00.000Z	credible	Johnson	apt-cache search gtk   to find the package name, then: apt-cache policy <packagename>
+2008-02-26T04:15:00.000Z	Johnson	credible	i've been looking in synaptic and there about 30 packages with gtk, and none of them are just called gtk
+2008-02-26T04:15:00.000Z	credible	Johnson	it's libgtk2.0-0

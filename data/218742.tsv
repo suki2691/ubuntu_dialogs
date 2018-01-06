@@ -1,0 +1,4 @@
+2012-03-28T18:33:00.000Z	SandroSantos		hey guys, I am the root user, and I need to block the w command to a defined user (eg.: paul), how I can make this?
+2012-03-28T18:34:00.000Z	SandroSantos		I need to block the w command to a specific user eg.: paul
+2012-03-28T18:35:00.000Z	sipior	SandroSantos	you could write a wrapper around the command, to check the uid before executing. crude, but i guess it would work.
+2012-03-28T18:35:00.000Z	sipior	SandroSantos	it's kind of an odd thing to do, however..

@@ -1,0 +1,4 @@
+2009-09-26T13:16:00.000Z	pipa		I have a frozzen screen, apart from curser, I can log over ssh, but can't stop or kill xorg or gdm, have used gdm stop, kill -9 xorg gdm etc, still no luck, eveytime this happens the only thing I can do is reboot, Any one got any ideas?
+2009-09-26T13:16:00.000Z	Oblong	pipa	what are you doing when this freezes?
+2009-09-26T13:18:00.000Z	pipa	Oblong	I got to another computer, log on and try to stop gdm, that does not work so I try killing gdm xorg, xorg runs at 99.9%, the only thing I can do is reboot
+2009-09-26T13:57:00.000Z	pipa	Oblong	sudo sh -c 'echo 1 > /proc/blahblah', I expect the blahblah is something in dir with the pid of xorg. maybe I get something wrong?

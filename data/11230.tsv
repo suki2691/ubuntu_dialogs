@@ -1,0 +1,4 @@
+2012-11-17T11:50:00.000Z	aaas		how can you make pulseaudio stay dead?  /etc/pulse/client.conf autospawn=no doesn't work killall pulseaudio doesn't work pkill doesnt work pulseaudio --kill doesnt work service pulseaudio stop doesnt work
+2012-11-17T11:52:00.000Z	coz_	aaas	 how about this    http://askubuntu.com/questions/8425/how-to-temporarily-disable-pulseaudio
+2012-11-17T11:52:00.000Z	aaas	coz_	so pasuspender isn't doable because i actually am trying to kill it completely for reasons for jack
+2012-11-17T11:53:00.000Z	coz_	aaas	  ah understood

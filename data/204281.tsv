@@ -1,0 +1,4 @@
+2006-01-13T06:00:00.000Z	Enfors		Trying to compile a program, but I seem to be missing glibc, or something. I did "apt-get install gcc", but I still don't have, for example, stdio.h What package should I install to get it?
+2006-01-13T06:00:00.000Z	crimsun	Enfors	build-essential (it's in libc6-dev)
+2006-01-13T06:02:00.000Z	crimsun	Enfors	you had libc6 already. Your system wouldn't function without it.
+2006-01-13T06:04:00.000Z	Enfors	crimsun	Actually, I've been using Linux since 1995 (version 1.2.1 back then), but I haven't used it much recently. I'm a bit out of touch as I'm sure you can tell =)

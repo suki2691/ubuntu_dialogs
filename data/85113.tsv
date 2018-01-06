@@ -1,0 +1,4 @@
+2008-07-19T19:47:00.000Z	ohertel		postfix is the service accepting incoming mails, right? so the bug must be in there, not in dovecot...?
+2008-07-19T19:47:00.000Z	unop	ohertel	check the postfix logs perhaps?
+2008-07-19T19:48:00.000Z	ohertel	unop	I see no special postfix logs. can I enable debug or something for it somewhere?
+2008-07-19T19:48:00.000Z	unop	ohertel	perhaps in /var/log/mail.*

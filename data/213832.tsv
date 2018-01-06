@@ -1,0 +1,4 @@
+2006-01-08T08:40:00.000Z	zezu		ubuntu does use xorg not xfree right ?
+2006-01-08T08:40:00.000Z	tonyyarusso	zezu	Yes.
+2006-01-08T09:13:00.000Z	tonyyarusso	zezu	cat /etc/X11/xorg.conf | grep ati or cat /etc/X11/xorg.conf | grep fglrx will tell you which it's using, and you can edit that file if it's wrong.
+2006-01-08T09:15:00.000Z	tonyyarusso	zezu	Hrm, that could complicate matters.  Not sure.

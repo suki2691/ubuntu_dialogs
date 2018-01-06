@@ -1,0 +1,4 @@
+2007-04-03T09:11:00.000Z	ndlovu		are there likely to be problems in a server upgrade if I replace 'breezy' with 'dapper' in my sources.list and then do an 'apt-get dist-upgrade'?
+2007-04-03T09:13:00.000Z	dyrne	ndlovu	thats how ive upgraded since hoary
+2007-04-03T09:14:00.000Z	dyrne	ndlovu	what i usually do: sudo sed -i 's/dapper/edgy/g' /etc/apt/sources.list; sudo apt-get update; sudo apt-get dist-upgrade
+2007-04-03T09:15:00.000Z	ndlovu	dyrne	that's pretty much what I'm wanting to do. just checking that it's not going to lead to any unexpected instability in the system.

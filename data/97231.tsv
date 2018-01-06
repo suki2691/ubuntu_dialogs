@@ -1,0 +1,4 @@
+2008-09-04T13:36:00.000Z	unop	Toznoshio	echo $(( ($(date -d 'Mar  1 2009' +%s) - $(date +%s))/60/60/24 ))
+2008-09-04T13:38:00.000Z	Toznoshio	unop	thanks, that works !!
+2008-10-16T02:32:00.000Z	unop	Toznoshio	no, never do that - use  adduser or usermod, etc instead
+2008-10-16T02:32:00.000Z	Toznoshio	unop	ok, thanks, I'll look into usermod

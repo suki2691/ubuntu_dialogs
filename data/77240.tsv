@@ -1,0 +1,4 @@
+2008-10-28T17:53:00.000Z	Shanix_		hi all, if I have a program that is taking 100% of CPU usage, what kind of debug program/step that I can use to find out what it's doing?
+2008-10-28T17:54:00.000Z	LjL	Shanix_	i fear that if the program wasn't compiled with debug symbols, any debugger won't give very meaningful output
+2008-10-28T17:54:00.000Z	Shanix_	LjL	and it is not compiled with debug symbol
+2008-10-28T17:56:00.000Z	LjL	Shanix_	i really can't think of anything useful unless you can recompile the program with debug/profile information

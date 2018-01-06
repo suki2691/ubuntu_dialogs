@@ -1,0 +1,4 @@
+2011-01-11T19:13:00.000Z	ccw		Hi all.  I'm setting up a machine running 10.10, and I'd like to set up a communal scratch space where all the users can read and write all the files without having to change permissions everytime something is added.  I think I'm clear on how to do this from the command line manually, but am I reinventing the wheel?  Is there already a directory for this sort of thing by default?
+2011-01-11T19:14:00.000Z	ccw		Mr_Copro: I had in mind to make this a semi-permanent dropbox.  Isn't /tmp cleared out periodically?
+2011-01-11T19:14:00.000Z	freakynl	ccw	no cause each user has it's own 'uname' settings which determine default permissions on files
+2011-01-11T19:15:00.000Z	freakynl	ccw	you can force permissions from the higher directory iirc. Did this on a webserver once

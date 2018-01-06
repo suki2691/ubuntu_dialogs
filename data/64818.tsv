@@ -1,0 +1,4 @@
+2011-06-26T11:49:00.000Z	IAmError		How do I open a root terminal? I need to open up visudo to add a user as a "sudoer".
+2011-06-26T11:49:00.000Z	ZykoticK9	IAmError	just add the user to the admin group, done.
+2011-06-26T11:50:00.000Z	ZykoticK9	IAmError	i think "sudo usermod -aG admin YOURUSERNAME" would work...
+2011-06-26T11:52:00.000Z	ZykoticK9	IAmError	you need an account that is already in the admin group (ie that can use sudo) before you can do anything

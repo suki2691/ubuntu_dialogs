@@ -1,0 +1,4 @@
+2009-10-21T00:40:00.000Z	Travis-42		How would I use "cp" to make a copy of all of the files in the current directory and append ".bak"?
+2009-10-21T00:41:00.000Z	ZykoticK9	Travis-42	"for file in * ; do cp $file $file.bak ; done" but that won't work for files with spaces...
+2009-10-21T00:41:00.000Z	Travis-42	ZykoticK9	ah, I didn't think of doing something like that, thanks
+2010-04-30T02:39:00.000Z	ZykoticK9	Travis-42	pressing F3 gives a split screen in nautilus - only new feature I personally know about

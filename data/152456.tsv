@@ -1,0 +1,4 @@
+2012-07-14T09:24:00.000Z	rinzler		what's the command to make apt-get reinstall something?
+2012-07-14T09:24:00.000Z	ewook	rinzler	dpkg --reconfigure [packet] should work.
+2012-07-14T09:26:00.000Z	ewook	rinzler	sorry, dpkg-reconfigure [packet]
+2012-07-14T09:28:00.000Z	ewook	rinzler	--purge would be the long and bothersome whay.

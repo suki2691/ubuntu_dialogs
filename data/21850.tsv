@@ -1,0 +1,4 @@
+2011-05-13T10:38:00.000Z	FordPrefect		I am trying to install a .tar.gz file and when I download it and do tar xvpf name.tar.gz it works fine but after that nothing works
+2011-05-13T10:38:00.000Z	FordPrefect		it tells me comment not found when I do name.tar.gz build or name.tar.gz install
+2011-05-13T10:39:00.000Z	FordPrefect		and the command is not responsding
+2011-05-13T10:40:00.000Z	istok	FordPrefect	tar -zxvf filename.tar.gz <- then possibly a cd tothatdir <- followed by a possibly ./configure - you probably want to use documentation or README to follow

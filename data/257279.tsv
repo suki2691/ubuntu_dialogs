@@ -1,0 +1,4 @@
+2005-04-13T12:24:00.000Z	demism_		how do I get my ethernet card to start-up in 10baseT-FD instead of HD?
+2005-04-13T12:25:00.000Z	demism_		mii-tool -F 10baseT-FD does this but I'd like it to boot up correctly any ideas?
+2005-04-13T12:25:00.000Z	demism_		what is the configuration file for the ethernet card?
+2005-04-13T12:26:00.000Z	grelli	demism_	you could probably do it in /etc/network/interfaces

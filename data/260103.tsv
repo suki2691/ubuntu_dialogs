@@ -1,0 +1,4 @@
+2006-05-18T15:01:00.000Z	linux_galore	valehru	your not actually starting the firewall when you start firestarter, its just a front end. also you dont actually need it to be running once you have done the setup because firestarter runs a small program during startup the defines your firewall rules, you only need the GUI if you want to change anything
+2006-05-18T15:02:00.000Z	linux_galore	valehru	once you have setup iptables with firestarter you really dont need to run it again
+2006-05-18T15:03:00.000Z	linux_galore	valehru	if you watch your startup you will see the init process start a script called firestarter that initiates your firewall rules
+2006-05-18T15:04:00.000Z	linux_galore	valehru	so basivally ignore it

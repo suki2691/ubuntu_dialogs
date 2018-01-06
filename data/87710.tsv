@@ -1,0 +1,4 @@
+2008-06-14T05:09:00.000Z	S8n		Good evening, I'm new to Linux and having some issues with screen res on Ubuntu, is anyone able to assist?
+2008-06-14T05:10:00.000Z	S8n		Its nvidia 5200. The drivers have been installed, but its restricted to 640x480 res
+2008-06-14T05:12:00.000Z	S8n		When I run ﻿dpkg-reconfigure xserver-xorg it goes thru a whole section about my keyboard and thats all.. Nothing about resolution.
+2008-06-14T05:13:00.000Z	sagredo_	S8n	try adding more resolutions to xorg.conf under Modes

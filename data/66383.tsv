@@ -1,0 +1,4 @@
+2009-04-27T22:40:00.000Z	mzz	EdgEy	I wouldn't do it that way around, but I'm too new to ubuntu to know if doing it the right way aroun works reliably.
+2009-04-27T22:40:00.000Z	mzz	EdgEy	specifically, I'd purge the meta package and rely on (auto?)clean to wipe the rest
+2009-04-27T22:41:00.000Z	mzz	EdgEy	(I wouldn't do what pepperjack said because it's quite reasonable to have some qt or even kde apps installed while using gnome)
+2009-04-27T22:42:00.000Z	mzz	EdgEy	the system does have a separate list of packages you explicitly installed (versus ones pulled in as dependencies) and is capable of automatically cleaning up unused dependencies, but the way that works is a bit confusing to this newbie (there's more than one list depending on which frontend you use...)

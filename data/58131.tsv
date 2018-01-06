@@ -1,0 +1,4 @@
+2009-05-27T17:25:00.000Z	sutiburx		Hi all: when changing the preferred media application to vlc in 9.04, the default application stays rhythmbox. I've also ran gnome-settings-applications-properties as root, didn't work either. On the forum it said right-clicking an .avi and doing open with other application -> vlc should set it as default, but this doesn't work either. I'm guessing there's a problem with permissions somewhere?
+2009-05-27T17:27:00.000Z	Arcitens	sutiburx	After you use open with other application, VLC will be included in the list of associated applications. So now you need to go right click on the file->Properties->Open With and selection VLC
+2009-05-27T17:30:00.000Z	Arcitens	sutiburx	There's a differences between Right Click->Open With->Open with VLC and Right Click->Properties->Open With
+2009-05-27T17:32:00.000Z	Arcitens	sutiburx	No worries. It's not the clearest of distinctions in the interface I suppose.

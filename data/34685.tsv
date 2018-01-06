@@ -1,0 +1,4 @@
+2010-04-05T21:40:00.000Z	bruso-ko		my existing fedora 11 is already booting with ext4 fs, but uses old grub, how do i tell it to boot ubuntu 9.1 installed in another partition but 9.1 dont have the older stage1 files ?
+2010-04-05T21:41:00.000Z	bruso-ko		Smith   choose  S for single
+2010-04-05T21:41:00.000Z	hmw	bruso-ko	I think, it will be using stage1 from the other partition, still containing it
+2010-04-05T21:42:00.000Z	bruso-ko	hmw	the stage1 is specific to the os as far as i know, or maybe its the devicemap thats confusing grub.. i cant remember

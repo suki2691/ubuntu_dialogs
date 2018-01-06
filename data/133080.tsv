@@ -1,0 +1,4 @@
+2007-12-27T00:42:00.000Z	juanbond		hey guys, quick question.. how can i flush out my dns?  just like doing an ipconfig /flushdns ?
+2007-12-27T00:42:00.000Z	ifireball	juanbond	sudo /etc/init.d/nscd restart should do the trick
+2007-12-27T00:43:00.000Z	juanbond	ifireball	i don't have nscd in init.d
+2007-12-27T00:44:00.000Z	ifireball	juanbond	then you don't have anything that need flashing...

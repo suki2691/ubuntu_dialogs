@@ -1,0 +1,4 @@
+2008-02-05T09:48:00.000Z	difekta		i made a mistake when i was upgrading to hardy alpha 4, and decided to keep my pulse.conf.  how can i re-install and initialize pulseaudio so this file is re-created properly?
+2008-02-05T09:48:00.000Z	difekta		sudo dpkg-reconfigure libpulse0 didn't seem to do it.
+2008-02-05T09:49:00.000Z	nickrud	difekta	sudo apt-get remove --purge pulseaudo && sudo apt-get install pulseaudio
+2008-02-05T09:49:00.000Z	difekta	nickrud	thank you.

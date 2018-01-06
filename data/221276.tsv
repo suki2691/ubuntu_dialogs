@@ -1,0 +1,4 @@
+2006-03-23T12:18:00.000Z	chasmarang		When I use insmod I get: Error dscudkp.o; Invalid module format - I'm using breezy is that why?
+2006-03-23T12:19:00.000Z	BlueEagle	chasmarang	sounds like you've upgraded or recompiled your kernel but not your kernel modules (or not installed them)
+2006-03-23T12:20:00.000Z	BlueEagle	chasmarang	Did you compile your own kernel?
+2006-03-23T12:21:00.000Z	BlueEagle	chasmarang	Well after your new kernel is compiled run make modules_install to install the new modules.

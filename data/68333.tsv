@@ -1,0 +1,4 @@
+2009-01-18T10:29:00.000Z	SemidiosLap		Hi.  I just did a clean install of Hardy.  my /boot is sda1. my / is sda5.  grub is installed to /sda1 not the MBR.  on boot I get Grub ERROR 15.  i've checked the menu.lst and it seems fine.  any ideas what is wrong?
+2009-01-18T10:30:00.000Z	_2	SemidiosLap	bad info in /boot/grub/device.map  ?
+2009-01-18T10:31:00.000Z	SemidiosLap	_2	sda is mapped to hd0.  and its looking to hd(0,0) for the images
+2009-01-18T10:33:00.000Z	_2	SemidiosLap	hmmm.   if bios is set to boot sda first  then i don't know.    but know assuredly that if bios reorders the drives it drives grub crazy.

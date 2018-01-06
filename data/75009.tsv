@@ -1,0 +1,4 @@
+2008-12-09T04:20:00.000Z	hummesse		hi guys. I have a problem. I need to get some files from my labtop which is behind a firewall where i work. I can make an ssh connection to the server at work and from there another to my labtop, but i can't figure out how to copy files all the way through both connections. Does anyone know how?
+2008-12-09T04:20:00.000Z	zsquareplusc	hummesse	use scp
+2008-12-09T04:21:00.000Z	zsquareplusc	hummesse	or sftp:// in nautilus
+2008-12-09T04:22:00.000Z	zsquareplusc	hummesse	sftp uses ssh connection, you just need to enable the sftp module in your ssh server. it is by default

@@ -1,0 +1,4 @@
+2007-10-25T22:50:00.000Z	rszt		hey all, i want to delete a bridge with "sudo brctl delbr br0" but it says "bridge br0 is sbridge br0 is still up; can't delete ittill up; can't delete it"
+2007-10-25T22:50:00.000Z	kitche	rszt	so bring down the bridge like your suppose to
+2007-10-25T22:51:00.000Z	rszt	kitche	 sudo ifdown br0 => ifdown: interface br0 not configured
+2007-10-25T22:53:00.000Z	rszt	kitche	so it's down, yet i cannot delete it

@@ -1,0 +1,4 @@
+2008-11-11T06:16:00.000Z	Guiri		hey is anyone famliar with denyhosts? or better yet is Marco Bertorello here?
+2008-11-11T06:17:00.000Z	Guiri		Basically, denyhosts seems to be readding hosts that I take out of the /etc/hosts.deny. for example, it accidentally added an IP of a friend. yet denyhosts.py --purge and taking the IP out of the hosts.deny doesn't work. denyhosts readds it in 5 minutes
+2008-11-11T06:18:00.000Z	mcphail	Guiri	denyhosts may be parsing /var/log/auth.log again, thereby blocking your friend's ip
+2008-11-11T06:23:00.000Z	Guiri	mcphail	I deleted the IP from both files. we'll see if it works

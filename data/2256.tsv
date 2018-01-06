@@ -1,0 +1,4 @@
+2012-09-03T11:49:00.000Z	Samizdat		I'm trying to install a wifi driver and getting this message: make -C /lib/modules/3.5.0-030500-generic/build M=/home/gk/Desktop/rtl_92ce_92se_92de_linux_mac80211_0005.1230.2011 modules make: *** /lib/modules/3.5.0-030500-generic/build: No such file or directory.  Stop. make: *** [all] Error 2
+2012-09-03T11:50:00.000Z	Samizdat		Is there anything to be done?
+2012-09-03T11:51:00.000Z	Samizdat		With "sudo make"
+2012-09-03T11:51:00.000Z	mindbender1	Samizdat	check if you have a dir /lib/modules

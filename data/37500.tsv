@@ -1,0 +1,4 @@
+2010-02-11T11:13:00.000Z	prohna		how come if i change the shell a user is to use over ssh their password doesnt work anymore?
+2010-02-11T11:15:00.000Z	KE1HA	prohna	how are you changing the shell ?
+2010-02-11T11:18:00.000Z	KE1HA	prohna	to change a shell, try this: sudo chsh -s /user/bin/bash [username] where bash is whatever sheell you want, and [ username  ] is the user for which the shell is being changed.
+2010-02-11T11:19:00.000Z	KE1HA	prohna	 to see a list of shells available: cat /etc/shells

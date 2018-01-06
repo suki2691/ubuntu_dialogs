@@ -1,0 +1,4 @@
+2010-04-30T06:39:00.000Z	MitchLeBlanc		Hey guys, would anyone know how to extract a .tar on Ubuntu which has been split so that I have both a .tar.001 and a .tar.002?
+2010-04-30T06:40:00.000Z	Dr_Willis	MitchLeBlanc	 cat foo.001 foo.002 > foo.tar.gz    then try to extract it.
+2010-04-30T06:40:00.000Z	MitchLeBlanc	Dr_Willis	Trying now, thanks
+2010-04-30T06:50:00.000Z	MitchLeBlanc	Dr_Willis	That worked, thank you!

@@ -1,0 +1,4 @@
+2008-12-23T03:33:00.000Z	shane__		#xubuntu
+2008-12-23T03:35:00.000Z	shane__		need help with ndiswrapper,i have the driver on disk how do i get ndiswrapper to install it
+2008-12-23T03:35:00.000Z	benedek	shane__	ndiswrapper -i file
+2008-12-23T03:35:00.000Z	benedek	shane__	don't forget to load the module (modprobe ndiswrapper or add ndiswrapper to /etc/modules)

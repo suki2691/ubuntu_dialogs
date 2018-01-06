@@ -1,0 +1,4 @@
+2008-05-13T04:03:00.000Z	Dante124		hey, I want to run smartctl -a on my hd.....but not sure what the syntax should be.....I have to point it to the HD.....what should be after the smartctl -a?
+2008-05-13T04:03:00.000Z	wirechief_intel	Dante124	try man smartctl
+2008-05-13T04:05:00.000Z	wirechief_intel	Dante124	well maybe smartctrl -a /dev/sdX  where x is your hd
+2008-05-13T04:05:00.000Z	wirechief_intel	Dante124	do fdisk -l to see what your device names are probably sda

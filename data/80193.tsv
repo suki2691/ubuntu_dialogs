@@ -1,0 +1,4 @@
+2008-09-09T00:53:00.000Z	mik3		A few months ago the ubuntu boot progress screen/login screen became misaligned. Basically the screen gets shifted 1/4 to the right of the screen. Once I log in to my account the resolution is automatically realigned properly. I did a dpkg-reconfigure xserver-xorg but using all the default options didn't correct the problem.
+2008-09-09T00:55:00.000Z	ravendark	mik3	have a look in /etc/usplash.conf and make sure the resolution is set correctly.
+2008-09-09T00:59:00.000Z	mik3	ravendark	yeah that didn't do it. even when gdm sometimes 'misses' and you can see the boots up text, that is misaligned as well
+2008-09-09T01:00:00.000Z	ravendark	mik3	hmm, i really don't know then, hang around and ask again and scour through the forums, i'm sure youll find someone thats had more experience with it

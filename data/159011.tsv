@@ -1,0 +1,4 @@
+2009-03-08T18:34:00.000Z	manuel		hi
+2009-03-08T18:35:00.000Z	manuel		how can i get a list of my installed packages in order of their seize from huge to small?
+2009-03-08T18:35:00.000Z	manuel		thanks
+2009-03-08T18:37:00.000Z	Cyrano_De	manuel	dpkg-query --show --showformat='${Package;-50}\t${Installed-Size}\n' | sort -k 2 -n

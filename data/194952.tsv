@@ -1,0 +1,4 @@
+2009-02-19T09:30:00.000Z	Scunizi	Imunalia	as a rule of thumb for nvidia you go into synaptic and uninstall / purge all references of nvidia that are installed.. then the downloaded driver needs to be installed from a TTY WITHOUT the gui running.. ATI is probably the same.
+2009-02-19T09:33:00.000Z	Scunizi	Imunalia	sudo chmod 777 <ati_driver_name>
+2009-02-19T09:33:00.000Z	Scunizi	Imunalia	sudo chmod +x <ati_driver_name>
+2009-02-19T09:36:00.000Z	Scunizi	Imunalia	sudo chown <your_username>:<your_username> <filename>

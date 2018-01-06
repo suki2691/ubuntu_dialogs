@@ -1,0 +1,4 @@
+2007-03-21T14:08:00.000Z	octoberdan		When I try to load xorg, it fails when trying to load modules. Two of the modules it can't find (fglrx and speedo) and the third it fails loading GLcore "(loader failed, 7)"
+2007-03-21T14:09:00.000Z	octoberdan		It also fails loading libGLcore.so, which exists where it's trying to load it
+2007-03-21T14:09:00.000Z	octoberdan		What should I do? X is down so I can't google.
+2007-03-21T14:09:00.000Z	crdlb	octoberdan	sudo apt-get install links2

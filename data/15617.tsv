@@ -1,0 +1,4 @@
+2011-04-28T01:37:00.000Z	Mac_Weber		hello, I just installed Drush using following this tutorial http://openspring.net/tip/how-to-install-drush-serverwide-in-less-than-one-minute however I cannot execute the command drush. I get: -bash: /usr/bin/drush: No such file or directory
+2011-04-28T01:37:00.000Z	Mac_Weber		what I'm missing?
+2011-04-28T01:38:00.000Z	rhizmoe	Mac_Weber	maybe it's not in /usr/bin
+2011-04-28T01:40:00.000Z	Mac_Weber	rhizmoe	as you can see on tutorial, it is not there. I think /usr/bin is only for official packages. However as I created a symlink /usr/local/bin/drush it should be ok to run from any folder, not?

@@ -1,0 +1,4 @@
+2006-11-26T10:01:00.000Z	Demon		any1 plz? i really need it removed to go on
+2006-11-26T10:03:00.000Z	Demon		can any1 help me with this? i cannot remove the map e107_plugins, permission is denied, but the chmod is 777
+2006-11-26T10:04:00.000Z	Warbo	Demon	It is probably like that for a reason, but if you insist then "sudo -s -H" should give you a superuser shell. Delete it in that (rm <filename>" then press Ctrl-D to exit superuser
+2006-11-26T10:06:00.000Z	Warbo	Demon	Ah. Try jsut "sudo rm <filename>" then. If that fails then "sudo -s -H" should give you unlimited powers (thereofre exit it as soon as possible)

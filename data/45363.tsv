@@ -1,0 +1,4 @@
+2009-11-21T09:20:00.000Z	Arsin	mMezquitale	2
+2009-11-21T09:21:00.000Z	mMezquitale	Arsin	you want to add the partition where you installed windows in /boot/grub/grub.cfg
+2009-11-21T09:23:00.000Z	mMezquitale	Arsin	windows is not being picked up by grub-probe?? You have to do grub-probe and then grub-update
+2009-11-21T09:27:00.000Z	mMezquitale	Arsin	still there?  My mistake, youre not supposed to edit /boot/grub/grub.cfg, run grub-probe and grub-update instead

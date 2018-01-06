@@ -1,0 +1,4 @@
+2010-08-25T05:58:00.000Z	__Roman		I am after a little advice, in bash when I do a command like     mv `find | grep filepattern` \otherdir    this works fine except when the files returned from find have spaces in them, can anyone suggest a way of dealing with this?
+2010-08-25T05:59:00.000Z	Pici	__Roman	Use find the way its supposed to be used: find . -name "*pattern*" -exec mv {} /otherdir/ \;
+2010-08-25T06:00:00.000Z	__Roman	Pici	sorry I perhaps made my question too specific, I am curious about how to handle spaces when using backticks in bash, not just limited to find
+2010-08-25T06:01:00.000Z	Pici	__Roman	Probably a better question for #bash then

@@ -1,0 +1,4 @@
+2005-12-16T08:25:00.000Z	oggah		Hello, I got a quite big problem. I installed Ubuntu Hoary yesterday on my laptop. Dual-boot with winxp. (on same Harddrive). I created a partition, 4Gb with ubuntu on. And another, 1Gb as a swap. The rest of the harddrive is dedicated to winxp. (ntfs). I would like to remove ubuntu completley. When I enter the ubuntuinstallation, where you can edit partitions, it doesnt recognize any partitions at all. Just a single drive. Partition magic in win
+2005-12-16T08:26:00.000Z	samppa	oggah	Do you have WinXP installation disk? Use its partition tool, it will show ext3 and reiser partitions as "Unknown".
+2005-12-16T08:26:00.000Z	oggah	samppa	Ok!
+2005-12-16T08:27:00.000Z	samppa	oggah	Remove the Ubuntu partitions, reboot, go to CD's recovery console and run command "fixmbr". It will then replace Grub with Windows' boot loader.

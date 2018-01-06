@@ -1,0 +1,4 @@
+2010-01-29T22:05:00.000Z	Leoneof		hi, i dont have network-manager, how to make auto connect for eth0 everytime?
+2010-01-29T22:07:00.000Z	ZykoticK9	Leoneof	/etc/network/interfaces is only going to be read on boot or when you restart networking
+2010-01-29T22:09:00.000Z	Leoneof	ZykoticK9	if i do /etc/init.d/networking restart, that is mean it will reconnect all interfaces,
+2010-01-29T22:09:00.000Z	ZykoticK9	Leoneof	it should...

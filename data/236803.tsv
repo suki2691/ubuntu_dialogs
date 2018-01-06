@@ -1,0 +1,4 @@
+2005-07-04T05:45:00.000Z	xunil_		how do i remove the E: Could not get lock /var/lib/dpkg/lock - open (11 Resource temporarily unavailable)
+2005-07-04T05:45:00.000Z	xunil_		E: Unable to lock the administration directory (/var/lib/dpkg/), is another process using it
+2005-07-04T05:45:00.000Z	xunil_		lock?
+2005-07-04T05:45:00.000Z	nalioth	xunil_	you either are not "sudo" or you have another instance of apt running

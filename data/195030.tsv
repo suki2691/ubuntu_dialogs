@@ -1,0 +1,4 @@
+2011-02-28T06:52:00.000Z	espenk		Hiya! Any of you know if this is possible: Two monitors, terminal (no graphical env) on one and xorg on the other?
+2011-02-28T06:54:00.000Z	Scunizi	espenk	probably but not by _skpl 's method.. you'll have to craft a custom xorg.conf to do it. Then after Ubuntu moves away from X you'll have to start over
+2011-02-28T06:57:00.000Z	Scunizi	espenk	to solve your issue start googling for solution running two different desktop on different TTY's .. like gnome on tty7 like normal and kde on tty? .. that's entirely possible so to eliminate one and be left with just a tty/command prompt should be pretty easy.. from there you have to figure out a way to direct one tty to one monitor and the other to.. the other :)
+2011-02-28T06:58:00.000Z	Scunizi	espenk	yes "I think".. as for mickster04 question.. it's a valid question.. how do you switch between the two.. that might be a bit more problemmatic

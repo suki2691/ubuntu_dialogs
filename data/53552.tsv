@@ -1,0 +1,4 @@
+2009-07-31T07:18:00.000Z	PhyloGenesis		When I log in, I am told: "42 packages can be updated.  68 updates are security updates.", but when I run:  "sudo apt-get update" it goes through a bunch of packages, says Hit on all of them, then says it's down without updating anything.  What am I doing wrong?
+2009-07-31T07:19:00.000Z	shadowy	PhyloGenesis	apt-get upgrade?
+2009-07-31T07:20:00.000Z	PhyloGenesis	shadowy	 Won't that upgrade to the next version?  I don't want to change OS versions, just get standard packages
+2009-07-31T07:23:00.000Z	shadowy	PhyloGenesis	"update" updates the list of packages, "upgrade" upgrades all the currently installed packages to new versions

@@ -1,0 +1,4 @@
+2010-01-20T12:48:00.000Z	web1109	Guest89594	wget http://webpage.com/index.html -O - | less
+2010-01-20T12:48:00.000Z	web1109	Guest89594	that's capital O for wget and small o for curl
+2010-01-20T12:57:00.000Z	web1109	Guest89594	i'm a noob in that department but i think you need    -o -    after curl to direct output to stdout
+2010-01-20T13:02:00.000Z	web1109	Guest89594	sorry I was wrong, it looks like curl by default outputs to stdout... but  -o - does the same thing it seems

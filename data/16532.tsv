@@ -1,0 +1,4 @@
+2011-03-25T23:00:00.000Z	dchilton		I've stopped and disable ssh (/etc/init.d/ssh stop, invoke-rc.d ssh stop), but the sshd service keeps restarting automatically.  How do I turn it off & keep it off?
+2011-03-25T23:01:00.000Z	candyban	dchilton	update-rc.d ssh disable ?
+2011-03-25T23:02:00.000Z	dchilton	candyban	nope.  still restarts
+2011-03-25T23:03:00.000Z	dchilton	candyban	found it.  need to 'touch /etc/ssh/sshd_not_to_be_run'.  that's ... non-standard

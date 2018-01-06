@@ -1,0 +1,4 @@
+2006-08-21T07:00:00.000Z	ramvi		I'm following a howto, to get Ubuntu to work on my new macbook pro (http://www.ubuntuforums.org/showthread.php?t=233243). Where I'm suppost to get and install the modified version of grub onto the real HD (not the livecd-HD), I don't understand how I'm suppost to get the file chmoded... wget THE-FILE returns Resolving www.ubuntuforums.org... failed: Temporary failure in name resolution... Any ideas?
+2006-08-21T07:01:00.000Z	bradbury9	ramvi	check /etc/resolv.conf in the chroot
+2006-08-21T07:02:00.000Z	ramvi	bradbury9	what do you mean with check it?
+2006-08-21T07:07:00.000Z	bradbury9	ramvi	try cp /etc/resolv.conf /path-to-chroot/etc/resolv.conf

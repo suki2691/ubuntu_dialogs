@@ -1,0 +1,4 @@
+2006-07-21T06:27:00.000Z	roaet		hello.
+2006-07-21T06:28:00.000Z	roaet		i'm trying to put ftp access to a ntfs partition on my ubuntu install, but by default only root can access it. How do I do such a thing, since I can't sftp in with root?
+2006-07-21T06:28:00.000Z	roaet		should I change my fstab options to allow mount by all users?
+2006-07-21T06:29:00.000Z	dli	roaet	there's no need for that (mostly), enable gnome-volume-manager for automounter

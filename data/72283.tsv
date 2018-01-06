@@ -1,0 +1,4 @@
+2008-12-03T00:26:00.000Z	Jophish		hi all
+2008-12-03T00:28:00.000Z	Jophish		I'm sure it is possible to do, how can I make a "folder" that will just be a portal to another folder somewhere else. So if I save something in the link folder, it will appear in the real folder, and so if i change something in the real folder, it will be changed in the symbolic folder, Thanks
+2008-12-03T00:29:00.000Z	rlt	Jophish	you'd use a "symbolic link". Usual way of doing it is ln -s realfolder linkfolder, or Ctrl-Shift-drag in GNOME file manager
+2008-12-03T00:30:00.000Z	rlt	Jophish	yes

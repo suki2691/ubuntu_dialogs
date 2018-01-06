@@ -1,0 +1,4 @@
+2011-09-20T11:32:00.000Z	sexcopter5000		hi, I'm trying a simple script to backup my Diablo II save folder before launching Diablo 2 (through wine). This line is failing ("bad substitution"), can anyone point out what is going on and what I'm doing wrong? The line is "cp ~/.wine/drive_c/Program\ Files/Diablo\ II/save ~/.wine/drive_c/Program\ Files/Diablo\ II/save.${date +%F_%R:%S}"
+2011-09-20T11:33:00.000Z	sexcopter5000		oh wait, as soon as i typed it... i just thought, does cp need -r or something for folders?
+2011-09-20T11:34:00.000Z	sexcopter5000		just looking now. thanks, i feel quite silly for not thinking of this
+2011-09-20T11:36:00.000Z	vindolin	sexcopter5000	right.. but it scares me :)

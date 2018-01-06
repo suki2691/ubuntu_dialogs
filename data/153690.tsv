@@ -1,0 +1,4 @@
+2008-05-24T23:20:00.000Z	satish		I'm upgrading to 8.04 from 7.10 and the when the update manager was showing that the process had less than one min to complete, the update manager showed en error and quit. How can I make sure that the upgrade is successful?
+2008-05-24T23:20:00.000Z	erUSUL	satish	run "sudo apt-get update && sudo apt-get dist-upgrade" then "lsb_release -a"
+2008-05-24T23:25:00.000Z	satish	erUSUL	While upgrading, it was not able to upgrade one package - slapd. lsb_release -a is showing the release as 8.04
+2008-05-24T23:25:00.000Z	erUSUL	satish	what's the error? pastebin

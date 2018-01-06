@@ -1,0 +1,4 @@
+2009-12-23T03:22:00.000Z	anathematic		I've just had to replace the motherboard on my ubuntu server and now it can't be found on the network, how do I find out if the new network adapter is working?
+2009-12-23T03:22:00.000Z	anathematic		I don't have dhcp on my network
+2009-12-23T03:22:00.000Z	ikonia	anathematic	if you do an lspci will show it if it can see the physical hardware, if you do an ifconfig -a it will show if it can use the device
+2009-12-23T03:27:00.000Z	ikonia	anathematic	welcome

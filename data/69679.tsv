@@ -1,0 +1,4 @@
+2010-12-25T11:37:00.000Z	giantpune		hey boys, i have a noob question here.  i have been using ubuntu for a while now and got everything working the way i want it.  and i just got a shiney SSD that i would like to use as the system drive.  i see a few different methods online for moving an instalation to another partition, but most are years old and assume that the new partition is at least as big as the old one
+2010-12-25T11:38:00.000Z	giantpune		lvm?
+2010-12-25T11:39:00.000Z	giantpune		UUID=63bf99fe-d3a5-4243-8023-ccbfb70668ad / ext4 errors=remount-ro 0 1
+2010-12-25T11:39:00.000Z	sacarlson	giantpune	I guess just create a partition on your new ssd and mount it to like /mnt  then just sudo cp -a / /mnt, then install grub2,  think that might work?

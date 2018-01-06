@@ -1,0 +1,4 @@
+2007-02-05T12:21:00.000Z	philo23		hey guys, i need to reinstall my windows boot loader, i've just removed the linux partition (and EXT partition) and now grubs broken and i cant boot into windows, any ideas on how to reinstall the windows boot loader with out reinstalling windows
+2007-02-05T12:21:00.000Z	juano__	philo23	boot with windows CD , enter recovery console, then type fixmbr
+2007-02-05T12:22:00.000Z	juano__	philo23	and at prompt type a 'y' for yes and it will overwrite the mbr
+2007-02-05T12:24:00.000Z	philo23	juano__	thanks

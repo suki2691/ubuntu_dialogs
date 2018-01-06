@@ -1,0 +1,4 @@
+2006-08-28T13:01:00.000Z	Bastiq		Anyone know how i can update my Nvidia kernel?
+2006-08-28T13:03:00.000Z	jpjacobs	Bastiq	apt-get install linux-restricted-modules-<your kernel version> (see "apt-cache search restricted modules" output for more info
+2006-08-28T13:04:00.000Z	jpjacobs		Tina, you can chroot after bootin, but maybe that's somewhat to advanced...
+2006-08-28T13:05:00.000Z	Bastiq	jpjacobs	what kernel-version should i write in?

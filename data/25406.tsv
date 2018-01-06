@@ -1,0 +1,4 @@
+2011-06-02T18:22:00.000Z	Taravel		hi Ubuntu software center gives me this error:
+2011-06-02T18:22:00.000Z	Taravel		E:Encountered a section with no Package: header, E:Problem with MergeList /var/lib/apt/lists/it.archive.ubuntu.com_ubuntu_dists_natty_main_binary-i386_Packages, E:The package lists or status file could not be parsed or opened.
+2011-06-02T18:23:00.000Z	oCean	Taravel	you can remove all list files by running    udo rm /var/lib/apt/lists/* -vf   then rebuild by  sudo apt-get update
+2011-06-02T18:24:00.000Z	oCean	Taravel	first command starts with sudo, not udo obviously

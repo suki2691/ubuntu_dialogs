@@ -1,0 +1,4 @@
+2008-03-09T19:32:00.000Z	Sinnerman		anyone use truecrypt, and when trying to format a truecrypt partition as ext3 have it hang/freeze? mine was across a usb drive.
+2008-03-09T19:32:00.000Z	Avenger	Sinnerman	do it on fat
+2008-03-09T19:35:00.000Z	Avenger	Sinnerman	sorry, when i found the issue i just used fat instead
+2008-03-09T19:35:00.000Z	Avenger	Sinnerman	and fat provides you with double negation, because you can hide the encrypted volume into another encrypted volume, then the first one becomes invisible and it's confused with random data

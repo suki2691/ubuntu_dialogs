@@ -1,0 +1,4 @@
+2012-02-11T07:50:00.000Z	jerichowasahoax		I recently changed my Apache2 <VirtualHost> tag to read my.domain.here:80 instead of *:80. Now whenever Apache2 reads the config I get this warning: [Fri Feb 10 21:47:55 2012] [warn] NameVirtualHost *:80 has no VirtualHosts
+2012-02-11T07:50:00.000Z	jerichowasahoax		The webserver still *works* but I'd like to figure out where this is in the default configs so I don't have to look at it :-)
+2012-02-11T07:51:00.000Z	jerichowasahoax		and by "figure out" I mean "ask other people while putting minimal effort into finding it", heh
+2012-02-11T07:51:00.000Z	carlosatgsie	jerichowasahoax	edit /etc/apache2/ports.conf to read NameVirtualHost my.domain.here:80

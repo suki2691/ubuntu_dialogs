@@ -1,0 +1,4 @@
+2006-09-19T08:25:00.000Z	z0rz		Alright so I tried editing the Xorg.conf file serveral times and that hasn't seemed to help my resolution problem .. I'm trying to run at 1280x1024 but it looks like it's running at about 1024x768
+2006-09-19T08:25:00.000Z	z0rz		Is there any other way to change the resolution in Xubuntu?
+2006-09-19T08:25:00.000Z	sethk	z0rz	you shouldn't edit that file
+2006-09-19T08:25:00.000Z	sethk	z0rz	use   dpkg-reconfigure xserver-xorg

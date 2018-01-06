@@ -1,0 +1,4 @@
+2006-03-23T10:07:00.000Z	fiveiron_	chuckyp	here is an example of what i get from the failed packages:  W: Failed to fetch http://security.ubuntu.com/ubuntu/pool/main/g/gtk+2.0/libgtk2.0-common_2.8.6-0ubuntu2.1_all.deb
+2006-03-23T10:07:00.000Z	fiveiron_		  Error reading from server. Remote end closed connection
+2006-03-23T10:08:00.000Z	chuckyp	fiveiron	I would just try again maybe like I say from terminal like sudo apt-get update then sudo apt-get dist-upgrade
+2006-03-23T10:09:00.000Z	fiveiron_	chuckyp	in output of apt-get update:  Failed to fetch http://us.archive.ubuntu.com/ubuntu/dists/breezy/universe/binary-i386/Packages.gz  Sub-process gzip returned an error code (1)

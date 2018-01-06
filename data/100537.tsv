@@ -1,0 +1,4 @@
+2008-03-18T06:38:00.000Z	mindheavy		hello
+2008-03-18T06:40:00.000Z	mindheavy		i've been curious, why is it that it's preferred not to use spaces in filenames?
+2008-03-18T06:41:00.000Z	prince_jammys	mindheavy	because the shell uses spaces to separate words (arguments, for example) - so the shell doesn't know that a space is actually just part of the filename unless you quote it
+2008-03-18T06:41:00.000Z	prince_jammys	mindheavy	rm crappy song.mp3   (will try to remove two files: "crappy" and "song.mp3")

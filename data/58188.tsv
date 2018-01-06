@@ -1,0 +1,4 @@
+2009-05-05T18:28:00.000Z	narnarnar		Hello! Can you guys think of a command line tool that creates an encrypted directory or blockdevice based on ftp or ssh? Similar to cryptsetup which creates an encrypted blockdevice at /dev/mapper/soandso based on an existing blockdevice. Doing that on top of ftp or ssh so that the encryption happens on the client would let you store sensitive data on hosts you dont trust.
+2009-05-05T18:29:00.000Z	grawity	narnarnar	You mean something like sshfs?
+2009-05-05T18:31:00.000Z	narnarnar	grawity	sshfs doesnt store the data encrypted on the host, right?
+2009-05-05T18:32:00.000Z	grawity	narnarnar	nope, unless the destination host also uses encfs/truecrypt/whatever.

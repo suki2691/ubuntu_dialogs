@@ -1,0 +1,4 @@
+2006-06-24T13:19:00.000Z	Orborde		Is there any way I can update directly from 5.04 to 6.06 without first upgrading to Breezy per the wiki directions, or do I need to take twice as long and perform TWO OS upgrades?
+2006-06-24T13:21:00.000Z	Orborde		Could I simply change every occurrence of "hoary" to "dapper" in sources.list and hit apt-get update; apt-get upgrade, or is more required?
+2006-06-24T13:21:00.000Z	spades	Orborde	use && instead of ; so it waits to finish first before going on
+2006-06-24T13:23:00.000Z	Orborde	spades	Won't ; wait for it to complete as well?

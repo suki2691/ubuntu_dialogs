@@ -1,0 +1,4 @@
+2007-03-22T14:16:00.000Z	robdeman		hi folks. I just installed Ubuntu 6.06 LTS on my server. I need remote access. Do I need to enable SSH or something?
+2007-03-22T14:16:00.000Z	POVaddct	robdeman	apt-get install openssh-server
+2007-03-22T14:19:00.000Z	robdeman	POVaddct	thanks
+2007-05-25T10:57:00.000Z	POVaddct	robdeman	try editing /var/lib/dpkg/info/clvm.postrm and put "exit 0" in the second line

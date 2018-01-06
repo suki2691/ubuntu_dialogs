@@ -1,0 +1,4 @@
+2008-10-07T08:13:00.000Z	fastfinger		hey could not open "/dev/dsp": Device or resource busy <- I was told audio device should be using sud deamon instead of accessing the dsp directly
+2008-10-07T08:14:00.000Z	fastfinger		how do i set up sudo deamon or is there a better solution?
+2008-10-07T08:15:00.000Z	flx	fastfinger	Trrrry going into System -> Preferences -> Sound and switching things to ALSA.
+2008-10-07T08:16:00.000Z	flx	fastfinger	Its a nasty issue.

@@ -1,0 +1,4 @@
+2008-09-30T19:57:00.000Z	Rossen_		Question: I am presently running a dual boot system with Ubuntu and Win XP, both OS's live in a partition of their own on the same harddrive. Now i want to remove the XP install and fuse the two partitions into one with ubuntu, preferably without having to uninstall ubuntu. Is there any partitioning program that can do this for me? presently i have Gparted installed.
+2008-09-30T19:59:00.000Z	erUSUL	Rossen_	just reformat the win partition as ext3 and use it for storing /home or media files or whatever
+2008-09-30T20:04:00.000Z	Rossen_	erUSUL	Dont like that solution, both partitions are of equal size (roughly 10GB each)
+2008-09-30T20:05:00.000Z	erUSUL	Rossen_	well try gparted from a livecd (both partitions have to be unmounted). do backups

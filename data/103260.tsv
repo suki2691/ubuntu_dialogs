@@ -1,0 +1,4 @@
+2008-01-24T23:46:00.000Z	comicinker		for a bash script: in function1() I set a value like this: error_input="yes"     now in function2()   I want to check that value:    if [ "$error_input" = "yes" ];then           is that way correct?
+2008-01-24T23:47:00.000Z	danand	comicinker	if [ "$error_input" = "yes" ]; then
+2008-01-24T23:48:00.000Z	danand	comicinker	Space between ; and then
+2008-01-24T23:49:00.000Z	comicinker	danand	Pici: sorry, doesn't work. do I have to declare a variable somewhere so that I can use them inbetween functions?

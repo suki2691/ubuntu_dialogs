@@ -1,0 +1,4 @@
+2006-10-17T11:03:00.000Z	puff	colder4545	dpkg -l?
+2006-10-17T11:04:00.000Z	colder4545	puff	i think that that lists all packages, unless he can narrow by name
+2006-10-17T11:08:00.000Z	puff	colder4545	Idaknow the context, but "dpkg -l" will list all of the packages, "dpkg -l | fgrep -i somestring" will filter for a given string, "dpkg -L packagename" will list all files.
+2006-10-17T11:09:00.000Z	colder4545	puff	yeah, when i looked at the man file it looked like -l had to have an argument, i think your way works the quickest

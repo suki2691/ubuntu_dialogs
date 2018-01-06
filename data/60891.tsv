@@ -1,0 +1,4 @@
+2010-12-14T09:34:00.000Z	moohead		Can anyone help me with a Windows partitioning problem.  I am trying to dual boot Ubuntu but Ubuntu doesn't recognize the new partition I create.  Starting with C: 280GD and D: 16GB, I create a RAW 50GB. so now I have C: 230GB, RAW 50GB, D:16GB. But when I boot into ubuntu and use the advanced partition, it sees /sda1 230GB and then /sda2 66GB.  It seems to be assimilating the Raw partition to
+2010-12-14T09:34:00.000Z	moohead		the next partition.  What is going wrong?
+2010-12-14T09:36:00.000Z	shcherbak	moohead	type df -h in terminal (live cd), or better fdisk -l
+2010-12-14T09:36:00.000Z	shcherbak	moohead	fdisk with sudo

@@ -1,0 +1,4 @@
+2012-03-16T13:18:00.000Z	waheed		hi, I'm using ubuntu 11.10 and the places, system, and applications menus have disappeared without any customization I done..how to display it again??
+2012-03-16T13:18:00.000Z	waheed		help !!
+2012-03-16T13:20:00.000Z	hiexpo	waheed	maybe gconftool --recursive-unset /apps/panel && killall gnome-panel »
+2012-03-16T13:22:00.000Z	hiexpo	waheed	is it a gnome desktop or unity ?

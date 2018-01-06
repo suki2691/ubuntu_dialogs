@@ -1,0 +1,4 @@
+2012-11-29T04:08:00.000Z	genii-around	invisibleheero	The issue is that the PPA exists, but there are no packages for Quantal in it yet
+2012-11-29T04:08:00.000Z	invisibleheero	genii-around	so I should just remove it
+2012-11-29T04:08:00.000Z	genii-around	invisibleheero	Yes.
+2012-11-29T04:12:00.000Z	genii-around	invisibleheero	If you manually added it to sources.list then remove it that way. If you added it by doing add-apt-repository    then remove it's entry from /etc/apt/sources.list.d/   directory

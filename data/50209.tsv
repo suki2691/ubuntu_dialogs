@@ -1,0 +1,4 @@
+2009-08-17T11:27:00.000Z	felix--		﻿hi. my hard drive seems to be broken. i run e2fsck each time during boot, but didnt found/repair anything. boot fails at the time of starting gdm. a white square appears but not reaches to show anything. Now im using a livecd /// root@gnewsense:/home/deltah# e2fsck -b 8193 -fckp /dev/sda ///// e2fsck: Device or resource busy while trying to open /dev/sda / Filesystem mounted or opened exclusively by another program? /// it isnt mounted, dunno what to do
+2009-08-17T11:28:00.000Z	Ben64	felix--	maybe it IS mounted, live cds tend to do that
+2009-08-17T11:29:00.000Z	felix--	Ben64	mount does not show any media mounted< only /sys /proc etc
+2009-08-17T11:30:00.000Z	Ben64	felix--	use parted to find which partition is the one you wanna check, and fsck it

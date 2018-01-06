@@ -1,0 +1,4 @@
+2012-07-04T04:41:00.000Z	extor		How on earth do I make a sudo user
+2012-07-04T04:41:00.000Z	extor		I have console access as root but unable to ssh as root and there are no sudo users
+2012-07-04T04:41:00.000Z	jthan	extor	There is a setting to enable/disable allowing root login via ssh.
+2012-07-04T04:42:00.000Z	jthan	extor	You can not "make" a sudo user.  Using the command "visudo" as root will bring up the file within which you can grant people access to the sudo command.

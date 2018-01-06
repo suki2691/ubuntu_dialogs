@@ -1,0 +1,4 @@
+2005-09-07T13:11:00.000Z	robert1123		hello all. I am trying to install apache and I need to add my universial repository but how do I do this by command line?
+2005-09-07T13:11:00.000Z	cafuego	robert1123	'apache2' is in main, afaik.
+2005-09-07T13:12:00.000Z	robert1123	cafuego	thanks. but how do I add my universial repository from command line? they only tell you how to do it from gui on the ubuntu site.
+2005-09-07T13:13:00.000Z	cafuego	robert1123	edit /etc/apt/sources.list, add universe to the end on the line that starts with 'deb'

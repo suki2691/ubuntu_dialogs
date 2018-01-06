@@ -1,0 +1,4 @@
+2008-11-26T11:47:00.000Z	wit_273		Is there a way to customize the guest account in 8.10?
+2008-11-26T11:49:00.000Z	wit_273		In 8.10 there is a guest account that can be access through user switcher--it creates a new account each time a deletes all settings once the account logs out.  I am wanting to configure the account, but I do not know where it pulls the defaults from--does anyone know this?
+2008-11-26T11:51:00.000Z	wit_273		Where would it pull the defualt firefox settings from?  .mozilla is not in the /etc/skel directory.  It could be that I just need to edit the defaults for firefox that when a user first opens firefox.  Where would I find those settings?
+2008-11-26T11:52:00.000Z	Flannel	wit_273	firefox creates them when it first starts, probably /usr/share/ something.  Might have to ask #firefox on irc.mozilla.org

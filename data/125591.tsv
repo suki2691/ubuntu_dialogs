@@ -1,0 +1,4 @@
+2007-08-09T10:45:00.000Z	cansado		how do i run sshd and ppp on boot?
+2007-08-09T10:46:00.000Z	kingKonqueror	cansado	there would typically be a startup script in /etc/init.d/
+2007-08-09T10:47:00.000Z	cansado	kingKonqueror	bulmer: right, /etc/inet.d/ssh, but where do i say 'sshd=YES' or similar?
+2007-08-09T10:48:00.000Z	kingKonqueror	cansado	there isn't anything like that, it just needs to be executable and you can check there's a link to it in the relevant runlevel init directory

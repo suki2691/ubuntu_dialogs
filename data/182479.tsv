@@ -1,0 +1,4 @@
+2007-04-17T13:58:00.000Z	Tommy2k4		my hdd has hda1 as windows, hda2 as /, and an extended containing swap and some freespace
+2007-04-17T13:58:00.000Z	Tommy2k4		how can i delete all of the extended partition and / from ubuntu livecd
+2007-04-17T13:58:00.000Z	Tommy2k4		the rightclick menu in qtparted has all items greyed except properties
+2007-04-17T13:59:00.000Z	stefg	Tommy2k4	sudo swapoff -a first, then try again. You cant delete an extended partition if there's swap space in use

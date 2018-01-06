@@ -1,0 +1,4 @@
+2010-10-12T14:30:00.000Z	Cairo_		how do I generate an xorg.conf file? I deleted it and ubuntu hasn't made anew one
+2010-10-12T14:31:00.000Z	pksadiq	Cairo_	 try zacstone_:  k, not the commands, after Alt+ Ctrl+F1 and login,  type sudo /etc/init.d/gdm stop and then type   sudo  dpkg-reconfigure xserver-xorg and then after configuring type   sudo /etc/init.d/gdm start
+2010-10-12T14:31:00.000Z	pksadiq	Cairo_	 sorry mistqake
+2010-10-12T14:32:00.000Z	pksadiq	Cairo_	  sudo dpkg-reconfigure xserver-xorg ios enough

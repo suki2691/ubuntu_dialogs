@@ -1,0 +1,4 @@
+2009-12-10T01:37:00.000Z	Arsanerit		Hi. SSH X11 forwarding has stopped working, and I am not sure what I have changed. Running "ssh -X localhost evince /home/gerrit/documenten/CV.pdf" gives "Invalid MIT-MAGIC-COOKIE-1 key" and then "cannot open display". I tried "xhost +" but this gives '''No protocol specified // xhost:  unable to open display ":0"'''. Any ideas?
+2009-12-10T01:38:00.000Z	ZykoticK9	Arsanerit	FYI someone last night was having problem with evince and X forwarding as well - not sure they found a solution...  good luck
+2009-12-10T01:38:00.000Z	Arsanerit	ZykoticK9	It's not evince-related, that just happens to be the program by which I found it. "display" and other programs give the same error.
+2009-12-10T01:39:00.000Z	ZykoticK9	Arsanerit	did you also notice ActionParsnip's suggestion?

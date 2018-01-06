@@ -1,0 +1,4 @@
+2009-04-29T04:26:00.000Z	dcomxx		hi! i want to connect to a ubuntu system in a vm from another ubuntu system in a vm both on same host system .. and it tells me name or service not known ! how can i reach the other system ?
+2009-04-29T04:26:00.000Z	daftykins	dcomxx	what method are you trying to 'connect' by? what are you trying to do?
+2009-04-29T04:35:00.000Z	daftykins	dcomxx	are you trying to file share between them?
+2009-04-29T04:38:00.000Z	daftykins	dcomxx	that's because there's nothing to tell the other system the IP. if you know the IP's won't change you can edit /etc/hosts to enter them statically to avoid using IP all the time

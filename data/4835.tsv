@@ -1,0 +1,4 @@
+2012-09-24T12:44:00.000Z	pranavk		I want to see the size of all the folders that are present in my home directory. Unfortunately 'ls -l' only lists correct size for files not folders. How to computer the size of folders recursively
+2012-09-24T12:44:00.000Z	Ben64	pranavk	du -h
+2012-09-24T12:46:00.000Z	pranavk	Ben64	it is giving size of each of the file recursively, I want only collective size of each folder on my home folder. I don't care about the sizes of files/folders inside the home folders.
+2012-09-24T12:47:00.000Z	Ben64	pranavk	check out the man page for du, it has an option for depth

@@ -1,0 +1,4 @@
+2007-07-02T05:02:00.000Z	qodosh		Does anyone know where I might find Realtek High Definition drivers for my sound card. I have the latest kernel. I couldnt find it on the manufacturers website.
+2007-07-02T05:02:00.000Z	bionoid	qodosh	They should be in the kernel
+2007-07-02T05:05:00.000Z	bionoid	qodosh	Hard to say - did you compile kernel yourself?
+2007-07-02T05:05:00.000Z	bionoid	qodosh	You need to use ALSA and include the intel HD audio driver (iirc it works for the realtek hd audio too)

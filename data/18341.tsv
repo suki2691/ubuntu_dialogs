@@ -1,0 +1,4 @@
+2011-02-07T19:14:00.000Z	cordonnier		i have problem with 3dsp wifi.  driver already installed. version: kubuntu netbook 10.04.1   2.6.32-24 (& 28 &29)
+2011-02-07T19:15:00.000Z	ActionParsnip	cordonnier	if you run:  sudo iwlist scan   do you find wireless networks?
+2011-02-07T19:26:00.000Z	ActionParsnip	cordonnier	ok then run:  sudo lshw -C network    do you see a product line for the wireless device
+2011-02-07T19:33:00.000Z	cordonnier	ActionParsnip	 no ...only ethernet

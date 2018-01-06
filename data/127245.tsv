@@ -1,0 +1,4 @@
+2008-04-16T23:50:00.000Z	reasons		As in you want no X running at all? Stop the GDM daemon then killall X
+2008-04-16T23:52:00.000Z	reasons		Killing the GDM (sudo /etc/ini.t/gdm) sould be about as clean as it gets.
+2008-04-16T23:52:00.000Z	reasons		init.d
+2008-04-16T23:52:00.000Z	WGGMk	reasons	sudo /etc/init.d/gdm stop

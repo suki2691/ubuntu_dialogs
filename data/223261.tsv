@@ -1,0 +1,4 @@
+2005-10-15T10:24:00.000Z	atripathi		goodevening all
+2005-10-15T10:26:00.000Z	atripathi		i messed my apache2 conf through webmin.
+2005-10-15T10:27:00.000Z	atripathi		which command of dpkg can reset the entire apache2 configuration files to default during installation
+2005-10-15T10:28:00.000Z	butcherbird	atripathi	you can dpkg --purge apache2 and then apt-get again

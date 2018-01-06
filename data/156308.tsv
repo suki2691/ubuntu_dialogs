@@ -1,0 +1,4 @@
+2007-07-06T07:52:00.000Z	Nod-Ubuntu		Does anyone know why my synergy1.3.1.deb install says its installed but won't show synergy in my add/remove apps section?
+2007-07-06T07:54:00.000Z	genii	Nod-Ubuntu	If you installed it by downloading the deb then used dpkg to install it, the package manager will have it in a state where it does not know how to uninstall it because it was done manually
+2007-07-06T08:00:00.000Z	genii	Nod-Ubuntu	Thats what I just said earlier. If you manually install a package with dpkg, then the window manager add/remove system does not know how to properly deal with the thing.
+2007-07-06T08:04:00.000Z	genii	Nod-Ubuntu	Do you have repository universe enabled ? that is where the package is

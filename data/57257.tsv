@@ -1,0 +1,4 @@
+2011-02-01T13:51:00.000Z	cherva		can anyone solve an issue for me.. I have a server ubuntu 10.04 forwarding ports to another machine and if I am outside of his network i can see the ports are open, but when I am connected to the internet behind the server (on his internel network) I cant see the ports .....
+2011-02-01T13:53:00.000Z	ejv	cherva	nmap
+2011-02-01T13:54:00.000Z	cherva	ejv	nmap shows the ports as closed from lan ( scanning the external ip )
+2011-02-01T13:54:00.000Z	cherva	ejv	but they are open if I ssh to a machine outside the servers lan

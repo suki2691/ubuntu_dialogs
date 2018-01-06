@@ -1,0 +1,4 @@
+2007-09-23T07:48:00.000Z	sarixe		hi, i'm trying to install ubuntu on a dell inspiron 1721, and it's not recognizing any video hardware, even on lspci
+2007-09-23T07:49:00.000Z	tyler_	sarixe	try lshw as root instead of lspci and are you might want to try nano /etc/X11/xorg.conf set driver to vesa so you can enter desktop and get your card working properly
+2007-09-23T07:50:00.000Z	sarixe	tyler_	: ok
+2007-09-23T07:50:00.000Z	tyler_	sarixe	be warned vesa is a slow diagnostic video driver

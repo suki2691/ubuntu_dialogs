@@ -1,0 +1,4 @@
+2008-12-19T14:44:00.000Z	Kozeris		My friend has problem: yesterday has kubuntu installing on slave hdd while master was xp and then smthng  messed with GRUB. He got grub error 25. Today we tried to disconnect xp and install master linux , and we got errorDISK BOOT FAILURE-Insert system disk and press enter. So whe connected Only XP ( removed ubuntu hdd) : all loading ok, then we connected additionaly slave ubuntu hdd,
+2008-12-19T14:44:00.000Z	Kozeris		its 4 times slower loada, but hdtune shows ok 50mbs both
+2008-12-19T14:44:00.000Z	Kozeris		and then if only linux hdd it loads veyr long GRUB, and then grub gives mys hown error
+2008-12-19T14:46:00.000Z	ActionParsnip1	Kozeris	sounds like the bios is still pointing to the xp disk, change it to boot to the ubuntu disk and it will boot that, if necessary add the xp boot stuffs to /boot/grub/menu.list but if you had the xp drive connected during install this will not be needed

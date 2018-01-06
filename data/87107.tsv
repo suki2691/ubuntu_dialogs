@@ -1,0 +1,4 @@
+2008-06-23T07:40:00.000Z	asmo[B]		I'm having problems getting my external drive to mount... I think it's because I didn't properly eject them in windows, is there anyway around it or do I just have to reboot and eject them properly?
+2008-06-23T07:41:00.000Z	asmo[B]		ya that's what I figured
+2008-06-23T07:41:00.000Z	e-jat	asmo[B]	is it ntfs ? sudo mount -t ntfs-3g /dev/yourpartition /media/createfolderforit -o force
+2008-06-23T07:41:00.000Z	asmo[B]	e-jat	no way

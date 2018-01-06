@@ -1,0 +1,4 @@
+2011-02-22T08:03:00.000Z	ramon		hi all
+2011-02-22T08:04:00.000Z	ramon		im having problems with wifi: whenever the laptop goes on battery power, the wifi gets really really slow.
+2011-02-22T08:05:00.000Z	ohsix	ramon	tha'ts the wifi going into power saving mode; what chipset? you need to use iwpriv to disable power saving on broadcoam chips with the wl driver, iw should work for all the open source drivers
+2011-02-22T08:07:00.000Z	ramon	ohsix	how do i do that?

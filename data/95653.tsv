@@ -1,0 +1,4 @@
+2008-04-07T04:13:00.000Z	duli		Please, help: I was trying to recover the Windows mbr through Ubuntu with ms-sys --mbr /dev/sda1 instead of /dev/sda, and now my windows partition is unbootable...
+2008-04-07T04:15:00.000Z	binarical-app	duli	not so bad, it could be worse, k so what you did was enter some mumbel jumbel insto the boot loader, now try doing the same thing you did using hd0 instead
+2008-04-07T04:15:00.000Z	duli	binarical-app	Hum, ok... I'll try that. Tks for now
+2008-04-07T05:08:00.000Z	duli	binarical-app	just solved the broken winodws boot sector with testdisk (backup bs function). Thanks

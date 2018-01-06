@@ -1,0 +1,4 @@
+2010-05-30T16:25:00.000Z	oal		Is it possible to run cron jobs more than once every hour?
+2010-05-30T16:25:00.000Z	rww	oal	yes. I've found http://en.wikipedia.org/wiki/Cron to be a useful reference on the syntax
+2010-05-30T16:25:00.000Z	oal	jrib	but I have 0 in that field, doesn't that mean every hour?
+2010-05-30T16:26:00.000Z	rww	oal	e.g.: "*/5 * * * *  /home/user/test.pl" is every five minutes

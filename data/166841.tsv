@@ -1,0 +1,4 @@
+2007-02-17T16:19:00.000Z	robdeman		folks
+2007-02-17T16:19:00.000Z	robdeman		where do I pyut 64bit libs
+2007-02-17T16:19:00.000Z	robdeman		can I just put then in /user/local/lib64 ??
+2007-02-17T16:20:00.000Z	Quintin	robdeman	put it somewhere where your application will find it.  check your app with "ldd" program.

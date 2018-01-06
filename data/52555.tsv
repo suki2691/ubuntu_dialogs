@@ -1,0 +1,4 @@
+2009-07-15T10:36:00.000Z	snits	Monona	does ifconfig show that the interface has an address? Perhaps it is not getting dns info
+2009-07-15T10:38:00.000Z	Monona	snits	There's two parts to ifconfig, yes? Under lo, it lists inet addr:127.0.0.1  Also, I set up OpenDNS, and it shows it under Network Settings.
+2009-07-15T10:40:00.000Z	snits	Monona	There should be an probably be an eth0 if it is a wired interface in the output of ifconfig. What are the contents of /etc/resolv.conf ?
+2009-07-15T10:43:00.000Z	Monona	snits	Yes, there is also an eth0 in the output of ifconfig. No address there, though. /etc/resolv.conf has nameserver 208.67.222.222 nameserver 208.67.220.220

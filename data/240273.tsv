@@ -1,0 +1,4 @@
+2007-09-29T08:24:00.000Z	Forager		What's the difference between an ext2 and ext3 partition?
+2007-09-29T08:25:00.000Z	nickrud	Forager	ext3 provides journaling on an ext2 partition
+2007-09-29T08:26:00.000Z	nickrud	Forager	journaling is, very roughly, a record of changes that are made to a disk. If the disk fails, it can nearly always recover lost info from the journal
+2007-09-29T08:27:00.000Z	nickrud	Forager	read failed as computer shut down badly

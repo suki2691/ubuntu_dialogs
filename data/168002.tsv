@@ -1,0 +1,4 @@
+2006-10-30T09:33:00.000Z	zeus77		anyone know if scripts in /etc/init.d can be interactive (for example, prompt user for a password)?
+2006-10-30T09:34:00.000Z	nrdb	zeus77	there wouldn't be any GUI for a requester.
+2006-10-30T09:34:00.000Z	zeus77	nrdb	what about the the command line?
+2006-10-30T09:36:00.000Z	nrdb	zeus77	the init.d scripts are run as root anyway, you could probably use sudo to run a script as non root, and get sudo to prompt for a password.

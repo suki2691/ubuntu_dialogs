@@ -1,0 +1,4 @@
+2010-09-29T22:37:00.000Z	st__		how to tell which Xorg driver is used?
+2010-09-29T22:38:00.000Z	sunshinepants	st__	you can do a --reinstall on the xserver-xorg-video-xxxxx which should switch X11 over
+2010-09-29T22:38:00.000Z	sunshinepants	st__	or edit /etc/X11/xorg.conf by hand
+2010-09-29T22:39:00.000Z	sunshinepants	st__	 your /var/log/Xorg.0.log has all that

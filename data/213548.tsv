@@ -1,0 +1,4 @@
+2006-03-25T08:53:00.000Z	ormandj_		is there something equivalent to ZFS in linux nowadays? I need something like "snapshots" in ZFS :/
+2006-03-25T08:55:00.000Z	ormandj_		i've got a user who wants to backup approximately 2 terabytes of data initially, and wants daily backups done from that point on, and wants hourly backups kept for a day, daily backups for a week, weekly backups for a month, and monthly backups for a year. you could see how that might be a slight storage problem without something like snapshots :) unfortunately solaris doesn't work worth a shit on any of my hardware, and i've given up on that
+2006-03-25T08:55:00.000Z	ormandj_		so i was thinking about giving ubuntu a go, but i need something to handle this issue :P
+2006-03-25T08:56:00.000Z	tonyyarusso	ormandj_	Try starting with 'apt-cache search backup' with full repos.

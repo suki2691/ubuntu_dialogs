@@ -1,0 +1,4 @@
+2010-10-09T22:29:00.000Z	valetudo		seagate external hard drive won't show up anymore, i removed it safely everytime and only used it on ubuntu 10.04, never windows. it was working 10 minutes ago and now it still lights up but wont show up for me to mount
+2010-10-09T22:30:00.000Z	erUSUL	valetudo	open a terminal and do « tailf /var/log/messages » then plug the disk. paste the new lines that will show up
+2010-10-09T22:41:00.000Z	erUSUL	valetudo	it looks like the disk is ok; do « udisks --mount /dev/sda1 »
+2010-10-09T22:43:00.000Z	erUSUL	valetudo	worked? it mounted?

@@ -1,0 +1,4 @@
+2006-07-23T06:43:00.000Z	santa99		hi, I have a problem with the package system when i want to sudo apt-get update there is the following error message: E: Could not get lock /var/lib/apt/lists/lock - open (11 Resource temporarily unavailable)
+2006-07-23T06:43:00.000Z	santa99		E: Unable to lock the list directory
+2006-07-23T06:45:00.000Z	omarkj	santa99	There is a program somewhere using the apt database, synaptic maybe didn't close down cleanly, the update manager could be doing something.
+2006-07-23T06:46:00.000Z	santa99	omarkj	how can i clean up ?

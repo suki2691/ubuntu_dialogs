@@ -1,0 +1,4 @@
+2006-04-10T11:45:00.000Z	bluey		excuse my ignorance, but why does sudo apt-get install w32codecs return "E: Couldn't find package w32codecs" ?
+2006-04-10T11:45:00.000Z	nickrud	bluey	because it's not in the repos. Check out the codecs on http://wiki.ubuntu.com/RestrictedFormats
+2006-04-10T11:46:00.000Z	nickrud	bluey	the ubotu link takes you straight to the codecs
+2006-04-10T11:47:00.000Z	nickrud	bluey	if you add some unofficial repos you can apt-get the codecs, but you need to be cautious about that.

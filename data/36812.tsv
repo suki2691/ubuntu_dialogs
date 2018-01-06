@@ -1,0 +1,4 @@
+2010-04-30T05:49:00.000Z	BlueSherpa		anyone here know how to do multiline regexp matches using the ubuntu "expect" command?  This regexp isn't working:  (\n|.)*e is 65537
+2010-04-30T05:51:00.000Z	Typos_King	BlueSherpa	  ubuntu 'expect'?    I don't have it, soooo ^_^, I do know regexps, and usually there's a 'multiline' switch you pass, otherwise the '.' doesn't include \n
+2010-04-30T05:52:00.000Z	Typos_King	BlueSherpa	  there's a nice regex editor/tester for regex, 'kodos', is in the repos
+2010-04-30T05:52:00.000Z	BlueSherpa	Typos_King	I tried one regexp tool, but it turns out that "expect" uses a funky version of regexp

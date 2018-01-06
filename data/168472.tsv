@@ -1,0 +1,4 @@
+2006-09-04T10:32:00.000Z	simtower		any chance someone can help me restore grub to my MBR... the various HOWTOs do not have working info
+2006-09-04T10:33:00.000Z	cafuego	simtower	'sudo grub'; 'root (hd0,0)'; 'setup (hd0)'
+2006-09-04T10:34:00.000Z	cafuego	simtower	Replace (hd0,0) with the actual partition info from where your grub lives. (The example is hda1)
+2006-09-04T10:34:00.000Z	simtower	cafuego	thanks worked perfectly... =)

@@ -1,0 +1,4 @@
+2006-11-06T06:19:00.000Z	jkimball4		how do i permanently add a path to the path env variable
+2006-11-06T06:20:00.000Z	pablo_	jkimball4	edit /etc/bash.bashrc and add in last line export PATH=$PATH:/new/path/here
+2006-11-06T06:21:00.000Z	jkimball4	pablo_	how can i refresh the system so that takes affect with restart
+2006-11-06T06:22:00.000Z	pablo_	jkimball4	if you edit /etc/bash.bashrc the new path will stay

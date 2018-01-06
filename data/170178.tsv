@@ -1,0 +1,4 @@
+2007-10-25T06:07:00.000Z	sc0tch		Anyone familar with the Digg post about Gutsy & Feisty overworking harddrives? the workaround supposedly is setting advanced power management on drive with hparm -B 255 <device>  (when trying to set it on my drives, I get an IO Error
+2007-10-25T06:08:00.000Z	astro76	sc0tch	you are using regular IDE, not SATA?
+2007-10-25T06:10:00.000Z	sc0tch	astro76	is the trashing problem unique to IDE, or SATA does not support the power management settings?
+2007-10-25T06:11:00.000Z	astro76	sc0tch	I don't know it's just that currently with IDE on Ubuntu hdparm doesn't really work

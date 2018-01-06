@@ -1,0 +1,4 @@
+2011-11-18T02:44:00.000Z	pist0l-fish		scenario: i have a partition with my OS (windows) and i want to resize it and put ubuntu on a new partition. i have a bunch of mirrored disks being managed by windows software raid. my solution is to unplug the mirrored disks when i install ubuntu, and then make sure the fstab doesn't have references to the mirrored disks and then plugging them back in and rebooting
+2011-11-18T02:44:00.000Z	pist0l-fish		will this prevent ubuntu from ever mounting my mirrored disks?
+2011-11-18T02:45:00.000Z	pist0l-fish		essentially question is: when you reboot ubuntu, does it check for new /dev/sd* devices and add them to the fstab
+2011-11-18T02:47:00.000Z	amiranda	pist0l-fish	No, it  won't automatically add them when they appear.  However, why do you want to unplug the drives?  I think you should be able to tell ubuntu to ignore the disks during the install...

@@ -1,0 +1,4 @@
+2007-06-22T12:02:00.000Z	fiber		hello, i was wondering if anyone could give me some help setting up grub.  basically, i had ubuntu installed and then put XP on a separate partition but XP stole the MBR record so i can't get back into ubuntu (i'm on the liveCD right now)... anyone have any thoughts?
+2007-06-22T12:03:00.000Z	vzduch	fiber	back up your /boot/grub/menu.lst, then run sudo grub-install
+2007-06-22T12:03:00.000Z	vzduch	fiber	and next time do as _Ahti says: install Windoze first
+2007-06-22T12:04:00.000Z	fiber	vzduch	haha, yea... i just figured that one out... better to learn from experience though... thanks

@@ -1,0 +1,4 @@
+2012-01-08T23:10:00.000Z	StepNjump		guys, what is the problem with this command please? sudo tar -xzvf xemacs-21.4.0-elc.tar.gz /opt
+2012-01-08T23:10:00.000Z	StepNjump		tar: /opt: Not found in archive
+2012-01-08T23:10:00.000Z	StepNjump		tar: Exiting with failure status due to previous errors
+2012-01-08T23:11:00.000Z	openvoid	StepNjump	do that  tar -xzvf xemacs-21.4.0-elc.tar.gz -C /opt

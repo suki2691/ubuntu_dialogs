@@ -1,0 +1,4 @@
+2008-04-24T23:34:00.000Z	peeps[work]	lch_	hmm, i found this with ps:   root      8216  0.0  0.0  16968  2048 ?        SN   10:12   0:00 apt-get -qq update -o APT::Update::Auth-Failure::=cp /usr/share/apt/apt-auth-failure.note /var/lib/update-notifier/user.d/
+2008-04-24T23:35:00.000Z	peeps[work]	lch_	i'm not sure what that process is doing, should I kill it?
+2008-04-24T23:35:00.000Z	lch_	peeps[work]	that is the aplication that periodically checks for upgrades maybe it is working right now and doing it slowly because of the server overload. you may terminate it, yes
+2008-04-24T23:35:00.000Z	peeps[work]	lch_	cool it is working again

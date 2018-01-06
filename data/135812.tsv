@@ -1,0 +1,4 @@
+2007-12-30T19:18:00.000Z	askand		How can I check where my phone is attached in /dev?
+2007-12-30T19:18:00.000Z	Stormx2	askand	You could read two files, one before inserting and one after, and then diff them? I've done that. Maybe dmesg will show something, also.
+2007-12-30T19:19:00.000Z	askand	Stormx2	 hrm can you please tell me how to do that?
+2007-12-30T19:20:00.000Z	Stormx2	askand	ls -l /dev > file1.txt ((now insert your phone)) ls -l /dev > file2.txt && diff file1.txt file2.txt

@@ -1,0 +1,4 @@
+2007-11-26T04:51:00.000Z	Mozul		anyone want to private message me? I have a need to set a lot of files from read only to read/write
+2007-11-26T04:51:00.000Z	Gnea	Mozul	chmod -R 666 dir/*
+2007-11-26T04:51:00.000Z	Gnea	Mozul	actually...
+2007-11-26T04:52:00.000Z	Gnea	Mozul	find /path -type f -exec chmod 666 {} \;

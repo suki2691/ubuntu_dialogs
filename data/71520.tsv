@@ -1,0 +1,4 @@
+2009-01-29T04:50:00.000Z	peterfic		sudo apt-get install proftpd      ... try to connect to box with user account details, cannot connect to server. Reboot box. Cannot connect. there is no ftp server
+2009-01-29T04:51:00.000Z	peterfic		well its like the ftp server is not there..  i dont get refused login, i just get no response on the port at all, no connection
+2009-01-29T04:52:00.000Z	peterfic		_VI_ yes but this is internal network, ssh/sftp works etc
+2009-01-29T04:54:00.000Z	w3wsrmn	peterfic	pastebin the outputs of ` sudo netstat -tpln ` and ` sudo iptables -L -v

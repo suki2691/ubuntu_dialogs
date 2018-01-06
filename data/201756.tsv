@@ -1,0 +1,4 @@
+2007-03-13T12:47:00.000Z	fdsasdf		I'm a ;linux noob, ive downloaded network manager on windows, put it on a usb stick and put it on  my ubuntu desktop. How do i install it from there?
+2007-03-13T12:48:00.000Z	IdleOne	fdsasdf	sudo spkg -i package.name
+2007-03-13T12:48:00.000Z	IdleOne	fdsasdf	sudo dpkg -i package.name
+2007-03-13T12:59:00.000Z	IdleOne	fdsasdf	just sudo dpkg -i network-manager.deb ( or whatever the package name is ) it will install to default location dont provide a path

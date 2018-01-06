@@ -1,0 +1,4 @@
+2006-11-30T15:48:00.000Z	fuffal0		what's a common partition setup for ubuntu server?  i was thinking of something like / (root) 7gigs, swap 2gigs, ~therest /var - is that reasonable? (i plan to log to this server from other servers, hence the larger /var)
+2006-11-30T15:48:00.000Z	CarlFK	fuffal0	is there anything wrong with the defaults?
+2006-11-30T15:48:00.000Z	CarlFK	fuffal0	not sure why you want a larger /var
+2006-11-30T15:51:00.000Z	CarlFK	fuffal0	the vmware files will soak up gigs fast.  why not have one big partition?

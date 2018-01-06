@@ -1,0 +1,4 @@
+2011-04-15T15:16:00.000Z	wcheng		hello . i am a new linuxer ,  i create a new user and delete the old user , them have a same name ,then shutdown ,the system cant work
+2011-04-15T15:16:00.000Z	iceroot	wcheng	you deleted /home/username?
+2011-04-15T15:16:00.000Z	iceroot	wcheng	because that belongs to the old user (uid)
+2011-04-15T15:17:00.000Z	iceroot	wcheng	ls -l /home/username should show a numbre for the owner instead of a username?

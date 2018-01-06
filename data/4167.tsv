@@ -1,0 +1,4 @@
+2012-04-03T22:13:00.000Z	angelbroz		hello there, i want to run in background a program and save the PID in a file named myprogram.pid, i have this, this run the program in background ./myprogram > /dev/null & , but how i get the PID to save it in myprogram.pid?
+2012-04-03T22:15:00.000Z	angelbroz		process id
+2012-04-03T22:15:00.000Z	i7c	angelbroz	the process id of the current bash is $$
+2012-04-03T22:17:00.000Z	angelbroz	i7c	ohh $! is the last PID executed, so i run it and then call $!, maybe that works

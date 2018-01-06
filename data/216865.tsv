@@ -1,0 +1,4 @@
+2006-01-27T13:14:00.000Z	oldmanstan		hey, if i'm making a text file with a shell script by using the the > and >>  how would i insert a line break into the file? i tried echo \n but no good
+2006-01-27T13:15:00.000Z	oldmanstan		thanks a bunch
+2006-01-27T13:15:00.000Z	_jason	oldmanstan	echo needs -n to interpret those characters, so do echo -n 'blah\nblah'
+2006-01-27T13:15:00.000Z	_jason	oldmanstan	my mistake, -e not -n

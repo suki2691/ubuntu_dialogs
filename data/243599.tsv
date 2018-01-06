@@ -1,0 +1,4 @@
+2006-06-04T11:02:00.000Z	gr33npho3nix		/usr/lib/vmware-server-console/bin/vmware-server-console: /usr/lib/vmware-server-console/lib/libgcc_s.so.1/libgcc_s.so.1: version `GCC_3.4' not found (required by /usr/lib/libcairo.so.2)
+2006-06-04T11:03:00.000Z	gr33npho3nix		does any one know why that happens
+2006-06-04T11:03:00.000Z	gr33npho3nix		i have gcc 3.4 by the way
+2006-06-04T11:04:00.000Z	chavo	gr33npho3nix	did you try export CC=/usr/bin/gcc-3.4

@@ -1,0 +1,4 @@
+2005-01-22T09:05:00.000Z	skreet		Okay I have a problem. I installed XP on /dev/sdb1 (50.0GB NTFS) /dev/sdb2 is a 30 GB fat32 partition with NO os, /dev/sda is formatted entirely for ubuntu.  GRUB tried to boot (hd1,1) [the fat partition]  and fails. I set it to root (hd1,0) and it says partition type is unknown. Anyknow know what I should do? If i reinstall windows it's going to erase my bootloader than I'll have to reinstall ubuntu and be in the same boat... Any advise?
+2005-01-22T09:05:00.000Z	skreet		Nevermind
+2005-01-22T09:06:00.000Z	skreet		Winodws put the NTFS in a logical partition, it's sdb5 for no reason..
+2005-01-22T09:07:00.000Z	IRCMonkeyjkhklhj	skreet	use fat which is linux compatible not ntfs!

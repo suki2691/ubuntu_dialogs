@@ -1,0 +1,4 @@
+2005-11-27T11:14:00.000Z	germancito		whats the problem jenda?
+2005-11-27T11:15:00.000Z	jenda	germancito	OK: I have two partitions with identical content, AFAIK. THe trouble is that when I tell fstab to mount it, it gives me errors.
+2005-11-27T11:16:00.000Z	jenda	germancito	I suspect it hos to do with different metadata (permissions) management.
+2005-11-27T11:17:00.000Z	jenda	germancito	nalioth: I think the problem is that you have to do something to properly copy permissions from an ext3, from which I did, to a reiser, which I would like to use.

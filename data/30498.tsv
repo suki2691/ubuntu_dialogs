@@ -1,0 +1,4 @@
+2010-06-08T22:44:00.000Z	rafaelsoaresbr		I did "cp --recursive --preserve=all /var /backup/var" and got "cp: reading '/var/lib/ureadahead/debugfs/ieee80211/phy0/statistics/dot11RTSSuccessCount' : Operation not suported. What's wrong?"
+2010-06-08T22:45:00.000Z	The_Blob	rafaelsoaresbr	it cant copy the debugfs that's in there, either unmount it or add -x to cp so it restructs itself to one filesystem
+2010-06-08T22:46:00.000Z	The_Blob		*restricts
+2010-06-08T22:57:00.000Z	rafaelsoaresbr	The_Blob	thanks, '-x' seems to work, I want to move /var to another location.

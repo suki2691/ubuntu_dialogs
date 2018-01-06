@@ -1,0 +1,4 @@
+2009-06-16T05:52:00.000Z	binskipy2u		hey guys, is installing "TOO MANY" codecs, from restricted extras, gstreamer, etc etc a "bad" thing that can cause music apps to just stop playing.. or freezes, lockups?
+2009-06-16T05:52:00.000Z	binskipy2u		or is that not a big deal in linux having tooo many codecs
+2009-06-16T05:53:00.000Z	stealth-	binskipy2u	shouldnt cause any issues, the programs will use what they want to
+2009-06-16T05:55:00.000Z	stealth-	binskipy2u	as a general rule, apt-get will take care of stuff if there is conflicts, so it either wont allow you to install the new package or will remove the conflicting one

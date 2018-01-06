@@ -1,0 +1,4 @@
+2012-05-11T06:15:00.000Z	ggolin		hey guys, my root partition is reported as 100% while du -hcs says that only 7.4 gb out of 12gb is taken. pangolin. what am i doin wrong here?
+2012-05-11T06:15:00.000Z	ggolin		this makes little sense to me /dev/sda1        12G  9.1G   20M 100% /
+2012-05-11T06:16:00.000Z	ggolin		12 there, 9 taken, 20m free?
+2012-05-11T06:16:00.000Z	mattbillenstein	ggolin	how many inodes are being used?

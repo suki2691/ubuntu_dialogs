@@ -1,0 +1,4 @@
+2010-01-08T08:31:00.000Z	Viss		I have a question about package reinstallation. I'm trying to install likewise-open. When I ran through the install the first time, it gave me a dialog box prompting me for a host. I just hit enter. The installation continued, but now I need to go back and add a host. I've been unable to reinstall the package such that I get that dialog box asking for the host again. dpkg-reconfigure doesn't do it, nor does apt-get remove/install'ing it.
+2010-01-08T08:32:00.000Z	DaZ_	Viss	host?
+2010-01-08T08:32:00.000Z	Viss	DaZ_	likewise-open is a package used to let one have ubuntu authenticate against active directory. It asked me for the AD host, which at the time I didn't know. I assumed that it would create a config file that I could go edit. Well, it didnt.
+2010-01-08T08:33:00.000Z	Viss	DaZ_	so I'd like to reinstall the package, and have it ask me for the host again, except I cant for the life of me get it to do that.

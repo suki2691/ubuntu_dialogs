@@ -1,0 +1,4 @@
+2006-01-06T10:17:00.000Z	tuv		i've a file that i want run at boot but by user not root.. can this be done in /etc/init.d/
+2006-01-06T10:17:00.000Z	tuv		?
+2006-01-06T10:19:00.000Z	bshumate	tuv	you could put a line in /etc/init.d/bootmisc.sh like : su [user]  -c [command]  to have the command run at boot time as a specific non uid 0 user...
+2006-01-06T10:21:00.000Z	tuv	bshumate	hmm.. will try that.. thanks

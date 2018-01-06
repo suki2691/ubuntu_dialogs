@@ -1,0 +1,4 @@
+2008-01-13T01:17:00.000Z	cristina		hi, i have a bug in ubuntu, it hangs when playng mp3. I want to install the sound card driver from the card's CD maybe will fix this.
+2008-01-13T01:18:00.000Z	cristina		any sugestions about removing the old driver and installing the new one?
+2008-01-13T01:19:00.000Z	truna	cristina	man modprobe,  but to remove a module is usually  modprobe -r modulename
+2008-01-13T01:20:00.000Z	truna	cristina	to see whats loaded,  lsmod

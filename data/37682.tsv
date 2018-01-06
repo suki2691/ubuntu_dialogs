@@ -1,0 +1,4 @@
+2010-02-07T01:46:00.000Z	onaogh		apt-get always gives me a list of packages of software no longer required, and says remove it with apt-get autoremove, shall i autoremove them ??
+2010-02-07T01:46:00.000Z	BHoward	onaogh	yes
+2010-02-07T01:47:00.000Z	onaogh	Seveas	BHoward, won't that make problem for my applications, how apt-get is 100% sure ?
+2010-02-07T01:49:00.000Z	BHoward	onaogh	apt-get handles all your dependancies for you. It is generally always right. When it tells you to do autoremove means it has found dependancies no longer needed and autoclean is cleaning out your cache

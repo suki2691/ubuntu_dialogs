@@ -1,0 +1,4 @@
+2010-08-05T08:13:00.000Z	tesuji		anybody understand /proc ?  what creates the entries?  something in the kernel?
+2010-08-05T08:14:00.000Z	shauno	tesuji	exactly
+2010-08-05T08:17:00.000Z	shauno	tesuji	in /proc, you'll find a directory matching each running pid.  the file 'cmdline' within each of those will tell you what command corresponds to that pid
+2010-08-05T08:23:00.000Z	shauno	tesuji	really, the most useful suggestion I could give you in that situation is to get the machine offline.  post-mortem if you're capable, reinstall (or *trusted* backup) if not.  If you think someone's got far enough to patch ps/libproc, there's really nothing you can trust to be done with the system running

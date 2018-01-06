@@ -1,0 +1,4 @@
+2011-03-22T16:41:00.000Z	NET||abuse		does ubuntu add /home/$username/bin to the path if it exists?
+2011-03-22T16:42:00.000Z	llutz_	NET||abuse	yes
+2011-03-22T16:42:00.000Z	llutz_	NET||abuse	grep "HOME/bin" ~/.profile
+2011-03-22T16:43:00.000Z	NET||abuse	llutz_	thanks, seems to work,,, dont' know why i expected an issue with that.

@@ -1,0 +1,4 @@
+2006-08-05T07:57:00.000Z	Tommck_		hello all.. This may seem like a newb question, but I was wondering what I could do to stop apt-get from asking me for the installation CD when I try to install new software.  Do I have to copy the whole CD to disk?
+2006-08-05T07:58:00.000Z	Tommck_		I've been searching for an answer to this, but I guess I'm not phrasing the search terms well
+2006-08-05T07:58:00.000Z	Warbo	Tommck_	run "sudo nano /etc/apt/sources.list" and put a "#" at the beginning of the line for your CD
+2006-08-05T07:59:00.000Z	Tommck_	Warbo	- I have a crappy internet connection, so I'd rather it grab what it can from disk, if possible

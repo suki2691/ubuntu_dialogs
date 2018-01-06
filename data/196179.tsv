@@ -1,0 +1,4 @@
+2006-10-26T09:15:00.000Z	CppIsWeird		how do i use find to find an executeable with "vnc" in the name?
+2006-10-26T09:16:00.000Z	Tatey	CppIsWeird	your best bet would be to $ find /usr/bin/ | grep vpn
+2006-10-26T09:26:00.000Z	Tatey	CppIsWeird	look in /etc/init.d for something that matches vnc
+2006-10-26T09:27:00.000Z	Tatey	CppIsWeird	when you find it, simply run $ sudo /etc/init.d/nameofscript restart

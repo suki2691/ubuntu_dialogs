@@ -1,0 +1,4 @@
+2006-01-04T16:11:00.000Z	vilefridge		Hello! :)  I just installed a new motherboard and Ubuntu 5.10 refuses to boot entirely.  I receive an error stating that the XServer cannot be loaded.  I believe that this is the graphical environment.  How can I 'repair' my installation without losing my current configuration.. so that my new motherboard functions?
+2006-01-04T16:12:00.000Z	globe	vilefridge	I had that same problem.  try "dpkg_reconfigure xserver-xorg"
+2006-01-04T16:13:00.000Z	globe	vilefridge	no quotes
+2006-01-04T16:13:00.000Z	vilefridge	globe	skon: thanks!  I'll give that a shot =)

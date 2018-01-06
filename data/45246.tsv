@@ -1,0 +1,4 @@
+2009-12-17T13:49:00.000Z	airtonix	cdocbo	are you sure that is the correct place ? bashrc is only executed when you open the terminal
+2009-12-17T13:50:00.000Z	cdocbo	airtonix	I guess that depends on what he is doing, but for most people, they are running commands from a term...
+2009-12-17T13:50:00.000Z	airtonix	cdocbo	the ~/.profile is a better place since it enablesthat $PATH modification for more than just terminal
+2009-12-17T13:52:00.000Z	cdocbo	airtonix	if you'll read that file, it tells you that it isn't read if the user already has a .bash_profile or .bash_login.  And on 9.10 it already has a $HOME/bin entry, so it wasn't working for him.

@@ -1,0 +1,4 @@
+2007-04-01T14:15:00.000Z	Pelo		anyone know the command to display system specs ?  cpu , mem etc ?
+2007-04-01T14:16:00.000Z	therealnanotube	Pelo	"cat /proc/cpuinfo"
+2007-04-01T14:17:00.000Z	therealnanotube	Pelo	cat /proc/meminfo
+2007-04-01T14:18:00.000Z	therealnanotube	Pelo	dmidecode (for all kinds of system stuff); sudo fdisk -l (to list all hdds); lshw (to list all hardware); lsusb (to list all usb devices)

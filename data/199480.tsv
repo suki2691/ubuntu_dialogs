@@ -1,0 +1,4 @@
+2007-04-11T16:08:00.000Z	bigmb		noob question, Ethernet controller: Intel Corporation 82562ET/EZ/GT/GZ - PRO/100 VE (LOM) Ethernet Controller (rev 03)
+2007-04-11T16:08:00.000Z	bigmb		 -- what kind of network card this mean I have?
+2007-04-11T16:09:00.000Z	dyrne	bigmb	i cant see drivers for an intel ethernet controller not included in ubuntu
+2007-04-11T16:11:00.000Z	dyrne	bigmb	so 'ifconfig -a' doesnt show a eth0? how about 'cat /etc/iftab' ?

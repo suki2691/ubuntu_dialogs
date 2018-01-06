@@ -1,0 +1,4 @@
+2005-06-26T10:18:00.000Z	mne		hi there ! I'm using a debian base install, but the Xorg with all its dependencies is from ubuntu hoary which is the reason I came here. My problem is that the Xorg (the process Xorg) uses at least 245MB RAM, if Xorg runs for some time it even uses more than 350MB RAM. I have no explanation for the high memory usage since the same Xorg packages on my other boxes use about 40MB RAM. Any hints ? Could it be the graphic driver module (I
+2005-06-26T10:18:00.000Z	mne		use nvidia) ?
+2005-06-26T10:19:00.000Z	Seveas	mne	Xorg on Debian is not really supported...
+2005-06-26T10:20:00.000Z	mne	Seveas	As I already said it's NOT debian specific since all X related packages and dependencies are from hoary.

@@ -1,0 +1,4 @@
+2007-10-24T01:02:00.000Z	toby		Anyone when i tried to sudo apt-get update i got a message could not get lock /var/lib/ apt/lists/lock/
+2007-10-24T01:03:00.000Z	Stormx2	toby	Usually means you have update manager, synaptic, something like that running
+2007-10-24T01:03:00.000Z	toby	dresal	nothing is running
+2007-10-24T01:03:00.000Z	Stormx2	toby	If the status area is locked, it means something that manages packages is running.

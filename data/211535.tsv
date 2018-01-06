@@ -1,0 +1,4 @@
+2011-06-25T02:16:00.000Z	Dulak	tiago	use an ssh tunnel to the first machine to tunnel through to the second one
+2011-06-25T02:18:00.000Z	Dulak	tiago	for instance a tunnel on port 2222 on the first machine redirects to 22 on the second, so you can use the -P option with scp to set the port
+2011-06-25T02:18:00.000Z	tiago	Dulak	hum ok, I remember trying that a long time ago and not being very successful, but I'll give it a try, thanks
+2011-06-25T02:19:00.000Z	Dulak	tiago	np, it's a bit tricky but I use it all the time at work to open a hole in the firewall for ssh

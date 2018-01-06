@@ -1,0 +1,4 @@
+2009-05-16T23:56:00.000Z	nixuser		I'm having trouble burning recent ubuntu livecd ISOs.  The md5sums match after download; however "check disc for defects" shows mismatches.  Gutsy livecd works; however more recent releases have been unsuccessful:  (1) Various pre-release versions of Jaunty with InfraRecorder on a windows box; (2) Jaunty 9.04 with wodim and cdrecord (eg cdrecord driveropts=noburnfree speed=0 -v -data file.iso) with various options on a linux box (
+2009-05-16T23:57:00.000Z	Classic	nixuser	you have to burn live cd at the lowest speed possible
+2009-05-16T23:57:00.000Z	nixuser	Classic	cdrecord speed=0 set burn speed to 10x on 40x drive
+2009-05-16T23:58:00.000Z	Classic	nixuser	no idea, try to burn iso onto cv with 2x or 4x

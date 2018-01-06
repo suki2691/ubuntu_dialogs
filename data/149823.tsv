@@ -1,0 +1,4 @@
+2011-12-09T20:56:00.000Z	dandre		Are package repositories different for ubuntu server than for ubuntu desktop ?
+2011-12-09T20:58:00.000Z	dandre		ok so I don't really understand why/how life time for server is longer than for desktop
+2011-12-09T20:59:00.000Z	Pici	dandre	Because the server packages will receive updates for a longer period of time.
+2011-12-09T21:06:00.000Z	Pici	dandre	the infomration on apt-cache show packagename will show you how long each package is supported for (specifically in the 'Supported' field)

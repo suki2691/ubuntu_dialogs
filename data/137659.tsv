@@ -1,0 +1,4 @@
+2011-06-20T22:16:00.000Z	classico		hello people, i want to install 3 linuxes on my netbook, but i'm having troubles finding the best way to partition all that
+2011-06-20T22:17:00.000Z	classico		i heard i should create sda1 as the swap partition, i hear i should create an extended partition with a logical swap...
+2011-06-20T22:19:00.000Z	llutz	classico	only linux on that netbook? then use all logical drives, 1 swap, 3 linux-/ and 1 big data-partition to be shared
+2011-06-20T22:34:00.000Z	llutz	classico	there is no practical difference between logical/primary

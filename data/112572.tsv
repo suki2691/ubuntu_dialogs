@@ -1,0 +1,4 @@
+2007-12-02T21:06:00.000Z	Cherubael		Any way I can see the output grub is passing when I boot to a non-linux os?
+2007-12-02T21:06:00.000Z	xtknight	Cherubael	look in /boot/grub/menu.lst
+2007-12-02T21:06:00.000Z	xtknight	Cherubael	or press E on the GRUB entry at startup to (E)dit the entry, and B to (B)oot it.
+2007-12-02T21:10:00.000Z	Cherubael	xtknight	Yeah, I've tried that, but I want to see what occurs after grub quits and Windows begins to boot; me issue is grub finishing properly (ubuntu boots fine) but windows failing. I get no errors, though

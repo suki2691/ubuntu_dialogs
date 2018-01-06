@@ -1,0 +1,4 @@
+2005-07-05T15:22:00.000Z	Pitel		hi, i've problems wit my soundblaste 24-bit. it don't run. i tried to recompile alsa, with help from some tutoruial at ubuntuforums, but it still don't work
+2005-07-05T15:23:00.000Z	jago25_98	Pitel	I have an audigy too. `cat /dev/urandom > /dev/dsp` and lsmod |grep emu10k
+2005-07-05T15:26:00.000Z	Pitel	jago25_98	but i don't have audigy. i've sb live 24-bit. i think it use different chips :/
+2005-07-05T15:28:00.000Z	jago25_98	Pitel	I had a live but it was a live 5.1. That also used emu10k (hence the unofficial ASIO drivers for Windows). However, if the 24bit version is different then I guess I don't know what the kernel module (driver) is called

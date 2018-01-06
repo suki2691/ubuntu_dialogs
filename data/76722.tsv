@@ -1,0 +1,4 @@
+2009-01-14T09:08:00.000Z	dal_work		hi all, a friend of mine recently installed ubuntu 8.10 via the wubi installer, and has since ran out of disk space on the root partition leading to all kinds of nastiness. He wants to shift some free space from other partitions on that drive to the ubuntu root partition and my first thought was to fire up a live cd and use gparted to resize his partitions but wubi appears to have done something strange and I can't see the ubuntu partition
+2009-01-14T09:08:00.000Z	dal_work		to resize, I can only see his two ntfs partitions and what appears to be a vender recovery partition (it's a laptop)...anyone have any ideas on how to transfer some free space from his windows partition to the ubuntu space (whether it is a partition or not I dont' really know at this stage)?
+2009-01-14T09:08:00.000Z	Vantrax	dal_work	wubi doesnt have a partition
+2009-01-14T09:09:00.000Z	Vantrax	dal_work	its a 'virtual' partition inside windoew

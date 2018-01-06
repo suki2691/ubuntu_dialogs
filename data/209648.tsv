@@ -1,0 +1,4 @@
+2007-05-26T09:43:00.000Z	stefanB1		Hi. I had an ATI card, but i broke. So i figured i'd get nvidia because it had better linux support. When i try to install nvidia-glx i get en error and this is the important part : dpkg-divert: 'diversion of /usr/lib/libGL.so.1 to /usr/lib/nvidia/libGL.so.1.xlibmesa by nvidia-glx' conflicteert met 'diversion of /usr/lib/libGL.so.1 to /usr/lib/fglrx/libGL.so.1.xlibmesa by xorg-driver-fglrx'
+2007-05-26T09:43:00.000Z	stefanB1		this link must be a remainder from the fgrlx indtallation (compiled myself). Can anyone hlp me fix this?
+2007-05-26T09:43:00.000Z	LjL	stefanB1	removed the ati driver?
+2007-05-26T09:44:00.000Z	LjL	stefanB1	output of  dpkg --get-selections | grep fglrx  please

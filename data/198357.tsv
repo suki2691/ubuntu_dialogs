@@ -1,0 +1,4 @@
+2006-11-01T07:51:00.000Z	jhaquo		hi, i have made a folder shared over samba, but i cannot access it from another computer, when i enter \\IP in the other computer, it asks me for a login and password, but i never set one
+2006-11-01T07:53:00.000Z	TomaszD	jhaquo	you need to set security = share in the samba config file
+2006-11-01T07:55:00.000Z	TomaszD	jhaquo	gksudo gedit /etc/samba/smb.conf
+2006-11-01T07:56:00.000Z	TomaszD	jhaquo	in there you should find the line with " security = "

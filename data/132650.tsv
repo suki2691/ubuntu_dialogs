@@ -1,0 +1,4 @@
+2008-11-14T06:23:00.000Z	mcquaid		i'm working on something at work using excel 2k.  2k has a 65536 row limit, then you to import to other worksheets at 32k max each
+2008-11-14T06:24:00.000Z	mcquaid		this csv file (a text file) has 580K rows!  is there a linux util to chop a text file in say 30K rows?
+2008-11-14T06:25:00.000Z	fryguy	mcquaid	linux command line things such as sed and awk can be put together to accomplish your task.  Just whip up a quick bash script, or take a look at the 'split' command, which might do what you need
+2008-11-14T06:25:00.000Z	mcquaid	fryguy	thx

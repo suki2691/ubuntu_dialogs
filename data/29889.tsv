@@ -1,0 +1,4 @@
+2012-02-23T14:10:00.000Z	ft_mn		Hello, I have the $FILE='my file' variable which contains a file name.. the $FILE changes all the time so i want to put the '\' before every ' ' char in order to can use it with the mv command?? how is possible to put \ before every space character? it has to be something with sed right?
+2012-02-23T14:11:00.000Z	ft_mn		Or at least I want somehow to be able to rename the file with a string contained in a variable without to care about the space
+2012-02-23T14:12:00.000Z	syddraf	ft_mn	You can just wrap it in ""
+2012-02-23T14:13:00.000Z	ft_mn	syddraf	what do you mean? i want to do: mv *txt $FILE.txt ....  But what if $FILE= "name with spaces"

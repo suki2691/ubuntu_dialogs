@@ -1,0 +1,4 @@
+2011-07-28T06:46:00.000Z	zykotick9	mysphyt	it's possible, you need to create a custom entry in /etc/grub.d though - non-trivial but worth the effort.  My very customized Grub https://plus.google.com/115403891429547707849/posts/dPn4sDR5z7i
+2011-07-28T06:50:00.000Z	mysphyt	zykotick9	Heh, I took the easier route (though it might mess me up later).  cp 10_linux 15_linux; cp 30_os-prober 10_os-prober, chmod -x 10_linux 30_os-prober .
+2011-07-28T06:50:00.000Z	zykotick9	mysphyt	i chmod -x 10 & 30 as well
+2011-07-28T06:50:00.000Z	mysphyt	zykotick9	I don't need anything quite s'fancy as yours.  I just want OSX to show up above linux, 'cause I'm finicky.

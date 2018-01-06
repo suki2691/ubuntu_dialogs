@@ -1,0 +1,4 @@
+2007-02-20T06:37:00.000Z	okias		Hi, what is best for documents(video,music)? ext2 or ext3?
+2007-02-20T06:38:00.000Z	Mattias	okias	Reiser4?
+2007-02-20T06:38:00.000Z	okias	Mattias	why ?
+2007-02-20T06:39:00.000Z	Mattias	okias	its the fastest filesystem, its an atomic filesystem, which means that your filesystem operations either entirely occur, or they entirely don't, and they don't corrupt due to half occuring. it uses dancing trees, is based on plugins, and has an architected for military grade security ;)

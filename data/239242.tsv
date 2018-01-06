@@ -1,0 +1,4 @@
+2009-01-08T06:45:00.000Z	blacklemon67		I can't get php to work in 8.4
+2009-01-08T06:46:00.000Z	blacklemon67		I can't get php to work in 8.04. Apache works, but running a .php file executes a download of that file.
+2009-01-08T06:46:00.000Z	karlp	blacklemon67	you need to edit your httpd.conf
+2009-01-08T06:46:00.000Z	karlp	blacklemon67	add a typehandler (google it), there are millions of examples

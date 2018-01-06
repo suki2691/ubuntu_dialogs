@@ -1,0 +1,4 @@
+2011-06-30T21:11:00.000Z	adubz		is there a way to cat file.txt | grep for multiple strings
+2011-06-30T21:11:00.000Z	adubz		in one command line without having to run the command multiple itmes
+2011-06-30T21:13:00.000Z	adubz		will it print something to screen
+2011-06-30T21:13:00.000Z	llutz	adubz	egrep  'pattern|pattern' file                  man egrep  for help

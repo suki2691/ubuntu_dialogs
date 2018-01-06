@@ -1,0 +1,4 @@
+2005-04-30T07:41:00.000Z	pixil9		Anyone know how I make it so when I link /dev/radio0 to /dev/radio it doesn't dissapear after a reboot?
+2005-04-30T07:41:00.000Z	seven_six_two	pixil9	 ln -s
+2005-04-30T07:42:00.000Z	pixil9	seven_six_two	i did ln -s /dev/radio0 /dev/radio and then my radio card works fine but after reboot the link dissapears
+2005-04-30T07:43:00.000Z	seven_six_two	pixil9	strange. i had to do the same for my dvd but it stayed

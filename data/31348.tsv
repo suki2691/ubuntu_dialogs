@@ -1,0 +1,4 @@
+2010-07-18T09:58:00.000Z	thune3	Axilus	i'm not sure what you are trying to do, you could always "source ~/.profile" to get it to apply to the current shell (even though it may add redundant things to env variables)
+2010-07-18T10:01:00.000Z	Axilus	thune3	what do you mean, 'may add redundant things lol'
+2010-07-18T10:02:00.000Z	Axilus		I added two export lines and I just want to know how to update it without logging out and logging back in
+2010-07-18T10:05:00.000Z	thune3	Axilus	i just mean if .profile has already added something to a path, 'source'ing it will add it again. I don't have any idea how to get it to apply globally without loggin in again.

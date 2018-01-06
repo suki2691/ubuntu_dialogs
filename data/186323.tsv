@@ -1,0 +1,4 @@
+2007-06-28T06:37:00.000Z	Azul		when i change my user password, the root password changes along with it.. or at least when i do sudo.. i don't want that, what should i do?
+2007-06-28T06:37:00.000Z	Azul		i want a user that's not able to use sudo
+2007-06-28T06:38:00.000Z	Azul		or better, able to use sudo but with the root password
+2007-06-28T06:40:00.000Z	msl	Azul	you should be able to accomplish that by manually editing the    /etc/sudoers    file

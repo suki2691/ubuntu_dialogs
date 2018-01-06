@@ -1,0 +1,4 @@
+2009-03-05T03:12:00.000Z	lexvegas	ZykoticK9	in chmod whoami : whoami the first whoami is the username and the second one is the group which the file belongs to
+2009-03-05T03:13:00.000Z	lexvegas		that is, the username that you want the file to be owned by
+2009-03-05T03:13:00.000Z	ZykoticK9	lexvegas	actually i think the command you're looking for is chown, chmod is different
+2009-03-05T03:14:00.000Z	ZykoticK9	lexvegas	chmod is used like "chmod ugo+rwx file" vs "chown user:group file"???

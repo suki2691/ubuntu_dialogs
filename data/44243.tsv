@@ -1,0 +1,4 @@
+2009-10-30T20:24:00.000Z	Guest69371		hi. I have upgraded 8.4 to 9.10 and i'm limited to 800x600 screen resolution. please how can i increase the resolution? system->preferences->display did not offer any other options
+2009-10-30T20:25:00.000Z	Guest69371		i do not know how to download drivers for my graphics card. it seems to be an intel
+2009-10-30T20:26:00.000Z	ShadowHawkBV	Guest69371	type sudo nano /etc/etc/X11/xorg.conf and add the line "modes "1280x1024" to the Display Subsection"
+2009-10-30T20:27:00.000Z	ShadowHawkBV	Guest69371	have you logged out and then back in after changing xorg.conf?

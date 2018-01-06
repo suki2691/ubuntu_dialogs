@@ -1,0 +1,4 @@
+2010-10-11T02:18:00.000Z	gilaniali		if I change my hostname in /etc/hostname, does that mean to ssh into the sever, i will have to use this name?
+2010-10-11T02:20:00.000Z	adrian15b	gilaniali	If you connect from other computer probably your computer won't as a name server (bind) based on hostname... so the answer is probably: NO
+2010-10-11T02:20:00.000Z	adrian15b	gilaniali	* won't act as a name server
+2010-10-11T02:22:00.000Z	gilaniali	adrian15b	so changing the hostname is just a convenience issue? i can still log into the server using user@originaldomain.com ?

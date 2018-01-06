@@ -1,0 +1,4 @@
+2008-03-21T15:21:00.000Z	icechat		how do i boot someone from my linux box
+2008-03-21T15:22:00.000Z	icechat		or how do you remove a user on your linux box causing trouble
+2008-03-21T15:22:00.000Z	ompaul	icechat	(A) remove their ability to log in again * in front of password in /etc/shadow.db and then (B) sudo kill -9 all their processes
+2008-03-21T15:23:00.000Z	ompaul	icechat	of course if they have ssh logins you need to disable those

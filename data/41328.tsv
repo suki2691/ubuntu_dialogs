@@ -1,0 +1,4 @@
+2009-12-07T02:35:00.000Z	gawry		Does anyone knows how to solve this error?  [Sun Dec 06 16:26:50 2009] [error] [client 10.1.1.2] ALERT-SIMULATION - canary mismatch on efree() - heap overflow detected (attacker '10.1.1.2', file '/var/www/www.toqueacampainha.com.br/class/Model.class.php', line 252)
+2009-12-07T02:37:00.000Z	SpaceGhostC2C	gawry	that is a php error. Possibly look for some support from php. Unless it's ubuntu specific.
+2009-12-07T02:37:00.000Z	gawry	SpaceGhostC2C	Thats the best ive found until now... http://chrisblunt.com/blog/2009/05/01/php-fixing-mismatched-canaries-how-to-remove-suhosin-from-debianubuntu-packages/
+2009-12-07T02:38:00.000Z	SpaceGhostC2C	gawry	I'll look and see if I can get some info

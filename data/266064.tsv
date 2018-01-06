@@ -1,0 +1,4 @@
+2005-02-12T11:03:00.000Z	stoicheia		I just completed the installation of Ubuntu Hoary for PowerPC on a PowerBook G4 Titanium and cannot change the screen resolution from the default 640X480 no other options are available in the dialog box.
+2005-02-12T11:04:00.000Z	tritium	stoicheia	ATI Rage 128?
+2005-02-12T11:07:00.000Z	tritium	stoicheia	you probably don't have proper HorizSync and VertRefresh values in /etc/X11/xorg.conf
+2005-02-12T11:08:00.000Z	tritium	stoicheia	what does "sudo ddcprobe" report?

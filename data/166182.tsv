@@ -1,0 +1,4 @@
+2008-08-09T22:28:00.000Z	wols	Gin	dunno about a script but ifconfig -a tells you. the /etc/udev/rules.d/ files do so too
+2008-08-09T22:30:00.000Z	Gin	wols	 Bodsda, this is what I am trying to do.  I connect to the net using ppp, but my net provider register my mac addres. Problem: every reboot my machine  the eth number increase and the mac addres changes.  so a solution would be:  find the new eth number. then use that new ethernet name and put it in the ppp config file, then change the mac address and then try to connect.
+2008-08-09T22:30:00.000Z	wols	Gin	the solution is make udev behave instead
+2008-08-09T22:31:00.000Z	wols	Gin	19:31 <dpkg> If your network card keeps changing its name each time (eth0, then eth1, then eth2, etc) and you are using the forcedeth driver, then edit /etc/udev/rules.d/z25_persistent-net.rules and replace the MAC address with "00:00:6c:*".

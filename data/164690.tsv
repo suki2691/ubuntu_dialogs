@@ -1,0 +1,4 @@
+2008-09-07T12:56:00.000Z	darrend		can I modify a group membership so that it takes effect without the user logging out and back in?
+2008-09-07T12:58:00.000Z	dr_willis	darrend	 as a  quick 'work around' you could relogin that user in a terminal (with login, or ssh to localhost)   and have the proper groups in that terminal window only... but  eventually you need to log out/backin to get it fully set.
+2008-09-07T12:59:00.000Z	darrend	dr_willis	thx.  I thought if the terminal window had been configured as a 'login' window, this should work anyway (for the newly opened terminal).  I'll try the explicit login..
+2008-09-07T13:00:00.000Z	dr_willis	darrend	 theres login shells, then theres normal shells..  :) then i guess theres how 'login' command works. or ssh does when it connects.. I jsut use this trick every so often when setting up fuse normally

@@ -1,0 +1,4 @@
+2012-04-10T10:31:00.000Z	brez_		Hi All, I have a headless box, I just set it all up -- installed VNC, however when I vnc to this box unity is not there?
+2012-04-10T10:31:00.000Z	brez_		am running 12.04
+2012-04-10T10:33:00.000Z	sacarlson	brez_	I think you would have to setup a virtual display for a headless system or it won't detect a monitor so won't start xorg
+2012-04-10T10:34:00.000Z	brez_	sacarlson	already done -- I can VNC to the box, everything works, accept unity is ont there -- I heard changing the settings in lightdm to ubuntu-2d does the trick, however I have forced it to start in 2d, and still starts in 3d :(

@@ -1,0 +1,4 @@
+2009-04-28T02:33:00.000Z	olivier		im looking for a easy guide to networking shared folder between ubuntu to windows!?!?!1
+2009-04-28T02:34:00.000Z	bisy	olivier	"sudo apt-get install smpfs"; then create a share in windows; then "smbmount \\windowsmach\path /mnt -o user=whatever dom=whatever"
+2009-04-28T02:34:00.000Z	bisy		oliver, sorry, install smbfs
+2009-04-28T02:36:00.000Z	olivier	bisy	i got this error Couldn't find package smpfs

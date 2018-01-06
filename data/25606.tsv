@@ -1,0 +1,4 @@
+2010-09-25T09:59:00.000Z	whereami		ahhhh, the kernel remounted my root partition read-only...
+2010-09-25T10:00:00.000Z	whereami		what is wrong with this thing?
+2010-09-25T10:00:00.000Z	st__	whereami	run fsck and reboot
+2010-09-25T10:01:00.000Z	whereami	st__	I think it's a sata driver issue. the disk is really slow, and I'm seeing errors in dmesg.

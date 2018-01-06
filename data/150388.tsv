@@ -1,0 +1,4 @@
+2011-08-18T17:30:00.000Z	MuNk`		Is it possible to add/remove cron jobs one at a time instead of having to remove jobs nad reload all jobs each time you want to change one?
+2011-08-18T17:32:00.000Z	Pici	MuNk`	How are you adding/removing cron jobs now? It shouldn't be that much of a problem to add a new job.
+2011-08-18T17:33:00.000Z	Pici	MuNk`	Why not use crontab -e ?
+2011-08-18T17:36:00.000Z	Pici	MuNk`	Well, if you don't mind running the script with root, you could put/remove files from /etc/cron.d/

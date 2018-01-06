@@ -1,0 +1,4 @@
+2008-09-09T01:51:00.000Z	nloding		if i set a password for root (sudo passwd root) what file stores that info?
+2008-09-09T01:51:00.000Z	erUSUL	nloding	what info? the password?
+2008-09-09T01:53:00.000Z	erUSUL	nloding	just reset it by hand ... carfully i might add
+2008-09-09T01:55:00.000Z	erUSUL	nloding	well if the machines are clones (all software installed is the same) may work the problem is /etc/shadow may differ from machine to machine depending on software installed and users

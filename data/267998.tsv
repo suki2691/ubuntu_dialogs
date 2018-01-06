@@ -1,0 +1,4 @@
+2006-02-27T08:47:00.000Z	b1ind		libGL error: dlopen /usr/lib/dri/r200_dri.so failed (/usr/lib/dri/r200_dri.so: undefined symbol: _glapi_get_dispatch)
+2006-02-27T08:47:00.000Z	b1ind		libGL error: unable to find driver: r200_dri.so
+2006-02-27T08:49:00.000Z	b1ind		is there a way to list installed packages by regex or glob?
+2006-02-27T08:49:00.000Z	crimsun	b1ind	in what sense? You can do anything with sed+awk after dpkg -l

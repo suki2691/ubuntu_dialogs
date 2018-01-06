@@ -1,0 +1,4 @@
+2011-06-20T03:49:00.000Z	chrisf		hi #ubuntu, is there a package that provides `python2`? for portability across a bunch of other distros [some of which link `python` to a python3], this script uses #!/usr/bin/env python2 -- except this doesnt exist by default on ubuntu :(
+2011-06-20T03:50:00.000Z	Dulak	chrisf	2 choices, symlink /usr/bin/python2 to /usr/bin/python,  or change the script(s) to use python and not python2
+2011-06-20T03:51:00.000Z	chrisf	Dulak	yes, i know i can do it by hand :)
+2011-06-20T03:51:00.000Z	Dulak	chrisf	if you have a lot of these scripts, the symlink is the easiest solution: sudo ln -s /usr/bin/python /usr/bin/python2

@@ -1,0 +1,4 @@
+2007-01-05T11:14:00.000Z	kibab		Does anyone know how (if possible) to specify the NETBIOS name of the machine the request is being made to (not the client machine) so I can mount (or smbmount) a share?  I'm working with a machine that has multiple names and it distinguishes by the requested name (as it only has a single IP).
+2007-01-05T11:16:00.000Z	Ferret	kibab	smbmount //namehere/sharenamehere localdir -o optionshere?
+2007-01-05T11:16:00.000Z	kibab	Ferret	yeah, but what options?  I can specify the client machines netbios name, but not the netbios name of the machine that I'm making the request to?
+2007-01-05T11:17:00.000Z	kibab	Ferret	I did tried putting the netbios name with the ip in /etc/hosts, but it doesn't treat it as the netbios name, so it doesn't help

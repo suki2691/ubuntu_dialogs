@@ -1,0 +1,4 @@
+2010-05-22T18:32:00.000Z	orion_X11		I have dual boot notebook and when I am in windows i'd like to acesses linux files with explore2fs, but my ubuntu has got raiserfs with is not supported by explore2fs. So, is it possible to change my fs from raiserfs to ext4 without losing my data mainly my /home with gparted?
+2010-05-22T18:33:00.000Z	dancek	orion_X11	reiserfs can't be converted to ext4, but you could just copy the files somewhere else, destroy the partition and create a new one with ext4
+2010-05-22T18:35:00.000Z	dancek	orion_X11	i meant reformat, just like ohir said
+2010-05-22T18:35:00.000Z	orion_X11	dancek	ohir many thx

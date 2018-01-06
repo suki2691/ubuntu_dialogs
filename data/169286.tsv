@@ -1,0 +1,4 @@
+2006-09-02T10:36:00.000Z	Ubuntoer		Hi -- need permissions help.  I have a folder "gramps" with permissions for group to write to: drwxrwxr-x 3 root users 104 2006-09-02 12:29 gramps/ but a normal user can't write to it! e.g. $ touch gramps/test restults in: touch: cannot touch `gramps/test': Permission denied
+2006-09-02T10:36:00.000Z	reptyle	Ubuntoer	you need to add users to the group users :)
+2006-09-02T10:38:00.000Z	Ubuntoer	ChaosFan	hmm maybe not.  What is the command to add this user to group users?
+2006-09-02T10:38:00.000Z	reptyle	Ubuntoer	System > administration > users and groups

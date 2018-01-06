@@ -1,0 +1,4 @@
+2005-07-13T07:09:00.000Z	gene		I just added a 19" lcd monitor to my amd 64, nvidia 5200 ubuntu box and can't see any rez higher than 1024x780/60hz in screen resolution options. Any tips?
+2005-07-13T07:11:00.000Z	jasoncohen	gene	you just have to run dpkg-reconfigure xserver-xorg and choose a higher resolution
+2005-07-13T07:11:00.000Z	jasoncohen	gene	sudo dpkg-reconfigure xserver-xorg
+2005-07-13T07:11:00.000Z	jasoncohen	gene	sometimes the maximum resolution is detected incorrectly but it can be easily fixed

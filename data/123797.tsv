@@ -1,0 +1,4 @@
+2007-08-26T08:05:00.000Z	misc--		hi. Is it possible to install grub on a hard disk that's partition type is 'linux raid autodetect' and then the root partition is an LVM?
+2007-08-26T08:07:00.000Z	rexy_	misc--	grub ussually goes on the MBR, outside of partitions, other then that i dont know how grub interacts with raid disks or lvm
+2007-08-26T08:08:00.000Z	rexy_		It works fine Trae
+2007-08-26T08:08:00.000Z	misc--	rexy_	right ok thanks. Just that I urgently need to do a restore of grub and am hoping that this will work! (waiting for someone to get the disks together so I can guide him through it)

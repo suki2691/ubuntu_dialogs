@@ -1,0 +1,4 @@
+2010-07-17T20:41:00.000Z	Seppoz		i installed openssh-server on my Ubuntu Netbook Remix 9.10 whats the default command to start the server?
+2010-07-17T20:42:00.000Z	Seppoz		i actually tryed service sshd start and servie openssh-server start
+2010-07-17T20:44:00.000Z	quinten	Seppoz	make sure it's fully configured. try editing /etc/sshd.conf, or similarly named config file
+2010-07-17T20:45:00.000Z	quinten	Seppoz	also, try /etc/init.d/sshd start--the old method for starting a daemon and perhaps still what openssh uses

@@ -1,0 +1,4 @@
+2011-04-29T18:03:00.000Z	janjiss		Hi! How can i make my server to start up on boot? I have nginx wich is located in /opt/nginx/sbin/nginx
+2011-04-29T18:03:00.000Z	Dr_Willis	janjiss	 quick and dirty way. run it from /etc/rc.local
+2011-04-29T18:03:00.000Z	janjiss	Dr_Willis	I need to 'ln' it?
+2011-04-29T18:04:00.000Z	Dr_Willis	janjiss	 no.. edit rc.local add it near the end.

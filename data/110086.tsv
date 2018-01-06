@@ -1,0 +1,4 @@
+2009-08-09T10:21:00.000Z	jgoo		echo foo bar | somebinary < I want the process id of that binary
+2009-08-09T10:22:00.000Z	jgoo		I have a script ~/myscript which is '( "$@" ) & echo $!' - but echo foo bar | ~/myscript somebinary - while works, and shows pid, no longer pipes foo bar to somebinary
+2009-08-09T10:24:00.000Z	jgoo		any bash experts?
+2009-08-09T10:24:00.000Z	soreau	jgoo	#bash

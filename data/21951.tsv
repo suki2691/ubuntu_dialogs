@@ -1,0 +1,4 @@
+2010-12-23T21:22:00.000Z	zteam		Hi
+2010-12-23T21:23:00.000Z	zteam		is there any easy way to remove the first character in a filename in Ubuntu
+2010-12-23T21:24:00.000Z	zteam		I have alot of mp3s named like this: .example.mp3 how can i remove the first . without removing the other dot
+2010-12-23T21:26:00.000Z	CERNUNN0S	zteam	erm you could try "rename "s/.*//g" *.mp3" I would check before hand in a seperate folder

@@ -1,0 +1,4 @@
+2005-11-09T07:30:00.000Z	benkong2		why doe this give a permission denied error? "sudo echo 'pwcheck_method: saslauthd' >> /etc/postfix/sasl/smtpd.conf"
+2005-11-09T07:30:00.000Z	benkong2		why does this give a permission denied error? "sudo echo 'pwcheck_method: saslauthd' >> /etc/postfix/sasl/smtpd.conf"
+2005-11-09T07:30:00.000Z	infowolfe	benkong2	type sudo su - (then your password)
+2005-11-09T07:31:00.000Z	infowolfe	benkong2	then you can echo into the file, although, i prefer nano, myself (quick, simple, easy to use)

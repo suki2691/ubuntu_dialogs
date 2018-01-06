@@ -1,0 +1,4 @@
+2005-04-21T11:38:00.000Z	memnips		im on a laptop with an intel pentium m 1.5ghz and radeon 9200 vid card, and the comp is having trouble playing dvds and xvid / divx files.  any thoughts?
+2005-04-21T11:39:00.000Z	mackid	memnips	enable DMA on your DVD drive.. that fixed me
+2005-04-21T11:39:00.000Z	mackid	memnips	sudo hdparm /dev/dvd -d1 (i think)
+2005-04-21T11:40:00.000Z	mackid	memnips	sudo hdparm -d1 /dev/dvd

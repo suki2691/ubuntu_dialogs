@@ -1,0 +1,4 @@
+2007-09-08T12:51:00.000Z	Digital_P		Hey, where is include/linux/config.h????
+2007-09-08T12:52:00.000Z	Digital_P		I'm trying to compile something and it's failing because there's no config.h!!! I've searched all over the system.
+2007-09-08T12:52:00.000Z	Digital_P		I installed my kernel headers.
+2007-09-08T12:53:00.000Z	dug	Digital_P	do you have the kernel headers for your current kernel though?  sudo apt-get install linux-headers-`uname -r`

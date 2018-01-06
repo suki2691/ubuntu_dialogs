@@ -1,0 +1,4 @@
+2011-07-23T01:53:00.000Z	ThinkT510	chrisyboy2	then resize sda3 and then sda5
+2011-07-23T01:55:00.000Z	ThinkT510	chrisyboy2	ah, that is a bit tricky, one is a primary partition the other is logical, you would have to shrink the logical then the extended and then grow the primary
+2011-07-23T01:56:00.000Z	ThinkT510	chrisyboy2	sorry wrong way round, you want the extra space going to sda5
+2011-07-23T02:04:00.000Z	chrisyboy2	ThinkT510	?

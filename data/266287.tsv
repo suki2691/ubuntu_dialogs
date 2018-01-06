@@ -1,0 +1,4 @@
+2009-03-16T03:05:00.000Z	Lighttitan		when I attempt to do "sudo regedit" I get this: "wine: /home/titan/.wine is not owned by you" How do I take ownership of the .wine folder and all files underneath?
+2009-03-16T03:05:00.000Z	Dr_Willis	Lighttitan	 you dont sudo it..
+2009-03-16T03:06:00.000Z	Dr_Willis	Lighttitan	 the .wine stuff is owned by the user.. and  thus he can regedit his own wine things.
+2009-03-16T03:06:00.000Z	Dr_Willis	Lighttitan	 now you MIGHT of just messed that up if you accessed some files as root. they may now be owned by root - not theuser any more

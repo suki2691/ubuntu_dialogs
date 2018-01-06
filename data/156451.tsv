@@ -1,0 +1,4 @@
+2007-11-27T04:46:00.000Z	clay__		does anyone here have pulseaudio installed? if so, i need to files from /etc/pulse/ that are not being installed when i install pulseaudio
+2007-11-27T04:46:00.000Z	genii	clay__	As I understand there is no default client.conf, you make one.
+2007-11-27T04:53:00.000Z	clay__	genii	no, there was one when i first installed pulseaudio, but now it's not being recreated when i re-install. very bizarre.
+2007-11-27T05:02:00.000Z	genii	clay__	Perhaps look at http://www.pulseaudio.org/browser/trunk/src/pulse/client.conf.in

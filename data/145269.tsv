@@ -1,0 +1,4 @@
+2007-02-22T13:04:00.000Z	halkonst		Hey, anyone know of a way to remove a module completely from your kernel without having to recompile? I'm running 2.6.20-8-generic and want to remove fglrx. I tried with modprobe -r followed by rmmod but it didn't do the trick.
+2007-02-22T13:05:00.000Z	Dr_willis	halkonst	 fglrx is not compiled inmto the kernel.. if rmmod dont remove it - its because its in use.
+2007-02-22T13:05:00.000Z	Dr_willis	halkonst	 there is a FORCE option to rmmod i recall
+2007-02-22T13:06:00.000Z	halkonst	Dr_willis	 it's not? you can't just say that and leave. damn

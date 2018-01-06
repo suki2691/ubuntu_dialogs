@@ -1,0 +1,4 @@
+2011-05-12T03:16:00.000Z	Guest73223		Im having trouble connecting to websites in 11.04. When i type in an address it takes a long time to load, and often i get "error 105:  Unable to resolve the server's DNS address."
+2011-05-12T03:16:00.000Z	bassliner	Guest73223	have you checked that your dns works, maybe using "host" or "nslookup"?
+2011-05-12T03:17:00.000Z	bassliner	Guest73223	then you have probably network problems. check that you can lookup dns addresses. check that the nameserver in /etc/resolv.conf actually accepts queries etc.
+2011-05-12T03:28:00.000Z	Guest73223	bassliner	how do i check in resolv.conf accepts queries??? i just opened the file with permissions and removed my server name from the list (i had read somewhere that might help) but it shut down the browser completly

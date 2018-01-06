@@ -1,0 +1,4 @@
+2011-08-06T12:21:00.000Z	TBotNik		Ah samy3 left was gonna give him HOWTO
+2011-08-06T12:21:00.000Z	TBotNik		Repeating: hey all quick Q: Trying to restore pkgs on machine with "dpkg --set-selections < "/home/ndavis/myfiles/Scripts/Package Installs/ins_packages_delta.txt" & dselect install" and getting error "E: Unable to lock the administration directory (/var/lib/dpkg/), is another process using it?" and this just after a fresh reboot.  Anyone know what might be causing this?
+2011-08-06T12:23:00.000Z	IdleOne	TBotNik	you using sudo?
+2011-08-06T12:23:00.000Z	IdleOne	TBotNik	also make sure you don't have Software center or Synaptic running when you run the command

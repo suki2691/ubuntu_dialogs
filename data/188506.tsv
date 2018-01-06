@@ -1,0 +1,4 @@
+2009-08-09T18:34:00.000Z	chessnutmushroom		guys, what command can i use to count files and folders in a directory after copying files
+2009-08-09T18:34:00.000Z	chessnutmushroom		using the shell
+2009-08-09T18:35:00.000Z	MrElendig	chessnutmushroom	i=1; for f in *; do (( i++); done; echo $i
+2009-08-09T18:35:00.000Z	MrElendig	chessnutmushroom	er.. i=0

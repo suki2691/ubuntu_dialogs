@@ -1,0 +1,4 @@
+2012-08-24T20:26:00.000Z	shade34321		I have several ubuntu machines mounting NFS mounts. On one it mounts with permissions nobody/nogroup but the rest mount fine. Any suggestions?
+2012-08-24T20:27:00.000Z	yeats	shade34321	check the uids of each of the users - they can differ from machine to machine
+2012-08-24T20:27:00.000Z	shade34321	yeats	we use NIS so it is the same
+2012-08-24T20:27:00.000Z	shade34321	yeats	well should be the same since it pulls it

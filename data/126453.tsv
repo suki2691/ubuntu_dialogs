@@ -1,0 +1,4 @@
+2007-10-20T02:32:00.000Z	minus		Hi there ppl. How do I format my NTFS disk to a EXT3 disk in Ubuntu?
+2007-10-20T02:32:00.000Z	lamego	minus	you need to delete and recreate the partition with the partition editor
+2007-10-20T02:32:00.000Z	minus	lamego	I tried using gparted for that... but the ntfspartition was locked :/
+2007-10-20T02:34:00.000Z	lamego	minus	it needs to be unmounted prior to delete

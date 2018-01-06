@@ -1,0 +1,4 @@
+2007-05-20T11:25:00.000Z	emes		if I have an IDE drive and SATA drive, which will grub use as hd0?
+2007-05-20T11:26:00.000Z	Frogzoo	emes	check the groot definition in /boot/grub/menu.lst & /boot/grub/device.map
+2007-05-20T11:27:00.000Z	emes	Frogzoo	I'm on the install cd
+2007-05-20T11:28:00.000Z	Frogzoo	emes	I believe it will the bios will pick up the ide as the first device, if there's an os, that will boot, otherwise, it will  move on to the sata

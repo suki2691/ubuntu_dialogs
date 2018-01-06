@@ -1,0 +1,4 @@
+2006-09-07T15:25:00.000Z	thinkle		My laptop's screen resolution got screwed up after using an external monitor today. I have a widescreen laptop that used to work and now everything's squished -- rebooting is fruitless, as is fiddling with System->Preferences->Screen Resolution. Any ideas?
+2006-09-07T15:25:00.000Z	ompaul	thinkle	sudo dpkg-reconfigure xserver-xorg << is useful
+2006-09-07T15:26:00.000Z	thinkle	ompaul	I'll give that a go. Seems weird I should reconfigure a package when no configuration was required to cause the problem -- seems like I should look into filing a bug if this is true, no?
+2006-09-07T15:28:00.000Z	ompaul	thinkle	copy the xorg.conf to one side now and then to that and checlk out what it is that is different, and I do think it should not happen but it did

@@ -1,0 +1,4 @@
+2011-04-30T03:51:00.000Z	mdmkolbe		In Unity the panel at the top (i.e. the thing holding the ubuntu button, the app menu and the indicators), keeps disappearing and leaving behind a black area of the screen whenever I start tweaking settings (e.g. in CCSM).  It remains that way until I restart.  Is there a better way than restarting the machine to get it back (e.g. restart or give a kick to some "panel" process)?
+2011-04-30T03:51:00.000Z	coz_	mdmkolbe	  ok  did you try restarting x?
+2011-04-30T03:52:00.000Z	mdmkolbe	coz_	no, but my guess is that log out and back in will also fix it.  I'd just like to avoid having to stop and restart all my apps.
+2011-04-30T03:53:00.000Z	coz_	mdmkolbe	  well if you restart x properly  with     ctrl+alt+F1,,, log in ,, then   sudo restart gdm    ,,, that would be the best way because it shuts down gnome  and apps properly

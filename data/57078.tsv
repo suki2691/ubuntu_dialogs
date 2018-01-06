@@ -1,0 +1,4 @@
+2009-05-25T23:44:00.000Z	guntbert	System404	that is so to prevent damage to your system by malicious software or pure errors on account of the user
+2009-05-25T23:46:00.000Z	System404	guntbert	i know what its for but it reminds of vista uac i hate it want it gone
+2009-05-25T23:52:00.000Z	guntbert	System404	you *could* change a line in /etc/sudoers: %admin ALL=(ALL) ALL  to %admin ALL= NOPASSWD: (ALL) ALL. but then wou would never know when you do a "system" task
+2009-05-25T23:53:00.000Z	guntbert	System404	in any case have a look at man sudoers

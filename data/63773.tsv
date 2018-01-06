@@ -1,0 +1,4 @@
+2009-04-25T08:08:00.000Z	Steffy		Something simple that I can't work out: I have a few partitions mounted under Ubuntu. But how do I name them? For instance one of my partitions appears on the desktop as "DATA" yet another appears as "76 GB Media".
+2009-04-25T08:10:00.000Z	losher	Steffy	the tune2fs -L "label" command can be used to name ext3 filesystems. Dunno if there's a gui way to do it...
+2009-04-25T08:11:00.000Z	Steffy	losher	how does tune2fs name partitions? Not used it before
+2009-04-25T08:12:00.000Z	losher	Steffy	sudo tune2fs -L "some label"

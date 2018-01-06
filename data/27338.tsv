@@ -1,0 +1,4 @@
+2010-08-17T01:31:00.000Z	riis		How should I manage services in ubuntu 10, seems there is no longer an official app for that?
+2010-08-17T01:33:00.000Z	ZykoticK9	riis	i sent you the message, it's not as good as the old services GUI but it's an alternative-of-sorts.  The "real" way is just to use command line management at the moment.
+2010-08-17T01:34:00.000Z	riis	ZykoticK9	is that the sysv-rc-conf thing? I'm fine with cmd-line...
+2010-08-17T01:35:00.000Z	ZykoticK9	riis	that's for init stuff yes - which Upstart should be backwards compatible with i believe.  but i've had to rename scripts in init (not init.d) to disable stuff?  hopefully you'll learn better method ;)

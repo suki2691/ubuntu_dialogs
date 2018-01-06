@@ -1,0 +1,4 @@
+2006-08-12T07:34:00.000Z	snadge		how do i change where the ubuntu upgrade procedure gets its data from?? the default  location is not free traffic for me.. and i've found a mirror
+2006-08-12T07:34:00.000Z	Tomcat_	snadge	/etc/apt/sources.list
+2006-08-12T07:34:00.000Z	Tomcat_	snadge	gksudo gedit /etc/apt/sources.list to edit it
+2006-08-12T07:48:00.000Z	Tomcat_	snadge	The Ubuntu Update Process will run apt-get update before. But no.

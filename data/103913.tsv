@@ -1,0 +1,4 @@
+2009-02-20T16:59:00.000Z	KramerPacer		any way to get rid of all the old kernels when i updated? they're still in the boot list when i start up. i didn't try to delete them in any way just dont wanna have a list 5 miles long
+2009-02-20T16:59:00.000Z	ActionParsnip	KramerPacer	dpkg -l | grep linux-image
+2009-02-20T16:59:00.000Z	ActionParsnip	KramerPacer	uninstall them lik any other package, run uname -a to see you current kernel and DO NOT uninstall it
+2009-02-20T17:00:00.000Z	ActionParsnip	KramerPacer	just covering all bases

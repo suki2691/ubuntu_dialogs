@@ -1,0 +1,4 @@
+2007-04-14T13:09:00.000Z	cheapStock		how do i uninstall grub?
+2007-04-14T13:09:00.000Z	ardchoille	cheapStock	Do you not want to run Ubuntu anymore?
+2007-04-14T13:39:00.000Z	ardchoille	cheapStock	If you really want to zero out the mbr (grub) you can do this, but be aware that it will render grub unusable: dd if=/dev/zero of=/dev/<drive>
+2007-04-14T13:40:00.000Z	ardchoille	cheapStock	Sorry, it's: dd if=/dev/zero of=/dev/<drive> bs=512 count=1

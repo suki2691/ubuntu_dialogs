@@ -1,0 +1,4 @@
+2007-03-16T15:17:00.000Z	mneptok	real_aussie	/ dilch: enough.
+2007-03-16T15:20:00.000Z	mneptok	real_aussie	sudo apt-get update && sudo apt-get install linux-restricted-modules && sudo apt-get install nvidia-glx
+2007-03-16T15:24:00.000Z	real_aussie	mneptok	& dilch: I was trying to use NVIDIA's installer script from http://www.nvidia.com/object/unix.html which has the two requirement sof r(a) no X & (b) not single user -- I'll try mneptok's suggestion for using the restricted module instead.
+2007-03-16T15:35:00.000Z	real_aussie	mneptok	sudo apt-get update && sudo apt-get install linux-restricted-modules && sudo apt-get install nvidia-glx failed on the "linux-restricted-modules" one (the middle of three commands), but I checked the Synaptic Package Manager, and "linux-restricted-modules-2.6.17-10-generic" and a couple of similar entries nearby were checked (on), I'll now install the nvidia glx one...

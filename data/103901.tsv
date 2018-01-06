@@ -1,0 +1,4 @@
+2011-06-19T16:10:00.000Z	RedDemon1970		does anybody know where i can find a tutorial for making an ftp connection between windows 7 and ubuntu so i can use later on a grapical program to use the conneciton to exchange files?
+2011-06-19T16:10:00.000Z	ActionParsnip	RedDemon1970	which side is the ftp server to run on?
+2011-06-19T16:11:00.000Z	ActionParsnip	RedDemon1970	ftp is not terribly secure so ftp over WAN isn't too smart. I suggest you instal openssh-server and use sftp from that. If it's only for LAN then you can use this: https://help.ubuntu.com/community/FtpServer
+2011-06-19T16:12:00.000Z	ActionParsnip	RedDemon1970	or you can install samba and setup windows style folder shares for Windows to access

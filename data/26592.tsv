@@ -1,0 +1,4 @@
+2010-11-24T23:08:00.000Z	mr_daniel		I have an ubuntu server and want to install VirtualBox non-free edition. I want to update my sources.list to automatically get updated version of VirtualBox. The apt-get lines are available here: http://www.virtualbox.org/wiki/Linux_Downloads#Debian-basedLinuxdistributions
+2010-11-24T23:09:00.000Z	mr_daniel		My question: should I edit /etc/sources.list manually with a text editor? Or is there a better way to modify the /etc/sources.list?
+2010-11-24T23:09:00.000Z	mr_daniel		s/sources.list/apt\/sources.list
+2010-11-24T23:10:00.000Z	glebihan	mr_daniel	editing sources.list manually is ok

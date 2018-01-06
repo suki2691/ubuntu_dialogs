@@ -1,0 +1,4 @@
+2011-06-08T21:38:00.000Z	Iderik		is it possible to screen a gui application via SSH? :)
+2011-06-08T21:39:00.000Z	llutz	Iderik	ssh -X user@host xterm
+2011-06-08T21:41:00.000Z	Iderik	llutz	thanks! but isnt it possible to connect via a console and then when i execute the gui application, it shows me the interface?
+2011-06-08T21:41:00.000Z	llutz	Iderik	sure, "ssh -X  host" then run the app you want

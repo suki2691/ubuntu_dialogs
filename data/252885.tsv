@@ -1,0 +1,4 @@
+2006-02-22T14:07:00.000Z	celerex		I installed Breezy with succes, then i chages my sources list to Dapper and did update / -f upgrade
+2006-02-22T14:08:00.000Z	celerex		that broke my install, neither the 2.6.15 nor the 2.6.12 kernel will boot, can't find my root partition. I ran a dist-upgrade and now only 1 package is being held back. I still can't boot my system though
+2006-02-22T14:08:00.000Z	celerex		When i boot the recovery console versions, it just says 'ERROR: can't find /dev/sda2'
+2006-02-22T14:08:00.000Z	wastrel	celerex	 your new kernels arent loading scsi modules?

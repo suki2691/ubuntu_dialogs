@@ -1,0 +1,4 @@
+2005-10-23T11:49:00.000Z	Bergcube		( Repeating myself...... )  People; I am puzzled.  I have a laptop with a Wifi card.  I booted from the Live 5.10 CD to see if everything behaved well, and it did. As soon as I intered the WEP-key the WLAN functioned. So I assumed it would work just as well when I'd installed. But it dosn't. Now, after installing 5.10 on the disk the WLAN isn't operational. As the live CD did it, it must be possible. How do I figure this out?
+2005-10-23T11:49:00.000Z	DAC1138	Bergcube	dhclient eth1
+2005-10-23T11:50:00.000Z	DAC1138	Bergcube	or replace eth1 with wlan0 or whatever your wifi card is detected as
+2005-10-23T11:50:00.000Z	DAC1138	Bergcube	usually it's "dhclient eth1" as root though, as it was for me

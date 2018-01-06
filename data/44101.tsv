@@ -1,0 +1,4 @@
+2012-10-19T00:59:00.000Z	Krenair		I get this when doing apt-get update
+2012-10-19T00:59:00.000Z	Krenair		W: GPG error: http://gb.archive.ubuntu.com precise Release: The following signatures were invalid: BADSIG 40976EAF437D05B5 Ubuntu Archive Automatic Signing Key <ftpmaster@ubuntu.com>
+2012-10-19T01:00:00.000Z	hylian	Krenair	run this command in terminal: sudo rm /var/lib/apt/lists/* -vf (you may have to run it more than once)
+2012-10-19T01:05:00.000Z	hylian	Krenair	did my workaround do the trick?

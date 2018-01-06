@@ -1,0 +1,4 @@
+2008-01-07T03:57:00.000Z	mobiusthought		so can anyone tell me how to roll back a kernel update? I need to install my nvidia driver, and I can't because I would need kernel-sources, which neither Synaptic nor apt-get can find
+2008-01-07T03:58:00.000Z	mobiusthought		foug- you can if you've set up your hard drive to use LVM, which I always recommend
+2008-01-07T03:59:00.000Z	mobiusthought		foug- if you set it up yourself, and you don't know, you probably don't have LVM
+2008-01-07T04:00:00.000Z	robdig	mobiusthought	you should be able to pick your last kernel when booting from the grub menu...and if you want to make that default you can update the default line in menu.lst

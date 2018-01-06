@@ -1,0 +1,4 @@
+2008-11-22T15:07:00.000Z	vlt_		Hello. When I boot Ubuntu it doesn't connect to the wireless LAN, I have to log in first. How can I fix this?
+2008-11-22T15:08:00.000Z	bullgard4	vlt_	usually the dmesg shows the reason for this behaviour. Analyze dmesg forst.
+2008-11-22T15:10:00.000Z	vlt_	bullgard4	There is no match for `grep -r MY_SSID /etc`, only in ~/.kde/... So I assume it can't connect actually w/o loggin in. How to make the network settings more global like the ones for ethernet in /etc/network/interfaces?
+2008-11-22T15:23:00.000Z	bullgard4	vlt_	May be it helps you in nm-applet right-click > 'Enable Wireless'. If that does not work, try there in addition 'Edit Wireless Networks'.

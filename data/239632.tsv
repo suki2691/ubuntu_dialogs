@@ -1,0 +1,4 @@
+2005-06-07T11:40:00.000Z	WldRbit		Xlib:  extension "GLX" missing on display ":0.0".
+2005-06-07T11:40:00.000Z	WldRbit		glxgears: Error: couldn't get an RGB, Double-buffered visual.
+2005-06-07T11:40:00.000Z	WldRbit		anybody got that ?
+2005-06-07T11:41:00.000Z	Shuddertrix	WldRbit	You don't have a accelerated driver in your xorg.conf, or you didn't add the GLX extension to your xorg.conf

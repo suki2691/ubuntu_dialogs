@@ -1,0 +1,4 @@
+2011-10-17T14:53:00.000Z	oberststen		Hello! Is there any way to "cage" ssh users? I have an Ubuntu server, so I want to set up git, but just "cage" the git user under his home folder, is that possible?
+2011-10-17T14:54:00.000Z	SunTsu	oberststen	you could allow them git only
+2011-10-17T14:54:00.000Z	SunTsu	oberststen	there are restricted shells that allow certain commands only
+2011-10-17T14:56:00.000Z	oberststen	SunTsu	I have the git user with the "git-shell" thing, maybe this is really silly, but I wan't to be able to set the git repository folder as git@server:/repository.git instead of git@server:/home/git/repository.git

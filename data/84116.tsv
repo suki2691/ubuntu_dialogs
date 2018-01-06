@@ -1,0 +1,4 @@
+2008-11-07T23:52:00.000Z	Voltaplein		Quick question,: running 8.10 on a desktop with no wireless, yet wpa-supplicant is running.  What is the best way to tell ubuntu that I don't want wireless networking enabled?
+2008-11-07T23:53:00.000Z	joaopinto	Voltaplein	try: dpkg -S wpa-supplicant
+2008-11-07T23:53:00.000Z	joaopinto		and remove the package containing it
+2008-11-07T23:54:00.000Z	Voltaplein	joaopinto	did that, but NetworkManager depends on wpasupplicant.  I just want to tell it to forget about wireless for my machine and not load the daemon

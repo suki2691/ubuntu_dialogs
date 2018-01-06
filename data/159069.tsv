@@ -1,0 +1,4 @@
+2012-03-02T02:42:00.000Z	draeath		Hello. I uninstalled command-not-found but I'm still getting "hints" (eg "No command 'xevt' found, did you mean: <list of possibilities>") - what package is responsible for this?
+2012-03-02T02:43:00.000Z	Seveas	draeath	sudodpkg -P command-not-found (it leaves a configfile behind)
+2012-03-02T02:44:00.000Z	draeath	Seveas	seems there's still some other 'droppings' left over
+2012-03-02T02:44:00.000Z	draeath	Seveas	ah got it. had to purge the -data package too.

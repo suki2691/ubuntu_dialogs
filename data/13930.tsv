@@ -1,0 +1,4 @@
+2011-05-27T22:30:00.000Z	panfist		so i've got a command to list dependencies of a package, "apt-cache depends --recurse packagename" , but now i'm not sure how to use this output in a command that will fetch all the dependencies for me
+2011-05-27T22:32:00.000Z	panfist		i should be able to type, "please fetch all the dependencies as indicated by apt-cache depends --recurse packagename" ... somehow i don't think that will work
+2011-05-27T22:32:00.000Z	Kevin`_	panfist	are you sure you don't want build-dep?
+2011-05-27T22:32:00.000Z	panfist	Kevin`_	i'm trying to get the dependencies for a host that is offline i.e. not bridged to the internet, when i tried to use build-dep on the internet host,

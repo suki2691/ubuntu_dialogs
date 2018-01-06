@@ -1,0 +1,4 @@
+2007-03-17T12:46:00.000Z	kaiden		going to ask a silly question, used to you could kill the xserver via ctrl - alt - backspace, nowadays it just reruns it when you attempt to do that, is there a stopx command or anything along the lines to gracefully close X?
+2007-03-17T12:47:00.000Z	jrib	kaiden	ctrl-alt-backspace kills it, then gdm starts it agiain, so stop gdm like so:  sudo invoke-rc.d gdm stop
+2007-03-17T12:47:00.000Z	jrib	kaiden	I would log out first btw
+2007-03-17T12:48:00.000Z	kaiden	jrib	ah thanks ;)

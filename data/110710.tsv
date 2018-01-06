@@ -1,0 +1,4 @@
+2008-01-07T05:33:00.000Z	MartianLobster		is there some command that I can run, to reconfigure a package, that has already been installed, but whose configuration has been messed up?   For example, supopse a symlink need tobe recreated.    I have tried, "dpkg -configure"  but it gives me an error "package foo is already installed and configured"
+2008-01-07T05:34:00.000Z	RampageAI	MartianLobster	Try dpkg-reconfigure
+2008-01-07T05:34:00.000Z	MartianLobster	RampageAI	thanks
+2008-01-07T05:39:00.000Z	MartianLobster	RampageAI	that is what I need, (I hope)  thanks

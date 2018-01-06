@@ -1,0 +1,4 @@
+2011-07-22T14:01:00.000Z	gurkee		Hey. My gnome session hangs, mouse events are not registered anymore. Using strg+alt+F1 I changed to another terminal. How to log out / kill the gnome session from there?
+2011-07-22T14:03:00.000Z	Slart	gurkee	try adding    DISPLAY=:0.0  before that command
+2011-07-22T14:03:00.000Z	Slart	gurkee	so    DISPLAY=:0.0 gnome-session-save --force ...... and so on
+2011-07-22T14:04:00.000Z	gurkee	Slart	Free-man, thanks!

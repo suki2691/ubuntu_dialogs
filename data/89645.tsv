@@ -1,0 +1,4 @@
+2010-10-07T05:04:00.000Z	W3ird_N3rd		hi, what sort of impact does encrypting the home folder have on performance?
+2010-10-07T05:06:00.000Z	gwern	W3ird_N3rd	symmetrical encryption is very fast, and disks are very slow. these days encryption is hardly any overhead
+2010-10-07T05:06:00.000Z	gwern	W3ird_N3rd	enecryption is even cheaper with network stuff. one dev of tahoe lafs, zooko, test disabling encryption on that distributed filesystem, and it literally did not affect upload/download to the filesystem
+2010-10-07T05:07:00.000Z	W3ird_N3rd	gwern	I did suspect a fast encryption would be used, but a celeron 500Mhz is obviously not that fast, with today's standards, but it sounds like I don't have to worry. :)

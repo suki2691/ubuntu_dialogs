@@ -1,0 +1,4 @@
+2010-12-17T16:09:00.000Z	vlad		* */3 * * * cron runs task every 3 hours or 8?
+2010-12-17T16:11:00.000Z	llutz_	vlad	use 00 */3 * ....       for every 3 hrs
+2010-12-17T16:27:00.000Z	llutz_	vlad	"man 5 crontab"
+2010-12-17T16:29:00.000Z	llutz_	vlad	 the "*/3" doesn't read as "value devided by 3", its "step 3"

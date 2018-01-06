@@ -1,0 +1,4 @@
+2009-01-31T21:26:00.000Z	jegHegy		hi. i've recently let update-manager install the 2.6.27-11 kernel and headers and now virtualbox can't start my VMs. sudo /etc/init.d/vboxdrv setup just prints usage information like the parameter does not exist, /var/lib/dkms/ does contain vboxdrv, and invoke-rc.d dkms_autoinstaller start lists vboxdrv. HELP! :(
+2009-01-31T21:28:00.000Z	atlef	jegHegy	well, you need the virtualbox kernel files for your installed kernel, and that is always released later on.
+2009-01-31T21:28:00.000Z	jegHegy	atlef	i thought dkms recompiled it on-the-fly for me, at least that was the case with earlier kernel updates in intrepid.
+2009-01-31T21:28:00.000Z	atlef	jegHegy	or get the closed source version of virtualbox

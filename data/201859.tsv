@@ -1,0 +1,4 @@
+2011-06-10T06:26:00.000Z	metbsd		how do i list all deb i have installed/on system
+2011-06-10T06:27:00.000Z	metbsd		?
+2011-06-10T06:29:00.000Z	metbsd		i just want to see all packages i have installed, by yum or by dpkg
+2011-06-10T06:31:00.000Z	IdleOne	metbsd	aptitude  --display-format '%p' search '?installed!?automatic'

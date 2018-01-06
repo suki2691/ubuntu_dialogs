@@ -1,0 +1,4 @@
+2010-08-25T09:52:00.000Z	razz1		Is there any tool that will tell what all connections are made to my system. Even when I dont do anything something is chewing through my bandwidth. want to find out which one is the culprit.
+2010-08-25T09:52:00.000Z	jellow	razz1	netstat ?
+2010-08-25T09:54:00.000Z	razz1	jellow	used netstat, what does this address mean: syd01s01-in-f104.1e:www
+2010-08-25T09:56:00.000Z	jellow	razz1	hm do netstat -an to see all stuck connected and outgoing

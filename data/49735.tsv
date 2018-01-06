@@ -1,0 +1,4 @@
+2009-08-24T20:45:00.000Z	miguelonnnn		hi, please i got a question, how can i make a usb bootable ubuntu partition? i don't wana use programs.
+2009-08-24T20:46:00.000Z	miguelonnnn		my idea is to mount the ubuntu iso on my system, dd it to the usb, and then make a mbr on the 0 sector, but to make that, i need that dd do not dump part of the ubuntu image into sector 0, because mbr would overwrite that data
+2009-08-24T20:47:00.000Z	miguelonnnn		yeah its a flash, and i don't want to use any program, please, just one to make the mbr
+2009-08-24T20:47:00.000Z	Insaan	miguelonnnn	or use unetbootin

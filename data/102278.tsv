@@ -1,0 +1,4 @@
+2009-03-05T05:41:00.000Z	ssarangi		hi all, i have a server running feisty and i am trying to install python-pysqlite2. However its fails to fetch some repositories. could anyone give me some idea
+2009-03-05T05:43:00.000Z	rww	ssarangi	Feisty isn't supported any more, and its repositories have been moved to http://old-releases.ubuntu.com/. You'll need to edit your /etc/apt/sources.list file to reflect that.
+2009-03-05T05:43:00.000Z	rww	ssarangi	(and then run sudo apt-get update after you do that)
+2009-03-05T05:47:00.000Z	ssarangi	rww	thanks a lot for the info

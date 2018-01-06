@@ -1,0 +1,4 @@
+2011-07-12T16:49:00.000Z	SkiOne		something is this part was not happy with: command="/home/someuser/rsync/checkrsync",from="mirror.example.com",no-port-forwarding,no-X11-forwarding,no-pty but just when running rsync
+2011-07-12T16:50:00.000Z	SkiOne		Picl obviously the no-pty was why i could not ssh, but it should of worked when I rsynced
+2011-07-12T16:51:00.000Z	SkiOne		ok time for a stupid question, if I add a use to the root group should he be able to read everything on that server?
+2011-07-12T16:51:00.000Z	NET||abuse	SkiOne	not entirely, if all files are 700 in a dir, no, as group does not have privilege then.

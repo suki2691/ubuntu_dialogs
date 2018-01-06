@@ -1,0 +1,4 @@
+2007-05-06T10:16:00.000Z	caner		how do we uninstall any package. i have installed cedega and now i want to remove it. i used "aptitude remove" command but it didnt work??
+2007-05-06T10:17:00.000Z	caner		i installed it from a .deb package
+2007-05-06T10:17:00.000Z	SlimeyPete	caner	sudo dpkg --remove <package name>
+2007-05-06T10:20:00.000Z	SlimeyPete	caner	sudo dpkg --remove cedega-small_6.0_all           ?

@@ -1,0 +1,4 @@
+2008-05-20T19:54:00.000Z	Afromonkey0		is there anyone here answering questions or is everyone asking?
+2008-05-20T19:55:00.000Z	Afromonkey0		thanks guys
+2008-05-20T19:55:00.000Z	Afromonkey0		i installed some packages and now ubuntu hangs on the line "/build/buildd/linux-2.6.24/drivers/hid/usbhid/hid-core.c: v2.6:USB HID core driver", can i remove packages from intramfs?
+2008-05-20T19:57:00.000Z	erUSUL	Afromonkey0	the error msgs you post do not explain why you land on initramfs ... hid is for mouse and keyboards and landing in initramfs usually means there is probelm with your sata/ide chip driver

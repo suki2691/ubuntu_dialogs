@@ -1,0 +1,4 @@
+2007-12-28T10:35:00.000Z	RavingGriff		earlier, i was on with driver issues related to my new geforce 8500.  Dr_willis pointed me to the link https://help.ubuntu.com/community/BinaryDriverHowto , but it's not helping, as the fixes it listed require x to be up and running, but i am unable to get x to start because of the driver issue
+2007-12-28T10:35:00.000Z	Gnea	RavingGriff	just set the current driver to nv
+2007-12-28T10:36:00.000Z	RavingGriff	Gnea	how would i go about doing that?
+2007-12-28T10:36:00.000Z	Gnea	RavingGriff	dpkg-reconfigure xserver-xorg

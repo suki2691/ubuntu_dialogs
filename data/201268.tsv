@@ -1,0 +1,4 @@
+2006-01-11T17:51:00.000Z	Hawk|-		Problem: rsync -Cavuz /home/user/data user@10.10.10.10:/data/0/backup --password-file="/home/user/pwdfile" does not work! I got a password request from rsync, I tried the path of pwd file in " " and ' ' nothing changed
+2006-01-11T17:51:00.000Z	Seveas	Hawk|-	try rsync --passwordfile="something" -Cavus source dest
+2006-01-11T17:52:00.000Z	Seveas		!tell kameron about debian
+2006-01-11T17:53:00.000Z	Hawk|-	Seveas	no it doesn't work

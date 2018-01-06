@@ -1,0 +1,4 @@
+2008-08-25T17:21:00.000Z	_NiC		Is /env/environment supposed to be read by a root-login (sudo su -)? Because mine isn't :-\
+2008-08-25T17:21:00.000Z	_NiC		Same goes for /etc/manpath.config
+2008-08-25T17:22:00.000Z	Pici	_NiC	You shouldnt be using sudo su - , use sudo -i if you need an interactive root session.
+2008-08-25T17:26:00.000Z	Pici	_NiC	try sudo -s then

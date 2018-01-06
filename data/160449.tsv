@@ -1,0 +1,4 @@
+2007-06-02T09:26:00.000Z	foxx		hey guys i woke up this morning my linux box's screen is saying that my res is way to large, how can i change the res in the recovery mode? i dont know the command
+2007-06-02T09:27:00.000Z	Jordan_U	foxx	sudo dpkg-reconfigure xserver-xorg -phigh
+2007-06-02T09:27:00.000Z	Jordan_U	foxx	np
+2007-06-02T09:41:00.000Z	Jordan_U	foxx	Did you select only the resolutions you wanted when asked by dpkg-reconfigure ?

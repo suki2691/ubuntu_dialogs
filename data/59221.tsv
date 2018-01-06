@@ -1,0 +1,4 @@
+2009-07-03T03:52:00.000Z	beliveyourdream		hello ... i installed ubuntu 9 on a dell pavillion dv5 and i have some problems with sound .it works after i boot up but after a while it stops working. i restarted alsa-utils but no luck .. if i do a reboot it works again . what could be the problem ?
+2009-07-03T03:54:00.000Z	VCoolio	beliveyourdream	you can check if pulseaudio took over (I had that when I switched to alsa); run "ps aux | grep pulse" to see if that is the case and if so, kill it and disable pulseaudio for good. Other than that I can't help
+2009-07-03T03:55:00.000Z	VCoolio	beliveyourdream	I don't remember, I followed some howto on the net
+2009-07-03T03:59:00.000Z	VCoolio	beliveyourdream	I did some steps from here, but not all of them http://idyllictux.wordpress.com/2009/04/21/ubuntu-904-jaunty-keeping-the-beast-pulseaudio-at-bay/ ; I remember doing step 1 and 2, not the rest

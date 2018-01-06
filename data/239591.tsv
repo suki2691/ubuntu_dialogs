@@ -1,0 +1,4 @@
+2005-11-21T08:20:00.000Z	MiD		here's my problem: i created a new windows partition BEFORE all linu ones, so that /dev/hda7 (my root dir) is now /dev/hda8 and so on... when i boot my pc, lilo can't recognize the partitions and ubuntu doesnt start at all.. what can i do?
+2005-11-21T08:21:00.000Z	MiD		here's my problem: i created a new windows partition BEFORE all linu ones, so that /dev/hda7 (my root dir) is now /dev/hda8 and so on... when i boot my pc, lilo can't recognize the partitions and ubuntu doesnt start at all.. what can i do?
+2005-11-21T08:23:00.000Z	NigelS	MiD	yes, live cd, e.g. knoppix to get in, then mount your / HD and chroot to that, then re-run lilo with the correct settings.
+2005-11-21T08:26:00.000Z	NigelS	MiD	the live CD part....

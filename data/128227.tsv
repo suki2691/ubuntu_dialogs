@@ -1,0 +1,4 @@
+2007-07-24T07:28:00.000Z	vikku		What is the command toi install the Dhcp3-client in ubuntu server ed ?
+2007-07-24T07:29:00.000Z	vikku		What is the command to install/run the process for Dhcp3-client in ubuntu server ed ?
+2007-07-24T07:31:00.000Z	genii	vikku	 sudo apt-get install dhcp3-client    then after it installs the file is in /etc/init.d with the same name. to start it manually, do   sudo /etc/init.d/dhcp3-client start
+2007-07-24T07:31:00.000Z	vikku	genii	thanks will try now

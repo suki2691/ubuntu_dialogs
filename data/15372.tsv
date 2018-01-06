@@ -1,0 +1,4 @@
+2011-11-30T22:44:00.000Z	escott	leo145	you should not have an Xorg.conf for intel
+2011-11-30T22:45:00.000Z	leo145	escott	my Xorg.conf configured to use ati (incorectly).so i see black screen while booting.how can i fix that?
+2011-11-30T22:45:00.000Z	escott		!nomodeset | leo145
+2011-11-30T22:45:00.000Z	escott	leo145	once you can boot to text successfully with nomodeset you can remove the ati drivers, and remove any Xorg.conf that exists

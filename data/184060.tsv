@@ -1,0 +1,4 @@
+2006-05-30T15:51:00.000Z	spope		I have changed my screen using xvidtune. Now, where do I add the changes, so I don't have to do it again?
+2006-05-30T15:52:00.000Z	Soir	spope	~/.xinitrc perchance
+2006-05-30T15:56:00.000Z	spope	Soir	hmm, doesn't look like something I recognize... On mandrake I just added the output to XF86Config, but that's nowhere to be found...
+2006-05-30T16:17:00.000Z	Soir	spope	Take your output from xvidtune, add 'Modeline' at the front of it, and put it in the Monitor section of xorg.conf. Assuming you're moving your screen position, which reconfig won't do (I think)

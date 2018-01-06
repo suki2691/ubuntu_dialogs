@@ -1,0 +1,4 @@
+2008-10-08T22:11:00.000Z	Zappza		I get this error message when booting Xubuntu from my memory stick "Error 25 - Disk Read error". The bootloader has configured it self to boot from hd(2,0).
+2008-10-08T22:11:00.000Z	Zappza		Anybody have a clue how to solve it?
+2008-10-08T22:11:00.000Z	outbackwifi	Zappza	at the grub screen press e and edit the kernel line to reflect the correct root disk
+2008-10-08T22:30:00.000Z	outbackwifi	Zappza	let us know if that fixed it

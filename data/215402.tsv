@@ -1,0 +1,4 @@
+2008-10-04T04:49:00.000Z	zeno__		if the graphical dist-upgrade hangs what to do?
+2008-10-04T04:50:00.000Z	zeno__		killall?
+2008-10-04T04:50:00.000Z	soundray	zeno__	"sudo killall update-manager"
+2008-10-04T04:51:00.000Z	soundray	zeno__	and fix with 'sudo apt-get -f install' or "sudo dpkg --configure -a' or a combination

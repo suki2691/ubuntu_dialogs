@@ -1,0 +1,4 @@
+2006-10-05T11:10:00.000Z	EddyDean		Hello everyone, I have installed the NVIDIA drivers for my graphic card today, and everything seemed to work well, but now I rebooted and it says I'm unable to load the graphic environment (X server). I am only able to use the CLI now. Trying to run GDM (GNOME) fails. Is there anything I can do except for reinstalling Ubuntu (Again...)
+2006-10-05T11:11:00.000Z	EddyDean		Anyone?
+2006-10-05T11:11:00.000Z	EddyDean		Meh... I'll just reinstall... Not much data on there anyway...
+2006-10-05T11:12:00.000Z	AstralJava	EddyDean	In console, you can go thru X configuration by issuing 'sudo dpkg-reconfigure xserver-xorg', then look for incorrect setups, fix them and after you're finished try again.

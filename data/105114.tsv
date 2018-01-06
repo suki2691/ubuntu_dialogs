@@ -1,0 +1,4 @@
+2012-06-15T03:26:00.000Z	NelsonM		how do I configure my system so fsck never runs in interactive mode at boot? it's a headless server 1500 miles away from me.
+2012-06-15T03:27:00.000Z	ActionParsnip	NelsonM	you can use:  sudo tune2fs -i 0 -c 0 /dev/sda1    (assuming your system partition is sda1) and it won't automatically fsck
+2012-06-15T03:28:00.000Z	NelsonM	ActionParsnip	thanks, that'll help. but what if the disk didn't unmount cleanly? fsck must run, but it needs to run automatically for me.
+2012-06-15T03:28:00.000Z	ActionParsnip	NelsonM	good point

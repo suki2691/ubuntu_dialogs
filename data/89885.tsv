@@ -1,0 +1,4 @@
+2008-05-27T22:20:00.000Z	CapaH		I am utterly confused concerning port forwarding using SSH -L and SSH -R. Lets suppose I have a machine 192.168.1.1 listening on port 80 -- I have another machine 192.168.1.2 ---- how can I cause it so that if I type: http://192.168.1.2          - it is somehow redirected to 192.168.1.1:80 ?
+2008-05-27T22:21:00.000Z	anirudh0	CapaH	ssh -L P1:M1:P2 U1@M2
+2008-05-27T22:21:00.000Z	anirudh0	CapaH	makes P1 on your machine a listening port
+2008-05-27T22:22:00.000Z	anirudh0	CapaH	which directs traffic to port P2 of M1, via your ssh connection as U1 on M2

@@ -1,0 +1,4 @@
+2007-03-07T11:56:00.000Z	Dufresne`		i just created a new ext3 logical partition. when i try to mount it i get " can't find /dev/sda5 in etc/fstab or /etc/mtab " Can anyone tell me what's going on?
+2007-03-07T11:56:00.000Z	h1st0	Dufresne`	try mounting with sudo
+2007-03-07T11:57:00.000Z	h1st0	Dufresne`	sudo mount /dev/sda5 /mountpoint
+2007-03-07T11:57:00.000Z	Dufresne`	h1st0	i did mount with sudo

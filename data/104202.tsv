@@ -1,0 +1,4 @@
+2012-02-21T13:16:00.000Z	skumlesen		is there a command that lists all installed packets / deb's on a computer, via dpkg or aptitude?
+2012-02-21T13:17:00.000Z	skumlesen		thanks :)
+2012-02-21T13:17:00.000Z	ActionParsnip	skumlesen	dpkg -l > ~/Desktop/packages.txt; gedit ~/Desktop/packages.txt
+2012-02-21T13:19:00.000Z	ActionParsnip	skumlesen	may want to grep -v '^rc'     as the lines starting with rc are not installed, but ave residual configs from removed packages

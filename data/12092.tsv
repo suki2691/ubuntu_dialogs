@@ -1,0 +1,4 @@
+2011-12-31T22:41:00.000Z	KoltMaesta		Hi! Approximately a week after I upgraded to 11.10 my wifi sometimes keeps connecting and nothing happens. The network is still ok, I just wont connect, and it takes forever. Most of the time it works great. What can cause this annoying issue?
+2011-12-31T22:42:00.000Z	Seveas	KoltMaesta	look at /var/log/syslog, all changes to wifi state are logged there
+2011-12-31T22:44:00.000Z	KoltMaesta	Seveas	There are a lot of "... [    1.748118] [Firmware Bug]: ACPI: BIOS _OSI(Linux) query ignored" lines
+2011-12-31T22:45:00.000Z	Seveas	KoltMaesta	that has nothing to do with wifi fortunately. You're looking for lines that contain NetworkManager

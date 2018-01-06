@@ -1,0 +1,4 @@
+2012-04-27T19:39:00.000Z	jason^		when i'm upgrading from 11.10 to 12.04 apt-get/aptitude keeps downloading linux-firmware over and over again... any reason why it would do that?
+2012-04-27T19:40:00.000Z	nitzs	jason^	what is the complete name of the package?
+2012-04-27T19:51:00.000Z	jason^	nitzs	it keeps downloading linux-firmware
+2012-04-27T20:04:00.000Z	nitzs	jason^	maybe you should remove the existing linux-firware package and reinstall it if the upgrade happens successfully.

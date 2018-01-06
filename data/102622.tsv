@@ -1,0 +1,4 @@
+2009-02-25T16:43:00.000Z	Antithesis7		hey all noob alert
+2009-02-25T16:43:00.000Z	Antithesis7		how do I list all the systems users at root prompt?
+2009-02-25T16:45:00.000Z	rww	Antithesis7	"cat /etc/passwd" will show all of your system's users, including those used by system processes, and various information about them. "man 5 passwd" for info on the format of the output.
+2009-02-25T16:46:00.000Z	rww	Antithesis7	You can change a user's password with sudo passwd usernamehere

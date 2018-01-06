@@ -1,0 +1,4 @@
+2011-01-22T11:24:00.000Z	dextro_		im using `mount -t tmpfs tmpfs /home/mc/server15/world` to make my map folder for a game server a ramdisk
+2011-01-22T11:24:00.000Z	dextro_		and `/usr/bin/rsync -a /home/mc/server15/world/ /home/mc/server15/world2` in crontab to keep it synced with hdd
+2011-01-22T11:24:00.000Z	dextro_		when i `ls /home/mc/server15` the world2 folder is green which means ramdisk is the rsync somehow making world2 folder a ramdisk? im not mounting it and can't afford to lose it upon reboot
+2011-01-22T11:24:00.000Z	FloodBot2	dextro_	Please don't flood; use http://paste.ubuntu.com to paste; don't use Enter as punctuation.

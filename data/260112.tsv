@@ -1,0 +1,4 @@
+2006-05-05T07:10:00.000Z	criminy		debconf: DbDriver "config": /var/cache/debconf/config.dat is locked by another proces
+2006-05-05T07:10:00.000Z	criminy		how can I unlock that file? My PC died during the last dist-upgrade?
+2006-05-05T07:12:00.000Z	linux_galore	criminy	you have a running process that blocking access
+2006-05-05T07:13:00.000Z	linux_galore	criminy	 use top to see whats running then kill it will killall -9 appname  most common problem is that dpkg-reconfigur is running so type sudo killall -9 dpkg-reconfigur

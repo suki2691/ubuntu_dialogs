@@ -1,0 +1,4 @@
+2005-08-13T05:22:00.000Z	benkong2		could someone tell me how to see what port samba is running on I did a ps aux |grep -E'(smbd|nmbd)' but did not get a port number
+2005-08-13T05:23:00.000Z	kemik	benkong2	 google will tell you, or perhaps netstat
+2005-08-29T06:18:00.000Z	kemik	benkong2	 ifconfig probably, or ifup
+2005-08-29T06:18:00.000Z	benkong2	kemik	no i mean when booting I don't want to try and bring the interfaces up

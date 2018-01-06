@@ -1,0 +1,4 @@
+2006-11-08T06:46:00.000Z	kmully	thor	i can't ping anything. iwconfig shows eth0 has "no wireless extensions"
+2006-11-08T06:47:00.000Z	thor	kmully	right...sounds like you lost the wifi drivers in the aborted upgrade
+2006-11-08T06:47:00.000Z	kmully		im plugged directly in though?
+2006-11-08T06:47:00.000Z	thor	kmully	then iwconfig has no meaning...try ifconfig and see if you have an ip address

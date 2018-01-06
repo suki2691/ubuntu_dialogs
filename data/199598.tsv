@@ -1,0 +1,4 @@
+2006-01-28T14:44:00.000Z	eZe		how can I configure the grub boot manager that windows is set as default? (and it should give me 10 seconds to choose)
+2006-01-28T14:44:00.000Z	Scram	eZe	you need to edit /boot/grub/menu.lst
+2006-01-28T14:45:00.000Z	Scram	eZe	should be more-or-less selfdocumenting...
+2006-01-28T14:45:00.000Z	Scram	eZe	yes... "default" and "timeout" are your whoes

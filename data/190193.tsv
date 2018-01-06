@@ -1,0 +1,4 @@
+2006-08-10T09:44:00.000Z	Bob535		Question, incase anyone knows
+2006-08-10T09:44:00.000Z	Bob535		If I fried the MBR on my windows drive, can I still mount it and read (ntfs) properly in linux?
+2006-08-10T09:44:00.000Z	Bob535		or will it cause an error because of the lack of MBR
+2006-08-10T09:45:00.000Z	Warbo	Bob535	MBR probably. If the partition table is screwed then you may need to use gpart

@@ -1,0 +1,4 @@
+2010-06-01T04:12:00.000Z	octavio		sudo Xorg -configure give's me this error http://pastebin.com/Uu4kqfhC . Is there a method to get the xorg.conf from ubuntu 9.04 or 9.10 via livecd?
+2010-06-01T04:14:00.000Z	Jordan_U	octavio	Using an Xorg.conf from Xorg -configure is basically the same as using none at all, since Xorg now does auto detection at runtime. 9.10 and up (possibly 9.04 also) use no xorg.conf by default, and there's only been a very minimal one for longer than that.
+2010-06-01T04:18:00.000Z	octavio	Jordan_U	so if i dont find the xorg.conf in 9.10 or 9.04, it's possible that I find it?
+2010-06-01T04:18:00.000Z	Jordan_U	octavio	I don't understand your question.

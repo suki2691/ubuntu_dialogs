@@ -1,0 +1,4 @@
+2005-10-18T08:59:00.000Z	Abysmal		hey all.. i have a question.. I have kubuntu running behind a firewall, and I can't hit apache from outside.. but if i switch the the ip to point to my windows box i can hit the webserver on it.. is the something i have to config on kubuntu to get it to accept the traffic??
+2005-10-18T08:59:00.000Z	Abysmal		how do i change that??
+2005-10-18T09:00:00.000Z	rob_p	Abysmal	 ...also, make sure you don't have port 80 blocked on your kubuntu box (such as with a local firewall).
+2005-10-18T09:07:00.000Z	rob_p	Abysmal	 By default there should be no packet filtering in place.  Did you reload the Webserver after modifying the config?

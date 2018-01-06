@@ -1,0 +1,4 @@
+2010-01-02T11:15:00.000Z	Tiders		Is it wrong to switch to root like one would in CentOS or Fedora instead of using sudo
+2010-01-02T11:17:00.000Z	m0se5	Tiders	just use sudo -s instead of enabling the root account.
+2010-01-02T11:17:00.000Z	Tiders	m0se5	Well I was using sudo -i usually
+2010-01-02T11:25:00.000Z	m0se5	Tiders	ya, your right. that's even more the root user because it'll load up the environment variables of the root user if it can. sudo -s just executes the default shell as root. (/bin/bash maybe?) It's used for using sudo over and over without actually switching to the root user.

@@ -1,0 +1,4 @@
+2005-10-31T11:46:00.000Z	vureal		hi I'm trying to do apt-get update but I get this error msg : E: Archive directory /var/cache/apt/archives/partial is missing.
+2005-10-31T11:47:00.000Z	cafuego_	vureal	'sudo mkdir /var/cache/apt/archives/partial'
+2005-10-31T11:48:00.000Z	cafuego_	vureal	For cleaning the package cache next time, use 'sudo apt-get clean' instead of rm :-)
+2005-10-31T12:05:00.000Z	cafuego_	vureal	sudo mkdir /var/lib/apt/lists/partial

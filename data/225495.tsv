@@ -1,0 +1,4 @@
+2008-02-13T23:13:00.000Z	VeganZombie		Help! I just finished the updates I think for the generic kernel and now I'm in low graphics mode and I can't see anything on my monitor. Luckily I am in via VNC but everything is soooo small. How can I undo this update? I hope I can read your responses :(
+2008-02-13T23:14:00.000Z	VeganZombie		the update has screwed up my video somehow, what does it matter why? can someone tell me how to undo the updates?
+2008-02-13T23:15:00.000Z	kostkon	VeganZombie	how did you install your graphics card drivers?
+2008-02-13T23:18:00.000Z	kostkon	VeganZombie	ok, boot into safe mode, and do the "sudo dpkg-reconfigure xserver-xorg"

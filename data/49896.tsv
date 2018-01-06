@@ -1,0 +1,4 @@
+2009-08-22T18:11:00.000Z	joaopinto	tjc	you can also try the madwifi driver, ath_pci
+2009-08-22T18:11:00.000Z	joaopinto	tjc	I have an atheros, I am using ath5k from the backports package, I can randomly connect :P
+2009-08-22T18:15:00.000Z	joaopinto	tjc	did you search on launchpad for bugreports ? Sometimes you can find workarounds there
+2009-08-22T18:16:00.000Z	tjc	joaopinto	yes, the only hint i found was to change the timeout variable in /etc/wpa_supplicant/functions.sh ( i've changed it to rather high - 60s ), it's apparently worked for somebody.

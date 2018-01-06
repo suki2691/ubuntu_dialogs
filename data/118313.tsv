@@ -1,0 +1,4 @@
+2007-12-30T03:29:00.000Z	arooni		hey team ... i'm trying to log in via ssh to my desktop without having to type the password.  i've already run ssh-keygen on my ubuntu laptop, then appended the ~/.ssh/id_rsa.pub key to my file of ~/.ssh/authorized_keys on my desktop ubuntu.... but when i ssh in .... i still have to type password... wtf?  ideas?
+2007-12-30T03:30:00.000Z	Hilikus	arooni	did you change the required params in sshd config file?
+2007-12-30T03:30:00.000Z	Hilikus	arooni	so that it accepts that type of auth
+2007-12-30T03:30:00.000Z	arooni	Hilikus	kitche i dont know...... where do i go to fix

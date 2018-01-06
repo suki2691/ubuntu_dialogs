@@ -1,0 +1,4 @@
+2008-07-27T00:35:00.000Z	corky		i want to run java applets in firefox, what package do i need to install for it?
+2008-07-27T00:36:00.000Z	Shujah	corky	open java should be installed by default else you can try sun java
+2008-07-27T00:44:00.000Z	Shujah	corky	sudo update-alternatives --config java < -- how many options do you see
+2008-07-27T00:46:00.000Z	Shujah	corky	you already have sun java which is supposedly more stable then open java, you can try this command < sudo update-alternatives --config xulrunner-1.9-javaplugin.so

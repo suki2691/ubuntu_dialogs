@@ -1,0 +1,4 @@
+2005-10-05T10:18:00.000Z	christian-		what's the command to cp an entire folder somewhere else? sudo cp foldername/*.* /usr/destination ?
+2005-10-05T10:18:00.000Z	ccooke	christian-	cp -a foldername /usr/destination
+2005-10-05T10:19:00.000Z	christian-	ccooke	thank you !
+2005-10-05T10:19:00.000Z	ccooke	christian-	-av if you want it to tell you what it does

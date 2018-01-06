@@ -1,0 +1,4 @@
+2011-10-18T02:45:00.000Z	phiscibe	CharminTheMoose	rember bullletproff X  or what ever it is called, it reconfgures x at start now, doesnt even use a xorg.conf
+2011-10-18T02:52:00.000Z	phiscibe	CharminTheMoose	it is not a show stopper the vmware error, they changed the way ...I THINK xorg deals with a few things liek muti displays and reading eddid data from monitors, plus the video card manufacurers have strangness in the drives,  i dont know what to tell every one , its a STORM of failures
+2011-10-18T02:54:00.000Z	CharminTheMoose	phiscibe	just to clarify, I'm running 11.04, not 11.10. Like I said, Xorg -configure aborts 'cos it can't find the vmware modules, is there some trickery to make it skip those modules or should I just install them (if not already)?
+2011-10-18T02:55:00.000Z	phiscibe	CharminTheMoose	that is not an error but a warning   type locate xorg.conf.new   if it finds one that is what Xorg-configure created  u have to move it in to the /etc/X11 foder

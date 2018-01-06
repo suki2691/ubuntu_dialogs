@@ -1,0 +1,4 @@
+2012-10-17T18:09:00.000Z	bnwkeys		another nooby question: "sudo /etc/init.d/gdm stop" returns "/etc/init.d/gdm: command not found"
+2012-10-17T18:09:00.000Z	bnwkeys		is that a change in syntax from one ubuntu version to another?
+2012-10-17T18:11:00.000Z	ThinkT510	bnwkeys	if you are running 12.04 the default is lightdm (not gdm)
+2012-10-17T18:13:00.000Z	ThinkT510	bnwkeys	sudo service lightdm stop will stop lightdm and the whole X11 session, so yes you will lose your desktop

@@ -1,0 +1,4 @@
+2008-08-26T10:16:00.000Z	l3d		I dont know what the heck is going on with virtualbox but it wont let me install the modules for the kernel
+2008-08-26T10:16:00.000Z	bdunlap	l3d	do you have your kernel headers installed?
+2008-08-26T10:17:00.000Z	bdunlap	l3d	if you don't it cant compile the modules
+2008-08-26T10:17:00.000Z	bdunlap	l3d	go to synaptic and search for your kernel and you should see your kernel as installed with a green box, then look for the corresponding 'headers' and isntall them

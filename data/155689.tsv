@@ -1,0 +1,4 @@
+2012-04-23T07:23:00.000Z	ExpFist		Is there anyway to determine which source a package is from?
+2012-04-23T07:23:00.000Z	ExpFist		I have one test server that has a specific package available, where my prod box doesn't have it available
+2012-04-23T07:23:00.000Z	ExpFist		Trying to figure out which source I need to add to get the package I need
+2012-04-23T07:24:00.000Z	wylde	ExpFist	apt-cache ploicy <packagename>

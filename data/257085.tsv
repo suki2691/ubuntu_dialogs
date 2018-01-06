@@ -1,0 +1,4 @@
+2007-08-08T06:02:00.000Z	dgeorge		E: Could not get lock /var/lib/dpkg/lock - open (11 Resource temporarily unavailable)
+2007-08-08T06:02:00.000Z	dgeorge		E: Unable to lock the administration directory (/var/lib/dpkg/), is another process using it?
+2007-08-08T06:02:00.000Z	dgeorge		those are the errors
+2007-08-08T06:03:00.000Z	Falstius	dgeorge	you can't run apt-get, aptitude and synaptic or update-manager at the same time.

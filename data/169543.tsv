@@ -1,0 +1,4 @@
+2006-08-27T05:52:00.000Z	fogdog		hi
+2006-08-27T05:52:00.000Z	fogdog		what is the process/config file that controls overwriting of my /etc/resolv.conf? I have edited /etc/dhcp3/dhclient.conf nad tried 'network-admin' but it still reverts to the dhcp acquired info.
+2006-08-27T05:53:00.000Z	lupine_85	fogdog	add 'dns-nameserver x' to /etc/network/interfaces
+2006-08-27T05:55:00.000Z	fogdog	lupine_85	thanks!

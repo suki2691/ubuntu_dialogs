@@ -1,0 +1,4 @@
+2005-08-22T10:32:00.000Z	jupiterste		If I have a list of names (say in a text file) and I want to create a folder for each name, is there an easy way to do it in linux?
+2005-08-22T10:32:00.000Z	jupiterste		rather than mkdir manually, having to retype the names?
+2005-08-22T10:33:00.000Z	jupiterste		xargs?
+2005-08-22T10:33:00.000Z	michele	jupiterste	you might use a combination of cat, xargs and mkdir and maybe some cut if there's something else but the names in the file

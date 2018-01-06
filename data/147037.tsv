@@ -1,0 +1,4 @@
+2007-02-17T07:13:00.000Z	dimeotane		Anyone have recommendations for how to backup my system before I resize my partition?  There's so many methods out there:  tar, dar, partimage, dd, and others... I want something easy to restore and reliable... any suggestions?
+2007-02-17T07:15:00.000Z	redguy	dimeotane	this is just too easy: cp -a <path> ?
+2007-02-17T07:16:00.000Z	dimeotane	redguy	cp is better than : tar, dar, rsync ... any reason why?
+2007-02-17T07:17:00.000Z	redguy	dimeotane	well, it's on every reasonable rescue cd......... and even in most initrds :-)

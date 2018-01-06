@@ -1,0 +1,4 @@
+2012-08-12T18:04:00.000Z	Thunderchild		hi there. I was wondering whether you can help me understand the following: when installing a new system, almost no package is marked as automatically installed in aptitude. So when I start removing single applications, won't that leave me with a lot of cruft?
+2012-08-12T18:05:00.000Z	bobweaver	Thunderchild	 look at the --purge option of aptitude
+2012-08-12T18:05:00.000Z	Thunderchild	bobweaver	but how will aptitude know what to purge if all packages are marked as manually installed?
+2012-08-12T18:07:00.000Z	bobweaver	Thunderchild	 you need to look at the debian/control file this is how all package managers read dependecys and what not

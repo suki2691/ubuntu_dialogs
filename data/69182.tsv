@@ -1,0 +1,4 @@
+2009-04-10T03:24:00.000Z	Im_Toast		Does anyone have any ideas... when I use 'locate *~* | grep -v cache
+2009-04-10T03:25:00.000Z	Im_Toast		Does anyone have any ideas... when I use 'locate *~* | grep -v cache' it says there is a file in Documents called Car Payments.txt~ but when I change directory to there, and use ls -a there isn't one
+2009-04-10T03:25:00.000Z	Im_Toast		and if I just try rm on it, it says there isn't anything there.
+2009-04-10T03:25:00.000Z	oCean_	Im_Toast	your slocate.db might be out of date. Run "sudo updatedb" before running locate

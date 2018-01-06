@@ -1,0 +1,4 @@
+2008-03-31T03:55:00.000Z	Shai		Hey all, I'm trying to blacklist a module but, it continues to load. I've added entries to /etc/modprobe.d/blacklist and I've created a file /etc/modprobe.d/blacklist-smsc_ircc2 but it continues to load. Any suggestions?
+2008-03-31T03:57:00.000Z	Shai		So, anyone know hwo to get a module to stop loading at boot?
+2008-03-31T03:58:00.000Z	Boohbah	Shai	add it to /etc/modprobe.d/blacklist
+2008-03-31T03:59:00.000Z	Shai	Boohbah	I did, it still loads. Also blacklisted anything that was dependent on it.

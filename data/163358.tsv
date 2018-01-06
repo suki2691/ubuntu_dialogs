@@ -1,0 +1,4 @@
+2008-03-17T12:16:00.000Z	googlah|sleepy		hello fellahs, just an easy question, i want to manually select VGA driver at setup (this case VESA), but don't seem i can?
+2008-03-17T12:17:00.000Z	bod_	googlah|sleepy	the text installer does that,.,. not sure how in gui installer
+2008-03-17T12:18:00.000Z	bod_	googlah|sleepy	not sure,. but its definately a default thing in the text installer,.,. you might be able to choose VESA after the gui install by doing     dpkg-reconfigure xserver-xorg
+2008-03-17T12:21:00.000Z	bod_	googlah|sleepy	after the gui install, reboot, et to grub, then choose the second line, the single user boot,. that will give u a command prompt then run    dpkg-reconfigure xserver-xorg   then choose your settings then reboot choose first line,.,.voila

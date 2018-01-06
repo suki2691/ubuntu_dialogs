@@ -1,0 +1,4 @@
+2007-03-24T16:14:00.000Z	BrendanM		So for some reason, when I plug in my USB key now, it automounts as a read-only file system. How can I fix this?
+2007-03-24T16:14:00.000Z	BrendanM		It works fine in Windows, so it's not like there's a switch on the flash drive itself.
+2007-03-24T16:14:00.000Z	Frogzoo	BrendanM	ext3 file system on that?
+2007-03-24T16:56:00.000Z	Frogzoo	BrendanM	mkfs.vfat -F 16

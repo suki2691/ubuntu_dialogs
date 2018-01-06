@@ -1,0 +1,4 @@
+2005-12-01T13:30:00.000Z	TGM		As stupid as this may sound. How do you install things that didn;t come with the OS? I've gone out and found a few programs here and there for Linux Ubuntu and sometimes Debian since it's debian based but I can't figure out how to install a one of them for the life of me. Help?
+2005-12-01T13:31:00.000Z	TGM		I have
+2005-12-01T13:32:00.000Z	TGM		I can;t find any of the install applications, but I've figured out synaptic
+2005-12-01T13:32:00.000Z	trygve	TGM	if, after adding the universe & multiverse repositories, you can't find what you want in synaptic, you can install something by hand with dpkg if you find a .deb installer, and if you can only find a .rpm, you can convert that to a .deb with "alien".  if you can only find a tarball, follow the programs own instructions

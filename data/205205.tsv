@@ -1,0 +1,4 @@
+2006-07-11T15:39:00.000Z	ardchoille		If I remove ubunt-desktop package, will that cause problems with apt-get dist-upgrade *and* apt-get upgrade or will there only be problems with apt-get dist-upgrade?
+2006-07-11T15:41:00.000Z	dli	ardchoille	if you want to remove gnome, you can do: apt-get remove libgnome2-common
+2006-07-11T15:41:00.000Z	dli	ardchoille	and deborphan after that
+2006-07-21T16:35:00.000Z	dli	ardchoille	maybe, it's a firm doing ubuntu support, on-topic then

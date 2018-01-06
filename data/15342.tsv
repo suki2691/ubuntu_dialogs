@@ -1,0 +1,4 @@
+2011-08-15T02:04:00.000Z	keith_		I don't know why, but my connection wasn't being allowed through my router. I just cloned my hard drive with Acronis True Image, installed it, and now it's working fine. I'm not complaining, but I don't understand how I'm back up.
+2011-08-15T02:06:00.000Z	keith_		Is there a way to back up my settings with Ubuntu, just in case I ever need to revert to them?
+2011-08-15T02:07:00.000Z	escott	keith_	depends on which settings
+2011-08-15T02:08:00.000Z	escott	keith_	most "system" settings are in /etc (a few are in the $HOME of the respective application). user settings are in ~/.config and ~/.*

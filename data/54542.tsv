@@ -1,0 +1,4 @@
+2009-08-20T22:39:00.000Z	anxiolytic_		I have a cronjob that doesn't work. what's up with this? I want it to run every 1 minute. 1   *   *   *   *  /usr/bin/wget http://localhost/?PING
+2009-08-20T22:39:00.000Z	grawity	anxiolytic_	That line runs on every hour first minute
+2009-08-20T22:39:00.000Z	grawity	anxiolytic_	You probably want */1 * * * *
+2009-08-20T22:40:00.000Z	anxiolytic_	grawity	thanks

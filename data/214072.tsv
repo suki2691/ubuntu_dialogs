@@ -1,0 +1,4 @@
+2011-04-22T03:55:00.000Z	huddy		Hi. for some reason my ubuntu theme has gone to a windows classic sort of style, just grey. however the title bar still retains the theme, just everything else is grey!
+2011-04-22T03:55:00.000Z	huddy		any ideas?
+2011-04-22T03:56:00.000Z	airtonix	huddy	check if gnome-settings-daemon is running or zombie
+2011-04-22T03:57:00.000Z	airtonix	huddy	open a terminal and use : "ps -fe | grep gnome-settings-daemon" or run gnome-system-monitor and make sure all processes are listed then look for gnome-settings-daemon

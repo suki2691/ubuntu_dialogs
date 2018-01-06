@@ -1,0 +1,4 @@
+2006-10-13T11:20:00.000Z	sillyxone		I'm sorry, I'm new to IRC. I have a question but don't know when I can jump in.
+2006-10-13T11:21:00.000Z	sillyxone		dapper, builtin card reader work on boot, but won't work after a suspend
+2006-10-13T11:21:00.000Z	segfault_	sillyxone	some modules dont like suspend and resume, try unloading the module prior to suspend and reloading after resume
+2006-10-13T11:24:00.000Z	segfault_	sillyxone	no idea try dmesg for some extra info there

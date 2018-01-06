@@ -1,0 +1,4 @@
+2011-08-13T21:20:00.000Z	connor__		so i have a question, im trying to get my virtual box to run off of the windows partition i already have as shown in this guide here. http://blog.amhill.net/2010/01/27/linux-ftw-using-virtualbox-with-an-existing-windows-partition/  as i tell the terminal to create an mbr file in the virtual box folder with ~$ install-mbr –f ~/.VirtualBox/FAKE.mbr.... it returns..... Usage: install-mbr [options] <target> and ive tried playing
+2011-08-13T21:20:00.000Z	connor__		with wording but all for naught, im quite new at ubuntu but im not completely noob at computer, anyone wanna help
+2011-08-13T21:22:00.000Z	escott	connor__	that could easily foul up your windows install. unless you configure windows to have multiple hardware profiles
+2011-08-13T21:22:00.000Z	escott	connor__	try install-mbr --help and see what it says

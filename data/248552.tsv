@@ -1,0 +1,4 @@
+2011-07-07T12:25:00.000Z	pratz		hey guys, i am using 10.04 desktop edition, i have a wi-bro band connection enabled, but when i try to browser the net i do not get any speed, i.e 3-4kb, but when i download the speed is 100kb+, what may be the problem ??
+2011-07-07T12:26:00.000Z	pratz		i think i am not getting speed on http protocal, but on ftp and bittorrent the speed is good, is it that i need to configure some thing ??
+2011-07-07T12:27:00.000Z	pratz		hye guys any idea ??
+2011-07-07T12:27:00.000Z	minimec	pratz	That could be a MTU problem between router and your computer.. Try sudo 'ifconfig ethX mtu 1492', where ethX is to change...

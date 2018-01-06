@@ -1,0 +1,4 @@
+2010-10-06T01:55:00.000Z	cesurasean		Can someone help me out with this problem I'm having after an upgrade of my entire system. - http://pastebin.com/YiBbY6Ar
+2010-10-06T01:56:00.000Z	ZykoticK9	cesurasean	the entry for / in your /etc/fstab is using the wrong UUID i believe - you could either correct the UUID or use the old /dev/sdX# method
+2010-10-06T02:09:00.000Z	cesurasean	ZykoticK9	my /etc/fstab does not show any UIDs....
+2010-10-06T02:10:00.000Z	ZykoticK9	cesurasean	are you looking at the right one?  your error certainly states a missing/incorrect UUID.  somethings strange man.  good luck - gotta run.

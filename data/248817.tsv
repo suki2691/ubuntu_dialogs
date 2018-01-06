@@ -1,0 +1,4 @@
+2005-03-13T14:19:00.000Z	Joe2		Hiya people, I got a tecra 8100 laptop, with a USB cable modem, is there any way to get ubuntu to recognise this as an ethernet connection (such as fedora does etc)?
+2005-03-13T14:20:00.000Z	lunitik	Joe2	umm... modprobe your_nic
+2005-03-13T14:21:00.000Z	lunitik	Joe2	Ubuntu doesn't care about the modem, enless its internal, and I've not heard of that
+2005-03-13T14:22:00.000Z	lunitik	Joe2	wait... gah... but hotplug should recognize it... any reason you aren't using a NIC? its a lot faster  :/

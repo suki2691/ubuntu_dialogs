@@ -1,0 +1,4 @@
+2012-01-05T02:58:00.000Z	mobius420		why is there a webserver running out of the box on my ubuntu install?
+2012-01-05T02:59:00.000Z	mobius420		and can anyone suggest how to kill it?
+2012-01-05T02:59:00.000Z	acidfrost	mobius420	you shouldn't have one
+2012-01-05T02:59:00.000Z	acidfrost	mobius420	assuming its apache, sudo killall -9 apache2

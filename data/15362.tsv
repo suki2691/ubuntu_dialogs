@@ -1,0 +1,4 @@
+2012-02-08T09:33:00.000Z	escott	uRock	were the users created in the same order on the old and new system?
+2012-02-08T09:33:00.000Z	uRock	escott	yes
+2012-02-08T09:35:00.000Z	escott	uRock	ok. i was going to suggest that the uids may not match (the username is not stored in the filesystem only the uid). you can see what your id is with "id" and what the ids associated to the folders are with "stat filename" if those dont match you need to use chown to fix it
+2012-02-08T09:36:00.000Z	uRock	escott	I'll check it out, thanx

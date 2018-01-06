@@ -1,0 +1,4 @@
+2006-05-15T06:03:00.000Z	TLE		I have installed cmus by compiling it from source, (before I knew about checkinstall) and now I wan't to uninstall. I did `locate cmus` and found that there was was cmus files in the follwoing directories /usr/local/bin; /usr/local/lib/cmus; /usr/local/share/doc/cmus; /usr/local/share/cmus and a man page. So to uninstall, do I just delete these or are there anything else ?
+2006-05-15T06:03:00.000Z	cge	TLE	make uninstall doesn't work?
+2006-05-15T06:06:00.000Z	TLE	cge	No unfortunately not, the authors think that easy uninstall is the job for a tool like checkinstall
+2006-05-15T06:13:00.000Z	TLE	cge	actually I might have misunderstood that(from reading a mailing list), but anyway it wasn't included before version 2.0.1 and I have version 2.0.0

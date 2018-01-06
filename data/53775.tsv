@@ -1,0 +1,4 @@
+2009-07-24T22:40:00.000Z	gnat_x		hi folks. i'm having issues getting my wireless to connect to a WPA network on a fresh jaunty install. if i turn off WPA at the router i can connect. if i turn on WPA i can't. the network manager asks for a password, i give it, it hashes properly (wpa-passphrase hashed it the same on my lappy), but the net manager just spins for a while and asks again. it might be this: https://bugs.launchpad.net/ubuntu/+source/linux/+bug/348275 so
+2009-07-24T22:40:00.000Z	joeyeye	gnat_x	- I'd suggest wicd over networkmanager ... I find it so much more reliable
+2009-07-24T22:41:00.000Z	gnat_x	joeyeye	ok. good to know
+2009-07-24T22:41:00.000Z	gnat_x	joeyeye	i generally don't go in for gui's, but this machine is for someone else.

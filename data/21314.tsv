@@ -1,0 +1,4 @@
+2010-12-27T03:43:00.000Z	CyL		Evening folks... I have a LUKS encrypted partition that I don't want to be automatically mounted on boot time, so I marked it as noauto in crypttab. However I'd like to make it mountable by a regular user by menas of an entry on fstab, automating the step of opening the LUKS vault. Is it possible?
+2010-12-27T03:44:00.000Z	vikingur_	CyL	In fstab, change the option 'auto' to 'noauto' in the line associate with that partition
+2010-12-27T03:45:00.000Z	CyL	vikingur_	the problem is that I still have to manually open the LUKS vault with cryptsetup... I'd like to automate that step if possible
+2010-12-27T03:46:00.000Z	vikingur_	CyL	ah, sorry, must have skipped a line when I read your question.

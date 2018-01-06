@@ -1,0 +1,4 @@
+2008-08-04T22:14:00.000Z	Kohlrak		does anyone know i can disable an account from getting root access through sudo?
+2008-08-04T22:14:00.000Z	Kohlrak		thank you
+2008-08-04T22:16:00.000Z	Kohlrak		linuxeh: what would i change in there to make account "guest" not have sudo access? Or what line would it be to make "kohlrak" the only one who can sudo?
+2008-08-04T22:17:00.000Z	qr_	Kohlrak	you can edit who has sudo rights with the visudo command (make sure you know how to use vi first)

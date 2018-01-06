@@ -1,0 +1,4 @@
+2007-11-04T08:35:00.000Z	Ludwig7667		Just thought of this. if say I bought a new computer and i placed this HDD into the new tower. would it still work? or is it like windows and won't
+2007-11-04T08:36:00.000Z	Ludwig7667		oh. i'm on ubuntu 7.10
+2007-11-04T08:36:00.000Z	nickrud	Ludwig7667	If it was hda in the first machine, most likely it would boot, and you'd get at least a console
+2007-11-04T08:38:00.000Z	nickrud	Ludwig7667	otherwise you'd need to boot a live cd, and edit /boot/grub/menu.lst and /etc/fstab , and check /etc/X11/xorg.conf

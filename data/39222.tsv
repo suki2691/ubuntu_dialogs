@@ -1,0 +1,4 @@
+2010-01-11T00:36:00.000Z	Real_Ubot		Why doesn't my key authorization work: http://paste.ubuntu.com/354631/
+2010-01-11T00:36:00.000Z	Real_Ubot		I get Permission denied (publickey) when I try to login.
+2010-01-11T00:37:00.000Z	askreet_away	Real_Ubot	output doesn't tell me much, my money is on file permissions on remote host.  What are the permissions of ~/.ssh and ~/.ssh/authorized_keys
+2010-01-11T02:48:00.000Z	Real_Ubot	askreet_away	I did find the problem. I hade to login to the computer having ssh server as the user locally and then I could connect to that user account using ssh from my laptop. Why did I have to login locally as user to be able to connect via ssh remote to that user account? I thought that I didnät have to do that?

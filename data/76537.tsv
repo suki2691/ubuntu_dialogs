@@ -1,0 +1,4 @@
+2008-12-31T05:59:00.000Z	dsdeiz		hi how do i know the current permission of a file in 'numbers'? such as 777, 750, etc? :D
+2008-12-31T06:00:00.000Z	Flannel	dsdeiz	permissions are r w x (read, write, execute), r = 4, w = 2, x = 1.  See also: https://help.ubuntu.com/community/FilePermissions
+2009-04-07T08:31:00.000Z	Flannel	dsdeiz	It is.  But there's no real reason to do so.
+2009-06-26T08:45:00.000Z	dsdeiz	Flannel	maybe he could copy the default config file, rename that new file, and do a2dissite and a2ensite?

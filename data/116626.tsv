@@ -1,0 +1,4 @@
+2007-10-16T16:15:00.000Z	presto1		should i be able to acsess my ntfe external hdd while im testing my live cd
+2007-10-16T16:15:00.000Z	presto1		ntfs
+2007-10-16T16:15:00.000Z	Stevethe1irate	presto1	not by default.
+2007-10-16T16:18:00.000Z	Stevethe1irate	presto1	sudo apt-get install ntfs-3g && sudo nano /etc/fstab [then add the line to it]  then sudo mount -a

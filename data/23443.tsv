@@ -1,0 +1,4 @@
+2010-11-07T20:14:00.000Z	rubydiamond		how to view installed package names in ubuntu
+2010-11-07T20:14:00.000Z	rubydiamond		like which ruby I have installed with apt-get ?
+2010-11-07T20:14:00.000Z	rubydiamond		on server
+2010-11-07T20:15:00.000Z	n3rV3	rubydiamond	dpkg -l|grep <packagename>

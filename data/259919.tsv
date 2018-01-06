@@ -1,0 +1,4 @@
+2005-03-19T10:45:00.000Z	_quinton		how do you configure GNOME to use other window managers?
+2005-03-19T10:45:00.000Z	_quinton		 I tried changing it in GConf, but it didn't work
+2005-03-19T10:46:00.000Z	_quinton		how do you configure gnome for other window managers? like fluxbox?
+2005-03-19T10:46:00.000Z	regeya	_quinton	essentially if you have a compliant windomanager, open the session manager and a terminal; remove metacity from the list of items in the session, fire up another windowmanager from a terminal, make sure your wm of choice is set to auto-respawn, and you're golden.

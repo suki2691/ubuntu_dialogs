@@ -1,0 +1,4 @@
+2008-10-14T16:37:00.000Z	Ddorda		i've changed the language back to english, and then the ubuntu changed the desktop folder to the home folder. how do i change it back to "Desktop"?
+2008-10-14T16:39:00.000Z	legend2440	Ddorda	in terminal type    gconf-editor  From the left panel,select apps — nautilus — preferences. In the window on the right side, place a check in the box labeled desktop_is_home_dir.
+2008-10-14T16:40:00.000Z	legend2440	Ddorda	in terminal type    gconf-editor  From the left panel,select apps — nautilus — preferences. In the window on the right side,  uncheck the box labeled desktop_is_home_dir.
+2008-10-24T04:44:00.000Z	legend2440	Ddorda	in terminal lspci | grep audio

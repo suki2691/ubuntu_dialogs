@@ -1,0 +1,4 @@
+2008-11-22T00:36:00.000Z	soho		hey guys, how do you securely delete data so that it can not be recovered?
+2008-11-22T00:37:00.000Z	soho		i dont want to wipe my hardddrive
+2008-11-22T00:37:00.000Z	soho		just a file on my desktop
+2008-11-22T00:38:00.000Z	cwillu	soho	it's a tricky problem, as modern filesystems use journalling:  replacing the files contents doesn't actually mean that the contents of the file aren't anywhere else on the drive.  In some cases, it's straightforward, but it depends on the history/use of the file

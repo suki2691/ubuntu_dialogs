@@ -1,0 +1,4 @@
+2009-05-08T18:05:00.000Z	rexwin		hi all. i am unable to ssh into a cloud computer though it is live. but can telnet to it with port 22,23. how to find where is the issue?
+2009-05-08T18:06:00.000Z	pepperjack	rexwin	check hosts.allow in /etc see if ssh all is in there perhaps
+2009-05-08T18:07:00.000Z	pepperjack	rexwin	not sure of syntax offhand.. like sshd:all maybe
+2009-05-08T18:09:00.000Z	rexwin	pepperjack	it is intermittent. sometimes it allows to logmein as root with password othertimes it gets disconnected and doesnot allow me to login though the machine is alive using ping

@@ -1,0 +1,4 @@
+2012-03-03T21:57:00.000Z	Ferrari		how I change the password of root?
+2012-03-03T21:59:00.000Z	Ferrari		sudo: /etc/sudoers is mode 0777, should be 0440
+2012-03-03T21:59:00.000Z	Ferrari		sudo: no valid sudoers sources found, quitting
+2012-03-03T22:00:00.000Z	geirha	Ferrari	Ouch. chmod 777 should NEVER be used.

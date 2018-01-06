@@ -1,0 +1,4 @@
+2010-08-25T16:37:00.000Z	avg_guy		I was wondering if I had ubuntu and winblows installed and have since gotten rid of the evil one and would like to add that to my main ubuntu partition how would I go about doing this ( hence what app would I use)
+2010-08-25T16:38:00.000Z	minimec	avg_guy	gparted
+2010-08-25T16:41:00.000Z	minimec	avg_guy	I would start gparted, umount the win NTFS partition, format it to ext4 and maybe use it as separate /home Partition, if you have no separate /home until now ;)
+2010-08-25T16:46:00.000Z	minimec	avg_guy	What size do these partition have? ubuntu/win7?

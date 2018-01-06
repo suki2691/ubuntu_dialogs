@@ -1,0 +1,4 @@
+2007-11-15T03:31:00.000Z	esr		I've tracked an Ubuntu bug I submitted, https://bugs.launchpad.net/ubuntu/+bug/162410, to a kernel-level problem in the snd_hda_intel module -- a constant needs to change from 3 to 4.  I'd like to rebuild that module from source, but thehttps://help.ubuntu.com/community/Kernel/Compile page is giviung me an incorrect pointer to the location of the Ubuntu kernel config files.  Where are they,...
+2007-11-15T03:32:00.000Z	esr		...actually?
+2007-11-15T03:33:00.000Z	stefg	esr	/boot/config-`uname -r`
+2007-11-15T03:37:00.000Z	esr	stefg	Thanks.  I'll fix the wiki page.

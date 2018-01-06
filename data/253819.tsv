@@ -1,0 +1,4 @@
+2008-06-24T11:00:00.000Z	Isaac_		Grrrr......... Xubuntu is dead again.  Sorry to ask this here about a Xubuntu install, but I need to know how to mount an internal drive.  It didn't mount on boot, and Xubuntu doesn't by default have that handy My Computer icon like Ubuntu has.
+2008-06-24T11:00:00.000Z	Isaac_		Xubuntu ROOM is dead, that is.  I'm running Xubuntu 8.04, and need to know how to mount an internal hard drive.
+2008-06-24T11:01:00.000Z	ryan_	Isaac_	is it connected via usb?
+2008-06-24T11:03:00.000Z	ryan_	Isaac_	depends on your system but it could be /dev/sdb1 sdbc1 or sdbd1 you would run sudo mount /dev/sd /mount/point

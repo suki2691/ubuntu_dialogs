@@ -1,0 +1,4 @@
+2008-06-11T07:07:00.000Z	josh		Hey how do i change my user josh's UID to 1003 properly without getting locked out of KDM in kubuntu?
+2008-06-11T07:07:00.000Z	josh		Hey how do i change my user josh's UID to 1003 properly without getting locked out of KDM in kubuntu? I tried usermod -u 1003 josh but when i start up kubuntu im locked out
+2008-06-11T07:08:00.000Z	darthmarth37	josh	You also have to change ownership of all that user's files to the new UID.
+2008-06-11T07:09:00.000Z	darthmarth37	josh	Something like chown -R josh /home/josh/

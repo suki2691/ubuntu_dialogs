@@ -1,0 +1,4 @@
+2010-04-03T10:40:00.000Z	jdforsythe		plz can anyone help? i set up a partition /data during install and it's mounted as root, only read access to user. how do i change this so my main (only) user can have rw access?
+2010-04-03T10:41:00.000Z	jdforsythe		wouldn't i want to change it in /etc/fstab?
+2010-04-03T10:41:00.000Z	Dr_Willis	jdforsythe	 what filesytem? if ext2/3/4 you need to chown/chmod the mountpoint after its mounted.. or chmod/chown dirs on the FS. for the user to have full rights to it
+2010-04-03T10:42:00.000Z	Dr_Willis	jdforsythe	 i always make a subdir on my 'data' filesystems - one for each user. and chown/chmod that dir for them

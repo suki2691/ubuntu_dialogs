@@ -1,0 +1,4 @@
+2008-07-01T02:49:00.000Z	sebablu1		Hi, I am getting the following error when executing a program: error while loading shared libraries: libboost_thread-gcc41-mt-1_34_1.so.1.34.1: cannot open shared object file: No such file or directory ... I think I am missing this library ... anyone knows how to get it installed?
+2008-07-01T02:49:00.000Z	joaopinto	sebablu1	what program is it and how did you install it ?
+2008-07-01T02:51:00.000Z	joaopinto	sebablu1	it depends on a specific library, libboost, you can install the one available for ubuntu, but it may not be compatible with the one used to link that app
+2008-07-01T02:52:00.000Z	joaopinto	sebablu1	doesn't that soft come with the source ?

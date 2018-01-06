@@ -1,0 +1,4 @@
+2007-08-23T13:42:00.000Z	fatbrain_		Hi, when I install Nvidia drivers (from nvidia webpage) they load correctly when doing a "gdm restart", but when I reboot, I get an error message stating that the driver could not be loaded. But if I run the Nvidia install again, and restart gdm it works !!! any way I can avoid having to reinstall the driver every time I reboot?
+2007-08-23T13:43:00.000Z	serenityUK	fatbrain_	you need to uninstall the old ubuntu driveres first !!!...  type:   sudo apt-get remove nvidia*   then reinstall
+2007-08-23T13:43:00.000Z	fatbrain_	joakim-	serenityUK: I'll try that, thanks
+2007-08-23T13:44:00.000Z	serenityUK	fatbrain_	it happend to me it says API mismatch on reboot  but install fixed it.. just remove the old ones first

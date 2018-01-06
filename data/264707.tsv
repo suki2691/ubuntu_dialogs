@@ -1,0 +1,4 @@
+2004-10-11T09:10:00.000Z	Ceejay		Hi...is there anyone who could help me in getting ubuntu to see my Atapi Zip Drive? I did "dmesg" in terminal and see the drive listed as hdb so I made a line in fstab: /dev/hdb  /mnt/zip  auto   rw,user,noauto 0  0   similar to the floppy drive entry and the entry I made to access the Windows partition on hda1 which works fine. Clicking on the  Zip Drive Icon  returns an error message that says: "special device /dev/hdb does not exist"
+2004-10-11T09:11:00.000Z	aitrus	Ceejay	are you sure it isn't something like /dev/hda1?
+2004-10-11T09:12:00.000Z	aitrus	Ceejay	i meant /dev/hdb1
+2004-10-11T09:12:00.000Z	aitrus	Ceejay	yeah, when imm or ipp is used

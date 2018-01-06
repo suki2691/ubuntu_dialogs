@@ -1,0 +1,4 @@
+2008-01-23T15:42:00.000Z	regius		hi how do i know what driver xorg is using?
+2008-01-23T15:43:00.000Z	cizarro	regius	either X.org log /var/log/X.. smt or reading the X.org config (/etc/X11/xorg.conf)
+2008-01-23T15:44:00.000Z	cizarro	regius	in latter, look for 'Section "Device"' and 'Driver "foobar"' under it.
+2008-01-23T15:47:00.000Z	cizarro	regius	ah, might be difficult to find the driver in the conf in that case ;-). np.

@@ -1,0 +1,4 @@
+2008-03-18T21:50:00.000Z	vulcar		Alright, i read that wiki ikonia but I have tried the apt-get install ndiswrapper-common before and it is saying : ndiswrapper-common is already the newest version. but when i type ndiswrapper -i it is saying that it is not installed and i need to run the apt-get command again
+2008-03-18T21:51:00.000Z	vulcar		I have had ndiswrapper working last week but i recently reinstall ubuntu after playing with fedora and cannot get it up again. I wrote down all the steps i did last time but this time it is giving me those errors i listed above.
+2008-03-18T21:52:00.000Z	genii	vulcar	You should not need to compile ndiswrapper at all. Just to: sudo apt-get update;sudo apt-get install ndiswrapper-utils-1.9
+2008-03-18T21:53:00.000Z	genii	vulcar	Alternately install it through the Synaptic package manager

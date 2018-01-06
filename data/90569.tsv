@@ -1,0 +1,4 @@
+2009-08-25T18:43:00.000Z	linux_guy		what command can tell me what my current ip is?
+2009-08-25T18:44:00.000Z	ccooke	linux_guy	do you mean the address on your internal network, or the address you're on as far as the internet is concerned?
+2009-08-25T18:46:00.000Z	linux_guy	ccooke	well i am trying to setup samba, so i need the internal ip i think
+2009-08-25T18:48:00.000Z	ccooke	linux_guy	then ifconfig (as people said) will be right. You could also use "ip addr", which has a more compact output.

@@ -1,0 +1,4 @@
+2007-08-02T08:34:00.000Z	nivekc1		if i go into the user settings and set my group as root can i run a .run that tells me i have to be a super user
+2007-08-02T08:36:00.000Z	nivekc1		can someone tell me how to execute a .run file as a "super user"
+2007-08-02T08:37:00.000Z	nivekc1		i swear i have tried that a millon times
+2007-08-02T08:38:00.000Z	DWSR	nivekc1	sudo chmod 777 <file> && sudo ./<file>

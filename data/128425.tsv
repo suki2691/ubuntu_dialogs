@@ -1,0 +1,4 @@
+2007-07-10T16:32:00.000Z	JimQode_	binski	terminal devices are /dev/tty0-8
+2007-07-10T16:33:00.000Z	JimQode_	binski	chmod a+w /dev/tty8
+2007-07-10T16:36:00.000Z	binski	JimQode_	shiester_miester: ok so if i want to run hellanzb at boot with the as user mtlife, with output on tty8 -> chmod a+w /dev/tty8 (one time).. but how do i run it at boot for that user?
+2007-07-10T16:37:00.000Z	JimQode_	binski	write it to /etc/init.d/rc.local

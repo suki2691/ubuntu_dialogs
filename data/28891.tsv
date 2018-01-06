@@ -1,0 +1,4 @@
+2010-08-04T06:32:00.000Z	Seppoz		Using dash as /bin/sh causes various subtle build problems, please use bash instead.
+2010-08-04T06:32:00.000Z	Seppoz		how can i make sure the shell isnt linked as bash
+2010-08-04T06:33:00.000Z	tensorpudding	Seppoz	I believe when you call bash as sh it tries to emulate sh
+2010-08-04T06:35:00.000Z	tensorpudding	Seppoz	Change the #!/bin/sh to #!/bin/bash

@@ -1,0 +1,4 @@
+2006-01-06T13:36:00.000Z	michael_		how can I add something to startup? isn't their a certain file i can just add a line too?
+2006-01-06T13:36:00.000Z	michael_		I just want to add modprobe ndiswrapper
+2006-01-06T13:37:00.000Z	Kr0ntab	michael_	if you want a module to start at boot... put the module in /etc/modules
+2006-01-06T13:39:00.000Z	michael_	Kr0ntab	can i just add $modprobe ndiswraper to the modules file?

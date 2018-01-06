@@ -1,0 +1,4 @@
+2007-04-19T15:13:00.000Z	h0ax		hello i have this error h0ax@h0ax-laptop:~/Desktop/ipod$ ./installer
+2007-04-19T15:13:00.000Z	h0ax		./installer: error while loading shared libraries: libcrypto.so.0.9.7: cannot open shared object file: No such file or directory
+2007-04-19T15:13:00.000Z	h0ax		how
+2007-04-19T15:14:00.000Z	xtknight	h0ax	sudo apt-get install libcrypto++5.2c2a

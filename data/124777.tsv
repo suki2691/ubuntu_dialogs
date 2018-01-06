@@ -1,0 +1,4 @@
+2007-08-13T15:46:00.000Z	joe_giampaoli		Hi all, how can I change read permissions on an NTFS drive so all users have read access to it? I am installing a virtual server, and I mounted that drive as a network drive, but the apache server on the virtual machine has no read acces to that drive
+2007-08-13T15:47:00.000Z	psusi	joe_giampaoli	add umask=777 to the mount option list
+2007-08-13T15:48:00.000Z	joe_giampaoli	psusi	ok, fstab is 007 change that to 777? that will still be readable only right, I don't want it to be mounted writeable....
+2007-08-13T15:49:00.000Z	psusi	joe_giampaoli	unless you are using ntfs-3g, you can not write to the volume

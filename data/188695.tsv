@@ -1,0 +1,4 @@
+2006-06-18T13:04:00.000Z	null		Hello. I just destroyed my MBR by installing Windows. Now I booted up with the LiveCD, rerun grub and installed it to the mbr... after rebooting I get the grub shell. When I type 'configfile /grub/menu.lst' it boots Ubuntu... Why doesn't it use the menu.lst by default?
+2006-06-18T13:05:00.000Z	raptros-v76	null	you want /boot/grub/menu.lst
+2006-06-18T13:05:00.000Z	null		ok
+2006-06-18T13:05:00.000Z	null	raptros-v76	well I think I have a symlink like boot -> .

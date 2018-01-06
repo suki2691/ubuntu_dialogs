@@ -1,0 +1,4 @@
+2009-01-24T07:19:00.000Z	fumanchu182		does anyone have issues with the resolution of your desktop not being saved when using the ati drivers, my machine always starts up at the max resolution
+2009-01-24T07:20:00.000Z	slackerksg5	fumanchu182	Yes I had that problem, but I set the resolution manually as well as my monitor frequencies in the xorg.conf file
+2009-01-24T07:22:00.000Z	fumanchu182	slackerksg5	I am used to using *nix but never edited xorg.conf, have any examples?
+2009-01-24T07:24:00.000Z	slackerksg5	fumanchu182	Section "Monitor" Identifier "Configured Monitor"  HorizSync      30-83    VertRefresh    56-76 Modeline "1280x1024" 109.62  1280 1336 1472 1720  1024 1024 1026 1062

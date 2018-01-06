@@ -1,0 +1,4 @@
+2009-08-12T17:42:00.000Z	S_A		Hi! I want to disable USB write for pen drive. the default behavior is, it gets automatically mounted. Now how to identify it as a storage device and disable write access ?
+2009-08-12T17:44:00.000Z	NoMS	S_A	you should be able to chmod 444 to allow only read access
+2009-08-12T17:53:00.000Z	NoMS	S_A	There is, but I'm not sure what file...  I have seen it used before to automount everything with read only permissions.  may have been a custom script though
+2009-08-12T17:55:00.000Z	S_A	NoMS	Can you tey to find out that file. I am also trying but till now no success

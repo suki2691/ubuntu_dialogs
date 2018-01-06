@@ -1,0 +1,4 @@
+2009-06-29T16:47:00.000Z	metalfan_		i need a temporary workaround to set a static ip to my ubuntu desktop installation without me logging in. ive tried adding "ifconfig eth0 myip && route add default gw gwip && echo "nameserver mynameserverip" >> /etc/resolv.conf" but still the machines eth0 interface is not up. is maybe the network manager interfering?
+2009-06-29T16:47:00.000Z	metalfan_		ive added the above commands to /etc/rc.local
+2009-06-29T16:47:00.000Z	usr13_	metalfan_	Yes, you are correct, probably need to turn off network manager.
+2009-06-29T16:54:00.000Z	usr13_	metalfan_	NP

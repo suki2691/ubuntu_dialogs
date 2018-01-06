@@ -1,0 +1,4 @@
+2008-01-31T12:48:00.000Z	power788		Why does  this:     for i in `ls *`; do echo "$i"; done;   on the command line not print out each filename properly?
+2008-01-31T12:49:00.000Z	_ruben	power788	whats 'not properly' in this case?
+2008-01-31T12:50:00.000Z	power788	_ruben	like it breaks each filename up by the spaces
+2008-01-31T12:50:00.000Z	_ruben	power788	ow wait .. didnt read properly .. why not use for i in * ; do .....

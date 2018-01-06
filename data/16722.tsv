@@ -1,0 +1,4 @@
+2011-07-04T22:05:00.000Z	lxs-makoto		hey. ive got my ubuntu box configured as a router. i'm no iptables guy, and ive been messing about for 30 minute now acomplishing nothing but enraging myself. can somebody point me in the right direction on how i can get stuff sent to 10.0.0.1:81 (on eth1) to be redirected to 192.168.1.1(on eth0) using iptables?
+2011-07-04T22:06:00.000Z	th0r	lxs-makoto	it wouldn't be iptables that does the forwarding, it would be route
+2011-07-04T22:07:00.000Z	lxs-makoto	th0r	i sort of get it, how would i tell the packet forwarding to forward where i want it to go?
+2011-07-04T22:08:00.000Z	th0r	lxs-makoto	ok....you need to figure out what you want to do. If you want to forward everything from one address to another, I think you can do that with route. But if you want to do NAT you do that in iptables

@@ -1,0 +1,4 @@
+2009-02-17T01:45:00.000Z	jelly-bean		how do i start/stop services from shell ?
+2009-02-17T01:45:00.000Z	jelly-bean		i'm used to fedora: service httpd restart
+2009-02-17T01:47:00.000Z	Slart	jelly-bean	there are several ways. I write "sudo /etc/init.d/<program name> start|stop|status to do stuff
+2009-02-17T01:47:00.000Z	Slart	jelly-bean	so "sudo /etc/init.d/apache stop" to stop apache

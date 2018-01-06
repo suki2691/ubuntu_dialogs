@@ -1,0 +1,4 @@
+2009-10-17T04:07:00.000Z	ubd		does mk2fs has an option to fill with all zeros?
+2009-10-17T04:08:00.000Z	vlt	ubd	You can use `shred` before `mkfs`.
+2009-10-17T04:09:00.000Z	ubd	vlt	does shred also work for free space
+2009-10-17T04:10:00.000Z	vlt	ubd	When you run it _before_ mkfs the whole block device will filled with random or zero data

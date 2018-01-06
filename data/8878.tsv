@@ -1,0 +1,4 @@
+2011-12-20T12:59:00.000Z	OneArmedNoodler		Hey, I have a dumb question...
+2011-12-20T12:59:00.000Z	OneArmedNoodler		If I want to move my home folder to a different drive do I just create /home on the drive and mount it in /media?
+2011-12-20T13:00:00.000Z	SunTsu	OneArmedNoodler	no need for creating any special directory on it, just create a filesystem, mount it anywhere, move your stuff and then change your fstab to mount your newly created filesystem to /home
+2011-12-20T13:02:00.000Z	SunTsu	OneArmedNoodler	After doing all that unmount your new filesystem and try using "mount -a" to see if everything is working as planned

@@ -1,0 +1,4 @@
+2009-09-26T18:40:00.000Z	MarkG		Hi, how do I clear out all the useless entries in my grub menu, I seem to have many kernel entries, along with safe versions of everything, it always grows, and never shrinks...
+2009-09-26T18:41:00.000Z	MarkG		how do I remove old kernels?
+2009-09-26T18:43:00.000Z	MarkG		I have had the latest one for a while, and it's fine, I just want to clean out all the crap thats listed on my grub menu.   I have removed the entries from menu.lst before, and then I got loads of errors in the future.
+2009-09-26T18:44:00.000Z	scunizi	MarkG	removing old kernels from menu.list file directly doesn't get rid of them.. just de-lists them on grub.. Open synaptic and find the kernels you want to dispose of and uninstall them.

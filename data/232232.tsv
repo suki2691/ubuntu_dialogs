@@ -1,0 +1,4 @@
+2009-12-15T17:07:00.000Z	mr_mustard		how do I mount a samba share that is accessible by the file system, instead of a "virtual" icon in the desktop?
+2009-12-15T17:08:00.000Z	erUSUL	mr_mustard	mount -t cifs -o [options here including username password etc ] //server/share /mount/point
+2009-12-15T17:08:00.000Z	erUSUL	mr_mustard	see man mount for details
+2009-12-15T17:08:00.000Z	erUSUL	mr_mustard	BTW the "virtual" mounts as you call them are accessible in cli via ~/.gvfs/

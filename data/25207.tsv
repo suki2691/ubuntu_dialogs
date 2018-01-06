@@ -1,0 +1,4 @@
+2011-07-24T19:17:00.000Z	JasFasolka		When uninstalling XMMS2 terminal gave me: "The following packages were automatically installed and are no longer required:" and some packages. Some of them doesn't really look XMMS connected, but I'm noob - I don't know - can I safely remove them?
+2011-07-24T19:18:00.000Z	oCean	JasFasolka	it also says "use apt-get autoremove to remove them" right?
+2011-07-24T19:19:00.000Z	oCean	JasFasolka	yes, that's the apt system that determined that some packages, once installed, are no longer necessary. Run "sudo apt-get autoremove" (no quotes)
+2011-07-24T19:22:00.000Z	oCean	JasFasolka	it's not really a problem when you use both commandline (apt, aptitude) and graphical (synaptic). But I recommend to stick to one method. And yes, you can run an apt-get autoremove any time.

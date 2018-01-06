@@ -1,0 +1,4 @@
+2007-02-26T14:27:00.000Z	jaguarz		but I wouldn't chmod the whole system that way :)
+2007-02-26T14:27:00.000Z	jaguarz		also see "umask"
+2007-02-26T14:28:00.000Z	Mattias	jaguarz	was thinking, i just moved my ubuntu config files from home dir to gentoo, and permissions are screwed on those files ;)
+2007-02-26T14:30:00.000Z	Mattias	jaguarz	so for config files in home dir,  chown mattias:mattias /home/dir/.configdir -R,   chmod 722 /home/dir/.configdir -R  ?

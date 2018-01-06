@@ -1,0 +1,4 @@
+2012-10-31T02:03:00.000Z	rangergord		 I'm trying to create an alias in my .bashrc that does the following: "cd /dir" and "svn update". Except I want to see the output of the "svn update" command. How can I do this? alias xxx='cd dir;svn update' doesnt echo anything
+2012-10-31T02:03:00.000Z	bekks	rangergord	because "dir" is unknown.
+2012-10-31T02:04:00.000Z	bekks	rangergord	cd /dir && svn update
+2012-10-31T02:04:00.000Z	rangergord	bekks	that was a typo :)

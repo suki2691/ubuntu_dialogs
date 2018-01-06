@@ -1,0 +1,4 @@
+2011-08-08T03:12:00.000Z	Polah		How can I use wget to get the contents of a directory and it's subdirectories but not ones above it? I have the url <url>/fastdl/ttt/models and I want the contents of the models directory and its' subdirectories. However, when I try wget tries to download the contents of everything under <url>
+2011-08-08T03:13:00.000Z	YankDownUnder	Polah	Um...have you read the man pages for wget?
+2011-08-08T03:16:00.000Z	Polah	YankDownUnder	escott: Yes, I've attempted using -I or -X to include/exclude directories to be including, i.e. to only include /ttt/ or exlude the other but they're still grabbed.
+2011-08-08T03:17:00.000Z	YankDownUnder	Polah	Um...I supposed that deleting what you don't want is not an issue, eh?

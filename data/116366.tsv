@@ -1,0 +1,4 @@
+2008-07-17T15:32:00.000Z	bobJR		is there a button you can click on ubuntu to mount a usb hard drive fat32 i know how to do it with kubuntu and someone said its easy on ubuntu
+2008-07-17T15:32:00.000Z	bobJR		but noone has a answer
+2008-07-17T15:32:00.000Z	Light-	bobJR	plug it in and it should automount
+2008-07-17T15:34:00.000Z	Light-	bobJR	if it was called /dev/usb, you could try "sudo mount -t fat32 /dev/usb /media/drive" but I dont know what device nodes ubuntu assigns to usb devices

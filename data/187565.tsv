@@ -1,0 +1,4 @@
+2010-06-23T13:49:00.000Z	Daniel-		i have added another drive to the system but i cant find the new drive
+2010-06-23T13:49:00.000Z	Daniel-		i dont know the label
+2010-06-23T13:49:00.000Z	Daniel-		how do i list unmounted drives?
+2010-06-23T13:50:00.000Z	ikonia	Daniel-	if you do "sudo fdisk -l" it will show all disks available, you can mount it from the device file listed there

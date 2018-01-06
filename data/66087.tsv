@@ -1,0 +1,4 @@
+2009-02-16T02:09:00.000Z	SeaHunter		I'm just going to up a suggestion out there for future development. Something seriously has to be done with updatedb and apt-xapian-index, i.e. clear and user friendly options to turn these things off rather than, for instance having to edit cron stuff. Between updatedb and apt-xapian-index this evening, my computer was essentially useless for 30 minutes.
+2009-02-16T02:11:00.000Z	cpk1	SeaHunter	I wasnt aware updatedb ran automatically...
+2009-02-16T02:16:00.000Z	cpk1	SeaHunter	is updatedb really a cron job?
+2009-02-16T02:18:00.000Z	SeaHunter	cpk1	It is referenced in the daily.cron file. DasEL: That sounds about right. However, with this apt-xapian-index running also, it really does a double-wammy.

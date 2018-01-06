@@ -1,0 +1,4 @@
+2008-02-03T20:43:00.000Z	kodge		I need to install windows on this PC for reasons I don't wish to discuss. However whilst installing it says my HDD needs to be NTS ( or something similar to that ) for the installation to go through. Is there something I can do in ubuntu that would allow the process to happen?
+2008-02-03T20:44:00.000Z	astro76	kodge	you'll have to resize existing partitions to make space for an ntfs partition for windows
+2008-02-03T20:46:00.000Z	astro76	kodge	then you should be able to easily delete the existing partitions, but ask in ##windows
+2008-02-03T20:58:00.000Z	astro76	kodge	all you need to do is delete all the existing partitions and leave it unpartitioned, the windows installer will do the rest, the window installer should be able to do it all, but like we said you need to be asking in ##window

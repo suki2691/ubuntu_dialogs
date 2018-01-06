@@ -1,0 +1,4 @@
+2010-04-19T19:19:00.000Z	solotim		Hi, I found that the memory in use reported by 'top' and 'System Monitor' is different, can anyone tell me why?
+2010-04-19T19:19:00.000Z	solotim		<solotim> I got 256 total memory, 'top' says 231160k is in use, but 'System Monitor' says 139.5M is in use.
+2010-04-19T19:19:00.000Z	Pici	solotim	Look at the output of  free -m  specifically, what is being used +/- buffers/cache
+2010-04-19T19:21:00.000Z	solotim	Pici	thank you

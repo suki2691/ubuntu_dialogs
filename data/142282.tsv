@@ -1,0 +1,4 @@
+2008-06-21T00:23:00.000Z	enneth		I want to remove one of my internalt harddisks, but when I do GRUB says "No such partition" (error #22 I think). The OS is not installed on this disc, but on my 750 GB harddisk. The swap partition is on the harddisk I am trying to remove. Could that be the reason why it won't boot when it's removed? Do I just reinstall grub on the OS partition?
+2008-06-21T00:24:00.000Z	enneth		disc = harddisk *
+2008-06-21T00:24:00.000Z	KyleK	enneth	swaps not the problem grub is before swap
+2008-06-21T00:25:00.000Z	enneth	KyleK	Then how come it not want to boot when the harddisk is unplugged? Does GRUB require that all disks that were plugged in at install are plugged in?

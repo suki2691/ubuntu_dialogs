@@ -1,0 +1,4 @@
+2010-09-04T03:40:00.000Z	litropy		Hi, peeps. I've got a script that spoofs my mac address that runs on startup: http://pastebin.com/kaPpG7CD and while it does change my mac, and NetworkManager does attempt to connect, something stops it from going through with the connection, I get the network key prompt with the _correct_ WPA key sitting in the passphrase textbox. I have tried a variety of things, including telling...
+2010-09-04T03:40:00.000Z	litropy		...NetworkManager to restart, but it's not until I use the switch on my laptop to toggle the card on/off that I successfully connect. I'm thinking it MIGHT be that when I toggle the card, it reloads the drivers and that's what the issue is, but I haven't found a way to verify. I thank you for your help in advance.
+2010-09-04T03:41:00.000Z	litropy		this is an Atheros card running ath9k.
+2010-09-04T03:41:00.000Z	th0r	litropy	I think you will find when you toggle the card you reset the mac address

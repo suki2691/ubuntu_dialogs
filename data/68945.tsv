@@ -1,0 +1,4 @@
+2009-03-25T03:19:00.000Z	CaptainMorgan		I forget how to do this from the command line and man apt-get isn't telling me what I want, I simply want to update the computer as if I was sitting in front of it and got that downward red arrow in the upper right corner... so I went to /etc/apt/sources.list and uncomment the necessary package index files, then I ran sudo apt-get update to synch it... how can I update from here?
+2009-03-25T03:20:00.000Z	CaptainMorgan		was confused abou that..
+2009-03-25T03:20:00.000Z	CaptainMorgan		k
+2009-03-25T03:20:00.000Z	Titan8990	CaptainMorgan	version upgrade is done via:  sudo aptitude full-upgrade

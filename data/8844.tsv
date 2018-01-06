@@ -1,0 +1,4 @@
+2012-08-14T23:06:00.000Z	armenb_		does ubuntu/debian have a feature similar to "yum localinstall" on fedora and redhat enterprise linux?
+2012-08-14T23:07:00.000Z	armenb_		I want to install a local deb file, but I want it to automatically fetch dependencies too.
+2012-08-14T23:08:00.000Z	armenb_		"dpkg -i" lets me install local packages, but no dependencies; "apt-get install" takes care of dependencies but doesn't seem to have a local package option. am i just screwed and have to do this manually?
+2012-08-14T23:09:00.000Z	Pessimist	armenb_	if you install with apt-get it fetches/solves dependencies automatically but if you install local .deb it only checks if your system meets the dependencies

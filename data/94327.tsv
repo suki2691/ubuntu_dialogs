@@ -1,0 +1,4 @@
+2008-05-27T09:03:00.000Z	FrozenInferno		why, when I stop X with "sudo /etc/init.d/gdm stop" does my system freeze at "initiating local boot scripts: rc.local"? I have exit 0 at the end of rc.local, so this makes no sense.
+2008-05-27T09:04:00.000Z	raistlinmaje7	FrozenInferno	you sometimes need to tell it to go to a tty, try hitting ctrl+alt+f4
+2008-05-27T09:06:00.000Z	raistlinmaje7	FrozenInferno	it hasn't frozen
+2008-05-27T09:10:00.000Z	raistlinmaje7	FrozenInferno	what are you trying to accomplish? are you trying to restart X? or get to a terminal?

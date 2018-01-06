@@ -1,0 +1,4 @@
+2011-06-29T03:37:00.000Z	marck		i need to put this Section "Monitor" Identifier "Monitor0" VendorName "DCLLCD" ModelName "DCL20AT" HorizSync 24 - 82 VertRefresh 50 - 75 EndSection  Section "Device" Identifier "Device0" Driver "intel" VendorName "Intel 945GM" EndSection  Section "Screen" Identifier "Screen0" Device "Device0" Monitor "Monitor0" DefaultDepth 16 SubSection "Display" Depth 24 Modes "1680x1050" EndSubSection EndSection can u help me
+2011-06-29T03:38:00.000Z	marck		i need the comman that open the xorg.conf file
+2011-06-29T03:38:00.000Z	marck		*command*
+2011-06-29T03:40:00.000Z	robin0800	marck	sudo nano /etc/X11/xorg.conf

@@ -1,0 +1,4 @@
+2010-05-06T06:04:00.000Z	k3rn		i am not that into awk i think one could do it with it
+2010-05-06T06:05:00.000Z	Trellian	k3rn	ls | while read file; do echo "$file" | sed -e 's/\..*$//g'; done
+2010-05-06T06:06:00.000Z	Trellian	k3rn	basically pipe output of ls through sed -e 's/\..*$//g'
+2010-05-06T06:08:00.000Z	k3rn	Trellian	wizardyesterday: it works, but i want to use the -x option with ls - then only the first columne gets listed !?

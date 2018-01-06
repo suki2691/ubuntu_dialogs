@@ -1,0 +1,4 @@
+2005-04-20T05:02:00.000Z	exca		Anyone knows if the apache2 package is fine? Installed it via apt-get - now I've got a pretty apache2ctl but no apache ;)
+2005-04-20T05:02:00.000Z	dcraven	exca	apache2 worked fine.
+2005-04-20T05:04:00.000Z	exca	dcraven	That's my experience from earlier installs - I just keep asking myself what's gone wrong and I don't get the point. I checked the dependencies in synaptics and everything seems fine. Any elementary packages I could have forgot?
+2005-04-20T05:05:00.000Z	dcraven	exca	I would have thought apt would bring in all dependancies. Is /etc/init.d/apache2 not present on your system?

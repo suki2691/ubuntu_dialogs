@@ -1,0 +1,4 @@
+2007-12-03T04:45:00.000Z	miles8		Hi, I upgraded to Gusty, and my graphics seem pretty messed up.  Is there a good explanation as to what as going on on the backend for this screens and resolutions utility.  I would rather just bypass it all together have just use my own xorg.conf that I have manually edited
+2007-12-03T04:46:00.000Z	Jordan_U	miles8	Then just make your own xorg.conf, or do you not know how?
+2007-12-03T04:46:00.000Z	Jordan_U	miles8	That is because your version of the xorg.conf resulted in X not starting
+2007-12-03T04:47:00.000Z	Jordan_U	miles8	If you just want to see X fail you can run "startx" or "xinit"

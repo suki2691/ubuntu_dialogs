@@ -1,0 +1,4 @@
+2010-09-16T02:05:00.000Z	The_Paco		I've been dinking around this past hour (slow) learning regular expression bits and setting up this grep of a large file: grep -o "http://[^ ]*[/>]" big.file... I want to redirect it's output, but I also want to insert newlines between each found instance. Is that something I can put in the command, or do I need to write a script for that?
+2010-09-16T02:07:00.000Z	erUSUL	The_Paco	grep -o "http://[^ ]*[/>]" big.file | sed G > output_file
+2010-09-16T02:10:00.000Z	The_Paco	dajhorn	erUSUL, thanks for the info, I'll dig around in 'sed' mans some more to understand it better (hopefully). blaz_, ilovefairuz, thanks for that, I can still paste it if you want blaz_
+2010-09-16T02:10:00.000Z	erUSUL	The_Paco	i took it from the sed1liners.txt ;P

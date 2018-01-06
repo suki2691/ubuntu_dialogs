@@ -1,0 +1,4 @@
+2006-12-24T08:33:00.000Z	srothroc		Or, here's another question to ignore: Why is it that I can specify the ESSID, but when checking iwconfig, I see that the AP's MAC address doesn't match the AP's actual MAC address?
+2006-12-24T08:34:00.000Z	un_operateur	srothroc	routers and switches have multiple mac addresses -- one for each ethernet interface
+2006-12-24T08:37:00.000Z	un_operateur	srothroc	I'd make sure that both sides were talking the same authentication and encryption protocols -- 64/128bit WEP vs WPA, etc
+2006-12-24T08:39:00.000Z	un_operateur	srothroc	i'm not too sure as i dont run wireless on my linux machine -- iwconfig --help might give you an indicator

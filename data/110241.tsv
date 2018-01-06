@@ -1,0 +1,4 @@
+2010-09-29T18:27:00.000Z	ortsvorsteher		running ubuntu 10.04 on an msi laptop with intel hda soundcard. i have sound on headphones and on external speaker. but not on speakers on laptop. i used alsaupdatescript to install alsa but no success. i need an idea what to do next ...
+2010-09-29T18:28:00.000Z	mattgyver	ortsvorsteher	i had the same problem with a compaq, adding 'options snd-hda-intel' to the bottom of /etc/modprobe.d/alsa-base.conf fixed it for me
+2010-09-29T18:29:00.000Z	ortsvorsteher	mattgyver	only 'options snd-hda-intel' or something else?
+2010-09-29T18:38:00.000Z	ortsvorsteher	mattgyver	no success

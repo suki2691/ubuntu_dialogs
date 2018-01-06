@@ -1,0 +1,4 @@
+2005-05-29T10:06:00.000Z	tga	bigfoot	that might be cron for you trying to do some things it missed while the machine was off
+2005-05-29T10:09:00.000Z	bigfoot	tga	Q1: What's cron? Q2 My problem (slow-running comp) happens after 4 or 5 hours of usage.
+2005-05-29T10:11:00.000Z	tga	bigfoot	1) man cron, take a look in /etc/cron.daily/
+2005-05-29T10:12:00.000Z	tga	bigfoot	2) it could still be cron, or some other problem.. run top when it happens and see who's using the cpu

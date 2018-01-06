@@ -1,0 +1,4 @@
+2007-07-03T13:45:00.000Z	b^j		i am having an issue where i am trying to connect to my phone to use a bluetooth PAN network.  I can do it on my Mac.  when i try to connect with my ubuntu laptop or my nokia 770 the bluetooth connection dies after a couple seconds.  I can keep a connection up between the 770 and the laptop but not between either and the phone.  any ideas on how to diagnose this or pointers to another channel that can help me?
+2007-07-03T13:46:00.000Z	vox754	b^j	check the bug reports at launchpad. Also view the output of "dmesg | less"
+2007-07-03T13:46:00.000Z	b^j	VoX	dmesg gives me nothing useful, the connection is dieing on 2 separate distros, is it likely a bug then?
+2007-07-03T13:47:00.000Z	vox754	b^j	yes, hardware, signals, bits, bugs, yeah

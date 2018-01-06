@@ -1,0 +1,4 @@
+2012-05-01T21:19:00.000Z	krfkeith		hi, I'm trying to set up xubuntu to serve some files for a PXE boot. I'm a little confused on setting up the dhcp/tftp server
+2012-05-01T21:20:00.000Z	krfkeith		my regular network is under interface wlan0, and used the 192.168.1.x subnet, I want the PXE "network" to use the 192.168.10.x subnet, what should I put under "gateway" in the interfaces file?
+2012-05-01T21:20:00.000Z	krfkeith		*uses
+2012-05-01T21:21:00.000Z	ActionParsnip	krfkeith	the address the system will get internet from

@@ -1,0 +1,4 @@
+2005-11-24T13:10:00.000Z	zephyrus		hey, does anyone know how to mount a ntfs partition so it is writeable?  I have it mounted with the same options as my writeable fat32s but I still can't modify the disk
+2005-11-24T13:10:00.000Z	LjL	zephyrus	don't write to ntfs disks
+2005-11-24T13:12:00.000Z	zephyrus	AzMoo	lJL:  hmm, ok thanks.  Maybe I'll just reformat that drive then.
+2005-11-24T13:13:00.000Z	LjL	zephyrus	i think the best setup is to keep a (possibly small) fat32 partition for exchanging data between windows and linux, and then having a main ext3 partition for linux and a main NTFS partition for windows

@@ -1,0 +1,4 @@
+2008-09-22T20:55:00.000Z	lubyou		if I remove network-manager, will i lose the internet access? i have a box where ubuntu desktop is installed, but since that box is running headless, i want to remove x11 and the depending packages
+2008-09-22T20:55:00.000Z	erUSUL	lubyou	you will have to configure network via /etc/network/interfaces
+2008-09-22T20:57:00.000Z	lubyou	erUSUL	http://dpaste.com/79764/. thats my network/interfaces. The box is currently connected over ppp0. Does that config seem ok to you?
+2008-09-22T20:58:00.000Z	erUSUL	lubyou	yep seems ok. althought never used interfaces with ppp connections...

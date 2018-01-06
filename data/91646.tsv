@@ -1,0 +1,4 @@
+2008-12-09T15:50:00.000Z	foloex		hello
+2008-12-09T15:51:00.000Z	foloex		does someone know how to manually mount a usb device by specifying its idproduct and idvendor ?
+2008-12-09T15:51:00.000Z	joaopinto	foloex	you mount devices based on their /dev/ naming, not on the ipdroducts/vendores
+2008-12-09T15:52:00.000Z	joaopinto	foloex	those id products/vendores are used by the kernel/drivers instead

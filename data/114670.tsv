@@ -1,0 +1,4 @@
+2008-12-09T13:09:00.000Z	Ayabara		I move a laptop with a 1400x1050 display between docking stations at home and at work. At home I have a secondary display of 1680x1050, and at work one of 1600x1200. I have ati graphics. (How) can I make an xorg.conf that will work out in both these cases?
+2008-12-09T13:10:00.000Z	binarymutant	Ayabara	you can add another monitor in your xorg.conf, if that's what you mean
+2008-12-09T13:15:00.000Z	Ayabara	binarymutant	what I mean is that http://ubuntu.pastebin.com/m4f52443e works well on my 1680x1050, and I want to modify it so it works with 1600x1200 as well
+2008-12-09T13:18:00.000Z	binarymutant	Ayabara	well what if you used a resolution that works on both? like 1024x768 or what not?

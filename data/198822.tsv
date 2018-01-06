@@ -1,0 +1,4 @@
+2006-04-07T15:48:00.000Z	possie		how can i install a packages via apt an not make it check for dependencies? i thougth 'apt-get --force-depends install foo' but this doesn't seem to work
+2006-04-07T15:49:00.000Z	ompaul	possie	that depends on what your trying to install - what is the program you want? and what your talking about may kill your box in new and interesting ways
+2006-04-07T15:50:00.000Z	possie	ompaul	well the package mythgame , now this depends on a wrong package so i'm trying to force the installation without letting it check for that certain dependency
+2006-04-07T15:51:00.000Z	ompaul	possie	you can install that it is in the repo multiverse

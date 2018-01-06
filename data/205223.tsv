@@ -1,0 +1,4 @@
+2006-07-08T10:52:00.000Z	xnull-		hmm any ideea why my ubuntu it's not working?( everything looks ok gdm start I type my user/password and after that he is loading and staying there) no err. no nothing just a brown colour .
+2006-07-08T10:52:00.000Z	xnull-		starts*
+2006-07-08T10:53:00.000Z	dli	xnull-	a n00b way, in console ( Ctl-Alt-F1 ), stop gdm ( sudo /etc/init.d/gdm stop ), rm -rf ~/.gconf* ~/.gnome* , restart gdm
+2006-07-08T10:55:00.000Z	dli	xnull-	if that doesn't solve the problem, remove all gnome and reinstall ubuntu-desktop

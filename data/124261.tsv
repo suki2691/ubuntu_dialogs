@@ -1,0 +1,4 @@
+2009-05-07T23:23:00.000Z	Alxandr		I've got a question. I managed to crash my ubuntu-running system trying to manually install a graphic-driver, no I can't access it. I used 'sh %driverinstallfile%' to do the installation.
+2009-05-07T23:23:00.000Z	Alxandr		Any way I can reset the grapics-driver without accessing the system?
+2009-05-07T23:24:00.000Z	pepperjack	Alxandr	boot into recovery (tap esc key during bootup for recovery option) then fix from there maybe a sudo dpkg-reconfigure xserver-xorg or somesuch
+2009-05-07T23:29:00.000Z	pepperjack	Alxandr	yes. boot livecd and then mount it then chroot /media/mountpoint   is one option

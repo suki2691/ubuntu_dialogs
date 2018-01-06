@@ -1,0 +1,4 @@
+2011-04-27T15:09:00.000Z	pindropper		cq: in the command itself? like google%21donkey
+2011-04-27T15:11:00.000Z	pindropper		cq: i would when i get to making non-whitespace queries work in the first place.
+2011-04-27T15:11:00.000Z	llutz_	pindropper	that won't work in an alias, the $* will be expanded when creating the alias, not when calling it. define/use a function
+2011-04-27T15:12:00.000Z	llutz_	pindropper	afaik no. use a function defined in .bashrc

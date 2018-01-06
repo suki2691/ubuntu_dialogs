@@ -1,0 +1,4 @@
+2011-02-14T21:16:00.000Z	SeanHeron		I have a question regarding invoking "sed" - specifically on how to get it to find all *.lua files in all subfolders (ie rather than using ./* which opens all text files in all subfolders). If someone can point me to a different channel where the question is more appropriate, that'd be fine as well :P.
+2011-02-14T21:17:00.000Z	Pici	SeanHeron	How about something like:  find /path/to/files -iname "*.lua" -exec sed s/whatever/whatever/ -i {}\;
+2011-02-14T21:25:00.000Z	SeanHeron	Pici	- thanks that worked fine!
+2011-02-14T21:25:00.000Z	Pici	SeanHeron	Great!

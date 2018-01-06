@@ -1,0 +1,4 @@
+2005-04-23T11:19:00.000Z	edgeoc		anyone know how I can add divx playback on Ubuntu 5.04 on an amd64 system? I tried ubuntuguide.com however, when I add the extra sources and do an apt-get update or apt-get install w32codecs it complains that it cant find a folder on the site that ends in 64.. Im assuming this means that repository doesnt have 64 bit apps... anyone know how I can play divx files?
+2005-04-23T11:19:00.000Z	epicenter_	edgeoc	VLC will play them. It has its own codecs.
+2005-04-23T11:20:00.000Z	epicenter_	edgeoc	Synaptic just uses apt, so yeah.
+2005-04-23T11:44:00.000Z	epicenter_	edgeoc	kill esd or artsd

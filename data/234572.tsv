@@ -1,0 +1,4 @@
+2006-02-20T06:19:00.000Z	sumedha		My gdm.conf has "DisallowTCP=false". I have done "xhost +". Also, my DISPLAY on the remote session is set correctly to my IP. BUt I am unable to get the display of the X programs on my screen. What else coulf I do ? (Ubuntu 5.10 )
+2006-02-20T06:20:00.000Z	dooglus	sumedha	do you have :0 on the end of your DISPLAY?
+2006-02-20T06:20:00.000Z	dooglus	sumedha	did you export it?
+2006-02-20T06:21:00.000Z	dooglus	sumedha	I would expect to see a : and a 0 in that error message

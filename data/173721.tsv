@@ -1,0 +1,4 @@
+2009-05-23T17:48:00.000Z	kwtm		Question about purging: I can't seem to purge (config files of) packages I've already removed.  Now, I want to purge "mysql", but "amarok" depends on "mysql" and I just want to remove and not purge "amarok".  Can I do this?  How?  (Prefer cmd-line.)
+2009-05-23T17:49:00.000Z	kwtm		Can I do "sudo apt-get remove amarok --purge mysql" or something to selectively purge?
+2009-05-23T17:49:00.000Z	sebsebseb	kwtm	sudo apt-get remove amarok
+2009-05-23T17:49:00.000Z	kwtm	sebsebseb	Oh, of course!  Remove amarok *first* and then it won't get affected by subsequent purge command!  Duhhh... thanks.

@@ -1,0 +1,4 @@
+2008-01-03T09:40:00.000Z	RedAlien_		Another question : how do I set the resolution of tty1-6?
+2008-01-03T09:41:00.000Z	RedAlien_		Currently it's like if my resolution was 100X100 =S!
+2008-01-03T09:43:00.000Z	RedAlien_		Anyone knows how to set resolution for tty1 to tty6?
+2008-01-03T09:44:00.000Z	zcat[1]	RedAlien_	in /boot/grub/menu.conf, kernel option vga=n

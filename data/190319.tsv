@@ -1,0 +1,4 @@
+2006-12-13T07:27:00.000Z	gharz		guys, what's the command to delete a directory with files in it? i tried rm -f <directory> but it doesn't work.
+2006-12-13T07:28:00.000Z	frogzoo	gharz	you likely don't have permssion - ls -l dir
+2006-12-13T07:28:00.000Z	frogzoo	gharz	you likely don't have permssion - ls -ld dir
+2006-12-13T07:28:00.000Z	gharz	frogzoo	it worked fine with -r

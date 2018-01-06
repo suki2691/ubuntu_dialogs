@@ -1,0 +1,4 @@
+2004-12-06T07:23:00.000Z	gnobody		I just did a "sudo modprobe emu10k1" and it didn't fix it
+2004-12-06T07:24:00.000Z	gnobody		0000:00:0a.1 Multimedia controller: Brooktree Corporation Bt878 Audio Capture (rev 11)
+2004-12-06T07:24:00.000Z	gnobody		0000:00:0b.0 Multimedia audio controller: Creative Labs SB Live! EMU10k1 (rev 07)
+2004-12-06T07:24:00.000Z	sladen	gnobody	can you search the logs in /var/log/messages and see if there is anything noting why it didn't load automatically

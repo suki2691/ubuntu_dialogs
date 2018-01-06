@@ -1,0 +1,4 @@
+2011-12-28T03:40:00.000Z	Daghdha		anyone know why a shell in unix wouldn't wait for read 'command' in a shells cript if it's run with -e? like: xvt -e myscript  (in gnome-terminal it also fails to wait for the read to close)
+2011-12-28T03:41:00.000Z	wooter	Daghdha	well the -e specifies If not interactive, exit immediately if any untested command fails.
+2011-12-28T03:43:00.000Z	Daghdha	wooter	What if i want it to not exit imemdiately?
+2011-12-28T03:43:00.000Z	wooter	Daghdha	don't use -e ?

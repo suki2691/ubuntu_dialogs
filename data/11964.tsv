@@ -1,0 +1,4 @@
+2011-12-15T11:09:00.000Z	Al_nz1		how would I search a series of directories ( recup* ) for *.txt files containing nz email addresses (ie strings with @*.nz)
+2011-12-15T11:10:00.000Z	somsip	Al_nz1	grep -r -i @*.nz /root_dir, possibly
+2011-12-15T11:11:00.000Z	Al_nz1	somsip	just not sure where in there I specify the path? ie /home/al/recup* ?
+2011-12-15T11:11:00.000Z	somsip	Al_nz1	wherever the files are situated

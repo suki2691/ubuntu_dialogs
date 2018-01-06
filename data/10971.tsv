@@ -1,0 +1,4 @@
+2011-09-24T00:35:00.000Z	tsaknorris		i had this problem maybe 1 year ago. i dont anymore remember the solution. USB-hard drive is read only mode!?!?  it was easy maybe i have to just mount it with other filesystem hmm....
+2011-09-24T00:36:00.000Z	urlin2u	tsaknorris	you can open nautilus in root gksudo nautlus and change the permission i=on the usb
+2011-09-24T00:38:00.000Z	tsaknorris	urlin2u	 this happened to my friends APPLE :P and now im at home but i was just thinkin because i had same kind of issue. i think it will work if you do mount -t vfat /dev/foo /Volume/bar
+2011-09-24T00:54:00.000Z	tsaknorris	urlin2u	other option is ofcourse that MAC:s kernel doesnt even support -t vfat filesystem :D well next time ;)

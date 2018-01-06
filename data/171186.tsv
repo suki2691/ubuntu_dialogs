@@ -1,0 +1,4 @@
+2008-10-15T15:51:00.000Z	kian		how do i restart eth0 ?
+2008-10-15T15:51:00.000Z	kian		well i want to renew its ip
+2008-10-15T15:53:00.000Z	kian		i just reserved its ip and restarted the dhcp server. should it not have updated itself then?
+2008-10-15T15:54:00.000Z	chaddy	kian	sudo /etc/init.d/networking restart

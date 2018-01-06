@@ -1,0 +1,4 @@
+2012-06-07T22:03:00.000Z	J11		is there a way for root to access .gvfs ? I want to copy files using root to a network share but root got permission denied
+2012-06-07T22:05:00.000Z	J11		Or is there any way to copy using the rights of one account to access the source and use another user to put it in a destination folder?
+2012-06-07T22:06:00.000Z	Baribal	J11	sudo and chown -R?
+2012-06-07T22:07:00.000Z	Baribal	J11	sudo su <username>, to be exact.

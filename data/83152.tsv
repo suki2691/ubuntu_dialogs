@@ -1,0 +1,4 @@
+2008-08-09T01:33:00.000Z	NekoCodi		Specifying my question better. I installed some drivers for my intel chipset display, from the intel website (Bad move I know) in attempts to get something working, I need to revert the display settings to back before I installed the drivers. As in the old xorg settings. Would anyone be able to tell me how to do that?
+2008-08-09T01:33:00.000Z	infinitycircuit	NekoCodi	dpkg-reconfigure -phigh xserver-xorg
+2008-08-09T01:33:00.000Z	infinitycircuit		use sudo
+2008-08-09T01:35:00.000Z	NekoCodi	infinitycircuit	thank you. I'll see if that works.

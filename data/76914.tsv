@@ -1,0 +1,4 @@
+2008-11-03T03:00:00.000Z	\Kira		Im running ubuntu server on an old pc with no moniter or keyboard. I control the system via ssh from my kubuntu box. I want to run a command on the server that takes about a week to finish, but I don't want to keep my kubuntu box up and running the whole week. Is there a way I can get the command to run, log out from the server, and log back in perodically to check on it?
+2008-11-03T03:01:00.000Z	RyanPrior	\Kira	yes. You can use GNU screen, or you can run it as a cron job, etc.
+2008-11-03T03:01:00.000Z	\Kira	RyanPrior	Thanks, ill look into cron job. Whats GNU screen?
+2008-11-03T03:02:00.000Z	RyanPrior	\Kira	"man screen" for more information about screen. It's a very useful tool.

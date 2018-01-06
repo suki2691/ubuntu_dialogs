@@ -1,0 +1,4 @@
+2006-05-03T12:24:00.000Z	mastertsunami		anyone know how to check the current graphic depth?
+2006-05-03T12:24:00.000Z	mastertsunami		i set it to default to 24 bit but i think it is only in 16 :(
+2006-05-03T12:25:00.000Z	amias	mastertsunami	have a look at your X logs - /var/log/Xorg.0.log
+2006-05-03T12:30:00.000Z	amias	mastertsunami	all applications on an x display will run at the same bit depth

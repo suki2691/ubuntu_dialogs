@@ -1,0 +1,4 @@
+2009-01-14T18:47:00.000Z	mib_7itolf		Hi all quick question. How can I make ubuntu query for a dhcp address manually if it has not found one on boot and I corrected the problem?
+2009-01-14T18:49:00.000Z	ikonia	mib_7itolf	if you set the card to dhcp, it will request an ip on boot
+2009-01-14T18:50:00.000Z	ikonia	mib_7itolf	it will do it for you
+2009-01-14T18:50:00.000Z	ikonia	mib_7itolf	dhclient will request an address for you

@@ -1,0 +1,4 @@
+2007-04-15T09:21:00.000Z	jeffwheeler		In a default install, are extended attributes enabled on the filesystem?
+2007-04-15T09:22:00.000Z	jeffwheeler		It doesn't look like extended attributes are enabled, but Beagle suggests it, and I suspect many other things do also.
+2007-04-15T09:24:00.000Z	Faugn	jeffwheeler	check in fstab, you need user_xattr in the option
+2007-04-15T09:24:00.000Z	jeffwheeler	Faugn	alright, thanks

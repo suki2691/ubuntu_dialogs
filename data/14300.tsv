@@ -1,0 +1,4 @@
+2011-05-23T02:29:00.000Z	webad_13		when I issue the following command: sudo mount -t ntfs-3g -o nls=utf8,fmask=0113,dmask=0002 /dev/sdb2 /mnt/sdb2   the sdb2 is mounted but permissions are: drwxrwxr-x root root ... I am not getting it, could someone explain
+2011-05-23T02:30:00.000Z	escott	webad_13	you probably want to add uid=1000,gid=1000 to your mount options
+2011-05-23T02:31:00.000Z	escott	webad_13	unless your concern was the fmask,dmask
+2011-05-23T02:32:00.000Z	webad_13	escott	yeah I am not concered with the user just the permissions

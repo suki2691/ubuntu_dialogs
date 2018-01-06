@@ -1,0 +1,4 @@
+2009-05-29T21:48:00.000Z	porter1		How does one delete everything associated with evolution? When I delete my account, and apt-get purge, it still seems to be remembering things...
+2009-05-29T21:49:00.000Z	unop	porter1	 so what kind of stuff is 'remembered'?
+2009-05-29T21:50:00.000Z	unop	porter1	 find /home/unop/.g[cn]* -iname "*evolution*" -exec rm -rif {} \;
+2009-05-29T21:51:00.000Z	unop	porter1	err.  find ~/.g[cn]* -iname "*evolution*" -exec rm -rif {} \;

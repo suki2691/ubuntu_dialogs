@@ -1,0 +1,4 @@
+2010-08-11T00:19:00.000Z	jpag87a		Hi, I have this problem: my computer starts beeping very loudly when shutting down, the snd_pcsp and pcspkr are already blacklisted in /etc/modprobe.d/blacklist.conf (the only solution I get when searching everywhere on the Web). This doesn't happen all the time, but I really need to get rid of the beeping, since it has happened at office and is very embarrasing (and will get me berated soon for sure). I'm using Ubuntu 9.10 (Linux 2.6.31-22-generic #61-Ub
+2010-08-11T00:20:00.000Z	trijntje	jpag87a	I think that mean kernel-panic at shutdown, thats all I know
+2010-08-11T00:21:00.000Z	trijntje		!grub | Sid123
+2010-08-11T00:22:00.000Z	jpag87a	trijntje	The computer shuts down normally (the shutdown animation pulses and fades normally, then the computer shuts down)... Whenever my computer goes kernel panic I have to use the power button, it just hangs... no I think it's not a kp

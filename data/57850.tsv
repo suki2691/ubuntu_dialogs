@@ -1,0 +1,4 @@
+2010-02-19T00:40:00.000Z	Almark		inveratulo_ yeah its a deb package but which one, what door to open lol
+2010-02-19T00:40:00.000Z	Almark		inveratulo_ what is RHEL
+2010-02-19T00:42:00.000Z	Almark		Losha_ how would I go about using apt to find that package?
+2010-02-19T00:43:00.000Z	boss_mc	Almark	some variation on <<find . -name *.deb -exec grep "<filename>" '{}' \;>>

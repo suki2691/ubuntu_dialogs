@@ -1,0 +1,4 @@
+2010-03-23T00:06:00.000Z	WAawaawEE		Need help with crontab -> http://pastebin.com/CqxUEtgm     <=== this is suppose to backup all files\folders in specified places each day... its not working right =[ backs up pretty much nothing!
+2010-03-23T00:07:00.000Z	WAawaawEE		ah
+2010-03-23T00:07:00.000Z	WAawaawEE		should that fix all the issues?
+2010-03-23T00:08:00.000Z	Losha	WAawaawEE	I'm not sure $HOME is set in cron. Try echoing the actual command lines instead of just the pretty comments

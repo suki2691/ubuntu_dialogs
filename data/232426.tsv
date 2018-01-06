@@ -1,0 +1,4 @@
+2009-12-30T04:47:00.000Z	mdk		Ok so i have an old CRT monitor im running karmic and dual booting with xp as my slave xp runs at 800x600 and ubuntu before the graphics card is installed runs at 800x600, however when i install my graphics card gForce 5500 it sticks my resolution at 640x480, i have tried editing my xorg.conf i've tried adding modelines ive trawled google for weeks but i just cant find a fix
+2009-12-30T04:47:00.000Z	erUSUL	mdk	tried with « gksudo nvidia-settings » ?
+2009-12-30T04:51:00.000Z	erUSUL	mdk	use « gksudo nvidia-settings » to configure the screen then use the save X configuration file button
+2009-12-30T05:08:00.000Z	erUSUL	mdk	disable the cdrom in the sources. System>Admin...>software Sources first tab

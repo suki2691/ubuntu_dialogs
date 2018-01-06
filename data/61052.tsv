@@ -1,0 +1,4 @@
+2009-04-03T10:43:00.000Z	mib_ab6d1e		is there a way to automount flash drives before logging in - this is necessary for pamusb
+2009-04-03T10:45:00.000Z	mib_ab6d1e		actually i just visited the pam_usb page - it says automounting isn't necessary, that it queries hal. must be a problem with that package or w/ my hardware
+2009-04-03T10:45:00.000Z	Buiss	mib_ab6d1e	you can add it in /etc/fstab
+2009-04-03T10:46:00.000Z	mib_ab6d1e	Buiss	it doesn't need to be automounted

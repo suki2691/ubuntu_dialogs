@@ -1,0 +1,4 @@
+2012-03-09T00:30:00.000Z	helo__		hello, I am trying to modify my partitions and can't figure out how to move my linux partition. Current layout is 205GiB unallocated, then a 25 GiB extended partition with the EXT and swap in it. How can I move the OS to the beginning of the drive? (remnant of when Windows was at the beginning)
+2012-03-09T00:30:00.000Z	medie	helo__	why does it matter where it is?
+2012-03-09T00:34:00.000Z	helo__	medie	The beginning of a HDD is faster due to the rotation and physics of a cylindrical disc
+2012-03-09T00:34:00.000Z	medie	helo__	In theory: yes, noticable in daily use: no. But if you have to move it, use a gparted livecd

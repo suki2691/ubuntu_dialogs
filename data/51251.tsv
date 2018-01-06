@@ -1,0 +1,4 @@
+2010-02-04T03:41:00.000Z	unixalot		Im back, Okay so when i call the script awn from the terminal, it runs awn on a sleep 20 right, but when i add the script to startup applications it doesnt open..
+2010-02-04T03:43:00.000Z	unixalot		In startup applications for the command i have to call the script i made is , /usr/local/bin/awn
+2010-02-04T03:43:00.000Z	unixalot		and its already executable
+2010-02-04T03:45:00.000Z	trism	unixalot	unfortunately, startup applications doesn't seem to like to run anything that isn't an x application...so what I generally do is use an xterm to execute the script (you won't see the xterm if the script is quick), something like: xterm -e /path/to/script;

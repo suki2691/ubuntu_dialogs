@@ -1,0 +1,4 @@
+2009-03-12T06:04:00.000Z	rdw200169	spigot	you can do ssh over port 80
+2009-03-12T06:05:00.000Z	rdw200169	spigot	i mean port 443
+2009-03-12T06:07:00.000Z	rdw200169	spigot	ajehals its doubtful that their firewall/IDS solution is scrubbing layer 7 traffic
+2009-03-12T06:08:00.000Z	rdw200169	spigot	if you've got some time, you could set up an openvpn type server on your home side running on port 443, that, or you could go the easy way and use openssh-server

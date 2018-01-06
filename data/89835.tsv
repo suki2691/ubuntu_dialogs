@@ -1,0 +1,4 @@
+2008-05-23T03:50:00.000Z	ubuntu_		Uh, I typed in fdisk-l, but it doesn't say anything at all. Does this mean my hard drive is toast?
+2008-05-23T03:51:00.000Z	ubuntu_		Yes, I did that, sorry
+2008-05-23T03:52:00.000Z	ubuntu_		When I type in fdisk -l, it doesn't list anything. While I was booting up, it was giving me some error messages about /dev/sda1
+2008-05-23T03:52:00.000Z	eleventy-six	ubuntu_	It means you haven't specified a valid drive. fdisk -l /dev/whatever

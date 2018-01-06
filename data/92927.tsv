@@ -1,0 +1,4 @@
+2008-04-29T08:38:00.000Z	popcornsgood		ok i tried changing the ownership of the documents partition i have to fix my lack of write permissions problem, but even when using sudo, it says i dont have permission to do so.  does anyone know how to solve my problem?
+2008-04-29T08:39:00.000Z	genii	popcornsgood	Permissions of partitions are not alterable
+2008-04-29T08:39:00.000Z	popcornsgood	genii	 so how do I give my second hard drive write permissions?
+2008-04-29T08:40:00.000Z	genii	popcornsgood	Make a subdirecory in the mounted partition and give that read/write permissions to the user you wanted

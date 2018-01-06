@@ -1,0 +1,4 @@
+2006-08-17T08:32:00.000Z	pp		Hi folks, can anyone recommend a package which will log all of the terminal/console messages (say during compiling a kernel) to a text file?
+2006-08-17T08:33:00.000Z	harisund	pp	you could redirect the standard output to one file and the errors to another file for monitoring later.
+2006-08-17T08:34:00.000Z	pp	harisund	: ah, that sounds about right how do I do that? make-pkg kernel image > /log.txt would that do it?
+2006-08-17T08:34:00.000Z	harisund	pp	I am guessing make_kpkg kernel_image >output.log 2>error.log would be fine.

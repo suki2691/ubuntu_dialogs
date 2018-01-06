@@ -1,0 +1,4 @@
+2011-03-25T23:22:00.000Z	coventry		I'd like to change my default WM.  What's the right way to do this on Lucid?  Some pages on the web have suggested it's possible to do this by choosing a "session" when I log in.  I'm not seeing the option for this.  I've tried changing .gconf/desktop/gnome/applications/window_manager/ using both gconf-editor and emacs, but the setting reverts when I log out and log back in, leaving me with compiz.
+2011-03-25T23:23:00.000Z	ActionParsnip	coventry	press ALT+F2 and run: manager --replace (e
+2011-03-25T23:24:00.000Z	coventry	ActionParsnip	I want to change the *default*.  I can start the WM from the CL easily enough...
+2011-03-25T23:25:00.000Z	ActionParsnip	coventry	i always just add a startup item to run the command

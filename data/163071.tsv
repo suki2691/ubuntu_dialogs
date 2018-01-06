@@ -1,0 +1,4 @@
+2007-05-29T10:02:00.000Z	aldin		what ports should i open on router for postfix?
+2007-05-29T10:02:00.000Z	nix	aldin	port 25 if you're doing plain smtp
+2007-05-29T10:03:00.000Z	aldin	nix	what about 23 (telnet)
+2007-05-29T10:03:00.000Z	nix	aldin	you can have postfix listen on port 23 for smtp connection but that'll break the standard

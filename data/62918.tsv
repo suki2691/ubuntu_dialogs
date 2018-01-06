@@ -1,0 +1,4 @@
+2009-03-24T03:42:00.000Z	Dashkal		ok, just confirmed it with apache.  I get the same download rate from the machine (50k/s).  Worse is it seems to kill the ubuntu box's connection when I do it (suggesting strongly it isn't the vista laptop).  Where would I look for network limits?
+2009-03-24T03:43:00.000Z	twolane	Dashkal	the MTU value for inet interface ifconfig cmd
+2009-03-24T03:44:00.000Z	Dashkal	twolane	mtu is 1500 (the default I thought?)
+2009-03-24T03:44:00.000Z	twolane	Dashkal	it is.

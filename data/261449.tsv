@@ -1,0 +1,4 @@
+2006-06-12T12:59:00.000Z	walkover		I am trying to install a module and it ask for my linux kernel tree. Where can i find that?
+2006-06-12T12:59:00.000Z	Seveas	walkover	sudo apt-get install linux-headers-$(uname -r)
+2006-06-12T13:09:00.000Z	Seveas	walkover	remove that file and install the linux-source-2.6.15 package
+2006-06-12T13:45:00.000Z	Seveas	walkover	linux-source-2.6.15

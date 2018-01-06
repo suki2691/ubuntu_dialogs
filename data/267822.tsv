@@ -1,0 +1,4 @@
+2004-12-06T13:50:00.000Z	gen		Why is it that when i reboot with "id:3:initdefault:" in /etc/inittab i still go into X
+2004-12-06T13:50:00.000Z	crimsun	gen	because Debian doesn't muck with runlevels
+2004-12-06T13:50:00.000Z	crimsun	gen	2-5 are identical
+2004-12-06T13:50:00.000Z	crimsun	gen	sudo invoke-rc.d gdm stop

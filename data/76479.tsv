@@ -1,0 +1,4 @@
+2008-11-14T14:06:00.000Z	ghostknife		We have a centralized samba share for mounting all the /var/cache/apt/archives of all the ubuntu machines. This allows less downloads when doing updates. We also have the repositories download from a centralized location. So we update the main machine, and then the other machines update from the local network.
+2008-11-14T14:07:00.000Z	fen`	ghostknife	why samba instead of http?
+2008-11-14T14:09:00.000Z	ghostknife	fen`	so the machines don't have to store them locally
+2008-11-14T14:10:00.000Z	ghostknife	fen`	ok. will check it out. thanks

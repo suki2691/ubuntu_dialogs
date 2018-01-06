@@ -1,0 +1,4 @@
+2005-04-13T13:18:00.000Z	dts		what does purge do in apt-get? does it pretend a package is insterted?
+2005-04-13T13:20:00.000Z	kain	dts	purge doesn't exist in apt, it exists in dpkg. dpkg --purge package remove the package, even config files. apt-get clean cleans package downloaded
+2005-04-13T13:21:00.000Z	dts	kain	is there a way to not have apt remove packages
+2005-04-13T13:22:00.000Z	kain	dts	mm.. don't know, sorry

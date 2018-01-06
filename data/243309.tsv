@@ -1,0 +1,4 @@
+2005-12-10T13:50:00.000Z	yoav		hey everyone, new linux user, trying to edit the /etc/apt/sources.list but i tells me i cant. apparently im not the owner...? im just following instructions trying to compile amule, and very clueless
+2005-12-10T13:52:00.000Z	yoav		rambo3 - what does that do?
+2005-12-10T13:54:00.000Z	zelas_metallium	yoav	only root can edit that file, sudo changes you to root within the scope of the application you run under it
+2005-12-10T13:54:00.000Z	zelas_metallium	yoav	so, sudo <editor> <file> edits as root

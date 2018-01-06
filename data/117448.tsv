@@ -1,0 +1,4 @@
+2009-08-26T13:32:00.000Z	AdvoWork		if df shows / as having 20gb which 20gb is used. I need to find exactly how much space is in all folders. What command can i use?
+2009-08-26T13:33:00.000Z	Ubersoldat	AdvoWork	ie du -csh
+2009-08-26T13:36:00.000Z	AdvoWork	Ubersoldat	im doing that BUT its listing /opt/ as 157gb.. but thats over the 20gb so im not sure if its including things it shouldnt be
+2009-08-26T13:37:00.000Z	Ubersoldat	AdvoWork	then go inside /opt and do a more granular du in there

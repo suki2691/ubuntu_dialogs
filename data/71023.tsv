@@ -1,0 +1,4 @@
+2009-02-09T01:04:00.000Z	CarlFK		how do I turn off the cpu freq scaling thing?  (so that it doesn't slow down, cuz that messes up realtime video encoding)
+2009-02-09T01:05:00.000Z	eut	CarlFK	kill the power saving applets/daemons
+2009-02-09T01:05:00.000Z	CarlFK	eut	i need it more permanently, so that I don't have to do it each time I reboot
+2009-02-09T01:06:00.000Z	eut	CarlFK	look at the /etc/init.d scripts, there should be one in there for the power saving stuff

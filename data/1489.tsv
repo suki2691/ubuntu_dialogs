@@ -1,0 +1,4 @@
+2012-08-21T16:03:00.000Z	retnan_		ubuntu 12.04 ey guys: (13)Permission denied: /home/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable
+2012-08-21T16:04:00.000Z	whiskers75	retnan_	have you tried chmod 777 /home/.htaccess ?
+2012-08-21T16:19:00.000Z	retnan_	whiskers75	chmod 777 /home/.htaccess didnt work
+2012-08-21T16:25:00.000Z	retnan_	whiskers75	-rwxrwxrwx  1 www-data root    0 Aug 21 12:36 /home/.htaccess

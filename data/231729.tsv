@@ -1,0 +1,4 @@
+2005-12-31T15:33:00.000Z	kevor		Hi there, what is different between a debian base system that can receive mails, and a ubuntu system that can't?
+2005-12-31T15:33:00.000Z	kevor		other words, what do i need to install to receive mails on this ubuntu box
+2005-12-31T15:34:00.000Z	kevor		just get mail to your /var/mail
+2005-12-31T15:35:00.000Z	Sepheebear	kevor	it depends. if you want to simply pull from another mail server, use fetchmail or getmail. if you want to setup a smtp server install postfix or exim

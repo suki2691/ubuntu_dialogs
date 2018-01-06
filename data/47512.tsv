@@ -1,0 +1,4 @@
+2009-11-30T14:57:00.000Z	PFA		hey, i'm having ridiculous problems w/ hibernate on critical battery power on karmic. first is that it hibernates even *after* i plug in the adapter, sometimes seemingly when it still has tons of power left (and always right after); second is that when it wakes up often it blackscreens and freezes until i press the power button and force shut down.
+2009-11-30T14:57:00.000Z	theadmin	PFA	Second one is known of, I have the same problem. Did you try Alt+SysRq+K when it is blackscreened?
+2009-11-30T14:58:00.000Z	PFA	theadmin	what does it do?
+2009-11-30T14:59:00.000Z	theadmin	PFA	Kills all apps in current VT (restarts Xserver, if you wish)... It's not very good, but better then hard reset

@@ -1,0 +1,4 @@
+2008-11-16T18:55:00.000Z	Zaq		is there a way to restart "audio services" or whatever they're called, when I try to play a flash video, like youtube or something, pulseaudio freaks out and kills all audio
+2008-11-16T18:55:00.000Z	Dr_willis	Zaq	 try sudo /etc/init.d/alsa restart and 'pulse restart' perhaps
+2008-11-16T18:56:00.000Z	Dr_willis	Zaq	 pulse is another service just like alsa
+2008-11-16T18:57:00.000Z	Dr_willis	Zaq	 try sudo /etc/init.d/pulse restart

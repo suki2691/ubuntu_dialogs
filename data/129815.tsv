@@ -1,0 +1,4 @@
+2007-10-24T01:36:00.000Z	kyled185		I'm trying to figure out why HAL is failing to initialize, does anyone know what the log files are called that would detail that kind of information?
+2007-10-24T01:36:00.000Z	src	kyled185	start hald by hand and look at the error messages. more info in man hald
+2007-10-24T01:37:00.000Z	kyled185	src	it starts up just fine by hand
+2007-10-24T01:38:00.000Z	src	kyled185	then look in the logfiles (syslog, messages, daemon.log) in /var/log

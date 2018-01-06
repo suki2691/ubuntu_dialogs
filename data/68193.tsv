@@ -1,0 +1,4 @@
+2009-12-27T08:13:00.000Z	chu_		I had some problems installing karmic when it was first released too, both trying to upgrade from Jaunty and then trying to upgrade a vanilla Karmic beta install.. I don't remember when it was, but I updated a while back and everything's been sweet since. Don't think there are any problems with Karmic anymore.
+2009-12-27T08:13:00.000Z	Gnimsh	chu_	I think I may try installing to a thumbdrive first just to make sure
+2009-12-27T08:15:00.000Z	chu_	Gnimsh	do you have a separate /home partition? Makes life pretty easy really.. I have some simple bash scripts which perform an update/restore, for things like fstab, sources.list, and the backup script exports a list of installed packages which gets imported in the restore script etc. Pretty easy.
+2009-12-27T08:18:00.000Z	Gnimsh	chu_	where'd you get this script?

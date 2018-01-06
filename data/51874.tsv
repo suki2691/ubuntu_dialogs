@@ -1,0 +1,4 @@
+2009-07-27T07:25:00.000Z	Brian_H		I'm trying to setup a preseed file that partitions my drives and makes / and swap encrypted however I can't get the recipe right, can anyone provide some insight?  I've tried the "use entire disk and setup lvm and encrypt" however I always get grub error 18 on boot, I think its because the installer for 9.04 doesn't make a separate unencrypted /boot
+2009-07-27T07:27:00.000Z	Brian_H		another question... if I'm encrypting my entire / parition it's not necessary to encrypt my home directory right?
+2009-07-27T07:28:00.000Z	psywiped	Brian_H	you could also use trucript
+2009-07-27T07:28:00.000Z	Brian_H	psywiped	linuxguy2009: thanks, I'm trying to setup a preseed file that does all of these choices for me but am having some dificullty getting the d-i paritioning part down

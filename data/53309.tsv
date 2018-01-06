@@ -1,0 +1,4 @@
+2009-07-15T02:24:00.000Z	Xubuntnoob		lets say when i type 'ls' and i get a list of files in my directory, i have lots of files that are very very long, and i'd like to manipulate their names, is there a way i can put a switch or something on the ls command to put a number to the file list so i could then type mv 'x' where x=some number?
+2009-07-15T02:24:00.000Z	Xubuntnoob		does that even make sense?
+2009-07-15T02:26:00.000Z	syslq78	Xubuntnoob	you want to rename files by appending them sequence number?
+2009-07-15T02:27:00.000Z	Xubuntnoob	syslq78	- yea ( i think)  ---> ls -sequence  yields file1=1 file2=2 etc... so then i could type mv (sequence#1) /home/user/short.file.name

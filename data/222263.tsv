@@ -1,0 +1,4 @@
+2006-04-02T07:26:00.000Z	xerophyte		how can i change only the directory and sub-directory permission to chmod 777 some_directory tree ?
+2006-04-02T07:28:00.000Z	intelikey	xerophyte	for this in `ls -1R blah` ;do if [ -d $this ]  ;then chmod 777 $this ;fi ;done
+2006-04-02T07:28:00.000Z	intelikey	xerophyte	blah being the base dir of corse
+2006-04-04T09:20:00.000Z	intelikey	xerophyte	is it not in the dapper repo ?

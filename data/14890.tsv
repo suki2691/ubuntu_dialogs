@@ -1,0 +1,4 @@
+2011-05-01T23:37:00.000Z	bite-android		hi, instaling 11.04. what should i set the mount point as?
+2011-05-01T23:37:00.000Z	Froq	bite-android	/
+2011-05-01T23:39:00.000Z	Froq	bite-android	it is the root of the drive, as it the very beginning of the partition/ drive and that is how the kernel will mount it.  The only time you would want to use /var, etc. is if you are going to place those directories in different partitions.
+2011-05-01T23:39:00.000Z	Froq	bite-android	make sense or not?

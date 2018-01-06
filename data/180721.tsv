@@ -1,0 +1,4 @@
+2010-08-24T08:26:00.000Z	r4v5		Does anyone even know where to begin on getting bug #601950 fixed? ("shift/alt/ctrl on this bluetooth keyboard doesn't work with ubuntu")
+2010-08-24T08:27:00.000Z	Muelli	r4v5	well. I'd do a "xev" and see whether the keycodes are actually sent
+2010-08-24T08:28:00.000Z	Muelli	r4v5	so they work.. ;-0
+2010-08-24T08:32:00.000Z	r4v5	Muelli	they "work" but they aren't recognized as modifiers, as reported in the bug :)

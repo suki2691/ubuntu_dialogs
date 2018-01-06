@@ -1,0 +1,4 @@
+2011-10-27T16:58:00.000Z	obert-		mm i cannot halt the system: it'll remains in the terminal window without shutdown all
+2011-10-27T16:59:00.000Z	obert-		unmount: /run/lock not unmounted   *Will now halt -- System halted.  but then no shutdown happens
+2011-10-27T17:00:00.000Z	obert-		seems that killall is gone bad (?)
+2011-10-27T17:02:00.000Z	iceroot	obert-	sounds like acpi (or what it is called) is not running the poweroff-function

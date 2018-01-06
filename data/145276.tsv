@@ -1,0 +1,4 @@
+2011-06-20T01:30:00.000Z	xevil	RenatoSilva	the file you'd be interested in editing is /boot/grub/grub.cfg... that took the place of menu.lst when grub migrated to grub2
+2011-06-20T01:32:00.000Z	RenatoSilva	xevil	no, iirc that's a grub-managed file, I need to edit /etc/default/grub and change names of file in /etc/grub.d, then run update-grub which in will update that file
+2011-06-20T01:32:00.000Z	RenatoSilva	xevil	not sure where to change font and color yet, but, it's like that iirc
+2011-06-20T01:33:00.000Z	RenatoSilva	xevil	i.e. you don't edit that file manually

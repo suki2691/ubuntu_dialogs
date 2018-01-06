@@ -1,0 +1,4 @@
+2006-03-26T11:42:00.000Z	Devil^Chat		i have problem win grub pls help me
+2006-03-26T11:43:00.000Z	Devil^Chat		1st i install ubuntu in hda and work,now i wanna plug my 2nd hd in hdb,in my  2nd hd have windowsxp,but in grub is not detec my windows,so what i must to do if i wanna go login to windows?
+2006-03-26T11:44:00.000Z	fyrestrtr	Devil^Chat	you need to setup grub's menu for it.
+2006-03-26T11:46:00.000Z	fyrestrtr	Devil^Chat	type this in your menu.lst in /boot/grub/ -- title=Windows XP rootnoverify(hd1,0) makeactive chainloader +1

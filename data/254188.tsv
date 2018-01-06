@@ -1,0 +1,4 @@
+2005-10-17T15:53:00.000Z	benkong2		anyone tell me how to find out if firefox has more than one process running? When I start FF it says choose another profile because default is already running. But its not.
+2005-10-17T15:54:00.000Z	Ng	benkong2	"ps auwx | grep firefox" will show any running processes, it could just be you need to remove the "lock" file from your firefox profile
+2005-10-17T15:54:00.000Z	benkong2	Ng	thanks
+2005-10-17T15:55:00.000Z	Ng	benkong2	.mozilla/firefox/ usually, then there will be a uniquely named directory in there with your profile in it

@@ -1,0 +1,4 @@
+2010-08-08T06:01:00.000Z	Palm76		Hey guy's. I have a problem. I installed Windows 7 and afterwards I wanted to reinstall grub to the mbr.For some reason grub wouldn't reinstall to the mbr en I did something really dumb. I cleared the mbr with "dd if=/dev/zero of=/dev/sda bs=512 count=1". When I realized what I did it was too late. The entire mbr is erased including the partition table. Is there a way te rewrite the partition table without loosing everything or am I screwed?
+2010-08-08T06:03:00.000Z	Palm76		@ Wildbat: I already downloaded the static binary but I can't figure out how to start it
+2010-08-08T06:04:00.000Z	ilovefairuz	Palm76	boot the live cd and check sudo fdisk -l
+2010-08-08T06:04:00.000Z	ilovefairuz	Palm76	join IRC from there and pastebin the output

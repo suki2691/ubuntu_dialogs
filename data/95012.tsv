@@ -1,0 +1,4 @@
+2012-10-09T18:52:00.000Z	muh2000		i have a strange issue. it seems like there is a permanent reference to adobe-flash-$old-version. other browsers are using the newer plugin but firefox still uses the old one.
+2012-10-09T18:53:00.000Z	samuel_	muh2000	have you tried doing a "locate libflashplayerplugin.so" in the terminal
+2012-10-09T18:53:00.000Z	muh2000	samuel_	yes, no return value
+2012-10-09T18:56:00.000Z	muh2000	samuel_	"locate libflashp" gave me a few locations. i located the ones close to the releasedate of $old-version and removed the culprit.... working now, thnx for the hint :)

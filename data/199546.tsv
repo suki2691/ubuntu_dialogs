@@ -1,0 +1,4 @@
+2006-06-02T15:02:00.000Z	pedrocr		my dapper update was interrupted by an accidental reboot and now update-manager won't show the dapper upgrade, what should I do?
+2006-06-02T15:03:00.000Z	claes	pedrocr	Try sudo dpkg --configure -a
+2006-06-02T15:05:00.000Z	pedrocr	claes	nothing was installed yet, I think it was still downloading
+2006-06-02T15:06:00.000Z	claes	pedrocr	Then sudo aptitude update ; sudo aptitude upgrade ; sudo aptitude dist-upgrade ; sudo aptitude install ubuntu-desktop

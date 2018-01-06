@@ -1,0 +1,4 @@
+2012-08-06T21:04:00.000Z	trism	branchman2	ia32-libs is just a metapackage to make it easy to pull in everything, you don't need it, just install the individual libname:i386 packages you need if you don't want everything
+2012-08-06T21:05:00.000Z	branchman2	trism	thanks - so libc6 is enough?
+2012-08-06T21:06:00.000Z	trism	branchman2	start there, but you may need to ldd the binary after that to see what else you need
+2012-08-06T21:06:00.000Z	branchman2	trism	y, thanks

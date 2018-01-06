@@ -1,0 +1,4 @@
+2010-02-05T01:50:00.000Z	josh0x0		hey guys.  I just replaced a nvidia gfx card with an ATI.  I did a remove of the nvidia drivers with apt-get remove --purge nvidia* but the kernel is still trying to load it.  how can I safely remove it and tell it to load my ATI graphic driver?
+2010-02-05T01:50:00.000Z	daftykins	josh0x0	modprobe -r nvidia
+2010-02-05T01:51:00.000Z	josh0x0	daftykins	odd.  says it was not found but I still got an error on bootup that it couldn't find the driver "nvidia"
+2010-02-05T01:51:00.000Z	daftykins	josh0x0	that'll be because your /etc/X11/xorg.conf is still configured to use it then. backup the file and look up how-to's on setting xorg.conf to be configured for ATI

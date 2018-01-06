@@ -1,0 +1,4 @@
+2006-02-22T16:06:00.000Z	bla|patrick		has anyone an idea whats meant by following failure: ohci_hcd *numbers* unlink after no irq? different acpi or apic settings may help
+2006-02-22T16:07:00.000Z	bla|patrick		this message always appears if i plugin a usb device (mouse, wlanstick, keyboard)
+2006-02-22T16:07:00.000Z	bla|patrick		bootprocess always fails :|
+2006-02-22T16:09:00.000Z	soundray	bla|patrick	apic and acpi options are set via kernel boot parameters. Edit the #kopts line in /boot/grub/menu.lst, adding e.g. "noapic". Then run update-grub and reboot.

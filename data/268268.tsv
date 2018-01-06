@@ -1,0 +1,4 @@
+2006-09-15T13:41:00.000Z	gharz		hi guys.i'm updating my system but i'm getting a failed msg => W: Failed to fetch http://security.ubuntu.com/ubuntu/pool/main/libx/libxfont/libxfont1_1.0.0-0ubuntu3.1_i386.deb.404 Not Found
+2006-09-15T13:41:00.000Z	gharz		what does it mean?
+2006-09-15T13:42:00.000Z	pitti	gharz	your package index is out of date
+2006-09-15T13:42:00.000Z	pitti	gharz	you need to update it first (reload in synaptic, apt-get update on the shell)

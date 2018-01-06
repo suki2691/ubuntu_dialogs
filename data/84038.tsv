@@ -1,0 +1,4 @@
+2008-08-01T04:59:00.000Z	rburnes		On Ubuntu gutsy - I just got a 24 inch widescreen lcd capable of 1920x1200 - everything works perfectly using NV driver, but not nvidia (just installed latest legacy driver) at 1920x1200 - nvidia driver works fine at 1600x1200 (when starting up) but when I start nvidia in 16x12 I can switch to 1920x1200 without issues - any ideas?
+2008-08-01T05:01:00.000Z	rburnes		so it starts gdm / x fine at 1600x1200, and I can switch from there to 1920x1200 fine, but starting at 1920x1200 doesn't work
+2008-08-01T05:02:00.000Z	rburnes		is there any way I can change the resolution from command line on a per session basis? like the gnome screen resolution system?
+2008-08-01T05:04:00.000Z	zombieball	rburnes	custom xorg.conf ?

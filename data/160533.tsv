@@ -1,0 +1,4 @@
+2007-05-26T05:11:00.000Z	kaostikone		hey when im in the terminal how do i dl files again (i.e. Apache????)
+2007-05-26T05:11:00.000Z	Jordan_U	kaostikone	wget?
+2007-05-26T05:14:00.000Z	Jordan_U	kaostikone	Ahh, you mean like: sudo apt-get install apache
+2007-05-26T05:18:00.000Z	Jordan_U	kaostikone	No, apt-get downloads and installs packages, you want to search for the package with apt-cache search, then install it with sudo apt-get install <packagename>

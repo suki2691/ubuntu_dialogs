@@ -1,0 +1,4 @@
+2008-12-19T16:56:00.000Z	CAiRO		when i run "vim.gnome" in my gnome-terminal, it runs a console version of vim instead of the gui version.. how can i get vim.gnome to actually pop up the gvim editor?
+2008-12-19T16:56:00.000Z	fryguy	CAiRO	try running gvim instead, or vim.gnome -g
+2008-12-19T16:56:00.000Z	fryguy	CAiRO	or run :gui after it initially starts up
+2008-12-19T16:57:00.000Z	CAiRO	fryguy	ah, ok, i can put that in my .vimrc

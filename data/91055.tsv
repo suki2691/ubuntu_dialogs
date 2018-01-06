@@ -1,0 +1,4 @@
+2009-10-19T03:52:00.000Z	domo		hello, i have a drive in an ubuntu box from windows.. it has a GPT (dynamic disk) signature on it still (as ubuntu says) how do i get rid of it? i did fdisk /dev/sba and deleted the partition but its still there!!
+2009-10-19T03:53:00.000Z	mgolisch	domo	use parted, fdisk doenst understand gpt
+2009-10-19T03:53:00.000Z	domo	mgolisch	will zero writing the drive fix it?
+2009-10-19T03:54:00.000Z	mgolisch	domo	if theres nothing on it : yes

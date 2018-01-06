@@ -1,0 +1,4 @@
+2006-11-07T08:08:00.000Z	edgy		Hi, /etc/init.d/apache2 restart says nothing. ps aux doesn't display any apache process running. the error log is blank, how can I troubleshoot this?
+2006-11-07T08:09:00.000Z	variant	edgy	/etc/init.d/apache2 start && ps aux | grep apache
+2006-11-07T08:10:00.000Z	edgy	variant	nothing except the grep apache process
+2006-11-07T08:10:00.000Z	variant	edgy	try just running apache

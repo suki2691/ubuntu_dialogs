@@ -1,0 +1,4 @@
+2006-01-17T09:53:00.000Z	nanaem		how do i make a harddisk visible after i've partitioned it as ext3? shall i edit the fstab somehow? just point me in the right direction and maybe i'll figure it out :)
+2006-01-17T09:54:00.000Z	PuMpErNiCkLe	nanaem	Yeah, you'll probably have to edit /etc/fstab... basically, take an entry that's already there, copy it, and change the mount point and physical address.
+2006-01-17T09:55:00.000Z	PuMpErNiCkLe	nanaem	And the filesystem, if it's not ext3.
+2006-01-17T09:55:00.000Z	PuMpErNiCkLe	nanaem	np :)

@@ -1,0 +1,4 @@
+2008-08-02T00:25:00.000Z	jose		Hello can someone help me to install the 'Kernel-source' or 'kernel-devel' it must be RPM installed and I need to specify the kernel path with the '--kernel-source-path' in the command line... my video card drivers are asking me for that anyone one knows how to install that?
+2008-08-02T00:26:00.000Z	NickGarvey	jose	Ubuntu uses .deb files, not RPM files
+2008-08-02T00:26:00.000Z	NickGarvey	jose	but it is easy to install your kernel source simply type "sudo apt-get install linux-source"
+2008-08-02T00:28:00.000Z	NickGarvey	jose	it should be /usr/src/linux, but you may need to decompress it first

@@ -1,0 +1,4 @@
+2005-02-04T07:37:00.000Z	aToaster		how do I get dpkg to overwrite older files?  I'm trying "sudo dpkg -i fgrlx*.deb" and stops because it can't override a file
+2005-02-04T07:38:00.000Z	Pluk	aToaster	with sudo dpkg -i --force-overwrite *.deb
+2005-02-04T07:42:00.000Z	aToaster	Pluk	can you tell me how you installed it?
+2005-02-04T07:43:00.000Z	aToaster	Pluk	I believe the fglrx-driver is the older driver

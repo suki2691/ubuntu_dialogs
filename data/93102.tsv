@@ -1,0 +1,4 @@
+2008-04-28T20:59:00.000Z	buha		how do i see which module is tied to say... eth0?
+2008-04-28T21:00:00.000Z	noodlesgc	buha	you could try sudo lsof | grep eth0
+2008-04-28T21:01:00.000Z	buha		fear1: the only way to do that is to rmmod the module and see if the device is still working?
+2008-04-28T21:01:00.000Z	buha	noodlesgc	that didnt work, only went to next line and did nothing else

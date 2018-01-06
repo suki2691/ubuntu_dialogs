@@ -1,0 +1,4 @@
+2007-09-01T05:09:00.000Z	StevenR		hi. I'm trying to play a dvd, but it doesn't work. xine nad vlc both crash, and kaffeine appears to freeze with a blue screen. I tried a different video file, and that crashed mplayer and kaffeine too
+2007-09-01T05:10:00.000Z	Frogzoo	StevenR	sounds like you may have a corrupt library
+2007-09-01T05:11:00.000Z	StevenR	Frogzoo	how do I track down which one it is?
+2007-09-01T05:12:00.000Z	Frogzoo	StevenR	ldd xine  & ldd vlc & look for what they share

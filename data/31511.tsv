@@ -1,0 +1,4 @@
+2012-10-09T10:12:00.000Z	sin_tax		can someone help with an SFTP problem? I created a new user group and user, set that to be ChrootDirectory /data00/
+2012-10-09T10:12:00.000Z	sin_tax		 which has some symlinks to other folders.  I want the user to have read only access to that but when I connect as that user via SFTP I can see my whole folder structure but not go into any folders
+2012-10-09T10:13:00.000Z	farrioth	sin_tax	I'm not familiar with SFTP, but you'll probably need to set permissions on the subfolders.
+2012-10-09T10:14:00.000Z	sin_tax	farrioth	right now I can't even access the data00 directory with that user, it is drwxr-xr-x   2 root root  4096 Oct  9 01:59 data00

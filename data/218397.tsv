@@ -1,0 +1,4 @@
+2006-06-04T11:58:00.000Z	kevin1		How do I install kernel-headers?
+2006-06-04T11:59:00.000Z	kevin1		apt-get install kernel-headers is not working for me
+2006-06-04T12:01:00.000Z	kevin1		How do I install kernel-headers in ubuntu?  I tried apt-get install kernel-headers and that doesn't work for me...
+2006-06-04T12:01:00.000Z	rukuartic	kevin1	sudo apt-get install linux-headers-$(uname -r)

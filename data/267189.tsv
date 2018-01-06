@@ -1,0 +1,4 @@
+2010-07-16T01:34:00.000Z	effowe		Hi: I'm running Ubuntu Server 10.04 and am trying to learn more about /etc/rc*.d, runtimes, and startup processes. running sysv-rc-conf still shows packages that are no longer installed, can someone point me to a comprehensive guide / tutorial to removing unused startup processes from their runtime directories so that they no longer show up in sysv-rc-conf?
+2010-07-16T01:36:00.000Z	Dr_Willis	effowe	 ubuntu is movuing to using upstart the use of rc* and  sysv is slowly getting phased out
+2010-07-16T01:36:00.000Z	Dr_Willis	effowe	 many services are started from /etc/init  now
+2010-07-16T01:37:00.000Z	Dr_Willis	effowe	 check the ubuntu wiki and forums for upstat guides.. short info.. all started from /etc/init, theres not really any runlevles. :) rename a /etc/init/whatever.conf to whatever.DONTRUN to disable a service

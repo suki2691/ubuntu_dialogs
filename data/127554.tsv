@@ -1,0 +1,4 @@
+2007-09-06T06:33:00.000Z	fujin_		heh, can anyone tell me when the /etc/cron.daily jobs are executed?
+2007-09-06T06:33:00.000Z	fujin_		like, a time?
+2007-09-06T06:33:00.000Z	Veinor	fujin_	just a guess, but midnight as measured by the clock on your computer.
+2007-09-06T06:35:00.000Z	fujin_	Veinor	25 6  * * * root  test -x /usr/sbin/anacron || run-parts --report /etc/cron.d

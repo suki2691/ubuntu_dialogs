@@ -1,0 +1,4 @@
+2006-09-03T09:38:00.000Z	parag0n		i'm trying to delete all files called Thumbs.db in my entire HDD
+2006-09-03T09:38:00.000Z	parag0n		sudo rm `find ./ | grep Thumbs.db` is what i was going to use,  but directories with spaces break it
+2006-09-03T09:38:00.000Z	parag0n		or xubuntu might run OK
+2006-09-03T09:39:00.000Z	wasabi_	parag0n	find -name Thumbs.db -exec rm '{}' ';'

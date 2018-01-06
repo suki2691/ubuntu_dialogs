@@ -1,0 +1,4 @@
+2011-10-24T22:15:00.000Z	jwtiyar		all files in such a folder has permission , how to give 0777 ?
+2011-10-24T22:16:00.000Z	phlak_user	jwtiyar	chmod -R (to recurse)
+2011-10-24T22:18:00.000Z	jwtiyar	phlak_user	didnt work http://paste.ubuntu.com/718114/
+2011-10-24T22:19:00.000Z	phlak_user	jwtiyar	sudo chmod -R 0777 directory

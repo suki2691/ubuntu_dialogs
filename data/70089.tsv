@@ -1,0 +1,4 @@
+2010-07-26T03:16:00.000Z	mcnellis		is there an easy way to get the list of dependencies for a package?
+2010-07-26T03:16:00.000Z	erUSUL	mcnellis	aptitude show packagename
+2010-07-26T03:16:00.000Z	mcnellis	erUSUL	I'm making a PPA for a package of which I only have the source.
+2010-08-03T15:16:00.000Z	erUSUL	mcnellis	find source_dir/ -type f -name '*.swp' -exec mv --target-directory=dir/ -- '{}' +

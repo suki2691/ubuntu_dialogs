@@ -1,0 +1,4 @@
+2011-11-13T22:36:00.000Z	ulderigo		I just upgraded to 11.10 but might have stopped the package updates prematurely. When I try to install Wine, it tells me to install ia32-libs, which tells me to install ia32-libs-multiarch, which tells me to install several i386 packages. If I try to install any of them then I'm told that lots of packages, such as banshee, nautilus and ubuntu-desktop will be removed (which I don't want, I think?). It seems there can't be 64-bit and 32-bit
+2011-11-13T22:37:00.000Z	ulderigo		 versions of those libraries at the same time. What should I do?
+2011-11-13T22:37:00.000Z	bekks	ulderigo	There is no problem in installing 32 and 64bit libraries of the same package at the same time.
+2011-11-13T22:38:00.000Z	ulderigo	bekks	OK, but then shall I just go ahead and let apg-get remove banshee et.al.?

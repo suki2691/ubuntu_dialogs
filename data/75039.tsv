@@ -1,0 +1,4 @@
+2008-11-07T05:48:00.000Z	cars__		I'm using 8.10 and am having troubles with my new /home partition.  I reinstalled Ubuntu to make more room and used a separate partition for /home, but but now it's only reporting 2.5MB free (there should be 15GB available - 46GB volume, 30GB used).  I did not format it, since I had existing files I wanted to keep.  How can I go about finding this space, and figuring out if my partition is corrupt?
+2008-11-07T05:49:00.000Z	zsquareplusc	cars__	"du -h" if youre searching for the folders that are big. there is also a gui tool in the application->addons menu
+2008-11-07T05:56:00.000Z	cars__	zsquareplusc	sorcererbob, It's getting worse.  Now it's reporting 0B free.  Using the commands, I don't see anything that should be taking up all this space.  df reports that the total size is correct.
+2008-11-07T05:57:00.000Z	zsquareplusc	cars__	some application seems to freak out and fill your disk.. you might play with "ps ax" and/or "lsof"

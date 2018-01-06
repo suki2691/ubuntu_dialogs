@@ -1,0 +1,4 @@
+2007-10-11T08:38:00.000Z	subversion		Morning.  I've got a package installed that is incapable of making it through configuration, and hence will not let me either properly install it or remove it.  Any suggestions?
+2007-10-11T08:40:00.000Z	subversion		Is there a way to make apt remove a package without trying to execute its configuration script?
+2007-10-11T08:41:00.000Z	Nubbie	subversion	it needs to check dependencies.
+2007-10-11T08:41:00.000Z	subversion	Nubbie	It's not a dependency issue; the post-install script fails, so dpkg refuses to touch it.

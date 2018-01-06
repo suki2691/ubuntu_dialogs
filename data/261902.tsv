@@ -1,0 +1,4 @@
+2009-07-19T14:28:00.000Z	France1159		Hello everyone
+2009-07-19T14:28:00.000Z	France1159		someone can tell me how can i show all files contained in a package ?
+2009-07-19T14:29:00.000Z	Seveas	France1159	dpkg -L packagename
+2009-07-19T14:29:00.000Z	Seveas	France1159	or for non-installed deb files: dpkg-deb -c filename.deb

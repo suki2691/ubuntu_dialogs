@@ -1,0 +1,4 @@
+2012-06-23T20:05:00.000Z	Ignit		I have this netbook (MSI GE-620) with a software-based EJECT button. It doesn't work when using Ubuntu. Is there a way to eject my DVDROM when there is no disc inside?
+2012-06-23T20:06:00.000Z	The_Other_Guy	Ignit	It doesn't have a button on the outside of the DVD drive?
+2012-06-23T20:06:00.000Z	Ignit	The_Other_Guy	No, it doesn't, the EJECT key is in the middle of the Keyboard
+2012-06-23T20:07:00.000Z	The_Other_Guy	Ignit	Then use the command sudo eject /dev/sr0 in your terminal window.

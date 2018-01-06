@@ -1,0 +1,4 @@
+2011-04-02T15:10:00.000Z	tim167		hmm, so the program i want to "killall" identifies as "java", but there is a second program by the same name in "top" that i don't want to kill...now what?
+2011-04-02T15:10:00.000Z	lucidium	tim167	get the process number and use "kill <pid>"
+2011-04-02T15:12:00.000Z	lucidium	tim167	the process number is the number on the far left in top
+2011-04-02T15:13:00.000Z	tim167	lucidium	prx: ok, so i'll have to make an involved script to find and distinguish the two pid's of the two java processes...

@@ -1,0 +1,4 @@
+2008-08-14T12:06:00.000Z	milligan_		crontab -e -> add the following: * * * * * /milligan/run.sh -> the script doesn't seem to be executed. Any ideas why ?
+2008-08-14T12:06:00.000Z	unop	milligan_	* * * * * is probably too vague -- be a little more specific
+2008-08-14T12:08:00.000Z	milligan_	unop	Should 5 stars have the job run every minute? Should I do */1 * * * * instead?
+2008-08-14T12:08:00.000Z	unop	milligan_	that's better, yea

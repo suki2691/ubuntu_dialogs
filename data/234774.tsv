@@ -1,0 +1,4 @@
+2005-12-05T14:21:00.000Z	bradd		hi.. wheres the common place ubuntu puts its lib files.. I built a lib but it pt everything in /usr/local/lib and my apps can't find them..
+2005-12-05T14:23:00.000Z	bradd		yup
+2005-12-05T14:24:00.000Z	bradd		can i add /usr/local/lib as a dir to search in?
+2005-12-05T14:26:00.000Z	robotgeek	bradd	./configure --help | less, mostly ./configure --lib-path=/usr/local/lib

@@ -1,0 +1,4 @@
+2008-06-19T19:48:00.000Z	Marcieking		I'm trying to log in to the web-interface of Vmware Server 1.0.6, installed on Ubuntu 8.4 server (64bit). When I use my own username it gives an error when I click the options tab, it says i'm not authorized to do that. I've found out that the root account should be authorized, but logging in as root doesn't work as i've never set a root password
+2008-06-19T19:49:00.000Z	Marcieking		it's a webbased interface where i need to log on
+2008-06-19T19:49:00.000Z	sivel	Marcieking	VMware checks the UID of the user connecting.  Only root is allowed
+2008-06-19T19:50:00.000Z	sivel	Marcieking	no

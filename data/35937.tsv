@@ -1,0 +1,4 @@
+2010-07-09T04:20:00.000Z	clayg		I'm using a netbook and trying to install a few games through wine/playonlinux.       I'm having some problems that I think might be because wine/pol is looking for an actual cd-rom drive instead of the images im mounting with gmount.  Is there anyway to "fool" ubuntu into thinking a directory is the cdrom drive?
+2010-07-09T04:20:00.000Z	clayg		Like on diablo it's telling me it doesn't have the play cd in drive, while the play cd is mounted - installation works, playing does not, same with WOW
+2010-07-09T04:20:00.000Z	clayg		well playcd image is mounted
+2010-07-09T04:22:00.000Z	dugger5688	clayg	go to winecfg and set one of the drives to the directory that the CD is mounted to.

@@ -1,0 +1,4 @@
+2008-02-10T12:50:00.000Z	macogw	starked	whichever its calling sda should be hd0
+2008-02-10T12:50:00.000Z	macogw	starked	and if they're not mounted, fdisk -l will also tell you
+2008-02-10T12:51:00.000Z	macogw	starked	it wont tell you in sensible numbers, but bigger number of cylinders = bigger disk
+2008-02-10T12:56:00.000Z	macogw	starked	the weird thing was probably that you had the external set to boot first and so it was considered hd0 by the bios even though its sdb by virtue of being external

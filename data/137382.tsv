@@ -1,0 +1,4 @@
+2011-09-29T00:54:00.000Z	RobbieCrash		I have a promise 'raid' card that I'm using as an additional SATA controller, the drives which are attached to it are part of a ZFS pool. At reboot, these devices are normally initialized as /dev/sd[e-h]. However, sometimes they're initialized before the disks attached directly to my motherboard, which causes the ZFS pool to think that they've failed, and it then fails to mount the pool. How
+2011-09-29T00:54:00.000Z	RobbieCrash		can I make sure that the devices are always initialized in the same order at boot?
+2011-09-29T00:56:00.000Z	ejer	RobbieCrash	something like this http://www.cyberciti.biz/tips/linux-assign-static-names-to-scsi-devices.html but make sure the udev rules you use are valid (old article)
+2011-09-29T01:02:00.000Z	RobbieCrash	ejer	thanks!

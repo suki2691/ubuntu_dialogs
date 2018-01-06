@@ -1,0 +1,4 @@
+2006-03-09T16:41:00.000Z	gmf		How do i configure my connection so i run it thru a gateway?
+2006-03-09T16:42:00.000Z	gmf		Anyone know how i configure my internet connection so i run it thru a gateway?
+2006-03-09T16:42:00.000Z	HymnToLife	gmf	> sudo nano /etc/network/interfaces
+2006-03-09T16:45:00.000Z	HymnToLife	gmf	> edit the /ect/network/interfaces file and change settings for eth0 (or whatever the hell your network connnection is)

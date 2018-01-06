@@ -1,0 +1,4 @@
+2010-07-19T13:12:00.000Z	Viking667		now I'm just trying to figure out how on _earth_ to lock down the order of my two sound cards...
+2010-07-19T13:13:00.000Z	Viking667		Because I twiddled /etc/modprobe.d/alsa-base.conf, but it doesn't seem to have switched the order of cards around any.
+2010-07-19T13:13:00.000Z	violinappren	Viking667	check alsa related rules in /etc/udev/rules.d ?
+2010-07-19T13:14:00.000Z	Viking667	violinappren	doesn't seem to be anything relevant in there related to the exact rusel.

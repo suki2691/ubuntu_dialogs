@@ -1,0 +1,4 @@
+2008-04-06T15:27:00.000Z	[[thufir]]		what does this mean: "You need to add it to the Apache config files because it only installs a link to the folder in the /var/www/ folder. I'll find the lines that you need in a minute."  with regards to phpmyadmin?
+2008-04-06T15:28:00.000Z	esteth	[[thufir]]	It means you need to add something to the conf files at /etc/apache2, assuming apache2
+2008-04-06T15:28:00.000Z	esteth	[[thufir]]	most probably apache2.conf or httpd.conf
+2008-04-06T15:29:00.000Z	[[thufir]]	esteth	I think I found it.  Maybe it's me, but the manual for phpmyadmin isn't helpful.  thanks, though.

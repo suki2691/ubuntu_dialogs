@@ -1,0 +1,4 @@
+2008-03-31T16:43:00.000Z	huamn		Hello, does anyone know if there is a C-interface to the udev-stuff? I'd like to find out information about specific USB-harddrives from my own program so running for example "udevinfo" in command line and parsing it's output from stdout is a bit ugly...
+2008-03-31T16:44:00.000Z	Svenstaro	huamn	you could just include the udev source headers call the actual functions
+2008-03-31T16:46:00.000Z	huamn	Svenstaro	I couldn't find any information about them in the man pages; is there any manual regarding the source usage or should I just find them somewhere and look at the headers?
+2008-03-31T16:47:00.000Z	Svenstaro	huamn	just apt-source udev without compiling gets you the headers

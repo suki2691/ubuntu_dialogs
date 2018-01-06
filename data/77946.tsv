@@ -1,0 +1,4 @@
+2009-05-17T06:04:00.000Z	frog		hi, i have copied some stuff with cp. now i wanna skip the copied part and add only the new files.tried rsync, but it seems to copy everything . how can i skip the copied stuff?
+2009-05-17T06:04:00.000Z	frog		sorry
+2009-05-17T06:04:00.000Z	frog		it ok, rsync seems to skip it
+2009-05-17T06:05:00.000Z	RHorse	frog	use rsync with the check for newer file option: try man rsync

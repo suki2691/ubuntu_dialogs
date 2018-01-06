@@ -1,0 +1,4 @@
+2009-05-11T19:23:00.000Z	rlameiro		how can I see the permissions on a command line?
+2009-05-11T19:23:00.000Z	rlameiro		to give is chmod, but to see?
+2009-05-11T19:23:00.000Z	grawity	rlameiro	ls -la, or if you want lots of info - stat
+2009-05-11T19:24:00.000Z	grawity	rlameiro	6 octal = 110 binary = rw-, and 4 octal = 100 binary = r-- so 644 would be read/write for owner and read for group/world.

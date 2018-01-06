@@ -1,0 +1,4 @@
+2007-06-29T15:48:00.000Z	reed026		I have a Gateway E3000 PC (1997) with 96mb of ram and NO operating system. Now, I have gone through and installed Ubuntu Server Edition, and when it restarts, the GRUB screen loads up, it says Hit ESC to choose which partition to boot. I hit ESC and choose which one I wish to boot and it automatically goes back to the bios load screen. It continues to do this when I choose anything to boot...
+2007-06-29T15:49:00.000Z	reed026		...besides the memtest.
+2007-06-29T15:49:00.000Z	jhakk	reed026	sounds like you have the wrong kernel or your partition loader is broken.. reboot with the live CD and see if you can recover it
+2007-06-29T15:50:00.000Z	reed026	jhakk	I can't boot with the live cd

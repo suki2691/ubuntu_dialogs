@@ -1,0 +1,4 @@
+2005-10-19T11:44:00.000Z	randomc0de		ok, so random question - I installed the gcc-4.0 package, wrote a little test c program, and gcc is telling me it can't find stdlib.h or stdio.h... and "find stdlib.h" or "find stdio.h" give nothing
+2005-10-19T11:45:00.000Z	nalioth	randomc0de	install "build-essential"
+2005-10-19T11:46:00.000Z	nalioth	randomc0de	this will get you a bunch of programs to allow you to compile things
+2005-10-19T11:46:00.000Z	randomc0de	nalioth	I figured it out, it was libc6-dev

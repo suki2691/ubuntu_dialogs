@@ -1,0 +1,4 @@
+2006-06-16T06:34:00.000Z	MikkelRev		After I tried to fix my wireless network and rebooted the computer, it freezes when it at boottime tries to configure network. How can I disable networking at boottime, or in grub?
+2006-06-16T06:34:00.000Z	Snowfairy	MikkelRev	/etc/networking/interfaces
+2006-06-16T06:35:00.000Z	Snowfairy	MikkelRev	interfaces in /etc/network   Edit that and comment out the lines referring to your network interface.
+2006-06-16T06:36:00.000Z	MikkelRev	Snowfairy	ok, thanx

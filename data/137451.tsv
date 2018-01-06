@@ -1,0 +1,4 @@
+2008-06-15T22:53:00.000Z	Possum		Hi, is there any documentation on the differences between installing ubuntu from within windows as opposed to directly from the livecd?
+2008-06-15T22:54:00.000Z	Flannel	Possum	when you install it through wubi (directly from windows) it installs into a single file on your windows partition.  You can remove it later with add/remove.  It doesn't change your bootloader.
+2008-06-15T22:54:00.000Z	Possum	Flannel	I see, actually he wants to remove windows now though :(
+2008-06-15T22:58:00.000Z	Possum	Flannel	Do you know by chane if the wubi file is identical to a block device? Can he dd it to a spare partition?

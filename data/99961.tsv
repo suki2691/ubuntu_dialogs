@@ -1,0 +1,4 @@
+2009-09-17T08:29:00.000Z	zobi1		I would like to backup the etc directory not periodically but only when a file changes in it. Is that possible?
+2009-09-17T08:31:00.000Z	n8tuser	zobi1	-> yes, try the new upstart daemon
+2009-09-17T08:33:00.000Z	zobi1	n8tuser	excellent. do you know of any backup scripts based on that?
+2009-09-17T08:34:00.000Z	n8tuser	zobi1	-> you may have to google for it, also look into inotify and udev, these 3 newer features is something i yet to get a good grasp of

@@ -1,0 +1,4 @@
+2006-10-17T13:29:00.000Z	aalafko		Quick question: how do I set my network card to always use a certain DNS server, while still getting its IP from DHCP?
+2006-10-17T13:31:00.000Z	aalafko		Anybody know how to configure /etc/network/interfaces to not pull DNS info from the DHCP broadcast?
+2006-10-17T13:32:00.000Z	_AA_	aalafko	/etc/resolv.conf ???
+2006-10-17T13:33:00.000Z	aalafko	_AA_	that gets overwritten, yeah

@@ -1,0 +1,4 @@
+2006-05-14T08:11:00.000Z	babo		 (98)Address already in use: make_sock: could not bind to address 127.0.0.1:80
+2006-05-14T08:11:00.000Z	babo		 no listening sockets available, shutting down
+2006-05-14T08:12:00.000Z	babo		 why won't my apache start ?
+2006-05-14T08:12:00.000Z	robaman	babo	you have something else listening on port 80 maybe, try looking with 'lsof -iTCP'

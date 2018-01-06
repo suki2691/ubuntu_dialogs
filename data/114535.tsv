@@ -1,0 +1,4 @@
+2009-12-09T00:53:00.000Z	Onyx47		Ok guys, I got a big one if anyone has any ideas. My /home won't mount, the partition is not listed in /dev/disk/by-uuid (I thought my fstab maybe got corrupted), I can mount it manually but I have to specify the fs type (mount can't find it), did both fsck and e2fsck, didn't help
+2009-12-09T00:54:00.000Z	Seveas	Onyx47	replace UUID=..... with /dev/yourdrive in /etc/fstab
+2009-12-09T00:56:00.000Z	Onyx47	Seveas	I just did that, going to reboot to see if it helped
+2009-12-09T01:00:00.000Z	Onyx47	Seveas	thanks, that worked. Simplest solutions work best I guess :) I'm just wondering why it happened in the first place

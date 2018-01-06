@@ -1,0 +1,4 @@
+2011-10-23T21:42:00.000Z	fuho		Hi, if I upgrade to 11.10, is there a easy way to roll back to 11.04?
+2011-10-23T21:44:00.000Z	Ibis	fuho	Dependencies. Like if you were to uninstall one package, it would also try to remove a package that heavily relies on it.
+2011-10-23T21:44:00.000Z	fuho	oCean	Alright, is there a real reason to upgrade then?
+2011-10-23T21:44:00.000Z	Ibis	fuho	Example... Removing a unity plugin (or something similar that heavily relies on "unity-2d" for it to work) will also try to remove a package named "unity".

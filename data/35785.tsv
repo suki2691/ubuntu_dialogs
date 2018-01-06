@@ -1,0 +1,4 @@
+2010-03-14T10:18:00.000Z	lordganehs		please help me .. i m recovering grub after installing windows 7 and i got this http://paste.ubuntu.com/394961/
+2010-03-14T10:19:00.000Z	enzotib	lordganehs	you should mount also /proc, like /dev
+2010-03-14T10:41:00.000Z	enzotib	lordganehs	mount --bind /sys /mnt/sys
+2010-03-14T10:44:00.000Z	lordganehs	enzotib	phrost: still same error

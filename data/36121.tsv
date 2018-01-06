@@ -1,0 +1,4 @@
+2010-06-12T02:35:00.000Z	SamuelPeterson	wildbat	How do I make it ntfs -hidden?
+2010-06-12T02:31:00.000Z	wildbat	SamuelPeterson	you wanna REMOVE it from disk or just from grub?
+2010-06-12T02:31:00.000Z	SamuelPeterson	wildbat	just from grub. I do not want to remove the partition.
+2010-06-12T02:33:00.000Z	wildbat	SamuelPeterson	you can modify the script in /etc/grub.d/30_os-prober, or change then partition type of that partition to ntfs -hidden

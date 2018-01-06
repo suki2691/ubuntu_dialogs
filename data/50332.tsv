@@ -1,0 +1,4 @@
+2011-09-18T14:25:00.000Z	Aer121		Hi I was wondering if someone could give me some help with a Ubuntu 10.4 LTS Live CD
+2011-09-18T14:26:00.000Z	Aer121		I have a spare hard drive I want to wipe the data from to make data recovery harder or near impossible, is there a tool for this or command line included in the Live CD to wipe a drive ?
+2011-09-18T14:27:00.000Z	Aer121		are these included in the live cd or must i install ubuntu and then wipe or shred ?
+2011-09-18T14:28:00.000Z	Ben64	Aer121	dd if=/dev/zero of=/dev/sda (or whatever drive it is you want to destroy)

@@ -1,0 +1,4 @@
+2010-02-25T09:25:00.000Z	cruncher		hey guys, im trying to compile a madwifi driver from sources for my eee pc 1000he and I am getting an error that I'm unsure of how to solve. here are the results of the make command http://paste.ubuntu.com/383438/
+2010-02-25T09:25:00.000Z	Jordan_U	cruncher	Are you sure you need to compile from source?
+2010-02-25T09:27:00.000Z	Jordan_U	cruncher	What version of Ubuntu? You shouldn't need restricted drivers for an atheros card in 9.10.
+2010-02-25T09:29:00.000Z	Jordan_U	cruncher	Try installing linux-backports-modules-wireless-karmic-generic

@@ -1,0 +1,4 @@
+2009-07-30T17:41:00.000Z	kaptengu		using partimage a created an image of a 15G partition and restored it to a 80G partition. Now the 80GB is showing 7G used and 8G free, how can I fix this?
+2009-07-30T17:42:00.000Z	erUSUL	kaptengu	pass an fsck ?
+2009-07-30T17:43:00.000Z	kaptengu	erUSUL	it's NTFS, does it matter, use fsck anyway? Tried chkdsk, didn't help
+2009-07-30T17:44:00.000Z	erUSUL	kaptengu	if its ntfs use windows tools if you can... maybe if yo resize the partion via gparted ?

@@ -1,0 +1,4 @@
+2008-10-22T22:21:00.000Z	IrishDavid		hello, I have installed eclipse (downloaded package and extracted to /usr/local/eclipse) but I want to add eclipse to my path so that I can type eclipse in a terminal and it launch. I tried using ln but that didnt work as it cant find library
+2008-10-22T22:21:00.000Z	IrishDavid		what do I need to do?
+2008-10-22T22:21:00.000Z	IrishDavid		btw, I need version 3.4 so I'm not using apt-get install
+2008-10-22T22:22:00.000Z	lovre	IrishDavid	put a file in /usr/local/bin with the line that runs eclipse. Name it as the command you would like to have for eclipse, for example "eclipse". chmod +x it, and just run from terminal with "console"

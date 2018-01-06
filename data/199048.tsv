@@ -1,0 +1,4 @@
+2007-05-19T14:18:00.000Z	nertil		REALNAME=`grep \`whoami\` /etc/passwd |head -n 1| gawk -F: '{ print $5 }' | gawk -F, '{ print $1 }'`
+2007-05-19T14:18:00.000Z	nertil		this command wont work on my motd script it says gawk command not known
+2007-05-19T14:20:00.000Z	nertil		No candidate version found for gawk
+2007-05-19T14:21:00.000Z	Frogzoo	nertil	sudo apt-get install gawk

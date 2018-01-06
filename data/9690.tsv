@@ -1,0 +1,4 @@
+2012-11-29T04:38:00.000Z	tophyr		hello kids. i've got a fresh 10.04 install in a VM that i'd like to run as headless as possible. however, i used the desktop iso in order to be able to use the GUI if i want to
+2012-11-29T04:38:00.000Z	tophyr		googling i find some grub options to make it boot to console by default. is that really the best way? seems like there should be a runlevel i can set as the default that just doesn't start up X.
+2012-11-29T04:40:00.000Z	tophyr		i want to keep the desktop around in case i need it for some reason. i just don't want it running by default
+2012-11-29T04:40:00.000Z	ubot93	tophyr	To start your system in text-only mode append 'text' (without the quotes) to the kernel line in the grub menu. You can access the grub menu by pressing Esc (Grub legacy) or Shift (Grub2) during boot. For more info see https://help.ubuntu.com/community/BootOptions#Text%20Mode

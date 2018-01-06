@@ -1,0 +1,4 @@
+2012-08-02T21:55:00.000Z	nakkor		trying to 'killall' in a shell script, but sometimes there is nothing to kill and it causes the script to exit because it things there is an error. Any ideas?
+2012-08-02T21:56:00.000Z	nakkor		Is there a way to wrap it so that it never returns an error?
+2012-08-02T21:57:00.000Z	Holos	nakkor	killall | echo $?
+2012-08-02T21:58:00.000Z	nakkor	Holos	worked like a charm! Thanks!

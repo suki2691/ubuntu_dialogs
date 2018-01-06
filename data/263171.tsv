@@ -1,0 +1,4 @@
+2009-04-07T11:16:00.000Z	austin987		my script has, e.g., "OS=`uname -o` || OS=`uname -s`" to determine the OS it's on
+2009-04-07T11:16:00.000Z	austin987		the script is used on Ubuntu/*BSD/Solaris
+2009-04-07T11:17:00.000Z	austin987		but the '||' confuses Ubuntu (but only recently?)
+2009-04-07T11:17:00.000Z	popey	austin987	sh uses dash now, not bash, perhaps thats why?

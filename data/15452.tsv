@@ -1,0 +1,4 @@
+2012-04-01T17:52:00.000Z	halim		hi, i need to make the /boot partition bigger because of apt-get upgrade and want to make a fat32 partition smaller for this. this is what my hdd looks like: http://image-upload.de/image/1ZrGW9/b8514452c7.png , as you see boot is sda2 and fat32 partition is sda4 would it work to make sda4 smaller and add that memory to sda2?
+2012-04-01T17:53:00.000Z	escott	halim	your boot is probably big enough if you remove some old kernels
+2012-04-01T17:53:00.000Z	escott	halim	but you cannot resize the current /boot without shrinking the ntfs
+2012-04-01T17:55:00.000Z	escott	halim	dpkg -l "*linux*"; dpkg -r "linux-image-3.0.0-10-generic" copy and pasting the last bit

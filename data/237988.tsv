@@ -1,0 +1,4 @@
+2005-09-11T07:00:00.000Z	White_Shadow		how can I acess the windows partition on ubuntu?
+2005-09-11T07:02:00.000Z	albacker	White_Shadow	sudo mkdir /mnt/win; mount /dev/hdaX /mnt/win                         << replace X with your windows hda !! (might be hda1. .. 2..)
+2005-09-11T07:02:00.000Z	White_Shadow	sanketmedhi	and albacker, thanks!
+2005-09-11T07:02:00.000Z	albacker	White_Shadow	 no problem !

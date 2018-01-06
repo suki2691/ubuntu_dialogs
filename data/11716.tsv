@@ -1,0 +1,4 @@
+2012-06-07T23:59:00.000Z	thebrasse		hi! neither my .xession or .xinit is executed when i log in. what could the reason for that be?
+2012-06-08T00:00:00.000Z	thebrasse		s/xession/xsession/
+2012-06-08T00:01:00.000Z	wdp	thebrasse	im not using ubuntu for a long time, but apart from that you mispelled both (xsession and xinitrc) as far as i know, xinitrc is only used when you use startx. That means if you use a login manager (like gdm) that file won't be used.
+2012-06-08T00:01:00.000Z	wdp	thebrasse	might be different in ubuntu, though.

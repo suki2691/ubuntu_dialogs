@@ -1,0 +1,4 @@
+2010-06-01T10:46:00.000Z	siriusnova		guys how in the holy heck do you disable services from starting on bootup in lucid
+2010-06-01T10:47:00.000Z	siriusnova		there is no start up manager
+2010-06-01T10:47:00.000Z	siriusnova		where is it
+2010-06-01T10:47:00.000Z	onetinsoldier	siriusnova	unfortunately, i think they dropped the gui for doing that with Lucid/upstart. but you can look at man page for  update-rc.d, and i think the chkconfig package might be another one to have a look at

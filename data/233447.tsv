@@ -1,0 +1,4 @@
+2007-07-16T14:32:00.000Z	tomh-		anyone knows why my native resolution wont show up on the screen resolution config screen?
+2007-07-16T14:33:00.000Z	disasm	tomh-	Is it in the /etc/X11/xorg.conf?
+2007-07-16T14:33:00.000Z	disasm	tomh-	if your resolution isn't in there, it won't show up in the gnome config
+2007-07-16T14:35:00.000Z	disasm	tomh-	good question, I custom write my xorg.conf, so I don't know any easy way to do it. If you look for a SubSection    "Display" in the file, change the Modes line, to contain all the resolutions your monitor supports

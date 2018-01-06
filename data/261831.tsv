@@ -1,0 +1,4 @@
+2005-10-15T07:44:00.000Z	phoenixbyrd		ok, trying to install vmware, but it says this
+2005-10-15T07:44:00.000Z	phoenixbyrd		What is the location of the directory of C header files that match your running
+2005-10-15T07:44:00.000Z	phoenixbyrd		kernel? [/usr/src/linux/include] 
+2005-10-15T07:44:00.000Z	Seveas	phoenixbyrd	apt-get install linux-headers-$(uname -r)

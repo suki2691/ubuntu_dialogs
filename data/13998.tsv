@@ -1,0 +1,4 @@
+2011-06-08T14:00:00.000Z	Cpt_Zyph		hey guys how do i get a tail message to stay on ..
+2011-06-08T14:00:00.000Z	cordiceps	Cpt_Zyph	tail -f
+2011-06-08T14:02:00.000Z	cordiceps	Cpt_Zyph	dmesg | less
+2011-06-08T14:03:00.000Z	cordiceps	Cpt_Zyph	dmesg > dmesg.log | tail -f

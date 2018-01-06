@@ -1,0 +1,4 @@
+2006-11-17T07:30:00.000Z	markus		when creating partitions, does it matter what order they go in? (I will need /,/home,/data (FAT32), and /swap)
+2006-11-17T07:32:00.000Z	markus		when creating partitions, does it matter what order they go in? (I will need /,/home,/data (FAT32), and /swap)
+2006-11-17T07:33:00.000Z	MarcN	markus	not terribly.  Usually /boot and / are the first two, then swap then the rest.
+2006-11-17T07:35:00.000Z	MarcN	markus	you can only have 4 primary partitions (I usually use them for /boot and /) but you can have a lot of logical partitions

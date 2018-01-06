@@ -1,0 +1,4 @@
+2009-09-27T03:45:00.000Z	Saladin		Heya people, I'm wondering if you can help me... For some reason unknown to me, my sudoers file has had its ownership changed from root to myself. I now can't do any admin tasks, and also cannot chown the file back to root. Any advice?
+2009-09-27T03:46:00.000Z	firecrotch	Saladin	you can boot from a live CD and change the owner back to root
+2009-09-27T03:46:00.000Z	firecrotch	Saladin	and then in the future, don't edit your sudoers file with a regular editor, use visudo
+2009-09-27T03:46:00.000Z	Saladin	firecrotch	Yeah, good idea. Thank you...

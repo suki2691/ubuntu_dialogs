@@ -1,0 +1,4 @@
+2010-11-03T09:18:00.000Z	furryotter		I'm having SSH problems. I have a user setup w/ a home directory and a .ssh folder (700 user:user) w/ authorized_keys (600 user:user). When I attempt to login the auth fails.
+2010-11-03T09:19:00.000Z	olpc	furryotter	 What's in auth.log?
+2010-11-03T09:20:00.000Z	furryotter	olpc	checking
+2010-11-03T09:21:00.000Z	furryotter	olpc	sshd[14057]: error: key_read: uudecode sshKeyRightHere== user@domain\n failed

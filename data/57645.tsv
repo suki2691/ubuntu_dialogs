@@ -1,0 +1,4 @@
+2009-09-26T01:34:00.000Z	krammer		how can i remove a directory tried rm sudo <filename> -r but I am getting this error  descend into directory
+2009-09-26T01:36:00.000Z	krammer		no
+2009-09-26T01:36:00.000Z	krammer		another words I am being asked to descend the directory
+2009-09-26T01:37:00.000Z	Eevee	krammer	'sudo' goes first.  it looks like you're trying to delete a file named 'sudo'.  and the switches go after the command name.  you want 'sudo rm -r <filename>'

@@ -1,0 +1,4 @@
+2008-01-10T00:43:00.000Z	Jupp2		what's the best way to remotely connect to my ubuntu desktop from a windows machine?
+2008-01-10T00:44:00.000Z	DRebellion	Jupp2	openssh
+2008-01-10T00:45:00.000Z	DRebellion	Jupp2	do you need the whole desktop or individual programs. if its the latter then you can choose to forward graphical programs over ssh:  ssh -X user@host    then run a graphical program from the cmdline
+2008-01-10T00:46:00.000Z	Jupp2	DRebellion	the whole desktop, I just don't know if there's anything better than VNC

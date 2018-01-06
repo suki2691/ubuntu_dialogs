@@ -1,0 +1,4 @@
+2005-02-16T11:28:00.000Z	be80be		ok I'm on the net ubuntu loaded my eth0 net card debian testing couldnt find it but for the life of me i cant find out what module is loaded ispci dosnt tell dmesg dosnt tell so were do i look now lsmod dosnt say what mod it is and i dont think it is built in because it loaded 1 when i installed ubuntu
+2005-02-16T11:30:00.000Z	be80be		but there is no listing of a mod for eth0 this is a amd 64
+2005-02-16T11:30:00.000Z	jay	be80be	could try poking around in /proc
+2005-02-16T11:31:00.000Z	jay	be80be	remove a module at a time until it stops working? lol

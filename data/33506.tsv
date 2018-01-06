@@ -1,0 +1,4 @@
+2010-04-25T12:12:00.000Z	thebeast_		my sound does not work can anyone help?
+2010-04-25T12:13:00.000Z	findsndcard	thebeast_	i would compile pulseaudio from source; its the only way i have been able to fix the sound on all ubuntu installs regardless of machine
+2010-04-25T12:13:00.000Z	findsndcard	thebeast_	let me find the website for you
+2010-04-25T12:15:00.000Z	findsndcard	thebeast_	download source code from here: http://pulseaudio.org/wiki/DownloadPulseAudio then open terminal, cd /home/user/Downloads, tar -xvf pulse*.gz, cd pulse*, ./configure && make && sudo make install (you may have to install the dependencies when ./configure fails)

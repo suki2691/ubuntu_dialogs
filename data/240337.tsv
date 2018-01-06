@@ -1,0 +1,4 @@
+2006-06-20T10:21:00.000Z	sentinel		I currently have a GUI ubuntu install setup for remote accessing, therefore without a monitor plugged in, except after the reboot without the monitor, it seems to only be able to start X at 640x480 resolution, is there any way I could force it to run at a higher resolution?
+2006-06-20T10:21:00.000Z	sentinel		nope
+2006-06-20T10:22:00.000Z	sentinel		in the GUI configuration it only lists 640x480 at 60hz
+2006-06-20T10:23:00.000Z	nickrud	sentinel	you might want to try using freenx or fall back on ssh -X , that way you're not tied to the resolution at the other end.

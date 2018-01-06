@@ -1,0 +1,4 @@
+2012-02-05T08:46:00.000Z	peeps[lappy]		if i do sudo add-apt-repository, is it supposed to go into /etc/apt/sources.list
+2012-02-05T08:46:00.000Z	zykotick9	peeps[lappy]	nope, check /etc/apt/source.list.d/ (i think)
+2012-02-05T08:48:00.000Z	peeps[lappy]	zykotick9	do you know how to tell which repo an installed package comes from?
+2012-02-05T08:49:00.000Z	zykotick9	peeps[lappy]	use "apt-cache policy foo" foo being the package name

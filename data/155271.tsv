@@ -1,0 +1,4 @@
+2009-04-08T06:51:00.000Z	brunner		Hey folks
+2009-04-08T06:53:00.000Z	brunner		I just installed ubuntu server (amd64) on a dell server, and when it starts up, eth0 doesn't come up by default.  Here's my /etc/network/interfaces file: http://pastebin.com/m17c08a67
+2009-04-08T06:54:00.000Z	tonyyarusso	brunner	I think you want 'inet static' rather than 'net static'.
+2009-04-08T06:57:00.000Z	brunner	tonyyarusso	sure enough.  Thanks alot.

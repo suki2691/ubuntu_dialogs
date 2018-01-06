@@ -1,0 +1,4 @@
+2007-04-20T14:26:00.000Z	mfyz		i have changed UUID's to hda... after kernel update and now ubuntu not booting.. it says `/dev/hda2 not exists` but menu.lst in /dev/hda2 and grub works well. but i can`t boot with any kernel. what is the problem? how can i fix this?
+2007-04-20T14:28:00.000Z	LjL	mfyz	but /boot/grub/menu.lst *does* list the partition's UUID, you should change it to reflect the new UUID i think (besides... you did what?! changed the UUID?)
+2007-04-20T14:30:00.000Z	mfyz	LjL	how can i generate UUIDs?
+2007-04-20T14:30:00.000Z	LjL	mfyz	why "generate" them? they're automated calculated by an appropriate algorithm, keep the ones that were generated for you

@@ -1,0 +1,4 @@
+2011-05-25T22:28:00.000Z	Juest		hi, do i get updated copies of my packages if i upgrade??
+2011-05-25T22:28:00.000Z	Juest		ah
+2011-05-25T22:28:00.000Z	coz_	Juest	 after upgrading you can run   sudo apt-get update && sudo apt-get dist-upgrade
+2011-05-25T22:29:00.000Z	coz_	Juest	  apt-get dist-upgrade will be able to remove packages in favor of other, higher priority packages. Both use the package manager so they both use package dependencies.

@@ -1,0 +1,4 @@
+2011-01-28T09:54:00.000Z	rww	arrrghhh	Is there any particular reason you're advising to delete files out of /boot directly instead of just removing the relevant packages?
+2011-01-28T09:54:00.000Z	arrrghhh	rww	is there a better way?  i just rm the stuff in boot and do update-grub.
+2011-01-28T09:55:00.000Z	rww	arrrghhh	yes. Kernel packages are named linux-image-2.6.XX-YY-generic (assuming one's using the -generic kernel). Remove the ones not being used...
+2011-01-28T09:56:00.000Z	arrrghhh	rww	ha i didn't realize it was that easy.

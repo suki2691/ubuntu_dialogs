@@ -1,0 +1,4 @@
+2009-03-20T12:58:00.000Z	baaba		hi, i'm trying to compile a driver (http://sourceforge.net/projects/video-2-1394/) but it fails because it wants to include ieee1394_core.h and a few other headers, which i can't find in the linux-headers-generic package (but can in the kernel source package)
+2009-03-20T12:58:00.000Z	baaba		i'm kinda new to kernel/driver compilation; does this mean the kernel package wasn't compiled with that driver?
+2009-03-20T12:59:00.000Z	Boohbah	baaba	did you install the kernel source?
+2009-03-20T12:59:00.000Z	baaba	Boohbah	package 'linux-source'?

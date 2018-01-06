@@ -1,0 +1,4 @@
+2009-05-18T11:06:00.000Z	melik		is there any program that will copy my ENTIRE ubuntu partition to a different partition
+2009-05-18T11:06:00.000Z	storbeck	melik	dd
+2009-05-18T11:07:00.000Z	melik	BlackCoffee	#kubuntu
+2009-05-18T11:08:00.000Z	storbeck	melik	dd if=/dev/sda2 of=/dev/sdb2 bs=4096 conv=notrunc,noerror

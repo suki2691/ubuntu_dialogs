@@ -1,0 +1,4 @@
+2011-06-07T23:28:00.000Z	jnlsnl_		Using ubuntu 10.10 ...How can i execute a bash script upon login? Also the script uses sudo
+2011-06-07T23:29:00.000Z	celthunder	jnlsnl_	.bashrc .xinitrc .profile depending when you want it executed
+2011-06-07T23:30:00.000Z	jnlsnl_	celthunder	its basically: sudo stop udev, then sudo start udev ...fixes a kernel bug that will spam DRDY error
+2011-06-20T03:06:00.000Z	celthunder	jnlsnl_	find /foo/bar |egrep test

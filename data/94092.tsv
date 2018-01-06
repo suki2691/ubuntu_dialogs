@@ -1,0 +1,4 @@
+2010-05-06T09:30:00.000Z	bullgard4		The process popularity-contest has the user »nobody«. What is the function of the »nobody« user?
+2010-05-06T09:31:00.000Z	undecim	bullgard4	It's a system user with lowered permissions.
+2010-05-06T09:32:00.000Z	bullgard4	undecim	Thank you. Using your information, I will continue my snooping.
+2010-05-06T09:32:00.000Z	undecim	bullgard4	it's like how some processes run as root, some also run as "nobody" because they don't need the elevated permissions. This way, if a service using it is compromised, an attacker only has the permissions of nobody instead of root

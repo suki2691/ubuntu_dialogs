@@ -1,0 +1,4 @@
+2009-11-20T21:04:00.000Z	Dnrock		please help me ! i need convert FAT32 -> NTFS without loss data on ubuntu .....
+2009-11-20T21:05:00.000Z	JonathanEllis	Dnrock	You cannot convert a FAT32 volume to NTFS. All you can do is make a new NTFS volume and then copy the data across
+2009-11-20T21:07:00.000Z	Dnrock	JonathanEllis	with windows XP i can convert FAT to NTFS easy with one command line, so i think is same with ubuntu
+2009-11-20T21:10:00.000Z	JonathanEllis	Dnrock	As I say its a long time since I used windows. Sounds risky anyway. It might be safer to copy the FAT32 volume to an external hard drive, then delete the partition in GParted and make a new NTFS partition. Then copy the data back. Thats how I would do it to be on the safe side. Otherwise if something goes wrong during the conversion process you could lose data

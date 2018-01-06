@@ -1,0 +1,4 @@
+2009-07-11T18:25:00.000Z	KureIX		hi, im trying edit crontab, but it run in nano, how can i change the editor please,thx.
+2009-07-11T18:25:00.000Z	oskar-	KureIX	 set the EDITOR environment variable
+2009-07-11T18:27:00.000Z	oskar-	KureIX	 did you put sudo in front of it?
+2009-07-11T18:29:00.000Z	oskar-	KureIX	 i suggest to simply run "sudo -i" and then "EDITOR=/usr/bin/vi crontab -e"

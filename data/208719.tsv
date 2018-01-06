@@ -1,0 +1,4 @@
+2005-11-05T17:00:00.000Z	_jan		is it possible to switch the kernel from the default installed on to the p4 optimized one supplied by synaptic without the need to recompile it, and if is there a howto or something on the wiki? i happen to find no info on that
+2005-11-05T17:00:00.000Z	robitaille	_jan	  apt-get install linux-686
+2005-11-05T17:02:00.000Z	robitaille	_jan	 after you know it works fine, you can remove the previous one.  doesn't hurt to keep both for a little bit (beside the disk space it uses)
+2005-11-05T17:03:00.000Z	_jan	robitaille	yes, actually i don't think the kernel uses that much space but once i know it works for sure i like to keep the system clean without any corpses in the long run ;) anyways. thanks for help i'll try

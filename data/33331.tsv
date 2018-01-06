@@ -1,0 +1,4 @@
+2011-01-11T03:54:00.000Z	rumpe1	dabbill	you could backup your /var/cache/apt/archive-folder... and use it later for updates/installations. The packages the package-manager downloaded, needn't to be downloaded again, if they are already there
+2011-01-11T03:56:00.000Z	dabbill	Myrtti	rumpe1 i am gessing i would break way to much stuff if i just cp -rp / then installed and copied everything back
+2011-01-11T03:59:00.000Z	rumpe1	dabbill	you won't have big trouble with /home being overwritten... in worst case, just add a new user and everything works again
+2011-01-11T04:00:00.000Z	rumpe1	dabbill	and if you fear to destroy something by changing your system... don't change it ^^

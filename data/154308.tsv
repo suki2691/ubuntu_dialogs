@@ -1,0 +1,4 @@
+2007-07-26T09:57:00.000Z	konam		someone can tell me what happens if i disable the filesystem check in the boot?
+2007-07-26T09:57:00.000Z	dyrne	konam	it wont check the other non / file systems i think. which isnt really a big deal
+2007-07-26T10:01:00.000Z	konam	dyrne	so i can disable it and nothing bad would happen with time?
+2007-07-26T10:03:00.000Z	dyrne	konam	not any more bad than would happen normally. the only diff is that you might have to run fsck yourself if something became corrupt and you started having problems. its a diff between ubuntu doing it for you or you doing it

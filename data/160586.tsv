@@ -1,0 +1,4 @@
+2012-01-06T03:48:00.000Z	shukty		hi I m trying to install Ubuntu 11.10 using A live cd but it can't see windows7 partition it says that all my hd /dev/sda0 is unallocated any idea ?
+2012-01-06T03:49:00.000Z	Jordan_U	shukty	That usually means that you have an invalid partition table. Can you pastebin the output of "sudo parted -l"?
+2012-01-06T03:55:00.000Z	Jordan_U	shukty	That first error is the one causing problems. fixparts is a utility which can fix this.
+2012-01-06T03:55:00.000Z	Jordan_U	shukty	http://www.rodsbooks.com/fixparts/

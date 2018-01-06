@@ -1,0 +1,4 @@
+2012-08-07T12:27:00.000Z	djdexter		when i put --password=$somepasswordStartingWithDolar to wget shell accepts as password whitout first character ($) what should i do?
+2012-08-07T12:28:00.000Z	TJ-	djdexter	'--password=$somepasswordStartingWithDolar'
+2012-08-07T12:28:00.000Z	TJ-	djdexter	 or even --password='$somepasswordStartingWithDolar'
+2012-08-07T12:28:00.000Z	TJ-	djdexter	in other words, surround the password with single quote marks so the shell doesn't interpret the $ symbol as a variable prefix

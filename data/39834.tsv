@@ -1,0 +1,4 @@
+2010-06-09T16:46:00.000Z	thune3	zylogz80	what do you have to do "every time"?
+2010-06-09T16:48:00.000Z	zylogz80	thune3	I installed karmic and then installed the ubuntu studio packages. in order to use jack with the lowest latency I run the realtime kernel. I need to select the real time kernel on boot to boot into it. if this was grub 1 I'd edit the config file but grub2 is unfamiliar to me. I need a graphical tool to configure it.
+2010-06-09T16:50:00.000Z	zylogz80		found one, it is called startup manager.
+2010-06-09T16:52:00.000Z	thune3	zylogz80	the main file for grub config is /etc/default/grub . You can set the 'default' kernel to boot using the "GRUB_DEFAULT" variable.

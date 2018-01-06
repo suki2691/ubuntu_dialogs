@@ -1,0 +1,4 @@
+2005-10-06T16:14:00.000Z	sj_		I have a little problem, I had linux installed on /dev/hda1, but I had to move that partition to /dev/hda3, I have updated grub and fstab, but when booting, vfs still checks hda1 for ext3, which is obviously not what I want it to do, anyway I can get it to point to hda3?
+2005-10-06T16:14:00.000Z	kemik	sj_	 edit /etc/fstab
+2005-10-06T16:15:00.000Z	sj_	kemik	I did, my fstab now has / as /dev/hda3 and the swap as /dev/hda5
+2005-10-06T16:15:00.000Z	kemik	sj_	 oh, you even said so in the question :) i shouldnt be here when hungover :|

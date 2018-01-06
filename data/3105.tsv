@@ -1,0 +1,4 @@
+2012-05-15T23:26:00.000Z	Daiz_		Heyo, anyone know a way to fully remove a driver from (k)ubuntu? I need to remove the realtek r8169 driver as it doesn't work with my ethernet card. I tried to overwrite it with the r8168 driver, but they seem to interfeer with eachother.
+2012-05-15T23:27:00.000Z	krababbel	Daiz_	blacklist it?
+2012-05-15T23:28:00.000Z	Daiz_	krababbel	I tried blacklisting it, but it was still using that driver.
+2012-05-15T23:29:00.000Z	krababbel	Daiz_	blacklisting prevents that, maybe ubuntu does it differntly

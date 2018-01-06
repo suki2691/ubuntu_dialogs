@@ -1,0 +1,4 @@
+2009-04-23T22:25:00.000Z	Aznerad		initrd does not boot my clean raid - how to automate "#mdadm --assemble --scan; exit" on bootup? my grandparents will appreciate your help ;)
+2009-04-23T22:26:00.000Z	markeo	Aznerad	IIRC you can't boot off an md device unless you have a custom compiled initrd for it. If you google up "boot linux md device" you should find the anwers
+2009-04-23T22:27:00.000Z	Aznerad	markeo	i did google the topic and had it working in the last ubuntu versions but it broke this time for good
+2009-04-23T22:28:00.000Z	markeo	Aznerad	Yeah, my apologies. I'm undercaffeinated and reflecting back on LVM not md

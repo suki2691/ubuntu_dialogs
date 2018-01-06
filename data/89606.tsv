@@ -1,0 +1,4 @@
+2010-06-25T00:24:00.000Z	Jordan_U	CQ	Copy the current contents of /var somewhere else and either mount that other partition directly to /var, or if you want /var to be stored in a subdirectory of another partition then use a symlink.
+2010-06-25T00:26:00.000Z	CQ	Jordan_U	should just pointing the apt cache dir work?
+2010-06-25T00:26:00.000Z	CQ	Jordan_U	s/pointing/repointing
+2010-06-25T00:27:00.000Z	Jordan_U	CQ	Yes, making the apt cache dir a symlink to a directory on another partition should work.

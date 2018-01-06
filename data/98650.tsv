@@ -1,0 +1,4 @@
+2008-04-07T10:31:00.000Z	Y-Town		whats the best way to remove the MBR from a system with no OS?
+2008-04-07T10:32:00.000Z	netrat	Y-Town	dd if=/dev/zero of=/dev/sda bs=512 count=1
+2008-04-07T10:34:00.000Z	netrat	Y-Town	/dev/sda <-- will be the hard drive in question, it could be /dev/hda too, be sure you have the right device
+2008-04-07T10:34:00.000Z	Y-Town	netrat	yea...   It has a lilo on it now that I need gone

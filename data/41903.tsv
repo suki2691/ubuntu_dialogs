@@ -1,0 +1,4 @@
+2009-12-07T02:18:00.000Z	jhaig		I have an old machine running 7.10 and I would like to update it to 8.04, being the next version and an LTS version.  What is the easiest way of doing this?  As 7.10 is unsupported, apt-get upgrade isn't working.
+2009-12-07T02:19:00.000Z	SpaceGhostC2C	jhaig	sudo apt-get dist-upgrade
+2009-12-07T02:19:00.000Z	jhaig	SpaceGhostC2C	Thanks.  Will that just take me to 8.04 or will it try to bring it up to 9.10?
+2009-12-07T02:20:00.000Z	SpaceGhostC2C	jhaig	you can do this gksudo update-manager -d

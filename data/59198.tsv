@@ -1,0 +1,4 @@
+2010-06-25T20:23:00.000Z	gbillings		I have a 250Gb clean hard drive, copletely formatted. What is the best partition scheme for speed. I am also goin to install fedora and Debian and would like all of the distros to share a /home.
+2010-06-25T20:24:00.000Z	VCoolio	gbillings	sharing /home may not be a good idea, it will share configs too for maybe different versions of the same apps
+2010-06-25T20:25:00.000Z	VCoolio	gbillings	also some file systems differ on speed handling bigger or smaller files, eg. jfs for big files or reiserfs for small if I remember correctly
+2010-06-25T20:26:00.000Z	VCoolio	gbillings	5 Gb swap seems very overdone and 20 Gb / is plenty too

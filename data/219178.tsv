@@ -1,0 +1,4 @@
+2008-03-30T00:34:00.000Z	blah569		What is the Linux Terminal command to see the current wireless chipset?
+2008-03-30T00:36:00.000Z	blah569		It tells me that the "ispci" command can not be found.
+2008-03-30T00:36:00.000Z	riskbreaker	blah569	Lspci, no caps
+2008-03-30T00:38:00.000Z	riskbreaker	blah569	try "lspci | grep network"

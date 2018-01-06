@@ -1,0 +1,4 @@
+2011-10-21T11:25:00.000Z	denysonique__	The_BROS	if it is called .gnote, this command will find it for you: $ find $HOME -name '.gnote'
+2011-10-21T11:25:00.000Z	denysonique__	The_BROS	try also the ~/.config dir
+2011-10-21T11:26:00.000Z	denysonique__	The_BROS	alternatively you can run $ strace gnote and look for kernel calls of gnote opening the config file
+2011-10-21T11:28:00.000Z	denysonique__	The_BROS	probably the format is different, but if you can program you could write a script which does that

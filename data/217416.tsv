@@ -1,0 +1,4 @@
+2007-05-27T08:50:00.000Z	Lhademmor		Hello please help: I want to start firefox, but it says it's already running... How can I find "running applications" and shut down invisible firefox?
+2007-05-27T08:51:00.000Z	phazeman	Lhademmor	killall firefox; firefox; (in the terminal)
+2007-05-27T08:52:00.000Z	phazeman	Lhademmor	ps -ef | grep mozilla
+2007-05-27T08:53:00.000Z	phazeman	Lhademmor	killall firefox-bin, then try to run mozilla firefox from the menu

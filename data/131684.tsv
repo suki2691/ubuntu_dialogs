@@ -1,0 +1,4 @@
+2009-06-08T09:38:00.000Z	bc		on a remote server, an attached usb disk was lost by the kernel(?) but it shows being still attached in the output of lsusb. How can I determine what /dev/sd* I should use to remount it?
+2009-06-08T09:40:00.000Z	bastidrazor	bc	dmesg will have it
+2009-06-08T09:40:00.000Z	bc	bastidrazor	aw crap, thanks. I didn't look far back enough. :)
+2009-06-08T09:41:00.000Z	bastidrazor	bc	happy hunting

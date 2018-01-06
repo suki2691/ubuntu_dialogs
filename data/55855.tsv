@@ -1,0 +1,4 @@
+2009-09-10T22:24:00.000Z	lastent		hi, I just connected to a VPN. now I want to connect to some IP's using that connection, and to the rest using my internet connection, is this possible?
+2009-09-10T22:25:00.000Z	G_A_C	lastent	yes, it's possible by changing your routing tables
+2009-09-10T22:25:00.000Z	lastent	G_A_C	can you help me doing it?
+2009-09-10T22:25:00.000Z	G_A_C	lastent	something like "sudo route add 1.2.3.4 netmask 255.255.255.0 dev vpn0" should do it, but I'm not sure of the exact syntax. also, it depends on what your VPN network adapter is called, on my laptop it's "csco0" or something

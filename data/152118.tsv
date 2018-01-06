@@ -1,0 +1,4 @@
+2007-04-24T16:43:00.000Z	kavit		hey does ubuntu support parallel filesystems like GFS and PVFS? does anyone have any recommendations as to which works best?
+2007-04-24T16:43:00.000Z	kavit		i am trying to setup a cluster application
+2007-04-24T16:45:00.000Z	xtknight	kavit	ubuntu (at least Feisty) supports GPS according to a cat of the kernel config file, but grepping PVFS doesnt seem to reveal any entries at all
+2007-04-24T16:46:00.000Z	xtknight	kavit	additionally i have no idea what either of those are but i thought i'd let you know GPS was in the Ubuntu Feisty kernel (CONFIG_GFS_FS=m, CONFIG_GFS2_FS=m, CONFIG_CONFIGFS_FS=m)

@@ -1,0 +1,4 @@
+2011-03-27T09:55:00.000Z	lazyPower		Is there a way to enable starting X applications on a remote Ubuntu desktop over ssh?
+2011-03-27T09:56:00.000Z	lazyPower		for example, i'd like to ssh into my desktop, and start a VLC session. however i'm getting a "unable to connect to x server"
+2011-03-27T09:56:00.000Z	DaPenguin	lazyPower	think you need vnc for that
+2011-03-27T10:01:00.000Z	DaPenguin	lazyPower	think it's like xorg.conf in that it'll still read it if it's there

@@ -1,0 +1,4 @@
+2008-10-16T10:25:00.000Z	Hilikus		is there a way to create an alias to /etc/init.d/ so thath if i write restart <param> it would recognize im taking about /etc/init.d/<param> restart ?
+2008-10-16T10:27:00.000Z	harriseldon	Hilikus	are you coming from a Red Hat/Fedora background? Isn't that how it works in Fedora. service [servicename] restart? You can always create your own script called restart and write it yourself.
+2008-10-16T10:28:00.000Z	harriseldon	Hilikus	very simple, it only needs the line (besides standard header) /etc/init.d/$1 restart
+2008-10-16T10:28:00.000Z	Hilikus	harriseldon	no

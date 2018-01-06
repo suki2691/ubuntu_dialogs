@@ -1,0 +1,4 @@
+2007-10-31T15:59:00.000Z	FastZ		anybody know an alternative to smbfs?  I currently have a remote share mounted to my machine from a server on my network using smbfs as the filesystem type in /etc/fstab.  The share mounts fine, but all the files in the share, when accessed from this machine, show up as being labeled something like :x4a, :x4b, and so on and disappear when you click on them.
+2007-10-31T16:00:00.000Z	primski	FastZ	what type of filesystem are you mounting ?
+2007-10-31T16:00:00.000Z	primski	FastZ	you could try sshfs, works pretty good for me.
+2007-10-31T16:01:00.000Z	primski	FastZ	yea...its a little different, dont remember atm, try searching on ubuntuforums

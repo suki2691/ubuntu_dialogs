@@ -1,0 +1,4 @@
+2010-10-27T01:00:00.000Z	lathan		Can you bind a keyboard shortcut to the Right Control key, but not the Left? Within gnome 2.32, on Maverick,
+2010-10-27T01:02:00.000Z	VCoolio	lathan	the keys are different (check xev output), so yes, at least with xbindkeys
+2010-10-27T01:03:00.000Z	lathan	VCoolio	I've looked at xev, but when you try and bind it into metacty shortcuts, I can't get metacity's interpretor to map to that keycode
+2010-10-27T01:04:00.000Z	VCoolio	lathan	I'm not sure if you can do that with metacity, see if you can enter something specific in gconf-editor at application>metacity

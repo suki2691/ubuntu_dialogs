@@ -1,0 +1,4 @@
+2011-01-07T10:39:00.000Z	JamesScottSomers		I have a quick question, any help is appreciated:  I never had this problem with Windows XP but I am now dual-booting Windows 7 on my new computer.  I don't want to change any Windows settings because it is for work.  What I want to do is run a Windows executable on the Windows partition, but before I do I have to flag it as "executable" which it is not letting me do.  I am assuming the reason why is because of settings on Windows end although th
+2011-01-07T10:39:00.000Z	JamesScottSomers		at is surprising as well.  My question is is there is a mount configuration or something similar I can do to run my executables on my Windows 7 drive.  TYVM
+2011-01-07T10:41:00.000Z	deww	JamesScottSomers	are you trying to run windows executables in ubuntu?
+2011-01-07T10:47:00.000Z	deww	JamesScottSomers	you can try chmod +x /path/to/exe, but i am personally not familiar with wine or what it requires

@@ -1,0 +1,4 @@
+2012-06-26T02:46:00.000Z	a5m0		so I'm  trying to add the chrome repository to my mom's computer because her chrome isn't working and I want to make sure it's updating, but I'm getting duplicate sources.list entry in /car/lib/apt/lists but when I go to /etc/apt/sources.list there are no custom debs in there, which one should i be editing?
+2012-06-26T02:48:00.000Z	a5m0		chrome not chromium
+2012-06-26T02:49:00.000Z	a5m0		I don't want her to lose all her bookmarks
+2012-06-26T02:50:00.000Z	trism	a5m0	the deb repository will be in /etc/apt/sources.list.d/

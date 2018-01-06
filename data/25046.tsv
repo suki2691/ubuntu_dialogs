@@ -1,0 +1,4 @@
+2010-10-01T02:05:00.000Z	PMantis		Hi guys, I plugged an external monitor in to my laptop, turned it on for use, and now it's locked up. However, I can SSH in to it. Is there a way I can reset the screen settings remotely?
+2010-10-01T02:05:00.000Z	oscar4081	PMantis	restart X or run the the xsetup script
+2010-10-01T02:06:00.000Z	PMantis	oscar4081	I really don't want to restart X, since I'll lose the documents I was editing. I'll try xsetup
+2010-10-01T02:11:00.000Z	PMantis	oscar4081	A reconfigure didn't change my screen. one monitor is black, the other is half there, can't move mouse. However, I am running xchat-gnome on the same computer via ssh -X from another computer. Any other ideas, I *really* don't want to redo my work.

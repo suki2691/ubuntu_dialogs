@@ -1,0 +1,4 @@
+2005-12-03T12:56:00.000Z	sig		some odd reason when I try to run firefox it never opens
+2005-12-03T12:56:00.000Z	sig		 /usr/bin/firefox: line 221: /home/joe/.mozilla/firefox/1s945ane.default/ver: Read-only file system
+2005-12-03T12:57:00.000Z	sig		Could not set mode 0700 on private per-user gnome configuration directory `/home/joe/.gnome2_private/': Read-only file syste
+2005-12-03T12:57:00.000Z	djm62	sig	did you change the mount options for the filesystem that /home is on?

@@ -1,0 +1,4 @@
+2007-10-19T21:55:00.000Z	remix5x		how do i run a desktop icon program in sudo without going into console, is there some sort of clever hotkey i can push while clicking it to do that?
+2007-10-19T21:55:00.000Z	fyrestrtr	remix5x	change the shortcut so its 'gksudo nameofprogramexecutable'
+2007-10-19T21:56:00.000Z	remix5x	fyrestrtr	thats pretty cool, it worked! I tried doing sudo application name, how come I have to do gksudo and not just sudo?
+2007-10-19T21:57:00.000Z	fyrestrtr	remix5x	because you are doing it from within X

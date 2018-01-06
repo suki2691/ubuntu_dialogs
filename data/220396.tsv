@@ -1,0 +1,4 @@
+2009-02-09T08:52:00.000Z	dmphotography		Hey, does anyone happen to know where apache is installed on ubuntu, or even better, what the command to stop it is?
+2009-02-09T08:52:00.000Z	Flannel	dmphotography	sudo /etc/init.d/apache2 stop
+2009-02-10T12:42:00.000Z	Flannel	dmphotography	Use sftp instead (openssh-server will get you a sftp server)
+2009-02-10T12:45:00.000Z	Flannel	dmphotography	Use sftp instead (which uses ssh) and there are lots of off the shelf ways to secure ssh against bruteforce (such as DenyHosts)

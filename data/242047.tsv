@@ -1,0 +1,4 @@
+2008-02-16T11:02:00.000Z	furythor		how I do change wine drives to /usr/local/wine ?
+2008-02-16T11:02:00.000Z	furythor		I keep getting "out of space" error when running applications
+2008-02-16T11:04:00.000Z	astro76	furythor	are you out of space on /home and you have space on / ?
+2008-02-16T11:08:00.000Z	astro76	furythor	if so you can move it wherever you want and make a symbolic link, mv ~/.wine/ /new/path/to/.wine && ln -s /new/path/to/.wine ~/

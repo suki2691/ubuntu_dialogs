@@ -1,0 +1,4 @@
+2009-04-24T22:00:00.000Z	hazemmohamed		Any way to disable ipv6 on jaunty?
+2009-04-24T22:02:00.000Z	jtaji	hazemmohamed	you can put 'blacklist ipv6' in /etc/modprobe.d/blacklist
+2009-04-24T22:02:00.000Z	hazemmohamed	jtaji	It was working in previous releases but now it isn't
+2009-04-24T22:03:00.000Z	hazemmohamed	jtaji	IPv6 is now built in the kernel not as a module

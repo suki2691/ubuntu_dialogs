@@ -1,0 +1,4 @@
+2012-07-28T17:20:00.000Z	tking		hello guys, i am trying to kill skype... it says not responding, i tried killing it with kill PROCESS ID it still stays at the status bar, did it rom system monitor still skype wudn't exit
+2012-07-28T17:20:00.000Z	cfhowlett	tking	kill -9 process ID
+2012-07-28T17:21:00.000Z	tking	cfhowlett	thanks, what does the -9 do? why didnt the kill process id work?
+2012-07-28T17:22:00.000Z	cfhowlett	tking	details @ the man page for "kill" command.  -9 forces the stop

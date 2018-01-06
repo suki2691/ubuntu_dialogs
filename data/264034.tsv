@@ -1,0 +1,4 @@
+2005-08-26T10:21:00.000Z	surfdue		Can anyone tell me what sound drivers i need, a pastebin of my lspci is here: http://pastebin.com/342332
+2005-08-26T10:22:00.000Z	LinuxJones	surfdue	looks like snd-intel8x0 drivers
+2005-08-26T10:23:00.000Z	LinuxJones	surfdue	>> http://www.alsa-project.org/alsa-doc/doc-php/template.php?module=intel8x0
+2005-08-26T10:24:00.000Z	LinuxJones	surfdue	the modules should already be installed for you can you look at the output of lsmod to see if they are already loaded ?

@@ -1,0 +1,4 @@
+2009-08-04T20:40:00.000Z	tazbo		I've been trying to get 9.04 or even 8.10 to work on my machine.  They both lock up every time a few seconds after the cursor comes up on the login screen.  I tried installing 9.04, from scratch and I get the same thing.. any ideas?
+2009-08-04T20:40:00.000Z	moncky	tazbo	can you use ctl-alt-F1 to get to a terminal and have a look at the logs?
+2009-08-04T20:45:00.000Z	tazbo	moncky	I can if I boot in rescue mode but i'm not sure where to look or what to look for
+2009-08-04T20:46:00.000Z	moncky	tazbo	first place to start is /var/log/messages, also have a general rummage in /var/log for the X logs

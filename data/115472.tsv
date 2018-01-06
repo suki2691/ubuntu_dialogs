@@ -1,0 +1,4 @@
+2007-10-23T10:08:00.000Z	omneh		Hey there, I have a Realtek 8185, I have heard via the bug list that you can't hook up to encrypted wireless networks with it.  Indeed, I seem to be getting a kernel panic whenever I try.  Any good ideas for making this work?  Is there a fix or a workaround?  I have attempted to use ndiswrapper; however, I upon attempting to connect again it locked up again, is there any way to make sure that you're using the ndiswrapped driver automagically?
+2007-10-23T10:08:00.000Z	riotkittie	omneh	blacklist the other driver
+2007-10-23T10:08:00.000Z	omneh	riotkittie	how?
+2007-10-23T10:08:00.000Z	riotkittie	omneh	add blacklist drivername to /etc/modprobe.d/blacklist

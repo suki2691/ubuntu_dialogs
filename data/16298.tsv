@@ -1,0 +1,4 @@
+2011-04-12T03:56:00.000Z	{{localhost}}		I have a AR5008 series WiFi card and for some reason it disconnect from time to time and have to do modprobe -r ath9k and modprob ath9k to reload it, does anyone know how to solve this problem?
+2011-04-12T03:57:00.000Z	meganerd	{{localhost}}	dmesg and /var/log/syslog are your friend
+2011-04-12T03:59:00.000Z	{{localhost}}	meganerd	i did that but didn't help
+2011-04-12T04:00:00.000Z	meganerd	{{localhost}}	what do you mean it didn't help.  You mean to say that there was nothing useful in the logs?  No notofications?  Nothing?

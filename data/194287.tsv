@@ -1,0 +1,4 @@
+2007-08-29T05:02:00.000Z	sherleon		how do i change my computer name?
+2007-08-29T05:02:00.000Z	sherleon		like from chris-desktop to chris-desktop2
+2007-08-29T05:03:00.000Z	pike_	sherleon	be sure to a line in /etc/hosts first.
+2007-08-29T05:04:00.000Z	pike_	sherleon	like gksu gedit /etc/hosts and the line should be 127.0.0.1  computername.  after that you can sudo hostname computername

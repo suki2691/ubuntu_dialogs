@@ -1,0 +1,4 @@
+2006-07-27T13:16:00.000Z	chris86wm		hey guys I have an ATI Radion M300 in my dell laptop. are there any drivers that i need to install?
+2006-07-27T13:18:00.000Z	chris86wm		anyone know if the ati m300 needs a driver?
+2006-07-27T13:18:00.000Z	Corporal_Dirge	chris86wm	ati drivers should work. I have a 390M in my Compaq.
+2006-07-27T13:19:00.000Z	Corporal_Dirge	chris86wm	Look at your /etc/X11/xorg.conf and look for ATI, if you see vesa instead then you'l need to manually install

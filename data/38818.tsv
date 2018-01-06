@@ -1,0 +1,4 @@
+2010-05-19T05:56:00.000Z	shadmego		onetinsoldir: I would love to try that,  or find a way around plymouth altogether, but I can't boot the system, not even to a working grub maint. shell
+2010-05-19T05:57:00.000Z	Jordan_U	shadmego	Do disable plymouth just remove the "splash" kernel parameter
+2010-05-19T05:58:00.000Z	shadmego	Jordan_U	I tried removing the splash parameter and got a similar, though different error. I am not in front of the machine anymore so I can't repeat that particular error
+2010-05-19T06:09:00.000Z	shadmego	Jordan_U	I was wrong. When removing the "splash" kernel parameter, the same error message comes up - init: plymouth-splash main process (#) terminated with status 1

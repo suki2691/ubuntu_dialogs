@@ -1,0 +1,4 @@
+2010-04-22T20:31:00.000Z	dotnetted		It seems like most packages I need in Synaptics are at least one version away from the current stable release - is there a more 'recent' or 'experimental' repo for synaptics?
+2010-04-22T20:32:00.000Z	dotnetted		for instance apache2 is currently 2.2.12 in repo and 2.2.15 latest release - seems like other linux distros ive used have had a little more recent packages
+2010-04-22T20:34:00.000Z	Pici	dotnetted	Even in Lucid, which is releasing at the end of the month, doesn't even have .15, its only on .14
+2010-06-15T22:32:00.000Z	Pici	dotnetted	mysql is setup as a service, so you should be able to issue either: sudo service mysql start  OR  sudo invoke-rc.d mysql start

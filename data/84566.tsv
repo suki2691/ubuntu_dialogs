@@ -1,0 +1,4 @@
+2008-07-25T21:49:00.000Z	Pichu0102		Does anyone know how I can find out what the brand of my ethernet adaptor is? I can't find the hardware information in the administration menu anymore...
+2008-07-25T21:49:00.000Z	imageek	Pichu0102	lspci from the command line
+2008-07-25T21:51:00.000Z	imageek	Pichu0102	did it get disabled via the bios or something?
+2008-07-25T21:55:00.000Z	imageek	Pichu0102	you can try looking thru dmesg and seeing if you can find it there

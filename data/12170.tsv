@@ -1,0 +1,4 @@
+2012-04-27T20:03:00.000Z	ksian		how to start GUI in ubuntu 12.04. I have no interface after installing
+2012-04-27T20:04:00.000Z	zykotick9	ksian	did you use a regular LiveCD or a miniCD to install?
+2012-04-27T20:05:00.000Z	zykotick9	ksian	"sudo service lightdm start"
+2012-04-27T20:06:00.000Z	zykotick9	ksian	what graphics card are you using?  if you can get to terminal, "lspci | grep -i vga" would tell you if you aren't sure.

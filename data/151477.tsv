@@ -1,0 +1,4 @@
+2008-11-30T19:38:00.000Z	NkZ		I am using Ubu8.04, Since I activated the NVIDIA drivers my resolution wont go over 1024*768. I have not found any resolution line on my XORG file, what could I do to increase my resolution over 1024 768?
+2008-11-30T19:39:00.000Z	Brandano	NkZ	you can try and force a resolution by adding modelines to xorg.conf. Not sure if it still works like that on the latest xorg, a few things have been updated
+2008-11-30T19:40:00.000Z	NkZ	Brandano	Gonna try that.
+2008-11-30T19:41:00.000Z	Brandano	NkZ	modes are read left to right, so put the one you want by default leftmost

@@ -1,0 +1,4 @@
+2009-09-09T12:16:00.000Z	jhesketh_		I'm a bit confused. I have a thumbdrive with 3 fat16 partitions on it with an msdos partition table (all created in gparted). Somebody is trying to tell me they want to "assign drive letters" to the partitions (for windows). However, it is my understanding that the drive letter isn't held in the partition table and it's simply assigned by windows when it is first plugged in? (seems like a windows question, but I'm more askin
+2009-09-09T12:16:00.000Z	jhesketh_		g about the way partition tables work ;))
+2009-09-09T12:17:00.000Z	MenZa	jhesketh_	Right click My Computer -> Manage -> Disk Management. You can change the drive letters there.
+2009-09-09T12:18:00.000Z	jhesketh_	MenZa	Yes, but changing letters in there only sets it for the current machine right? the information isn't stored on a partition table is it?

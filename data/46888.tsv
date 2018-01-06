@@ -1,0 +1,4 @@
+2011-07-13T23:58:00.000Z	ChogyDan	saliak	what is the script?
+2011-07-13T23:59:00.000Z	saliak	ChogyDan	: i've got an embedded system (well, a headless system with an LCD interface) that i want to have act like an appliance.  the script launches my daemon that makes it do it's thing (control buttons, write stuff to LCD, etc.)
+2011-07-14T00:01:00.000Z	ChogyDan	saliak	have you tried using upstart?
+2011-07-14T00:03:00.000Z	ChogyDan	saliak	there is an example somewhere that I used, something like: start on started tty1 \n exec "your script"

@@ -1,0 +1,4 @@
+2011-02-02T03:42:00.000Z	PH-MJS		Hi guys, I've a question. I've installed Compiz and it works like a charm. Then, I lost the permission to run compiz and the compizmanager (cssm). I can only start it now by typing sudo compiz in the terminal. Does someone know how to fix this?
+2011-02-02T03:43:00.000Z	Gnea	PH-MJS	did you check the permissions of the binary?
+2011-02-02T03:43:00.000Z	Gnea	PH-MJS	ls -l /usr/bin/compiz  first, make sure you HAVE to make any changes to it
+2011-02-02T03:45:00.000Z	Gnea	PH-MJS	cheers

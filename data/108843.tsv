@@ -1,0 +1,4 @@
+2010-07-21T23:35:00.000Z	theoctagon		I love this command:
+2010-07-21T23:35:00.000Z	theoctagon		for i in `du --max-depth=1 $HOME | sort -n -r | awk '{print $1 ":" $2}'`; do size=`echo $i | awk -F: '{print $1}'`; dir=`echo $i | awk -F: '{print $NF}'`; size2=$(($size/1024)); echo "$size2 MB used by $dir"; done | head -n 10
+2010-07-21T23:35:00.000Z	theoctagon		:)
+2010-07-21T23:36:00.000Z	FloodBot3	theoctagon	Please don't flood, use http://paste.ubuntu.com to paste, don't use Enter as punctuation.

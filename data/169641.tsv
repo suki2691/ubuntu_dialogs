@@ -1,0 +1,4 @@
+2006-08-27T08:32:00.000Z	edgyeft1		i've just broekn my xserver after upgrading to a new version on edgy eft, now i am on the live cd... how can use the live cd or boot into ubuntu in text mode so i can downgrade to the older version of xorg, also what is the command for downgrading
+2006-08-27T08:34:00.000Z	msseve1	edgyeft1	don't use the live CD for this...use the recovery console
+2006-08-27T08:34:00.000Z	msseve1	edgyeft1	then type sudo apt-get install pagkagename=versionnumber
+2006-08-27T08:34:00.000Z	msseve1	edgyeft1	oops...when you're n the recovery console, you don't need sudo

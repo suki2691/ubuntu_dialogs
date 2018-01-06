@@ -1,0 +1,4 @@
+2010-04-06T04:17:00.000Z	Niennor		if somebody can help me plz: I have a HDD with an ubuntu partition, it had a folder of a samba server with a lot of files on it and there are a lot of files with character encoding troubles and I cannot write those files on a DVD, there is a way to bulk repair those filenames? please?
+2010-04-06T04:18:00.000Z	histo	Niennor	you could find files with certain errors and rename them
+2010-04-06T04:21:00.000Z	histo	Niennor	there is a rename command on debian based systems as well. you could do something like rename -v 's/\.something/\.somethingnew/' *.blah
+2010-04-06T04:22:00.000Z	histo	Niennor	you'd have to look at the man page for a better explaination and to see some examples

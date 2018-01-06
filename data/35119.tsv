@@ -1,0 +1,4 @@
+2012-05-12T15:58:00.000Z	HelplessPenguin		Can anyone help me out here? I'm getting FATAL: Module nvidia not found. When I try to startx after trying to install nvidia drivers (nvidia-current and nvidia-glx-173)
+2012-05-12T15:59:00.000Z	Keshi	HelplessPenguin	Check you edited the config file properly.
+2012-05-12T16:03:00.000Z	Keshi	HelplessPenguin	Yeah, I am not in the situation or in front of your machine, but the error message says x cannot find the module.  My guess is that means what it says.  There may be some problem with the script whatever packager manager ran when you installed it.  If the module has a name other than nvidia for whatever reason, editing the config file might still work.
+2012-05-12T16:03:00.000Z	Keshi	HelplessPenguin	Maybe some issue caused the package manager to name it something else… or whatever… IDK.

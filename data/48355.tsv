@@ -1,0 +1,4 @@
+2010-07-10T06:36:00.000Z	Satan911		Hi. Quick question.. Looking for a way to make X (in Ubuntu) reload xorg.conf without having to restart GNOME (unlike /etc/init.d/gdm restart). I think it's possible because I can do it via the GUI nVidia panel (X Server Settings) but I can't figure out a command line for my script. Any ideas?
+2010-07-10T06:36:00.000Z	cheater99	Satan911	try to strace that application
+2010-07-10T06:39:00.000Z	cheater99	Satan911	speaking of xorg, do you know how to check if a certain module is loaded? i'm trying to debug my touchpad.
+2010-07-10T06:41:00.000Z	cheater99	Satan911	yeah, but i'm not sure, because my touchpad doesn't seem to work at all..

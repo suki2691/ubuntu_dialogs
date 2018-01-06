@@ -1,0 +1,4 @@
+2009-04-30T07:30:00.000Z	g4lv4tr0n		i want to zero whole drive
+2009-04-30T07:30:00.000Z	g4lv4tr0n		including mbr and partition table
+2009-04-30T07:31:00.000Z	z0x1c	g4lv4tr0n	MTecknology no need for length=. bs=1M might help performance, however.
+2009-04-30T07:31:00.000Z	z0x1c	g4lv4tr0n	the MBR is the first sector on the drive. it contains the partition table, which will get zeroed as well

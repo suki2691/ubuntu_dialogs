@@ -1,0 +1,4 @@
+2006-08-09T15:39:00.000Z	feydin		is there another way to get a remote fs mountet instead of lufs?
+2006-08-09T15:40:00.000Z	feydin		i only got ssh access
+2006-08-09T15:41:00.000Z	micahcowan	feydin	well... you could use virtual ssh fs through fuse... I think that's the only way you could "mount" something over ssh...
+2006-08-09T15:41:00.000Z	feydin	micahcowan	hmhm ok... lufs seems to be nice, but in dapper tehre is no more lufs-cryptofs

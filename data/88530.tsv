@@ -1,0 +1,4 @@
+2008-12-18T21:03:00.000Z	stefg		... and i start wondering if my hd's are getting worn out by it
+2008-12-18T21:04:00.000Z	ASULutzy	stefg	You could install smartmontools and then do sudo smartctl -a /dev/sda (or whatever it is) and check if it's parking the head way more often than it ought to be
+2008-12-18T21:04:00.000Z	stefg	ASULutzy	have them already ... hdparm -B 255 and  -M 200 are in my local boot script
+2008-12-18T21:05:00.000Z	ASULutzy	stefg	Ah ok!

@@ -1,0 +1,4 @@
+2008-12-30T01:31:00.000Z	vdejager		my server does not support pae, is there any option how to install ubuntu-server?
+2008-12-30T01:31:00.000Z	Flannel	vdejager	install the ubuntu-server kernel: linux-image-server
+2008-12-30T01:32:00.000Z	Flannel	vdejager	No, that enables PAE.  You want a non-PAE kernel? install linux-image-generic
+2008-12-30T01:38:00.000Z	Flannel	vdejager	I don't believe so.  There may be though.

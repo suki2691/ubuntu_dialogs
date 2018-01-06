@@ -1,0 +1,4 @@
+2010-04-11T02:07:00.000Z	szimmer		but on the website it says that i have to do the configure in the ssh source directory...  but my ssh is installed not from source...
+2010-04-11T02:07:00.000Z	szimmer		or am i doing something stupid?
+2010-04-11T02:08:00.000Z	szimmer		hi
+2010-04-11T02:10:00.000Z	bastid_raZor	szimmer	if you installed openssh-server then ssh will automatically start. if you manually stop ssh(d) then you'll need to manually start it.

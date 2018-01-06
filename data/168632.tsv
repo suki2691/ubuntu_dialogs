@@ -1,0 +1,4 @@
+2010-02-09T18:20:00.000Z	pirx		hi! how do i fix unresolver dependencies with apt? i try to install wireshark and i get this: http://pastebin.com/d206025e9  (i upgraded the package tsm-client a few days ago, but apparently there are some problems). when i try to do "apt-get -f install" it tells me that it will remove tsm-client, which is not a very good option for me
+2010-02-09T18:22:00.000Z	scunizi	pirx	are you on a 64bit system?
+2010-02-09T18:23:00.000Z	pirx	scunizi	yes 64bit
+2010-02-09T18:24:00.000Z	scunizi	pirx	try what chetnick said..

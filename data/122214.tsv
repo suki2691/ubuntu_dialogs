@@ -1,0 +1,4 @@
+2007-09-10T13:29:00.000Z	FrazzledPenguin	academy	Companies like AOL will not deliver email to it's users that originate from any MX records that does not have any PTR records.
+2007-09-10T13:29:00.000Z	academy	FrazzledPenguin	I know that, but will they deliver _to_ a mail server on an adsl line (no ptr) if the mx record for a domain points to it?
+2007-09-10T13:31:00.000Z	FrazzledPenguin	academy	My experience has been that they will not. I do not know this as a fact, but I have had issues with that in my own mail servers. Once I requested a PTR record in place so that AOL could do a successful reverse DNS lookup everything worked from there on out.
+2007-09-10T13:32:00.000Z	academy	FrazzledPenguin	ok ty

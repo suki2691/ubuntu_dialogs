@@ -1,0 +1,4 @@
+2011-07-31T02:44:00.000Z	ariqs		so grub has to be modified to goto /sda2?
+2011-07-31T02:45:00.000Z	ariqs		hmm
+2011-07-31T02:46:00.000Z	w30	ariqs	my ubuntu install set up an entry for the recovery partition also but it don't boot. I don't have XP any more but the recovery partition is my only copy of windows so I kept it. I bet your install messed up with the boot entry.
+2011-07-31T02:48:00.000Z	w30	ariqs	check in /boot/grub and see if you are pointed to the recovery partition or to a bootloader for the recovery partition

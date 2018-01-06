@@ -1,0 +1,4 @@
+2012-05-13T14:55:00.000Z	ghost_		but its not working this time, that line sends an error
+2012-05-13T14:56:00.000Z	llutz	ghost_	read the link ubottu provided you earlier. you can add " dns-nameservers x.x.x.x" to /etc/network/interfaces   too
+2012-05-13T14:59:00.000Z	ghost_	llutz	i did but didnt quite understand that part untill now xD ty i will try that
+2012-05-13T14:59:00.000Z	llutz	ghost_	"nameserver x.x.x.x" in /etc/resolvconf/resolv.conf.d/base  and running "sudo resolvconf -u" would also do

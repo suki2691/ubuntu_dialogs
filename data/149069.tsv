@@ -1,0 +1,4 @@
+2008-05-04T01:47:00.000Z	Insite		any idea why after i use emerald --replace in the terminal if I close the terminal the windows loose there borders
+2008-05-04T01:48:00.000Z	Insite		ahh ok cool that works
+2008-05-04T01:48:00.000Z	unop	Insite	you can use nohup and/or disown to stop emerald from quittting if the shell is closed
+2008-05-04T01:50:00.000Z	unop	Insite	try something like.  nohup emerald --replace &

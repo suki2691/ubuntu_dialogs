@@ -1,0 +1,4 @@
+2012-11-02T06:51:00.000Z	Guest51505		hey guys. quick question. installing ubuntu 12.10 to a USB stick (not a live USB, but a full install). what file system do you recommend? ext4? fat32? what's fastest on a standard USB stick? you can install to fat32, right?
+2012-11-02T06:52:00.000Z	ActionParsnip	Guest51505	ext2 will cause fewer writes but doesn't have a journal. Ext4 has a journal but will write more
+2012-11-02T06:52:00.000Z	ActionParsnip	Guest51505	Fat32 isn't suitable for Linux installs
+2012-11-02T06:52:00.000Z	Guest51505	ActionParsnip	and a journal makes it... safer?

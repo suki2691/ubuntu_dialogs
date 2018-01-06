@@ -1,0 +1,4 @@
+2010-01-22T07:42:00.000Z	Daemonic		The touchpad on my laptop is messed up. About every five to ten minutes I lose the ability to interact with X. I can mouse the cursor but I cannot click. I use and external usb mouse. Is there an easy way to totaly disable the touchpad?
+2010-01-22T07:43:00.000Z	tweaksource	Daemonic	Try tpconfig
+2010-01-22T07:44:00.000Z	Daemonic	tweaksource	I only see options to configure the touchpad with tpconfig. I don't see anything about how to disable it entirely.
+2010-01-22T07:49:00.000Z	tweaksource	Daemonic	the offending package should be xserver-xorg-input-synaptics

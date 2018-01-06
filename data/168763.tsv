@@ -1,0 +1,4 @@
+2009-12-20T07:03:00.000Z	amouge		hey all, I am trying to use my usb drive as a doc root temporarily for apache on my local server.. ive mounted it to /media/KINGSTON
+2009-12-20T07:03:00.000Z	amouge		but no matter what I do I can change the permissions to allow viewing
+2009-12-20T07:03:00.000Z	amouge		when I chmod it, it stays with the same permissions, but no errors
+2009-12-20T07:03:00.000Z	scunizi	amouge	it probably needs to be a member of www-data

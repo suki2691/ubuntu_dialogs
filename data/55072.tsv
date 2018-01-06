@@ -1,0 +1,4 @@
+2010-05-19T07:40:00.000Z	shapshift3r		ive created a wee binary script called encrypt, ive put it in /usr/bin and if i cd /usr/bin and then run it like 'encrypt password' it works fine.  if i try to run it from anywhere else using /usr/bin/encrypt password encrypt isnt found.
+2010-05-19T07:40:00.000Z	shapshift3r		I thought by putting it in /usr/bin it would be in my path?
+2010-05-19T07:40:00.000Z	edbian	shapshift3r	Side note: you should probably but it in /usr/local/bin
+2010-05-19T07:41:00.000Z	edbian	shapshift3r	Than you can just "encrypt" at the cli  regardless of where you are

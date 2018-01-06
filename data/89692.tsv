@@ -1,0 +1,4 @@
+2008-12-12T08:20:00.000Z	Wyzard	DaveKong	not entirely true; 32-bit kernels can support up to 64GB of physical RAM if built with PAE support
+2008-12-12T08:21:00.000Z	Wyzard	DaveKong	The limitation is that no individual process can use more than 4GB of it
+2008-12-12T08:21:00.000Z	DaveKong	Wyzard	thanks for the info, never knew that
+2008-12-12T08:22:00.000Z	Wyzard	DaveKong	The -generic kernel doesn't have PAE enabled but the -server one probably does

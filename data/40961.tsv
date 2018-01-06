@@ -1,0 +1,4 @@
+2009-12-14T22:39:00.000Z	LewisDre4m		If I go into PLACES / NETWORK I have a folder that says WINDOWS NETWORK and it has all the computers on my network and I can view their files. HOWEVER if I share files on this ubuntu machine they cannot see them or anything.
+2009-12-14T22:39:00.000Z	mickster04	LewisDre4m	have u installed samba properly?
+2009-12-14T22:39:00.000Z	LewisDre4m	mickster04	I installed Samba a min ago yes
+2009-12-14T22:41:00.000Z	mickster04	LewisDre4m	it may need a restart? check the samba config at /etc/samba/smb.conf

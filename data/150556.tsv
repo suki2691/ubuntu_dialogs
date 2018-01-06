@@ -1,0 +1,4 @@
+2007-09-24T09:16:00.000Z	main2		how do i make my feisty system start in runlevel 2 instead of 5?
+2007-09-24T09:17:00.000Z	main2		how do i stop X from being loaded then? :)
+2007-09-24T09:17:00.000Z	main2		its a 'server'
+2007-09-24T09:19:00.000Z	Pici	main2	`sudo update-rc.d gdm remove`   (or kdm, etc)

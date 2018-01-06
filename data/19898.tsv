@@ -1,0 +1,4 @@
+2011-03-27T10:37:00.000Z	pnorman		I'm installing a new hard drive on my server, was following https://help.ubuntu.com/community/InstallingANewHardDrive but on the sudo lshw -C disk step I get no results, not even for my existing disks. How can I see what logical name my disk has?
+2011-03-27T10:39:00.000Z	ZykoticK9	pnorman	"sudo blkid"?
+2011-03-27T10:43:00.000Z	pnorman	ZykoticK9	Not reporting it - does blkid show partitions only, or will it show an unpartitioned drive?
+2011-03-27T10:44:00.000Z	ZykoticK9	pnorman	only formatted partitions.  you could use "sudo fdisk -l" to list all partitions perhaps

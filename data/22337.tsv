@@ -1,0 +1,4 @@
+2010-11-24T17:31:00.000Z	baba_b00ie		i installed vsftpd on my machine and deleted the /etc/init.d/vsftpd file by mistake. i tried apt-get autoremove vsftp and then apt-get vsftpd to get it back but it doesnt. how do i get that back ?
+2010-11-24T17:32:00.000Z	najwa__	baba_b00ie	purge firts, then reinstall it
+2010-11-24T17:32:00.000Z	baba_b00ie		yay i got it.. i did another purge and the powers that be said let there be light. and then vsftpd reappeared =)
+2010-11-24T17:33:00.000Z	baba_b00ie	najwa__	second try running the apt-get purge worked.

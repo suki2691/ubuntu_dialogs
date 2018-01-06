@@ -1,0 +1,4 @@
+2012-02-15T17:34:00.000Z	krissed		I got a little script issue: What would the expected outcome of this do: if [-f /etc/skel/.profile.old]
+2012-02-15T17:35:00.000Z	damo22	krissed	you need a space like so:  [ -f ..... .old  ]
+2012-02-15T17:35:00.000Z	krissed		ahh thanks
+2012-02-15T17:37:00.000Z	krissed	damo22	and 1lutz THANKS.. I made a script which lets me pick a location of our schools and based on userinput from 1-9 it creates your bookmarks to accomodate the windows common shares

@@ -1,0 +1,4 @@
+2008-10-09T04:06:00.000Z	Guest52091		I was wondering if anybody could tell me how to remount my second hard drive.
+2008-10-09T04:06:00.000Z	blueeagle	Guest52091	man mount
+2008-10-09T04:07:00.000Z	blueeagle	Guest52091	Usually you would need: sudo mount /dev/hdb1 /path/to/mountpoint
+2008-10-09T04:07:00.000Z	blueeagle	Guest52091	also look up man fstab

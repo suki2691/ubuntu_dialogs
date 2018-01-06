@@ -1,0 +1,4 @@
+2006-06-09T09:52:00.000Z	webguy		i need the mcrypt php function which does not come with the defaiult bb ubuntu install.  how do i add it?
+2006-06-09T09:53:00.000Z	webguy		ANYONE? i need the mcrypt php function which does not come with the defaiult bb ubuntu install.  how do i add it?
+2006-06-09T09:53:00.000Z	kieranDOA	webguy	"You need to compile PHP with the --with-mcrypt[=DIR]  parameter to enable this extension. DIR is the mcrypt install directory. Make sure you compile libmcrypt with the option --disable-posix-threads."
+2006-06-09T09:54:00.000Z	webguy	kieranDOA	thanks - where did you geth that from and how do i compile on my server?  is that from a page with more directions?

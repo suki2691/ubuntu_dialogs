@@ -1,0 +1,4 @@
+2009-05-23T05:16:00.000Z	Pluxxx		how can I make use of a special key on my eee? its almost as a windows-button (but it was used for the linux distro the laptop came with)
+2009-05-23T05:18:00.000Z	Pluxxx		is there absolutely no way of making use of that key?
+2009-05-23T05:18:00.000Z	Dulak	Pluxxx	run xev from a terminal, then hit the key and see if it's registered
+2009-05-23T05:19:00.000Z	Dulak	Pluxxx	if xev sees the key, then you can use xmodmap to remap that key to whatever you like

@@ -1,0 +1,4 @@
+2007-06-18T15:56:00.000Z	doctordoog		I installed ubuntu server edition, and whenever I try to install with apt-get it requests for the install CD to be in, but it still downloads from the internet
+2007-06-18T15:56:00.000Z	doctordoog		would this be some line in the file where it's saying to look in the CD before the internet?
+2007-06-18T15:56:00.000Z	tck	doctordoog	edit /etc/apt/sources/list and # out the deb-cdrom option, then try apt-get update
+2007-06-18T15:57:00.000Z	tck	doctordoog	/etc/apt/sources.list

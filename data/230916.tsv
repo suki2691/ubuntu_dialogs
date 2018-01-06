@@ -1,0 +1,4 @@
+2006-01-02T10:01:00.000Z	nilsl		i run breezy with xfce4... now, i try to access my usb drive, which is can do by mount it from dev to mnt. i can take files, but i cannot delete or add files. what would be a solution? sry for repeat
+2006-01-02T10:02:00.000Z	Falstius	nilsl	did you format the usb drive ntfs?
+2006-01-02T10:02:00.000Z	nilsl	Falstius	i believe so, it has worked under gnome perfectly.
+2006-01-02T10:06:00.000Z	Falstius	nilsl	you were probably using the gnome automount before, you'll have to mount it as a user which you can do after modifying /etc/fstab or set up a different automount.

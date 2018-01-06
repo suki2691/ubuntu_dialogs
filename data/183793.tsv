@@ -1,0 +1,4 @@
+2006-08-30T12:41:00.000Z	noclip		hey all! i've got a fairly noobtastic question: how do you *downgrade* a package with aptitude (or apt-get)?
+2006-08-30T12:42:00.000Z	JoseStefan	noclip	with apt-get, use install option, and add a suffix with the version "=version"
+2006-08-30T12:43:00.000Z	JoseStefan	noclip	sudo apt-get install mypackage=12.34
+2006-08-30T12:43:00.000Z	noclip	JoseStefan	ah, so simple. thanks!

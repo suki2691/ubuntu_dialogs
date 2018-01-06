@@ -1,0 +1,4 @@
+2009-06-29T00:15:00.000Z	ganesh_		when i play youtube video flash player area will become white..how do i fix it?
+2009-06-29T00:16:00.000Z	d3bug	ganesh_	i had that problem too... u need to install the real adobe flash player, and remove the other one thats currently installed...
+2009-06-29T00:18:00.000Z	d3bug	ganesh_	you prob. have "swfdec-mozilla" installed... if you do "sudo apt-get purge swfdec-mozilla" and then "sudo apt-get install adobe-flashplugin" that should fix it... it did for me
+2009-06-29T00:21:00.000Z	d3bug	ganesh_	did you get the instructions ok?

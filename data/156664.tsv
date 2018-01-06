@@ -1,0 +1,4 @@
+2007-12-02T05:41:00.000Z	blackvd		Hi, I'm running VirtualBox w/ XP and every time before I can boot XP I have to change permissions to /dev/vboxdrv by running sudo nautilus in terminal then locating the file and change the permissions every time after reboot? is there an easier way to permanently change permission to files?
+2007-12-02T05:42:00.000Z	riotkittie	blackvd	did you add yourself to the virtualbox/vbox/whatever group?
+2007-12-02T05:44:00.000Z	riotkittie	blackvd	go to users/groups under System > Admin
+2007-12-02T05:45:00.000Z	riotkittie	blackvd	then Manage Groups. make sure you're in vboxusers group.

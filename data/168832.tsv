@@ -1,0 +1,4 @@
+2006-09-04T09:04:00.000Z	rugbythomas		thomas@thomas-desktop:~$ ls ; Desktop  Examples  fdg  homework  MyMusic  The Chris McCarty Band; thomas@thomas-desktop:~$ sudo chown -hR thomas /fdg; chown: cannot access `/fdg': No such file or directory;                            what am I doing wrong
+2006-09-04T09:05:00.000Z	ChaosFan	rugbythomas	without leading slash
+2006-09-04T09:05:00.000Z	ChaosFan	rugbythomas	and you use chown to delete? that's done by rm
+2006-09-04T09:06:00.000Z	ChaosFan	rugbythomas	then sudo rm -rf fdg, while in your home directory

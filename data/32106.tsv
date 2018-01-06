@@ -1,0 +1,4 @@
+2010-11-26T15:30:00.000Z	sgo11		hi, how to check which repo an installed package is from? I tried dpkg -l <pacakge> and aptitude show <pacakge>. but I can not find the repo info. thanks for help, new to ubuntu.
+2010-11-26T15:30:00.000Z	iceroot	sgo11	apt-cache policy packagename
+2010-11-26T15:31:00.000Z	sgo11	iceroot	got it. thanks a lot.
+2011-02-25T22:34:00.000Z	iceroot	sgo11	shutdown is unmounting such things

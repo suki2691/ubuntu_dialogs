@@ -1,0 +1,4 @@
+2009-08-06T00:12:00.000Z	surgy		my login resolution is too high for my monitor which only supports up to 800x600, i just instaleld it and when i switch to a ttyl login and type sudo nano /etc/X11/xorg.conf the file is empty. also when i try "sudo xrandr --output default --mode 800x600" it says "cant open display" any help would be greatly appreciated
+2009-08-06T00:13:00.000Z	bastid_razor	surgy	have you tried leaving the --output option off? it should see the output that is there if only 1
+2009-08-06T00:15:00.000Z	surgy	bastid_razor	nope nothing
+2009-08-06T00:17:00.000Z	bastid_razor	surgy	type xrandr ..this should give you which screen it is using then you can use the --screen  option

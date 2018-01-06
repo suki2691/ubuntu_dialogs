@@ -1,0 +1,4 @@
+2011-10-25T02:27:00.000Z	en1gma		if i boot up ubuntu 11.10 i386 desktop live cd....what is the command to do to get my current hware info for a .config file....:) it will help me when i goto build a kernel with the options that are selected right?
+2011-10-25T02:28:00.000Z	en1gma		right now im in a vm so i cant do it because all my lspci info says im using like a PII
+2011-10-25T02:29:00.000Z	Vyper12	en1gma	: popen a terminal and type sudo lshw
+2011-10-25T02:33:00.000Z	en1gma	Vyper12	that dont work for creating the .config does it?

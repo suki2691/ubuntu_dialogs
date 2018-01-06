@@ -1,0 +1,4 @@
+2011-06-15T20:43:00.000Z	GilAz		hmm... i want to copy a large folder from a defected hard disk to a working one. if i use the gui to do so it prompts me every now and then about a problem with a file, and asks me weather i want to skip, cancel, or retry. i choose "skip" every time. is there a way to use the cp (or any other cmd) so that it will copy the whole thing, skip when theres dbout, and allow me to let it work without
+2011-06-15T20:43:00.000Z	GilAz		checking on it every now and then?
+2011-06-15T20:45:00.000Z	GilAz		Will do :) thx
+2011-06-15T20:45:00.000Z	escott	GilAz	dd will allow you to do copy low level contents with noerror (any read errors get turned into 0s). if the partition is small enough I would dd it to an image and then extract from that image file

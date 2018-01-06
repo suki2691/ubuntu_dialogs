@@ -1,0 +1,4 @@
+2009-08-22T11:33:00.000Z	woodwing		i edited a sources.list file that i believe ruined my chances for updating ubuntu properly?  I tried grep sources but it is taking a long time, is this the right way to find it?
+2009-08-22T11:34:00.000Z	tyler_d1	woodwing	you need to find easyrpm on the interweb
+2009-08-22T11:34:00.000Z	tyler_d1	woodwing	will allow you to re-create, or alternately back out the changes :D
+2009-08-22T11:35:00.000Z	tyler_d1	woodwing	np... and the command would then be sudo find / -name "*sources.list*"

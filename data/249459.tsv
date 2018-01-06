@@ -1,0 +1,4 @@
+2011-07-21T02:11:00.000Z	ryan__		I am trying to run httpd (apache) on ubuntu server but I'm getting "/usr/local/apache2/bin/httpd: error while loading shared libraries: libpcre.so.0: cannot open shared object file: No such file or directory" I ran "whereis libpcre.so.0" and it does exist in several places. Do I need to make a symbolic link somewhere?
+2011-07-21T02:13:00.000Z	ryan__		is anybody here familiar with Apache web server?
+2011-07-21T02:13:00.000Z	terry	ryan__	What do you need?
+2011-07-21T02:14:00.000Z	terry	ryan__	Use locate

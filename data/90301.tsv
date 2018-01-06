@@ -1,0 +1,4 @@
+2008-06-14T19:45:00.000Z	tj1515		Does anybody know why when i use sudo i get error unable to resolve host but it still brings up the password input and allows me in root
+2008-06-14T19:46:00.000Z	ifireball	tj1515	you played with your /etc/hosts or /etc/hostname and wrecked your host's self name-resolution
+2008-06-14T19:54:00.000Z	tj1515	ifireball	i thought it was my fault i idea on how i should go about fixing it
+2008-06-14T20:00:00.000Z	ifireball	tj1515	make sure there is a line in /etc/hosts mapping your hostname properly to 127.0.1.1 as well as a line mapping localhost to 127.0.0.1

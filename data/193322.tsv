@@ -1,0 +1,4 @@
+2006-07-20T14:33:00.000Z	technel		Ok, when I do: find ./ -name *.swp it shows like 10 listings. But when I do: rm -r *.swp it says there is no such file or directory *.swp. Does rm not allow *?
+2006-07-20T14:35:00.000Z	Kibou	technel	find searches recursive and 'rm -r' doesn't do what you think it does
+2006-07-20T14:36:00.000Z	technel	Kibou	 -r, -R, --recursive              remove directories and their contents recursively .. ?
+2006-07-20T14:37:00.000Z	Kibou	technel	yes.. you can remove directories and it's content but it doesn't search recursive for your string

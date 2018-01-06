@@ -1,0 +1,4 @@
+2006-10-12T11:27:00.000Z	ScreaminIke		does anyone know how to use an ssh server as an http/socksv5 proxy?
+2006-10-12T11:28:00.000Z	Vuen	ScreaminIke	i said five minutes ago
+2006-10-12T11:28:00.000Z	Vuen	ScreaminIke	to tunnel http through ssh, install privoxy on the server, then ssh to the server and tunnel 8118, then set the browser proxy to localhost:8118
+2006-10-12T11:29:00.000Z	Vuen	ScreaminIke	to tunnel socks5, you'll need a socks5 proxy. i don't know of any other than tor

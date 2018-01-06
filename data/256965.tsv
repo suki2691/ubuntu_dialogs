@@ -1,0 +1,4 @@
+2004-12-12T13:18:00.000Z	snaga		I need to mount an external usb vfat drive as umask 755, but it is automounting as 744. How do I change that?
+2004-12-12T13:20:00.000Z	bwlang	snaga	it's a setting in /etc/fstab  man will tell you exactly what
+2004-12-12T13:22:00.000Z	snaga	bwlang	does fstab govern the automount stuff? sda1 isn't in there at all right now.
+2004-12-12T13:22:00.000Z	bwlang	snaga	hmm - on my system it is in there...  and i have hotplug do the mount for me.

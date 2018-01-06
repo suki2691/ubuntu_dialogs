@@ -1,0 +1,4 @@
+2009-11-03T16:18:00.000Z	Termana		Does "sudo apt-get autoremove --purge" auto purge rather than just auto remove?
+2009-11-03T16:18:00.000Z	ActionParsnip	Termana	it will removed the unecessary packages that are now orpaned, as well as their configs outside of ~
+2009-11-03T16:19:00.000Z	Termana	ActionParsnip	So it WILL purge them? If not, is there a command to do an auto purge?
+2009-11-03T16:19:00.000Z	ActionParsnip	Termana	no, you must specify purge each time unless you create an alias in ~/.bashrc

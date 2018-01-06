@@ -1,0 +1,4 @@
+2006-08-12T10:07:00.000Z	Rehevkor		I've got a fresh install of Xubuntu and, for some reason, it gives me an authentification failure when I try to su in the terminal
+2006-08-12T10:08:00.000Z	ardchoille	Rehevkor	So, you type su and then?
+2006-08-12T10:08:00.000Z	ardchoille	Rehevkor	That won't work. Use sudo for admin taksks
+2006-08-12T10:09:00.000Z	ardchoille	Rehevkor	The reason it won't work is because the system expects you to type the root password for su and the root account is disabled by default

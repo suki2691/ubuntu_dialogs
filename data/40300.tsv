@@ -1,0 +1,4 @@
+2010-03-30T09:54:00.000Z	Maletor		I need some serious help install grub onto my boot partition.
+2010-03-30T09:55:00.000Z	theadmin	Maletor	No problem. 1) Boot from a LiveCD 2) do "sudo grub-install /dev/sda" or similar 3) do "sudo chroot /dev/sda1" (your linux partition) and "sudo update-grub"
+2010-03-30T09:55:00.000Z	Maletor	theadmin	It is on RAID1
+2010-03-30T09:56:00.000Z	theadmin	Maletor	Oh. You never mentioned that. Sorry, don't have any raid experience

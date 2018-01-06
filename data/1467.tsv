@@ -1,0 +1,4 @@
+2012-08-26T16:34:00.000Z	matiosiem5		guys, which package is responsible for showing music player info in volume icon menu ?
+2012-08-26T16:35:00.000Z	ActionParsnip	matiosiem5	run:  dpkg -l | grep indicator
+2012-08-26T16:35:00.000Z	ActionParsnip	matiosiem5	one will be sound based
+2012-08-26T16:37:00.000Z	matiosiem5	ActionParsnip	yes I have indicator-sound and indicator-sound-gtk2 installed both but still no controls in volume tray icon

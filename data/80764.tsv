@@ -1,0 +1,4 @@
+2009-05-27T16:53:00.000Z	Machtin		why doesn't my swap get mounted?
+2009-05-27T16:53:00.000Z	h4mx0r	Machtin	check /etc/fstab and see, sysctl.conf has swap control parameters
+2009-05-27T16:53:00.000Z	Machtin		it's encrypted swap.. with cryptsetup i think.. but it is not mounted on boot.. though it's in crypttab
+2009-05-27T16:54:00.000Z	Machtin	h4mx0r	fstab is fine.. actually /dev/mapper/cswap (that's what i called it) doesn't even exist.

@@ -1,0 +1,4 @@
+2011-05-02T06:41:00.000Z	Rehan		how can i find out which driver i have installed for my display?
+2011-05-02T06:41:00.000Z	Chipzzz	Rehan	lsmod
+2011-05-02T06:43:00.000Z	Rehan	Chipzzz	hmm ok so i see a nvidia, uvesafb, vesafb, and video. Does that mean I'm using proprietary or default?
+2011-05-02T06:47:00.000Z	Chipzzz	Rehan	I don't have a machine with an nVidia card to check right now but I think you need the nouveau driver... here's the step-by-step from Ubuntu: https://help.ubuntu.com/community/BinaryDriverHowto/Nvidia

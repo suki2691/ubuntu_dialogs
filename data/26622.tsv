@@ -1,0 +1,4 @@
+2011-11-03T02:58:00.000Z	glebihan	Shdwdrgn	I may be wrong but I think that's the default behavior, nothing gets deleted until you run "apt-get clean"
+2011-11-03T03:00:00.000Z	Shdwdrgn	glebihan	hmm ok.  From what I can see, it looks like there is only one version of each package after running a do-release-upgrade...  Maybe that command is running a clean afterwards.
+2011-11-03T03:01:00.000Z	Shdwdrgn	glebihan	guess I'll give it a run and see what happens
+2011-11-03T03:01:00.000Z	glebihan	Shdwdrgn	you may be right, it's possible that it only keeps the most recent version of each package

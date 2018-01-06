@@ -1,0 +1,4 @@
+2011-04-04T00:41:00.000Z	hubertchang		anyone has i915 disabled error?
+2011-04-04T00:42:00.000Z	hubertchang		On DELL Inspirion N4010, I always got the error:   drm/i915 can't work without intel_agp module!   intel ips 0000:00:1f.6: failed to get i915 symbols, graphics turbo disabled. My kernel is 2.6.38, and the config for AGP is CONFIG_AGP=y CONFIG_VGA_SWITCHOO=y
+2011-04-04T00:43:00.000Z	hubertchang		modprobe conf for intel-ips: softdep intel_ips pre: i915
+2011-04-04T00:43:00.000Z	ThinkT510	hubertchang	you running natty? if so help is in #ubuntu+1

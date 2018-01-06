@@ -1,0 +1,4 @@
+2007-04-28T08:40:00.000Z	chamunks		is there a way to configure wifi to connect before login?
+2007-04-28T08:40:00.000Z	wastrel	chamunks	 how do you normally connect post-login?
+2007-04-28T08:41:00.000Z	chamunks	wastrel	via unsecured wifi so its pretty simple no wep/wpa/wpa2 jazz
+2007-04-28T08:42:00.000Z	wastrel	chamunks	 add a line in  /etc/network/interfaces   with    auto <wifi iface>    mine is   auto eth0   for example

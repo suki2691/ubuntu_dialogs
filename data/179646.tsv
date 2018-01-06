@@ -1,0 +1,4 @@
+2006-12-15T08:29:00.000Z	flavioribeiro		how can i kill x? when i try to 'killall gdm' the process restarts automatically
+2006-12-15T08:29:00.000Z	jrib	flavioribeiro	sudo invoke-rc.d gdm stop
+2006-12-15T08:55:00.000Z	jrib	flavioribeiro	install build-essential, it will give you that
+2007-09-01T07:44:00.000Z	jrib	flavioribeiro	you probably have /usr/local/bin/python pointing to py3k

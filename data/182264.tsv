@@ -1,0 +1,4 @@
+2008-12-29T23:59:00.000Z	costlyeffects		can someone please help me setup my simple 2 computer network :( :( :(  :( :( :(  :( :( :(
+2008-12-29T23:59:00.000Z	stefg	costlyeffects	... running which OS ?
+2008-12-30T00:00:00.000Z	stefg	costlyeffects	i'd use sshfs... much simpler than samba or nfs
+2008-12-30T00:01:00.000Z	stefg	costlyeffects	install openssh-server on both machines and use the 'connect to server' applet to connect to the other machine (using ssh as protocol)

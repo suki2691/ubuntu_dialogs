@@ -1,0 +1,4 @@
+2008-10-05T01:58:00.000Z	belkinhelp2_		what am i doing wrong here:  sudo cp /home/giulia/.mozilla/firefox/5xkmx6hx.default /media/UDISK
+2008-10-05T01:58:00.000Z	belkinhelp2_		getting an error msg
+2008-10-05T01:59:00.000Z	guntbert	belkinhelp2_	are you trying to copy a whole folder?
+2008-10-05T02:00:00.000Z	guntbert	belkinhelp2_	then you need sudo cp -R .... (for recursive)

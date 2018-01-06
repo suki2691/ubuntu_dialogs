@@ -1,0 +1,4 @@
+2008-12-13T21:31:00.000Z	Wickk		I keep getting an error when trying to compile Xchat that GTK+ is incorrectly installed and  I don't know how to reinstall it. WHats the name of the lib I need?
+2008-12-13T21:31:00.000Z	jrib	Wickk	why on earth are you compiling xchat?  xchat is in the repositories
+2008-12-13T21:31:00.000Z	Wickk	jrib	Because it doesn't show up when I search for it
+2008-12-13T21:32:00.000Z	jrib	Wickk	so ask THAT question...  Pastebin the output of: sudo apt-get update && apt-cache search -n xchat

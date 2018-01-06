@@ -1,0 +1,4 @@
+2006-07-31T07:48:00.000Z	tengil		what can cause ssh to be very slow to connect to one of my internal boxes but quick between the rest?
+2006-07-31T07:49:00.000Z	tengil		but why does it work so quickly for 192.168.0.10 then?
+2006-07-31T07:49:00.000Z	tengil		im not really running any dns servers...
+2006-07-31T07:49:00.000Z	micahcowan	tengil	it may or may not help, but you might compare the results of ssh -vvv for the different hosts, and especially, see where it seems to be taking it's time.

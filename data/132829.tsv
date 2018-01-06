@@ -1,0 +1,4 @@
+2007-07-09T06:38:00.000Z	the_consul		Can anyone tell me the syntax for issuing a command via crontab that will open a windowed application?  0 0 * * * deluge doesn't work...I'm thinking there's a special syntax for opening windowed applications via cron...
+2007-07-09T06:39:00.000Z	bruenig	the_consul	first, cron doesn't inherit environment variables, including PATH, so either specify that in crontab or use full paths, /usr/bin/deluge, along the same line you need to give it the DISPLAY variable, DISPLAY=:0, DISPLAY=:0 /usr/bin/deluge
+2007-07-09T06:39:00.000Z	the_consul	bruenig	 I didn't writ it here but I did have it as /usr/bin/deluge
+2007-07-09T06:40:00.000Z	bruenig	the_consul	see DISPLAY

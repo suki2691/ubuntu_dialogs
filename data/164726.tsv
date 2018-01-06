@@ -1,0 +1,4 @@
+2007-06-06T13:29:00.000Z	jermain		can somebody tell me how to find the device i want to mount?
+2007-06-06T13:30:00.000Z	jermain		sudo mount <device> <mountpoint>
+2007-06-06T13:30:00.000Z	jermain		<device> = ?
+2007-06-06T13:30:00.000Z	capitalidea	jermain	dmesg | less to find your device and the name it's given in /dev/

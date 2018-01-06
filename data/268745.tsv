@@ -1,0 +1,4 @@
+2005-03-10T11:48:00.000Z	omniscient		hey i have added the following line to my fstab, but im unsure how to make it mount so normal users can access the disk, if someone could help it would be great: /dev/hdb5       /media/ntfs     ntfs    ro,users        0       0
+2005-03-10T11:49:00.000Z	omniscient		any ideas?
+2005-03-10T11:49:00.000Z	bob2	omniscient	umask=002 in the options field
+2005-05-29T09:59:00.000Z	bob2	omniscient	dpkg -L qt3-designer | grep bin

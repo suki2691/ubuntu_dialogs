@@ -1,0 +1,4 @@
+2011-01-13T16:16:00.000Z	Oacki		how can i stop ssh 22 on ubuntu?
+2011-01-13T16:17:00.000Z	Oacki		ssh: unrecognized service
+2011-01-13T16:18:00.000Z	llutz_	Oacki	sudo service ssh stop
+2011-01-13T16:20:00.000Z	llutz_	Oacki	sudo lsof -i :22

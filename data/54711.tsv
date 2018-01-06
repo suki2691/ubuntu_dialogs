@@ -1,0 +1,4 @@
+2009-08-10T22:14:00.000Z	teimu		hi ubuntu. im trying prevent access of any kind to a directory. i can chmod 000 folder/, but this only stops people who dont know how to chmod back. how can i require sudoer to chmod back?
+2009-08-10T22:15:00.000Z	ascheel	teimu	chown root /path
+2009-08-10T22:17:00.000Z	ascheel	teimu	better yet:  chown root:root /path
+2009-08-10T22:18:00.000Z	ascheel	teimu	my pleasure.

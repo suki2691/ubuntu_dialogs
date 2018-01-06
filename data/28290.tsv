@@ -1,0 +1,4 @@
+2010-07-27T02:45:00.000Z	jjmartin_		i am running an update and I have this window for grub asking to install on partitions. currently the / partition is checked. should I leave it as is ?
+2010-07-27T02:46:00.000Z	Jordan_U	jjmartin_	It's *not* telling you to install to all partitions.
+2010-07-27T02:47:00.000Z	jjmartin_	Jordan_U	correct
+2010-07-27T02:47:00.000Z	Jordan_U	jjmartin_	You almost never want to install grub to a partition, just install to the mbr of your boot drive, which is probably what is currently selected.

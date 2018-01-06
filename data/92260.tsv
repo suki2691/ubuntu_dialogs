@@ -1,0 +1,4 @@
+2009-03-10T04:02:00.000Z	FrozenFire		Is there a way to change application font colours, without changing themes? Using a dark theme is causing my gedit to highlight the currently-selected line as black, making it impossible to read the selected line. It also uses the same colour for text as the background of Nautilus.
+2009-03-10T04:03:00.000Z	jrib	FrozenFire	one way would be to edit your theme yourself
+2009-03-10T04:04:00.000Z	FrozenFire	jrib	Do you know where I can find theme files? There is no way to set font colours under the Appearance applet.
+2009-03-10T04:04:00.000Z	jrib	FrozenFire	art.gnome.org has a tutorial on creating themes.  The themes are in /usr/share/themes/ or ~/.themes if it's one you installed yourself.  If you want to modify one from /usr/share/themes, copy it to ~/.themes and work there

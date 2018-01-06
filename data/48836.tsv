@@ -1,0 +1,4 @@
+2009-12-29T07:18:00.000Z	Misantropo		How do i backup my home folder using "tar jxvf myuser.tar.bz2 /home/myuser" if it has not copiable open files?
+2009-12-29T07:19:00.000Z	jtaji	Misantropo	you want tar cvjf... logging your user out should close all files
+2009-12-29T07:19:00.000Z	Misantropo	jtaji	right, cvjf
+2009-12-29T07:20:00.000Z	Misantropo	jtaji	i don't want to logout, that's the problem

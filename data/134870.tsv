@@ -1,0 +1,4 @@
+2008-02-23T12:29:00.000Z	astro76	Hewus	you might consider using a non-journaling filesystem like ext2 instead of ext3
+2008-02-23T12:30:00.000Z	astro76	Hewus	because that's what's taking up the space
+2008-02-23T12:30:00.000Z	Hewus	astro76	ah ok, thank you!
+2008-02-23T12:33:00.000Z	Hewus	astro76	thundercles: I just made an ext2 partition of 67GB to test, and 1.1GB is immediately used :S. It has a lost+found folder there, is that using the space somehow?

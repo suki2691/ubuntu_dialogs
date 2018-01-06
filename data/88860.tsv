@@ -1,0 +1,4 @@
+2010-02-28T21:30:00.000Z	lina		hi, what user/group permissions should I set on a usb drive with ext3 filesystem if I want to be able to move it to other linux computers and have full write access without having to chmod/chown it every time?
+2010-02-28T21:32:00.000Z	kla	lina	first it's best if you reformat as ext2 instead (better for your drive), as for permissions depends, is it just 1 big directory you put stuff in or a unix filesytem with stuff like /dev /etc /var /tmp ??
+2010-02-28T21:33:00.000Z	lina	kla	I think I can just mount it as ext2 specifically and it won't use the journal. Also, it's a disk drive not flash storage so I dont think it matters. Anyway, it's just a couple of folders like /films and /photos
+2010-02-28T21:34:00.000Z	lina	kla	and I don't have the storage to backup / format / restore

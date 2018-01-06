@@ -1,0 +1,4 @@
+2008-01-03T07:26:00.000Z	dsnyders		How do I find/remove duplicate files?
+2008-01-03T07:27:00.000Z	khermans	dsnyders	find / -type f | while read line; do md5sum "$line"; ....
+2008-01-03T07:30:00.000Z	dsnyders	khermans	I have several backup folders within backup folders. Will this procedure help?
+2008-01-03T07:30:00.000Z	khermans	dsnyders	md5sum will show files which have the sam exact content

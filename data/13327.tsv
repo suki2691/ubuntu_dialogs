@@ -1,0 +1,4 @@
+2011-08-04T17:14:00.000Z	tensorpudding		i believe that the configuration you put into xserver probably conflicts with the nvidia driver
+2011-08-04T17:15:00.000Z	tensorpudding		you might want to remove you /etc/X11/xorg.conf if it exists, reinstall the nvidia driver and install nvidia-xconfig
+2011-08-04T17:16:00.000Z	tensorpudding		wait, it's called nvidia-settings now maybe?
+2011-08-04T17:16:00.000Z	Lasers	tensorpudding	nvidia-xconfig is CLI.

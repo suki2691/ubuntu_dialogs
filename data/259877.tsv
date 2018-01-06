@@ -1,0 +1,4 @@
+2004-11-09T15:54:00.000Z	spiv	slade_	If you're using ssh, why are you setting DISPLAY manually?
+2004-11-09T15:54:00.000Z	spiv	slade_	You might want to check if the remote system has X11 forwarding enabled in it's sshd_config
+2004-11-09T15:55:00.000Z	spiv	slade_	And see if ssh -v suggests anything.
+2004-11-09T15:58:00.000Z	slade_	spiv	i didnt know you had to enable it on the remote system

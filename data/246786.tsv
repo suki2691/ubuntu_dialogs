@@ -1,0 +1,4 @@
+2005-07-22T11:29:00.000Z	Cappo		hellow, i have a question, i installed ubuntu hoary on my laptop and i always used the touchpad as my mouse, but now i wanted to work with a ps2 mouse, so i inserted my mouse, i though i reboot the system and it will work, but when the ps2 mouse is inserted the machine hangs at starting hotplug subsystem; so my question is how do i configure the ps2 mouse ?
+2005-07-22T11:29:00.000Z	thr1ce	Cappo	set it in your /etc/X11/xorg.conf
+2005-07-22T11:31:00.000Z	thr1ce	Cappo	there is a mouse section, just change to PS/2
+2005-07-22T11:47:00.000Z	thr1ce	Cappo	nope; just have you restart X

@@ -1,0 +1,4 @@
+2012-03-01T22:49:00.000Z	vicium		Anyone with knowledge about aticonfig? I put sudo aticonfig --initial=dual-head --screen-layout=right
+2012-03-01T22:49:00.000Z	vicium		No changes are done immideatly, do I have to reload the config file or something?
+2012-03-01T22:49:00.000Z	vicium		I shouldnt have to reboot everytime, or?
+2012-03-01T22:49:00.000Z	theadmin	vicium	Just restart X: sudo /etc/init.d/*dm restart

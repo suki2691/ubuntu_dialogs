@@ -1,0 +1,4 @@
+2010-02-18T13:15:00.000Z	ichat		i have a setup of 4 sata disks and an  ide dvd-drive,  when i try to install ubuntu it goes fine until  it needs to install  grub... (it wants to do so on  hd0 (??)   i mounted a 1gb partition on  sda1,1  (fists partition on first disk), as  /boot    but after reboot, the system fails to boot,  (no grub messages )
+2010-02-18T13:16:00.000Z	llutz	ichat	hd0 is the MBR (first sector, first hdd)
+2010-02-18T13:17:00.000Z	llutz	ichat	and even if devices are called sdaXY, grubs notation is (hd0,0) for 1st partition on 1st disk
+2010-02-18T13:19:00.000Z	llutz	ichat	use live-cd to repair grub, try writing it to "/dev/sda1"

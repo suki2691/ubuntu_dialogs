@@ -1,0 +1,4 @@
+2012-08-29T00:01:00.000Z	krababbel		Why do I get permission denied on 'sudo echo 0 > /proc/sys/net/ipv4/tcp_sack' ?
+2012-08-29T00:03:00.000Z	guntbert	krababbel	sudo is only applied to echo, not to >, you need echo 0 |sudo tee /proc/sys/net/ipv4/tcp_sack
+2012-08-29T00:03:00.000Z	krababbel	guntbert	oh wow, thank you
+2012-08-29T00:03:00.000Z	guntbert	krababbel	You're welcome

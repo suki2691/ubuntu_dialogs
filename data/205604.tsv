@@ -1,0 +1,4 @@
+2005-12-03T15:25:00.000Z	TheBeast		I have some strange dependencies here. I'm trying to uninstall apmd via apt-get remove --purge apmd, but apt-get also wants to uninstall ubuntu-desktop which I don't think it's related to apmd
+2005-12-03T15:25:00.000Z	TheBeast		any clue?
+2005-12-03T15:27:00.000Z	Seveas	TheBeast	ubuntu-desktop is a meta-package which can be safely remove, just make sure you have it installed when you upgrade to dapper
+2005-12-03T15:27:00.000Z	TheBeast	Seveas	may I ask you what's dapper?

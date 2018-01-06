@@ -1,0 +1,4 @@
+2009-03-24T03:42:00.000Z	Dashkal		ok, just confirmed it with apache.  I get the same download rate from the machine (50k/s).  Worse is it seems to kill the ubuntu box's connection when I do it (suggesting strongly it isn't the vista laptop).  Where would I look for network limits?
+2009-03-24T03:44:00.000Z	Slart	Dashkal	iptables is the obvious place, I guess
+2009-03-24T03:44:00.000Z	Dashkal	Slart	checked.  no rules
+2009-03-24T03:45:00.000Z	Slart	Dashkal	you get the same result if you boot from a live cd?

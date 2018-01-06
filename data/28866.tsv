@@ -1,0 +1,4 @@
+2010-09-13T22:08:00.000Z	jacquesrenea		hi all  i have a problem (Error mounting: mount exited with exit code 21: mount: according to mtab, /dev/sda2 is already mounted on /media/SYSTEM RESERVED
+2010-09-13T22:08:00.000Z	jacquesrenea		)does it sound something familiar to someone?
+2010-09-13T22:08:00.000Z	brett\	jacquesrenea	why is that a problem? seems like you want access to /dev/sda2 contents but its already located at /media/SYSTEM
+2010-09-13T22:09:00.000Z	brett\	jacquesrenea	why? look in /media/SYSTEM

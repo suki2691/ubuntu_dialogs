@@ -1,0 +1,4 @@
+2009-03-09T00:38:00.000Z	Toast		Does anyone find /var/cache/apt gets very large? After reading https://bugs.launchpad.net/ubuntu/+source/apt/+bug/13116 , (which is set to resolved), I see some people still having problems. This is important to some partitioning decisions I am making.
+2009-03-09T00:38:00.000Z	sebsebseb	Toast	16GB or so for /  and you should be fine
+2009-03-09T00:38:00.000Z	sebsebseb	Toast	oh and with a seperate home partition
+2009-03-09T00:40:00.000Z	Toast	sebsebseb	Thanks. This machine has a 10GB drive which will have root and a 40GB drive for swap and home. My debian etch server doesn't automaticly clean out /var/cache/apt, so I wanted to make sure intrepid did. This machine is for a non-technical user so need to be maintaince free :)

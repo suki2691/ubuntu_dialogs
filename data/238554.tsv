@@ -1,0 +1,4 @@
+2005-05-05T09:58:00.000Z	drac	jojomillan_	I'm not sure what are you talking about, but remove following modules from xorg.conf to get better performancy with your nvidia card: bitmap, GLcore, ddc, vbe, int10, record. They are slowing the drivers down. Also, change ImPS/2 to ExplorerPS/2 and your mouse moves lot smoother.
+2005-05-05T09:58:00.000Z	drac	jojomillan_	Changing those, will increase your FPS.
+2005-05-05T09:59:00.000Z	drac	jojomillan_	Indeed, get rid of dri too.
+2005-05-05T10:01:00.000Z	jojomillan_	drac	i doubt i have 3d-acceleration, as i commented glx out. what can i do about that?

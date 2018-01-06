@@ -1,0 +1,4 @@
+2006-06-13T06:30:00.000Z	Yoosah		WHY does my selfmknodded /dev/video as wel as the /dev/video0 link to it disappear after a boot?
+2006-06-13T06:31:00.000Z	cge	Yoosah	Because /dev isn't a real file system
+2006-06-13T06:31:00.000Z	cge	Yoosah	Everything in it is created at each boot.
+2006-06-13T06:31:00.000Z	cge	Yoosah	There is a way to create them on each boot, but I don't know how.

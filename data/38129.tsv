@@ -1,0 +1,4 @@
+2010-03-24T18:05:00.000Z	ct529		I am using the command find to find some files .... but I would like the command to avoid exploring hidden directories, like .wine .... hwo do you achieve  it?
+2010-03-24T18:06:00.000Z	ct529		I was thinking of using -prune ....
+2010-03-24T18:08:00.000Z	xumuk	ct529	sudo find ~ -name .*
+2010-03-24T18:09:00.000Z	ct529	xumuk	no .... I am trying to AVOID searching the hidden directories

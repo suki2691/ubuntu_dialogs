@@ -1,0 +1,4 @@
+2005-07-16T05:57:00.000Z	Velcan		is there a simple way to mount a ntfs drive ... here's why ... windows is completely gone from this machine so there is no need for ntfs ... i want to move the files off the ntfs drive, format the ntfs drive and then move the files back
+2005-07-16T05:57:00.000Z	Velcan		thanks
+2005-07-16T05:58:00.000Z	vidz	Velcan	sudo mkdir /media/windows && mount -t ntfs /dev/hda1 /media/windows will mount the windows partition
+2005-07-16T05:58:00.000Z	vidz	Velcan	If /dev/hda1 is your ntfs partiton

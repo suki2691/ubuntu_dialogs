@@ -1,0 +1,4 @@
+2009-01-21T13:16:00.000Z	Out_Cold		well i don't know what i did to screw up my web flash player as it was working until recently. anyone give me an idea of what to look for or where to start?
+2009-01-21T13:17:00.000Z	IchiFish	Out_Cold	could try sudo apt-get --purge remove flashplugin-nonfree && sudo apt-get install flashplugin-nonfree
+2009-01-21T13:18:00.000Z	IchiFish	Out_Cold	(that reinstalls the flash plugin, by the way; the && does the second command after the first, providing the first one is successful)
+2009-01-21T13:19:00.000Z	Out_Cold	IchiFish	the purge was successful yet i still don't have any flash.... anyone with more ideas?

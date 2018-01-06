@@ -1,0 +1,4 @@
+2006-11-20T17:33:00.000Z	asc_		MB20: Yes.  I usually use make-dpkg when building, which makes everything easy.  The command should be something like "sudo make-kpkg --initrd --append-to-version=-2 kernel_image"
+2006-11-20T17:34:00.000Z	asc_		MB20: That command (executed in /usr/src/linux-source-whatever) will make a dpkg in the /usr/src directory.  It can be installed with dpkg -i, and will edit the kernel list in /boot/grub/*lst automagically.
+2006-11-20T17:35:00.000Z	MB20|Bastupungen	asc_	 I use make-dpkg to make kernels too: this is the line:
+2006-11-20T17:36:00.000Z	MB20|Bastupungen	asc_	what does the append to version string do?

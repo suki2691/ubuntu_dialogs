@@ -1,0 +1,4 @@
+2010-01-30T01:37:00.000Z	philosophia		i think the main problem is - i do 'ssh -L 1435:remoteserver2:1435 -l user remoteserver2' from remoteserver1.  i open 1435 on remoteserver1 in firestarter.  from my local machine i should be able to 'telnet remoteserver1 1435' - but i get a 'connection refused'
+2010-01-30T01:38:00.000Z	philosophia		does not seem to matter whether 1435 is open in firestarter or not i still get 'connection refused'
+2010-01-30T01:38:00.000Z	philosophia		ok
+2010-01-30T01:39:00.000Z	ZykoticK9	philosophia	you are putting a space when you run the command right, like "telnet remoteserver 1435"

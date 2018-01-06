@@ -1,0 +1,4 @@
+2009-11-15T14:00:00.000Z	alazyworkaholic		I'm trying to setup apt-cacher-ng by following this tutorial: http://www.unix-tutorials.com/go.php?id=3997
+2009-11-15T14:00:00.000Z	alazyworkaholic		But the line "$ echo ‘Acquire::http { Proxy “http://localhost:3142″; };’ | sudo tee /etc/apt/apt.conf.d/01proxy" which I blindly copy/paste into the terminal cuz I don't know any better gives me bash: syntax error near unexpected token `}' Does anyone know what I have to do to fix this line if it's just a typo?
+2009-11-15T14:02:00.000Z	EasyTUX	alazyworkaholic	Your long nick sux, though `` is one typo at least, I think.
+2009-11-15T14:06:00.000Z	alazyworkaholic	EasyTUX	`` Where did you see that??

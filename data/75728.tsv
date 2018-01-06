@@ -1,0 +1,4 @@
+2008-12-07T03:14:00.000Z	foges		how i in a BASH SCRIPT "for loop" would I execute a program with the number n as an argument to a program eg: for i  in `seq ` ... do  ./program picture($i).pnm ... done
+2008-12-07T03:15:00.000Z	sheep	foges	for i in $(seq); do ./program picture($i).pnm; done
+2008-12-07T03:19:00.000Z	foges	sheep	where would i apply the $()? eg: $(`seq 1 50`) doesnt work
+2008-12-07T03:20:00.000Z	sheep	foges	don't include the `'s.  $() is often used in place of ``

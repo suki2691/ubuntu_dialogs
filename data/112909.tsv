@@ -1,0 +1,4 @@
+2007-11-24T18:12:00.000Z	jack_		mornin folks
+2007-11-24T18:13:00.000Z	jack_		can anyone tell me if there is an option such as ctrl alt del in ubuntu to stop running process?
+2007-11-24T18:14:00.000Z	Shahar	jack_	if you hit ctrl+alt+F1 you'll get a text login console. You can then type "ps -a" to see the programs you're running, and then type "killall (program)", or if that fails "killall -9 (program)" or if that fails "kill (pid)" or "kill -9 (pid)". You can then hit ctrl+alt+F7 to get back to your GUI
+2007-11-24T18:15:00.000Z	jack_	Shahar	thanx i will try that !!

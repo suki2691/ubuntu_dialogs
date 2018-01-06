@@ -1,0 +1,4 @@
+2012-07-14T16:51:00.000Z	tesserakt		is it safe to run fsck on a mounted drive?
+2012-07-14T16:51:00.000Z	bekks	tesserakt	NO.
+2012-07-14T16:52:00.000Z	tesserakt	bekks	so that can only be done before boot automatically by ubuntu? or can I manually unmount a drive and then check it? the thing is that I have a computer that manages quite some files, and it does not restart very often. I want to ensure the integrity of the files
+2012-07-14T16:53:00.000Z	bekks	tesserakt	Then unshare it, unmount it and run fsck on it.

@@ -1,0 +1,4 @@
+2008-05-04T23:41:00.000Z	manicola		question, in a new hardy install, one of my harddrives doesn't show up on the desk, but it's listed when I fdisk -l, can anyone help me understand what's happening?
+2008-05-04T23:41:00.000Z	RAdams	manicola	mdemocritus: are you using software RAID configs?
+2008-05-04T23:42:00.000Z	manicola	RAdams	nope -  it's SATA too
+2008-05-04T23:44:00.000Z	RAdams	manicola	echo your dmesg into a text file, or use tail -f to read it

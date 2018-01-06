@@ -1,0 +1,4 @@
+2005-10-16T12:33:00.000Z	BreezyInCalif		Can I raise this qstn again, pls? I'm planning to resize a couple of partitions because I've run out of space on /usr and want to give it more space. Since that's dangerous, I wanted to sanity-check my plan before running around with scissors <g>
+2005-10-16T12:33:00.000Z	BreezyInCalif		The plan: Backup /home. Take 15GB from /home (/dev/hda14 in my current scheme). Move /tmp, /var, and /usr/local (hda 11, hda12, and hda13) into the free space after current hda14. Move the free space that's left (there will be about 10GB left) so that it's adjacent to /usr (hda10 in current scheme). Add the space to /usr. Edit /etc/fstab to reflect changes. Mount /home and /usr manually to make sure they're OK.
+2005-10-16T12:33:00.000Z	BreezyInCalif		Reboot. Go on with life.
+2005-10-16T12:33:00.000Z	Answer	BreezyInCalif	just buy another harddrive

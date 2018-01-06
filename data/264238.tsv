@@ -1,0 +1,4 @@
+2005-06-30T12:49:00.000Z	Mondoshawan		hi all
+2005-06-30T12:50:00.000Z	Mondoshawan		can me somebody tell how i can make a list of all installed packages so when i need reinstall the system i will know what i need
+2005-06-30T12:51:00.000Z	topyli	Mondoshawan	dpkg --get-selections > packages.list
+2005-06-30T12:52:00.000Z	topyli	Mondoshawan	when you have reinstalled, restore your apt sources.list and do dpkg --set-selections < packages.list

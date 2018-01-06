@@ -1,0 +1,4 @@
+2007-07-13T07:53:00.000Z	younghacker		ok i have stopped the service and i have gotten rid of apache2 and i am still seeing the site in the browser window,, is this a cached version or something, should i restart mozilla or should i reboot?
+2007-07-13T07:54:00.000Z	cast	younghacker	ps aux|grep apache, you can delete a program and it continues to run :)
+2007-07-13T07:57:00.000Z	cast	younghacker	pkill apache, or apache2 if thats what its called, as root
+2007-07-13T07:57:00.000Z	cast	younghacker	linux is just a kernel, btw.

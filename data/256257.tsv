@@ -1,0 +1,4 @@
+2011-08-08T07:14:00.000Z	oxyrosis		i broke amarok, it no longer has the media sources functionality. so i deleted it using synaptic. when i reinstall using either Ubuntu package manager or synaptic amarok is still missing media sources. how can i obliterate amarok so i can start out fresh entirely
+2011-08-08T07:15:00.000Z	dr_willis	oxyrosis	 its most likely your 'users settings' not the system settings.. thus the logic of remove/reinstalling it - wont fix it. :)  theres most likely some amarok settings directory in your home that you should remove/rename.
+2011-08-08T07:16:00.000Z	dr_willis	oxyrosis	 the whole remove/reinstall to 'fix' things is a 'windows-trained-mindset' The package manager tools should never touch anything in the users home dirs or settings.
+2011-08-08T07:17:00.000Z	dr_willis	oxyrosis	 its just that many windows apps have a 'clean user settings...' feature :) thats not how  the apt system works.

@@ -1,0 +1,4 @@
+2007-10-11T05:57:00.000Z	asc		I'm trying to enable internet connection sharing with firestarter, but it doesn't seem to be working; computers on the network can ping the gateway, but not access the internet. Anybody give me a hint?
+2007-10-11T05:57:00.000Z	asc		(enabled internet connection sharing, restarted networking, restarted firewall, all successful)
+2007-10-11T05:59:00.000Z	Pici	asc	Make sure that the default gateways are set to the gateway you are using, check the 'route' command.
+2007-10-11T06:00:00.000Z	Pici	asc	Worked?

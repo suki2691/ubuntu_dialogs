@@ -1,0 +1,4 @@
+2009-10-04T16:51:00.000Z	penthief		Can anyone help me work out why my wireless mouse is no longer working?
+2009-10-04T16:53:00.000Z	penthief		Is there a /proc file which should show my wireless mouse?
+2009-10-04T16:54:00.000Z	stefg	penthief	cat /dev/input/mice ... move the mouse and see if something happens on the terminal
+2009-10-04T17:00:00.000Z	penthief	stefg	OK, nothing. Presumably the trackpad is one of the mice in /dev/input, but cat /dev/input/mouse* outputs nothing when moving the trackpad.

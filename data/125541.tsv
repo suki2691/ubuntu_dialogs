@@ -1,0 +1,4 @@
+2008-02-22T21:53:00.000Z	TelnetManta		Can anyone help determine why I cant get an ip address with ubuntu or ping if I specify an ip address. this is a known-good connection into my switch.
+2008-02-22T21:54:00.000Z	roddersg	TelnetManta	maybe you don't have an active dhcp server working
+2008-02-22T21:54:00.000Z	TelnetManta	roddersg	I do... I have 5000 other machines on my network.
+2008-02-22T21:55:00.000Z	roddersg	TelnetManta	did you use dhclient to grab the address, try dhclient -1 <interface name>

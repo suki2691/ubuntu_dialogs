@@ -1,0 +1,4 @@
+2008-06-19T19:10:00.000Z	hoarycripple		strange problem after the latest hardy update with openoffice.  Whenever I try to open an ooffice application from the gnome menu, it fails to start.  If I start it from the terminal, I get no errors, and it starts normally.  If I remove openoffice-gtk, then I can open the app from the gnome main menu again.  Can someone confirm?
+2008-06-19T19:11:00.000Z	Vlet	hoarycripple	perhaps you should use the menu editor to see what the menu shortcut is doing. Perhaps it is launching OO with some extra params that are causing it to fail
+2008-06-19T19:12:00.000Z	hoarycripple	Vlet	I did that actually.  I am using the same parameters in the menu that I am in the terminal.
+2008-06-19T19:12:00.000Z	Vlet	hoarycripple	weird o_O

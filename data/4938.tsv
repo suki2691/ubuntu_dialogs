@@ -1,0 +1,4 @@
+2012-05-14T18:55:00.000Z	mi3		when my ubuntu is shutdown graphically, it does not ask for a password, but when its shutdown from the terminal, it asks for the password, any suggestions on how which command must be getting invoked when shutting down graphically?
+2012-05-14T18:55:00.000Z	lanceio	mi3	I think its got to do with suid and guid bits
+2012-05-14T18:57:00.000Z	lanceio	mi3	my suggestion is to do this: "sudo chmod +"x" /sbin/shutdown/"
+2012-05-14T18:58:00.000Z	mi3	lanceio	err I want a simple bash script that can be invoked after the transmission downloads have completed, Dr_willis so, the shutdown command should work there, thats all I want :D

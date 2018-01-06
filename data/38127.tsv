@@ -1,0 +1,4 @@
+2010-03-23T10:46:00.000Z	lonejack		Hi, I downloaded netbeans and would like to run it with jdk instead jre, so, set its config file to the jre. Now works. Problem my link is dependent to the jdk (java-6-sun-1.6.0.15). Is i possible to pun instead a link to the last jdk installed? Thank you...
+2010-03-23T10:48:00.000Z	xumuk	lonejack	sudo apt-get remove jre | sudo aptitude purge jre | sudo apt-get update | upgrade
+2010-03-23T10:50:00.000Z	lonejack	xumuk	thnak you
+2010-03-23T10:50:00.000Z	xumuk	lonejack	U're welcome) feel free to ask)

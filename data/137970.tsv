@@ -1,0 +1,4 @@
+2011-01-12T23:32:00.000Z	m1chael		how come i cant change permissions on a mounted file system (aka USB hard drive) ? chrisetc says i need to unmount.. why do i need to unmount?
+2011-01-12T23:33:00.000Z	llutz	m1chael	what filesystem? changing permissions only works on unix-fs
+2011-01-12T23:34:00.000Z	llutz	m1chael	sudo blkid -g && sudo blkid
+2011-01-12T23:35:00.000Z	llutz	m1chael	use mount-options to adjust permissions then

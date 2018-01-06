@@ -1,0 +1,4 @@
+2006-07-05T13:25:00.000Z	Trackilizer		I have a FAT32 drive for data and an NTFS drive for windows, i can accses the data drive with no problems but everytime i try to go onto the NTFS drive which is mounted as "hda1" i get a message saging i don't have permison.
+2006-07-05T13:25:00.000Z	Trackilizer		How do i change this?
+2006-07-05T13:26:00.000Z	maagimies	Trackilizer	in the fstab entry of the ntfs drive, add "umask=0000"
+2006-07-05T13:27:00.000Z	maagimies	Trackilizer	its a file, /etc/fstab

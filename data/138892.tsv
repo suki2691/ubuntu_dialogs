@@ -1,0 +1,4 @@
+2011-06-13T08:00:00.000Z	th0r	Josesordo	there is...but we are going to get cut off talking about it....
+2011-06-13T08:01:00.000Z	th0r	Josesordo	create a password for root and log out of X. Switch to a tty (alt-F2), mount the new partition to a temp location and copy /home to it. Delete /home, then make an entry in fstab to automatically mount the new partition to /home on reboot
+2011-06-13T08:02:00.000Z	th0r	Josesordo	you need to log into the tty as root since you will be deleting the /home of all other users temporarily
+2011-06-13T08:02:00.000Z	Josesordo	th0r	oh.. now I just saw that I have a second swap partition.. 2 swap's partition.. Damn how I delete the one I dont using?

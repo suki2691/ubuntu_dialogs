@@ -1,0 +1,4 @@
+2010-10-29T20:43:00.000Z	s|icer		hello?
+2010-10-29T20:43:00.000Z	s|icer		hi. i have been asking the same question 3 times over the last 20+ minutes and even did "hello??" before and still got no response.
+2010-10-29T20:44:00.000Z	s|icer		my netmanager on my main machine is not connecting. before i had to reboot several times to get it to connect, so i'm just stuck in the rebooting over and over phase at the moment. but its running rt2870 drivers, does ubuntu have some sort of problem with that?
+2010-10-29T20:45:00.000Z	ActionParsnip	s|icer	when the network connects, open a terminal and run:  dmesg > ~/good.txt    when it boots and it's not connecting, run:   dmesg > ~/bad.txt   then compare

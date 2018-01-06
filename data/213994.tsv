@@ -1,0 +1,4 @@
+2010-11-22T01:50:00.000Z	lazarus_		how would i cange the default layout of the panels in ubuntu so they are reversed so bottom panel is now top and top is bottom
+2010-11-22T01:50:00.000Z	lazarus_		<AcidBurn> if i remember right you can right click on a empty spot in the panel and drag it or there is a option when you right click to customize the panels
+2010-11-22T01:50:00.000Z	lazarus_		<lazarus_> is there a way of doing that using a command in the terminal? gconftool-2 --set /apps/panel/general/toplevel_id_list --type list --list-type string "[top_panel_screen0]" somthing along the lines of that  just because im trying to create an auto config/install tool
+2010-11-22T01:52:00.000Z	airtonix	lazarus_	if using the gconf cli tool is too hard then preseed the /etc/skel folder with the desired ~/.gconf setup

@@ -1,0 +1,4 @@
+2012-01-06T01:48:00.000Z	jwac		hey...using nullmailer here, how do I clear out the mailq?
+2012-01-06T01:50:00.000Z	oCean	jwac	has been a while, but I think it is nullmailer-send command?
+2012-01-06T01:51:00.000Z	jwac	oCean	the problem is I mistakingly tried to send an email to a non-local account so it's sitting in there constantly retrying and always failing
+2012-01-06T01:52:00.000Z	oCean	jwac	oh, in that case I would just delete the messages from var/spool/nullmailer/queue

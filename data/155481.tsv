@@ -1,0 +1,4 @@
+2007-04-29T13:36:00.000Z	walkintome		when ./configure kxdocker, i get this error: checking for KDE... configure: error: in the prefix, you've chosen, are no KDE headers installed. This will fail. So, check this please and use another prefix! I do not know what this is refering to.
+2007-04-29T13:36:00.000Z	arrenlex	walkintome	apt-get install kdebase-dev
+2007-04-29T13:54:00.000Z	arrenlex	walkintome	Run sudo make install, or (even better) use checkinstall instead
+2007-04-29T13:55:00.000Z	arrenlex	walkintome	Not necessary but highly recommended if you want to remove this software later and don't want to keep the install files around.

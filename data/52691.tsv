@@ -1,0 +1,4 @@
+2009-07-13T01:11:00.000Z	y7deluxe_		3 machines: ubuntu(192.168.1.100), windowsxp (.102) and windowsxp (.105).... .100 and .102 can ping back and forth with each other... .105 cannot ping .102 or .100 and .102 and .100 cannot ping it.... yet .105 can ping google.com... they are all behind the same switch, which is behind my router.... and windows firewall on .105 is disabled.... any ideas on what my problem could be?
+2009-07-13T01:13:00.000Z	geronimo9	y7deluxe_	are the subnet masks the same?
+2009-07-13T01:13:00.000Z	y7deluxe_	geronimo9	is the subnet mask the 192.168.1.xxx part?
+2009-07-13T01:14:00.000Z	geronimo9	y7deluxe_	no it's the 255.255.255.0 part.

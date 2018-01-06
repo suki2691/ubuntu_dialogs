@@ -1,0 +1,4 @@
+2009-10-12T18:04:00.000Z	avishek		APTonCD doesn't work on any of my Ubuntu 9.04 desktops. Is there any way to replicate the function of APTonCD without using APTonCD?
+2009-10-12T18:05:00.000Z	ActionParsnip2	avishek	you could simply copy the debs from /var/cache/apt/archive to the other system and run: sudo dpkg -i ./*.deb
+2009-10-12T18:06:00.000Z	avishek	ActionParsnip2	many thanks!
+2009-10-12T18:12:00.000Z	avishek	ActionParsnip2	your suggestion works like a charm! :)

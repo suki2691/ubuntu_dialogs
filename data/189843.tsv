@@ -1,0 +1,4 @@
+2006-10-15T07:36:00.000Z	keleus		A program in WINE misbehaved and died... and didn't let go of ALSA. now ALSA is playing the same sample repeatedly. Is there any way I can "reset" the sound system?
+2006-10-15T07:36:00.000Z	wasabi_	keleus	Check if the program is still running in the background.
+2006-10-15T07:36:00.000Z	wasabi_		(wineserver)
+2006-10-15T07:37:00.000Z	keleus	wasabi_	it was, but i killed it (and searched again) - no more wine processes

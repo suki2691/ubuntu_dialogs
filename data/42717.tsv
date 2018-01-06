@@ -1,0 +1,4 @@
+2010-02-04T00:00:00.000Z	BeardedChimp		If you had multiple programs piped in a bash script, ie foo | bar | moo   after it stops running which return value does $? hold, and how can I chose which return value I want to read?
+2010-02-04T00:01:00.000Z	erUSUL	BeardedChimp	in bash you have the variable PIPESTATUS that holdes the return values of all the programs of the pipe (array)
+2010-02-04T00:02:00.000Z	BeardedChimp	erUSUL	Brilliant thats perfect
+2010-02-04T00:02:00.000Z	erUSUL	BeardedChimp	more help in #bash

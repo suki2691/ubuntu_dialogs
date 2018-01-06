@@ -1,0 +1,4 @@
+2008-10-21T17:20:00.000Z	jokeusa		Peeps, is it true that "iptables -t nat -A PREROUTING -i eth0 -p tcp --dport 80 -j REDIRECT --to-port 3128" will only redirect connections from external IP's to my machine and NOT the ones made from localhost?
+2008-10-21T17:21:00.000Z	Slart	jokeusa	I'm no iptables guru but I don't see anything that would restrict to external ip's only..
+2008-10-21T17:22:00.000Z	jokeusa	Slart	- cite from en.wikipedia.org/wiki/iptables: "Note: if you launch this command on your computer it will only work for external IP addresses connecting to your machine. Connections from localhost do not traverse the PREROUTING chain in the "nat" table."
+2008-10-21T17:24:00.000Z	Slart	jokeusa	well.. guess I'll go sit in the corner wearing the pointy hat =).. as I said.. I'm no guru.. wikipedia sounds like it knows what it's talking about

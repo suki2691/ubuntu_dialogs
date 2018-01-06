@@ -1,0 +1,4 @@
+2011-05-21T20:33:00.000Z	xbris		Hello all. Good morning! Does anyone know if it's possible to mount --bind a directory another user owns but change the owner to another user when its accessed from the new mount point. example: (this is what i'm trying to do) mount -t none -o bind,rw,uid=1000,gid=100 /home/user1 /home/user2/user1-home
+2011-05-21T20:33:00.000Z	escott	xbris	don't think so
+2011-05-21T20:37:00.000Z	escott	xbris	im pretty sure what you want to do isn't possible
+2011-05-21T20:41:00.000Z	escott	xbris	udisks/something-volume-manager does the automounting

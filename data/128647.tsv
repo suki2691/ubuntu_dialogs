@@ -1,0 +1,4 @@
+2007-07-20T11:58:00.000Z	ChaoticMind		hey, does anyone know how I can create a file of size X?
+2007-07-20T11:59:00.000Z	dyrne	ChaoticMind	like for a 10mb file: dd if=/dev/zero of=myfile bs=1024 count=10240  ?
+2007-07-20T12:00:00.000Z	ChaoticMind	dyrne	it works for 2 gbs as well, right? (ie it's properly scalable, right?)
+2007-07-20T12:00:00.000Z	dyrne	ChaoticMind	yes

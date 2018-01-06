@@ -1,0 +1,4 @@
+2005-07-23T15:17:00.000Z	epiloc		Everytime I reboot, I have to fetch an ip address fromt my router with "dhclient wlan0"  ...  I want to write a script to automatically do this on startup.  Where would I start?  Keep in mind I am a linux newb :)
+2005-07-23T15:18:00.000Z	jasoncohen	epiloc	you should just use DHCP. it should be the default
+2005-07-23T15:18:00.000Z	jasoncohen	epiloc	system > administration > networking. choose configuration DHCP for your ethernet card (probably eth0)
+2005-07-23T15:27:00.000Z	epiloc	jasoncohen	stinky, tritium, anto9us, thanks for the info... found an easy soultion

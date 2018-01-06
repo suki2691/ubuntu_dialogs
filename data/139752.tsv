@@ -1,0 +1,4 @@
+2007-04-10T14:49:00.000Z	Stig		I've forgotten who it was who helped me with the partitions, anyway, I have figured out how to do it now... so thanks, but I have another question. When I create the EXT3, linux swap partitions, is there anything else I need to do? like change "flags", etc. And how do I change the name of them? they are called "New partition #1", etc.
+2007-04-10T14:51:00.000Z	velko	Stig	you don't have to do anything special. how do you change the partition labels depends on the software you use for that
+2007-04-10T14:53:00.000Z	Stig	velko	: I'm just using GParted from the Ubuntu liveCD. I will be creating two new EXT3 partitions (one for Ubuntu and one for /home and shared files that I can share between XP and Ubuntu) - so I don't have to do anything special?
+2007-04-10T14:54:00.000Z	velko	Stig	nope. it's enough you created the partitions and noted their names on a piece of paper

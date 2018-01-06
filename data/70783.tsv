@@ -1,0 +1,4 @@
+2008-12-24T08:15:00.000Z	Gun_Smoke		I have an machine running Intrepid.  I get a hard freeze shortly after login.  Where do I check to see what is causing the lockup?
+2008-12-24T08:15:00.000Z	goffio	Gun_Smoke	log files are under /var/log
+2008-12-24T08:16:00.000Z	Gun_Smoke	goffio	I've been looking through them but nothing exactly stands out..
+2008-12-24T08:19:00.000Z	goffio	Gun_Smoke	maybe it is some bad config, you can try renaming temporarily your homedir, making a new blank one with the same name, then login to gnome, you'll have your gnome/apps with all the defaults.

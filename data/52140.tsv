@@ -1,0 +1,4 @@
+2009-07-22T23:25:00.000Z	madalin		i have an ubuntu server that has two ethernet cards. One for internet coming in, and one for a local network. The local network seems down (no ping replies) altough the interface is up (/var/log/messages and syslog). How can i find out if the second card (eth2) is broken or something like that ? How can i find out WHAT's wrong ? Thanks :)
+2009-07-22T23:25:00.000Z	Samm	madalin	try ifconfig, msg me the output.
+2009-07-22T23:26:00.000Z	Samm	madalin	as in the terminal, type ifconfig
+2009-07-22T23:28:00.000Z	Samm	madalin	eth2 looks fine to me. reset the modem

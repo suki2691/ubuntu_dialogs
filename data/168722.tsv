@@ -1,0 +1,4 @@
+2009-02-12T17:58:00.000Z	bryant		Has anyone else seen that the time will read 1234567890 on Friday the 13th for UNIX systems? (I know UNIX is not LINUX, but it will still do it on *NIX like distros)
+2009-02-12T17:59:00.000Z	bryant		Has anyone else seen that the time will read 1234567890 on Friday the 13th for UNIX systems? (I know UNIX is not LINUX, but it will still do it on *NIX like distros)
+2009-02-12T18:00:00.000Z	scunizi	bryant	yes.. something like date -r @1234567890
+2009-02-12T18:01:00.000Z	bryant	scunizi	its perl -e 'print scalar localtime(1234567890),"\n";'

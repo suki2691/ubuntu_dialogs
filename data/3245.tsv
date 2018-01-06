@@ -1,0 +1,4 @@
+2012-05-09T19:10:00.000Z	tizzo		anyone else having trouble with the precise apt servers?
+2012-05-09T19:10:00.000Z	tizzo		apt-get update keeps flaking out on me
+2012-05-09T19:10:00.000Z	penreturns	tizzo	what ur problem?
+2012-05-09T19:12:00.000Z	penreturns	tizzo	try this sudo apt-get clean | cd /var/lib/apt | sudo rm -rf lists.old | sudo mkdir -p lists/partial | sudo apt-get clean | sudo apt-get update

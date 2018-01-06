@@ -1,0 +1,4 @@
+2011-08-31T04:16:00.000Z	neer2005		anyone know why ubuntu isnt letting me rw an hfsplus partition without SU ?
+2011-08-31T04:16:00.000Z	neer2005		<neer2005> and after i access it as SU, it wont let me change permissions
+2011-08-31T04:17:00.000Z	neer2005		can anyone help?
+2011-08-31T04:17:00.000Z	rhizmoe	neer2005	mount always requires root, or a suid agent like automount, iirc

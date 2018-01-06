@@ -1,0 +1,4 @@
+2012-07-15T02:37:00.000Z	jellow		I'm trying to run a minecraft server at boot , I have this script in /etc/init.d/ https://raw.github.com/marcuswhybrow/minecraft-server-manager/latest/init/msm , Yet it does not auto start as I hoped. Thanks
+2012-07-15T02:38:00.000Z	jellow		I should add I gave it 755 and ran sudo update-rc.d msm defaults
+2012-07-15T02:39:00.000Z	jcodybaker	jellow	does it work manually? /etc/init.d/msm start
+2012-07-15T02:40:00.000Z	jellow	jcodybaker	yes

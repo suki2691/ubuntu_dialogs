@@ -1,0 +1,4 @@
+2007-12-16T21:53:00.000Z	simmerz		is there a correct way to do this in a config file? echo "1" > /proc/sys/net/ipv4/ip_forward
+2007-12-16T21:54:00.000Z	Slart	simmerz	there is a way.. I've done it on my ubuntu server/firewall.. I'm sorry to say I don't remember what I did since it was some time ago..
+2007-12-16T21:55:00.000Z	simmerz	Slart	I think from google, I have to set net.ipv4.conf.default.forwarding=1 in /etc/sysctl.conf ?
+2007-12-16T21:56:00.000Z	Slart	simmerz	that sounds remotely familiar.. tried it?

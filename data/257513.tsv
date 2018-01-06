@@ -1,0 +1,4 @@
+2004-11-28T08:36:00.000Z	gelfling		heya people, does anyone here know about mounting ntsf partitions changing directory permissions and how to fix it so normal users car read?
+2004-11-28T08:37:00.000Z	gelfling		hello :)
+2004-11-28T08:37:00.000Z	lemsx1	gelfling	mount -o uid=`uid`,gid=100 ...
+2004-11-28T08:38:00.000Z	lemsx1	gelfling	sorry, not: `uid` but `id -u` :-)

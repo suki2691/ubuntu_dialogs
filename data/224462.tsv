@@ -1,0 +1,4 @@
+2007-08-11T11:43:00.000Z	Dr_willis		Hmm. Anyone raninto a problem recently where a samba/cups/netwrorked printer just stopped wrking for the rest of the pcs on the lan? it still works locally
+2007-08-11T11:44:00.000Z	Dr_willis		Not sure where to start troubleshooting.. cups. or samba
+2007-08-11T11:44:00.000Z	lee__	Dr_willis	try restarting samba and see if it starts working again sudo /etc/init.d/samba restart
+2007-08-11T11:45:00.000Z	Dr_willis	lee__	 done that. :) enabled verbose also.. checking the logs..

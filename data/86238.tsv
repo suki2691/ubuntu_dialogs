@@ -1,0 +1,4 @@
+2008-07-07T02:40:00.000Z	Strictmasterr		sudo chmod +r+w file should work however or?
+2008-07-07T02:41:00.000Z	hoarycripple	Strictmasterr	not if the filesystem is mounted read only
+2008-07-07T02:41:00.000Z	Strictmasterr	hoarycripple	how can i change that
+2008-07-07T02:46:00.000Z	hoarycripple	Strictmasterr	first, is the external drive mounted read-write?  Check /etc/mtab.  If it is, then chmod -R ugo+rw

@@ -1,0 +1,4 @@
+2009-04-25T11:44:00.000Z	vox		if im backing up my /, and have an exclude for /mnt, but have a link from /home/$user/$mount back to /mnt/$mount, is it still going to be excluded?
+2009-04-25T11:46:00.000Z	jube	vox	are you using rsync to copy? do you want the links to be followed?
+2009-04-25T11:47:00.000Z	vox	jube	nah, just taring it to a mounted raidset
+2009-04-25T11:48:00.000Z	jube	vox	ok, i'm not familiar with tar. i'm sure it allows you to have both functionality. i'll check the man page and see if i can find the answer.

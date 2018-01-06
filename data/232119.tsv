@@ -1,0 +1,4 @@
+2008-11-17T05:00:00.000Z	nathan_		can someone tell me how i can look at my processor speed and various other specs on xubuntu?
+2008-11-17T05:00:00.000Z	erUSUL	nathan_	sudo lshw | less
+2008-11-17T05:16:00.000Z	erUSUL	nathan_	for 32 bits it will be less than 4GB depending on bios conf and devices used
+2008-11-17T05:17:00.000Z	erUSUL	nathan_	for 64 bit the limit is on the motherboard probably and not in linux

@@ -1,0 +1,4 @@
+2007-02-10T06:33:00.000Z	Diiba		How do I give permissions for a user to use halt command without sudo?
+2007-02-10T06:34:00.000Z	null__	Diiba	see the sudo manual to enable user sudo for shutdown
+2007-02-10T06:36:00.000Z	null__	Diiba	well add the user to a group that can do shutdown/halt
+2007-02-10T06:37:00.000Z	null__	Diiba	do make sure u use visudo to edit the sudoers file

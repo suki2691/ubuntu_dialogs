@@ -1,0 +1,4 @@
+2006-06-28T11:36:00.000Z	ern		hi. how can i verify a service if its running?
+2006-06-28T11:36:00.000Z	ern		chkconfig ?
+2006-06-28T11:36:00.000Z	ern		i 'm trying to start apache
+2006-06-28T11:37:00.000Z	markskinner	ern	you can also do a netstat -p | grep <port of service>

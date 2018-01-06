@@ -1,0 +1,4 @@
+2009-02-07T21:32:00.000Z	makito249		I have some questions about email setup. Right now I use evolution, but I want to set up a more unixy email setup. Most places recommend procmail, but I am not running a server?
+2009-02-07T21:33:00.000Z	makito249		OK, if I wanted to have a daemon running that would check my mail, but not be running evolution all the time, what would I use?
+2009-02-07T21:34:00.000Z	makito249		fetchmail, OK. Thanks OldMonk!
+2009-02-07T21:34:00.000Z	velko	makito249	procmail is used just to sort the mail into different mail boxes. you'll need also something to get the mail from the servers (fetchmail), something to sent the mail (msmtp is  easy one) and a mail client (mutt if you are at ease on the command line)

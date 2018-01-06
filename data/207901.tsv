@@ -1,0 +1,4 @@
+2007-09-21T10:49:00.000Z	inflex		hi there all, I've added an external USB HDD (320GB) and it's all good and well, /except/ that I cannot seem to assert that it should be bound as 'sde', instead it tends to pick a random letter which completely screws up my boot scripts and fstab
+2007-09-21T10:49:00.000Z	inflex		is there a way to bind '/dev/sde' only to this particular HDD ?
+2007-09-21T10:51:00.000Z	inflex		hmmm... okay, I must be old-school unix then, always have referred to drives by device name :(
+2007-09-21T10:51:00.000Z	markw	inflex	you can label them or use the uuid in /etc/fstab to fix them to a mount point.

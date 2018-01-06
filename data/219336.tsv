@@ -1,0 +1,4 @@
+2008-09-10T11:31:00.000Z	tenbytes		ug why is "grep ^Anchor Text:[.*chlamydia.*]$ " returning more then a single line that doesnt contain what i'm looking for
+2008-09-10T11:31:00.000Z	Flannel	tenbytes	escape the [ ]s
+2008-09-10T11:32:00.000Z	Flannel	tenbytes	in Regexps, [] denote a character class.  So anything inside of it becomes what its looking for, and its looking for one of them.
+2008-09-10T11:33:00.000Z	Flannel	tenbytes	Please use pastbin, it'll let me see what you're getting hits on.  Also, pastebin your regexp again, and *also* if you don't mind, can we move this to #ubuntu-offtopic?

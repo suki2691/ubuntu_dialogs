@@ -1,0 +1,4 @@
+2007-04-17T13:35:00.000Z	ubd		hello, i dont seem to be able to write on my ext3 parition. i think i have to change its group from root to disk, how will i do that,
+2007-04-17T13:35:00.000Z	ubd		.
+2007-04-17T13:36:00.000Z	ubd		im trying to write on /media/hdc1 i created it yesterday with mke2fs -c-c -j in root mode
+2007-04-17T13:36:00.000Z	ror	ubd	use chmod to give everyone read/write persmissions

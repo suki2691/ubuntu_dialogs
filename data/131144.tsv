@@ -1,0 +1,4 @@
+2008-11-06T15:43:00.000Z	Mehrab		hey guys
+2008-11-06T15:44:00.000Z	Mehrab		is it possible to use a single swap partition for two linux installed in different partitions?
+2008-11-06T15:45:00.000Z	pajamian	Mehrab	yes
+2008-11-06T15:46:00.000Z	pajamian	Mehrab	...but keep in mind that suspend to disk uses swap, so you won't be able to suspend one linux to disk, then boot to the other.  If you do you will loose the first linux.

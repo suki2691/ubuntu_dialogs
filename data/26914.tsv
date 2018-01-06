@@ -1,0 +1,4 @@
+2010-08-27T05:56:00.000Z	dwon		I'm attempting to get lucid running on a Xen domU, the initrd runs and mounts the root filesystem okay, but it seems to hang when it tries to run /sbin/init.  I tried booting with break=init, and I get a prompt, but running /root/bin/sh hangs.
+2010-08-27T05:57:00.000Z	the-erm	dwon	how about /bin/sh ?
+2010-08-27T05:58:00.000Z	dwon	the-erm	/bin/sh (the initrd's busybox) works fine.  some commands like "/root/bin/echo foo" work, too
+2010-08-27T06:09:00.000Z	dwon	the-erm	ok, thanks anyway.  It looks like /root/usr/bin/strace works, so I might be able to figure something out

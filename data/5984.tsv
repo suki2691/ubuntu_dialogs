@@ -1,0 +1,4 @@
+2012-02-03T03:59:00.000Z	vancouverwill		hi all, hope you are doing well.  I might be missing something obvious about permissions or access but I have been trying for several months on and off to have my ubuntu web root be on a seperate NTFS partition and have not been able to get this to work. Is this just not possible?
+2012-02-03T04:00:00.000Z	Walex4	vancouverwill	surely it is possible, it is even easy.
+2012-02-03T04:01:00.000Z	Walex4	vancouverwill	check carefully that you mount it with the right 'uid=,gid=,umask=' parameters
+2012-02-03T04:03:00.000Z	Walex4	vancouverwill	by default NTFS filetrees are mounted as the logged in user, which isn't the web server user.

@@ -1,0 +1,4 @@
+2011-06-22T08:08:00.000Z	bonixavier		when I try to mount an NFS share, I get this message: "mount.nfs: mount to NFS server 'servername:/home/music' failed: RPC Error: Program not registered" How can I fix that?
+2011-06-22T08:10:00.000Z	Seven_Six_Two	bonixavier	have you allowed the clients access through the server's hosts.allow
+2011-06-22T08:11:00.000Z	bonixavier	Seven_Six_Two	thank you. I was really stupid. I have an ALL:ALL in the hosts.deny. Thank you very much
+2011-06-22T08:11:00.000Z	Seven_Six_Two	bonixavier	np!

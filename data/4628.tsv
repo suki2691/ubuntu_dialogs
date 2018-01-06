@@ -1,0 +1,4 @@
+2012-03-14T14:29:00.000Z	tarathiel		hello, i need help with ssh, i want to download a file to my local computer, without having to download it to the remote computer (i have a quota on that one)
+2012-03-14T14:29:00.000Z	tarathiel		and the file is on the inner network, so i cant reach it without the ssh
+2012-03-14T14:30:00.000Z	ikonia	tarathiel	you can't do that, if you do scp user@host1:user@host2:/location, it will still pass through and be written to both hosts
+2012-03-14T14:30:00.000Z	tarathiel	ikonia	thanks, then i will find a workaround :)

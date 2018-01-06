@@ -1,0 +1,4 @@
+2008-11-11T09:54:00.000Z	w33d5		can someone explain what i am doing wrong?   /code/  find . -type f -name '*.jpg' -exec mv {} /shared/Photos/ + /end code/
+2008-11-11T09:54:00.000Z	w33d5		 i am getting the error find: missing argument to `-exec'
+2008-11-11T09:55:00.000Z	w33d5		it worked when i used cp but not mv
+2008-11-11T09:55:00.000Z	pinkey	w33d5	did you terminate the exec with \;

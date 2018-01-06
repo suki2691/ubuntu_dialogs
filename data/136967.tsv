@@ -1,0 +1,4 @@
+2007-11-07T13:17:00.000Z	hatter		anyone got any clues why reading a 300Mb file from a samba server is ten times faster than writing to a samba server ?  (from an xp box)
+2007-11-07T13:18:00.000Z	sethk	hatter	typically reads can used cached data, writes have to be flushed to disk.
+2007-11-07T13:18:00.000Z	hatter	sethk	hmmm, this happened with the first test, not cached
+2007-11-07T13:19:00.000Z	sethk	hatter	well, so much for that theory  :)

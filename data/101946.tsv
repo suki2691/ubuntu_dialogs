@@ -1,0 +1,4 @@
+2008-03-27T06:55:00.000Z	xanderp		I spoke too soon, I can boot, but my partitions are marked read only, so there's still something wrong.
+2008-03-27T06:57:00.000Z	xanderp		where do I start to figure out why my file systems are booting read only?
+2008-03-27T06:58:00.000Z	xanderp		yes, it boots now that i uninstalled evms, but the root file system (ext3 on a single drive) is booting read only, so the system is pretty fubar
+2008-03-27T06:59:00.000Z	unop__	xanderp	let's have a look at your /etc/fstab -- can you use the pastebin and paste it in?

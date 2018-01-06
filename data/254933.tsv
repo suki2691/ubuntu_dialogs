@@ -1,0 +1,4 @@
+2005-07-23T13:26:00.000Z	evo|ution		is dere any way to mount ubuntu images without burning them on a CD or a DVD
+2005-07-23T13:26:00.000Z	zAo^	evo|ution	you can mount them, but you cant install from the mount
+2005-07-23T13:27:00.000Z	zAo^	evo|ution	mount -t iso9660 /dev/XXX /target -o loop
+2005-07-23T13:27:00.000Z	zAo^	evo|ution	 XXX is the deveice

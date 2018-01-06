@@ -1,0 +1,4 @@
+2010-04-24T21:39:00.000Z	sartan		hello -- a few months ago I swapped my speakers with changing /etc/pulse/defaults.pa -- I (silly me) didn't make a backup of this file.  How can I restore it to whatever the package that provided the audio subsystem used in the first place?
+2010-04-24T21:41:00.000Z	wise_crypt	sartan	lsb_release -a
+2010-04-24T21:42:00.000Z	sartan	wise_crypt	i'm running 9.10 karmic.
+2010-04-24T22:02:00.000Z	sartan	wise_crypt	greezmunkey vivid tic^ -- Thanks everyone; what I ended up doign was downloading the pulseaudio dpkg from an ubuntu mirror and open it up with an archive manager, extract the relevant config files to /tmp, and replace them.  Everything is perfect now

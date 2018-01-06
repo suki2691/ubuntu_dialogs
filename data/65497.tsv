@@ -1,0 +1,4 @@
+2009-02-25T05:47:00.000Z	M1DLG		I have spent the last 4 hours trying to make me owner of a partition and it still says root is the owner. anyone able to help me?
+2009-02-25T05:47:00.000Z	kernelpannik	M1DLG	what kind of file system?
+2009-02-25T05:49:00.000Z	kernelpannik	M1DLG	have you tried   sudo chown myusername:myusername /path/to/mountpoint/of/the/filesystem -R     ?
+2009-02-25T06:00:00.000Z	M1DLG	kernelpannik	- thank you (n I can start teh copying of file to make room and tehn got to bed now!!!) I was telling it to change permitions on the sdb5 location not the mount point- as soon as i did that the window refreshed and i now can create foldrs

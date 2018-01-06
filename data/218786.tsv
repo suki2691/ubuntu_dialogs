@@ -1,0 +1,4 @@
+2012-03-14T18:19:00.000Z	Ignisss		so no1 has any idea why my boot is halting on the fstab entry of my raid cause the 'disk drive is not ready yet'?
+2012-03-14T18:19:00.000Z	sipior	Ignisss	this is a hardware raid? which card?
+2012-03-14T18:20:00.000Z	sipior	Ignisss	and the system successfully booted before, or?
+2012-03-14T18:25:00.000Z	sipior	Ignisss	try adding "nobootwait" to the fstab entry.

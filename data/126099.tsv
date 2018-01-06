@@ -1,0 +1,4 @@
+2008-06-07T21:05:00.000Z	hxu		I'm trying to build a kernel module against the Ubuntu 8.04 kernel source. I got this error: linux-2.6.24-ubuntu804/scripts/Makefile.modpost:42: include/config/auto.conf.  Any idea?
+2008-06-07T21:06:00.000Z	hxu		I'm trying to build a kernel module against the Ubuntu 8.04 kernel source. I got this error: linux-2.6.24-ubuntu804/scripts/Makefile.modpost:42: include/config/auto.conf: No such file or directory.  Any idea?
+2008-06-07T21:06:00.000Z	erUSUL	hxu	'sudo apt-get install linux-headers-$(uname -r)'
+2008-06-07T21:06:00.000Z	hxu	erUSUL	I have already installed that.

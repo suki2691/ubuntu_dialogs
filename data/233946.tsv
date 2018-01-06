@@ -1,0 +1,4 @@
+2005-07-14T16:35:00.000Z	flexs		ok i write command -- sudp passwd root -- then i write the password, but if i want login, ubuntu says, not allowed to login like root.... what the problem.... i want root panel...
+2005-07-14T16:36:00.000Z	flexs		tb sudo
+2005-07-14T16:36:00.000Z	tiglionabbit	flexs	if you REALLY must enable root, go to system -> admin -> login screen setup and uncheck the box that says you can't login as root.  But, it is not recommended on ANY linux distro tu run Xserver as root
+2005-07-14T16:57:00.000Z	tiglionabbit	flexs	you may need to edit /etc/X11/xorg.conf

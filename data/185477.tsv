@@ -1,0 +1,4 @@
+2010-06-22T00:20:00.000Z	Tazer		Hello, can anyone help me with this hard drive? No operating system or anything seems able to work with it; it's set as unallocated and sometimes tells me it needs a label. Not even GParted seems able to do anything; it asks me to create a partition table and while I do, it apparently just..doesn't register and stays the same
+2010-06-22T00:21:00.000Z	NthDegree	Tazer	have you got "Virus Protection" enabled in the BIOS?
+2010-06-22T00:21:00.000Z	NthDegree	Tazer	that interferes with the MBR and such by making it read-only, which can mess things up
+2010-06-22T00:22:00.000Z	NthDegree	Tazer	look on the CMOS Setup bits (y'know the menu when you press DEL or F2 or w/e on boot?)

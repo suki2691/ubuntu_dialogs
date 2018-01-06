@@ -1,0 +1,4 @@
+2009-10-02T22:44:00.000Z	Brian		hey i was in the middle of a update and my laptop ran out of batt  so i recharged my laptop and did the update again and i get the partial update error thing is there anyway to fix this
+2009-10-02T22:44:00.000Z	maco	Brian	sudo apt-get install -f
+2009-10-02T22:44:00.000Z	maco	Brian	try that? if not, try "sudo dpkg-configure -a" i think
+2009-10-02T22:46:00.000Z	maco	Brian	finish configuring any packages that apt finished downloading but didnt get to

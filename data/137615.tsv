@@ -1,0 +1,4 @@
+2010-02-12T02:06:00.000Z	keex		hello
+2010-02-12T02:08:00.000Z	keex		is there a way to disable the behavior of aptitude to re-enable disabled services (disabled with update-rc.d remove) ?
+2010-02-12T02:10:00.000Z	llutz	keex	that's defined in *.postinst of the package.deb, aptitude cannot change it
+2010-02-12T02:11:00.000Z	keex	llutz	that's not so nice, but thanks for the head-up

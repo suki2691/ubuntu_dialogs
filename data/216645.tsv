@@ -1,0 +1,4 @@
+2006-09-02T07:29:00.000Z	kevinG		How do I change the splash screen?
+2006-09-02T07:30:00.000Z	ardchoille	kevinG	Which splash screen? The gnome splash screen?
+2006-09-02T07:31:00.000Z	ardchoille	kevinG	In the gconf-editor, go to: apps/gnome-session/options, right-click the splash_image key and choose the desired image, ex.: splash/gnome-splash-context.png. Keep in mind that the "splash/" part of the above must preceed the new splash filename.
+2006-09-02T07:31:00.000Z	ardchoille	kevinG	You can put new splash screens in /usr/share/pixmaps/splash

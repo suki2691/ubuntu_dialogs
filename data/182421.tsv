@@ -1,0 +1,4 @@
+2007-01-10T14:14:00.000Z	tuxub		hi, my ubuntu is removing the nvidia-glx for the today's update... is this normal?
+2007-01-10T14:14:00.000Z	tuxub		it hapenned this morning on another machine and I got with no gnome... had to install the nvidia-glx again in text mode to get it working
+2007-01-10T14:14:00.000Z	tuxub		is this a bug?
+2007-01-10T14:15:00.000Z	stefg	tuxub	have you installed the linux-restricted-modules metapackage? the nvidia-glx is kernel dependant and needs an update, too, if the kernel is updated

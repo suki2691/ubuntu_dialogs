@@ -1,0 +1,4 @@
+2008-06-14T02:04:00.000Z	obake-san		hey, i really need some help, my remote server is doing brute force attacks and that needs to stop. i have no idea what i can do to accomplish this
+2008-06-14T02:06:00.000Z	obake-san		is there a command or file i can look at that will give me a list of users?
+2008-06-14T02:06:00.000Z	Baltazaar	obake-san	users
+2008-06-14T02:08:00.000Z	Baltazaar	obake-san	less /etc/passwd | grep /bin/bash would kinda do that...

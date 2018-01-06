@@ -1,0 +1,4 @@
+2012-07-14T22:02:00.000Z	djzylex657		Need Help: I have 2 user accounts and i cannot take my music from one and put it in the other user home directory. Can anyone help me?
+2012-07-14T22:03:00.000Z	djzylex657		would if i had money
+2012-07-14T22:03:00.000Z	djzylex657		lol
+2012-07-14T22:04:00.000Z	Mattias	djzylex657	sudo cp ~/folder /home/otheruser -R  ? after that, sudo chown user:group /home/otheruser/folder

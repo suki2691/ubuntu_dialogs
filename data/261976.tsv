@@ -1,0 +1,4 @@
+2008-03-03T02:09:00.000Z	flats		Since my login is an administrative login.  (It's my own PC) Is there any way to make it stop asking asking me for the root password everytime I try to open certain programs?
+2008-03-03T02:09:00.000Z	flats		What a PITA
+2008-03-03T02:09:00.000Z	Seveas	flats	yes, by adding NOPASSWD in /etc/sudoers at the appropriate place
+2008-03-03T02:09:00.000Z	Seveas	flats	it's not supported though and you'll need to read docs to find out how to do it properly

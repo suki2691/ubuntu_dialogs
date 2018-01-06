@@ -1,0 +1,4 @@
+2007-12-07T07:33:00.000Z	munk_		HELP whenever i activate my nvidia accelerated graphics driver so i can use compiz, it asks me to restart when i restart it asks me to start in low graphics mode and then evereything is messed up...and the nvidia driver is still not in use...HELP PLEASE
+2007-12-07T07:35:00.000Z	munk_		HELP whenever i activate my nvidia accelerated graphics driver so i can use compiz, it asks me to restart when i restart it asks me to start in low graphics mode and then evereything is messed up...and the nvidia driver is still not in use...HELP PLEASE
+2007-12-07T07:37:00.000Z	magic_ninja	munk_	remove nvidia-glx change your /etc/X11/xorg.conf the nvidia to nv and save it then in a terminal type /etc/init.d/gdm stop and sudo apt-get install nvidia-glx then edit your /etc/X11/xorg.conf change the nv to nvidia and save it startx
+2007-12-07T07:38:00.000Z	munk_	magic_ninja	thanks a lot

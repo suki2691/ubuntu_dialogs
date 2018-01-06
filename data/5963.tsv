@@ -1,0 +1,4 @@
+2012-03-03T01:43:00.000Z	macmartine		With this simple scron script, what would cause this 'exit status 1' error? https://gist.github.com/1961183
+2012-03-03T01:43:00.000Z	macmartine		*cron
+2012-03-03T01:45:00.000Z	Zal	macmartine	some possibilities: script is not executable, log file directory does not exist or is not writable.
+2012-03-03T01:47:00.000Z	macmartine	Zal	yep, log directory issue. thanks!

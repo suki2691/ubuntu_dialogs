@@ -1,0 +1,4 @@
+2011-05-04T02:21:00.000Z	bencc		how do I clear a file (nginx error.log file) ?
+2011-05-04T02:23:00.000Z	s3r3n1t7	bencc	the cat is run as root, the pipe however is run as your user
+2011-05-04T02:24:00.000Z	bencc	s3r3n1t7	do I need two sudo?
+2011-05-04T02:24:00.000Z	s3r3n1t7	bencc	sudo -i to create a root shell, execute the command without sudo, then logout of the shell again

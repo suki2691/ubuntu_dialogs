@@ -1,0 +1,4 @@
+2012-04-21T04:52:00.000Z	edward_	MestreLion	yes, then you need to run a trigger.  not sure how that's done as dpkg normally does it for me regarding packages
+2012-04-21T04:52:00.000Z	edward_		though if you search for 'man page trigger' or something like that you might get the answer you need
+2012-04-21T04:53:00.000Z	MestreLion	edward_	yes, I know... but this will be an app installed to /opt, it does not have a .deb package... so I need to "mimic" whatever apt does regarding manpages
+2012-04-21T04:55:00.000Z	MestreLion	edward_	for example, regarding .desktop and icon files I know that there is no need for a trigger.. there is a daemon (gnome's maybe?) that scans for new entries in /usr/share/applications and automatically adds them to the menu... is there such a thing for manpages? What should I do?

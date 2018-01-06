@@ -1,0 +1,4 @@
+2011-06-20T11:31:00.000Z	dijonyummy123		any linux tool that can mount a dmg file
+2011-06-20T11:32:00.000Z	velofille	dijonyummy123	mount will mount it - use -o loop
+2011-06-20T11:32:00.000Z	velofille	dijonyummy123	actually i may be wrong on that, but it should work
+2011-06-20T11:33:00.000Z	velofille	dijonyummy123	:~$ mount -t hfs -o loop myImage.dmg /macdisk

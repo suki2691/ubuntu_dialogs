@@ -1,0 +1,4 @@
+2010-08-27T16:34:00.000Z	sanderj_		How come my resolv.conf is blank when I reboot.. I've but "dns-nameservers 8.8.8.8  dns-search domain.com" into /etc/network/interfaces
+2010-08-27T16:34:00.000Z	sanderj_		put*
+2010-08-27T16:36:00.000Z	sacarlson	sanderj_	If you want to setup a static address I think you need to setup the values in /etc/resolv.conf manualy.
+2010-08-27T16:37:00.000Z	sanderj_	sacarlson	Got it working now.. Just had to make sure I put the lines in both resolv.conf and interfaces

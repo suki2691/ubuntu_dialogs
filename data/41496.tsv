@@ -1,0 +1,4 @@
+2011-02-11T05:48:00.000Z	bwallen		For some reason on my computer there is no longer a sudo or apt-get command, among others. I haven't rebooted it or done any configuring for a while. Any clues as to what could have happened?
+2011-02-11T05:50:00.000Z	bwallen		KBlJWQ: This isn't good - "bash: dpkg: command not found"
+2011-02-11T05:51:00.000Z	Jordan_U	bwallen	What is the output of "echo $PATH"?
+2011-02-11T05:51:00.000Z	bwallen	Jordan_U	/sbin:/bin:/usr/sbin:/usr/bin

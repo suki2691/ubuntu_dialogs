@@ -1,0 +1,4 @@
+2009-01-18T04:33:00.000Z	ivangarcia		hi everybody, I have a  Broadcom Corporation BCM4401-B0 100Base-TX , but ubuntu 8.10 cannot recognize, it says it uses the kernel module b44, but ifconfig is not showing any eth0, eth1 interface,
+2009-01-18T04:33:00.000Z	ivangarcia		it doesn't work sudo ifconfig eth0 up
+2009-01-18T04:33:00.000Z	ivangarcia		neither eth1
+2009-01-18T04:33:00.000Z	oskar-	ivangarcia	have you tried "ifconfig -a"? does the output of dmesg mention it?

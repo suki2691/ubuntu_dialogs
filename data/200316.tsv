@@ -1,0 +1,4 @@
+2006-01-21T10:37:00.000Z	bine		hello
+2006-01-21T10:38:00.000Z	bine		can anyone give me a hint why make tries to find the kernel sources in /lib/modules/<kernel version/build when trying to install ndiswrapper? this directory does not exist at all
+2006-01-21T10:39:00.000Z	trappist	bine	sudo apt-get install linux-headers-$(uname -r)
+2006-01-21T10:41:00.000Z	bine	trappist	thank your from me too. :D

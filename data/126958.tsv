@@ -1,0 +1,4 @@
+2007-07-25T08:59:00.000Z	Cooleo		I just installed Ndiswrapper and tried modprobe ndiswrapper and it threw this at me "FATAL: Could not open '/lib/modules/2.6.20-15-generic/kernel/ubuntu/misc/ndiswrapper/ndiswrapper.ko': No such file or directory"
+2007-07-25T08:59:00.000Z	Cooleo		Help?
+2007-07-25T08:59:00.000Z	Shaftooooo	Cooleo	Sounds like you updated you kernel after installing, Id just try removing then reinstalling it?
+2007-07-25T09:02:00.000Z	Shaftooooo	Cooleo	You can download the deb for it from somewhere, USB it into that laptop then sudo dpkg -i it?

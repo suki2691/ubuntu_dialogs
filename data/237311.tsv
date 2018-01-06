@@ -1,0 +1,4 @@
+2006-12-08T16:45:00.000Z	j1p		Is there a command I can use to figure out what my video card is? I know its integrated but I'm not sure what exactly it is
+2006-12-08T16:46:00.000Z	agent	j1p	lspci
+2006-12-08T16:46:00.000Z	agent	j1p	lspci -v or even lspci -vv for a but load of info
+2006-12-08T16:46:00.000Z	agent	j1p	also, try lshw

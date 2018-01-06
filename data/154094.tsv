@@ -1,0 +1,4 @@
+2008-08-21T04:58:00.000Z	kkerwin		2.4????!?!1
+2008-08-21T04:59:00.000Z	kkerwin		Hi. I have a Windows partition at /dev/hda1, a swap partition at /dev/hda2, and my root partition at /dev/hda3. I want to reformat my root partition and split it into a root and /home partition, which would be located at /dev/hda4. The data on /dev/hda3 will of course be destroyed, but can I edit the partition table without destroying the data on /dev/hda1, even though I don't touch that physical section of the disk?
+2008-08-21T05:00:00.000Z	wols	kkerwin	of course
+2008-08-21T05:00:00.000Z	kkerwin	wols	I'm sorry, would that destroy the data on /dev/hda1 will not be destroyed?

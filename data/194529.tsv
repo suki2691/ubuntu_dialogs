@@ -1,0 +1,4 @@
+2006-03-24T09:25:00.000Z	fiveiron		any time I try to run apt-get upgrade... 99% of the updates available fail with errors like "md5sum mismatch, Error reading from server, Bad header line, etc"   does anyone know what i could do to fix this?
+2006-03-24T09:25:00.000Z	fiveiron		this is on a BRAND NEW install of 5.10
+2006-03-24T09:26:00.000Z	Biguns	fiveiron	make sure your sources are uptodate and correct
+2006-03-24T09:27:00.000Z	fiveiron	Biguns	I can manually download the packages I need from all of my source repositories.  apt-get however returns all these errors

@@ -1,0 +1,4 @@
+2008-12-26T07:51:00.000Z	dublpaws		I've got a gripe with apt pkg manager, often times `apt-get install somepackage`, and _nowhere_ is it indicated in the install scroll what the actual cmdline name for invoking somepackage.  Is there a flag available to force apt-get emit the command name?
+2008-12-26T07:52:00.000Z	hansel	dublpaws	you can apt-cache search SOME-COMPONENT and it will tell you the full package name... not sure if that's what you mean.
+2008-12-26T07:55:00.000Z	dublpaws	hansel	a package might be named "foo" and the program has path /usr/bin/bar    nowhere does the installed say "To run program foo you must type $bar"
+2008-12-26T07:58:00.000Z	hansel	dublpaws	- dpkg -L program       it will show you the path to /bin and the prog name

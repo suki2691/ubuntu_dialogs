@@ -1,0 +1,4 @@
+2010-08-04T12:00:00.000Z	endusr		hi guys, i was looking at htop and discovererd that root was running svn update by itself, nothing i started etc. could i be hacked? what are my options? how can i verify?
+2010-08-04T12:00:00.000Z	littlepenguin	endusr	have you checked cron jobs?
+2010-08-04T12:01:00.000Z	endusr	littlepenguin	yeah, saw anacron, munin and munin-node, a few stuff nothing that spawned svn
+2010-08-04T12:03:00.000Z	littlepenguin	endusr	have you started it manually maybe and it runs along..nmaybe you try stopping svn and then reboot

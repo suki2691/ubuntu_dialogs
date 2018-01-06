@@ -1,0 +1,4 @@
+2009-03-22T19:43:00.000Z	hhp2k		Hey everyone, happy Sunday :) I'm currently working on a PC that needs a windows XP reformat, but due to its condition, the whole drive must be formatted first.  When running GParted, I cannot touch this disk because it is the boot disk, and has the lock icon on it.  How can I format this disk right now?
+2009-03-22T19:44:00.000Z	alanbshepard70	hhp2k	I think a liveCD would be the way to go
+2009-03-22T19:45:00.000Z	hhp2k	alanbshepard70	mister_roboto: I'm on the Live CD right now.
+2009-03-22T19:45:00.000Z	alanbshepard70	hhp2k	should be sudo umount /media/disk1

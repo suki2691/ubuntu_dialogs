@@ -1,0 +1,4 @@
+2009-12-31T23:48:00.000Z	Scunizi	Padraig	FF configs aren't removed on reinstall.. in your home directory there is .mozilla-something .. rename it .mozilla.something.backup and restart FF.. might jsut be a plugin issue
+2009-12-31T23:52:00.000Z	Padraig	Scunizi	I found .mozilla but what now?
+2009-12-31T23:53:00.000Z	Scunizi	Padraig	mv .mozilla .mozilla.backup
+2009-12-31T23:56:00.000Z	Scunizi	Padraig	probably just a plugin.. if you look in /home for .mozilla you'll see that it's there again as well at the .mozilla.backup .. you can now "rm .mozilla.backup" to get rid of it

@@ -1,0 +1,4 @@
+2006-05-01T11:00:00.000Z	PORDO		i'm logged into a machine where i'm trying to change my password with passwd, and it keeps complaining that my password is a reverse dictionary word, or too short, or whatever.  isn't there some way to override this BS?!
+2006-05-01T11:00:00.000Z	sethk	PORDO	sudo passwd username
+2006-05-01T11:01:00.000Z	sethk	PORDO	e.g.  sudo passwd pordo  (if your user name happens to be pordo)
+2006-05-01T11:01:00.000Z	sethk	PORDO	root can override the rules

@@ -1,0 +1,4 @@
+2007-03-04T09:17:00.000Z	julio		I recently installed Ubuntu and so far it's working great. But, I was wondering if there was any way I could get Windows to load by default when GRUB comes up. (Several people use my computer and they use Windows)
+2007-03-04T09:17:00.000Z	marx2k	julio	look in /boot/grub/menu.list and there's a setting for default
+2007-03-04T09:20:00.000Z	julio	marx2k	I'm a newbie so I don't know how to change the default setting
+2007-03-04T09:21:00.000Z	marx2k	julio	its a  text file, just type (in console) 'gksudo gedit /boot/grub/menu.list' and read through the file.. it's self explanatory

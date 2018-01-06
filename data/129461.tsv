@@ -1,0 +1,4 @@
+2007-07-01T08:12:00.000Z	TwoByFour		Hello, ... I am having problems changing the charset / locales on my 7.04 feisty, > $ sudo dpkg-reconfigure localeconf < does not work, neither does > $ sudo locale-gen es_VE en_US < ....is there another way to change the charset ?
+2007-07-01T08:13:00.000Z	Jordan_U	TwoByFour	Change it in xorg.conf ?
+2007-07-01T08:17:00.000Z	TwoByFour	Jordan_U	hmm....Xorg.conf ....that's for X only, isn't it ?  I don't even have X installed.
+2007-07-01T08:18:00.000Z	Jordan_U	TwoByFour	Yes it is, I didn't realize that you weren't using X

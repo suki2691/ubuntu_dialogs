@@ -1,0 +1,4 @@
+2010-10-16T18:02:00.000Z	aaron11		The character device /dev/vboxdrv does not exist. Please install the virtualbox-ose-source package and the appropriate headers, most likely  linux-headers-2.6.34. I keep getting this error when executing "virtualbox" Please tell me how to solve it. I want to run Vista on it.
+2010-10-16T18:03:00.000Z	aaron11		Can someone atleast point out whs wrong?at
+2010-10-16T18:04:00.000Z	SaRy	aaron11	!see bug 153989
+2010-10-16T18:08:00.000Z	SaRy	aaron11	try doing /etc/init.d/vboxdrv restart, then running virtualbox.

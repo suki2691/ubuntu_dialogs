@@ -1,0 +1,4 @@
+2010-08-18T04:53:00.000Z	carandraug		I'm trying to create an ext4 filesystem in a device with a GPT partition table. I also want to change the reserved space for super user. I tried to use cfdisk and fdisk but they don't support GPT parition tables. I installed GNU parted but I can't specify the start and end correctly
+2010-08-18T04:54:00.000Z	hiku	carandraug	you need to use parted /dev/sdXXXX
+2010-08-18T04:55:00.000Z	carandraug	hiku	yes. I did it. And I ttried to then use mkpart primary ext4 4big 0 100 (before that I used unit % to specify unit in percentage). However, that created me a partition but still left 120Gb out as free space
+2010-08-18T04:59:00.000Z	carandraug	hiku	I don't know how to adjust the reserved space with parted but is the only that I see that creates partitions only when using GUID partition tables. I plan to then make the filesystem with mkfs

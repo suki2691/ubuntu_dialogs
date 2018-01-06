@@ -1,0 +1,4 @@
+2009-06-18T21:19:00.000Z	Joeseph	Bennit	  Try either doing "sudo modprobe ndiswrapper' or take out the device (if it is USB) and try 'sudo modprobe -r ndiswrapper; sudo modprobe ndiswrapper'  That's my advice.
+2009-06-18T21:21:00.000Z	Bennit	Joeseph	that command keeps telling me "All cfg files need .conf: /etc/modprobe.d/ndiswrapper, it will be ignored in a future release", ignore that warning?
+2009-06-18T21:21:00.000Z	Joeseph	Bennit	Thats what I have been doing; does the same to me.    Do either of those help though? That's all I can think of.
+2009-06-18T21:23:00.000Z	Joeseph	Bennit	I had a similair problem, except mine just wouldn't stay connected to the net for longer than 5 seconds..  My problem was that I need the latest drivers. (and I needed to modprobe it).      Good luck though.

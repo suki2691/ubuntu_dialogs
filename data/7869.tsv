@@ -1,0 +1,4 @@
+2011-11-16T09:42:00.000Z	escott	JGAN	that looks correct, but you could make the script log when it runs to verify for yourself
+2011-11-16T09:42:00.000Z	JGAN	escott	how do i do that?
+2011-11-16T09:44:00.000Z	escott	JGAN	at the beginning of the script you could do echo "started `date`" >> logfile.txt
+2011-11-16T09:45:00.000Z	escott	JGAN	that would log when it gets started, you may also want to log when it stops

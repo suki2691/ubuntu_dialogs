@@ -1,0 +1,4 @@
+2008-11-17T13:28:00.000Z	awk		hi, hmm, seems everytime I edit my connection an changed auto eth0 to manual and set an ip, I can confirm with ok, I do a ifconfig or ip addr ls and I still get my dhcp assinged ip, if I check /etc/network/interfaces it isn't writing this change. is there a bug with intrpid and changing your NIC settings?
+2008-11-17T13:30:00.000Z	fosco_	awk	network manager doesn't use /etc/network/interfaces any more
+2008-11-17T13:30:00.000Z	awk	fosco_	oh? can u please tell me th e path, because it isn't changing my ip to my manually assinged ip
+2008-11-17T13:31:00.000Z	awk	fosco_	and worse, when I reboot it even changed it back in network manager to auto assinged.. something very strange

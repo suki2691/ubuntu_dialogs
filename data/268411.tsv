@@ -1,0 +1,4 @@
+2006-06-08T14:43:00.000Z	BSDinux		i dist-upgraded from breezy to dapper yesterday, now startx fails... i removed glcore from xorg.conf, as i suspected a nvidia-driver issue, but i still get an error. typing X on the console starts X11, but not the gdm. i am not at the box right now, but do you have any hints or ideas?
+2006-06-08T14:45:00.000Z	BSDinux		i'll try vesa then... i used nv instead of nvidia, but that didn't help
+2006-06-08T14:45:00.000Z	BSDinux		aye aye
+2006-06-08T14:45:00.000Z	cef	BSDinux	if you're using custom res stuff, you may find it's been trashed or that the driver has changed it's detection routines and is overriding youer settings

@@ -1,0 +1,4 @@
+2007-03-02T16:43:00.000Z	Innatech		Wardy: there are permissions  and configurations within Samba that must be set correctly before the Linux file system permissions come into play.
+2007-03-02T16:44:00.000Z	Innatech		riall: Well, it's probably worth a shot. You can always remove the package and try building from source as described in the thread you linked.
+2007-03-02T16:45:00.000Z	Innatech		Wardy: I'm not a big samba person, but my understanding is that the samba user must be mapped to a local user that has the correct permissions, and then the share itself needs to be made writable.
+2007-03-02T16:46:00.000Z	globe	Innatech	you are correct...

@@ -1,0 +1,4 @@
+2007-02-28T12:01:00.000Z	docgnome		does anyone have any idea why when I change resolv.conf and then reboot resolv.conf is restored to the original?
+2007-02-28T12:01:00.000Z	docgnome		I'm running it in VMWare Fusion, but I don't think that should make a difference...
+2007-02-28T12:02:00.000Z	`sam`	docgnome	probably dhcp client is getting the dns information from the server and writing the file
+2007-02-28T12:03:00.000Z	docgnome	`sam`	what is very strange though is kubuntu is getting an ip address that is outside the range of my dhcp server

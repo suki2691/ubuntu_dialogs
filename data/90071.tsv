@@ -1,0 +1,4 @@
+2012-05-03T21:47:00.000Z	yitz_		I got an Ubuntu server that's spamming the logs with messages about USB devices ... and I don't see any USB device plugged in. "new low speed USB device using uhci_hcd and address 82" "usb 2-1: device descriptor read/64, error -71" "usb 2-1:350
+2012-05-03T21:47:00.000Z	yitz_		... device not accepting address 62, error -71". Either there's a hidden USB device or a damaged usb controller (we had some water issues) or .. something. Any ideas? Any way to disable USB? I might just modprobe -r the usb stuff
+2012-05-03T21:48:00.000Z	wylde	yitz_	if you don't need usb, see if you can disable usb entirely in your bios.
+2012-05-03T21:48:00.000Z	yitz_	wylde	Oooh. Good idea. Will see if the BIOS offers that

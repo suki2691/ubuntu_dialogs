@@ -1,0 +1,4 @@
+2010-09-19T14:37:00.000Z	eWill		OK I installed gstreamer, and ffmpeg -- sound recorder still doen't have a "mp3" option.  Can anyone recomend a replacement for "Sound Recorder"  (preferably small) that will record directly to mp3?
+2010-09-19T14:39:00.000Z	eWill		trying....
+2010-09-19T14:39:00.000Z	icarus-c	eWill	i would rather just convert whatever format made by GNOME sound recorder to mp3 in that case
+2010-09-19T14:39:00.000Z	icarus-c	eWill	 e.g.  ffmpeg -i  input.wav   -ab 128k output.mp3   # -ab specify bit rate

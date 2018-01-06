@@ -1,0 +1,4 @@
+2004-11-11T16:50:00.000Z	sander		Nobody?  - Is there a simple way to install all header files (-dev packages) of currently installed packages?
+2004-11-11T16:51:00.000Z	Aard	sander	what about getting all those names from apt-cache search and piping it to apt-get install?
+2004-11-11T16:51:00.000Z	sander	Aard	that might be a good one!
+2004-11-11T16:53:00.000Z	Aard	sander	you can find out what's installed with apt-cache and/or apt-show-versions ;)

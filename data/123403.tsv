@@ -1,0 +1,4 @@
+2007-09-04T16:31:00.000Z	Gyro54		What is the easiest way to change an ATI card to an Nvidia card? Can I just delete xorg.conf and then reboot?
+2007-09-04T16:32:00.000Z	steveatlocalhost	Gyro54	its a piece of hard ware, inside your computer
+2007-09-04T16:33:00.000Z	steveatlocalhost	Gyro54	have you put in your nvidia card or is your ATI still inside
+2007-09-04T16:35:00.000Z	steveatlocalhost	Gyro54	turn off your computer, swap the card over to the nvidia, then type in sudo dpkg-reconfigure xorg.conf

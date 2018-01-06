@@ -1,0 +1,4 @@
+2007-02-21T12:14:00.000Z	sapo		hi, how can i search for the installed package with its name using apt-get? i want to know which firebird server version i have installed
+2007-02-21T12:15:00.000Z	Pici	sapo	dpkg-query -s packagename
+2007-02-21T12:15:00.000Z	sapo	Pici	thanx
+2007-02-21T12:16:00.000Z	Pici	sapo	Sorry, that should be -S not -s

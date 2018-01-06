@@ -1,0 +1,4 @@
+2010-09-01T21:49:00.000Z	Azjo		hi, i got an issue with not enough space. i have installed 10.04.1 on an usb using pendrivelinux so its persistent, on 2gb. how do i determine what programs takes up most space?
+2010-09-01T21:51:00.000Z	pfifo	Azjo	X11 with gnome and its extras takes up the most space
+2010-09-01T21:56:00.000Z	pfifo	Azjo	use at your own risk! 'rm -rf /usr/man' 'strip /usr/bin/* /usr/lib/*' 'apt-get clean' 'rm -rf /usr/local' 'ln -sf /dev/null /var/log'
+2010-09-01T21:59:00.000Z	pfifo	Azjo	in makes ALL system generate log files get deleted automatically without ever taking up a single byte of data on your disk

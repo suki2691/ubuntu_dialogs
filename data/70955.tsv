@@ -1,0 +1,4 @@
+2009-01-05T22:03:00.000Z	jcfp	jim_p	wired network cards usually just work, and these realtek onces are very common too.
+2009-01-05T22:03:00.000Z	jim_p	jcfp	is there a chipset-to-correct-module chart?
+2009-01-05T22:07:00.000Z	jcfp	jim_p	get the id from lspci -n, then google. 'modinfo' command is useful too, module for your card is probably "8139too"
+2009-01-05T22:07:00.000Z	jim_p	jcfp	thanks

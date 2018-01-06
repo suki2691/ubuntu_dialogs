@@ -1,0 +1,4 @@
+2008-10-20T20:15:00.000Z	Spudz		Hello all, I just wasted a whole morning today trying to share my internet with my housemates using wireless.  Both other pcs (mac and xp notebook) can see the cnxn, and join.  but the ip's are 169.254.x.y, and they cant load webpages.  can anyone explain to me what's going on?  Do I need to do something fancy with the linuxbox?
+2008-10-20T20:15:00.000Z	jameswf-home	Spudz	do  you have a DHCP server
+2008-10-20T20:16:00.000Z	Spudz	jameswf-home	I don't know.  I just clicked on the network manager, and started a wireless network.  then joined it from the other boxes.
+2008-10-20T20:16:00.000Z	jameswf-home	Spudz	169.254.0.0 is an apipa range means your network is not right

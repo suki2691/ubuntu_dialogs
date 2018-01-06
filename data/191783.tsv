@@ -1,0 +1,4 @@
+2007-01-12T12:38:00.000Z	wizo		hey, when i try to ``make`` something, it says Makefile.inc:69: *** /lib/modules/2.6.15-27-386/build is missing, please set KERNELPATH.  Stop. why does this happen?
+2007-01-12T12:39:00.000Z	wizo		how do i set KERNELPATH?
+2007-01-12T12:39:00.000Z	roryy	wizo	you need to install the kernel header package
+2007-01-12T12:39:00.000Z	roryy	wizo	something like linux-headers-386 (that's what I have on ubuntu 6.10)

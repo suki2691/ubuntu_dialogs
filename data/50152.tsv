@@ -1,0 +1,4 @@
+2011-03-14T23:17:00.000Z	unlock		hey guys
+2011-03-14T23:18:00.000Z	unlock		how can i send a ping-cmd with all network devices
+2011-03-14T23:18:00.000Z	stianhj	unlock	for i in `seq 1 255`; do ping -c 1 192.168.1.$i; done
+2011-03-14T23:19:00.000Z	unlock	stianhj	thx :)

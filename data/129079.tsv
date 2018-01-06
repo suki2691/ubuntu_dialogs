@@ -1,0 +1,4 @@
+2007-07-04T15:18:00.000Z	robmaa		opened a file with "vi .." and changed something, but :wq says since its readonly, i have to add ! to override, but where do i have to add !?
+2007-07-04T15:19:00.000Z	JimQode	robmaa	It's probably a file only root user can write. use sudo vi to open it.
+2007-07-04T15:20:00.000Z	robmaa	JimQode	jeah, it says cant open file for writing...how do i close it? :exit doesnt work, it tells the same with ! to override...
+2007-07-04T15:20:00.000Z	JimQode	robmaa	:q!

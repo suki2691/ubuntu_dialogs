@@ -1,0 +1,4 @@
+2006-08-21T13:15:00.000Z	shaantanu		hey ppl ... I  getting an error called no FSINFO sector found not automatically creating it while boot up. This happens when the system is checking all filesystems. Although my system starts normally after that, but still its irritating. I am having all my partitions in FAT32 or NTFS (except the linux part ofcourse). Somebody help me
+2006-08-21T13:16:00.000Z	sethk	shaantanu	try running fsck on each of your partitions.  use shutdown -F to force an fsck on boot of the root partition.
+2006-08-21T13:16:00.000Z	sethk	shaantanu	in windows do the check/repair programs for ntfs and vfat partitions
+2006-08-21T13:22:00.000Z	shaantanu	sethk	: how to check repair ... my FAT and NTFS drives in windows

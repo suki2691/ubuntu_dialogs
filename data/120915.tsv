@@ -1,0 +1,4 @@
+2009-08-16T21:40:00.000Z	Kurlon		What script forces modprobe to try and load fan.ko and thermal.ko at boot?  I'm on a Soekris 4801 and don't need them, so I'd like to disable trying to load them if possible.
+2009-08-16T21:40:00.000Z	llutz	Kurlon	 /etc/modules
+2009-08-16T21:40:00.000Z	Kurlon	llutz	I only have loop and lp listed in there?
+2009-08-16T21:40:00.000Z	llutz	Kurlon	 sry /etc/modprobe.d/blacklist

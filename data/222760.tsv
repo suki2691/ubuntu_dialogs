@@ -1,0 +1,4 @@
+2006-10-06T14:57:00.000Z	Normal		Hey guys, I just(finally!) got Ubuntu installed(after having to use Breezy, then update, then...all sorts of workarounds)... I have a kernel that locks up(it has a 15 at the end), but I had one with 12 at the end as an option in GRUB..How do I remove the 15 one?
+2006-10-06T14:58:00.000Z	mneptok	Normal	what kind of processor do you have?
+2006-10-06T14:58:00.000Z	mneptok	Normal	you using i386 or AMD64?
+2006-10-06T15:00:00.000Z	mneptok	Normal	you'll want to use Synaptic to install the latest K7 kernel image, and then use Synaptic to remove the other kernels and their modules.

@@ -1,0 +1,4 @@
+2010-04-16T14:55:00.000Z	beij		well there is a hibernate.sh in /etc/acpi
+2010-04-16T14:55:00.000Z	beij		you could edit a line "modprobe -r nvidia"
+2010-04-16T14:57:00.000Z	beij		i know there was something like that
+2010-04-16T14:58:00.000Z	llutz	beij	if you rmmod the nvidia-driver at hibernation, you always will resume into gdm. that makes no sense, you better just boot then

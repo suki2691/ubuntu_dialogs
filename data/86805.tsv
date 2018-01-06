@@ -1,0 +1,4 @@
+2011-08-09T20:28:00.000Z	Seven_Six_Two	tbearden	are you mounting from another pc with nfs?
+2011-08-09T20:30:00.000Z	tbearden	Seven_Six_Two	 this is an ubuntu 11 setup, not NFS, it's using ext4
+2011-08-09T20:32:00.000Z	Seven_Six_Two	tbearden	I use 11.04 on my laptop, and ext4 as well, but when I mount a share from my desktop and shut down, it seems my wireless disconnects before my nfs shares can unmount, and it messes up shutdown or reboot
+2011-08-09T20:36:00.000Z	tbearden	Seven_Six_Two	 in this case, yesterday, when I noticed the issue, i had mounted a folder via SSHFS, but today I totally reloaded the OS, haven't loaded the SSHFS folder, and am still having the issue.  it only happens when i reboot, not when i shutdown

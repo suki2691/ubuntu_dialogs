@@ -1,0 +1,4 @@
+2009-11-15T21:34:00.000Z	Bonz		how do you restart pulseaudio after an upgrade killed it
+2009-11-15T21:35:00.000Z	dotblank	Bonz	/ets/init.d/pulseaudio run it as non-root
+2009-11-15T21:35:00.000Z	Bonz	dotblank	been there tried that as both root and user with no joy
+2009-11-15T21:36:00.000Z	dotblank	Bonz	ok try starting "pulseaudio" in the terminal and that should tell you why its failing

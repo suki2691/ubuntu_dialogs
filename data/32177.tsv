@@ -1,0 +1,4 @@
+2011-06-23T04:56:00.000Z	ninjah		There seems to be a problem with my firewall and ftp. I have my own ftp server. If I kill the firewall it works. If I leave 20 and 21 open it doesn't. Any ideas?
+2011-06-23T04:57:00.000Z	ZykoticK9_	ninjah	FTP is a firewall nightmare - there are other dynamically assigned ports involved with FTP servers...  good luck.
+2011-06-23T04:57:00.000Z	ninjah	ZykoticK9_	 Thanks
+2011-06-23T04:57:00.000Z	ZykoticK9_	ninjah	usually you can set the port range for the other ports used

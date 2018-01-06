@@ -1,0 +1,4 @@
+2008-03-06T11:11:00.000Z	josh13		I have a parent directory containing files & directory & .svn directory for each sub directories. I want to tar the parent directory without all the .svn directories, how would I do that ?
+2008-03-06T11:12:00.000Z	erstazi	josh13	svn export url
+2008-03-06T11:12:00.000Z	erstazi	josh13	or svn export /path/to/svn/directory/
+2008-03-06T11:14:00.000Z	josh13	erstazi	ok, then i would have to commit first, then export the path ... the destination would contain only the tree folders/files without .svn, rite?

@@ -1,0 +1,4 @@
+2011-07-25T21:29:00.000Z	WhyHelloThere		hi guys, how do I use apt-get to just check if a package exists (and the version) instead of automatically installing it?
+2011-07-25T21:31:00.000Z	trism	WhyHelloThere	apt-cache policy package_name
+2011-07-25T21:31:00.000Z	WhyHelloThere	trism	says "W: Unable to locate package ___"
+2011-07-25T21:33:00.000Z	trism	WhyHelloThere	then the package probably isn't there, try: apt-cache search package_prefix; to try and find it

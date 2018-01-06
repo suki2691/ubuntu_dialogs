@@ -1,0 +1,4 @@
+2008-05-31T07:18:00.000Z	Mr_Bad_News		when i try to put my card into monitor mode i get   Error for wireless request "Set Mode" (8B06) : SET failed on device ath0 ; Invalid argument.
+2008-05-31T07:19:00.000Z	Mr_Bad_News		does that mean i cant use aireplay for injections?
+2008-05-31T07:20:00.000Z	Steve-Cal	Mr_Bad_News	Are you using ndiswrapper for your wireless?
+2008-05-31T07:21:00.000Z	Steve-Cal	Mr_Bad_News	Just checking, because ndiswrapper does not support RF monitor mode. I think your madwifi does though.

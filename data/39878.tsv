@@ -1,0 +1,4 @@
+2010-08-26T12:03:00.000Z	TheMusicGuy		I'm trying to reset Evolution to its factory defaults, including deleting all email accounts, but no matter what folders I delete I can't seem to reset it to its initial state.
+2010-08-26T12:03:00.000Z	TheMusicGuy		I tried this command: for f in `find ~ -name *evolution`; do rm -r -v "$f"; done
+2010-08-26T12:05:00.000Z	jellow	TheMusicGuy	run dpkg -L evolution look for config files , also look in home for .evolution
+2010-08-26T12:10:00.000Z	TheMusicGuy	jellow	I ended up apt-get purge-ing evolution from my system, then reinstalling it. That seems like it did the trick.

@@ -1,0 +1,4 @@
+2012-08-13T19:46:00.000Z	ero-jiji		have an issue with free space, my i have a 3.1tb partition mounted as /home. i copied 1.1tb to a single folder, and now its saying im using 100% of the 3,1tb
+2012-08-13T19:47:00.000Z	ero-jiji		i have, one sec ill screenshot it
+2012-08-13T19:47:00.000Z	grdnwsl	ero-jiji	Are you out of inodes?
+2012-08-13T19:48:00.000Z	grdnwsl	ero-jiji	you can use df -i to find inode usage for your drive

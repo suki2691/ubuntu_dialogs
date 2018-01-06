@@ -1,0 +1,4 @@
+2009-08-15T08:15:00.000Z	bjangles		how do you change the mac address on the nic?
+2009-08-15T08:16:00.000Z	bjangles		so that the change sticks even on reboots?
+2009-08-15T08:16:00.000Z	Dr_Willis	bjangles	 you would have to do some command in rc.local perhaps.. or some other network config.. ive never really seen anyone needed to do that.
+2009-08-15T08:56:00.000Z	Dr_Willis	bjangles	 its just an ifconfig command..   toss the command in rc.local perhaps.

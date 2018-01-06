@@ -1,0 +1,4 @@
+2008-04-30T09:40:00.000Z	sven_oostenbrink		 I need to automate a task where I daily copy some 500 files from some 50 different directories to a remote FTP server.. Im looking at the ftp command but I don't see how I can automate that (like specifying the user name, password, etc).. How could I automate this task?
+2008-04-30T09:41:00.000Z	genii	sven_oostenbrink	the ftp command does not have any syntax to automate entering of passwords and commands
+2008-04-30T09:42:00.000Z	genii	sven_oostenbrink	Perhaps you may want to look at rsync instead
+2008-04-30T09:44:00.000Z	genii	sven_oostenbrink	You may find some bash scripts to modify for that purpose here http://www.reallylinux.com/docs/autoftp.shtml

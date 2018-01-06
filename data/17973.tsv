@@ -1,0 +1,4 @@
+2011-02-22T02:43:00.000Z	sacarlson	dissipate	I think shred can do more than just files as seen here http://kevin.vanzonneveld.net/techblog/article/delete_files_securely_with_shred/  shred -zn10 /dev/sda  would shred a disk and shred -zn10 /dev/sda1 I guess should shred a partition
+2011-02-22T02:46:00.000Z	dissipate	sacarlson	i just tried the 'secure-delete' 'sfill' command.
+2011-02-22T02:48:00.000Z	sacarlson	dissipate	did it work?  I did man and it's not installed on my system
+2011-02-22T02:54:00.000Z	sacarlson	dissipate	but I see what sfill does now,  so your partition wasn't empty before you wanted to wipe it I guess.  this only wipes unused spaces bettween files that exist in a directory

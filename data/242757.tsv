@@ -1,0 +1,4 @@
+2008-04-25T05:54:00.000Z	compengi		Hello LjL-Temp
+2008-04-25T05:56:00.000Z	compengi		i'm facing a problem with my vga after installing hardy. it's Nvidia FX5500. i installed the restricted drivers and after reboot the resolution went to 640x480. could anyone help me out?
+2008-04-25T05:58:00.000Z	sammy	compengi	try doing a 'dpkg-reconfigure' on the xorg server package. let X redetect your devices with possibly new drivers and re-write the xorg.conf file
+2008-04-25T06:00:00.000Z	sammy	compengi	otherwise there's a halfway decent wiki page about resolution issues, https://wiki.ubuntu.com/FixVideoResolutionHowto

@@ -1,0 +1,4 @@
+2008-06-27T15:30:00.000Z	Kaell		is there no standard place to place scripts you want to run when dhclient gets a new IP?
+2008-06-27T15:31:00.000Z	MrKennie	Kaell	/etc/network/if-up.d/
+2008-06-27T15:38:00.000Z	MrKennie	Kaell	I believe when the interface is up and assigned an ip address
+2008-06-27T15:41:00.000Z	MrKennie	Kaell	personally I would use if-up.d but I don't think it makes any difference.

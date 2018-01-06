@@ -1,0 +1,4 @@
+2009-07-31T22:58:00.000Z	balaji		Hello, I have so many versions of Linux kernels installed in my machine, so while booting the boot program gives ea huge list
+2009-07-31T22:58:00.000Z	balaji		i am comfortable with the latest, how can I remove the rest from the list
+2009-07-31T22:59:00.000Z	balaji		will there be any issue, if I remove them, i just want to hold the last updated kernal
+2009-07-31T23:00:00.000Z	mbrigdan	balaji	If you want to remove them from grub (the bootloader) goto /boot/grub/menu.lst   and comment out the older versions

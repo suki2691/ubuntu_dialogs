@@ -1,0 +1,4 @@
+2008-08-08T05:09:00.000Z	freeflowcauvery		hello. quick q: how would i dump my syslog to a textfile for future read through? I tried sudo cat syslog > syslog.txt but give me the following error message "bash: syslog.txt: Permission denied
+2008-08-08T05:09:00.000Z	freeflowcauvery		".
+2008-08-08T05:09:00.000Z	mmap__	freeflowcauvery	because > causes the shell to try to create the file before sudu(1) is run
+2008-08-08T05:10:00.000Z	mmap__	freeflowcauvery	do: sudo bash, then cp the file somewhere

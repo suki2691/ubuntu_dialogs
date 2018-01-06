@@ -1,0 +1,4 @@
+2011-07-02T07:38:00.000Z	rakathan		has anyone messed around with OpenCL and an ATI card on natty?
+2011-07-02T07:39:00.000Z	escott	rakathan	don't think you can. the opencl libraries depend on the nvidia glx driver iirc
+2011-07-02T07:42:00.000Z	escott	rakathan	try http://blog.onlyhype.com/2010/09/06/upgrading-the-ati-drivers-and-configuring-opencl-in-ubuntu/
+2011-07-02T07:44:00.000Z	rakathan	escott	that looks promising...from what I can tell, it looks like ATI has two things going on: their "stream" sdk and a future OpenCL sdk not available yet

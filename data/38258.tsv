@@ -1,0 +1,4 @@
+2010-01-27T11:19:00.000Z	drunkenangel		I am currently having issues with directory permission, I am using apache and added a directory to the /var/www folder. ubuntu is saying I can't acess these files because of permission error,
+2010-01-27T11:20:00.000Z	papshmear	drunkenangel	well.. did you set the permission/ownership correctly?
+2010-01-27T11:23:00.000Z	papshmear	drunkenangel	as root, chown -R www-data:www-data /var/www/whatever
+2010-01-27T11:23:00.000Z	papshmear	drunkenangel	then chmod -R 755 /var/www/whatever

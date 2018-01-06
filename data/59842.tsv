@@ -1,0 +1,4 @@
+2009-04-22T00:09:00.000Z	pCarsten		I've got a conflict where apt-get insists on applying an upgrade at the same time that I'm removing a package that conflicts with that upgrade. How do I make apt-get withhold the update until I'm done removing the old package?
+2009-04-22T00:10:00.000Z	cwillu	pCarsten	use dpkg directly, there are --force parameters to allow it proceed, and then apt-get/aptitude can do its thing after
+2009-04-22T00:18:00.000Z	pCarsten	cwillu	that was just what I needed. Thanks!
+2009-04-22T00:18:00.000Z	cwillu	pCarsten	np :)

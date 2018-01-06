@@ -1,0 +1,4 @@
+2009-06-20T06:45:00.000Z	Hilikus		i found some access tries on my root account: User root from 202.99.122.132 not allowed because not listed in AllowUsers
+2009-06-20T06:46:00.000Z	Hilikus		that allowUsers is in sshd right? sshd doesn't allow root logins by default
+2009-06-20T06:47:00.000Z	bucky	Hilikus	put sshd on a non standard port
+2009-06-20T06:48:00.000Z	Hilikus	bucky	there's no way from the port reply to know what daemon is listening?

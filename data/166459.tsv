@@ -1,0 +1,4 @@
+2007-12-28T15:16:00.000Z	frederick85		is there some way to automatically generate a new xorg.conf file from the default ubuntu settings
+2007-12-28T15:16:00.000Z	frederick85		I installed from minimal boot and didn't have the same one
+2007-12-28T15:17:00.000Z	wols_	frederick85	dpkg-reconfigure xserver-xorg -phigh
+2007-12-28T15:17:00.000Z	wols_	frederick85	there are /etc/X11/xorg.conf* files where * is datetime

@@ -1,0 +1,4 @@
+2012-05-11T02:20:00.000Z	ichbinder		hello. A question: I want to back up my whole home. The .wine folder is origianlly 11G huge. Now, when I did "$ cp -rL --preserve=all .* /mnt/backup" in my home, this folder grew up to over 220 GB. How could that happen and what did I do wrong?
+2012-05-11T02:21:00.000Z	BlueEagle	ichbinder	Just out of curiousity; how did you determine the size to 11GB to begin with?
+2012-05-11T02:21:00.000Z	BlueEagle	ichbinder	..and did you get the T-shirt to prove it? :)
+2012-05-11T02:22:00.000Z	ichbinder	BlueEagle	did that with "$ du --max-depth=0 -h"... I know that du is not the best way to do such things, but... I considered it okay. :-/

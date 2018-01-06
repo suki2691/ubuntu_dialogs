@@ -1,0 +1,4 @@
+2007-08-17T10:00:00.000Z	TheViLliN		i have a silly question i think. why after i compile a program then try to run the executable do i get a "bash: (file here): command not found"
+2007-08-17T10:01:00.000Z	nickrud	TheViLliN	try ./<command> (the current directory is not on the PATH)
+2007-08-17T10:03:00.000Z	nickrud	TheViLliN	exactly. There're good reasons for that
+2007-08-17T10:03:00.000Z	nickrud	TheViLliN	if you make a /home/<you>/bin, ubuntu will automatically find it

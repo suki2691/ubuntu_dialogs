@@ -1,0 +1,4 @@
+2008-02-21T19:22:00.000Z	compengi		i installed a new sata hard drive to my system, it is formated ntfs. eventually i couldn't mount it because an error appears "unable to mount the volum" in details it says that "$LogFile indicates unclear shutdown (0, 0) Failed to mount '/dev/sdb5': Operation not supported Mount is denied because NTFS in marked to be in use." any idea on to make the partition mount?
+2008-02-21T19:22:00.000Z	donald_	compengi	best run a fsck on the volume
+2008-02-21T19:23:00.000Z	donald_	compengi	but i dont use NTFS so doing fsck might blow the hard drive away
+2008-02-21T19:26:00.000Z	donald_	compengi	dgjones: there should be ways to check NTFS from within Ubuntu

@@ -1,0 +1,4 @@
+2005-08-30T09:36:00.000Z	nitin		guys i enabled the ldap module and apache spits this error when starting:
+2005-08-30T09:36:00.000Z	nitin		 Cannot load /usr/lib/apache2-prefork/mod_auth_ldap.so into server: /usr/lib/apache2-prefork/mod_auth_ldap.so: undefined symbol: util_ldap_connection_close
+2005-08-30T09:37:00.000Z	Velox	nitin	Never used mod_auth_ldap, but does it have any depends?
+2005-08-30T09:37:00.000Z	nitin	Velox	no clue

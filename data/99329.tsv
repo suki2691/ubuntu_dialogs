@@ -1,0 +1,4 @@
+2008-09-06T18:36:00.000Z	dVs--		i used ssh to connect to comp#2 and then tried to use it to connect to comp#3 (which now had the same ip as comp#2) and ssh spit out an error saying it dint trust the new computer and it wouldnt connect how do i fix that and avoid it in the future ?
+2008-09-06T18:38:00.000Z	dVs--		i used ssh to connect to comp#2 and then tried to use it to connect to comp#3 (which now had the same ip as comp#2) and ssh spit out an error saying it dint trust the new computer and it wouldnt connect how do i fix that and avoid it in the future ?
+2008-09-06T18:39:00.000Z	dVs--		and to avoid it in the future ?
+2008-09-06T18:40:00.000Z	hischild	dVs--	might sound bad but you can't really .... unless you disable the protection entirely, which can be done in /etc/sshd/sshd.conf iirc ...

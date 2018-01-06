@@ -1,0 +1,4 @@
+2010-01-07T10:38:00.000Z	Jef91		shaodwimmage try grub update
+2010-01-07T10:40:00.000Z	Losha	Jef91	actually, update-grub also works with grub1 in 8.04
+2010-01-07T10:40:00.000Z	Jef91	Losha	Good to know, I never dual booted before 9.10
+2010-02-24T06:29:00.000Z	Losha	Jef91	you could try something like: for i in *.deb; do gdebi $i; done

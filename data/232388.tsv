@@ -1,0 +1,4 @@
+2010-09-06T22:04:00.000Z	crucialhoax		Are there environment variables for a battery?
+2010-09-06T22:06:00.000Z	crucialhoax		I want to write a script that does cat /proc/acpi/battery/BAT0/state and runs at startup and every 30 min
+2010-09-06T22:08:00.000Z	erUSUL	crucialhoax	you will have to cat to a specific file
+2010-10-01T01:42:00.000Z	erUSUL	crucialhoax	strace command 2> somefile

@@ -1,0 +1,4 @@
+2007-11-20T04:10:00.000Z	randorfer		what wireless card do you have
+2007-11-20T04:11:00.000Z	pamela	randorfer	05:00.0 Network controller: Broadcom Corporation BCM94311MCG wlan mini-PCI (rev 01)
+2007-11-20T05:47:00.000Z	randorfer	pamela	 after you do modprobe ndiswrapper it should start by default (type dmesg | grep ndiswrapper to make sure)
+2007-11-20T05:48:00.000Z	pamela	randorfer	i modprobe-d it of course (for trying) but dont load at boot

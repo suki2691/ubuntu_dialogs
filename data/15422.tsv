@@ -1,0 +1,4 @@
+2012-07-24T05:02:00.000Z	escott	coreyo	what is in the ecryptfs home directory when it is not overlay mounted. there should be a directory with the configuration. perhaps something needs to be updated there
+2012-07-24T05:10:00.000Z	coreyo	escott	ahh, so the config file is in the unencrypted folder itself?
+2012-07-24T05:14:00.000Z	escott	coreyo	modern ecryptfs is supposed to be configured so that backup up $HOME and restoring it should work. so all configs should be in $HOME
+2012-07-24T05:14:00.000Z	coreyo	escott	/path/to/homedir/.ecryptfs/Private.mnt      just had to change the path to that and it worked.  Thank you very much for pointing me in the  right direction.

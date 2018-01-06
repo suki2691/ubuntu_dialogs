@@ -1,0 +1,4 @@
+2007-04-10T08:21:00.000Z	mzracer360		I have placed a .htaccess file in a web folder with "Order Deny,Allow         Deny from All" but the folder is still accessible from the internet.
+2007-04-10T08:22:00.000Z	kelsa|martalli	mzracer360	 I think that .thaccess file is for the benefit of spiders
+2007-04-10T08:23:00.000Z	mzracer360	kelsa|martalli	 how then do i not allow access to a web folder?  would .htpasswd work?
+2007-04-10T08:24:00.000Z	kelsa|martalli	mzracer360	 maybe you need to remove permissions from the directory - something like chmod a-rwx

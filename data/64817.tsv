@@ -1,0 +1,4 @@
+2010-04-12T03:16:00.000Z	token_bucket		i i have download a program.tar.gz, i have tar -xvzf  program.tar.gz cd file , ./configure,make, make install, everything ok , now i want to remove the program , wath i have to do?
+2010-04-12T03:17:00.000Z	token_bucket		only deleting the folder is ok?
+2010-04-12T03:17:00.000Z	ZykoticK9	token_bucket	you'll need to check the documentation of the program but returning to source directory "sudo make uninstall" *might* work
+2010-04-12T03:18:00.000Z	ZykoticK9	token_bucket	in future you should use checkinstall to install source programs - then there is a clean uninstall method

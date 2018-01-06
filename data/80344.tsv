@@ -1,0 +1,4 @@
+2009-01-31T02:39:00.000Z	yowshi		anyone know of a quick command to restart/unjam the sound drivers in linux
+2009-01-31T02:39:00.000Z	redvamp128	yowshi	 try this command sudo /etc/init.d/alsa-utils restart
+2009-01-31T02:40:00.000Z	redvamp128	yowshi	 that shoudl restart he sound if you are using alsa
+2009-01-31T02:41:00.000Z	yowshi	redvamp128	ok i urn alsa but there are several things on ubuntu that run on esd as you can find by using lsof |grep esd

@@ -1,0 +1,4 @@
+2011-02-16T21:54:00.000Z	bortreb		can anyone confirm that  "ps --width 500 --cols 500 -U <your-username-here> --no-headers -o comm:50" doesn't print anything wider than 15, contrary to the man page?
+2011-02-16T21:56:00.000Z	bortreb		so if I'm reading the man page right, that's a bug in ps, right?
+2011-02-16T21:57:00.000Z	bortreb		because it says in reference to comm that if it's at the end of the format string, it expands to the terminal width, moderated by width and coll, etc
+2011-02-16T21:59:00.000Z	Pumpkin-	bortreb	my very quick glance over the ps man page suggests it is a bug

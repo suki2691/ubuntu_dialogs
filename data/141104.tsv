@@ -1,0 +1,4 @@
+2009-05-21T04:51:00.000Z	cached		how would i use something like %H in a terminal? I want to do something like mv x x_%h where %H is the hour
+2009-05-21T04:52:00.000Z	raylu	cached	mv x x_`date %H`
+2009-05-21T04:52:00.000Z	raylu	cached	mv x x_`date +%H`
+2009-05-21T05:08:00.000Z	cached	raylu	Dr_Willis: Thanks! It worked.

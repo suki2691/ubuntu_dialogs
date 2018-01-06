@@ -1,0 +1,4 @@
+2011-02-25T01:37:00.000Z	maco		i think
+2011-02-25T01:38:00.000Z	raving	maco	I thought exec replaced the shell's process image
+2011-02-25T01:39:00.000Z	maco	raving	hrmmm not really sure how it works under the hood. i just remember if you have a shell script, it doesnt move on to the next command til the previous exits, so you have to exec to make it run stuff parallel
+2011-02-25T01:40:00.000Z	raving	maco	well I know in the C world it works like this (http://pubs.opengroup.org/onlinepubs/009695399/functions/environ.html)

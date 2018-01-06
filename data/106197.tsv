@@ -1,0 +1,4 @@
+2008-10-21T19:28:00.000Z	KaiForce		a while back, an update borked certain Sony Vaio laptops - anyone know what needs to be done to resolve that?  It bombs during boot with "ACPI: read timeout, command = 128"
+2008-10-21T19:30:00.000Z	Lynet	KaiForce	Try removing "quiet" from the kernel line (in grub)
+2008-10-21T19:30:00.000Z	KaiForce	Lynet	 roger wilco
+2008-10-21T19:31:00.000Z	Lynet	KaiForce	If I remember correctly, it is some sort of race condition (Linux tries to access something before it is quite ready). Removing the "quiet" slows te boot process down enough for it to work.

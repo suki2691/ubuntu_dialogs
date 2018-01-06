@@ -1,0 +1,4 @@
+2012-02-11T17:19:00.000Z	stefan_		Hello there! I
+2012-02-11T17:20:00.000Z	stefan_		I'm currently using a HDD with Ubuntu an Windows installed on it. Now I've bought a SSD and want to install Ubuntu on it and keep Windows on the HDD. How should I proceed? Just install Ubuntu on the SSD and it will detect Windows on the HDD and put it into the bootloader or is there anything I have to consider?
+2012-02-11T17:21:00.000Z	rumpe1	stefan_	usually it will be detected and added to the booloader menu
+2012-02-11T17:22:00.000Z	rumpe1	stefan_	also you should consider to activate the "discard" mount parameter for the partitions on the ssd, if you  use ext4 filesystem.

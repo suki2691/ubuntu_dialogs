@@ -1,0 +1,4 @@
+2010-06-30T18:52:00.000Z	ACameron		I seem to have goofed up during my update to 10.04.  If I run "$ dpkg -l "linux-image*" | grep ^ii", I can see newer kernels, but "$ uname -a" tells me I'm still running 2.6.31-14-generic.  How can I upgrade my kernel?
+2010-06-30T18:53:00.000Z	sunta	ACameron	did you sudo apt-get dist-upgrade?
+2010-06-30T18:53:00.000Z	ACameron	sunta	Yep.  It does nothing.
+2010-06-30T18:53:00.000Z	ACameron	sunta	And by that, I mean, it says that there's 0 upgraded, 0 newly installed, etc. etc.

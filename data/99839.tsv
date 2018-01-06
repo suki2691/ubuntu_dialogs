@@ -1,0 +1,4 @@
+2008-04-15T22:42:00.000Z	aeleon		how do i grep a process to see if it's running again?
+2008-04-15T22:43:00.000Z	icanhasadmin	aeleon	ps -e | grep "name"
+2008-04-15T22:43:00.000Z	icanhasadmin	aeleon	well, don't use the quotes lol
+2008-04-15T22:43:00.000Z	icanhasadmin	aeleon	-e is also rather simplified, you might want to use ax or aux or auxw for more info

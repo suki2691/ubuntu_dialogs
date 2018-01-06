@@ -1,0 +1,4 @@
+2008-04-28T23:02:00.000Z	typhox		Hello, I have a problem
+2008-04-28T23:02:00.000Z	typhox		How do I start the windowmanager from a tty?
+2008-04-28T23:02:00.000Z	Vlet	typhox	sudo /etc/init.d/gdm start
+2008-04-28T23:08:00.000Z	typhox	Vlet	that does not do what I expected. I activated Xinoramia (or similar) saved it to xorg.conf and restarted the X-Server. But now there is no windowmanager anymore and by entering metacity --replace or something like that I just get the error "Unable to run

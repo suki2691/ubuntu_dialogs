@@ -1,0 +1,4 @@
+2007-09-13T10:20:00.000Z	daedalus__		what is the command i can use to know the libraries and dependancies that i need to install a certain packet or program?
+2007-09-13T10:20:00.000Z	pedahzur	daedalus__	ldd
+2007-09-13T10:21:00.000Z	pedahzur	daedalus__	I'm sorry, I read your question wrong.
+2007-09-13T10:21:00.000Z	pedahzur	daedalus__	You can run apt-get install with the '-n' parameter and it will do a "dry run:" telling you what packages it would install, but not really installing.

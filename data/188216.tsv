@@ -1,0 +1,4 @@
+2007-11-02T13:14:00.000Z	phyburn		how would I go about getting to just a terminal and not a terminal in X
+2007-11-02T13:14:00.000Z	phyburn		I need to install a nvidia driver and it wants me out of X, and I keep trying to do ctlr alt delete but X keeps starting
+2007-11-02T13:15:00.000Z	Pierre	phyburn	ctrl - alt - f1 sudo /etc/init.d/gdm stop
+2007-11-02T13:15:00.000Z	Pierre	phyburn	press "ctrl - alt - f1", login, and run "sudo /etc/init.d/gdm stop" :)

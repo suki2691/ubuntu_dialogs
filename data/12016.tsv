@@ -1,0 +1,4 @@
+2012-02-22T13:18:00.000Z	Kindari		I have a monitor connected to a server, I want to be able to control whats on it via ssh. I was thinking best solution would probably be using screen or tmux. Would any body have other opinions? And if that is the way to go, can I configure either to drop into a screen/tmux session at startup automaticly?
+2012-02-22T13:19:00.000Z	Kindari		I want the monitor to mirror the ssh session.
+2012-02-22T13:20:00.000Z	somsip	Kindari	I run tmux on servers i maintain. Just setup an alias to "autossh -t tmux a" once tmux is running and that's about it
+2012-02-22T13:21:00.000Z	Kindari	somsip	thanks.

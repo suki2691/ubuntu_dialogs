@@ -1,0 +1,4 @@
+2009-06-12T23:58:00.000Z	qr	JuJuBee	you can do something like 'find . -name .*' ... play around with that until it lists the files you want to kill and then pipe it into xargs rm -rf
+2009-06-12T23:58:00.000Z	JuJuBee		Or I could simply move evrything not starting with a . to a new folder outside and then remove the users folder...
+2009-06-13T00:01:00.000Z	JuJuBee	geirha	 mv: cannot stat `.[^.]*': No such file or directory
+2009-06-13T00:01:00.000Z	qr	JuJuBee	find . -maxdepth 1 -mindepth 1 -name '.*' | xargs whateveryouwanttodo

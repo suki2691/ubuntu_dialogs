@@ -1,0 +1,4 @@
+2009-01-03T11:54:00.000Z	jinzougen		Hey, I just installed kubuntu on my new laptop which has an atheros wireless card. The card didn't work with the built-in drivers, so I built/installed the madwifi driver and it seems to work. The only problem is that when the computer wakes up after being suspended, the card won't connect to the access point anymore. I have to reboot to get it to work again. Any idea why?
+2009-01-03T11:55:00.000Z	raylu	jinzougen	yes. the kernel has always been quirky when resuming from suspend :P
+2009-01-03T11:55:00.000Z	jinzougen	raylu	any fixes besides not suspending?
+2009-01-03T11:55:00.000Z	raylu	jinzougen	not really

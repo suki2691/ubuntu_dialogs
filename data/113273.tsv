@@ -1,0 +1,4 @@
+2008-12-06T12:13:00.000Z	furythor		is there any way to manually configure resolutions for X ? since in xorg.conf it states that some things are automatically configured and in that file ignored
+2008-12-06T12:15:00.000Z	zhaozhou	furythor	Display is a subsection in the Screen section, in there you can put the Modes directive.
+2008-12-06T12:16:00.000Z	zhaozhou	furythor	Yup. :-)
+2008-12-06T12:18:00.000Z	zhaozhou	furythor	To clarify you'd have Section "Screen", SubSection "Display", Modes "1024x768 800x600 somethingxsomething"

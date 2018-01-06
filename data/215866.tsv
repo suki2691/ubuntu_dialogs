@@ -1,0 +1,4 @@
+2007-05-17T06:34:00.000Z	Reedle1		I have an old hp server with an ATI 3D Rage IIc card that is not functioning properly. I let it auto detect my hardware but I cannot get it to display correctly. Anyone using this card or has a better driver idea
+2007-05-17T06:35:00.000Z	Reedle1		 Also Running ubuntu 6
+2007-05-17T06:35:00.000Z	Reedle1		you can read have the screen but the other half is not visible
+2007-05-17T06:37:00.000Z	soundray	Reedle1	have a look at /etc/X11/xorg.conf and try replacing the line that currently says Driver "ati" (probably) with Driver "radeon". If that doesn't work any better, try the closed-source fglrx driver.

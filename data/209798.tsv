@@ -1,0 +1,4 @@
+2007-11-02T05:32:00.000Z	los		is there any (whole) disk checking utility for ubuntu? (only obuntu in computer)
+2007-11-02T05:32:00.000Z	LjL	los	what do you mean "whole"?
+2007-11-02T05:33:00.000Z	LjL	los	do you want to check the filesystem, or do you want to check the actual physical disk?
+2007-11-02T05:35:00.000Z	LjL	los	bad sectors are automatically discarded when they're found. what you might want to try is "smartmontools" (run "smartctl -A /dev/yourdrive"), which will give you an assessment of your HD's health based on its internal sensors

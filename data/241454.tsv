@@ -1,0 +1,4 @@
+2010-09-05T15:37:00.000Z	BattlePope		random web server question: I have two websites with their own domains sitting on the same box. How do I go to dir_a/ if I input a.com, and dir_b/ if I input b.com? I've got the A record set in my domain registrar to my server's IP, but I can't figure how to separate the sites without using a redirect :)
+2010-09-05T15:39:00.000Z	jb__	BattlePope	hm.. maybe a http server option for thaT?
+2010-09-05T15:42:00.000Z	jb__	BattlePope	yea it must be common, it's common to redirect subdomains like bleh.waza.com to ~bleh/public_html
+2010-09-05T15:48:00.000Z	jb__	BattlePope	http://httpd.apache.org/docs/2.0/vhosts/examples.html

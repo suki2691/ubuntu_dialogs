@@ -1,0 +1,4 @@
+2006-06-14T10:19:00.000Z	noonex		is there a way to stop certain mounted drives from having icons on my desktop?
+2006-06-14T10:21:00.000Z	crimsun_	noonex	gconftool-2 -s /apps/nautilus/desktop/volumes_visible --type boolean false
+2006-06-14T10:22:00.000Z	crimsun_	noonex	note that's for all mounted volumes
+2006-06-14T10:23:00.000Z	noonex	crimsun_	thank you

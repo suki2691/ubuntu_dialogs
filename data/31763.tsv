@@ -1,0 +1,4 @@
+2012-09-10T07:51:00.000Z	daemongpl		What is a good source to learn the run levels? I want to know what happens when I press the power button.. Bios > Grub > runlevels to xwindows... Anyone know a good source that lays this out for me or is this something that takes years of user experience to learn?
+2012-09-10T07:53:00.000Z	TJ-	daemongpl	The runlevels concept comes from Unix. You can find it's history by searching for the SYS V init (the /etc/rcX.d/ directories implement it)
+2012-09-10T07:55:00.000Z	TJ-	daemongpl	But it's pretty simple: BIOS > HDD1(sector 0) > bootloader > kernel+initial-ramdisk > kernel > /init (process). What 'init' does depends on the distribution. On Ubuntu that's the "upstart" package. On Fedora/Red Hat it's "systemd"
+2012-09-10T07:57:00.000Z	TJ-	daemongpl	Most modern distros now are moving away from the SYSV init because they are implementing parallel init systems to improve boot times and take advantage of modern multi-core systems

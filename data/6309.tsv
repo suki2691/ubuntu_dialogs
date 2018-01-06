@@ -1,0 +1,4 @@
+2012-03-02T21:23:00.000Z	pappijo		I hope someone can help me with this problem: I have a laptop with i5 processor (which integrates graphics sandybridge) and graphic card Nvidia Geforce GT540M. At first system info said "Graphics: Unknown". When I started to use the GNOME 3 shell System Info began to say "Graphics: Mobile Intel Sandybridge" and the processor heats up a lot. I tried to install the NVIDIA driver (suggested by "Additional Drivers") and the graphics stopped working altogether,
+2012-03-02T21:23:00.000Z	pappijo		 even when I uninstalled the driver. When the driver is installed I see an X server error message: No device found
+2012-03-02T21:24:00.000Z	zykotic10	pappijo	sounds like you have intel/nvidia hybrid graphics - there is some special software to use such devices.  Bumblebee i believe is one option (i don't have the hardware so no personal experience)
+2012-03-02T21:27:00.000Z	pappijo	zykotic10	Yes, it's hybrid graphics. Thank you

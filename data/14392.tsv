@@ -1,0 +1,4 @@
+2011-05-11T14:37:00.000Z	figure002		hi! i'm trying to figure out the package name that contains 'pdflatex'. how do i do that?
+2011-05-11T14:38:00.000Z	Flipoz	figure002	dpkg -l | grep *pdflatex*
+2011-05-11T14:39:00.000Z	figure002	Flipoz	it doesn't list anything, though i do have 'pdflatex' installed
+2011-05-11T14:40:00.000Z	figure002	Flipoz	it is probably part of a package with a different name

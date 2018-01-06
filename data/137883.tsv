@@ -1,0 +1,4 @@
+2009-12-07T19:53:00.000Z	V3ronika		I'm also trying to add mount of smb to the fstab. Now I don't know what creditentials means: //<hostname>/<share> <mount_point> cifs credentials=<credentials_file>,rw,user,noauto 0 0 Can someone please explain me what is creditentials. Is it something like 755 file permissions in linux?
+2009-12-07T19:55:00.000Z	llutz	V3ronika	credentials are your user/pass needed for the win-share. you can put them into a file, 2 lines: username=yourusername / password=yourpassword
+2009-12-07T19:56:00.000Z	llutz	V3ronika	make sure to set permissions of that file very restrictive
+2009-12-07T19:56:00.000Z	llutz	V3ronika	for more info, read "man mount.cifs"

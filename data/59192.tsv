@@ -1,0 +1,4 @@
+2010-01-23T04:17:00.000Z	Kentrel		dafty, I see. that makes sense. Thanks
+2010-01-23T04:19:00.000Z	Kentrel		So how do I get ubuntu to mount them without asking for a password anytime. I have a password at login - thats the only security I need for my drives
+2010-01-23T04:19:00.000Z	VCoolio	Kentrel	edit /etc/fstab
+2010-01-23T04:23:00.000Z	VCoolio	Kentrel	in fstab it should be a line like "[/dev/sda1] [/media/something] ntfs[-3g] user,defaults 0 0" the parts between [ ] unsure

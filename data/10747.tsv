@@ -1,0 +1,4 @@
+2012-03-10T22:04:00.000Z	bambanx		how i can fix the grub? i have windows and linux but i can boot for windows :/
+2012-03-10T22:05:00.000Z	dr_willis	bambanx	 what is it doing exactly? does it boot to linux at all?
+2012-03-10T22:06:00.000Z	bambanx	dr_willis	i wanna able to boot to windows too only i can see on the boot linux
+2012-03-10T22:07:00.000Z	dr_willis	bambanx	 rerun 'sudo update-grub' and see if it adds windows. if not you may need to add a custome entry in /etc/grub.d/40_custom for your wundiows setup

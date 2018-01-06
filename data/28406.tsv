@@ -1,0 +1,4 @@
+2010-07-24T19:34:00.000Z	abd_	[Raiden]	and where should i put my .ko?
+2010-07-24T19:34:00.000Z	[Raiden]	abd_	sudo echo "modulename" >>/etc/modules
+2010-07-24T19:39:00.000Z	[Raiden]	abd_	I do not know.  try copy to /lib/modules/$(uname -r)/kernel/drivers  and run sudo depmod -a
+2010-07-24T19:41:00.000Z	abd_	[Raiden]	yes it worked, modinfo find my module, tnx very much

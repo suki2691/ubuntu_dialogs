@@ -1,0 +1,4 @@
+2007-06-15T10:19:00.000Z	Zerkki		Why can't I recive packages from my desktop connected to my NAT router. The router has the configuration: echo > /proc/sys/net/ipv4/ip_forward      iptables --append FORWARD --in-interface eth0 -j ACCEPT       and   iptables --table nat --append POSTROUTING --out-interface eth0 -j MASQUERADE. I have configured the network correct.
+2007-06-15T10:20:00.000Z	Frogzoo_	Zerkki	echo 1 ?
+2007-06-15T10:20:00.000Z	Zerkki	Frogzoo_	echo > 1 /proc/sys/net/ipv4/ip_forward
+2007-06-15T10:21:00.000Z	Zerkki	Frogzoo_	Any idea how to solve this?

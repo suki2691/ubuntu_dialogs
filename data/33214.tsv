@@ -1,0 +1,4 @@
+2010-07-09T11:13:00.000Z	Loshki	rollman	still there?
+2010-07-09T11:19:00.000Z	Loshki	rollman	were you using chdir() in your program?
+2010-07-09T11:25:00.000Z	Loshki	rollman	chdir() runs in a child process created by the shell. The parent process (the shell) is unaffected by the chdir that happens in its child. Does that make sense?
+2010-07-09T11:30:00.000Z	Loshki	rollman	well basically I'm telling you that you can't use chdir to change your current directory because it doesn't work how you think...

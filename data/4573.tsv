@@ -1,0 +1,4 @@
+2012-05-15T17:21:00.000Z	weox		can i convert a primiry partition to logical partition ??
+2012-05-15T17:23:00.000Z	zykotick9	weox	not really, why would you want to?
+2012-05-15T17:24:00.000Z	weox	zykotick9	: i have 4 primiry partition ,, i should convert 1 of those !! for creating new partition (i should create new one , no resize )
+2012-05-15T17:25:00.000Z	zykotick9	weox	if you are already at teh 4 primary limit - you need to delete one (or more), create an extended partition, then create as many logicals inside that extended that you want.  good luck.

@@ -1,0 +1,4 @@
+2010-02-05T05:47:00.000Z	Viking667		hm. What file in /etc defines what modules should be loaded at runtime?
+2010-02-05T05:47:00.000Z	Viking667		(of the kernel)
+2010-02-05T05:47:00.000Z	whitequark	Viking667	/etc/modules and /etc/modprobe.d/*
+2010-02-05T05:50:00.000Z	whitequark	Viking667	try 'echo w83627hf options whatever=youwant >/etc/modprobe.d/w83627hf.conf'

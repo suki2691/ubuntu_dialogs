@@ -1,0 +1,4 @@
+2008-02-17T08:19:00.000Z	NigelS	Leechzilla	it means that your NTFS partition is marked as dirty - that is to say it wasn't cleanly unmounted - either the machine was hard reset or something crashed
+2008-02-17T08:34:00.000Z	NigelS	Leechzilla	yes, we told you how to solve this
+2008-02-17T08:34:00.000Z	Leechzilla	NigelS	I didn't get it
+2008-02-17T08:34:00.000Z	NigelS	Leechzilla	your ntfs drive wasn't shut down cleanly - you should run ntfsfix on it or boot into windows and shutdown normally

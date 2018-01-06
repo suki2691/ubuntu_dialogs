@@ -1,0 +1,4 @@
+2006-11-25T12:38:00.000Z	jerp		I want to add a shell script but I'm padlocked out of my File System,   Can I gain access into it again or how long will this lock-out last?
+2006-11-25T12:39:00.000Z	jerp		eye, the little padlock icon in nautilus is on the file system
+2006-11-25T12:40:00.000Z	polpak	jerp	you don't have permissions to add files to the standard bin directories unless you sudo
+2006-11-25T12:40:00.000Z	polpak	jerp	you can either use sudo to put the file in /usr/local/bin   or you can put the file in /home/username/bin if it's something intended primaraly for your user.

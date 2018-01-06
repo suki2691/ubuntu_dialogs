@@ -1,0 +1,4 @@
+2009-01-29T17:49:00.000Z	Ethos		0,5,10,15,20,25,30,35,40,45,50,55 * * * * env LANG=C /usr/bin/mrtg /etc/mrtg/mrtg.cfg --logging /var/log/mrtg.log
+2009-01-29T17:49:00.000Z	Ethos		anyone see anything wrong with that for crontab?
+2009-01-29T17:49:00.000Z	jrib	Ethos	not really, but you should read about the */5 syntax in 'man 5 crontab'
+2009-01-29T17:51:00.000Z	jrib	Ethos	yes

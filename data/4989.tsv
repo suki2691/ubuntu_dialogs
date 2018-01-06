@@ -1,0 +1,4 @@
+2012-03-04T00:12:00.000Z	demonspork		does Ubuntu 11.10 support using a swapfile? Whenever I try to activate a swapfile and it just keeps saying "swapon failed: function not implemented"
+2012-03-04T00:13:00.000Z	Fyodorovna	demonspork	do you have a file or partition?
+2012-03-04T00:14:00.000Z	demonspork	Fyodorovna	a file, created with fallocate and I have used mkswap on the file to set it up. I also tried making the file with dd if=/dev/zero blah blah but it ends with the same result, "function not implemented"
+2012-03-04T00:16:00.000Z	Fyodorovna	demonspork	swapon is a partition command here is a old info link. http://www.cyberciti.biz/faq/linux-add-a-swap-file-howto/

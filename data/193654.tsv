@@ -1,0 +1,4 @@
+2006-07-09T05:24:00.000Z	ryanakca		For some reason "HTTP_PROXY=http://localhost:4001" keeps on showing up in "env". each time I have to run "export -n HTTP_PROXY". Is there a way to make it permanent (so that it doesn't keep on showing up)?
+2006-07-09T05:24:00.000Z	fyrestrtr	ryanakca	try /etc/profile
+2006-07-09T05:24:00.000Z	fyrestrtr	ryanakca	or you can just stick it in ~/.bashrc
+2006-07-09T05:33:00.000Z	ryanakca	fyrestrtr	so... something like this: http://pastebin.ca/83145 ? (I've never touched /etc/profile before...

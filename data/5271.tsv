@@ -1,0 +1,4 @@
+2012-08-03T07:14:00.000Z	trakinas		night. all!
+2012-08-03T07:16:00.000Z	trakinas		chrome 20 is not listing pepper as a flash plugin, rather, it is using "libflashplayer.so". How can I set it to use pepper? with the current plugin I cannot play any kind of flash
+2012-08-03T07:18:00.000Z	L3top	trakinas	you will need to create a symlink. Chances are within the chrome subdir there is a symlink to something that symlinks to libflashplayer.so. Interrupt it there.
+2012-08-03T07:18:00.000Z	trakinas	L3top	good one. let me check that.

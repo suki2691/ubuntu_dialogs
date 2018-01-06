@@ -1,0 +1,4 @@
+2008-03-31T21:14:00.000Z	natbet		ok, in that directory do this: sudo chown unreal:unreal *
+2008-03-31T21:15:00.000Z	hischild	natbet	note that the . and .. don't have to be unreal:unreal in that case
+2008-03-31T21:16:00.000Z	natbet	hischild	if my understanding is right, it shouldn't affect . files. .* would though. I could be wrong though
+2008-03-31T21:17:00.000Z	hischild	natbet	it's not .* files i'm talking about. If you ls a dir, you'll also find . and .. there, who link to the current dir and one up ...

@@ -1,0 +1,4 @@
+2009-03-28T04:40:00.000Z	puff	ward-	I don't know enough to help you wtih cron, but I do know that user identity and permissions are kinda tricky with cron.
+2009-03-28T04:41:00.000Z	ward-	puff	yes i was thinkign in that direction too but i'm not good at all at permissions stuff
+2009-03-28T04:43:00.000Z	puff	ward-	I did some stuff with cron about six months ago and had some mysterious problems that turned out to be because of something counterintuitive about what user the cron job ran as, etc.  A friend helped me sort it out but I can't find it in my notes, sorry.
+2009-03-28T04:43:00.000Z	ward-	puff	it should be ran as root if i understand correctly, since i added the cron job with sudo crontab -e -u root

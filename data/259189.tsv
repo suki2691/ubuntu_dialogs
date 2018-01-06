@@ -1,0 +1,4 @@
+2004-11-14T13:53:00.000Z	jesper		If there is a common extension, then you can do stuff like this..
+2004-11-14T13:53:00.000Z	jesper		find /mp3s -type f | egrep -v '*.mp3$' | xargs rm -f
+2004-11-14T13:54:00.000Z	dopey	jesper	that'll still have problems with files with spaces in the name
+2004-11-14T13:54:00.000Z	jesper	dopey	Sure, that's why i don't have any of them :-)

@@ -1,0 +1,4 @@
+2007-04-10T05:35:00.000Z	gRaCiOsO		what is the syntax to put a gateway with ifconfig 
+2007-04-10T05:35:00.000Z	gRaCiOsO		?
+2007-04-10T05:35:00.000Z	cafuego_	gRaCiOsO	I don't use ifconfig, you use route.
+2007-04-10T05:36:00.000Z	cafuego_	gRaCiOsO	'sudo route add default gw x.x.x.x' or 'sudo route add -net x.x.x.x gw y.y.y.y'

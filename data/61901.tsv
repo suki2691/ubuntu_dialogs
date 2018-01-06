@@ -1,0 +1,4 @@
+2009-12-24T01:12:00.000Z	rkj		Can anybody tell me a command line that will find all files in a directory tree matching a pattern (like "mp3") and give me both the name of the file and of the directory?
+2009-12-24T01:12:00.000Z	rkj		There's gotta be a way
+2009-12-24T01:12:00.000Z	grawity	rkj	find dir/ -name '*.mp3'
+2009-12-24T01:15:00.000Z	rkj	grawity	gdb both forms worked - thanks

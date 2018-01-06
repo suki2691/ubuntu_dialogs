@@ -1,0 +1,4 @@
+2008-05-26T03:18:00.000Z	Billenium		Are there any articles for how to split up a hard drive between /usr, /var, /home, /boot, /opt, / ... etc?
+2008-05-26T03:18:00.000Z	Billenium		Or like, /usr needs around xGB to function etc...
+2008-05-26T03:19:00.000Z	gwern	Billenium	not really. but the rule of thumb I've always used is '/boot needs no more than 50mb or so; /home should get about 90% of space, and put everything else in / in what's left over from swap
+2008-05-26T03:20:00.000Z	gwern	Billenium	for example, on my 500gb drive, I'd partition like this: /dev/sda1 = boot = 30mb; /dev/sda2 = swap = 1gb; /dev/sda3 = / = 10gb; /dev/sda4 = /home = 489gb

@@ -1,0 +1,4 @@
+2006-10-25T07:07:00.000Z	noway_		my /boot is on /dev/sda1 ... but how do I tell what grub sees it as?
+2006-10-25T07:08:00.000Z	noway_		I am trying to repair grub on the mbr, but I don't know which hard drive grub sees
+2006-10-25T07:09:00.000Z	NickGarvey	noway_	it sees the one you tell it too see in menu.lst
+2006-10-25T07:10:00.000Z	noway_	NickGarvey	well, I am trying reload grub, I know which hard drive it should see (/dev/sda1/) but not what this translate to in grub

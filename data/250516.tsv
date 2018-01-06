@@ -1,0 +1,4 @@
+2005-07-29T05:18:00.000Z	flipy		I've set up apache2, php and mysql (thanks to Seveas) but, do I have to enable <Directory> config for each one in /var/www?
+2005-07-29T05:19:00.000Z	flipy		well, so that's weird, cuz I can run testphp.php
+2005-07-29T05:19:00.000Z	flipy		but I've installed drupal (/var/www/drupal) and trying to run index.php from drupal just downloads a file (with php code on it)
+2005-07-29T05:21:00.000Z	jcapote	flipy	your going to need to add the .php type to apache

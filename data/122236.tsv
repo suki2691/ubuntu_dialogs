@@ -1,0 +1,4 @@
+2007-12-31T02:41:00.000Z	XinFei		yo guys im trying to open firefox.. it says its already open..... is there something i can enter in terminal to close firefox?
+2007-12-31T02:42:00.000Z	bitmonk	XinFei	try starting with 'ps aux | grep -i firefox'
+2007-12-31T02:43:00.000Z	bitmonk	XinFei	what came up? pastebin it pls and give me the resultant url.
+2007-12-31T02:44:00.000Z	bitmonk	XinFei	sure, you can try 'killall -9 firefox-bin' or you can get the numbers from the far left column and 'kill -9' them

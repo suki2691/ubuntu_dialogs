@@ -1,0 +1,4 @@
+2007-07-23T07:48:00.000Z	Shoopuf		Do I need to restart my computer or something after adding something to the /etc/modules file
+2007-07-23T07:49:00.000Z	genii	Shoopuf	Adding it there just means next time you boot it gets loaded. But you don't normally need to reboot to load whatever that driver is manually
+2007-07-23T07:50:00.000Z	Shoopuf	genii	so if i wanted to load the driver without restarting i would do what? the driver name is snd-cmipci
+2007-07-23T07:51:00.000Z	genii	Shoopuf	Then you would do: sudo modprobe snd-cmipci

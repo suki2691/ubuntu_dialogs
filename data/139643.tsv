@@ -1,0 +1,4 @@
+2007-06-28T12:11:00.000Z	astate		how do you escape ' in a grep search? like searching for "don't"?
+2007-06-28T12:12:00.000Z	jrib	astate	echo don\'t | grep don\'t
+2007-06-28T12:14:00.000Z	astate	jrib	if I do that, as in grep 'don\'t' foo.txt I just get a > on the next line
+2007-06-28T12:14:00.000Z	jrib	astate	well in that case:  grep 'don'\''t'

@@ -1,0 +1,4 @@
+2009-07-18T20:34:00.000Z	ahz		How can I tell if apt is locked?  It seems /var/lib/dpkg/lock always exists
+2009-07-18T20:34:00.000Z	TheStarLion	ahz	try using any command that involves it like sudo apt-get update, and if it works, it's not locked
+2009-07-18T20:34:00.000Z	ahz	TheStarLion	I need to do it programatically
+2009-07-18T20:35:00.000Z	TheStarLion	ahz	then start synaptic or adept, and try reloading software repos through that

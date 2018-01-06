@@ -1,0 +1,4 @@
+2006-01-12T13:49:00.000Z	rickard		woho, my drivers worked :D
+2006-01-12T13:51:00.000Z	rickard		I got a hard drive using ntfs system, is it possible to see the files from ubuntu?
+2006-01-12T13:52:00.000Z	kameron	rickard	yes. add this to /etc/fstab: /dev/hdb5       /media/ntfs     ntfs    umask=0222      0       0
+2006-01-12T13:52:00.000Z	kameron	rickard	replace /dev/hdb5 with whatever your hd is. that just happens to be mine.

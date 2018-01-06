@@ -1,0 +1,4 @@
+2006-07-15T16:29:00.000Z	steveire		can I use aptitude to purge config files from packages that I removed previously?
+2006-07-15T16:29:00.000Z	sproingie	steveire	yep.  select the package and hit underscore
+2006-07-15T16:31:00.000Z	steveire	sproingie	what package? I mean I did aptitude remove on many packages (don't have a list of names), and now I wish I'd used purge
+2006-07-15T16:33:00.000Z	sproingie	steveire	aptitude remove --purge i think

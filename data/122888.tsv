@@ -1,0 +1,4 @@
+2007-09-02T16:43:00.000Z	x33		hey how can i startup with a terminal and not gnome?
+2007-09-02T16:44:00.000Z	nbkr	x33	"sudo update-rc.d -f gdm remove" should do the trick.
+2007-09-02T16:47:00.000Z	x33	nbkr	thanks and if i want to change back?
+2007-09-02T16:47:00.000Z	nbkr	x33	"sudo update-rc.d gdm defaults"

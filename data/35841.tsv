@@ -1,0 +1,4 @@
+2012-04-30T21:18:00.000Z	Darael	syddraf	To send /to/ a gmail address?  I don't know how useful this information will be, but: most recipients (including gmail) will refuse email from a server on a dynamic IP address, but GMail servers will happily accept over IPv6, which bypasses that quite neatly.
+2012-04-30T21:19:00.000Z	syddraf	Darael	I finally found something that works. The sendemail package works perfectly. Thanks everyone.
+2012-04-30T21:21:00.000Z	Darael	syddraf	Oh, it was at /that/ layer.  Yeah, sendmail's effective.  The configuration can be arcane, though.  If it gets difficult, I hear Postfix is easier to handle.
+2012-04-30T21:22:00.000Z	Darael	syddraf	To clarify:  Most MTAs will provide /usr/bin/sendmail, but the sendmail package is far from the easiest to handle.

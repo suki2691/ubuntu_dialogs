@@ -1,0 +1,4 @@
+2011-08-23T17:32:00.000Z	jimijix		scnuffle: thanks, I'll try that :-)
+2011-08-23T17:34:00.000Z	julian	jimijix	eg to change MP3 to mp3: for src in *.MP3; do tgt=$(echo $src | sed 's/MP3/mp3/'); mv $src $tgt; done
+2011-08-23T17:35:00.000Z	julian	jimijix	eg to remove a space in filenames in your MP3s; do tgt=$(echo $src | sed 's/\ //g'); mv $src $tgt; done
+2011-08-23T17:36:00.000Z	julian	jimijix	(note different sed expression)

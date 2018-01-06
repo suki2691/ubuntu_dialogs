@@ -1,0 +1,4 @@
+2012-02-01T02:26:00.000Z	eirik_		With grub2, how do I prevent grub from automatically booting the default kernel, but rather presents me with a menu?
+2012-02-01T02:28:00.000Z	eirik_		Should be several kernels located in /boot, along with memtest86. GRUB_TIMEOUT in /etc/default/grub is set to 10. I thought that was the option which decided it.
+2012-02-01T02:29:00.000Z	guntbert	eirik_	for once: press <shift> during boot, for always edit /etc/default/grub and put a # at the beginning of the line with the word "hidden"
+2012-02-01T02:31:00.000Z	guntbert	eirik_	and don't forget to run sudo update-grub afterwards

@@ -1,0 +1,4 @@
+2007-09-26T09:05:00.000Z	whileimhere		Hi When I go to install Ubuntu I see that gparted reports 41 gig drive but when I actully format it and look at the drive from inside of an installed system it reports that I have a 37 gig drive any idea why?
+2007-09-26T09:06:00.000Z	genii	whileimhere	Different counting techniques and some overhead for the filesystem
+2007-09-26T09:07:00.000Z	genii	whileimhere	Yes, 1000*40 as opposed to 1024*40 or similar
+2007-09-26T09:09:00.000Z	genii	whileimhere	For more info on this, http://www.storagereview.com/guide2000/ref/hdd/geom/formatBinary.html

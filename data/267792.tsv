@@ -1,0 +1,4 @@
+2004-11-18T15:51:00.000Z	crimsun	seacyd	intel sound chipset? laptop?
+2004-11-18T15:52:00.000Z	crimsun	seacyd	is it an intel sound chipset w/ a modem?
+2004-11-18T15:54:00.000Z	crimsun	seacyd	in bios, disable the modem and the printer port. Make sure ac97_codec and i810_audio are blacklisted for hotplug. When you reboot, sound *should* work (you may have to adjust and unmute the mixer levels0.
+2004-11-18T15:55:00.000Z	crimsun	seacyd	don't worry about my blacklist statement. Ubuntu already takes care of that.

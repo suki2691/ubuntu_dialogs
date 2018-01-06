@@ -1,0 +1,4 @@
+2010-05-04T22:16:00.000Z	paddy_		 I have made a user account and need to give it write permissions to a folder, how do i do that without 777'ing the folder?
+2010-05-04T22:17:00.000Z	theadmin	paddy_	Add that account to group which owns the folder
+2010-05-04T22:18:00.000Z	theadmin	paddy_	See "man adduser" and "man chown"
+2010-05-04T22:26:00.000Z	theadmin	paddy_	chown :group somefile

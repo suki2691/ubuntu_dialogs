@@ -1,0 +1,4 @@
+2010-06-13T05:26:00.000Z	kmullins		Hey, I just did a clean install of v10.04 and am only able to get the installer and the live CD to run using the noapic and acpi=off options. However, GRUB 2 didn't save those options. I tried to manually edit <hard drive>/etc/default/grub and added those options but it didn't seem to affect anything. I'm not sure how to run the "update-grub" from the Live CD to affect my installed partition
+2010-06-13T05:27:00.000Z	_2	kmullins	maybe a command like   chroot /media/sda1 update-grub         ?
+2010-06-13T05:29:00.000Z	kmullins	_2	I'll give that a try
+2010-06-13T05:29:00.000Z	_2	kmullins	 https://wiki.ubuntu.com/Grub2

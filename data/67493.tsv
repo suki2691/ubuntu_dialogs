@@ -1,0 +1,4 @@
+2009-06-24T23:30:00.000Z	Joe_CoT		is there a way to force the dhcp client to request a specific option? I set up option 66 (tftp server) on my router, but I need to make sure it actually works correctly
+2009-06-24T23:31:00.000Z	mdm	Joe_CoT	no you set the dhcp server to GIVE it options. If you want to do it for a speficic host lock it by mac address
+2009-06-24T23:32:00.000Z	Joe_CoT	mdm	: so it doesn't specifically request what it wants. So if I used dhcpdump, and didn't see the option I wanted in the response, it's not set up right?
+2009-06-24T23:33:00.000Z	mdm	Joe_CoT	it sends out a DHCPREQ, to which the server gives it DHCPOFFERs and then the cleint gives back a DHCPACK.

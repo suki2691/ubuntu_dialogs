@@ -1,0 +1,4 @@
+2009-01-09T21:57:00.000Z	bthornton		I just changed the hostname of a box I'm SSH'd into by changing /etc/hostname. I plan on rebooting the machine and then SSH'ing back into it. Will I have any problems doing that, or will the hostname change cause problems with key negotiation?
+2009-01-09T21:57:00.000Z	Seveas	bthornton	why reboot? You can use the hostname command to change the hostname as well
+2009-01-09T21:58:00.000Z	bthornton	Seveas	True, but this machine isn't on a UPS and will end up being rebooted eventually anyway. I just want to make sure I can SSH into it when it does.
+2009-01-09T21:58:00.000Z	Seveas	bthornton	you can :)

@@ -1,0 +1,4 @@
+2009-06-05T00:51:00.000Z	andrer		is there a way to tell which application is sending packets from a linux box? i have one linux box that is sending UDP packets (i can sniff them just fine) but I can't tell which process is doing it.
+2009-06-05T00:52:00.000Z	bernz	andrer	'man netstat'
+2009-06-05T00:53:00.000Z	andrer	bernz	netstat will show LISTENING and ESTABLISHED connections.. but not udp
+2009-06-05T00:53:00.000Z	bernz	andrer	oh right (duh!) :-)

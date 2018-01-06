@@ -1,0 +1,4 @@
+2011-01-03T20:16:00.000Z	kyle1		i have a folder with sub folders/files.  how do i set permissons to all?? GUI
+2011-01-03T20:18:00.000Z	kyle1		i have a folder with sub folders/files.  how do i set permissons to all?? GUI
+2011-01-03T20:19:00.000Z	thekid	kyle1	press alt+f2, then type find /folder/ -iname * --exec chmod 777 {}\;  no better idea :D
+2011-01-03T20:25:00.000Z	thekid	kyle1	: actually the command is "find /whatever/ -exec chmod 777 {} \;" sorry

@@ -1,0 +1,4 @@
+2010-11-06T21:44:00.000Z	Jeaton		i deleted my /etc/samba directory thinking it would recreate itself when I reinstalled samba, but i was wrong
+2010-11-06T21:44:00.000Z	Jeaton		any ideas how I recreate the directory with the default config files?
+2010-11-06T21:45:00.000Z	mbroeker	Jeaton	aptitude -o Dpkg::Options="--force-confmiss" reinstall samba-common samba
+2010-11-06T21:46:00.000Z	mbroeker	Jeaton	or apt-get (in maverick, aptitude is not installed via default)

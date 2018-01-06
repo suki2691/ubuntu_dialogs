@@ -1,0 +1,4 @@
+2009-02-03T07:18:00.000Z	letalis		does anyone have any idea why /etc/default/console-setup wont hold its settings after ubuntu finishes booting? when the kernel spewed its usual memory crap at the beginning it changed to what i set it to but then the consoles reverted back to the ubuntu default. any idea what would cause this?
+2009-02-03T07:19:00.000Z	jrib	letalis	did you check if 'sudo dpkg-reconfigure console-setup' has the same behavior?
+2009-02-03T07:19:00.000Z	letalis	jrib	let me try it out
+2009-02-03T07:24:00.000Z	letalis	jrib	thanks man i think that got it

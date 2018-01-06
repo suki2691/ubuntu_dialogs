@@ -1,0 +1,4 @@
+2007-03-16T12:18:00.000Z	Hammwell		on redhat I could do "service sshd restart" to restart a service like sshd or mysql ... is there an ubuntu equivalent to start/stop/restart services?
+2007-03-16T12:19:00.000Z	Hammwell		service sshd restart ... "service: command not found" ... doh!
+2007-03-16T12:20:00.000Z	Hammwell		bafox: what does ubuntu use?
+2007-03-16T12:21:00.000Z	predaeus	Hammwell	try sudo /etc/init.d/sshd restart

@@ -1,0 +1,4 @@
+2008-10-12T06:19:00.000Z	william_		Any idea why before any sound is output I get static... or why my firefox crashes so much???
+2008-10-12T06:20:00.000Z	william_		I was wondering if anyone knew why I get a weird static noise before any sound is made.
+2008-10-12T06:22:00.000Z	william_		Anyone know why I get a weird static noise before any sound is made??
+2008-10-12T06:23:00.000Z	pipegeek	william_	possibly a buggy driver for your sound card.  Do 'lspci' in a terminal to find out what your soundcard is, and then google to see if other people have experienced the same thing.  Try installing a different kernel and rebooting, and seeing if the problem goes away

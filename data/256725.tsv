@@ -1,0 +1,4 @@
+2005-11-02T09:45:00.000Z	grodius		How do I mount an ISO so I can play it, without burning it
+2005-11-02T09:45:00.000Z	madsen	grodius	mount -t iso9660 -o loop <mount point> <iso image>
+2005-11-02T09:47:00.000Z	madsen	grodius	And yeah, switch <mount point> and <iso> like intelikey said. :)
+2005-11-02T09:48:00.000Z	madsen	grodius	Make some dir in e.g. /mnt or /media - like /mnt/loop

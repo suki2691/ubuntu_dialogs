@@ -1,0 +1,4 @@
+2006-12-24T13:28:00.000Z	No1Viking		I have problems getting my PC, with Kubuntu, connected to my Wireless LAN. I know that it works without problems in Gnome. When trying to set WEP key and Hex it seems it does not save the data and I can't connect. Anywhere else I can put that data so it's permanent, and working, in the system?
+2006-12-24T13:29:00.000Z	nn	No1Viking	i put mine in /etc/network/interfaces
+2006-12-24T13:29:00.000Z	No1Viking	nn	ok... will check that one
+2006-12-24T13:31:00.000Z	nn	No1Viking	that should be a good starting point, also fwiw, you can use s:key-string-here instead of the hex of the key, if needed (tho i dont personally)

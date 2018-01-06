@@ -1,0 +1,4 @@
+2011-07-04T18:47:00.000Z	genii-around	damasceno	sda is the entire disk. To mount what used to be a partition inside that disk, you have to figure out it's offset and mount the image from that point. http://ubuntuforums.org/showthread.php?t=711773 has an example
+2011-07-04T18:57:00.000Z	damasceno	genii-around	Hey I did what you told me, mount -o loop,offset=6818757120 -t ext3 sistema.img /mnt/img/
+2011-07-04T18:59:00.000Z	genii-around	damasceno	Did you use the number for the start of the partition you wanted, multiplied by the sectors? In the example the sectors were 512 but your fdisk may have shown differently
+2011-07-04T19:06:00.000Z	genii-around	damasceno	If you dd just a subpartition like sda1 then you just loopmount it specifying filesystem type

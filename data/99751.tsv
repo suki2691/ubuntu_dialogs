@@ -1,0 +1,4 @@
+2008-08-31T20:52:00.000Z	crrj		Hi all
+2008-08-31T20:53:00.000Z	crrj		I'm having an interesting issue on a Ubuntu Server setup. When I try sudo it takes the password but doesn't actually run the commands.
+2008-08-31T20:53:00.000Z	dmoerner	crrj	that normally means your user doesn't have sudo privileges. you should look in /etc/sudoers with visudo
+2008-08-31T20:55:00.000Z	dmoerner	crrj	it is possible you are having some weird problem with the previous sudo /var/run file. it might be worth removing /var/run/sudo/yourusername to reset that

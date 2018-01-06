@@ -1,0 +1,4 @@
+2012-09-23T02:55:00.000Z	lobhater		so i have a server at home and always want it to have the same ip address because i have to set up port forwarding to be able to access its services from the internet.  is there a way to have it request an ip address from the dhcp daemon on the router?  i would like a good resource and not just hand fed the answer if possible.  i have search but all the help i have found DOESNT help lol
+2012-09-23T02:55:00.000Z	escott	lobhater	your ISP is probably going to change your home modems ip. you can use a dynamic dns provider
+2012-09-23T02:57:00.000Z	escott	lobhater	in either case its a configuration within your router you have to change
+2012-09-23T02:58:00.000Z	escott	lobhater	in that case they usually start the dynamic ips at ****.100 so you can make static at 2,3,4 up to 99

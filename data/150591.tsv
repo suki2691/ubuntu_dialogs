@@ -1,0 +1,4 @@
+2007-08-24T11:53:00.000Z	travis		How cna i turn on my wireless card without my fn key working i have a broadcom 4311 and in my bois it says i need fn+ f2 or and program like quickset dell
+2007-08-24T11:54:00.000Z	travis		pci ?
+2007-08-24T11:54:00.000Z	Pici	travis	sudo iwconfig ethX on   (where ethx is the interface name of your wifi card)
+2007-08-24T11:55:00.000Z	Pici	travis	Does your bios have a setting where you can have the wifi controlled by the fn key or by the OS?

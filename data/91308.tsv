@@ -1,0 +1,4 @@
+2008-05-10T03:14:00.000Z	mfu		if i have two network interfaces actively connected to the internet, is there a way to set which one firefox will use?
+2008-05-10T03:15:00.000Z	xri	mfu	the routing table sets what is used. if both have routes the smaller metric wins. so you can fine tune with the "route" command
+2008-05-10T03:16:00.000Z	mfu	xri	do you know which route command specifically would determine this?
+2008-05-10T03:17:00.000Z	xri	mfu	nah. i just know a bit how it works. i never had to set the metrics. but you will find out easily if you use a console and type "man route"

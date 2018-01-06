@@ -1,0 +1,4 @@
+2006-04-01T06:07:00.000Z	ened__		is there a way i can make ubuntu allow multiple applications to use the sound card? right now whenever an application using sound is running, anything else that relies on sound doesn't work ?
+2006-04-01T06:08:00.000Z	ened__		it sucks :/ i can do this in windows without changing anything...
+2006-04-01T06:09:00.000Z	ened__		is there a way i can make ubuntu allow multiple applications to use the sound card? right now whenever an application using sound is running, anything else that relies on sound doesn't work ? it sucks :/ i can do this in windows without changing anything.
+2006-04-01T06:10:00.000Z	soundray	ened__	That's what esd is for. You have to configure all sound applications to esd, then it'll be fine.

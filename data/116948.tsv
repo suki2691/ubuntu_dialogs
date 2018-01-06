@@ -1,0 +1,4 @@
+2012-10-25T12:58:00.000Z	Flynsarmy		I did a ubuntu minimum install then ran a script which messed with some grub settings. i now get a black screen on boot. how do i debug grub issues? straight after the mobo logo the screen goes black. is there an easy way to debug grub issues?
+2012-10-25T12:58:00.000Z	Flynsarmy		i can ssh into the box and modify files
+2012-10-25T12:59:00.000Z	Mechdave	Flynsarmy	try passing the noacpi option to the kernel
+2012-10-25T13:05:00.000Z	Flynsarmy	Mechdave	just tried, it's not an acpi issue

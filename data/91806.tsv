@@ -1,0 +1,4 @@
+2008-06-16T20:45:00.000Z	rothchild		Hi I'm trying to convert an .rm (realplayer) file in to an avi using mencoder, the .rm is really long but when mencoder converts it I'm left with only the first 17 minutes (This happens with Mencoder at the prompt and by trying to import in to Kino - which I assume is using mencoder) How can I convert a whole 2 hr .rm in to a useful file so I can edit off the last 5 mins (which is all I want)?
+2008-06-16T20:45:00.000Z	joaopinto	rothchild	you should file a bug report against mencoder...
+2008-06-16T20:47:00.000Z	rothchild	joaopinto	do you think it's a bug? I'm assuming user error for the moment ;-)
+2008-06-16T20:48:00.000Z	joaopinto	rothchild	if you are converting a file format and the conversion get's to the end without any warning about data loss or truncated output, that is a bug :)

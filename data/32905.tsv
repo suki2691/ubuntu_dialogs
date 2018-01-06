@@ -1,0 +1,4 @@
+2010-05-01T08:38:00.000Z	pumpy		is there any way to create the equivalent of a restore point in ubuntu?
+2010-05-01T08:38:00.000Z	obiwan_	pumpy	rsync
+2010-05-01T08:39:00.000Z	pumpy	obiwan_	thanks I'll check that out
+2010-05-01T08:40:00.000Z	obiwan_	pumpy	good :) to make it short, check out rsync -a and then the hard link and other options not included by default in -a which you man want as well

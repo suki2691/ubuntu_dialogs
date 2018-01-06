@@ -1,0 +1,4 @@
+2008-04-22T15:04:00.000Z	Pendeta		Our router/gateway has been assigned a static ip address by our isp.  Does this allow/enable us to serve a web site from a computer on our lan? It seems to me that this should be possible, but the man we hired to set it up for us said we need a second static ip address. Is this so?
+2008-04-22T15:05:00.000Z	mbent	Pendeta	if you use iptables to forward the request to an internal webserver
+2008-04-22T15:05:00.000Z	mbent		you don't need a second ip address
+2008-04-22T15:11:00.000Z	Pendeta	mbent	and pistache, will we need to assign a static-ip address internally to the web server on our LAN? If so, can just one computer (the server) have a static ip and the rest remain dynamic? Also, are the iptables part of Apache?

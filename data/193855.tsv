@@ -1,0 +1,4 @@
+2007-01-21T07:49:00.000Z	zenit	derFlo	 find . -wholename './exclude' -prune -a -type f -o -name '*.js*' -o -name '*.php' | xargs wc -l
+2007-01-21T07:52:00.000Z	derFlo	zenit	it doestn exclude './exclude' in the output.
+2007-01-21T07:53:00.000Z	zenit	derFlo	It's just an example, try to use wildcards with your directory './exclude*'
+2007-01-21T07:53:00.000Z	zenit	derFlo	it worked here at least

@@ -1,0 +1,4 @@
+2008-07-05T03:42:00.000Z	insomninja		what is the difference between /dev/random and /dev/urandom?
+2008-07-05T03:42:00.000Z	Fryguy--	insomninja	urandom will continue to generate psuedorandom data when it runs out of entropy, random will block
+2008-07-05T03:44:00.000Z	insomninja	Fryguy--	thanks, so random is to be preferred in an encryption context I suppose?
+2008-07-05T03:44:00.000Z	Fryguy--	insomninja	yes

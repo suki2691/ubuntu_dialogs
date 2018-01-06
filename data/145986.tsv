@@ -1,0 +1,4 @@
+2007-02-22T14:56:00.000Z	sharperguy		SlackwareMaster just spammed me
+2007-02-22T14:57:00.000Z	sharperguy		is it possible to boot from a .iso file with grub?
+2007-02-22T14:59:00.000Z	sharperguy		maybe not grub
+2007-02-22T15:00:00.000Z	slippyr4	sharperguy	that would not be possible. grub, and lilo et al use the BIOS to access disks until the kernel can take over. The BIOS could not support what you want.

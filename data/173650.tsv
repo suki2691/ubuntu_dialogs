@@ -1,0 +1,4 @@
+2010-06-27T05:30:00.000Z	spazdor		So I'm trying to chmod a device file in order to give raw access to it. specifically I want to let a non-root user run VirtualBox, using a .vmdk file that links to a real physical partition.
+2010-06-27T05:31:00.000Z	spazdor		The problem is, whenever I chmod the device file /dev/sda1, my changes are always reverted a few minutes later
+2010-06-27T05:31:00.000Z	spazdor		i assume this is some sort of anti-rootkit behaviour. can it be suppressed?
+2010-06-27T05:31:00.000Z	sebsebseb	spazdor	anti rootkit stuff probably not

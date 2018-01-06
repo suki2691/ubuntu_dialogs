@@ -1,0 +1,4 @@
+2010-05-07T16:20:00.000Z	defswork		is it too late to ditch plymouth from 10.04 ?
+2010-05-07T16:20:00.000Z	theadmin	defswork	Yes...
+2010-05-07T16:21:00.000Z	defswork	theadmin	shucks - far too much grief for a 2 second animated screen
+2010-05-07T16:22:00.000Z	theadmin	defswork	Disable it... cat /boot/grub/grub.cfg | sed s/splash/nosplash/ | sudo tee /boot/grub/grub.cfg

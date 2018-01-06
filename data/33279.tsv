@@ -1,0 +1,4 @@
+2010-04-29T04:18:00.000Z	canozan		i was trying to make room in order to install xp, and i wanted to resize one of my primary partitions, win7 installed on it. windows manager and gparted didn't let me do that, and i run magic partition, which started with an error warning, i said ok, and i think it changed starting and endind values of my partitions
+2010-04-29T04:19:00.000Z	canozan		i had 196GB partition with win7 on it, and now it is only 33GB, i can mount it but with gparted, my entire hard disk seems to be unallocated, although i can see my partitions in terminal
+2010-04-29T04:19:00.000Z	theGman	canozan	Was the partition info actually written to disk or just configured? It makes a big diff.
+2010-04-29T04:21:00.000Z	theGman	canozan	In garted or similar tools, you can tell it what you would LIKE to do but if you never commit the changes to disk...ie..write the partition table the changes are not comitted but still "appear" set in whichever tool you used.

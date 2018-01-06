@@ -1,0 +1,4 @@
+2008-02-15T01:29:00.000Z	yorkedork		Veeger1/Stevethepirate: you'll need a ./configure --with-cards=hda-intel --with-codec=hda-intel-(type of your chipset)
+2008-02-15T01:30:00.000Z	silent	yorkedork	is that required or does alsa autodetect? it's fairly good these days
+2008-02-15T01:30:00.000Z	yorkedork	silent	i couldn't be absolutely positive, but a friend had a realtek in an nvidia 7050 that needed the hint
+2008-02-15T01:30:00.000Z	yorkedork	silent	(it wouldn't work with 1.0.14/15 whatever 7.10 defaults to atm)

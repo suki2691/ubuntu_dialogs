@@ -1,0 +1,4 @@
+2007-08-01T14:56:00.000Z	emulatorOne		I am trying to compile a program which requires SDL 1.2. Can anyone tell me how to check if I have it already and if not how to get it?
+2007-08-01T14:56:00.000Z	xtknight	emulatorOne	sudo apt-get install libsdl1.2
+2007-08-01T14:56:00.000Z	xtknight	emulatorOne	sorry, for compiling, you need this instead: sudo apt-get install libsdl1.2-dev
+2007-08-01T14:59:00.000Z	emulatorOne	xtknight	Thanks! I appear to already have it. Now here is another question for you. I am trying to compile XMAME and it complains about not having SVGALIB. Is there a package for that as well?

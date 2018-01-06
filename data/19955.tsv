@@ -1,0 +1,4 @@
+2011-01-23T08:11:00.000Z	ShinjukuTech		Hi all - I'm quite new to Linux and am having some issues with auto-mounting a drive from my NAS, seems to only work if I manually do a 'sudo mount -a' - would anyone have any advice?
+2011-01-23T08:11:00.000Z	dismo	ShinjukuTech	so you put it in fstab?
+2011-01-23T08:13:00.000Z	ShinjukuTech	dismo	yeah I have the mount path string in the fstab: '\\192.168.11.6\Media /mnt/NAS/Media        cifs    guest,rw,iocharset=utf8... etc'
+2011-01-23T08:14:00.000Z	dismo	ShinjukuTech	rww is probably right in that your network isn't up when it tries to mount the share

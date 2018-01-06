@@ -1,0 +1,4 @@
+2010-03-01T01:12:00.000Z	rhl6856		Hey can someone help me connect to a wired network via commandline
+2010-03-01T01:12:00.000Z	rhl6856		Wicd is installed and I'm trying to remove it
+2010-03-01T01:13:00.000Z	llutz	rhl6856	dhcp? "sudo ifconfig ethX up && sudo dhclient ethX"
+2010-03-01T01:17:00.000Z	llutz	rhl6856	just one wired network? better use ifupdown than networkmanager

@@ -1,0 +1,4 @@
+2005-06-13T15:05:00.000Z	mz2		when i compile the kernel with make-kpkg --stem linux --revision=custom.1.0 kernel_image, does that also compile the restricted modules?
+2005-06-13T15:05:00.000Z	fabbione	mz2	no. l-r-m is another source package
+2005-06-13T15:06:00.000Z	mz2	fabbione	so how'd i add those to the sources?
+2005-06-13T15:06:00.000Z	fabbione	mz2	you can't do it directly. you need to apt-get source linux-restricted-modules-<whatever_version_is_your_archive>

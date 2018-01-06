@@ -1,0 +1,4 @@
+2006-04-26T14:26:00.000Z	Signy		hey guys i STill have a problem accessing the mounted fat32 drive..still get a 'no permissions' result
+2006-04-26T14:26:00.000Z	Signy		I opened fstab, and the drive is listed there
+2006-04-26T14:26:00.000Z	dli	Signy	"mount -ouid= , gid= "
+2006-04-26T14:27:00.000Z	dli	Signy	yes, uid gid as options

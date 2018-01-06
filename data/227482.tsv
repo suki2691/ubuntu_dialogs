@@ -1,0 +1,4 @@
+2006-10-01T13:12:00.000Z	ulfar		Runlevel 2 is the default runlevel, right? How do i add or remove services from the default runlevel?
+2006-10-01T13:13:00.000Z	ulfar		!runlevel
+2006-10-01T13:15:00.000Z	Jowi	ulfar	there are different ways. one is to remove the execute bit from the file. "chmod a-x /etc/init.d/name". you can also rename the startscript to not start like this "mv /etc/rc2.d/S20ssh /etc/rc2.d/K20ssh" or just remove it. you can also use the "update-rc.d" command.
+2006-10-01T13:17:00.000Z	Jowi	ulfar	I prefer to rename the file in /etc/rc2.d. That way I have an easy way of controlling different runlevels.

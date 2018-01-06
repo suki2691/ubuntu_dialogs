@@ -1,0 +1,4 @@
+2007-12-29T04:48:00.000Z	hatter		how do i know which user to add to a group if this happens :  zmc_dvideo0[8707]: ERR [Failed to open video device /dev/video0: Permission denied]
+2007-12-29T04:49:00.000Z	Enselic	hatter	sudo usermod -G video user
+2007-12-29T04:50:00.000Z	hatter	Enselic	wols, thx,  /dev/video0  belongs to video group,  but how do i know which 'user' to add to it ?
+2007-12-29T04:50:00.000Z	Enselic	hatter	the user that you want to be able to access ideo

@@ -1,0 +1,4 @@
+2010-03-06T04:02:00.000Z	nicolas		No package 'pygobject-2.0' how i can find or install this ? thanks
+2010-03-06T04:03:00.000Z	ardchoille	nicolas	apt-cache search python | grep gobject
+2010-03-06T04:04:00.000Z	ardchoille	nicolas	you can also narrow your search down to filter only package names: apt-cache search -n python | grep gobject
+2010-03-06T04:05:00.000Z	ardchoille	nicolas	apt-cache search -n python | grep gst

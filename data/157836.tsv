@@ -1,0 +1,4 @@
+2009-09-21T07:03:00.000Z	obiwan__		hi 1 question please, why stopping a job, then type jobs -l to get the pid, i do kill (pid) and doesn't work? even with sudo, i need to kill it with -9
+2009-09-21T07:03:00.000Z	comicinker	obiwan__	kill -9 pid
+2009-09-21T07:05:00.000Z	comicinker	obiwan__	-9 means SIGKILL. I don't think it is has something to do what the system considers to be important
+2009-09-21T07:07:00.000Z	comicinker	obiwan__	and kill needs you to specify a signal. kill pid won't work. maybe use  kill -15 pid.

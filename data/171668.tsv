@@ -1,0 +1,4 @@
+2006-08-17T16:51:00.000Z	firstknight		Hi, my ubuntu has hostname, named 'hulahula'. But when my windows xp in the same lan try to ping by name, that is 'hulahula', it said unknown host. Ping with ubuntu ip address works fine. How do I make it work?
+2006-08-17T16:52:00.000Z	neildarlow	firstknight	your system must be resolvable to Windows via DNS or WINS
+2006-08-17T16:53:00.000Z	neildarlow	firstknight	simplest solution is to configure and run samba
+2006-08-17T16:53:00.000Z	firstknight	neildarlow	oke. thx

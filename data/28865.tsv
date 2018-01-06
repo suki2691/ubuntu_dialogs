@@ -1,0 +1,4 @@
+2010-09-13T22:47:00.000Z	ohyouknow1987		Hi guys, question..Is there away to stop my end users from deleting their browser history in Ubuntu
+2010-09-13T22:47:00.000Z	brett\	ohyouknow1987	'man chattr'
+2010-09-13T22:48:00.000Z	brett\	ohyouknow1987	no.. told you to check the manpage of chattr. there are system flags you can set on files to allow appending, but not delete
+2010-09-13T22:49:00.000Z	brett\	ohyouknow1987	"A file with the 'a' attribute set can only be open in append mode for writing.  Only the superuser or a process possessing blah blah blah blah'.  This solution is more elegant than other software because its system level. find the history file and lock it up.

@@ -1,0 +1,4 @@
+2007-09-02T12:47:00.000Z	jonathan__		hey guys
+2007-09-02T12:48:00.000Z	jonathan__		would there be a reason why feisty would not detect my broadcom chipset?  lspci shows up nothing.  It picks it up randomly and it then works fine through ndiswrapper, otherwise, I have no wifi.
+2007-09-02T12:49:00.000Z	maccam94	jonathan__	when it disappears, check the output of dmesg
+2007-09-02T12:52:00.000Z	jonathan__	maccam94	checked there, this is what I got, ndiswrapper loads up but ... [  101.778670]  lp: driver loaded but no devices found

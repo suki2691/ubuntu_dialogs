@@ -1,0 +1,4 @@
+2009-08-14T03:47:00.000Z	jMyles		Let's say I have an output from a command line and I want to grab the nth element from each row.... How?
+2009-08-14T03:47:00.000Z	kaddi	jMyles	try awk
+2009-08-14T03:48:00.000Z	jMyles	kaddi	awk $4 or something like that?  I've done it before, I just can't recall.
+2009-08-14T03:49:00.000Z	kaddi	jMyles	I haven't used it in a while either.. but from memory: awk -F"seperator you're using" '{print $4}' should work

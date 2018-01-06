@@ -1,0 +1,4 @@
+2005-05-26T09:27:00.000Z	kev2123		does anyone know how i can see the temperature of my CPU in ubuntu?
+2005-05-26T09:28:00.000Z	kev2123		yea i saw gkrelm on google but i couldnt apt-get it
+2005-05-26T09:28:00.000Z	kev2123		wesw:ok thanks so much :) it just seems the fan of my laptop doesnt shut off in ubuntu, im kinda worried
+2005-05-26T09:30:00.000Z	pestilence	kev2123	you might be able to see the temperature of your laptop with cat /proc/acpi/thermal_zone/THRM/temperature

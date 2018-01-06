@@ -1,0 +1,4 @@
+2012-09-11T12:25:00.000Z	dalek_		HOw do I find a process name from its process ID? I want to know which process is 1574
+2012-09-11T12:26:00.000Z	gordonjcp	dalek_	ps ax | grep 1574 ?
+2012-09-11T12:40:00.000Z	gordonjcp	dalek_	kill ?
+2012-09-11T12:40:00.000Z	gordonjcp	dalek_	maybe "sudo pkill X"?

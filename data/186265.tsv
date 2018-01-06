@@ -1,0 +1,4 @@
+2006-09-07T05:08:00.000Z	zm0	Laibsch	sudo netstat -pat to look wich process is listening on port 25
+2006-09-07T05:13:00.000Z	Laibsch	zm0	Thanks.  I did as you suggested.  I grepped for 25 but did not find any listening connection.  telnet to localhost 25 works fine.
+2006-09-07T05:15:00.000Z	zm0	Laibsch	grep for 'smtp' or netstat -patn
+2006-09-07T05:38:00.000Z	Laibsch	zm0	Thanks for helping.  Looks like I was experiencing https://launchpad.net/distros/ubuntu/+source/exim4/+bug/48045 exim will not stop on dapper if told to.

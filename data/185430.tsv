@@ -1,0 +1,4 @@
+2009-12-22T19:48:00.000Z	gdb		Yes, at home I use a Windows networking protocol to hook a Mac OS X machine to a Linux machine.  And I have no Windows machines at all (other than this laptop from work).  Ironic, no?
+2009-12-22T19:50:00.000Z	erUSUL	gdb	SAMBA implements CIFS unix extensions (permissions etc..) so is not a bad choice for linux to linux anymore. or so i heard
+2009-12-22T19:52:00.000Z	gdb	erUSUL	That very well could be.  The end result I was looking for on OSX was to have a shared network drive on the desktop.  I'm not sure using OSX as an NFS client will provide that (I think it will work like NFS on any other Unix).  I can't see it being a bad option for Linux -> Linux.  It's pretty seamless on OSX when under /Volumes.
+2010-02-15T18:50:00.000Z	erUSUL	gdb	sudo sh -c "your piped command" or using tee « echo modulename |  sudo tee -a /etc/modules »

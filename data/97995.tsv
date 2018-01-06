@@ -1,0 +1,4 @@
+2011-01-14T06:58:00.000Z	ssbpls		hello, something happen to my ubuntu system. I am using the 9.10 and i want to study php. But when i want to install phpmyadmin , i can't install it . The problem is as followed: Depends: php5-common (= 5.2.10.dfsg.1-2ubuntu6) but 5.2.10.dfsg.1-2ubuntu6.4 is to be installed . How to update php5-common?
+2011-01-14T06:59:00.000Z	ssbpls		who can help me solve the problem?
+2011-01-14T06:59:00.000Z	izinucs	ssbpls	sudo apt-get install phpmyadmin
+2011-01-14T07:00:00.000Z	izinucs	ssbpls	check and see which version of php you have installed.. then look in aptitude or synaptic for different versions available.. uninstall the wrong one and install the one you need.

@@ -1,0 +1,4 @@
+2007-07-15T16:59:00.000Z	arooni_		how do i kill the ERROR: Module snd_hda_intel is in use (snd_hda_intel)
+2007-07-15T16:59:00.000Z	arooni_		how do i kill that module
+2007-07-15T16:59:00.000Z	arooni_		while its in use
+2007-07-15T16:59:00.000Z	crimsun	arooni_	kill $(lsof -t /dev/dsp* /dev/audio* /dev/mixer* /dev/seq* /dev/snd/*)

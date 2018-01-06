@@ -1,0 +1,4 @@
+2008-11-18T22:57:00.000Z	r3dxp		can someone help me fix my x server ? i run ubuntu 8.10 on thinkpad t61 with NVIDIA quadro NVS 140m, and I am planning on using the restricted nvidia driver 177.80 that comes with ubuntu. my problem is that when i start up x server by startx, i think something else is being loaded with the xorg.conf file that overwrites my x server settings
+2008-11-18T22:58:00.000Z	r3dxp		i disabled it by removing the gdm
+2008-11-18T22:58:00.000Z	scientes	r3dxp	you should start x with /etc/init.d/gdm start generally
+2008-11-18T22:59:00.000Z	scientes	r3dxp	apt-get install ubuntu-desktop or apt-get install gdm (prob)

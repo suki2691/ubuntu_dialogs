@@ -1,0 +1,4 @@
+2006-10-28T10:11:00.000Z	ztrek		lookin for some help in setting up ftp server, particular, vsftpd, i cannot "overwrite" files, and when i upload, by deleting and uploading as new, the attributes are 600, even with umask 0022, and i have to manuall add permisions for web server to read page, i checked the forum, no luck, any ideas?
+2006-10-28T10:13:00.000Z	andresmujica	ztrek	if you look in /etc/vsftpd.conf you'll find an umask create files option, also an overwrite or create file
+2006-10-28T11:05:00.000Z	andresmujica	ztrek	and with 022 only?
+2006-10-28T11:09:00.000Z	andresmujica	ztrek	 maybe you can try another one.  also look here http://vsftpd.beasts.org/vsftpd_conf.html  and maybe try /join #vsftpd

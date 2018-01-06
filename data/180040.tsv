@@ -1,0 +1,4 @@
+2008-05-04T22:22:00.000Z	sls		how do I unzip lots of files in a directory -- kind of like: for {*.zip} unzip $
+2008-05-04T22:23:00.000Z	jrib	sls	for file in *; do unzip $file; done
+2008-05-04T22:23:00.000Z	sls	jrib	thanks
+2008-05-04T22:23:00.000Z	jrib	sls	better:  for file in *.zip; do unzip $file; done

@@ -1,0 +1,4 @@
+2011-08-11T04:29:00.000Z	tonyk		in my new account i give same name and same psswd that last one
+2011-08-11T04:30:00.000Z	tonyk		for example if i install another ubuntu version in the partition sda1 how could i keep using my home folder that is in sda2?
+2011-08-11T04:30:00.000Z	escott	tonyk	your password unlocks a file that contains the key used to encrypt the files, so the same password isn't enough
+2011-08-11T04:31:00.000Z	escott	tonyk	see https://help.ubuntu.com/community/EncryptedPrivateDirectory

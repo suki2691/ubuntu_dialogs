@@ -1,0 +1,4 @@
+2009-05-15T03:18:00.000Z	Shapeshifter		I have this ntfs partition with some text files on it. for some reason, all of these are marked as executables, so that nautilus keeps asking if I want to display or execute. Even if I create a new "empty file" and call it text.txt if asks.
+2009-05-15T03:19:00.000Z	Shapeshifter		how can I get it not to mark all files as executable??
+2009-05-15T03:19:00.000Z	jdu	Shapeshifter	you must set umask (or dmask and fmask) in /etc/fstab
+2009-05-15T03:20:00.000Z	Shapeshifter	jdu	Seveas: thanks

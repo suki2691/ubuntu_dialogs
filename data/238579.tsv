@@ -1,0 +1,4 @@
+2005-11-10T15:17:00.000Z	feugan3333		Is it safe to delete a lock file if there is no process using it (eg /var/lock/bum)?
+2005-11-10T12:02:00.000Z	feugan3333		Hi all. How does the alternatives system work. For example when I use the vi command, it uses the symbolic link to /usr/bin/vim. Would I need to edit the symbolic link to use another program?
+2005-11-10T12:03:00.000Z	roshan	feugan3333	Try update-alternatives(8)
+2005-11-10T12:05:00.000Z	roshan	feugan3333	You might also want to see galternatives from universe

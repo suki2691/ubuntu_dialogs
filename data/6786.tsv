@@ -1,0 +1,4 @@
+2011-12-29T07:49:00.000Z	imanc1		hey folks I have a "waiting for lock on localhost:xxx" type issue with a program I'm trying to run on the cmd line. What command can I use to list which processes and bound to which ports?
+2011-12-29T07:50:00.000Z	escott	imanc1	lsof
+2011-12-29T07:50:00.000Z	escott	imanc1	and netstat
+2011-12-29T07:51:00.000Z	imanc1	escott	thanks - lsof did the trick. I just nuked/-9 the b******

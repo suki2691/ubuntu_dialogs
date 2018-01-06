@@ -1,0 +1,4 @@
+2007-06-09T14:49:00.000Z	MistaED		hey all, where does ubuntu keep it's database on what ethX goes where? i need to change one from eth2 to eth0
+2007-06-09T14:51:00.000Z	slackmagic	MistaED	edit /etc/modprobe.conf and enter something like      alias eth0 DRIVERNAME1
+2007-06-09T14:51:00.000Z	slackmagic	MistaED	examples are       alias eth0 8139too
+2007-06-09T14:51:00.000Z	slackmagic	MistaED	or       alias eth1 3c59x        for example...

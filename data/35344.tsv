@@ -1,0 +1,4 @@
+2011-06-17T13:12:00.000Z	Airris		well that plan failed entirely.  maybe someone new is around that can help : I have source code for a version of a library newer than what's in the repositories. I want to install it without having to remove the hundreds of dependencies the old library has. Not breaking half of the system in doing this would be nice too :P
+2011-06-17T13:13:00.000Z	mgolisch	Airris	install it into some custom prefix?
+2011-06-17T13:13:00.000Z	Airris	mgolisch	: will the programs hunting for this newer version still be able to find it?
+2011-06-17T13:35:00.000Z	Airris	mgolisch	ok... looks like everyone just agreed startup script is the way to go. how do i do that?

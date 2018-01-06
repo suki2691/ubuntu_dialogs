@@ -1,0 +1,4 @@
+2012-06-04T19:20:00.000Z	jnwhiteh		Since upgrading to 12.04, the brightness keys on my Thinkpad x121e no longer work. If I run xev or evtest to try and get the key codes, they're just completely swallowed and ignored. The volume keys (Fn-F2/F3) work, but the brightness (Fn-F8/F9) don't. Anyone have any ideas?
+2012-06-04T19:21:00.000Z	Dr_Willis	jnwhiteh	 id check the forums and askubuntu.com for info on that exact make machine. there maybe some known issues and work arounds.
+2012-06-04T19:23:00.000Z	jnwhiteh	Dr_Willis	most of what I've seen is outdated, and they used to work on 11.10 but I'll keep looking.
+2012-06-04T19:23:00.000Z	Dr_Willis	jnwhiteh	 when you hit the keys . check dmesg output soon afterwards.. see if it mentions them

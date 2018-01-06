@@ -1,0 +1,4 @@
+2008-11-26T07:12:00.000Z	solid_liq	innovate2000	what happens when you type:   host domain.local      ?
+2008-11-26T07:13:00.000Z	innovate2000		all, I have disabled Avahi so the .local tld (as well as mDNS) should not be impacting anything
+2008-11-26T07:17:00.000Z	innovate2000		my nsswitch.conf line for "hosts"  just has "files dns" (like my other Hardy boxes)
+2008-11-26T07:18:00.000Z	innovate2000	solid_liq	when I enter "host domain.local" nothing happens

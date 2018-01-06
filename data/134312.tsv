@@ -1,0 +1,4 @@
+2007-09-24T16:48:00.000Z	mm23		when i am use the command line "wget -i" i should write the filename after the i without space ? like this "wget -iLINKS.TXT" ?
+2007-09-24T05:05:00.000Z	mm23		i made bash script of download links "wget -i links01.txt" .. "wget -ilinks02.txt" and i want the bash script will wait 30 secs between the commands some know how 2 do that ?
+2007-09-24T05:06:00.000Z	sapumal	mm23	sleep 30000
+2007-09-24T05:12:00.000Z	sapumal	mm23	yes on bash sleep 30 will do that.

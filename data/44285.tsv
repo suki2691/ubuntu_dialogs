@@ -1,0 +1,4 @@
+2009-12-02T11:01:00.000Z	techtronic		hi folks can some one tell me what im doing wrong with this:
+2009-12-02T11:01:00.000Z	techtronic		cat /var/log/syslog | grep `date +"%b %e" ` > `date +syslog.%d-%m-%Y.log`
+2009-12-02T11:01:00.000Z	techtronic		grep: 2: No such file or directory
+2009-12-02T11:02:00.000Z	quiescens	techtronic	the `` after the grep will expand to more than one word, which grep will assume is multiple arguments

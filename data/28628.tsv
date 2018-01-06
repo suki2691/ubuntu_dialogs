@@ -1,0 +1,4 @@
+2010-07-24T16:31:00.000Z	stukad		Does anyone know how to check the mouse rate in ubuntu?
+2010-07-24T16:32:00.000Z	janisozaur	stukad	you mean reported events per unit of time?
+2010-07-24T16:33:00.000Z	stukad	janisozaur	like pollrate, but actually see the HZ
+2010-07-24T16:34:00.000Z	janisozaur	stukad	one way, perhaps not the most obvious, would be to hook up to /dev/input device and actually count them via some shell script

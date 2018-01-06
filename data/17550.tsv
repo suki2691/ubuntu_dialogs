@@ -1,0 +1,4 @@
+2011-03-07T23:00:00.000Z	nictrasavios		Oh, dose anyone know how to connect to a passworldless wlan0 network via terminal?
+2011-03-07T23:00:00.000Z	nictrasavios		Its the one thing i can't do in the terminal, and probably the only thing i have to do via GUI.
+2011-03-07T23:01:00.000Z	dajhorn	nictrasavios	Look at the wpa_cli and wpa_supplicant programs.   You can also add the wlan0 to /etc/network/interfaces and use ifup+ifdown instead.
+2011-03-07T23:03:00.000Z	nictrasavios	dajhorn	alright i will :)

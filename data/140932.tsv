@@ -1,0 +1,4 @@
+2009-02-21T03:47:00.000Z	whacked		i have created a dual boot but windows does not appear on grub boot loader, I have 2 separate hd's one for windows the other ubuntu. when i installed ubuntu i physically unplugged the windows Hd so when installing ubuntu it would not be able to detect that HD,  i have tried to install Ubuntu with both Hd connnected but Ubuntu always wanted me to use the Hd that windows was installed on, i did try to manual install to 
+2009-02-21T03:47:00.000Z	whacked		i have install kgrubeditor which appear making the process easier to understand
+2009-02-21T03:48:00.000Z	burkmat	whacked	You need to modify your menu.lst file.
+2009-02-21T03:54:00.000Z	burkmat	whacked	You're not going to screw everything up by making a typo, at worst you're going to have to edit it and fix the problem... Nobody is going to be able to give you a 100% definitive answer.

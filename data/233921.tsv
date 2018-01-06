@@ -1,0 +1,4 @@
+2005-07-13T15:40:00.000Z	REWind		Hi! I just recovered my computer after a Windows installation. But when grub reinstalled itself on the bootblock it started to name the partitions diffrent since before
+2005-07-13T15:40:00.000Z	REWind		Is it any way to get grub to understand the real partitions names?
+2005-07-13T15:41:00.000Z	tiglionabbit	REWind	grub numbers your partitions by their order from the master, starting with hd0,0
+2005-07-13T15:45:00.000Z	REWind	tiglionabbit	I needed to remove the windows partion and the swap partion to be albe to reformat and recreate the windows partition before installation. That created a change in partitions number as you say... it counts from the "master".. What I did was load a live CD and then rearrange the partitions so they have the same numbering as before and then reinstalled grub. That was my misstake I would say.

@@ -1,0 +1,4 @@
+2010-08-03T02:09:00.000Z	prakriti		I've been using fat32 to share a partition between windows and ubuntu.   Has ntfs support gotten to the point where it would work better for this?
+2010-08-03T02:10:00.000Z	prakriti		I see they support symlinks now,  and it supports larger files than fat32.
+2010-08-03T02:11:00.000Z	Jordan_U	prakriti	The only downside to using ntfs is that there is no chkdsk equivelent for linux, which means that if it's unmounted uncleanly you may have to use windows to repair it before it will mount again in linux.
+2010-11-06T01:28:00.000Z	Jordan_U	prakriti	You probably just want to use padsp / aoss instead.

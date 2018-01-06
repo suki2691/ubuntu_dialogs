@@ -1,0 +1,4 @@
+2008-04-28T15:00:00.000Z	yamas		I am having some problems installing 8.04 on a macbook, dual boot with X. Anyone have any experience of this?
+2008-04-28T15:02:00.000Z	yamas		yes I have a boot manager running. I have run bootcamp and created a 5gb partition which I then deleted from the hardy partition manager and recrreated ext3 mount point /  and a 1gb /swap I can see the partition in the boot manager but when I try to boot I get missing opertaing system
+2008-04-28T15:04:00.000Z	LSD|Ninja	yamas	where did you tell Ubuntu to put grub?
+2008-04-28T15:09:00.000Z	LSD|Ninja	yamas	you have to tell Ubuntu to install grub into the virtual MBR part of the volume, not the beginning of the drive. Once that's done you can use the boot menu in the firmware (and possibly the startup disk control panel in OSX as well, I forget) to boot Ubuntu. It'll still say "Windows" but ignore that. If you don't want to do that, look into installing a third part boot manager such as rEFIt

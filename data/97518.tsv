@@ -1,0 +1,4 @@
+2008-03-14T21:20:00.000Z	micadeyeye		any any any help!!!!
+2008-03-14T21:21:00.000Z	skillz	micadeyeye	what help u want?
+2008-03-14T21:21:00.000Z	micadeyeye	skillz	hey, i get this error in var/log/apache2/error.log "sh: mkfifo: Permission denied". the php script has this code "@system("mkfifo -m 666 ".$config->reply_fifo_path );" how can i fix this? i think my apache doesn't have the permission to run that code. seems i need to do something like chown www-data somewhere??????
+2008-03-14T21:22:00.000Z	skillz	micadeyeye	sorry apache isnt my strongest.. ask someone else on this channel

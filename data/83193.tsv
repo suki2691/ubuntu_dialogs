@@ -1,0 +1,4 @@
+2009-04-16T06:23:00.000Z	seige232		here we go... large explaination incoming...
+2009-04-16T06:24:00.000Z	seige232		Well, I ran into an issue with my VMWare Infrastructure... I have a non-persistent virtual machine that I depend on. It crashed, and the overlay file (redo-file) was deleted. I ran 4 hours worth of Data Forensics on the containing physical Hard Disk, and determined that the files are nolonger existent, or simply could not be detected under windows. The Partition of the drive in question is formatted under the EXT3 format. I was simply wond
+2009-04-16T06:24:00.000Z	seige232		any thoughts, anyone?
+2009-04-16T06:25:00.000Z	ryanprior	seige232	restore from backup

@@ -1,0 +1,4 @@
+2005-02-27T17:33:00.000Z	marcin_ant		hi
+2005-02-27T17:33:00.000Z	marcin_ant		how to remove package which has broken uninstallation script?
+2005-02-27T17:34:00.000Z	mjt	marcin_ant	the scripts are in /var/lib/dpkg/info/package.* (* is postrm, preinst etc) - you can edit it
+2005-02-27T17:37:00.000Z	marcin_ant	mjt	great - thanks !

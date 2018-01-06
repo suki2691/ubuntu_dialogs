@@ -1,0 +1,4 @@
+2012-08-16T18:04:00.000Z	tech1		how can i check if a specific program is installed via terminal... without running the program with it's name
+2012-08-16T18:04:00.000Z	tech1		or using a string search which will turn up lots of other stuff
+2012-08-16T18:05:00.000Z	tech1		it says "deb command not found"
+2012-08-16T18:06:00.000Z	Pici	tech1	if you know what package it is in, you can use apt-cache policy or dpkg -l to determine if it is installed.

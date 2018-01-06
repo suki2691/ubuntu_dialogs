@@ -1,0 +1,4 @@
+2008-06-13T00:35:00.000Z	stodan		ok, another approach: if i have 2 disks, one with that huge delay on grub loading and one which works fine (same disks, and almost the same partition layout (at least / and /boot)), what configs i should try to compare? (same kernel versions also)
+2008-06-13T00:36:00.000Z	HardDisk	stodan	fsck the drives unmounted, and double check it
+2008-06-13T00:36:00.000Z	HardDisk	stodan	also see if they are both ext3 or one is ext2 (which will be slightly slower)
+2008-06-13T00:38:00.000Z	stodan	HardDisk	both drives are brand new, /boot is 512mb, everything ext3, after Starting up... message it works like a charm, it broke, when i cp -a / /target from my old drive (preserving fstab and menu.lst)

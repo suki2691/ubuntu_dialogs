@@ -1,0 +1,4 @@
+2008-01-03T09:20:00.000Z	drgeb		how do I resolve this error: "mv: cannot move to a subdirectory of itself ?
+2008-01-03T09:21:00.000Z	Em3raldMcSquizzy	drgeb	it means you are trying to copy a folder into a folder inside the first one.
+2008-01-03T09:29:00.000Z	drgeb	Em3raldMcSquizzy	is there a way to force the move to happen and copy just the files over ontop pf each other
+2008-01-03T09:31:00.000Z	Em3raldMcSquizzy	drgeb	well, it's a wierd issue.  I just wanna make sure I know what the issue is.  Correct me if I am wrong.  You have folder A.  Folder B is inside folder A.  You are trying to MOVE folder A INTO folder B.  There lies the problem.  So, if this is true, then I must ask why you are trying to do that?

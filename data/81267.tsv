@@ -1,0 +1,4 @@
+2010-10-22T02:04:00.000Z	ftornell		question: have a wifi card (Dlink DWA140 that only works when I use "sudo rmmod rt2800usb") I have to do that every time I boot the computer. Is there anyway of removing that completely so I don't have to manually do the removal every single time?
+2010-10-22T02:05:00.000Z	ActionParsnip	ftornell	add the module name in /etc/modules
+2010-10-22T02:06:00.000Z	ftornell	ActionParsnip	add the module? i want to remove that module so my d-link works...they collide!
+2010-10-22T02:07:00.000Z	ActionParsnip	ftornell	then blacklist it in /etc/modeprobe.d/blacklist-ath_pci.conf

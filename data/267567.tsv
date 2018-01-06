@@ -1,0 +1,4 @@
+2009-12-19T00:10:00.000Z	dayz		hi
+2009-12-19T00:11:00.000Z	dayz		does anyone know how do i make a directory writable by a particular group?
+2009-12-19T00:11:00.000Z	maco	dayz	chgrp <newgroup> dir/
+2009-12-19T00:11:00.000Z	maco	dayz	then chmod g+w dir/

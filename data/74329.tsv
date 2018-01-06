@@ -1,0 +1,4 @@
+2009-07-08T18:17:00.000Z	shay27m		Hello , i would like to download file using wget command , but someting strange ... when i open mozilla and past this link (pdf document from the UN website into the url place the download start . file = 17 mb) but when i using wget its not working any ideas?
+2009-07-08T18:18:00.000Z	shay27m		this is the link : http://daccessdds.un.org/doc/UNDOC/GEN/NR0/732/57/IMG/NR073257.pdf
+2009-07-08T18:18:00.000Z	oskar-	shay27m	 set the correct referrer
+2009-07-08T18:22:00.000Z	oskar-	shay27m	 set referer (--referer=url) and user agent (-U ...) and the web server will not recognize the difference between wget and a browser for direct downloads

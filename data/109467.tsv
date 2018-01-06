@@ -1,0 +1,4 @@
+2008-05-25T23:20:00.000Z	tarelerulz		my system say it is last update 32 days ago ,but I have been downloading secirty updates this whole time.  It says it can't update this http://us.archive.ubuntu.com/ubuntu/dists/hardy/Release  Unable to find expected entry  web/binary-i386/Packages in Meta-index file (malformed Release file?).  What should I do ?
+2008-05-25T23:21:00.000Z	KRaZy_WaKa	tarelerulz	change your sources, remove the us. from in front of all of them
+2008-05-25T23:23:00.000Z	KRaZy_WaKa	tarelerulz	if you remove "us." your packages will come direct from the main servers, which are always up to date
+2008-05-25T23:31:00.000Z	KRaZy_WaKa	tarelerulz	system > administration > software sources provides a GUI to set your sources.list

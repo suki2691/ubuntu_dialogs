@@ -1,0 +1,4 @@
+2012-06-23T12:04:00.000Z	Dawn262		what is the command line to edit grub2 in 12.04?    I remember i have to update-grub, but don't recall the line to get to edit...
+2012-06-23T12:05:00.000Z	oCean	Dawn262	use your favorite editor to edit /etc/default/grub
+2012-06-23T12:13:00.000Z	Dawn262	oCean	it is a read only in etc/default/grub  i remember there was a sudo command in terminal i could use to edit in terminal.  Help?
+2012-06-23T12:14:00.000Z	oCean	Dawn262	indeed. If you are using a cli editor, then you can use sudo vi /etc/default/grub

@@ -1,0 +1,4 @@
+2009-02-04T03:43:00.000Z	corey__		I'm sure most are familiar with the dnsmasq technique to cache dns requests locally. I have not been successful in configuring this to work with a wireless device. Can someone offer some insight on what could be the issue? Seems it doesn't respond to wlan0 (but works great with eth0)
+2009-02-04T03:44:00.000Z	corey__		My AP is a little far away and I'm connected at 1Mb/s. This is causing dns resolving to be painfully slow. What are my options?
+2009-02-04T03:45:00.000Z	rdw200169	corey__	you could do something crazy and set up a repeater bridge w/ a second wireless router using dd-wrt firmware...
+2009-02-04T03:48:00.000Z	rdw200169	corey__	yeah, but do you know if there are any packet errors over the wireless link?

@@ -1,0 +1,4 @@
+2010-07-25T08:41:00.000Z	jvm		hi. i migrated an old ubuntu user to ubuntu 9.10, and want to encrypt his home directory. could i simply do "sudo adduser –encrypt-home foo", login with his old user, login with his new user, then move all data from the old home directory to the new home directory, delete the old user, and rename the new one?
+2010-07-25T08:43:00.000Z	Flannel	jvm	You want to encrypt the whole home folder? or just the Private folder in it?
+2010-07-25T08:43:00.000Z	jvm	Flannel	there is currently no Private folder. i want to encrypt the whole home directory.
+2010-07-25T08:45:00.000Z	Flannel	jvm	Yeah, but you can add an encrypted private folder.  Alright.  http://blog.dustinkirkland.com/2009/06/migrating-to-encrypted-home-directory.html  Is a howto for migrating

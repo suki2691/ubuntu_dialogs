@@ -1,0 +1,4 @@
+2010-06-22T11:03:00.000Z	Gwar		Hi all. is it possible to allow sudo to be able to run at boot for (say) a Minute after login? I currently have to run a program manually as sudo every time I login and it's frustrating to have to type out a 20+ long password twice, especially since I just logged in! D:
+2010-06-22T11:04:00.000Z	jook	Gwar	It's possible to set scripts to run on login. You could probably do it through there, but I'm not familiar enough with the process to link you.
+2010-06-22T11:05:00.000Z	Gwar	jook	thank you. I know how to make the script run on login, the problem is it needs to run as sudo, which then asks for my password, 2 seconds after I just typed the thing in to login! D:
+2010-06-22T11:05:00.000Z	jook	Gwar	Oh, sorry. Guess I can't help you there, if there's no command to have the script supply the password to itself.

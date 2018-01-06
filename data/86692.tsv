@@ -1,0 +1,4 @@
+2008-10-31T06:16:00.000Z	aheckler		i cannot seem to turn off my PC speaker in Intrepid, anybody have ideas or solutions?
+2008-10-31T06:16:00.000Z	snova	aheckler	blacklist the pcspkr module
+2008-10-31T06:17:00.000Z	snova	aheckler	add "blacklist pcspkr" to /etc/modprobe.d/blacklist, and for now run "rmmod pcspkr" so you don't have to reboot
+2008-10-31T06:18:00.000Z	aheckler	snova	worked, thanks!!!

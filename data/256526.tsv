@@ -1,0 +1,4 @@
+2007-06-03T08:20:00.000Z	Rescue9		is it possible to select os prior to reboot via command line?
+2007-06-03T08:20:00.000Z	Rescue9		I need to select the ubuntu partition without KVM attached.
+2007-06-03T08:20:00.000Z	dr_willis	Rescue9	 ya could make a script to change the grubs menu.lst - i have seen some disrtos have that option in the kdm/gdm logout/reboot menus (not sure how they did that however)
+2007-06-03T08:21:00.000Z	dr_willis	Rescue9	 grub also has a default/makedefault option where it can rember the last selected  item.

@@ -1,0 +1,4 @@
+2009-08-15T08:01:00.000Z	gartral		whats the difference between autoclean and autoremove?
+2009-08-15T08:02:00.000Z	gartral		wow... ubottu crashed
+2009-08-15T08:03:00.000Z	bucky	gartral	apt-get remove cleans out /var/cache/apt/archives/   apt-get autoremove   removes orphaned packages from the system that are no longer required
+2009-08-15T08:04:00.000Z	bucky	gartral	s/apt-get remove / apt-get clean

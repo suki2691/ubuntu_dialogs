@@ -1,0 +1,4 @@
+2008-12-03T20:14:00.000Z	AlexMax		Hi there.  I notice that apache's configuration files are split up six ways to sunday.  How 'automatic' is apache's configuration reading?  Like, if I put in a .conf file into /etc/apache2/mods-enabled, will it be read by apache?  Or do I need to modify something to tell apache to look for an extra conf file?
+2008-12-03T20:16:00.000Z	IceWind	AlexMax	it reads it automagically
+2008-12-03T20:16:00.000Z	AlexMax	IceWind	Awesome thanks
+2008-12-03T20:16:00.000Z	IceWind	AlexMax	don't forget to put also the .load if you need to load a module.

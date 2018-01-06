@@ -1,0 +1,4 @@
+2009-08-13T02:21:00.000Z	guntbert	levander	lsb_release -a does it as well
+2009-08-13T02:22:00.000Z	levander	guntbert	Thanks, that command has better output, and isn't dependent upon the user not changing /etc/issue.  Thanks.
+2009-08-13T02:23:00.000Z	guntbert	levander	you are welcome and thanks for the additional reasoning
+2009-08-13T02:26:00.000Z	guntbert	levander	as for the config file: lsb_release -a takes its info from /etc/lsb-release (that knowledge came in handy a few days ago)

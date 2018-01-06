@@ -1,0 +1,4 @@
+2011-01-22T12:37:00.000Z	HelpMeSamba		Hello everyone, I had a working samba setup until this afternoon, I changed my computer name and now I'm unable to connect to my samba shares even though I can see it on my other machines within the network. Can anyone tell me what is wrong or what can i do to fix this? I tried nmbd restart and nmbd restart and I can see my shares when i do a smbclient -L SERVERNAME
+2011-01-22T12:38:00.000Z	HelpMeSamba		o i meant smbd restart
+2011-01-22T12:40:00.000Z	HelpMeSamba		Ok nvm.. i fixed my samba by myself turns out the drives were not mounted. Can anyone tell me how I can set it to automount my external harddisks?
+2011-01-22T12:41:00.000Z	ZykoticK9	HelpMeSamba	add it to /etc/fstab

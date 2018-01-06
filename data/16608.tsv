@@ -1,0 +1,4 @@
+2011-03-23T13:23:00.000Z	hosein		If I remove an installed package from ubuntu software center, should I download it again? can I keep its deb for later use?
+2011-03-23T13:25:00.000Z	bluum	hosein	find /var -name \*.deb
+2011-03-23T13:28:00.000Z	bluum	hosein	do this experiment. install some package, uninstall it, pull the network plug, try to install again
+2011-03-23T13:34:00.000Z	bluum	hosein	you might have the option to either "uninstall" or to "prune" a package. pruning deletes the configuration.

@@ -1,0 +1,4 @@
+2009-10-06T15:41:00.000Z	crazymaz		Quick question guys, i have Ubuntu 9.04 with AR242x wifi adapter (168c:001c) how do i get it working?
+2009-10-06T15:42:00.000Z	crazymaz		Can anyone help me to get that wifi adapter installed?
+2009-10-06T15:43:00.000Z	ActionParsnip	crazymaz	sudo lshw -C network     will tell you the chi pused, you can then websearch that
+2009-10-06T16:41:00.000Z	ActionParsnip	crazymaz	not all adapters can do wpa2 under linux

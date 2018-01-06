@@ -1,0 +1,4 @@
+2009-09-29T12:06:00.000Z	colinmarc		say I have a mounted volume inside a folder that I'm sharing. How can I set the permissions of the mounted volume to allow sambashare users to rw? I tried editing fstab with option users, and I tried chmod, and I tried changing the permissions in nautilus, no luck
+2009-09-29T12:07:00.000Z	ndlovu	colinmarc	I'm no expert, but I think you do that in the smb.conf file
+2009-09-29T12:19:00.000Z	ndlovu	colinmarc	can you write to the mounted volume if you don't go through samba (ie as a regular user on the machine)?
+2009-09-29T12:19:00.000Z	colinmarc	ndlovu	no, not without root access

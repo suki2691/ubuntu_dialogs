@@ -1,0 +1,4 @@
+2010-01-03T03:47:00.000Z	Dasda		is there anyway to format a hdd from a live cd? i have a laptop that wont boot from hdd. I booted the laptop using ubuntu9.10livecd. Is there anyway i can format the hdd without actually installind ubuntu? I just basically want to wipe the hdd. Ubuntu is telling me the "disk is failing". That probably is true but i just want to see what it says after i format it because it says bad sectors
+2010-01-03T03:48:00.000Z	Dasda		is gparted included in ubuntu live cd? or mkfs?
+2010-01-03T03:49:00.000Z	Dasda		oh ok green453
+2010-01-03T03:49:00.000Z	jcdutton	Dasda	try running "smartctl -a /dev/sda" and see if the sector relocation count is greater than zero

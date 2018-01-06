@@ -1,0 +1,4 @@
+2006-05-23T14:16:00.000Z	pro777		I'm trying to install Ubuntu amd64, and my video card isn't supported with the default drivers.  I want to do the trick that I used on other installs where I edited xorg.conf to vesa, and then installed the updated drivers from Nvidia.
+2006-05-23T14:16:00.000Z	pro777		But I can't find that file on the amd64 install.  Any suggestions?
+2006-05-23T14:17:00.000Z	LinuxJones	pro777	sudo dpkg-reconfigure xserve-xorg
+2006-05-23T14:18:00.000Z	pro777	LinuxJones	I tried that and it says that xserve-xorg is not installed.  It is just a vanilla install.

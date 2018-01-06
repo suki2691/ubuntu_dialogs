@@ -1,0 +1,4 @@
+2008-02-14T23:44:00.000Z	fiXXXingRAID		How can I tell ubuntu server to add 'bnx2' to modprobe?
+2008-02-14T23:44:00.000Z	fiXXXingRAID		on startup*
+2008-02-14T23:45:00.000Z	MasterShrak	fiXXXingRAID	you can put   modproeb bnx2   in /etc/rc.local
+2008-02-14T23:46:00.000Z	MasterShrak	fiXXXingRAID	maek sure its executeable too though: sudo chmod +x /etc/rc.local

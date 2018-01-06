@@ -1,0 +1,4 @@
+2010-12-29T19:15:00.000Z	michaelgamble		anyone know what the minimum allocated hard drive space is required to run ubuntu?
+2010-12-29T19:15:00.000Z	michaelgamble		im doing a fresh 32bit install off the iso
+2010-12-29T19:16:00.000Z	michaelgamble		into a vmware environment that i gotta duplicate 500 some odd times
+2010-12-29T19:18:00.000Z	muszek	michaelgamble	you can do an "expandable" partition (at least in virtualbox).  You create say a 10GB partition and if you actually use only 3GB, then the file on the host system will have 3GB.  They say it's a bit slower, though.

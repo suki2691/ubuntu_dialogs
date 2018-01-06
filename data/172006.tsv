@@ -1,0 +1,4 @@
+2007-05-26T14:50:00.000Z	Dice		bridge in feisty , anyone got a tips plz pm-me
+2007-05-26T14:52:00.000Z	Dice		bridge in feisty , anyone got a tips plz pm-me
+2007-05-26T14:52:00.000Z	dcordes	Dice	like network bridges?
+2007-05-26T14:55:00.000Z	dcordes	Dice	"brctl addbr br0" create bridge interface, "brctl addif br0 eth0" add eth0 to the bridge, "brctl addif br0 eth1" add eth1 to the bridge, "ifup br0" bring up your bridge. I hope this helps

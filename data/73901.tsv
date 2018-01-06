@@ -1,0 +1,4 @@
+2010-01-21T11:34:00.000Z	csaba		I have a dual core cpu but I believe my ubuntu uses only one (the resource monitor is always at half max). How to check how many processors ubuntu thinks I have?
+2010-01-21T11:35:00.000Z	csaba		how to check how many CPUs ubuntu thinks I have?
+2010-01-21T11:36:00.000Z	blakkheim	csaba	grep name /proc/cpuinfo | wc -l
+2010-02-24T21:23:00.000Z	blakkheim	csaba	it's always been visudo

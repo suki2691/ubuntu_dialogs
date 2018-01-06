@@ -1,0 +1,4 @@
+2007-03-14T07:12:00.000Z	TelVGG-Ariel		hi folks. Anyone knows if its possible to reinstall entirely the apt system? (the binaries was corrupted in a disk failure)
+2007-03-14T07:13:00.000Z	TelVGG-Ariel		any apt-* command returns segment violation
+2007-03-14T07:14:00.000Z	rm_you	TelVGG-Ariel	yeah, go to packages.ubuntu.com, download the packages you need manually, and install them with dpkg -i --reinstall whatever.deb
+2007-03-14T07:14:00.000Z	rm_you	TelVGG-Ariel	dependencies are normally a pain in the ass, but since you're only reinstalling, it won't be a problem ;P

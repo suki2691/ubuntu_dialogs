@@ -1,0 +1,4 @@
+2007-04-21T14:36:00.000Z	kevinS3		Ive got this messange when i start apache, (98)Address already in use: make_sock: could not bind to address 0.0.0.0:80 no listening sockets available, shutting down Unable to open logs
+2007-04-21T14:36:00.000Z	fade_	kevinS3	something is already listening on port 80
+2007-04-21T14:37:00.000Z	fade_	kevinS3	"netstat -nap" will give you a list of all open ports and the PIDs
+2007-04-21T14:38:00.000Z	fade_	kevinS3	 pipe it through grep then

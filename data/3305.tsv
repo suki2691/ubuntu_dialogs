@@ -1,0 +1,4 @@
+2012-05-28T02:56:00.000Z	khayyim		So I was running partimage on a 200GiB partition, and noticed that while bzip2 and gzip made almost the exact same-sized result, bzip2 took a whole day while gzip only took a few hours. Is this typical? It seemed like bzip2 took several times longer for negligible space savings.
+2012-05-28T02:56:00.000Z	wawowe	khayyim	it always depends on what you're compressing
+2012-05-28T02:57:00.000Z	wawowe	khayyim	but gzip will always be faster
+2012-05-28T02:58:00.000Z	wawowe	khayyim	yea

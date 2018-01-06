@@ -1,0 +1,4 @@
+2007-06-29T08:38:00.000Z	Ze_M		i have deleted and readded a user but now says doesnt belong to passwd and i cant enter admin mode
+2007-06-29T08:38:00.000Z	Ze_M		how can i resolve this?
+2007-06-29T08:38:00.000Z	Ze_M		i have deleted and readded a user but now says doesnt belong to passwd and i cant enter admin mode,how can i resolve this?
+2007-06-29T08:39:00.000Z	stefg	Ze_M	seems you are locked out. Boot to single mode (so you are root) and issue 'adduser <username> admin' to get it to the admin group

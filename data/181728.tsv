@@ -1,0 +1,4 @@
+2006-08-22T07:41:00.000Z	eegore		My xserver has crashed from an update, is there a way to roll back xorg to a previous version?
+2006-08-22T07:41:00.000Z	eegore		I have no gui
+2006-08-22T07:42:00.000Z	eegore		that would work if I can get a web page
+2006-08-22T07:43:00.000Z	jstew	eegore	this downgrade works for me: sudo apt-get install xserver-xorg-core=1:1.0.2-0ubuntu10

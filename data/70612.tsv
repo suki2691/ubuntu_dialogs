@@ -1,0 +1,4 @@
+2008-12-26T12:57:00.000Z	andresmh		I insert a USB pen drive, I type mount and it doesn't seem to show up. Any ideas?
+2008-12-26T12:58:00.000Z	shatly	andresmh	sudo fdisk -k
+2008-12-26T12:58:00.000Z	shatly	andresmh	sudo fdisk -l
+2008-12-26T13:00:00.000Z	shatly	andresmh	because you should know what sudo does at all times, that just prints off every partition on the computer, if it is not in there then more needs to be done, if it is there, i know how to mount via /etc/fstab but not with mount

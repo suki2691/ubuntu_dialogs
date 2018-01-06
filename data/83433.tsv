@@ -1,0 +1,4 @@
+2008-08-05T00:47:00.000Z	nmcbride		how do you find out what video card driver is being used in ubuntu if it isn't in the xorg.conf?
+2008-08-05T00:48:00.000Z	crdlb	nmcbride	by reading the /var/log/Xorg.0.log
+2008-08-05T00:50:00.000Z	nmcbride	crdlb	I see the card name but not the driver?
+2008-08-05T00:50:00.000Z	crdlb	nmcbride	scroll down a bit; it will list a name in all caps in several dozen consecutive lines

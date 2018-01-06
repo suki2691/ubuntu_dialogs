@@ -1,0 +1,4 @@
+2006-06-10T15:02:00.000Z	matt0440		I need to remove a file and it says access denied because i need to remove the file for flash player to work
+2006-06-10T15:02:00.000Z	gdb	matt0440	$ sudo rm filename
+2006-06-10T15:02:00.000Z	gdb	matt0440	Sounds like an ownership issue.  sudo will allow you to remove the file as teh root user.   I would suggest moving it rather than deleting it, however.
+2006-06-10T15:03:00.000Z	gdb	matt0440	Then delete it if you find it's absolutely not needed.

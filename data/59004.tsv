@@ -1,0 +1,4 @@
+2009-04-28T08:46:00.000Z	Rafael_		anybody know how to resize software raid?
+2009-04-28T08:47:00.000Z	tfrew	Rafael_	: is it LVM
+2009-04-28T08:49:00.000Z	Rafael_	tfrew	no is not i have boot with raid1 100mb, swap on raid 1 2gb, system 10 gb raid 5 and rset is 1 tb on raid 5..i try to upgrade ubuntu and is telling me that there is not enough memory on boot
+2009-04-28T08:51:00.000Z	tfrew	Rafael_	: go to live cd, mount your raid volumes, chroot into them, and apt-get all the raid tools

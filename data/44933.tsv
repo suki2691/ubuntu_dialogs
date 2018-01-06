@@ -1,0 +1,4 @@
+2011-09-09T09:39:00.000Z	Vinn0		anyone knows if iptables can start up after a reboot with rules?
+2011-09-09T09:40:00.000Z	almoxarife	Vinn0	it should reload the last good rules it saved
+2011-09-09T09:40:00.000Z	Vinn0	almoxarife	so im guessing /etc/iptables.rules is the rules it loads? so i just edit that?
+2011-09-09T09:41:00.000Z	almoxarife	Vinn0	no, I don't think you edit that

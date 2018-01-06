@@ -1,0 +1,4 @@
+2010-05-26T02:29:00.000Z	samc		folks .. having trouble mounting nfs shares - it seems rpc.statd doesn't start on boot.  I can't mount nfs shares unless I start it by hand -- any suggestions as to how I can make it start automagically?
+2010-05-26T02:29:00.000Z	samc		I've got NEED_STATD set to 'yes' in /etc/default/nfs-common
+2010-05-26T02:30:00.000Z	samc		However it doesn't seem to do the trick
+2010-05-26T02:31:00.000Z	epinky	samc	what about /etc/fstab ?

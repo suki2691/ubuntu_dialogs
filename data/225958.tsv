@@ -1,0 +1,4 @@
+2006-11-13T15:58:00.000Z	The_Belgain		hi there - quick question about startup scripts:
+2006-11-13T15:58:00.000Z	The_Belgain		do they still live in the same place as before (i.e. in init.d) or are those deprecated now that we have the new upstart system?
+2006-11-13T15:59:00.000Z	The_Belgain		i just want to add an extra script to be run at startup (to start a tftp server, and a litening vlc)
+2006-11-13T16:00:00.000Z	trappist	The_Belgain	look at /etc/rc.local

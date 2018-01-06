@@ -1,0 +1,4 @@
+2005-01-24T08:37:00.000Z	kent	Linforcer	i dont use suse, but there is one in next Ubuntu (Hoary). its from gnome system tools. Dont know if it existed in Warty or not.
+2005-01-24T08:50:00.000Z	kent	Linforcer	that you change the identety of the user to the administrator instead of a normal user. that way you can change stuff that you could not do as a user.
+2005-01-24T08:51:00.000Z	kent	Linforcer	oh, you mean "the ./" thing?  its becaus the current directory is not in $PATH, so you have to realy tell the system the thing you want to run is in the current directory
+2005-01-24T08:52:00.000Z	kent	Linforcer	so the "./" is only to tell the system that the program to run is in the current command, it can be done as a normal user aswell. For example, if you write your own script/program and have it in /home/user/  then you change to that directory and run it with ./myprogram.se

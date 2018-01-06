@@ -1,0 +1,4 @@
+2007-02-26T15:28:00.000Z	klimraamkosie		I need help, I did the follwing "sudo usermod -G uucp myusername".  So it removed me from all the groups that I belonged to.  How do I fix it?
+2007-02-26T15:29:00.000Z	dyrne	klimraamkosie	yeah you need to tell it all the groups like group1,group2,group3
+2007-02-26T15:29:00.000Z	dyrne	klimraamkosie	easiest way is to just edit /etc/group with a text editor and put your name in whatever group
+2007-02-26T15:33:00.000Z	dyrne	klimraamkosie	its /etc/group not group- :)

@@ -1,0 +1,4 @@
+2011-01-07T01:59:00.000Z	ignarps		use ssh -X hostname to connect to the remote server
+2011-01-07T02:00:00.000Z	ignarps		then you check for $DISPLAY to have the localhost:10.0 etc.  then x apps should launch
+2011-01-07T02:00:00.000Z	ignarps		unless they turned off X redirection in the sshd_config file
+2011-01-07T02:01:00.000Z	guntbert	ignarps	you are telling him how to get a remot app disply on the local display - I assumed he wanted it to display on the remote...

@@ -1,0 +1,4 @@
+2005-02-09T15:26:00.000Z	wfx		ok again: how do i change the default browser?
+2005-02-09T15:27:00.000Z	wfx		without the "Preferred Applications" dialog
+2005-02-09T15:28:00.000Z	mov_ax_bx	wfx	as root: rm /etc/alternatives/x-www-browser; ln -s path_to_new_browser /etc/alternatives/x-www-browser
+2005-02-09T15:30:00.000Z	wfx	mov_ax_bx	yea now it works thx a lot (strang why it not works with the gnome dialog)

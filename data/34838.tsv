@@ -1,0 +1,4 @@
+2010-04-26T01:41:00.000Z	demifuror		hey guys, im using the "New Wave" theme on my current Ubuntu install. The thing is, im developing a java app, and Im trying to make the app window look just like the other windows in my install. I.e. top window border as dark grey, menu bar dark grey with white text etc. The thing is, only the top window border is dark grey, the mnu bars arent. im using swing for my interface. does anyone know how to get the window to
+2010-04-26T01:41:00.000Z	demifuror		 use the current theme? does it have to be developed using awt or swt?
+2010-04-26T01:42:00.000Z	red2kic	demifuror	Try #java?
+2010-04-26T01:44:00.000Z	red2kic	demifuror	Swing components don't rely on the native widgets of the operating system. Use SWT.

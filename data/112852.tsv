@@ -1,0 +1,4 @@
+2007-11-24T04:44:00.000Z	raichlea		hey all, this is the first time I have seen this message so I wanted to check.   The update notifier was bugging me and when I blindly went to allow it to install all updates it prompts me about "NOT AUTHENTICATED" software.  The ones it is complaining about are capplets-data, libpanel-applet2-0, gnome-control-center, libgnome-windows-settings1, gnome-panel-date, and gnome-panel.   Is this safe?
+2007-11-24T04:45:00.000Z	yotux	raichlea	 sudo aptitude update
+2007-11-24T04:45:00.000Z	yotux		this should fix that auth error
+2007-11-24T04:47:00.000Z	raichlea	yotux	duh thanks

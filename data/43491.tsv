@@ -1,0 +1,4 @@
+2010-12-25T03:50:00.000Z	greezmunkey	prower	mostly, you'll need to read up on resolv.conf as well
+2010-12-25T03:49:00.000Z	greezmunkey	prower	You would need to statically define it in /etc/network/interfaces - probably best in your case to statically define both interfaces there for your purposes.
+2010-12-25T03:49:00.000Z	prower	greezmunkey	ahh, okay...then restart networking and it should be fine, that works
+2010-12-25T03:54:00.000Z	greezmunkey	prower	while you are at the reading thing, check into ufw, or if you are really adventurous iptables for Internet / network routing and firewall functionality

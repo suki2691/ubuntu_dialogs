@@ -1,0 +1,4 @@
+2009-05-27T06:43:00.000Z	usr13	FatsDominoTheory	It has to do with both.  He would also need to edit / change fstab entries.
+2009-05-27T06:44:00.000Z	usr13	FatsDominoTheory	Because sda6 has become sda5 and sda7 has become sda6
+2009-05-27T06:46:00.000Z	usr13	FatsDominoTheory	bernz  So fixing grub will only be one step in the process.  The best / easiest way to fix it is to go back and resize (shrink) sda2 just a little and create a very small sda5.  That will fix every thing.
+2009-05-27T06:48:00.000Z	usr13	FatsDominoTheory	losher: LargePrime:  I'm telling you the easiest / best way to fix it, is to re-create sda5 and shift the now sda5 to sda6 and sda6 to sda7

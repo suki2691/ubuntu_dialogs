@@ -1,0 +1,4 @@
+2006-03-05T13:34:00.000Z	uri		Hi all, I just installed Ubuntu on my work computer. However, I can't seem to change the ownership of any of the files on my FAT32 partitions. They're currently owned by root. And using sudo chown doesn't do it.
+2006-03-05T13:35:00.000Z	HappyFool	uri	i don't think FAT32 supports ownership. you can use the 'umask' mount option to allow other users access to the files
+2006-03-05T13:37:00.000Z	HappyFool		!donate
+2006-03-05T13:44:00.000Z	uri	HappyFool	I would run Knoppix and supported ownership just fine. Ditto my home computer

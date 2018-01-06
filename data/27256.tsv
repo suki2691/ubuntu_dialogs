@@ -1,0 +1,4 @@
+2010-08-19T18:13:00.000Z	godbod		Hello, someone knows how to get DHCP and static ip activated on the same eth0 card for instance ?
+2010-08-19T18:15:00.000Z	wastl	godbod	you can't. What you can do is let eth0 do dhcp and create a "virtual" eth0: with  a static config
+2010-08-19T18:15:00.000Z	wastl	godbod	but in this case mind your routing
+2010-08-19T18:16:00.000Z	godbod	wastl	> how can I do that ?

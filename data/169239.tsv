@@ -1,0 +1,4 @@
+2007-01-19T13:18:00.000Z	squeaks		hey guys, when i 'chmod g-r *' in my home directory, only files not starting with '.' have permissions set -r, how can i get chmod to change hidden files too?
+2007-01-19T13:18:00.000Z	ZeiP	squeaks	chmod g-r .*
+2007-01-19T13:23:00.000Z	squeaks	ZeiP	thanks
+2007-01-19T13:23:00.000Z	ZeiP	squeaks	np.

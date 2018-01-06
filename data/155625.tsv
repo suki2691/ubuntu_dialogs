@@ -1,0 +1,4 @@
+2006-12-29T12:45:00.000Z	lode_		Hi, I was in a graphical KDE session. Then I used "lock session". I came back later, and entered my password to unlock it. It said "unlocking failed". Then I pressed ctrl+alt+F2 and logged in with my username and the same password. It worked. Then I started a new graphical session, and again there I can login with my password. But I want my original graphical sessoin (which is at ctrl+alt+f7), and it still says "unlocking failed", but I seriousl
+2006-12-29T12:45:00.000Z	lode_		y enter my correct password
+2006-12-29T12:45:00.000Z	lode_		what else than a wrong password could cause this "unlocking failed"?
+2006-12-29T12:46:00.000Z	hjmills	lode_	try running "sudo passwd <username> in a term and setting the passwd to what you think it is and retrying

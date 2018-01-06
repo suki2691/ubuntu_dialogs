@@ -1,0 +1,4 @@
+2007-05-16T14:28:00.000Z	matt____		I was wanting to encrypt my harddisk, 200gb, using truecrypt in feisty. however, i noticed that when you mount a file volume to a folder or something right now, to get stuff onto it you have to do it as root. if i encrypt the entire disk, and then mount the entire disk, will i have to always use sudo to write to it?
+2007-05-16T14:30:00.000Z	wxq2378	matt____	maybe you can use "-o uid=$USER" as mount option to get acces for you as user
+2007-05-16T14:31:00.000Z	matt____	wxq2378	um, what? so i would do, for example, sudo truecrypt /path/to/file -o uid:$matt
+2007-05-16T14:31:00.000Z	matt____	wxq2378	would that work?

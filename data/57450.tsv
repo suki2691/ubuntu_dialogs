@@ -1,0 +1,4 @@
+2009-05-27T12:35:00.000Z	bluegoon		Hey guys, is it possible to have a central update distribution server for Jauny 9.04?  We have about 20 machines running 9.04
+2009-05-27T12:36:00.000Z	deiaccord	bluegoon	yes it is possible though i have not done it myself
+2009-05-27T12:36:00.000Z	bluegoon	deiaccord	would be cool, would def help ease bandwidth usage.
+2009-05-27T12:41:00.000Z	deiaccord	bluegoon	effectively you'd need a local store syncded with a primary location and point apt-get to only get its updates from you local store on all your local workstations

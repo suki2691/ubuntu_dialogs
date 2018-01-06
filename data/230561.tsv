@@ -1,0 +1,4 @@
+2006-10-16T07:17:00.000Z	GmDude66		hey guys, I need some help
+2006-10-16T07:18:00.000Z	GmDude66		I have installed ubuntu about a week ago (5.10) and now I just tried to install some applications but I need to be an owner. it never set my defualt account as owner and now I cannot change promissions.
+2006-10-16T07:19:00.000Z	GmDude66		how do I make 'derek' an owner
+2006-10-16T07:20:00.000Z	dabaR	GmDude66	you are sure that you never got to do sudo? try sudo ls in a terminal, and use your password. if it does not work, run groups, and see whether you are in the admin group.

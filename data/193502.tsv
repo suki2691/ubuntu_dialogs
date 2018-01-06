@@ -1,0 +1,4 @@
+2008-06-05T12:05:00.000Z	malv		everytime I do a kernel update it adds two new lines to grub
+2008-06-05T12:05:00.000Z	malv		how do I prevent this?
+2008-06-05T12:06:00.000Z	malv		ok
+2008-06-05T12:06:00.000Z	fyrestrtr	malv	open /boot/grub/menu.list, and change # howmany=all to a number that you are comfortable with, but keep the #

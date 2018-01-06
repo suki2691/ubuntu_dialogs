@@ -1,0 +1,4 @@
+2006-06-05T08:36:00.000Z	ynef	__doc__	what does the log file say? /var/log/Xorg.0.log
+2006-06-05T08:39:00.000Z	ynef	__doc__	/var/log/Xorg.0.log
+2006-06-05T08:41:00.000Z	ynef	__doc__	is your xorg.conf file set up correctly, using "nvidia" as the driver?
+2006-06-05T08:45:00.000Z	ynef	__doc__	what is the ouptut of "file /usr/lib/libGL.so"? If it says "symbolic link", keep asking "file" about it until you get something that is an ELF shared object

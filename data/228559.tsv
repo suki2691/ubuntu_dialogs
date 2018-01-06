@@ -1,0 +1,4 @@
+2006-01-09T09:46:00.000Z	mrd`		Sound has stopped working on my girlfriend's laptop running Ubuntu 5.10.  It used to work fine, but I'm not sure why it does not now.  The drivers appear to be loaded, ogg123 runs along happily without complaining, esd has /dev/snd/pcmC0D0p mmap'd, alsamixer shows everything unmuted and at full volume.  Any ideas?
+2006-01-09T09:47:00.000Z	Doomhammer	mrd`	try killing off artsd, if it's running... sometimes that will make my sound stop working until i do that :S
+2006-01-09T09:47:00.000Z	mrd`	Doomhammer	artsd isn't running.
+2006-01-09T09:47:00.000Z	Doomhammer	mrd`	well then nevermind :(

@@ -1,0 +1,4 @@
+2006-11-04T09:50:00.000Z	gustavnilsson		how to mount the ubuntu /dev manually_
+2006-11-04T09:51:00.000Z	erUSUL	gustavnilsson	you don't /dev/ is populated by udev with the necesary dev files
+2006-11-04T09:53:00.000Z	gustavnilsson	erUSUL	so I don not need to mount /dev for grub-install in a chrooted env?
+2006-11-04T09:55:00.000Z	erUSUL	gustavnilsson	you do not mount /dev/ anymore as devfs is deprecated and got rid out of the kernel... if you need to make dev files you can use mknod directly

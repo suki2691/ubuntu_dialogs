@@ -1,0 +1,4 @@
+2009-01-17T13:40:00.000Z	knut_		hi, how can i change the name of the mounted drives shown on my desktop? it says "234,3 GB Medium", i want it to be "Macintosh HD"
+2009-01-17T13:40:00.000Z	Dr_willis	knut_	 what filesystem is the drive?
+2009-01-17T13:42:00.000Z	Dr_willis	knut_	 tghats because its using the fuse system to access the disk..  thats not its filesystem
+2009-01-17T13:42:00.000Z	Dr_willis	knut_	 if its NTFS or windows VFAT - use windows to set a proper volume labvel on the drive.

@@ -1,0 +1,4 @@
+2012-05-01T07:07:00.000Z	L3top		I again think that re-enabling ppas may not be possible in circumstances where the <distro> changes, as I believe the keys will be different... though I am not sure.
+2012-05-01T07:08:00.000Z	L3top		s/distro/codename/
+2012-05-01T07:08:00.000Z	GraemeLion	L3top	Programmatically, it shouldn't be that difficult.  add-apt-repository does all that now automatically.
+2012-05-01T07:08:00.000Z	GraemeLion	L3top	So if the concern is automatically doing something that approves trust, we already do it :P

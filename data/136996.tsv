@@ -1,0 +1,4 @@
+2007-04-24T08:33:00.000Z	disasm		I'm confused NetworkManager is taking over my usb devices (mainly in this case a usb joystick) Apr 23 22:32:11 warbird NetworkManager: <debug info>^I[1177381931.804685]  nm_hal_device_added (): New device added (hal udi is '/org/freedesktop/Hal/devices/usb_device_b43_3_noserial_if0_logicaldev_input').
+2007-04-24T08:33:00.000Z	disasm		with edgy it used to show up as /dev/input/js0
+2007-04-24T08:33:00.000Z	Safrole	disasm	I'm having issues with Network Manager
+2007-04-24T08:34:00.000Z	disasm	Safrole	I removed it from my feisty laptop since I use wpa_supplicant and it was conflicting, but I assumed with my desktop I wouldn't have any problems with it

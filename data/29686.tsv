@@ -1,0 +1,4 @@
+2010-07-24T00:24:00.000Z	^Jay2^		if i want my .sh file to be executed anywhere in the terminal. what command should i put in?
+2010-07-24T00:25:00.000Z	s3r3n1t7	^Jay2^	add it to your path. Recommending that you do make a seperate folder for it and add that folder to it, then you can add it for your user in .bashrc.
+2010-07-24T00:27:00.000Z	^Jay2^	s3r3n1t7	i've seen the .bashrc but i dont understand what's inside it after opening it in gedit
+2010-07-24T00:28:00.000Z	s3r3n1t7	^Jay2^	as erUSUL just explained to me (didn't know earlier) is that you do not need to edit it. Just create a bin folder (a folder named bin) in your home dir and place the .sh (with exec rights) in that folder.

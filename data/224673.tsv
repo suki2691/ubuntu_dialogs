@@ -1,0 +1,4 @@
+2006-02-19T16:44:00.000Z	Yokalosh		my drive sdb3 wont unmount, how can i force it to unmount?
+2006-02-19T16:45:00.000Z	Ng	Yokalosh	the easiest way is to kill whatever is using it, which you can find with "fuser -m /path/to/where/sdb3/is/mounted"
+2006-02-19T16:48:00.000Z	Yokalosh	Ng	apparently it is not even mounted but according to my desktop and qtparted it is...
+2006-02-19T16:48:00.000Z	Yokalosh	Ng	this is confusing

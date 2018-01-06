@@ -1,0 +1,4 @@
+2012-06-15T16:50:00.000Z	T3X		Hi guys, my server is behind a router, my router is not able to monitore the bandwidth on the network how can i monitor bandwidth usage on my ntnetwork?
+2012-06-15T16:51:00.000Z	gry	T3X	darkstat ntop and probably few others; 'apt-cache search monitor bandwidth' 'apt-cache search network usage'
+2012-06-15T16:52:00.000Z	T3X	gry	these tools will allow me to monitor also the bandwidth of the other machines on the network? because i tried ntop and tcptrack they allow only to monitor my local interfaces on my comuter
+2012-06-15T16:55:00.000Z	gry	T3X	I fear that you'd probably have to do that on the router itself (or does the server actually see the traffic of other machines on the network? if it does, just give a few hints on how exactly it does that for someone to suggest a solution)

@@ -1,0 +1,4 @@
+2009-06-28T14:18:00.000Z	noMaster		ñîáðàëñÿ çàíîâî ñäåëàòü òàáëèöó ðàçäåëîâ. ïîäñêàæèòå êóäà âûãîäíåå ïîìåñòèòü swap - â êîíåö èëè â íà÷àëî äèñêà? äåëàòü åãî êàê ïåðâè÷íûé ðàçäåë èëè âòîðè÷íûé? ó ìåíÿ 512 ìá ÎÇÓ
+2009-06-28T14:20:00.000Z	noMaster		ahh, soory ;)  yeah. I am going to create new partition table. Say, where I should set SWAP? End or Begining? Set it as primary or logical partiotion? I have 512 RAM.
+2009-06-28T14:21:00.000Z	Thingymebob	noMaster	I normally put it in the middle so table looks / -- swap -- /home
+2009-06-28T14:23:00.000Z	Thingymebob	noMaster	if you are going to have less than 4 partitions, set them all as primary

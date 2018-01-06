@@ -1,0 +1,4 @@
+2005-11-08T15:16:00.000Z	loufoque		I'm having a problem with gcc. "g++ test.cpp -o test" works but "gcc test.cpp -o test" gives me errors (undefined references to std::cout etc.). It works if I do "gcc test.cpp -o test -lstdc++". Someone has an idea how to fix that ?
+2005-11-08T15:17:00.000Z	loufoque		gcc stands for GNU Compiler Collection
+2005-11-08T15:17:00.000Z	loufoque		gcc should call the appropriate compiler based on the file extension
+2005-11-08T15:17:00.000Z	penguinbrat	loufoque	the std::cout is a c++ only syntax, thats why your getting the errors =)

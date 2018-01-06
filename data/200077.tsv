@@ -1,0 +1,4 @@
+2006-01-24T06:25:00.000Z	Felix		Can somebody help me with setting the CC environment variable?  I'm trying to install something and this error comes up:  "You must set the environment variable CC to a working compiler"
+2006-01-24T06:25:00.000Z	crimsun	Felix	install gcc-3.4, then use: export CC=gcc-3.4
+2006-01-24T06:25:00.000Z	crimsun	Felix	wait, do you just need a compiler? Install build-essential then.
+2006-01-24T06:30:00.000Z	Felix	crimsun	hey, here's the error I am getting.  /tmp/cNf14141/cNf14141.pos: line 8: gcc-3.4: command not found

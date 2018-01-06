@@ -1,0 +1,4 @@
+2011-10-20T06:10:00.000Z	mindsystem		hey guys, is there a way i can export the package list for all xubuntu-x64 packages (links preferred), download them on another computer, and then reinstall from aptitude on the x64 computer? i'm having troubles with it and i can't connect to the network on it atm...
+2011-10-20T06:12:00.000Z	lucianoloder	mindsystem	I never used it, but all packages you install remains in /var/cache/apt/archives
+2011-10-20T06:12:00.000Z	lucianoloder	mindsystem	you could "maybe" reinstall all of them from this repository
+2011-10-20T06:12:00.000Z	lucianoloder	mindsystem	maybe with "dpkg -i /var/cache/apt/archive/*.deb

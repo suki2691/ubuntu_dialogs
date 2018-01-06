@@ -1,0 +1,4 @@
+2008-04-23T00:00:00.000Z	bid3		i want to install a latex-package. some document told me that i have to unpack it into /usr/local/share/texmf/tex/latex/. but this path doesn't exist on my machine... so what to do?
+2008-04-23T00:01:00.000Z	genii	bid3	Try to see if the path without the /local/ part exists
+2008-04-23T00:02:00.000Z	bid3	genii	yes it does, but it contains only a folder named "preview" shall i really unzip the package here ?
+2008-04-23T00:03:00.000Z	genii	bid3	I'd recommend instead to create the directory you need in the /usr/local/...    path.

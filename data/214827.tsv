@@ -1,0 +1,4 @@
+2006-09-15T05:29:00.000Z	mabus		I'm trying to make a soft link in a public folder to a folder inside my home directory (/home/mabus/doc/library), but users can't follow that link. /home/mabus is not readable by the users, but the permissions of the library folder say they should. Same with the soft link. Can anyone tell me why they can't?
+2006-09-15T05:30:00.000Z	ootput	mabus	from public_html?
+2006-09-15T05:30:00.000Z	ootput	mabus	or something web-related?
+2006-09-15T05:30:00.000Z	ootput	mabus	your entire home dir has to be (recursively) set world-readable

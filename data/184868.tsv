@@ -1,0 +1,4 @@
+2007-02-04T17:32:00.000Z	robouk		need help before i reinstall windows! im fairly new to linux. its yet another resolution problem, running ati radeon 9800. my xorg.conf shows the 9800 with all the nice resolutions but im stuck in 640x480, thanks for your help!
+2007-02-04T17:33:00.000Z	LjL	robouk	perhaps xorg.conf lists refresh rates that are not adequate for higher resolutions? try a  sudo dpkg-reconfigure xserver-xorg  and see if you can set them to something better (ideally, look them up on your monitor's manual)
+2007-02-04T17:33:00.000Z	LjL		Ubotu, tell robouk about fixres | robouk, see the private message from Ubotu
+2007-02-04T17:35:00.000Z	robouk	LjL	thanks! will do some reading on it, ill hang around incase i have trouble though

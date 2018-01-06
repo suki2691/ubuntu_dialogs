@@ -1,0 +1,4 @@
+2009-01-22T15:56:00.000Z	FazLeeeN		anyone can assist on connecting to wireless network using the terminal? key provided
+2009-01-22T15:57:00.000Z	ezerhoden	FazLeeeN	you mean something like iwconfig eth1 essid <essid> key <key> ?
+2009-01-22T15:58:00.000Z	FazLeeeN	ezerhoden	yeah
+2009-01-22T15:59:00.000Z	ezerhoden	FazLeeeN	ok, well there you go. that should do it. i believe dhclient eth1 or whatever your device name is will then request an ip address once connected.

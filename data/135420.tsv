@@ -1,0 +1,4 @@
+2007-06-05T16:03:00.000Z	Devyll		I have problems installing proftpd. The mirror is not responding. How do I tell apt-get another mirror ?! .. or something like that ? I downloaded the .deb package but when I try to install it it tells me that the dependencies are missing
+2007-06-05T16:05:00.000Z	Devyll		I have problems installing proftpd. The mirror is not responding. How do I tell apt-get another mirror ?! .. or something like that ? I downloaded the .deb package but when I try to install it it tells me that the dependencies are missing
+2007-06-05T16:06:00.000Z	pike__	Devyll	you could gksu gedit /etc/apt/sources.list   and remove the country prefix us. for example from the urls
+2007-06-05T16:07:00.000Z	Devyll	pike__	and owh thanks

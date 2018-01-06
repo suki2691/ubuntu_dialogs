@@ -1,0 +1,4 @@
+2011-01-05T04:05:00.000Z	SQUEEEE		I'm trying to add an Alt Gr key to the Mac keyboard I'm using as it's missing one. With xmodmap I can run "keycode 134 = ISO_Level3_Shift", however this will only last until the end of the X session or another keyboard layout is selected in the Gnome keyboard configuration dialogue. How do I make this permanent?
+2011-01-05T04:06:00.000Z	epl	SQUEEEE	put the xmodmap line in a file called .xmodmap in your $HOME/ directory
+2011-01-05T04:06:00.000Z	epl	SQUEEEE	should be read by gnome upon login...
+2011-01-05T04:07:00.000Z	epl	SQUEEEE	the file should probably be called .xmodmaprc

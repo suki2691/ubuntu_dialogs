@@ -1,0 +1,4 @@
+2008-02-03T02:20:00.000Z	dookdook		i'm trying to compile a c++ program under feisty, and getting an error message saying it can't find conio.h...conio.h doesn't come standard on gcc/g++ installations?  its not a linux thing?
+2008-02-03T02:21:00.000Z	MrObvious	dookdook	Try learning to use apt-file
+2008-02-03T02:21:00.000Z	MrObvious	dookdook	A quick crash course: sudo apt-get install apt-file to install it, then sudo apt-file update then sudo apt-file search (filename) will tell you what package it is in.
+2008-02-03T02:22:00.000Z	MrObvious	dookdook	YW.

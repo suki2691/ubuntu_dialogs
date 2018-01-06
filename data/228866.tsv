@@ -1,0 +1,4 @@
+2005-08-26T14:27:00.000Z	__Lamont__		hello all
+2005-08-26T14:27:00.000Z	__Lamont__		Can anyone tell me how to stop Xwindows without changing the runlevel? I need to install newer nvidia drivers
+2005-08-26T14:29:00.000Z	nickrud	__Lamont__	log out of your desktop, hit ctl-alt-f1, log in, and sudo /etc/init.d/gdm stop
+2005-08-26T14:32:00.000Z	__Lamont__	nickrud	thx. Says gdm is already running, but I messed with GDM already trying. doing a shutdown -r and will try that again

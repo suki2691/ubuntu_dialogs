@@ -1,0 +1,4 @@
+2008-09-20T22:45:00.000Z	nitin		i have x3100 on my inspiron 1420. Projector works on vista but does not on ubuntu. Projector brand is notevision I hate vista. Equation in unstable. Please help
+2008-09-20T22:45:00.000Z	IntuitiveNipple	nitin	I saw in the forums someone reporting how to configure it, and it had to do with adding to xorg.conf a Screen SubSection that had Virtual "2048 x 2048" or similar so that when X starts it thinks the total display size is the maximum. Then, when another display is connected, you can choose where it is located in that area without X having to be restarted.
+2008-09-20T22:46:00.000Z	nitin	IntuitiveNipple	The thing is it doesnt get detected only
+2008-09-20T22:47:00.000Z	IntuitiveNipple	nitin	That may be because it doesn't provide an EDID response, in which case you add it into xorg.conf manually as a "Display" section and associate it with a "Screen" and possibly a "Driver"

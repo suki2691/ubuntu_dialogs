@@ -1,0 +1,4 @@
+2009-10-14T18:43:00.000Z	kora-chan		heya, the notebook i used to work on was in maintainance and i put the HD in an external case and used the linux on my desktop. i installed the nvidia drivers (my notebook used intel gma965). when i put my HD back in the notebook the x server refused to work. i made a dpkg-reconfigure xserver-xorg and it started again. but it seems that x is not using the graphic chip, how can i enable it again?
+2009-10-14T18:45:00.000Z	OerHeks	kora-chan	boot in recovery mode, and use the option XFIX
+2009-10-14T18:46:00.000Z	OerHeks	kora-chan	: pres ESC when you see the kernel message and use arrow to start kernel + recovery
+2009-10-14T18:48:00.000Z	OerHeks	kora-chan	not type, use the menu of recovery and select Xfix, it is at the botten of choices, you'll see it when recovery starts

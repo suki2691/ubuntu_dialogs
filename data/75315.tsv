@@ -1,0 +1,4 @@
+2009-09-21T08:15:00.000Z	monostone		I have correctly installed and configured dnscache + tinydns. I have tested dnscache via a tail -f logfile, and it is correctly cacheing content. Now, I am setting up a development/test environment, so I am using internal IP's, but i can NOT manage, to get tinydns to resolve the domains on my local network (commands dnsq a host IP and dig @IP host return correct responses, but dnsqr host, dig host and dig @IP -x IP all fail). My resolv.
+2009-09-21T08:15:00.000Z	monostone		conf has 127.0.0.1 defined as nameserver, i even added a search domain.internal, but nothing. I am forced to add the entry to the hosts file, but i want to avoid this, any ideas?
+2009-09-21T08:16:00.000Z	genii-around	monostone	You may find more enlightening answers in #ubuntu-server
+2009-09-21T08:16:00.000Z	monostone	genii-around	ok, ill try there

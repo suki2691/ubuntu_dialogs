@@ -1,0 +1,4 @@
+2005-06-16T07:11:00.000Z	jind		Is there a startup script I can use to put som custom boot stuff in Ubuntu?
+2005-06-16T07:12:00.000Z	jind		rc.d alright
+2005-06-16T07:13:00.000Z	jind		I just need a fast way to add echo 1024 > /proc/sys/dev/rtc/max-user-freq to the boot :-)
+2005-06-16T07:13:00.000Z	pfp	jind	make a script in /etc/init.d/myfoo and use update-rc.d to create a symlink from rc2.d to it

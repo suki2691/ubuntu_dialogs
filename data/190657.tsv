@@ -1,0 +1,4 @@
+2006-04-17T13:09:00.000Z	swa		Question:  I've installed the latest 8756 for my nvidia setup (running Dapper on an AMD 64 X2).  Everything seems alright, but I can't tell if SLI is enabled.  I have two 7800 GTX's installed.  Anyone familiar on how to check and make sure SLI is working?
+2006-04-17T13:11:00.000Z	roryy	swa	is SLI the same as 3D acceleration?
+2006-04-17T13:11:00.000Z	swa	roryy	SLI is when you have 2 identical video cards, 1 in each PCIe x16 slot and you bridge them together so they split the load for graphics processing.
+2006-04-17T13:12:00.000Z	roryy	swa	ah. i am green with envy. Sorry, no idea how to check that. maybe 'glxinfo' says something useful?

@@ -1,0 +1,4 @@
+2010-01-28T18:30:00.000Z	jeke		I am trying to reset my root password with Ubuntu 9.10 i selected recovery mode from the GRUB menu I then get a menu which gives me the option to get a root shell. However this root shell requires a maintenance password. How do I change a forgotten root password?
+2010-01-28T18:32:00.000Z	jeke		I have also forgotten my normal user password
+2010-01-28T18:32:00.000Z	LjL	jeke	add "init=/bin/sh" to your kernel line from the GRUB menu, change password.
+2010-01-28T18:32:00.000Z	jeke	LjL	thanks

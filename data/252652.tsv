@@ -1,0 +1,4 @@
+2005-05-24T14:08:00.000Z	Echylo		anyone can tell how to run ".x86 files?
+2005-05-24T14:09:00.000Z	HappyFool	Echylo	depends what it is. try 'file <filename>' to see if your system can guess what the file is
+2005-05-24T14:11:00.000Z	Echylo	HappyFool	file <> gives this : pbweb.x86: ELF 32-bit LSB executable, Intel 80386, version 1 (SYSV), for GNU/Linux 2.0.0, dynamically linked (uses shared libs), stripped
+2005-05-24T14:12:00.000Z	HappyFool	Echylo	ok, well, you can try ./filename then. If that doesn't work, do chmod a+x <filename>, and try again

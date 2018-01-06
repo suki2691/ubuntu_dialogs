@@ -1,0 +1,4 @@
+2012-10-22T11:06:00.000Z	greenmang0		what is the right way to increase number of open files limit for all users on 11.10? the wild card entry "* soft nofile 32000"  and "* hard nofile 32000" doesn't seem to work for all users but only a default user - ubuntu in my case
+2012-10-22T11:07:00.000Z	konza	greenmang0	Tis may help you http://www.cyberciti.biz/faq/linux-increase-the-maximum-number-of-open-files/
+2012-10-22T11:43:00.000Z	greenmang0	konza	thanks… the wildcard actually works, the thing is I was using "su www-data" and then "ulimit -n" to check if the limit is increased … the thing is "pam_limits.d" is commented out in "/etc/pam.d/su" so ulimit was showing default value 1024, i uncommented the line and now i see the expected value
+2012-10-22T11:44:00.000Z	konza	greenmang0	Welcome

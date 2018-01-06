@@ -1,0 +1,4 @@
+2008-05-11T07:25:00.000Z	McRib		How would I go about removing the Java JRE installed by default and replacing it with Sun's Java JRE, Java 1.4?
+2008-05-11T07:26:00.000Z	wastrel	McRib	you can install multiple versions of java side by side
+2008-05-11T07:27:00.000Z	wastrel	McRib	then choose the one you want with sudo update-alternatives --config java
+2008-05-11T07:28:00.000Z	McRib	wastrel	Wow..that did it.  I've never heard of update-alternatives.  Thank you :)

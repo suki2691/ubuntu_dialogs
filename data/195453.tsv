@@ -1,0 +1,4 @@
+2007-06-20T12:35:00.000Z	kooji		Hello, if I mess up the x.org file while configuring it can I still access my data on the ubuntu partition
+2007-06-20T12:36:00.000Z	kooji		Yes, but how can I fix the x server once its corrupted. Last time I tried it threw me into a console
+2007-06-20T12:37:00.000Z	kooji		had to to a reinstall
+2007-06-20T12:37:00.000Z	kitche	kooji	sudo X -configure is the easiest way to get X up and running then you cp sudo /home/<user>/xorg.conf.new /etc/X11/xorg.conf

@@ -1,0 +1,4 @@
+2008-06-02T23:41:00.000Z	nduplessis		how do i determine which app is using 3690?
+2008-06-02T23:41:00.000Z	nduplessis		is using port 3690 that is
+2008-06-02T23:42:00.000Z	Pici	nduplessis	sudo netstat -tanp | grep 3690
+2008-06-02T23:43:00.000Z	nduplessis	Pici	sudo netstat -tanp | grep 3690 gives inetd as the process

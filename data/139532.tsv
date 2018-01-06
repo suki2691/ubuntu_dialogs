@@ -1,0 +1,4 @@
+2007-08-24T13:27:00.000Z	Floker		how can i determine the size of a folder, its files and subfolders in the shell?
+2007-08-24T13:27:00.000Z	fyrestrtr	Floker	du -h --max-depth=1 /some/folder
+2007-08-24T13:28:00.000Z	Floker	fyrestrtr	thank you very much
+2007-08-24T13:28:00.000Z	fyrestrtr	Floker	if you remove --max-depth it will give you for all folders+subfolders

@@ -1,0 +1,4 @@
+2008-05-28T23:00:00.000Z	Dante123		﻿﻿hi all, just setup a barebones pc kit that came with evga 650i mobo, 2gb ram, and sata hd (supposed to be 250 gb) but windows setup sees it as 130gb.  Wanted to install ubuntu linux but system hangs at some reference to sata....so that is why I went with windows.  Could there be something I need to setup in the bios?
+2008-05-28T23:01:00.000Z	Dante123		If I don't do nosplash it hangs on the ubuntu logo with the orange bar stuck
+2008-05-28T23:01:00.000Z	daftykins	Dante123	windows XP pre- service pack 1 has a logical block addressing limitation that prevents it seeing disks bigger than 127GB, you need to install to a small partition for C: and then upgrade service pack for it to see the disk properly
+2008-05-28T23:12:00.000Z	daftykins	Dante123	anything relating to the SATA ports on the chipset may cause the stalling if that's why it stalls after SATA as you say

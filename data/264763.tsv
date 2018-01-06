@@ -1,0 +1,4 @@
+2008-09-11T08:35:00.000Z	patrickmn		how do i save an edited apache conf file?
+2008-09-11T08:36:00.000Z	mojo	patrickmn	 depends on what editor you used?  ^w^q in nano/pico :wq in vi methinks
+2008-09-11T08:37:00.000Z	mojo	patrickmn	 well you may be editing it as the USER without WRITE permissions to the config file.  you should use alt-f2 to type in a command to run and use gksudo gedit to run gedit with super-user permissions
+2008-09-11T08:40:00.000Z	mojo	patrickmn	 the security model of running as a user w/o priv's and using sudo (cmdline) or gksudo (gui) to run AS superuser is the preferred ubuntu way

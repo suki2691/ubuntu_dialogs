@@ -1,0 +1,4 @@
+2010-01-17T02:21:00.000Z	mladen_bg88		please someone, i really can't find a way to boot karmic, can't i simply add it to win7 loader?
+2010-01-17T02:22:00.000Z	Izinucs	mladen_bg88	so you installed but didn't install grub? is that right?
+2010-01-17T02:23:00.000Z	Izinucs	mladen_bg88	you thought wrong.. there was no way for the windows boot loader to know that ubuntu had been installed.. you have to manually do it. ##windows might help with that.. however with the live cd you can install grub and be done with it.
+2010-01-17T02:25:00.000Z	Izinucs	mladen_bg88	if that link doesn't help then if you don't have any data yet in ubuntu simply go through the install process again and let it do it's thing when it comes to the boot loader.. grub will recognize windows and provide an option in the menu for booting between the two.

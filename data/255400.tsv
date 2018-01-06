@@ -1,0 +1,4 @@
+2005-01-04T10:47:00.000Z	SteveA		I have a laptop with a removeable cdrom drive.  I've booted with the drive out.  I just inserted it.  How can I tell the system that it should see /dev/hdc ?
+2005-01-04T10:47:00.000Z	|QuaD-	SteveA	cat /var/log/dmsg
+2005-01-04T10:49:00.000Z	SteveA	|QuaD-	what would you expect to find in /var/log/dmesg that would help?
+2005-01-04T10:49:00.000Z	|QuaD-	SteveA	isn't that where it parses things like that

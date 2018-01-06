@@ -1,0 +1,4 @@
+2011-10-17T16:43:00.000Z	jim__		I have been developing a Gtk application using MonoDevelop. After upgrading to Ubuntu 11.10, I have lost all gtk# related references; they are marked as "Assembly not available for Mono/.Net 3.5 (in Mono 2.10.5)".
+2011-10-17T16:43:00.000Z	jim__		None of the gtk-sharp related assemblies show up in the Assemblies list, so I can't delete the old references and replace with references to new assemblies.
+2011-10-17T16:43:00.000Z	jim__		I vaguely remember seeing something a while ago about this problem, but a Google search turned up nothing. Is there documentation somewhere that describes what to do?
+2011-10-17T16:44:00.000Z	jatt	jim__	I'm not a mono expert but a simple test program compiled with

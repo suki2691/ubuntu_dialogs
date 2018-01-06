@@ -1,0 +1,4 @@
+2008-07-18T11:46:00.000Z	gukkels		Hi! Can anyone give me link on something like "STEP-BY-STEP HOWTO - how to tranfer existing ubuntu on new larger drive"? I suspect it is trivial task, but I found nothing on google.
+2008-07-18T11:48:00.000Z	DistroJockey	gukkels	first you will need a live cd with gparted on it
+2008-07-18T11:48:00.000Z	DistroJockey	gukkels	as you can't copy the partition you are running from
+2008-07-18T11:50:00.000Z	DistroJockey	gukkels	then you would use gparted to copy the partition to the new drive (then resize it bigger) and make a swap partition. Then install grub and fix /etc/fstab to set the right UUID's. Maybe not the easyest way looking at that :)

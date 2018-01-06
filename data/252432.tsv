@@ -1,0 +1,4 @@
+2005-08-04T07:45:00.000Z	Thunderguy		gah... I got a file in my users home directory, I mount an ntfs partition to it, but I can only mount as root, under root it wont allow me to change file permissions to my user with chown it says: file system is read only., I just want another user to be able to read and execute the ntfs drive.
+2005-08-04T07:46:00.000Z	Thunderguy		directory*
+2005-08-04T07:46:00.000Z	drew	Thunderguy	did you edit ur fstab?
+2005-08-04T07:48:00.000Z	drew	Thunderguy	edit ur fstab and just don't add the auto option

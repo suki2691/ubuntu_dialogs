@@ -1,0 +1,4 @@
+2012-05-04T11:49:00.000Z	bbbbbbbb		I had some issues with pulseaudio, then I removed it using this guide: http://jechem.blogspot.de/2010/10/how-to-remove-pulseaudio-on-ubuntu-1010.html it worked fine at first, then once I muted it and then when I tried to unmute it the computer still won't make a sound. how do I get my sound back?
+2012-05-04T11:51:00.000Z	foolsh	bbbbbbbb	open a terminal and run 'alsamixer' high light the channel you want to contral and press 'm' to toggle the mute bit
+2012-05-04T11:52:00.000Z	bbbbbbbb	foolsh	awesome, thanks!
+2012-05-04T11:53:00.000Z	foolsh	bbbbbbbb	I use this guide when I want replace pulse  http://howto.blbosti.com/2010/04/ubuntu-make-alsa-default-instead-of-pulseaudio/

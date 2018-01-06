@@ -1,0 +1,4 @@
+2009-08-25T19:58:00.000Z	cognitiaclaeves		I have a large number of cron jobs that I want to run ever odd minute and every even minute.  I can do even with */2; how do I specify odd?
+2009-08-25T19:59:00.000Z	edbian	cognitiaclaeves	*/2 + 1
+2009-08-25T20:00:00.000Z	cognitiaclaeves	edbian	I thought about that, that doesn't just make it */3 ?
+2009-08-25T20:00:00.000Z	edbian	cognitiaclaeves	If you want to be explicit: (*/2) + 1  but */2 + 1 IS NOT */(2+1)

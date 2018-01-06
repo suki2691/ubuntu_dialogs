@@ -1,0 +1,4 @@
+2012-09-30T13:03:00.000Z	twitchie	err-or	what does dmesg say?
+2012-09-30T13:04:00.000Z	err-or	twitchie	dmesg is full of init: statd main process ended respawning, init: statd main process terminated with status 1
+2012-09-30T13:05:00.000Z	err-or	twitchie	same goes for idmap
+2012-09-30T13:33:00.000Z	err-or	twitchie	solved, purged nfs-kernel-server rpcbind nfs-common, reinstalled nfs-kernel-server. working

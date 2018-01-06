@@ -1,0 +1,4 @@
+2010-07-23T08:33:00.000Z	mib_mib		hi guys, permissions question: if i have a folder /usr/local/bin/myfolder/myprogam.pid and a user 'myuser', what permissions does 'myuser' need in order to read/write a pid file in 'myfolder'? Does he need write access to EVERY FOLDER on the path, including /usr and /usr/local, etc?
+2010-07-23T08:33:00.000Z	froek	mib_mib	no
+2010-07-23T08:34:00.000Z	froek	mib_mib	he only needs --x to get into them
+2010-07-23T08:35:00.000Z	mib_mib	froek	can you help then? I have created a group called 'mygroup', and added a user 'myuser' to it. I have recursively changed group permissions all the way down that stack (chmod -R 775 /usr/local/myfolder), and chgrp -R mygroup /usr/local/myfolder) but it still isn't working

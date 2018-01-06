@@ -1,0 +1,4 @@
+2009-06-27T04:19:00.000Z	mdm		ok unop if you insist, a salt isnt special, its simply the input you start whatever algorthem you have, litteraly a sha digest hash is created froma  salt,  they ARE the input sring
+2009-06-27T04:19:00.000Z	unop	mdm	no, salts are not the cleartext - they're the initialisation vectors
+2009-06-27T04:21:00.000Z	mdm	unop	a salt is random data that can be combined with clear text, its just initilization values and are used to stop brute force attacks
+2009-06-27T04:21:00.000Z	unop	mdm	right, but a salt isn't the 'input string'

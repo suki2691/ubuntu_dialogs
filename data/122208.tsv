@@ -1,0 +1,4 @@
+2009-01-14T02:28:00.000Z	Jerusalem420		why doesn't 11 0-59 0-23 * * 0-6 root mplayer music/misc/MothersChildrenHaveAHa.mp3 work in my crontab file?
+2009-01-14T02:29:00.000Z	gnutron	Jerusalem420	the path is wrong
+2009-01-14T02:35:00.000Z	gnutron	Jerusalem420	sudo crontab -e  to edit a root owned crontab, lose the root in the syntax
+2009-01-14T02:40:00.000Z	gnutron	Jerusalem420	you can also sudo tail -f /var/log/messages and watch for any errors as cron executes.

@@ -1,0 +1,4 @@
+2011-02-23T21:21:00.000Z	alisalaah		Ubuntu 10.10 :: How do I find out what is using port 8080 and kill it so i can get port 8080 free?
+2011-02-23T21:23:00.000Z	usr13	alisalaah	localhost:8080  # In the browser to see what is going on.
+2011-02-23T21:24:00.000Z	usr13	alisalaah	netstat -pantu
+2011-02-23T21:24:00.000Z	usr13	alisalaah	netstat -pantu |grep 8080

@@ -1,0 +1,4 @@
+2010-06-14T18:51:00.000Z	fqh		HI, what's the standard method to change ubuntu's hostname? I modified the file /etc/hostname, and ran a shell script with sudo ./xxx.sh, then got a additional prompt line :"sudo: unable to resolve host MY-NEW-HOSTNAME"
+2010-06-14T18:52:00.000Z	edbian	fqh	The proper thing to do is chance /etc/hostname AND use the sudo hostname <newHostname> command.  You're getting that error because of your /etc/hosts file (network resolving)
+2010-06-14T18:53:00.000Z	fqh	edbian	ubottu: ok, I try it
+2010-06-14T18:54:00.000Z	edbian	fqh	(ubottu is not a person, it's a program ;) )

@@ -1,0 +1,4 @@
+2005-03-24T13:22:00.000Z	tizen		Hey guys, how do I make it so sudo asks me for my password everytime?
+2005-03-24T13:24:00.000Z	tizen		or something
+2005-03-24T13:24:00.000Z	ompaul	tizen	that period of time is in /etc/sudoers timestamp_timeout
+2005-03-24T13:25:00.000Z	ompaul	tizen	set it to 0 but this does not mean that other sudo people can't do stuff like sudo -v sudo -k :) read the man page

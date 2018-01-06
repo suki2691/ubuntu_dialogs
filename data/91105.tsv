@@ -1,0 +1,4 @@
+2008-05-11T23:35:00.000Z	Byron1		I have two 250 hard drives. In any other version of Ubuntu it sees the one with XP as sda In 8.04 it sees it as sdb?
+2008-05-11T23:36:00.000Z	aurel42	Byron1	probably some change in the kernel code related to SATA. I think that's exactly what UUID's were made for? ;)
+2008-05-11T23:37:00.000Z	Byron1	aurel42	What are UUIDs
+2008-05-11T23:38:00.000Z	aurel42	Byron1	a UUID is an alternative way to identify a partition, as I understand it. Instead of saying "use device number X on this bus" it says "use the partition with the UUID <some random unique string>". Correct me, if I'm wrong.

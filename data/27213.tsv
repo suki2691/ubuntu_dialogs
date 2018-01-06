@@ -1,0 +1,4 @@
+2010-08-20T21:46:00.000Z	blindMoe		anyone know off the top of their head which shell will autocomplete previous commands?  ie:  type 'mys' then hit the up arrow and have it find the last command you typed starting with 'mys' ?
+2010-08-20T21:47:00.000Z	ActionParsnip	blindMoe	could always use: history | grep mys | tail -n 1     ;)
+2010-08-20T21:48:00.000Z	blindMoe	ActionParsnip	hehe I could but I had a server where I could literally just type 'mys' and hit the up arrow and it would search my history for me and autocomplete the string
+2010-08-20T21:49:00.000Z	ActionParsnip	blindMoe	not heard of that myself, you could even script it and replace mys with $1

@@ -1,0 +1,4 @@
+2011-01-23T01:29:00.000Z	mister_m		can I see a list of available wireless networks from the command line?
+2011-01-23T01:30:00.000Z	mister_m		possibly a wireless connection manager that I can run from a terminal window?
+2011-01-23T01:30:00.000Z	erUSUL	mister_m	sudo iw dev wlan0 scan
+2011-01-23T01:30:00.000Z	erUSUL	mister_m	or sudo iwlist wlan0 scan

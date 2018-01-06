@@ -1,0 +1,4 @@
+2011-09-09T18:18:00.000Z	joki3		How do i check what driver my blackbuntu machine is running? How do i check if it's either nvidia or nouvea itself who is managing my graphic card?
+2011-09-09T18:18:00.000Z	alkafoo	joki3	lsmod, lspci -k
+2011-09-09T18:18:00.000Z	joki3	alkafoo	thank you
+2011-09-09T18:18:00.000Z	alkafoo	joki3	lsmod | grep -i nvidia, rather

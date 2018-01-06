@@ -1,0 +1,4 @@
+2005-04-27T07:30:00.000Z	mishof		Q about samba: when i try to access my computer from windows i get password / username prompt - how can i prevent it ?
+2005-04-27T07:31:00.000Z	_membreya	mishof	change your access to share level rather than user?
+2005-04-27T07:31:00.000Z	mishof	_membreya	how
+2005-04-27T07:32:00.000Z	_membreya	mishof	add security = share to the global section of your /etc/samba/smb.conf

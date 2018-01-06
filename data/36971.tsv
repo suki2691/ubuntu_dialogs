@@ -1,0 +1,4 @@
+2010-03-04T02:03:00.000Z	AimlessZealot		Anyone have any idea how to fix sound for flash in Firefox? I've tried the 2 solutions listed in the forums, I do not have a firefoxrc file and setting up the alsa stuff didn't appear to help.
+2010-03-04T02:03:00.000Z	AimlessZealot		Yes dabaR
+2010-03-04T02:03:00.000Z	NewWorld	AimlessZealot	 You could try replacing ALSA with PulseAudio
+2010-03-04T02:05:00.000Z	NewWorld	AimlessZealot	 Whenn you test to see if it works, make sure you don't and didn't have other applications open that output audio. With ALSA apps using sound can interfere with one another.

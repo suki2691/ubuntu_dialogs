@@ -1,0 +1,4 @@
+2012-10-03T14:26:00.000Z	Kwask		Hi guys. Can you tell me how to partion running system? I have one big partition /dev/sda(/) 140GigaB, udev(/dev), tmpfs(/run), none(/run/lock), none(/run/shm). Have 6 users with shell access and in future possibly apache, etc.
+2012-10-03T14:27:00.000Z	bekks	Kwask	You cannot partition a running system, you have to do it offline.
+2012-10-03T14:28:00.000Z	Kwask	bekks	just thought there may be a way to partition system for better security and speed - was guessing.
+2012-10-03T14:29:00.000Z	bekks	Kwask	Partitioning has nothing to do with speed or security. :)

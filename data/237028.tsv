@@ -1,0 +1,4 @@
+2005-05-20T12:46:00.000Z	ggeller		My Ubuntu 5.04 install is failing.  It goes through reformatting the hard drive, etc. then hangs when it gets to a screen that says "Installing the Ubuntu base system 6% Retrieving bsdutils..."
+2005-05-20T12:47:00.000Z	LarstiQ	ggeller	I had that too with a incomplete iso, running md5sum revealed the checksum not matching up
+2005-05-20T12:48:00.000Z	ggeller	LarstiQ	 Good idea.  I'll check the md5 sum.
+2005-05-20T13:01:00.000Z	ggeller	LarstiQ	 This iso was OK, but something went wrong when I burned the CD.  I mounted the iso and did diff -r -q between the iso and the CD and found the problem.  Now burning a new CD.

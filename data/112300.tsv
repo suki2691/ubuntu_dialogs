@@ -1,0 +1,4 @@
+2007-12-12T05:01:00.000Z	pg		Hi - when I resume from a suspend, my eth0 connection does not come up automatically.  Even invoking dhclient does not work until I remove my network driver module and insert it again.  Can I fix this somewhat?
+2007-12-12T05:03:00.000Z	tomchuk	pg	/etc/default/acpi-support : add the mod name to the MODULES list
+2007-12-12T05:03:00.000Z	tomchuk		!multiverse
+2007-12-12T05:04:00.000Z	pg	tomchuk	thanks, I'll try that.

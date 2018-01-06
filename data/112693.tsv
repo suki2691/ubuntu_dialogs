@@ -1,0 +1,4 @@
+2010-11-12T20:09:00.000Z	evdvelde		hi all! is btrfs stable enough for everyday use? have to reinstall a pc and wonder if i should try it or stick to ext4
+2010-11-12T20:11:00.000Z	mbeierl	evdvelde	according to https://btrfs.wiki.kernel.org/index.php/Main_Page: While Btrfs is stable on a stable machine, it is currently possible to  corrupt a filesystem irrecoverably if your machine crashes
+2010-11-12T20:13:00.000Z	evdvelde	mbeierl	that is not so good, since power failure is always possible or so :-) so perhaps not the best option yet?
+2010-11-12T20:13:00.000Z	mbeierl	evdvelde	you got it.  ext4 is still the better all-around option

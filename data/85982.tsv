@@ -1,0 +1,4 @@
+2009-09-19T21:07:00.000Z	monostone		I'm setting up a LAMP environment on my development box. Should I setup a local DNS server as well, to resolve my local name based virtual hosts (e.g. site1.my-server.local, site2.my-server.local) or should I just stick in the server names in my /etc/hosts/ file and forget about BIND, djbdns, or any other DNS?
+2009-09-19T21:09:00.000Z	stefg	monostone	there's #ubuntu-server. and IMHO there is no definitive answer to that, it depends on your needs.
+2009-09-19T21:11:00.000Z	stefg	monostone	if it's a developmend box you're probably better off using a 'real world scenario', that means running your own DNS
+2009-09-19T21:12:00.000Z	monostone	stefg	yes that was my initial doubt, so i suppose the correct thing to do would be to take the extra time to install and configure a DNS

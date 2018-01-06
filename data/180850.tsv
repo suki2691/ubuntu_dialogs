@@ -1,0 +1,4 @@
+2006-06-24T14:39:00.000Z	mikere		How do I get to straight console mode with no X?  I was sure I used to use init 3.  init 1 won't work for installing the nvidia proprietary drivers.  Any hints?
+2006-06-24T14:41:00.000Z	_Spire_	mikere	you could always try booting into X, then going to a console (ctrl-alt-1) and then stopping gdm (sudo /etc/init.d/gdm stop)
+2006-06-24T14:41:00.000Z	_Spire_	mikere	otherwise, I always thought it was init 2
+2006-06-24T14:42:00.000Z	mikere	_Spire_	thanks, will give it a shot

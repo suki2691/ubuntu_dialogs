@@ -1,0 +1,4 @@
+2006-03-01T10:08:00.000Z	EdRopple		Question: Looking for the "make" tool, wherever it may be hiding. Does anyone know where that apt package is?
+2006-03-01T10:09:00.000Z	setuid	EdRopple	apt-get install make
+2006-03-01T10:09:00.000Z	setuid	EdRopple	apt-file search bin/make
+2006-03-01T10:09:00.000Z	setuid	EdRopple	apt-get install apt-file && apt-file update

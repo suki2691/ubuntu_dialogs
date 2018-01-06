@@ -1,0 +1,4 @@
+2004-10-15T07:58:00.000Z	Charon79m		Needing help with compiling support for my modem in the kernel.  Anyone willing to help?
+2004-10-15T07:59:00.000Z	jgeorgeson	Charon79m	is it a module you need to download 3rd party source from to compile against the kernel source?
+2004-10-15T08:03:00.000Z	jgeorgeson	Charon79m	the kernel source in ubuntu is the package named linux-source, install that, and then when your 3rd party driver asks where the kernel source is, point it to whereever linux-source goes
+2004-10-15T08:04:00.000Z	Charon79m	jgeorgeson	thanks.  I'll give it a shot.

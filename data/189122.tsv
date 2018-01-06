@@ -1,0 +1,4 @@
+2010-11-02T07:41:00.000Z	Jp		why does ubuntu 10.10 show i have 3 hdd's?
+2010-11-02T07:42:00.000Z	Jp		i only have 2 but it shows file system, 80gb reserve, and 80 gb reserve
+2010-11-02T07:44:00.000Z	Jp		in terminal i type fdisk -l and it doesn't show anything
+2010-11-02T07:46:00.000Z	kmyst	Jp	use sudo fdisk -l ... fdisk -l quit showing output unless you use sudo for some strange reason

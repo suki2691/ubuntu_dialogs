@@ -1,0 +1,4 @@
+2007-05-05T06:56:00.000Z	Acu		I have an .iso file - how can I see the content without burning it into a CD ?
+2007-05-05T06:57:00.000Z	jnc	Acu	mount it as a loop device
+2007-05-05T06:57:00.000Z	jnc	Acu	sudo -s -H;  mkdir mountdest; mount -t iso9660 -o loop myfile.iso mountdest;  ls mountdest; umount mountdest; rmdir mountdest; exit
+2007-05-05T06:58:00.000Z	jnc	Acu	in theory I think that the GUI archive manager should be able to peer into it

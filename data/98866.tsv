@@ -1,0 +1,4 @@
+2008-10-24T04:48:00.000Z	marki		how do i tell what packages are currently installed on my system
+2008-10-24T04:49:00.000Z	marki		doc: good! :)
+2008-10-24T04:50:00.000Z	marki		is there a command line method? searched but could not find ti
+2008-10-24T04:51:00.000Z	legend2440	marki	in terminal type    dpkg --get-selections > ~/my-packages  will create a file called my-packages with list of installed packages

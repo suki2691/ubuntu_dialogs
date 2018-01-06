@@ -1,0 +1,4 @@
+2009-12-01T18:24:00.000Z	AlexJones		During installation of Ubuntu 9.10 I had created a 15GB /tmp partition within my encrypted LVM. Now I realize that those 15 GB is too much. How can I mount the 15 GB /tmp partition to /media/files permanently and use /tmp in the root partition? I had edited the fstab and changed /dev/mapper/encryptedVol-tmp /tmp    ext4    defaults        0       2
+2009-12-01T18:24:00.000Z	AlexJones		     to     /dev/mapper/encryptedVol-tmp /media/files    ext4    defaults        0       2
+2009-12-01T18:24:00.000Z	AlexJones		. But then after the next reboot I was not able to log in anymore getting the error message: "/usr/libgconf2-4/gconf-sanity-check exited with status 256). What should I do?
+2009-12-01T18:24:00.000Z	FloodBot5	AlexJones	Please don't flood, use http://paste.ubuntu.com to paste, don't use Enter as punctuation.

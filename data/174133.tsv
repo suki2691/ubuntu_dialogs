@@ -1,0 +1,4 @@
+2007-05-05T06:23:00.000Z	k00giez		how do i install c header files?
+2007-05-05T06:23:00.000Z	micahcowan	k00giez	you usually want the package that has the same name as the library you want headers for, but with "-dev" at the end.
+2007-05-05T06:24:00.000Z	k00giez	dooglus	i have apt-get install build-essentials. but it seems that the vmware installer could not detect /usr/src/linux/include ... any ideas?
+2007-05-05T06:24:00.000Z	micahcowan	k00giez	The standard library headers are in libc6-dev, for instance

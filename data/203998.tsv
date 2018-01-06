@@ -1,0 +1,4 @@
+2005-12-18T11:47:00.000Z	razboinik		did anyone read my post?
+2005-12-18T11:48:00.000Z	sethk	razboinik	if it isn't already there, put the touchpad driver into the xorg.conf file
+2005-12-18T11:50:00.000Z	razboinik	sethk	there are two in there. configured mouse and synaptics touchpad
+2005-12-18T11:51:00.000Z	sethk	razboinik	synaptics touchpad should help.  check the xorg log and make sure the server is using the touchpad driver.  You might want to comment out the other, although you may not be able to (depends on how the config was written)

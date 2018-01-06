@@ -1,0 +1,4 @@
+2010-09-24T23:31:00.000Z	DrPoO		i need help with user and group permisions, I have a directory owned by root, but i want to give members of the group "mygroup" permission to write on that directory. How can i do this?
+2010-09-24T23:31:00.000Z	dajhorn	DrPoO	chgrp MyGroup MyDirectory;  chmod g+rwX MyDirectory
+2010-09-24T23:33:00.000Z	DrPoO	dajhorn	thank you!
+2010-09-24T23:33:00.000Z	dajhorn	DrPoO	Welcome.

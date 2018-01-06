@@ -1,0 +1,4 @@
+2005-09-30T13:37:00.000Z	teenie		what this it means ? Unable to lock the administration directory (/var/lib/dpkg/)
+2005-09-30T13:37:00.000Z	bob2	teenie	the rest of the error message explains it
+2005-09-30T13:37:00.000Z	bob2	teenie	you either ran it as well as some other packagemanagement tool, or you forgot to run it as root
+2005-09-30T13:40:00.000Z	bob2	teenie	if you follow those instructions, you will not get that error

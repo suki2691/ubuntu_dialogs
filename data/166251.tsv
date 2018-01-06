@@ -1,0 +1,4 @@
+2007-12-10T00:46:00.000Z	mindframe_		my sound is broken in quake3.  all of my other apps sound works except quake3.  it was working yesterday and now it's not.  any idea what's causing this?
+2007-12-10T00:46:00.000Z	mindframe_		is /dev/dsp the proper sound device?
+2007-12-10T00:46:00.000Z	wols	mindframe_	yes
+2007-12-10T00:48:00.000Z	wols	mindframe_	echo "quake3.x86 0 0 direct" > /proc/asound/card0/pcm0p/oss

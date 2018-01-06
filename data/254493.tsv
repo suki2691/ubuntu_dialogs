@@ -1,0 +1,4 @@
+2012-11-29T18:45:00.000Z	smj		why does every screen capturing guide tell you to use ffmpeg -f alsa -i pulse for capturing audio? it doesn't record anything, not even a noise
+2012-11-29T18:47:00.000Z	mgedmin	smj	it's possible you have more than one input source available (e.g. internal mic, external mic port) and the wrong one is selected as default in sound preferences
+2012-11-29T18:47:00.000Z	mgedmin		(or it's muted)
+2012-11-29T18:49:00.000Z	smj	mgedmin	if I need to set that they should mention in the guide

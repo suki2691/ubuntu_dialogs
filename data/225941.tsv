@@ -1,0 +1,4 @@
+2005-11-23T12:41:00.000Z	drew_		you i have a question about linux: "when you SSH Into another server and execute a command that takes a VERY Long time, i you close your terminal window will it still execute?"
+2005-11-23T12:41:00.000Z	trappist	drew_	no.  use screen
+2005-11-23T12:43:00.000Z	trappist	drew_	ssh somebox -> screen -S myscreen -> longcommand -> ctrl-a d -> close terminal -> ssh somebox -> screen -x
+2005-11-23T12:45:00.000Z	trappist	drew_	that's only true of win0x

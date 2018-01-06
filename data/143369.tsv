@@ -1,0 +1,4 @@
+2008-06-28T17:37:00.000Z	gnudoc		i'm trying to use sed in a bash script to read to the nth line of a file: sed -n 'LINENUM{p;q;}' FILENUM. But i can't find a way to use a variable as the line number, any suggestions?
+2008-06-28T17:38:00.000Z	unop	gnudoc	single quotes don't interpolate variables
+2008-06-28T17:39:00.000Z	unop	gnudoc	sed -n "$LINENUM.." file
+2008-06-28T17:39:00.000Z	gnudoc	unop	thanks

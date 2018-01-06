@@ -1,0 +1,4 @@
+2006-03-28T11:10:00.000Z	hayden		how can i run apache httpd server if i compiled it from source to /usr/local/
+2006-03-28T11:10:00.000Z	hayden		how can i run apache httpd server if i compiled it from source to /usr/local/ *at boot
+2006-03-28T11:11:00.000Z	ian_	hayden	apachectl start
+2006-03-28T11:12:00.000Z	ian_	hayden	as root.  if it's not in the path then "/usr/local/apache/bin/apachectl start"

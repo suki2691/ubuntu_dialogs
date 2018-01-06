@@ -1,0 +1,4 @@
+2008-02-11T08:37:00.000Z	Djpenguin		Im installing Ubuntu Gutsy on my new PC, and Id like to do a manual partition. What formats and how big must each one be?
+2008-02-11T08:37:00.000Z	Djpenguin		I know there must be some kind of swap
+2008-02-11T08:37:00.000Z	puff	Djpenguin	This is generally a topic of much discussion as to which is best.
+2008-02-11T08:39:00.000Z	puff	Djpenguin	I've never gotten a definitive answer, but:  1) some folks (fairly knowledgable IIRC) recommended using LVM so I could resize partitions later. 2) Of course you need swap, see hsystemV2's advice, 3) In retrospect, I kinda wish I'd at least had a separate physical partition for /usr, so I could do a clean reinstall without having to worry about backing up user files.

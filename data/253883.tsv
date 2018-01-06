@@ -1,0 +1,4 @@
+2005-06-12T15:53:00.000Z	MaTt|aS		Hello again :) I hade a question, i run a AMD Athlon 64+ wich ATI driver shuld i use? the x86 or x86_64? And shuld i use XFree86 or X.Org ?
+2005-06-12T15:54:00.000Z	MaTt|aS		I dont now, i get the cd from a friend. how can i se the architecture?
+2005-06-12T11:43:00.000Z	MaTt|aS		(My Englisch is not good) How can i Mount a shared mapp from another computer? In Suse i write: mount -o password="XxX" //192.168.x.x/"shared" /windows/share . But this dosent work in ubunto. Can somone help me?
+2005-06-12T11:44:00.000Z	zenrox	MaTt|aS	 try sudo mount -t smbfs -o password=xxx //ip.here/shared /windows/shared

@@ -1,0 +1,4 @@
+2011-10-29T20:50:00.000Z	rlivin		will someone help me set up sharing between ubuntu in virtual box and windows7?
+2011-10-29T20:52:00.000Z	meowsus	rlivin	you can use samba for this.
+2011-10-29T20:53:00.000Z	meowsus	rlivin	if you install the "samba" and "system-config-samba" package you can set up a share on your Ubuntu Host that Windows 7 can see in My Network Places
+2011-10-29T20:55:00.000Z	meowsus	rlivin	once the packages are installed, you can edit the samba configuration through the item it adds to, either, System or Preferences in the main menu

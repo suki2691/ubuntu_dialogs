@@ -1,0 +1,4 @@
+2008-01-26T10:16:00.000Z	Shpook		What are my options if Ubuntu doesn't detect my wireless card whatsoever? Both lspci and iwconfig don't shot it.
+2008-01-26T10:18:00.000Z	pvl1	Shpook	look into ndiswrapper
+2008-01-26T10:19:00.000Z	Shpook	pvl1	From what I've gathered so far, ndiswrapper won't work if the card doesn't exist to the system.
+2008-01-26T10:20:00.000Z	pvl1	Shpook	well sometimes, thats the only way that ndiwswrapper can pick it up from what i understand. but thats the only thing i know thatcan work

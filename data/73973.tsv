@@ -1,0 +1,4 @@
+2008-11-19T08:21:00.000Z	sinuc		if you dont specify the depencies with version in the control file for a deb package, does it just fallback and uses the most current one?
+2008-11-19T08:22:00.000Z	gaelfx	sinuc	I'm pretty sure you have to specify versions
+2008-11-19T08:23:00.000Z	gaelfx	sinuc	it's part of the name of the package it looks for, besides, it's dangerous not to because there is  no guarantee that the newest package will have the same order as previous ones
+2008-11-19T08:23:00.000Z	sinuc	gaelfx	thx

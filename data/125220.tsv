@@ -1,0 +1,4 @@
+2007-12-22T12:14:00.000Z	gerzel		Q: I need to log into a root console on my machine how do I do this in Ubuntu?  Also I'd like to set it up so that X doesn't automatically start up, console log-in.
+2007-12-22T12:14:00.000Z	scguy318	gerzel	sudo -i when logged into your user account
+2007-12-22T12:14:00.000Z	scguy318	gerzel	if you want to be able to explicitly login as root, then you'd set a password for root
+2007-12-22T12:17:00.000Z	scguy318	gerzel	there is no inittab I believe, since Ubuntu uses Upstart

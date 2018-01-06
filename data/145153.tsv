@@ -1,0 +1,4 @@
+2012-02-17T21:29:00.000Z	Hairpuller		Is there a way of re-starting and stoping the wifi service without rebooting
+2012-02-17T21:29:00.000Z	Hairpuller		please tell
+2012-02-17T21:30:00.000Z	martian	Hairpuller	try: sudo /etc/init.d/networking restart
+2012-02-17T21:32:00.000Z	martian	Hairpuller	there is a lot of information online for how to get the atheros chipset to work in ubuntu. Maybe 11.10+ has it work by default, but I'm not sure.

@@ -1,0 +1,4 @@
+2005-08-28T09:29:00.000Z	jayparadise		ok /etc/init.d/networking restart;ifconfig <ip> eth0; ifup <ip> eth0 is what i just did and that tellls me more about the issue
+2005-08-28T09:30:00.000Z	jayparadise		it apperently isn't talking to my dhcp correctly, it gets the lease time screwed up
+2005-08-28T09:30:00.000Z	jayparadise		so what dhcp client does ubuntu use as default?
+2005-08-28T09:30:00.000Z	crimsun	jayparadise	dhclient

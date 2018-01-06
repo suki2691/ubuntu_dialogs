@@ -1,0 +1,4 @@
+2008-12-29T22:41:00.000Z	orgthingy		hi
+2008-12-29T22:41:00.000Z	orgthingy		how can i can i know if i have joystick support in my lovely ubuntu kernel?
+2008-12-29T22:42:00.000Z	adaptr	orgthingy	lsmod|grep joy
+2008-12-29T22:44:00.000Z	adaptr	orgthingy	it has loaded the joystick module, so it has at least detected something

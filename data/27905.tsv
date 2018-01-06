@@ -1,0 +1,4 @@
+2010-08-04T05:03:00.000Z	chronIK		can i install ubuntu to external usb hard drive? without losing the data on it?
+2010-08-04T05:04:00.000Z	g-Bo	chronIK	try resize the existing partitions, create a new primary one and install ubuntu on that, after that install grub on that external disk and you are all set if your computer can boot off ext. drives
+2010-08-04T05:07:00.000Z	g-Bo	chronIK	you can also try a usb flash disk
+2010-08-04T05:08:00.000Z	g-Bo	chronIK	also check out wubi, with that you wont need to resize your partition

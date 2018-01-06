@@ -1,0 +1,4 @@
+2010-04-20T01:13:00.000Z	BusMaster		I have some apps that leak memory. does it make sense to create a minimal virtual machine to run them in, let them leak and reboot the machine when its out of memory? I don't want to reboot my real machine
+2010-04-20T01:13:00.000Z	clrg	BusMaster	That would not be a guarantee that the leaked memory is purged.
+2010-04-20T01:14:00.000Z	BusMaster	clrg	but if i reboot the vm, won't it be purged? the apps leaking them will essentially be using the vm's memory and if I reboot it... ?
+2010-04-20T01:18:00.000Z	BusMaster	clrg	MilkmanDan here is an example. I run spotify under wine which makes gnome-settings-daemon leak memory..it then brings my whole machine to a halt..so I though running spotify under wine in a vm will help. the vm's memory is used up, then i reboot hte vm

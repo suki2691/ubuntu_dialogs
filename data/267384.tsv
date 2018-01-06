@@ -1,0 +1,4 @@
+2005-03-19T12:30:00.000Z	reperire		I install Ubuntu on one partition on my hard drive and it was working fine and I was able to boot into and everything. I then install Windows XP on another partition on my hard-drive and it appears that it has overwritten the master boot record since when I start my computer it launches straight into Windows without giving me the option of booting into Ubuntu. What should I do?
+2005-03-19T12:30:00.000Z	schweeb	reperire	you can use knoppix or something to reinstall grub to the MBR
+2005-03-19T12:32:00.000Z	schweeb	reperire	you can do it with your regular ubuntu CD, but I don't have the directions necessary to tell you how (nor the time)
+2005-03-19T12:32:00.000Z	schweeb	reperire	basically, boot the CD, go to VT2, mount your hard drive, chroot to it, run grub-install, reboot

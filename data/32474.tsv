@@ -1,0 +1,4 @@
+2011-01-23T02:53:00.000Z	monteith		can anyone point me to a permissions/ownership scheme of an apache webserver?
+2011-01-23T02:53:00.000Z	thesheff17	monteith	everything is www-data:www-data owned
+2011-01-23T02:53:00.000Z	thesheff17	monteith	so chown -R www-data:www-data
+2011-01-23T02:54:00.000Z	thesheff17	monteith	chown -R * www-data:www-data yea I wouldn't mess with unless you are having problems.

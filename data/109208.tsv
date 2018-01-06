@@ -1,0 +1,4 @@
+2008-03-21T00:52:00.000Z	jrib	Chris|	look at /etc/event.d/tty*  Check the upstart notification to see how to properly stop those from getting executed
+2008-03-21T00:52:00.000Z	jrib	Chris|	(I don't know if there is a cleaner way than just removing them)
+2008-03-21T00:54:00.000Z	Chris|	jrib	just delete the tty's i dont want running?
+2008-03-21T00:55:00.000Z	jrib	Chris|	probably best to back them up somewhere.  If you look inside, you can probably just comment the line that tells it to run on runlevel 2.  Again, I'm not really familiar with upstart, so at least glance through their docs

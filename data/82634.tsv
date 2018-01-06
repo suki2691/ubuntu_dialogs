@@ -1,0 +1,4 @@
+2010-03-17T01:22:00.000Z	awsten32		how to login in root ?
+2010-03-17T01:23:00.000Z	awsten32		OK
+2010-03-17T01:24:00.000Z	guntbert	awsten32	you usually only need sudo/gksudo -           sudo -i is for the very rare cases where you really need a root shell
+2010-03-17T01:26:00.000Z	guntbert	awsten32	If you need to run graphical applications as root, use « gksudo », as it will set up the environment more appropriately. Never just use "sudo"! (See http://psychocats.net/ubuntu/graphicalsudo to know why)

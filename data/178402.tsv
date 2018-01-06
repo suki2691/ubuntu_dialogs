@@ -1,0 +1,4 @@
+2008-12-13T21:25:00.000Z	rhalff		how to install a .deb file with dependencies ?
+2008-12-13T21:25:00.000Z	rhalff		dpkg -i my.deb won't install dependencies, and apt-get install my.deb won't recognize the .deb
+2008-12-13T21:26:00.000Z	rhalff		jrgp, because I made my own package
+2008-12-13T21:26:00.000Z	Jack_Sparrow	rhalff	if it is from our repos and you are using apt-get aptitude or synaptic, they are handled.. if you go outside our repos, you get to chase them ourself

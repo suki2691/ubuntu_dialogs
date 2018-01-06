@@ -1,0 +1,4 @@
+2009-02-06T12:21:00.000Z	TelQuel		it claims to be quite small
+2009-02-06T12:21:00.000Z	TelQuel		is there another way to check other than the GUI? because I am getting the impression that for whatever reason the GUI is incorrect in its estimation of my space.
+2009-02-06T12:23:00.000Z	ramirand_	TelQuel	sudo du | sort -rn | head       <- Might help if you know which files / directories are taking up the most space.
+2009-02-06T12:24:00.000Z	TelQuel	ramirand_	there we are... thanks. I forgot I tested DVD ripping software on this thing and it clearly did not delete after burning. That's the culprit.

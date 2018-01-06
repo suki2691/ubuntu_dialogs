@@ -1,0 +1,4 @@
+2007-07-14T11:54:00.000Z	savvas		does anyone remember what is the option that is supposed to be off/disabled for nvidia agp cards to show correctly the resolution in gnome? something with TwinView.. ?
+2007-07-14T11:55:00.000Z	weboide	savvas	you can use the nvidia settings program instead
+2007-07-14T11:56:00.000Z	savvas	weboide	negative, it usually breaks my configuration :\
+2007-07-14T11:57:00.000Z	weboide	savvas	you can "sudo gedit /etc/X11/xorg.conf"  and edit the Modes in the Section "Screen" in it,  ive done that and it worked fine

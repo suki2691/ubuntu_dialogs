@@ -1,0 +1,4 @@
+2007-09-08T13:43:00.000Z	upgrdman		is it possible to disable the gui bootup? im having problems with it
+2007-09-08T13:45:00.000Z	upgrdman		anyone? is it possible to force a non gui bootup? im not talking about disabling x or gdm... but it actual boot up...
+2007-09-08T13:45:00.000Z	upgrdman		yes the splash
+2007-09-08T13:46:00.000Z	Frogzoo	upgrdman	disable gdm, and remove 'splash' & 'quiet' options in /boot/grub/menu.lst, then run 'sudo update-grub'

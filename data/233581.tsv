@@ -1,0 +1,4 @@
+2005-09-22T08:42:00.000Z	vanberge		im going to ask this in here just bc you guys are always helpful... is it possible to tell httpd to use physical ram instead of swap?  then have other processes use the swap?  :-/   tks in advance, wont ask again.
+2005-09-22T08:42:00.000Z	dr_willis	vanberge	 its not worth messing with. Linux is so good at when to use swap file ior not.
+2005-09-22T08:43:00.000Z	vanberge	dr_willis	well, in my case it would be kind of worth it...  httpd uses swap alot
+2005-09-22T08:44:00.000Z	dr_willis	vanberge	 ive seen a large # of debates/articals on trying to outsmart linux and how it uses swap or real ram.. and they almost alwyas agreed - its not gaining you anything.. there may be some other apache twe4aks that may help you however.

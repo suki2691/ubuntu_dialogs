@@ -1,0 +1,4 @@
+2004-11-04T14:14:00.000Z	kent		I am trying to get phpwiki working on Ubuntu. I have apache installed, and php4, and have uncommented the php-section in apache.conf, still when i browse my homepage the browser tells me if i want to open the php-file. That is, apache is not executing the script :(  How come?
+2004-11-04T14:15:00.000Z	stepcut	kent	did you restart/reload the apache server after changing the settings?
+2004-11-04T14:16:00.000Z	kent	stepcut	yes.
+2004-11-04T14:18:00.000Z	stepcut	kent	dunno, maybe you missed a section in the apache.conf? The php stuff is spread out in a few different sections I think..

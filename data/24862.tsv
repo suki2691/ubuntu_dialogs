@@ -1,0 +1,4 @@
+2011-10-20T13:21:00.000Z	arvut		question tho, if /home is encrypted (and its own partition), can I then use it if I reinstall the rest?
+2011-10-20T13:22:00.000Z	jvm_	arvut	you can only mount it with the encryption key you should have written down at installation time -- you can access it with ecryptfs-wrap-passphrase
+2011-10-20T13:23:00.000Z	arvut	jvm_	ah, so if I do that before reinstall, I can rescue it?
+2011-10-20T13:24:00.000Z	jvm_	arvut	right.

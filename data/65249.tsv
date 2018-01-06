@@ -1,0 +1,4 @@
+2009-03-01T03:36:00.000Z	funkycat90210		when i do su - user -c 'echo $PATH", I see a different path than su - user then echo $PATH
+2009-03-01T03:36:00.000Z	funkycat90210		shouldnt they be the same?
+2009-03-01T03:37:00.000Z	n8tuserf	funkycat90210	-> compare the env   command
+2009-03-01T03:38:00.000Z	funkycat90210	n8tuserf	will do, note that i set the path in /etc/bash_completion.d/vars which is used for suing into the user but not via the cmd, doing diff of env

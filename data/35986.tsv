@@ -1,0 +1,4 @@
+2010-09-03T08:27:00.000Z	Muscovy		Could someone tell me how to make 'date' produce spaces? (ex: Month Day)
+2010-09-03T08:28:00.000Z	pfifo	Muscovy	'man date' the manual has info on how to format it
+2010-09-03T08:29:00.000Z	Muscovy	pfifo	I read that, and the only thing I can see is %_m or something, but it can't be used with ordinary text, just the % vars.
+2010-09-03T08:30:00.000Z	pfifo	Muscovy	put it in quotes '+ %m %d %Y'

@@ -1,0 +1,4 @@
+2007-04-20T14:38:00.000Z	ap1		Hey, if I mount /dev/sda or sda1 or sda2 as usbfs it "works", but only shown some system file hierarchy with "001 002 devices..." etc... how to access my USM memory?
+2007-04-20T14:38:00.000Z	dystopianray	ap1	usbfs is the wrong fielsystem
+2007-04-20T14:38:00.000Z	dystopianray	ap1	you don't ever use usbfs as a user
+2007-04-20T14:38:00.000Z	dystopianray	ap1	your drive most likely has a fat32 partition

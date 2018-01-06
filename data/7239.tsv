@@ -1,0 +1,4 @@
+2011-12-13T18:45:00.000Z	Stepnjump		Maybe someone could help me.. I'm trying to look for all files (recursively) that have the owner as root and the group as root.. How could I do that using ls and grep please?
+2011-12-13T18:47:00.000Z	llutz	Stepnjump	find path/ -uid 0 -gid 0
+2011-12-13T19:01:00.000Z	Stepnjump	llutz	thanks a lot for your help. It works great!
+2011-12-13T19:01:00.000Z	llutz	Stepnjump	not as ugly as some ls -lRa|grep "root root" :)

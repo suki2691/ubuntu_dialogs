@@ -1,0 +1,4 @@
+2008-12-16T04:40:00.000Z	staticshock		oh, ok
+2008-12-16T04:40:00.000Z	staticshock		so, in actuality, what i want to do is insert some text at the top of the file. how do i do that?
+2008-12-16T04:40:00.000Z	staticshock		this was gonna be my approach, but maybe there's an easier way
+2008-12-16T04:41:00.000Z	Jack_Sparrow	staticshock	In this example you can see that >> is append..  sudo apt-get install pastebinit  && cp /etc/fstab ~/Desktop/Partition_Layout.txt && sudo fdisk -l >> ~/Desktop/Partition_Layout.txt && cat /boot/grub/menu.lst >> ~/Desktop/Partition_Layout.txt && lsb_release -a >> ~/Desktop/Partition_Layout.txt && cat /home/$USER/Desktop/Partition_Layout.txt | pastebinit  (Provide Pastebin link in channel)

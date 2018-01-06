@@ -1,0 +1,4 @@
+2006-06-27T11:25:00.000Z	jcan_ras		i have a shell script I want to run at startup, can sum1 tell me how to do it?
+2006-06-27T11:25:00.000Z	dooglus	jcan_ras	append a line that runs it to /etc/init.d/bootmisc.sh
+2006-06-27T11:25:00.000Z	dooglus	jcan_ras	make sure the script is executable
+2006-06-27T11:26:00.000Z	dooglus	jcan_ras	and it'll be run by root

@@ -1,0 +1,4 @@
+2009-02-19T18:31:00.000Z	blufade		guys, i have a problem, pro engineer uses vi editor by default.....in windiws it uses notpad for the same function.....so is there anyway i can change this to gedit or some other text editor instead of vi
+2009-02-19T18:32:00.000Z	blufade		﻿jrib, CAD/CAM s/w
+2009-02-19T18:34:00.000Z	blufade		is there a way to disable vi editor and force programs to use normal text editor
+2009-02-19T18:35:00.000Z	erUSUL	blufade	export nano as your EDITOR or VISUAL env variable or just « sudo update-alternatives --config editor »

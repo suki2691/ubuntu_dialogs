@@ -1,0 +1,4 @@
+2007-10-24T23:15:00.000Z	weedar		currently /var/www is owned by root.root but I want to have an ftp account to upload to this area - do I have to use the user root for this or is there another solution?
+2007-10-24T23:17:00.000Z	Vlet	weedar	I usually create a group called 'webdev' and make that the group owner of it, and change the owner to my personal account, and chmod 775 it
+2007-10-24T23:17:00.000Z	Vlet	weedar	the only annoying thing is that newly created files will be set ast 755
+2007-10-24T23:19:00.000Z	weedar	Vlet	thanks for the suggestion, that might be a decent workaround :)

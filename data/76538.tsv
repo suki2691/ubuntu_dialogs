@@ -1,0 +1,4 @@
+2009-06-20T12:15:00.000Z	dsdeiz		for example i installed a package using apt-get, does it store a deb file somewhere?
+2009-06-20T12:17:00.000Z	blue-frog	dsdeiz	/var/cache/apt/archives
+2009-06-20T12:18:00.000Z	dsdeiz	blue-frog	is there a time limit or some sort that then it deletes it?
+2009-06-20T12:19:00.000Z	blue-frog	dsdeiz	no unless you remova it yourself  (apt-get autoclean   apt-get clean)

@@ -1,0 +1,4 @@
+2012-04-01T23:54:00.000Z	tommyfun		oh ok
+2012-04-01T23:56:00.000Z	tommyfun		well, I was wondering about deploying ubuntu in a computer lab, Teh first question is about pxe booting, what's the best practice?  using a golden image like windows and image all the machines or a kickstart automated installation?
+2012-04-01T23:57:00.000Z	tommyfun		Second question is about installing software, best practice, is it installing packages on all the clients or installing them once on a master and exporting /usr and then mount /usr on /usr/lcoal on all the clients?
+2012-04-01T23:59:00.000Z	guntbert	tommyfun	ad 2) I'd create a local mirror  (with apt-mirror) and let them do the software installation via this

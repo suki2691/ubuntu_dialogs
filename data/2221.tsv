@@ -1,0 +1,4 @@
+2012-06-28T22:37:00.000Z	KorvinSzanto		how can I scan an ip range for open ports?
+2012-06-28T22:37:00.000Z	KorvinSzanto		I want to scan 10.1.10.* for open 80 ports
+2012-06-28T22:39:00.000Z	wotwotslayer	KorvinSzanto	use nmap, switch -P 80 x.x.x.*
+2012-06-28T22:39:00.000Z	wotwotslayer	KorvinSzanto	sorry small -p

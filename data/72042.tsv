@@ -1,0 +1,4 @@
+2008-12-06T16:19:00.000Z	Ohkie		my ubuntu seems to be stuck in a useless loop of logging in. i put in my username and password, the screen goes blank and i get returned to the username password screen. i went to the console (ctrl alt f1 or whatever it is) and tried logging in there and the same thing happens. what can i do to try and fix this?
+2008-12-06T16:21:00.000Z	Ohkie		slart: any ideas on what i can do to resolve this? it seems to happen from a console login too?
+2008-12-06T16:22:00.000Z	topherhead	Ohkie	init 3 (i think) and then log in after logging in init 5
+2008-12-06T16:23:00.000Z	topherhead	Ohkie	or startx

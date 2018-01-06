@@ -1,0 +1,4 @@
+2008-05-08T10:07:00.000Z	jameswf-home		Does Ubuntu 8.04 use /boot/grub/menu.list and if so why does mine show the right stuff for 8.04 but at boot it tries to load 7.10 though there is no 7.10 stuff in menu.lst... yes I have run update-grub
+2008-05-08T10:08:00.000Z	arvind_khadri	jameswf-home	yeah ubuntu uses that check it out remove the older kernel from there
+2008-05-08T10:10:00.000Z	jameswf-home	dessnr	none of the 8.04 options show at boot
+2008-05-08T10:10:00.000Z	arvind_khadri	jameswf-home	run update-initramfs

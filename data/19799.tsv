@@ -1,0 +1,4 @@
+2011-02-20T21:32:00.000Z	gsfai		How can i kill a Zombie process?
+2011-02-20T21:32:00.000Z	Fuchs	gsfai	you can't
+2011-02-20T21:32:00.000Z	Fuchs	gsfai	you can send sighup to it's parent, or kill it's parent
+2011-02-20T21:32:00.000Z	Fuchs	gsfai	in order to find out which process the parent is, you can use pstree

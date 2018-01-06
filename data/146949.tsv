@@ -1,0 +1,4 @@
+2007-03-03T17:20:00.000Z	tiagoboldt		does anyone know how can I create a multi part archive? zip/rar/.. ?
+2007-03-03T17:21:00.000Z	vlt|home	tiagoboldt	You could pipe "tar"'s aoutput to "split".
+2007-03-03T17:22:00.000Z	tiagoboldt	vlt|home	need something that will work in windows, easily
+2007-03-03T17:22:00.000Z	vlt|home	tiagoboldt	"type archive.parts* > whole_file.tgz" will work on windows, too

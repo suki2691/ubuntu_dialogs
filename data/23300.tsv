@@ -1,0 +1,4 @@
+2011-03-26T22:23:00.000Z	fluitfries		does anyone have experience installing LoL game via WINE using this?  winelol_1.3.16-2_amd64.deb  thanks!!
+2011-03-26T22:24:00.000Z	fluitfries		the problem i have with winelol_1.3.16-2_amd64.deb is that when i try to install -i it says i do not have dependencies.  but when i look these depends up in Synaptic, I see that they are all installed....
+2011-03-26T22:26:00.000Z	fluitfries		is there a command switch for dpkg i am missing?  one that forces install or fetches dependencies?
+2011-03-26T22:27:00.000Z	leg3nd	fluitfries	dpkg -i DEB_FILE.deb

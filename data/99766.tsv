@@ -1,0 +1,4 @@
+2008-04-03T10:13:00.000Z	benanzo		Can I configure SSH so I have to authenticate with *both* password and key instead of one or the other?
+2008-04-03T10:14:00.000Z	iositd	benanzo	yes, set a password on the key that you use. ssh-keygen -t dsa
+2008-04-03T10:14:00.000Z	benanzo	iositd	yes I did that but I want to authenticate the user account with a password as well, not just the key's password
+2008-04-03T10:15:00.000Z	iositd	benanzo	the whole point of key auth is not using a password

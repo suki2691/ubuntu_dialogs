@@ -1,0 +1,4 @@
+2009-08-05T23:05:00.000Z	ScottG		What is a command that will hang but won't use a lot of resources? I need something to put at the end of my .xinitrc
+2009-08-05T23:06:00.000Z	burkmat	ScottG	What exactly do you want it to do? You want a command that simply waits?
+2009-08-05T23:07:00.000Z	ScottG	burkmat	Yea. My X starts with .xinitrc. But at the end it needs a command to hang on.
+2009-08-05T23:08:00.000Z	burkmat	ScottG	Aah.. Well then sleep is no good, because eventually it will finish. ;) I... don't know really. Maybe have it ask for input and never give any?

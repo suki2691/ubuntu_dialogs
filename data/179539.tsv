@@ -1,0 +1,4 @@
+2007-08-06T13:11:00.000Z	shk1		does anyone know if there is a way to perform super user commands from the file manager gui
+2007-08-06T13:11:00.000Z	shk1		(ie to delete or move certain files)
+2007-08-06T13:12:00.000Z	jrib	shk1	gksudo nautilus   but you should never really need this
+2007-08-06T13:14:00.000Z	jrib	shk1	with regards to your earlier question, take a look at how the 'ubuntu-calendar' package does it (note that some files may be nsfw but I don't know of other packages right now).  It creates a .xml file in /usr/share/gnome-background-properties/ .  And the user properties about backgrounds are stored in ~/.gnome2/backgrounds.xml

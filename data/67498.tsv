@@ -1,0 +1,4 @@
+2009-06-15T20:31:00.000Z	Guest48866		Are network login passwords vulnerable to a rainbow table attack?
+2009-06-15T20:32:00.000Z	mdm	Guest48866	they are in plain text unless you use an encrypted connection
+2009-06-15T20:34:00.000Z	mdm	Guest48866	using ctrl-alt-del is not to encrypt, keep safe or othwise. It simply is to ensure you are on the local computer when you enter your password
+2009-06-15T20:38:00.000Z	mdm	Guest48866	with the offloading of the password to shadow and using random salts it is much harder to reverse the password field. It is much easier to brute force it with a dictionary attack.  Still anyone with enough patience can simply brute force it given enough time.  This is why password policies ask you to use upper case, lower case, numbers and symbols for the password and why they want you to change it every so often

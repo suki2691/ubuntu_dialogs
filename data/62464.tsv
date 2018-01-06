@@ -1,0 +1,4 @@
+2009-10-04T02:29:00.000Z	iceroot		i am using ssh user@host  but some days ago i reinstall the host, so its another key and ssh wont connect because of that. is there a way to force ssh to use the new key?
+2009-10-04T02:30:00.000Z	yofel	iceroot	it should tell you the line in .ssh/known_hosts that is outdated. delete that line and it will connect again
+2009-10-04T02:31:00.000Z	iceroot	yofel	thank you
+2009-10-04T02:31:00.000Z	yofel	iceroot	np

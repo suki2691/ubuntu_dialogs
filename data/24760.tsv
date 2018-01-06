@@ -1,0 +1,4 @@
+2010-11-06T02:31:00.000Z	Chaosratt		anyone know how to unmount a partition when lsof/fuser show no open files, and "umount -f" still says its busy?
+2010-11-06T02:32:00.000Z	goltoof	Chaosratt	 make sure any terminals are cd'd into it or programs accessing it
+2010-11-06T02:32:00.000Z	goltoof		*aren't
+2010-11-06T02:33:00.000Z	Chaosratt	goltoof	No open termals in that directory, only program I know that accesses it (samba) is completely off

@@ -1,0 +1,4 @@
+2007-12-15T00:56:00.000Z	geminidomino		I've got a fresh install of 6.06 LTS and I'm trying to remove evms for obvious reasons, but aptitude is telling me that it will force a remove of ubuntu-standard which the packages.ubuntu.com notes should not be uninsrtalled... Is there a workaround?
+2007-12-15T00:58:00.000Z	erUSUL	geminidomino	just disabling evms in startup may be enough ('sudo update-rc.d -f evms remove'). btw i used to disable lvm too back in dapper days
+2007-12-15T00:59:00.000Z	geminidomino	erUSUL	Except I *want* to use lvm. :)
+2007-12-15T00:59:00.000Z	erUSUL	geminidomino	well disable evms only then

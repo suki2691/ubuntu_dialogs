@@ -1,0 +1,4 @@
+2011-11-18T23:12:00.000Z	christian__1		hey
+2011-11-18T23:13:00.000Z	christian__1		please could someone help me: i have a apache php server running on my local machine, i am creating a directory with php, but it can't: permission denied, how can i set the permissions ?? i know the user is www-data
+2011-11-18T23:13:00.000Z	christian__1		i could add the user in the root group. but i dont think thtas a good idea
+2011-11-18T23:14:00.000Z	MonkeyDust	christian__1	 ls -la shows the permissions, use chown to change them

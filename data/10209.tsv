@@ -1,0 +1,4 @@
+2012-03-11T02:10:00.000Z	derpella		I used this instruction: https://help.ubuntu.com/community/Grub2#Creating_the_Custom_Menu and I have file like this: http://pastebin.com/P7W6JLsL What should I write to make the system boot without any window manager?
+2012-03-11T02:12:00.000Z	pfifo	derpella	you need to add 'text' to the kernel line in /etc/default/grub... the GRUB_CMDLINE_LINUX_DEFAULT entry
+2012-03-11T02:13:00.000Z	pfifo	derpella	and then run sudo update-grub
+2012-03-11T02:13:00.000Z	derpella	pfifo	it does nothing

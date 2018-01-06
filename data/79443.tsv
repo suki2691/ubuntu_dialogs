@@ -1,0 +1,4 @@
+2009-09-16T06:31:00.000Z	rhsanborn		I had an existing 9.04 install on my laptop. I ran the installer and installed a fresh 8.10 install on an external HD. It looks like it overwrote my existing boot loader on the primary HD to point to the /boot partition on the external HD. How do I write the bootloader to point to the original, internal hd?
+2009-09-16T06:32:00.000Z	DasEi	rhsanborn	either d/l super grub disk (google) or follow :
+2009-09-16T06:32:00.000Z	DasEi		!grub
+2009-09-16T06:33:00.000Z	rhsanborn	DasEi	ty

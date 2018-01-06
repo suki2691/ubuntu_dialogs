@@ -1,0 +1,4 @@
+2006-07-04T08:00:00.000Z	jorgeu		hi, i need help with locales in ubuntu 6 LTS. The locale configuration "dpkg-reconfigure locales" doesn't let me choose with locales i want, it just generate the locales already installed. Any idea?
+2006-07-04T08:02:00.000Z	jorgeu		hi, i need help with locales (i hate UTF-8) in ubuntu 6 LTS. The locale configuration "dpkg-reconfigure locales" doesn't let me choose with locales i want, it just generate the locales already installed. Any idea?
+2006-07-04T08:02:00.000Z	gnomefreak	jorgeu	go to system>admin>language
+2006-07-04T08:06:00.000Z	jorgeu	gnomefreak	that admin tool only handle the language support installed. Don't let me drop UTF-8 that is my problem now. In past releases of ubuntu the command "dpkg-reconfigure locales" solved it because were possible to uncheck all the UFT-8 related locales and select the NON-UTF-8 locales. It isn't possible anymore?

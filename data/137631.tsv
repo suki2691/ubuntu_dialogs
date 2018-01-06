@@ -1,0 +1,4 @@
+2009-10-28T23:22:00.000Z	BlacKnight		hey, in windows i can change my IP using netsh changing my address to 192.168.1.105 and mask to 255.255.255.0 then I use "netsh interface ip set address name="network" source=dhcp"  after that I do a /renew and i have new IP... is there a way to do it in ubuntu ?
+2009-10-28T23:24:00.000Z	BlacKnight		ya, change it... my IP is static for few days then it changes, but i can do it manually in windows using that
+2009-10-28T23:24:00.000Z	BlacKnight		so i want to do it manually in linux :p
+2009-10-28T23:24:00.000Z	llutz	BlacKnight	use ifconfig/dhclient

@@ -1,0 +1,4 @@
+2011-01-18T00:39:00.000Z	jschall		why are the broadcom wl drivers setting my bitrate to 8Mb/s? I can force it to 54Mbit/s with iwconfig, but it shouldn't set itself to 8 automatically. If I run iwconfig eth1 rate auto, it goes back to 8.
+2011-01-18T00:41:00.000Z	gbear14275	jschall	broadcom just open sourced their drivers
+2011-01-18T00:42:00.000Z	jschall	gbear14275	then why was this listed as a restricted driver in ubuntu?
+2011-01-18T00:42:00.000Z	gbear14275	jschall	cause it probably takes more than a couple weeks to get the new ones into the distros

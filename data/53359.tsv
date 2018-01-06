@@ -1,0 +1,4 @@
+2009-06-30T19:05:00.000Z	n0gearII		which log tells me what username and pwd someone tried when trying to log into SSH?
+2009-06-30T19:06:00.000Z	sipior	n0gearII	/var/log/auth.log. won't show the password, though.
+2009-06-30T19:06:00.000Z	n0gearII	sipior	yep i checked that all ready
+2009-06-30T19:07:00.000Z	sipior	n0gearII	if you're looking for an earlier login, check the gzipped versions of the file in the same directory.

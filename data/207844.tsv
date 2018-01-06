@@ -1,0 +1,4 @@
+2008-05-14T13:59:00.000Z	Chapai		when generating key pairs for ssh using dsa do i rename the .pub file to authorized_keys or authorized_keys2
+2008-05-14T13:59:00.000Z	dystopianray	Chapai	you shouldn't have to rename anything
+2008-05-14T13:59:00.000Z	dystopianray	Chapai	use ssh-keygen to generate the keys and ssh-copy-id to copy them to a host
+2008-05-14T14:00:00.000Z	dystopianray	Chapai	use ssh-copy-id to do that

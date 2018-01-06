@@ -1,0 +1,4 @@
+2009-03-28T23:29:00.000Z	Sapta		I want to install linux completely on a 10 GB partition. But the partition table is allowing me to only set it as swap or root directory.
+2009-03-28T23:29:00.000Z	Sapta		Hoew do i put both into that 10 gb partition?
+2009-03-28T23:30:00.000Z	user___	Sapta	what do you mean by "the partition table allows only to.."?
+2009-03-28T23:36:00.000Z	user___	Sapta	you need both: an ext3 partition mounted at / and a swap partition. btw: the ubuntu-installer can do that for you except in difficult cases

@@ -1,0 +1,4 @@
+2007-04-20T15:26:00.000Z	Trist_an		are the packages which are dowloaded by synaptic, apt and so on are kept locally on hard drive or are they deleted after installation?
+2007-04-20T15:28:00.000Z	Trist_an		or is there a proper way to empty apt cache
+2007-04-20T15:29:00.000Z	magnetron	Trist_an	sudo apt-get autoclean
+2007-04-20T15:30:00.000Z	magnetron	Trist_an	my mistake, it is sudo apt-get clean

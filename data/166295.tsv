@@ -1,0 +1,4 @@
+2011-08-09T06:17:00.000Z	Matryx		hi, can someone help me install a dual boot for windows 7 and ubuntu. I've installed Win7 and I've installed ubuntu and made a /boot, /home, /root, and swap partitions. The /boot is a primary partition and the rest is logical. I set the device boot loader to /boot and when I restart I get a error grub rescue message
+2011-08-09T06:18:00.000Z	Matryx		am i supposed to set the device boot loader to /dev/sda or sda3? where the /boot partition is
+2011-08-09T06:18:00.000Z	wols	Matryx	sda
+2011-08-09T06:19:00.000Z	wols	Matryx	what is your grub-install command?

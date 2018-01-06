@@ -1,0 +1,4 @@
+2012-06-22T23:50:00.000Z	ks07		Hey all - I've installed a package from a .deb which is also available from the repos as a newer version, hence apt-get upgrade shows it as requiring an update. How would I go about telling apt-get to ignore this?
+2012-06-22T23:51:00.000Z	ks07		I've tried dpkg --set-selections, but it hasn't seemed to have worked
+2012-06-22T23:51:00.000Z	theadmin	ks07	echo "packagename hold" | sudo dpkg --set-selections # Should work.
+2012-06-22T23:53:00.000Z	ks07	theadmin	ah right it has worked, it just still shows up, thanks

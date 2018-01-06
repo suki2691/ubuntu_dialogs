@@ -1,0 +1,4 @@
+2011-01-30T08:27:00.000Z	nathanspohn		im getting this error wen i try and shutdown http://pastebin.com/ZeD8HgcQ ubuntu 10.10 eeepc sheashell series
+2011-01-30T08:28:00.000Z	klync	nathanspohn	i don't know what's checking for unattended upgrades, but i'm pretty sure it's complaining that your wireless connection is down
+2011-01-30T08:32:00.000Z	klync	nathanspohn	sounds like one of many wifi cards that don't work all too well under linux. you might want to play around with the cmds using iwconfig and iwpriv (such as turning off powersaving). once you find the most stable settings for it, you can save them in your networking startup script
+2011-01-30T08:32:00.000Z	klync	nathanspohn	also, if the card goes down and your system's buggy, try removing the module using rmmod

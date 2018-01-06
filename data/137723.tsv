@@ -1,0 +1,4 @@
+2010-05-13T20:50:00.000Z	tjholowaychuk		hey guys. I have a CI server listening on port 4567, and I can curl it from the server itself but remotely it just hangs (blocked port?)
+2010-05-13T20:50:00.000Z	tjholowaychuk		how do you "unlock" a port? iptables -L
+2010-05-13T20:50:00.000Z	tjholowaychuk		is all default
+2010-05-13T20:51:00.000Z	llutz	tjholowaychuk	there are no blocking rules by "default"

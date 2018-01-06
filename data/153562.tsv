@@ -1,0 +1,4 @@
+2007-01-17T16:09:00.000Z	NeoGeo64		Help.  I'm using Archive Manager to try and extract files from a RAR archive but I keep getting the error that I don't have enough permissions to perform the operation.  I get the same error while running it as root too.  Anyone know?
+2007-01-17T16:09:00.000Z	juano	NeoGeo64	better to use unrar
+2007-01-17T16:09:00.000Z	juano	NeoGeo64	try sudo apt-get install unrar
+2007-01-17T16:10:00.000Z	juano	NeoGeo64	try also as root chmod 777 myarchive.rar

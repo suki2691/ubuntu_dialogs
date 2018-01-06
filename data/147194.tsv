@@ -1,0 +1,4 @@
+2009-03-17T15:51:00.000Z	dusty__		Hey guys I have ubuntu-server installed, I installed ubuntu-desktop and that installed gdm, I only want the ubuntu desktop installed so that I can use remote VNC I do not want GDM installed.. how can I remove GDM but keep gnome/xorg so that it boots to console and I can stil runn the vnc server?
+2009-03-17T15:51:00.000Z	dusty__		I have tried aptitude remove gdm, but that tries to remove ubuntu-desktop too.
+2009-03-17T15:52:00.000Z	erUSUL	dusty__	just disable gdm on boot. « sudo update-rc.d -f gdm remove »
+2009-03-17T15:53:00.000Z	dusty__	erUSUL	thankyou!!

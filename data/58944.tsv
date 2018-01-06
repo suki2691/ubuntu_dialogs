@@ -1,0 +1,4 @@
+2009-05-04T05:10:00.000Z	marksman		I have 2 NICs and 2 IPs (eth0=10.0.x.x & wlan0=192.168.x.x).  Is it possible to specify that firefox uses eth0 and another application uses wlan0?
+2009-05-04T05:10:00.000Z	muellisoft	marksman	depends on the application. Most apps take --interface or -I to specify the interface to run on.
+2009-05-04T05:11:00.000Z	marksman	muellisoft	awesome will look into that thanks!
+2009-05-04T05:12:00.000Z	muellisoft	marksman	but I highly suspect that you can make firefox make connectinos from a specified device ;-) But if you have luck, tell me :)

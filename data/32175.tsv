@@ -1,0 +1,4 @@
+2010-11-26T00:04:00.000Z	elyos		my mysql install just got messed up, i can no longer log in as root, is there some easy ubuntu way of resetting the root password?
+2010-11-26T00:04:00.000Z	elyos		it's not just the regular directions, because there's some special ubuntu stuff in the way
+2010-11-26T00:05:00.000Z	elyos		/etc/init.d/mysql start --skip-grant-tables   is not allowed on ubuntu
+2010-11-26T00:06:00.000Z	ZykoticK9_	elyos	init.d is the old (non-upstart) method to manage services

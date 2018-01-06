@@ -1,0 +1,4 @@
+2009-11-23T10:56:00.000Z	sharpen047		does anyone know why kubuntu will only play sound through one application at a time?
+2009-11-23T10:57:00.000Z	sharpen047		does anyone know why kubuntu will only play sound through one application at a time?(seen confirmed bugs but no real solution)
+2009-11-23T10:57:00.000Z	Out_Cold	sharpen047	it's an alsa issue i think where each app takes full control of your sound... i don't think there is a solution yet
+2009-11-23T10:58:00.000Z	Out_Cold	sharpen047	pulseaudio uses alsa as a higher lever stack

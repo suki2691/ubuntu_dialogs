@@ -1,0 +1,4 @@
+2006-03-07T16:30:00.000Z	do_me_nice		hey, i want to copy a file from my ntfs windows partion onto my linux partion... how would i do that... it tells me its read only... is there any way around this?
+2006-03-07T16:31:00.000Z	dyrne	do_me_nice	sudo gedit /etc/fstab find the line for that partition and change the options column to umask=000,defaults
+2006-03-07T16:31:00.000Z	do_me_nice	lampshade	it refuses to copy
+2006-03-07T16:31:00.000Z	dyrne	do_me_nice	then umount remount

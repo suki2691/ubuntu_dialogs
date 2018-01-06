@@ -1,0 +1,4 @@
+2012-09-03T19:41:00.000Z	reduz2		HELP: Using Ubuntu 12.04. DNS Resolutions are broken in both computers I have running 12.04, suddendly DNS stops resolving, while the other (Windows) computers on the network run ok. Any idea what is going on?
+2012-09-03T19:41:00.000Z	BluesKaj	reduz2	using network manager ?
+2012-09-03T19:48:00.000Z	BluesKaj	reduz2	/etc/resolvconf/resolv.conf.d/head writes to /etc/resolv.conf , so you should have your nameserversw listed in " head "
+2012-09-03T19:49:00.000Z	BluesKaj	reduz2	and ignore the warning in the head file

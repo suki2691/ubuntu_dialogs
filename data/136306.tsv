@@ -1,0 +1,4 @@
+2009-06-23T06:49:00.000Z	tyk3		I'm having a really irritating time with my network connection. Whenever I turn my PC on, the network manager fails to connect to the wired network. Clicking on it in network manager manually just makes it time out. However, if I reboot the PC, it connects automatically on boot, no problem.
+2009-06-23T06:49:00.000Z	tyk3		I've tried disabling network manager, but no dice. It still won't connect till I reboot it. I have absolutely no idea how to go about de-bugging this, and no idea what could be causing it. I'm using 9.04, and the router is using DHCP. None of the other PCs connected to it have this problem, whether they're wireless or ethernet. Does anyone have any ideas?
+2009-06-23T06:49:00.000Z	Gnea	tyk3	get rid of networkmanager and install wicd
+2009-06-23T06:50:00.000Z	Gnea	tyk3	sudo apt-get install wicd   it'll take care of it all for you

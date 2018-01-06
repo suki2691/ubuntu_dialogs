@@ -1,0 +1,4 @@
+2005-07-27T12:19:00.000Z	rathel		is there a console command that I could use to convert png to xpm? instead of opening up the gimp and doing it that way.
+2005-07-27T12:19:00.000Z	Seveas	rathel	mogrify -format xpm
+2005-07-27T12:20:00.000Z	Seveas	rathel	part of imagemagick
+2005-08-23T06:33:00.000Z	Seveas	rathel	add it to /etc/init.d/ and link it from /etc/rcS.d/

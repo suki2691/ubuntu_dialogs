@@ -1,0 +1,4 @@
+2009-04-23T23:42:00.000Z	synnax		hi, can maybe somebody help me plz. I tried to install the new Ubuntu with a live-CD. It actually started correctly, asked me for the language and what I wanted to do (Live-CD boot, install etc) but when I choose to boot Ubuntu without installing, it starts, but then it seems to have a problem with the gpu or something. It doesn't dislpay correctly, actually it only shows some coloured...
+2009-04-23T23:42:00.000Z	synnax		...vertical lines. Someone knows what to do? Would be very thankful. (Btw, I had once installed Ubuntu correctyl on this pc without problems)
+2009-04-23T23:44:00.000Z	synnax		ok, I'll look for some informaiton, thx jojoman02
+2009-04-23T23:44:00.000Z	markeo	synnax	try running 'dpkg-reconfigure xserver-xorg' and enable use of the framebufffer, that may work for you

@@ -1,0 +1,4 @@
+2011-03-03T03:29:00.000Z	xrdodrx		how do I stop ubuntu's obnoxious update window from appearing and slowing my CPU to a halt at random times?
+2011-03-03T03:31:00.000Z	trism	xrdodrx	you can stop if from popping up the window automatically by unchecking: /apps/update-notifier/auto-launch in gconf-editor; it will show an icon in the notification area instead
+2011-03-03T03:31:00.000Z	xrdodrx	trism	I'd rather it didn't even check, I prefer manual updates via apt-get update && upgrade
+2011-03-03T03:32:00.000Z	xrdodrx	trism	the current system kills my CPU on my netbook at random times :)

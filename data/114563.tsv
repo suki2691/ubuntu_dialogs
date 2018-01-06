@@ -1,0 +1,4 @@
+2007-11-01T16:20:00.000Z	ttmrichter_		Hello.  Does anybody here know where Rhythmbox keeps its configurations?  I've deleted ~/.gnome2/rhythmbox and, in fact, deleted everything I could find (using find | grep <whatever>) that has "rhythmbox", "xine" and "gstreamer" anywhere in my home directory tree -- yet whenever I fire up Rhythmbox, it's bringing with it a whole bunch of incorrect settings that it refuses to lose.  Where is it getting these from?
+2007-11-01T16:20:00.000Z	Pici	ttmrichter_	have you checked in gconf?
+2007-11-01T16:22:00.000Z	ttmrichter_	Pici	I deleted *EVERYTHING* *EVERYWHERE* that had gstreamer, xine or rhythmbox in the file or directory name.  Including under the .gconf tree.  Still really bad luck at getting rid of the crap that rhythmbox has accumulated.
+2007-11-01T16:22:00.000Z	Pici	ttmrichter_	using gconf-editor

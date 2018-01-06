@@ -1,0 +1,4 @@
+2005-08-25T09:41:00.000Z	avadash		hey how do i mount a bin/cue/iso file to a virtual cd-rom?
+2005-08-25T09:41:00.000Z	thoreauputic	avadash	I've heard "bchunk" can handle bin/cue
+2005-08-25T09:42:00.000Z	avadash	thoreauputic	thx man
+2005-08-25T10:00:00.000Z	thoreauputic	avadash	sudo modprobe loop ; mount -o loop /mnt/point file.iso ; cd /mnt/point

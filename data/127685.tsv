@@ -1,0 +1,4 @@
+2007-08-18T07:57:00.000Z	MilitantPotato		when you run a command as SU or Sudo in termal does it remain logged in as su untill you restart?
+2007-08-18T07:57:00.000Z	MilitantPotato		terminal*
+2007-08-18T07:59:00.000Z	astro76	MilitantPotato	with sudo it's just for that command, although your password is remembered for sudo for 15 minutes. With su you just have to exit out of the root terminal (but su root doesn't work since root isn't enabled, use sudo -i or sudo -s)
+2007-08-18T08:00:00.000Z	MilitantPotato	astro76	thanks, I was worried it would leave a security risk

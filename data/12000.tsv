@@ -1,0 +1,4 @@
+2012-09-27T12:46:00.000Z	Azzle-Dazzle		Ok I will give that a try now JamezQ
+2012-09-27T12:48:00.000Z	somsip	Azzle-Dazzle	check your permissions. My tmpfs is mounted as defaults,mode=1777,size=2g
+2012-09-27T12:50:00.000Z	somsip	Azzle-Dazzle	well, you'd edit the /etc/fstab and replace defaults,noexec,nosuid on the tmpfs line with what I pasted, but no matter if you're fixed
+2012-09-27T12:51:00.000Z	somsip	Azzle-Dazzle	though not necessarily with the same 'size' param...anyway

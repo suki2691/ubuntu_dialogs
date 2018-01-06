@@ -1,0 +1,4 @@
+2010-05-27T17:16:00.000Z	luist		hey lets say i have some url like: http://myserver.com/some/path/to/repository/101/RPMS   how can i use WGET to download everything under 101... i want just this folder, keeping its structure...
+2010-05-27T17:17:00.000Z	tarzeau	luist	if it's YOUR server, you can just rsync all the stuff
+2010-05-27T17:17:00.000Z	luist	tarzeau	i cant access it with rsync... gota access as a url
+2010-05-27T17:18:00.000Z	tarzeau	luist	you could use lftp http://myserver.com/some/path/to/repository/101 and then mirror, see help inside lftp

@@ -1,0 +1,4 @@
+2009-09-01T14:37:00.000Z	nitroman70		hi, I would like to redirect an incoming audio stream to my microphone input : for example, if I chat with a friend on skype, I want him to hear my audio stream instead of my microphone input. How can I do that
+2009-09-01T14:38:00.000Z	Slart	nitroman70	I've always hoped that pulseaudio would be able to do that by clicking on some secret button or something.. I haven't found the button myself though.
+2009-09-01T14:39:00.000Z	Slart	nitroman70	I'm also pretty sure you could do it using dmix and alsa.. but it's been too long since I've messed with it and I've forgotten most of the syntax.. but it's a software mixer you can use to combine audio streams and so on.. there has to be a way to do what you want with it
+2009-09-01T14:41:00.000Z	Slart	nitroman70	this page has some information.. nothing about sending audio output to a mic though.. but it might give you some ideas http://alsa.opensrc.org/DmixPlugin

@@ -1,0 +1,4 @@
+2006-03-08T17:41:00.000Z	xerophyte		could somebody help me .. i have intel xeon processor, the old 2.6.11 kernel i had the 2 processor when i do cat /proc/cpuinfo but i used the same config and compiled the 2.6.15.5 .. but its keep giving me only one processor and i have enabled the smp and HT on the configuration .. does anybody know what am i missing
+2006-03-08T17:42:00.000Z	chuckyp	xerophyte	nope you just need the smp kernel and it should work.
+2006-03-08T17:43:00.000Z	xerophyte	chuckyp	i have the smp kernel but only getting one cpu but if i boot with old kernle i get 2 cpu
+2006-03-08T17:44:00.000Z	chuckyp	xerophyte	hrmm.... dunno there. Should be working.

@@ -1,0 +1,4 @@
+2006-05-06T07:23:00.000Z	zivak		guys - what's the command for this step? " in order to run 915resolution at every boot before X starts, add to/etc/init.d/bootmisc.sh, before exit, the following (change the variables for your desired configuration):
+2006-05-06T07:23:00.000Z	zivak		/usr/sbin/915resolution 5a 1680 1050 32
+2006-05-06T07:24:00.000Z	zivak		anybody? :(
+2006-05-06T07:24:00.000Z	aLPHa_LeaK	zivak	sudo nano /etc/init.d/bootmisc.sh and add /usr/sbin 915resolution 5a 1680 1050 32

@@ -1,0 +1,4 @@
+2007-07-17T09:18:00.000Z	gh0st333		hello, how can i set the permissions (with command line) for a folder and all subdirs. and files in it like this: user and group: all actions allowed (r, w, x)? chmod or something?
+2007-07-17T09:20:00.000Z	gh0st333		HEP85; will it include also the subfolders and files ?
+2007-07-17T09:21:00.000Z	genii	gh0st333	That will just make everything recursively readable/writeable/executable by everyone
+2007-07-17T09:23:00.000Z	genii	gh0st333	Whoever already owns those folders/files... whatever group they are in, add others you wish to be able to use those areas to the file /etc/group

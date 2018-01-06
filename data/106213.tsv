@@ -1,0 +1,4 @@
+2008-01-12T04:52:00.000Z	adub		:( how can i repair my X i was trying to install the latest nvidia drivers and my drivers were fine
+2008-01-12T04:53:00.000Z	adub		but then my X server will no longer load
+2008-01-12T04:53:00.000Z	adub		i did apt-get remove nvidia-flx and then reboot and x still will not load
+2008-01-12T04:55:00.000Z	gnoift	adub	you might want to try and move the /etc/X11/xorg.conf file away and then restarting X or reinstalling your driver

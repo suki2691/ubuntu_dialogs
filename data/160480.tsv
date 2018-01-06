@@ -1,0 +1,4 @@
+2010-06-09T07:36:00.000Z	Pip		what does a "dummy transitional package" mean ?
+2010-06-09T07:38:00.000Z	Jordan_U	Pip	A good example is what happened when the application "gaim" changed its name to "pidgin". The package name had to change, but users using gaim had to be upgraded to pidgin automatically.
+2010-06-09T07:38:00.000Z	Jordan_U	Pip	So a dummy package was created called "gaim" that did nothing but depend on (and therefore install) "pidgin"
+2010-06-09T07:40:00.000Z	Pip	Jordan_U	sounds like a meaningful reinstall, right ?

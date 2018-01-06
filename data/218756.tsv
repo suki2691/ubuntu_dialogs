@@ -1,0 +1,4 @@
+2007-03-21T05:46:00.000Z	_fotoflo_		what does canonical mean? i see it all over the unix world.
+2007-03-21T05:48:00.000Z	_fotoflo_		Canonical names?
+2007-03-21T05:48:00.000Z	_fotoflo_		"Besides the canonical domains, Postfix can be configured to be final destination for any number of additional domains."
+2007-03-21T05:50:00.000Z	sipior	_fotoflo_	in this sense, it generally means domains that are the natural endpoint for a machine. so if your domain is fotoflo.com, the canonical domains for postfix to receive mail will be fotoflo.com and $hostname.fotoflo.com

@@ -1,0 +1,4 @@
+2009-11-09T20:56:00.000Z	IpSe_DiXiT		hi, just installed xubuntu on a laptop with a partitioned hdd (partitioned in 2 parts) now it only sees the partion on which xubuntu's installed. i checked the dimensions and it didnt melt them together, the 2nd partition simply disappeared... help?
+2009-11-09T20:58:00.000Z	bidossessi	IpSe_DiXiT	ubuntu won't mount the second partition unless you tell it to. look in nautilus. you should see an icon indicating an unmounted partition (30 GB Media, or something like that.)
+2009-11-09T20:59:00.000Z	IpSe_DiXiT	bidossessi	thanks but i knew that already, and i also checked in "system monitor" the partition is not there at all
+2009-11-09T21:04:00.000Z	bidossessi	IpSe_DiXiT	does it get listed when you run fdisk -l ?

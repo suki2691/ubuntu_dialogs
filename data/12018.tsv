@@ -1,0 +1,4 @@
+2011-11-16T20:58:00.000Z	Spikes		hi all, If i'm using ssh key with passphrase to connect to remote server should ssh ask for passphrase every time i log in?
+2011-11-16T20:59:00.000Z	somsip	Spikes	depends if you've set up gnome-keyring to remmeber it
+2011-11-16T21:02:00.000Z	somsip	Spikes	I have previously seen people who have problems gettin keyring to startup properly. Someone sent me a webpage recently with some interesting info on it...
+2011-11-16T21:15:00.000Z	Spikes	somsip	fixed the proble. If you're interested, apparently my ssh-agent was not bahaving as it's supposed to , so i had to use command 'exec ssh-agent bash' and then ssh-add to add passphrase so it'll be used automatically while sshing

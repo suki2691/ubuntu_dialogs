@@ -1,0 +1,4 @@
+2011-07-08T22:57:00.000Z	aphistic		hey, i just did an upgrade from 9.04 -> 9.10 -> 10.04 LTS and I'm having a problem with update-manager-core in dpkg, every time i try to install an updated version i get "dpkg: ../../src/archives.c:763: tarobject: Assertion `r == stab.st_size' failed." and then it aborts
+2011-07-08T22:58:00.000Z	aphistic		i've tried apt-get clean && apt-get update && apt-get upgrade, i've tried manually installing a package i downloaded from the packages site and it all fails the same way.
+2011-07-08T22:59:00.000Z	oscar	aphistic	it's hard to back up your information and try a clean installation?
+2011-07-08T22:59:00.000Z	aphistic	oscar	it's hours of work to restore it but it's available as a last resort

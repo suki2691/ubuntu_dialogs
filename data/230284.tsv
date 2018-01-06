@@ -1,0 +1,4 @@
+2005-08-05T15:30:00.000Z	ttyS0		I thought it's possible to restart hald via update-rc.d, but I was wrong. Any ideas? :)
+2005-08-05T15:31:00.000Z	pestilence	ttyS0	invoke-rc.d, maybe?
+2005-08-05T15:31:00.000Z	pestilence	ttyS0	i always just do /etc/init.d/whatever restart
+2005-08-05T15:31:00.000Z	ttyS0	pestilence	me too, but there's not any filename with 'hald' in it in /etc/init.d :)

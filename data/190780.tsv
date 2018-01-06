@@ -1,0 +1,4 @@
+2008-03-20T22:14:00.000Z	AldarHawk		okay new problem.  I have Ubuntu 7.10 and I am attempting to get the wireless working now that it is installed correctly.  I am doing a Static IP for the laptop with all the WEP encryption information.  I can ping anything internal to the network but when I attempt to ping externally it does not respond.  I attempted fixing the resolv.conf by forcing the nameservers but that is not working either.  any thoughts?
+2008-03-20T22:16:00.000Z	waylandbill	AldarHawk	do you have the gateway set correctly and the routing?
+2008-03-20T22:20:00.000Z	waylandbill	AldarHawk	and the routing table looks okay? The outside world is listed to go through the gateway?
+2008-03-20T22:22:00.000Z	waylandbill	AldarHawk	you may try dig and/or tracert later to see if you even can make it out to the nameservers.

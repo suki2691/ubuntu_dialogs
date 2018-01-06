@@ -1,0 +1,4 @@
+2012-07-20T14:00:00.000Z	Arthar360		Hi...Kust instaled Virtualbox 4.1.18 in Fedora 17. I created a VM for Windows XP n when I started it,It gave an error : "Kernel driver not installed (rc=-1908)" It asked me to run '/etc/init.d/vboxdrv setup' as root..After I ran it, This is the error in LOG file @ /var/log/vbox-install.log " http://pastebin.com/ztryWknj " .Please help me with it..
+2012-07-20T14:01:00.000Z	aether	Arthar360	apt-get install build-essential
+2012-07-20T14:07:00.000Z	aether	Arthar360	try 'yum install kernel-headers kernel-devel gcc'
+2012-07-20T14:08:00.000Z	aether	Arthar360	http://forums.fedoraforum.org/showthread.php?t=245677

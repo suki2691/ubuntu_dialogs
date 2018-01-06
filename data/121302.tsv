@@ -1,0 +1,4 @@
+2007-09-28T16:28:00.000Z	ferent		hi, I want to delete a route from my net, I do route del 89.0.0.0 but the server says to me: SIOCDELRT: No such process. but if I do route -n the server says to me: 89.0.0.0 0.0.0.0 255.0.0.0 U 0 0 0 eth0
+2007-09-28T16:28:00.000Z	ferent		how can I delete this route?
+2007-09-28T16:30:00.000Z	heguru	ferent	route del -net 89.0.0.0 gw 0.0.0.0 netmask 255.0.0.0
+2007-09-28T16:51:00.000Z	ferent	heguru	thanks for the route del -net 89.0.0.0 gw 0.0.0.0 netmask 255.0.0.0 command, could you tell me the reason the command route del 89.0.0.0 doesn?t run?

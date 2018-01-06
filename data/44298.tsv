@@ -1,0 +1,4 @@
+2010-02-04T20:33:00.000Z	k0d3g3ar		if I install a Windows program in WINE on Ubuntu that requires a DLL, do I have to do anything other than just have it available next to the EXE file (ie. in the same folder)?
+2010-02-04T20:34:00.000Z	Kamokow	k0d3g3ar	If its a system dll, then that probably wont work, but any normal dlls (like SDL) should, provided the program itself will run.
+2010-02-04T20:34:00.000Z	k0d3g3ar	Kamokow	 I think it is a system DLL (MIDAS.DLL).  I believe its used for ODBC
+2010-02-04T20:36:00.000Z	Kamokow	k0d3g3ar	Well, if the dll is usually in the same folder, it will probably work in the same folder, otherwise, it probably wont, just like it works in windows... (unless im wrong, I dont really use wine much anymore)

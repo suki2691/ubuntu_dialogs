@@ -1,0 +1,4 @@
+2010-02-04T07:24:00.000Z	Caber		how to make sure your PC restarts every 24 hours?
+2010-02-04T07:24:00.000Z	orbisvicis	Caber	cronjob
+2010-02-04T07:26:00.000Z	orbisvicis	Caber	hm maybe at startup sleep 60*60*24 && reboot ?
+2010-02-04T07:29:00.000Z	orbisvicis	Caber	that, or a cronjob that considers "uptime", and the new dcron >4 also has a @reboot crontab keyword

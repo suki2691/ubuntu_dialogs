@@ -1,0 +1,4 @@
+2011-05-29T20:33:00.000Z	s3r3n1t7	fooman2011	then i'd look at the differences in shutting down when the user calls halt and when it's called from cron. Perhaps some user setting enables WOL while cron skips it?
+2011-05-29T20:34:00.000Z	fooman2011	llutz	when i call "which halt" from my user i have "/sbin/halt"
+2011-05-29T20:34:00.000Z	fooman2011	llutz	I put /sbin/halt in my cron script
+2011-05-29T20:35:00.000Z	s3r3n1t7	fooman2011	yes they both use the same halt executable, however it's not called from the same user, so as ikonia has stated the env might be different, thereby causing the problem.

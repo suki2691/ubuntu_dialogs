@@ -1,0 +1,4 @@
+2008-07-04T11:11:00.000Z	jkoltner		OK, I have two machines that are now working just fine with their Ethernet cards, but "sudo network-admin --configure eth0" just produces the error message, "The interface does not exist...," even though ifconfig certainly shows an eth0 with an assigned IP address, etc.  Anyone know what's going on?
+2008-07-04T11:13:00.000Z	ePax	jkoltner	Your comp mught be using ath0 or eth1... type ifconfig to see
+2008-07-04T11:13:00.000Z	jkoltner		Would anyone be willing to try "sudo network-admin --configure eth0" on their own machine and let me know if they get the same error message or not?  (I'm using 8.04, BTW.)
+2008-07-04T11:14:00.000Z	jkoltner	ePax	It's using eth0... the first few lines of ifconfig are: eth0      Link encap:Ethernet  HWaddr 00:17:08:41:b1:91

@@ -1,0 +1,4 @@
+2008-03-29T17:49:00.000Z	virtuald		hey
+2008-03-29T17:50:00.000Z	virtuald		i want to report a bug, but i dont know what package the executable came from
+2008-03-29T17:50:00.000Z	virtuald		any idea how to figure out which package installed the executable?
+2008-03-29T17:50:00.000Z	jpatrick	virtuald	dpkg -S excutable

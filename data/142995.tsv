@@ -1,0 +1,4 @@
+2007-03-14T09:38:00.000Z	reaspired		I trying to get mythtv to work, I made a user but home folder doesnt exist. sudo useradd mythtv
+2007-03-14T09:39:00.000Z	eck	reaspired	then create the home directory
+2007-03-14T09:41:00.000Z	reaspired	eck	it doesn't create a home folder, I set its group as a same as main account, as it says in a guide.
+2007-03-14T09:42:00.000Z	eck	reaspired	i think you need to pass a special option to create the homedirectory with useradd, if it doesn't exist you should just create it yourself

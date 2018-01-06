@@ -1,0 +1,4 @@
+2006-03-08T08:04:00.000Z	nixbox		hi all
+2006-03-08T08:05:00.000Z	nixbox		i was installing ubuntu on an old machine, after the installation and probably before configuration, the machine got reset, now i can boot into ubuntu but it has a blank xorg.conf file
+2006-03-08T08:05:00.000Z	nixbox		is there an X configuration utility that I can run?
+2006-03-08T08:05:00.000Z	_jason	nixbox	dpkg-reconfigure xserver-xorg

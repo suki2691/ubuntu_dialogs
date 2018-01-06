@@ -1,0 +1,4 @@
+2011-03-01T23:09:00.000Z	nmvictor		Anyone using ubuntu 10.10, what is the latest kernel in use at the moment, I included some ppa (Kamal-backlight ppa) to fix some brightness issue, that was almost a month ago and save for the kernels in this ppa, I still have the non-ppa kernel [2.6.35.23-egeneric], is it that the kernel team is not releasing anymore kernel or kamal's ppa kinda disabled updates from the previous kernel team?
+2011-03-01T23:10:00.000Z	photerran	nmvictor	you can lookup official packages at packages.ubuntu.com
+2011-03-01T23:13:00.000Z	photerran	nmvictor	you could try editing your /etc/apt/sources.list (or the files under /etc/apt/sources.list.d) and comment out the PPA that's overriding your kernel, then run 'apt-get update'
+2011-03-01T23:13:00.000Z	nmvictor	photerran	thanks, trying ...

@@ -1,0 +1,4 @@
+2008-08-17T23:25:00.000Z	aste_23		i got a problem: i just created a live usb stick with 7.10 and now my ipw2200 isn't recognised by the system ... i can't even switch it on with the hardware button on my notebook (HP NX8220)
+2008-08-17T23:26:00.000Z	soundray	aste_23	does it get listed when you run 'lspci'?
+2008-08-17T23:29:00.000Z	aste_23	soundray	no it doesnt get listed there
+2008-08-17T23:29:00.000Z	soundray	aste_23	then it's a hardware issue, or it may be turned off in the BIOS. The easiest way to turn it on may be to reboot and hit the WLAN button before the kernel boots.

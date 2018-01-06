@@ -1,0 +1,4 @@
+2012-01-25T01:43:00.000Z	Onepamopa		any idea on how to enable trim on software raid 1 ssd's ? os is already installed, fs is ext4
+2012-01-25T01:43:00.000Z	Onepamopa		???
+2012-01-25T01:45:00.000Z	zykotick9	Onepamopa	i haven't enabled trim on my SSD, but according to http://techgage.com/article/enabling_and_testing_ssd_trim_support_under_linux/ it's just a matter of adding "discard" to your fstab file?  good luck.
+2012-01-25T01:46:00.000Z	Onepamopa	zykotick9	nothing else ?

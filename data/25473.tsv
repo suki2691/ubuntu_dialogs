@@ -1,0 +1,4 @@
+2010-10-09T06:34:00.000Z	azlon		when i do "sudo /etc/init.d/samba restart" it gives me: "sudo: /etc/init.d/samba: command not found"
+2010-10-09T06:34:00.000Z	sandyd	azlon	it isnt done by init scripts anymore
+2010-10-09T06:36:00.000Z	sandyd	azlon	sudo service smb restart
+2010-10-09T06:58:00.000Z	sandyd	azlon	youll want to use ssh

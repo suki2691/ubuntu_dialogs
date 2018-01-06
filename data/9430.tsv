@@ -1,0 +1,4 @@
+2011-12-26T18:52:00.000Z	nixmaniack		On my laptop, sometimes 'lspci' shows wifi card and sometimes it doesn't. what should i do?
+2011-12-26T18:54:00.000Z	yeats	nixmaniack	you could search /var/log/dmesg for driver messages?
+2011-12-26T18:54:00.000Z	nixmaniack	yeats	what should I look for?
+2011-12-26T18:56:00.000Z	yeats	nixmaniack	I don't know what the specific text would be, but maybe your card's model or something like that?  I would just do 'dmesg | less' and browse

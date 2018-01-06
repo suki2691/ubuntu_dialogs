@@ -1,0 +1,4 @@
+2011-01-03T20:00:00.000Z	N1k0s		Hello everyone.  Just wondering if their is a Bash command to switch to a different ubuntu "workspace".  Any help is appreciated.
+2011-01-03T20:01:00.000Z	thekid	N1k0s	i guess bash doesn't know much about your X session, definiately not the workspaces so .. i guess there's not without some minor coding, check the source of the workspace switcher applet maybe, no better idea.
+2011-01-03T20:02:00.000Z	thekid	N1k0s	switch to uid0 and emulate keypresses :D
+2011-01-03T20:05:00.000Z	thekid	N1k0s	maybe get a keylogger source code so you know how to interact with the keyboard .. but it's really messy to do. Rather write a "server" that runs on the graphical interface, and a client that connects to it so it should work, but no simple solution

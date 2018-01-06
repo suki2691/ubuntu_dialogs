@@ -1,0 +1,4 @@
+2008-03-13T05:39:00.000Z	c0da		hey, i'm using this webcam program and it's asking me to input the serial port of the webcam. lsusb gives me : "Bus 003 Device 003: ID 046d:08b2 Logitech, Inc. QuickCam Pro 4000". what is ther serial port?
+2008-03-13T05:39:00.000Z	maccam94	c0da	lsusb won't help in that situation
+2008-03-13T05:40:00.000Z	maccam94	c0da	you might try /dev/video0, but idk
+2008-03-13T05:40:00.000Z	c0da	maccam94	i tried that but it didn't work

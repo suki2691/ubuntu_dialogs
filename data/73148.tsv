@@ -1,0 +1,4 @@
+2009-04-11T01:36:00.000Z	pteague		if i'm doing `dd if=/dev/hda of=/dev/hdb` ... does it matter whether /dev/hda is mounted read only or not?
+2009-04-11T01:37:00.000Z	mrwes	pteague	will any of the files on /dev/hda be in use?
+2009-04-11T01:39:00.000Z	pteague	mrwes	/dev/hda is a partitioned drive with 1 of the partitions being my current OS... i have a separate drive for /home/ ... i'm wondering if mounting it read only is enough or if i need to boot from a live cd & do it that way
+2009-04-11T01:39:00.000Z	mrwes	pteague	I'd boot from a Live CD and then dd the partition

@@ -1,0 +1,4 @@
+2008-09-16T03:59:00.000Z	tvanover		I am trying to change the group of a list of files.  I only want to change the group of files that already are a part of a specific group.  And I need to do this from the command line.  I can create a list of all the files I need to change $> ls -l | grep tvanover | cut -c 53-70
+2008-09-16T03:59:00.000Z	tvanover		but I can't get it into a change group command
+2008-09-16T04:00:00.000Z	unop	tvanover	don't parse ls like that.. the output of ls wasn't meant to be parsed.   find . -user tvanover -exec chown anotheruser {} \;
+2008-09-16T04:02:00.000Z	tvanover	unop	thanks

@@ -1,0 +1,4 @@
+2006-02-26T09:32:00.000Z	TiG4		How would I recursively delete everything within a directory without deleting the directory
+2006-02-26T09:33:00.000Z	intelikey	TiG4	rm -Rf /dir/*
+2006-02-26T09:37:00.000Z	intelikey	TiG4	also of note, that will not get hiden files and dirs.    more specificly  use rm -Rf dir/`ls -A1`    if you really want to get everything.
+2006-02-26T09:38:00.000Z	intelikey	TiG4	or without dir/  but cd into the dir first....

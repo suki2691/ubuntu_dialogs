@@ -1,0 +1,4 @@
+2011-08-09T18:15:00.000Z	sveinse		Hi. How can I setup a manual network on eth0 in nm? I've added a network connection for eth1 but the "wired network" is grayed out. I have link an everything, but nm refuses to see it
+2011-08-09T18:15:00.000Z	sveinse		FYI I'm connected to the net using wireless
+2011-08-09T18:16:00.000Z	wols	sveinse	added it how?
+2011-08-09T18:20:00.000Z	sveinse	wols	Edit connections -> Wired -> Add. Connection name: "eth0 192.168.111.1". Insert the NICs MAC address. IPv4 settings -> add proper settings. Available to all users unckeck. Save.

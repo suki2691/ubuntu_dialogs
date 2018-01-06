@@ -1,0 +1,4 @@
+2011-09-22T22:08:00.000Z	sammy		I'm running ubuntu on a chromebook, so I'm using the chromeos' linux kernel. I'm noticing the kernel version I'm using doesn't match the installed linux-libc-dev version, but there isn't a package available to install for a version that far back (2.6.28.3+). so I probably shouldn't be building anything that uses the kernel header files, right? I mean its only slightly minor versins but...
+2011-09-22T22:08:00.000Z	h00k	sammy	can you lsb_release -a for me?
+2011-09-22T22:19:00.000Z	h00k	sammy	you can probably see if there's a chromebook or chromeium os channel and talk with them about it
+2011-09-22T22:20:00.000Z	sammy	h00k	good call. im sure there is. my original question was about finding older versions of libc headers. but there's no such repository of old packages lying about, right?

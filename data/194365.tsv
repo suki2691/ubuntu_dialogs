@@ -1,0 +1,4 @@
+2006-11-20T10:55:00.000Z	docgnome		is anyone else having problems with ipkungfu on edgy? After installing it it spits back a bunch of error messages. the first two are nearly the same.... "/usr/sbin/ipkungfu: 6: source: not found"
+2006-11-20T10:56:00.000Z	docgnome		the file it is trying to source at that line is /etc/ipkungfu/pre.conf which is there...
+2006-11-20T10:56:00.000Z	stalefries	docgnome	have you checked line 6?
+2006-11-20T10:57:00.000Z	docgnome	stalefries	aye. it is the end of an if statement which after the conditional, is doing 'source /etc/ipkungfu/pre.conf'

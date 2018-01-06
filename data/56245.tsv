@@ -1,0 +1,4 @@
+2010-05-31T14:15:00.000Z	J11		I moved my home folder to another partition with find . -depth -print0 | cpio --null --sparse -pvd /media/newhome/ and made it as home, after I rebooted I get errors like $HOME/.dmrc having the wrong permissions. Do you know if cpio got the permissions right?
+2010-05-31T14:16:00.000Z	slowz	J11	chown your home dir.
+2010-05-31T14:17:00.000Z	slowz		seems a weird way to move your home dir, never seen it done like that
+2010-05-31T14:27:00.000Z	J11	slowz	thx, chowning my homedir worked

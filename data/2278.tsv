@@ -1,0 +1,4 @@
+2012-06-25T08:09:00.000Z	waterfoul_		I was trying to move /home onto another partition and now every time I try to login to the gui It kicks back to the login screen.... I went digging around and found "** (nautilus:1858): CRITICAL **: syncdaemon_status_info_get_online: assertion `SYNCDAEMON_IS_STATUS_INFO (sinfo)' failed" in ~/.xsession-errors How do I fix it? (P.S. I can get into the guest account)
+2012-06-25T08:11:00.000Z	wifiman	waterfoul_	just guessing here… maybe a file was in use during the move?
+2012-06-25T08:13:00.000Z	wifiman	waterfoul_	.[!.]* will match a dot followed by a non-dot
+2012-06-25T08:14:00.000Z	wifiman	waterfoul_	i think you can set GLOBIGNORE to avoid matching . and ..

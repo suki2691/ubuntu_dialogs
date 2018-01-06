@@ -1,0 +1,4 @@
+2011-09-12T19:00:00.000Z	jrib	monkey_kju1	you could use awk or cut
+2011-09-12T19:00:00.000Z	jrib	monkey_kju1	awk is probably a little nicer in this situation
+2011-09-12T19:00:00.000Z	monkey_kju1	jrib	thanks
+2011-09-12T19:01:00.000Z	jrib	monkey_kju1	here's how I would do it:    getent passwd | awk -F: '{ if ($3 > 100) {print $0} }'

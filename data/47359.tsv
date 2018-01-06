@@ -1,0 +1,4 @@
+2010-05-24T09:10:00.000Z	ewp		how do i create a simple script to restart avant-window-navigator? i have a script using 'pkill awn' then runs 'avant-window-navigator' again but it exits after the pkill with 'Terminated'
+2010-05-24T09:10:00.000Z	airtonix	ewp	using && between the commands ?
+2010-05-24T09:11:00.000Z	ewp	airtonix	no, it's a shell script on a set of multiple lines. i even have a sleep 3 in between the 2 cmds
+2010-05-24T09:12:00.000Z	airtonix	ewp	i'd just use : pkill awn && avant-window-navigator

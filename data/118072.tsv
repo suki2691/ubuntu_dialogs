@@ -1,0 +1,4 @@
+2012-03-31T17:03:00.000Z	melvincv		How do I perform a file system check on an LVM setup having a volume group and two logical volumes?
+2012-03-31T17:04:00.000Z	yeats	melvincv	'[sudo] fsck /dev/mapper/name-of-logical-volume'?
+2012-03-31T17:08:00.000Z	melvincv	ikonia	yeats, and if the OS has crashed, how do I do it from a Ubuntu Live CD?
+2012-03-31T17:09:00.000Z	yeats	melvincv	you will probably need to install the lvm2 package while booted into the live cd

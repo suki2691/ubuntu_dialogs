@@ -1,0 +1,4 @@
+2005-12-18T07:37:00.000Z	rabidsnail		I'm trying to install a Linksys WUSB11 with ndiswrapper, and after I ndiswrapper -i all of the inf files, and ndiswrapper -l says drivers installed, hardware present, when I open network settings it can't find the adapter
+2005-12-18T07:37:00.000Z	Kyral	rabidsnail	sudo ndiswrapper -m :P
+2005-12-18T07:38:00.000Z	Kyral	rabidsnail	then sudo modprobe ndiswrapper
+2005-12-18T07:38:00.000Z	Kyral	rabidsnail	iwconfig?

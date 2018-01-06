@@ -1,0 +1,4 @@
+2006-02-19T16:21:00.000Z	jimcooncat		how do I find what process is listening to a port? I want to know why I can't forward port 5900 because something else is listening to it.
+2006-02-19T16:22:00.000Z	Ng	jimcooncat	"netstat --tcp -lp" or "lsof | grep LISTEN"
+2006-02-19T16:22:00.000Z	jimcooncat	Ng	Thanks!
+2006-02-19T16:24:00.000Z	jimcooncat	Ng	turns out I was already connected! joke's on me.

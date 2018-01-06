@@ -1,0 +1,4 @@
+2009-05-18T08:12:00.000Z	ralmar		Hey guys, theres an app (Wondershaper, to throttle bandwidth) which I have to run with sudo. Is there anyway  I can have limited users run it or any other thing that requires sudo? Thanks
+2009-05-18T08:12:00.000Z	inasmu	ralmar	you can configure sudo to allow certain users to run specific things with elevated privileges
+2009-05-18T08:13:00.000Z	ralmar	inasmu	thanks, but how/Where?
+2009-05-18T08:15:00.000Z	inasmu	ralmar	the man page explains it better, but this will help too: https://help.ubuntu.com/community/Sudoers

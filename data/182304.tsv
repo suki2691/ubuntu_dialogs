@@ -1,0 +1,4 @@
+2009-10-04T15:39:00.000Z	achilles		hello, I'm trying to rsync my directory to a remote NFS mounted directory, but rsync can't hold permissions, is there a way to avoid setting permissions, I saw the man page, can't get it
+2009-10-04T15:40:00.000Z	stefg	achilles	although i can't give a direct answer to your question i'd recommend to look at rdiff-backup (some useful wrapper around rsync)
+2009-10-04T15:40:00.000Z	stefg		!info rdiff-backup | achilles
+2009-10-04T15:41:00.000Z	achilles	stefg	thank you!

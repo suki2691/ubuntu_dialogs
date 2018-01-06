@@ -1,0 +1,4 @@
+2012-02-24T18:47:00.000Z	AdvoWork		is this quite high as load averages? 3.46, 3.46, 3.60
+2012-02-24T18:48:00.000Z	muelli	AdvoWork	well. Yes. But it depends, really. The number is the number of processes willing to run.
+2012-02-24T18:51:00.000Z	AdvoWork	muelli	what can i do to work out why its so high?
+2012-02-24T18:52:00.000Z	muelli	AdvoWork	you can check with tools like "htop" what processes are running and in which state they are. Then you get an idea of what processes cause the load.

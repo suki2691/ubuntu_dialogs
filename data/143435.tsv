@@ -1,0 +1,4 @@
+2008-09-13T07:27:00.000Z	HaSH		is there a way to tell if im using kdm or gdm without loggin out?
+2008-09-13T07:27:00.000Z	HaSH		i have both installed....but forget which one its set to use.
+2008-09-13T07:27:00.000Z	Flannel	HaSH	sudo dpkg-reconfigure gdm, and it'll ask (and have an asterisk next to the one you are using).  Or, you can check running processes
+2008-09-13T07:28:00.000Z	HaSH	Flannel	ah ok. thanks!

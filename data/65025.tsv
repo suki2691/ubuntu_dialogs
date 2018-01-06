@@ -1,0 +1,4 @@
+2010-11-11T00:59:00.000Z	bobbi		hey all. i was having a MAJOR problem with all my virtual terminals flickering when enabling proprietary graphics drivers. i read somewhere to add a vga=792 boot option in /boot/grub/menu.lst, but it aint there anymore (ubuntu 10.10). so instead, out of sheer luck, i modified the line GRUB_CMDLINE_LINUX_DEFAULT="quiet splash" in /etc/default/grub to GRUB_CMDLINE_LINUX_DEFAULT="quiet splash vga=792" and my consoles aint flickering anymore. my que
+2010-11-11T00:59:00.000Z	bobbi		stion is why is it now working? i dont understand the whole vga=983 thing..
+2010-11-11T00:59:00.000Z	ZykoticK9	bobbi	modern kernels don't use vga=
+2010-11-11T01:01:00.000Z	bobbi	ZykoticK9	ok, but my problem was fixed when setting such an option?

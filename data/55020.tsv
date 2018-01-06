@@ -1,0 +1,4 @@
+2009-10-29T22:05:00.000Z	habanany		E: Could not open lock file /var/lib/dpkg/lock - open (13: Permission denied)
+2009-10-29T22:05:00.000Z	habanany		E: Unable to lock the administration directory (/var/lib/dpkg/), are you root?
+2009-10-29T22:06:00.000Z	habanany		how do i know bro?
+2009-10-29T22:06:00.000Z	ctmjr	habanany	the command is sudo apt-get update && sudo apt-get dist-upgrade note the sudo twice

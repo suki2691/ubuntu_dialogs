@@ -1,0 +1,4 @@
+2010-07-20T21:21:00.000Z	tmba		anyone know if its possible to get cups to "listen" to a shared folder or email and print any new pdf's in the folder or received on a specific address?
+2010-07-20T21:23:00.000Z	sipior	tmba	cups won't do that itself, i don't believe, but you could certainly use inotify to fire off a command when a new file shows up in a directory. have a look at the "inotify-tools" package. obviously, you'll want to debug this extensively before committing to production (ink is expensive...)
+2010-07-20T21:25:00.000Z	tmba	sipior	its just for home usage... I'm having difficulty getting my ubuntu cups and windows to talk together so thought this might be an easier alternative that would last between upgrades/new installs on the laptops
+2010-07-20T21:25:00.000Z	tmba	sipior	thanks for inotify tips btw

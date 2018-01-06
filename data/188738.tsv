@@ -1,0 +1,4 @@
+2007-01-12T17:01:00.000Z	CITguy		can someone tell me why I don't have permission to view a mounted file system?
+2007-01-12T17:02:00.000Z	CITguy		I've configured my /etc/fstab file to mount a couple of ntfs partitions
+2007-01-12T17:02:00.000Z	CITguy		but when I mount them, it says I don't have permission
+2007-01-12T17:03:00.000Z	snail	CITguy	you need to add an option there you make them user-readable

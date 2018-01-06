@@ -1,0 +1,4 @@
+2006-09-30T14:11:00.000Z	NutsOfSteel		i am trying to make a script that logs onto a server and executes some ssh commands. i don't want the script to use any passwords whatsoever, so I created a public/private key pair. everything works fine, except that the script still needs a password the first time it gets executed. do you know what I should do to avoid that?
+2006-09-30T14:13:00.000Z	Jowi	NutsOfSteel	when you create the keypair, don't use a passphrase maybe....?
+2006-09-30T14:14:00.000Z	NutsOfSteel	Jowi	i've already done this, but the problem is that it *still* wants the account's passphrase
+2006-09-30T14:15:00.000Z	Jowi	NutsOfSteel	http://www.math.ualberta.ca/imaging/snfs/passwordless.html

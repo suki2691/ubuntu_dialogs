@@ -1,0 +1,4 @@
+2005-08-26T12:25:00.000Z	asfra		hi, I have a nfts-partition on the beginning of my harddrive and I want to make that an ext3-partition. Do I risk destroying anything important? like bios or anything used to boot? I know that linux doesn't use MBR but want to be sure :) thanks...
+2005-08-26T12:26:00.000Z	str8edge	asfra	you shouldn't "destroy anything" except for the data on the partition
+2005-08-26T12:30:00.000Z	asfra	str8edge	thanks for the reply, do you think that the MBR could be on the nfts-partition? it used to contain xp
+2005-08-26T12:31:00.000Z	str8edge	asfra	most likely not, XP looks for the MBR in the first 512 bytes of the HD. Linux allows you to install the mbrs into the first part of a partition, XP doesn't

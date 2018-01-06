@@ -1,0 +1,4 @@
+2005-11-10T17:02:00.000Z	jron		where are modules being called? /etc/modules.conf does not exist.... like in gentoo i need to pass some options to a module but putting it in /etc/modules doesn't seem to be doing anything =(
+2005-11-10T17:02:00.000Z	erUSUL_	jron	ls /etc/modules*
+2005-11-10T17:04:00.000Z	jron	erUSUL_	I added "options bttv tuner=2 card=64 automute=0" to the modules file, can you think of any reason this isn't working.... tuner=2 sets it to NTSC instead of pal....
+2005-11-10T17:04:00.000Z	erUSUL_	jron	no sorry

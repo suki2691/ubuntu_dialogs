@@ -1,0 +1,4 @@
+2006-10-02T12:35:00.000Z	buzzy		hello!
+2006-10-02T12:36:00.000Z	buzzy		i'm desperate! when i boot my ubuntu it says :Uncompressing linux...OK. booting the kernel... then it appears a black screen and nothing else: how can i restore my ubuntu?? (i have this problem since i have installed, maybe wrongly, nvidia drivers)
+2006-10-02T12:37:00.000Z	buzzy		i'm desperate! when i boot my ubuntu it says :Uncompressing linux...OK. booting the kernel... then it appears a black screen and nothing else: how can i restore my ubuntu?? (i have this problem since i have installed, maybe wrongly, nvidia drivers)
+2006-10-02T12:38:00.000Z	bLaZeD	buzzy	during boot hit ctrl alt f1 to drop u at cli...once there edit /etc/X11/xorg.conf to use a generic driver(i have nvidia and if i nneed a generic driver i use "vesa") then try to goto the gui

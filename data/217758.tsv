@@ -1,0 +1,4 @@
+2006-11-06T13:42:00.000Z	justin_		To remove a "binary" program I compiled myself to /usr/local/bin -- can I simply delete it? and the menu entry? - Or do I need to find the equivalent to windows dll/libs etc?
+2006-11-06T13:43:00.000Z	justin_		I have tryed that before, program in question is Amule
+2006-11-06T13:43:00.000Z	psusi	justin_	hopefully the original tarball contains a rule for make uninstall, otherwise yea, you have to hunt down all the files by hand
+2006-11-06T13:47:00.000Z	psusi	justin_	the make process does not install any libs... you have to do that yourself... but it probably installs a number of files including man pages, help files, config files, in addition to any binaries

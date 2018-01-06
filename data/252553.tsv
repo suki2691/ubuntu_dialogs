@@ -1,0 +1,4 @@
+2005-05-28T08:00:00.000Z	chrisss		wut error:stb
+2005-05-28T08:00:00.000Z	chrisss		problem: im trying to setup a loopback device... ive already created 'myloop' by filling it with /dev/zero... when i try to run losetup /dev/loop0 myloop i get this error: ioctl: LOOP_SET_FD: Inappropriate ioctl for device
+2005-05-28T08:02:00.000Z	HappyFool	chrisss	sorry, not sure what you're trying to do, but how about just 'mount -o loop myloop /mnt/loopmnt' ?
+2005-05-28T08:11:00.000Z	HappyFool	chrisss	try 'sudo losetup /dev/loop0'

@@ -1,0 +1,4 @@
+2008-10-10T17:27:00.000Z	stork		hey guys, I just created a new username but every time I log in as that username over ssh or into a terminal, that user doesn't get a bash shell by default, just some fairly featureless shell. How can I make the user automatically get a bash shell?
+2008-10-10T17:28:00.000Z	Slart	stork	have you checked what shell the user is set to use in /etc/passwd?
+2008-10-10T17:30:00.000Z	Slart	stork	no idea.. some basic setting for all new users created.. most users are services of some kind after all
+2008-10-10T17:31:00.000Z	Slart	stork	from the man page for useradd.. which you of course checked =),  useradd is a low level utility for adding users. On Debian, administrators should usually use adduser(8) instead.

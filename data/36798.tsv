@@ -1,0 +1,4 @@
+2010-02-22T11:28:00.000Z	the_jackdaw		Im trying to Dual boot win7 and ubuntu, installed win first and then ubuntu, same disk different partitions. Shouldnt GRUB overwrite the windows bootloader?
+2010-02-22T11:29:00.000Z	the_jackdaw		Then why does it not do that, GRUB does not start at all, windows starts instead
+2010-02-22T11:30:00.000Z	gsgleason	the_jackdaw	it will if you tell it do install a boot loader.  when it does, it offers a choice as to the device.
+2010-02-22T11:32:00.000Z	the_jackdaw	gsgleason	Yea i saw that, but it still didnt work, have tried with 2 different distros, no grub when windows is installed.

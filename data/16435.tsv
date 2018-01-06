@@ -1,0 +1,4 @@
+2012-01-14T03:27:00.000Z	msponge		I'm displaying images from a camera with OpenGL via QT, both in windowed and fullscreen modes. I am getting large amounts of image tearing, which suggests that I need to enable VSync. On my OSX version, I do this with aglSetInteger(aglContext, AGL_SWAP_INTERVAL, &swapInt); On the Windows version, I am supposed to be able to do this with wglSwapIntervalEXT, when I test for the existence of the extension on Win7 x64 it's not there... Can som
+2012-01-14T03:27:00.000Z	msponge		help me figure out vsync on win7?
+2012-01-14T03:28:00.000Z	bazhang	msponge	windows? how does this relate to ubuntu support
+2012-01-14T03:28:00.000Z	msponge	bazhang	Oooh , ouch, sorry thought I was in the OpenGL channel..

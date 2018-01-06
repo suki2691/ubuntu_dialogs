@@ -1,0 +1,4 @@
+2008-01-27T06:52:00.000Z	intardnet		is there a command to kill X (and keep it from restarting, I need to install the nVidia driver from a terminal)?
+2008-01-27T06:52:00.000Z	nickrud	intardnet	ctl-alt-f2, login & run sudo invoke-rc.d gdm stop , then do your nvidia stuff.  sudo invoke-rc.d gdm start to restart the gui
+2008-01-27T06:53:00.000Z	intardnet	nickrud	Teligard251: much thanks
+2008-01-27T06:53:00.000Z	nickrud	intardnet	also, you can switch between gui and that fancy console with clt-alt-f2 and ctl-alt-f7 anytime

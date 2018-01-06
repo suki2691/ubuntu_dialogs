@@ -1,0 +1,4 @@
+2012-07-04T15:16:00.000Z	geirha	burg	or create a group for the purpose, set that group as group owner of the directory
+2012-07-04T15:17:00.000Z	geirha	burg	Ah right, acls is another way to go, but requires that the filesystem as acl enabled
+2012-07-04T15:17:00.000Z	burg	geirha	how should i do that? it is not enough to install acl?
+2012-07-04T15:22:00.000Z	geirha	burg	install acl, and add the acl option to the fstab entry

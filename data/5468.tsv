@@ -1,0 +1,4 @@
+2012-02-19T07:38:00.000Z	MeXTuX		I wanna copy a DVD with Ubuntu. It is not a copyrighted disc. It's just a data DVD (documents, music, etc.) I used to backup all my work. What command do I need??? :)
+2012-02-19T07:39:00.000Z	CLIaddict	MeXTuX	I can help with dd
+2012-02-19T07:39:00.000Z	CLIaddict	MeXTuX	can you supply the dev name of your DVD drive?
+2012-02-19T07:40:00.000Z	CLIaddict	MeXTuX	dd if=/dev/DVD_DRIVE_DEV_NAME of=imagefile.img bs=2048k

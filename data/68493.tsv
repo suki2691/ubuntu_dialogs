@@ -1,0 +1,4 @@
+2009-01-16T05:56:00.000Z	WebcamWonder		What is the best way to mass symlink files in an entire directory? I want to symlink all files inside /foo/ into /bar/
+2009-01-16T05:57:00.000Z	wassy121_	WebcamWonder	you can use a wildcard (*) like so: 'ln -s /tmp/folder1/*.sh /tmp/folder2/'
+2009-01-16T05:57:00.000Z	wassy121_	WebcamWonder	remember, ln (just like cp or mv) goes source first, destination second.
+2009-01-16T05:58:00.000Z	WebcamWonder	wassy121_	hmm hold up. Let me try tha t:)

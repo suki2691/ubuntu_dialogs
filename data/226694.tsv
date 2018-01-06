@@ -1,0 +1,4 @@
+2009-11-29T02:35:00.000Z	Swindle		anyone that can help me sort this out      awk 'NR=="$i" {print $2}' foo       the loop works but it wont set the variable, im in bash
+2009-11-29T02:35:00.000Z	poutine	Swindle	there was no loop there
+2009-11-29T02:35:00.000Z	poutine	Swindle	problem solved.
+2009-11-29T02:36:00.000Z	poutine	Swindle	you do no assignment, you should have had NR=$i; outside of the awk statement if you wanted the bash $NR to be $i

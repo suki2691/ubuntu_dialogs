@@ -1,0 +1,4 @@
+2007-09-13T11:47:00.000Z	Helmi		i got a problem: mounted some network shares via fstab but they don't get mounted on boot - i always have to manually mount them. any idea why that is?
+2007-09-13T11:48:00.000Z	elzbal	Helmi	Do you have "noauto" as part of the options? If not... what does the line in fstab look like?
+2007-09-13T11:49:00.000Z	elzbal	Helmi	I have nfs mounts in my fstab, and they work fine.
+2007-09-13T11:52:00.000Z	elzbal	Helmi	that looks more like an SMB mount than a NFS mount... And taking a cue from nickrud, is samba started before the fstab is read?

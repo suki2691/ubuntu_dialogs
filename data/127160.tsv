@@ -1,0 +1,4 @@
+2008-12-31T12:32:00.000Z	ganymede		i want to create a filesystem but i want to have the most free space available. when i create an ext3 filesystem, i find that a lot of the space has been taken up on a blank filesystem (maybe reserved for journal) between ext3, reiserfs and xfs, which should i choose if i want the most space available to me
+2008-12-31T12:33:00.000Z	oldmanstan	ganymede	the differences are pretty small, is space really that much of a concern?
+2008-12-31T12:34:00.000Z	ganymede	oldmanstan	it's not that space is a large concern, it's just that features, and performance are much less of a concern
+2008-12-31T12:35:00.000Z	oldmanstan	ganymede	why not just try every file system and see which yields the best results? you're making extra work for yourself anyway, might as well make a bunch of extra work

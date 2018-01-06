@@ -1,0 +1,4 @@
+2006-01-17T16:39:00.000Z	Orborde		Under which package would I find the watch command?
+2006-01-17T16:39:00.000Z	dooglus	Orborde	it's in the procps package
+2006-01-17T16:39:00.000Z	Orborde	dooglus	/ soundray : Thank
+2006-01-17T16:40:00.000Z	dooglus	Orborde	to find that out, I ran:   apt-file search bin/watch | grep 'watch$'

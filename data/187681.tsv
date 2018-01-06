@@ -1,0 +1,4 @@
+2008-06-09T14:14:00.000Z	jerkface03		how do you restart inetd so that changes to inetd.conf can take effect?
+2008-06-09T14:15:00.000Z	jerkface03		other than rebooting
+2008-06-09T14:15:00.000Z	jerkface03		is there a way?
+2008-06-09T14:15:00.000Z	ikonia	jerkface03	kill -HUP (or kill 1) or use the init script

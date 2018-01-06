@@ -1,0 +1,4 @@
+2008-08-23T03:01:00.000Z	zorrolero	nickrud	dpkg-reconfigure resets the conffiles, iirc.
+2008-08-23T03:02:00.000Z	nickrud	zorrolero	only ones for which one is written. But dpkg itself won't mess with an altered one
+2008-08-23T03:03:00.000Z	zorrolero	nickrud	ok.
+2008-08-23T03:06:00.000Z	nickrud	zorrolero	interesting idea, that. I've never tried creating a missing conffile with dpkg-reconfigure. Gonna try that

@@ -1,0 +1,4 @@
+2010-03-01T05:30:00.000Z	danny_		does anyone know with the sort command what option would I use if I'm looking to sort processes by max to min usage?
+2010-03-01T05:31:00.000Z	Typos_King	danny_	    ..... sort processes..... you mean from a text dump?
+2010-03-01T05:32:00.000Z	Typos_King	danny_	  if you're just looking for a quickie.... try maybe 'qps' is a visual process manager, and you can sort by clicking on the provided colunmn tab
+2010-03-01T05:55:00.000Z	Typos_King	danny_	   ->   ps -eo user,pid,ppid,%mem,fname | sort -k 4;   thereabouts

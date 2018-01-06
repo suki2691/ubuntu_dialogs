@@ -1,0 +1,4 @@
+2011-09-17T04:25:00.000Z	nathanj		i know that. is there a way to just turn all samba security off and allow everyone full access to the share folder?
+2011-09-17T04:27:00.000Z	ActionParsnip	nathanj	if you run:  sudo smbpasswd -a $USER    and set a password, you can authenticate as that user
+2011-09-17T04:27:00.000Z	ActionParsnip	nathanj	also make sure the partition is mounted writable
+2011-09-17T04:27:00.000Z	nathanj	ActionParsnip	thank you so much

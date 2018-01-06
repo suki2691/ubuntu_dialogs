@@ -1,0 +1,4 @@
+2010-02-07T21:29:00.000Z	dinobisk		Hi. On 1st gen MacBook, soundcard work but not external audio (headphones); there is no possibility to chose the external audio output in the sound settings app. (In Lucid Lynx it was possible). Does anyone know?
+2010-02-07T21:30:00.000Z	Eremite	dinobisk	are you saying that you cant hear audio coming from your headphones?  Open a terminal and type "alsa-mixer" or "alsamixer" (I forget which) and make sure that you have your mic/headphones/etc enabled and turned up.
+2010-02-07T21:32:00.000Z	dinobisk	Eremite	That was what I did in Lucid Lynx after having selected the output in the sound settings app. Now it cannnot be selected (there is only the internal option).
+2010-02-07T21:34:00.000Z	dinobisk	Eremite	In alsamixer, the output seems to be there, but its volume cannot be adjusted.

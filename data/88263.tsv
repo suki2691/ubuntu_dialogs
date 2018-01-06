@@ -1,0 +1,4 @@
+2009-06-14T15:32:00.000Z	lvlefisto		when i run a virtualbox machine swap space is used. When i close the VM swap isn't cleared. How can i see what applications are using swap space when there is a lot of free memory?
+2009-06-14T15:32:00.000Z	Slart	lvlefisto	it's probably just keeping stuff in the swap since it isn't being used
+2009-06-14T15:32:00.000Z	Slart	lvlefisto	I think it will move stuff out of there once it's accessed
+2009-06-14T15:33:00.000Z	lvlefisto	Slart	thanks man

@@ -1,0 +1,4 @@
+2008-09-03T05:38:00.000Z	d3sign		If you have a server on your network and you start ubuntu and it goes to the login screen, how can one access it through VNC?
+2008-09-03T05:39:00.000Z	d3sign		Anyone?
+2008-09-03T05:40:00.000Z	dr_willis	d3sign	 you could alwyas 'ssh' into the server, and start 'vncserver' manually, then connect to the now persistant vnc desktop. You dont have4 to vnc to the 'gdm' login screen.. its doable that way.. but not required
+2008-09-03T05:42:00.000Z	dr_willis	d3sign	 the ssh server is not installed by default.

@@ -1,0 +1,4 @@
+2006-03-14T14:20:00.000Z	keithhhhhhhhh		how can I search all the directories from the root for a particular file?
+2006-03-14T14:20:00.000Z	Syco54645	keithhhhhhhhh	find / | grep _file_
+2006-03-14T14:21:00.000Z	Syco54645	keithhhhhhhhh	or you can use slocate file (this is faster, but you need to run a sudo updatedb)
+2006-03-14T14:22:00.000Z	Syco54645	keithhhhhhhhh	i use slocate just because it is so much faster once the db is made.  just set a cron job to run ubdatedb every so often that way you never have to worry about it

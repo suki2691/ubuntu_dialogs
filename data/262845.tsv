@@ -1,0 +1,4 @@
+2005-03-27T09:09:00.000Z	aims		can someone tel me if there is any point in me pulling my hair out cos i cant get my IT8212 pci raid card to work
+2005-03-27T09:11:00.000Z	aims		erm... how do i find that out?
+2005-03-27T09:11:00.000Z	bwlang	aims	i don't know that card... but i think anything but a 3ware or megaraid card is not worth the effort.  Software raid is better than a hardware raid card that you can't even monitor...
+2005-03-27T09:14:00.000Z	bwlang	aims	3ware is the best option... you can use smartd to monitor all the individual devices using -d 3ware,0-n

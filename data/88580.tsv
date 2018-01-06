@@ -1,0 +1,4 @@
+2008-12-20T00:20:00.000Z	ryan-c		I'm trying to create a raid array, any ideas what's going wrong here?
+2008-12-20T00:20:00.000Z	ryan-c		mdadm -C -e 1.1 --bitmap=internal --name=xtb_raid --level=6 --raid-devices=4 /dev/sda1 /dev/sdb1 missing missing
+2008-12-20T00:20:00.000Z	ryan-c		mdadm: You haven't given enough devices (real or missing) to create this array
+2008-12-20T00:22:00.000Z	ASULutzy	ryan-c	and you've definitely got the drives correctly setup using fdisk?

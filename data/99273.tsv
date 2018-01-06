@@ -1,0 +1,4 @@
+2008-03-31T20:43:00.000Z	fiXXXerMet		How can I change my kernel from -server to -generic?
+2008-03-31T20:44:00.000Z	hischild	fiXXXerMet	install the right kernel and switch, though i think you were adviced not to switch kernels
+2008-03-31T20:44:00.000Z	fiXXXerMet	hischild	I did apt-get install linux-server-generic but I guess how do I do the switch?
+2008-03-31T20:45:00.000Z	hischild	fiXXXerMet	sudo update-grub will add it to your grub list.

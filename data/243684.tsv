@@ -1,0 +1,4 @@
+2005-04-29T13:17:00.000Z	synic		hey folks... hotplug keeps detecting my wireless card as acx_pci, which it is not.  I have to unload this module to get the card to work
+2005-04-29T13:17:00.000Z	synic		how can I stop it from being loaded?
+2005-04-29T13:17:00.000Z	crimsun	synic	echo "acx_pci" | sudo tee -a /etc/hotplug/blacklist
+2005-04-29T13:18:00.000Z	synic	crimsun	thanks

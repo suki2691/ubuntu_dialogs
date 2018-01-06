@@ -1,0 +1,4 @@
+2008-11-02T02:53:00.000Z	crafteh		is there a way to install ubuntu to a partition from within ubuntu?
+2008-11-02T02:53:00.000Z	cliechti	crafteh	yes using debootstrap
+2008-11-02T02:54:00.000Z	crafteh	cliechti	what is debootstrap?
+2008-11-02T02:55:00.000Z	cliechti	crafteh	a commanf line tool that installs a base system. so you can install a base system to a folder/mounted partition. you will use chroot and some manual work too.

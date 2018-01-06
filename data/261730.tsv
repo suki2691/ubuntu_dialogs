@@ -1,0 +1,4 @@
+2009-02-25T13:04:00.000Z	llragsll		I have an ubuntu gateway hare through which all traffic goes. I need a way to monitor the data transferred through this machine. any suggestions?
+2009-02-25T13:04:00.000Z	Seveas	llragsll	iptraf, bwm, wireshark/tshark
+2009-02-25T13:05:00.000Z	Seveas	llragsll	or mrtg or cacti if you want graphs
+2009-02-25T13:10:00.000Z	Seveas	llragsll	sudo iptables -L -v -n. That'll tell you the amount transfered since booting

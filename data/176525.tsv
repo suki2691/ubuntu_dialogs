@@ -1,0 +1,4 @@
+2007-10-30T17:36:00.000Z	juan		is there a way of getting a consistant output for checking if a modual is present, e.g i can use it in a script no just lsmod | grep which i need to look at
+2007-10-30T17:36:00.000Z	hwilde	juan	 like   watch -n1 "lsmog | grep package"
+2007-10-30T17:34:00.000Z	hwilde	juan	just put them on multiple lines in your bash script
+2007-10-30T17:36:00.000Z	hwilde	juan	use the watch command

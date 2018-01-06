@@ -1,0 +1,4 @@
+2006-03-12T09:55:00.000Z	navaneeth		does anyone know how to turn off the service that synchronizes time with ntp.something at startup?by the way i did try using system>Administration>services.
+2006-03-12T09:56:00.000Z	Jowi	navaneeth	ntpdate is the name.
+2006-03-12T09:57:00.000Z	Jowi	navaneeth	"cd /etc/init.d" + "sudo update-rc.d ntpdate remove" or "sudo update-rc.d -f ntpdate remove"
+2006-03-12T09:57:00.000Z	Jowi	navaneeth	that will delete it from boot

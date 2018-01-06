@@ -1,0 +1,4 @@
+2012-09-18T03:38:00.000Z	TJ-	imMute	the architecture is detected by dpkg via /usr/share/dpkg/archtable, which maps to glibc triplets of the core packages
+2012-09-18T03:39:00.000Z	imMute	TJ-	I eventually got --add-architecture to add the correct architectuure (armel vs arm) and got it working.
+2012-09-18T03:39:00.000Z	TJ-	imMute	yeah... you're aware of dpkg-architecture ?
+2012-09-18T03:40:00.000Z	imMute	TJ-	I found out about it, but I don't have Perl on this embedded system

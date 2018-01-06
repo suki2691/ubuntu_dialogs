@@ -1,0 +1,4 @@
+2007-02-03T07:12:00.000Z	JonTec		hey guys, how can I get a listing of ALL of the packages I have installed from command line... something I can do grep on?
+2007-02-03T07:13:00.000Z	cablesm102	JonTec	that won't work. It also lists packages with config files still.
+2007-02-03T07:14:00.000Z	cablesm102	JonTec	dpkg -l | grep "^ii"
+2007-02-03T07:14:00.000Z	JonTec	cablesm102	kitche: thanks :D

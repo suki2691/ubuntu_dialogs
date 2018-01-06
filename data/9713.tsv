@@ -1,0 +1,4 @@
+2011-09-06T20:42:00.000Z	poridge		how can i set it up so users don't have access to list files in other users home directories?
+2011-09-06T20:43:00.000Z	ActionParsnip	poridge	sudo chmod o-rxw /home/username       this will give ONLY the owner and its group access to the data (and root obviously)
+2011-09-06T20:45:00.000Z	ActionParsnip	poridge	its good to do on multiuser systems :)
+2011-09-06T20:45:00.000Z	poridge	ActionParsnip	thanks

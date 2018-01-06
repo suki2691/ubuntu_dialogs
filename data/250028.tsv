@@ -1,0 +1,4 @@
+2012-05-17T15:48:00.000Z	lollisoft		Hi, I have installed an ubuntu system and before getting a grub error out of partition I have made a snapshot. /boot is on /dev/sda1 and / is on /dev/mapper as I am using LVM. Can this be repaired, before I retry installing java or make any other huge changes to the fs?
+2012-05-17T15:48:00.000Z	Dr_willis	lollisoft	 what sort of grub error?
+2012-05-17T15:50:00.000Z	Dr_willis	lollisoft	 you could  also try the boot-repair tool from a live cd. like the grub2 factoid mentions
+2012-05-17T15:56:00.000Z	Dr_willis	lollisoft	 So somehow installing jdk broke grub? or did i miss somthing.

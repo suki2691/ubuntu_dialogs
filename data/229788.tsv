@@ -1,0 +1,4 @@
+2006-03-29T10:06:00.000Z	mikes_		hey i need dome help. when i update ubuntu i get this W: Couldn't stat source package list cdrom://Ubuntu 5.10 _Breezy Badger_ - Release i386 (20051012) breezy/'universe Packages (/var/lib/apt/lists/Ubuntu%205.10%20%5fBreezy%20Badger%5f%20-%20Release%20i386%20(20051012)_dists_breezy_'universe_binary-i386_Packages) - stat (2 No such file or directory)
+2006-03-29T10:07:00.000Z	bimberi	mikes_	the CD doesn't have a universe (or multiverse) repository
+2006-03-29T10:08:00.000Z	bimberi	mikes_	yw :)
+2006-03-29T10:38:00.000Z	bimberi	mikes_	it looks like you have a typo on your sources.list - does it have >>'unive rse<< instead of just universe somewhere

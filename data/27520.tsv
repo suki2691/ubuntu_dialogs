@@ -1,0 +1,4 @@
+2010-08-13T23:44:00.000Z	Ileden		Hi! How can I make sudo not ask for a password when editing rfcomm binds with command "sudo rfcomm bind" and "sudo rfcomm release"? I've tried editing the /etc/sudoers file to set /usr/bin/rfcomm to NOPASSWD but that doesn't seem to work. Then again, I'm not very good with /etc/sudoers... Any ideas how to proceed?
+2010-08-13T23:45:00.000Z	teunvD	Ileden	why would you want to do that?
+2010-08-13T23:46:00.000Z	Ileden	teunvD	I have a script I use to connect to net via Phone GPRS, and it requires me to do a rfcomm binding. I would like to be able to run that script without having to type my password every time.
+2010-08-13T23:46:00.000Z	teunvD	Ileden	through what user does you phone run the script?

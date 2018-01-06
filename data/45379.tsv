@@ -1,0 +1,4 @@
+2009-12-27T05:56:00.000Z	anubis		hi
+2009-12-27T05:57:00.000Z	anubis		A little question, somebody know a bug or problem with grub2 and eeepc's?
+2009-12-27T05:57:00.000Z	anubis		I'm having random keyboard freezing during the bootup
+2009-12-27T05:58:00.000Z	mMezquitale	anubis	when you have a "/boot" partitions grub2 grub might fail, it has to do with the partitions, grub2 now starts counting partitions at 1

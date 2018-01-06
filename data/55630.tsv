@@ -1,0 +1,4 @@
+2010-12-31T01:56:00.000Z	newser		this might be  a silly question but Im stuck right now :( I made a script in python and run it but it went into an infinite loop because i made a mistake in a variable but I do not know how to stop the execution from terminal. I pressed ctrl+c but nothing. Any suggestions?
+2010-12-31T01:57:00.000Z	soreau	newser	Get to another terminal and killall python
+2010-12-31T01:57:00.000Z	soreau	newser	or ps ax|grep <script name> and kill $PID
+2010-12-31T01:58:00.000Z	newser	soreau	I stopped from another terminal thanks

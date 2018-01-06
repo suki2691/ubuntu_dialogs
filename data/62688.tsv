@@ -1,0 +1,4 @@
+2010-03-20T04:17:00.000Z	Aaal3		What is the command-line equivelent of edit connections->eth0->edit->ipv4 settings->share with other computers?
+2010-03-20T04:19:00.000Z	Aaal3		no Typos_King i mean connection sharing
+2010-03-20T04:21:00.000Z	iceroot	Aaal3	you mean "echo 1 > /proc/sys/net/ipv4/ip_forward"
+2010-03-20T04:21:00.000Z	iceroot	Aaal3	and adding eth0:1 to the other network you want to share, so you can set a gateway/router

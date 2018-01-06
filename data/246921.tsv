@@ -1,0 +1,4 @@
+2009-11-09T01:31:00.000Z	cyrus_mc		so I run Gentoo and want to try out Ubuntu MOblin remix on my netbook. However, there is no usb-creator package for gentoo so how do I copy the ISO to a flash?
+2009-11-09T01:31:00.000Z	cyrus_mc		I tried unetbootin to create the flash but that didn't appear to work
+2009-11-09T01:32:00.000Z	cyrus_mc		any help would be appreciated
+2009-11-09T01:34:00.000Z	tormod	cyrus_mc	copying the iso is one thing, installing the boot sector to make it bootable is the delicate part. you can try to run syslinux manually, otherwise there are many scripts around which does these kind of things

@@ -1,0 +1,4 @@
+2012-01-05T04:16:00.000Z	mobius420		anyone know what could possibly be using port 443 out of the box in ubuntu?
+2012-01-05T04:16:00.000Z	mobius420		https ?
+2012-01-05T04:16:00.000Z	mobius420		and if so how to stop it
+2012-01-05T04:18:00.000Z	ActionParsnip	mobius420	try:  netstat -a | grep 443

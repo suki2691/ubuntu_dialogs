@@ -1,0 +1,4 @@
+2012-10-30T21:39:00.000Z	fishscene		I am trying to start VLC automatically (without having to log in) when Ubuntu 12.04 server boots. I've added the command to "/etc/rc.local", However, I suspect VLC cannot start because it is being executed as "root". Is there a way to execute vlc as a user?
+2012-10-30T21:40:00.000Z	crizis	fishscene	su username -c vlc
+2012-10-30T21:41:00.000Z	crizis	fishscene	remember the & so it starts at background :)
+2012-10-30T22:12:00.000Z	fishscene	crizis	Thanks for your help, it is now successfully running. I had to fix the syntax though: su -c "command in quotes here" - (username)

@@ -1,0 +1,4 @@
+2007-06-28T08:52:00.000Z	funjon		so, I have an interesting issue with a dapper server, apache2 isn't honoring "HostnameLookups Off" in the apache2.conf file
+2007-06-28T08:52:00.000Z	funjon		anyone seen this before?
+2007-06-28T08:53:00.000Z	funjon		Mega: go look in /etc/mail/sendmail.mc, uncomment the appropriate line that restricts to lcoalhost only
+2007-06-28T08:53:00.000Z	Megaqwerty	funjon	thanks.

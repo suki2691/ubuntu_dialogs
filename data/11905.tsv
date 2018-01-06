@@ -1,0 +1,4 @@
+2011-07-23T21:32:00.000Z	dvdr		ive got a usb wireless usb adaptor (awuso36h), works ok in ubuntu but I can't get it to run in a linux virtual machine (under virtualbox). The wireless adaptor is detected, it shows available networks etc but when I try to connect to a wpa2 secured network it reports "bad password". The exact same settings work in the host (ubuntu) machine. Any ideas? The driver is the same for both cases (rtl8187)
+2011-07-23T21:33:00.000Z	th0r	dvdr	the internet connection in virtualbox isn't usually done like that. the ethernet connection in the vm bridges through the host to the internet
+2011-07-27T22:28:00.000Z	th0r	dvdr	once it is set up gpa does a decent (and easy) job
+2011-07-27T22:30:00.000Z	dvdr	th0r	thanks ill look it up

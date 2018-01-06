@@ -1,0 +1,4 @@
+2012-09-08T21:48:00.000Z	unless		OkropNick, thank you guys!
+2012-09-08T21:50:00.000Z	W4sp	unless	I suggest you check the history of shell commands for the user(s) involved in the process of 'install some code from source' that 'a mess at my disk'. See you log files and jot down what you've done to get there. See the install scripts where all that finally ended up.
+2012-09-08T21:51:00.000Z	W4sp	unless	Use 'history > ~/messed' for a reference.
+2012-09-08T21:53:00.000Z	W4sp	unless	Those files probably went to /usr/local/bin and whereever. That's where your Makefile comes into picture. Open it and see what $INSTALL has to tell you.

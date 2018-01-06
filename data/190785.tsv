@@ -1,0 +1,4 @@
+2008-04-03T15:29:00.000Z	joep		thanks DIstroJockey I'll look there. However, the URI that's given by Ububtu is strange as it doesn't use an standard location
+2008-04-03T15:30:00.000Z	waylandbill	joep	System, Administration, Printing, make sure 'Share Published Printers' is checked. In the cupsd.conf, you want to make sure to add a line for listening on desired address. Then other cups based systems can use IPP to print. For windows clients, you'll need to share via Samba.
+2008-04-03T16:40:00.000Z	waylandbill	joep	did you look at 'dmesg' and verify that the card is not found? if so, you want to 'lsmod' and see if the module was loaded into the kernel
+2008-04-03T16:44:00.000Z	waylandbill	joep	do you have /dev/dsp ?

@@ -1,0 +1,4 @@
+2010-09-27T21:14:00.000Z	tucemiux		it seems my video drivers are making my machine freeze after an update, how can I configure ubuntu so that it doesnt load the drivers and runs in text mode only?
+2010-09-27T21:15:00.000Z	JohnHeikkila	tucemiux	During your boot, press ESC or hold SHIFT to get to the Grub menu. There boot from the "recovery mode"
+2010-09-27T21:16:00.000Z	tucemiux	JohnHeikkila	but will that force the video drivers to not be loaded, I'm looking at a black screen with those lines, the last line says "composite sync not supported"
+2010-09-27T21:16:00.000Z	JohnHeikkila	tucemiux	That will boot your PC into Console mode only

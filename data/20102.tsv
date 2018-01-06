@@ -1,0 +1,4 @@
+2011-10-25T00:22:00.000Z	amh345		im trying to share folders between ubuntu machines on my home network.  what's the best way to do this?  when i click on share it asks me to install the Windows network.   but i dont have a windows machine.
+2011-10-25T00:23:00.000Z	bluenemo	amh345	sshfs
+2011-10-25T00:25:00.000Z	bluenemo	amh345	sshfs user@server:/path/to/dir /path/to/mount/dir
+2011-10-25T00:33:00.000Z	amh345	bluenemo	sshfs user@server:/path/to/dir throws an error "could not find network:/// my_user@192.168.x.x"

@@ -1,0 +1,4 @@
+2006-05-13T14:21:00.000Z	shevegen		i have installed the latest dapper, now i did "apt-get install build-essentials" to get gcc. For this I had to insert the install CD again. My question is:  Is there a command to install everything on the CD on the system? (Its on another PC by the way.)
+2006-05-13T14:22:00.000Z	shevegen		something like "apt-get install whole-cd-content" or so ;-)
+2006-05-13T14:23:00.000Z	GreySim	shevegen	This doesn't answer your question directly, and I'm not sure how to answer it directly, but my own workaround to that is to just comment out the CD in sources.list and get everything online.
+2006-05-13T14:25:00.000Z	GreySim	shevegen	All the packages on the CD are in one directory though, I think, so you can go into that directory and try "sudo dpkg -i *.deb" or something along those lines.

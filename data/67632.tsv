@@ -1,0 +1,4 @@
+2010-03-19T18:06:00.000Z	Migi32		wtf? I'm trying to execute a file by typing $ ./a.out in the terminal (after cd'ing to the right directory) and it says "bash: ./a.out: No such file or directory"
+2010-03-19T18:06:00.000Z	Migi32		I'm 100% sure the file is there!
+2010-03-19T18:07:00.000Z	Migi32		it was already set by gcc
+2010-03-19T18:08:00.000Z	eremite	Migi32	I sometimes have to add "sh" to the file, or at least make it executable.  Make sure its executable, use chmod or navigate to it in a GUI, right click and enable executing

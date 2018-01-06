@@ -1,0 +1,4 @@
+2011-10-04T10:20:00.000Z	mekwall		hey! how do I best troubleshoot a insanely slow ssh connect? I mean, once I am connected it is fast, its just the negotiation that is slow.
+2011-10-04T10:21:00.000Z	faina	mekwall	ssh -v, though when I have that problem its usually something is making a dns request and its failing over to another dns server
+2011-10-04T10:23:00.000Z	faina	mekwall	it helps to ask questions that have frustrated other people too ;)
+2011-10-04T10:24:00.000Z	faina	mekwall	that looks like its timing out looking for the GSS components

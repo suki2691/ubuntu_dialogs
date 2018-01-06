@@ -1,0 +1,4 @@
+2011-06-22T00:07:00.000Z	prov		Is there a way to create a partition to match exactly the image I want to dd into it? In size that is.
+2011-06-22T00:09:00.000Z	prov		What I want to do is restore an image I made of a partition using dd. I now need to make a new partition again to match the old size. How can I do this so I can dd the old image into the new partition?
+2011-06-22T00:11:00.000Z	sarit	prov	use fdisk to create the partition, make it the same size of the previous one (or bigger). if bigger, run resize2fs afterwards.
+2011-06-22T00:12:00.000Z	prov	sarit	I will try that.

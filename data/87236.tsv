@@ -1,0 +1,4 @@
+2008-06-20T18:06:00.000Z	adante		hi, can someone tell me how to access a samba share on another computer? when I use windows i can access it by going to \\pveer\adante and logging in with adante\password -- when i do this in the gnome browser it times out
+2008-06-20T18:07:00.000Z	Aborym	adante	smb://<ip here>
+2008-06-20T18:08:00.000Z	adante	Aborym	oh nice, thanks -- why does that work but no the hostname?
+2008-06-20T18:09:00.000Z	Aborym	adante	Uh not sure.. you could just add it to /etc/hosts as a temporary fix

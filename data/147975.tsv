@@ -1,0 +1,4 @@
+2007-01-26T12:06:00.000Z	yotux		Is there a reason that ubuntu need boot partition for grub to work?
+2007-01-26T12:06:00.000Z	shatrat	yotux	what os doesnt need a boot partition?
+2007-01-26T12:07:00.000Z	yotux	shatrat	 When I used to run fedora I could have a root and swap partions only
+2007-01-26T12:07:00.000Z	shatrat	yotux	grub and MBR are always on their own little section at the start of the disk, afaik.  theyre just mounted differently I believe

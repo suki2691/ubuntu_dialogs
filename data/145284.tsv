@@ -1,0 +1,4 @@
+2007-02-19T12:32:00.000Z	morteng		I tried with sudo  rpm -Uvh   for installing an rpm package but that failed,
+2007-02-19T12:33:00.000Z	h0g	morteng	as none of the deps will be there
+2007-02-19T12:33:00.000Z	h0g	morteng	install alien and convert it to a deb
+2007-02-19T12:33:00.000Z	h0g	morteng	otherwise, you'll have to do rpm -i --force

@@ -1,0 +1,4 @@
+2010-08-23T10:08:00.000Z	Th3Count		I cannot seem to find the answer to my problem on the community forums, i am sure it is an easy fix and common problem. I have just install ubuntu (dual-boot) with windows 7 previously existing. Grub does not launch i do not have an OS selector, just defaults to windows 7
+2010-08-23T10:09:00.000Z	yardleydobon	Th3Count	sounds like you should reinstall grub.
+2010-08-23T10:12:00.000Z	Th3Count	yardleydobon	i am currently running on the live disc, and have gone into the package manager removed and added grub. Grub consantly fails install "Grub has failed to install on device /dev/sda"
+2010-08-23T10:13:00.000Z	yardleydobon	Th3Count	First mount the partition that has boot on it. Can you do that?

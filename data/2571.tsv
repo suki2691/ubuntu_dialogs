@@ -1,0 +1,4 @@
+2012-06-15T12:35:00.000Z	mbutubuntu		hey guys, I'd like to know why ffmpeg -i /path/to/videoFile.mp4 | grep foo doesn't grep anythink but prints out all the ffmpeg output... o.0
+2012-06-15T12:35:00.000Z	mbutubuntu		do you know why?
+2012-06-15T12:36:00.000Z	ezbbunk	mbutubuntu	try 2>&1
+2012-06-15T12:47:00.000Z	mbutubuntu	ezbbunk	I've redirected the stderr output to a variable but now echo $VAR | grep foo doesn't work again...!

@@ -1,0 +1,4 @@
+2009-02-18T03:20:00.000Z	enovativ		and i get an error that says : "Failed to mount Windows share"
+2009-02-18T03:20:00.000Z	skel	enovativ	can you do smbclient -U <username> //server/sharename ?
+2009-02-18T03:25:00.000Z	skel	enovativ	sounds like the server you're trying to connect to isn't resolving. try using IP
+2009-02-18T03:25:00.000Z	enovativ	skel	i tried ip also no luck

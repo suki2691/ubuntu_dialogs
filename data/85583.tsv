@@ -1,0 +1,4 @@
+2009-01-10T01:16:00.000Z	daw		can anyone give me a shell command to find the name of a file containing a specific string from a directory tree?
+2009-01-10T01:18:00.000Z	abuchbinder	daw	You mean like "find /path/to/search/in -name '*regex*'"?
+2009-01-10T01:20:00.000Z	daw	abuchbinder	that is for filenames. i'm trying to go through the directory tree, grep each file for a string, and return the name of files containing that string -- and nothing else
+2009-01-10T01:21:00.000Z	abuchbinder	daw	The above, or find /path/ -print0 | xargs -0 grep 'pattern' |cut -d: -f1|sort|uniq.

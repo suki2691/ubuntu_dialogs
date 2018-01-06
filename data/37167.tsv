@@ -1,0 +1,4 @@
+2010-02-17T01:44:00.000Z	aarce		I'm hoping I'm just missing something dumb and obvious... I'm trying to set up a user with rights to SCP/SFTP, jailed to his /home/username directory.  So far I've got it to where he's logged in and jailed, but can't ls, can't write, can't anything.  If I give him write rights, the login fails
+2010-02-17T01:46:00.000Z	aarce		so I'm caught in a sort of either/or situation.  with rights, he can't get in, without rights, he gets in and can't do anything
+2010-02-17T01:47:00.000Z	jrib	aarce	debian docs had a good ssh chroot jail page I think
+2010-02-17T01:48:00.000Z	aarce	jrib	Yeah...  I've been following along with that.  we're just down to this rights issue that doesn't seem to be addressed anywhere.

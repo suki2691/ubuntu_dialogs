@@ -1,0 +1,4 @@
+2007-01-18T15:44:00.000Z	josiahgould		could someone please tell me how to unlock my perl-base package in synaptic?
+2007-01-18T15:45:00.000Z	josiahgould		it's got a lock next to it, and i can't uninstall or upgrade it or anything
+2007-01-18T15:47:00.000Z	mneptok	josiahgould	it's part of main. why are you installing it?
+2007-01-18T15:49:00.000Z	mneptok	josiahgould	manually installing packages is not the correct way to fix that. use aptitude to update and upgrade if possible, and dpkg to fix errors

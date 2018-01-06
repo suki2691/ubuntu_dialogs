@@ -1,0 +1,4 @@
+2007-03-09T08:57:00.000Z	tdn		How do I disable the pcspeaker completely? I have tried sudo modprobe -r pcspkr, but it does not help. I am using headphones and it is really loud when the pc speaker beeps in them. I get a shock each time.
+2007-03-09T08:59:00.000Z	aglet	tdn	alternatively set "bell-style" in your readline config
+2007-03-09T08:59:00.000Z	aglet	tdn	ie in ~/.inputrc "set bell-style visible"
+2007-03-09T08:59:00.000Z	tdn	aglet	I do *not* want any kind of beep right now. Not from the pcspeaker. Not from a sound file.

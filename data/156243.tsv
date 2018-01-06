@@ -1,0 +1,4 @@
+2008-03-12T06:54:00.000Z	brandonc503		Flannel why make that folder why not use the ones i have in /var/www?
+2008-03-12T06:56:00.000Z	genii	brandonc503	You put things in public_html dir in your home. Then the webserver can get to it by a url like http://somewhere/~yourname
+2008-03-12T07:11:00.000Z	genii	brandonc503	Then make an alias entry in /etc/aache2/sites-enabled/000-default  to point to whatever directory you put your web files in
+2009-10-08T19:35:00.000Z	genii	brandonc503	#ubuntu-server might be good

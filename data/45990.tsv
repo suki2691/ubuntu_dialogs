@@ -1,0 +1,4 @@
+2010-05-22T04:12:00.000Z	soreau	MichRT	Due to driver regressions, some intel chipsets were blacklisted. In 10.04 the blacklist is hard coded into the compiz binary. So you'd either have to hex edit the compiz binary and remove your card id from the list, use karmic compiz packages or build compiz from source
+2010-05-22T04:13:00.000Z	MichRT	soreau	How would I go about doing that? I'd do anything to stay in 10.04
+2010-05-22T04:15:00.000Z	MichRT		roccity: Thanks! Will try now!
+2010-05-22T04:15:00.000Z	soreau	MichRT	I can't really help you much beyond that information because all of the possible workarounds are advanced hacks. And even if you did successfully bypass the checks, there is a chance compiz might fail with the version of the intel driver that ships with lucid

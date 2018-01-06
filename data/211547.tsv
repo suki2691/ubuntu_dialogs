@@ -1,0 +1,4 @@
+2012-03-27T02:46:00.000Z	shammancer		Is there a way to make more shortcuts like ~ for home?
+2012-03-27T02:47:00.000Z	Dulak	shammancer	you can alias anything to anything else, an example I use: alias ..='cd ..'
+2012-03-27T02:52:00.000Z	Dulak	shammancer	you would symlink a directory: ln -s /path/to/source /path/to/destination
+2012-03-27T02:55:00.000Z	Dulak	shammancer	it's part of the shell,  it's like an alias that is built in,  whenever the shell sees ~, it replaces it with your home directory

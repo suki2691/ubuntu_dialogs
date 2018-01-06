@@ -1,0 +1,4 @@
+2012-06-07T04:44:00.000Z	hilo		How can I figure out which physical hard drive (by serial number or something like that) corresponds to which logical device (/dev/sdx or UUID)?
+2012-06-07T04:45:00.000Z	jagginess	hilo	blkid<enter> or ls -la /dev/disk/by-uuid
+2012-06-07T04:47:00.000Z	jagginess	hilo	there are symlinks..
+2012-06-07T04:48:00.000Z	jagginess	hilo	find /dev/disk/

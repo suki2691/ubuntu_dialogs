@@ -1,0 +1,4 @@
+2008-07-05T12:33:00.000Z	jacovt		I am trying to dual boot Ubuntu 8.04 with Windows XP. Problem is that the Ubuntu installer does  not seem to recognize that I have existing partitions on my disk, and the options I get when running the partitioner is only to use the full disk, or manually create new partitions. I do have a XP partition, and a FreeBSD partition on the drive, and I would like to replace this FreeBSD partition with an Ubuntu installation. Any ideas?
+2008-07-05T12:35:00.000Z	Fryguy--	jacovt	try using gparted livecd to set up the partitions before booting ubuntu
+2008-07-05T12:35:00.000Z	jacovt	Fryguy--	You mean, create and actualy ext3 partition beforehand? :)
+2008-07-05T12:35:00.000Z	Fryguy--	jacovt	sure

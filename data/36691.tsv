@@ -1,0 +1,4 @@
+2010-03-02T13:56:00.000Z	Unislash		hey all, i was wondering what your opinions on using gparted to *resize* my windows partition (ntfs of course) is. i'm making it larger, if it matters (for storage) :-)
+2010-03-02T13:57:00.000Z	Unislash		i've read places that it's kind of risky to resize partitions, but i have no idea what effects chances or even what kind of chances there are... hence the question
+2010-03-02T13:58:00.000Z	brjann	Unislash	enlarging ntfs partitions with gparted should be fine, though here's a warning from gparted's faq: When resizing boot NTFS partitions, it is advisable to perform this as a single operation only. After resizing, boot into Windows twice to allow Windows to perform its checking operations.
+2010-03-02T14:00:00.000Z	Unislash	brjann	hmmm, interesting. i'll keep reading stuff :)

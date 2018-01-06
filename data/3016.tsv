@@ -1,0 +1,4 @@
+2012-05-17T23:23:00.000Z	neokya		Hello everyone. I ran into trouble after installing from source. How can I uninstall? PS. I am still new to Linux world
+2012-05-17T23:23:00.000Z	ruli	neokya	how did you install
+2012-05-17T23:26:00.000Z	neokya	ruli	I used github repo
+2012-05-17T23:27:00.000Z	ruli	neokya	that doesnt tell me anything but if you did make install somewhere in there, try make uninstall and hope the developer imlemented it. if that doesnt work, you can make install with 'checkinstall' the program to create a .deb from source, then dpkg -r the .deb

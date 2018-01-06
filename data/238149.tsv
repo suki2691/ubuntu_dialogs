@@ -1,0 +1,4 @@
+2005-09-30T10:10:00.000Z	JaZyLNX		okay guys now i got the drive mounted but only root is able to see it. it's read only which i know cuz it's ntfs. so it won't let me change any of the permissions on it any ideas?
+2005-09-30T10:11:00.000Z	JaZyLNX		well the other users can see the drive, just not view it's contents
+2005-09-30T10:11:00.000Z	Lars_G	JaZyLNX	You can remount it. Still if this is something you want to do a lot, add a correct line to fstab including either a "user" option or a gid/uid for someone who should be able to read it.
+2005-09-30T10:12:00.000Z	Lars_G	JaZyLNX	If it's user, then you need to mount it with the user that will read it, not with root. Umount it, and remount with the user ("mount /mnt/Drive1" only or it'll fail)

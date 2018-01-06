@@ -1,0 +1,4 @@
+2011-11-23T22:16:00.000Z	rockbadger2		I'm running mythweb on ubuntu with static IP address. From another computer it works completely fine, so there is a working network connection. However, on the Ubuntu machine, I can't get internet for Firefox/synaptic etc. - any ideas/links?
+2011-11-23T22:17:00.000Z	zykotick9	rockbadger2	see if you have /etc/resolv.conf with valid DNS server inso
+2011-11-23T22:18:00.000Z	zykotick9	rockbadger2	are you using Network Manager or the interfaces file to set static?
+2011-11-23T22:21:00.000Z	zykotick9	rockbadger2	in that case you need to investigate the N-M settings for DNS/default gateway then - sorry I haven't used N-M for a while so not sure what you should be looking for, BUT N-M is going to overwrite resolv.conf so checking that is useless.  Good luck.

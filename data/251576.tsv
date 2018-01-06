@@ -1,0 +1,4 @@
+2005-12-01T10:25:00.000Z	sally_		how do I set the default umask to 002 instead of 022
+2005-12-01T10:25:00.000Z	sally_		for all users, system-wide
+2005-12-01T10:25:00.000Z	cafuego	sally_	umask 002 in /etc/profile
+2005-12-01T10:26:00.000Z	cafuego	sally_	You can also check for the DIR_MODE option in /etc/adduser.conf

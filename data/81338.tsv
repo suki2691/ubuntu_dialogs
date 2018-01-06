@@ -1,0 +1,4 @@
+2009-07-08T19:39:00.000Z	savid		I received a hack complaint from someone originating on my server.  Apparently it was a bunch of brute-force ssh login attempts.   I've done a rootkit check using rkhunter and chkrootkit, and nothing's turned up yet.   Any suggestions as to how I can figure out how my ubuntu server was comprimised?
+2009-07-08T19:40:00.000Z	moncky	savid	check to see who is running the offending process
+2009-07-08T19:40:00.000Z	moncky	savid	more than likely it was a weak password as opposed to some master hackery
+2009-07-08T19:42:00.000Z	savid	moncky	 mdm, danbeck :  those are excellent suggestions.  Thanks :-)

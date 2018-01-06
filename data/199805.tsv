@@ -1,0 +1,4 @@
+2007-03-28T07:15:00.000Z	Belboz99		Hey all, I'm trying to use nfs to share files between two Linux PC's, one Kubuntu 6.10 one Ubuntu 7.04, I'm having trouble with permissions, anyone care to advise?
+2007-03-28T07:16:00.000Z	Belboz99		mount: 192.168.0.1:fah failed, reason given by server: Permission denied
+2007-03-28T07:16:00.000Z	Spliffster	Belboz99	you must make sure that gui/uids are in sync on your clients/servers
+2007-03-28T07:17:00.000Z	Spliffster	Belboz99	you might want to use NIS or ldap or sync passwd files in some way to ensure consistant uids

@@ -1,0 +1,4 @@
+2011-12-30T02:32:00.000Z	blackbox		ya, but I just wanted to know where the dmesg was storing/reading it's stuff from. And I know believe it is syslog... but to be sure I will have to dmseg > dmesg.stuff and compare dmesg_stuff with syslog to see if they are exact copies
+2011-12-30T02:33:00.000Z	blackbox		" blackbox: it's a buffer in memory" yes but doesn't it get written to a log file
+2011-12-30T02:34:00.000Z	blackbox		and isn't syslog where dmesg copies itself?
+2011-12-30T02:35:00.000Z	wi-nick	blackbox	there's dmesg files rotating in /var/log

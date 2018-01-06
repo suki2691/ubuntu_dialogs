@@ -1,0 +1,4 @@
+2012-06-26T14:08:00.000Z	peni_		hello, I chowned a file, but I still get permission denied when trying to cat it. what am I doing wrong?
+2012-06-26T14:08:00.000Z	theadmin	peni_	What's the actual mode of that file?
+2012-06-26T14:09:00.000Z	peni_	theadmin	dunno what mode is, but it's one of those weird files in /sys/kernel/
+2012-06-26T14:10:00.000Z	theadmin	peni_	Ah, sysfs... It's special, don't mess with that unless you're sure what you're doing... I think only root has access to that anyway

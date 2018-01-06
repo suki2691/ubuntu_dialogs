@@ -1,0 +1,4 @@
+2011-12-02T22:26:00.000Z	djmitche		I'm having some trouble mapping keyboards into X11 sessions on Lucid.  /lib/udev/keymap -i shows kernel keyboard events on input/event2, but no keyboard or mouse interaction has any onscreen effect in X11.
+2011-12-02T22:27:00.000Z	djmitche		Any pointers on where X11 looks to figure out what keyboard/mouse to use?
+2011-12-02T22:28:00.000Z	djmitche		it doesn't exist, hmm
+2011-12-02T22:29:00.000Z	ActionParsnip	djmitche	if one exists, it will be obeyed'

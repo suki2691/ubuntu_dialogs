@@ -1,0 +1,4 @@
+2007-07-03T16:06:00.000Z	ali1235		how can i listen on a priviledged port without enabling the root account?
+2007-07-03T16:06:00.000Z	jontec	ali1235	sudo!
+2007-07-03T16:08:00.000Z	ali1235	jontec	no. i want to do this: ssh -R 0.0.0.0:80:someip:someport ubuntubox
+2007-07-03T16:08:00.000Z	ali1235	jontec	seems like that will only work if i append -l root after enabling root on "ubuntubox"

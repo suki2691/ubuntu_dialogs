@@ -1,0 +1,4 @@
+2008-11-05T16:20:00.000Z	stevej678		wifi compaq c700 ran sudo ndisgtk, added driver net5211.inf, system hangs, tried this twice
+2008-11-05T16:20:00.000Z	ActionParsnip	stevej678	try using the properndiswrapper app
+2008-11-05T16:21:00.000Z	ActionParsnip	stevej678	sudo ndiswrapper -i <inf file>
+2008-11-05T16:21:00.000Z	ActionParsnip	stevej678	then check with sudo ndiswrapper -l

@@ -1,0 +1,4 @@
+2007-11-02T20:18:00.000Z	puglisi		hi, any hint about the best way to sesize partitions (ext3)?
+2007-11-02T20:20:00.000Z	pike_	puglisi	remember that you want to unmount the partition before resizing.. if it is your / then might be easier to use livecd or remount ro maybe
+2007-11-02T20:21:00.000Z	puglisi	pike_	thanks, of course I will unmount them
+2007-11-02T20:22:00.000Z	puglisi	pike_	anyway, does gparted really allow me to do anything on ext3 partitions which are also interweaved with fat32 partitions?

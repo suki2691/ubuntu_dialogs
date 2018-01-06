@@ -1,0 +1,4 @@
+2010-09-14T23:13:00.000Z	aliverius		i migrated my hdd to a new mobo, and now the NIC is reported as eth2
+2010-09-14T23:13:00.000Z	aliverius		how can i change this?
+2010-09-14T23:14:00.000Z	erUSUL	aliverius	"sudo rm /etc/udev/rules.d/70-persistent-net.rules" and reboot
+2010-09-14T23:14:00.000Z	aliverius	erUSUL	thank you

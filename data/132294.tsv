@@ -1,0 +1,4 @@
+2010-05-15T05:36:00.000Z	slimjimflim		would it be a bad idea to delete /var/cache/apt/archives/linux-image-2.6.31-21-generic_2.6.31-21.59_i386.deb
+2010-05-15T05:36:00.000Z	slimjimflim		?
+2010-05-15T05:36:00.000Z	bastid_raZor	slimjimflim	use sudo apt-get clean
+2010-05-15T05:38:00.000Z	bastid_raZor	slimjimflim	and no, it is just the .deb file for the kernel. it is not dangerous to delete. but using sudo apt-get clean is the proper way to clean up

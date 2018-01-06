@@ -1,0 +1,4 @@
+2012-03-13T20:05:00.000Z	Whiskey		echo "deb http://backports.debian.org/debian-backports squeeze-backports main" | sudo tee -a /etc/apt/sources.list <---- How do i do to not insert it if its allredy in sources.list?
+2012-03-13T20:06:00.000Z	Middle	Whiskey	Is that command in a script?
+2012-03-13T20:07:00.000Z	Middle	Whiskey	You could grep the file for the string
+2012-03-13T20:07:00.000Z	Middle	Whiskey	Then use an if statement

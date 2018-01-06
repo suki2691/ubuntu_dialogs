@@ -1,0 +1,4 @@
+2008-08-27T23:50:00.000Z	TJ-42		does the root user have a trash in ubuntu 8.04, and if so, how do I empty it?
+2008-08-27T23:50:00.000Z	unop	TJ-42	root shouldn't have a trash .. unless you used a graphical application under sudo
+2008-08-27T23:51:00.000Z	unop	TJ-42	sudo rm -r /root/.local/share/Trash/* perhaps
+2008-10-01T21:36:00.000Z	unop	TJ-42	package updates should be enough - but keep posted

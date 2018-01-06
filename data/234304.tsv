@@ -1,0 +1,4 @@
+2009-05-20T07:45:00.000Z	pegon		i wanna setup a static ip in ubuntu...in windows its ipconfig /all so i can use that info to setup the static ip...whats the command in ubuntu so I can see all that info? ifconfig alone doesn't give me all that info and ifconfig /all doesn't work lol
+2009-05-20T07:46:00.000Z	pegon		okay thanks thats what i needed the iwconfig
+2009-05-20T07:48:00.000Z	pegon		okay question...ifconfig doesn't give me the dns servers
+2009-05-20T07:48:00.000Z	jim__	pegon	cat /etc/resolv.conf

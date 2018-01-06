@@ -1,0 +1,4 @@
+2010-06-04T07:20:00.000Z	kapipi		Hello, how can I tell what files a package contains before downloading and installing it? I need something like dpkg -L or dpkg-deb --contents, only I want to get this information for packages not already present on my system.
+2010-06-04T07:21:00.000Z	Jordan_U	kapipi	apt-file show foo
+2010-06-04T07:22:00.000Z	kapipi	Jordan_U	thanks
+2010-06-04T07:22:00.000Z	Jordan_U	kapipi	You're welcome.

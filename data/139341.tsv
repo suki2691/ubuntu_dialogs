@@ -1,0 +1,4 @@
+2007-04-14T12:48:00.000Z	decasm		i've got a problem with the erlang-manpages package conflicting with the erlang package itself, so the docs conflict with the system. is there a way to force apt to install erlang-mangpages without uninstalling erlang?
+2007-04-14T12:49:00.000Z	decasm		to generalize, is there a way to install packages that with conflict with each other?
+2007-04-14T12:50:00.000Z	Kazz	decasm	You can force it, but it's not usually a good idea since they conflict...heh.
+2007-04-14T12:51:00.000Z	decasm	Kazz	actually, they don't. the conflict is a misconfiguration in this case.

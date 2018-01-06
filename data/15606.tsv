@@ -1,0 +1,4 @@
+2011-04-22T10:30:00.000Z	deadhead		E: Type 'ttp://ppa.launchpad.net/nilarimogard/webupd8/ubuntu' is not known on line 1 in source list /etc/apt/sources.list.d/nilarimogard-webupd8-natty.list
+2011-04-22T10:30:00.000Z	deadhead		how can i fix that
+2011-04-22T10:30:00.000Z	TheWubber	deadhead	make it http, not ttp
+2011-04-22T10:30:00.000Z	TheWubber	deadhead	gksudo gedit /etc/apt/sources.list.d/nilarimogard-webupd8-natty.list

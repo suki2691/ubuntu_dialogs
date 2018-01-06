@@ -1,0 +1,4 @@
+2009-02-02T19:32:00.000Z	Seveas	connar	uname -a
+2009-02-02T19:33:00.000Z	Seveas	connar	if /proc/cpuinfo has 'lm' in the flag fields the machine is 64bit. Uname -a will tell you if you have a 64bit os
+2009-02-02T19:35:00.000Z	Seveas	connar	no idea. Definitely not whether it's 64bit though :)
+2009-02-02T19:37:00.000Z	Seveas	connar	you need to look only at the flags field and look for the 'word' lm

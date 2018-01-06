@@ -1,0 +1,4 @@
+2008-08-18T17:55:00.000Z	wako		hello, I am trying to remove an install and I get the following error: http://pastebin.ubuntu.com/38488/
+2008-08-18T17:57:00.000Z	sipior	wako	looks like you could modify the file /etc/init.d/ushare that it's complaining about, fix the string quoting and try again.
+2008-08-18T17:57:00.000Z	wako	sipior	what would I change the string to?
+2008-08-18T17:58:00.000Z	sipior	wako	i've no idea. fix the quoting that the error message complains about. probably means a quotation mark was left off.

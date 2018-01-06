@@ -1,0 +1,4 @@
+2012-06-17T22:48:00.000Z	aleminio		 hey guys, i've got a little problem in my server, when i create a folder or even when i copy one a folder to another destination from the CLI, I'm unable then uploading files to that folder using ftp connection from windows, it says permission denied, even tho the chmod is set to 755. but if i create a folder from my frp manager, it works fine... why is that happening and how can i fix it?
+2012-06-17T22:48:00.000Z	aleminio		copiying thousands of files with my ftp manager takes hours while using the cp command takes a minute, but then i'm getting this problem...
+2012-06-17T22:49:00.000Z	rhizmoe	aleminio	you're connecting via ftp, creating the directory on the other side, then trying to copy to it?
+2012-06-17T22:49:00.000Z	rhizmoe	aleminio	in other words, creating the dir underneath the ftp session?

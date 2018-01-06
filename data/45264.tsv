@@ -1,0 +1,4 @@
+2009-10-28T17:14:00.000Z	Phisbut		is there a simple apt command that would list all the packages that are currently installed on a system?
+2009-10-28T17:15:00.000Z	genshihebi	Phisbut	dpkg -l \*,but it's reaaaaaaaaaaaaaallly long
+2009-10-28T17:15:00.000Z	Phisbut	genshihebi	thanks, I got time
+2009-10-28T17:16:00.000Z	genshihebi	Phisbut	I forgot you might want to pipe it to grep to list all installed packages.

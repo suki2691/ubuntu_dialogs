@@ -1,0 +1,4 @@
+2012-09-29T11:52:00.000Z	unsobill		heyylo - is it possible to "rebuild" networking interfaces list ?
+2012-09-29T11:52:00.000Z	unsobill		i got total of 12 interfaces with numbers all fuked up
+2012-09-29T11:52:00.000Z	unsobill		is there a way to reset it all to default
+2012-09-29T11:53:00.000Z	llutz_	unsobill	remove /etc/udev/rules.d/70-persistent-net.rules  and restart

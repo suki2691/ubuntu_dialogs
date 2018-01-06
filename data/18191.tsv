@@ -1,0 +1,4 @@
+2011-02-16T10:14:00.000Z	Frenk		Hello, I have a question. I have someone connected via SSH to my PC, how do I close his ssh session? (its not a hacker)
+2011-02-16T10:16:00.000Z	evilsushi	Frenk	ps -ef |grep ssh
+2011-02-16T10:16:00.000Z	evilsushi	Frenk	pkill -9 <pid>
+2011-02-16T10:18:00.000Z	evilsushi	Frenk	edit your sshd_config add AllowUsers <user1> <user2> .. this will allow you to control what users are allowed to connect to u via ssh

@@ -1,0 +1,4 @@
+2008-10-12T08:46:00.000Z	zchef2k		is there a way to name your ubuntu drive like you do, in say, windows and mac? I would like for the volume's name to mount as such in other os's
+2008-10-12T08:46:00.000Z	jspiro	zchef2k	maybe e2label?  but I dunno of it'll help
+2008-10-12T08:48:00.000Z	zchef2k	jspiro	so if the volume is ext3fs it will work, since ext3 is ex2, effectively?
+2008-10-12T08:49:00.000Z	jspiro	zchef2k	e2label works fine on ext3 drives

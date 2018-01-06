@@ -1,0 +1,4 @@
+2006-09-15T10:27:00.000Z	withayanda		is it possible to use wpa wifi encryption with dapper server?  i'm only familiar with using it using networkmanager applet.
+2006-09-15T10:29:00.000Z	withayanda		i'm sure it's just a matter of finding out what config files it alters....
+2006-09-15T10:29:00.000Z	nomasteryoda	withayanda	/etc/network/interfaces
+2006-09-15T10:32:00.000Z	withayanda	nomasteryoda	maybe i can take the relevant files in my current regular dapper install from /etc/network, the /etc/wpa_supplicant/ifupdown.sh script, do the symlinks?

@@ -1,0 +1,4 @@
+2009-05-14T13:00:00.000Z	fryderyk		I am trying to get a serial console connection working on Hardy but the server doesn't appear to accept any input, and shows rx=0 for the ttyS0 connection.  Doing a stop ttyS0  && start ttyS0 will cause output to the console though.  Any help getting input working is appreciated.
+2009-05-14T13:01:00.000Z	OpenPsycho	fryderyk	what do you use?
+2009-05-14T13:01:00.000Z	OpenPsycho	fryderyk	i m using minicom with no problems.
+2009-05-14T13:05:00.000Z	fryderyk	OpenPsycho	 putty, and HyperTerminal on the client side.  getty on Ubuntu Server.  If I do a stop ttyS0 && start ttyS0 on the server it will output the login prompt to the client, but it won't accept any input from them.

@@ -1,0 +1,4 @@
+2005-11-29T11:26:00.000Z	fredforfaen		I want to use the i686 kernel , the k7 kernel is currently the operating one but i686 is installed.If i turn off 3d accelleration but typing in "nv" at driver in xorg.con the i686 kernel works fine...but when i follow the instructions for installing nvidia drivers it installs it on the old , k7 , kernel....How can i solve this?I want the i686 kernel , badly....
+2005-11-29T11:26:00.000Z	rsilva	fredforfaen	install linux-restrictedmodules-yourkernelofcoice
+2005-11-29T11:27:00.000Z	rsilva	fredforfaen	For example: apt-get install linux-restricted-modules-686
+2005-11-29T11:27:00.000Z	fredforfaen	rsilva	ill try

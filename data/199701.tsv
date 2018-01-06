@@ -1,0 +1,4 @@
+2006-01-27T13:32:00.000Z	Geheimnis		hey guys, I just installed Ubuntu but there's no way I can get GUI.. I'm having an error with XWin, from the log I'd say there is an incompatibility problem with my video card
+2006-01-27T13:33:00.000Z	Geheimnis		if that can be of any help, my video card is a ATI Mobility Radeon XPRESS 200M
+2006-01-27T13:34:00.000Z	_jason	Geheimnis	try changing the video driver to 'vesa' in /etc/X11/xorg.conf, then once you log into X get the driver problem sorted out
+2006-01-27T13:35:00.000Z	Geheimnis	_jason	thanks, I'll note that

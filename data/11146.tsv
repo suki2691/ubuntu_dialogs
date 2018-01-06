@@ -1,0 +1,4 @@
+2011-08-02T16:14:00.000Z	vaev		how does the ubuntu package system work in this case: natty repository has package x version y but another source has package x version y+1.. how does ubuntu (apt) determine which one to use/install?
+2011-08-02T16:15:00.000Z	vaev		how about if it's a distribution default package that should not be overwritten by a newer version? (like gnome2 to gnome3 I assume)
+2011-08-02T16:16:00.000Z	jrib	vaev	http://www.debian.org/doc/debian-policy/ch-controlfields.html read about how version numbers are compared.  Unless you have some sort of apt rule setup, the greater version will be chose
+2011-08-02T16:16:00.000Z	vaev	jrib	thanks. will have a read

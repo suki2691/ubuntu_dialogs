@@ -1,0 +1,4 @@
+2007-05-06T11:41:00.000Z	ixian_		Is there a way to have Desktop Effects enabled when I am using the ATI 3D driver? If I enable the 3D driver, it says 'composite extension not available' when I try to enable desktop effects.
+2007-05-06T11:43:00.000Z	strabes	ixian_	you really should ask that in #ubuntu-effects but i'll tell you the simple answer: no. fglrx doesn't support AIGLX meaning you would have to use XGL which is more trouble than it's worth
+2007-05-06T11:44:00.000Z	ixian_	strabes	well I used to use beryl with fglrx in  ubuntu 6.10, can i do that in 7.10?
+2007-05-06T11:44:00.000Z	strabes	ixian_	that's probably because you were using XGL not AIGLX. You can't run AIGLX with fglrx

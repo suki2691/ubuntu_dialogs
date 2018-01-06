@@ -1,0 +1,4 @@
+2009-09-16T09:01:00.000Z	gizmobay		I have a process running called run-boxee-desktop at id 3706. When I do a pidof run-boxee-desktop it comes back blank.
+2009-09-16T09:01:00.000Z	gizmobay		What am I doing wrong?
+2009-09-16T09:02:00.000Z	prince_jammys	gizmobay	try pidof -x  , or pgrep
+2009-09-16T09:03:00.000Z	prince_jammys	gizmobay	did that produce any output?

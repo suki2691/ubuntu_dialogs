@@ -1,0 +1,4 @@
+2007-12-28T19:07:00.000Z	argie		Here's the forum thread I posted in detail in: http://ubuntuforums.org/showthread.php?t=652020
+2007-12-28T19:07:00.000Z	argie		Basically, what happened is ubiquity crashed while partitioning and now both GParted and Ubiquity show the drive as unpartitioned. However fdisk reports that the partitions exist and that "Partition table entries are not in disk order". It also claims that "Warning: invalid flag 0x0000 of partition table 5 will be corrected by w(rite)".
+2007-12-28T19:08:00.000Z	argie		However, it's labelled 'Warning:' and I suppose I only have one shot at this so I'd like to know what I should do from someone who knows what it's about.
+2007-12-28T19:09:00.000Z	Wander_w	argie	I'd make a backup of your partition table; you should use dd for that like: dd if=/dev/hda of=~/my_partition_table_backup count=123   Lookup the correct way to do this

@@ -1,0 +1,4 @@
+2008-11-16T00:23:00.000Z	AnythingJe		Hey guys, I'm trying to get Ushare to work (streaming to my xbox360)  It runs fine, but the xbox times out when it tries to connect (it can see it, just can't connect).  I don't have iptables, and I've disabled ufw... any ideas what it could be?
+2008-11-16T00:24:00.000Z	rdw200169_	AnythingJe	It might be the default iptables drop policy
+2008-11-16T00:24:00.000Z	rdw200169_	AnythingJe	you can't get rid of iptables
+2008-11-16T00:25:00.000Z	rdw200169_	AnythingJe	ikonia: no, ubuntu, by default, implements iptables drop on input,output,forward

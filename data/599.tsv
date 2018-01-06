@@ -1,0 +1,4 @@
+2012-10-27T11:58:00.000Z	TUI		I get error message "error while loading shared libraries: libphonon.so.4: cannot open shared object file: No such file or directory" while i try to launch an application. Locate libphonon.so.4 gives me "/usr/lib/x86_64-linux-gnu/libphonon.so.4" and "/usr/lib/x86_64-linux-gnu/libphonon.so.4.6.0"
+2012-10-27T11:59:00.000Z	TUI		Why application cannot open shared object file?
+2012-10-27T11:59:00.000Z	Karlo_	TUI	Sounds like the /usr/lib/x86_64-linux-gnu directory is not in the library search path
+2012-10-27T12:00:00.000Z	TUI	Karlo_	 ok, what should i do about it? remove it?

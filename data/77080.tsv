@@ -1,0 +1,4 @@
+2008-10-17T10:35:00.000Z	After_Math		how can I see what service is running on a certain port?
+2008-10-17T10:37:00.000Z	Gumby	After_Math	netstat -tpan |grep :port_number
+2008-10-17T10:37:00.000Z	After_Math	Gumby	great thanks
+2008-10-17T10:38:00.000Z	Gumby	After_Math	nickrud's way works too but you have to look at the IP/ports to figure out what you need

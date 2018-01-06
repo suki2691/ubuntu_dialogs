@@ -1,0 +1,4 @@
+2012-03-28T08:51:00.000Z	Braden`		http://pastebin.com/ggN1YcsQ <--- This is my /etc/network/interfaces configuration.  Right now, if I do:  service networking restart, the interfaces don't come up.  No error messages per se
+2012-03-28T08:52:00.000Z	Braden`		Does anyone know what I am doing wrong in that config?
+2012-03-28T08:54:00.000Z	rbrooks	Braden`	try eth0:1
+2012-03-28T09:05:00.000Z	Braden`	rbrooks	 Same with both :/

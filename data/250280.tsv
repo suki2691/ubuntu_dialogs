@@ -1,0 +1,4 @@
+2005-10-23T08:39:00.000Z	Ironfrost		Hi - can anyone point me to a good site that describes how to create an empty .deb package that only consists of dependencies?
+2005-10-23T08:40:00.000Z	Ironfrost		(so that I can quickly install a whole load of packages on a lot of machines)
+2005-10-23T08:41:00.000Z	apokryphos	Ironfrost	try googling for metapackage. Of course a far easier way is to just put a list of all those packs into a file, then sudo apt-get install <packages>
+2005-10-23T08:41:00.000Z	apokryphos	Ironfrost	s/packs/package names/

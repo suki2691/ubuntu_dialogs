@@ -1,0 +1,4 @@
+2006-04-29T09:54:00.000Z	MystaMax		hello, I'm receiving a fatal error when restarting proftpd. It states 'Fatal': group: Unknown group 'nobodyy'. on line 20 of '/etc/proftpd.conf'
+2006-04-29T09:55:00.000Z	slackern	MystaMax	I think it should be "nogroup" for groups and "nobody" for users
+2006-04-29T09:57:00.000Z	MystaMax	slackern	yep thats exactly what I'm doing
+2006-04-29T09:58:00.000Z	MystaMax	slackern	is that the only problem you ran into?

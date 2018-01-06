@@ -1,0 +1,4 @@
+2012-09-20T03:35:00.000Z	kdsmain		is this a good place to ask why sound usually stops coming from my laptop headphone jack after a combination of muting and unplugging the headphones in 12.04?
+2012-09-20T03:36:00.000Z	kdsmain		is this a good place to ask why sound usually stops coming from my laptop headphone jack after a combination of muting and unplugging the headphones in 12.04? (sorry, like 10000 people joined/dc'd right after i asked)
+2012-09-20T03:37:00.000Z	ActionParsnip	kdsmain	try:  killall pulseaudio; rm -r ~/.pulse*    wait 10 seconds then retry sound
+2012-09-20T03:40:00.000Z	ActionParsnip	kdsmain	it restarts itself automagically

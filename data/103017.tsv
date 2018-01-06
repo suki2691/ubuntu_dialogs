@@ -1,0 +1,4 @@
+2012-08-30T02:48:00.000Z	Bodsda		Hi, I have a working ubuntu installation on /dev/sda1 and also have a blank hdd with just an ext4 filesystem (no data) on /dev/sdc1, how can I install say another ubunu system (or other distro) to /dev/sdc1 without using any removable media (cd or usb)?
+2012-08-30T02:49:00.000Z	histo	Bodsda	You can use debootstrap to install ubuntu over the network on the other drive
+2012-08-30T02:50:00.000Z	Bodsda	histo	dr_willis - cheers guys
+2012-08-30T02:54:00.000Z	histo	Bodsda	https://help.ubuntu.com/community/Installation/FromLinux

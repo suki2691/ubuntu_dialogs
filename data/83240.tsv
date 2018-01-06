@@ -1,0 +1,4 @@
+2008-08-14T21:57:00.000Z	Kenthree		Hello, I sent files from windows through samba, But I can't write to them on ubuntu because i'm not the owner. can I fix this?
+2008-08-14T21:58:00.000Z	Prose	Kenthree	you can 'chmod' or 'chmod' on the files themselves or you can connectg from Ubuntu to the Samba partition with the same user as the one from Windows
+2008-08-14T22:14:00.000Z	Kenthree	Prose	I used chmod +rw but I get Operation not permitted. The owner of the folder is "nobody"
+2008-08-14T22:15:00.000Z	Prose	Kenthree	change the owner of the folder with 'chown -R' so it's recursive

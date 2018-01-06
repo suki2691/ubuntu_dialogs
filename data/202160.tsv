@@ -1,0 +1,4 @@
+2012-06-24T20:55:00.000Z	DanielWhite		I have a desktop with Windows XP installed in one partition (/dev/sda1) and Ubuntu 12.04 LTS Server installed in another (/dev/sda2).  I can choose which operating system to run at boot time, and both work.  In Ubuntu, I have installed Xen and Virtual Machine Manager.  I can create a Windows XP virtual machine using a file as the virtual disk, and it works fine.  However, when I try to create a Windows XP virtual machine using /dev/sda1 as
+2012-06-24T20:55:00.000Z	DanielWhite		 the virtual disk, the virtual machine won't start; it's stuck at the message that says "Booting from Hard Disk..."
+2012-06-24T20:56:00.000Z	IdleOne	DanielWhite	might try ##xen
+2012-06-24T20:57:00.000Z	IdleOne	DanielWhite	sure thing

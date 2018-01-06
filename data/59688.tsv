@@ -1,0 +1,4 @@
+2011-09-07T14:40:00.000Z	sveinse		When writing a package, how does a package request a reboot of the system? I often see kernel updates which gives a red icon in gnome telling me to reboot due to an upgrade
+2011-09-07T14:42:00.000Z	jpds	sveinse	Look at the source for the kernel package?
+2011-09-07T14:43:00.000Z	jpds	sveinse	Or: /etc/kernel/postinst.d/update-notifier
+2011-09-07T14:43:00.000Z	sveinse	jpds	Excellent, thanks

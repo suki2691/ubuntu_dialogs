@@ -1,0 +1,4 @@
+2005-10-03T07:22:00.000Z	haja		After installing msttcorefonts, how can I add my own fonts? Do I just put them in /usr/share/fonts/truetype/msttcorefonts?
+2005-10-03T07:23:00.000Z	haja		After installing msttcorefonts, how can I add my own fonts? Do I just put them in /usr/share/fonts/truetype/msttcorefonts?
+2005-10-03T07:24:00.000Z	cafuego_	haja	mkdir ~/.fonts; the copy the .ttf files to there.
+2005-10-03T07:24:00.000Z	cafuego_	haja	and run "xset fp rehash: to make the fonts available.

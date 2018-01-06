@@ -1,0 +1,4 @@
+2005-11-28T10:29:00.000Z	Moco		I have made a Samba shared folder. When I try to access it from  my Windows computer, it asks for a username and password. When i enter that, it just prompts again. What is going on?
+2005-11-28T10:31:00.000Z	Moco		I have made a Samba shared folder. When I try to access it from  my Windows computer, it asks for a username and password. When I enter that, it just prompts again. What is going on?
+2005-11-28T10:33:00.000Z	bimberi	Moco	you'll need to add a samba account - "sudo smbpasswd -a <yourusername>", then use that username/password
+2005-11-28T10:35:00.000Z	bimberi	Moco	np :)

@@ -1,0 +1,4 @@
+2008-01-18T18:21:00.000Z	OshaMaHUe		i am trying to install grub. i followed the instructions. i reboot my computer . at the beggining it stuck at the grub console. i couldnt install ubuntu and im tryg to get to windows because i need to rip another ubuntu cd. do anyone know how to solve this. and fdisk doesnt work at cmd of the vista cd
+2008-01-18T18:23:00.000Z	OshaMaHUe		or what should i do
+2008-01-18T18:23:00.000Z	ZionPsyfer	OshaMaHUe	You need to boot the vista cd to the recovery console, then run 'Bootrec /fixboot'  followed  by 'Bootrec /fixmbr'
+2008-01-18T18:25:00.000Z	ZionPsyfer	OshaMaHUe	Nice. =)

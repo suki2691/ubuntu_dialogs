@@ -1,0 +1,4 @@
+2007-12-04T10:17:00.000Z	smooker_		my account smooker is bugged, i cant login with GNOME session, only Xfce :( when i type name and password yellow then black screen shows out, no panel, but with root  can login.
+2007-12-04T10:18:00.000Z	smooker_		can u explain what i have to do ?
+2007-12-04T10:18:00.000Z	smooker_		im using ubuntu from days ..
+2007-12-04T10:19:00.000Z	nickrud	smooker_	I had something similar; I logged out, did ctl-alt-f1, logged in, did killall gconfd-2 , then ps -A | grep gnome and killed all those as well. Then alt-f7 and logged back in

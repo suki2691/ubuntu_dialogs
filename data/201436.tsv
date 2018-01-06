@@ -1,0 +1,4 @@
+2006-03-06T07:34:00.000Z	jroes		hey, I changed kernels to k7, and my nvidia drivers don't work (no surprise, since it's a kernel module), does anyone know if there is anything else I need to do besides apt-get install the linux-restricted-modules for my k7 kernel?
+2006-03-06T07:35:00.000Z	PuMpErNiCkLe	jroes	That should do it.
+2006-03-06T07:35:00.000Z	PuMpErNiCkLe	jroes	If not, just reinstalling the nvidia-glx package will.  I doubt it will come to that, though.
+2006-03-06T07:36:00.000Z	PuMpErNiCkLe	jroes	(It's been long enough since I did that that it's a bit fuzzy. O_o)

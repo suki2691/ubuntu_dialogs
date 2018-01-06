@@ -1,0 +1,4 @@
+2005-03-17T06:50:00.000Z	jeff_		ok how do i mount an .iso file
+2005-03-17T06:51:00.000Z	knapjack	jeff_	Something like 'modprobe loop && mount -o loop -t iso9660 some.iso somemountpoint'
+2005-03-17T06:53:00.000Z	knapjack	jeff_	Add another sudo in front of mount
+2005-03-17T06:53:00.000Z	knapjack	jeff_	or now that the loopback module is installed, just sudo mount blah blah blah

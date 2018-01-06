@@ -1,0 +1,4 @@
+2006-12-22T10:02:00.000Z	jps__		has anyone tried to install ubuntu and kubuntu on the same machine as dual boot? i like them both, but i don't like to install one on top of another since the menus become full of apps...
+2006-12-22T10:03:00.000Z	wijnand	jps__	i don't know about kubuntu but in ubuntu i can make apps "invisible" in the menu
+2006-12-22T10:05:00.000Z	wijnand	jps__	that shouldn't be the case, but i don't see any reason why you can't dualboot them
+2006-12-22T10:06:00.000Z	wijnand	jps__	only thing you have to realise is that the installers probably won't add the right entries to grub by default, but you can just open /boot/grub/menu.lst and edit it (the "other" menu.lst should already contain the entry you need to boot it, so you cna just copy paste)

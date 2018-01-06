@@ -1,0 +1,4 @@
+2008-02-22T22:58:00.000Z	benanz1		I'm having trouble installing GNUpod to my home dir.  I don't have root on this machine and using --prefix=/home/me/Local doesn't work because it still tries to put stuff in /etc/perl
+2008-02-22T22:59:00.000Z	benanz1		It tries to install some special perl modules to /etc/perl  -- how can I tell it to put them in /home/me/Local/etc/perl?
+2008-02-22T22:59:00.000Z	benanz1		using the --sysconfdir option in configure doesn't work either
+2008-02-22T23:00:00.000Z	ejer	benanz1	that sounds like an issue for the devs of that app...

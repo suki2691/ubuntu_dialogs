@@ -1,0 +1,4 @@
+2012-02-25T00:55:00.000Z	mrmonday-		How do I stop ubuntu from booting into a GUI in 11.10? When it's done booting I want it to drop me at a command line rather than starting a GUI
+2012-02-25T00:57:00.000Z	escott	mrmonday-	set text in /etc/default/grub and rerun update-grub
+2012-02-25T01:02:00.000Z	escott	mrmonday-	no in the kernel flags where is says splash change it to nosplash text
+2012-02-25T01:04:00.000Z	escott	mrmonday-	^^^

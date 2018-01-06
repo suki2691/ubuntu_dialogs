@@ -1,0 +1,4 @@
+2006-08-19T13:32:00.000Z	xinfectis		whenever i try to run apt-get update i get a localhost connection refused error, is there a package i need to reconfigure for apt to connect properly?
+2006-08-19T13:32:00.000Z	verbose	xinfectis	edit /etc/apt/sources.list and comment out any lines that have to do with local repositories
+2006-08-19T13:33:00.000Z	xinfectis	verbose	none are local repos, all the ubuntu defaults
+2006-08-19T13:33:00.000Z	verbose	xinfectis	i have no idea then

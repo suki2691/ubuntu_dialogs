@@ -1,0 +1,4 @@
+2008-05-03T20:36:00.000Z	StanMckhanic		Hi guys, downloaded drivers for my nvidia card from their website, came in a ".run" package, I followed their instructions, set it to be able to be run as an executable, double click the file on the desktop, where upon it opens a terminal, starts to run the package, but then comes up with a message saying that I need to be the root user to run it, I've spent a fair while reading documentation and forums, because I've been using l
+2008-05-03T20:36:00.000Z	StanMckhanic		inux for, oh, 4 days now, so I'm aware that I shouldn't need to use the root user, can someone help me find the correct way to do this using sudo?
+2008-05-03T20:36:00.000Z	mabus	StanMckhanic	sudo
+2008-05-03T20:37:00.000Z	mabus	StanMckhanic	instead of double clicking on the shortcut, just type sudo /path/to/installer.run

@@ -1,0 +1,4 @@
+2012-03-24T08:38:00.000Z	collinjsimpson		Does anyone know if 'bindfs' can mount *files* as a filesystem?
+2012-03-24T08:40:00.000Z	hydrox24	collinjsimpson	what file do you need to mount? If you can use the mount command then just add the "-o loop" option to it.
+2012-03-24T08:41:00.000Z	collinjsimpson	hydrox24	I'm mounting a file as a filesystem with 'bindfs' to be able to set quotas for users in shared directories.
+2012-03-24T08:42:00.000Z	collinjsimpson	hydrox24	A normal 'mount' doesn't let me share directories.

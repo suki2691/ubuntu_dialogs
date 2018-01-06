@@ -1,0 +1,4 @@
+2008-06-12T14:05:00.000Z	exodos		i mounted different root filesystem, chrooted there and updated kernel. now i can't umount this filesystem, it keeps saying: device is busy
+2008-06-12T14:05:00.000Z	exodos		is there a way to find which process is still using this filesystem?
+2008-06-12T14:06:00.000Z	erUSUL	exodos	lsof /mount/point/ ?
+2008-06-12T14:07:00.000Z	erUSUL	exodos	sudo lsof /mount/point/

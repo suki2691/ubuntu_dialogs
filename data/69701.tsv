@@ -1,0 +1,4 @@
+2011-02-06T15:47:00.000Z	rac_		anyone heard if there's an ubuntu installer to install (another version) of ubuntu to another partition while running ubuntu ?
+2011-02-06T15:49:00.000Z	sacarlson	rac_	 you can setup another grub2 entry to boot an iso to install a version of something from within a ubuntu sesion
+2011-02-06T15:52:00.000Z	sacarlson	rac_	just add a grub2 custom40 entry with something like this http://ubuntuforums.org/showthread.php?t=1288604
+2011-02-06T15:55:00.000Z	sacarlson	rac_	 just point the isofile to the iso boot image you want to install in menuentry "Ubuntu" {     set isofile="/boot/isos/ubuntu.iso"

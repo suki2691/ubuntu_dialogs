@@ -1,0 +1,4 @@
+2008-01-08T23:16:00.000Z	Mik1		does anyone know, if it is possible to launch the program "ubuntu appearance" or similar (in german "Erscheinungsbild") in a console because I don't have access to the system-menu due to lacking panels?
+2008-01-08T23:18:00.000Z	pike_	Mik1	cant you launch a panel?
+2008-01-08T23:18:00.000Z	pike_	Mik1	or youre on a tty launching on remote display?
+2008-01-08T23:21:00.000Z	pike_	Mik1	sorry dunno gnome well. id just do rm -fr ~/.g*; pkill gnome-panel;gnome-panel but youd lose all  you settings and be at default again..

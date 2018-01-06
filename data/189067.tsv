@@ -1,0 +1,4 @@
+2006-08-09T10:35:00.000Z	AllenA		i just installed my graphics card driver (pci tnt2 modle 64) usin the nvidia-glx-legacy driver and now my max resolution is 1024x768... is there a line in my xorg.conf i could add another res to aloow me to use a higher res?
+2006-08-09T10:35:00.000Z	Sivik	AllenA	run glxgears -printfps and inform us of what you get
+2006-08-09T10:36:00.000Z	Sivik	AllenA	there is a way to add the line in the xorg.conf
+2006-08-09T10:44:00.000Z	Sivik	AllenA	then you don't have the drivers installed  correctly, i have a friend with a tnt 2 and it runs just over 1k fps when the drivers are installed correctly

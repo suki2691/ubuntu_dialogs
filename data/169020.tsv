@@ -1,0 +1,4 @@
+2006-11-04T16:37:00.000Z	sirbijan		how can I stop services to run at boot time? Isn't there any file to edit? Should I install BUM and there's no other alternative?!
+2006-11-04T16:37:00.000Z	anon32	sirbijan	/etc/init.d has all the boot scripts
+2006-11-04T16:39:00.000Z	anon32	sirbijan	you have to remove the script
+2006-11-04T16:41:00.000Z	anon32	sirbijan	yea... renaming it to foo.bak might work too

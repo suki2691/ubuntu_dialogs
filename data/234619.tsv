@@ -1,0 +1,4 @@
+2006-02-23T17:21:00.000Z	mobileman		I'm looking for a way to improve disk scheduling on kubuntu...I have a box with a RAID 5, and whenever one process is doing something disk intensive the rest of the processes really lag. It's to the point that even a simple ls will take 5-10 seconds...
+2006-02-23T17:22:00.000Z	mobileman		sync?
+2006-02-23T17:22:00.000Z	dooglus	mobileman	sync will flush all the buffers to disk, causing even more lag.
+2006-02-23T17:23:00.000Z	dooglus	mobileman	did you try using "renice" to change the priority of the database server?

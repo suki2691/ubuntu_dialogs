@@ -1,0 +1,4 @@
+2009-07-28T18:19:00.000Z	Vock		Just had a question about ssh, if I'm on A ssh'ing into B, and from the terminal on B i can navigate to the file I want to scp over, is there an easy way to just scp the file over from the command line in B?
+2009-07-28T18:21:00.000Z	jimd	Vock	if you used Kermit as your terminal (configuring it to communication over the ssh tunnel) than you could kermit the file across the ssh connection.
+2009-07-28T18:22:00.000Z	jimd		However, I don't know if any way to do that with the normal ssh client.
+2009-07-28T18:22:00.000Z	Vock	jimd	thanks

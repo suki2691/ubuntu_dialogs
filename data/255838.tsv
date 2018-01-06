@@ -1,0 +1,4 @@
+2004-12-14T17:11:00.000Z	spiritz		pepsi : you need to unload usb modules to be able to use your usb port under vmware. You should try to enable the usb port in vmware, then it's tell you a module is already using them. Then as root, type rmmod xxxx to unload the modules.
+2004-12-14T17:12:00.000Z	spiritz		he wants to release the usb port so vmware can use them
+2004-12-14T17:12:00.000Z	shingoki	spiritz	It just sounded like he was using vmware because he couldn't mount under linux, but that should be easy
+2004-12-14T17:12:00.000Z	spiritz	shingoki	: yeah true

@@ -1,0 +1,4 @@
+2006-04-09T06:48:00.000Z	foxpaul		does anyone know if it's possible to set up some kind of host aliases? so on my local machine, i can alias 'hello.com' to '10.10.10.101', so all traffic from my box to hello.com goes to that local machine?
+2006-04-09T06:49:00.000Z	rob_p	foxpaul	 Map them in your /etc/hosts file.
+2006-04-09T06:49:00.000Z	foxpaul	rob_p	thanks i'll have a look
+2006-04-09T06:50:00.000Z	foxpaul	rob_p	do you know if it's possible to specify ports in that file?

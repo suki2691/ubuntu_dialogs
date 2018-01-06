@@ -1,0 +1,4 @@
+2010-02-15T15:51:00.000Z	solistic		installing flashplugin-installer fails, because http://archive.canonical.com/pool/partner/a/adobe-flashplugin/adobe-flashplugin_10.0.42.34.orig.tar.gz gives a 404 ...
+2010-02-15T15:53:00.000Z	ZykoticK9	solistic	if you open http://archive.canonical.com/pool/partner/a/adobe-flashplugin/ you'll see that particular version is not there?  have you tried updating the apt database with "sudo apt-get update" then trying again.
+2010-02-15T15:54:00.000Z	solistic	ZykoticK9	of course
+2010-02-15T16:03:00.000Z	ZykoticK9	solistic	no 64bit DEB I'm affraid - you have to do manual install if you want 64bit flash (i've never bothered)

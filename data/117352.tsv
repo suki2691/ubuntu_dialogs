@@ -1,0 +1,4 @@
+2008-03-14T14:51:00.000Z	geirha	sahin_h	off the top of my head, ~/.gconf/ ~/.gnome/ and possibly ~/.gnome2/ are the directories gnome stores configuration
+2008-03-14T14:51:00.000Z	sahin_h	geirha	I took the same.
+2008-03-14T14:53:00.000Z	geirha	sahin_h	hm, then it's probably easiest to rename your homedir, remove your user with deluser, and recreate your user with adduser (using the same uid and gid), then selectively copying the files from your old home to your new one
+2008-03-14T14:54:00.000Z	sahin_h	geirha	Yes, I think this is the only and painful way what is left for me.

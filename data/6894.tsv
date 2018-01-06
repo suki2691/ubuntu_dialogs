@@ -1,0 +1,4 @@
+2011-12-25T13:58:00.000Z	Joba2		I asked this earlier, but thought I'd try again and see if anyone has an answer.  I have a device that uses serial over bluetooth.  It shows up as /dev/rfcomm0 and I can connect to it just fine if I use sudo, but get a "Device or Resource Busy" error if I try to connect to it with a normal user.  The dialout group has the same permissions on the device as root, and I am in the dialout group.  Any ideas for how to make the device usable b
+2011-12-25T13:58:00.000Z	Joba2		y a normal user?
+2011-12-25T14:00:00.000Z	gogeta	Joba2	add them to the bluetooth group as well
+2011-12-25T14:00:00.000Z	Joba2	gogeta	Trying it now.

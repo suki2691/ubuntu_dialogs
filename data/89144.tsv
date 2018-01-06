@@ -1,0 +1,4 @@
+2008-07-10T00:05:00.000Z	glitsj16	nano_	why would you need a journaling filesystem for /boot ? just use a separate /boot partition with ext2
+2008-07-10T00:07:00.000Z	glitsj16	nano_	if you use hibernation/suspend to disk a swap space is handy as well
+2008-07-10T00:09:00.000Z	glitsj16	nano_	it will do it's best to compress but giving it enough space will guarantee smoother recovery i spuupose, if you can spend the 2 GB for swap i'd do it
+2008-07-10T00:10:00.000Z	nano_	glitsj16	I will definately do so

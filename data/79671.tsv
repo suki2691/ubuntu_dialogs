@@ -1,0 +1,4 @@
+2009-01-16T07:37:00.000Z	somedrew	outofthemadness	used to be ~/.gnome2/gtksourceview-1.0/language-specs/ (gedit was using gtksouceview) should still be current, but not sure
+2009-01-16T07:43:00.000Z	outofthemadness	somedrew	The gtksourceview directory isn't in gnome2.(not anymore, anyway) there is one in /usr/share , and I put it in there, and now it is an option in the syntax highlighting menu, but when I do that there is no highlighting, just plain text. Any ideas?
+2009-01-16T07:48:00.000Z	somedrew	outofthemadness	try just creating the directories if they don't exist, the one in usr/share probably isn't set up for proper parsing
+2009-01-16T08:00:00.000Z	outofthemadness	somedrew	I tried that, and it also didn't work. Still had the menu option though

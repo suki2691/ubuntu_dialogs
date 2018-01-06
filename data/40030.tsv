@@ -1,0 +1,4 @@
+2011-01-03T19:37:00.000Z	vikas_		windows 7 not booting after installing ubuntu 10.10 on dell inspiron 1510
+2011-01-03T19:39:00.000Z	thekid	vikas_	that's a common mistake, you need to buy a new laptop and win7 license :D or... tell us what does "not booting" mean? any error message? ( ntlrd is missing or the like, black screen of death..? )
+2011-01-03T19:46:00.000Z	vikas_	thekid	the boot selection failed because required device is inaccessible,
+2011-01-03T19:52:00.000Z	thekid	vikas_	fix windows using this tutorial: http://support.microsoft.com/kb/927392 , after it boots you need to reinstall grub2. Boot from a live cd, mount the drive like sudo mount /dev/sda1 /mnt , then grub-install --root-directory=/mnt /dev/sda , then reboot from hdd. start linux, and type update-grub in case windows is missing from the bootmenu. That's it in a nutshell :D

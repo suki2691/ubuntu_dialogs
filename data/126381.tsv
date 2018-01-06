@@ -1,0 +1,4 @@
+2007-08-01T07:41:00.000Z	neuro3		heya, how can i change my screen resolution? i got a fresh install of ubuntu. when i go to system -> preferences -> screen resolution the maximum is 1280x1024 but my monitor supports 1680x1050 and i'd like to use that
+2007-08-01T07:42:00.000Z	avis	neuro3	sudo dpkg-reconfigure -phigh xserver-xorg i believe will change your xserver resolution without having to go through the entire reconfiguration unless you know/want to do that
+2007-08-01T07:43:00.000Z	neuro3	avis	thank you
+2007-08-01T07:45:00.000Z	neuro3	avis	that worked beautifully

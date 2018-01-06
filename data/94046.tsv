@@ -1,0 +1,4 @@
+2008-06-12T09:45:00.000Z	adamorjames		I am trying to mount a SanDisk flash drive. The problem is it will not mount. I was following steps to get DSL to run on it through Linux and now I am at this problem. Here is the guide I was following: http://www.damnsmalllinux.org/wiki/index.php/Installing_to_a_USB_Flash_Drive . It worked before.
+2008-06-12T09:45:00.000Z	amrik	adamorjames	were you using this on windows formatted as ntfs? if you had an unclean shutdown with the device ntfs-3g doesn't like to mount it. you can try mount -o force
+2008-06-12T09:47:00.000Z	adamorjames	amrik	nope
+2008-06-12T09:47:00.000Z	adamorjames	amrik	but I have done that before

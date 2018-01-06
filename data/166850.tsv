@@ -1,0 +1,4 @@
+2007-02-17T17:54:00.000Z	bryan986		Hello, I am trying to use my public ip to access my ubuntu server behind the same router as me, I want to use it like a local ip address so that I can test it as if someone was trying to connect from the internet, how would I get this to work? (It works from another network but not on the same one as the server)
+2007-02-17T17:55:00.000Z	Quintin	bryan986	that may or may not work depending on your router.  if it's a storebought router, there's not much you can do to make it work.  You can just use the local IP and it should be what anyone connecting from the net would get.
+2007-02-17T17:57:00.000Z	bryan986	Quintin	yes I know I would get the same thing, but I would like to be able to test out that things such as a domain is working
+2007-02-17T17:58:00.000Z	Quintin	bryan986	Shouldn't be any reason to need to test that, just make sure your dns is configured properly

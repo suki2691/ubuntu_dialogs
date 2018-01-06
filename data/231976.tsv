@@ -1,0 +1,4 @@
+2011-04-04T23:02:00.000Z	royale1223		How do i fix deleted /home/ folder?
+2011-04-04T23:02:00.000Z	erUSUL	royale1223	recover the files?
+2011-04-04T23:06:00.000Z	erUSUL	royale1223	jusr recreate the home folder « sudo mkdir /home/ » then create the user's home folders « for user in user1 user 2user3; do sudo mkdir /home/"$user" && sudo chown "$user:$user" /home/"$user"; done »
+2011-04-04T23:08:00.000Z	erUSUL	royale1223	where user1 user2 etc are the actual usernames... then you may want to copy /etc/skel/ contents to each folder

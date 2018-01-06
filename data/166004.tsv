@@ -1,0 +1,4 @@
+2007-04-30T11:16:00.000Z	nextstate		I installed 7.04 and my network does not work. I can ping other computers on the netowrk, but I can't get out to the internet. My route is ok and my dns servers are setup. Any ideas?
+2007-04-30T11:16:00.000Z	clearzen	nextstate	have you checked /etc/resolv.conf?
+2007-04-30T11:17:00.000Z	nextstate	clearzen	yes, I have 4.2.2.1 in that file
+2007-04-30T11:18:00.000Z	clearzen	nextstate	I've found if there is a section at the top that starts with search <foo> you can comment that out and it will resolve names for websites with your dns servers. That is if you can't ping sites either.

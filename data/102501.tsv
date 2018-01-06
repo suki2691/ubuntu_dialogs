@@ -1,0 +1,4 @@
+2010-05-08T11:29:00.000Z	andruk		how do i find out what type of partition is on my hard drive via the command line?
+2010-05-08T11:30:00.000Z	rww	andruk	"mount" will tell you, if it's mounted.
+2010-05-08T11:32:00.000Z	andruk	rww	i was trying to find out what type of filesystem it was so i could mount it!  ;-) thanks tho.
+2010-05-08T11:33:00.000Z	rww	andruk	mount should autodetect the filesystem type if it's ext3 or ext4 =

@@ -1,0 +1,4 @@
+2011-10-05T19:59:00.000Z	_2briancox_		I need a bash command to delete all files recursively under my Music folder of the type .wma ... help please.  =)  I am sure it uses find with the -delete parameter, but I can't get the Syntax right....
+2011-10-05T20:00:00.000Z	_2briancox_		I just tried:      find -delete /home/brian/Music/ '*.wma'
+2011-10-05T20:00:00.000Z	th0r	_2briancox_	you can just do 'rm -R /home/<user>/Music/*.wma', I think
+2011-10-05T20:05:00.000Z	th0r	_2briancox_	check the linux documentation project....tldp.org

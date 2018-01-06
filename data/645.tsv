@@ -1,0 +1,4 @@
+2012-11-22T22:53:00.000Z	beagleburt		G'day everyone from New Zealand. I installed Ubuntu 12.04 LTS about a month ago. I have a single user account & I am the Administrator; BUT I can't access the 'Root' & 'Lost & Found' folders, nor can I use <shutdown -r now> command from Terminal - as I "need to be root". I entered my login password for "su" but -"password authentication failure" is returned? Can anyone help me? t.a.
+2012-11-22T22:53:00.000Z	thesadmafioso	beagleburt	you need to use "sudo" not su
+2012-11-22T22:54:00.000Z	thesadmafioso	beagleburt	unless you enable a root account. a root account is not enabled by default in ubuntu
+2012-11-22T22:55:00.000Z	thesadmafioso	beagleburt	instead, in ubuntu the normal user "borrows" root privs to accomplish tasks. there's plenty of information in the official documentations about this issue.

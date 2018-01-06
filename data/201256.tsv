@@ -1,0 +1,4 @@
+2006-01-11T07:02:00.000Z	Sunbug		Hey, help me out guys.. What pack provides build folder in /lib/modules/$kernel-version
+2006-01-11T07:03:00.000Z	cafuego	Sunbug	kernel-headers-$(uname -r)
+2006-01-11T07:05:00.000Z	Sunbug	cafuego	Hm. Package not found. ;\ Tested with linux-header-$version pack, but didnt get the build folder ;\
+2006-01-11T07:09:00.000Z	Sunbug	cafuego	Ah got it now. restricted pack. Thx.

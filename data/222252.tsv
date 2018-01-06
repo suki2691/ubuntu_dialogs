@@ -1,0 +1,4 @@
+2006-05-15T14:00:00.000Z	skon		when i re-install ubuntu, can i backup packages so as not to have to download the whole lot again?
+2006-05-15T14:01:00.000Z	intelikey	skon	yes you can.
+2006-05-15T14:04:00.000Z	intelikey	skon	i save all that comes into /var/cache/apt/archives/   and when installing just copy them all there  and go.    but i install from cd.  if you are net installing there is also a dir in /var/lib/dpkg  i think... that you should save.   look for .deb files and save them all.
+2006-05-15T14:05:00.000Z	intelikey	skon	find /var -name '*.deb'

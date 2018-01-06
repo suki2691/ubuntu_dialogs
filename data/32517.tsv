@@ -1,0 +1,4 @@
+2012-10-23T14:09:00.000Z	DocBarretta		cd ${SOURCE_REPO} repo init -u https://git.chromium.org/chromiumos/manifest.git  <- This is the command I was instructed to type but when I do, it says: No command 'repo' found, did you mean:  Command 'rep' from package 'rep' (universe)  Command 'repl' from package 'nmh' (universe)  Command 'repl' from package 'mailutils-mh' (universe) repo: command not found
+2012-10-23T14:09:00.000Z	Lachezar	DocBarretta	repo is a Google tool. Let me check where you can get it.
+2012-10-23T14:11:00.000Z	Lachezar	DocBarretta	https://dl-ssl.google.com/dl/googlesource/git-repo/repo
+2012-10-23T14:13:00.000Z	Lachezar	DocBarretta	You probably need to put repo in the path. 'EXPORT PATH=$PATH:~/bin' and put repo in ~/bin

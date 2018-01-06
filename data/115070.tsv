@@ -1,0 +1,4 @@
+2009-05-02T22:07:00.000Z	ghoti	ActionParsnip	I can confirm the issue- I get about a ~0.5 sec delay when I deliberately type a noncommand
+2009-05-02T22:07:00.000Z	ActionParsnip	BloodElf	you could try copying .bahrc from /etc/skel  ackup the curerent one
+2009-05-02T22:07:00.000Z	ghoti	ActionParsnip	 BloodElf: I get no such delay when I specify a path, e. g. /home/ghoti/asdgafg
+2009-05-02T22:08:00.000Z	ghoti	ActionParsnip	 BloodElf: so it *may* be a path parsing and/or shell issue.  I'll try installing zsh

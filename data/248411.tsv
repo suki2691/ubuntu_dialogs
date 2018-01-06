@@ -1,0 +1,4 @@
+2008-01-28T02:11:00.000Z	joanki		hey - can anyone tell me the command to see how my drives are partitioned?
+2008-01-28T02:11:00.000Z	bascule	joanki	or cat /proc/partitions
+2008-01-28T02:12:00.000Z	bascule	joanki	fdisk -l one drive, cat /proc/partitions all drives df -h mounted partitions acroo all drives :)
+2008-01-28T02:13:00.000Z	bascule	joanki	sudo fdisk -l

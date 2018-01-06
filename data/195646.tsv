@@ -1,0 +1,4 @@
+2008-08-22T22:24:00.000Z	jeyk		hi, I was happily running a custom window manager from my ~/.xinitrc but then I installed ubuntu-desktop and now I can't figure out how to get my window manager back
+2008-08-22T22:25:00.000Z	jeyk		I tried moving my .xinitrc to .Xclients and selecting "run xclient script" in the login manager, but it keeps throwing me into gnome
+2008-08-22T22:25:00.000Z	jeyk		how do I disable gnome and get my custom window manager back?
+2008-08-22T22:26:00.000Z	kitche	jeyk	by using .xinitrc if you don't use gdm if you do use gdm you most likely have to make a .xession file for it

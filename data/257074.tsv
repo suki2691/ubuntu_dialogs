@@ -1,0 +1,4 @@
+2007-07-21T10:30:00.000Z	litral		if you wanted to add an existing user to an exisitng group
+2007-07-21T10:30:00.000Z	litral		how would you do that
+2007-07-21T10:31:00.000Z	Falstius	litral	you can do it with the system->administration->users and groups gui.  Or edit the file /etc/group
+2007-07-21T10:32:00.000Z	Falstius	litral	sudo nano /etc/group  and add the username to the line starting with the group name.  To change the default group of a user, edit /etc/passwd and change the second number to the group number.

@@ -1,0 +1,4 @@
+2010-07-30T17:05:00.000Z	romanoff		Hello, I have created new user on Ubuntu and when I log in under this user - bash is non functional. No autocomplete, user login is not shown on the left side (and many more things, I think). I thought that problems are with loading .bashrc and .profile files, so I copied them form my old user (that works fine). But seems like this files are not loaded. I tried to put "echo 'loading'" inside of .profile file, but I haven't seen this message when loggi
+2010-07-30T17:05:00.000Z	romanoff		ng under my new user. Can someone help me withs this?
+2010-07-30T17:07:00.000Z	geirha	romanoff	Are you sure you set /bin/bash as the login shell, and not /bin/sh for example?
+2010-07-30T17:08:00.000Z	geirha	romanoff	getent passwd the_username  # to check

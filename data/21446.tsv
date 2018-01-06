@@ -1,0 +1,4 @@
+2010-12-26T04:22:00.000Z	Lufti_oO		I have a game dvd and want to install the game with wine. When I try to start the setup.exe with wine it tells me to set the executeable bit of that file first. I can not set the bit since the file is on a bought readonly DVD! What can I do?
+2010-12-26T04:22:00.000Z	sam-_-	Lufti_oO	mount the whole cd with different permissions
+2010-12-26T04:23:00.000Z	Lufti_oO	sam-_-	can I set the mount permissions gnome uses to mount automaticaly?
+2010-12-26T04:25:00.000Z	sam-_-	Lufti_oO	don't know. but the parameter for mount should be umask=777

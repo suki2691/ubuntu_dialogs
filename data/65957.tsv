@@ -1,0 +1,4 @@
+2011-09-27T01:34:00.000Z	qin	lnx1	How many users, same usernames, same time to kick?
+2011-09-27T01:36:00.000Z	lnx1	qin	2 pcs in a public office, so 1 person on 1 pc at a time, (a local user account has been created, already logged in) just need to have some kind of timer to count down say 30 mins.
+2011-09-27T01:38:00.000Z	qin	lnx1	use "users" to detect login and sleep 1800 && service gdm restart (need to be run as root and is very crude)
+2011-09-27T01:42:00.000Z	qin	lnx1	For visible time you canuse conky, to make it easy.

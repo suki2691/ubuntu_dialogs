@@ -1,0 +1,4 @@
+2008-02-11T04:26:00.000Z	ryanpg		hi all... how can I tell what files a program is accessing?
+2008-02-11T04:27:00.000Z	ryanpg		for example, if I start a program, can I ascertain which if any, files in a given directory are being read by that program?
+2008-02-11T04:29:00.000Z	russ	ryanpg	you can look at the file attributes - I think the OS keeps track of when they were last accessed - so you could run the program and then look at those attributes after
+2008-02-11T04:30:00.000Z	ryanpg	russ	hrm... yeah that sounds doable - though I thought there was a command

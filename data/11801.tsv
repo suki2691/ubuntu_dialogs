@@ -1,0 +1,4 @@
+2011-07-22T15:50:00.000Z	woky		Hello. I'm trying to use VirtualBox in latest Ubuntu. There is currently no vboxdrv driver. There is no /etc/init.d/vboxdrv. virtualbox-ose-dkms in linux-headers-generic are installed. Where's the problem please?
+2011-07-22T15:52:00.000Z	dr_willis	woky	 how did you install vbox?
+2011-07-22T15:52:00.000Z	woky		So I did 'start vboxdrv' and it says it's unknown job
+2011-07-22T15:53:00.000Z	woky	dr_willis	apt-get install virtualbox-ose virtualbox-ose-dkms

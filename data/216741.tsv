@@ -1,0 +1,4 @@
+2006-07-31T15:08:00.000Z	rsync		hi , i have enabled universes in the sources.list , trying to install mplayer, but only kmplayer is available. and win32 codecs
+2006-07-31T15:08:00.000Z	rsync		help?
+2006-07-31T15:09:00.000Z	ardchoille	rsync	After you enabled universe, did you do:  sudo apt-get update  ?
+2006-07-31T15:09:00.000Z	ardchoille	rsync	mplayer is in multiverse. enable multiverse, then do: sudo apt-get update

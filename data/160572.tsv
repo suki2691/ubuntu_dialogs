@@ -1,0 +1,4 @@
+2010-07-07T03:06:00.000Z	L33tCh		ok, problem in a nutshell... wubi 10.04 install runnign fine. then hibernate or something chosen instead of shutdown and now after choosing ubuntu form teh windows boot menu, we jsut get a grub prompt.. anyone know how I can fix that?
+2010-07-07T03:07:00.000Z	L33tCh		and can anyone tell me what the lates kernel version is? this is so i can try the commands manually in grub (well, latest yesterday if it's different to today)
+2010-07-07T03:08:00.000Z	Jordan_U	L33tCh	Just use "ls /boot/" to see what kernels you have.
+2010-07-07T03:09:00.000Z	Jordan_U	L33tCh	Yes, "ls /boot/" works in grub.

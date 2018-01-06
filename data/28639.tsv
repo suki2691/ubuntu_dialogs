@@ -1,0 +1,4 @@
+2010-07-23T03:44:00.000Z	skyscraper		hey can anyone help me? i've developed an app, which broadcasts udp to 2.255.255.255 - my pc is in 192.168.0.X subnet... - in windows i can manage this with "route add 2.0.0.0 mask 255.0.0.0 192.168.0.10 metric 1" - in linux i tried "route add -net 2.0.0.0 netmask 255.0.0.0 dev wlan0" but it doesnt work... the client in network with ip 2.0.0.1 doesnt recv anything from my linux pc, windows works.... any help?
+2010-07-23T03:45:00.000Z	violinappren	skyscraper	you could use wireshark to sniff the actual packets being sent and received
+2010-07-23T03:46:00.000Z	violinappren		!info wireshark | skyscraper
+2010-07-23T03:47:00.000Z	skyscraper	violinappren	i do know wireshark and have it installed, too... - but... i think its a routing problem... when i change my linux ip "ifconfig wlan0 2.0.0.2 netmask 255.0.0.0" then the 2.0.0.1-client receives my broadcast send to 2.255.255.255

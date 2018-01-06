@@ -1,0 +1,4 @@
+2006-01-23T15:54:00.000Z	netstar		As a non-root user I only have to enter the root password once and I have full access to admin tools even after loggin in and out (not reboot).  Is this normal behaviour?  If so, how do I change it?
+2006-01-23T15:55:00.000Z	ilba7r	netstar	you need to set your sudo timeout. Do not know how to do so but try man sudo
+2006-01-23T15:56:00.000Z	netstar	ilba7r	thanks.  So this is normal behaviour then.
+2006-01-23T15:56:00.000Z	ilba7r	netstar	using sudo you will have root privlages for the timeout period

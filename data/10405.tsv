@@ -1,0 +1,4 @@
+2011-09-24T03:53:00.000Z	computerx		I have an entry, set via crontab -e, starting @reboot, but it's not running and I don't see any log entries about it...
+2011-09-24T03:54:00.000Z	SIFTU	computerx	that only gets run after a reboot.. not shutdown powerup
+2011-09-24T03:56:00.000Z	computerx	SIFTU	Really? Then what about the command for start up?
+2011-09-24T03:56:00.000Z	SIFTU	computerx	put the command in /etc/rc.local before the exit 0

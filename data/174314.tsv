@@ -1,0 +1,4 @@
+2006-11-12T13:55:00.000Z	eternalswd		I'm having a problem with gksudo.  sudo works.  when I try gksudo it gives my this error in the terminal: Error copying '/home/myusername/.Xauthority' to '/tmp/libgksu-sZhYXt': Permission denied
+2006-11-12T13:56:00.000Z	eternalswd		the gksudo problem only started after upgrading from dapper to edgy
+2006-11-12T13:57:00.000Z	unikuser	eternalswd	try removing those 2 files and restart x
+2006-11-12T13:59:00.000Z	eternalswd	unikuser	wouldn't removing my Xauthority file be problematic?  I guess I can just make a backup in case something goes wrong

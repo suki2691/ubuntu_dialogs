@@ -1,0 +1,4 @@
+2009-08-18T03:30:00.000Z	smegzor		I have a zip archive with bad crc's but the files are good.  The app that generated the zip has a known crc bug.  How can I extract the files while ignoring the crc?  The built-in archive manager doesn't seem to have an option to ignore crc's.
+2009-08-18T03:32:00.000Z	prince_jammys	smegzor	look at zip's -F option. (man zip)
+2009-08-18T03:34:00.000Z	prince_jammys	smegzor	mmm. that probably won't work. anyway, 'man zip' and 'man unzip' might give some help.
+2009-08-18T03:36:00.000Z	smegzor	prince_jammys	I'm trying 7zip in Windows to see if that helps.  The bug report says the zio will be good.  I'm not so sure of that.  Looks broken to me, but I can see all the files and folders.

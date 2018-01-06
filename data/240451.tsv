@@ -1,0 +1,4 @@
+2008-06-12T07:31:00.000Z	Wolvenhaven		hey guys, i'm having a problem with getting a cpu scaling to fix, it tells me to put two lines into a file that doesnt exist, now do i just need to create the file, or should i put it somewhere else, the lines are "modprobe powernow-k8" and "modprobe acpi-cpufreq" and im supposed to put them in /etc/rc.d/rc.local which doesnt exist
+2008-06-12T07:33:00.000Z	nickrud	Wolvenhaven	you can add just the names of the modules to  /etc/modules, each on a line of their own. Modules listed there will be inserted into the kernel on boot
+2008-06-12T07:34:00.000Z	nickrud	Wolvenhaven	just them, no modprobe needed. You'll see some examples there
+2008-06-12T07:35:00.000Z	nickrud	Wolvenhaven	yeah, just like you did ndiswrapper

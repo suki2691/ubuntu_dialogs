@@ -1,0 +1,4 @@
+2007-12-08T00:06:00.000Z	Creed		Is there a way to tunnel ports from my Ubuntu server (using SSHv2)? Like I want to forward port 6112 on the server to a remote client (theres nothing running on port 6112, I want to be able to connect to server:6112 and have it tunnel the port over SSH to the remote maschine).
+2007-12-08T00:07:00.000Z	Creed		err without the -
+2007-12-08T00:07:00.000Z	solid_liq	Creed	yes, you can use ssh to create a socks proxy, or google for forwarding ports over ssh
+2007-12-08T00:08:00.000Z	Creed	solid_liq	Ive got the socks portion and forwarding services running on the server to the remote client, what Im trying to do is forward ports on the client to the server. I want to do Warcraft3 LAN games (port 6112) by using a SSH tunnel (campus has a proxy).

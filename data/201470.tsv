@@ -1,0 +1,4 @@
+2008-08-01T13:48:00.000Z	max____		is there anyway to get ps to show me how much ram each process is using?
+2008-08-01T13:50:00.000Z	whoppix	max____	because of linux' concept of "shared libraries" it is not possible to determine the exact memory usage of a process.
+2008-08-01T13:51:00.000Z	whoppix	max____	the values top shows are, as far as i know, only roundabout values, that include the shared libraries. So if you would count together all the values top tells you, you would get more MB that you actually have
+2008-08-01T13:53:00.000Z	whoppix	max____	here: http://virtualthreads.blogspot.com/2006/02/understanding-memory-usage-on-linux.html

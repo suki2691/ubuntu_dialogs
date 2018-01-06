@@ -1,0 +1,4 @@
+2006-06-12T11:32:00.000Z	wamd		Hi all
+2006-06-12T11:33:00.000Z	wamd		Just wondering if someone can help me figure out how to install a newer version of an install app from source.  IOW, how can I make Synaptic aware of the change and start using the newer version.
+2006-06-12T11:34:00.000Z	wamd		I currently have SQLite3.2.8 installed on 6.06 and I downloaded and compiled the source for SQLite3.3.6 how can I get Ubuntu to start using 3.3.6
+2006-06-12T11:36:00.000Z	bazald	wamd	If you ensure that the installation prefix is the same used in the original package, the new files should simply overwrite the old ones

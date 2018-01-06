@@ -1,0 +1,4 @@
+2009-12-31T20:59:00.000Z	sunil1		the out put of "sudo umount /dev/sda8" is "umount: /dev/sda8: not mounted"
+2009-12-31T21:01:00.000Z	sunil1		i'm getting the same old problem in deleting sda8
+2009-12-31T21:02:00.000Z	theadmin	sunil1	in GPartED, there should be something like a key chain near mounted partitions... unmount those.
+2009-12-31T21:04:00.000Z	theadmin	sunil1	In GPartED, right click and choose unmount. OR in terminal, sudo umount /dev/sdaX, where X is the number

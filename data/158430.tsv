@@ -1,0 +1,4 @@
+2008-08-19T18:20:00.000Z	nosklo		hi all, I need to install apache but I dont want it to run by default, only when I start it manually, what is the best method to change autostart behavior?
+2008-08-19T18:21:00.000Z	Slart	nosklo	you can set apache to only run a limited amount of processes and increase that if it's actually working.. if you don't find how to only start it when you want to that might be one solution
+2008-08-19T18:22:00.000Z	nosklo	Slart	The problem is that I wont be using apache for days, and it will be consuming memory and boot time, so I want just not to start it ever.
+2008-08-19T18:23:00.000Z	Slart	nosklo	I'm not sure if you'll actually notice apache if you limit it... but you can always stop it with "sudo /etc/init.d/apache2 stop"

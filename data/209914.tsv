@@ -1,0 +1,4 @@
+2012-01-22T01:22:00.000Z	rana_		 hi, i have openSUSE system, is it possible to install UBUNTU without formet any existing partition as it can in Windows system.??
+2012-01-22T01:22:00.000Z	rana_		Myr@ no i dont need it by virtual box.
+2012-01-22T01:23:00.000Z	LjL	rana_	if you want to replace SUSE, then you'd be well advised to format the SUSE partition. if you want to keep SUSE, then Ubuntu's installer can make space by shrinking the existing partitions without formatting them (but you should have backups)
+2012-01-22T01:25:00.000Z	LjL	rana_	well the installer lets you manage your partitions as you see fit, resize them and everything. just, once again, you *should* have a backup in case things go wrong - resizing partitions is never a risk-free operation

@@ -1,0 +1,4 @@
+2007-07-27T14:01:00.000Z	diafic		How do I make a .deb from source?
+2007-07-27T14:01:00.000Z	diafic		I want to make a more up to date version of xchat (2.8.4)
+2007-07-27T14:01:00.000Z	diafic		and then host it on my personal repo?
+2007-07-27T14:02:00.000Z	vzduch	diafic	you can make one for your own personal use with checkinstall ('./configure', 'make', 'sudo checkinstall make install').. if you want to host binaries, better search for a howto on creating .debs :)

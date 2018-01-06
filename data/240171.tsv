@@ -1,0 +1,4 @@
+2007-10-20T04:20:00.000Z	akaishi		dpkg: parse error, in file `/var/lib/dpkg/status' near line 18767 package `libnautilus-burn3': `Conflicts' field, invalid package name `nautilus/cd-burner': character `/' not allowed - only letters, digits and -+._ allowed
+2007-10-20T04:20:00.000Z	akaishi		E: Sub-process /usr/bin/dpkg returned an error code (2)
+2007-10-20T04:22:00.000Z	nickrud	akaishi	ouch. make a copy of that file, and edit it to nautilus-cdburner
+2007-10-20T04:23:00.000Z	nickrud	akaishi	emphasize, __ make a copy __

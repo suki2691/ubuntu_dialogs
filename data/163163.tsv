@@ -1,0 +1,4 @@
+2006-10-23T07:59:00.000Z	tnnc		what is the best way to add hardware to ubuntu after install is done
+2006-10-23T07:59:00.000Z	jbmigel_	tnnc	what sort of hardware?
+2006-10-23T08:01:00.000Z	jbmigel_	tnnc	for video you will have to update your xorg.conf file telling it what new vid driver to use
+2006-10-23T08:01:00.000Z	jbmigel_	tnnc	im not sure about sound, maybe a dpkg-reconfigure alsa-base will do it

@@ -1,0 +1,4 @@
+2006-07-05T06:27:00.000Z	Tom7e		hello, i installed VLC by compiling from source and want to get the mozilla plugin, but it's only available through deb... but those deb files thinks i don't have vlc installed.  what should I do?
+2006-07-05T06:28:00.000Z	stefg	Tom7e	wanted the VC1 decoder? Otherwise http://nightlies.videolan.orghas 0.8.5 dapper packs available
+2006-07-05T06:29:00.000Z	Tom7e	stefg	 I want the mozilla plugin for VLC, i already have VLC but didn't get from synaptic, i used source.
+2006-07-05T06:31:00.000Z	stefg	Tom7e	why did you go through the hassle? 1.) use the vlc prepacked ones, they are fine 2.) at least use checkinstall in order not to bypass apt when installing from source... your only option is compiling the mozilla-plugin as well now.

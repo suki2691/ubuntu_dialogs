@@ -1,0 +1,4 @@
+2012-04-09T11:06:00.000Z	dadanopan		best method (safiest) to erase data from an extern ssd?
+2012-04-09T11:07:00.000Z	DropsOfSerenity	dadanopan	look into dd
+2012-04-09T11:08:00.000Z	DropsOfSerenity	dadanopan	dd if=/dev/zero of=/dev/sdb(this would be whatever your drive is)
+2012-04-09T11:08:00.000Z	DropsOfSerenity	dadanopan	more to read on http://www.marksanborn.net/howto/wiping-a-hard-drive-with-dd/

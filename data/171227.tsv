@@ -1,0 +1,4 @@
+2007-12-17T02:42:00.000Z	Sloppyunderfoot		Hi, folks.  Got a question about adding Ubuntu 7.10 to a Suse 10sp1 box and dualbooting?  Can you help?
+2007-12-17T02:42:00.000Z	Brownster	Sloppyunderfoot	ask away
+2007-12-17T02:45:00.000Z	Brownster	Sloppyunderfoot	if you want to leave the suse bootloader in tact u can install ubuntu and then grub to the install partition NOT the mbr, then manueally edit the grub.conf of suse to chain load the ubuntu set p
+2007-12-17T02:46:00.000Z	Brownster	Sloppyunderfoot	has te advantage that both distros can update grub independently without messing up the other

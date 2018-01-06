@@ -1,0 +1,4 @@
+2008-08-24T23:02:00.000Z	The-Compiler		Is there any way to download the newest xkcd in a script? A possibelity would be to use the XML, then I simply would have to search the first >> img src="http://imgs.xkcd.com/comics/moving.png" <<. So simply search for >>img src="<< and then output the text until the next ". How would that be possible
+2008-08-24T23:03:00.000Z	firefly2442	The-Compiler	you could use BASH scripting
+2008-08-24T23:03:00.000Z	The-Compiler	firefly2442	and how exactly? With sed or somewhat?
+2008-08-24T23:03:00.000Z	firefly2442	The-Compiler	look into CURL

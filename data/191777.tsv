@@ -1,0 +1,4 @@
+2006-11-19T13:10:00.000Z	loca|host		i have a fresh ubuntu install that wont me do any sudo command saying: sudo: Unable to lookup elkok-laptop via gethostbyname()
+2006-11-19T13:10:00.000Z	loca|host		i cant vi my /etc/hosts
+2006-11-19T13:11:00.000Z	roryy	loca|host	as far as I know you need to boot into rescue mode, fix up the hostname, and then switch back to normal mode
+2006-11-19T13:12:00.000Z	roryy	loca|host	I think the main thing is whatever is in /etc/hostname must be an entry in /etc/hosts, pointing to 127.0.0.1

@@ -1,0 +1,4 @@
+2006-06-08T06:20:00.000Z	gavagai		well i still don't have sound, but modprobe added a driver according to lsmod.  how do i get rid of these drivers that don't work?
+2006-06-08T06:20:00.000Z	gavagai		i seem to now have the original drivers and the new one, if i am deciphering lsmod correctly
+2006-06-08T06:21:00.000Z	kristos	gavagai	i had the same problem with my wifi card just added the name of the module that i didnt want to load to the blacklist
+2006-06-08T06:36:00.000Z	kristos	gavagai	rmmod to unload the unwanted driver

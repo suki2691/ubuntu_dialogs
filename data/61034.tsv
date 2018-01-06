@@ -1,0 +1,4 @@
+2009-04-29T17:30:00.000Z	IHS_Intern		Ok.. how do I make an auto-starting script thingy to do this... if I cd /folding and then on the next line type ./fah the program works as desired... but if I just /folding/fah, it starts but uses the wrong work directory and makes a new "default" config file in that new directory*usually my home folder*...
+2009-04-29T17:31:00.000Z	jrib	IHS_Intern	create a two-line shell script with those commands
+2009-04-29T17:32:00.000Z	IHS_Intern	jrib	I'm not well versed in that.. anything to do besides make a text file with those 2 lines and put .sh and give it permission to execute?
+2009-04-29T17:33:00.000Z	jrib	IHS_Intern	first line: "#!/bin/bash".  Everything else you said was fine

@@ -1,0 +1,4 @@
+2006-01-26T17:32:00.000Z	nx10		640x480 res is only showing up, i already reconfiged xserver, any advice?
+2006-01-26T17:32:00.000Z	nx10		i810 xorg.conf looks fine also
+2006-01-26T17:33:00.000Z	PuMpErNiCkLe	nx10	You'll probably have to change the "HorizSync" and "VertRefresh" variable in xorg.conf
+2006-01-26T17:34:00.000Z	PuMpErNiCkLe	nx10	That's usually the problem when resolutions aren't available - it only lists ones that work according to those variables.

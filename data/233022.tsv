@@ -1,0 +1,4 @@
+2010-02-11T19:49:00.000Z	naphidia		hey im setting up harddisk quota, following a tutorial with a single / partiton.... have a question though... the line  ext4    errors=remount-ro,usrjquota=aquota.user,grpjquota=aquota.group,jqfmt=vfsv0  0       1
+2010-02-11T19:49:00.000Z	naphidia		refers ti my / partition what about my /home partition would i make it the same?
+2010-02-11T19:49:00.000Z	naphidia		i don't know what the option jqfmt=vfsv0  is for?
+2010-02-11T19:50:00.000Z	erUSUL	naphidia	yep (except the errors=remount-ro part)

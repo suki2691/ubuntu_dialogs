@@ -1,0 +1,4 @@
+2011-05-15T08:16:00.000Z	Penth		sirspam, are these both virtual network cards?
+2011-05-15T08:16:00.000Z	Penth		/etc/init.d/named restart?
+2011-05-15T08:17:00.000Z	SirSpam	Penth	Yes, eth0 is a NAT adapter, eth1 is a Host-Only. Ubuntu is the guest OS and is running inside the virtual machine
+2011-05-15T08:19:00.000Z	SirSpam	Penth	No, ubuntu sees both adapters. Those are the adapters that the guest has

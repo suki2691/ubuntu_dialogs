@@ -1,0 +1,4 @@
+2006-01-04T16:00:00.000Z	sanjay	Kyral	globe - yea, for some reason my resolv.conf keeps auto-resetting itself to 192.168.0.1 which doesn't work --- manually changing the DNS server there and doing a "chattr +i resolv.conf" worked for me .
+2006-01-04T16:01:00.000Z	Kyral	sanjay	what did you change your DNS to?
+2006-01-04T16:01:00.000Z	Kyral	sanjay	its set to my ISP's server
+2006-01-04T16:02:00.000Z	sanjay	Kyral	provided by my ISP -- 203.94.227.70 -- it resets it to the gateway address which is generally ok but my isp is weird and uses a separate DNS server ..

@@ -1,0 +1,4 @@
+2009-09-16T19:35:00.000Z	jordo2323		When you setup VNC through Gnome in Ubuntu jaunty which server does it use by default?
+2009-09-16T19:36:00.000Z	willis1	jordo2323	 its using its own gnome version. I think its called 'vino' Unless ive miss read what ive read about it..
+2009-09-16T19:37:00.000Z	jordo2323	willis1	I have installed tightvnc, and I think I can connect, but my password never works.  How do you tell if tight vnc is running through command line?
+2009-09-16T19:38:00.000Z	willis1	jordo2323	 you Have to run tightvncserver (via 'vncserver' command and set up a vncpassword to use it.. Teres 2 ways vnc can work. Share the CURRENT desktop.. or create a 'hidden' desktop TightVnc creates a sweperate hidden desktoop. It does NOT share the current desktop

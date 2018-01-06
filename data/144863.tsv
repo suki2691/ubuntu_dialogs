@@ -1,0 +1,4 @@
+2010-08-21T17:20:00.000Z	Dr_Willis		!grub2
+2010-08-21T17:20:00.000Z	Dr_Willis		which entry RoyK ?
+2010-08-21T17:21:00.000Z	RoyK	Dr_Willis	this is a laptop with dual boot win7/ubuntu, and grub2 detects a vista partition, which really is a windows install partition, which I do _not_ want to boot from
+2010-08-21T17:27:00.000Z	Dr_Willis	RoyK	 i recall some grub2 docs.guides mentiongin how to tweak that. Personally I take the grub.cfg it generated and cut out the windows  parts i DO want and put in /etc/grub.d/40_custome   then disable the 30_osprober so it never tries to add windows back. It juzt iuses my Custome entries.

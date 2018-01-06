@@ -1,0 +1,4 @@
+2007-01-05T08:01:00.000Z	asfalt		would it be possible for me to modify the package and remove the sql dependency? i believe it is needed for a bx plugin which i do not intend to use. or would i basically have to compile bx myself anyway
+2007-01-05T08:01:00.000Z	jrib	asfalt	apt-get source package_name, make your edits, rebuild the package
+2007-01-05T08:01:00.000Z	asfalt	jrib	i see i see thanks, i will investigate this
+2007-01-05T08:02:00.000Z	jrib	asfalt	http://www.debian.org/doc/manuals/apt-howto/ch-sourcehandling.en.html

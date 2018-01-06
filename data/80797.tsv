@@ -1,0 +1,4 @@
+2009-09-07T19:55:00.000Z	m525020		hi @all! How do i have to configure grub to only have on dynamic entry for the latest installed ubuntu kernel and leve not to use the other kernel in /boot ?
+2009-09-07T19:57:00.000Z	Trijntje	m525020	those older kernels are there as a fallback option if something goes wrong
+2009-09-07T19:58:00.000Z	Trijntje	m525020	ok, at your own risk ;) You must remove all the older kernels in synaptic and run sudo update-grub
+2009-09-07T20:00:00.000Z	Trijntje	m525020	i'm not sure how to help you than, sorry

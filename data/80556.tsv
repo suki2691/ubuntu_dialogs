@@ -1,0 +1,4 @@
+2009-04-19T13:01:00.000Z	rohan		i have a 320gb external hard disk. when i use it ubuntu, on safe removal, it does not actually power off like in windows. hence, on removal, there is a slight screeching noise from the hdd. how do i force the hdd to power down before removal? or at least stop spinning?
+2009-04-19T13:01:00.000Z	dotblank	rohan	hdparm
+2009-04-19T13:01:00.000Z	rohan	dotblank	it's detected as a SCSI device, thanks to libata.. so sdparm i guess?
+2009-04-19T13:02:00.000Z	dotblank	rohan	should still work

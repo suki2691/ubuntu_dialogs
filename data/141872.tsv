@@ -1,0 +1,4 @@
+2007-03-23T08:01:00.000Z	digitize		for some reason my dvd-rom is only allowing root as the owner, so my main user cannot view dvds, nor have i been successful in changing the permissions with sudo + nautilus.  any suggestions?
+2007-03-23T08:02:00.000Z	SeveredCross	digitize	You have to edit /etc/fstab
+2007-03-23T08:02:00.000Z	digitize	SeveredCross	ah, i already know what you're talking about
+2007-03-23T08:03:00.000Z	digitize	SeveredCross	bruenig my dvd rom: /dev/hdc        /media/cdrom1   udf,iso9660 user,noauto     0       0

@@ -1,0 +1,4 @@
+2011-11-03T11:54:00.000Z	Kapoeira		Hmmm ... i just installed libcurl with sudo apt-get install php-curl ... but apt gives me a list of packets « that have been automatically installed and are no longer necessary » .... Is it really SAFE to remove them ?
+2011-11-03T11:54:00.000Z	Kapoeira		Those are python packets for the most
+2011-11-03T11:55:00.000Z	soreau	Kapoeira	You can remove them with apt-get autoremove. If it removes anything you happened to need, you can simply reinstall the package
+2011-11-03T11:55:00.000Z	soreau	Kapoeira	Typically it's always safe to remove them

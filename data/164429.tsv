@@ -1,0 +1,4 @@
+2006-11-14T13:39:00.000Z	palski		when I try to start hal-device-manager following error message is shown:  Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+2006-11-14T13:39:00.000Z	neildarlow	palski	then dbus isn't running before hal is started
+2006-11-14T13:40:00.000Z	palski	neildarlow	there is a dbus-daemon and dbus-launch runniing
+2006-11-14T13:44:00.000Z	palski	neildarlow	/etc/init.d/dbus restart fixed the problem, thanks

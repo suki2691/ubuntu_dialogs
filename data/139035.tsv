@@ -1,0 +1,4 @@
+2007-06-22T08:54:00.000Z	onexused		How do I get a trash icon on the desktop (gnome) that I can drag things to?  If I make a launcher "nautilus trash:", it won't let me drag things to it to delete them.
+2007-06-22T08:54:00.000Z	xenex	onexused	gconf-editor
+2007-06-22T08:54:00.000Z	onexused	xenex	thanks
+2007-06-22T08:55:00.000Z	xenex	onexused	gconf-editor -> apps -> nautilus -> desktop -> trash_icon_visible true

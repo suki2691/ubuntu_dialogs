@@ -1,0 +1,4 @@
+2012-05-31T05:27:00.000Z	Gushings		Hello, I am trying to use my iGPU instead of my GPU for my monitor.  I was able to get the motherboard to use the iGPU but when it passes bios the screen turns purple then goes black permanently.
+2012-05-31T05:27:00.000Z	Gushings		I need to -keep- the drivers I have for the GPU. I'm working with CUDA.
+2012-05-31T05:27:00.000Z	Gushings		Any tips?
+2012-05-31T05:29:00.000Z	escott	Gushings	you would need to do something to tell X11 to only use the integrated. perhaps remove the nvidia/ati drivers, and use Xorg -configure to create and Xorg.conf, and then install the drivers again but use nomodeset on the drivers. alternately do something to blacklist the module on boot and load it after you are up and running

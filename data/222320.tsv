@@ -1,0 +1,4 @@
+2005-11-19T09:30:00.000Z	fbafelipe		Xengu: I already edited .bash_profile, when I open the console the variable is set, but when I exec a script it's not
+2005-11-19T09:32:00.000Z	fbafelipe		I already edited .bashrc too
+2005-11-19T09:32:00.000Z	intelikey	fbafelipe	try /etc/profile ?
+2005-11-19T09:33:00.000Z	intelikey	fbafelipe	also ls -l /bin/sh   and see if it is bash or dash  that may be why.

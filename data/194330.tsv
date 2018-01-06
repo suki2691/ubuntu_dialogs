@@ -1,0 +1,4 @@
+2007-06-27T08:43:00.000Z	dan1		hello everyone, i'm measuring performance of usb flash drive. benchmark prog (iozone) reports read speeds of, as an example, 1261238 kbytes/sec
+2007-06-27T08:44:00.000Z	dan1		this is clearly way too high, i have turned off caching, but these results cannot be right. can anyone help explain/suggest why
+2007-06-27T08:44:00.000Z	pike_	dan1	well.. flash is fast ;p
+2007-06-27T09:07:00.000Z	pike_	dan1	sudo hdparm -tT /dev/hda    for example

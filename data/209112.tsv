@@ -1,0 +1,4 @@
+2006-10-09T12:34:00.000Z	jisatsu_		it's not just Japanese characters either, any non-ascii characters don't work well, I don't think. "Alize" for example. would it be a filesystem driver problem? or something else?
+2006-10-09T12:36:00.000Z	jisatsu_		how do I find out what charset ubuntu is using?
+2006-10-09T12:36:00.000Z	Terminus	jisatsu_	sounds like an encoding problem. man mount and look for ntfs. there's a utf option and probably some other options for it too.
+2006-10-09T12:37:00.000Z	Terminus	jisatsu_	good luck. =)

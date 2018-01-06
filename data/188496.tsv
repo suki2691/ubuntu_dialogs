@@ -1,0 +1,4 @@
+2009-08-09T19:43:00.000Z	nnutter		How can I make it so the minimum fan speed always gets set after turning on my machine and after waking from sleep? To do it manually I do 'echo "4500" | sudo tee /sys/devices/platform/applesmc.768/fan1_min'.
+2009-08-09T19:44:00.000Z	MrElendig	nnutter	add a 'echo "4500" > /sys/devices/platform/applesmc.768/fan1_min' to your resume script
+2009-08-09T19:45:00.000Z	nnutter	MrElendig	where is my resume script? :-p
+2009-08-09T19:46:00.000Z	MrElendig	nnutter	depends on what you use to suspend

@@ -1,0 +1,4 @@
+2009-10-30T00:17:00.000Z	iPanda		i just installed 9.10 :D -- anyway, flash is not installed, and when i try to install the .deb i get an error: Dependency is not satisfiable: libnspr4-dev -- and i can't apt-get that. What's the proper way to do it?
+2009-10-30T00:18:00.000Z	trism	iPanda	install flashplugin-installer
+2009-10-30T00:19:00.000Z	iPanda	trism	how? It doesn't seem to be apt-gettalbe
+2009-10-30T00:20:00.000Z	trism	iPanda	make sure you have the multiverse repository enabled and refresh your repos in synaptic

@@ -1,0 +1,4 @@
+2010-05-03T04:20:00.000Z	Theravadan		so after a day i converted from the buggy ext4 to ext3... but it wont boot up because the UUID of the parttion is wrong so i overrode the grub boot with root=/dev/sda7 and it works, but how can I have grub update the UUID so i dont have to modify the root at boot?
+2010-05-03T04:21:00.000Z	scunizi	Theravadan	sudo blkid will give you the uuid.. just manually enter them
+2010-05-03T04:21:00.000Z	Theravadan	scunizi	thx 100 fold
+2010-05-03T12:58:00.000Z	scunizi	Theravadan	ftp server for family and friends.. web server.. learn the os.. install on other peoples machines..

@@ -1,0 +1,4 @@
+2006-12-23T07:41:00.000Z	cflcm_		anyone use grip?
+2006-12-23T07:42:00.000Z	cflcm_		well, I want to set it up to automatically rip cds, and to do that it either needs to refuse to open multiple instances of itself, or close when it is done. is that possible?
+2006-12-23T07:44:00.000Z	cflcm_		is there another one that will rip-on-cd-insert, and use LAME?
+2006-12-23T07:45:00.000Z	zcat[1] 	cflcm_	change the on-insert commant for CD's to "killall -0 grip || grip" and it will only run grip if it isn't already running.

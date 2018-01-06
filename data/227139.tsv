@@ -1,0 +1,4 @@
+2006-01-02T13:08:00.000Z	hume		hi.... suddenly my java programs won't work, and it seems as the sun java that i installed have been replaced by gij - anyone recognizes this?
+2006-01-02T13:09:00.000Z	ilba7r	hume	java is a symbolic link to your java exec. make another link that point to your sunjava exec
+2006-01-02T13:10:00.000Z	hume	ilba7r	that won't ruin somthing that gij does then? I installed sun java with java-tools and dpkg
+2006-01-02T13:12:00.000Z	ilba7r	hume	i installed sun java directly. you can rename your old link and see how it go. I am confident it will not cause troubles but just in case you will have your old symbolic link

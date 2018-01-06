@@ -1,0 +1,4 @@
+2006-09-03T11:13:00.000Z	searchingbearcub		Help needed.. I can't write to a FAT32 partition that I mounted - I edited my /etc/fstab file (after backing it up) following some Ubuntu directions (somewhere near the top of the google search results..) I got it mounted successfully - Under "Filesystems" its listed as "Windows", but it errors out with "Error 'Read-only file system' creating new folder" when I try to make a new folder to store some dwnloaded drivers
+2006-09-03T11:14:00.000Z	Flannel	searchingbearcub	not sethk
+2006-09-03T11:40:00.000Z	Flannel	searchingbearcub	they're opposite of permissions.  a umask of 0000 means it has permissions of 777
+2006-09-03T11:43:00.000Z	Flannel	searchingbearcub	read write execute.  right. (4 2 1)

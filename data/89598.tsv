@@ -1,0 +1,4 @@
+2008-05-26T21:35:00.000Z	mdeering_		http://packages.ubuntu.com/gutsy/libpurple-dev:  Does the [security] mean that this package is not in the standard package repository?
+2008-05-26T21:35:00.000Z	astro76	mdeering_	correct, there has been a security update for that package
+2008-05-26T21:37:00.000Z	mdeering_	astro76	So it is no longer available or there is another repo I need to add to apt-get for it to find it?  knowledge limited to "sudo apt-get install libpurple-dev" :(
+2008-05-26T21:39:00.000Z	astro76	mdeering_	it's still available with apt-get install, you should have the security repo enabled by default

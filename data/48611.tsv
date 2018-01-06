@@ -1,0 +1,4 @@
+2012-08-14T17:00:00.000Z	wolfbyte		There is a game that creates logs of multiplayer online games, but the IP addresses are in IPv6, although system is in IPv4 , how do I make it so that the game logs IPv4 addresses?
+2012-08-14T17:00:00.000Z	MasterOfDisaster	wolfbyte	if players connect via IPv6, you can't.
+2012-08-14T17:01:00.000Z	MasterOfDisaster	wolfbyte	you'd have to force the service (i.e. the game) to listen on IPv4 only.
+2012-08-14T17:01:00.000Z	wolfbyte	MasterOfDisaster	thank you, btw the game is Warzone2100

@@ -1,0 +1,4 @@
+2010-04-07T15:01:00.000Z	CuriosTiger		Hi all. I'm running Ubuntu 9.10 in a VM, but I have to actually log into Gnome before the screen resizes itself to match my native resolution. How can I configure gdm (and the kernel, at boot) to use the same display settings as my gnome session?
+2010-04-07T15:03:00.000Z	mertle	CuriosTiger	try adding   vga=778   to the boot options for the kernel
+2010-04-07T15:03:00.000Z	CuriosTiger		slart: What about GDM? Surely by then, the drivers are loaded
+2010-04-07T15:04:00.000Z	CuriosTiger	mertle	OK, I'll give that a shot

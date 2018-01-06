@@ -1,0 +1,4 @@
+2005-10-19T08:53:00.000Z	niggpie		I've just installed a fresh copy of 5.10, but upon booting into Ubuntu, all I saw was a green/white/black pile of rubbish... suspecting video to be the cause of concern. I was told to try "sudo dpkg-reconfigure xserver-xorg" which I had done.. tried all different configurations.. but now all I get is a black screen yet... I can see my cursor and move it around. Any ideas?? I'm new to Ubuntu, please help!
+2005-10-19T08:54:00.000Z	brenner	niggpie	so now you don't get the garbage, just a black screen?
+2005-10-19T08:55:00.000Z	brenner	niggpie	ok, try and use the vesa driver for your video
+2005-10-19T08:55:00.000Z	brenner	niggpie	boot into recovery mode

@@ -1,0 +1,4 @@
+2010-12-30T02:23:00.000Z	ericpersson		just installed 10.10 on a laptop, sound, video, wlan all just worked..
+2010-12-30T02:23:00.000Z	ericpersson		major sweetness.. :)
+2010-12-30T02:24:00.000Z	ericpersson		how can i determine what video driver is used for the x display in 10.10? I want to make sure it doesnt use the slow vesa...
+2010-12-30T02:26:00.000Z	VCoolio	ericpersson	try this: grep driver /var/log/Xorg.0.log

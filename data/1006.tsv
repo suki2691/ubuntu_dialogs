@@ -1,0 +1,4 @@
+2012-09-29T17:42:00.000Z	VlanZ		is it possible to execute "cut" on $var  instead on an actual file?
+2012-09-29T17:43:00.000Z	codemaniac	VlanZ	sure
+2012-09-29T17:44:00.000Z	codemaniac		var="this is a sample var";echo $var | cut -d " " -f2
+2012-09-29T17:45:00.000Z	VlanZ	codemaniac	worked great, thank you!

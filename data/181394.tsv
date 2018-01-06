@@ -1,0 +1,4 @@
+2009-02-20T07:24:00.000Z	merther		I'm trying to add My Documents from a windows computer as an automount in fstab but I don't think it's recognizes the syntax I'm using for My Documents.  What do I use for the space?  in the network browser it uses my%20documents.
+2009-02-20T07:25:00.000Z	bruenig	merther	what are you mounting exactly? another partition, drive? or is this some sort of samba share or what
+2009-02-20T07:27:00.000Z	bruenig	merther	well I would guess you want to put my\ documents, or perhaps quote the entire thing "my documents"
+2009-02-20T07:29:00.000Z	bruenig	merther	ask in #samba

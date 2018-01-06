@@ -1,0 +1,4 @@
+2010-03-21T02:32:00.000Z	niedalry		how can I changed the permissions of a specific directory to make it writable?
+2010-03-21T02:32:00.000Z	ActionParsnip	niedalry	chmod +w directory
+2010-03-21T02:36:00.000Z	ActionParsnip	niedalry	because its not owned by you, you will need sudo in that case
+2010-03-21T02:37:00.000Z	ActionParsnip	niedalry	if you mark smoething as writable your username may not get write access due to ownerships of the owner and group ownerships

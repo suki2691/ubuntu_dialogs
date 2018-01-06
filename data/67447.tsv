@@ -1,0 +1,4 @@
+2011-08-03T19:02:00.000Z	jrwren	sipior	i was thinking the same thing, but will cron.allow be enforced on those jobs?
+2011-08-03T19:02:00.000Z	sipior	jrwren	no, because root is running them :-)
+2011-08-03T19:03:00.000Z	jrwren	sipior	cron.allow/deny is enforced at crontab execution time, not at cron running jobs execution time. right?
+2011-08-03T19:04:00.000Z	sipior	jrwren	cron.allow does not apply to the system crontab.

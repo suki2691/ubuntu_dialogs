@@ -1,0 +1,4 @@
+2012-01-10T21:06:00.000Z	Birk__		Hey guys, anyone can help me with some ssh problems ?
+2012-01-10T21:06:00.000Z	jutnux	Birk__	What's the problem?
+2012-01-10T21:10:00.000Z	Birk__	jutnux	I'm trying to create a cloud enviroment with openstack. I have a VM running on a machine located in a local network and I'm trying to ssh this VM from the gateway machine, but im getting this errror: Permission denied (publickey)
+2012-01-10T21:10:00.000Z	jutnux	Birk__	Then you are entering the wrong password / do not have your public key on the server

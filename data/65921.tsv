@@ -1,0 +1,4 @@
+2010-05-03T15:49:00.000Z	amgarching		hi, how do you convert unicode text with BOM to ascii?
+2010-05-03T15:50:00.000Z	erUSUL	amgarching	with BOM ?
+2010-05-03T15:51:00.000Z	amgarching	erUSUL	Byte Order Mark at the beginning of the file, spoils everything. The rest is plain ascii.
+2010-05-03T15:51:00.000Z	erUSUL	amgarching	use iconv

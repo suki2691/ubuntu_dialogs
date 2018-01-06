@@ -1,0 +1,4 @@
+2010-02-04T02:46:00.000Z	goose		I have a program on my server that I want to automagically be restarted in the event that it ever crashes. I was told "watchdog" would be a good idea, but I can't find much documentation on it. Can anyone point me in the right direction?
+2010-02-04T02:47:00.000Z	hyperstream	goose	google watchdog documentation? or there is none online  as well ?
+2010-02-04T02:47:00.000Z	hyperstream		!mount | ash__
+2010-02-04T02:48:00.000Z	goose	hyperstream	very little. I can't tell for sure, but it looks like watchdog restarts the whole system, if your program goes down. I'd prefer to avoid that. Some people have also mentioned cron, but imo, that'd be bad on the processor to set a cron job for every minute to relaunch the PID

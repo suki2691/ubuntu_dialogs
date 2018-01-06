@@ -1,0 +1,4 @@
+2008-07-17T06:39:00.000Z	jeeves__		what is the simplest command that I can use with rsync to copy only the files that have changed (or been added) from my remote server to my desktop?
+2008-07-17T06:40:00.000Z	NCommander	jeeves__	rsync --update I think
+2008-07-17T06:40:00.000Z	jeeves__	NCommander	well, I was wondering about the syntax of it though
+2008-07-17T06:40:00.000Z	NCommander	jeeves__	rsync --update *old* *new*

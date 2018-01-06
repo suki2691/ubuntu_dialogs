@@ -1,0 +1,4 @@
+2007-07-15T12:23:00.000Z	Ek0nomik		How do you connect via SSH on the non default port?  I changed it, but ssh 75.128.244.253:2008 doesn't do the trick.
+2007-07-15T12:23:00.000Z	Ek0nomik		instead I get this error:
+2007-07-15T12:23:00.000Z	Ek0nomik		ssh: 75.128.244.253:2008: Name or service not known
+2007-07-15T12:23:00.000Z	liquiddoom	Ek0nomik	ssh -p 2008

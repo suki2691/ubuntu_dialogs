@@ -1,0 +1,4 @@
+2011-05-23T01:24:00.000Z	danmichel		What is the bash command to copy a folder into another folder recursively but do not replace anything if it has the same file name?
+2011-05-23T01:25:00.000Z	danmichel		What is the bash command to copy a folder into another folder recursively but do not replace anything if it has the same file name?
+2011-05-23T01:27:00.000Z	Zaelyx	danmichel	cp -Rn <source> [Destination]
+2011-05-23T01:29:00.000Z	Zaelyx	danmichel	the -n sets the "--no-clobber" option, which does not overwrite existing files

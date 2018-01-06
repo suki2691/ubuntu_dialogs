@@ -1,0 +1,4 @@
+2010-07-21T13:05:00.000Z	mataks		how to completely remove unused kernels?. i want to remove them in my boot grub and system
+2010-07-21T13:06:00.000Z	Jordan_U	mataks	Remove the kernel packages with apt/synaptic.
+2010-07-21T13:07:00.000Z	mataks	Jordan_U	how? im new to ubuntu
+2010-07-21T13:07:00.000Z	Jordan_U	mataks	Open System > Administration > Synaptic Package Manager, search for "linux-image", sort by installed packages first, then remove the old ones.

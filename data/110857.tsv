@@ -1,0 +1,4 @@
+2011-09-19T21:23:00.000Z	limbas		This loops for an hour now during the install process, is my system fucked?
+2011-09-19T21:23:00.000Z	limbas		Sep 19 17:22:21 ubuntu kernel: [ 6580.227226]         00 00 08 00  Sep 19 17:22:21 ubuntu kernel: [ 6580.227230] sd 0:0:0:0: [sda]  Add. Sense: Unrecovered read error - auto reallocate failed Sep 19 17:22:21 ubuntu kernel: [ 6580.227236] sd 0:0:0:0: [sda] CDB: Read(10): 28 00 00 00 08 00 00 00 08 00 Sep 19 17:22:21 ubuntu kernel: [ 6580.227246] end_request: I/O error, dev sda, sector 2048 Sep 19 17:22:21 ubuntu kernel: [ 6580.227250] 
+2011-09-19T21:24:00.000Z	limbas		cool I triggered 2bots
+2011-09-19T21:24:00.000Z	h00k	limbas	first off, check the md5sum of your install image.

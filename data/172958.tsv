@@ -1,0 +1,4 @@
+2006-11-22T11:44:00.000Z	Zatzum		Does anybody know is it usual that when running ubuntu from live cd i'm not to be able open C drive?
+2006-11-22T11:44:00.000Z	TheGateKeeper	Zatzum	you have to mount it first
+2006-11-22T11:46:00.000Z	TheGateKeeper	Zatzum	create an empty directory then type: mount /dev/hda1 <empty dir> (or /dev/sda1 if it's a sata drive)
+2006-11-22T11:47:00.000Z	TheGateKeeper	Zatzum	man mount will give you more detail

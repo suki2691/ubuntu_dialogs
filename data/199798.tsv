@@ -1,0 +1,4 @@
+2007-04-04T11:14:00.000Z	Spliffster		!ctrl-alt-backspace is do not use CTRL-ALT-BACKSPACE for ending an X session if you have other options. CTRL-ALT-BACKSPACE will kill your xsession and all child threads (firefox, session managers, etc.) and might cause serious problems to programms which need to cleanup (ie. release lock files, clean files in tem, close connections propperly, etc.) use $ sudo /etc/init.d/gdm restart (or kdm/xdm) instead!
+2007-04-04T11:16:00.000Z	HymnToLife	Spliffster	telling ppl to use /etc/init.d/?dm instead saves the (or kdm/xdm) part ;)
+2007-04-04T11:17:00.000Z	HymnToLife		!ask | Arta-
+2007-04-04T11:17:00.000Z	Spliffster	HymnToLife	not if they have installed kdm and gdm which is possible

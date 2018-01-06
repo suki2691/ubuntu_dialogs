@@ -1,0 +1,4 @@
+2007-01-17T15:31:00.000Z	kupesoft		When I run "adduser", it collects the following information about a new user: {Name, Room Number, Work Phone, Home Phone, Other} stores it in a comma-delimited fashion in /etc/passwd.  Where can I add or subtract items from that list?  I want to only collect the user's name.
+2007-01-17T15:31:00.000Z	graft	kupesoft	just leave 'em blank... that's standard unix stuff from way back
+2007-01-17T15:31:00.000Z	kupesoft	graft	Can I change that stuff?
+2007-01-17T15:31:00.000Z	graft	kupesoft	man chfn

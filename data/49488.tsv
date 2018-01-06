@@ -1,0 +1,4 @@
+2010-06-06T23:03:00.000Z	edlik		I need some expert advise. I upgraded to 10.04 from 9.10, x wont load and shuts down my monitor. Ctrl+Alt+F1,2,3,4,5,6,8 produce a command line, and F7 shuts monitor down again. At command line "startx" produces fatal server error. I have googled and tried all of the suggested fixes to no avail. For a time I was able to enter into safe mode, but now even that is not an option. I would really like to rescue the upgrade if possible because I had not pl
+2010-06-06T23:04:00.000Z	edbian	edlik	ALT + F1(-6) are supposed to be cli.  tty7 should be the GUI
+2010-06-06T23:04:00.000Z	edbian	edlik	Did you try "sudo gdm" on any of the cli ?
+2010-06-06T23:05:00.000Z	edlik	edbian	let me try

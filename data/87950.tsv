@@ -1,0 +1,4 @@
+2008-08-23T09:57:00.000Z	jpastore		is there a way to remove a package without removing dependencies
+2008-08-23T09:58:00.000Z	jpastore		with rpm there was a --nodeps options...can't seem to find some similar for apt-get/dpkg
+2008-08-23T09:59:00.000Z	Dedi	jpastore	dpkg --ignore-depends=<package>
+2008-08-23T09:59:00.000Z	jpastore	Dedi	thanks

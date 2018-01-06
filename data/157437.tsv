@@ -1,0 +1,4 @@
+2006-11-23T10:50:00.000Z	menyesg		hey guys, after creating a raid 1 array with mdadm with 2 sata disks, what shall I do to make it work after reboot? i have already modified mdadm.conf, and all I've done to Ubuntu Server 6.10 works with Debian but does not work with Ubuntu...
+2006-11-23T10:50:00.000Z	menyesg		does anyone have experience about mdadm?
+2006-11-23T10:50:00.000Z	PlanarPlatypus	menyesg	just add it to /etc/fstab I think
+2006-11-23T10:51:00.000Z	menyesg	PlanarPlatypus	well, i'm a bit confused... I have sda with 1 / and a swap, and I just want to create a raid mirror with it

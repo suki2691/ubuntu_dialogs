@@ -1,0 +1,4 @@
+2010-10-06T05:27:00.000Z	Loshki	bastidrazor	what's the difference between reload and restart?
+2011-01-22T10:16:00.000Z	bastidrazor	Loshki	that is fairly amazing when you think about it.
+2011-04-27T03:13:00.000Z	Loshki	bastidrazor	you must find the process associated with the tcp connection and kill the process. Try running "lsof -i4tcp' and see if you can spot it.
+2011-04-27T03:13:00.000Z	bastidrazor	Loshki	ah, just killing the process will stop the connection. i see that has killed the connection

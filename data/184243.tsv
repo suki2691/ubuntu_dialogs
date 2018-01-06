@@ -1,0 +1,4 @@
+2006-05-28T16:24:00.000Z	Dybber		I have a problem with Totem (is this the wrong place to ask?). The error is here: http://paste.ubuntu-nl.org/14761
+2006-05-28T16:26:00.000Z	hastesaver_	Dybber	try killing esd and starting it again, or try removing your /home/dybber/.esd_auth (ignore the Gtk-CRITICAL warnings, I see them everywhere and I don't think they mean anything :)
+2006-05-28T16:29:00.000Z	Dybber	hastesaver	the /home/dybber/.esd_auth error disappeared but it still wont start. I also get an error in a lilttle popup window saying that video-outdata is in use by another program.
+2006-05-28T16:34:00.000Z	hastesaver_	Dybber	try 1. killall esd; esd 2. logging out and back in 3. rebooting

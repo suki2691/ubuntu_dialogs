@@ -1,0 +1,4 @@
+2012-04-21T02:02:00.000Z	Hypnoz		does anyone know a simpler way to write this bash script? http://pastie.org/3825216
+2012-04-21T02:03:00.000Z	Hypnoz		I couldn't do for x in ${var}{1..2}; do
+2012-04-21T02:03:00.000Z	troubled	Hypnoz	why not just "for x in a b c; ...."?
+2012-04-21T02:06:00.000Z	troubled	Hypnoz	i think the point is that you don't need the nested for loops, an echo will do

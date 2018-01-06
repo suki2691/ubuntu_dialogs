@@ -1,0 +1,4 @@
+2006-05-27T16:42:00.000Z	dgl		hi people, what is more secure way to set up an subversion server? Inetd or an script that initialize it on booting time?
+2006-05-27T16:42:00.000Z	Knorrie	dgl	i use subversion and apache2 with the subversion-module
+2006-05-27T16:43:00.000Z	dgl	Knorrie	man, i will use lighttpd and I know that there is a way to do something like it with lighttpd
+2006-05-27T16:48:00.000Z	Knorrie	dgl	i'm running a dedicated apache2 install somewhere to server subversion repo's, just because the svn people made a apache-module like http://packages.debian.org/stable/net/libapache2-svn

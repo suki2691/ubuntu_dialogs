@@ -1,0 +1,4 @@
+2009-01-24T00:28:00.000Z	devilsF00d		my dev server running 5.0.45-Debian_1ubuntu3.3 started randomly giving me issues where some type of openDNS page I'm guessing a redirect because its not resolving... for some of the virtual hosts on the box.  When I run traceroute on any of our subdomains i get hung up at: opendns.demarc.cogentco.com  I'm pretty green when it comes to DNS and server admin in general but I was hoping someone could help me figure out if this
+2009-01-24T00:28:00.000Z	devilsF00d		k thank you
+2009-01-24T00:29:00.000Z	Slart	devilsF00d	I'm guessing one of the opendns servers is having a timeout
+2009-01-24T00:29:00.000Z	Slart	devilsF00d	but I'm no dns-export myself..

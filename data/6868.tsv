@@ -1,0 +1,4 @@
+2011-12-26T13:54:00.000Z	ssfdre38		hey how can i force the user root to be used by system on my chroot
+2011-12-26T13:56:00.000Z	metaspike	ssfdre38	depends what your chrooting into. probably just "su" or "sudo su"
+2011-12-26T13:57:00.000Z	metaspike		longcat... man initramfs-tools
+2011-12-26T13:57:00.000Z	ssfdre38	metaspike	well sudo needs sudo: must be setuid root

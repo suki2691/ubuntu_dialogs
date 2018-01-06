@@ -1,0 +1,4 @@
+2010-01-30T08:44:00.000Z	Justin_`		When I boot up Ubuntu, It asks for a Keyring password to connect to the internet (madwifi). Is there a way I can make it so I don't have to type in my account password?
+2010-01-30T08:45:00.000Z	maco	Justin_`	it shouldve unlocked the keyring when you logged in if the passwords match... or do you have automatic login turned on?
+2010-01-30T08:46:00.000Z	maco	Justin_`	ok, acknowledging that this is rather insecure...  if you go to applications -> accessories -> passwords & encryption keys, and go to the "login keyring" you can reset the password to blank
+2010-01-30T08:46:00.000Z	maco	Justin_`	and then it shouldnt ask

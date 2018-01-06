@@ -1,0 +1,4 @@
+2008-05-12T14:00:00.000Z	Dvyjones		!sound
+2008-05-12T14:01:00.000Z	Dvyjones		My bcm4306 (14e4:4320) wireless card doesn't work... I can see all networks in NetworkManager, but when I try to connect to them, the icon spins for about 30 seconds, before the icon switch to the orange-triangle "No network connection" icon. In syslog, I get the message "Old device 'wlan0' activating, won't change" many times. I am using Ubuntu 8.04 LT
+2008-05-12T14:03:00.000Z	Dvyjones		My bcm4306 (14e4:4320) wireless card doesn't work... I can see all networks in NetworkManager, but when I try to connect to them, the icon spins for about 30 seconds, before the icon switch to the orange-triangle "No network connection" icon. In syslog, I get the message "Old device 'wlan0' activating, won't change" many times. I am using Ubuntu 8.04 LT
+2008-05-12T14:04:00.000Z	nico8481	Dvyjones	it was set to HDA Intel (Alsa mixer). I changed it to ALSA PCM via PMA (PulseAudio) but still no sound :-/

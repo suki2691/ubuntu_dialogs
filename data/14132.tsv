@@ -1,0 +1,4 @@
+2011-05-20T15:41:00.000Z	pitpaf		I Cant get my xmodmap to load at startup whats the proper way to do it?
+2011-05-20T15:42:00.000Z	ActionParsnip	pitpaf	add a startup item and it should be ok. Does this not make it work?
+2011-05-20T15:45:00.000Z	pitpaf	ActionParsnip	I wanted to have it work before X as in case I ever needed tty Ill try /etc/rc.local
+2011-05-20T15:45:00.000Z	ActionParsnip	pitpaf	cool, add it above the exit 0 line

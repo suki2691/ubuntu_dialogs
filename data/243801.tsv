@@ -1,0 +1,4 @@
+2005-05-04T08:31:00.000Z	^vir^		alien is installed with ubuntu
+2005-05-04T08:33:00.000Z	^vir^		/bin/mkdir: cannot create directory `/usr/src': File exists /bin/ln: creating symbolic link `/usr/src/linux' to `': No such file or directory Can't find the kernel sources. Please, install them and run this program. <--- i've used get apt-get install  linux-headers then the kernel build what could be wrong do you reckon?
+2005-05-04T08:34:00.000Z	elcu	^vir^	you need to install the kernel-source package that matches your current kernel.
+2005-05-04T08:48:00.000Z	elcu	^vir^	yes.  i think so.

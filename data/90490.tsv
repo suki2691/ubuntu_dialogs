@@ -1,0 +1,4 @@
+2009-02-05T06:51:00.000Z	ardchoille		how do I retreive info about my mobo and cpu?
+2009-02-05T06:51:00.000Z	drash	ardchoille	sudo ,lshw | grep sse2 .. if it turns up empty you haven't got the sse2 support
+2009-02-05T06:53:00.000Z	ardchoille	drash	seems I do have sse2 support but not sse3, thanks :)
+2009-02-05T06:54:00.000Z	drash	ardchoille	you're welcome

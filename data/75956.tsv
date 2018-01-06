@@ -1,0 +1,4 @@
+2008-12-06T06:14:00.000Z	bqf		is there a way to change the mac address during the install phase [8.10 alternate cd]? ifconfig doesn't seem to be included in the install environment, but my sis900 lan card needs to be assigned a mac address or it won't work.
+2008-12-06T06:15:00.000Z	zachb1	bqf	mac addresses are hardware-related
+2008-12-06T06:16:00.000Z	bqf	zachb1	yes, they are. you can still change them in software though, i currently do that with the distro i have installed.
+2008-12-06T06:17:00.000Z	bqf	zachb1	this sis900 has its mac address set to 00:00:00:00:00:00 on reboot, kernerls since 2.6.25 don't like that.

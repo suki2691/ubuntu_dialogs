@@ -1,0 +1,4 @@
+2012-02-07T18:00:00.000Z	y-k		How can I make a service communicate on a different network adapter?
+2012-02-07T18:00:00.000Z	jpds	y-k	Make it listen on the IP of the interface in question?
+2012-02-07T18:03:00.000Z	y-k	jpds	How do I do that? The service is PPTP. It accepts connections on my secondary public IP, but it routes all traffic through the primary public IP
+2012-02-07T18:04:00.000Z	jpds	y-k	Ah, OK; that's a routing issue instead; not sure about that.

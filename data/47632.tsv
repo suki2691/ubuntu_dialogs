@@ -1,0 +1,4 @@
+2010-04-07T14:02:00.000Z	khunter619		I tar zxvf madwifi-0.9.4.tar.gz, then I cd into madwifi-0.9.4, then I used command: make
+2010-04-07T14:03:00.000Z	khunter619		THen I unplugged my USB wireless to see if my Internal Wifi card worked
+2010-04-07T14:03:00.000Z	khunter619		It did not
+2010-04-07T14:04:00.000Z	theadmin	khunter619	You just compiled something and thought something would magically work? Files must be copied to their correspondent directories, usually this is done with "sudo make install". But since psycho_oreos said it does not support it, better not even try

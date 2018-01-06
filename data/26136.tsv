@@ -1,0 +1,4 @@
+2010-09-17T13:58:00.000Z	vaibhav1		I have installed Ubuntu 10.04 and now I wanted to install ubuntu 8.10 as dual boot.. Does it will install normally or do I have to make chages in grub??
+2010-09-17T13:59:00.000Z	maedox	vaibhav1	ubuntu 8.10 will have issues with the grub version lucid has installed. You should have done it the other way around.
+2010-09-17T14:01:00.000Z	vaibhav1	maedox	Does the grub problem 'll fix if I reinstall Grub from 10.04 live CD, after installing 8.10
+2010-09-17T14:05:00.000Z	maedox	vaibhav1	It might actually work, but I honestly didn't try exactly what you want so I can't say for sure. As long as you don't mess with the partition table and 10.04 data you can always reinstall grub if it gets screwed up.

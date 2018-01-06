@@ -1,0 +1,4 @@
+2011-06-17T08:58:00.000Z	GTRsdk		on Natty, after the computer shows the BIOS screen it says out of range. Is there a way to fix that?
+2011-06-17T08:59:00.000Z	escott	GTRsdk	/etc/default/grub will allow you to set a smaller video range
+2011-06-17T08:59:00.000Z	escott	GTRsdk	run update-grub afterwards
+2011-08-08T23:44:00.000Z	escott	GTRsdk	you could try vnc which is more windowsy or use ssh and xnest which is more pure unix

@@ -1,0 +1,4 @@
+2010-06-22T15:31:00.000Z	Prabs		hi i cant able to play any video files i also installed Restricted extras but while opening any video file it shows         "Error in opening/initializing  the selected video_out(-vo) device"      i tryed to open with Mplayer but the mp3 file plays well and sounds also good what to do give me a solution
+2010-06-22T15:32:00.000Z	erUSUL	Prabs	"Error in opening/initializing  the selected video_out(-vo) device" <<< somhow the Xvideo extension does not work on your graphic driver ...
+2010-06-22T15:33:00.000Z	erUSUL	Prabs	try « mplayer -vo x11 file.avi  »
+2010-06-22T15:35:00.000Z	erUSUL	Prabs	in a terminal

@@ -1,0 +1,4 @@
+2007-03-04T15:10:00.000Z	oo7		so i accidently deleted my fstab...i just manually recreated it.  time to reboot.  wish me luck.
+2007-03-04T15:11:00.000Z	oo7		so you want the story....
+2007-03-04T15:12:00.000Z	oo7		i was downloading a torrent, which i thoguht was to a large partition, but the large partition wasn't mounted, so it was being downloaded to my / partition.  so overnight it filled up the HD.  so this morning i was wondering why the partition wasn't mounted, so i edited my fstab, while my HD was completly full.  when i saved my fstab, it was saved as an empty file and i lost the data within.  pretty shitty eh?
+2007-03-04T15:13:00.000Z	arrenlex	oo7	If you boot from the liveCD, you can mount your target partition, clean it out, and recreate the ftsab from the one made by the cd.

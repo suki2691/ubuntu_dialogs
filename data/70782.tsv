@@ -1,0 +1,4 @@
+2009-01-16T07:10:00.000Z	The_Rebel		anyone good with pulse audio?
+2009-01-16T07:11:00.000Z	The_Rebel		i need to figure out how to set defaults permanently
+2009-01-16T07:12:00.000Z	goffio	The_Rebel	systemwide pulseaudio files are in /etc/pulse, is that what your'e looking for?
+2009-01-16T07:16:00.000Z	goffio	The_Rebel	afaict, what you need is to use the config files in /etc/pulse. Perhaps (i'm no expert on this) take a look at /etc/pulse/default.pa, last two lines pray "set-default-source" and "set-default-sink"

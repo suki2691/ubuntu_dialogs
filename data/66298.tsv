@@ -1,0 +1,4 @@
+2009-03-03T17:42:00.000Z	stringchopper		I need some dual boot help.  Ubuntu installed 1st on 2nd sata drive, then winxp on 1st sata drive, now I repair grub, and put entry in menu.lst for windows on hd0,0, rootnoverify, makeactive, chainloader+1, and I can't boot winxp... get missing or corrupt ntoskrnl.exe (but that's not true)
+2009-03-03T17:43:00.000Z	ActionParsnip	stringchopper	try different disk numbers to see what you get
+2009-03-03T17:44:00.000Z	ActionParsnip	stringchopper	there are grub guides in those links, they will help you populate the file
+2009-03-03T17:45:00.000Z	stringchopper	ActionParsnip	ok, will look at them, and try different disk numbers too...

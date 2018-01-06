@@ -1,0 +1,4 @@
+2008-02-04T13:30:00.000Z	neeto		Lets say I have a desktop with two network cards. One card is connected to the wall, and has full internet access, the other is connected to a laptop without internet access (ATM). I want to forward the connection from eth0 to eth1 and be able to connect my laptop to my desktop and in turn connect it to the internet, is this possible?
+2008-02-04T13:30:00.000Z	jscinoz	neeto	give me a sec, you could probably do it with a br0 interface.
+2008-02-04T13:31:00.000Z	jscinoz	neeto	see if this helps http://tldp.org/HOWTO/Ethernet-Bridge-netfilter-HOWTO-3.html
+2008-02-04T13:31:00.000Z	neeto	jscinoz	thanks man

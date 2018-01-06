@@ -1,0 +1,4 @@
+2011-07-17T23:49:00.000Z	john_rambo		I used to do zypper wp (what provides) in openSUSE ..... How to do that in aptitude ?
+2011-07-17T23:49:00.000Z	Jordan_U	john_rambo	apt-file search /path/to/needed/file
+2011-07-17T23:50:00.000Z	Jordan_U	john_rambo	Or for already installed packages "dpkg -S /path/to/file".
+2011-07-18T00:20:00.000Z	john_rambo	Jordan_U	Thanks ...just one more thing ...How can I reinstall a pckage from the command line like I do using Synaptic ?

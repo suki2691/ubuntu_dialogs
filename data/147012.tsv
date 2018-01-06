@@ -1,0 +1,4 @@
+2007-03-01T07:30:00.000Z	mikeal		i need help with an odd screen resolution problem, I edited xorg.cong to get my resolution set to 1440x900, and it works, except that Ubuntu/Gnome still thinks the resolution is 1280x800, so I can see on the entire screen, but the window and font sizes are all still 1280x800, when i pull up System->Screen Resolution I can only setit ot 1280x800
+2007-03-01T07:31:00.000Z	gravemind	mikeal	you need a modeline
+2007-03-01T07:31:00.000Z	gravemind	mikeal	google "modeline generator"
+2007-03-01T07:32:00.000Z	gravemind	mikeal	http://www.bohne-lang.de/spec/linux/modeline/

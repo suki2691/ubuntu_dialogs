@@ -1,0 +1,4 @@
+2008-12-27T19:30:00.000Z	bartek		hi, I keep getting Could not get lock /var/lib/dpkg/lock - open (11 Resource temporarily unavailable) .. It's because I have a "aptitude search w" running in my ps but how can I kill it? I've tried sudo kill <pid> and kilall aptitude but no luck it just sits there. Any tips?
+2008-12-27T19:31:00.000Z	bartek		What does that do before I run it?
+2008-12-27T19:31:00.000Z	bartek		brief summary :-)
+2008-12-27T19:31:00.000Z	joaopinto	bartek	it kills the process locking that file

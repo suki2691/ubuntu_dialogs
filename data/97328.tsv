@@ -1,0 +1,4 @@
+2008-11-09T12:05:00.000Z	slope		am installing ubuntu 8.10 on a machine that has vista.  the ubuntu installatation will be on the second physical drive (sdb), while vista is on the first (sda).  The bios is set to use sdb as the first boot device, so I can use GRUB to choose os on boot.  I want Grub on the sdb drive to preserve the vista loader on sda.  Question: What do I choose in the advanced options for the boot loader: sda, sda1, sdb, sdb1?   thanks for any help
+2008-11-09T12:06:00.000Z	sbingner	slope	just install grub to sda
+2008-11-09T12:08:00.000Z	sbingner	slope	put your /boot on sda also then
+2008-11-09T12:11:00.000Z	sbingner	slope	it'll only work for booting vista w/o sdb if you have your /boot partition on sda also

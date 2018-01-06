@@ -1,0 +1,4 @@
+2007-11-24T23:58:00.000Z	n08l3J		is there anyway that a software can be un-installed if it is compiled from source ?
+2007-11-24T23:59:00.000Z	dahitokiri	n08l3J	, sudo make uninstall in the source directory
+2007-11-25T00:03:00.000Z	dahitokiri	n08l3J	by hand then. or to do a make -n install keep track of the files that are put in the directories, and remove em yourself
+2007-11-25T00:03:00.000Z	dahitokiri	n08l3J	its a bitch, but it's probably the only option left

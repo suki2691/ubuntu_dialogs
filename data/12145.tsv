@@ -1,0 +1,4 @@
+2012-06-30T10:57:00.000Z	MestreLion	Zapelius	it means some config/setting for your user, inherited from 10,04, is making 12.04 fonts go weird... you could try deleting a few of the hidden dot files and dirs to reset them
+2012-06-30T10:57:00.000Z	Zapelius	MestreLion	trying that next
+2012-06-30T10:58:00.000Z	MestreLion	Zapelius	it may also reset some other desktop settings to default values, if you don't mind that, go ahead
+2012-06-30T11:01:00.000Z	Zapelius	MestreLion	~/.fontconfig/ was the guilty one.

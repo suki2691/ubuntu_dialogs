@@ -1,0 +1,4 @@
+2009-02-21T00:39:00.000Z	bryguy_		does ubuntu have something like sysconfig where the interfaces are configured?
+2009-02-21T00:40:00.000Z	bryguy_		all I see is /etc/network/interfaces, which lists eth0 as the primary connection; the only network interface I have right now is eth1 (wireless card)
+2009-02-21T00:41:00.000Z	bryguy_		I'm thinking maybe there's a disconnect where it's expecting eth0 and ignoring eth1 when it doesn't find eth0 (which was a pcmcia card I've since removed)
+2009-02-21T00:41:00.000Z	nickrud	bryguy_	normally wireless in the desktop is done by NetworkManger and the nm-applet in the notification area; if it's defined in /etc/network/interfaces NetworkManager will not handle that interface at all

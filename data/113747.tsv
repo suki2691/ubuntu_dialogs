@@ -1,0 +1,4 @@
+2011-04-11T19:31:00.000Z	Marvelllll		where could one put this command "ethtool -s eth0 speed 100 duplex full autoneg on" so it runs on resume ?
+2011-04-11T19:31:00.000Z	dajhorn	Marvelllll	If you create a stanza in /etc/network/interfaces for this interface, then you can add a post-up command for it.
+2011-04-11T19:32:00.000Z	dajhorn	Marvelllll	Forcing this kind of thing is almost always the wrong way to fix something.  Why are you doing it?
+2011-04-11T19:35:00.000Z	dajhorn	Marvelllll	You probably have a bad cable between the devices.  Don't force the interface settings for this.

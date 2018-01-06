@@ -1,0 +1,4 @@
+2010-06-07T09:31:00.000Z	glick		hi
+2010-06-07T09:31:00.000Z	glick		hey in the latest ubuntu, is there anyway to change the location of the window close, maximazie and minimuze button so they are back on the left hand side? i have no idea why on earth they put them on the other side
+2010-06-07T09:32:00.000Z	hasenislamy	glick	type this command on your terminal
+2010-06-07T09:33:00.000Z	hasenislamy	glick	you can move them on the right side just type this command: gconftool-2 --set /apps/metacity/general/button_layout --type string :minimize,maximize,close

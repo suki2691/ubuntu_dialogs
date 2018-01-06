@@ -1,0 +1,4 @@
+2006-09-17T08:27:00.000Z	carpanta		Hello, how can i, from command line, view ONLY the installed packages of, for example, apache, ( aptitude search 'apache2' show installed and not installed )
+2006-09-17T08:27:00.000Z	gnomefreak	carpanta	dpkg -l apache
+2006-09-17T08:30:00.000Z	carpanta	gnomefreak	 the command show packages without version, with state 'un' and 'pn', what this mean?
+2006-09-17T08:31:00.000Z	gnomefreak	carpanta	it should say at the top of the output of the command i gave you. also you can try synaptic and search apache

@@ -1,0 +1,4 @@
+2008-04-29T02:13:00.000Z	yukonho		Hi - I'm trying to run a scientific model through the command line. Is there a way to dump the standard output to a file but still view it on screen as the model runs?
+2008-04-29T02:14:00.000Z	Uranellus	yukonho	./myapp | tee file
+2008-04-29T02:14:00.000Z	yukonho	Uranellus	thanks!
+2008-04-29T02:15:00.000Z	Uranellus	yukonho	might want to use tee -a file to append to existing output

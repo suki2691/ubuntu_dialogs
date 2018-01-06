@@ -1,0 +1,4 @@
+2008-11-02T06:07:00.000Z	zrak		does anyone knows unix regexp
+2008-11-02T06:08:00.000Z	zrak		how come this doesn't work echo '+3892322541zzz9' | grep -qE '00|\+[0-9]{2}|[0-9]{3}[1-9][0-9]{6}' && echo YES || echo NO
+2008-11-02T06:08:00.000Z	zrak		i get YES, but i should get NO
+2008-11-02T06:10:00.000Z	cliechti	zrak	maybe oyu need to define groups ()  you have several or'ed | expressions and the second will match

@@ -1,0 +1,4 @@
+2008-03-26T13:23:00.000Z	morghanphoenix		does /lib need to be in the $PATH?
+2008-03-26T13:24:00.000Z	unop	morghanphoenix	no
+2008-03-26T13:25:00.000Z	unop	morghanphoenix	you need to configure and use ld -- man ld
+2008-10-06T04:39:00.000Z	unop	morghanphoenix	if a script requires super-user access at some point - it's just better to have the script identify if it's running under UID 0 or else complain and quit.

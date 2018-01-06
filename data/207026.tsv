@@ -1,0 +1,4 @@
+2008-05-12T01:27:00.000Z	MattCampbell		What's the current status of software audio mixing in Ubuntu?  e.g. on a machine with on-board audio that can only handle one audio playback stream at a time, does ALSA or some other component mix multiple sounds?
+2008-05-12T01:27:00.000Z	MattCampbell		e.g. system sounds while music is playing
+2008-05-12T01:29:00.000Z	MattCampbell		What I'm talking about is just the ability to play more than one sound at a time, e.g. an IM alert while music is playing, as Windows can, regardless of the capabilities of the audio hardware.
+2008-05-12T01:31:00.000Z	void^	MattCampbell	pulseaudio is popular these days. esd compatible. anyway, the only problems are with annoying applications that only support oss, like flash.

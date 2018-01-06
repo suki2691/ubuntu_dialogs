@@ -1,0 +1,4 @@
+2008-12-22T00:16:00.000Z	carpet_the_walls		can someone help me with the command line please, i want to delete all files starting with . before i import into subversion. I got as far as find . -name ".*" which returns all the files, how can i now delete them, i tried pipeing but it didnt work
+2008-12-22T00:18:00.000Z	Gnea	carpet_the_walls	find . -name ".*" -type f -exec rm {} \;
+2008-12-22T00:19:00.000Z	carpet_the_walls	Gnea	^
+2008-12-22T00:19:00.000Z	Gnea	carpet_the_walls	the 'man find' command will tell you about the -type f option

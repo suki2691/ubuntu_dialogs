@@ -1,0 +1,4 @@
+2011-12-20T00:08:00.000Z	bf4648		can someone tell me what the {} brackets are doing in the following command line: find * -maxdepth 0 -name 'test_mp4s.zip' -prune -o -exec rm -f /var/www/test/*.zip '{}' ';''
+2011-12-20T00:09:00.000Z	Pici	bf4648	they replace the filename that comes out of the find command. man find should you tell more.
+2011-12-20T00:11:00.000Z	Pici	bf4648	you already posted what it looks like.
+2011-12-20T00:23:00.000Z	Pici	bf4648	The folks and the topic in #bash may prove especially useful.

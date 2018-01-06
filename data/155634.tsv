@@ -1,0 +1,4 @@
+2007-02-16T15:02:00.000Z	raw-bin		Greets. My edgy installation on my vaio seems to halt for a long time during bootup citing 'Configuring Network Interfaces'. I can't seem to find a solution. Any pointers ?
+2007-02-16T15:03:00.000Z	hjmills	raw-bin	its trying to bring up interfaces that are not plugged in - you need to edit the /etc/network/interfaces file as root
+2007-02-16T15:03:00.000Z	raw-bin	hjmills	thanks. Will give that a shot.
+2007-02-16T15:07:00.000Z	raw-bin	hjmills	the thing is that I do not know before hand which interface I will use. Why does ubuntu try to configure an interface that is not plugged in anyways ? Any idea ?

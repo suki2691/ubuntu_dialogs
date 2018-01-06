@@ -1,0 +1,4 @@
+2009-07-10T07:36:00.000Z	Zehava		okay, idiot friend of mine just fried his ubuntu box by sudo chmod 666 /
+2009-07-10T07:36:00.000Z	Zehava		is there a way to reverse this or will have to reinstall the entire system?
+2009-07-10T07:37:00.000Z	Jeruvy	Zehava	thats a bugger to fix...I'd do a reinstall (backup /home first)
+2009-07-10T07:38:00.000Z	Jeruvy	Zehava	chmod 777 -R /home, then backup

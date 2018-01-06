@@ -1,0 +1,4 @@
+2011-10-20T13:45:00.000Z	devians		hey, i have two nics, and something is wrong in the config and keeps overwriting resolve.conf so my dns doesnt work. how to fix?
+2011-10-20T13:46:00.000Z	devians		because for some reason ubuntu is looking for internet on eth0 when it exists on eth1
+2011-10-20T13:47:00.000Z	jasef	devians	you could try disconnecting the ethernet plug from eth0 to install the package
+2011-10-20T13:49:00.000Z	devians	jasef	llutz_ could this be a symptom of misconfiguration in the dhcp server on eth0?

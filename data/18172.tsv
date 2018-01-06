@@ -1,0 +1,4 @@
+2011-03-07T22:38:00.000Z	KnitGal		hi all . . . last friday I ran apt-get on my ubuntu server (which is runnng 10.0.4) to update it to the latest version.  i walked away at a crucial moment, and came back to find a strange process
+2011-03-07T22:39:00.000Z	KnitGal		that i have no idea what it is.  this process has been running for 2 days now.  it looks something like this:  [3373344.199144] [UFWBlock] IN=eth0 out= MAC=  blah blah blah LEN=1048   i notice that the numeral sequence at the beginning seems to be incrementing.  any idea what this is?
+2011-03-07T22:40:00.000Z	KnitGal		what is UFW?
+2011-03-07T22:40:00.000Z	Pumpkin-	KnitGal	ufw is the "uncomplicated firewalL". It looks like firewall logs to me.

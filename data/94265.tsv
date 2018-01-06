@@ -1,0 +1,4 @@
+2009-05-19T14:05:00.000Z	ShishKabab		Hello. When I'm SSHed into a remote machine, is there any way to easily copy files back to the local machine? Or is the scp command from the local machine the only option?
+2009-05-19T14:06:00.000Z	Flannel	ShishKabab	The other way is to run ssh on your local machine, and then scp (on the remote machine) from the 'local' to 'remote'.  But, obviously, that's not simpler than just scp in the first place.
+2009-05-19T14:07:00.000Z	Flannel	ShishKabab	What's difficult regarding scp?  You can also use sftp, which most graphical FTP clients support, so it's just like good old fashioned FTP
+2009-05-19T14:09:00.000Z	ShishKabab	Flannel	It's just that if you're doing something on the remote machine via SSH, you'd have to logout or create another tab to copy a file, which isn't very handy...

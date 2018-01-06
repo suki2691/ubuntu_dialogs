@@ -1,0 +1,4 @@
+2006-08-28T09:41:00.000Z	ndlovu		does anyone know how to create a backtrace with gdb if the program has *frozen* rather than crashed?
+2006-08-28T09:41:00.000Z	kitche	ndlovu	you can use gdb while running the program if it freezes a lot but it's mostly used to look at cores
+2006-08-28T09:42:00.000Z	ndlovu	kitche	the program is frozen, but if I kill it, gdb doesn't seem to be able to get any useful information from it
+2006-08-28T09:43:00.000Z	ndlovu	kitche	but I don't know how to tell gdb to run a backtrace in its current (frozen) state?

@@ -1,0 +1,4 @@
+2012-06-09T15:05:00.000Z	erinaceus_		Does ubuntu have an ssh server automatically enabled?
+2012-06-09T15:07:00.000Z	erinaceus_		So, how about my live disk question? Can i remove it once the system has loaded, or does it load dynamically from the disk?
+2012-06-09T15:08:00.000Z	wylde_	erinaceus_	no you can't. It will be looking there for data if you start any applications.
+2012-06-09T15:15:00.000Z	wylde_	erinaceus_	the default udev behavior is to mount them. Just unmount it, and format.

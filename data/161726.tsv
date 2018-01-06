@@ -1,0 +1,4 @@
+2007-01-18T15:50:00.000Z	bill		I just did a server install/kde-core install. I then installed linux-686. my grub shows a "server" kernel and a "generic" kernel. what is the difference?
+2007-01-18T15:51:00.000Z	nothlit	bill	the alternate cd has a barebones install btw
+2007-01-18T15:52:00.000Z	nothlit	bill	the server disabled preempt, for interrupts, and things like cluster filesystems are enabled
+2007-01-18T15:59:00.000Z	nothlit	bill	also, you should remove all linux*-server packages

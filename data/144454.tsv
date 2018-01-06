@@ -1,0 +1,4 @@
+2009-02-24T09:18:00.000Z	mrpockets		how do i make a link or shortcut to /mnt on my desktop?
+2009-02-24T09:19:00.000Z	mrpockets		whats the difference between a symbolic link and a hard link?
+2009-02-24T09:21:00.000Z	crdlb	mrpockets	in short, you can make a hard link and delete the original filename and the file will still exist, do the same with a symlink and you'll just have a dead link
+2009-02-24T09:25:00.000Z	crdlb	mrpockets	you can see the number of hardlinks to a file via 'ls -ld' (or ls -l on the parent directory)

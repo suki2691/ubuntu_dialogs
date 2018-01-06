@@ -1,0 +1,4 @@
+2010-03-10T10:00:00.000Z	meoiswa		 Im attepting to create a script that automatically moves mp3s from the Firefox cache folder to my music directory, however there are a bunch of fiels there, none have file extension. Any ideas on how can i filter out all other files but the audio ones?
+2010-03-10T10:01:00.000Z	ardchoille	meoiswa	mv /path/*.mp3 /new/path   ?
+2010-03-10T10:06:00.000Z	ardchoille	meoiswa	for i in *.mp3; do mv $i /new/path; done  ?
+2010-03-10T10:15:00.000Z	ardchoille	meoiswa	You're better off restoring from a backup. You did make a backup didn't you?

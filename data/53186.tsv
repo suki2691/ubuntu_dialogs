@@ -1,0 +1,4 @@
+2010-04-22T08:24:00.000Z	queso		Is there a difference between `sudo apt-get update; sudo apt-get upgrade` and `sudo aptitude update; sudo aptitude upgrade` ?
+2010-04-22T08:25:00.000Z	IdleOne	queso	the differences between apt-get and aptitude are small
+2010-04-22T08:27:00.000Z	IdleOne	queso	aptitude is a front end to apt-get and handles dependencies a little differently but basically they do the same job
+2010-04-22T08:27:00.000Z	queso	IdleOne	ooh, aptitude is ncurses, apt-get isn't

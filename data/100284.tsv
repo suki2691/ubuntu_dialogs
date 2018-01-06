@@ -1,0 +1,4 @@
+2008-09-10T19:00:00.000Z	trakinas		hi. need help setting python2.5 as default.
+2008-09-10T19:01:00.000Z	trakinas		/usr/bin/python points to python2.5, but /usr/local/bin is the 2.4 binary (not symbolic) that is being used.
+2008-09-10T19:01:00.000Z	trakinas		anyone? i need to set 2.5 as the default
+2008-09-10T19:02:00.000Z	Haegin	trakinas	then you path has /usr/local/bin before /usr/bin (which is right) so uninstall the 2.4 from /usr/local/bin (probably installed from source)

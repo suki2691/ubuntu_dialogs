@@ -1,0 +1,4 @@
+2011-02-12T03:00:00.000Z	v1rati		Is there a way to replace multiple characters with s/1/2 (I.E. s/\/:*?"<>|/_) ?
+2011-02-12T03:01:00.000Z	Jordan_U	v1rati	Create a character class: s/[abc123\\:\?\//
+2011-02-12T03:01:00.000Z	v1rati	maco	Exactly. I'm trying to get rid of all the "illegal" characters on my NTFS partition.
+2011-02-12T03:02:00.000Z	Jordan_U	v1rati	Sorry, forgot the closing ']', s/[abc123\\:\?\/]/

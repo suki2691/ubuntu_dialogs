@@ -1,0 +1,4 @@
+2007-05-10T07:48:00.000Z	paradon_		I need to run "e2fsck -c -c" on my root filesystem, and can't boot a livecd (laptop with no CDROM or Floppy, and won't boot USB).  Anyone have any ideas?
+2007-05-10T07:50:00.000Z	Pelo	paradon_	 I beleive that there is an option that will let run fcsk automaticaly at your next reboot,  but I dont, knowwhwat it is ,  check the man page
+2007-05-10T07:52:00.000Z	paradon_	Pelo	I know how to make it check on the next boot (with tune2fs) but I specifically need to add the "-c -c" options (to surface scan for bad blocks) and as far as I can tell, tune2fs won't let me do that.
+2007-05-10T07:53:00.000Z	Pelo	paradon_	 it was a suggestion,

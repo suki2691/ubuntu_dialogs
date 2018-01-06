@@ -1,0 +1,4 @@
+2006-06-29T13:22:00.000Z	MarcN		 shwag: connect with the mysql client and it will tell you.
+2006-06-29T13:22:00.000Z	shwag	MarcN	Is there a generic way for all packages though?
+2006-06-29T13:23:00.000Z	MarcN	shwag	dpkg --list|grep -i mysql
+2006-06-29T13:23:00.000Z	MarcN	shwag	dpkg --list|grep ^ii | grep packagename

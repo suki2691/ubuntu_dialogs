@@ -1,0 +1,4 @@
+2006-06-11T12:06:00.000Z	saaaam		Newbie question: First time using ubuntu, how do I set up gcc? Tried downloading gcc 4.0 from synaptic but it doesn't seem to have worked.
+2006-06-11T12:07:00.000Z	saaaam		sam@ubuntu:~/cfiles$ gcc -Wall -ansi -o helloworld helloworld.c
+2006-06-11T12:07:00.000Z	saaaam		    bash: gcc: command not found
+2006-06-11T12:08:00.000Z	gnomefreak	saaaam	sudo apt-get install build-essential

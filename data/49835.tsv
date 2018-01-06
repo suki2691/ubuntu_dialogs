@@ -1,0 +1,4 @@
+2009-08-23T09:15:00.000Z	swayric		I deleted a linux install via fdisk->delete partitions(while still logged into the partition), and now ubuntu LiveCD/LiveUSB partitioning programs cannot read the partition table. Are there any standard ways of fixing this?
+2009-08-23T09:15:00.000Z	Dr_Willis	swayric	 reboot the machine. You just confused the kernel i imagine
+2009-08-23T09:17:00.000Z	swayric	Dr_Willis	I rebooted it several times since then booting LiveUSB/LiveCD but ubuntu-install/fdisk/gparted can not detect the partition table. Any ideas?
+2009-08-26T05:47:00.000Z	swayric	Dr_Willis	how do I "remove GPT and just create msdos label partition" ?

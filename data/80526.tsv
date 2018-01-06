@@ -1,0 +1,4 @@
+2009-08-20T06:32:00.000Z	C-S-B		i cant run crontab as a user. any suggestions?
+2009-08-20T06:32:00.000Z	neil_d	C-S-B	you could use "sudo crontab ...."
+2009-08-20T06:34:00.000Z	C-S-B	neil_d	yeah, i HAVE to use sudo crontab -e, shouldnt i be able to call it without sudo
+2009-08-20T06:37:00.000Z	neil_d	C-S-B	are you a member of the crontab group?

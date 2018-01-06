@@ -1,0 +1,4 @@
+2010-03-07T22:39:00.000Z	edakiri		how can it be discovered which package contains a certain group?
+2010-03-07T22:40:00.000Z	VCoolio	edakiri	if you mean how to find out what package own specific files or folders, do dpkg-query -S <file/folder>
+2010-03-07T22:41:00.000Z	edakiri	VCoolio	thanks, but i mean which package owns an entry in /etc/group
+2010-03-07T22:41:00.000Z	VCoolio	edakiri	ah ok, sorry, don't know how to find that

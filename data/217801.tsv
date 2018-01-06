@@ -1,0 +1,4 @@
+2010-11-20T07:59:00.000Z	poutyface		I've installed 10.10.1 64bit, and my machine has 4GB of RAM. However I only see 3.6GB. Do I need to install a -pae kernel?
+2010-11-20T08:00:00.000Z	psusi	poutyface	pae only applies to 32 bit kernels
+2010-11-20T08:00:00.000Z	poutyface	jrib	free -m
+2010-11-20T08:01:00.000Z	psusi	poutyface	most likely your motherboard does not support memory hoisting so things like the video frame buffer are being allocated under the 4gb mark for compatability with 32 bit operating systems, and that makes the ram at those addresses if it can not be hoisted

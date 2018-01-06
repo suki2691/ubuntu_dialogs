@@ -1,0 +1,4 @@
+2011-08-15T00:29:00.000Z	Nighthwk		Can anyone help with this error
+2011-08-15T00:29:00.000Z	Nighthwk		Error! Your kernel headers for kernel 2.6.35-22-generic cannot be found at
+2011-08-15T00:29:00.000Z	Nighthwk		/lib/modules/2.6.35-22-generic/build or /lib/modules/2.6.35-22-generic/source.
+2011-08-15T00:31:00.000Z	polarityman	Nighthwk	do you have any other generic header files, perhaps different versions? you might be able to symlink to them, are you compiling something? this sounds like an error when gcc or ld cant find .h files

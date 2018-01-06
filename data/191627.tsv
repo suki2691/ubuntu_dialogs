@@ -1,0 +1,4 @@
+2010-11-07T10:44:00.000Z	turtle_		can someone tell me how to share mounted drives in samba? everytime another machine accesses them it says permission denied
+2010-11-07T10:45:00.000Z	MTecknology	turtle_	'man mount' look for permission and user options
+2010-11-07T10:46:00.000Z	turtle_	MTecknology	what do they need to be set at?
+2010-11-07T10:47:00.000Z	MTecknology	turtle_	I can't remember offhand - you probably want to mount it as samba-users user/group and grant people access by adding them to that group

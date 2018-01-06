@@ -1,0 +1,4 @@
+2011-02-15T01:59:00.000Z	Wallace_		Networking question: a subnet of 255.255.240.0 is normal, but can I use non sequential bits?  i.e. can I create a subnet of 255.255.15.0 or something along similar lines (e.g. 255.255.96.0) ??
+2011-02-15T02:01:00.000Z	Jordan_U	Wallace_	With standard subnet masks, no, you cannot.
+2011-02-15T02:02:00.000Z	Wallace_	Jordan_U	really?  damn, and r3d2 and maxigas filled me with confidence :\
+2011-02-15T02:03:00.000Z	Jordan_U	Wallace_	There are other masks, like wildcard masks in IOS, which can be used that way, but not subnet masks.

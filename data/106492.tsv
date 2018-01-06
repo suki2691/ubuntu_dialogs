@@ -1,0 +1,4 @@
+2009-05-02T15:23:00.000Z	szonek		in my sudoers file there is entry: www-data ALL=(ALL) NOPASSWD: /sbin/iptables -t nat -A PREROUTING -p tcp|udp but it doesn't work, when i try to add this rule with -p tcp it prompts me for password
+2009-05-02T15:23:00.000Z	szonek		how can i use regexp to do this?
+2009-05-02T15:23:00.000Z	szonek		[tcp|udp]* works but it isn't exaclty what i want
+2009-05-02T15:23:00.000Z	FloodBot2	szonek	Please don't flood, use http://paste.ubuntu.com to paste, don't use Enter as punctuation.

@@ -1,0 +1,4 @@
+2009-08-30T23:43:00.000Z	therealpxc		hey. Can anyone help me with some BS DNS caching issues?
+2009-08-30T23:44:00.000Z	therealpxc		my OS is giving me bogus DNS values for www.facebook.com (specifically 208.67.216.132). However, I know that my DNS servers have accurate information--my roommate is using the same servers and getting functional DNS values. I also know that OpenDNS' values are correct, but if I switch to OpenDNS, nothing happens.
+2009-08-30T23:46:00.000Z	mneptok	therealpxc	pastebin /etc/hosts
+2010-08-18T11:43:00.000Z	mneptok	therealpxc	if Rummage can see access points in nm-applet, there's no need for ndiswrapper.

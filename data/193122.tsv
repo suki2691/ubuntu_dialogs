@@ -1,0 +1,4 @@
+2009-08-16T07:13:00.000Z	sartan		I'm pulling hair out with a weird grub problem... I've got a software raid5 as my / and a normal disk as my /boot - all of the grub tools are completely failing on me with ubuntu leaving me with basically an unusable system
+2009-08-16T07:13:00.000Z	ectospasm	sartan	how are they failing?
+2009-08-16T07:14:00.000Z	sartan		i'm at a point now where grub loads, my PC boots to a grub> prompt, and i'm able to manually specify kernel /vmlinuz-etc root=/dev/mapper/LVM-root & initrd /initrd-etc
+2009-08-16T07:14:00.000Z	sartan	ectospasm	The scripts seem to run, but i'm not completely sure what they're doing

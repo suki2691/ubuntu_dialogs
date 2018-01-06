@@ -1,0 +1,4 @@
+2009-06-20T01:05:00.000Z	bigmb		hey, C programming question. Say we have int a = 4; int b = 34; Is there any way to make printf("%d\n%d\n", a, b); print 04 for a? assume we don't know what a's value is
+2009-06-20T01:06:00.000Z	Flannel	bigmb	Yes.  You can specify a width for the field, and also specify it be zero padded instead of space padded.
+2009-06-20T01:07:00.000Z	bigmb	Flannel	I did %2d, but it only printed a space. What's the syntax?
+2009-06-20T01:08:00.000Z	Flannel	bigmb	%02d, but again, this is offtopic for here. ##C or #ubuntu-offtopic would be better places for these questions

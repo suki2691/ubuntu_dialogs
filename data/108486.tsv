@@ -1,0 +1,4 @@
+2009-04-07T00:20:00.000Z	kane77		hi, is there any tool to rename files from FILE.EXT to file.ext (to lowercase them)?
+2009-04-07T00:22:00.000Z	sarmisak	kane77	try this; http://blog.spikesource.com/bashstringconversion.htm
+2009-04-07T00:22:00.000Z	kane77	sarmisak	found this: perl -MFile::Copy -e 'move $_, lc($_) foreach glob "*"'
+2009-04-07T00:22:00.000Z	sarmisak	kane77	that's a choice ;)

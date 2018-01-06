@@ -1,0 +1,4 @@
+2006-11-19T14:40:00.000Z	roadboy		hi all. i've to change the bootup scripts sequence. i need one script start before than another. how can i do this?
+2006-11-19T14:40:00.000Z	leafw	roadboy	with bash 'wait', you can make one script wait for the other to return, and execute in a nested fashion
+2006-11-19T14:41:00.000Z	roadboy	leafw	i tried bu it didn't work.
+2006-11-19T14:42:00.000Z	leafw	roadboy	what can I say, I'm no bash guru

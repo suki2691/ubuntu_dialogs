@@ -1,0 +1,4 @@
+2012-08-28T13:02:00.000Z	lkthomas		hey guys, my ubuntu PC keep auto turn off after a period of time, anyone have idea why ?
+2012-08-28T13:02:00.000Z	k1l	lkthomas	heat issue?
+2012-08-28T13:02:00.000Z	lkthomas	k1l	errr, not sure yet, does log suppose to capture that ?
+2012-08-28T13:13:00.000Z	k1l	lkthomas	yep, show in the logs in /var/log  so dmesg and syslog (keep in mind that the get rotated after reboot to .0 or .1 etc)

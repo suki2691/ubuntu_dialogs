@@ -1,0 +1,4 @@
+2008-08-31T23:48:00.000Z	Vinterbound		Does somebody know how to make an image of a Linux system installation? (like Acronis Image does with Windows)
+2008-08-31T23:49:00.000Z	unop	Vinterbound	you can use dd
+2008-08-31T23:51:00.000Z	unop	Vinterbound	TJ13820, well if you want an exact image of a disk or partition.  sudo dd if=/dev/sda of=/path/to/image
+2008-08-31T23:53:00.000Z	unop	Vinterbound	TJ13820 though i would suggest using something like tar to backup data on a partition.  dd copies freespace too, which is sometimes undesirable.  tar czf /path/to/backup.tar.gz /path/to/backup

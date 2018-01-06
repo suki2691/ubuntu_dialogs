@@ -1,0 +1,4 @@
+2010-03-29T22:24:00.000Z	lun4tic		i have two different sized monitors connected via DVI and they work fine. is it possible to assign one virtual desktop (not xserver) to each of the monitors?
+2010-03-29T22:24:00.000Z	lun4tic		if yes, how
+2010-03-29T22:25:00.000Z	ZykoticK9	lun4tic	i don't think so
+2010-03-29T22:28:00.000Z	ZykoticK9	lun4tic	easy way is to disable twinview in Nvidia-setting prior to starting the game.  Hard way is you can edit your Xorg and create a NULL output for a certain resolution that will auto-disable one monitor when a particular resolution is requested (nvidia-settings doesn't really seem to like you doing this, and starts complaining when you load it up)

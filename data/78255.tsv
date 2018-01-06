@@ -1,0 +1,4 @@
+2008-09-28T02:38:00.000Z	unixSnob_		anyone know what package contains the gcc-x86_64-has-stack-protector.sh file?
+2008-09-28T02:39:00.000Z	IntuitiveNipple	unixSnob_	try dpkg-query -S 'gcc-x86_64-has-stack-protector.sh'
+2008-09-28T02:39:00.000Z	unixSnob_	IntuitiveNipple	thanks, but it comes up empty for me.. my problem is that the file is not found
+2008-09-28T02:40:00.000Z	IntuitiveNipple	unixSnob_	Then do http://packages.ubuntu.com/search?searchon=contents&keywords=gcc-x86_64-has-stack-protector.sh&mode=exactfilename&suite=hardy&arch=any

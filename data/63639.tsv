@@ -1,0 +1,4 @@
+2009-03-11T05:00:00.000Z	CloCkWeRX		alright; I am vastly confused about security certificates. I want to install a new certificate, so when I wget https://migs.mastercard.com.au/ I don't have to --no-check-certificate. Everything I have googled so far has told me to install firefox and click on things. This is a server, without firefox. what do I want to google next?
+2009-03-11T05:01:00.000Z	cbane	CloCkWeRX	you download the certificate file, put it in /etc/ssl/certs, cd to that dir, and run "c_rehash" as root
+2009-03-11T05:01:00.000Z	CloCkWeRX	cbane	thanks
+2009-03-11T05:02:00.000Z	cbane	CloCkWeRX	at least, that should work

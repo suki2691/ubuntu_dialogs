@@ -1,0 +1,4 @@
+2005-04-02T07:56:00.000Z	Tycho451		Hi, can anyone give me hand in changing the refresh rate on my new installed ubuntu?
+2005-04-02T07:56:00.000Z	Tycho451		The only thing I can select is 60Hz
+2005-04-02T07:57:00.000Z	mjr	Tycho451	basically what you'll need to do is edit /etc/X11/XF86Config-4 (or xorg.conf if in Hoary), the Monitor section, so that it spesifies your monitors capabilities
+2005-04-02T07:57:00.000Z	mjr	Tycho451	namely, you'll want to spesify HorizSync and VertRefresh ranges, which you can get from your monitor manual

@@ -1,0 +1,4 @@
+2010-12-20T20:38:00.000Z	bencc		in what file in a .deb package I  can create a system user?
+2010-12-20T20:39:00.000Z	Darael	bencc	You need to do it in the config scripts AIUI.  Read man adduser and look at the debian-package config script documentation.
+2010-12-20T20:42:00.000Z	bencc	Darael	I want to look at existing package to see what kind of user I need to create. I'll look at the config script. thanks
+2010-12-20T20:43:00.000Z	bencc	Darael	ok. find adduser... in the postinst script of some package

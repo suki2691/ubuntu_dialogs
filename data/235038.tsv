@@ -1,0 +1,4 @@
+2005-05-28T15:31:00.000Z	livia		Depth  24;Modes  "1024x768" "800x600" "640x480" I cant change it from 640x480 @ 60 Hz
+2005-05-28T15:32:00.000Z	nickrud	livia	do you have VertRefresh defined under monitor?
+2005-05-28T15:34:00.000Z	livia	nickrud	no
+2005-05-28T15:37:00.000Z	nickrud	livia	you need to find out what your vertical refresh and horizontal sync for your monitor is, and add them to xorg.conf

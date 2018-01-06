@@ -1,0 +1,4 @@
+2009-10-30T12:07:00.000Z	alphaOmegaEpsilo		When trying to upgrade to koala my computer crashed and now I can not enter ubuntu. So I am entering via recovery mode in order to move important files to my usb but I do not know where my usb is mounted. It is mentioning "sdc" but there is no /dev/sdc (only /dev/sda*). (I do not have a live cd)
+2009-10-30T12:08:00.000Z	Loafers	alphaOmegaEpsilo	type dmesg
+2009-10-30T12:09:00.000Z	alphaOmegaEpsilo	Loafers	I did but could not find the location. What should I look for?
+2009-10-30T12:09:00.000Z	Loafers	alphaOmegaEpsilo	unplug usb, plug in usb type dmesg and it should show what device was just plugged in

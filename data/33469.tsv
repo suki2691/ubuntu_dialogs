@@ -1,0 +1,4 @@
+2011-06-24T21:52:00.000Z	dstufft		My internet is _really_ slow in Ubuntu 11.04, dual boot windows 7 is 10-20x faster so I know it's not my network or ISP
+2011-06-24T21:52:00.000Z	ActionParsnip	dstufft	different drivers in different OSes
+2011-06-24T21:54:00.000Z	dstufft	ActionParsnip	sorry it takes me forever to respond. I assumed it was a driver issue, is there a way to use a different driver in Ubuntu without getting a seperate NIC
+2011-06-24T21:55:00.000Z	ActionParsnip	dstufft	run:   sudo lshw -C network     you will see the network chip and the driver used and you can hunt for guides

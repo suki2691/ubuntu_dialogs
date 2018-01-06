@@ -1,0 +1,4 @@
+2009-12-10T04:40:00.000Z	cmacis		Hey all. I've just reinstalled karmic and I need some help. The screen is bigger than my monitor, so I'm only seeing the top left of the screen. I've been into system>preferences>display but none of the settings there worked. Every setting but the one I'm on turned everything into lines
+2009-12-10T04:42:00.000Z	cmacis		It's weird because the openchrome drivers are installed, and that's what my laptop needs
+2009-12-10T04:43:00.000Z	apocalypt	cmacis	crtl+alt+F1 >login>sudo dpkg-reconfigure xserver-xorg. maybe it helps
+2009-12-10T04:44:00.000Z	apocalypt	cmacis	after that restart Xserver: sudo /etc/init.d/gdm restart for ubuntu

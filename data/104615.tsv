@@ -1,0 +1,4 @@
+2012-01-25T20:14:00.000Z	pwork		Hello, I ve a big problem : I ve a 2.6.35 natty kernel with an ATI Radeon HD on it. I had a driver issue, so I uninstalled all : fglrx, reconfigure xserver and so. I just placed a trustful vesa xorg.conf
+2012-01-25T20:15:00.000Z	pwork		But it won 't boot
+2012-01-25T20:15:00.000Z	pwork		And I can't boot in single user mode neither : I enter a LUKS pass, text mode, then screen jumps to X, resolution changes, and I see mount points check
+2012-01-25T20:16:00.000Z	ActionParsnip	pwork	add the bootoption: xforcevesa     may help

@@ -1,0 +1,4 @@
+2009-05-02T23:10:00.000Z	arktvrvs		im trying to do some internet connection sharing but the device im attempting to connect say the cables arent hooked up (which they are and ive verified that they work) i think the carrier signal is not present and i have no idea why. ive done ifconfig, iptables, added route, and installed dnsmasq
+2009-05-02T23:11:00.000Z	Ghoti	arktvrvs	are you connecting two computers to each other directly?  If so, are you using a crossover cable?
+2009-05-02T23:20:00.000Z	arktvrvs	Ghoti	the only difference between the formerly-working-setup and my setup now is a different computer with a different onboard ethernet device
+2009-05-02T23:21:00.000Z	Ghoti	arktvrvs	In the absence of a switch, my first thought is to try an XO cable.

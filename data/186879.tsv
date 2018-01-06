@@ -1,0 +1,4 @@
+2008-09-26T20:55:00.000Z	pluffsy		hi
+2008-09-26T20:55:00.000Z	pluffsy		I have a directory with permission 777 that apache uploads files to. The files gets permission read for www-data only. How can I make the files (automatically) get the permission of the directory?
+2008-09-26T20:56:00.000Z	ikonia	pluffsy	umask
+2008-09-26T20:57:00.000Z	pluffsy	ikonia	thank you.

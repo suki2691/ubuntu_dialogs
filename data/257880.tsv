@@ -1,0 +1,4 @@
+2005-03-05T17:16:00.000Z	dnlien		Anyone know anything about adding Xterm support to Ubuntu, I am admitedly a noob
+2005-03-05T17:17:00.000Z	JDahl	dnlien	what do you mean - do you want an old-fashioned xterm? you can just install it if you're unhappy with gnome's terminal
+2005-03-05T17:20:00.000Z	JDahl	dnlien	you probably mean exporting X11 via ssh? You need to change the configuration of the gdm for that - it's disabled for security reasons by default
+2005-03-05T17:26:00.000Z	JDahl	dnlien	are you trying to connect to a different server with ssh, but you cannot any X11 gfx - only a dumb terminal? then you should be asking someone (who knows more about it than me) how to export X11 gfx via ssh using public keys

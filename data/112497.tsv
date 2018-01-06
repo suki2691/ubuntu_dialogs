@@ -1,0 +1,4 @@
+2007-12-01T12:25:00.000Z	Weng		Alright. Running Feisty, rebuilt with a custom kernel and, for the life of me, I can't get the nVidia drivers installed.
+2007-12-01T12:26:00.000Z	dns53	Weng	same kernel version? you should be able to build the restricted package from source if you made a deb of the kernel
+2007-12-01T12:26:00.000Z	Weng	dns53	Newer kernel
+2007-12-01T12:29:00.000Z	Weng	dns53	Now that I really think about it, the best course is probably going to be to go build the drivers by hand and hack the makefile's "check to make sure this goon actually has an nVidia card" to recognize my one-off video chip's dev id

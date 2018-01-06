@@ -1,0 +1,4 @@
+2006-12-27T14:44:00.000Z	_linux		anyone know how to change a system from read only to read-write?
+2006-12-27T14:45:00.000Z	linux_user400354	_linux	umask
+2006-12-27T14:45:00.000Z	_linux	cge	yes
+2006-12-27T14:46:00.000Z	linux_user400354	_linux	it depends on the filesystem, but you will have to umount it and then mount it again with the correct options

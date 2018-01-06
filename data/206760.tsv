@@ -1,0 +1,4 @@
+2007-11-27T08:26:00.000Z	abcent		Hi Guys/Ladies, I've installed Ubuntu 7.10 on my sons (winXP machine), i let ubuntu create partition... Problem is i don't appear to have rights to install anything .... saying something about i386 bla bla ... is there a fix for this.... i'm also a linux newbee
+2007-11-27T08:26:00.000Z	sethk	abcent	start the package manager this way:    sudo synaptic
+2007-11-27T08:26:00.000Z	sethk	abcent	that will give the package manager admin privileges
+2007-11-27T08:27:00.000Z	sethk	abcent	same with apt-get, or any of the various package management CLI and GUI utilities

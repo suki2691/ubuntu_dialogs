@@ -1,0 +1,4 @@
+2005-12-29T14:49:00.000Z	lennart_		I have a strange 5.10 installation problem. The installation halts when configuring apt when I have one of my two harddrives connected. If I have both connected the installation passes but GRUB dont work. Error 17(wrong fs type,or something)
+2005-12-29T14:50:00.000Z	intelikey	lennart_	sounds like you need to tell grub it's on the other drive.
+2005-12-29T14:51:00.000Z	lennart_	intelikey	how?
+2005-12-29T14:52:00.000Z	intelikey	lennart_	edit /boot/grub/menu.list and change the ub root to the other drive     maybe 'man grub' for details on drive specifications

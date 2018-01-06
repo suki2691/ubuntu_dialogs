@@ -1,0 +1,4 @@
+2008-08-21T23:33:00.000Z	dingoyoko		Hi, I'm setting up a fileserver with SMB to share with both XP and Ubuntu machines. Do I have to format as NTFS?
+2008-08-21T23:34:00.000Z	aldroid	dingoyoko	no, you can xfs or jfs or ext3 or whatever
+2008-08-21T23:35:00.000Z	aldroid	dingoyoko	it's not ext3 for Windows machines, it's SMB file access :)
+2008-08-21T23:38:00.000Z	aldroid	dingoyoko	if you format your Samba share as NTFS, you'll have trouble with NTFS ACLs users set on their machines. Though you can use POSIX ACL-capable FS and bridge NT ACLs to them. Samba has no native treatment of NTFS.

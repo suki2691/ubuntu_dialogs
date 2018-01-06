@@ -1,0 +1,4 @@
+2011-11-20T15:20:00.000Z	lulzilla		any idea why I am getting permission error for: sudo echo deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen >> /etc/apt/sources.list
+2011-11-20T15:20:00.000Z	lulzilla		root has rw access
+2011-11-20T15:20:00.000Z	lulzilla		oh, how do you do it?
+2011-11-20T15:21:00.000Z	Ampelbein	lulzilla	sudo doesn't work that way. 'echo deb blah | sudo tee -a /etc/apt/sources.list'

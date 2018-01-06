@@ -1,0 +1,4 @@
+2008-01-18T06:00:00.000Z	davidwong		anyone know how to make /tmp exec,? without rebooting??
+2008-01-18T06:00:00.000Z	mneptok	davidwong	sudo chmod -R -x+X /tmp
+2008-01-18T06:02:00.000Z	davidwong	mneptok	how do i make it noexec after i finish?
+2008-01-18T06:03:00.000Z	mneptok	davidwong	/tmp is a directory. it should always have the execute bit

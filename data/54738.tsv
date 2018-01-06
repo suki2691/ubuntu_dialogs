@@ -1,0 +1,4 @@
+2011-07-25T01:26:00.000Z	MrUnagi		are there multiple firewalls in ubuntu or something
+2011-07-25T01:26:00.000Z	edbian_	MrUnagi	iptables is the only one.
+2011-07-25T01:28:00.000Z	edbian_	MrUnagi	Just don't use ufw and gufw and it isn't convoluted
+2011-07-25T01:29:00.000Z	MrUnagi	edbian_	dr_willis iptables -A INPUT -p tcp -s 0/0 --sport 1024:65535 -d 202.54.1.20 --dport 143 -m state --state NEW,ESTABLISHED -j ACCEPT still doesn't open 143 am i missing something

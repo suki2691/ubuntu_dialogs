@@ -1,0 +1,4 @@
+2006-07-02T05:28:00.000Z	thomaswebb		hello everyone, i have traced all my problems back to this one thing: Depends: libfreetype6 (>=2.2.1) but 2.1.10-1ubuntu2.1 is to be installed, but i have no idea how to fix it?
+2006-07-02T05:29:00.000Z	Sanne	thomaswebb	it seems you're trying to install from an unofficial repository? Which package, from where?
+2006-07-02T05:31:00.000Z	Sanne	thomaswebb	from which repository are you trying to install?
+2006-07-02T05:33:00.000Z	Sanne	thomaswebb	the repositories are listed in the file /etc/apt/sources.list. You could paste the contents of this file to paste.ubuntu-nl.org, so we could have a look.

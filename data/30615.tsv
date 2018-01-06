@@ -1,0 +1,4 @@
+2010-06-05T23:20:00.000Z	Dragonuv		how do i access a linux partition from windows? I have tried numerous programs but none of them work
+2010-06-05T23:21:00.000Z	Dragonuv		I did, it didn't work
+2010-06-05T23:21:00.000Z	Dragonuv		strings
+2010-06-05T23:22:00.000Z	bmathise	Dragonuv	This is the way I do it: In /boot/grub/menu.lst I added a line after the first OS I use (ubuntu) with this text savedefault=4  After the last OS (Windows) I added a line that says savedefault=0  You may have to change the numbers according to the number of entries in your menu.lst Just count the lines starting with title and remember to start counting from 0 (first OS is number 0) This way, when I reboot from Ubuntu, Windows will be chosen, and whe

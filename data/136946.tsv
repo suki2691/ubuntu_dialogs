@@ -1,0 +1,4 @@
+2011-06-22T17:15:00.000Z	zOOd		hi, I'm trying to use a shared directory, but it doesnt show in "network". More over, adfter an smbclient -L localhost, Server and Master remain empty. Any help welcome.
+2011-06-22T17:17:00.000Z	dr_willis	zOOd	 ive noticed those tools  and samba tends to not see all my shares. I just enter the actual path in the gnome file manager - ctrl-l    smb://servername/sharename   and it sees them here.. I naver seen them when i browse the network.
+2011-06-22T17:19:00.000Z	zOOd	dr_willis	thx, it works :-D
+2011-06-22T17:20:00.000Z	dr_willis	zOOd	 yea. samba browsing has been breaking worse and worse in each new ubuntu release ive tried.. not sure if its any better in other disrtos.. samba/windows 7 seems to make it even worse.

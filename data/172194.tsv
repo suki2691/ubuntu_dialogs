@@ -1,0 +1,4 @@
+2007-05-27T15:12:00.000Z	ubuntu_		What's the procedure to add a second SATA hard drive on my machine? 1. plug it in 2. mount  it 3. partition it 4. create an ext3 filesystem, is that correct?
+2007-05-27T15:12:00.000Z	nix	ubuntu_	kinda'
+2007-05-27T15:14:00.000Z	nix	ubuntu_	partition it -- format it -- mount it
+2007-05-27T15:17:00.000Z	nix	ubuntu_	mkfs.ext3 will format the disk. for partitioning use cfdisk or maybe gparted

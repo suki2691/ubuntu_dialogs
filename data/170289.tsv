@@ -1,0 +1,4 @@
+2007-01-02T13:30:00.000Z	drivingmenuts		is there anyway to install nvidia drivers poof?
+2007-01-02T13:31:00.000Z	drivingmenuts		like not manual way?
+2007-01-02T13:31:00.000Z	lupine_85	drivingmenuts	how poof is poof?
+2007-01-02T13:34:00.000Z	lupine_85	drivingmenuts	gksudo gedit /etc/X11/xorg.conf and edit the resulting file. There's a "section "Device"" with a Driver line that you need to change to use "nvidia"

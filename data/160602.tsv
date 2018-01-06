@@ -1,0 +1,4 @@
+2008-04-28T10:12:00.000Z	fayetteson		i just upgraded from 7.10 to 8.04 and now after i login i see nothing but a white box on the corner and thats it
+2008-04-28T10:12:00.000Z	Jordan_U	fayetteson	Try logging in to a failsafe gnome session
+2008-04-28T10:13:00.000Z	Jordan_U	fayetteson	Or ctrl+alt+F1 and try "killall compiz"
+2008-04-28T10:17:00.000Z	Jordan_U	fayetteson	No, it will just leave you without a window manager ( you won't be able to move your windows but they will display ) you can then run "metacity --replace & disown" to get the metacity window manager

@@ -1,0 +1,4 @@
+2006-03-07T11:33:00.000Z	linux_user400354		How can I add this to my path "/usr/local/jdk1.5.0_06/bin/"
+2006-03-07T11:35:00.000Z	wastrel	linux_user400354	 open up your .bash_profile, and add the line   export PATH=$PATH:/usr/local/jdk1.5.0_06/bin/      or for a system-wide change, edit /etc/profile
+2006-03-07T11:38:00.000Z	linux_user400354	wastrel	when i add to my .bash_profile, does it matter where i add? should i add between the if fi or at the very end?
+2006-03-07T11:38:00.000Z	wastrel	linux_user400354	 at the end outside an if block

@@ -1,0 +1,4 @@
+2007-03-27T15:03:00.000Z	shazzr		got a problem with irssi. i'm running feisty fawn...and for some odd reason, when i start irssi, it tries to connect to a server which isn't to be found in the .irss/config file. can anyone help me??
+2007-03-27T15:03:00.000Z	dyrne	shazzr	there is an /etc/irssi.conf file
+2007-03-27T15:03:00.000Z	shazzr	dyrne	i know, but it isn't listed there either.
+2007-03-27T15:11:00.000Z	dyrne	shazzr	yo might just compile and install irssi to /home/user/local/bin  then add that path to the begining of $PATH

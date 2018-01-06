@@ -1,0 +1,4 @@
+2009-09-23T05:42:00.000Z	RS		I just installed openssh-server. I can connect "ssh localhost" but when I enter "ssh <myip>" on a computer connected to the internet, it just sits waiting for long and then says "Server closed connection unexpectedly"
+2009-09-23T05:42:00.000Z	dragon	RS	is that your public IP?
+2009-09-23T05:43:00.000Z	dragon	RS	you'll need to forward the ports from the router to the server
+2009-09-23T05:43:00.000Z	dragon	RS	http://portforward.com/

@@ -1,0 +1,4 @@
+2012-06-02T15:11:00.000Z	mbucko		anyone knows anything about setting up sshfs to act as a server on ubuntu 12?
+2012-06-02T15:13:00.000Z	MonkeyDust	mbucko	 sshfs is a way to connect to a remote pc, what do you mean exactly?
+2012-06-02T15:14:00.000Z	MonkeyDust	mbucko	 use nfs to do it, not sshfs
+2012-06-02T15:15:00.000Z	MonkeyDust	mbucko	 add your lacal pc in /etc/exports/ on the remote pc, then mount the remote pc on yout local pc, using nfs

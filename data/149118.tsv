@@ -1,0 +1,4 @@
+2008-04-20T03:49:00.000Z	Animortis		Is there a way a program is initialized but does not appear in ps -A
+2008-04-20T03:51:00.000Z	Animortis		Let me rephrase: I have a program in /etc/init.d that will start and stop like any other script but it won't start when the system boots. Does anyone know why?
+2008-04-20T03:53:00.000Z	unop	Animortis	you need to enable the script to work.  see the update-rc.d manpage
+2008-04-22T01:09:00.000Z	unop	Animortis	update-rc.d

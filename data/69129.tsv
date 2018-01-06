@@ -1,0 +1,4 @@
+2009-01-26T20:13:00.000Z	Arrick		hey, through terminal, how do I tell what user apache2 is using?
+2009-01-26T20:13:00.000Z	Arrick		(I installed using tasksel lamp-server)
+2009-01-26T20:15:00.000Z	oCean_	Arrick	the ps command (various options) shows you list of running processes. Try running "ps axuww | grep -i apache" The owner of the process is in first column
+2009-01-26T20:17:00.000Z	oCean_	Arrick	yes. Depending on desired result it might be necessary to not only change the ownership (user) but group also.. that would be "chown -R apache-www:apache-www /path/to/dir"

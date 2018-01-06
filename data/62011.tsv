@@ -1,0 +1,4 @@
+2009-08-21T18:58:00.000Z	eps		how can i see how many files are in a directory ?
+2009-08-21T18:58:00.000Z	grawity	eps	ls | wc -l
+2009-08-21T18:58:00.000Z	grawity	eps	For a recursive one (with subdirectories), it's find | wc -l
+2009-08-21T18:58:00.000Z	grawity	eps	err, find -type f | wc -l

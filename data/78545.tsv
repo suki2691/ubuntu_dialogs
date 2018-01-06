@@ -1,0 +1,4 @@
+2010-09-02T21:37:00.000Z	strange		hey guys im running a fresh install of lucid desktop but i was trying to disable gdm autostarting by doing "update-rc.d -f gdm remove" and it didnt work
+2010-09-02T21:38:00.000Z	dajhorn	strange	Lucid uses `upstart` instead of the usual init.d style of scripts, so this may not work as expected.
+2010-09-02T21:38:00.000Z	strange	dajhorn	can you tell me how to disable/enable gdm ?
+2010-09-02T21:40:00.000Z	dajhorn	strange	If update-rc.d doesn't work, then disable it in the /etc/init/gdm.conf file.

@@ -1,0 +1,4 @@
+2011-07-04T02:50:00.000Z	tdignan		use ext3/4
+2011-07-04T02:52:00.000Z	pfifo	tdignan	ext is fragmented as well
+2011-07-04T02:57:00.000Z	tdignan	pfifo	how come i never have to defrag? is it because it's done automatically?
+2011-07-04T02:58:00.000Z	pfifo	tdignan	defrag would slow ext down. it positions 2 files to where it can keep the read head in between them prepared to goto the one you want. (times thousands of files of course)

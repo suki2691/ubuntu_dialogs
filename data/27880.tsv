@@ -1,0 +1,4 @@
+2010-12-19T05:44:00.000Z	sparrW		I need to make files on a machine with an ubuntu live cd available over the network to another computer. Without an internet connection, there seems to not be a SMB or FTP server on the live cd. Are there other options?
+2010-12-19T05:45:00.000Z	dnivra	sparrW	i guess you could install them? or you could use scp to copy. the other computer should have ssh-server running.
+2010-12-19T05:46:00.000Z	sparrW	dnivra	no internet connection, can't install them. other computer is windows, and i need to be able to browse/access files on the live cd machine from the windows machine
+2010-12-19T05:47:00.000Z	dnivra	sparrW	not even on the other computer?

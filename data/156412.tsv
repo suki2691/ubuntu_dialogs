@@ -1,0 +1,4 @@
+2007-07-06T14:18:00.000Z	zabin		is there anyway to view who has logged in though ssh ?
+2007-07-06T14:19:00.000Z	genii	zabin	cat /etc/auth.log |grep ssh
+2007-07-06T14:19:00.000Z	genii	zabin	Sorry, /var/log/auth.log
+2007-07-06T14:27:00.000Z	genii	zabin	You can also try:   cat /var/log/messages | grep ssh | more

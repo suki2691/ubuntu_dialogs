@@ -1,0 +1,4 @@
+2011-11-08T03:49:00.000Z	red_		Hi, I'm trying to extract the files from 1862 .7z files, and I am trying to figure out 1 command that will do all the work, so I don't have to painstakingly extract each file with archive manager.  The archives are fine, but when I try 7z e *.7z  I just get a message that says there are no files in the source archive
+2011-11-08T03:49:00.000Z	escott	red_	7z is not very feature full. you need to use xargs or a bash loop
+2011-11-08T03:50:00.000Z	escott	red_	for f in *.7z do; 7z e "$f"; done;
+2011-11-08T03:51:00.000Z	escott	red_	it thinks you are trying to extract a file named foo.7z from an archive bar.7z because it see 7z e foo.7z bar.7z

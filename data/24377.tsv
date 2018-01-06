@@ -1,0 +1,4 @@
+2011-06-03T02:33:00.000Z	trobrock		is there any way to allow a specific user run a specific sudo command with no password
+2011-06-03T02:34:00.000Z	maco	trobrock	should be able to put the user, the path to the command, and NOPASSWD into /etc/sudoers
+2011-06-03T02:34:00.000Z	maco	trobrock	examples are in man 5 sudoers
+2011-06-03T02:34:00.000Z	trobrock	maco	I tried: %release ALL=(NOPASSWD) /etc/init.d/web_server *

@@ -1,0 +1,4 @@
+2011-07-28T21:37:00.000Z	jerryb		Hi how do I get rid of this message when running aptitude upgrade: dpkg-query: warning: parsing file '/var/lib/dpkg/status' near line 58504 package 'openshot-ffmpeg':  error in Version string 'git-2623d8f-1': version number does not start with digit
+2011-07-28T21:38:00.000Z	coz_	jerryb	  did you manually install openshot?
+2011-07-28T21:39:00.000Z	jerryb	coz_	you mean tar file? or .deb?  Not that I recall
+2011-07-28T21:39:00.000Z	coz_	jerryb	 mm  first i would attempt  a  sudo apt-get install -f

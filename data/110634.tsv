@@ -1,0 +1,4 @@
+2007-12-10T21:47:00.000Z	SuicideSalmon		can anyone give me a hand? I'm running firefox on 7.10 x86_64 upgraded from 7.07. Firefox is so buggy it's painful - most of the plugins have stopped working (eg on youtube, a blank square will be there, no error), and firefox itself hangs for a few seconds extremely regular. Any idea what might be causing the issue?
+2007-12-10T21:48:00.000Z	MasterShrek_	SuicideSalmon	back up your .mozilla directory and cdelete it, then try to open firefox again, see if that fixes the slow part
+2007-12-10T21:49:00.000Z	MasterShrek_	SuicideSalmon	nspluginwrapper is what you need for flash in x86_64
+2007-12-10T21:50:00.000Z	MasterShrek_	SuicideSalmon	apt-get purge

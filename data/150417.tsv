@@ -1,0 +1,4 @@
+2011-05-31T20:59:00.000Z	jason^		any chance a new version of pam that was released might break cron?
+2011-05-31T21:00:00.000Z	Pici	jason^	Yes. But its been pulled from the repositories, it shouldn't download.
+2011-05-31T21:01:00.000Z	jason^	Pici	yeah a bunch of my servers updated at 6am today and they all pulled down new versions of that bad package
+2011-05-31T21:01:00.000Z	Pici	jason^	I manually updated around that time and grabbed it too.  The bug has a workaround for restarting cron, but we'll need to wait for the package to be updated before there is a real fix.

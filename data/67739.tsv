@@ -1,0 +1,4 @@
+2009-02-13T01:49:00.000Z	bmorris		I have a network drive mounted using samba but I'm running into problems.. I get a permission denied error  every time I try and save a file.  I can open them fine though.  When I do an ls -l in the directory it says that I have all the correct permissions.. Does anybody know what could be going on?
+2009-02-13T01:50:00.000Z	z1pp3r	bmorris	maybe the samba server doesn't allow anyone write access to the share?
+2009-02-13T01:51:00.000Z	bmorris	z1pp3r	how would I check that?  I have ssh access to the server
+2009-02-13T01:53:00.000Z	z1pp3r	bmorris	i haven't played around with samba for quite some time, but i believe its specified in the config file where you specified the share in the first place.

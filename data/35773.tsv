@@ -1,0 +1,4 @@
+2010-03-18T20:29:00.000Z	alias7		If I call /opt/Wakfu/Wakfu when I'm in / it fails. If I call it in the /opt/Wakfu directory it works. Any way to set up the path for a specific command so I can call from '/' but have it read from /opt/Wakfu as local?
+2010-03-18T20:30:00.000Z	alias7		Dope: script
+2010-03-18T20:31:00.000Z	alias7		Dope: is adding cd /opt/Wakfu to the top the only way? Is there something I could add to the command line?
+2010-03-18T20:33:00.000Z	frikinz	alias7	you could do : (cd /opt/wakfu ; ./script)

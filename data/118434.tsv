@@ -1,0 +1,4 @@
+2008-06-25T20:23:00.000Z	wasabi		So, the ppp support in network/interfaces seems to break because it has no way to wait until the pppd has successfully started before running the post-up commands. I'm guessing this is just the way it is, and you should use /etc/ppp/if-up instead. Fine. But it also spits out an error complaining that the interface itself doesn't even exist when you try to bring it up.
+2008-06-25T20:23:00.000Z	wasabi		/usr/share/doc/ppp/examples/interfaces shows that you make up a virtual interface name.
+2008-06-25T20:23:00.000Z	wasabi		If that's the case, why does it bother to test for the interface?
+2008-06-25T20:25:00.000Z	bazhang	wasabi	sounds like a bug

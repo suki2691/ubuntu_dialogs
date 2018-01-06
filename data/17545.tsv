@@ -1,0 +1,4 @@
+2012-06-10T07:22:00.000Z	bsmith093		how do i parse a text file for url strings?
+2012-06-10T07:24:00.000Z	caffine	bsmith093	depending on the format of the file, one of these might be your answer: grep, sed, or perl
+2012-06-10T07:25:00.000Z	bsmith093	caffine	the url strings are seperated by spaces so they should be easy to pickout automatically , so whats the grep for that?
+2012-06-10T07:26:00.000Z	caffine	bsmith093	maybe something like "grep http *" ?   there aren't enough details on what you're doing or what you want to get out. :)  it may be better to have a quick look through the man pages of those commands and see which one best matches your needs.

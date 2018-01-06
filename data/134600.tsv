@@ -1,0 +1,4 @@
+2007-05-11T11:28:00.000Z	netmon		Do I have to mount a partiion before I can boot to it, when I add it in grub I get "Error 17 : Cannot mount selected partition"
+2007-05-11T11:28:00.000Z	dr_willis	netmon	 in your case its proberly trying to use the wrong partition for . or whatever its trying to mount to.
+2007-05-11T11:28:00.000Z	dr_willis	netmon	 mounting comes after booting the os.
+2007-05-11T11:29:00.000Z	netmon	dr_willis	In Gparted the partition I want to boot to is /dev/sda1 and has no mount point

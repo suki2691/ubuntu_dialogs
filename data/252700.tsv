@@ -1,0 +1,4 @@
+2006-01-20T12:09:00.000Z	user-2-u		greeting
+2006-01-20T12:11:00.000Z	user-2-u		can anyone tell me how to make ubuntu /xp  boot to xp by default
+2006-01-20T12:12:00.000Z	HappyFool	user-2-u	assuming you have done a normal ubuntu install, you can edit the file /boot/menu/grub.lst to boot XP by default
+2006-01-20T12:13:00.000Z	HappyFool	user-2-u	you'll see a line 'default 0' (or some other number) in menu.lst; change it to a the number corresponding to Windows in your boot menu (the menu you see when you boot). Bear in mind that grub counts from 0 (0,1,2,3...)

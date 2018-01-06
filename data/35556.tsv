@@ -1,0 +1,4 @@
+2010-06-30T14:47:00.000Z	shifftyonejr		If I have alot of .deb packages downloaded, how can I install them without having to do them all one at a time?
+2010-06-30T14:48:00.000Z	joschi	shifftyonejr	`for f in *.deb; do dpkg -i "$f"; done`
+2010-06-30T14:48:00.000Z	joschi	shifftyonejr	but you will have to resolve dependencies by hand
+2010-06-30T14:49:00.000Z	joschi	shifftyonejr	e. g. package foo needs to be installed before package bar

@@ -1,0 +1,4 @@
+2006-11-06T08:07:00.000Z	kihai		Could anyone here help me on this? I did the update to edgy with update-manager -c and now there are some packages which can't be reconfigured (acpid, acpi-support, edubuntu-desktop) and the kernel installed is still the dapper kernel. Any ideas on how to solve this?
+2006-11-06T08:08:00.000Z	gnomefreak	kihai	does sudo dpkg --configure -a  work?
+2006-11-06T08:09:00.000Z	kihai	gnomefreak	Nope. It ends with an error about the unconfigured packages acpid, acpi-support and edubuntu-desktop
+2006-11-06T08:10:00.000Z	gnomefreak	kihai	try to install them manually

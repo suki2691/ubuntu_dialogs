@@ -1,0 +1,4 @@
+2011-10-29T04:39:00.000Z	robinsch		sudo mount -t iso9660 isofile.iso /media/isofile -o loop
+2011-10-29T04:39:00.000Z	robinsch		mount: mount point /media/isofile does not exist
+2011-10-29T04:39:00.000Z	robinsch		:(
+2011-10-29T04:39:00.000Z	matlock	robinsch	usually the method of manual mounting consists of creating the directory sudo mkdir /mount/directoryname     then mounting, then simply navigating to the mount directory

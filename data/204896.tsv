@@ -1,0 +1,4 @@
+2005-12-10T12:07:00.000Z	Talisker		wait, the root argument passed to the kernel... should it point to the system root partition or to the grub root partition?
+2005-12-10T12:09:00.000Z	Talisker		My ubuntu kernel is on /dev/hda1, but grub is installed on /dev/hda3, so which one should be passed at root=/dev/hd[x]  ?
+2005-12-10T12:09:00.000Z	Taa5i_	Talisker	/dev/hda
+2005-12-10T12:09:00.000Z	Talisker	Taa5i_	/dev/hda or /dev/hda1 ?

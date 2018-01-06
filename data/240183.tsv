@@ -1,0 +1,4 @@
+2007-12-10T00:42:00.000Z	KI4IKL		when trying to compile pidgin from souce, I get this error You must have the GLib 2.0 development headers installed to build. If you have these installed already you may need to install pkg-config so I can find them.
+2007-12-10T00:43:00.000Z	nickrud	KI4IKL	why compile when it's in the repos?  and apt-get build-dep will get all the dev headers you'll need if you really want to compile
+2007-12-10T00:43:00.000Z	nickrud	KI4IKL	apt-get build-dep pidgin, that is
+2007-12-17T07:28:00.000Z	nickrud	KI4IKL	you can get rid of the great majority with apt-get remove libqt3-mt

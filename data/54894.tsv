@@ -1,0 +1,4 @@
+2009-06-08T00:20:00.000Z	ZykoticK9	freenode2	an alias is typically a Bash alias and would thus only work in a bash terminal that calls on the .bashrc related files, trying to create a "shortcut" to an alias probably won't work, as it's not calling on Bash's configuration.  Why call the alias?  Just create the launcher with the full command instead.  Best of luck.
+2009-06-08T00:23:00.000Z	freenode2	ZykoticK9	also the full command doesn't work the command is "xset dpms force off && gnome-screensaver-command --lock" i need it to turn off the display completely and also lock the screen....why nothing appens...
+2009-06-08T00:25:00.000Z	ZykoticK9	freenode2	I'd try putting the launch to "xterm -e <THE COMMAND YOU'RE USING>" and see if it works then.
+2009-06-08T00:28:00.000Z	ZykoticK9	freenode2	if you try running the command you are using in a terminal does it work?  Sorry man i gotta run - so hope you can figure it out.  good luck.

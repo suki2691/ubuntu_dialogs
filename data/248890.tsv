@@ -1,0 +1,4 @@
+2010-08-11T16:56:00.000Z	johnnylee194		Hello everyone, I have a problem with setting up the FTP server. After "sudo apt-get install vsftpd; sudo mkdir -p /ftp/pub; sudo usermod -d /ftp/pub/ ftp; sudo /etc/init.d/vsftpd restart" I still can't connect with a FTP client, is there anything wrong here?
+2010-08-11T16:58:00.000Z	johnnylee194		$ sudo netstat -tulpen | grep vsftpd tcp        0      0 0.0.0.0:21              0.0.0.0:*               LISTEN      0          7670646     6672/vsftpd
+2010-08-11T16:58:00.000Z	johnnylee194		the vsftpd is running and listening on port 21
+2010-08-11T16:59:00.000Z	io	johnnylee194	Is it binding to an externally reachable IP address?

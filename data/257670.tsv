@@ -1,0 +1,4 @@
+2006-01-19T06:04:00.000Z	sagarp		how can i install just ONE program from dapper? for example i just want to install dapper's version of evolution, so can i do: apt-get install dapper -t dapper?
+2006-01-19T06:04:00.000Z	sagarp		apt-get install evolution -t dapper***
+2006-01-19T06:04:00.000Z	Amaranth	sagarp	sudo apt-get install evolution/dapper
+2006-01-19T06:05:00.000Z	Amaranth	sagarp	you have to setup dapper repos in your sources.list

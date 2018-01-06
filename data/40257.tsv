@@ -1,0 +1,4 @@
+2010-10-02T06:48:00.000Z	msakms		greetings all, so did anyone experience the slow transfer speed to external drives??
+2010-10-02T06:49:00.000Z	msakms		my external drive has an ntfs fs and it works just perfect but i get slow write speeds on my vfat thumb drive
+2010-10-02T06:50:00.000Z	st__	msakms	i believe there are multiple bugs for it, but noone gave enough details to investigate them
+2010-10-02T06:52:00.000Z	st__	msakms	sudo mount -o remount,nosync XXX

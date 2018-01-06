@@ -1,0 +1,4 @@
+2006-10-28T10:02:00.000Z	tonyyarusso	Polygon89	Sounds like a misconfigured grub.  Pastebin your /boot/grub/menu.lst and a description of your partition layout
+2006-10-28T10:08:00.000Z	tonyyarusso	Polygon89	Okay, your kernel lines are fine, but you want the one before that to be for your boot partition, so "root   (hd0,0)"; also, change the line up in the options wiht "groot=" the same way, to make sure the proper setting is kept when kernel upgrades come in.
+2006-10-28T10:10:00.000Z	Polygon89	tonyyarusso	so basically i change the "root: (hd0,1)" to "root: (hd0,0) and change the line next to groot as well?
+2006-10-28T10:11:00.000Z	tonyyarusso	Polygon89	It doesn't have a colon, but yes.

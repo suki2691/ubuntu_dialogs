@@ -1,0 +1,4 @@
+2009-02-21T04:24:00.000Z	freegoo		how can i use dd to back up just the files on my external harddrive. change the formate of this drive (say hfs+ to hfs) then use dd to copy the files back onto the newly formated drive)
+2009-02-21T04:24:00.000Z	freegoo		i can do the formating y self, but not sure how to copy just the files using dd
+2009-02-21T04:25:00.000Z	hmw	freegoo	- i think, you cant "just copy the files" with dd, because it is "disk dupe". you can make a backup with cp, i think you will want to use the -a switch, but do look up the man page yourself first
+2009-02-21T04:26:00.000Z	hmw	freegoo	- with dd you can make complete copies of a partition, including empty sectors, though

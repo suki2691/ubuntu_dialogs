@@ -1,0 +1,4 @@
+2007-08-29T05:20:00.000Z	goundy		guys little problem
+2007-08-29T05:20:00.000Z	goundy		when running beryl-manager I get: Xlib:  extension "XFree86-DRI" missing on display ":0.0".
+2007-08-29T05:21:00.000Z	goundy		What is this exactly and how to get beryl running :/
+2007-08-29T05:21:00.000Z	kitche	goundy	enable dri in your xorg.conf put load "dri" in the load module section and restart X

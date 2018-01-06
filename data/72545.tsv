@@ -1,0 +1,4 @@
+2009-01-24T00:19:00.000Z	sweetgum		how do i force a process to quit?
+2009-01-24T00:19:00.000Z	onetinsoldier	sweetgum	killall <name>
+2009-01-24T00:20:00.000Z	onetinsoldier	sweetgum	if that doesn't work...  ps aux | grep name   ...then look at the process's id number, and then   sudo kill -9 <pid>   ...pid = process id number
+2009-01-24T00:21:00.000Z	onetinsoldier	sweetgum	i meant...  ps aux | grep <name>

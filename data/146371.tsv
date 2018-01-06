@@ -1,0 +1,4 @@
+2007-02-07T16:02:00.000Z	xelados		How do I make Fluxbox start when Xorg starts without using GNOME or KDE? I tried putting 'exec startfluxbox' in my ~/.xinitrc, but didn't have any luck. Could I get a push in the right direction?
+2007-02-07T16:03:00.000Z	Echoess	xelados	cnfigure *dm accordingly
+2007-02-07T16:04:00.000Z	Echoess	xelados	then ~/.xinitrc should work
+2007-02-07T16:05:00.000Z	Echoess	xelados	don't but the & on the last item

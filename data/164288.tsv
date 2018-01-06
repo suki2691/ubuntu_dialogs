@@ -1,0 +1,4 @@
+2008-07-03T22:37:00.000Z	FarmCretin		hi, i'd like to change the ownership of my mounted drive /mnt/fantom from root to my user, ben. how can i do this?
+2008-07-03T22:37:00.000Z	FarmCretin		its ntfs
+2008-07-03T22:38:00.000Z	Fryguy--	FarmCretin	in fstab, specify uid=<uid> (1000 probably) on the options part of the mount
+2008-07-03T22:40:00.000Z	Fryguy--	FarmCretin	i told you specifically what to do, what is the problem

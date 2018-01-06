@@ -1,0 +1,4 @@
+2010-05-20T01:43:00.000Z	SARO		hey i finally managed to make my wlan card work with an ndiswrapper and a windows driver, now i have to run "sudo modprobe ndiswrapper" everytime before it works, where could i put that so that it happens on every startup?!
+2010-05-20T01:43:00.000Z	trism	SARO	add ndiswrapper to /etc/modules
+2010-05-20T01:44:00.000Z	SARO	trism	there was only "lp"
+2010-05-20T01:45:00.000Z	SARO	trism	also if i put usb sticks in ubuntu does not auto mount them! and if i do sudo fdisk -l it does not show them either!

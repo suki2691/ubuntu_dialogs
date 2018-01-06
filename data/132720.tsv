@@ -1,0 +1,4 @@
+2007-10-14T15:18:00.000Z	fryguy		What is the best way to access files on another linux machine on my lan?  I've got samba shares set up for windows access, but now that my primary machine is also linux I'm wondering if there is a better protocol to use than smb for remote file access on a lan?
+2007-10-14T15:19:00.000Z	fryguy		is nfs a better choice than smb?  and are there any other alternatives?
+2007-10-14T15:19:00.000Z	soundray	fryguy	for casual file sharing, I use sshfs (loving it)
+2007-10-14T15:20:00.000Z	fryguy	soundray	I need something a bit more than casual filesharing.  I store my music library of a few hundred gigabytes on a fileserver that I regularly access

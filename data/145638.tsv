@@ -1,0 +1,4 @@
+2009-01-24T04:03:00.000Z	aldipc		I am behind a dsl router, ever since I started using bittorrent my firestarter firewall keeps reporting that it blocks portrequests from various IPs on port 6881, what I don't understand is why my dsl router routs these portrequests to mx 192.168.178.24 box and not for instance my laptop! how does it know where to send it? the only explanation I have is because these were somehow connections which were established FROM my own box, but then
+2009-01-24T04:03:00.000Z	aldipc		why does my firestarter block these connections?
+2009-01-24T04:03:00.000Z	aldipc		upnp is turned off
+2009-01-24T04:04:00.000Z	Flare183	aldipc	Because you have them marked to be blocked on the config

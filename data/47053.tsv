@@ -1,0 +1,4 @@
+2009-10-31T08:47:00.000Z	oorah		how do i kill gnome power manager?
+2009-10-31T08:48:00.000Z	_Er1K_	oorah	Nuke it in ~/.config/autostart if you are trying to get it out of your life permanently
+2009-10-31T08:51:00.000Z	oorah	_Er1K_	how do i do that exactly?
+2009-10-31T08:52:00.000Z	_Er1K_	oorah	if from a shell "ls ~/.config/autostart/*gnome*power*.desktop" shows exactly one file....  then "rm ~/.config/autostart/*gnome*power*.desktop" will make it go away

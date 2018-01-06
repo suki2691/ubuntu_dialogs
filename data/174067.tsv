@@ -1,0 +1,4 @@
+2006-10-19T10:15:00.000Z	ringard		what does ubuntu do with multi cpu systems? would it spread cpu usage across the cpus?
+2006-10-19T10:16:00.000Z	levander	ringard	the OS will assign one application to one processor, then the next application to the next processor
+2006-10-19T10:16:00.000Z	ringard	levander	same question ^^^
+2006-10-19T10:16:00.000Z	levander	ringard	it won't speed up single application performance, unless the application is written with "threads", which most desktop applications aren't

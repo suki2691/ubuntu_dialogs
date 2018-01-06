@@ -1,0 +1,4 @@
+2011-09-07T02:22:00.000Z	tab1293		is there any bash operator that is opposite to the "*"? so instead of listing all mp3 files like "ls *.mp3" list everything except mp3 files
+2011-09-07T02:22:00.000Z	zeus_	tab1293	ls -l * | grep -v -e ".mp3"
+2011-09-07T02:24:00.000Z	zeus_	tab1293	you can also use find with "!"
+2011-09-07T02:26:00.000Z	zeus_	tab1293	you're welcome

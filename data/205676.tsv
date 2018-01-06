@@ -1,0 +1,4 @@
+2010-03-16T10:36:00.000Z	Kman		Morning everyone. Im in the live cd boot of ubuntu trying to backup my data before i try to fix my broken grub. When i enter sudo fsck /win/ubuntu/disks/root.disk in my terminal i get ^The super block could not be read....^
+2010-03-16T10:37:00.000Z	Kman		Any ideas of what i could do about that?
+2010-03-16T10:37:00.000Z	Kman		Im trying to backup a wubi install btw..
+2010-03-16T10:39:00.000Z	sziszi	Kman	the new parteg, gparted etc can't use the ntfs properly(you cant modify it)

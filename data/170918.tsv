@@ -1,0 +1,4 @@
+2006-08-16T14:24:00.000Z	yum		Hello all, if I start a program with sudo (sudo gedit) do I have root privileges the whole time the programm is open or is the time limited?
+2006-08-16T14:24:00.000Z	yum		thx, I read somewhere its only for 15 minutes
+2006-08-16T14:25:00.000Z	aliasfred	yum	nope it is the whole time
+2006-08-16T14:25:00.000Z	aliasfred	yum	the time limitation is likely about the kdesu/gnomesu caching it to avoid you retying it

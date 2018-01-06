@@ -1,0 +1,4 @@
+2006-03-11T07:46:00.000Z	soundray		[blah] : try sudo /etc/init.d/alsa-utils restart
+2006-03-11T07:48:00.000Z	soundray		[blah] : the more hardcore way to do it is 'sudo /etc/init.d/alsa-utils stop ; sudo rmmod snd-atiixp ; sudo modprobe snd-atiixp ; sudo /etc/alsa-utils start' (replace atiixp with the appropriate string for your driver)
+2006-03-11T07:49:00.000Z	soundray		[blah] : Ctrl-L
+2006-03-11T07:50:00.000Z	[blah] 	soundray	module snd-atiixp does not exists

@@ -1,0 +1,4 @@
+2009-02-05T12:18:00.000Z	syntac		hi, my wireless connection is slow for some reason. it stays around 25kB/s where as my wired connection is limited by my ISP (over 1MB/s).  What is the deal with the wireless?  I'm using 8.10 new install
+2009-02-05T12:20:00.000Z	KyleK	syntac	is there any network services that you can test against? like a web server on your lan or something? I've heard of some drivers causing like a bandwidth limitation of that much
+2009-02-05T12:21:00.000Z	KyleK	syntac	whatever wireless driver you're using is crap then
+2009-02-05T12:25:00.000Z	KyleK	syntac	nope, did you do "lsmod | ndis"?

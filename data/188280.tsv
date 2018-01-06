@@ -1,0 +1,4 @@
+2006-06-30T16:03:00.000Z	xst		Normally I write "dpkg-reconfigure locales" in order to redefine the list of installed locales. But now it just re-calculates the locales giving me no selection list. How do I modify the list of installed locales then?
+2006-06-30T16:03:00.000Z	bbrazil	xst	check the options on dpkg-reconfigure, the priopirty thing might do it
+2006-06-30T16:05:00.000Z	xst	bbrazil	Nope. Even -p low just regenerates the locales without showing the selection list
+2006-06-30T16:06:00.000Z	bbrazil	xst	odd, checked for bugs on launchpad?

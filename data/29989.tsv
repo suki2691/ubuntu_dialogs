@@ -1,0 +1,4 @@
+2010-11-17T04:00:00.000Z	mdpatrick		I have a dynamic IP, but I want to be able to consistently get access to my ubuntu box via SSH... what's the best solution to use?
+2010-11-17T04:00:00.000Z	r007	mdpatrick	know which IP is in use and make sure your running the ssh daemon
+2010-11-17T04:02:00.000Z	r007	mdpatrick	you could set a cron to execute a sh script that emails you ifconfig maybe
+2010-11-17T05:46:00.000Z	r007	mdpatrick	write a shell script to send you the output of ifconfig

@@ -1,0 +1,4 @@
+2008-04-02T08:44:00.000Z	LainIwakura		Hello, can someone tell me what the difference is between the 'deb' and deb'-src' prefixes in my repository source list?
+2008-04-02T08:45:00.000Z	LainIwakura		If I have a source URL with the 'deb' prefix, do I still need the same URL with the 'deb-src' prefix? Thanks.
+2008-04-02T08:45:00.000Z	Starnestommy	LainIwakura	the deb lines are for regular packages, while deb-src are for source code packages
+2008-04-26T05:44:00.000Z	Starnestommy	LainIwakura	the latter removes all package names strting with "scim" and their config foles

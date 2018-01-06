@@ -1,0 +1,4 @@
+2012-08-16T02:14:00.000Z	xomp		hi, can someone please help me with this crontab error? http://pastebin.com/JA6SjfEV I'm trying to create a cronjob to run a .php page here is what I'm entering in crontab -e http://pastebin.com/rr4bEbcX
+2012-08-16T02:16:00.000Z	histo	xomp	I don't think you can just call a php page like that from command line
+2012-08-16T02:17:00.000Z	xomp	histo	I just fixed the issue myself actually, removed the 01 from that crontab entry and it worked :)
+2012-08-16T02:17:00.000Z	histo	xomp	You could try php pathtopage  but i'm not too familiar with running a command like that

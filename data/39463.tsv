@@ -1,0 +1,4 @@
+2010-01-06T05:17:00.000Z	rami_		Hello guys, I am running Karmic (upgraded from Jaunty) and I can't boot. I get "Kernel Panic, Not syncing: no init found. try passint init option to kernel" note that I upgraded grub to grub2 and everything was fine, and I booted a couple of times. But then I played around with Startupmanager and increased the resolution. That is the only "hardcore" tweaking I did before this error. Any ideas? Thanks in advance
+2010-01-06T05:17:00.000Z	viliny	rami_	wild shot in the dark, unsupported resolution?
+2010-01-06T05:18:00.000Z	rami_	viliny	now we are getting somewhere! I played around with StartUpManager and played with the resolution
+2010-01-06T05:19:00.000Z	rami_	viliny	didn't expect that resolution would cause this. I would revert back, but I just installed grub2 and i am kinda fuzzy on its ins and outs

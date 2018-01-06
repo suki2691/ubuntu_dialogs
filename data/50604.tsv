@@ -1,0 +1,4 @@
+2009-08-12T08:06:00.000Z	NoMS_		is there a command to make sure samba is running?   I setup a file server using samba and used the /etc/init.d/samba restart, but when I try to connect using win, it cannot find my shared folders...
+2009-08-12T08:07:00.000Z	jedc	NoMS_	ps -e | grep samba might work if the name of the process is samba
+2009-08-12T08:09:00.000Z	NoMS_	jedc	bucky: thanks..it's showing smbd running
+2009-08-13T00:49:00.000Z	jedc	NoMS_	that was the problem, he is trying to follow this tutorial: http://embraceubuntu.com/2006/12/08/ssh-tunnel-socks-proxy-forwarding-secure-browsing/ and was using putty to connect to the server before following it

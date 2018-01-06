@@ -1,0 +1,4 @@
+2007-07-30T09:02:00.000Z	jpb_jpb_jpb		hi folks
+2007-07-30T09:03:00.000Z	jpb_jpb_jpb		i'm trying to install VMWare tools on a virtual Ubuntu instance on a mac box and it wants me to log in as root, but AFAIK ubuntu doesn't have root.  When i try "su -" nothing happens.  Any ideas?
+2007-07-30T09:03:00.000Z	jpb_jpb_jpb		thanks
+2007-07-30T09:03:00.000Z	magnetron	jpb_jpb_jpb	in ubuntu, you shouldn't use su -  . it's sudo -i

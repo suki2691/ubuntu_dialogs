@@ -1,0 +1,4 @@
+2012-06-25T18:31:00.000Z	L3top	Lantizia	did you figure it out?
+2012-06-25T18:32:00.000Z	Lantizia	L3top	yeah I did *[a-z]*
+2012-06-25T18:33:00.000Z	L3top	Lantizia	that wont find upper case chars I do not believe. If I understand you correctly, I think this will work: find  -maxdepth 1 -iregex ".*[a-zA-Z].jpg" -exec mcopy {} MyDocs/.image \;
+2012-06-25T18:34:00.000Z	Lantizia	L3top	can't use find when mcopying out of a disk image :P but I get what you mean

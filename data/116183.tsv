@@ -1,0 +1,4 @@
+2010-01-01T12:48:00.000Z	RichardH		I've seen software that runs on a windows system that can "sync" but all it does is just run every few minutes.
+2010-01-01T12:49:00.000Z	RichardH		I've been looking for something similar and can't find it.  Windows has something built in that does that.  Anyway, in the situation you stated, you can probably use rsync as long as you can mount the shared folder using smb
+2010-01-01T12:51:00.000Z	RichardH		you would probably need a cronjob to run every few seconds
+2010-01-01T12:52:00.000Z	zcat[1]	RichardH	 cronjobs can'r run more often than per minute?

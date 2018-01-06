@@ -1,0 +1,4 @@
+2005-06-07T13:06:00.000Z	sevets		Is there anything special I need to do to access a windows share?
+2005-06-07T13:07:00.000Z	sevets		aha!
+2005-06-07T13:08:00.000Z	naapuri	sevets	ubuntu doesn't use iptables by default. you can confirm this by runnning the command "iptables-save". If there's no firewall, it prints nothing.
+2005-06-07T13:27:00.000Z	naapuri	sevets	if you just want to access a windows share and you are using gnome, try "Places -> Connect to Server..."

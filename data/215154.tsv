@@ -1,0 +1,4 @@
+2005-10-04T11:51:00.000Z	mpool		hi, any ideas on how to make Breezy disable ipv6 AAAA lookups?
+2005-10-04T11:52:00.000Z	weiorhwe	mpool	what do you mean?
+2005-10-04T11:52:00.000Z	mpool		because my nameserver ignores the queries, so DNS is very slow
+2005-10-04T11:53:00.000Z	mpool	weiorhwe	i mean that Breezy's dns resolver sends AAAA queries for IPv6 addresses, but most servers don't respond

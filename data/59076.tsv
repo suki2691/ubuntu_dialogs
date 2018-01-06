@@ -1,0 +1,4 @@
+2009-04-26T06:08:00.000Z	Svish|eee		When setting a static IP to 10.0.1.x, should the mask then still be 255.255.255.0, or should it be something else? like 255.255.254.0?
+2009-04-26T06:09:00.000Z	danbhfive	Svish|eee	I think it should still be 255.  a 255 mask turns it to a 0
+2009-04-26T06:10:00.000Z	Svish|eee	danbhfive	hm, ok. thanks =) do you know when it should be other than 255?
+2009-04-26T06:12:00.000Z	danbhfive	Svish|eee	possibly when you need more than 256 IPs, ie, with a range of 10.0.x.x

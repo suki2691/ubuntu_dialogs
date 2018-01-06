@@ -1,0 +1,4 @@
+2009-02-24T09:31:00.000Z	benspaulding		I am trying to install some software and it warns me that I am using a different version of gcc than my kernel was built with, (I am using 4.2.4, the kernel was built with 4.2.3). How can I use the old one?
+2009-02-24T09:32:00.000Z	nickrud	benspaulding	export GCC="4.2.3" , or look into update-alternatives --config cc
+2009-02-24T09:32:00.000Z	nickrud	benspaulding	erm, export CC="..."
+2009-02-24T09:32:00.000Z	benspaulding	nickrud	Cool. Thank you very much.

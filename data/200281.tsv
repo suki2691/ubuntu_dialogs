@@ -1,0 +1,4 @@
+2006-01-21T16:24:00.000Z	TK4222		can anyone help me figure out why: when this command is run in a S55local file that i add via update-rc.d it doesnt add the drive? /bin/mount -t smbfs -o guest //192.168.0.100/downloads /mnt/wdownloads/
+2006-01-21T16:24:00.000Z	TK4222		it never adds
+2006-01-21T16:24:00.000Z	trappist	TK4222	how about -o username=guest
+2006-01-21T16:30:00.000Z	TK4222	trappist	does -o username=guest make a huge difference if its run from a bootscript?

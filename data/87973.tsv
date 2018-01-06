@@ -1,0 +1,4 @@
+2009-03-18T23:02:00.000Z	brandonban6		does anyone know of an equivalent to Belarc Advisor for linux?
+2009-03-18T23:04:00.000Z	hoban	brandonban6	use a combination of tools: lshw for hardware profiling (for example) and the package manager to show installed packages and updates available
+2009-03-18T23:06:00.000Z	hoban	brandonban6	np
+2009-03-18T23:07:00.000Z	hoban	brandonban6	try this: "lshw -html > myhw.html && firefox myhw.html"

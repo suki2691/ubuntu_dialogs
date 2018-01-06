@@ -1,0 +1,4 @@
+2011-07-09T21:09:00.000Z	jtiner		hey guys i'm running into a strange problem - i have a relatively fresh install of ubuntu - never had this problem until last night - but now when i try to issue a command using 'sudo' it tells me that my user name is no in the sudoers file - i can issue 'su' and login as root still - but this only happen when i use sudo - ideas on a quicky fix?
+2011-07-09T21:10:00.000Z	Araneidae	jtiner	su to root and run `visudo` to fix it
+2011-07-09T21:12:00.000Z	Araneidae	jtiner	you want to edit /etc/groups
+2011-07-09T21:12:00.000Z	Araneidae	jtiner	you want to edit /etc/group

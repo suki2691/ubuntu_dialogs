@@ -1,0 +1,4 @@
+2011-05-23T03:46:00.000Z	wonginator1221		is there any reason that nautilus should be using 300MBs of ram?
+2011-05-23T03:48:00.000Z	wonginator1221		I think there's a memory leak somewhere
+2011-05-23T03:49:00.000Z	escott	wonginator1221	a lot of stuff gets shared between x programs and double counted 300 sounds high but its not a big deal unless free shows you using swap
+2011-05-23T03:53:00.000Z	wonginator1221	escott	I'm currently using 8 gigs of ram (I don't have a swap partition) and I caught nautilus using over 850MBs of ram the other day.  It ran me into a situation where I was getting memory allocation errors (no more memory available).  I restarted nautilus and the problem seemed to subside, but it seemed really odd that nautilus was using more ram than firefox with 15 tabs open.

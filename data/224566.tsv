@@ -1,0 +1,4 @@
+2005-10-07T09:09:00.000Z	dean		I was following http://ubuntuforums.org/showthread.php?t=3713 step#2 - 1. sudo apt-get install linux-686 if you haven't already.
+2005-10-07T09:09:00.000Z	dean		or -k7 or -686-smp or -386... whatever matches your kernel.=== I chose 686 when I should've done 386, now my nic won't work... can anyone help?
+2005-10-07T09:11:00.000Z	Toma-	dean	the 386/686 part wont effect your nic
+2005-10-07T09:13:00.000Z	Toma-	dean	check to see if that "rt2500.ko" is in your /etc/modules

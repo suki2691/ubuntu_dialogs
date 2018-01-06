@@ -1,0 +1,4 @@
+2009-01-30T21:51:00.000Z	mmm4m5m		question: how to make /dev/sdc5 read-only? (change permisions, does not help)
+2009-01-30T21:52:00.000Z	Patrickzilla	mmm4m5m	use "ro" in the mount options
+2009-01-30T21:53:00.000Z	mmm4m5m	Patrickzilla	chi_: to mount it as read only... but still wondering why permissions of /dev/sdc5 does not work.
+2009-01-30T21:55:00.000Z	Patrickzilla	mmm4m5m	/dev/sdc5 is just a "fake file" that points to the real partition, so, permissions will not work

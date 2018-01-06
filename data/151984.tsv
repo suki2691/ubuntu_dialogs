@@ -1,0 +1,4 @@
+2008-09-20T04:50:00.000Z	un		and im not about to hunt all the source dependencies for openoffice.org, so im just gonna reinstall... maybe i'll go with Mint for a while... hacked up as it is...
+2008-09-20T04:51:00.000Z	IntuitiveNipple	un	could you extract the bad deb, the internal control archive, edit the script and re-archive it?
+2008-09-20T04:52:00.000Z	IntuitiveNipple	un	They're gzipped with a gzip control and data inside
+2008-09-20T05:01:00.000Z	IntuitiveNipple	un	can you do mkdir work; dpkg-deb --extract unopkg.deb work

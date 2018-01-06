@@ -1,0 +1,4 @@
+2008-08-01T22:46:00.000Z	Bogus8		I'm confused here.. I'm running rsync -anI on a dir that is a 441g partition mounted using 400g of space (4% free)... the results of that rsync says "total size is 527805686600"
+2008-08-01T22:47:00.000Z	MikeSeth	Bogus8	rsync is known to return crazy numbers sometimes
+2008-08-01T22:47:00.000Z	MikeSeth		Debian is serene and hates no one
+2008-08-01T22:47:00.000Z	Bogus8	MikeSeth	but when I try to actually move that data... it hits the limit of 439g on my destination box (transfering only 400gigs of data... or so I think)

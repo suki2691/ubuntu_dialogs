@@ -1,0 +1,4 @@
+2011-10-19T08:36:00.000Z	melow01		I somehow borked my WiFi by editting my /etc/network/interfaces... any suggestions?
+2011-10-19T08:36:00.000Z	arghx	melow01	remove your changes to that file
+2011-10-19T08:37:00.000Z	melow01	arghx	I did by commenting out my changes (#)
+2011-10-19T08:37:00.000Z	melow01	arghx	then I restarted networking: sudo /etc/init.d/networking restart

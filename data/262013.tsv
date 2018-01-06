@@ -1,0 +1,4 @@
+2005-07-27T07:58:00.000Z	silveruno		is there any danish people here, that can help me i danish please
+2005-07-27T07:59:00.000Z	silveruno		i need to install java
+2005-07-27T07:59:00.000Z	silveruno		wiki ?
+2005-07-27T07:59:00.000Z	Seveas	silveruno	To install java on Ubuntu: download the .bin file from java.sun.com, sudo aptitude install fakeroot java-package, chmod +x [the .bin file] , fakeroot make-jpkg [the bin file] , sudo dpkg -i [the generated .deb file] 

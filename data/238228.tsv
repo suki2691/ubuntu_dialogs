@@ -1,0 +1,4 @@
+2006-10-20T12:30:00.000Z	mikmu		I have a problem.  I installed a xen kernel from Edgy universe.  Everything works fine except for xorg.  Same config file as with the stock edgy kernel, but I get "(EE) I810(0): No Video BIOS modes for chosen depth." when booting the xen-enabled kernel.  I also see the message "VESA VBE Total Mem: 320 kB" while with the stock kernel, it detects 8000 kB
+2006-10-20T12:30:00.000Z	mikmu		Would anyone know what I should be looking into to?
+2006-10-20T12:30:00.000Z	kmaynard	mikmu	vmware probably
+2006-10-20T12:30:00.000Z	mikmu	kmaynard	heh, true

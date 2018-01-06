@@ -1,0 +1,4 @@
+2009-01-05T18:55:00.000Z	vasilis		I've got a question. I've changed the system language from system->administration->support on a 8.10 installation but i still get everything in the old language. Even after creating a new user. The locales have changed in /etc/environment but nothing happened.Any help appreciated
+2009-01-05T18:56:00.000Z	iLogic_	vasilis	you have to change your desired language on the gdm (where you type your login and pass)
+2009-01-05T18:56:00.000Z	vasilis	iLogic_	how do i do that?
+2009-01-05T18:57:00.000Z	iLogic_	vasilis	logout of your current session and try searching for it on the screen where you type your login

@@ -1,0 +1,4 @@
+2008-07-16T06:37:00.000Z	rkagerer		Newbie here.. can I ask a dumb question?
+2008-07-16T06:39:00.000Z	rkagerer		Sorry.  Trying to list installed packages on Ubuntu server.  Did "dpkg -l | more" but the piping screws up the formatting of the output.  How can I page the output?
+2008-07-16T06:39:00.000Z	theeyealtering	rkagerer	use '>> packages.txt' instead of '| more' it will save it to a file
+2008-07-16T06:40:00.000Z	theeyealtering	rkagerer	'view file.txt'

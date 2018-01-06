@@ -1,0 +1,4 @@
+2009-01-08T17:44:00.000Z	kapipi		I am trying to make public key auth work, but I'm missing something. I have used ssh-keygen and copied the pubkey to the remote hosts authorized keys file, but when i do ssh host, I am asked for password not the key passphrase. Any ideas?
+2009-01-08T17:46:00.000Z	jrib	kapipi	it should look at ~/.ssh/id_rsa by default, but what mchelen has suggested is a good starting point to troubleshoot your issue
+2009-01-08T17:45:00.000Z	jrib	kapipi	check permissions
+2009-08-02T16:34:00.000Z	jrib	kapipi	ssh-keygen works but ssh also reports the line number which should make it pretty easy

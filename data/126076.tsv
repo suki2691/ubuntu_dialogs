@@ -1,0 +1,4 @@
+2009-03-06T21:40:00.000Z	MFen		for example, does anyone know how to force a new dhcp request when networkmanager is in use?
+2009-03-06T21:40:00.000Z	murlidhar	MFen	sudo dhclient
+2009-03-06T21:40:00.000Z	MFen		it's really frustrating that i have to reboot every time there's a problem with the network.  i've been using /etc/init.d/networking restart for *years*
+2009-03-06T21:41:00.000Z	MFen	murlidhar	dhclient is already running. how do you cleanly restart the whole network stack (without rebooting)

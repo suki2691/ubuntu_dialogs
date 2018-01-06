@@ -1,0 +1,4 @@
+2011-02-12T20:52:00.000Z	ex0r		the correct syntax? sudo apt-get remove apache2 --purge ?
+2011-02-12T20:52:00.000Z	ex0r		great, thanks llutz
+2011-02-12T20:53:00.000Z	Flannel	ex0r	You need to purge (not just remove) apache2.2-common, which is the package that contains all the config files.
+2011-02-12T20:54:00.000Z	Flannel	ex0r	And that webpage does apply to 10.10 as well

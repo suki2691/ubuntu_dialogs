@@ -1,0 +1,4 @@
+2008-11-12T04:34:00.000Z	FightBack		how can I completely uninstall Ubuntu move all of the space back to my windows partition, and remove GRUB?
+2008-11-12T04:34:00.000Z	FightBack		is there a tutorial for that?
+2008-11-12T04:35:00.000Z	fryguy	FightBack	use a partitioning tool like partition magic or gparted, and use "fixmbr" on your windows installation media to get rid of grub
+2008-11-12T04:36:00.000Z	fryguy	FightBack	put windows installation disc in, choose repair console, type fixmbr..

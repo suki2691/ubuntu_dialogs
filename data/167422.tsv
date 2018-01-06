@@ -1,0 +1,4 @@
+2007-04-24T14:04:00.000Z	Ademan	zaggynl	well on windows when a windows application uses the win32 API (as they all do) it goes through win32.dll which talks to the windows kernel, which talks to the hardware.  ESSENTIALLY wine is a different version of win32.dll that talks to the linux kernel instead of the windows kernel
+2007-04-24T14:04:00.000Z	zaggynl	Ademan	so, it's a layer of API's, which could be described as an emulator?
+2007-04-24T14:05:00.000Z	Ademan	zaggynl	well it's a re-implementation of the win32 API (among other things) which isn't an emulator in the traditional sense, but i suppose you could call it one using a different definition
+2007-04-24T14:06:00.000Z	Ademan	zaggynl	it doesn't do what a SNES or sega genesis emulator does (which is interpret the program with software)

@@ -1,0 +1,4 @@
+2011-10-20T14:27:00.000Z	BoomerBile		ssh: connect to host x.y.z.w port 22: connection timed out... which is funny cause i'm not trying to connect to port 22... and yes i've tried specifying the port like this as well user@x.y.z.w:port/directory/
+2011-10-20T14:27:00.000Z	iceroot	BoomerBile	ssh -p port user@host
+2011-10-20T14:27:00.000Z	BoomerBile	iceroot	yeah that works fine..
+2011-10-20T14:28:00.000Z	BoomerBile	iceroot	but i'm trying to rsync not ssh

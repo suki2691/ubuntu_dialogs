@@ -1,0 +1,4 @@
+2011-07-26T10:31:00.000Z	ka1gdq		I am running ubuntu 11.04.  Wine came with it. When I try and run a windows setup program (app is a racdio programming sw from kenwood) I get the following error  The file '/home/ka1gdq/kenwood/programming sw/setup.exe' is not marked as executable.  If this was downloaded or copied from an untrusted source, it may be dangerous to run.  For more details, read about the executable bit......  can anyone help. this happens with ALL WI
+2011-07-26T10:31:00.000Z	ka1gdq		NE / Win apps
+2011-07-26T10:33:00.000Z	snuxoll	ka1gdq	you'll need to make the file executable before wine will load it
+2011-07-26T10:33:00.000Z	snuxoll	ka1gdq	right click the file in nautilus, click properties, permissions tab, check the box to make the file executable

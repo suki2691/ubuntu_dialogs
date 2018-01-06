@@ -1,0 +1,4 @@
+2009-02-21T06:24:00.000Z	mimaki		how can i add two ip address on a lan connection coz my internet is 192.168.1.x and LAN is 192.168.0.x so i can connect in both
+2009-02-21T06:25:00.000Z	zsquareplusc	mimaki	like setting a second IP on one NIC? e.g.  ifconfig eth0:1 192.168.0.55
+2009-02-21T06:28:00.000Z	mimaki	zsquareplusc	how to add a second ip?
+2009-02-21T06:28:00.000Z	zsquareplusc	mimaki	see above, the last was an example. you can also use the eth0:x naming in /etc/netowrking/interfaces and probably the netwok manager too

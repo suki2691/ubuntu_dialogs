@@ -1,0 +1,4 @@
+2008-09-28T01:25:00.000Z	AstralSin		this is rediculous, i've never had an issue getting nvidia drivers to work
+2008-09-28T01:27:00.000Z	AstralSin		they were JUST working, but a kernel update broke it and it will not fix, i've reinstalled the drivers, reinstalled restricted modules, i don't know what else to do
+2008-09-28T01:27:00.000Z	AstralSin		the nvidia driver is even loaded, lists in lsmod
+2008-09-28T01:28:00.000Z	IntuitiveNipple	AstralSin	but which version? I saw that issue recently, and it is a conflict between the nvidia-glx-new  and Nvidia packaged kernel module. You'll find a message with the version problem in /var/log/kern.log

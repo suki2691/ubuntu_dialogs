@@ -1,0 +1,4 @@
+2007-06-09T11:28:00.000Z	Stoffer		when running apt-get from a terminal, do I have to worry about the multiverse/universe thing that shows up in the Synaptic Package Manager?
+2007-06-09T11:29:00.000Z	pike_	Stoffer	synaptic is just a front end to apt-get from what i understand both use the same cached info from the sources in /etc/apt/sources.list
+2007-06-09T11:29:00.000Z	Stoffer	pike_	eck ok, I wasn't even sure about what multiverse/universe meant, so I guess I won't worry about it...
+2007-06-09T11:30:00.000Z	pike_	Stoffer	if you gksu gedit /etc/apt/sources.list   <-- basically open the file with a text editor the universe/multiverse things are just repos  (urls) that contain packages

@@ -1,0 +1,4 @@
+2006-10-17T10:04:00.000Z	ravenwritingdes1		Is there some way to just boot straight into console mode.  Ctrl-F2 did not work,  Xorg is still alive.
+2006-10-17T10:04:00.000Z	LjL	ravenwritingdes1	ctrl+ALT+F2
+2006-10-17T10:05:00.000Z	LjL	ravenwritingdes1	anyway, to *boot* into console, you use Recovery Mode
+2006-10-17T10:05:00.000Z	LjL	ravenwritingdes1	then type "sudo /etc/init.d/gdm stop". but recovery mode *is* the answer if you want to *boot* without X

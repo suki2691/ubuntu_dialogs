@@ -1,0 +1,4 @@
+2008-05-30T03:21:00.000Z	Catslacks		I burned Ubuntu to a dvd. When I try to apt-get build-essential it asks me for to insert the cd even though the dvd is already in. What can I do?
+2008-05-30T03:22:00.000Z	Arakthor	Catslacks	if you have a cnnection to the internet to download from there, as root edit /etc/apt/sources.lst and comment out (using #) the lines that refer to the CD
+2008-05-30T03:22:00.000Z	Catslacks	Arakthor	I don't. That's why I'm not.
+2008-05-30T03:23:00.000Z	Arakthor	Catslacks	sorry, can't help you- don't know enough about using the cd :(

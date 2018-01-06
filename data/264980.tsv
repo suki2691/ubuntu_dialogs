@@ -1,0 +1,4 @@
+2005-11-25T10:45:00.000Z	thespore		anyone know why I am getting errors installing 'transcode' with apt-get?  Says error was encountered processing libfame-0.9_0.9.0-0.1_i386.deb
+2005-11-25T10:46:00.000Z	bur[n] er	thespore	because that file is in two packages... you can do a --force-overwrite
+2005-11-25T10:48:00.000Z	bur[n] er	thespore	dpkg -i --force-overwrite /var/apt/archives/blah.deb
+2005-11-25T10:49:00.000Z	bur[n] er	thespore	yer welcome

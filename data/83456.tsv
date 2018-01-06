@@ -1,0 +1,4 @@
+2008-11-11T04:12:00.000Z	lakitu		how do i backup partition tables, mbrs, & bootsectors (or ...) from linux, while they're good?
+2008-11-11T04:14:00.000Z	owh	lakitu	You can backup a partition with dd.
+2008-11-11T04:15:00.000Z	lakitu	owh	ok
+2008-11-11T04:15:00.000Z	owh	lakitu	Something like : dd if=/dev/sda1 of=bob.img

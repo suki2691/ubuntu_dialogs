@@ -1,0 +1,4 @@
+2006-07-24T08:06:00.000Z	Student		What does this mean exactly??-->            "Be aware that "Breezy Badger" requires about 1.8 Gb to install and operate, and any less than a 4 Gb root (/) partition with a 256 Mb swap partition can make the install process stop abruptly."
+2006-07-24T08:08:00.000Z	JimD	Student	just what part of that is confusing you?  It's saying that it needs at least 1.8GiB and they recommend 4GiB (of free disk space) and 256MiB (of swap)
+2006-07-24T08:10:00.000Z	Student	JimD	ok so there are 2 partitions OS root and swap and root should be more than 4GB and swap more than 256, right? Is there a recommended swap size too?
+2006-07-24T08:14:00.000Z	JimD	Student	the widespread historical convention was to have 2.5 * RAM for swap

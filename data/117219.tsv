@@ -1,0 +1,4 @@
+2007-11-16T10:14:00.000Z	tomd	tarelerulz	you can do this with norton ghost. i don't know of a free software alternative but I'm sure there is one. just look on the net, youll need to use a livecd and put both hard drives in one machine, if you're on a laptop, thats a bit more complicated
+2007-11-16T10:16:00.000Z	tomd	tarelerulz	your problem is that of sending the drive image somewhere, you can use ethernet, serial, a usb hard drive
+2007-11-16T10:20:00.000Z	tomd	tarelerulz	i've also seen devices that allow you to plug laptop hd's into desktops.. you can probably just back it up to an external drive, or, maybe use ethernet or serial.. it depends on what software you use... actually, i think you can just do this with the dd command..
+2007-11-16T10:20:00.000Z	tomd	tarelerulz	with caution, and enough space on your drive, you can probably back it up with dd if=/dev/yourharddrive (like hda, sda) of=./backupfile

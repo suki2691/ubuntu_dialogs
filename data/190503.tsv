@@ -1,0 +1,4 @@
+2008-04-30T11:03:00.000Z	alienseer23		got me a stubborn directory that is owned by "root:plugdev" that I cannot change the permissions of ownership on, and I need to, it won
+2008-04-30T11:04:00.000Z	alienseer23		what would make changing the permissions or ownership of a folder and its contents non-permitted even when using sudo?
+2008-04-30T11:05:00.000Z	Mathman	alienseer23	chattr I spose?
+2008-04-30T11:07:00.000Z	Mathman	alienseer23	well, you can do a "chattr +i" to a file or directory (I think on the directory part, never tried it to be honest), and then it's basically stuck like it is until you do a "chattr -i" on it.  but this is a wild guess mind you.  lsattr would tell you if the immutable bit is set at any rate

@@ -1,0 +1,4 @@
+2004-09-30T05:43:00.000Z	punkass		i am trying to follow this howto to get my laptop to power down/up when the lid is closed opened...but it says to run /sbin/chkconfig --add acpid
+2004-09-30T05:44:00.000Z	punkass		that is a redhat thing....is there a debian version?
+2004-09-30T05:45:00.000Z	Adonijah	punkass	sudo apt-get install acconf, you can use that, chkconfig is a redhat thing I think
+2004-09-30T05:45:00.000Z	Adonijah	punkass	err...rcconf not acconf

@@ -1,0 +1,4 @@
+2006-03-06T17:44:00.000Z	fisne		ok, my root folder is set to /media/hdc5, which is supposed to be /dev/hdc5, and i think this is the reason why it wont boot
+2006-03-06T17:44:00.000Z	fisne		what should i do?
+2006-03-06T17:46:00.000Z	fisne		and yeah, what is journaling file system?
+2006-03-06T17:47:00.000Z	kc2keo	fisne	journaling file system is kind of like extra cache space or swap space that the ext filesystem uses. Its better than ext2 I think. I think its ext2 with journaling. It functions a lot like ext2 though and has same support

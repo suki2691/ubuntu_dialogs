@@ -1,0 +1,4 @@
+2009-11-20T10:24:00.000Z	BableOn		I just upgraded from 9.04 to 9.10 from the upgrade manager.. it's cleaned out my lilo.conf file.. any way to retrieve the previous one.. i cant see if it made a backup or not
+2009-11-20T10:25:00.000Z	Jordan_U	BableOn	Why are you using lilo?
+2009-11-20T10:27:00.000Z	Jordan_U	BableOn	Ubuntu is never supposed to delete configuration files that have been edited by the user, so it should either still be there or you should be able to generate an identical config file by re-installing lilo ( But I'm still curious why you would do such a thing :)
+2009-11-20T10:30:00.000Z	Jordan_U	BableOn	apt-cache policy lilo grub grub-pc

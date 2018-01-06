@@ -1,0 +1,4 @@
+2006-08-15T06:05:00.000Z	looktj		i sersiously need help with getting intel pro 2200bg to work
+2006-08-15T06:05:00.000Z	Phenax	looktj	What's an 'intel pro 2200bg', a modem?
+2006-08-15T06:06:00.000Z	Phenax	looktj	Generally, you'd look for the module name and see if you can't load it. If that fails manually compile the kernel with support for it?
+2006-08-15T06:07:00.000Z	Phenax	looktj	And I believe wifi requires a bit of extra configuration here and there, maybe try using dhcpcd to obtain the info (dhcpcd wlan0), your device name may not be wlan0

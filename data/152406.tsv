@@ -1,0 +1,4 @@
+2007-02-23T14:31:00.000Z	Enselic``		Why oh why does this fail?    sudo echo -e '#!/bin/bash\napt-cache show $*\n' > /usr/local/bin/acshow   it says "bash: /usr/local/bin/acshow: Permission denied
+2007-02-23T14:32:00.000Z	jrib	Enselic``	because the redirection is done by the shell you are running, which only has your user permissions.  pipe to 'tee' instead
+2007-02-23T14:32:00.000Z	Enselic``	jrib	ah, thanks
+2007-02-23T14:32:00.000Z	jrib	Enselic``	example:  echo foo | sudo tee /var/bar

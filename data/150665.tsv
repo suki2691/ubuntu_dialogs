@@ -1,0 +1,4 @@
+2007-03-27T07:13:00.000Z	MachineH3d		if i remove ubuntu how would i get rid of grub loader and go back to windows vista boot loader
+2007-03-27T07:13:00.000Z	MachineH3d		but i dont wanna reinstall over my current version
+2007-03-27T07:14:00.000Z	Pici	MachineH3d	Use the Windows Installer Recovery console and run fixmbr
+2007-03-27T07:14:00.000Z	Pici	MachineH3d	That will restore your master boot record to defaults so that the windows bootloader should take over

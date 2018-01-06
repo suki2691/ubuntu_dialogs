@@ -1,0 +1,4 @@
+2008-12-17T20:53:00.000Z	LordDicranius		I have a small network setup with Ubuntu Server acting as a router and Ubuntu Desktop on the workstation.  From the router I'm able to ping google.com by its name and IP address, but from the workstation I'm only able to ping it's IP address.  I'm having issues with the name resoltion on the desktop.  anybody have any ideas?
+2008-12-17T20:53:00.000Z	heril	LordDicranius	is the server configured as a dhcp server?
+2008-12-17T20:55:00.000Z	LordDicranius	heril	no, I have 192.168.1.x static addresses setup on the internal NIC on the router and the NIC on the desktop
+2008-12-17T20:56:00.000Z	LordDicranius	heril	simplexio: I also have bind9 installed on the router with forwarders configured, but that's not helping either

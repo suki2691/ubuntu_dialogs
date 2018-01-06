@@ -1,0 +1,4 @@
+2008-01-26T23:29:00.000Z	tolecnal		this just keeps on getting stranger and stranger. _everything_ works as it should when I boot into recovery, but when I boot into the normal kernel everything seems to start okay, including KDM. but once I log in, the session just hangs. when I go into a console, and try to use anything using sudo or requiring super user rights, it just hangs. and dmesg, syslog nor anything else tells me why it fails and hangs. any suggestions?
+2008-01-26T23:30:00.000Z	DRebellion	tolecnal	checked /var/log/auth.log ?
+2008-01-26T23:31:00.000Z	tolecnal	DRebellion	just did, and I just noticed that it reports my user as uid 0, not 1000 as it should
+2008-01-26T23:32:00.000Z	tolecnal	DRebellion	though I have absolutely no clue why it reports my user as uid 0 instead of 1000

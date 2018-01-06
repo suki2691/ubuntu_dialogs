@@ -1,0 +1,4 @@
+2007-07-10T09:45:00.000Z	nfi-admi1		is is possible to move from 7.04 desktop to 7.04 server without a fresh install?
+2007-07-10T09:46:00.000Z	pike__	nfi-admi1	yeah. just alt-ctrl-f2 then sudo /etc/init.d/gdm stop then sudo apt-get remove --purge xserver-xorg  i guess. you wont have a gui though afterwards
+2007-07-10T09:47:00.000Z	pike__	nfi-admi1	i thought you were asking about the server install. the server install is basically just a stripped cli only desktop install
+2007-07-10T09:48:00.000Z	pike__	nfi-admi1	yeah but those packages are available anyway for you now

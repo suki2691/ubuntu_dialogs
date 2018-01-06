@@ -1,0 +1,4 @@
+2007-01-04T15:44:00.000Z	MegaTrousers		Can anyone help me with gnome-screensaver? Hardware acceleration seems to work fine in everything. fgl_gears works fine and fglrxinfo reports the correct ATI driver is working. The gnome-screensavers are very slow and choppy and I don't know why. There is no reason for this since I am using an ATI x1600 card with fast cpu and lots of RAM. I get the feeling that it is using software based rendering, like Mesa, for the screensavers. Run
+2007-01-04T15:46:00.000Z	MegaTrousers		How can you tell the fps with glxgears?
+2007-01-04T15:46:00.000Z	Hexan	MegaTrousers	improper drivers are to blame. i've got nvidia, so i won't advice you anything, but all this is rather simple
+2007-01-04T15:50:00.000Z	Hexan	MegaTrousers	type fglrxinfo in terminal and let us know what do you see there

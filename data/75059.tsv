@@ -1,0 +1,4 @@
+2008-11-10T02:19:00.000Z	dataflow		What would be the first thing to do in order to find out the reason for this in my kern.log? Nov  9 07:45:12 dataflow_crescendo kernel: [   22.374968] /build/buildd/linux-2.6.24/drivers/rtc/hctosys.c: unable to open rtc device (rtc0)
+2008-11-10T02:21:00.000Z	zsquareplusc	dataflow	is your PC showing a clock with correct date in BIOS? some machines have no RTC, its battery may be empty or no/wrong kernel driver may be loaded
+2008-11-10T02:23:00.000Z	dataflow	zsquareplusc	so you believe it might be my BIOS clock? thats alright. I thought it was related to this wifi problem i'm having
+2008-11-10T02:24:00.000Z	zsquareplusc	dataflow	RTC = real time clock

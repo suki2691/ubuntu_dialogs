@@ -1,0 +1,4 @@
+2007-08-05T09:22:00.000Z	Dimensional-Door		when i run a make install command as a user, i get this     mkdir: cannot create directory `/tools': Permission denied
+2007-08-05T09:22:00.000Z	Dimensional-Door		        how can i fix this??????
+2007-08-05T09:23:00.000Z	Dimensional-Door		pelo ive tried, but the user i am, it does nothing
+2007-08-05T09:23:00.000Z	pete83	Dimensional-Door	also, don't just "make install"... you should be using checkinstall to make a package first

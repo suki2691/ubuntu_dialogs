@@ -1,0 +1,4 @@
+2006-04-10T11:08:00.000Z	Nrbelex		Hi, I just set up a server and I'm trying to find or set up my access log files. How do I do that?
+2006-04-10T11:09:00.000Z	carthik	Nrbelex	in general, $dkpg -L <package-name> will show you the files installed by a package, so do that for the server you installed, and find the log file's location
+2006-04-10T11:10:00.000Z	Nrbelex	carthik	- I should have been more specific - I'm looking for Apache log files and I'm not sure where they go - I know where the installed files are
+2006-04-10T11:10:00.000Z	carthik	Nrbelex	they will be in /var/log/ (httpd or apache2 or apache)

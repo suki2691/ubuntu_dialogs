@@ -1,0 +1,4 @@
+2010-10-01T09:09:00.000Z	pedestrianentran		when I plug in usb devices, they aren't always detected automatically.... Only when I reboot. Is there any command I can use to mount a device automatically?
+2010-10-01T09:10:00.000Z	brianski	pedestrianentran	sure - sudo mount /dev/sdXN, where X is a letter and N is a number corresponding to the device and partition thereon
+2010-10-01T09:10:00.000Z	pedestrianentran	brianski	is there anyway without knowing X or N? The system used to do this automatically until I upgraded to latest release of ubuntu
+2010-10-01T09:11:00.000Z	pedestrianentran	brianski	it works automatically when I reboot

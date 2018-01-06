@@ -1,0 +1,4 @@
+2010-11-19T16:56:00.000Z	cs09aas		Hi, I have a dual booting machine and I can no longer see windows in the bootloader. How can I get it back?
+2010-11-19T16:58:00.000Z	cs09aas		Was that an answer for me?
+2010-11-19T16:59:00.000Z	Jordan_U	cs09aas	What is the output of "sudo os-prober"?
+2010-11-19T17:08:00.000Z	Jordan_U	cs09aas	os-prober is a script which searches for operating systems and outputs information about them which can be used by other programs. update-grub uses os-prober to add windows to your grub.cfg, so without os-prober installed update-grub won't find windows.

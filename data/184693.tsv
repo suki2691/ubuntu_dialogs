@@ -1,0 +1,4 @@
+2006-08-23T14:22:00.000Z	Wibble-		hey... I can't read the launchpad.net article because links doesn't support https.  Can anyone tell me how to fix the xorg-server bug introduced by the recent upgrade?
+2006-08-23T14:23:00.000Z	kholerabbi	Wibble-	Yes, do this: Restart your computer, select the Recover mode in the GRUB menu. In the root command prompt that evntually loads type this (make sure you put the underlines in the url's in): "wget  http://archive.ubuntu.com/ubuntu/pool/main/x/xorg-server/xserver-xorg-core_1.0.2-0ubuntu10.4_i386.deb && sudo dpkg -i xserver-xorg-core_1.0.2-0ubuntu10.4_i386.deb"
+2006-08-23T14:24:00.000Z	Wibble-	kholerabbi	Thanks a lot!
+2006-08-23T14:24:00.000Z	kholerabbi	Wibble-	no problem :)

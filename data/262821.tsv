@@ -1,0 +1,4 @@
+2005-12-09T13:14:00.000Z	EvilGuru		I use sftp to send files to my server, I have many users, is it possible to allow the users to use sftp but not have a shell access?
+2005-12-09T13:14:00.000Z	EvilGuru		like I was able to do with my ftp server app
+2005-12-09T13:14:00.000Z	El_Che	EvilGuru	yes. put a script in their .bash_profile
+2005-12-09T13:15:00.000Z	El_Che	EvilGuru	something like trap 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 on top and a wait somewhere

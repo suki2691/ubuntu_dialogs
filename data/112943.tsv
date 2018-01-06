@@ -1,0 +1,4 @@
+2008-02-02T22:32:00.000Z	SAngeli		how to kill a process that does not die:  1002  9328 0000000000000000 0000000000000000 0000000000000000 0000000000000000 R+   pts/2      0:00 grep firefox
+2008-02-02T22:33:00.000Z	SAngeli		I type kill 1002
+2008-02-02T22:34:00.000Z	SAngeli		strange I get no process when I kill -9 1002 but if I type  ps -as | grep firefox I get Warning: bad ps syntax, perhaps a bogus '-'? See http://procps.sf.net/faq.html  002  9345 0000000000000000 0000000000000000 0000000000000000 0000000000000000 R+   pts/2      0:00 grep firefox
+2008-02-02T22:34:00.000Z	iNeo	SAngeli	killall <name>

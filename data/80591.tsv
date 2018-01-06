@@ -1,0 +1,4 @@
+2008-09-04T22:12:00.000Z	firelog		hello.   I need to transfer a folder and all files (and all subfolder--- everything under one folder, basically) from my ubuntu box to my windows client.  I tried smbclient ... but that doesn't seem to allow me to transfer folders?  (I tried mput ).  Is there a better way, or am I mistaken in assuming that smbclient doesn't allow complete folder transfers?
+2008-09-04T22:12:00.000Z	td123	firelog	you could also transfer everything to a fat formatted usb stick :P if you have one
+2008-09-04T22:13:00.000Z	firelog	td123	the server is remote, so no, I don't have that option.
+2008-09-04T22:13:00.000Z	td123	firelog	then do use winscp if you're on windows or just plain old scp if on *nix

@@ -1,0 +1,4 @@
+2009-09-30T22:31:00.000Z	Pici	Xoop	apache2 is a metapackage, you'll need to use apt-get autoremove to remove the packages it depended on.
+2009-09-30T22:42:00.000Z	Pici	Xoop	Did you see the advice that I gave you a little bit ago?
+2009-09-30T22:43:00.000Z	Pici	Xoop	You may also want to take a look at the output of: dpgk -l | grep apache
+2009-09-30T22:43:00.000Z	Pici	Xoop	sorry, dpkg -l | grep apache

@@ -1,0 +1,4 @@
+2008-07-29T07:23:00.000Z	djp_		http://ubuntuforums.org/showthread.php?t=873331
+2008-07-29T07:23:00.000Z	djp_		can anyone help me with this problem?
+2008-07-29T07:25:00.000Z	th0r	djp_	one way to accomplish what you are trying is to forward the port using iptables, but the other way is to just edit the ftp-server conf file to have the server monitor the changed port
+2008-07-29T07:28:00.000Z	th0r	djp_	all you should need from the client end is 'ftp <ip> <port> in a terminal

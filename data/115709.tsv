@@ -1,0 +1,4 @@
+2007-11-28T08:30:00.000Z	babyTux		is there an equivalent of ipconfig /release and /renew in linux? I've tried ifconfig eth1 down, ifconfig eth1 up
+2007-11-28T08:30:00.000Z	babyTux		but that doesn't seem to resolve my problem
+2007-11-28T08:31:00.000Z	robdig	babyTux	if you want to bring the interface up/down, use ifup eth1 or ifdown eth1
+2007-11-28T08:32:00.000Z	robdig	babyTux	you will have to put sudo before them i think

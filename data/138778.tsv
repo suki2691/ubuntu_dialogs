@@ -1,0 +1,4 @@
+2007-07-28T07:48:00.000Z	blackalex		ubuntu@ubuntu:/$ sudo grub-install /dev/sda
+2007-07-28T07:48:00.000Z	blackalex		Could not find device for /boot: Not found or not a block device.
+2007-07-28T07:49:00.000Z	blackalex		could someone please explain this so i can fix my grub?
+2007-07-28T07:49:00.000Z	myself_	blackalex	sudo mount -l | grep /boot

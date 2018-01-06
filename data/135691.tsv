@@ -1,0 +1,4 @@
+2007-05-07T05:01:00.000Z	nicolah		I've got this big problem with outkafe and ubuntu 64 libraries http://forum.ubuntu-it.org/index.php?topic=83945.0
+2007-05-07T05:03:00.000Z	omri	nicolah	you have a libs problem; the libraries you have are 64bits while the application is 32bits
+2007-05-07T05:03:00.000Z	nicolah	omri	thanks. is there a way to fix it ?
+2007-05-07T05:06:00.000Z	omri	nicolah	you need to have the 32bits libraries. ubuntu has /lib32 and /usr/lib32 for that

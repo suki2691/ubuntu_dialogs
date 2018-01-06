@@ -1,0 +1,4 @@
+2011-01-23T21:24:00.000Z	Diverdude		I am trying to installing tor project according to this tutorial: http://www.torproject.org/docs/debian.html.en#ubuntu . I have inserted: http://deb.torproject.org/torproject.org lucid main   in /etc/apt/sources.list and saved it. i ran gpg --keyserver keys.gnupg.net --recv 886DDD89  and then gpg --export A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89 | sudo apt-key add -   as described. when i then however run sudo apt-get update i get the foll
+2011-01-23T21:24:00.000Z	Diverdude		owing: E: Type 'http://deb.torproject.org/torproject.org' is not known on line 59 in source list /etc/apt/sources.list  What am i doing wrong?
+2011-01-23T21:24:00.000Z	FloodBot1	Diverdude	Please don't flood; use http://paste.ubuntu.com to paste; don't use Enter as punctuation.
+2011-07-13T14:23:00.000Z	FloodBot1	Diverdude	Please don't flood; use http://paste.ubuntu.com to paste; don't use Enter as punctuation.

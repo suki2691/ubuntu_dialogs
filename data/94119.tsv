@@ -1,0 +1,4 @@
+2009-10-07T00:45:00.000Z	LoOoD		in the preseed file, is there a way to specify which sector offset to start on? any know of an example I can see?
+2009-10-07T00:47:00.000Z	genii	LoOoD	You mean for instance to loopmount a disk image which has been dd'd but contains in the disk image subpartitions etc?
+2009-10-07T00:49:00.000Z	LoOoD	genii	nope. want to start the partition on sector #64, default is #63. Looking to help raid performce by aligning the sector to stripe size
+2009-10-07T00:50:00.000Z	genii	LoOoD	Aaah, OK. Sorry, I don't know how for that one.

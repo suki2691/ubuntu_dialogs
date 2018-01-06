@@ -1,0 +1,4 @@
+2010-07-06T12:48:00.000Z	nomorenick		my problem is that i want to autohide cairo-dock but i dont know how to
+2010-07-06T12:48:00.000Z	nomorenick		also i would like to make the icon background transparent, not the dock.
+2010-07-06T12:48:00.000Z	nomorenick		i want to keep the dock how it is, but whenever i go over an icon the icon background turns black
+2010-07-06T12:50:00.000Z	bastidrazor	nomorenick	you may need to run cairo-dock with -c option... that means no OpenGL .. i have to do that with mine. quit cairo-dock then in a terminal type: cairo-dock -c & disown  .. also hiding it is easy to do.

@@ -1,0 +1,4 @@
+2007-12-08T00:23:00.000Z	wazeem		can someone help me with my wireless card - after using ndiswrapper it functioned properly but after restart it has stopped working completly
+2007-12-08T00:24:00.000Z	nickrud	wazeem	sudo nano /etc/modules , add the word ndiswrapper there on it's own line so it will be loaded on reboot
+2007-12-08T00:24:00.000Z	nickrud	wazeem	sudo modprobe ndiswrapper should bring your wireless up now
+2007-12-08T00:24:00.000Z	wazeem	nickrud	thanks i will try that. I gotta load between XP and ubuntu so ill be a while

@@ -1,0 +1,4 @@
+2004-11-14T15:22:00.000Z	rfetech		What is best way to boot into run level 2 as default instead of GUI and then be able use startx for GUI?
+2004-11-14T15:23:00.000Z	|trey|	rfetech	On Debian based systems, rl 2-5 are the same... you would simple set /etc/X11/default-desktop-manager to "NONE"
+2004-11-14T15:23:00.000Z	|trey|	rfetech	so 'echo NONE > /etc/X11/default-desktop-manager'
+2004-11-14T15:25:00.000Z	|trey|	rfetech	you're welcome... also investigate rcconf for simular tasks, nice ncurses interface for editing services  :)

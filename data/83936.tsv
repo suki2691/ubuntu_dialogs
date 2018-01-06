@@ -1,0 +1,4 @@
+2009-02-27T01:59:00.000Z	spencer_		My computer does not see the floppy drive, ant suddestions?
+2009-02-27T01:59:00.000Z	lstarnes	spencer_	try running sudo modprobe floppy
+2009-02-27T02:00:00.000Z	lstarnes	spencer_	you may also want ro add floppy to /etc/modules
+2009-02-27T02:00:00.000Z	lstarnes	spencer_	it's no longer a default module because floppies have been obsoleted by cds and dvds

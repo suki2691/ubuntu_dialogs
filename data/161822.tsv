@@ -1,0 +1,4 @@
+2006-11-01T08:50:00.000Z	KenSentMe		I have a command that i want to run everytime the system is started and it needs to be run by root. Where do i put it?
+2006-11-01T08:52:00.000Z	kevb	KenSentMe	You probably want to put a script in /etc/rc0.d/ but I'm not sure
+2006-11-01T08:52:00.000Z	kevb	KenSentMe	Maybe someone else could confirm
+2006-11-01T08:53:00.000Z	kevb	KenSentMe	There ya go, what they said

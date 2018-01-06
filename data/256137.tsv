@@ -1,0 +1,4 @@
+2008-10-18T06:32:00.000Z	adude		is there a reason my swap turns its self off?
+2008-10-18T06:33:00.000Z	adude		when i open the system monitor the swap is listed as 0 gb
+2008-10-18T06:34:00.000Z	adude		then if i go into the partition editor i get an option to turn swapon.
+2008-10-18T06:35:00.000Z	dr_willis	adude	 check fstab for a proper swap entry, try the 'sudo swapon' command also.

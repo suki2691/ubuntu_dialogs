@@ -1,0 +1,4 @@
+2007-07-23T15:00:00.000Z	BrightEyes		i want to make ls print all the files whose names have either 3 or 4 or 5 characters. in grep you can use grep '[.{3,5}' . is there something similar in ls?
+2007-07-23T15:00:00.000Z	hwilde	BrightEyes	run ls | grep
+2007-07-23T15:00:00.000Z	BrightEyes	hwilde	without using grep???
+2007-07-23T15:01:00.000Z	hwilde	BrightEyes	you need to learn about piping output of one command to another.  type in     ls | grep <pattern>

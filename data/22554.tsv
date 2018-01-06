@@ -1,0 +1,4 @@
+2011-01-14T16:12:00.000Z	hetii		Hi :>
+2011-01-14T16:12:00.000Z	hetii		Q: Why ip route show don`t display me the route added by: ip route add default via xxx.xxx.xxx.xxx dev tun1 table 201 ?
+2011-01-14T16:12:00.000Z	ne2k	hetii	I think by default it will only show the default routing table.
+2011-01-14T16:13:00.000Z	ne2k	hetii	you can do ip route show table all

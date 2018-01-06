@@ -1,0 +1,4 @@
+2008-03-30T16:56:00.000Z	ompaul	Hewus	you could do something whereby you do ifconfig eth0 | grep RX\ bytes  > somefile and have something grep the numbers out and do the subtraction
+2008-03-30T16:58:00.000Z	Hewus	ompaul	I thought about doing something like that, but I'm not that experienced with scripts. However the way you mention it, it sounds doable... I figured there would be something around already though, similar to DUmeter and NetLimiter for windows
+2008-03-30T16:59:00.000Z	ompaul	Hewus	it may be - do this - apt-cache search network | grep measure
+2008-03-30T16:59:00.000Z	ompaul	Hewus	and variants of same

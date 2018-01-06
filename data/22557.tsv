@@ -1,0 +1,4 @@
+2011-01-20T22:21:00.000Z	birrbert		hi folks. how are you? I would like some help in fixing my PC running Ubuntu 10.04 LTS server. for some reason GRUB was installed on the flash drive where I installed the operating system from and the system won't boot without it. how can I fix this issue?
+2011-01-20T22:22:00.000Z	ne2k	birrbert	you need to boot linux somehow, then you can fix it from there. a livedisk or install disk ought to do the trick
+2011-01-20T22:24:00.000Z	birrbert	ne2k	I booted Ubuntu 'cause if I plug in the flash drive, it boots. I don't have opportunity to use an optical drive. I have to fix this issue using the flash drive. any ideas?
+2011-01-20T22:25:00.000Z	ne2k	birrbert	grub-install <device>

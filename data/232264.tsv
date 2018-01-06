@@ -1,0 +1,4 @@
+2008-05-25T22:50:00.000Z	cali|lap		hey guys, if i know of a process thats running called ./ircd is there a way to find out what IP and port it is binding too?
+2008-05-25T22:51:00.000Z	cali|lap		anyone know?
+2008-05-25T22:51:00.000Z	cali|lap		hey guys, if i know of a process thats running called ./ircd is there a way to find out what IP and port it is binding too?
+2008-05-25T22:52:00.000Z	erUSUL	cali|lap	netstat -putan | grep ircd

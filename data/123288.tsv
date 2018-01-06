@@ -1,0 +1,4 @@
+2007-09-05T08:39:00.000Z	stark		Hi everyone, I installed Ubuntu on a seperate, external USB hard drive and had GRUB install to the hard drive as well.  I had it set up so that if the hard drive was plugged in, it would be higher in the boot order than my regular drive, and so would give me my regular GRUB boot menu.  If it wasn't plugged in, it would boot straight to Vista.  This worked for a while, but for some reason, on my last reboot, Vista was gone from the boot options in
+2007-09-05T08:39:00.000Z	stark		GRUB, and when I tried to restart I got a error along the lines of "No BOOTMGR found, reboot".  Any ideas?
+2007-09-05T08:40:00.000Z	stark		I don't think so
+2007-09-05T08:42:00.000Z	Evanlec	stark	update-grub will add ur extra kernels

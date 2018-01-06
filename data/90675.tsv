@@ -1,0 +1,4 @@
+2008-06-27T13:56:00.000Z	crab		hi. is there something other than update-rc.d i can use to manage my rc*.d->init.d links? (not like ntsysv, more like chkconfig.)
+2008-06-27T13:58:00.000Z	crab		or... is update-rc.d actually the preferred way to manage them?
+2008-06-27T13:58:00.000Z	raheem	crab	u can use update-rc.d as u use chkconfig .. for eg.. update-rc.d <process> start 0123 stop 456
+2008-06-27T14:02:00.000Z	raheem	crab	check this out http://boilinglinux.blogspot.com/2007/12/chkconfig-in-ubuntu.html

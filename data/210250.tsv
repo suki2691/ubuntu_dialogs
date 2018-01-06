@@ -1,0 +1,4 @@
+2008-10-22T19:13:00.000Z	jamiejackson		i don't mind my external hard drive auto-mounting, but i don't like how it launches nautilus. is there a good way to stifle the nautilus launch?
+2008-10-22T19:14:00.000Z	jamiejackson		(my hdd has three partitions on it, so the auto-nautilus is a bit annoying)
+2008-10-22T19:15:00.000Z	erki	jamiejackson	gconf-editor apps/nautilus/preferences/media_automount_open
+2008-10-22T19:18:00.000Z	erki	jamiejackson	Or possibly Edit:Preferences:Media:Browse media when inserted (in Nautilus)

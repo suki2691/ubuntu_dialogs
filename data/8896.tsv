@@ -1,0 +1,4 @@
+2011-10-19T14:12:00.000Z	brandonc503		so when i install ubuntu, does the pasword i set go for the username i make aswell as the root?
+2011-10-19T14:12:00.000Z	SunTsu	brandonc503	in a way, yes. root can have it's own, but normally you use sudo with your user's password
+2011-10-20T10:27:00.000Z	SunTsu	brandonc503	ls -ld $path
+2011-10-20T10:28:00.000Z	SunTsu	brandonc503	don't forget the "-d" else you will see the directory's content

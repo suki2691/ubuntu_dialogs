@@ -1,0 +1,4 @@
+2008-01-14T05:19:00.000Z	Whatsinaname		OK, so how do I stop ubuntu looking for a monitor on boot?
+2008-01-14T05:20:00.000Z	cabrioleur	Whatsinaname	change runlevel, disable gdm and such, get rid of usplash, etc.
+2008-01-14T05:20:00.000Z	Whatsinaname	cabrioleur	 sorry I am new to this.  not sure what disable gdm and such is
+2008-01-14T05:22:00.000Z	cabrioleur	Whatsinaname	and I cannot tell you right now. I don't use ubuntu. Go to /etc/rc5.d/ and chmod -x on it. Edit /boot/grub/menu.lst to disable usplash.

@@ -1,0 +1,4 @@
+2009-05-12T18:40:00.000Z	flintwingel	r3c0n	/dev/ttyUSB0 is a device file that allows the software to talk to the hardware. It should be created automatically when you plu your hardware into the USB slot
+2009-05-12T18:43:00.000Z	r3c0n	flintwingel	the device my usb  dongle at /dev/ttyUSB0 does not work with wvdial for mobile broadband with t-mobile how can i fix it ?
+2009-05-12T18:47:00.000Z	flintwingel	r3c0n	first thing to check is if the usb dongle is being recognised... unplug the dongle, count to 10, plug the dongle back in then go to System->Administration-LLog File Viewer
+2009-05-12T18:48:00.000Z	flintwingel	r3c0n	check the messages log file and see if you can see any message realting to the dongle

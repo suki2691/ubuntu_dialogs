@@ -1,0 +1,4 @@
+2007-07-03T07:51:00.000Z	Stwange		(sorry if you already replied to this, I got called AFK) how do I set root.root ownership, and is there a way of copying out of synaptic? It keeps coming up with URLs in it's little terminal but there's no right click menu and ctrl+c stops the thread
+2007-07-03T07:52:00.000Z	Stwange		!root.root
+2007-07-03T07:52:00.000Z	pike__	Stwange	you are wanting to change ownership of what? typically youd do 'sudo chown username:username filename'
+2007-07-03T07:55:00.000Z	pike__	Stwange	i guess. that seems a little strange though. itll work for a single file. for a dir youd include the -R for recursive

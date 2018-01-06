@@ -1,0 +1,4 @@
+2011-03-12T06:26:00.000Z	TheMusicGuy		For some reason, I am no longer being asked for a password whenever I used sudo or gksudo. It just automatically grants root permissions, even though I haven't used sudo/gksudo since starting this session.
+2011-03-12T06:27:00.000Z	noah	TheMusicGuy	does relevant /etc/sudoers line say NOPASSWD ?
+2011-03-12T06:28:00.000Z	TheMusicGuy	noah	no
+2011-03-12T06:29:00.000Z	noah	TheMusicGuy	what do you mean by "this session"? i think sudo uses timeouts that remain in place even if you log out and back in

@@ -1,0 +1,4 @@
+2006-07-30T07:48:00.000Z	mpathy		Hi there.. I am confused.. Why I can do sudo but I am not in the sudoers file?
+2006-07-30T07:48:00.000Z	mpathy		I wanted to add another sudoer via visudo but I see my own user is also not in there!!
+2006-07-30T07:50:00.000Z	Miek	mpathy	by default it gives sudo privilages to the "admin" group, rather than your specific user
+2006-07-30T07:51:00.000Z	mpathy	Miek	rpedro: Okay thx

@@ -1,0 +1,4 @@
+2007-03-19T14:44:00.000Z	coiote		when i star my computer and take the option to boot from ubuntu its show me some errors like: can not read block xxxxxxx  any help pleae???
+2007-03-19T14:44:00.000Z	coiote		when i star my computer and take the option to boot from ubuntu its show me some errors like: can not read block xxxxxxx and take forever to star ubuntu
+2007-03-19T14:44:00.000Z	erUSUL	coiote	it seems like corrupted fs to me... use fsck from a livecd to check partitions
+2007-03-19T15:33:00.000Z	erUSUL	coiote	you have to specify the target partition 'sudo fsck /dev/....'

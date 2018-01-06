@@ -1,0 +1,4 @@
+2011-06-23T07:37:00.000Z	Isosceles		ok, will try that
+2011-06-23T07:39:00.000Z	wildgoose	Isosceles	Try using gufw, set outgoing allow, set incoming deny.
+2011-06-23T07:59:00.000Z	wildgoose	Isosceles	Temporarily allow all outgoing, then open a browser and do some surfing like normal, now go to terminal and run "netstat -atl". This will give you an idea about what ports are being used
+2011-06-23T08:02:00.000Z	Isosceles	wildgoose	: Looks like www (80) and listening on ipp? http://pastebin.com/a65R6Mku

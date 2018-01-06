@@ -1,0 +1,4 @@
+2009-10-26T04:53:00.000Z	rednammoc		hi guys. what to do if i have dependencies by using apt-get install.
+2009-10-26T04:53:00.000Z	rednammoc		  libssl-dev: Depends: libssl0.9.8 (= 0.9.8g-4ubuntu3.8) but 0.9.8g-15ubuntu3.3 is to be installed
+2009-10-26T04:55:00.000Z	rednammoc		does anybody knows how to clean up dependencies ?
+2009-10-26T04:56:00.000Z	chetnick	rednammoc	sudo apt-get autoremove

@@ -1,0 +1,4 @@
+2011-09-11T18:54:00.000Z	lolmaus		I've created /etc/conf/uwsgi.conf, but "sudo start uwsgi" says "unknown job". Why? What should i do to start it?
+2011-09-11T18:54:00.000Z	Polah	lolmaus	sudo service start uwsgi.conf, provided you've properly set up it's init scripts and suchlike with Upstart
+2011-09-11T18:55:00.000Z	lolmaus	Polah	i have only created the "/etc/init/uwsgi.conf". Is taht enough?
+2011-09-11T18:57:00.000Z	Polah	lolmaus	Probably not, you need to add a line to your runlevels too and suchlike. Other people can explain better. Have a look at !upstart and perhaps this: https://help.ubuntu.com/community/UbuntuBootupHowto#Other_Upstart_Commands

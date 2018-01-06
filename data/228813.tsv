@@ -1,0 +1,4 @@
+2005-12-24T14:53:00.000Z	davro		hi i stupidly chmod 755 /etc/sudoers to edit it, after finding out about visudo, now everytime i try to sudo anything it stops and shows /etc/sudoers is more 0755, should be 0440, i have tryed to sudo chmod 440 it back but sudo fails ... any ideas
+2005-12-24T14:54:00.000Z	ofer0	davro	pretty stupid what you have done. especially when it says: # This file MUST be edited with the 'visudo' command as root.
+2005-12-24T14:54:00.000Z	davro	ofer0	yup cheers for the help =>
+2005-12-24T14:55:00.000Z	ofer0	davro	start the computer with a livecd, and change the file's permissions

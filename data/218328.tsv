@@ -1,0 +1,4 @@
+2005-12-15T08:46:00.000Z	DaOne		is there a boot utility that comes with breezy badger that would allow me to change the default boot OS?
+2005-12-15T08:47:00.000Z	intelikey	DaOne	edit /boot/grub/menu.lst  and set the default.
+2005-12-15T08:49:00.000Z	DaOne	intelikey	the /boot/grub/menu.lst is write protected. i tried sudo bash gedit /boot/grub/menu.lst and it gave me someting about could not execute binaries
+2005-12-15T08:51:00.000Z	intelikey	DaOne	'sudo nano /boot/grub/menu.lst '

@@ -1,0 +1,4 @@
+2011-02-19T05:39:00.000Z	donoban		hi, I can't set virtual in xorg.conf. I try to use an extra monitor but when I run xrandr it complains virtual size is too small
+2011-02-19T05:41:00.000Z	donoban		some idea? Is possible that last ubuntu version ignores /etc/X11/xorg.conf? Maybe another place to put virtual screen size?
+2011-02-19T05:42:00.000Z	donoban		I'm using fglrx if that helps....
+2011-02-19T05:43:00.000Z	soreau	donoban	You put virtual size in xorg.conf but check /var/log/Xorg.0.log for messages that it had an error

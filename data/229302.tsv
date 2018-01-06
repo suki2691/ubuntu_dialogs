@@ -1,0 +1,4 @@
+2007-01-22T13:27:00.000Z	omenemo		says i do not have permission, then when i sudo it, it says that sudo: cd: command not found, any ideas? maddash or anyone??
+2007-01-22T13:28:00.000Z	mwe	omenemo	cd is a shell built in and not a binary file
+2007-01-22T13:29:00.000Z	mwe	omenemo	sudo -i. then do what you want
+2007-01-22T13:38:00.000Z	mwe	omenemo	which one? usually chmod +x it

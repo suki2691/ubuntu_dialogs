@@ -1,0 +1,4 @@
+2008-11-08T13:53:00.000Z	lolo		can someone tell me how to un tar.gz all files in a folder?
+2008-11-08T13:54:00.000Z	outbackwifi	lolo	tar zxvf
+2008-11-08T13:59:00.000Z	outbackwifi	lolo	cd /other/folder; sudo tar zxvf file.tar.gz /path/to/tarfile
+2008-11-08T14:01:00.000Z	outbackwifi	lolo	if you mean you have many tar files, then just use the wild card tar zxvf *.tar.gz

@@ -1,0 +1,4 @@
+2008-08-14T19:25:00.000Z	dvs		what permissions do i need to set so that only two users can access each others /home folders ?
+2008-08-14T19:26:00.000Z	dvs		thankx
+2008-08-14T19:26:00.000Z	kenkku_	dvs	create a group to which those two users belong and change the group bit to that
+2008-08-14T19:26:00.000Z	kenkku_	dvs	then apply whatever permissions you want the group to have

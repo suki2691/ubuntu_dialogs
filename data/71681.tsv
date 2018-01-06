@@ -1,0 +1,4 @@
+2012-11-11T05:45:00.000Z	maicod		when opening multiple logins bash keeps track of the commands in multiple .bash_history files it seems because sometimes when logging back in I get a bash history of another login I had used. where is the bash history of these other logins stored ?
+2012-11-11T05:46:00.000Z	warfaren	maicod	by default, the history of last shell you close gets written to ~/ .bash_history
+2012-11-11T05:47:00.000Z	warfaren		yeah.
+2012-11-11T05:47:00.000Z	maicod	warfaren	yeah but the others are kept somewhere else since they turn up sometimes when later logging into a new shell

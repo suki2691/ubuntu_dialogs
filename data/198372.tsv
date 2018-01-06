@@ -1,0 +1,4 @@
+2007-03-27T12:47:00.000Z	malcoholio		Pardon the noob question here. . can anyone point me in the direction of getting ubuntu to recognize a screen resolution higher then 800X600?
+2007-03-27T12:48:00.000Z	malcoholio		ATI Rage Pro I belive. .
+2007-03-27T12:48:00.000Z	mzuverink	malcoholio	reconfigure your xserver using sudo dpkg-reconfigure xserver-xorg, making sure you choose the correct card and such, its easy if you read the questions
+2007-03-27T12:49:00.000Z	mzuverink	malcoholio	you can also go to easylinux.info and read the section on installing the ati drivers

@@ -1,0 +1,4 @@
+2012-08-11T17:57:00.000Z	Claximillions		Are there commands to disable/enable and/or prioritize network interfaces? i.e. eth1 and wlan0
+2012-08-11T17:58:00.000Z	theadmin	Claximillions	Disable/enable? "ip link set FACE up" (replace face with eth1, wlan0, etc). I'm sure there's some way to prioritize, but that's beyond me
+2012-08-11T17:58:00.000Z	Claximillions	theadmin	Thanks ^^
+2012-08-11T17:58:00.000Z	theadmin	Claximillions	"down" instead of "up" to disable.

@@ -1,0 +1,4 @@
+2007-12-04T18:36:00.000Z	xserver		 Package gtk+-2.0 was not found in the pkg-conf ig search path. Perhaps you should add the directory containing `gtk+-2.0.pc' to  the PKG_CONFIG_PATH environment variable No package 'gtk+-2.0' found
+2007-12-04T18:36:00.000Z	xserver		configure: error: Library requirements (gtk+-2.0 >= 2.0.0) not met; consider adj usting the PKG_CONFIG_PATH environment variable if your libraries are in a nonst andard prefix so pkg-config can find them.
+2007-12-04T18:36:00.000Z	xserver		anyone knows what this means ?
+2007-12-04T18:38:00.000Z	Pici	xserver	you'll need the -dev packages for those packages if its complaining about unmet deps

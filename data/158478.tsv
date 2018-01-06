@@ -1,0 +1,4 @@
+2009-07-15T12:55:00.000Z	zaphod_home		hi, i've a problem with my whole system... it's a quad-core. when i'm doing heavy hdd load (copy GBs from sda1 to sdb1) systemload is going to 3.8 and i cant use the system any more. is there possibilty to speed this up?
+2009-07-15T12:57:00.000Z	Slart	zaphod_home	there's ionice
+2009-07-15T12:57:00.000Z	Slart	zaphod_home	but I think it has to be run for each copy command
+2009-07-15T13:01:00.000Z	Slart	zaphod_home	but it should make the computer usable while it is copying, if I understand that command correctly

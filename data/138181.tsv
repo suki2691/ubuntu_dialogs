@@ -1,0 +1,4 @@
+2009-01-17T07:07:00.000Z	linxuz3r		whats a good way to copy directories and files while preserving root and permission?
+2009-01-17T07:09:00.000Z	linxuz3r		whats a good way to copy directories and files while preserving root and permission?
+2009-01-17T07:10:00.000Z	usser	linxuz3r	cp -R -p
+2009-01-17T07:10:00.000Z	usser	linxuz3r	-p tells cp to preserve permissions -R, tells to copy recursively

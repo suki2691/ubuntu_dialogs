@@ -1,0 +1,4 @@
+2006-07-19T05:53:00.000Z	CokeNCode		ok, i'm having this problem with lynx, and also opera, i'm starting a download, directly from hak5.org (their podcast), and it gets like halfway, and then stops... can anyone help me with that. It works fine with firefox.
+2006-07-19T05:54:00.000Z	CokeNCode		does lynx support resuming ... ?
+2006-07-19T05:54:00.000Z	Warbo	CokeNCode	Use "copy link location" or something, then paste it into "wget -c URL"
+2006-07-19T05:55:00.000Z	Warbo	CokeNCode	The "-c" is for "continue" (I always use it, since when the connection dies I often just press up to get the same command back, but without -c it just starts again)

@@ -1,0 +1,4 @@
+2011-01-16T23:07:00.000Z	Ascavasaion		I am trying ro run xorg freeBSD 7.2-RELEASE.  I ran Xorg -configure but I cannot locate the Xorg.conf.new file the FreeBSD handbook tells me to use.  I presume that Xorg is the same across all nix platforms.  Any ideas/
+2011-01-16T23:09:00.000Z	schnuffle	Ascavasaion	you can create xorg.con with Xorg -config
+2011-01-16T23:10:00.000Z	Ascavasaion	schnuffle	It does not work, I cnanot find the xorg.conf.new file.
+2011-03-10T18:07:00.000Z	schnuffle	Ascavasaion	use umask,uid,gid options, mask=007,gid=046,uid=0

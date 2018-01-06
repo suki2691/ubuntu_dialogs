@@ -1,0 +1,4 @@
+2008-04-03T01:44:00.000Z	Acomaco		How do Iptables prioritize? The first condition goes first or the latest?
+2008-04-03T01:45:00.000Z	Acomaco		I want to allow all ips at 213.112.220.*, and deny all others for port 80..
+2008-04-03T01:45:00.000Z	Acomaco		should i first allow all then deny the rest?
+2008-04-03T01:46:00.000Z	ikonia	Acomaco	look in the apache config file, see if the order is allow or deny first

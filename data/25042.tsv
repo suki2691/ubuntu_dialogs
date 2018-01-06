@@ -1,0 +1,4 @@
+2010-10-12T22:13:00.000Z	amcsi		hello
+2010-10-12T22:14:00.000Z	amcsi		how do I set the character set of my mysql connection? and how do I change any data I receive to a character set I choose?
+2010-10-12T22:15:00.000Z	cfairles	amcsi	add init_connect = 'SET collation_connection = utf8_general_ci; SET NAMES utf8;' and skip-character-set-client-handshake; under [mysqld] in the cnf file
+2010-10-12T22:16:00.000Z	cfairles	amcsi	if you want the server to force a client character set

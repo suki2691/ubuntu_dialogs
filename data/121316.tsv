@@ -1,0 +1,4 @@
+2007-09-21T11:33:00.000Z	pedervl		I have beryl and devilspie in startup list, and when I log in I need beryl to start before devilspie, if not everything gets ugly and I gotta relog. How can I ensure?
+2007-09-21T11:35:00.000Z	pyr3	pedervl	Create a shell script that starts both in the correct order, and make that a startup item
+2007-09-21T11:36:00.000Z	pyr3		apt-cache show pkg-name
+2007-09-21T11:37:00.000Z	pedervl	pyr3	Can you give me a hint how? I think I need to have some kind of wait-command for the latter process, if not it just startes to open both at the same time, and whatever is fastest "wins".

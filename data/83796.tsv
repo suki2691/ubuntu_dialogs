@@ -1,0 +1,4 @@
+2009-10-06T05:20:00.000Z	chilicuil		hi,  does anyone know how to reset the crontab editor? I've run "crontab -e" and it prompted me to choice an editor, I've selected vim but it doesn't works fine with the my plugins, so I want to set another editor
+2009-10-06T05:21:00.000Z	chilicuil		yeah, I want change it, but I dont know how, fccf
+2009-10-06T05:21:00.000Z	lstarnes	chilicuil	export EDITOR=new-editor
+2009-10-06T05:21:00.000Z	lstarnes	chilicuil	e.g. export EDITOR=nano

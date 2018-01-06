@@ -1,0 +1,4 @@
+2007-02-13T08:41:00.000Z	blenna_unix		can someone explain how links work? if i do a "ln file1 file2" will that command copy the file again?
+2007-02-13T08:42:00.000Z	ljlolel	blenna_unix	no, that just creates another "label" to the same memory address on your harddrive
+2007-02-13T08:42:00.000Z	ljlolel	blenna_unix	you'll almost always want to create only symbolic links... ln -s, to copy use cp
+2007-02-13T08:44:00.000Z	ljlolel	blenna_unix	it just creates another pointer, tit doesn't copy the actual bits

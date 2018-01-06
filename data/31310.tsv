@@ -1,0 +1,4 @@
+2010-05-24T23:07:00.000Z	okelet		hi, is there any way to launch a program in the current gnome session from a remote ssh session?
+2010-05-24T23:09:00.000Z	trism	okelet	yes, just set DISPLAY and possibly XAUTHORITY correctly in the ssh session's environment
+2010-05-24T23:10:00.000Z	okelet	trism	like - DISPLAY=":0.0" gedit??
+2010-05-24T23:10:00.000Z	trism	okelet	yes

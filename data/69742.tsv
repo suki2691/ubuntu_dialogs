@@ -1,0 +1,4 @@
+2010-09-10T21:38:00.000Z	RobinJ		Uhm... help? I upgraded to the Ubuntu 10.10 Beta and now my computer is stuck at the startup screen, i managed to start in failsafe graphics mode, if i run startx from recovery terminal it tells me this: failed to load /usr/lib/xorg/extra-modules/nvidia_drv.so
+2010-09-10T21:40:00.000Z	sacarlson	RobinJ	try move the file sudo mv /etc/X11/xorg.conf /etc/X11/xorg.conf.org
+2010-09-10T21:41:00.000Z	sacarlson	RobinJ	only if you use propraitary drivers it will be there
+2010-09-10T21:42:00.000Z	sacarlson	RobinJ	yes so you will need to reinstall that driver.  and it seems for me I had to do a complete remove then install before I got mine to work
