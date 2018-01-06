@@ -46,6 +46,11 @@ Resources-
 - I created bigrams from each sentence's nouns so that the topics make more sense to the Ubuntu help team
   - One of the popular topics was 'apt-get, install' 
   - I need to identify more words to add to the stop words matrix so that the output of the most popular topics does't contain fragmented words like don't and I'm
+  
+## Approach used for Question 1-
+- Extracted the nouns from the sentences 
+- Made bigrams of the nouns from the sentences
+- Counted the occurence of the bigrams
 
 ## Approach used for Question 2-
 - Removed random user name references from the chat data of the given file
