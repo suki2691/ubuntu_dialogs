@@ -6,7 +6,7 @@ Please clone this repository onto your system typing the following command in yo
 ``` 
 $ git clone https://github.com/suki2691/ubuntu_dialogs.git
 ```
-*To run the code, please open the Jupyter Notebook file(.ipynb) and execute the cells sequentially.
+*To run the code, please open the Jupyter Notebook file(.ipynb) and execute the cells sequentially.*
 
 Setup-
 * Python 3 (Anaconda)
