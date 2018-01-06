@@ -1,0 +1,4 @@
+2008-08-17T19:23:00.000Z	Demios		question how exactly do i chown a folder, i'd like to chown /var/lib/mpd/*
+2008-08-17T19:25:00.000Z	Demios		i tried "sudo chown "myusername":users /var/log/mpd/*"
+2008-08-17T19:25:00.000Z	Demios		with no luck
+2008-08-17T19:26:00.000Z	tj83	Demios	you have to add the condition for the permissions. like 700 means that only root has full read/write/x authority

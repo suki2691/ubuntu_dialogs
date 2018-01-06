@@ -1,0 +1,4 @@
+2012-11-14T05:21:00.000Z	frankko		I get no network in ubuntu today.. it worked before i went to bed yesterday
+2012-11-14T05:22:00.000Z	frankko		when i try to run ifup and dhclient it complains something about that it has been converted to a upstart job and i should run it some other way but not providing info on how to do so,
+2012-11-14T05:23:00.000Z	disputin	frankko	could be restart networking
+2012-11-14T05:24:00.000Z	disputin	frankko	look in /etc/init it will show you possible upstart jobs

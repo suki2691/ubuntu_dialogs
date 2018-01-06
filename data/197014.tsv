@@ -1,0 +1,4 @@
+2006-03-02T06:29:00.000Z	kurr		how do i modify the startup boot loader, so that it could autoload to run windows instead of linux?
+2006-03-02T06:30:00.000Z	dyrne	kurr	sudo gedit /boot/grub/menu.lst  find the line commented out that says like default 0 uncomment line and change 0 to whatever entry windows is counting down
+2006-03-02T06:32:00.000Z	kurr	dyrne	thanks
+2006-03-02T06:33:00.000Z	dyrne	kurr	np

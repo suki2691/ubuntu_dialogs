@@ -1,0 +1,4 @@
+2009-11-02T09:14:00.000Z	morfic		what are the changes that were made in 9.10 would make a kernel rebuild necessary, the kernel i ran in 9.04 now just sits on a flickering console, while the supplied 2.6.31-14 boots with a higher console res fine into the X (rather than blindly trying to go for anything framebuffer related, i hope someone knows what parts exactly are now required for a successful boot into X)
+2009-11-02T09:15:00.000Z	wgrant	morfic	The new kernel and X will use kernel modesetting (KMS) on Intel hardware.
+2009-11-02T09:17:00.000Z	morfic	wgrant	thanks, now i know what to look for
+2009-11-02T10:51:00.000Z	morfic	wgrant	thanks, one tiny little option added and all boots fine into X, but the long long compile made me realize one thing, 2.6.31-14-generic + jack +usb-audio == horrid combination for audio

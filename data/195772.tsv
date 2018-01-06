@@ -1,0 +1,4 @@
+2008-08-25T07:01:00.000Z	godzirra		Hi folks.  I'm trying to get my realtek 8101 wireless card working in linux and I cant seem to get it detected.  lspci finds it, but it doesnt show up in iwconfig or ifconfig.
+2008-08-25T07:02:00.000Z	kitche	godzirra	so ifconfig -a shows nothing like wlan0 or ethX well eth0 will most likely be your ethernet if you have ethernet
+2008-08-25T07:03:00.000Z	godzirra	kitche	eth0 shows but thats my wired.  Other than that, just the loopback interface.
+2008-08-25T07:08:00.000Z	godzirra	kitche	any ideas?

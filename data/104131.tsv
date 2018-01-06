@@ -1,0 +1,4 @@
+2010-05-22T22:21:00.000Z	discozohan		Hello ;) While installing ubuntu server, i didn't choose mailserver ( for install ). And now i see, that 25 port is binded. Question - what process uses it ?
+2010-05-22T22:21:00.000Z	discozohan		netstat -tulpn doesn't show pid and process
+2010-05-22T22:21:00.000Z	ActionParsnip	discozohan	try:    netstat -a | grep 25
+2010-05-22T22:23:00.000Z	ActionParsnip	discozohan	means nothing is listening or using that port number

@@ -1,0 +1,4 @@
+2005-03-12T17:48:00.000Z	dtyge1		hi folks. Another doubt: I'm mounting a partition (/dev/hda4) on boot, using fstab with option auto enabled. Well, I cannot change the uid and the gid of the folder. Is there any option in fstab which enables me to do that?
+2005-03-12T17:48:00.000Z	Dr_willis	dtyge1	 wahat kind of partion is it?
+2005-03-12T17:49:00.000Z	Dr_willis	dtyge1	 then you MUST use the uid/gid/users options in the fstab to set  permissins and things.
+2005-03-12T17:50:00.000Z	Dr_willis	dtyge1	 simple.. you cant. :P

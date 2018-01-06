@@ -1,0 +1,4 @@
+2011-09-29T15:30:00.000Z	vuln		I did 'sudo apt-get remove app' but some files still remain in /etc/, for example. How can I remove it completely from my system?
+2011-09-29T15:30:00.000Z	ActionParsnip1	vuln	sudo dpkg -P packagename
+2011-09-29T15:31:00.000Z	ActionParsnip1	vuln	dpkg -l | grep '^rc'      will show you the other apps which have left residual configs
+2011-09-29T15:31:00.000Z	ActionParsnip1	vuln	if you remove with:   sudo apt-get --purge remove package     it does it in one move

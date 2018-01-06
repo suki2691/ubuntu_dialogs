@@ -1,0 +1,4 @@
+2010-10-06T17:39:00.000Z	choi		I want to know how to connect to a windows computer through a wireless network using samba?
+2010-10-06T17:40:00.000Z	Dr_Willis	choi	 set up a share on the windows box.  set linux box to have same 'workgroup' as the windwos box in /etc/samba/smb.conf and if the pc's can ping each other via ip. the gnome file manager should be able to connect to 'smb://windowsmachinename/sharename' or be shown in the network browser.
+2010-10-06T17:41:00.000Z	choi	Dr_Willis	so it should have the same workgroup? I can ping the other computer using ip but smbclient can't find it when I query it for workgroups
+2010-10-06T17:46:00.000Z	choi	Dr_Willis	should I also use domain logons = yes ?

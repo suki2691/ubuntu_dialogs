@@ -1,0 +1,4 @@
+2006-08-12T11:38:00.000Z	woodwizzle		I have a new mp3 player/camera/phone. Gnome detects it as a camera but I want gnome to also detect it as an mp3 player so I can easily access it in rhythmbox, is that possible?
+2006-08-12T10:54:00.000Z	woodwizzle		i know how to use find to find a buncha jpegs recursively in a folder, but how can I then delete those files? it tuturns a list and piping them to rm didn't seem to work
+2006-08-12T10:55:00.000Z	chaddy	woodwizzle	rm -rf `find $yoursearchstring`
+2006-08-12T10:56:00.000Z	woodwizzle	chaddy	thanks, I'll try that

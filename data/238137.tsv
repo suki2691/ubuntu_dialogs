@@ -1,0 +1,4 @@
+2005-09-27T15:48:00.000Z	kataklsym		what is the command to download the kernel source tree for my specific kernel? i did it yesterday it was with either dpkg or aptitude and it had something with $(uname -r) or something like that in it, i need to do it inorder to compile things for my kernel
+2005-09-27T15:49:00.000Z	Lars_G	kataklsym	There is no source preconfigured for kernel-image packages, you need the headers. "kernel-headers"
+2005-09-28T05:09:00.000Z	Lars_G	kataklsym	Lets see.... possibly gcc is not installed?
+2005-09-28T07:03:00.000Z	Lars_G	kataklsym	So he can check them.

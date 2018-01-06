@@ -1,0 +1,4 @@
+2012-06-22T05:28:00.000Z	DubstepCraig		If I create a swap partition is it added to the same place as my physical memory for example if I only have 24GB physical RAM and I have a JVM that requires 28GB RAM it will automatically take the virtual RAM?
+2012-06-22T05:29:00.000Z	psusi	DubstepCraig	yes, but swap is SLOW
+2012-06-22T05:29:00.000Z	DubstepCraig	psusi	Even on SSD?
+2012-06-22T05:30:00.000Z	psusi	DubstepCraig	hd is like 10,000 times slower than ram... ssd maybe only 3,500 times slower... so better, but still slow

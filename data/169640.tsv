@@ -1,0 +1,4 @@
+2006-08-27T08:32:00.000Z	edgyeft1		i've just broekn my xserver after upgrading to a new version on edgy eft, now i am on the live cd... how can use the live cd or boot into ubuntu in text mode so i can downgrade to the older version of xorg, also what is the command for downgrading
+2006-08-27T08:33:00.000Z	trappist	edgyeft1	mount your disk in /mnt, mount --bind /proc and /dev on that filesystem (may not be necessary), and chroot /mnt
+2006-08-27T08:34:00.000Z	edgyeft1	trappist	how do i access the recovery console
+2006-08-27T08:35:00.000Z	trappist	edgyeft1	reboot (without the cd), hit 'esc' to get the grub menu, and choose the recovery option

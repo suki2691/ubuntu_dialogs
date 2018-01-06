@@ -1,0 +1,4 @@
+2011-06-27T23:11:00.000Z	oCean	willvarfar	PPA's are unsupported 3rd party repositories. We cannot 'promise' that older versions are available. Having said that, to install a specific version of a package, you can use command like this:  sudo apt-get install zip=3.0-2build1  (to install that specific version of zip)
+2011-06-27T23:18:00.000Z	willvarfar	oCean	thx; is there a way to do it bulk for all packages?
+2011-06-27T23:21:00.000Z	oCean	willvarfar	I never heard of a tool that could do that in bulk. In /var/log/apt/history.log you can find your recent updates though
+2011-06-27T23:21:00.000Z	willvarfar	oCean	thx

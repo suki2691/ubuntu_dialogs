@@ -1,0 +1,4 @@
+2010-02-13T07:53:00.000Z	adudutz		I'm having trouble installing Xubuntu 9.10 (using alternate cd) with GRUB2 in an old Pentium 3 (using slot processor) system (not connected to the net). After the installation, when I rebooted, the GRUB simply drops back to grub rescue. This problem does not present in PCLOS (using GRUB). Is it possible if I replace the default boot loader during installation using GRUB instead of GRUB2?
+2010-02-13T07:54:00.000Z	adudutz		PS: this is the display of GRUB2 (if I'm not mistaken) http://ubuntu.pastebin.com/pastebin.php?dl=m5aa8eba3
+2010-02-13T07:54:00.000Z	adudutz		I only have the alternate install atm
+2010-02-13T07:56:00.000Z	carbm1	adudutz	At least grub is trying to start by giving you the rescue prompt. I wonder if you boot your alt cd again and select rescue a broken system. One should be to fix grub.... have you tried that?

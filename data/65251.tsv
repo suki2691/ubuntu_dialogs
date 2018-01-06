@@ -1,0 +1,4 @@
+2009-05-15T06:17:00.000Z	dtchen_	BorkedAlsa	just disable pulse, then.
+2009-05-15T06:17:00.000Z	dtchen_	BorkedAlsa	versions of pulse and jackd that play well via dbus aren't yet ready
+2009-05-15T06:17:00.000Z	dtchen_	BorkedAlsa	huh? it's fairly straightforward even if you're using Ubuntu.
+2009-05-15T06:19:00.000Z	dtchen_	BorkedAlsa	1) touch $HOME/.pulse_a11y_nostart ; echo "autospawn = no" >> $HOME/.pulse/client.conf ; killall pulseaudio

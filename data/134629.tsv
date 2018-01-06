@@ -1,0 +1,4 @@
+2008-08-12T12:30:00.000Z	Guest7153		have a question of what is 'SMB host name' and where can I find it?
+2008-08-12T12:32:00.000Z	Guest7153		where can I find the address of this SMB?
+2008-08-12T12:32:00.000Z	Guest7153		To print to a SMB printer, you need to provide the SMB host name (Note! It may be different from its TCP/IP hostname!)
+2008-08-12T12:33:00.000Z	pvh_sa|wrk	Guest7153	your smb host name is normally the same as your hostname (i.e. run 'hostname' to find that)... and you can find its IP address with nmblookup <hostname>

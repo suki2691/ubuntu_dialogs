@@ -1,0 +1,4 @@
+2008-08-28T18:53:00.000Z	Hew		How can I find which process is using /dev/ttyS0 (serial port) so that I can kill it?
+2008-08-28T18:53:00.000Z	Gnea	Hew	lsof | grep ttyS0
+2008-08-28T18:55:00.000Z	Hew	Gnea	hmm, no output, but screen says "device or resource busy"
+2009-03-12T17:15:00.000Z	Gnea	Hew	it would be better to stop the syslog daemon first

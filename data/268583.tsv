@@ -1,0 +1,4 @@
+2005-01-19T11:50:00.000Z	zido		anybody know what the problem is? I get this when i try starting xmms: libmikmod.so.2: cannot open shared object file: No such file or directory
+2005-01-19T11:50:00.000Z	zido		Inconsistency detected by ld.so: ../sysdeps/generic/dl-tls.c: 72: _dl_next_tls_modid: Assertion `result <= _rtld_local._dl_tls_max_dtv_idx' failed!
+2005-01-19T11:51:00.000Z	mjg59	zido	It's a bug in the nvidia drivers (yes, really)
+2005-01-19T11:51:00.000Z	mjg59	zido	You can get round it by installing libmikmod2

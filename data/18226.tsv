@@ -1,0 +1,4 @@
+2011-02-13T01:01:00.000Z	eyceberg		hey, is there a way to partition with gparted my ext4 into 2 partitions one with ext4 and one with ntfs after having ubuntu already installed?
+2011-02-13T01:02:00.000Z	eyceberg		ok, so run it off live cd even if i have ubuntu already installed?
+2011-02-13T01:02:00.000Z	eyceberg		ty tyt
+2011-02-13T01:02:00.000Z	BiPolah	eyceberg	You shouldn't need to do that. Use Gparted to edit partition size, shrink it down, then reformat the now-free space

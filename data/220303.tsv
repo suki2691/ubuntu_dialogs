@@ -1,0 +1,4 @@
+2008-05-26T07:09:00.000Z	endeavormac		So I created a new user, did not select "Administrator Access" or whatever, then deleted the original user. Am I screwed, IE Do I need to reinstall ubuntu?
+2008-05-26T07:11:00.000Z	Flannel	endeavormac	No.  You'll need to reboot, at GRUB (hit escape right after POST) select "recovery console", then add the user you have to the admin group.  with usermod -G admin -a username
+2008-05-26T07:12:00.000Z	Flannel	endeavormac	once you've done that, type 'init 2' and you'll finish booting like normal
+2010-10-31T05:09:00.000Z	Flannel	endeavormac	No, dist-upgrade doesn't do that (it can, but there's other things you need to do beforehand)

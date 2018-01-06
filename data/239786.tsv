@@ -1,0 +1,4 @@
+2005-10-31T07:51:00.000Z	davidleeroth		I have a question.... I recently had a soundcard problem. After hours of googling, i found the solution was to build a custom kernel leaving atiixp-modem uninstalled.  So, I compiled the kernel and tried to boot from it... But it said that I had an error (something along the lines of cannot boot from unknown block) Help!!!??
+2005-10-31T07:52:00.000Z	davidleeroth		I have a question.... I recently had a soundcard problem. After hours of googling, i found the solution was to build a custom kernel leaving atiixp-modem uninstalled.  So, I compiled the kernel and tried to boot from it... But it said that I had an error (something along the lines of cannot boot from unknown block) Help!!!??
+2005-10-31T07:52:00.000Z	nickrud	davidleeroth	take a look at /etc/hotplug/blacklist.d/alsa-base, that may fix your problem
+2005-10-31T07:54:00.000Z	nickrud	davidleeroth	the file I pointed you to should disable that modem module for you

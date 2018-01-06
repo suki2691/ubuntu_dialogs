@@ -1,0 +1,4 @@
+2010-02-09T10:21:00.000Z	n1lqj		Okay, firefox was downloading a 600 meg file, deleted the file from desktop accidently and cleared the trash.  File downloaded and lsof showed it was downloaded (deleted)  file is gone but so is the 700 megs of drive space, anyone know how to get it back?
+2010-02-09T10:22:00.000Z	blakkheim	n1lqj	du -sh ~/.mozilla
+2010-02-09T10:23:00.000Z	blakkheim	n1lqj	du -sh /tmp
+2010-02-09T10:27:00.000Z	blakkheim	n1lqj	i'm not sure where the temp file could be, then. did you actually check the trash directory?

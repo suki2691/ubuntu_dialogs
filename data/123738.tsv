@@ -1,0 +1,4 @@
+2008-03-03T01:35:00.000Z	tokka		is anyone in ubuntu-mythtv?
+2008-03-03T01:36:00.000Z	tokka		 i'm looking for help in setting up mythgame's romdb but after i run the command ... sudo mysql -D mythconverg < romdb-20051116-01.sql .... i get this error ... ERROR 1050 (42S01) at line 11: Table 'romdb' already exists
+2008-03-03T01:37:00.000Z	tokka		i'm running mythbuntu 7.10 can anyone help me?
+2008-03-03T01:37:00.000Z	ckin2001	tokka	- looks like you have the table already in the mysql database - either remove the table or comment out line 11 so that it doesnt try to recreate it

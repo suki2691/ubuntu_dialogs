@@ -1,0 +1,4 @@
+2007-10-30T02:59:00.000Z	mcquaid		hmm, i'm reading about resizing partitions, particularly in this case ntfs.  I read that ntfsresize first resizes the filesystem but not the actual partition
+2007-10-30T03:00:00.000Z	mcquaid		I've dealt with resizing partitions for years, but do not understand the distinction of resizing a filesystem vs a partition
+2007-10-30T03:01:00.000Z	src	mcquaid	when you resize a partition, you allocate more physical space to that partition, however your filesystem will stay the same size as before. For that you will have to grow the FS
+2007-10-30T03:03:00.000Z	src	mcquaid	whack it :)

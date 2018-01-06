@@ -1,0 +1,4 @@
+2007-11-02T21:15:00.000Z	tadah		Hello, I'm in failsafe mode now. Everything's cool here. But if I try to go on normal GNOME session, I enter my login and password, it starts loading, then the screen goes black and throws me back into the login screen. How could I fix it? Thanks
+2007-11-02T21:16:00.000Z	bluefox83	tadah	that sounds like a tricky problem there...
+2007-11-02T21:17:00.000Z	tadah	bluefox83	any ideas how to solve it? :/
+2007-11-02T21:18:00.000Z	bluefox83	tadah	only thing i can think of is to reconfigure xorg.conf with sudo dpkg --reconfigure xserver-xorg, but i might be wrong...that's just all i can think of

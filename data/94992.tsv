@@ -1,0 +1,4 @@
+2008-06-10T10:27:00.000Z	dmsuperman_		Some of my fstab entries have a UUID entry, and others have /dev entries. I'd like to replace them all with UUID entries (because I'm assuming that these, unlike /dev points and drive letters in windows, don't chage)
+2008-06-10T10:27:00.000Z	dmsuperman_		How can I get a UUID of a drive?
+2008-06-10T10:27:00.000Z	legend2440	dmsuperman_	sudo blkid
+2008-06-10T10:28:00.000Z	dmsuperman_	legend2440	thanks :D

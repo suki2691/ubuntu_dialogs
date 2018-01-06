@@ -1,0 +1,4 @@
+2008-04-09T04:31:00.000Z	nerdparty		How do I manage repositories on Dapper?
+2008-04-09T04:32:00.000Z	nickrud	nerdparty	it's a manual edit of /etc/apt/sources.list for dapper
+2008-04-09T04:33:00.000Z	nerdparty	nickrud	how would I go about installing a universe repository then?
+2008-04-09T04:34:00.000Z	nickrud	nerdparty	 gksudo gedit /etc/apt/sources.list, look for all lines ending in universe and remove the # at the beginning. (also, add the word multiverse to the lines with universe for access to that repository as well)

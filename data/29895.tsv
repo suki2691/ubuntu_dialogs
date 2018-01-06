@@ -1,0 +1,4 @@
+2010-06-23T04:50:00.000Z	falafell1		a portscan shows my port 443 is open, how/where can i see what application is using it? (ubuntu 10.04 LTS)
+2010-06-23T04:51:00.000Z	bastid_raZor	falafell1	sudo nmap -sS   should show what service is running on it
+2010-06-23T04:51:00.000Z	falafell1	bastid_raZor	thanks
+2010-06-23T04:56:00.000Z	bastid_raZor	falafell1	yeah, i've been toying with nmap lately.. netstat is by far a better choice in finding running services

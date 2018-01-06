@@ -1,0 +1,4 @@
+2012-07-09T23:03:00.000Z	tomswartz07		hey all, i have a few boxes with ASRock mobos here, and im using Puppet to manage them. is there any way to edit the OEM Manufacturer info on the board? Serial Number, Product Name, etc all say "To be filled by OEM". I'd like to edit it for tracking purposes
+2012-07-09T23:03:00.000Z	genii-around	tomswartz07	That info is usually in the bios updates somewhere.
+2012-07-09T23:04:00.000Z	tomswartz07	genii-around	hm. i figured as much. is it able to be edited?
+2012-07-09T23:06:00.000Z	genii-around	tomswartz07	Almost not certainly by inserting them directly into the bios. But it is conceivable to use a hex editor on the bios .bin file and maybe look for that string, change it there, etc, reflash. I'm not sure it's such a good idea however.

@@ -1,0 +1,4 @@
+2009-06-30T03:30:00.000Z	alec		I have a question that probably has a simple answer.  Problem: Once I opened firefox thru terminal as SUDO and now if I try to simply open it via the icon, firefox opens as a dummied down version.  I don't even have ability to click on back & forward buttons.
+2009-06-30T03:31:00.000Z	mobi-sheep	alec	Why did you open the firefox via terminal?
+2009-06-30T03:36:00.000Z	mobi-sheep	alec	ALT+F2 --> firefox -safe-mode    (Test it... then start Firefox again, see if that solved your issue).
+2009-06-30T03:38:00.000Z	mobi-sheep	alec	chown -R user:user ~/.mozilla

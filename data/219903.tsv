@@ -1,0 +1,4 @@
+2009-11-06T01:46:00.000Z	penthief		apt-get is giving me: "Could not open file *.deb - open (22: Invalid argument)"
+2009-11-06T01:47:00.000Z	Flannel	penthief	If you have deb files, you'll want to use dpkg, or gdebi, not apt-get
+2009-11-06T01:47:00.000Z	Flannel	penthief	You shouldn't be getting that error with apt-get update
+2009-11-06T01:56:00.000Z	Flannel	penthief	Please pastebin the output of `sudo apt-get update`

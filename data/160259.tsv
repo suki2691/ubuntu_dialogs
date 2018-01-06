@@ -1,0 +1,4 @@
+2011-11-25T10:33:00.000Z	learner_		hi, im getting this error message when trying to increase priority of "java" proces in 11.10 : "Cannot change the priority of process with pid 25173 to -20. Permission denied"
+2011-11-25T10:35:00.000Z	Jordan_U	learner_	renicing to -20 can be a bad idea as it can starve other important processes (hence the need for root privs to do it). Why not choose a less negative niceness? What is your end goal?
+2011-11-25T10:38:00.000Z	Jordan_U	learner_	I guess any negative niceness requires root privileges. So sudo should work, but do not use -20.
+2011-11-25T10:39:00.000Z	Jordan_U	learner_	Also, changing nicesness might not speed things up at all.

@@ -1,0 +1,4 @@
+2011-01-08T01:34:00.000Z	rpaisley		I've gotten a new SSD Hard drive.  Old one used encryption, new one I don't want ot pay the 50% encryption penalty.  I mounted the old encrypted one under /target during rescue, and copied everything to the new one.  When it boots, it fails to do the crypt setup.  How do I turn that off?
+2011-01-08T01:36:00.000Z	quiescens	rpaisley	if you were using LVM based full disk encryption, you should be able to edit /etc/crypttab
+2011-01-08T01:37:00.000Z	quiescens	rpaisley	to my knowledge, you have to edit it, then update your boot stuff in some way
+2011-01-08T01:41:00.000Z	quiescens	rpaisley	you should probably technically remove the cryptsetup package if you wanted to take that route

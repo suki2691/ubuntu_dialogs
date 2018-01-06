@@ -1,0 +1,4 @@
+2012-10-10T15:21:00.000Z	c_nick		I created a Cron Job by using sudo crontab -e and wrote * * * * * /home/user/myfile.sh in it. In my shell script i perform an SCP. but even though i do this the crontab does not seem to transfer
+2012-10-10T15:22:00.000Z	k1l_	c_nick	why sudo?
+2012-10-10T15:23:00.000Z	c_nick	k1l_	I followed a tutorial which suggested to run via a sudouser
+2012-10-10T15:23:00.000Z	k1l_	c_nick	dont use sudo in front of all commands. if you want to run the script as your user dont use sudo

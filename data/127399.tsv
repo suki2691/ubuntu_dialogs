@@ -1,0 +1,4 @@
+2010-05-30T00:01:00.000Z	starghost		I have a bit of a problem. Running ubuntu in a virtual box vm enviorn for a while now. But I'm running out of allocated space. So I've created another virtual drive Ubuntu could use. But the primary virtual hard disk Ubuntu is sitting on is getting full and I'm getting warnings. Is there anyway to merge the two disks or allot the Ubuntu more hard drive space without uninstalling?
+2010-05-30T00:02:00.000Z	abstrakt	starghost	gparted can resize partitions
+2010-05-30T00:03:00.000Z	abstrakt	starghost	you should be able to make an image of that virtual machine and install it in a new one, one which you alot a large amount of space
+2010-05-30T00:05:00.000Z	abstrakt	starghost	ask the ppl who make vmware... if you weren't on vmware the answer would be gparted

@@ -1,0 +1,4 @@
+2008-08-05T23:25:00.000Z	jules91	soundray	thanks for the reply.  (sorry for delay in my reply) - I mounted the ubuntu partition to mnt and the stuff is still there in /boot/grub
+2008-08-05T23:34:00.000Z	jules91		﻿﻿Hi guys.  Am trying to follow the intstructions at https://help.ubuntu.com/community/RecoveringUbuntuAfterInstallingWindows (although it was fedora that killed my boot loader, not win) but when I type "find /boot/grub/stage1" (first step after typing grub) I get the error: "Error 15: File not found".  Am booted from the Ubuntu live cd right now.  Ubuntu is on /sda1 and if I mount this partition all the data is still in /boot/grub.  Can anyone te
+2008-08-05T23:35:00.000Z	soundray	jules91	sorry, was away for dinner. Try reinstalling grub with 'sudo grub-install --root-directory=/mnt /dev/sda'
+2008-08-05T23:38:00.000Z	soundray	jules91	are you doing that?

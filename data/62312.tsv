@@ -1,0 +1,4 @@
+2010-02-11T22:38:00.000Z	panfist_		what's the synaptic command-line equivalent to File > Add Downloaded Packages ?
+2010-02-11T22:39:00.000Z	iceroot	panfist_	dpkg -i file  i guess for installing local debs
+2010-02-11T22:40:00.000Z	iceroot	panfist_	dpkg tells you that?
+2010-02-11T22:41:00.000Z	iceroot	panfist_	sudo dpkg -i packagename.deb

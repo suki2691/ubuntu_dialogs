@@ -1,0 +1,4 @@
+2007-06-09T07:57:00.000Z	Gruelius		If i install ubuntu to /dev/sda and i plan to put it into a laptop which would make it appear as /dev/hda do i just need to change the device map for grub and fstab?
+2007-06-09T07:58:00.000Z	Gruelius		hrmm, well im trying to install it onto this stupid laptop. Zenwalk took the disk to be /dev/sda and gentoo took it to be /dev/hda
+2007-06-09T07:59:00.000Z	kitche	Gruelius	2.6.21 kernel uses libata so for one kernel it might be /dev/hda for a kernel that is 2.6.21 and up it might b e /dev/sda
+2007-06-09T07:59:00.000Z	Gruelius	kitche	right

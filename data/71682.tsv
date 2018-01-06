@@ -1,0 +1,4 @@
+2009-03-31T03:17:00.000Z	hatter243		What would be a good way to keep an auto.home directory mounted? Presently it it mounted when I log in and unmounts when I log out. This is messing with some cronjobs that are running out of my home directory. Moving them to a directory other than my home directory is not an option.
+2009-03-31T03:19:00.000Z	simon__	hatter243	have an auto mount script
+2009-03-31T03:21:00.000Z	hatter243	simon__	the mount command creates the error that says the directory is already mounted. Then the directory exists for an unknown amount of time before disappearing again. I'm hoping for a bit more reliability. Unless you know a good argument to pass to mount that I am not thinking of
+2009-03-31T03:22:00.000Z	hatter243	simon__	maybe I'll just have the mount command run once an hour and pipe the error to /dev/null. hah

@@ -1,0 +1,4 @@
+2006-08-14T09:05:00.000Z	jmst		does anybody know why i get no response from "ping localhost"?
+2006-08-14T09:05:00.000Z	jmst		ifconfig doesn't list lo
+2006-08-14T09:05:00.000Z	harisund	jmst	probably because your network (TCP/IP stack) is not setup properly, or firewall, or your computer doesn't know what machine is localhost
+2006-08-14T09:06:00.000Z	harisund	jmst	what happens when you execute 'sudo invoke-c.d networking restart' ?

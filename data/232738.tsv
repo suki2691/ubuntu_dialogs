@@ -1,0 +1,4 @@
+2010-06-25T00:20:00.000Z	CQ		hello, the upgrade to lucid tells me I don't have enough space on /var ... is there a way to get apt to use another filesystem for the upgrade?
+2010-06-25T00:21:00.000Z	CQ		Jim I already did a clean... I have a 2G partition, 600M used, and the upgrade wants 1.5 roughly...
+2010-06-25T00:22:00.000Z	erUSUL	CQ	mount a different partition in /var/cache/apt/archives/ ? ( or make a link ? )
+2010-06-25T00:27:00.000Z	erUSUL	CQ	if it is only for upgrading just make that with /var/cache/apt/archives/

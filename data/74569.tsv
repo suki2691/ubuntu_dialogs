@@ -1,0 +1,4 @@
+2008-11-21T19:48:00.000Z	SOURdiesel		i was unable to unmount my external hard drive.  then after i unplug the usb connection.  i get an icon on my panel for laptop suspend/hibernate.  i'm on a desktop.  why did that happen?
+2008-11-21T19:49:00.000Z	Zzeiss	SOURdiesel	Unknown.  But, if your dismounts aren't happening, try a "lsof | grep <yourmountpoint> " to see what file might be held open.
+2008-11-21T19:49:00.000Z	Zzeiss	SOURdiesel	That might well give you a hint as to what's really happening.
+2008-11-21T19:50:00.000Z	SOURdiesel	Zzeiss	thanks.

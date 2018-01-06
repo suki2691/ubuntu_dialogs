@@ -1,0 +1,4 @@
+2011-11-16T09:41:00.000Z	escott	walruscode	can you !paste the actual shell command
+2011-11-16T09:42:00.000Z	walruscode	escott	It's just "chmod +x *.sh", must I !paste it?
+2011-11-16T09:43:00.000Z	escott	walruscode	so there are no .sh files in that folder. the shell doesn't match anything and passes *.sh unexpanded as an argument to chmod which gives the error
+2011-11-16T09:46:00.000Z	walruscode	escott	you are correct, I'm an idiot. I thought I extracted several bash scripts to that folder but I guess I didn't. D:

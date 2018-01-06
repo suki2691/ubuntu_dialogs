@@ -1,0 +1,4 @@
+2008-12-24T08:37:00.000Z	jicksta		does anyone know why I might not be able to cd into a directory that I *can* ls? the directory is owned by both my user and group and has permissions ug+rw
+2008-12-24T08:39:00.000Z	jicksta		nope, not a symlink
+2008-12-24T08:41:00.000Z	joeb3_	jicksta	you have access to the dir, but not the files/subdirs.  Grant perms with chmod -R
+2008-12-24T08:42:00.000Z	jicksta	joeb3_	i've already done that several times. even this doesn't fix it:      root@xenu:/var/www# chmod -R ug+rw confluence/

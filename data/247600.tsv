@@ -1,0 +1,4 @@
+2006-07-20T10:52:00.000Z	bagpuss_thecat		hey all, I'm trying to dist-upgrade hoary to dapper on x64, but it keeps failing at ia32-libs, saying that it can't create /usr/lib32/libGL.s0.1.2 Is there any way around this?
+2006-07-20T10:53:00.000Z	bagpuss_thecat		oh
+2006-07-20T10:54:00.000Z	ompaul	bagpuss_thecat	without extras installed and with a sudo apt-get dist-upgrade on each step - and sudo apt-get install ubuntu-desktop on each step
+2006-07-20T10:54:00.000Z	bagpuss_thecat	ompaul	I don't have extras, this is a brand new Hoary install, so I could upgrade to Dapper

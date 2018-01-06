@@ -1,0 +1,4 @@
+2007-11-07T02:04:00.000Z	levander		Can I just delete /etc/udev/rules.d/70-persistent-net.rules (it looks wrong)?  Will it definitely get regenerated on reboot?
+2007-11-07T02:05:00.000Z	Duesentrieb_	levander	move it to some other place, reboot, and see
+2007-11-07T02:06:00.000Z	levander	Duesentrieb_	yeah, looks like I'm gonna have to try, and hope nothing blows up, i've been googling for too long to make sure its okay...
+2007-11-07T02:16:00.000Z	levander	Duesentrieb_	just removing 70-persistent-net.rules did work, it was regenerated on boot, my networking is working now thanks.

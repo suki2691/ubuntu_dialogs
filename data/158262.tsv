@@ -1,0 +1,4 @@
+2007-05-31T05:57:00.000Z	eccentricity		hey. I just installed this operating system yesterday, and decided to compile couple updates. The first one, when I ran configure, complained my C compiler couldn't create executable.
+2007-05-31T05:58:00.000Z	eccentricity		Everything seems normal to me, so does anyone have any ideas?
+2007-05-31T05:58:00.000Z	Slart	eccentricity	there are... build-essentials.. those include the usual compiler stuff
+2007-05-31T05:59:00.000Z	Slart	eccentricity	do this "sudo apt-get install build-essential" to get it to work

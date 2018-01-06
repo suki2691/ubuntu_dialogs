@@ -1,0 +1,4 @@
+2008-06-15T02:30:00.000Z	Slart		does anyone know of an easy way to reset iptables rules? or just go back to the defaults?
+2008-06-15T02:31:00.000Z	Guest39521	Slart	iptables -F
+2008-06-15T02:31:00.000Z	Slart	Guest39521	nice.. but no point for you.. it still leaves the chain defaults intact
+2008-06-15T02:31:00.000Z	Guest39521	Slart	maybe after you alter the rules / iptables-save

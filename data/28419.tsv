@@ -1,0 +1,4 @@
+2010-08-21T11:44:00.000Z	jen_h		su -c "/path/to/command $options" user
+2010-08-21T11:44:00.000Z	jen_h		you typically start with root, but that will run as user; do ps -efwww |grep user to verify
+2010-08-21T11:45:00.000Z	jen_h		check out the scripts that exist in /etc/init.d for samples
+2010-08-21T11:46:00.000Z	nIRV	jen_h	did have a look at this but had failed to catch the su -c

@@ -1,0 +1,4 @@
+2006-09-12T12:32:00.000Z	savant42		can I upgrade the kernel with apt-get?
+2006-09-12T12:33:00.000Z	savant42		I tried doing a dist-upgrade (so I can get a kernel with sources that are actually IN the repository) but it kept it at 2.6.15-20-server
+2006-09-12T12:33:00.000Z	er4z0r	savant42	you can install the linux-image-<arch>
+2006-09-12T12:34:00.000Z	er4z0r	savant42	that package usualy contains a dependency to the current kernel

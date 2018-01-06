@@ -1,0 +1,4 @@
+2011-11-15T00:58:00.000Z	demonax		Hello, I have three hard disks in my PC, I  can mount a disk by clicking on its label using Nautilus, or Disk Utility; however I am unsuccessful when using mount command on the shell to mount existing drive-partition.  The drive location: /dev/sdc1 is listed when using blkid; Also listed when using fdisk -l but without any disk info; When entering: mount /dev/sdc1 /media/space2, I get a...
+2011-11-15T00:58:00.000Z	demonax		...mount point does not exist error.   Any insight?
+2011-11-15T01:00:00.000Z	brjannc	demonax	for command line mounting, the mount point (which is just an empty directory) needs to exist already. gnome does this for you when using the GUI apps, but mount does not
+2011-11-15T01:00:00.000Z	demonax	brjannc	Thank you kindly!

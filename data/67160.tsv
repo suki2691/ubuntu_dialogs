@@ -1,0 +1,4 @@
+2009-02-08T23:54:00.000Z	fiftyone		how do you automount a drive? I have an 80gb and a 30gb partition i would like to auto-mount any ideas how>
+2009-02-08T23:55:00.000Z	IntuitiveNipple	fiftyone	If they are on a fixed disk you'll need to add entries to /etc/fstab describing them, and a directory to mount them on (usually in /media/ or /mnt/)
+2009-02-08T23:56:00.000Z	IntuitiveNipple	fiftyone	If they are removable devices (hot plug or USB) then gnome-mount should detect and mount them when connected, unless that option is turned off
+2009-02-08T23:56:00.000Z	fiftyone	IntuitiveNipple	thanks alot man i appriciate it

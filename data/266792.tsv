@@ -1,0 +1,4 @@
+2010-10-19T21:54:00.000Z	Dr_Willis	princezuda	 sounds to me like the program /usr/bin/rails  may be calling the wrong ruby
+2010-10-19T21:54:00.000Z	Dr_Willis	princezuda	 check the script and see what its using  as its first line.
+2010-10-19T21:55:00.000Z	Dr_Willis	princezuda	 --------> >>>      //usr/bin/rails
+2010-10-19T21:57:00.000Z	Dr_Willis	princezuda	 it LOOKS like that rails program is  a script thats calling the wrong interperter.. thats the #!/bin/whateber line of the script

@@ -1,0 +1,4 @@
+2011-06-28T08:51:00.000Z	escott	cpruitt	don't know anything about quotas but check that the partition is mounted with the quotas turned on
+2011-06-28T08:52:00.000Z	cpruitt	escott	Sounds great.  Any quick tip on how to do that?  LOL  Not trying to skip a google search but it's late and I've pressed the "search" button way too many times tonight...  lol
+2011-06-28T08:52:00.000Z	escott	cpruitt	run "mount" in a terminal it will show mount options
+2011-06-28T08:52:00.000Z	cpruitt	escott	Pretty much just echos my fstab info: /dev/mapper/linhost01-root on / type xfs (rw,grpquota,usrquota)

@@ -1,0 +1,4 @@
+2005-01-29T17:43:00.000Z	fealuin		When I tried the live-cd, works in minimun video resolution, but now I install ubuntu 4.10 don't start X. Motherboard is pc-chips and video chip is intel845 VGA. What should I do???
+2005-01-29T17:45:00.000Z	fealuin		[Phaedrus]  fealuin: what does it say? <--- says in spanish something like "don't can start X"
+2005-01-29T06:28:00.000Z	fealuin		When I tried the live-cd, works in minimun video resolution, but now I install ubuntu 4.10 don't start X. Says "Cant start X server (your graphic interface). Probably is not properly setting up. Do you want to see X server output to diagnose...[truncate] ". Motherboard is pc-chips and video chip is intel845 VGA. What should I do???
+2005-01-29T06:29:00.000Z	mindphasr	fealuin	dpkg-reconfigure xserver-xorg or xserver-xfree86 depending on which X server you have installed

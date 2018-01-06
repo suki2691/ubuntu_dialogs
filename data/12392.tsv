@@ -1,0 +1,4 @@
+2012-04-12T20:33:00.000Z	marvindoppelt		how can one change the way apt connects through the internet? As in with or without proxy for example.
+2012-04-12T20:34:00.000Z	zykotick9	marvindoppelt	/etc/apt/apt.conf is probably the file you'll need to change
+2012-04-12T20:38:00.000Z	marvindoppelt	zykotick9	apt.conf is empty.  See, all was well until I used proxy somewhere and applied the proxy settings system wide, later I removed the system-wide proxy settings and now apt can't connect anymore whereby it still shows that it's trying connecting through the proxy.
+2012-04-12T20:39:00.000Z	zykotick9	marvindoppelt	i manually add a proxy to my apt.conf (it's actually for an apt-cacher-ng proxy), sorry i don't know how proxys are actually handled system wide (never used one).  Good luck.

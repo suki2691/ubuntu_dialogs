@@ -1,0 +1,4 @@
+2006-07-05T15:36:00.000Z	kungfugoat		can anyone tell me why ubuntu 6.06 is not recognizing my external usb hard disks?
+2006-07-05T15:37:00.000Z	kungfugoat		I can plug in a compact flash card in the 6-in-1 reader and it pops up on the desktop but the hard disks aren't recognized
+2006-07-05T15:37:00.000Z	kungfugoat		dmesg doesn't give any clues either
+2006-07-05T15:37:00.000Z	dli	kungfugoat	try, to "sudo modprobe " them, one by one, sd_mod sg ehci-hcd uhci-hcd usb-storage

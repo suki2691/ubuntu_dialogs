@@ -1,0 +1,4 @@
+2011-10-14T19:17:00.000Z	rad_sci_guy		Hello.  Anyone having 11.10 update problem where the shutdown takes a very long time.  I've updated 3 different computers (desktop, laptop, netbook) and all three hang when the shutdown is trying to kill all processes.  It takes a few minutes before computer shuts off.
+2011-10-14T19:17:00.000Z	Squeeb	rad_sci_guy	log out, ctrl-alt+F2 to get into a console
+2011-10-14T19:17:00.000Z	Squeeb	rad_sci_guy	log in as root and `service lightdm stop`
+2011-10-14T19:17:00.000Z	Squeeb	rad_sci_guy	then `shutdown` and see where it hangs

@@ -1,0 +1,4 @@
+2012-05-01T15:07:00.000Z	escott	dalek_	you could check if gconf-editor shows something different but it is supposed to be using dconf
+2012-05-01T15:10:00.000Z	dalek_	escott	that fixed it! always-use-location-entry was set to true in gconf-editor. Now breadcrumbs buttons have come back.
+2012-05-01T15:11:00.000Z	dalek_		Am I supposed to have both gconf-tools and dconf-tools installed in Ubuntu 11.10 or should I remove gconf-tools?
+2012-05-01T15:13:00.000Z	escott	dalek_	i would keep both. it is supposed to be dconf from 11.10 up, but not all apps have made the switch, and in some cases it seems their might be problems if dconf/gconf disagree

@@ -1,0 +1,4 @@
+2007-09-28T10:40:00.000Z	yooo		could some1 help me change the ownership of a file/foler/ chown root filename but error msg states that the file is read only
+2007-09-28T10:41:00.000Z	yooo		how do i change the ownership of file or folder. the file i have is read only and it wont let me change the ownership
+2007-09-28T10:41:00.000Z	yooo		i have been trying with sudo
+2007-09-28T10:43:00.000Z	genii	yooo	Likely the drive the file is on is mounted read-only for some reason, like NTFS filesystem without ntfs-3g driver for instance

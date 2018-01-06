@@ -1,0 +1,4 @@
+2010-02-12T00:29:00.000Z	faris		Hi . I d like to log in ubuntu from Console without loading X . How can I do this ?
+2010-02-12T00:30:00.000Z	faris		Karmic
+2010-02-12T00:30:00.000Z	faris		koala
+2010-02-12T00:31:00.000Z	kgs	faris	You can use ctrl+alt+F1, if you want to do that. You can also specify certain parameters via grub2 so that X is not started at all (IE: no gdm). But it doesn't work very well, at least it hasn't for me. It breaks sound.

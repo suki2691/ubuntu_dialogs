@@ -1,0 +1,4 @@
+2005-10-06T05:08:00.000Z	Chase		does anyone know how to write a sudoers line so my user can shutdown the PC without a password? I want to be able to run it in a script so cant be here to type in the pasword
+2005-10-06T05:10:00.000Z	rob_p	Chase	 "username ALL= NOPASSWD: /path/to/script" should do it...
+2005-10-06T05:10:00.000Z	Chase	rob_p	i tryed that is said i had to be root to do that 'shutdown: you must be root to do that!'
+2005-10-06T05:13:00.000Z	rob_p	Chase	 Then apply it to the shutdown command as in, "username ALL=NOPASSWD: /sbin/shutdown -h now" or similar.

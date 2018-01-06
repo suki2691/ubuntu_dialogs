@@ -1,0 +1,4 @@
+2011-10-17T05:24:00.000Z	ex0		i want to use the dd command to copy a cd bit for bit to iso...what is the /dev/  path for cd's in ubuntu??
+2011-10-17T05:25:00.000Z	yagoo	ex0	it may.. depending on the format.. -- u wouldnt be able to dd or cat multitrack properly (bluebook)
+2011-10-17T05:27:00.000Z	yagoo	ex0	maybe it's sr0 --> try dmesg |grep -i cd ..
+2011-10-17T05:27:00.000Z	yagoo	ex0	the device name may be there

@@ -1,0 +1,4 @@
+2005-10-15T11:07:00.000Z	budluva		how do i find out what is using my ports? ie port 25 if i dont want to run a mailserver, how can i stop the service, and remove the program? ie postfix or for port 631 ipp how do i stop and remove cups?
+2005-10-15T11:07:00.000Z	budluva		or by default is port 25 and 631 open?
+2005-10-15T11:08:00.000Z	budluva		not in breezy
+2005-10-15T11:09:00.000Z	butcherbird	budluva	you can always sudo /etc/inid.d/whatever stop, if thats all you want to do

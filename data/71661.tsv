@@ -1,0 +1,4 @@
+2008-12-09T08:21:00.000Z	x264		http://pastebin.com/d1ebccaa3 <---- what should I add in this for my pptp server to work? If I disable ufw then it works.. but it overwrites the rules when I enable ufw
+2008-12-09T08:23:00.000Z	joble	x264	allow tcp 1723 and protocl 47 to/from your pptp server
+2008-12-09T08:24:00.000Z	joble		\q
+2008-12-09T08:25:00.000Z	x264	joble	1723 is allowed. how do I allow protocl 47 in ufw?

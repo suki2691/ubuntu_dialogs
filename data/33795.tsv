@@ -1,0 +1,4 @@
+2012-09-21T03:26:00.000Z	gurjeet		On 12.04, my DNS seems to die every now and then.
+2012-09-21T03:28:00.000Z	gurjeet		If I wget google.com, I get 'cpould not resolve' error, but if I do wget <google's IP address> I nicely get the index.html promptly.
+2012-09-21T03:28:00.000Z	miraj	gurjeet	: are you using BIND as a caching dns? or are you an external DNS server directly?
+2012-09-21T03:31:00.000Z	gurjeet	miraj	blackshirt : I did not tweak anything about the network until this morning. After faceing this problem, I added'dns-nameservers 8.8.8.8' to /etc/network/interfaces.

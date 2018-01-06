@@ -1,0 +1,4 @@
+2005-12-12T15:21:00.000Z	pawdro		my new compiled kernel 2.6 writes: Kernel panic - not syncing : VFS: Unable to mount root fs on unknown-block(0,0). How to fix it?
+2005-12-12T15:22:00.000Z	solidgroove	pawdro	you might not have ext3 selected as compilied in or module. If its SATA drive it might be something scsi too
+2005-12-12T15:23:00.000Z	solidgroove	pawdro	I get an error with gcc 3.4 and 4.0.1 compiling any kernel, fails on malloc.o for sound. Last time I compilied I was missing ext3
+2005-12-12T15:23:00.000Z	solidgroove	pawdro	I get an error with gcc 3.4 and 4.0.1 compiling any kernel, fails on malloc.o for sound. Last time I compilied I was missing ext3\reiser

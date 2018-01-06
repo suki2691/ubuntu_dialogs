@@ -1,0 +1,4 @@
+2006-10-16T12:58:00.000Z	epimer		hi guys
+2006-10-16T12:59:00.000Z	epimer		i need to boot to a command prompt, so i can install the nVidia beta drivers from their script. how do i do that?
+2006-10-16T12:59:00.000Z	epimer		(it won't run with an existing X session running)
+2006-10-16T12:59:00.000Z	pike_	epimer	alt-ctrl-f1 then login then sudo /etc/init.d/gdm stop

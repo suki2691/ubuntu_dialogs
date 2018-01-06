@@ -1,0 +1,4 @@
+2009-03-07T21:13:00.000Z	iluvcoke		how to delete kernel??
+2009-03-07T21:14:00.000Z	LjL	iluvcoke	why would you do that?
+2009-03-07T21:15:00.000Z	LjL	iluvcoke	ok, then you can remove the old ones. do "dpkg -l | grep linux" to see what you have installed
+2009-03-07T21:15:00.000Z	LjL	iluvcoke	then you can do "sudo apt-get remove packagename" to remove them. but make SURE you don't remove the one you're using!

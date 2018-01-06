@@ -1,0 +1,4 @@
+2012-01-12T20:53:00.000Z	martian		Is there a way to monitor what process is modifying a file? Like, something combining tail and lsof
+2012-01-12T20:55:00.000Z	BussDriver	martian	   watch -n1 -d 'lsof | grep <file>'
+2012-01-12T20:55:00.000Z	martian	BussDriver	oh thank you!
+2012-01-12T20:57:00.000Z	BussDriver	martian	might need to change that to sudo lsof depending

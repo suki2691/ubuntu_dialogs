@@ -1,0 +1,4 @@
+2005-12-15T08:33:00.000Z	manchine		i am trying to trace back ssh connections (as client) made  few days ago. both syslog and messages say nothing about the subject. where else should i look for the logs?
+2005-12-15T08:34:00.000Z	bshumate	manchine	: /var/log/auth.log
+2005-12-15T08:34:00.000Z	bshumate	manchine	err nm- you said 'as client'
+2005-12-15T08:47:00.000Z	bshumate	manchine	 the ssh connections logged would have listed only the dyndns hostname you were connecting to, so you are probably outta luck mate

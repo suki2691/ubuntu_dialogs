@@ -1,0 +1,4 @@
+2011-02-03T16:47:00.000Z	Landstalker		hi guys, after some suggestions. I've got a directory of files that all have a code in their name. I need to rename them all to just their codes, but the code can appear anywhere in the filename. They all start with the same three letters though CNN
+2011-02-03T16:48:00.000Z	geirha	Landstalker	So you know the start, how about determining the end of the code?
+2011-02-03T16:49:00.000Z	geirha	Landstalker	Just the shell would probably suffice, but you need to know what to look for.
+2011-02-03T16:51:00.000Z	geirha	Landstalker	for file in *CNN*; do echo mv "$file" "CNN${file##*CNN}"; done  # remove the echo to have it actually rename

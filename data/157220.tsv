@@ -1,0 +1,4 @@
+2007-10-24T08:15:00.000Z	crichardson		question after selecting what kernel in grub how do you make it show what is going on instead of the loading screen?
+2007-10-24T08:16:00.000Z	crichardson		how do you temp get ride of the ubuntu loading screen so you can see that status of stuff loading?
+2007-10-24T08:17:00.000Z	MasterShrek	crichardson	remove the word splash from the kernel line in /boot/grub/menu.list
+2007-10-24T08:18:00.000Z	MasterShrek	crichardson	there used to be, but im not for sure if there is anymore

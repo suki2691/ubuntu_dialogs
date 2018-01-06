@@ -1,0 +1,4 @@
+2007-03-24T14:49:00.000Z	GodSyn		HELP : >>noob<< Installed Ubuntu to (hd0,0) and windows to (hd1,0). I'd like to add a menu item to boot windows in grub. How?
+2007-03-24T14:50:00.000Z	Flannel	GodSyn	in /boot/grub/menu.lst, there's an example of a windows boot near the top. Add it to the very bottom, after the comment about the end of debian automagic kernels.
+2007-03-24T14:51:00.000Z	GodSyn	Flannel	I have done so. Upon selecting the item, I get "Starting up" and a blank screen. nothing more.
+2007-03-24T14:53:00.000Z	Flannel	GodSyn	When you reinstall grub, you'll get windows.  Anyway, you may need to do some mapping to make windows think it's on hda

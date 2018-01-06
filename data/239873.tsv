@@ -1,0 +1,4 @@
+2006-04-09T08:19:00.000Z	medamaybe		why should I not comment out 127.0.0.1 in /etc/resolv.conf?
+2006-04-09T08:19:00.000Z	nickrud	medamaybe	for one reason, sudo will stop working
+2006-04-09T08:20:00.000Z	nickrud	medamaybe	that line defines the internal network of your machine, which is used by a lot of things
+2006-04-09T08:21:00.000Z	nickrud	medamaybe	try sudo netstat -plant , those things are listening to your local computer's network

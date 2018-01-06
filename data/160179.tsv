@@ -1,0 +1,4 @@
+2012-06-06T08:07:00.000Z	ekaj		Any idea why UNetBootin and LiLo aren't making my USB device bootable?
+2012-06-06T08:07:00.000Z	ekaj		I get stuck at the "SYSLINUX 4.03 2010-10-22 EDD Copyright..." page
+2012-06-06T08:09:00.000Z	ekaj		Thanks Willis, I'll try Universal USB Installer.
+2012-06-06T08:11:00.000Z	Jordan_U	ekaj	If other tools fail it's probably an issue with Syslinux (specific to your hardare and likely due to a bug in your firmware rather than a bug in Syslinux). Because of that 1: You might get better help in #syslinux and 2: You might be able to make something which boots on your machine by using GRUB instead of Syslinux.

@@ -1,0 +1,4 @@
+2011-06-09T01:27:00.000Z	Dephenom		right, so I have done a "useradd httpd" on a Ubuntu 10.04 server, then went to SSH in and I get "Could not chdir to home directory /home/httpd: No such file or directory", what have I done wrong?
+2011-06-09T01:28:00.000Z	Polah	Dephenom	does that director exist? Sounds like it doesn't.
+2011-06-09T01:29:00.000Z	Dephenom	Polah	doesnt /home/[user] get created as part of the useradd process?
+2011-06-09T01:30:00.000Z	Polah	Dephenom	Usually, but sometimes not. Make the directory again if it isn't there, check that the home directory is that as well.

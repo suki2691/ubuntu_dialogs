@@ -1,0 +1,4 @@
+2009-02-28T05:22:00.000Z	bonez451		without digging into the man pages.. what simple commands could I run.. on either machine.. both of which are networked.. I can ssh to one machine from the other.. to move all the files, data. and applications from one to the other.. I don't care if it takes all night to run, don't need to compress....
+2009-02-28T05:22:00.000Z	bonez451		suggestions?
+2009-02-28T05:23:00.000Z	rww	bonez451	You'd use scp. Something like scp /path/to/copy/from username@destination_server:/path/to/copy/to
+2009-02-28T05:29:00.000Z	rww	bonez451	can it boot from USB? you could make a liveusb disk.

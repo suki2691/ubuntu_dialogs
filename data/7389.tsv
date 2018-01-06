@@ -1,0 +1,4 @@
+2012-02-25T17:30:00.000Z	sanjeev90an		how i change default startup services in ubuntu 10.04 and add my custom programs there so that those program can start during boot time?
+2012-02-25T17:31:00.000Z	Dr_willis	sanjeev90an	 dependng on what your progerams are doing. You could launch them from /etc/rc.local
+2012-02-25T17:37:00.000Z	sanjeev90an	Dr_willis	if i want to stop sshd, telnetd from starting during boot time what should i do ?
+2012-02-25T17:38:00.000Z	Dr_willis	sanjeev90an	 rename the /etc/init/servicenameyouwant.conf to  whatever.dontrun is one way i recall.

@@ -1,0 +1,4 @@
+2006-07-23T13:14:00.000Z	urakaipa		Hello could someone suggest me an easy way to make a backup in ubuntu? programs with gui are appreciated
+2006-07-23T13:16:00.000Z	Warbo	urakaipa	For a gui, gksudo nautilus then go to /, ctrl-a to select all, right click and create archive (just make a tar, compressing it would take ages)
+2006-07-23T13:17:00.000Z	urakaipa	Warbo	what about some folders in /home that can't be copied with this command?
+2006-07-23T13:17:00.000Z	Warbo	urakaipa	I am not sure how that would handle multiple filesystems if you have a seperate /home

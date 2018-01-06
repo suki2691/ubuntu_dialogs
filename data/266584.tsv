@@ -1,0 +1,4 @@
+2010-01-18T12:56:00.000Z	qweqweqwe		hi, how do you make services (ie ssh) start on bootup in ubuntu?  like chkconfig in redhat...
+2010-01-18T12:57:00.000Z	Dr_Willis	qweqweqwe	 ubuntu uses 'upstart' for most services and  sysv for a few others. So i depends on the exact service. see /etc/init to tell what ones are handled by upstart
+2010-10-26T18:05:00.000Z	Dr_Willis	qweqweqwe	 a handy trick i did was take a spare flash drive and run 'sudo dpkg-reconfigure grub-pc' and told it to install grub to the MBR of the flash drive. - that way when i lost grub. I could boot the flash drive. that would then boot the PC's hard drive. get me back to my normal system. where i could rerun 'sudo dpkg-reconfigure grub-pc' and reinstall to the MBR of the HD.
+2010-10-26T18:06:00.000Z	Dr_Willis	qweqweqwe	 i have noticed that now that i reinstalled to the laptop. with GRUB and linux both on HD#2 - the issue has not happened again.

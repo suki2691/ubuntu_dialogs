@@ -1,0 +1,4 @@
+2008-06-09T10:58:00.000Z	nonix4		Umm if you install both -server and -generic kernels on a host, is there a proper way to tell that you prefer the -generic variants? Manually fixing the order in menu.lst definitely isn't it...
+2008-06-09T11:00:00.000Z	Rat409	nonix4	the one you prefer add setdefault to the entry as last line
+2008-06-09T11:01:00.000Z	Rat409		or put ##'s in front of other entries to be ignored
+2008-06-09T11:01:00.000Z	nonix4	Rat409	will that work past kernel updates?

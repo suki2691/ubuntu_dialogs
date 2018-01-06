@@ -1,0 +1,4 @@
+2010-10-21T14:04:00.000Z	pmorris		Since upgrading from 8.04 to 10.4, all my cron jobs fail
+2010-10-21T14:04:00.000Z	pmorris		Isn't it the case that cron spawns `sh` to execute its commands?
+2010-10-21T14:04:00.000Z	pmorris		I notice that sh is linked to dash instead of bash now which might be what's causing it
+2010-10-21T14:05:00.000Z	cousteau`work	pmorris	afaik it's been always linked to dash

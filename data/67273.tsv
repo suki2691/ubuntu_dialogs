@@ -1,0 +1,4 @@
+2010-11-15T06:05:00.000Z	KruyKaze		hi everyone, how do i run a script in a terminal in the background ? i don't need to see scrolling text
+2010-11-15T06:07:00.000Z	rage	KruyKaze	screen is a good way to do things like that. Run screen, start your script, press ctrl-a ctrl-d to put the screen in the background. Type screen -r to resume the screen into the foreground
+2010-11-15T06:09:00.000Z	KruyKaze	rage	thanks no way to automate that?
+2010-11-15T06:09:00.000Z	rage	KruyKaze	For an automated solution you probably want nohup

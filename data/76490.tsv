@@ -1,0 +1,4 @@
+2009-11-03T10:02:00.000Z	Code_Bleu		after upgrading from 9.04 to 9.10 im getting the following error on boot.  It just flickers the following: /sbin/load_policy: Can't load policy: no such device  mount: mounting none on /selinux failed: no such device....then login prompt (but cant type anything)
+2009-11-03T10:02:00.000Z	Code_Bleu		any ideas?  I went into the menu.lst on rescue disk and changed selinux=1 to selinux=0, but that didnt fix it either
+2009-11-03T10:03:00.000Z	hans	Code_Bleu	probably fastest way to revive it is a reinstall
+2009-11-03T10:04:00.000Z	Code_Bleu	hans	how do I know that it wont just come back up with the same error?  Is there a way i can safely uninstall selinux to fix it?

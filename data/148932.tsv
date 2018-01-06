@@ -1,0 +1,4 @@
+2008-01-27T05:38:00.000Z	filthpig		is there some way to convert an entire folder from flac to mp3? I have approx 100 gb with flac, so it would be nice to convert all of it without human interference...
+2008-01-27T05:40:00.000Z	unop	filthpig	as long as your ffmpeg is capable of handling mp3s -- you can do this -- for i in /path/to/*flac; do ffmpeg -i $i ${i/flac/mp3}; done
+2008-01-27T05:41:00.000Z	unop	filthpig	you might however want to tweak the encoding -- check the ffmpeg manpage/help files
+2008-01-27T05:43:00.000Z	filthpig	unop	and that would be clean? All folders and subfolders and names copied?

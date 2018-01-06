@@ -1,0 +1,4 @@
+2012-03-01T06:52:00.000Z	sponix		want to ensure that my HD is named the same /dev/sda each time on boot. Seems my machine randomly assigns it either sda or sdf, this makes for issues with mapping raw devices for VirtualBox (Solaris ZFS Raidz) ... Fun times
+2012-03-01T06:52:00.000Z	Muelli	sponix	check udev rules.
+2012-03-01T06:53:00.000Z	sponix	Muelli	I know nothing of udev rules, take it you are saying that is what I need to research to force the device naming ?
+2012-03-01T06:54:00.000Z	Muelli	sponix	yes. Although I'm quite surprised that udev gives you random names. I though we were past this.. So yeah, check /etc/udev/rules.d/, there will probably be rules which assign names to devices

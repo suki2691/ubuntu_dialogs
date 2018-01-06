@@ -1,0 +1,4 @@
+2010-01-11T06:55:00.000Z	Lantizia		At the shell, how can I read the label of a floppy disk?
+2010-01-11T06:56:00.000Z	Awesome3000	Lantizia	 does fdisk -l list the floppy
+2010-01-11T06:57:00.000Z	Lantizia	Awesome3000	already tried that - doesn't tell you the label
+2010-01-11T07:06:00.000Z	Awesome3000	Lantizia	 sudo mlabel -s A:  That should do it

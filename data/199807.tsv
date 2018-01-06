@@ -1,0 +1,4 @@
+2007-03-24T16:27:00.000Z	jose		hi guys, anyone knows if it possible to launch programs like firefox at a scheduled time with the "at" command? at works for me with normal commands. For example at now, shutdown -h now WORKS, but at now, firefox, DOES NOT WORK
+2007-03-24T16:28:00.000Z	Spliffster	jose	firefox has the habit of trying to reuse an existing firefox window ... so if firefox is already open it won't (by default) open a new window
+2007-03-24T16:28:00.000Z	Spliffster	jose	you may work around this by experimenting with firefoxe's command line options or create a new profile (firefox profile) and use tthis in your at command line
+2007-03-24T16:29:00.000Z	Spliffster	jose	try `firefox -h`to see all commandline switches of firefox

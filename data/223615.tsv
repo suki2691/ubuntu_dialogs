@@ -1,0 +1,4 @@
+2006-05-31T11:52:00.000Z	Yokalosh		I'm having problems installing NVidia driver. I got a disk with my motherboard which has the drivers on it. I used 'uname -r' to get the kernel and downloaded the kernel headers etc. I then tried to run the installer for the drivers and it said the kernel had been compiled with gcc-3.4 and i had gcc-4.0 so i ignored this and continued. the installer then told me that 'nvidia.ko' (or something like that) couldn't be installed because 
+2006-05-31T11:53:00.000Z	zcat[1] 	Yokalosh	just apt-get install nvidia-glx
+2006-05-31T11:54:00.000Z	zcat[1] 	Yokalosh	sorry, add multiverse first, apt-get update then apt-get install nvidia-glx...
+2006-05-31T11:59:00.000Z	zcat[1] 	Yokalosh	I think you just export CC=gcc-3.4 in your shell and then compile.. perhaps apt-get install gcc3.4  first if you really don't have it.

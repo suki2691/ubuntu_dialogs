@@ -1,0 +1,4 @@
+2006-12-15T14:07:00.000Z	wbadger		can someone please tell me how to keep /etc/resolv.conf from changing?
+2006-12-15T14:08:00.000Z	randomc0de	wbadger	it's set whenever your network connection gets new DNS servers
+2006-12-15T14:11:00.000Z	randomc0de	wbadger	I had that problem earlier this year, you either have to fix your router to stop being a DNS server, or hack it to correct the resolve.conf on startup
+2006-12-15T14:12:00.000Z	wbadger	randomc0de	this router serves 2 other windows machines so I don't want to change it, instead I'd like to change my machine alone, meaning configuring whatever program it is that changes resolv.conf to stop changing it.

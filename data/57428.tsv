@@ -1,0 +1,4 @@
+2009-05-23T07:50:00.000Z	pcnerd		Hi,  I currently have my hard drive partitioned: sda1(ntfs/windoze) sda2 (ntfs data) and sda3 (ext3 ubuntu).... I want to resize all the partitions and reinstall windows ( its died).... but in resizing the partitions will my backup of the MBR become "corrupt" annd point to the wrong locations or does the MBR store the partition not the cylander or whatever.... thanks!
+2009-05-23T07:52:00.000Z	Kalmi	pcnerd	you safely resize your partitions without messing up MBR... I suggest gparted livecd...
+2009-05-23T07:52:00.000Z	Kalmi	pcnerd	howver the Windows installer will mess it up
+2009-05-23T07:52:00.000Z	Kalmi	pcnerd	you will need to restore it afterwards

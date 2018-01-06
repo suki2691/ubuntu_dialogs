@@ -1,0 +1,4 @@
+2006-07-14T13:25:00.000Z	LarsJ		Hello everybody. I have dumped windows for Ubuntu, I'm just learning, setup apache2, works great. Is there any way to change things so i can edit files in "/var/www" without having to do "sudo" all the time? BTW: im using this for site development, not actual live site hosting. Ubuntu rocks!
+2006-07-14T13:26:00.000Z	chavo	LarsJ	you can take ownership of /var/www or change the http root to a directory that you own
+2006-07-14T13:29:00.000Z	LarsJ	chavo	I do that via consol and a sudo command right? i got a bookmark to a cool list of consol commands if thats the case and I'll have a look at that again.
+2006-07-14T13:30:00.000Z	chavo	LarsJ	chown username.username /var/www will do it but make sure this is local server only

@@ -1,0 +1,4 @@
+2012-03-23T16:55:00.000Z	SilfenX		yeah, read on the ubuntu forums about someone having a similar issue that resolved it by changing to an older gfx driver but how can I do that if nothing goes on on the screen after login?
+2012-03-23T16:56:00.000Z	SilfenX		oh, I need to try that then
+2012-03-23T16:56:00.000Z	szal	SilfenX	what gfx hardware?
+2012-03-23T17:01:00.000Z	szal	SilfenX	what driver is it using atm? -> lspci -k <- look for the line that identifies your gfx card

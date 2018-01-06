@@ -1,0 +1,4 @@
+2012-06-08T11:01:00.000Z	moin		How can I write CTRL-Z to my application at the terminal without having to shove my app to the backgound?
+2012-06-08T11:03:00.000Z	moin		How can I write CTRL-Z to my application at the terminal without having to shove my app to the backgound?
+2012-06-08T11:04:00.000Z	Corey	moin	Ctrl-Z sends SIGSTOP, what are you trying to do? :-
+2012-06-08T11:06:00.000Z	moin	Corey	I want to send CTRL-Z to a modem terminal application, the modems outputstream depends on that character if you are tring to send/wite a message using the AT command at+cmg[ws], kanliot I on Bash

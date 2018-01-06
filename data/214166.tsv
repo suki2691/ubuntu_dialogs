@@ -1,0 +1,4 @@
+2005-11-02T09:56:00.000Z	Sean899		Newbie question but - What is the location of the desktop? For command purposes
+2005-11-02T09:58:00.000Z	Sean899		So how can I "cd desktop"?
+2005-11-02T09:58:00.000Z	e-sin	Sean899	cd ~/Desktop
+2005-11-02T10:09:00.000Z	e-sin	Sean899	if you edit /etc/fstab you can change the mount locations of your drives, as long as the directories you're mounting to already exist.

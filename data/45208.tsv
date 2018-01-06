@@ -1,0 +1,4 @@
+2010-08-09T08:32:00.000Z	sreeju		what is the command for updating a package?
+2010-08-09T08:33:00.000Z	sreeju		i want to update firefox
+2010-08-09T08:35:00.000Z	sreeju		i want to update firefox alone
+2010-08-09T08:37:00.000Z	thune3	sreeju	use "apt-get -s upgrade" (simulate) or similar to show the firefox packages, and then just use apt-get install packagename1 packagename2   for upgrading just those.

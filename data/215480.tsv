@@ -1,0 +1,4 @@
+2006-11-16T11:00:00.000Z	Ludakris		Aight, I'm attempting to transfer/arrange files on my mp3 player. I do this via a bash shell CLI :), however it takes a long time for me to wait between each group of files I copy. Is there a way, to copy files to, arrange, manage the filesystem and everything. Then after I'm done, give a cmd and actually write the changes?
+2006-11-16T11:02:00.000Z	Ludakris		Pac's life**
+2006-11-16T11:03:00.000Z	Ludakris		Anyone answer my question? It seems a rather widespread need.
+2006-11-16T11:05:00.000Z	soundray	Ludakris	sounds like you should just manage a 'sync-with-mp3player' directory in your home dir, and use rsync to copy changes to the player.

@@ -1,0 +1,4 @@
+2007-04-17T07:07:00.000Z	tjcarter		might be similar problem, but I can't help diagnose it.
+2007-04-17T07:08:00.000Z	tjcarter		basically, half the time, I can fix that with "sudo depmod -a" and then "sudo /etc/init.d/gdm restart"
+2007-04-17T07:10:00.000Z	Shootfaster	tjcarter	- that will only restart the gnome display manager
+2007-04-17T07:11:00.000Z	tjcarter	Shootfaster	With NV cards, you generally get this obnoxious situation after an upgrade that you can't get into X because the kernel doesn't know about your driver.

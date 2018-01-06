@@ -1,0 +1,4 @@
+2006-08-12T13:42:00.000Z	zovirl		alright, what package do I need for apache's AuthDigestFile setting to work?
+2006-08-12T13:43:00.000Z	longwave	zovirl	no extra package, just enable the apache module with "sudo a2enmod auth_digest"
+2006-08-12T13:44:00.000Z	zovirl	longwave	interesting.  thanks
+2006-08-12T13:45:00.000Z	longwave	zovirl	all the available modules are in /etc/apache2/mods-available/ if you need any other ones

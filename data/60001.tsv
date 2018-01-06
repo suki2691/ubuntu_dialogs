@@ -1,0 +1,4 @@
+2010-05-18T00:40:00.000Z	karthik		I know to remove all the tags we do   sed 's/<[^>]*>//g  ..   What if I had two characters following ^(not) ?  [^ab] would be OR.. how to do Negate+And
+2010-05-18T00:42:00.000Z	Riviera	karthik	that's very tricky. Two strategies: Use a regex engine that supports non-greedy matching (you could use perl as a filter), convert the multi-byte patterns to single characters (after escaping those single characters), then use your original approach on that and undo the escaping. Also, there's channels like ##sed, #regex, #perl, etc.
+2010-05-18T00:42:00.000Z	Riviera	karthik	And: For handling data like xml and html, there often are better ways.
+2010-05-18T00:44:00.000Z	karthik	Riviera	okay . I ll try #sed / #regex .. thanks

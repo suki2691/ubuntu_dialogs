@@ -1,0 +1,4 @@
+2008-03-06T07:26:00.000Z	cellofellow		hello. I'm having a bit of trouble with Firestarter.
+2008-03-06T07:27:00.000Z	cellofellow		I have a laptop, so I want to lock it down while on the road, but NetworkManager scews around with Firestarter. Firestarter refuses to start at boot, for one. It also complains about my two NIC's (one Wireless using NDISWrapper, the other is a regular onboard Ethernet.)
+2008-03-06T07:28:00.000Z	TrustNoOne	cellofellow	firestarter is just to manage your firewall, your firewall is always running in linux, you can start firestarter and go to load list to see the blocks it did
+2008-03-06T07:32:00.000Z	TrustNoOne	cellofellow	firestarter is not a firewall, it is just a program to manage the firewall already in linux. you can download and install other ones if you want, but it isnt that necessary, the ip tables in linux do a great job as it is

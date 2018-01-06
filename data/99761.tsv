@@ -1,0 +1,4 @@
+2008-07-17T05:50:00.000Z	henri		I have a directory full of other directories and files. How do I give permissions 744 to all directories and permissions 644 to files within the directories?
+2008-07-17T05:51:00.000Z	unop	henri	find /path/to/dir -type d -exec chmod 744 {} \;   # for directories
+2008-07-17T05:51:00.000Z	unop	henri	find /path/to/dir -type f -exec chmo6 744 {} \;   # for files
+2008-07-17T06:14:00.000Z	henri	unop	thanks!

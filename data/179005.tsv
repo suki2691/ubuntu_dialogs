@@ -1,0 +1,4 @@
+2011-03-08T19:25:00.000Z	kothaguy_ubuntu		astyx,ROsmanov: by using gksudo nautilus,i can copy/paste now,every time i want to do like this only,how can i give them root permission?
+2011-03-08T19:27:00.000Z	kothaguy_ubuntu		what is /mount/point what should i type here, whether i have to type /dev/sda3 like that?
+2011-03-08T19:28:00.000Z	jrib	kothaguy_ubuntu	mount point is some (usually empty) directory.  Create one with « sudo mkdir /media/mynewshinymountpoint » and then use that
+2011-03-08T19:36:00.000Z	jrib	kothaguy_ubuntu	you can do « mount /dev/sda1 /media/sda1 » but you have to create /media/sda1 first.  To create /media/sda1, you do « mkdir /media/sda1 »

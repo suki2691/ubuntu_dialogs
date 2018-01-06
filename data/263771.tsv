@@ -1,0 +1,4 @@
+2004-12-30T10:44:00.000Z	bitserf		arghhhh. dpkg-buildpackage complains that you need to run it with fakeroot after completing the build. sucky if you're building X :)
+2004-12-30T10:45:00.000Z	calc	bitserf	running fakeroot debian/rules binary will probably pickup the build
+2004-12-30T10:46:00.000Z	calc		i think there may be a way with dpkg-buildpackage as well, but i'm eating so someone else can look it up ;)
+2004-12-30T10:46:00.000Z	bitserf	calc	too late, i accidentally ran a fakeroot dpkg-buildpackage after it, and first thing it does is whack the build tree :)

@@ -1,0 +1,4 @@
+2011-05-14T20:34:00.000Z	R3ku		Network tools doesn't have a button or something for activating wlan0
+2011-05-14T20:35:00.000Z	R3ku		doing "sudo ifconfig wlan0 up" just returns an error. I should mention that this problem happens to me all the time - if I disable wirless, and then disconnect from wired network before enabling it again, it won't work until I plug in to a wired network and restart.
+2011-05-14T20:36:00.000Z	R3ku		Seems kind of a stupid problem but this has been the case between at least two releases..
+2011-05-14T20:38:00.000Z	cablop	R3ku	check what driver are you using for your wireless, i have to switch it to make it works ok in my netbook

@@ -1,0 +1,4 @@
+2010-11-26T03:52:00.000Z	number9		hey all I can't boot my laptop... the only thing that shows is this error:"GLib-WARNING **: getpwuid_r(): failed due to unknown user id (0)" in the bug reports it seems like people only get it sometimes and it doesn't prevent gdm from loading but not for me, I can't get it to boot at all, and get droped to an init shell.... any ideas?
+2010-11-26T03:53:00.000Z	ZykoticK9	number9	user 0 is the root user account - if that's missing, there is certainly a problem!
+2010-11-26T03:54:00.000Z	number9	ZykoticK9	yeah thanks any ideas on what to do?
+2010-11-26T03:54:00.000Z	ZykoticK9	number9	sorry no idea

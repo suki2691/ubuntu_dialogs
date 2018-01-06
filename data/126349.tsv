@@ -1,0 +1,4 @@
+2008-04-17T02:03:00.000Z	bottiger		how do I find out which app are listing to port 80 ?
+2008-04-17T02:03:00.000Z	kyncani	bottiger	netstat or lsof
+2008-04-17T02:03:00.000Z	bottiger	kyncani	well, could you help a bit more?
+2008-04-17T02:05:00.000Z	kyncani	bottiger	both netstat and lsof can do it. Google and man are your friends. Take a special look at -t and -p options for netstat and -i option for lsof.

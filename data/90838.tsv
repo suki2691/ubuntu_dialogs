@@ -1,0 +1,4 @@
+2012-07-08T22:57:00.000Z	MacGuges		Hello, I need to fix a broken dependency on my dad's pc, before downgrading him from quantal back to precise.  apt-get -f install says that netbase breaks ifupdown, so would it be safe to remove ifupdown temporarily to correct this dependency?
+2012-07-08T22:57:00.000Z	Myrtti	MacGuges	downgrading is unlikely to work at all
+2012-07-08T23:00:00.000Z	MacGuges	Myrtti	How do you mean? I found a howto for downgrading, and just tested a script to generate a command for apt-get. ATM it fails on the same error that motivates me to do the downgrade, this one broken dependency.
+2012-07-08T23:02:00.000Z	MacGuges	Myrtti	It seems rational that continuing to run the development branch of ubuntu will lead to more unstable situations like this one.  But do you recommend soldiering on with Quantal?

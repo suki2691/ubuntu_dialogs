@@ -1,0 +1,4 @@
+2007-07-08T11:26:00.000Z	nich0s		How would I go about opening a folder that's telling me "permission denied"?
+2007-07-08T11:27:00.000Z	Drk_Guy	nich0s	you need to chown it
+2007-07-08T11:28:00.000Z	nich0s	Drk_Guy	THanks
+2007-07-08T11:29:00.000Z	Drk_Guy	nich0s	run chown like this, sudo chown <usrname><group> >folder>

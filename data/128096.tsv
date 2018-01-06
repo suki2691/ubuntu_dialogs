@@ -1,0 +1,4 @@
+2011-05-19T00:06:00.000Z	paulo_		wow, how does the exploit work?
+2011-05-19T00:07:00.000Z	mbeierl	paulo_	it's not really an exploit.  It is a large apt: url which if you have the right combination of software, may cause compiz (the window manager) to crash
+2011-05-19T00:08:00.000Z	mbeierl	paulo_	it "works" by causing the apt window to have a huge title, overflowing an internal buffer, allowing for a remote possibility of arbitrary code execution, but it requires a lot of conditions before that can be done
+2011-05-19T00:21:00.000Z	mbeierl	paulo_	the actual bug report for the "exploit" should have read https://bugs.launchpad.net/ubuntu/+source/software-center/+bug/783263 .  The security notice is here: http://www.ubuntu.com/usn/usn-1132-1/

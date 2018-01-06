@@ -1,0 +1,4 @@
+2010-05-29T01:17:00.000Z	Talon_		is there a way to force a user to logout? say someone ssh'd into your box and totally forgot to logout n has been connected for hours.. how do I terminate their session?
+2010-05-29T01:19:00.000Z	ohir	Talon_	export TIMEOUT=secons in .bash_profile should do the trick
+2010-05-29T01:19:00.000Z	ohir		!pl | kaczy
+2010-05-29T01:24:00.000Z	Talon_	ohir	I don't follow what your saying

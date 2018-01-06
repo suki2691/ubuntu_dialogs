@@ -1,0 +1,4 @@
+2012-03-11T16:16:00.000Z	Osmond		When i boot up I have to enter the grub menu, hit E on the kernel, and edit that text.  Where do I find that file once I'm logged on? I would like to make the changed permanent
+2012-03-11T16:16:00.000Z	szal	Osmond	what change exactly?
+2012-03-11T16:19:00.000Z	szal	Osmond	'nomodeset' and 'quiet splash' have nothing to do w/ each other, they can be used concurrently.. and the file you want to edit for making that change is /etc/default/grub, after which you run 'sudo update-grub'; you don't edit the grub.cfg directly as that change would be lost after e.g. a kernel upgrade
+2012-03-11T16:20:00.000Z	szal	Osmond	iirc, yes

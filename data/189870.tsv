@@ -1,0 +1,4 @@
+2009-08-10T14:58:00.000Z	JediMaster		is there any way to reserve a small amount of resources so that it's possible to ssh into a server and still be able to issue commands when under extreme load? I've had two machines go down at the same time that have had 120+ loads that take 10 minutes for ssh to log into, then 5 minutes to come up with a command prompt and either don't respond at all or take 10+ minutes to issue commands
+2009-08-10T15:00:00.000Z	frogzoo	JediMaster	set process limits in /etc/sysctl.conf ?
+2009-08-10T15:01:00.000Z	frogzoo	JediMaster	sorry - /etc/security/limits.conf
+2009-08-10T15:01:00.000Z	JediMaster	frogzoo	I was going to say =) I've not used it before though

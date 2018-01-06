@@ -1,0 +1,4 @@
+2009-12-09T16:19:00.000Z	crawler		any Xubuntu users who can help me set up a working VNC server?  i can connect, but get only a grey screen and X cursor.
+2009-12-09T16:20:00.000Z	StaticPhilly	crawler	i could be wrong (its been a while since i played with vnc) but i think you have to tell vnc to start xubuntu when the user connects, it starts startx by default
+2009-12-09T16:21:00.000Z	crawler	StaticPhilly	ok, i was playing around with the startup script for a bit, maybe i used the wrong command..
+2009-12-09T16:33:00.000Z	crawler	StaticPhilly	looks like i was using a bum server (tightvncserver).  installed x11vnc and all is well :-)

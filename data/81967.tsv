@@ -1,0 +1,4 @@
+2011-05-27T09:25:00.000Z	cretsiah		I have a problem with a realtek audio device ACL610 (high definition audio) on a toshiba laptop how may i fix this?
+2011-05-27T09:26:00.000Z	ActionParsnip	cretsiah	which release?
+2011-05-27T09:26:00.000Z	ActionParsnip	cretsiah	try: sudo add-apt-repository ppa:ricotz/unstable; sudo apt-get update; sudo apt-get --reinstall install alsa-base alsa-utils
+2011-05-27T09:34:00.000Z	cretsiah	ActionParsnip	says invalid operation

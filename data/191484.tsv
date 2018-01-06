@@ -1,0 +1,4 @@
+2006-04-09T11:24:00.000Z	red_Marvin		Question: My usb mem (corsair cruzer micro) was nicely detected yesterday, but can't mount today. ls /dev/s* turns up no sdaX
+2006-04-09T11:26:00.000Z	intelikey	red_Marvin	:)  that's my gripe about udev....    check for the device in the static devices.  hoary /.dev  breezy /dev/<something>/
+2006-04-09T11:27:00.000Z	intelikey	red_Marvin	find /dev/ -name blah
+2006-04-09T11:28:00.000Z	red_Marvin	intelikey	root@HERCULES:/home/leo# find /dev/ -name sda

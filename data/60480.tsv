@@ -1,0 +1,4 @@
+2009-04-11T15:54:00.000Z	babio		hi guys i have this proble..... i have firstcommand  -o option1 -t option2 and secondcommand -t option1 -l option2 and i want that the option2 of the secondcommand is the output  of "firstcommand  -o option1 -t option2" ... how can i do that?????
+2009-04-11T15:56:00.000Z	penthief	babio	 I think you want this: secondcommand -t  option1 -l $(firstcommand  -o option1 -t option2)
+2009-04-11T15:57:00.000Z	babio	penthief	perhaps.....i'll check it out....
+2009-04-11T15:58:00.000Z	babio	penthief	yesssssssssssssssssss it works!!!! awesomw!!!! thank you very much

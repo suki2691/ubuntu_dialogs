@@ -1,0 +1,4 @@
+2011-05-13T05:03:00.000Z	ninjah		What do I add to /etc/fstab to turn off fsck?
+2011-05-13T05:04:00.000Z	bastidrazor	ninjah	the  last two numbers .. normally 0 2 or 0 1 .. change the last number to a 0  .. it will skip that partition forever
+2011-05-13T05:04:00.000Z	ninjah	bastidrazor	Thanks... Couldn't remember what needed to be changed.
+2011-05-13T05:05:00.000Z	bastidrazor	ninjah	you're welcome. you can look at https://help.ubuntu.com/community/Fstab  to refresh your memory

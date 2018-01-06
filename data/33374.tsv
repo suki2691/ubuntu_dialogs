@@ -1,0 +1,4 @@
+2010-05-03T07:30:00.000Z	peanutpan		hi.  if i have put a dvd in the drive, and i can go through the filesystem and whatnot and execute programs from it, then it must be mounted, yes?  why would there be no device, then, in gparted?  or, on a related note, how can i figure out what device is associated with a folder in /media/ ???
+2010-05-03T07:32:00.000Z	tonyyarusso	peanutpan	it'll be in the output of 'mount'.
+2010-05-03T07:32:00.000Z	tonyyarusso	peanutpan	it's probably /dev/cdrom0
+2010-05-03T07:33:00.000Z	peanutpan	tonyyarusso	great, thanks!

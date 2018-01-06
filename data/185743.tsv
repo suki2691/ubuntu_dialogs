@@ -1,0 +1,4 @@
+2007-05-18T11:16:00.000Z	jetroo		ive installed u6.10 on laptop and now dwnlding the updates (169 of them!) i have the 7.04 disc but it wont install cuz the x-server breaks or something. should i be able the upgrade to 7.04 after i update 6.10? or will it break after upgrade
+2007-05-18T11:16:00.000Z	sivik	jetroo	u will have to fix the xserver after you install the newer version
+2007-05-18T11:17:00.000Z	sivik	jetroo	do something like dpkg-reconfigure xserver-xorg and use the vesa driver until u can fix it
+2007-05-18T11:18:00.000Z	sivik	jetroo	but u can get on the net via CLI, its called lynx

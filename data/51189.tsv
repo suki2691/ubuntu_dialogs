@@ -1,0 +1,4 @@
+2012-07-15T21:15:00.000Z	in2rd		I'm having some issues trying to get Cryptkeeper to show its notification icon in the systray. Using Gnome Panel versus Unity, for starters. Tried to whitelist the systray to 'all' in dconf-editor, logged out and back in, no dice. Any ideas what else to try?
+2012-07-15T21:16:00.000Z	trism	in2rd	you are using gnome-panel? the default panel in 12.04 doesn't have the notification area, so you would need to add it (alt+right click, add to panel)
+2012-07-15T21:16:00.000Z	trism	in2rd	the whitelist is only for unity
+2012-07-15T21:21:00.000Z	in2rd	trism	Durp. Got it working, thanks.

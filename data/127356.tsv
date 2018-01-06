@@ -1,0 +1,4 @@
+2007-08-06T11:19:00.000Z	Chills		pici: i made a mistake and erased menu.lst from gurb folder!! i booted my pc thru ubuntu live cd,, i made a folder named "A" and mounted my ext3 partition over it! to give it write permission i did "chmod -R 777 A" , i got back my grub.. but i cant get sudo su :(
+2007-08-06T11:19:00.000Z	Davy_Jones	Chills	you can sudo -i
+2007-08-06T11:20:00.000Z	Chills	Davy_Jones	it says <Chills>
+2007-08-06T11:21:00.000Z	Davy_Jones	Chills	you are probably not in the group that's allowed to use sudo... i don't know the command that'll let you in, sorry

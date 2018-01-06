@@ -1,0 +1,4 @@
+2005-06-05T15:58:00.000Z	enonu		Hello.  I'm new to ubuntu and linux in general.  I'm trying to set some environment variables, and I'm altering /etc/profile with X=Y type statements followed by EXPORT X statements, however upon logoff/logon, the variables aren't persisted.  What am I doing wrong?
+2005-06-05T15:59:00.000Z	dieman	enonu	you might just want to set trhem in /etc/environment
+2005-06-05T15:59:00.000Z	dieman	enonu	in there you don't need to do export, just put BLAH=blah
+2005-06-05T15:59:00.000Z	dieman	enonu	pam will end up setting up the environment before the shell runs

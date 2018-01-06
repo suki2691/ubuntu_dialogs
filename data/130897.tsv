@@ -1,0 +1,4 @@
+2009-07-21T07:00:00.000Z	bp0		hello, im trying to make my 1000mb net card run at 100mb
+2009-07-21T07:00:00.000Z	bp0		but when i use ethtool to set it to 100, it gets set back to 1000 by something else
+2009-07-21T07:00:00.000Z	arrrghhh	bp0	if it's set to autoneg, it should uh... autoneg.
+2009-07-21T07:01:00.000Z	bp0	arrrghhh	yes i turned autoneg off, but that also comes back on by itself

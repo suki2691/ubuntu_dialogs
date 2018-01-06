@@ -1,0 +1,4 @@
+2005-06-11T14:24:00.000Z	|Ivanch0|		hi sb knows how to refresh mi /dev whitout reboot?
+2005-06-11T14:25:00.000Z	crimsun	|Ivanch0|	just restart hotplug after restarting udev
+2005-06-11T14:25:00.000Z	|Ivanch0|	crimsun	 how?
+2005-06-11T14:25:00.000Z	crimsun	|Ivanch0|	sudo invoke-rc.d udev restart && sudo invoke-rc.d hotplug restart

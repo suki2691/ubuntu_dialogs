@@ -1,0 +1,4 @@
+2009-08-23T22:21:00.000Z	SealedWithAKiss		I had 2GB of RAM running at around 500Mhz. I have removed them, and installed 4GB of RAM running at 800Mhz (approx). Yet a game which requires only 512MB RAM and a 1.6GHz CPU doesn't run smoothly! How come?
+2009-08-23T22:22:00.000Z	SealedWithAKiss		I had 2GB of RAM running at around 500Mhz. I have removed them, and installed 4GB of RAM running at 800Mhz (approx). Yet a game which requires only 512MB RAM and a 1.6GHz CPU doesn't run smoothly! How come?
+2009-08-23T22:24:00.000Z	stroyan	SealedWithAKiss	You might be seeing an mtrr problem like  https://bugs.launchpad.net/linux/+bug/210780
+2009-08-23T22:58:00.000Z	stroyan	SealedWithAKiss	Many devices are memory-mapped.  They use up some of a 4GB address space so there is no address range left for mapping all of the 4GB of RAM.

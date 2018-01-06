@@ -1,0 +1,4 @@
+2010-04-30T03:00:00.000Z	Ashley__		I have grub. This was installed from Wubi. When i type 'boot' after loading the kernel, it says "No filesystem could mount root. tried ext4, ext2, ext4, fusebkl.. Kernel panic - not syncing: VFS: Unable to mount root fs unknown-block(8,1)
+2010-04-30T03:00:00.000Z	Ashley__		And then it hits kernel panic.
+2010-04-30T03:01:00.000Z	Jordan_U	Ashley__	You need to provide a proper root= kernel parameter, but why are you needing to boot from the grub shell? Do you not see a menu at boot?
+2010-04-30T03:02:00.000Z	Ashley__	Jordan_U	i get my "Choose windows XP or ubuntu" menu.. then i choose Ubuntu and i quickly see loads of crap errors then it boots me into a grub shell. FYI i done a kernel upgrade today via ubuntu system upgrade and upon reboot this is where i'm at.

@@ -1,0 +1,4 @@
+2005-12-13T16:14:00.000Z	Gambit---		this is a stupid question, but how do I get the headers installed for gcc?  I installed the g++ package, but I'm not sure what to look for next
+2005-12-13T16:15:00.000Z	nailbiter	Gambit---	gcc is just the compiler. If you mean the C library headers needed for building programs, they're in 'libc6-dev'.
+2005-12-13T16:15:00.000Z	Gambit---	nailbiter	right, strange, ok
+2005-12-13T16:16:00.000Z	nailbiter	Gambit---	I'd recommend installing the "build-essential" virtual package to pull in all the base packages needed to build stuff (like 'make' and 'g++')

@@ -1,0 +1,4 @@
+2011-01-02T13:43:00.000Z	jrwr		http://hlstatsxcommunity.googlecode.com/files/HLXCommunityEdition1.6.12FULL.tar.gz
+2011-01-02T13:43:00.000Z	jrwr		crap
+2011-01-02T13:43:00.000Z	jrwr		Is there a filesystem that i would use that would detect identical files and instead of make a copy of it and waste disk space, it would just use the pre-existing data?
+2011-01-02T13:44:00.000Z	gobbe	jrwr	zfs can do that when dedup os set on

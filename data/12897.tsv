@@ -1,0 +1,4 @@
+2012-04-19T22:59:00.000Z	dljh		I'm mounting a ntfs partition within fstab, and mounting to /media/data. Is there any way to make a specific folder 0700 within that mount?
+2012-04-19T22:59:00.000Z	dljh		After it's mounted chmod 700 /media/data doesn't work...
+2012-04-19T23:00:00.000Z	apwbdjp	dljh	What do you mean it doesn't work? What does it say?
+2012-04-19T23:05:00.000Z	apwbdjp	dljh	careful with chmod -r, though

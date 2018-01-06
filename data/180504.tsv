@@ -1,0 +1,4 @@
+2007-10-19T00:04:00.000Z	Symmetria		hrm, whats the command line command to upgrade from feisty to gutsy (update-manager needs a gui and Im working remotely)
+2007-10-19T00:05:00.000Z	Symmetria		thanks
+2007-10-19T00:07:00.000Z	lgc_	Symmetria	edit your /etc/apt/sources.list file and change "feisty" to "gutsy". Do 'apt-get update' and then 'apt-get dist-upgrade'. That should do, but expect bottlenecks today and a few days from now.
+2007-10-19T00:09:00.000Z	lgc_	Symmetria	lucky you!

@@ -1,0 +1,4 @@
+2008-05-08T20:03:00.000Z	xim		so my gui got fubarred, fortunatly a file manager window happened to be open and i could navigate to my irc client through /usr/bin  but all my bars are gone and i cant run any programs, how can I get them back, i just want them so i can try to upgrade to hardy and hopefully it will fix all this
+2008-05-08T20:04:00.000Z	Vlet	xim	it probably won't. all those settings are kept in your /home/yourusername directory, and the upgrade won't over-write your settings.. how mad would you be if you had things set up all nice and the updater set everything to default :)
+2008-05-08T20:05:00.000Z	Vlet	xim	(Pici, if might be good if you verify this...) if you do "rm -Rf ~/.gnome*" that should reset ALL your gnome settings...
+2008-05-08T20:06:00.000Z	Vlet	xim	wait... instead of deleting them, how about you do: mkdir gnomebackup && mv ~/.gnome* ./gnomebackup/

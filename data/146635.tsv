@@ -1,0 +1,4 @@
+2008-01-02T23:51:00.000Z	DSpair	Nrbelex	You can look at the syslog files. They will usually give you a hint as what is happening.
+2008-01-02T23:52:00.000Z	Nrbelex		A standard home 802.11 network with WEP on and off - I had everything working until I reinstalled up to 7.10
+2008-01-02T23:52:00.000Z	Nrbelex	DSpair	which logs are pertinent/ where are they?
+2008-01-02T23:56:00.000Z	DSpair	Nrbelex	For the nm-applet information, just look at /var/log/messages and that should show you everything you need. If you want you can use "grep" to filter on NetworkManager.

@@ -1,0 +1,4 @@
+2009-04-24T21:14:00.000Z	thehumph		I have two hard disks: /dev/sda is entirely Vista. /dev/sdb is 85% Vista, 15% ubuntu partitions. When installing a bootloader where do I install it? hd0? (Is that the MBR) or to /dev/sda where Vista is?
+2009-04-24T21:15:00.000Z	mphill	thehumph	install grub to the drive that is being booted from
+2009-04-24T21:15:00.000Z	thehumph	mphill	I'm assuming GRUB is default. Ubuntu graphical installer doesn't give me an option of which boot loader to install. It gives me an option of device though. What is hd0?
+2009-04-24T21:16:00.000Z	mphill	thehumph	the defaults should be a safe path to take.

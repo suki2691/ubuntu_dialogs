@@ -1,0 +1,4 @@
+2009-07-07T10:58:00.000Z	duckwars		My VNC server doesn't work unless there is a desktop running.  I was wondering if there is some way through terminal that I can launch the desktop
+2009-07-07T10:59:00.000Z	scunizi	duckwars	ssh in and sudo /etc/init.d/gdm start.. then vnc into it.
+2009-07-07T11:00:00.000Z	scunizi	duckwars	you might also be able to "startx" after ssh-ing in.
+2009-07-07T11:42:00.000Z	scunizi	duckwars	unplug one and see what it says.. plug the other in and see what it gets labeled as.. remember that it will probably change depeding on the usb port or after a boot.

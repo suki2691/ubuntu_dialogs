@@ -1,0 +1,4 @@
+2011-08-16T07:57:00.000Z	arooni-mobile		1) running 11.04 on my t420; unity becomes unresponsive several times per day.  to solve; i go into a different tty; and do sudo /etc/init.d/gdm restart ;; is there a better solution?  2) is there a way to get ubuntu to stop prompting me to enter my login password after i've logged in (something about a keyring)
+2011-08-16T07:58:00.000Z	scorchgeek	arooni-mobile	well, this isn't a way to make it stop hanging, but pressing ctrl-alt-sysrq (printscreen key)-K kills the X server and deals with that a little bit faster :)
+2011-08-16T07:58:00.000Z	arooni-mobile		so its control + alt + printscreen  + the letter k ?
+2011-08-16T07:59:00.000Z	arooni-mobile	scorchgeek	is this a known problem with laptops?

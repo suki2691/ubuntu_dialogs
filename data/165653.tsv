@@ -1,0 +1,4 @@
+2006-10-01T07:16:00.000Z	haydenAU		can someone help me im trying to mount a fat32 partition and share it using samba, i can get to it using a smb client but i can't modify any files on the partition because it is owned by root and i can't chown it !
+2006-10-01T07:16:00.000Z	haydenAU		!fat32
+2006-10-01T07:16:00.000Z	haydenAU		!fuse
+2006-10-01T07:16:00.000Z	renaud	haydenAU	you have to change the UID in your mount command

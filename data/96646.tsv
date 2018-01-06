@@ -1,0 +1,4 @@
+2008-03-23T13:29:00.000Z	alkis1		Hi, adduser <username> doesn't give the user the same permissions/groups as adding the user through the gnome "User Settings" dialog. Any command equivalent to the "User Settings" dialog?
+2008-03-23T13:29:00.000Z	usehli	alkis1	adduser <username> admin
+2008-03-23T13:29:00.000Z	usehli		!useradd | alkis1
+2008-03-23T13:31:00.000Z	alkis1	usehli	sudo adduser test3 admin gives "user test3 doesn't exist"

@@ -1,0 +1,4 @@
+2009-05-10T04:42:00.000Z	hlfshell		so Ctr + alt + backspace used to be reset X for me - after updating to 9.04 that shortcut stopped working. Did the shortcut change? How do I make it so that is restart x?
+2009-05-10T04:43:00.000Z	VCoolio	hlfshell	you need to add something to xorg.conf, wait, I'll paste it for you
+2009-05-10T04:44:00.000Z	VCoolio	hlfshell	paste this in /etc/X11/xorg.conf http://paste.ubuntu.com/168203/
+2009-05-10T04:45:00.000Z	VCoolio	hlfshell	it won't work until next time you log in of course

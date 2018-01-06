@@ -1,0 +1,4 @@
+2011-04-21T07:27:00.000Z	laumonier		i have a dual boot and the kernel image are stacking is it possible to delette old kernel image to have a grub start with less choice??
+2011-04-21T07:28:00.000Z	laumonier		and through the shell is it possible?
+2011-04-21T07:29:00.000Z	ZykoticK9	laumonier	you can search for linux-image to get the installed kernels, after uninstalling the unwanted ones don't forget "sudo update-grub"
+2011-04-21T07:30:00.000Z	ZykoticK9	laumonier	apt-get will work fine

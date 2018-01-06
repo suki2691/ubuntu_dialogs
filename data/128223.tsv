@@ -1,0 +1,4 @@
+2007-07-25T08:00:00.000Z	godofredo		anyone know the command to move all the contents of one folder to another folder via terminal?
+2007-07-25T08:00:00.000Z	nickrud	godofredo	mv
+2007-07-25T08:00:00.000Z	godofredo	nickrud	i want what is in the folder, not the folder itself..
+2007-07-25T08:01:00.000Z	nickrud	godofredo	mv /path/to/first/folder/* /path/to/second/folder   <-- note the asterisk

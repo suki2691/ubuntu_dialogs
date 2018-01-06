@@ -1,0 +1,4 @@
+2005-10-11T12:15:00.000Z	boxman		well, installing nvidia drivers using the official installer is easier said than done... it complains about gcc on system being 4.x, while the kernel was compiled using 3.x :(
+2005-10-11T12:16:00.000Z	boxman		any suggestion for what to try now?
+2005-10-11T12:16:00.000Z	crimsun	boxman	so install build-essential and gcc-3.4
+2005-10-11T12:16:00.000Z	crimsun	boxman	then export CC=gcc-3.4

@@ -1,0 +1,4 @@
+2011-03-11T22:37:00.000Z	Dmarkmkm		hey guys a quick question, can I install ubuntu WITHOUT nouveau?
+2011-03-11T22:39:00.000Z	Dmarkmkm		so how can I remove nouveau altogether?
+2011-03-11T22:41:00.000Z	Dmarkmkm		nobody? Can u guys at least give me a link where I can learn how to get rid of this nouveau?
+2011-03-11T22:43:00.000Z	IdleOne	Dmarkmkm	sudo apt-get --purge remove xserver-xorg-video-nouveau  See https://help.ubuntu.com/community/BinaryDriverHowto/Nvidia for more information.

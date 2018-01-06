@@ -1,0 +1,4 @@
+2008-04-04T06:24:00.000Z	delfick		hello, I have a few .c files I wish to print. is there some nice program out there that will let me print them all into the same file ?
+2008-04-04T06:25:00.000Z	troxor	delfick	you can cat them all together to a new file, then use a2ps on that
+2008-04-04T06:26:00.000Z	troxor	delfick	just do something like `cat *.h *.c > printme && a2ps printme`
+2008-04-04T06:28:00.000Z	delfick	troxor	that works but I need to know file names as well in that file, Dr_willis, will look at that, thnx :)

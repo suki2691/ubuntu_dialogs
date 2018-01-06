@@ -1,0 +1,4 @@
+2010-09-05T20:48:00.000Z	Phil_B		hey all...I'm thinking of formatting my Acer Aspire One ZG5 and switching to Ubuntu.  Is there anything I need to know, or is it easier to just install 10.04 without formatting?
+2010-09-05T20:48:00.000Z	ActionParsnip	Phil_B	make 3 partitions, / swap and /home
+2010-09-05T20:52:00.000Z	ActionParsnip	Phil_B	use custom partitioning, write a new file allocation table and make / about 6Gb make sawp equal to your RAM mount if you have 2Gb ram or more (or 2xRAM if you have less) then use the rest for /home. Make them all ex4 except swap which has its own
+2010-09-05T20:55:00.000Z	ActionParsnip	Phil_B	indeed, if you have like 4Gb RAM then I wouldnt bother with swap unless you are doing some intense stuff

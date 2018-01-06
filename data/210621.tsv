@@ -1,0 +1,4 @@
+2006-05-27T16:38:00.000Z	Larsson-Sweden		When using the XV video driver in a media player, my videos on my TV is just black. Any ideas?
+2006-05-27T16:39:00.000Z	mjr	Larsson-Sweden	not all cards/drivers support overlay (xv) on tv-out. Just don't use it if you're in such a situation...
+2006-05-27T16:41:00.000Z	Larsson-Sweden	mjr	problem is that other drivers have tearing. When using vidix or XV the tearing is gone, thats why i want to use XV. Vidix works fine with vesa driver tough.
+2006-05-27T16:41:00.000Z	mjr	Larsson-Sweden	second-hand info: some cards may only do xv on their primary display. See if you can set the tv to be the primary somehow

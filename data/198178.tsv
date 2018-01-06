@@ -1,0 +1,4 @@
+2006-09-20T16:55:00.000Z	foo		How can I add a gateway for an interface? I put the static ip in /etc/network/interfaces
+2006-09-20T16:55:00.000Z	andyross	foo	"man interfaces" has the file syntax for you
+2006-09-20T16:56:00.000Z	andyross		Don't pass "ro" as an option to mount. :)  Seriously: is this an ntfs partition?  In which case the answer is "you can't"
+2006-09-20T16:56:00.000Z	foo	andyross	ah, it's just gateway. thanks

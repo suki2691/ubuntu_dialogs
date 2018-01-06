@@ -1,0 +1,4 @@
+2007-08-20T14:34:00.000Z	joseph111		i installed samba but when i try access a shared folder from win xp it asks for account and password please help me someone
+2007-08-20T14:35:00.000Z	leagris	joseph111	what you'd need is security=share in /etc/samba/smb.conf
+2007-08-20T14:36:00.000Z	leagris	joseph111	then guest ok = yes to the shares you like shared without autnentification
+2007-08-20T15:22:00.000Z	leagris	joseph111	there is nobody here except 1048 users.

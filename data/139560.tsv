@@ -1,0 +1,4 @@
+2007-04-12T09:16:00.000Z	deefzi		why doesn't 'unrar x -r *.rar' extract all the .rar-files on directory, it says "extracting from (the first file)" but then "no files to extract"
+2007-04-12T09:18:00.000Z	anhdepyeu	deefzi	try this: for f in *.r ; do unrar "${f}" ; done
+2007-04-12T09:18:00.000Z	anhdepyeu	deefzi	that's supposed to be *.rar -- sorry
+2007-04-12T09:18:00.000Z	deefzi	anhdepyeu	thank you

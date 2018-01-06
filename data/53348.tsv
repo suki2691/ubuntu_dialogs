@@ -1,0 +1,4 @@
+2009-08-19T05:09:00.000Z	m1dlg		how do I fix my drive permissions? I can't open my USB DVD drive, and I don't have any other and this has been a problem for a while. sudo chown user:user /media/? doesn't work but does on a couple of HDD's I sometimes plug in. I can't get it to work persistently though
+2009-08-19T05:10:00.000Z	kamokow	m1dlg	you could use ALT+F2 then gksudo nautilus
+2009-08-19T05:13:00.000Z	m1dlg	kamokow	- I don't get the icon there to edit. I can't give it permission if it's not there.
+2009-08-19T05:13:00.000Z	kamokow	m1dlg	run nautilus, navigate to your dvd drive then right click -> properties -> permissions

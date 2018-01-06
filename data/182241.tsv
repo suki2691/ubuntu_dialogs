@@ -1,0 +1,4 @@
+2006-12-01T07:16:00.000Z	tanubis		anyone know how to reset vlc?  I made some changes in the preferences since I got it, and now it won't start properly
+2006-12-01T07:16:00.000Z	tanubis		I essentially need to wipe all the settings clean and start again, but I can't figure out how to do it.  If I apt-get remove vlc (and associated files) and then install again, it remembers the old settings and still won't start properly
+2006-12-01T07:17:00.000Z	tanubis		thankyou
+2006-12-01T07:17:00.000Z	stefg	tanubis	delete the ~/.vlc dir (a hidden one)

@@ -1,0 +1,4 @@
+2007-08-30T08:35:00.000Z	Javid		is there a way to rig sudo/gksudo to not need a pass? like including it in the command somehow?
+2007-08-30T08:35:00.000Z	cosmodad	Javid	you don't want that.
+2007-08-30T08:38:00.000Z	cosmodad	Javid	you access it through "sudo visudo"
+2007-08-30T08:43:00.000Z	cosmodad	Javid	replace %admin by your username for even more security.

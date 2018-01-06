@@ -1,0 +1,4 @@
+2008-11-07T22:03:00.000Z	Twinkletoes|W		Using yppasswd <user> to change a user's password under NIS, I'm asked to supply the root password before the user's new password (I've already done sudo su - and am at a root prompt).  Given that by default, the root password on Ubuntu is scrambled, what can I do without setting a root password to make this work?
+2008-11-07T22:05:00.000Z	Pici	Twinkletoes|W	you can use sudo -i for an interactive 'root' session if you need access for a period of time.
+2008-11-07T22:05:00.000Z	Twinkletoes|W	Pici	Already at a root prompt
+2008-11-07T22:05:00.000Z	Twinkletoes|W	Pici	(sudo su -)

@@ -1,0 +1,4 @@
+2008-03-30T00:49:00.000Z	naknomik		I want to disable only certain users from being able to login using SSH, how do I do that?
+2008-03-30T00:51:00.000Z	naknomik		I want to disable only certain users from loggin in using ssh, how do I do that?
+2008-03-30T00:53:00.000Z	Jowi	naknomik	you put "AllowUsers user1" in /etc/ssh/sshd_config to allow only user1 to login.
+2008-03-30T00:54:00.000Z	Jowi	naknomik	another alternative is to use /etc/hosts.allow and /etc/hosts.deny

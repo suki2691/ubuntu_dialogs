@@ -1,0 +1,4 @@
+2009-11-07T05:18:00.000Z	Thrawn		can some1 tell me how to mount a hd by terminal command? :)
+2009-11-07T05:19:00.000Z	MoTec	Thrawn	sudo mkdir /mnt/hd && sudo mount /dev/hda1 /mnt/hd
+2009-11-07T05:20:00.000Z	MoTec	Thrawn	your drive might be sda or hda and the number after that represents the partition..
+2009-11-07T05:21:00.000Z	MoTec	Thrawn	so make a mount point for it like /mnt/hd and then mount /dev/sda1 /mount/whatever

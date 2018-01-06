@@ -1,0 +1,4 @@
+2010-03-07T21:48:00.000Z	wensleydale		Hello all. Is there a command to safely remove a USB WIFI card? Or do you only have to safely eject data-storing USB devices?
+2010-03-07T21:48:00.000Z	LjL	wensleydale	the latter
+2010-03-07T21:49:00.000Z	wensleydale	LjL	cheako : So ifconfig wlan# down then remove and its allgood?
+2010-03-07T21:50:00.000Z	LjL	wensleydale	i think you can even skip the ifconfig. "safe" removal is to make sure data has been written to flash storage, and no operation is going on during the removal. wifi cards have no need for that.

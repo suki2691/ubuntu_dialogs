@@ -1,0 +1,4 @@
+2012-08-10T01:02:00.000Z	supercom32		If you create two swap partitions for each instance of Ubuntu you want to install on a single drive, will each instance use their own swap partition you specify? Or will they just use all avaliable ones they find?
+2012-08-10T01:03:00.000Z	Jordan_U	supercom32	Swap partitions are configured to be used in /etc/fstab.
+2012-08-10T01:05:00.000Z	Jordan_U	supercom32	Just make sure that each installation has only one swap partition, its own, configured in /etc/fstab.
+2012-08-10T01:06:00.000Z	supercom32	Jordan_U	So I can configure each instances /etc/fstab to just use the swap partition they were assigned?

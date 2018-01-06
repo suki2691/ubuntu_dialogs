@@ -1,0 +1,4 @@
+2006-05-17T11:44:00.000Z	grte		Hey, can anybody tell me how I can grep a man page?
+2006-05-17T11:46:00.000Z	grte		The man file is in gz, though.  I tried grepping it directly and got nothing.
+2006-05-17T11:46:00.000Z	grte		Yeah, I get that.
+2006-05-17T11:47:00.000Z	bimberi	grte	man -P cat whatever | grep string

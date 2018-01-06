@@ -1,0 +1,4 @@
+2008-11-18T12:43:00.000Z	zeno___		what is the best way to move a large (3tb) ammount of data over wireless?  just for f in movestuff/* (60k ish dirs); scp f destination
+2008-11-18T12:43:00.000Z	zeno___		?
+2008-11-18T12:44:00.000Z	troubled	zeno___	i'd say use the scp recursive options
+2008-11-18T12:44:00.000Z	troubled	zeno___	better yet, rsync+ssh is better for resuming if stuff goes south

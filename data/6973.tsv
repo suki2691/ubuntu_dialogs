@@ -1,0 +1,4 @@
+2011-12-20T02:25:00.000Z	easypie		what name should i give my file in /etc/sudoers.d/<file> so i can add users to allow root privilege?
+2011-12-20T02:27:00.000Z	nick5556	easypie	what are you using the computer for ?
+2011-12-20T02:28:00.000Z	easypie	nick5556	web server to host website. i want a user other than root to login and su for root if needed.
+2011-12-20T02:29:00.000Z	nick5556	easypie	echo 'easypie ALL=(ALL) ALL' >> /etc/sudoers

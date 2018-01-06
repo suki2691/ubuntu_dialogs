@@ -1,0 +1,4 @@
+2012-05-28T07:03:00.000Z	joobie		hey guys.. can anyone suggest a good way to get a file from siteA to siteB securely? I don't want to go to the extent of establishing a VPN between both sites - trying to do this with minimal effort but retaining security
+2012-05-28T07:04:00.000Z	joobie		i was thinking about GPG'ing the file and then sending it over email.. not sure if GPG is still considered secure and if so, if it's a good way
+2012-05-28T07:04:00.000Z	muelli	joobie	scp
+2012-05-28T07:05:00.000Z	joobie	muelli	SCP requires a SSHD which is too much effort for this project

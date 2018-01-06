@@ -1,0 +1,4 @@
+2006-06-12T15:39:00.000Z	LiteHedded		how do I change my network card to dhcp?
+2006-06-12T15:39:00.000Z	LiteHedded		from a terminal
+2006-06-12T15:40:00.000Z	judah	LiteHedded	sudo ifdown eth0; sudo dhclient eth0;
+2006-06-12T15:40:00.000Z	judah	LiteHedded	configuration is in /etc/network/interfaces

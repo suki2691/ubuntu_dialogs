@@ -1,0 +1,4 @@
+2010-03-03T08:10:00.000Z	yemino		how can I fix the problem: "GPG error: http://ppa.launchpad.net karmic Release: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 7D2C7A23BF810CD5Failed to fetch http://ppa.launchpad.net/gwibber-dayly/ppa/ubuntu/dists/karmic/main/binary-amd64/Packages.gz  404  Not Found"
+2010-03-03T08:11:00.000Z	agitdd99	yemino	you got it wrong link correction --> http://ppa.launchpad.net/gwibber-daily/ppa/ubuntu/dists/karmic/main/binary-amd64/Packages.gz
+2010-03-03T08:12:00.000Z	agitdd99	yemino	maybe you should run to download keyserver first
+2010-03-03T08:14:00.000Z	agitdd99	yemino	run this on terminal --> sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 72D340A3

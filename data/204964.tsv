@@ -1,0 +1,4 @@
+2007-09-21T09:04:00.000Z	a|K|a		I have a MS IntelliMouse and on boot the mouse sometimes works and sometimes doesn't.  Then if it works it will stop working after some time (1min - few hours).  Has anyone ever heard of this?
+2007-09-21T09:04:00.000Z	macd	a|K|a	what release of ubuntu are oyu on?
+2007-09-21T09:04:00.000Z	macd	a|K|a	thats a wireless mouse right?
+2007-09-21T09:06:00.000Z	macd	a|K|a	my recommendation is to launch a terminal and type 'dmesg' then next time it happens you can see whats going on with USB, also you can type 'tail -f /var/log/syslog' for other information

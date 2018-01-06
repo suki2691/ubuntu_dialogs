@@ -1,0 +1,4 @@
+2004-10-26T12:18:00.000Z	solsTiCe		hi. just installed ubuntu . i am looking a way to install a basic firewall (don't find how to launch iptables) and 
+2004-10-26T12:20:00.000Z	solsTiCe		and a way to configure the service launch and a way to stop hotplug to load 8139cp while iam using 8139too modules (blacklist the module ?)
+2004-10-26T12:22:00.000Z	flevour	solsTiCe	try modconf go to kernel/drivers/net and try to disable that module
+2004-10-26T12:23:00.000Z	solsTiCe	flevour	Tiboz thank you i go and see

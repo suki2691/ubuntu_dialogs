@@ -1,0 +1,4 @@
+2006-11-29T09:32:00.000Z	[roger] 	justin_	'sudo apt-get install php4-mysql' gets an unmet dep on libmysqlclient15off. libmysqlclient15off depends on mysql-common. 'sudo apt-get install php4-mysql libmysqlclient15off mysql-common' gets 'Package mysql-common-4.1 has no installation candidate'.
+2006-11-29T09:35:00.000Z	[roger] 	justin_	yes, that can happen. Doesn't seem to be the problem here as this has been going on for some time and we've been able to do other upgrades.
+2006-11-29T09:39:00.000Z	[roger] 	justin_	/etc/apt/sources.list has dapper main restricted universe multiverse, dapper-backports main restricted universe multiverse, dapper-security main restricted universe. I don't think that's the problem.
+2006-11-29T09:42:00.000Z	[roger] 	justin_	I think apt's deps are just confused. do you know how to clear it and start from scratch?

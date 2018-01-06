@@ -1,0 +1,4 @@
+2010-11-11T08:08:00.000Z	acalbaza		so, i noticed that i have two swap paritions... how can i tell which one is in use?
+2010-11-11T08:10:00.000Z	Scunizi	acalbaza	do a sudo fdisk -l to see all your partitions and how they are allocated.. then do a cat /etc/fstab and compare the two.. the one that is active is the one listed in fstab
+2010-11-11T08:12:00.000Z	acalbaza	Scunizi	got it.. thanks
+2010-11-11T08:12:00.000Z	Scunizi	acalbaza	np ;)

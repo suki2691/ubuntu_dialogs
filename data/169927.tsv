@@ -1,0 +1,4 @@
+2008-03-11T08:17:00.000Z	subsume		how can I totally remove LTSP?
+2008-03-11T08:17:00.000Z	subsume		apt-get remove still keeps /etc/ltsp/
+2008-03-11T08:17:00.000Z	macogw	subsume	remove doesnt delete config. you need purge
+2008-03-11T08:18:00.000Z	macogw	subsume	either "sudo apt-get remove --purge <package>" or "sudo aptitude purge <package>"

@@ -1,0 +1,4 @@
+2010-08-18T12:57:00.000Z	jimlovell777		I'm trying to convert VOB files from a Sony camcorder to avi, mpg, mp4 (I don't care which) so I can import the files into a video editor. What would be a good set of params for FFMPEG to not loos video quality or audio sync? I can't seem to use mp3 audio, read a little about it but I don't know what to do since the mediabuntu repo is throwing 404s for everything...
+2010-08-18T12:58:00.000Z	Gnea	jimlovell777	avidemux can do that, forget about ffmpeg
+2010-08-18T12:59:00.000Z	jimlovell777	Gnea	Ok I'll give it a shot
+2010-08-18T12:59:00.000Z	Gnea	jimlovell777	just treat the VOB file as an MPEG

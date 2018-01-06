@@ -1,0 +1,4 @@
+2012-05-28T20:06:00.000Z	Dj_FlyBy[ms]		any suggestions as to why I keep being told "no media found' when trying to read from floppy disks? I've tried 6 different ones now. NOTE: all 6 of these read fine under windows and Gentoo
+2012-05-28T20:08:00.000Z	Sidewinder	Dj_FlyBy[ms]	Try this: sudo udisks --mount /dev/fd0
+2012-05-28T20:09:00.000Z	Dj_FlyBy[ms]	Sidewinder	I'll  try that now
+2012-05-28T20:10:00.000Z	Sidewinder	Dj_FlyBy[ms]	This link 'might' provide a more permanent fix: https://answers.launchpad.net/ubuntu/+source/util-linux/+question/126414

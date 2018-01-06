@@ -1,0 +1,4 @@
+2008-01-02T00:51:00.000Z	{Nathan}		On a FAT32 filesystem, I have a corrupted folder. It won't remove it because it's a 'read only fs'. How can I force removal?
+2008-01-02T00:53:00.000Z	Laney	{Nathan}	try running `sudo mount -o remount,rw /mount/point'
+2008-01-02T00:53:00.000Z	{Nathan}	Laney	I fixed it, didn't even think of doing an fsck.
+2008-01-02T00:53:00.000Z	Laney	{Nathan}	OK

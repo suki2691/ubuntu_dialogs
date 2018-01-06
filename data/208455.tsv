@@ -1,0 +1,4 @@
+2006-09-30T12:34:00.000Z	Answer		 I have a question about starting wpa_supplicant automatically on boot.  I followed the WPAHowto on the wiki and couldn't make it work.  I tried the wpa_supplicant man page example and it didn't work.  When I run wpa_supplicant manually it is fine, so I made a script /etc/init.d/wpa_launch.sh with the right command line options and linked it to /etc/rcS.d/S42wpa_launch.sh.  This seems to start the daemon fine in the background, 
+2006-09-30T12:35:00.000Z	Answer		how do I mute him?
+2006-09-30T12:35:00.000Z	tkup	Answer	your script will only launch in single user mode. if you want it to launch in runlevel 2 3 or 4 try rc{2,3,4}.d etc
+2006-09-30T12:54:00.000Z	Answer	tkup	I only run in single user mode.. I don't mind the other run levels.  I added my idea to the bottom of WPA Howto  https://help.ubuntu.com/community/WifiDocs/WPAHowTo   Post comments if you can.

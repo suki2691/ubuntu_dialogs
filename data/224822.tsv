@@ -1,0 +1,4 @@
+2005-08-09T16:04:00.000Z	puff		question:  on startup there's a very long pause (2-3 minutes) where it's trying to set up the network.  Any idea a) what might be causing it, b) where I'd look to diagnose it, c) how to fix it?
+2005-08-09T16:05:00.000Z	mknisely_	puff	 Have seen that when it is looking for DHCP on a network that doesn't have a DHCP server.  Make sure only NICs that will be connected are set to come up on boot.
+2005-08-09T16:05:00.000Z	puff		Similar question, on startup I noticed a (shorter) pause where it tried to query NTP, but couldn't get out on the network. Is there any way to get it to defer this at least until after startup is done?
+2005-08-09T16:06:00.000Z	puff	mknisely_	Hm, I have wired and wireless, depending on where I am where.

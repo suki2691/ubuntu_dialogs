@@ -1,0 +1,4 @@
+2008-10-02T09:34:00.000Z	ljsoftnet		how do i upgrade vlc 0.8.6 to 0.9.2?
+2008-10-02T09:35:00.000Z	usser	ljsoftnet	theres instructions on the web, in short add this to /etc/apt/sources.list "deb http://ppa.launchpad.net/c-korn/ubuntu hardy main"
+2008-10-02T09:35:00.000Z	usser	ljsoftnet	sudo apt-get update
+2008-10-02T09:35:00.000Z	usser	ljsoftnet	sudo apt-get remove --purge vlc, and sudo apt-get install vlc

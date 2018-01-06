@@ -1,0 +1,4 @@
+2011-04-12T19:44:00.000Z	drozdak		anyone can help me with this task: i want to delete all files that ends ".db" (some windows leftovers in various directiories) the "rm *.db" doesn't seem to do the trick, and i'm afraid of using "rm -I -r *.db" not really sure about results
+2011-04-12T19:45:00.000Z	mbeierl	drozdak	find . -name '*.db' -exec rm -v {} \;
+2011-04-12T19:46:00.000Z	drozdak	Pici	mbeierl thanks will find out in a minute if it works
+2011-04-12T19:46:00.000Z	mbeierl	drozdak	or what pici said... sorry slow on the paste there :)

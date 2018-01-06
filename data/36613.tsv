@@ -1,0 +1,4 @@
+2010-04-02T17:54:00.000Z	Xbert		if an applcation is installed with synaptic, what will dependencies removed apt or aptitude?
+2010-04-02T17:56:00.000Z	Xbert		if an applcation is installed with synaptic, what will remove all the dependencies apt or aptitude?
+2010-04-02T17:56:00.000Z	Azelphur	Xbert	either, remove it then do sudo apt-get autoremove
+2010-04-02T17:56:00.000Z	Azelphur	Xbert	autoremove will remove any (unused) dependencies (Note that other programs may require the same dependencies, those won't be uninstalled)

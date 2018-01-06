@@ -1,0 +1,4 @@
+2008-09-15T23:55:00.000Z	H0T_R0D		question? how do figure out what device is connected to /dev/ttyUSB0?
+2008-09-15T23:55:00.000Z	maszlo	H0T_R0D	try lsusb
+2008-09-15T23:56:00.000Z	maszlo	H0T_R0D	you should get some messages in dmesg
+2008-09-15T23:57:00.000Z	maszlo	H0T_R0D	if you unplug it and and plug it in again.. then run dmesg  you should see it at the end

@@ -1,0 +1,4 @@
+2006-08-25T15:03:00.000Z	npodges		after some time, my wireless fails and doesnt start again until i reboot. card is broadcom 4311; dmesg | tail is here: http://paste.ubuntu-nl.org/21670
+2006-08-25T15:04:00.000Z	lordhelmet	npodges	rmmod the drivers and modprobe them again; try that...you may have to look in /etc/modprobe.d/ for specific options past
+2006-08-25T15:05:00.000Z	npodges	lordhelmet	what does boot with irqpoll mean?
+2006-08-25T15:06:00.000Z	lordhelmet	npodges	not sure exactly

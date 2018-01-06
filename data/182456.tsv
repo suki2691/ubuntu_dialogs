@@ -1,0 +1,4 @@
+2008-01-20T17:54:00.000Z	coolbhavi		game pausing randomly during gameplay in gutsy
+2008-01-20T17:54:00.000Z	coolbhavi		Please help
+2008-01-20T17:55:00.000Z	stefg	coolbhavi	check if it still happens if you boot with 'nohz=off' as bott parameter
+2008-01-20T18:02:00.000Z	stefg	coolbhavi	catch grub by pressing 'esc' at the preboot stage and edit the kernel line with 'e' just write 'nohz=off' at the end. this disables the new tickless feature, so you can test if that is the cause of your trouble

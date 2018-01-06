@@ -1,0 +1,4 @@
+2008-03-18T02:21:00.000Z	arcticpenguin380		is there a way to see how many sub-directorys are in a directory?
+2008-03-18T02:23:00.000Z	arcticpenguin380		do i replace the . with the directory?
+2008-03-18T02:24:00.000Z	Tramp	arcticpenguin380	yes (or cd there).
+2008-03-18T02:22:00.000Z	Tramp	arcticpenguin380	 find . -type d | wc -l

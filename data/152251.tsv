@@ -1,0 +1,4 @@
+2007-04-01T08:33:00.000Z	joebob777as7		my x session just crashed and I was in an open konsole running a command that is still running is there a way i can get it back?
+2007-04-01T08:33:00.000Z	joebob777as7		i'm back in my x session but i can't figure out how to see my konsole session
+2007-04-01T08:33:00.000Z	xtknight	joebob777as7	you probably can't restore what you had been running.  but run 'sudo /etc/init.d/?dm start' to get kdm back?
+2007-04-01T08:34:00.000Z	xtknight	joebob777as7	konsole session would be gone if X crashed

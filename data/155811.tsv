@@ -1,0 +1,4 @@
+2006-12-04T14:02:00.000Z	Corbeaux	adamdunn	Are there any RAID partitions on the HDD?
+2006-12-04T14:07:00.000Z	adamdunn	Corbeaux	do you think it could be partitions that aren't mounted? Did the discrepancy equal a partition that wasn't mounted on the raid5?
+2006-12-04T14:09:00.000Z	Corbeaux	adamdunn	I don't remember specifics but I remember one being 2x the size of the other and yes it was an unmounted ~10GB partition
+2006-12-04T14:40:00.000Z	adamdunn	Corbeaux	thanks for your help. Did some digging in code. As it turns out, Free = free blocks available to superuser, while Available = free blocks available to non-superuser

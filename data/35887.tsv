@@ -1,0 +1,4 @@
+2010-11-04T16:50:00.000Z	sveinse		Hello. How can I make all applications in gnome use the same DPI. That is, in Appearence->Fonts I've set 96 DPI, while Xorg report 120 DPI. The 96 DPI works fine for gnome apps, but others like emacs, displays too large fonts.
+2010-11-04T16:51:00.000Z	sveinse		The strange thing is that the font selection dialog in emacs shows the fonts at correct size, but when the font is actually used it will be larger
+2010-11-04T16:53:00.000Z	Ichat	sveinse	 did you also look in your xorg.conf   settings
+2010-11-04T16:54:00.000Z	sveinse	Ichat	Yes. Nothing. It sais "DPI set to (120,120); computed from "UseEdidDpi" X config"

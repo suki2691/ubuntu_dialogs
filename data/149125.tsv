@@ -1,0 +1,4 @@
+2008-09-22T03:13:00.000Z	jatt		!rename
+2008-09-22T03:14:00.000Z	jatt		does rename work recursively?
+2008-09-22T03:14:00.000Z	unop	jatt	depends on which version of rename you are using
+2008-09-22T03:15:00.000Z	unop	jatt	but you can always do something with find like this.  find /dir -exec rename 'expr' {} \;

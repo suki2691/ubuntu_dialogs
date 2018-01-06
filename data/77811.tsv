@@ -1,0 +1,4 @@
+2008-11-03T22:43:00.000Z	jamieyg3		hey, i'm trying to do this "useradd bob" but it says "useradd: unable to lock password file" what am I doing wrong?
+2008-11-03T22:43:00.000Z	unop	jamieyg3	use sudo
+2008-11-03T22:44:00.000Z	jamieyg3	unop	that seemed to work thanks, but why?
+2008-11-03T22:45:00.000Z	unop	jamieyg3	because you as a user don't have write access over /etc/passwd - only root has - running a command under sudo makes the command run as root effectively.

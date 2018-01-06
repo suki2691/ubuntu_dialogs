@@ -1,0 +1,4 @@
+2008-04-16T02:47:00.000Z	Xristofer		I have downloaded and burned the newest ubuntu iso for desktops/amd.  I have an amd turion 64 X2 with 1gb ram.  When booting with the live cd, it loads after choosing to start Ubuntu and everything goes blank.  Anyone know what my problem may be?
+2008-04-16T02:47:00.000Z	CorbinFox	Xristofer	on a laptop?
+2008-04-16T02:48:00.000Z	CorbinFox	Xristofer	either way, try this boot command.  "noapic nolapic" and if that doesn't work properly (it disabled USB from working properly for mine) try "noapic noirqdebug"
+2008-04-16T02:48:00.000Z	CorbinFox	Xristofer	before you start up the CD press F6 and it gives you extra boot options

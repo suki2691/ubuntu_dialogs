@@ -1,0 +1,4 @@
+2007-12-25T12:51:00.000Z	tigran	orbisvicis	I've given a file read and write permission and I just gave the backup file for it the same, but when editing the file it still says "Could not create a backup file"
+2007-12-25T12:54:00.000Z	orbisvicis	tigran	free space perhaps? is it somewhere in ~/ or elsewhere?
+2007-12-25T13:06:00.000Z	tigran	orbisvicis	I got it already, just going to have the app ran in a bash script, write new config a temp loaction, have bash ask for the password and do its thing, and then delete the temp file. That'll work
+2007-12-25T13:19:00.000Z	tigran	orbisvicis	Works :-D

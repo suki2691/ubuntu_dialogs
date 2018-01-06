@@ -1,0 +1,4 @@
+2007-04-07T12:38:00.000Z	etalli		Just to state outright, I am using Kubuntu feisty (the guys at #kubuntu directed me to you). i need to change the resolution to 1280x800 but it is not in the list under the monitor section even though it is in my monitor section of xorg.conf, can anyone help?  I have done 'sudo dpkg-reconfigure xserver-xorg' more than once, tried to find a modeline to add, and now I am stuck
+2007-04-07T12:39:00.000Z	max_	etalli	: add it to your monitor section in xorg.conf (dont forget to back-up first!)
+2007-04-07T12:40:00.000Z	etalli	max_	no offence, but maybe you should finish reading my first comment.
+2007-04-07T12:40:00.000Z	etalli	max_	and I quote "...event though it is in the monitor section of xorg.conf..."

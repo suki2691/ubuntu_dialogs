@@ -1,0 +1,4 @@
+2008-01-07T19:29:00.000Z	pkundu_		hi, how do i upgrade my pidgin to 2.3.1 in ubuntu 7.10
+2008-01-07T19:29:00.000Z	pkundu_		apt-get is not showing it
+2008-01-07T19:30:00.000Z	Jack_Sparrow	pkundu_	I got the source from pidgin site and was able to get all dependencies using synaptic and did not need to change repos
+2008-01-07T19:34:00.000Z	Jack_Sparrow	pkundu_	Get the source from pidgin, it wont be in the repos... most of the time you can install most build dependencies through e.g.   sudo apt-get build-dep pidgin 2.3.1

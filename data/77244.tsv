@@ -1,0 +1,4 @@
+2008-11-14T00:59:00.000Z	NicEXE		I added some lines to my sources.list file and then I tried to apt-get update but this error message comes "E: Could not open lock file /var/lib/apt/lists/lock - open (13 Permission denied) E: Unable to lock the list directory" What should I do?
+2008-11-14T00:59:00.000Z	GaMbi_DK	NicEXE	sudo
+2008-11-14T01:00:00.000Z	NicEXE	joaopinto	I still get the same error
+2008-11-14T01:02:00.000Z	GaMbi_DK	NicEXE	do "sudo" in front of "apt-get update"

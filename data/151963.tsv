@@ -1,0 +1,4 @@
+2007-01-02T16:11:00.000Z	gordon		Hi everybody, new user here.  How do I mount windows partition?
+2007-01-02T16:11:00.000Z	gordon		I RTFM and it said; Open System->Administration->Disks, but "Disks" isnt there :( (6.10)
+2007-01-02T16:12:00.000Z	IntuitiveNipple	gordon	something like mkdir /media/windows    then    mount /dev/hda1 /media/windows
+2007-01-02T16:13:00.000Z	IntuitiveNipple	gordon	yes... that's the manual way. Depending on circumstances you might to do "sudo su" first

@@ -1,0 +1,4 @@
+2008-04-14T01:57:00.000Z	pcglue		I have a 400GB HD that's failing.  I want to copy the contents over to a 500GB HD so it's a duplicate.  Can I use dd even though the sizes are not the same?
+2008-04-14T01:58:00.000Z	stefg	pcglue	yes, if you don't mind wasting the surplus space. you'll have an exact copy of the filesystem (as opposed to partition)
+2008-04-14T02:00:00.000Z	pcglue	stefg	 if I don't want to waste the space, will cp (making sure all permissions stay the same) work?
+2008-04-14T02:03:00.000Z	pcglue	stefg	Jack_Sparrow, thanks

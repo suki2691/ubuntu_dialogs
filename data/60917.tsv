@@ -1,0 +1,4 @@
+2011-03-15T04:04:00.000Z	needlez		the script is ran with user permissions, so can I make it so that everyone can read but only root can write ?? or is that just not possible??
+2011-03-15T04:05:00.000Z	shcherbak	needlez	first: sudo chown root fileName
+2011-03-15T04:06:00.000Z	shcherbak	needlez	third: man chown && man chmod
+2011-03-15T04:09:00.000Z	shcherbak	needlez	via crontab, use @boot for root crontab (this you modify via sudo)

@@ -1,0 +1,4 @@
+2011-09-10T15:56:00.000Z	Shogoot		So i get this This driver is activated but not currently in use.... (using the aditional driver program in ubuntu) Ive tried what is sugested on google, but im not getting anyway. You people got experience in this error and how to solve it?
+2011-09-10T15:57:00.000Z	dr_willis	Shogoot	 ive seen where that error message is displayed.. but the driver IS in use.  what chipset are you using?
+2011-09-10T16:02:00.000Z	dr_willis	Shogoot	 run the nvidia-settings tool - see if IT says the drivers are being used.
+2011-09-10T16:04:00.000Z	dr_willis	Shogoot	 run the nvidia-settings tool and have it save the xorg.conf then restrt the X server perhaps?  thats about all ihave to do with my nvidia systems

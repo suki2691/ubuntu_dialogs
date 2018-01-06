@@ -1,0 +1,4 @@
+2011-06-01T17:32:00.000Z	blargg		I've manually setup the MBR of a HDD at /dev/sda and I want Linux to create the appropriate /dev/sda1 /dev/sda2 etc. devices without rebooting. How do I do this?
+2011-06-01T17:34:00.000Z	hungryhubby	blargg	sda1,sda2 etc are partitions
+2011-06-01T17:34:00.000Z	hungryhubby		equivalent of ur windows c ,d, e etc drives
+2011-06-01T17:34:00.000Z	blargg	hungryhubby	when I booted, /dev/sda had just zeroes in the MBR, thus there is only a /dev/sda device, no sda1 etc. devices. I want to use gparted on this drive, but it complains of lack of sda1 etc.

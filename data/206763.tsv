@@ -1,0 +1,4 @@
+2007-03-14T14:19:00.000Z	AlessandroD		I can't connect to a Windows computer over an Ethernet cable. I think the problem has to do with IPv6; the network is IPv4
+2007-03-14T14:20:00.000Z	sethk	AlessandroD	unlikely, if the network doesn't respond to ipv6 it will just revert to ipv4
+2007-03-14T14:24:00.000Z	sethk	AlessandroD	as long as ifconfig shows the ipv4 address, I wouldn't worry about what network manager shows
+2007-03-14T14:25:00.000Z	sethk	AlessandroD	that's pretty odd.  Use ifconfig to set an IPv4 address

@@ -1,0 +1,4 @@
+2009-10-21T09:40:00.000Z	b14ck		I need help getting my internal drive working :( I have my drive as /dev/sdb. I did: sudo mkfs.ext3 /dev/sdb then I added the following line to /etc/fstab: UUID=a0468ee7-dad6-4332-a777-61f9a04070f3       /monster        ext3    defaults 0 2. then i did sudo mount -a. but i get errors. what am i doing wrong?
+2009-10-21T09:42:00.000Z	Billiard	b14ck	what errors do you get?
+2009-10-21T09:42:00.000Z	b14ck	Billiard	http://pastie.org/663047
+2009-10-21T09:43:00.000Z	Billiard	b14ck	mkfs.ext3 should be called on sdb1 not sdb

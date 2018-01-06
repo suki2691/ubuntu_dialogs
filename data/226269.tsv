@@ -1,0 +1,4 @@
+2012-09-13T22:55:00.000Z	Muelli	murlidhar	you can use aptitude to select your version with a curses GUI. Or you do it manually with "apt-get install package=version" where version is one of the available versions listed in apt-cache policy $package
+2012-09-13T22:55:00.000Z	murlidhar	dubaco	where ?
+2012-09-13T22:55:00.000Z	murlidhar		ah ok.
+2012-09-13T22:56:00.000Z	Muelli	murlidhar	another option is apt-get install -t $release package where $release is your desired series.

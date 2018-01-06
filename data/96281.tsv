@@ -1,0 +1,4 @@
+2010-07-27T00:30:00.000Z	nacitar		On ubuntu lucid x64, I can't seem to get the repository to provide me with 32-bit static libs for libXdamage and libXfixes, it only provides 64-bit libs... is there some way of fixing this?
+2010-07-27T00:32:00.000Z	BluesKaj	nacitar	you're running a 64 bit OS hence apt has liste 64 bit sources as default, and you're implying the 64 bit libs on't work
+2010-07-27T00:34:00.000Z	nacitar	BluesKaj	yes, but i can still g++ -m32
+2010-07-27T00:37:00.000Z	BluesKaj	nacitar	ZykoticK9 's suggestion should help you , http://www.omgubuntu.co.uk/2009/09/install-air-ubuntu-linux-64.html

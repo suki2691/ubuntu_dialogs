@@ -1,0 +1,4 @@
+2009-08-30T19:30:00.000Z	kevdog	Aegil	-- I think you need to specify the output file in an option like -o <outfile>
+2009-08-30T19:33:00.000Z	Aegil	kevdog	erUSUL I was wanting it to append to a file, the -O works, but overwrites. looking through the man I cant find a command that appends
+2009-08-30T19:34:00.000Z	kevdog	Aegil	Are you getting a wget that is getting interrupted?  Do you just need to use the -c flag for continue?
+2009-08-30T19:41:00.000Z	Aegil	kevdog	no wasnt getting disconnected. I just needed it to append to a file, so that when I log onto a server, it would pull a file and add a load of alias settings to a file to save me typing out commands loads all the time. Thanks for trying to help though :)

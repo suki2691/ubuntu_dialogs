@@ -1,0 +1,4 @@
+2006-07-25T16:31:00.000Z	ic56	abhinay	most likely you changed an important config file, like ~/.gnomerc so that it now causes you to exit as the first action taken upon login.  Try logging in from the consle to investigate. (alt-shift-F1 to get to the 1st console.  the GUI is on F7)
+2006-10-03T15:31:00.000Z	ic56	abhinay	I think the design of the PC disk partitioning doesn't allow you to remove intermediate extended (= numbered higher than 4) partitions
+2006-10-03T15:32:00.000Z	ic56	abhinay	because to reach each extended partition, you must read the boot block of the previous extended partition.
+2006-10-03T15:33:00.000Z	ic56	abhinay	it should be possible to delete intermediate partitions by copying the boot block of the subsequent partition but perhaps gparted isn't yet capable of that.

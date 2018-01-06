@@ -1,0 +1,4 @@
+2010-10-05T22:21:00.000Z	jofo		Hello. I need some help. When I use the command man, I get the error message “man: la liste du manpath est trop longue”. In English, that should be more or less “man: the manpath list is too long”. Does any one has an idea of where is the problem and how to solve it?
+2010-10-05T22:23:00.000Z	jcrawford	jofo	open a terminal and do echo $MANPATH
+2010-10-05T22:24:00.000Z	jofo	jcrawford	That command has no output.
+2010-10-05T22:25:00.000Z	jcrawford	jofo	scroll down to MANPATH:

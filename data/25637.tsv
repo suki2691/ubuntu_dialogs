@@ -1,0 +1,4 @@
+2010-12-16T00:25:00.000Z	horseatingweeds		This system has one IDE hard drive. But I'm looking under /dev and all I'm finding are things pointing to sda sda1 sda2 and so on. Why is that?
+2010-12-16T00:25:00.000Z	Pici	horseatingweeds	sda is your first harddrive, sda2 is the second partition on your first drive.
+2010-12-16T00:26:00.000Z	horseatingweeds	Pici	So why are they called sda instead of hda?
+2010-12-16T00:27:00.000Z	Pici	horseatingweeds	There was a kernel change a few releases ago that changed that.  I don't have a link handy though.

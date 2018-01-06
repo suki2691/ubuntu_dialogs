@@ -1,0 +1,4 @@
+2009-10-10T01:31:00.000Z	Eloff		Hi all, I need to run /etc/init.d/postgresql-8.3 start, as user postgres, at system startup. How should I do that?
+2009-10-10T01:33:00.000Z	trism	Eloff	if you got to System/Administration/Services you can enable or disable postgresql at startup
+2009-10-10T01:33:00.000Z	Eloff	trism	a gui way to do that, this I have to see, brb
+2009-10-10T01:39:00.000Z	Eloff	trism	durt: figures: there's a reason postgres is unchecked, maybe it's not being started as user postgres, because it did not start up. Is there a log I can check for an error message?

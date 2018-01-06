@@ -1,0 +1,4 @@
+2006-01-02T12:13:00.000Z	psusi		umm... you don't want a umask of 1000.... try 777
+2006-01-02T12:13:00.000Z	Steil	psusi	why 777? it's not the file permissions, it's the owner
+2006-01-02T12:14:00.000Z	psusi	Steil	you're thinking uid=1000
+2006-01-02T12:14:00.000Z	psusi	Steil	but you wrote umask ;)

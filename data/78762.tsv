@@ -1,0 +1,4 @@
+2009-02-26T22:43:00.000Z	zimbres		I installed pgplot5 via apt-get but I am not able to find the libraries in /usr/local/lib where should them have been placed?
+2009-02-26T22:43:00.000Z	lstarnes	zimbres	try /usr/lib.  /usr/local/lib is used for libraries which aren't managed byt he package manager
+2009-02-26T22:44:00.000Z	zimbres	lstarnes	so where can I find them?
+2009-02-27T00:25:00.000Z	lstarnes	zimbres	on gnu-based systems such as most linux distributions, the version of make installed is gnu make.  on bsd variants, gmake is gnu make and make is bsd make

@@ -1,0 +1,4 @@
+2008-10-08T16:12:00.000Z	Jack[-_-]asS		hello i got ubuntu 7.10 installed on my comp but i also got xp with it...how can i remove ubuntu 7.10 complete without harming xp
+2008-10-08T16:12:00.000Z	Jack[-_-]asS		??
+2008-10-08T16:13:00.000Z	dns53	Jack[-_-]asS	you need to remove the boot loader entry using the windows recovery console and then delete the partition
+2008-10-08T16:16:00.000Z	dns53	Jack[-_-]asS	i believe there is a recovery console option on the cd, and you run fixmbr to wipe the boot menu, after that you can remove any partitions linux related

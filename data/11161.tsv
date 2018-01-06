@@ -1,0 +1,4 @@
+2012-03-22T02:12:00.000Z	Fleep		Anyone know how to setup the options Apache starts up with on Ubuntu, equivalent of the -D directive when starting up the daemon? In other systems, there is an "APACHE_OPTS" environment variable that lets you define which options are passed to the startup script
+2012-03-22T02:13:00.000Z	ikonia	Fleep	look at the upstart script and it's config file
+2012-03-22T02:15:00.000Z	Fleep	ikonia	Thanks, found it. /etc/defaults/apache2
+2012-03-22T02:19:00.000Z	Fleep	ikonia	Nevermind, I was wrong. Still poking around.

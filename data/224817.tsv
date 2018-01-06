@@ -1,0 +1,4 @@
+2005-09-11T16:55:00.000Z	penticlex		Can any one help with an SSH problem and xserver? triing to start x from a remote location. its just not working w/ anything I try. I have ubuntu on my system and my server is redhat
+2005-09-11T16:56:00.000Z	penticlex		I am SSHing from ubuntu to redhat
+2005-09-11T16:56:00.000Z	fluvvell	penticlex	use   ssh -X hostname.net
+2005-09-11T16:56:00.000Z	fluvvell	penticlex	its all about x forwarding...

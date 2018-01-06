@@ -1,0 +1,4 @@
+2009-12-30T03:03:00.000Z	jjgalvez		from a terminal how can I kill x? I just found out that alt-sysReq k will kill X, how can do that remotely say from ssh?
+2009-12-30T03:04:00.000Z	llutz	jjgalvez	sudo killall X
+2009-12-30T03:04:00.000Z	llutz	jjgalvez	sudo service gdm stop
+2009-12-30T03:04:00.000Z	jjgalvez	llutz	thanks

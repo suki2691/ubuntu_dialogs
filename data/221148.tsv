@@ -1,0 +1,4 @@
+2006-12-02T17:09:00.000Z	woro2006		hi, if my broadcast address is 192.168.1.255, and my router's broadcast address is 255.255.255.255. How can I change it to match my router's?
+2006-12-02T17:11:00.000Z	woro2006		it keeps on getting transmission errors if I set it to 192.168.1.255
+2006-12-02T17:11:00.000Z	BlueEagle	woro2006	You can (in theory) set it as 255.255.255.255, but you really, really don't want to do that.
+2006-12-02T17:12:00.000Z	BlueEagle	woro2006	Odds are that it probably wouldn't do what you intend it to do as your router will limit broadcasts to your subnet anyways.

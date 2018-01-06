@@ -1,0 +1,4 @@
+2008-12-24T20:53:00.000Z	marsje		Hi. If you want to install Ubuntu from the live cd on a Vista system, can the Ubuntu installer do the partitioning for you? Especially shrinking the existing Vista partition?
+2008-12-24T20:55:00.000Z	n8tuser	marsje	-> may i suggest when you boot in the livecd, do a two step process,  resize ntfs first, then reboot again to make sure vista is still okay, then next boot to livecd, you can install
+2008-12-24T20:56:00.000Z	marsje	n8tuser	so it's technically possible to have the installer shrink a partition?
+2008-12-24T20:56:00.000Z	n8tuser	marsje	-> it is not the installer, you have to run gparted first to resize it, and then reboot again..just to be safe

@@ -1,0 +1,4 @@
+2012-05-22T11:46:00.000Z	kane77		hi, I have large list of files, how do I get total of space taken?
+2012-05-22T11:47:00.000Z	MasterOfDisaster	kane77	du -sh <list>
+2012-05-22T11:47:00.000Z	kane77	MasterOfDisaster	the list is too long for that (~22000 files)
+2012-05-22T11:48:00.000Z	MasterOfDisaster	kane77	have a look at xargs, you can sum it up yourself

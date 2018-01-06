@@ -1,0 +1,4 @@
+2012-08-07T19:01:00.000Z	marlym		how do i install another language?
+2012-08-07T19:03:00.000Z	marlym		monkeydust: is there any package only for one language
+2012-08-07T19:04:00.000Z	theadmin	marlym	sudo apt-get install language-pack-de-lc (where "de" is your desktop environment ("kde" or "gnome". If none of those, just omit it), and "lc" is your language code.) So, the Russian pack for KDE is language-pack-kde-ru
+2012-08-07T19:05:00.000Z	theadmin	marlym	For, say, XFCE it'd be simply language-pack-ru

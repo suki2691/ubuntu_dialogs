@@ -1,0 +1,4 @@
+2009-05-18T17:43:00.000Z	bcpeters		I'm attempting to run wmii in Ubuntu on a dual monitor setup without Xinerama and I need one instance of wmii to open on each display, but I don't see an xinitrc or an xsession file I should editting to let GDM or the system know what to do when I log in, does anyone know what file i'm looking for and where it resides?
+2009-05-18T17:44:00.000Z	Dr_Willis	bcpeters	 xinitrc --> /etc/X11/xinitrc
+2009-05-18T17:45:00.000Z	bcpeters	Dr_Willis	i was confused about Ubuntu's /etc/X11/xinitrc , as all is listed there is gnome-session . /etc/X11/Xsession
+2009-05-18T17:49:00.000Z	Dr_Willis	bcpeters	 gdm get the session listinsg from various .desktop files. not from xinitrc

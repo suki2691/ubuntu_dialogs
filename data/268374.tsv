@@ -1,0 +1,4 @@
+2011-08-04T08:23:00.000Z	Liquid24		Hello, I kind of screwed up somehow attempting to setup a static ip on my kubuntu 11.04 server pc, i was reading this guide here, http://www.kubuntuguide.info/index.php/Maverick#Set_a_static_IP_address and when i did apt-get remove networking-manager i rebooted and went back online and inside my interfaces file i didnt even have "iface inet eth0 dhcp" in the file, so i proceeded to add in a
+2011-08-04T08:23:00.000Z	Liquid24		eth0 for my static, my router and other pc's on the network can see the box and vice versa, but the kubuntu box cant see on the outside network no inet access.
+2011-08-04T08:24:00.000Z	justdave	Liquid24	you're probably missing a default route
+2011-08-04T08:24:00.000Z	justdave	Liquid24	do you have a gateway set?

@@ -1,0 +1,4 @@
+2011-12-19T03:24:00.000Z	Ashfame		I just setup a dual boot system (Win 7, Ubuntu 11.10) but the grub points to the recovery partition instead. Should I just edit the grub.cfg for that?
+2011-12-19T03:25:00.000Z	CarlFK	Ashfame	start with  /etc/default/grub
+2011-12-19T03:25:00.000Z	CarlFK	Ashfame	I am not sure what you should edit, but /boot/foo  isn't it
+2011-12-19T03:25:00.000Z	Ashfame	CarlFK	thanks for the pointer

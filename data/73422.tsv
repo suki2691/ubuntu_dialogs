@@ -1,0 +1,4 @@
+2009-02-02T01:18:00.000Z	Antioch		Hi, I'm trying to install Ubuntu onto a system with Windows and make it dual-boot but I am having problems. I installed Ubuntu to a seperate HD and installed grub to a boot partition I created (/dev/sda3). I then used dd to copy the first 512 bytes of sda3's bootsector (I think?) to a bin file, and used that bin file to create a boot option in Window's boot loader. It worked, however after I selected 'linux' to boot, the screen showed 
+2009-02-02T01:18:00.000Z	Antioch		Thanks!
+2009-02-02T01:19:00.000Z	exodus_ms	Antioch	maybe this will help --> http://paste.ubuntu.com/112565/
+2009-02-02T01:20:00.000Z	Antioch	exodus_ms	no, grub is installed fine thats not the problem

@@ -1,0 +1,4 @@
+2010-09-10T21:16:00.000Z	Pici	brett\	Do you get an error or anything when you do that?
+2010-09-10T21:16:00.000Z	brett\	Pici	brett@yow-bciphery-lx1:/$ sudo rm -rf /homes
+2010-09-10T21:16:00.000Z	brett\		rm: cannot remove directory `/homes': Device or resource busy
+2010-09-10T21:17:00.000Z	brett\	Pici	brett@yow-bciphery-lx1:/$ fuser /homes -v

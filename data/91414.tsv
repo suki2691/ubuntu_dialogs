@@ -1,0 +1,4 @@
+2008-07-10T05:07:00.000Z	IdentifyTarget		how do I change my grub wait time?
+2008-07-10T05:07:00.000Z	tj83	IdentifyTarget	 edit /etc/boot/grub/menu.lst
+2008-07-10T05:11:00.000Z	tj83	IdentifyTarget	 sudo gedit boot/grub/menu.lst  sorry and change " timeout  10"
+2008-07-10T05:13:00.000Z	tj83	IdentifyTarget	 gksudo gedit boot/grub/menu.lst  sorry and change " timeout  10"

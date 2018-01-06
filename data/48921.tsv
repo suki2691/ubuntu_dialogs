@@ -1,0 +1,4 @@
+2009-09-09T05:29:00.000Z	themoebius		hey I'm trying to bring a computer running ubuntu 7.10 up to date. When I try to update the repos it's saying they don't exist anymore. what's the easiest way to get this thing current? Do I need to reformat?
+2009-09-09T05:30:00.000Z	TheLetterM	themoebius	do apt-get dist-upgrade
+2009-09-09T05:31:00.000Z	TheLetterM		but as matrixblue says, you should back up your home dir first
+2009-09-09T05:32:00.000Z	themoebius	TheLetterM	apt-get dist-upgrade just tried to get the one package it knows is out of date - I don't think it knows to get the updated repos

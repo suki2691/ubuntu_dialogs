@@ -1,0 +1,4 @@
+2005-11-18T07:07:00.000Z	C_J_Pro		In which directory are mysql databases stored on ubuntu?
+2005-11-18T07:07:00.000Z	bob2	C_J_Pro	/var/lib/mysql, I'd assume
+2005-11-18T07:07:00.000Z	bob2	C_J_Pro	dpkg -L mysql-server | grep var
+2005-11-18T07:07:00.000Z	bob2	C_J_Pro	you're probably screwed then

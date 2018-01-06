@@ -1,0 +1,4 @@
+2007-08-13T10:07:00.000Z	Usrl	Flannel	care to give step-by-step instructions for that? I could use that, actually
+2007-08-13T10:08:00.000Z	Flannel	Usrl	Uh you can temporarily add the ask thing by doing edits at the grub menu, except you'll probably have to do ita few times to get a good resolution.  So, for both steps (ask and the eventual real resoltuion), edit /boot/grub/menu.lst, and on the kopt= line (yes, it's commented out, no you don't uncomment it) add vga=ask to the end.  And then save, and then sudo update-grub to regen sources.list
+2007-08-13T10:09:00.000Z	Usrl	Flannel	<3
+2007-08-13T10:11:00.000Z	Usrl	Flannel	thanks, I can't wait to try it. I wish I could finish this process or something so I could try it already D:

@@ -1,0 +1,4 @@
+2007-05-24T06:52:00.000Z	j1tters		ok quick question. can someoine tell me how to mount a partition. its my usb drive. its at /dev/sda but its not showing up as mounted. how?
+2007-05-24T06:52:00.000Z	j1tters		please
+2007-05-24T06:54:00.000Z	j1tters		ahh create folder first. thanks
+2007-05-24T06:54:00.000Z	Jordan_U	j1tters	sudo mkdir /media/sda && sudo mount /dev/sda /media/sda

@@ -1,0 +1,4 @@
+2007-01-11T08:42:00.000Z	droogie		Hello, I'm trying to install Ubuntu 6.10 on an Fujitsu-Siemens RX100S3 server. The server have an onboard 'LSI Logic Embedded SATA Raid Controller'. I've configured the raid on hardware level, but under the install it's still to seperate sata disks. Do I have to use software raid, or is it possible to use the hardware solution?
+2007-01-11T08:43:00.000Z	Ribs	droogie	my understanding of hardware raids is that they make it transparant to the end operating system... so the os only sees one drive, regardless of the OS and it's drivers...
+2007-01-11T08:44:00.000Z	droogie	Ribs	thats my understanding to, but it doesnt seem like linux accept it like that :/
+2007-01-11T08:45:00.000Z	Ribs	droogie	then your raid isn't set up correctly... it's not linux at fault... *any* os should just see it as one drive.

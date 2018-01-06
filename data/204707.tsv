@@ -1,0 +1,4 @@
+2005-12-24T13:14:00.000Z	joedj		does ubuntu have an /etc/rc.boot/ equivalent?
+2005-12-24T13:14:00.000Z	HappyFool	joedj	/etc/init.d/boostmisc.sh maybe ?
+2005-12-24T13:14:00.000Z	joedj	HappyFool	i want an appropriate place to put startup ipchains scripts
+2005-12-24T13:15:00.000Z	HappyFool	joedj	hmm. i'm not sure -- maybe in a ifup script in /etc/network ? check 'man interfaces' for more

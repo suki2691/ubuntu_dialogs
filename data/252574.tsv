@@ -1,0 +1,4 @@
+2005-10-12T14:01:00.000Z	HappyFool	tklich	how's this?  if (echo abc|grep -q '^[0-9] *$'); then echo number; else echo not number; fi
+2005-10-12T14:01:00.000Z	HappyFool	tklich	try 123 in place of abc
+2005-10-12T14:02:00.000Z	HappyFool	tklich	i tried [0-9] + as well, but that doesn't work; not sure why
+2005-10-12T14:04:00.000Z	HappyFool	tklich	hrm, that also matches the empty string

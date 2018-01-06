@@ -1,0 +1,4 @@
+2011-01-19T20:16:00.000Z	skepster		Hi, I have 2 lucid lynx boxes that seem to hang at fsck during startup - is there any way I can disable it/ find out what is wrong with it?
+2011-01-19T20:18:00.000Z	mbeierl	skepster	do you edit the grub boot command and remove the "quiet" from it?  Or try booting in "single" (or recovery? can't remember what it's called)
+2011-01-19T20:19:00.000Z	skepster	mbeierl	ok, thanks!
+2011-01-19T20:20:00.000Z	mbeierl	skepster	best of luck!  it should show the text version of what's going on.  try the single/recovery one first

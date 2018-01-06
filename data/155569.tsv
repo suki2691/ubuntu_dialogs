@@ -1,0 +1,4 @@
+2008-12-08T14:21:00.000Z	Coolrazor		Ack, the two mysql dump commands I found aren't working because /var/lib is gone.  :(  i tried: "mysqldump" and "mysqlhotcopy"
+2008-12-08T14:22:00.000Z	arrenlex	Coolrazor	Your problem looks similar to what I went through a few weeks ago, but I missed your initial description of the problem. What did you run into?
+2008-12-08T14:23:00.000Z	Coolrazor	arrenlex	I deleted my /var/lib directory... not fun.  So, since I can't rebuild it, that I know of, I'm trying to backup mysql to do a restore of the server (test/non-production server)
+2008-12-08T14:24:00.000Z	arrenlex	Coolrazor	I believe /var/lib/mysql is where mysql stores its databases. If you deleted that I don't think you have much left to back up.

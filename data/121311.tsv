@@ -1,0 +1,4 @@
+2007-09-26T10:05:00.000Z	heguru	seamus7	you cannot delete it unfortunately using the gconf-editor
+2007-09-26T10:06:00.000Z	heguru	seamus7	do that from the command line:  gconftool-2 --recursive-unset /system/networking/wireless/networks/[ssid] 
+2007-09-26T10:06:00.000Z	seamus7	heguru	I was able to unset all the keys but the main entry in the tree menu remains
+2007-10-09T09:58:00.000Z	heguru	seamus7	do not upgrade to gutsy now, wait for the stable release

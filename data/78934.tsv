@@ -1,0 +1,4 @@
+2009-01-08T01:36:00.000Z	herpez		hi. i installed ubuntu 8.10 and i cant go to any website unless google-related websites. I can ping all sites but cant go them
+2009-01-08T01:37:00.000Z	caimlas	herpez	that's... odd.
+2009-01-08T01:37:00.000Z	caimlas	herpez	restart the network service. run from console: /etc/init.d/networking restart
+2009-01-08T01:37:00.000Z	caimlas	herpez	that should do the trick, and if not, well...

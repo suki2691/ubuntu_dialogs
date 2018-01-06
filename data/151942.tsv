@@ -1,0 +1,4 @@
+2008-09-21T20:07:00.000Z	tv7497		r i bought a new netgear wireless card for my wi-fi it works awesome with windows but not with ubuntu it isnt even detected any idea
+2008-09-21T20:09:00.000Z	tv7497		sir*
+2008-09-21T20:11:00.000Z	IntuitiveNipple	tv7497	Use Windows Device Manager to examine the properties of the device, and locate the Vendor and Product ID numbers, which will both be 4-digit hexadecimal
+2008-09-21T20:13:00.000Z	IntuitiveNipple	tv7497	Alternatively, navigate to \Windows\inf\  ,View details, sort by date and look for the most recent file with a name like oemXX.inf where XX is a number... Ideally you will find one with the date you installed the driver for that device. Open it in Notepad, and pastebin the contents as asked

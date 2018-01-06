@@ -1,0 +1,4 @@
+2011-09-14T07:04:00.000Z	amccloud		How can I debug an init.d script that is refusing to run at startup. I have 4 others i've done  and they work just fine. I can also manually do "sudo service myscript start" and everything works fine.
+2011-09-14T07:06:00.000Z	qin	amccloud	You could simply echo  line by line to see where it stops.
+2011-09-14T07:07:00.000Z	amccloud	qin	I don't think it's even running on startup.
+2011-09-14T07:10:00.000Z	qin	amccloud	Then dmesg and maybe syslog

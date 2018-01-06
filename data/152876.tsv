@@ -1,0 +1,4 @@
+2007-02-17T17:39:00.000Z	extern		how can I set the gamma in xorg.conf file? If I set it through system settings->monitor & display->gamma, then it ruins my xorg.conf file and next time I restart my computer, the monitor doesn't show anything. I've set "gamma 1.17" in the monitor section, but when the kde starts, the monitor still displays it incorrectly, while monitor & display settings show the gamma value as 1.17. If I move the slider back and forth, so it is still 1.17 and
+2007-02-17T17:39:00.000Z	extern		push apply, then everything is displayed properly
+2007-02-17T17:41:00.000Z	zoli2k	extern	http://xorg.freedesktop.org/archive/X11R6.8.0/doc/xorg.conf.5.html
+2007-02-17T17:41:00.000Z	zoli2k	extern	you can set this in the Monitor Section with the Gamma option.

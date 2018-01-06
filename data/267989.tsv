@@ -1,0 +1,4 @@
+2005-04-05T15:37:00.000Z	DJ_Mirage		how should I mount a fat drive in fstab ?
+2005-04-05T15:37:00.000Z	DJ_Mirage		I have /dev/hda1       /mnt/windows    vfat    rw,user,owner   0       0
+2005-04-05T15:37:00.000Z	DJ_Mirage		but that doesnt give me any permissions o-O
+2005-04-05T15:38:00.000Z	crimsun	DJ_Mirage	add umask=002 to your options

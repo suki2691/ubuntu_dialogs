@@ -1,0 +1,4 @@
+2009-01-30T13:28:00.000Z	quentusrex		How do I add a particular user or group the ability to read and write to a directory?
+2009-01-30T13:28:00.000Z	quentusrex		I'd like two groups to be able to read/write to a directory
+2009-01-30T13:29:00.000Z	ari_stress	quentusrex	use filesystem acl
+2009-01-30T13:29:00.000Z	ari_stress	quentusrex	sudo setfacl -m u:user1:rw /path/somedir

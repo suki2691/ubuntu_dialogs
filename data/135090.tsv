@@ -1,0 +1,4 @@
+2008-04-25T13:02:00.000Z	grimsqueaker13		can anyone help me with vncserver? i have sshed into the server and started vncserver -AlwaysShared then connected from the client PC but i get a broken x window with an X cursoe and nothing else.... anyhelp?
+2008-04-25T13:03:00.000Z	Maxdamantus	grimsqueaker13	you have nothing running on the VNC display.
+2008-04-25T13:04:00.000Z	Maxdamantus	grimsqueaker13	if you're using the common "vncserver", edit your ~/.vnc/xstartup script to start metacity, xterm, etc..
+2008-04-25T13:06:00.000Z	Maxdamantus	grimsqueaker13	just edit it, and add some programs to run when you start the VNC.

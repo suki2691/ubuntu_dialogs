@@ -1,0 +1,4 @@
+2012-04-29T22:48:00.000Z	DNA_		Hello, I am a Linux newbie.  I have set up Windows 7 and Ubuntu 12.04 dual boot system on my laptop. I use Truecrypt (v 7) encrypted partitions. These partitions are set as Favorites volumes. In Windows Treucrypt has option of auto mounting favorite volumes on logon. But I don't see such option in Ubuntu. I searched for a solution to auto mount Truecrypt favorite volumes in Ubuntu without success. Can anyone advice me on this?
+2012-04-29T22:49:00.000Z	DasEi	DNA_	yes, go to tc's homepage, there the needed commands are found to manually mount partitions > script them
+2012-04-29T22:51:00.000Z	DasEi	DNA_	so write a bashsript and have called by - for instance- rc.local
+2012-04-29T22:53:00.000Z	DNA_	DasEi	Thank you

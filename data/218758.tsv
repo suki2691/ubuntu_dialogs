@@ -1,0 +1,4 @@
+2007-06-11T10:59:00.000Z	tanaka		How do you remove the old kernel after apt-get dist-upgrade installs the new kernel?
+2007-06-11T10:59:00.000Z	sipior	tanaka	have you verified that the new kernel boots?
+2007-06-11T11:26:00.000Z	sipior	tanaka	you can search for installed kernel packages via synaptic or whatever, and just remove the old ones. careful, though, to make sure you're really removing the old kernel...
+2007-06-11T11:34:00.000Z	sipior	tanaka	packages that name kernels with version numbers different from the one you are running

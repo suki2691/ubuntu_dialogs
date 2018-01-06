@@ -1,0 +1,4 @@
+2006-05-17T14:46:00.000Z	the_mug		what is the command to uninstall an OLD kernel.. is here one that removes the Grub entries?
+2006-05-17T14:46:00.000Z	the_mug		I tried dpkg -r kernel-i386 and it didn't remove the grub entry
+2006-05-17T14:46:00.000Z	the_mug		doh!
+2006-05-17T14:47:00.000Z	tonyyarusso	the_mug	Maybe you need an update-grub afterwards if that doesn't do it, but with a-g remove I would think it would be fine.

@@ -1,0 +1,4 @@
+2012-09-20T22:34:00.000Z	codeMonkey		Hello all.  I am trying to complete a full, uncompressed backup of my / directory to an external hard disk (preserving permissions and ownership) in Ubuntu 12.04.  The hard disk is /dev/sdd with a single ext3 partition.  I have /dev/sdd1 mounted to /mnt/external.  The command that I am using to complete this is "tar cvf - * | ( cd /mnt/external; tar xfp -)
+2012-09-20T22:35:00.000Z	codeMonkey		The problem I am running into is that the tar command is also hitting /mnt which hits /mnt/external and loops the backup of itself.
+2012-09-20T22:35:00.000Z	codeMonkey		I have tried to use --exclude=/mnt with and without quotes and with and without wildcards and it never excludes properly
+2012-09-20T22:35:00.000Z	hashem	codeMonkey	just use dd

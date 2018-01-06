@@ -1,0 +1,4 @@
+2006-05-27T09:53:00.000Z	lastnode		how can i prevent ubuntu setting my clock from the time servers?
+2006-05-27T09:54:00.000Z	lastnode		Sri Lanka recently changed time zones and it's wrong in Ubuntu
+2006-05-27T09:56:00.000Z	lastnode		wierd
+2006-05-27T09:57:00.000Z	Ng	lastnode	you could try commenting out the server in /etc/default/ntpdate

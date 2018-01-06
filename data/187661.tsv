@@ -1,0 +1,4 @@
+2012-02-08T18:48:00.000Z	andrew123		How would I have ubuntu automatically mount a ssh folder on boot?
+2012-02-08T18:49:00.000Z	ikonia	andrew123	ssh is userspace, it's not something you'll do at a global "boot" level
+2012-02-08T18:56:00.000Z	ikonia	andrew123	depends on the error
+2012-02-08T18:56:00.000Z	ikonia	andrew123	eg: if it's on the / file system, the machine won't boot

@@ -1,0 +1,4 @@
+2008-12-27T04:14:00.000Z	akorpija		hey guys i want to upgrade my laptop's hard drive, so i'm wondering if anybody knows any programs that can copy both my NTFS and EXT3 and SWAP partitions to the new HD? i don't feel like redoing all my settings ....
+2008-12-27T04:14:00.000Z	IntuitiveNipple	akorpija	use dd for a byte-by-byte copy
+2008-12-27T04:15:00.000Z	akorpija	IntuitiveNipple	i was looking at that but it seems quite extensive and i think i'd have to re-size these partitions, and it keeps the same UUID's so then i'd have to change those later on manually
+2008-12-27T04:17:00.000Z	IntuitiveNipple	akorpija	When I copy from one drive to another, I boot the LiveCD and dd from source to destination, then extend/expand partitions on the destination, then remove the source drive, and boot from the new larger drive

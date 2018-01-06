@@ -1,0 +1,4 @@
+2011-06-02T15:28:00.000Z	squig		sorry sort of new to debian/ubuntu I want to backport the nvidia driver from 11.04 to 10.04 I was wondering how I use apt-get to download the source from a different version?
+2011-06-02T15:29:00.000Z	wols_	squig	put in a deb-src line for the old version and use apt-get source -t <old version> <package>
+2011-06-02T15:30:00.000Z	squig	wols_	im on 10.04 and im trying to get the files out of 11.04?
+2011-06-02T15:30:00.000Z	wols_	squig	as I told you

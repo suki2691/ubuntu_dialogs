@@ -1,0 +1,4 @@
+2011-02-15T15:11:00.000Z	ohzie		I'm having an issue with dhcp3-server where a client requests an ip address, that request is logged in syslog, dhcp3-server performs a "DHCPOFFER" to that machine, and the client just sits there. It seems to never recieve the offer. I'm not sure if this is a client issue or a server issue. Does anyone have any tips to get me started troubleshooting? The client can recieve an address via dhcp from other dhcp servers.
+2011-02-15T15:12:00.000Z	Raphi974	ohzie	if the server is a bit far from the client, maybe the offer is lost
+2011-02-15T15:12:00.000Z	ohzie	llutz_	windows client. :( I don't know how to tell.
+2011-02-15T15:12:00.000Z	Raphi974	ohzie	increase the wait time of the client

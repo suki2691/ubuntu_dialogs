@@ -1,0 +1,4 @@
+2009-07-08T09:38:00.000Z	losher	clusty	See if this helps: http://embraceubuntu.com/2005/11/04/enabling-cpu-frequency-scaling/
+2009-07-08T09:45:00.000Z	clusty	losher	does not help. the scaling works. its just a matter of setting the default mode to ondemand or conservative as oposed to maxperformance
+2009-07-08T09:49:00.000Z	losher	clusty	in the comments, it looks like if you have /usr/bin/cpufreq-selector you can execute it by hand, which implies you can arrange to have it run automatically, which sounds like it would solve your problem
+2009-07-08T09:54:00.000Z	clusty	losher	ok that might be one solution. I was hoping of another: at some point i found a "registry" :D setting for gnome, that prescribes the default cpufreq behaviour

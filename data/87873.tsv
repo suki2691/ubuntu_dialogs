@@ -1,0 +1,4 @@
+2009-03-22T17:18:00.000Z	ajenbo_		Help, i deleted my usb-rndis driver and cant figure out how to get it back, apt-get usb-rndis does nothing :(
+2009-03-22T17:19:00.000Z	ajenbo_		i'm on ubuntu 8.10
+2009-03-22T17:20:00.000Z	DIFH-iceroot	ajenbo_	how do you delete it?
+2009-03-22T17:23:00.000Z	DIFH-iceroot	ajenbo_	hm, maybe using a live cd with same kernel-version, copy the *.ko files to your system and load it again (modprobe)

@@ -1,0 +1,4 @@
+2010-10-11T21:44:00.000Z	robint91		I have a windows server 2003 acting as DNS + DHCP + AD. The domail in vtib0.local. I have added a record linuxsrv01(ubuntu server) to the dns. The problem is when I am on a ubuntu client. Which as an IP of the windows DHCP. I can't ping the server with ping linuxsrv01.vtib0.local . I CAN ping to the server with a windows client. NSLOOKUP linuxsrv01.vtib0.local gives on both linux and windows the correct IP. What is the problem?
+2010-10-11T21:45:00.000Z	ikonia	robint91	lookslike your linux client is not updating your AD
+2010-10-11T21:46:00.000Z	ikonia	robint91	yes as they won't update AD
+2010-10-11T21:46:00.000Z	robint91	ikonia	that isn't the problem. Also non AD windows clients can access the server

@@ -1,0 +1,4 @@
+2009-12-20T17:10:00.000Z	joris_		Hi  I am trying to copy a file from a remote computer wit rsync but it has a quotation mark in it and rsync sees this as a command instead of a file name. any way how  I can solve this?
+2009-12-20T17:11:00.000Z	Dr_Willis	joris_	 perhaps escape the whole filename with single quotes
+2009-12-20T17:12:00.000Z	Dr_Willis	joris_	 you could try to escape the quote also.
+2009-12-20T17:22:00.000Z	joris_	Dr_Willis	\ doesn't help

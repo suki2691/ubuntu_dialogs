@@ -1,0 +1,4 @@
+2009-05-07T21:24:00.000Z	jonj1		hi, I've just done the distribution upgrade to jaunty and X doesn't work now. can anyone set me in the right direction to fix it?
+2009-05-07T21:25:00.000Z	pepperjack	jonj1	if you cant get it to work pastebin your /var/log/Xorg.0.log and /etc/X11/xorg.conf file if you are using one
+2009-05-07T21:25:00.000Z	pepperjack	jonj1	might just sudo mv /etc/X11/xorg.conf /etc/X11/xorg.conf-bak as a test and restart if you are using a file. x defaults to autodetect now so..
+2009-05-07T21:29:00.000Z	jonj1	pepperjack	I moved xorg.conf and /etc/init.d/gdm restart

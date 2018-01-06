@@ -1,0 +1,4 @@
+2005-12-10T12:25:00.000Z	smo	osfameron	I tried that, but rename applies it to the directory name too, which breaks find (once "foo foo/match one" becomes "foo_foo/match_one", find's next match "foo foo/match two" doesn't exist anymore)
+2005-12-10T12:26:00.000Z	osfameron	smo	aha!  well, I did say "something like" :-)
+2005-12-10T12:26:00.000Z	osfameron		I have trouble getting find and xargs stuff to work properly myself...
+2005-12-10T12:27:00.000Z	osfameron	smo	tonyyarusso: how about: for file in `find | xargs`; do mv $file ${file// /_}; done

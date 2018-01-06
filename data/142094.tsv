@@ -1,0 +1,4 @@
+2009-04-25T12:42:00.000Z	ized		how can i bind in a seperate hdd as /home into a new jaunty-installation without deleting the files on it???
+2009-04-25T12:43:00.000Z	jube	ized	you need to set a mount point in fstab for the new /home
+2009-04-25T12:43:00.000Z	jube	ized	a quick google search found this article about doing it: http://ubuntu.wordpress.com/2006/01/29/move-home-to-its-own-partition/
+2009-04-25T12:44:00.000Z	jube	ized	might be a way to do it with a gui, but it's a little bit complicated and could prevent you from logging in if you do it wrong so best research it carefully first

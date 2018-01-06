@@ -1,0 +1,4 @@
+2006-08-11T10:39:00.000Z	neutrinomass	airwind	Is DMA enabled? ( sudo hdparm /dev/hda if you have an IDE hard disk )
+2006-08-11T10:39:00.000Z	neutrinomass	airwind	Further, do you have a swap partition?
+2006-08-11T10:56:00.000Z	airwind	neutrinomass	I tried out your command, it says that DMA is off.
+2006-08-11T10:57:00.000Z	neutrinomass	airwind	If you find that you can't enable it, file a bug against linux-source-2.6.15 (if you're on dapper, that is )

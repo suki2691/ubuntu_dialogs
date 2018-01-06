@@ -1,0 +1,4 @@
+2009-08-24T19:09:00.000Z	JB1023		Can anybody tell me why when I try to map a drive on a WinXP machine I have to include the name of the folder twice such as \\server\pictures\pictures? It should just be \\server\pictures.
+2009-08-24T19:10:00.000Z	MikeSeth	JB1023	\\foo\a\b means box foo share a directory b
+2009-08-24T19:10:00.000Z	MikeSeth	JB1023	you are not exporting the share propertly
+2009-08-24T19:17:00.000Z	MikeSeth	JB1023	you are not sharing the target directory but the one above it

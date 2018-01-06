@@ -1,0 +1,4 @@
+2008-02-18T22:09:00.000Z	Intangir		how do i see the system statistics for my CPU and video card? i need to know how fast it thinks my video card and CPU are
+2008-02-18T22:10:00.000Z	MasterShrak	Intangir	cat /proc/cpuinfo   for cpu, not sure what gfx card would be
+2008-02-18T22:10:00.000Z	Intangir	MasterShrak	thx
+2008-02-18T22:11:00.000Z	MasterShrak	Intangir	lspci -vv    may give you useful information about your vid card

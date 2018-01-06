@@ -1,0 +1,4 @@
+2007-11-29T18:32:00.000Z	n2diy		I'm confused. I'm trying to backup this box to my test box using rsync.  From my test box I run rsync thisbox:/home/me /home/me, but the files end up in /home/me/me, on the test box!?
+2007-11-29T18:33:00.000Z	_ruben	n2diy	never tried rsync myself, but try adding trailing slashes to those paths (so /home/me/)
+2007-11-29T18:34:00.000Z	n2diy	_ruben	ok, I'll give it a try, thanks.
+2007-11-29T19:03:00.000Z	n2diy	_ruben	the trailing / was the trick, thanks man!

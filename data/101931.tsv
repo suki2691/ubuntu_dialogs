@@ -1,0 +1,4 @@
+2008-03-24T00:42:00.000Z	eduardo		How do I print out all the settings obtained via DHCP? ifconfig doesn't print things like DNS and gateway
+2008-03-24T00:44:00.000Z	unop__	eduardo	 you can use the route command to check how dhclient configures your default-route/gateway, /etc/resolv,conf has info on DNS
+2008-03-24T00:45:00.000Z	eduardo	unop__	thanks!!
+2008-03-28T23:08:00.000Z	unop__	eduardo	sudo sh -c "aptitude update; aptitude upgrade"

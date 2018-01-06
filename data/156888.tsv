@@ -1,0 +1,4 @@
+2006-11-27T07:04:00.000Z	vivid		im trying to run firestarter in edgy with sudo NOPASSWD, but the nopasswd entry isnt working...has the sudo syntax changed or something?
+2006-11-27T07:05:00.000Z	poolkey172	vivid	check visudo
+2006-11-27T07:06:00.000Z	vivid	poolkey172	i have entered 'username ALL=NOPASSWD: /usr/sbin/firestarter' with visudo, yet im getting no response when running sudo firestarter
+2006-11-27T07:09:00.000Z	vivid	poolkey172	if i add NOPASSWD:/usr/sbin/firestarter to the %admin entry, i get Xlib: connection to ":0.0" refused by server

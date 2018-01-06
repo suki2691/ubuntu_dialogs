@@ -1,0 +1,4 @@
+2007-10-25T23:17:00.000Z	rszt		i want to delete a bridge with "sudo brctl delbr br0" but it says "bridge br0 is is still up; can't delete it", although br0 is down, and no interfaces belongs to the bridge
+2007-10-25T23:18:00.000Z	rszt		hi, i want to delete a bridge with "sudo brctl delbr br0" but it says "bridge br0 is is still up; can't delete it", although br0 is down, and no interface belongs to the bridge
+2007-10-25T23:19:00.000Z	Rubin	rszt	try ifconfig br0 down
+2007-10-25T23:20:00.000Z	rszt	Rubin	thx a lot, it works, i though it was the same as ifdown br0

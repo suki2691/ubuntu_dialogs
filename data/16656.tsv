@@ -1,0 +1,4 @@
+2012-04-11T20:05:00.000Z	Monotoko		hey guys, I'm trying to get Grub2 and TrueCrypt on Windows to play nicely... at the moment Truecrypt is telling me to move my GRUB install to the partition, so I tried that by running "grub-install /dev/sda5" under Ubuntu as root, but it's bringing me back this: " warn: Attempting to install GRUB to a partition-less disk or to a partition.  This is a BAD idea.."
+2012-04-11T20:06:00.000Z	Monotoko		(pun intended)
+2012-04-11T20:08:00.000Z	Monotoko		my fdisk is up there... maybe I'm trying to install to the wrong place
+2012-04-11T20:08:00.000Z	jpollard	Monotoko	This might help http://goo.gl/1TfJE

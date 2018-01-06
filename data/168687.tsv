@@ -1,0 +1,4 @@
+2010-05-09T19:01:00.000Z	linux_is_my_hero		my virtual box should work but it wont.  i have an amd64 machine running lucid x64, and i virtualboxed winxp pro x64 and i get this error "VT-x/AMD-V hardware acceleration has been enabled, but is not operational. Your 64-bit guest will fail to detect a 64-bit CPU and will not be able to boot. Please ensure that you have enabled VT-x/AMD-V properly in the BIOS of your host computer."
+2010-05-09T19:02:00.000Z	scunizi	linux_is_my_hero	have you looked in your bios for the VT-x/AMD-V switch to see if it's on?
+2010-05-09T19:03:00.000Z	scunizi	linux_is_my_hero	sometimes you have to look for the word "virtual" or some iteration of it..
+2010-05-09T19:03:00.000Z	scunizi	linux_is_my_hero	64 OS does't mean the VT portion is enabled.

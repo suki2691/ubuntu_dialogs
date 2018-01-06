@@ -1,0 +1,4 @@
+2011-08-07T01:40:00.000Z	peepsalot		how do i switch from nvidia drivers to nouveau?  i used the "additional drivers" GUI tool or whatever it's called to disable nvidia but now i just can't get into X, it seems to still be looking for nvidia drivers on boot
+2011-08-07T01:41:00.000Z	bregma	peepsalot	boot into text mode and type 'sudo apt-get remove nvidia-current'
+2011-08-07T01:41:00.000Z	bregma	peepsalot	it may also be necessary to remove /etc/X11/xorg.conf
+2011-08-07T01:47:00.000Z	peepsalot	bregma	thanks, got into X  again

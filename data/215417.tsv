@@ -1,0 +1,4 @@
+2006-12-05T09:16:00.000Z	macluvjay		using 6.10 server edition, how can I kill X so that I can start a window nanager from a console?
+2006-12-05T09:17:00.000Z	soundray	macluvjay	if you have gdm installed, 'sudo /etc/init.d/gdm stop'
+2006-12-05T09:17:00.000Z	soundray	macluvjay	listen to nolimitsoya then
+2006-12-05T09:18:00.000Z	soundray	macluvjay	alternatively, switch to console with 'Ctrl-Alt-F1', log in and run 'sudo killall X'

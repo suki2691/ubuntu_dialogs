@@ -1,0 +1,4 @@
+2006-04-01T16:17:00.000Z	imc_		No takers on my kernel patching problem, eh?
+2006-04-01T16:18:00.000Z	redguy	imc_	hmm, what configuration do you want to backup?
+2006-04-01T16:20:00.000Z	redguy	imc_	the kernel .config file? if you build your kernel properly you should get a .deb package. You can install it with dpkg -i and have both (the ubuntu stock kernel and you patched version) along each other. You would choose which kernel to run in GRUB menu at boot-time
+2006-04-01T16:22:00.000Z	redguy	imc_	can't find any factoids concerning kernel building, but I am sure there's a howto on the ubuntu wiki

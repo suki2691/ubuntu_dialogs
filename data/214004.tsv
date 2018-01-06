@@ -1,0 +1,4 @@
+2009-12-20T11:10:00.000Z	Nagato-Pain		hi everyone) how can i get bonobo C++ header files? i tried to install libbonobo, but it's already installed, however, #include <bonobo/bonobo-control.h> can't find files
+2009-12-20T11:11:00.000Z	airtonix	Nagato-Pain	libbonobo-dev
+2009-12-20T11:13:00.000Z	airtonix	Nagato-Pain	try working it out by sifting throug the packages : apt-cache search libbonobo
+2009-12-20T11:14:00.000Z	airtonix	Nagato-Pain	if you know the exact file that you need for importing to your C++ project you might like to install apt-file and use : apt-file search <filename>

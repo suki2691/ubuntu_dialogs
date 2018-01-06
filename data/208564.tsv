@@ -1,0 +1,4 @@
+2008-04-10T05:31:00.000Z	forrest		Hi everyone, hopefully someone can help me out with this problem I have... everytime I reboot my USB devices get remounted to /media/volume_ then everytime there is a new __ so I get tons of them wit _____ at the end, how can I prevent this?
+2008-04-10T05:33:00.000Z	Dr_willis	forrest	 what filesystem are they?  tune2fs for ext2/3 - i boot to windows to label vfat/ntfs
+2008-04-10T05:34:00.000Z	forrest	Dr_willis	they were formated in Windows and I am pretty sure they have labels
+2008-04-10T05:38:00.000Z	Dr_willis	forrest	 by default under windows they give the disks a blank label from what ive seen.

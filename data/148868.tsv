@@ -1,0 +1,4 @@
+2007-02-04T13:09:00.000Z	stormy|		how do I see the partitions on my computer? (or drives..) I'm trying to mount my NTFS partition...
+2007-02-04T13:10:00.000Z	unop	stormy|	 fdisk -l
+2007-02-04T13:12:00.000Z	stormy|	unop	 it's not showing my drives... what about the partitions i have mounted as of now?
+2007-02-04T13:13:00.000Z	unop	stormy|	 mount lists currently mounted partitions -- /etc/fstab contains a lit of partitions to be mounted at boot

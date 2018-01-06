@@ -1,0 +1,4 @@
+2012-06-11T17:07:00.000Z	SunSoul		Hey everyone, I jhave an issue with Ubuntu 12.04 64 Bit Version. I installed it just fine, but after I reboot, I get the following after passing my computer's bioi screen. It says, "Operating System not found." Any idea on how to fix this?
+2012-06-11T17:08:00.000Z	sacarlson	SunSoul	maybe you installed grub MBR to the wrong disk?  what drive did you pick to install MBR?
+2012-06-11T17:11:00.000Z	sacarlson	SunSoul	I guess you could boot your live usb/cd and mount your /dev/sda1 and verify that the system was installed
+2012-06-12T18:04:00.000Z	sacarlson	SunSoul	you have to install the package grub-efi

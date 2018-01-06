@@ -1,0 +1,4 @@
+2009-11-23T01:00:00.000Z	ukmuk		hello, i try to enable my 12' touchscreen  with ubuntu 9.10 as a new feature. but is is not working like that, the touchscreen module is usb based, from gtouch and after pluging the usb in i get a /dev/usb/hiddev0
+2009-11-23T01:01:00.000Z	ukmuk		if i cat as root /dev/usb/hiddev0 and rubb the screen i get cray signs
+2009-11-23T01:01:00.000Z	ukmuk		does anyone know how to enable this device
+2009-11-23T01:02:00.000Z	Dr_Willis	ukmuk	 you may have to add a new input entry to the xorg.conf  - but im just guessing.

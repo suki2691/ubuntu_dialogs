@@ -1,0 +1,4 @@
+2007-12-08T09:33:00.000Z	bro_man		<-- still seeking help, started this morning... OS: Ubuntu-feisty, Symptom: after loading OS, gui freezes/locks as soon as mouse/cursor is moved, Suspected Cause: last thing I did before rebooting and discovered reoccuring sympom was use "Add/Remove Applications" and added Nvidia drivers... Present State: mouse unplugged, after OS loaded I pressed alt+cntrl+F3 and I am at a fullscreen terminal prompt....
+2007-12-08T09:34:00.000Z	bro_man		 I do not know any commands but I can follow directions... umm... help?
+2007-12-08T09:35:00.000Z	bruenig	bro_man	you need to edit /etc/X11/xorg.conf
+2007-12-08T09:41:00.000Z	bro_man	bruenig	so the exact command is " sudo dpkg-reconfigure xserver-xorg " (without the quote marks ?

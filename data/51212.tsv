@@ -1,0 +1,4 @@
+2009-10-22T23:56:00.000Z	dementor		hy  how can i find a word in a text file or other file in all my sysytem
+2009-10-22T23:56:00.000Z	trism	dementor	grep -nH word file_name.txt
+2009-10-22T23:57:00.000Z	trism	dementor	or add -nHR if you want to search many files in a directory
+2009-10-22T23:58:00.000Z	trism	dementor	grep -nHR word / (may be kind of slow though, you might want to limit it to specific file extensions if you know what you're looking for)

@@ -1,0 +1,4 @@
+2006-12-28T08:27:00.000Z	accept		I need help on how to set up my WiFI router. The network-admin tool shows it but doesn't activate it. and I at least need to see all of the wifi networks. Please help!?
+2006-12-28T08:27:00.000Z	accept		ok
+2006-12-28T08:28:00.000Z	accept		No scan results
+2006-12-28T08:29:00.000Z	pike_	accept	steps i do to connect to a open AP: sudo ifconfig ath0 up  then  iwlist ath0 scan  then sudo iwconfig ath0 essid whatevername   then dhclient ath0   your card maybe wlan0 or eth1 or whatever

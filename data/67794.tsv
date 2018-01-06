@@ -1,0 +1,4 @@
+2009-01-24T14:54:00.000Z	lorenzosu		How to avoid (sudo) password prompt for WPA wifi at each reboot in UBUNTU 8.10 (having selected save password)?
+2009-01-24T14:55:00.000Z	debianisdabest	lorenzosu	write a script that uses the command line tools, and runs at boot
+2009-01-24T14:56:00.000Z	lorenzosu	debianisdabest	any hint?
+2009-01-24T14:57:00.000Z	debianisdabest	lorenzosu	yes, I think the tool is wireless-tools i haven't used any wireless tools in awhile, but wireless-tools has some command like {command} -sid {sid name} -wpa{password} wlan0

@@ -1,0 +1,4 @@
+2011-01-02T00:25:00.000Z	psusi	capti	you can resize md partitions just fine if you do it right, but I would suggest you use lvm on top of md to divide it up into logical volumes of your choosing
+2011-01-02T00:28:00.000Z	capti	psusi	you say with LVM i could divide a single md array to multiple sices? like partitions? I wonder how others are doing installation with raid. I guess I am not the first in the world
+2011-01-02T00:28:00.000Z	psusi	capti	sort of... lvm logically slices up disks in ways that are similar to partitions, but better... take a look at wiki.ubuntu.com/Lvm
+2011-01-02T00:30:00.000Z	capti	psusi	thanks I am readin

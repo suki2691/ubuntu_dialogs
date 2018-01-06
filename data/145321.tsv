@@ -1,0 +1,4 @@
+2007-09-13T09:34:00.000Z	rryan		well, sda is my hard drive
+2007-09-13T09:34:00.000Z	rryan		it's sata, and my cdrom drive is pata, so it should be hd*
+2007-09-13T09:34:00.000Z	xtknight	rryan	 nope, libata, since feisty, makes all IDE drivers /dev/sd*
+2007-09-13T09:35:00.000Z	rryan	xtknight	: interesting... i noticed that in my PC version (i'm working on my laptop now)   but wasn't sure if that was intentional

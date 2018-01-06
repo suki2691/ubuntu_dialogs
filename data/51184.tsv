@@ -1,0 +1,4 @@
+2009-11-01T02:25:00.000Z	ecolitan		is there a way to see what I have installed?
+2009-11-01T02:26:00.000Z	trism	ecolitan	you can sort by the first field in Synaptic or do a dpkg -l | grep ii in the command line
+2009-11-01T02:28:00.000Z	trism	ecolitan	if you used synaptic to install everything, then it will be listed on File/History, if not, I don't know
+2009-11-01T02:31:00.000Z	trism	ecolitan	try cat /var/log/dpkg.log | grep "status installed" | tail -n 50; that will show the last 50 packages installed

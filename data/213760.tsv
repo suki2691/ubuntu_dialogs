@@ -1,0 +1,4 @@
+2011-11-13T05:12:00.000Z	czx		how to copy a file witout replace?
+2011-11-13T05:13:00.000Z	tonyyarusso	czx	what do you mean?
+2011-11-13T05:14:00.000Z	tonyyarusso	czx	I'm attempting to read your mind here since you're not actually saying it, but are you trying to copy a BUNCH of files but skip any that already exist in the destination location?
+2011-11-13T05:15:00.000Z	tonyyarusso	czx	Okay, try looking into either the -i or -n options to cp, or possibly using rsync instead.

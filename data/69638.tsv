@@ -1,0 +1,4 @@
+2012-03-08T21:08:00.000Z	aaGp		look, I'am trying to run UnrealIRCd, but when I hit ./unreal to start it it says: You don't have permission access, something like that, thing that I have to execute it with su command, how can I do that?..
+2012-03-08T21:09:00.000Z	sacarlson	aaGp	sudo ./unreal
+2012-03-08T21:13:00.000Z	sacarlson	aaGp	I guess you ./unreal is not installed or your not at present in the correct directory to run it
+2012-03-08T21:14:00.000Z	sacarlson	aaGp	if it runs without sudo best not to run it in sudo mode

@@ -1,0 +1,4 @@
+2009-03-17T03:02:00.000Z	calwig		hi, how does someone remove previous modules 2.6.24...... from ubuntu appropriately without deleting them each??
+2009-03-17T03:03:00.000Z	yow|x2	calwig	- apt-get autoremove
+2009-03-17T03:03:00.000Z	calwig	yow|x2	im only using one version, the rest of them arent needed
+2009-03-17T03:04:00.000Z	yow|x2	calwig	- apt-get autoremove will get rid of previous sources and kernel packages etc. to actually get rid of the files in /boot/, the only way i know of is to manually delete them.

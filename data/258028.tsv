@@ -1,0 +1,4 @@
+2005-04-30T07:33:00.000Z	htaccess		hi i am having lots of trouble with networking on a laptop, ifup ifdown and dhclient dont seem to work from the command line, it looks like the new network app is being too clever for me, how can i kill it altogether, is it a daemon or just the applet?
+2005-04-30T07:34:00.000Z	bronson	htaccess	ifdown eth0
+2005-04-30T07:34:00.000Z	bronson	htaccess	if you want to disable it permanently, turn off "auto" in /etc/network/interfaces
+2005-04-30T07:35:00.000Z	htaccess	bronson	yes ifdown eth0; ifup eth0 does not work as the gnome network applett seems to be getting in the way

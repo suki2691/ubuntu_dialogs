@@ -1,0 +1,4 @@
+2007-12-03T09:49:00.000Z	danbhfive		echo 3 > /proc/sys/vm/drop_caches     Question: how do I run that command as root?
+2007-12-03T09:50:00.000Z	jsoftw	danbhfive	either su - to root, or sudo <command here>
+2007-12-03T09:51:00.000Z	danbhfive	jsoftw	su'ing to root works, but sudo did not, thats why I was asking for help actually
+2007-12-03T09:51:00.000Z	jsoftw	danbhfive	yeah I dont really use sudo a lot. If I need a root shell I su -

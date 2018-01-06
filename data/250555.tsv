@@ -1,0 +1,4 @@
+2007-04-27T15:06:00.000Z	Bakefy		Hello everyone
+2007-04-27T15:07:00.000Z	Bakefy		I have a hard drive that I want to mount.  I have been having trouble... its already got information on it (previous ubunut hard drive).  I don;t think that the format is supported in this version
+2007-04-27T15:09:00.000Z	Bakefy		is mounting a hard drive difficult in 7.04.  I am having trouble, ( i never had trouble in 6.-4
+2007-04-27T15:09:00.000Z	predaeus	Bakefy	sudo fdisk -l    lists all detected partitions, so you know which ones you can mount. /etc/fstab holds the partitions that are mounted automatically on boot

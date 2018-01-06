@@ -1,0 +1,4 @@
+2007-12-06T03:34:00.000Z	hardeep		by default it seems like many of the ports are blocked on ubuntu
+2007-12-06T03:34:00.000Z	hardeep		what file must i edit to unblock
+2007-12-06T03:35:00.000Z	hardeep		i cant seem to telnet or ftp in
+2007-12-06T03:35:00.000Z	pike_	hardeep	sudo iptables -L   should tell you that nothing is being blocked as only rules are accept

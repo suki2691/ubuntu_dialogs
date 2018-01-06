@@ -1,0 +1,4 @@
+2010-09-02T03:29:00.000Z	spasysheep		is there a way to zero-out a HDD without risking overwriting parts that may render the drive inoperable?
+2010-09-02T03:30:00.000Z	adam2new	spasysheep	it requires to "dd" to the drive itself (i forgot how to do it safely w/ this)
+2010-09-02T03:32:00.000Z	spasysheep	adam2new	dd if=/dev/null of=/dev/sd*
+2010-09-02T03:34:00.000Z	adam2new	spasysheep	i think it would be if=/dev/zero

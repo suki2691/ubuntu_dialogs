@@ -1,0 +1,4 @@
+2012-06-16T01:05:00.000Z	Anjar_95		I have a little problem: Ubuntu can't detect all the disc space on the partition. When I open the partition manager, it says there's 109 GB, Nautilus only shows 59 GB.
+2012-06-16T01:06:00.000Z	mneptok	Anjar_95	is Nautilus sowing only free space?
+2012-06-16T01:06:00.000Z	mneptok	Anjar_95	what filesystem?
+2012-06-16T01:07:00.000Z	mneptok	Anjar_95	you might want to run an fsck.ext4 on it before trying too many things.

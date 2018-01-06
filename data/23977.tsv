@@ -1,0 +1,4 @@
+2010-10-16T01:48:00.000Z	Jordan_U	usario	Change GRUB_DEFAULT so that it's something like this: GRUB_DEFAULT="Windows Vista (loader) (on /dev/sda4)"
+2010-10-16T01:48:00.000Z	usario	Jordan_U	what file
+2010-10-16T01:48:00.000Z	Jordan_U	usario	Sorry, in /etc/default/grub. Then run "sudo update-grub".
+2010-10-16T01:49:00.000Z	Jordan_U	usario	Get the exact string for the title from /boot/grub/grub.cfg

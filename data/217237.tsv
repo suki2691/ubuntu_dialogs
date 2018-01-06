@@ -1,0 +1,4 @@
+2005-12-30T11:15:00.000Z	Wilf		how easy.
+2005-12-30T11:15:00.000Z	Wilf		so now what do i edit my fstab to to take count of the fact that it is now ext3, and not ntfs?
+2005-12-30T11:16:00.000Z	irvin	Wilf	sudo nano /etc/fstab then change ntfs to ext3
+2005-12-30T11:18:00.000Z	irvin	Wilf	you can get rid of it, see also the other ext2 entries, or man mount for more information

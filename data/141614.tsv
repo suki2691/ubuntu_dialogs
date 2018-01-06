@@ -1,0 +1,4 @@
+2008-01-02T08:38:00.000Z	owen1		kill doesn't kill the process. any ideas?
+2008-01-02T08:38:00.000Z	PurpZeY	owen1	If kill -9 doesn't kill it, it may be a zombie
+2008-01-02T08:41:00.000Z	PurpZeY	owen1	Are you sure the process is still running?
+2008-01-02T08:44:00.000Z	owen1	PurpZeY	PMantis : it's a ruby app(site) that i run from ctrl+F2. i think it created 2 processes - instiki and ruby. I manualy killed the instiki but the site is still alive so i am trying to kill the ruby process.

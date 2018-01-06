@@ -1,0 +1,4 @@
+2008-09-24T02:54:00.000Z	jasuus		hello im trying to do this in a shell:  kill pidof program
+2008-09-24T02:55:00.000Z	jasuus		how do i pass the result of pidof to kill?
+2008-09-24T02:56:00.000Z	SkyLeach	jasuus	kill -9 `pidof someprocessname`
+2008-09-24T02:57:00.000Z	SkyLeach	jasuus	actually, those are backticks (the key at the top left of your keyboard with the ~ above it, right next to the 1)

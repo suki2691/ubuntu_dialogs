@@ -1,0 +1,4 @@
+2007-04-26T12:02:00.000Z	bombice|laptop		damn it im still having problems with my 8800GTS  ive installed nvidia-glx and enabled it...i think
+2007-04-26T12:02:00.000Z	bombice|laptop		anyone care to help
+2007-04-26T12:02:00.000Z	noiesmo	bombice|laptop	are you on feisty the nvidia-glx-new might be what you want are you getting an api mismatch error
+2007-04-26T12:04:00.000Z	noiesmo	bombice|laptop	maybe boot in to recovery mode and then check /var/log/Xorg.0.log see if its the mismatched api then install nvidia-glx-new also check dmesg and messages for errors

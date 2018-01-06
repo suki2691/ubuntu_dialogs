@@ -1,0 +1,4 @@
+2009-09-27T00:05:00.000Z	hanshenrik		when i shutdown by "sudo shutdown now", it shuts down, but a brief 3-4 seconds, i see a bounch of errors in console - normal?
+2009-09-27T00:07:00.000Z	Jordan_U	hanshenrik	Are you sure that they are errors or are the just lines like "Stopping sshd" or "Sending all processes kill signal" ?
+2009-09-27T00:07:00.000Z	hanshenrik	Jordan_U	quite sure they'r errors, like ERROR: ~ text
+2009-09-27T00:11:00.000Z	Jordan_U	hanshenrik	Can you pastebin your /var/log/syslog ?

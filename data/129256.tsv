@@ -1,0 +1,4 @@
+2007-07-02T08:11:00.000Z	llllllll		I've got a 4gb image of a partition made with 'dd', and I want to put it in 4gb of unallocated space on my hard-drive. How would I go about doing this without damaging any of the other partitions on the disk. Presumably using dd again, or gparted?
+2007-07-02T08:12:00.000Z	JimQode	llllllll	make a partition of the same size with gparted. dd to it
+2007-07-02T08:14:00.000Z	llllllll	JimQode	so I need to make a partition first, and then dd the copied partition's image over to it? That will create a clone of the copied partition?
+2007-07-02T08:14:00.000Z	JimQode	llllllll	yes

@@ -1,0 +1,4 @@
+2010-10-09T00:21:00.000Z	jamil_1		Is it possible to track an application i.e., what files it is accessing, what data it is sending to internet and so forth ?
+2010-10-09T00:21:00.000Z	hwilde	jamil_1	lsof
+2010-10-09T00:27:00.000Z	jamil_1	hwilde	lsof gives too much info than I can handle. My problem is that goldendict, when connecting to internet(wikipedia), is sendiing wrong credentials to my proxy. so I wanted to find form where it is reading my credentials
+2010-10-09T00:28:00.000Z	hwilde	jamil_1	lsof | grep <something>

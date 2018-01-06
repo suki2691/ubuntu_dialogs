@@ -1,0 +1,4 @@
+2011-01-11T00:56:00.000Z	benji122		Hi, the command "sh -c set" shows SHELL='/bin/bash' instead of SHELL=/bin/bash (note the quotes). How can I know when that change occured please ?
+2011-01-11T00:57:00.000Z	erUSUL	benji122	why would that matter ?
+2011-01-11T00:58:00.000Z	benji122	erUSUL	long story
+2011-01-11T00:58:00.000Z	erUSUL	benji122	sh in ubuntu is /bin/dash so the SHELL variable is missleading/not dependable. that's true with quotes or without them

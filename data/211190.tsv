@@ -1,0 +1,4 @@
+2005-10-22T09:29:00.000Z	zepeuga		its possible to install lilo instead of grub ?
+2005-10-22T09:30:00.000Z	Raskall-mob	zepeuga	don't se why it shouldn't be possible, but why do you want to do that?
+2005-10-22T09:31:00.000Z	zepeuga	Raskall-mob	i like to install it because i have an error 17 with grub and cant resolve it
+2005-10-22T09:32:00.000Z	Raskall-mob	zepeuga	and you are certain that lilo will fix it? I guess a "apt-get install lilo" is sufficent. then edit /etc/lilo.conf according to your setup and run lilo

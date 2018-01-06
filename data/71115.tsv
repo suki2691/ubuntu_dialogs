@@ -1,0 +1,4 @@
+2008-12-27T06:04:00.000Z	conal		newbie question: where can i put my LD_LIBRARY_PATH def so that it's picked up and passed into my emacs environment, which is started automatically at log in?  i've put export LD_LIBRARY_PATH="/usr/local/lib:$LD_LIBRARY_PATH" in my ~/.bashrc, which is sourced from .profile.  i pick it up when i start a shell, but it's not known in my emacs process.
+2008-12-27T06:05:00.000Z	white-sheep	conal	Did you run the command -- bash ?
+2008-12-27T06:06:00.000Z	conal	white-sheep	if i start up bash, the variable is defined there.  however, emacs starts up another process (the haskell interpreter), and LD_LIBRARY_PATH is not defined there.
+2008-12-27T06:07:00.000Z	white-sheep	conal	I can't be sure.  I usually declare all of my alias + path in .bashrc + .profile + .bash_aliases.

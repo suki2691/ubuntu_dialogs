@@ -1,0 +1,4 @@
+2008-12-19T11:21:00.000Z	clearzen		I'm having serious issues with my nvidia driver after a upgrade from 8.04. at first it would not initialize the nvidia driver at all but then I added vmalloc=256MB as a kernel command so now it shows that it does in fact load. However it will not actually use the driver for X. any Ideas?
+2008-12-19T11:23:00.000Z	raylu	clearzen	nvidia-xconfig
+2008-12-19T11:23:00.000Z	clearzen	Terralthra	tryed it. The logs look normal too. I'm stumped
+2008-12-19T11:24:00.000Z	raylu	clearzen	you mean nvidia-xconfig?

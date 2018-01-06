@@ -1,0 +1,4 @@
+2010-01-12T00:05:00.000Z	banished		Hi, how can I get Ubuntu to *NOT* replace compiz with metacity at random?
+2010-01-12T00:06:00.000Z	soreau	banished	That probably means compiz is crashing. Which video driver are you using?
+2010-01-12T00:06:00.000Z	banished	soreau	nvidia
+2010-01-12T00:07:00.000Z	soreau	banished	Install compiz-dbg package, enable crash handler in ccsm, then the next time it happens, look in /tmp for a crash log. You can show it in #compiz or file a bug report with it

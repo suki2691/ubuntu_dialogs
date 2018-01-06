@@ -1,0 +1,4 @@
+2010-11-27T14:41:00.000Z	incandenza	thewanderer1	/var/run is a temporary filesystem (note how it's mounted), so it gets completely reset on reboot
+2010-11-27T14:42:00.000Z	thewanderer1	incandenza	here it's not temporary, I can't see it in `mount`
+2010-11-27T14:42:00.000Z	incandenza	thewanderer1	there might be a script that clears it on boot, then.  not sure
+2010-11-27T14:44:00.000Z	incandenza	thewanderer1	in any case, those are temporary files (like pids of running processes) that aren't meant to persist across boots

@@ -1,0 +1,4 @@
+2006-06-29T10:40:00.000Z	slaye1		Just a quick one: If i type ls in a dir, with many files, my screen just scrolls down, without me being able to scroll up, and see the content.
+2006-06-29T10:40:00.000Z	slaye1		What option do i add to ls?
+2006-06-29T10:40:00.000Z	slaye1		Make a filesystem
+2006-06-29T10:40:00.000Z	POVaddct	slaye1	you don't use an ls option for that. you pipe the ls output to less:  ls | less

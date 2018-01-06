@@ -1,0 +1,4 @@
+2009-06-12T14:18:00.000Z	Smegzor		Hi.  I am trying to set up a squid server on a spare box and I have installed 2 network cards.  I can't get eth1 to work.  I can see both cards with lspci, but the interface eth1 is unknown and I don't know what I need to do to make it available.  I am running Ubuntu server 9.04
+2009-06-12T14:20:00.000Z	lclimber	Smegzor	did your try ifup eth1?; did you configured /etc/network/interfaces ? have a look at that file
+2009-06-12T14:22:00.000Z	Smegzor	lclimber	yes to first.  haven't touched /etc/network/interfaces
+2009-06-12T14:24:00.000Z	lclimber	Smegzor	well , try sudo ifconfig eth1 xx.xx.xx.xx netmask xx.xx.xx.xx; if it works, then write /etc/network/intefaces and configure it with your desire parameters

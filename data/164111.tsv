@@ -1,0 +1,4 @@
+2007-05-22T16:01:00.000Z	Silent_G		hello, somebody can tell me how to set the Cflags on ubuntu?
+2007-05-22T16:01:00.000Z	PepperBob	Silent_G	afaik just create a CFLAGS env var
+2007-05-22T16:02:00.000Z	PepperBob	Silent_G	but it might be overwritten by the makefile
+2007-05-22T16:03:00.000Z	PepperBob	Silent_G	gcc will respect them but they will be overwritten by running configure imho

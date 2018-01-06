@@ -1,0 +1,4 @@
+2004-12-28T15:13:00.000Z	Odin-		Does anyone know just how unrecommended using Debian Unstable sources is?
+2004-12-28T15:14:00.000Z	Odin-		Hmh.
+2004-12-28T15:16:00.000Z	aj	Odin-	if you put debian urls first in apt/sources.list, but use apt's pinning mechanism to say "only select ubuntu packages", apt'll download ubuntu packages from debian urls whenever they're available
+2004-12-28T15:17:00.000Z	aj	Odin-	(ie, for universe packages where ubuntu's just using debian's package)

@@ -1,0 +1,4 @@
+2010-08-14T05:49:00.000Z	Davide-NYC		Any good smb.cong GUI tools?
+2010-08-14T05:50:00.000Z	Davide-NYC		I can't browse my windows network with 10.04. Any things I should try?
+2010-08-14T05:51:00.000Z	Dr_Willis	Davide-NYC	 enter the server/share name manually, try entering the ip, see what smbtree and smbfind commands show also.   ie: smb://servernam/share   and smb://192.168.1.20/sharename
+2010-08-14T05:59:00.000Z	Davide-NYC	Dr_Willis	entering smb://192.168.1.20/sharename allows me to mount the filesystem, but I still cannot browse the 'neighborhood'.

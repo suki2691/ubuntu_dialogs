@@ -1,0 +1,4 @@
+2009-02-09T05:18:00.000Z	freazer	drash	That isn't true at all! I've put my /home in another partition, and when i reinstalled _none_ of the users could login saying they could not have write permissions to their own folders!
+2009-02-09T06:42:00.000Z	drash	freazer	have you read through "man dpkg" to check if there's a relevant option for your predicament ?
+2009-02-09T06:44:00.000Z	freazer	drash	I just did dpkg -r -a and despite not doing what the man page says it does (it was not pending to be removed, it was pending installation) dpkg --configure -a is now saying nothing - which is what I wanted, thanks
+2009-02-09T06:45:00.000Z	drash	freazer	odd indeed, yw

@@ -1,0 +1,4 @@
+2008-04-25T19:54:00.000Z	slytherin	nibsa1242b	shouldn't he instead have a single / for about 10 GB?
+2008-04-25T19:55:00.000Z	nibsa1242b	slytherin	/var doesn't need to be huge... and a separate /boot is important; if something happens and / fills up to 95% space use the system will refuse to boot. I had this happen once because of a log file that took up 50GB (since I didn't have a sep /var)
+2008-04-25T19:56:00.000Z	slytherin	nibsa1242b	I agree with separate /boot, but don't think separate /var is needed for a desktop user
+2008-04-25T19:58:00.000Z	nibsa1242b	slytherin	I don't think its an absolute necessity, however, it doesn't hurt. My log file filling up actually happened on a laptop. There was a bug with the card reader and it logged about 1GB of error per hour.

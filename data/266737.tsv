@@ -1,0 +1,4 @@
+2006-09-07T10:37:00.000Z	Lysit		I've setup ubuntu to share folders, wins compatable. My ubuntu box is aksing for a username and password, which I've setup but never excepts it, any ideas?
+2006-09-07T10:37:00.000Z	Dr_Willis	Lysit	 sudo smbpasswd -a LINUXUSERNAME
+2006-09-07T10:38:00.000Z	Dr_Willis	Lysit	 you did install the samba package? "sudo apt-get install samba" ?
+2006-09-07T10:39:00.000Z	Dr_Willis	Lysit	 /var/log/samba i think.

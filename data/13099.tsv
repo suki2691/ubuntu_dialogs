@@ -1,0 +1,4 @@
+2011-06-25T20:15:00.000Z	davidmorris		Why ssh in instead of putting vncserver in rc.whatever?
+2011-06-25T20:16:00.000Z	dr_willis	davidmorris	 ifyou ssh in, you can then tunnle, or run a dozen+ vnc sessions...
+2011-06-25T20:21:00.000Z	davidmorris	dr_willis	I thought vnc was based on compressed images, so 3d effects shouldn't thow it off?
+2011-06-25T20:21:00.000Z	dr_willis	davidmorris	 vnc has differnt type of compression, but it basically is  a lot of 'images' on the fly. so yes. special stuff can goof it up. and its not all that fast.   freenx is faster. but harder to setup. xdmcp is handy but has its own limitations

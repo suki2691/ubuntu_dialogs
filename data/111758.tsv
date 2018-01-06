@@ -1,0 +1,4 @@
+2012-01-05T16:14:00.000Z	tprime		 Hello channel. I'm trying to set up a bridged network (0) in addition to a nat-ed one(1) for a freebsd guest under ubunut 11.10/kvm, and am probably missing something really stupid. The bridge itself is working, the guest does receive a DHCP address from the network DHCP server, and it can ping it's intranet subnet (which seem to go via (0)) and the internet (via (1)), but neither the host, nor outside machines can access the guest on the DCHP
+2012-01-05T16:14:00.000Z	tprime		 ass
+2012-01-05T16:14:00.000Z	tprime		<tprime> igned ip. Ping from host to guest just hangs. I have disabled netfilter for bridges on the host, the guest does not have a firewall, I've toyed with promiscuous mode and (simple) routes to no avail. Any ideas?
+2012-01-05T16:14:00.000Z	FloodBot1	tprime	Please don't flood; use http://paste.ubuntu.com to paste; don't use Enter as punctuation.

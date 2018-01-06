@@ -1,0 +1,4 @@
+2009-08-11T17:56:00.000Z	oguncak		hi everybody.. is there a solution to prevent the beep sound on startup and shutdown? my sound scheme is adjusted for no sounds though!!!
+2009-08-11T17:57:00.000Z	ziroday	oguncak	you can blacklist the pcspkr module all together and prevent your pc speaker from going off ever
+2009-08-11T17:59:00.000Z	ziroday	oguncak	you will be able to play music. It only stops the pc speaker for making any "beeps"
+2009-08-11T18:01:00.000Z	ziroday	oguncak	in a terminal type in sudo nano /etc/modules.d/blacklist and add in the line blacklist pcspkr

@@ -1,0 +1,4 @@
+2011-05-16T03:37:00.000Z	darkorical		three days ago I upgraded version 9 to 10 then today from 10 to 11.04 (I originally started with version 7) and all upgrades have always gone fine but today going to version 11.04 the upgrade worked just fine and then when it boots up it just sits at a blank screen with a responcive mouse pointer but never shows the rest of the gui any suggestions?
+2011-05-16T03:38:00.000Z	GrouchySmurf	darkorical	yes, I've one: don't install from 9 to 11.04
+2011-05-16T03:41:00.000Z	GrouchySmurf	darkorical	otherwise edit /etc/X11/xorg.conf and adjust the setting to your hardware capabilities
+2011-05-16T03:42:00.000Z	GrouchySmurf	darkorical	https://help.ubuntu.com/community/XORGHardy

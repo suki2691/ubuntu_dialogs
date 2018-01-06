@@ -1,0 +1,4 @@
+2010-10-22T23:53:00.000Z	batok		if I am in console mode how can I launch the X11/window manager?
+2010-10-22T23:53:00.000Z	muelli	batok	probably smth like "sudo service gdm start"
+2010-10-22T23:54:00.000Z	muelli	batok	I still use /etc/init.d/gdm start but that's deprecated ;-)
+2010-10-23T00:06:00.000Z	muelli	batok	If you are in a virtual console, you might be able to use Alt+left or alt+right as well to switch consoles.

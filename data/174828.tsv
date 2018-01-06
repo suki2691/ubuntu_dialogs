@@ -1,0 +1,4 @@
+2006-11-30T08:30:00.000Z	McMadd		I think my question might be related to the discussion of dbe and Lapfunc...
+2006-11-30T08:30:00.000Z	McMadd		I've got a fully configured Ubuntu machine which I need to replicate (clone) to a lot of other identical machines. Been goofing around with Ghost but it won't work. Any suggestions? (I'm not a Linux guy yet, so maybe there's an easy answer :-)
+2006-11-30T08:31:00.000Z	dbe	McMadd	read the conversation I had with Lapfunc and your problem might get solved.
+2006-11-30T08:34:00.000Z	dbe	McMadd	Tar / (root), boot a live cd, remove the files from the partition (except the tar file), untar the file in the partition. And you are not a Linux guy soon, you are a GNU/Linux guy soon.

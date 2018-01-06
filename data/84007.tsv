@@ -1,0 +1,4 @@
+2009-03-22T13:09:00.000Z	Haymaker		I'm trying to compile a plugin package for pidgin, and make keeps failing because its looking for a /usr/lib/libxml2.la that i presume does not exist
+2009-03-22T13:10:00.000Z	lstarnes	Haymaker	install libxml2-dev
+2009-03-22T13:12:00.000Z	lstarnes	Haymaker	if you have apt-file, you could try apt-file search /usr/lib/libxml2.la
+2009-03-22T22:19:00.000Z	lstarnes	Haymaker	this is almost entirely if not completely community run

@@ -1,0 +1,4 @@
+2006-03-02T08:24:00.000Z	CellFish		hi, i have two problems with ubuntu that i'd like to solve. It seems to be able to go to 1600x1200 for me which is great, but it's stuck at 60hz no matter what resolution I choose. How can  I fix that?
+2006-03-02T08:26:00.000Z	iBalo	CellFish	Know the exact Hsync&Vsync specs for your monitor and edit /etc/xorg.conf in section 'monitor'. Then you'll be able to select higher vsync in Display-Properties
+2006-03-02T08:27:00.000Z	CellFish	iBalo	is it normal that I don't have xorg.conf in that foldeR?
+2006-03-02T08:36:00.000Z	iBalo	CellFish	oops, was absent... It's /etc/X11/xorg.conf

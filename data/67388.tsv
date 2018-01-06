@@ -1,0 +1,4 @@
+2009-01-30T00:12:00.000Z	kollaps		Hi. I'm getting a permission denied from a .run file, actually from a lot of them (from a game server). they're all 0777 so I can't seem to reason the problem. I tried root, ./name.run and sh name.run
+2009-01-30T00:12:00.000Z	Gnea	kollaps	are they binary files or shell scripts?
+2009-01-30T00:13:00.000Z	kollaps	Gnea	pbsetup.run: ELF 32-bit LSB executable, Intel 80386, version 1 (SYSV), for GNU/Linux 2.2.5, dynamically linked (uses shared libs), stripped
+2009-01-30T00:13:00.000Z	Gnea	kollaps	hrm... run ldd on it, do you get any libraries that aren't matched up?

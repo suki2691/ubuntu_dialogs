@@ -1,0 +1,4 @@
+2011-09-08T20:14:00.000Z	vick		Hello. I have a user account on an ubuntu machine and i am compiling software that requires libcppunit, however it is not installed on the system. What would be the standard method to notify the (configure) that some of the libraries are installed in some directory like /home/me/opt/libcppunit ?
+2011-09-08T20:15:00.000Z	B0g4r7	vick	this is often done by adding the path to /etc/ld.so.conf.  You might also have a look at the LDFLAGS env variable.
+2011-09-08T20:18:00.000Z	vick	B0g4r7	i will try with LDFLAGS and CFLAGS, i wouldn't have permission to /etc/ld.so.conf
+2011-09-08T20:19:00.000Z	B0g4r7	vick	Cool.  also LD_LIBRARY_PATH is one more you may want.

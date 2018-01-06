@@ -1,0 +1,4 @@
+2007-09-30T16:41:00.000Z	xeer		hi everyone, serious problem here.. modifying a file on a remote maching (using fuse though ssh) is causing it to erase the file. i'm using ext3, is there any way to recover what is lost?
+2007-09-30T06:54:00.000Z	xeer		i've mounted with fuse/ssh, whenever i modify the contents of a file it gets erased to 0 bytes.. why would this happen? i'm losing my data at an incredible rate
+2007-09-30T06:54:00.000Z	Dr_willis	xeer	 the sshfs thing you are using? odd - its worked great for me
+2007-09-30T06:55:00.000Z	xeer	Dr_willis	yes it has been working wonderfully ever since i've installed it. i compiled apache2 and php6 on my web server and ever since all the files i remotely modify on that system are getting erased.

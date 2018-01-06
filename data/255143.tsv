@@ -1,0 +1,4 @@
+2005-06-12T13:46:00.000Z	Kirilis		Hi friends!
+2005-06-12T13:46:00.000Z	Kirilis		how to make bootloader floppy on Ubuntu ?
+2005-06-12T13:48:00.000Z	Kirilis		how to make bootloader floppy on Ubuntu ?
+2005-06-12T13:49:00.000Z	kbrooks	Kirilis	dd if=/dev/hda of=/dev/fd0 bs=512 count=1

@@ -1,0 +1,4 @@
+2006-03-13T13:58:00.000Z	tatters__		anyone know command to turn services off and on?
+2006-03-13T13:59:00.000Z	tatters__		ive tried sercive iptables stop but it say unrecognised command
+2006-03-13T13:59:00.000Z	Enthusiast78	tatters__	Do you want to just stop/start them or make them active/inactive on boot?
+2006-03-13T14:01:00.000Z	Enthusiast78	tatters__	Install rcconf with 'sudo aptitude install rcconf', then you can use 'sudo rcconf' to select which services start at boot-up.

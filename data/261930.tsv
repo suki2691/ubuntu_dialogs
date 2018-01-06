@@ -1,0 +1,4 @@
+2008-02-09T21:13:00.000Z	KiD_ChAoS		after ndiswrapper install the wifi light on my laptop is not on, and won't turn on with the function key. this means the module is not loaded right? i do a modprobe ndiswrapper. done. still nothing but the dmesg command returns
+2008-02-09T21:13:00.000Z	KiD_ChAoS		bcm43xx: Error: Microcode "bcm43xx_microcode5.fw" not available or load failed.
+2008-02-09T21:13:00.000Z	KiD_ChAoS		bcm43xx: core_up for active 802.11 core failed (-2)
+2008-02-09T21:14:00.000Z	Seveas	KiD_ChAoS	bcm43xx and ndiswrapper aren't the same thing. bcm43xx loads by default and now conflicts with ndiswrapper. YOu should use system -> admin -> restricted driver to install a driver for bcm43xx and simply forget ndiswrapper

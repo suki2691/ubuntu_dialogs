@@ -1,0 +1,4 @@
+2006-06-09T09:58:00.000Z	wastrel		-rwsr-xr-x 1 root root 93844 2006-05-17 04:41 /usr/bin/sudo
+2006-06-09T09:59:00.000Z	iratik	wastrel	I don't know how to erad the rwxs stuff, whats the proper chown command- is there any extra flags i have to pass?
+2006-06-09T09:59:00.000Z	wastrel	iratik	 what does your ls -l /usr/bin/sudo   look like currently?
+2006-08-31T12:20:00.000Z	wastrel	iratik	 sudo passwd -d root  deletes the root password you set

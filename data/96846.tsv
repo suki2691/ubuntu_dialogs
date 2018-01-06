@@ -1,0 +1,4 @@
+2008-03-21T19:38:00.000Z	aalper		Can someone tell me how to get apache2 to autostart on Gutsy?
+2008-03-21T19:39:00.000Z	fbc	aalper	 /etc/init.d/apache2 start will do the job manually, I would suspect having to enter the line in the rc.local, however I believe it should startup automatically unless otherwise told.
+2008-03-21T19:40:00.000Z	aalper	fbc	I thought it would but it doesn't
+2008-03-21T19:43:00.000Z	fbc	aalper	sry, I'm not that much a geek in linux. There are probably others here that help with such a easy problem.

@@ -1,0 +1,4 @@
+2007-05-29T07:44:00.000Z	blackjackel		anyone know EXACTLY What usplash does? Is it the splashscreen that shows the "ubuntu" loading in orange and black?
+2007-05-29T07:45:00.000Z	sladen	blackjackel	usplash draws the progress to the kernel framebuffer device during bootup, before X has loaded.  You can  apt-get source usplash   to get the source code
+2007-05-29T07:46:00.000Z	blackjackel	PriceChild	would you know a guide to services and what they do? I'm trying to uninstall as many services that I don't need as I can
+2007-05-29T07:46:00.000Z	sladen	blackjackel	it shows different logos depending on what is configured (eg. ubuntu, kubuntu, edubuntu, xubuntu or a custom logo scheme)

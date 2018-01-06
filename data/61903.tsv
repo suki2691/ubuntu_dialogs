@@ -1,0 +1,4 @@
+2009-11-07T01:57:00.000Z	wiehan		Hallo, can I just copy my old .Evolution folder from the old home directory into my new home from a fresh install and have all my evolution settings, emails, and contacts back?
+2009-11-07T01:57:00.000Z	grawity	wiehan	That should work for your data - but settings are stored in Gconf's /apps/evolution, I think.
+2009-11-07T01:57:00.000Z	grawity	wiehan	So somewhere in ~/.gconf/apps/
+2009-11-07T01:58:00.000Z	wiehan	grawity	Thanks, so just copy over those to and wil have all my stuff back safgely?

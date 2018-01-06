@@ -1,0 +1,4 @@
+2008-10-30T08:19:00.000Z	Iradieh		Does anyone here know how to make a DIRECT duplicate of your linux for backup (settings etc) into as single file, I might screw up something and I want a good copy to reset :)
+2008-10-30T08:20:00.000Z	clearzen	Iradieh	tar cvpjf backup.tar.bz2 --exclude=/proc --exclude=/lost+found --exclude=/backup.tar.bz2 --exclude=/mnt --exclude=/sys /
+2008-10-30T08:20:00.000Z	Iradieh	clearzen	what about proc and opt
+2008-10-30T08:21:00.000Z	Iradieh	clearzen	and that doesnt make it into a single img that I can insert and reset :) does it?

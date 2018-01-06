@@ -1,0 +1,4 @@
+2007-05-03T14:43:00.000Z	grungehead		hello. i have an usb-pendrive with an ext3 partition. in /etc/fstab i added the options "errors=remount-ro,nosuid,noexec,users,user,data=ordered", but i don't have write acces as a normal user. i don't want to bind it to a single user, so how can i set writepermissions for all users?
+2007-05-03T14:44:00.000Z	variant	grungehead	set the permissions on the files on the partition (ext supports permissions)
+2007-05-03T14:45:00.000Z	grungehead	variant	i want to have full acces so i even can write new files...
+2007-05-03T14:45:00.000Z	variant	grungehead	chown -R /path/to/mountpoint username

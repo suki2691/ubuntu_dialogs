@@ -1,0 +1,4 @@
+2005-12-17T10:32:00.000Z	rob_		does anyone know why I get this error when I try to sudo make install?
+2005-12-17T10:32:00.000Z	rob_		sudo: make: command not found
+2005-12-17T10:33:00.000Z	Goldfish	rob_	locate make | grep bin
+2005-12-17T10:34:00.000Z	Goldfish	rob_	Either use synaptic, and find project "make" or type sudo apt-get install make

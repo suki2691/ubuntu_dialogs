@@ -1,0 +1,4 @@
+2011-02-15T09:39:00.000Z	kreppnar		hey all, i have a quick question.. everytime i plug in my USB drive, it automaticly gets mounted as read only? how can i fix this?
+2011-02-15T09:39:00.000Z	a_p3rson[yellme]	kreppnar	is it in a format that ubuntu cant read?
+2011-02-15T09:41:00.000Z	a_p3rson[yellme]	kreppnar	if it turns out that the device doesn't give you permission, you can use    gksu nautilus    to go in as root and reset the permissions
+2011-02-15T09:42:00.000Z	a_p3rson[yellme]	kreppnar	in terminal:         gksu nautilus

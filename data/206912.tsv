@@ -1,0 +1,4 @@
+2005-12-11T15:30:00.000Z	FlimFlamMan		from the breezy livecd, i'm trying to resize an ntfs partition with gparted, but it keeps failing.  command-line output says /dev/hdc is read-only (cdrom) and "unable to open /dev/mapper/casper-cow", whatever that is...  is there no way to resize this ntfs partition so i can install breezy?
+2005-12-11T15:32:00.000Z	FlimFlamMan		ok...
+2005-12-11T15:32:00.000Z	FlimFlamMan		from the breezy livecd, i'm trying to resize an ntfs partition with gparted, but it keeps failing.  command-line output says /dev/hdc is read-only (cdrom) and "unable to open /dev/mapper/casper-cow", whatever that is...  is there no way to resize this ntfs partition so i can install breezy?
+2005-12-11T15:33:00.000Z	navarone	FlimFlamMan	writing ntfs can corrupt filedystem

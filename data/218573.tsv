@@ -1,0 +1,4 @@
+2007-04-06T07:18:00.000Z	arcanus		anyone know of a way to tunnel a connection via a seccond computer? i want to make it look like its comp B that makes the query, and not comp A
+2007-04-06T07:19:00.000Z	sipior	arcanus	iptables will do just what you want
+2007-04-06T07:19:00.000Z	sipior	arcanus	man iptables give examples that do exactly this, iirc
+2007-04-06T07:19:00.000Z	sipior	arcanus	just remember to ensure that port forwarding is enabled on machine B :)

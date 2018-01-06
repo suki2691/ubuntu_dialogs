@@ -1,0 +1,4 @@
+2009-09-27T14:44:00.000Z	balduin		I have a problem with the onboard sound card on  the Gigabyte GA-P31-ES3G mainboard. aplay lists the card, according to alsamixer all channels are unmuted and the snd_hda_intel module sis loaded properly. does anyone have further hints on what to check? I'm using 9.04
+2009-09-27T14:44:00.000Z	balduin		oh sorry. problem is that i'm not getting any sound
+2009-09-27T14:46:00.000Z	stefg	balduin	there's probably some quirk required in modules.conf to make the card function. see the HoTo page if it is listed there
+2009-09-27T15:12:00.000Z	balduin	stefg	just wanted to say that I fixed the sound problem. OSS is now working after I changed the model parameter to something more fitting

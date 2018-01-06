@@ -1,0 +1,4 @@
+2005-05-22T12:59:00.000Z	sbcl3		will "sudo chmod a-x /etc/init.d/ntpdate" do nothing other than stop ubuntu form looking for the internet server at startup?
+2005-05-22T12:59:00.000Z	agh	sbcl3	that's an interesting approach
+2005-05-22T13:00:00.000Z	agh	sbcl3	the usual way to do that is 'rm /etc/rc*.d/S*ntpdate'
+2005-05-22T13:01:00.000Z	agh	sbcl3	nope the other way will work

@@ -1,0 +1,4 @@
+2006-07-09T07:39:00.000Z	tristanbob		in the cups web-interface - what credentials is it looking for? (Ubuntu 6.06)  I am trying to add a printer.
+2006-07-09T07:39:00.000Z	tristanbob		and I get a Username/Password prompt
+2006-07-09T07:41:00.000Z	tristanbob		so any ideas what credentials I need to use in the cups web interface?  I tried "root" and the sudo password
+2006-07-09T07:43:00.000Z	jrib	tristanbob	system > administration > printing is probably the best option.  If you really want the web interface, take a look at /usr/share/doc/cupsys/README.Debian.gz

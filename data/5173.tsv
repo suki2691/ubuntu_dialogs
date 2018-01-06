@@ -1,0 +1,4 @@
+2012-03-20T18:05:00.000Z	mcb_	playman	In /etc/samba/cmb.conf the tag WORKGROUP= <domain name>
+2012-03-20T18:06:00.000Z	mcb_		playman:: Also see if the setting domain master is set to yes. If so your samba is the domain master.
+2012-03-20T18:10:00.000Z	playman	mcb_	you mean the "domain logons"? it's uncommented (it has the ; sign in front of it)
+2012-03-20T18:11:00.000Z	mcb_	playman	Both # and ; characters comments lines in smb.conf

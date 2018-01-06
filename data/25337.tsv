@@ -1,0 +1,4 @@
+2011-12-25T21:48:00.000Z	speefak		hello
+2011-12-25T21:48:00.000Z	speefak		merry christmas @ll
+2011-12-25T21:49:00.000Z	speefak		does anyone know how i can get the moduleinfo which is loaded by the system, i got the hardwareinfo but i dont know which module is connecte with it
+2011-12-25T21:50:00.000Z	oCean	speefak	lspci -k  shows kernel module in use,  modinfo <modulename>  to get more info about said module

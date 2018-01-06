@@ -1,0 +1,4 @@
+2011-02-12T12:41:00.000Z	aaron_		if I run "sudo synaptic" then the password works fine, but if I select synaptic from the gui menu then the password is not accepted... any help?
+2011-02-12T12:43:00.000Z	bullgard	aaron_	May be restarting gdm will help. Otherwise look into /var/log/messages.
+2011-02-12T12:47:00.000Z	aaron_	bullgard	restarting gdm didn't work - I logged out in again, same issue
+2011-02-12T12:49:00.000Z	bullgard	aaron_	I don't know then. I'd look for an error message.

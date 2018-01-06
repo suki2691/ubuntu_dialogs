@@ -1,0 +1,4 @@
+2009-04-26T22:07:00.000Z	Jampiter		I have a laptop with a headphone socket, however, when I put in headphones (or external speakers) the sound cuts out entirely and there is no sound through the headphones. Removing the headphones restores sound. How can I fix this?
+2009-04-26T22:08:00.000Z	LadyBug	Jampiter	Check that headphone device is not muted in alsamixer
+2009-04-26T22:10:00.000Z	Jampiter	LadyBug	When I run Alsamixer, I have Master, PCM and Front at full volume and Mic and Mic Boost at 0. I have no microphone connected.
+2009-04-26T22:14:00.000Z	LadyBug	Jampiter	Yes, volume may be high, but is there an M letter in the bottom part of the volume bar designating muting? You should probably have kind of "Line Out" device.

@@ -1,0 +1,4 @@
+2009-07-20T23:15:00.000Z	Klavier		how can i restart a process with PS command?
+2009-07-20T23:16:00.000Z	grawity	Klavier	It's 'kill', not 'ps'.
+2009-07-20T23:16:00.000Z	grawity	Klavier	Even on BSD, it's 'kill'.
+2009-07-20T23:17:00.000Z	grawity	Klavier	-HUP also doesn't restart anything -- it's just that daemons usually interpret it as "Please reload your configuration".

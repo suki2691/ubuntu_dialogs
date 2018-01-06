@@ -1,0 +1,4 @@
+2008-12-31T03:16:00.000Z	wigren		Hi all. I maintain a web server that I ssh in to at work. I've noticed weird IP addresses trying to log in as root or a host of different names in /var/log/auth.log. how worried should I be. I'm running Xubuntu 8.04 with the latest updates.
+2008-12-31T03:16:00.000Z	eseven73	wigren	how many times has it happened?
+2008-12-31T03:18:00.000Z	wigren	eseven73	a few times a day. it happens in spurts. i think its a bot as it will try five to ten names a in 30 seconds
+2008-12-31T03:18:00.000Z	eseven73	wigren	plus too, if its a work server, maybe other employees have access to the ssh? (Although maybe not access to the web server) if this is the case, then its 'normal' to see a bunch of log in attempts from other IP's

@@ -1,0 +1,4 @@
+2012-10-04T21:37:00.000Z	tomasm-		how do i unpack a .deb file in the current directory, such as if i just need to extract one file without installing the whole thing?
+2012-10-04T21:38:00.000Z	theadmin	tomasm-	ar x something.deb data.tar.gz && tar xf data.tar.gz && rm data.tar.gz
+2012-10-04T21:38:00.000Z	tomasm-	theadmin	so a deb file is just a tar file?
+2012-10-04T21:39:00.000Z	theadmin	tomasm-	No, it's an ar archive with a bunch of other stuff in it, the actual "contents" (i.e. files that package installs) are in the "data.tar.gz" part of the archive.

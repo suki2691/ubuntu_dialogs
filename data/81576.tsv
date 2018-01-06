@@ -1,0 +1,4 @@
+2009-02-23T20:13:00.000Z	Jufis		I get an error when I try to mount Maxtor's external usb-harddrive. Do I need a driver to get it to mount?
+2009-02-23T20:13:00.000Z	ActionParsnip1	Jufis	nope, just mount it
+2009-02-23T20:15:00.000Z	ActionParsnip1	Jufis	sudo fdisk -l will show which /dev the drive it
+2009-02-23T20:15:00.000Z	ActionParsnip1	Jufis	you can then: sudo mkdir /media/maxtor;  sudo mount /dev/<whatever> /media/maxtor

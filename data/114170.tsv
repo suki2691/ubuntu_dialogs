@@ -1,0 +1,4 @@
+2007-11-15T05:32:00.000Z	Nejko		Hi, since I've installed the nvidia restricted drivers update, I'm having this anoying startup logo/screen from Nvidia, how do I turn this off?
+2007-11-15T05:34:00.000Z	Nejko		Hi, since I've installed the nvidia restricted drivers update, I'm having this anoying startup logo/screen from Nvidia, how do I turn this off?
+2007-11-15T05:34:00.000Z	DownhillGames	Nejko	gksu gedit /etc/X11/xorg.conf   in the device nvidia section add Option "Nologo" "on"
+2007-11-15T05:35:00.000Z	DownhillGames	Nejko	google in case I f'ed up the exact spelling or something on that.. but yeah

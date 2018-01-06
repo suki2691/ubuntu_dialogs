@@ -1,0 +1,4 @@
+2009-07-08T20:51:00.000Z	comatsu		dd of a 40gig drive fails at about 4.3gb (dd: writing `/media/sda3/test1/1.img': File too large) what am i doing wrong?
+2009-07-08T20:52:00.000Z	Pici	comatsu	What filesystem is sda3 on?
+2009-07-08T20:52:00.000Z	Pici	comatsu	Likely you've hit the maximum filesize for that filesystem.
+2009-07-08T20:53:00.000Z	Pici	comatsu	Not unless you have another place to put that disk image.

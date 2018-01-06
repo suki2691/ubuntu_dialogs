@@ -1,0 +1,4 @@
+2008-01-18T13:26:00.000Z	darkblue_B		I have two internal drives, partioned similarly. Last November I instaled/copied my setup over to the 2nd drive. I just restarted my *remote* machine, and it booted on the old drive. Is there a way I can control which drive starts, remotely?
+2008-01-18T13:27:00.000Z	Rubin	darkblue_B	kinda. you can put them both in grub, and modify grub before rebooting
+2008-01-18T13:27:00.000Z	Rubin	darkblue_B	change the default boot partition..
+2008-01-18T13:28:00.000Z	Rubin	darkblue_B	man grub maybe. but its complicated...

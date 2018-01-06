@@ -1,0 +1,4 @@
+2007-05-08T08:44:00.000Z	reubs		Is there a way that I can force a user to logout? eg i'm logged on remotely, and want to kill a session i forgot to logout of.
+2007-05-08T08:45:00.000Z	madduck	reubs	kill -9 the shell?
+2007-05-08T08:48:00.000Z	reubs	madduck	i'm trying to end a Xsession. but have remote shell access. are you saying i should kill -9 the xserver?
+2007-05-08T08:50:00.000Z	madduck	reubs	/etc/init.d/gdm stop?

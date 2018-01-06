@@ -1,0 +1,4 @@
+2010-05-04T01:27:00.000Z	tylo		Hello. Can anyone explain why GCC would be reporting that I don't have "math.h" functions, even though I have #include <math.h> at the top of my C program?
+2010-05-04T01:28:00.000Z	kjele	tylo	in C you need to include it. With C++ you do not confusing?
+2010-05-04T01:28:00.000Z	kjele	tylo	That would mean when you compile it you need to use the I flag to the path to where math.h is installed
+2010-05-04T01:31:00.000Z	kjele	tylo	use -lm flag to compile like . gcc -lm -o bo bo.c

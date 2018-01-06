@@ -1,0 +1,4 @@
+2011-02-07T18:02:00.000Z	lieuwe		i'm trying to set a mailserver up on my server, but for some reason when mailing something to it, i get a "delivery delayed" message the next day, and a "delivery failed" message the day after that, what gives?
+2011-02-07T18:03:00.000Z	Dominique	lieuwe	less /var/log/mail.log ? should give you some info
+2011-02-07T18:07:00.000Z	Dominique	lieuwe	did you check the log?
+2011-02-07T18:07:00.000Z	lieuwe	Dominique	yes, "no route to host": http://codepad.org/R42mWHep

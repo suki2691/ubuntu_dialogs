@@ -1,0 +1,4 @@
+2006-12-30T15:15:00.000Z	coolrazor007		Any apache2 guys in here?  I could use a hand with something...
+2006-12-30T08:01:00.000Z	coolrazor007		With a default install of ubuntu server, I installed openssh server, but when I try to connect it says "connection refused"  Why?
+2006-12-30T08:01:00.000Z	enyc	coolrazor007	first logon to the ubuntu-server... and check "netstat -ltn"
+2006-12-30T08:02:00.000Z	enyc	coolrazor007	this allows you to see what tcp ports are listening

@@ -1,0 +1,4 @@
+2007-05-21T08:55:00.000Z	jsmidt		I want to mount a cdrom.  How do I know where it is on my computer?  I thought it was supposed to be in /dev/hda, but the terminal says it doesn't exist.  Does anybody know how I can find it?
+2007-05-21T08:57:00.000Z	Frogzoo	jsmidt	hal should just pick it up - insert a cd & see what happens
+2007-05-21T08:59:00.000Z	jsmidt	Frogzoo	hal does pick it up, I just need to mount it as root.  So I need to umount then mount.  I am trying to figure out how to do that.
+2007-05-21T09:01:00.000Z	Frogzoo	jsmidt	you don't need to mount it as root, you just need to be a member of cdrom group

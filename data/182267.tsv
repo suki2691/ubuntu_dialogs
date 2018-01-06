@@ -1,0 +1,4 @@
+2006-09-21T16:49:00.000Z	philipsmith		I'm trying to use remote desktop to access an XP machine on my network. The XP machine is set up properly and the firewall allows remote access. When I use Remote Desktop and put the computer name, username, and password in, I get an error box: unresolved host. What am I doing wrong?
+2006-09-21T16:51:00.000Z	stefg	philipsmith	there's no dns setup... either you call the xp machine by its IP instead of the name, or you have to enter the name and ip into /etc/hosts
+2007-08-31T05:00:00.000Z	stefg	philipsmith	open the case and look ? :-)  errrr, cat /proc/meminfo | grep MemTotal might be easier
+2007-08-31T05:02:00.000Z	philipsmith	stefg	Thank you!

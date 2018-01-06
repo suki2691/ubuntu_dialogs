@@ -1,0 +1,4 @@
+2009-01-27T05:13:00.000Z	Halai		I am experiencing a bug which is exactly the same as described in Bug 225975 in Launchpad. The issue has been confirmed resolved but I'm not sure how to resolve it on my end. Could someone help me out please
+2009-01-27T05:15:00.000Z	Halai		How do I go about going from kernel linux-image-2.6.27-* to linux-image-2.6.26-*
+2009-01-27T05:16:00.000Z	pike_	Halai	ls /boot and see if it is already installed as an old kernel if that is the case then you can just replace the kernel name and initrc in /boot/grub/menu.lst
+2009-01-27T05:16:00.000Z	pike_	Halai	by gksudo gedit /boot/grub/menu.lst

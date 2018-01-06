@@ -1,0 +1,4 @@
+2007-06-07T05:48:00.000Z	dudubs		How i can to set a my default to boot loader??????? thanks.
+2007-06-07T05:49:00.000Z	dudubs		I want to set winxp to default from ubuntu
+2007-06-07T05:49:00.000Z	dudubs		have it manager?
+2007-06-07T05:50:00.000Z	jrib	dudubs	do this: 'gksudo gedit /boot/grub/menu.lst' and modify the line that begins "default" appropriately

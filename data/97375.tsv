@@ -1,0 +1,4 @@
+2008-03-14T19:17:00.000Z	mikromakro		hey, I tried to install ubuntu on my laptop, but when I booted the cd, I got a message that said that there is no access to the tty, and that the job controll is off. . . .anyone know anything about that?
+2008-03-14T19:18:00.000Z	mikromakro		It happenned before ubuntu was able to boot into X
+2008-03-14T19:18:00.000Z	Jack_Sparrow	mikromakro	It may be a bug which would turn up under a google search for your hardware and ubuntu or tyr this..   At start or install press F6 and remove Quiet and Splash from the command line. If it still fails repeat and add noapic acpi=off before the "--"
+2008-03-14T19:36:00.000Z	mikromakro	Jack_Sparrow	I tried the F6 approach. I didnt find much on "Ubuntu on an aspire2920". I didnt quite get how to turn off the splash and the quiet options...

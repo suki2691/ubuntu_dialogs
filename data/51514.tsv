@@ -1,0 +1,4 @@
+2009-08-02T00:04:00.000Z	Flannel	Bjornlaf	With more recent versions, sometimes mappings are wonky.  IDE and SATA are both sd* and depending on your situation IDE might be before, or after SATA.  I'd play around with the root entries in your menu.lst (assuming we've gotten to the menu.lst?)  If you don't see a menu.lst, then you've got a similar problem, albeit earlier, where stage1 isn't finding your boot stuff (isn't finding stage 2)
+2009-08-02T00:10:00.000Z	Bjornlaf	Flannel	i have a menu.lst, the uuid's and entries look correct. I've tried manually setting grub again to hd2,1 which is the partition i installed the os to
+2009-08-02T00:11:00.000Z	Bjornlaf	Flannel	my primary hdd is /dev/sdc and it's partitioned into /dev/sdc1 <2gb swap> and /dev/sdc2 <118gb />
+2009-08-02T00:23:00.000Z	Bjornlaf	Flannel	any more suggestions? i've even tried doing root (hd2,1) and setup (hd0) and that still gets me the error 15 after it says Grub Loading Stage 1.5.

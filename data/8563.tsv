@@ -1,0 +1,4 @@
+2011-12-02T14:42:00.000Z	slobro		My ISP had some problems on their end, and they restarted my connection. now when I start my computer, my conky script tells me that eth0 has no interface. when i put ifconfig eth0 down, and then up, it starts but doesnt connect to my adsl box. theres 2 other computers connected to the same box, and they work just fine..
+2011-12-02T14:42:00.000Z	slobro		anyone have any clues? s:
+2011-12-02T14:43:00.000Z	deej1976	slobro	does ifconfig -a show the correct information
+2011-12-02T14:45:00.000Z	slobro	deej1976	yeah.. except any IPs.. the lo interface shows inet addr and mask.

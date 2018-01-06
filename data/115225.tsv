@@ -1,0 +1,4 @@
+2008-01-22T14:56:00.000Z	genewitch		does anyone know what repo i have to add to get the devel packages for the stuff i have installed?
+2008-01-22T14:56:00.000Z	genewitch		like kernel devel and xf86-devel
+2008-01-22T14:57:00.000Z	genewitch		what's the linux kernel package called then, cause make xconfig is failing
+2008-01-22T14:59:00.000Z	achadwick	genewitch	packages related to your kernel: COLUMNS=300 dpkg -l "*`uname -r`*"

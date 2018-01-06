@@ -1,0 +1,4 @@
+2012-09-06T00:25:00.000Z	makezan		http://pastie.org/4670071 guntbert MonkeyDust
+2012-09-06T00:26:00.000Z	makezan		hey I'm also missing a logic. And bare with me if this sounds stupid, but if on the client, you can just ssh-copy-id that means anyone can just copy their id to your server and allow themselves to ssh into it. what's the flaw in that logic?
+2012-09-06T00:27:00.000Z	kurtwp_	makezan	you first need to get into the server to copy the rsa_id keys over
+2012-09-06T00:29:00.000Z	makezan	kurtwp_	guntbert dr_willis i'm not at machine I was connected through vnc and lost the connection due to a copy paste bug remmina has. but I will switch the config to allow passwords first, then try to copy ssh id, then disable passwords, then try to ssh.

@@ -1,0 +1,4 @@
+2008-01-11T04:31:00.000Z	Rian-Davide		Hey Im having trouble finding this package linux-headers-'uname -r' can anyone help me?
+2008-01-11T04:31:00.000Z	jrib	Rian-Davide	you want ` not '
+2008-01-11T04:32:00.000Z	Rian-Davide	jrib	sry what do I want again? lol
+2008-01-11T04:32:00.000Z	jrib	Rian-Davide	you want linux-headers-$(uname -r)   the $(uname -r) is replaced by the output of the command   uname -r   automatically

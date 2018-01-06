@@ -1,0 +1,4 @@
+2010-08-28T19:39:00.000Z	xzil0		Any1 learned about buffer overflows from this tut http://insecure.org/stf/mudge_buffer_overflow_tutorial.html ?  i tried to follow this tut on ubuntu 10.04 but i'm not getting "Segmentation fault" and gdb is not working like in tutorial. should i get some older linux distro or it can be done in ubuntu 10.04? I tried ubuntu 5.04 and i'm not getting "Segmentation fault". pls help :(
+2010-08-28T19:40:00.000Z	xzil0		ok tnx
+2010-08-28T19:41:00.000Z	xzil0		buffer is 4028 when i changed the 4028 to 40280 in for loop i got segmentation fault.
+2010-08-28T19:42:00.000Z	lq	xzil0	add a line "buffer[2048]='\0'" after the FOR circle.

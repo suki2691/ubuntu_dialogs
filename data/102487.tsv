@@ -1,0 +1,4 @@
+2010-03-17T11:08:00.000Z	mlkovacs		Does anyone know how to autologin the keyring  when I login to my desktop? its very annoying.
+2010-03-17T11:08:00.000Z	rww	mlkovacs	Do you login to the desktop automatically, or do you need to give your username and password when you start up?
+2010-03-17T11:10:00.000Z	rww	mlkovacs	The only way you'd be able to unlock the keyring without the password is by changing your keyring's password to be blank. This is insecure, because it means anyone with access to your computer can get information from it, but I can give you instructions if that's what you want.
+2010-03-17T11:11:00.000Z	rww	mlkovacs	correct. If you turn off autologin, you'll get asked to login by the GDM login manager, which will pass that password to the keyring manager (assuming they're the same password).

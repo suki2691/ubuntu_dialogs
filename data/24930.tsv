@@ -1,0 +1,4 @@
+2010-10-13T00:37:00.000Z	gilaniali		Is it possible that whenever i add a new user, another series of actions executes? like creating a folder such as docs in the users home directory
+2010-10-13T00:38:00.000Z	ActionParsnip	gilaniali	you can create an alias or script to use instead
+2010-10-13T00:38:00.000Z	gilaniali	ActionParsnip	so it cant be that everytime i use adduser, uer, it also creates a folder?
+2010-10-13T00:39:00.000Z	ActionParsnip	gilaniali	sure, just make a script to make users and it will be used, you can send the script variables (known as args) and reference than as $1 $2 and so on

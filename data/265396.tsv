@@ -1,0 +1,4 @@
+2007-01-12T06:37:00.000Z	capiira		anyone know a site that explains how to remove the boot and shutdown splash and restore the text mode? i owuld like to see what my system is doing!
+2007-01-12T06:38:00.000Z	Tomcat_	capiira	Just remove "quiet" and "splash" from /boot/grub/menu.lst from your kernel lines
+2007-01-12T06:38:00.000Z	Tomcat_	capiira	Not absolutely sure, but I guess yes.
+2007-01-12T06:39:00.000Z	Tomcat_	capiira	You can test by using the "e" key in grub when booting... remove splash and quiet there.

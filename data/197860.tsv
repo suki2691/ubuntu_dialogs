@@ -1,0 +1,4 @@
+2006-03-04T14:32:00.000Z	DaleStan		Any hints on where might I find rename(1)? I installed the server version of Ubuntu, but it does not come with rename, and sudo apt-get install fileutils did exactly nothing. (It selected coreutils instead and then informed me I had the latest version of coreutils.)
+2006-03-04T14:33:00.000Z	Agent_bob	DaleStan	apt-cache search is your friend.
+2006-03-04T14:34:00.000Z	Agent_bob	DaleStan	also setup apt to use the repos
+2006-03-04T15:00:00.000Z	DaleStan	Agent_bob	apt-cache search <what>? rename and fileutils return nothing interesting. ... also setup apt to use the repos <-- Expand, please? I saw nothing that looked interesting (both grep and vgrep for repo) in either man apt.conf or /usr/share/docs/apt/examples/apt.conf

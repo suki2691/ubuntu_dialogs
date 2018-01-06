@@ -1,0 +1,4 @@
+2011-05-23T07:09:00.000Z	retf		cause itt used to be that everyone's first drive was called /dev/hda but then they switched it to /dev/sda for some reason
+2011-05-23T07:10:00.000Z	retf		so i think all the stuff showing hd0 is from back then
+2011-05-23T07:10:00.000Z	Aginor	retf	they switched it with SATA, which works pretty much like scsi, so it uses the same naming convention as the scsi devices
+2011-05-23T07:11:00.000Z	Aginor	retf	hd<n> devices are IDE devices

@@ -1,0 +1,4 @@
+2010-01-06T17:40:00.000Z	crash2108		I have custom drivers that make a serial port at /dev/ttyHS0-2.  How do I "rename" the serial port to TTY1?
+2010-01-06T17:40:00.000Z	edeca	crash2108	You can either symlink or write udev rules
+2010-01-06T17:43:00.000Z	crash2108	edeca	Can you exlain that in more detail?  I'm actually using "HSO" drivers for Globetrotter 3G GRPS/GPS.  Trying to get the GPS output with GPSd.  Can see the NMEA output in Putty but I don't think most programs support the alternate serial port.
+2010-01-06T17:44:00.000Z	edeca	crash2108	I'm unsure completely, but basically when a new device is created the udev rules in /etc/udev device what names it will have

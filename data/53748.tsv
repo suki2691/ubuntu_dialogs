@@ -1,0 +1,4 @@
+2009-12-10T02:29:00.000Z	snow_ru		hi , how to identify th e disk data transfer rate  & disk seek time & disk rotational latency in ubuntu ?
+2009-12-10T02:30:00.000Z	squircle	snow_ru	sudo hdparm -tT /dev/sdx
+2009-12-10T02:32:00.000Z	snow_ru	squircle	it's disk read
+2009-12-10T02:32:00.000Z	squircle	snow_ru	then I don't know; maybe somebody does.

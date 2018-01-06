@@ -1,0 +1,4 @@
+2008-01-23T07:57:00.000Z	Meshezabeel		greetings, I am trying to move a selection in GIMP, in the manual it says to hold ALT+SHIFT+Left Mouse, but when I do this, it moves my whole window. Is ubuntu somehow taking control away from GIMP with this shortcut? And if so, how can I disable it so I can use it in GIMP?
+2008-01-23T07:58:00.000Z	genii	Meshezabeel	I'm pretty sure that is a compiz shortcut
+2008-01-23T07:59:00.000Z	Meshezabeel	genii	hmm, how do I disable compiz, I went to system -> Preferences -> Appearance and set the Visual Effects to "NONE". I assumed this disabled compiz, but maybe not.
+2008-01-23T08:02:00.000Z	genii	Meshezabeel	alt-f2 then gnome-wm --replace                    to enable compiz after again: alt-f2 compiz --replace

@@ -1,0 +1,4 @@
+2007-08-15T05:27:00.000Z	warbird_		hey, i got a problem deleteing a partition from a usb stick. parted tells me "unable to open /dev/sdb read-write (read-only filesystem)"
+2007-08-15T05:27:00.000Z	warbird_		anyone got any hints for that?
+2007-08-15T05:27:00.000Z	dystopianray	warbird_	you need to run parted as root
+2007-08-15T05:27:00.000Z	dystopianray	warbird_	and make sure the 'read only' switch is not set on the usb stick

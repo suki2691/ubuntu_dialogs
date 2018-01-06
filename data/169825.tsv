@@ -1,0 +1,4 @@
+2006-08-25T07:08:00.000Z	jman888_		 How can i make the drive stuff gets installed to when i apt-get change(The normal drive is full 90% (And its a 4gb drive)
+2006-08-25T07:08:00.000Z	cafuego	jman888_	'sudo apt-get (auto)clean' will clear the cache.
+2006-08-25T07:09:00.000Z	jman888_	cafuego	Yeah but how do i set the Drive Ubuntu downloads stuff to /hd2
+2006-08-25T07:10:00.000Z	cafuego	jman888_	You cna make /var/cache/apt/archives a symlink that points at whereever.

@@ -1,0 +1,4 @@
+2011-06-17T07:36:00.000Z	lee__		what's the meaning of "$?==1" in bash
+2011-06-17T07:37:00.000Z	escott	lee__	the last programs exit code (usually 0 is success)
+2011-06-17T07:45:00.000Z	escott	lee__	if a program fails like rm file_that_doesnt_exist then $? =1 will be different than after it succeeds (touch foo; rm foo; echo $? = 0)
+2011-06-17T07:48:00.000Z	escott	lee__	np

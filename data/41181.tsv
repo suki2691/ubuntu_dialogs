@@ -1,0 +1,4 @@
+2009-12-09T23:17:00.000Z	unesco		hi. i messed up my grub2 and now i'm losing it. how can i restore grub ? output http://paste.ubuntu.com/338158/
+2009-12-09T23:18:00.000Z	chai_	unesco	have you tried apt-get remove --purge then reinstalling?
+2009-12-09T23:19:00.000Z	unesco	chai_	: what should i write on terminal?
+2009-12-09T23:20:00.000Z	chai_	unesco	you shouldn't copy other peoples script directly in case we are full of shit, but "sudo apt-get remove --purge grub ; sudo apt-get install grub"

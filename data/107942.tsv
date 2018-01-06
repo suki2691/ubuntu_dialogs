@@ -1,0 +1,4 @@
+2008-02-05T10:59:00.000Z	J_Humphrey		how do I find out what the current mount point/name is for current partitions?
+2008-02-05T10:59:00.000Z	norv	J_Humphrey	df
+2008-02-05T11:00:00.000Z	norv	J_Humphrey	all except swap partitions, for those use cat /proc/swaps
+2008-02-05T11:31:00.000Z	norv	J_Humphrey	you can boot up into rescue mode or make init=/bin/sh

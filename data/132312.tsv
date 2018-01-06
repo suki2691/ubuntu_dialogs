@@ -1,0 +1,4 @@
+2010-08-19T05:45:00.000Z	R-learner		so I can ssh into port 88 ?
+2010-08-19T05:46:00.000Z	bastid_raZor	R-learner	yes, edit /etc/ssh/sshd_config
+2010-08-19T05:48:00.000Z	R-learner	KE1HA	yes I do own it, so can I change the Port from 22 to 88 in the file /etc/ssh/sshd_config and restart ssh it should work fine ?
+2010-08-19T05:49:00.000Z	bastid_raZor	R-learner	if you're behind a router you will need to portfoward the port to your internal ip as well.

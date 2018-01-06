@@ -1,0 +1,4 @@
+2012-08-28T16:49:00.000Z	munsking		hello, i work with FTP a lot, but i dont want to save the login data on every client computer i have, is there any way for me to save that stuff on my ubuntu server and somehow auto-connect to my ftp servers through that?
+2012-08-28T16:50:00.000Z	munsking		or mount ftp/sftp directories in my users home folder?
+2012-08-28T16:52:00.000Z	gordonjcp	munsking	first off, ditch FTP and use SFTP
+2012-08-28T16:58:00.000Z	gordonjcp	munsking	the real problem with FTP is that it requires both the server *and* the client to allow arbitrary users to write to anywhere in the filesystem

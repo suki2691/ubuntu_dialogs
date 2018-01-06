@@ -1,0 +1,4 @@
+2006-01-13T15:26:00.000Z	Mr_Molez		how do i take something out of runlevel at command prompt ?
+2006-01-13T15:27:00.000Z	Mr_Molez		how do i take something out of runlevel at command prompt ?
+2006-01-13T15:29:00.000Z	Mr_Molez		anyone know how i can stop cupsd starting at boot ? from commandline ?
+2006-01-13T15:29:00.000Z	Falstius	Mr_Molez	you can delete the link from /etc/init.d/rcS.d or you can use update-rc.d

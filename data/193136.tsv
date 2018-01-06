@@ -1,0 +1,4 @@
+2006-04-02T15:22:00.000Z	ic56	Josh43	re: case-insensitive filename sorting.  You have 2 options: (1) write yourself a one-line script like so: ls "0" |sort .  (2) set the internationalization environment variables.  I forget the name of the variable now but it will cause all of unix to obey human-language rules for sorting.
+2006-04-02T15:23:00.000Z	ic56	Josh43	s/"0"/"$@"/
+2006-04-02T15:26:00.000Z	ic56	Josh43	assuming nautilus and others are using ls rather than calling libc directly (not likely, but it's worth a shot), try this: mv /bin/ls /bin/ls.bin; echo /bin/ls.bin \"\$@\" |sort -i > /bin/ls
+2006-04-02T15:28:00.000Z	ic56	Josh43	found it!  You want to modify LC_COLLATE.

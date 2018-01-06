@@ -1,0 +1,4 @@
+2009-04-24T09:50:00.000Z	kevlyn		I have just upgraded to 9.04. I had several applications installed through 3rd party PPA's but after the upgrade it appears that all the programs have been removed. I have updated the sources and now they are all valid. Is there an easy way to have apt reinstall all the apps it removed?
+2009-04-24T09:51:00.000Z	mindframe	kevlyn	you need to wait until those 3rd party repos have jaunty repos
+2009-04-24T09:52:00.000Z	mindframe	kevlyn	or make sure you uncomment the 3rd party repos in /etc/apt/sources.list
+2009-04-24T09:53:00.000Z	kevlyn	mindframe	I have updated them so they are picking up the jaunty repos and they are valid but the apps didn't automatically reinstall, I can install them manually but was looking for an easy way to automatically grab them all

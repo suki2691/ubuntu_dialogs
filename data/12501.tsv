@@ -1,0 +1,4 @@
+2012-04-02T19:19:00.000Z	blackthor		so, hmmm i'll repeat my question, since nobody responded
+2012-04-02T19:19:00.000Z	blackthor		is there any way to map detected iscsi devices to a fixed devicename ?   i have a NAS which i use openiscsi to connect with (it has 2 volumes). everything fine, except every month or 2 the 2 volumes (/dev/sdb1 and /dev/sdc1)  get swapped.   any ideas? thanks
+2012-04-02T19:20:00.000Z	zykotick9	blackthor	is there a way to use UUIDs or Labels instead of device names?
+2012-04-02T19:20:00.000Z	zykotick9	blackthor	device names cannot be relied on (as you have experienced) they change

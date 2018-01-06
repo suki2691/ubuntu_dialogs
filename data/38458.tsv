@@ -1,0 +1,4 @@
+2010-05-15T07:59:00.000Z	DarkDigitalDream		I was trying to give read/write permissions to all files in a directory for members of a certain group. "chmod -R g=rw dir". Now the group permissions of all subdirectories read "rwS". What is this S and why can only root access them?
+2010-05-15T08:01:00.000Z	hmw	DarkDigitalDream	the "S" must be that SUID bit, meaning a file called by a user without sudo will still run as super user. That's all _I_ can tell you abtou that
+2010-05-15T08:02:00.000Z	DarkDigitalDream	hmw	you wouldnt know how to... you know... undo this at least? set it back to old "r _ _"? When I try it the S doesnt leave. lol. I'm thinking it might be easier to delete the directory tree and start over at this point
+2010-05-15T08:02:00.000Z	hmw	DarkDigitalDream	i never acutally used that SUID bit myself, only read about. man chmod

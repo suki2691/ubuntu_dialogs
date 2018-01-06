@@ -1,0 +1,4 @@
+2006-12-19T12:04:00.000Z	Railer		hey i have weird problem, ff is not getting out after putting on a new router, it worked fine on the old router, but I can still ping locally no problem, and other computers can get out no problem, any suggestions?
+2006-12-19T12:05:00.000Z	Railer		ok
+2006-12-19T12:05:00.000Z	bulmer	Railer	you allow on your router to forward
+2006-12-19T12:09:00.000Z	bulmer	Railer	 type this   iptables -vL  and it will show if you have firewalls enabled

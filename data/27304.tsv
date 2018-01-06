@@ -1,0 +1,4 @@
+2010-08-29T19:48:00.000Z	houserockr		is there any way to influence the compositing behavior of metacity (i.e. the built-in compositing of metacity)? I would like to disable thumbnails in the window-switcher (ALT+TAB)???
+2010-08-29T19:50:00.000Z	houserockr		i mean, thumbnails in the window-switcher are a nice feature, as long as they don't need five minutes to be created at first
+2010-08-29T19:52:00.000Z	geirha	houserockr	gconf-editor -> /apps/metacity/general/  There's an option called reduced_resources, maybe that'll do what you want?
+2010-08-29T19:53:00.000Z	houserockr	geirha	nope, unfortunately, this doesn't turn off the thumbnails

@@ -1,0 +1,4 @@
+2009-08-21T04:02:00.000Z	Fenyx		I'm trying to setup a second raid on my machine. I'm running 'sudo modprobe md' but I get this error message 'FATAL: Module md not found.' Anyone know why? It worked a couple years ago when I set the first raid up.
+2009-08-21T04:02:00.000Z	iceroot	Fenyx	maybe you mean dmraid?
+2009-08-21T04:02:00.000Z	iceroot	Fenyx	or was it mdraid? doesnt know anymore
+2009-08-21T04:04:00.000Z	iceroot	Fenyx	sudo apt-get install dmraid

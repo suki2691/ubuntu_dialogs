@@ -1,0 +1,4 @@
+2009-05-25T08:12:00.000Z	henux		i created a gpg key via `gpg --gen-key`. now i would like to know the "key ID" somehow so that i can set my GPGKEY environment variable. how?
+2009-05-25T08:12:00.000Z	lstarnes	henux	check gpg --list-keys
+2009-05-25T08:12:00.000Z	henux	lstarnes	which of those numbers is the key id?
+2009-05-25T08:13:00.000Z	lstarnes	henux	the public key or the private key?  Which numbers are shown?

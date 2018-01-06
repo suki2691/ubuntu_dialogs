@@ -1,0 +1,4 @@
+2010-10-06T16:36:00.000Z	mepmep		I've installed 10.04 UNR, which doesn't have gcc installed by default and it doesn't support any network cards in my netbook (AR8132 and broadcom wifi) without compiling a driver which needs gcc, and I can't download gcc without the network. Is there any way to install gcc when doing a fresh install from the netbook 10.04 image? aside from mounting the usb disk and using it as an apt source -
+2010-10-06T16:36:00.000Z	mepmep		which didn't work. Or is there a UNR which includes gcc by default?
+2010-10-06T16:37:00.000Z	Dr_Willis	mepmep	 ive seen none that include it by default.
+2010-10-06T16:45:00.000Z	mepmep	Dr_Willis	yeah it's a crappy NIC in there which is supported but the included drivers in ubuntu are buggy and don't work

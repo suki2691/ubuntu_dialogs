@@ -1,0 +1,4 @@
+2010-08-06T01:45:00.000Z	jd__		Lise_ : Try Anjunta
+2010-08-06T01:47:00.000Z	jd__		can a dedicated swap file be used to increase vm guest performance in w/ workstation 7?
+2010-08-06T01:49:00.000Z	thune3	jd__	i personally don't see how it could increase the performance of the vm itself (unless the VM has fixed memory and is running out). Limiting the memory and setting dedicated swap (if your vm does that), would seem to be a way of preventing the vm from taking over your system memory, which reduces the performance outside the vm.
+2010-08-06T01:56:00.000Z	thune3	jd__	sounds worth trying. limit the vm memory to 2-3gig (let's say), and give it a big swapfile. (if your vm supports this). Worth a try I would say.

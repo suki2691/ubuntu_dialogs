@@ -1,0 +1,4 @@
+2011-05-17T18:55:00.000Z	Master69		Hello guys. Does anyone knows how to get the cvs package from windows to ubuntu after you have downloaded it onto windows?
+2011-05-17T18:56:00.000Z	MonkeyDust	Master69	in linux, mount the windows partition and copy it from there
+2011-05-17T19:06:00.000Z	MonkeyDust	Master69	use sudo fdisk -l to see what partition Windows is on, then mount that partition to a mount point
+2011-05-17T19:07:00.000Z	MonkeyDust	Master69	https://help.ubuntu.com/community/Mount

@@ -1,0 +1,4 @@
+2009-05-01T13:15:00.000Z	DJones	emiltin	This blog post should help you keeping an SSH connection alive http://pthree.org/2008/04/16/keeping-your-ssh-connection-alive/
+2009-05-01T13:16:00.000Z	emiltin	DJones	thanks!
+2009-05-01T13:17:00.000Z	emiltin	DJones	but is there a setting i can change on my server, instead passing in options when i ssh?
+2009-05-01T13:21:00.000Z	DJones	emiltin	This is a more detailed guide, https://help.ubuntu.com/community/SSHHowto#Using%20the%20command-line Look under the using the command line section (section 3.1.1.1 on the menu) it explains how to modify your ssh config file to keep the connection alive by adding "ServerAliveInterval 120"

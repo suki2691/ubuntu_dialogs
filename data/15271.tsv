@@ -1,0 +1,4 @@
+2012-09-22T01:24:00.000Z	techkid6		there a command to add people to sudoers?
+2012-09-22T01:24:00.000Z	techkid6		or do i have to do it manually
+2012-09-22T01:24:00.000Z	escott	techkid6	sudo usermod -aG admin username
+2012-09-22T01:25:00.000Z	escott	techkid6	with 12.04 there is the "sudo" group instead of "admin"

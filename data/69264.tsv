@@ -1,0 +1,4 @@
+2009-01-11T19:11:00.000Z	Hovefirse		oCean: Speaking about mounting...I have a server running in command line mode, no GUI. When I plug an external hard drive into it, I'd like it always to be mapped tu the same /dev/sd*-file. Is this possible?
+2009-01-11T19:13:00.000Z	oCean_	Hovefirse	by using filesystem labels, you can
+2009-01-11T19:14:00.000Z	oCean_	Hovefirse	so, when formatting the drive you can add a label (or use command e2label). Then you can specify that label in the /etc/fstab
+2009-01-11T19:15:00.000Z	oCean_	Hovefirse	type e2label and fstab in google and see :)

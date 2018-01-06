@@ -1,0 +1,4 @@
+2012-08-14T02:03:00.000Z	guest12345		hi all, I am having a problem with domU's having network access through a bridge...I am using Ubuntu 12.04, setup bridge xenbr0 in /etc/network/interfaces...when I create a guest using xl create <configfile> the guest boots fine, but doesn't receive a dhcp response...I can see on the dhcp server that it is receiving and sending out an ip address, but it never reaches the domU
+2012-08-14T02:03:00.000Z	guest12345		does anybody have a working setup that can show me what their iptables rules look like? That way I can compare it to what I have and rule that out as an issue
+2012-08-14T02:05:00.000Z	MonkeyDust	guest12345	 i think you could better ask in #networking
+2012-08-14T02:05:00.000Z	guest12345	MonkeyDust	will do, Thanks!

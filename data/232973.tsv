@@ -1,0 +1,4 @@
+2009-09-30T21:28:00.000Z	Beardbar		I have a client running a website on ubuntu that has been infected with malware, I want to remove the iframe that was placed on every php and html file. does anyone know how I could do this via the command prompt?
+2009-09-30T21:29:00.000Z	Beardbar		yes a single line which is an iframe
+2009-09-30T21:30:00.000Z	Beardbar		on every file of the site, which is about 35k plus files :( ya sure
+2009-09-30T21:30:00.000Z	erUSUL	Beardbar	a little sed oneliner that removes the line and find would be able to do it ...

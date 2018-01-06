@@ -1,0 +1,4 @@
+2006-08-06T12:52:00.000Z	fistandantilus		i just had NAT running, restarted, get ethernet lights on the machines and on the hub and use static ip's and they cant ping each other, what happened? ive tried two hubs, even have both firewalls turned off to check quick and it didnt help .. says destination host is unreachable?
+2006-08-06T12:53:00.000Z	fyrestrtr	fistandantilus	check your default gateway
+2006-08-06T12:53:00.000Z	fistandantilus	fyrestrtr	its set to the ip of the machine with internet
+2006-08-06T12:54:00.000Z	fyrestrtr	fistandantilus	type tracepath [your router ip] 

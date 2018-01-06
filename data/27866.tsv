@@ -1,0 +1,4 @@
+2011-04-15T02:38:00.000Z	el_seano	ActionParsnip	great handle :)
+2012-01-31T14:13:00.000Z	ActionParsnip	el_seano	I imagine its for privacy on $HOME as the group ownership can be set to the user as well
+2012-01-31T14:14:00.000Z	el_seano	ActionParsnip	ah, that makes sense. Keep an open umask without having to worry about unwary users opening their files.
+2012-01-31T14:15:00.000Z	ActionParsnip	el_seano	you can set o-rwx on $HOME and only the owning user will get access, you can of course make another group and add your user and other users to control whom has access

@@ -1,0 +1,4 @@
+2005-09-10T05:50:00.000Z	robertbb		I have a working FAT32 partition that is able to be seen/read by Windows and GNU/Linux.  However, under GNU/Linux, it is only able to be written to by user root (despite the ownership of the directory to which it is mounted being robertbb:robertbb).
+2005-09-10T05:50:00.000Z	robertbb		Permissions are also 777.
+2005-09-10T05:50:00.000Z	robertbb		Anyone experienced a problem like this?
+2005-09-10T05:51:00.000Z	thrush_2	robertbb	 see https://wiki.ubuntu.com/AutomaticallyMountMSWindowsPartitions

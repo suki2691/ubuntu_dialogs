@@ -1,0 +1,4 @@
+2007-01-15T06:25:00.000Z	koert		hi guys listen i have a question not regarding ubuntu... does anyone know of a utility that can be used to download all files of certain types from a website?
+2007-01-15T06:25:00.000Z	tonyyarusso	koert	wget and httrack are worth considering, not sure how with the latter.
+2007-01-15T06:29:00.000Z	koert	tonyyarusso	so if i for instance want to download all the *.txt files from a site, WGet can do it?
+2007-01-15T06:30:00.000Z	tonyyarusso	koert	It's possible.  I think it requires the directory listing option to be enabled in the apache configuration, but if so, most likely yes.

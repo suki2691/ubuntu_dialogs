@@ -1,0 +1,4 @@
+2012-02-07T21:53:00.000Z	x_coder		I have a Tablet with Win7.  I want to install Ubuntu on an SD Card.  If I set /boot to the main drive (sd1) and the rest to the SD card, will grub boot without the SD Card installed?
+2012-02-07T21:55:00.000Z	x_coder		bootloader will go to sda1 mrb
+2012-02-07T21:56:00.000Z	x_coder		mbr
+2012-02-07T21:56:00.000Z	theadmin	x_coder	Grub's configuration and kernel images (as well as initramfs) are stored in /boot. In Ubuntu, /etc/grub.d and /etc/default/grub are also important. However, grub itself resides in MBR.

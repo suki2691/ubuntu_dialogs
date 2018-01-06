@@ -1,0 +1,4 @@
+2010-03-18T00:58:00.000Z	tuxuser	crodgers	on ubuntu, fdisk /dev/<usb dongle device>, you should see a single partition; you can then make it bootable with the appropriate command (don't remember it right now)
+2010-03-18T00:58:00.000Z	crodgers	tuxuser	thanks i'll look into that
+2010-03-18T00:59:00.000Z	tuxuser	crodgers	the tricky part is identifying the /dev/ entry for the usb key. If you operate on the wrong device, you could mess up your system disk!
+2010-03-18T01:00:00.000Z	tuxuser	crodgers	dmesg a few times after plugging in the usb key, you'll see what device the kernel assigns to it. HTH

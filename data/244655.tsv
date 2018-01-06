@@ -1,0 +1,4 @@
+2005-12-28T10:00:00.000Z	GMachine_24		I feel like a goof for having to ask this but . . . I added a second hard drive and put a line command in a file so the second drive would be mounted automatically on boot . . . now I had to remove the drive but I can't remember which file I edited... I thought it would be fstab but I can't find fstab ... at least not under /etc
+2005-12-28T10:02:00.000Z	GMachine_24		which file do I edit to have a second hard drive mounted automatically when the computer boots please?
+2005-12-28T10:03:00.000Z	LeaChim	GMachine_24	it would generally be /etc/fstab. and you should always have an /etc/fstab
+2005-12-28T10:03:00.000Z	LeaChim	GMachine_24	otherwise go to /etc - and do grep -i /devnameofhd -R *

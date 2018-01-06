@@ -1,0 +1,4 @@
+2011-07-22T18:28:00.000Z	jnsl_		Hey guys! I'm trying to mount a folder with sshfs, it works if i don't use sudo (if i use sudo i don't have permissions for the dir i'm trying to mount), however i would like to mount the dir in /media/ and for this i need sudo! argh
+2011-07-22T18:30:00.000Z	jnsl_		okay 1sec
+2011-07-22T18:31:00.000Z	W4RH4WK	jnsl_	adding a line to fstab allows you to mount / unmount as normal user
+2011-07-22T18:32:00.000Z	W4RH4WK	jnsl_	this would be my line in fstab> sshfs#w4rh4wk@xray:/    /mnt/xray   fuse    rw,noauto,user,noexec,sync,reconnect,fsname=sshfs#w4rh4wk@xray:/    0   0

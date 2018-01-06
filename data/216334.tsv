@@ -1,0 +1,4 @@
+2007-06-04T06:23:00.000Z	loquitus_of_borg		Hey people. I just installed Apache2 through the synaptics manager, along with PHP5. Why is it that when I try to access a php file thorugh my browser, it tries to download the php script instead of executing it?
+2007-06-04T06:24:00.000Z	khermans_	loquitus_of_borg	sudo aptitude install libapache2-mod-php5
+2007-06-04T06:24:00.000Z	khermans_	loquitus_of_borg	then enable the php module in the conf file
+2007-06-04T06:28:00.000Z	khermans_	loquitus_of_borg	http://www.howtoforge.com/perfect_setup_ubuntu704_p6

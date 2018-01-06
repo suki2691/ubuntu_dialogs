@@ -1,0 +1,4 @@
+2009-04-28T03:49:00.000Z	dori		how do I get ubuntu to start at runlevel 2 (no X)?
+2009-04-28T03:50:00.000Z	muellisoft	dori	I suggest to remove gdm from /etc/rc*.d in order to make it not start.
+2009-04-28T03:50:00.000Z	dori	muellisoft	that doesn't seem like the best way, there has to be a way to configure it to start at rl 2
+2009-04-28T03:51:00.000Z	muellisoft	dori	maybe there is kernel parameter you can pass. But I don't know.

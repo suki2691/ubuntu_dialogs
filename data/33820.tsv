@@ -1,0 +1,4 @@
+2011-07-21T21:19:00.000Z	lawltoad		is there a separate process for jsut the unity-bar at the top? i want that bar in xmonad
+2011-07-21T21:21:00.000Z	lawltoad		find <dir> -print0 | xargs -0 -I{} grep {} crontab
+2011-07-21T21:21:00.000Z	blkperl	lawltoad	thank you
+2011-07-21T21:28:00.000Z	blkperl	lawltoad	so it works awesome do you know how to make it work on an older system where the find doesn't have -print0 and xargs doesn't have -0

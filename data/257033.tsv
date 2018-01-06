@@ -1,0 +1,4 @@
+2004-11-27T15:36:00.000Z	ftwig		hi everybody - is there a way to do somthing like tar | compress | /dev/dvd - i.e. do a backup stright to a DVD device?
+2004-11-27T15:36:00.000Z	jnk	ftwig	yes, use growisofs
+2004-11-27T15:44:00.000Z	jnk	ftwig	it's the default mode of tar
+2004-11-27T15:46:00.000Z	jnk	ftwig	yeah I think you just leave out the 'f' option and it will write to stdout.. otherwise you can use '-' as a filename

@@ -1,0 +1,4 @@
+2007-06-14T06:48:00.000Z	pak33m		/etc/my.cnf
+2007-06-14T06:50:00.000Z	pak33m		sinkhetek: #locate my.cnf to find other copies
+2007-06-14T06:52:00.000Z	sinthetek	pak33m	still doesn't seem to be being read
+2007-06-14T06:56:00.000Z	pak33m	sinthetek	you could reinstall mysql from source to /usr/local & this way you would know exactly where your files are located, i.e the my.cnf would only be in /etc/my.cnf but you would have to sudo apt-get --purge remove mysql if you installed through apt-get or uninstall & reinstall using aptitude to better fix deps

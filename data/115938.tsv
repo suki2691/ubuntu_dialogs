@@ -1,0 +1,4 @@
+2009-01-18T23:32:00.000Z	tul		hello all!
+2009-01-18T23:33:00.000Z	tul		how would i use mkdir to create 100 sub folder in one parent folder (listed form 1 to 100)?
+2009-01-18T23:35:00.000Z	tul		ill work on it.
+2009-01-18T23:36:00.000Z	joeb3_	tul	cd to the dir and...  for i in {1..100} ; do mkdir $i ; done

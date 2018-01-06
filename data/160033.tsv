@@ -1,0 +1,4 @@
+2009-11-20T09:39:00.000Z	rage		Can you have multiple drives mounting a single point in fstab? e.g UUID=x       /mnt/usb_backup ext3    user,noauto     0       0\n UUID=y       /mnt/usb_backup ext3    user,noauto     0       0,
+2009-11-20T09:39:00.000Z	rage		Obviously there would be a conflict if both are plugged in at once, but I am not fussed
+2009-11-20T09:39:00.000Z	flanders	rage	that sounds impossible.
+2009-11-20T09:39:00.000Z	flanders	rage	what about looking into LVM then?

@@ -1,0 +1,4 @@
+2007-07-08T08:11:00.000Z	telejedi		hi there! please: how can i add another sudo-user to my system by shell-command?
+2007-07-08T08:12:00.000Z	bruenig	telejedi	, edit /etc/sudoers with visudo
+2007-07-08T08:14:00.000Z	bruenig	telejedi	2d?
+2007-07-08T08:16:00.000Z	bruenig	telejedi	all you have to do is edit /etc/sudoers and add this: username    ALL=(ALL) ALL

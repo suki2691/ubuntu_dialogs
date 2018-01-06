@@ -1,0 +1,4 @@
+2012-05-25T23:14:00.000Z	zeidoz		is it possible to share a file in one user's home directory with another user?
+2012-05-25T23:15:00.000Z	escott	zeidoz	yes. unless you encrypted your home directory (that makes it harder). otherwise just create a group for the two users. sudo usermod -a -G newgroup username for both (DO NOT FORGET the -a) and chgrp filename
+2012-05-25T23:15:00.000Z	escott	zeidoz	777 grants full access to everyone on the computer
+2012-05-25T23:15:00.000Z	zeidoz	escott	hmmm, still wouldn't work, not sure why

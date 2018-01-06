@@ -1,0 +1,4 @@
+2011-05-30T11:06:00.000Z	BlackWeb		Does anyone know how to make ubuntu use a certain video driver,
+2011-05-30T11:07:00.000Z	BlackWeb		I dpkg -l xserver and it brings up all the drivers and it appears to have a intel driver but how do i make it use it
+2011-05-30T11:08:00.000Z	BlackWeb		it says "ii xserver-xorg-video-intel"
+2011-05-30T11:08:00.000Z	ZykoticK9	BlackWeb	X "should" be able to figure it out automagically, if not, you may need to use an xorg.conf file.

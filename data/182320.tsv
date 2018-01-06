@@ -1,0 +1,4 @@
+2007-09-17T13:31:00.000Z	mohamed_		while installing edubuntu,  i get this error after i  choose install :-" ACPI: Unable to load system Description table" ..........." Kernel panic - not syncing: no init found try passing init=option to kernel" can anyone help me ?
+2007-09-17T13:31:00.000Z	stefg	mohamed_	tell about your hardware
+2007-09-17T13:32:00.000Z	mohamed_	stefg	pc is athlon 1100 1 GB ram, and the system was installed b4 from the same CD
+2007-09-17T13:34:00.000Z	stefg	mohamed_	try setting the bios to 'safe defaults' and install again. You might need to use the 'noacpi' boot option . see 'lspci' to find out about your motherboards chipset and search the forums if there are known issuses

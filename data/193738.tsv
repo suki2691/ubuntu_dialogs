@@ -1,0 +1,4 @@
+2008-08-06T21:38:00.000Z	Droo		Question, I have a disk in my machine that shows up as /dev/sda its paritions do not show up as /dev/sda# however. If I repartiton the disk after boot they will get detected, but this only lasts until the next reboot. I ran bad blocks on the start of the disk and got no hits, any idea what it could be?
+2008-08-06T21:39:00.000Z	fyrestrtr	Droo	are you writing the new partition table?
+2008-08-06T21:39:00.000Z	fyrestrtr	Droo	fdisk -l /dev/sda gives any problems?
+2008-08-06T21:40:00.000Z	fyrestrtr	Droo	what's with the raid?

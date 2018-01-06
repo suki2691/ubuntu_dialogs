@@ -1,0 +1,4 @@
+2011-08-02T23:04:00.000Z	Unknown_Frequenc		Hi everyone. I'm kinda new to Linux and played around with some "chmod, adduser, addgroup and chown" in a folder called "test" I created in my home folder. Suddently I got got error "username is not in the sudoers file.  This incident will be reported."
+2011-08-02T23:04:00.000Z	Unknown_Frequenc		Any idea what could have caused this?
+2011-08-02T23:05:00.000Z	Unknown_Frequenc		but how could I have unset my sudo rights?
+2011-08-02T23:06:00.000Z	wols	Unknown_Frequenc	no. run sudo again. sudo rights are managed by /etc/sudoers

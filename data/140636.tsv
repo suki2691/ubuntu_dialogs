@@ -1,0 +1,4 @@
+2009-02-02T00:33:00.000Z	kouya		can anyone explain what this do? Do 'wget  kegel.com/wine/winetricks  && sh winetricks gecko gdiplus'
+2009-02-02T00:34:00.000Z	kouya		found it here http://appdb.winehq.org/objectManager.php?sClass=version&iId=6584
+2009-02-02T00:35:00.000Z	baz	kouya	"wget" means it goes out to the internet and downloads a file >> "&&" means to do another command after the first command >> "sh" means to run a shell script (a set of command lines lumped together in one file, like a .bat)
+2009-02-02T00:35:00.000Z	baz	kouya	so basically its downloading a shell script then running it - to install winetricks, a program

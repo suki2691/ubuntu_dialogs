@@ -1,0 +1,4 @@
+2006-02-27T06:55:00.000Z	theplateau		im not able to compile anything correctly, any suggestions for packages that could ix this
+2006-02-27T06:55:00.000Z	theplateau		i apt-get gcc and make
+2006-02-27T06:56:00.000Z	_jason	theplateau	sudo apt-get install build-essential
+2006-02-27T06:56:00.000Z	_jason	theplateau	and of course you need the proper dependencies for whatever it is you are compiling (usually you need the -dev packages)

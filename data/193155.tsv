@@ -1,0 +1,4 @@
+2006-06-20T14:42:00.000Z	lab		Anyone know why linux will not mount my NTFS drives, but they work fine under windows
+2006-06-20T14:43:00.000Z	ic56	lab	point your browser to http://ca.geocities.com/ic56@rogers.com/65/diskmounter-latest.txt Page down to "Instructions", and read till the next blank line.  Follow the instructions to save and run the file.  It will setup your /etc/fstab and mountpoints in /media so you can see your NTFS filesystems in Places> Computer.
+2006-06-20T14:43:00.000Z	lab	NoUse	The device /dev/hdb1 doesn't exist
+2006-06-20T14:43:00.000Z	ic56	lab	The script will ask you if you want to enable NTFS write.  Answer no.  If you already tried unsuccessfully to add your Windows filesystems to /etc/fstab , add a -b flag to the script invocation.  I authored this version, so I can help if anything goes wrong.

@@ -1,0 +1,4 @@
+2011-05-04T18:17:00.000Z	mosez		knows somebody a good way to manipulate the nameserver list when i connect a vpn with network manager?
+2011-05-04T18:18:00.000Z	mosez		scenario: no vpn connected, use first 127.0.0.1 ns, if it doesnt know the record use the one from dhcp. if vpn is connected try first 127.0.0.1 and if that doesnt find a record try out the one defined by vpn
+2011-05-04T18:20:00.000Z	maxb	mosez	I wish there was a nice way to do it. I've ended up building myself a fairly complex shell script: http://paste.ubuntu.com/603267/
+2011-05-04T18:23:00.000Z	mosez	maxb	thx for that, got to take a look at it... i hoped that i'm not the first who needs that and that there are already solutions i cant find

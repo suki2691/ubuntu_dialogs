@@ -1,0 +1,4 @@
+2010-01-23T06:16:00.000Z	neil_d		I am currently downloading 9.10 but why does this stop firefox working?  shouldn't the packet from wget and firefox have the same priority in the tcp stack?
+2010-01-23T06:17:00.000Z	mtx_init	neil_d	wget is usually faster, given its smaller size
+2010-01-23T06:21:00.000Z	neil_d	mtx_init	so what difference should that make.. how could that stop firefox?
+2010-01-23T06:22:00.000Z	mtx_init	neil_d	something is wrong with firefox, possible sudo apt-get remove firefox, then purge and reinstall

@@ -1,0 +1,4 @@
+2006-11-07T10:35:00.000Z	rm_you	Phlogiston	I know i've done it using dpkg
+2006-11-07T10:35:00.000Z	Phlogiston	rm_you	but how exactly?
+2006-11-07T10:35:00.000Z	rm_you	Phlogiston	looking to see fi i can do it again
+2006-11-07T10:36:00.000Z	rm_you	Phlogiston	dpkg-query -l | awk '{ print $2 }'

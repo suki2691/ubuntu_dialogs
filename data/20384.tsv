@@ -1,0 +1,4 @@
+2011-12-31T12:44:00.000Z	Da|Mummy		im stuck with read only filesystem, how do i get out of it?
+2011-12-31T12:44:00.000Z	Church	Da|Mummy	remount rw?
+2011-12-31T12:56:00.000Z	Da|Mummy	Church	where do i specify the filesystem in that?
+2011-12-31T12:57:00.000Z	Church	Da|Mummy	you can of course add -t fstype, but in most cases kernel should autodetect, or read entry from /etc/fstab, no?

@@ -1,0 +1,4 @@
+2010-04-14T15:09:00.000Z	eni23		hello everyone. got a little problem. my system was crashed a few days ago. could mount the harddrive and copy all data to another. but i still have 1 problem:  had some mysql-tables with important data. is it possible to start mysql whith these old tables
+2010-04-14T15:09:00.000Z	nibbler	eni23	yes it is, but make a backup of the backup before!
+2010-04-14T15:10:00.000Z	eni23	nibbler	allready done. i have the table filesa, but how to tell mysql to use the old ones?
+2010-04-14T15:11:00.000Z	nibbler	eni23	hmm define datadir to the old files? overwrite the new files with the old ones? use your old mysql config?

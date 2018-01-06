@@ -1,0 +1,4 @@
+2010-09-01T15:07:00.000Z	harrz		I've running Lucid-Server 64bit, installed on a USB stick. It works well but after 3-4 days I got this message appears repetitive on console EXT3-fs error (device sdb1): ext3_find_entry: reading directory #2 offset 0 (sdb1 contains the root-fs)
+2010-09-01T15:07:00.000Z	harrz		Open services are still running (iscsi-target is still responding, ping the server works) but i can't logon until next reboot (neither ssh or the console).
+2010-09-01T15:07:00.000Z	harrz		The USB-stick seems to be in suspend mode...How can I prevent this?
+2010-09-01T15:08:00.000Z	pfifo	harrz	Im pretty sure there is a mount option for that, something like noatime or async, but itll fry your stick alot quicker than usual, review the mount manpage for all the possible options

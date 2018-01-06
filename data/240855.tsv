@@ -1,0 +1,4 @@
+2006-09-01T10:06:00.000Z	bthornton		I just changed monitors on my Ubuntu 6.06.1 LTS system and would like to have X reconfigure for the new refresh rates (like it did at install); how can I do this?
+2006-09-01T10:06:00.000Z	cwillu	bthornton	sudo dpkg-reconfigure xserver-xorg I believe
+2006-09-01T10:06:00.000Z	cwillu	bthornton	just hit enter for everything to accept the detected values
+2006-09-01T10:07:00.000Z	bthornton	cwillu	cool; thanks

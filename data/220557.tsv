@@ -1,0 +1,4 @@
+2006-10-26T06:53:00.000Z	niall		does ant1 kno wat the public key is not available: NO_PUBKEY F120156012B83718
+2006-10-26T06:55:00.000Z	niall		W: GPG error: http://packages.freecontrib.org dapper Release: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY F120156012B83718
+2006-10-26T06:56:00.000Z	Flannel	niall	did you use source-o-matic?
+2006-10-26T06:59:00.000Z	Flannel	niall	you don't need to recrate your entire sources.list, just make a freecontrib one (so the URL matches yours) then it'll give you the GPG to add

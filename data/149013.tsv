@@ -1,0 +1,4 @@
+2009-07-23T00:30:00.000Z	xFlux		how do I change the default interface to point to eth0:0?
+2009-07-23T00:31:00.000Z	unop	xFlux	do you mean, install a default _route_ that entails eth0:0 ?
+2009-07-23T00:32:00.000Z	unop	xFlux	route add -net default dev eth0:0
+2009-07-23T00:32:00.000Z	unop	xFlux	or.  route add default dev eth0:0

@@ -1,0 +1,4 @@
+2007-07-05T09:13:00.000Z	blackace11		it's saying it's installed
+2007-07-05T09:14:00.000Z	blackace11		If you installed it from the VMware website, please remove it by running vmware-uninstall.pl before proceeding.
+2007-07-05T09:14:00.000Z	blackace11		If it was installed through Ubuntu, you must purge (completely remove) the old package.
+2007-07-05T09:14:00.000Z	bruenig	blackace11	sudo apt-get remove --purge vmware-player

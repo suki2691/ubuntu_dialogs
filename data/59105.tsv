@@ -1,0 +1,4 @@
+2009-11-09T10:06:00.000Z	ruby_31		how to configure sudo so it dont ask password
+2009-11-09T10:07:00.000Z	veovis	ruby_31	look up how to edit the sudoers file with visudo
+2009-11-09T10:07:00.000Z	veovis	ruby_31	  There is a no password option
+2009-11-09T10:09:00.000Z	veovis	ruby_31	 type sudo visudo, and uncomment the line:  # %sudo ALL=NOPASSWD: ALL

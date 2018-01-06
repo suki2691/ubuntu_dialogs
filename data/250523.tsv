@@ -1,0 +1,4 @@
+2007-12-25T15:17:00.000Z	predaeus	mc2	basically you can place it anywhere you like, also in /usr/local/bin. What you have to do is change the execution rights, so they only reflect your user. see "man chmod" "man chgrp" "man chown". E.g. change the owner of the file to your user and allow only execution rights for owner.
+2007-12-25T15:23:00.000Z	predaeus	mc2	this looks like a good introduction to access rights http://polishlinux.org/console/file-permissions-in-linux/. Depending on what you want to achieve you can just make a /home/yourusername/bin directory. If you want to run files inside that directory from everywhere you could add it to your path. But note that this interfers with security concerns on linux. The basic idea is that the system directories are owned by root a
+2007-12-25T15:24:00.000Z	predaeus	mc2	search on the web for information about linux directory structures and permissions.
+2007-12-25T15:24:00.000Z	predaeus	mc2	it's a whole lot to explain.

@@ -1,0 +1,4 @@
+2011-07-24T17:37:00.000Z	llutz	StevenR	if an app depends on files in those dirs surviving a reboot, the app is broken by design
+2011-07-24T17:39:00.000Z	StevenR	llutz	doesn't mean it doesn't happen.
+2011-07-24T17:40:00.000Z	llutz	StevenR	time for a bug-report then :)
+2011-07-24T17:42:00.000Z	StevenR	llutz	I've not noticed anything that does it, but it's not a trivial change, so it's well worth see what's using /tmp before enabling it

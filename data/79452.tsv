@@ -1,0 +1,4 @@
+2010-01-04T13:12:00.000Z	git___		has anyone try to copy 16GB worth of data from / to a mounted loop device ext4 file in ubuntu 9.10?
+2010-01-04T13:12:00.000Z	git___		my ubuntu hung
+2010-01-04T13:13:00.000Z	DasEi	git___	you can't copy to  loop device like this
+2010-01-04T13:15:00.000Z	DasEi	git___	either you do an image of / with dd or you sudo cp -R it to a destination big enough

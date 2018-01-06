@@ -1,0 +1,4 @@
+2005-07-03T12:11:00.000Z	nes__		Hey folks, can someone tell me why everytim I boot Ubuntu on, it creates links /dev/cdrom and /dev/cdrw both pointing to /dev/hdc? How can i fix it?
+2005-07-03T12:12:00.000Z	Lamont|IRCnewb	nes__	I'm burning my first ubunutu now but sounds like /etc/fstab isn't configured right
+2005-07-03T12:14:00.000Z	Lamont|IRCnewb	nes__	that's so that if someone tries to find your optical drive using the common /dev/dcrom, it ends up in the right place. You probably want to leave it
+2005-07-03T12:18:00.000Z	Lamont|IRCnewb	nes__	andres just connected - text your basic situation again if he feels he can help

@@ -1,0 +1,4 @@
+2006-11-02T13:20:00.000Z	ashzilla		Hi. I updated my kernel and headers to 2.6.17-10-generic, and when I try to launch VMware the server does not start and I'm left with the following error: /usr/lib/vmware/bin/vmware: /usr/lib/vmware/lib/libpng12.so.0/libpng12.so.0: no version information available (required by /usr/lib/libcairo.so.2)
+2006-11-02T13:21:00.000Z	ashzilla		Is it possible to have key bindings to copy/paste into the cli?
+2006-11-02T13:21:00.000Z	jackrazz	ashzilla	are you trying to install the vmware tools or the server from within linux?
+2006-11-02T13:22:00.000Z	ashzilla	jackrazz	I have had vmware server installed in ubuntu since breezy, and when I updated to edgy, ran the new config script to update the files to accomodate the updated kernel, vmware would not launch

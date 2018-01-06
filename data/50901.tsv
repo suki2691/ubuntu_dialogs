@@ -1,0 +1,4 @@
+2009-11-22T04:47:00.000Z	Hans-Martin		hi folks, I've got a problem with lame in 9.10: it says "lame: symbol lookup error: lame: undefined symbol: lame_set_write_id3tag_automatic"
+2009-11-22T04:48:00.000Z	Hans-Martin		looks like the symbol lame_set_write_id3tag_automatic is not defined in /usr/local/lib/libmp3lame.so.0
+2009-11-22T04:48:00.000Z	trevorj	Hans-Martin	sounds like some package hasn't been built with the latest libraries, or you have mismatched versions of files for lame
+2009-11-22T04:50:00.000Z	Hans-Martin	trevorj	I suspected that at first, but the problem persists after re-installing the relevant libs. I will try to see whether lame uses additional libs which might be outdated.

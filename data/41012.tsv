@@ -1,0 +1,4 @@
+2010-10-23T03:38:00.000Z	Diverdude		how do i find out where apache2's httpd.conf file is located?
+2010-10-23T03:39:00.000Z	sivel	Diverdude	/etc/apache2/apache2.conf
+2010-10-23T03:41:00.000Z	sivel	Diverdude	you can also find the directory where the conf files live by doing: apache2 -V | grep HTTPD_ROOT
+2010-10-23T03:43:00.000Z	Diverdude	sivel	ahh yes ok...what do i have to do in the conf file to enable php5?

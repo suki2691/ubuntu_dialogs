@@ -1,0 +1,4 @@
+2007-11-26T02:32:00.000Z	bullgard4		 http://ubuntuusers.de/paste/18750/ shows a log of my restart. Why does the dmesg time stamp jump in line 59 from [ 0.000000]  suddenly to [ 18.110675]?
+2007-11-26T02:32:00.000Z	Rudd-O	bullgard4	because time is a relative construct?
+2007-11-26T02:33:00.000Z	Rudd-O		or maybe because after 18 seconds give or take, the klogd is started and extracts data from the kernel log ringbuffer into userspace
+2007-11-26T02:33:00.000Z	bullgard4	Rudd-O	Since the days of Einstein time is a relative coordinate. Still it does not jump.

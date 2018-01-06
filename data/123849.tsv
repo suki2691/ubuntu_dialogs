@@ -1,0 +1,4 @@
+2008-08-01T08:43:00.000Z	xynthpop		anyone got an idea for retrieving login and password from ubuntu studios 8.04?
+2008-08-01T08:44:00.000Z	cdm10	xynthpop	you can't retrieve a password, but you can change it to something else
+2008-08-01T08:45:00.000Z	cdm10	xynthpop	reboot the system in Recovery Mode (when the system starts booting, hit escape to get into the grub menu, and choose recovery mode)
+2008-08-01T08:46:00.000Z	cdm10	xynthpop	then run "less /etc/passwd" to read the passwd file, which lists users. Find the user you want to change the password of, and run the command "passwd username" (but use the username you found), and enter the new password.

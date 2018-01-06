@@ -1,0 +1,4 @@
+2011-05-05T20:03:00.000Z	spankbot		how do I give a directory Read-Write access?  When doing it from the GUI, the settings do not stick
+2011-05-05T20:04:00.000Z	Chipzzz	spankbot	sudo chmod 755 directory
+2011-05-05T20:05:00.000Z	Chipzzz	spankbot	I think you'll have to sudo your chmod
+2011-05-05T20:12:00.000Z	Chipzzz	spankbot	I still think you have to sudo your chmod but you will also probably need to chmod +x your .../path/adb

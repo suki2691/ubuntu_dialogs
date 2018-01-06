@@ -1,0 +1,4 @@
+2010-02-12T16:36:00.000Z	steve777		i have 8.10 running, how to upgrade from 9.10 cdrom?
+2010-02-12T16:36:00.000Z	steve777		and keep all data
+2010-02-12T16:37:00.000Z	DaemonFC	steve777	You'll need to change your apt sources to Jaunty, dist-upgrade, change them to Karmic, and dist-upgrade again
+2010-02-12T16:38:00.000Z	DaemonFC	steve777	You can probably just change all references in /etc/apt/sources.list from Intrepid to Jaunty, save it, update, then do it again changing Jaunty to Karmic

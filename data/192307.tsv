@@ -1,0 +1,4 @@
+2006-08-23T11:40:00.000Z	terje		what's the package that provides chkconfig ?
+2006-08-23T11:40:00.000Z	harisund	terje	why do you need that?
+2006-08-23T11:41:00.000Z	harisund	terje	are you attempting to use chkconfig RedHat/Fedora style?
+2006-08-23T11:41:00.000Z	harisund	terje	that's not the way services are handled in Debian/Ubuntu. They come with their own service managers. Typically, update-rc.d will handle it for you.

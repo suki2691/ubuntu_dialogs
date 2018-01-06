@@ -1,0 +1,4 @@
+2012-06-28T23:55:00.000Z	kunguz		How do I customize my terminal in order to see only the directory name not the whole path at the beginning of the line?
+2012-06-28T23:57:00.000Z	zykotick9	kunguz	i assume you are using bash - that is determined by the value for PS1 (usually in ~/.bashrc) - i'd ask in #bash if you don't get an answer here.
+2012-06-28T23:58:00.000Z	kunguz	zykotick9	thank you I will check the file
+2012-06-29T00:06:00.000Z	kunguz	zykotick9	just a small information the line in bashrc has to be changed from PS1='${debian_chroot:+($debian_chroot)}u@h:w$ ' to PS1='${debian_chroot:+($debian_chroot)}u@h:W$ ' and then it became as I wanted.

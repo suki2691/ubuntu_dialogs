@@ -1,0 +1,4 @@
+2009-08-09T18:24:00.000Z	Viliny		i tried to chmod 777 /var/www
+2009-08-09T18:24:00.000Z	Viliny		but umm, php still complains that the persmission are off
+2009-08-09T18:25:00.000Z	Viliny		fixed! -r for recursive!
+2009-08-09T18:27:00.000Z	dsnyders	Viliny	You may also want to look at .htaccess files. They tell apache if a file/folder is servable.

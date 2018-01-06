@@ -1,0 +1,4 @@
+2006-11-11T13:08:00.000Z	iarwain		Hi, does anybody know about a "chroot error" ? i tried chrooting, and got this: "could not execute the command '/bin/bash': access denied"
+2006-11-11T13:10:00.000Z	iarwain		@roxy: it has, i'm trying to make a custem live-cd, so in the 'edit' folder(that's where i'm chrooting to) there is a bin folder, with bash etc
+2006-11-11T13:10:00.000Z	iarwain		did it  as root :)
+2006-11-11T13:10:00.000Z	khaije1	iarwain	the only thing shared by your main system and your chroot is the kernel (that is the way is it supposed to be anyway)

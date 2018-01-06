@@ -1,0 +1,4 @@
+2007-07-13T10:36:00.000Z	sean-		Hi, anyone know why sudo would just stop working.  I was SSHed into my system and it was working fine then all of a sudden it wasn't working anymore.  Rebooted and it is still not working.  No errors just acts like it does nothing.
+2007-07-13T10:37:00.000Z	nickrud	sean-	take a look at /var/log/authlog , sudo logs there
+2007-07-13T10:39:00.000Z	sean-	nickrud	I tried...but permission denied...and I can't sudo to look at it
+2007-07-13T10:40:00.000Z	nickrud	sean-	type groups in a terminal; as the first system user you should be in the adm and admin groups (adm should let you see authlog, admin do sudo)

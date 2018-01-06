@@ -1,0 +1,4 @@
+2010-07-15T07:14:00.000Z	danz_d_man		Anyone know how to get ethernet to work? I think the controller's showing up, but nothing happens when I plug the CAT5 cable in.
+2010-07-15T07:16:00.000Z	YankDownUnder	danz_d_man	In a terminal, type: ifconfig eth0 => see what it says
+2010-07-15T07:19:00.000Z	YankDownUnder	danz_d_man	You might want to find out if the ethernet card is disabled in the /etc/modules.d/blacklist.conf => put a hash in front of it if it's being blacklisted, reboot, try again
+2010-07-15T07:39:00.000Z	YankDownUnder	danz_d_man	Just another note on connections => change the MTU to 1500 and not "Automatic" => check that all the IPv4 settings are set for your network properly, and that IPv6 is setup for "Ignore" => that the settings are also for "All Users" and "Connect Automatically" => that should put you right.

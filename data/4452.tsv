@@ -1,0 +1,4 @@
+2012-03-23T01:56:00.000Z	Taev		will this trigger those programs to start upon login, this is my $HOME/.profile  file
+2012-03-23T01:56:00.000Z	Taev		http://pastebin.com/AVQ7VjWf
+2012-03-23T01:58:00.000Z	Taev		will this http://pastebin.com/AVQ7VjWf   (copy of my $HOME/.profile ) work in making those 3 programs execute upon login
+2012-03-23T01:59:00.000Z	mirko1	Taev	probably not. at least on my 10.04 there's no login shell involved in the GUI startup. just write a simple shell script and call it using the Startup facility

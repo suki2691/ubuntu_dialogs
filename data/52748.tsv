@@ -1,0 +1,4 @@
+2009-07-11T20:13:00.000Z	laeg		does anyone know why i'm not being prompted for my sshkey? i 'chmod 700 ~/.ssh', then 'ssh-keygen -t rsa -b 4096' but when i ssh in i'm not prompted for the key, just my user pass. PubkeyAuthentication and RSAAuthenticatio are uncommented in sshd_config?
+2009-07-11T20:15:00.000Z	etwt2261	laeg	sudo /etc/init.d/ssh restart
+2009-07-11T20:15:00.000Z	laeg	etwt2261	tried already, no change
+2009-07-11T20:16:00.000Z	etwt2261	laeg	maybe the permissions of the key are too open

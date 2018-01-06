@@ -1,0 +1,4 @@
+2011-11-04T21:38:00.000Z	Amdpc		Hi....currently kdm is set to default in my pc,,I want to change it to gdm...How to do it ?
+2011-11-04T21:39:00.000Z	escott	Amdpc	install gdm and uninstall kdm
+2011-11-04T21:39:00.000Z	Amdpc	escott	: How to do that ?
+2011-11-04T21:40:00.000Z	escott	Amdpc	sudo apt-get install gdm; sudo apt-get remove kdm

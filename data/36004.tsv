@@ -1,0 +1,4 @@
+2010-03-14T04:05:00.000Z	lojack		Hello all!  I have a Ubuntu 8.10 system that I'd like to update to 9.04 but I don't get the option to do so from the Update Manager like the online docs suggest.  Could there be a setting somewhere on my system that is supressing that option?
+2010-03-14T04:05:00.000Z	lojack		Is there another way to complete the upgrade from 8.10 to 9.04?  Edit sources.list directly?
+2010-03-14T04:05:00.000Z	blakkheim	lojack	sudo aptitude update; sudo aptitude full-upgrade; sudo do-release-upgrade
+2010-03-14T04:08:00.000Z	lojack	blakkheim	do-release-upgrade says "No new release found"

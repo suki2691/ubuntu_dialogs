@@ -1,0 +1,4 @@
+2012-05-13T06:30:00.000Z	ZetaRC12		anyone ever get an Acer Aspire One D-250 to sleep on closing? I can sleep and hibernate and restore from both states on the laptop manually. When I close the lid the backlight turns off, but the laptop never stops running. /proc/acpi/button/lid/LID0/state only lists the state as closed, no matter if the lid is open or closed.
+2012-05-13T06:32:00.000Z	wylde	ZetaRC12	I've seen a fair number of acpi bugs around, you may want to have a look for a similar one. With any luck someone posted a workaround.
+2012-05-13T06:34:00.000Z	ZetaRC12	wylde	it took quite a bit of searching just to find a fix that would let this thing recover from sleep, have yet to find anything with my specific problem though
+2012-05-13T06:35:00.000Z	wylde	ZetaRC12	ahh I see.

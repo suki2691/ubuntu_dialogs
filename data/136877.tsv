@@ -1,0 +1,4 @@
+2007-05-26T10:10:00.000Z	walkintome		i keep having to run sudo depmod -a and sudo modprob ndiswrapper on startup for my wireless to work. is there a way to get this to run on startup automatically?
+2007-05-26T10:11:00.000Z	erUSUL	walkintome	put ndiswraper in /etc/modules the depmod shouldn't be neccesary
+2007-05-26T10:11:00.000Z	walkintome	erUSUL	how do i do that
+2007-05-26T10:12:00.000Z	erUSUL	walkintome	edit the file and add a line with the word ndiswraper

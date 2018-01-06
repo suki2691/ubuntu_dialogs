@@ -1,0 +1,4 @@
+2009-10-24T01:23:00.000Z	Roasted		Is there a linux permission for read + write but prevents users from deleting?
+2009-10-24T01:24:00.000Z	zaoul1	Roasted	doubt it
+2009-10-24T01:24:00.000Z	zaoul1	Roasted	that kind of perm makes no sense
+2009-10-24T01:27:00.000Z	Roasted	zaoul1	- its all good. I just realized the answer to my question above. If I own /media/storage and give the users group access, even RWX access, they can read/write but they cant delete /media/storage itself. They can delete stuff inside, but not /media/storage (the root folder, more or less)

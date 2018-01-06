@@ -1,0 +1,4 @@
+2011-09-30T20:33:00.000Z	eitch		hi guys, how does mounting iso images in nautilus work? I would like to do the same from the cli without needing root...
+2011-09-30T20:34:00.000Z	SIFTU	eitch	then you would need to do it through a fuse filesystem, nautilus probably uses gnome vfs
+2011-09-30T20:35:00.000Z	eitch	SIFTU	thanks.
+2011-09-30T20:35:00.000Z	SIFTU	eitch	https://help.ubuntu.com/community/FuseIso

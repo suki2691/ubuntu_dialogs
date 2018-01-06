@@ -1,0 +1,4 @@
+2006-05-28T09:10:00.000Z	msoeken		Hi, does anybody knows how to copy dvds to an iso by command line
+2006-05-28T09:11:00.000Z	h3sp4wn	msoeken	dd if=/dev/hdc of=whatever.iso bs=2048 (may not work with dual layer)
+2006-05-28T09:12:00.000Z	msoeken	h3sp4wn	thanks
+2006-05-28T09:12:00.000Z	h3sp4wn	msoeken	test that it is ok by using sudo mount -o loop whatever.iso /mnt/tmp (which should be created if it doesn't exist)

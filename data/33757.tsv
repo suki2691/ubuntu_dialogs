@@ -1,0 +1,4 @@
+2010-04-23T01:06:00.000Z	synapse		can someone tell me what the 2>&1 when piping a command to /dev/null means?  $command > /dev/null 2>&1 &
+2010-04-23T01:07:00.000Z	synapse		or where to lookup redirection for shell scripting
+2010-04-23T01:07:00.000Z	amosek	synapse	it redirects error messages as well
+2010-04-23T01:09:00.000Z	amosek	synapse	and then everything to /dev/null

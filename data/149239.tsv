@@ -1,0 +1,4 @@
+2011-07-28T22:21:00.000Z	andresmh		my screen windows are named like "22985.pts-7.hostname", is there a way to rename them once they are created?
+2011-07-28T22:23:00.000Z	Pici	andresmh	You can change the sessioname parameter within screen, but you might want to take a look at the manpage for the caveats surrounding that.
+2011-07-28T22:24:00.000Z	Pici	andresmh	You'd do ctrl-a : to get to command mode, and from there you would do   sessioname andresmhssession    or whatever
+2011-07-28T22:24:00.000Z	Pici	andresmh	sorry, its sessionname

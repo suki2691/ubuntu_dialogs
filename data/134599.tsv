@@ -1,0 +1,4 @@
+2007-08-17T06:57:00.000Z	skyfalcon866		how can i delte senstive files
+2007-08-17T06:59:00.000Z	skyfalcon866		will it safely delete it though? because on wikipedia it said the file can still recovered if used on a journaling filesystem like ext3 jfs
+2007-08-17T07:00:00.000Z	skyfalcon866		or to put it simple can it still be recovered on a journaling file system?
+2007-08-17T07:01:00.000Z	shagggy	skyfalcon866	by default, ext3 doesn't journal the file data, and jfs never does, so if you've got a program that overwrites the file's data before deleting the file, the journal won't be an issue

@@ -1,0 +1,4 @@
+2009-02-28T00:12:00.000Z	raylu	Iceman_B	by connect, you mean over ssh, not ssl (https, etc), right?
+2009-02-28T00:13:00.000Z	Iceman_B	raylu	yes, I connect via putty, using ssh
+2009-02-28T00:13:00.000Z	raylu	Iceman_B	your .ssh/known_hosts keeps track of keys you've seen before. you could add the fingerprint of the server manually to that file if you really wanted to be sure
+2009-02-28T00:13:00.000Z	raylu	Iceman_B	ssh only keeps track of keys its seen before and makes sure they match. https has the benefit of certificate authorities

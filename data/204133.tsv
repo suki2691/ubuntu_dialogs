@@ -1,0 +1,4 @@
+2005-12-24T14:54:00.000Z	Kuyaedz		earlier someone mentioned installing ubuntu-usplash to remove the kubuntu splash I have.  I can't find that package...
+2005-12-24T14:55:00.000Z	crimsun	Kuyaedz	just remove kubuntu-artwork-usplash, then dpkg-reconfigure linux-image-$(uname -r)
+2005-12-24T14:56:00.000Z	Kuyaedz	crimsun	kubuntu-artwork-usplash shows as not installed but it displays that at boot..
+2005-12-24T14:57:00.000Z	crimsun	Kuyaedz	then dpkg-reconfigure linux-image-$(uname -r)

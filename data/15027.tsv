@@ -1,0 +1,4 @@
+2012-08-17T03:56:00.000Z	cc11rocks		Okay, that was a bad anology. GRUB gives you an "overview" of the images, partitions, and such through it's menu. LVM gives you an "overview" of the images, allows you to manage the partitions, and such. This is what I meant like an advanced version of GRUB. Does GRUB  go above or below the LVM (inside LVM or outside)?
+2012-08-17T03:56:00.000Z	kyle__	cc11rocks	LVM as in logical volume management?  Outside
+2012-08-17T03:57:00.000Z	cc11rocks	kyle__	yes
+2012-08-17T03:57:00.000Z	kyle__	cc11rocks	Grub undertsands enough of filesystems, partitions, guid partitions and lvm to open those up, pull the kernel, etc.

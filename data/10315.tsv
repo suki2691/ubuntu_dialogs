@@ -1,0 +1,4 @@
+2011-08-19T22:58:00.000Z	megaloman		I just don't want to unplug wireless mouse and keyboard every time I boot.
+2011-08-19T22:58:00.000Z	ActionParsnip	megaloman	add in /etc/rc.local  a command to unload the module(s), then reload straight after. May help
+2011-08-19T23:01:00.000Z	megaloman	ActionParsnip	I don't know which modules you mean. I'm pretty green.
+2011-08-19T23:05:00.000Z	ActionParsnip	megaloman	lsmod     will list the modules, you can read and see what each does to see which to use

@@ -1,0 +1,4 @@
+2011-03-29T18:43:00.000Z	Roasted__		I'm trying to set the NTP time on my LTSP thin client servers to match up with our time server here at work. But it's not pulling the correct time. Some do, some don't. It's not a solid 100% are right or 100% are wrong. Where can I go with this?
+2011-03-29T18:44:00.000Z	ohsix	Roasted__	if the skew is too much ntp wont even try; you need to kick it to something close with ntpdate or something
+2011-03-29T18:45:00.000Z	Roasted__	ohsix	uh, what? where do I run ntpdate? on my servers or the clients or what?
+2011-03-29T18:45:00.000Z	ohsix	Roasted__	the client, it's usually ran once at boot time

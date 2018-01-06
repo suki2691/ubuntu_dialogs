@@ -1,0 +1,4 @@
+2010-01-02T21:59:00.000Z	bodhi20161		guys what is the equivalent of "$ tar -xzvf linux-2.6.17.8.tar.gz " for the file linux-2.6.17.bz2
+2010-01-02T22:01:00.000Z	erUSUL	bodhi20161	use j instead of z
+2010-01-02T22:02:00.000Z	erUSUL	bodhi20161	but tar xvf file.tar.whatever autodetects the compression used and choose the apropiate decompresor
+2010-01-02T22:02:00.000Z	erUSUL	bodhi20161	so « tar xvf file.tar.gz » and « tar xvf file.tar.bz2  » will work

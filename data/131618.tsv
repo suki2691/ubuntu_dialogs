@@ -1,0 +1,4 @@
+2007-12-31T22:51:00.000Z	tyoc		people, if I delete a directory like rm -r ~/some/deleteme with all is subcontes, why ~$ locate some also return results of that deleted directory???
+2007-12-31T22:51:00.000Z	tyoc		is a cache or something like that?
+2007-12-31T22:52:00.000Z	cabrioleur	tyoc	yes. do updatedb as root.
+2007-12-31T23:04:00.000Z	tyoc	cabrioleur	and truna thanks for the info

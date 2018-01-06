@@ -1,0 +1,4 @@
+2008-02-09T18:13:00.000Z	|katana|		heya.. gotta question: when making partitions: is is good to have 1 primary partitions and all the rest 'logical'?
+2008-02-09T18:14:00.000Z	|katana|		cuz in a manual they say only 1 primary partition can be active on the same time..
+2008-02-09T18:14:00.000Z	|katana|		but you only can have 4 primary partitions, right?
+2008-02-09T18:15:00.000Z	pajamian	|katana|	you can only have 4 primary partitions, yes, but if you want logical partitions then you have to sacrifice one of the 4 primaries for it.  So it's not recommended that you use up all your primaries because you will be unable to create logical partitions, then.

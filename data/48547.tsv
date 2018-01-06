@@ -1,0 +1,4 @@
+2010-06-24T16:02:00.000Z	abys		help : cant connect with ssh , connection is refused on a port , how can i fix this ?
+2010-06-24T16:02:00.000Z	Aciid	abys	have you checked there is no firewall?
+2010-06-24T16:03:00.000Z	abys	Aciid	I first tried connecting to my own box , but i run firestarter , do i need to configured it ? I dont have an idea of how
+2010-06-24T16:05:00.000Z	Aciid	abys	yes, if you run a firewall you must open TCP port 22 . that is SSH by default

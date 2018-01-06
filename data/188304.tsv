@@ -1,0 +1,4 @@
+2006-07-24T13:54:00.000Z	sjbrown		anyone know if there's a "good" way to change a uid?
+2006-07-24T13:54:00.000Z	sjbrown		besides dropping the user and creating a new one?
+2006-07-24T13:54:00.000Z	bbrazil	sjbrown	usermod has an option for it
+2006-07-24T13:54:00.000Z	bbrazil	sjbrown	use find+xargs+chown to fix up ownerships

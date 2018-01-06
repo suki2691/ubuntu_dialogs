@@ -1,0 +1,4 @@
+2005-11-26T08:42:00.000Z	mastertet		Hi, I have a centrino laptop under Breezy. I can see that my cpu is at 600 MhZ most of the time. Is there a way to force it to be 1400 MhZ whenever I want (for example, when I'm on ac adapter)? I see nothing about this in the cpufreq applet
+2005-11-26T08:42:00.000Z	Juhaz	mastertet	there is
+2005-11-26T08:43:00.000Z	mastertet	Juhaz	? how ?
+2005-11-26T08:47:00.000Z	Juhaz	mastertet	it's rather complicated, basically there are few different "governors" built into kernel, as well as possibility to let userspace daemon handle it

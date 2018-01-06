@@ -1,0 +1,4 @@
+2008-05-16T18:04:00.000Z	ghis		Could anyone see anything wrong with this crontab? "0 4 * * * ntpdate 0.se.pool.ntp.org >/dev/null 2&>1" I added it like 3 mouths ago... now i run i manually and the time was wrong over 100 seconds. So the crontab apparently does not work.
+2008-05-16T18:04:00.000Z	fugitivo	ghis	maybe you need the full path to ntpdate
+2008-05-16T18:04:00.000Z	ghis	fugitivo	could be... thanks
+2008-05-16T18:05:00.000Z	fugitivo	ghis	and use 00 04 instead of 0 4

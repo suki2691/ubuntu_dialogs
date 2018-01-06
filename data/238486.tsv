@@ -1,0 +1,4 @@
+2006-11-07T08:02:00.000Z	Cuog_422		how do i give a user permissions to read/write etc to any file?
+2006-11-07T08:03:00.000Z	Kingsqueak	Cuog_422	you set that by the permissions on the files/directories themselves or you run the command as root
+2006-11-07T08:03:00.000Z	Kingsqueak	Cuog_422	chmod is the command
+2006-11-07T08:04:00.000Z	Kingsqueak	Cuog_422	for a text file, to set it so anyone can read or write it, chmod 666 file.txt

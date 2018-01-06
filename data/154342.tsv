@@ -1,0 +1,4 @@
+2009-12-05T05:35:00.000Z	jrib	Halitech	cheoni: pastebin /var/lib/dpkg/info/*flash*.prerm and /var/lib/dpkg/info/*flash*.postinst  where you can take "*flash*" to mean the name of your package
+2009-12-05T05:41:00.000Z	Halitech	jrib	cheoni what about doing sudo apt-get install -f ?? think it will do any good?
+2009-12-05T05:42:00.000Z	jrib	Halitech	cheoni will have to edit /var/lib/dpkg/info/*flash*.{prerm,postinst} so that it exits successfully because they try to do something stupid with update-alternatives
+2009-12-05T05:43:00.000Z	Halitech	jrib	ok, that sounds like the files I had to edit when I had the same problem awhile back

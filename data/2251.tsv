@@ -1,0 +1,4 @@
+2012-08-16T13:55:00.000Z	kexwork		hey guys, does anyone know why i cannot connect to ssh via my external IP?(connection refused) but ssh -v localhost works fine?
+2012-08-16T13:56:00.000Z	DJones	kexwork	Have you forwarded the port on your router to the machine you're trying to access?
+2012-08-16T13:59:00.000Z	kexwork	DJones	It is a work machine, so am not sure of the rules
+2012-08-16T14:04:00.000Z	DJones	kexwork	To be able to access a machine via ssh from the internet, you will need to have the port forwarded from the router the machine, I don't think there's any other way you can do that

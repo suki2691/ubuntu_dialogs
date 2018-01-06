@@ -1,0 +1,4 @@
+2008-12-31T23:09:00.000Z	the_squircle	rootrot	you should just be able to use the command "sudo mount /dev/sda1 (or whatever) /mnt/windows"
+2008-12-31T23:10:00.000Z	rootrot	the_squircle	i tried that but it says it cant mount it and that i should go into windows and use the safely remove hardware comman for some reason,it also gives me the option of useing the --force command but i dont want to risk damanaged any data on this partition
+2008-12-31T23:11:00.000Z	the_squircle	rootrot	windows didn't write the journal properly... you need to start windows up, and shut it down again (properly), then it should mount.
+2008-12-31T23:12:00.000Z	rootrot	the_squircle	thank

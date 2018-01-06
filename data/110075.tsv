@@ -1,0 +1,4 @@
+2011-03-16T17:54:00.000Z	ks07		Hey guys, I'm running screen with multiuser mode, and I can connect to the other users screen session fine and run commands
+2011-03-16T17:55:00.000Z	ks07		But if I add -X to send a command, I get permission denied
+2011-03-16T17:55:00.000Z	ks07		Is there any way to fix this?
+2011-03-16T17:56:00.000Z	soreau	ks07	Maybe a user groups issue? Is the problem user part of the video group or have the same as the working user?

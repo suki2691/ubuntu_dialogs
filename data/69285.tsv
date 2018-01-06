@@ -1,0 +1,4 @@
+2009-03-31T14:08:00.000Z	bolt	oCean_	i've read that, but I'm kind of skeptical to the "aptitude --schedule-only install" part of it. that doesn't look like it will remove any extra packages. installing doesn't remove stuff does it?
+2009-03-31T14:10:00.000Z	oCean_	bolt	agreed. Not sure then, never actually tried it.
+2009-03-31T14:12:00.000Z	bolt	oCean_	seems like a bad idea to try and keep two or more machines in sync using that method, and then have any packages you actually uninstall exist only on the others. seems i'll have to script this. suppose i could --get-selections on both machines, diff the files and mark any that are only on the left side for uninstall
+2009-03-31T14:14:00.000Z	oCean_	bolt	I guess you're right. There might be some other solution somewhere (on the web) But I never gave it that much thought, really

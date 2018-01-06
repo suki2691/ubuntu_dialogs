@@ -1,0 +1,4 @@
+2010-05-16T19:14:00.000Z	MoeT		Is anyone able to help me resolve a boot issue? I get the error "ureadahead main process (485) terminated with status 5", and cannot go past it to boot up
+2010-05-16T19:16:00.000Z	VCoolio	MoeT	try a fallback boot in grub, then disable the readahead in the boot sequence using update-rc.d or bum; it's not needed I think, although it would be better to really solve it of course
+2010-05-16T19:24:00.000Z	MoeT	VCoolio	How do I 'fallback root' in grub?
+2010-05-16T19:26:00.000Z	VCoolio	MoeT	there is a normal boot choice in grub and a fallback or what's it called, select that one; try holding shift after bios loading to spawn the grub menu if you don't get it automatically

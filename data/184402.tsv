@@ -1,0 +1,4 @@
+2006-08-11T12:39:00.000Z	blade2		I'm trying to set up a wireless card on my laptop. The light comes on the card and flashes like it's trying to pick something up but iwscan can't find anything. Could it be a problem with the driver or my card?
+2006-08-11T12:40:00.000Z	SurfnKid	blade2	iwlist scan what does it return
+2006-08-11T12:40:00.000Z	SurfnKid	blade2	go to network-manager and select an SSID, if none, then there is none around you, but it could also be misconfigured
+2006-08-11T12:43:00.000Z	SurfnKid	blade2	sudo iwconfig <adapter> essid <ssid>

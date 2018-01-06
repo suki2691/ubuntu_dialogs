@@ -1,0 +1,4 @@
+2006-09-19T11:35:00.000Z	jfro		how can i restore the xserver install of an unbuntu machine? it's blacking out even tho i'm pretty sure i changed it back to normal
+2006-09-19T11:35:00.000Z	jfro		tried a dpkg-reconfigure
+2006-09-19T11:36:00.000Z	Bonzodog	jfro	edit /etc/X11/xorg.conf, change the driver section to 'vesa'; it will then be able to start X, albeit, badly, and possibly low res
+2006-09-19T11:36:00.000Z	jfro	Bonzodog	i'll try that

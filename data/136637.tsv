@@ -1,0 +1,4 @@
+2007-05-13T08:53:00.000Z	flowingfire		Okay... Obviously I should be more careful with what I do in an apt-get, as I can now see that I approved it to remove Gnome... But would somebody please look at it and tell me why it did it to begin with so I can prevent it from happening again... Contrary to what the computer thought, I actually do use gnome.... Pastebin: http://paste.ubuntu-nl.org/20576/
+2007-05-13T08:55:00.000Z	Jordan_U	flowingfire	I am guessing that you removed ubuntu-desktop correct?
+2007-05-13T08:56:00.000Z	Jordan_U	flowingfire	Because ubuntu-desktop brings in gnome, apt was just telling you that since you removed ubuntu-desktop you might also want to remove it's dependencies, one of which is gnome
+2007-05-13T08:57:00.000Z	flowingfire	Jordan_U	Ahhh ok....

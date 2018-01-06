@@ -1,0 +1,4 @@
+2011-04-11T23:22:00.000Z	kwtm	MPX	what erUSUL said.  But you may want to try inserting the word "echo" after -execdir and before prename, to see what WOULD happen if you run that.
+2011-04-11T23:23:00.000Z	kwtm	MPX	What happened when you put    find Music/ -type f ! -name '*.mp3' -execdir echo prename 's/$/\.mp3/' {} +       ?
+2011-04-11T23:24:00.000Z	kwtm	MPX	(with the echo included?)
+2011-04-11T23:25:00.000Z	kwtm	MPX	If nothing happened whne you put the line with the ... oh, it works. :)

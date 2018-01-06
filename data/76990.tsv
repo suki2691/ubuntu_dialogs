@@ -1,0 +1,4 @@
+2009-04-22T23:48:00.000Z	d6chung		Hi, is there a way to kill (or restart) X remotely? I tried restarting gdm but that did nothing and killing (with -9) Xorg doesn't seem to do anything.
+2009-04-22T23:50:00.000Z	scunizi	d6chung	logging into the remote machine with ssh and sudo /etc/init.d/gdm start or stop should do it.
+2009-04-22T23:50:00.000Z	d6chung	scunizi	Tried that.
+2009-04-22T23:50:00.000Z	scunizi	d6chung	what happened?

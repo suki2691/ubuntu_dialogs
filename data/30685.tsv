@@ -1,0 +1,4 @@
+2011-05-20T03:57:00.000Z	Jorgee		Can't locate LWP/Socket.pm in @INC (@INC contains: /etc/perl /usr/local/lib/perl/5.10.1 /usr/local/share/perl/5.10.1 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.10 /usr/share/perl/5.10 /usr/local/lib/site_perl . Modules)
+2011-05-20T03:58:00.000Z	iceroot	Jorgee	search with "apt-file" which package contains the Socket.pm and install it
+2011-05-20T03:59:00.000Z	Jorgee	iceroot	how ican put hte command apt-file search ?
+2011-05-20T04:01:00.000Z	iceroot	Jorgee	"sudo apt-get install apt-file && sudo apt-file update" after that you can search all packages containf the file "foo" with "sudo apt-file search foo"

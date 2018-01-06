@@ -1,0 +1,4 @@
+2012-11-06T21:31:00.000Z	jhutchins_wk		Ok, I think I got it.  The command was /sbin/sysctl -w "net.ipv4.tcp_window_scaling=0".  It works if I remove the quoted arguments.
+2012-11-06T21:31:00.000Z	TheLordOfTime	jhutchins_wk	you want to exclude certain commands from needing a sudo password?
+2012-11-06T21:40:00.000Z	jhutchins_wk	TheLordOfTime	Yeah, need to let a user/group use sysctl to turn window scaling on and off.
+2012-11-06T21:41:00.000Z	jhutchins_wk	TheLordOfTime	I can't seem to include the arguments to sysctl in the sudo specification

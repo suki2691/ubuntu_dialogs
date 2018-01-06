@@ -1,0 +1,4 @@
+2006-06-27T09:51:00.000Z	varsendagger		hey i have a fresh breezy install how should i go about upgrading to dapper.   ( no cdrom or else i would do it the cool way
+2006-06-27T09:52:00.000Z	lightstar	varsendagger	edit /etc/apt/sources.list and change all reference from breezy to dapper; sudo apt-get update; sudo apt-get dist-upgrade -y
+2006-06-27T09:53:00.000Z	varsendagger	lightstar	would the DShepherd method work too ?
+2006-06-27T09:53:00.000Z	lightstar	varsendagger	sorry not familiar with that

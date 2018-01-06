@@ -1,0 +1,4 @@
+2005-03-07T16:32:00.000Z	Cube-ness		grr.. all the kernels with inotify panic when the hotplug stuff tries to init
+2005-03-07T15:07:00.000Z	Cube-ness		anybody know anything about inoded enabled kerels causing kernel panic during hotplug startup?
+2005-03-07T15:08:00.000Z	CountDown	Cube-ness	It's a problem with 2.6.10-4.  It's being worked on.
+2005-03-07T15:09:00.000Z	CountDown	Cube-ness	Add the noinotify option in /boot/grub/menu.lst

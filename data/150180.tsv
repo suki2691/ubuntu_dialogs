@@ -1,0 +1,4 @@
+2009-09-15T08:13:00.000Z	dead1ock		why will gedit make a <filename>~ file after I edit files?
+2009-09-15T08:14:00.000Z	Pici	dead1ock	Because the default behavior is to save backup copies, check Edit>Preferences, Editor Tab, Filesaving to change that
+2009-09-15T08:15:00.000Z	dead1ock	Pici	Thanks, it was being a hassle with git
+2009-09-15T08:15:00.000Z	Pici	dead1ock	In bzr, you can have .bzrignore file, which will ignore certain filename patterns from being versioned, git might have something similar.

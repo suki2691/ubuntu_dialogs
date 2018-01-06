@@ -1,0 +1,4 @@
+2010-11-26T19:30:00.000Z	Smegzor		Hi.  I've installed XP (dual boot) and I'm in the live cd trying to restore grub2.  I have followed some instructions, but it didn't restore a working grub2.  It called for me to install grub2 on sda.  sda1 is ntfs with xp on it.  Does that matter?  I have 1 other bootable partition (different drive) which is ext3.  Should I install grub there?
+2010-11-26T19:31:00.000Z	Daekdroom	Smegzor	mark the other driver as bootable in the system BIOS first.
+2010-11-26T19:33:00.000Z	Daekdroom	Smegzor	Precisely
+2010-11-26T19:33:00.000Z	Daekdroom	Smegzor	or you can create a /boot/ partition in the drive with XP on it.. but it can't be NTFS

@@ -1,0 +1,4 @@
+2010-06-01T19:29:00.000Z	rocket16	drizzt_	You need to edit /etc/gdm/gdm.conf file. Login to Virtual Console, using Ctrl+Alt+F2, and login there. Then, type /etc/gdm/gdm.conf and there's a line (271) that says '[xdmcp]', a few lines below that, there's a line 'Enable=false'. My guess is that your gdm.conf has 'Enable=true', so perhaps changing that line might solve your problem.
+2010-06-01T19:31:00.000Z	drizzt_	rocket16	I don't have /etc/gdm/gdm.conf
+2010-06-01T19:31:00.000Z	rocket16	drizzt_	Can you log in to your System?
+2010-06-01T19:31:00.000Z	drizzt_	rocket16	yes

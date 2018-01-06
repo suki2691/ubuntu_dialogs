@@ -1,0 +1,4 @@
+2010-11-04T00:49:00.000Z	SianaGearz	Jelou	i'm not sure there's a way. ironically, imagemagick does what you want on windows, but i'm afraid clipboard formats are less standardized on unices.
+2010-11-04T00:51:00.000Z	Jelou	SianaGearz	i'm trying to do it with gimp but doesn't work, maybe i'm dong something wrong
+2010-11-04T00:51:00.000Z	Jelou		Trying to do something like : gimp -i -b '(gimp-edit-paste)' -b '(gimp-png-save-defaults "Image.png")' -b '(gimp-quit 0)'
+2010-11-04T00:52:00.000Z	SianaGearz	Jelou	i'm not even sure other programs are compatible with whatever gimp uses as its clipboard. so perhaps you should ask some gimp guru in a corresponding channel, perhaps they'll whip up a script which runs in gimp for you.

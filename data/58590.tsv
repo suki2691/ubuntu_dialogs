@@ -1,0 +1,4 @@
+2012-06-03T23:05:00.000Z	kullix		is there a way to access other desktops via console?
+2012-06-03T23:05:00.000Z	kullix		if any come with ubuntu
+2012-06-03T23:06:00.000Z	kullix		yeeesh
+2012-06-03T23:07:00.000Z	Darael	kullix	SSH will allow you to get a shell on another machine.  VNC, the Ubuntu defaults being vino (server) and vinagre (client), will get a graphical desktop on a remote computer.  Virtual desktops (aka workspaces; the things you get to with ctl+alt+arrows) can't be controlled from the console, or at least not easily.  Other desktop environments can be installed and chosen between at login time.  I think that covers all the ...

@@ -1,0 +1,4 @@
+2009-01-22T20:27:00.000Z	matveev		in "man stat" or "stat somefile" what is the difference between "Time of last modification"/"Modify:" and "Time of last change"/"Change:"?
+2009-01-22T20:29:00.000Z	oCean_	matveev	I *think*, but not totally sure, that modifications also can be changes on file attributes (ownership, permissions). Changes must be actual writes to file
+2009-01-22T20:32:00.000Z	oCean_	matveev	It's actually the opposite (I tried. changing file attributes are "changes" editing file contents is "modification")
+2009-01-22T20:50:00.000Z	matveev	oCean_	 right, rename does not "modify" file but is also a "change"

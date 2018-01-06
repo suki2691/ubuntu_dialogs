@@ -1,0 +1,4 @@
+2004-12-14T14:41:00.000Z	mjr		so I take it you need 443 for something else too
+2004-12-14T14:41:00.000Z	mjr		anyway, some sort of tunneling solution might work
+2004-12-14T14:42:00.000Z	mjr		_Or_ you could probably use iptables to redirect port 80 connections _from your work address_ to sshd on another port. I'm not sure about this though, but it might be possible.
+2004-12-14T14:42:00.000Z	anders_	mjr	Well I could do without https I guess

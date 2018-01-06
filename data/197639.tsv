@@ -1,0 +1,4 @@
+2006-08-14T11:38:00.000Z	Delano		I got a question
+2006-08-14T11:38:00.000Z	Delano		How do you mount an NTFS partition in Ubuntu?
+2006-08-14T11:39:00.000Z	NickGarvey	Delano	"fdisk -l | grep -i ntfs" will show you the ntfs partition
+2006-08-14T11:39:00.000Z	NickGarvey	Delano	then mount it with mount /dev/SOMETHING /SOMEWHERE

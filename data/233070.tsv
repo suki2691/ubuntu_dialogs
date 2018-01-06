@@ -1,0 +1,4 @@
+2010-01-18T16:32:00.000Z	Jonathan_L		Hello. I've got this config: 3G modem -> laptop -> wifi -> laptop. I want to use wifi to share the internet connection on the first laptop with the second.
+2010-01-18T16:33:00.000Z	Jonathan_L		erSUL: Will that work for 3G connection sharing over WLAN too?
+2010-01-18T16:34:00.000Z	erUSUL	Jonathan_L	it should. you have to change the interface names. probably the 3G connection is ppp0 and the wifi interfaces are wlan0
+2010-01-18T16:37:00.000Z	erUSUL	Jonathan_L	try with firestarter then.

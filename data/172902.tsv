@@ -1,0 +1,4 @@
+2008-06-27T11:03:00.000Z	simi		hi, can anyone explain me what this line in fstab means /dev/scd0 /media/cdrom0 udf,iso9660 user,utf8,atime,noauto,rw,dev,exec,suid 0 0
+2008-06-27T11:03:00.000Z	simi		how it works??
+2008-06-27T11:04:00.000Z	simi		i have error when i try to use cd or dvd, i can't open them, i have mount them manualy with mount
+2008-06-27T11:06:00.000Z	howlingmadhowie	simi	/dev/scd0 is the name of the device node, /media/cdrom0 is where it should be mounted udf,iso9660 are possible partition types, user... are options for mounting, 0 and 0 are something about dumping the file system and if the file system should be checked at boot

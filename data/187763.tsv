@@ -1,0 +1,4 @@
+2008-11-07T16:58:00.000Z	Zannyuk		hi, new noob here so please be gentle, im trying to setup samba so i can access some windows shares and when i try to save the edited samba config file it says permission denied but im the only user on the system.  so what do i do to fix this (im sure simple for you lot lol) issue?
+2008-11-07T16:59:00.000Z	Zannyuk		trying to save anything in etc i get permission denied
+2008-11-07T16:59:00.000Z	ikonia	Zannyuk	you need to edit the file as root so need to use "sudo" to launch the editor of "gksudo" if it is a graphical editor
+2008-11-07T16:59:00.000Z	ikonia	Zannyuk	eg: sudo nano /etc/samba/smb.conf

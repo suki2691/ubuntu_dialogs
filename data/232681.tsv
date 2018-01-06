@@ -1,0 +1,4 @@
+2011-02-16T01:37:00.000Z	delkin		I'm trying ti put my wlan0 interface to static ip. I think i have the interfaces file well configured, cause when i $ /etc/init.d/networking restart, it works well, and my new ip is configured. I check with ifconfig. But when I turn OFF and then ON the wireless, I have another ip back again... What might be? Why isnt it recalling the interfaces file when i restart the wireless?
+2011-02-16T01:38:00.000Z	erUSUL	delkin	interfaces file can not react to hotplug ( the hardware comming and going ) events
+2011-02-16T01:38:00.000Z	erUSUL	delkin	why not use network manager?
+2011-02-16T01:40:00.000Z	erUSUL	delkin	well it looks like it can ... you have to install ifplud daemon and add « allow_hotplug wlan0 » but honestly network manager looks like a better solution

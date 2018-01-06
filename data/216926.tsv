@@ -1,0 +1,4 @@
+2006-02-22T09:51:00.000Z	Yoni		Hi all
+2006-02-22T09:51:00.000Z	Yoni		How can I FULLY uninstall a package that I installed via "apt-get install" from the console[ ? ] 
+2006-02-22T09:52:00.000Z	Yoni		I'm connecting to my Linux box from a remote box via an SSH connection..
+2006-02-22T09:52:00.000Z	_jason	Yoni	sudo apt-get remove --purge packagename

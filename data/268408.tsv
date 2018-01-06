@@ -1,0 +1,4 @@
+2006-06-27T10:27:00.000Z	detectiveinspekt		do I have to forward UTP for a ssh server?
+2006-06-27T10:27:00.000Z	cef	detectiveinspekt	ssh uses TCP port 22
+2006-06-27T10:28:00.000Z	cef	detectiveinspekt	however, the server of course may need to resolve DNS names, which uses a combination of 53 TCP and UDP
+2006-06-27T10:28:00.000Z	cef	detectiveinspekt	but you shouldn't need to forward them explicity with a normal NAT firewall.

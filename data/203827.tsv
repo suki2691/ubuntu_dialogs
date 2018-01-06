@@ -1,0 +1,4 @@
+2008-01-04T14:35:00.000Z	jahid		hi, can anyone tell me how can use grep command to find in all files for string "consignment" recursively? also i want to see where are the files located
+2008-01-04T14:36:00.000Z	jahid		i tried to use --------------->grep -i -h -n -r "consignment" *.xml
+2008-01-04T14:36:00.000Z	jahid		but, it seems like, it is only looking in current directory, but not all
+2008-01-04T14:38:00.000Z	denny	jahid	 grep -r -c consignment * | grep -v ':0'

@@ -1,0 +1,4 @@
+2005-11-26T13:06:00.000Z	Gecko		Hello. I am trying to install ubuntu on an external usb harddisk. I have tried it before on another distribution. The perpetual trouble is after the install, you need to create an initrd that preloads some usb modules. However, I have now booted the live cd, and chrooted to my new install, but I find no mkinitrd script. What do I do?
+2005-11-26T13:07:00.000Z	Gecko		Sorry, nevermind. Google helps :)
+2005-11-26T13:07:00.000Z	smo	Gecko	you found initrd-tools?
+2005-11-26T13:09:00.000Z	Gecko	smo	no, I found out how to use mkinitramfs :)

@@ -1,0 +1,4 @@
+2006-05-05T09:49:00.000Z	devnu112		what is the general status of pci-x graphics adapters in linux?
+2006-05-05T09:50:00.000Z	DBO	devnu112	work fine
+2006-05-05T10:08:00.000Z	DBO	devnu112	whats not working?
+2006-05-05T10:09:00.000Z	devnu112	DBO	it pukes, horribly. I look at the log and it seems as if it is trying to load the Mach64 module and of course complains that the device was not found (seems to be using the correct pci device ids)

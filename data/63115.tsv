@@ -1,0 +1,4 @@
+2011-05-28T04:34:00.000Z	adrian15	s3r3n1t7	Can you please ellaborate on update-alternatives? Does it mean that the packaging system knows that python2.7 is the default python and not python3.2?
+2011-05-28T04:35:00.000Z	s3r3n1t7	adrian15	update-alternatives should be able to switch between different version, most frequently used to switch between versions of java. If memory serves me well, it also works for python.
+2011-05-28T04:36:00.000Z	adrian15	s3r3n1t7	Ok. My suspicition is that update-alternatives might depend on package dependencies system so I'll advise dtcummin to run it after the symlink change.
+2011-05-28T04:37:00.000Z	s3r3n1t7	adrian15	Update-alternatives changes the symlinks to for example python and java, saving you from having to do that by hand.

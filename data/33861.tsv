@@ -1,0 +1,4 @@
+2010-05-25T03:40:00.000Z	ded`		sudo kill -9 $pid doesn't kill my process? what more can I do and why no error message?
+2010-05-25T03:42:00.000Z	Jordan_U	ded`	It's a zombie process, it's not actually using any resources (its parent process is probably crashed since it isn't reaping its child)
+2010-05-25T03:44:00.000Z	ded`	Jordan_U	sudo pkill -9 evince still doesn't kill the evince processes which have become unresponsive. I'm not sure how I can say more strongly that they must die. And why no error message?
+2010-05-25T03:49:00.000Z	Jordan_U	ded`	There is no error because technically the process is killed, it just hasn't been reaped. Killing the parent process will make the process a child of init, which will then reap it. Be certain though that the parent process is something you're willing to kill (and again, zombies don't really hurt anything)

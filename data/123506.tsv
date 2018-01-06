@@ -1,0 +1,4 @@
+2007-08-27T08:33:00.000Z	Robert123321		"ERROR: Grant write permissions for /usr/local/" how do i do this
+2007-08-27T08:34:00.000Z	Falstius	Robert123321	what are you trying to do?  Granting blanket write access to /usr/local is probably a bad idea.
+2007-08-27T08:34:00.000Z	Robert123321	Falstius	well the script im running is installing something to that directory
+2007-08-27T08:35:00.000Z	Falstius	Robert123321	what script?  If you run the script with sudo, it will be able to write there.  Another option is to create the directory it wants with +rw permissions for it.

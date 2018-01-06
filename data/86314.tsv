@@ -1,0 +1,4 @@
+2008-07-05T15:20:00.000Z	ubunubi		petar20:: by default cdrom format is set to iso9660..set it to auto instead. so it'll try to detect the discs format instead
+2008-07-05T15:20:00.000Z	petar20	ubunubi	how?
+2008-07-05T15:21:00.000Z	ubunubi	petar20	in your fstab, on the cdrom entry, set it's option to fs to 'auto'
+2008-07-05T15:22:00.000Z	petar20	ubunubi	okay fixing it now

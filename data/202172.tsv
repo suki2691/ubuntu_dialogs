@@ -1,0 +1,4 @@
+2010-03-25T06:36:00.000Z	kpomeroy		I am trying to install a .deb but it says a software management tool is running but i don't have synaptic, the update manager or the terminal open. Are there any other tools that could be causing the problem?
+2010-03-25T06:37:00.000Z	kpomeroy		Yeah I tried that once, I could try it again i guess
+2010-03-25T06:39:00.000Z	kpomeroy		Ok I will restart the computer but if it doesn't work what is the override?
+2010-03-25T06:41:00.000Z	IdleOne	kpomeroy	sudo rm /var/cache/apt/archives/lock

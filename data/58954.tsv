@@ -1,0 +1,4 @@
+2009-07-09T10:34:00.000Z	rleeds		I started using aptitude a while back because I heard it does auto-removal of orphaned dependencies (though I hear apt-get does also now). I was wondering if using the graphical update-manager breaks that functionality for aptitude.?
+2009-07-09T10:36:00.000Z	EagleScreen	rleeds	update-manager won't probably autoremove orphaned packages, but you will do it later with aptitude or synaptic
+2009-07-09T10:37:00.000Z	rleeds	EagleScreen	My question is whether update-manager will mark automatically installed packages in such a way that only aptitude or apt-get will get it or if either one (or synaptic) would be able to autoremove for me.
+2009-07-09T10:37:00.000Z	rleeds	EagleScreen	I was under the impression apt-get and aptitude had different databases of what is auto-installed

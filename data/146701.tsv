@@ -1,0 +1,4 @@
+2007-08-04T16:34:00.000Z	hadron		stuck in  an upgrade. can someone tell me the command line to force an install regardless of configuration. e.g apt-get force install hal
+2007-08-04T16:35:00.000Z	nickrud	hadron	apt-get -f install   with no package name
+2007-08-04T16:36:00.000Z	hadron	nickrud	doesnt work. hangs starting hald for some reason
+2007-08-04T16:36:00.000Z	nickrud	hadron	can you post the complete error on a pastebin

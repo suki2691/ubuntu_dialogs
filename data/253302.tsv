@@ -1,0 +1,4 @@
+2005-02-18T08:31:00.000Z	djtansey		does anyone know how to get a package removed with its dependencies (meaning the stuff that was installed with it. i.e. kde-core gets rid of everything kde-core depended on)?
+2005-02-18T08:32:00.000Z	evarlast	djtansey	if you do that recursively you end up removing EVERYTHING.
+2005-02-18T08:33:00.000Z	djtansey	evarlast	well, find the packages it depended on that aren't depended on by other packages.
+2005-02-18T08:33:00.000Z	evarlast	djtansey	I had a script that calculated that on mandrake using rpm/urpmi.  I don't know apt/deb well enough. :)

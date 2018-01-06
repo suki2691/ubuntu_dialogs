@@ -1,0 +1,4 @@
+2011-05-20T22:08:00.000Z	haffi		I just upgraded my Ubuntu server from 10.10 to 11.04 and now I don't get any grub menu on boot, just a command line grub interface
+2011-05-20T22:08:00.000Z	operhiem1	haffi	grub> or grub rescue> ?
+2011-05-20T22:09:00.000Z	operhiem1	haffi	You should be able to boot to a Live CD/USB to run update-grub?
+2011-05-20T22:10:00.000Z	operhiem1	haffi	Did you chroot into the system? I wonder if that would be the issue?

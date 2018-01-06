@@ -1,0 +1,4 @@
+2012-10-01T09:20:00.000Z	mnewton		Is it possible to disown a process that makes children? and disown its children as well?
+2012-10-01T09:20:00.000Z	mnewton		For example, I have a bash script that plays a file and i send this task to the background. Next I have a for loop that does stuff, while the file is playing.  then I have some last commands and the script ends. Can I disown all processes made by the script. That is run the script and then disown it so when the terminal is closed the program keeps running
+2012-10-01T09:22:00.000Z	milamber	mnewton	can you define disown?
+2012-10-01T09:23:00.000Z	milamber	mnewton	if you just want to be able to run it and close the terminal, you can do: <command> &

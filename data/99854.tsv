@@ -1,0 +1,4 @@
+2008-03-20T02:55:00.000Z	theseus		i want to kill this process myuser 21632  5904  0 18:54 pts/0 -- how can i?
+2008-03-20T02:56:00.000Z	ompaul	theseus	 sudo kill -9 21632
+2008-03-20T02:56:00.000Z	theseus		just to learn -- what is 21632 the pid?
+2008-03-20T02:58:00.000Z	theseus	ompaul	i kill the process, but it keeps coming back: ps -aef | egrep mongrel => tbbooher 21663  5904  0 18:57 pts/0    00:00:00 grep -E mongrel

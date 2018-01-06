@@ -1,0 +1,4 @@
+2012-02-11T15:59:00.000Z	m0ron5		one more thing before i reboot the system to test this out... where can i put 'apt-get clean' in the system scripts to be sure that the apt cache is cleared either on bootup or shutdown (need this to be transparent.. without a password challenge.. irrespective of the user rebooting the system!!)
+2012-02-11T16:00:00.000Z	cypher-neo	m0ron5	You could put it in .bash, but it would need to be a shell script.
+2012-02-11T16:01:00.000Z	cypher-neo	m0ron5	I'm not sure I can help you there. I just got started with Shell... I have my computer doing some very interesting things on startup, but nothing like that.
+2012-02-11T16:01:00.000Z	m0ron5	cypher-neo	but wouldn't that fail without the sudo privileges and password?

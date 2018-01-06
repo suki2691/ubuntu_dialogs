@@ -1,0 +1,4 @@
+2009-03-10T18:05:00.000Z	merav		hey, i am a user of both uploading pictures to facebook and ninjavideo..in the past, i could not get both working at the same time because thtey each required a different flavor of java to work. how can I get them both working? im on xubuntu 8.10
+2009-03-10T18:06:00.000Z	hollywoodb	merav	i would think the sun-java6-* packages would work, since they are the official sun java packages.  if they don't work with sun's java they I'd say they're broken
+2009-03-10T18:06:00.000Z	hollywoodb	merav	apt-get install sun-java6-{plugin,jre,fonts}
+2009-03-10T18:09:00.000Z	merav	hollywoodb	thanks i'll try it now and let you know hpw it goes

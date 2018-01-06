@@ -1,0 +1,4 @@
+2012-06-08T00:36:00.000Z	f2prateek		hi, i'm getting the "Package sun-java6-jdk has no installation candidate" error even after running " add-apt-repository "deb http://archive.canonical.com/ lucid partner"  ". Any fix for this?
+2012-06-08T00:36:00.000Z	xangua	f2prateek	oracle java is no longer on ubuntu repositories
+2012-06-08T00:37:00.000Z	xangua	f2prateek	you can try openjdk wich already is on ubuntu repository or manually download and install java from it's webpage
+2012-06-08T00:38:00.000Z	f2prateek	xangua	thanks! the only workaround i had found before this was building it with somebodys github script

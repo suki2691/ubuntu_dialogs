@@ -1,0 +1,4 @@
+2006-10-04T13:08:00.000Z	jeevesbond		Hello, am attempting to compile Wine from source (in Edgy), but it always segfaults due to this bug https://launchpad.net/distros/ubuntu/+source/wine/+bug/56965 (which neither party seem willing to fix). To workaround the bug I need to add '-fno-stack-protector' to my CFLAGS. Where are CFLAGS defined? In Gentoo they seem to be stored in /etc/make.conf, but in the Ubuntu Edgy environment that file does not exist?!
+2006-10-04T13:09:00.000Z	jeevesbond		Ahhh, ok great! Thanks for the help oskude!
+2006-10-04T13:11:00.000Z	jeevesbond		Hmmm, I think Wine has piles of makefiles... :D
+2006-10-04T13:11:00.000Z	THX-1138	jeevesbond	- vitamin #winehq is an encyclopedia.

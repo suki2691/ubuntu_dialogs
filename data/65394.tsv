@@ -1,0 +1,4 @@
+2009-02-28T17:20:00.000Z	Dr_willis_AAO	luciash	 i was thinking ONE or the OTHER got read by the login shells..
+2009-02-28T17:21:00.000Z	Dr_willis_AAO	luciash	 xterm -ls, would read .bash_profile if it exists not .bashrc,,, normal xterm would read just .bashrc :)
+2009-02-28T17:22:00.000Z	Dr_willis_AAO	luciash	 to test all this you can put a 'echo This is .bash_profile' or similer line at the start of eah file.. to see when each one is getting read.
+2009-02-28T17:22:00.000Z	Dr_willis_AAO	luciash	 and you can 'source'  one from the others.. ie. .bash_profile could 'source .bashrc'  at the end.

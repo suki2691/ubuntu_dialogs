@@ -1,0 +1,4 @@
+2009-11-29T10:28:00.000Z	Random832		  is this just dd if=[the filename], or some other esoteric way to access the file? you said "block address" earlier
+2009-11-29T10:29:00.000Z	colloguy	Random832	I got the inode from ls -i <filename>, and the block address from istat
+2009-11-29T10:30:00.000Z	colloguy	Random832	sudo dd if=/dev/sda5 bs=4096 skip=$blockaddr count=1
+2009-11-29T10:30:00.000Z	colloguy	Random832	where blockaddr comes from istat

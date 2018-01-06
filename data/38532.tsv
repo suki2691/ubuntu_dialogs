@@ -1,0 +1,4 @@
+2010-01-22T17:19:00.000Z	setkeh`		i keep getting spat into a busy box shell on my ubuntu server install saying "ALERT! /dev/disk/by-uuid/hddhexadress does not exist" any ideas??
+2010-01-22T17:20:00.000Z	scunizi	setkeh`	sudo blkid .. make notes on the uuid's of the drives.. then sudo nano /etc/fstab and compare the previous uuid's with what is listed in fstab.. sounds like you have a drive/partition with an unrecognizable uuid
+2010-01-22T17:22:00.000Z	setkeh`	scunizi	is there any way of doing this from inside busybox because i cannot boot
+2010-01-22T17:23:00.000Z	scunizi	setkeh`	probably but I don't know busybox..

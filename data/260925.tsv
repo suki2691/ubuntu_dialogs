@@ -1,0 +1,4 @@
+2004-12-01T17:21:00.000Z	aaroncuk		my server stopped responding to pings etc.. had to reboot it.. is there a log i can check to see why?
+2004-12-01T17:22:00.000Z	__daniel	aaroncuk	/var/log/syslog
+2004-12-01T17:23:00.000Z	__daniel	aaroncuk	tail <filename> shows you the last lines (-f for "following-mode") (-n <number> shows the last n lines)
+2004-12-01T17:24:00.000Z	__daniel	aaroncuk	man tail   for more options :-)

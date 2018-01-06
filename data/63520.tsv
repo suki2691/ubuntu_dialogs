@@ -1,0 +1,4 @@
+2009-12-25T10:30:00.000Z	Ozzah		Hi, I have a HDD (/dev/sda) with a bad sector on it, and my RAID card isn't picking it up. I want to do a full wipe of the entire drive, mbr, partition tables, everything. How do I do this in Ubuntu? Thanks :)
+2009-12-25T10:30:00.000Z	Pelo	Ozzah	start gparted and make a new partition table
+2009-12-25T10:32:00.000Z	Ozzah	Pelo	That will put a partition table on the drive - how can I wipe the whole drive so that it's blank afterwards, i.e. no partition table, no MBR
+2009-12-25T10:33:00.000Z	Pelo	Ozzah	putting a new partition table on the drive will , to all intents and purposes,  whipe your hdd clean

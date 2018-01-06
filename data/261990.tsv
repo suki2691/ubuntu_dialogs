@@ -1,0 +1,4 @@
+2008-03-17T03:06:00.000Z	sageb1		adding user account to a group: "sudo nano -w /etc/group" and edit the group by adding user account name to it i.e. after last colon in line with a space after that colon, or after the previous user account preceded by a comma separator eg fuse:x:139:username1,username2
+2008-03-17T03:06:00.000Z	sageb1		note 139 may not be the UID for fuse
+2008-03-17T03:06:00.000Z	Seveas	sageb1	EWWWWW
+2008-03-17T03:07:00.000Z	Seveas	sageb1	always use 'adduser user group' or 'gpasswd -a user group'

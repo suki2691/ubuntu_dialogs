@@ -1,0 +1,4 @@
+2007-05-18T10:31:00.000Z	Smegzor		Reinstall in progress.  I didn't import any XP carp this time.  At least it only takes ~10 minutes to install vs XP's hour or so.
+2007-05-18T10:32:00.000Z	Smegzor		If I lose sudo rights again on all user accounts.  Is there anything I can do other than reinstall to fix it?  I'm worried that this could happen long after the install.
+2007-05-18T10:33:00.000Z	RAOF	Smegzor	You can check your "sudoers" file, and make sure that the users you want are in the "admin" group.
+2007-05-18T10:33:00.000Z	RAOF	Smegzor	Booting into "recovery mode" from GRUB will give you root access.

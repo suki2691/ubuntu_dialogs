@@ -1,0 +1,4 @@
+2007-11-26T15:36:00.000Z	mattfletcher		HELP! I've used Sony's recovery partitino on my laptop to restore Windows to my laptop (don't worry, I'm putting Ubuntu back on afterwards too!). It has restored the drive to a single Windows partition, but not overwritten the MBR, so GRUB is still coming up and failing. How can I reset GRUB temporarily so it just boots the Windows partition?
+2007-11-26T15:38:00.000Z	kane77	mattfletcher	on windows cd there should be fixmbr... I've never used it so I can't help much...
+2007-11-26T15:40:00.000Z	mattfletcher	kane77	and brobostigon, i do not have a windows cd, it's a silly recovery partition that sony use. can i not use an ubuntu live cd to write the correct "something" to the mbr?
+2007-11-26T15:41:00.000Z	kane77	mattfletcher	in ubuntu livecd you can recover grub - see !grub

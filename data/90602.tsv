@@ -1,0 +1,4 @@
+2008-05-14T22:21:00.000Z	rmnboss		﻿hi everybody! i've got a problem mounting my ipod so i can write mp3s on it with amarok. when i plug it in, nautilus says, it can't be mounted correctly, since some folder name contains illegal characters (like "/" or something, but the device name is "IPOD"). when i try "sudo mount /dev/sdb2 /media/ipod" it works, but i have to start amarok with root-rights to write on the player. can anyone help? thanks.
+2008-05-14T22:22:00.000Z	wols	rmnboss	set options like your umask=, uid= and gid= correctly when mounting from commandline
+2008-05-14T22:22:00.000Z	rmnboss	wols	uid=my id? and what is umask?
+2008-05-14T22:23:00.000Z	rmnboss	wols	thanks.

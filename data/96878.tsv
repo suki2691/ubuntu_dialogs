@@ -1,0 +1,4 @@
+2010-06-27T20:00:00.000Z	wnstn		I cant seem to ssh into my desktop from my netbook, I try    ssh username@host      ssh username@public_ip    and  ssh public_ip         and it just times out. any ideas?
+2010-06-27T20:01:00.000Z	Dr_Willis	wnstn	 you do have the ssh server installed on the desktop? on the desktop box try 'ssh localhost'
+2010-06-27T20:10:00.000Z	wnstn	Dr_Willis	i can ssh into localhost, but still getting timeout when I try remotely
+2010-06-27T20:16:00.000Z	Dr_Willis	wnstn	 ssh suports a -v and -vv and -vvv option to get vervbose error messages

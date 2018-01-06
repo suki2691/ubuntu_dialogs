@@ -1,0 +1,4 @@
+2008-02-18T04:14:00.000Z	leeping2008		Hi there; I'm looking for a program that will overwrite all the free space in a given filesystem with zeros.  Is this possible?  I want the free space in my filesystem to be filled with zeros.. I've been using the command "dd if=/dev/zero of=/dev/sda" from the LiveCD before I install.  There should be a better way, though!
+2008-02-18T04:16:00.000Z	leeping2008		wow, so many good references.  Thanks a lot :)
+2008-02-18T04:16:00.000Z	Flannel	leeping2008	Check out shred for the future.  (it'll securely delete things, but it wont do it on "all my freespace", it will however do "my whole drive")
+2008-02-18T04:16:00.000Z	leeping2008	Flannel	Haha, I'm actually not trying to securely delete things.

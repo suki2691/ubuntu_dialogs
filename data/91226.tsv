@@ -1,0 +1,4 @@
+2010-03-18T09:39:00.000Z	k3rn		i am using kvm virtual machines. i am writing some manage scripts atm. where should i put either the images of vms, the pid files, and some other managment sockets. what directories would you suggest me? /etc/ - /var/ ?
+2010-03-18T09:40:00.000Z	wgrant	k3rn	Is there a reason you're not using libvirt, a nice management wrapper around KVM and other hypervisors?
+2010-03-20T08:34:00.000Z	wgrant	k3rn	It's designed for users to override the default system editor. Call the 'sensible-editor' script, which checks $EDITOR and uses the system default if it's not set.
+2010-03-20T08:36:00.000Z	wgrant	k3rn	You shouldn't use $EDITOR yourself.

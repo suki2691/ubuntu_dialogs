@@ -1,0 +1,4 @@
+2008-01-28T06:06:00.000Z	bmk789		how do i burn a DVD iso from the command line?
+2008-01-28T06:06:00.000Z	bascule	bmk789	sudo cdrecord -vv dev=ATA:1,0,0 speed=8 some.iso
+2008-01-28T06:07:00.000Z	bmk789	bascule	ty
+2008-01-28T06:08:00.000Z	bascule	bmk789	growisofs -dvd-compat -Z /dev/dvd=image.iso or that, mess with the dev stuff if needed

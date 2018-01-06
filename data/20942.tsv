@@ -1,0 +1,4 @@
+2011-06-30T22:15:00.000Z	jamesiarmes		I am trying to create an AMI on EC2 built from the Ubuntu 10.10 x86_64 instance-store AMI (ami-08f40561). I am having issues launching an instance from my custom AMI. In an attempt to track down the issue, I launched an instance from the original AMI and immediatly created a new AMI by running euca-bundle-vol follwed by euca-upload-bundle on the instance and registering the new AMI through the console. However, when I launch an instance from my new AMI,
+2011-06-30T22:15:00.000Z	jamesiarmes		it goes from pending to terminated with a reason of "Client.InstanceInitiatedShutdown" and no console output available. Could I be doing something incorrect when I create my new AMI?
+2011-06-30T22:16:00.000Z	Pici	jamesiarmes	#ubuntu-server might be a better place to ask that.
+2011-06-30T22:18:00.000Z	jamesiarmes	Pici	Thanks, I'll ask over there

@@ -1,0 +1,4 @@
+2011-04-14T01:51:00.000Z	forevertheuni		hi, I have a problem with my auto-load of the snd-hda-intel. When the computer starts..when I connect the headphones it doesn't recognize them. but if I rmmod snd-hda-intel && modprobe snd-hda-intel...everything is ok...anyone has a hint?
+2011-04-14T01:52:00.000Z	acicula	forevertheuni	eh you rmmod/modprobe when its connected or before you connect the headphone
+2011-04-14T01:53:00.000Z	forevertheuni	acicula	before connectng
+2011-04-14T02:06:00.000Z	acicula	forevertheuni	that does not remove ppa's, you can use the ppa-purge tool to remove packages from a ppa and downgrade, but its not exactly bullet proof

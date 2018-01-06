@@ -1,0 +1,4 @@
+2007-05-28T15:11:00.000Z	bugmenot		hello. i`m in the folder with install.sh file, so i type "sudo install.sh" end "there is no command". what`s wrong?
+2007-05-28T15:11:00.000Z	predaeus	bugmenot	do it like "sudo ./install.sh"
+2007-05-28T15:12:00.000Z	predaeus	bugmenot	because the file is local to the directory you are in and not in the PATH
+2007-05-28T15:14:00.000Z	predaeus	bugmenot	read it, and then say that you accept or don't accept

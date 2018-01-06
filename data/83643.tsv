@@ -1,0 +1,4 @@
+2008-09-24T18:33:00.000Z	rezer21		I would like to send stdout to tar to make a .tar.gz file, anyone know the tar options I need to use to do this?
+2008-09-24T18:34:00.000Z	erUSUL	rezer21	tar can create tar.gz directly from tar "tar cvxf file.tar.gz dir/"
+2008-09-24T18:34:00.000Z	erUSUL	rezer21	the z option creates gz files with j you create bz2 files
+2008-09-24T18:36:00.000Z	rezer21	erUSUL	frostburn: Thx, but what if I do something like: cat file1 | tar , then what tar options do I use to create the tar.gz file? Do I use the "tar -" somehow?

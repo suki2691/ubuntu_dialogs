@@ -1,0 +1,4 @@
+2008-12-25T15:21:00.000Z	ycy		so with dist-upgrade I have to reboot, whilst with upgrade only I don't have to reboot (because it does not upgrade the kernel)
+2008-12-25T15:23:00.000Z	IntuitiveNipple	ycy	No, you're confused. A "dist-upgrade" updates to another Ubuntu release entirely (e.g. Hardy to Intrepid), whereas "upgrade" will install all updates to the installed packages (including the kernel package) for the current Ubuntu version (distribution)
+2008-12-25T15:23:00.000Z	ycy	IntuitiveNipple	well when i launch apt-get upgrade it says that my kernel-image packages are been kept back
+2008-12-25T15:24:00.000Z	IntuitiveNipple	ycy	That's okay, maybe all the required bits aren't ready yet. the kernel is just another package as far as the package-management is concerned

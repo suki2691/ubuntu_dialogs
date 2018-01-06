@@ -1,0 +1,4 @@
+2012-08-09T00:09:00.000Z	SnapSnap		When I boot my computer, right before it gets to the login screen I get the message "The disk drive for /dev/mapper/cryptswap/ is not present or is not ready yet. Continue waiting, press S to skip mounting or press M to attempt manual recovery." No matter what I do, the computer boots normally after about five seconds.
+2012-08-09T00:10:00.000Z	Dr_Willis	SnapSnap	check the /etc/fstab ?
+2012-08-09T00:11:00.000Z	SnapSnap	Dr_Willis	There's no folder "fstab" but there's an empty folder called "fstab.d"
+2012-08-09T00:14:00.000Z	SnapSnap	Dr_Willis	Thanks

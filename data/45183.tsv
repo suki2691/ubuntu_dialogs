@@ -1,0 +1,4 @@
+2010-06-13T21:29:00.000Z	cheosite		how to make image CD with extension *.iso in ubuntu?
+2010-06-13T21:31:00.000Z	cheosite		yea that my mean, make an image of an existing cd
+2010-06-13T21:33:00.000Z	thune3	cheosite	cat /dev/sr0 > image.iso     use your cdrom device instead of sr0
+2010-06-13T21:40:00.000Z	thune3	cheosite	/dev/sr0 may not be your cdrom device, you have to figure out what /dev is associated with that drive

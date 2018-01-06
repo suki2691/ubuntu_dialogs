@@ -1,0 +1,4 @@
+2007-04-28T08:27:00.000Z	nitrogen21		how I give an existing user, root privileges?
+2007-04-28T08:27:00.000Z	seraphim	nitrogen21	add him to the admin-group
+2007-04-28T08:29:00.000Z	nitrogen21	seraphim	: i go to system -> administration -> but there's users and groups option. How can I do it command line?
+2007-04-28T08:30:00.000Z	seraphim	nitrogen21	usermod -G admin username

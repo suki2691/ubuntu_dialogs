@@ -1,0 +1,4 @@
+2006-07-25T08:21:00.000Z	thompa		is there a way to tell grub to install on 2nd linux drive rather than mbr of windows?
+2006-07-25T08:22:00.000Z	thompa		i dont want grub to mess with windos hard disk
+2006-07-25T08:22:00.000Z	oskude	thompa	you can install grub in a floppy mbr and use that as boot disk
+2006-07-25T08:24:00.000Z	oskude	thompa	the mbr on the disk doesnt belong to windows, windows just installed its mbr to it...

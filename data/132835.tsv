@@ -1,0 +1,4 @@
+2007-05-28T11:06:00.000Z	AWizzArd		when I log in with ssh (from my machine B) to my remote ubuntu machine A, can I then start a Gnome session with my user to which I can connect through VNC?
+2007-05-28T11:07:00.000Z	kitche	AWizzArd	not that I know of
+2007-05-28T11:07:00.000Z	AWizzArd	kitche	so that means if I can't physically log in on my (remote) machine I can't use vnc, because that requires that Gnome already is running?
+2007-05-28T11:08:00.000Z	kitche	AWizzArd	yeah if you do startx on a ssh connection and leave the ssh connection X shut downs

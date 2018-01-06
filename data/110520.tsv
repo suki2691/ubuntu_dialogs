@@ -1,0 +1,4 @@
+2012-01-09T12:58:00.000Z	JCZING		Hello. I am building a TeamSpeak 3 Server on 10.04. I am trying to figure out how to have my server automatically execute a file on startup. If I need to restart my server, I don't want to go into the console to enter the startup command every time I do. The exact file is in this location: /home/ts3user/teamspeak3-server_linux-amd64/ts3server_minimal_runscript.sh
+2012-01-09T12:59:00.000Z	JCZING		thank you
+2012-01-09T13:00:00.000Z	aBound	JCZING	I would imply that you use a cron job to execute a script at startup. But technically I'm not familiar with the cron command.
+2012-01-09T13:02:00.000Z	aBound	JCZING	You could open a terminal and type: man cron

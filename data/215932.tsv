@@ -1,0 +1,4 @@
+2006-01-14T15:48:00.000Z	kill9		hi, I've just recompiled kernel 2.6.14-5 on my box using make-kpkg - when i try boot the kernel I get "ALERT!" /dev/sda5 does not exist.  Dropping to shell! Im using reiserfs, which ive built in aswell as my sata driver... any ideas?
+2006-01-14T15:49:00.000Z	lsuactiafner	kill9	: did you configure the related options, sata driver ect as * and not M
+2006-01-14T15:49:00.000Z	kill9	lsuactiafner	yeah
+2006-01-14T15:50:00.000Z	lsuactiafner	kill9	: check that your bootmanager, probably grub is configured correctly, i use lilo so cant help you

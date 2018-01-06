@@ -1,0 +1,4 @@
+2010-01-20T08:02:00.000Z	matelot		How to " chmod  a+w" for any ".py" files in all sub-dir ?
+2010-01-20T08:03:00.000Z	guest	matelot	find <basedir> -iname *.py -exec chmod a+w '{}' \;
+2010-01-20T08:05:00.000Z	guest	matelot	a simple find command.   man find   for details
+2010-01-20T08:07:00.000Z	guest	matelot	   the found files will be substituted there and quoted

@@ -1,0 +1,4 @@
+2011-08-18T14:22:00.000Z	pyarun		hi, i ahve a dir where group(a,b,c) has rws permession, when a creates a file in dir permission that comes are rw------- , i want this file to be accessable to user b and c as well
+2011-08-18T14:22:00.000Z	mssever	pyarun	You need to set your umask. Google it
+2011-08-18T14:23:00.000Z	pyarun	mssever	but umask will change it system wide, can that be done on per dir basis
+2011-08-18T14:24:00.000Z	mssever	pyarun	Not as far as I know, in stock linux, but there are Linux ACL (access control list) programs available, or so I've heard

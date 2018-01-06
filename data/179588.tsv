@@ -1,0 +1,4 @@
+2007-03-25T08:56:00.000Z	omeil		I have had OS's that boot faster than ubuntu but unbuntu is by far the most stable OS i have used
+2007-03-25T08:57:00.000Z	omeil		so whats the big difference between apt-get and aptitude?
+2007-03-25T08:58:00.000Z	jrib	omeil	aptitude will automatically keep track of the dependencies installed for package X and when you remove package X it will also remove those dependencies if nothing else needs them
+2007-03-25T08:58:00.000Z	jrib	omeil	apt-get has autoremove but it is buggy...

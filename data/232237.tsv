@@ -1,0 +1,4 @@
+2011-03-30T00:12:00.000Z	naomi_		i typed "modinfo uvcvideo" and a load of things popped up about the usb video class driver, but i dont know what the driver is exactly or how to blacklist it.
+2011-03-30T00:13:00.000Z	naomi_		Ok but i dont know what the module name is?
+2011-03-30T00:13:00.000Z	erUSUL	naomi_	so ... « echo "uvcvideo" | sudo tee -a /etc/modprobe.d/my_blacklist.conf »
+2011-03-30T00:14:00.000Z	erUSUL	naomi_	that would be uvcvideo; modinfo takes a module name as parameter

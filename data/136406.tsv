@@ -1,0 +1,4 @@
+2009-11-01T23:03:00.000Z	curtmack		When I try to boot into Karmic, I get a blinking screen. The thing is, it's not just the display, it's the entire computer - when the screen isn't on, the computer doesn't respond the keyboard input
+2009-11-01T23:04:00.000Z	curtmack		I could get it to start up in recovery mode, but I still have no idea how to fix it
+2009-11-01T23:04:00.000Z	curtmack		also, gdm refuses to start up. It doesn't even give an error message, it just doesn't do anything.
+2009-11-01T23:05:00.000Z	Shikaku	curtmack	sudo /etc/init.d/gdm restart

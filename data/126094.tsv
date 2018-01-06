@@ -1,0 +1,4 @@
+2007-08-04T07:31:00.000Z	eJoJ		Anyone here that can give me a quick and dirty guide on activating frambuffer console, and where to edit the settings of them?
+2007-08-04T07:32:00.000Z	Dr_willis	eJoJ	 i thought the framebuffer was enabled by default. I normally disable it with the nofb option to the kenel. then theres the fbset and other commands to tweak it.
+2007-08-04T07:33:00.000Z	eJoJ	Dr_willis	hmm I want to have /dev/tty1 in 1024*768 with borders, but I don't know where to configure it, I have fb enabled now, and know how to switch fonts etc, but I can't find anywhere to customize it more
+2007-08-04T07:35:00.000Z	Dr_willis	eJoJ	 I normally diusable it. You may want to check out tldp.org for the framebuffer howto, or google for other framebuffer docs/tips. I alwas disable ti .because it slows stuff down somewhat.

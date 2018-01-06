@@ -1,0 +1,4 @@
+2008-01-10T21:53:00.000Z	sjiraff		Anyone care to let me in on how to have hard drives mounted automatically on startup?
+2008-01-10T21:54:00.000Z	choru	sjiraff	thats done in the /etc/fstab file
+2008-01-10T21:56:00.000Z	choru	sjiraff	depending on if you're using sata or ata disks they are named /dev/sdx or /dev/hdx
+2008-01-10T21:56:00.000Z	choru	sjiraff	use "sudo fdisk -l" to find out what disk is named what

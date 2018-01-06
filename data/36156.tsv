@@ -1,0 +1,4 @@
+2011-10-01T14:03:00.000Z	PsychoX75		goodmorning vietnam.. :)
+2011-10-01T14:05:00.000Z	PsychoX75		I've been busting myself all morning but can't figure this one out. (not a pro yet). For some reason after i mount the NTFS drives in Ubuntu through it's GUI, it doesn't re-mount them after i reboot. Meaning that even the fileshares on the HDD becomes unavailable. How do i make it persistent?
+2011-10-01T14:06:00.000Z	zaxonspox	PsychoX75	put an entry in /etc/fstab to do automount
+2011-10-01T14:29:00.000Z	zaxonspox	PsychoX75	install package ntfs-tools? utils? it was having GUI

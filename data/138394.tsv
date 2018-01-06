@@ -1,0 +1,4 @@
+2008-03-20T07:36:00.000Z	Marupa		Is there a way to see a list of packages that are installed but sorted by size?
+2008-03-20T07:38:00.000Z	xq	Marupa	I don't know how to sort by size. I just know you could dpkg --get-selections > my-pkg-list
+2008-03-20T07:39:00.000Z	xq	Marupa	Then you should see a file called my-pkg-list and just gedit it (or open it or what not) and it will have all installed packages in it...
+2008-03-20T07:40:00.000Z	xq	Marupa	You could sort afterwards if you export the file to a program of choice

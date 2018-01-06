@@ -1,0 +1,4 @@
+2008-08-31T06:19:00.000Z	mika_videodev		Hi! Isn't there source packages at all in Ubuntu ?
+2008-08-31T06:19:00.000Z	mika_videodev		how are the source packages named?
+2008-08-31T06:20:00.000Z	mgolisch	mika_videodev	sure there are, you can get the sourcepakcage name by apt-cache show packagename, it should list the sourcepackage name
+2008-08-31T06:22:00.000Z	mgolisch	mika_videodev	the sources are never installed, but you can fetch the to the current directory with apt-get source packagename

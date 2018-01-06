@@ -1,0 +1,4 @@
+2012-10-30T18:00:00.000Z	Sebboh	_cronus_	May I ask what you mean by diverted?  Replaced?  A better way to check if an important executable has been replaced is to look at the checksum.  md5sum(1) should do the trick.
+2012-10-30T18:09:00.000Z	Sebboh	_cronus_	again, if you're worried about people replacing /sbin/init, you can't just check filesize to confirm that the file is unaltered.  The sort of people who replace executables are well versed in the art of blending in.  There are automated tools to generate an executable with filesize X.  (Just use a small exectuable and padding!)  SO, check the md5sum.
+2012-10-30T18:10:00.000Z	_cronus_	Sebboh	no, not worried about that.
+2012-10-30T18:12:00.000Z	Sebboh	_cronus_	I see.  Carry on. :)

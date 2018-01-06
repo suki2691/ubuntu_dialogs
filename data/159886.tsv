@@ -1,0 +1,4 @@
+2011-10-14T15:33:00.000Z	MasterOfDisaster	knome	symlinking /var/run and /var/lock should work fine.
+2011-10-14T15:33:00.000Z	knome	MasterOfDisaster	okay, i'll try that. thanks
+2011-10-14T15:39:00.000Z	knome	MasterOfDisaster	btw, how are you supposed to symlink those while both locations already exist?
+2011-10-14T15:43:00.000Z	MasterOfDisaster	knome	boot with init=/bin/bash appended to the kernel's cmdline, mount / read-write with 'mount / -o remount,rw', and remove /var/run/* and /var/lock/*.

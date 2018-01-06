@@ -1,0 +1,4 @@
+2010-11-10T01:19:00.000Z	mshadle		is ubuntu 10.10 maverick not 'production' ? at least for servers? i have to run do-release-upgrade -d to make my box think maverick is okay
+2010-11-10T01:20:00.000Z	Pici	mshadle	You need to modify /etc/update-manager/release-upgrades to 'normal' from 'lts' in order for do-release-upgrade to suggest the upgrade.
+2010-11-10T01:21:00.000Z	Pici	mshadle	Right. Change 'Prompt=lts' to 'Prompt=normal'
+2010-11-10T01:21:00.000Z	Pici	mshadle	Look at the contents of that file and you'll understand, it has a big commented explanation at the top.

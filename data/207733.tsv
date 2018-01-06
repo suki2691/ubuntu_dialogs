@@ -1,0 +1,4 @@
+2005-12-13T13:47:00.000Z	dirkson		As a windows refugee, here's a bit of a n00b question: Running ext3, am I going to have to ever 'defrag' my partitions?
+2005-12-13T13:48:00.000Z	nailbiter	dirkson	1) Believe it or not, there's no standard ext3 defragger 2) In most cases, fragmentation doesn't hurt performance all that much in ext3
+2005-12-13T13:48:00.000Z	nailbiter	dirkson	If you still want to defrag, you can use e2defrag, but will have to convert the filesystem back to ext2 first
+2005-12-13T13:52:00.000Z	dirkson	nailbiter	Not really. My boot time is laughably fast now that I've edited the rc.d files and switched to xfce. I've got to say, I really don't understand why xfce isn't more popular.

@@ -1,0 +1,4 @@
+2009-08-28T03:27:00.000Z	Bacta		How can I add a user to the list of users who can su to root?
+2009-08-28T03:28:00.000Z	nsp	Bacta	You just create the new user and then afford rights by editing /etc/group
+2009-08-28T03:30:00.000Z	nsp	Bacta	In /etc/group add new user to admin line, (and any others as needed).
+2009-08-28T03:31:00.000Z	nsp	Bacta	Well, not ANY others, look at where the original user is entered - put a comma at the end and add the new user's name.

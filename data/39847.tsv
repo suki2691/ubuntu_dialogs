@@ -1,0 +1,4 @@
+2010-01-04T19:13:00.000Z	Milp		Is there any way for me to find out why my server has multiple instances of sshd running instead of one?
+2010-01-04T19:14:00.000Z	gdb	Milp	That's by design.  You have one running that's the master that's listening for connections.  Every connection made forks off another copy with a lowered privilege.  It's a security feature of openssh.
+2010-01-04T19:15:00.000Z	Milp	gdb	But i only have one open connection to it at the moment, there are like 6 running though
+2010-01-04T19:17:00.000Z	gdb	Milp	Ah, that I don't know then.  Do you have any other ssh connections open using something other than ssh?  (ie; sftp, scp, etc?)

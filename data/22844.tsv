@@ -1,0 +1,4 @@
+2011-01-26T00:46:00.000Z	Jordan_U		!gksudo | jtannenbaum smiley2
+2011-01-26T00:47:00.000Z	jtannenbaum	Jordan_U	Been using Ubuntu for years and I did not know that
+2011-06-02T21:47:00.000Z	Jordan_U	jtannenbaum	The boot flag is irrelevant as far as grub is concerned. You definitely do *not* want to install grub to sda2, or any partition. Grub's boot sector should always be installed to the mbr, /dev/sda.
+2011-06-07T12:03:00.000Z	Jordan_U	jtannenbaum	Run "sudo dpkg-reconfigure grub-pc" in both your Ubuntu installs and make sure that in each install you select only the drive corrosponding to that install as an install device for grub. That way you will never have an install of grub looking for its files on another drive (just using grub-install is not enough as the grub-pc packaging runs grub-install itself whenever it is upgraded).

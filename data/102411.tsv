@@ -1,0 +1,4 @@
+2011-03-15T08:53:00.000Z	rsync		hi ive set up a crontab to iniate a rsync every 10 minutes to copy over /var/mail from one server to another. it works when using root but not a standard user. Can some please confirm if i have to be a root user to touch /var/mail?
+2011-03-15T08:54:00.000Z	rsync		<dr_Willis> could i use sudo?
+2011-03-15T08:54:00.000Z	rww	rsync	it's owned by root:mail on my system, so you'd need to be either the mail or root user, yes.
+2011-03-15T08:56:00.000Z	rww	rsync	use "sudo crontab -u mail -e" to put it in mail's crontab, perhaps?

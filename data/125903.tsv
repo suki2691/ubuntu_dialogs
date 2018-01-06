@@ -1,0 +1,4 @@
+2007-08-05T14:22:00.000Z	pHaselock		I'm new to ubuntu and I am trying to install it on a box that has windows already on it. it has two disks and I want to put ubuntu on the second disk and dual  boot
+2007-08-05T14:23:00.000Z	desertc	pHaselock	should be no problem - you'llneed to configure "grub" afterward
+2007-08-05T14:24:00.000Z	pHaselock	desertc	thanks, I am going through the install wizzard and I don't want to delete my windows partition, how do I prepare the disk space
+2007-08-05T14:24:00.000Z	desertc	pHaselock	you need to look at the second device, which is probably /dev/sdb

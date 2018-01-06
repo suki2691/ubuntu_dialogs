@@ -1,0 +1,4 @@
+2009-06-24T01:04:00.000Z	jbarket		Question. I just upgraded to 9.04 and my graphics in Gnome are now borked to hell. At the login screen and it's completely hosed. How can I drop to the CLI to reconfigure x or... whatever is necessary here
+2009-06-24T01:05:00.000Z	usr13	jbarket	Ctrl-Alt-F6
+2009-06-24T01:06:00.000Z	usr13	jbarket	dpkg-reconfigure xorg
+2009-06-24T01:08:00.000Z	usr13	jbarket	dpkg-reconfigure -phigh xserver-xorg

@@ -1,0 +1,4 @@
+2008-07-29T16:45:00.000Z	Jon__		ok, so I have a networking problem with my ubuntu box, fairly recently I have not been able to ping, rlogin, ssh or in any way connect to a few select machines on our LAN with the rest working fine, but a traceroute runs and the dns name is resolved fine.  on these machines nslookup reports a 'non authoritative' answer but this is also reported on other machines I can connect to fine so probably doesn't mean much.  no firewalls running .....any thoug
+2008-07-29T16:45:00.000Z	Jon__		hts?
+2008-07-29T16:46:00.000Z	sipior	Jon__	a traceroute runs, but a ping doesn't work? that sounds inconsistent...
+2008-07-29T16:47:00.000Z	sipior	Jon__	also, are you sure the target machines are running sshd? do you get a "connection refused" error?

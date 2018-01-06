@@ -1,0 +1,4 @@
+2009-03-18T17:50:00.000Z	azlon		what directory are apps install to?
+2009-03-18T17:50:00.000Z	azlon		bin?
+2009-03-18T17:52:00.000Z	sipior	azlon	generally /usr/bin or /usr/sbin. /usr/local/bin and /usr/local/sbin for things you install yourself.
+2010-04-22T22:59:00.000Z	sipior	azlon	if you want the drive serial number, install the "smartmontools" package, and have a look through the "smartctl" man page. your drives almost certainly support it.

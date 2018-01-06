@@ -1,0 +1,4 @@
+2012-11-16T08:35:00.000Z	kajahodka		this is the first day I'm using Ubuntu, and I STILL DON'T KNOW how to get to my files from windows :D I'm not good in computers so go slowly :P
+2012-11-16T08:36:00.000Z	steale	kajahodka	have you installed ubuntu on the same machine? eg dual boot?
+2012-11-16T08:37:00.000Z	kajahodka	steale	i'm using ubuntu from USB
+2012-11-16T08:41:00.000Z	steale	kajahodka	run terminal and run the commands, mkdir /mnt/windows (or anything you would like eg /home/user/windows - whatever) then run fdisk -l and find the HDD name most likley /dev/sda1 then run the command sudo mount -t ntfs /dev/sda1 /home/user/windows

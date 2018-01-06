@@ -1,0 +1,4 @@
+2009-12-28T08:36:00.000Z	Leemp		Anyone familiar to to how i can find a task running? I installed Mediatomb, and it seems it is running some sort of Daemon without me launching it. Well i'd like to kill/reboot it, but i can't find it.
+2009-12-28T08:36:00.000Z	Leemp		Any thoughts?
+2009-12-28T08:37:00.000Z	Leemp		(If i run mediatomb myself, i can see it in the process list, but that is _only_ the one i run.)
+2009-12-28T08:37:00.000Z	HTT-Bird	Leemp	use ps ax, or look in your /etc/init.d for a start/stop script

@@ -1,0 +1,4 @@
+2006-06-26T09:30:00.000Z	kleedrac		Silly question which I've found the answer to before but can't seem to now that I need it ... how do I set a shell script to run a process sudo'ed without needing to enter the password?
+2006-06-26T09:31:00.000Z	wastrel	kleedrac	 you need to edit /etc/sudoers for the command to be run with the NOPASSWD flag
+2006-06-26T09:31:00.000Z	wastrel	kleedrac	 use visudo to edit sudoers, and read up on man sudoers
+2006-06-26T09:31:00.000Z	kleedrac	wastrel	That was it ... I was looking in /etc and just blind today :) ... thanks alot :)

@@ -1,0 +1,4 @@
+2009-05-29T19:34:00.000Z	scampbell	Dunge	/usr/local/lib is not in the library load path by default. You can either alter your make to include the library path or put it in the system library path thus:  echo '/usr/local/lib' > /etc/ld.so.conf.d/locallib.conf; ldconfig
+2009-05-29T19:35:00.000Z	Dunge		I just checked /etc/ld.so.conf.d/libc.conf and it already contain /usr/local/lib but it don't seems to work
+2009-05-29T19:37:00.000Z	Dunge	scampbell	: sorry, my mistake, examples compile and install fine. The problem happens on execution
+2009-05-29T19:38:00.000Z	scampbell	Dunge	so when it runs it cannot find the library?

@@ -1,0 +1,4 @@
+2008-01-27T02:12:00.000Z	peachCobbler		i was playing with my group permissions so i could modify /var/www, and I accidentally set www-data as my main usergroup, rather than appending it as an additional group for my user account. it wouldnt let me login to gnome, only into ttys and failsafe terminal. i edited /etc/group through root in another linux installation, and that let me login
+2008-01-27T02:12:00.000Z	peachCobbler		but im still not in the sudoers group
+2008-01-27T02:12:00.000Z	peachCobbler		i accidentally used the -G flag rather than -a
+2008-01-27T02:13:00.000Z	soundray	peachCobbler	add yourself to the admin group. You don't have to do it through another installation -- you can boot in recovery mode.

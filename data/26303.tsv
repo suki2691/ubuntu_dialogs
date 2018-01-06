@@ -1,0 +1,4 @@
+2010-09-14T23:02:00.000Z	bjaanes		Hey, I have been setting up my NFS server and exported some shares and stuff. I see now that permissions and owners are going to be troublesome when people on my network connect to the server. Is there any way to force owner, group and/or permissions when mounting from fstab?
+2010-09-14T23:02:00.000Z	bjaanes		Sort of like in Samba i suppose, but i want NFS :)
+2010-09-14T23:03:00.000Z	erUSUL	bjaanes	no; nfs is completly integrated with unix permissions. you have to sync UID's across the network or use very permissive perms
+2010-09-14T23:06:00.000Z	bjaanes	erUSUL	damn xD NFS is somewhat retarded :D But okey. Would it be lame if I used like a script to keep all permissions exactly like i want them? (something like: chown -R user:group /path/to/share)

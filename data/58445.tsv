@@ -1,0 +1,4 @@
+2010-07-22T06:32:00.000Z	pyrophelia		does anybody know what would cause ssh transfers to be limited to 100Mbps speeds?  if i check something out via svn or sftp on my server I get a max transfer rate of about 12MBps.  however if transfer via afp I'll max the raid out.
+2010-07-22T06:33:00.000Z	KB1JWQ	pyrophelia	Encryption overhead.
+2010-07-22T06:34:00.000Z	pyrophelia	KB1JWQ	is it possible to speed it up?
+2010-07-22T06:34:00.000Z	KB1JWQ	pyrophelia	Sure. Don't use SSH.

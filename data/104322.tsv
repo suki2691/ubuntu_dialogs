@@ -1,0 +1,4 @@
+2010-04-18T18:19:00.000Z	Zteam		Hello, i having problems to install the flashplugin for firefox in my ubuntu system
+2010-04-18T18:20:00.000Z	Zteam		if I run sudo aptitude install flashplugin-nonfree it tells me there is a conflict with adobe-flashplugin
+2010-04-18T18:20:00.000Z	Zteam		what can I do about it?
+2010-04-18T18:21:00.000Z	ActionParsnip	Zteam	can you give a pastebin of: dpkg -l | grep flash; dpkg -l | grep swf; dpkg -l | grep gnash

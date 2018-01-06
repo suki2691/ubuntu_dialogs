@@ -1,0 +1,4 @@
+2007-02-07T14:02:00.000Z	robdeman		mm what the F
+2007-02-07T14:03:00.000Z	robdeman		hi folks, which command can I run that will tell me what kind of machine I have? wheter its 64 bits.. how much ram.. etc?
+2007-02-07T14:03:00.000Z	dyrne	robdeman	cat /proc/cpuinfo   or meminfo is a good start
+2007-02-07T14:04:00.000Z	dyrne	robdeman	/proc directory has all kinds of useful stuff

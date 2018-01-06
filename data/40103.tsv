@@ -1,0 +1,4 @@
+2009-12-31T17:54:00.000Z	andreas__		So if my harddrive has sdb (filesystem) has sdb1linux, sdb2extended, sdb5,swap do I have a seperate boot partition?
+2009-12-31T17:56:00.000Z	andreas__		Supertux1: Sorry let me rephrase myself. I'm still having problems with reconfiguring my MBR. My 1st harddrive has 3 seperate partitions SDB1,2,5 with following filesystems Linux, Extended, and Swap. Does this mean that I have a seperate /boot/ partition?
+2009-12-31T17:58:00.000Z	supertux1	andreas__	extended is nto a partition.... i think no /boot in spearate partition
+2009-12-31T17:58:00.000Z	supertux1	andreas__	let me see you fdisk in pastebin

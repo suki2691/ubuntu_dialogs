@@ -1,0 +1,4 @@
+2012-05-06T03:48:00.000Z	gsr	`prixon	the contents of a deb package are installed into the linux filesystem as described in https://help.ubuntu.com/community/LinuxFilesystemTreeOverview, as well as some leeway in where certain files go
+2012-05-06T03:50:00.000Z	`prixon	gsr	so how will creating a separate partition as a /home partition would help me if I reinstall ubuntu on a different filesystem-partition?
+2012-05-06T03:51:00.000Z	gsr	`prixon	because you would keep all your personal files - documents, personal settings, and anything else in your user directory
+2012-05-06T03:52:00.000Z	gsr	`prixon	it won't keep the applications installed through apt or dpkg.

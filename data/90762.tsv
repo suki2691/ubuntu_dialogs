@@ -1,0 +1,4 @@
+2010-12-28T12:06:00.000Z	jon8		Anyone know of some documenatation on getting my SD Card Reader to be mounted --- in Terminal. I do not use the GUI.
+2010-12-28T12:07:00.000Z	SwedeMike	jon8	check your log using dmesg, find out what /dev/sd device it became, then look into the "mount" program.
+2010-12-28T12:08:00.000Z	jon8	milamber	fdisk -l doenst do anything, doesnt list anything
+2010-12-28T12:08:00.000Z	SwedeMike	jon8	sudo fdisk -l

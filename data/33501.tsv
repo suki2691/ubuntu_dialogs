@@ -1,0 +1,4 @@
+2011-06-22T00:13:00.000Z	ohir	prov	next time you should know that you need disk layout file attached to dd backup
+2011-06-22T00:13:00.000Z	prov	ohir	How is that to be done?
+2011-06-22T00:14:00.000Z	ohir	prov	on terminal do: sudo fdisk -l /dev/sda > disk_layout.txt and keep this with your backup
+2011-06-22T00:15:00.000Z	ohir	prov	if sda is your hdd of course (usually is)

@@ -1,0 +1,4 @@
+2012-08-10T13:51:00.000Z	ducktype		hi how can i check for missing files in installed packages with apt?
+2012-08-10T13:52:00.000Z	ducktype		i've deleted some files and i don't know which ones...
+2012-08-10T13:52:00.000Z	ducktype		i want to "repair" installed packeges, possible?
+2012-08-10T13:53:00.000Z	theadmin	ducktype	Try "apt-get -f install". I have no idea what that does, but that fixes a lot of problems with APT, might as well check for missing files.

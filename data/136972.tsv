@@ -1,0 +1,4 @@
+2007-04-24T12:11:00.000Z	NemesisD		this kis kind of a basic question but something is using up 100% of my clock cycles, how would I go about finding out what process is doing that and killing it (sys monitor is no help)
+2007-04-24T12:11:00.000Z	Faentur	NemesisD	start with 'top'
+2007-04-24T12:12:00.000Z	NemesisD		argh its mysqld_safe
+2007-04-24T12:13:00.000Z	NemesisD	Faentur	killed it, thanks!

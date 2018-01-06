@@ -1,0 +1,4 @@
+2008-06-27T01:18:00.000Z	yjwong		Oh damn, I'm bad at C/C++. Any hackers here?
+2008-06-27T01:19:00.000Z	yjwong		Someone please hack the GVFS source for me (:
+2008-06-27T01:19:00.000Z	howlingmadhowie	yjwong	what's the question?
+2008-06-27T01:21:00.000Z	yjwong	howlingmadhowie	my previous line was the problem. Nautilus returns "Invalid reply" for FTP protocols - ONLY IF the FTP banner size is too long, which I traced to an overly-small buffer size.

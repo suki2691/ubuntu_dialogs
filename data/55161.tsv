@@ -1,0 +1,4 @@
+2012-11-04T09:31:00.000Z	Ali_nz^1		I need to setup a directory and have some specific permissions. I need a user called MxCamera which can read and write to this directory (MxData) via NFS. I need another user called MxUser which can Read only to this directory via SMB - as a start - where is the best place to create this folder? under /home/MxData ?
+2012-11-04T09:33:00.000Z	edbian	Ali_nz^1	I believe you need to have that use MxCamera on the file hosting machine and the machine the user logs into in order for it to work correctly.
+2012-11-04T09:33:00.000Z	edbian	Ali_nz^1	There is a system which allows you to add use account to one file on one machine and have all the other machines read that file to become of user accounts.
+2012-11-04T09:34:00.000Z	edbian	Ali_nz^1	The best place for the folder is probably /mnt/  or I guess just in /  ?  Not really sure

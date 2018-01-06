@@ -1,0 +1,4 @@
+2006-07-29T13:10:00.000Z	J-_		what's the directory of hda1 so i can put an icon on my desktop? is it /dev/hda1? if so, i can't make a shortcut to the desktop.
+2006-07-29T13:12:00.000Z	t-thing_	J-_	/dev/hda1 is the device file for a partition. I'm assuming it's already mounted somewhere. Why do you want it actually?
+2006-07-29T13:13:00.000Z	t-thing_	J-_	easier access to what?
+2006-07-29T13:14:00.000Z	t-thing_	J-_	check your /etc/fstab, /dev/hda1 is probably listed there with the directory it's mounted to

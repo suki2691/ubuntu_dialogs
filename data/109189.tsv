@@ -1,0 +1,4 @@
+2010-03-08T08:53:00.000Z	te_	airtonix	But if he has no firewall, those ports should not be blocked.
+2010-03-08T08:54:00.000Z	airtonix	te_	pretty sure there are no open ports to begin with regardless if there is no firewall gui installed... iptables is installed by default.
+2010-03-08T08:55:00.000Z	te_	airtonix	Of course iptables is installed, but unless there is a firewall implementing iptables to block ports nothing should be blocked.
+2010-03-08T08:56:00.000Z	airtonix	te_	ok sorry let me be more specific : iptables(default cli interface to netfilter) and netfilter(the actual firewall) are installed by default.

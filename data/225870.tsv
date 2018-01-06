@@ -1,0 +1,4 @@
+2006-03-05T15:30:00.000Z	Celeste		hi
+2006-03-05T15:30:00.000Z	Celeste		I installed a  j2re*  something package.  How can I find out the exact name please?
+2006-03-05T15:31:00.000Z	trappist	Celeste	dpkg -l | grel j2re
+2006-03-05T15:31:00.000Z	trappist	Celeste	dpkg -l | grep j2re

@@ -1,0 +1,4 @@
+2011-12-22T20:13:00.000Z	insectatorious		I  have two files in different paths, one is a symlink of the other. Both have the same name. How do I know which is the symlink and which is the main file?
+2011-12-22T20:14:00.000Z	six7	insectatorious	you can use ls -l to show what type of file each one is
+2011-12-22T20:15:00.000Z	six7	insectatorious	the link will show like lrwxrwxrwx or so, depending on your permissions, the regular file will show as -rwxrwxrwx
+2011-12-22T20:32:00.000Z	insectatorious	six7	thanks

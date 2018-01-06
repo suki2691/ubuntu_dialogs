@@ -1,0 +1,4 @@
+2005-07-27T13:06:00.000Z	everett_		How can I use the automatically generated config file 2.6.10-5-38 in /boot/ to compile a 2.6.10 kernel in /usr/src/ ?
+2005-07-27T13:07:00.000Z	HappyFool	everett_	i think you copy it to /usr/src/linux-<whatever>/.config -- i.e., it needs to be called .config, and be in root of the linux source tree
+2005-07-27T13:07:00.000Z	HappyFool	everett_	take a look here:
+2005-07-27T13:08:00.000Z	HappyFool	everett_	building a new kernel is not trivial, afaik -- you need to make an initrd image, update grub, etc. That page should tell you more.

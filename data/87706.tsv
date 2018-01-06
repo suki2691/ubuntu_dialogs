@@ -1,0 +1,4 @@
+2008-06-22T02:49:00.000Z	kidsfinkter		Hi - I get this error when I try to log in to my Ubuntu 8.04 machine: "The GNOME session manager was unable to lock the file 'home/pete/.ICEauthority'." have tried the fixes here: http://ubuntuforums.org/showpost.php?p=3261023&postcount=10 and here: http://ubuntuforums.org/showpost.php?p=5075875&postcount=14 --- can anyone help me?
+2008-06-22T02:50:00.000Z	funkyHat	kidsfinkter	can you get to a login shell on the machine and check using df for free space on your / (or /home) partition?
+2008-06-22T02:51:00.000Z	kidsfinkter		funkyHal: plenty of free space on /dev/sda1 - only used 38% of ~70GB drive
+2008-06-22T02:58:00.000Z	kidsfinkter	funkyHat	plenty of free space on /dev/sda1 - only used 38% of ~70GB drive

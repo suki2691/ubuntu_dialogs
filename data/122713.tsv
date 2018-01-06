@@ -1,0 +1,4 @@
+2009-06-09T13:37:00.000Z	naxa		how can I set default program for a file extienson what I don't currently own? For example I want to set smplayer for all mkv files but I don't actually have an mkv file, and I don't want to create one just to be able to use nautilus->right click->properties->open with->set default program. And/or do anyone know where gnome/nautlius keeps the default program associations?
+2009-06-09T13:39:00.000Z	koshari	naxa	i would suspect it would be somewhere in gconf-editor
+2009-06-09T13:40:00.000Z	naxa	koshari	a person I've asked before just found out that there is a file "~/.local/share/applications/mimeapps.list" what has some mime-types and some application association to them
+2009-06-09T14:08:00.000Z	koshari	naxa	this file may be wortha look, /usr/share/mime/packages/freedesktop.org.xml

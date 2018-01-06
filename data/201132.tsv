@@ -1,0 +1,4 @@
+2008-12-19T23:01:00.000Z	goog		How can i find out all files an app opens? strace? I tried "strace -o trace.txt thunderbird" but the output seems to not show all file access.
+2008-12-19T23:02:00.000Z	sipior	goog	check out the -p switch on lsof
+2008-12-19T23:03:00.000Z	goog	sipior	hmm.. that lists only the currently open files i guess?
+2008-12-19T23:03:00.000Z	sipior	goog	yes. otherwise, you're stuck parsing through strace output.

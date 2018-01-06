@@ -1,0 +1,4 @@
+2012-02-18T07:30:00.000Z	TurtleSoup		Ubuntu 10.04LTS: Is there a way to write a script that copies *new* files from one folder into another folder?
+2012-02-18T07:30:00.000Z	ActionParsnip	TurtleSoup	look into rsync
+2012-02-18T07:34:00.000Z	TurtleSoup	ActionParsnip	is there a way to have rsync constantly running? I want to back up files from one hard drive to another, but only if they're added from this point on. I also want to be able to modify the files on one of the drives, so RAID isn't for me.
+2012-02-18T07:35:00.000Z	ActionParsnip	TurtleSoup	cron a job to run every 10 mins or so, I believe dropbox does LAN sync too, worth looking into

@@ -1,0 +1,4 @@
+2008-04-21T21:40:00.000Z	blackmamba		E: Could not get lock /var/lib/dpkg/lock - open (11 Resource temporarily unavailable)
+2008-04-21T21:40:00.000Z	blackmamba		E: Unable to lock the administration directory (/var/lib/dpkg/), is another process using it?
+2008-04-21T21:40:00.000Z	blackmamba		   <<<what is this suppose to mean ?!
+2008-04-21T21:41:00.000Z	sipior	blackmamba	either another process is trying to install packages, or you are not running it with root permissions. try sudo.

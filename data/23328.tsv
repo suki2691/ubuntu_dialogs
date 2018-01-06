@@ -1,0 +1,4 @@
+2010-10-30T17:21:00.000Z	muixirt		hi, I like to know how to find out what packages depend on a particular package (ubuntu 10.10)
+2010-10-30T17:21:00.000Z	willemb	muixirt	 apt-cache show 'packagename' will tell you
+2010-10-30T17:26:00.000Z	muixirt	willemb	thanks, i look into it
+2010-10-30T17:28:00.000Z	willemb	muixirt	 Looks like you want apt-orphan

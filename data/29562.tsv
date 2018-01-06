@@ -1,0 +1,4 @@
+2010-08-30T21:53:00.000Z	nsd		I just installed samba onto a machine running 10.04 desktop (with sudo apt-get install samba), and I can't find /etc/init.d/samba to restart it. Did that script change names or location, or is there some other method of restarting it?
+2010-08-30T21:54:00.000Z	erUSUL	nsd	/etc/init/smbd.conf
+2010-08-30T21:54:00.000Z	erUSUL	nsd	sudo restart smbd
+2010-08-30T21:54:00.000Z	nsd	erUSUL	thanks

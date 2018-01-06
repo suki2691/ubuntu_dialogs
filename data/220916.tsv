@@ -1,0 +1,4 @@
+2007-02-06T15:17:00.000Z	lmsgruppe		how can i restore this file, now that noone on the system is in sudo group?
+2007-02-06T15:17:00.000Z	lmsgruppe		/etc/groups
+2007-02-06T15:19:00.000Z	vegiVamp	lmsgruppe	if you've got no way to become root anymore, you'll need to reboot, append "init=/bin/bash" to the boot parameters
+2007-02-06T15:20:00.000Z	vegiVamp	lmsgruppe	when it booted, you'll need to "remount / -oremount,rw", and then you'll have write access to the entire filesystem

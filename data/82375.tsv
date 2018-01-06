@@ -1,0 +1,4 @@
+2012-06-24T22:44:00.000Z	Matisse		hi
+2012-06-24T22:44:00.000Z	Matisse		is it a good idea to make an extra partition for the root directory using ext2 for speed?
+2012-06-24T22:45:00.000Z	Matisse		most of the thing on / are static so a journaling filesystem isnt needed
+2012-06-24T22:46:00.000Z	guntbert	Matisse	if there is little change then there is no penalty for journaling either

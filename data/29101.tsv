@@ -1,0 +1,4 @@
+2012-04-14T02:37:00.000Z	bunnyfun		can someone interprete this error/
+2012-04-14T02:37:00.000Z	bunnyfun		Xorg[1168]: segfault at 12 ip 00007fd57e1aa133 sp 00007ffff9855f00 error 6 in nvidia_drv.so[7fd57e109000+4cd000]
+2012-04-14T02:38:00.000Z	bunnyfun		am i correct  that this is an nvidia software problem?
+2012-04-14T02:38:00.000Z	ResQue	bunnyfun	sounds like the nvidia driver tried to access memory it was not supposed to . or something else accessed in memory address when it was not allowed to. so the kernal through a segfault to stop it

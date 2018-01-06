@@ -1,0 +1,4 @@
+2010-09-24T19:14:00.000Z	tmba		hi there..  I see one of my packages has 2 entries when I do apt-cache show on it. Somehow the latest version is never detected when I do an apt-get upgrade. Any ideas on how I can proceed to upgrade to the last version (it should be there when its shown in apt-cache right?)
+2010-09-24T19:15:00.000Z	blue_anna	tmba	sudo apt-get install --reinstall ??
+2010-09-24T19:16:00.000Z	tmba	blue_anna	thanks, I'll try that
+2010-09-24T19:20:00.000Z	tmba	blue_anna	I removed the strange package using apt-get remove, then just using apt-get install worked. Instead of install --reinstall

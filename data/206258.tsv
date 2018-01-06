@@ -1,0 +1,4 @@
+2006-11-15T12:15:00.000Z	Don-DiZzLe		I want to permanently mount an XFS partition called /dev/sdb1, what is the correct entry in fstab?
+2006-11-15T12:15:00.000Z	Don-DiZzLe		I want to permanently mount an XFS partition called /dev/sdb1, what is the correct entry in fstab? anyone anyone?
+2006-11-15T12:16:00.000Z	nolimitsoya	Don-DiZzLe	/dev/sdb1 /<mount/point/> -t xfs defaults 0 2
+2006-11-15T12:17:00.000Z	nolimitsoya	Don-DiZzLe	the -t in my line is reduntant, otherwise they are identical :)

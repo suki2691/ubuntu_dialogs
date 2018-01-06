@@ -1,0 +1,4 @@
+2009-11-30T18:05:00.000Z	Jerkman		got a question here, i have 2 hard drives, 80 sata and 500gb sata. I have windows 7 x64 pro installed on the 80, and have just installed ubuntu 9.10 on hte 500. I want to dualboot. which bootloader should i keep? how do i go about this
+2009-11-30T18:06:00.000Z	Jerkman		easybcd.. windows app i presume
+2009-11-30T18:06:00.000Z	ActionParsnip1	Jerkman	grub2 can boot both, the 80 will not have its bootloader changed, just point the BIOS at the 500 and grub2 will load
+2009-11-30T18:07:00.000Z	Jerkman	ActionParsnip1	ok, but how do i add win 7 to grub?

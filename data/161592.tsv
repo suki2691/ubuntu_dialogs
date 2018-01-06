@@ -1,0 +1,4 @@
+2008-04-09T17:47:00.000Z	pale-yafa		hi, I am new to crontabs, and I want to add cron to run a php script every 12 hours, reading about it I should folder /etc/crontab and its not there, what is it that iam missing
+2008-04-09T17:48:00.000Z	shadfc	pale-yafa	crontab -e   to edit your own crontab   0 0,12 * * * /usr/bin/php /path/to/your/script       would run it at midnight and noon
+2008-04-09T17:49:00.000Z	pale-yafa	Pici	compwiz18_ shadfc I just need to know where are these things located, for the sake of knowledge
+2008-04-09T17:50:00.000Z	shadfc	pale-yafa	/var/spool/cron

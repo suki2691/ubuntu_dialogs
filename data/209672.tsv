@@ -1,0 +1,4 @@
+2008-04-02T04:41:00.000Z	dazza		hi all
+2008-04-02T04:42:00.000Z	dazza		i'm trying to clear my old logs in /var/logs .. but they are owned by syslog... and I can't su to syslog or seem to clear them with '> log.0'
+2008-04-02T04:43:00.000Z	dazza		after sudo I get  - bash: messages.0: Permission denied
+2008-04-02T04:44:00.000Z	LjL	dazza	">" won't work with sudo, because it's parsed by the shell, which is not running as root. use   sudo sh -c "command"   when you need that sort of thing

@@ -1,0 +1,4 @@
+2006-04-12T06:06:00.000Z	osotogari		'lo all, I am wondering can anyone help me with a sound card issue that I am having with Ubuntu Breezy 5.10. My sound card seems to be detected when i type lspci but I am receiving an error message when I try to open a volume control "The volume control did not find any elements and/or devices to control. This means either that you don't have the right GStreamer plugins installed, or that you don't have a sound card configured"
+2006-04-12T06:07:00.000Z	crimsun	osotogari	pastebin ``lspci -v && lspci -nv && cat /proc/asound/cards && amixer -c0''
+2006-05-24T08:43:00.000Z	crimsun	osotogari	it's better to suggest ``lsb_release -r''
+2006-05-24T08:44:00.000Z	crimsun	osotogari	no, yours is fine, but lsb_release is the preferred way :-)
